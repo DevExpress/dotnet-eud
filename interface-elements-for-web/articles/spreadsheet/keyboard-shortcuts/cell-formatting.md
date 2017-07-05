@@ -1,5 +1,5 @@
 ---
-title: 'Cell Formatting '
+title: Cell Formatting
 ---
 The key combinations that allow you to apply formatting options quickly are listed in the following table.
 

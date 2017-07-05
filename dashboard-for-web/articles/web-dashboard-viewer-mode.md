@@ -7,7 +7,7 @@ The **Web Dashboard** provides the capability to display dashboards in web brows
 
 ## Data Presentation
 The topics in this section provide information on how the Web Dashboard presents data.
-* [Data Presentation Basics ](../../dashboard-for-web/articles/web-dashboard-viewer-mode/data-presentation/data-presentation-basics-.md)
+* [Data Presentation Basics ](../../dashboard-for-web/articles/web-dashboard-viewer-mode/data-presentation/data-presentation-basics.md)
 * [Master Filtering](../../dashboard-for-web/articles/web-dashboard-viewer-mode/data-presentation/master-filtering.md)
 * [Drill-Down](../../dashboard-for-web/articles/web-dashboard-viewer-mode/data-presentation/drill-down.md)
 * [Dashboard Layout](../../dashboard-for-web/articles/web-dashboard-viewer-mode/data-presentation/dashboard-layout.md)

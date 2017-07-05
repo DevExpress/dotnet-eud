@@ -72,7 +72,7 @@ The comprehensive functionality of the **Spreadsheet** is provided by a set of *
 
 [Cell References](../../../../interface-elements-for-web/articles/spreadsheet/formulas/cell-references.md)
 
-[Using Functions in Formulas ](../../../../interface-elements-for-web/articles/spreadsheet/formulas/using-functions-in-formulas-.md)
+[Using Functions in Formulas ](../../../../interface-elements-for-web/articles/spreadsheet/formulas/using-functions-in-formulas.md)
 
 [Supported Functions](../../../../interface-elements-for-web/articles/spreadsheet/formulas/supported-functions.md)
 

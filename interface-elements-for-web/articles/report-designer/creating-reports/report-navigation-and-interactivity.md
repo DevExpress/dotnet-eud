@@ -1,5 +1,5 @@
 ---
-title: 'Report Navigation and Interactivity '
+title: Report Navigation and Interactivity
 ---
 The topics in this section explain how to establish navigation through a report in different ways and enable editing reports in Print Preview.
 

@@ -1,5 +1,5 @@
 ---
-title: 'Group Items in a Pivot Table '
+title: Group Items in a Pivot Table
 ---
 Grouping can help you get a clearer view of data and show only data you want to analyze. The following topic describes how to group [dates](#date), [numbers](#number) or [selected items](#text) in a pivot table.
 

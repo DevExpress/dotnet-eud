@@ -21,7 +21,7 @@ The comprehensive functionality of the **Spreadsheet** is provided by a set of *
 * [Format Cell Content](../../../../interface-elements-for-desktop/articles/spreadsheet/cell-formatting/format-cell-content.md)
 * [Wrap Text and Merge Cells](../../../../interface-elements-for-desktop/articles/spreadsheet/cell-formatting/wrap-text-and-merge-cells.md)
 * [Number Formatting](../../../../interface-elements-for-desktop/articles/spreadsheet/cell-formatting/number-formatting.md)
-* [Conditional Formatting ](../../../../interface-elements-for-desktop/articles/spreadsheet/cell-formatting/conditional-formatting-.md)
+* [Conditional Formatting ](../../../../interface-elements-for-desktop/articles/spreadsheet/cell-formatting/conditional-formatting.md)
 * [Clear Cell Formatting](../../../../interface-elements-for-desktop/articles/spreadsheet/cell-formatting/clear-cell-formatting.md)
 * [Insert and Delete Columns and Rows](../../../../interface-elements-for-desktop/articles/spreadsheet/columns-and-rows/insert-and-delete-columns-and-rows.md)
 * [Show and Hide Columns and Rows](../../../../interface-elements-for-desktop/articles/spreadsheet/columns-and-rows/show-and-hide-columns-and-rows.md)
@@ -32,7 +32,7 @@ The comprehensive functionality of the **Spreadsheet** is provided by a set of *
 ## Insert Tab
 ![Spreadsheet_InsertTab](../../../images/Img22673.png)
 * [Create a Pivot Table](../../../../interface-elements-for-desktop/articles/spreadsheet/pivot-tables/create-a-pivot-table.md)
-* [Create a Table ](../../../../interface-elements-for-desktop/articles/spreadsheet/tables/create-a-table-.md)
+* [Create a Table ](../../../../interface-elements-for-desktop/articles/spreadsheet/tables/create-a-table.md)
 * [Insert a Picture](../../../../interface-elements-for-desktop/articles/spreadsheet/pictures-and-hyperlinks/insert-a-picture.md)
 * [Move, Rotate and Resize a Picture](../../../../interface-elements-for-desktop/articles/spreadsheet/pictures-and-hyperlinks/move-rotate-and-resize-a-picture.md)
 * [Insert and Delete Hyperlinks](../../../../interface-elements-for-desktop/articles/spreadsheet/pictures-and-hyperlinks/insert-and-delete-hyperlinks.md)
@@ -52,9 +52,9 @@ The comprehensive functionality of the **Spreadsheet** is provided by a set of *
 * [Create a Simple Formula](../../../../interface-elements-for-desktop/articles/spreadsheet/formulas/create-a-simple-formula.md)
 * [Cell References](../../../../interface-elements-for-desktop/articles/spreadsheet/formulas/cell-references.md)
 * [Defined Names](../../../../interface-elements-for-desktop/articles/spreadsheet/formulas/defined-names.md)
-* [Using Functions in Formulas ](../../../../interface-elements-for-desktop/articles/spreadsheet/formulas/using-functions-in-formulas-.md)
+* [Using Functions in Formulas ](../../../../interface-elements-for-desktop/articles/spreadsheet/formulas/using-functions-in-formulas.md)
 * [Supported Functions](../../../../interface-elements-for-desktop/articles/spreadsheet/formulas/supported-functions.md)
-* [Create an Array Formula ](../../../../interface-elements-for-desktop/articles/spreadsheet/formulas/create-an-array-formula-.md)
+* [Create an Array Formula ](../../../../interface-elements-for-desktop/articles/spreadsheet/formulas/create-an-array-formula.md)
 * [Error Types in Formulas](../../../../interface-elements-for-desktop/articles/spreadsheet/formulas/error-types-in-formulas.md)
 
 ## Data Tab

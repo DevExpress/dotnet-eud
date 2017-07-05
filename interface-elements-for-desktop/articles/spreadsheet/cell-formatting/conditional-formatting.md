@@ -1,5 +1,5 @@
 ---
-title: 'Conditional Formatting '
+title: Conditional Formatting
 ---
 The **Spreadsheet** allows you to apply **conditional formatting** to a range of cells. Conditional formatting changes the appearance of individual cells based on specific conditions. It helps to highlight critical information, or describe trends within cells by using data bars, color scales and built-in icon sets. To create a conditional format, select the cell range to which you wish to apply a conditional formatting rule. On the **Home** tab, in the **Styles** group, click the **Conditional Formatting** button to display a drop-down list of available conditional formats. You can do one of the following.
 * [Format Cells that are Less than, Greater than or Equal to a Value](#relationaloperator)

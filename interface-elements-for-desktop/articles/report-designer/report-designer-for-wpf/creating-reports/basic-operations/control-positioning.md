@@ -1,5 +1,5 @@
 ---
-title: 'Control Positioning '
+title: Control Positioning
 ---
 This document describes how to easily construct professionally looking reports by precisely aligning their [elements](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-wpf/report-elements/report-controls.md) to each other. These are useful when creating new reports from scratch or when fixing cluttered report layouts with dozens of randomly scattered controls.
 

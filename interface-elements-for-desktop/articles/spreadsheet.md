@@ -40,7 +40,7 @@ This section describes the capabilities provided by the **Spreadsheet**.
 * [Format Cell Content](../../interface-elements-for-desktop/articles/spreadsheet/cell-formatting/format-cell-content.md)
 * [Wrap Text and Merge Cells](../../interface-elements-for-desktop/articles/spreadsheet/cell-formatting/wrap-text-and-merge-cells.md)
 * [Number Formatting](../../interface-elements-for-desktop/articles/spreadsheet/cell-formatting/number-formatting.md)
-* [Conditional Formatting ](../../interface-elements-for-desktop/articles/spreadsheet/cell-formatting/conditional-formatting-.md)
+* [Conditional Formatting ](../../interface-elements-for-desktop/articles/spreadsheet/cell-formatting/conditional-formatting.md)
 * [Clear Cell Formatting](../../interface-elements-for-desktop/articles/spreadsheet/cell-formatting/clear-cell-formatting.md)
 
 **Columns and Rows**
@@ -49,7 +49,7 @@ This section describes the capabilities provided by the **Spreadsheet**.
 * [Specify Column Width and Row Height](../../interface-elements-for-desktop/articles/spreadsheet/columns-and-rows/specify-column-width-and-row-height.md)
 
 **Tables**
-* [Create a Table ](../../interface-elements-for-desktop/articles/spreadsheet/tables/create-a-table-.md)
+* [Create a Table ](../../interface-elements-for-desktop/articles/spreadsheet/tables/create-a-table.md)
 
 **Pivot Tables**
 * [Create a Pivot Table](../../interface-elements-for-desktop/articles/spreadsheet/pivot-tables/create-a-pivot-table.md)
@@ -59,9 +59,9 @@ This section describes the capabilities provided by the **Spreadsheet**.
 * [Apply a Predefined Style to a Pivot Table](../../interface-elements-for-desktop/articles/spreadsheet/pivot-tables/apply-a-predefined-style-to-a-pivot-table.md)
 * [Change the PivotTable Layout](../../interface-elements-for-desktop/articles/spreadsheet/pivot-tables/change-the-pivottable-layout.md)
 * [Subtotal and Total Fields in a Pivot Table](../../interface-elements-for-desktop/articles/spreadsheet/pivot-tables/subtotal-and-total-fields-in-a-pivot-table.md)
-* [Group Items in a Pivot Table ](../../interface-elements-for-desktop/articles/spreadsheet/pivot-tables/group-items-in-a-pivot-table-.md)
+* [Group Items in a Pivot Table ](../../interface-elements-for-desktop/articles/spreadsheet/pivot-tables/group-items-in-a-pivot-table.md)
 * [Sort Items in a Pivot Table](../../interface-elements-for-desktop/articles/spreadsheet/pivot-tables/sort-items-in-a-pivot-table.md)
-* [Filter a Pivot Table ](../../interface-elements-for-desktop/articles/spreadsheet/pivot-tables/filter-a-pivot-table-.md)
+* [Filter a Pivot Table ](../../interface-elements-for-desktop/articles/spreadsheet/pivot-tables/filter-a-pivot-table.md)
 * [Insert a Calculated Field and Calculated Item](../../interface-elements-for-desktop/articles/spreadsheet/pivot-tables/insert-a-calculated-field-and-calculated-item.md)
 
 **Data Analysis and Presentation**
@@ -83,9 +83,9 @@ This section describes the capabilities provided by the **Spreadsheet**.
 * [Create a Simple Formula](../../interface-elements-for-desktop/articles/spreadsheet/formulas/create-a-simple-formula.md)
 * [Cell References](../../interface-elements-for-desktop/articles/spreadsheet/formulas/cell-references.md)
 * [Defined Names](../../interface-elements-for-desktop/articles/spreadsheet/formulas/defined-names.md)
-* [Using Functions in Formulas ](../../interface-elements-for-desktop/articles/spreadsheet/formulas/using-functions-in-formulas-.md)
+* [Using Functions in Formulas ](../../interface-elements-for-desktop/articles/spreadsheet/formulas/using-functions-in-formulas.md)
 * [Supported Functions](../../interface-elements-for-desktop/articles/spreadsheet/formulas/supported-functions.md)
-* [Create an Array Formula ](../../interface-elements-for-desktop/articles/spreadsheet/formulas/create-an-array-formula-.md)
+* [Create an Array Formula ](../../interface-elements-for-desktop/articles/spreadsheet/formulas/create-an-array-formula.md)
 * [Error Types in Formulas](../../interface-elements-for-desktop/articles/spreadsheet/formulas/error-types-in-formulas.md)
 
 **Charting**
@@ -110,9 +110,9 @@ This section describes the capabilities provided by the **Spreadsheet**.
 **Keyboard Shortcuts**
 * [File Operations](../../interface-elements-for-desktop/articles/spreadsheet/keyboard-shortcuts/file-operations.md)
 * [Navigation inside Worksheets](../../interface-elements-for-desktop/articles/spreadsheet/keyboard-shortcuts/navigation-inside-worksheets.md)
-* [Work with Selections ](../../interface-elements-for-desktop/articles/spreadsheet/keyboard-shortcuts/work-with-selections-.md)
+* [Work with Selections ](../../interface-elements-for-desktop/articles/spreadsheet/keyboard-shortcuts/work-with-selections.md)
 * [Copy, Paste and Edit the Cell Content](../../interface-elements-for-desktop/articles/spreadsheet/keyboard-shortcuts/copy-paste-and-edit-the-cell-content.md)
-* [Cell Formatting ](../../interface-elements-for-desktop/articles/spreadsheet/keyboard-shortcuts/cell-formatting-.md)
+* [Cell Formatting ](../../interface-elements-for-desktop/articles/spreadsheet/keyboard-shortcuts/cell-formatting.md)
 * [Work with Columns and Rows](../../interface-elements-for-desktop/articles/spreadsheet/keyboard-shortcuts/work-with-columns-and-rows.md)
 * [Sort and Filter](../../interface-elements-for-desktop/articles/spreadsheet/keyboard-shortcuts/sort-and-filter.md)
 * [Work with Formulas](../../interface-elements-for-desktop/articles/spreadsheet/keyboard-shortcuts/work-with-formulas.md)

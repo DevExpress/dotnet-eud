@@ -1,5 +1,5 @@
 ---
-title: 'Filter a Pivot Table '
+title: Filter a Pivot Table
 ---
 The **Spreadsheet** provides numerous ways to apply filtering to the PivotTable fields to display only data that meets specific criteria. Select the task you wish to perform.
 * [Use a Report Filter](#page)

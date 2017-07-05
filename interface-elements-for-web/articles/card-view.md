@@ -8,7 +8,7 @@ This section describes the capabilities provided by the Card View control, which
 **Data Editing**
 * [Add and Delete Cards](../../interface-elements-for-web/articles/card-view/data-editing/add-and-delete-cards.md)
 * [Switching a CardView to Edit Mode](../../interface-elements-for-web/articles/card-view/data-editing/switching-a-cardview-to-edit-mode.md)
-* [Save or Discard Changes ](../../interface-elements-for-web/articles/card-view/data-editing/save-or-discard-changes-.md)
+* [Save or Discard Changes ](../../interface-elements-for-web/articles/card-view/data-editing/save-or-discard-changes.md)
 * [Batch Editing](../../interface-elements-for-web/articles/card-view/data-editing/batch-editing.md)
 
 **Selection and Navigation**

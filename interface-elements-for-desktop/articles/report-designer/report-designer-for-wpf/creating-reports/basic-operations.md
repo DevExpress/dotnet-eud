@@ -8,6 +8,6 @@ This section consists of the following topics.
 * [Change Measurement Units of a Report](../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-wpf/creating-reports/basic-operations/change-measurement-units-of-a-report.md)
 * [Create and Delete Report Elements](../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-wpf/creating-reports/basic-operations/create-and-delete-report-elements.md)
 * [Adjust the Layout of Report Elements](../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-wpf/creating-reports/basic-operations/adjust-the-layout-of-report-elements.md)
-* [Control Positioning ](../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-wpf/creating-reports/basic-operations/control-positioning-.md)
+* [Control Positioning ](../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-wpf/creating-reports/basic-operations/control-positioning.md)
 * [Adjust Page Layout Settings](../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-wpf/creating-reports/basic-operations/adjust-page-layout-settings.md)
 * [Back Up the Report Layout](../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-wpf/creating-reports/basic-operations/back-up-the-report-layout.md)

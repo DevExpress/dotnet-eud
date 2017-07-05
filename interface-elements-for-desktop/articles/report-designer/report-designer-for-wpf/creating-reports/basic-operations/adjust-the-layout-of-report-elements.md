@@ -26,7 +26,7 @@ To move a report control, select it and drag to the new location. To move it usi
 
 You can also move multiple selected report controls in the same way as individual controls.
 
-The report controls can be precisely aligned to each other using the **Snap Gird** and/or **Snap Lines**. For details on this, refer to [Control Positioning ](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-wpf/creating-reports/basic-operations/control-positioning-.md).
+The report controls can be precisely aligned to each other using the **Snap Gird** and/or **Snap Lines**. For details on this, refer to [Control Positioning ](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-wpf/creating-reports/basic-operations/control-positioning.md).
 
 <a name="resizing"/>
 

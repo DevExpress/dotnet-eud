@@ -1,5 +1,5 @@
 ---
-title: 'Work with Selections '
+title: Work with Selections
 ---
 The key combinations that allow you to work with selections are listed in the table below.
 

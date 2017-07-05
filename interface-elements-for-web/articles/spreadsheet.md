@@ -51,7 +51,7 @@ This section describes the capabilities provided by the **Spreadsheet**.
 **Formulas**
 * [Create a Simple Formula](../../interface-elements-for-web/articles/spreadsheet/formulas/create-a-simple-formula.md)
 * [Cell References](../../interface-elements-for-web/articles/spreadsheet/formulas/cell-references.md)
-* [Using Functions in Formulas ](../../interface-elements-for-web/articles/spreadsheet/formulas/using-functions-in-formulas-.md)
+* [Using Functions in Formulas ](../../interface-elements-for-web/articles/spreadsheet/formulas/using-functions-in-formulas.md)
 * [Supported Functions](../../interface-elements-for-web/articles/spreadsheet/formulas/supported-functions.md)
 * [Error Types in Formulas](../../interface-elements-for-web/articles/spreadsheet/formulas/error-types-in-formulas.md)
 
@@ -70,7 +70,7 @@ This section describes the capabilities provided by the **Spreadsheet**.
 **Keyboard Shortcuts**
 * [File Operations](../../interface-elements-for-web/articles/spreadsheet/keyboard-shortcuts/file-operations.md)
 * [Navigation inside Worksheets](../../interface-elements-for-web/articles/spreadsheet/keyboard-shortcuts/navigation-inside-worksheets.md)
-* [Work with Selections ](../../interface-elements-for-web/articles/spreadsheet/keyboard-shortcuts/work-with-selections-.md)
+* [Work with Selections ](../../interface-elements-for-web/articles/spreadsheet/keyboard-shortcuts/work-with-selections.md)
 * [Copy, Paste and Edit the Cell Content](../../interface-elements-for-web/articles/spreadsheet/keyboard-shortcuts/copy-paste-and-edit-the-cell-content.md)
-* [Cell Formatting ](../../interface-elements-for-web/articles/spreadsheet/keyboard-shortcuts/cell-formatting-.md)
+* [Cell Formatting ](../../interface-elements-for-web/articles/spreadsheet/keyboard-shortcuts/cell-formatting.md)
 * [Work with Columns and Rows](../../interface-elements-for-web/articles/spreadsheet/keyboard-shortcuts/work-with-columns-and-rows.md)

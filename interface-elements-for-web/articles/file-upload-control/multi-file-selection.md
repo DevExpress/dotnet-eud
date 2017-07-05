@@ -1,5 +1,5 @@
 ---
-title: 'Multi-File Selection '
+title: Multi-File Selection
 ---
 You can upload several files at once if multiple file selection is allowed by the application vendor.
 

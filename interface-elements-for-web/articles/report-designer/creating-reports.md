@@ -6,6 +6,6 @@ With the [Web Report Designer](../../../interface-elements-for-web/articles/repo
 * [Providing Data](../../../interface-elements-for-web/articles/report-designer/creating-reports/providing-data.md)
 * [Shaping Data](../../../interface-elements-for-web/articles/report-designer/creating-reports/shaping-data.md)
 * [Appearance Customization](../../../interface-elements-for-web/articles/report-designer/creating-reports/appearance-customization.md)
-* [Report Navigation and Interactivity ](../../../interface-elements-for-web/articles/report-designer/creating-reports/report-navigation-and-interactivity-.md)
+* [Report Navigation and Interactivity ](../../../interface-elements-for-web/articles/report-designer/creating-reports/report-navigation-and-interactivity.md)
 * [Add Details about a Report](../../../interface-elements-for-web/articles/report-designer/creating-reports/add-details-about-a-report.md)
 * [Scripting](../../../interface-elements-for-web/articles/report-designer/creating-reports/scripting.md)
