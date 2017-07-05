@@ -1,0 +1,83 @@
+---
+title: Context Menu
+---
+The **context menu** is a popup menu displayed when you right-click a grid element.
+
+A context menu can be displayed for the following elements: [group panel](#grouppanelmenu), [column header](#column-menu), [row](#row-menu), and [footer](#footer-menu).
+
+Context menu commands can be hidden or unavailable, based on the current grid settings.
+
+## <a name="grouppanelmenu"/>Group Panel Menu
+To display the group panel menu, right-click a group panel.
+
+![Grid overview 1](../../../images/Img24033.png)
+
+The table below lists the group panel menu commands.
+
+| Command | Description |
+|---|---|
+| Expand All | Expands all group rows. |
+| Collapse All | Collapses all group rows. |
+| Clear Grouping | Clears grouping in the group panel. |
+| Group Panel | Shows and hides the group panel. |
+
+## <a name="column-menu"/>Column Header Menu
+To display the column header menu, right-click the column header.
+
+![Grid overview 2](../../../images/Img24034.png)
+
+The table below lists the column header menu commands.
+
+| Command | Description |
+|---|---|
+| Clear Filter | Clears the current column filter. |
+| Clear Sorting | Clears the current column sorting. |
+| Collapse All | Collapses all group rows. |
+| Expand All | Expands all group rows. |
+| Group by This Column | Groups grid data by the current column. |
+| Hide Column | Hides the current column. |
+| Show Column | Shows a column in the grid. |
+| Column Chooser | Shows and hides the column chooser. |
+| Filter Builder... | Shows and hides the filter builder. |
+| Filter Row | Shows and hides the filter row. |
+| Filter Row Menu | Shows and hides the filter row menu. |
+| Footer | Shows and hides the footer. |
+| Group Panel | Shows and hides the group panel. |
+| Search Panel | Shows and hides the search panel. |
+| Sort Ascending | Sorts grid data by the current column ascending. |
+| Sort Descending | Sorts grid data by the current column descending. |
+| Ungroup | Ungroups grid data by the current column. |
+
+## <a name="row-menu"/>Row Menu
+To display the row menu, right-click a row.
+
+![Grid overview 3](../../../images/Img24035.png)
+
+The table below lists the row menu commands.
+
+| Command | Description |
+|---|---|
+| Collapse Detail | Collapses the current detail row. |
+| Collapse | Collapses the current group row. |
+| Delete | Deletes the current data row. |
+| Edit | Turns the edit mode on for the current row. |
+| Expand Detail | Expands the current detail row. |
+| Expand | Expands the current group row. |
+| New | Creates a new row. |
+| Refresh | Refreshes grid data. |
+
+## <a name="footer-menu"/>Footer Menu
+To display the footer menu, right-click a footer.
+
+![Grid overview 4](../../../images/Img24037.png)
+
+The table below lists the footer menu commands.
+
+| Command | Description |
+|---|---|
+| Average | Shows and hides the average cell value in the current column. |
+| Count | Shows and hides the count of the current column cell values. |
+| Max | Shows and hides the maximum cell value in the current column. |
+| Min | Shows and hides the minimum cell value in the current column. |
+| Sum | Shows and hides the sum of the current column cell values. |
+| None | Hides every summary item. |

@@ -1,0 +1,20 @@
+---
+title: Control Toolbox
+---
+The **Control Toolbox** lists all available [controls](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-reference/report-controls.md) and allows you to add them to your report.
+
+![RD_Elements_Toolbox](../../../../../images/Img8260.png)
+
+To add a control from the Toolbox, do one of the following.
+* Double-click an item in the Toolbox for the appropriate control, which will be created at the [Detail band](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-reference/report-bands/detail-band.md)'s top left corner.
+* Drag and drop an item from the Toolbox onto the required location within a report.
+	
+	![RD_CreateReports_StaticReport_0](../../../../../images/Img8340.png)
+* Select an item in the Toolbox, and then click the required location within a report.
+* Select an item in the Toolbox, and then indicate the bounding rectangle by holding the left mouse button.
+	
+	![RD_Elements_Toolbox_0](../../../../../images/Img11136.png)
+
+Select the ![RD_Toolbox_1](../../../../../images/Img9152.png) **Pointer** item when you need to perform selection, re-positioning or resizing operations. It is automatically selected after you drop a control onto a report.
+
+If the Toolbox is hidden, you can enable it in the [Main Menu](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-reference/report-designer-ui/main-menu.md), by selecting **View** | **Toolbars** | **Standard Controls**.

@@ -1,0 +1,1644 @@
+- name: Charting
+  href: articles\charting\charting.md
+  items:
+  - name: Chart Designer
+    href: articles\charting\chart-designer\chart-designer.md
+  - name: Chart Wizard
+    href: articles\charting\chart-wizard\chart-wizard.md
+    items:
+    - name: Chart Type Page
+      href: articles\charting\chart-wizard\chart-type-page.md
+    - name: Appearance Page
+      href: articles\charting\chart-wizard\appearance-page.md
+    - name: Series Page
+      href: articles\charting\chart-wizard\series-page.md
+    - name: Data Page
+      href: articles\charting\chart-wizard\data-page.md
+    - name: Chart Page
+      href: articles\charting\chart-wizard\chart-page.md
+    - name: Diagram Page
+      href: articles\charting\chart-wizard\diagram-page.md
+    - name: Panes Page
+      href: articles\charting\chart-wizard\panes-page.md
+    - name: Axes Page
+      href: articles\charting\chart-wizard\axes-page.md
+    - name: Series Views Page
+      href: articles\charting\chart-wizard\series-views-page.md
+    - name: Point Labels Page
+      href: articles\charting\chart-wizard\point-labels-page.md
+    - name: Chart Titles Page
+      href: articles\charting\chart-wizard\chart-titles-page.md
+    - name: Legend Page
+      href: articles\charting\chart-wizard\legend-page.md
+    - name: Annotations Page
+      href: articles\charting\chart-wizard\annotations-page.md
+  - name: Highlighting and Selection Chart Elements
+    href: articles\charting\highlighting-and-selection-chart-elements.md
+  - name: Zoom a Chart
+    href: articles\charting\zoom-a-chart.md
+  - name: Scroll a Chart
+    href: articles\charting\scroll-a-chart.md
+  - name: Rotate a Chart
+    href: articles\charting\rotate-a-chart.md
+- name: Docking
+  href: articles\docking\docking.md
+  items:
+  - name: Dock Panels
+    href: articles\docking\dock-panels.md
+  - name: Documents
+    href: articles\docking\documents.md
+- name: Editors
+  href: articles\editors\editors.md
+  items:
+  - name: Working with Dropdown Editors
+    href: articles\editors\working-with-dropdown-editors.md
+  - name: Editing Values, Selecting Text and Using the Clipboard
+    href: articles\editors\editing-values-selecting-text-and-using-the-clipboard.md
+  - name: Editor Context Menu
+    href: articles\editors\editor-context-menu.md
+  - name: Image Editor
+    href: articles\editors\image-editor.md
+  - name: Manipulating Tokens
+    href: articles\editors\manipulating-tokens.md
+- name: Expression Editor
+  href: articles\expression-editor\expression-editor.md
+  items:
+  - name: Expression Operators, Functions and Constants
+    href: articles\expression-editor\expression-operators-functions-and-constants.md
+- name: Filter Editor
+  href: articles\filter-editor\filter-editor.md
+  items:
+  - name: Filter Data via the Filter Editor
+    href: articles\filter-editor\filter-data-via-the-filter-editor.md
+  - name: Examples of Using the Filter Editor
+    href: articles\filter-editor\examples-of-using-the-filter-editor.md
+- name: Grid
+  href: articles\grid\grid.md
+  items:
+  - name: Data Editing
+    items:
+    - name: Edit Grid Cells
+      href: articles\grid\data-editing\edit-grid-cells.md
+    - name: Add and Delete Grid Records
+      href: articles\grid\data-editing\add-and-delete-grid-records.md
+  - name: Data Presentation
+    items:
+    - name: Sort Grid Rows
+      href: articles\grid\data-presentation\sort-grid-rows.md
+    - name: Group Grid Rows
+      href: articles\grid\data-presentation\group-grid-rows.md
+    - name: Fix Grid Rows
+      href: articles\grid\data-presentation\fix-grid-rows.md
+  - name: Data Analysis
+    items:
+    - name: Filter Grid Data
+      href: articles\grid\data-analysis\filter-grid-data.md
+    - name: Filter Grid Data via Find Panel
+      href: articles\grid\data-analysis\filter-grid-data-via-find-panel.md
+    - name: Show Summaries (Totals) in Grids
+      href: articles\grid\data-analysis\show-summaries-(totals)-in-grids.md
+    - name: Apply Cell Conditional Formatting
+      href: articles\grid\data-analysis\apply-cell-conditional-formatting.md
+  - name: Layout Customization
+    items:
+    - name: Expand and Collapse Rows and Cards in Grids
+      href: articles\grid\layout-customization\expand-and-collapse-rows-and-cards-in-grids.md
+    - name: Hide and Display Grid Columns, Bands and Card Fields
+      href: articles\grid\layout-customization\hide-and-display-grid-columns-bands-and-card-fields.md
+    - name: Rearrange Grid Columns, Bands and Card Fields
+      href: articles\grid\layout-customization\rearrange-grid-columns-bands-and-card-fields.md
+    - name: Resize Cards in Grids
+      href: articles\grid\layout-customization\resize-cards-in-grids.md
+    - name: Resize Grid Columns, Bands and Card Fields
+      href: articles\grid\layout-customization\resize-grid-columns-bands-and-card-fields.md
+  - name: Selection and Navigation
+    items:
+    - name: Locate Grid Records
+      href: articles\grid\selection-and-navigation\locate-grid-records.md
+    - name: Navigate Through Grid Records
+      href: articles\grid\selection-and-navigation\navigate-through-grid-records.md
+    - name: Select Grid Rows and Cards
+      href: articles\grid\selection-and-navigation\select-grid-rows-and-cards.md
+- name: Layout Manager
+  href: articles\layout-manager\layout-manager.md
+  items:
+  - name: Layout Customization
+    items:
+    - name: Start Layout Customization
+      href: articles\layout-manager\layout-customization\start-layout-customization.md
+    - name: Finish Layout Customization
+      href: articles\layout-manager\layout-customization\finish-layout-customization.md
+    - name: Hide and Display Elements using a Layout Manager
+      href: articles\layout-manager\layout-customization\hide-and-display-elements-using-a-layout-manager.md
+    - name: Change Element Layout
+      href: articles\layout-manager\layout-customization\change-element-layout.md
+    - name: Resize Interface Elements
+      href: articles\layout-manager\layout-customization\resize-interface-elements.md
+    - name: Add Empty Regions, Separators, Splitters and Labels
+      href: articles\layout-manager\layout-customization\add-empty-regions-separators-splitters-and-labels.md
+    - name: Change Text Label Options
+      href: articles\layout-manager\layout-customization\change-text-label-options.md
+    - name: Work with Interface Element Groups
+      href: articles\layout-manager\layout-customization\work-with-interface-element-groups.md
+    - name: Create and Delete Tabbed Groups
+      href: articles\layout-manager\layout-customization\create-and-delete-tabbed-groups.md
+  - name: Save and Restore Layout
+    items:
+    - name: Save and Restore Interface Layout
+      href: articles\layout-manager\save-and-restore-layout\save-and-restore-interface-layout.md
+- name: Map
+  href: articles\map\map.md
+  items:
+  - name: Scrolling
+    href: articles\map\scrolling.md
+  - name: Zooming
+    href: articles\map\zooming.md
+  - name: Selection
+    href: articles\map\selection.md
+  - name: Using the Search Panel
+    href: articles\map\using-the-search-panel.md
+  - name: Mini Map
+    href: articles\map\mini-map.md
+- name: Navigation Bars
+  href: articles\navigation-bars\navigation-bars.md
+  items:
+  - name: Navigation Pane
+    href: articles\navigation-bars\navigation-pane.md
+  - name: Navigation Bar
+    href: articles\navigation-bars\navigation-bar.md
+- name: PDF Viewer
+  href: articles\pdf-viewer\pdf-viewer.md
+  items:
+  - name: Manage Documents and Files
+    href: articles\pdf-viewer\manage-documents-and-files.md
+  - name: Print Documents
+    href: articles\pdf-viewer\print-documents.md
+  - name: Navigate and View a Document
+    href: articles\pdf-viewer\navigate-and-view-a-document.md
+  - name: Adjust the Document View
+    href: articles\pdf-viewer\adjust-the-document-view.md
+  - name: Select and Copy the Document Content
+    href: articles\pdf-viewer\select-and-copy-the-document-content.md
+  - name: View Document Properties
+    href: articles\pdf-viewer\view-document-properties.md
+  - name: Thumbnails
+    href: articles\pdf-viewer\thumbnails.md
+  - name: Bookmarks
+    href: articles\pdf-viewer\bookmarks.md
+  - name: File Attachment
+    href: articles\pdf-viewer\file-attachment.md
+  - name: Export and Import the AcroForm Data
+    href: articles\pdf-viewer\export-and-import-the-acroform-data.md
+- name: Pivot Table
+  href: articles\pivot-table\pivot-table.md
+  items:
+  - name: Data Editing
+    items:
+    - name: Edit Data in Pivot Tables
+      href: articles\pivot-table\data-editing\edit-data-in-pivot-tables.md
+    - name: Edit Unbound Expression
+      href: articles\pivot-table\data-editing\edit-unbound-expression.md
+  - name: Data Presentation
+    href: articles\pivot-table\data-presentation\data-presentation.md
+    items:
+    - name: Sort Data in Pivot Tables
+      href: articles\pivot-table\data-presentation\sort-data\sort-data-in-pivot-tables.md
+      items:
+      - name: Simple Sorting
+        href: articles\pivot-table\data-presentation\sort-data\simple-sorting.md
+      - name: Sort Data Using the Context Menu
+        href: articles\pivot-table\data-presentation\sort-data\sort-data-using-the-context-menu.md
+      - name: Sort Data Using a Field List
+        href: articles\pivot-table\data-presentation\sort-data\sort-data-using-a-field-list.md
+      - name: Sort Data by Summaries
+        href: articles\pivot-table\data-presentation\sort-data\sort-data-by-summaries.md
+    - name: Filter Data in Pivot Tables
+      href: articles\pivot-table\data-presentation\filter-data\filter-data-in-pivot-tables.md
+      items:
+      - name: Filter Data by Field Values
+        href: articles\pivot-table\data-presentation\filter-data\filter-data-by-field-values\filter-data-by-field-values.md
+        items:
+        - name: Invoke a Filter Popup Window
+          href: articles\pivot-table\data-presentation\filter-data\filter-data-by-field-values\invoke-a-filter-popup-window.md
+        - name: Using Filter Popup Windows
+          href: articles\pivot-table\data-presentation\filter-data\filter-data-by-field-values\using-filter-popup-windows.md
+        - name: Filtering Options
+          href: articles\pivot-table\data-presentation\filter-data\filter-data-by-field-values\filtering-options.md
+      - name: Filter Data by Cell Values
+        href: articles\pivot-table\data-presentation\filter-data\filter-data-by-cell-values\filter-data-by-cell-values.md
+        items:
+        - name: Invoke a Summary Filter Window
+          href: articles\pivot-table\data-presentation\filter-data\filter-data-by-cell-values\invoke-a-summary-filter-window.md
+        - name: Select a Range of Values
+          href: articles\pivot-table\data-presentation\filter-data\filter-data-by-cell-values\select-a-range-of-values.md
+        - name: Move the Selected Range
+          href: articles\pivot-table\data-presentation\filter-data\filter-data-by-cell-values\move-the-selected-range.md
+        - name: Zoom and Move the Viewport
+          href: articles\pivot-table\data-presentation\filter-data\filter-data-by-cell-values\zoom-and-move-the-viewport.md
+        - name: Specify Target Cells
+          href: articles\pivot-table\data-presentation\filter-data\filter-data-by-cell-values\specify-target-cells.md
+        - name: Remove Filtering
+          href: articles\pivot-table\data-presentation\filter-data\filter-data-by-cell-values\remove-filtering.md
+      - name: Build Complex Filter Criteria
+        href: articles\pivot-table\data-presentation\filter-data\build-complex-filter-criteria\build-complex-filter-criteria.md
+    - name: Apply Conditional Formatting
+      href: articles\pivot-table\data-presentation\apply-conditional-formatting\apply-conditional-formatting.md
+    - name: Change Summary Type in Pivot Tables
+      href: articles\pivot-table\data-presentation\change-summary-type\change-summary-type-in-pivot-tables.md
+  - name: Layout Customization
+    href: articles\pivot-table\layout-customization\layout-customization.md
+    items:
+    - name: Resizing Columns
+      href: articles\pivot-table\layout-customization\resizing-columns\resizing-columns.md
+    - name: Expand and Collapse Groups in Pivot Tables
+      href: articles\pivot-table\layout-customization\expand-and-collapse-groups\expand-and-collapse-groups-in-pivot-tables.md
+    - name: Hide Pivot Table Fields
+      href: articles\pivot-table\layout-customization\hide-fields\hide-pivot-table-fields.md
+      items:
+      - name: Hide Fields Using the Context Menu
+        href: articles\pivot-table\layout-customization\hide-fields\hide-fields-using-the-context-menu.md
+      - name: Hide Fields Using a Field List
+        href: articles\pivot-table\layout-customization\hide-fields\hide-fields-using-a-field-list.md
+    - name: Display Hidden Pivot Table Fields
+      href: articles\pivot-table\layout-customization\display-hidden-fields\display-hidden-pivot-table-fields.md
+    - name: Reorder Pivot Table Fields
+      href: articles\pivot-table\layout-customization\reorder-fields\reorder-pivot-table-fields.md
+      items:
+      - name: Simple Fields Reordering
+        href: articles\pivot-table\layout-customization\reorder-fields\simple-fields-reordering.md
+      - name: Reorder Fields Using a Field List
+        href: articles\pivot-table\layout-customization\reorder-fields\reorder-fields-using-a-field-list.md
+  - name: Select Cells in Pivot Tables
+    href: articles\pivot-table\selection-and-navigation\select-cells-in-pivot-tables.md
+  - name: Field List Overview
+    href: articles\pivot-table\field-list\field-list-overview.md
+    items:
+    - name: Invoke a Field List
+      href: articles\pivot-table\field-list\invoke-a-field-list.md
+    - name: Defer Pivot Table Updates
+      href: articles\pivot-table\field-list\defer-pivot-table-updates.md
+    - name: Change Field List Layout
+      href: articles\pivot-table\field-list\change-field-list-layout.md
+- name: Print Preview
+  href: articles\print-preview\print-preview.md
+  items:
+  - name: Print Preview for WinForms
+    href: articles\print-preview\print-preview-for-winforms\print-preview-for-winforms.md
+    items:
+    - name: File Management
+      items:
+      - name: Save a Print Preview to a File
+        href: articles\print-preview\print-preview-for-winforms\file-management\save-a-print-preview-to-a-file.md
+      - name: Load a Print Preview from a File
+        href: articles\print-preview\print-preview-for-winforms\file-management\load-a-print-preview-from-a-file.md
+    - name: Printing and Page Setup
+      items:
+      - name: Print a Document via the Print Dialog
+        href: articles\print-preview\print-preview-for-winforms\printing-and-page-setup\print-a-document-via-the-print-dialog.md
+      - name: Print a Document Using Default Settings
+        href: articles\print-preview\print-preview-for-winforms\printing-and-page-setup\print-a-document-using-default-settings.md
+      - name: Change Printing Settings via the Page Setup Dialog
+        href: articles\print-preview\print-preview-for-winforms\printing-and-page-setup\change-printing-settings-via-the-page-setup-dialog.md
+      - name: Specify Page Margins in Print Preview
+        href: articles\print-preview\print-preview-for-winforms\printing-and-page-setup\specify-page-margins-in-print-preview.md
+      - name: Print Selection
+        href: articles\print-preview\print-preview-for-winforms\printing-and-page-setup\print-selection.md
+    - name: Headers and Footers
+      items:
+      - name: Insert Page Header and Page Footer into Printed Documents
+        href: articles\print-preview\print-preview-for-winforms\headers-and-footers\insert-page-header-and-page-footer-into-printed-documents.md
+      - name: Insert Page Numbers into Printed Documents
+        href: articles\print-preview\print-preview-for-winforms\headers-and-footers\insert-page-numbers-into-printed-documents.md
+      - name: Insert Date and Time into Printed Documents
+        href: articles\print-preview\print-preview-for-winforms\headers-and-footers\insert-date-and-time-into-printed-documents.md
+      - name: Insert the User Name into Printed Documents
+        href: articles\print-preview\print-preview-for-winforms\headers-and-footers\insert-the-user-name-into-printed-documents.md
+      - name: Insert a Logo into Printed Documents
+        href: articles\print-preview\print-preview-for-winforms\headers-and-footers\insert-a-logo-into-printed-documents.md
+    - name: Scaling
+      items:
+      - name: Scale Print Preview by Entering a Zoom Factor
+        href: articles\print-preview\print-preview-for-winforms\scaling\scale-print-preview-by-entering-a-zoom-factor.md
+      - name: Scale Print Preview by Specifying Width in Pages
+        href: articles\print-preview\print-preview-for-winforms\scaling\scale-print-preview-by-specifying-width-in-pages.md
+    - name: Zooming
+      items:
+      - name: Zoom Print Preview In or Out
+        href: articles\print-preview\print-preview-for-winforms\zooming\zoom-print-preview-in-or-out.md
+      - name: Zoom Print Preview by Entering a Zoom Factor
+        href: articles\print-preview\print-preview-for-winforms\zooming\zoom-print-preview-by-entering-a-zoom-factor.md
+      - name: Zoom Print Preview to Show Whole Pages or Fit Content
+        href: articles\print-preview\print-preview-for-winforms\zooming\zoom-print-preview-to-show-whole-pages-or-fit-content.md
+      - name: Show Two or More Pages in Print Preview
+        href: articles\print-preview\print-preview-for-winforms\zooming\show-two-or-more-pages-in-print-preview.md
+    - name: Viewing and Navigating
+      items:
+      - name: Navigate Between Pages in Print Preview
+        href: articles\print-preview\print-preview-for-winforms\viewing-and-navigating\navigate-between-pages-in-print-preview.md
+      - name: Use the Hand Tool in Print Preview
+        href: articles\print-preview\print-preview-for-winforms\viewing-and-navigating\use-the-hand-tool-in-print-preview.md
+      - name: Navigate in Print Preview Using Bookmarks
+        href: articles\print-preview\print-preview-for-winforms\viewing-and-navigating\navigate-in-print-preview-using-bookmarks.md
+      - name: Navigate in Print Preview Using Thumbnails
+        href: articles\print-preview\print-preview-for-winforms\viewing-and-navigating\navigate-in-print-preview-using-thumbnails.md
+      - name: Search for a Specific Text in Print Preview
+        href: articles\print-preview\print-preview-for-winforms\viewing-and-navigating\search-for-a-specific-text-in-print-preview.md
+      - name: Switch Print Preview Display Mode
+        href: articles\print-preview\print-preview-for-winforms\viewing-and-navigating\switch-print-preview-display-mode.md
+    - name: Interactivity
+      items:
+      - name: Content Editing in Print Preview
+        href: articles\print-preview\print-preview-for-winforms\interactivity\content-editing-in-print-preview.md
+    - name: Watermark and Background
+      items:
+      - name: Change Watermark and Background Settings in Print Preview
+        href: articles\print-preview\print-preview-for-winforms\watermark-and-background\change-watermark-and-background-settings-in-print-preview.md
+      - name: Remove a Watermark in Print Preview
+        href: articles\print-preview\print-preview-for-winforms\watermark-and-background\remove-a-watermark-in-print-preview.md
+    - name: Exporting
+      items:
+      - name: Exporting from Print Preview
+        href: articles\print-preview\print-preview-for-winforms\exporting\exporting-from-print-preview.md
+      - name: Copy to the Clipboard
+        href: articles\print-preview\print-preview-for-winforms\exporting\copy-to-the-clipboard.md
+      - name: PDF-Specific Export Options
+        href: articles\print-preview\print-preview-for-winforms\exporting\pdf-specific-export-options.md
+      - name: HTML-Specific Export Options
+        href: articles\print-preview\print-preview-for-winforms\exporting\html-specific-export-options.md
+      - name: MHT-Specific Export Options
+        href: articles\print-preview\print-preview-for-winforms\exporting\mht-specific-export-options.md
+      - name: RTF-Specific Export Options
+        href: articles\print-preview\print-preview-for-winforms\exporting\rtf-specific-export-options.md
+      - name: DOCX-Specific Export Options
+        href: articles\print-preview\print-preview-for-winforms\exporting\docx-specific-export-options.md
+      - name: XLS-Specific Export Options
+        href: articles\print-preview\print-preview-for-winforms\exporting\xls-specific-export-options.md
+      - name: XLSX-Specific Export Options
+        href: articles\print-preview\print-preview-for-winforms\exporting\xlsx-specific-export-options.md
+      - name: CSV-Specific Export Options
+        href: articles\print-preview\print-preview-for-winforms\exporting\csv-specific-export-options.md
+      - name: TXT-Specific Export Options
+        href: articles\print-preview\print-preview-for-winforms\exporting\txt-specific-export-options.md
+      - name: Image-Specific Export Options
+        href: articles\print-preview\print-preview-for-winforms\exporting\image-specific-export-options.md
+    - name: Passing Parameters in Print Preview
+      href: articles\print-preview\print-preview-for-winforms\passing-parameters\passing-parameters-in-print-preview.md
+    - name: Miscellaneous
+      items:
+      - name: Customize Printing Settings of Charts
+        href: articles\print-preview\print-preview-for-winforms\miscellaneous\customize-printing-settings-of-charts.md
+      - name: Customize Printing Settings of Grids
+        href: articles\print-preview\print-preview-for-winforms\miscellaneous\customize-printing-settings-of-grids.md
+      - name: Customize Printing Settings of Pivot Tables
+        href: articles\print-preview\print-preview-for-winforms\miscellaneous\customize-printing-settings-of-pivot-tables.md
+      - name: Customize Printing Settings of Tree Views
+        href: articles\print-preview\print-preview-for-winforms\miscellaneous\customize-printing-settings-of-tree-views.md
+    - name: Warnings and Error Messages in Print Preview
+      href: articles\print-preview\print-preview-for-winforms\warnings-and-error-messages\warnings-and-error-messages-in-print-preview.md
+  - name: Print Preview for WPF
+    href: articles\print-preview\print-preview-for-wpf\print-preview-for-wpf.md
+    items:
+    - name: File Management
+      items:
+      - name: Save a Print Preview to a File
+        href: articles\print-preview\print-preview-for-wpf\file-management\save-a-print-preview-to-a-file.md
+      - name: Load a Print Preview from a File
+        href: articles\print-preview\print-preview-for-wpf\file-management\load-a-print-preview-from-a-file.md
+    - name: Printing and Page Setup
+      items:
+      - name: Print a Document Using the Print Dialog
+        href: articles\print-preview\print-preview-for-wpf\printing-and-page-setup\print-a-document-using-the-print-dialog.md
+      - name: Print a Document Using Default Settings
+        href: articles\print-preview\print-preview-for-wpf\printing-and-page-setup\print-a-document-using-default-settings.md
+      - name: Change Print Settings Using the Page Setup Dialog
+        href: articles\print-preview\print-preview-for-wpf\printing-and-page-setup\change-print-settings-using-the-page-setup-dialog.md
+      - name: Scaling
+        href: articles\print-preview\print-preview-for-wpf\printing-and-page-setup\scaling.md
+    - name: Navigating
+      items:
+      - name: Navigate Between Pages
+        href: articles\print-preview\print-preview-for-wpf\navigating\navigate-between-pages.md
+      - name: Navigate Using Bookmarks
+        href: articles\print-preview\print-preview-for-wpf\navigating\navigate-using-bookmarks.md
+      - name: Navigate Using Thumbnails
+        href: articles\print-preview\print-preview-for-wpf\navigating\navigate-using-thumbnails.md
+      - name: Navigate Using the Hand Tool
+        href: articles\print-preview\print-preview-for-wpf\navigating\navigate-using-the-hand-tool.md
+      - name: Search for a Specific Text
+        href: articles\print-preview\print-preview-for-wpf\navigating\search-for-a-specific-text.md
+    - name: Interactivity
+      items:
+      - name: Content Editing in Print Preview
+        href: articles\print-preview\print-preview-for-wpf\interactivity\content-editing-in-print-preview.md
+    - name: Zooming
+      href: articles\print-preview\print-preview-for-wpf\zooming\zooming.md
+    - name: Passing Parameter Values
+      href: articles\print-preview\print-preview-for-wpf\passing-parameter-values\passing-parameter-values.md
+    - name: Changing a Watermark
+      href: articles\print-preview\print-preview-for-wpf\changing-watermark\changing-a-watermark.md
+    - name: Exporting
+      items:
+      - name: Exporting
+        href: articles\print-preview\print-preview-for-wpf\exporting\exporting.md
+      - name: Copying to the Clipboard
+        href: articles\print-preview\print-preview-for-wpf\exporting\copying-to-the-clipboard.md
+      - name: PDF-Specific Export Options
+        href: articles\print-preview\print-preview-for-wpf\exporting\pdf-specific-export-options.md
+      - name: HTML-Specific Export Options
+        href: articles\print-preview\print-preview-for-wpf\exporting\html-specific-export-options.md
+      - name: MHT-Specific Export Options
+        href: articles\print-preview\print-preview-for-wpf\exporting\mht-specific-export-options.md
+      - name: RTF-Specific Export Options
+        href: articles\print-preview\print-preview-for-wpf\exporting\rtf-specific-export-options.md
+      - name: DOCX-Specific Export Options
+        href: articles\print-preview\print-preview-for-wpf\exporting\docx-specific-export-options.md
+      - name: XLS-Specific Export Options
+        href: articles\print-preview\print-preview-for-wpf\exporting\xls-specific-export-options.md
+      - name: XLSX-Specific Export Options
+        href: articles\print-preview\print-preview-for-wpf\exporting\xlsx-specific-export-options.md
+      - name: CSV-Specific Export Options
+        href: articles\print-preview\print-preview-for-wpf\exporting\csv-specific-export-options.md
+      - name: Text-Specific Export Options
+        href: articles\print-preview\print-preview-for-wpf\exporting\text-specific-export-options.md
+      - name: Image-Specific Export Options
+        href: articles\print-preview\print-preview-for-wpf\exporting\image-specific-export-options.md
+- name: Report Designer
+  href: articles\report-designer\report-designer.md
+  items:
+  - name: Report Designer for WinForms
+    href: articles\report-designer\report-designer-for-winforms\report-designer-for-winforms.md
+    items:
+    - name: Report Editing Basics
+      href: articles\report-designer\report-designer-for-winforms\report-editing-basics\report-editing-basics.md
+      items:
+      - name: Back Up the Current Layout Before Modifying It
+        href: articles\report-designer\report-designer-for-winforms\report-editing-basics\back-up-the-current-layout-before-modifying-it.md
+      - name: Manually Update Report Output
+        href: articles\report-designer\report-designer-for-winforms\report-editing-basics\manually-update-report-output.md
+      - name: Change the Layout of Report Elements
+        href: articles\report-designer\report-designer-for-winforms\report-editing-basics\change-the-layout-of-report-elements.md
+      - name: Change Fonts and Colors of Report Elements
+        href: articles\report-designer\report-designer-for-winforms\report-editing-basics\change-fonts-and-colors-of-report-elements.md
+      - name: Delete Report Elements
+        href: articles\report-designer\report-designer-for-winforms\report-editing-basics\delete-report-elements.md
+      - name: Add or Modify Static Information in Your Report
+        href: articles\report-designer\report-designer-for-winforms\report-editing-basics\add-or-modify-static-information-in-your-report.md
+      - name: Displaying Values from a Database (Binding Report Elements to Data)
+        href: articles\report-designer\report-designer-for-winforms\report-editing-basics\displaying-values-from-a-database-(binding-report-elements-to-data).md
+      - name: Use Mail Merge in Report Elements
+        href: articles\report-designer\report-designer-for-winforms\report-editing-basics\use-mail-merge-in-report-elements.md
+      - name: Add Calculated Fields to a Report
+        href: articles\report-designer\report-designer-for-winforms\report-editing-basics\add-calculated-fields-to-a-report.md
+      - name: Add Parameters to a Report
+        href: articles\report-designer\report-designer-for-winforms\report-editing-basics\add-parameters-to-a-report.md
+      - name: Use Query Parameters
+        href: articles\report-designer\report-designer-for-winforms\report-editing-basics\use-query-parameters.md
+      - name: Change Value Formatting of Report Elements
+        href: articles\report-designer\report-designer-for-winforms\report-editing-basics\change-value-formatting-of-report-elements.md
+      - name: Change or Apply Data Sorting to a Report
+        href: articles\report-designer\report-designer-for-winforms\report-editing-basics\change-or-apply-data-sorting-to-a-report.md
+      - name: Change or Apply Data Grouping to a Report
+        href: articles\report-designer\report-designer-for-winforms\report-editing-basics\change-or-apply-data-grouping-to-a-report.md
+      - name: Change or Apply Data Filtering to a Report
+        href: articles\report-designer\report-designer-for-winforms\report-editing-basics\change-or-apply-data-filtering-to-a-report.md
+      - name: Add Totals to a Report
+        href: articles\report-designer\report-designer-for-winforms\report-editing-basics\add-totals-to-a-report.md
+      - name: Add Page Numbers and System Information to a Report
+        href: articles\report-designer\report-designer-for-winforms\report-editing-basics\add-page-numbers-and-system-information-to-a-report.md
+      - name: Create or Modify Watermarks of a Report
+        href: articles\report-designer\report-designer-for-winforms\report-editing-basics\create-or-modify-watermarks-of-a-report.md
+    - name: Create Reports
+      href: articles\report-designer\report-designer-for-winforms\create-reports\create-reports.md
+      items:
+      - name: Basic Operations
+        href: articles\report-designer\report-designer-for-winforms\create-reports\basic-operations\basic-operations.md
+        items:
+        - name: Create a New Report
+          href: articles\report-designer\report-designer-for-winforms\create-reports\basic-operations\create-a-new-report.md
+        - name: Controls Positioning
+          href: articles\report-designer\report-designer-for-winforms\create-reports\basic-operations\controls-positioning.md
+        - name: Change Measurement Units of a Report
+          href: articles\report-designer\report-designer-for-winforms\create-reports\basic-operations\change-measurement-units-of-a-report.md
+        - name: Change Page Settings of a Report
+          href: articles\report-designer\report-designer-for-winforms\create-reports\basic-operations\change-page-settings-of-a-report.md
+      - name: Binding a Report to Data
+        href: articles\report-designer\report-designer-for-winforms\create-reports\binding-a-report-to-data\binding-a-report-to-data.md
+        items:
+        - name: Bind a Report to a Database
+          href: articles\report-designer\report-designer-for-winforms\create-reports\binding-a-report-to-data\bind-a-report-to-a-database.md
+        - name: Bind a Report to an Entity Framework Data Source
+          href: articles\report-designer\report-designer-for-winforms\create-reports\binding-a-report-to-data\bind-a-report-to-an-entity-framework-data-source.md
+        - name: Bind a Report to an Object Data Source
+          href: articles\report-designer\report-designer-for-winforms\create-reports\binding-a-report-to-data\bind-a-report-to-an-object-data-source.md
+        - name: Bind a Report to an Excel Data Source
+          href: articles\report-designer\report-designer-for-winforms\create-reports\binding-a-report-to-data\bind-a-report-to-an-excel-data-source.md
+      - name: Report Types
+        href: articles\report-designer\report-designer-for-winforms\create-reports\report-types\report-types.md
+        items:
+        - name: Static Report
+          href: articles\report-designer\report-designer-for-winforms\create-reports\report-types\static-report.md
+        - name: Table Report
+          href: articles\report-designer\report-designer-for-winforms\create-reports\report-types\table-report.md
+        - name: Label Report
+          href: articles\report-designer\report-designer-for-winforms\create-reports\report-types\label-report.md
+        - name: Multi-Column Report
+          href: articles\report-designer\report-designer-for-winforms\create-reports\report-types\multi-column-report.md
+        - name: Master-Detail Report
+          href: articles\report-designer\report-designer-for-winforms\create-reports\report-types\master-detail-report.md
+        - name: Master-Detail Report (Detail Report Bands)
+          href: articles\report-designer\report-designer-for-winforms\create-reports\report-types\master-detail-report-(detail-report-bands).md
+        - name: Master-Detail Report (Subreports)
+          href: articles\report-designer\report-designer-for-winforms\create-reports\report-types\master-detail-report-(subreports).md
+        - name: Drill-Down Report
+          href: articles\report-designer\report-designer-for-winforms\create-reports\report-types\drill-down-report.md
+        - name: Cross-Tab Report
+          href: articles\report-designer\report-designer-for-winforms\create-reports\report-types\cross-tab-report.md
+        - name: Parameterized Report
+          href: articles\report-designer\report-designer-for-winforms\create-reports\report-types\parameterized-report.md
+        - name: Chart with Static Series
+          href: articles\report-designer\report-designer-for-winforms\create-reports\report-types\chart-with-static-series.md
+        - name: Chart with Dynamic Series
+          href: articles\report-designer\report-designer-for-winforms\create-reports\report-types\chart-with-dynamic-series.md
+      - name: Styles and Conditional Formatting in Reports
+        href: articles\report-designer\report-designer-for-winforms\create-reports\styles-and-conditional-formatting\styles-and-conditional-formatting-in-reports.md
+        items:
+        - name: Understanding Style Concepts
+          href: articles\report-designer\report-designer-for-winforms\create-reports\styles-and-conditional-formatting\understanding-style-concepts.md
+        - name: Use Odd and Even Styles
+          href: articles\report-designer\report-designer-for-winforms\create-reports\styles-and-conditional-formatting\use-odd-and-even-styles.md
+        - name: Store and Restore Style Sheets
+          href: articles\report-designer\report-designer-for-winforms\create-reports\styles-and-conditional-formatting\store-and-restore-style-sheets.md
+        - name: Conditionally Change a Control's Appearance
+          href: articles\report-designer\report-designer-for-winforms\create-reports\styles-and-conditional-formatting\conditionally-change-a-control's-appearance.md
+        - name: Conditionally Hide Bands
+          href: articles\report-designer\report-designer-for-winforms\create-reports\styles-and-conditional-formatting\conditionally-hide-bands.md
+        - name: Conditionally Change a Label's Text
+          href: articles\report-designer\report-designer-for-winforms\create-reports\styles-and-conditional-formatting\conditionally-change-a-label's-text.md
+      - name: Report Navigation and Interactivity
+        href: articles\report-designer\report-designer-for-winforms\create-reports\report-navigation-and-interactivity-\report-navigation-and-interactivity.md
+        items:
+        - name: Add Bookmarks
+          href: articles\report-designer\report-designer-for-winforms\create-reports\report-navigation-and-interactivity-\add-bookmarks.md
+        - name: Create a Table of Contents
+          href: articles\report-designer\report-designer-for-winforms\create-reports\report-navigation-and-interactivity-\create-a-table-of-contents.md
+        - name: Create Hyperlinks
+          href: articles\report-designer\report-designer-for-winforms\create-reports\report-navigation-and-interactivity-\create-hyperlinks.md
+        - name: Add a Cross-Reference
+          href: articles\report-designer\report-designer-for-winforms\create-reports\report-navigation-and-interactivity-\add-a-cross-reference.md
+        - name: Enable Content Editing in Print Preview
+          href: articles\report-designer\report-designer-for-winforms\create-reports\report-navigation-and-interactivity-\enable-content-editing-in-print-preview.md
+      - name: Miscellaneous Report Management Capabilities
+        href: articles\report-designer\report-designer-for-winforms\create-reports\miscellaneous\miscellaneous-report-management-capabilities.md
+        items:
+        - name: Handle Events via Scripts
+          href: articles\report-designer\report-designer-for-winforms\create-reports\miscellaneous\handle-events-via-scripts.md
+        - name: Show the Current Row Index
+          href: articles\report-designer\report-designer-for-winforms\create-reports\miscellaneous\show-the-current-row-index.md
+        - name: Count the Number of Records in a Report or a Group
+          href: articles\report-designer\report-designer-for-winforms\create-reports\miscellaneous\count-the-number-of-records-in-a-report-or-a-group.md
+        - name: Add Page Numbers for Groups
+          href: articles\report-designer\report-designer-for-winforms\create-reports\miscellaneous\add-page-numbers-for-groups.md
+        - name: Sort Groups by a Summary Function Result
+          href: articles\report-designer\report-designer-for-winforms\create-reports\miscellaneous\sort-groups-by-a-summary-function-result.md
+        - name: Calculate an Aggregate Function
+          href: articles\report-designer\report-designer-for-winforms\create-reports\miscellaneous\calculate-an-aggregate-function.md
+        - name: Cancel Printing If a Report Does Not Contain Any Records
+          href: articles\report-designer\report-designer-for-winforms\create-reports\miscellaneous\cancel-printing-if-a-report-does-not-contain-any-records.md
+        - name: Limit the Number of Records per Page
+          href: articles\report-designer\report-designer-for-winforms\create-reports\miscellaneous\limit-the-number-of-records-per-page.md
+    - name: Report Designer Reference
+      href: articles\report-designer\report-designer-for-winforms\report-designer-reference\report-designer-reference.md
+      items:
+      - name: Report Designer UI
+        href: articles\report-designer\report-designer-for-winforms\report-designer-reference\report-designer-ui\report-designer-ui.md
+        items:
+        - name: Report Designer Elements
+          href: articles\report-designer\report-designer-for-winforms\report-designer-reference\report-designer-ui\report-designer-elements.md
+        - name: Ribbon Designer Elements
+          href: articles\report-designer\report-designer-for-winforms\report-designer-reference\report-designer-ui\ribbon-designer-elements.md
+        - name: Component Tray
+          href: articles\report-designer\report-designer-for-winforms\report-designer-reference\report-designer-ui\component-tray.md
+        - name: Context Menu
+          href: articles\report-designer\report-designer-for-winforms\report-designer-reference\report-designer-ui\context-menu.md
+        - name: Control Toolbox
+          href: articles\report-designer\report-designer-for-winforms\report-designer-reference\report-designer-ui\control-toolbox.md
+        - name: Design Panel
+          href: articles\report-designer\report-designer-for-winforms\report-designer-reference\report-designer-ui\design-panel.md
+        - name: Designer Tab
+          href: articles\report-designer\report-designer-for-winforms\report-designer-reference\report-designer-ui\designer-tab.md
+        - name: Field List
+          href: articles\report-designer\report-designer-for-winforms\report-designer-reference\report-designer-ui\field-list.md
+        - name: Formatting Toolbar
+          href: articles\report-designer\report-designer-for-winforms\report-designer-reference\report-designer-ui\formatting-toolbar.md
+        - name: Group and Sort Panel
+          href: articles\report-designer\report-designer-for-winforms\report-designer-reference\report-designer-ui\group-and-sort-panel.md
+        - name: HTML View Tab
+          href: articles\report-designer\report-designer-for-winforms\report-designer-reference\report-designer-ui\html-view-tab.md
+        - name: Layout Toolbar
+          href: articles\report-designer\report-designer-for-winforms\report-designer-reference\report-designer-ui\layout-toolbar.md
+        - name: Main Menu
+          href: articles\report-designer\report-designer-for-winforms\report-designer-reference\report-designer-ui\main-menu.md
+        - name: Main Toolbar
+          href: articles\report-designer\report-designer-for-winforms\report-designer-reference\report-designer-ui\main-toolbar.md
+        - name: Preview Tab
+          href: articles\report-designer\report-designer-for-winforms\report-designer-reference\report-designer-ui\preview-tab.md
+        - name: Property Grid
+          href: articles\report-designer\report-designer-for-winforms\report-designer-reference\report-designer-ui\property-grid.md
+        - name: Report Explorer
+          href: articles\report-designer\report-designer-for-winforms\report-designer-reference\report-designer-ui\report-explorer.md
+        - name: Scripts Errors Panel
+          href: articles\report-designer\report-designer-for-winforms\report-designer-reference\report-designer-ui\scripts-errors-panel.md
+        - name: Scripts Tab
+          href: articles\report-designer\report-designer-for-winforms\report-designer-reference\report-designer-ui\scripts-tab.md
+        - name: Smart Tag
+          href: articles\report-designer\report-designer-for-winforms\report-designer-reference\report-designer-ui\smart-tag.md
+        - name: Status Bar
+          href: articles\report-designer\report-designer-for-winforms\report-designer-reference\report-designer-ui\status-bar.md
+        - name: Query Builder
+          href: articles\report-designer\report-designer-for-winforms\report-designer-reference\report-designer-ui\query-builder.md
+        - name: Zoom Toolbar
+          href: articles\report-designer\report-designer-for-winforms\report-designer-reference\report-designer-ui\zoom-toolbar.md
+      - name: Report Controls
+        href: articles\report-designer\report-designer-for-winforms\report-designer-reference\report-controls\report-controls.md
+        items:
+        - name: Label
+          href: articles\report-designer\report-designer-for-winforms\report-designer-reference\report-controls\label.md
+        - name: Character Comb
+          href: articles\report-designer\report-designer-for-winforms\report-designer-reference\report-controls\character-comb.md
+        - name: Check Box
+          href: articles\report-designer\report-designer-for-winforms\report-designer-reference\report-controls\check-box.md
+        - name: Rich Text
+          href: articles\report-designer\report-designer-for-winforms\report-designer-reference\report-controls\rich-text.md
+        - name: Picture Box
+          href: articles\report-designer\report-designer-for-winforms\report-designer-reference\report-controls\picture-box.md
+        - name: Panel
+          href: articles\report-designer\report-designer-for-winforms\report-designer-reference\report-controls\panel.md
+        - name: Table
+          href: articles\report-designer\report-designer-for-winforms\report-designer-reference\report-controls\table.md
+        - name: Table Row
+          href: articles\report-designer\report-designer-for-winforms\report-designer-reference\report-controls\table-row.md
+        - name: Table Cell
+          href: articles\report-designer\report-designer-for-winforms\report-designer-reference\report-controls\table-cell.md
+        - name: Line
+          href: articles\report-designer\report-designer-for-winforms\report-designer-reference\report-controls\line.md
+        - name: Shape
+          href: articles\report-designer\report-designer-for-winforms\report-designer-reference\report-controls\shape.md
+        - name: Bar Code
+          href: articles\report-designer\report-designer-for-winforms\report-designer-reference\report-controls\bar-code.md
+        - name: Zip Code
+          href: articles\report-designer\report-designer-for-winforms\report-designer-reference\report-controls\zip-code.md
+        - name: Chart
+          href: articles\report-designer\report-designer-for-winforms\report-designer-reference\report-controls\chart.md
+        - name: Pivot Grid
+          href: articles\report-designer\report-designer-for-winforms\report-designer-reference\report-controls\pivot-grid.md
+        - name: Page Info
+          href: articles\report-designer\report-designer-for-winforms\report-designer-reference\report-controls\page-info.md
+        - name: Page Break
+          href: articles\report-designer\report-designer-for-winforms\report-designer-reference\report-controls\page-break.md
+        - name: Cross-band Line
+          href: articles\report-designer\report-designer-for-winforms\report-designer-reference\report-controls\cross-band-line.md
+        - name: Cross-band Box
+          href: articles\report-designer\report-designer-for-winforms\report-designer-reference\report-controls\cross-band-box.md
+        - name: Subreport
+          href: articles\report-designer\report-designer-for-winforms\report-designer-reference\report-controls\subreport.md
+        - name: Sparkline
+          href: articles\report-designer\report-designer-for-winforms\report-designer-reference\report-controls\sparkline.md
+        - name: Table of Contents
+          href: articles\report-designer\report-designer-for-winforms\report-designer-reference\report-controls\table-of-contents.md
+        - name: Gauge
+          href: articles\report-designer\report-designer-for-winforms\report-designer-reference\report-controls\gauge.md
+      - name: Report Bands
+        href: articles\report-designer\report-designer-for-winforms\report-designer-reference\report-bands\report-bands.md
+        items:
+        - name: Detail Band
+          href: articles\report-designer\report-designer-for-winforms\report-designer-reference\report-bands\detail-band.md
+        - name: Grouping Bands
+          href: articles\report-designer\report-designer-for-winforms\report-designer-reference\report-bands\grouping-bands.md
+        - name: Report Header and Footer
+          href: articles\report-designer\report-designer-for-winforms\report-designer-reference\report-bands\report-header-and-footer.md
+        - name: Page Header and Footer
+          href: articles\report-designer\report-designer-for-winforms\report-designer-reference\report-bands\page-header-and-footer.md
+        - name: Page Margin Bands
+          href: articles\report-designer\report-designer-for-winforms\report-designer-reference\report-bands\page-margin-bands.md
+        - name: Detail Report Band for Master-Detail Reports
+          href: articles\report-designer\report-designer-for-winforms\report-designer-reference\report-bands\detail-report-band-for-master-detail-reports.md
+        - name: Sub-Bands
+          href: articles\report-designer\report-designer-for-winforms\report-designer-reference\report-bands\sub-bands.md
+      - name: Report Settings
+        href: articles\report-designer\report-designer-for-winforms\report-designer-reference\report-settings\report-settings.md
+    - name: Report Wizard
+      href: articles\report-designer\report-designer-for-winforms\report-wizard\report-wizard.md
+      items:
+      - name: Choose a Report Type
+        href: articles\report-designer\report-designer-for-winforms\report-wizard\choose-a-report-type\choose-a-report-type.md
+      - name: Empty Report
+        href: articles\report-designer\report-designer-for-winforms\report-wizard\empty-report\empty-report.md
+      - name: Data-bound Report
+        href: articles\report-designer\report-designer-for-winforms\report-wizard\data-bound-report\data-bound-report.md
+        items:
+        - name: Connect to a Database
+          href: articles\report-designer\report-designer-for-winforms\report-wizard\data-bound-report\connect-to-a-database\connect-to-a-database.md
+          items:
+          - name: Select a Data Connection
+            href: articles\report-designer\report-designer-for-winforms\report-wizard\data-bound-report\connect-to-a-database\select-a-data-connection.md
+          - name: Specify a Connection String
+            href: articles\report-designer\report-designer-for-winforms\report-wizard\data-bound-report\connect-to-a-database\specify-a-connection-string.md
+          - name: Save the Connection String
+            href: articles\report-designer\report-designer-for-winforms\report-wizard\data-bound-report\connect-to-a-database\save-the-connection-string.md
+          - name: Create a Query or Select a Stored Procedure
+            href: articles\report-designer\report-designer-for-winforms\report-wizard\data-bound-report\connect-to-a-database\create-a-query-or-select-a-stored-procedure.md
+          - name: Create a Query or Select a Stored Procedure (Single-Query Wizard Version)
+            href: articles\report-designer\report-designer-for-winforms\report-wizard\data-bound-report\connect-to-a-database\create-a-query-or-select-a-stored-procedure-(single-query-wizard-version).md
+          - name: Configure Query Parameters
+            href: articles\report-designer\report-designer-for-winforms\report-wizard\data-bound-report\connect-to-a-database\configure-query-parameters.md
+        - name: Connect to an Entity Framework Data Source
+          href: articles\report-designer\report-designer-for-winforms\report-wizard\data-bound-report\connect-to-an-entity-framework-data-source\connect-to-an-entity-framework-data-source.md
+          items:
+          - name: Select the Data Context
+            href: articles\report-designer\report-designer-for-winforms\report-wizard\data-bound-report\connect-to-an-entity-framework-data-source\select-the-data-context.md
+          - name: Select the Connection String
+            href: articles\report-designer\report-designer-for-winforms\report-wizard\data-bound-report\connect-to-an-entity-framework-data-source\select-the-connection-string.md
+          - name: Specify a Connection String
+            href: articles\report-designer\report-designer-for-winforms\report-wizard\data-bound-report\connect-to-an-entity-framework-data-source\specify-a-connection-string.md
+          - name: Bind to a Stored Procedure
+            href: articles\report-designer\report-designer-for-winforms\report-wizard\data-bound-report\connect-to-an-entity-framework-data-source\bind-to-a-stored-procedure.md
+          - name: Select a Data Member
+            href: articles\report-designer\report-designer-for-winforms\report-wizard\data-bound-report\connect-to-an-entity-framework-data-source\select-a-data-member.md
+        - name: Connect to an Object Data Source
+          href: articles\report-designer\report-designer-for-winforms\report-wizard\data-bound-report\connect-to-an-object-data-source\connect-to-an-object-data-source.md
+          items:
+          - name: Select an Assembly
+            href: articles\report-designer\report-designer-for-winforms\report-wizard\data-bound-report\connect-to-an-object-data-source\select-an-assembly.md
+          - name: Select a Data Source Type
+            href: articles\report-designer\report-designer-for-winforms\report-wizard\data-bound-report\connect-to-an-object-data-source\select-a-data-source-type.md
+          - name: Select a Data Source Member
+            href: articles\report-designer\report-designer-for-winforms\report-wizard\data-bound-report\connect-to-an-object-data-source\select-a-data-source-member.md
+          - name: Specify the Member Parameters
+            href: articles\report-designer\report-designer-for-winforms\report-wizard\data-bound-report\connect-to-an-object-data-source\specify-the-member-parameters.md
+          - name: Select the Data Binding Mode
+            href: articles\report-designer\report-designer-for-winforms\report-wizard\data-bound-report\connect-to-an-object-data-source\select-the-data-binding-mode.md
+          - name: Select a Data Source Constructor
+            href: articles\report-designer\report-designer-for-winforms\report-wizard\data-bound-report\connect-to-an-object-data-source\select-a-data-source-constructor.md
+          - name: Specify the Constructor Parameters
+            href: articles\report-designer\report-designer-for-winforms\report-wizard\data-bound-report\connect-to-an-object-data-source\specify-the-constructor-parameters.md
+        - name: Connect to an Excel Data Source
+          href: articles\report-designer\report-designer-for-winforms\report-wizard\data-bound-report\connect-to-an-excel-data-source\connect-to-an-excel-data-source.md
+          items:
+          - name: Select an Excel Workbook or CSV file
+            href: articles\report-designer\report-designer-for-winforms\report-wizard\data-bound-report\connect-to-an-excel-data-source\select-an-excel-workbook-or-csv-file.md
+          - name: Specify Import Settings
+            href: articles\report-designer\report-designer-for-winforms\report-wizard\data-bound-report\connect-to-an-excel-data-source\specify-import-settings.md
+          - name: Select a Worksheet, Table or Named Region
+            href: articles\report-designer\report-designer-for-winforms\report-wizard\data-bound-report\connect-to-an-excel-data-source\select-a-worksheet-table-or-named-region.md
+          - name: Choose Columns
+            href: articles\report-designer\report-designer-for-winforms\report-wizard\data-bound-report\connect-to-an-excel-data-source\choose-columns.md
+        - name: Select the Data Source Type
+          href: articles\report-designer\report-designer-for-winforms\report-wizard\data-bound-report\select-the-data-source-type.md
+        - name: Choose Columns to Display in Your Report
+          href: articles\report-designer\report-designer-for-winforms\report-wizard\data-bound-report\choose-columns-to-display-in-your-report.md
+        - name: Add Grouping Levels
+          href: articles\report-designer\report-designer-for-winforms\report-wizard\data-bound-report\add-grouping-levels.md
+        - name: Specify Summary Options
+          href: articles\report-designer\report-designer-for-winforms\report-wizard\data-bound-report\specify-summary-options.md
+        - name: Choose a Report Layout
+          href: articles\report-designer\report-designer-for-winforms\report-wizard\data-bound-report\choose-a-report-layout.md
+        - name: Choose a Report Style
+          href: articles\report-designer\report-designer-for-winforms\report-wizard\data-bound-report\choose-a-report-style.md
+        - name: Enter the Report Title
+          href: articles\report-designer\report-designer-for-winforms\report-wizard\data-bound-report\enter-the-report-title.md
+      - name: Label Report
+        href: articles\report-designer\report-designer-for-winforms\report-wizard\label-report\label-report.md
+        items:
+        - name: Select a Label Type
+          href: articles\report-designer\report-designer-for-winforms\report-wizard\label-report\select-a-label-type.md
+        - name: Customize Label Options
+          href: articles\report-designer\report-designer-for-winforms\report-wizard\label-report\customize-label-options.md
+    - name: Preview, Print and Export Reports
+      href: articles\report-designer\report-designer-for-winforms\preview-print-and-export-reports\preview-print-and-export-reports.md
+  - name: Report Designer for WPF
+    href: articles\report-designer\report-designer-for-wpf\report-designer-for-wpf.md
+    items:
+    - name: Report Types
+      href: articles\report-designer\report-designer-for-wpf\report-types\report-types.md
+      items:
+      - name: Static Report
+        href: articles\report-designer\report-designer-for-wpf\report-types\static-report.md
+      - name: Table Report
+        href: articles\report-designer\report-designer-for-wpf\report-types\table-report.md
+      - name: Label Report
+        href: articles\report-designer\report-designer-for-wpf\report-types\label-report.md
+      - name: Multi-Column Report
+        href: articles\report-designer\report-designer-for-wpf\report-types\multi-column-report.md
+      - name: Master-Detail Report
+        href: articles\report-designer\report-designer-for-wpf\report-types\master-detail-report.md
+      - name: Master-Detail Report (Detail Report Bands)
+        href: articles\report-designer\report-designer-for-wpf\report-types\master-detail-report-(detail-report-bands).md
+      - name: Master-Detail Report (Subreports)
+        href: articles\report-designer\report-designer-for-wpf\report-types\master-detail-report-(subreports).md
+      - name: Cross-Tab Report
+        href: articles\report-designer\report-designer-for-wpf\report-types\cross-tab-report.md
+      - name: Parametrized Report
+        href: articles\report-designer\report-designer-for-wpf\report-types\parametrized-report.md
+      - name: Chart with Static Series
+        href: articles\report-designer\report-designer-for-wpf\report-types\chart-with-static-series.md
+      - name: Chart with Dynamic Series
+        href: articles\report-designer\report-designer-for-wpf\report-types\chart-with-dynamic-series.md
+    - name: Creating Reports
+      href: articles\report-designer\report-designer-for-wpf\creating-reports\creating-reports.md
+      items:
+      - name: Basic Operations
+        href: articles\report-designer\report-designer-for-wpf\creating-reports\basic-operations\basic-operations.md
+        items:
+        - name: Create a New Report
+          href: articles\report-designer\report-designer-for-wpf\creating-reports\basic-operations\create-a-new-report.md
+        - name: Change Measurement Units of a Report
+          href: articles\report-designer\report-designer-for-wpf\creating-reports\basic-operations\change-measurement-units-of-a-report.md
+        - name: Create and Delete Report Elements
+          href: articles\report-designer\report-designer-for-wpf\creating-reports\basic-operations\create-and-delete-report-elements.md
+        - name: Adjust the Layout of Report Elements
+          href: articles\report-designer\report-designer-for-wpf\creating-reports\basic-operations\adjust-the-layout-of-report-elements.md
+        - name: 'Control Positioning '
+          href: articles\report-designer\report-designer-for-wpf\creating-reports\basic-operations\control-positioning-.md
+        - name: Adjust Page Layout Settings
+          href: articles\report-designer\report-designer-for-wpf\creating-reports\basic-operations\adjust-page-layout-settings.md
+        - name: Back Up the Report Layout
+          href: articles\report-designer\report-designer-for-wpf\creating-reports\basic-operations\back-up-the-report-layout.md
+      - name: Providing Data
+        href: articles\report-designer\report-designer-for-wpf\creating-reports\providing-data\providing-data.md
+        items:
+        - name: Binding a Report to Data
+          href: articles\report-designer\report-designer-for-wpf\creating-reports\providing-data\binding-a-report-to-data\binding-a-report-to-data.md
+          items:
+          - name: Bind a Report to a Database
+            href: articles\report-designer\report-designer-for-wpf\creating-reports\providing-data\binding-a-report-to-data\bind-a-report-to-a-database.md
+          - name: Bind a Report to an Entity Framework Data Source
+            href: articles\report-designer\report-designer-for-wpf\creating-reports\providing-data\binding-a-report-to-data\bind-a-report-to-an-entity-framework-data-source.md
+          - name: Bind a Report to an Object Data Source
+            href: articles\report-designer\report-designer-for-wpf\creating-reports\providing-data\binding-a-report-to-data\bind-a-report-to-an-object-data-source.md
+          - name: Bind a Report to an Excel Data Source
+            href: articles\report-designer\report-designer-for-wpf\creating-reports\providing-data\binding-a-report-to-data\bind-a-report-to-an-excel-data-source.md
+        - name: Binding Report Controls to Data
+          href: articles\report-designer\report-designer-for-wpf\creating-reports\providing-data\binding-report-controls-to-data.md
+        - name: Using Mail Merge
+          href: articles\report-designer\report-designer-for-wpf\creating-reports\providing-data\using-mail-merge.md
+        - name: Report Parameters
+          href: articles\report-designer\report-designer-for-wpf\creating-reports\providing-data\report-parameters.md
+        - name: Query Parameters
+          href: articles\report-designer\report-designer-for-wpf\creating-reports\providing-data\query-parameters.md
+        - name: Calculated Fields
+          href: articles\report-designer\report-designer-for-wpf\creating-reports\providing-data\calculated-fields.md
+      - name: Shaping Data
+        href: articles\report-designer\report-designer-for-wpf\creating-reports\shaping-data\shaping-data.md
+        items:
+        - name: Grouping Data
+          href: articles\report-designer\report-designer-for-wpf\creating-reports\shaping-data\grouping-data.md
+        - name: Sorting Data
+          href: articles\report-designer\report-designer-for-wpf\creating-reports\shaping-data\sorting-data.md
+        - name: Filtering Data
+          href: articles\report-designer\report-designer-for-wpf\creating-reports\shaping-data\filtering-data.md
+        - name: Calculating Summaries
+          href: articles\report-designer\report-designer-for-wpf\creating-reports\shaping-data\calculating-summaries.md
+        - name: Formatting Data
+          href: articles\report-designer\report-designer-for-wpf\creating-reports\shaping-data\formatting-data.md
+      - name: Appearance Customization
+        href: articles\report-designer\report-designer-for-wpf\creating-reports\appearance-customization\appearance-customization.md
+        items:
+        - name: Understanding Style Concepts
+          href: articles\report-designer\report-designer-for-wpf\creating-reports\appearance-customization\understanding-style-concepts.md
+        - name: Use Odd and Even Styles
+          href: articles\report-designer\report-designer-for-wpf\creating-reports\appearance-customization\use-odd-and-even-styles.md
+        - name: Conditionally Change a Control's Appearance
+          href: articles\report-designer\report-designer-for-wpf\creating-reports\appearance-customization\conditionally-change-a-control's-appearance.md
+        - name: Conditionally Hide Bands
+          href: articles\report-designer\report-designer-for-wpf\creating-reports\appearance-customization\conditionally-hide-bands.md
+        - name: Conditionally Change a Label's Text
+          href: articles\report-designer\report-designer-for-wpf\creating-reports\appearance-customization\conditionally-change-a-label's-text.md
+      - name: Report Navigation and Interactivity
+        href: articles\report-designer\report-designer-for-wpf\creating-reports\report-navigation-and-interactivity\report-navigation-and-interactivity.md
+        items:
+        - name: Add Bookmarks
+          href: articles\report-designer\report-designer-for-wpf\creating-reports\report-navigation-and-interactivity\add-bookmarks.md
+        - name: Create a Table of Contents
+          href: articles\report-designer\report-designer-for-wpf\creating-reports\report-navigation-and-interactivity\create-a-table-of-contents.md
+        - name: Create Hyperlinks
+          href: articles\report-designer\report-designer-for-wpf\creating-reports\report-navigation-and-interactivity\create-hyperlinks.md
+        - name: Add a Cross-Reference
+          href: articles\report-designer\report-designer-for-wpf\creating-reports\report-navigation-and-interactivity\add-a-cross-reference.md
+        - name: Enable Content Editing in Print Preview
+          href: articles\report-designer\report-designer-for-wpf\creating-reports\report-navigation-and-interactivity\enable-content-editing-in-print-preview.md
+      - name: Adding Details about a Report
+        href: articles\report-designer\report-designer-for-wpf\creating-reports\adding-details-about-a-report\adding-details-about-a-report.md
+        items:
+        - name: Add Page Numbers and System Information to a Report
+          href: articles\report-designer\report-designer-for-wpf\creating-reports\adding-details-about-a-report\add-page-numbers-and-system-information-to-a-report.md
+        - name: Create or Modify Watermarks of a Report
+          href: articles\report-designer\report-designer-for-wpf\creating-reports\adding-details-about-a-report\create-or-modify-watermarks-of-a-report.md
+      - name: Scripting
+        href: articles\report-designer\report-designer-for-wpf\creating-reports\scripting\scripting.md
+    - name: Report Elements
+      href: articles\report-designer\report-designer-for-wpf\report-elements\report-elements.md
+      items:
+      - name: Report Controls
+        href: articles\report-designer\report-designer-for-wpf\report-elements\report-controls.md
+      - name: Report Bands
+        href: articles\report-designer\report-designer-for-wpf\report-elements\report-bands.md
+    - name: Interface Elements
+      href: articles\report-designer\report-designer-for-wpf\interface-elements\interface-elements.md
+      items:
+      - name: Toolbar
+        href: articles\report-designer\report-designer-for-wpf\interface-elements\toolbar.md
+      - name: Control Toolbox
+        href: articles\report-designer\report-designer-for-wpf\interface-elements\control-toolbox.md
+      - name: Field List
+        href: articles\report-designer\report-designer-for-wpf\interface-elements\field-list.md
+      - name: Report Explorer
+        href: articles\report-designer\report-designer-for-wpf\interface-elements\report-explorer.md
+      - name: Group and Sort Panel
+        href: articles\report-designer\report-designer-for-wpf\interface-elements\group-and-sort-panel.md
+      - name: Properties Panel
+        href: articles\report-designer\report-designer-for-wpf\interface-elements\properties-panel.md
+      - name: Design Surface
+        href: articles\report-designer\report-designer-for-wpf\interface-elements\design-surface.md
+      - name: Script Editor
+        href: articles\report-designer\report-designer-for-wpf\interface-elements\script-editor.md
+      - name: Query Builder
+        href: articles\report-designer\report-designer-for-wpf\interface-elements\query-builder.md
+    - name: Report Wizard
+      href: articles\report-designer\report-designer-for-wpf\report-wizard\report-wizard.md
+      items:
+      - name: Empty Report
+        href: articles\report-designer\report-designer-for-wpf\report-wizard\empty-report\empty-report.md
+      - name: Data-bound Report
+        href: articles\report-designer\report-designer-for-wpf\report-wizard\data-bound-report\data-bound-report.md
+        items:
+        - name: Connect to a Database
+          href: articles\report-designer\report-designer-for-wpf\report-wizard\data-bound-report\connect-to-a-database\connect-to-a-database.md
+          items:
+          - name: Select a Data Connection
+            href: articles\report-designer\report-designer-for-wpf\report-wizard\data-bound-report\connect-to-a-database\select-a-data-connection.md
+          - name: Specify a Connection String
+            href: articles\report-designer\report-designer-for-wpf\report-wizard\data-bound-report\connect-to-a-database\specify-a-connection-string.md
+          - name: Save the Connection String
+            href: articles\report-designer\report-designer-for-wpf\report-wizard\data-bound-report\connect-to-a-database\save-the-connection-string.md
+          - name: Customize the Query
+            href: articles\report-designer\report-designer-for-wpf\report-wizard\data-bound-report\connect-to-a-database\customize-the-query.md
+          - name: Configure Query Parameters
+            href: articles\report-designer\report-designer-for-wpf\report-wizard\data-bound-report\connect-to-a-database\configure-query-parameters.md
+        - name: Connect to an Entity Framework Data Source
+          href: articles\report-designer\report-designer-for-wpf\report-wizard\data-bound-report\connect-to-an-entity-framework-data-source\connect-to-an-entity-framework-data-source.md
+          items:
+          - name: Select the Data Context
+            href: articles\report-designer\report-designer-for-wpf\report-wizard\data-bound-report\connect-to-an-entity-framework-data-source\select-the-data-context.md
+          - name: Select the Connection String
+            href: articles\report-designer\report-designer-for-wpf\report-wizard\data-bound-report\connect-to-an-entity-framework-data-source\select-the-connection-string.md
+          - name: Specify a Connection String
+            href: articles\report-designer\report-designer-for-wpf\report-wizard\data-bound-report\connect-to-an-entity-framework-data-source\specify-a-connection-string.md
+          - name: Bind to a Stored Procedure
+            href: articles\report-designer\report-designer-for-wpf\report-wizard\data-bound-report\connect-to-an-entity-framework-data-source\bind-to-a-stored-procedure.md
+          - name: Select a Data Member
+            href: articles\report-designer\report-designer-for-wpf\report-wizard\data-bound-report\connect-to-an-entity-framework-data-source\select-a-data-member.md
+        - name: Connect to an Object Data Source
+          href: articles\report-designer\report-designer-for-wpf\report-wizard\data-bound-report\connect-to-an-object-data-source\connect-to-an-object-data-source.md
+          items:
+          - name: Select an Assembly
+            href: articles\report-designer\report-designer-for-wpf\report-wizard\data-bound-report\connect-to-an-object-data-source\select-an-assembly.md
+          - name: Select a Data Source Type
+            href: articles\report-designer\report-designer-for-wpf\report-wizard\data-bound-report\connect-to-an-object-data-source\select-a-data-source-type.md
+          - name: Select a Data Source Member
+            href: articles\report-designer\report-designer-for-wpf\report-wizard\data-bound-report\connect-to-an-object-data-source\select-a-data-source-member.md
+          - name: Specify the Member Parameters
+            href: articles\report-designer\report-designer-for-wpf\report-wizard\data-bound-report\connect-to-an-object-data-source\specify-the-member-parameters.md
+          - name: Select the Data Binding Mode
+            href: articles\report-designer\report-designer-for-wpf\report-wizard\data-bound-report\connect-to-an-object-data-source\select-the-data-binding-mode.md
+          - name: Select a Data Source Constructor
+            href: articles\report-designer\report-designer-for-wpf\report-wizard\data-bound-report\connect-to-an-object-data-source\select-a-data-source-constructor.md
+          - name: Specify the Constructor Parameters
+            href: articles\report-designer\report-designer-for-wpf\report-wizard\data-bound-report\connect-to-an-object-data-source\specify-the-constructor-parameters.md
+        - name: Connect to an Excel Data Source
+          href: articles\report-designer\report-designer-for-wpf\report-wizard\data-bound-report\connect-to-an-excel-data-source\connect-to-an-excel-data-source.md
+          items:
+          - name: Select an Excel Workbook or CSV file
+            href: articles\report-designer\report-designer-for-wpf\report-wizard\data-bound-report\connect-to-an-excel-data-source\select-an-excel-workbook-or-csv-file.md
+          - name: Specify Import Settings
+            href: articles\report-designer\report-designer-for-wpf\report-wizard\data-bound-report\connect-to-an-excel-data-source\specify-import-settings.md
+          - name: Select a Worksheet, Table or Named Region
+            href: articles\report-designer\report-designer-for-wpf\report-wizard\data-bound-report\connect-to-an-excel-data-source\select-a-worksheet-table-or-named-region.md
+          - name: Choose columns
+            href: articles\report-designer\report-designer-for-wpf\report-wizard\data-bound-report\connect-to-an-excel-data-source\choose-columns.md
+        - name: Select the Data Source Type
+          href: articles\report-designer\report-designer-for-wpf\report-wizard\data-bound-report\select-the-data-source-type.md
+        - name: Choose Columns to Display in a Report
+          href: articles\report-designer\report-designer-for-wpf\report-wizard\data-bound-report\choose-columns-to-display-in-a-report.md
+        - name: Add Groping Levels
+          href: articles\report-designer\report-designer-for-wpf\report-wizard\data-bound-report\add-groping-levels.md
+        - name: Specify Summary Options
+          href: articles\report-designer\report-designer-for-wpf\report-wizard\data-bound-report\specify-summary-options.md
+        - name: Choose a Report Layout
+          href: articles\report-designer\report-designer-for-wpf\report-wizard\data-bound-report\choose-a-report-layout.md
+        - name: Choose a Report Style
+          href: articles\report-designer\report-designer-for-wpf\report-wizard\data-bound-report\choose-a-report-style.md
+        - name: Enter the Report Title
+          href: articles\report-designer\report-designer-for-wpf\report-wizard\data-bound-report\enter-the-report-title.md
+      - name: Label Report
+        href: articles\report-designer\report-designer-for-wpf\report-wizard\label-report\label-report.md
+        items:
+        - name: Select the Label Type
+          href: articles\report-designer\report-designer-for-wpf\report-wizard\label-report\select-the-label-type.md
+        - name: Customize the Label Options
+          href: articles\report-designer\report-designer-for-wpf\report-wizard\label-report\customize-the-label-options.md
+    - name: Document Preview
+      href: articles\report-designer\report-designer-for-wpf\document-preview\document-preview.md
+      items:
+      - name: Preview Toolbar
+        href: articles\report-designer\report-designer-for-wpf\document-preview\preview-toolbar.md
+      - name: Export Document Dialog
+        href: articles\report-designer\report-designer-for-wpf\document-preview\export-document-dialog.md
+      - name: Parameters Panel
+        href: articles\report-designer\report-designer-for-wpf\document-preview\parameters-panel.md
+      - name: Search Panel
+        href: articles\report-designer\report-designer-for-wpf\document-preview\search-panel.md
+      - name: Document Map Panel
+        href: articles\report-designer\report-designer-for-wpf\document-preview\document-map-panel.md
+- name: Ribbon
+  href: articles\ribbon\ribbon.md
+  items:
+  - name: Frequently Used Ribbon Commands
+    href: articles\ribbon\frequently-used-ribbon-commands.md
+  - name: Minimize Ribbon
+    href: articles\ribbon\minimize-ribbon.md
+  - name: Invoke Ribbon Commands
+    href: articles\ribbon\invoke-ribbon-commands.md
+- name: Rich Text Editor
+  href: articles\rich-text-editor\rich-text-editor.md
+  items:
+  - name: Text Editor UI
+    items:
+    - name: Editor Elements
+      href: articles\rich-text-editor\text-editor-ui\editor-elements.md
+    - name: Toolbars
+      href: articles\rich-text-editor\text-editor-ui\toolbars.md
+    - name: Ribbon Interface
+      href: articles\rich-text-editor\text-editor-ui\ribbon-interface.md
+  - name: File Operations
+    items:
+    - name: Create a New Document
+      href: articles\rich-text-editor\file-operations\create-a-new-document.md
+    - name: Load a Document
+      href: articles\rich-text-editor\file-operations\load-a-document.md
+    - name: Save a Document
+      href: articles\rich-text-editor\file-operations\save-a-document.md
+    - name: Print a Document
+      href: articles\rich-text-editor\file-operations\print-a-document.md
+  - name: Document Layout and Page Setup
+    items:
+    - name: Divide a Documents into Sections
+      href: articles\rich-text-editor\document-layout-and-page-setup\divide-a-documents-into-sections.md
+    - name: Adjust Page Settings
+      href: articles\rich-text-editor\document-layout-and-page-setup\adjust-page-settings.md
+    - name: Lay Out Text in Columns
+      href: articles\rich-text-editor\document-layout-and-page-setup\lay-out-text-in-columns.md
+    - name: Add Line Numbers
+      href: articles\rich-text-editor\document-layout-and-page-setup\add-line-numbers.md
+    - name: Change Page Background Color
+      href: articles\rich-text-editor\document-layout-and-page-setup\change-page-background-color.md
+  - name: Viewing and Navigating
+    items:
+    - name: Navigate through a Document
+      href: articles\rich-text-editor\viewing-and-navigating\navigate-through-a-document.md
+    - name: Switch Document Views
+      href: articles\rich-text-editor\viewing-and-navigating\switch-document-views.md
+    - name: Zoom a Document
+      href: articles\rich-text-editor\viewing-and-navigating\zoom-a-document.md
+  - name: Text Editing
+    items:
+    - name: Select Text
+      href: articles\rich-text-editor\text-editing\select-text.md
+    - name: Delete Text
+      href: articles\rich-text-editor\text-editing\delete-text.md
+    - name: Find and Replace Text
+      href: articles\rich-text-editor\text-editing\find-and-replace-text.md
+    - name: Use a Clipboard
+      href: articles\rich-text-editor\text-editing\use-a-clipboard.md
+    - name: Check Text Spelling
+      href: articles\rich-text-editor\text-editing\check-text-spelling.md
+    - name: Undo and Redo Last Operations
+      href: articles\rich-text-editor\text-editing\undo-and-redo-last-operations.md
+  - name: Formatting
+    items:
+    - name: Format Text
+      href: articles\rich-text-editor\formatting\format-text.md
+    - name: Format Paragraphs
+      href: articles\rich-text-editor\formatting\format-paragraphs.md
+    - name: Apply and Modify Styles
+      href: articles\rich-text-editor\formatting\apply-and-modify-styles.md
+  - name: Pictures and Text Boxes
+    items:
+    - name: Insert, Select, Copy or Delete a Text Box
+      href: articles\rich-text-editor\pictures-and-text-boxes\insert-select-copy-or-delete-a-text-box.md
+    - name: Insert a Picture
+      href: articles\rich-text-editor\pictures-and-text-boxes\insert-a-picture.md
+    - name: Add, Change or Delete a Border for a Picture or Text Box
+      href: articles\rich-text-editor\pictures-and-text-boxes\add-change-or-delete-a-border-for-a-picture-or-text-box.md
+    - name: Add, Change or Delete a Text Box Fill
+      href: articles\rich-text-editor\pictures-and-text-boxes\add-change-or-delete-a-text-box-fill.md
+    - name: Rotate a Picture or Text Box
+      href: articles\rich-text-editor\pictures-and-text-boxes\rotate-a-picture-or-text-box.md
+    - name: Move a Picture or Text Box
+      href: articles\rich-text-editor\pictures-and-text-boxes\move-a-picture-or-text-box.md
+    - name: Wrap Text around a Picture or Text Box
+      href: articles\rich-text-editor\pictures-and-text-boxes\wrap-text-around-a-picture-or-text-box.md
+    - name: Resize a Picture or Text Box
+      href: articles\rich-text-editor\pictures-and-text-boxes\resize-a-picture-or-text-box.md
+  - name: Lists
+    items:
+    - name: Numbered Lists
+      href: articles\rich-text-editor\lists\numbered-lists.md
+    - name: Bulleted Lists
+      href: articles\rich-text-editor\lists\bulleted-lists.md
+    - name: Multilevel Lists
+      href: articles\rich-text-editor\lists\multilevel-lists.md
+  - name: Tables
+    items:
+    - name: Insert a Table
+      href: articles\rich-text-editor\tables\insert-a-table.md
+    - name: Add and Remove Table Borders
+      href: articles\rich-text-editor\tables\add-and-remove-table-borders.md
+    - name: Customize a Style of Cell Borders
+      href: articles\rich-text-editor\tables\customize-a-style-of-cell-borders.md
+    - name: Select a Cell, Row or Column
+      href: articles\rich-text-editor\tables\select-a-cell-row-or-column.md
+    - name: Insert a Cell, Row or Column
+      href: articles\rich-text-editor\tables\insert-a-cell-row-or-column.md
+    - name: Delete a Cell, Row or Column
+      href: articles\rich-text-editor\tables\delete-a-cell-row-or-column.md
+    - name: Merge or Split Cells
+      href: articles\rich-text-editor\tables\merge-or-split-cells.md
+    - name: Align Text in Table Cells
+      href: articles\rich-text-editor\tables\align-text-in-table-cells.md
+    - name: Adjust Column Width
+      href: articles\rich-text-editor\tables\adjust-column-width.md
+    - name: Set Background Color of Cells
+      href: articles\rich-text-editor\tables\set-background-color-of-cells.md
+    - name: Set Table Properties
+      href: articles\rich-text-editor\tables\set-table-properties.md
+  - name: Header and Footer
+    href: articles\rich-text-editor\header-and-footer-\header-and-footer.md
+  - name: Mail Merge
+    href: articles\rich-text-editor\mail-merge\mail-merge.md
+  - name: Table of Contents
+    items:
+    - name: Create a Table of Contents
+      href: articles\rich-text-editor\table-of-contents\create-a-table-of-contents.md
+    - name: Create Table of Contents for Special Cases
+      href: articles\rich-text-editor\table-of-contents\create-table-of-contents-for-special-cases.md
+    - name: Update Table of Contents
+      href: articles\rich-text-editor\table-of-contents\update-table-of-contents.md
+  - name: Document Protection
+    items:
+    - name: Protect and Unprotect a Document
+      href: articles\rich-text-editor\document-protection\protect-and-unprotect-a-document.md
+    - name: Edit a Protected Document
+      href: articles\rich-text-editor\document-protection\edit-a-protected-document.md
+  - name: Miscellaneous
+    items:
+    - name: Insert a Bookmark
+      href: articles\rich-text-editor\miscellaneous\insert-a-bookmark.md
+    - name: Insert a Hyperlink
+      href: articles\rich-text-editor\miscellaneous\insert-a-hyperlink.md
+    - name: Insert a Comment
+      href: articles\rich-text-editor\miscellaneous\insert-a-comment.md
+    - name: Insert a Page Break
+      href: articles\rich-text-editor\miscellaneous\insert-a-page-break.md
+    - name: Insert Page Numbers
+      href: articles\rich-text-editor\miscellaneous\insert-page-numbers.md
+    - name: Insert a Symbol
+      href: articles\rich-text-editor\miscellaneous\insert-a-symbol.md
+    - name: Set Document Properties
+      href: articles\rich-text-editor\miscellaneous\set-document-properties.md
+- name: Scheduler
+  href: articles\scheduler\scheduler.md
+  items:
+  - name: Scheduler UI
+    href: articles\scheduler\scheduler-ui\scheduler-ui.md
+    items:
+    - name: Toolbars
+      href: articles\scheduler\scheduler-ui\toolbars.md
+    - name: Ribbon Interface
+      href: articles\scheduler\scheduler-ui\ribbon-interface.md
+  - name: Appointment Management
+    href: articles\scheduler\appointment-management\appointment-management.md
+    items:
+    - name: Create Appointments
+      href: articles\scheduler\appointment-management\create-appointments.md
+    - name: Edit Appointments
+      href: articles\scheduler\appointment-management\edit-appointments.md
+    - name: Manage Reminders
+      href: articles\scheduler\appointment-management\manage-reminders.md
+    - name: Delete Appointments
+      href: articles\scheduler\appointment-management\delete-appointments.md
+    - name: Restrictions for Operations with Appointments
+      href: articles\scheduler\appointment-management\restrictions-for-operations-with-appointments.md
+  - name: Layout Customization
+    href: articles\scheduler\layout-customization\layout-customization.md
+    items:
+    - name: Switch Scheduler Views
+      href: articles\scheduler\layout-customization\switch-scheduler-views.md
+    - name: Scheduler Grouping
+      href: articles\scheduler\layout-customization\scheduler-grouping.md
+    - name: Zoom the Scheduling Area
+      href: articles\scheduler\layout-customization\zoom-the-scheduling-area.md
+  - name: Selection and Navigation
+    href: articles\scheduler\selection-and-navigation\selection-and-navigation.md
+    items:
+    - name: Navigate Dates in the Scheduler
+      href: articles\scheduler\selection-and-navigation\navigate-dates-in-the-scheduler.md
+    - name: Navigate Scheduler Resources
+      href: articles\scheduler\selection-and-navigation\navigate-scheduler-resources.md
+    - name: Navigate Scheduler Time Cells
+      href: articles\scheduler\selection-and-navigation\navigate-scheduler-time-cells.md
+    - name: Scheduler Navigation Buttons
+      href: articles\scheduler\selection-and-navigation\scheduler-navigation-buttons.md
+    - name: Scheduler 'More' Buttons
+      href: articles\scheduler\selection-and-navigation\scheduler-'more'-buttons.md
+  - name: Printing
+    href: articles\scheduler\printing\printing.md
+- name: Snap Reporting Engine
+  href: articles\snap-reporting-engine\snap-reporting-engine.md
+  items:
+  - name: Graphical User Interface
+    href: articles\snap-reporting-engine\graphical-user-interface\graphical-user-interface.md
+    items:
+    - name: Main Toolbar
+      href: articles\snap-reporting-engine\graphical-user-interface\main-toolbar\main-toolbar.md
+      items:
+      - name: 'Data Tools: Field'
+        href: articles\snap-reporting-engine\graphical-user-interface\main-toolbar\data-tools-field.md
+      - name: 'Data Tools: Group'
+        href: articles\snap-reporting-engine\graphical-user-interface\main-toolbar\data-tools-group.md
+      - name: 'Data Tools: List'
+        href: articles\snap-reporting-engine\graphical-user-interface\main-toolbar\data-tools-list.md
+      - name: 'Data Tools: Mail Merge'
+        href: articles\snap-reporting-engine\graphical-user-interface\main-toolbar\data-tools-mail-merge.md
+      - name: 'Data Tools: Appearance'
+        href: articles\snap-reporting-engine\graphical-user-interface\main-toolbar\data-tools-appearance.md
+      - name: 'General Tools: File'
+        href: articles\snap-reporting-engine\graphical-user-interface\main-toolbar\general-tools-file.md
+      - name: 'General Tools: Insert'
+        href: articles\snap-reporting-engine\graphical-user-interface\main-toolbar\general-tools-insert.md
+      - name: 'General Tools: View'
+        href: articles\snap-reporting-engine\graphical-user-interface\main-toolbar\general-tools-view.md
+      - name: 'General Tools: References'
+        href: articles\snap-reporting-engine\graphical-user-interface\main-toolbar\general-tools-references.md
+      - name: 'Table Tools: Design'
+        href: articles\snap-reporting-engine\graphical-user-interface\main-toolbar\table-tools-design.md
+      - name: 'Table Tools: Layout'
+        href: articles\snap-reporting-engine\graphical-user-interface\main-toolbar\table-tools-layout.md
+      - name: 'General Tools: Home'
+        href: articles\snap-reporting-engine\graphical-user-interface\main-toolbar\general-tools-home.md
+      - name: 'General Tools: Page Layout'
+        href: articles\snap-reporting-engine\graphical-user-interface\main-toolbar\general-tools-page-layout.md
+      - name: 'General Tools: Review'
+        href: articles\snap-reporting-engine\graphical-user-interface\main-toolbar\general-tools-review.md
+      - name: 'Chart Tools: Design'
+        href: articles\snap-reporting-engine\graphical-user-interface\main-toolbar\chart-tools-design.md
+      - name: 'Header and Footer Tools: Design'
+        href: articles\snap-reporting-engine\graphical-user-interface\main-toolbar\header-and-footer-tools-design.md
+      - name: 'Picture Tools: Format'
+        href: articles\snap-reporting-engine\graphical-user-interface\main-toolbar\picture-tools-format.md
+    - name: Snap Application Elements
+      href: articles\snap-reporting-engine\graphical-user-interface\snap-application-elements\snap-application-elements.md
+      items:
+      - name: Snap User Interface Overview
+        href: articles\snap-reporting-engine\graphical-user-interface\snap-application-elements\snap-user-interface-overview.md
+      - name: Main Toolbar
+        href: articles\snap-reporting-engine\graphical-user-interface\snap-application-elements\main-toolbar.md
+      - name: Design Surface
+        href: articles\snap-reporting-engine\graphical-user-interface\snap-application-elements\design-surface.md
+      - name: Data Explorer
+        href: articles\snap-reporting-engine\graphical-user-interface\snap-application-elements\data-explorer.md
+      - name: Report Explorer
+        href: articles\snap-reporting-engine\graphical-user-interface\snap-application-elements\report-explorer.md
+      - name: Print Preview
+        href: articles\snap-reporting-engine\graphical-user-interface\snap-application-elements\print-preview.md
+  - name: Connect to Data
+    href: articles\snap-reporting-engine\connect-to-data\connect-to-data.md
+    items:
+    - name: Connect a Document to a Data Source
+      href: articles\snap-reporting-engine\connect-to-data\connect-a-document-to-a-data-source.md
+    - name: Create a Master-Detail Data Source
+      href: articles\snap-reporting-engine\connect-to-data\create-a-master-detail-data-source.md
+    - name: Filter Data
+      href: articles\snap-reporting-engine\connect-to-data\filter-data.md
+    - name: Format Data
+      href: articles\snap-reporting-engine\connect-to-data\format-data.md
+    - name: Group Data
+      href: articles\snap-reporting-engine\connect-to-data\group-data.md
+    - name: Sort Data
+      href: articles\snap-reporting-engine\connect-to-data\sort-data.md
+    - name: Pass Parameter Values
+      href: articles\snap-reporting-engine\connect-to-data\pass-parameter-values.md
+    - name: Use Calculated Fields
+      href: articles\snap-reporting-engine\connect-to-data\use-calculated-fields.md
+    - name: Use the Query Builder
+      href: articles\snap-reporting-engine\connect-to-data\use-the-query-builder.md
+  - name: Create a Report Layout
+    href: articles\snap-reporting-engine\create-a-report-layout\create-a-report-layout.md
+    items:
+    - name: Create a Mail-Merge Report
+      href: articles\snap-reporting-engine\create-a-report-layout\create-a-mail-merge-report.md
+    - name: Create a Master-Detail Report
+      href: articles\snap-reporting-engine\create-a-report-layout\create-a-master-detail-report.md
+    - name: Create a Table Report
+      href: articles\snap-reporting-engine\create-a-report-layout\create-a-table-report.md
+    - name: Create a Multi-Column Report
+      href: articles\snap-reporting-engine\create-a-report-layout\create-a-multi-column-report.md
+    - name: Create a Side-by-Side Report
+      href: articles\snap-reporting-engine\create-a-report-layout\create-a-side-by-side-report.md
+    - name: Create a Parameterized Report
+      href: articles\snap-reporting-engine\create-a-report-layout\create-a-parameterized-report.md
+    - name: Create a Chart-Based Report
+      href: articles\snap-reporting-engine\create-a-report-layout\create-a-chart-based-report.md
+    - name: Create a Combined Report Layout
+      href: articles\snap-reporting-engine\create-a-report-layout\create-a-combined-report-layout.md
+  - name: Manage Documents and Files
+    href: articles\snap-reporting-engine\manage-documents-and-files\manage-documents-and-files.md
+    items:
+    - name: Create a New Report
+      href: articles\snap-reporting-engine\manage-documents-and-files\create-a-new-report.md
+    - name: Storing Reports
+      href: articles\snap-reporting-engine\manage-documents-and-files\storing-reports.md
+    - name: Save a Report
+      href: articles\snap-reporting-engine\manage-documents-and-files\save-a-report.md
+    - name: Open an Existing Report
+      href: articles\snap-reporting-engine\manage-documents-and-files\open-an-existing-report.md
+    - name: Export a Report
+      href: articles\snap-reporting-engine\manage-documents-and-files\export-a-report.md
+- name: Spreadsheet
+  href: articles\spreadsheet\spreadsheet.md
+  items:
+  - name: Spreadsheet UI
+    items:
+    - name: Ribbon Interface
+      href: articles\spreadsheet\spreadsheet-ui\ribbon-interface.md
+    - name: Spreadsheet Elements
+      href: articles\spreadsheet\spreadsheet-ui\spreadsheet-elements.md
+  - name: File Operations
+    items:
+    - name: Create a Workbook
+      href: articles\spreadsheet\file-operations\create-a-workbook.md
+    - name: Load a Workbook
+      href: articles\spreadsheet\file-operations\load-a-workbook.md
+    - name: Create a Worksheet
+      href: articles\spreadsheet\file-operations\create-a-worksheet.md
+    - name: Rename a Worksheet
+      href: articles\spreadsheet\file-operations\rename-a-worksheet.md
+    - name: Delete a Worksheet
+      href: articles\spreadsheet\file-operations\delete-a-worksheet.md
+    - name: Save a Workbook
+      href: articles\spreadsheet\file-operations\save-a-workbook.md
+    - name: Import and Export Text Files
+      href: articles\spreadsheet\file-operations\import-and-export-text-files.md
+    - name: Print a Workbook
+      href: articles\spreadsheet\file-operations\print-a-workbook.md
+    - name: Adjust Page Settings
+      href: articles\spreadsheet\file-operations\adjust-page-settings.md
+    - name: Undo and Redo Last Actions
+      href: articles\spreadsheet\file-operations\undo-and-redo-last-actions.md
+  - name: Viewing and Navigating
+    items:
+    - name: Hide and Display Worksheets
+      href: articles\spreadsheet\viewing-and-navigating\hide-and-display-worksheets.md
+    - name: Zoom a Worksheet
+      href: articles\spreadsheet\viewing-and-navigating\zoom-a-worksheet.md
+    - name: Hide Gridlines and Headings
+      href: articles\spreadsheet\viewing-and-navigating\hide-gridlines-and-headings.md
+    - name: Freeze Columns and Rows
+      href: articles\spreadsheet\viewing-and-navigating\freeze-columns-and-rows.md
+  - name: Editing Cells
+    items:
+    - name: Select Cells or Cell Content
+      href: articles\spreadsheet\editing-cells\select-cells-or-cell-content.md
+    - name: Copy and Paste Cell Content
+      href: articles\spreadsheet\editing-cells\copy-and-paste-cell-content.md
+    - name: Fill Data Automatically
+      href: articles\spreadsheet\editing-cells\fill-data-automatically.md
+    - name: Find and Replace
+      href: articles\spreadsheet\editing-cells\find-and-replace.md
+    - name: Insert a Comment
+      href: articles\spreadsheet\editing-cells\insert-a-comment.md
+    - name: Insert a Symbol
+      href: articles\spreadsheet\editing-cells\insert-a-symbol.md
+  - name: Cell Formatting
+    items:
+    - name: Format Cells
+      href: articles\spreadsheet\cell-formatting\format-cells.md
+    - name: Format Cell Content
+      href: articles\spreadsheet\cell-formatting\format-cell-content.md
+    - name: Wrap Text and Merge Cells
+      href: articles\spreadsheet\cell-formatting\wrap-text-and-merge-cells.md
+    - name: Number Formatting
+      href: articles\spreadsheet\cell-formatting\number-formatting.md
+    - name: 'Conditional Formatting '
+      href: articles\spreadsheet\cell-formatting\conditional-formatting-.md
+    - name: Clear Cell Formatting
+      href: articles\spreadsheet\cell-formatting\clear-cell-formatting.md
+  - name: Columns and Rows
+    items:
+    - name: Insert and Delete Columns and Rows
+      href: articles\spreadsheet\columns-and-rows\insert-and-delete-columns-and-rows.md
+    - name: Show and Hide Columns and Rows
+      href: articles\spreadsheet\columns-and-rows\show-and-hide-columns-and-rows.md
+    - name: Specify Column Width and Row Height
+      href: articles\spreadsheet\columns-and-rows\specify-column-width-and-row-height.md
+  - name: Tables
+    items:
+    - name: 'Create a Table '
+      href: articles\spreadsheet\tables\create-a-table-.md
+  - name: Pivot Tables
+    items:
+    - name: Create a Pivot Table
+      href: articles\spreadsheet\pivot-tables\create-a-pivot-table.md
+    - name: Modify a Pivot Table
+      href: articles\spreadsheet\pivot-tables\modify-a-pivot-table.md
+    - name: Refresh the PivotTable Data
+      href: articles\spreadsheet\pivot-tables\refresh-the-pivottable-data.md
+    - name: Change the Value Field Settings
+      href: articles\spreadsheet\pivot-tables\change-the-value-field-settings.md
+    - name: Apply a Predefined Style to a Pivot Table
+      href: articles\spreadsheet\pivot-tables\apply-a-predefined-style-to-a-pivot-table.md
+    - name: Change the PivotTable Layout
+      href: articles\spreadsheet\pivot-tables\change-the-pivottable-layout.md
+    - name: Subtotal and Total Fields in a Pivot Table
+      href: articles\spreadsheet\pivot-tables\subtotal-and-total-fields-in-a-pivot-table.md
+    - name: 'Group Items in a Pivot Table '
+      href: articles\spreadsheet\pivot-tables\group-items-in-a-pivot-table-.md
+    - name: Sort Items in a Pivot Table
+      href: articles\spreadsheet\pivot-tables\sort-items-in-a-pivot-table.md
+    - name: 'Filter a Pivot Table '
+      href: articles\spreadsheet\pivot-tables\filter-a-pivot-table-.md
+    - name: Insert a Calculated Field and Calculated Item
+      href: articles\spreadsheet\pivot-tables\insert-a-calculated-field-and-calculated-item.md
+  - name: Data Presentation
+    items:
+    - name: Outline Data
+      href: articles\spreadsheet\data-presentation\outline-data.md
+    - name: Subtotal Data
+      href: articles\spreadsheet\data-presentation\subtotal-data.md
+    - name: Sort Data
+      href: articles\spreadsheet\data-presentation\sort-data.md
+    - name: Filter Data
+      href: articles\spreadsheet\data-presentation\filter-data.md
+  - name: Data Validation
+    items:
+    - name: Validate Data in Cells
+      href: articles\spreadsheet\data-validation\validate-data-in-cells.md
+  - name: Formulas
+    items:
+    - name: Create a Simple Formula
+      href: articles\spreadsheet\formulas\create-a-simple-formula.md
+    - name: Cell References
+      href: articles\spreadsheet\formulas\cell-references.md
+    - name: Defined Names
+      href: articles\spreadsheet\formulas\defined-names.md
+    - name: 'Using Functions in Formulas '
+      href: articles\spreadsheet\formulas\using-functions-in-formulas-.md
+    - name: Supported Functions
+      href: articles\spreadsheet\formulas\supported-functions.md
+    - name: 'Create an Array Formula '
+      href: articles\spreadsheet\formulas\create-an-array-formula-.md
+    - name: Error Types in Formulas
+      href: articles\spreadsheet\formulas\error-types-in-formulas.md
+  - name: Charting
+    items:
+    - name: Charting Overview
+      href: articles\spreadsheet\charting\charting-overview.md
+    - name: Creating a Chart
+      href: articles\spreadsheet\charting\creating-a-chart.md
+    - name: Changing a Chart Type
+      href: articles\spreadsheet\charting\changing-a-chart-type.md
+    - name: Applying a Predefined Chart Layout and Style
+      href: articles\spreadsheet\charting\applying-a-predefined-chart-layout-and-style.md
+    - name: Modifying a Chart Manually
+      href: articles\spreadsheet\charting\modifying-a-chart-manually.md
+  - name: Mail Merge
+    items:
+    - name: Mail Merge Overview
+      href: articles\spreadsheet\mail-merge\mail-merge-overview.md
+    - name: Data Source Wizard
+      href: articles\spreadsheet\mail-merge\data-source-wizard.md
+    - name: Query Builder
+      href: articles\spreadsheet\mail-merge\query-builder.md
+    - name: Parameters Panel
+      href: articles\spreadsheet\mail-merge\parameters-panel.md
+  - name: Pictures and Hyperlinks
+    items:
+    - name: Insert a Picture
+      href: articles\spreadsheet\pictures-and-hyperlinks\insert-a-picture.md
+    - name: Move, Rotate and Resize a Picture
+      href: articles\spreadsheet\pictures-and-hyperlinks\move-rotate-and-resize-a-picture.md
+    - name: Insert and Delete Hyperlinks
+      href: articles\spreadsheet\pictures-and-hyperlinks\insert-and-delete-hyperlinks.md
+    - name: Shortcuts to Work with Pictures
+      href: articles\spreadsheet\pictures-and-hyperlinks\shortcuts-to-work-with-pictures.md
+  - name: Protection
+    items:
+    - name: Protect a Workbook
+      href: articles\spreadsheet\protection\protect-a-workbook.md
+    - name: Protect a Worksheet
+      href: articles\spreadsheet\protection\protect-a-worksheet.md
+    - name: Protect Worksheet Ranges
+      href: articles\spreadsheet\protection\protect-worksheet-ranges.md
+    - name: Encrypt a Workbook with the Password
+      href: articles\spreadsheet\protection\encrypt-a-workbook-with-the-password.md
+  - name: Shortcuts
+    href: articles\spreadsheet\keyboard-shortcuts\shortcuts.md
+    items:
+    - name: File Operations
+      href: articles\spreadsheet\keyboard-shortcuts\file-operations.md
+    - name: Navigation inside Worksheets
+      href: articles\spreadsheet\keyboard-shortcuts\navigation-inside-worksheets.md
+    - name: 'Work with Selections '
+      href: articles\spreadsheet\keyboard-shortcuts\work-with-selections-.md
+    - name: Copy, Paste and Edit the Cell Content
+      href: articles\spreadsheet\keyboard-shortcuts\copy-paste-and-edit-the-cell-content.md
+    - name: 'Cell Formatting '
+      href: articles\spreadsheet\keyboard-shortcuts\cell-formatting-.md
+    - name: Work with Columns and Rows
+      href: articles\spreadsheet\keyboard-shortcuts\work-with-columns-and-rows.md
+    - name: Sort and Filter
+      href: articles\spreadsheet\keyboard-shortcuts\sort-and-filter.md
+    - name: Work with Formulas
+      href: articles\spreadsheet\keyboard-shortcuts\work-with-formulas.md
+- name: Toolbars and Menus
+  href: articles\toolbars-and-menus\toolbars-and-menus.md
+  items:
+  - name: Layout Customization
+    items:
+    - name: Open Toolbar Customization Window
+      href: articles\toolbars-and-menus\layout-customization\open-toolbar-customization-window.md
+    - name: Finish Toolbar Customization
+      href: articles\toolbars-and-menus\layout-customization\finish-toolbar-customization.md
+    - name: Hide and Display Toolbars
+      href: articles\toolbars-and-menus\layout-customization\hide-and-display-toolbars.md
+    - name: Hide and Display Bar Commands
+      href: articles\toolbars-and-menus\layout-customization\hide-and-display-bar-commands.md
+    - name: Rearrange Toolbars and Menus
+      href: articles\toolbars-and-menus\layout-customization\rearrange-toolbars-and-menus.md
+    - name: Rearrange Bar Commands
+      href: articles\toolbars-and-menus\layout-customization\rearrange-bar-commands.md
+    - name: Restore the Default Layout of Bar Commands
+      href: articles\toolbars-and-menus\layout-customization\restore-the-default-layout-of-bar-commands.md
+  - name: Navigation
+    items:
+    - name: Keyboard Navigation in Menus and Toolbars
+      href: articles\toolbars-and-menus\navigation\keyboard-navigation-in-menus-and-toolbars.md
+  - name: Select Commands
+    items:
+    - name: Invoke Toolbar and Menu Commands
+      href: articles\toolbars-and-menus\select-commands\invoke-toolbar-and-menu-commands.md
+- name: Tree List
+  href: articles\tree-list\tree-list.md
+  items:
+  - name: Edit Cells in a Tree List
+    href: articles\tree-list\data-editing\edit-cells-in-a-tree-list.md
+  - name: Data Presentation
+    items:
+    - name: Sort Tree List Nodes
+      href: articles\tree-list\data-presentation\sort-tree-list-nodes.md
+  - name: Data Analysis
+    items:
+    - name: Filter TreeList Data
+      href: articles\tree-list\data-analysis\filter-treelist-data.md
+    - name: Show Summaries (Totals) in a Tree List
+      href: articles\tree-list\data-analysis\show-summaries-(totals)-in-a-tree-list.md
+    - name: Apply Cell Conditional Formatting
+      href: articles\tree-list\data-analysis\apply-cell-conditional-formatting.md
+  - name: Layout Customization
+    items:
+    - name: Expand and Collapse Nodes in a Tree List
+      href: articles\tree-list\layout-customization\expand-and-collapse-nodes-in-a-tree-list.md
+    - name: Hide and Display Tree List Columns
+      href: articles\tree-list\layout-customization\hide-and-display-tree-list-columns.md
+    - name: Reorder Tree List Columns
+      href: articles\tree-list\layout-customization\reorder-tree-list-columns.md
+    - name: Resize Tree List Columns
+      href: articles\tree-list\layout-customization\resize-tree-list-columns.md
+  - name: Selection and Navigation
+    items:
+    - name: Navigation in a Tree List
+      href: articles\tree-list\selection-and-navigation\navigation-in-a-tree-list.md
+    - name: Select Tree List Nodes
+      href: articles\tree-list\selection-and-navigation\select-tree-list-nodes.md
+- name: Vertical Grid
+  href: articles\vertical-grid\vertical-grid.md
+  items:
+  - name: Edit Cells in Vertical Grids
+    href: articles\vertical-grid\data-editing\edit-cells-in-vertical-grids.md
+  - name: Layout Customization
+    items:
+    - name: Expand and Collapse Rows in Vertical Grids
+      href: articles\vertical-grid\layout-customization\expand-and-collapse-rows-in-vertical-grids.md
+    - name: Resize Rows and Columns in Vertical Grids
+      href: articles\vertical-grid\layout-customization\resize-rows-and-columns-in-vertical-grids.md
+  - name: Navigation in Vertical Grids
+    href: articles\vertical-grid\navigation\navigation-in-vertical-grids.md
