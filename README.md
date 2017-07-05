@@ -1,6 +1,5 @@
 In addition to **developer documentation**, DevExpress also provides **end-user documentation** for its Windows Forms and ASP.NET products. This documentation contains information on individual user interface elements (such as grids, navigation panes, data editors, charts, etc.), and provides instructions for end-users about how to solve the most-common tasks with these interface elements.
 
-
 ## Online Help
 The DevExpress end-user documentation is divided into four target platforms:
 
