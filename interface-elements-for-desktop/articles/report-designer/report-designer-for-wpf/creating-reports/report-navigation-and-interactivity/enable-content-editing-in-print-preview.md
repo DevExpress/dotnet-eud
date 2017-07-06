@@ -1,6 +1,7 @@
 ---
 title: Enable Content Editing in Print Preview
 ---
+# Enable Content Editing in Print Preview
 This document describes how to enable editing the content of specific controls in [Print Preview](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-wpf/document-preview.md).
 
 This topic consists of the following sections.

@@ -1,6 +1,7 @@
 ---
 title: Use Odd and Even Styles
 ---
+# Use Odd and Even Styles
 This tutorial describes how to apply _odd and even styles_ to [report controls](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-wpf/report-elements/report-controls.md), e.g., to alternate the background color for each record.
 
 To utilize odd and even styles, do the following.

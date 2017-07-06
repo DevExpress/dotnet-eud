@@ -1,6 +1,7 @@
 ---
 title: Pass Query Parameters
 ---
+# Pass Query Parameters
 The [Query Builder](../../../../dashboard-for-desktop/articles/dashboard-designer/working-with-data/using-the-query-builder.md) allows you to add query parameters when creating a filter criteria. To specify settings of an added query parameter, click **Next** in the [Query Editor](../../../../dashboard-for-desktop/articles/dashboard-designer/working-with-data/using-the-query-editor.md) dialog.
 
 ![QueryEditorDialog_CustomSqlWithParameter](../../../images/Img118169.png)

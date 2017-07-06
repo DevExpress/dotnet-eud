@@ -1,6 +1,7 @@
 ---
 title: Invoke a Field List
 ---
+# Invoke a Field List
 To invoke a Field List, right-click on an empty space within the Pivot Table header region, and select **Show Field List** from the context menu.
 
 ![ASPxPivotGrid_FIeldsChoserMenu](../../../images/Img8926.png)

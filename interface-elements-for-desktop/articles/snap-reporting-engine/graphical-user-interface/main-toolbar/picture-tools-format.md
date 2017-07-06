@@ -1,6 +1,7 @@
 ---
 title: 'Picture Tools: Format'
 ---
+# Picture Tools: Format
 This toolbar is context sensitive, and becomes active after selecting a picture in a document.
 
 The commands available in the **Format** toolbar of the **Picture Tools** category are divided into the following sections.

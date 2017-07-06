@@ -1,6 +1,7 @@
 ---
 title: Supported Functions
 ---
+# Supported Functions
 The **Spreadsheet** supports the following functions to be used in formulas.
 * **Mathematical Functions** - used to perform common mathematical operations: addition (SUM), multiplication (PRODUCT), exponentiation (POWER), extraction of the square root (SQRT), evaluation of trigonometric functions (e.g., SIN, COS or TAN), etc.
 * **Financial Functions** - used to perform various types of financial operations: calculation of interest rates (RATE), calculation of interest payments (IPMT), etc.

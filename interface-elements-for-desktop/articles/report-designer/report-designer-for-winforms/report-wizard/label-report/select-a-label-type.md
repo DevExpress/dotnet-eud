@@ -1,6 +1,7 @@
 ---
 title: Select a Label Type
 ---
+# Select a Label Type
 This page is intended to select a label type from numerous predefined types.
 
 On this page, you can choose the proper settings from the **Label Products** and the **Product Number** drop-down lists. The selected type defines the label's size and layout, as well as the page type, which is default for this label.

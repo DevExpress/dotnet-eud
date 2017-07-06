@@ -1,6 +1,7 @@
 ---
 title: Tag Inspector
 ---
+# Tag Inspector
 The **Tag Inspector** allows you to navigate through a tag hierarchy, remove tags, and customize tag properties using the **Tag Properties Editor**.
 
 ![TagInspector](../../../images/Img118344.png)

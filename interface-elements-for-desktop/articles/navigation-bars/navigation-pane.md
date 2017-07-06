@@ -1,6 +1,7 @@
 ---
 title: Navigation Pane
 ---
+# Navigation Pane
 ## Expand Groups
 A Navigation Pane displays only one group at a time. Other groups are collapsed and their buttons are displayed at the bottom or in the Overflow panel. You can use the horizontal splitter to control the number of group buttons shown outside of the Overflow panel.
 

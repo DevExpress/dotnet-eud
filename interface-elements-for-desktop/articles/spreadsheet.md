@@ -1,6 +1,7 @@
 ---
 title: Spreadsheet
 ---
+# Spreadsheet
 This section describes the capabilities provided by the **Spreadsheet**.
 
 ![Spreadsheet.png](../images/Img21270.png)

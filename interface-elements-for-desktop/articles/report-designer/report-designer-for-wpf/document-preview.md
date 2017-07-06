@@ -1,6 +1,7 @@
 ---
 title: Document Preview
 ---
+# Document Preview
 To display a preview for the report currently being opened in the Report Designer, switch to the **Print Preview** tab. You will see the report populated with data and divided into pages.
 
 ![WPFDesigner_DocumentPreview](../../../images/Img120303.png)

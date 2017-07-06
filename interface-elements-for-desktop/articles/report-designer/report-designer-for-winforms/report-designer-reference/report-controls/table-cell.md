@@ -1,6 +1,7 @@
 ---
 title: Table Cell
 ---
+# Table Cell
 The **Table Cell** control represents an individual cell within a [Table](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-reference/report-controls/table.md).
 
 ![RD_Controls_TableCell_0](../../../../../images/Img8513.png)

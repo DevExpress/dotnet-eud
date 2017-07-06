@@ -1,6 +1,7 @@
 ---
 title: Sort Data
 ---
+# Sort Data
 This document describes how to sort dynamic data within a **Snap** document.
 
 The document consists of the following sections.

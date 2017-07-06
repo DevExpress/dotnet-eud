@@ -1,6 +1,7 @@
 ---
 title: Image-Specific Export Options
 ---
+# Image-Specific Export Options
 When [exporting a document](../../../../../interface-elements-for-desktop/articles/print-preview/print-preview-for-wpf/exporting/exporting.md), you can define the following Image-specific exporting options.
 
 ![EUD_WpfPrintPreview_ImageExportOptions](../../../../images/Img124166.png)

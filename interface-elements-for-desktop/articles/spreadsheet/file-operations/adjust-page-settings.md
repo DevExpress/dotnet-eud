@@ -1,6 +1,7 @@
 ---
 title: Adjust Page Settings
 ---
+# Adjust Page Settings
 Before you print a worksheet, you can change page layout settings such as [page margins](#margins), [page orientation](#orientation), [paper size](#size) and [scaling](#scale).
 
 ## <a name="margins"/>Set Page Margins

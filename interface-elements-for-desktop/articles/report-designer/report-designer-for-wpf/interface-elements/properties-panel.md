@@ -1,6 +1,7 @@
 ---
 title: Properties Panel
 ---
+# Properties Panel
 The **Properties** panel allows you to access and customize settings of a report and its [elements](../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-wpf/report-elements.md). 
 
 ![WPFDesigner_PropertiesPanel](../../../../images/Img121995.png)

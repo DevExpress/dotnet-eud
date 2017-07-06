@@ -1,6 +1,7 @@
 ---
 title: Conditionally Change a Label's Text
 ---
+# Conditionally Change a Label's Text
 This tutorial demonstrates how to change a label's text if a certain condition is met, without using [scripts](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/create-reports/miscellaneous/handle-events-via-scripts.md).
 
 To conditionally change a label's text, do the following.

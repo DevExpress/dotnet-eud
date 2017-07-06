@@ -1,6 +1,7 @@
 ---
 title: Change Value Formatting of Report Elements
 ---
+# Change Value Formatting of Report Elements
 To apply value formatting for a [data-bound control](../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-editing-basics/displaying-values-from-a-database-(binding-report-elements-to-data).md)'s content (e.g. for it to be treated as currency, or date-time content), locate this control, click its [Smart Tag](../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-reference/report-designer-ui/smart-tag.md), and in the invoked actions list, click the ellipsis button for the **Format String** entry.
 
 Then, in the invoked format string editor, choose one of the predefined formatting styles, or specify a custom one.

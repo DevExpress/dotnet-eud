@@ -1,6 +1,7 @@
 ---
 title: Saving a Dashboard
 ---
+# Saving a Dashboard
 The Web Dashboard provides the capability to save a dashboard definition (dashboard items, data source, data binding and layout settings, etc.) to an XML definition. This can be accomplished in the following ways.
 * You can save the dashboard definition manually. For this, open the [dashboard menu](../../../dashboard-for-web/articles/web-dashboard-designer-mode/ui-elements/dashboard-menu.md) and click **Save**.
 	

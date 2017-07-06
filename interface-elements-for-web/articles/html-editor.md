@@ -1,6 +1,7 @@
 ---
 title: HTML Editor
 ---
+# HTML Editor
 This section describes the capabilities provided by the HTML Editor (Rich Text Editor), which  provides a wide range of capabilities for HTML content editing.
 
 **HTML Editor User Interface**

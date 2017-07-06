@@ -1,6 +1,7 @@
 ---
 title: Bind a Report to an Entity Framework Data Source
 ---
+# Bind a Report to an Entity Framework Data Source
 This document describes the steps required to connect a report to data provided by an Entity Framework data context.
 
 To bind a report to an Entity Framework data source, do the following.

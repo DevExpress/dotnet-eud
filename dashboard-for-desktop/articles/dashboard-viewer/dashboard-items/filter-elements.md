@@ -1,6 +1,7 @@
 ---
 title: Filter Elements
 ---
+# Filter Elements
 Filter elements provide the capability to [filter](../../../../dashboard-for-desktop/articles/dashboard-viewer/data-presentation/master-filtering.md) other dashboard items.
 * [Combo Box](#combo-box)
 * [List Box](#list-box)

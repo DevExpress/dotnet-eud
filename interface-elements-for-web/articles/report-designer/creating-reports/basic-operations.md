@@ -1,6 +1,7 @@
 ---
 title: Basic Operations
 ---
+# Basic Operations
 The topics in this section cover the basics of working with reports in the [Web Report Designer](../../../../interface-elements-for-web/articles/report-designer.md).
 
 This section consists of the following topics.

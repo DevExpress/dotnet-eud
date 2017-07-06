@@ -1,6 +1,7 @@
 ---
 title: Create a New Report
 ---
+# Create a New Report
 This topic explains how to create a new report in the Report Designer.
 
 To create a new report, do one of the following depending on the Report Designer's View.

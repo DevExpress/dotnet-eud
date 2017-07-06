@@ -1,6 +1,7 @@
 ---
 title: Scheduler Grouping
 ---
+# Scheduler Grouping
 The appointment data displayed within the scheduler can be grouped either by resources or by dates to enhance visual representation. The following pictures illustrate the appearance of the scheduler in different grouping modes.
 
 | Appointments are grouped by resources | Appointments are grouped by dates |

@@ -1,6 +1,7 @@
 ---
 title: Report Editing Basics
 ---
+# Report Editing Basics
 This section describes the most basic tasks you may encounter when initiating a report edit in the Report Designer.
 
 The following documents are available in this section.

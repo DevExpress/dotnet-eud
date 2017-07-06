@@ -1,6 +1,7 @@
 ---
 title: Summarization
 ---
+# Summarization
 To obtain numeric values that should be displayed within a dashboard item, Dashboard calculates a summary function against the specified measure.
 
 ![Charts_DataBinding_Values](../../../images/Img18722.png)

@@ -1,6 +1,7 @@
 ---
 title: View Document Properties
 ---
+# View Document Properties
 To view information related to the currently opened document, invoke the context menu by right-clicking this document and selecting **Document properties...** item.
 
 ![pdf-viewer-13](../../images/Img24459.png)

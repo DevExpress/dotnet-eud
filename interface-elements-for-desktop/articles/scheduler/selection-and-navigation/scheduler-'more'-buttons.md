@@ -1,6 +1,7 @@
 ---
 title: Scheduler 'More' Buttons
 ---
+# Scheduler 'More' Buttons
 The "More"  buttons indicate that more appointments exist on a particular date. Click these buttons to see all appointments in a more detailed view, or to simply scroll to the next appointment.
 
 | Day View | Month View |

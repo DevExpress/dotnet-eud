@@ -1,6 +1,7 @@
 ---
 title: Add Calculated Fields to a Report
 ---
+# Add Calculated Fields to a Report
 This document demonstrates how to add a _calculated field_ to a report. The main purpose of calculated fields is to perform pre-calculations (of virtually any level of complexity) over [data fields](../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-editing-basics/displaying-values-from-a-database-(binding-report-elements-to-data).md). To learn how to easily perform simple calculations within a single data field, refer to [Add Totals to a Report](../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-editing-basics/add-totals-to-a-report.md).
 
 In the Report Designer, a calculated field is similar to an ordinary data field (e.g. you can bind controls to it, and [group](../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-editing-basics/change-or-apply-data-grouping-to-a-report.md), [sort](../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-editing-basics/change-or-apply-data-sorting-to-a-report.md) and [filter](../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-editing-basics/change-or-apply-data-filtering-to-a-report.md) your report against it).

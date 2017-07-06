@@ -1,6 +1,7 @@
 ---
 title: Coloring
 ---
+# Coloring
 The Bubble Map dashboard item automatically selects palette and scale settings used to color bubbles depending on the [provided](../../../../../../dashboard-for-desktop/articles/dashboard-designer/designing-dashboard-items/geo-point-maps/bubble-map/providing-data.md) values.
 
 ![BubbleMap_DataItems](../../../../../images/Img23580.png)

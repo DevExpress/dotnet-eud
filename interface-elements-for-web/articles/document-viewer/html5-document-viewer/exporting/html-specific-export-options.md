@@ -1,6 +1,7 @@
 ---
 title: HTML-Specific Export Options
 ---
+# HTML-Specific Export Options
 Before [exporting a document](../../../../../interface-elements-for-web/articles/document-viewer/html5-document-viewer/exporting/export-a-document.md) to HTML format, you can specify HTML-specific options in the dedicated **Export Options** panel.
 
 ![EUD_HTML5DV_HtmlExportOptions](../../../../images/Img121799.png)

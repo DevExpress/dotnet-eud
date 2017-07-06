@@ -1,6 +1,7 @@
 ---
 title: Mail Merge
 ---
+# Mail Merge
 The **Mail Merge** feature enables you to use the text retrieved from a data source for filling in the fields in a document template. This feature is useful for letters, catalogs, mailing labels, and for personalizing any kind of a document.
 
 > If the data source provides formatted text to insert in the merge field, its formatting will not be recognized and properly processed.

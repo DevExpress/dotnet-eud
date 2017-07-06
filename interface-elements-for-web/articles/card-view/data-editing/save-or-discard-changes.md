@@ -1,6 +1,7 @@
 ---
 title: Save or Discard Changes
 ---
+# Save or Discard Changes
 ## Save Changes
 To save the changes made, click **Update**.
 

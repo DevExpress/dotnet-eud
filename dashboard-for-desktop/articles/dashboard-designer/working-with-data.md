@@ -1,6 +1,7 @@
 ---
 title: Working with Data
 ---
+# Working with Data
 The topics in this section describe how to work with data in a [connected](../../../dashboard-for-desktop/articles/dashboard-designer/providing-data.md) data source.
 
 This section contains the following topics.

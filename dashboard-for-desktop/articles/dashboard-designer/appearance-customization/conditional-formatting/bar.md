@@ -1,6 +1,7 @@
 ---
 title: Bar
 ---
+# Bar
 The **Bar** format condition allows you to visualize numeric values using bars. You can also paint bars corresponding to positive and negative values using different colors.
 
 To format values according to the Bar condition, click the menu button of the required data item and select **Add Format Rule | Bar**.

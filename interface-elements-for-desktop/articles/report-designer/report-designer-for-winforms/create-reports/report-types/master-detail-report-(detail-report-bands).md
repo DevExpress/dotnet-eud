@@ -1,6 +1,7 @@
 ---
 title: Master-Detail Report (Detail Report Bands)
 ---
+# Master-Detail Report (Detail Report Bands)
 This tutorial describes how to create a master-detail report with hierarchically linked data using the [Detail Report band](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-reference/report-bands/detail-report-band-for-master-detail-reports.md). For an alternative approach, refer to [Master-Detail Report (Subreports)](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/create-reports/report-types/master-detail-report-(subreports).md).
 
 To accomplish this task, do the following.

@@ -1,6 +1,7 @@
 ---
 title: Group Grid Rows
 ---
+# Group Grid Rows
 * To group data, drag a column header from the column header panel to the group panel.
 	
 	![ASPxGridView_Grouping](../../../images/Img7178.png)

@@ -1,6 +1,7 @@
 ---
 title: Select the Connection String
 ---
+# Select the Connection String
 This page allows you to specify a connection string to be used to establish a data connection.
 
 The following two options are available.

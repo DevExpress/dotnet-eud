@@ -1,6 +1,7 @@
 ---
 title: Value
 ---
+# Value
 The **Value** format condition allows you to compare static values (such as Greater Than, Less Than, Between, etc.).
 
 The following condition types are supported for measures or date-time dimensions:

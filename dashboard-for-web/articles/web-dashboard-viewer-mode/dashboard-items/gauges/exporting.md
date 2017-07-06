@@ -1,6 +1,7 @@
 ---
 title: Exporting
 ---
+# Exporting
 The Web Dashboard allows you to export individual dashboard items, or the entire dashboard. To learn more about exporting concepts common to all dashboard items, see the [Exporting](../../../../../dashboard-for-web/articles/web-dashboard-viewer-mode/exporting.md) topic.
 
 This topic describes the specifics of exporting a **Gauge** dashboard item.

@@ -1,6 +1,7 @@
 ---
 title: Insert and Delete Hyperlinks
 ---
+# Insert and Delete Hyperlinks
 The **Spreadsheet** allows you to [insert](#inserthyperlink), edit and [delete](#deletehyperlink) hyperlinks. A hyperlink is a link from a worksheet to another file or Web page that can be opened when you click the hyperlink text or image.
 
 ![HyperlinkExample.png](../../../images/Img21285.png)

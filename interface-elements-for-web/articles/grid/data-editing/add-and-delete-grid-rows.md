@@ -1,6 +1,7 @@
 ---
 title: Add and Delete Grid Rows
 ---
+# Add and Delete Grid Rows
 ## Add a Record
 To create a new record:
 * Click **New**.

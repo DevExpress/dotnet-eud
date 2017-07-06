@@ -1,6 +1,7 @@
 ---
 title: Make a Series of Recurring Appointments
 ---
+# Make a Series of Recurring Appointments
 ## What is a Recurring Appointment?
 All appointments supported by the **Scheduler** control can be simple (non-recurring) or recurring. Non-recurring appointments occur only once in a specified time interval. Recurring appointments occur many times in the same time interval on different dates.
 

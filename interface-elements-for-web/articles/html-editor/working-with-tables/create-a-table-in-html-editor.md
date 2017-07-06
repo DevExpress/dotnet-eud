@@ -1,6 +1,7 @@
 ---
 title: Create a Table in HTML Editor
 ---
+# Create a Table in HTML Editor
 ## Create a Table
 Place a mouse pointer where you want to create a table. Click the ![ASPxHtmlEditor-Buttons-InsertTable](../../../images/Img10324.png) button in the editor's toolbar.
 

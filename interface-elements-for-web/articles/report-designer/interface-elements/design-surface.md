@@ -1,6 +1,7 @@
 ---
 title: Design Surface
 ---
+# Design Surface
 The **Design Surface** displays a report that is being edited in the [Web Report Designer](../../../../interface-elements-for-web/articles/report-designer.md).
 
 ![web-designer-surface](../../../images/Img24600.png)

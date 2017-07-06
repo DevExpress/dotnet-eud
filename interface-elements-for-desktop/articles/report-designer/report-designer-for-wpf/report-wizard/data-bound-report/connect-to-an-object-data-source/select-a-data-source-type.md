@@ -1,6 +1,7 @@
 ---
 title: Select a Data Source Type
 ---
+# Select a Data Source Type
 On this wizard page, select a required data source type.
 
 ![WpfReportWizard_Object_SelectDataSourceType](../../../../../../images/Img122877.png)

@@ -1,6 +1,7 @@
 ---
 title: Protect and Unprotect a Document
 ---
+# Protect and Unprotect a Document
 ## <a name="protectdocument"/>Add Protection to a Document
 To protect a document by specifying a password, follow the steps below.
 1. On the **Review** [tab](../../../../interface-elements-for-desktop/articles/rich-text-editor/text-editor-ui/ribbon-interface.md), in the **Protect** group, click the **Protect Document** button .

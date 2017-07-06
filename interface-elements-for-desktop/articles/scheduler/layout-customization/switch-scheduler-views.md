@@ -1,6 +1,7 @@
 ---
 title: Switch Scheduler Views
 ---
+# Switch Scheduler Views
 ## Change Active View
 The scheduler is intended to display appointment data using one of the standard [Views](#viewtypes). The currently active view used by the scheduler can be either selected intentionally or changed according to the scheduler's internal logic.
 * To change the active view, use the corresponding item of the scheduler's context menu. This menu is invoked when you right-click any region of the scheduler (not occupied with an appointment).

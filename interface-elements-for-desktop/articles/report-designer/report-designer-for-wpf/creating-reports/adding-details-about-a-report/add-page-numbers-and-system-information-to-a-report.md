@@ -1,6 +1,7 @@
 ---
 title: Add Page Numbers and System Information to a Report
 ---
+# Add Page Numbers and System Information to a Report
 This document describes how to insert _page numbers_ or other system information (e.g., _current date and time_, _user name_, etc.) into a report.
 
 Generally, this information is displayed within the Page Header and Footer or Page Margin [bands](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-wpf/report-elements/report-bands.md). To add page numbers or system information to a report, drop the [Page Info](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-wpf/report-elements/report-controls.md) control from the [Control Toolbox](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-wpf/interface-elements/control-toolbox.md) onto a band.

@@ -1,6 +1,7 @@
 ---
 title: Select a Worksheet, Table or Named Region
 ---
+# Select a Worksheet, Table or Named Region
 > This wizard page appears only if you selected a Microsoft Excel Workbook on the previous page.
 
 This wizard page allows you to select one of the available worksheets, tables or named regions that will provide data for a report.

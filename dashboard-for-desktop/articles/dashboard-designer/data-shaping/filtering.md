@@ -1,6 +1,7 @@
 ---
 title: Filtering
 ---
+# Filtering
 The **Dashboard** allows you to filter a [query](../../../../dashboard-for-desktop/articles/dashboard-designer/working-with-data/filter-queries.md) of the [SQL Data Source](../../../../dashboard-for-desktop/articles/dashboard-designer/providing-data/connecting-to-sql-databases.md) or apply filtering to a specific data-aware dashboard item.
 
 This topic describes how to enable and reset filtering.

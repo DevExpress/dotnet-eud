@@ -1,6 +1,7 @@
 ---
 title: Image Overview
 ---
+# Image Overview
 The Web Dashboard allows you to create two types of **Image** dashboard items.
 * The **Image** dashboard item allows you to add a static image to the dashboard.
 	

@@ -1,6 +1,7 @@
 ---
 title: Copy to the Clipboard
 ---
+# Copy to the Clipboard
 Aside from exporting a document to a third-party formatted file, you can copy a portion of the document content to the clipboard, and paste it into an editor compatible with one of the supported third-party formats.
 
 To copy document content to the clipboard, do the following.

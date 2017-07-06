@@ -1,6 +1,7 @@
 ---
 title: Images
 ---
+# Images
 The Dashboard Designer allows you to add images to a dashboard.
 
 ![MainFeatures_Image](../../../images/Img18213.png)

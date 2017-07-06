@@ -1,6 +1,7 @@
 ---
 title: Conditionally Hide Bands
 ---
+# Conditionally Hide Bands
 This tutorial describes how to hide bands if a certain logical condition is met. Note that no [scripts](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-wpf/creating-reports/scripting.md) are required to accomplish this task.
 
 To demonstrate this feature, use a report with grouping similar to the one created in the following tutorial: [Grouping Data](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-wpf/creating-reports/shaping-data/grouping-data.md).

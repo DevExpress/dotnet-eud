@@ -1,6 +1,7 @@
 ---
 title: Labels
 ---
+# Labels
 Geo Point maps provide the capability to display titles within map shapes and allow you to add supplementary content to the callout/bubble/pie tooltips.
 
 ## Shape Titles

@@ -1,6 +1,7 @@
 ---
 title: Main Toolbar
 ---
+# Main Toolbar
 The **Main Toolbar** provides quick access to the report editing commands in the [Web Report Designer](../../../../interface-elements-for-web/articles/report-designer.md).
 
 ![web-report-designer-main-toolbar](../../../images/Img24741.png)

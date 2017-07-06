@@ -1,6 +1,7 @@
 ---
 title: Axes
 ---
+# Axes
 Scatter Chart X and Y-axes are numerical axis of values. You can specify various axes settings to change visual data presentation.
 
 To access X and Y-axis settings, go to the Scatter Chart's [Options](../../../../../dashboard-for-web/articles/web-dashboard-designer-mode/ui-elements/dashboard-item-menu.md) menu and open the **Axis X** or **Axis Y** section.

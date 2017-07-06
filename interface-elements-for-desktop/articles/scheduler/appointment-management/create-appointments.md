@@ -1,6 +1,7 @@
 ---
 title: Create Appointments
 ---
+# Create Appointments
 ## Context Menu
 The following items are available in the context menu, invoked when you right-click any region of the Scheduler (except for areas covered by appointments).
 

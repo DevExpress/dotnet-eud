@@ -1,6 +1,7 @@
 ---
 title: Navigate Through Grid Records
 ---
+# Navigate Through Grid Records
 ## Move Focus Between Rows and Cards
 To move focus between cells and rows use the ARROW, TAB, HOME, END, PAGE UP and PAGE DOWN keys. Note that the ARROW, HOME and END keys are used for navigation between rows/cards only when the focused cell is not being edited. Othewise, these keys affect focus movement within the currently edited cell.
 

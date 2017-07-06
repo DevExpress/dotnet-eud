@@ -1,6 +1,7 @@
 ---
 title: Chart with Dynamic Series
 ---
+# Chart with Dynamic Series
 This document describes how to create a report with a [Chart](../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-wpf/report-elements/report-controls.md) control bound to data, so that all series are auto-created based on a common template, which specifies universal options for all series. This is possible when data for all series (their names, along with point arguments and values) is stored in the same data table.
  
 

@@ -1,6 +1,7 @@
 ---
 title: 'Data Tools: List'
 ---
+# Data Tools: List
 This toolbar is context sensitive, and becomes active after selecting a **Snap list** in the document.
 
 The commands available in the **List** toolbar of the **Data Tools** category are divided into the following sections.

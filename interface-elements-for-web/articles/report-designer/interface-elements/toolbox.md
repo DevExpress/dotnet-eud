@@ -1,6 +1,7 @@
 ---
 title: Toolbox
 ---
+# Toolbox
 The **Toolbox** contains elements ([report controls](../../../../interface-elements-for-web/articles/report-designer/report-elements/report-controls.md)) that can be added to a report being edited in the [Web Report Designer](../../../../interface-elements-for-web/articles/report-designer.md). Different controls correspond to various kinds of data that can be displayed in a report.
 
 To [add a new control to the report](../../../../interface-elements-for-web/articles/report-designer/creating-reports/basic-operations/create-report-elements.md), drag the corresponding item from the Toolbox and drop it onto the required [report band](../../../../interface-elements-for-web/articles/report-designer/report-elements/report-bands.md).

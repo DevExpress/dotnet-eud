@@ -1,6 +1,7 @@
 ---
 title: Hidden Data Items
 ---
+# Hidden Data Items
 The **hidden data items** can be used to perform various data shaping and analysis operations by measures or dimensions that do not directly take part in the visual representation of data.
 
 To create hidden data items, click the _Add Measure_ / _Add dimension_ placeholders in the **Hidden Measures** / **Hidden Dimensions** data section and select an appropriate data field.

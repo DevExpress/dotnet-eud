@@ -1,6 +1,7 @@
 ---
 title: Select an Assembly
 ---
+# Select an Assembly
 On this wizard page, select an assembly that contains the class type definition of the data source.
 
 ![WpfReportWizard_Object_SelectAssembly](../../../../../../images/Img122876.png)

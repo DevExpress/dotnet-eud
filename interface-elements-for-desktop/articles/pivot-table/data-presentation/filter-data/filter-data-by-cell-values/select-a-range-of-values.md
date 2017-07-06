@@ -1,6 +1,7 @@
 ---
 title: Select a Range of Values
 ---
+# Select a Range of Values
 You can select a range of cell values to be displayed in any of the following ways.
 * Enter the bounds of the range into the appropriate text editors.
 	

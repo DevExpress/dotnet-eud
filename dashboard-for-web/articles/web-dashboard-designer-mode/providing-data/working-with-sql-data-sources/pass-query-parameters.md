@@ -1,6 +1,7 @@
 ---
 title: Pass Query Parameters
 ---
+# Pass Query Parameters
 The [Query Builder](../../../../../dashboard-for-web/articles/web-dashboard-designer-mode/providing-data/working-with-sql-data-sources/query-builder.md) allows you to [filter queries](../../../../../dashboard-for-web/articles/web-dashboard-designer-mode/providing-data/working-with-sql-data-sources/filter-queries.md) using parameters. To specify settings of an added query parameter after creating a query, click **Next** in the [Dashboard Data Source Wizard](../../../../../dashboard-for-web/articles/web-dashboard-designer-mode/providing-data/working-with-sql-data-sources/dashboard-data-source-wizard.md) dialog.
 
 ![wdd-configure-query-parameters](../../../../images/Img124954.png)

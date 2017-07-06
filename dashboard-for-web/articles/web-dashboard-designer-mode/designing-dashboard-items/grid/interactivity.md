@@ -1,6 +1,7 @@
 ---
 title: Interactivity
 ---
+# Interactivity
 To enable interaction between the Grid and other dashboard items, you can use the interactivity features, as **Master Filtering** and **Drill-Down**.
 * [Master Filtering](#masterfiltering)
 * [Drill-Down](#drilldown)

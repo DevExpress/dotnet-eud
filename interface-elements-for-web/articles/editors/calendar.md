@@ -1,6 +1,7 @@
 ---
 title: Calendar
 ---
+# Calendar
 The **Calendar** is used to [select dates](../../../interface-elements-for-web/articles/editors/calendar/date-selection.md), and allows you to navigate through months and years.
 
 ![EUD_Calendar](../../images/Img22702.png)

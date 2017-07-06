@@ -1,6 +1,7 @@
 ---
 title: Select Text
 ---
+# Select Text
 To select text in the **Rich Editor**, use the following mouse actions and keyboard shortcuts.
 * Selecting **one character**
 	

@@ -1,6 +1,7 @@
 ---
 title: Scatter Chart
 ---
+# Scatter Chart
 The topics in this section describe the features available in the **Scatter Chart** dashboard item, and provide information on how to create and customize scatter charts in the Web Dashboard.
 
 ![wdd-dashboard-items-scatter-chart](../../../images/Img125128.png)

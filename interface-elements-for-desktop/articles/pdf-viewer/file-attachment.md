@@ -1,6 +1,7 @@
 ---
 title: File Attachment
 ---
+# File Attachment
 This document describes actions that can be performed on attachments in the PDF Viewer.
 
 An attachment is a file that is attached to a PDF document. The PDF Viewer shows the file attachments in the **Attachments** panel of the navigation pane.

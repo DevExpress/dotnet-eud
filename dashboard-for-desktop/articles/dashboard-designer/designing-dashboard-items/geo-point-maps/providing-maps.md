@@ -1,6 +1,7 @@
 ---
 title: Providing Maps
 ---
+# Providing Maps
 This document explains how to use the default **DevExpress Dashboard maps**, or provide custom maps.
 
 ## Default Maps

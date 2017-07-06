@@ -1,6 +1,7 @@
 ---
 title: Bar Color Ranges
 ---
+# Bar Color Ranges
 Bar Color Ranges allow you to visualize numeric values using bars whose colors are contained in the specified color set.
 
 To format values according the required condition, click the data item menu button, select **Add Format Rule | Bar Color Ranges** and choose the required color set.

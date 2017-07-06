@@ -1,6 +1,7 @@
 ---
 title: Format Text
 ---
+# Format Text
 To format text, first [select it](../../../../interface-elements-for-desktop/articles/rich-text-editor/text-editing/select-text.md) and then use the **Font** page group on the **Home** [ tab](../../../../interface-elements-for-desktop/articles/rich-text-editor/text-editor-ui/ribbon-interface.md) to change the font family, size, color, etc.
 
 ![RTEFont](../../../images/Img121311.png)

@@ -1,6 +1,7 @@
 ---
 title: Connecting to SQL Databases
 ---
+# Connecting to SQL Databases
 The Dashboard Designer provides the capability to connect to multiple types of SQL databases using the **Data Source** wizard. This tutorial describes how to establish a connection to any supported database and select the required data.
 
 To connect to an SQL database in the Dashboard Designer, follow the steps below.

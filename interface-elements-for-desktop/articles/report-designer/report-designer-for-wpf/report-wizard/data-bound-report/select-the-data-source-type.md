@@ -1,6 +1,7 @@
 ---
 title: Select the Data Source Type
 ---
+# Select the Data Source Type
 This wizard page allows you to select the required data source type.
 
 ![WPDDesigner_ReportWizard_SelectDataSourceType](../../../../../images/Img122896.png)

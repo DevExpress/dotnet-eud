@@ -1,6 +1,7 @@
 ---
 title: Editors
 ---
+# Editors
 This section describes the capabilities provided by the editor controls:
 
 ![Web_Editors](../images/Img9149.png)

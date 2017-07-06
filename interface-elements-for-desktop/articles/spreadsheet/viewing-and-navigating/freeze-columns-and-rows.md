@@ -1,6 +1,7 @@
 ---
 title: Freeze Columns and Rows
 ---
+# Freeze Columns and Rows
 To keep specific columns and rows of the worksheet visible while scrolling through the rest of the worksheet, lock them in place using the **Freeze Panes** options of the **Spreadsheet**.
 
 To freeze specific row(s) or column(s), follow the instructions below.

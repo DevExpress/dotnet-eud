@@ -1,6 +1,7 @@
 ---
 title: Copy, Paste and Edit the Cell Content
 ---
+# Copy, Paste and Edit the Cell Content
 The key combinations used to work with cell content are listed below.
 
 | Shortcut | Description |

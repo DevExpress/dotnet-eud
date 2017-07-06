@@ -1,6 +1,7 @@
 ---
 title: Conditionally Change a Label's Text
 ---
+# Conditionally Change a Label's Text
 In this tutorial, you will learn how to change a label's text if a certain condition is met, without using [scripts](../../../../../interface-elements-for-web/articles/report-designer/creating-reports/scripting.md).
 
 To conditionally change a label's text, do the following.

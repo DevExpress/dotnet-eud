@@ -1,6 +1,7 @@
 ---
 title: Print a Document Using Default Settings
 ---
+# Print a Document Using Default Settings
 To send a document directly to the default printer without customizing print settings, do one of the following.
 * Click the **Quick Print** ![previewButtonQuickPrint](../../../../images/Img7262.png) button on the toolbar.
 * On the **File** menu, click **Print**.

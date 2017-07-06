@@ -1,6 +1,7 @@
 ---
 title: Using the Query Editor
 ---
+# Using the Query Editor
 The **Query Editor** dialog allows you to create new SQL queries or edit the existing queries created using the [Data Source](../../../../dashboard-for-desktop/articles/dashboard-designer/providing-data/connecting-to-sql-databases.md) wizard. Optionally, you can add [query parameters](../../../../dashboard-for-desktop/articles/dashboard-designer/working-with-data/pass-query-parameters.md).
 
 The Query Editor can contain two pages depending on the current query.

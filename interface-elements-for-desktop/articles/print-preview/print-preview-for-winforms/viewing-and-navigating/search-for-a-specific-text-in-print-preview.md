@@ -1,6 +1,7 @@
 ---
 title: Search for a Specific Text in Print Preview
 ---
+# Search for a Specific Text in Print Preview
 To search for a specific text throughout a document, click the **Search** ![previewButtonSearch](../../../../images/Img7282.png) button on the toolbar, or press CTRL+F. This invokes the Search panel.
 
 ![FindDialog](../../../../images/Img7300.png)

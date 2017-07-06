@@ -1,6 +1,7 @@
 ---
 title: Manage Documents and Files
 ---
+# Manage Documents and Files
 The tutorials in this section will assist you in solving the most elementary and essential tasks that relate to managing and storing Snap documents.
 
 This section includes the following tutorials.

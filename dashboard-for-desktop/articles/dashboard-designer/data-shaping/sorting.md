@@ -1,6 +1,7 @@
 ---
 title: Sorting
 ---
+# Sorting
 The Dashboard Designer allows you to easily change the sort order of values within a dashboard item. You can also enable sorting by parameter values.
 * [Changing Sort Order](#changing-sort-order)
 * [Sorting by Measure Values](#sorting-by-measure-values)

@@ -1,6 +1,7 @@
 ---
 title: Editors
 ---
+# Editors
 This section describes the capabilities provided by the editor controls:
 
 ![EditorsUI-Main](../images/Img9122.png)

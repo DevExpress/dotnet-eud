@@ -1,6 +1,7 @@
 ---
 title: Grid Lookup
 ---
+# Grid Lookup
 GridLookup is used to easily locate and select values from a dropdown grid.
 
 ![ASPxGridLookup](../../../images/Img13290.png)

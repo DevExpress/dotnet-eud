@@ -1,6 +1,7 @@
 ---
 title: Report Header and Footer
 ---
+# Report Header and Footer
 The **Report Header** and **Report Footer** are the only types of report bands rendered once per report.
  
 

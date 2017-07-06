@@ -1,6 +1,7 @@
 ---
 title: Group and Sort Panel
 ---
+# Group and Sort Panel
 The **Group and Sort Panel** allows you to quickly apply [grouping](../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-wpf/creating-reports/shaping-data/grouping-data.md) and [sorting](../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-wpf/creating-reports/shaping-data/sorting-data.md) to report data. 
 
 ![WPFDesigner_GroupAndSortPanel](../../../../images/Img121992.png)

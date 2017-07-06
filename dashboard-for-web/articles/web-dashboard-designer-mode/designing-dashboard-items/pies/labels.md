@@ -1,6 +1,7 @@
 ---
 title: Labels
 ---
+# Labels
 Pies display **data labels** that contain descriptions for pie segments, and provide **tooltips** with additional information.
 
 ![wdd-pie-labels](../../../../images/Img125620.png)

@@ -1,6 +1,7 @@
 ---
 title: Providing Images
 ---
+# Providing Images
 This topic describes how to provide images for the **Image** and **Bound Image** dashboard items.
 
 ## Provide a Static Image

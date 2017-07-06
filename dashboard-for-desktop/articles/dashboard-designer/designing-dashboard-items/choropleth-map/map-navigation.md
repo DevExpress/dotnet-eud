@@ -1,6 +1,7 @@
 ---
 title: Map Navigation
 ---
+# Map Navigation
 The Choropleth Map dashboard item allows you to perform navigation actions such as zooming and scrolling.
 
 The Dashboard Designer allows you to specify the initial zooming/scrolling state for the Choropleth map using the mouse.

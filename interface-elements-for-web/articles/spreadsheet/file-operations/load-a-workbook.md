@@ -1,6 +1,7 @@
 ---
 title: Load a Workbook
 ---
+# Load a Workbook
 To load a workbook, select the **File** tab, and click the **Open** button in the **Common** group. 
 
 ![EUD_ASPxSpreadsheet_LoadWorkbook](../../../images/Img25923.png)

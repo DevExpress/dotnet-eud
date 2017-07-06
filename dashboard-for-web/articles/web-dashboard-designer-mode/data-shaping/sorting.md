@@ -1,6 +1,7 @@
 ---
 title: Sorting
 ---
+# Sorting
 The Web Dashboard allows you to easily change the sort order of values within a dashboard item. You can also enable sorting by measure values.
 
 ## Changing Sort Order

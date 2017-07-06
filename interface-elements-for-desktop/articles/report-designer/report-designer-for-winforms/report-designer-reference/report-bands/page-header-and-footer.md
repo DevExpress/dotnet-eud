@@ -1,6 +1,7 @@
 ---
 title: Page Header and Footer
 ---
+# Page Header and Footer
 The **Page Header** and **Page Footer** bands are located at the top and bottom of every page in a report.
 
 ![RD_Bands_PageHeader_0](../../../../../images/Img8303.png)

@@ -1,6 +1,7 @@
 ---
 title: Control Toolbox
 ---
+# Control Toolbox
 The **Control Toolbox** lists all available [controls](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-reference/report-controls.md) and allows you to add them to your report.
 
 ![RD_Elements_Toolbox](../../../../../images/Img8260.png)

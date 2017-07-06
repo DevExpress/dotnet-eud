@@ -1,6 +1,7 @@
 ---
 title: Image Zoom
 ---
+# Image Zoom
 The **Image Zoom** allows you to examine images in high-res detail.
 
 Move the pointer over the image to display a window with the image in high-res detail. An image area displayed in high-res details is marked out on the main image.

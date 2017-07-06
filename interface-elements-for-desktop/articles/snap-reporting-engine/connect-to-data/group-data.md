@@ -1,6 +1,7 @@
 ---
 title: Group Data
 ---
+# Group Data
 This document describes how to group data in a **Snap** document.
 
 To group dynamic data within a **Snap list**, select the **field** that you wish to group. This automatically activates the contextual [Data Tools: Field](../../../../interface-elements-for-desktop/articles/snap-reporting-engine/graphical-user-interface/main-toolbar/data-tools-field.md) tab in the main toolbar. In this tab, click the **Group By Field** button.

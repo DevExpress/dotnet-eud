@@ -1,6 +1,7 @@
 ---
 title: Error Types in Formulas
 ---
+# Error Types in Formulas
 If a formula in a cell cannot be calculated correctly, it means that the cell contains an **error**. The error appears because the formula's syntax is incorrect, or the formula uses unexpected arguments or data types.
 
 Errors that occur in formulas are detailed in the following table:

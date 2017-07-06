@@ -1,6 +1,7 @@
 ---
 title: Filter Editor
 ---
+# Filter Editor
 The **Filter Editor** provides a visual interface for constructing filter criteria of any complexity with an unlimited number of filter conditions combined by logical operators.
 
 To invoke this editor to filter report data, expand the **Actions** or **Data** category in the [Properties Panel](../../../../interface-elements-for-web/articles/report-designer/interface-elements/properties-panel.md) panel and click the ellipsis button for the report's **Filter String** property.

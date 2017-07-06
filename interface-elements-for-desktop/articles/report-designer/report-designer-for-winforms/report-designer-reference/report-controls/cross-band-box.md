@@ -1,6 +1,7 @@
 ---
 title: Cross-band Box
 ---
+# Cross-band Box
 The **Cross-band Box** control allows you to draw a rectangle through several [bands](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-reference/report-bands.md). This can be useful if it is required to visually encompass a section consisting of multiple band areas.
 
 ![RD_Controls_CrossBandBox](../../../../../images/Img8313.png)

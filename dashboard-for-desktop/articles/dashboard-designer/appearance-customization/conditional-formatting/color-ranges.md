@@ -1,6 +1,7 @@
 ---
 title: Color Ranges
 ---
+# Color Ranges
 Color Ranges allow you to use predefined sets of colors to apply conditional formatting to different ranges of values. You can also use custom appearance settings for specific ranges.
 
 To format values according the required condition, click the data item menu button, select **Add Format Rule | Color Ranges** and choose the required icon set.

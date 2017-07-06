@@ -1,6 +1,7 @@
 ---
 title: Back Up the Report Layout
 ---
+# Back Up the Report Layout
 To guarantee that you will be able to revert your report to its original state, you can to create a _backup copy_. Then, you can apply changes without worrying that it will be hard to restore your report, in case something breaks.
 * To save a copy of your report, click the **Save As** button in the [Toolbar](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-wpf/interface-elements/toolbar.md).
 	

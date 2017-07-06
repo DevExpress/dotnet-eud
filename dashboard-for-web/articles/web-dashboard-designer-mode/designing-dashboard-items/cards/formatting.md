@@ -1,6 +1,7 @@
 ---
 title: Formatting
 ---
+# Formatting
 The Card dashboard item formats the [actual and target](../../../../../dashboard-for-web/articles/web-dashboard-designer-mode/designing-dashboard-items/cards/providing-data.md) values displayed within cards using [format settings](../../../../../dashboard-for-web/articles/web-dashboard-designer-mode/data-shaping/formatting-data.md) specified for data items.
 
 To change format settings in the Web Dashboard's UI, invoke the **[Binding menu](../../../../../dashboard-for-web/articles/web-dashboard-designer-mode/ui-elements/dashboard-item-menu.md)**, click the required data item in the **[Cards](../../../../../dashboard-for-web/articles/web-dashboard-designer-mode/designing-dashboard-items/cards/providing-data.md)** section and go to **Format Options** in the [data item's menu](../../../../../dashboard-for-web/articles/web-dashboard-designer-mode/ui-elements/data-item-menu.md).

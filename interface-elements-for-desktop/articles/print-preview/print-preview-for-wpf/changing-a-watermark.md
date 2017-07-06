@@ -1,6 +1,7 @@
 ---
 title: Changing a Watermark
 ---
+# Changing a Watermark
 With the Print Preview, you can add a text watermark in a document, or turn a picture into a document's background. It is also possible to use both textual and image watermarks simultaneously.
 
 To invoke the **Watermark** dialog, click the **Watermark** ![WPFDesigner_Toolbar_Watermark](../../../images/Img120432.png) button on the toolbar.

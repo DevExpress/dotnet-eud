@@ -1,6 +1,7 @@
 ---
 title: Series
 ---
+# Series
 The Chart dashboard item supports different types of series - from simple bar and line charts to candle stick and bubble graphs.
 * [Change Series Type](#changest)
 * [Configure Series Options](#configurest)

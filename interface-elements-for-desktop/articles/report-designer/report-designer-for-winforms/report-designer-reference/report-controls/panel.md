@@ -1,6 +1,7 @@
 ---
 title: Panel
 ---
+# Panel
 The **Panel** control is a container that frames separate report controls to allow them to be easily moved, copied and pasted, and visually unite them in the report's preview (with borders or a uniform color background).
 
 ![RD_Controls_Panel](../../../../../images/Img8311.png)

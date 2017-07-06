@@ -1,6 +1,7 @@
 ---
 title: Select and Copy the Document Content
 ---
+# Select and Copy the Document Content
 The PDF Viewer provides for selecting and copying text from the selectable document to the clipboard. Note that only plain text copying is supported.
 
 To enable the selection mode, invoke the context menu and choose the **Select Tool** item. This mode is active by default.

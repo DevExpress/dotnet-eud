@@ -1,6 +1,7 @@
 ---
 title: Select a Data Source Constructor
 ---
+# Select a Data Source Constructor
 On this wizard page, select a data source constructor to be used to create an instance of the data source.
 
 ![WpfReportWizard_Object_SelectDataSourceConstructor](../../../../../../images/Img122880.png)

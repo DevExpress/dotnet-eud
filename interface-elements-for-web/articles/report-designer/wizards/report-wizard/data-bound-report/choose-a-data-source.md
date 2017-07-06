@@ -1,6 +1,7 @@
 ---
 title: Choose a Data Source
 ---
+# Choose a Data Source
 On this page, you can select the report data source from the list of the available data sources.
 
 ![web-report-designer-wizard-choose-data-source](../../../../../images/Img24816.png)

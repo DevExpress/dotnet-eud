@@ -1,6 +1,7 @@
 ---
 title: 'Chart Tools: Design'
 ---
+# Chart Tools: Design
 This toolbar is context sensitive, and becomes active after selecting a **chart** in the document.
 
 The commands available in the **Design** toolbar of the **Chart Tools** category are divided into the following sections.

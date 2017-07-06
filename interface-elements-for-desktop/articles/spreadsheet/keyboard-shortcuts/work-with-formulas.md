@@ -1,6 +1,7 @@
 ---
 title: Work with Formulas
 ---
+# Work with Formulas
 The key combinations used to create formulas quickly are listed in the table below.
 
 | Shortcut | Description |

@@ -1,6 +1,7 @@
 ---
 title: Pivot Table
 ---
+# Pivot Table
 The **Pivot Table** is a data bound control that provides maximum capabilities for organizing, summarizing and analyzing your business data.
 
 ![EU_ASPxPivotGrid](../images/Img118794.png)

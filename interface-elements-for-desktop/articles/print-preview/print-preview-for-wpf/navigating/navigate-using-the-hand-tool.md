@@ -1,6 +1,7 @@
 ---
 title: Navigate Using the Hand Tool
 ---
+# Navigate Using the Hand Tool
 The **Hand Tool** enables you to scroll content by dragging the document instead of using scrollbars.
 
 To activate the Hand Tool, right-click anywhere within the document, and in the invoked context menu, select **Hand Tool**.

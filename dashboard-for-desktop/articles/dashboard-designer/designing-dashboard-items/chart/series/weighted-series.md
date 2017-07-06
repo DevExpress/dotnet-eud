@@ -1,6 +1,7 @@
 ---
 title: Weighted Series
 ---
+# Weighted Series
 Weighted series allow you to visualize data in three dimensions.
 
 The following types of Weighted series are available.

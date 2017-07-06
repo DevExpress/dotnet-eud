@@ -1,6 +1,7 @@
 ---
 title: Create a Master-Detail Data Source
 ---
+# Create a Master-Detail Data Source
 This tutorial describes how to add a master-detail relation to the document's data source.
 
 Prior to the following steps, connect a Snap document to data as shown in the [Connect a Document to a Data Source](../../../../interface-elements-for-desktop/articles/snap-reporting-engine/connect-to-data/connect-a-document-to-a-data-source.md) tutorial.

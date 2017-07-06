@@ -1,6 +1,7 @@
 ---
 title: Print a Workbook
 ---
+# Print a Workbook
 This document includes the following sections:
 * [Preview a Workbook before Printing](#preview)
 * [Print a Workbook](#print)

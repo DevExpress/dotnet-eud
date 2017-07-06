@@ -1,6 +1,7 @@
 ---
 title: Scroll a Chart
 ---
+# Scroll a Chart
 You can scroll a chart if either the axis visible range is reduced or a chart is already zoomed in (its zoom factor is more than 100%). Since the entire chart is not visible at one time, it's possible to scroll a chart.
 
 ## Scroll a 2D Chart

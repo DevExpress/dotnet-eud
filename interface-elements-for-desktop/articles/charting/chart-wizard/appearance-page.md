@@ -1,6 +1,7 @@
 ---
 title: Appearance Page
 ---
+# Appearance Page
 ## Tasks
 * Choose a palette to color a series.
 * Choose the style specifying the chart's appearance.

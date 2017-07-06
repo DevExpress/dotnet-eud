@@ -1,6 +1,7 @@
 ---
 title: Multi-Column Report
 ---
+# Multi-Column Report
 This tutorial describes the steps to create a _multi-column report_, meaning that each page of the report document is laid out in a specified number of columns.
 
 To demonstrate the multi-column feature, use a report with grouping, similar to the one created in the following tutorial: [Grouping Data](../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-wpf/creating-reports/shaping-data/grouping-data.md).

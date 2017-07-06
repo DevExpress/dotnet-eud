@@ -1,6 +1,7 @@
 ---
 title: Finish Layout Customization
 ---
+# Finish Layout Customization
 To finish [customization](../../../../interface-elements-for-desktop/articles/layout-manager/layout-customization/start-layout-customization.md), do one of the following:
 * Close the Customization form by clicking on its close button.
 	

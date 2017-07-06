@@ -1,6 +1,7 @@
 ---
 title: File Upload Control
 ---
+# File Upload Control
 This section describes the capabilities provided by the File Upload element.
 
 ![ASPxUploadControl-Overview](../images/Img7475.png)

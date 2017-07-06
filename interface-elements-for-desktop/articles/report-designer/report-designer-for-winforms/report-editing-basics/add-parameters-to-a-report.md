@@ -1,6 +1,7 @@
 ---
 title: Add Parameters to a Report
 ---
+# Add Parameters to a Report
 For your report, you can employ _parameters_, which can be requested each time the report is being previewed. Based on specified values, the report will then be [filtered](../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-editing-basics/change-or-apply-data-filtering-to-a-report.md). It is also possible to employ parameters in expressions of [calculated fields](../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-editing-basics/add-calculated-fields-to-a-report.md).
 
 In this example, we'll create two date-time parameters to filter out orders that don't fall in the specified range from the report.

@@ -1,6 +1,7 @@
 ---
 title: Delta
 ---
+# Delta
 The Choropleth Map allows you to indicate the difference between the actual and target values of a particular parameter. This difference is called **delta**.
 
 By default, map shapes are colored depending on the values provided. If you add an additional target value to create delta, the coloring of map shapes depends on the difference between two values.

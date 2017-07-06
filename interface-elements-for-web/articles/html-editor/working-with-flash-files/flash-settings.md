@@ -1,6 +1,7 @@
 ---
 title: Flash Settings
 ---
+# Flash Settings
 When you [insert](../../../../interface-elements-for-web/articles/html-editor/working-with-flash-files/insert-a-flash-into-html-editor.md) or [modify](../../../../interface-elements-for-web/articles/html-editor/working-with-flash-files/modify-flash-settings-in-html-editor.md) flash in an HTML Editor, you can customize the flash player settings as well.
 
 To display the settings section in a flash dialog, select the **More options** check box.

@@ -1,6 +1,7 @@
 ---
 title: Insert a Table
 ---
+# Insert a Table
 ## <a name="inserttable"/>Insert a Table
 1. Click the position within a document where you want to insert a table.
 2. Click the **Table** button on the **Insert** [ tab](../../../../interface-elements-for-desktop/articles/rich-text-editor/text-editor-ui/ribbon-interface.md).

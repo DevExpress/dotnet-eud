@@ -1,6 +1,7 @@
 ---
 title: Spell Checker
 ---
+# Spell Checker
 The **Spell Checker** provides the capability to check spelling and correct mistakes in a text.
 
 ![Spell Checker](../images/Img24091.png)

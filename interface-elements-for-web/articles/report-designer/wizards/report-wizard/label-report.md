@@ -1,6 +1,7 @@
 ---
 title: Label Report
 ---
+# Label Report
 Selecting this option on the [Choose a Report Type](../../../../../interface-elements-for-web/articles/report-designer/wizards/report-wizard/choose-a-report-type.md) wizard page will proceed to the Label Wizard that enables you to create labels of a required type.
 
 ![web-designer-report-type-label](../../../../images/Img125726.png)

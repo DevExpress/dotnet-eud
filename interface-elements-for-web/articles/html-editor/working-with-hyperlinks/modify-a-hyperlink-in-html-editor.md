@@ -1,6 +1,7 @@
 ---
 title: Modify a Hyperlink in HTML Editor
 ---
+# Modify a Hyperlink in HTML Editor
 To modify a hyperlink, do the following.
 1. Select a hyperlink. Place a mouse pointer inside a link if you are going to modify a text hyperlink. Or, select an image in order to edit an image hyperlink.
 	

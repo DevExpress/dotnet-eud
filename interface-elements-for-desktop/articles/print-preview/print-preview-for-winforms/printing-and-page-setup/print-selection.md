@@ -1,6 +1,7 @@
 ---
 title: Print Selection
 ---
+# Print Selection
 To print only the selected content of the previewed document, do the following.
 1. Select the content of the previewed document by holding the left mouse button and dragging the mouse pointer to create a selection box. Expand the selection box to fit all of the content you wish to print. The selected document elements are highlighted.
 	

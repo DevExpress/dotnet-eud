@@ -1,6 +1,7 @@
 ---
 title: Interactivity
 ---
+# Interactivity
 This topic describes features that enable interaction between the **Grid** and other dashboard items. These features include **Master Filtering** and **Drill-Down**.
 
 ## Master Filtering

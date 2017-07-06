@@ -1,6 +1,7 @@
 ---
 title: Use Calculated Fields
 ---
+# Use Calculated Fields
 This document describes how to use **calculated fields** to evaluate custom expressions based on external data, and embed the results into a Snap document.
 
 Use calculated fields to perform additional calculations on dynamic data and embed the results into a published document.

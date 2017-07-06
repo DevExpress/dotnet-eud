@@ -1,6 +1,7 @@
 ---
 title: Ribbon
 ---
+# Ribbon
 The **Ribbon** provides a rich toolbar functionality.
 
 ![EUD_Ribbon](../images/Img22688.png)

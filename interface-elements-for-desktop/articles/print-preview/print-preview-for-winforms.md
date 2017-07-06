@@ -1,6 +1,7 @@
 ---
 title: Print Preview for WinForms
 ---
+# Print Preview for WinForms
 This section describes the capabilities provided by the Print Preview form.
 
 ![Preview_Main](../../images/Img9129.png)

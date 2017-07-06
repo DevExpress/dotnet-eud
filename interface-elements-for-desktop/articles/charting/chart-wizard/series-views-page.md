@@ -1,6 +1,7 @@
 ---
 title: Series Views Page
 ---
+# Series Views Page
 ## Tasks
 * Customize the view-type-specific properties of series;
 * Customize the appearance and border settings of series;

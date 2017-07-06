@@ -1,6 +1,7 @@
 ---
 title: Properties Panel
 ---
+# Properties Panel
 The **Properties** panel allows you to access and edit the settings of a report and its elements.
 
 ![web-designer-properties-panel](../../../images/Img126494.png)

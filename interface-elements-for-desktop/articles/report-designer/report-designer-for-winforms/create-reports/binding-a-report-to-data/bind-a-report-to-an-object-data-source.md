@@ -1,6 +1,7 @@
 ---
 title: Bind a Report to an Object Data Source
 ---
+# Bind a Report to an Object Data Source
 This document describes the steps required to connect a report to an object data source.
 
 To bind a report to an object data source, do the following.

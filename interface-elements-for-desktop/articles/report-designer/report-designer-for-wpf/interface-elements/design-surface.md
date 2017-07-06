@@ -1,6 +1,7 @@
 ---
 title: Design Surface
 ---
+# Design Surface
 The **Design Surface** displays a report that is currently being edited in the Report Designer.
 
 ![WPFDesigner_DesignSurface](../../../../images/Img122002.png)

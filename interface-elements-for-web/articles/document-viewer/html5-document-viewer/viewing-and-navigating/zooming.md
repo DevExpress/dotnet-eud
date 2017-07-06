@@ -1,6 +1,7 @@
 ---
 title: Zooming
 ---
+# Zooming
 To zoom in or out of a document, click the **Zoom In** ![web-designer-main-toolbar-zoom-in](../../../../images/Img24546.png) or **Zoom Out** ![web-designer-main-toolbar-zoom-out](../../../../images/Img24547.png)
  button on the Document Viewer toolbar. These buttons change the document's current zoom factor by 1 percent.
 

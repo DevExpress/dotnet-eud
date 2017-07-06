@@ -1,6 +1,7 @@
 ---
 title: Use Odd and Even Styles
 ---
+# Use Odd and Even Styles
 This document describes how to apply [odd and even styles](../../../../../interface-elements-for-web/articles/report-designer/creating-reports/appearance-customization/understanding-style-concepts.md) to [report controls](../../../../../interface-elements-for-web/articles/report-designer/report-elements/report-controls.md), e.g., to alternate the background color for each record.
 
 To utilize odd and even styles, do the following.

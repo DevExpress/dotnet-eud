@@ -1,6 +1,7 @@
 ---
 title: Change Measurement Units of a Report
 ---
+# Change Measurement Units of a Report
 For your report, you can choose its global **Measure Units**, which can be **Hundredths of an Inch**, **Tenths of a Millimeter** or **Pixels**.
 
 This can be specified either using the report's [Smart Tag](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-reference/report-designer-ui/smart-tag.md) ...

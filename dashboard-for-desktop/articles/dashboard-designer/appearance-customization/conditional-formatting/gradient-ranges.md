@@ -1,6 +1,7 @@
 ---
 title: Gradient Ranges
 ---
+# Gradient Ranges
 Gradient Ranges allow you to use predefined color gradients to apply conditional formatting to different ranges of values. You can also use specific colors to generate custom gradients.
 
 To format values according the required condition, click the measure menu button, select **Add Format Rule | Color Ranges** and choose the required color gradient.

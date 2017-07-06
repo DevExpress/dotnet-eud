@@ -1,6 +1,7 @@
 ---
 title: Charting
 ---
+# Charting
 This section describes the capabilities provided by Charts.
 
 ![Charts_Main](../images/Img9057.png)

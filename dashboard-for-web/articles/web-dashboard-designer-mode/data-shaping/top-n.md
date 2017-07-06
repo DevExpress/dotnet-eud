@@ -1,6 +1,7 @@
 ---
 title: Top N
 ---
+# Top N
 The **Top N** feature allows you to display only a limited number of values that correspond to the highest or lowest values of a particular measure.
 
 To enable the Top N feature, open the dashboard item [Bindings](../../../../dashboard-for-web/articles/web-dashboard-designer-mode/ui-elements/dashboard-item-menu.md) menu, select a required data item and go to the _Top N_ section.

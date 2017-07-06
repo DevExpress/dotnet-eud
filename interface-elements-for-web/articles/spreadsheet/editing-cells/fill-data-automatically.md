@@ -1,6 +1,7 @@
 ---
 title: Fill Data Automatically
 ---
+# Fill Data Automatically
 The **Spreadsheet** provides the capability to fill adjacent cells with data automatically.
 
 To fill a selected cell or a range of cells with the data contained in adjacent cells, do the following.

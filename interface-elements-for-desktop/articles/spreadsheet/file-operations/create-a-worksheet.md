@@ -1,6 +1,7 @@
 ---
 title: Create a Worksheet
 ---
+# Create a Worksheet
 To create a new worksheet within the current workbook, do one of the following.
 * Click the **New Sheet** button (which looks like a plus sign) at the right edge of the **Sheet tab** bar.
 	

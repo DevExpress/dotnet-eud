@@ -1,6 +1,7 @@
 ---
 title: Y-Axis
 ---
+# Y-Axis
 The **Y-axis** is the numerical axis of values.
 
 ![Chart_YAxis](../../../../../images/Img18800.png)

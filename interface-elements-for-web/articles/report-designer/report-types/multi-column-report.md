@@ -1,6 +1,7 @@
 ---
 title: Multi-Column Report
 ---
+# Multi-Column Report
 This tutorial describes the steps to create a _multi-column report_, meaning that each page of the report document is laid out in a specified number of columns.
 
 To demonstrate the multi-column feature, we'll use a report with grouping, similar to the one created in the [Grouping Data](../../../../interface-elements-for-web/articles/report-designer/creating-reports/shaping-data/grouping-data.md) tutorial.

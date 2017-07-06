@@ -1,6 +1,7 @@
 ---
 title: Hide and Display Grid Columns
 ---
+# Hide and Display Grid Columns
 * To hide a column, invoke the Field Chooser, and drag the column's header onto it.
 	
 	![HideColumns](../../../images/Img7292.png)

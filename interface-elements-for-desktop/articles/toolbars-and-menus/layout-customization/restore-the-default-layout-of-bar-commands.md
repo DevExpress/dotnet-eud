@@ -1,6 +1,7 @@
 ---
 title: Restore the Default Layout of Bar Commands
 ---
+# Restore the Default Layout of Bar Commands
 You can customize the layout of bar commands within a bar by hiding and rearranging them. Subsequently, you can revert to the default layout of bar commands. This topic describes two ways to do this.
 
 ## Restore the Default Layout Using Quick Customization

@@ -1,6 +1,7 @@
 ---
 title: Lay Out Text in Columns
 ---
+# Lay Out Text in Columns
 To split a text into columns, follow the steps below.
 1. Click within a [section](../../../../interface-elements-for-desktop/articles/rich-text-editor/document-layout-and-page-setup/divide-a-documents-into-sections.md) which you wish to lay out in several columns.
 2. On the **Page Layout** [ tab](../../../../interface-elements-for-desktop/articles/rich-text-editor/text-editor-ui/ribbon-interface.md), in the **Page Setup** group, click the **Columns** button and select the number of columns into which the text should be split...

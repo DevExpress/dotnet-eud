@@ -1,6 +1,7 @@
 ---
 title: 'General Tools: File'
 ---
+# General Tools: File
 The **File** toolbar contains the basic file management and printing commands.
 
 These commands are divided into the following categories.

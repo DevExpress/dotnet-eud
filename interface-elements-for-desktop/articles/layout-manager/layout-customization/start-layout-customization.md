@@ -1,6 +1,7 @@
 ---
 title: Start Layout Customization
 ---
+# Start Layout Customization
 The layout of controls can be modified in customization mode. To invoke customization mode, right-click an empty space within the Layout Manager and select **Customize Layout**:
 
 ![EU_XtraLayout_LayoutControl_ContextMenu](../../../images/Img7638.png)

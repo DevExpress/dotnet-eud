@@ -1,6 +1,7 @@
 ---
 title: Legend
 ---
+# Legend
 A legend is an element of a scatter chart that identifies chart points (for instance, colored points corresponding to argument values).
 
 ![wdd-scatter-chart-legend](../../../../images/Img125606.png)

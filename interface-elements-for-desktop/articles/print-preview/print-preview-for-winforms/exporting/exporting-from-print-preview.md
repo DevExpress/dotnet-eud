@@ -1,6 +1,7 @@
 ---
 title: Exporting from Print Preview
 ---
+# Exporting from Print Preview
 There are two options available for a document being exported to.
 * [Export Document to a File on Disk](#disk)
 * [Send Exported File via E-Mail](#mail)

@@ -1,6 +1,7 @@
 ---
 title: Providing Data
 ---
+# Providing Data
 This topic describes how to bind the **Geo Point Map** dashboard item to data using the **Dashboard Designer**.
 
 The Dashboard Designer allows you to bind various dashboard items to data in a virtually uniform manner (see [Binding Dashboard Items to Data](../../../../../../dashboard-for-desktop/articles/dashboard-designer/binding-dashboard-items-to-data/binding-dashboard-items-to-data.md) for details). The only difference is in the data sections that these dashboard items have.

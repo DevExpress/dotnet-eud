@@ -1,6 +1,7 @@
 ---
 title: Sort Tree List Nodes
 ---
+# Sort Tree List Nodes
 To sort nodes by a column's values and replace existing sort conditions that are applied to the current or other columns, click the target column's header, until an Up or Down Arrow icon is displayed within the header. The Up and Down Arrows indicate ascending and descending sort orders respectively.
 
 ![EU_XtraTreeList_Column_SortAscendingIcon](../../../images/Img7709.png)

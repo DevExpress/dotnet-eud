@@ -1,6 +1,7 @@
 ---
 title: Calculated Fields
 ---
+# Calculated Fields
 This document demonstrates how to add a _calculated field_ to a report. The main purpose of calculated fields is to perform pre-calculations of virtually any level of complexity over data fields based on a specific expression.
 
 In the Report Designer, a calculated field is similar to an ordinary data field (e.g., you can [bind controls to it](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-wpf/creating-reports/providing-data/binding-report-controls-to-data.md), and [group](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-wpf/creating-reports/shaping-data/grouping-data.md), [sort](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-wpf/creating-reports/shaping-data/sorting-data.md) and [filter](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-wpf/creating-reports/shaping-data/filtering-data.md) your report against it).

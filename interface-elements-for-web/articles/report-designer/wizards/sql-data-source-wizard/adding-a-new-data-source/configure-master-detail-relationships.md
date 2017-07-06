@@ -1,6 +1,7 @@
 ---
 title: Configure Master-Detail Relationships
 ---
+# Configure Master-Detail Relationships
 This page is displayed if two or more tables and/or views are selected on a previous wizard page: [Create a Query or Select a Stored Procedure](../../../../../../interface-elements-for-web/articles/report-designer/wizards/sql-data-source-wizard/adding-a-new-data-source/create-a-query-or-select-a-stored-procedure.md).
 
 On this page, you can define master-detail relationships between two or more queries by specifying their corresponding key fields.

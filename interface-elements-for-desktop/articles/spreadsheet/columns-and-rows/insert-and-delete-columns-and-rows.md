@@ -1,6 +1,7 @@
 ---
 title: Insert and Delete Columns and Rows
 ---
+# Insert and Delete Columns and Rows
 The **Spreadsheet** provides the capability to insert and delete columns and rows in a worksheet.
 
 ## Insert Rows

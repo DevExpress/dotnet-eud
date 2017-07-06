@@ -1,6 +1,7 @@
 ---
 title: Panes
 ---
+# Panes
 The Chart dashboard item can contain any number of **panes**. Panes are visual areas within a diagram that display chart series.
 
 Each pane has its own [Y-axis](../../../../../dashboard-for-desktop/articles/dashboard-designer/designing-dashboard-items/chart/axes/y-axis.md) and displays a specific set of series. All panes in a chart share the same [X-axis](../../../../../dashboard-for-desktop/articles/dashboard-designer/designing-dashboard-items/chart/axes/x-axis.md).

@@ -1,6 +1,7 @@
 ---
 title: Bar Code
 ---
+# Bar Code
 The **Bar Code** control transforms its content into a bar code of the specified type. Multiple standard bar code symbologies are supported.
 
 ![RD_Controls_BarCode](../../../../../images/Img8279.png)

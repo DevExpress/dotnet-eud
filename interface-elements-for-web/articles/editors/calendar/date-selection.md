@@ -1,6 +1,7 @@
 ---
 title: Date Selection
 ---
+# Date Selection
 Click a date to select it in the calendar. To select today's date, click the **Today** button. To clear the selection, click the **Clear** button.
 
 ![EUD_CalendarSel](../../../images/Img22703.png)

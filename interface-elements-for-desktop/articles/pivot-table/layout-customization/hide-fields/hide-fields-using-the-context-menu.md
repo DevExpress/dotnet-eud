@@ -1,6 +1,7 @@
 ---
 title: Hide Fields Using the Context Menu
 ---
+# Hide Fields Using the Context Menu
 To hide a field, right-click its header and choose **Hide** from the context menu.
 
 ![EU_XtraPivotGrid_FieldHide](../../../../images/Img13520.png)

@@ -1,6 +1,7 @@
 ---
 title: Document Preview
 ---
+# Document Preview
 The documents in this section describe the Document Preview that is built into the Web Report Designer.
 
 ![web-report-designer-preview](../../images/Img25058.png)

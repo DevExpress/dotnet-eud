@@ -1,6 +1,7 @@
 ---
 title: Format Paragraphs
 ---
+# Format Paragraphs
 To format a paragraph, first click anywhere within it or [select](../../../../interface-elements-for-desktop/articles/rich-text-editor/text-editing/select-text.md) the paragraph, and then use the **Paragraph** page group on the **Home** [ tab](../../../../interface-elements-for-desktop/articles/rich-text-editor/text-editor-ui/ribbon-interface.md) to change line spacing, indentation, alignment and styles.
 
 ![RTEParagraph](../../../images/Img121313.png)

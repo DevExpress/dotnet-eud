@@ -1,6 +1,7 @@
 ---
 title: Data Presentation Basics
 ---
+# Data Presentation Basics
 The Web Dashboard can be used to present dashboards on the web. 
 A wide range of dashboard items are used to display visual or textual information.
 

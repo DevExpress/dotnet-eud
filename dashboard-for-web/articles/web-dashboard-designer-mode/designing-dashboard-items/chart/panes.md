@@ -1,6 +1,7 @@
 ---
 title: Panes
 ---
+# Panes
 Panes are visual areas within a diagram that display chart series. The Chart dashboard item can contain any number of panes.
 
 Each pane has its own **Y-axis** and displays a specific set of series. All panes in a chart share the same **X-axis**.

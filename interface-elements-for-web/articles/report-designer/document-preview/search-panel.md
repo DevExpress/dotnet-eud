@@ -1,6 +1,7 @@
 ---
 title: Search Panel
 ---
+# Search Panel
 The **Search Panel** enables you to find specific text in a document with specified search options.
 
 ![web-designer-document-preview-search-panel](../../../images/Img125917.png)

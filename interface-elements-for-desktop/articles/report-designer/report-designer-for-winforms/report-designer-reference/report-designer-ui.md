@@ -1,6 +1,7 @@
 ---
 title: Report Designer UI
 ---
+# Report Designer UI
 The documents in this section are dedicated to the elements of the Report Designer user interface.
 
 The following topics describe the Report Designer interface.

@@ -1,6 +1,7 @@
 ---
 title: Apply Conditional Formatting
 ---
+# Apply Conditional Formatting
 You can change the appearance of individual cells based on specific conditions using **Format Rules** context menu. This feature helps to highlight important information, identify trends and exceptions, and compare data.
 
 To invoke the menu, do the following.

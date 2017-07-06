@@ -1,6 +1,7 @@
 ---
 title: Image Gallery
 ---
+# Image Gallery
 The **Image Gallery** displays images as thumbnails, allows you to navigate through them using a [pager](../../interface-elements-for-web/articles/image-gallery/image-gallery-pager.md), and provides the ability to display images in a [fullscreen viewer](../../interface-elements-for-web/articles/image-gallery/fullscreen-viewer.md).
 
 ![ImageGallery](../images/Img22781.png)

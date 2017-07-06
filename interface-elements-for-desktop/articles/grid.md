@@ -1,6 +1,7 @@
 ---
 title: Grid
 ---
+# Grid
 This section describes the capabilities provided by the Grid control, which represents data in a tabular or card form, supports data editing, sorting, grouping, filtering, summary calculation and many other features:
 
 ![EndUser_Win_Grid](../images/Img9056.png)

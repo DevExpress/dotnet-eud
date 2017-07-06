@@ -1,6 +1,7 @@
 ---
 title: Area Series
 ---
+# Area Series
 Area series connect numeric data points by different types of line segments and fill the area between the line and X-axis/other series.
 
 The following types of Point and Line series are available.

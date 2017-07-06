@@ -1,6 +1,7 @@
 ---
 title: Chart Wizard
 ---
+# Chart Wizard
 Use the chart wizard dialog to quickly and easily create a new chart, or modify an existing one.
 
 ![ChartWizard_0](../../images/Img7239.png)

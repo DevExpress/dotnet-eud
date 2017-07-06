@@ -1,6 +1,7 @@
 ---
 title: Calculate an Aggregate Function
 ---
+# Calculate an Aggregate Function
 This tutorial describes the steps required to create a report with an _aggregate function_. In this example, products that are not discontinued and have a total unit value greater than _$500_ will be displayed.
 * Create a [table report](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/create-reports/report-types/table-report.md) with a layout similar to that appearing in the following illustration.
 	

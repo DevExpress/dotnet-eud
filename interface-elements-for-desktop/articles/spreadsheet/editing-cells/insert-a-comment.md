@@ -1,6 +1,7 @@
 ---
 title: Insert a Comment
 ---
+# Insert a Comment
 The **Spreadsheet** allows you to attach notes to individual cells by using **comments**. Comments are extremely useful when you need to provide additional information, such as reminders, notifications, or feedback in a document without modifying cell content.
  
 

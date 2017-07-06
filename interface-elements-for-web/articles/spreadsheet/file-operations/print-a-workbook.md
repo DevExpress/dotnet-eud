@@ -1,6 +1,7 @@
 ---
 title: Print a Workbook
 ---
+# Print a Workbook
 To print a document, click the **Print** button in the **Common** group or press **CTRL+P**.
 
 ![EUD_ASPxSpreadsheet_PrintWorkbook](../../../images/Img25927.png)

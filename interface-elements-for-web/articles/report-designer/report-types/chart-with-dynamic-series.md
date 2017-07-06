@@ -1,6 +1,7 @@
 ---
 title: Chart with Dynamic Series
 ---
+# Chart with Dynamic Series
 This document describes how to create a report with a [Chart control](../../../../interface-elements-for-web/articles/report-designer/report-elements/report-controls.md) bound to data so that all series are automatically created based on a common template, which specifies universal options for all series.
 
 To adjust a Chart with automatically created series, do the following:

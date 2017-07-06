@@ -1,6 +1,7 @@
 ---
 title: Rearrange Grid Columns, Bands and Card Fields
 ---
+# Rearrange Grid Columns, Bands and Card Fields
 ## Reorder Columns and Bands in Grid Views
 To reorder columns, drag and drop a column header to a new position:
 

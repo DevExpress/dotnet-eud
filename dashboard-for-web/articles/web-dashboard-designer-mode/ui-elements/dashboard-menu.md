@@ -1,6 +1,7 @@
 ---
 title: Dashboard Menu
 ---
+# Dashboard Menu
 The dashboard menu allows you to create, save or open dashboards and invokes pages containing global dashboard settings. To invoke this menu, use the **Dashboard Menu button** on the [Toolbox](../../../../dashboard-for-web/articles/web-dashboard-designer-mode/ui-elements/toolbox.md).
 
 The dashboard menu consists of the following buttons.

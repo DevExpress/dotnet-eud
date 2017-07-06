@@ -1,6 +1,7 @@
 ---
 title: Print a Document via the Print Dialog
 ---
+# Print a Document via the Print Dialog
 To print a document, do one of the following.
 * Click the **Print** ![previewButtonPrint](../../../../images/Img7261.png) button on the toolbar, or press CTRL+P.
 * On the **File** menu, click **Print...**.

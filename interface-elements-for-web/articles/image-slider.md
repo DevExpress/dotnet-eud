@@ -1,6 +1,7 @@
 ---
 title: Image Slider
 ---
+# Image Slider
 The **Image Slider** is used to display images and navigate through them.
 
 ![EUD_ImageSlider](../images/Img22708.png)

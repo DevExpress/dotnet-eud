@@ -1,6 +1,7 @@
 ---
 title: Label Report
 ---
+# Label Report
 This tutorial describes the steps required to create a label report containing employee badges.
 
 To accomplish this task, do the following.

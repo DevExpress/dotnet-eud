@@ -1,6 +1,7 @@
 ---
 title: Using Functions in Formulas
 ---
+# Using Functions in Formulas
 The **Spreadsheet** provides the capability to use a set of predefined **functions** in formulas to perform simple or complex calculations.
 
 To create a formula containing functions, follow the instructions below.

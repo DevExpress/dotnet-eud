@@ -1,6 +1,7 @@
 ---
 title: Conditional Formatting
 ---
+# Conditional Formatting
 The Grid dashboard item supports the conditional formatting feature that provides the capability to apply formatting to grid cells whose values meet the specified condition. This feature allows you to highlight specific cells or entire rows using a predefined set of rules. To learn more about conditional formatting concepts common for all dashboard items, see [Conditional Formatting](../../../../../dashboard-for-web/articles/web-dashboard-designer-mode/appearance-customization/conditional-formatting.md).
 
 ![wdd-grid-conditional-formatting](../../../../images/Img125791.png)

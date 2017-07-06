@@ -1,6 +1,7 @@
 ---
 title: Hide and Display Bar Commands
 ---
+# Hide and Display Bar Commands
 ## Temporarily Hide and Display Bar Commands
 You can temporarily hide bar commands, and then restore hidden commands within a specific bar as follows:
 1. Click the dropdown button displayed at the right edge of the bar:

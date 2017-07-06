@@ -1,6 +1,7 @@
 ---
 title: Sort Grid Rows
 ---
+# Sort Grid Rows
 ## Sort Data in Grid Views
 To sort records by a column's values and replace existing sort conditions that are applied to the current or other columns, click the target column's header, until an Up or Down Arrow icon is displayed within the header. The Up and Down Arrows indicate ascending and descending sort orders respectively. 
 

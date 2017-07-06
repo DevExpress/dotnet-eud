@@ -1,6 +1,7 @@
 ---
 title: DOCX-Specific Export Options
 ---
+# DOCX-Specific Export Options
 When [exporting a document](../../../../../interface-elements-for-desktop/articles/print-preview/print-preview-for-wpf/exporting/exporting.md), you can define DOCX-specific export options using the following dialog:
 
 ![wpf-docx-export-options-dialog](../../../../images/Img129099.png)

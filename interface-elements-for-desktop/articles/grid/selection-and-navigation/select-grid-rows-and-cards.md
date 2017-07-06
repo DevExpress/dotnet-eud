@@ -1,6 +1,7 @@
 ---
 title: Select Grid Rows and Cards
 ---
+# Select Grid Rows and Cards
 ## Select Individual Rows/Cards
 To select a row/card and clear the existing selection, do one of the following:
 * In Grid Views, click the row's indicator cell or any of its data cells:

@@ -1,6 +1,7 @@
 ---
 title: Resizing Columns
 ---
+# Resizing Columns
 You can resize columns within the Pivot Table by dragging their borders.
 
 ![EU_GridLinesDrag](../../../images/Img17713.gif)

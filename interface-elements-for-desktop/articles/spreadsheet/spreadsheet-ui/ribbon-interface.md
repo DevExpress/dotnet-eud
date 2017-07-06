@@ -1,6 +1,7 @@
 ---
 title: Ribbon Interface
 ---
+# Ribbon Interface
 The comprehensive functionality of the **Spreadsheet** is provided by a set of **Ribbon** pages. Ribbon pages are divided into logical groups that include commands with common features. Use the **Ribbon** interface to perform basic operations in the **Spreadsheet** ([load](../../../../interface-elements-for-desktop/articles/spreadsheet/file-operations/load-a-workbook.md), [create](../../../../interface-elements-for-desktop/articles/spreadsheet/file-operations/create-a-workbook.md) and [save](../../../../interface-elements-for-desktop/articles/spreadsheet/file-operations/save-a-workbook.md) workbooks, [add](../../../../interface-elements-for-desktop/articles/spreadsheet/file-operations/create-a-worksheet.md) or [remove](../../../../interface-elements-for-desktop/articles/spreadsheet/file-operations/delete-a-worksheet.md) worksheets, [format cells](../../../../interface-elements-for-desktop/articles/spreadsheet/cell-formatting/format-cells.md), [insert rows](../../../../interface-elements-for-desktop/articles/spreadsheet/columns-and-rows/insert-and-delete-columns-and-rows.md) and [columns](../../../../interface-elements-for-desktop/articles/spreadsheet/columns-and-rows/insert-and-delete-columns-and-rows.md), etc.).
 
 ## File Tab

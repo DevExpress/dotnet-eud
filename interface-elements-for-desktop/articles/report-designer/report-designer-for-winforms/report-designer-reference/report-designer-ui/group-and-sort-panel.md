@@ -1,6 +1,7 @@
 ---
 title: Group and Sort Panel
 ---
+# Group and Sort Panel
 The **Group and Sort Panel** allows you to quickly apply [grouping](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-editing-basics/change-or-apply-data-grouping-to-a-report.md) and [sorting](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-editing-basics/change-or-apply-data-sorting-to-a-report.md) to your report data.
 
 ![RD_Elements_GroupSort](../../../../../images/Img11023.png)

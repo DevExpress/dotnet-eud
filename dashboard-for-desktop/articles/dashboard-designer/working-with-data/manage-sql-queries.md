@@ -1,6 +1,7 @@
 ---
 title: Manage SQL Queries
 ---
+# Manage SQL Queries
 After you [connect](../../../../dashboard-for-desktop/articles/dashboard-designer/providing-data/connecting-to-sql-databases.md) to the data store and select the required data, you can edit the resulting query/[stored procedure](../../../../dashboard-for-desktop/articles/dashboard-designer/working-with-data/stored-procedures.md) or add another query/stored procedure to the data source.
 
 To manage queries for the current data source, use buttons from the **Query** group in the **Data Source** ribbon tab.

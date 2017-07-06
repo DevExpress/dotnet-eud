@@ -1,6 +1,7 @@
 ---
 title: Create a New Data Source
 ---
+# Create a New Data Source
 This topic describes how to create a new data source based on the existing data connection.
 
 ## Create a Data Source for a New Dashboard

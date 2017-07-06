@@ -1,6 +1,7 @@
 ---
 title: Manage Documents and Files
 ---
+# Manage Documents and Files
 This document describes how to open and save PDF files using the PDF Viewer.
 
 This topic consists of the following sections.

@@ -1,6 +1,7 @@
 ---
 title: Bar Gradient Ranges
 ---
+# Bar Gradient Ranges
 The Bar Gradient Ranges allow you to visualize numeric values using bars whose colors are contained in the specified color gradient.
 
 To format values according the required condition, click the measure menu button, select **Add Format Rule | Bar Gradient Ranges** and choose the required color gradient.

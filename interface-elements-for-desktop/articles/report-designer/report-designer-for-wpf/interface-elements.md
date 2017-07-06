@@ -1,6 +1,7 @@
 ---
 title: Interface Elements
 ---
+# Interface Elements
 The topics in this section describe the main elements that make up the user interface of the Report Designer.
 
 This section consists of the following topics.

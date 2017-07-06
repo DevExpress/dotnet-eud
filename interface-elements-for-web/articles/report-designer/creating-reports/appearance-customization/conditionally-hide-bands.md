@@ -1,6 +1,7 @@
 ---
 title: Conditionally Hide Bands
 ---
+# Conditionally Hide Bands
 This document provides the sample, illustrating how to hide bands if a certain logical condition is met. Note that no [scripts](../../../../../interface-elements-for-web/articles/report-designer/creating-reports/scripting.md) are required to accomplish this task.
 
 To demonstrate this feature, use a report with grouping, similar to the one created in the following tutorial: [Grouping Data](../../../../../interface-elements-for-web/articles/report-designer/creating-reports/shaping-data/grouping-data.md).

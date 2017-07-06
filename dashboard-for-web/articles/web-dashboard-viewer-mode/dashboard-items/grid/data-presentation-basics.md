@@ -1,6 +1,7 @@
 ---
 title: Data Presentation Basics
 ---
+# Data Presentation Basics
 The **Grid** displays data in a two-dimensional table that supports four types of columns.
 
 ![Grid_ColumnTypes_Web](../../../../images/Img22479.png)

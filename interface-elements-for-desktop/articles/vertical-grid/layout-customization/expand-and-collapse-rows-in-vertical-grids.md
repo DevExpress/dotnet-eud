@@ -1,6 +1,7 @@
 ---
 title: Expand and Collapse Rows in Vertical Grids
 ---
+# Expand and Collapse Rows in Vertical Grids
 ## Expand and Collapse Data Rows
 Do one of the following:
 * Focus the row and then press PLUS on the keyboard to expand the row, and MINUS to collapse the row:

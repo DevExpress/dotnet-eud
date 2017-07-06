@@ -1,6 +1,7 @@
 ---
 title: Multiple File Selection
 ---
+# Multiple File Selection
 **File Manager** allows you to choose multiple files and perform actions on them simultaneously.
 
 ![EUD_FileManager_multiselect](../../images/Img22649.png)

@@ -1,6 +1,7 @@
 ---
 title: Columns
 ---
+# Columns
 The topics in this section describe the different types of grid columns, and contain information on when to use each column type and how to customize them based on the type.
 
 This section consists of the following topics.

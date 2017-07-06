@@ -1,6 +1,7 @@
 ---
 title: Copying to the Clipboard
 ---
+# Copying to the Clipboard
 Besides [exporting a document](../../../../../interface-elements-for-desktop/articles/print-preview/print-preview-for-wpf/exporting/exporting.md) to a third-party formatted file, you can copy a portion of the document content to the clipboard, and paste it into an editor compatible with one of the supported third-party formats.
 
 To copy document content to the clipboard, do the following.

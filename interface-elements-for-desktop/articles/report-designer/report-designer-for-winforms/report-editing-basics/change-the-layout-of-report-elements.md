@@ -1,6 +1,7 @@
 ---
 title: Change the Layout of Report Elements
 ---
+# Change the Layout of Report Elements
 To select a [control](../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-reference/report-controls.md), click it. To select the next control in tab order, press TAB. To select the previous control in tab order, click SHIFT + TAB.
 
 Individual controls can be moved, using either mouse or keyboard.

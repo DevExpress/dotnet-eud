@@ -1,6 +1,7 @@
 ---
 title: Delete a Worksheet
 ---
+# Delete a Worksheet
 To delete an existing worksheet, follow the instructions below.
 1. Switch to the worksheet you want to delete.
 2. Do one of the following.

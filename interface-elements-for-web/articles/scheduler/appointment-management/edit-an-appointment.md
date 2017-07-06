@@ -1,6 +1,7 @@
 ---
 title: Edit an Appointment
 ---
+# Edit an Appointment
 ## <a name="contextmenu"/>Context Menu
 There are two ways to invoke the context menu for an appointment:
 * **Right-click an appointment.**

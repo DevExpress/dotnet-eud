@@ -1,6 +1,7 @@
 ---
 title: Store and Restore Style Sheets
 ---
+# Store and Restore Style Sheets
 This tutorial describes how you can save a report's style sheet into an external file, and then load it back to the report.
 
 You can store a report's style sheet (containing all the report styles) in an external REPSS file. This makes it possible to easily restore a report's appearance from this file. For general information, refer to [Understanding Style Concepts](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/create-reports/styles-and-conditional-formatting/understanding-style-concepts.md).

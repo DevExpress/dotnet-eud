@@ -1,6 +1,7 @@
 ---
 title: Formatting Data
 ---
+# Formatting Data
 This topic describes how to change the value formatting of report elements in the [Web Report Designer](../../../../../interface-elements-for-web/articles/report-designer.md). For instance, you can format a numeric value as a currency, display a date/time value in one of the standard forms depending on the culture, etc.
 
 To apply value formatting for a [data-bound control](../../../../../interface-elements-for-web/articles/report-designer/creating-reports/providing-data/bind-report-controls-to-data.md)'s content, locate this control and switch to the [Properties Panel](../../../../../interface-elements-for-web/articles/report-designer/interface-elements/properties-panel.md). Then, expand the **Actions** or **Data** category, and in the **Data Binding** section, click the ellipsis button for the **Format String** property.

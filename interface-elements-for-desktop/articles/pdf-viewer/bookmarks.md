@@ -1,6 +1,7 @@
 ---
 title: Bookmarks
 ---
+# Bookmarks
 The document describes the PDF Viewer bookmarks capabilities and customization options on a navigation pane.
 
 This topic consists of the following sections.

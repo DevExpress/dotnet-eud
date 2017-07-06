@@ -1,6 +1,7 @@
 ---
 title: Controls Positioning
 ---
+# Controls Positioning
 This document describes how to easily construct professionally looking reports by precisely aligning their elements to each other. These are useful when creating new reports from scratch or when fixing cluttered report layouts with dozens of randomly scattered controls.
 
 To select an appropriate alignment mode for report elements, use a report's **Snapping Mode** property.

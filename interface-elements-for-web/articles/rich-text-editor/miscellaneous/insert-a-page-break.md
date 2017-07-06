@@ -1,6 +1,7 @@
 ---
 title: Insert a Page Break
 ---
+# Insert a Page Break
 ## Insert Page Break
 You can insert a page break in your document anywhere you want. To do this, follow the steps below.
 1. Point to the position within a document where you want to insert a page break.

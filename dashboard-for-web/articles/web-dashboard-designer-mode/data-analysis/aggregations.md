@@ -1,6 +1,7 @@
 ---
 title: Aggregations
 ---
+# Aggregations
 The Web Dashboard allows you to prepare underlying data using additional aggregation levels when creating [calculated fields](../../../../dashboard-for-web/articles/web-dashboard-designer-mode/providing-data/calculated-fields.md). This topic shows how to evaluate calculated fields on a visualization (summary) and intermediate levels.
 
 ## Summary Level Aggregations

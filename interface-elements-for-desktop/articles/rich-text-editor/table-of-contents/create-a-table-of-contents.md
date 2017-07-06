@@ -1,6 +1,7 @@
 ---
 title: Create a Table of Contents
 ---
+# Create a Table of Contents
 ## <a name="headingstyles"/>Create a TOC Using Built-In Heading Styles
 The easiest way to create a TOC is to use built-in heading styles.
 * **Mark TOC Entries**

@@ -1,6 +1,7 @@
 ---
 title: Expand and Collapse Rows and Cards in Grids
 ---
+# Expand and Collapse Rows and Cards in Grids
 ## Expand/Collapse Group Rows in Grid Views
 To expand/collapse a group row, do one of the following:
 * Click the row's expand button:

@@ -1,6 +1,7 @@
 ---
 title: Grouping
 ---
+# Grouping
 If you use several [arguments](../../../../../dashboard-for-desktop/articles/dashboard-designer/designing-dashboard-items/treemap/providing-data.md) in the Treemap, you can group tiles corresponding to child values by parent values. For instance, the following Treemap dashboard item displays combinations of categories and sub-categories.
 
 ![TreemapWin_ProvidingData_TwoValuesAndArguments](../../../../images/Img125485.png)

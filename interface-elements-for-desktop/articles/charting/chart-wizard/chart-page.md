@@ -1,6 +1,7 @@
 ---
 title: Chart Page
 ---
+# Chart Page
 ## Tasks
 * Define a chart's background color and background image.
 

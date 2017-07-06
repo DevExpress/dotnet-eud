@@ -1,6 +1,7 @@
 ---
 title: Vertical Grid
 ---
+# Vertical Grid
 The Vertical Grid control is a control that displays data records as grid columns, and data fields as grid rows. Vertical Grid features include data editing, sorting, and filtering support.
 
 ![EUD-ASPxVerticalGrid-Overview](../images/Img127168.png)

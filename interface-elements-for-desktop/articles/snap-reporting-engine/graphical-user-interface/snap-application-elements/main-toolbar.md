@@ -1,6 +1,7 @@
 ---
 title: Main Toolbar
 ---
+# Main Toolbar
 The **Main Toolbar** in a Snap application provides quick access to the available document editing tools. The following toolbar styles are available:
 1. [Ribbon](../../../../../interface-elements-for-desktop/articles/ribbon.md)
 	

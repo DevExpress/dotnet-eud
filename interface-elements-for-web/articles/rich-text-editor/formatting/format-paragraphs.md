@@ -1,6 +1,7 @@
 ---
 title: Format Paragraphs
 ---
+# Format Paragraphs
 To format a paragraph, first click anywhere in it or [select](../../../../interface-elements-for-web/articles/rich-text-editor/text-editing/select-text.md) the paragraph, and then use the **Paragraph** group on the **Home** tab to create a [bulleted](../../../../interface-elements-for-web/articles/rich-text-editor/lists/bulleted-lists.md), [numbered](../../../../interface-elements-for-web/articles/rich-text-editor/lists/numbered-lists.md) and [multilevel](../../../../interface-elements-for-web/articles/rich-text-editor/lists/multilevel-lists.md) list, change line spacing, indentation, alignment and styles.
 
 ![EUD_ASPxRichEdit_Home_ParagraphGroup](../../../images/Img117809.png)

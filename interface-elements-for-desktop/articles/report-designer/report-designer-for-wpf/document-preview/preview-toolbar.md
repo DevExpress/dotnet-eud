@@ -1,6 +1,7 @@
 ---
 title: Preview Toolbar
 ---
+# Preview Toolbar
 The **Preview Toolbar** provides quick access to commands related to report viewing, editing and publishing.
 
 ![WPFDesigner_PreviewToolbar](../../../../images/Img120279.png)

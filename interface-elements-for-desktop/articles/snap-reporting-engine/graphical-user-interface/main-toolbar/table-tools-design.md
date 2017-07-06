@@ -1,6 +1,7 @@
 ---
 title: 'Table Tools: Design'
 ---
+# Table Tools: Design
 This toolbar is context sensitive, and becomes active after placing the text cursor in a document table.
 
 The commands available in the **Design** toolbar of the **Table Tools** category are divided into the following sections.

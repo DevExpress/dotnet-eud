@@ -1,6 +1,7 @@
 ---
 title: Insert the User Name into Printed Documents
 ---
+# Insert the User Name into Printed Documents
 To insert user name into a document's header or footer, first [invoke the Header and Footer dialog](../../../../../interface-elements-for-desktop/articles/print-preview/print-preview-for-winforms/headers-and-footers/insert-page-header-and-page-footer-into-printed-documents.md).
 
 Then, focus an appropriate text box, depending on the required alignment, and click the **User Name** ![previewButtonUser](../../../../images/Img7274.png) button.

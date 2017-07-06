@@ -1,6 +1,7 @@
 ---
 title: Labels
 ---
+# Labels
 A Choropleth Map provides the capability to display titles within map shapes and allows you to manage what data to show in the shape tooltips.
 
 To manage map titles and tooltips, go to the **Shape Labels** section of the Choropleth Map's [Options](../../../../../dashboard-for-web/articles/web-dashboard-designer-mode/ui-elements/dashboard-item-menu.md) menu.

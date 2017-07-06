@@ -1,6 +1,7 @@
 ---
 title: Resize Cards in Grids
 ---
+# Resize Cards in Grids
 ## Resize Cards in Card Views
 In Card Views, to resize cards horizontally, drag card separators (if they are visible):
 

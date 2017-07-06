@@ -1,6 +1,7 @@
 ---
 title: Specify Column Width and Row Height
 ---
+# Specify Column Width and Row Height
 ## Set the column width
 In the **Spreadsheet**, the column width can vary from zero to 255 characters of the default font specified by the predefined _Normal_ style. If you set the column width to zero, the column will be hidden.
  

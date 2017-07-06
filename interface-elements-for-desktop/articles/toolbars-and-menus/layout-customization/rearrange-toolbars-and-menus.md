@@ -1,6 +1,7 @@
 ---
 title: Rearrange Toolbars and Menus
 ---
+# Rearrange Toolbars and Menus
 To move a bar docked to a form to a new position, drag it via its drag widget.
 
 ![EU_XtraBars_DragDockedBar](../../../images/Img7718.png)

@@ -1,6 +1,7 @@
 ---
 title: Requesting Parameter Values
 ---
+# Requesting Parameter Values
 The Dashboard Viewer provides a built-in **Dashboard Parameters** dialog, which allows you to change dashboard parameter values. 
 
 This dialog can be used to apply filtering to dashboard data.

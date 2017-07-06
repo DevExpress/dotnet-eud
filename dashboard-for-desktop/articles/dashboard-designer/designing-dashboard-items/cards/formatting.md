@@ -1,6 +1,7 @@
 ---
 title: Formatting
 ---
+# Formatting
 The Card dashboard item formats the [actual and target](../../../../../dashboard-for-desktop/articles/dashboard-designer/designing-dashboard-items/cards/providing-data.md) values displayed within cards using [format settings](../../../../../dashboard-for-desktop/articles/dashboard-designer/data-shaping/formatting-data.md) specified for data items. Click the options buttons (the ![DataItemsArea_OptionsButton](../../../../images/Img20167.png) icon) displayed next to the data item container in the **Cards** section to change format settings for other values.
 
 ![Cards_DeltaOptions_OptionsButton](../../../../images/Img19985.png)

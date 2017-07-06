@@ -1,6 +1,7 @@
 ---
 title: Document Viewer
 ---
+# Document Viewer
 This documentation section contains information about Document Viewers used to display an interactive document preview on Web pages.
 
 The following Web Document Viewers are available.

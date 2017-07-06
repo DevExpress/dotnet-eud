@@ -1,6 +1,7 @@
 ---
 title: Interface Elements
 ---
+# Interface Elements
 The following main elements make up the user interface of the Web Report Designer.
 * [Design Surface](../../../interface-elements-for-web/articles/report-designer/interface-elements/design-surface.md)
 * [Field List](../../../interface-elements-for-web/articles/report-designer/interface-elements/field-list.md)

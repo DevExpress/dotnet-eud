@@ -1,6 +1,7 @@
 ---
 title: Insert, Select, Copy or Delete a Text Box
 ---
+# Insert, Select, Copy or Delete a Text Box
 ## Insert a Text Box
 To insert a text box into your document, position the caret to the desired location and on the **Insert** [ tab](../../../../interface-elements-for-desktop/articles/rich-text-editor/text-editor-ui/ribbon-interface.md), in the **Text** group, click the **Text Box** button.
 

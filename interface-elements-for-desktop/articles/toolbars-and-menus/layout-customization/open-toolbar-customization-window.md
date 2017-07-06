@@ -1,6 +1,7 @@
 ---
 title: Open Toolbar Customization Window
 ---
+# Open Toolbar Customization Window
 Opening the Customization window activates the customization mode where you can:
 * Rearrange, hide and display bar commands.
 * Change display options of bar commands.

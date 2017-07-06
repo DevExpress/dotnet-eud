@@ -1,6 +1,7 @@
 ---
 title: Empty Report
 ---
+# Empty Report
 Selecting this option on the [Choose a Report Type](../../../../../interface-elements-for-web/articles/report-designer/wizards/report-wizard/choose-a-report-type.md) wizard page will create a new blank report that is not bound to any data source.
 
 ![web-designer-report-type-empty](../../../../images/Img125724.png)

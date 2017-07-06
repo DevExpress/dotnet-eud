@@ -1,6 +1,7 @@
 ---
 title: Apply Cell Conditional Formatting
 ---
+# Apply Cell Conditional Formatting
 You can highlight certain column cells that meet a specific condition using the **Conditional Formatting** menu. To invoke this menu, right-click the column to which a formatting rule should be applied and select **Conditional Formatting**.
 
 ![EUDGridControlConditionalFormattingMenu](../../../images/Img25800.png)

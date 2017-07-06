@@ -1,6 +1,7 @@
 ---
 title: Text-Specific Export Options
 ---
+# Text-Specific Export Options
 Before [exporting a document](../../../../../interface-elements-for-web/articles/document-viewer/html5-document-viewer/exporting/export-a-document.md) to TXT format, you can specify TXT-specific options in the dedicated **Export Options** panel.
 
 ![EUD_HTML5DV_TextExportOptions](../../../../images/Img121806.png)

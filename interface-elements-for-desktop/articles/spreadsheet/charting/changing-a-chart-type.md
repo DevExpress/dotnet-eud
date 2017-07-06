@@ -1,6 +1,7 @@
 ---
 title: Changing a Chart Type
 ---
+# Changing a Chart Type
 The **Spreadsheet** allows you to change the type of the existing chart. To do this, click the chart to display the **Chart Tools** contextual tab.
 
 Click the **Change Chart Type** button in the **Type** group within the **Design** tab...

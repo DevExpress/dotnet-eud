@@ -1,6 +1,7 @@
 ---
 title: Binding Dashboard Items to Data
 ---
+# Binding Dashboard Items to Data
 This topic explains how to bind the newly [created](../../../../dashboard-for-desktop/articles/dashboard-designer/adding-dashboard-items.md) dashboard item to [data source](../../../../dashboard-for-desktop/articles/dashboard-designer/providing-data.md) fields, to display data.
 * [Binding Concepts](#binding-concepts)
 * [Create Binding](#create-binding)

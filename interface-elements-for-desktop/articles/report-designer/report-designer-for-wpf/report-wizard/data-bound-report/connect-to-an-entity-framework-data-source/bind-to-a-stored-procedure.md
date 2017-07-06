@@ -1,6 +1,7 @@
 ---
 title: Bind to a Stored Procedure
 ---
+# Bind to a Stored Procedure
 This wizard page allows you to add stored procedures to the data source and configure their parameters. Note that this page is available only if the current Entity Framework model provides at least one stored procedure.
 
 To add a stored procedure, click **Add** and in the invoked dialog, select the required stored procedure from the list of available procedures.

@@ -1,6 +1,7 @@
 ---
 title: Zoom and Move the Viewport
 ---
+# Zoom and Move the Viewport
 ## Zoom
 You can zoom in or out by shrinking or enlarging a viewport scroll thumb displayed within the Zoom &amp; Scroll Bar.
 

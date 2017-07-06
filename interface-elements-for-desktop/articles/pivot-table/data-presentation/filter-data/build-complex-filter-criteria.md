@@ -1,6 +1,7 @@
 ---
 title: Build Complex Filter Criteria
 ---
+# Build Complex Filter Criteria
 To build complex filter criteria consisting of multiple filter clauses using various filter operators, you can use a Prefilter (Filter Editor):
 
 ![EU_XtraPivotGrid_PreFilter](../../../../images/Img7617.png)

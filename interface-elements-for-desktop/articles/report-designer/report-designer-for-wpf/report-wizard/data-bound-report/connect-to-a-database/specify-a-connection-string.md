@@ -1,6 +1,7 @@
 ---
 title: Specify a Connection String
 ---
+# Specify a Connection String
 On this page, define a custom connection string or select one of the supported data providers.
 
 Select the provider type in the **Provider** drop-down list. Next, specify the connection options required for the selected provider type (e.g., authentication type and database name).

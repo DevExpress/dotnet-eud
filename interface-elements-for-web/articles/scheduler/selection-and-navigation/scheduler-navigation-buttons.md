@@ -1,6 +1,7 @@
 ---
 title: Scheduler Navigation Buttons
 ---
+# Scheduler Navigation Buttons
 The **Navigation Buttons** are used to scroll to the previous or next appointment. This feature is helpful when there is a significant time interval between scheduled appointments.
 
 ![NavigationButtons](../../../images/Img8306.png)

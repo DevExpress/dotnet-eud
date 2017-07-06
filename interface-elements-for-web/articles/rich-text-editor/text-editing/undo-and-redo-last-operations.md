@@ -1,6 +1,7 @@
 ---
 title: Undo and Redo Last Operations
 ---
+# Undo and Redo Last Operations
 The **Rich Editor** allows you to undo and redo the last operation using special buttons (**Undo** and **Redo**) in the **Common** group in the **Home** tab.
 
 The **Undo** command reverses the most recent action you have performed. To undo an action, click the **Undo** button in the **Common** group, or press **CTRL+Z**.

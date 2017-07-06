@@ -1,6 +1,7 @@
 ---
 title: Make Text Bold in HTML Editor
 ---
+# Make Text Bold in HTML Editor
 To apply bold formatting to a specific portion of the text, do the following:
 1. Select the text that you want to make bold.
 2. Click the ![ASPxHtmlEditor-Buttons-Bold](../../../images/Img7400.png) button or press **Ctrl+B**.

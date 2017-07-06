@@ -1,6 +1,7 @@
 ---
 title: Navigation Bars
 ---
+# Navigation Bars
 This section describes the capabilities provided by the Navigation Bars.
 
 ![EndUser_Win_NavigationBars](../images/Img9061.png)

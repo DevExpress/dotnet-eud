@@ -1,6 +1,7 @@
 ---
 title: Context Menu
 ---
+# Context Menu
 A **context menu** is displayed when you right-click the content (text, image, table, etc.) in the editor.
 
 A context menu can be invoked only in the editor's Design and HTML [view modes](../../../../interface-elements-for-web/articles/html-editor/html-editor-user-interface/view-modes.md).

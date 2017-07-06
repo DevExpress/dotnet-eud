@@ -1,6 +1,7 @@
 ---
 title: Zoom Print Preview to Show Whole Pages or Fit Content
 ---
+# Zoom Print Preview to Show Whole Pages or Fit Content
 ## Zoom Documents to Fit Page Content
 To zoom to the page or text width, click the **Zooming** box. The following list will be invoked.
 

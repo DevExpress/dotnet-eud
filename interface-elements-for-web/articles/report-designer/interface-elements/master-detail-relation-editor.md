@@ -1,6 +1,7 @@
 ---
 title: Master-Detail Relation Editor
 ---
+# Master-Detail Relation Editor
 When a data source contains two or more [queries](../../../../interface-elements-for-web/articles/report-designer/wizards/sql-data-source-wizard/adding-a-new-data-source/create-a-query-or-select-a-stored-procedure.md), clicking the ![web-designer-field-list-data-source-edit-relationships](../../../images/Img125720.png) button in the [Field List](../../../../interface-elements-for-web/articles/report-designer/interface-elements/field-list.md) will invoke the **Master-Detail Relation Editor**.
 
 ![web-report-designer-field-list-edit-relations](../../../images/Img125807.png)

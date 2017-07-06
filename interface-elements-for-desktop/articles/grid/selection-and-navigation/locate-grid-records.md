@@ -1,6 +1,7 @@
 ---
 title: Locate Grid Records
 ---
+# Locate Grid Records
 In Grid Views, you can locate a data row by typing the initial characters of the values contained in this row.
 
 To locate the nearest row that contains a specific value in a specific column, do the following:

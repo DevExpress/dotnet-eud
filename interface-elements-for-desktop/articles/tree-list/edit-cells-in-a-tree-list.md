@@ -1,6 +1,7 @@
 ---
 title: Edit Cells in a Tree List
 ---
+# Edit Cells in a Tree List
 ## Activate Cell Editor
 Do one of the following:
 * Click a cell.

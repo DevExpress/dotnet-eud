@@ -1,6 +1,7 @@
 ---
 title: Resize Tree List Columns
 ---
+# Resize Tree List Columns
 To resize columns, drag the right edge of the target column header:
 
 ![EU_XtraTreeList_ResizeColumns](../../../images/Img7669.png)

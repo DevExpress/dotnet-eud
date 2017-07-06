@@ -1,6 +1,7 @@
 ---
 title: Measure Column
 ---
+# Measure Column
 A **measure column** displays summaries calculated against data in a bound data item.
 
 ![Grid_ColumnTypes](../../../../../images/Img19187.png)

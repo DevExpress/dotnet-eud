@@ -1,6 +1,7 @@
 ---
 title: Binding Dashboard Items to Data in the Web Dashboard
 ---
+# Binding Dashboard Items to Data in the Web Dashboard
 This topic explains how to bind the newly created dashboard item to data source fields to visualize data.
 * [Specify a Data Source](#specify)
 * [Create Binding](#create)

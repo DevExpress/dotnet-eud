@@ -1,6 +1,7 @@
 ---
 title: Insert Page Numbers into Printed Documents
 ---
+# Insert Page Numbers into Printed Documents
 To insert or remove page numbers from a document, first [invoke the Header and Footer dialog](../../../../../interface-elements-for-desktop/articles/print-preview/print-preview-for-winforms/headers-and-footers/insert-page-header-and-page-footer-into-printed-documents.md).
 
 Focus a text box, depending on the required alignment, and do one of the following:

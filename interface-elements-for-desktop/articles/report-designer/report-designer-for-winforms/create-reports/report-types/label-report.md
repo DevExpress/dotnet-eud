@@ -1,6 +1,7 @@
 ---
 title: Label Report
 ---
+# Label Report
 This tutorial describes the steps to create a _label report_ containing employee badges, using the [Report Wizard](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-wizard.md).
 
 To create a label report, do the following.

@@ -1,6 +1,7 @@
 ---
 title: Invoke Toolbar and Menu Commands
 ---
+# Invoke Toolbar and Menu Commands
 To invoke a specific bar or menu command, do one of the following:
 * Click the command with the mouse
 * [Focus](../../../../interface-elements-for-desktop/articles/toolbars-and-menus/navigation/keyboard-navigation-in-menus-and-toolbars.md) the command and then press ENTER.

@@ -1,6 +1,7 @@
 ---
 title: Save a Workbook
 ---
+# Save a Workbook
 To save a workbook, go to the **File** tab, and then click the **Save as** button in the **Common** group.
 
 ![EUD_ASPxSpreadsheet_SaveAsWorkbook](../../../images/Img25925.png)

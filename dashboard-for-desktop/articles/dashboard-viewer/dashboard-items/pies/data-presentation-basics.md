@@ -1,6 +1,7 @@
 ---
 title: Data Presentation Basics
 ---
+# Data Presentation Basics
 The **Pie** dashboard item displays a series of pies or donuts that represent the contribution of each value to a total.
 
 ![MainFeatures_Pies](../../../../images/Img18178.png)

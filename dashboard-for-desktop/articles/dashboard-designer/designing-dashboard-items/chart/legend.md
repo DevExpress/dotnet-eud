@@ -1,6 +1,7 @@
 ---
 title: Legend
 ---
+# Legend
 A **legend** is an element of a chart that identifies [chart series](../../../../../dashboard-for-desktop/articles/dashboard-designer/designing-dashboard-items/chart/providing-data.md) and series points (for instance, [colored points](../../../../../dashboard-for-desktop/articles/dashboard-designer/appearance-customization/coloring/coloring-concepts.md) corresponding to argument values).
 
 ![Charts_Legend](../../../../images/Img18275.png)

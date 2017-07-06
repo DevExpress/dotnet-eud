@@ -1,6 +1,7 @@
 ---
 title: Data Processing Modes
 ---
+# Data Processing Modes
 DevExpress Dashboard supports two data processing modes that are used to perform data-related operations (such as grouping, filtering, etc.).
 * In **server mode**, data-related operations are performed on the database server side. For instance, when you apply [filtering](../../../../dashboard-for-desktop/articles/dashboard-designer/data-shaping/filtering.md) to a dashboard item, the Dashboard Designer requests the required data automatically by sending a query containing a corresponding SELECT statement with the specified WHERE clause.
 * In **client mode**, data-related operations are performed on the workstation side. In this mode, a compressed snapshot of aggregated data is loaded into a workstation memory. This reduces memory consumption and improves the speed of client-side data shaping operations using several techniques: data compression, various data grouping and multi-threading algorithms, etc.

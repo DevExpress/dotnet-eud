@@ -1,6 +1,7 @@
 ---
 title: Picture Box
 ---
+# Picture Box
 The **Picture Box** control is intended to display images of numerous formats in a report. An image can be loaded from an external file,  from a [bound data source](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/create-reports/binding-a-report-to-data.md), or from a web location using the specified URL.
 
 ![RD_Controls_PictureBox](../../../../../images/Img8285.png)

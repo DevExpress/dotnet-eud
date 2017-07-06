@@ -1,6 +1,7 @@
 ---
 title: Edit Grid Cells
 ---
+# Edit Grid Cells
 ## Activate Cell Editor
 Do one of the following:
 * Click a cell.

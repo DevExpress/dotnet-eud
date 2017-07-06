@@ -1,6 +1,7 @@
 ---
 title: Add and Delete Grid Records
 ---
+# Add and Delete Grid Records
 ## Add Records
 Click the Append button within the Navigator control:
 

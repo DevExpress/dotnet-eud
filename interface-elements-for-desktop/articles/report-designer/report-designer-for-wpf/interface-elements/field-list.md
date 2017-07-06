@@ -1,6 +1,7 @@
 ---
 title: Field List
 ---
+# Field List
 The **Field List** panel is intended to display the structure of the data source to which a report is currently bound. This panel can also be used to create new bound [report controls](../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-wpf/report-elements/report-controls.md), manage [calculated fields](../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-wpf/creating-reports/providing-data/calculated-fields.md) and [parameters](../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-wpf/creating-reports/providing-data/report-parameters.md).
 
 ![WPFDesigner_FieldList](../../../../images/Img120418.png)

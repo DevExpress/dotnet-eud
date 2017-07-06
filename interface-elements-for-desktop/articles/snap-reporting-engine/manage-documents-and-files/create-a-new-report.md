@@ -1,6 +1,7 @@
 ---
 title: Create a New Report
 ---
+# Create a New Report
 To create a new Snap report, click the **New** button on the **File** tab of the Snap application's ribbon toolbar.
 
 ![Snap-End-User-Manage-Reports00](../../../images/Img20265.png)

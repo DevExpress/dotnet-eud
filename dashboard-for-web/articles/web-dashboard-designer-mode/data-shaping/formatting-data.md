@@ -1,6 +1,7 @@
 ---
 title: Formatting Data
 ---
+# Formatting Data
 The Web Dashboard allows you to customize various format settings for numeric and date-time values.
 * [Formatting Numeric Values](#numeric)
 * [Formatting Date-Time Values](#datetime)

@@ -1,6 +1,7 @@
 ---
 title: Edit Tree List Cells
 ---
+# Edit Tree List Cells
 ## Switch to Edit Mode
 To edit cell values, switch to the edit mode. To do this, click **Edit**.
 

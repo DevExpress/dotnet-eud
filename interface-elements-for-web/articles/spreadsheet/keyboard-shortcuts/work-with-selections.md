@@ -1,6 +1,7 @@
 ---
 title: Work with Selections
 ---
+# Work with Selections
 The key combinations that allow you to work with selections are listed in the table below.
 
 | Shortcut | Description |

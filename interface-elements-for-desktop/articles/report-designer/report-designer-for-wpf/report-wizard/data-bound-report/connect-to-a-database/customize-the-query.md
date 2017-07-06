@@ -1,6 +1,7 @@
 ---
 title: Customize the Query
 ---
+# Customize the Query
 On this page, you can construct an SQL query to obtain data from the database or select a stored procedure.
 * [Construct a Query](#query)
 * [Select a Stored Procedure](#storedprocedure)

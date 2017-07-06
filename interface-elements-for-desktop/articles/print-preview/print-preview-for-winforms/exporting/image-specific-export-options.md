@@ -1,6 +1,7 @@
 ---
 title: Image-Specific Export Options
 ---
+# Image-Specific Export Options
 When [exporting a document](../../../../../interface-elements-for-desktop/articles/print-preview/print-preview-for-winforms/exporting/exporting-from-print-preview.md), you can define image-specific exporting options using the following dialog.
 
 ![previewExportOptionsImg](../../../../images/Img7335.png)

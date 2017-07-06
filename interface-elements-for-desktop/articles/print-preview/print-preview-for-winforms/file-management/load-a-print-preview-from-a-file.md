@@ -1,6 +1,7 @@
 ---
 title: Load a Print Preview from a File
 ---
+# Load a Print Preview from a File
 To open a previously saved document, click the **Open** ![previewButtonOpen](../../../../images/Img7260.png) button on the toolbar, or press CTRL+O.
 
 On the invoked **Open** dialog, define the file and click **Open**.

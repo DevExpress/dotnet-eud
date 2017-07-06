@@ -1,6 +1,7 @@
 ---
 title: Snap User Interface Overview
 ---
+# Snap User Interface Overview
 This document lists the essential elements of the Snap user interface, and provides links to specific topics that describe these elements in more detail.
 
 The main elements of the Snap user interface are as follows.

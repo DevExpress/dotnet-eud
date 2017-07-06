@@ -1,6 +1,7 @@
 ---
 title: Pie Map
 ---
+# Pie Map
 The **Pie Map** dashboard item allows you to display pies on the map. Each pie visualizes the contribution of each value to the total.
 
 ![wdd-dashboard-items-pie-map](../../../../images/Img125124.png)

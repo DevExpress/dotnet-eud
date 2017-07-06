@@ -1,6 +1,7 @@
 ---
 title: Search Panel
 ---
+# Search Panel
 To filter data and highlight search results, type a filter criterion in the search panel.
 
 ![ASPxVerticalGrid-SearchPanel-1](../../../images/Img123788.png)

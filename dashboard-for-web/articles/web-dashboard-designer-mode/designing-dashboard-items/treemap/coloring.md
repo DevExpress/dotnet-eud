@@ -1,6 +1,7 @@
 ---
 title: Coloring
 ---
+# Coloring
 Treemap provides the capability to color its tiles by associating dimension values/measures and specified colors. You can choose whether to use a global color scheme to provide consistent colors for identical values or specify a local color scheme for each dashboard item. To learn more about coloring concepts common for all dashboard items, see [Coloring](../../../../../dashboard-for-web/articles/web-dashboard-designer-mode/appearance-customization/coloring.md).
 
 By default, the Treemap dashboard item colors its tiles in the following way.

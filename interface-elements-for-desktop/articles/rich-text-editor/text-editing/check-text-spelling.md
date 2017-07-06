@@ -1,6 +1,7 @@
 ---
 title: Check Text Spelling
 ---
+# Check Text Spelling
 The **Rich Text Editor** supports spell-check. All misspelled words in your document (words that are not found within the available dictionaries in the **Spell Checker**) are underlined. You can work with misspelled words via the context menu, invoked when right-clicking the underlined word.
 
 ![RTESpellCheckingContextMenu](../../../images/Img121326.png)

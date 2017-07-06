@@ -1,6 +1,7 @@
 ---
 title: Expanded State
 ---
+# Expanded State
 If the [Columns or Rows](../../../../../dashboard-for-web/articles/web-dashboard-designer-mode/designing-dashboard-items/pivot/providing-data.md) section contains several data items, the Pivot column and row headers are arranged in a hierarchy and make up column and row groups.
 
 ![wdd-pivot-expand-collapse.png](../../../../images/Img125647.png)

@@ -1,6 +1,7 @@
 ---
 title: Add Line Numbers
 ---
+# Add Line Numbers
 1. To add line numbers to a whole document, [select the entire document](../../../../interface-elements-for-desktop/articles/rich-text-editor/text-editing/select-text.md) if your document is divided into multiple [sections](../../../../interface-elements-for-desktop/articles/rich-text-editor/document-layout-and-page-setup/divide-a-documents-into-sections.md). If your document consists of one section only, simply click anywhere within a document.
 	
 	To add line numbers to a particular section or multiple sections, click a section or select multiple sections.

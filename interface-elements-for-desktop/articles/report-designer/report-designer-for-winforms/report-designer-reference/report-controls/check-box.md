@@ -1,6 +1,7 @@
 ---
 title: Check Box
 ---
+# Check Box
 The **Check Box** control is intended to display True/False or Checked/Unchecked/Indeterminate states in a report, by displaying (or not) a check mark, which can be accompanied by a text description.
 
 ![RD_Controls_CheckBox](../../../../../images/Img8503.png)

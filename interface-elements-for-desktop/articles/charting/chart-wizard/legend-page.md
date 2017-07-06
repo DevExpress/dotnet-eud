@@ -1,6 +1,7 @@
 ---
 title: Legend Page
 ---
+# Legend Page
 ## Tasks
 * Customize chart legend's properties.
 

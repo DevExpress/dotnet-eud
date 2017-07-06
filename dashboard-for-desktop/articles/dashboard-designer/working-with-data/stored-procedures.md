@@ -1,6 +1,7 @@
 ---
 title: Stored Procedures
 ---
+# Stored Procedures
 If you use a stored procedure to supply the dashboard with data, you should specify the stored procedure parameters. In the [Query Editor](../../../../dashboard-for-desktop/articles/dashboard-designer/working-with-data/using-the-query-editor.md) dialog, select the required stored procedure and click **Next**.
 
 ![QueryEditorDialog_StoredProcedure](../../../images/Img118171.png)

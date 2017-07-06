@@ -1,6 +1,7 @@
 ---
 title: Label Report
 ---
+# Label Report
 The **Report Wizard** allows you to create reports of three kinds: [empty reports](../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-wpf/report-wizard/empty-report.md), [data-bound reports](../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-wpf/report-wizard/data-bound-report.md) and **label reports**. To generate a label report, select **Label Report** and click **Next**.
 
 ![WPDDesigner_ReportWizard_Label](../../../../images/Img121985.png)

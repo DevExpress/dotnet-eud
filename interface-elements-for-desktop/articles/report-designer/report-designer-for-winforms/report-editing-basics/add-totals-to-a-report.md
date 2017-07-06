@@ -1,6 +1,7 @@
 ---
 title: Add Totals to a Report
 ---
+# Add Totals to a Report
 With Report Designer, you can force a [data-bound control](../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-editing-basics/displaying-values-from-a-database-(binding-report-elements-to-data).md) to calculate one of the standard summary functions (**Average**, **Sum**, **Count**, **Percentage**, **Max**, **Min**, etc.)
 
 To calculate summaries (totals) within a report, follow the instructions below.

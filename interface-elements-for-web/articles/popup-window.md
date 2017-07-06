@@ -1,6 +1,7 @@
 ---
 title: Popup Window
 ---
+# Popup Window
 The **Popup Window** is a temporary window that appears above an application's main window. It is typically used to display quick reference information. The popup window can be displayed when hovering or clicking a specific element, or it can initially be visible.
 
 ![EUD_Popup1](../images/Img22633.gif)

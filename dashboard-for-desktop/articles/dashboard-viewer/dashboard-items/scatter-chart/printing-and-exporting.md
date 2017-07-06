@@ -1,6 +1,7 @@
 ---
 title: Printing and Exporting
 ---
+# Printing and Exporting
 The Dashboard allows you to print/export individual dashboard items, or the entire dashboard. See the [Printing and Exporting](../../../../../dashboard-for-desktop/articles/dashboard-viewer/printing-and-exporting.md) topic to learn more about printing concepts common to all dashboard items.
 
 This topic describes printing/exporting specifics for the **Scatter Chart** dashboard item.

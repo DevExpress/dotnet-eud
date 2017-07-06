@@ -1,6 +1,7 @@
 ---
 title: Report Designer Elements
 ---
+# Report Designer Elements
 This document describes elements that comprise the Report Designer that is intended for creating and editing reports.
 
 The following image illustrates a Report Designer.

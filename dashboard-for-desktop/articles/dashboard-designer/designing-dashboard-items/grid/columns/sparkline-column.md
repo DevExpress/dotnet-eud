@@ -1,6 +1,7 @@
 ---
 title: Sparkline Column
 ---
+# Sparkline Column
 A **sparkline column** visualizes the variation in summary values over time.
 
 ![Grid_SparklineColumn](../../../../../images/Img21665.png)

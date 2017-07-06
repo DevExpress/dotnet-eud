@@ -1,6 +1,7 @@
 ---
 title: Design Panel
 ---
+# Design Panel
 The **Design Panel** is the Report Designer's main area, where a report is being constructed and previewed.
 
 ![RD_Elements_DesignerTab](../../../../../images/Img13274.png)

@@ -1,6 +1,7 @@
 ---
 title: Parameterized Report
 ---
+# Parameterized Report
 This tutorial describes the steps needed to create a report with parameters. In this example, we will create two date-time parameters, to filter out orders which don't fall in the specified range from the report.
 
 First, [create a report](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/create-reports/basic-operations/create-a-new-report.md) and [bind it to a data source](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/create-reports/binding-a-report-to-data.md).

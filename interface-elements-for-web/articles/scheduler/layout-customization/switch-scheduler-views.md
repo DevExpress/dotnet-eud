@@ -1,6 +1,7 @@
 ---
 title: Switch Scheduler Views
 ---
+# Switch Scheduler Views
 The Scheduler is intended to display appointment data using one of the standard **Views**.
 
 The following views are currently available:

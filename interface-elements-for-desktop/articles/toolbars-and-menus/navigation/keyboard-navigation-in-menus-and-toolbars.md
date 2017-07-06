@@ -1,6 +1,7 @@
 ---
 title: Keyboard Navigation in Menus and Toolbars
 ---
+# Keyboard Navigation in Menus and Toolbars
 ## Navigate between Toolbar and Menu Items
 To switch focus to the main menu, press ALT or F10. The following shortcuts allow you to navigate through bars and bar items. They are in effect when a bar/menu is focused.
 

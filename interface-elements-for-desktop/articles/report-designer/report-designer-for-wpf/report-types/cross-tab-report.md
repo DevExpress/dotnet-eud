@@ -1,6 +1,7 @@
 ---
 title: Cross-Tab Report
 ---
+# Cross-Tab Report
 This tutorial describes the steps needed to create a _cross-tab report_ using the [Pivot Grid](../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-wpf/report-elements/report-controls.md) control. This feature should not be confused with the [master-detail report](../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-wpf/report-types/master-detail-report.md) or [table report](../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-wpf/report-types/table-report.md). Additionally, the document demonstrates how to visualize data displayed in the Pivot Grid by linking it with the [Chart](../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-wpf/report-elements/report-controls.md) control.
 
 ## Create a Cross-Tab Report

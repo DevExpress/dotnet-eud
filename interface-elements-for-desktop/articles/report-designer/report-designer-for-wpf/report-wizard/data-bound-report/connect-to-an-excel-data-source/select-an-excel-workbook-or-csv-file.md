@@ -1,6 +1,7 @@
 ---
 title: Select an Excel Workbook or CSV file
 ---
+# Select an Excel Workbook or CSV file
 On this wizard page, select a required Microsoft Excel workbook (the XLS, XLSX and XLSM formats are supported) or CSV file. To do this, click the ellipsis button and locate the source file, or enter the full path to this file.
 
 ![WpfReportWizard_Excel_SelectFile](../../../../../../images/Img122198.png)

@@ -1,6 +1,7 @@
 ---
 title: Treemap
 ---
+# Treemap
 Use the Treemap dashboard item to visualize data in nested rectangles that are called _tiles_.
 
 ![Treemap_Main_Win](../../../images/Img125423.png)

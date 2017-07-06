@@ -1,6 +1,7 @@
 ---
 title: Resize Rows and Columns in Vertical Grids
 ---
+# Resize Rows and Columns in Vertical Grids
 ## Resize Rows
 To resize a row, drag the row header's bottom edge vertically.
 

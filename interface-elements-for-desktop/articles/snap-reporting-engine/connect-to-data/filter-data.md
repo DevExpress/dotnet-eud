@@ -1,6 +1,7 @@
 ---
 title: Filter Data
 ---
+# Filter Data
 This document describes how to filter dynamic data within a **Snap** document.
 
 The document consists of the following sections.

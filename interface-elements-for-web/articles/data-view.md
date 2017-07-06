@@ -1,6 +1,7 @@
 ---
 title: Data View
 ---
+# Data View
 The **Data View** displays data in a card or list-based view.
 
 ![EUD_DataViewPager](../images/Img22668.png)

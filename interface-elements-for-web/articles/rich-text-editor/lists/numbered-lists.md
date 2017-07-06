@@ -1,6 +1,7 @@
 ---
 title: Numbered Lists
 ---
+# Numbered Lists
 ## Create a Numbered List as You Type
 1. Point to the position within a document from which you want to begin your list.
 2. Click the **Numbering** ![EUD_ASPxRichEdit_Home_NumberedListButton](../../../images/Img117841.png) button in the **Paragraph** group in the **Home** tab.

@@ -1,6 +1,7 @@
 ---
 title: Pie Options
 ---
+# Pie Options
 The Pie Map dashboard item allows you to take into account the weight of pies. In this case, the relative sizes of the pies depend on the corresponding summary values.
 
 ![WeightedPies](../../../../../images/Img126625.png)

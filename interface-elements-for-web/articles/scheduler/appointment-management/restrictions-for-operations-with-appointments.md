@@ -1,6 +1,7 @@
 ---
 title: Restrictions for Operations with Appointments
 ---
+# Restrictions for Operations with Appointments
 Access to several operations may be restricted. You may find that you're not able to perform the following operations due to restrictions applied by the application vendor or administrator.
 * Create new appointments.
 * Edit appointments.

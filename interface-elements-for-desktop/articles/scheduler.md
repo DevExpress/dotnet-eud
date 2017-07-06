@@ -1,6 +1,7 @@
 ---
 title: Scheduler
 ---
+# Scheduler
 This section describes the capabilities provided by the Scheduler, which is used for scheduling/calendar activities.
 
 ![Docs_VisualElements_Scheduler_All](../images/Img6036.png)

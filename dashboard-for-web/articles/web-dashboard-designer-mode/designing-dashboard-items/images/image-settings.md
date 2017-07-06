@@ -1,6 +1,7 @@
 ---
 title: Image Settings
 ---
+# Image Settings
 This topic describes settings related to the representation of **Image** dashboard items.
 
 ## Image Size Mode

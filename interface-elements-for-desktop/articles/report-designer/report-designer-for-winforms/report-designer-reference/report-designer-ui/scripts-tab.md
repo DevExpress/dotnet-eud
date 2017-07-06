@@ -1,6 +1,7 @@
 ---
 title: Scripts Tab
 ---
+# Scripts Tab
 The **Scripts Tab** allows you to manage your report's scripts. It provides centralized access to all the scripts being written for a report or any of its elements ([bands](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-reference/report-bands.md) and [controls](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-reference/report-controls.md)).
 
 ![RD_Elements_ScriptsTab](../../../../../images/Img11138.png)

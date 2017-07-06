@@ -1,6 +1,7 @@
 ---
 title: Labels
 ---
+# Labels
 ![Pies_Layout_LabelsAndTooltips](../../../../images/Img19947.png)
 
 You can specify which information should be displayed within data labels and tooltips. To do this, use the **Data Labels** and **Tooltips** buttons in the **Labels** group of the **Design** Ribbon tab.

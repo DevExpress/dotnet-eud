@@ -1,6 +1,7 @@
 ---
 title: Add and Delete Cards
 ---
+# Add and Delete Cards
 ## Add a Card
 To create a new card:
 * Click **New**.

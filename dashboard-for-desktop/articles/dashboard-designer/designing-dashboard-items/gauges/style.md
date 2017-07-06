@@ -1,6 +1,7 @@
 ---
 title: Style
 ---
+# Style
 The **Gauge** dashboard item allows you to select the gauge type.
 
 The following types are supported.

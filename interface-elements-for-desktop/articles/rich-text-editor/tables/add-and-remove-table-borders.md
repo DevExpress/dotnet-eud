@@ -1,6 +1,7 @@
 ---
 title: Add and Remove Table Borders
 ---
+# Add and Remove Table Borders
 ## Add Borders
 * **Add Borders to the Whole Table**
 	1. [Select a table](../../../../interface-elements-for-desktop/articles/rich-text-editor/tables/select-a-cell-row-or-column.md).

@@ -1,6 +1,7 @@
 ---
 title: Window Definition
 ---
+# Window Definition
 A _window definition_ specifies a window that limits measure values participating in a calculation. To learn more, see [Window Calculations Overview](../../../../../dashboard-for-desktop/articles/dashboard-designer/data-analysis/window-calculations/window-calculations-overview.md).
 
 ## Dashboard Item Window Definition

@@ -1,6 +1,7 @@
 ---
 title: Filter Grid Data
 ---
+# Filter Grid Data
 ## Invoke the Filter Dropdown List
 * In Grid Views, hover over the column header. Click the filter button (![EU_XtraGrid_GridView_ColumnFilterButton_Icon](../../../images/Img7501.png)) within the column header that appears.
 	

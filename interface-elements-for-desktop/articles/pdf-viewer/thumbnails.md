@@ -1,6 +1,7 @@
 ---
 title: Thumbnails
 ---
+# Thumbnails
 This document introduces page thumbnails and describes their capabilities on a Navigation pane.
 
 This document consists of the following sections.

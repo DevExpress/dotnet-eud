@@ -1,6 +1,7 @@
 ---
 title: Shortcuts
 ---
+# Shortcuts
 The **Spreadsheet** provides the capability to perform common commands quickly using keyboard shortcuts.
 
 All supported shortcuts are divided into the following groups:

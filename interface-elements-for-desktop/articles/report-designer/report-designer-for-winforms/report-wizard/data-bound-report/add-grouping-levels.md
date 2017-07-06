@@ -1,6 +1,7 @@
 ---
 title: Add Grouping Levels
 ---
+# Add Grouping Levels
 This page allows you to group data in your report. If you do not need to group your data, simply click **Next** on this page to skip this step.
 
 ![RD_ReportWizard_Standard_5](../../../../../images/Img8323.png)

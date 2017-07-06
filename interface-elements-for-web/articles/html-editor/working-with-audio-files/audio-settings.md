@@ -1,6 +1,7 @@
 ---
 title: Audio Settings
 ---
+# Audio Settings
 When you [insert](../../../../interface-elements-for-web/articles/html-editor/working-with-audio-files/insert-an-audio-into-html-editor.md) or [modify](../../../../interface-elements-for-web/articles/html-editor/working-with-audio-files/modify-audio-settings-in-html-editor.md) audio in an HTML Editor, you can customize the audio player settings as well.
 
 To display the settings section in an audio dialog, select the **More options** check box.

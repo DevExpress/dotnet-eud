@@ -1,6 +1,7 @@
 ---
 title: Menu
 ---
+# Menu
 The [Web Report Designer](../../../../interface-elements-for-web/articles/report-designer.md) menu is invoked by clicking the menu button in the upper-left corner of the designer's user interface.
 
 ![eud-menu-0](../../../images/Img119983.png)

@@ -1,6 +1,7 @@
 ---
 title: Stored Procedures
 ---
+# Stored Procedures
 If you use a stored procedure to supply the dashboard with data, you should specify the stored procedure parameters. In the [Dashboard Data Source Wizard](../../../../../dashboard-for-web/articles/web-dashboard-designer-mode/providing-data/working-with-sql-data-sources/dashboard-data-source-wizard.md) dialog, select the required stored procedure and click **Next**.
 
 ![wdd-stored-procedure](../../../../images/Img124982.png)

@@ -1,6 +1,7 @@
 ---
 title: Pies
 ---
+# Pies
 The Pie dashboard item displays a series of pies or donuts that represent the contribution of each value to a total.
 
 ![wdd-dashboard-items-pies](../../../images/Img125125.png)

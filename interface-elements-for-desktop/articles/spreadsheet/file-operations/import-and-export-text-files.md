@@ -1,6 +1,7 @@
 ---
 title: Import and Export Text Files
 ---
+# Import and Export Text Files
 The **Spreadsheet** provides the capability to save a workbook as a text file (.txt or .csv) or load data from text files.
 
 ## Save a Workbook as a Text File

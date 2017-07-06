@@ -1,6 +1,7 @@
 ---
 title: Context Menu
 ---
+# Context Menu
 The **context menu** is a popup menu displayed when you right-click a grid element.
 
 A context menu can be displayed for the following elements: [group panel](#grouppanelmenu), [column header](#column-menu), [row](#row-menu), and [footer](#footer-menu).

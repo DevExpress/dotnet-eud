@@ -1,6 +1,7 @@
 ---
 title: Miscellaneous Report Management Capabilities
 ---
+# Miscellaneous Report Management Capabilities
 The topics of this section cover the Report Designer features that don't fall into other categories.
 
 This section consists of the following topics.

@@ -1,6 +1,7 @@
 ---
 title: Format String Editor
 ---
+# Format String Editor
 The **Format String Editor** provides the capability to apply the required formatting for report elements to display their incoming data. It allows you to easily select one of the built-in formats or create your own. For instance, you can format a numeric value as currency, display a date/time value in one of the standard forms depending on the culture, etc.
 
 This topic consists of the following section.

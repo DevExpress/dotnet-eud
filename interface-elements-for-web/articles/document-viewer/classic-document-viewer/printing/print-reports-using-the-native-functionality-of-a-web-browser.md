@@ -1,6 +1,7 @@
 ---
 title: Print Reports Using the Native Functionality of a Web Browser
 ---
+# Print Reports Using the Native Functionality of a Web Browser
 If the PDF plug-in is not installed or is disabled in your web browser, the report document is printed using the native functionality of this browser.
 
 When you click either the **Print the report** ![web_buttonPrint](../../../../images/Img7539.png) or **Print the current page** ![web_buttonPrintOne](../../../../images/Img7540.png) button, the browser invokes its **Print** dialog and prints the document's layout as it is displayed by the Document Viewer without converting it to PDF. The following image illustrates the **Print** dialog of Microsoft&#174; Internet Explorer.

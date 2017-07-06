@@ -1,6 +1,7 @@
 ---
 title: Geo Point Maps
 ---
+# Geo Point Maps
 The topics in this section describe various types of **Geo Point Map** dashboard items that allow you to place callouts, bubbles or pies on the map using geographical coordinates.
 
 ![MapsOverview_GeoPointMap](../../../images/Img23628.png)

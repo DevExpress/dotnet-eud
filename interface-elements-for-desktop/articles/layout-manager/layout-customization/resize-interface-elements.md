@@ -1,6 +1,7 @@
 ---
 title: Resize Interface Elements
 ---
+# Resize Interface Elements
 To perform layout customization, first invoke [Customization Mode](../../../../interface-elements-for-desktop/articles/layout-manager/layout-customization/start-layout-customization.md). After customization has been completed, [exit](../../../../interface-elements-for-desktop/articles/layout-manager/layout-customization/finish-layout-customization.md) customization mode.
 
 ## Resize Layout Items

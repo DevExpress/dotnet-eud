@@ -1,6 +1,7 @@
 ---
 title: Query Builder
 ---
+# Query Builder
 In the **Query Builder** dialog, you can add data tables and views to the data source, and select which columns to include. The **Query Builder** automatically joins the related tables, so all you need to do is drag-and-drop.
 
 ![wdd-query-builder](../../../../images/Img124934.png)

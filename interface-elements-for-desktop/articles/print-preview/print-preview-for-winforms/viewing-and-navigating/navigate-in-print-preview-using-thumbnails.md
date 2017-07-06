@@ -1,6 +1,7 @@
 ---
 title: Navigate in Print Preview Using Thumbnails
 ---
+# Navigate in Print Preview Using Thumbnails
 You can use thumbnails to quickly navigate between document pages.
  
 

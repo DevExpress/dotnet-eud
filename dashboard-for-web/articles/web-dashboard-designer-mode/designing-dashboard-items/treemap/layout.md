@@ -1,6 +1,7 @@
 ---
 title: Layout
 ---
+# Layout
 This topic describes how to change a layout algorithm used to arrange Treemap tiles. To do this in the Web Dashboard, go to the Treemap's [Options](../../../../../dashboard-for-web/articles/web-dashboard-designer-mode/ui-elements/dashboard-item-menu.md) menu  and open the **Layout** section.
 
 ![wdd-treemap-layout-options](../../../../images/Img125963.png)

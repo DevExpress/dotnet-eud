@@ -1,6 +1,7 @@
 ---
 title: Gauges
 ---
+# Gauges
 The **Gauge** dashboard item displays a series of gauges. Each gauge can communicate two values - one with a needle and the other with a marker on the scale.
 
 ![wdd-dashboard-items-gauges](../../../images/Img125120.png)

@@ -1,6 +1,7 @@
 ---
 title: Expand and Collapse Nodes in a Tree List
 ---
+# Expand and Collapse Nodes in a Tree List
 ## Expand and Collapse Nodes
 Do one of the following:
 * Focus the node and then press PLUS on the keyboard to expand the node, and MINUS to collapse the node:

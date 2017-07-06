@@ -1,6 +1,7 @@
 ---
 title: Binding Report Controls to Data
 ---
+# Binding Report Controls to Data
 [Report controls](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-wpf/report-elements/report-controls.md) can either display static information or dynamic data obtained from the [bound data source](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-wpf/creating-reports/providing-data/binding-a-report-to-data.md).
 
 Data-bound controls are indicated by a yellow database icon, both on the [Design Surface](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-wpf/interface-elements/design-surface.md) and in the [Report Explorer](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-wpf/interface-elements/report-explorer.md).

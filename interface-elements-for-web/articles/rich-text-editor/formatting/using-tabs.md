@@ -1,6 +1,7 @@
 ---
 title: Using Tabs
 ---
+# Using Tabs
 Tab stops specify the exact positions the cursor moves after repeatedly clicking the **Tab** key. Tab stops are located on the [horizontal ruler](../../../../interface-elements-for-web/articles/rich-text-editor/viewing-and-navigating/show-horizontal-ruler.md) and allows you to align text.
 
 ![EUD_ASPxRichEdit_Tabs_Example](../../../images/Img117911.png)

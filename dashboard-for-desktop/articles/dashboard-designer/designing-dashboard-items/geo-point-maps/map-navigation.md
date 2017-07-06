@@ -1,6 +1,7 @@
 ---
 title: Map Navigation
 ---
+# Map Navigation
 Geo Point maps allow you to perform navigation actions such as zooming and scrolling.
 
 The Dashboard Designer allows you to specify the initial zooming/scrolling state for the Geo Point map using the mouse.

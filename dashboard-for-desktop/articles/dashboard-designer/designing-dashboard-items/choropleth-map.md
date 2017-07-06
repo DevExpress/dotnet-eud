@@ -1,6 +1,7 @@
 ---
 title: Choropleth Map
 ---
+# Choropleth Map
 The topics in this section describe the features available in the **Choropleth Map** dashboard item.
 
 The Choropleth Map dashboard item allows you to colorize the required areas in proportion to the provided values.

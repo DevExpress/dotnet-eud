@@ -1,6 +1,7 @@
 ---
 title: Legend
 ---
+# Legend
 A **legend** is an element of a scatter chart that identifies chart points (for instance, [colored points](../../../../../dashboard-for-desktop/articles/dashboard-designer/appearance-customization/coloring/coloring-concepts.md) corresponding to argument values).
 
 ![ScatterChart_Legend](../../../../images/Img120201.png)

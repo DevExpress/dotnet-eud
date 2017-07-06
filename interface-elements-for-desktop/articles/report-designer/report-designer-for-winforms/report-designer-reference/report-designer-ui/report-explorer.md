@@ -1,6 +1,7 @@
 ---
 title: Report Explorer
 ---
+# Report Explorer
 The **Report Explorer** shows a report's structure in a tree-like form providing easy access to report elements. Additionally, the **Report Explorer** contains the **Components** node, which displays non-visual report components, such as data objects created when binding a report to a data source.
 
 ![RD_Elements_ReportExplorer](../../../../../images/Img8259.png)

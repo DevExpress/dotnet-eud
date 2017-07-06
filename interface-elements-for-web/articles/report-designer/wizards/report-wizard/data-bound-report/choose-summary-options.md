@@ -1,6 +1,7 @@
 ---
 title: Choose Summary Options
 ---
+# Choose Summary Options
 Use this page to specify totals to be displayed for each data group and grand totals for the entire report. For instance, you may need to display the sum of values in a particular field, the average value, etc. Specified totals will be displayed after corresponding groups and in the report footer.
 
 ![web-report-designer-wizard-choose-summary-options](../../../../../images/Img24820.png)

@@ -1,6 +1,7 @@
 ---
 title: Export a Report
 ---
+# Export a Report
 In addition to native .snx file format, Snap allows you to export reports into the one of the wide variety of third-party formats, (e.g., PDF, HTML or DOCX).
 
 To export a Snap report in a third-party format, do the following.

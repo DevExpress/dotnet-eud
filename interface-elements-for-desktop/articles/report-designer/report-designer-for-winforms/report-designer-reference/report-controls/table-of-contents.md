@@ -1,6 +1,7 @@
 ---
 title: Table of Contents
 ---
+# Table of Contents
 The **Table of Contents** control generates a table of contents based on bookmarks specified for report elements.
 
 ![RD_Controls_Table_Of_Contents](../../../../../images/Img23724.png)

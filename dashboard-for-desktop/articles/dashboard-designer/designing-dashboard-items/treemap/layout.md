@@ -1,6 +1,7 @@
 ---
 title: Layout
 ---
+# Layout
 This topic describes how to change a layout algorithm used to arrange Treemap tiles. To do this in the Designer, use buttons from the **Layout** group placed in the **Design** ribbon tab.
 
 ![Treemap_LayoutButtons_Ribbon](../../../../images/Img125439.png)

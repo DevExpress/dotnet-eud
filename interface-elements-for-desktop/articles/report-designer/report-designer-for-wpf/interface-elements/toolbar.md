@@ -1,6 +1,7 @@
 ---
 title: Toolbar
 ---
+# Toolbar
 The **Toolbar** allows you to easily perform various report commands, which are divided into the following sections.
 * [Report Commands](#report)
 * [Edit Commands](#edit)

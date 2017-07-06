@@ -1,6 +1,7 @@
 ---
 title: Uploading Multiple Files
 ---
+# Uploading Multiple Files
 To upload multiple files, do one of the following.
 * Select a file for upload within a file input using the **Browse** button.
 	

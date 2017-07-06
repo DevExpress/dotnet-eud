@@ -1,6 +1,7 @@
 ---
 title: Navigation Bar
 ---
+# Navigation Bar
 ## Expand Groups in the Navigation Bar That Can Display Multiple Groups at One Time
 Windows Explorer Bar style navigation bars can display multiple groups at one time, as in the image below:
 

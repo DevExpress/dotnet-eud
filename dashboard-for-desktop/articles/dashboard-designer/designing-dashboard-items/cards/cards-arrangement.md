@@ -1,6 +1,7 @@
 ---
 title: Cards Arrangement
 ---
+# Cards Arrangement
 The **Card** dashboard item allows you to specify the number of columns or rows in which individual cards are arranged.
 
 Use the buttons in the **Content Arrangement** group of the **Design** Ribbon tab to control how cards are arranged.

@@ -1,6 +1,7 @@
 ---
 title: Change Font Type in HTML Editor
 ---
+# Change Font Type in HTML Editor
 To change the text's font type, do the following.
 1. Select the part of the text you want to process.
 2. Click the **Font** list box' dropdown button and select the appropriated font within the opened list.

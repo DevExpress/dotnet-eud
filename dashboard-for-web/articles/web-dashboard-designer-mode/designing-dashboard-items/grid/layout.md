@@ -1,6 +1,7 @@
 ---
 title: Layout
 ---
+# Layout
 The Grid dashboard item allows you to customize its layout in various ways. You can manage the width of grid columns, specify the visibility of column headers, enable cell merging, etc.
 
 To access the layout settings, use the **Layout** section in the Grid's [Options](../../../../../dashboard-for-web/articles/web-dashboard-designer-mode/ui-elements/dashboard-item-menu.md) menu.

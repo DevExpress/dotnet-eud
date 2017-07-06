@@ -1,6 +1,7 @@
 ---
 title: Understanding Style Concepts
 ---
+# Understanding Style Concepts
 This document describes how you can provide a professional look to your reports by effectively adjusting the appearance of its elements.
 
 This document consists of the following sections.

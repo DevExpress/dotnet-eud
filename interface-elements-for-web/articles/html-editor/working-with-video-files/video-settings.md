@@ -1,6 +1,7 @@
 ---
 title: Video Settings
 ---
+# Video Settings
 When you [insert](../../../../interface-elements-for-web/articles/html-editor/working-with-video-files/insert-a-video-into-html-editor.md) or [modify](../../../../interface-elements-for-web/articles/html-editor/working-with-video-files/modify-video-settings-in-html-editor.md) video in an HTML Editor, you can customize the video player settings as well.
 
 To display the settings section in a video dialog, select the **More options** check box.

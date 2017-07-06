@@ -1,6 +1,7 @@
 ---
 title: Exporting
 ---
+# Exporting
 There are two options available for exporting a document to one of the supported third-party formats.
 * [Export Document to a File on Disk](#export)
 * [Send Exported File Using E-Mail](#send)

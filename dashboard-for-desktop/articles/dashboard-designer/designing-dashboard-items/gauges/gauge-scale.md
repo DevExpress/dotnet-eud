@@ -1,6 +1,7 @@
 ---
 title: Gauge Scale
 ---
+# Gauge Scale
 By default, the Gauge dashboard item automatically determines the range of the gauge scales based on the values they display.
 
 ![Gauges_MinimumMaximumValues](../../../../images/Img18659.png)

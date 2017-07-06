@@ -1,6 +1,7 @@
 ---
 title: Printing and Exporting
 ---
+# Printing and Exporting
 The Dashboard Viewer provides the capability to print or export an entire dashboard and individual items.
 * [Printing and Exporting Dashboards](#printing-dashboards)
 * [Printing and Exporting Dashboard Items](#printing-dashboard-items)

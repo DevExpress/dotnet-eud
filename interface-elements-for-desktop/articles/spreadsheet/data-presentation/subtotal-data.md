@@ -1,6 +1,7 @@
 ---
 title: Subtotal Data
 ---
+# Subtotal Data
 The **Spreadsheet** allows you to automatically [group](../../../../interface-elements-for-desktop/articles/spreadsheet/data-presentation/outline-data.md) related data in a worksheet and add summary rows to each group using the **SUBTOTAL** function.
 
 > Before subtotaling, it is necessary to ensure that the range to be subtotaled contains similar data in each column, has column headings in the first row and does not include blank rows or columns.

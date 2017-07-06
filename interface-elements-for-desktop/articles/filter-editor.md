@@ -1,6 +1,7 @@
 ---
 title: Filter Editor
 ---
+# Filter Editor
 This section describes the capabilities provided by the Filter Editor, which allows users to visually build filters:
 
 ![EndUser_Win_FilterEditor](../images/Img9054.png)

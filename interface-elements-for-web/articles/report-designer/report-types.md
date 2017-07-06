@@ -1,6 +1,7 @@
 ---
 title: Report Types
 ---
+# Report Types
 The tutorials in this section provide you detailed instructions on how to create reports of different types with the [Web Report Designer](../../../interface-elements-for-web/articles/report-designer.md).
 * [Table Report](../../../interface-elements-for-web/articles/report-designer/report-types/table-report.md)
 * [Multi-Column Report](../../../interface-elements-for-web/articles/report-designer/report-types/multi-column-report.md)

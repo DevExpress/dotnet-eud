@@ -1,6 +1,7 @@
 ---
 title: Sparkline
 ---
+# Sparkline
 The **Sparkline** control displays a compact chart that is commonly used to reflect the flow of data for every row in a report.
 
 ![RD_Controlds_Sparkline](../../../../../images/Img23719.png)

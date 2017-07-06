@@ -1,6 +1,7 @@
 ---
 title: Rename a Worksheet
 ---
+# Rename a Worksheet
 When a new worksheet is created, the **Spreadsheet** assigns it a generic name, such as _Sheet1_, _Sheet2_, etc.
 
 To rename a worksheet, go to the **Home** tab, and then in the **Cells** group, click the **Format** button and select the **Rename Sheet** item from the drop-down list.

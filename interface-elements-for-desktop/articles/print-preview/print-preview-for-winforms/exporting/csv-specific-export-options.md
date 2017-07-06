@@ -1,6 +1,7 @@
 ---
 title: CSV-Specific Export Options
 ---
+# CSV-Specific Export Options
 When [exporting a document](../../../../../interface-elements-for-desktop/articles/print-preview/print-preview-for-winforms/exporting/exporting-from-print-preview.md), you can define CSV-specific exporting options using the following dialog.
 
 ![previewExportOptionsCSV](../../../../images/Img7333.png)

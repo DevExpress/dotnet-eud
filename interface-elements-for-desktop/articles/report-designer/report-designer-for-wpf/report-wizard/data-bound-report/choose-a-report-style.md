@@ -1,6 +1,7 @@
 ---
 title: Choose a Report Style
 ---
+# Choose a Report Style
 On this wizard page, you can specify one of the predefined visual styles for the report.
 
 ![WPDDesigner_ReportWizard_ReportStyle](../../../../../images/Img122893.png)

@@ -1,6 +1,7 @@
 ---
 title: Choose a Report Style
 ---
+# Choose a Report Style
 On this wizard page, you can choose one of the predefined visual styles for the report.
 
 ![RD_ReportWizard_Standard_8](../../../../../images/Img8326.png)

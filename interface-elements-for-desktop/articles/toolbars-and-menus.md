@@ -1,6 +1,7 @@
 ---
 title: Toolbars and Menus
 ---
+# Toolbars and Menus
 This section describes the capabilities provided by toolbars and menus.
 
 ![EndUser_Win_Bars](../images/Img9058.png)

@@ -1,6 +1,7 @@
 ---
 title: Save the Connection String
 ---
+# Save the Connection String
 If the data connection uses server authentication, this wizard page allows you to choose whether to save the user credentials along with the connection string.
 
 ![WPDDesigner_ReportWizard_SaveConnectionString](../../../../../../images/Img122001.png)

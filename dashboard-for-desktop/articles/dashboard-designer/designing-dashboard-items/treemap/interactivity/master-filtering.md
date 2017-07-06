@@ -1,6 +1,7 @@
 ---
 title: Master Filtering
 ---
+# Master Filtering
 The **Dashboard  Designer** allows you to use any data aware dashboard item as a filter for other dashboard items. To learn more, see the [Master Filtering](../../../../../../dashboard-for-desktop/articles/dashboard-designer/interactivity/master-filtering.md) topic, which describes filtering concepts common to all dashboard items.
 
 The Treemap dashboard item supports filtering by tiles/[groups](../../../../../../dashboard-for-desktop/articles/dashboard-designer/designing-dashboard-items/treemap/grouping.md).

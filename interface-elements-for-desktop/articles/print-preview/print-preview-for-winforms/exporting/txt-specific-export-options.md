@@ -1,6 +1,7 @@
 ---
 title: TXT-Specific Export Options
 ---
+# TXT-Specific Export Options
 When [exporting a document](../../../../../interface-elements-for-desktop/articles/print-preview/print-preview-for-winforms/exporting/exporting-from-print-preview.md), you can define TXT-specific exporting options using the following dialog.
 
 ![previewExportOptionsTXT](../../../../images/Img7337.png)

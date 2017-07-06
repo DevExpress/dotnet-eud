@@ -1,6 +1,7 @@
 ---
 title: Displaying Values from a Database (Binding Report Elements to Data)
 ---
+# Displaying Values from a Database (Binding Report Elements to Data)
 Report [controls](../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-reference/report-controls.md) can either display [static](../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-editing-basics/add-or-modify-static-information-in-your-report.md) information or _dynamic_ data fetched from the [bound database](../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/create-reports/binding-a-report-to-data.md).
 
 Data-bound controls are indicated by a yellow database icon in their top-right corner, both in the [Design Panel](../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-reference/report-designer-ui/design-panel.md) and [Report Explorer](../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-reference/report-designer-ui/report-explorer.md).

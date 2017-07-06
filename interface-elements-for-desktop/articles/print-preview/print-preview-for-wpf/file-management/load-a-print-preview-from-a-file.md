@@ -1,6 +1,7 @@
 ---
 title: Load a Print Preview from a File
 ---
+# Load a Print Preview from a File
 To open a [previously saved](../../../../../interface-elements-for-desktop/articles/print-preview/print-preview-for-wpf/file-management/save-a-print-preview-to-a-file.md) document, do one of the following.
 * Click the **Open** ![WPFDesigner_Toolbar_OpenIcon](../../../../images/Img120136.png) button on the toolbar.
 * On the menu, click **Open**.

@@ -1,6 +1,7 @@
 ---
 title: Handle Events via Scripts
 ---
+# Handle Events via Scripts
 This document describes the basic principles of _scripting_, which can be performed by handling the events of a report, and its [bands](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-reference/report-bands.md) and [controls](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-reference/report-controls.md).
 
 This documents consists of the following sections.

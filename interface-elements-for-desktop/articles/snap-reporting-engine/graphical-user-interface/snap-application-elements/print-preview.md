@@ -1,6 +1,7 @@
 ---
 title: Print Preview
 ---
+# Print Preview
 This document describes the **Print Preview** window, which displays published documents in a **Snap** application.
 * [Print Preview Elements](#elements)
 * [Invoke a Print Preview](#invoke)

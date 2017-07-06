@@ -1,6 +1,7 @@
 ---
 title: Captcha
 ---
+# Captcha
 **Captcha** is used to distinguish human input from machine input.
 
 Enter the code displayed within the challenge image into the text box.

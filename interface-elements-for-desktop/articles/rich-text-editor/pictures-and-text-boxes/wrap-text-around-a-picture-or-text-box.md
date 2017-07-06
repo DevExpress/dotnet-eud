@@ -1,6 +1,7 @@
 ---
 title: Wrap Text around a Picture or Text Box
 ---
+# Wrap Text around a Picture or Text Box
 ## Position a Picture or Text Box within a Document
 1. Select a [floating picture](../../../../interface-elements-for-desktop/articles/rich-text-editor/pictures-and-text-boxes/insert-a-picture.md) or [text box](../../../../interface-elements-for-desktop/articles/rich-text-editor/pictures-and-text-boxes/insert-select-copy-or-delete-a-text-box.md) whose location you want to specify.
 2. Specify an object location in one of the following ways.

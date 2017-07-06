@@ -1,6 +1,7 @@
 ---
 title: Interface Elements for Web
 ---
+# Interface Elements for Web
 This documentation provides information on individual User Interface Elements such as grids, navigation panes, data editors, etc. Each element can provide context menus, allow numerous mouse operations and support a number of keyboard shortcuts.
 
 To obtain information about these features, browse through the table of contents to locate the element you are interested in.

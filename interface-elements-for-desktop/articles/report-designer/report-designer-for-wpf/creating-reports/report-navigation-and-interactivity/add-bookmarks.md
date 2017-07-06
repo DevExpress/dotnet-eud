@@ -1,6 +1,7 @@
 ---
 title: Add Bookmarks
 ---
+# Add Bookmarks
 This tutorial describes the steps to create a report with _bookmarks_ (a so-called _Document Map_). This feature allows you to easily navigate through the report during [print preview](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-wpf/document-preview.md).
 
 To demonstrate the Document Map feature, use a report with grouping, similar to the one created in the following tutorial: [Grouping Data](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-wpf/creating-reports/shaping-data/grouping-data.md).

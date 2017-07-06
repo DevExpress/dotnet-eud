@@ -1,6 +1,7 @@
 ---
 title: Empty Report
 ---
+# Empty Report
 Select the **Empty Report** option on the [Choose a Report Type](../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-wizard/choose-a-report-type.md) wizard page to create a new blank report that is not bound to any data source.
 
 ![eud-win-report-wizard-empty-report](../../../../images/Img126645.png)

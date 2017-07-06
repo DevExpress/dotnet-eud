@@ -1,6 +1,7 @@
 ---
 title: Filter Queries
 ---
+# Filter Queries
 SQL queries constructed in the [Query Builder](../../../../dashboard-for-desktop/articles/dashboard-designer/working-with-data/using-the-query-builder.md) can be filtered by including WHERE clauses to the query. Filtering can be applied to either underlying or aggregated data. You can also limit the number of returned records when filtering data.
 * [Invoke the Filter Editor](#invoke-the-filter-editor)
 * [Filter Data](#filter-data)

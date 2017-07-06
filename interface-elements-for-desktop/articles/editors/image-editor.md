@@ -1,6 +1,7 @@
 ---
 title: Image Editor
 ---
+# Image Editor
 An image editor allows you to load and display images.
 
 > The following steps may vary depending on application vendor.

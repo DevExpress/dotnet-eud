@@ -1,6 +1,7 @@
 ---
 title: Map Navigation
 ---
+# Map Navigation
 The Choropleth Map dashboard item allows you to perform navigation actions such as zooming and scrolling using the mouse.
 
 You can enable or disable the capability to scroll/zoom the map using the **Lock Navigation** setting in the Choropleth Map's [Options](../../../../../dashboard-for-web/articles/web-dashboard-designer-mode/ui-elements/dashboard-item-menu.md) menu.

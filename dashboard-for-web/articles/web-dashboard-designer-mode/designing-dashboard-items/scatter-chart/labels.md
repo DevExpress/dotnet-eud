@@ -1,6 +1,7 @@
 ---
 title: Labels
 ---
+# Labels
 The Scatter Chart can display **point labels** that contain descriptions for data points, and provide **tooltips** with additional information.
 
 ![wdd-scatter-chart-point-label](../../../../images/Img125604.png)

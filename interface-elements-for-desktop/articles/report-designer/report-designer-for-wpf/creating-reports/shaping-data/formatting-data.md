@@ -1,6 +1,7 @@
 ---
 title: Formatting Data
 ---
+# Formatting Data
 This topic describes how to change value formatting of [report elements](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-wpf/report-elements/report-controls.md) in the Report Designer. For instance, you can format a numeric value as a currency, display a date/time value in one of the standard forms depending on the culture, etc.
 
 To apply value formatting for a [data-bound control](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-wpf/creating-reports/providing-data/binding-report-controls-to-data.md)'s content, do the following.

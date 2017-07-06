@@ -1,6 +1,7 @@
 ---
 title: Select a Data Connection
 ---
+# Select a Data Connection
 On this page, you can choose whether to use one of the existing data connections or create a new one.
 
 ![WPDDesigner_ReportWizard_SelectDataConnection](../../../../../../images/Img121999.png)

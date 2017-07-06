@@ -1,6 +1,7 @@
 ---
 title: Text Formatting
 ---
+# Text Formatting
 The key combinations that allow you to apply formatting options quickly are listed in the following table.
 
 | Shortcut | Description |

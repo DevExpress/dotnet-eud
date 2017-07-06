@@ -1,6 +1,7 @@
 ---
 title: Add Page Numbers for Groups
 ---
+# Add Page Numbers for Groups
 This tutorial demonstrates how to display page numbers individually, for each group in your report. To demonstrate this feature, we'll use a report, similar to the one created in the following tutorial: [Change or Apply Data Grouping to a Report](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-editing-basics/change-or-apply-data-grouping-to-a-report.md).
 
 To add page numbers for groups, do the following.

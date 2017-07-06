@@ -1,6 +1,7 @@
 ---
 title: Dashboard Title
 ---
+# Dashboard Title
 The **Dashboard Title** is located at the top of the [dashboard surface](../../../../dashboard-for-web/articles/web-dashboard-designer-mode/ui-elements/dashboard-surface.md) and can contain text and image content.
 
 ![wdd-dashboard-title](../../../images/Img126004.png)

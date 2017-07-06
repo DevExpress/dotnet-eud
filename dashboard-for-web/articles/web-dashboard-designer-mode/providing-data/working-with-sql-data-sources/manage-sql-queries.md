@@ -1,6 +1,7 @@
 ---
 title: Manage SQL Queries
 ---
+# Manage SQL Queries
 After you [connect](../../../../../dashboard-for-web/articles/web-dashboard-designer-mode/providing-data/connect-to-an-existing-data-source.md) to the data source and select the required data, you can create new SQL queries or edit the existing queries in the SQL data sources. To manage data sources, open the dashboard menu and go to the **Data Sources** page.
 
 ![wdd-data-sources-page](../../../../images/Img124589.png)

@@ -1,6 +1,7 @@
 ---
 title: Component Tray
 ---
+# Component Tray
 The **Component Tray** shows components (non-visual report helpers) whose primary purpose is to [bind a report to data](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/create-reports/binding-a-report-to-data.md). You can click them to display and edit their settings using the [Property grid](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-reference/report-designer-ui/property-grid.md).
 
 ![RD_Elements_ComponentTray](../../../../../images/Img8317.png)

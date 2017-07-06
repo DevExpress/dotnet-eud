@@ -1,6 +1,7 @@
 ---
 title: Snap Application Elements
 ---
+# Snap Application Elements
 The topics in this section describe the main elements that make up the user interface of a Snap application.
 
 This section consists of the following topics.

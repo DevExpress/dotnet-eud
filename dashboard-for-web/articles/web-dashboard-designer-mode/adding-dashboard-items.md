@@ -1,6 +1,7 @@
 ---
 title: Adding Dashboard Items
 ---
+# Adding Dashboard Items
 After [creating a dashboard](../../../dashboard-for-web/articles/web-dashboard-designer-mode/creating-a-dashboard.md) and [providing data](../../../dashboard-for-web/articles/web-dashboard-designer-mode/providing-data.md) to it, add **dashboard items** to display visual or textual information in a dashboard.
 
 To create a dashboard item, click the corresponding button in the [Toolbox](../../../dashboard-for-web/articles/web-dashboard-designer-mode/ui-elements/toolbox.md) or drag an item from the Toolbox into the dashboard surface.

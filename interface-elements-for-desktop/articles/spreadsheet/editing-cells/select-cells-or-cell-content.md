@@ -1,6 +1,7 @@
 ---
 title: Select Cells or Cell Content
 ---
+# Select Cells or Cell Content
 ## Selecting Cells
 To select cells in the **Spreadsheet**, use the following mouse actions and keyboard shortcuts.
 1. To select a **single cell**, click the cell or press the arrow keys to move to the required cell.

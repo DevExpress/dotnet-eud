@@ -1,6 +1,7 @@
 ---
 title: Page Navigation in Grids
 ---
+# Page Navigation in Grids
 To switch between pages, use the grid's Pager:
 
 ![Navigation](../../../images/Img7295.png)

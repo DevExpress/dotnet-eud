@@ -1,6 +1,7 @@
 ---
 title: Static Report
 ---
+# Static Report
 This tutorial describes the steps to create a _static report_, which means that the report will not be bound to a data source. In this example, we will create a simple one-page announcement to be repeated 20 times in a report.
 
 To create a static report, do the following.

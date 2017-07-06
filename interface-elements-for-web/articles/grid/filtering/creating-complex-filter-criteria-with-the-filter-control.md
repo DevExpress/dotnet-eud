@@ -1,6 +1,7 @@
 ---
 title: Creating Complex Filter Criteria with the Filter Control
 ---
+# Creating Complex Filter Criteria with the Filter Control
 To build complex filter criteria with an unlimited number of filter conditions, combined by logical operators, use the built-in **Filter Control**.
 
 ![FilterControl](../../../images/Img8592.png)

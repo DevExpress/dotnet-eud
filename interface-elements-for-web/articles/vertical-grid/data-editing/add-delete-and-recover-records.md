@@ -1,6 +1,7 @@
 ---
 title: Add, Delete and Recover Records
 ---
+# Add, Delete and Recover Records
 ## Add a Record
 To create a new record:
 * Click **New**.

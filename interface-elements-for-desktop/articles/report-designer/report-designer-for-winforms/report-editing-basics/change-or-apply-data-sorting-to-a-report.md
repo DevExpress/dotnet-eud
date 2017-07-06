@@ -1,6 +1,7 @@
 ---
 title: Change or Apply Data Sorting to a Report
 ---
+# Change or Apply Data Sorting to a Report
 This document demonstrates how to sort a report's data. Note that as with data grouping, sorting can be performed only if a report is [bound to a data source](../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/create-reports/binding-a-report-to-data.md). In this example, we'll use the report created in the following tutorial: [Change or Apply Data Grouping to a Report](../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-editing-basics/change-or-apply-data-grouping-to-a-report.md).
 
 To sort records in a data-aware report, do the following.

@@ -1,6 +1,7 @@
 ---
 title: Web Dashboard - Designer Mode
 ---
+# Web Dashboard - Designer Mode
 The **Web Dashboard** allows you to create dashboards in a web browser and provides an intuitive UI that facilitates data binding, shaping, layout design, etc. Many of these normally complex tasks can be accomplished with a simple drag-and-drop operation, allowing you to start creating dashboards immediately.
 
 ![WebDesignerOverview](../images/Img124548.png)

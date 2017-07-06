@@ -1,6 +1,7 @@
 ---
 title: Image Settings
 ---
+# Image Settings
 When you [insert](../../../../interface-elements-for-web/articles/html-editor/working-with-images/insert-an-image-in-html-editor.md) or [modify](../../../../interface-elements-for-web/articles/html-editor/working-with-images/modify-an-image's-settings-in-html-editor.md) image in an HTML Editor, you can customize the image settings as well.
 
 To display the settings section in an image dialog, select the **More options** check box.

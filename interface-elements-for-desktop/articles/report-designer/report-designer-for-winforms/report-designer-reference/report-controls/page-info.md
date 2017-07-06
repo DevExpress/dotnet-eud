@@ -1,6 +1,7 @@
 ---
 title: Page Info
 ---
+# Page Info
 The **Page Info** control is intended to [add page numbers and system information](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-editing-basics/add-page-numbers-and-system-information-to-a-report.md) (the current date and time or the current user name) into your report. As with many other controls, you can [format](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-editing-basics/change-value-formatting-of-report-elements.md) this control's content.
 
 ![RD_Controls_PageInfo](../../../../../images/Img8308.png)

@@ -1,6 +1,7 @@
 ---
 title: Providing Maps
 ---
+# Providing Maps
 This topic describes how to use the default **DevExpress Dashboard** maps and configure their attributes.
 * [Default Maps](#defaultmaps)
 * [Custom Maps](#custommaps)

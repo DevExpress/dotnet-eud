@@ -1,6 +1,7 @@
 ---
 title: Snap Reporting Engine
 ---
+# Snap Reporting Engine
 This guide provides information on the basic principles of creating reports with Snap.
 
 Snap is a WYSIWYG reporting engine that provides a user interface that allows for a quick creation of standard reports with the capabilities of data shaping (grouping, sorting and filtering), hierarchical data representation (master-detail reports), mail merge and much more.

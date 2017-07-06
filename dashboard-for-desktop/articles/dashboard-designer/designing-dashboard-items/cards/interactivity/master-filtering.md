@@ -1,6 +1,7 @@
 ---
 title: Master Filtering
 ---
+# Master Filtering
 The **Dashboard** allows you to use any data aware dashboard item as a filter for other dashboard items (**Master Filter**). To learn more about filtering concepts common to all dashboard items, see the [Master Filtering](../../../../../../dashboard-for-desktop/articles/dashboard-designer/interactivity/master-filtering.md) topic.
 
 When Master Filtering is enabled, you can click a card (or multiple cards by holding down the **CTRL** key) to make other dashboard items only display data related to the selected card(s).

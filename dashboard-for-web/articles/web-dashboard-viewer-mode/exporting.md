@@ -1,6 +1,7 @@
 ---
 title: Exporting
 ---
+# Exporting
 The Web Dashboard provides the capability to export an entire dashboard and individual items.
 * [Exporting Dashboards](#exportingdashboards)
 * [Exporting Dashboard Items](#exportingdashboarditems)

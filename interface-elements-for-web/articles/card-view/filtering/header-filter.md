@@ -1,6 +1,7 @@
 ---
 title: Header Filter
 ---
+# Header Filter
 To filter data or change the filter conditions in the CardView, you can use the **Header Filter**.
 
 Click a filter button to invoke the filter dropdown, which lists unique values in a column.

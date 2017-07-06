@@ -1,6 +1,7 @@
 ---
 title: Page Navigation
 ---
+# Page Navigation
 To switch between pages, use the Vertical Grid's Pager.
 
 ![VerticalGridSwitchPages](../../../images/Img123843.png)

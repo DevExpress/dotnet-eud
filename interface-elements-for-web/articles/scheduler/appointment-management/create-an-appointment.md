@@ -1,6 +1,7 @@
 ---
 title: Create an Appointment
 ---
+# Create an Appointment
 To create a new appointment, click within the Scheduler time cell area to select cell(s). A smart tag will appear shortly:
 
 ![SmartTag](../../../images/Img7529.png)

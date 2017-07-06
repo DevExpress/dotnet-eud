@@ -1,6 +1,7 @@
 ---
 title: Outline Data
 ---
+# Outline Data
 The **Spreadsheet** provides you with the capability to split a large amount of data into separate groups and display summary rows and columns for each group. Data grouping is useful when you wish to temporally hide unnecessary rows or columns to display only significant information.
 
 Select the action you wish to perform.

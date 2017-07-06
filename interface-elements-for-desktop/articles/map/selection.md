@@ -1,6 +1,7 @@
 ---
 title: Selection
 ---
+# Selection
 To select a map item, do one of the following:
 * Tap a map item on a touchscreen device;
 * Hover over a map item with the mouse pointer and click it.

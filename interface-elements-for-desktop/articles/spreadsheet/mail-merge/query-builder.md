@@ -1,6 +1,7 @@
 ---
 title: Query Builder
 ---
+# Query Builder
 When the data source is configured, you can use the built-in **Query Builder** dialog to select required data.
 
 To invoke the **Query Builder** window, select the **Manage Queries** item from the **Manage Relations** drop-down menu.

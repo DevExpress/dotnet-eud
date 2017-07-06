@@ -1,6 +1,7 @@
 ---
 title: Change Printing Settings via the Page Setup Dialog
 ---
+# Change Printing Settings via the Page Setup Dialog
 To start the page setup dialog box, do one of the following.
 * Click the **Page Setup** ![previewButtonPageSetup](../../../../images/Img7266.png) button on the toolbar.
 * On the **File** menu, click **Page Setup...**

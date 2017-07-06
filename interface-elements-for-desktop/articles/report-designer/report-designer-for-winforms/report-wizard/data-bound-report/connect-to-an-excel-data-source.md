@@ -1,6 +1,7 @@
 ---
 title: Connect to an Excel Data Source
 ---
+# Connect to an Excel Data Source
 The topics in this section describe the report wizard steps required to connect a report to an Excel data source.
 
 This task includes the following steps.

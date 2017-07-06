@@ -1,6 +1,7 @@
 ---
 title: Change or Apply Data Grouping to a Report
 ---
+# Change or Apply Data Grouping to a Report
 This document demonstrates how to group a report's data. Note that data grouping can be performed only if a report is [bound to a data source](../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/create-reports/binding-a-report-to-data.md).
 
 To group records in a report, do the following.

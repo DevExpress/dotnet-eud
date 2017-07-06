@@ -1,6 +1,7 @@
 ---
 title: Context Menu
 ---
+# Context Menu
 The **Context Menu** can be invoked by the right-clicking a report...
 
 ![RD_Elements_ContextMenu_PageHeader](../../../../../images/Img11092.png)

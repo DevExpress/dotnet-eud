@@ -1,6 +1,7 @@
 ---
 title: Query Builder
 ---
+# Query Builder
 The **Query Builder** can be invoked from the [SQL Data Source Wizard](../../../../interface-elements-for-web/articles/report-designer/wizards/sql-data-source-wizard.md). It provides a visual editor to create custom queries and enables you to solve a variety of tasks.
 * [Select Tables](#select)
 * [Join Tables](#join)

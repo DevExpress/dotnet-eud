@@ -1,6 +1,7 @@
 ---
 title: Pass Parameter Values
 ---
+# Pass Parameter Values
 This document describes the main concepts for using parameters in **Snap**, and provides examples of their use in various tasks.
 
 The document consists of the following sections.

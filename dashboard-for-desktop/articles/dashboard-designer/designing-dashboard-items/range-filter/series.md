@@ -1,6 +1,7 @@
 ---
 title: Series
 ---
+# Series
 The **Range Filter** dashboard item supports various **Line** and **Area** series types.
 
 To switch between series types in the Designer, click the options button next to the required data item in the **Values** section. In the invoked **Series Type** dialog, select the required series type and click **OK**.

@@ -1,6 +1,7 @@
 ---
 title: Pivot
 ---
+# Pivot
 The **Pivot** dashboard item displays a cross-tabular report that presents multi-dimensional data in an easy-to-read format.
 
 ![wdd-dashboard-items-pivot](../../../images/Img125126.png)

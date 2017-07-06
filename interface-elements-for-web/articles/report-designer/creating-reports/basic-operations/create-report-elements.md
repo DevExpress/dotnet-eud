@@ -1,6 +1,7 @@
 ---
 title: Create Report Elements
 ---
+# Create Report Elements
 This topic describes how to add [report controls](../../../../../interface-elements-for-web/articles/report-designer/report-elements/report-controls.md) and [bands](../../../../../interface-elements-for-web/articles/report-designer/report-elements/report-bands.md) to a report using the [Web Report Designer](../../../../../interface-elements-for-web/articles/report-designer.md).
 
 This document consists of the following sections.

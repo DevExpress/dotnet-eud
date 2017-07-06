@@ -1,6 +1,7 @@
 ---
 title: Rotate a Picture or Text Box
 ---
+# Rotate a Picture or Text Box
 1. Click the [floating picture](../../../../interface-elements-for-desktop/articles/rich-text-editor/pictures-and-text-boxes/insert-a-picture.md) or [text box](../../../../interface-elements-for-desktop/articles/rich-text-editor/pictures-and-text-boxes/insert-select-copy-or-delete-a-text-box.md) that you wish to rotate.
 2. Do one of the following.
 	* Click the round arrow that appears over the selected floating picture or text box and drag it in the direction to which you wish to rotate the object.

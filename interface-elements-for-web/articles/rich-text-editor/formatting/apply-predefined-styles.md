@@ -1,6 +1,7 @@
 ---
 title: Apply Predefined Styles
 ---
+# Apply Predefined Styles
 To format a text or a paragraph you can apply styles. A style is a group of formatting characteristics. All these characteristics are applied to a text or a paragraph at once when you apply a style. Thus, styles allow you to change text and paragraph appearance more quickly than setting all formatting characteristics separately ([Format Text](../../../../interface-elements-for-web/articles/rich-text-editor/formatting/format-text.md), [Format Paragraphs](../../../../interface-elements-for-web/articles/rich-text-editor/formatting/format-paragraphs.md)).
 
 A **character based style** includes characteristics to format text within a paragraph (e.g., font type and size,  bold and italic formats, etc.)

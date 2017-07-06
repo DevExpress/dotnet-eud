@@ -1,6 +1,7 @@
 ---
 title: Master-Detail Report
 ---
+# Master-Detail Report
 A report is usually called _Master-Detail_ if it is used to display data from a hierarchical data source.
 
 ![eud-subreports-10](../../../../images/Img120292.png)

@@ -1,6 +1,7 @@
 ---
 title: 'General Tools: Insert'
 ---
+# General Tools: Insert
 The **Insert** toolbar contains elements that can be inserted into a document.
 
 These elements are divided into the following categories.

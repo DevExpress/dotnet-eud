@@ -1,6 +1,7 @@
 ---
 title: Scrolling
 ---
+# Scrolling
 The following operations can be performed by end-users to scroll a map.
 
 | Action | Example | Description |

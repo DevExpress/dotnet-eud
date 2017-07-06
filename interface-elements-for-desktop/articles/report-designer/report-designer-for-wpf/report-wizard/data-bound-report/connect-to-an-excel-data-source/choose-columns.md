@@ -1,6 +1,7 @@
 ---
 title: Choose columns
 ---
+# Choose columns
 On this wizard page, you can select required columns and specify their settings.
 
 To select a column, enable the corresponding **Selected** check box. Use **Name** to specify the custom column name and **Type** to choose the column type.

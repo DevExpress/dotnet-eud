@@ -1,6 +1,7 @@
 ---
 title: Delta
 ---
+# Delta
 Cards allow you to visualize the difference between the [actual and target](../../../../../dashboard-for-desktop/articles/dashboard-designer/designing-dashboard-items/cards/providing-data.md) values using special delta values and a delta indicator. If the default layout is used ([Stretched layout type](../../../../../dashboard-for-desktop/articles/dashboard-designer/designing-dashboard-items/cards/layout.md)), the card displays the following delta values/elements:
 
 ![Card_StretchedLayout_OnlyDeltaElements](../../../../images/Img128177.png)

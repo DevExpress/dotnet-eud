@@ -1,6 +1,7 @@
 ---
 title: Cross-band Line
 ---
+# Cross-band Line
 The **Cross-band Line** control allows you to draw a line through several [bands](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-reference/report-bands.md). This can be useful if it is required to visually emphasize a section consisting of multiple band areas. In other aspects, it is similar to a regular [Line](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-reference/report-controls/line.md).
 
 ![RD_Controls_CrossBandLine](../../../../../images/Img8312.png)

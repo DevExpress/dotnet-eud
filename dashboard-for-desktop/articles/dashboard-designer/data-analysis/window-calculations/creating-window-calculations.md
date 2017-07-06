@@ -1,6 +1,7 @@
 ---
 title: Creating Window Calculations
 ---
+# Creating Window Calculations
 The Dashboard Designer allows you to add a [window calculation](../../../../../dashboard-for-desktop/articles/dashboard-designer/data-analysis/window-calculations/window-calculations-overview.md) for numeric measures. To do this, invoke the [data item menu](../../../../../dashboard-for-desktop/articles/dashboard-designer/ui-elements/data-items-pane.md) and select the required calculation type.
 
 ![Measure_CalculationMenu](../../../../images/Img123408.png)

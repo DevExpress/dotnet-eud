@@ -1,6 +1,7 @@
 ---
 title: Custom Color Picker
 ---
+# Custom Color Picker
 The **Custom Color Picker** allows you to select a custom color using a graphical interface.
 
 ![ColorEdit_CustomButton](../../../images/Img22732.png)

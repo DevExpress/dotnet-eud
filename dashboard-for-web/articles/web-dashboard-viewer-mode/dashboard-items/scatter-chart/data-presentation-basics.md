@@ -1,6 +1,7 @@
 ---
 title: Data Presentation Basics
 ---
+# Data Presentation Basics
 The **Scatter Chart** dashboard item visualizes summaries using three dimensions: the X-axis, the Y-axis and the size of data points.
 
 ![ScatterChart_Main_Web](../../../../images/Img121201.png)

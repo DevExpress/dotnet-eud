@@ -1,6 +1,7 @@
 ---
 title: Filter Data via the Filter Editor
 ---
+# Filter Data via the Filter Editor
 ## Filter Editor
 The **Filter Editor** is used to edit filter criteria. To create and customize filter criteria, use the ![FilterEditor_EU_AddButton](../../images/Img7350.png) and ![FilterEditor_EU_DeleteButton](../../images/Img7351.png) buttons embedded into the control and context menus supported by the editor's elements:
 

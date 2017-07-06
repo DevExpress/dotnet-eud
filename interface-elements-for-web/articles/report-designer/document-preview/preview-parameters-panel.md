@@ -1,6 +1,7 @@
 ---
 title: Preview Parameters Panel
 ---
+# Preview Parameters Panel
 The **Preview Parameters Panel** is available in the Document Preview if any visible [parameters](../../../../interface-elements-for-web/articles/report-designer/creating-reports/providing-data/report-parameters.md) exist in the current report.
 
 Using this panel, you can specify and submit new report parameters values, which will recreate the document with the new values taken into account.

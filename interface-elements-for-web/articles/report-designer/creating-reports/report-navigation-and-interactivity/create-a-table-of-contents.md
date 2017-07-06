@@ -1,6 +1,7 @@
 ---
 title: Create a Table of Contents
 ---
+# Create a Table of Contents
 This topic describes how to provide a report with a table of contents that displays page numbers for bookmarked report elements at different nesting levels, and thus makes it possible to quickly navigate to a specific document page by clicking the corresponding entry.
 
 To demonstrate this feature, use a report with specified bookmarks similar to the one created in the following tutorial: [Create a Document Map with Bookmarks](../../../../../interface-elements-for-web/articles/report-designer/creating-reports/report-navigation-and-interactivity/create-a-document-map-with-bookmarks.md).

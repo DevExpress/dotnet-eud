@@ -1,6 +1,7 @@
 ---
 title: 'General Tools: References'
 ---
+# General Tools: References
 The **References** toolbar contains commands that provide different kinds of references to a document, such as a table of contents and table captions.
 
 These commands are divided into the following sections.

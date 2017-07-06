@@ -1,6 +1,7 @@
 ---
 title: Pie Options
 ---
+# Pie Options
 The Pie Map dashboard item allows you to take into account the weight of the pies. In this case, the relative sizes of the pies depend on the corresponding summary values.
 
 ![wdd-pie-map-weightened-pies](../../../../../images/Img126753.png)

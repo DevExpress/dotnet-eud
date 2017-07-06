@@ -1,6 +1,7 @@
 ---
 title: Bind a Report to Data
 ---
+# Bind a Report to Data
 The [Web Report Designer](../../../../../interface-elements-for-web/articles/report-designer.md) is primarily designed to work with _data-aware reports_, which means that a report obtains its general (_dynamic_) data from an external _data source_. This document describes how to _bind_ a report to a data source.
 
 The document consists of the following sections.

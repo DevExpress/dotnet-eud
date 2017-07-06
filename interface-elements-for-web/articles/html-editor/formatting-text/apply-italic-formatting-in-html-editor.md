@@ -1,6 +1,7 @@
 ---
 title: Apply Italic Formatting in HTML Editor
 ---
+# Apply Italic Formatting in HTML Editor
 To apply italic formatting to a specific portion of the text, do the following.
 1. Select the text you want to format.
 2. Click the ![ASPxHtmlEditor-Buttons-Italic](../../../images/Img7401.png) button or press **Ctrl+I**.

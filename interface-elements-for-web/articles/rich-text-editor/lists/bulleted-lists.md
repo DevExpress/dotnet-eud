@@ -1,6 +1,7 @@
 ---
 title: Bulleted Lists
 ---
+# Bulleted Lists
 ## Create a Bulleted List as You Type
 1. Point to the position in a document from where you want to begin your list.
 2. Click the **Bullets** ![EUD_ASPxRichEdit_Home_BulletedListButton](../../../images/Img117840.png) button in the **Paragraph** group within the **Home** tab.

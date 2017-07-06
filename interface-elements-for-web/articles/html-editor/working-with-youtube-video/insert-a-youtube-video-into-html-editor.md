@@ -1,6 +1,7 @@
 ---
 title: Insert a YouTube Video Into HTML Editor
 ---
+# Insert a YouTube Video Into HTML Editor
 This topic describes how to insert a YouTube video into an editor's content.
 
 First, position the mouse pointer on the place in the text where you want to add a YouTube video and click the **Insert YouTube Video** button.

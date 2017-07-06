@@ -1,6 +1,7 @@
 ---
 title: Adding Details about a Report
 ---
+# Adding Details about a Report
 This document lists topics that describe how to add technical information about a report to a generated document. This information includes the report's creation date, the author's name, as well as text and/or image watermarks.
 
 This section consists of the following examples.

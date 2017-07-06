@@ -1,6 +1,7 @@
 ---
 title: Appointment Management
 ---
+# Appointment Management
 This section describes how to modify appointments.
 
 Topics in this section:

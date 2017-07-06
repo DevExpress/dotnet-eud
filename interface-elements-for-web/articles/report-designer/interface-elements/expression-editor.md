@@ -1,6 +1,7 @@
 ---
 title: Expression Editor
 ---
+# Expression Editor
 The **Expression Editor** provides the capability for constructing expressions in the [Web Report Designer](../../../../interface-elements-for-web/articles/report-designer.md).
 
 This topic consists of the following section.

@@ -1,6 +1,7 @@
 ---
 title: Ribbon Designer Elements
 ---
+# Ribbon Designer Elements
 This document describes elements that comprise the Ribbon Report Designer.
 
 The following image illustrates a Ribbon Designer.

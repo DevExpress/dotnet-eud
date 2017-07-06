@@ -1,6 +1,7 @@
 ---
 title: Use a Clipboard
 ---
+# Use a Clipboard
 The **Rich Text Editor** allows you to move and copy text and images using the Clipboard.
 
 To move or copy a text or image, follow the steps below.

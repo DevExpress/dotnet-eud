@@ -1,6 +1,7 @@
 ---
 title: Back Up the Current Layout Before Modifying It
 ---
+# Back Up the Current Layout Before Modifying It
 To guarantee that you will be able to revert your report to its original state, you need to create a _backup copy_. Then, you can apply changes without worrying that it will be hard to restore your report, in case something breaks.
 * To save a copy of your report, in the [Main Menu](../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-reference/report-designer-ui/main-menu.md), select **File** | **Save As**.
 	

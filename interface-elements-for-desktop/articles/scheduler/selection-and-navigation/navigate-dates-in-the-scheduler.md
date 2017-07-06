@@ -1,6 +1,7 @@
 ---
 title: Navigate Dates in the Scheduler
 ---
+# Navigate Dates in the Scheduler
 ## Context Menu
 Right-clicking within the main area of the scheduler opens the context menu, which contains items for navigating through dates.
 

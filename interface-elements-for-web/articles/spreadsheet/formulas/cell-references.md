@@ -1,6 +1,7 @@
 ---
 title: Cell References
 ---
+# Cell References
 ###The A1 Reference Style
 
 If you want to change data in a worksheet without changing formulas that use this data for evaluation, you can use **cell references**. A cell reference defines cell location in a worksheet. It is a combination of column letters (**A, B, C,** etc.) and row numbers (**1, 2, 3,** etc.). For example, **A1** refers to a cell at the intersection of column A and row 1.

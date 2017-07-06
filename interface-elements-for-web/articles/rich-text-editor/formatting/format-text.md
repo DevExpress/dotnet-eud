@@ -1,6 +1,7 @@
 ---
 title: Format Text
 ---
+# Format Text
 To format text, first [select it](../../../../interface-elements-for-web/articles/rich-text-editor/text-editing/select-text.md) and then use the **Font** group in the **Home** tab to change the font family, size, color, clear formatting etc.
 
 ![EUD_ASPxRichEdit_Home_FontGroup](../../../images/Img117806.png)

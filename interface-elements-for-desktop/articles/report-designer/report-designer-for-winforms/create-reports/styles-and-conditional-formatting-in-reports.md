@@ -1,6 +1,7 @@
 ---
 title: Styles and Conditional Formatting in Reports
 ---
+# Styles and Conditional Formatting in Reports
 The topics of this section cover appearance-related information about the Report Designer.
 
 This section consists of the following topics.

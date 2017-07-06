@@ -1,6 +1,7 @@
 ---
 title: Downloading Files
 ---
+# Downloading Files
 To download files from the **File Manager**, do the following.
 * Select the files you wish to download.
 	

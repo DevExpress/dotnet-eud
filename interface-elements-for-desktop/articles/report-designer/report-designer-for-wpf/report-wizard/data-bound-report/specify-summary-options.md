@@ -1,6 +1,7 @@
 ---
 title: Specify Summary Options
 ---
+# Specify Summary Options
 This wizard page allows you to specify totals for each data group or for the entire report. The specified totals will be displayed after corresponding groups and in the report footer.
 
 The page displays all available numerical and date-time fields that are not used to group data. You can select desired functions using the check box table.

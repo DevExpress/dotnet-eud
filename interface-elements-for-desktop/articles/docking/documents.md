@@ -1,6 +1,7 @@
 ---
 title: Documents
 ---
+# Documents
 Document objects resemble dock panels and serve the very same goal - to host content within floating or tabbed MDI windows. You can click a document’s caption, and drag this document to dock or undock it in the same manner as dock panels. However, there are certain differences between documents and dock panels.
 
 ## View

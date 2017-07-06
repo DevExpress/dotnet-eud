@@ -1,6 +1,7 @@
 ---
 title: Search Panel
 ---
+# Search Panel
 To filter data and highlight search results, type a filter criterion in the search panel.
 
 ![ASPxCardView_Seraching](../../../images/Img118489.png)

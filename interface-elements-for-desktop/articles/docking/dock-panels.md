@@ -1,6 +1,7 @@
 ---
 title: Dock Panels
 ---
+# Dock Panels
 This topic describes the most common runtime operations for dock panels.
 
 ## Docking Hints

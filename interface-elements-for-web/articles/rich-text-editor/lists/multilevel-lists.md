@@ -1,6 +1,7 @@
 ---
 title: Multilevel Lists
 ---
+# Multilevel Lists
 ## Create a Multilevel List as You Type
 1. In the document, point to the position at which you want to begin your list.
 2. Select the **Home** tab, and click the **Multilevel list** ![EUD_ASPxRichEdit_Home_MultilevelListButton](../../../images/Img117842.png) button in the **Paragraph**  group.

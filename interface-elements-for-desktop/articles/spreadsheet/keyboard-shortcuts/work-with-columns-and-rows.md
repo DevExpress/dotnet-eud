@@ -1,6 +1,7 @@
 ---
 title: Work with Columns and Rows
 ---
+# Work with Columns and Rows
 The key combinations that allow you to display, hide or group columns and rows in a worksheet are listed in the following table.
 
 | Shortcut | Description |

@@ -1,6 +1,7 @@
 ---
 title: Data Explorer
 ---
+# Data Explorer
 This topic describes how to use the **Data Explorer** in Snap.
 
 This topic consists of the following sections.

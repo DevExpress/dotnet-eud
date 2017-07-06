@@ -1,6 +1,7 @@
 ---
 title: Axes Page
 ---
+# Axes Page
 ## Tasks
 * Customize axes properties;
 * Customize the appearance of axis labels;

@@ -1,6 +1,7 @@
 ---
 title: Chart Designer
 ---
+# Chart Designer
 Use the Chart Designer dialog to quickly and easily customize a chart, or create a new one.
 
 ![EndUser_ChartDesigner](../../images/Img118757.png)

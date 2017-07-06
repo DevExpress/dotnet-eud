@@ -1,6 +1,7 @@
 ---
 title: Docking Panel
 ---
+# Docking Panel
 The panel can be docked to the dock zone or can be floated. To switch panel state to docked or back to float mode, double-click the panel's header.
 
 ![ASPxDockingPanel_float](../images/Img16535.png)

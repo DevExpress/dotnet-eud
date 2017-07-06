@@ -1,6 +1,7 @@
 ---
 title: Create an Array Formula
 ---
+# Create an Array Formula
 An **array formula** is a formula that performs calculations on sets of cell ranges, so that you do not need to re-enter formulas for each calculation. Create an array formula and specify the columns or rows that the array formula must fill. Array formulas are used to perform actions on two or more sets of values, which are called arguments. Each array argument must have the same number of rows and columns. The result of an array formula can either be a single value or multiple values.
 
 To create an array formula, do the following.

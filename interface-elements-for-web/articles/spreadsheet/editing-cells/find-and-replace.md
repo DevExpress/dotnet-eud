@@ -1,6 +1,7 @@
 ---
 title: Find and Replace
 ---
+# Find and Replace
 The **Spreadsheet** allows you to search for specific data in the current worksheet. To perform a search, on the **Home** tab, in the **Editing** group, click the **Find** button.
 
 ![EUD_ASPxSpreadsheet_Home_Find](../../../images/Img26056.png)

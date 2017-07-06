@@ -1,6 +1,7 @@
 ---
 title: Data Source Browser
 ---
+# Data Source Browser
 The **Data Source Browser** allows you to navigate through dashboard data sources. It displays the data source structure and allows you to [bind dashboard items](../../../../dashboard-for-desktop/articles/dashboard-designer/binding-dashboard-items-to-data/binding-dashboard-items-to-data.md) to the required data source fields using drag-and-drop operations. The Data Source Browser also enables you to manage [calculated fields](../../../../dashboard-for-desktop/articles/dashboard-designer/working-with-data/creating-calculated-fields.md).
 
 ![UIElements_DataSourceBrowser_Browser](../../../images/Img20675.png)

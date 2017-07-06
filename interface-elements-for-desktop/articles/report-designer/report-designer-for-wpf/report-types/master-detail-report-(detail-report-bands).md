@@ -1,6 +1,7 @@
 ---
 title: Master-Detail Report (Detail Report Bands)
 ---
+# Master-Detail Report (Detail Report Bands)
 This tutorial describes the steps needed to create a _master-detail report_ with hierarchically linked data using the [Detail Report band](../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-wpf/report-elements/report-bands.md). For an alternative approach, refer to [Master-Detail Report (Subreports)](../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-wpf/report-types/master-detail-report-(subreports).md).
 
 To start with this tutorial, [create a new report](../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-wpf/creating-reports/basic-operations/create-a-new-report.md) and [bind it to a data source](../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-wpf/creating-reports/providing-data/binding-a-report-to-data.md). For this tutorial, in the [Report Wizard](../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-wpf/report-wizard.md), select the table that will be used as the principal table in the master-detail relation.

@@ -1,6 +1,7 @@
 ---
 title: Use Mail Merge in Report Elements
 ---
+# Use Mail Merge in Report Elements
 The _mail merge_ feature allows you to combine both [static](../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-editing-basics/add-or-modify-static-information-in-your-report.md) and [dynamic](../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-editing-basics/displaying-values-from-a-database-(binding-report-elements-to-data).md) content within the same [control](../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-reference/report-controls.md) (e.g. to append some text prefix or postfix to a value obtained from a database), or even bind a control to multiple data fields at one time.
 
 Mail merge is available for the following controls.

@@ -1,6 +1,7 @@
 ---
 title: Export a  Document
 ---
+# Export a  Document
 To export a document to one of the supported third-party formats, click the **Export To** button on the Document Viewer toolbar and select a required format from the invoked list. The available formats are PDF, XLS, XLSX, RTF, MHT, HTML, Text, CSV and Image.
 
 ![EUD_HTML5DV_ExportToButton](../../../../images/Img121796.png)

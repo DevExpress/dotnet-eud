@@ -1,6 +1,7 @@
 ---
 title: Converting Dashboard Items
 ---
+# Converting Dashboard Items
 The Web Dashboard provides the capability to convert data-bound dashboard items to another type.
 
 To convert the selected dashboard item to another type, use the dashboard item's [Convert To](../../../dashboard-for-web/articles/web-dashboard-designer-mode/ui-elements/dashboard-item-menu.md) menu.

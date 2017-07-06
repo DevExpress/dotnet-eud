@@ -1,6 +1,7 @@
 ---
 title: Series Page
 ---
+# Series Page
 ## Tasks
 * Create or remove a series of points.
 * Define the series name, visibility and view type.

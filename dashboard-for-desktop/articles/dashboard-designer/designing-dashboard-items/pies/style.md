@@ -1,6 +1,7 @@
 ---
 title: Style
 ---
+# Style
 The **Pie** dashboard item allows you to select whether diagrams should be painted as **pies** or **donuts**.
 
 ![PieStyle_Pie](../../../../images/Img25671.png)![PieStyle_Donut](../../../../images/Img25672.png)

@@ -1,6 +1,7 @@
 ---
 title: Rearrange Bar Commands
 ---
+# Rearrange Bar Commands
 To rearrange bar commands, do the following:
 1. Open the [Customization window](../../../../interface-elements-for-desktop/articles/toolbars-and-menus/layout-customization/open-toolbar-customization-window.md).
 2. Drag a bar command to a new position:

@@ -1,6 +1,7 @@
 ---
 title: Labels
 ---
+# Labels
 The Treemap displays labels that contain descriptions for tiles and groups, and provide tooltips with additional information.
 
 ![wdd-treemap-labels](../../../../images/Img125998.png)

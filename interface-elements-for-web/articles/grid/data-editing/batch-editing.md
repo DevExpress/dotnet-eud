@@ -1,6 +1,7 @@
 ---
 title: Batch Editing
 ---
+# Batch Editing
 The **Grid View** allows you to edit a group of grid records (on a single page) and save these changes with one click. In this view, you can create new rows, delete existing rows and edit individual cell values.
 * To create a new row, click the **New** button and specify the field values.
 * To delete a row, click the **Delete** button within the row to be deleted.

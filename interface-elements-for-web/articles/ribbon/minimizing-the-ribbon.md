@@ -1,6 +1,7 @@
 ---
 title: Minimizing the Ribbon
 ---
+# Minimizing the Ribbon
 To minimize a ribbon, use the **Minimize** button displayed in the top right corner of the ribbon.
 
 ![EUD_Ribbon_MinButton](../../images/Img22686.png)

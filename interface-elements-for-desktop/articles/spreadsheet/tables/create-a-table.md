@@ -1,6 +1,7 @@
 ---
 title: Create a Table
 ---
+# Create a Table
 The **Spreadsheet** allows you to insert a new table in a worksheet, or convert an existing range to a table.
 * [Create a Table](#create)
 * [Convert a Table to a Data Range](#convert)

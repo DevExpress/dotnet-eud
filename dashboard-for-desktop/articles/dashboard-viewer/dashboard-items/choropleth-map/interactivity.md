@@ -1,6 +1,7 @@
 ---
 title: Interactivity
 ---
+# Interactivity
 This document describes the features that enable interaction between the **Choropleth Map** and other dashboard items. These features include **Master Filtering**.
 
 ## Master Filtering

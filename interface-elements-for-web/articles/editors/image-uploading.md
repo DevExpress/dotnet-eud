@@ -1,6 +1,7 @@
 ---
 title: Image Uploading
 ---
+# Image Uploading
 Click the **Upload Image** button to invoke the **File Upload** dialog. In the dialog, select an image to be uploaded and click **Open**.
 
 ![EUD_BinaryImage1](../../images/Img118580.png)

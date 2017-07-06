@@ -1,6 +1,7 @@
 ---
 title: Delete an Appointment
 ---
+# Delete an Appointment
 Use the popup (context) menu to delete an appointment.
 
 First, click within the appointment to select it. Wait a moment. A smart tag will appear shortly:

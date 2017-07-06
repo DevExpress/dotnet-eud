@@ -1,6 +1,7 @@
 ---
 title: Map
 ---
+# Map
 The section describes capabilities provided by the **Map** control. The following topics are available.
 * [Scrolling](../../interface-elements-for-desktop/articles/map/scrolling.md)
 * [Zooming](../../interface-elements-for-desktop/articles/map/zooming.md)

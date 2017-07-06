@@ -1,6 +1,7 @@
 ---
 title: Grid
 ---
+# Grid
 The topics in this section describe the features available in the **Grid** dashboard item, and provide information on how to create and customize grids
 
 ![wdd-dashboard-items-grid](../../../images/Img125122.png)

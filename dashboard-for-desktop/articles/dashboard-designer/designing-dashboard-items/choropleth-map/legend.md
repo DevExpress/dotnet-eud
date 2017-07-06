@@ -1,6 +1,7 @@
 ---
 title: Legend
 ---
+# Legend
 A legend is an element of a map that shows values corresponding to each [color](../../../../../dashboard-for-desktop/articles/dashboard-designer/designing-dashboard-items/choropleth-map/map-coloring.md).
 
 ![ChoroplethMap_Legend](../../../../images/Img22232.png)

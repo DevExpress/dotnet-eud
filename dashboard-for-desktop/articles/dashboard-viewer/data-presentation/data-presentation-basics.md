@@ -1,6 +1,7 @@
 ---
 title: Data Presentation Basics
 ---
+# Data Presentation Basics
 The **Dashboard Viewer** is used to present dashboards in Windows Forms applications. 
 A wide range of dashboard items are used to display visual or textual information.
 

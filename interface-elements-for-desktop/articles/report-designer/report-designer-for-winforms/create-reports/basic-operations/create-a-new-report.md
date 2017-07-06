@@ -1,6 +1,7 @@
 ---
 title: Create a New Report
 ---
+# Create a New Report
 This topic explains how to create a new blank report in the Report Designer. Before you start, make sure to [back up the current report](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-editing-basics/back-up-the-current-layout-before-modifying-it.md).
 
 To create a new report, do one of the following.

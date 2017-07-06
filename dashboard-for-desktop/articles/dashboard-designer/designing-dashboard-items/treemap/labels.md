@@ -1,6 +1,7 @@
 ---
 title: Labels
 ---
+# Labels
 The Treemap displays **labels** that contain descriptions for tiles and [groups](../../../../../dashboard-for-desktop/articles/dashboard-designer/designing-dashboard-items/treemap/grouping.md), and provide **tooltips** with additional information.
 
 ![Treemap_LabelTooltipExample](../../../../images/Img125431.png)

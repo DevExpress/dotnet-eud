@@ -1,6 +1,7 @@
 ---
 title: Hide Fields Using a Field List
 ---
+# Hide Fields Using a Field List
 You can use a simple or an advanced Field List to hide fields (to learn more about Field Lists, see [Field List Overview](../../../../../interface-elements-for-desktop/articles/pivot-table/field-list-overview.md)).
 
 ![EU_XtraPivotGrid_FieldListExcel](../../../../images/Img13517.png)&nbsp;&nbsp;![EU_XtraPivotGrid_CustomizationForm](../../../../images/Img7595.png)

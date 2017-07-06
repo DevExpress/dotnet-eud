@@ -1,6 +1,7 @@
 ---
 title: PDF Viewer
 ---
+# PDF Viewer
 This section describes the capabilities of the **PDF Viewer**.
 
 The PDF Viewer used to displaying PDF files and supports various document content such as text, images, vector graphics, etc.

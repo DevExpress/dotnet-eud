@@ -1,6 +1,7 @@
 ---
 title: Zoom Toolbar
 ---
+# Zoom Toolbar
 The **Zoom Toolbar** allows you to zoom a report in and out, providing easier control over report's layout.
 
 ![RD_Elements_ZoomingToolbar](../../../../../images/Img8261.png)

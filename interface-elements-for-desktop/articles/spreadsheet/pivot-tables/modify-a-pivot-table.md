@@ -1,6 +1,7 @@
 ---
 title: Modify a Pivot Table
 ---
+# Modify a Pivot Table
 The following topic describes how to modify the existing pivot table. Select the task you wish to perform.
 * [Rearrange the PivotTable Fields](#rearrange)
 * [Change the PivotTable Data Source](#datasource)

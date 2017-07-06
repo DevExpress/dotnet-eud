@@ -1,6 +1,7 @@
 ---
 title: Dashboard Item Group
 ---
+# Dashboard Item Group
 DevExpress Dashboard provides the capability to combine dashboard items into a group. The dashboard item group serves two main purposes.
 * Combine dashboard items within the dashboard into a separate [layout group](../../../../dashboard-for-desktop/articles/dashboard-designer/dashboard-layout/dashboard-items-layout.md).
 * Manage [interaction](../../../../dashboard-for-desktop/articles/dashboard-designer/interactivity/master-filtering.md) between dashboard items within and outside the group.

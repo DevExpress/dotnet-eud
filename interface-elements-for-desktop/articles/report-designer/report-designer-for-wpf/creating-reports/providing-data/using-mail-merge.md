@@ -1,6 +1,7 @@
 ---
 title: Using Mail Merge
 ---
+# Using Mail Merge
 The _mail merge_ feature allows you to combine both static and [dynamic](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-wpf/creating-reports/providing-data/binding-report-controls-to-data.md) content within the same [report control](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-wpf/report-elements/report-controls.md). For instance, you can append some text prefix or postfix to a value obtained from a database, or even bind a control to multiple data fields at one time.
 
 Mail merge is available for the following controls.

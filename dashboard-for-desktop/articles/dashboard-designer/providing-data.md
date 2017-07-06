@@ -1,6 +1,7 @@
 ---
 title: Providing Data
 ---
+# Providing Data
 The topics in this section describe how to provide data to be visualized in the dashboard.
 
 This section contains the following topics.

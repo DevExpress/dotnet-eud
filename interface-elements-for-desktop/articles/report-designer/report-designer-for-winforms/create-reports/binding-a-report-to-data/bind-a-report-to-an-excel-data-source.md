@@ -1,6 +1,7 @@
 ---
 title: Bind a Report to an Excel Data Source
 ---
+# Bind a Report to an Excel Data Source
 This document describes the steps required to connect a report to data obtained from a Microsoft Excel workbook.
 
 To bind a report to an Excel data source, do the following.

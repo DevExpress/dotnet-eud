@@ -1,6 +1,7 @@
 ---
 title: Load a Document
 ---
+# Load a Document
 To load a document, select the **File** tab, and click the **Open** button in the **Common** group.
 
 ![EUD_ASPxRichEdit_File_Open](../../../images/Img117754.png)

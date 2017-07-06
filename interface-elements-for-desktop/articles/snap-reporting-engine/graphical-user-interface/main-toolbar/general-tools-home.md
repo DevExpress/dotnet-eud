@@ -1,6 +1,7 @@
 ---
 title: 'General Tools: Home'
 ---
+# General Tools: Home
 The **Home** toolbar contains text formatting and alignment commands.
 
 These commands are divided into the following categories.

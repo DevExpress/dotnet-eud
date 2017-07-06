@@ -1,6 +1,7 @@
 ---
 title: Data-bound Report
 ---
+# Data-bound Report
 Selecting this option on the [Choose a Report Type](../../../../../interface-elements-for-web/articles/report-designer/wizards/report-wizard/choose-a-report-type.md) wizard page will proceed to the Report Wizard that enables you to select the data to display in a report and define the report layout.
 
 ![web-designer-report-type-data-bound](../../../../images/Img125728.png)

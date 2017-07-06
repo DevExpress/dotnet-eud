@@ -1,6 +1,7 @@
 ---
 title: Creating a Dashboard
 ---
+# Creating a Dashboard
 The Web dashboard allows you to embed the user interface required for creating dashboards at runtime.
  
 

@@ -1,6 +1,7 @@
 ---
 title: Report Bands
 ---
+# Report Bands
 The documents in this section details the available kinds of report bands and their settings.
 
 In the Report Designer, a report is built upon _bands_ - sections of varied type and purpose, where [report controls](../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-reference/report-controls.md) are contained. Bands are featured in the [Designer Tab](../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-reference/report-designer-ui/designer-tab.md), solely to represent different sections of a report document (such as detail, report or page header, or footer). They allow you to select exactly where a control should be printed, and how many times.

@@ -1,6 +1,7 @@
 ---
 title: Insert a Picture
 ---
+# Insert a Picture
 The **Spreadsheet** allows you to insert pictures in a worksheet.
 
 You can insert graphics of the following type.

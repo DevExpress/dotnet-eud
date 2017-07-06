@@ -1,6 +1,7 @@
 ---
 title: Point Labels Page
 ---
+# Point Labels Page
 ## Tasks
 * Resolve overlapping of point labels;
 * Customize the appearance of point labels.

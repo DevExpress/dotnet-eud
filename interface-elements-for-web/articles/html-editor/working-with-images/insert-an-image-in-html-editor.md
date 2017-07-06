@@ -1,6 +1,7 @@
 ---
 title: Insert an Image in HTML Editor
 ---
+# Insert an Image in HTML Editor
 This topic describes how to insert an image into an editor's content.
 
 First, position the mouse pointer on the place in the text where you want to add an image and click the **Insert Image** button.

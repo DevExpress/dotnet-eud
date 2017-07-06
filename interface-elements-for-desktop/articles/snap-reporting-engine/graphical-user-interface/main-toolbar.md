@@ -1,6 +1,7 @@
 ---
 title: Main Toolbar
 ---
+# Main Toolbar
 The topics in this section describe all ribbon tab and bar commands available in the [toolbar](../../../../interface-elements-for-desktop/articles/snap-reporting-engine/graphical-user-interface/snap-application-elements/main-toolbar.md) of a Snap application.
 
 After executing a command in a Snap application, the corresponding **field codes** are automatically added to the **document markup**.

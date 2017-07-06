@@ -1,6 +1,7 @@
 ---
 title: Layout Customization
 ---
+# Layout Customization
 This section describes how to change the scheduler layout.
 
 Topics in this section:

@@ -1,6 +1,7 @@
 ---
 title: Dashboard Layout
 ---
+# Dashboard Layout
 This section describes the features related to the Dashboard layout.
 
 The section consists of the following topics.

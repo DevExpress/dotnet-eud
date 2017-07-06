@@ -1,6 +1,7 @@
 ---
 title: Bar Series
 ---
+# Bar Series
 Bar series visualize data using rectangular bars with lengths proportional to the values that they represent.
 
 The following types of Bar series are available.

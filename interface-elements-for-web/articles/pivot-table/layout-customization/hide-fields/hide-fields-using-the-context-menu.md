@@ -1,6 +1,7 @@
 ---
 title: Hide Fields Using the Context Menu
 ---
+# Hide Fields Using the Context Menu
 To hide a field, right-click within its header and select **Hide** within the context menu that opens.
 
 ![ASPxPivotGrid_HideField](../../../../images/Img8930.png)

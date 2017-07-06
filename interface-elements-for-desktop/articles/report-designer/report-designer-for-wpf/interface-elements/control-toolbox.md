@@ -1,6 +1,7 @@
 ---
 title: Control Toolbox
 ---
+# Control Toolbox
 The **Control Toolbox** contains all available [report controls](../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-wpf/report-elements/report-controls.md) and allows end-users to add them to the report being edited. Report controls can display both static and [dynamic](../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-wpf/creating-reports/providing-data/binding-report-controls-to-data.md) information of different kinds (simple or formatted text, pictures, tables, etc.) and adjust a report layout (organize controls within panels, insert page brakes, etc.)
 
 The available report controls can be divided into the following categories.

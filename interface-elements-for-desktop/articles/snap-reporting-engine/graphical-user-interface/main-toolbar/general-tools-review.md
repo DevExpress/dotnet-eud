@@ -1,6 +1,7 @@
 ---
 title: 'General Tools: Review'
 ---
+# General Tools: Review
 The **Review** toolbar contains tools related to proofreading.
 
 The following command is available in the **Proofing** section of this toolbar.

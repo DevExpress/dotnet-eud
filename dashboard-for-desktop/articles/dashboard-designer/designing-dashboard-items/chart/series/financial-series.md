@@ -1,6 +1,7 @@
 ---
 title: Financial Series
 ---
+# Financial Series
 Financial series are used to illustrate stock prices.
 
 The following types of Financial series are available.

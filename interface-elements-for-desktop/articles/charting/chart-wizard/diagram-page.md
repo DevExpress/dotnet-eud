@@ -1,6 +1,7 @@
 ---
 title: Diagram Page
 ---
+# Diagram Page
 ## Tasks
 * Rotate a diagram;
 * Define a diagram's padding;

@@ -1,6 +1,7 @@
 ---
 title: Multilevel Lists
 ---
+# Multilevel Lists
 ## Create a Multilevel List as You Type
 1. Point to the position within a document from which you want to begin your list.
 2. On the **Home** [ tab](../../../../interface-elements-for-desktop/articles/rich-text-editor/text-editor-ui/ribbon-interface.md), in the **Paragraph** group, click the **Multilevel list** ![RichEdit_MultilevelListButton](../../../images/Img12132.png) button.

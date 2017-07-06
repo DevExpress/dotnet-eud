@@ -1,6 +1,7 @@
 ---
 title: Search Panel
 ---
+# Search Panel
 The **Search Panel** allows you to search text and navigate through search results.
 
 To invoke the panel, press the CTRL+F keys.

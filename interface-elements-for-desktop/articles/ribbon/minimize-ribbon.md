@@ -1,6 +1,7 @@
 ---
 title: Minimize Ribbon
 ---
+# Minimize Ribbon
 To minimize the Ribbon, right-click any command and select **Minimize the Ribbon**:
 
 ![EU_Ribbon_Add_to_QAT](../../images/Img9118.png)

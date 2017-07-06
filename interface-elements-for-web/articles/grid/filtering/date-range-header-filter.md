@@ -1,6 +1,7 @@
 ---
 title: Date Range Header Filter
 ---
+# Date Range Header Filter
 For columns containing date and time data, the dropdown displays a date range header filter.
 
 ## Date Range Picker

@@ -1,6 +1,7 @@
 ---
 title: Spreadsheet
 ---
+# Spreadsheet
 This section describes the capabilities provided by the **Spreadsheet**.
 
 ![EUD_ASPxSpreadsheetMainImage](../images/Img25919.png)

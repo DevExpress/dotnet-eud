@@ -1,6 +1,7 @@
 ---
 title: Scheduler 'More' Buttons
 ---
+# Scheduler 'More' Buttons
 The "More"  buttons are used to show more appointments for a particular day by scrolling to the next appointment. They may appear in the **Day View** and **Work-Week View**.
 
 ![VisualElements_MoreButtons](../../../images/Img6720.png)

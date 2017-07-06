@@ -1,6 +1,7 @@
 ---
 title: Data Source Wizard
 ---
+# Data Source Wizard
 The **Data Source Wizard** allows the user to create a new data source, configure it, and if there is more than one data source available, to select the one that is required for a particular task. Once created, the data source configuration will be stored in the XLS/XLSX spreadsheet file, so the user does not have to re-configure the data source again.
 
 To invoke the wizard, click **Add Data Source** in the **External Data Sources** group of the **Mail Merge** tab.

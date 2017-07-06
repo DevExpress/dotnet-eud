@@ -1,6 +1,7 @@
 ---
 title: Field List
 ---
+# Field List
 The **Field List** is intended to display the structure of the data source to which a report is currently bound. This panel can also be used to create new bound report controls, manage [calculated fields](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-editing-basics/add-calculated-fields-to-a-report.md) and [report paramters](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-editing-basics/add-parameters-to-a-report.md).
 
 This document consists of the following sections.

@@ -1,6 +1,7 @@
 ---
 title: UI Elements
 ---
+# UI Elements
 The topics in this section describe the main elements of a **Dashboard Designer** application.
 
 This section consists of the following topics.

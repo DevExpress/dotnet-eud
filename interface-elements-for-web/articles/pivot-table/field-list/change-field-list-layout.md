@@ -1,6 +1,7 @@
 ---
 title: Change Field List Layout
 ---
+# Change Field List Layout
 By default, an advanced Field List displays a hidden fields section on the top, and four sections that correspond to Pivot Table areas at the bottom (see [Field List Overview](../../../../interface-elements-for-web/articles/pivot-table/field-list-overview.md) for details).
 
 ![EU_ExcelFieldList](../../../images/Img15860.png)

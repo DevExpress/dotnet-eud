@@ -1,6 +1,7 @@
 ---
 title: Edit Appointments
 ---
+# Edit Appointments
 You can modify existing appointments in the following ways:
 * [using the appointment context menu](#contextmenu)
 * [using the built-in dialogs](#dialogs)

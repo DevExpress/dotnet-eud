@@ -1,6 +1,7 @@
 ---
 title: Chart
 ---
+# Chart
 The topics in this section describe the features available in the **Chart** dashboard item, and provide information on how to create and customize charts in the Web Dashboard.
 
 ![wdd-dashboard-items-chart](../../../images/Img125118.png)

@@ -1,6 +1,7 @@
 ---
 title: Master Filtering
 ---
+# Master Filtering
 The **Dashboard** allows you to use any data aware dashboard item as a filter for other dashboard items (**Master Filter**). To learn more, see the [Master Filtering](../../../../../../dashboard-for-desktop/articles/dashboard-designer/interactivity/master-filtering.md) topic, which describes filtering concepts common to all dashboard items.
 
 The Chart dashboard item supports filtering by **argument**, **series** or **points**.

@@ -1,6 +1,7 @@
 ---
 title: Connect to an Entity Framework Data Source
 ---
+# Connect to an Entity Framework Data Source
 The topics in this section describe the steps required to connect a report to an Entity Framework data source using the [Report Wizard](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-wizard/data-bound-report.md).
 
 This task includes the following steps.

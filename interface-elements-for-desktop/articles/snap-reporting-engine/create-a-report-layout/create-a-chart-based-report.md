@@ -1,6 +1,7 @@
 ---
 title: Create a Chart-Based Report
 ---
+# Create a Chart-Based Report
 This tutorial describes the steps used to add a chart to your Snap report. Snap supports many chart types, as well as multiple visual appearance settings and chart palettes.
 
 Snap also provides the [Chart Wizard](../../../../interface-elements-for-desktop/articles/charting/chart-wizard.md), which allows you to quickly create and customize complex charts. However, when advanced charting functionality is not required, Snap provides an even easier way to create and customize your charts.

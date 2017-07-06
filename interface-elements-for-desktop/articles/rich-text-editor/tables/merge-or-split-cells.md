@@ -1,6 +1,7 @@
 ---
 title: Merge or Split Cells
 ---
+# Merge or Split Cells
 ## Merge Cells
 1. Select cells that you wish to merge. For example, you can [select multiple cells, a whole row or column](../../../../interface-elements-for-desktop/articles/rich-text-editor/tables/select-a-cell-row-or-column.md).
 2. On the **Table Tools/Layout** [ tab](../../../../interface-elements-for-desktop/articles/rich-text-editor/text-editor-ui/ribbon-interface.md), in the **Merge** group, click the **Merge Cells** button...

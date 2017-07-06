@@ -1,6 +1,7 @@
 ---
 title: Expression Editor
 ---
+# Expression Editor
 The Expression Editor allows you to edit various Boolean or regular expressions in controls:
 
 ![UI_Expression_Editor](../images/Img11049.png)

@@ -1,6 +1,7 @@
 ---
 title: Editor Elements
 ---
+# Editor Elements
 The **Rich Text Editor** consists of visual elements that provide you with the capability to edit and view documents.
 
 ![RTEElementsOverView](../../../images/Img121233.png)

@@ -1,6 +1,7 @@
 ---
 title: Storing Reports
 ---
+# Storing Reports
 Snap provides the capability to store a report to a file and restore it. To retain all Snap-specific features, [save your report](../../../../interface-elements-for-desktop/articles/snap-reporting-engine/manage-documents-and-files/save-a-report.md) in the Snap native document format (**.SNX**). You can also [export your report](../../../../interface-elements-for-desktop/articles/snap-reporting-engine/manage-documents-and-files/export-a-report.md) to one of file formats listed below, but in this case, Snap fields will be replaced with their values and data connection information will be removed.
 
 Supported document formats for export:

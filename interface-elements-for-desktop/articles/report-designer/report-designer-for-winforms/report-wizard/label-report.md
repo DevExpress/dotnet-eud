@@ -1,6 +1,7 @@
 ---
 title: Label Report
 ---
+# Label Report
 This topic describes the steps required to create a **Label Report** using the [Report Wizard](../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-wizard/data-bound-report.md).
 
 ![RD_ReportWizard_Label_0](../../../../images/Img8300.png)

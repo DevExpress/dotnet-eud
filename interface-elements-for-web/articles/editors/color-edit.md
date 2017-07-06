@@ -1,6 +1,7 @@
 ---
 title: Color Edit
 ---
+# Color Edit
 A **Color Edit** is used to specify a color. The editor displays the current color and its hexadecimal value.
 
 ![ColorEdit_Input](../../images/Img22731.png)

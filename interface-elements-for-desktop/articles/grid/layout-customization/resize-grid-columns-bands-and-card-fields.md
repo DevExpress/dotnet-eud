@@ -1,6 +1,7 @@
 ---
 title: Resize Grid Columns, Bands and Card Fields
 ---
+# Resize Grid Columns, Bands and Card Fields
 ## Resize Columns and Bands in Grid Views
 To resize columns and bands, drag the right edge of the target column/band header:
 

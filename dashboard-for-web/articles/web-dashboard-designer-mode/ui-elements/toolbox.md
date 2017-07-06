@@ -1,6 +1,7 @@
 ---
 title: Toolbox
 ---
+# Toolbox
 The **Toolbox** provides access to the dashboard menu, and allows you to add dashboard items, as well as undo or repeat user actions.
 
 The main parts of the Toolbox are listed below.

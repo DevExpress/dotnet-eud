@@ -1,6 +1,7 @@
 ---
 title: Create or Modify Watermarks of a Report
 ---
+# Create or Modify Watermarks of a Report
 This document describes how to add a text _watermark_ in a report, or turn a picture into a report's _background_. Note that watermarks are visible only in the [Preview](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-wpf/document-preview.md) mode.
 
 To create a new watermark in a report (or to modify the existing one), do the following.

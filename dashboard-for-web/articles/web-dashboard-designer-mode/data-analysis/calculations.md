@@ -1,6 +1,7 @@
 ---
 title: Calculations
 ---
+# Calculations
 **Window calculations** provide the capability to apply specific computations to measure values and allow you to perform different analytical tasks such as computing running totals, percentages of totals, differences, etc.
 
 To create a window calculation, invoke the [Bindings](../../../../dashboard-for-web/articles/web-dashboard-designer-mode/ui-elements/dashboard-item-menu.md) menu and click the required measure. In the invoked [Data Item Menu](../../../../dashboard-for-web/articles/web-dashboard-designer-mode/ui-elements/data-item-menu.md), go to **Calculations** and select one of the available calculations.

@@ -1,6 +1,7 @@
 ---
 title: Toolbars
 ---
+# Toolbars
 The **Rich Text** control can be accompanied by a set of toolbars that provide a comprehensive functionality for the **Rich Editor**.
 
 ## Common

@@ -1,6 +1,7 @@
 ---
 title: Export a Report and Save It to the Disk
 ---
+# Export a Report and Save It to the Disk
 To export a document, first choose the required format for export from the list on the report toolbar. The available formats are PDF, XLS, XLSX, RTF, MHT, Text, Image and CSV.
 
 ![web_exportFormat](../../../../images/Img7546.png)

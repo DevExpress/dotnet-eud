@@ -1,6 +1,7 @@
 ---
 title: Adjust the Document View
 ---
+# Adjust the Document View
 This topic describes the features that adjust the view in the PDF Viewer.
 
 The document consists of the following sections.

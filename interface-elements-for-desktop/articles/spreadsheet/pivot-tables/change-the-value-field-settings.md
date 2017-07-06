@@ -1,6 +1,7 @@
 ---
 title: Change the Value Field Settings
 ---
+# Change the Value Field Settings
 By default, when you add a numeric field to the Values area, its data is summarized by the _Sum_ function. For a text field or field containing blank cells, the _Count_ function is used as the default summary function.
 
 However, you can change how summary values are calculated and displayed within the PivotTable report. To do this, follow the steps below.

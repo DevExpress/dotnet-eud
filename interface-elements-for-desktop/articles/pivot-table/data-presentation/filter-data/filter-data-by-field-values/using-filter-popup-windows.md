@@ -1,6 +1,7 @@
 ---
 title: Using Filter Popup Windows
 ---
+# Using Filter Popup Windows
 Depending on the settings made by your application vendor, the Pivot Table can display an individual Filter Window for each field, or an integrated Filter Window for a group of fields.
 
 This topic describes how to filter data using both types of Filter Windows.

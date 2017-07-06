@@ -1,6 +1,7 @@
 ---
 title: Modify a Table in HTML Editor
 ---
+# Modify a Table in HTML Editor
 You can modify a table by changing its properties, adding/deleting a row or column, etc.
 
 ## Changing Table Properties

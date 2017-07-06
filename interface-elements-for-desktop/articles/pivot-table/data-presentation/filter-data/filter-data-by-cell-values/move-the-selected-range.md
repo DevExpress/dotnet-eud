@@ -1,6 +1,7 @@
 ---
 title: Move the Selected Range
 ---
+# Move the Selected Range
 To move a selection, do the following.
 * Drag the selection by any point within it.
 	

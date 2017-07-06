@@ -1,6 +1,7 @@
 ---
 title: Search for a Specific Text
 ---
+# Search for a Specific Text
 To search for a specific text throughout a document, click the **Search** ![EUD_HTML5DV_SearchButton](../../../../images/Img121840.png) button on the right side of the Document Viewer or on the Viewer's toolbar. This switches to the **Search** panel.
 
 ![EUD_HTML5DV_SearchPanel](../../../../images/Img121841.png)

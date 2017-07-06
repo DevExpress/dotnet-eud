@@ -1,6 +1,7 @@
 ---
 title: Display Hidden Pivot Table Fields
 ---
+# Display Hidden Pivot Table Fields
 To display hidden fields, use a simple or advanced Field List  (to learn more about Field Lists, see [Field List Overview](../../../../interface-elements-for-web/articles/pivot-table/field-list-overview.md)).
 
 ![EU_ExcelFieldList](../../../images/Img15860.png)&nbsp;&nbsp;![EU_SimpleFieldList](../../../images/Img15873.png)

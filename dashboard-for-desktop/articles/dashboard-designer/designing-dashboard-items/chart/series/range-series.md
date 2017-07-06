@@ -1,6 +1,7 @@
 ---
 title: Range Series
 ---
+# Range Series
 Range series are generally used to show variations in a specified time range like temperature, price, etc.
 
 The following types of Range series are available.

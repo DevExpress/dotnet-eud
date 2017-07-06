@@ -1,6 +1,7 @@
 ---
 title: Delta Column
 ---
+# Delta Column
 A **delta column** calculates summaries against two measures, and displays the difference between these summaries. This difference can be indicated with a numeric value displayed within the delta element and an additional delta indication.
 
 ![Grid_DeltaColumn](../../../../../images/Img19228.png)

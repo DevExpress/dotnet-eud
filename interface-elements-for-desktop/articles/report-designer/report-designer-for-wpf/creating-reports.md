@@ -1,6 +1,7 @@
 ---
 title: Creating Reports
 ---
+# Creating Reports
 With the Report Designer, you can edit existing reports, as well as create your own reports from scratch. The following sections contain tutorials providing step-by-step instructions on both basic and advanced report customization.
 * [Basic Operations](../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-wpf/creating-reports/basic-operations.md)
 	

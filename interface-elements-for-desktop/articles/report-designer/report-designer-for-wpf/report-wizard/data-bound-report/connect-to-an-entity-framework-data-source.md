@@ -1,6 +1,7 @@
 ---
 title: Connect to an Entity Framework Data Source
 ---
+# Connect to an Entity Framework Data Source
 The topics in this section describe the wizard steps required to connect a report to data provided by an Entity Framework data context. 
 
 This task includes the following steps.

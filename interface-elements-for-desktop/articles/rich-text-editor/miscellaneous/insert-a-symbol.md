@@ -1,6 +1,7 @@
 ---
 title: Insert a Symbol
 ---
+# Insert a Symbol
 The **Rich Text Editor** allows you to insert symbols that are not on your keyboard, such as copyright symbols, trademark symbols, paragraph marks.
 
 To insert a symbol, do the following:

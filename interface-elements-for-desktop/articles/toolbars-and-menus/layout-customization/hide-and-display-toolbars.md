@@ -1,6 +1,7 @@
 ---
 title: Hide and Display Toolbars
 ---
+# Hide and Display Toolbars
 ## Use the Quick Customization Menu
 Right-click any bar, and check or uncheck the required toolbars.
 

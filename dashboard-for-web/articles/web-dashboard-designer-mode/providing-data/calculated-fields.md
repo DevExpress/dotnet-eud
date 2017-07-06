@@ -1,6 +1,7 @@
 ---
 title: Calculated Fields
 ---
+# Calculated Fields
 The Web Dashboard provides the capability to create **calculated fields** that allow you to apply complex expressions to data fields obtained from the dashboard's data source. As a result, you can use these fields in data visualizations as regular data source fields.
 * [Creating a Calculated Field](#create)
 * [Editing a Calculated Field](#edit)

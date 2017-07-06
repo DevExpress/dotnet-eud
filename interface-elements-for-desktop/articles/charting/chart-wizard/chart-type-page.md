@@ -1,6 +1,7 @@
 ---
 title: Chart Type Page
 ---
+# Chart Type Page
 ## Tasks
 * Choose a chart type.
 

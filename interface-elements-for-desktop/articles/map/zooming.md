@@ -1,6 +1,7 @@
 ---
 title: Zooming
 ---
+# Zooming
 The following operations can be performed by end-users to zoom in to or out of a map.
 
 | Action | Example | Effect |

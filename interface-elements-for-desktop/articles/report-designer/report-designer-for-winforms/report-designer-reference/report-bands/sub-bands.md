@@ -1,6 +1,7 @@
 ---
 title: Sub-Bands
 ---
+# Sub-Bands
 The sub-band is a band that provides a functional copy of the source band below which it is located.
 
 ![EUD_RD_SubBands](../../../../../images/Img125033.png)

@@ -1,6 +1,7 @@
 ---
 title: Parameters Panel
 ---
+# Parameters Panel
 The Spreadsheet can be accompanied with the **Parameters** panel. It displays parameters used in a query to retrieve data and allows you to modify them. The following picture illustrates how to specify the order ID for data used in the mail merge template.
 
 ![SpreadsheetControl_MailMerge_ParametersPanel](../../../images/Img25262.png)

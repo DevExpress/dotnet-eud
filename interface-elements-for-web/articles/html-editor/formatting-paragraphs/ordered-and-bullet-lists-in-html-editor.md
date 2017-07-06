@@ -1,6 +1,7 @@
 ---
 title: Ordered and Bullet Lists in HTML Editor
 ---
+# Ordered and Bullet Lists in HTML Editor
 ## Start a New List
 Click a list button on the main toolbar (![ASPxHtmlEditor-Buttons-OrderedList](../../../images/Img7426.png) or ![ASPxHtmlEditor-Buttons-UnsortedList](../../../images/Img7427.png)). Type in the first item, then press ENTER to create another item.
 

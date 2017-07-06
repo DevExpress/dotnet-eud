@@ -1,6 +1,7 @@
 ---
 title: Wrap Text and Merge Cells
 ---
+# Wrap Text and Merge Cells
 If text is too long to be displayed in a single cell, the **Spreadsheet** allows you to wrap the text to make it display on multiple lines in the cell, or merge cells to combine two or more adjacent cells into a single larger/longer cell.
 
 ## Merging Cells

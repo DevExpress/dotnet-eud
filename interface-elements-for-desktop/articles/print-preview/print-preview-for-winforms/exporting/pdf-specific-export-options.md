@@ -1,6 +1,7 @@
 ---
 title: PDF-Specific Export Options
 ---
+# PDF-Specific Export Options
 When [exporting a document](../../../../../interface-elements-for-desktop/articles/print-preview/print-preview-for-winforms/exporting/exporting-from-print-preview.md), you can define PDF-specific exporting options using the following dialog.
 
 ![previewExportOptionsPDF](../../../../images/Img7320.png)

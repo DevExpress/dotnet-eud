@@ -1,6 +1,7 @@
 ---
 title: Legend
 ---
+# Legend
 A legend is an element of a chart that identifies chart series and series points.
 
 ![wdd-chart-legend](../../../../images/Img125083.png)

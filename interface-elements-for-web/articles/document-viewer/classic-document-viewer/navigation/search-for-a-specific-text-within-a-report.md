@@ -1,6 +1,7 @@
 ---
 title: Search for a Specific Text within a Report
 ---
+# Search for a Specific Text within a Report
 To locate specific text within a report, click the **Display the search window** ![web_buttonFind](../../../../images/Img7538.png) button on the toolbar. This will activate the Search dialog.
 
 ![web_searchDialog](../../../../images/Img7543.png)

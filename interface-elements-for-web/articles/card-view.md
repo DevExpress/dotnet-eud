@@ -1,6 +1,7 @@
 ---
 title: Card View
 ---
+# Card View
 This section describes the capabilities provided by the Card View control, which represents data in cards, supports data editing, sorting, filtering, summary calculation, and many other features.
 
 ![ASPxCardView-MainImg](../images/Img118478.png)

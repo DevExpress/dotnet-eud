@@ -1,6 +1,7 @@
 ---
 title: Query Builder
 ---
+# Query Builder
 The **Query Builder** provides a visual interface for constructing SQL queries and enables you to solve a variety of tasks.
 
 ![wpf-designer-query-builder](../../../../images/Img126699.png)

@@ -1,6 +1,7 @@
 ---
 title: 'Data Tools: Appearance'
 ---
+# Data Tools: Appearance
 This **Appearance** toolbar contains predefined report styles. After selecting a style, it is applied to all  Snap Lists throughout the document.
 
 The following command is available in the **Report Themes** section of this toolbar.

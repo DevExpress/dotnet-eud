@@ -1,6 +1,7 @@
 ---
 title: Table Report
 ---
+# Table Report
 This tutorial describes the steps to create a _table report_, which means that the report's data is arranged into a table-like layout. This feature should not be confused with the [master-detail report](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/create-reports/report-types/master-detail-report.md) or [cross-tab report](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/create-reports/report-types/cross-tab-report.md).
 
 To create a table report, follow the steps below.

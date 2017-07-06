@@ -1,6 +1,7 @@
 ---
 title: Using the Search Panel
 ---
+# Using the Search Panel
 This document explains how to use a search panel in the **Map** control.
 
 The **Search Panel** is a UI element that accepts text input and displays the results of a search request returned by the search service.

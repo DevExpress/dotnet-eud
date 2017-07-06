@@ -1,6 +1,7 @@
 ---
 title: Selection and Navigation in Tree List
 ---
+# Selection and Navigation in Tree List
 ## Navigation
 To switch between pages, use the embedded Pager.
 

@@ -1,6 +1,7 @@
 ---
 title: PDF-Specific Export Options
 ---
+# PDF-Specific Export Options
 When [exporting a document](../../../../../interface-elements-for-desktop/articles/print-preview/print-preview-for-wpf/exporting/exporting.md), you can define the following PDF-specific export options.
 
 ![EUD_WpfPrintPreview_PdfExportOptions](../../../../images/Img124157.png)

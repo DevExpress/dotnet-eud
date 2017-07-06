@@ -1,6 +1,7 @@
 ---
 title: Connect a Document to a Data Source
 ---
+# Connect a Document to a Data Source
 This tutorial describes the steps required to connect a Snap document to data by using the **Data Source Wizard** and [Query Builder](../../../../interface-elements-for-desktop/articles/snap-reporting-engine/connect-to-data/use-the-query-builder.md).
 1. Click **Data** | **Add New Data Source** on the Snap application's ribbon toolbar.
 	

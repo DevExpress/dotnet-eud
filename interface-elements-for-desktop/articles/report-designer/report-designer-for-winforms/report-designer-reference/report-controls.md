@@ -1,6 +1,7 @@
 ---
 title: Report Controls
 ---
+# Report Controls
 The documents in this section describe options of each report control available in the Report Designer.
 
 In general, _report controls_ allow you to represent information of different kinds (e.g. simple or formatted text, pictures, tables, etc.) in you report both [static](../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-editing-basics/add-or-modify-static-information-in-your-report.md) and [dynamic](../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-editing-basics/displaying-values-from-a-database-(binding-report-elements-to-data).md), and to adjust your report's layout (by organizing controls within panels, and inserting page breaks at the required positions).

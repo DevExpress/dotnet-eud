@@ -1,6 +1,7 @@
 ---
 title: Conditionally Hide Bands
 ---
+# Conditionally Hide Bands
 This tutorial describes how to hide bands if a certain logical condition is met. Note that no [scripts](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/create-reports/miscellaneous/handle-events-via-scripts.md) are required to accomplish this task.
 
 To demonstrate this feature, we'll use a report with grouping, similar to the one created in the following tutorial: [Change or Apply Data Grouping to a Report](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-editing-basics/change-or-apply-data-grouping-to-a-report.md).

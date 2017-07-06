@@ -1,6 +1,7 @@
 ---
 title: Save a Document
 ---
+# Save a Document
 To save a document, on the **File** [ tab](../../../../interface-elements-for-desktop/articles/rich-text-editor/text-editor-ui/ribbon-interface.md), in the **Common** group, click the **Save** button or use the **CTRL+S** keyboard shortcut. This allows you to save a document using the save parameters that were previously set.
 
 If you want to save a document using another file name or to modify other parameters (e.g. file format or location), on the **File** [ tab](../../../../interface-elements-for-desktop/articles/rich-text-editor/text-editor-ui/ribbon-interface.md), in the **Common** group, click the **Save As** button or press the **F12** key.

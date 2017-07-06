@@ -1,6 +1,7 @@
 ---
 title: Create a Combined Report Layout
 ---
+# Create a Combined Report Layout
 Snap allows you to create a single combined report, incorporating features of different report layout types. There is no limits on how many reports you can combine.
 
 In this tutorial, we will create a combined report that uses the features of mail-merge and chart-based reports.

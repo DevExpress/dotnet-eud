@@ -1,6 +1,7 @@
 ---
 title: Insert a Hyperlink
 ---
+# Insert a Hyperlink
 The **Hyperlink** marks the document range as a hot spot in the document. It can be activated by clicking or pressing **ENTER** to navigate the specified external URL.
 
 To create a new hyperlink, select a range to mark and click the **Hyperlink** button in the **Links** group in the **Insert** tab...

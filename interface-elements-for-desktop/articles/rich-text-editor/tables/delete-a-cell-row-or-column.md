@@ -1,6 +1,7 @@
 ---
 title: Delete a Cell, Row or Column
 ---
+# Delete a Cell, Row or Column
 ## Delete a Cell
 1. Click a cell to be deleted and then on the **Table Tools/Layout** [ tab](../../../../interface-elements-for-desktop/articles/rich-text-editor/text-editor-ui/ribbon-interface.md), in the **Rows &amp; Columns** group, click the **Delete** button and select **Delete Cells** from the invoked list...
 	

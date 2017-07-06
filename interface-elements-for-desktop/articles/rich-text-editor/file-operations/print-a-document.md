@@ -1,6 +1,7 @@
 ---
 title: Print a Document
 ---
+# Print a Document
 ## Preview a Document Before Printing
 To display the document as it will look when printed, on the **File** [ tab](../../../../interface-elements-for-desktop/articles/rich-text-editor/text-editor-ui/ribbon-interface.md), in the **Common** group, click the **Print Preview** button.
 

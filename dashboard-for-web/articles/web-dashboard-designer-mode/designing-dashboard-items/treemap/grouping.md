@@ -1,6 +1,7 @@
 ---
 title: Grouping
 ---
+# Grouping
 If you use several arguments in the Treemap, you can group tiles corresponding to child values by parent values. For example, the following Treemap dashboard item displays combinations of categories and sub-categories.
 
 ![wdd-treemap-ungroupped](../../../../images/Img125968.png)

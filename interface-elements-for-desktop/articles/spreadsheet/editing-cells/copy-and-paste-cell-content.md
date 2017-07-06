@@ -1,6 +1,7 @@
 ---
 title: Copy and Paste Cell Content
 ---
+# Copy and Paste Cell Content
 The **Spreadsheet** allows you to copy and paste entire cells, or only their contents, using the Clipboard.
 
 To move or copy cell content, follow the steps below.

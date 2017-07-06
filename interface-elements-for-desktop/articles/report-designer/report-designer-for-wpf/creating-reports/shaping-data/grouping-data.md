@@ -1,6 +1,7 @@
 ---
 title: Grouping Data
 ---
+# Grouping Data
 This document demonstrates how to group report data. Grouping allows you to split data into groups based on identical values in a field or fields. Note that data grouping can be performed only if a report is [bound to a data source](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-wpf/creating-reports/providing-data/binding-a-report-to-data.md).
 
 To group records in a report, do the following.

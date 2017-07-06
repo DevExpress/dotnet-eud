@@ -1,6 +1,7 @@
 ---
 title: Filtering Options
 ---
+# Filtering Options
 The Pivot Table allows you to customize its filtering mechanism according to your needs.
 
 If the corresponding functionality is enabled by your application vendor, Filter Windows display toolbars where you can access various filtering options.

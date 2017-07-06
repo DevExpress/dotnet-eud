@@ -1,6 +1,7 @@
 ---
 title: Sorting Data
 ---
+# Sorting Data
 This document demonstrates how to sort report data. Note that as with data grouping, sorting can be performed only if a report is [bound to a data source](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-wpf/creating-reports/providing-data/binding-a-report-to-data.md). This example uses the report created in the following tutorial: [Grouping Data](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-wpf/creating-reports/shaping-data/grouping-data.md).
 
 To sort records in a data-aware report, do the following.

@@ -1,6 +1,7 @@
 ---
 title: Data-bound Report
 ---
+# Data-bound Report
 The **Report Wizard** allows you to create three kinds of reports : [empty reports](../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-wpf/report-wizard/empty-report.md), **data-bound reports** and [label reports](../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-wpf/report-wizard/label-report.md). To create a data-bound report and generate its layout, select **Databound Report**.
 
 ![WPDDesigner_ReportWizard_Databound](../../../../images/Img121983.png)

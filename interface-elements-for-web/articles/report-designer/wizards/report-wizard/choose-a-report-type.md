@@ -1,6 +1,7 @@
 ---
 title: Choose a Report Type
 ---
+# Choose a Report Type
 On this wizard page, you can choose the kind of a report you want to create.
 
 ![web-designer-wizard-choose-report-type](../../../../images/Img125723.png)

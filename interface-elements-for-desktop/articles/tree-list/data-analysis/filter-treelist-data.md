@@ -1,6 +1,7 @@
 ---
 title: Filter TreeList Data
 ---
+# Filter TreeList Data
 ## Invoking the Filter Dropdown List
 Hover over the column header and click the filter button ![EUDTreeListColumnFilterButton](../../../images/Img25850.png) that appears.
 

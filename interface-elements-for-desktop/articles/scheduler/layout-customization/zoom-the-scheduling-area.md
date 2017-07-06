@@ -1,6 +1,7 @@
 ---
 title: Zoom the Scheduling Area
 ---
+# Zoom the Scheduling Area
 You can zoom in the scheduler view to display its content in greater detail, or zoom out for a more general view. Zooming is implemented by adjusting the time scales (in the Day, Work-Week or Timeline [views](../../../../interface-elements-for-desktop/articles/scheduler/layout-customization/switch-scheduler-views.md)) or changing the number of visible weeks (in the Month view).
 
 | Zooming in | Zooming out |

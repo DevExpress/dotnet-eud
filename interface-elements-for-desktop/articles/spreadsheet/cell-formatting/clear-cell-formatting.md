@@ -1,6 +1,7 @@
 ---
 title: Clear Cell Formatting
 ---
+# Clear Cell Formatting
 To remove all formatting from cells, do one of the following.
 1. In the **Editing** group within the **Home** tab, click the **Clear** button, and select **Clear Formats** from the drop-down menu.
 	

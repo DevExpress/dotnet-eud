@@ -1,6 +1,7 @@
 ---
 title: Hide and Display Grid Columns, Bands and Card Fields
 ---
+# Hide and Display Grid Columns, Bands and Card Fields
 ## Hide Columns/Bands in Grid Views
 Do one of the following:
 * Click a column header/band header and drag it onto the grid control's cell area, until the cursor changes its image to a big 'X'. Then drop the header.

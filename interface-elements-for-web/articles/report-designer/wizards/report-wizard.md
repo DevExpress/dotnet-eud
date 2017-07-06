@@ -1,6 +1,7 @@
 ---
 title: Report Wizard
 ---
+# Report Wizard
 The **Report Wizard** is a tool that allows you to easily create reports based on built-in templates and generate their layout from scratch. Using this tool, you can do the following.
 * **Create a new report from scratch**
 	

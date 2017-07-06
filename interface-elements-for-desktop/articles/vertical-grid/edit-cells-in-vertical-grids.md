@@ -1,6 +1,7 @@
 ---
 title: Edit Cells in Vertical Grids
 ---
+# Edit Cells in Vertical Grids
 ## Activate Cell Editor
 Do one of the following:
 * Click a cell.

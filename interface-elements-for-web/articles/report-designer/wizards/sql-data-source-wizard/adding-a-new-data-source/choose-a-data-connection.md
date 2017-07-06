@@ -1,6 +1,7 @@
 ---
 title: Choose a Data Connection
 ---
+# Choose a Data Connection
 On this wizard page, you are required to select a data connection that provides necessary information to connect to a database.
 
 ![web-designer-report-wizard-01-choose-data-connection](../../../../../images/Img125707.png)

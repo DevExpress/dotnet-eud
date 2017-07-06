@@ -1,6 +1,7 @@
 ---
 title: Annotations Page
 ---
+# Annotations Page
 ## Tasks
 * Create and customize image and text annotations.
 

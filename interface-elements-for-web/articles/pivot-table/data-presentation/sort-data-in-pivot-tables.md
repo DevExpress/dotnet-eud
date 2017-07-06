@@ -1,6 +1,7 @@
 ---
 title: Sort Data in Pivot Tables
 ---
+# Sort Data in Pivot Tables
 This section describes the Pivot Table capabilities used to sort its data by field and summary values.
 
 Topics in this section:

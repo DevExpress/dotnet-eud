@@ -1,6 +1,7 @@
 ---
 title: Editing Text
 ---
+# Editing Text
 To edit the text within the Text Box, click the **Edit** button in the ribbon's **Design** tab or use the corresponding item in the context menu.
 
 ![Text_EditText](../../../../images/Img20224.png)

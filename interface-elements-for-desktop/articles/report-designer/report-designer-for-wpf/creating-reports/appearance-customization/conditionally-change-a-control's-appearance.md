@@ -1,6 +1,7 @@
 ---
 title: Conditionally Change a Control's Appearance
 ---
+# Conditionally Change a Control's Appearance
 This tutorial describes how to conditionally change a control's appearance (e.g., make a [Label](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-wpf/report-elements/report-controls.md)'s text red if its value exceeds a certain threshold). Thanks to the _formatting rules_ feature, no [scripts](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-wpf/creating-reports/scripting.md) are required to complete this task, so you should not have to write any code.
 
 To conditionally change a control's appearance, do the following.

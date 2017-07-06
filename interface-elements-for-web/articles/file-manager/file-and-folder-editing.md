@@ -1,6 +1,7 @@
 ---
 title: File and Folder Editing
 ---
+# File and Folder Editing
 ## Create a Folder
 To create a new folder:
 * Select the folder in which you wish to create a child folder.

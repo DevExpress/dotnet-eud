@@ -1,6 +1,7 @@
 ---
 title: Splitter
 ---
+# Splitter
 **Splitter** is used to separate the content of a web page into several resizable panes.
 
 ![ASPxSplitter-MainPage](../images/Img11164.png)

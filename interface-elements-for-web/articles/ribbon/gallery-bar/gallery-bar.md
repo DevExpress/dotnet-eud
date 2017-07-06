@@ -1,6 +1,7 @@
 ---
 title: Gallery Bar
 ---
+# Gallery Bar
 The **Gallery Bar** provides a gallery of items that you can select by clicking them.
 
 ![ASPxRibbon_GalleryBarItem](../../../images/Img118290.png)

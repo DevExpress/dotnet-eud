@@ -1,6 +1,7 @@
 ---
 title: Providing Data
 ---
+# Providing Data
 The **Web Dashboard** allows you to bind various dashboard items to data in a virtually uniform manner. To learn more, see the [Binding Dashboard Items to Data](../../../../../dashboard-for-web/articles/web-dashboard-designer-mode/binding-dashboard-items-to-data.md) topic.
 
 The only difference is in the data sections that the required dashboard item has. This topic describes how to bind a **Treemap** dashboard item to data.

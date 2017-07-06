@@ -1,6 +1,7 @@
 ---
 title: Expand and Collapse Groups in Pivot Tables
 ---
+# Expand and Collapse Groups in Pivot Tables
 ## Expand/Collapse Groups of Values
 To expand/collapse groups of values, do one of the following:
 * Click a corresponding expand button:

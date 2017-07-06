@@ -1,6 +1,7 @@
 ---
 title: Label
 ---
+# Label
 The most basic **Label** control is intended to display text in your report. It can represent [static](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-editing-basics/add-or-modify-static-information-in-your-report.md) or [dynamic](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-editing-basics/displaying-values-from-a-database-(binding-report-elements-to-data).md) text, or [both](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-editing-basics/use-mail-merge-in-report-elements.md). In addition, it can be used to calculate standard summary functions across a data field. The Label's text can only be formatted as a whole. So, if it's required to differently format parts of text, use the [Rich Text](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-reference/report-controls/rich-text.md) control.
 
 ![RD_Controls_Label_0](../../../../../images/Img8286.png)

@@ -1,6 +1,7 @@
 ---
 title: Filtering Grid Data
 ---
+# Filtering Grid Data
 To filter data or change the filter conditions in the grid, use one of the following.
 
 **Filter Buttons**

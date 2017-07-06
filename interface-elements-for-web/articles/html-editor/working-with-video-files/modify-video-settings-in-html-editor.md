@@ -1,6 +1,7 @@
 ---
 title: Modify Video Settings in HTML Editor
 ---
+# Modify Video Settings in HTML Editor
 To modify video element settings within editor content, do one of the following.
 * Double-click the video element.
 * Right-click the video element and select **Change Video...** within the invoked context menu.

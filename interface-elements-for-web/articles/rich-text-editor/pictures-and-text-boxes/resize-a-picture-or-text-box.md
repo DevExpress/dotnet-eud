@@ -1,6 +1,7 @@
 ---
 title: Resize a Picture or Text Box
 ---
+# Resize a Picture or Text Box
 To resize a picture or text box, shrink or stretch an object in the following way.
 1. [Select](../../../../interface-elements-for-web/articles/rich-text-editor/pictures-and-text-boxes/insert-select-copy-or-delete-a-picture-or-text-box.md) a floating picture or text box to be resized.
 2. Drag a _sizing handle_ towards or away from the object center until the required size is reached. Note that an object keeps its proportions during resizing.

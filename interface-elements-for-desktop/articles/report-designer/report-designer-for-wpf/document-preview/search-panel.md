@@ -1,6 +1,7 @@
 ---
 title: Search Panel
 ---
+# Search Panel
 The **Search** panel allows you to find specific text throughout a report document.
 
 ![WPFDesigner_SearchPanel](../../../../images/Img120301.png)

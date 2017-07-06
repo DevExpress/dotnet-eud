@@ -1,6 +1,7 @@
 ---
 title: Insert a Flash Into HTML Editor
 ---
+# Insert a Flash Into HTML Editor
 This topic describes how to insert a flash into an editor's content.
 
 First, position the mouse pointer on the place in the text where you want to add a flash and click the **Insert Flash** button.

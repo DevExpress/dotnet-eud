@@ -1,6 +1,7 @@
 ---
 title: Navigation inside Worksheets
 ---
+# Navigation inside Worksheets
 The key combinations that allow you to navigate through a worksheet are listed in the table below.
 
 | Shortcut | Description |

@@ -1,6 +1,7 @@
 ---
 title: Configure Query Parameters
 ---
+# Configure Query Parameters
 This page is displayed if any custom queries and/or parameterized stored procedures were selected on the [previous wizard page](../../../../../../interface-elements-for-web/articles/report-designer/wizards/sql-data-source-wizard/adding-a-new-data-source/create-a-query-or-select-a-stored-procedure.md).
 
 On this page, you can manage parameters that are used in queries and/or stored procedures and specify parameter values.

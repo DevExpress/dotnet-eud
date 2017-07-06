@@ -1,6 +1,7 @@
 ---
 title: Document Map Panel
 ---
+# Document Map Panel
 The **Document Map** panel is an interactive table of contents, which reflects a report's structure in a tree-like form and provides quick navigation through its [bookmarks](../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-wpf/creating-reports/report-navigation-and-interactivity/add-bookmarks.md).
 
 ![WPFDesigner_DocumentMapPanel](../../../../images/Img120299.png)

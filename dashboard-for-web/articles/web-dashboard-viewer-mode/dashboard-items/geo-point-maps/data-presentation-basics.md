@@ -1,6 +1,7 @@
 ---
 title: Data Presentation Basics
 ---
+# Data Presentation Basics
 The Web Dashboard supports three types of **Geo Point** maps.
 * The **Geo Point Map** dashboard item places callouts on the map using geographical coordinates.
 	

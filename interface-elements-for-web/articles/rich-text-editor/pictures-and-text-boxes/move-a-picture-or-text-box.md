@@ -1,6 +1,7 @@
 ---
 title: Move a Picture or Text Box
 ---
+# Move a Picture or Text Box
 ## Move a Picture or Text Box
 1. [Select](../../../../interface-elements-for-web/articles/rich-text-editor/pictures-and-text-boxes/insert-select-copy-or-delete-a-picture-or-text-box.md) a floating picture or text box that you wish to move.
 2. Drag the object to the new location.

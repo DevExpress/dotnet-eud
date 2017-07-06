@@ -1,6 +1,7 @@
 ---
 title: HTML5 Document Viewer
 ---
+# HTML5 Document Viewer
 The documents in this section provide information on the capabilities of the **Web Document Viewer**, which is based on the HTML5/JS technology and is used to display an interactive document preview on web pages.
 
 This Viewer provides a toolbar that contains commands related to document viewing, navigating, exporting and printing. It also provides the **Document Map** for navigating throughout a document using bookmarks, the **Parameters** panel for editing report parameters, the **Export Options** panel for viewing and editing format-specific options, and the **Search** panel for locating required data.

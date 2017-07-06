@@ -1,6 +1,7 @@
 ---
 title: Invoke a Summary Filter Window
 ---
+# Invoke a Summary Filter Window
 To enable and configure filtering by cell values, use the Summary Filter Window.
 
 You can invoke a Summary Filter Window from the Pivot Table or from a Field List (to learn about Field Lists, see [Field List Overview](../../../../../../interface-elements-for-desktop/articles/pivot-table/field-list-overview.md)).

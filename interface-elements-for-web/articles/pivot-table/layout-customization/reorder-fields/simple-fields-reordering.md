@@ -1,6 +1,7 @@
 ---
 title: Simple Fields Reordering
 ---
+# Simple Fields Reordering
 To move a field to another position, use drag-and-drop.
 
 ![ASPxPivotGrid_ReorderFields](../../../../images/Img8929.gif)

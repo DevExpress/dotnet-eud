@@ -1,6 +1,7 @@
 ---
 title: Requesting Parameter Values
 ---
+# Requesting Parameter Values
 The Web Dashboard provides a built-in **Dashboard Parameters** dialog, which provides the capability to change dashboard parameter values. This dialog is created automatically, depending on the parameter type and visibility settings.
 
 ![Parameters_DashboardParametersDialog_Web](../../../../images/Img21818.png)

@@ -1,6 +1,7 @@
 ---
 title: Report Designer for WinForms
 ---
+# Report Designer for WinForms
 This guide contains information about the basic principles of creating reports with Report Designer.
 
 The Report Designer allows you to create new reports from scratch, bind them to data, and even pass them to another workstation and load them into another instance of the report designer. In addition to report editing capabilities, it allows you to display its Print Preview and send its output to a printer or export it to a file on disk.

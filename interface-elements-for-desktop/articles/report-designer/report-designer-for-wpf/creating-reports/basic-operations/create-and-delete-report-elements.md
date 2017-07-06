@@ -1,6 +1,7 @@
 ---
 title: Create and Delete Report Elements
 ---
+# Create and Delete Report Elements
 This document describes how to add and delete [report controls](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-wpf/report-elements/report-controls.md) and [bands](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-wpf/report-elements/report-bands.md) in the Report Designer.
 
 The topic consists of the following sections.

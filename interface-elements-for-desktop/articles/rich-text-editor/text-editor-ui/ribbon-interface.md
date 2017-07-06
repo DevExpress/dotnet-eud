@@ -1,6 +1,7 @@
 ---
 title: Ribbon Interface
 ---
+# Ribbon Interface
 The comprehensive functionality for the **Rich Text** control can be provided via set of Ribbon tabbed pages. Ribbon pages are structurally and visually split into logical groups. Each of these groups includes commands that have some common features.
 
 ## File

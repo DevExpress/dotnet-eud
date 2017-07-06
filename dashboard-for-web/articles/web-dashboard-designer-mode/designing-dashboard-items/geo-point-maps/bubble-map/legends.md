@@ -1,6 +1,7 @@
 ---
 title: Legends
 ---
+# Legends
 The Bubble Map provides two types of legends used to identify map objects - **color** and **weighted** legends.
 
 ## Color Legend

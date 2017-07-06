@@ -1,6 +1,7 @@
 ---
 title: Subreport
 ---
+# Subreport
 The **Subreport** control allows you to include other reports in your current report.
 
 There are several reasons for using subreports. The first one is to _reuse_ reports. This can be of help if there is a particular report structure (_template_) that has to be included in all reports, and the report must have consistent appearance and functionality. A good example is a report header that contains the company information, logo, date, etc. The second reason for using subreports is creation of _master-detail_ reports (or, _invoice_ reports with hierarchically linked data).

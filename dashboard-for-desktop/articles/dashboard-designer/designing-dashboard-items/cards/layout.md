@@ -1,6 +1,7 @@
 ---
 title: Layout
 ---
+# Layout
 The Card dashboard item allows you to manage the position and visibility of elements displayed on cards. These elements include actual and target values, a [delta indicator and corresponding delta values](../../../../../dashboard-for-desktop/articles/dashboard-designer/designing-dashboard-items/cards/delta.md), a [sparkline](../../../../../dashboard-for-desktop/articles/dashboard-designer/designing-dashboard-items/cards/sparkline.md), etc.
 
 To manage the position and visibility of card elements, choose a predefined layout template and customize its settings.

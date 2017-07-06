@@ -1,6 +1,7 @@
 ---
 title: Simple Fields Reordering
 ---
+# Simple Fields Reordering
 To move a field to another position, use drag-and-drop operations.
 
 ![XtraPivotGrid_DnD](../../../../images/Img13526.gif)

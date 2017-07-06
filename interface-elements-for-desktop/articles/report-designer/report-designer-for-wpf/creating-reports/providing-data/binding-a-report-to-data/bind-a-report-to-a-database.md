@@ -1,6 +1,7 @@
 ---
 title: Bind a Report to a Database
 ---
+# Bind a Report to a Database
 This document describes the steps required to connect a report to a database.
 
 To bind a report to a database, do the following.

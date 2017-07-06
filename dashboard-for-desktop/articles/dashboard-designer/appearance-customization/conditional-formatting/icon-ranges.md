@@ -1,6 +1,7 @@
 ---
 title: Icon Ranges
 ---
+# Icon Ranges
 Icon Ranges allow you to use predefined or custom sets of icons to apply conditional formatting to different ranges of values.
 
 To format values according the required condition, click the data item menu button, select **Add Format Rule | Icon Ranges** and choose the required icon set.

@@ -1,6 +1,7 @@
 ---
 title: Rating
 ---
+# Rating
 The **Rating** allows you to vote for the content.
 
 To vote, select the desired number of stars.

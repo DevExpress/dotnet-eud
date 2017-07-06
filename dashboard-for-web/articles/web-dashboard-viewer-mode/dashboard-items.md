@@ -1,6 +1,7 @@
 ---
 title: Dashboard Items
 ---
+# Dashboard Items
 **DevExpress Dashboard** provides a number of visualization elements (**dashboard items**) designed to effectively present visual or textual information in a dashboard.
 
 This section describes the available dashboard items.

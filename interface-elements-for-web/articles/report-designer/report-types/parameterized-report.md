@@ -1,6 +1,7 @@
 ---
 title: Parameterized Report
 ---
+# Parameterized Report
 This tutorial describes the steps to create a report with parameters. In this example, we will create two date-time parameters to filter out orders that don't fall in the specified range from the report.
 
 To add parameters and filter your report based on their values, follow the steps below.

@@ -1,6 +1,7 @@
 ---
 title: Change Print Settings Using the Page Setup Dialog
 ---
+# Change Print Settings Using the Page Setup Dialog
 To invoke the **Page Setup** dialog, click the **Page Setup...** ![WPFDesigner_PreviewToolbar_PageSetup](../../../../images/Img120174.png) button on the Print Preview's toolbar.
 
 ![EUD_WpfPrintPreview_PageSetupDialog](../../../../images/Img124038.png)

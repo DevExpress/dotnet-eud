@@ -1,6 +1,7 @@
 ---
 title: Add a Cross-Reference
 ---
+# Add a Cross-Reference
 This tutorial demonstrates how to add a _cross-reference_ to your report. A cross-reference is a link whose target is located within the current document and which allows you to establish easy navigation through a report. In this example, a link is placed at the bottom of each group, leading to the beginning of the report.
 
 To demonstrate this feature, use a report with grouping similar to the one created in the following tutorial: [Grouping Data](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-wpf/creating-reports/shaping-data/grouping-data.md).

@@ -1,6 +1,7 @@
 ---
 title: Add, Change or Delete a Border for a Picture or Text Box
 ---
+# Add, Change or Delete a Border for a Picture or Text Box
 You can specify the [color](#bordercolor) and [weight](#borderweight) of the outside border of a [floating picture](../../../../interface-elements-for-desktop/articles/rich-text-editor/pictures-and-text-boxes/insert-a-picture.md) or [text box](../../../../interface-elements-for-desktop/articles/rich-text-editor/pictures-and-text-boxes/insert-select-copy-or-delete-a-text-box.md), or fully [delete](#removeborder) the border.
 
 ## <a name="bordercolor"/>Set the Color of a Picture or Text Box Border

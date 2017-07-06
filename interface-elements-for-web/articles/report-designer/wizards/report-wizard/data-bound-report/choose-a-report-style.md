@@ -1,6 +1,7 @@
 ---
 title: Choose a Report Style
 ---
+# Choose a Report Style
 On this page, you can specify a visual style for the for the report.
 
 ![web-report-designer-wizard-choose-report-style](../../../../../images/Img24822.png)

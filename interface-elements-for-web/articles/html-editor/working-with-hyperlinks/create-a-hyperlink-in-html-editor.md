@@ -1,6 +1,7 @@
 ---
 title: Create a Hyperlink in HTML Editor
 ---
+# Create a Hyperlink in HTML Editor
 ## Add a Hyperlink
 * Select the text or image that you want to display as a hyperlink and click the **Insert Link** button within the editor's toolbar.
 * Or, simply click the **Insert Link** button to create a new text link at the current cursor position.

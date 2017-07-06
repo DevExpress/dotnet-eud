@@ -1,6 +1,7 @@
 ---
 title: Image Settings
 ---
+# Image Settings
 You can customize the representation of Image and Bound Image dashboard items in different ways.
 
 ## Image Alignment

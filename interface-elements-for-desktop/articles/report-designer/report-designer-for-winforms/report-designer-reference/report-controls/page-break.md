@@ -1,6 +1,7 @@
 ---
 title: Page Break
 ---
+# Page Break
 The **Page Break** control's sole purpose is to insert a page delimiter at any point within a report.
 
 This control is visually represented by a short line, attached to the report's left margin, as shown in the following image.

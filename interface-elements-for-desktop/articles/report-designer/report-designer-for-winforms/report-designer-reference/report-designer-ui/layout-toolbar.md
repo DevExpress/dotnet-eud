@@ -1,6 +1,7 @@
 ---
 title: Layout Toolbar
 ---
+# Layout Toolbar
 The **Layout Toolbar** allows you to easily align report elements to one another, change their size to match one another and customize spacing and z-order.
 
 ![RD_Elements_LayoutToolbar](../../../../../images/Img8255.png)

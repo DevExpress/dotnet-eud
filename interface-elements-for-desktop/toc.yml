@@ -1471,7 +1471,7 @@
     - name: Subtotal and Total Fields in a Pivot Table
       href: articles\spreadsheet\pivot-tables\subtotal-and-total-fields-in-a-pivot-table.md
     - name: 'Group Items in a Pivot Table '
-      href: articles\spreadsheet\pivot-tables\group-items-in-a-pivot-table.md
+      href: articles\spreadsheet\pivot-tables\group-items-in-a-pivot-table-.md
     - name: Sort Items in a Pivot Table
       href: articles\spreadsheet\pivot-tables\sort-items-in-a-pivot-table.md
     - name: 'Filter a Pivot Table '

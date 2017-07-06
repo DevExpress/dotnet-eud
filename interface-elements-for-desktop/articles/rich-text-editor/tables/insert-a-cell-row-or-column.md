@@ -1,6 +1,7 @@
 ---
 title: Insert a Cell, Row or Column
 ---
+# Insert a Cell, Row or Column
 ## Insert a Cell
 1. Click a cell located directly to the right or below where you want to insert a cell, and then on the **Table Tools\Layout** [ tab](../../../../interface-elements-for-desktop/articles/rich-text-editor/text-editor-ui/ribbon-interface.md), in the **Rows &amp; Columns** group, click the **Insert Cells** button...
 	

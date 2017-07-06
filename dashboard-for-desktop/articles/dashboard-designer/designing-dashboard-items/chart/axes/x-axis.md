@@ -1,6 +1,7 @@
 ---
 title: X-Axis
 ---
+# X-Axis
 The **X-axis** is the axis of arguments.
 
 ![Chart_XAxis](../../../../../images/Img19404.png)

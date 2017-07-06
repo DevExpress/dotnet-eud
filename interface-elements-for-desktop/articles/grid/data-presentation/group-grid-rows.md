@@ -1,6 +1,7 @@
 ---
 title: Group Grid Rows
 ---
+# Group Grid Rows
 ## Group Data
 To group by a specific column, do one of the following:
 * Drag a column header from the column header panel to the group panel:

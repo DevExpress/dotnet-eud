@@ -1,6 +1,7 @@
 ---
 title: Connect to an Object Data Source
 ---
+# Connect to an Object Data Source
 The topics in this section describe the wizard steps required to connect a report to an object data source.
 
 This task includes the following steps.

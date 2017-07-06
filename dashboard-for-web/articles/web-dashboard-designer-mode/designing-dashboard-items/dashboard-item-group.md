@@ -1,6 +1,7 @@
 ---
 title: Dashboard Item Group
 ---
+# Dashboard Item Group
 The Web Dashboard allows you to combine dashboard items into a group. The dashboard item group serves two main purposes.
 * Combine dashboard items within the dashboard into a separate [layout](../../../../dashboard-for-web/articles/web-dashboard-designer-mode/dashboard-layout/dashboard-items-layout.md) group.
 * Manage [interaction](../../../../dashboard-for-web/articles/web-dashboard-designer-mode/interactivity.md) between dashboard items within and outside the group.

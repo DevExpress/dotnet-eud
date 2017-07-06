@@ -1,6 +1,7 @@
 ---
 title: Text Box
 ---
+# Text Box
 Use the **Text Box** dashboard item to display rich text within a dashboard.
 
 ![MainFeatures_TextEditor](../../../images/Img18215.png)

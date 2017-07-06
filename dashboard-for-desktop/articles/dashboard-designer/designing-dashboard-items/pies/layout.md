@@ -1,6 +1,7 @@
 ---
 title: Layout
 ---
+# Layout
 The **Pie** dashboard item allows you to specify the number of columns or rows in which individual diagrams are arranged.
 
 To control how pies are arranged, use the buttons in the **Content Arrangement** group of the **Design** Ribbon tab.

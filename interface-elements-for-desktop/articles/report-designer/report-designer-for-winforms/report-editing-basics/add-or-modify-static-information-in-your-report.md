@@ -1,6 +1,7 @@
 ---
 title: Add or Modify Static Information in Your Report
 ---
+# Add or Modify Static Information in Your Report
 In a report, _static_ and _dynamic_ information is displayed using appropriate [controls](../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-reference/report-controls.md).
 
 **Dynamic information** changes through a report, such as [values from a database](../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-editing-basics/displaying-values-from-a-database-(binding-report-elements-to-data).md) (which comprise the main report data) or [service information](../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-editing-basics/add-page-numbers-and-system-information-to-a-report.md) (such as [current user name or page numbers](../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-editing-basics/add-page-numbers-and-system-information-to-a-report.md)). Approaches to embed dynamic information to your report are detailed in the following document: [Displaying Values from a Database (Binding Report Elements to Data)](../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-editing-basics/displaying-values-from-a-database-(binding-report-elements-to-data).md).

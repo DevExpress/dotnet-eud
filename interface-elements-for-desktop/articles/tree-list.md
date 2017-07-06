@@ -1,6 +1,7 @@
 ---
 title: Tree List
 ---
+# Tree List
 This section describes the capabilities provided by a multi-column tree view, which displays hierarchical data, supports data editing, sorting, summary calculation and many other features:
 
 ![EndUser_Win_TreeList](../images/Img9063.png)

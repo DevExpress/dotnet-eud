@@ -1,6 +1,7 @@
 ---
 title: Chart Titles Page
 ---
+# Chart Titles Page
 ## Tasks
 * Create chart titles;
 * Enable the word-wrapping for lengthy chart titles;

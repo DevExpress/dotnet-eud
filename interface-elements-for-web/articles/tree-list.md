@@ -1,6 +1,7 @@
 ---
 title: Tree List
 ---
+# Tree List
 This section describes the capabilities provided by the **Tree List** (multi-column tree view).
 
 ![ASPxTreeList](../images/Img6967.png)

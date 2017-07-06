@@ -1,6 +1,7 @@
 ---
 title: Navigation in Vertical Grids
 ---
+# Navigation in Vertical Grids
 | Action | Description |
 |---|---|
 | Clicking a data cell | Moves focus to the clicked cell. |

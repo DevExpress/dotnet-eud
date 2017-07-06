@@ -1,6 +1,7 @@
 ---
 title: Keyboard Navigation
 ---
+# Keyboard Navigation
 If keyboard support is enabled within the GridView, its primary navigation operations (such as accessing the grid within the form, moving focus through grid rows, row selection, row expanding/collapsing, paging) can be quickly and effectively performed, using a keyboard as an alternative to a pointing device.
 
 The enabled keyboard navigation activates the following grid features:

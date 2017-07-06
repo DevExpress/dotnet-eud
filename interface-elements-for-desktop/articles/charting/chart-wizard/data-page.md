@@ -1,6 +1,7 @@
 ---
 title: Data Page
 ---
+# Data Page
 ## Tasks
 * Provide data for a chart;
 * Bind a chart or individual series to a data source;

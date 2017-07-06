@@ -1,6 +1,7 @@
 ---
 title: Delta
 ---
+# Delta
 Gauges allow you to display the difference between the _actual_ and _target_ values of a particular parameter. This difference is called **delta**.
 
 Delta is shown with a _delta indicator_ (indicating whether the actual value is less than or greater than the target value) and _delta values_ (representing this difference as an absolute value or a variation).

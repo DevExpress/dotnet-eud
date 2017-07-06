@@ -1,6 +1,7 @@
 ---
 title: Legends
 ---
+# Legends
 The Pie Map provides two types of legends used to identify map objects - color and weighted legends.
 * [Color Legend](#color)
 * [Weighted Legend](#weighted)

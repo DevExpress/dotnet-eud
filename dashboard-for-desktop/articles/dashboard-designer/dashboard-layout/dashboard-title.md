@@ -1,6 +1,7 @@
 ---
 title: Dashboard Title
 ---
+# Dashboard Title
 The **Dashboard Title** is located at the top of the dashboard surface. It can contain text or image content.
  
 

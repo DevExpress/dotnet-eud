@@ -1,6 +1,7 @@
 ---
 title: Style
 ---
+# Style
 The Grid dashboard item allows you to specify various style settings.
 
 To do this, use the **Style** group in the **Design** Ribbon tab.

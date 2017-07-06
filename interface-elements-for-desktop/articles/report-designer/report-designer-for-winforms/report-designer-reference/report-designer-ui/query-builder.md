@@ -1,6 +1,7 @@
 ---
 title: Query Builder
 ---
+# Query Builder
 This document describes the **Query Builder** that provides a visual interface for constructing SQL queries and enables you to solve a variety of tasks.
 
 ![eud-win-report-designer-query-builder](../../../../../images/Img126867.png)

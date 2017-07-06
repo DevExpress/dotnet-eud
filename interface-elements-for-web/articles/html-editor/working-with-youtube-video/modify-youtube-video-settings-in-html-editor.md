@@ -1,6 +1,7 @@
 ---
 title: Modify YouTube Video Settings in HTML Editor
 ---
+# Modify YouTube Video Settings in HTML Editor
 To modify YouTube video element settings within editor content, do one of the following.
 * Double-click the YouTube video element.
 * Right-click the YouTube video element and select **Change YouTube Video...** within the invoked context menu.

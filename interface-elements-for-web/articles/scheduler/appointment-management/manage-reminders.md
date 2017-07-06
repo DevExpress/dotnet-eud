@@ -1,6 +1,7 @@
 ---
 title: Manage Reminders
 ---
+# Manage Reminders
 ## What is a Reminder?
 Any appointment can have one or more reminders. They are responsible for sending alerts at a specified time period before an appointment's start time. If an appointment has a reminder, the bell ![AppointmentImageType.Reminder](../../../images/Img4574.png) image is displayed.
 

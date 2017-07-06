@@ -1,6 +1,7 @@
 ---
 title: Bulleted Lists
 ---
+# Bulleted Lists
 ## Create a Bulleted List as You Type
 1. Point to the position in a document from where you want to begin your list.
 2. On the **Home** [ tab](../../../../interface-elements-for-desktop/articles/rich-text-editor/text-editor-ui/ribbon-interface.md), in the **Paragraph** group, click the **Bullets** ![RichEdit_BulletsButton](../../../images/Img12128.png) button .

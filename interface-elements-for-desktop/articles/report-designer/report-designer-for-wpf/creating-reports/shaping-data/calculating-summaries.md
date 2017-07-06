@@ -1,6 +1,7 @@
 ---
 title: Calculating Summaries
 ---
+# Calculating Summaries
 With the Report Designer, you can force a [data-bound control](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-wpf/creating-reports/providing-data/binding-report-controls-to-data.md) to calculate one of the standard summary functions (**Average**, **Sum**, **Count**, **Max**, **Min**, etc.).
 
 To calculate summaries (totals) within a report, follow the instructions below.

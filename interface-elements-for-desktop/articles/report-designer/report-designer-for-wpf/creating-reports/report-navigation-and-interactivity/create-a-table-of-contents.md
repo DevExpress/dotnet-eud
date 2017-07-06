@@ -1,6 +1,7 @@
 ---
 title: Create a Table of Contents
 ---
+# Create a Table of Contents
 This tutorial describes how to create a report with a table of contents, which is automatically created based on the [bookmarks](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-wpf/creating-reports/report-navigation-and-interactivity/add-bookmarks.md) existing in a report.
 
 To insert a table of contents into a report, do the following.

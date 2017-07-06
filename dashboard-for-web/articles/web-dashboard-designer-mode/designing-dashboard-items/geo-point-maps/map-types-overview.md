@@ -1,6 +1,7 @@
 ---
 title: Map Types Overview
 ---
+# Map Types Overview
 The Web Dashboard allows you to create **three types** of Geo Point maps.
 * The [Geo Point Map](../../../../../dashboard-for-web/articles/web-dashboard-designer-mode/designing-dashboard-items/geo-point-maps/geo-point-map.md) dashboard item allows you to place callouts on the map using geographical coordinates.
 	

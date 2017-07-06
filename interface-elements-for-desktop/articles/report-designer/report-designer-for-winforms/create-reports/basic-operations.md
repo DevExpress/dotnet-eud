@@ -1,6 +1,7 @@
 ---
 title: Basic Operations
 ---
+# Basic Operations
 The topics in this section cover the basics of working with reports in the Report Designer.
 
 This section consists of the following topics.

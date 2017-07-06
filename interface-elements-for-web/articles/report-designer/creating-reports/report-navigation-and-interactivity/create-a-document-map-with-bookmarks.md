@@ -1,6 +1,7 @@
 ---
 title: Create a Document Map with Bookmarks
 ---
+# Create a Document Map with Bookmarks
 This document describes the steps to create a report with _bookmarks_ (a so-called _Document Map_). This feature allows you to easily navigate through the report during [Print Preview](../../../../../interface-elements-for-web/articles/report-designer/document-preview.md).
 
 To demonstrate the Document Map feature, use a report with grouping, similar the one created in the following tutorial: [Grouping Data](../../../../../interface-elements-for-web/articles/report-designer/creating-reports/shaping-data/grouping-data.md).

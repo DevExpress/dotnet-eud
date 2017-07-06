@@ -1,6 +1,7 @@
 ---
 title: Move, Rotate and Resize a Picture
 ---
+# Move, Rotate and Resize a Picture
 ## Move a Picture
 1. Click the picture you wish to move.
 2. Drag the picture to a new location.

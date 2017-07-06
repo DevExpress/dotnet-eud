@@ -1,6 +1,7 @@
 ---
 title: Selection and Navigation
 ---
+# Selection and Navigation
 This section describes how to navigate the schedule.
 
 Topics in this section:

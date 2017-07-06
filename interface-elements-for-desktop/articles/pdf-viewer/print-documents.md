@@ -1,6 +1,7 @@
 ---
 title: Print Documents
 ---
+# Print Documents
 To print the current document, click the **Print** command located on the **File** toolbar button group, or press **CTRL**+**P**.
 
 ![pdf-viewer-print](../../images/Img24397.jpeg)

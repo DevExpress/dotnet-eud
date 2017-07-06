@@ -1,6 +1,7 @@
 ---
 title: Grouping Bands
 ---
+# Grouping Bands
 The **Group Header** and **Group Footer** bands are shown above and below each group. Usually, you don't need to manually manage these bands, as they are auto-created via the [Group and Sort Panel](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-reference/report-designer-ui/group-and-sort-panel.md). For more information, refer to [Change or Apply Data Grouping to a Report](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-editing-basics/change-or-apply-data-grouping-to-a-report.md) and [Change or Apply Data Sorting to a Report](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-editing-basics/change-or-apply-data-sorting-to-a-report.md).
 
 You may use the Group Header bands for grouping by multiple data fields in one of the following ways.

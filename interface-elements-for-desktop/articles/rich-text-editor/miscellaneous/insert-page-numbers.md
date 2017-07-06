@@ -1,6 +1,7 @@
 ---
 title: Insert Page Numbers
 ---
+# Insert Page Numbers
 ## Insert a Page Number
 1. On the **Insert** [tab](../../../../interface-elements-for-desktop/articles/rich-text-editor/text-editor-ui/ribbon-interface.md), in the **Header&amp;Footer** group, click the **Header** or **Footer** button . For more information, see [Header and Footer](../../../../interface-elements-for-desktop/articles/rich-text-editor/header-and-footer.md).
 	

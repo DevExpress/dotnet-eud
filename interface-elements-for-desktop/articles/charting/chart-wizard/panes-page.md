@@ -1,6 +1,7 @@
 ---
 title: Panes Page
 ---
+# Panes Page
 ## Tasks
 * Customize panes properties.
 

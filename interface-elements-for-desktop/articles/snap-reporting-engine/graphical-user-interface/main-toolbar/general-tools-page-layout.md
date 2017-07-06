@@ -1,6 +1,7 @@
 ---
 title: 'General Tools: Page Layout'
 ---
+# General Tools: Page Layout
 The **Page Layout** toolbar contains page layout options that include paper kind, margins and orientation.
 
 These options are divided into the following categories.

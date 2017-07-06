@@ -1,6 +1,7 @@
 ---
 title: Table
 ---
+# Table
 The **Table** control is designed to arrange information in a [tabular layout](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/create-reports/report-types/table-report.md). It may contain any number of [Rows](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-reference/report-controls/table-row.md) comprised of individual [Cells](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-reference/report-controls/table-cell.md). Both Rows and Cells can be selected and customized individually. In most aspects, a Cell is similar to a [Label](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-reference/report-controls/label.md), but can also contain other controls (e.g. [Picture Box](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-reference/report-controls/picture-box.md) or [Rich Text](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-reference/report-controls/rich-text.md)).
 
 ![RD_Controls_Table_0](../../../../../images/Img8273.png)

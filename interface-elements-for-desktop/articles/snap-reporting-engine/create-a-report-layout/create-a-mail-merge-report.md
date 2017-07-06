@@ -1,6 +1,7 @@
 ---
 title: Create a Mail-Merge Report
 ---
+# Create a Mail-Merge Report
 This tutorial illustrates the steps required to create and publish a mail merge report with **Snap**.
 
 The tutorial contains following sections.

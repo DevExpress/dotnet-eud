@@ -1,6 +1,7 @@
 ---
 title: Navigate and View a Document
 ---
+# Navigate and View a Document
 This document provides information on using the PDF Viewer user interface to navigate through the document content.
 
 The topic consists of the following sections.

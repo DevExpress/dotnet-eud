@@ -1,6 +1,7 @@
 ---
 title: Show and Hide Columns and Rows
 ---
+# Show and Hide Columns and Rows
 The **Spreadsheet** provides the capability to display and hide columns and rows in a worksheet.
 
 ## Hide and Unhide Columns

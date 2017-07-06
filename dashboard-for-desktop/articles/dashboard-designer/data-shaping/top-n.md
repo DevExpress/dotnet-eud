@@ -1,6 +1,7 @@
 ---
 title: Top N
 ---
+# Top N
 The **Top N** feature allows you to display only a limited number of values that correspond to the highest or lowest values of a particular measure.
 
 To display the top values in a dimension, select **Top N** from the data item menu.

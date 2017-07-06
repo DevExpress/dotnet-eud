@@ -1,6 +1,7 @@
 ---
 title: Format Cells
 ---
+# Format Cells
 The **Spreadsheet** provides the capability to format cells and the data they contain.
 
 To format a cell or a range of cells, follow the instructions below.

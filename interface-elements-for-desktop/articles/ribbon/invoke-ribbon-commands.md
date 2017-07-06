@@ -1,6 +1,7 @@
 ---
 title: Invoke Ribbon Commands
 ---
+# Invoke Ribbon Commands
 To select a specific command, you can click it with the mouse or invoke it via its shortcut. See below for more information.
 
 Shortcuts are associated with each page and command in the Ribbon. To see the shortcuts, press ALT or F10. Shortcuts will appear next to the corresponding tab pages and commands:

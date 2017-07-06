@@ -1,6 +1,7 @@
 ---
 title: Map Coloring
 ---
+# Map Coloring
 The **Choropleth Map** dashboard item colors map shapes depending on the [data provided](../../../../../dashboard-for-desktop/articles/dashboard-designer/designing-dashboard-items/choropleth-map/providing-data.md).
 
 For instance, you can visualize a sales amount or population density.

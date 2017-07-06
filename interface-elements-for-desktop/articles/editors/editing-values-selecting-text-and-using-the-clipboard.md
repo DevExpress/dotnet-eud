@@ -1,6 +1,7 @@
 ---
 title: Editing Values, Selecting Text and Using the Clipboard
 ---
+# Editing Values, Selecting Text and Using the Clipboard
 ## Select and Deselect Editor's Contents
 To select all text within an editor, you can invoke the [Editor Context Menu](../../../interface-elements-for-desktop/articles/editors/editor-context-menu.md) and choose **Select All**. To select a part of the edit value, click on a position where the selection should start, drag the pointer to the end position and then release the mouse button.
 

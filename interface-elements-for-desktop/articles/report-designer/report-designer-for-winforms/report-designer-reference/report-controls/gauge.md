@@ -1,6 +1,7 @@
 ---
 title: Gauge
 ---
+# Gauge
 The **Gauge** control provides you with the capability to embed graphical gauges into your report.
 
 ![RD_Controls_Gauge](../../../../../images/Img23734.png)

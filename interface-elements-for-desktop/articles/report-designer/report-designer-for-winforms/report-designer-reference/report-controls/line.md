@@ -1,6 +1,7 @@
 ---
 title: Line
 ---
+# Line
 The **Line** control draws a line of a specified direction, style, width and color. It can be used for both decoration and visual separation of a report's sections. The Line cannot cross [bands](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-reference/report-bands.md), as opposed to the [Cross-band Line](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-reference/report-controls/cross-band-line.md) control.
 
 ![RD_Controls_Line](../../../../../images/Img8275.png)

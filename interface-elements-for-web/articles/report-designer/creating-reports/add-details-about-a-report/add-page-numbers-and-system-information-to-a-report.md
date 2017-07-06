@@ -1,6 +1,7 @@
 ---
 title: Add Page Numbers and System Information to a Report
 ---
+# Add Page Numbers and System Information to a Report
 This document describes how to insert _page numbers_ or other system information (e.g., _current date and time_, _user name_, etc.) into a report, using the [Web Report Designer](../../../../../interface-elements-for-web/articles/report-designer.md).
 
 Generally, this auxiliary information is displayed within the Page Header and Footer or Page Margin [bands](../../../../../interface-elements-for-web/articles/report-designer/report-elements/report-bands.md). To add page numbers or system information to your report, drop the [Page Info](../../../../../interface-elements-for-web/articles/report-designer/report-elements/report-controls.md) control from the [Toolbox](../../../../../interface-elements-for-web/articles/report-designer/interface-elements/toolbox.md) onto a band.

@@ -1,6 +1,7 @@
 ---
 title: Script Editor
 ---
+# Script Editor
 The **Script Editor** allows end-users to write code for specific event handlers in the [End-User Report Designer](../../../../interface-elements-for-web/articles/report-designer.md) to adjust the behavior of report controls, bands, or a report itself. This topic describes the basic principles of using [scripts](../../../../interface-elements-for-web/articles/report-designer/creating-reports/scripting.md) in XtraReports, the Script Editor interface, and shows how scripting can be used in a report.
 
 This document consists of the following sections.

@@ -1,6 +1,7 @@
 ---
 title: 'Header and Footer Tools: Design'
 ---
+# Header and Footer Tools: Design
 This toolbar is context sensitive, and becomes active after double-clicking the page header or footer in a document.
 
 To add a page header or footer, use the appropriate commands of the [General Tools: Insert](../../../../../interface-elements-for-desktop/articles/snap-reporting-engine/graphical-user-interface/main-toolbar/general-tools-insert.md) toolbar.

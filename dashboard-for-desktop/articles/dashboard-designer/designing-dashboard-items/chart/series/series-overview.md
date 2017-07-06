@@ -1,6 +1,7 @@
 ---
 title: Series Overview
 ---
+# Series Overview
 The Chart dashboard item supports a variety of series types - from simple bar and line charts to complex candle stick and bubble graphs.
 * [Bar Series](../../../../../../dashboard-for-desktop/articles/dashboard-designer/designing-dashboard-items/chart/series/bar-series.md)
 * [Point and Line Series](../../../../../../dashboard-for-desktop/articles/dashboard-designer/designing-dashboard-items/chart/series/point-and-line-series.md)

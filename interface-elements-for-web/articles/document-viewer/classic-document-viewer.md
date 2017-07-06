@@ -1,6 +1,7 @@
 ---
 title: Classic Document Viewer
 ---
+# Classic Document Viewer
 This section describes the capabilities provided by the Document Viewer, which is used to display, navigate, save and export report documents on the web.
 
 ![web_intro](../../images/Img9073.png)

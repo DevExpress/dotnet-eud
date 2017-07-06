@@ -1,6 +1,7 @@
 ---
 title: Cross-Tab Report
 ---
+# Cross-Tab Report
 This tutorial describes the steps to create a _cross-tab report_ using a [Pivot Grid](../../../../interface-elements-for-web/articles/report-designer/report-elements/report-controls.md) that calculates automatic summaries and grand totals across a large number of grouped rows and columns. This feature should not be confused with the [master-detail report](../../../../interface-elements-for-web/articles/report-designer/report-types/master-detail-report-(detail-report-bands).md) or [table report](../../../../interface-elements-for-web/articles/report-designer/report-types/table-report.md).
 
 To create a cross-tab report, do the following.

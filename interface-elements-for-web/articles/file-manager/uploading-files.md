@@ -1,6 +1,7 @@
 ---
 title: Uploading Files
 ---
+# Uploading Files
 To upload files by a file manager do the following.
 * Click on the **Browse** button.
 	

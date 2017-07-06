@@ -1,6 +1,7 @@
 ---
 title: 'Data Tools: Mail Merge'
 ---
+# Data Tools: Mail Merge
 The commands available in the **Mail Merge** section of the **Data Tools** toolbar are divided into the following categories.
 * [Data](#data)
 * [Current Record](#currentrecord)

@@ -1,6 +1,7 @@
 ---
 title: Drill-Down
 ---
+# Drill-Down
 The built-in drill-down capability allows you to change the detail level of data displayed in dashboard items on the fly. To learn more about drill-down concepts common to all dashboard items, see the [Drill-Down](../../../../../../dashboard-for-desktop/articles/dashboard-designer/interactivity/drill-down.md) topic.
 
 When drill-down is enabled, you can click a tile to view its details.

@@ -1,6 +1,7 @@
 ---
 title: Highlighting and Selection Chart Elements
 ---
+# Highlighting and Selection Chart Elements
 If you are working with 2D charts, you can highlight and select different chart elements via the mouse or using different gestures on your touchscreen device.
 
 ## Highlighting

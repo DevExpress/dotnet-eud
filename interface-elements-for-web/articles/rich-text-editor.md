@@ -1,6 +1,7 @@
 ---
 title: Rich Text Editor
 ---
+# Rich Text Editor
 This section describes the capabilities provided by the **Rich Text Editor**.
 
 ![EUD_ASPxRichEdit_MainPicture](../images/Img117723.png)

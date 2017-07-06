@@ -1,6 +1,7 @@
 ---
 title: Hidden Data Items
 ---
+# Hidden Data Items
 The **HIDDEN DATA ITEMS** area can be used to perform various [data shaping](../../../../dashboard-for-desktop/articles/dashboard-designer/data-shaping.md) and analysis operations by measures or dimensions that do not directly take part in the visual representation of data.
 
 To create hidden data items, choose the required data field from the [Data Source Browser](../../../../dashboard-for-desktop/articles/dashboard-designer/ui-elements/data-source-browser.md) and drop it onto the appropriate section in the HIDDEN DATA ITEMS area.

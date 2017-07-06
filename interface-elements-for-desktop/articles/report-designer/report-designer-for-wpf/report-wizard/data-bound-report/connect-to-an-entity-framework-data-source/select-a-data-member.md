@@ -1,6 +1,7 @@
 ---
 title: Select a Data Member
 ---
+# Select a Data Member
 This wizard page allows you to select one of the available data members that will provide data to your report.
 
 ![WpfReportWizard_EF_SelectDataMember](../../../../../../images/Img124455.png)

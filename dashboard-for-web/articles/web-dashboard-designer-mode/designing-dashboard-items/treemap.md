@@ -1,6 +1,7 @@
 ---
 title: Treemap
 ---
+# Treemap
 The **Treemap** dashboard item allows you to visualize data in nested rectangles that are called _tiles_.
 
 ![wdd-treemap-grouped](../../../images/Img125970.png)

@@ -1,6 +1,7 @@
 ---
 title: Search Panel
 ---
+# Search Panel
 To filter data and highlight search results, type a filter criterion in the search panel.
 
 ![SearchPanel](../../../images/Img17905.png)

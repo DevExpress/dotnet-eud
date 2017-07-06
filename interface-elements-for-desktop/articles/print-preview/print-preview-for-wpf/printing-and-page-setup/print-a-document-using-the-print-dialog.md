@@ -1,6 +1,7 @@
 ---
 title: Print a Document Using the Print Dialog
 ---
+# Print a Document Using the Print Dialog
 To print a document, do one of the following.
 * Click the **Print...** ![WPFDesigner_PreviewToolbar_Print](../../../../images/Img120163.png) button on the toolbar.
 * On the menu, click **Print...**

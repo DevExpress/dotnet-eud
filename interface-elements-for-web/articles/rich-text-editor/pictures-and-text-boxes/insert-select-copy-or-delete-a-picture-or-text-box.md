@@ -1,6 +1,7 @@
 ---
 title: Insert, Select, Copy or Delete a Picture or Text Box
 ---
+# Insert, Select, Copy or Delete a Picture or Text Box
 You can insert floating [images](#image) or [text boxes](#textbox) and  [select](#select) them for [copying](#copy) or [deleting](#delete).
 
 ## <a name="image"/>Insert a Picture

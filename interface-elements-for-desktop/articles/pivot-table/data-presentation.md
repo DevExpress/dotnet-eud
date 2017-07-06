@@ -1,6 +1,7 @@
 ---
 title: Data Presentation
 ---
+# Data Presentation
 This section describes how you can customize data presentation in Pivot Tables.
 
 The following sections are available.

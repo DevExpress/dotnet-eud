@@ -1,6 +1,7 @@
 ---
 title: Chart with Static Series
 ---
+# Chart with Static Series
 This document describes how to create a report with a [Chart](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-reference/report-controls/chart.md) control bound to data, so that a particular _series_ has its own _data source_ and other settings. To simplify the example, both series obtain their data from the same data source. However, different data sources can be used for different series, if necessary.
 
 This example describes how to construct a chart of products and their prices for a chosen category.

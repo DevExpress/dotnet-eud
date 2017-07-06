@@ -1,6 +1,7 @@
 ---
 title: Delete Appointments
 ---
+# Delete Appointments
 ## Context Menu
 You can delete the selected appointment using the **Delete** item of the context menu, which is invoked when an appointment is right-clicked.
 

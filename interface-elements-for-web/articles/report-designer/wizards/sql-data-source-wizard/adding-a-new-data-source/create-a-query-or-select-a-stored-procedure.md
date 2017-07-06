@@ -1,6 +1,7 @@
 ---
 title: Create a Query or Select a Stored Procedure
 ---
+# Create a Query or Select a Stored Procedure
 On this wizard page, you can choose which tables, views and/or stored procedures from your data source to display in the report.
 
 ![web-designer-report-wizard-02-select-queries-custom-query-context-menu](../../../../../images/Img125841.png)

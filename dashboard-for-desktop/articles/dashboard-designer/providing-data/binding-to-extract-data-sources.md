@@ -1,6 +1,7 @@
 ---
 title: Binding to Extract Data Sources
 ---
+# Binding to Extract Data Sources
 The Dashboard Designer allows you to create a _data extract_ that is a compressed snapshot of data obtained from the existing data source. This data is saved to a local file and can be updated from the original data source at any time.
 
 > Note that data extracts cannot be created for the [OLAP data sources](../../../../dashboard-for-desktop/articles/dashboard-designer/providing-data/connecting-to-olap-cubes.md).

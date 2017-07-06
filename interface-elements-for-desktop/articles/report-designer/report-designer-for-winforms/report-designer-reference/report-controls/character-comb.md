@@ -1,6 +1,7 @@
 ---
 title: Character Comb
 ---
+# Character Comb
 The **Character Comb** control displays text so that each character is printed in an individual cell.
 
 ![cellular-label-report-control](../../../../../images/Img124988.png)

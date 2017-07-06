@@ -1,6 +1,7 @@
 ---
 title: Token Box
 ---
+# Token Box
 The **Token Box** allows you to select values using a predefined value list.
 
 ![Token](../../images/Img22734.png)

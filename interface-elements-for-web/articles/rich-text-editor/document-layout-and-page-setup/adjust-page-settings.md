@@ -1,6 +1,7 @@
 ---
 title: Adjust Page Settings
 ---
+# Adjust Page Settings
 When changing page layout settings (such as [page margins](#margins), [page orientation](#orientation), [paper size](#papersize)), you can apply them to the whole document or set specific page layout settings for each individual section if your [document is divided into sections](../../../../interface-elements-for-web/articles/rich-text-editor/document-layout-and-page-setup/divide-a-documents-into-sections.md).
 
 ## <a name="margins"/>Change Page Margins

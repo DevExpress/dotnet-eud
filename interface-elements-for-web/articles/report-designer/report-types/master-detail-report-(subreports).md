@@ -1,6 +1,7 @@
 ---
 title: Master-Detail Report (Subreports)
 ---
+# Master-Detail Report (Subreports)
 This tutorial describes the steps to create a master-detail report using the [Subreport](../../../../interface-elements-for-web/articles/report-designer/report-elements/report-controls.md) control. For an alternative approach, refer to [Master-Detail Report (Detail Report Bands)](../../../../interface-elements-for-web/articles/report-designer/report-types/master-detail-report-(detail-report-bands).md).
 
 To create a master-detail report using the subreport controls, do the following.

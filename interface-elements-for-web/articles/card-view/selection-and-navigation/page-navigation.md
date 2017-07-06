@@ -1,6 +1,7 @@
 ---
 title: Page Navigation
 ---
+# Page Navigation
 To switch between pages, use the CardView's pager:
 
 ![EUD_CardView_Pager](../../../images/Img121525.png)

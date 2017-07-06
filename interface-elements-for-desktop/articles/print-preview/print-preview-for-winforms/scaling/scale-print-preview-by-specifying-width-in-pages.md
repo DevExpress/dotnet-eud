@@ -1,6 +1,7 @@
 ---
 title: Scale Print Preview by Specifying Width in Pages
 ---
+# Scale Print Preview by Specifying Width in Pages
 To scale a document to fit into X pages, click the **Scale** ![previewButtonScale](../../../../images/Img7267.png) button on the toolbar. The **Scaling** dialog will be invoked.
 
 Set the required number of pages in the editor.

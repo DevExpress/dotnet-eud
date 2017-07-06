@@ -1,6 +1,7 @@
 ---
 title: Report Explorer
 ---
+# Report Explorer
 This document describes the **Report Explorer** panel that shows a report's structure providing quick access to report elements, styles and formatting rules.
 
 ![eud-report-explorer-5](../../../images/Img120131.png)

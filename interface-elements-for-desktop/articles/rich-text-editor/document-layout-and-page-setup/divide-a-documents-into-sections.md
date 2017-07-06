@@ -1,6 +1,7 @@
 ---
 title: Divide a Documents into Sections
 ---
+# Divide a Documents into Sections
 You can divide your document into sections to specify parts of a document that have different [page settings](../../../../interface-elements-for-desktop/articles/rich-text-editor/document-layout-and-page-setup/adjust-page-settings.md) (page margins, page orientation, paper size), [column layouts](../../../../interface-elements-for-desktop/articles/rich-text-editor/document-layout-and-page-setup/lay-out-text-in-columns.md), [line numbering](../../../../interface-elements-for-desktop/articles/rich-text-editor/document-layout-and-page-setup/add-line-numbers.md) and [headers and footers](../../../../interface-elements-for-desktop/articles/rich-text-editor/header-and-footer.md).
 
 ## Insert Section Breaks

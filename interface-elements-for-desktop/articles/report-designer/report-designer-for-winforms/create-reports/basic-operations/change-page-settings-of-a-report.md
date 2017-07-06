@@ -1,6 +1,7 @@
 ---
 title: Change Page Settings of a Report
 ---
+# Change Page Settings of a Report
 In the Report Designer, page settings of a report can be specified in one of two ways. The first approach forces the default printer settings to be used when the report is printed, while the other one enables you to alter page settings independently.
 * **Using settings of the default printer**
 	

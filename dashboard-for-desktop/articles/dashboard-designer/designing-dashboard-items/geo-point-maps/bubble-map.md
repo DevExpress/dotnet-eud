@@ -1,6 +1,7 @@
 ---
 title: Bubble Map
 ---
+# Bubble Map
 The **Bubble Map** dashboard item allows you to place bubbles on the map. Each bubble can represent data using its weight and color.
 
 ![MapsOverview_BubbleMap](../../../../images/Img23629.png)

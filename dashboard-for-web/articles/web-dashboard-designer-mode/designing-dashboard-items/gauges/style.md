@@ -1,6 +1,7 @@
 ---
 title: Style
 ---
+# Style
 The Gauge dashboard item allows you to select the gauge style.
 
 ![wdd-gauges-style](../../../../images/Img125775.png)

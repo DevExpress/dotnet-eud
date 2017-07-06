@@ -1,6 +1,7 @@
 ---
 title: Grouping
 ---
+# Grouping
 The Web Dashboard allows you to group dimension values and display summaries for entire groups rather than individual values. You can arrange dimension values in groups of different sizes by specifying the appropriate group interval. For instance, date-time values can be grouped by year, month, quarter, etc.
 
 ## Changing a Date-Time Group Interval

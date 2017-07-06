@@ -1,6 +1,7 @@
 ---
 title: Zoom a Chart
 ---
+# Zoom a Chart
 If you are working with 2D XY-charts (Bar, Line, Point, etc.) or 3D charts, you can zoom in or out of a chart. This allows you to see some of the chart's data in greater detail, or get a more general picture of your data.
 
 Note that zooming is unavailable for 2D Pie, 2D Doughnut, Radar, and Polar charts.

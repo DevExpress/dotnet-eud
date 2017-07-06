@@ -1,6 +1,7 @@
 ---
 title: Warnings and Error Messages in Print Preview
 ---
+# Warnings and Error Messages in Print Preview
 ## Warnings
 * **One or more margins are set outside the printable area of the page.**
 	

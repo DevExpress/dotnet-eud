@@ -1,6 +1,7 @@
 ---
 title: Vertical Grid
 ---
+# Vertical Grid
 This section describes the capabilities provided by Vertical Grids (Property Grids).
 
 ![EndUser_Win_VertGrid](../images/Img9064.png)

@@ -1,6 +1,7 @@
 ---
 title: Designing Dashboard Items
 ---
+# Designing Dashboard Items
 The Web Dashboard provides a number of visualization media designed to effectively present visual or textual information in a dashboard - **dashboard items**.
 
 This section describes the available dashboard items.

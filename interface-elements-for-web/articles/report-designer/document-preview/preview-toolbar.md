@@ -1,6 +1,7 @@
 ---
 title: Preview Toolbar
 ---
+# Preview Toolbar
 The **Preview Toolbar** provides quick access to the commands related to report viewing and publishing.
 
 ![web-report-designer-preview-toolbar](../../../images/Img24742.png)

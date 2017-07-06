@@ -1,6 +1,7 @@
 ---
 title: Navigate Time Cells and Dates in the Scheduler
 ---
+# Navigate Time Cells and Dates in the Scheduler
 ## View Navigator
 To navigate dates, you can use the **View Navigator** shown below.
 

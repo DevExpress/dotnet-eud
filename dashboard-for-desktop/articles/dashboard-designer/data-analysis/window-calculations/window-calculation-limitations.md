@@ -1,6 +1,7 @@
 ---
 title: Window Calculation Limitations
 ---
+# Window Calculation Limitations
 ## Supported Dashboard Items
 Window calculations can be applied to measures of the following dashboard items.
 * [Chart](../../../../../dashboard-for-desktop/articles/dashboard-designer/designing-dashboard-items/chart.md)

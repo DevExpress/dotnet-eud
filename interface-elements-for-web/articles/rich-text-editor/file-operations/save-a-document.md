@@ -1,6 +1,7 @@
 ---
 title: Save a Document
 ---
+# Save a Document
 To save a document, go to the **File** tab, and then click the **Save as** button in the **Common** group.
 
 ![EUD_ASPxRichEdit_File_SaveAs](../../../images/Img117757.png)

@@ -1,6 +1,7 @@
 ---
 title: Fullscreen Viewer
 ---
+# Fullscreen Viewer
 The Image Gallery **Fullscreen Viewer** displays images in full screen mode and allows you to navigate through them.
 
 ![ImageGallery_Full](../../images/Img22783.png)

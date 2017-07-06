@@ -1,6 +1,7 @@
 ---
 title: Formatting Toolbar
 ---
+# Formatting Toolbar
 The **Formatting Toolbar** allows you to easily customize an element's font, color and alignment settings.
 
 ![RD_Elements_FormatToolbar](../../../../../images/Img8254.png)

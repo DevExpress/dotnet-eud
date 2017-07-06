@@ -1,6 +1,7 @@
 ---
 title: Encrypt a Workbook with the Password
 ---
+# Encrypt a Workbook with the Password
 You can encrypt your document with a password to prevent unauthorized people from opening or modifying your workbooks. To do that, follow the steps below.
 1. In the **Info** group on the **File** tab, click the **Encrypt with Password** button. 
 	

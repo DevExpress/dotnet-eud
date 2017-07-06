@@ -1,6 +1,7 @@
 ---
 title: Images
 ---
+# Images
 The Image dashboard item is used to display static images within a dashboard.
 
 ![wdd-dashboard-items-image](../../../images/Img125123.png)

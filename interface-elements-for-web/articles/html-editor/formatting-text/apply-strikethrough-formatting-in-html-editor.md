@@ -1,6 +1,7 @@
 ---
 title: Apply Strikethrough Formatting in HTML Editor
 ---
+# Apply Strikethrough Formatting in HTML Editor
 To apply strikethrough formatting to a specific portion of the text, do the following:
 1. Select the required part of the text (or the whole text).
 2. Click the ![ASPxHtmlEditor-Buttons-Strikethrough](../../../images/Img7404.png) button.

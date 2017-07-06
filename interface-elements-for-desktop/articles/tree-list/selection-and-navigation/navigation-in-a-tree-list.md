@@ -1,6 +1,7 @@
 ---
 title: Navigation in a Tree List
 ---
+# Navigation in a Tree List
 | Action | Description |
 |---|---|
 | Clicking a data cell | Moves focus to the clicked cell. |

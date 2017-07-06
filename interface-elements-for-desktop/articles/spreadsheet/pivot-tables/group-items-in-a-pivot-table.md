@@ -1,6 +1,7 @@
 ---
 title: Group Items in a Pivot Table
 ---
+# Group Items in a Pivot Table
 Grouping can help you get a clearer view of data and show only data you want to analyze. The following topic describes how to group [dates](#date), [numbers](#number) or [selected items](#text) in a pivot table.
 
 <a name="date"/>
@@ -67,5 +68,4 @@ To ungroup data in a pivot table, do one of the following.
 * Select any cell in the grouped field and on the **Pivot Table Tools** | **Analyze** tab, in the **Group** group, click the **Ungroup** button.
 	
 	![Spreadsheet_PivotTable_Grouping_UngroupRibbon](../../../images/Img126466.png)
-	
 Note that ungrouping a numeric or date and time field will remove all groups for that field. If you ungroup a group of selected items, only the selected items will be ungrouped.

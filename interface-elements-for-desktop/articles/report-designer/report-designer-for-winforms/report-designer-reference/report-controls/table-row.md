@@ -1,6 +1,7 @@
 ---
 title: Table Row
 ---
+# Table Row
 The **Table Row Control** represents a single row within a [Table](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-reference/report-controls/table.md).
 
 ![RD_Controls_TableCell_2](../../../../../images/Img8515.png)

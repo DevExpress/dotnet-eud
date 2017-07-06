@@ -1,6 +1,7 @@
 ---
 title: Using Indents
 ---
+# Using Indents
 You can set or modify a first line indent, right indent, left indent and hanging indent of a paragraph by using the [horizontal ruler](#ruler), [Dialog Box](#dialog_box) or [Increase/Decrease Indent buttons](#buttons).
 
 ![EUD_ASPxRichEdit_Indents_ExampleIndents-2](../../../images/Img117958.png)

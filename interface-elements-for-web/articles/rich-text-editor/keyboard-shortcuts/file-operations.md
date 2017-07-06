@@ -1,6 +1,7 @@
 ---
 title: File Operations
 ---
+# File Operations
 The key combinations used to perform file operations are listed in the table below.
 
 | Shortcut | Description |

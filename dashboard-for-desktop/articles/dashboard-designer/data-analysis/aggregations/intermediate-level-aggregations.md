@@ -1,6 +1,7 @@
 ---
 title: Intermediate Level Aggregations
 ---
+# Intermediate Level Aggregations
 The Dashboard can aggregate and summarize data on different levels.
 * The [Query Builder](../../../../../dashboard-for-desktop/articles/dashboard-designer/working-with-data/using-the-query-builder.md) allows you to prepare an underlying data source before analyzing data. You can apply grouping, sorting, summarization and other data shaping operations during data selection.
 * [Dashboard items](../../../../../dashboard-for-desktop/articles/dashboard-designer/designing-dashboard-items.md) aggregate and summarize data at a visualization level using dimensions and measures, respectively. To learn more, see [Binding Dashboard Items to Data](../../../../../dashboard-for-desktop/articles/dashboard-designer/binding-dashboard-items-to-data/binding-dashboard-items-to-data.md).

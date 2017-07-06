@@ -1,6 +1,7 @@
 ---
 title: Geo Point Map
 ---
+# Geo Point Map
 The **Geo Point Map** dashboard item allows you to place callouts on the map using geographical coordinates.
 
 ![MapsOverview_GeoPointMap](../../../../images/Img23628.png)

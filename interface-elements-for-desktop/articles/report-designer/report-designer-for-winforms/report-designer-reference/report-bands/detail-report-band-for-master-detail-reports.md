@@ -1,6 +1,7 @@
 ---
 title: Detail Report Band for Master-Detail Reports
 ---
+# Detail Report Band for Master-Detail Reports
 The **Detail Report** band is a type of band used to incorporate one report into another in [master-detail reports](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/create-reports/report-types/master-detail-report-(detail-report-bands).md). It is quite different from the [Detail band](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-reference/report-bands/detail-band.md), since it holds the whole _detail_ report in a _master-detail_ report layout, and therefore can contain other types of bands within it.
 
 ![RD_Bands_DetailReport_0](../../../../../images/Img11147.png)

@@ -1,6 +1,7 @@
 ---
 title: Adjust the Layout of Report Elements
 ---
+# Adjust the Layout of Report Elements
 This document describes how to customize the [report elements](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-wpf/report-elements.md) layout and consists of the following sections.
 * [Selecting Report Elements](#selecting)
 * [Moving Report Elements](#moving)

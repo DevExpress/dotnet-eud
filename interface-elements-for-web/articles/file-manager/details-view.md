@@ -1,6 +1,7 @@
 ---
 title: Details View
 ---
+# Details View
 **File Manager** allows you to perform the following actions in the details view.
 * Resize a column
 * Drag-and-drop a column

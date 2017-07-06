@@ -1,6 +1,7 @@
 ---
 title: Passing Parameter Values
 ---
+# Passing Parameter Values
 In this topic, you will learn how to pass parameter values to a dashboard.
 * [SQL Queries](#sql-queries)
 * [Filtering](#filtering)

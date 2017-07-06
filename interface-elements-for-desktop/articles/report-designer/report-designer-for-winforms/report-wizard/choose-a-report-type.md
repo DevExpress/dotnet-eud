@@ -1,6 +1,7 @@
 ---
 title: Choose a Report Type
 ---
+# Choose a Report Type
 On this wizard page, you can choose which report to create.
 
 ![RD_ReportWizard_Standard_0](../../../../images/Img8299.png)

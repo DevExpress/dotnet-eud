@@ -1,6 +1,7 @@
 ---
 title: Create a Side-by-Side Report
 ---
+# Create a Side-by-Side Report
 This tutorial describes the steps used to create a side-by-side report to compare different items within the report.
 
 Follow these steps to create a side-by-side report.

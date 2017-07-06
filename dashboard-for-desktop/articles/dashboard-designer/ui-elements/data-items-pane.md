@@ -1,6 +1,7 @@
 ---
 title: Data Items Pane
 ---
+# Data Items Pane
 The **DATA ITEMS** pane is placed side-by-side with the [Data Source Browser](../../../../dashboard-for-desktop/articles/dashboard-designer/ui-elements/data-source-browser.md), and allows you to create and modify data binding using drag-and-drop operations.
 
 To learn how to bind dashboard items to data source fields, see the [Binding Dashboard Items to Data](../../../../dashboard-for-desktop/articles/dashboard-designer/binding-dashboard-items-to-data/binding-dashboard-items-to-data.md) topic.

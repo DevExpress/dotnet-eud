@@ -1,6 +1,7 @@
 ---
 title: Navigate Scheduler Time Cells
 ---
+# Navigate Scheduler Time Cells
 The following table contains the typical navigation operations:
 
 | Action | Effect |

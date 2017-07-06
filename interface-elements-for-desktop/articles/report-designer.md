@@ -1,6 +1,7 @@
 ---
 title: Report Designer
 ---
+# Report Designer
 This documentation section contains information about the basic principles of creating reports with Report Designers.
 
 The Report Designer user interface may vary depending on your application platform.

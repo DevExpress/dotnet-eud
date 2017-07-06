@@ -1,6 +1,7 @@
 ---
 title: Manipulating Tokens
 ---
+# Manipulating Tokens
 ## Add a Token
 ![EU_XtraEditors_Tokens](../../images/Img127016.png)
 

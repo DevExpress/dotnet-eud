@@ -1,6 +1,7 @@
 ---
 title: Providing Data
 ---
+# Providing Data
 The Dashboard Designer allows you to bind various dashboard items to data in a virtually uniform manner. To learn more, see the [Binding Dashboard Items to Data](../../../../../dashboard-for-desktop/articles/dashboard-designer/binding-dashboard-items-to-data/binding-dashboard-items-to-data.md) topic. The only difference is in the data sections that the required dashboard item has.
 
 The Treemap dashboard item has the **Values** and **Arguments** data sections that provide numeric and discrete categorical data, respectively. The steps below provide the most common scenarios of binding a Treemap to data.

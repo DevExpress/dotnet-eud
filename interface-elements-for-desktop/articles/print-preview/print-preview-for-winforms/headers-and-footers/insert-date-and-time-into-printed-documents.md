@@ -1,6 +1,7 @@
 ---
 title: Insert Date and Time into Printed Documents
 ---
+# Insert Date and Time into Printed Documents
 If you need to display the date and time when a document is printed, first [invoke the Header and Footer dialog](../../../../../interface-elements-for-desktop/articles/print-preview/print-preview-for-winforms/headers-and-footers/insert-page-header-and-page-footer-into-printed-documents.md).
 
 Then, click on the appropriate text box, depending on the required alignment, and do the following:

@@ -1,6 +1,7 @@
 ---
 title: Delete Conditions in Filter Editor
 ---
+# Delete Conditions in Filter Editor
 To delete a condition, click the ![FilterEditor_EU_DeleteButton](../../images/Img7351.png) button. .
 
 ![ASPxFilterControl-RemoveCondition](../../images/Img8963.png)

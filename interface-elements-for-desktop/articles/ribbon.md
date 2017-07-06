@@ -1,6 +1,7 @@
 ---
 title: Ribbon
 ---
+# Ribbon
 The Ribbon organizes commands into a tabbed interface, providing quick and intuitive access to these commands.
 
 ![EU_Ribbon](../images/Img9115.png)

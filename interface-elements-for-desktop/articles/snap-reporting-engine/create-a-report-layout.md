@@ -1,6 +1,7 @@
 ---
 title: Create a Report Layout
 ---
+# Create a Report Layout
 Topics in this section provide information on creating reports with different layouts in Snap.
 * [Create a Mail-Merge Report](../../../interface-elements-for-desktop/articles/snap-reporting-engine/create-a-report-layout/create-a-mail-merge-report.md)
 * [Create a Master-Detail Report](../../../interface-elements-for-desktop/articles/snap-reporting-engine/create-a-report-layout/create-a-master-detail-report.md)

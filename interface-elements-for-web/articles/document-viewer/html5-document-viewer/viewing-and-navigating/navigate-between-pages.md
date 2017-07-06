@@ -1,6 +1,7 @@
 ---
 title: Navigate Between Pages
 ---
+# Navigate Between Pages
 To navigate to a specific page of a document, select the required page in the dedicated dropdown list on the Document Viewer's toolbar.
 
 ![EUD_HTML5DV_NavigateToPage](../../../../images/Img121838.png)

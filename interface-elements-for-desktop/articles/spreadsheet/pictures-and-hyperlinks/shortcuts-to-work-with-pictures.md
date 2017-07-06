@@ -1,6 +1,7 @@
 ---
 title: Shortcuts to Work with Pictures
 ---
+# Shortcuts to Work with Pictures
 The **Spreadsheet** allows you to move, resize or rotate pictures quickly using keyboard shortcuts.
 
 To work with pictures, use the default shortcuts listed in the table below.

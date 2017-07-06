@@ -1,6 +1,7 @@
 ---
 title: Find and Replace Text
 ---
+# Find and Replace Text
 ## Find Text
 To search for every occurrence of a specific word or phrase:
 1. On the **Home** [ tab](../../../../interface-elements-for-desktop/articles/rich-text-editor/text-editor-ui/ribbon-interface.md), in the **Editing** group, click the **Find** button...

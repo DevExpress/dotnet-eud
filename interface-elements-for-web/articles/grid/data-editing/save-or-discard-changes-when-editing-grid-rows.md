@@ -1,6 +1,7 @@
 ---
 title: Save or Discard Changes when Editing Grid Rows
 ---
+# Save or Discard Changes when Editing Grid Rows
 ## Save Changes
 To save the changes made, click **Update**.
 

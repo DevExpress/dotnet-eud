@@ -1,6 +1,7 @@
 ---
 title: Sorting Data
 ---
+# Sorting Data
 This document demonstrates how to sort data within a report's detail area and within groups. Note that as with data grouping, sorting can be performed only if a report is [bound to a data source](../../../../../interface-elements-for-web/articles/report-designer/creating-reports/providing-data/bind-a-report-to-data.md). In this example, we'll use the report created in the following tutorial: [Grouping Data](../../../../../interface-elements-for-web/articles/report-designer/creating-reports/shaping-data/grouping-data.md).
 
 To sort records in a data-aware report, do the following.

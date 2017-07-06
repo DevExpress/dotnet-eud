@@ -1,6 +1,7 @@
 ---
 title: Mail Merge Overview
 ---
+# Mail Merge Overview
 The **Spreadsheet** supports the **Mail Merge** functionality, which allows you to automatically generate a set of documents based on a common template, and include unique data values retrieved from a data source in each document. Use mail merge to generate personalized letters and a variety of professional reports.
 * [Add a Data Source](#datasource)
 * [Create a Template](#createtemplate)

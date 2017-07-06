@@ -1,6 +1,7 @@
 ---
 title: Sort Items in a Pivot Table
 ---
+# Sort Items in a Pivot Table
 The following topic describes how to sort items in the PivotTable fields by [labels](#labels) and [summary values](#values).
 
 <a name="labels"/>

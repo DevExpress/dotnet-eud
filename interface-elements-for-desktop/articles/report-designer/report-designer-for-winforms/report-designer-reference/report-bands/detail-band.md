@@ -1,6 +1,7 @@
 ---
 title: Detail Band
 ---
+# Detail Band
 The **Detail** band is the central part of a report. Unlike other bands, it cannot be deleted - the present report structure includes the Detail band in its core. In a [data-bound report](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/create-reports/binding-a-report-to-data.md), the contents of the Detail band are repeated for every data entry (e.g. if you're building a report listing, say, products, it will be rendered for each product in the database). And, if [static data](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-editing-basics/add-or-modify-static-information-in-your-report.md) is also  present in the Detail band, in the resulting report, it is repeated with each new entry.
 
 ![RD_CreateReports_BindControl_4](../../../../../images/Img8337.png)

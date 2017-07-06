@@ -1,6 +1,7 @@
 ---
 title: Simple Sorting
 ---
+# Simple Sorting
 Values of dimension fields are always arranged in ascending or descending order. The sort order is indicated by an Up or Down arrow displayed within a corresponding dimension field's header.
 
 ![ASPxPivotGrid_DataSorting](../../../../images/Img8922.png)

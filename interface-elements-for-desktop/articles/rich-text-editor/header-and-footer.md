@@ -1,6 +1,7 @@
 ---
 title: Header and Footer
 ---
+# Header and Footer
 Headers and footers are the areas at the bottom or the top of each page in a document. You can insert text or graphics into headers and footers (for example, [page numbers](../../../interface-elements-for-desktop/articles/rich-text-editor/miscellaneous/insert-page-numbers.md), a [company logo](../../../interface-elements-for-desktop/articles/rich-text-editor/pictures-and-text-boxes/insert-a-picture.md), the document title or file name, the author's name).
 
 ## Insert a Header or Footer

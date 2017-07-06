@@ -1,6 +1,7 @@
 ---
 title: 'General Tools: View'
 ---
+# General Tools: View
 The **View** toolbar contains commands that control the presentation of document elements on the [Design Surface](../../../../../interface-elements-for-desktop/articles/snap-reporting-engine/graphical-user-interface/snap-application-elements/design-surface.md).
 
 These commands are divided into the following categories.

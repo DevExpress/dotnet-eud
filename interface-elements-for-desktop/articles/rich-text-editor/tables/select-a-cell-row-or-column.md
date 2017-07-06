@@ -1,6 +1,7 @@
 ---
 title: Select a Cell, Row or Column
 ---
+# Select a Cell, Row or Column
 ## Select a Cell
 You can select a table cell in one of the following ways.
 * Double-click a cell.

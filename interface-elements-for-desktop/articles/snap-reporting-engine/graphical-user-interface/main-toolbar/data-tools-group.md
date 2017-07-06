@@ -1,6 +1,7 @@
 ---
 title: 'Data Tools: Group'
 ---
+# Data Tools: Group
 This toolbar is context sensitive, and becomes active after placing the text cursor in a group header or footer.
 
 To create a new group, use the **Group By Field** command of the [Data Tools: Field](../../../../../interface-elements-for-desktop/articles/snap-reporting-engine/graphical-user-interface/main-toolbar/data-tools-field.md) toolbar.

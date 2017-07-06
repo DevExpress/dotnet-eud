@@ -1,6 +1,7 @@
 ---
 title: Navigation inside Documents
 ---
+# Navigation inside Documents
 The key combinations that allow you to navigate through a document are listed in the table below.
 
 | Shortcut | Description |

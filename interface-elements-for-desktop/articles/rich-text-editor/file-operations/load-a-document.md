@@ -1,6 +1,7 @@
 ---
 title: Load a Document
 ---
+# Load a Document
 To load a document, on the **File** tab, in the **Common** group, click the **Open** button, or use the **CTRL+O** keyboard shortcut.
 
 ![RTELoadDocument](../../../images/Img121246.png)

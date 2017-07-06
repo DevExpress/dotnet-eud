@@ -1,6 +1,7 @@
 ---
 title: Hide and Display Tree List Columns
 ---
+# Hide and Display Tree List Columns
 ## Hide Columns
 Do one of the following:
 * Click a column header and drag it outside the header panel, until the cursor changes its image to the big 'X'. Then drop the header.

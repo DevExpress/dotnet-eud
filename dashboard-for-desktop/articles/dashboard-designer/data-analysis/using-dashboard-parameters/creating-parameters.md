@@ -1,6 +1,7 @@
 ---
 title: Creating Parameters
 ---
+# Creating Parameters
 This topic explains how to create a new dashboard parameter and specify its settings.
 * [Creating Parameters in the Dashboard Designer](#creating-parameters-in-the-dashboard-designer)
 * [Look-Up Editor Settings](#look-up-editor-settings)

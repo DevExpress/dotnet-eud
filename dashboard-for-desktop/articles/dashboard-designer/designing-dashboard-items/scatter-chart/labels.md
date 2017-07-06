@@ -1,6 +1,7 @@
 ---
 title: Labels
 ---
+# Labels
 The Scatter Chart display can display **point labels** that contain descriptions for data points, and provide **tooltips** with additional information.
 
 ![ScatterChartLabels](../../../../images/Img120329.png)

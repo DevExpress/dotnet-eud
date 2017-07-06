@@ -1,6 +1,7 @@
 ---
 title: Drill-Down
 ---
+# Drill-Down
 Dashboard provides the **Drill-Down** feature, which allows you to change the detail level of data displayed in a dashboard item. The Drill-Down feature enables users to drill down to display detail data, or drill up to view more general information.
 
 ![Anim_Cards_DrillDown](../../../images/Img19995.gif)

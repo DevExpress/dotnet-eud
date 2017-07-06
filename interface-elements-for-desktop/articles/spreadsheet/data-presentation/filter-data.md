@@ -1,6 +1,7 @@
 ---
 title: Filter Data
 ---
+# Filter Data
 The **Spreadsheet** allows you to use the AutoFilter to arrange large amounts of data by displaying only rows that meet the filtering criteria.
 
 To enable the filtering functionality, select the required data, and on the **Data** tab, in the **Sort &#38; Filter** group, click the **Filter** button.

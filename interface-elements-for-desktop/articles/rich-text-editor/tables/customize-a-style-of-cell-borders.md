@@ -1,6 +1,7 @@
 ---
 title: Customize a Style of Cell Borders
 ---
+# Customize a Style of Cell Borders
 Before you add borders to table cells, you can specify a style to be applied to borders.
 
 To set a style for cell borders, do the following:

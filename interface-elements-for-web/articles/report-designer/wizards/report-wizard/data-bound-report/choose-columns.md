@@ -1,6 +1,7 @@
 ---
 title: Choose Columns
 ---
+# Choose Columns
 On this page, you can choose fields whose data will be displayed in your report. The selected fields and corresponding captions will be automatically added to the report body.
 
 ![web-report-designer-wizard-choose-columns](../../../../../images/Img24818.png)

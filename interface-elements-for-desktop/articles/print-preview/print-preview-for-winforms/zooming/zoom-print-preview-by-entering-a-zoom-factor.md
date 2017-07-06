@@ -1,6 +1,7 @@
 ---
 title: Zoom Print Preview by Entering a Zoom Factor
 ---
+# Zoom Print Preview by Entering a Zoom Factor
 To zoom to a specific zoom factor, do one of the following.
 * Click the **Zooming** dropdown list button. The following list will be invoked.
 	

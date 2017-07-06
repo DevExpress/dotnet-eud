@@ -1,6 +1,7 @@
 ---
 title: Use the Query Builder
 ---
+# Use the Query Builder
 This topic describes how to use the **Query Builder** to manage data tables and their relations in a Snap data model (e.g., to create master-detail data sources), filter incoming data and specify a custom SQL string.
 
 The Query Builder displays the structure of a connected data source along with its associated Snap data model. When designing a report, this data model is reflected in the [Data Explorer](../../../../interface-elements-for-desktop/articles/snap-reporting-engine/graphical-user-interface/snap-application-elements/data-explorer.md).

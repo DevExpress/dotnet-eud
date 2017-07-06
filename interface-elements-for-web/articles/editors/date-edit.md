@@ -1,6 +1,7 @@
 ---
 title: Date Edit
 ---
+# Date Edit
 The **Date Edit** is used to specify a date and time.
 
 ![EUD_DateEdit1](../../images/Img25480.png)

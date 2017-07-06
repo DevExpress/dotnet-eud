@@ -1,6 +1,7 @@
 ---
 title: Web Dashboard - Viewer Mode
 ---
+# Web Dashboard - Viewer Mode
 The **Web Dashboard** provides the capability to display dashboards in web browsers on desktop and mobile devices.
 
 ![WebDashboard_ViewerMode_Overview_dx](../images/Img127377.png)

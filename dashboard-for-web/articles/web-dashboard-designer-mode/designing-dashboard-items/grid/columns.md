@@ -1,6 +1,7 @@
 ---
 title: Columns
 ---
+# Columns
 The Grid dashboard item supports four types of columns.
 
 ![wdd-grid-columns-overview](../../../../images/Img125253.png)

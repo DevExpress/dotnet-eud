@@ -1,6 +1,7 @@
 ---
 title: Specify Summary Options
 ---
+# Specify Summary Options
 > This wizard step is only available if you have applied data grouping in the previous step ([Add Grouping Levels](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-wizard/data-bound-report/add-grouping-levels.md)). If you have not grouped data, this step is skipped.
 
 Use this wizard page to specify totals to be displayed for each data group and grand totals for the entire report. The specified totals will be displayed after corresponding groups and in the report footer.

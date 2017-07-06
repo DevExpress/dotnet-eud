@@ -1,6 +1,7 @@
 ---
 title: Script Editor
 ---
+# Script Editor
 The **Script Editor** allows you to write code for specific event handlers in the [Report Designer](../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-wpf.md) to adjust the behavior of [report controls](../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-wpf/report-elements/report-controls.md), [bands](../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-wpf/report-elements/report-bands.md) or the report itself.
 
 ![WPFDesigner_ScriptEditor](../../../../images/Img123181.png)

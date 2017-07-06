@@ -1,6 +1,7 @@
 ---
 title: Docking
 ---
+# Docking
 In the **Docking** section, you will learn about the main runtime capabilities of the DocumentManager and DockManager, which can be combined to create traditional docking UI applications (see the image below). 
 
 ![DockingDemo - VS13 skin](../images/Img22595.png)

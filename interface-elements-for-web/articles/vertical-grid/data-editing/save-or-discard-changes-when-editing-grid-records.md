@@ -1,6 +1,7 @@
 ---
 title: Save or Discard Changes when Editing Grid Records
 ---
+# Save or Discard Changes when Editing Grid Records
 ## Save Changes
 To save the changes you made, click **Save changes**.
 

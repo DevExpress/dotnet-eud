@@ -1,6 +1,7 @@
 ---
 title: News Control
 ---
+# News Control
 The **News Control** displays news in a list-based view. Click **Details** to open a page with a required article.
 
 ![News Control Pager](../images/Img24050.png)

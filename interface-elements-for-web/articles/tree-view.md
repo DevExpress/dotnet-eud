@@ -1,6 +1,7 @@
 ---
 title: Tree View
 ---
+# Tree View
 **Tree View** is used to represent hierarchical data as a tree.
 
 ![TreeView - Add methods](../images/Img12409.png)

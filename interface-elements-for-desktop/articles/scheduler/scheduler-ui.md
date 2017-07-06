@@ -1,6 +1,7 @@
 ---
 title: Scheduler UI
 ---
+# Scheduler UI
 This section describes the command interface of the Scheduler.
 
 Topics in this section:

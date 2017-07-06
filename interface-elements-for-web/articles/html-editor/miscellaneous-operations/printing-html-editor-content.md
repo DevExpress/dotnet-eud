@@ -1,6 +1,7 @@
 ---
 title: Printing HTML Editor Content
 ---
+# Printing HTML Editor Content
 The editor's content can be printed by using the **Print** (![ASPxHtmlEditor-Buttons-Printing](../../../images/Img8901.png)) toolbar button.
  
 

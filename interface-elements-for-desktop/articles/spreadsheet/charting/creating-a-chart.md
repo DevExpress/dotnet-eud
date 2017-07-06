@@ -1,6 +1,7 @@
 ---
 title: Creating a Chart
 ---
+# Creating a Chart
 The **Spreadsheet** allows you to create charts quickly using the **Charts** group of the **Insert** tab.
 
 To create a chart, select the table that contains the data you wish to use for the chart. Note that the **Spreadsheet** only allows you to create charts for data series representing a contiguous cell range.

@@ -1,6 +1,7 @@
 ---
 title: Working with Dropdown Editors
 ---
+# Working with Dropdown Editors
 ## Open Editor's Dropdown
 Do one of the following:
 * Focus the editor and press ALT+DOWN ARROW or F4.

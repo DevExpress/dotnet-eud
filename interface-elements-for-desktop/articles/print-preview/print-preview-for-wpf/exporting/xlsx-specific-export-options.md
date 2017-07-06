@@ -1,6 +1,7 @@
 ---
 title: XLSX-Specific Export Options
 ---
+# XLSX-Specific Export Options
 When [exporting a document](../../../../../interface-elements-for-desktop/articles/print-preview/print-preview-for-wpf/exporting/exporting.md), you can define the following XLSX-specific exporting options.
 
 ![EUD_WpfPrintPreview_XlsxExportOptions](../../../../images/Img124163.png)

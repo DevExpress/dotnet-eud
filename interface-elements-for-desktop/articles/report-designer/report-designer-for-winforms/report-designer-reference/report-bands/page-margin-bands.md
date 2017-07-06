@@ -1,6 +1,7 @@
 ---
 title: Page Margin Bands
 ---
+# Page Margin Bands
 The **Top Margin** and **Bottom Margin** bands represent the top and bottom page margins. Unlike other bands, they are not accompanied by strips displaying their titles in the [Design Panel](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-reference/report-designer-ui/design-panel.md).
 
 ![RD_Bands_Margins_0](../../../../../images/Img8305.png)

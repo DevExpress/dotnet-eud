@@ -1,6 +1,7 @@
 ---
 title: Data Presentation Basics
 ---
+# Data Presentation Basics
 The **Chart** dashboard item presents data visually using different types of series.
 
 ![ChartDashboardItem_Web](../../../../images/Img22473.png)

@@ -1,6 +1,7 @@
 ---
 title: Layout
 ---
+# Layout
 The Pie dashboard item allows you to specify the number of columns or rows in which pies are arranged. For example, the following image show pies arranged into 3 columns.
 
 ![wdd-pie-content-arr-fixed-column.png](../../../../images/Img125197.png)

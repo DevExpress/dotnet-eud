@@ -1,6 +1,7 @@
 ---
 title: Specify a Connection String
 ---
+# Specify a Connection String
 On this wizard page, specify a connection string. Additionally, this page requires you to specify whether or not to store the connection string in the application configuration file.
 
 ![WpfReportWizard_EF_SpecifyConnectionString](../../../../../../images/Img122129.png)

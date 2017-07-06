@@ -1,6 +1,7 @@
 ---
 title: Choose a Table or View
 ---
+# Choose a Table or View
 On this page, select a data table or view that will provide data to your report.
 
 ![web-report-designer-wizard-choose-table-or-view](../../../../../images/Img24817.png)

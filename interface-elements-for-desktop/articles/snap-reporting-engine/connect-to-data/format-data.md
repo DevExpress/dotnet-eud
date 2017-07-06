@@ -1,6 +1,7 @@
 ---
 title: Format Data
 ---
+# Format Data
 This document describes how to format dynamic textual data in a **Snap** document.
 
 To format report data, do the following.

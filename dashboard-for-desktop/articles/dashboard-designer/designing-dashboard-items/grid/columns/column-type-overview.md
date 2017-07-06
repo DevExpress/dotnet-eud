@@ -1,6 +1,7 @@
 ---
 title: Column Type Overview
 ---
+# Column Type Overview
 The **Grid** dashboard item supports four types of columns.
 * [Dimension Column](../../../../../../dashboard-for-desktop/articles/dashboard-designer/designing-dashboard-items/grid/columns/dimension-column.md)
 	

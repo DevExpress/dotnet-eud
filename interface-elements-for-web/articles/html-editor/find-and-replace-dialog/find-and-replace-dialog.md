@@ -1,6 +1,7 @@
 ---
 title: Find and Replace Dialog
 ---
+# Find and Replace Dialog
 The **Find and Replace dialog** allows you to search text, navigate through search results and replace them.
 
 To invoke the dialog, click the corresponding button in a toolbar or in the [Search Panel](../../../../interface-elements-for-web/articles/html-editor/html-editor-user-interface/search-panel.md), or press the CTRL+H keys.

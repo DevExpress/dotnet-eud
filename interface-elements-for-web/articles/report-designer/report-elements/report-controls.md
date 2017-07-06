@@ -1,6 +1,7 @@
 ---
 title: Report Controls
 ---
+# Report Controls
 In general, _report controls_ allow you to present information of different kinds (e.g., simple or formatted text, pictures, tables, etc.) in your static and [dynamic](../../../../interface-elements-for-web/articles/report-designer/creating-reports/providing-data/bind-report-controls-to-data.md) reports, and to [adjust your report's layout](../../../../interface-elements-for-web/articles/report-designer/creating-reports/basic-operations/adjust-the-layout-of-report-elements.md) (by organizing controls within panels, and inserting page breaks at the required positions).
 
 The following table lists the available controls (in the same order as in the [Toolbox](../../../../interface-elements-for-web/articles/report-designer/interface-elements/toolbox.md)).

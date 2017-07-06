@@ -1,6 +1,7 @@
 ---
 title: Change Conditions in Filter Editor
 ---
+# Change Conditions in Filter Editor
 You can modify the manner that filter conditions change the columns in a filter.
 
 ## Change a Column in a Filter Condition

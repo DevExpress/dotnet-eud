@@ -1,6 +1,7 @@
 ---
 title: View Modes
 ---
+# View Modes
 The HTML Editor can operate in three modes: [Design mode](#designmode), [HTML mode](#htmlmode), and [Preview mode](#previewmode). You can switch between modes by using the tab headers.
 
 ![ASPxHtmlEditor - overview](../../../images/Img7358.png)

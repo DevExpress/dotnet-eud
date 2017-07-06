@@ -1,6 +1,7 @@
 ---
 title: Interactivity
 ---
+# Interactivity
 To enable interaction between the Card and other dashboard items, you can use interactivity features like **Master Filtering** and **Drill-Down**.
 * [Master Filtering](#masterfiltering)
 * [Drill-Down](#drilldown)

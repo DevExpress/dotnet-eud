@@ -1,6 +1,7 @@
 ---
 title: File Manager
 ---
+# File Manager
 This section describes the capabilities provided by the **File Manager**.
 
 ![ASPxFileManager_UD](../images/Img13302.png)

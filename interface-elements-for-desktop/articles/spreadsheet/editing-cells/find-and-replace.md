@@ -1,6 +1,7 @@
 ---
 title: Find and Replace
 ---
+# Find and Replace
 The **Spreadsheet** allows you to search for specific data in the current worksheet. To perform a search, on the **Home** tab, in the **Editing** group, click the **Find &#38; Select** button. The button's drop-down menu will be displayed.
 
 ![FindAndSelectButton](../../../images/Img23391.png)

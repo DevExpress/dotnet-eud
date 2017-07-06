@@ -1,6 +1,7 @@
 ---
 title: Dashboard Viewer
 ---
+# Dashboard Viewer
 The **Dashboard Viewer** provides the capability to display dashboards in Windows Forms applications.
 
 ![WinViewerOverview](../images/Img124551.png)

@@ -1,6 +1,7 @@
 ---
 title: Main Toolbar
 ---
+# Main Toolbar
 The **Main Toolbar** contains buttons which provide the capability to create new reports, save and load report layouts, cut, copy and paste report elements, and undo-redo actions in the Report Designer.
 
 ![RD_Elements_MainToolbar](../../../../../images/Img8257.png)

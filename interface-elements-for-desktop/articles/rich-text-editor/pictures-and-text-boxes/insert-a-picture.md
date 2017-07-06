@@ -1,6 +1,7 @@
 ---
 title: Insert a Picture
 ---
+# Insert a Picture
 You can insert either [inline](#inlinepicture) or [floating](#floatingpicture) graphics in the document. Currently it is not possible to convert inline to floating and vice versa, so you have to choose beforehand how to anchor your picture.
 
 The **Rich Text Editor** enables you to insert graphics of the following types:

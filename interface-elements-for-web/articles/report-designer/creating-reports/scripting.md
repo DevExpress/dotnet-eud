@@ -1,6 +1,7 @@
 ---
 title: Scripting
 ---
+# Scripting
 This document describes the basic principles of _scripting_, which can be performed by handling the events of a report, and its [bands](../../../../interface-elements-for-web/articles/report-designer/report-elements/report-bands.md) and [controls](../../../../interface-elements-for-web/articles/report-designer/report-elements/report-controls.md).
 
 This documents consists of the following sections.

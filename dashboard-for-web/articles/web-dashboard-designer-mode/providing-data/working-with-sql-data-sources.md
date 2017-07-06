@@ -1,6 +1,7 @@
 ---
 title: Working with SQL Data Sources
 ---
+# Working with SQL Data Sources
 Topics in this section describe how to work with data in a [connected SQL data source](../../../../dashboard-for-web/articles/web-dashboard-designer-mode/providing-data/connect-to-an-existing-data-source.md).
 * [Manage SQL Queries](../../../../dashboard-for-web/articles/web-dashboard-designer-mode/providing-data/working-with-sql-data-sources/manage-sql-queries.md)
 * [Dashboard Data Source Wizard](../../../../dashboard-for-web/articles/web-dashboard-designer-mode/providing-data/working-with-sql-data-sources/dashboard-data-source-wizard.md)

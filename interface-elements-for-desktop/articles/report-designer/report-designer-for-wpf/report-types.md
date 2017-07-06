@@ -1,6 +1,7 @@
 ---
 title: Report Types
 ---
+# Report Types
 The tutorials in this section provide detailed instructions on how to create reports of different types with the Report Designer.
 * [Static Report](../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-wpf/report-types/static-report.md)
 * [Table Report](../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-wpf/report-types/table-report.md)

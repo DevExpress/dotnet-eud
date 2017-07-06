@@ -1,6 +1,7 @@
 ---
 title: SQL Data Source Wizard
 ---
+# SQL Data Source Wizard
 Two different SQL Data Source Wizard versions are available, one to create a new data source and the other to edit an existing one.
 * [Adding a New Data Source](../../../../interface-elements-for-web/articles/report-designer/wizards/sql-data-source-wizard/adding-a-new-data-source.md)
 	

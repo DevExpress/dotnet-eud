@@ -1,6 +1,7 @@
 ---
 title: Sparkline
 ---
+# Sparkline
 _Sparklines_ can be used to visualize the variation of [actual or target](../../../../../dashboard-for-desktop/articles/dashboard-designer/designing-dashboard-items/cards/providing-data.md) values (for instance, over time).
 
 ![Card_StretchedLayout_Sparkline](../../../../images/Img128184.png)

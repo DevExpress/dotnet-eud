@@ -1,6 +1,7 @@
 ---
 title: Create a Query or Select a Stored Procedure (Single-Query Wizard Version)
 ---
+# Create a Query or Select a Stored Procedure (Single-Query Wizard Version)
 > This wizard step appears only if you are creating a new report from scratch and your software provider switched the Report Wizard to single-query mode.
 
 On this page, you can construct a SQL query to obtain data from the database or select a stored procedure.

@@ -1,6 +1,7 @@
 ---
 title: Shortcuts
 ---
+# Shortcuts
 By default, HTML Editor provides the following shortcuts.
 
 | Shortcut | Description |

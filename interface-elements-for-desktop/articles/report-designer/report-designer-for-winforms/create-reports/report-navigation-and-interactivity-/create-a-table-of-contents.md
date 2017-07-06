@@ -1,6 +1,7 @@
 ---
 title: Create a Table of Contents
 ---
+# Create a Table of Contents
 This tutorial describes the steps to create a report with a table of contents. A table of contents is automatically created based on the [bookmarks](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/create-reports/report-navigation-and-interactivity-/add-bookmarks.md) existing in a report.
 
 To create a table of contents in a report, do the following.

@@ -1,6 +1,7 @@
 ---
 title: Interactivity
 ---
+# Interactivity
 This section describes features that enable interaction between the Scatter Chart and other dashboard items. These features include Master Filtering and Drill-Down.
 
 The section contains the following topics.

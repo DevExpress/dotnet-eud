@@ -1,6 +1,7 @@
 ---
 title: Report Settings
 ---
+# Report Settings
 This document details settings that affect the entire report.
 
 A **Report** is the main object in the Report Designer, as it's the document being edited. A typical report is shown in the following image (as it looks in the [Designer Tab](../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-reference/report-designer-ui/designer-tab.md)).

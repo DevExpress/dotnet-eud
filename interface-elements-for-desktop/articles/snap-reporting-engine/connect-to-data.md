@@ -1,6 +1,7 @@
 ---
 title: Connect to Data
 ---
+# Connect to Data
 The topics in this section describe the various aspects of providing data to a Snap document.
 * [Connect a Document to a Data Source](../../../interface-elements-for-desktop/articles/snap-reporting-engine/connect-to-data/connect-a-document-to-a-data-source.md)
 * [Create a Master-Detail Data Source](../../../interface-elements-for-desktop/articles/snap-reporting-engine/connect-to-data/create-a-master-detail-data-source.md)

@@ -1,6 +1,7 @@
 ---
 title: Orientation
 ---
+# Orientation
 You can rotate the Chart so that the X-axis becomes vertical, and the Y-axis becomes horizontal.
 
 ![wdd-chart-rotated](../../../../images/Img125615.png)

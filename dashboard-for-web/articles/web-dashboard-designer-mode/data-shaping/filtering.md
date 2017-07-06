@@ -1,6 +1,7 @@
 ---
 title: Filtering
 ---
+# Filtering
 The Web Dashboard allows you to apply filtering for individual dashboard items, filter a [query](../../../../dashboard-for-web/articles/web-dashboard-designer-mode/providing-data/working-with-sql-data-sources.md) of the SQL Data Source or the entire Data Source.
 
 This topic describes how to filter data in the dashboard items.

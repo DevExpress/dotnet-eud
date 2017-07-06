@@ -1,6 +1,7 @@
 ---
 title: Protect a Worksheet
 ---
+# Protect a Worksheet
 Worksheet protection locks the cells so that you can only perform a specific (restricted) set of actions.
 
 By default, all cells in the worksheet are locked. When protection is applied to the worksheet, these cells become read-only. However, you can specify certain actions which can be performed with the locked cells in a protected worksheet.

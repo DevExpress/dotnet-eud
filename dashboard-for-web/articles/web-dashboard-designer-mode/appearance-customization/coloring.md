@@ -1,6 +1,7 @@
 ---
 title: Coloring
 ---
+# Coloring
 The Web Dashboard provides the capability to manage the coloring of dashboard item elements, such as chart series points or pie segments.
 * [Supported Dashboard Items](#supporteditems)
 * [Color Schemes Overview](#overview)

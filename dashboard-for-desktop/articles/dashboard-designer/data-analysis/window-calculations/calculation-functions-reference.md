@@ -1,6 +1,7 @@
 ---
 title: Calculation Functions Reference
 ---
+# Calculation Functions Reference
 This topic contains the descriptions of window functions that can be used to specify measure expressions.
 
 | Function | Description | Example | Image |

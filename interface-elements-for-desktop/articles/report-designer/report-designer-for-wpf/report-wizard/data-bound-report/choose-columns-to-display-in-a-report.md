@@ -1,6 +1,7 @@
 ---
 title: Choose Columns to Display in a Report
 ---
+# Choose Columns to Display in a Report
 This wizard page allows you to select fields (attributes) whose data will be displayed in a report.
 
 The list on the left-hand side shows all available fields (attributes). To select the required fields to be displayed in the report, move them to the right-hand side. Use the dedicated arrow buttons to move fields back and forth.

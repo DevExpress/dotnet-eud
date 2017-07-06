@@ -1,6 +1,7 @@
 ---
 title: Filtering Data
 ---
+# Filtering Data
 If the data source [bound](../../../../../interface-elements-for-web/articles/report-designer/creating-reports/providing-data/bind-a-report-to-data.md) to your report contains far more data rows than are necessary for processing report creation, you can exclude excessive or undesired data. To accomplish this, construct a filtering expression, using single or multiple data fields.
 
 This document describes two approaches to filtering data with the [Web Report Designer](../../../../../interface-elements-for-web/articles/report-designer.md).

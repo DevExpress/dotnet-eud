@@ -1,6 +1,7 @@
 ---
 title: Navigate through a Document
 ---
+# Navigate through a Document
 You can navigate through a document in the following ways:
 * Use the mouse device to click anywhere in the document;
 * Use the mouse device to drag the scroll box to move through the document;

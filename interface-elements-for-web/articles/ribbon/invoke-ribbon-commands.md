@@ -1,6 +1,7 @@
 ---
 title: Invoke Ribbon Commands
 ---
+# Invoke Ribbon Commands
 To select a specific command, you can click it with the mouse or invoke it via its access key. See below for more information.
 
 Access keys are associated with each tab and command in the Ribbon. Access keys can be visualized using KeyTips. The KeyTips are little boxes displaying access keys. To see the KeyTips, press Ctrl+Shift+[Access Key] (Access Key is defined by your application vendor). KeyTips will appear next to the corresponding tabs and commands.

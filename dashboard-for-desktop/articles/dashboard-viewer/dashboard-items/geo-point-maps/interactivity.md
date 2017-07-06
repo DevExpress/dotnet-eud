@@ -1,6 +1,7 @@
 ---
 title: Interactivity
 ---
+# Interactivity
 This document describes the capabilities that enable interaction between **Geo Point** maps and other dashboard items. These capabilities include **Master Filtering**.
 
 ## Master Filtering

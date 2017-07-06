@@ -1,6 +1,7 @@
 ---
 title: Zoom Print Preview In or Out
 ---
+# Zoom Print Preview In or Out
 ## Zoom In and Out of a Document
 * To zoom in a document, click the **Zoom In** ![previewButtonZoomIn](../../../../images/Img7268.png) button on the toolbar, or press CTRL+PLUS SIGN.
 * To zoom out of a document, click the **Zoom Out** ![previewButtonZoomOut](../../../../images/Img7269.png) button on the toolbar, or press CTRL+MINUS SIGN.

@@ -1,6 +1,7 @@
 ---
 title: Add Groping Levels
 ---
+# Add Groping Levels
 This wizard page allows you to group data in a report. If you don't need to group your data, click **Next** to skip this step.
 
 ![WPDDesigner_ReportWizard_AddGroupingLevels](../../../../../images/Img122888.png)

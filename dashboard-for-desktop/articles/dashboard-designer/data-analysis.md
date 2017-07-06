@@ -1,6 +1,7 @@
 ---
 title: Data Analysis
 ---
+# Data Analysis
 This section describes how to perform advanced data analysis using the aggregate and window functions, dashboard parameters, etc.
 
 The section consists of the following topics.

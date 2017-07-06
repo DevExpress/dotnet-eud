@@ -1,6 +1,7 @@
 ---
 title: Automatic and Manual Updates
 ---
+# Automatic and Manual Updates
 When you perform a data-aware operation in the Dashboard Designer (for instance, [change the binding](../../../dashboard-for-desktop/articles/dashboard-designer/binding-dashboard-items-to-data/binding-dashboard-items-to-data.md) of a specified dashboard item or apply [filtering](../../../dashboard-for-desktop/articles/dashboard-designer/data-shaping/filtering.md)), the dashboard sends a query to a data source and updates itself automatically according to the returned data. If the dashboard is bound to a large data source, updating the dashboard according to each change can consume a significant amount of time. In this case, you can disable automatic updates and update the dashboard manually when needed.
 
 Automatic updates are enabled by default and can be managed using the **Automatic Updates** button in the **Home** ribbon tab.

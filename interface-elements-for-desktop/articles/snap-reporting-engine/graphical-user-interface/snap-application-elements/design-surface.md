@@ -1,6 +1,7 @@
 ---
 title: Design Surface
 ---
+# Design Surface
 This document describes the design surface of a Snap application.
 
 The design surface is the primary working area of a Snap application, which contains the document and allows you to modify its layout.

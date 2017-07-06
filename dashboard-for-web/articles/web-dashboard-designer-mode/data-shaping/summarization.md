@@ -1,6 +1,7 @@
 ---
 title: Summarization
 ---
+# Summarization
 To obtain numeric values that should be displayed within a dashboard item, Dashboard calculates a summary function against the specified measure.
 
 ## <a name="summaryfunctiontypes"/>Summary Function Types

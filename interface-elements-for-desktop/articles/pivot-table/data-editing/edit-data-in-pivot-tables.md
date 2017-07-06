@@ -1,6 +1,7 @@
 ---
 title: Edit Data in Pivot Tables
 ---
+# Edit Data in Pivot Tables
 ## Edit Cell Values
 To edit a cell value, click the cell and specify a new value:
 

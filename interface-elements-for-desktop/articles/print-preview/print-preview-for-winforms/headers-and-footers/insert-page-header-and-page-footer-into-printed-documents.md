@@ -1,6 +1,7 @@
 ---
 title: Insert Page Header and Page Footer into Printed Documents
 ---
+# Insert Page Header and Page Footer into Printed Documents
 To insert a page header and page footer into a document, click the **Header and Footer** ![previewButtonHeaderFooter](../../../../images/Img7264.png) button on the toolbar. This will invoke the **Header and Footer** dialog.
 
 ![HeaderAndFooterDialog](../../../../images/Img7299.png)

@@ -1,6 +1,7 @@
 ---
 title: Filter Elements Overview
 ---
+# Filter Elements Overview
 The Web Dashboard allows you to create three types of filter elements that provide the capability to filter other dashboard items.
 * [Combo Box](#combobox)
 * [List Box](#listbox)

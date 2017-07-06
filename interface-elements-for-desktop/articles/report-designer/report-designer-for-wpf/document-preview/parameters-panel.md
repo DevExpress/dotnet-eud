@@ -1,6 +1,7 @@
 ---
 title: Parameters Panel
 ---
+# Parameters Panel
 The **Parameters** panel allows you to specify [report parameters](../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-wpf/creating-reports/providing-data/report-parameters.md) before generating a report preview.
 
 ![WPFDesigner_ParametersPanel](../../../../images/Img120188.png)

@@ -1,6 +1,7 @@
 ---
 title: Data-bound Report
 ---
+# Data-bound Report
 Select the **Data-bound Report** option on the [Choose a Report Type](../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-wizard/choose-a-report-type.md) wizard page to create a data-bound report.
 
 ![RD_ReportWizard_Standard_0](../../../../images/Img8299.png)
