@@ -13,4 +13,4 @@ The DevExpress end-user documentation is divided into four target platforms:
 * [Dashboard for Web](dashboard-for-web/articles/README.md)
 
 ## Licensing Questions
-According to the [End-User Documentation License Agreement](https://www.devexpress.com/Support/EULAs/EndUserDocumentation.xml, you have a permit to modify, re-use and distribute this end-user documentation.
+According to the [End-User Documentation License Agreement](https://www.devexpress.com/Support/EULAs/EndUserDocumentation.xml), you have a permit to modify, re-use and distribute this end-user documentation.
