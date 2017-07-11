@@ -1,1049 +1,1049 @@
 - name: Common Activities
-  href: articles\common-activities\common-activities.md
+  href: articles/common-activities.md
   items:
   - name: Touch Support
-    href: articles\common-activities\touch-support\touch-support.md
+    href: articles/common-activities/touch-support.md
 - name: Card View
-  href: articles\card-view\card-view.md
+  href: articles/card-view.md
   items:
   - name: Data Editing
     items:
     - name: Add and Delete Cards
-      href: articles\card-view\data-editing\add-and-delete-cards\add-and-delete-cards.md
+      href: articles/card-view/data-editing/add-and-delete-cards.md
     - name: Switching a CardView to Edit Mode
-      href: articles\card-view\data-editing\switching-a-cardview-to-edit-mode\switching-a-cardview-to-edit-mode.md
+      href: articles/card-view/data-editing/switching-a-cardview-to-edit-mode.md
     - name: 'Save or Discard Changes '
-      href: articles\card-view\data-editing\save-or-discard-changes-\save-or-discard-changes-.md
+      href: articles/card-view/data-editing/save-or-discard-changes.md
     - name: Batch Editing
-      href: articles\card-view\data-editing\batch-editing\batch-editing.md
+      href: articles/card-view/data-editing/batch-editing.md
   - name: Selection and Navigation
     items:
     - name: Page Navigation
-      href: articles\card-view\selection-and-navigation\page-navigation\page-navigation.md
+      href: articles/card-view/selection-and-navigation/page-navigation.md
     - name: Select Cards
-      href: articles\card-view\selection-and-navigation\select-cards\select-cards.md
+      href: articles/card-view/selection-and-navigation/select-cards.md
   - name: Sorting
-    href: articles\card-view\sorting\sorting.md
+    href: articles/card-view/sorting.md
   - name: Filtering
     items:
     - name: Creating Complex Filter Criteria with the Filter Control
-      href: articles\card-view\filtering\creating-complex-filter-criteria-with-the-filter-control\creating-complex-filter-criteria-with-the-filter-control.md
+      href: articles/card-view/filtering/creating-complex-filter-criteria-with-the-filter-control.md
     - name: Header Filter
-      href: articles\card-view\filtering\header-filter\header-filter.md
+      href: articles/card-view/filtering/header-filter.md
     - name: Search Panel
-      href: articles\card-view\filtering\search-panel\search-panel.md
+      href: articles/card-view/filtering/search-panel.md
 - name: Charting
-  href: articles\charting\charting.md
+  href: articles/charting.md
   items:
   - name: Chart Designer
-    href: articles\charting\chart-designer.md
+    href: articles/charting/chart-designer.md
   - name: Series Selection
-    href: articles\charting\series-selection.md
+    href: articles/charting/series-selection.md
 - name: Data View
-  href: articles\data-view\data-view.md
+  href: articles/data-view.md
 - name: Docking Panel
-  href: articles\docking-panel\docking-panel.md
+  href: articles/docking-panel.md
 - name: Document Viewer
-  href: articles\document-viewer\document-viewer.md
+  href: articles/document-viewer.md
   items:
   - name: Classic Document Viewer
-    href: articles\document-viewer\classic-document-viewer\classic-document-viewer.md
+    href: articles/document-viewer/classic-document-viewer.md
     items:
     - name: Navigation
       items:
       - name: Navigate to a Specific Report Page
-        href: articles\document-viewer\classic-document-viewer\navigation\navigate-to-a-specific-report-page.md
+        href: articles/document-viewer/classic-document-viewer/navigation/navigate-to-a-specific-report-page.md
       - name: Navigate using Report Bookmarks
-        href: articles\document-viewer\classic-document-viewer\navigation\navigate-using-report-bookmarks.md
+        href: articles/document-viewer/classic-document-viewer/navigation/navigate-using-report-bookmarks.md
       - name: Search for a Specific Text within a Report
-        href: articles\document-viewer\classic-document-viewer\navigation\search-for-a-specific-text-within-a-report.md
+        href: articles/document-viewer/classic-document-viewer/navigation/search-for-a-specific-text-within-a-report.md
     - name: Printing
       items:
       - name: Print a Report Using the PDF Web Browser Plug-In
-        href: articles\document-viewer\classic-document-viewer\printing\print-a-report-using-the-pdf-web-browser-plug-in.md
+        href: articles/document-viewer/classic-document-viewer/printing/print-a-report-using-the-pdf-web-browser-plug-in.md
       - name: Install and Activate the Adobe Reader Plug-In for Printing in a Web Browser
-        href: articles\document-viewer\classic-document-viewer\printing\install-and-activate-the-adobe-reader-plug-in-for-printing-in-a-web-browser.md
+        href: articles/document-viewer/classic-document-viewer/printing/install-and-activate-the-adobe-reader-plug-in-for-printing-in-a-web-browser.md
       - name: Print Reports Using the Native Functionality of a Web Browser
-        href: articles\document-viewer\classic-document-viewer\printing\print-reports-using-the-native-functionality-of-a-web-browser.md
+        href: articles/document-viewer/classic-document-viewer/printing/print-reports-using-the-native-functionality-of-a-web-browser.md
     - name: Exporting
       items:
       - name: Export a Report and Save It to the Disk
-        href: articles\document-viewer\classic-document-viewer\exporting\export-a-report-and-save-it-to-the-disk.md
+        href: articles/document-viewer/classic-document-viewer/exporting/export-a-report-and-save-it-to-the-disk.md
       - name: Export a Report and Show It in a New Window
-        href: articles\document-viewer\classic-document-viewer\exporting\export-a-report-and-show-it-in-a-new-window.md
+        href: articles/document-viewer/classic-document-viewer/exporting/export-a-report-and-show-it-in-a-new-window.md
     - name: Passing Parameter Values
-      href: articles\document-viewer\classic-document-viewer\passing-parameters\passing-parameter-values.md
+      href: articles/document-viewer/classic-document-viewer/passing-parameter-values.md
   - name: HTML5 Document Viewer
-    href: articles\document-viewer\html5-document-viewer\html5-document-viewer.md
+    href: articles/document-viewer/html5-document-viewer.md
     items:
     - name: Viewing and Navigating
       items:
       - name: Navigate Between Pages
-        href: articles\document-viewer\html5-document-viewer\viewing-and-navigating\navigate-between-pages.md
+        href: articles/document-viewer/html5-document-viewer/viewing-and-navigating/navigate-between-pages.md
       - name: Navigate Using Bookmarks
-        href: articles\document-viewer\html5-document-viewer\viewing-and-navigating\navigate-using-bookmarks.md
+        href: articles/document-viewer/html5-document-viewer/viewing-and-navigating/navigate-using-bookmarks.md
       - name: Search for a Specific Text
-        href: articles\document-viewer\html5-document-viewer\viewing-and-navigating\search-for-a-specific-text.md
+        href: articles/document-viewer/html5-document-viewer/viewing-and-navigating/search-for-a-specific-text.md
       - name: Switch Display Mode
-        href: articles\document-viewer\html5-document-viewer\viewing-and-navigating\switch-display-mode.md
+        href: articles/document-viewer/html5-document-viewer/viewing-and-navigating/switch-display-mode.md
       - name: Zooming
-        href: articles\document-viewer\html5-document-viewer\viewing-and-navigating\zooming.md
+        href: articles/document-viewer/html5-document-viewer/viewing-and-navigating/zooming.md
     - name: Content Editing
-      href: articles\document-viewer\html5-document-viewer\content-editing\content-editing.md
+      href: articles/document-viewer/html5-document-viewer/content-editing.md
     - name: Passing Parameter Values
-      href: articles\document-viewer\html5-document-viewer\passing-parameter-values\passing-parameter-values.md
+      href: articles/document-viewer/html5-document-viewer/passing-parameter-values.md
     - name: Printing
-      href: articles\document-viewer\html5-document-viewer\printing\printing.md
+      href: articles/document-viewer/html5-document-viewer/printing.md
     - name: Exporting
       items:
       - name: Export a  Document
-        href: articles\document-viewer\html5-document-viewer\exporting\export-a-document.md
+        href: articles/document-viewer/html5-document-viewer/exporting/export-a-document.md
       - name: CSV-Specific Export Options
-        href: articles\document-viewer\html5-document-viewer\exporting\csv-specific-export-options.md
+        href: articles/document-viewer/html5-document-viewer/exporting/csv-specific-export-options.md
       - name: HTML-Specific Export Options
-        href: articles\document-viewer\html5-document-viewer\exporting\html-specific-export-options.md
+        href: articles/document-viewer/html5-document-viewer/exporting/html-specific-export-options.md
       - name: Image-Specific Export Options
-        href: articles\document-viewer\html5-document-viewer\exporting\image-specific-export-options.md
+        href: articles/document-viewer/html5-document-viewer/exporting/image-specific-export-options.md
       - name: MHT-Specific Export Options
-        href: articles\document-viewer\html5-document-viewer\exporting\mht-specific-export-options.md
+        href: articles/document-viewer/html5-document-viewer/exporting/mht-specific-export-options.md
       - name: PDF-Specific Export Options
-        href: articles\document-viewer\html5-document-viewer\exporting\pdf-specific-export-options.md
+        href: articles/document-viewer/html5-document-viewer/exporting/pdf-specific-export-options.md
       - name: RTF-Specific Export Options
-        href: articles\document-viewer\html5-document-viewer\exporting\rtf-specific-export-options.md
+        href: articles/document-viewer/html5-document-viewer/exporting/rtf-specific-export-options.md
       - name: Text-Specific Export Options
-        href: articles\document-viewer\html5-document-viewer\exporting\text-specific-export-options.md
+        href: articles/document-viewer/html5-document-viewer/exporting/text-specific-export-options.md
       - name: XLS-Specific Export Options
-        href: articles\document-viewer\html5-document-viewer\exporting\xls-specific-export-options.md
+        href: articles/document-viewer/html5-document-viewer/exporting/xls-specific-export-options.md
       - name: XLSX-Specific Export Options
-        href: articles\document-viewer\html5-document-viewer\exporting\xlsx-specific-export-options.md
+        href: articles/document-viewer/html5-document-viewer/exporting/xlsx-specific-export-options.md
       - name: DOCX-Specific Export Options
-        href: articles\document-viewer\html5-document-viewer\exporting\docx-specific-export-options.md
+        href: articles/document-viewer/html5-document-viewer/exporting/docx-specific-export-options.md
 - name: Editors
-  href: articles\editors\editors.md
+  href: articles/editors.md
   items:
   - name: Work with Dropdown Editors
-    href: articles\editors\work-with-dropdown-editors\work-with-dropdown-editors.md
+    href: articles/editors/work-with-dropdown-editors.md
   - name: Editing Values, Selecting Text and Using the Clipboard
-    href: articles\editors\editing-values-selecting-text-and-using-the-clipboard\editing-values-selecting-text-and-using-the-clipboard.md
+    href: articles/editors/editing-values-selecting-text-and-using-the-clipboard.md
   - name: Editor Context Menu
-    href: articles\editors\editor-context-menu\editor-context-menu.md
+    href: articles/editors/editor-context-menu.md
   - name: Masked Input
-    href: articles\editors\masked-input\masked-input.md
+    href: articles/editors/masked-input.md
   - name: Calendar
-    href: articles\editors\calendar\calendar.md
+    href: articles/editors/calendar.md
     items:
     - name: Fast Navigation Window
-      href: articles\editors\calendar\fast-navigation-window\fast-navigation-window.md
+      href: articles/editors/calendar/fast-navigation-window.md
     - name: Date Selection
-      href: articles\editors\calendar\date-selection\date-selection.md
+      href: articles/editors/calendar/date-selection.md
   - name: Captcha
-    href: articles\editors\captcha\captcha.md
+    href: articles/editors/captcha.md
   - name: Color Edit
-    href: articles\editors\color-edit\color-edit.md
+    href: articles/editors/color-edit.md
     items:
     - name: Custom Color Picker
-      href: articles\editors\color-edit\custom-color-picker\custom-color-picker.md
+      href: articles/editors/color-edit/custom-color-picker.md
   - name: Date Edit
-    href: articles\editors\date-edit\date-edit.md
+    href: articles/editors/date-edit.md
   - name: Image Uploading
-    href: articles\editors\image-uploading-(binary-image)\image-uploading.md
+    href: articles/editors/image-uploading.md
   - name: Token Box
-    href: articles\editors\token-box\token-box.md
+    href: articles/editors/token-box.md
   - name: Track Bar
-    href: articles\editors\track-bar\track-bar.md
+    href: articles/editors/track-bar.md
     items:
     - name: Track and Scale Clicks
-      href: articles\editors\track-bar\track-and-scale-clicks.md
+      href: articles/editors/track-bar/track-and-scale-clicks.md
     - name: Change Buttons Clicks
-      href: articles\editors\track-bar\change-buttons-clicks.md
+      href: articles/editors/track-bar/change-buttons-clicks.md
     - name: Dragging Bar Highlight
-      href: articles\editors\track-bar\dragging-bar-highlight.md
+      href: articles/editors/track-bar/dragging-bar-highlight.md
     - name: Drag Handle Drag-n-Drop
-      href: articles\editors\track-bar\drag-handle-drag-n-drop.md
+      href: articles/editors/track-bar/drag-handle-drag-n-drop.md
   - name: Validation Summary
-    href: articles\editors\validation-summary\validation-summary.md
+    href: articles/editors/validation-summary.md
 - name: File Manager
-  href: articles\file-manager\file-manager.md
+  href: articles/file-manager.md
   items:
   - name: File and Folder Editing
-    href: articles\file-manager\files-and-folders-editing\file-and-folder-editing.md
+    href: articles/file-manager/file-and-folder-editing.md
   - name: Filtering Files
-    href: articles\file-manager\filtering-files\filtering-files.md
+    href: articles/file-manager/filtering-files.md
   - name: Multiple File Selection
-    href: articles\file-manager\multiple-file-selection\multiple-file-selection.md
+    href: articles/file-manager/multiple-file-selection.md
   - name: Uploading Files
-    href: articles\file-manager\uploading-files\uploading-files.md
+    href: articles/file-manager/uploading-files.md
   - name: Downloading Files
-    href: articles\file-manager\downloading-files\downloading-files.md
+    href: articles/file-manager/downloading-files.md
   - name: Details View
-    href: articles\file-manager\details-view\details-view.md
+    href: articles/file-manager/details-view.md
   - name: Access Control
-    href: articles\file-manager\access-control\access-control.md
+    href: articles/file-manager/access-control.md
 - name: File Upload Control
-  href: articles\file-upload-control\file-upload-control.md
+  href: articles/file-upload-control.md
   items:
   - name: Uploading a Single File
-    href: articles\file-upload-control\uploading-a-single-file.md
+    href: articles/file-upload-control/uploading-a-single-file.md
   - name: Uploading Multiple Files
-    href: articles\file-upload-control\uploading-multiple-files.md
+    href: articles/file-upload-control/uploading-multiple-files.md
   - name: Canceling File Uploading
-    href: articles\file-upload-control\canceling-file-uploading.md
+    href: articles/file-upload-control/canceling-file-uploading.md
   - name: 'Multi-File Selection '
-    href: articles\file-upload-control\multi-file-selection-.md
+    href: articles/file-upload-control/multi-file-selection.md
 - name: Filter Editor
-  href: articles\filter-editor\filter-editor.md
+  href: articles/filter-editor.md
   items:
   - name: Create New Conditions in Filter Editor
-    href: articles\filter-editor\create-new-conditions-in-filter-editor.md
+    href: articles/filter-editor/create-new-conditions-in-filter-editor.md
   - name: Change Conditions in Filter Editor
-    href: articles\filter-editor\change-conditions-in-filter-editor.md
+    href: articles/filter-editor/change-conditions-in-filter-editor.md
   - name: Delete Conditions in Filter Editor
-    href: articles\filter-editor\delete-conditions-in-filter-editor.md
+    href: articles/filter-editor/delete-conditions-in-filter-editor.md
 - name: Grid
-  href: articles\grid\grid.md
+  href: articles/grid.md
   items:
   - name: Data Editing
     items:
     - name: Add and Delete Grid Rows
-      href: articles\grid\data-editing\add-and-delete-grid-rows.md
+      href: articles/grid/data-editing/add-and-delete-grid-rows.md
     - name: Save or Discard Changes when Editing Grid Rows
-      href: articles\grid\data-editing\save-or-discard-changes-when-editing-grid-rows.md
+      href: articles/grid/data-editing/save-or-discard-changes-when-editing-grid-rows.md
     - name: Switch a Grid to Edit Mode
-      href: articles\grid\data-editing\switch-a-grid-to-edit-mode.md
+      href: articles/grid/data-editing/switch-a-grid-to-edit-mode.md
     - name: Batch Editing
-      href: articles\grid\data-editing\batch-editing.md
+      href: articles/grid/data-editing/batch-editing.md
   - name: Selection and Navigation
     items:
     - name: Page Navigation in Grids
-      href: articles\grid\selection-and-navigation\page-navigation-in-grids.md
+      href: articles/grid/selection-and-navigation/page-navigation-in-grids.md
     - name: Select Grid Rows
-      href: articles\grid\selection-and-navigation\select-grid-rows.md
+      href: articles/grid/selection-and-navigation/select-grid-rows.md
     - name: Keyboard Navigation
-      href: articles\grid\selection-and-navigation\keyboard-navigation.md
+      href: articles/grid/selection-and-navigation/keyboard-navigation.md
   - name: Expand and Collapse Group Rows
     items:
     - name: Expand and Collapse Group Rows
-      href: articles\grid\expand-and-collapse-group-rows\expand-and-collapse-group-rows.md
+      href: articles/grid/expand-and-collapse-group-rows/expand-and-collapse-group-rows.md
   - name: Sorting
     items:
     - name: Sort Grid Rows
-      href: articles\grid\sorting\sort-grid-rows.md
+      href: articles/grid/sorting/sort-grid-rows.md
   - name: Grouping
     items:
     - name: Group Grid Rows
-      href: articles\grid\grouping\group-grid-rows.md
+      href: articles/grid/grouping/group-grid-rows.md
   - name: Filtering
     items:
     - name: Date Range Header Filter
-      href: articles\grid\filtering\date-range-header-filter.md
+      href: articles/grid/filtering/date-range-header-filter.md
     - name: Filtering Grid Data
-      href: articles\grid\filtering\filtering-grid-data.md
+      href: articles/grid/filtering/filtering-grid-data.md
     - name: Search Panel
-      href: articles\grid\filtering\search-panel.md
+      href: articles/grid/filtering/search-panel.md
     - name: Creating Complex Filter Criteria with the Filter Control
-      href: articles\grid\filtering\creating-complex-filter-criteria-with-the-filter-control.md
+      href: articles/grid/filtering/creating-complex-filter-criteria-with-the-filter-control.md
   - name: Context Menu
     items:
     - name: Context Menu
-      href: articles\grid\context-menu\context-menu.md
+      href: articles/grid/context-menu/context-menu.md
   - name: Layout Customization
     items:
     - name: Hide and Display Grid Columns
-      href: articles\grid\layout-customization\hide-and-display-grid-columns.md
+      href: articles/grid/layout-customization/hide-and-display-grid-columns.md
     - name: Reorder Grid Columns
-      href: articles\grid\layout-customization\reorder-grid-columns.md
+      href: articles/grid/layout-customization/reorder-grid-columns.md
   - name: Customization Dialog
     items:
     - name: Sorting Page
-      href: articles\grid\customization-dialog\sorting-page.md
+      href: articles/grid/customization-dialog/sorting-page.md
     - name: Grouping Page
-      href: articles\grid\customization-dialog\grouping-page.md
+      href: articles/grid/customization-dialog/grouping-page.md
     - name: Filtering Page
-      href: articles\grid\customization-dialog\filtering-page.md
+      href: articles/grid/customization-dialog/filtering-page.md
     - name: Column Chooser
-      href: articles\grid\customization-dialog\column-chooser.md
+      href: articles/grid/customization-dialog/column-chooser.md
   - name: Responsive Layout
     items:
     - name: Responsive Layout
-      href: articles\grid\responsive-layout\responsive-layout.md
+      href: articles/grid/responsive-layout/responsive-layout.md
   - name: Grid Lookup
     items:
     - name: Grid Lookup
-      href: articles\grid\grid-lookup\grid-lookup.md
+      href: articles/grid/grid-lookup/grid-lookup.md
     - name: Filter Grid Lookup Data
-      href: articles\grid\grid-lookup\filter-grid-lookup-data.md
+      href: articles/grid/grid-lookup/filter-grid-lookup-data.md
     - name: Select Grid Lookup Rows
-      href: articles\grid\grid-lookup\select-grid-lookup-rows.md
+      href: articles/grid/grid-lookup/select-grid-lookup-rows.md
 - name: HTML Editor
-  href: articles\html-editor\html-editor.md
+  href: articles/html-editor.md
   items:
   - name: HTML Editor User Interface
     items:
     - name: Ribbon
-      href: articles\html-editor\html-editor-user-interface\ribbon.md
+      href: articles/html-editor/html-editor-user-interface/ribbon.md
     - name: View Modes
-      href: articles\html-editor\html-editor-user-interface\view-modes.md
+      href: articles/html-editor/html-editor-user-interface/view-modes.md
     - name: Context Menu
-      href: articles\html-editor\html-editor-user-interface\context-menu.md
+      href: articles/html-editor/html-editor-user-interface/context-menu.md
     - name: Toolbar
-      href: articles\html-editor\html-editor-user-interface\toolbar.md
+      href: articles/html-editor/html-editor-user-interface/toolbar.md
     - name: Search Panel
-      href: articles\html-editor\html-editor-user-interface\search-panel.md
+      href: articles/html-editor/html-editor-user-interface/search-panel.md
     - name: Tag Inspector
-      href: articles\html-editor\html-editor-user-interface\tag-inspector.md
+      href: articles/html-editor/html-editor-user-interface/tag-inspector.md
   - name: Formatting Text
     items:
     - name: Make Text Bold in HTML Editor
-      href: articles\html-editor\formatting-text\make-text-bold-in-html-editor.md
+      href: articles/html-editor/formatting-text/make-text-bold-in-html-editor.md
     - name: Apply Italic Formatting in HTML Editor
-      href: articles\html-editor\formatting-text\apply-italic-formatting-in-html-editor.md
+      href: articles/html-editor/formatting-text/apply-italic-formatting-in-html-editor.md
     - name: Underline Text in HTML Editor
-      href: articles\html-editor\formatting-text\underline-text-in-html-editor.md
+      href: articles/html-editor/formatting-text/underline-text-in-html-editor.md
     - name: Apply Strikethrough Formatting in HTML Editor
-      href: articles\html-editor\formatting-text\apply-strikethrough-formatting-in-html-editor.md
+      href: articles/html-editor/formatting-text/apply-strikethrough-formatting-in-html-editor.md
     - name: Change Foreground Color in HTML Editor
-      href: articles\html-editor\formatting-text\change-foreground-color-in-html-editor.md
+      href: articles/html-editor/formatting-text/change-foreground-color-in-html-editor.md
     - name: Change Background Color in HTML Editor
-      href: articles\html-editor\formatting-text\change-background-color-in-html-editor.md
+      href: articles/html-editor/formatting-text/change-background-color-in-html-editor.md
     - name: Change Font Type in HTML Editor
-      href: articles\html-editor\formatting-text\change-font-type-in-html-editor.md
+      href: articles/html-editor/formatting-text/change-font-type-in-html-editor.md
     - name: Change Font Size in HTML Editor
-      href: articles\html-editor\formatting-text\change-font-size-in-html-editor.md
+      href: articles/html-editor/formatting-text/change-font-size-in-html-editor.md
     - name: Make Text Superscript or Subscript in HTML Editor
-      href: articles\html-editor\formatting-text\make-text-superscript-or-subscript-in-html-editor.md
+      href: articles/html-editor/formatting-text/make-text-superscript-or-subscript-in-html-editor.md
     - name: Remove Formatting in HTML Editor
-      href: articles\html-editor\formatting-text\remove-formatting-in-html-editor.md
+      href: articles/html-editor/formatting-text/remove-formatting-in-html-editor.md
   - name: Formatting Paragraphs
     items:
     - name: Text Indentation in HTML Editor
-      href: articles\html-editor\formatting-paragraphs\text-indentation-in-html-editor.md
+      href: articles/html-editor/formatting-paragraphs/text-indentation-in-html-editor.md
     - name: Text Alignment in HTML Editor
-      href: articles\html-editor\formatting-paragraphs\text-alignment-in-html-editor.md
+      href: articles/html-editor/formatting-paragraphs/text-alignment-in-html-editor.md
     - name: Paragraph Styling in HTML Editor
-      href: articles\html-editor\formatting-paragraphs\paragraph-styling-in-html-editor.md
+      href: articles/html-editor/formatting-paragraphs/paragraph-styling-in-html-editor.md
     - name: Ordered and Bullet Lists in HTML Editor
-      href: articles\html-editor\formatting-paragraphs\ordered-and-bullet-lists-in-html-editor.md
+      href: articles/html-editor/formatting-paragraphs/ordered-and-bullet-lists-in-html-editor.md
   - name: Paste Formatting
-    href: articles\html-editor\paste-formatting\paste-formatting.md
+    href: articles/html-editor/paste-formatting.md
   - name: Find and Replace Dialog
     items:
     - name: Find and Replace Dialog
-      href: articles\html-editor\find-and-replace-dialog\find-and-replace-dialog.md
+      href: articles/html-editor/find-and-replace-dialog/find-and-replace-dialog.md
   - name: Working with Hyperlinks
     items:
     - name: Create a Hyperlink in HTML Editor
-      href: articles\html-editor\working-with-hyperlinks\create-a-hyperlink-in-html-editor.md
+      href: articles/html-editor/working-with-hyperlinks/create-a-hyperlink-in-html-editor.md
     - name: Modify a Hyperlink in HTML Editor
-      href: articles\html-editor\working-with-hyperlinks\modify-a-hyperlink-in-html-editor.md
+      href: articles/html-editor/working-with-hyperlinks/modify-a-hyperlink-in-html-editor.md
     - name: Remove a Hyperlink in HTML Editor
-      href: articles\html-editor\working-with-hyperlinks\remove-a-hyperlink-in-html-editor.md
+      href: articles/html-editor/working-with-hyperlinks/remove-a-hyperlink-in-html-editor.md
   - name: Working with Tables
     items:
     - name: Create a Table in HTML Editor
-      href: articles\html-editor\working-with-tables\create-a-table-in-html-editor.md
+      href: articles/html-editor/working-with-tables/create-a-table-in-html-editor.md
     - name: Remove a Table in HTML Editor
-      href: articles\html-editor\working-with-tables\remove-a-table-in-html-editor.md
+      href: articles/html-editor/working-with-tables/remove-a-table-in-html-editor.md
     - name: Modify a Table in HTML Editor
-      href: articles\html-editor\working-with-tables\modify-a-table-in-html-editor.md
+      href: articles/html-editor/working-with-tables/modify-a-table-in-html-editor.md
   - name: Working with Images
     items:
     - name: Insert an Image in HTML Editor
-      href: articles\html-editor\working-with-images\insert-an-image-in-html-editor.md
+      href: articles/html-editor/working-with-images/insert-an-image-in-html-editor.md
     - name: Modify an Image's Settings in HTML Editor
-      href: articles\html-editor\working-with-images\modify-an-image's-settings-in-html-editor.md
+      href: articles/html-editor/working-with-images/modify-an-image's-settings-in-html-editor.md
     - name: Image Settings
-      href: articles\html-editor\working-with-images\image-settings.md
+      href: articles/html-editor/working-with-images/image-settings.md
   - name: Working with Audio Files
     items:
     - name: Insert an Audio Into HTML Editor
-      href: articles\html-editor\working-with-audio-files\insert-an-audio-into-html-editor.md
+      href: articles/html-editor/working-with-audio-files/insert-an-audio-into-html-editor.md
     - name: Modify Audio Settings in HTML Editor
-      href: articles\html-editor\working-with-audio-files\modify-audio-settings-in-html-editor.md
+      href: articles/html-editor/working-with-audio-files/modify-audio-settings-in-html-editor.md
     - name: Audio Settings
-      href: articles\html-editor\working-with-audio-files\audio-settings.md
+      href: articles/html-editor/working-with-audio-files/audio-settings.md
   - name: Working with Flash Files
     items:
     - name: Modify Flash Settings in HTML Editor
-      href: articles\html-editor\working-with-flash-files\modify-flash-settings-in-html-editor.md
+      href: articles/html-editor/working-with-flash-files/modify-flash-settings-in-html-editor.md
     - name: Insert a Flash Into HTML Editor
-      href: articles\html-editor\working-with-flash-files\insert-a-flash-into-html-editor.md
+      href: articles/html-editor/working-with-flash-files/insert-a-flash-into-html-editor.md
     - name: Flash Settings
-      href: articles\html-editor\working-with-flash-files\flash-settings.md
+      href: articles/html-editor/working-with-flash-files/flash-settings.md
   - name: Working with Video Files
     items:
     - name: Modify Video Settings in HTML Editor
-      href: articles\html-editor\working-with-video-files\modify-video-settings-in-html-editor.md
+      href: articles/html-editor/working-with-video-files/modify-video-settings-in-html-editor.md
     - name: Insert a Video Into HTML Editor
-      href: articles\html-editor\working-with-video-files\insert-a-video-into-html-editor.md
+      href: articles/html-editor/working-with-video-files/insert-a-video-into-html-editor.md
     - name: Video Settings
-      href: articles\html-editor\working-with-video-files\video-settings.md
+      href: articles/html-editor/working-with-video-files/video-settings.md
   - name: Working with YouTube Video
     items:
     - name: Modify YouTube Video Settings in HTML Editor
-      href: articles\html-editor\working-with-youtube-video\modify-youtube-video-settings-in-html-editor.md
+      href: articles/html-editor/working-with-youtube-video/modify-youtube-video-settings-in-html-editor.md
     - name: Insert a YouTube Video Into HTML Editor
-      href: articles\html-editor\working-with-youtube-video\insert-a-youtube-video-into-html-editor.md
+      href: articles/html-editor/working-with-youtube-video/insert-a-youtube-video-into-html-editor.md
     - name: YouTube Video Settings
-      href: articles\html-editor\working-with-youtube-video\youtube-video-settings.md
+      href: articles/html-editor/working-with-youtube-video/youtube-video-settings.md
   - name: Miscellaneous Operations
     items:
     - name: Repeat and Undo Actions in HTML Editor
-      href: articles\html-editor\miscellaneous-operations\repeat-and-undo-actions-in-html-editor.md
+      href: articles/html-editor/miscellaneous-operations/repeat-and-undo-actions-in-html-editor.md
     - name: Printing HTML Editor Content
-      href: articles\html-editor\miscellaneous-operations\printing-html-editor-content.md
+      href: articles/html-editor/miscellaneous-operations/printing-html-editor-content.md
     - name: Clipboard Operations in HTML Editor
-      href: articles\html-editor\miscellaneous-operations\clipboard-operations-in-html-editor.md
+      href: articles/html-editor/miscellaneous-operations/clipboard-operations-in-html-editor.md
     - name: Check Spelling in HTML Editor
-      href: articles\html-editor\miscellaneous-operations\check-spelling-in-html-editor.md
+      href: articles/html-editor/miscellaneous-operations/check-spelling-in-html-editor.md
     - name: Sizing and Full-Screen Mode
-      href: articles\html-editor\miscellaneous-operations\sizing-and-full-screen-mode.md
+      href: articles/html-editor/miscellaneous-operations/sizing-and-full-screen-mode.md
     - name: Export HTML Editor Content to Various Documents Formats
-      href: articles\html-editor\miscellaneous-operations\export-html-editor-content-to-various-documents-formats.md
+      href: articles/html-editor/miscellaneous-operations/export-html-editor-content-to-various-documents-formats.md
     - name: Shortcuts
-      href: articles\html-editor\miscellaneous-operations\shortcuts.md
+      href: articles/html-editor/miscellaneous-operations/shortcuts.md
 - name: Image Gallery
-  href: articles\image-gallery\image-gallery.md
+  href: articles/image-gallery.md
   items:
   - name: Fullscreen Viewer
-    href: articles\image-gallery\fullscreen-viewer\fullscreen-viewer.md
+    href: articles/image-gallery/fullscreen-viewer.md
   - name: Image Gallery Pager
-    href: articles\image-gallery\image-gallery-pager\image-gallery-pager.md
+    href: articles/image-gallery/image-gallery-pager.md
 - name: Image Slider
-  href: articles\image-slider\image-slider.md
+  href: articles/image-slider.md
 - name: Image Zoom
-  href: articles\image-zoom\image-zoom.md
+  href: articles/image-zoom.md
   items:
   - name: Fullscreen Window
-    href: articles\image-zoom\fullscreen-window\fullscreen-window.md
+    href: articles/image-zoom/fullscreen-window.md
   - name: Navigation Bar
-    href: articles\image-zoom\navigation-bar\navigation-bar.md
+    href: articles/image-zoom/navigation-bar.md
 - name: Menu
-  href: articles\menu\menu.md
+  href: articles/menu.md
   items:
   - name: Menu Scrolling
-    href: articles\menu\menu-scrolling\menu-scrolling.md
+    href: articles/menu/menu-scrolling.md
 - name: Navigation Bar
-  href: articles\navigation-bar\navigation-bar.md
+  href: articles/navigation-bar.md
 - name: News Control
-  href: articles\news-control\news-control.md
+  href: articles/news-control.md
 - name: Pivot Table
-  href: articles\pivot-table\pivot-table.md
+  href: articles/pivot-table.md
   items:
   - name: Data Presentation
-    href: articles\pivot-table\data-presentation\data-presentation.md
+    href: articles/pivot-table/data-presentation.md
     items:
     - name: Sort Data in Pivot Tables
-      href: articles\pivot-table\data-presentation\sort-data\sort-data-in-pivot-tables.md
+      href: articles/pivot-table/data-presentation/sort-data-in-pivot-tables.md
       items:
       - name: Simple Sorting
-        href: articles\pivot-table\data-presentation\sort-data\simple-sorting.md
+        href: articles/pivot-table/data-presentation/sort-data/simple-sorting.md
       - name: Sort Data Using a Field List
-        href: articles\pivot-table\data-presentation\sort-data\sort-data-using-a-field-list.md
+        href: articles/pivot-table/data-presentation/sort-data/sort-data-using-a-field-list.md
       - name: Sort Data by Summaries
-        href: articles\pivot-table\data-presentation\sort-data\sort-data-by-summaries.md
+        href: articles/pivot-table/data-presentation/sort-data/sort-data-by-summaries.md
     - name: Filter Data in Pivot Tables
-      href: articles\pivot-table\data-presentation\filter-data\filter-data-in-pivot-tables.md
+      href: articles/pivot-table/data-presentation/filter-data-in-pivot-tables.md
       items:
       - name: Filter Data by Field Values
-        href: articles\pivot-table\data-presentation\filter-data\filter-data-by-field-values\filter-data-by-field-values.md
+        href: articles/pivot-table/data-presentation/filter-data/filter-data-by-field-values.md
         items:
         - name: Invoke a Filter Popup Window
-          href: articles\pivot-table\data-presentation\filter-data\filter-data-by-field-values\invoke-a-filter-popup-window.md
+          href: articles/pivot-table/data-presentation/filter-data/filter-data-by-field-values/invoke-a-filter-popup-window.md
         - name: Using Filter Popup Windows
-          href: articles\pivot-table\data-presentation\filter-data\filter-data-by-field-values\using-filter-popup-windows.md
+          href: articles/pivot-table/data-presentation/filter-data/filter-data-by-field-values/using-filter-popup-windows.md
       - name: Build Complex Filter Criteria
-        href: articles\pivot-table\data-presentation\filter-data\build-complex-filter-criteria\build-complex-filter-criteria.md
+        href: articles/pivot-table/data-presentation/filter-data/build-complex-filter-criteria.md
   - name: Layout Customization
-    href: articles\pivot-table\layout-customization\layout-customization.md
+    href: articles/pivot-table/layout-customization.md
     items:
     - name: Expand and Collapse Groups in Pivot Tables
-      href: articles\pivot-table\layout-customization\expand-and-collapse-groups\expand-and-collapse-groups-in-pivot-tables.md
+      href: articles/pivot-table/layout-customization/expand-and-collapse-groups-in-pivot-tables.md
     - name: Hide Pivot Table Fields
-      href: articles\pivot-table\layout-customization\hide-fields\hide-pivot-table-fields.md
+      href: articles/pivot-table/layout-customization/hide-pivot-table-fields.md
       items:
       - name: Hide Fields Using the Context Menu
-        href: articles\pivot-table\layout-customization\hide-fields\hide-fields-using-the-context-menu.md
+        href: articles/pivot-table/layout-customization/hide-fields/hide-fields-using-the-context-menu.md
       - name: Hide Fields Using a Field List
-        href: articles\pivot-table\layout-customization\hide-fields\hide-fields-using-a-field-list.md
+        href: articles/pivot-table/layout-customization/hide-fields/hide-fields-using-a-field-list.md
     - name: Display Hidden Pivot Table Fields
-      href: articles\pivot-table\layout-customization\display-hidden-fields\display-hidden-pivot-table-fields.md
+      href: articles/pivot-table/layout-customization/display-hidden-pivot-table-fields.md
     - name: Reorder Pivot Table Fields
-      href: articles\pivot-table\layout-customization\reorder-fields\reorder-pivot-table-fields.md
+      href: articles/pivot-table/layout-customization/reorder-pivot-table-fields.md
       items:
       - name: Simple Fields Reordering
-        href: articles\pivot-table\layout-customization\reorder-fields\simple-fields-reordering.md
+        href: articles/pivot-table/layout-customization/reorder-fields/simple-fields-reordering.md
       - name: Reorder Fields Using a Field List
-        href: articles\pivot-table\layout-customization\reorder-fields\reorder-fields-using-a-field-list.md
+        href: articles/pivot-table/layout-customization/reorder-fields/reorder-fields-using-a-field-list.md
   - name: Field List Overview
-    href: articles\pivot-table\field-list\field-list-overview.md
+    href: articles/pivot-table/field-list-overview.md
     items:
     - name: Invoke a Field List
-      href: articles\pivot-table\field-list\invoke-a-field-list.md
+      href: articles/pivot-table/field-list/invoke-a-field-list.md
     - name: Defer Pivot Table Updates
-      href: articles\pivot-table\field-list\defer-pivot-table-updates.md
+      href: articles/pivot-table/field-list/defer-pivot-table-updates.md
     - name: Change Field List Layout
-      href: articles\pivot-table\field-list\change-field-list-layout.md
+      href: articles/pivot-table/field-list/change-field-list-layout.md
 - name: Popup Window
-  href: articles\popup-window\popup-window.md
+  href: articles/popup-window.md
 - name: Rating
-  href: articles\rating\rating.md
+  href: articles/rating.md
 - name: Report Designer
-  href: articles\report-designer\report-designer.md
+  href: articles/report-designer.md
   items:
   - name: Report Types
-    href: articles\report-designer\report-types\report-types.md
+    href: articles/report-designer/report-types.md
     items:
     - name: Table Report
-      href: articles\report-designer\report-types\table-report.md
+      href: articles/report-designer/report-types/table-report.md
     - name: Multi-Column Report
-      href: articles\report-designer\report-types\multi-column-report.md
+      href: articles/report-designer/report-types/multi-column-report.md
     - name: Label Report
-      href: articles\report-designer\report-types\label-report.md
+      href: articles/report-designer/report-types/label-report.md
     - name: Parameterized Report
-      href: articles\report-designer\report-types\parameterized-report.md
+      href: articles/report-designer/report-types/parameterized-report.md
     - name: Cross-Tab Report
-      href: articles\report-designer\report-types\cross-tab-report.md
+      href: articles/report-designer/report-types/cross-tab-report.md
     - name: Drill-Down Report
-      href: articles\report-designer\report-types\drill-down-report.md
+      href: articles/report-designer/report-types/drill-down-report.md
     - name: Chart with Static Series
-      href: articles\report-designer\report-types\chart-with-static-series.md
+      href: articles/report-designer/report-types/chart-with-static-series.md
     - name: Chart with Dynamic Series
-      href: articles\report-designer\report-types\chart-with-dynamic-series.md
+      href: articles/report-designer/report-types/chart-with-dynamic-series.md
     - name: Master-Detail Report (Subreports)
-      href: articles\report-designer\report-types\master-detail-report-(subreports).md
+      href: articles/report-designer/report-types/master-detail-report-(subreports).md
     - name: Master-Detail Report (Detail Report Bands)
-      href: articles\report-designer\report-types\master-detail-report-(detail-report-bands).md
+      href: articles/report-designer/report-types/master-detail-report-(detail-report-bands).md
     - name: Master-Detail Report
-      href: articles\report-designer\report-types\master-detail-report.md
+      href: articles/report-designer/report-types/master-detail-report.md
   - name: Creating Reports
-    href: articles\report-designer\creating-reports\creating-reports.md
+    href: articles/report-designer/creating-reports.md
     items:
     - name: Basic Operations
-      href: articles\report-designer\creating-reports\basic-operations\basic-operations.md
+      href: articles/report-designer/creating-reports/basic-operations.md
       items:
       - name: Create a New Report
-        href: articles\report-designer\creating-reports\basic-operations\create-a-new-report.md
+        href: articles/report-designer/creating-reports/basic-operations/create-a-new-report.md
       - name: Create Report Elements
-        href: articles\report-designer\creating-reports\basic-operations\create-report-elements.md
+        href: articles/report-designer/creating-reports/basic-operations/create-report-elements.md
       - name: Change Measurement Units of a Report
-        href: articles\report-designer\creating-reports\basic-operations\change-measurement-units-of-a-report.md
+        href: articles/report-designer/creating-reports/basic-operations/change-measurement-units-of-a-report.md
       - name: Adjust the Layout of Report Elements
-        href: articles\report-designer\creating-reports\basic-operations\adjust-the-layout-of-report-elements.md
+        href: articles/report-designer/creating-reports/basic-operations/adjust-the-layout-of-report-elements.md
       - name: Adjust Page Layout Settings
-        href: articles\report-designer\creating-reports\basic-operations\adjust-page-layout-settings.md
+        href: articles/report-designer/creating-reports/basic-operations/adjust-page-layout-settings.md
     - name: Providing Data
-      href: articles\report-designer\creating-reports\providing-data\providing-data.md
+      href: articles/report-designer/creating-reports/providing-data.md
       items:
       - name: Bind a Report to Data
-        href: articles\report-designer\creating-reports\providing-data\bind-a-report-to-data.md
+        href: articles/report-designer/creating-reports/providing-data/bind-a-report-to-data.md
       - name: Bind Report Controls to Data
-        href: articles\report-designer\creating-reports\providing-data\bind-report-controls-to-data.md
+        href: articles/report-designer/creating-reports/providing-data/bind-report-controls-to-data.md
       - name: Report Parameters
-        href: articles\report-designer\creating-reports\providing-data\report-parameters.md
+        href: articles/report-designer/creating-reports/providing-data/report-parameters.md
       - name: Query Parameters
-        href: articles\report-designer\creating-reports\providing-data\query-parameters.md
+        href: articles/report-designer/creating-reports/providing-data/query-parameters.md
       - name: Calculated Fields
-        href: articles\report-designer\creating-reports\providing-data\calculated-fields.md
+        href: articles/report-designer/creating-reports/providing-data/calculated-fields.md
     - name: Shaping Data
-      href: articles\report-designer\creating-reports\shaping-data\shaping-data.md
+      href: articles/report-designer/creating-reports/shaping-data.md
       items:
       - name: Grouping Data
-        href: articles\report-designer\creating-reports\shaping-data\grouping-data.md
+        href: articles/report-designer/creating-reports/shaping-data/grouping-data.md
       - name: Sorting Data
-        href: articles\report-designer\creating-reports\shaping-data\sorting-data.md
+        href: articles/report-designer/creating-reports/shaping-data/sorting-data.md
       - name: Filtering Data
-        href: articles\report-designer\creating-reports\shaping-data\filtering-data.md
+        href: articles/report-designer/creating-reports/shaping-data/filtering-data.md
       - name: Calculating Summaries
-        href: articles\report-designer\creating-reports\shaping-data\calculating-summaries.md
+        href: articles/report-designer/creating-reports/shaping-data/calculating-summaries.md
       - name: Formatting Data
-        href: articles\report-designer\creating-reports\shaping-data\formatting-data.md
+        href: articles/report-designer/creating-reports/shaping-data/formatting-data.md
     - name: Appearance Customization
-      href: articles\report-designer\creating-reports\appearance-customization\appearance-customization.md
+      href: articles/report-designer/creating-reports/appearance-customization.md
       items:
       - name: Understanding Style Concepts
-        href: articles\report-designer\creating-reports\appearance-customization\understanding-style-concepts.md
+        href: articles/report-designer/creating-reports/appearance-customization/understanding-style-concepts.md
       - name: Use Odd and Even Styles
-        href: articles\report-designer\creating-reports\appearance-customization\use-odd-and-even-styles.md
+        href: articles/report-designer/creating-reports/appearance-customization/use-odd-and-even-styles.md
       - name: Conditionally Change a Control's Appearance
-        href: articles\report-designer\creating-reports\appearance-customization\conditionally-change-a-control's-appearance.md
+        href: articles/report-designer/creating-reports/appearance-customization/conditionally-change-a-control's-appearance.md
       - name: Conditionally Change a Label's Text
-        href: articles\report-designer\creating-reports\appearance-customization\conditionally-change-a-label's-text.md
+        href: articles/report-designer/creating-reports/appearance-customization/conditionally-change-a-label's-text.md
       - name: Conditionally Hide Bands
-        href: articles\report-designer\creating-reports\appearance-customization\conditionally-hide-bands.md
+        href: articles/report-designer/creating-reports/appearance-customization/conditionally-hide-bands.md
     - name: 'Report Navigation and Interactivity '
-      href: articles\report-designer\creating-reports\report-navigation-and-interactivity\report-navigation-and-interactivity-.md
+      href: articles/report-designer/creating-reports/report-navigation-and-interactivity.md
       items:
       - name: Create a Document Map with Bookmarks
-        href: articles\report-designer\creating-reports\report-navigation-and-interactivity\create-a-document-map-with-bookmarks.md
+        href: articles/report-designer/creating-reports/report-navigation-and-interactivity/create-a-document-map-with-bookmarks.md
       - name: Create a Table of Contents
-        href: articles\report-designer\creating-reports\report-navigation-and-interactivity\create-a-table-of-contents.md
+        href: articles/report-designer/creating-reports/report-navigation-and-interactivity/create-a-table-of-contents.md
       - name: Create Hyperlinks
-        href: articles\report-designer\creating-reports\report-navigation-and-interactivity\create-hyperlinks.md
+        href: articles/report-designer/creating-reports/report-navigation-and-interactivity/create-hyperlinks.md
       - name: Add a Cross-Reference
-        href: articles\report-designer\creating-reports\report-navigation-and-interactivity\add-a-cross-reference.md
+        href: articles/report-designer/creating-reports/report-navigation-and-interactivity/add-a-cross-reference.md
       - name: Enable Content Editing in Print Preview
-        href: articles\report-designer\creating-reports\report-navigation-and-interactivity\enable-content-editing-in-print-preview.md
+        href: articles/report-designer/creating-reports/report-navigation-and-interactivity/enable-content-editing-in-print-preview.md
     - name: Add Details about a Report
-      href: articles\report-designer\creating-reports\add-details-about-a-report\add-details-about-a-report.md
+      href: articles/report-designer/creating-reports/add-details-about-a-report.md
       items:
       - name: Add Page Numbers and System Information to a Report
-        href: articles\report-designer\creating-reports\add-details-about-a-report\add-page-numbers-and-system-information-to-a-report.md
+        href: articles/report-designer/creating-reports/add-details-about-a-report/add-page-numbers-and-system-information-to-a-report.md
       - name: Create or Modify Watermarks of a Report
-        href: articles\report-designer\creating-reports\add-details-about-a-report\create-or-modify-watermarks-of-a-report.md
+        href: articles/report-designer/creating-reports/add-details-about-a-report/create-or-modify-watermarks-of-a-report.md
     - name: Scripting
-      href: articles\report-designer\creating-reports\scripting\scripting.md
+      href: articles/report-designer/creating-reports/scripting.md
   - name: Report Elements
-    href: articles\report-designer\report-elements\report-elements.md
+    href: articles/report-designer/report-elements.md
     items:
     - name: Report Controls
-      href: articles\report-designer\report-elements\report-controls.md
+      href: articles/report-designer/report-elements/report-controls.md
     - name: Report Bands
-      href: articles\report-designer\report-elements\report-bands.md
+      href: articles/report-designer/report-elements/report-bands.md
   - name: Interface Elements
-    href: articles\report-designer\interface-elements\interface-elements.md
+    href: articles/report-designer/interface-elements.md
     items:
     - name: Design Surface
-      href: articles\report-designer\interface-elements\design-surface.md
+      href: articles/report-designer/interface-elements/design-surface.md
     - name: Field List
-      href: articles\report-designer\interface-elements\field-list.md
+      href: articles/report-designer/interface-elements/field-list.md
     - name: Main Toolbar
-      href: articles\report-designer\interface-elements\main-toolbar.md
+      href: articles/report-designer/interface-elements/main-toolbar.md
     - name: Menu
-      href: articles\report-designer\interface-elements\menu.md
+      href: articles/report-designer/interface-elements/menu.md
     - name: Properties Panel
-      href: articles\report-designer\interface-elements\properties-panel.md
+      href: articles/report-designer/interface-elements/properties-panel.md
     - name: Query Builder
-      href: articles\report-designer\interface-elements\query-builder.md
+      href: articles/report-designer/interface-elements/query-builder.md
     - name: Report Explorer
-      href: articles\report-designer\interface-elements\report-explorer.md
+      href: articles/report-designer/interface-elements/report-explorer.md
     - name: Toolbox
-      href: articles\report-designer\interface-elements\toolbox.md
+      href: articles/report-designer/interface-elements/toolbox.md
     - name: Custom SQL Editor
-      href: articles\report-designer\interface-elements\custom-sql-editor.md
+      href: articles/report-designer/interface-elements/custom-sql-editor.md
     - name: Expression Editor
-      href: articles\report-designer\interface-elements\expression-editor.md
+      href: articles/report-designer/interface-elements/expression-editor.md
     - name: Filter Editor
-      href: articles\report-designer\interface-elements\filter-editor.md
+      href: articles/report-designer/interface-elements/filter-editor.md
     - name: Format String Editor
-      href: articles\report-designer\interface-elements\format-string-editor.md
+      href: articles/report-designer/interface-elements/format-string-editor.md
     - name: Master-Detail Relation Editor
-      href: articles\report-designer\interface-elements\master-detail-relation-editor.md
+      href: articles/report-designer/interface-elements/master-detail-relation-editor.md
     - name: Script Editor
-      href: articles\report-designer\interface-elements\script-editor.md
+      href: articles/report-designer/interface-elements/script-editor.md
   - name: Wizards
-    href: articles\report-designer\wizards\wizards.md
+    href: articles/report-designer/wizards.md
     items:
     - name: SQL Data Source Wizard
-      href: articles\report-designer\wizards\sql-data-source-wizard\sql-data-source-wizard.md
+      href: articles/report-designer/wizards/sql-data-source-wizard.md
       items:
       - name: Adding a New Data Source
-        href: articles\report-designer\wizards\sql-data-source-wizard\adding-a-new-data-source\adding-a-new-data-source.md
+        href: articles/report-designer/wizards/sql-data-source-wizard/adding-a-new-data-source.md
         items:
         - name: Choose a Data Connection
-          href: articles\report-designer\wizards\sql-data-source-wizard\adding-a-new-data-source\choose-a-data-connection.md
+          href: articles/report-designer/wizards/sql-data-source-wizard/adding-a-new-data-source/choose-a-data-connection.md
         - name: Create a Query or Select a Stored Procedure
-          href: articles\report-designer\wizards\sql-data-source-wizard\adding-a-new-data-source\create-a-query-or-select-a-stored-procedure.md
+          href: articles/report-designer/wizards/sql-data-source-wizard/adding-a-new-data-source/create-a-query-or-select-a-stored-procedure.md
         - name: Configure Query Parameters
-          href: articles\report-designer\wizards\sql-data-source-wizard\adding-a-new-data-source\configure-query-parameters.md
+          href: articles/report-designer/wizards/sql-data-source-wizard/adding-a-new-data-source/configure-query-parameters.md
         - name: Configure Master-Detail Relationships
-          href: articles\report-designer\wizards\sql-data-source-wizard\adding-a-new-data-source\configure-master-detail-relationships.md
+          href: articles/report-designer/wizards/sql-data-source-wizard/adding-a-new-data-source/configure-master-detail-relationships.md
       - name: Editing an Existing Data Source
-        href: articles\report-designer\wizards\sql-data-source-wizard\editing-an-existing-data-source\editing-an-existing-data-source.md
+        href: articles/report-designer/wizards/sql-data-source-wizard/editing-an-existing-data-source.md
         items:
         - name: Create a Query or Select a Stored Procedure
-          href: articles\report-designer\wizards\sql-data-source-wizard\editing-an-existing-data-source\create-a-query-or-select-a-stored-procedure.md
+          href: articles/report-designer/wizards/sql-data-source-wizard/editing-an-existing-data-source/create-a-query-or-select-a-stored-procedure.md
         - name: Configure Query Parameters
-          href: articles\report-designer\wizards\sql-data-source-wizard\editing-an-existing-data-source\configure-query-parameters.md
+          href: articles/report-designer/wizards/sql-data-source-wizard/editing-an-existing-data-source/configure-query-parameters.md
     - name: Report Wizard
-      href: articles\report-designer\wizards\report-wizard\report-wizard.md
+      href: articles/report-designer/wizards/report-wizard.md
       items:
       - name: Choose a Report Type
-        href: articles\report-designer\wizards\report-wizard\choose-a-report-type\choose-a-report-type.md
+        href: articles/report-designer/wizards/report-wizard/choose-a-report-type.md
       - name: Empty Report
-        href: articles\report-designer\wizards\report-wizard\empty-report\empty-report.md
+        href: articles/report-designer/wizards/report-wizard/empty-report.md
       - name: Data-bound Report
-        href: articles\report-designer\wizards\report-wizard\data-bound-report\data-bound-report.md
+        href: articles/report-designer/wizards/report-wizard/data-bound-report.md
         items:
         - name: Choose a Data Source
-          href: articles\report-designer\wizards\report-wizard\data-bound-report\choose-a-data-source.md
+          href: articles/report-designer/wizards/report-wizard/data-bound-report/choose-a-data-source.md
         - name: Choose a Table or View
-          href: articles\report-designer\wizards\report-wizard\data-bound-report\choose-a-table-or-view.md
+          href: articles/report-designer/wizards/report-wizard/data-bound-report/choose-a-table-or-view.md
         - name: Choose Columns
-          href: articles\report-designer\wizards\report-wizard\data-bound-report\choose-columns.md
+          href: articles/report-designer/wizards/report-wizard/data-bound-report/choose-columns.md
         - name: Create Groups
-          href: articles\report-designer\wizards\report-wizard\data-bound-report\create-groups.md
+          href: articles/report-designer/wizards/report-wizard/data-bound-report/create-groups.md
         - name: Choose Summary Options
-          href: articles\report-designer\wizards\report-wizard\data-bound-report\choose-summary-options.md
+          href: articles/report-designer/wizards/report-wizard/data-bound-report/choose-summary-options.md
         - name: Choose a Report Layout
-          href: articles\report-designer\wizards\report-wizard\data-bound-report\choose-a-report-layout.md
+          href: articles/report-designer/wizards/report-wizard/data-bound-report/choose-a-report-layout.md
         - name: Choose a Report Style
-          href: articles\report-designer\wizards\report-wizard\data-bound-report\choose-a-report-style.md
+          href: articles/report-designer/wizards/report-wizard/data-bound-report/choose-a-report-style.md
         - name: Specify the Report Title
-          href: articles\report-designer\wizards\report-wizard\data-bound-report\specify-the-report-title.md
+          href: articles/report-designer/wizards/report-wizard/data-bound-report/specify-the-report-title.md
       - name: Label Report
-        href: articles\report-designer\wizards\report-wizard\label-report\label-report.md
+        href: articles/report-designer/wizards/report-wizard/label-report.md
         items:
         - name: Choose the Label Type
-          href: articles\report-designer\wizards\report-wizard\label-report\choose-the-label-type.md
+          href: articles/report-designer/wizards/report-wizard/label-report/choose-the-label-type.md
         - name: Specify the Label's Parameters
-          href: articles\report-designer\wizards\report-wizard\label-report\specify-the-label's-parameters.md
+          href: articles/report-designer/wizards/report-wizard/label-report/specify-the-label's-parameters.md
   - name: Document Preview
-    href: articles\report-designer\document-preview\document-preview.md
+    href: articles/report-designer/document-preview.md
     items:
     - name: Preview Toolbar
-      href: articles\report-designer\document-preview\preview-toolbar.md
+      href: articles/report-designer/document-preview/preview-toolbar.md
     - name: Export Options Panel
-      href: articles\report-designer\document-preview\export-options-panel.md
+      href: articles/report-designer/document-preview/export-options-panel.md
     - name: Search Panel
-      href: articles\report-designer\document-preview\search-panel.md
+      href: articles/report-designer/document-preview/search-panel.md
     - name: Document Map Panel
-      href: articles\report-designer\document-preview\document-map-panel.md
+      href: articles/report-designer/document-preview/document-map-panel.md
     - name: Preview Parameters Panel
-      href: articles\report-designer\document-preview\preview-parameters-panel.md
+      href: articles/report-designer/document-preview/preview-parameters-panel.md
 - name: Ribbon
-  href: articles\ribbon\ribbon.md
+  href: articles/ribbon.md
   items:
   - name: Minimizing the Ribbon
-    href: articles\ribbon\ribbon-minimizing\minimizing-the-ribbon.md
+    href: articles/ribbon/minimizing-the-ribbon.md
   - name: Gallery Bar
     items:
     - name: Gallery Bar
-      href: articles\ribbon\gallery-bar\gallery-bar.md
+      href: articles/ribbon/gallery-bar/gallery-bar.md
   - name: Invoke Ribbon Commands
-    href: articles\ribbon\invoke-ribbon-commands\invoke-ribbon-commands.md
+    href: articles/ribbon/invoke-ribbon-commands.md
 - name: Rich Text Editor
-  href: articles\rich-text-editor\rich-text-editor.md
+  href: articles/rich-text-editor.md
   items:
   - name: Text Editor UI
     items:
     - name: Editor Elements
-      href: articles\rich-text-editor\text-editor-ui\editor-elements.md
+      href: articles/rich-text-editor/text-editor-ui/editor-elements.md
     - name: Ribbon Interface
-      href: articles\rich-text-editor\text-editor-ui\ribbon-interface.md
+      href: articles/rich-text-editor/text-editor-ui/ribbon-interface.md
   - name: File Operations
     items:
     - name: Create a New Document
-      href: articles\rich-text-editor\file-operations\create-a-new-document.md
+      href: articles/rich-text-editor/file-operations/create-a-new-document.md
     - name: Load a Document
-      href: articles\rich-text-editor\file-operations\load-a-document.md
+      href: articles/rich-text-editor/file-operations/load-a-document.md
     - name: Print a Document
-      href: articles\rich-text-editor\file-operations\print-a-document.md
+      href: articles/rich-text-editor/file-operations/print-a-document.md
     - name: Save a Document
-      href: articles\rich-text-editor\file-operations\save-a-document.md
+      href: articles/rich-text-editor/file-operations/save-a-document.md
   - name: Document Layout and Page Setup
     items:
     - name: Divide a Documents into Sections
-      href: articles\rich-text-editor\document-layout-and-page-setup\divide-a-documents-into-sections.md
+      href: articles/rich-text-editor/document-layout-and-page-setup/divide-a-documents-into-sections.md
     - name: Adjust Page Settings
-      href: articles\rich-text-editor\document-layout-and-page-setup\adjust-page-settings.md
+      href: articles/rich-text-editor/document-layout-and-page-setup/adjust-page-settings.md
     - name: Lay Out Text in Columns
-      href: articles\rich-text-editor\document-layout-and-page-setup\lay-out-text-in-columns.md
+      href: articles/rich-text-editor/document-layout-and-page-setup/lay-out-text-in-columns.md
   - name: Viewing and Navigating
     items:
     - name: Navigate through a Document
-      href: articles\rich-text-editor\viewing-and-navigating\navigate-through-a-document.md
+      href: articles/rich-text-editor/viewing-and-navigating/navigate-through-a-document.md
     - name: Show Horizontal Ruler
-      href: articles\rich-text-editor\viewing-and-navigating\show-horizontal-ruler.md
+      href: articles/rich-text-editor/viewing-and-navigating/show-horizontal-ruler.md
     - name: Full Screen Mode
-      href: articles\rich-text-editor\viewing-and-navigating\full-screen-mode.md
+      href: articles/rich-text-editor/viewing-and-navigating/full-screen-mode.md
   - name: Text Editing
     items:
     - name: Select Text
-      href: articles\rich-text-editor\text-editing\select-text.md
+      href: articles/rich-text-editor/text-editing/select-text.md
     - name: Delete Text
-      href: articles\rich-text-editor\text-editing\delete-text.md
+      href: articles/rich-text-editor/text-editing/delete-text.md
     - name: Cut, Copy and Paste Editor's Content
-      href: articles\rich-text-editor\text-editing\cut-copy-and-paste-editor's-content.md
+      href: articles/rich-text-editor/text-editing/cut-copy-and-paste-editor's-content.md
     - name: Undo and Redo Last Operations
-      href: articles\rich-text-editor\text-editing\undo-and-redo-last-operations.md
+      href: articles/rich-text-editor/text-editing/undo-and-redo-last-operations.md
   - name: Formatting
     items:
     - name: Format Text
-      href: articles\rich-text-editor\formatting\format-text.md
+      href: articles/rich-text-editor/formatting/format-text.md
     - name: Format Paragraphs
-      href: articles\rich-text-editor\formatting\format-paragraphs.md
+      href: articles/rich-text-editor/formatting/format-paragraphs.md
     - name: Using Tabs
-      href: articles\rich-text-editor\formatting\using-tabs.md
+      href: articles/rich-text-editor/formatting/using-tabs.md
     - name: Using Indents
-      href: articles\rich-text-editor\formatting\using-indents.md
+      href: articles/rich-text-editor/formatting/using-indents.md
     - name: Apply Predefined Styles
-      href: articles\rich-text-editor\formatting\apply-predefined-styles.md
+      href: articles/rich-text-editor/formatting/apply-predefined-styles.md
   - name: Pictures and Text Boxes
     items:
     - name: Insert, Select, Copy or Delete a Picture or Text Box
-      href: articles\rich-text-editor\pictures-and-text-boxes\insert-select-copy-or-delete-a-picture-or-text-box.md
+      href: articles/rich-text-editor/pictures-and-text-boxes/insert-select-copy-or-delete-a-picture-or-text-box.md
     - name: Move a Picture or Text Box
-      href: articles\rich-text-editor\pictures-and-text-boxes\move-a-picture-or-text-box.md
+      href: articles/rich-text-editor/pictures-and-text-boxes/move-a-picture-or-text-box.md
     - name: Resize a Picture or Text Box
-      href: articles\rich-text-editor\pictures-and-text-boxes\resize-a-picture-or-text-box.md
+      href: articles/rich-text-editor/pictures-and-text-boxes/resize-a-picture-or-text-box.md
     - name: Rotate a Picture or Text Box
-      href: articles\rich-text-editor\pictures-and-text-boxes\rotate-a-picture-or-text-box.md
+      href: articles/rich-text-editor/pictures-and-text-boxes/rotate-a-picture-or-text-box.md
     - name: Wrap Text Around a Picture or Text Box
-      href: articles\rich-text-editor\pictures-and-text-boxes\wrap-text-around-a-picture-or-text-box.md
+      href: articles/rich-text-editor/pictures-and-text-boxes/wrap-text-around-a-picture-or-text-box.md
     - name: Add, Change or Delete a Border for a Picture or Text Box
-      href: articles\rich-text-editor\pictures-and-text-boxes\add-change-or-delete-a-border-for-a-picture-or-text-box.md
+      href: articles/rich-text-editor/pictures-and-text-boxes/add-change-or-delete-a-border-for-a-picture-or-text-box.md
     - name: Add, Change or Delete a Text Box Fill
-      href: articles\rich-text-editor\pictures-and-text-boxes\add-change-or-delete-a-text-box-fill.md
+      href: articles/rich-text-editor/pictures-and-text-boxes/add-change-or-delete-a-text-box-fill.md
   - name: Lists
     items:
     - name: Numbered Lists
-      href: articles\rich-text-editor\lists\numbered-lists.md
+      href: articles/rich-text-editor/lists/numbered-lists.md
     - name: Bulleted Lists
-      href: articles\rich-text-editor\lists\bulleted-lists.md
+      href: articles/rich-text-editor/lists/bulleted-lists.md
     - name: Multilevel Lists
-      href: articles\rich-text-editor\lists\multilevel-lists.md
+      href: articles/rich-text-editor/lists/multilevel-lists.md
   - name: Mail Merge
-    href: articles\rich-text-editor\mail-merge\mail-merge.md
+    href: articles/rich-text-editor/mail-merge.md
   - name: Keyboard Shortcuts
-    href: articles\rich-text-editor\keyboard-shortcuts\keyboard-shortcuts.md
+    href: articles/rich-text-editor/keyboard-shortcuts.md
     items:
     - name: File Operations
-      href: articles\rich-text-editor\keyboard-shortcuts\file-operations.md
+      href: articles/rich-text-editor/keyboard-shortcuts/file-operations.md
     - name: Navigation inside Documents
-      href: articles\rich-text-editor\keyboard-shortcuts\navigation-inside-documents.md
+      href: articles/rich-text-editor/keyboard-shortcuts/navigation-inside-documents.md
     - name: 'Work with Selections '
-      href: articles\rich-text-editor\keyboard-shortcuts\work-with-selections-.md
+      href: articles/rich-text-editor/keyboard-shortcuts/work-with-selections.md
     - name: Copy, Paste and Edit the Content
-      href: articles\rich-text-editor\keyboard-shortcuts\copy-paste-and-edit-the-content.md
+      href: articles/rich-text-editor/keyboard-shortcuts/copy-paste-and-edit-the-content.md
     - name: Text Formatting
-      href: articles\rich-text-editor\keyboard-shortcuts\text-formatting.md
+      href: articles/rich-text-editor/keyboard-shortcuts/text-formatting.md
   - name: Miscellaneous
     items:
     - name: Insert a Page Break
-      href: articles\rich-text-editor\miscellaneous\insert-a-page-break.md
+      href: articles/rich-text-editor/miscellaneous/insert-a-page-break.md
     - name: Insert a Hyperlink
-      href: articles\rich-text-editor\miscellaneous\insert-a-hyperlink.md
+      href: articles/rich-text-editor/miscellaneous/insert-a-hyperlink.md
     - name: Insert a Symbol
-      href: articles\rich-text-editor\miscellaneous\insert-a-symbol.md
+      href: articles/rich-text-editor/miscellaneous/insert-a-symbol.md
 - name: Round Panel
-  href: articles\round-panel\round-panel.md
+  href: articles/round-panel.md
 - name: Scheduler
-  href: articles\scheduler\scheduler.md
+  href: articles/scheduler.md
   items:
   - name: Appointment Management
     items:
     - name: Create an Appointment
-      href: articles\scheduler\appointment-management\create-an-appointment.md
+      href: articles/scheduler/appointment-management/create-an-appointment.md
     - name: Edit an Appointment
-      href: articles\scheduler\appointment-management\edit-an-appointment.md
+      href: articles/scheduler/appointment-management/edit-an-appointment.md
     - name: Manage Reminders
-      href: articles\scheduler\appointment-management\manage-reminders.md
+      href: articles/scheduler/appointment-management/manage-reminders.md
     - name: Make a Series of Recurring Appointments
-      href: articles\scheduler\appointment-management\make-a-series-of-recurring-appointments.md
+      href: articles/scheduler/appointment-management/make-a-series-of-recurring-appointments.md
     - name: Delete an Appointment
-      href: articles\scheduler\appointment-management\delete-an-appointment.md
+      href: articles/scheduler/appointment-management/delete-an-appointment.md
     - name: Restrictions for Operations with Appointments
-      href: articles\scheduler\appointment-management\restrictions-for-operations-with-appointments.md
+      href: articles/scheduler/appointment-management/restrictions-for-operations-with-appointments.md
   - name: Layout Customization
     items:
     - name: Switch Scheduler Views
-      href: articles\scheduler\layout-customization\switch-scheduler-views.md
+      href: articles/scheduler/layout-customization/switch-scheduler-views.md
     - name: Scheduler Grouping
-      href: articles\scheduler\layout-customization\scheduler-grouping.md
+      href: articles/scheduler/layout-customization/scheduler-grouping.md
   - name: Selection and Navigation
     items:
     - name: Navigate Time Cells and Dates in the Scheduler
-      href: articles\scheduler\selection-and-navigation\navigate-time-cells-and-dates-in-the-scheduler.md
+      href: articles/scheduler/selection-and-navigation/navigate-time-cells-and-dates-in-the-scheduler.md
     - name: Navigate Scheduler Resources
-      href: articles\scheduler\selection-and-navigation\navigate-scheduler-resources.md
+      href: articles/scheduler/selection-and-navigation/navigate-scheduler-resources.md
     - name: Scheduler Navigation Buttons
-      href: articles\scheduler\selection-and-navigation\scheduler-navigation-buttons.md
+      href: articles/scheduler/selection-and-navigation/scheduler-navigation-buttons.md
     - name: Scheduler 'More' Buttons
-      href: articles\scheduler\selection-and-navigation\scheduler-'more'-buttons.md
+      href: articles/scheduler/selection-and-navigation/scheduler-'more'-buttons.md
 - name: Spell Checker
-  href: articles\spell-checker\spell-checker.md
+  href: articles/spell-checker.md
 - name: Splitter
-  href: articles\splitter\splitter.md
+  href: articles/splitter.md
   items:
   - name: Resizing a Pane
-    href: articles\splitter\resizing-a-pane\resizing-a-pane.md
+    href: articles/splitter/resizing-a-pane.md
   - name: Expand or Collapse a Pane
-    href: articles\splitter\expand-or-collapse-a-pane\expand-or-collapse-a-pane.md
+    href: articles/splitter/expand-or-collapse-a-pane.md
 - name: Spreadsheet
-  href: articles\spreadsheet\spreadsheet.md
+  href: articles/spreadsheet.md
   items:
   - name: Spreadsheet UI
     items:
     - name: Ribbon Interface
-      href: articles\spreadsheet\spreadsheet-ui\ribbon-interface.md
+      href: articles/spreadsheet/spreadsheet-ui/ribbon-interface.md
     - name: Spreadsheet Elements
-      href: articles\spreadsheet\spreadsheet-ui\spreadsheet-elements.md
+      href: articles/spreadsheet/spreadsheet-ui/spreadsheet-elements.md
   - name: File Operations
     items:
     - name: Create a Workbook
-      href: articles\spreadsheet\file-operations\create-a-workbook.md
+      href: articles/spreadsheet/file-operations/create-a-workbook.md
     - name: Load a Workbook
-      href: articles\spreadsheet\file-operations\load-a-workbook.md
+      href: articles/spreadsheet/file-operations/load-a-workbook.md
     - name: Create a Worksheet
-      href: articles\spreadsheet\file-operations\create-a-worksheet.md
+      href: articles/spreadsheet/file-operations/create-a-worksheet.md
     - name: Rename a Worksheet
-      href: articles\spreadsheet\file-operations\rename-a-worksheet.md
+      href: articles/spreadsheet/file-operations/rename-a-worksheet.md
     - name: Delete a Worksheet
-      href: articles\spreadsheet\file-operations\delete-a-worksheet.md
+      href: articles/spreadsheet/file-operations/delete-a-worksheet.md
     - name: Save a Workbook
-      href: articles\spreadsheet\file-operations\save-a-workbook.md
+      href: articles/spreadsheet/file-operations/save-a-workbook.md
     - name: Import Text Files
-      href: articles\spreadsheet\file-operations\import-text-files.md
+      href: articles/spreadsheet/file-operations/import-text-files.md
     - name: Print a Workbook
-      href: articles\spreadsheet\file-operations\print-a-workbook.md
+      href: articles/spreadsheet/file-operations/print-a-workbook.md
     - name: Adjust Page Settings
-      href: articles\spreadsheet\file-operations\adjust-page-settings.md
+      href: articles/spreadsheet/file-operations/adjust-page-settings.md
     - name: Undo and Redo Last Actions
-      href: articles\spreadsheet\file-operations\undo-and-redo-last-actions.md
+      href: articles/spreadsheet/file-operations/undo-and-redo-last-actions.md
   - name: Viewing
     items:
     - name: Hide and Display Worksheets
-      href: articles\spreadsheet\viewing\hide-and-display-worksheets.md
+      href: articles/spreadsheet/viewing/hide-and-display-worksheets.md
     - name: Hide Gridlines
-      href: articles\spreadsheet\viewing\hide-gridlines.md
+      href: articles/spreadsheet/viewing/hide-gridlines.md
     - name: Full Screen Mode
-      href: articles\spreadsheet\viewing\full-screen-mode.md
+      href: articles/spreadsheet/viewing/full-screen-mode.md
   - name: Editing Cells
     items:
     - name: Select Cells or Cell Content
-      href: articles\spreadsheet\editing-cells\select-cells-or-cell-content.md
+      href: articles/spreadsheet/editing-cells/select-cells-or-cell-content.md
     - name: Copy and Paste Cell Content
-      href: articles\spreadsheet\editing-cells\copy-and-paste-cell-content.md
+      href: articles/spreadsheet/editing-cells/copy-and-paste-cell-content.md
     - name: Fill Data Automatically
-      href: articles\spreadsheet\editing-cells\fill-data-automatically.md
+      href: articles/spreadsheet/editing-cells/fill-data-automatically.md
     - name: Find and Replace
-      href: articles\spreadsheet\editing-cells\find-and-replace.md
+      href: articles/spreadsheet/editing-cells/find-and-replace.md
     - name: Insert a Comment
-      href: articles\spreadsheet\editing-cells\insert-a-comment.md
+      href: articles/spreadsheet/editing-cells/insert-a-comment.md
   - name: Cell Formatting
     items:
     - name: Format Cells
-      href: articles\spreadsheet\cell-formatting\format-cells.md
+      href: articles/spreadsheet/cell-formatting/format-cells.md
     - name: Format Cell Content
-      href: articles\spreadsheet\cell-formatting\format-cell-content.md
+      href: articles/spreadsheet/cell-formatting/format-cell-content.md
     - name: Wrap Text and Merge Cells
-      href: articles\spreadsheet\cell-formatting\wrap-text-and-merge-cells.md
+      href: articles/spreadsheet/cell-formatting/wrap-text-and-merge-cells.md
     - name: Number Formatting
-      href: articles\spreadsheet\cell-formatting\number-formatting.md
+      href: articles/spreadsheet/cell-formatting/number-formatting.md
     - name: Clear Cell Formatting
-      href: articles\spreadsheet\cell-formatting\clear-cell-formatting.md
+      href: articles/spreadsheet/cell-formatting/clear-cell-formatting.md
   - name: Columns and Rows
     items:
     - name: Insert and Delete Rows and Columns
-      href: articles\spreadsheet\columns-and-rows\insert-and-delete-rows-and-columns.md
+      href: articles/spreadsheet/columns-and-rows/insert-and-delete-rows-and-columns.md
     - name: Show and Hide Columns and Rows
-      href: articles\spreadsheet\columns-and-rows\show-and-hide-columns-and-rows.md
+      href: articles/spreadsheet/columns-and-rows/show-and-hide-columns-and-rows.md
     - name: Specify Column Width and Row Height
-      href: articles\spreadsheet\columns-and-rows\specify-column-width-and-row-height.md
+      href: articles/spreadsheet/columns-and-rows/specify-column-width-and-row-height.md
   - name: Data Presentation
     items:
     - name: Sort Data
-      href: articles\spreadsheet\data-presentation\sort-data.md
+      href: articles/spreadsheet/data-presentation/sort-data.md
   - name: Formulas
     items:
     - name: Create a Simple Formula
-      href: articles\spreadsheet\formulas\create-a-simple-formula.md
+      href: articles/spreadsheet/formulas/create-a-simple-formula.md
     - name: Cell References
-      href: articles\spreadsheet\formulas\cell-references.md
+      href: articles/spreadsheet/formulas/cell-references.md
     - name: 'Using Functions in Formulas '
-      href: articles\spreadsheet\formulas\using-functions-in-formulas-.md
+      href: articles/spreadsheet/formulas/using-functions-in-formulas.md
     - name: Supported Functions
-      href: articles\spreadsheet\formulas\supported-functions.md
+      href: articles/spreadsheet/formulas/supported-functions.md
     - name: Error Types in Formulas
-      href: articles\spreadsheet\formulas\error-types-in-formulas.md
+      href: articles/spreadsheet/formulas/error-types-in-formulas.md
   - name: Charting
     items:
     - name: Charting Overview
-      href: articles\spreadsheet\charting\charting-overview.md
+      href: articles/spreadsheet/charting/charting-overview.md
     - name: Creating a Chart
-      href: articles\spreadsheet\charting\creating-a-chart.md
+      href: articles/spreadsheet/charting/creating-a-chart.md
     - name: Changing a Chart Type
-      href: articles\spreadsheet\charting\changing-a-chart-type.md
+      href: articles/spreadsheet/charting/changing-a-chart-type.md
     - name: Applying a Predefined Chart Layout and Style
-      href: articles\spreadsheet\charting\applying-a-predefined-chart-layout-and-style.md
+      href: articles/spreadsheet/charting/applying-a-predefined-chart-layout-and-style.md
     - name: Modifying a Chart Manually
-      href: articles\spreadsheet\charting\modifying-a-chart-manually.md
+      href: articles/spreadsheet/charting/modifying-a-chart-manually.md
   - name: Pictures and Hyperlinks
     items:
     - name: Insert a Picture
-      href: articles\spreadsheet\pictures-and-hyperlinks\insert-a-picture.md
+      href: articles/spreadsheet/pictures-and-hyperlinks/insert-a-picture.md
     - name: Move and Resize a Picture
-      href: articles\spreadsheet\pictures-and-hyperlinks\move-and-resize-a-picture.md
+      href: articles/spreadsheet/pictures-and-hyperlinks/move-and-resize-a-picture.md
     - name: Insert and Delete Hyperlinks
-      href: articles\spreadsheet\pictures-and-hyperlinks\insert-and-delete-hyperlinks.md
+      href: articles/spreadsheet/pictures-and-hyperlinks/insert-and-delete-hyperlinks.md
   - name: Keyboard Shortcuts
-    href: articles\spreadsheet\keyboard-shortcuts\keyboard-shortcuts.md
+    href: articles/spreadsheet/keyboard-shortcuts.md
     items:
     - name: File Operations
-      href: articles\spreadsheet\keyboard-shortcuts\file-operations.md
+      href: articles/spreadsheet/keyboard-shortcuts/file-operations.md
     - name: Navigation inside Worksheets
-      href: articles\spreadsheet\keyboard-shortcuts\navigation-inside-worksheets.md
+      href: articles/spreadsheet/keyboard-shortcuts/navigation-inside-worksheets.md
     - name: 'Work with Selections '
-      href: articles\spreadsheet\keyboard-shortcuts\work-with-selections-.md
+      href: articles/spreadsheet/keyboard-shortcuts/work-with-selections.md
     - name: Copy, Paste and Edit the Cell Content
-      href: articles\spreadsheet\keyboard-shortcuts\copy-paste-and-edit-the-cell-content.md
+      href: articles/spreadsheet/keyboard-shortcuts/copy-paste-and-edit-the-cell-content.md
     - name: 'Cell Formatting '
-      href: articles\spreadsheet\keyboard-shortcuts\cell-formatting-.md
+      href: articles/spreadsheet/keyboard-shortcuts/cell-formatting.md
     - name: Work with Columns and Rows
-      href: articles\spreadsheet\keyboard-shortcuts\work-with-columns-and-rows.md
+      href: articles/spreadsheet/keyboard-shortcuts/work-with-columns-and-rows.md
 - name: Tab Control
-  href: articles\tab-control\tab-control.md
+  href: articles/tab-control.md
   items:
   - name: Tab Scrolling
-    href: articles\tab-control\tab-scrolling\tab-scrolling.md
+    href: articles/tab-control/tab-scrolling.md
 - name: Tree List
-  href: articles\tree-list\tree-list.md
+  href: articles/tree-list.md
   items:
   - name: Edit Tree List Cells
-    href: articles\tree-list\data-editing\edit-tree-list-cells.md
+    href: articles/tree-list/edit-tree-list-cells.md
   - name: Data Presentation
     items:
     - name: Expand and Collapse Tree List Nodes
-      href: articles\tree-list\data-presentation\expand-and-collapse-tree-list-nodes.md
+      href: articles/tree-list/data-presentation/expand-and-collapse-tree-list-nodes.md
     - name: Sort Nodes in Tree List
-      href: articles\tree-list\data-presentation\sort-nodes-in-tree-list.md
+      href: articles/tree-list/data-presentation/sort-nodes-in-tree-list.md
   - name: Layout and Navigation
     items:
     - name: Selection and Navigation in Tree List
-      href: articles\tree-list\layout-and-navigation\selection-and-navigation-in-tree-list.md
+      href: articles/tree-list/layout-and-navigation/selection-and-navigation-in-tree-list.md
     - name: Reorder Columns in Tree Lists
-      href: articles\tree-list\layout-and-navigation\reorder-columns-in-tree-lists.md
+      href: articles/tree-list/layout-and-navigation/reorder-columns-in-tree-lists.md
     - name: Reorder Tree List Nodes
-      href: articles\tree-list\layout-and-navigation\reorder-tree-list-nodes.md
+      href: articles/tree-list/layout-and-navigation/reorder-tree-list-nodes.md
     - name: Keyboard Navigation
-      href: articles\tree-list\layout-and-navigation\keyboard-navigation.md
+      href: articles/tree-list/layout-and-navigation/keyboard-navigation.md
     - name: Field Chooser
-      href: articles\tree-list\layout-and-navigation\field-chooser.md
+      href: articles/tree-list/layout-and-navigation/field-chooser.md
 - name: Tree View
-  href: articles\tree-view\tree-view.md
+  href: articles/tree-view.md
   items:
   - name: Expand and Collapse Tree View Nodes
-    href: articles\tree-view\expand-and-collapse-tree-view-nodes\expand-and-collapse-tree-view-nodes.md
+    href: articles/tree-view/expand-and-collapse-tree-view-nodes.md
   - name: Tree View Nodes Checking
-    href: articles\tree-view\tree-view-nodes-checking\tree-view-nodes-checking.md
+    href: articles/tree-view/tree-view-nodes-checking.md
 - name: Vertical Grid
-  href: articles\vertical-grid\vertical-grid.md
+  href: articles/vertical-grid.md
   items:
   - name: Data Editing
     items:
     - name: Add, Delete and Recover Records
-      href: articles\vertical-grid\data-editing\add-delete-and-recover-records.md
+      href: articles/vertical-grid/data-editing/add-delete-and-recover-records.md
     - name: Switching a Vertical Grid to Batch Edit Mode
-      href: articles\vertical-grid\data-editing\switching-a-vertical-grid-to-batch-edit-mode.md
+      href: articles/vertical-grid/data-editing/switching-a-vertical-grid-to-batch-edit-mode.md
     - name: Save or Discard Changes when Editing Grid Records
-      href: articles\vertical-grid\data-editing\save-or-discard-changes-when-editing-grid-records.md
+      href: articles/vertical-grid/data-editing/save-or-discard-changes-when-editing-grid-records.md
     - name: Batch Editing
-      href: articles\vertical-grid\data-editing\batch-editing.md
+      href: articles/vertical-grid/data-editing/batch-editing.md
   - name: Selection and Navigation
     items:
     - name: Page Navigation
-      href: articles\vertical-grid\selection-and-navigation\page-navigation.md
+      href: articles/vertical-grid/selection-and-navigation/page-navigation.md
     - name: Select Records
-      href: articles\vertical-grid\selection-and-navigation\select-records.md
+      href: articles/vertical-grid/selection-and-navigation/select-records.md
   - name: Filtering
     items:
     - name: Creating Complex Filter Criteria with the Filter Control
-      href: articles\vertical-grid\filtering\creating-complex-filter-criteria-with-the-filter-control.md
+      href: articles/vertical-grid/filtering/creating-complex-filter-criteria-with-the-filter-control.md
     - name: Header Filter
-      href: articles\vertical-grid\filtering\header-filter.md
+      href: articles/vertical-grid/filtering/header-filter.md
     - name: Search Panel
-      href: articles\vertical-grid\filtering\search-panel.md
+      href: articles/vertical-grid/filtering/search-panel.md
   - name: Sorting
-    href: articles\vertical-grid\sorting\sorting.md
+    href: articles/vertical-grid/sorting.md
   - name: Expand and Collapse Category Rows
-    href: articles\vertical-grid\expand-and-collapse-category-rows\expand-and-collapse-category-rows.md
+    href: articles/vertical-grid/expand-and-collapse-category-rows.md

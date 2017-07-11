@@ -2,10 +2,14 @@
   href: README.md
   items:
   - name: Dashboard for Desktop
+    topicHref: dashboard-for-desktop/articles/README.md
     href: dashboard-for-desktop/toc.yml
   - name: Dashboard for Web
+    topicHref: dashboard-for-web/articles/README.md
     href: dashboard-for-web/toc.yml
   - name: Interface Elements for Desktop
+    topicHref: interface-elements-for-desktop/articles/README.md
     href: interface-elements-for-desktop/toc.yml
   - name: Interface Elements for Web
+    topicHref: interface-elements-for-web/articles/README.md
     href: interface-elements-for-web/toc.yml
