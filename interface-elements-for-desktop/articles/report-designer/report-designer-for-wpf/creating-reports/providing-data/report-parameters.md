@@ -27,7 +27,7 @@ Report parameters provide the capability to pass data of a certain type to a rep
 	For more information, see the [Binding Report Controls to Data](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-wpf/creating-reports/providing-data/binding-report-controls-to-data.md) topic.
 * **Calculated Fields and Conditional Formatting**
 	
-	Parameters can participate in constructing expressions for [calculated fields](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-wpf/creating-reports/providing-data/calculated-fields.md) and [formatting rules](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-wpf/creating-reports/appearance-customization/conditionally-change-a-control's-appearance.md), as well as standard data fields. The only difference is that a parameter is inserted into the expression's text using the "**Parameters.**" prefix before its name.
+	Parameters can participate in constructing expressions for [calculated fields](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-wpf/creating-reports/providing-data/calculated-fields.md) and [formatting rules](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-wpf/creating-reports/appearance-customization/conditionally-change-a-controls-appearance.md), as well as standard data fields. The only difference is that a parameter is inserted into the expression's text using the "**Parameters.**" prefix before its name.
 	
 	![EUD_WpfReportDesigner_Parameters_2](../../../../../images/Img123831.png)
 * **Cascading Parameters**

@@ -18,7 +18,7 @@ In the [Property Grid](../../../../../../interface-elements-for-desktop/articles
 	Allows you to define the appearance properties (such as Background Color, Foreground Color, Font, etc.) for the Pivot Grid's elements (Cell, Field Value, Filter Separator, Header Group Line, etc.).
 * **Formatting Rules**
 	
-	Invokes the Formatting Rules Editor allowing you to choose which rules should be applied to the control during report generation, and define the precedence of the applied rules. To learn more on this, refer to [Conditionally Change a Control's Appearance](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/create-reports/styles-and-conditional-formatting/conditionally-change-a-control's-appearance.md).
+	Invokes the Formatting Rules Editor allowing you to choose which rules should be applied to the control during report generation, and define the precedence of the applied rules. To learn more on this, refer to [Conditionally Change a Control's Appearance](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/create-reports/styles-and-conditional-formatting/conditionally-change-a-controls-appearance.md).
 * **Styles**
 	
 	Allows you to invoke the Styles Editor, which is intended to manage and customize the control's styles, which then can be assigned to the Pivot Grid's elements.

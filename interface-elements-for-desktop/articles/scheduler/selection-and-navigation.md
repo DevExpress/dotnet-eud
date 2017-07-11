@@ -9,4 +9,4 @@ Topics in this section:
 * [Navigate Scheduler Time Cells](../../../interface-elements-for-desktop/articles/scheduler/selection-and-navigation/navigate-scheduler-time-cells.md)
 * [Zoom the Scheduling Area](../../../interface-elements-for-desktop/articles/scheduler/layout-customization/zoom-the-scheduling-area.md)
 * [Scheduler Navigation Buttons](../../../interface-elements-for-desktop/articles/scheduler/selection-and-navigation/scheduler-navigation-buttons.md)
-* [Scheduler 'More' Buttons](../../../interface-elements-for-desktop/articles/scheduler/selection-and-navigation/scheduler-'more'-buttons.md)
+* [Scheduler 'More' Buttons](../../../interface-elements-for-desktop/articles/scheduler/selection-and-navigation/scheduler-more-buttons.md)

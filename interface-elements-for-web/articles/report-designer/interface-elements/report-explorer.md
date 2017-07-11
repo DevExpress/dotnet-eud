@@ -23,7 +23,7 @@ The following actions are available for report element customization.
 | ![web-designer-report-explorer-properties-button](../../../images/Img126455.png) | Switches to the [Properties Panel](../../../../interface-elements-for-web/articles/report-designer/interface-elements/properties-panel.md) where you can adjust the settings of the selected report element or a report itself. |
 
 ## <a name="stylesandformatting"/>Manage Report Styles and Formatting Rules
-To access the collection of [report styles](../../../../interface-elements-for-web/articles/report-designer/creating-reports/appearance-customization/understanding-style-concepts.md) or [formatting rules](../../../../interface-elements-for-web/articles/report-designer/creating-reports/appearance-customization/conditionally-change-a-control's-appearance.md), expand the corresponding category in the Report Explorer.
+To access the collection of [report styles](../../../../interface-elements-for-web/articles/report-designer/creating-reports/appearance-customization/understanding-style-concepts.md) or [formatting rules](../../../../interface-elements-for-web/articles/report-designer/creating-reports/appearance-customization/conditionally-change-a-controls-appearance.md), expand the corresponding category in the Report Explorer.
 
 To apply a style or formatting rule to a report control, drag it from the Report Explorer onto the required report control.
 

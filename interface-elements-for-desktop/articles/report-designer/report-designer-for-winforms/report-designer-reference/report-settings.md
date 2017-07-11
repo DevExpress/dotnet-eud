@@ -25,10 +25,10 @@ While the main report's properties can be accessed via the report's [Smart Tag](
 	Specifies the text color for report elements. This option is also available in the [Formatting Toolbar](../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-reference/report-designer-ui/formatting-toolbar.md) (![RD_Toolbars_Format_Color](../../../../images/Img8440.png)).
 * **Formatting Rule Sheet**
 	
-	Invokes the Formatting Rule Sheet Editor, allowing you to manage and customize formatting rules, which can then be defined for a report's bands and controls. To learn more on this, refer to [Conditionally Change a Control's Appearance](../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/create-reports/styles-and-conditional-formatting/conditionally-change-a-control's-appearance.md).
+	Invokes the Formatting Rule Sheet Editor, allowing you to manage and customize formatting rules, which can then be defined for a report's bands and controls. To learn more on this, refer to [Conditionally Change a Control's Appearance](../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/create-reports/styles-and-conditional-formatting/conditionally-change-a-controls-appearance.md).
 * **Formatting Rules**
 	
-	Invokes the Formatting Rules Editor, allowing you to choose which rules should be applied to the report during report generation, and define the precedence of the applied rules. To learn more on this, refer to [Conditionally Change a Control's Appearance](../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/create-reports/styles-and-conditional-formatting/conditionally-change-a-control's-appearance.md).
+	Invokes the Formatting Rules Editor, allowing you to choose which rules should be applied to the report during report generation, and define the precedence of the applied rules. To learn more on this, refer to [Conditionally Change a Control's Appearance](../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/create-reports/styles-and-conditional-formatting/conditionally-change-a-controls-appearance.md).
 * **Padding**
 	
 	Specifies indent values used to render the contents of a report's controls.

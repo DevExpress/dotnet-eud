@@ -26,4 +26,4 @@ The following is a complete list of pages that may be available in the Report Wi
 	* [Specify the Report Title](../../../../interface-elements-for-web/articles/report-designer/wizards/report-wizard/data-bound-report/specify-the-report-title.md)
 * [Label Report](../../../../interface-elements-for-web/articles/report-designer/wizards/report-wizard/label-report.md)
 	* [Choose the Label Type](../../../../interface-elements-for-web/articles/report-designer/wizards/report-wizard/label-report/choose-the-label-type.md)
-	* [Specify the Label's Parameters](../../../../interface-elements-for-web/articles/report-designer/wizards/report-wizard/label-report/specify-the-label's-parameters.md)
+	* [Specify the Label's Parameters](../../../../interface-elements-for-web/articles/report-designer/wizards/report-wizard/label-report/specify-the-labels-parameters.md)

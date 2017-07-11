@@ -38,4 +38,4 @@ Now, define the required parameters of the image within the invoked **Insert Ima
 	After completing all the steps above, you can preview the image in the **Insert Image** dialog.
 * Click the **OK** button to close the dialog and insert the image into the editor's content.
 
-You can [modify the image](../../../../interface-elements-for-web/articles/html-editor/working-with-images/modify-an-image's-settings-in-html-editor.md) after inserting it into the HTML editor.
+You can [modify the image](../../../../interface-elements-for-web/articles/html-editor/working-with-images/modify-an-images-settings-in-html-editor.md) after inserting it into the HTML editor.

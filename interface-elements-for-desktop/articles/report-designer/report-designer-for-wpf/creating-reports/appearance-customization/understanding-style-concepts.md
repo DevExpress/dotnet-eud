@@ -56,4 +56,4 @@ The following image demonstrates how the **Style Priority** property works.
 
 The same principles are applied to the _odd-even styles_ feature, which allows you to alternate the appearance of consecutive data rows in your report. For details on this, refer to [Use Odd and Even Styles](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-wpf/creating-reports/appearance-customization/use-odd-and-even-styles.md).
 
-> When [conditional formatting](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-wpf/creating-reports/appearance-customization/conditionally-change-a-control's-appearance.md) is applied to an element, its appearance definition has the highest priority.
+> When [conditional formatting](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-wpf/creating-reports/appearance-customization/conditionally-change-a-controls-appearance.md) is applied to an element, its appearance definition has the highest priority.

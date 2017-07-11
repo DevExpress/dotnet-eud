@@ -39,7 +39,7 @@ This section describes the capabilities provided by the **Rich Text Editor**.
 **Text Editing**
 * [Select Text](../../interface-elements-for-web/articles/rich-text-editor/text-editing/select-text.md)
 * [Delete Text](../../interface-elements-for-web/articles/rich-text-editor/text-editing/delete-text.md)
-* [Cut, Copy and Paste Editor's Content](../../interface-elements-for-web/articles/rich-text-editor/text-editing/cut-copy-and-paste-editor's-content.md)
+* [Cut, Copy and Paste Editor's Content](../../interface-elements-for-web/articles/rich-text-editor/text-editing/cut-copy-and-paste-editors-content.md)
 * [Undo and Redo Last Operations](../../interface-elements-for-web/articles/rich-text-editor/text-editing/undo-and-redo-last-operations.md)
 
 &nbsp;

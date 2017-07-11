@@ -21,6 +21,6 @@ This tutorial describes the steps required to create a report with an _aggregate
 
 The report is now ready. Switch to the [Preview Tab](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-reference/report-designer-ui/preview-tab.md), and view the result.
 
-You can also set [formatting rules](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/create-reports/styles-and-conditional-formatting/conditionally-change-a-control's-appearance.md) for the report. The following image shows the sample report. The data rows that are not discontinued and have a total unit value greater than _$500_ are highlighted in red.
+You can also set [formatting rules](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/create-reports/styles-and-conditional-formatting/conditionally-change-a-controls-appearance.md) for the report. The following image shows the sample report. The data rows that are not discontinued and have a total unit value greater than _$500_ are highlighted in red.
 
 ![aggregated-function-04](../../../../../images/Img18835.png)

@@ -8,4 +8,4 @@ On this page, you can choose the proper supplier from the **Label Product** comb
 
 ![WebDesigner_ReportWizard_SelectLabelType](../../../../../images/Img123080.png)
 
-Click **Next** to proceed to the next wizard page: [Specify the Label's Parameters](../../../../../../interface-elements-for-web/articles/report-designer/wizards/report-wizard/label-report/specify-the-label's-parameters.md).
+Click **Next** to proceed to the next wizard page: [Specify the Label's Parameters](../../../../../../interface-elements-for-web/articles/report-designer/wizards/report-wizard/label-report/specify-the-labels-parameters.md).

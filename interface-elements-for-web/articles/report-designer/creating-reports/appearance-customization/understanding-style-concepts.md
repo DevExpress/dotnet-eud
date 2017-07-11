@@ -55,4 +55,4 @@ To revert a higher priority to a style's appearance property, click the Advanced
 
 The same principles are applied to the _odd-even styles_ feature, which allows you to alternate the appearance of consecutive data rows in your report. For details on this, refer to [Use Odd and Even Styles](../../../../../interface-elements-for-web/articles/report-designer/creating-reports/appearance-customization/use-odd-and-even-styles.md).
 
-> When [conditional formatting](../../../../../interface-elements-for-web/articles/report-designer/creating-reports/appearance-customization/conditionally-change-a-control's-appearance.md) is applied to an element, its appearance definition has the highest priority.
+> When [conditional formatting](../../../../../interface-elements-for-web/articles/report-designer/creating-reports/appearance-customization/conditionally-change-a-controls-appearance.md) is applied to an element, its appearance definition has the highest priority.

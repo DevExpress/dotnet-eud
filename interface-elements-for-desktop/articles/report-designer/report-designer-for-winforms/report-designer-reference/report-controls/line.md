@@ -20,7 +20,7 @@ In the [Property Grid](../../../../../../interface-elements-for-desktop/articles
 	Specifies the Line's color.
 * **Formatting Rules**
 	
-	Invokes the Formatting Rules Editor allowing you to choose which rules should be applied to the control during report generation, and define the precedence of the applied rules. To learn more on this, refer to [Conditionally Change a Control's Appearance](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/create-reports/styles-and-conditional-formatting/conditionally-change-a-control's-appearance.md).
+	Invokes the Formatting Rules Editor allowing you to choose which rules should be applied to the control during report generation, and define the precedence of the applied rules. To learn more on this, refer to [Conditionally Change a Control's Appearance](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/create-reports/styles-and-conditional-formatting/conditionally-change-a-controls-appearance.md).
 * **Line Direction**
 	
 	The line can be drawn vertically, horizontally and from one corner of the rectangle, representing the Line control, to another, across the rectangle. That is, Vertical, Horizontal, Slant and Back Slant types.

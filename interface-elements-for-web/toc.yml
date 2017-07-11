@@ -350,7 +350,7 @@
     - name: Insert an Image in HTML Editor
       href: articles/html-editor/working-with-images/insert-an-image-in-html-editor.md
     - name: Modify an Image's Settings in HTML Editor
-      href: articles/html-editor/working-with-images/modify-an-image's-settings-in-html-editor.md
+      href: articles/html-editor/working-with-images/modify-an-images-settings-in-html-editor.md
     - name: Image Settings
       href: articles/html-editor/working-with-images/image-settings.md
   - name: Working with Audio Files
@@ -565,9 +565,9 @@
       - name: Use Odd and Even Styles
         href: articles/report-designer/creating-reports/appearance-customization/use-odd-and-even-styles.md
       - name: Conditionally Change a Control's Appearance
-        href: articles/report-designer/creating-reports/appearance-customization/conditionally-change-a-control's-appearance.md
+        href: articles/report-designer/creating-reports/appearance-customization/conditionally-change-a-controls-appearance.md
       - name: Conditionally Change a Label's Text
-        href: articles/report-designer/creating-reports/appearance-customization/conditionally-change-a-label's-text.md
+        href: articles/report-designer/creating-reports/appearance-customization/conditionally-change-a-labels-text.md
       - name: Conditionally Hide Bands
         href: articles/report-designer/creating-reports/appearance-customization/conditionally-hide-bands.md
     - name: 'Report Navigation and Interactivity '
@@ -686,7 +686,7 @@
         - name: Choose the Label Type
           href: articles/report-designer/wizards/report-wizard/label-report/choose-the-label-type.md
         - name: Specify the Label's Parameters
-          href: articles/report-designer/wizards/report-wizard/label-report/specify-the-label's-parameters.md
+          href: articles/report-designer/wizards/report-wizard/label-report/specify-the-labels-parameters.md
   - name: Document Preview
     href: articles/report-designer/document-preview.md
     items:
@@ -753,7 +753,7 @@
     - name: Delete Text
       href: articles/rich-text-editor/text-editing/delete-text.md
     - name: Cut, Copy and Paste Editor's Content
-      href: articles/rich-text-editor/text-editing/cut-copy-and-paste-editor's-content.md
+      href: articles/rich-text-editor/text-editing/cut-copy-and-paste-editors-content.md
     - name: Undo and Redo Last Operations
       href: articles/rich-text-editor/text-editing/undo-and-redo-last-operations.md
   - name: Formatting
@@ -849,7 +849,7 @@
     - name: Scheduler Navigation Buttons
       href: articles/scheduler/selection-and-navigation/scheduler-navigation-buttons.md
     - name: Scheduler 'More' Buttons
-      href: articles/scheduler/selection-and-navigation/scheduler-'more'-buttons.md
+      href: articles/scheduler/selection-and-navigation/scheduler-more-buttons.md
 - name: Spell Checker
   href: articles/spell-checker.md
 - name: Splitter

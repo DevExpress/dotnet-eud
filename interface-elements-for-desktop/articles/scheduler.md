@@ -27,7 +27,7 @@ This section describes the capabilities provided by the Scheduler, which is used
 * [Navigate Scheduler Resources](../../interface-elements-for-desktop/articles/scheduler/selection-and-navigation/navigate-scheduler-resources.md)
 * [Navigate Scheduler Time Cells](../../interface-elements-for-desktop/articles/scheduler/selection-and-navigation/navigate-scheduler-time-cells.md)
 * [Scheduler Navigation Buttons](../../interface-elements-for-desktop/articles/scheduler/selection-and-navigation/scheduler-navigation-buttons.md)
-* [Scheduler 'More' Buttons](../../interface-elements-for-desktop/articles/scheduler/selection-and-navigation/scheduler-'more'-buttons.md)
+* [Scheduler 'More' Buttons](../../interface-elements-for-desktop/articles/scheduler/selection-and-navigation/scheduler-more-buttons.md)
 
 **Printing**
 * [Printing](../../interface-elements-for-desktop/articles/scheduler/printing.md)

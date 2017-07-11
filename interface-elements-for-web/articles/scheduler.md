@@ -28,4 +28,4 @@ This section describes the capabilities provided by the Scheduler, which is used
 * [Navigate Time Cells and Dates in the Scheduler](../../interface-elements-for-web/articles/scheduler/selection-and-navigation/navigate-time-cells-and-dates-in-the-scheduler.md)
 * [Navigate Scheduler Resources](../../interface-elements-for-web/articles/scheduler/selection-and-navigation/navigate-scheduler-resources.md)
 * [Scheduler Navigation Buttons](../../interface-elements-for-web/articles/scheduler/selection-and-navigation/scheduler-navigation-buttons.md)
-* [Scheduler 'More' Buttons](../../interface-elements-for-web/articles/scheduler/selection-and-navigation/scheduler-'more'-buttons.md)
+* [Scheduler 'More' Buttons](../../interface-elements-for-web/articles/scheduler/selection-and-navigation/scheduler-more-buttons.md)

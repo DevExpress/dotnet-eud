@@ -14,7 +14,7 @@ The comprehensive functionality for the **Rich Text** control can be provided vi
 ## Home
 ![EUD_ASPxRichEdit_HomeTab](../../../images/Img117728.png)
 * [Undo and Redo Last Operations](../../../../interface-elements-for-web/articles/rich-text-editor/text-editing/undo-and-redo-last-operations.md)
-* [Cut, Copy and Paste Editor's Content](../../../../interface-elements-for-web/articles/rich-text-editor/text-editing/cut-copy-and-paste-editor's-content.md)
+* [Cut, Copy and Paste Editor's Content](../../../../interface-elements-for-web/articles/rich-text-editor/text-editing/cut-copy-and-paste-editors-content.md)
 * [Format Text](../../../../interface-elements-for-web/articles/rich-text-editor/formatting/format-text.md)
 * [Format Paragraphs](../../../../interface-elements-for-web/articles/rich-text-editor/formatting/format-paragraphs.md)
 * [Using Indents](../../../../interface-elements-for-web/articles/rich-text-editor/formatting/using-indents.md)

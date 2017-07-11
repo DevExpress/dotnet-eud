@@ -10,7 +10,7 @@ Once a report element or component has been selected in the Report Explorer, its
 
 ![RD_HowTo_MasterDetail_3](../../../../../images/Img23819.png)
 
-The **Report Explorer** also provides quick access to all [styles](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/create-reports/styles-and-conditional-formatting/understanding-style-concepts.md) and [formatting rules](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/create-reports/styles-and-conditional-formatting/conditionally-change-a-control's-appearance.md) available for a report. You can manage styles and formatting rules using commands available in context menus. To invoke a context menu, right-click the corresponding root node or their sub-node.
+The **Report Explorer** also provides quick access to all [styles](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/create-reports/styles-and-conditional-formatting/understanding-style-concepts.md) and [formatting rules](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/create-reports/styles-and-conditional-formatting/conditionally-change-a-controls-appearance.md) available for a report. You can manage styles and formatting rules using commands available in context menus. To invoke a context menu, right-click the corresponding root node or their sub-node.
  
 
 ![RD_ReportStyles_ReportExplorer](../../../../../images/Img122171.png)

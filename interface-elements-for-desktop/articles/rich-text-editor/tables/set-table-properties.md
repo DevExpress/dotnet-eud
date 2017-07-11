@@ -11,20 +11,20 @@ To change settings of table [rows](#row), [columns](#column), particular [cells]
 ![RTETablesPropertiesContextMenu](../../../images/Img121443.png)
 
 The **Table Properties** dialog includes several tabs.
-* On the **Table** tab you can set table properties, such as the preferred width for an entire table and table alignment (position of the table relative to the margins of the page).
+* <a name="table"/>On the **Table** tab you can set table properties, such as the preferred width for an entire table and table alignment (position of the table relative to the margins of the page).
 	
 	![RTETablesPropertiesTable](../../../images/Img121444.png)
 	
 	The **Options...** button invokes the **Table Options** dialog that allows you to set default cell margins (spacing between cell borders and text within each cell), specify whether the additional space should be between cells, set the amount of this space, and set whether or not table columns should be automatically expanded to accommodate cell content.
 	
 	![RTETablesPropertiesTableOptions](../../../images/Img121445.png)
-* The **Row** tab allows you to set the height of the table row, enable or disable the row to break across pages, and specify whether or not the row should be the first row on each page in case the table is more than one page.
+* <a name="row"/>The **Row** tab allows you to set the height of the table row, enable or disable the row to break across pages, and specify whether or not the row should be the first row on each page in case the table is more than one page.
 	
 	![RTETablesPropertiesRow](../../../images/Img121446.png)
-* On the **Column** tab, you can set the preferred width for the table column.
+* <a name="column"/>On the **Column** tab, you can set the preferred width for the table column.
 	
 	![RTETablesPropertiesColumn](../../../images/Img121447.png)
-* Options on the **Cell** tab allow you to set the preferred width of the table cell and select a vertical alignment of the text within the cell.
+* <a name="cell"/>Options on the **Cell** tab allow you to set the preferred width of the table cell and select a vertical alignment of the text within the cell.
 	
 	![RTETablesPropertiesCell](../../../images/Img121448.png)
 	

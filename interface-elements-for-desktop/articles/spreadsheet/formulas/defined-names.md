@@ -105,10 +105,10 @@ The **Name Manager** dialog lists all the defined names specified in a workbook 
 To invoke the **Name Manager** dialog, on the **Formulas** tab in the **Defined Names** group, click the **Name Manager** button.
 
 ![Spreadsheet_NameManagerCommand](../../../images/Img25750.png)
-* **Create a name**
+* <a name="newname"/>**Create a name**
 	
 	To define a new name, at the top of the **Name Manager** dialog, click the **New...** button. In the invoked [New Name](#newnamedialog) dialog, specify all necessary parameters for a new defined name.
-* **Edit a name**
+* <a name="editname"/>**Edit a name**
 	
 	To modify the existing name, select this name in the **Name** list, and at the top of the **Name Manager** dialog click the **Edit...** button, or double-click the name. In the invoked **Edit Name** dialog, modify the name itself, change the cell reference, formula or constant to which the name refers, or enter a new comment. Only the scope of the defined name cannot be changed.
 	

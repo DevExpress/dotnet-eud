@@ -48,7 +48,7 @@ This section describes the capabilities provided by the HTML Editor (Rich Text E
 
 **Working with Images**
 * [Insert an Image in HTML Editor](../../interface-elements-for-web/articles/html-editor/working-with-images/insert-an-image-in-html-editor.md)
-* [Modify an Image's Settings in HTML Editor](../../interface-elements-for-web/articles/html-editor/working-with-images/modify-an-image's-settings-in-html-editor.md)
+* [Modify an Image's Settings in HTML Editor](../../interface-elements-for-web/articles/html-editor/working-with-images/modify-an-images-settings-in-html-editor.md)
 * [Image Settings](../../interface-elements-for-web/articles/html-editor/working-with-images/image-settings.md)
 
 **Working with Audio Files**
