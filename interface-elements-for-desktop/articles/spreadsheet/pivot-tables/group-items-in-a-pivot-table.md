@@ -68,4 +68,5 @@ To ungroup data in a pivot table, do one of the following.
 * Select any cell in the grouped field and on the **Pivot Table Tools** | **Analyze** tab, in the **Group** group, click the **Ungroup** button.
 	
 	![Spreadsheet_PivotTable_Grouping_UngroupRibbon](../../../images/Img126466.png)
+
 Note that ungrouping a numeric or date and time field will remove all groups for that field. If you ungroup a group of selected items, only the selected items will be ungrouped.
