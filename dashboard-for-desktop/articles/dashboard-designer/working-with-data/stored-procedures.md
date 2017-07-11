@@ -12,6 +12,6 @@ On the next page, you can specify the parameter settings.
 * **Name** - Displays the parameter name.
 * **Type** - Displays the parameter type.
 * **Expression** - Specifies whether the expression is used to specify a parameter value.
-* **Value** - Specifies a parameter value. If the **Expression** check box is checked, you can invoke the [Expression Editor](../../../../dashboard-for-desktop/articles/expression-editor.md) dialog to specify the required expression or select an existing [dashboard parameter](../../../../dashboard-for-desktop/articles/dashboard-designer/data-analysis/using-dashboard-parameters.md) to use it as a stored procedure parameter.
+* **Value** - Specifies a parameter value. If the **Expression** check box is checked, you can invoke the [Expression Editor](../../../../interface-elements-for-desktop/articles/expression-editor.md) dialog to specify the required expression or select an existing [dashboard parameter](../../../../dashboard-for-desktop/articles/dashboard-designer/data-analysis/using-dashboard-parameters.md) to use it as a stored procedure parameter.
 
 Click the [Preview...](../../../../dashboard-for-desktop/articles/dashboard-designer/working-with-data/preview-data.md) button to preview the query result. Then, click **Finish** to complete query modifying.

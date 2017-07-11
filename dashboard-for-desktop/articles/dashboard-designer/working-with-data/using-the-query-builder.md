@@ -55,7 +55,7 @@ After you have added the tables and selected the required columns, you can chang
 ![QueryBuilder_GridPane](../../../images/Img119322.png)
 
 The following settings are available for each column.
-* Use **Column** to select the required column from the combo box or add a new column. If necessary, you can customize a column expression. To do this, click the ellipsis button for the required column and specify the expression in the invoked [Expression Editor](../../../../dashboard-for-desktop/articles/expression-editor.md) dialog.
+* Use **Column** to select the required column from the combo box or add a new column. If necessary, you can customize a column expression. To do this, click the ellipsis button for the required column and specify the expression in the invoked [Expression Editor](../../../../interface-elements-for-desktop/articles/expression-editor.md) dialog.
 * The **Table** column displays corresponding table names.
 * The **Alias** column allows you to specify the column alias.
 	

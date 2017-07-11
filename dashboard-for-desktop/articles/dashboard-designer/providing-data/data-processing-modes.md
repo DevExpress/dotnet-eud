@@ -8,7 +8,7 @@ DevExpress Dashboard supports two data processing modes that are used to perform
 
 > Note that performance in **server**/**client** modes depends on multiple factors such as database structure, server workload, etc. To decide which mode to use, test both.
 
-> In [OLAP](../../../../dashboard-for-desktop/articles/dashboard-designer/providing-data/connecting-to-olap-cubes.md) mode, data processing is performed using the _server mode_ specified for the Analysis Services instance. To learn more, see [Determine the Server Mode of an Analysis Services Instance](https//msdn.microsoft.com/en-us/library/gg471594.aspx).
+> In [OLAP](../../../../dashboard-for-desktop/articles/dashboard-designer/providing-data/connecting-to-olap-cubes.md) mode, data processing is performed using the _server mode_ specified for the Analysis Services instance. To learn more, see [Determine the Server Mode of an Analysis Services Instance](https://msdn.microsoft.com/en-us/library/gg471594.aspx).
 
 ## Change Data Processing Mode
 Different data source types allow you to manage the current data processing mode in different ways.

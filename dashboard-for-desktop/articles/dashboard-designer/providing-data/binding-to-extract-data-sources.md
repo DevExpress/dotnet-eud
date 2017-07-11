@@ -21,7 +21,7 @@ To create a new data extract from the existing data source, perform the followin
 4. **(Conditional)** The next page only appears if you are creating the data extract based on the Entity Framework or Object data sources, and allows you to select the required fields.
 	
 	![DataSourceWizard_Extract_SelectFields](../../../images/Img123955.png)
-5. On the next page, you can specify the filter used to extract data. To learn how to specify the filter criteria, see [Filter Data via the Filter Editor](../../../../dashboard-for-desktop/articles/filter-editor/filter-data-via-the-filter-editor.md).
+5. On the next page, you can specify the filter used to extract data. To learn how to specify the filter criteria, see [Filter Data via the Filter Editor](../../../../interface-elements-for-desktop/articles/filter-editor/filter-data-via-the-filter-editor.md).
 	
 	![DataSourceWizard_Extract_FilterData](../../../images/Img123131.png)
 	

@@ -12,4 +12,4 @@ To format report data, do the following.
 	
 	![Snap-Format-String](../../../images/Img18500.png)
 
-Snap supports both [standard](http//msdn.microsoft.com/en-us/library/ee372286.aspx) and [custom](http//msdn.microsoft.com/en-us/library/ee372287.aspx) .NET format strings.
+Snap supports both [standard](http://msdn.microsoft.com/en-us/library/ee372286.aspx) and [custom](http://msdn.microsoft.com/en-us/library/ee372287.aspx) .NET format strings.

@@ -19,14 +19,14 @@ To create a calculated field, select the required data source (and the required 
 
 ![CalculatedFileds_AddCalculatedField_ContextMenu](../../../images/Img21581.png)
 
-This invokes the [Expression Editor](../../../../dashboard-for-desktop/articles/expression-editor.md) dialog, which allows you to specify an expression that will be used to obtain calculated field values. Here, you can construct the required expression.
+This invokes the [Expression Editor](../../../../interface-elements-for-desktop/articles/expression-editor.md) dialog, which allows you to specify an expression that will be used to obtain calculated field values. Here, you can construct the required expression.
 
 ![CalculatedFileds_ExpressionEditor](../../../images/Img21580.png)
 
 You can use the following elements in expressions.
 * Functions
 	
-	> To learn how to use **Aggregate** functions, see [Aggregations](../../../../dashboard-for-desktop/articles/dashboard-designer/data-analysis/aggregations.md). The [Expression Operators, Functions and Constants](../../../../dashboard-for-desktop/articles/expression-editor/expression-operators-functions-and-constants.md) topic lists common functions (**DateTime**, **Math**, **String**, etc.) supported by expressions.
+	> To learn how to use **Aggregate** functions, see [Aggregations](../../../../dashboard-for-desktop/articles/dashboard-designer/data-analysis/aggregations.md). The [Expression Operators, Functions and Constants](../../../../interface-elements-for-desktop/articles/expression-editor/expression-operators-functions-and-constants.md) topic lists common functions (**DateTime**, **Math**, **String**, etc.) supported by expressions.
 * Operators
 * Columns
 * Constants
@@ -47,7 +47,7 @@ This menu contains the following items.
 
 | Item | Description |
 |---|---|
-| **Edit Expression...** | Invokes the [Expression Editor](../../../../dashboard-for-desktop/articles/expression-editor.md) dialog, which allows you to change an expression for an existing calculated field. |
+| **Edit Expression...** | Invokes the [Expression Editor](../../../../interface-elements-for-desktop/articles/expression-editor.md) dialog, which allows you to change an expression for an existing calculated field. |
 | **Field Type** | Specifies the type of the calculated field. |
 | **Rename** | Changes the calculated field name. |
 | **Delete** | Removes the existing calculated field from the data source. |

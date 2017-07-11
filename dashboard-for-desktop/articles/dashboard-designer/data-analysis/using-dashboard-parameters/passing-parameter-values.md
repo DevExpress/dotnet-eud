@@ -16,10 +16,10 @@ The Dashboard Designer provides the capability to use a dashboard parameter as a
 	
 	![QueryEditor_PassDashboardParameter](../../../../images/Img121219.png)
 	
-	If necessary, you can select **Expression editor...** and specify an [expression](../../../../../dashboard-for-desktop/articles/expression-editor.md) to bind a query parameter to a dashboard parameter using custom logic.
+	If necessary, you can select **Expression editor...** and specify an [expression](../../../../../interface-elements-for-desktop/articles/expression-editor.md) to bind a query parameter to a dashboard parameter using custom logic.
 
 ## <a name="filtering"/>Filtering
-You can filter the specified [query](../../../../../dashboard-for-desktop/articles/dashboard-designer/working-with-data/filter-queries.md) of the [SQL Data Source](../../../../../dashboard-for-desktop/articles/dashboard-designer/providing-data/connecting-to-sql-databases.md) or [apply filtering](../../../../../dashboard-for-desktop/articles/dashboard-designer/data-shaping/filtering.md) to a specific dashboard item according to the current parameter value(s) using the [Filter Editor](../../../../../dashboard-for-desktop/articles/filter-editor.md).
+You can filter the specified [query](../../../../../dashboard-for-desktop/articles/dashboard-designer/working-with-data/filter-queries.md) of the [SQL Data Source](../../../../../dashboard-for-desktop/articles/dashboard-designer/providing-data/connecting-to-sql-databases.md) or [apply filtering](../../../../../dashboard-for-desktop/articles/dashboard-designer/data-shaping/filtering.md) to a specific dashboard item according to the current parameter value(s) using the [Filter Editor](../../../../../interface-elements-for-desktop/articles/filter-editor.md).
 
 In the Filter Editor, you can compare a field value with the following objects.
 * _A static value_ (represented by the ![Parameters_FilterEditor_CompareButton](../../../../images/Img21820.png) icon). Click this button to switch to the next item mode ("another field value"), to compare the field value with another field value.
