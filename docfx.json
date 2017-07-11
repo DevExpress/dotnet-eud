@@ -1,0 +1,43 @@
+{
+  "build": {
+    "content": [
+      {
+        "files": [
+          "dashboard-for-desktop/articles/**.md",
+          "dashboard-for-desktop/toc.yml",
+          "dashboard-for-web/articles/**.md",
+          "dashboard-for-web/toc.yml",
+          "interface-elements-for-desktop/articles/**.md",
+          "interface-elements-for-desktop/toc.yml",
+          "interface-elements-for-web/articles/**.md",
+          "interface-elements-for-web/toc.yml",
+          "toc.yml",
+          "README.md"
+        ],
+        "exclude": [
+          "_*/**",
+          "obj/**"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "dashboard-for-desktop/images/**",
+          "dashboard-for-web/images/**",
+          "interface-elements-for-desktop/images/**",
+          "interface-elements-for-web/images/**",
+        ],
+        "exclude": [
+          "obj/**",
+          "_*/**"
+        ]
+      }
+    ],
+    "dest": "_site",
+    "template": [
+      "default"
+    ],
+    "noLangKeyword": false
+  }
+}
