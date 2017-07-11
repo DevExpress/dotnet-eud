@@ -9,7 +9,6 @@ The first page of the wizard allows you to create/edit a query or select a store
 ![wdd-configure-query-parameters](../../../../images/Img124954.png)
 
 If the SQL query contains [query parameters](../../../../../dashboard-for-web/articles/web-dashboard-designer-mode/providing-data/working-with-sql-data-sources/pass-query-parameters.md), click **Next** to configure them.
- 
 
 ![wdd-configure-query-param-page2](../../../../images/Img124955.png)
 

@@ -43,7 +43,6 @@ Note that scripts are saved to a file along with the report's layout (for detail
 	The report engine generates a temporary class in memory. The names of the variables are defined by the **Name** properties of the controls and objects they represent. When the script is preprocessed, its namespace directives are cut from the script code and added to the namespace, where the temporary class is defined.
 	
 	After preprocessing, all scripts are placed in the code of the temporary class. Then, the resulting class is compiled in memory, and its methods are called when events occur.
-	  
 	
 	Scripting offers many advantages: you can declare classes (they will become inner classes), variables, methods, etc. A variable declared in one script is accessible in another script, because it is, in fact, a variable of the temporary class.
 3. **Reference External Assemblies**

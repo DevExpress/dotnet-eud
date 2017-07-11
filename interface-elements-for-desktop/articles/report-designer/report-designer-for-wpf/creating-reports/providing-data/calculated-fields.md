@@ -21,8 +21,6 @@ To add a calculated field to your report, follow the instructions below.
 	
 	Click **Fields** to see the field list. To add a data field or [report parameter](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-wpf/creating-reports/providing-data/report-parameters.md) to this expression, double-click the required name. A data field is inserted into the expression's text using its name in **[**square brackets**]**, and parameters are inserted using the "**Parameters.**" prefix before their names. Use the toolbar to add operators between field names.
 	
-	 
-	
 	To close the dialog and save the expression, click **OK**.
 4. Finally, drag the calculated field from the Field List onto the required [band](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-wpf/report-elements/report-bands.md) like an ordinary data field.
 	

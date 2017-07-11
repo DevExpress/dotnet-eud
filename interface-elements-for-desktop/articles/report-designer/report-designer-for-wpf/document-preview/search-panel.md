@@ -5,7 +5,6 @@ title: Search Panel
 The **Search** panel allows you to find specific text throughout a report document.
 
 ![WPFDesigner_SearchPanel](../../../../images/Img120301.png)
- 
 
 To invoke the **Search** panel, click the **Search** button ![WPFDesigner_PreviewToolbar_Search](../../../../images/Img120179.png) in the [Toolbar](../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-wpf/document-preview/preview-toolbar.md) or press CTRL+F.
 

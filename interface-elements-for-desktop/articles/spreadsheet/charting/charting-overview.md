@@ -35,7 +35,6 @@ The following chart types are currently available in the **Spreadsheet**:
 * **Scatter Charts**
 	
 	Scatter charts are used to plot data points on the horizontal and vertical axis to show the relationship between two sets of data. This chart type combines data values into single data points and displays them in uneven intervals (or clusters).
-	 
 	
 	Bubble charts allow you to visually represent data that has a third dimension, expressed in the bubble's size. You map two dimensions along the horizontal and vertical axes, and then the third dimension is displayed as a filled circle at the data point.
 	

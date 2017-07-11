@@ -21,7 +21,6 @@ To accomplish this task, do the following.
 	
 	Click **Next** to proceed to the next wizard page.
 6. If server authentication is required for the selected database type, the next page will prompt you to specify whether or not you want to save the user credentials along with the connection string.
-	 
 	
 	Select the required option and click **Next**.
 	

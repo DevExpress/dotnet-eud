@@ -34,7 +34,6 @@ To add a master-detail relation to an SQL data source, do the following.
 	
 	![EUD_WpfReportDersigner_MasterDetail_4](../../../../images/Img123525.png)
 7. In the invoked **Master-Detail  Relation Editor**, click the plus button next to the master query to add a new relation. Specify a relation condition as shown in the following image and click **OK** to exit the dialog.
-	 
 	
 	![EUD_WpfReportDersigner_MasterDetail_5](../../../../images/Img123526.png)
 8. The **Field List** will be updated to reflect the added relation.

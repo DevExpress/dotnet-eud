@@ -162,7 +162,6 @@ The following options are available.
 	Applying any of these functions to a column will discard individual data records from the query result set, which will only include the aggregate function result.
 
 > You should apply aggregation/grouping to either all columns or to none of them.
- 
 
 ## <a name="customsql"/>Enable Custom SQL Editing
 If custom SQL editing is enabled by your software provider, the Query Builder contains the **Allow Edit SQL** check box. Selecting this option disables the visual features of the Query Builder and allows users to specify the custom SQL string manually.

@@ -20,7 +20,6 @@ After an appointment has been right-clicked, the appointment context menu is inv
 
 ## <a name="dialogs"/>Edit Appointment and Appointment Recurrence Dialogs
 * **Edit a Simple Appointment**
-	 
 	
 	You can edit properties of a simple (non-recurring) appointment via the **Edit Appointment** dialog that can be invoked via the appointment context menu, [Bar](../../../../interface-elements-for-desktop/articles/scheduler/scheduler-ui/toolbars.md) or [Ribbon](../../../../interface-elements-for-desktop/articles/scheduler/scheduler-ui/ribbon-interface.md) interface, keyboard shortcuts and mouse operations.
 	

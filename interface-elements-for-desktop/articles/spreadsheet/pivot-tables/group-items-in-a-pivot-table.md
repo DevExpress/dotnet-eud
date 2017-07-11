@@ -62,7 +62,6 @@ Grouping can help you get a clearer view of data and show only data you want to 
 ## Ungroup Data
 To ungroup data in a pivot table, do one of the following.
 * Right-click the grouped field and select **Ungroup...** from the context menu.
-	 
 	
 	![Spreadsheet_PivotTable_Grouping_UngroupContextMenu](../../../images/Img126465.png)
 * Select any cell in the grouped field and on the **Pivot Table Tools** | **Analyze** tab, in the **Group** group, click the **Ungroup** button.

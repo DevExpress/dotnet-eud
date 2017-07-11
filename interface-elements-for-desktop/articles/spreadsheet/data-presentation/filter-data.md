@@ -61,7 +61,6 @@ To apply the number filter, do the following.
 To apply the date filter, do the following.
 1. Click the arrow ![Spreadsheet_FilterAndSortArrow](../../../images/Img25500.png) in the header of the column containing dates you wish to filter.
 2. Point to **Date Filters** and select one of the built-in dynamic filter types to display dates that fall within a specified time period (next, this or last week, month, year, etc.)...
-	 
 	
 	![Spreadsheet_DynamicDateFilter](../../../images/Img25646.png)
 	

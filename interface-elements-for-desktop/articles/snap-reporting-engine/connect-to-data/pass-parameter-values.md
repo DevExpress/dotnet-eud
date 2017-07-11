@@ -10,14 +10,12 @@ The document consists of the following sections.
 
 ## <a name="createparameters"/>Create Parameters
 You can manage the report parameters available for a Snap document using the **Parameters** dialog.
-  
 
 To invoke the **Parameters** dialog, right-click the **Parameters** node (or any of its sub-nodes) in the [Data Explorer](../../../../interface-elements-for-desktop/articles/snap-reporting-engine/graphical-user-interface/snap-application-elements/data-explorer.md) and select **Edit Parameters...** in the invoked drop-down menu.
 
 ![snap-data-explorer-parameters-edit](../../../images/Img22746.png)
 
 The **Parameters** dialog allows you to add and remove parameters using the corresponding buttons. Alternatively, you can add or remove a parameter by right-clicking the parameter in the **Data Explorer** and selecting the required action in the invoked drop-down menu.
- 
 
 Select the newly added parameter and specify its properties in the properties grid. Be sure to specify the proper parameter type based on the parameter's intended use.
 
@@ -50,7 +48,6 @@ After a parameter is created, it can be used in different ways during report gen
 		![snap-query-designer-sql-editor-parameter](../../../images/Img22745.png)
 	
 	In a similar way, you can use the **Filter Editor** to filter the Snap document data at the report level. In this case, to invoke the **Filter Editor**, click the **Filter** button that resides on the [List](../../../../interface-elements-for-desktop/articles/snap-reporting-engine/graphical-user-interface/main-toolbar/data-tools-list.md) tab of the contextual **Data Tools** toolbar category.
-	  
 	
 	![snap-filter-command](../../../images/Img22892.png)
 * **Calculated Fields**

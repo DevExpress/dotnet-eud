@@ -9,7 +9,6 @@ This document describes how to customize the layout of a [report element](../../
 
 ## <a name="select"/>Select Report Elements
 To select a [report control](../../../../../interface-elements-for-web/articles/report-designer/report-elements/report-controls.md) or a [band](../../../../../interface-elements-for-web/articles/report-designer/report-elements/report-bands.md), click it.
- 
 
 For multiple controls selection, click report controls while holding the **CTRL** key down.
 
@@ -40,7 +39,6 @@ After moving and resizing report elements, you may notice red warning marks, ind
 The [Web Report Designer](../../../../../interface-elements-for-web/articles/report-designer.md) allows you to establish the distance between report elements and precisely align them to each other. To align the selected control or multiple selected controls, switch to the [Properties Panel](../../../../../interface-elements-for-web/articles/report-designer/interface-elements/properties-panel.md), expand the **Actions** category, and click an appropriate button.
 
 ![eud-adjust-report-element-layout-4](../../../../images/Img119316.png)
- 
 
 To quickly align and resize a control to the report's **Snap Grid**, click the following buttons.
 

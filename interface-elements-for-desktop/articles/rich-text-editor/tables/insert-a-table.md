@@ -8,11 +8,9 @@ title: Insert a Table
 	
 	![RTETablesInsertTableRibbonMenu](../../../images/Img121379.png)
 3. In the invoked **Insert Table** dialog, select the required number of table rows and columns.
-	 
 	
 	![RTETableInsertTableDialog](../../../images/Img121380.png)
 4. Alternatively, you can select the required table size in the drop-down control box:
-	 
 	
 	![RTETableInsertTableDropDown](../../../images/Img121381.png)
 

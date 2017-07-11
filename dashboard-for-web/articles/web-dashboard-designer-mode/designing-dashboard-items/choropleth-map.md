@@ -7,7 +7,7 @@ The topics in this section describe the features available in the Choropleth Map
 ![wdd-dashboard-items-choropleth-map](../../../images/Img125119.png)
 
 This section consists of the following subsections.
-* [Choropleth Map](../../../../dashboard-for-web/articles/web-dashboard-designer-mode/designing-dashboard-items/choropleth-map.md) 
+* [Choropleth Map](../../../../dashboard-for-web/articles/web-dashboard-designer-mode/designing-dashboard-items/choropleth-map.md)
 	
 	Describes how to use default dashboard maps or provide custom maps.
 * [Providing Data](../../../../dashboard-for-web/articles/web-dashboard-designer-mode/designing-dashboard-items/choropleth-map/providing-data.md)

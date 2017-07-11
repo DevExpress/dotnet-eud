@@ -34,7 +34,6 @@ To change the default text in the axis title, right-click the chart and select t
 
 ## <a name="legend"/>Add a Chart Legend
 To add a legend to the chart, click the **Legend** button in the **Labels** group within the **Layout** tab, and then select where to position the legend.
- 
 
 ![LegendButton](../../../images/Img22050.png)
 

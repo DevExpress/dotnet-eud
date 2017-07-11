@@ -23,7 +23,6 @@ To create a Snap report using a document template, do the following.
 	![snap-getting-started-mail-merge04](../../../images/Img22825.png)
 	
 	Activate the **Highlight Fields** option from the [View](../../../../interface-elements-for-desktop/articles/snap-reporting-engine/graphical-user-interface/main-toolbar/general-tools-view.md) tab of the main toolbar to highlight all mail merge fields in a document. This allows you to easily distinguish between dynamic and static content.
-	  
 	
 	![snap-getting-started-mail-merge05](../../../images/Img22826.png)
 4. To insert a detail report section, drag-and-drop fields from a subordinate node of the data source. Fields of a nested level of a mail-merge data source are inserted into a template as columns of a table.

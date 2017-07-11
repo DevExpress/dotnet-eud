@@ -35,8 +35,6 @@ The dashboard provides two ways of coloring dashboard item elements.
 	
 	> When a local color scheme is used, the dashboard reassigns palette colors when the filter state is changed.
 
-	
-
 ## <a name="coloring-dimensions-and-measures"/>Coloring Dimensions and Measures
 Dashboard items allow you to manage the coloring of individual dimensions or all dashboard item measures using predefined coloring modes.
 

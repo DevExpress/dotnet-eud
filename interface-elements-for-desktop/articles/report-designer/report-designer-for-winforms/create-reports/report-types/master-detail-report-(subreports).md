@@ -3,7 +3,6 @@ title: Master-Detail Report (Subreports)
 ---
 # Master-Detail Report (Subreports)
 This tutorial describes the steps needed to create a master-detail report using the [Subreport](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-reference/report-controls/subreport.md) control. For an alternative approach, refer to [Master-Detail Report (Detail Report Bands)](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/create-reports/report-types/master-detail-report-(detail-report-bands).md).
- 
 
 To create a master-detail report using the subreport controls, do the following.
 * [Create a Master Report](#create)

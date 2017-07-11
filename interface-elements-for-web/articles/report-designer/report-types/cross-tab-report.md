@@ -29,7 +29,6 @@ To create a cross-tab report, do the following.
 	
 	![eud-cross-tab-report-6](../../../images/Img119149.png)
 5. To adjust a Pivot Grid field, switch to the Properties Panel, expand the Report Controls drop-down list and select the required grid field. In the **Data** category, specify the **Data Column Name** property to bind a grid field to a data source field.
-	 
 	
 	![eud-cross-tab-report-7](../../../images/Img119150.png)
 	

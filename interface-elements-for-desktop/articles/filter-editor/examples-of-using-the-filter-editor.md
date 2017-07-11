@@ -70,7 +70,6 @@ Filter criteria typically consist of two or more simple filter conditions combin
 
 ## How to Construct Filter Criteria Involving Different Logical Operators
 Some filter criteria contain multiple logical (Boolean) operators combining simple filter conditions. For instance, you want to see items whose price is under 10, and at the same time, the available quantity is also less than 10. At the same time, you may also want to see those items whose price is over 10, while the available quantity is also greater than 10.
- 
 
 The resulting condition will look like this:
 

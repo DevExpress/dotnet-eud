@@ -34,7 +34,6 @@ To scroll a 2D chart, do one of the following:
 ## Scroll a 3D Chart
 An end-user can perform chart scrolling doing one of the following:
 * **Hold down the mouse wheel button on a chart and drag it**.
-	 
 	
 	After you hold down the mouse wheel, the mouse pointer is changed from ![ZoomingChart5](../../images/Img7227.gif) to ![ZoomingChart6](../../images/Img7228.jpeg). Then drag the mouse pointer to scroll a chart's diagram.
 * **Use CTRL+ARROW combinations**.

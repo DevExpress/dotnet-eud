@@ -58,7 +58,6 @@ To create a new report parameter, do the following.
 		
 		The specified data member should conform to the data type specified for the parameter.
 3. To define a filtering criteria for the report, switch to the [Properties Panel](../../../../../interface-elements-for-web/articles/report-designer/interface-elements/properties-panel.md), and in the **Actions** or **Data** category, click the ellipsis button for the report's **Filter String** property. In the invoked [Filter Editor](../../../../../interface-elements-for-web/articles/report-designer/interface-elements/filter-editor.md), construct the filtering expression.
-	 
 	
 	To access parameters, expand the drop-down menu for a value placeholder and select the **Parameter** item. This will convert the value placeholder into a parameter placeholder. Click this placeholder to insert the required parameter.
 	

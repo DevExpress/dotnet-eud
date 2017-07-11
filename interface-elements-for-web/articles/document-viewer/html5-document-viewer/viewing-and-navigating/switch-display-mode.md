@@ -4,8 +4,6 @@ title: Switch Display Mode
 # Switch Display Mode
 You can switch between the Document Viewer's display modes by clicking the **Toggle Multipage Mode** ![web-designer-main-toolbar-multipage](../../../../images/Img24556.png) button on the Viewer's toolbar.
 
- 
-
 In the default single page mode, document pages are displayed in the Document Viewer one at a time, thus allowing you to preserve an entire page view. You can navigate between document pages using the navigation buttons and dedicated dropdown list (see [Navigate Between Pages](../../../../../interface-elements-for-web/articles/document-viewer/html5-document-viewer/viewing-and-navigating/navigate-between-pages.md)).
 
 ![EUD_HTML5DV_DefaultMode](../../../../images/Img121843.png)

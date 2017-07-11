@@ -17,11 +17,9 @@ If you are not satisfied with the predefined styles, specify your own formatting
 1. [Select](../../../../interface-elements-for-desktop/articles/spreadsheet/editing-cells/select-cells-or-cell-content.md) the cells you wish to format.
 2. To add borders to the selected cells, do one of the following.
 	* In the **Font** group within the **Home** tab, click the **Borders** button's drop-down menu and select the border type. This menu also allows you to select the line style and line color of borders.
-		 
 		
 		![Borders.png](../../../images/Img21151.png)
 	* Click the **Font** dialog box launcher to invoke the **Format Cells** dialog box. Click the **Border** tab and specify all required parameters. Then click **OK**.
-		 
 		
 		![FormatCellsBorderTab](../../../images/Img23592.png)
 3. To set the background color of the selected cells, do one of the following.

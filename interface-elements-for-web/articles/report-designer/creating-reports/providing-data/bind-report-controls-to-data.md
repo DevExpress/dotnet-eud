@@ -14,7 +14,6 @@ A report control can be bound to a data field available in the [report's data so
 * **Create a Data-Aware Element**
 	
 	The [Web Report Designer](../../../../../interface-elements-for-web/articles/report-designer.md) allows you to add a new bound report control using the [Field List](../../../../../interface-elements-for-web/articles/report-designer/interface-elements/field-list.md).
-	 
 	
 	To create a data-aware element, switch to the Field List panel, click the desired field item, and then drag and drop it onto the report band. After this, a control that is bound to the selected data field will appear.
 	

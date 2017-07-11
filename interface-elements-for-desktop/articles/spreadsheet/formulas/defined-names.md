@@ -27,7 +27,6 @@ A defined name is a meaningful shorthand name that describes the meaning of an i
 	_"=Sheet1!$D$20"_ - refers to the D20 cell located on the Sheet1 worksheet;
 	
 	_"=Sheet1!$A$1:$C$10"_ - refers to the A1:C10 range of cells located on the Sheet1 worksheet;
-	 
 	
 	_"=SUM(Sheet1!$B$1:$B$10)"_ - refers to the formula that calculates the sum of values contained in the B1:B10 range of cells located on the Sheet1 worksheet;
 	

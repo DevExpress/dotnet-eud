@@ -13,8 +13,6 @@ Drill-down requires that the [data section](../../../../dashboard-for-desktop/ar
 
 ![DrillDown_DataItems_SeveralDimensions](../../../images/Img22541.png)
 
- 
-
 ... or a hierarchy data item (in [OLAP mode](../../../../dashboard-for-desktop/articles/dashboard-designer/binding-dashboard-items-to-data/binding-dashboard-items-to-data-in-olap-mode.md)).
 
 ![DrillDown_DataItems_Hierarchy](../../../images/Img22542.png)

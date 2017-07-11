@@ -13,25 +13,21 @@ The topic consists of the following sections.
 To navigate between pages, use one of the following.
 * The scrollbars.
 * **Previous** and **Next** navigation buttons.
-	 
 	
 	![pdf-viewer-1](../../images/Img24365.jpeg)
 	
 	These buttons allow you to switch to the previous or next page of a document.
 * The **Pager** that is used to show the current page number and the total number of pages in a document.
-	 
 	
 	![ChangePage](../../images/Img124778.jpeg)
 	
 	To change the page number in the **Pager**, type a new page number and press **ENTER**.
 * The **Bookmarks** panel located on the Navigation pane.
-	 
 	
 	![BookmarksPanel](../../images/Img124929.jpeg)
 	
 	To jump to a topic, click a bookmark.
 * The **Page Thumbnails** panel located on the Navigation pane.
-	 
 	
 	![PageThumbnails ](../../images/Img124910.jpeg)
 	
@@ -59,7 +55,6 @@ To change the page view, use one of the following.
 
 ## <a name="search"/>Search for a Specific Text
 To search for a specific text within a document, click the **Find** button on the toolbar.
- 
 
 ![pdf-viewer-12](../../images/Img24457.jpeg)
 

@@ -39,7 +39,6 @@ You can create your own style for a multilevel list on the basis of one of the e
 	
 	> The **Customize...** button is disabled if the **None** item of the **Bullets and Numbering** dialog is selected.
 4. In this dialog, change different list parameters to create your own list style.
-	 
 	
 	For instance, if you specify list parameters in the following way,...
 	

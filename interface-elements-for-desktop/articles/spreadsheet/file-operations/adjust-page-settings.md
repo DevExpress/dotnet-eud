@@ -11,7 +11,6 @@ Before you print a worksheet, you can change page layout settings such as [page 
 	![Margins.png](../../../images/Img21167.png)
 3. To specify custom margins, select **Custom Margins...** in the drop-down list...
 4. ... or click the **Page Setup** Dialog Box Launcher and switch to the **Margins** tab in the invoked dialog.
-	 
 	
 	![SpreadsheetControl_InvokePageSetupDialog](../../../images/Img118304.png)
 5. Specify desired margin sizes in the corresponding dialog boxes. To center worksheet data on a printed page, check the corresponding **Center on page** section boxes.
@@ -33,7 +32,6 @@ Before you print a worksheet, you can change page layout settings such as [page 
 	
 	![Size.png](../../../images/Img21168.png)
 3. Click **More Paper Sizes...** to set more advanced paper size settings.
-	 
 	
 	![SpreadsheetControl_PageSetupDialog_PageTab](../../../images/Img118189.png)
 

@@ -41,7 +41,6 @@ To apply a style or formatting rule to a report control, drag it from the Report
 When both styles and individual appearance settings are assigned to an element, the priority is required to decide which of the properties to use.
 
 By default, a style's appearance property has a higher priority than an element's appearance property. The Advanced Options button for this appearance property is highlighted in blue.
- 
 
 ![eud-styles-4](../../../../images/Img120195.png)
 

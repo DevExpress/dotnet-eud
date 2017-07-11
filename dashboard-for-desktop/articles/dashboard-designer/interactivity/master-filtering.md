@@ -37,7 +37,6 @@ Dashboard items can be divided into four groups by their master filtering capabi
 	
 	To learn more, see the [Range Filter](../../../../dashboard-for-desktop/articles/dashboard-designer/designing-dashboard-items/range-filter.md) section.
 4. **Dashboard item group** allows you to manage interaction between dashboard items in and out of the group.
-	 
 	
 	To learn more about the interactivity capabilities of the dashboard item group, see the **Interactivity** paragraph in the [Dashboard Item Group](../../../../dashboard-for-desktop/articles/dashboard-designer/designing-dashboard-items/dashboard-item-group.md) topic.
 

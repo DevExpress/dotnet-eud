@@ -9,6 +9,6 @@ To modify an image's settings within the editor's content, do one of the followi
 	![ASPxHtmlEditor-Images-Modifying-ContextMenu](../../../images/Img7389.png)
 * Select the image and click the **Insert Image** button.
 	
-	![ASPxHtmlEditor-Images-Modifying-Button](../../../images/Img7388.png) 
+	![ASPxHtmlEditor-Images-Modifying-Button](../../../images/Img7388.png)
 
 The opened **Change Image** dialog allows you to modify the image's settings. More detailed information about modifying image settings is available in the [Insert an Image in HTML Editor](../../../../interface-elements-for-web/articles/html-editor/working-with-images/insert-an-image-in-html-editor.md) section.

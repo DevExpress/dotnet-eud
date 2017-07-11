@@ -9,7 +9,6 @@ This topic describes the features related to the dashboard layout.
 
 ## <a name="dashboard-title"/>Dashboard Title
 The **Dashboard Title** is located at the top of the dashboard. The dashboard title can contain text or image content, elements selected in the master filter item, and command buttons.
- 
 
 ![wdd-dashboard-title](../../../images/Img126004.png)
 

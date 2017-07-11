@@ -10,7 +10,6 @@ This topic consists of the following sections.
 
 ## <a name="textediting"/>Text Editing
 The **Label**, **Table Cell** and **Character Comb** [report controls](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-wpf/report-elements/report-controls.md) can be assigned editors to customize their content in Print Preview.
-  
 
 To demonstrate this feature, use the report similar to one created in the following tutorial: [Grouping Data](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-wpf/creating-reports/shaping-data/grouping-data.md).
 

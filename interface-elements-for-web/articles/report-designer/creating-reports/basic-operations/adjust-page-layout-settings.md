@@ -3,7 +3,6 @@ title: Adjust Page Layout Settings
 ---
 # Adjust Page Layout Settings
 In the [Web Report Designer](../../../../../interface-elements-for-web/articles/report-designer.md), you can change page layout settings before you print a report.
- 
 
 To specify the report's page settings, switch to the [Properties Panel](../../../../../interface-elements-for-web/articles/report-designer/interface-elements/properties-panel.md), and in the Report Controls drop-down list, select the report. Expand the **Page Settings** category and adjust the following page settings.
 

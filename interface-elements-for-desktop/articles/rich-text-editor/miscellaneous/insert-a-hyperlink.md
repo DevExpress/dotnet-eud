@@ -6,8 +6,6 @@ The **Hyperlink** marks the document range as a hot spot in the document. It can
 
 To create a new hyperlink, select a range to mark and on the **Insert** tab, in the **Links** group, click the **Hyperlink** button...
 
- 
-
 ![RTEInsertHyperlLink](../../../images/Img121254.png)
 
 ...or select the **Hyperlink...** item from the context menu ...

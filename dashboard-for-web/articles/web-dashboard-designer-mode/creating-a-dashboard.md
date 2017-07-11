@@ -3,7 +3,6 @@ title: Creating a Dashboard
 ---
 # Creating a Dashboard
 The Web dashboard allows you to embed the user interface required for creating dashboards at runtime.
- 
 
 You can create a new dashboard in two ways.
 * You can open the [dashboard menu](../../../dashboard-for-web/articles/web-dashboard-designer-mode/ui-elements/dashboard-menu.md) and click the **New** button...

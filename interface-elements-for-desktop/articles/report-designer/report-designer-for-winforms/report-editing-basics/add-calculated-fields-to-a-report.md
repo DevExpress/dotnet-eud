@@ -23,8 +23,6 @@ To add a calculated field to your report, follow the instructions below.
 	
 	> Note that it's also possible to employ [parameters](../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-editing-basics/add-parameters-to-a-report.md) in a calculated field's expression.
 	
-	 
-	
 	To close the dialog and save the expression, click **OK**.
 4. Finally, drag the calculated field from the Field List onto the required [band](../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-reference/report-bands.md), just like an ordinary data field.
 	

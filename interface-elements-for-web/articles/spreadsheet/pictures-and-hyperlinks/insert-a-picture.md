@@ -15,6 +15,5 @@ To insert a picture, follow the instructions below.
 	
 	![EUD_ASPxSpreadsheet_Insert_PictureButton](../../../images/Img26136.png)
 2. In the **Insert Image** dialog box that is invoked, enter an image's web address (if you are going to load a picture from the web) or locate the required folder and select a file (if you are going to load pictures from your computer). Click **Insert**. The picture will be inserted into the worksheet.
-	 
 	
 	![EUD_ASPxSpreadsheet_Insert_PictureDialog](../../../images/Img26137.png)

@@ -21,7 +21,6 @@ To bind a report to a database, do the following.
 	
 	Click **Next** to proceed.
 6. If server authentication is required for the selected database type, the next page will prompt you to specify whether or not you want to save the user credentials along with the connection string.
-	 
 	
 	Select the required option and click **Next**.
 	
@@ -29,7 +28,6 @@ To bind a report to a database, do the following.
 7. On the next page, you can construct an SQL query to obtain data from the database, or select a stored procedure.
 	
 	To construct an SQL query, click **Run Query Builder...**
-	 
 	
 	![EUD_WpfReportDesigner_DataSourceWizard_Database_4](../../../../../../images/Img123988.png)
 8. In the invoked [Query Builder](../../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-wpf/interface-elements/query-builder.md) window, select an item from the list of available tables on the left and drop it onto the list of data tables to be used.

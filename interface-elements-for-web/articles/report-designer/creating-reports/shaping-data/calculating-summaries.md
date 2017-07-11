@@ -19,7 +19,6 @@ To calculate summaries (totals) within a report, follow the instructions below.
 	![eud-calculating-summaries-3](../../../../images/Img119763.png)
 	
 	Set the **Func** property to **Sum**. Note that in addition to a simple summary, you can choose among numerous built-in functions (such as **Count** and **Average**).
-	 
 	
 	Set the **Running** property to **Report**, so that the sum is calculated for the entire report.
 	

@@ -14,6 +14,6 @@ When [exporting a document](../../../../../interface-elements-for-desktop/articl
 * **Text separator**
 	
 	Specifies a symbol used to separate text elements (comma by default).
-* **Quote strings with separators**    
+* **Quote strings with separators**
 	
 	Specifies whether strings with separators should be placed in quotation marks in the exported document.

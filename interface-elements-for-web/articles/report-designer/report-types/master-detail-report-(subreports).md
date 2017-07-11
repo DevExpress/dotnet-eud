@@ -22,7 +22,6 @@ To create a master-detail report using the subreport controls, do the following.
 	![eud-subreports-3](../../../images/Img120284.png)
 	
 	Double-click the added subreport to open the detail report. To switch between master and detail reports, click the corresponding tab in the bottom left corner of the Design Surface.
-	 
 	
 	![eud-subreports-4](../../../images/Img120285.png)
 
@@ -62,7 +61,6 @@ To create a master-detail report using the subreport controls, do the following.
 
 ## <a name="subreport"/>Configure Subreport Parameter Bindings
 Switch back to the master report and bind the subreport's **CatID** parameter used as a filtering criterion to the master report's **CategoryID** data field, which will serve as a source of the parameter value.
- 
 
 To do this, select the subreport, expand the **Data** category on the [Properties Panel](../../../../interface-elements-for-web/articles/report-designer/interface-elements/properties-panel.md), select the **Parameter Bindings** section and add a new parameter binding. In the binding properties list, specify the data field to which you want to bind a subreport parameter and the name of the parameter that you want to bind.
 

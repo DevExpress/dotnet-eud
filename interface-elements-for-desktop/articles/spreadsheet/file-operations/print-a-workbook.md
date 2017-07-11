@@ -104,7 +104,6 @@ If a worksheet occupies more than one page, you can repeat specific row or colum
 	
 	![Spreadsheet_Printing_PrintTitlesRibbon](../../../images/Img128781.png)
 2. ... or  to invoke the **Page Setup** dialog and switch to the **Sheet** tab.
-	 
 	
 	![PageLayoutTab](../../../images/Img22352.png)
 3. Specify the reference to the row/column containing labels that should be repeated in the **Rows to repeat at top** and/or **Columns to repeat at left** boxes of the **Print titles** section. You can select the target row or column directly in a worksheet by clicking the collapse dialog ![SpreadsheetControl_NameManager_CollapseDialogButton](../../../images/Img23805.png) button.
@@ -123,7 +122,6 @@ You can set a header and footer for a worksheet printout by doing the following.
 	
 	![Spreadsheet_Printing_HeadersFooters_DropDownList](../../../images/Img128784.png)
 4. To specify custom header and/or footer, click the **Custom Header/Footer...** button to invoke the **Header and Footer** dialog.
-	 
 	
 	![SpreadsheetControl_PageSetupDialog_HeaderFooterTab](../../../images/Img118187.png)
 5. Click in the **Left**, **Center**  or **Right** section box and type the desired text. Use the buttons located between the header and footer sections to insert specific codes that enable including dynamic information into a header or footer, such as a page number, current date and time, filename, worksheet name, etc.

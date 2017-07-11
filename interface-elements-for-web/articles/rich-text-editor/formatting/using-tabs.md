@@ -30,7 +30,6 @@ To set a tab stop by using the ruler, do the following:
 * Click on the ruler to set a tab stop at a specific position.
 	
 	![EUD_ASPxRichEdit_Tabs_SetOnRuler](../../../images/Img117918.png)
- 
 
 ## <a name="dialog_box"/>Set Tab Stops by Using the Tab Dialog Box
 To set a tab stop by using the dialog box, do the following:

@@ -37,7 +37,6 @@ You can create your own style for a bulleted list on the basis of one of the exi
 	
 	> The **Customize...** button is disabled if the **None** item of the **Bullets and Numbering** dialog is selected.
 4. In this dialog, change different list parameters to create your own list style.
-	 
 	
 	For instance, if you specify list parameters in the following way,...
 	

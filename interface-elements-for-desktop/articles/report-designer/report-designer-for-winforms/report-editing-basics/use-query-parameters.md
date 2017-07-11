@@ -74,7 +74,6 @@ The [configure query parameters](../../../../../interface-elements-for-desktop/a
 		![eud-win-report-wizard-configure-parameters-report-parameter](../../../../images/Img126991.png)
 		
 		In the invoked **Report Parameter** dialog, specify the required report parameter settings. Be sure to specify the report parameter type according to the type of the respective query parameter. Click **OK** to exit the dialog.
-		 
 		
 		![eud-win-reports-new-report-parameter-for-query-parameter](../../../../images/Img126992.png)
 	* You can map a query parameter to a report parameter that already exists in a report by referring to its value from a simple expression. To do this, expand the drop-down list for the **Value** property and select the parameter that you want to use. The appropriate expression string will be generated automatically.

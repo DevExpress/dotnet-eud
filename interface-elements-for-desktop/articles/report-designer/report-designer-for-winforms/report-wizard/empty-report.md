@@ -7,7 +7,6 @@ Select the **Empty Report** option on the [Choose a Report Type](../../../../../
 ![eud-win-report-wizard-empty-report](../../../../images/Img126645.png)
 
 The following image illustrates the default layout of a newly added empty report.
- 
 
 ![eud-win-empty-report-layout](../../../../images/Img126646.png)
 

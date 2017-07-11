@@ -22,7 +22,6 @@ Alternatively, you can run the Query Builder by right-clicking a data source in 
 
 ## <a name="manage"/>Manage Data Tables
 Double-click table names in the rightmost column to add them to the query being edited. To include a particular field in the query, enable the corresponding check box.
- 
 
 The Query Builder automatically highlights the tables of an external data source that are related to the tables of a Snap data model by one or more primary keys.
 
@@ -34,8 +33,6 @@ When the related table is added to the query being edited, the corresponding pri
 To assign a custom name to the selected data column, specify its **Alias** in the column list displayed in the lower part of the window.
 
 ![query-designer-snap-custom-alias-column-display-name](../../../images/Img22282.png)
-
-   
 
 To specify the filter criteria applied to source data, click the **Filter** button, which invokes the **Filter Editor**.
 

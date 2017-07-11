@@ -86,7 +86,6 @@ The Color Scheme page of the [dashboard menu](../../../../dashboard-for-web/arti
 	![wdd-coloring-invoke-color-picker](../../../images/Img126133.png)
 	
 	Click **Confirm** to change the automatically assigned color for the selected value and update the current color scheme.
-	 
 	
 	![wdd-coloring-changed-color](../../../images/Img126122.png)
 	

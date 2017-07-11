@@ -7,6 +7,5 @@ To remove all formatting from cells, do one of the following.
 	
 	![ClearFormats.png](../../../images/Img21143.png)
 2. In the **Styles** group within the **Home** tab, select the _Normal_ style, to restore the default settings.
-	 
 	
 	![NormalStyle.png](../../../images/Img21223.png)

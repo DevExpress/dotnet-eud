@@ -10,7 +10,6 @@ This topic consists of the following sections.
 
 ## <a name="textediting"/>Text Editing
 The **Label**, **Table Cell** and **Character Comb** [report controls](../../../../../interface-elements-for-web/articles/report-designer/report-elements/report-controls.md) can be assigned editors to customize their content in Print Preview.
-  
 
 To enable content editing for a specific control, do the following.
 1. Select a control that you want to become editable in Print Preview and switch to the [Properties Panel](../../../../../interface-elements-for-web/articles/report-designer/interface-elements/properties-panel.md). In the **Behavior** category, expand the **Edit Options** property and set the **Enabled** property to **Yes**.

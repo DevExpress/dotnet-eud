@@ -69,4 +69,5 @@ To print or export a dashboard item, click the ![Printing_PrintButton](../../ima
 * **Export to PDF** - Invokes a corresponding dialog that allows you to export a dashboard to a PDF file with specific options.
 * **Export to Image** - Invokes a corresponding dialog that allows you to export a dashboard to image in the specified format.
 * **Export to Excel** - Invokes a corresponding dialog that allows you to export a dashboard item's data to the Excel workbook or CSV file.
+
 To learn more about printing/exporting specifics of different dashboard items, see the **Printing and Exporting** topic for the required [dashboard item](../../../dashboard-for-desktop/articles/dashboard-viewer/dashboard-items.md).

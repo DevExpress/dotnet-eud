@@ -40,7 +40,6 @@ In the invoked dialog, locate the required **.shp** file. Note that custom maps 
 
 ## Map Attributes
 After you select the default map or a custom map, you can view supplemental information (such as the name of the country, state, etc.). To do this, click the **Options** button next to the **Attribute** placeholder.
- 
 
 ![Map_MapAttributeBinding](../../../../images/Img22198.png)
 

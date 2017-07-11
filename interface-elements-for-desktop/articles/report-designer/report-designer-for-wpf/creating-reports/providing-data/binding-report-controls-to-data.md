@@ -26,7 +26,6 @@ The Report Designer allows you to create a data-aware element using the [Field L
 
 ## Using the Context Menu
 Right click an existing report control, and in the invoked context menu, click the **Edit...** link.
- 
 
 ![EUD_WpfReportDesigner_BindControls_3](../../../../../images/Img123706.png)
 

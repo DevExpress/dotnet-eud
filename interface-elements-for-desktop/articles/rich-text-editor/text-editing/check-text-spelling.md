@@ -19,7 +19,6 @@ To perform spell check word-by-word, select the **Check Spelling** item from the
 ... or press **F7**.
 
 The **Spelling** dialog will be invoked.
- 
 
 ![RTESpellingDialog](../../../images/Img121307.png)
 

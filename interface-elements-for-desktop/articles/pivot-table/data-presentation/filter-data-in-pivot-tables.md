@@ -3,7 +3,6 @@ title: Filter Data in Pivot Tables
 ---
 # Filter Data in Pivot Tables
 By default, the Pivot Table processes all records when calculating its values. Data filtering allows you to process only those records that meet your requirements.
- 
 
 Topics in this section describe three ways of filtering data in Pivot Tables - filtering by field values, filtering by cell values and building complex filter criteria.
 

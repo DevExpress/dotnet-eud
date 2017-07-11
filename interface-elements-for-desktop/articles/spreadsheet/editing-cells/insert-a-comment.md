@@ -3,10 +3,8 @@ title: Insert a Comment
 ---
 # Insert a Comment
 The **Spreadsheet** allows you to attach notes to individual cells by using **comments**. Comments are extremely useful when you need to provide additional information, such as reminders, notifications, or feedback in a document without modifying cell content.
- 
 
 Comments are displayed in a yellow box anchored to a cell. A cell containing a comment has a red triangular indicator in the corner.
- 
 
 ![SpreadsheetControl_CommentCommonAppearance](../../../images/Img24520.png)
 

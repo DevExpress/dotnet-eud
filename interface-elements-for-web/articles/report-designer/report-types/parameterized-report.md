@@ -15,7 +15,6 @@ To add parameters and filter your report based on their values, follow the steps
 	
 	> In the [Document Preview](../../../../interface-elements-for-web/articles/report-designer/document-preview.md), the report's document is not generated until you have submitted values of all the parameters with enabled **Visible** property.
 4. To assign a list of values to this report parameter, specify the **Look-Up Settings Type** property.
-	 
 	
 	Set this property to the **Dynamic List** to obtain parameter values from a data source. In this case, you should specify a parameter's data source, data member, value member and display member. The value member defines a data field that provides values to the parameter. The display member defines a data field that provides display names for parameter values (how these values appear in the user interface available in a Print Preview).
 	

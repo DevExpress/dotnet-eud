@@ -26,6 +26,4 @@ At the bottom and at the right of the **Text Editing Surface** there are horizon
 ## Context Menu
 The **Rich Text Editor** supports the **Context Menu** that appears when you right-click within the **Text Editing Surface**. The context menu provides common commands and displays suggested corrections if you right-click a misspelled word.
 
- 
-
 ![RTESpellCheckingContextMenu](../../../images/Img121326.png)

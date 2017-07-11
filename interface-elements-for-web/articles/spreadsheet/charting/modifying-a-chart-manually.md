@@ -36,7 +36,6 @@ To change the default text in the axis title, right-click the chart and select t
 To add a legend to the chart, right-click the chart and select the **Legend** item in the context menu. Then, select where to position the legend.
 
 ![EUD_ASPxSpreadsheet_Insert_ShowLegendAtTopContextMenu](../../../images/Img26231.png)
- 
 
 For example, select the **Show Legend at Top** item to display the legend above the plot area.
 

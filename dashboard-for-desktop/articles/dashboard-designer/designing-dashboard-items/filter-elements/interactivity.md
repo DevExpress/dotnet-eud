@@ -12,7 +12,6 @@ The **Dashboard** allows you to use any data aware dashboard item as a filter fo
 Depending on the filter element type, you can select a value(s) to make other dashboard items display only data related to the selected value(s).
 
 ![FilterElements_Interactivity](../../../../images/Img24829.png)
- 
 
 You can also create a set of related filter elements containing relevant filter values. For instance, in the image below, the **State/Province** filter element contains states related to the 'United States' value, while the **City** filter element contains cities related to the 'New York' value.
 

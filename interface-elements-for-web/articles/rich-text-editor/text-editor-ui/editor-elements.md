@@ -18,6 +18,4 @@ At the bottom and at the right of the **Text Editing Surface** there are horizon
 ## Context Menu
 The **Rich Text Editor** supports the **Context Menu** that appears when you right-click on the **Text Editing Surface**.
 
- 
-
 ![EUD_ASPxRichEdit_ContextMenu](../../../images/Img117726.png)

@@ -91,7 +91,6 @@ In the [Property Grid](../../../../../../interface-elements-for-desktop/articles
 * **Repeat Every Page**
 	
 	This property improves the readability of reports with group contents that are several pages long. Without a repeated group header at the top of the page, the report may be difficult to read.
-	 
 	
 	This property is also accessible via the band's [Smart Tag](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-reference/report-designer-ui/smart-tag.md).
 * **Scripts**

@@ -13,7 +13,6 @@ In the **Manage Queries** dialog, click the ellipsis button in the query list to
 ![SpreadsheetControl_MailMerge_ ManageQueriesWindow-OrderDetails](../../../images/Img25606.png)
 
 The **Query Editor** window appears.
- 
 
 ![SpreadsheetControl_MailMerge_ParametersQueryEditor01](../../../images/Img25263.png)
 

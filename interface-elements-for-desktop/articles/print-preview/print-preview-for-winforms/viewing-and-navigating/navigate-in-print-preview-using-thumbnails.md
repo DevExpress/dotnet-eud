@@ -3,7 +3,6 @@ title: Navigate in Print Preview Using Thumbnails
 ---
 # Navigate in Print Preview Using Thumbnails
 You can use thumbnails to quickly navigate between document pages.
- 
 
 To show report thumbnails, click the **Thumbnails** button on the toolbar.
 

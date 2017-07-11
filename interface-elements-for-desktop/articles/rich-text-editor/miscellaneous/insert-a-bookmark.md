@@ -2,8 +2,6 @@
 title: Insert a Bookmark
 ---
 # Insert a Bookmark
- 
-
 A **Bookmark** exposes a document range with a name. The range can have a zero length. The name should start with a letter and can include numbers.
 
 To create a new bookmark, place the caret at the chosen location, or select the text to mark, and on the **Insert** tab, in the **Links** group, click the **Bookmark** button...

@@ -32,6 +32,6 @@ You can select a value within the **Track Bar** by positioning the drag handle w
 	
 	If the track bar is in a range selection mode, you can select a range of values instead of a single value. The track bar control provides you with the ability to move the selected range along the track by dragging the track highlighted part called bar highlight.
 	
-	[See animation](../../../interface-elements-for-web/articles/editors/track-bar/dragging-bar-highlight.md). 
+	[See animation](../../../interface-elements-for-web/articles/editors/track-bar/dragging-bar-highlight.md).
 
 Note that the track bar control automatically marks the last clicked handle as focused and highlights it by default. You can change its position using arrow keys, increment/decrement buttons and the scroll wheel. Note that a click on the track or a scale changes the position of the nearest drag handle.

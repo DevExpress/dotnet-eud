@@ -26,7 +26,7 @@ The hyperlink's settings can be customized by using the following parameters:
 | URL | Specifies the target URL. |
 | Text | Specifies the link text.  This parameter is not available when creating image links. |
 | Tooltip | Specifies the text that will appear in the tooltip when the mouse cursor is placed over the hyperlink. |
-| Open in new window | Specifies whether to open the URL in the same window, or new one. | 
+| Open in new window | Specifies whether to open the URL in the same window, or new one. |
 
 **Enter an E-mail Address**
 
@@ -39,6 +39,6 @@ The e-mail's settings can be customized using the following parameters:
 | Email to | Defines an email address. |
 | Subject | Specifies the subject of the email message. |
 | Text | Specifies the link text. This parameter is not available when creating image links. |
-| Tooltip | Specifies the text that will appear in the tooltip when the mouse cursor is placed over the hyperlink. | 
+| Tooltip | Specifies the text that will appear in the tooltip when the mouse cursor is placed over the hyperlink. |
 
 Click the **OK** or **Cancel** button to save or reject the changes made.

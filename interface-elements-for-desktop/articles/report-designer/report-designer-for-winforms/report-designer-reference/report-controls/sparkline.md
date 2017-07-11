@@ -69,8 +69,6 @@ In the [Property Grid](../../../../../../interface-elements-for-desktop/articles
 	> Usually, it is not necessary to specify the Data Member property when binding a Sparkline to data. This property should only be set directly if the dataset contains more than one table.
 * **Data Source**
 	
-	 
-	
 	Determines a Sparkline's data source.
 * **Tag**
 	
@@ -109,6 +107,5 @@ In the [Property Grid](../../../../../../interface-elements-for-desktop/articles
 * **Navigation URL** and **Navigation Target**
 	
 	Use the Navigation URL property to specify a URL for web browser navigation when a user clicks a Label. The web browser displays a page in a window or a frame as specified by the **Navigation Target** property. Note that a URL should have an appropriate prefix (e.g., "http://"). You can create cross-references within the report by assigning the name of the target control to the Navigation URL property, and setting the Navigation Target property to "_self". For more information, refer to [Create Hyperlinks](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/create-reports/report-navigation-and-interactivity-/create-hyperlinks.md).
-	 
 	
 	If the current report is [bound to a data source](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/create-reports/binding-a-report-to-data.md), the Navigation URL property can be bound to a data field obtained from the data source. To do this, expand the (Data Bindings) property, and in the Navigation URL.Binding drop-down selector, select the required data field.

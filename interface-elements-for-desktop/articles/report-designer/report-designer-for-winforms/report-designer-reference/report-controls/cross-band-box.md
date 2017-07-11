@@ -34,8 +34,6 @@ In the [Property Grid](../../../../../../interface-elements-for-desktop/articles
 	
 	This property allows you to add some additional information to the control; for example its id, by which it can then be accessible via [scripts](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/create-reports/miscellaneous/handle-events-via-scripts.md).
 
- 
-
 ## Design
 * **(Name)**
 	

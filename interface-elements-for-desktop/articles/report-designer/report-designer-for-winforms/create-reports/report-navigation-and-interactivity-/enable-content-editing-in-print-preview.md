@@ -10,7 +10,6 @@ This topic consists of the following sections.
 
 ## <a name="textediting"/>Text Editing
 The [Label](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-reference/report-controls/label.md), [Table Cell](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-reference/report-controls/table-cell.md) or [Character Comb](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-reference/report-controls/character-comb.md) controls can be assigned editors to customize their content in Print Preview.
-  
 
 To demonstrate this feature, use the report similar to one created in the following tutorial: [Change or Apply Data Grouping to a Report](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-editing-basics/change-or-apply-data-grouping-to-a-report.md).
 

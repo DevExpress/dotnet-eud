@@ -28,7 +28,6 @@ Select the action you wish to perform.
 2. Invoke the [Data Validation](#dialog) dialog.
 3. On the **Settings** tab, in the **Allow** list, select the **List** item.
 4. Enter a reference to the list of valid entries in the **Source** box. You can use a list of comma-separated values, [define a name](../../../../interface-elements-for-desktop/articles/spreadsheet/formulas/defined-names.md) for the cell range of valid entries, or [select](../../../../interface-elements-for-desktop/articles/spreadsheet/editing-cells/select-cells-or-cell-content.md) this cell range directly in the worksheet by using the **Collapse Dialog** button ![SpreadsheetControl_NameManager_CollapseDialogButton](../../../images/Img23805.png).
-	 
 	
 	If you use a defined name or cell reference, precede it with an equal sign (&#61;).
 	

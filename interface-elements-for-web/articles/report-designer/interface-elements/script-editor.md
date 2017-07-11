@@ -10,7 +10,6 @@ This document consists of the following sections.
 
 ## <a name="overview"/>Overview
 The Script Editor provides end-users with the capability to write and execute scripts at runtime when a report is generated. Note that although it's possible to add scripts in both the Visual Studio IDE and in the End-User Report Designer, this feature is primarily intended to be used by advanced end-users who want to slightly customize a report in the End-User Report Designer.
- 
 
 The Script Editor supports **C#**, **Visual Basic .NET** and **JScript .NET** scripting languages. This means that the scripting language is independent from the language used to create the report. The language is specified by the **Script Language** property of a report. The selected scripting language must be the same for all scripts used in a report.
 

@@ -12,7 +12,6 @@ However, you can change how summary values are calculated and displayed within t
 	
 	![Spreadsheet_PivotTable_Format_FieldSettingsDilaog](../../../images/Img126481.png)
 3. To change the default number format applied to the value field, click the **Number Format** button. In the invoked **Format Cells** dialog, select the desired format type, specify the corresponding settings and click **OK**.
-	 
 	
 	![Spreadsheet_PivotTable_NumberFormat](../../../images/Img126482.png)
 4. The result is shown in the image below.

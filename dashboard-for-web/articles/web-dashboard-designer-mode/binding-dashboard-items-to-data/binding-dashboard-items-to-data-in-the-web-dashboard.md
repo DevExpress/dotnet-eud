@@ -43,6 +43,5 @@ You can modify data binding by dragging a data item within a data section. To do
 
 ## <a name="clear"/>Clear Binding
 You can remove the data item by clicking the **Remove** (![WDD-icon-delete-data-source](../../../images/Img124585.png)) icon in the data item container.
- 
 
 ![wdd-grid-delete-data-item](../../../images/Img125482.png)

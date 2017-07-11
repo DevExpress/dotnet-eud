@@ -37,7 +37,6 @@ The following image illustrates the relative positions of different band types, 
 ![eud-report-bands-0](../../../images/Img120145.png)
 
 The **Page Header**, **Page Footer**, **Top Margin** and **Bottom Margin** bands are rendered in the report preview on every page.
- 
 
 The **Report Header** and **Report Footer** bands are rendered in the report preview only once.
 

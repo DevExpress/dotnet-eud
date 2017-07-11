@@ -126,7 +126,6 @@ To highlight values that are above or below the average in a range of cells, do 
 
 ## <a name="databars"/>Format Cells using Data Bars
 The data bar conditional formatting rule draws a shaded bar in the background of each cell in the range to which the rule is applied. The length of the data bar represents the cell value. A longer bar represents a higher value, and a shorter bar represents a lower value. For example, the image below shows the markup magnitude using solid light-green data bars.
- 
 
 ![DataBarConditionalFormattingExample2](../../../images/Img21719.png)
 
@@ -154,7 +153,6 @@ To apply a data bar conditional formatting rule, do the following:
 
 ## <a name="colorscales"/>Format Cells using Color Scales
 Color scales compare values using a gradation of two or three colors. The shade of the color represents higher, middle and lower values in the cell range to which the rule is applied. For example, the image below shows a price distribution using a gradation of three colors. Red represents the lower values, yellow represents the medium values and sky blue represents the higher values.
- 
 
 ![ColorScale3ConditionalFormatting2](../../../images/Img21700.png)
 

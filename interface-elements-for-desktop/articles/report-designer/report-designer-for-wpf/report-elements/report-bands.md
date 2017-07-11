@@ -36,7 +36,6 @@ The following image illustrates the relative positions of different band types, 
 ![EUD_WpfReportDesigner_BandTypes](../../../../images/Img123930.png)
 
 The **Page Header**, **Page Footer**, **Top Margin** and **Bottom Margin** bands are rendered in the report preview on every page.
- 
 
 The **Report Header** and **Report Footer** bands are rendered in the report preview only once.
 

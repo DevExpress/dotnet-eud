@@ -19,6 +19,5 @@ After that, click **Add** to add the selected data source to the dashboard data 
 The added data source will be displayed in the **Used Data Sources** section. You can use the added data sources to [change the data source](../../../../dashboard-for-web/articles/web-dashboard-designer-mode/binding-dashboard-items-to-data/binding-dashboard-items-to-data-in-the-web-dashboard.md) of the created dashboard items.
 
 To remove the existing data source from the dashboard data sources, click **Remove** ( the ![WDD-icon-delete-data-source](../../../images/Img124585.png) icon).
- 
 
 ![wdd-delete-data-source](../../../images/Img125495.png)

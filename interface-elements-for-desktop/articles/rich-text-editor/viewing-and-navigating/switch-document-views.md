@@ -30,6 +30,5 @@ To enable this view, on the **View** [ tab](../../../../interface-elements-for-d
 ![RTELayoutView](../../../images/Img121287.png)
 
 When the print layout view is active, the horizontal and vertical rulers are available. To show or hide horizontal and vertical rulers, on the **View** tab, in the **Show** group, click the **Horizontal Ruler** and **Vertical Ruler** buttons, respectively.
- 
 
 ![RTEHorizontalRuler](../../../images/Img121286.png)                  ![RTEVerticalRuler](../../../images/Img121288.png)

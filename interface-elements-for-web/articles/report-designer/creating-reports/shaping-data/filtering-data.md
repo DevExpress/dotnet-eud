@@ -18,7 +18,6 @@ In the invoked [Filter Editor](../../../../../interface-elements-for-web/article
 ![filter-editor-condition](../../../../images/Img118364.png)
 
 In every filter condition, the left part contains either the data field name, or the name of the [calculated field](../../../../../interface-elements-for-web/articles/report-designer/creating-reports/providing-data/calculated-fields.md), which exists in this data source at the same level. The right part of the condition contains either a certain numerical or string value, or the name of the [report parameters](../../../../../interface-elements-for-web/articles/report-designer/creating-reports/providing-data/report-parameters.md).
- 
 
 To access parameters, expand the drop-down menu for a value placeholder and select the **Parameter** item.
 
