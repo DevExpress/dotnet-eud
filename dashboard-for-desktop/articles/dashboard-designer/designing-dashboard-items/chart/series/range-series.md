@@ -5,8 +5,8 @@ title: Range Series
 Range series are generally used to show variations in a specified time range like temperature, price, etc.
 
 The following types of Range series are available.
-* [Range Bar](#bar)
-* [Range Area](#stacked-bar)
+* [Range Bar](#range-bar)
+* [Range Area](#range-area)
 
 ## Data Binding Specifics
 A range series is a space between two simple series displayed as a filled area (**Range Area**) or bars that stretch from a point in one series to the corresponding point in the other (**Range Bar**). Thus, you need to provide two measures instead of one to display a range series.

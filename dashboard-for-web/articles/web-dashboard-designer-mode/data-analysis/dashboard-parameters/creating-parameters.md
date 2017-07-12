@@ -11,8 +11,8 @@ To create a dashboard parameter in the Web Dashboard, perform the following step
 	* **Name** - Specifies the parameter name.
 	* **Description** - Specifies the parameter's description. 
 		
-		The parameter's description is the value displayed in the **Parameter Name** column of the [Dashboard Parameters](#requesting) dialog.
-	* **Visible** - Specifies whether or not the parameter is visible in the [Dashboard Parameters](#requesting) dialog.
+		The parameter's description is the value displayed in the **Parameter Name** column of the [Dashboard Parameters](requesting-parameter-values.md) dialog.
+	* **Visible** - Specifies whether or not the parameter is visible in the [Dashboard Parameters](requesting-parameter-values.md) dialog.
 	* **Allow Null** - Specifies whether or a not null value can be passed as a parameter value.
 	* **Allow Multiselect** - Specifies whether or not multi-selection is enabled for the current parameter.
 	* **Select All Values** - Specifies whether or not all parameter values should be selected in the initial state. Note that this option is in effect when **Allow Multiselect** is set to **true**.
@@ -21,7 +21,7 @@ To create a dashboard parameter in the Web Dashboard, perform the following step
 	* **Look-Up Settings** - Specifies the parameter's look-up editor settings. To learn more, see the next step.
 4. Depending on the selected **Look-up Settings** option, you need to specify the following settings.
 	* **No Look-Up** - 
-		Allows you to specify the required parameter value manually in the [Dashboard Parameters](#requesting) dialog.
+		Allows you to specify the required parameter value manually in the [Dashboard Parameters](requesting-parameter-values.md) dialog.
 	* **Static List** - 
 		Allows you to select a parameter value defined in a static list. To add predefined parameter values, use the **+** button.
 	* **Dynamic List** - 

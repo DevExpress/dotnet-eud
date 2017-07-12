@@ -10,7 +10,7 @@ This topic describes how to control the Pivot dashboard item layout, the visibil
 * [Values Position](#valuesposition)
 * [Reset Layout Options](#resetlayout)
 
-## <a name="pivotlayouttype"/>Layout Type
+## <a name="layouttype"/>Layout Type
 If the Pivot dashboard item contains a hierarchy of dimensions in the [Rows](../../../../../dashboard-for-desktop/articles/dashboard-designer/designing-dashboard-items/pivot/providing-data.md) section, you can specify the layout used to arrange values corresponding to individual groups.
 
 | Layout type | Example | Description |
