@@ -6,7 +6,7 @@ title: Select Tree List Nodes
 To focus a node and clear the existing selection, do one of the following.
 * Click the node's indicator cell or any of its data cells.
 	
-	![EU_XtraTreeList_IndicatorCells](../../../images/Img7681.png)
+	![EU_XtraTreeList_IndicatorCells](../../../images/img7681.png)
 * Select the node using the ARROW keys.
 
 ## Select Multiple Nodes

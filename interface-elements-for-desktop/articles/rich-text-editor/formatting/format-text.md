@@ -2,17 +2,17 @@
 title: Format Text
 ---
 # Format Text
-To format text, first [select it](../../../../interface-elements-for-desktop/articles/rich-text-editor/text-editing/select-text.md) and then use the **Font** page group on the **Home** [ tab](../../../../interface-elements-for-desktop/articles/rich-text-editor/text-editor-ui/ribbon-interface.md) to change the font family, size, color, etc.
+To format text, first [select it](../text-editing/select-text.md) and then use the **Font** page group on the **Home** [ tab](../text-editor-ui/ribbon-interface.md) to change the font family, size, color, etc.
 
-![RTEFont](../../../images/Img121311.png)
+![RTEFont](../../../images/img121311.png)
 
 Also, you can modify the font using the **Font** dialog. Select the text that you want to format, right-click it and choose the **Font** item from the context menu.
 
-![RTEFontCMenu](../../../images/Img121312.png)
+![RTEFontCMenu](../../../images/img121312.png)
 
 The **Font** dialog appears as illustrated below.
 
-![RTEFontDialog](../../../images/Img121310.png)
+![RTEFontDialog](../../../images/img121310.png)
 
 In this dialog, you can specify all required font parameters, and apply them to the selected text.
 

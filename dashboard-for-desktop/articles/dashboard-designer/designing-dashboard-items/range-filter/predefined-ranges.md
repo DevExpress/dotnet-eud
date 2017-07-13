@@ -4,15 +4,15 @@ title: Predefined Ranges
 # Predefined Ranges
 The Range Filter dashboard item allows you to add a number of predefined date-time periods that can be used to perform a selection (for instance, _year-to-date_ or _quarter-to-date_).
 
-![RangeFilter_PredefinedRanges_Viewer](../../../../images/Img125408.png)
+![RangeFilter_PredefinedRanges_Viewer](../../../../images/img125408.png)
 
-To add a period, click the _[Options](../../../../../dashboard-for-desktop/articles/dashboard-designer/ui-elements/data-items-pane.md)_ button (the ![BoundImageAttributeOptionsButton](../../../../images/Img123296.png) icon) next to the [Argument](../../../../../dashboard-for-desktop/articles/dashboard-designer/designing-dashboard-items/range-filter/providing-data.md) placeholder or use the **Edit Periods** button in the ribbon's **Design** tab. This invokes the **Edit Periods** dialog.
+To add a period, click the _[Options](../../ui-elements/data-items-pane.md)_ button (the ![BoundImageAttributeOptionsButton](../../../../images/img123296.png) icon) next to the [Argument](providing-data.md) placeholder or use the **Edit Periods** button in the ribbon's **Design** tab. This invokes the **Edit Periods** dialog.
 
-![RangeFilter_EditPeriodsDialog](../../../../images/Img123455.png)
+![RangeFilter_EditPeriodsDialog](../../../../images/img123455.png)
 
-To add the selected period, use the ![RangeFilter_AddPeriodIcon](../../../../images/Img125409.png) button or double-click this period.
+To add the selected period, use the ![RangeFilter_AddPeriodIcon](../../../../images/img125409.png) button or double-click this period.
 
-![RangeFilter_EditPeriodsDialog_AddPeriod](../../../../images/Img123456.png)
+![RangeFilter_EditPeriodsDialog_AddPeriod](../../../../images/img123456.png)
 
 This period will be added to the right pane of the Edit Periods dialog. The following settings are available for the added period.
 * **Caption** - Specifies the caption corresponding to the period.
@@ -21,9 +21,9 @@ This period will be added to the right pane of the Edit Periods dialog. The foll
 
 If necessary, you can customize the selected period by clicking the **Edit** button in the Edit Periods dialog. This invokes the **Period** dialog.
 
-![RangeFilter_PeriodDialog](../../../../images/Img123459.png)
+![RangeFilter_PeriodDialog](../../../../images/img123459.png)
 
-> Note that the **Edit** dialog above contains the displayed periods (**Year**, **Quarter**, **Month**, **Day**) if the [group interval](../../../../../dashboard-for-desktop/articles/dashboard-designer/data-shaping/grouping.md) of the Range Filter argument is set to **Day-Month-Year**.
+> Note that the **Edit** dialog above contains the displayed periods (**Year**, **Quarter**, **Month**, **Day**) if the [group interval](../../data-shaping/grouping.md) of the Range Filter argument is set to **Day-Month-Year**.
 
 This dialog allows you to add the following periods.
 * **Year** - A period duration is measured in years.
@@ -56,7 +56,7 @@ This dialog allows you to add the following periods.
 * **Custom** - A custom period.
 	* Allows you to specify a period with the custom boundaries (**Start point** and **End point**).
 		
-		![RangeFilter_PeriodDialog_Custom](../../../../images/Img123464.png)
+		![RangeFilter_PeriodDialog_Custom](../../../../images/img123464.png)
 		
 		You can specify the following settings for the start/end boundaries.
 		* **None** - The selection will begin from the start/end of the visible range.

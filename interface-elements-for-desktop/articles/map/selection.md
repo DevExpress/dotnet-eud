@@ -11,4 +11,4 @@ To select multiple map items, do the following:
 * Drag the mouse pointer, to mark an area that includes the desired map items;
 * Release the left mouse button. All map items within the area will be selected.
 
-![XtraMap_ItemMultiselection](../../images/Img24650.gif)
+![XtraMap_ItemMultiselection](../../images/img24650.gif)

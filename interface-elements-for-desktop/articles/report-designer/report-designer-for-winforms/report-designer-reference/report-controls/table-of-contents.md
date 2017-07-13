@@ -4,33 +4,33 @@ title: Table of Contents
 # Table of Contents
 The **Table of Contents** control generates a table of contents based on bookmarks specified for report elements.
 
-![RD_Controls_Table_Of_Contents](../../../../../images/Img23724.png)
+![RD_Controls_Table_Of_Contents](../../../../../images/img23724.png)
 
-When a **Table of Contents** control is dropped onto a report's body from the [Toolbox](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-reference/report-designer-ui/control-toolbox.md), it is placed on the [Report Header](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-reference/report-bands.md) band of the report. If there is no Report Header in the report, it is created automatically.
+When a **Table of Contents** control is dropped onto a report's body from the [Toolbox](../report-designer-ui/control-toolbox.md), it is placed on the [Report Header](../report-bands.md) band of the report. If there is no Report Header in the report, it is created automatically.
 
-A table of contents is generated based on the hierarchy of report bookmarks. To learn how to provide a report with bookmarks, refer to the [Add Bookmarks](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/create-reports/report-navigation-and-interactivity-/add-bookmarks.md) topic.
+A table of contents is generated based on the hierarchy of report bookmarks. To learn how to provide a report with bookmarks, refer to the [Add Bookmarks](../../create-reports/report-navigation-and-interactivity/add-bookmarks.md) topic.
 
-In the [Property Grid](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-reference/report-designer-ui/property-grid.md), the properties of the **Table of Contents** are divided into the following groups.
+In the [Property Grid](../report-designer-ui/property-grid.md), the properties of the **Table of Contents** are divided into the following groups.
 
 ## Appearance
 * **Background Color**
 	
-	Specifies the background color for the control. This option is also available in the [Formatting Toolbar](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-reference/report-designer-ui/formatting-toolbar.md) (![RD_Toolbars_Format_Back](../../../../../images/Img8441.png)).
+	Specifies the background color for the control. This option is also available in the [Formatting Toolbar](../report-designer-ui/formatting-toolbar.md) (![RD_Toolbars_Format_Back](../../../../../images/img8441.png)).
 * **Borders**, **Border Color**, **Border Width** and **Border Dash Style**
 	
 	Specify border settings for the control.
 * **Foreground Color**
 	
-	Specifies the text color for the control. This option is also available in the [Formatting Toolbar](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-reference/report-designer-ui/formatting-toolbar.md) (![RD_Toolbars_Format_Color](../../../../../images/Img8440.png)).
+	Specifies the text color for the control. This option is also available in the [Formatting Toolbar](../report-designer-ui/formatting-toolbar.md) (![RD_Toolbars_Format_Color](../../../../../images/img8440.png)).
 * **Padding**
 	
 	Specifies indent values that are used to render the contents of a Label.
 * **Style Priority**
 	
-	Specifies the priority of various style elements (such as background color, border color, etc.). For more information on style inheritance, refer to [Understanding Style Concepts](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/create-reports/styles-and-conditional-formatting/understanding-style-concepts.md).
+	Specifies the priority of various style elements (such as background color, border color, etc.). For more information on style inheritance, refer to [Understanding Style Concepts](../../create-reports/styles-and-conditional-formatting/understanding-style-concepts.md).
 * **Styles**
 	
-	Specifies [odd and even styles](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/create-reports/styles-and-conditional-formatting/use-odd-and-even-styles.md) for the control and enables you to assign an existing style to the control (or a newly created one). To learn more, see [Understanding Style Concepts](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/create-reports/styles-and-conditional-formatting/understanding-style-concepts.md).
+	Specifies [odd and even styles](../../create-reports/styles-and-conditional-formatting/use-odd-and-even-styles.md) for the control and enables you to assign an existing style to the control (or a newly created one). To learn more, see [Understanding Style Concepts](../../create-reports/styles-and-conditional-formatting/understanding-style-concepts.md).
 
 ## Behavior
 * **Level Default**
@@ -52,17 +52,17 @@ In the [Property Grid](../../../../../../interface-elements-for-desktop/articles
 ## Data
 * **Tag**
 	
-	This property allows you to add some additional information to the control; for example, its id, by which it can then be accessible using [scripts](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/create-reports/miscellaneous/handle-events-via-scripts.md).
+	This property allows you to add some additional information to the control; for example, its id, by which it can then be accessible using [scripts](../../create-reports/miscellaneous/handle-events-via-scripts.md).
 
 ## Design
 * **(Name)**
 	
-	Determines the control's name by which it can be accessed in the [Report Explorer](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-reference/report-designer-ui/report-explorer.md), [Property Grid](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-reference/report-designer-ui/property-grid.md) or using [scripts](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/create-reports/miscellaneous/handle-events-via-scripts.md).
+	Determines the control's name by which it can be accessed in the [Report Explorer](../report-designer-ui/report-explorer.md), [Property Grid](../report-designer-ui/property-grid.md) or using [scripts](../../create-reports/miscellaneous/handle-events-via-scripts.md).
 
 ## Layout
 * **Location**
 	
-	Specifies the control's location measured in [report units](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/create-reports/basic-operations/change-measurement-units-of-a-report.md).
+	Specifies the control's location measured in [report units](../../create-reports/basic-operations/change-measurement-units-of-a-report.md).
 
 ## Printing
 * **Right to Left**
@@ -71,4 +71,4 @@ In the [Property Grid](../../../../../../interface-elements-for-desktop/articles
 	
 	By default, all report controls have this property set to Inherit, so enabling it for a report will apply this setting to all its controls.
 	
-	The right-to-left layout is preserved when [exporting a report](../../../../../../interface-elements-for-desktop/articles/print-preview/print-preview-for-winforms/exporting/exporting-from-print-preview.md) to any of the supported formats (e.g., PDF, Excel, or RTF).
+	The right-to-left layout is preserved when [exporting a report](../../../../print-preview/print-preview-for-winforms/exporting/exporting-from-print-preview.md) to any of the supported formats (e.g., PDF, Excel, or RTF).

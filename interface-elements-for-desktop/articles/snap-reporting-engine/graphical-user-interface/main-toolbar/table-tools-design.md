@@ -29,18 +29,18 @@ The following commands are available in the Table Style Options category.
 ## <a name="tablestyles"/>Table Styles
 | Command | Image | Description |
 |---|---|---|
-| Table Styles | ![table-styles](../../../../images/Img20608.png) | Sets a table style for the selected table. Creating a new table style or modifying an existing one invokes the **Modify Style** dialog, allowing you to specify a style name and adjust table formatting options (including special formatting options for different table parts). You can enable special formatting using commands from the [Table Style Options](#tablestyleoptions) section within this toolbar category. |
+| Table Styles | ![table-styles](../../../../images/img20608.png) | Sets a table style for the selected table. Creating a new table style or modifying an existing one invokes the **Modify Style** dialog, allowing you to specify a style name and adjust table formatting options (including special formatting options for different table parts). You can enable special formatting using commands from the [Table Style Options](#tablestyleoptions) section within this toolbar category. |
 
 ## <a name="tablecellstyles"/>Cell Styles
 | Command | Image | Description |
 |---|---|---|
-| Cell Styles | ![table-cell-styles](../../../../images/Img20607.png) | Sets a cell style for the selected table cell. Creating a new table cell style or modifying an existing one invokes the **Modify Style** dialog, allowing you to specify a style name and adjust cell formatting options. |
+| Cell Styles | ![table-cell-styles](../../../../images/img20607.png) | Sets a cell style for the selected table cell. Creating a new table cell style or modifying an existing one invokes the **Modify Style** dialog, allowing you to specify a style name and adjust cell formatting options. |
 
 ## <a name="bordersshadings"/>Borders &amp; Shadings
 | Command | Large Icon | Small Icon | Description |
 |---|---|---|---|
 | Line Style | none | none | Sets the style of a line that is used to draw borders. |
 | Line Weight | none | none | Sets the width of the line that is used to draw borders. |
-| Pen Color | ![icon-toolbar-table-tools-design-pen-color](../../../../images/Img20615.png) | ![icon-small-toolbar-table-tools-design-pen-color](../../../../images/Img20628.png) | Sets the color that is used to draw borders. |
-| Borders | ![icon-toolbar-table-tools-design-borders](../../../../images/Img20611.png) | ![icon-small-toolbar-table-tools-design-borders](../../../../images/Img20625.png) | Draws the specified borders for selected cells. |
-| Shading | ![icon-toolbar-table-tools-design-shading](../../../../images/Img20619.png) | ![icon-small-toolbar-table-tools-design-shading](../../../../images/Img20630.png) | Specifies the background color for the selected cells. |
+| Pen Color | ![icon-toolbar-table-tools-design-pen-color](../../../../images/img20615.png) | ![icon-small-toolbar-table-tools-design-pen-color](../../../../images/img20628.png) | Sets the color that is used to draw borders. |
+| Borders | ![icon-toolbar-table-tools-design-borders](../../../../images/img20611.png) | ![icon-small-toolbar-table-tools-design-borders](../../../../images/img20625.png) | Draws the specified borders for selected cells. |
+| Shading | ![icon-toolbar-table-tools-design-shading](../../../../images/img20619.png) | ![icon-small-toolbar-table-tools-design-shading](../../../../images/img20630.png) | Specifies the background color for the selected cells. |

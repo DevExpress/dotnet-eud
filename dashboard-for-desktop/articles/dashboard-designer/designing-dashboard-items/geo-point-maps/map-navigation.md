@@ -8,6 +8,6 @@ The Dashboard Designer allows you to specify the initial zooming/scrolling state
 
 You can disable the capability to scroll/zoom the map using the **Lock Navigation** button in the **Design** ribbon tab.
 
-![MapNavigationGroup](../../../../images/Img25019.png)
+![MapNavigationGroup](../../../../images/img25019.png)
 
 Use the **Full Extent** button to display the entire map within the dashboard item.

@@ -6,4 +6,4 @@ If multiple row selection is allowed by the application vendor, you can select m
 * Click a row to toggle its selected state.
 * If selection check boxes are visible, check rows that need to be selected.
 
-![ASPxGridLookup_Selection](../../../images/Img13292.png)
+![ASPxGridLookup_Selection](../../../images/img13292.png)

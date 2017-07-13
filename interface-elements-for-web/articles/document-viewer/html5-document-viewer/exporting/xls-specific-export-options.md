@@ -2,9 +2,9 @@
 title: XLS-Specific Export Options
 ---
 # XLS-Specific Export Options
-Before [exporting a document](../../../../../interface-elements-for-web/articles/document-viewer/html5-document-viewer/exporting/export-a-document.md) to XLS format, you can specify XLS-specific options in the dedicated **Export Options** panel.
+Before [exporting a document](export-a-document.md) to XLS format, you can specify XLS-specific options in the dedicated **Export Options** panel.
 
-![EUD_HTML5DV_XlsExportOptions](../../../../images/Img121833.png)
+![EUD_HTML5DV_XlsExportOptions](../../../../images/img121833.png)
 * **Export Mode**
 	
 	Specifies how a document is exported to XLS.

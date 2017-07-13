@@ -8,7 +8,7 @@ title: Series Views Page
 * Add or remove financial indicators (Fibonacci indicators, trendlines and regression lines).
 
 ## Page Elements
-![ChartWizard_SeriesViewsPage](../../../images/Img7235.png)
+![ChartWizard_SeriesViewsPage](../../../images/img7235.png)
 
 **Chart preview area**
 
@@ -16,7 +16,7 @@ Previews a chart's layout.
 
 Note that you can select a series to be modified directly in the chart preview area.
 
-![ChartWizard_7a](../../../images/Img7249.png)
+![ChartWizard_7a](../../../images/img7249.png)
 
 **Series selector**
 

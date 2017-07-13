@@ -5,10 +5,10 @@ title: Conditional Formatting
 The Web Dashboard allows you to format dashboard item elements whose values meet a specified condition. This feature allows you to highlight specific elements using a predefined set of rules.
 
 To learn more about the specifics of using a conditional formatting feature for different dashboard items, see the following topics.
-* [Conditional Formatting - Grid](../../../../dashboard-for-web/articles/web-dashboard-designer-mode/designing-dashboard-items/grid/conditional-formatting.md)
-* [Conditional Formatting - Pivot](../../../../dashboard-for-web/articles/web-dashboard-designer-mode/designing-dashboard-items/pivot/conditional-formatting.md)
+* [Conditional Formatting - Grid](../designing-dashboard-items/grid/conditional-formatting.md)
+* [Conditional Formatting - Pivot](../designing-dashboard-items/pivot/conditional-formatting.md)
 
-![wdd-cf-main](../../../images/Img126130.png)
+![wdd-cf-main](../../../images/img126130.png)
 
 Format rules used in conditional formatting can be divided into groups depending on their purpose and can be applied to measure or dimension values.
 
@@ -55,26 +55,26 @@ You can create comparison rules for measures or dimensions. The table below list
 To create a format rule, perform the following steps.
 1. Select the required measure/dimension by whose values a format condition will be calculated, open the **Conditional Formating** section of the data item menu and click "+" to add a new format rule.
 	
-	![wdd-grid-cf-add-rule](../../../images/Img126022.png)
+	![wdd-grid-cf-add-rule](../../../images/img126022.png)
 2. Specify the data item to which conditional formatting is applied using the **Apply to** combo box and select a condition type from the list.
 	
-	![wdd-grid-cf-select-rule-type](../../../images/Img126024.png)
+	![wdd-grid-cf-select-rule-type](../../../images/img126024.png)
 3. The format rule's menu is opened. This menu depends on the selected format condition and the type of the dashboard item. Here you can specify settings specific for the selected condition. For example, the _Value_ format rule allows you to set a value that will be compared with dimension/measure values and specify a format rule style. The image below displays settings where values greater than 300M will be colored in pale green.
 	
-	![wdd-grid-cf-value-menu](../../../images/Img126023.png)
+	![wdd-grid-cf-value-menu](../../../images/img126023.png)
 	
 	You can specify additional settings in the **Miscellanous** section of the format rule's menu. This section contains settings depending on the type of the dashboard item. For example, you can manually specify an intersection level for the Pivot or apply the current rule to a row in the Grid.
 4. The format rule is now ready and will be applied to the dashboard item. 
 	
-	![wdd-grid-conditional-formatting-result](../../../images/Img126049.png)
+	![wdd-grid-conditional-formatting-result](../../../images/img126049.png)
 
-To edit a format rule, open the **Conditional Formatting** section of the [data item menu](../../../../dashboard-for-web/articles/web-dashboard-designer-mode/ui-elements/data-item-menu.md), select the required format rule and click the **Edit** button (the ![wdd-icon-edit-collection-value-item](../../../images/Img126050.png) icon). To delete the selected format rule, click the **Delete** button (the ![wdd-icon-delete-big](../../../images/Img126104.png) icon).
+To edit a format rule, open the **Conditional Formatting** section of the [data item menu](../ui-elements/data-item-menu.md), select the required format rule and click the **Edit** button (the ![wdd-icon-edit-collection-value-item](../../../images/img126050.png) icon). To delete the selected format rule, click the **Delete** button (the ![wdd-icon-delete-big](../../../images/img126104.png) icon).
 
-![wdd-grid-cf-edit-rule](../../../images/Img126025.png)
+![wdd-grid-cf-edit-rule](../../../images/img126025.png)
 
-You can see existing format rules for the entire dashboard item. To do this, open the dashboard item's [Options](../../../../dashboard-for-web/articles/web-dashboard-designer-mode/ui-elements/dashboard-item-menu.md) menu and go to the **Conditional Formatting** section.
+You can see existing format rules for the entire dashboard item. To do this, open the dashboard item's [Options](../ui-elements/dashboard-item-menu.md) menu and go to the **Conditional Formatting** section.
 
-![wdd-cf-all-rules](../../../images/Img126046.png)
+![wdd-cf-all-rules](../../../images/img126046.png)
 
 ## Appearance Settings
 When creating a new format rule, you can select the required appearance settings in the **Condition** section of the format rule's menu. This settings applied according to the current format condition. All format conditions allow you to customize appearance settings in a similar manner.
@@ -82,11 +82,11 @@ When creating a new format rule, you can select the required appearance settings
 For example, the _Value_ format condition allows you to specify appearance settings in the following way...
 * The **Appearance** tab allows you to choose the predefined background color or font.
 	
-	![wdd-cf-appearance-gallery](../../../images/Img126044.png)
+	![wdd-cf-appearance-gallery](../../../images/img126044.png)
 * The **Icons** tab allows you to add the predefined icon.
 	
-	![wdd-cf-icons-gallery](../../../images/Img126045.png)
+	![wdd-cf-icons-gallery](../../../images/img126045.png)
 
 ... while the different types of Range format rules allow you to customize predefined range colors and values.
 
-![wdd-cf-range-gallery](../../../images/Img126043.png)
+![wdd-cf-range-gallery](../../../images/img126043.png)

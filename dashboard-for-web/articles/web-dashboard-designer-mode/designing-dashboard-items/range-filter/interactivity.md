@@ -9,13 +9,13 @@ The Dashboard allows you to use any data-aware dashboard item as a filter for ot
 
 **Master filtering** is always enabled for the Range Filter dashboard item. The Range Filter displays a chart with selection thumbs that allow you to filter out values displayed along the argument axis.
 
-![wdd-dashboard-items-range-filter](../../../../images/Img125127.png)
+![wdd-dashboard-items-range-filter](../../../../images/img125127.png)
 
-The Range Filter supports the **Ignore Master Filters** and **Cross Data Source Filtering** options. To learn more, see the [Master Filtering](../../../../../dashboard-for-web/articles/web-dashboard-designer-mode/interactivity/master-filtering.md) topic.
+The Range Filter supports the **Ignore Master Filters** and **Cross Data Source Filtering** options. To learn more, see the [Master Filtering](../../interactivity/master-filtering.md) topic.
 
 ## Predefined Periods
 The Range Filter dashboard item allows you to add a number of _predefined date-time periods_ that can be used to perform a selection.
 
-![wdd-range-filter-select-custom-period](../../../../images/Img125361.png)
+![wdd-range-filter-select-custom-period](../../../../images/img125361.png)
 
-To learn more about predefined periods, see [Predefined Periods](../../../../../dashboard-for-web/articles/web-dashboard-designer-mode/designing-dashboard-items/range-filter/predefined-periods.md).
+To learn more about predefined periods, see [Predefined Periods](predefined-periods.md).

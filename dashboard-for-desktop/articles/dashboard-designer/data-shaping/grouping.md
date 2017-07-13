@@ -21,7 +21,7 @@ String values support the following grouping intervals.
 ## <a name="datetimegroupintervals"/>Date-Time Group Intervals
 Date-time values support the following group intervals.
 
-> Examples in the table below are formatted using the default settings. To learn how to customize format settings, see [Formatting Data](../../../../dashboard-for-desktop/articles/dashboard-designer/data-shaping/formatting-data.md).
+> Examples in the table below are formatted using the default settings. To learn how to customize format settings, see [Formatting Data](formatting-data.md).
 
 | Group interval | Description | Examples |
 |---|---|---|
@@ -47,4 +47,4 @@ Date-time values support the following group intervals.
 ## <a name="changegroupinterval"/>Changing Group Interval
 To specify the group interval in the Designer, invoke the data item menu and select the desired group interval. Less common group intervals are organized in the **More** submenus.
 
-![DataShaping_GroupInterval_DateTime_Menu](../../../images/Img19330.png)
+![DataShaping_GroupInterval_DateTime_Menu](../../../images/img19330.png)

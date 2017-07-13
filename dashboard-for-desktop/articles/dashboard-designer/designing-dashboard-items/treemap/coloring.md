@@ -2,7 +2,7 @@
 title: Coloring
 ---
 # Coloring
-Certain dashboard items provide the capability to color dashboard item elements by associating dimension values/measures and specified colors. You can choose whether to use a global color scheme to provide consistent colors for identical values or specify a local color scheme for each dashboard item. To learn more about coloring concepts common for all dashboard items, see the [Coloring](../../../../../dashboard-for-desktop/articles/dashboard-designer/appearance-customization/coloring.md) section.
+Certain dashboard items provide the capability to color dashboard item elements by associating dimension values/measures and specified colors. You can choose whether to use a global color scheme to provide consistent colors for identical values or specify a local color scheme for each dashboard item. To learn more about coloring concepts common for all dashboard items, see the [Coloring](../../appearance-customization/coloring.md) section.
 
 By default, the Treemap dashboard item colors its tiles in the following way.
 * If the Treemap dashboard item contains only measures (the **Values** section), values corresponding to different measures are colored by hue.
@@ -10,4 +10,4 @@ By default, the Treemap dashboard item colors its tiles in the following way.
 
 If necessary, you can change the default behavior. For instance, the image below shows the Treemap dashboard item whose measures and argument values are painted with the same color.
 
-![Treemap_Coloring_None](../../../../images/Img125516.png)
+![Treemap_Coloring_None](../../../../images/img125516.png)

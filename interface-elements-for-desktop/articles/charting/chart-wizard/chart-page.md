@@ -6,7 +6,7 @@ title: Chart Page
 * Define a chart's background color and background image.
 
 ## Page Elements
-![ChartWizard_ChartTab](../../../images/Img7573.png)
+![ChartWizard_ChartTab](../../../images/img7573.png)
 
 **Chart preview area**
 

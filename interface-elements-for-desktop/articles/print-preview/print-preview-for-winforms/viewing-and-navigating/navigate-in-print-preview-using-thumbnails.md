@@ -6,8 +6,8 @@ You can use thumbnails to quickly navigate between document pages.
 
 To show report thumbnails, click the **Thumbnails** button on the toolbar.
 
-![document-viewer-show-thumbnails](../../../../images/Img118994.png)
+![document-viewer-show-thumbnails](../../../../images/img118994.png)
 
 Click a thumbnail to navigate to the corresponding document page.
 
-![document-viewer-thumbnails-pane](../../../../images/Img118995.png)
+![document-viewer-thumbnails-pane](../../../../images/img118995.png)

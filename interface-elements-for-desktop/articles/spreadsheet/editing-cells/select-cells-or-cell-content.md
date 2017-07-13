@@ -11,14 +11,14 @@ To select cells in the **Spreadsheet**, use the following mouse actions and keyb
 	* Click the first cell in the range, hold down the **SHIFT** key, and then click the last cell in the range.
 3. To select the **entire worksheet**, click the **Select All** button at the intersection of the column and row headings, or press **CTRL+A**.
 	
-	![SelectAllButton.png](../../../images/Img21224.png)
+	![SelectAllButton.png](../../../images/img21224.png)
 4. To select **nonadjacent cells**, hold down the **CTRL** key, and then select other cells.
 5. To select an **entire row or column**, click the row or column heading.
 	
-	![SelectColumn.png](../../../images/Img21294.png)
+	![SelectColumn.png](../../../images/img21294.png)
 6. To select **multiple columns or rows**, drag across the row or column headings.
 	
-	![SelectSeveralColums.png](../../../images/Img21295.png)
+	![SelectSeveralColums.png](../../../images/img21295.png)
 7. To select **several nonadjacent rows or columns**, click the heading of the first row or column in the selection, hold down **CTRL**, and then click the headings of other rows or columns you wish to select.
 
 The following table lists the default keyboard shortcuts used for selecting cells in the **Spreadsheet**.

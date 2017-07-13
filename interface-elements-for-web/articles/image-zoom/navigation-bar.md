@@ -6,4 +6,4 @@ The **Navigation Bar** allows you to fast navigate between images. To change an 
 
 Navigation buttons allows you to navigate among thumbnails.
 
-![Image Zoom overview 15](../../images/Img24024.png)
+![Image Zoom overview 15](../../images/img24024.png)

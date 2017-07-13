@@ -6,19 +6,19 @@ title: Switch Scheduler Views
 The scheduler is intended to display appointment data using one of the standard [Views](#viewtypes). The currently active view used by the scheduler can be either selected intentionally or changed according to the scheduler's internal logic.
 * To change the active view, use the corresponding item of the scheduler's context menu. This menu is invoked when you right-click any region of the scheduler (not occupied with an appointment).
 	
-	![ChangeActiveView_01.png](../../../images/Img5491.png)
+	![ChangeActiveView_01.png](../../../images/img5491.png)
 	
 	> Depending on the application vendor, some options may be unavailable in your application.
 * While navigating through dates via the **Go To Date** dialog, you can specify a view type to display a new time interval.
 	
-	![GotoDate View](../../../images/Img9134.png)
+	![GotoDate View](../../../images/img9134.png)
 * The scheduler selects a view mode automatically, according to the date range selected in the date navigator, combined with a scheduler.
-* If a scheduler is provided with the Bar or Ribbon interface, you can use the **Active View** and **Arrange** [toolbar](../../../../interface-elements-for-desktop/articles/scheduler/scheduler-ui/toolbars.md)s or [Ribbon page group](../../../../interface-elements-for-desktop/articles/scheduler/scheduler-ui/ribbon-interface.md)s.
+* If a scheduler is provided with the Bar or Ribbon interface, you can use the **Active View** and **Arrange** [toolbar](../scheduler-ui/toolbars.md)s or [Ribbon page group](../scheduler-ui/ribbon-interface.md)s.
 	
 	| Change the active view via Bar interface | Change the active view via Ribbon interface |
 	|---|---|
-	| ![Scheduler_ArrangeToolbar](../../../images/Img16558.png) | ![Scheduler_Ribbon_Arrange](../../../images/Img16548.png) |
-	| ![Scheduler_ActiveViewToolbar](../../../images/Img16560.png) | ![Scheduler_Ribbon_ActiveView](../../../images/Img16550.png) |
+	| ![Scheduler_ArrangeToolbar](../../../images/img16558.png) | ![Scheduler_Ribbon_Arrange](../../../images/img16548.png) |
+	| ![Scheduler_ActiveViewToolbar](../../../images/img16560.png) | ![Scheduler_Ribbon_ActiveView](../../../images/img16550.png) |
 
 ## <a name="viewtypes"/>Available View Types
 * **Day View** 

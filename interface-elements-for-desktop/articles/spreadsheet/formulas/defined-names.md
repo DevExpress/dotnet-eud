@@ -32,7 +32,7 @@ A defined name is a meaningful shorthand name that describes the meaning of an i
 	
 	_"=10.5"_ - refers to a constant value.
 	
-	By default, defined names use [absolute cell references](../../../../interface-elements-for-desktop/articles/spreadsheet/formulas/cell-references.md), including worksheet names.
+	By default, defined names use [absolute cell references](cell-references.md), including worksheet names.
 * **Comment**
 	
 	An explanation or additional information accompanying the defined name. The comment length cannot exceed 255 characters.
@@ -42,7 +42,7 @@ Each defined name has a scope - an area (individual worksheet or entire workbook
 
 > Each name must be unique in its scope.
 
-If the defined name is not found, the cell that uses this name displays the **#NAME?** [error](../../../../interface-elements-for-desktop/articles/spreadsheet/formulas/error-types-in-formulas.md).
+If the defined name is not found, the cell that uses this name displays the **#NAME?** [error](error-types-in-formulas.md).
 
 ## <a name="rules"/>Syntax Rules for Names
 When you create or modify a defined name, follow these rules.
@@ -59,27 +59,27 @@ When you create or modify a defined name, follow these rules.
 1. Select a cell or a range of cells for which you wish to define a name.
 2. Type the name you want to use to refer to the selection in the **Name Box** located to the left of the **Formula Bar**. Press **ENTER**.
 	
-	![SpreadsheetControl_NameBox_CreateName](../../../images/Img23793.png)
+	![SpreadsheetControl_NameBox_CreateName](../../../images/img23793.png)
 	
 	Now you can quickly select the defined cell range by its name. To do this, click the drop-down arrow to the right side of the **Name Box**, and select the required name from the drop-down list.
 	
-	![SpreadsheetControl_NameBox_NavigateToNamedCells](../../../images/Img23784.png)
+	![SpreadsheetControl_NameBox_NavigateToNamedCells](../../../images/img23784.png)
 
 ## <a name="newnamedialog"/>Create a Name Using the New Name Dialog
 The **New Name** dialog gives you more flexibility for naming parts of your document. Using this dialog, you can name cell ranges, formulas and constants, and provide additional information for created names.
 1. To invoke the **New Name** dialog, on the **Formulas** tab in the **Defined Names** group, click the **Define Name** button.
 	
-	![Spreadsheet_DefineNameCommand](../../../images/Img25725.png)
+	![Spreadsheet_DefineNameCommand](../../../images/img25725.png)
 2. In the invoked dialog in the **Name** box, type a name to be associated with a cell or cell range, formula or constant.
 	
-	![Spreadsheet_NewNameDialog](../../../images/Img25732.png)
+	![Spreadsheet_NewNameDialog](../../../images/img25732.png)
 3. In the **Scope** drop-down list, select the scope of the defined name: specify whether a name should be accessible within an entire workbook or an individual worksheet only.
 4. In the **Comment** box, enter a descriptive text for your defined name (optionally).
 5. In the **Refers to** box, type a cell reference, formula or constant for which you wish to define a name.
 	
-	By default, when you invoke the **New Name** dialog, the current selection is displayed in the **Refers to** box. However, you can enter another cell range by selecting it directly in the worksheet. To do this, click the **Collapse Dialog** button (![SpreadsheetControl_NameManager_CollapseDialogButton](../../../images/Img23805.png)) to minimize the dialog and access the worksheet, select the appropriate cell range, and then click the **Expand Dialog** button (![SpreadsheetControl_NameManager_ExpandDialogButton](../../../images/Img23825.png)) to restore the dialog's initial state.
+	By default, when you invoke the **New Name** dialog, the current selection is displayed in the **Refers to** box. However, you can enter another cell range by selecting it directly in the worksheet. To do this, click the **Collapse Dialog** button (![SpreadsheetControl_NameManager_CollapseDialogButton](../../../images/img23805.png)) to minimize the dialog and access the worksheet, select the appropriate cell range, and then click the **Expand Dialog** button (![SpreadsheetControl_NameManager_ExpandDialogButton](../../../images/img23825.png)) to restore the dialog's initial state.
 	
-	![SpreadsheetControl_NewNameDialog_Expand](../../../images/Img23826.png)
+	![SpreadsheetControl_NewNameDialog_Expand](../../../images/img23826.png)
 6. Click **OK** to finish creating the name.
 
 ## <a name="namefromselection"/>Create Names from Selection
@@ -89,21 +89,21 @@ To create a name from a selection, do the following.
 1. Select a cell range to be named, including the row or column labels to be used for generating names.
 2. On the **Formulas** tab in the **Defined Names** group, click the **Create from Selection** button, or press **CTRL**+**SHIFT**+**F3**.
 	
-	![Spreadsheet_CreateFromSelectionCommand](../../../images/Img25747.png)
+	![Spreadsheet_CreateFromSelectionCommand](../../../images/img25747.png)
 3. In the invoked **Create Names from Selection** dialog, specify which row (top or bottom) or column (left or right) contains labels that should be used for generating names, and click **OK**.
 	
-	![Spreadsheet_CreateFromSelectionDialog](../../../images/Img25748.png)
+	![Spreadsheet_CreateFromSelectionDialog](../../../images/img25748.png)
 
 > Names generated using this approach do not include the row and column labels and refer only to the cells containing values.
 
 ## <a name="namemanager"/>Mange Names Using the Name Manager Dialog
 The **Name Manager** dialog lists all the defined names specified in a workbook and allows you to [create](#newname) new names, [edit](#editname) and [delete](#deletename) existing names.
 
-![SpreadsheetControl_NameManager](../../../images/Img23464.png)
+![SpreadsheetControl_NameManager](../../../images/img23464.png)
 
 To invoke the **Name Manager** dialog, on the **Formulas** tab in the **Defined Names** group, click the **Name Manager** button.
 
-![Spreadsheet_NameManagerCommand](../../../images/Img25750.png)
+![Spreadsheet_NameManagerCommand](../../../images/img25750.png)
 * <a name="newname"/>**Create a name**
 	
 	To define a new name, at the top of the **Name Manager** dialog, click the **New...** button. In the invoked [New Name](#newnamedialog) dialog, specify all necessary parameters for a new defined name.
@@ -111,25 +111,25 @@ To invoke the **Name Manager** dialog, on the **Formulas** tab in the **Defined 
 	
 	To modify the existing name, select this name in the **Name** list, and at the top of the **Name Manager** dialog click the **Edit...** button, or double-click the name. In the invoked **Edit Name** dialog, modify the name itself, change the cell reference, formula or constant to which the name refers, or enter a new comment. Only the scope of the defined name cannot be changed.
 	
-	![Spreadsheet_EditDefinedNameDialog](../../../images/Img25755.png)
+	![Spreadsheet_EditDefinedNameDialog](../../../images/img25755.png)
 	
 	If you wish to modify only the current reference for a name, you can do it directly in the **Name Manager** dialog. To do this, select the desired name in the **Name** list and type a new value in the **Refers to** box, or...
 	
-	![SpreadsheetControl_NameManager_RefersToEditor](../../../images/Img23799.png)
+	![SpreadsheetControl_NameManager_RefersToEditor](../../../images/img23799.png)
 	
-	... click the **Collapse Dialog** button (![SpreadsheetControl_NameManager_CollapseDialogButton](../../../images/Img23805.png)) and select the desired range directly in the worksheet.
+	... click the **Collapse Dialog** button (![SpreadsheetControl_NameManager_CollapseDialogButton](../../../images/img23805.png)) and select the desired range directly in the worksheet.
 
 ## <a name="namesinformulas"/>Use Names in Formulas
 To insert an existing defined name into a formula, type the required name directly in the formula or select it from the **Use in Formula** list on the **Formulas** tab in the **Defined Names** group.
 
-![Spreadsheet_UseInFormulaList](../../../images/Img25756.png)
+![Spreadsheet_UseInFormulaList](../../../images/img25756.png)
 
 ## <a name="deletename"/>Delete Names
 To remove a defined name, do the following.
 1. On the **Formulas** tab, in the **Defined Names** group, click the **Name Manager** button.
 	
-	![Spreadsheet_NameManagerCommand](../../../images/Img25750.png)
+	![Spreadsheet_NameManagerCommand](../../../images/img25750.png)
 2. In the invoked **Name Manager** dialog, select the name you wish to delete.
 3. Click the **Delete** button, or press **DELETE**.
 	
-	![Spreadsheet_NameManager_DeleteName](../../../images/Img25749.png)
+	![Spreadsheet_NameManager_DeleteName](../../../images/img25749.png)

@@ -9,7 +9,7 @@ title: Series Page
 * Enable and customize the Top N Values feature.
 
 ## Page Elements
-![ChartWizard_SeriesPage](../../../images/Img7231.png)
+![ChartWizard_SeriesPage](../../../images/img7231.png)
 
 **Series List**
 

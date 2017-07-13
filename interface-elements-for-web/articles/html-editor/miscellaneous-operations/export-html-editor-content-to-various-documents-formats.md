@@ -4,7 +4,7 @@ title: Export HTML Editor Content to Various Documents Formats
 # Export HTML Editor Content to Various Documents Formats
 To export a document, first invoke a dropdown menu with the list of available document formats:
 
-![ASPxHtmlEditor_choose_export.png](../../../images/Img16462.png)
+![ASPxHtmlEditor_choose_export.png](../../../images/img16462.png)
 
 Choose the required format for export from the list. The available formats are:
 * Rich Text (.rtf)
@@ -14,10 +14,10 @@ Choose the required format for export from the list. The available formats are:
 * Plain Text (.txt)
 * Portable Document (.pdf). Available for export only.
 
-![ASPxHtmlEditor_exporting](../../../images/Img16461.png)
+![ASPxHtmlEditor_exporting](../../../images/img16461.png)
 
 Click Save on the invoked web browser's **File Download** dialog.
 
-![ASPxHtmlEditor_save_export.png](../../../images/Img16463.png)
+![ASPxHtmlEditor_save_export.png](../../../images/img16463.png)
 
 Define a path for the exported document in the invoked Save As dialog, and click Save.

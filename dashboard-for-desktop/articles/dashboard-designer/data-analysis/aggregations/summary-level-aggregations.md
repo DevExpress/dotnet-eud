@@ -2,15 +2,15 @@
 title: Summary Level Aggregations
 ---
 # Summary Level Aggregations
-The Dashboard Designer allows you to perform aggregations when constructing a [calculated field expression](../../../../../dashboard-for-desktop/articles/dashboard-designer/working-with-data/creating-calculated-fields.md). This allows you to evaluate calculated fields on a summary level.
+The Dashboard Designer allows you to perform aggregations when constructing a [calculated field expression](../../working-with-data/creating-calculated-fields.md). This allows you to evaluate calculated fields on a summary level.
 
 In the Dashboard Designer, you can use the following set of predefined aggregate functions.
 
-![BlogDashboard_SummaryCalculatedField_Functions](../../../../images/Img118142.png)
+![BlogDashboard_SummaryCalculatedField_Functions](../../../../images/img118142.png)
 
 | Function | Description |
 |---|---|
-| Aggr(SummaryExpression, Dimensions) | Aggregates underlying data using the detail level specified by a predefined set of dimensions and a specified summary function. To learn more, see [Intermediate Level Aggregations](../../../../../dashboard-for-desktop/articles/dashboard-designer/data-analysis/aggregations/intermediate-level-aggregations.md). |
+| Aggr(SummaryExpression, Dimensions) | Aggregates underlying data using the detail level specified by a predefined set of dimensions and a specified summary function. To learn more, see [Intermediate Level Aggregations](intermediate-level-aggregations.md). |
 | Avg(Value) | Returns the average of all the values in the expression. |
 | Count() | Returns the number of values. |
 | CountDistinct(Value) | Returns the number of distinct values. |

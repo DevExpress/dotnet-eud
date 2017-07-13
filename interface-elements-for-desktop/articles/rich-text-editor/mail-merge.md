@@ -14,13 +14,13 @@ To merge data fields in a **Rich Text Editor** document, perform the following s
 	&nbsp;
 * **Create a Template for Mail Merge (Insert Fields)**
 	
-	When an application runs with the mail merge data source attached to the **Rich Text Editor**, you can create a template for mail merge. To do this, [create a new document](../../../interface-elements-for-desktop/articles/rich-text-editor/file-operations/create-a-new-document.md), type the mail content and insert merge fields into this document. To insert fields, on the **Mail Merge** [tab](../../../interface-elements-for-desktop/articles/rich-text-editor/text-editor-ui/ribbon-interface.md), in the **Mail Merge** group, click the **Insert Merge Field** button.
+	When an application runs with the mail merge data source attached to the **Rich Text Editor**, you can create a template for mail merge. To do this, [create a new document](file-operations/create-a-new-document.md), type the mail content and insert merge fields into this document. To insert fields, on the **Mail Merge** [tab](text-editor-ui/ribbon-interface.md), in the **Mail Merge** group, click the **Insert Merge Field** button.
 	
-	![RTEMailMergeButton](../../images/Img121384.png)
+	![RTEMailMergeButton](../../images/img121384.png)
 	
 	The drop-down list or a dialog window containing field names will be shown.
 	
-	![MailMergeInsertFieldDialog](../../images/Img121385.png)
+	![MailMergeInsertFieldDialog](../../images/img121385.png)
 	
 	Choose the required field and click **Insert**. The field is inserted at the cursor position.
 	
@@ -29,11 +29,11 @@ To merge data fields in a **Rich Text Editor** document, perform the following s
 	
 	The **Show All Field Codes** button on the **Mail Merge** tab displays field codes for all fields in the document.
 	
-	![MailMergeShowAllFieldCodesButton](../../images/Img121386.png)
+	![MailMergeShowAllFieldCodesButton](../../images/img121386.png)
 	
 	The **Show All Field Results** button on the **Mail Merge** ribbon tab displays field placeholders if the **View Merged Data** button is switched off. If this button is switched on, then the current record of the data source is displayed in place of the field.
 	
-	![RTEMailMergeShowAllFieldResultsButton](../../images/Img121387.png)
+	![RTEMailMergeShowAllFieldResultsButton](../../images/img121387.png)
 	
 	The merge field code looks like the following:
 	

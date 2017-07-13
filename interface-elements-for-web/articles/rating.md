@@ -8,8 +8,8 @@ To vote, select the desired number of stars.
 
 > The type of item images depends on your application vendor.
 
-![Voting](../images/Img24198.png)
+![Voting](../images/img24198.png)
 
 Number of stars visualizes the rating.
 
-![Rating Voting](../images/Img24199.png)
+![Rating Voting](../images/img24199.png)

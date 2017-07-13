@@ -7,7 +7,7 @@ title: Point Labels Page
 * Customize the appearance of point labels.
 
 ## Page Elements
-![ChartWizard_PointLabelsPage](../../../images/Img7236.png)
+![ChartWizard_PointLabelsPage](../../../images/img7236.png)
 
 > The point labels are hidden in the chart control by default. To show series point labels, check the **Visibile** check box.
 

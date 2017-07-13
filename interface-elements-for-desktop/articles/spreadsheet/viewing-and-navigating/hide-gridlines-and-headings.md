@@ -8,6 +8,6 @@ In the **Show** group within the **View** tab, uncheck the **Gridlines** check b
 
 To hide the column and row headers, uncheck the **Headings** check box.
 
-![HideGridlines.png](../../../images/Img21232.png)
+![HideGridlines.png](../../../images/img21232.png)
 
 To display gridlines and headers, select the **Gridlines** and **Headings** check boxes, respectively.

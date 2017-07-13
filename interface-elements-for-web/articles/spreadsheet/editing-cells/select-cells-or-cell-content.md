@@ -13,13 +13,13 @@ To select cells in the **Spreadsheet**, use the following mouse actions and keyb
 4. To select **nonadjacent cells**, hold down the **CTRL** key, and then select other cells.
 5. To select an **entire row or column**, click the row or column heading.
 	
-	![EUD_ASPxSpreadsheet_Selection_SelectSingleColumn](../../../images/Img26132.png)
+	![EUD_ASPxSpreadsheet_Selection_SelectSingleColumn](../../../images/img26132.png)
 6. To select **multiple columns or rows**, drag across the row or column headings.
 	
-	![EUD_ASPxSpreadsheet_Selection_SelectMultipleColumns](../../../images/Img26133.png)
+	![EUD_ASPxSpreadsheet_Selection_SelectMultipleColumns](../../../images/img26133.png)
 7. To select **several nonadjacent rows or columns**, click the heading of the first row or column in the selection, hold down **CTRL**, and then click the headings of other rows or columns you wish to select.
 
 ## Selecting Cell Content
 To select the cell content, double-click the cell, and then drag it across the cell content you wish to select.
 
-![EUD_ASPxSpreadsheet_Selection_CellContentEditing](../../../images/Img26134.png)
+![EUD_ASPxSpreadsheet_Selection_CellContentEditing](../../../images/img26134.png)

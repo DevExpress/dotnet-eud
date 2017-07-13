@@ -20,18 +20,18 @@ The **DevExpress Dashboard** ships with a set of default maps showing various pa
 
 > The **World Countries** map has a lower level of detail than maps of specific regions and may not contain some of the countries. As an alternative, you can load a custom map with required granularity.
 
-To select a required default map, go to the **Common** section of the [Options](../../../../../dashboard-for-web/articles/web-dashboard-designer-mode/ui-elements/dashboard-item-menu.md) menu and use the **Default Map** dropdown list.
+To select a required default map, go to the **Common** section of the [Options](../../ui-elements/dashboard-item-menu.md) menu and use the **Default Map** dropdown list.
 
-![wdd-choropleth-map-change-map](../../../../images/Img125382.png)
+![wdd-choropleth-map-change-map](../../../../images/img125382.png)
 
 ## <a name="custommaps"/>Custom Maps
 The Web Dashboard uses a **Shapefile** vector format to provide custom maps. Commonly, this format includes two file types:
 * **.shp file** - holds map shapes (points/lines/polygons)
 * **.dbf file** - contains attributes for each shape.
 
-To provide a custom map, go to the **Common** section of the [Options](../../../../../dashboard-for-web/articles/web-dashboard-designer-mode/ui-elements/dashboard-item-menu.md) menu and change the **Default Map** value to **Custom**.
+To provide a custom map, go to the **Common** section of the [Options](../../ui-elements/dashboard-item-menu.md) menu and change the **Default Map** value to **Custom**.
 
-![wdd-custom-shape-file](../../../../images/Img127210.png)
+![wdd-custom-shape-file](../../../../images/img127210.png)
 
 Finally, provide shape data using one of the following ways.
 * Specify a path to the **.shp** file using the **Custom Map URL** option. Attributes from the corresponding **.dbf** file located in the same directory will automatically be included in the map.
@@ -40,10 +40,10 @@ Finally, provide shape data using one of the following ways.
 Note that custom maps created in the Cartesian coordinate system are not supported.
 
 ## <a name="attributes"/>Map Attributes
-After you select the default or custom map, you can display supplementary information (such as the name of a country, state, etc.). To do this, go to the [Options](../../../../../dashboard-for-web/articles/web-dashboard-designer-mode/ui-elements/dashboard-item-menu.md) menu and open the **Attribute Name** dropdown list.
+After you select the default or custom map, you can display supplementary information (such as the name of a country, state, etc.). To do this, go to the [Options](../../ui-elements/dashboard-item-menu.md) menu and open the **Attribute Name** dropdown list.
 
-![wdd-choropleth-map-attribute](../../../../images/Img125387.png)
+![wdd-choropleth-map-attribute](../../../../images/img125387.png)
 
 This list displays available attributes for the current map. Each set of attribute values is related to a specific map shape.
 
-To learn how to bind the map attribute to a data source field, see the [Providing Data](../../../../../dashboard-for-web/articles/web-dashboard-designer-mode/designing-dashboard-items/choropleth-map/providing-data.md) topic.
+To learn how to bind the map attribute to a data source field, see the [Providing Data](providing-data.md) topic.

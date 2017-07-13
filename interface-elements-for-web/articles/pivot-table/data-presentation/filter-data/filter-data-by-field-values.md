@@ -7,9 +7,9 @@ Filter Popup Windows allow you to configure and apply simple filtering condition
 Topics in this section describe how to invoke and use Filter Windows.
 
 The following topics are available:
-* [Invoke a Filter Popup Window](../../../../../interface-elements-for-web/articles/pivot-table/data-presentation/filter-data/filter-data-by-field-values/invoke-a-filter-popup-window.md)
+* [Invoke a Filter Popup Window](filter-data-by-field-values/invoke-a-filter-popup-window.md)
 	
 	Shows how to invoke Filter Windows from the Pivot Table and a Field List.
-* [Using Filter Popup Windows](../../../../../interface-elements-for-web/articles/pivot-table/data-presentation/filter-data/filter-data-by-field-values/using-filter-popup-windows.md)
+* [Using Filter Popup Windows](filter-data-by-field-values/using-filter-popup-windows.md)
 	
 	Describes how to build filter conditions in Filter Popup Windows.

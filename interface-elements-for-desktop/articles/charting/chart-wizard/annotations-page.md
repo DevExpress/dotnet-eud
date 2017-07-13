@@ -6,7 +6,7 @@ title: Annotations Page
 * Create and customize image and text annotations.
 
 ## Page Elements
-![ChartWizard_AnnotationsPage_Image](../../../images/Img12047.png)
+![ChartWizard_AnnotationsPage_Image](../../../images/img12047.png)
 
 **Chart preview area**
 

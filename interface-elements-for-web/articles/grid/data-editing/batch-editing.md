@@ -23,10 +23,10 @@ You can navigate through cells and edit cell values using the keyboard.
 
 The cells that were modified are highlighted in a different color. To save all changes, click the **Save changes** button. To cancel all changes, click the **Cancel changes** button.
 
-![BatchEditMode](../../../images/Img22039.png)
+![BatchEditMode](../../../images/img22039.png)
 
 If a **Grid View** contains unsaved data, a confirmation message is displayed before the data is lost (e.g., when sorting the data, changing the grid page or closing the web page).
 
-![Grid_BatchMessage](../../../images/Img22760.png)
+![Grid_BatchMessage](../../../images/img22760.png)
 
 Click the **OK** button to cancel all data changes and proceed with the action, or click the **Cancel** button to cancel the action.

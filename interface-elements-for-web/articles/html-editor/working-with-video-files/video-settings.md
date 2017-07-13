@@ -2,16 +2,16 @@
 title: Video Settings
 ---
 # Video Settings
-When you [insert](../../../../interface-elements-for-web/articles/html-editor/working-with-video-files/insert-a-video-into-html-editor.md) or [modify](../../../../interface-elements-for-web/articles/html-editor/working-with-video-files/modify-video-settings-in-html-editor.md) video in an HTML Editor, you can customize the video player settings as well.
+When you [insert](insert-a-video-into-html-editor.md) or [modify](modify-video-settings-in-html-editor.md) video in an HTML Editor, you can customize the video player settings as well.
 
 To display the settings section in a video dialog, select the **More options** check box.
 
-![EUD_InsertVideo_MoreOptions](../../../images/Img25667.png)
+![EUD_InsertVideo_MoreOptions](../../../images/img25667.png)
 
 The displayed section contains the following settings, which you can use to customize the video player.
 
 ## Common Settings Tab
-![EUD_InsertVideo_CommonSettings](../../../images/Img25664.png)
+![EUD_InsertVideo_CommonSettings](../../../images/img25664.png)
 * **Width** - specifies the width of the video player in pixels.
 * **Height** - specifies the height of the video player in pixels.
 * **Position** - specifies the position of the video player.
@@ -25,7 +25,7 @@ The displayed section contains the following settings, which you can use to cust
 * **Show player controls** - specifies whether or not the video player controls should be displayed.
 
 ## Style Settings Tab
-![EUD_HTMLEditor_StyleSettings](../../../images/Img25620.png)
+![EUD_HTMLEditor_StyleSettings](../../../images/img25620.png)
 * **Margin top** - specifies the video player top margin in pixels.
 * **Margin bottom** - specifies the video player bottom margin in pixels.
 * **Margin left** - specifies the video player left margin in pixels.

@@ -7,4 +7,4 @@ title: Details View
 * Drag-and-drop a column
 * Sort files by column values
 
-![EUD_FileManager_DetailsView](../../images/Img22651.png)
+![EUD_FileManager_DetailsView](../../images/img22651.png)

@@ -2,15 +2,15 @@
 title: Save a Document
 ---
 # Save a Document
-To save a document, on the **File** [ tab](../../../../interface-elements-for-desktop/articles/rich-text-editor/text-editor-ui/ribbon-interface.md), in the **Common** group, click the **Save** button or use the **CTRL+S** keyboard shortcut. This allows you to save a document using the save parameters that were previously set.
+To save a document, on the **File** [ tab](../text-editor-ui/ribbon-interface.md), in the **Common** group, click the **Save** button or use the **CTRL+S** keyboard shortcut. This allows you to save a document using the save parameters that were previously set.
 
-If you want to save a document using another file name or to modify other parameters (e.g. file format or location), on the **File** [ tab](../../../../interface-elements-for-desktop/articles/rich-text-editor/text-editor-ui/ribbon-interface.md), in the **Common** group, click the **Save As** button or press the **F12** key.
+If you want to save a document using another file name or to modify other parameters (e.g. file format or location), on the **File** [ tab](../text-editor-ui/ribbon-interface.md), in the **Common** group, click the **Save As** button or press the **F12** key.
 
-![RTESaveIcon](../../../images/Img121266.png)
+![RTESaveIcon](../../../images/img121266.png)
 
 After that, the **Save As** dialog will appear. Note that the same dialog appears if you click the **Save** button to save a document, which has been never saved before.
 
-![RTESaveAsDialog](../../../images/Img121267.png)
+![RTESaveAsDialog](../../../images/img121267.png)
 
 In this dialog you can specify document name, document format and the location to which the document should be saved. The **Rich Text Editor** allows you to save documents in the following formats:
 * Rich Text Format (*.rtf)

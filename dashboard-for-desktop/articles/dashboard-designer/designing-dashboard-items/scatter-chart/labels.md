@@ -4,16 +4,16 @@ title: Labels
 # Labels
 The Scatter Chart display can display **point labels** that contain descriptions for data points, and provide **tooltips** with additional information.
 
-![ScatterChartLabels](../../../../images/Img120329.png)
+![ScatterChartLabels](../../../../images/img120329.png)
 
 ## Point Labels
 To manage the visibility of point labels, click the **Point Labels** button in the **Design** ribbon tab.
 
-![ScatterChart_PointLabelsRibbon](../../../../images/Img120330.png)
+![ScatterChart_PointLabelsRibbon](../../../../images/img120330.png)
 
 In the invoked **Point Label Settings** dialog, enable the **Show point labels** check box to show point labels.
 
-![ScatterChart_PointLabelSettingsDialog](../../../../images/Img120331.png)
+![ScatterChart_PointLabelSettingsDialog](../../../../images/img120331.png)
 
 You can specify the following settings for point labels:
 * **Content** - Specifies the type of content displayed within point labels. You can select one of the following options.

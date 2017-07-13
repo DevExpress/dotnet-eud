@@ -2,9 +2,9 @@
 title: HTML-Specific Export Options
 ---
 # HTML-Specific Export Options
-When [exporting a document](../../../../../interface-elements-for-desktop/articles/print-preview/print-preview-for-wpf/exporting/exporting.md), you can define the following HTML-specific export options.
+When [exporting a document](exporting.md), you can define the following HTML-specific export options.
 
-![EUD_WpfPrintPreview_HtmlExportOptions](../../../../images/Img124159.png)
+![EUD_WpfPrintPreview_HtmlExportOptions](../../../../images/img124159.png)
 * **Export Mode**
 	
 	Specifies how a document is exported to HTML. The following modes are available.

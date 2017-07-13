@@ -4,7 +4,7 @@ title: Spell Checker
 # Spell Checker
 The **Spell Checker** provides the capability to check spelling and correct mistakes in a text.
 
-![Spell Checker](../images/Img24091.png)
+![Spell Checker](../images/img24091.png)
 
 To start the check, click **Check Spelling...**.
 
@@ -23,4 +23,4 @@ Spell checker options allow you to ignore emails, URLs, mixed case/upper-case wo
 
 Choose the required language in the drop-down list.
 
-![Spell Checker Options](../images/Img24092.png)
+![Spell Checker Options](../images/img24092.png)

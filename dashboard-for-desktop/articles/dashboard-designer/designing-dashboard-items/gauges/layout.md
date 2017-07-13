@@ -8,12 +8,12 @@ To control how gauges are arranged, use the buttons in the **Content Arrangement
 
 By default, the **Auto Arrange** option is enabled, which automatically resizes gauges to fit within the dashboard item.
 
-![Gauges_Layout_AutoArrange](../../../../images/Img20007.png)
+![Gauges_Layout_AutoArrange](../../../../images/img20007.png)
 
 You can also specify the number of columns in which gauges are arranged. Click the **Arrange in Columns** button and specify the appropriate number in the **Count** field.
 
-![Gauges_Layout_ArrangeInColumns](../../../../images/Img20005.png)
+![Gauges_Layout_ArrangeInColumns](../../../../images/img20005.png)
 
 Similarly, you can arrange pies in a specific number of rows by clicking the **Arrange in Rows** button.
 
-![Gauges_Layout_ArrangeInRows](../../../../images/Img20006.png)
+![Gauges_Layout_ArrangeInRows](../../../../images/img20006.png)

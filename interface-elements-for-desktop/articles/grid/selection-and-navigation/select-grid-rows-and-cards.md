@@ -6,7 +6,7 @@ title: Select Grid Rows and Cards
 To select a row/card and clear the existing selection, do one of the following:
 * In Grid Views, click the row's indicator cell or any of its data cells:
 	
-	![EU_XtraGrid_GridView_IndicatorCells](../../../images/Img7494.png)
+	![EU_XtraGrid_GridView_IndicatorCells](../../../images/img7494.png)
 * In Card and Layout Views, click the card's caption or any of its data cells.
 * Select the row/card using the ARROW keys.
 

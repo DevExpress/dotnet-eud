@@ -5,14 +5,14 @@ title: Navigate Time Cells and Dates in the Scheduler
 ## View Navigator
 To navigate dates, you can use the **View Navigator** shown below.
 
-![VisualElements_ViewNavigator](../../../images/Img6730.png)
+![VisualElements_ViewNavigator](../../../images/img6730.png)
 
 Use the left and right arrow buttons to go to the previous or next time interval (next day, week, month, depending on the currently visible date interval). The **Today** scrolls the view to locate the current date.
 
 ## Calendar
 The **Calendar** control is designed specifically for the date navigation and selection task. It is shown in the following picture.
 
-![VisualElements_DateNavigator](../../../images/Img6711.png)
+![VisualElements_DateNavigator](../../../images/img6711.png)
 
 > The availability of the Calendar depends on the application vendor.
 
@@ -39,11 +39,11 @@ The methods of selecting dates are listed below:
 ## Context Menu
 The popup (context) menu provides the capability to navigate to a particular date.
 
-![GotoDateMenu](../../../images/Img8304.png)
+![GotoDateMenu](../../../images/img8304.png)
 
 ## "Go to Date" Dialog
 If the **Go to Date...** menu item is selected, the **Go to Date** form is invoked.
 
-![GoToDateDialog](../../../images/Img6920.png)
+![GoToDateDialog](../../../images/img6920.png)
 
 It enables you to select the date and the view to which the scheduler switches to display the date.

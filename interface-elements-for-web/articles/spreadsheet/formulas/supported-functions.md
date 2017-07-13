@@ -16,4 +16,4 @@ The **Spreadsheet** supports the following functions that are used in formulas.
 
 All of the functions described above are available in the **Function Library** group within the **Formulas** tab.
 
-![EUD_ASPxSpreadsheet_Formulas_Functions](../../../images/Img26286.png)
+![EUD_ASPxSpreadsheet_Formulas_Functions](../../../images/img26286.png)

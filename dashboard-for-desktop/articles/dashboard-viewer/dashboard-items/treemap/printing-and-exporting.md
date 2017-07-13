@@ -2,7 +2,7 @@
 title: Printing and Exporting
 ---
 # Printing and Exporting
-**Dashboard** allows you to print/export individual dashboard items, or the entire dashboard. To learn more about printing concepts common to all dashboard items, see the [Printing and Exporting](../../../../../dashboard-for-desktop/articles/dashboard-viewer/printing-and-exporting.md) topic.
+**Dashboard** allows you to print/export individual dashboard items, or the entire dashboard. To learn more about printing concepts common to all dashboard items, see the [Printing and Exporting](../../printing-and-exporting.md) topic.
 
 This topic describes the specifics of printing/exporting a **Treemap** dashboard item.
 * [Printing](#printing)
@@ -13,7 +13,7 @@ This topic describes the specifics of printing/exporting a **Treemap** dashboard
 ## <a name="printing"/>Printing
 If you are printing the Treemap dashboard item using the Print Preview, you can customize the following options (via the **Options** button) before printing.
 
-![Treemap_PrintingOptionsDialog](../../../../images/Img125450.png)
+![Treemap_PrintingOptionsDialog](../../../../images/img125450.png)
 * **Show Title** - Specifies whether or not to apply the dashboard item caption to the printed document title.
 * **Title** - Specifies the title of the printed document.
 * **Size Mode** - Allows you to specify the print size mode for the Treemap dashboard item.
@@ -26,7 +26,7 @@ Specify the required options in the **Options** dialog and click the **Submit** 
 ## <a name="export-to-pdf"/>Export To PDF
 The following options are available when exporting the Treemap dashboard item to a PDF.
 
-![Treemap_PDFExportOptionsDialog](../../../../images/Img125451.png)
+![Treemap_PDFExportOptionsDialog](../../../../images/img125451.png)
 * **Page Layout** - Specifies the page orientation used to export a Treemap dashboard item.
 * **Size** - Specifies the standard paper size.
 * **Show Title** - Specifies whether or not to apply the dashboard item caption to the exported document title.
@@ -41,7 +41,7 @@ Specify the required options in this dialog and click the **Export** button to e
 ## <a name="export-to-image"/>Export To Image
 All data-bound dashboard items provide the same set of options when exporting them to an Image format. The following options are available:
 
-![Chart_ImageExportOptionsDialog](../../../../images/Img22918.png)
+![Chart_ImageExportOptionsDialog](../../../../images/img22918.png)
 * **Show Title** - Specifies whether to apply the dashboard item caption to the exported document title.
 * **Title** - Specifies of the exported document's title.
 * **Image Format** - Specifies the image format in which the dashboard item is exported.
@@ -55,7 +55,7 @@ Specify the required options in this dialog and click the **Export** button to e
 ## <a name="export-to-excel"/>Export To Excel
 Data visualized within all data-bound dashboard items can be exported to the required Excel format. The following options are available:
 
-![ExportToExcelDialog](../../../../images/Img120974.png)
+![ExportToExcelDialog](../../../../images/img120974.png)
 * **Excel Format** - Specifies the Excel format in which the dashboard item is exported. You can use the XLSX, XLS or CSV formats.
 * **Separator** - Specifies the string used to separate values in the exported CSV document.
 * **Include | Filters** - Allows you to include master filter values to the exported document.

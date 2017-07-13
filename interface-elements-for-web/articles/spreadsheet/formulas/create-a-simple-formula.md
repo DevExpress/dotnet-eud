@@ -6,7 +6,7 @@ The **Spreadsheet** allows you to perform calculations on data in cells using fo
 
 The **Spreadsheet** provides the capability to create and edit formulas directly within a table cells.
 
-![EUD_ASPxSpreadsheet_Formulas_SimpleFormula](../../../images/Img26284.png)
+![EUD_ASPxSpreadsheet_Formulas_SimpleFormula](../../../images/img26284.png)
 
 For example, if you wish to add 1 to the product of 2 and 5, type the following formula in the cell in which you wish to insert the formula.
 

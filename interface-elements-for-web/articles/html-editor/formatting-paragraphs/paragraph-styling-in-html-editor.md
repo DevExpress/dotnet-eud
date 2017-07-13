@@ -7,6 +7,6 @@ The Paragraph style dropdown editor makes formatting the editor's content easier
 2. Click the **Paragraph** dropdown button within the Editor's toolbar, to invoke a list of available Paragraph styles.
 3. Select the required Paragraph style.
 
-![ASPxHtmlEditor-Buttons-ParagraphStyling](../../../images/Img9177.png)
+![ASPxHtmlEditor-Buttons-ParagraphStyling](../../../images/img9177.png)
 
 > This functionality may be unavailable in your application. This depends on the choice of the application vendor.

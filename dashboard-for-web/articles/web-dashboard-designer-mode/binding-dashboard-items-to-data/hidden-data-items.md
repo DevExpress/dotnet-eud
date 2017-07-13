@@ -13,29 +13,29 @@ You can perform the following operations using hidden data items.
 * [Conditional Formatting](#cf)
 
 ## <a name="filtering"/>Filtering
-You can use **hidden dimensions** to apply [filtering](../../../../dashboard-for-web/articles/web-dashboard-designer-mode/data-shaping/filtering.md) to the dashboard item.
+You can use **hidden dimensions** to apply [filtering](../data-shaping/filtering.md) to the dashboard item.
 
-![wdd-hidden-data-item-filtering](../../../images/Img124648.png)
+![wdd-hidden-data-item-filtering](../../../images/img124648.png)
 
 For example, the Grid on the image above is filtered by the _OrderDate (Quarter)_ hidden dimension.
 
 ## <a name="sorting"/>Sorting
-You can [sort](../../../../dashboard-for-web/articles/web-dashboard-designer-mode/data-shaping/sorting.md) values of the specified dimension by the **hidden measure**.
+You can [sort](../data-shaping/sorting.md) values of the specified dimension by the **hidden measure**.
 
-![wdd-hidden-data-item-sorting](../../../images/Img124647.png)
+![wdd-hidden-data-item-sorting](../../../images/img124647.png)
 
 For instance, a data item menu on the image above displays sorting by values of the hidden _UnitPrice (Sum)_ measure.
 
 ## <a name="topn"/>Top N
-You can use **hidden measures** in [Top N](../../../../dashboard-for-web/articles/web-dashboard-designer-mode/data-shaping/top-n.md) conditions.
+You can use **hidden measures** in [Top N](../data-shaping/top-n.md) conditions.
 
-![wdd-hidden-data-item-top-n](../../../images/Img124649.png)
+![wdd-hidden-data-item-top-n](../../../images/img124649.png)
 
 For example, a data item menu on the image above displays the top 5 categories for the _UnitPrice (Sum)_ hidden measure.
 
 ## <a name="cf"/>Conditional Formatting
-You can create format rules based on **hidden measures** to apply [conditional formatting](../../../../dashboard-for-web/articles/web-dashboard-designer-mode/appearance-customization/conditional-formatting.md) to elements corresponding to visible values.
+You can create format rules based on **hidden measures** to apply [conditional formatting](../appearance-customization/conditional-formatting.md) to elements corresponding to visible values.
 
-![wdd-hidden-measure-conditional-formating](../../../images/Img125668.png)
+![wdd-hidden-measure-conditional-formating](../../../images/img125668.png)
 
 For example, the Range Set format rule on the image above is calculated by the _Quantity (Sum)_ hidden measure.

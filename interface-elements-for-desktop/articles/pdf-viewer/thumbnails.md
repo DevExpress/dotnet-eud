@@ -11,21 +11,21 @@ This document consists of the following sections.
 ## <a name="overview"/>Overview
 A thumbnail provides a miniature preview of a document page. The PDF Viewer shows page thumbnails of an active PDF document in the **Page Thumbnails** panel. The panel is located on the **Navigation** pane.
 
-![PageThumbnails ](../../images/Img124910.jpeg)
+![PageThumbnails ](../../images/img124910.jpeg)
 
 When a thumbnail is selected, the PDF Viewer shows the corresponding page.
 
-![SelectedThumbnail](../../images/Img125140.png)
+![SelectedThumbnail](../../images/img125140.png)
 
 You can navigate through a document by selecting the page thumbnails.
 
 The **Page Thumbnails** panel provides thumbnail options that can be accessed using one of the following ways:
 * click the **Options** drop-down button;
 	
-	![ThumbnailsOptions](../../images/Img125143.png)
+	![ThumbnailsOptions](../../images/img125143.png)
 * use the right click menu of the **Page Thumbnails** panel.
 	
-	![ThumbnailsOptionsContextMenu](../../images/Img125156.png)
+	![ThumbnailsOptionsContextMenu](../../images/img125156.png)
 
 ## <a name="customization"/>Customization
 The **Page Thumbnails** panel provides the following options.
@@ -39,4 +39,4 @@ You can also enlarge/reduce thumbnail size using one of the following ways:
 * press **Ctrl** on the keyboard and scroll the mouse wheel when the **Page Thumbnails** panel is focused;
 * use the zoom slider which is placed on the **Page Thumbnails panel**.
 	
-	![ThumbnailsZoomSlider](../../images/Img125162.png)
+	![ThumbnailsZoomSlider](../../images/img125162.png)

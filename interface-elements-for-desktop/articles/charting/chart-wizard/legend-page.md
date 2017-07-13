@@ -6,7 +6,7 @@ title: Legend Page
 * Customize chart legend's properties.
 
 ## Page Elements
-![ChartWizard_LegendPage](../../../images/Img7238.png)
+![ChartWizard_LegendPage](../../../images/img7238.png)
 
 **Chart preview area**
 
@@ -14,7 +14,7 @@ Previews a chart's layout.
 
 Note that you can select the legend directly on the chart preview area.
 
-![ChartWizard_10a](../../../images/Img7415.png)
+![ChartWizard_10a](../../../images/img7415.png)
 
 **Options tabs**
 

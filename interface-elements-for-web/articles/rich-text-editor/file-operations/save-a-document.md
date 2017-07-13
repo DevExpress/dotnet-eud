@@ -4,13 +4,13 @@ title: Save a Document
 # Save a Document
 To save a document, go to the **File** tab, and then click the **Save as** button in the **Common** group.
 
-![EUD_ASPxRichEdit_File_SaveAs](../../../images/Img117757.png)
+![EUD_ASPxRichEdit_File_SaveAs](../../../images/img117757.png)
 
 After that, the **Save as** dialog box is invoked.
 
 Specify whether the file should be saved to the server or downloaded as a copy. Then, specify the folder path, file name and the file format in which to save the document.
 
-![EUD_ASPxRichEdit_File_SaveAsDialog](../../../images/Img117758.png)
+![EUD_ASPxRichEdit_File_SaveAsDialog](../../../images/img117758.png)
 
 The **Rich Edit** control allows you to save documents in the following formats:
 * Rich Text Format (*.rtf)

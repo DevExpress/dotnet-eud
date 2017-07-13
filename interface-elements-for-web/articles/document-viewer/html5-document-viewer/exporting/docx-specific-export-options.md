@@ -2,9 +2,9 @@
 title: DOCX-Specific Export Options
 ---
 # DOCX-Specific Export Options
-Before [exporting a document](../../../../../interface-elements-for-web/articles/document-viewer/html5-document-viewer/exporting/export-a-document.md) to DOCX format, you can specify DOCX-specific options in the dedicated **Export Options** panel.
+Before [exporting a document](export-a-document.md) to DOCX format, you can specify DOCX-specific options in the dedicated **Export Options** panel.
 
-![web-report-designer](../../../../images/Img129100.png)
+![web-report-designer](../../../../images/img129100.png)
 * **Export mode**
 	
 	Specifies how a document is exported to DOCX. The following modes are available.

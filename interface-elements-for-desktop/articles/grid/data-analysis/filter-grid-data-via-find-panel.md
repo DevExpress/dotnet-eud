@@ -4,7 +4,7 @@ title: Filter Grid Data via Find Panel
 # Filter Grid Data via Find Panel
 The Find Panel provides an easy way of searching against visible columns/card fields. Displayed above the grid, the panel contains a search box where you can type a search string.
 
-![FindPanel](../../../images/Img18038.png)
+![FindPanel](../../../images/img18038.png)
 
 ## Invoke the Find Panel
 * Ensure that no cell editor is active and press Ctrl+F.
@@ -12,7 +12,7 @@ The Find Panel provides an easy way of searching against visible columns/card fi
 or
 * In Grid Views, choose the Show Find Panel command from a column menu.
 	
-	![invokeFindPanel](../../../images/Img18039.png)
+	![invokeFindPanel](../../../images/img18039.png)
 
 ## Search
 * Enter a search string in the search box. In most cases, rows are filtered automatically after a short while.

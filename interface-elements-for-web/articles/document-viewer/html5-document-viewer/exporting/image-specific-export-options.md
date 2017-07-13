@@ -2,9 +2,9 @@
 title: Image-Specific Export Options
 ---
 # Image-Specific Export Options
-Before [exporting a document](../../../../../interface-elements-for-web/articles/document-viewer/html5-document-viewer/exporting/export-a-document.md) to an image, you can specify Image-specific options in the dedicated **Export Options** panel.
+Before [exporting a document](export-a-document.md) to an image, you can specify Image-specific options in the dedicated **Export Options** panel.
 
-![EUD_HTML5DV_ImageExportOptions](../../../../images/Img121800.png)
+![EUD_HTML5DV_ImageExportOptions](../../../../images/img121800.png)
 * **Export Mode**
 	
 	Specifies how a document is exported to an image. The following modes are available.

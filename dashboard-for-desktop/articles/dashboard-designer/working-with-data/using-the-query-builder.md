@@ -4,7 +4,7 @@ title: Using the Query Builder
 # Using the Query Builder
 In the **Query Builder** dialog, you can add data tables and views to the data source, and select which columns to include. The Query Builder automatically joins the related tables, so all you need to do is drag-and-drop.
 
-![DataBinding_QueryDesignerPanes](../../../images/Img24708.png)
+![DataBinding_QueryDesignerPanes](../../../images/img24708.png)
 * [Add Tables](#add-tables)
 * [Join Tables](#join-tables)
 * [Edit Column Settings](#edit-column-settings)
@@ -15,33 +15,33 @@ In the **Query Builder** dialog, you can add data tables and views to the data s
 ## <a name="add-tables"/>Add Tables
 To add the required tables/views to a data source, double-click the table (or view) or drag-and-drop it from the **Tables** pane onto the **Diagram** pane.
 
-![DataBinding_QueryDesigner_Drag-And-Drop](../../../images/Img18487.png)
+![DataBinding_QueryDesigner_Drag-And-Drop](../../../images/img18487.png)
 
 Then, select the required columns.
 
-![DataBinding_QueryDesigner_SelectColumns](../../../images/Img18486.png)
+![DataBinding_QueryDesigner_SelectColumns](../../../images/img18486.png)
 
 ## <a name="join-tables"/>Join Tables
 Note that if at least one table has been added to the **Diagram** pane, the **Tables** pane highlights tables that have a relationship with any of the recently added tables.
 
-![QueryBuilder_HighlightedTables](../../../images/Img123530.png)
+![QueryBuilder_HighlightedTables](../../../images/img123530.png)
 
 To join the already added table with an another table, do one of the following.
-* Click the ![QueryBuilder_JoinPlusIcon](../../../images/Img125149.png) button next to the foreign key column (_SupplierID_ and _CategoryID_ in the image above).
+* Click the ![QueryBuilder_JoinPlusIcon](../../../images/img125149.png) button next to the foreign key column (_SupplierID_ and _CategoryID_ in the image above).
 * Drag and drop the highlighted table from the **Tables** pane to **Diagram** pane.
 
 The Query Builder will display a relationship between tables.
 
-![QueryBuilder_JoinedTables](../../../images/Img127042.png)
+![QueryBuilder_JoinedTables](../../../images/img127042.png)
 
 To edit this relation, select it and use its context menu.
 
-![QueryBuilder_RelationContextMenu](../../../images/Img127043.png)
+![QueryBuilder_RelationContextMenu](../../../images/img127043.png)
 
 The following commands are available.
 * **Edit Relation** - Allows you to edit the selected relation. Clicking this menu item invokes the **Join Editor** dialog.
 	
-	![QueryBuilder_JoinEditorNew](../../../images/Img127044.png)
+	![QueryBuilder_JoinEditorNew](../../../images/img127044.png)
 	
 	First, check the join type. You can specify it in the **Join type** combo box (_Inner join_ or _Left outer join_).
 	To edit column and table names in the existing condition, click the name you wish to replace and choose a different name from the popup menu.
@@ -52,7 +52,7 @@ The following commands are available.
 ## <a name="edit-column-settings"/>Edit Column Settings
 After you have added the tables and selected the required columns, you can change settings for each column in the **Grid** pane.
 
-![QueryBuilder_GridPane](../../../images/Img119322.png)
+![QueryBuilder_GridPane](../../../images/img119322.png)
 
 The following settings are available for each column.
 * Use **Column** to select the required column from the combo box or add a new column. If necessary, you can customize a column expression. To do this, click the ellipsis button for the required column and specify the expression in the invoked [Expression Editor](../../../../interface-elements-for-desktop/articles/expression-editor.md) dialog.
@@ -70,16 +70,16 @@ The following settings are available for each column.
 ## <a name="filter-data"/>Filter Data
 To filter data in the Query Builder, click the **Filter...** button. This will invoke the **Filter Editor** dialog, which allows you to build filter criteria.
 
-![FilterEditorDialog_SqlDataSource](../../../images/Img121069.png)
+![FilterEditorDialog_SqlDataSource](../../../images/img121069.png)
 
-To learn more, see [Filter Queries](../../../../dashboard-for-desktop/articles/dashboard-designer/working-with-data/filter-queries.md).
+To learn more, see [Filter Queries](filter-queries.md).
 
 ## <a name="customize-sql-query"/>Customize SQL Query
 > Note that the Query Builder does not allow you to use custom SQL queries by default.
 
 After you add the required tables, you can customize the automatically generated SQL query. To do this, enable the **Allow Edit SQL** check box and edit the SQL query displayed in the **SQL** pane.
 
-![DataBinding_QueryDesigner_SQLViewCut](../../../images/Img24709.png)
+![DataBinding_QueryDesigner_SQLViewCut](../../../images/img24709.png)
 
 For instance, you can add a WHERE clause to the SQL expression.
 
@@ -88,4 +88,4 @@ For instance, you can add a WHERE clause to the SQL expression.
 ## <a name="preview-data"/>Preview Data
 The Query Builder allows you to preview data for the created SQL query. To do this, click the **Preview Results...** button.
 
-This invokes the [Data Preview](../../../../dashboard-for-desktop/articles/dashboard-designer/working-with-data/preview-data.md) window containing data returned after executing the query.
+This invokes the [Data Preview](preview-data.md) window containing data returned after executing the query.

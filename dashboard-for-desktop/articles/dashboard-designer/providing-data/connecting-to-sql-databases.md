@@ -7,13 +7,13 @@ The Dashboard Designer provides the capability to connect to multiple types of S
 To connect to an SQL database in the Dashboard Designer, follow the steps below.
 1. Click the **New Data Source** button in the **Data Source** ribbon tab.
 	
-	![DataBinding_NewDataSource](../../../images/Img18472.png)
+	![DataBinding_NewDataSource](../../../images/img18472.png)
 2. On the first page of the invoked **Data Source Wizard** dialog, select **Database** and click **Next**.
 	
-	![DataSourceWizard_Database](../../../images/Img117932.png)
+	![DataSourceWizard_Database](../../../images/img117932.png)
 3. On the next page, select the required data provider and specify the required connection parameters.
 	
-	![DataSourceWizard_MSSQLServer](../../../images/Img117934.png)
+	![DataSourceWizard_MSSQLServer](../../../images/img117934.png)
 	
 	For instance, if you selected the **Microsoft SQL Server** data provider, the following options should be specified.
 	* **Server name**
@@ -33,13 +33,13 @@ To connect to an SQL database in the Dashboard Designer, follow the steps below.
 		Select the database that contains required data.
 4. After you have specified the required connection parameters, click **Next** and specify how to select data from the database.
 	
-	![DataSourceWizard_Query](../../../images/Img117952.png)
-	* Select the **Query** option and run the [Query Builder](../../../../dashboard-for-desktop/articles/dashboard-designer/working-with-data/using-the-query-builder.md) by clicking the **Run Query Builder...** button. The Query Builder allows you to choose the required tables/columns visually and passes the resulting SQL query to the **SQL String** editor. Click **Finish** to create the data source.
-	* Select the **Stored Procedure** option to select one of the [stored procedure](../../../../dashboard-for-desktop/articles/dashboard-designer/working-with-data/stored-procedures.md)s from the database.
+	![DataSourceWizard_Query](../../../images/img117952.png)
+	* Select the **Query** option and run the [Query Builder](../working-with-data/using-the-query-builder.md) by clicking the **Run Query Builder...** button. The Query Builder allows you to choose the required tables/columns visually and passes the resulting SQL query to the **SQL String** editor. Click **Finish** to create the data source.
+	* Select the **Stored Procedure** option to select one of the [stored procedure](../working-with-data/stored-procedures.md)s from the database.
 	
 	Click **Next**.
-5. On the final page, you can optionally add [query parameters](../../../../dashboard-for-desktop/articles/dashboard-designer/working-with-data/pass-query-parameters.md) and [preview](../../../../dashboard-for-desktop/articles/dashboard-designer/working-with-data/preview-data.md) data.
+5. On the final page, you can optionally add [query parameters](../working-with-data/pass-query-parameters.md) and [preview](../working-with-data/preview-data.md) data.
 	
-	![DataSourceWizard_AddQueryParameters](../../../images/Img118003.png)
+	![DataSourceWizard_AddQueryParameters](../../../images/img118003.png)
 	
 	Click **Finish** to create the data source.

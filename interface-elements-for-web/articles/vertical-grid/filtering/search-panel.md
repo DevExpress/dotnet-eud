@@ -4,7 +4,7 @@ title: Search Panel
 # Search Panel
 To filter data and highlight search results, type a filter criterion in the search panel.
 
-![ASPxVerticalGrid-SearchPanel-1](../../../images/Img123788.png)
+![ASPxVerticalGrid-SearchPanel-1](../../../images/img123788.png)
 
 ## Applying the Search Panel Filter Criterion
 To apply a filter criterion typed in the search panel, press the ENTER key or click **Search**. Otherwise, a filter is automatically applied in 1.2 seconds.
@@ -15,7 +15,7 @@ To clear the search panel filter criterion, do one of the following.
 * Click the **Clear** button.
 * Click the clear button, which is displayed within the editor when the editor is focused and is not empty.
 	
-	![EUD_Grid_SearchPanel](../../../images/Img25472.png)
+	![EUD_Grid_SearchPanel](../../../images/img25472.png)
 
 ## Search syntax
 In its simplest form, a search criterion consists of a single word. However, the search panel allows you to create composite criteria.
@@ -23,14 +23,14 @@ In its simplest form, a search criterion consists of a single word. However, the
 	
 	**Example:** Maria
 	
-	![VerticalGridSearchCriterion](../../../images/Img123881.png)
+	![VerticalGridSearchCriterion](../../../images/img123881.png)
 	
 	**Example description:** selects records that contain the "Maria" string in any search row.
 * **Mask:** column:criterion 
 	
 	**Example:** city: ber
 	
-	![VerticalGridColumnSearch](../../../images/Img123883.png)
+	![VerticalGridColumnSearch](../../../images/img123883.png)
 	
 	You can search against a specific row by preceding a search string with the row's caption and a colon character. Instead of the complete caption, it is possible to use the initial characters of the caption. A search will be performed against the first row whose name starts with the specified substring. If you want to search against a row whose caption contains space characters, specify the row's display caption in quotation marks.
 	
@@ -41,7 +41,7 @@ In its simplest form, a search criterion consists of a single word. However, the
 	
 	**Example:** France Ma
 	
-	![VerticalGrid2CriteriesSearch](../../../images/Img123885.png)
+	![VerticalGrid2CriteriesSearch](../../../images/img123885.png)
 	
 	The search panel allows to search words separated by space characters using the AND logical operator (i.e., the conditions are combined by the AND logical operator). Only records that match all of the conditions are shown.
 	
@@ -50,7 +50,7 @@ In its simplest form, a search criterion consists of a single word. However, the
 	
 	**Example:** "Maria Anders"
 	
-	![VerticalGridSearchWithSpaces](../../../images/Img123886.png)
+	![VerticalGridSearchWithSpaces](../../../images/img123886.png)
 	
 	If you want to search for a string containing a space character, specify this string in quotation marks.
 	
@@ -59,7 +59,7 @@ In its simplest form, a search criterion consists of a single word. However, the
 	
 	**Example:** maria -anders
 	
-	![VerticalGridSearchMinusCriterion](../../../images/Img123887.png)
+	![VerticalGridSearchMinusCriterion](../../../images/img123887.png)
 	
 	Precede a condition with "-" to exclude records that match this condition from the resulting set. There should be no space between the "-" sign and the condition.
 	
@@ -68,7 +68,7 @@ In its simplest form, a search criterion consists of a single word. However, the
 	
 	**Example:** Germany +berlin
 	
-	![VerticalGridSearchPlusCriterion](../../../images/Img123888.png)
+	![VerticalGridSearchPlusCriterion](../../../images/img123888.png)
 	
 	Precede a condition with "+" to display only records that match this condition. The "+" specifier allows you to implement the logical AND operator. There should be no space character between the "+" sign and the condition.
 	

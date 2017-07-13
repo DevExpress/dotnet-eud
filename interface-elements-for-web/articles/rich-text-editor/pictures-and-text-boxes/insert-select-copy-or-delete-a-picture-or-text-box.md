@@ -7,11 +7,11 @@ You can insert floating [images](#image) or [text boxes](#textbox) and  [select]
 ## <a name="image"/>Insert a Picture
 To insert an inline picture into your document, position the caret to the desired location and click the **Inline Picture** button placed in the **Illustrations** group in the **Insert** tab.
 
-![EUD_ASPxRichEdit_Insert_InsertInlinePicture](../../../images/Img117833.png)
+![EUD_ASPxRichEdit_Insert_InsertInlinePicture](../../../images/img117833.png)
 
 In the invoked **Insert Image** dialog box, enter an image's web address (if you are going to load a picture from the web) or locate the required folder and select a file with graphics (if you are going to load pictures from your computer). Click Insert. The picture will be inserted into the document.
 
-![EUD_ASPxRichEdit_Insert_InsertPictureDialog](../../../images/Img117834.png)
+![EUD_ASPxRichEdit_Insert_InsertPictureDialog](../../../images/img117834.png)
 
 The **Rich Text Editor** enables you to insert graphics of the following types:
 * Bitmap (*.bmp, *.dib)
@@ -25,12 +25,12 @@ The **Rich Text Editor** enables you to insert graphics of the following types:
 ## <a name="textbox"/>Insert a Text Box
 To insert a text box into your document, position the caret at the desired location and on the **Insert** tab, in the **Text** group, click the **Text Box** button.
 
-![EUD_RichEdit_InsertTextBox](../../../images/Img128945.png)
+![EUD_RichEdit_InsertTextBox](../../../images/img128945.png)
 
 ## <a name="select"/>Select a Picture or Text Box
 To select a picture/text box, click on its border.
 
-![EUD_RichEdit_SelectTextBox](../../../images/Img128947.png)
+![EUD_RichEdit_SelectTextBox](../../../images/img128947.png)
 
 > If the caret is placed inside the text box, you can modify the text box content, but it is impossible to move, copy or delete the text box.
 

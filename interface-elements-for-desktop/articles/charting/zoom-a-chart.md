@@ -10,18 +10,18 @@ Note that zooming is unavailable for 2D Pie, 2D Doughnut, Radar, and Polar chart
 To zoom in a chart, do one of the following.
 * **Hold down SHIFT and click.**
 	
-	After you press SHIFT, the mouse pointer is changed to ![zoomingChart1](../../images/Img7223.gif). Then, move the mouse pointer to the chart region to be zoomed into, and click (while holding SHIFT). The magnification factor is 300%.
+	After you press SHIFT, the mouse pointer is changed to ![zoomingChart1](../../images/img7223.gif). Then, move the mouse pointer to the chart region to be zoomed into, and click (while holding SHIFT). The magnification factor is 300%.
 * **Press SHIFT and select a region on a diagram.**
 	
-	After you press SHIFT, the mouse pointer is changed to ![zoomingChart1](../../images/Img7223.gif). Then, select a zoomed region by dragging the mouse pointer.
+	After you press SHIFT, the mouse pointer is changed to ![zoomingChart1](../../images/img7223.gif). Then, select a zoomed region by dragging the mouse pointer.
 	
-	![ZoomingChart3](../../images/Img7225.png)
+	![ZoomingChart3](../../images/img7225.png)
 	
 	After releasing the left mouse button, a chart is zoomed into the bounds of the selected region on a diagram.
 	
 	> This feature is available for 2D charts only.
 	> 
-	> if you press SHIFT and can't zoom in anymore (the mouse pointer is changed to ![ZoomingChart4](../../images/Img7226.gif)), then a chart is already zoomed in by **100** times (10000%). This is the maximum possible zoom factor allowed.
+	> if you press SHIFT and can't zoom in anymore (the mouse pointer is changed to ![ZoomingChart4](../../images/img7226.gif)), then a chart is already zoomed in by **100** times (10000%). This is the maximum possible zoom factor allowed.
 * **Use CTRL+PLUS SIGN.**
 	
 	In this case, the magnification factor is 120%.
@@ -29,7 +29,7 @@ To zoom in a chart, do one of the following.
 	
 	An end-user can zoom in a chart's diagram performing spread gestures on any device supporting touchscreen.
 	
-	![Gesture_ZoomIn](../../images/Img18689.png)
+	![Gesture_ZoomIn](../../images/img18689.png)
 * **Use the mouse wheel.**
 	
 	In this case, the magnification factor is 120%.
@@ -38,7 +38,7 @@ To zoom in a chart, do one of the following.
 To zoom out of a chart, do one of the following.
 * **Hold down ALT and click.**
 	
-	After you press ALT, the mouse pointer is changed to ![ZoomingChart2](../../images/Img7224.gif). Then, move the mouse pointer to the region to be zoomed out, and click (while holding ALT). The magnification factor is 300%.
+	After you press ALT, the mouse pointer is changed to ![ZoomingChart2](../../images/img7224.gif). Then, move the mouse pointer to the region to be zoomed out, and click (while holding ALT). The magnification factor is 300%.
 * **Use CTRL+MINUS SIGN.**
 	
 	In this case, the magnification factor is 120%.
@@ -46,7 +46,7 @@ To zoom out of a chart, do one of the following.
 	
 	A chart's diagram can be zoomed out by performing pinch gestures on any device supporting touchscreen.
 	
-	![Gesture_ZoomOut](../../images/Img18690.png)
+	![Gesture_ZoomOut](../../images/img18690.png)
 * **Use the mouse wheel.**
 	
 	In this case, the magnification factor is 120%.

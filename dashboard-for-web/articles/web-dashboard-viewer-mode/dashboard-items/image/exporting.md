@@ -2,14 +2,14 @@
 title: Exporting
 ---
 # Exporting
-The Web Dashboard allows you to export individual dashboard items, or the entire dashboard. To learn more about exporting concepts common to all dashboard items, see the [Exporting](../../../../../dashboard-for-web/articles/web-dashboard-viewer-mode/exporting.md) topic.
+The Web Dashboard allows you to export individual dashboard items, or the entire dashboard. To learn more about exporting concepts common to all dashboard items, see the [Exporting](../../exporting.md) topic.
 
 This topic describes the specifics of exporting an **Image** dashboard item.
 * [Export To PDF](#export-to-pdf)
 * [Export To Image](#export-to-image)
 
 ## <a name="export-to-pdf"/>Export To PDF
-![ExportToPdfDialog_ImageWeb](../../../../images/Img22972.png)
+![ExportToPdfDialog_ImageWeb](../../../../images/img22972.png)
 * **File Name** - Specifies the name of the exported PDF file.
 * **Page Layout** - Specifies the page orientation used to export a dashboard item.
 * **Size** - Specifies the standard paper size.
@@ -23,7 +23,7 @@ This topic describes the specifics of exporting an **Image** dashboard item.
 Specify the required options in this dialog and click the **Export** button to export the Image dashboard item. To reset changes to the default values, click the **Reset** button.
 
 ## <a name="export-to-image"/>Export To Image
-![ExportToImageDialog_ImageWeb](../../../../images/Img22973.png)
+![ExportToImageDialog_ImageWeb](../../../../images/img22973.png)
 * **File Name** - Specifies the name of the exported Image file.
 * **Show Title** - Specifies whether or not to apply the dashboard item caption to the exported document title.
 * **Title** -Specifies the title of the exported document.

@@ -2,20 +2,20 @@
 title: Exporting
 ---
 # Exporting
-The Web Dashboard allows you to export an entire dashboard or individual [dashboard items](../../../dashboard-for-web/articles/web-dashboard-designer-mode/designing-dashboard-items.md). You can export the dashboard/dashboard items to PDF and Image formats; additionally, you can export dashboard item's data to Excel/CSV.
+The Web Dashboard allows you to export an entire dashboard or individual [dashboard items](designing-dashboard-items.md). You can export the dashboard/dashboard items to PDF and Image formats; additionally, you can export dashboard item's data to Excel/CSV.
 * [Exporting Dashboards](#exportingdashboards)
 * [Exporting Dashboard Items](#exportingdashboarditems)
 
 ## <a name="exportingdashboards"/>Exporting Dashboards
-To export the entire dashboard, click the ![Printing_ExportElementButtonWeb](../../images/Img19570.png) button in the dashboard title area and choose the required action.
+To export the entire dashboard, click the ![Printing_ExportElementButtonWeb](../../images/img19570.png) button in the dashboard title area and choose the required action.
 
-![Printing_ExportMenuWeb](../../images/Img19567.png)
+![Printing_ExportMenuWeb](../../images/img19567.png)
 
 ### Export to PDF
 
 Invokes a corresponding dialog that allows you to export a dashboard to a PDF file with specific options. The following options are available:
 
-![ExportToPDF_DashboardOptions](../../images/Img22288.png)
+![ExportToPDF_DashboardOptions](../../images/img22288.png)
 * **File Name** - Specifies the name of the exported PDF file.
 * **Page Layout** - Specifies the page orientation used to export a dashboard. You can select between _Portrait_, _Landscape_ and _Auto_. Note that in the _Auto_ mode the page orientation is selected automatically depending on the horizontal and vertical sizes of a dashboard.
 * **Size** - Specifies the standard paper size (for instance, _Letter_ or _A4_).
@@ -29,7 +29,7 @@ Invokes a corresponding dialog that allows you to export a dashboard to a PDF fi
 
 Invokes a corresponding dialog that allows you to export a dashboard to image of the specified format. The following options are available:
 
-![ExportToImage_DashboardOptions](../../images/Img22289.png)
+![ExportToImage_DashboardOptions](../../images/img22289.png)
 * **File Name** - Specifies the name of the exported Image file.
 * **Show Title** - Specifies whether or not to apply the dashboard title to the exported document title.
 * **Title** - Specifies the title of the exported document.
@@ -40,7 +40,7 @@ Invokes a corresponding dialog that allows you to export a dashboard to image of
 
 Invokes a corresponding dialog that allows you to export dashboard's data to the Excel file. The following options are available:
 
-![wdd-export-excel-dashboard](../../images/Img128973.png)
+![wdd-export-excel-dashboard](../../images/img128973.png)
 * **File Name** - Specifies the name of the exported Excel file.
 * **Excel Format** - Specifies the Excel workbook format in which the dashboard's data is exported. You can select between _XLSX_ and _XLS_.
 * **Include | Filters** - Allows you to include master filter values to the exported document.
@@ -49,16 +49,16 @@ Invokes a corresponding dialog that allows you to export dashboard's data to the
 
 Specify the required options in the dialog and click the **Export** button to export the dashboard. To reset the changes to the default values, click the **Reset** button.
 
-> If you export the entire dashboard, its current state is preserved (e.g., the [dashboard layout](../../../dashboard-for-web/articles/web-dashboard-designer-mode/dashboard-layout.md), the scroll position of individual dashboard items and selections within [master filter](../../../dashboard-for-web/articles/web-dashboard-designer-mode/interactivity/master-filtering.md) items).
+> If you export the entire dashboard, its current state is preserved (e.g., the [dashboard layout](dashboard-layout.md), the scroll position of individual dashboard items and selections within [master filter](interactivity/master-filtering.md) items).
 
 ## <a name="exportingdashboarditems"/>Exporting Dashboard Items
-To export a dashboard item, click the ![Printing_ExportElementButtonWeb](../../images/Img19570.png) button in the dashboard item caption area and choose the required action.
+To export a dashboard item, click the ![Printing_ExportElementButtonWeb](../../images/img19570.png) button in the dashboard item caption area and choose the required action.
 
-![Printing_ExportElementWeb](../../images/Img19610.png)
+![Printing_ExportElementWeb](../../images/img19610.png)
 * **Export to PDF** - Invokes a corresponding dialog that allows you to export a dashboard to a PDF file with specific options.
 * **Export to Image** - Invokes a corresponding dialog that allows you to export a dashboard to image of the specified format.
 * **Export to Excel** - Invokes a corresponding dialog that allows you to export a dashboard item's data to the Excel workbook or CSV file.
 
-To learn more about exporting specifics of different dashboard items, see the **Exporting** topic for the required [dashboard item](../../../dashboard-for-web/articles/web-dashboard-viewer-mode/dashboard-items.md).
+To learn more about exporting specifics of different dashboard items, see the **Exporting** topic for the required [dashboard item](../web-dashboard-viewer-mode/dashboard-items.md).
 
 > When an individual dashboard item is printed, the entire item's content is reflected in the printed document regardless of the item's current scroll position.

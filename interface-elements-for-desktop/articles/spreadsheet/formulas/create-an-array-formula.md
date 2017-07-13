@@ -9,7 +9,7 @@ To create an array formula, do the following.
 2. Enter the array formula in the **Formula Bar**.
 3. Press **CTRL+SHIFT+ENTER**. The **Spreadsheet** automatically adds a pair of curly braces to the formula to indicate that it is an array formula.
 	
-	![ArrayFormulaBraces.png](../../../images/Img21284.png)
+	![ArrayFormulaBraces.png](../../../images/img21284.png)
 
 > Any time you edit the array formula, you must press **CTRL+SHIFT+ENTER** to save changes and convert the formula into an array formula.
 
@@ -17,4 +17,4 @@ The example below demonstrates how to create a formula that multiplies three arr
 
 **=C4:C8*D4:D8*(1-E4:E8)**
 
-![ArrayFormula.png](../../../images/Img21256.png)
+![ArrayFormula.png](../../../images/img21256.png)

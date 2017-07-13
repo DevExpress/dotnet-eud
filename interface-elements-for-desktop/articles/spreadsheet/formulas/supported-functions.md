@@ -17,4 +17,4 @@ The **Spreadsheet** supports the following functions to be used in formulas.
 
 All of the functions described above are available in the **Function Library** group within the **Formulas** tab.
 
-![SpreadsheetFunctionLibrary](../../../images/Img22626.png)
+![SpreadsheetFunctionLibrary](../../../images/img22626.png)

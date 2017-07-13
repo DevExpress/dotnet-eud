@@ -6,12 +6,12 @@ The appointment data displayed within the scheduler can be grouped either by res
 
 | Appointments are grouped by resources | Appointments are grouped by dates |
 |---|---|
-| ![GroupByResources](../../../images/Img121383.png) | ![GroupByDates](../../../images/Img121382.png) |
+| ![GroupByResources](../../../images/img121383.png) | ![GroupByDates](../../../images/img121382.png) |
 
-If a scheduler is provided with the Bar or Ribbon interface, you can specify the type of grouping appointments using the **Group By** [toolbar](../../../../interface-elements-for-desktop/articles/scheduler/scheduler-ui/toolbars.md) or [Ribbon page group](../../../../interface-elements-for-desktop/articles/scheduler/scheduler-ui/ribbon-interface.md).
+If a scheduler is provided with the Bar or Ribbon interface, you can specify the type of grouping appointments using the **Group By** [toolbar](../scheduler-ui/toolbars.md) or [Ribbon page group](../scheduler-ui/ribbon-interface.md).
 
 | Group appointments via Bar interface | Group appointments via Ribbon interface |
 |---|---|
-| ![Scheduler_GroupByToolbar](../../../images/Img16559.png) | ![Scheduler_Ribbon_GroupBy](../../../images/Img16549.png) |
+| ![Scheduler_GroupByToolbar](../../../images/img16559.png) | ![Scheduler_Ribbon_GroupBy](../../../images/img16549.png) |
 
-See also the [Navigate Scheduler Resources](../../../../interface-elements-for-desktop/articles/scheduler/selection-and-navigation/navigate-scheduler-resources.md) topic.
+See also the [Navigate Scheduler Resources](../selection-and-navigation/navigate-scheduler-resources.md) topic.

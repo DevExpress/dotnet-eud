@@ -25,7 +25,7 @@ Do one of the following:
 * Activate a cell editor and press ALT+DOWN ARROW or F4.
 * Click the editor's dropdown button:
 	
-	![EU_XtraEditors_DropDownEdit_DropDownButton](../../images/Img7457.png)
+	![EU_XtraEditors_DropDownEdit_DropDownButton](../../images/img7457.png)
 
 ## Close Cell Editor's Dropdown
 For all editors providing a dropdown, you can close the dropdown by pressing ALT+DOWN ARROW.
@@ -53,4 +53,4 @@ To select the previous value, press CTRL+UP ARROW. To select the next value, pre
 
 To copy, cut, paste, load and save images in image editors, right click the image and select the required command via the context menu:
 
-![EU_XtraEditors_ImageEdit_Menu](../../images/Img7456.png)
+![EU_XtraEditors_ImageEdit_Menu](../../images/img7456.png)

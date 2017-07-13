@@ -6,6 +6,6 @@ If your web browser supports the appropriate document format, it is possible to 
 
 First, choose the required format for a document for export from the list on the report toolbar. The available formats are PDF, XLS, XLSX, RTF, MHT, Text, Image and CSV.
 
-![web_exportFormat](../../../../images/Img7546.png)
+![web_exportFormat](../../../../images/img7546.png)
 
-Then, click the **Export a report and show it in a new window** ![web_buttonSaveShow](../../../../images/Img7542.png) button on the report toolbar.
+Then, click the **Export a report and show it in a new window** ![web_buttonSaveShow](../../../../images/img7542.png) button on the report toolbar.

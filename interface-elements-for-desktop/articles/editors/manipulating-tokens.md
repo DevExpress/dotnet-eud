@@ -3,7 +3,7 @@ title: Manipulating Tokens
 ---
 # Manipulating Tokens
 ## Add a Token
-![EU_XtraEditors_Tokens](../../images/Img127016.png)
+![EU_XtraEditors_Tokens](../../images/img127016.png)
 
 To add a new token, do any of the following.
 * Click an item from the dropdown.
@@ -12,12 +12,12 @@ To add a new token, do any of the following.
 Rotate the wheel button to scroll through items. Press the UP ARROW or DOWN ARROW to navigate the items one by one.
 
 ## Remove a Token
-![Remove Token](../../images/Img127021.png)
+![Remove Token](../../images/img127021.png)
 
-To remove a token, click the **Remove Token**![Remove Token Button](../../images/Img127020.png) button.
+To remove a token, click the **Remove Token**![Remove Token Button](../../images/img127020.png) button.
 
 ## Clipboard Operations
-![Multiselect Tokens](../../images/Img127022.png)
+![Multiselect Tokens](../../images/img127022.png)
 
 To select multiple tokens, click each token you want to select while holding down the CTRL button.
 

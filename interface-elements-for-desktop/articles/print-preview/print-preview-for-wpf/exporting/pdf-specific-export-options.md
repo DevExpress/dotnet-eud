@@ -2,9 +2,9 @@
 title: PDF-Specific Export Options
 ---
 # PDF-Specific Export Options
-When [exporting a document](../../../../../interface-elements-for-desktop/articles/print-preview/print-preview-for-wpf/exporting/exporting.md), you can define the following PDF-specific export options.
+When [exporting a document](exporting.md), you can define the following PDF-specific export options.
 
-![EUD_WpfPrintPreview_PdfExportOptions](../../../../images/Img124157.png)
+![EUD_WpfPrintPreview_PdfExportOptions](../../../../images/img124157.png)
 
 **General Options**
 * **Page range**
@@ -28,7 +28,7 @@ When [exporting a document](../../../../../interface-elements-for-desktop/articl
 
 **Password Security Options**
 
-![EUD_WpfPrintPreview_PdfExportOptions2](../../../../images/Img124158.png)
+![EUD_WpfPrintPreview_PdfExportOptions2](../../../../images/img124158.png)
 
 These options allow you to adjust the security options of the resulting PDF file (e.g. enable open document, editing, printing and copying protection, and specify what changes are allowed).
 

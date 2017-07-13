@@ -14,4 +14,4 @@ To proceed with the search in the backward direction, press CTRL+UP ARROW.
 
 To erase the previously typed characters in the search string, press BACKSPACE.
 
-![IncrementalSearch_anim.gif](../../../images/Img2847.gif)
+![IncrementalSearch_anim.gif](../../../images/img2847.gif)

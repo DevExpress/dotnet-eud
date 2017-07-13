@@ -15,29 +15,29 @@ The following types of Point and Line series are available.
 ## <a name="point"/>Point
 Point series visualize data as a set of individual numeric data points.
 
-![PointSeries](../../../../../images/Img117745.png)
+![PointSeries](../../../../../images/img117745.png)
 
 ## <a name="line"/>Line
 Line series connect numeric data points by straight line segments.
 
-![LineSeries](../../../../../images/Img117746.png)
+![LineSeries](../../../../../images/img117746.png)
 
 ## <a name="stacked-line"/>Stacked Line
 Stacked Line series can be used to show the trend of the contribution for each value.
 
-![StackedLineSeries](../../../../../images/Img117747.png)
+![StackedLineSeries](../../../../../images/img117747.png)
 
 ## <a name="full-stacked-line"/>Full-Stacked Line
 Stacked Line series are useful for showing the trend of the percentage for each value.
 
-![FullStackedLineSeries](../../../../../images/Img117748.png)
+![FullStackedLineSeries](../../../../../images/img117748.png)
 
 ## <a name="step-line"/>Step Line
 Step Line series use vertical and horizontal lines to connect the numeric data points forming a step-like progression.
 
-![StepLineSeries](../../../../../images/Img117749.png)
+![StepLineSeries](../../../../../images/img117749.png)
 
 ## <a name="spline"/>Spline
 Spline series plot a fitted curve through each numeric data point.
 
-![SplineSeries](../../../../../images/Img117750.png)
+![SplineSeries](../../../../../images/img117750.png)

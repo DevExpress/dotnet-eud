@@ -20,7 +20,7 @@ On the **Formulas** tab, in the **Function Library** group, click the button cor
 
 For example, if you wish to add all numbers in the range **E4:E8**, in the **Function Library** group, select the **SUM** function from the **AutoSum** (or **Math &amp; Trig**) button's drop-down list. Type "E4:E8" in the function's parentheses or select the cell range directly in the worksheet, and press **ENTER**.
 
-![EUD_ASPxSpreadsheet_Formulas_InsertFunction](../../../images/Img26285.png)
+![EUD_ASPxSpreadsheet_Formulas_InsertFunction](../../../images/img26285.png)
 
 > If you start the formula with a function, the **Spreadsheet** automatically adds the equal sign to your formula.
 

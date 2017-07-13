@@ -11,7 +11,7 @@ Context menu commands can be hidden or unavailable, based on the current grid se
 ## <a name="grouppanelmenu"/>Group Panel Menu
 To display the group panel menu, right-click a group panel.
 
-![Grid overview 1](../../../images/Img24033.png)
+![Grid overview 1](../../../images/img24033.png)
 
 The table below lists the group panel menu commands.
 
@@ -25,7 +25,7 @@ The table below lists the group panel menu commands.
 ## <a name="column-menu"/>Column Header Menu
 To display the column header menu, right-click the column header.
 
-![Grid overview 2](../../../images/Img24034.png)
+![Grid overview 2](../../../images/img24034.png)
 
 The table below lists the column header menu commands.
 
@@ -52,7 +52,7 @@ The table below lists the column header menu commands.
 ## <a name="row-menu"/>Row Menu
 To display the row menu, right-click a row.
 
-![Grid overview 3](../../../images/Img24035.png)
+![Grid overview 3](../../../images/img24035.png)
 
 The table below lists the row menu commands.
 
@@ -70,7 +70,7 @@ The table below lists the row menu commands.
 ## <a name="footer-menu"/>Footer Menu
 To display the footer menu, right-click a footer.
 
-![Grid overview 4](../../../images/Img24037.png)
+![Grid overview 4](../../../images/img24037.png)
 
 The table below lists the footer menu commands.
 

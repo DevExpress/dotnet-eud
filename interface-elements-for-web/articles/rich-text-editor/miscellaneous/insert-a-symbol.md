@@ -8,9 +8,9 @@ To insert a symbol, do the following.
 1. Point to the position in the document where you want to insert a symbol.
 2. Select the **Insert** tab, and click the **Symbol** button in the **Symbols** group.
 	
-	![EUD_ASPxRichEdit_Insert_InsertSymbol](../../../images/Img117875.png)
+	![EUD_ASPxRichEdit_Insert_InsertSymbol](../../../images/img117875.png)
 	
 	The **Symbol** dialog will be invoked.
 	
-	![EUD_ASPxRichEDit_Insert_SymbolsDialog](../../../images/Img117876.png)
+	![EUD_ASPxRichEDit_Insert_SymbolsDialog](../../../images/img117876.png)
 3. Select the symbol to be inserted and click **OK** or double-click the symbol.

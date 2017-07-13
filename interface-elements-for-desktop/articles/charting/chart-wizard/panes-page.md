@@ -6,7 +6,7 @@ title: Panes Page
 * Customize panes properties.
 
 ## Page Elements
-![ChartWizard_PanesTab](../../../images/Img7754.png)
+![ChartWizard_PanesTab](../../../images/img7754.png)
 
 **Chart preview area**
 

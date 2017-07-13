@@ -10,18 +10,18 @@ The Search Panel allows you to find a location on the map and see the search res
 
 To start a search, type a place name ("Texas", for example) in the panel. The result is shown in the image below.
 
-![BuiltInSearchPanel](../../images/Img22441.png)
+![BuiltInSearchPanel](../../images/img22441.png)
 
-To cancel a request, click the delete (![SearchPanel -CancelSymbol](../../images/Img22560.png)) icon on the right side of the panel.
+To cancel a request, click the delete (![SearchPanel -CancelSymbol](../../images/img22560.png)) icon on the right side of the panel.
 
 Notice that the map pushpin only shows the "Houston, TX" location on the map. Note, however, that the search result also displays the **Show others…** item, which means that the **Microsoft Bing Search** service found alternative results for this request.
 
 Click the  **Show others...** option to see the other search results.
 
-![SearchClickShowOthers](../../images/Img22443.png)
+![SearchClickShowOthers](../../images/img22443.png)
 
 Other search results ("Texas, Heard Co., GA", "Texas, QLD, Australia", etc.) will be displayed along with the **Show best result…** option.
 
-![SearchShowOthers](../../images/Img22442.png)
+![SearchShowOthers](../../images/img22442.png)
 
 To see only "Houston, TX", click **Show best result…** in the Search panel.

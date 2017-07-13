@@ -6,7 +6,7 @@ To select a specific command, you can click it with the mouse or invoke it via i
 
 Shortcuts are associated with each page and command in the Ribbon. To see the shortcuts, press ALT or F10. Shortcuts will appear next to the corresponding tab pages and commands:
 
-![EU_Ribbon_KeyTips](../../images/Img9131.png)
+![EU_Ribbon_KeyTips](../../images/img9131.png)
 
 Shortcuts can be composed of one, two or three symbols. 
 If a shortcut is represented by one symbol, you can invoke the command by pressing this symbol. 
@@ -17,4 +17,4 @@ To access shortcuts for commands within a specific tab page, you need to press t
 
 For example, to display shortcuts for commands within the Home page (see the image above), press **H**:
 
-![EU_Ribbon_KeyTips_for_page](../../images/Img9132.png)
+![EU_Ribbon_KeyTips_for_page](../../images/img9132.png)

@@ -4,7 +4,7 @@ title: Token Box
 # Token Box
 The **Token Box** allows you to select values using a predefined value list.
 
-![Token](../../images/Img22734.png)
+![Token](../../images/img22734.png)
 
 ## How to Add a Token
 You can add a token in the following ways.
@@ -16,8 +16,8 @@ Note that tokens must be unique, so you cannot add the same tokens twice.
 ## How to Remove a Token
 To remove a token, click the **Remove** button.
 
-![Token_RemoveButton](../../images/Img22735.png)
+![Token_RemoveButton](../../images/img22735.png)
 
 You can remove the last token by pressing the **BACKSPACE** key when the **Token Box** is focused. The last token will be displayed as the selected text, and you can remove it by pressing the **DELETE** key.
 
-![Token_Remove](../../images/Img22736.png)
+![Token_Remove](../../images/img22736.png)

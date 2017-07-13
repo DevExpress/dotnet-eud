@@ -7,7 +7,7 @@ In addition to native .snx file format, Snap allows you to export reports into t
 To export a Snap report in a third-party format, do the following.
 1. Click the **Export Document** button on the **File** tab of the Snap application's ribbon toolbar.
 	
-	![Snap-End-User-Export00](../../../images/Img20272.png)
+	![Snap-End-User-Export00](../../../images/img20272.png)
 2. In the invoked **Save As** dialog,  select a directory in which you want to save, specify the name and format of the exported file, and click **Save** to export the report and exit the dialog.
 	
-	![Snap-End-User-Export01](../../../images/Img20273.png)
+	![Snap-End-User-Export01](../../../images/img20273.png)

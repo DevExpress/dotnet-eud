@@ -2,13 +2,13 @@
 title: Coloring
 ---
 # Coloring
-The Bubble Map dashboard item automatically selects palette and scale settings used to color bubbles depending on the [provided](../../../../../../dashboard-for-desktop/articles/dashboard-designer/designing-dashboard-items/geo-point-maps/bubble-map/providing-data.md) values.
+The Bubble Map dashboard item automatically selects palette and scale settings used to color bubbles depending on the [provided](providing-data.md) values.
 
-![BubbleMap_DataItems](../../../../../images/Img23580.png)
+![BubbleMap_DataItems](../../../../../images/img23580.png)
 
 To customize these settings, click the **Options** button next to the **Color** placeholder. This invokes the **Color Scale Options** dialog, which allows you to specify the palette and scale options.
 
-![BubbleMapWin_ColorScaleOptionsDialog](../../../../../images/Img126626.png)
+![BubbleMapWin_ColorScaleOptionsDialog](../../../../../images/img126626.png)
 
 You can specify the following settings in this window.
 * **Color palette** - allows you to specify the start and end color of the palette.

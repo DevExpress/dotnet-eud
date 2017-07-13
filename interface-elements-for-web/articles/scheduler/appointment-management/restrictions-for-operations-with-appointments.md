@@ -17,4 +17,4 @@ Access to several operations may be restricted. You may find that you're not abl
 	
 	When you drag an appointment to relocate it, it may come into conflict with another by sharing the same time interval or resource. If conflicts are forbidden, then an attempt to move the appointment fails, and it is restored to its previous position. This situation is visually indicated as illustrated below:
 	
-	![AppointmentRestrictions_Conflict](../../../images/Img12055.png)
+	![AppointmentRestrictions_Conflict](../../../images/img12055.png)

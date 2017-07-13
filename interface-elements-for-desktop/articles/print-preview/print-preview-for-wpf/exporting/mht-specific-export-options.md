@@ -2,9 +2,9 @@
 title: MHT-Specific Export Options
 ---
 # MHT-Specific Export Options
-When [exporting a document](../../../../../interface-elements-for-desktop/articles/print-preview/print-preview-for-wpf/exporting/exporting.md), you can define the following MHT-specific export options.
+When [exporting a document](exporting.md), you can define the following MHT-specific export options.
 
-![EUD_WpfPrintPreview_MhtExportOptions](../../../../images/Img124160.png)
+![EUD_WpfPrintPreview_MhtExportOptions](../../../../images/img124160.png)
 * **Export mode**
 	
 	Specifies how a document is exported to MHT. The following modes are available.

@@ -7,12 +7,12 @@ The **Spreadsheet** provides the capability to hide worksheets in a workbook. It
 ## Hide Worksheets
 On the **Home** tab, in the **Cells** group, click the **Format** button and select **Hide &amp; Unhide | Hide Sheet**. Note that this command is disabled when a workbook includes only one worksheet.
 
-![EUD_ASPxSpreadsheet_View_HideSheets](../../../images/Img117689.png)
+![EUD_ASPxSpreadsheet_View_HideSheets](../../../images/img117689.png)
 
 ## Display Hidden Worksheets
 1. On the **Home** tab, in the **Cells** group, click the **Format** button and select **Hide &amp; Unhide | Unhide Sheet...**.
 	
-	![EUD_ASPxSpreadsheet_View_UnhideSheets](../../../images/Img117688.png)
+	![EUD_ASPxSpreadsheet_View_UnhideSheets](../../../images/img117688.png)
 2. In the **Unhide** dialog box that is invoked, select the name of the worksheet you want to display and click **OK**.
 	
-	![EUD_ASPxSpreadsheet_View_UnhideSheetsDialog](../../../images/Img117691.png)
+	![EUD_ASPxSpreadsheet_View_UnhideSheetsDialog](../../../images/img117691.png)

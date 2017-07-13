@@ -6,7 +6,7 @@ When a new worksheet is created, the **Spreadsheet** assigns it a generic name, 
 
 To rename a worksheet, double-click its sheet tab on the **Sheet tab** bar to invoke the **Rename Sheet** dialog box, or ...
 
-![RenameWorksheet.png](../../../images/Img21171.png)
+![RenameWorksheet.png](../../../images/img21171.png)
 
 ... right-click the sheet tab of the worksheet and select the **Rename** item from the invoked menu. Rename the worksheet and click **OK**.
 

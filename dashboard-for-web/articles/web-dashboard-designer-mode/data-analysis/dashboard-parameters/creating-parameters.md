@@ -3,10 +3,10 @@ title: Creating Parameters
 ---
 # Creating Parameters
 To create a dashboard parameter in the Web Dashboard, perform the following steps.
-1. Invoke the [Dashboard Menu](../../../../../dashboard-for-web/articles/web-dashboard-designer-mode/ui-elements/dashboard-menu.md) and select **Parameters**.
+1. Invoke the [Dashboard Menu](../../ui-elements/dashboard-menu.md) and select **Parameters**.
 2. In the **Parameter List**, click the **Add New Parameter** button. The following settings will be displayed for the created parameter.
 	
-	![WebDashboard_Parameters_NewParameter](../../../../images/Img126106.png)
+	![WebDashboard_Parameters_NewParameter](../../../../images/img126106.png)
 3. Specify the following parameter's settings.
 	* **Name** - Specifies the parameter name.
 	* **Description** - Specifies the parameter's description. 

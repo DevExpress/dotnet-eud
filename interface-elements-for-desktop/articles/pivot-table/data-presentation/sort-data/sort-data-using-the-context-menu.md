@@ -6,7 +6,7 @@ Depending on the Pivot Table settings made by your application vendor, you may b
 
 If the corresponding functionality is enabled, the context menu invoked when you right-click a field header contains the **Sort A-Z**, **Sort Z-A** and **Clear Sorting** items.
 
-![EU_XtraPivotGrid_OLAPSorting](../../../../images/Img13516.png)
+![EU_XtraPivotGrid_OLAPSorting](../../../../images/img13516.png)
 
 Select **Sort A-Z** to set ascending sort order, and **Sort Z-A** to set descending order.
 

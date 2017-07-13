@@ -6,11 +6,11 @@ A Date Occurring format condition allows you to highlight date-time values that 
 
 To format values according the Date Occurring condition, click the menu button of the required dimension and select **Add Format Rule | A Date Occurring**.
 
-![DateOccurringCondition_Menu](../../../../images/Img118796.png)
+![DateOccurringCondition_Menu](../../../../images/img118796.png)
 
 This invokes the **A Date Occurring** dialog that allows you to select a date-time interval(s) whose value should be formatted.
 
-![DateOccurringFormatCondition](../../../../images/Img118593.png)
+![DateOccurringFormatCondition](../../../../images/img118593.png)
 
 The following intervals are supported.
 * **Is beyond this year** - Dates that follow the current year.

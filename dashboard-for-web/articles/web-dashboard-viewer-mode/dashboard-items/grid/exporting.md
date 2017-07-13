@@ -2,7 +2,7 @@
 title: Exporting
 ---
 # Exporting
-The Web Dashboard allows you to export individual dashboard items, or the entire dashboard. To learn more about exporting concepts common to all dashboard items, see the [Exporting](../../../../../dashboard-for-web/articles/web-dashboard-viewer-mode/exporting.md) topic.
+The Web Dashboard allows you to export individual dashboard items, or the entire dashboard. To learn more about exporting concepts common to all dashboard items, see the [Exporting](../../exporting.md) topic.
 
 This topic describes the specifics of exporting a **Grid** dashboard item.
 * [Export To PDF](#export-to-pdf)
@@ -10,7 +10,7 @@ This topic describes the specifics of exporting a **Grid** dashboard item.
 * [Export To Excel](#export-to-excel)
 
 ## <a name="export-to-pdf"/>Export To PDF
-![ExportToPdfDialog_GridWeb](../../../../images/Img22952.png)
+![ExportToPdfDialog_GridWeb](../../../../images/img22952.png)
 * **File Name** - Specifies the name of the exported PDF file.
 * **Page Layout** - Specifies the page orientation used to export a dashboard item.
 * **Size** - Specifies the standard paper size.
@@ -28,7 +28,7 @@ Specify the required options in this dialog and click the **Export** button to e
 ## <a name="export-to-image"/>Export To Image
 All data-bound dashboard items provide the same set of options when exporting them to an Image format. The following options are available:
 
-![ExportToImageDialog_ChartWeb](../../../../images/Img22926.png)
+![ExportToImageDialog_ChartWeb](../../../../images/img22926.png)
 * **File Name** - Specifies the name of the exported Image file.
 * **Show Title** - Specifies whether or not to apply the dashboard item caption to the exported document title.
 * **Title** - Specifies the title of the exported document.
@@ -42,7 +42,7 @@ Specify the required options in this dialog and click the **Export** button to e
 ## <a name="export-to-excel"/>Export To Excel
 Data visualized within all data-bound dashboard items can be exported to the required Excel format. The following options are available:
 
-![ExportToExcelDialog_Web](../../../../images/Img121026.png)
+![ExportToExcelDialog_Web](../../../../images/img121026.png)
 * **File Name** - Specifies the name of the exported Excel file.
 * **Excel Format** - Specifies the Excel format in which the dashboard item is exported. You can use the XLSX, XLS or CSV formats.
 * **Separator** - Specifies the string used to separate values in the exported CSV document.

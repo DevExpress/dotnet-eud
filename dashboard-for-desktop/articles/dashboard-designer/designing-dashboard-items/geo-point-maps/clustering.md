@@ -6,12 +6,12 @@ When a **Geo Point** map contains a large number of objects (callouts, bubbles o
 
 For instance, the **Geo Point Map** dashboard item combines callouts to bubbles.
 
-![ClusteredCallouts](../../../../images/Img23590.png)
+![ClusteredCallouts](../../../../images/img23590.png)
 
 The **Bubble Map**  and **Pie Map** dashboard items cluster bubbles/pies with other bubbles/pies.
 
-![ClusteringPies](../../../../images/Img23641.png)
+![ClusteringPies](../../../../images/img23641.png)
 
 To enable clustering in the Designer, use the **Enable Clustering** button in the **Data** ribbon tab.
 
-![ClusteringButton_Ribbon](../../../../images/Img23585.png)
+![ClusteringButton_Ribbon](../../../../images/img23585.png)

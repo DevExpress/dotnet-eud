@@ -2,7 +2,7 @@
 title: Printing and Exporting
 ---
 # Printing and Exporting
-**Dashboard** allows you to print/export individual dashboard items, or the entire dashboard. To learn more about printing and exporting concepts common to all dashboard items, see the [Printing and Exporting](../../../../../dashboard-for-desktop/articles/dashboard-viewer/printing-and-exporting.md)
+**Dashboard** allows you to print/export individual dashboard items, or the entire dashboard. To learn more about printing and exporting concepts common to all dashboard items, see the [Printing and Exporting](../../printing-and-exporting.md)
  topic.
 
 This topic describes the specifics of printing/exporting a **Text Box** dashboard item.
@@ -11,9 +11,9 @@ This topic describes the specifics of printing/exporting a **Text Box** dashboar
 * [Export To Image](#export-to-image)
 
 ## <a name="printing"/>Printing
-If you are printing a Text Box dashboard item using the [Print Preview](../../../../../dashboard-for-desktop/articles/dashboard-designer/ui-elements/print-preview.md), you can customize the following options (via the **Options** button) before printing.
+If you are printing a Text Box dashboard item using the [Print Preview](../../../dashboard-designer/ui-elements/print-preview.md), you can customize the following options (via the **Options** button) before printing.
 
-![TextBox_PrintingOptionsDialog](../../../../images/Img22943.png)
+![TextBox_PrintingOptionsDialog](../../../../images/img22943.png)
 * **Show Title** - Specifies whether or not to apply the dashboard item caption to the printed document title.
 * **Title** - Specifies the title of the printed document.
 * **Include | Filters** - Allows you to include master filter values to the printed document.
@@ -23,7 +23,7 @@ If you are printing a Text Box dashboard item using the [Print Preview](../../..
 Specify the required options in the **Options** dialog and click the **Submit** button to apply the changes. To reset changes to the default values, click the **Reset** button.
 
 ## <a name="export-to-pdf"/>Export To PDF
-![TextBox_PDFExportOptionsDialog](../../../../images/Img22944.png)
+![TextBox_PDFExportOptionsDialog](../../../../images/img22944.png)
 * **Page Layout** - Specifies the page orientation used to export a dashboard item.
 * **Size** - Specifies the standard paper size.
 * **Show Title** - Specifies whether or not to apply the Text Box caption to the exported document title.
@@ -35,7 +35,7 @@ Specify the required options in the **Options** dialog and click the **Submit** 
 Specify the required options in this dialog and click the **Export** button to export the Text Box dashboard item. To reset changes to the default values, click the **Reset** button.
 
 ## <a name="export-to-image"/>Export To Image
-![TextBox_ImageExportOptionsDialog](../../../../images/Img22945.png)
+![TextBox_ImageExportOptionsDialog](../../../../images/img22945.png)
 * **Image Format** - Specifies the image format in which the dashboard item is exported.
 * **Show Title** - Specifies whether or not to apply the Text Box caption to the exported document title.
 * **Title** - Specifies the title of the exported document.

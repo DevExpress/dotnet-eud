@@ -4,7 +4,7 @@ title: Printing
 # Printing
 The Web Document Viewer supports pixel perfect document rendering, i.e., displays a report document exactly how it will appear on paper. The printing functionality of this Viewer is based on rendering the report in PDF with special settings and invoking the PDF plug-in's **Print** dialog.
 
-To print the entire document, click the **Print** ![web-designer-main-toolbar-print](../../../images/Img121022.png) button on the Viewer's toolbar. You can also print the currently displayed document page by clicking the **Print Page** ![web-designer-main-toolbar-print-page](../../../images/Img121023.png) button.
+To print the entire document, click the **Print** ![web-designer-main-toolbar-print](../../../images/img121022.png) button on the Viewer's toolbar. You can also print the currently displayed document page by clicking the **Print Page** ![web-designer-main-toolbar-print-page](../../../images/img121023.png) button.
 
 When you click any of these buttons, the Document Viewer tries to use the PDF plug-in of the web browser for printing. Depending on the plug-in detection result, there are two possible scenarios.
 * If the PDF plug-in is installed and enabled, its **Print** dialog is invoked. To print the document, specify the required settings in this dialog and click **Print**.
@@ -12,7 +12,7 @@ When you click any of these buttons, the Document Viewer tries to use the PDF pl
 
 The following image shows the **Print** dialog of the **Adobe Reader&#174;** plug-in.
 
-![EUD_HTML5DV_PrintDialog](../../../images/Img121882.png)
+![EUD_HTML5DV_PrintDialog](../../../images/img121882.png)
 
 To download and install the **Adobe Reader&#174;** plug-in, use the following link: [http://get.adobe.com/reader/](http://get.adobe.com/reader/). No software other than the **Adobe Reader&#174;** should be installed on the machine for printing purposes. After finishing the installation, the plug-in should automatically be enabled in appropriate web browsers. To learn how to manually setup your browser to use this plug-in, refer to the [Display PDF in browser](https://helpx.adobe.com/acrobat/using/display-pdf-in-browser.html) document. For the changes to take effect, you may need to close and reopen your browser.
 

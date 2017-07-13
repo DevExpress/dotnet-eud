@@ -4,15 +4,15 @@ title: Labels
 # Labels
 The Scatter Chart can display **point labels** that contain descriptions for data points, and provide **tooltips** with additional information.
 
-![wdd-scatter-chart-point-label](../../../../images/Img125604.png)
+![wdd-scatter-chart-point-label](../../../../images/img125604.png)
 
-To manage the visibility of point labels, open the Scatter Chart's [Options](../../../../../dashboard-for-web/articles/web-dashboard-designer-mode/ui-elements/dashboard-item-menu.md) menu and go to the **Labels** section. Then, turn the **Show Point Labels** option on.
+To manage the visibility of point labels, open the Scatter Chart's [Options](../../ui-elements/dashboard-item-menu.md) menu and go to the **Labels** section. Then, turn the **Show Point Labels** option on.
 
 Here you can specify the type of content displayed within point labels, configure label overlap mode and set the orientation of point labels.
 
 The following options are available.
 
-![wdd-scatter-chart-labels-option](../../../../images/Img125607.png)
+![wdd-scatter-chart-labels-option](../../../../images/img125607.png)
 
 | Options | Description |
 |---|---|

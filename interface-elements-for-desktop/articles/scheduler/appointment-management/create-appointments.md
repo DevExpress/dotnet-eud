@@ -5,18 +5,18 @@ title: Create Appointments
 ## Context Menu
 The following items are available in the context menu, invoked when you right-click any region of the Scheduler (except for areas covered by appointments).
 
-![CreatingAppointments_01.png](../../../images/Img5492.png)
+![CreatingAppointments_01.png](../../../images/img5492.png)
 1. **New Appointment**
 	
 	Invokes the **Edit Appointment** dialog.
 	
 	The **Start time** and **End time** values are initially set to the lower and upper boundaries of the current date and time selection.
 	
-	![CreatingAppointments_02.png](../../../images/Img5493.png)
+	![CreatingAppointments_02.png](../../../images/img5493.png)
 	
-	Fill in other fields, if necessary. For example, use the large text box at the bottom of the dialog to enter text, which will be shown as an appointment's description in a **Day** or a **Work Week** [views](../../../../interface-elements-for-desktop/articles/scheduler/layout-customization/switch-scheduler-views.md).
+	Fill in other fields, if necessary. For example, use the large text box at the bottom of the dialog to enter text, which will be shown as an appointment's description in a **Day** or a **Work Week** [views](../layout-customization/switch-scheduler-views.md).
 	
-	You can also select the **Reminder** check box to enable appointment notifications (see [Manage Reminders](../../../../interface-elements-for-desktop/articles/scheduler/appointment-management/manage-reminders.md)).
+	You can also select the **Reminder** check box to enable appointment notifications (see [Manage Reminders](manage-reminders.md)).
 2. **New All Day Event**
 	
 	Invokes the **Edit Event** dialog, which is used to create a new all-day appointment (also called 'all-day event'). The dialog is identical to **Edit Appointment** (shown above), except that in this case, the **All day event** option is checked, its time range is measured in days (not hours) and marked as **Free**. The appointment can be transformed into an all-day event and vice-versa by checking this box.
@@ -26,17 +26,17 @@ The following items are available in the context menu, invoked when you right-cl
 	
 	Selecting this menu item invokes the **Edit Appointment** dialog, used to create a new appointment, and also invokes the **Appointment Recurrence** dialog, which allows the recurrence pattern to be specified for the new appointment.
 	
-	![RecurrenceDialog.png](../../../images/Img4767.png)
+	![RecurrenceDialog.png](../../../images/img4767.png)
 4. **New Recurring Event**
 	
 	Selecting this menu item invokes the **Event** editor dialog used to create a new all-day appointment, and also invokes the **Appointment Recurrence** dialog, which allows the recurrence pattern to be specified for the new event.
 
 ## Bar or Ribbon Interface
-If a scheduler is provided with the Bar or Ribbon interface, you can create new appointments (simple and recurring) using the **New Appointment** and **New Recurring Appointment** buttons on the **Appointment** [toolbar](../../../../interface-elements-for-desktop/articles/scheduler/scheduler-ui/toolbars.md) or [Ribbon page group](../../../../interface-elements-for-desktop/articles/scheduler/scheduler-ui/ribbon-interface.md). These buttons invoke the **Edit Appointment** and **Appointment Recurrence** dialogs respectively.
+If a scheduler is provided with the Bar or Ribbon interface, you can create new appointments (simple and recurring) using the **New Appointment** and **New Recurring Appointment** buttons on the **Appointment** [toolbar](../scheduler-ui/toolbars.md) or [Ribbon page group](../scheduler-ui/ribbon-interface.md). These buttons invoke the **Edit Appointment** and **Appointment Recurrence** dialogs respectively.
 
 | Create a new appointment via Bar interface | Create a new appointment via Ribbon interface |
 |---|---|
-| ![Scheduler_AppointmentToolbar](../../../images/Img16556.png) | ![Scheduler_Ribbon_Appointment](../../../images/Img16546.png) |
+| ![Scheduler_AppointmentToolbar](../../../images/img16556.png) | ![Scheduler_Ribbon_Appointment](../../../images/img16546.png) |
 
 ## Keyboard Shortcuts and Mouse Operations
 | Action | Description |

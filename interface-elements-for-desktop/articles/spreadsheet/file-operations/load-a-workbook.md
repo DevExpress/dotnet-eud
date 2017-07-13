@@ -4,11 +4,11 @@ title: Load a Workbook
 # Load a Workbook
 To load a workbook, select the **File** tab, and click the **Open** button in the **Common** group (or press **CTRL+O**).
 
-![LoadWorkbook.png](../../../images/Img21118.png)
+![LoadWorkbook.png](../../../images/img21118.png)
 
 In the invoked **Open** dialog box, select the file you wish to open.
 
-![OpenDialog.png](../../../images/Img21119.png)
+![OpenDialog.png](../../../images/img21119.png)
 
 The **Spreadsheet** supports the following file formats.
 * Excel Workbook (*.xlsx)
