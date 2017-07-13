@@ -17,4 +17,4 @@ Access to several operations may be restricted. You may find that you're not abl
 	
 	When you drag an appointment to relocate it, it may conflict with another. This situation is visually indicated as illustrated below:
 	
-	![Conflict](../../../images/Img7975.png)
+	![Conflict](../../../images/img7975.png)

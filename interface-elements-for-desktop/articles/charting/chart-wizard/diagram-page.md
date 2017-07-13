@@ -11,7 +11,7 @@ title: Diagram Page
 * Enable or disable a diagram's scrolling and zooming.
 
 ## Page Elements
-![ChartWizard_DiagramTab](../../../images/Img7233.png)
+![ChartWizard_DiagramTab](../../../images/img7233.png)
 
 **Chart preview area**
 

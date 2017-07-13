@@ -5,22 +5,22 @@ title: Copy and Paste Cell Content
 The **Spreadsheet** allows you to copy and paste entire cells, or only their contents, using the Clipboard.
 
 To move or copy cell content, follow the steps below.
-1. [Select](../../../../interface-elements-for-desktop/articles/spreadsheet/editing-cells/select-cells-or-cell-content.md) the cells that you wish to move or copy.
+1. [Select](select-cells-or-cell-content.md) the cells that you wish to move or copy.
 2. In the **Clipboard** group within the **Home** tab, do one of the following.
 	* To move the selected cells, click the **Cut** button (or press **CTRL+X** or **SHIFT+DELETE**).
 		
-		![CutCommand.png](../../../images/Img21133.png)
+		![CutCommand.png](../../../images/img21133.png)
 	* To copy the selected cells, click the **Copy** button (or press **CTRL+C** or **CTRL+INSERT**).
 		
-		![CopyCommand.png](../../../images/Img21132.png)
+		![CopyCommand.png](../../../images/img21132.png)
 3. Click the upper-left cell in the area where you wish to paste the copied cells.
 4. In the **Clipboard** group within the **Home** tab , click the **Paste** button (or press **CTRL+V** or **SHIFT+INSERT**).
 	
-	![PasteCommand.png](../../../images/Img21134.png)
+	![PasteCommand.png](../../../images/img21134.png)
 	
 	To choose special options when you paste cells, in the **Clipboard** group within the **Home** tab, click the **Paste Special** button (or press **CTRL+ALT+V**).
 	
-	![PasteSpecialCommand.png](../../../images/Img21135.png)
+	![PasteSpecialCommand.png](../../../images/img21135.png)
 	
 	In the invoked **Paste Special** dialog box, select one of the following options.
 	* **All** - paste all cell content and formatting.

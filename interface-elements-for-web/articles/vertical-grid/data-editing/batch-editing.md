@@ -12,8 +12,8 @@ To navigate through grid cells during batch editing, use **TAB** and **SHIFT+TAB
 
 The cells that were modified are highlighted in a different color. To save all changes, click the **Save changes** button. To cancel all changes, click the **Cancel changes** button.
 
-![EUD-ASPxVerticalGrid-BatchEditing](../../../images/Img127003.png)
+![EUD-ASPxVerticalGrid-BatchEditing](../../../images/img127003.png)
 
 If the **Vertical Grid** contains unsaved data, a confirmation message is displayed before the data is lost (e.g., when sorting data, changing the page or closing a web page). You can choose whether to proceed and lose changes or cancel the action.
 
-![Grid_BatchMessage](../../../images/Img22760.png)
+![Grid_BatchMessage](../../../images/img22760.png)

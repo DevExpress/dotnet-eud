@@ -2,9 +2,9 @@
 title: HTML-Specific Export Options
 ---
 # HTML-Specific Export Options
-When [exporting a document](../../../../../interface-elements-for-desktop/articles/print-preview/print-preview-for-winforms/exporting/exporting-from-print-preview.md), you can define HTML-specific exporting options using the following dialog.
+When [exporting a document](exporting-from-print-preview.md), you can define HTML-specific exporting options using the following dialog.
 
-![previewExportOptionsHTM](../../../../images/Img7334.png)
+![previewExportOptionsHTM](../../../../images/img7334.png)
 * **Export Mode**
 	
 	Specifies how a document is exported to HTML. The following modes are available.

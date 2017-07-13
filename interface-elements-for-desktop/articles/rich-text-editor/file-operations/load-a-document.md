@@ -4,11 +4,11 @@ title: Load a Document
 # Load a Document
 To load a document, on the **File** tab, in the **Common** group, click the **Open** button, or use the **CTRL+O** keyboard shortcut.
 
-![RTELoadDocument](../../../images/Img121246.png)
+![RTELoadDocument](../../../images/img121246.png)
 
 The **Open** dialog appears, allowing you to select a file.
 
-![RTEOpendialog](../../../images/Img121247.png)
+![RTEOpendialog](../../../images/img121247.png)
 
 The **Rich Editor** enables you to open documents of the following types:
 * Rich Text Format (*.rtf)

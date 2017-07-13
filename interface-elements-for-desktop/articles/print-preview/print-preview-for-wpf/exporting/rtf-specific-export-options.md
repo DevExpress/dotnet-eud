@@ -2,9 +2,9 @@
 title: RTF-Specific Export Options
 ---
 # RTF-Specific Export Options
-When [exporting a document](../../../../../interface-elements-for-desktop/articles/print-preview/print-preview-for-wpf/exporting/exporting.md), you can define the following RTF-specific exporting options.
+When [exporting a document](exporting.md), you can define the following RTF-specific exporting options.
 
-![EUD_WpfPrintPreview_RtfExportOptions](../../../../images/Img124161.png)
+![EUD_WpfPrintPreview_RtfExportOptions](../../../../images/img124161.png)
 * **Export mode**
 	
 	Specifies how a document is exported to RTF. The following modes are available.

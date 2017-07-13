@@ -7,10 +7,10 @@ The **Spreadsheet** provides the capability to save a workbook as a text file (.
 ####Save a Workbook as a Text File
 1. To save a workbook as a text file, go to the **File** tab, and in the **Common** group, click the **Save As** button.
 	
-	![EUD_ASPxSpreadsheet_SaveAsWorkbook](../../../images/Img25925.png)
+	![EUD_ASPxSpreadsheet_SaveAsWorkbook](../../../images/img25925.png)
 2. In the **Save Spreadsheet File As** dialog box that is invoked, select the **Text (Tab-delimited)** or **CSV (Comma-delimited)** item from the **File type** drop-down list.
 	
-	![EUD_ASPxSpreadsheet_File_FileType](../../../images/Img117634.png)
+	![EUD_ASPxSpreadsheet_File_FileType](../../../images/img117634.png)
 
 The main features of the tab-delimited and comma-delimited file formats are described below.
 * **Tab-delimited text files**

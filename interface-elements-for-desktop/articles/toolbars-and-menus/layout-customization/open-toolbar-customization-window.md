@@ -10,17 +10,17 @@ Opening the Customization window activates the customization mode where you can:
 To open the Customization window, do one of the following:
 * Right-click any bar or the empty space, and select **Customize...**
 	
-	![EU_XtraBars_Bar_Menu](../../../images/Img7711.png)
+	![EU_XtraBars_Bar_Menu](../../../images/img7711.png)
 * Click the dropdown button displayed at the right edge of any bar. Then select **Add or Remove Buttons** and then **Customize...**
 	
-	![EU_XtraBars_Bar_DropdownButton_Menu](../../../images/Img7712.png)
+	![EU_XtraBars_Bar_DropdownButton_Menu](../../../images/img7712.png)
 * Double-click the empty space, not occupied by any bar.
 	
-	![EU_XtraBars_EmptySpace](../../../images/Img7715.png)
+	![EU_XtraBars_EmptySpace](../../../images/img7715.png)
 
 The Customization window will be opened, containing three tabs:
 
-![EU_XtraBars_CustomizationWindow](../../../images/Img7713.png)
+![EU_XtraBars_CustomizationWindow](../../../images/img7713.png)
 
 The **Toolbars** tab allows you to hide specific bars and display hidden ones.
 

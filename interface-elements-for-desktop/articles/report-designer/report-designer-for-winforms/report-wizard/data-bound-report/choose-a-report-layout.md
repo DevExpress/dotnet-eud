@@ -8,10 +8,10 @@ Additionally, this page allows you to specify the page orientation for your repo
 
 The following options are available if data grouping has been applied.
 
-![RD_ReportWizard_Standard_7](../../../../../images/Img8325.png)
+![RD_ReportWizard_Standard_7](../../../../../images/img8325.png)
 
 If data has not been grouped, you will see the following report layout options.
 
-![Reports-WizardLayoutNoGrouping](../../../../../images/Img9143.png)
+![Reports-WizardLayoutNoGrouping](../../../../../images/img9143.png)
 
-If you want to customize your report further, click **Next** to proceed to the next page: [Choose a Report Style](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-wizard/data-bound-report/choose-a-report-style.md). Otherwise, click **Finish** to complete report customization.
+If you want to customize your report further, click **Next** to proceed to the next page: [Choose a Report Style](choose-a-report-style.md). Otherwise, click **Finish** to complete report customization.

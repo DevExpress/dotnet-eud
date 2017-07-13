@@ -2,9 +2,9 @@
 title: RTF-Specific Export Options
 ---
 # RTF-Specific Export Options
-When [exporting a document](../../../../../interface-elements-for-desktop/articles/print-preview/print-preview-for-winforms/exporting/exporting-from-print-preview.md), you can define RTF-specific export options using the following dialog.
+When [exporting a document](exporting-from-print-preview.md), you can define RTF-specific export options using the following dialog.
 
-![previewExportOptionsRTF](../../../../images/Img7336.png)
+![previewExportOptionsRTF](../../../../images/img7336.png)
 * **Export mode**
 	
 	Specifies how a document is exported to RTF. The following modes are available.

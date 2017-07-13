@@ -2,7 +2,7 @@
 title: Providing Data
 ---
 # Providing Data
-The Dashboard Designer allows you to bind various dashboard items to data in a virtually uniform manner. To learn more, see the [Binding Dashboard Items to Data](../../../../../dashboard-for-desktop/articles/dashboard-designer/binding-dashboard-items-to-data.md) topic.
+The Dashboard Designer allows you to bind various dashboard items to data in a virtually uniform manner. To learn more, see the [Binding Dashboard Items to Data](../../binding-dashboard-items-to-data.md) topic.
 
 The only difference is in the data sections that the required dashboard item has. This topic describes how to bind a **Pivot** dashboard item to data in the Designer.
 * [Binding to Data in the Designer](#bindingdesigner)
@@ -11,7 +11,7 @@ The only difference is in the data sections that the required dashboard item has
 ## <a name="bindingdesigner"/>Binding to Data in the Designer
 The image below shows a sample Pivot dashboard item that is bound to data.
 
-![PivotProvidingData_Main](../../../../images/Img117704.png)
+![PivotProvidingData_Main](../../../../images/img117704.png)
 
 To bind the Pivot dashboard item to data, drag and drop a data source field to a placeholder contained in one of the available data sections. A table below lists and describes a Pivot's data sections.
 
@@ -24,8 +24,8 @@ To bind the Pivot dashboard item to data, drag and drop a data source field to a
 ## <a name="transposing"/>Transposing Columns and Rows
 The **Pivot** dashboard item provides the capability to transpose pivot columns and rows. In this case, data items contained in the Columns section are moved to the Rows section and vice versa.
 
-![Pivot_Transpose](../../../../images/Img126591.png)
+![Pivot_Transpose](../../../../images/img126591.png)
 
 To transpose the selected Pivot dashboard item, use the **Transpose** button in the **Home** ribbon tab.
 
-![TransposeButton_Ribbon](../../../../images/Img23683.png)
+![TransposeButton_Ribbon](../../../../images/img23683.png)

@@ -9,14 +9,14 @@ You can use the **Geo Point** dashboard item as a filter for other dashboard ite
 
 The Geo Point Map dashboard item supports filtering by callout/bubble/pie. When Master Filtering is enabled, you can click a callout/bubble/pie (or multiple callouts/bubbles/pies) to make other dashboard items only display data related to the selected callout(s)/bubble(s)/pie(s).
 
-![wdd-geo-point-master-filtering](../../../../images/Img125454.png)
+![wdd-geo-point-master-filtering](../../../../images/img125454.png)
 
 > When you select a clustered bubble or pie, master filtering is applied by all points that are clustered into this bubble/pie.
 
-To learn more about filtering concepts common to all dashboard items, see the [Master Filtering](../../../../../dashboard-for-web/articles/web-dashboard-designer-mode/interactivity/master-filtering.md) topic.
+To learn more about filtering concepts common to all dashboard items, see the [Master Filtering](../../interactivity/master-filtering.md) topic.
 
-To enable **Master Filtering**, go to the Map's [Interactivity](../../../../../dashboard-for-web/articles/web-dashboard-designer-mode/ui-elements/dashboard-item-menu.md) menu and select the required Master Filtering mode.
+To enable **Master Filtering**, go to the Map's [Interactivity](../../ui-elements/dashboard-item-menu.md) menu and select the required Master Filtering mode.
 
-![wdd-interactivity-section-without-drill-down](../../../../images/Img125455.png)
+![wdd-interactivity-section-without-drill-down](../../../../images/img125455.png)
 
-To reset filtering, use the **Clear Master Filter** button (the ![wdd-master-filtering-icon](../../../../images/Img125072.png) icon) in the Map's [caption](../../../../../dashboard-for-web/articles/web-dashboard-designer-mode/dashboard-layout/dashboard-item-caption.md).
+To reset filtering, use the **Clear Master Filter** button (the ![wdd-master-filtering-icon](../../../../images/img125072.png) icon) in the Map's [caption](../../dashboard-layout/dashboard-item-caption.md).

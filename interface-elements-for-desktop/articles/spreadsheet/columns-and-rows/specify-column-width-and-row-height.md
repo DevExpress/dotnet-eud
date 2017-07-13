@@ -11,23 +11,23 @@ To change the column width, do one of the following.
 	
 	Type the required width value in the invoked **Column Width** dialog.
 	
-	![Spreadsheet_ColumnWidthDialog](../../../images/Img121224.png)
+	![Spreadsheet_ColumnWidthDialog](../../../images/img121224.png)
 3. To change the column width to automatically fit the contents, select the column and do one of the following.
 	* On the **Home** tab in the **Cells** group, click the **Format** button and select the **AutoFit Column Width** item from the drop-down list.
 		
-		![AutoFitColumnWidth.png](../../../images/Img21248.png)
+		![AutoFitColumnWidth.png](../../../images/img21248.png)
 	* Double-click the right boundary of the selected column.
 4. To match one column’s width to another column, do the following.
 	* Select the column whose width you want to copy.
 	* On the **Home** tab, in the **Clipboard** group, click the **Copy** button or press CTRL+C.
 	* Click the cell in the column that is to be resized, and then click the **Paste Special** button in the **Clipboard** group. In the **Paste Special** dialog box that is invoked, select the **Column widths** item.
 		
-		![PasteSpecialColumnWidths.png](../../../images/Img21250.png)
+		![PasteSpecialColumnWidths.png](../../../images/img21250.png)
 5. To change the default width for all columns in a worksheet, on the **Home** tab in the **Cells** group, click the **Format** button and select the **Default Width...** item from the drop-down list.
 	
 	In the invoked **Standard Width** dialog, type a new number for the default column width.
 	
-	![Spreadsheet_StandardWidthDialog](../../../images/Img121230.png)
+	![Spreadsheet_StandardWidthDialog](../../../images/img121230.png)
 
 ## Set the row height
 In the **Spreadsheet**, the row height should be between 0 and 409 points. The default row height is 12.75 points. If you set the row height to 0, the row is hidden.
@@ -38,9 +38,9 @@ To change the row height, do one of the following.
 	
 	Type the required height value in the invoked **Row Height** dialog.
 	
-	![Spreadsheet_RowHeightDialog](../../../images/Img121226.png)
+	![Spreadsheet_RowHeightDialog](../../../images/img121226.png)
 3. To change the row height to automatically fit the contents, select the row and do one of the following.
 	* On the **Home** tab in the **Cells** group, click the **Format** button and select the **AutoFit Row Height** item from the drop-down list.
 		
-		![AutoFitRowHeight.png](../../../images/Img21249.png)
+		![AutoFitRowHeight.png](../../../images/img21249.png)
 	* Double-click the lower boundary of the selected row.

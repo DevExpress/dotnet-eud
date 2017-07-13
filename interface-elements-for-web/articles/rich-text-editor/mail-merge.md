@@ -6,7 +6,7 @@ Document fields are special placeholders for non-static data that might change (
 
 To insert a field, position the mouse cursor within a document and select the **Create Field** button in the **Mail Merge** tab (or use the **Ctrl+F9** shortcut). Field codes appear between curly brackets ( { } ).
 
-![EUD_ASPxRichEdit_MailMerge_CreateField](../../images/Img118711.png)
+![EUD_ASPxRichEdit_MailMerge_CreateField](../../images/img118711.png)
 
 The following field codes are supported:
 

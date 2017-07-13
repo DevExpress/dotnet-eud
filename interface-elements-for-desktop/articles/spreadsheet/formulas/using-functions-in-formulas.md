@@ -21,19 +21,19 @@ If you do not remember the name of the function you want to use, you can insert 
 	
 	For example, if you wish to add all numbers in the range **E4:E8**, in the **Function Library** group, select the **SUM** function from the **AutoSum** (or **Math &amp; Trig**) button's drop-down list. Type "E4:E8" in the function's parentheses, or select the cell range directly in the worksheet, and press **ENTER**.
 	
-	![Spreadsheet_AutoSumExample](../../../images/Img25719.png)
+	![Spreadsheet_AutoSumExample](../../../images/img25719.png)
 * **Using the **Insert Function** dialog**
 	1. To invoke the **Insert Function** dialog, click the **Insert Function** button on the **Formula Bar**, or press **SHIFT**+**F3**.
 		
-		![Spreadsheet_InsertFunctionButton](../../../images/Img25714.png)
+		![Spreadsheet_InsertFunctionButton](../../../images/img25714.png)
 	2. At the top of the dialog, select a category to which the desired function belongs, and then select this function in the sorted list below. Note that at the bottom of the dialog, the selected function's syntax and description are shown. Click **OK**.
 		
-		![Spreadsheet_InsertFunctionDialog](../../../images/Img25715.png)
+		![Spreadsheet_InsertFunctionDialog](../../../images/img25715.png)
 	3. In the invoked **Function Arguments** dialog, enter the required function's arguments (that are marked in bold font) in the corresponding editors. A function argument can be a data value, cell reference, defined name, another [function](#nestedfunction), etc.
 		
-		If your function uses a cell reference as an argument, you can select the desired cell range directly in the worksheet. To do this, click the **Collapse Dialog** button (![SpreadsheetControl_FunctionArgumentsDialog_CollapseDialogButton](../../../images/Img23559.png)) to the right of the argument editor (to minimize the dialog and access the worksheet), select the appropriate cell range, and then click the **Expand Dialog** button (![SpreadsheetControl_FunctionArgumentsDialog_ExpandDialogButton](../../../images/Img23560.png)) to restore the dialog's initial state and continue specifying other function arguments.
+		If your function uses a cell reference as an argument, you can select the desired cell range directly in the worksheet. To do this, click the **Collapse Dialog** button (![SpreadsheetControl_FunctionArgumentsDialog_CollapseDialogButton](../../../images/img23559.png)) to the right of the argument editor (to minimize the dialog and access the worksheet), select the appropriate cell range, and then click the **Expand Dialog** button (![SpreadsheetControl_FunctionArgumentsDialog_ExpandDialogButton](../../../images/img23560.png)) to restore the dialog's initial state and continue specifying other function arguments.
 		
-		![Spreadsheet_FunctionArgumentsDialog](../../../images/Img25720.png)
+		![Spreadsheet_FunctionArgumentsDialog](../../../images/img25720.png)
 		
 		After all the function's arguments are specified, click **OK** to finish building your formula and see the calculated result in the cell.
 

@@ -4,7 +4,7 @@ title: X-Axis
 # X-Axis
 The **X-axis** is the axis of arguments.
 
-![Chart_XAxis](../../../../../images/Img19404.png)
+![Chart_XAxis](../../../../../images/img19404.png)
 
 This topic consists of the following sections.
 * [General X-Axis Settings](#generalsettings)
@@ -13,11 +13,11 @@ This topic consists of the following sections.
 ## <a name="generalsettings"/>General X-Axis Settings
 To access X-axis settings, use the **X-Axis Settings** button in the **Diagram** section of the **Design** Ribbon tab.
 
-![Chart_XAxisOptions_Button](../../../../../images/Img19467.png)
+![Chart_XAxisOptions_Button](../../../../../images/img19467.png)
 
 This will invoke the **X-Axis Settings** dialog.
 
-![Chart_XAxisOptions_Form](../../../../../images/Img19403.png)
+![Chart_XAxisOptions_Form](../../../../../images/img19403.png)
 
 This dialog contains the following settings.
 
@@ -35,10 +35,10 @@ If the dimension in the Arguments section contains numeric data, the Chart can c
 | Continuous X-axis | Discrete X-axis |
 |---|---|
 | If a continuous axis is used, the distance between argument values is proportional to their values. | On a discrete axis, all argument values are an equal distance from each other. |
-| ![Chart_NumericAxis_Continuous](../../../../../images/Img18302.png) | ![Chart_NumericAxis_Discrete](../../../../../images/Img18303.png) |
+| ![Chart_NumericAxis_Continuous](../../../../../images/img18302.png) | ![Chart_NumericAxis_Discrete](../../../../../images/img18303.png) |
 
 To specify the X-axis type in the Designer, invoke the data item menu for the argument dimension and select the axis type.
 
-![Chart_Layout_XAxis_ContinuousDiscrete](../../../../../images/Img19550.png)
+![Chart_Layout_XAxis_ContinuousDiscrete](../../../../../images/img19550.png)
 
-> Note that the continuous X-axis is not supported in [OLAP](../../../../../../dashboard-for-desktop/articles/dashboard-designer/binding-dashboard-items-to-data/binding-dashboard-items-to-data-in-olap-mode.md) mode.
+> Note that the continuous X-axis is not supported in [OLAP](../../../binding-dashboard-items-to-data/binding-dashboard-items-to-data-in-olap-mode.md) mode.

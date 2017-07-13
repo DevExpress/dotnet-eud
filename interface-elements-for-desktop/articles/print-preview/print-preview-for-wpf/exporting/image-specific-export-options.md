@@ -2,9 +2,9 @@
 title: Image-Specific Export Options
 ---
 # Image-Specific Export Options
-When [exporting a document](../../../../../interface-elements-for-desktop/articles/print-preview/print-preview-for-wpf/exporting/exporting.md), you can define the following Image-specific exporting options.
+When [exporting a document](exporting.md), you can define the following Image-specific exporting options.
 
-![EUD_WpfPrintPreview_ImageExportOptions](../../../../images/Img124166.png)
+![EUD_WpfPrintPreview_ImageExportOptions](../../../../images/img124166.png)
 * **Image format**
 	
 	Specifies an image format to export a document. Available formats are BMP, EMF, WMF, GIF, JPEG, PNG, and TIFF.

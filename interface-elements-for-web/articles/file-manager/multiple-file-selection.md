@@ -4,7 +4,7 @@ title: Multiple File Selection
 # Multiple File Selection
 **File Manager** allows you to choose multiple files and perform actions on them simultaneously.
 
-![EUD_FileManager_multiselect](../../images/Img22649.png)
+![EUD_FileManager_multiselect](../../images/img22649.png)
 
 You can select multiple files by doing one of the following.
 * Use the **ARROW** keys to move focus and the **SPACE** key to mark a focused file as either selected or unselected.

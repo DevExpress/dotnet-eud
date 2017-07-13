@@ -2,9 +2,9 @@
 title: CSV-Specific Export Options
 ---
 # CSV-Specific Export Options
-When [exporting a document](../../../../../interface-elements-for-desktop/articles/print-preview/print-preview-for-wpf/exporting/exporting.md), you can define the following CSV-specific exporting options.
+When [exporting a document](exporting.md), you can define the following CSV-specific exporting options.
 
-![EUD_WpfPrintPreview_CsvExportOptions](../../../../images/Img124164.png)
+![EUD_WpfPrintPreview_CsvExportOptions](../../../../images/img124164.png)
 * **Encoding**
 	
 	Specifies the encoding used in the exported document.

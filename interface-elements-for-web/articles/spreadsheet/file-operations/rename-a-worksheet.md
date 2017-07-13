@@ -6,11 +6,11 @@ When a new worksheet is created, the **Spreadsheet** assigns it a generic name, 
 
 To rename a worksheet, go to the **Home** tab, and then in the **Cells** group, click the **Format** button and select the **Rename Sheet** item from the drop-down list.
 
-![EUD_ASPxSpreadsheet_RenameWorksheet](../../../images/Img26107.png)
+![EUD_ASPxSpreadsheet_RenameWorksheet](../../../images/img26107.png)
 
 Rename the worksheet and click **OK** within the invoked dialog box.
 
-![EUD_ASPxSpreadsheet_RenameWorksheetDialog](../../../images/Img26108.png)
+![EUD_ASPxSpreadsheet_RenameWorksheetDialog](../../../images/img26108.png)
 
 The **Spreadsheet** sets the following rules for a valid worksheet name.
 * The maximum length of a worksheet name is 31 characters.

@@ -7,7 +7,7 @@ Do one of the following:
 * Focus the editor and press ALT+DOWN ARROW or F4.
 * Click the editor's dropdown button:
 	
-	![EU_XtraEditors_DropDownEdit_DropDownButton](../../images/Img7457.png)
+	![EU_XtraEditors_DropDownEdit_DropDownButton](../../images/img7457.png)
 
 ## Close Editor's Dropdown
 For all editors providing a dropdown, you can close the dropdown by pressing ALT+DOWN ARROW, ESC or F4. 

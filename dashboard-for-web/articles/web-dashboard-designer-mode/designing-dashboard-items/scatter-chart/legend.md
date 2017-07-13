@@ -4,11 +4,11 @@ title: Legend
 # Legend
 A legend is an element of a scatter chart that identifies chart points (for instance, colored points corresponding to argument values).
 
-![wdd-scatter-chart-legend](../../../../images/Img125606.png)
+![wdd-scatter-chart-legend](../../../../images/img125606.png)
 
-To customize legend options, go to the Scatter Chart's [Options](../../../../../dashboard-for-web/articles/web-dashboard-designer-mode/ui-elements/dashboard-item-menu.md) menu and open the **Legend** section.
+To customize legend options, go to the Scatter Chart's [Options](../../ui-elements/dashboard-item-menu.md) menu and open the **Legend** section.
 
-![wdd-scatter-chart-legend-options](../../../../images/Img125601.png)
+![wdd-scatter-chart-legend-options](../../../../images/img125601.png)
 
 The following settings are available.
 

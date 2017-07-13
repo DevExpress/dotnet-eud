@@ -4,4 +4,4 @@ title: Access Control
 # Access Control
 If a folder is displayed with a lock, it means that all file/folder modifications and file uploads to this folder are prohibited.
 
-![EUD_FileManager_access](../../images/Img22650.png)
+![EUD_FileManager_access](../../images/img22650.png)

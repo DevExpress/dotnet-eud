@@ -6,13 +6,13 @@ The **Rich Text Editor** allows you to insert symbols that are not on your keybo
 
 To insert a symbol, do the following:
 1. Point to the position within the document where you want to insert a symbol.
-2. On the **Insert** [tab](../../../../interface-elements-for-desktop/articles/rich-text-editor/text-editor-ui/ribbon-interface.md), in the **Symbol** group, click the **Symbol** button.
+2. On the **Insert** [tab](../text-editor-ui/ribbon-interface.md), in the **Symbol** group, click the **Symbol** button.
 	
-	![RTEINsertSymbol](../../../images/Img121252.png)
+	![RTEINsertSymbol](../../../images/img121252.png)
 	
 	The **Symbol** dialog will be invoked.
 	
-	![RTEInsertSymbolMenu](../../../images/Img121253.png)
+	![RTEInsertSymbolMenu](../../../images/img121253.png)
 3. Select the symbol to be inserted and click **OK**, or double-click the symbol.
 
 In addition, some symbols can be inserted in the document using default keyboard shortcuts:

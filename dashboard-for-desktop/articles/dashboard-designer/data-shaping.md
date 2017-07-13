@@ -6,14 +6,14 @@ This section describes how to perform various data shaping operations (such as g
 
 The section contains the following topics.
 
-![DataRepresentation_Summ](../../images/Img11185.png)&nbsp;[Summarization](../../../dashboard-for-desktop/articles/dashboard-designer/data-shaping/summarization.md)
+![DataRepresentation_Summ](../../images/img11185.png)&nbsp;[Summarization](data-shaping/summarization.md)
 
-![DataRepresentation_Group](../../images/Img11184.png)&nbsp;[Grouping](../../../dashboard-for-desktop/articles/dashboard-designer/data-shaping/grouping.md)
+![DataRepresentation_Group](../../images/img11184.png)&nbsp;[Grouping](data-shaping/grouping.md)
 
-![DataRepresentation_Sort](../../images/Img11187.png)&nbsp;[Sorting](../../../dashboard-for-desktop/articles/dashboard-designer/data-shaping/sorting.md)
+![DataRepresentation_Sort](../../images/img11187.png)&nbsp;[Sorting](data-shaping/sorting.md)
 
-![DataRepresentation_Filter](../../images/Img11183.png)&nbsp;[Filtering](../../../dashboard-for-desktop/articles/dashboard-designer/data-shaping/filtering.md)
+![DataRepresentation_Filter](../../images/img11183.png)&nbsp;[Filtering](data-shaping/filtering.md)
 
-![DataRepresentation_TopN](../../images/Img11305.png)&nbsp;[Top N](../../../dashboard-for-desktop/articles/dashboard-designer/data-shaping/top-n.md)
+![DataRepresentation_TopN](../../images/img11305.png)&nbsp;[Top N](data-shaping/top-n.md)
 
-![DataRepresentation_Format](../../images/Img11186.png)&nbsp;[Formatting Data](../../../dashboard-for-desktop/articles/dashboard-designer/data-shaping/formatting-data.md)
+![DataRepresentation_Format](../../images/img11186.png)&nbsp;[Formatting Data](data-shaping/formatting-data.md)

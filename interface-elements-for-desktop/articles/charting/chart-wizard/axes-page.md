@@ -9,7 +9,7 @@ title: Axes Page
 * Enable automatic and manual scale breaks.
 
 ## Page Elements
-![ChartWizard_AxesPage](../../../images/Img7234.png)
+![ChartWizard_AxesPage](../../../images/img7234.png)
 
 **Chart preview area**
 

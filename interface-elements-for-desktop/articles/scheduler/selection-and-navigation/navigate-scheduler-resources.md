@@ -8,4 +8,4 @@ The **Resource Navigator** control is composed of a scrollbar and a set of butto
 
 The mode of operation is rather straightforward - you can click the buttons to move back and forth through the list of resources; one by one, or straight to the first or last one on the list. The buttons with plus and minus signs increase or decrease the number of displayed resources by one.
 
-![ResourceNavigatorExample.png](../../../images/Img5707.png)
+![ResourceNavigatorExample.png](../../../images/img5707.png)

@@ -2,18 +2,18 @@
 title: Cross-band Line
 ---
 # Cross-band Line
-The **Cross-band Line** control allows you to draw a line through several [bands](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-reference/report-bands.md). This can be useful if it is required to visually emphasize a section consisting of multiple band areas. In other aspects, it is similar to a regular [Line](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-reference/report-controls/line.md).
+The **Cross-band Line** control allows you to draw a line through several [bands](../report-bands.md). This can be useful if it is required to visually emphasize a section consisting of multiple band areas. In other aspects, it is similar to a regular [Line](line.md).
 
-![RD_Controls_CrossBandLine](../../../../../images/Img8312.png)
+![RD_Controls_CrossBandLine](../../../../../images/img8312.png)
 
-Another cross-band control available is the [Cross-band Box](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-reference/report-controls/cross-band-box.md).
+Another cross-band control available is the [Cross-band Box](cross-band-box.md).
 
-In the [Property Grid](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-reference/report-designer-ui/property-grid.md), the Cross-band Line control's properties are divided into the following groups.
+In the [Property Grid](../report-designer-ui/property-grid.md), the Cross-band Line control's properties are divided into the following groups.
 
 ## Appearance
 * **Foreground Color**
 	
-	Specifies the color of the control's line. This option is also available in the [Formatting Toolbar](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-reference/report-designer-ui/formatting-toolbar.md) (![RD_Toolbars_Format_Color](../../../../../images/Img8440.png)).
+	Specifies the color of the control's line. This option is also available in the [Formatting Toolbar](../report-designer-ui/formatting-toolbar.md) (![RD_Toolbars_Format_Color](../../../../../images/img8440.png)).
 * **Line Style**
 	
 	You can select a solid (by default), dashed, dotted or mixed style for the line.
@@ -35,12 +35,12 @@ In the [Property Grid](../../../../../../interface-elements-for-desktop/articles
 ## Data
 * **Tag**
 	
-	This property allows you to add some additional information to the control; for example its id, by which it then can be accessible via [scripts](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/create-reports/miscellaneous/handle-events-via-scripts.md).
+	This property allows you to add some additional information to the control; for example its id, by which it then can be accessible via [scripts](../../create-reports/miscellaneous/handle-events-via-scripts.md).
 
 ## Design
 * **(Name)**
 	
-	Determines a control's name, by which it can be accessed in the [Report Explorer](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-reference/report-designer-ui/report-explorer.md), [Property Grid](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-reference/report-designer-ui/property-grid.md) or via [scripts](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/create-reports/miscellaneous/handle-events-via-scripts.md).
+	Determines a control's name, by which it can be accessed in the [Report Explorer](../report-designer-ui/report-explorer.md), [Property Grid](../report-designer-ui/property-grid.md) or via [scripts](../../create-reports/miscellaneous/handle-events-via-scripts.md).
 
 ## Layout
 * **End Band**
@@ -51,7 +51,7 @@ In the [Property Grid](../../../../../../interface-elements-for-desktop/articles
 	Determines the end point (from a band's upper left corner) where the control finishes drawing.
 * **Snap Line Margin**
 	
-	Specifies the margin (measured in [report units](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/create-reports/basic-operations/change-measurement-units-of-a-report.md)), which is to be preserved around the control when it is [aligned using Snap Lines](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/create-reports/basic-operations/controls-positioning.md), or when other controls are aligned next to it.
+	Specifies the margin (measured in [report units](../../create-reports/basic-operations/change-measurement-units-of-a-report.md)), which is to be preserved around the control when it is [aligned using Snap Lines](../../create-reports/basic-operations/controls-positioning.md), or when other controls are aligned next to it.
 * **Start Band**
 	
 	Determines a band, in which the control starts drawing.
@@ -60,4 +60,4 @@ In the [Property Grid](../../../../../../interface-elements-for-desktop/articles
 	Determines the starting point (from a band's upper left corner) where the control starts drawing.
 * **Width**
 	
-	Specifies the line's width measured in [report units](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/create-reports/basic-operations/change-measurement-units-of-a-report.md).
+	Specifies the line's width measured in [report units](../../create-reports/basic-operations/change-measurement-units-of-a-report.md).

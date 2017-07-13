@@ -24,7 +24,7 @@ The **Spreadsheet** supports the **R1C1 reference style** where both rows and co
 
 You can use **absolute** and **relative** R1C1 references. An absolute R1C1 reference always refers to a cell in a specific location.
 
-![AbsoluteR1C1Reference.png](../../../images/Img21254.png)
+![AbsoluteR1C1Reference.png](../../../images/img21254.png)
 
 The example below demonstrates how to create a formula that adds values in cells A1 through A5 using the absolute R1C1 reference style:
 
@@ -34,7 +34,7 @@ A relative R1C1 reference refers to a cell location in relation to an active cel
 
 The image below illustrates a relative reference to a cell one row above and one column to the left of the active cell.
 
-![RelativeR1C1Reference.png](../../../images/Img21255.png)
+![RelativeR1C1Reference.png](../../../images/img21255.png)
 
 The following example demonstrates how to create a formula that adds values in cell range A1:A5 using the relative R1C1 reference style in cell B1:
 

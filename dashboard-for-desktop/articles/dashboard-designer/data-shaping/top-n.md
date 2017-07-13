@@ -6,11 +6,11 @@ The **Top N** feature allows you to display only a limited number of values that
 
 To display the top values in a dimension, select **Top N** from the data item menu.
 
-![DataShaping_TopN_MenuItem](../../../images/Img19373.png)
+![DataShaping_TopN_MenuItem](../../../images/img19373.png)
 
 This invokes the **Top N Values** dialog.
 
-![DataShaping_TopN_Dialog](../../../images/Img19374.png)
+![DataShaping_TopN_Dialog](../../../images/img19374.png)
 
 In this dialog, check the **Enabled** check box and specify the following settings.
 
@@ -21,4 +21,4 @@ In this dialog, check the **Enabled** check box and specify the following settin
 | **Measure** | The parameter that will determine the top or bottom value. |
 | **Show "Others" value** | If enabled, all values that are not the top/bottom values are consolidated in the "Others" value. |
 
-You can use the [hidden measure](../../../../dashboard-for-desktop/articles/dashboard-designer/binding-dashboard-items-to-data/hidden-data-items.md) as a parameter that will determine the top or bottom value.
+You can use the [hidden measure](../binding-dashboard-items-to-data/hidden-data-items.md) as a parameter that will determine the top or bottom value.

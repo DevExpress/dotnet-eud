@@ -10,4 +10,4 @@ To perform sorting, do the following.
 	> If multiple columns are selected, the range will be sorted by the **first** column.
 2. On the **Data** tab, in the **Common** group, click **Sort A to Z** to select ascending order, or click **Sort Z to A** for descending order.
 	
-	![EUD_ASPxSpreadsheet_Data_Sort](../../../images/Img26347.png)
+	![EUD_ASPxSpreadsheet_Data_Sort](../../../images/img26347.png)

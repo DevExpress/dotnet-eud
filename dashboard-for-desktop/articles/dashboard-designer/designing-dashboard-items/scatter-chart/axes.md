@@ -4,15 +4,15 @@ title: Axes
 # Axes
 Scatter Chart X and Y-axes are numerical axis of values. You can specify various axes settings to change visual data presentation.
 
-![ScatterChart_Axes](../../../../images/Img120332.png)
+![ScatterChart_Axes](../../../../images/img120332.png)
 
 To access X and Y-axis settings, use the **X-Axis Settings/Y-Axis Settings** buttons in the **Diagram** section of the **Design** Ribbon tab.
 
-![Chart_YAxisOptions_Button](../../../../images/Img18775.png)
+![Chart_YAxisOptions_Button](../../../../images/img18775.png)
 
 This will invoke the **X-Axis Settings/Y-Axis Settings** dialog.
 
-![ScatterChart_YAxisSettings](../../../../images/Img120294.png)
+![ScatterChart_YAxisSettings](../../../../images/img120294.png)
 
 In this dialog, you can specify the following settings.
 * **Always show zero level** - Specifies whether or not the axis' zero level is visible. If this option is unchecked, the visible axis range is defined based on the values plotted in the chart.

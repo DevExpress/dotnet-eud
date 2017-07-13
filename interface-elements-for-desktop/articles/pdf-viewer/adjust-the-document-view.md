@@ -14,17 +14,17 @@ The document consists of the following sections.
 To rotate a document, use the following commands.
 * **Rotate Clockwise**
 	
-	Rotates the document clockwise through **90** degrees. To perform this command, right-click the viewed document, choose the **Rotate Clockwise** ![pdf-viewer-rotate-clockwise](../../images/Img24380.png) item, or press **Ctrl + Shift + Add**.
+	Rotates the document clockwise through **90** degrees. To perform this command, right-click the viewed document, choose the **Rotate Clockwise** ![pdf-viewer-rotate-clockwise](../../images/img24380.png) item, or press **Ctrl + Shift + Add**.
 	
-	![pdf-viewer-6](../../images/Img24445.png)
+	![pdf-viewer-6](../../images/img24445.png)
 * **Rotate Counterclockwise**
 	
-	Rotates the document counterclockwise through **90** degrees. To do this, invoke the context menu by right-clicking the document, choose the **Rotate Counterclockwise** ![pdf-viewer-rotate-cuonterclockwise](../../images/Img24381.png) item, or press **Ctrl + Shift + Subtract**.
+	Rotates the document counterclockwise through **90** degrees. To do this, invoke the context menu by right-clicking the document, choose the **Rotate Counterclockwise** ![pdf-viewer-rotate-cuonterclockwise](../../images/img24381.png) item, or press **Ctrl + Shift + Subtract**.
 
 ## <a name="inout"/>Zoom In and Out of a Document
 Use buttons from the **Zoom** button group of the PDF Viewer tab.
 
-![pdf-viewer-zoom](../../images/Img24376.jpeg)
+![pdf-viewer-zoom](../../images/img24376.jpeg)
 
 To zoom in a document, click the **Zoom In** button on the toolbar, or press **Ctrl**+**Plus** sign.
 
@@ -39,19 +39,19 @@ To activate the **Marquee Zoom** tool:
 * right-click the viewing document;
 * select the **Marquee Zoom**  item  in the context menu.
 	
-	![MarqueeZoomTool](../../images/Img125290.png)
+	![MarqueeZoomTool](../../images/img125290.png)
 
 You can perform the following actions:
 * zoom in on a portion of a page by dragging a rectangle around it;
 	
-	![ZoomToRectangle](../../images/Img125291.png)
+	![ZoomToRectangle](../../images/img125291.png)
 * increase the zoom level by clicking;
 * decrease the zoom level by clicking while pressing the **Ctrl** key.
 
 ## <a name="zoomfactor"/>Use a Specific Zoom Factor
 To zoom to a specific zoom factor, click the **Zoom** dropdown list button. The following list will be invoked.
 
-![pdf-viewer-zoom-list](../../images/Img24377.jpeg)
+![pdf-viewer-zoom-list](../../images/img24377.jpeg)
 
 Choose the percentage value of the zoom factor or one of the following zoom factor presets.
 * **Actual Size**

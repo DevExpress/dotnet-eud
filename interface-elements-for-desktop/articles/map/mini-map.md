@@ -12,7 +12,7 @@ When a mini map operates in fixed behavior mode, its center point and zoom level
 
 Note that center point of the mini map stays the same when the map's center point changes, as well as the zoom level.
 
-![MapControl_Minimap_FixedBehavior](../../images/Img25451.gif)
+![MapControl_Minimap_FixedBehavior](../../images/img25451.gif)
 
 **Dynamic**
 
@@ -20,4 +20,4 @@ In a dynamic behavior mode, mini map settings are changed according to the zoom 
 
 Note that center point of the mini map is changing depending on the map's center point, as well as the zoom level.
 
-![MapControl_Minimap_DynamicBehavior_1](../../images/Img25452.gif)
+![MapControl_Minimap_DynamicBehavior_1](../../images/img25452.gif)

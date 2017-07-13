@@ -6,4 +6,4 @@ To download and install the **Adobe Reader&#174;** plug-in, use the following li
 
 Note that many modern web browsers include their own PDF plug-ins, which automatically replace the **Adobe Reader&#174;** plug-in. If you need to revert to the **Adobe** plug-in, refer to the [Configure browser to use the Adobe PDF plug-in](https://helpx.adobe.com/acrobat/kb/pdf-browser-plugin-configuration.html) document.
 
-For more information on printing report documents using this plug-in, see [Print a Report Using the PDF Web Browser Plug-In](../../../../../interface-elements-for-web/articles/document-viewer/classic-document-viewer/printing/print-a-report-using-the-pdf-web-browser-plug-in.md).
+For more information on printing report documents using this plug-in, see [Print a Report Using the PDF Web Browser Plug-In](print-a-report-using-the-pdf-web-browser-plug-in.md).

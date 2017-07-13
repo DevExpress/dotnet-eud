@@ -4,7 +4,7 @@ title: Search Panel
 # Search Panel
 To filter data and highlight search results, type a filter criterion in the search panel.
 
-![SearchPanel](../../../images/Img17905.png)
+![SearchPanel](../../../images/img17905.png)
 
 ## Applying the Search Panel Filter Criterion
 To apply a filter criterion typed in the search panel, press the ENTER key or click the **Search** button. Otherwise, a filter is automatically applied in 1.2 seconds.
@@ -15,7 +15,7 @@ To clear the search panel filter criterion, do one of the following.
 * Click the **Clear** button.
 * Click the clear button, which is displayed within the editor when the editor is focused and is not empty.
 	
-	![EUD_Grid_SearchPanel](../../../images/Img25472.png)
+	![EUD_Grid_SearchPanel](../../../images/img25472.png)
 
 ## Search syntax
 In its simplest form, a search criterion consists of a single word. However, the search panel allows you to create composite criteria.
@@ -23,14 +23,14 @@ In its simplest form, a search criterion consists of a single word. However, the
 	
 	 maria
 	
-	![EUD_Grid_SearchPanelCriterion1](../../../images/Img25474.png)
+	![EUD_Grid_SearchPanelCriterion1](../../../images/img25474.png)
 	
 	**Example description:** selects records that contain the "maria" string in any search column.
 * **Mask:** column:criterion 
 	
 	contact:maria
 	
-	![EUD_Grid_SearchPanelCriterion2](../../../images/Img25475.png)
+	![EUD_Grid_SearchPanelCriterion2](../../../images/img25475.png)
 	
 	You can search against a specific column by preceding a search string with the column's caption plus a colon character. Instead of the complete caption, it is possible to use the initial characters of the caption. A search will be performed against the first column whose name starts with the specified substring. If you want to search against a column whose caption contains space characters, specify the column's display caption in quotation marks.
 	
@@ -43,11 +43,11 @@ In its simplest form, a search criterion consists of a single word. However, the
 	
 	**Option AND**
 	
-	![EUD_Grid_SearchPanelCriterion3_v2](../../../images/Img25993.png)
+	![EUD_Grid_SearchPanelCriterion3_v2](../../../images/img25993.png)
 	
 	**Option OR**
 	
-	![EUD_Grid_SearchPanelCriterion3](../../../images/Img25476.png)
+	![EUD_Grid_SearchPanelCriterion3](../../../images/img25476.png)
 	
 	Based on conditions provided by your application vendor, the search panel can search words separated by space characters in one of the following ways.
 	
@@ -66,7 +66,7 @@ In its simplest form, a search criterion consists of a single word. However, the
 	
 	"maria anders"
 	
-	![EUD_Grid_SearchPanelCriterion4](../../../images/Img25477.png)
+	![EUD_Grid_SearchPanelCriterion4](../../../images/img25477.png)
 	
 	If you want to search for a string containing a space character, specify this string in quotation marks.
 	
@@ -75,7 +75,7 @@ In its simplest form, a search criterion consists of a single word. However, the
 	
 	maria -anders
 	
-	![EUD_Grid_SearchPanelCriterion5](../../../images/Img25478.png)
+	![EUD_Grid_SearchPanelCriterion5](../../../images/img25478.png)
 	
 	Precede a condition with "-" to exclude records that match this condition from the result set. There should be no space between the "-" sign and the condition.
 	
@@ -86,7 +86,7 @@ In its simplest form, a search criterion consists of a single word. However, the
 	
 	maria +sweden
 	
-	![EUD_Grid_SearchPanelCriterion6](../../../images/Img25479.png)
+	![EUD_Grid_SearchPanelCriterion6](../../../images/img25479.png)
 	
 	Precede a condition with "+" to display only records that match this condition. The "+" specifier allows you to implement the logical AND operator. There should be no space character between the "+" sign and the condition.
 	

@@ -2,7 +2,7 @@
 title: Handle Events via Scripts
 ---
 # Handle Events via Scripts
-This document describes the basic principles of _scripting_, which can be performed by handling the events of a report, and its [bands](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-reference/report-bands.md) and [controls](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-reference/report-controls.md).
+This document describes the basic principles of _scripting_, which can be performed by handling the events of a report, and its [bands](../../report-designer-reference/report-bands.md) and [controls](../../report-designer-reference/report-controls.md).
 
 This documents consists of the following sections.
 * [Scripting Overview](#overview)
@@ -12,30 +12,30 @@ This documents consists of the following sections.
 ## <a name="overview"/>Scripting Overview
 _Scripts_ are program commands, placed within the _event handlers_ of the required report elements. And, when the corresponding event occurs (e.g. a mouse click), the script code runs.
 
-You can write _scripts_ for a report or any of its elements (bands and controls), to be executed when the report is being [previewed, printed or exported](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/preview-print-and-export-reports.md).
+You can write _scripts_ for a report or any of its elements (bands and controls), to be executed when the report is being [previewed, printed or exported](../../preview-print-and-export-reports.md).
 
-Although when in the Report Designer, virtually any task can be accomplished without scripting ([Conditionally Change a Control's Appearance](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/create-reports/styles-and-conditional-formatting/conditionally-change-a-controls-appearance.md), [Conditionally Change a Label's Text](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/create-reports/styles-and-conditional-formatting/conditionally-change-a-labels-text.md) and [Conditionally Hide Bands](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/create-reports/styles-and-conditional-formatting/conditionally-hide-bands.md)), scripting is made available to extend the standard functionality as far as may be required. And, scripting is the only way to calculate _custom summaries_ (this is detailed in the [last section of this document](#example)).
+Although when in the Report Designer, virtually any task can be accomplished without scripting ([Conditionally Change a Control's Appearance](../styles-and-conditional-formatting/conditionally-change-a-controls-appearance.md), [Conditionally Change a Label's Text](../styles-and-conditional-formatting/conditionally-change-a-labels-text.md) and [Conditionally Hide Bands](../styles-and-conditional-formatting/conditionally-hide-bands.md)), scripting is made available to extend the standard functionality as far as may be required. And, scripting is the only way to calculate _custom summaries_ (this is detailed in the [last section of this document](#example)).
 
-Every report element has a set of script events, which are individual for each element's type. For example, the events of the [Detail](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-reference/report-bands/detail-band.md) band are shown in the following image.
+Every report element has a set of script events, which are individual for each element's type. For example, the events of the [Detail](../../report-designer-reference/report-bands/detail-band.md) band are shown in the following image.
 
-![RD_Scripts_0](../../../../../images/Img8604.png)
+![RD_Scripts_0](../../../../../images/img8604.png)
 
-After you click (New) for an event (e.g. the **Before Print**, which is the most used), the [Scripts Tab](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-reference/report-designer-ui/scripts-tab.md) is switched on, where you can manage and edit all the report's scripts.
+After you click (New) for an event (e.g. the **Before Print**, which is the most used), the [Scripts Tab](../../report-designer-reference/report-designer-ui/scripts-tab.md) is switched on, where you can manage and edit all the report's scripts.
 
-![RD_Scripts_1](../../../../../images/Img8605.png)
+![RD_Scripts_1](../../../../../images/img8605.png)
 
 In this tab, for a selected event, a script template is auto-added, in the language specified via the **Script Language** property of the report.
 
-You can verify that your report's scripts are valid, by clicking **Validate**. The validation result is then displayed in the [Scripts Errors Panel](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-reference/report-designer-ui/scripts-errors-panel.md).
+You can verify that your report's scripts are valid, by clicking **Validate**. The validation result is then displayed in the [Scripts Errors Panel](../../report-designer-reference/report-designer-ui/scripts-errors-panel.md).
 
-![RD_Elements_ScriptsErrors_0](../../../../../images/Img11139.png)
+![RD_Elements_ScriptsErrors_0](../../../../../images/img11139.png)
 
-Note that scripts are saved to a file along with the report's layout (for details on this, refer to [Back Up the Current Layout Before Modifying It](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-editing-basics/back-up-the-current-layout-before-modifying-it.md)).
+Note that scripts are saved to a file along with the report's layout (for details on this, refer to [Back Up the Current Layout Before Modifying It](../../report-editing-basics/back-up-the-current-layout-before-modifying-it.md)).
 
 ## <a name="specifics"/>Scripting Specifics
 1. **Scripting language**
 	
-	The report scripts may be written in one of the following languages that the .NET framework supports - **C#**, **Visual Basic** and **J#**. Since J# is not installed with the framework installation, by default, make sure it is present before writing code in it. The scripting language is specified via the **Script Language** property of the [Report](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-reference/report-settings.md) object. It is set to C#, by default.
+	The report scripts may be written in one of the following languages that the .NET framework supports - **C#**, **Visual Basic** and **J#**. Since J# is not installed with the framework installation, by default, make sure it is present before writing code in it. The scripting language is specified via the **Script Language** property of the [Report](../../report-designer-reference/report-settings.md) object. It is set to C#, by default.
 2. **Scripting scope**
 	
 	Script execution is performed in the following way:
@@ -54,13 +54,13 @@ Note that scripts are saved to a file along with the report's layout (for detail
 ## <a name="example"/>Example: Custom Summary
 In this example, we will display the total number of  product unit packs in a group.
 
-To perform this, execute steps similar to the ones described in [Add Totals to a Report](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-editing-basics/add-totals-to-a-report.md), except that for the summary field, you should set the **Function** property to **Custom**.
+To perform this, execute steps similar to the ones described in [Add Totals to a Report](../../report-editing-basics/add-totals-to-a-report.md), except that for the summary field, you should set the **Function** property to **Custom**.
 
-![RD_Scripts_CustomSummary_0](../../../../../images/Img8893.png)
+![RD_Scripts_CustomSummary_0](../../../../../images/img8893.png)
 
 Then, the additional events are added to the label's **Scripts** property.
 
-![RD_Scripts_CustomSummary_1](../../../../../images/Img8894.png)
+![RD_Scripts_CustomSummary_1](../../../../../images/img8894.png)
 
 You can handle these events in the following way.
 
@@ -120,6 +120,6 @@ End Sub
 
 ```
 
-Finally, switch to the [Preview Tab](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-reference/report-designer-ui/preview-tab.md), and view the result.
+Finally, switch to the [Preview Tab](../../report-designer-reference/report-designer-ui/preview-tab.md), and view the result.
 
-![RD_Scripts_CustomSummary_2](../../../../../images/Img8895.png)
+![RD_Scripts_CustomSummary_2](../../../../../images/img8895.png)

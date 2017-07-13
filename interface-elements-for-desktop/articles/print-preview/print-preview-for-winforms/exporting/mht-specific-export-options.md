@@ -2,9 +2,9 @@
 title: MHT-Specific Export Options
 ---
 # MHT-Specific Export Options
-When [exporting a document](../../../../../interface-elements-for-desktop/articles/print-preview/print-preview-for-winforms/exporting/exporting-from-print-preview.md), you can define MHT-specific exporting options using the following dialog.
+When [exporting a document](exporting-from-print-preview.md), you can define MHT-specific exporting options using the following dialog.
 
-![previewExportOptionsMHT](../../../../images/Img7339.png)
+![previewExportOptionsMHT](../../../../images/img7339.png)
 * **Export mode**
 	
 	Specifies how a document is exported to MHT. The following modes are available.

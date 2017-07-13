@@ -4,10 +4,10 @@ title: Images
 # Images
 The Image dashboard item is used to display static images within a dashboard.
 
-![wdd-dashboard-items-image](../../../images/Img125123.png)
+![wdd-dashboard-items-image](../../../images/img125123.png)
 
-You can either add a static image or you can use the Bound Image as a detail item along with the [Master Filtering](../../../../dashboard-for-web/articles/web-dashboard-designer-mode/interactivity/master-filtering.md) feature.
-* [Image Overview](../../../../dashboard-for-web/articles/web-dashboard-designer-mode/designing-dashboard-items/images/image-overview.md)
-* [Providing Images](../../../../dashboard-for-web/articles/web-dashboard-designer-mode/designing-dashboard-items/images/providing-images.md)
-* [Interactivity](../../../../dashboard-for-web/articles/web-dashboard-designer-mode/designing-dashboard-items/images/interactivity.md)
-* [Image Settings](../../../../dashboard-for-web/articles/web-dashboard-designer-mode/designing-dashboard-items/images/image-settings.md)
+You can either add a static image or you can use the Bound Image as a detail item along with the [Master Filtering](../interactivity/master-filtering.md) feature.
+* [Image Overview](images/image-overview.md)
+* [Providing Images](images/providing-images.md)
+* [Interactivity](images/interactivity.md)
+* [Image Settings](images/image-settings.md)

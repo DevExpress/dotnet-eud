@@ -8,7 +8,7 @@ title: Chart Titles Page
 * Customize the appearance and position of chart titles.
 
 ## Page Elements
-![ChartWizard_ChartTitlesPage](../../../images/Img7237.png)
+![ChartWizard_ChartTitlesPage](../../../images/img7237.png)
 
 **Chart preview area**
 
@@ -16,7 +16,7 @@ Previews a chart's layout.
 
 Note that you can select chart titles to be modified in the chart preview area directly.
 
-![ChartWizard_9a](../../../images/Img7412.png)
+![ChartWizard_9a](../../../images/img7412.png)
 
 **Titles management section**
 

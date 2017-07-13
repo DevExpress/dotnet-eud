@@ -6,7 +6,7 @@ This section describes the capabilities provided by the Tab Control, which is us
 
 Click tabs to switch them. An active tab is highlighted.
 
-![ASPxTabControl_UD](../images/Img13293.png)
+![ASPxTabControl_UD](../images/img13293.png)
 
 **Tab Scrolling**
-* [Tab Scrolling](../../interface-elements-for-web/articles/tab-control/tab-scrolling.md)
+* [Tab Scrolling](tab-control/tab-scrolling.md)

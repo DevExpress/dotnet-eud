@@ -9,9 +9,9 @@ The following condition types are supported for measures:
 	
 	The "Top N" format condition allows you to apply formatting to elements whose values are ranked at the top. For instance, the following image displays a Grid dashboard item whose top 3 _Extended Price_ values filled in green.
 	
-	![TopNFormatCondition](../../../../images/Img118645.png)
+	![TopNFormatCondition](../../../../images/img118645.png)
 * <a name="bottom-n"/>**Bottom N**
 	
 	The "Bottom N" format condition allows you to apply formatting to elements whose values are ranked at the bottom. For instance, the following image displays a Grid dashboard item whose bottom 40 percent _Extended Price_ values are filled in red.
 	
-	![BottomNFormatCondition](../../../../images/Img118646.png)
+	![BottomNFormatCondition](../../../../images/img118646.png)

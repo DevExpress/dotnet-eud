@@ -2,9 +2,9 @@
 title: XLS-Specific Export Options
 ---
 # XLS-Specific Export Options
-When [exporting a document](../../../../../interface-elements-for-desktop/articles/print-preview/print-preview-for-winforms/exporting/exporting-from-print-preview.md), you can define XLS-specific export options using the following dialog.
+When [exporting a document](exporting-from-print-preview.md), you can define XLS-specific export options using the following dialog.
 
-![previewExportOptionsXLS](../../../../images/Img7338.png)
+![previewExportOptionsXLS](../../../../images/img7338.png)
 * **Export mode**
 	
 	Specifies how a document is exported to XLS. The following modes are available.

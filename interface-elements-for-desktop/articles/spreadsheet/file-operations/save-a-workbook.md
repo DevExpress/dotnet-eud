@@ -4,13 +4,13 @@ title: Save a Workbook
 # Save a Workbook
 To save a workbook, go to the **File** tab, and then click the **Save as** button in the **Common** group,  or press **F12** instead of these steps.
 
-![SaveAsDialog.png](../../../images/Img21120.png)
+![SaveAsDialog.png](../../../images/img21120.png)
 
 After that, the **Save as** dialog box is invoked.
 
 Specify the location and the file format in which to save the workbook.
 
-![SaveAsBox.png](../../../images/Img21122.png)
+![SaveAsBox.png](../../../images/img21122.png)
 
 The available file formats in the **Save as** dialog box are the following.
 * Excel Workbook (*.xlsx)

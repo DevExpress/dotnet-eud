@@ -7,10 +7,10 @@ The **Spreadsheet** provides the capability to save a workbook as a text file (.
 ## Save a Workbook as a Text File
 1. To save a workbook as a text file, go to the **File** tab, and in the **Common** group, click the **Save As** button.
 	
-	![SaveAsDialog.png](../../../images/Img21120.png)
+	![SaveAsDialog.png](../../../images/img21120.png)
 2. In the **Save As** dialog box that is invoked, select the **Text (Tab-delimited)** or **CSV (Comma-delimited)** item from the **Save as type** drop-down list.
 	
-	![SaveAsTxt.png](../../../images/Img21282.png)
+	![SaveAsTxt.png](../../../images/img21282.png)
 
 The main features of the tab-delimited and comma-delimited file formats are described below.
 * **Tab-delimited text files**
@@ -23,7 +23,7 @@ The main features of the tab-delimited and comma-delimited file formats are desc
 ## Load Data from Text Files
 1. To load data from text files (.txt or .csv), go to the **File** tab, and in the **Common** group, click the **Open** button.
 	
-	![LoadWorkbook.png](../../../images/Img21118.png)
+	![LoadWorkbook.png](../../../images/img21118.png)
 2. In the **Open** dialog box that is invoked, locate the text file you wish to open and click **Open**.
 	
-	![LoadAsCsv.png](../../../images/Img21283.png)
+	![LoadAsCsv.png](../../../images/img21283.png)

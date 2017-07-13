@@ -8,9 +8,9 @@ To insert a symbol, follow the instructions below.
 1. Move to the cell where you wish to insert a symbol.
 2. On the **Insert** tab, in the **Symbols** group, click the **Symbol** button.
 	
-	![Spreadsheet_InsertSymbolButton](../../../images/Img24558.png)
+	![Spreadsheet_InsertSymbolButton](../../../images/img24558.png)
 	
 	The **Symbol** dialog will be invoked.
 	
-	![Spreadsheet_SymbolDialog](../../../images/Img24559.png)
+	![Spreadsheet_SymbolDialog](../../../images/img24559.png)
 3. Select the symbol you wish to insert and click **Insert**, or double-click the symbol.

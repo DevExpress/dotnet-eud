@@ -2,7 +2,7 @@
 title: Expression Operators, Functions and Constants
 ---
 # Expression Operators, Functions and Constants
-This topic lists operators and functions supported by the [Expression Editor](../../../interface-elements-for-desktop/articles/expression-editor.md). It also provides information on how constants can be specified in expressions.
+This topic lists operators and functions supported by the [Expression Editor](../expression-editor.md). It also provides information on how constants can be specified in expressions.
 
 ## Operators
 | Operator | Description | Example |

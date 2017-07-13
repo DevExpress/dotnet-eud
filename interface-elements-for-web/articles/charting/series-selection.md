@@ -6,8 +6,8 @@ If you are working with 2D charts, you can select different series or chart elem
 
 To select a particular chart element, tap it on a device supporting touchscreen or click this element using the left mouse button. The following image demonstrates how a single series is painted if it is selected using the mouse pointer.
 
-![EndUser_Selection_Series](../../images/Img118764.png)
+![EndUser_Selection_Series](../../images/img118764.png)
 
 Chart elements, which can be selected, are shown in the following illustration.
 
-![EndUser_ChartControl_Selectable](../../images/Img118765.png)
+![EndUser_ChartControl_Selectable](../../images/img118765.png)

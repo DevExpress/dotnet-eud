@@ -6,7 +6,7 @@ The **Spreadsheet** allows you to perform calculations on data in cells using fo
 
 The **Spreadsheet** provides the capability to use the **Formula Bar**, which is the bar at the top of a worksheet, to enter and edit formulas.
 
-![FormulaBar.png](../../../images/Img21238.png)
+![FormulaBar.png](../../../images/img21238.png)
 
 For example, if you wish to add 1 to the product of 2 and 5, type the following formula in the cell in which you wish to insert the formula or in the **Formula Bar**.
 

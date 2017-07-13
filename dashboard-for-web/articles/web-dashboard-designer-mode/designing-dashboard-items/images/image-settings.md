@@ -7,9 +7,9 @@ This topic describes settings related to the representation of **Image** dashboa
 ## Image Size Mode
 You can specify the image size mode that defines how the image fits within the dashboard item.
 
-To do this, go to the [Options](../../../../../dashboard-for-web/articles/web-dashboard-designer-mode/ui-elements/dashboard-item-menu.md) menu and select the required size mode from the list.
+To do this, go to the [Options](../../ui-elements/dashboard-item-menu.md) menu and select the required size mode from the list.
 
-![wdd-image-size-mode](../../../../images/Img125755.png)
+![wdd-image-size-mode](../../../../images/img125755.png)
 
 The following modes are available.
 
@@ -21,6 +21,6 @@ The following modes are available.
 | **Zoom** | The image is sized proportionally without clipping, so that it best fits the Image dashboard item. The closest fitting side of the image (either the height or the width) will be sized to fit the dashboard item, and the remaining side (height or width) will be sized proportionally, leaving empty space. |
 
 ## Image Alignment
-To specify how the image is aligned within the dashboard item, use the **Horizontal Alignment** and **Vertical Alignment** options in the Image's [Options](../../../../../dashboard-for-web/articles/web-dashboard-designer-mode/ui-elements/dashboard-item-menu.md) menu.
+To specify how the image is aligned within the dashboard item, use the **Horizontal Alignment** and **Vertical Alignment** options in the Image's [Options](../../ui-elements/dashboard-item-menu.md) menu.
 
-![wdd-image-alignment](../../../../images/Img125756.png)
+![wdd-image-alignment](../../../../images/img125756.png)

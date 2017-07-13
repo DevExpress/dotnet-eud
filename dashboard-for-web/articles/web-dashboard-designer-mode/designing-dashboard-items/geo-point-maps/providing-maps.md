@@ -19,18 +19,18 @@ The **DevExpress Dashboard**  ships with a set of default maps showing various p
 
 > The **World Countries** map has a lower level of detail than maps of specific regions and may not contain some of the countries. As an alternative, you can load a custom map with required granularity.
 
-To select a required default map, go to the [Options](../../../../../dashboard-for-web/articles/web-dashboard-designer-mode/ui-elements/dashboard-item-menu.md) menu and use the **Default Map** dropdown list located in the **Common** section.
+To select a required default map, go to the [Options](../../ui-elements/dashboard-item-menu.md) menu and use the **Default Map** dropdown list located in the **Common** section.
 
-![wdd-geopoint-map-change-map](../../../../images/Img125426.png)
+![wdd-geopoint-map-change-map](../../../../images/img125426.png)
 
 ## <a name="custommaps"/>Custom Maps
 The Web Dashboard uses a **Shapefile** vector format to provide custom maps. Commonly, this format includes two file types:
 * **.shp file** - holds map shapes (points/lines/polygons)
 * **.dbf file** - contains attributes for each shape.
 
-To provide a custom map, go to the **Common** section of the [Options](../../../../../dashboard-for-web/articles/web-dashboard-designer-mode/ui-elements/dashboard-item-menu.md) menu and change the **Default Map** value to **Custom**.
+To provide a custom map, go to the **Common** section of the [Options](../../ui-elements/dashboard-item-menu.md) menu and change the **Default Map** value to **Custom**.
 
-![wdd-custom-shape-file](../../../../images/Img127210.png)
+![wdd-custom-shape-file](../../../../images/img127210.png)
 
 Finally, provide shape data using one of the following ways.
 * Specify the path to the **.shp** file using the **Custom Map URL** option. Attributes from the corresponding **.dbf** file located in the same directory will automatically be included in the map.

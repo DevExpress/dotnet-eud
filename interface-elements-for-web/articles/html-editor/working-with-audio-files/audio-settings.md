@@ -2,16 +2,16 @@
 title: Audio Settings
 ---
 # Audio Settings
-When you [insert](../../../../interface-elements-for-web/articles/html-editor/working-with-audio-files/insert-an-audio-into-html-editor.md) or [modify](../../../../interface-elements-for-web/articles/html-editor/working-with-audio-files/modify-audio-settings-in-html-editor.md) audio in an HTML Editor, you can customize the audio player settings as well.
+When you [insert](insert-an-audio-into-html-editor.md) or [modify](modify-audio-settings-in-html-editor.md) audio in an HTML Editor, you can customize the audio player settings as well.
 
 To display the settings section in an audio dialog, select the **More options** check box.
 
-![EUD_HTMLEditor_AudioMoreOptions](../../../images/Img25604.png)
+![EUD_HTMLEditor_AudioMoreOptions](../../../images/img25604.png)
 
 The displayed section contains the following settings, which you can use to customize the audio player.
 
 ## Common Settings Tab
-![EUD_HTMLEditor_CommonSettings](../../../images/Img25615.png)
+![EUD_HTMLEditor_CommonSettings](../../../images/img25615.png)
 * **Width** - specifies the width of the audio player in pixels.
 * **Height** - specifies the height of the audio player in pixels.
 * **Position** - specifies the position of the audio player.
@@ -24,7 +24,7 @@ The displayed section contains the following settings, which you can use to cust
 * **Show player controls** - specifies whether or not the audio player controls should be displayed.
 
 ## Style Settings Tab
-![EUD_HTMLEditor_StyleSettings](../../../images/Img25620.png)
+![EUD_HTMLEditor_StyleSettings](../../../images/img25620.png)
 * **Margin top** - specifies the audio player top margin in pixels.
 * **Margin bottom** - specifies the audio player bottom margin in pixels.
 * **Margin left** - specifies the audio player left margin in pixels.

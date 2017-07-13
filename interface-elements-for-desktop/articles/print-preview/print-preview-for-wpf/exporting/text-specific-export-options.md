@@ -2,9 +2,9 @@
 title: Text-Specific Export Options
 ---
 # Text-Specific Export Options
-When [exporting a document](../../../../../interface-elements-for-desktop/articles/print-preview/print-preview-for-wpf/exporting/exporting.md), you can define the following TXT-specific exporting options.
+When [exporting a document](exporting.md), you can define the following TXT-specific exporting options.
 
-![EUD_WpfPrintPreview_TxtExportOptions](../../../../images/Img124165.png)
+![EUD_WpfPrintPreview_TxtExportOptions](../../../../images/img124165.png)
 * **Encoding**
 	
 	Specifies the encoding used in the exported document.

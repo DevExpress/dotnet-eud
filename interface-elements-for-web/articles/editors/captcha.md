@@ -8,4 +8,4 @@ Enter the code displayed within the challenge image into the text box.
 
 If the code seems unreadable, refresh it clicking the refresh button.
 
-![ASPxCaptcha-VisualElements-Main](../../images/Img11614.png)
+![ASPxCaptcha-VisualElements-Main](../../images/img11614.png)

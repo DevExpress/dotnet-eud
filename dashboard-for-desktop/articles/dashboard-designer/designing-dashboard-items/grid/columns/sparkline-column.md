@@ -4,21 +4,21 @@ title: Sparkline Column
 # Sparkline Column
 A **sparkline column** visualizes the variation in summary values over time.
 
-![Grid_SparklineColumn](../../../../../images/Img21665.png)
+![Grid_SparklineColumn](../../../../../images/img21665.png)
 
 ## Data Binding Specifics
 The sparkline column is bound to a measure providing sparkline values and to a dimension providing a date-time interval.
 
-![Grid_ColumnTypes_SparklineColumns_DataBinding](../../../../../images/Img21666.png)
+![Grid_ColumnTypes_SparklineColumns_DataBinding](../../../../../images/img21666.png)
 
 ## Sparkline Options
-You can control sparkline appearance settings using the **Column Options** dialog. To invoke this dialog, click the column type indicator (![Grid_ColumnTypeIndicators_SparklineColumn](../../../../../images/Img21673.png)).
+You can control sparkline appearance settings using the **Column Options** dialog. To invoke this dialog, click the column type indicator (![Grid_ColumnTypeIndicators_SparklineColumn](../../../../../images/img21673.png)).
 
-![Grid_Sparkline_ColumnOptionsDialog](../../../../../images/Img21674.png)
+![Grid_Sparkline_ColumnOptionsDialog](../../../../../images/img21674.png)
 
 In this dialog, you can control various settings that affect how the sparkline is displayed within a grid cell.
 
-![Grid_SparklineAppearance](../../../../../images/Img21675.png)
+![Grid_SparklineAppearance](../../../../../images/img21675.png)
 
 | Sparkline Options | Description |
 |---|---|

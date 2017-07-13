@@ -4,7 +4,7 @@ title: Expression Editor
 # Expression Editor
 The Expression Editor allows you to edit various Boolean or regular expressions in controls:
 
-![UI_Expression_Editor](../images/Img11049.png)
+![UI_Expression_Editor](../images/img11049.png)
 
 In this editor, you can type an expression manually, or select functions, operators and operands using the editor's controls.
 

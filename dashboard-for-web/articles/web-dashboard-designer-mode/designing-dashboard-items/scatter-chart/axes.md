@@ -4,13 +4,13 @@ title: Axes
 # Axes
 Scatter Chart X and Y-axes are numerical axis of values. You can specify various axes settings to change visual data presentation.
 
-To access X and Y-axis settings, go to the Scatter Chart's [Options](../../../../../dashboard-for-web/articles/web-dashboard-designer-mode/ui-elements/dashboard-item-menu.md) menu and open the **Axis X** or **Axis Y** section.
+To access X and Y-axis settings, go to the Scatter Chart's [Options](../../ui-elements/dashboard-item-menu.md) menu and open the **Axis X** or **Axis Y** section.
 
 Here you can configure the visibility of axes, their title and grid lines, reverse the axes, etc.
 
 The following options are available.
 
-![wdd-scatter-chart-axis-options](../../../../images/Img125602.png)
+![wdd-scatter-chart-axis-options](../../../../images/img125602.png)
 
 | Options | Description |
 |---|---|

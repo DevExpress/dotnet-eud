@@ -2,7 +2,7 @@
 title: Query Builder
 ---
 # Query Builder
-The **Query Builder** can be invoked from the [SQL Data Source Wizard](../../../../interface-elements-for-web/articles/report-designer/wizards/sql-data-source-wizard.md). It provides a visual editor to create custom queries and enables you to solve a variety of tasks.
+The **Query Builder** can be invoked from the [SQL Data Source Wizard](../wizards/sql-data-source-wizard.md). It provides a visual editor to create custom queries and enables you to solve a variety of tasks.
 * [Select Tables](#select)
 * [Join Tables](#join)
 * [Filter Data](#filter)
@@ -12,43 +12,43 @@ The **Query Builder** can be invoked from the [SQL Data Source Wizard](../../../
 ## <a name="select"/>Select Tables
 To include a specific table into a query result set, drag and drop it onto the Query Builder design surface.
 
-![web-designer-query-builder-select-table-drag-and-drop](../../../images/Img125816.png)
+![web-designer-query-builder-select-table-drag-and-drop](../../../images/img125816.png)
 
 The Query Builder provides a toolbar with the following commands.
 
 | Icon | Description |
 |---|---|
-| ![web-designer-query-builder-button-delete](../../../images/Img125823.png) | Removes the selected table or view from the query. |
-| ![web-designer-query-builder-button-undo](../../../images/Img125821.png) | Reverses the most recent action. |
-| ![web-designer-query-builder-button-redo](../../../images/Img125822.png) | Performs the action that has previously been undone. |
+| ![web-designer-query-builder-button-delete](../../../images/img125823.png) | Removes the selected table or view from the query. |
+| ![web-designer-query-builder-button-undo](../../../images/img125821.png) | Reverses the most recent action. |
+| ![web-designer-query-builder-button-redo](../../../images/img125822.png) | Performs the action that has previously been undone. |
 
 For each table or view that has been added, you can select which specific columns to include into the query result set by using the corresponding check boxes.
 
-![web-designer-query-builder-select-fields](../../../images/Img125817.png)
+![web-designer-query-builder-select-fields](../../../images/img125817.png)
 
 ## <a name="join"/>Join Tables
 To join separate tables and/or views, connect their corresponding columns (key fields) using drag and drop. The connected columns must have identical data types.
 
-![web-designer-query-builder-join-tables](../../../images/Img125818.png)
+![web-designer-query-builder-join-tables](../../../images/img125818.png)
 
 Clicking the data relation will display the corresponding properties that define the join type (**Inner** or **Left Outer**) and applied logical operator.
 
-![web-designer-query-builder-join-tables-selection-properties](../../../images/Img125819.png)
+![web-designer-query-builder-join-tables-selection-properties](../../../images/img125819.png)
 
 A left outer join returns all the values from an inner join along with all values in the "left" table that do not match to the "right" table, including rows with NULL (empty) values in the key field.
 
 When the left outer join is selected, the relationship line displays an arrow pointing at the "right" table of the join clause.
 
-![web-designer-query-builder-join-tables-left-outer](../../../images/Img125861.png)
+![web-designer-query-builder-join-tables-left-outer](../../../images/img125861.png)
 
 After executing the query, it will return a "flat" table composed of data records selected based on the specified join options.
 
-> Although joining different tables within a single query may be required in some scenarios, creating [hierarchical data sources](../../../../interface-elements-for-web/articles/report-designer/interface-elements/master-detail-relation-editor.md) generally results in better performance (in general, [master-detail reports](../../../../interface-elements-for-web/articles/report-designer/report-types/master-detail-report.md) are generated faster than similar-looking reports created by grouping "flat" data sources).
+> Although joining different tables within a single query may be required in some scenarios, creating [hierarchical data sources](master-detail-relation-editor.md) generally results in better performance (in general, [master-detail reports](../report-types/master-detail-report.md) are generated faster than similar-looking reports created by grouping "flat" data sources).
 
 ## <a name="filter"/>Filter Data
 Clicking the Query Builder surface will display the query options.
 
-![web-designer-query-builder-selection-properties](../../../images/Img125820.png)
+![web-designer-query-builder-selection-properties](../../../images/img125820.png)
 
 The following options are available.
 * **Name**
@@ -56,7 +56,7 @@ The following options are available.
 	Specifies a custom query name (alias).
 * **Filter**
 	
-	Runs the [Filter Editor](../../../../interface-elements-for-web/articles/report-designer/interface-elements/filter-editor.md) where you can specify filter criteria against which the query result set should be narrowed down.
+	Runs the [Filter Editor](filter-editor.md) where you can specify filter criteria against which the query result set should be narrowed down.
 * **Select All (*)**
 	
 	Specifies whether or not the query result set should include all columns from the selected tables and/or views, regardless of their individual settings.
@@ -66,7 +66,7 @@ The following options are available.
 ## <a name="shape"/>Shape Data
 Clicking a data column of a selected table or view will display the data column options.
 
-![web-designer-query-builder-shape-data](../../../images/Img125824.png)
+![web-designer-query-builder-shape-data](../../../images/img125824.png)
 
 The following options are available.
 * **Name**
@@ -117,4 +117,4 @@ You can test a query at any time on a limited subset of the actual data by click
 
 This will open the **Data Preview** screen displaying the query result set limited by the first **100** data records.
 
-![web-designer-query-builder-data-preview](../../../images/Img125825.png)
+![web-designer-query-builder-data-preview](../../../images/img125825.png)

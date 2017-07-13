@@ -4,19 +4,19 @@ title: Popup Window
 # Popup Window
 The **Popup Window** is a temporary window that appears above an application's main window. It is typically used to display quick reference information. The popup window can be displayed when hovering or clicking a specific element, or it can initially be visible.
 
-![EUD_Popup1](../images/Img22633.gif)
+![EUD_Popup1](../images/img22633.gif)
 
 ## Window Resizing and Dragging
 If a window displays a size grip, you can use it to resize the window.
 
-![EUD_Popup2](../images/Img22634.png)
+![EUD_Popup2](../images/img22634.png)
 
 To change the window position, click and hold its header (the cursor will change to a four-directional arrow). Drag the header and drop it to the required position.
 
-![EUD_Popup4](../images/Img22636.png)
+![EUD_Popup4](../images/img22636.png)
 
 ## Header Buttons
-![EUD_Popup3](../images/Img22635.png)
+![EUD_Popup3](../images/img22635.png)
 
 A popup window's header can display the following buttons.
 

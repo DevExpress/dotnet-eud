@@ -16,7 +16,7 @@ You can insert graphics of the following type.
 To insert a picture, follow the instructions below.
 1. On the **Insert** tab, in the **Illustrations** group, click the **Picture** button.
 	
-	![InsertPicture.png](../../../images/Img21189.png)
+	![InsertPicture.png](../../../images/img21189.png)
 2. In the **Open** dialog box that is invoked, locate the folder that contains the picture you want to insert. Click **Open**. The picture will be inserted into the worksheet.
 	
-	![OpenDialogBox.png](../../../images/Img21190.png)
+	![OpenDialogBox.png](../../../images/img21190.png)

@@ -2,9 +2,9 @@
 title: DOCX-Specific Export Options
 ---
 # DOCX-Specific Export Options
-When [exporting a document](../../../../../interface-elements-for-desktop/articles/print-preview/print-preview-for-wpf/exporting/exporting.md), you can define DOCX-specific export options using the following dialog:
+When [exporting a document](exporting.md), you can define DOCX-specific export options using the following dialog:
 
-![wpf-docx-export-options-dialog](../../../../images/Img129099.png)
+![wpf-docx-export-options-dialog](../../../../images/img129099.png)
 * **Export mode**
 	
 	Specifies how a document is exported to DOCX. The following modes are available.

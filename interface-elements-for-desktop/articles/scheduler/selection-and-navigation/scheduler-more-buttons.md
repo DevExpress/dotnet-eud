@@ -6,4 +6,4 @@ The "More"  buttons indicate that more appointments exist on a particular date. 
 
 | Day View | Month View |
 |---|---|
-| ![Docs_VisualElements_SchedulerControl_MoreButtonsDayView](../../../images/Img7759.png) | ![Docs_VisualElements_SchedulerControl_MoreButtonsMonthView](../../../images/Img4742.png) |
+| ![Docs_VisualElements_SchedulerControl_MoreButtonsDayView](../../../images/img7759.png) | ![Docs_VisualElements_SchedulerControl_MoreButtonsMonthView](../../../images/img4742.png) |

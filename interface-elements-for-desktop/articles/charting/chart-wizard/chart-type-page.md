@@ -6,7 +6,7 @@ title: Chart Type Page
 * Choose a chart type.
 
 ## Page Elements
-![ChartWizard_ChartTypePage](../../../images/Img7229.png)
+![ChartWizard_ChartTypePage](../../../images/img7229.png)
 
 **Chart type selector**
 

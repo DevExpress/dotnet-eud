@@ -2,15 +2,15 @@
 title: Group and Sort Panel
 ---
 # Group and Sort Panel
-The **Group and Sort Panel** allows you to quickly apply [grouping](../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-wpf/creating-reports/shaping-data/grouping-data.md) and [sorting](../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-wpf/creating-reports/shaping-data/sorting-data.md) to report data. 
+The **Group and Sort Panel** allows you to quickly apply [grouping](../creating-reports/shaping-data/grouping-data.md) and [sorting](../creating-reports/shaping-data/sorting-data.md) to report data. 
 
-![WPFDesigner_GroupAndSortPanel](../../../../images/Img121992.png)
+![WPFDesigner_GroupAndSortPanel](../../../../images/img121992.png)
 
 > If a report is not bound to a data source, the **Group and Sort Panel** is inactive.
 
 To create a new sorting or grouping criterion, click the **Add a Sort** or **Add a Group** buttons, respectively. Then, select the desired data source field in the invoked drop-down list.
 
-![WPFDesigner_ApplyingGrouping](../../../../images/Img121994.png)
+![WPFDesigner_ApplyingGrouping](../../../../images/img121994.png)
 
 After adding the grouping criterion, the Group Header band is automatically created. You can manually specify whether to display the corresponding Group Header and Group Footer using the **Show Header** and **Show Footer** check boxes.
 

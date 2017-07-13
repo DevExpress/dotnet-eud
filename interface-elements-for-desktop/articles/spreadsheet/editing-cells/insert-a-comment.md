@@ -6,7 +6,7 @@ The **Spreadsheet** allows you to attach notes to individual cells by using **co
 
 Comments are displayed in a yellow box anchored to a cell. A cell containing a comment has a red triangular indicator in the corner.
 
-![SpreadsheetControl_CommentCommonAppearance](../../../images/Img24520.png)
+![SpreadsheetControl_CommentCommonAppearance](../../../images/img24520.png)
 
 You can [add](#addcomment) new comments, [edit](#editcomment) existing comments, [copy](#copycomment) comments to other cells, [move and resize](#movecomment) the comment box, [hide](#hidecomment) or [delete](#deletecomment) comments if they are no longer needed.
 
@@ -14,10 +14,10 @@ You can [add](#addcomment) new comments, [edit](#editcomment) existing comments,
 To insert a new comment, select the cell where you wish to place the comment, and do one of the following.
 * On the **Review** tab, in the **Comments** group, click the **New Comment** button.
 	
-	![Spreadsheet_InsertComment](../../../images/Img24775.png)
+	![Spreadsheet_InsertComment](../../../images/img24775.png)
 * Right-click the cell and select the **Insert Comment** item in the context menu.
 	
-	![Spreadsheet_InsertCommentContextMenu](../../../images/Img25486.png)
+	![Spreadsheet_InsertCommentContextMenu](../../../images/img25486.png)
 * Press **SHIFT**+**F2**.
 
 The new comment will be anchored to the cell. Type the desired text within the comment box. By default, the comment is accompanied by the user name of the person who created the comment. If you wish to change the default name, delete it and type a new name.
@@ -27,7 +27,7 @@ The new comment will be anchored to the cell. Type the desired text within the c
 2. Do one of the following.
 	* On the **Review** tab, in the **Comments** group, click the **Edit Comment** button...
 		
-		![Spreadsheet_EditComment](../../../images/Img25485.png)
+		![Spreadsheet_EditComment](../../../images/img25485.png)
 		
 		... or right-click the cell and select the **Edit Comment** item in the context menu.
 		
@@ -42,10 +42,10 @@ The new comment will be anchored to the cell. Type the desired text within the c
 3. Select the top-left cell of the destination area where you wish to insert the copied comment(s).
 4. On the **Home** tab, in the **Clipboard** group, click the **Paste Special** button, or press **CTRL+ALT+V**.
 	
-	![PasteSpecialCommand.png](../../../images/Img21135.png)
+	![PasteSpecialCommand.png](../../../images/img21135.png)
 5. In the invoked **Paste Special** dialog, click **Comments**, and then click **OK**.
 	
-	![Spreadsheet_PasteSpecialComments](../../../images/Img25483.png)
+	![Spreadsheet_PasteSpecialComments](../../../images/img25483.png)
 
 ## <a name="movecomment"/>Move and Resize a Comment
 1. Select the cell that contains the comment you wish to move or resize.
@@ -55,17 +55,17 @@ The new comment will be anchored to the cell. Type the desired text within the c
 3. Do one of the following.
 	* To move a comment, hover the mouse over the comment border so that the four-way resize arrow appears, and drag the comment to a new location.
 		
-		![Spreadsheet_MoveComment](../../../images/Img25467.png)
+		![Spreadsheet_MoveComment](../../../images/img25467.png)
 	* To resize a comment, click one of the sizing handles and drag the edge of the comment box.
 		
-		![Spreadsheet_ResizeComment](../../../images/Img24961.png)
+		![Spreadsheet_ResizeComment](../../../images/img24961.png)
 
 ## <a name="hidecomment"/>Display or Hide a Comment
 1. Select the cell that contains the comment you wish to display or hide.
 2. Do one of the following.
 	* On the **Review** tab, in the **Comments** group, click the **Show/Hide Comment** button.
 		
-		![Spreadsheet_ShowHideComment](../../../images/Img25484.png)
+		![Spreadsheet_ShowHideComment](../../../images/img25484.png)
 	* Right-click the cell and select the **Show/Hide Comment** item in the context menu.
 
 ## <a name="deletecomment"/>Remove a Comment
@@ -74,5 +74,5 @@ To delete the existing comment, do the following.
 2. Do one of the following.
 	* On the **Review** tab, in the **Comments** group, click the **Delete** button.
 		
-		![Spreadsheet_DeleteComments](../../../images/Img25482.png)
+		![Spreadsheet_DeleteComments](../../../images/img25482.png)
 	* Right-click the cell and select the **Delete Comment** item in the context menu.

@@ -19,7 +19,7 @@ DevExpress Dashboard ships with a set of default maps showing various parts of t
 
 To select the default map, use the **Default Map** button in the **Design** ribbon tab.
 
-![Map_DefaultMaps_Ribbon](../../../../images/Img22183.png)
+![Map_DefaultMaps_Ribbon](../../../../images/img22183.png)
 
 As an alternative, use the corresponding command in the map's context menu.
 
@@ -30,10 +30,10 @@ DevExpress Dashboard uses a **Shapefile** vector format to provide custom maps. 
 
 To open an existing shapefile, use the **Load Map** or **Import Map** button in the Ribbon, or the command in the context menu (**Load Map...** or **Import Map...**).
 
-![Map_LoadOpenMap_Ribbon](../../../../images/Img22192.png)
+![Map_LoadOpenMap_Ribbon](../../../../images/img22192.png)
 
 In the invoked dialog, locate the required **.shp** file. Note that custom maps created in the Cartesian coordinate system are not supported.
 
-> If the map is opened using the **Load Map** button, the [dashboard XML definition](../../../../../dashboard-for-desktop/articles/dashboard-designer/saving-a-dashboard.md) will contain the path to a map shapefile. If the map is opened using the **Import Map** button, the dashboard XML definition will contain the map itself.
+> If the map is opened using the **Load Map** button, the [dashboard XML definition](../../saving-a-dashboard.md) will contain the path to a map shapefile. If the map is opened using the **Import Map** button, the dashboard XML definition will contain the map itself.
 
 > Attributes from the corresponding **.dbf** file located in the same directory will automatically be included in the map.

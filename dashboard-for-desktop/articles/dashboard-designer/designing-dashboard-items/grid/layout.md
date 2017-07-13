@@ -6,7 +6,7 @@ The Grid dashboard item allows you to customize its layout in various ways. You 
 
 To do this, use the **Layout** and **Column Width Mode** groups in the **Design** Ribbon tab.
 
-![Grid_Layout_Ribbon](../../../../images/Img19697.png)
+![Grid_Layout_Ribbon](../../../../images/img19697.png)
 * [Column Width Modes](#column-width-modes)
 * [Column Header](#column-header)
 * [Cell Merging](#cell-merging)
@@ -15,7 +15,7 @@ To do this, use the **Layout** and **Column Width Mode** groups in the **Design*
 ## <a name="column-width-modes"/>Column Width Modes
 The Grid dashboard item allows you to manage column widths using different modes. Use buttons in the **Column Width Mode** group to manage the column width modes.
 
-![Grid_ColumnAutoWidth_Ribbon](../../../../images/Img24746.png)
+![Grid_ColumnAutoWidth_Ribbon](../../../../images/img24746.png)
 
 The following modes are available.
 
@@ -34,33 +34,33 @@ The grid allows you to adjust column widths manually.
 In this mode, you can adjust the width of individual columns in the following ways.
 * Specify the width of  the required column by dragging the right edge of the column header.
 	
-	![Grid_ManualColumnWidth](../../../../images/Img24747.png)
+	![Grid_ManualColumnWidth](../../../../images/img24747.png)
 	
 	In this case, all columns preserve their relative size when the grid width is changed.
 * Specify the column width and fix it by right-clicking the required column header and selecting **Fix Width**.
 	
-	![Grid_FixColumnWidth](../../../../images/Img24937.png)
+	![Grid_FixColumnWidth](../../../../images/img24937.png)
 	
 	You can also specify the fixed column width by selecting **Column Width...** This invokes the **Column Width** window that allows you to specify the width of the column in characters.
 	
-	![Grid_ColumnWidthDialog](../../../../images/Img26123.png)
+	![Grid_ColumnWidthDialog](../../../../images/img26123.png)
 * Fit the column width to its content and fix it by right-clicking the required column header and selecting **Fit to Content**.
 
 ## <a name="column-header"/>Column Header
 Use the **Column Headers** button to toggle column header visibility.
 
-![Grid_Layout_NoLinesAndHeaders](../../../../images/Img19700.png)
+![Grid_Layout_NoLinesAndHeaders](../../../../images/img19700.png)
 
 ## <a name="cell-merging"/>Cell Merging
 The Grid allows you to merge neighboring cells with identical values . To do this, use the **Merge Cells** button.
 
-![Grid_Layout_MergeCells](../../../../images/Img19698.png)
+![Grid_Layout_MergeCells](../../../../images/img19698.png)
 
-> Note that [banded rows](../../../../../dashboard-for-desktop/articles/dashboard-designer/designing-dashboard-items/grid/style.md) are not available when cell merging is enabled.
+> Note that [banded rows](style.md) are not available when cell merging is enabled.
 
 ## <a name="word-wrapping"/>Word Wrapping
 The word wrapping feature enables the capability to display cell content on multiple lines if the size of a dashboard item is insufficient to completely display the cell content on a single line.
 
-![Grid_WordWrapping](../../../../images/Img24749.png)
+![Grid_WordWrapping](../../../../images/img24749.png)
 
 > The word wrapping feature is not in effect when the **AutoFit to Contents** [column width mode](#column-width-modes) is enabled.

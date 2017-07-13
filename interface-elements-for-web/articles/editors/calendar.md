@@ -2,11 +2,11 @@
 title: Calendar
 ---
 # Calendar
-The **Calendar** is used to [select dates](../../../interface-elements-for-web/articles/editors/calendar/date-selection.md), and allows you to navigate through months and years.
+The **Calendar** is used to [select dates](calendar/date-selection.md), and allows you to navigate through months and years.
 
-![EUD_Calendar](../../images/Img22702.png)
+![EUD_Calendar](../../images/img22702.png)
 
-The header buttons in the Calendar allow you to navigate through months and years. Click the header text (i.e., the current month and year) to display the [Fast Navigation Window](../../../interface-elements-for-web/articles/editors/calendar/fast-navigation-window.md).
+The header buttons in the Calendar allow you to navigate through months and years. Click the header text (i.e., the current month and year) to display the [Fast Navigation Window](calendar/fast-navigation-window.md).
 
 ## Keyboard Support
 | Key Combination | Action (when no date is selected) | Action (when a date is selected) |
@@ -23,5 +23,5 @@ The header buttons in the Calendar allow you to navigate through months and year
 | ESC | Cancels changes and closes the calendar | Cancels changes and closes the calendar |
 
 This section consists of the following topics.
-* [Fast Navigation Window](../../../interface-elements-for-web/articles/editors/calendar/fast-navigation-window.md)
-* [Date Selection](../../../interface-elements-for-web/articles/editors/calendar/date-selection.md)
+* [Fast Navigation Window](calendar/fast-navigation-window.md)
+* [Date Selection](calendar/date-selection.md)

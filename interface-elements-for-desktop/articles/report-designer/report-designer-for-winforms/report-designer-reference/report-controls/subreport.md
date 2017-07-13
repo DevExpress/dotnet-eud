@@ -6,18 +6,18 @@ The **Subreport** control allows you to include other reports in your current re
 
 There are several reasons for using subreports. The first one is to _reuse_ reports. This can be of help if there is a particular report structure (_template_) that has to be included in all reports, and the report must have consistent appearance and functionality. A good example is a report header that contains the company information, logo, date, etc. The second reason for using subreports is creation of _master-detail_ reports (or, _invoice_ reports with hierarchically linked data).
 
-However, for master-detail reports creation, another approach is recommended: [using Detail Report bands](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/create-reports/report-types/master-detail-report-(detail-report-bands).md).
+However, for master-detail reports creation, another approach is recommended: [using Detail Report bands](../../create-reports/report-types/master-detail-report-(detail-report-bands).md).
 
-![RD_Controls_Subreport](../../../../../images/Img8314.png)
+![RD_Controls_Subreport](../../../../../images/img8314.png)
 
-You can click a subreport, to open the report to which it is linked in a new [Design Panel](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-reference/report-designer-ui/design-panel.md).
+You can click a subreport, to open the report to which it is linked in a new [Design Panel](../report-designer-ui/design-panel.md).
 
-In the [Property Grid](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-reference/report-designer-ui/property-grid.md), the Subreport's properties are divided into the following groups.
+In the [Property Grid](../report-designer-ui/property-grid.md), the Subreport's properties are divided into the following groups.
 
 ## Appearance
 * **Formatting Rules**
 	
-	Invokes the Formatting Rules Editor allowing you to choose which rules should be applied to the control during report generation, and define the precedence of the applied rules. To learn more on this, refer to [Conditionally Change a Control's Appearance](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/create-reports/styles-and-conditional-formatting/conditionally-change-a-controls-appearance.md).
+	Invokes the Formatting Rules Editor allowing you to choose which rules should be applied to the control during report generation, and define the precedence of the applied rules. To learn more on this, refer to [Conditionally Change a Control's Appearance](../../create-reports/styles-and-conditional-formatting/conditionally-change-a-controls-appearance.md).
 
 ## Behavior
 * **Can Shrink**
@@ -29,7 +29,7 @@ In the [Property Grid](../../../../../../interface-elements-for-desktop/articles
 	Also, note that there is no Can Grow option for the Subreport control, as it always increases its height depending on its contents.
 * **Scripts**
 	
-	This property contains events, which you can handle by the required scripts. For more information on scripting, refer to [Handle Events via Scripts](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/create-reports/miscellaneous/handle-events-via-scripts.md).
+	This property contains events, which you can handle by the required scripts. For more information on scripting, refer to [Handle Events via Scripts](../../create-reports/miscellaneous/handle-events-via-scripts.md).
 * **Visible**
 	
 	Specifies a value indicating whether the current control should be printed (when set to Yes) or hidden (No) on report generation.
@@ -50,17 +50,17 @@ In the [Property Grid](../../../../../../interface-elements-for-desktop/articles
 ## Design
 * **(Name)**
 	
-	Determines a control's name, by which it can be accessed in the [Report Explorer](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-reference/report-designer-ui/report-explorer.md), [Property Grid](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-reference/report-designer-ui/property-grid.md) or via [scripts](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/create-reports/miscellaneous/handle-events-via-scripts.md).
+	Determines a control's name, by which it can be accessed in the [Report Explorer](../report-designer-ui/report-explorer.md), [Property Grid](../report-designer-ui/property-grid.md) or via [scripts](../../create-reports/miscellaneous/handle-events-via-scripts.md).
 
 ## Layout
 * **Location**
 	
-	Specifies the control's location, measured in [report units](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/create-reports/basic-operations/change-measurement-units-of-a-report.md).
+	Specifies the control's location, measured in [report units](../../create-reports/basic-operations/change-measurement-units-of-a-report.md).
 * **Size**
 	
-	Specifies the control's size, measured in [report units](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/create-reports/basic-operations/change-measurement-units-of-a-report.md).
+	Specifies the control's size, measured in [report units](../../create-reports/basic-operations/change-measurement-units-of-a-report.md).
 	
 	The Subreport isn't limited by the visible size of the control. The size of its actual content is taken into account when rendering the subreport on the page. Note that depending on its contents, its width is unlimited and its height is increased.
 * **Snap Line Margin**
 	
-	Specifies the margin (measured in [report units](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/create-reports/basic-operations/change-measurement-units-of-a-report.md)), which is to be preserved around the control when it is [aligned using Snap Lines](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/create-reports/basic-operations/controls-positioning.md), or when other controls are aligned next to it.
+	Specifies the margin (measured in [report units](../../create-reports/basic-operations/change-measurement-units-of-a-report.md)), which is to be preserved around the control when it is [aligned using Snap Lines](../../create-reports/basic-operations/controls-positioning.md), or when other controls are aligned next to it.

@@ -8,4 +8,4 @@ If multiple card selection is allowed by the application vendor, you can select 
 
 To select all cards between the clicked card and the previously focused card, click a card while holding the SHIFT key. In this case, the previous selection is cleared.
 
-![EUD_CardView_Selection](../../../images/Img121528.png)
+![EUD_CardView_Selection](../../../images/img121528.png)

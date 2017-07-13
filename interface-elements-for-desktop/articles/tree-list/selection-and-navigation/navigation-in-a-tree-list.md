@@ -19,4 +19,4 @@ title: Navigation in a Tree List
 
 You can also click node indicator cells to move focus to the corresponding row while preserving column focus.
 
-![EU_XtraTreeList_IndicatorCells](../../../images/Img7681.png)
+![EU_XtraTreeList_IndicatorCells](../../../images/img7681.png)

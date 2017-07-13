@@ -10,6 +10,6 @@ To format report data, do the following.
 3. In the invoked drop-down menu, click the ellipsis button for the **Format String** property.
 4. Specify the required  formatting in the invoked **FormatString Editor**, and click **OK** to exit the dialog.
 	
-	![Snap-Format-String](../../../images/Img18500.png)
+	![Snap-Format-String](../../../images/img18500.png)
 
 Snap supports both [standard](http://msdn.microsoft.com/en-us/library/ee372286.aspx) and [custom](http://msdn.microsoft.com/en-us/library/ee372287.aspx) .NET format strings.

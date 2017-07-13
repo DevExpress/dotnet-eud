@@ -6,8 +6,8 @@ The **Image Gallery** pager allows you to navigate through image data pages. It 
 
 The **Rows per page** drop-down menu allows you to select the number of rows to be displayed on the page.
 
-![ImageGallery_Pager](../../images/Img22778.png)
+![ImageGallery_Pager](../../images/img22778.png)
 
 If a **Show more items...** link is displayed, click it to load more images to the Image Gallery.
 
-![ImageGallery_Endless](../../images/Img22779.png)
+![ImageGallery_Endless](../../images/img22779.png)

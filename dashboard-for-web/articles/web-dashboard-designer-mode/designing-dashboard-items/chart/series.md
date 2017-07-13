@@ -10,14 +10,14 @@ The Chart dashboard item supports different types of series - from simple bar an
 ## <a name="changest"/>Change Series Type
 By default, Chart visualizes data using the Bar series. To switch between series types, click the required data item in the **Values** section and select the required series type in the invoked data item menu.
 
-![wdd-chart-series-types](../../../../images/Img125032.png)
+![wdd-chart-series-types](../../../../images/img125032.png)
 
  Click the ellipsis button to show all available series types.
 
 ## <a name="configurest"/>Configure Series Options
 To configure common series options, go to the data item’s **Options** section.
 
-![wdd-shart-series-options](../../../../images/Img125034.png)
+![wdd-shart-series-options](../../../../images/img125034.png)
 
 Here you can specify whether or not to plot the current series on the secondary axis, configure point markers behavior, etc.
 
@@ -28,12 +28,12 @@ The following options are available.
 | **Caption** | Specifies the series caption. |
 | **Plot on secondary axis** | Specifies whether or not the secondary axis is used to plot the current series. |
 | **Ignore empty points** | Specifies whether or not empty points are ignored when plotting the current series. |
-| **Show point markers** | Specifies whether or not to show point markers for the current series. This option is in effect for the **Line** and **Area** series. Note that point markers are always shown when [Master Filtering](../../../../../dashboard-for-web/articles/web-dashboard-designer-mode/interactivity/master-filtering.md) is enabled for the Chart dashboard item. |
+| **Show point markers** | Specifies whether or not to show point markers for the current series. This option is in effect for the **Line** and **Area** series. Note that point markers are always shown when [Master Filtering](../../interactivity/master-filtering.md) is enabled for the Chart dashboard item. |
 
 ## <a name="configurepl"/>Configure Series Point Label
 The **Point Label** section of a value data item allows you to enable series point labels and manage their settings.
 
-![wdd-chart-series-point-labels](../../../../images/Img125037.png)
+![wdd-chart-series-point-labels](../../../../images/img125037.png)
 
 For example, you can specify whether or not to show point labels or set the label overlap mode.
 

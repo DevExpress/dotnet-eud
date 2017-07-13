@@ -4,9 +4,9 @@ title: Query Builder
 # Query Builder
 This document describes the **Query Builder** that provides a visual interface for constructing SQL queries and enables you to solve a variety of tasks.
 
-![eud-win-report-designer-query-builder](../../../../../images/Img126867.png)
+![eud-win-report-designer-query-builder](../../../../../images/img126867.png)
 
-> The Query Builder is not available for [object](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-wizard/data-bound-report/connect-to-an-object-data-source.md), [Entity Framework](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-wizard/data-bound-report/connect-to-an-entity-framework-data-source.md) and [Excel](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-wizard/data-bound-report/connect-to-an-excel-data-source.md) data sources.
+> The Query Builder is not available for [object](../../report-wizard/data-bound-report/connect-to-an-object-data-source.md), [Entity Framework](../../report-wizard/data-bound-report/connect-to-an-entity-framework-data-source.md) and [Excel](../../report-wizard/data-bound-report/connect-to-an-excel-data-source.md) data sources.
 
 The document consists of the following sections.
 * [Run the Query Builder](#runquerybuilder)
@@ -19,86 +19,86 @@ The document consists of the following sections.
 * [Preview Results](#previewresults)
 
 ## <a name="runquerybuilder"/>Run the Query Builder
-You can invoke the **Query Builder** from the [query customization](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-wizard/data-bound-report/connect-to-a-database/create-a-query-or-select-a-stored-procedure.md) page of the [Report Wizard](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-wizard.md) when creating a new data-bound report or when [binding an existing one to an SQL data source](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/create-reports/binding-a-report-to-data/bind-a-report-to-a-database.md). On this page, click the ![report-wizard-multi-query-page-icon-add](../../../../../images/Img125532.png) button for the **Queries** category to create a new query using the Query Builder.
+You can invoke the **Query Builder** from the [query customization](../../report-wizard/data-bound-report/connect-to-a-database/create-a-query-or-select-a-stored-procedure.md) page of the [Report Wizard](../../report-wizard.md) when creating a new data-bound report or when [binding an existing one to an SQL data source](../../create-reports/binding-a-report-to-data/bind-a-report-to-a-database.md). On this page, click the ![report-wizard-multi-query-page-icon-add](../../../../../images/img125532.png) button for the **Queries** category to create a new query using the Query Builder.
 
-![eud-win-report-wizard-create-query-page](../../../../../images/Img126805.png)
+![eud-win-report-wizard-create-query-page](../../../../../images/img126805.png)
 
-If you use an older Report Wizard version, the [query customization](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-wizard/data-bound-report/connect-to-a-database/create-a-query-or-select-a-stored-procedure-(single-query-wizard-version).md) page allows you to create a single query. In this case, select the **Query** option to specify that you want to construct an SQL query and then click the **Run Query Builder** button.
+If you use an older Report Wizard version, the [query customization](../../report-wizard/data-bound-report/connect-to-a-database/create-a-query-or-select-a-stored-procedure-(single-query-wizard-version).md) page allows you to create a single query. In this case, select the **Query** option to specify that you want to construct an SQL query and then click the **Run Query Builder** button.
 
-![eud-win-report-wizard-old-create-query-page](../../../../../images/Img126806.png)
+![eud-win-report-wizard-old-create-query-page](../../../../../images/img126806.png)
 
 You can also use the Query Builder to add queries to an existing SQL data source, as well as to edit existing queries. To do this, right-click the data source in the **Report Explorer** or **Field List**, and select **Manage Queries** in the context menu.
 
-![eud-win-report-explorer-field-list-manage-queries](../../../../../images/Img126807.png)
+![eud-win-report-explorer-field-list-manage-queries](../../../../../images/img126807.png)
 
 In the invoked **Manage Queries** dialog, click **Add** to add a new query. To edit an existing query, click the ellipsis button for it.
 
-![eud-win-manage-queries-dialog](../../../../../images/Img126808.png)
+![eud-win-manage-queries-dialog](../../../../../images/img126808.png)
 
 Finally, click the **Run Query Builder** button in the invoked **Query Editor**.
 
 ## <a name="selecttables"/>Select Tables
 To add a specific data table or view to a query, drag the corresponding item from the list of available tables and drop it onto the list of data tables to be used.
 
-![eud-win-query-builder-add-table](../../../../../images/Img126809.png)
+![eud-win-query-builder-add-table](../../../../../images/img126809.png)
 
 Enable check boxes for the table fields that you want to include in the query result set.
 
-![eud-win-query-builder-select-table-fields](../../../../../images/Img126810.png)
+![eud-win-query-builder-select-table-fields](../../../../../images/img126810.png)
 
 Each table provides the context menu, which allows you to rename the table or remove it from the query.
 
-![eud-win-query-builder-table-context-menu](../../../../../images/Img126811.png)
+![eud-win-query-builder-table-context-menu](../../../../../images/img126811.png)
 
 To search for a specific table or view, click the list of available tables on the left and press CTRL+F.
 
-![eud-win-query-builder-search-tables](../../../../../images/Img126812.png)
+![eud-win-query-builder-search-tables](../../../../../images/img126812.png)
 
 ## <a name="jointables"/>Join Tables
 You can join multiple tables within the same query. The Query Builder automatically highlights tables related to any of the previously added tables. Drag-and-drop a subordinate table the same way you would a principal table to include in a query and automatically create an inner join relation based on a key column.
 
-![eud-win-query-builder-join-tables](../../../../../images/Img126816.png)
+![eud-win-query-builder-join-tables](../../../../../images/img126816.png)
 
-Another way to join tables is to click the plus button ![QueryBuilderPlusButton](../../../../../images/Img120747.png) in a row corresponding to a key column.
+Another way to join tables is to click the plus button ![QueryBuilderPlusButton](../../../../../images/img120747.png) in a row corresponding to a key column.
 
 To customize the relationship, right-click it on the diagram and select **Edit Relation** in the invoked context menu. Use the **Join Editor** to select the join type (**Left Outer** or **Inner**), applied logical operator (**Equals to**, **Is less than**, etc.) and column key fields.
 
-![eud-win-query-builder-join-editor](../../../../../images/Img126817.png)
+![eud-win-query-builder-join-editor](../../../../../images/img126817.png)
 
 A left outer join returns all the values from an inner join along with all values in the "left" table that do not match to the "right" table, including rows with NULL (empty) values in the key field.
 
 When the left outer join is selected, the relationship line displays an arrow pointing to the "right" table of the join clause.
 
-![eud-win-query-builder-tables-left-outer-join](../../../../../images/Img126818.png)
+![eud-win-query-builder-tables-left-outer-join](../../../../../images/img126818.png)
 
 If tables don't have a relationship at the database level, you can manually join tables. In this case, when you drag-and-drop the required table onto the list of tables to be used, the **Join Editor** is automatically invoked allowing you to construct a custom **join** relationship.
 
 After executing the query, it will return a "flat" table composed of data records selected based on the specified join options.
 
-> Although joining different tables within a single query may be required in some scenarios, creating [hierarchical data sources](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-wizard/data-bound-report/connect-to-a-database/create-a-query-or-select-a-stored-procedure.md) generally results in better performance (in general, [master-detail reports](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/create-reports/report-types/master-detail-report-(detail-report-bands).md) are generated faster than similar-looking reports created by grouping "flat" data sources).
+> Although joining different tables within a single query may be required in some scenarios, creating [hierarchical data sources](../../report-wizard/data-bound-report/connect-to-a-database/create-a-query-or-select-a-stored-procedure.md) generally results in better performance (in general, [master-detail reports](../../create-reports/report-types/master-detail-report-(detail-report-bands).md) are generated faster than similar-looking reports created by grouping "flat" data sources).
 
 ## <a name="editparameters"/>Edit Parameters
-Click the **Edit Parameters** button to invoke the **Query Parameters** dialog, which allows you to add and remove [query parameters](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-editing-basics/use-query-parameters.md) as well as specify parameter settings.
+Click the **Edit Parameters** button to invoke the **Query Parameters** dialog, which allows you to add and remove [query parameters](../../report-editing-basics/use-query-parameters.md) as well as specify parameter settings.
 
-![eud-win-query-builder-manage-query-parameters](../../../../../images/Img127045.png)
+![eud-win-query-builder-manage-query-parameters](../../../../../images/img127045.png)
 
 For each query parameter, the following properties are available.
 * **Name** - specifies the name used to refer a parameter.
 * **Type** - specifies the data type of the parameter's value.
 * **Expression** - determines whether the actual parameter value is static or generated dynamically.
-* **Value** - specifies the actual value of a query parameter. If the **Expression** option is enabled, the actual parameter value is produced dynamically by calculating an associated expression, which is particularly useful when you need to map the query parameter value to the value of a [report parameter](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-editing-basics/add-parameters-to-a-report.md).
+* **Value** - specifies the actual value of a query parameter. If the **Expression** option is enabled, the actual parameter value is produced dynamically by calculating an associated expression, which is particularly useful when you need to map the query parameter value to the value of a [report parameter](../../report-editing-basics/add-parameters-to-a-report.md).
 
-The created parameters will be then available on the [Configure Query Parameters](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-wizard/data-bound-report/connect-to-a-database/configure-query-parameters.md) wizard page.
+The created parameters will be then available on the [Configure Query Parameters](../../report-wizard/data-bound-report/connect-to-a-database/configure-query-parameters.md) wizard page.
 
-For general information on query parameters and ways of providing parameter values, see [Use Query Parameters](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-editing-basics/use-query-parameters.md).
+For general information on query parameters and ways of providing parameter values, see [Use Query Parameters](../../report-editing-basics/use-query-parameters.md).
 
 ## <a name="filterdata"/>Filter Data
 To specify filter criteria, click the **Filter** button in the Query Builder. This invokes the **Filter Editor**, which provides the following capabilities.
 
-![eud-win-query-builder-filter-editor](../../../../../images/Img126822.png)
+![eud-win-query-builder-filter-editor](../../../../../images/img126822.png)
 * **Filter Tab**
 	
-	The editor contains the **Filter** tab allowing you to specify filter conditions for resulting data. Filter criteria can be assigned [query parameters](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-editing-basics/use-query-parameters.md) or bound to [report parameters](../../../../../../interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-editing-basics/add-parameters-to-a-report.md).
+	The editor contains the **Filter** tab allowing you to specify filter conditions for resulting data. Filter criteria can be assigned [query parameters](../../report-editing-basics/use-query-parameters.md) or bound to [report parameters](../../report-editing-basics/add-parameters-to-a-report.md).
 * **Group Filter Tab**
 	
 	The **Group Filter** tab allows you to specify filter conditions for grouped and aggregated data. If data is not grouped, the second tab is disabled.
@@ -113,7 +113,7 @@ To specify filter criteria, click the **Filter** button in the Query Builder. Th
 ## <a name="shapedata"/>Shape Data
 The Query Builder displays the column list under the data source editor, which provides various shaping options.
 
-![eud-win-query-builder-column-list](../../../../../images/Img126823.png)
+![eud-win-query-builder-column-list](../../../../../images/img126823.png)
 
 The following options are available.
 * **Column**
@@ -122,7 +122,7 @@ The following options are available.
 	
 	You can choose a required column in the drop-down list or create a column expression by clicking the ellipsis button for the corresponding column.
 	
-	![eud-win-query-builder-column-expression](../../../../../images/Img126824.png)
+	![eud-win-query-builder-column-expression](../../../../../images/img126824.png)
 * **Table**
 	
 	Specifies the table containing the selected column.
@@ -174,11 +174,11 @@ The following options are available.
 ## <a name="customsql"/>Enable Custom SQL Editing
 If custom SQL editing is enabled by your software provider, the Query Builder contains the **Allow Edit SQL** check box. Selecting this option disables the visual features of the Query Builder and allows users to specify the custom SQL string manually.
 
-![eud-win-query-builder-allow-edit-sql](../../../../../images/Img126870.png)
+![eud-win-query-builder-allow-edit-sql](../../../../../images/img126870.png)
 
 ## <a name="previewresults"/>Preview Results
 You can preview the result of the query execution in the form of a tabular data sample by clicking the **Preview Results** button.
 
 This opens the **Data Preview** window displaying the query result set limited by the first 1000 data records.
 
-![eud-win-query-builder-data-preview](../../../../../images/Img126826.png)
+![eud-win-query-builder-data-preview](../../../../../images/img126826.png)

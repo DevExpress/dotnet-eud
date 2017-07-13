@@ -2,16 +2,16 @@
 title: Image Settings
 ---
 # Image Settings
-When you [insert](../../../../interface-elements-for-web/articles/html-editor/working-with-images/insert-an-image-in-html-editor.md) or [modify](../../../../interface-elements-for-web/articles/html-editor/working-with-images/modify-an-images-settings-in-html-editor.md) image in an HTML Editor, you can customize the image settings as well.
+When you [insert](insert-an-image-in-html-editor.md) or [modify](modify-an-images-settings-in-html-editor.md) image in an HTML Editor, you can customize the image settings as well.
 
 To display the settings section in an image dialog, select the **More options** check box.
 
-![EUD_InsertImage_MoreOptions](../../../images/Img118706.png)
+![EUD_InsertImage_MoreOptions](../../../images/img118706.png)
 
 The displayed section contains the following settings, which you can use to customize the image.
 
 ## Common Settings Tab
-![EUD_InsertImage_CommonSettings](../../../images/Img118707.png)
+![EUD_InsertImage_CommonSettings](../../../images/img118707.png)
 * **Size** - specifies if the image is a custom or original size.
 * **Width** - specifies the width of the image in pixels (for custom size).
 * **Height** - specifies the height of the image in pixels (for custom size).
@@ -22,7 +22,7 @@ The displayed section contains the following settings, which you can use to cust
 * **Description** - specifies the image description.
 
 ## Style Settings Tab
-![EUD_HTMLEditor_StyleSettings](../../../images/Img25620.png)
+![EUD_HTMLEditor_StyleSettings](../../../images/img25620.png)
 * **Margin top** - specifies the image top margin in pixels.
 * **Margin bottom** - specifies the image bottom margin in pixels.
 * **Margin left** - specifies the image left margin in pixels.

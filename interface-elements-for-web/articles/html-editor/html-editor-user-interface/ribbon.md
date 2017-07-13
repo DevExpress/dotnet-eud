@@ -4,7 +4,7 @@ title: Ribbon
 # Ribbon
 The **ribbon** is a set of items which perform common tasks in HTML content editing and formatting, grouped by functionality. Most ribbon items work in the same manner as in Microsoft Word.
 
-![Ribbon](../../../images/Img22844.png)
+![Ribbon](../../../images/img22844.png)
 
 HTML Editor provides the following ribbon tabs that contain predefined sets of ribbon items, grouped by functionality.
 * **Home** tab contains items that provide quick shortcuts to many frequently used operations (such as clipboard operations, undo/redo operations, changing the text's font and style, etc.)

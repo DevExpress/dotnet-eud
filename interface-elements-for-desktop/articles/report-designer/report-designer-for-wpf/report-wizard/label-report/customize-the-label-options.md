@@ -6,6 +6,6 @@ This wizard page is intended to manually adjust label settings that were automat
 
 Editors on this page allow you to choose the **Page Size** and freely customize label parameters. The pane on the right-hand side provides a label dimensions preview.
 
-![WPDDesigner_ReportWizard_LabelOptions](../../../../../images/Img121987.png)
+![WPDDesigner_ReportWizard_LabelOptions](../../../../../images/img121987.png)
 
 Click **Finish** to complete report creation.

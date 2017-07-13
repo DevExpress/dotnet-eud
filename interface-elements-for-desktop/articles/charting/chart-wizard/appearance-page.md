@@ -7,7 +7,7 @@ title: Appearance Page
 * Choose the style specifying the chart's appearance.
 
 ## Page Elements
-![ChartWizard_AppearancePage](../../../images/Img7230.png)
+![ChartWizard_AppearancePage](../../../images/img7230.png)
 
 **Chart preview area**
 
@@ -17,10 +17,10 @@ Previews a chart's layout.
 
 Specifies a palette to color a series.
 
-![ChartWizard_2a](../../../images/Img7253.png)
+![ChartWizard_2a](../../../images/img7253.png)
 
 **Style Editor**
 
 Specifies the style determining the chart's appearance, depending on the selected palette.
 
-![ChartWizard_2b](../../../images/Img7254.png)
+![ChartWizard_2b](../../../images/img7254.png)
