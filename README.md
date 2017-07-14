@@ -8,16 +8,16 @@ The main goal of this repository is to provide developers who create application
 You can start browsing the end-user documentation content starting from the [INDEX.md](INDEX.md) document.
 
 ## Build Your Own Documentation Website
-Follow the steps below to create the documentation web site for your application. 
+Follow the steps below to create the documentation website for your application. 
 - Download and install the [latest version of DocFX](https://github.com/dotnet/docfx/releases). 
 - Choose the repository branch corresponding to the DevExpress controls version your application is based on. The **master** branch corresponds to the version which is currently in development and generally there is no need to use it.
-- Clone this repository to your computer, or download and extract the zip file.
+- Clone this repository to your computer, or download and extract the ZIP file.
 - If you want to reuse the end-user documentation as is, skip this step. Otherwise, make the required changes that may include:
   - removing files that are not needed in your documentation;
   - adding new documents specific to your application;
   - changing screenshots to match your app UI;
   - creating a [custom DocFX template](https://dotnet.github.io/docfx/tutorial/howto_create_custom_template.html);
-  - etc.
+  - etc...
   > Do not forget to update *toc.yml* ([table-of-content](https://dotnet.github.io/docfx/tutorial/intro_toc.html)) files if you have created or removed certain topics.
 - Build the website. Open the console window and call the DocFX executable with the *docfx.yml* file as a parameter. Optionally, you can pass the *--serve* command line switch - it allows you to immediately view the generated website at http://localhost:8080 when the build process is completed. The documentation content is placed into the *\_site* folder.
     ```
