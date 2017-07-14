@@ -3,14 +3,11 @@
     "content": [
       {
         "files": [
-          "dashboard-for-desktop/articles/**.md",
-          "dashboard-for-desktop/toc.yml",
-          "dashboard-for-web/articles/**.md",
-          "dashboard-for-web/toc.yml",
-          "interface-elements-for-desktop/articles/**.md",
-          "interface-elements-for-desktop/toc.yml",
-          "interface-elements-for-web/articles/**.md",
-          "interface-elements-for-web/toc.yml",
+          "dashboard-for-desktop/**/*.{md,yml}",
+          "dashboard-for-web/**/*.{md,yml}",
+          "interface-elements-for-desktop/**/*.{md,yml}",
+          "interface-elements-for-web/**/*.{md,yml}",
+          
           "toc.yml",
           "README.md"
         ],
@@ -35,9 +32,6 @@
       }
     ],
     "dest": "_site",
-    "template": [
-      "default"
-    ],
-    "noLangKeyword": false
+    "template": "default"
   }
 }
