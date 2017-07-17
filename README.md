@@ -2,7 +2,7 @@
 
 In addition to [developer documentation](https://www.devexpress.com/Support/Documentation/), DevExpress also provides **end-user documentation** for its Desktop (Windows Forms & WPF) and ASP.NET products. This documentation contains information on individual user interface elements (such as grids, navigation panes, data editors, charts, etc.), and provides instructions for end-users about how to solve the most-common tasks with these interface elements.
 
-The main goal of this repository is to provide developers who create applications with DevExpress .NET controls with drafts for their own help documents. You can distribute the included help documents to your end-users "as is" or create documentation for your own products based on them. Help documents are provided as markdown files, which are easy to edit end reuse. The [docfx.json](docfx.json) file allows you to build a documentation website using the [DocFX](https://dotnet.github.io/docfx/) documentation generation tool.
+The main goal of this repository is to provide developers who create applications with DevExpress .NET controls with drafts for their own help documents. You can distribute the included help documents to your end-users "as is" or create documentation for your own products based on them. Help documents are provided as markdown files, which are easy to edit and reuse. The [docfx.json](docfx.json) file allows you to build a documentation website using the [DocFX](https://dotnet.github.io/docfx/) documentation generation tool.
 
 ## Browse End-User Documentation
 You can start browsing the end-user documentation content starting from the [INDEX.md](INDEX.md) document.
