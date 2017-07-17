@@ -9,7 +9,7 @@
           "interface-elements-for-web/**/*.{md,yml}",
           
           "toc.yml",
-          "INDEX.md"
+          "index.md"
         ],
         "exclude": [
           "_*/**",
