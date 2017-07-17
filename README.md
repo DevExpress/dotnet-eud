@@ -23,7 +23,10 @@ Follow the steps below to create the documentation website for your application.
     ```
     docfx.exe docfx.json --serve
     ```
-- Finally, you can deploy the created documentation to any web server or even browse the documentation directly from the local file system, as DocFX creates static HTML files only. 
+- Finally, you can deploy the created documentation to any web server or even browse the documentation directly from the local file system, as DocFX creates static HTML files only.
+
+## Obtain End-User Documentation for Versions Prior to 17.1
+This repository provides help files for DevExpress product versions starting from 17.1. End-user documentation for previous versions is published in CHM and PDF formats at https://www.devexpress.com/Support/Documentation/download.xml?platform=user-dev-docs.
 
 ## Licensing Questions
 According to the [End-User Documentation License Agreement](LICENSE.md), you have a permit to modify, re-use and distribute this end-user documentation.
