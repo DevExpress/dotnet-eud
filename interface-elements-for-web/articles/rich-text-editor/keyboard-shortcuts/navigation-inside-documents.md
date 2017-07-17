@@ -1,5 +1,7 @@
 ---
 title: Navigation inside Documents
+author: Anna Kondratova
+legacyId: 113993
 ---
 # Navigation inside Documents
 The key combinations that allow you to navigate through a document are listed in the table below.

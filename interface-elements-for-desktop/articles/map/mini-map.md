@@ -1,5 +1,7 @@
 ---
 title: Mini Map
+author: Roman Karpov
+legacyId: 17892
 ---
 # Mini Map
 The Mini Map provides a complete overview of the map, as well as additional information about the current map viewport, and allows you to navigate to different map regions.

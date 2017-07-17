@@ -1,5 +1,7 @@
 ---
 title: Bind to a Stored Procedure
+author: Anna Gubareva
+legacyId: 17306
 ---
 # Bind to a Stored Procedure
 > This wizard step appears only if you're creating a new report from scratch. If you're modifying an existing report, this step will not appear and you will start with the [Choose Columns to Display in Your Report](../choose-columns-to-display-in-your-report.md) wizard page.

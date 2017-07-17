@@ -1,5 +1,7 @@
 ---
 title: Query Builder
+author: Anna Gubareva
+legacyId: 114869
 ---
 # Query Builder
 The **Query Builder** provides a visual interface for constructing SQL queries and enables you to solve a variety of tasks.

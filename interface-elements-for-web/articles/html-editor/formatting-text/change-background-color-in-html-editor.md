@@ -1,5 +1,7 @@
 ---
 title: Change Background Color in HTML Editor
+author: Anna Kondratova
+legacyId: 4499
 ---
 # Change Background Color in HTML Editor
 To apply a specific background color to the text, do the following.

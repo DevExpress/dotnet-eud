@@ -1,5 +1,7 @@
 ---
 title: Modifying a Chart Manually
+author: Natalya Senichkina
+legacyId: 16815
 ---
 # Modifying a Chart Manually
 After you create a chart, you can choose whether to apply one of the [predefined chart layouts](applying-a-predefined-chart-layout-and-style.md) or specify your own layout. The **Spreadsheet** provides the capability to [add axis titles](#axis) and [chart titles](#titles), [show the chart legend](#legend), [display gridlines](#gridlines) and [data labels](#labels), etc.

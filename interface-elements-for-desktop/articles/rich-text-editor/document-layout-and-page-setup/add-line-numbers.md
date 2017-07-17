@@ -1,5 +1,7 @@
 ---
 title: Add Line Numbers
+author: Elena Dvoryadkina
+legacyId: 10536
 ---
 # Add Line Numbers
 1. To add line numbers to a whole document, [select the entire document](../text-editing/select-text.md) if your document is divided into multiple [sections](divide-a-documents-into-sections.md). If your document consists of one section only, simply click anywhere within a document.

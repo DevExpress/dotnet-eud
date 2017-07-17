@@ -1,5 +1,7 @@
 ---
 title: Scripts Tab
+author: Eugeniy Burmistrov
+legacyId: 7445
 ---
 # Scripts Tab
 The **Scripts Tab** allows you to manage your report's scripts. It provides centralized access to all the scripts being written for a report or any of its elements ([bands](../report-bands.md) and [controls](../report-controls.md)).

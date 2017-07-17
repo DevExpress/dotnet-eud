@@ -1,5 +1,7 @@
 ---
 title: Reorder Fields Using a Field List
+author: Andrey Aksenov
+legacyId: 9679
 ---
 # Reorder Fields Using a Field List
 You can use an advanced Field List to reorder fields (to learn more about Field Lists, see [Field List Overview](../../field-list-overview.md)).

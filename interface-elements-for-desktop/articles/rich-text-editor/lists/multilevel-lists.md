@@ -1,5 +1,7 @@
 ---
 title: Multilevel Lists
+author: Elena Dvoryadkina
+legacyId: 8544
 ---
 # Multilevel Lists
 ## Create a Multilevel List as You Type

@@ -1,5 +1,7 @@
 ---
 title: Resize Grid Columns, Bands and Card Fields
+author: Alexey Zolotarev
+legacyId: 4570
 ---
 # Resize Grid Columns, Bands and Card Fields
 ## Resize Columns and Bands in Grid Views

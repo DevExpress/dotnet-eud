@@ -1,5 +1,7 @@
 ---
 title: 'Data Tools: Group'
+author: Eugeniy Burmistrov
+legacyId: 17339
 ---
 # Data Tools: Group
 This toolbar is context sensitive, and becomes active after placing the text cursor in a group header or footer.

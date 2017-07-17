@@ -1,5 +1,7 @@
 ---
 title: Image Gallery
+author: Svetlana Nikulina
+legacyId: 16831
 ---
 # Image Gallery
 The **Image Gallery** displays images as thumbnails, allows you to navigate through them using a [pager](image-gallery/image-gallery-pager.md), and provides the ability to display images in a [fullscreen viewer](image-gallery/fullscreen-viewer.md).

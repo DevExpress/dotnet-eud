@@ -1,5 +1,7 @@
 ---
 title: Cross-band Box
+author: Eugeniy Burmistrov
+legacyId: 5022
 ---
 # Cross-band Box
 The **Cross-band Box** control allows you to draw a rectangle through several [bands](../report-bands.md). This can be useful if it is required to visually encompass a section consisting of multiple band areas.

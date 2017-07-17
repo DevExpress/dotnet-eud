@@ -1,5 +1,7 @@
 ---
 title: Search Panel
+author: Anna Gubareva
+legacyId: 116450
 ---
 # Search Panel
 The **Search** panel allows you to find specific text throughout a report document.

@@ -1,5 +1,7 @@
 ---
 title: Print Selection
+author: Eugeniy Burmistrov
+legacyId: 16082
 ---
 # Print Selection
 To print only the selected content of the previewed document, do the following.

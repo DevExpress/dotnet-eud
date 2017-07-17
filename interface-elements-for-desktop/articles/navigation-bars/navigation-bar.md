@@ -1,5 +1,7 @@
 ---
 title: Navigation Bar
+author: Alexey Zolotarev
+legacyId: 4645
 ---
 # Navigation Bar
 ## Expand Groups in the Navigation Bar That Can Display Multiple Groups at One Time

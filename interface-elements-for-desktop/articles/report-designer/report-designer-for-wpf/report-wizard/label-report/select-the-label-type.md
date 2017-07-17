@@ -1,5 +1,7 @@
 ---
 title: Select the Label Type
+author: Anna Gubareva
+legacyId: 116257
 ---
 # Select the Label Type
 This wizard page is intended to select one of the numerous predefined label types.

@@ -1,5 +1,7 @@
 ---
 title: Binding Dashboard Items to Data in OLAP mode
+author: Andrey Aksenov
+legacyId: 15771
 ---
 # Binding Dashboard Items to Data in OLAP mode
 In **OLAP** mode, the cube schema is fetched automatically, and the [Data Source Browser](../ui-elements/data-source-browser.md) displays the entire OLAP cube structure.

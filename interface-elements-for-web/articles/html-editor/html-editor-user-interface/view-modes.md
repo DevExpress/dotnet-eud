@@ -1,5 +1,7 @@
 ---
 title: View Modes
+author: Svetlana Nikulina
+legacyId: 11832
 ---
 # View Modes
 The HTML Editor can operate in three modes: [Design mode](#designmode), [HTML mode](#htmlmode), and [Preview mode](#previewmode). You can switch between modes by using the tab headers.

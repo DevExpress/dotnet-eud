@@ -1,5 +1,7 @@
 ---
 title: Selection and Navigation in Tree List
+author: Alexey Kazakov
+legacyId: 4533
 ---
 # Selection and Navigation in Tree List
 ## Navigation

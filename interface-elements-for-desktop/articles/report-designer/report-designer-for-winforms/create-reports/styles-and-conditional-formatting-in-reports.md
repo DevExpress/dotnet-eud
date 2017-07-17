@@ -1,5 +1,7 @@
 ---
 title: Styles and Conditional Formatting in Reports
+author: Eugeniy Burmistrov
+legacyId: 5508
 ---
 # Styles and Conditional Formatting in Reports
 The topics of this section cover appearance-related information about the Report Designer.

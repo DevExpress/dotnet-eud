@@ -1,5 +1,7 @@
 ---
 title: Chart Type Page
+author: Alexander Temnov
+legacyId: 4156
 ---
 # Chart Type Page
 ## Tasks

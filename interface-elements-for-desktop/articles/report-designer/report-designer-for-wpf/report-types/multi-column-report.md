@@ -1,5 +1,7 @@
 ---
 title: Multi-Column Report
+author: Anna Gubareva
+legacyId: 116204
 ---
 # Multi-Column Report
 This tutorial describes the steps to create a _multi-column report_, meaning that each page of the report document is laid out in a specified number of columns.

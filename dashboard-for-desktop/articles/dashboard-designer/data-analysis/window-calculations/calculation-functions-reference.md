@@ -1,5 +1,7 @@
 ---
 title: Calculation Functions Reference
+author: Natalia Kazakova
+legacyId: 116581
 ---
 # Calculation Functions Reference
 This topic contains the descriptions of window functions that can be used to specify measure expressions.

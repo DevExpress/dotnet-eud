@@ -1,5 +1,7 @@
 ---
 title: Add a Cross-Reference
+author: Anya Vekhina
+legacyId: 114746
 ---
 # Add a Cross-Reference
 This document describes how to add a _cross-reference_ to your report. A cross-reference is simply a link whose target is located within the current document, which allows you to establish easy navigation through a report. In this example, we place a link at the bottom of each group, leading to the beginning of the report.

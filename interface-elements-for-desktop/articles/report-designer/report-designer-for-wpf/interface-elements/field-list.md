@@ -1,5 +1,7 @@
 ---
 title: Field List
+author: Anna Gubareva
+legacyId: 116216
 ---
 # Field List
 The **Field List** panel is intended to display the structure of the data source to which a report is currently bound. This panel can also be used to create new bound [report controls](../report-elements/report-controls.md), manage [calculated fields](../creating-reports/providing-data/calculated-fields.md) and [parameters](../creating-reports/providing-data/report-parameters.md).

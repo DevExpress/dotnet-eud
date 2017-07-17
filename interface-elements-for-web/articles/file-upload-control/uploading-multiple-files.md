@@ -1,5 +1,7 @@
 ---
 title: Uploading Multiple Files
+author: Svetlana Nikulina
+legacyId: 5451
 ---
 # Uploading Multiple Files
 To upload multiple files, do one of the following.

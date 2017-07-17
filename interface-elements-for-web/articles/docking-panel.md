@@ -1,5 +1,7 @@
 ---
 title: Docking Panel
+author: Alexey Kazakov
+legacyId: 11388
 ---
 # Docking Panel
 The panel can be docked to the dock zone or can be floated. To switch panel state to docked or back to float mode, double-click the panel's header.

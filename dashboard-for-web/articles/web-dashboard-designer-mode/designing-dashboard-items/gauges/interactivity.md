@@ -1,5 +1,7 @@
 ---
 title: Interactivity
+author: Natalia Kazakova
+legacyId: 117520
 ---
 # Interactivity
 To enable interaction between the Gauge and other dashboard items, you can use the interactivity features, as **Master Filtering** and **Drill-Down**.

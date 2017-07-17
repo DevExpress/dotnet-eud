@@ -1,5 +1,7 @@
 ---
 title: Manually Update Report Output
+author: Eugeniy Burmistrov
+legacyId: 5571
 ---
 # Manually Update Report Output
 Sometimes you may need to simply update a couple of values in your report before printing it. In these cases, the simplest way to correct your report is to export it to an editable file (e.g. RTF), then use an appropriate editor tool to edit values and print your report.

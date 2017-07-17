@@ -1,5 +1,7 @@
 ---
 title: Working with Dropdown Editors
+author: Alexey Zolotarev
+legacyId: 4710
 ---
 # Working with Dropdown Editors
 ## Open Editor's Dropdown

@@ -1,5 +1,7 @@
 ---
 title: Interactivity
+author: Andrey Aksenov
+legacyId: 16615
 ---
 # Interactivity
 This document describes the **Master Filtering** capability, which enables interaction between the **Geo Point Map** and other dashboard items.

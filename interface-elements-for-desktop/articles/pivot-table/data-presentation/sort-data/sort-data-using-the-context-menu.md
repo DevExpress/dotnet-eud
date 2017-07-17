@@ -1,5 +1,7 @@
 ---
 title: Sort Data Using the Context Menu
+author: Andrey Aksenov
+legacyId: 11076
 ---
 # Sort Data Using the Context Menu
 Depending on the Pivot Table settings made by your application vendor, you may be able to sort data using the context menu.

@@ -1,5 +1,7 @@
 ---
 title: Table Report
+author: Eugeniy Burmistrov
+legacyId: 5048
 ---
 # Table Report
 This tutorial describes the steps to create a _table report_, which means that the report's data is arranged into a table-like layout. This feature should not be confused with the [master-detail report](master-detail-report.md) or [cross-tab report](cross-tab-report.md).

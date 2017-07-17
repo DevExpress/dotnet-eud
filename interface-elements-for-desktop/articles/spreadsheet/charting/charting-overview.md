@@ -1,5 +1,7 @@
 ---
 title: Charting Overview
+author: Natalya Senichkina
+legacyId: 16811
 ---
 # Charting Overview
 The **Spreadsheet** provides the capability to summarize worksheet data visually using a variety of **charts**. Charts display data series visually to make data interpretation easier, and show the relationship between different data series. To create a chart, click the chart type you wish to insert in the **Charts** group within the **Insert** tab.

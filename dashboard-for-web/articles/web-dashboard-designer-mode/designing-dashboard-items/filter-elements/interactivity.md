@@ -1,5 +1,7 @@
 ---
 title: Interactivity
+author: Natalia Kazakova
+legacyId: 117561
 ---
 # Interactivity
 This document describes filtering capabilities supported by filter elements. You can use filter elements to apply master filtering to other dashboard items or introduce hierarchical filtering by adding several connected filters.

@@ -1,5 +1,7 @@
 ---
 title: Filter Elements
+author: Andrey Aksenov
+legacyId: 17948
 ---
 # Filter Elements
 Filter elements provide the capability to [filter](../data-presentation/master-filtering.md) other dashboard items.

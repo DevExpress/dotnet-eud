@@ -1,5 +1,7 @@
 ---
 title: Report Designer UI
+author: Eugeniy Burmistrov
+legacyId: 4982
 ---
 # Report Designer UI
 The documents in this section are dedicated to the elements of the Report Designer user interface.

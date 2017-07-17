@@ -1,5 +1,7 @@
 ---
 title: Build Complex Filter Criteria
+author: Andrey Aksenov
+legacyId: 11063
 ---
 # Build Complex Filter Criteria
 To build complex filter criteria consisting of multiple filter clauses using various filter operators, you can use a Prefilter (Filter Editor).

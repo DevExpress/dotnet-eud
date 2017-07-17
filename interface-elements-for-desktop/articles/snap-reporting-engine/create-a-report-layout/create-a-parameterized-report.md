@@ -1,5 +1,7 @@
 ---
 title: Create a Parameterized Report
+author: Eugeniy Burmistrov
+legacyId: 12453
 ---
 # Create a Parameterized Report
 This tutorial illustrates the steps required to create a parameterized report. In this tutorial, we will create a parameter and pass it to the report's filtering expression. You are not limited by the number of parameters you can create, or the data type (e.g., _string_, _date-time_, _Boolean_, _integer_ and _double_). Parameters can be used in other ways such as **data binding** and **calculated fields**. Tasks that can be solved using parameters are described in the [Pass Parameter Values](../connect-to-data/pass-parameter-values.md) topic.

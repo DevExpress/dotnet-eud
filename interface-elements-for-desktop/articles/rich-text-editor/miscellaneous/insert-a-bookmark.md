@@ -1,5 +1,7 @@
 ---
 title: Insert a Bookmark
+author: Elena Dvoryadkina
+legacyId: 8467
 ---
 # Insert a Bookmark
 A **Bookmark** exposes a document range with a name. The range can have a zero length. The name should start with a letter and can include numbers.

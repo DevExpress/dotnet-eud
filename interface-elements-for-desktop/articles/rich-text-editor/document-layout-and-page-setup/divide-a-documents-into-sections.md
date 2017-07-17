@@ -1,5 +1,7 @@
 ---
 title: Divide a Documents into Sections
+author: Elena Dvoryadkina
+legacyId: 10534
 ---
 # Divide a Documents into Sections
 You can divide your document into sections to specify parts of a document that have different [page settings](adjust-page-settings.md) (page margins, page orientation, paper size), [column layouts](lay-out-text-in-columns.md), [line numbering](add-line-numbers.md) and [headers and footers](../header-and-footer.md).

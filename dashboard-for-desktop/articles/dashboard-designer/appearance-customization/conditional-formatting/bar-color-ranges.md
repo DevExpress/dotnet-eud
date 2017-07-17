@@ -1,5 +1,7 @@
 ---
 title: Bar Color Ranges
+author: Andrey Aksenov
+legacyId: 115243
 ---
 # Bar Color Ranges
 Bar Color Ranges allow you to visualize numeric values using bars whose colors are contained in the specified color set.

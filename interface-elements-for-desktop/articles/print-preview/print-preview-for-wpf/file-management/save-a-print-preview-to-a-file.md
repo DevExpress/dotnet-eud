@@ -1,5 +1,7 @@
 ---
 title: Save a Print Preview to a File
+author: Anna Gubareva
+legacyId: 116484
 ---
 # Save a Print Preview to a File
 If you've modified your document, and there's a chance you'll need to print out this document version more than once, you can save the document to a file on disk. After that, you can simply load your document and print it out, without having to apply the same changes again.

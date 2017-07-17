@@ -1,5 +1,7 @@
 ---
 title: Rearrange Toolbars and Menus
+author: Alexey Zolotarev
+legacyId: 4702
 ---
 # Rearrange Toolbars and Menus
 To move a bar docked to a form to a new position, drag it via its drag widget.

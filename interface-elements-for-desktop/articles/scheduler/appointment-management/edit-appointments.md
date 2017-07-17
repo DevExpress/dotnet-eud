@@ -1,5 +1,7 @@
 ---
 title: Edit Appointments
+author: Boris Zaitsev
+legacyId: 4181
 ---
 # Edit Appointments
 You can modify existing appointments in the following ways:

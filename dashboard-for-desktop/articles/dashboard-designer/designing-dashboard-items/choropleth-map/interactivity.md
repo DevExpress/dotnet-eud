@@ -1,5 +1,7 @@
 ---
 title: Interactivity
+author: Andrey Aksenov
+legacyId: 16610
 ---
 # Interactivity
 This document describes the **Master Filtering** feature, which enables interaction between the **Choropleth Map** and other dashboard items.

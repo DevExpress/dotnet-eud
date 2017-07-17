@@ -1,5 +1,7 @@
 ---
 title: Page Header and Footer
+author: Eugeniy Burmistrov
+legacyId: 5004
 ---
 # Page Header and Footer
 The **Page Header** and **Page Footer** bands are located at the top and bottom of every page in a report.

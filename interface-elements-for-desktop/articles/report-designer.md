@@ -1,5 +1,7 @@
 ---
 title: Report Designer
+author: Anna Gubareva
+legacyId: 116545
 ---
 # Report Designer
 This documentation section contains information about the basic principles of creating reports with Report Designers.

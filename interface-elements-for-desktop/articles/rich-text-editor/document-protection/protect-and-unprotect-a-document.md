@@ -1,5 +1,7 @@
 ---
 title: Protect and Unprotect a Document
+author: Elena Dvoryadkina
+legacyId: 9344
 ---
 # Protect and Unprotect a Document
 ## <a name="protectdocument"/>Add Protection to a Document

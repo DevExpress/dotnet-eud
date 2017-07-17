@@ -1,5 +1,7 @@
 ---
 title: Header Filter
+author: Svetlana Nikulina
+legacyId: 115291
 ---
 # Header Filter
 To filter data or change the filter conditions in the CardView, you can use the **Header Filter**.

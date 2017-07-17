@@ -1,5 +1,7 @@
 ---
 title: Empty Report
+author: Anna Gubareva
+legacyId: 116222
 ---
 # Empty Report
 The **Report Wizard** allows you to create reports of three kinds: **empty reports**, [data-bound reports](data-bound-report.md) and [label reports](label-report.md). To create a new blank report, select **Empty Report** and click **Finish**.

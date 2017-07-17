@@ -1,5 +1,7 @@
 ---
 title: Legend
+author: Andrey Aksenov
+legacyId: 16555
 ---
 # Legend
 A **legend** is an element of a chart that identifies [chart series](providing-data.md) and series points (for instance, [colored points](../../appearance-customization/coloring/coloring-concepts.md) corresponding to argument values).

@@ -1,5 +1,7 @@
 ---
 title: Add, Change or Delete a Border for a Picture or Text Box
+author: Dmitry Platonov
+legacyId: 118852
 ---
 # Add, Change or Delete a Border for a Picture or Text Box
 You can specify the color and weight of the outside border of a floating picture or text box, or fully delete the border.

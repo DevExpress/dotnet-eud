@@ -1,5 +1,7 @@
 ---
 title: Component Tray
+author: Eugeniy Burmistrov
+legacyId: 4983
 ---
 # Component Tray
 The **Component Tray** shows components (non-visual report helpers) whose primary purpose is to [bind a report to data](../../create-reports/binding-a-report-to-data.md). You can click them to display and edit their settings using the [Property grid](property-grid.md).

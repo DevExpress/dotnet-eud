@@ -1,5 +1,7 @@
 ---
 title: Interactivity
+author: Andrey Aksenov
+legacyId: 18086
 ---
 # Interactivity
 This document describes the features that enable interaction between the **Pivot** and other dashboard items. These features include **Master Filtering**.

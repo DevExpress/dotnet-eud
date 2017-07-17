@@ -1,5 +1,7 @@
 ---
 title: Create a Table of Contents
+author: Anna Gubareva
+legacyId: 116343
 ---
 # Create a Table of Contents
 This tutorial describes how to create a report with a table of contents, which is automatically created based on the [bookmarks](add-bookmarks.md) existing in a report.

@@ -1,5 +1,7 @@
 ---
 title: Choose a Report Style
+author: Anya Vekhina
+legacyId: 114524
 ---
 # Choose a Report Style
 On this page, you can specify a visual style for the for the report.

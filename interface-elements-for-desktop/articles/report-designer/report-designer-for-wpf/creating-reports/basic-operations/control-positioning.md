@@ -1,5 +1,7 @@
 ---
 title: Control Positioning
+author: Anna Gubareva
+legacyId: 116398
 ---
 # Control Positioning
 This document describes how to easily construct professionally looking reports by precisely aligning their [elements](../../report-elements/report-controls.md) to each other. These are useful when creating new reports from scratch or when fixing cluttered report layouts with dozens of randomly scattered controls.

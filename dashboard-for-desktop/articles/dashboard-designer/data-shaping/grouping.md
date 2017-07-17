@@ -1,5 +1,7 @@
 ---
 title: Grouping
+author: Andrey Aksenov
+legacyId: 16530
 ---
 # Grouping
 The **Dashboard Designer** allows you to group dimension values and display summaries for entire groups rather than individual values.

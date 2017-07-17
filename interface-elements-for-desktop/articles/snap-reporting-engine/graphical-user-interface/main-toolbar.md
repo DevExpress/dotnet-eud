@@ -1,5 +1,7 @@
 ---
 title: Main Toolbar
+author: Eugeniy Burmistrov
+legacyId: 17328
 ---
 # Main Toolbar
 The topics in this section describe all ribbon tab and bar commands available in the [toolbar](snap-application-elements/main-toolbar.md) of a Snap application.

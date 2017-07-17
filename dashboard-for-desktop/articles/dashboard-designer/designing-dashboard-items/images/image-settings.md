@@ -1,5 +1,7 @@
 ---
 title: Image Settings
+author: Natalia Kazakova
+legacyId: 116557
 ---
 # Image Settings
 You can customize the representation of Image and Bound Image dashboard items in different ways.

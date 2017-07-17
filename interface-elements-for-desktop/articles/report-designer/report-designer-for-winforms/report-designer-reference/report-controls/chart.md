@@ -1,5 +1,7 @@
 ---
 title: Chart
+author: Eugeniy Burmistrov
+legacyId: 5017
 ---
 # Chart
 The **Chart** is a sophisticated control used to embed graphs into your report. It graphically represents a _series_ of _points_ using numerous 2D or 3D chart types. A Chart can be populated with points both _manually_ (by specifying _arguments_ and _values_ for each point) and _dynamically_ (by connecting it to the report's data source, or binding it to a separate one).

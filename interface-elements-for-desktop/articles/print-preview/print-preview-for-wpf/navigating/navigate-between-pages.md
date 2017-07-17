@@ -1,5 +1,7 @@
 ---
 title: Navigate Between Pages
+author: Anna Gubareva
+legacyId: 116491
 ---
 # Navigate Between Pages
 To navigate between document pages, use the scrollbars or navigation buttons on the Print Preview's toolbar. These buttons allow you to switch to the first, previous, next, or last page of a document.

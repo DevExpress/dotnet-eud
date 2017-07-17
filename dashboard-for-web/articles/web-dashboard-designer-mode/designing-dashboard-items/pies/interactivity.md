@@ -1,5 +1,7 @@
 ---
 title: Interactivity
+author: Natalia Kazakova
+legacyId: 117529
 ---
 # Interactivity
 To enable interaction between the Pie and other dashboard items, you can use interactivity features like **Master Filtering** and **Drill-Down**.

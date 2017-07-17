@@ -1,5 +1,7 @@
 ---
 title: Protect a Worksheet
+author: Boris Zaitsev
+legacyId: 17992
 ---
 # Protect a Worksheet
 Worksheet protection locks the cells so that you can only perform a specific (restricted) set of actions.

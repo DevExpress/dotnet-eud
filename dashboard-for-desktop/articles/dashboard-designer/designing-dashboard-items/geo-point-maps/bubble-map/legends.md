@@ -1,5 +1,7 @@
 ---
 title: Legends
+author: Andrey Aksenov
+legacyId: 17257
 ---
 # Legends
 Bubble Map provides two types of legends used to identify map objects - color and weighted legends.

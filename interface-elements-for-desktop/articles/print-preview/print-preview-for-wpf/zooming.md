@@ -1,5 +1,7 @@
 ---
 title: Zooming
+author: Anna Gubareva
+legacyId: 116490
 ---
 # Zooming
 To zoom in or out a document, click the **Zoom In** ![WPFDesigner_PreviewToolbar_ZoomIn](../../../images/img120167.png) or **Zoom Out** ![WPFDesigner_PreviewToolbar_ZoomOut](../../../images/img120165.png) button on the Print Preview's toolbar. The alternative way to zoom in and out the document is to hold down CTRL and rotate the mouse wheel.

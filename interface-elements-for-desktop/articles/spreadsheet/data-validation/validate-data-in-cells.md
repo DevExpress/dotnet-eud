@@ -1,5 +1,7 @@
 ---
 title: Validate Data in Cells
+author: Natalya Senichkina
+legacyId: 115298
 ---
 # Validate Data in Cells
 The **Spreadsheet** allows you to use data validation to impose restrictions on cells to prevent other users from entering incorrect values in validated cells. For example, you can create a drop-down list of allowed values, restrict the number of characters entered into a cell, validate data using spreadsheet formulas, display an error message, provide an input message explaining what values can be entered into cells, etc.

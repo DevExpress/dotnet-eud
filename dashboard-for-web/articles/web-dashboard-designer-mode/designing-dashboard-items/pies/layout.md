@@ -1,5 +1,7 @@
 ---
 title: Layout
+author: Natalia Kazakova
+legacyId: 117996
 ---
 # Layout
 The Pie dashboard item allows you to specify the number of columns or rows in which pies are arranged. For example, the following image show pies arranged into 3 columns.

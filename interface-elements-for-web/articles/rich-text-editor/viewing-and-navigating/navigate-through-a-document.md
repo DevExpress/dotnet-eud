@@ -1,5 +1,7 @@
 ---
 title: Navigate through a Document
+author: Anna Kondratova
+legacyId: 113829
 ---
 # Navigate through a Document
 You can navigate through a document in the following ways:

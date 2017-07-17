@@ -1,5 +1,7 @@
 ---
 title: Saving a Dashboard
+author: Andrey Aksenov
+legacyId: 16519
 ---
 # Saving a Dashboard
 A dashboard provides the capability to save a dashboard definition (dashboard items, data sources, data binding, layout settings, etc.) to an XML file, and restore the dashboard from an XML file.

@@ -1,5 +1,7 @@
 ---
 title: Open Toolbar Customization Window
+author: Alexey Zolotarev
+legacyId: 4703
 ---
 # Open Toolbar Customization Window
 Opening the Customization window activates the customization mode where you can:

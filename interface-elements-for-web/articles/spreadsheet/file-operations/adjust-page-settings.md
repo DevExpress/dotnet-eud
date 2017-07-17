@@ -1,5 +1,7 @@
 ---
 title: Adjust Page Settings
+author: Anna Kondratova
+legacyId: 18240
 ---
 # Adjust Page Settings
 Before you print a worksheet, you can change page layout settings such as [page margins](#margins), [page orientation](#orientation), [paper size](#size) and specify whether [gridlines and headings](#print) should be printed in a worksheet. 

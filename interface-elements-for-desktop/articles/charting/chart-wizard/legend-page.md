@@ -1,5 +1,7 @@
 ---
 title: Legend Page
+author: Eugeniy Burmistrov
+legacyId: 4165
 ---
 # Legend Page
 ## Tasks

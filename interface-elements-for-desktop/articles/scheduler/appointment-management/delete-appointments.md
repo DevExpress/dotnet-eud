@@ -1,5 +1,7 @@
 ---
 title: Delete Appointments
+author: Elena Dvoryadkina
+legacyId: 4182
 ---
 # Delete Appointments
 ## Context Menu

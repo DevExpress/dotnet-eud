@@ -1,5 +1,7 @@
 ---
 title: Filter Grid Data
+author: Alexey Zolotarev
+legacyId: 4562
 ---
 # Filter Grid Data
 ## Invoke the Filter Dropdown List

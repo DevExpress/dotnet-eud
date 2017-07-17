@@ -1,5 +1,7 @@
 ---
 title: Exporting
+author: Natalia Kazakova
+legacyId: 117953
 ---
 # Exporting
 The Web Dashboard allows you to export an entire dashboard or individual [dashboard items](designing-dashboard-items.md). You can export the dashboard/dashboard items to PDF and Image formats; additionally, you can export dashboard item's data to Excel/CSV.

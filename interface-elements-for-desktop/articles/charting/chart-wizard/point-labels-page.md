@@ -1,5 +1,7 @@
 ---
 title: Point Labels Page
+author: Roman Karpov
+legacyId: 4163
 ---
 # Point Labels Page
 ## Tasks

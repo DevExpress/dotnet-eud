@@ -1,5 +1,7 @@
 ---
 title: Coloring
+author: Andrey Aksenov
+legacyId: 16782
 ---
 # Coloring
 The Bubble Map dashboard item automatically selects palette and scale settings used to color bubbles depending on the [provided](providing-data.md) values.

@@ -1,5 +1,7 @@
 ---
 title: Hide Fields Using the Context Menu
+author: Andrey Aksenov
+legacyId: 9667
 ---
 # Hide Fields Using the Context Menu
 To hide a field, right-click its header and choose **Hide** from the context menu.

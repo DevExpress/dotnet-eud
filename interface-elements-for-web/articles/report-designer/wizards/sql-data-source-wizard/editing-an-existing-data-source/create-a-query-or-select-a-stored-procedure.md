@@ -1,5 +1,7 @@
 ---
 title: Create a Query or Select a Stored Procedure
+author: Anna Gubareva
+legacyId: 117825
 ---
 # Create a Query or Select a Stored Procedure
 On this page, you can run the [Query Builder](../../../interface-elements/query-builder.md) to create a new query, specify custom SQL (if this option is enabled by your software vendor) or select a stored procedure.

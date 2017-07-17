@@ -1,5 +1,7 @@
 ---
 title: Tab Control
+author: Svetlana Nikulina
+legacyId: 9380
 ---
 # Tab Control
 This section describes the capabilities provided by the Tab Control, which is used for a presentation of tabbed interfaces.

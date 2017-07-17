@@ -1,5 +1,7 @@
 ---
 title: Page Break
+author: Eugeniy Burmistrov
+legacyId: 5020
 ---
 # Page Break
 The **Page Break** control's sole purpose is to insert a page delimiter at any point within a report.

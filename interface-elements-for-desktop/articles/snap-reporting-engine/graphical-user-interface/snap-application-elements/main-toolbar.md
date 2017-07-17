@@ -1,5 +1,7 @@
 ---
 title: Main Toolbar
+author: Eugeniy Burmistrov
+legacyId: 17312
 ---
 # Main Toolbar
 The **Main Toolbar** in a Snap application provides quick access to the available document editing tools. The following toolbar styles are available:

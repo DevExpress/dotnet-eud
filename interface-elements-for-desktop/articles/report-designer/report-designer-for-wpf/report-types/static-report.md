@@ -1,5 +1,7 @@
 ---
 title: Static Report
+author: Anna Gubareva
+legacyId: 116201
 ---
 # Static Report
 This tutorial describes the steps needed to create a _static report_, which means that the report is not bound to a data source. This example demonstrates how to create a report with the one-page content repeated 20 times.

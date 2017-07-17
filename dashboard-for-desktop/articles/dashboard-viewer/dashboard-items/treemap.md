@@ -1,5 +1,7 @@
 ---
 title: Treemap
+author: Andrey Aksenov
+legacyId: 15659
 ---
 # Treemap
 The Treemap dashboard item visualizes data in nested rectangles that are called _tiles_.

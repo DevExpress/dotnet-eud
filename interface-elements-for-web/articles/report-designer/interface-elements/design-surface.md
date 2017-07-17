@@ -1,5 +1,7 @@
 ---
 title: Design Surface
+author: Anna Gubareva
+legacyId: 113886
 ---
 # Design Surface
 The **Design Surface** displays a report that is being edited in the [Web Report Designer](../../report-designer.md).

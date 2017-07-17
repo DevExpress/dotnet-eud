@@ -1,5 +1,7 @@
 ---
 title: Change Field List Layout
+author: Andrey Aksenov
+legacyId: 9672
 ---
 # Change Field List Layout
 By default, an advanced Field List displays a hidden fields section on the top, and four sections that correspond to Pivot Table areas at the bottom (see [Field List Overview](../field-list-overview.md) for details).

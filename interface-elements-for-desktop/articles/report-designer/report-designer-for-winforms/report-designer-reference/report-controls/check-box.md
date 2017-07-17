@@ -1,5 +1,7 @@
 ---
 title: Check Box
+author: Eugeniy Burmistrov
+legacyId: 5008
 ---
 # Check Box
 The **Check Box** control is intended to display True/False or Checked/Unchecked/Indeterminate states in a report, by displaying (or not) a check mark, which can be accompanied by a text description.

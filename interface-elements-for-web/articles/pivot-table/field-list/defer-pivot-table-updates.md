@@ -1,5 +1,7 @@
 ---
 title: Defer Pivot Table Updates
+author: Andrey Aksenov
+legacyId: 11071
 ---
 # Defer Pivot Table Updates
 When you perform several sequential operations like hiding, displaying or reordering fields using an advanced Field List, Pivot Table is updated after each operation.

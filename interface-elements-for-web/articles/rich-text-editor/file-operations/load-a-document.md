@@ -1,5 +1,7 @@
 ---
 title: Load a Document
+author: Anna Kondratova
+legacyId: 113812
 ---
 # Load a Document
 To load a document, select the **File** tab, and click the **Open** button in the **Common** group.

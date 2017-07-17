@@ -1,5 +1,7 @@
 ---
 title: Chart with Static Series
+author: Anna Gubareva
+legacyId: 116211
 ---
 # Chart with Static Series
 This document describes how to create a report with a [Chart](../report-elements/report-controls.md) control bound to data, so that a particular series has its own data source, and other settings. To simplify the example, both series obtain their data from the same data source. However, different data sources can be used for different series, if necessary.

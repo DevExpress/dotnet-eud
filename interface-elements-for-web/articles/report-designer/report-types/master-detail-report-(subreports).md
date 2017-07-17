@@ -1,5 +1,7 @@
 ---
 title: Master-Detail Report (Subreports)
+author: Eugeniy Burmistrov
+legacyId: 114840
 ---
 # Master-Detail Report (Subreports)
 This tutorial describes the steps to create a master-detail report using the [Subreport](../report-elements/report-controls.md) control. For an alternative approach, refer to [Master-Detail Report (Detail Report Bands)](master-detail-report-(detail-report-bands).md).

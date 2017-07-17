@@ -1,5 +1,7 @@
 ---
 title: Design Panel
+author: Eugeniy Burmistrov
+legacyId: 4985
 ---
 # Design Panel
 The **Design Panel** is the Report Designer's main area, where a report is being constructed and previewed.

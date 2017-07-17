@@ -1,5 +1,7 @@
 ---
 title: Resize Cards in Grids
+author: Alexey Zolotarev
+legacyId: 4644
 ---
 # Resize Cards in Grids
 ## Resize Cards in Card Views

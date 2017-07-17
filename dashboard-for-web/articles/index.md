@@ -1,5 +1,7 @@
 ---
 title: Dashboard for Web
+author: Andrey Aksenov
+legacyId: 16709
 ---
 # Dashboard for Web
 The Web Dashboard allows you to create and display dashboards on the web.

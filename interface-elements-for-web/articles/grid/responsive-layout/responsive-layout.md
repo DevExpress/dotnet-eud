@@ -1,5 +1,7 @@
 ---
 title: Responsive Layout
+author: Svetlana Nikulina
+legacyId: 11830
 ---
 # Responsive Layout
 The grid automatically hides columns one by one when the browser window is resized. When a grid has hidden columns, an ellipsis button (**Show Adaptive Detail** button) is displayed for every row.

@@ -1,5 +1,7 @@
 ---
 title: Select Cards
+author: Svetlana Nikulina
+legacyId: 115287
 ---
 # Select Cards
 If multiple card selection is allowed by the application vendor, you can select multiple cards by doing one of the following.

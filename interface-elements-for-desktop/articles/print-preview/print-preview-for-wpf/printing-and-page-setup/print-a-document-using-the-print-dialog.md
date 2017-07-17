@@ -1,5 +1,7 @@
 ---
 title: Print a Document Using the Print Dialog
+author: Anna Gubareva
+legacyId: 116486
 ---
 # Print a Document Using the Print Dialog
 To print a document, do one of the following.

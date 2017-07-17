@@ -1,5 +1,7 @@
 ---
 title: Create a Master-Detail Data Source
+author: Boris Zaitsev
+legacyId: 12299
 ---
 # Create a Master-Detail Data Source
 This tutorial describes how to add a master-detail relation to the document's data source.

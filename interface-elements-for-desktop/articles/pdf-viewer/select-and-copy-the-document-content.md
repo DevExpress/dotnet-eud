@@ -1,5 +1,7 @@
 ---
 title: Select and Copy the Document Content
+author: Alexander Temnov
+legacyId: 17480
 ---
 # Select and Copy the Document Content
 The PDF Viewer provides for selecting and copying text from the selectable document to the clipboard. Note that only plain text copying is supported.

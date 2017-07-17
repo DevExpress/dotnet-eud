@@ -1,5 +1,7 @@
 ---
 title: Preview, Print and Export Reports
+author: Eugeniy Burmistrov
+legacyId: 5137
 ---
 # Preview, Print and Export Reports
 ## Preview and Print a Report

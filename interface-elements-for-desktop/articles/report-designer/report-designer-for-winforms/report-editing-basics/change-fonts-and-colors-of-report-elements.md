@@ -1,5 +1,7 @@
 ---
 title: Change Fonts and Colors of Report Elements
+author: Eugeniy Burmistrov
+legacyId: 5578
 ---
 # Change Fonts and Colors of Report Elements
 To change fonts and colors (as well as paddings, text alignment and other appearance properties) of a report [control](../report-designer-reference/report-controls.md) or [band](../report-designer-reference/report-bands.md), select this element and do one of the following.

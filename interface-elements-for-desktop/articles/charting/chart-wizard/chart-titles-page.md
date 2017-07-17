@@ -1,5 +1,7 @@
 ---
 title: Chart Titles Page
+author: Alexander Temnov
+legacyId: 4164
 ---
 # Chart Titles Page
 ## Tasks

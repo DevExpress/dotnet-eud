@@ -1,5 +1,7 @@
 ---
 title: Images
+author: Andrey Aksenov
+legacyId: 16621
 ---
 # Images
 The Dashboard Designer allows you to add images to a dashboard.

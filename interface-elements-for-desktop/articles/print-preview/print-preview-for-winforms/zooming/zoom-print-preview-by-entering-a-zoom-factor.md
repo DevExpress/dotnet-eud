@@ -1,5 +1,7 @@
 ---
 title: Zoom Print Preview by Entering a Zoom Factor
+author: Eugeniy Burmistrov
+legacyId: 4316
 ---
 # Zoom Print Preview by Entering a Zoom Factor
 To zoom to a specific zoom factor, do one of the following.

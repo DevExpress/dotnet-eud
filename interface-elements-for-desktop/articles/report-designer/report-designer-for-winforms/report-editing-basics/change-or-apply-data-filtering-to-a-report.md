@@ -1,5 +1,7 @@
 ---
 title: Change or Apply Data Filtering to a Report
+author: Anna Gubareva
+legacyId: 5579
 ---
 # Change or Apply Data Filtering to a Report
 If a report is [bound to a data source](../create-reports/binding-a-report-to-data.md) that contains far more rows than are necessary for processing report creation, you can exclude excessive or undesired data. To accomplish this, construct a filtering expression using single or multiple data fields.

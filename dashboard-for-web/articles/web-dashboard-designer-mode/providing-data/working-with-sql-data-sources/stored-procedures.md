@@ -1,5 +1,7 @@
 ---
 title: Stored Procedures
+author: Natalia Kazakova
+legacyId: 117971
 ---
 # Stored Procedures
 If you use a stored procedure to supply the dashboard with data, you should specify the stored procedure parameters. In the [Dashboard Data Source Wizard](dashboard-data-source-wizard.md) dialog, select the required stored procedure and click **Next**.

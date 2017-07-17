@@ -1,5 +1,7 @@
 ---
 title: Providing Data
+author: Anya Vekhina
+legacyId: 114601
 ---
 # Providing Data
 The topics in this section highlight the basic concepts of providing data for reports and their elements (such as calculated fields and parameters) in the [Web Report Designer](../../report-designer.md).

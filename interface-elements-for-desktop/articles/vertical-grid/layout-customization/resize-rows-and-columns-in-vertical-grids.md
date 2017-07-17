@@ -1,5 +1,7 @@
 ---
 title: Resize Rows and Columns in Vertical Grids
+author: Alexey Zolotarev
+legacyId: 4679
 ---
 # Resize Rows and Columns in Vertical Grids
 ## Resize Rows

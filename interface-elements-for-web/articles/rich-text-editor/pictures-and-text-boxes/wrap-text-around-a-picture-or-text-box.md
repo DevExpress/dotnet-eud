@@ -1,5 +1,7 @@
 ---
 title: Wrap Text Around a Picture or Text Box
+author: Dmitry Platonov
+legacyId: 118851
 ---
 # Wrap Text Around a Picture or Text Box
 ## Position a Picture or Text Box within a Document

@@ -1,5 +1,7 @@
 ---
 title: Report Parameters
+author: Anya Vekhina
+legacyId: 113891
 ---
 # Report Parameters
 This document describes the main concepts of using parameters in the [Web Report Designer](../../../report-designer.md) and provides information on how to create parameters and pass their values.

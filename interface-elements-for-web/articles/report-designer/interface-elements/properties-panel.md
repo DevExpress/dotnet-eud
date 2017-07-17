@@ -1,5 +1,7 @@
 ---
 title: Properties Panel
+author: Anna Gubareva
+legacyId: 113887
 ---
 # Properties Panel
 The **Properties** panel allows you to access and edit the settings of a report and its elements.

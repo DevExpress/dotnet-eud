@@ -1,5 +1,7 @@
 ---
 title: Export and Import the AcroForm Data
+author: Alexander Temnov
+legacyId: 115331
 ---
 # Export and Import the AcroForm Data
 This document describes how to export and import a document with AcroForm data.

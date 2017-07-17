@@ -1,5 +1,7 @@
 ---
 title: Image Uploading
+author: Svetlana Nikulina
+legacyId: 114195
 ---
 # Image Uploading
 Click the **Upload Image** button to invoke the **File Upload** dialog. In the dialog, select an image to be uploaded and click **Open**.

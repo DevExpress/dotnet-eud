@@ -1,5 +1,7 @@
 ---
 title: TXT-Specific Export Options
+author: Anna Gubareva
+legacyId: 4334
 ---
 # TXT-Specific Export Options
 When [exporting a document](exporting-from-print-preview.md), you can define TXT-specific exporting options using the following dialog.

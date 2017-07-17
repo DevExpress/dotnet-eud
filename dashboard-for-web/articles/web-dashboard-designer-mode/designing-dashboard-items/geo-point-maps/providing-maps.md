@@ -1,5 +1,7 @@
 ---
 title: Providing Maps
+author: Andrey Aksenov
+legacyId: 117939
 ---
 # Providing Maps
 This topic describes how to use the default **DevExpress Dashboard** maps and configure their attributes.

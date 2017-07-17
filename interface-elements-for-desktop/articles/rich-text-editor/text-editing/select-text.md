@@ -1,5 +1,7 @@
 ---
 title: Select Text
+author: Elena Dvoryadkina
+legacyId: 7463
 ---
 # Select Text
 To select text in the **Rich Editor**, use the following mouse actions and keyboard shortcuts.

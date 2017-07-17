@@ -1,5 +1,7 @@
 ---
 title: Create a New Report
+author: Eugeniy Burmistrov
+legacyId: 5043
 ---
 # Create a New Report
 This topic explains how to create a new blank report in the Report Designer. Before you start, make sure to [back up the current report](../../report-editing-basics/back-up-the-current-layout-before-modifying-it.md).

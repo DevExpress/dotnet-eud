@@ -1,5 +1,7 @@
 ---
 title: 'Data Tools: List'
+author: Eugeniy Burmistrov
+legacyId: 17340
 ---
 # Data Tools: List
 This toolbar is context sensitive, and becomes active after selecting a **Snap list** in the document.

@@ -1,5 +1,7 @@
 ---
 title: Keyboard Navigation
+author: Andrey Trukhatchev
+legacyId: 8452
 ---
 # Keyboard Navigation
 If keyboard support is enabled within the TreeList, its primary navigation operations (such as accessing the control within the form, moving focus through its nodes, node selection and expanding/collapsing, paging) can be quickly and effectively performed, using a keyboard as an alternative to a pointing device.

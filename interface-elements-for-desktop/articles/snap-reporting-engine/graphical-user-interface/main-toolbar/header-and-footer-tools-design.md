@@ -1,5 +1,7 @@
 ---
 title: 'Header and Footer Tools: Design'
+author: Eugeniy Burmistrov
+legacyId: 17330
 ---
 # Header and Footer Tools: Design
 This toolbar is context sensitive, and becomes active after double-clicking the page header or footer in a document.

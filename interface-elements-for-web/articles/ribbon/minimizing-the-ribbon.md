@@ -1,5 +1,7 @@
 ---
 title: Minimizing the Ribbon
+author: Svetlana Nikulina
+legacyId: 16828
 ---
 # Minimizing the Ribbon
 To minimize a ribbon, use the **Minimize** button displayed in the top right corner of the ribbon.

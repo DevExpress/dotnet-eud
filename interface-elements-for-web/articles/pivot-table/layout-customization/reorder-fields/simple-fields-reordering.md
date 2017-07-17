@@ -1,5 +1,7 @@
 ---
 title: Simple Fields Reordering
+author: Andrey Aksenov
+legacyId: 11067
 ---
 # Simple Fields Reordering
 To move a field to another position, use drag-and-drop.

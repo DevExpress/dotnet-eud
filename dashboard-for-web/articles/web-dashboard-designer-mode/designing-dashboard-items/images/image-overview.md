@@ -1,5 +1,7 @@
 ---
 title: Image Overview
+author: Natalia Kazakova
+legacyId: 117567
 ---
 # Image Overview
 The Web Dashboard allows you to create two types of **Image** dashboard items.

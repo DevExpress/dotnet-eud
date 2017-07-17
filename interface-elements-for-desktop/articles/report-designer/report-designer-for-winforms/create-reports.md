@@ -1,5 +1,7 @@
 ---
 title: Create Reports
+author: Anna Gubareva
+legacyId: 5449
 ---
 # Create Reports
 With the help of the Report Designer, you can edit existing reports, as well as create your own reports from scratch. The following sections contain tutorials providing step-by-step instructions on both basic and advanced report customization.

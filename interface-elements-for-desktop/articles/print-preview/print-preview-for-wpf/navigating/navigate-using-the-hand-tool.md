@@ -1,5 +1,7 @@
 ---
 title: Navigate Using the Hand Tool
+author: Anna Gubareva
+legacyId: 116493
 ---
 # Navigate Using the Hand Tool
 The **Hand Tool** enables you to scroll content by dragging the document instead of using scrollbars.

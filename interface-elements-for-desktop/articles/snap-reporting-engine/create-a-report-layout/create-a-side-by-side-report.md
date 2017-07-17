@@ -1,5 +1,7 @@
 ---
 title: Create a Side-by-Side Report
+author: Eugeniy Burmistrov
+legacyId: 12614
 ---
 # Create a Side-by-Side Report
 This tutorial describes the steps used to create a side-by-side report to compare different items within the report.

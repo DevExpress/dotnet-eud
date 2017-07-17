@@ -1,5 +1,7 @@
 ---
 title: Document Map Panel
+author: Anna Gubareva
+legacyId: 117834
 ---
 # Document Map Panel
 The **Document Map Panel** is available in the Document Preview of the Web Report Designer when any [bookmarks](../creating-reports/report-navigation-and-interactivity/create-a-document-map-with-bookmarks.md) are assigned to the report elements.

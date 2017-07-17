@@ -1,5 +1,7 @@
 ---
 title: Picture Box
+author: Eugeniy Burmistrov
+legacyId: 5010
 ---
 # Picture Box
 The **Picture Box** control is intended to display images of numerous formats in a report. An image can be loaded from an external file,  from a [bound data source](../../create-reports/binding-a-report-to-data.md), or from a web location using the specified URL.

@@ -1,5 +1,7 @@
 ---
 title: Change the Layout of Report Elements
+author: Eugeniy Burmistrov
+legacyId: 5572
 ---
 # Change the Layout of Report Elements
 To select a [control](../report-designer-reference/report-controls.md), click it. To select the next control in tab order, press TAB. To select the previous control in tab order, click SHIFT + TAB.

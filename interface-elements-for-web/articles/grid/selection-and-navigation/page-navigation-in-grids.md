@@ -1,5 +1,7 @@
 ---
 title: Page Navigation in Grids
+author: Alexey Kazakov
+legacyId: 4130
 ---
 # Page Navigation in Grids
 To switch between pages, use the grid's Pager:

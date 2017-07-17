@@ -1,5 +1,7 @@
 ---
 title: Providing Data
+author: Andrey Aksenov
+legacyId: 15761
 ---
 # Providing Data
 The topics in this section describe how to provide data to be visualized in the dashboard.

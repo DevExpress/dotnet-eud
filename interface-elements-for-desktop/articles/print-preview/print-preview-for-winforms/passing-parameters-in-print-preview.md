@@ -1,5 +1,7 @@
 ---
 title: Passing Parameters in Print Preview
+author: Eugeniy Burmistrov
+legacyId: 4981
 ---
 # Passing Parameters in Print Preview
 Some documents or reports allow you to control data display, and what data is to be displayed by specifying parameter values.

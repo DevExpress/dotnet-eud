@@ -1,5 +1,7 @@
 ---
 title: Create Table of Contents for Special Cases
+author: Elena Dvoryadkina
+legacyId: 10509
 ---
 # Create Table of Contents for Special Cases
 A table of contents (TOC) in a document is represented by a special TOC field. There is set of TOC field switches that you can combine to create TOCs of different types. This document describes how to create the following TOCs.

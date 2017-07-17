@@ -1,5 +1,7 @@
 ---
 title: Rearrange Grid Columns, Bands and Card Fields
+author: Alexey Zolotarev
+legacyId: 4569
 ---
 # Rearrange Grid Columns, Bands and Card Fields
 ## Reorder Columns and Bands in Grid Views

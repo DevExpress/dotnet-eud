@@ -1,5 +1,7 @@
 ---
 title: Calculated Fields
+author: Anya Vekhina
+legacyId: 114658
 ---
 # Calculated Fields
 This document describes how _calculated fields_ can be used in your report. The main purpose of calculated fields is to perform pre-calculations (of virtually any level of complexity) over [data fields](bind-a-report-to-data.md) based on a specific expression. So, using calculated fields allows you to apply complex expressions to one or more data fields that are obtained from your report's underlying data source.

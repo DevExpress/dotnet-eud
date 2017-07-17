@@ -1,5 +1,7 @@
 ---
 title: Align Text in Table Cells
+author: Elena Dvoryadkina
+legacyId: 9340
 ---
 # Align Text in Table Cells
 By default, text is aligned to the top left corner of a table cell. You can change both the vertical and horizontal alignment of text in a table cells.

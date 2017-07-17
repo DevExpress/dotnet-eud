@@ -1,5 +1,7 @@
 ---
 title: Save or Discard Changes when Editing Grid Rows
+author: Bogdan Harchenko
+legacyId: 4140
 ---
 # Save or Discard Changes when Editing Grid Rows
 ## Save Changes

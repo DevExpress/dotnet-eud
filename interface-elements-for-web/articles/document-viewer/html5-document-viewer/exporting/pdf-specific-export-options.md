@@ -1,5 +1,7 @@
 ---
 title: PDF-Specific Export Options
+author: Anna Gubareva
+legacyId: 115380
 ---
 # PDF-Specific Export Options
 Before [exporting a document](export-a-document.md) to PDF, you can specify PDF-specific options in the dedicated **Export Options** panel.

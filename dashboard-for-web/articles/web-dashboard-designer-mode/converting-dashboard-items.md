@@ -1,5 +1,7 @@
 ---
 title: Converting Dashboard Items
+author: Natalia Kazakova
+legacyId: 117951
 ---
 # Converting Dashboard Items
 The Web Dashboard provides the capability to convert data-bound dashboard items to another type.

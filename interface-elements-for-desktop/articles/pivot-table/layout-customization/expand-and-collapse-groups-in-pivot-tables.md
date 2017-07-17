@@ -1,5 +1,7 @@
 ---
 title: Expand and Collapse Groups in Pivot Tables
+author: Andrey Aksenov
+legacyId: 4652
 ---
 # Expand and Collapse Groups in Pivot Tables
 ## Expand/Collapse Groups of Values

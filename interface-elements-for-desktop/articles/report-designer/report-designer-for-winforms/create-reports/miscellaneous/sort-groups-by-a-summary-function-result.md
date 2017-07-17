@@ -1,5 +1,7 @@
 ---
 title: Sort Groups by a Summary Function Result
+author: Eugeniy Burmistrov
+legacyId: 9342
 ---
 # Sort Groups by a Summary Function Result
 This tutorial demonstrates how to sort groups based on the result of a function summary specified for them. To demonstrate this feature, we'll use a report similar to the one created in the following tutorial: [Change or Apply Data Grouping to a Report](../../report-editing-basics/change-or-apply-data-grouping-to-a-report.md).

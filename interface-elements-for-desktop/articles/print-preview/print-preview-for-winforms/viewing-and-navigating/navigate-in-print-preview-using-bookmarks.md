@@ -1,5 +1,7 @@
 ---
 title: Navigate in Print Preview Using Bookmarks
+author: Anna Gubareva
+legacyId: 4322
 ---
 # Navigate in Print Preview Using Bookmarks
 If a document contains bookmarks, you can use the **Document Map** panel for navigation purposes.

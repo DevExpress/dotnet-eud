@@ -1,5 +1,7 @@
 ---
 title: Select Cells in Pivot Tables
+author: Andrey Aksenov
+legacyId: 4651
 ---
 # Select Cells in Pivot Tables
 Multiple cells can be selected simultaneously, and their contents can then be copied to the clipboard. This topic shows how.

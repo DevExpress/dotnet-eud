@@ -1,5 +1,7 @@
 ---
 title: Zoom a Worksheet
+author: Natalya Senichkina
+legacyId: 15741
 ---
 # Zoom a Worksheet
 To zoom in or out of a worksheet, do one of the following:

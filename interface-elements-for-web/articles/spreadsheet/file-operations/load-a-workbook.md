@@ -1,5 +1,7 @@
 ---
 title: Load a Workbook
+author: Anna Kondratova
+legacyId: 18101
 ---
 # Load a Workbook
 To load a workbook, select the **File** tab, and click the **Open** button in the **Common** group. 

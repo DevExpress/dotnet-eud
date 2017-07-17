@@ -1,5 +1,7 @@
 ---
 title: Rating
+author: Alexey Kazakov
+legacyId: 17435
 ---
 # Rating
 The **Rating** allows you to vote for the content.

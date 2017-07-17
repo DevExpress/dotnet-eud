@@ -1,5 +1,7 @@
 ---
 title: Bar
+author: Andrey Aksenov
+legacyId: 115242
 ---
 # Bar
 The **Bar** format condition allows you to visualize numeric values using bars. You can also paint bars corresponding to positive and negative values using different colors.

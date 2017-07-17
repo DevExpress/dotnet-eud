@@ -1,5 +1,7 @@
 ---
 title: Add, Delete and Recover Records
+author: Anna Kondratova
+legacyId: 118052
 ---
 # Add, Delete and Recover Records
 ## Add a Record

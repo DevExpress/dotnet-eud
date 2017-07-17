@@ -1,5 +1,7 @@
 ---
 title: Context Menu
+author: Svetlana Nikulina
+legacyId: 11833
 ---
 # Context Menu
 A **context menu** is displayed when you right-click the content (text, image, table, etc.) in the editor.

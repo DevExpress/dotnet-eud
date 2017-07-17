@@ -1,5 +1,7 @@
 ---
 title: Create a Chart-Based Report
+author: Eugeniy Burmistrov
+legacyId: 12452
 ---
 # Create a Chart-Based Report
 This tutorial describes the steps used to add a chart to your Snap report. Snap supports many chart types, as well as multiple visual appearance settings and chart palettes.

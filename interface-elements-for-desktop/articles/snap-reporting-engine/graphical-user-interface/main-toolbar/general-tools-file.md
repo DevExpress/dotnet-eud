@@ -1,5 +1,7 @@
 ---
 title: 'General Tools: File'
+author: Eugeniy Burmistrov
+legacyId: 17329
 ---
 # General Tools: File
 The **File** toolbar contains the basic file management and printing commands.

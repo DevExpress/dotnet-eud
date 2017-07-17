@@ -1,5 +1,7 @@
 ---
 title: Make Text Superscript or Subscript in HTML Editor
+author: Anna Kondratova
+legacyId: 4497
 ---
 # Make Text Superscript or Subscript in HTML Editor
 To apply superscript or subscript style to text, select the required characters and click the **Superscript** or **Subscript** button.

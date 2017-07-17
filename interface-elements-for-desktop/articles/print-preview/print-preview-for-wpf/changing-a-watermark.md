@@ -1,5 +1,7 @@
 ---
 title: Changing a Watermark
+author: Anna Gubareva
+legacyId: 116496
 ---
 # Changing a Watermark
 With the Print Preview, you can add a text watermark in a document, or turn a picture into a document's background. It is also possible to use both textual and image watermarks simultaneously.

@@ -1,5 +1,7 @@
 ---
 title: Editor Elements
+author: Elena Dvoryadkina
+legacyId: 7441
 ---
 # Editor Elements
 The **Rich Text Editor** consists of visual elements that provide you with the capability to edit and view documents.

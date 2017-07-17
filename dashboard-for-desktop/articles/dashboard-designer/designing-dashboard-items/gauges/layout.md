@@ -1,5 +1,7 @@
 ---
 title: Layout
+author: Andrey Aksenov
+legacyId: 16600
 ---
 # Layout
 The **Gauge** dashboard item allows you to specify the number of columns or rows in which individual gauges are arranged.

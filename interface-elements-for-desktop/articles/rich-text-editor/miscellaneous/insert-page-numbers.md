@@ -1,5 +1,7 @@
 ---
 title: Insert Page Numbers
+author: Elena Dvoryadkina
+legacyId: 8552
 ---
 # Insert Page Numbers
 ## Insert a Page Number

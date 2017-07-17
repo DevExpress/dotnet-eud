@@ -1,5 +1,7 @@
 ---
 title: Toolbar
+author: Svetlana Nikulina
+legacyId: 5601
 ---
 # Toolbar
 The **toolbar** is a set of toolbar buttons, which perform common tasks in HTML content editing and formatting. Most toolbar buttons work in the same manner as in Microsoft Word.

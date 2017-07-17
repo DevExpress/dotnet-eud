@@ -1,5 +1,7 @@
 ---
 title: HTML-Specific Export Options
+author: Anna Gubareva
+legacyId: 115377
 ---
 # HTML-Specific Export Options
 Before [exporting a document](export-a-document.md) to HTML format, you can specify HTML-specific options in the dedicated **Export Options** panel.

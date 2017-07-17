@@ -1,5 +1,7 @@
 ---
 title: Diagram Page
+author: Alexander Temnov
+legacyId: 4160
 ---
 # Diagram Page
 ## Tasks

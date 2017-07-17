@@ -1,5 +1,7 @@
 ---
 title: Orientation
+author: Natalia Kazakova
+legacyId: 117981
 ---
 # Orientation
 You can rotate the Chart so that the X-axis becomes vertical, and the Y-axis becomes horizontal.

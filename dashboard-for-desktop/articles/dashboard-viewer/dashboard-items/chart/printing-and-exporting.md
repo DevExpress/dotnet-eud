@@ -1,5 +1,7 @@
 ---
 title: Printing and Exporting
+author: Andrey Aksenov
+legacyId: 17240
 ---
 # Printing and Exporting
 Dashboard allows you to print/export individual dashboard items, or the entire dashboard. To learn more about printing concepts common to all dashboard items, see the [Printing and Exporting](../../printing-and-exporting.md) topic.

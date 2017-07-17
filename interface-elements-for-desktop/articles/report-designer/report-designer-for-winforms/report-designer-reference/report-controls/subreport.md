@@ -1,5 +1,7 @@
 ---
 title: Subreport
+author: Eugeniy Burmistrov
+legacyId: 5023
 ---
 # Subreport
 The **Subreport** control allows you to include other reports in your current report.

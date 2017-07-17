@@ -1,5 +1,7 @@
 ---
 title: Create a Multi-Column Report
+author: Eugeniy Burmistrov
+legacyId: 12454
 ---
 # Create a Multi-Column Report
 This tutorial guides you through the creation of a **Multi-Column Report**. A multi-column report is a report which represents its data in multiple columns or rows (depending upon the current multi-column settings).

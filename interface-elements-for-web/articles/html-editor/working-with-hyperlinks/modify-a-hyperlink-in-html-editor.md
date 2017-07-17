@@ -1,5 +1,7 @@
 ---
 title: Modify a Hyperlink in HTML Editor
+author: Anna Kondratova
+legacyId: 4520
 ---
 # Modify a Hyperlink in HTML Editor
 To modify a hyperlink, do the following.

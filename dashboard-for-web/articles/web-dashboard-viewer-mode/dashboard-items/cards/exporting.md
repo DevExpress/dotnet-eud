@@ -1,5 +1,7 @@
 ---
 title: Exporting
+author: Andrey Aksenov
+legacyId: 17261
 ---
 # Exporting
 The Web Dashboard allows you to export individual dashboard items, or the entire dashboard. To learn more about exporting concepts common to all dashboard items, see the [Exporting](../../exporting.md) topic.

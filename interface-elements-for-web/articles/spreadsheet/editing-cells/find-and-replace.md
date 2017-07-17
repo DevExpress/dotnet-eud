@@ -1,5 +1,7 @@
 ---
 title: Find and Replace
+author: Anna Kondratova
+legacyId: 18152
 ---
 # Find and Replace
 The **Spreadsheet** allows you to search for specific data in the current worksheet. To perform a search, on the **Home** tab, in the **Editing** group, click the **Find** button.

@@ -1,5 +1,7 @@
 ---
 title: Use a Clipboard
+author: Elena Dvoryadkina
+legacyId: 8551
 ---
 # Use a Clipboard
 The **Rich Text Editor** allows you to move and copy text and images using the Clipboard.

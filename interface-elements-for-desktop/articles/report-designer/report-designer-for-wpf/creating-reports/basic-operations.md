@@ -1,5 +1,7 @@
 ---
 title: Basic Operations
+author: Anna Gubareva
+legacyId: 116285
 ---
 # Basic Operations
 The topics in this section cover the basics of working with reports in the Report Designer.

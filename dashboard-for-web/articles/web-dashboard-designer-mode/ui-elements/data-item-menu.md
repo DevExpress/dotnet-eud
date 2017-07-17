@@ -1,5 +1,7 @@
 ---
 title: Data Item Menu
+author: Natalia Kazakova
+legacyId: 117735
 ---
 # Data Item Menu
 The data item menu allows you to add measures and dimensions and configure settings related to the selected data item. For example, you can [specify a data field](../binding-dashboard-items-to-data.md), change a data item type, perform [data shaping operations](../data-shaping.md) and [advanced data analysis](../data-analysis.md), etc.

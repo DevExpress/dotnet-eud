@@ -1,5 +1,7 @@
 ---
 title: Switch Scheduler Views
+author: Elena Dvoryadkina
+legacyId: 4176
 ---
 # Switch Scheduler Views
 ## Change Active View

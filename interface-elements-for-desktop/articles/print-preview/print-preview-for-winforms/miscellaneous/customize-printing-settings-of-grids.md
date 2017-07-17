@@ -1,5 +1,7 @@
 ---
 title: Customize Printing Settings of Grids
+author: Eugeniy Burmistrov
+legacyId: 4336
 ---
 # Customize Printing Settings of Grids
 If allowed by your application vendor, you can customize additional print settings of a document. For example, if you are about to print out a grid, you may be able to customize grid printing options.

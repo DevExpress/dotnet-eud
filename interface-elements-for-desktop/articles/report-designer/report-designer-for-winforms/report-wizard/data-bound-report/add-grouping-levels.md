@@ -1,5 +1,7 @@
 ---
 title: Add Grouping Levels
+author: Anna Gubareva
+legacyId: 5072
 ---
 # Add Grouping Levels
 This page allows you to group data in your report. If you do not need to group your data, simply click **Next** on this page to skip this step.

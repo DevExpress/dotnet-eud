@@ -1,5 +1,7 @@
 ---
 title: Report Designer for WPF
+author: Anna Gubareva
+legacyId: 116255
 ---
 # Report Designer for WPF
 This guide contains information about the basic principles of creating reports with the Report Designer.

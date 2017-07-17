@@ -1,5 +1,7 @@
 ---
 title: Create a Pivot Table
+author: Polina Fedorova
+legacyId: 117759
 ---
 # Create a Pivot Table
 A **pivot table** represents a summary table used to explore, analyze and aggregate large amounts of data in a worksheet. It helps divide your data into categories and subcategories, and automatically calculates subtotals and grand totals using the most suitable summary function from a predefined list.

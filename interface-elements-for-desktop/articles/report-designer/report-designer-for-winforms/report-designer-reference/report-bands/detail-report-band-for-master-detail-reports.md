@@ -1,5 +1,7 @@
 ---
 title: Detail Report Band for Master-Detail Reports
+author: Eugeniy Burmistrov
+legacyId: 5006
 ---
 # Detail Report Band for Master-Detail Reports
 The **Detail Report** band is a type of band used to incorporate one report into another in [master-detail reports](../../create-reports/report-types/master-detail-report-(detail-report-bands).md). It is quite different from the [Detail band](detail-band.md), since it holds the whole _detail_ report in a _master-detail_ report layout, and therefore can contain other types of bands within it.

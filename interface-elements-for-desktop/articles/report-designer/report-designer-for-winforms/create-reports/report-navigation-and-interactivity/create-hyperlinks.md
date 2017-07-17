@@ -1,5 +1,7 @@
 ---
 title: Create Hyperlinks
+author: Eugeniy Burmistrov
+legacyId: 5067
 ---
 # Create Hyperlinks
 This tutorial demonstrates how to embed a _hyperlink_ into your report.

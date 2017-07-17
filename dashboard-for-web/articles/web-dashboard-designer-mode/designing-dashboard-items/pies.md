@@ -1,5 +1,7 @@
 ---
 title: Pies
+author: Natalia Kazakova
+legacyId: 117944
 ---
 # Pies
 The Pie dashboard item displays a series of pies or donuts that represent the contribution of each value to a total.

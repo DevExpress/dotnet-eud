@@ -1,5 +1,7 @@
 ---
 title: Insert a Picture
+author: Anna Kondratova
+legacyId: 18183
 ---
 # Insert a Picture
 The **Spreadsheet** allows you to insert pictures in a worksheet.

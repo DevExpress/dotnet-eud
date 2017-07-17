@@ -1,5 +1,7 @@
 ---
 title: Using the Search Panel
+author: Roman Karpov
+legacyId: 16931
 ---
 # Using the Search Panel
 This document explains how to use a search panel in the **Map** control.

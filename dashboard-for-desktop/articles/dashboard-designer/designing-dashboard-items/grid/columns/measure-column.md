@@ -1,5 +1,7 @@
 ---
 title: Measure Column
+author: Andrey Aksenov
+legacyId: 16566
 ---
 # Measure Column
 A **measure column** displays summaries calculated against data in a bound data item.

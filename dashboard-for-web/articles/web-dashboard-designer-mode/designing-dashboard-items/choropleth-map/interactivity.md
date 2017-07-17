@@ -1,5 +1,7 @@
 ---
 title: Interactivity
+author: Natalia Kazakova
+legacyId: 117542
 ---
 # Interactivity
 To enable interaction between the **Choropleth Map** and other dashboard items, you can use the interactivity features. These features include **Master Filtering**.

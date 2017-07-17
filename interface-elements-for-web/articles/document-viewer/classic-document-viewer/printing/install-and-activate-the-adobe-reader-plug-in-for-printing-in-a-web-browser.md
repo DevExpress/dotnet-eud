@@ -1,5 +1,7 @@
 ---
 title: Install and Activate the Adobe Reader Plug-In for Printing in a Web Browser
+author: Anna Gubareva
+legacyId: 4625
 ---
 # Install and Activate the Adobe Reader Plug-In for Printing in a Web Browser
 To download and install the **Adobe Reader&#174;** plug-in, use the following link: [http://get.adobe.com/reader/](http://get.adobe.com/reader/). No software other than the **Adobe Reader&#174;** should be installed on a machine for printing purposes. After finishing the installation, the plug-in should automatically be enabled in appropriate web browsers. To learn how to manually setup your browser to use this plug-in, refer to the [Display PDF in browser](https://helpx.adobe.com/acrobat/using/display-pdf-in-browser.html) document. For the changes to take effect, you may need to close and reopen the browser.

@@ -1,5 +1,7 @@
 ---
 title: Snap Reporting Engine
+author: Eugeniy Burmistrov
+legacyId: 12427
 ---
 # Snap Reporting Engine
 This guide provides information on the basic principles of creating reports with Snap.

@@ -1,5 +1,7 @@
 ---
 title: Uploading Files
+author: Svetlana Nikulina
+legacyId: 9364
 ---
 # Uploading Files
 To upload files by a file manager do the following.

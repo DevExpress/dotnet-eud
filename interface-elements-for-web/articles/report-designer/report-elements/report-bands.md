@@ -1,5 +1,7 @@
 ---
 title: Report Bands
+author: Anna Gubareva
+legacyId: 114772
 ---
 # Report Bands
 A _Report Band_ represents a specific area on a report page, where [report controls](report-controls.md) are contained. A band is used to define how to render report controls that belong to it. In the [Web Report Designer](../../report-designer.md),  every report consists of a number of bands, each of a different type.

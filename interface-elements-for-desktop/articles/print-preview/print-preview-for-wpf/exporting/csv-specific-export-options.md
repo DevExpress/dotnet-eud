@@ -1,5 +1,7 @@
 ---
 title: CSV-Specific Export Options
+author: Anna Gubareva
+legacyId: 116641
 ---
 # CSV-Specific Export Options
 When [exporting a document](exporting.md), you can define the following CSV-specific exporting options.

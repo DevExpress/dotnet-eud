@@ -1,5 +1,7 @@
 ---
 title: Master Filtering
+author: Natalia Kazakova
+legacyId: 117725
 ---
 # Master Filtering
 The Dashboard allows you to use any data aware dashboard item as a filter for other dashboard items. This feature is called **Master Filtering**. You can select elements in a Master Filter item (grid records, chart bars, pie segments, etc.) to filter data in other dashboard items by the selected values.

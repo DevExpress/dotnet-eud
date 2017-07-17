@@ -1,5 +1,7 @@
 ---
 title: Dashboard Title
+author: Natalia Kazakova
+legacyId: 117712
 ---
 # Dashboard Title
 The **Dashboard Title** is located at the top of the [dashboard surface](../ui-elements/dashboard-surface.md) and can contain text and image content.

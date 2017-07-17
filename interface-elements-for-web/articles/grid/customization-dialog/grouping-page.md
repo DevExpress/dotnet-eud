@@ -1,5 +1,7 @@
 ---
 title: Grouping Page
+author: Anna Kondratova
+legacyId: 118821
 ---
 # Grouping Page
 Select a column in the "Columns to Group" list to group grid data.  The grid data can be grouped by more than one column, and a list of the grouped columns is displayed at the top of **Grouping** page.

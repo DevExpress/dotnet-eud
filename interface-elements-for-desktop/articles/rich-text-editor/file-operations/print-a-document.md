@@ -1,5 +1,7 @@
 ---
 title: Print a Document
+author: Elena Dvoryadkina
+legacyId: 8557
 ---
 # Print a Document
 ## Preview a Document Before Printing

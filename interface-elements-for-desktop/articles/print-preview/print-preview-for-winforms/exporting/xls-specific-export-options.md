@@ -1,5 +1,7 @@
 ---
 title: XLS-Specific Export Options
+author: Anna Gubareva
+legacyId: 4332
 ---
 # XLS-Specific Export Options
 When [exporting a document](exporting-from-print-preview.md), you can define XLS-specific export options using the following dialog.

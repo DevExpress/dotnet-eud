@@ -1,5 +1,7 @@
 ---
 title: Defined Names
+author: Natalya Senichkina
+legacyId: 18012
 ---
 # Defined Names
 The **Spreadsheet** allows you to define a descriptive **name** for an individual cell, cell range, function, or constant value to make it easier to understand the information contained in worksheet formulas.

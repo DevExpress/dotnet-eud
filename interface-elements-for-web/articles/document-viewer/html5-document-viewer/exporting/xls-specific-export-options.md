@@ -1,5 +1,7 @@
 ---
 title: XLS-Specific Export Options
+author: Anna Gubareva
+legacyId: 115383
 ---
 # XLS-Specific Export Options
 Before [exporting a document](export-a-document.md) to XLS format, you can specify XLS-specific options in the dedicated **Export Options** panel.

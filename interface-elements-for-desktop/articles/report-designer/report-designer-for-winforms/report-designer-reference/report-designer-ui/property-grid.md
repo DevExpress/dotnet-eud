@@ -1,5 +1,7 @@
 ---
 title: Property Grid
+author: Eugeniy Burmistrov
+legacyId: 4995
 ---
 # Property Grid
 The **Property Grid** allows you to change the settings of the currently selected report element.

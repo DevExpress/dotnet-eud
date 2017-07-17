@@ -1,5 +1,7 @@
 ---
 title: Chart
+author: Natalia Kazakova
+legacyId: 117941
 ---
 # Chart
 The topics in this section describe the features available in the **Chart** dashboard item, and provide information on how to create and customize charts in the Web Dashboard.

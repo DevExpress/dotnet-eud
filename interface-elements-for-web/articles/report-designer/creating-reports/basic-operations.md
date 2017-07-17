@@ -1,5 +1,7 @@
 ---
 title: Basic Operations
+author: Anya Vekhina
+legacyId: 114594
 ---
 # Basic Operations
 The topics in this section cover the basics of working with reports in the [Web Report Designer](../../report-designer.md).

@@ -1,5 +1,7 @@
 ---
 title: Rotate a Picture or Text Box
+author: Elena Dvoryadkina
+legacyId: 11946
 ---
 # Rotate a Picture or Text Box
 1. Click the [floating picture](insert-a-picture.md) or [text box](insert-select-copy-or-delete-a-text-box.md) that you wish to rotate.

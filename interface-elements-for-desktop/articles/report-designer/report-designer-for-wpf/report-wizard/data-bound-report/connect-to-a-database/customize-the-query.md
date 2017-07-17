@@ -1,5 +1,7 @@
 ---
 title: Customize the Query
+author: Anna Gubareva
+legacyId: 116230
 ---
 # Customize the Query
 On this page, you can construct an SQL query to obtain data from the database or select a stored procedure.

@@ -1,5 +1,7 @@
 ---
 title: Insert a Comment
+author: Polina Fedorova
+legacyId: 115279
 ---
 # Insert a Comment
 The Rich Text Editor supports **comments**- notes that can be added to a document. They make a document more understandable by providing additional context for the data it contains. Comments are displayed in the **Reviewing Pane** or in a balloon that appears in the document margins.

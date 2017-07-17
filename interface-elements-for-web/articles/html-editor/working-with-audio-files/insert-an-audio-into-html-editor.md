@@ -1,5 +1,7 @@
 ---
 title: Insert an Audio Into HTML Editor
+author: Svetlana Nikulina
+legacyId: 17905
 ---
 # Insert an Audio Into HTML Editor
 This topic describes how to insert audio into an editor's content.

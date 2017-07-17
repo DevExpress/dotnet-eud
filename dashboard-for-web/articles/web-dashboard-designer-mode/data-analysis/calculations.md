@@ -1,5 +1,7 @@
 ---
 title: Calculations
+author: Natalia Kazakova
+legacyId: 117710
 ---
 # Calculations
 **Window calculations** provide the capability to apply specific computations to measure values and allow you to perform different analytical tasks such as computing running totals, percentages of totals, differences, etc.

@@ -1,5 +1,7 @@
 ---
 title: Remove Filtering
+author: Andrey Aksenov
+legacyId: 11957
 ---
 # Remove Filtering
 To remove filtering, click the **Clear** button.

@@ -1,5 +1,7 @@
 ---
 title: Printing
+author: Boris Zaitsev
+legacyId: 16766
 ---
 # Printing
 If a scheduler includes a Bar or Ribbon interface, you can use the **Print** [toolbar](scheduler-ui/toolbars.md) or [Ribbon page group](scheduler-ui/ribbon-interface.md).

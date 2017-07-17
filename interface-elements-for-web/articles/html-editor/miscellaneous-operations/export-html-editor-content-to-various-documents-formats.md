@@ -1,5 +1,7 @@
 ---
 title: Export HTML Editor Content to Various Documents Formats
+author: Alexey Kazakov
+legacyId: 11350
 ---
 # Export HTML Editor Content to Various Documents Formats
 To export a document, first invoke a dropdown menu with the list of available document formats:

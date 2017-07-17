@@ -1,5 +1,7 @@
 ---
 title: Calculating Summaries
+author: Anna Gubareva
+legacyId: 116283
 ---
 # Calculating Summaries
 With the Report Designer, you can force a [data-bound control](../providing-data/binding-report-controls-to-data.md) to calculate one of the standard summary functions (**Average**, **Sum**, **Count**, **Max**, **Min**, etc.).

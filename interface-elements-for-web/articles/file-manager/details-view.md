@@ -1,5 +1,7 @@
 ---
 title: Details View
+author: Svetlana Nikulina
+legacyId: 16821
 ---
 # Details View
 **File Manager** allows you to perform the following actions in the details view.

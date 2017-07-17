@@ -1,5 +1,7 @@
 ---
 title: Cards
+author: Andrey Aksenov
+legacyId: 16690
 ---
 # Cards
 The topics in this section describe the **Card** dashboard item, which displays a series of cards. Each card can display a single value, or show the difference between two values.

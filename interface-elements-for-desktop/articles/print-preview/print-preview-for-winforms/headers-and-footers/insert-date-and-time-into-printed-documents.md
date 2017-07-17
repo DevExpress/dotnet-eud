@@ -1,5 +1,7 @@
 ---
 title: Insert Date and Time into Printed Documents
+author: Eugeniy Burmistrov
+legacyId: 4309
 ---
 # Insert Date and Time into Printed Documents
 If you need to display the date and time when a document is printed, first [invoke the Header and Footer dialog](insert-page-header-and-page-footer-into-printed-documents.md).

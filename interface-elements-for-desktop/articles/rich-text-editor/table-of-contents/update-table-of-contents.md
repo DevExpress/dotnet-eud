@@ -1,5 +1,7 @@
 ---
 title: Update Table of Contents
+author: Boris Zaitsev
+legacyId: 10512
 ---
 # Update Table of Contents
 If you have added, removed or modified TOC entries in your document, you can quickly update the TOC in one of the following ways.

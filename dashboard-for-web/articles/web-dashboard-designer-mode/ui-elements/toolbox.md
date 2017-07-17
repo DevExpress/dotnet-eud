@@ -1,5 +1,7 @@
 ---
 title: Toolbox
+author: Natalia Kazakova
+legacyId: 117731
 ---
 # Toolbox
 The **Toolbox** provides access to the dashboard menu, and allows you to add dashboard items, as well as undo or repeat user actions.

@@ -1,5 +1,7 @@
 ---
 title: Select a Data Source Type
+author: Anna Gubareva
+legacyId: 115582
 ---
 # Select a Data Source Type
 > This wizard step appears only if you're creating a new report from scratch. If you're modifying an existing report, this step will not appear and you will start with the [Choose Columns to Display in Your Report](../choose-columns-to-display-in-your-report.md) wizard page.

@@ -1,5 +1,7 @@
 ---
 title: Save a Document
+author: Elena Dvoryadkina
+legacyId: 7468
 ---
 # Save a Document
 To save a document, on the **File** [ tab](../text-editor-ui/ribbon-interface.md), in the **Common** group, click the **Save** button or use the **CTRL+S** keyboard shortcut. This allows you to save a document using the save parameters that were previously set.

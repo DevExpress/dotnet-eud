@@ -1,5 +1,7 @@
 ---
 title: Cell References
+author: Natalya Senichkina
+legacyId: 15747
 ---
 # Cell References
 ## The A1 Reference Style

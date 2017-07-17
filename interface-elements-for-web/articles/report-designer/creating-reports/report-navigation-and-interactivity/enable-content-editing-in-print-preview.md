@@ -1,5 +1,7 @@
 ---
 title: Enable Content Editing in Print Preview
+author: Anna Gubareva
+legacyId: 117926
 ---
 # Enable Content Editing in Print Preview
 This document describes how to enable editing the content of specific controls in [Print Preview](../../document-preview.md).

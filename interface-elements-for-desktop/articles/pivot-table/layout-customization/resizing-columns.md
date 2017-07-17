@@ -1,5 +1,7 @@
 ---
 title: Resizing Columns
+author: Andrey Aksenov
+legacyId: 11958
 ---
 # Resizing Columns
 You can resize columns within the Pivot Table by dragging their borders.

@@ -1,5 +1,7 @@
 ---
 title: Text Formatting
+author: Anna Kondratova
+legacyId: 113994
 ---
 # Text Formatting
 The key combinations that allow you to apply formatting options quickly are listed in the following table.

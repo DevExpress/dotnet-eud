@@ -1,5 +1,7 @@
 ---
 title: Providing Data
+author: Andrey Aksenov
+legacyId: 16783
 ---
 # Providing Data
 This topic describes how to bind the **Pie Map** dashboard item to data using the **Dashboard Designer**.

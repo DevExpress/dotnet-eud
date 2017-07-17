@@ -1,5 +1,7 @@
 ---
 title: Geo Point Map
+author: Andrey Aksenov
+legacyId: 16714
 ---
 # Geo Point Map
 The **Geo Point Map** dashboard item allows you to place callouts on the map using geographical coordinates.

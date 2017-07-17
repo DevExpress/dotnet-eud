@@ -1,5 +1,7 @@
 ---
 title: Group and Sort Panel
+author: Anna Gubareva
+legacyId: 116218
 ---
 # Group and Sort Panel
 The **Group and Sort Panel** allows you to quickly apply [grouping](../creating-reports/shaping-data/grouping-data.md) and [sorting](../creating-reports/shaping-data/sorting-data.md) to report data. 

@@ -1,5 +1,7 @@
 ---
 title: Full Screen Mode
+author: Anna Kondratova
+legacyId: 113851
 ---
 # Full Screen Mode
 The **Rich Editor** provides functionality to display a document in full screen mode.

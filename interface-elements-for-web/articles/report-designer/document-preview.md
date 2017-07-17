@@ -1,5 +1,7 @@
 ---
 title: Document Preview
+author: Anna Gubareva
+legacyId: 114530
 ---
 # Document Preview
 The documents in this section describe the Document Preview that is built into the Web Report Designer.

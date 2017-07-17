@@ -1,5 +1,7 @@
 ---
 title: Create a Mail-Merge Report
+author: Eugeniy Burmistrov
+legacyId: 15538
 ---
 # Create a Mail-Merge Report
 This tutorial illustrates the steps required to create and publish a mail merge report with **Snap**.

@@ -1,5 +1,7 @@
 ---
 title: Resize Tree List Columns
+author: Alexey Zolotarev
+legacyId: 4682
 ---
 # Resize Tree List Columns
 To resize columns, drag the right edge of the target column header:

@@ -1,5 +1,7 @@
 ---
 title: Group Data
+author: Eugeniy Burmistrov
+legacyId: 17323
 ---
 # Group Data
 This document describes how to group data in a **Snap** document.

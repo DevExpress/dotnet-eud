@@ -1,5 +1,7 @@
 ---
 title: Report Controls
+author: Yuri Shutov
+legacyId: 5024
 ---
 # Report Controls
 The documents in this section describe options of each report control available in the Report Designer.

@@ -1,5 +1,7 @@
 ---
 title: Select an Assembly
+author: Anna Gubareva
+legacyId: 116239
 ---
 # Select an Assembly
 On this wizard page, select an assembly that contains the class type definition of the data source.

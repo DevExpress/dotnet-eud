@@ -1,5 +1,7 @@
 ---
 title: Save a Document
+author: Anna Kondratova
+legacyId: 113814
 ---
 # Save a Document
 To save a document, go to the **File** tab, and then click the **Save as** button in the **Common** group.

@@ -1,5 +1,7 @@
 ---
 title: Switch a Grid to Edit Mode
+author: Bogdan Harchenko
+legacyId: 4141
 ---
 # Switch a Grid to Edit Mode
 To edit cell values, switch to the edit mode. To do this, click **Edit**.

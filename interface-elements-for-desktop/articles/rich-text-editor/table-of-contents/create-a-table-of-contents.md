@@ -1,5 +1,7 @@
 ---
 title: Create a Table of Contents
+author: Elena Dvoryadkina
+legacyId: 10506
 ---
 # Create a Table of Contents
 ## <a name="headingstyles"/>Create a TOC Using Built-In Heading Styles

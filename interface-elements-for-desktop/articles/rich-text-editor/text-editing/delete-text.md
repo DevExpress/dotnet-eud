@@ -1,5 +1,7 @@
 ---
 title: Delete Text
+author: Elena Dvoryadkina
+legacyId: 7465
 ---
 # Delete Text
 The **Backspace** key deletes one character to the left of the caret. The **Delete** key deletes one character to the right of the caret.

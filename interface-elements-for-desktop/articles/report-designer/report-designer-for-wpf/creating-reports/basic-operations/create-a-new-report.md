@@ -1,5 +1,7 @@
 ---
 title: Create a New Report
+author: Anna Gubareva
+legacyId: 116286
 ---
 # Create a New Report
 This topic explains how to create a new report in the Report Designer.

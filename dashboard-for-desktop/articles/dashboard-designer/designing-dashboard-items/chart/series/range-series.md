@@ -1,5 +1,7 @@
 ---
 title: Range Series
+author: Andrey Aksenov
+legacyId: 16546
 ---
 # Range Series
 Range series are generally used to show variations in a specified time range like temperature, price, etc.

@@ -1,5 +1,7 @@
 ---
 title: Exporting
+author: Andrey Aksenov
+legacyId: 16727
 ---
 # Exporting
 The Web Dashboard provides the capability to export an entire dashboard and individual items.

@@ -1,5 +1,7 @@
 ---
 title: Add Groping Levels
+author: Anna Gubareva
+legacyId: 116233
 ---
 # Add Groping Levels
 This wizard page allows you to group data in a report. If you don't need to group your data, click **Next** to skip this step.

@@ -1,5 +1,7 @@
 ---
 title: HTML-Specific Export Options
+author: Anna Gubareva
+legacyId: 4329
 ---
 # HTML-Specific Export Options
 When [exporting a document](exporting-from-print-preview.md), you can define HTML-specific exporting options using the following dialog.

@@ -1,5 +1,7 @@
 ---
 title: Open an Existing Report
+author: Eugeniy Burmistrov
+legacyId: 15586
 ---
 # Open an Existing Report
 To open an existing report, click the **Open** button on the **File** tab of the Snap application's ribbon toolbar.

@@ -1,5 +1,7 @@
 ---
 title: Ordered and Bullet Lists in HTML Editor
+author: Anna Kondratova
+legacyId: 4544
 ---
 # Ordered and Bullet Lists in HTML Editor
 ## Start a New List

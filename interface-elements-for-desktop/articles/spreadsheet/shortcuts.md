@@ -1,5 +1,7 @@
 ---
 title: Shortcuts
+author: Natalya Senichkina
+legacyId: 15841
 ---
 # Shortcuts
 The **Spreadsheet** provides the capability to perform common commands quickly using keyboard shortcuts.

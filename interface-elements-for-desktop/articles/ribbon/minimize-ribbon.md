@@ -1,5 +1,7 @@
 ---
 title: Minimize Ribbon
+author: Alexey Zolotarev
+legacyId: 5549
 ---
 # Minimize Ribbon
 To minimize the Ribbon, right-click any command and select **Minimize the Ribbon**:

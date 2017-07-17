@@ -1,5 +1,7 @@
 ---
 title: Token Box
+author: Svetlana Nikulina
+legacyId: 16840
 ---
 # Token Box
 The **Token Box** allows you to select values using a predefined value list.

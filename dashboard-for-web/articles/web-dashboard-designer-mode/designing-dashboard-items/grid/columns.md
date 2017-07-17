@@ -1,5 +1,7 @@
 ---
 title: Columns
+author: Natalia Kazakova
+legacyId: 117531
 ---
 # Columns
 The Grid dashboard item supports four types of columns.

@@ -1,5 +1,7 @@
 ---
 title: Hide and Display Grid Columns, Bands and Card Fields
+author: Alexey Zolotarev
+legacyId: 4571
 ---
 # Hide and Display Grid Columns, Bands and Card Fields
 ## Hide Columns/Bands in Grid Views

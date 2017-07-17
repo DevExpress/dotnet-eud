@@ -1,5 +1,7 @@
 ---
 title: Interface Elements for Desktop
+author: Alexey Kazakov
+legacyId: 5647
 ---
 # Interface Elements for Desktop
 This documentation provides information on individual User Interface Elements such as grids, navigation panes, data editors, etc. Each element can provide context menus, allow numerous mouse operations and support various keyboard shortcuts.

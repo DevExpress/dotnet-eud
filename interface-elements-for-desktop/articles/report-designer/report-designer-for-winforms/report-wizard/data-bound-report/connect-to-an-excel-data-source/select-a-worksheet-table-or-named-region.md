@@ -1,5 +1,7 @@
 ---
 title: Select a Worksheet, Table or Named Region
+author: Anna Gubareva
+legacyId: 115591
 ---
 # Select a Worksheet, Table or Named Region
 > This wizard step appears only if you're creating a new report from scratch and if you have selected a Microsoft Excel Workbook on the previous step. If you're modifying an existing report, this step will not appear and you will start with [Choose Columns to Display in Your Report](../choose-columns-to-display-in-your-report.md) wizard page.

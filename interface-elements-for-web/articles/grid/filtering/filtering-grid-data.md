@@ -1,5 +1,7 @@
 ---
 title: Filtering Grid Data
+author: Svetlana Nikulina
+legacyId: 4144
 ---
 # Filtering Grid Data
 To filter data or change the filter conditions in the grid, use one of the following.

@@ -1,5 +1,7 @@
 ---
 title: Gallery Bar
+author: Svetlana Nikulina
+legacyId: 114194
 ---
 # Gallery Bar
 The **Gallery Bar** provides a gallery of items that you can select by clicking them.

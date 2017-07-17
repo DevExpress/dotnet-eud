@@ -1,5 +1,7 @@
 ---
 title: Interface Elements
+author: Anna Gubareva
+legacyId: 113882
 ---
 # Interface Elements
 The following main elements make up the user interface of the Web Report Designer.

@@ -1,5 +1,7 @@
 ---
 title: Map Types Overview
+author: Andrey Aksenov
+legacyId: 17255
 ---
 # Map Types Overview
 The **Dashboard Designer** allows you to create three types of **Geo Point** maps.

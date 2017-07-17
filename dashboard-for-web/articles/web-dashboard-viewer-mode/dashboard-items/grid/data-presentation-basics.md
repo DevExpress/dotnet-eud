@@ -1,5 +1,7 @@
 ---
 title: Data Presentation Basics
+author: Andrey Aksenov
+legacyId: 16734
 ---
 # Data Presentation Basics
 The **Grid** displays data in a two-dimensional table that supports four types of columns.

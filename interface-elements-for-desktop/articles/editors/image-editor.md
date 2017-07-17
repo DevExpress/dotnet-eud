@@ -1,5 +1,7 @@
 ---
 title: Image Editor
+author: Andrey Nadezhdin
+legacyId: 115834
 ---
 # Image Editor
 An image editor allows you to load and display images.

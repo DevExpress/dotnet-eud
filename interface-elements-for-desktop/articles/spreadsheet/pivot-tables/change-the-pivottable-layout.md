@@ -1,5 +1,7 @@
 ---
 title: Change the PivotTable Layout
+author: Polina Fedorova
+legacyId: 117766
 ---
 # Change the PivotTable Layout
 This topic describes how to specify the layout options for the entire PivotTable report or a specific [row field](#rowfield) only. 

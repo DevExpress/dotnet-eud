@@ -1,5 +1,7 @@
 ---
 title: Add Totals to a Report
+author: Eugeniy Burmistrov
+legacyId: 5582
 ---
 # Add Totals to a Report
 With Report Designer, you can force a [data-bound control](displaying-values-from-a-database-(binding-report-elements-to-data).md) to calculate one of the standard summary functions (**Average**, **Sum**, **Count**, **Percentage**, **Max**, **Min**, etc.)

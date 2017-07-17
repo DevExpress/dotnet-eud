@@ -1,5 +1,7 @@
 ---
 title: Copy, Paste and Edit the Cell Content
+author: Natalya Senichkina
+legacyId: 15807
 ---
 # Copy, Paste and Edit the Cell Content
 The key combinations used to work with cell content are listed below.

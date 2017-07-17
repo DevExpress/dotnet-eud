@@ -1,5 +1,7 @@
 ---
 title: Image Slider
+author: Svetlana Nikulina
+legacyId: 16830
 ---
 # Image Slider
 The **Image Slider** is used to display images and navigate through them.

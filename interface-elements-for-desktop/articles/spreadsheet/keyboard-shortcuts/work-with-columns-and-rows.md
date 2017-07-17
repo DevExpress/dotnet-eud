@@ -1,5 +1,7 @@
 ---
 title: Work with Columns and Rows
+author: Natalya Senichkina
+legacyId: 15809
 ---
 # Work with Columns and Rows
 The key combinations that allow you to display, hide or group columns and rows in a worksheet are listed in the following table.

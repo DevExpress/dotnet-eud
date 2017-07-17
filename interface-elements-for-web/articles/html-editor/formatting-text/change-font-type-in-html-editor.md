@@ -1,5 +1,7 @@
 ---
 title: Change Font Type in HTML Editor
+author: Anna Kondratova
+legacyId: 4494
 ---
 # Change Font Type in HTML Editor
 To change the text's font type, do the following.

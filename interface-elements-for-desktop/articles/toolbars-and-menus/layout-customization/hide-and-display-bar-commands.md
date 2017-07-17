@@ -1,5 +1,7 @@
 ---
 title: Hide and Display Bar Commands
+author: Alexey Zolotarev
+legacyId: 4705
 ---
 # Hide and Display Bar Commands
 ## Temporarily Hide and Display Bar Commands

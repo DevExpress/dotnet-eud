@@ -1,5 +1,7 @@
 ---
 title: Rearrange Bar Commands
+author: Alexey Zolotarev
+legacyId: 4708
 ---
 # Rearrange Bar Commands
 To rearrange bar commands, do the following:

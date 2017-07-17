@@ -1,5 +1,7 @@
 ---
 title: Point and Line Series
+author: Andrey Aksenov
+legacyId: 16544
 ---
 # Point and Line Series
 Point series visualize data as a set of individual numeric data points. Line series are used to connect numeric data points by different types of line segments.

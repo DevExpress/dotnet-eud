@@ -1,5 +1,7 @@
 ---
 title: Sorting
+author: Svetlana Nikulina
+legacyId: 115288
 ---
 # Sorting
 * To sort data, click a column header. If sorting against this column hasn't been applied, the header click will apply sorting in ascending order. If sorting has already been applied, subsequent clicks reverse the current sort order.

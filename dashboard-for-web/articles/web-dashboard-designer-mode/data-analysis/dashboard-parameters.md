@@ -1,5 +1,7 @@
 ---
 title: Dashboard Parameters
+author: Natalia Kazakova
+legacyId: 117711
 ---
 # Dashboard Parameters
 You can use **dashboard parameters** when it is necessary to pass data of a certain type to a dashboard (e.g., to pass a specific value to the data source filter string or a calculated field).

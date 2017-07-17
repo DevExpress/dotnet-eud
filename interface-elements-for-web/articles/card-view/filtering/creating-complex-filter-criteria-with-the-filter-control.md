@@ -1,5 +1,7 @@
 ---
 title: Creating Complex Filter Criteria with the Filter Control
+author: Svetlana Nikulina
+legacyId: 115289
 ---
 # Creating Complex Filter Criteria with the Filter Control
 To build complex filter criteria with an unlimited number of filter conditions, combined by logical operators, use the built-in **Filter Control**.

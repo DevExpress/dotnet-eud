@@ -1,5 +1,7 @@
 ---
 title: Configure Master-Detail Relationships
+author: Anna Gubareva
+legacyId: 117823
 ---
 # Configure Master-Detail Relationships
 This page is displayed if two or more tables and/or views are selected on a previous wizard page: [Create a Query or Select a Stored Procedure](create-a-query-or-select-a-stored-procedure.md).

@@ -1,5 +1,7 @@
 ---
 title: Switch Scheduler Views
+author: Eugeniy Burmistrov
+legacyId: 4203
 ---
 # Switch Scheduler Views
 The Scheduler is intended to display appointment data using one of the standard **Views**.

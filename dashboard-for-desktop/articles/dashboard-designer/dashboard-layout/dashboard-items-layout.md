@@ -1,5 +1,7 @@
 ---
 title: Dashboard Items Layout
+author: Andrey Aksenov
+legacyId: 16515
 ---
 # Dashboard Items Layout
 The **Dashboard Designer** provides the capability to arrange and resize dashboard items and [groups](../designing-dashboard-items/dashboard-item-group.md) in various ways, using simple drag-and-drop operations.

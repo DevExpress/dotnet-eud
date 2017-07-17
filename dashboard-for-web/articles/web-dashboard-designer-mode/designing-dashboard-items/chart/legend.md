@@ -1,5 +1,7 @@
 ---
 title: Legend
+author: Natalia Kazakova
+legacyId: 117979
 ---
 # Legend
 A legend is an element of a chart that identifies chart series and series points.

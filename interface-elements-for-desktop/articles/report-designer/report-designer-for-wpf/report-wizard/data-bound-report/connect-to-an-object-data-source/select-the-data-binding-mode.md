@@ -1,5 +1,7 @@
 ---
 title: Select the Data Binding Mode
+author: Anna Gubareva
+legacyId: 116243
 ---
 # Select the Data Binding Mode
 On this wizard page, you can choose one of the following data binding modes.

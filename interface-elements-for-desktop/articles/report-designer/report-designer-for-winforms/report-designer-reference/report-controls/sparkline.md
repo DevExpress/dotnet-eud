@@ -1,5 +1,7 @@
 ---
 title: Sparkline
+author: Eugeniy Burmistrov
+legacyId: 17280
 ---
 # Sparkline
 The **Sparkline** control displays a compact chart that is commonly used to reflect the flow of data for every row in a report.

@@ -1,5 +1,7 @@
 ---
 title: Ribbon
+author: Svetlana Nikulina
+legacyId: 16829
 ---
 # Ribbon
 The **Ribbon** provides a rich toolbar functionality.

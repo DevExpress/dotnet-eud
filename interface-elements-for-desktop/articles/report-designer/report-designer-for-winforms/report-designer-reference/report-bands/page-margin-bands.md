@@ -1,5 +1,7 @@
 ---
 title: Page Margin Bands
+author: Eugeniy Burmistrov
+legacyId: 5005
 ---
 # Page Margin Bands
 The **Top Margin** and **Bottom Margin** bands represent the top and bottom page margins. Unlike other bands, they are not accompanied by strips displaying their titles in the [Design Panel](../report-designer-ui/design-panel.md).

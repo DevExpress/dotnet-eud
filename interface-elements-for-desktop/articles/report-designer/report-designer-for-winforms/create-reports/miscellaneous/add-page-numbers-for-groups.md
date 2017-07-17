@@ -1,5 +1,7 @@
 ---
 title: Add Page Numbers for Groups
+author: Eugeniy Burmistrov
+legacyId: 7489
 ---
 # Add Page Numbers for Groups
 This tutorial demonstrates how to display page numbers individually, for each group in your report. To demonstrate this feature, we'll use a report, similar to the one created in the following tutorial: [Change or Apply Data Grouping to a Report](../../report-editing-basics/change-or-apply-data-grouping-to-a-report.md).

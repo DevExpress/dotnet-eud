@@ -1,5 +1,7 @@
 ---
 title: Label Report
+author: Anna Gubareva
+legacyId: 116224
 ---
 # Label Report
 The **Report Wizard** allows you to create reports of three kinds: [empty reports](empty-report.md), [data-bound reports](data-bound-report.md) and **label reports**. To generate a label report, select **Label Report** and click **Next**.

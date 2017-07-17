@@ -1,5 +1,7 @@
 ---
 title: Style
+author: Natalia Kazakova
+legacyId: 117519
 ---
 # Style
 The Gauge dashboard item allows you to select the gauge style.

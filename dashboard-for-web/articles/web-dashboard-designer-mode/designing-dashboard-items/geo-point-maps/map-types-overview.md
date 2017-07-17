@@ -1,5 +1,7 @@
 ---
 title: Map Types Overview
+author: Natalia Kazakova
+legacyId: 117940
 ---
 # Map Types Overview
 The Web Dashboard allows you to create **three types** of Geo Point maps.

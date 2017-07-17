@@ -1,5 +1,7 @@
 ---
 title: Pivot Table
+author: Andrey Aksenov
+legacyId: 4855
 ---
 # Pivot Table
 The **Pivot Table** is a data bound control that provides maximum capabilities for organizing, summarizing and analyzing your business data.

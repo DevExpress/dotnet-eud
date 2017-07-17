@@ -1,5 +1,7 @@
 ---
 title: Back Up the Current Layout Before Modifying It
+author: Eugeniy Burmistrov
+legacyId: 5570
 ---
 # Back Up the Current Layout Before Modifying It
 To guarantee that you will be able to revert your report to its original state, you need to create a _backup copy_. Then, you can apply changes without worrying that it will be hard to restore your report, in case something breaks.

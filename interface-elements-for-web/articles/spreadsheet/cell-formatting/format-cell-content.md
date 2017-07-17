@@ -1,5 +1,7 @@
 ---
 title: Format Cell Content
+author: Anna Kondratova
+legacyId: 18144
 ---
 # Format Cell Content
 The **Spreadsheet** provides the capability to set the font style, size, color and text alignment in a cell.

@@ -1,5 +1,7 @@
 ---
 title: Vertical Grid
+author: Alexey Zolotarev
+legacyId: 4851
 ---
 # Vertical Grid
 This section describes the capabilities provided by Vertical Grids (Property Grids).

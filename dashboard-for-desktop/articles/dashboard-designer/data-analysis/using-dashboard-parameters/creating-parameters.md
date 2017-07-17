@@ -1,5 +1,7 @@
 ---
 title: Creating Parameters
+author: Andrey Aksenov
+legacyId: 16522
 ---
 # Creating Parameters
 This topic explains how to create a new dashboard parameter and specify its settings.

@@ -1,5 +1,7 @@
 ---
 title: Scale Print Preview by Entering a Zoom Factor
+author: Eugeniy Burmistrov
+legacyId: 4312
 ---
 # Scale Print Preview by Entering a Zoom Factor
 To scale a document, click the **Scale** ![previewButtonScale](../../../../images/img7267.png) button on the toolbar. The **Scaling** dialog will be invoked.

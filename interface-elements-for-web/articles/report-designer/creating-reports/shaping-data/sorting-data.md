@@ -1,5 +1,7 @@
 ---
 title: Sorting Data
+author: Anya Vekhina
+legacyId: 114685
 ---
 # Sorting Data
 This document demonstrates how to sort data within a report's detail area and within groups. Note that as with data grouping, sorting can be performed only if a report is [bound to a data source](../providing-data/bind-a-report-to-data.md). In this example, we'll use the report created in the following tutorial: [Grouping Data](grouping-data.md).

@@ -1,5 +1,7 @@
 ---
 title: Bar Series
+author: Andrey Aksenov
+legacyId: 16543
 ---
 # Bar Series
 Bar series visualize data using rectangular bars with lengths proportional to the values that they represent.

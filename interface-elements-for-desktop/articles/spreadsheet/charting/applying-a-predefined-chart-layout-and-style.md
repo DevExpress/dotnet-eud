@@ -1,5 +1,7 @@
 ---
 title: Applying a Predefined Chart Layout and Style
+author: Natalya Senichkina
+legacyId: 16814
 ---
 # Applying a Predefined Chart Layout and Style
 The **Spreadsheet** allows you to change the appearance of the existing chart by applying one of the predefined layouts and styles.

@@ -1,5 +1,7 @@
 ---
 title: Create a Simple Formula
+author: Anna Kondratova
+legacyId: 18241
 ---
 # Create a Simple Formula
 The **Spreadsheet** allows you to perform calculations on data in cells using formulas. A formula is a string expression that starts with the equals sign ("="). Formulas can contain constants, math operators, functions, cell references, etc.

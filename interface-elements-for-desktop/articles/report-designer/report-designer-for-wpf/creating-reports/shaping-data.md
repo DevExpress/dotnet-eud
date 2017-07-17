@@ -1,5 +1,7 @@
 ---
 title: Shaping Data
+author: Anna Gubareva
+legacyId: 116279
 ---
 # Shaping Data
 The topics in this section illustrate how to shape data in reports in various ways using the Report Designer.

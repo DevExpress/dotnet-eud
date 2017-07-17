@@ -1,5 +1,7 @@
 ---
 title: Data-bound Report
+author: Anna Gubareva
+legacyId: 5035
 ---
 # Data-bound Report
 Select the **Data-bound Report** option on the [Choose a Report Type](choose-a-report-type.md) wizard page to create a data-bound report.

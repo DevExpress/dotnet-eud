@@ -1,5 +1,7 @@
 ---
 title: Average
+author: Andrey Aksenov
+legacyId: 114187
 ---
 # Average
 The **Average** format conditions allow you to highlight values above or below an average value.

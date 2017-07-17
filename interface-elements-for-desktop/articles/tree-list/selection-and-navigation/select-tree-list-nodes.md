@@ -1,5 +1,7 @@
 ---
 title: Select Tree List Nodes
+author: Alexey Zolotarev
+legacyId: 4688
 ---
 # Select Tree List Nodes
 ## Change Focused Node

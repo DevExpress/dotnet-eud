@@ -1,5 +1,7 @@
 ---
 title: Labels
+author: Andrey Aksenov
+legacyId: 17935
 ---
 # Labels
 A Choropleth map provides the capability to display titles within map shapes and allows you to manage what data to show in the shape tooltips.

@@ -1,5 +1,7 @@
 ---
 title: Edit Data in Pivot Tables
+author: Andrey Aksenov
+legacyId: 8457
 ---
 # Edit Data in Pivot Tables
 ## Edit Cell Values

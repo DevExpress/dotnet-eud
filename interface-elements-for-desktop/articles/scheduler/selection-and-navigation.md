@@ -1,5 +1,7 @@
 ---
 title: Selection and Navigation
+author: Boris Zaitsev
+legacyId: 16765
 ---
 # Selection and Navigation
 This section describes how to navigate the schedule.

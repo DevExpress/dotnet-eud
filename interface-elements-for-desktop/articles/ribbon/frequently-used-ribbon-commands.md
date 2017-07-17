@@ -1,5 +1,7 @@
 ---
 title: Frequently Used Ribbon Commands
+author: Alexey Zolotarev
+legacyId: 5548
 ---
 # Frequently Used Ribbon Commands
 Frequently used commands are typically displayed within the Quick Access Toolbar, at the top of the Ribbon:

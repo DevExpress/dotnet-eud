@@ -1,5 +1,7 @@
 ---
 title: Gauges
+author: Andrey Aksenov
+legacyId: 16691
 ---
 # Gauges
 The topics in this section describe the **Gauge** dashboard item, which displays a series of gauges.

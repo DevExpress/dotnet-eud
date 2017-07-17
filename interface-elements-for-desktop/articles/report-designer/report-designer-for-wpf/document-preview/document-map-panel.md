@@ -1,5 +1,7 @@
 ---
 title: Document Map Panel
+author: Anna Gubareva
+legacyId: 116451
 ---
 # Document Map Panel
 The **Document Map** panel is an interactive table of contents, which reflects a report's structure in a tree-like form and provides quick navigation through its [bookmarks](../creating-reports/report-navigation-and-interactivity/add-bookmarks.md).

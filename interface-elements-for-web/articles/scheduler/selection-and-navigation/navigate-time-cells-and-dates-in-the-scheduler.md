@@ -1,5 +1,7 @@
 ---
 title: Navigate Time Cells and Dates in the Scheduler
+author: Elena Dvoryadkina
+legacyId: 4216
 ---
 # Navigate Time Cells and Dates in the Scheduler
 ## View Navigator

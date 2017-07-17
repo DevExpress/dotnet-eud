@@ -1,5 +1,7 @@
 ---
 title: Interface Elements
+author: Anna Gubareva
+legacyId: 116213
 ---
 # Interface Elements
 The topics in this section describe the main elements that make up the user interface of the Report Designer.

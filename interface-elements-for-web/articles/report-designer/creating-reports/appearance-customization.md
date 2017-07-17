@@ -1,5 +1,7 @@
 ---
 title: Appearance Customization
+author: Anya Vekhina
+legacyId: 114727
 ---
 # Appearance Customization
 The [Web Report Designer](../../report-designer.md) allows you to customize the appearance of a report or any of its [elements](../report-elements.md) using specific appearance options (as well as fonts, colors, paddings, text alignment, etc.), visual styles and conditional formatting.

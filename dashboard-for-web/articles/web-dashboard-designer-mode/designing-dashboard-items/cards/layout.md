@@ -1,5 +1,7 @@
 ---
 title: Layout
+author: Andrey Aksenov
+legacyId: 118825
 ---
 # Layout
 The Card dashboard item allows you to manage the position and visibility of elements displayed on cards. These elements include actual and target values, a [delta indicator and corresponding delta values](delta.md), a [sparkline](sparkline.md), etc.

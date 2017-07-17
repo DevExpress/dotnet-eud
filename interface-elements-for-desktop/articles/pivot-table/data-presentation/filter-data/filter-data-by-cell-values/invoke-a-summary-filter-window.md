@@ -1,5 +1,7 @@
 ---
 title: Invoke a Summary Filter Window
+author: Andrey Aksenov
+legacyId: 11952
 ---
 # Invoke a Summary Filter Window
 To enable and configure filtering by cell values, use the Summary Filter Window.

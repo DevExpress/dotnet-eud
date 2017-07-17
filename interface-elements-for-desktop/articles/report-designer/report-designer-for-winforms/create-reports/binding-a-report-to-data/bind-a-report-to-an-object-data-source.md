@@ -1,5 +1,7 @@
 ---
 title: Bind a Report to an Object Data Source
+author: Anna Gubareva
+legacyId: 115620
 ---
 # Bind a Report to an Object Data Source
 This document describes the steps required to connect a report to an object data source.

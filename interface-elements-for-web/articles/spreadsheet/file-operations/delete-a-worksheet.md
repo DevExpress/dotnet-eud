@@ -1,5 +1,7 @@
 ---
 title: Delete a Worksheet
+author: Anna Kondratova
+legacyId: 18104
 ---
 # Delete a Worksheet
 To delete an existing worksheet, follow the instructions below.

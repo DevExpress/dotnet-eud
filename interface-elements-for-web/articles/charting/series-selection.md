@@ -1,5 +1,7 @@
 ---
 title: Series Selection
+author: Roman Karpov
+legacyId: 114375
 ---
 # Series Selection
 If you are working with 2D charts, you can select different series or chart elements using the mouse or different gestures on your touchscreen device.

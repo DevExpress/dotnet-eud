@@ -1,5 +1,7 @@
 ---
 title: Connect to a Database
+author: Anna Gubareva
+legacyId: 116226
 ---
 # Connect to a Database
 The topics in this section describe the steps required to connect a report to a database using the [Report Wizard](../../report-wizard.md).

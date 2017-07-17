@@ -1,5 +1,7 @@
 ---
 title: Bar Code
+author: Eugeniy Burmistrov
+legacyId: 5015
 ---
 # Bar Code
 The **Bar Code** control transforms its content into a bar code of the specified type. Multiple standard bar code symbologies are supported.

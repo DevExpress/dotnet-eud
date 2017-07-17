@@ -1,5 +1,7 @@
 ---
 title: Text Indentation in HTML Editor
+author: Anna Kondratova
+legacyId: 4458
 ---
 # Text Indentation in HTML Editor
 To change text indentation, do the following.

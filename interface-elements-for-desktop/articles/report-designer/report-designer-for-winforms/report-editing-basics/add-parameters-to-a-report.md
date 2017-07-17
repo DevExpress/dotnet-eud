@@ -1,5 +1,7 @@
 ---
 title: Add Parameters to a Report
+author: Anna Gubareva
+legacyId: 5584
 ---
 # Add Parameters to a Report
 For your report, you can employ _parameters_, which can be requested each time the report is being previewed. Based on specified values, the report will then be [filtered](change-or-apply-data-filtering-to-a-report.md). It is also possible to employ parameters in expressions of [calculated fields](add-calculated-fields-to-a-report.md).

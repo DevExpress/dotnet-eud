@@ -1,5 +1,7 @@
 ---
 title: Selection
+author: Alexander Temnov
+legacyId: 16930
 ---
 # Selection
 To select a map item, do one of the following:

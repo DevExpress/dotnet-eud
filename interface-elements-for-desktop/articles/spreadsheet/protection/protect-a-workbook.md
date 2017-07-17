@@ -1,5 +1,7 @@
 ---
 title: Protect a Workbook
+author: Boris Zaitsev
+legacyId: 17991
 ---
 # Protect a Workbook
 Workbook protection prevents users from changing a workbook’s structure (by moving, deleting, adding, hiding or displaying a hidden worksheet) or window position (by freezing or unfreezing panes).

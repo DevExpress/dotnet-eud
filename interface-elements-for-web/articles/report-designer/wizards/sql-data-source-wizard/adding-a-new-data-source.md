@@ -1,5 +1,7 @@
 ---
 title: Adding a New Data Source
+author: Anna Gubareva
+legacyId: 117819
 ---
 # Adding a New Data Source
 The following is a complete list of wizard pages that may be required to create a new SQL data source.

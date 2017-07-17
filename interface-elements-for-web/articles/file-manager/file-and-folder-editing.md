@@ -1,5 +1,7 @@
 ---
 title: File and Folder Editing
+author: Svetlana Nikulina
+legacyId: 9362
 ---
 # File and Folder Editing
 ## Create a Folder

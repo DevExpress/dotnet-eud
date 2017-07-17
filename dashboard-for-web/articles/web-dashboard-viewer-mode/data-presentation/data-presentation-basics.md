@@ -1,5 +1,7 @@
 ---
 title: Data Presentation Basics
+author: Andrey Aksenov
+legacyId: 16720
 ---
 # Data Presentation Basics
 The Web Dashboard can be used to present dashboards on the web. 

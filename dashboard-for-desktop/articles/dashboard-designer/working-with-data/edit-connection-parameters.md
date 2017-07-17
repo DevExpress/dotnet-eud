@@ -1,5 +1,7 @@
 ---
 title: Edit Connection Parameters
+author: Andrey Aksenov
+legacyId: 114167
 ---
 # Edit Connection Parameters
 After you [connected](../providing-data/connecting-to-sql-databases.md) to the data store and selected the required data, you can edit the connection parameters used to establish a connection.

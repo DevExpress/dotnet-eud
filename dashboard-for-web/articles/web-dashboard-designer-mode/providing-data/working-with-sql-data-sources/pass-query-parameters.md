@@ -1,5 +1,7 @@
 ---
 title: Pass Query Parameters
+author: Natalia Kazakova
+legacyId: 117969
 ---
 # Pass Query Parameters
 The [Query Builder](query-builder.md) allows you to [filter queries](filter-queries.md) using parameters. To specify settings of an added query parameter after creating a query, click **Next** in the [Dashboard Data Source Wizard](dashboard-data-source-wizard.md) dialog.

@@ -1,5 +1,7 @@
 ---
 title: Create Appointments
+author: Boris Zaitsev
+legacyId: 4180
 ---
 # Create Appointments
 ## Context Menu

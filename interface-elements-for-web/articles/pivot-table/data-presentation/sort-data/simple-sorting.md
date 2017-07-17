@@ -1,5 +1,7 @@
 ---
 title: Simple Sorting
+author: Andrey Aksenov
+legacyId: 11058
 ---
 # Simple Sorting
 Values of dimension fields are always arranged in ascending or descending order. The sort order is indicated by an Up or Down arrow displayed within a corresponding dimension field's header.

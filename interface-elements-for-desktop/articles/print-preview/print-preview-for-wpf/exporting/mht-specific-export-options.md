@@ -1,5 +1,7 @@
 ---
 title: MHT-Specific Export Options
+author: Anna Gubareva
+legacyId: 116637
 ---
 # MHT-Specific Export Options
 When [exporting a document](exporting.md), you can define the following MHT-specific export options.

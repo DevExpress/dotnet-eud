@@ -1,5 +1,7 @@
 ---
 title: Label Report
+author: Anna Gubareva
+legacyId: 116203
 ---
 # Label Report
 This tutorial describes the steps required to create a label report containing employee badges.

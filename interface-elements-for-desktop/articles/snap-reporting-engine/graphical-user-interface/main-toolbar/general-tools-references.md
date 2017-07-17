@@ -1,5 +1,7 @@
 ---
 title: 'General Tools: References'
+author: Eugeniy Burmistrov
+legacyId: 17342
 ---
 # General Tools: References
 The **References** toolbar contains commands that provide different kinds of references to a document, such as a table of contents and table captions.

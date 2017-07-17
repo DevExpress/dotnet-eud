@@ -1,5 +1,7 @@
 ---
 title: Conditional Formatting
+author: Andrey Aksenov
+legacyId: 114184
 ---
 # Conditional Formatting
 The Dashboard Designer provides the capability to apply formatting to dashboard item elements whose values meet the specified condition. This feature allows you to highlight specific elements using a predefined set of rules.

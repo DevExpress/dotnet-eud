@@ -1,5 +1,7 @@
 ---
 title: Grouping Data
+author: Anna Gubareva
+legacyId: 116280
 ---
 # Grouping Data
 This document demonstrates how to group report data. Grouping allows you to split data into groups based on identical values in a field or fields. Note that data grouping can be performed only if a report is [bound to a data source](../providing-data/binding-a-report-to-data.md).

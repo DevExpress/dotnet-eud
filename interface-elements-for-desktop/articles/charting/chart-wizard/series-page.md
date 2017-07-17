@@ -1,5 +1,7 @@
 ---
 title: Series Page
+author: Alexander Temnov
+legacyId: 4158
 ---
 # Series Page
 ## Tasks

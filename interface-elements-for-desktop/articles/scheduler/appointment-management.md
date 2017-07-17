@@ -1,5 +1,7 @@
 ---
 title: Appointment Management
+author: Boris Zaitsev
+legacyId: 16763
 ---
 # Appointment Management
 This section describes how to modify appointments.

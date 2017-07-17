@@ -1,5 +1,7 @@
 ---
 title: Gauge
+author: Eugeniy Burmistrov
+legacyId: 17293
 ---
 # Gauge
 The **Gauge** control provides you with the capability to embed graphical gauges into your report.

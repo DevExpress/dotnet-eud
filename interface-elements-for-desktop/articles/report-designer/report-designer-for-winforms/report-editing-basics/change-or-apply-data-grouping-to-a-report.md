@@ -1,5 +1,7 @@
 ---
 title: Change or Apply Data Grouping to a Report
+author: Eugeniy Burmistrov
+legacyId: 5580
 ---
 # Change or Apply Data Grouping to a Report
 This document demonstrates how to group a report's data. Note that data grouping can be performed only if a report is [bound to a data source](../create-reports/binding-a-report-to-data.md).

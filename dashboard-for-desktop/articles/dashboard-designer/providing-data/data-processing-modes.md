@@ -1,5 +1,7 @@
 ---
 title: Data Processing Modes
+author: Andrey Aksenov
+legacyId: 17238
 ---
 # Data Processing Modes
 DevExpress Dashboard supports two data processing modes that are used to perform data-related operations (such as grouping, filtering, etc.).

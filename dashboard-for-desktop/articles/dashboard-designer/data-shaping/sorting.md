@@ -1,5 +1,7 @@
 ---
 title: Sorting
+author: Andrey Aksenov
+legacyId: 16531
 ---
 # Sorting
 The Dashboard Designer allows you to easily change the sort order of values within a dashboard item. You can also enable sorting by parameter values.

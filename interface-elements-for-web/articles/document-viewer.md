@@ -1,5 +1,7 @@
 ---
 title: Document Viewer
+author: Anna Gubareva
+legacyId: 117358
 ---
 # Document Viewer
 This documentation section contains information about Document Viewers used to display an interactive document preview on Web pages.

@@ -1,5 +1,7 @@
 ---
 title: Print Preview for WPF
+author: Anna Gubareva
+legacyId: 116515
 ---
 # Print Preview for WPF
 The documents in this section provide information on the capabilities of the **Print Preview**, which is used to display an interactive document preview.

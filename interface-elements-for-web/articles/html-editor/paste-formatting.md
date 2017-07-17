@@ -1,5 +1,7 @@
 ---
 title: Paste Formatting
+author: Svetlana Nikulina
+legacyId: 17903
 ---
 # Paste Formatting
 To change the format of the pasted HTML content, click the buttons that appear at the top right corner of the editor once content is pasted.

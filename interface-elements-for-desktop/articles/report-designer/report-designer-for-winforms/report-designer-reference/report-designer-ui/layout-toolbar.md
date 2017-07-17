@@ -1,5 +1,7 @@
 ---
 title: Layout Toolbar
+author: Eugeniy Burmistrov
+legacyId: 4990
 ---
 # Layout Toolbar
 The **Layout Toolbar** allows you to easily align report elements to one another, change their size to match one another and customize spacing and z-order.

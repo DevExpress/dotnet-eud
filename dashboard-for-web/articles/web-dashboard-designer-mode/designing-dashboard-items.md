@@ -1,5 +1,7 @@
 ---
 title: Designing Dashboard Items
+author: Natalia Kazakova
+legacyId: 117974
 ---
 # Designing Dashboard Items
 The Web Dashboard provides a number of visualization media designed to effectively present visual or textual information in a dashboard - **dashboard items**.

@@ -1,5 +1,7 @@
 ---
 title: Chart with Static Series
+author: Anna Gubareva
+legacyId: 114581
 ---
 # Chart with Static Series
 This document describes how to create a report with a [Chart](../report-elements/report-controls.md) control that displays products and their prices for a selected category. In this example, series data has a single data source, but you can use different data sources for different series if required.

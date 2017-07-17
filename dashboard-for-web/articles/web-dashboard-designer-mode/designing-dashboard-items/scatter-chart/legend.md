@@ -1,5 +1,7 @@
 ---
 title: Legend
+author: Natalia Kazakova
+legacyId: 117985
 ---
 # Legend
 A legend is an element of a scatter chart that identifies chart points (for instance, colored points corresponding to argument values).

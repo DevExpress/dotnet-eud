@@ -1,5 +1,7 @@
 ---
 title: Change Watermark and Background Settings in Print Preview
+author: Eugeniy Burmistrov
+legacyId: 4324
 ---
 # Change Watermark and Background Settings in Print Preview
 ## Invoke the Watermark Dialog

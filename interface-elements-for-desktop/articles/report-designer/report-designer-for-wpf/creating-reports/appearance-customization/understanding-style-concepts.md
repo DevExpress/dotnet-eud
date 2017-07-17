@@ -1,5 +1,7 @@
 ---
 title: Understanding Style Concepts
+author: Anna Gubareva
+legacyId: 116335
 ---
 # Understanding Style Concepts
 This document describes how you can provide a professional look to your reports by effectively adjusting the appearance of its elements.

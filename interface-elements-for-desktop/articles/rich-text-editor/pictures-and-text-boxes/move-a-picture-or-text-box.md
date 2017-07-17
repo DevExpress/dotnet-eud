@@ -1,5 +1,7 @@
 ---
 title: Move a Picture or Text Box
+author: Elena Dvoryadkina
+legacyId: 11947
 ---
 # Move a Picture or Text Box
 ## Move a Picture or Text Box

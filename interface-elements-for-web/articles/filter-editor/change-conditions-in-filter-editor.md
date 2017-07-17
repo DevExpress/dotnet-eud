@@ -1,5 +1,7 @@
 ---
 title: Change Conditions in Filter Editor
+author: Svetlana Nikulina
+legacyId: 5383
 ---
 # Change Conditions in Filter Editor
 You can modify the manner that filter conditions change the columns in a filter.

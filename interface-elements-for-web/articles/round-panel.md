@@ -1,5 +1,7 @@
 ---
 title: Round Panel
+author: Svetlana Nikulina
+legacyId: 17412
 ---
 # Round Panel
 The **round panel** is a container area with rounded corners.

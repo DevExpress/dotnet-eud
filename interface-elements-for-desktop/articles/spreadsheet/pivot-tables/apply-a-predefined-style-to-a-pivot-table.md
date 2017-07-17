@@ -1,5 +1,7 @@
 ---
 title: Apply a Predefined Style to a Pivot Table
+author: Polina Fedorova
+legacyId: 117831
 ---
 # Apply a Predefined Style to a Pivot Table
 You can change the appearance of a pivot table using one of the predefined pivot table styles. Select the desired style from the **PivotTable Styles** gallery on the **PivotTable Tools** | **Design** tab and it will be automatically applied to the report.

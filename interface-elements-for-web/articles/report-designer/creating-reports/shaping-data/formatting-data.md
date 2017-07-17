@@ -1,5 +1,7 @@
 ---
 title: Formatting Data
+author: Anna Gubareva
+legacyId: 115848
 ---
 # Formatting Data
 This topic describes how to change the value formatting of report elements in the [Web Report Designer](../../../report-designer.md). For instance, you can format a numeric value as a currency, display a date/time value in one of the standard forms depending on the culture, etc.

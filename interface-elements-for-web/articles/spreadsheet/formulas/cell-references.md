@@ -1,5 +1,7 @@
 ---
 title: Cell References
+author: Anna Kondratova
+legacyId: 18242
 ---
 # Cell References
 ###The A1 Reference Style

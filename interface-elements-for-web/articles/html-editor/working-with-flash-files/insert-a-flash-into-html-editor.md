@@ -1,5 +1,7 @@
 ---
 title: Insert a Flash Into HTML Editor
+author: Svetlana Nikulina
+legacyId: 17967
 ---
 # Insert a Flash Into HTML Editor
 This topic describes how to insert a flash into an editor's content.

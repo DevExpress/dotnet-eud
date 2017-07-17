@@ -1,5 +1,7 @@
 ---
 title: Image Settings
+author: Svetlana Nikulina
+legacyId: 114307
 ---
 # Image Settings
 When you [insert](insert-an-image-in-html-editor.md) or [modify](modify-an-images-settings-in-html-editor.md) image in an HTML Editor, you can customize the image settings as well.

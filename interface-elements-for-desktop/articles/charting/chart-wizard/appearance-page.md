@@ -1,5 +1,7 @@
 ---
 title: Appearance Page
+author: Eugeniy Burmistrov
+legacyId: 4157
 ---
 # Appearance Page
 ## Tasks

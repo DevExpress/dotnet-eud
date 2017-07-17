@@ -1,5 +1,7 @@
 ---
 title: Back Up the Report Layout
+author: Anna Gubareva
+legacyId: 116291
 ---
 # Back Up the Report Layout
 To guarantee that you will be able to revert your report to its original state, you can to create a _backup copy_. Then, you can apply changes without worrying that it will be hard to restore your report, in case something breaks.

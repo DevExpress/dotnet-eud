@@ -1,5 +1,7 @@
 ---
 title: Insert, Select, Copy or Delete a Text Box
+author: Elena Dvoryadkina
+legacyId: 11254
 ---
 # Insert, Select, Copy or Delete a Text Box
 ## Insert a Text Box

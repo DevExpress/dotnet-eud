@@ -1,5 +1,7 @@
 ---
 title: Table Row
+author: Eugeniy Burmistrov
+legacyId: 5142
 ---
 # Table Row
 The **Table Row Control** represents a single row within a [Table](table.md).

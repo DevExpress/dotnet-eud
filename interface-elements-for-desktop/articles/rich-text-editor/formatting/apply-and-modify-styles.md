@@ -1,5 +1,7 @@
 ---
 title: Apply and Modify Styles
+author: Boris Zaitsev
+legacyId: 9360
 ---
 # Apply and Modify Styles
 To format a text or a paragraph you can apply styles. A style is a group of formatting characteristics. All these characteristics are applied to a text or a paragraph at once when you apply a style. Thus, styles allow you to change text and paragraph appearance quicker than setting all formatting characteristics separately ([Format Text](format-text.md), [Format Paragraphs](format-paragraphs.md)).

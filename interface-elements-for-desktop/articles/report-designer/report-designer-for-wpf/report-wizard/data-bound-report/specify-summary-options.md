@@ -1,5 +1,7 @@
 ---
 title: Specify Summary Options
+author: Anna Gubareva
+legacyId: 116234
 ---
 # Specify Summary Options
 This wizard page allows you to specify totals for each data group or for the entire report. The specified totals will be displayed after corresponding groups and in the report footer.

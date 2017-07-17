@@ -1,5 +1,7 @@
 ---
 title: Keyboard Navigation in Menus and Toolbars
+author: Alexey Zolotarev
+legacyId: 4706
 ---
 # Keyboard Navigation in Menus and Toolbars
 ## Navigate between Toolbar and Menu Items

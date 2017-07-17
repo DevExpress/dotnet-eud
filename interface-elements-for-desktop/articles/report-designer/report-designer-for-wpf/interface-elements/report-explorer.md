@@ -1,5 +1,7 @@
 ---
 title: Report Explorer
+author: Anna Gubareva
+legacyId: 116217
 ---
 # Report Explorer
 The **Report Explorer** reflects a report's structure in a tree-like form providing easy access to [report elements](../report-elements.md). Additionally, the Report Explorer contains the **Components** node, which displays non-visual report components such as data objects created when [binding a report to a data source](../creating-reports/providing-data/binding-a-report-to-data.md). You can also use the Report Explorer to manage [styles](../creating-reports/appearance-customization/understanding-style-concepts.md) and [formatting rules](../creating-reports/appearance-customization/conditionally-change-a-controls-appearance.md) available for a report.

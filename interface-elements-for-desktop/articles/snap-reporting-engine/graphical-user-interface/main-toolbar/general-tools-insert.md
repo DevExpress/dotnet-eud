@@ -1,5 +1,7 @@
 ---
 title: 'General Tools: Insert'
+author: Eugeniy Burmistrov
+legacyId: 17336
 ---
 # General Tools: Insert
 The **Insert** toolbar contains elements that can be inserted into a document.

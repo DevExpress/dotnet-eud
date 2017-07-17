@@ -1,5 +1,7 @@
 ---
 title: Adjust the Document View
+author: Alexander Temnov
+legacyId: 17479
 ---
 # Adjust the Document View
 This topic describes the features that adjust the view in the PDF Viewer.

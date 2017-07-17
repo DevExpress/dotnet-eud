@@ -1,5 +1,7 @@
 ---
 title: Print Preview
+author: Eugeniy Burmistrov
+legacyId: 17313
 ---
 # Print Preview
 This document describes the **Print Preview** window, which displays published documents in a **Snap** application.

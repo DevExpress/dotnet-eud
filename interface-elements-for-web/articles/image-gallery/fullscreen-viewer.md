@@ -1,5 +1,7 @@
 ---
 title: Fullscreen Viewer
+author: Svetlana Nikulina
+legacyId: 16837
 ---
 # Fullscreen Viewer
 The Image Gallery **Fullscreen Viewer** displays images in full screen mode and allows you to navigate through them.

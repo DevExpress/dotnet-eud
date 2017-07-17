@@ -1,5 +1,7 @@
 ---
 title: Numbered Lists
+author: Anna Kondratova
+legacyId: 113841
 ---
 # Numbered Lists
 ## Create a Numbered List as You Type

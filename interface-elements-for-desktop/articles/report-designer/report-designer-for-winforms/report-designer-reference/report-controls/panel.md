@@ -1,5 +1,7 @@
 ---
 title: Panel
+author: Eugeniy Burmistrov
+legacyId: 5011
 ---
 # Panel
 The **Panel** control is a container that frames separate report controls to allow them to be easily moved, copied and pasted, and visually unite them in the report's preview (with borders or a uniform color background).

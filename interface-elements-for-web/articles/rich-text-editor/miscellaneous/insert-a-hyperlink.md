@@ -1,5 +1,7 @@
 ---
 title: Insert a Hyperlink
+author: Anna Kondratova
+legacyId: 113848
 ---
 # Insert a Hyperlink
 The **Hyperlink** marks the document range as a hot spot in the document. It can be activated by clicking or pressing **ENTER** to navigate the specified external URL.

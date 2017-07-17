@@ -1,5 +1,7 @@
 ---
 title: 'Data Tools: Appearance'
+author: Eugeniy Burmistrov
+legacyId: 17335
 ---
 # Data Tools: Appearance
 This **Appearance** toolbar contains predefined report styles. After selecting a style, it is applied to all  Snap Lists throughout the document.

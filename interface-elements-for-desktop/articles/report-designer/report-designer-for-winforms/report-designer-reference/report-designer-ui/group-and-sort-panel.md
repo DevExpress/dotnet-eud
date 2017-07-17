@@ -1,5 +1,7 @@
 ---
 title: Group and Sort Panel
+author: Eugeniy Burmistrov
+legacyId: 7402
 ---
 # Group and Sort Panel
 The **Group and Sort Panel** allows you to quickly apply [grouping](../../report-editing-basics/change-or-apply-data-grouping-to-a-report.md) and [sorting](../../report-editing-basics/change-or-apply-data-sorting-to-a-report.md) to your report data.

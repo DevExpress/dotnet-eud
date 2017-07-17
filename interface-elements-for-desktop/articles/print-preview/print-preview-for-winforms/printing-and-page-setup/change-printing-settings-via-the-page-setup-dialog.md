@@ -1,5 +1,7 @@
 ---
 title: Change Printing Settings via the Page Setup Dialog
+author: Eugeniy Burmistrov
+legacyId: 4304
 ---
 # Change Printing Settings via the Page Setup Dialog
 To start the page setup dialog box, do one of the following.

@@ -1,5 +1,7 @@
 ---
 title: Table
+author: Eugeniy Burmistrov
+legacyId: 5012
 ---
 # Table
 The **Table** control is designed to arrange information in a [tabular layout](../../create-reports/report-types/table-report.md). It may contain any number of [Rows](table-row.md) comprised of individual [Cells](table-cell.md). Both Rows and Cells can be selected and customized individually. In most aspects, a Cell is similar to a [Label](label.md), but can also contain other controls (e.g. [Picture Box](picture-box.md) or [Rich Text](rich-text.md)).

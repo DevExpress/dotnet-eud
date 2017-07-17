@@ -1,5 +1,7 @@
 ---
 title: Change Value Formatting of Report Elements
+author: Eugeniy Burmistrov
+legacyId: 5577
 ---
 # Change Value Formatting of Report Elements
 To apply value formatting for a [data-bound control](displaying-values-from-a-database-(binding-report-elements-to-data).md)'s content (e.g. for it to be treated as currency, or date-time content), locate this control, click its [Smart Tag](../report-designer-reference/report-designer-ui/smart-tag.md), and in the invoked actions list, click the ellipsis button for the **Format String** entry.

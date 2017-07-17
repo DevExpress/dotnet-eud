@@ -1,5 +1,7 @@
 ---
 title: Remove a Table in HTML Editor
+author: Anna Kondratova
+legacyId: 6997
 ---
 # Remove a Table in HTML Editor
 You can remove a table or its elements from the HTML Editor by using the following commands:

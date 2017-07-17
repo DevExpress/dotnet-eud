@@ -1,5 +1,7 @@
 ---
 title: Remove a Hyperlink in HTML Editor
+author: Anna Kondratova
+legacyId: 4521
 ---
 # Remove a Hyperlink in HTML Editor
 To remove a hyperlink, do the following.

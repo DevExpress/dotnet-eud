@@ -1,5 +1,7 @@
 ---
 title: Providing Data
+author: Andrey Aksenov
+legacyId: 15454
 ---
 # Providing Data
 The Dashboard Designer allows you to bind various dashboard items to data in a virtually uniform manner. To learn more, see the [Binding Dashboard Items to Data](../../binding-dashboard-items-to-data/binding-dashboard-items-to-data.md) topic. The only difference is in the data sections that the required dashboard item has.

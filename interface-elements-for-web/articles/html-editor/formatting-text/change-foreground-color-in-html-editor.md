@@ -1,5 +1,7 @@
 ---
 title: Change Foreground Color in HTML Editor
+author: Anna Kondratova
+legacyId: 4500
 ---
 # Change Foreground Color in HTML Editor
 To change the text color, do the following.

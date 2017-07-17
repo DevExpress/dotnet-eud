@@ -1,5 +1,7 @@
 ---
 title: Snap User Interface Overview
+author: Eugeniy Burmistrov
+legacyId: 17310
 ---
 # Snap User Interface Overview
 This document lists the essential elements of the Snap user interface, and provides links to specific topics that describe these elements in more detail.

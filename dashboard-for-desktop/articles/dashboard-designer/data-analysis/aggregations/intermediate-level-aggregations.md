@@ -1,5 +1,7 @@
 ---
 title: Intermediate Level Aggregations
+author: Andrey Aksenov
+legacyId: 116589
 ---
 # Intermediate Level Aggregations
 The Dashboard can aggregate and summarize data on different levels.

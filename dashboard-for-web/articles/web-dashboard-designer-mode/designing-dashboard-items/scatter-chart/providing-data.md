@@ -1,5 +1,7 @@
 ---
 title: Providing Data
+author: Natalia Kazakova
+legacyId: 117983
 ---
 # Providing Data
 The **Web Dashboard** allows you to bind various dashboard items to data in a virtually uniform manner. To learn more, see the [Binding Dashboard Items to Data](../../binding-dashboard-items-to-data.md) topic.

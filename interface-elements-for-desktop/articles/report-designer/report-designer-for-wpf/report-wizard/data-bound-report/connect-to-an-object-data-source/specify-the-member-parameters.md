@@ -1,5 +1,7 @@
 ---
 title: Specify the Member Parameters
+author: Anna Gubareva
+legacyId: 116242
 ---
 # Specify the Member Parameters
 On this wizard page, you can specify the member parameters.

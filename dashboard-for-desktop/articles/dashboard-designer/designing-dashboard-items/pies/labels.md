@@ -1,5 +1,7 @@
 ---
 title: Labels
+author: Andrey Aksenov
+legacyId: 16583
 ---
 # Labels
 ![Pies_Layout_LabelsAndTooltips](../../../../images/img19947.png)

@@ -1,5 +1,7 @@
 ---
 title: Navigate to a Specific Report Page
+author: Eugeniy Burmistrov
+legacyId: 4618
 ---
 # Navigate to a Specific Report Page
 To navigate to a specific page of a document, open the **Page** list on the report toolbar, and select the required page.

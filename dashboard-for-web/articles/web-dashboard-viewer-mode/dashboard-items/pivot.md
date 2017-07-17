@@ -1,5 +1,7 @@
 ---
 title: Pivot
+author: Andrey Aksenov
+legacyId: 16747
 ---
 # Pivot
 The **Pivot** dashboard item displays a cross-tabular report that presents multi-dimensional data in an easy-to-read format.

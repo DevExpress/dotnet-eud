@@ -1,5 +1,7 @@
 ---
 title: 'General Tools: View'
+author: Eugeniy Burmistrov
+legacyId: 17337
 ---
 # General Tools: View
 The **View** toolbar contains commands that control the presentation of document elements on the [Design Surface](../snap-application-elements/design-surface.md).

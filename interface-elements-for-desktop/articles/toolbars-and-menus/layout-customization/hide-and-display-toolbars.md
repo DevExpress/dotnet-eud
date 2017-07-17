@@ -1,5 +1,7 @@
 ---
 title: Hide and Display Toolbars
+author: Alexey Zolotarev
+legacyId: 5537
 ---
 # Hide and Display Toolbars
 ## Use the Quick Customization Menu

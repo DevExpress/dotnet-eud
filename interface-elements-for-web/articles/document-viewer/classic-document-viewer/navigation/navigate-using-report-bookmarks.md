@@ -1,5 +1,7 @@
 ---
 title: Navigate using Report Bookmarks
+author: Eugeniy Burmistrov
+legacyId: 4619
 ---
 # Navigate using Report Bookmarks
 If it is provided by your application, you can use the **Document Map** for navigation purposes.

@@ -1,5 +1,7 @@
 ---
 title: Style
+author: Andrey Aksenov
+legacyId: 16601
 ---
 # Style
 The **Gauge** dashboard item allows you to select the gauge type.

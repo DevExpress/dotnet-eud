@@ -1,5 +1,7 @@
 ---
 title: Sort Grid Rows
+author: Alexey Zolotarev
+legacyId: 4564
 ---
 # Sort Grid Rows
 ## Sort Data in Grid Views

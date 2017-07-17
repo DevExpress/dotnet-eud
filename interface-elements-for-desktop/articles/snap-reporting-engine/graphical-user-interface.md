@@ -1,5 +1,7 @@
 ---
 title: Graphical User Interface
+author: Eugeniy Burmistrov
+legacyId: 17309
 ---
 # Graphical User Interface
 The topics in this section describe various aspects of the Snap graphical user interface (GUI).

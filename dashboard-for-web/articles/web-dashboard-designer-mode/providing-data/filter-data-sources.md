@@ -1,5 +1,7 @@
 ---
 title: Filter Data Sources
+author: Natalia Kazakova
+legacyId: 117963
 ---
 # Filter Data Sources
 The Web Dashboard allows you to apply filtering to Excel and Object data sources.

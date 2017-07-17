@@ -1,5 +1,7 @@
 ---
 title: Drill-Down
+author: Andrey Aksenov
+legacyId: 16571
 ---
 # Drill-Down
 The built-in drill-down capability allows you to change the detail level of data displayed in dashboard items on the fly. To learn more about drill-down concepts common to all dashboard items, see the [Drill-Down](../../../interactivity/drill-down.md) topic.

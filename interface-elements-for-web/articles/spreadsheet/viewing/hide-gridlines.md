@@ -1,5 +1,7 @@
 ---
 title: Hide Gridlines
+author: Anna Kondratova
+legacyId: 113717
 ---
 # Hide Gridlines
 The **Spreadsheet** allows you to hide gridlines that are displayed on a worksheet by default.

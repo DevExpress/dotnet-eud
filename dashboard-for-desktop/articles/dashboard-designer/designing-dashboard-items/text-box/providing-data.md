@@ -1,5 +1,7 @@
 ---
 title: Providing Data
+author: Andrey Aksenov
+legacyId: 16862
 ---
 # Providing Data
 The Text Box dashboard item can be [bound to data](../../binding-dashboard-items-to-data.md) as other data-aware dashboard items. To do this, perform the following steps.

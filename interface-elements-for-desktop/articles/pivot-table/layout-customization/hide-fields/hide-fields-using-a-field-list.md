@@ -1,5 +1,7 @@
 ---
 title: Hide Fields Using a Field List
+author: Andrey Aksenov
+legacyId: 9668
 ---
 # Hide Fields Using a Field List
 You can use a simple or an advanced Field List to hide fields (to learn more about Field Lists, see [Field List Overview](../../field-list-overview.md)).

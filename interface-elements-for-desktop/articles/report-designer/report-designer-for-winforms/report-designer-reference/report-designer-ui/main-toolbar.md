@@ -1,5 +1,7 @@
 ---
 title: Main Toolbar
+author: Eugeniy Burmistrov
+legacyId: 4992
 ---
 # Main Toolbar
 The **Main Toolbar** contains buttons which provide the capability to create new reports, save and load report layouts, cut, copy and paste report elements, and undo-redo actions in the Report Designer.

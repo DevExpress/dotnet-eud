@@ -1,5 +1,7 @@
 ---
 title: Select the Data Context
+author: Anna Gubareva
+legacyId: 116260
 ---
 # Select the Data Context
 This page allows you to select a required Entity Framework data context that will provide data to a report.

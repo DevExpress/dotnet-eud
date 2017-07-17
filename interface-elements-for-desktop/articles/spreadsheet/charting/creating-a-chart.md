@@ -1,5 +1,7 @@
 ---
 title: Creating a Chart
+author: Natalya Senichkina
+legacyId: 16812
 ---
 # Creating a Chart
 The **Spreadsheet** allows you to create charts quickly using the **Charts** group of the **Insert** tab.

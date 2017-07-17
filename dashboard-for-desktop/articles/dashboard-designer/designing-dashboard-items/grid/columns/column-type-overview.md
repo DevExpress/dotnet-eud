@@ -1,5 +1,7 @@
 ---
 title: Column Type Overview
+author: Andrey Aksenov
+legacyId: 16564
 ---
 # Column Type Overview
 The **Grid** dashboard item supports four types of columns.

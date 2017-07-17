@@ -1,5 +1,7 @@
 ---
 title: Print a Report Using the PDF Web Browser Plug-In
+author: Anna Gubareva
+legacyId: 4616
 ---
 # Print a Report Using the PDF Web Browser Plug-In
 If the PDF plug-in is not installed in your web browser, the default browser printing approach is used to print report documents. For details and issues related to this approach, see [Print Reports Using the Native Functionality of a Web Browser](print-reports-using-the-native-functionality-of-a-web-browser.md).

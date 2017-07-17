@@ -1,5 +1,7 @@
 ---
 title: Report Wizard
+author: Anna Gubareva
+legacyId: 116225
 ---
 # Report Wizard
 The Report Wizard is a powerful tool that allows you to easily create reports based on built-in templates. It is automatically invoked when [adding a new report](creating-reports/basic-operations/create-a-new-report.md) in the [Report Designer](../report-designer-for-wpf.md).

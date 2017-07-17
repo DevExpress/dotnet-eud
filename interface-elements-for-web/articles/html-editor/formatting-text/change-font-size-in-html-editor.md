@@ -1,5 +1,7 @@
 ---
 title: Change Font Size in HTML Editor
+author: Anna Kondratova
+legacyId: 4495
 ---
 # Change Font Size in HTML Editor
 To change the text's font size, do the following.

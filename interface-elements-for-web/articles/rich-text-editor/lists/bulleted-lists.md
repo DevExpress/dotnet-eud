@@ -1,5 +1,7 @@
 ---
 title: Bulleted Lists
+author: Anna Kondratova
+legacyId: 113842
 ---
 # Bulleted Lists
 ## Create a Bulleted List as You Type

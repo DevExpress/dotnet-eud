@@ -1,5 +1,7 @@
 ---
 title: Navigation Bars
+author: Alexey Zolotarev
+legacyId: 4845
 ---
 # Navigation Bars
 This section describes the capabilities provided by the Navigation Bars.

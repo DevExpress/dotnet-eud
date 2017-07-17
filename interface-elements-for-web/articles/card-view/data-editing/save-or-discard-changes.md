@@ -1,5 +1,7 @@
 ---
 title: Save or Discard Changes
+author: Svetlana Nikulina
+legacyId: 115282
 ---
 # Save or Discard Changes
 ## Save Changes

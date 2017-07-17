@@ -1,5 +1,7 @@
 ---
 title: Interactivity
+author: Andrey Aksenov
+legacyId: 16303
 ---
 # Interactivity
 This topic describes features that enable interaction between the **Treemap** and other dashboard items. These features include **Master Filtering** and **Drill-Down**

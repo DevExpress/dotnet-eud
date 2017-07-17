@@ -1,5 +1,7 @@
 ---
 title: Report Wizard
+author: Anna Gubareva
+legacyId: 5026
 ---
 # Report Wizard
 The **Report Wizard** is a tool that allows you to easily create reports based on built-in templates. Using this tool, you can do the following.

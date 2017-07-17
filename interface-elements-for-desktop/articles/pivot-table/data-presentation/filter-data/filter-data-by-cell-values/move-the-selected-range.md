@@ -1,5 +1,7 @@
 ---
 title: Move the Selected Range
+author: Andrey Aksenov
+legacyId: 11954
 ---
 # Move the Selected Range
 To move a selection, do the following.

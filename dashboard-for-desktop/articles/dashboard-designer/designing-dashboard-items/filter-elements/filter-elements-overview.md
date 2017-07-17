@@ -1,5 +1,7 @@
 ---
 title: Filter Elements Overview
+author: Andrey Aksenov
+legacyId: 17939
 ---
 # Filter Elements Overview
 The **Dashboard Designer** allows you to create three types of filter elements that provide the capability to filter other dashboard items.

@@ -1,5 +1,7 @@
 ---
 title: Context Menu
+author: Svetlana Nikulina
+legacyId: 17398
 ---
 # Context Menu
 The **context menu** is a popup menu displayed when you right-click a grid element.

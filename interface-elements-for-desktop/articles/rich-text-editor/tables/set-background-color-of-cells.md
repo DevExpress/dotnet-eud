@@ -1,5 +1,7 @@
 ---
 title: Set Background Color of Cells
+author: Elena Dvoryadkina
+legacyId: 9365
 ---
 # Set Background Color of Cells
 1. [Select](select-a-cell-row-or-column.md) a table or specific cells whose background color you want to set.

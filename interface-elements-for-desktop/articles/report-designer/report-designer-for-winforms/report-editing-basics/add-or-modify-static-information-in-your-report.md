@@ -1,5 +1,7 @@
 ---
 title: Add or Modify Static Information in Your Report
+author: Eugeniy Burmistrov
+legacyId: 5573
 ---
 # Add or Modify Static Information in Your Report
 In a report, _static_ and _dynamic_ information is displayed using appropriate [controls](../report-designer-reference/report-controls.md).

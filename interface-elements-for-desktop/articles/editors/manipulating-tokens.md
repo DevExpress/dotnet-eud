@@ -1,5 +1,7 @@
 ---
 title: Manipulating Tokens
+author: Andrey Nadezhdin
+legacyId: 118056
 ---
 # Manipulating Tokens
 ## Add a Token

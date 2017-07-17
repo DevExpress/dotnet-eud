@@ -1,5 +1,7 @@
 ---
 title: Select Cells or Cell Content
+author: Natalya Senichkina
+legacyId: 15779
 ---
 # Select Cells or Cell Content
 ## Selecting Cells

@@ -1,5 +1,7 @@
 ---
 title: Top N
+author: Andrey Aksenov
+legacyId: 16533
 ---
 # Top N
 The **Top N** feature allows you to display only a limited number of values that correspond to the highest or lowest values of a particular measure.

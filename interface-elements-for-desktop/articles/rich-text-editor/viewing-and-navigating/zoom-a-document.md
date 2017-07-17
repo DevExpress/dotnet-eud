@@ -1,5 +1,7 @@
 ---
 title: Zoom a Document
+author: Elena Dvoryadkina
+legacyId: 8545
 ---
 # Zoom a Document
 You can zoom in and out of a document in the following ways:

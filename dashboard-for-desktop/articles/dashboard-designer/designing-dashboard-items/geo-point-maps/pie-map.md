@@ -1,5 +1,7 @@
 ---
 title: Pie Map
+author: Andrey Aksenov
+legacyId: 16779
 ---
 # Pie Map
 The **Pie Map** dashboard item allows you to display pies on the map. Each pie visualizes the contribution of each value to the total.

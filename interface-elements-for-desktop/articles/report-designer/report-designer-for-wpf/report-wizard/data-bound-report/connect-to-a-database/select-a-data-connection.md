@@ -1,5 +1,7 @@
 ---
 title: Select a Data Connection
+author: Anna Gubareva
+legacyId: 116227
 ---
 # Select a Data Connection
 On this page, you can choose whether to use one of the existing data connections or create a new one.

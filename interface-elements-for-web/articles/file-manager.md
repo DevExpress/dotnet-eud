@@ -1,5 +1,7 @@
 ---
 title: File Manager
+author: Svetlana Nikulina
+legacyId: 9361
 ---
 # File Manager
 This section describes the capabilities provided by the **File Manager**.

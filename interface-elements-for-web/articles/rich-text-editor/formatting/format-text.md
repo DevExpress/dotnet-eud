@@ -1,5 +1,7 @@
 ---
 title: Format Text
+author: Anna Kondratova
+legacyId: 113835
 ---
 # Format Text
 To format text, first [select it](../text-editing/select-text.md) and then use the **Font** group in the **Home** tab to change the font family, size, color, clear formatting etc.

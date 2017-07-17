@@ -1,5 +1,7 @@
 ---
 title: Uploading a Single File
+author: Anna Kondratova
+legacyId: 4591
 ---
 # Uploading a Single File
 To select a file, click the **Browse** button or the input area, and select a file within the invoked **Choose File** dialog.

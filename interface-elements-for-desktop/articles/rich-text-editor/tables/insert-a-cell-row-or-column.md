@@ -1,5 +1,7 @@
 ---
 title: Insert a Cell, Row or Column
+author: Elena Dvoryadkina
+legacyId: 9273
 ---
 # Insert a Cell, Row or Column
 ## Insert a Cell

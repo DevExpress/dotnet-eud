@@ -1,5 +1,7 @@
 ---
 title: Manage SQL Queries
+author: Natalia Kazakova
+legacyId: 117965
 ---
 # Manage SQL Queries
 After you [connect](../connect-to-an-existing-data-source.md) to the data source and select the required data, you can create new SQL queries or edit the existing queries in the SQL data sources. To manage data sources, open the dashboard menu and go to the **Data Sources** page.

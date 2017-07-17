@@ -1,5 +1,7 @@
 ---
 title: Create a Table of Contents
+author: Anna Gubareva
+legacyId: 116185
 ---
 # Create a Table of Contents
 This topic describes how to provide a report with a table of contents that displays page numbers for bookmarked report elements at different nesting levels, and thus makes it possible to quickly navigate to a specific document page by clicking the corresponding entry.

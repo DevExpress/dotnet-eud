@@ -1,5 +1,7 @@
 ---
 title: Create a Table Report
+author: Eugeniy Burmistrov
+legacyId: 12455
 ---
 # Create a Table Report
 This tutorial will guide you through the process of creating a **Table Report**, and printing and saving it to your hard drive.

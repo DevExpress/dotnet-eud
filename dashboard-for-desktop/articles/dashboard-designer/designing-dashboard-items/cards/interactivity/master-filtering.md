@@ -1,5 +1,7 @@
 ---
 title: Master Filtering
+author: Andrey Aksenov
+legacyId: 16590
 ---
 # Master Filtering
 The **Dashboard** allows you to use any data aware dashboard item as a filter for other dashboard items (**Master Filter**). To learn more about filtering concepts common to all dashboard items, see the [Master Filtering](../../../interactivity/master-filtering.md) topic.

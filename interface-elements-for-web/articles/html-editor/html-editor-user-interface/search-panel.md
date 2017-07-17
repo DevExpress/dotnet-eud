@@ -1,5 +1,7 @@
 ---
 title: Search Panel
+author: Svetlana Nikulina
+legacyId: 7822
 ---
 # Search Panel
 The **Search Panel** allows you to search text and navigate through search results.

@@ -1,5 +1,7 @@
 ---
 title: Images
+author: Natalia Kazakova
+legacyId: 117930
 ---
 # Images
 The Image dashboard item is used to display static images within a dashboard.

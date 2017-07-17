@@ -1,5 +1,7 @@
 ---
 title: Query Builder
+author: Boris Zaitsev
+legacyId: 17963
 ---
 # Query Builder
 When the data source is configured, you can use the built-in **Query Builder** dialog to select required data.

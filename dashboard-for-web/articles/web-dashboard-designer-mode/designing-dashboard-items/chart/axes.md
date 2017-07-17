@@ -1,5 +1,7 @@
 ---
 title: Axes
+author: Natalia Kazakova
+legacyId: 117980
 ---
 # Axes
 The Chart dashboard item displays two axes by default: the X-axis and the Y-axis. The X-axis is the axis of arguments and the Y-axis is the numerical axis of values.

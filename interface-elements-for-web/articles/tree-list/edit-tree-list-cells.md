@@ -1,5 +1,7 @@
 ---
 title: Edit Tree List Cells
+author: Alexey Kazakov
+legacyId: 4523
 ---
 # Edit Tree List Cells
 ## Switch to Edit Mode

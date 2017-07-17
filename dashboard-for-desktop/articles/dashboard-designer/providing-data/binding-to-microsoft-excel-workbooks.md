@@ -1,5 +1,7 @@
 ---
 title: Binding to Microsoft Excel Workbooks
+author: Andrey Aksenov
+legacyId: 115240
 ---
 # Binding to Microsoft Excel Workbooks
 The Dashboard Designer allows you to select required data from Microsoft Excel workbooks (XLS, XLSX or XLSM). You can select all data from the specified worksheet or you can select the cell range referenced by the specified defined/table name.

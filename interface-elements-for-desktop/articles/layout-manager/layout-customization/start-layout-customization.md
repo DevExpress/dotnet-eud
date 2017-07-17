@@ -1,5 +1,7 @@
 ---
 title: Start Layout Customization
+author: Alexey Zolotarev
+legacyId: 4663
 ---
 # Start Layout Customization
 The layout of controls can be modified in customization mode. To invoke customization mode, right-click an empty space within the Layout Manager and select **Customize Layout**:

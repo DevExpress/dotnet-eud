@@ -1,5 +1,7 @@
 ---
 title: Interactivity
+author: Natalia Kazakova
+legacyId: 117978
 ---
 # Interactivity
 To enable interaction between the Chart and other dashboard items, you can use the interactivity features, as **Master Filtering** and **Drill-Down**.

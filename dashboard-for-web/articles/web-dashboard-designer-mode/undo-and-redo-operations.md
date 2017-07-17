@@ -1,5 +1,7 @@
 ---
 title: Undo and Redo Operations
+author: Natalia Kazakova
+legacyId: 117714
 ---
 # Undo and Redo Operations
 The Web Dashboard keeps track of all user actions, and allows you to undo or repeat them using the **Undo**/**Redo** buttons.

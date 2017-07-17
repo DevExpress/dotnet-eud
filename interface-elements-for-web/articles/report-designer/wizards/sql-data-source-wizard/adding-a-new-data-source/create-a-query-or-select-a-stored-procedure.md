@@ -1,5 +1,7 @@
 ---
 title: Create a Query or Select a Stored Procedure
+author: Anna Gubareva
+legacyId: 117821
 ---
 # Create a Query or Select a Stored Procedure
 On this wizard page, you can choose which tables, views and/or stored procedures from your data source to display in the report.

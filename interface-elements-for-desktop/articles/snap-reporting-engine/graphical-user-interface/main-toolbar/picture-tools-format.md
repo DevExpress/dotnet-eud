@@ -1,5 +1,7 @@
 ---
 title: 'Picture Tools: Format'
+author: Eugeniy Burmistrov
+legacyId: 17343
 ---
 # Picture Tools: Format
 This toolbar is context sensitive, and becomes active after selecting a picture in a document.

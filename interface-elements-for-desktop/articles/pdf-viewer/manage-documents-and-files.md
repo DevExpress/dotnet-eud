@@ -1,5 +1,7 @@
 ---
 title: Manage Documents and Files
+author: Alexander Temnov
+legacyId: 17452
 ---
 # Manage Documents and Files
 This document describes how to open and save PDF files using the PDF Viewer.

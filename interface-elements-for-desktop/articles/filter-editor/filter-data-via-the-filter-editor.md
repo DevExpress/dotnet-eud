@@ -1,5 +1,7 @@
 ---
 title: Filter Data via the Filter Editor
+author: Alexey Zolotarev
+legacyId: 4659
 ---
 # Filter Data via the Filter Editor
 ## Filter Editor

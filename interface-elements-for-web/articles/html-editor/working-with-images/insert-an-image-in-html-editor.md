@@ -1,5 +1,7 @@
 ---
 title: Insert an Image in HTML Editor
+author: Svetlana Nikulina
+legacyId: 4535
 ---
 # Insert an Image in HTML Editor
 This topic describes how to insert an image into an editor's content.

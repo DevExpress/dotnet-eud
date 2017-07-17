@@ -1,5 +1,7 @@
 ---
 title: Hide and Display Tree List Columns
+author: Alexey Zolotarev
+legacyId: 4683
 ---
 # Hide and Display Tree List Columns
 ## Hide Columns

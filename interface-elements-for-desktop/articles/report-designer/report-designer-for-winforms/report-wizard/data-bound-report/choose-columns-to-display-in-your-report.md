@@ -1,5 +1,7 @@
 ---
 title: Choose Columns to Display in Your Report
+author: Anna Gubareva
+legacyId: 5071
 ---
 # Choose Columns to Display in Your Report
 Depending on whether or not a report has been assigned a data member prior to running the wizard, the following pages are used at this step.

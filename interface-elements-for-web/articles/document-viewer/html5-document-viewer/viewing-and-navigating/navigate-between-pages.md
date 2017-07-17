@@ -1,5 +1,7 @@
 ---
 title: Navigate Between Pages
+author: Anna Gubareva
+legacyId: 115369
 ---
 # Navigate Between Pages
 To navigate to a specific page of a document, select the required page in the dedicated dropdown list on the Document Viewer's toolbar.

@@ -1,5 +1,7 @@
 ---
 title: Navigation in Vertical Grids
+author: Alexey Zolotarev
+legacyId: 4678
 ---
 # Navigation in Vertical Grids
 | Action | Description |

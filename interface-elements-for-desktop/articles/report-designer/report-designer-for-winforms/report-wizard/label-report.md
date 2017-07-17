@@ -1,5 +1,7 @@
 ---
 title: Label Report
+author: Anna Gubareva
+legacyId: 5036
 ---
 # Label Report
 This topic describes the steps required to create a **Label Report** using the [Report Wizard](data-bound-report.md).

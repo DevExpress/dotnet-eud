@@ -1,5 +1,7 @@
 ---
 title: Adding Dashboard Items
+author: Natalia Kazakova
+legacyId: 117923
 ---
 # Adding Dashboard Items
 After [creating a dashboard](creating-a-dashboard.md) and [providing data](providing-data.md) to it, add **dashboard items** to display visual or textual information in a dashboard.

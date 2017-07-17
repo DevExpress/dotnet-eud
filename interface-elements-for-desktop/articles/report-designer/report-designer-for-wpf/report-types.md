@@ -1,5 +1,7 @@
 ---
 title: Report Types
+author: Anna Gubareva
+legacyId: 116200
 ---
 # Report Types
 The tutorials in this section provide detailed instructions on how to create reports of different types with the Report Designer.

@@ -1,5 +1,7 @@
 ---
 title: PDF-Specific Export Options
+author: Anna Gubareva
+legacyId: 116635
 ---
 # PDF-Specific Export Options
 When [exporting a document](exporting.md), you can define the following PDF-specific export options.
