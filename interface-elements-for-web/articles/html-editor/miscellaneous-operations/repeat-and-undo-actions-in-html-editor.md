@@ -1,5 +1,7 @@
 ---
 title: Repeat and Undo Actions in HTML Editor
+author: Anna Kondratova
+legacyId: 4542
 ---
 # Repeat and Undo Actions in HTML Editor
 The Editor keeps track of all user actions, and allows you to undo or repeat them. The following table lists keyboard shortcuts and toolbar buttons providing this functionality.

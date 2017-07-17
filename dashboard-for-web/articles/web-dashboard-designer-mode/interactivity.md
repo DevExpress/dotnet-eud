@@ -1,5 +1,7 @@
 ---
 title: Interactivity
+author: Natalia Kazakova
+legacyId: 117724
 ---
 # Interactivity
 This section describes features that enable interaction between various dashboard items, like Master Filtering and Drill-Down features.

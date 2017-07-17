@@ -1,5 +1,7 @@
 ---
 title: Subtotal Data
+author: Natalya Senichkina
+legacyId: 17909
 ---
 # Subtotal Data
 The **Spreadsheet** allows you to automatically [group](outline-data.md) related data in a worksheet and add summary rows to each group using the **SUBTOTAL** function.

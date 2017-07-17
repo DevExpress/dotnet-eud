@@ -1,5 +1,7 @@
 ---
 title: Date Range Header Filter
+author: Svetlana Nikulina
+legacyId: 11814
 ---
 # Date Range Header Filter
 For columns containing date and time data, the dropdown displays a date range header filter.

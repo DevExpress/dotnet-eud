@@ -1,5 +1,7 @@
 ---
 title: Print a Workbook
+author: Polina Fedorova
+legacyId: 15725
 ---
 # Print a Workbook
 This document includes the following sections:

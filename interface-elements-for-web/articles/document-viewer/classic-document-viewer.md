@@ -1,5 +1,7 @@
 ---
 title: Classic Document Viewer
+author: Eugeniy Burmistrov
+legacyId: 4856
 ---
 # Classic Document Viewer
 This section describes the capabilities provided by the Document Viewer, which is used to display, navigate, save and export report documents on the web.

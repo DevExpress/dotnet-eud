@@ -1,5 +1,7 @@
 ---
 title: Miscellaneous Report Management Capabilities
+author: Eugeniy Burmistrov
+legacyId: 5510
 ---
 # Miscellaneous Report Management Capabilities
 The topics of this section cover the Report Designer features that don't fall into other categories.

@@ -1,5 +1,7 @@
 ---
 title: Controls Positioning
+author: Anna Gubareva
+legacyId: 7479
 ---
 # Controls Positioning
 This document describes how to easily construct professionally looking reports by precisely aligning their elements to each other. These are useful when creating new reports from scratch or when fixing cluttered report layouts with dozens of randomly scattered controls.

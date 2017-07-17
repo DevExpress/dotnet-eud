@@ -1,5 +1,7 @@
 ---
 title: Conditionally Hide Bands
+author: Anna Gubareva
+legacyId: 116339
 ---
 # Conditionally Hide Bands
 This tutorial describes how to hide bands if a certain logical condition is met. Note that no [scripts](../scripting.md) are required to accomplish this task.

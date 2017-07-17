@@ -1,5 +1,7 @@
 ---
 title: Add and Remove Table Borders
+author: Elena Dvoryadkina
+legacyId: 9272
 ---
 # Add and Remove Table Borders
 ## Add Borders

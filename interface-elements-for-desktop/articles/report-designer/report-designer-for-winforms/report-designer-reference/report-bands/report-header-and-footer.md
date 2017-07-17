@@ -1,5 +1,7 @@
 ---
 title: Report Header and Footer
+author: Eugeniy Burmistrov
+legacyId: 5003
 ---
 # Report Header and Footer
 The **Report Header** and **Report Footer** are the only types of report bands rendered once per report.

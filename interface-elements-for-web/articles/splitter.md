@@ -1,5 +1,7 @@
 ---
 title: Splitter
+author: Anna Kondratova
+legacyId: 7495
 ---
 # Splitter
 **Splitter** is used to separate the content of a web page into several resizable panes.

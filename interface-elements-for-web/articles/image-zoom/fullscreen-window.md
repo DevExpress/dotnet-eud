@@ -1,5 +1,7 @@
 ---
 title: Fullscreen Window
+author: Svetlana Nikulina
+legacyId: 17391
 ---
 # Fullscreen Window
 Click the [main image](../image-zoom.md) to display it in a high-res detail in **Fullscreen Window**.

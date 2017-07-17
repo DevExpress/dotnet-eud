@@ -1,5 +1,7 @@
 ---
 title: 'Chart Tools: Design'
+author: Eugeniy Burmistrov
+legacyId: 17341
 ---
 # Chart Tools: Design
 This toolbar is context sensitive, and becomes active after selecting a **chart** in the document.

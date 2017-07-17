@@ -1,5 +1,7 @@
 ---
 title: Binding a Report to Data
+author: Anna Gubareva
+legacyId: 116269
 ---
 # Binding a Report to Data
 The [Report Designer](../../../report-designer-for-wpf.md) is primarily designed to work with _data-aware reports_, meaning that a report obtains its general dynamic data from an external data source.

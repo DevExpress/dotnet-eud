@@ -1,5 +1,7 @@
 ---
 title: Connect to an Entity Framework Data Source
+author: Anna Gubareva
+legacyId: 17303
 ---
 # Connect to an Entity Framework Data Source
 The topics in this section describe the steps required to connect a report to an Entity Framework data source using the [Report Wizard](../data-bound-report.md).

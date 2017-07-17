@@ -1,5 +1,7 @@
 ---
 title: Customize the Label Options
+author: Anna Gubareva
+legacyId: 116258
 ---
 # Customize the Label Options
 This wizard page is intended to manually adjust label settings that were automatically specified in the previous step based on the selected supplier and product.

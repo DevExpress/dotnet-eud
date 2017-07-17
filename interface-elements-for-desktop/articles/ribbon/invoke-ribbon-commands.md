@@ -1,5 +1,7 @@
 ---
 title: Invoke Ribbon Commands
+author: Alexey Zolotarev
+legacyId: 5547
 ---
 # Invoke Ribbon Commands
 To select a specific command, you can click it with the mouse or invoke it via its shortcut. See below for more information.

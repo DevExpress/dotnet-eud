@@ -1,5 +1,7 @@
 ---
 title: Header Filter
+author: Anna Kondratova
+legacyId: 118060
 ---
 # Header Filter
 To filter data or change the filter conditions in the Vertical Grid, you can use the **Header Filter**.

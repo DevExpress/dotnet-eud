@@ -1,5 +1,7 @@
 ---
 title: Navigate Scheduler Resources
+author: Elena Dvoryadkina
+legacyId: 4186
 ---
 # Navigate Scheduler Resources
 When appointment data is grouped (either by resources or by dates), the number of resources shown on the screen within the Scheduler at once can make it difficult to see all the scheduled data. To make the Scheduler's layout more readable, it is possible to limit the number of visible resources, and then scroll between them. There is an embedded **Resource Navigator** control, which allows you to scroll between resources.

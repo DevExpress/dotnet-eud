@@ -1,5 +1,7 @@
 ---
 title: Print a Workbook
+author: Anna Kondratova
+legacyId: 18107
 ---
 # Print a Workbook
 To print a document, click the **Print** button in the **Common** group or press **CTRL+P**.

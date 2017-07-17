@@ -1,5 +1,7 @@
 ---
 title: Image Settings
+author: Natalia Kazakova
+legacyId: 117570
 ---
 # Image Settings
 This topic describes settings related to the representation of **Image** dashboard items.

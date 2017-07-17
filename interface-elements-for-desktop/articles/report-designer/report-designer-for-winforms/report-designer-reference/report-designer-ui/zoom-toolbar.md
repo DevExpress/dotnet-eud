@@ -1,5 +1,7 @@
 ---
 title: Zoom Toolbar
+author: Eugeniy Burmistrov
+legacyId: 4999
 ---
 # Zoom Toolbar
 The **Zoom Toolbar** allows you to zoom a report in and out, providing easier control over report's layout.

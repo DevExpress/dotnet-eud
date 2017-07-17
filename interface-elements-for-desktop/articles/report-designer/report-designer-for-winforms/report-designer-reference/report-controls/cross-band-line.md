@@ -1,5 +1,7 @@
 ---
 title: Cross-band Line
+author: Eugeniy Burmistrov
+legacyId: 5021
 ---
 # Cross-band Line
 The **Cross-band Line** control allows you to draw a line through several [bands](../report-bands.md). This can be useful if it is required to visually emphasize a section consisting of multiple band areas. In other aspects, it is similar to a regular [Line](line.md).

@@ -1,5 +1,7 @@
 ---
 title: Protect Worksheet Ranges
+author: Boris Zaitsev
+legacyId: 17993
 ---
 # Protect Worksheet Ranges
 In a protected worksheet, all locked cells are read-only.  However, you can unlock certain ranges for users who provide the correct password. You can also specify user accounts and groups who can edit specific ranges without a password.

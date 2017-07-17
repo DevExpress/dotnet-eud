@@ -1,5 +1,7 @@
 ---
 title: Select a Cell, Row or Column
+author: Elena Dvoryadkina
+legacyId: 9281
 ---
 # Select a Cell, Row or Column
 ## Select a Cell

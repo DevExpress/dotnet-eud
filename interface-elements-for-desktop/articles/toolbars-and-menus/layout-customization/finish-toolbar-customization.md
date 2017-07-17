@@ -1,5 +1,7 @@
 ---
 title: Finish Toolbar Customization
+author: Alexey Zolotarev
+legacyId: 4704
 ---
 # Finish Toolbar Customization
 To finish [customization](open-toolbar-customization-window.md), click the Customization window's Close button:

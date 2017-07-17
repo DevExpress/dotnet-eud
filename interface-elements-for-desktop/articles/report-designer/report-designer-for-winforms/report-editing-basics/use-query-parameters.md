@@ -1,5 +1,7 @@
 ---
 title: Use Query Parameters
+author: Anna Gubareva
+legacyId: 118051
 ---
 # Use Query Parameters
 This document describes the common ways of utilizing query parameters to perform simple and straightforward data source level data shaping.

@@ -1,5 +1,7 @@
 ---
 title: Character Comb
+author: Yuri Shutov
+legacyId: 117212
 ---
 # Character Comb
 The **Character Comb** control displays text so that each character is printed in an individual cell.

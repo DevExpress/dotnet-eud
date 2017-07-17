@@ -1,5 +1,7 @@
 ---
 title: Choose a Report Type
+author: Anna Gubareva
+legacyId: 117817
 ---
 # Choose a Report Type
 On this wizard page, you can choose the kind of a report you want to create.

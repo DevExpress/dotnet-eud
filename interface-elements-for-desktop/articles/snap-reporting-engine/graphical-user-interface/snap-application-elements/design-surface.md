@@ -1,5 +1,7 @@
 ---
 title: Design Surface
+author: Eugeniy Burmistrov
+legacyId: 17311
 ---
 # Design Surface
 This document describes the design surface of a Snap application.

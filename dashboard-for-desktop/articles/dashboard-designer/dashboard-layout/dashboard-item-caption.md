@@ -1,5 +1,7 @@
 ---
 title: Dashboard Item Caption
+author: Andrey Aksenov
+legacyId: 16517
 ---
 # Dashboard Item Caption
 Each dashboard item has a caption that is displayed at the top of the item. The caption contains static text along with other information, as well as command buttons.

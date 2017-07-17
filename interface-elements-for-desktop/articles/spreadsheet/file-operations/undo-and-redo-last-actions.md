@@ -1,5 +1,7 @@
 ---
 title: Undo and Redo Last Actions
+author: Natalya Senichkina
+legacyId: 15727
 ---
 # Undo and Redo Last Actions
 The **Spreadsheet** allows you to undo or redo your last performed action.

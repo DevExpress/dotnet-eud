@@ -1,5 +1,7 @@
 ---
 title: Table of Contents
+author: Eugeniy Burmistrov
+legacyId: 17291
 ---
 # Table of Contents
 The **Table of Contents** control generates a table of contents based on bookmarks specified for report elements.

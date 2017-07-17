@@ -1,5 +1,7 @@
 ---
 title: Icon Ranges
+author: Andrey Aksenov
+legacyId: 114189
 ---
 # Icon Ranges
 Icon Ranges allow you to use predefined or custom sets of icons to apply conditional formatting to different ranges of values.

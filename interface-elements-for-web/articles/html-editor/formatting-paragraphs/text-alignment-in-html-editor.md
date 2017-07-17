@@ -1,5 +1,7 @@
 ---
 title: Text Alignment in HTML Editor
+author: Anna Kondratova
+legacyId: 4553
 ---
 # Text Alignment in HTML Editor
 The Editor allows users to apply the left, right, centered or justified alignment to the text. To change text alignment, do the following.

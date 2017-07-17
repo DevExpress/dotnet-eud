@@ -1,5 +1,7 @@
 ---
 title: RTF-Specific Export Options
+author: Anna Gubareva
+legacyId: 4331
 ---
 # RTF-Specific Export Options
 When [exporting a document](exporting-from-print-preview.md), you can define RTF-specific export options using the following dialog.

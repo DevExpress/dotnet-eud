@@ -1,5 +1,7 @@
 ---
 title: Insert a YouTube Video Into HTML Editor
+author: Svetlana Nikulina
+legacyId: 17969
 ---
 # Insert a YouTube Video Into HTML Editor
 This topic describes how to insert a YouTube video into an editor's content.

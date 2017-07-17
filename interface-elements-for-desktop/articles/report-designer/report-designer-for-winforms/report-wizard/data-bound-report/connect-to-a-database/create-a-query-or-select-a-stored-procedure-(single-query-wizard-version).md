@@ -1,5 +1,7 @@
 ---
 title: Create a Query or Select a Stored Procedure (Single-Query Wizard Version)
+author: Anna Gubareva
+legacyId: 117837
 ---
 # Create a Query or Select a Stored Procedure (Single-Query Wizard Version)
 > This wizard step appears only if you are creating a new report from scratch and your software provider switched the Report Wizard to single-query mode.

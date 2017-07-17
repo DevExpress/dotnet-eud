@@ -1,5 +1,7 @@
 ---
 title: Report Bands
+author: Eugeniy Burmistrov
+legacyId: 5025
 ---
 # Report Bands
 The documents in this section details the available kinds of report bands and their settings.

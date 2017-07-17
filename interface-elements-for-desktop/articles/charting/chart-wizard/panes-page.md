@@ -1,5 +1,7 @@
 ---
 title: Panes Page
+author: Eugeniy Burmistrov
+legacyId: 4734
 ---
 # Panes Page
 ## Tasks

@@ -1,5 +1,7 @@
 ---
 title: Cards Arrangement
+author: Andrey Aksenov
+legacyId: 16592
 ---
 # Cards Arrangement
 The **Card** dashboard item allows you to specify the number of columns or rows in which individual cards are arranged.

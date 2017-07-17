@@ -1,5 +1,7 @@
 ---
 title: Field Chooser
+author: Svetlana Nikulina
+legacyId: 16832
 ---
 # Field Chooser
 The **Field Chooser** allows you to select the fields displayed in a **Tree List**.

@@ -1,5 +1,7 @@
 ---
 title: Work with Selections
+author: Natalya Senichkina
+legacyId: 15806
 ---
 # Work with Selections
 The key combinations that allow you to work with selections are listed in the table below.

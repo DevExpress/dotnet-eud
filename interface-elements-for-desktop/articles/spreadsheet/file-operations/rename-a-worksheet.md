@@ -1,5 +1,7 @@
 ---
 title: Rename a Worksheet
+author: Natalya Senichkina
+legacyId: 15785
 ---
 # Rename a Worksheet
 When a new worksheet is created, the **Spreadsheet** assigns it a generic name, such as _Sheet1_, _Sheet2_, etc.

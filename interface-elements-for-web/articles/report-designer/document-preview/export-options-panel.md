@@ -1,5 +1,7 @@
 ---
 title: Export Options Panel
+author: Anya Vekhina
+legacyId: 114532
 ---
 # Export Options Panel
 The **Export Options** panel allows you to view and edit format-specific options required for exporting a report to one of the supported third-party formats.

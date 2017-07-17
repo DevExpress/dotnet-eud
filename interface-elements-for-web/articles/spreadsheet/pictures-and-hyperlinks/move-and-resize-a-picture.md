@@ -1,5 +1,7 @@
 ---
 title: Move and Resize a Picture
+author: Anna Kondratova
+legacyId: 18184
 ---
 # Move and Resize a Picture
 ## Move a Picture

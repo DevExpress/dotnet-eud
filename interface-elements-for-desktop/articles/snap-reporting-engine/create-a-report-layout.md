@@ -1,5 +1,7 @@
 ---
 title: Create a Report Layout
+author: Eugeniy Burmistrov
+legacyId: 17357
 ---
 # Create a Report Layout
 Topics in this section provide information on creating reports with different layouts in Snap.

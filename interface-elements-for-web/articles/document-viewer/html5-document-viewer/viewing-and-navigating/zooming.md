@@ -1,5 +1,7 @@
 ---
 title: Zooming
+author: Anna Gubareva
+legacyId: 115387
 ---
 # Zooming
 To zoom in or out of a document, click the **Zoom In** ![web-designer-main-toolbar-zoom-in](../../../../images/img24546.png) or **Zoom Out** ![web-designer-main-toolbar-zoom-out](../../../../images/img24547.png)

@@ -1,5 +1,7 @@
 ---
 title: Show the Current Row Index
+author: Eugeniy Burmistrov
+legacyId: 5124
 ---
 # Show the Current Row Index
 This document describes how to accompany every record in a [data-bound report](../binding-a-report-to-data.md) with its current row index.

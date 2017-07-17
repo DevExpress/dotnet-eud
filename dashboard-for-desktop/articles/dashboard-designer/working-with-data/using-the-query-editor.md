@@ -1,5 +1,7 @@
 ---
 title: Using the Query Editor
+author: Andrey Aksenov
+legacyId: 115238
 ---
 # Using the Query Editor
 The **Query Editor** dialog allows you to create new SQL queries or edit the existing queries created using the [Data Source](../providing-data/connecting-to-sql-databases.md) wizard. Optionally, you can add [query parameters](pass-query-parameters.md).

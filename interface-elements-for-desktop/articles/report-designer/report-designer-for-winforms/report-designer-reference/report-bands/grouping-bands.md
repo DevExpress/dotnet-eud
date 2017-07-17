@@ -1,5 +1,7 @@
 ---
 title: Grouping Bands
+author: Eugeniy Burmistrov
+legacyId: 5002
 ---
 # Grouping Bands
 The **Group Header** and **Group Footer** bands are shown above and below each group. Usually, you don't need to manually manage these bands, as they are auto-created via the [Group and Sort Panel](../report-designer-ui/group-and-sort-panel.md). For more information, refer to [Change or Apply Data Grouping to a Report](../../report-editing-basics/change-or-apply-data-grouping-to-a-report.md) and [Change or Apply Data Sorting to a Report](../../report-editing-basics/change-or-apply-data-sorting-to-a-report.md).

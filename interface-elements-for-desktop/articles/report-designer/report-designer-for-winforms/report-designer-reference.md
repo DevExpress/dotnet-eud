@@ -1,5 +1,7 @@
 ---
 title: Report Designer Reference
+author: Eugeniy Burmistrov
+legacyId: 5205
 ---
 # Report Designer Reference
 A report is built from **controls** (text labels, images, zip codes, charts, etc) spread across report sections called **bands** (various headers, footers and content sections). The main interface elements helping you manage these building blocks are **Control Toolbox**, **Field List** and **Property Grid**. These elements allow you add controls to your report, bind them to data and change their appearance and behavior settings, respectively.

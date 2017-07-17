@@ -1,5 +1,7 @@
 ---
 title: Scheduler UI
+author: Boris Zaitsev
+legacyId: 16762
 ---
 # Scheduler UI
 This section describes the command interface of the Scheduler.

@@ -1,5 +1,7 @@
 ---
 title: Navigate Through Grid Records
+author: Alexey Zolotarev
+legacyId: 4573
 ---
 # Navigate Through Grid Records
 ## Move Focus Between Rows and Cards

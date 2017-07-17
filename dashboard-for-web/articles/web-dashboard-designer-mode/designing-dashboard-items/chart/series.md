@@ -1,5 +1,7 @@
 ---
 title: Series
+author: Natalia Kazakova
+legacyId: 117976
 ---
 # Series
 The Chart dashboard item supports different types of series - from simple bar and line charts to candle stick and bubble graphs.

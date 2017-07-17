@@ -1,5 +1,7 @@
 ---
 title: Cut, Copy and Paste Editor's Content
+author: Anna Kondratova
+legacyId: 113833
 ---
 # Cut, Copy and Paste Editor's Content
 The **Rich Text Editor** allows you to move and copy text and images using the Clipboard.

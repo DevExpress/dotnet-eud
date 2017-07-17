@@ -1,5 +1,7 @@
 ---
 title: Use the Hand Tool in Print Preview
+author: Eugeniy Burmistrov
+legacyId: 4321
 ---
 # Use the Hand Tool in Print Preview
 The **Hand Tool** enables you to scroll content by dragging the document instead of using scrollbars.

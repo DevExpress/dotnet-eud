@@ -1,5 +1,7 @@
 ---
 title: Tag Inspector
+author: Svetlana Nikulina
+legacyId: 114193
 ---
 # Tag Inspector
 The **Tag Inspector** allows you to navigate through a tag hierarchy, remove tags, and customize tag properties using the **Tag Properties Editor**.

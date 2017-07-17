@@ -1,5 +1,7 @@
 ---
 title: Master-Detail Report (Detail Report Bands)
+author: Anna Gubareva
+legacyId: 116206
 ---
 # Master-Detail Report (Detail Report Bands)
 This tutorial describes the steps needed to create a _master-detail report_ with hierarchically linked data using the [Detail Report band](../report-elements/report-bands.md). For an alternative approach, refer to [Master-Detail Report (Subreports)](master-detail-report-(subreports).md).

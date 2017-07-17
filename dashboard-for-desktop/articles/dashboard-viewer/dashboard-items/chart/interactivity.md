@@ -1,5 +1,7 @@
 ---
 title: Interactivity
+author: Andrey Aksenov
+legacyId: 16659
 ---
 # Interactivity
 This topic describes features that enable interaction between the **Chart** and other dashboard items. These features include **Master Filtering** and **Drill-Down**.

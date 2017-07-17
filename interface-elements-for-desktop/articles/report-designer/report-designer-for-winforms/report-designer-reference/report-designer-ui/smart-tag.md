@@ -1,5 +1,7 @@
 ---
 title: Smart Tag
+author: Eugeniy Burmistrov
+legacyId: 4997
 ---
 # Smart Tag
 Most report elements have **Smart Tags** that provide easy access to the most frequently used settings. Clicking an element's Smart Tag invokes an actions list with action links and editors, allowing you to customize this element.

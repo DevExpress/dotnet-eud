@@ -1,5 +1,7 @@
 ---
 title: Ribbon Interface
+author: Anna Kondratova
+legacyId: 18079
 ---
 # Ribbon Interface
 The comprehensive functionality of the **Spreadsheet** is provided by a set of **Ribbon** pages. Ribbon pages are divided into logical groups that include commands with common features. Use the **Ribbon** interface to perform basic operations in the **Spreadsheet** (to [create](../file-operations/create-a-workbook.md) a workbook, [create](../file-operations/create-a-worksheet.md) or [delete](../file-operations/delete-a-worksheet.md) worksheets, [select](../editing-cells/select-cells-or-cell-content.md) data in a worksheet, navigate through a worksheet, etc.).

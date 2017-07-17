@@ -1,5 +1,7 @@
 ---
 title: Sort Data
+author: Natalya Senichkina
+legacyId: 17911
 ---
 # Sort Data
 The **Spreadsheet** provides the capability to sort data by text (**A to Z** or **Z to A**), numbers (**smallest to largest** or **largest to smallest**), dates and times (**oldest to newest** or **newest to oldest**) in one column.

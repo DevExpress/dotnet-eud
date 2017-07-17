@@ -1,5 +1,7 @@
 ---
 title: Conditional Formatting
+author: Natalia Kazakova
+legacyId: 117564
 ---
 # Conditional Formatting
 The Web Dashboard allows you to format dashboard item elements whose values meet a specified condition. This feature allows you to highlight specific elements using a predefined set of rules.

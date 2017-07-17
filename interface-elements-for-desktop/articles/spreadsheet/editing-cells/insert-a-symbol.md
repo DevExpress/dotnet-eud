@@ -1,5 +1,7 @@
 ---
 title: Insert a Symbol
+author: Natalya Senichkina
+legacyId: 113722
 ---
 # Insert a Symbol
 The **Spreadsheet** allows you to insert symbols and special characters that are not on your keyboard, such as ASCII or Unicode characters, fractions (&#188;), copyright symbol (&#169;), trademark symbols (&#174;, &#8482;), paragraph mark (&#182;), etc.

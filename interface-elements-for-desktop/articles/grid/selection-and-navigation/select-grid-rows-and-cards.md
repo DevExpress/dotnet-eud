@@ -1,5 +1,7 @@
 ---
 title: Select Grid Rows and Cards
+author: Alexey Zolotarev
+legacyId: 4572
 ---
 # Select Grid Rows and Cards
 ## Select Individual Rows/Cards

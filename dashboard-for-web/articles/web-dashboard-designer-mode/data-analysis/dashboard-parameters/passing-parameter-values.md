@@ -1,5 +1,7 @@
 ---
 title: Passing Parameter Values
+author: Natalia Kazakova
+legacyId: 117552
 ---
 # Passing Parameter Values
 In this topic, it describes how to pass the created dashboard parameter to the dashboard. For instance, you can include a dashboard parameter to a _WHERE_ clause of the SQL query or you can filter a dashboard dynamically according to the required parameter value(s).

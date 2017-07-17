@@ -1,5 +1,7 @@
 ---
 title: Scrolling
+author: Roman Karpov
+legacyId: 16928
 ---
 # Scrolling
 The following operations can be performed by end-users to scroll a map.

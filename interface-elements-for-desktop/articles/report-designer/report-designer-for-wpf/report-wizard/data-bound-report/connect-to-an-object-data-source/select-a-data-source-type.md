@@ -1,5 +1,7 @@
 ---
 title: Select a Data Source Type
+author: Anna Gubareva
+legacyId: 116240
 ---
 # Select a Data Source Type
 On this wizard page, select a required data source type.

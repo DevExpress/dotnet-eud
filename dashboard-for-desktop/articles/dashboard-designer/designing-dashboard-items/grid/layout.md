@@ -1,5 +1,7 @@
 ---
 title: Layout
+author: Andrey Aksenov
+legacyId: 16576
 ---
 # Layout
 The Grid dashboard item allows you to customize its layout in various ways. You can manage the width of grid columns, specify the visibility of column headers, enable cell merging, etc.

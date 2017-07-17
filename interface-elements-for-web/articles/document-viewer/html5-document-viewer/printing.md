@@ -1,5 +1,7 @@
 ---
 title: Printing
+author: Anna Gubareva
+legacyId: 115404
 ---
 # Printing
 The Web Document Viewer supports pixel perfect document rendering, i.e., displays a report document exactly how it will appear on paper. The printing functionality of this Viewer is based on rendering the report in PDF with special settings and invoking the PDF plug-in's **Print** dialog.

@@ -1,5 +1,7 @@
 ---
 title: Undo and Redo Last Operations
+author: Elena Dvoryadkina
+legacyId: 7466
 ---
 # Undo and Redo Last Operations
 The **Rich Editor** allows you to undo and redo the last operation using the special buttons (**Undo** and **Redo**) on the **File** [tab](../text-editor-ui/ribbon-interface.md).

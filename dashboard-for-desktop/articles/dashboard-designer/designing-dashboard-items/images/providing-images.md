@@ -1,5 +1,7 @@
 ---
 title: Providing Images
+author: Natalia Kazakova
+legacyId: 116559
 ---
 # Providing Images
 ## Providing Static Images

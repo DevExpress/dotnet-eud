@@ -1,5 +1,7 @@
 ---
 title: Edit an Appointment
+author: Elena Dvoryadkina
+legacyId: 4209
 ---
 # Edit an Appointment
 ## <a name="contextmenu"/>Context Menu

@@ -1,5 +1,7 @@
 ---
 title: Legends
+author: Natalia Kazakova
+legacyId: 118031
 ---
 # Legends
 The Pie Map provides two types of legends used to identify map objects - **color** and **weighted** legends.

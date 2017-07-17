@@ -1,5 +1,7 @@
 ---
 title: Sort Data
+author: Eugeniy Burmistrov
+legacyId: 17322
 ---
 # Sort Data
 This document describes how to sort dynamic data within a **Snap** document.

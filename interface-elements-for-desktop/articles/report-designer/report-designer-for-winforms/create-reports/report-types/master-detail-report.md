@@ -1,5 +1,7 @@
 ---
 title: Master-Detail Report
+author: Anna Gubareva
+legacyId: 115569
 ---
 # Master-Detail Report
 A report is usually called **Master-Detail** if it is used to display data from a hierarchical data source.

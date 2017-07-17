@@ -1,5 +1,7 @@
 ---
 title: File Operations
+author: Anna Kondratova
+legacyId: 113995
 ---
 # File Operations
 The key combinations used to perform file operations are listed in the table below.

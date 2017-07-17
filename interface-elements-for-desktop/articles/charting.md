@@ -1,5 +1,7 @@
 ---
 title: Charting
+author: Roman Karpov
+legacyId: 4298
 ---
 # Charting
 This section describes the capabilities provided by Charts.

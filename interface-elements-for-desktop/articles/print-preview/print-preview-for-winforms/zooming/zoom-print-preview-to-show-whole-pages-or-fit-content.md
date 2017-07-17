@@ -1,5 +1,7 @@
 ---
 title: Zoom Print Preview to Show Whole Pages or Fit Content
+author: Eugeniy Burmistrov
+legacyId: 4317
 ---
 # Zoom Print Preview to Show Whole Pages or Fit Content
 ## Zoom Documents to Fit Page Content

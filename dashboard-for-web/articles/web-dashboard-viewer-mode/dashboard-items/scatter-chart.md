@@ -1,5 +1,7 @@
 ---
 title: Scatter Chart
+author: Andrey Aksenov
+legacyId: 115259
 ---
 # Scatter Chart
 The topics in this section describe the **Scatter Chart** dashboard item, which visualizes summaries using numerical X/Y-axes and the size of data points.

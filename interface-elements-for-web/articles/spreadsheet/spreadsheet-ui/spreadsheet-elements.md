@@ -1,5 +1,7 @@
 ---
 title: Spreadsheet Elements
+author: Anna Kondratova
+legacyId: 18088
 ---
 # Spreadsheet Elements
 The **Spreadsheet** consists of visual elements that provide the capability to [create](../file-operations/create-a-workbook.md), edit and view spreadsheet documents, which are called **workbooks**. A workbook includes one or more **worksheets** used to store data. You can [add](../file-operations/create-a-worksheet.md), [delete](../file-operations/delete-a-worksheet.md) and [rename](../file-operations/rename-a-worksheet.md) worksheets in a workbook. All existing worksheets are displayed on the **Sheet tab** bar at the bottom of the control. Click one of the sheet tabs to switch between existing worksheets. To navigate through the current worksheet, use the horizontal and vertical **scrollbars**.

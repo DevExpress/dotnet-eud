@@ -1,5 +1,7 @@
 ---
 title: Search for a Specific Text
+author: Anna Gubareva
+legacyId: 116494
 ---
 # Search for a Specific Text
 To search for a specific text throughout a document, click the **Search** ![WPFDesigner_PreviewToolbar_Search](../../../../images/img120179.png) button on the Print Preview's toolbar, or press CTRL+F. This invokes the **Search** panel.

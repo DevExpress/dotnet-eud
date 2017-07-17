@@ -1,5 +1,7 @@
 ---
 title: Preview Parameters Panel
+author: Anya Vekhina
+legacyId: 114533
 ---
 # Preview Parameters Panel
 The **Preview Parameters Panel** is available in the Document Preview if any visible [parameters](../creating-reports/providing-data/report-parameters.md) exist in the current report.

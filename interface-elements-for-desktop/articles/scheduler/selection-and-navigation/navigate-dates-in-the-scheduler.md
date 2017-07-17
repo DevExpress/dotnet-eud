@@ -1,5 +1,7 @@
 ---
 title: Navigate Dates in the Scheduler
+author: Boris Zaitsev
+legacyId: 4185
 ---
 # Navigate Dates in the Scheduler
 ## Context Menu

@@ -1,5 +1,7 @@
 ---
 title: Connect to an Excel Data Source
+author: Anna Gubareva
+legacyId: 116246
 ---
 # Connect to an Excel Data Source
 The topics in this section describe the wizard steps required to connect a report to an Excel data source.

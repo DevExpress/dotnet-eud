@@ -1,5 +1,7 @@
 ---
 title: Handle Events via Scripts
+author: Anna Gubareva
+legacyId: 5108
 ---
 # Handle Events via Scripts
 This document describes the basic principles of _scripting_, which can be performed by handling the events of a report, and its [bands](../../report-designer-reference/report-bands.md) and [controls](../../report-designer-reference/report-controls.md).

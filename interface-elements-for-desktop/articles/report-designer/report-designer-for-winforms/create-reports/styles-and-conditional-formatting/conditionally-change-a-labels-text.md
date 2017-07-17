@@ -1,5 +1,7 @@
 ---
 title: Conditionally Change a Label's Text
+author: Eugeniy Burmistrov
+legacyId: 5341
 ---
 # Conditionally Change a Label's Text
 This tutorial demonstrates how to change a label's text if a certain condition is met, without using [scripts](../miscellaneous/handle-events-via-scripts.md).

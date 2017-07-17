@@ -1,5 +1,7 @@
 ---
 title: Filtering Options
+author: Andrey Aksenov
+legacyId: 11140
 ---
 # Filtering Options
 The Pivot Table allows you to customize its filtering mechanism according to your needs.

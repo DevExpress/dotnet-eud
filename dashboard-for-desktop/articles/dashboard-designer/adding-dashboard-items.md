@@ -1,5 +1,7 @@
 ---
 title: Adding Dashboard Items
+author: Andrey Aksenov
+legacyId: 15768
 ---
 # Adding Dashboard Items
 To create a dashboard item in the Dashboard Designer, click the corresponding button in the **Home** ribbon tab.

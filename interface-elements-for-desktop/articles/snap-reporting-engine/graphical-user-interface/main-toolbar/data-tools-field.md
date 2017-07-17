@@ -1,5 +1,7 @@
 ---
 title: 'Data Tools: Field'
+author: Eugeniy Burmistrov
+legacyId: 17338
 ---
 # Data Tools: Field
 This toolbar is context sensitive, and becomes active after selecting a **Snap field** in the document.

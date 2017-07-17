@@ -1,5 +1,7 @@
 ---
 title: Edit Cells in Vertical Grids
+author: Alexey Zolotarev
+legacyId: 4676
 ---
 # Edit Cells in Vertical Grids
 ## Activate Cell Editor

@@ -1,5 +1,7 @@
 ---
 title: Show Summaries (Totals) in a Tree List
+author: Alexey Zolotarev
+legacyId: 4684
 ---
 # Show Summaries (Totals) in a Tree List
 To change the type of summary for a specific column or apply a summary, do the following:

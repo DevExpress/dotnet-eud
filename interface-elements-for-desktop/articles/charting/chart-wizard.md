@@ -1,5 +1,7 @@
 ---
 title: Chart Wizard
+author: Alexander Temnov
+legacyId: 4166
 ---
 # Chart Wizard
 Use the chart wizard dialog to quickly and easily create a new chart, or modify an existing one.

@@ -1,5 +1,7 @@
 ---
 title: Rich Text
+author: Eugeniy Burmistrov
+legacyId: 5009
 ---
 # Rich Text
 The **Rich Text** control allows you to display formatted text in your report. It can represent [static](../../report-editing-basics/add-or-modify-static-information-in-your-report.md) or [dynamic](../../report-editing-basics/displaying-values-from-a-database-(binding-report-elements-to-data).md) text, or [both](../../report-editing-basics/use-mail-merge-in-report-elements.md). You can load content to the Rich Text from an external TXT or RTF file (which can also contain images) and then format any part of it. The formatting options include font face, styles and sizes, and color.

@@ -1,5 +1,7 @@
 ---
 title: Sort Nodes in Tree List
+author: Bogdan Harchenko
+legacyId: 4528
 ---
 # Sort Nodes in Tree List
 * To sort data, click a column header. If sorting isn't applied, clicking a column's header sorts data by its values in ascending order. If sorting is already applied to a column, subsequent clicks reverse the current sort order.

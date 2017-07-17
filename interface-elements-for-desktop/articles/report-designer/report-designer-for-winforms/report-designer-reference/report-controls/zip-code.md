@@ -1,5 +1,7 @@
 ---
 title: Zip Code
+author: Eugeniy Burmistrov
+legacyId: 5016
 ---
 # Zip Code
 The **Zip Code** control renders a numeric postal code that is used to identify the mail address in some countries. This control is not related to the Zone Improvement Plan (ZIP) code used by the United States Postal Service.

@@ -1,5 +1,7 @@
 ---
 title: Report Controls
+author: Anna Gubareva
+legacyId: 116267
 ---
 # Report Controls
 In general, _report controls_ allow you to present information of different kinds (e.g., simple or formatted text, pictures, tables, etc.) in your static and [dynamic](../creating-reports/providing-data/binding-report-controls-to-data.md) reports, and to [adjust your report's layout](../creating-reports/basic-operations/adjust-the-layout-of-report-elements.md) (by organizing controls within panels, and inserting page breaks at the required positions).

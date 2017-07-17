@@ -1,5 +1,7 @@
 ---
 title: Expression Operators, Functions and Constants
+author: Alexey Zolotarev
+legacyId: 8406
 ---
 # Expression Operators, Functions and Constants
 This topic lists operators and functions supported by the [Expression Editor](../expression-editor.md). It also provides information on how constants can be specified in expressions.

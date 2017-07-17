@@ -1,5 +1,7 @@
 ---
 title: Filter a Pivot Table
+author: Polina Fedorova
+legacyId: 117806
 ---
 # Filter a Pivot Table
 The **Spreadsheet** provides numerous ways to apply filtering to the PivotTable fields to display only data that meets specific criteria. Select the task you wish to perform.

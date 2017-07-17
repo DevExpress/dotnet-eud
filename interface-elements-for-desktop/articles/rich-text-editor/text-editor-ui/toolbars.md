@@ -1,5 +1,7 @@
 ---
 title: Toolbars
+author: Polina Fedorova
+legacyId: 8462
 ---
 # Toolbars
 The **Rich Text** control can be accompanied by a set of toolbars that provide a comprehensive functionality for the **Rich Editor**.

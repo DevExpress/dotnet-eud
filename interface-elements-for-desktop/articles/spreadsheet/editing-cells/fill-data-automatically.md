@@ -1,5 +1,7 @@
 ---
 title: Fill Data Automatically
+author: Natalya Senichkina
+legacyId: 15780
 ---
 # Fill Data Automatically
 The **Spreadsheet** provides the capability to fill adjacent cells with data automatically.

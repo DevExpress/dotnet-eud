@@ -1,5 +1,7 @@
 ---
 title: Print Preview
+author: Anna Gubareva
+legacyId: 116517
 ---
 # Print Preview
 The Print Preview user interface may vary depending on your application platform.

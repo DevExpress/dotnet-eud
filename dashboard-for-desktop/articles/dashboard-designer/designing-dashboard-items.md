@@ -1,5 +1,7 @@
 ---
 title: Designing Dashboard Items
+author: Andrey Aksenov
+legacyId: 16538
 ---
 # Designing Dashboard Items
 DevExpress Dashboard provides a number of visualization elements designed to present visual or textual information in a dashboard - **dashboard items**.

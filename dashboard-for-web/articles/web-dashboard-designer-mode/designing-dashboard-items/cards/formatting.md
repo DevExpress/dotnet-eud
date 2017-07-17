@@ -1,5 +1,7 @@
 ---
 title: Formatting
+author: Andrey Aksenov
+legacyId: 118826
 ---
 # Formatting
 The Card dashboard item formats the [actual and target](providing-data.md) values displayed within cards using [format settings](../../data-shaping/formatting-data.md) specified for data items.

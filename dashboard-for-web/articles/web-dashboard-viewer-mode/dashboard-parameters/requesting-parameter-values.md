@@ -1,5 +1,7 @@
 ---
 title: Requesting Parameter Values
+author: Andrey Aksenov
+legacyId: 16726
 ---
 # Requesting Parameter Values
 The **Web Dashboard** provides a built-in **Dashboard Parameters** dialog, which allows you to change dashboard parameter values.

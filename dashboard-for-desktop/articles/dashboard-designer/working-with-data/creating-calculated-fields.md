@@ -1,5 +1,7 @@
 ---
 title: Creating Calculated Fields
+author: Andrey Aksenov
+legacyId: 15765
 ---
 # Creating Calculated Fields
 The Dashboard Designer provides the capability to create calculated fields that allow you to apply complex expressions to data fields that are obtained from the dashboard's data source. You can use these fields in data visualizations as regular data source fields.

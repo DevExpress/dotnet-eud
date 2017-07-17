@@ -1,5 +1,7 @@
 ---
 title: Window Calculation Limitations
+author: Natalia Kazakova
+legacyId: 116582
 ---
 # Window Calculation Limitations
 ## Supported Dashboard Items

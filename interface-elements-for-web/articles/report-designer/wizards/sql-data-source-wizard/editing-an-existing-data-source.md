@@ -1,5 +1,7 @@
 ---
 title: Editing an Existing Data Source
+author: Anna Gubareva
+legacyId: 117824
 ---
 # Editing an Existing Data Source
 The following is a complete list of wizard pages that may be required to customize an existing SQL data source.

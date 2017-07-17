@@ -1,5 +1,7 @@
 ---
 title: Full Screen Mode
+author: Anna Kondratova
+legacyId: 113718
 ---
 # Full Screen Mode
 The **Spreadsheet** provides functionality to display worksheets in full screen mode.

@@ -1,5 +1,7 @@
 ---
 title: Select Grid Rows
+author: Andrey Trukhatchev
+legacyId: 5566
 ---
 # Select Grid Rows
 If multiple row selection is allowed by the application vendor, you can select multiple rows by doing one of the following.

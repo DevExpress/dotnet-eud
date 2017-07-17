@@ -1,5 +1,7 @@
 ---
 title: Choose columns
+author: Anna Gubareva
+legacyId: 116250
 ---
 # Choose columns
 On this wizard page, you can select required columns and specify their settings.

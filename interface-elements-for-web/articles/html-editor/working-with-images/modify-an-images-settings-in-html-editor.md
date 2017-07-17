@@ -1,5 +1,7 @@
 ---
 title: Modify an Image's Settings in HTML Editor
+author: Svetlana Nikulina
+legacyId: 4538
 ---
 # Modify an Image's Settings in HTML Editor
 To modify an image's settings within the editor's content, do one of the following.

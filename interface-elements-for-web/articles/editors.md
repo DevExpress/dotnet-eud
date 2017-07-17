@@ -1,5 +1,7 @@
 ---
 title: Editors
+author: Anna Kondratova
+legacyId: 5511
 ---
 # Editors
 This section describes the capabilities provided by the editor controls:

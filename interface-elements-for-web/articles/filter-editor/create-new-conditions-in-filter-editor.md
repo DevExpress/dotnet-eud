@@ -1,5 +1,7 @@
 ---
 title: Create New Conditions in Filter Editor
+author: Svetlana Nikulina
+legacyId: 5381
 ---
 # Create New Conditions in Filter Editor
 To add a condition to a logical group, do one of the following:

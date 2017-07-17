@@ -1,5 +1,7 @@
 ---
 title: Creating Reports
+author: Anya Vekhina
+legacyId: 114598
 ---
 # Creating Reports
 With the [Web Report Designer](../report-designer.md), you can edit existing reports, as well as create your own reports from scratch. The following sections contain tutorials providing step-by-step instructions on basic and advanced report customization.

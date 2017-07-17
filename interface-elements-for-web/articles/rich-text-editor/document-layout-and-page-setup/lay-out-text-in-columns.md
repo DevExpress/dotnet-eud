@@ -1,5 +1,7 @@
 ---
 title: Lay Out Text in Columns
+author: Anna Kondratova
+legacyId: 113823
 ---
 # Lay Out Text in Columns
 To split a text into columns, follow the steps below.

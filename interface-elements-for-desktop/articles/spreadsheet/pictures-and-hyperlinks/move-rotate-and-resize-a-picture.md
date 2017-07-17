@@ -1,5 +1,7 @@
 ---
 title: Move, Rotate and Resize a Picture
+author: Natalya Senichkina
+legacyId: 15756
 ---
 # Move, Rotate and Resize a Picture
 ## Move a Picture

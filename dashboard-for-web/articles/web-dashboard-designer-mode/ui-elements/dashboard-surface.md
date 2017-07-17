@@ -1,5 +1,7 @@
 ---
 title: Dashboard Surface
+author: Natalia Kazakova
+legacyId: 117732
 ---
 # Dashboard Surface
 The **Dashboard Surface** is a rectangular area that displays the dashboard that you are designing. This area includes [dashboard items](../designing-dashboard-items.md) and the [dashboard title](../dashboard-layout/dashboard-title.md).

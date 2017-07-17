@@ -1,5 +1,7 @@
 ---
 title: Report Settings
+author: Yuri Shutov
+legacyId: 5119
 ---
 # Report Settings
 This document details settings that affect the entire report.

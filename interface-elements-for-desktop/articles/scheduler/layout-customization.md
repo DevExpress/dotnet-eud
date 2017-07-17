@@ -1,5 +1,7 @@
 ---
 title: Layout Customization
+author: Boris Zaitsev
+legacyId: 16764
 ---
 # Layout Customization
 This section describes how to change the scheduler layout.

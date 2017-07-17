@@ -1,5 +1,7 @@
 ---
 title: Label Report
+author: Eugeniy Burmistrov
+legacyId: 5049
 ---
 # Label Report
 This tutorial describes the steps to create a _label report_ containing employee badges, using the [Report Wizard](../../report-wizard.md).

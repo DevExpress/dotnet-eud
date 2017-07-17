@@ -1,5 +1,7 @@
 ---
 title: Printing and Exporting
+author: Andrey Aksenov
+legacyId: 16520
 ---
 # Printing and Exporting
 The Dashboard Designer provides the capability to print or export an entire dashboard and individual items.

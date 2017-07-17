@@ -1,5 +1,7 @@
 ---
 title: Table Cell
+author: Eugeniy Burmistrov
+legacyId: 5143
 ---
 # Table Cell
 The **Table Cell** control represents an individual cell within a [Table](table.md).

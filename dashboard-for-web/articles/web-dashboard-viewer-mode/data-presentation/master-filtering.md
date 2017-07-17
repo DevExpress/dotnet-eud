@@ -1,5 +1,7 @@
 ---
 title: Master Filtering
+author: Andrey Aksenov
+legacyId: 16721
 ---
 # Master Filtering
 The Web Dashboard allows you to use any data-aware dashboard item as a filter for the entire dashboard (**Master Filter**). You can select elements in a **Master Filter** item (chart bars, pie segments, grid records, etc.) to filter data in the rest of the dashboard by the selected values.

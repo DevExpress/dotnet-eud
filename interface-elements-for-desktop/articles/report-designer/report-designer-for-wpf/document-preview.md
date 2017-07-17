@@ -1,5 +1,7 @@
 ---
 title: Document Preview
+author: Anna Gubareva
+legacyId: 116293
 ---
 # Document Preview
 To display a preview for the report currently being opened in the Report Designer, switch to the **Print Preview** tab. You will see the report populated with data and divided into pages.

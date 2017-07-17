@@ -1,5 +1,7 @@
 ---
 title: Use Calculated Fields
+author: Eugeniy Burmistrov
+legacyId: 17320
 ---
 # Use Calculated Fields
 This document describes how to use **calculated fields** to evaluate custom expressions based on external data, and embed the results into a Snap document.

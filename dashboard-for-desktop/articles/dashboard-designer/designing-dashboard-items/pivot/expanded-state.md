@@ -1,5 +1,7 @@
 ---
 title: Expanded State
+author: Andrey Aksenov
+legacyId: 118817
 ---
 # Expanded State
 If the [Columns or Rows](providing-data.md) section contains several data items, the Pivot column and row headers are arranged in a hierarchy and make up column and row groups.

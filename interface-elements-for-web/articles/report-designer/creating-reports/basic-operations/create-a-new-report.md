@@ -1,5 +1,7 @@
 ---
 title: Create a New Report
+author: Yuri Shutov
+legacyId: 114595
 ---
 # Create a New Report
 This topic explains how to create a new blank report in the Report Designer.

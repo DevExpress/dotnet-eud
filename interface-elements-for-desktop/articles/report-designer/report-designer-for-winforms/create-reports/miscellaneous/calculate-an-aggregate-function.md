@@ -1,5 +1,7 @@
 ---
 title: Calculate an Aggregate Function
+author: Eugeniy Burmistrov
+legacyId: 14791
 ---
 # Calculate an Aggregate Function
 This tutorial describes the steps required to create a report with an _aggregate function_. In this example, products that are not discontinued and have a total unit value greater than _$500_ will be displayed.

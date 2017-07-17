@@ -1,5 +1,7 @@
 ---
 title: Providing Data
+author: Anna Gubareva
+legacyId: 116274
 ---
 # Providing Data
 The topics in this section describe the basic concepts of providing data for reports and their elements in the Report Designer.

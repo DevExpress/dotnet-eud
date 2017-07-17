@@ -1,5 +1,7 @@
 ---
 title: Track Bar
+author: Alexey Kazakov
+legacyId: 11375
 ---
 # Track Bar
 You can select a value within the **Track Bar** by positioning the drag handle within a range of values limited by a developer. The drag handle position can be changed in the following manner:

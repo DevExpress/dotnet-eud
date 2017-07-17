@@ -1,5 +1,7 @@
 ---
 title: Bulleted Lists
+author: Elena Dvoryadkina
+legacyId: 8542
 ---
 # Bulleted Lists
 ## Create a Bulleted List as You Type

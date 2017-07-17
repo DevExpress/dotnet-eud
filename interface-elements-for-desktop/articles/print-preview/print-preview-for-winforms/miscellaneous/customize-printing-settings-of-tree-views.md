@@ -1,5 +1,7 @@
 ---
 title: Customize Printing Settings of Tree Views
+author: Eugeniy Burmistrov
+legacyId: 4346
 ---
 # Customize Printing Settings of Tree Views
 If allowed by your application vendor, you can customize additional print settings of a document. For example, if you are about to print out a tree view, you may be able to customize its printing options.

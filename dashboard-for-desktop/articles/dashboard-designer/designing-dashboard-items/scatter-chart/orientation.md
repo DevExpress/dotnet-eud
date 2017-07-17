@@ -1,5 +1,7 @@
 ---
 title: Orientation
+author: Andrey Aksenov
+legacyId: 115253
 ---
 # Orientation
 You can rotate the Scatter Chart so that the [X-axis](axes.md) becomes vertical, and the [Y-axis](axes.md) becomes horizontal.

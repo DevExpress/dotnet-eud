@@ -1,5 +1,7 @@
 ---
 title: Finish Layout Customization
+author: Alexey Zolotarev
+legacyId: 4665
 ---
 # Finish Layout Customization
 To finish [customization](start-layout-customization.md), do one of the following:

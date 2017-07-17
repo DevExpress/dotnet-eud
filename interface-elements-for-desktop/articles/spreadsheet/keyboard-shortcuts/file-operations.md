@@ -1,5 +1,7 @@
 ---
 title: File Operations
+author: Natalya Senichkina
+legacyId: 15804
 ---
 # File Operations
 The key combinations used to perform file operations are listed in the table below.

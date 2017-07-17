@@ -1,5 +1,7 @@
 ---
 title: Rotate a Chart
+author: Alexander Temnov
+legacyId: 4155
 ---
 # Rotate a Chart
 If you are working with 3D charts, you can rotate a chart's diagram. This may be required if a chart displays multiple series or data points, and it's required to change the current rotation angle to view the chart data in detail.

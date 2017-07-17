@@ -1,5 +1,7 @@
 ---
 title: Specify the Label's Parameters
+author: Anna Gubareva
+legacyId: 116177
 ---
 # Specify the Label's Parameters
 This wizard page is intended to manually adjust label settings that were automatically specified in the previous step based on the selected supplier and product.

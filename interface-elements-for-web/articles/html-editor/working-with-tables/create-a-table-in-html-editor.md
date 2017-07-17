@@ -1,5 +1,7 @@
 ---
 title: Create a Table in HTML Editor
+author: Anna Kondratova
+legacyId: 6993
 ---
 # Create a Table in HTML Editor
 ## Create a Table

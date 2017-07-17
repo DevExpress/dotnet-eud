@@ -1,5 +1,7 @@
 ---
 title: Data Presentation
+author: Andrey Aksenov
+legacyId: 11073
 ---
 # Data Presentation
 This section describes how you can customize data presentation in Pivot Tables.

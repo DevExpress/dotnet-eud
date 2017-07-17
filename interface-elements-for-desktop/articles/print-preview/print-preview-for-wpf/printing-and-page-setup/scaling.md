@@ -1,5 +1,7 @@
 ---
 title: Scaling
+author: Anna Gubareva
+legacyId: 116489
 ---
 # Scaling
 To scale a document, click the **Scale** ![WPFDesigner_PreviewToolbar_Scale](../../../../images/img120175.png) button on the Print Preview's toolbar. This invokes the **Scale** dialog.

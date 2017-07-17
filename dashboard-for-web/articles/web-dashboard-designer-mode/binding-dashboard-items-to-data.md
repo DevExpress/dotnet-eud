@@ -1,5 +1,7 @@
 ---
 title: Binding Dashboard Items to Data
+author: Natalia Kazakova
+legacyId: 117927
 ---
 # Binding Dashboard Items to Data
 To display data, dashboard items should be bound to [data source](providing-data.md) fields. The topics in this section describe how to do this.

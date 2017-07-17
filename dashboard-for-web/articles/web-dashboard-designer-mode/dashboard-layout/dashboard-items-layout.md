@@ -1,5 +1,7 @@
 ---
 title: Dashboard Items Layout
+author: Natalia Kazakova
+legacyId: 117728
 ---
 # Dashboard Items Layout
 The **Web Dashboard** provides the capability to arrange and resize dashboard items and groups in various ways, using simple drag-and-drop operations.

@@ -1,5 +1,7 @@
 ---
 title: DOCX-Specific Export Options
+author: Anna Gubareva
+legacyId: 118919
 ---
 # DOCX-Specific Export Options
 Before [exporting a document](export-a-document.md) to DOCX format, you can specify DOCX-specific options in the dedicated **Export Options** panel.

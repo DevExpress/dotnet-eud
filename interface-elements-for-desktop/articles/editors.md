@@ -1,5 +1,7 @@
 ---
 title: Editors
+author: Alexey Zolotarev
+legacyId: 4841
 ---
 # Editors
 This section describes the capabilities provided by the editor controls:

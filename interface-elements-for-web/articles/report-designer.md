@@ -1,5 +1,7 @@
 ---
 title: Report Designer
+author: Anya Vekhina
+legacyId: 17818
 ---
 # Report Designer
 This section of the  documentation describes the basic principles of creating reports with **Web Report Designer**.

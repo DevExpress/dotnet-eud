@@ -1,5 +1,7 @@
 ---
 title: Merge or Split Cells
+author: Elena Dvoryadkina
+legacyId: 9339
 ---
 # Merge or Split Cells
 ## Merge Cells

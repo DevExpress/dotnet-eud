@@ -1,5 +1,7 @@
 ---
 title: Image-Specific Export Options
+author: Anna Gubareva
+legacyId: 4335
 ---
 # Image-Specific Export Options
 When [exporting a document](exporting-from-print-preview.md), you can define image-specific exporting options using the following dialog.

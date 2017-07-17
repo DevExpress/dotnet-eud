@@ -1,5 +1,7 @@
 ---
 title: Create Hyperlinks
+author: Anya Vekhina
+legacyId: 114745
 ---
 # Create Hyperlinks
 This tutorial demonstrates how to embed a _hyperlink_ into your report. Note that a label will behave as a hyperlink both in a report's [Print preview](../../document-preview.md) and when the report is exported to PDF, HTML, MHT, RTF, XLS and XLSX.

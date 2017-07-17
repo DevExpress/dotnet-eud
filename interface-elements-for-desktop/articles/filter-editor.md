@@ -1,5 +1,7 @@
 ---
 title: Filter Editor
+author: Alexey Zolotarev
+legacyId: 4842
 ---
 # Filter Editor
 This section describes the capabilities provided by the Filter Editor, which allows users to visually build filters:

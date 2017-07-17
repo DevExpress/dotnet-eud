@@ -1,5 +1,7 @@
 ---
 title: Configure Query Parameters
+author: Anna Gubareva
+legacyId: 118018
 ---
 # Configure Query Parameters
 On this wizard page, you can manage parameters that are used in queries and/or stored procedures selected on the previous wizard page, as well as specify parameter values.

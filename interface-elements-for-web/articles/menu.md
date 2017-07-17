@@ -1,5 +1,7 @@
 ---
 title: Menu
+author: Svetlana Nikulina
+legacyId: 9382
 ---
 # Menu
 Menu is used to navigate you through items.

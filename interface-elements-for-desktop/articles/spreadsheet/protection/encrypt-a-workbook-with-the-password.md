@@ -1,5 +1,7 @@
 ---
 title: Encrypt a Workbook with the Password
+author: Polina Fedorova
+legacyId: 117882
 ---
 # Encrypt a Workbook with the Password
 You can encrypt your document with a password to prevent unauthorized people from opening or modifying your workbooks. To do that, follow the steps below.

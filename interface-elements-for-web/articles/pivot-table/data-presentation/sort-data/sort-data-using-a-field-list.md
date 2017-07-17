@@ -1,5 +1,7 @@
 ---
 title: Sort Data Using a Field List
+author: Andrey Aksenov
+legacyId: 11059
 ---
 # Sort Data Using a Field List
 You can use an advanced Field List to sort field values (to learn more about Field Lists, see [Field List Overview](../../field-list-overview.md)).

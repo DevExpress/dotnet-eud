@@ -1,5 +1,7 @@
 ---
 title: Expand and Collapse Nodes in a Tree List
+author: Alexey Zolotarev
+legacyId: 4685
 ---
 # Expand and Collapse Nodes in a Tree List
 ## Expand and Collapse Nodes

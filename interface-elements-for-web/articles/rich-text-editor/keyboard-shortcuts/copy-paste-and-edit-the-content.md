@@ -1,5 +1,7 @@
 ---
 title: Copy, Paste and Edit the Content
+author: Anna Kondratova
+legacyId: 113991
 ---
 # Copy, Paste and Edit the Content
 The key combinations used to work with a document content are listed below.

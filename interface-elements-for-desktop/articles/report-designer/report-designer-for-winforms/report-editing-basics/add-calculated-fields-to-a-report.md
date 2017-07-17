@@ -1,5 +1,7 @@
 ---
 title: Add Calculated Fields to a Report
+author: Eugeniy Burmistrov
+legacyId: 5583
 ---
 # Add Calculated Fields to a Report
 This document demonstrates how to add a _calculated field_ to a report. The main purpose of calculated fields is to perform pre-calculations (of virtually any level of complexity) over [data fields](displaying-values-from-a-database-(binding-report-elements-to-data).md). To learn how to easily perform simple calculations within a single data field, refer to [Add Totals to a Report](add-totals-to-a-report.md).

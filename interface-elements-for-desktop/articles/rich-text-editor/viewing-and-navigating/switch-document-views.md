@@ -1,5 +1,7 @@
 ---
 title: Switch Document Views
+author: Elena Dvoryadkina
+legacyId: 8465
 ---
 # Switch Document Views
 The **Rich Edit** control provides a number of document views that you can switch depending on what you want to do.

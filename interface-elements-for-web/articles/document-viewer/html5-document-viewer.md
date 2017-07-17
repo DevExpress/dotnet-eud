@@ -1,5 +1,7 @@
 ---
 title: HTML5 Document Viewer
+author: Anna Gubareva
+legacyId: 115408
 ---
 # HTML5 Document Viewer
 The documents in this section provide information on the capabilities of the **Web Document Viewer**, which is based on the HTML5/JS technology and is used to display an interactive document preview on web pages.

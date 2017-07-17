@@ -1,5 +1,7 @@
 ---
 title: Toolbar
+author: Anna Gubareva
+legacyId: 116214
 ---
 # Toolbar
 The **Toolbar** allows you to easily perform various report commands, which are divided into the following sections.

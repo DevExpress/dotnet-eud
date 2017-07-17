@@ -1,5 +1,7 @@
 ---
 title: Use Mail Merge in Report Elements
+author: Eugeniy Burmistrov
+legacyId: 5576
 ---
 # Use Mail Merge in Report Elements
 The _mail merge_ feature allows you to combine both [static](add-or-modify-static-information-in-your-report.md) and [dynamic](displaying-values-from-a-database-(binding-report-elements-to-data).md) content within the same [control](../report-designer-reference/report-controls.md) (e.g. to append some text prefix or postfix to a value obtained from a database), or even bind a control to multiple data fields at one time.

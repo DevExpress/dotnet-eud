@@ -1,5 +1,7 @@
 ---
 title: Make a Series of Recurring Appointments
+author: Elena Dvoryadkina
+legacyId: 8459
 ---
 # Make a Series of Recurring Appointments
 ## What is a Recurring Appointment?

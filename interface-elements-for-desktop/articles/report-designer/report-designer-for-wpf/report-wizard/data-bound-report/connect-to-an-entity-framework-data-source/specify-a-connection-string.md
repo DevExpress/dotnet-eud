@@ -1,5 +1,7 @@
 ---
 title: Specify a Connection String
+author: Anna Gubareva
+legacyId: 116262
 ---
 # Specify a Connection String
 On this wizard page, specify a connection string. Additionally, this page requires you to specify whether or not to store the connection string in the application configuration file.

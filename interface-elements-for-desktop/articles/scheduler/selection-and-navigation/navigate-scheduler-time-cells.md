@@ -1,5 +1,7 @@
 ---
 title: Navigate Scheduler Time Cells
+author: Boris Zaitsev
+legacyId: 4187
 ---
 # Navigate Scheduler Time Cells
 The following table contains the typical navigation operations:

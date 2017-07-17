@@ -1,5 +1,7 @@
 ---
 title: 'General Tools: Home'
+author: Eugeniy Burmistrov
+legacyId: 17331
 ---
 # General Tools: Home
 The **Home** toolbar contains text formatting and alignment commands.

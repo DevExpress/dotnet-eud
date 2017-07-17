@@ -1,5 +1,7 @@
 ---
 title: Modify Audio Settings in HTML Editor
+author: Svetlana Nikulina
+legacyId: 17961
 ---
 # Modify Audio Settings in HTML Editor
 To modify audio element settings within editor content, do one of the following.

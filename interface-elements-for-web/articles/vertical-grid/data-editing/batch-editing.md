@@ -1,5 +1,7 @@
 ---
 title: Batch Editing
+author: Anna Kondratova
+legacyId: 118055
 ---
 # Batch Editing
 The **Vertical Grid** allows you to edit a group of records (on a single page) and save these changes with one click. In this view, you can create new records, delete existing records and edit individual cell values.

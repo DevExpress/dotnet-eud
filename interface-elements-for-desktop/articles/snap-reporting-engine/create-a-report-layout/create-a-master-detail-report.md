@@ -1,5 +1,7 @@
 ---
 title: Create a Master-Detail Report
+author: Eugeniy Burmistrov
+legacyId: 15710
 ---
 # Create a Master-Detail Report
 This document will guide you through the process of creating a master-detail report. Reports of this type are built upon hierarchical data sources, so to be able to create a master-detail report, you need to provide a report data source with a master-detail relation.

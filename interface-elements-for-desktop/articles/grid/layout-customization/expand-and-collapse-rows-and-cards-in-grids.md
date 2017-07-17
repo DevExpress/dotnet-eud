@@ -1,5 +1,7 @@
 ---
 title: Expand and Collapse Rows and Cards in Grids
+author: Alexey Zolotarev
+legacyId: 4643
 ---
 # Expand and Collapse Rows and Cards in Grids
 ## Expand/Collapse Group Rows in Grid Views

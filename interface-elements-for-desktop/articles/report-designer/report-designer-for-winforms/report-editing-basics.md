@@ -1,5 +1,7 @@
 ---
 title: Report Editing Basics
+author: Eugeniy Burmistrov
+legacyId: 5653
 ---
 # Report Editing Basics
 This section describes the most basic tasks you may encounter when initiating a report edit in the Report Designer.

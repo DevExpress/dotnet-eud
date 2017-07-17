@@ -1,5 +1,7 @@
 ---
 title: Editing Text
+author: Andrey Aksenov
+legacyId: 16861
 ---
 # Editing Text
 To edit the text within the Text Box, click the **Edit** button in the ribbon's **Design** tab or use the corresponding item in the context menu.

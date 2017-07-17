@@ -1,5 +1,7 @@
 ---
 title: Using Tabs
+author: Anna Kondratova
+legacyId: 113860
 ---
 # Using Tabs
 Tab stops specify the exact positions the cursor moves after repeatedly clicking the **Tab** key. Tab stops are located on the [horizontal ruler](../viewing-and-navigating/show-horizontal-ruler.md) and allows you to align text.

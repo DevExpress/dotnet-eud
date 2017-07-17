@@ -1,5 +1,7 @@
 ---
 title: View Document Properties
+author: Alexander Temnov
+legacyId: 17496
 ---
 # View Document Properties
 To view information related to the currently opened document, invoke the context menu by right-clicking this document and selecting **Document properties...** item.

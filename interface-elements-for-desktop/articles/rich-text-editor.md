@@ -1,5 +1,7 @@
 ---
 title: Rich Text Editor
+author: Boris Zaitsev
+legacyId: 7431
 ---
 # Rich Text Editor
 This section describes the capabilities provided by the **Rich Text Editor**.

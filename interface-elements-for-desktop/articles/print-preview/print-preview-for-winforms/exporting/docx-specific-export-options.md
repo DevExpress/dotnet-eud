@@ -1,5 +1,7 @@
 ---
 title: DOCX-Specific Export Options
+author: Anna Gubareva
+legacyId: 118916
 ---
 # DOCX-Specific Export Options
 When [exporting a document](exporting-from-print-preview.md), you can define DOCX-specific export options using the following dialog:

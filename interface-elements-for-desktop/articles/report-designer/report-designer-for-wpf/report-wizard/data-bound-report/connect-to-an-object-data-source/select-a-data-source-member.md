@@ -1,5 +1,7 @@
 ---
 title: Select a Data Source Member
+author: Anna Gubareva
+legacyId: 116241
 ---
 # Select a Data Source Member
 This wizard page allows you to select whether you want bind to the entire object or to its public member (method or property).

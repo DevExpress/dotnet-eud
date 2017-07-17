@@ -1,5 +1,7 @@
 ---
 title: Docking
+author: Dmitry Korovin
+legacyId: 16800
 ---
 # Docking
 In the **Docking** section, you will learn about the main runtime capabilities of the DocumentManager and DockManager, which can be combined to create traditional docking UI applications (see the image below). 

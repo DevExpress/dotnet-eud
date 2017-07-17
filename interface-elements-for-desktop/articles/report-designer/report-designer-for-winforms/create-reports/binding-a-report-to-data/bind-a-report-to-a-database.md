@@ -1,5 +1,7 @@
 ---
 title: Bind a Report to a Database
+author: Anna Gubareva
+legacyId: 115618
 ---
 # Bind a Report to a Database
 This document describes how to bind a report to a hierarchical data source and specify a master-detail relationship between data source queries.

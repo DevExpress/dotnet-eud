@@ -1,5 +1,7 @@
 ---
 title: Print Reports Using the Native Functionality of a Web Browser
+author: Anna Gubareva
+legacyId: 4626
 ---
 # Print Reports Using the Native Functionality of a Web Browser
 If the PDF plug-in is not installed or is disabled in your web browser, the report document is printed using the native functionality of this browser.

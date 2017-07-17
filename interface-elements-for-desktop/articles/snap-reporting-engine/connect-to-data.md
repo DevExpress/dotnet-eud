@@ -1,5 +1,7 @@
 ---
 title: Connect to Data
+author: Eugeniy Burmistrov
+legacyId: 17355
 ---
 # Connect to Data
 The topics in this section describe the various aspects of providing data to a Snap document.

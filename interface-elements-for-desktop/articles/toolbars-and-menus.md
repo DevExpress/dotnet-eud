@@ -1,5 +1,7 @@
 ---
 title: Toolbars and Menus
+author: Alexey Zolotarev
+legacyId: 4852
 ---
 # Toolbars and Menus
 This section describes the capabilities provided by toolbars and menus.

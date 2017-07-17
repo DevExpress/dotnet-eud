@@ -1,5 +1,7 @@
 ---
 title: Select a Data Member
+author: Anna Gubareva
+legacyId: 116920
 ---
 # Select a Data Member
 This wizard page allows you to select one of the available data members that will provide data to your report.

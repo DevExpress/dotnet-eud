@@ -1,5 +1,7 @@
 ---
 title: Chart Designer
+author: Roman Karpov
+legacyId: 114372
 ---
 # Chart Designer
 Use the Chart Designer dialog to quickly and easily customize a chart, or create a new one.

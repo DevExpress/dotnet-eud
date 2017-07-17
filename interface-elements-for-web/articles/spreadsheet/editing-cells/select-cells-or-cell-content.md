@@ -1,5 +1,7 @@
 ---
 title: Select Cells or Cell Content
+author: Anna Kondratova
+legacyId: 18153
 ---
 # Select Cells or Cell Content
 ## Selecting Cells

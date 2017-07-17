@@ -1,5 +1,7 @@
 ---
 title: Parameterized Report
+author: Eugeniy Burmistrov
+legacyId: 5053
 ---
 # Parameterized Report
 This tutorial describes the steps needed to create a report with parameters. In this example, we will create two date-time parameters, to filter out orders which don't fall in the specified range from the report.

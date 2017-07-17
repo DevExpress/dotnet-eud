@@ -1,5 +1,7 @@
 ---
 title: Navigation Pane
+author: Alexey Zolotarev
+legacyId: 4646
 ---
 # Navigation Pane
 ## Expand Groups

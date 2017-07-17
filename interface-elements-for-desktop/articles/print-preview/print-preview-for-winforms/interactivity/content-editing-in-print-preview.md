@@ -1,5 +1,7 @@
 ---
 title: Content Editing in Print Preview
+author: Anna Gubareva
+legacyId: 118013
 ---
 # Content Editing in Print Preview
 If content editing is enabled for document elements, it is possible to customize the corresponding field values in Print Preview.

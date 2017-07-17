@@ -1,5 +1,7 @@
 ---
 title: Labels
+author: Natalia Kazakova
+legacyId: 117998
 ---
 # Labels
 Pies display **data labels** that contain descriptions for pie segments, and provide **tooltips** with additional information.

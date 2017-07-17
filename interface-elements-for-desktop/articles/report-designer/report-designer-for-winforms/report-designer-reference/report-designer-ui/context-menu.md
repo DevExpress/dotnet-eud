@@ -1,5 +1,7 @@
 ---
 title: Context Menu
+author: Eugeniy Burmistrov
+legacyId: 4993
 ---
 # Context Menu
 The **Context Menu** can be invoked by the right-clicking a report...

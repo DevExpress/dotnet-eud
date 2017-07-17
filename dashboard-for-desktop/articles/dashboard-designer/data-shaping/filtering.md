@@ -1,5 +1,7 @@
 ---
 title: Filtering
+author: Andrey Aksenov
+legacyId: 16532
 ---
 # Filtering
 The **Dashboard** allows you to filter a [query](../working-with-data/filter-queries.md) of the [SQL Data Source](../providing-data/connecting-to-sql-databases.md) or apply filtering to a specific data-aware dashboard item.

@@ -1,5 +1,7 @@
 ---
 title: Line
+author: Eugeniy Burmistrov
+legacyId: 5013
 ---
 # Line
 The **Line** control draws a line of a specified direction, style, width and color. It can be used for both decoration and visual separation of a report's sections. The Line cannot cross [bands](../report-bands.md), as opposed to the [Cross-band Line](cross-band-line.md) control.

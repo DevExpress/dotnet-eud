@@ -1,5 +1,7 @@
 ---
 title: Load a Workbook
+author: Natalya Senichkina
+legacyId: 15723
 ---
 # Load a Workbook
 To load a workbook, select the **File** tab, and click the **Open** button in the **Common** group (or press **CTRL+O**).

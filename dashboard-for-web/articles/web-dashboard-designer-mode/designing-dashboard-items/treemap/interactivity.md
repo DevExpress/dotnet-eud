@@ -1,5 +1,7 @@
 ---
 title: Interactivity
+author: Natalia Kazakova
+legacyId: 118037
 ---
 # Interactivity
 To enable interaction between the Treemap and other dashboard items, you can use the interactivity features, as **Master Filtering** and **Drill-Down**.

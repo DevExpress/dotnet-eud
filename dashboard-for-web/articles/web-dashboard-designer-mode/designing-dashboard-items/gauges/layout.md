@@ -1,5 +1,7 @@
 ---
 title: Layout
+author: Natalia Kazakova
+legacyId: 117537
 ---
 # Layout
 The Gauge dashboard item allows you to specify the number of columns or rows by which gauges are arranged. For example, the following image shows gauges arranged into 3 columns.

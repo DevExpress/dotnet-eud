@@ -1,5 +1,7 @@
 ---
 title: Choose a Table or View
+author: Anya Vekhina
+legacyId: 114525
 ---
 # Choose a Table or View
 On this page, select a data table or view that will provide data to your report.

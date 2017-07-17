@@ -1,5 +1,7 @@
 ---
 title: Filter Elements
+author: Andrey Aksenov
+legacyId: 17938
 ---
 # Filter Elements
 Filter elements represent a special type of dashboard item that allows you to apply filtering to other dashboard items.

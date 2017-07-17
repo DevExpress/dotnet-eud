@@ -1,5 +1,7 @@
 ---
 title: News Control
+author: Alexey Kazakov
+legacyId: 17405
 ---
 # News Control
 The **News Control** displays news in a list-based view. Click **Details** to open a page with a required article.

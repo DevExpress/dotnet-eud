@@ -1,5 +1,7 @@
 ---
 title: Thumbnails
+author: Alexander Temnov
+legacyId: 117797
 ---
 # Thumbnails
 This document introduces page thumbnails and describes their capabilities on a Navigation pane.

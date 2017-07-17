@@ -1,5 +1,7 @@
 ---
 title: Group Grid Rows
+author: Alexey Zolotarev
+legacyId: 4563
 ---
 # Group Grid Rows
 ## Group Data

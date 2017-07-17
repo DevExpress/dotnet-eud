@@ -1,5 +1,7 @@
 ---
 title: Bind Report Controls to Data
+author: Anya Vekhina
+legacyId: 114642
 ---
 # Bind Report Controls to Data
 This topic describes how [report controls](../../report-elements/report-controls.md) can be bound to data fields, and explains how controls are rendered on different [report bands](../../report-elements/report-bands.md).

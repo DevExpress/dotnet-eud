@@ -1,5 +1,7 @@
 ---
 title: Manage Documents and Files
+author: Eugeniy Burmistrov
+legacyId: 15536
 ---
 # Manage Documents and Files
 The tutorials in this section will assist you in solving the most elementary and essential tasks that relate to managing and storing Snap documents.

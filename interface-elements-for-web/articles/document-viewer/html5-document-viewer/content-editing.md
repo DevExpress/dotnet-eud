@@ -1,5 +1,7 @@
 ---
 title: Content Editing
+author: Anna Gubareva
+legacyId: 118015
 ---
 # Content Editing
 If content editing is enabled for document elements, it is possible to customize the corresponding field values in the Document Viewer.

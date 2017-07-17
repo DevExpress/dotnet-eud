@@ -1,5 +1,7 @@
 ---
 title: Value
+author: Andrey Aksenov
+legacyId: 114185
 ---
 # Value
 The **Value** format condition allows you to compare static values (such as Greater Than, Less Than, Between, etc.).

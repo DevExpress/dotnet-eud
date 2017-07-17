@@ -1,5 +1,7 @@
 ---
 title: Apply Strikethrough Formatting in HTML Editor
+author: Anna Kondratova
+legacyId: 4493
 ---
 # Apply Strikethrough Formatting in HTML Editor
 To apply strikethrough formatting to a specific portion of the text, do the following:

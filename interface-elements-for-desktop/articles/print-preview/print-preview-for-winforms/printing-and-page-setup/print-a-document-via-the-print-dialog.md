@@ -1,5 +1,7 @@
 ---
 title: Print a Document via the Print Dialog
+author: Eugeniy Burmistrov
+legacyId: 4302
 ---
 # Print a Document via the Print Dialog
 To print a document, do one of the following.

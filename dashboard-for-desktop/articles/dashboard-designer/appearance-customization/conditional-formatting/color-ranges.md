@@ -1,5 +1,7 @@
 ---
 title: Color Ranges
+author: Andrey Aksenov
+legacyId: 114209
 ---
 # Color Ranges
 Color Ranges allow you to use predefined sets of colors to apply conditional formatting to different ranges of values. You can also use custom appearance settings for specific ranges.

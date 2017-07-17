@@ -1,5 +1,7 @@
 ---
 title: Formatting Data
+author: Natalia Kazakova
+legacyId: 117708
 ---
 # Formatting Data
 The Web Dashboard allows you to customize various format settings for numeric and date-time values.

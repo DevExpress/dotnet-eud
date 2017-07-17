@@ -1,5 +1,7 @@
 ---
 title: Set Table Properties
+author: Elena Dvoryadkina
+legacyId: 10519
 ---
 # Set Table Properties
 To change settings of table [rows](#row), [columns](#column), particular [cells](#cell) or whole [tables](#table), use the **Table Properties** dialog. To invoke this dialog, click within a table whose properties you wish to specify, and on the **Table Tools/Layout** [tab](../text-editor-ui/ribbon-interface.md), in the **Table** group, click the **Properties** button.

@@ -1,5 +1,7 @@
 ---
 title: Ribbon Interface
+author: Anna Kondratova
+legacyId: 113797
 ---
 # Ribbon Interface
 The comprehensive functionality for the **Rich Text** control can be provided via a set of **Ribbon** tabbed pages. **Ribbon** pages are divided into logical groups that include commands with common features.

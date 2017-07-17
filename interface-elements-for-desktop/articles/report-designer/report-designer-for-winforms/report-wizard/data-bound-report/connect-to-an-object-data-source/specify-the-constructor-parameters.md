@@ -1,5 +1,7 @@
 ---
 title: Specify the Constructor Parameters
+author: Anna Gubareva
+legacyId: 115587
 ---
 # Specify the Constructor Parameters
 > This wizard step appears only if you're creating a new report from scratch. If you're modifying an existing report, this step will not appear and you will start with the [Choose Columns to Display in Your Report](../choose-columns-to-display-in-your-report.md) wizard page.

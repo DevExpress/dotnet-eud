@@ -1,5 +1,7 @@
 ---
 title: Edit Cells in a Tree List
+author: Alexey Zolotarev
+legacyId: 4681
 ---
 # Edit Cells in a Tree List
 ## Activate Cell Editor

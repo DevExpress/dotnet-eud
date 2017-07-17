@@ -1,5 +1,7 @@
 ---
 title: Sub-Bands
+author: Anna Gubareva
+legacyId: 117230
 ---
 # Sub-Bands
 The sub-band is a band that provides a functional copy of the source band below which it is located.

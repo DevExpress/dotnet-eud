@@ -1,5 +1,7 @@
 ---
 title: Query Builder
+author: Anna Gubareva
+legacyId: 117815
 ---
 # Query Builder
 The **Query Builder** can be invoked from the [SQL Data Source Wizard](../wizards/sql-data-source-wizard.md). It provides a visual editor to create custom queries and enables you to solve a variety of tasks.

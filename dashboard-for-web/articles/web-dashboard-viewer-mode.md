@@ -1,5 +1,7 @@
 ---
 title: Web Dashboard - Viewer Mode
+author: Andrey Aksenov
+legacyId: 16757
 ---
 # Web Dashboard - Viewer Mode
 The **Web Dashboard** provides the capability to display dashboards in web browsers on desktop and mobile devices.

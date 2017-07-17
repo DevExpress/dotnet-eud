@@ -1,5 +1,7 @@
 ---
 title: Spreadsheet
+author: Natalya Senichkina
+legacyId: 16027
 ---
 # Spreadsheet
 This section describes the capabilities provided by the **Spreadsheet**.

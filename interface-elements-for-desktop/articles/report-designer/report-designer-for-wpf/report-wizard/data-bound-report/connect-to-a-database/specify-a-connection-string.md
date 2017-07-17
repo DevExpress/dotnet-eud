@@ -1,5 +1,7 @@
 ---
 title: Specify a Connection String
+author: Anna Gubareva
+legacyId: 116228
 ---
 # Specify a Connection String
 On this page, define a custom connection string or select one of the supported data providers.

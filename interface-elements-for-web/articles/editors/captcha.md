@@ -1,5 +1,7 @@
 ---
 title: Captcha
+author: Svetlana Nikulina
+legacyId: 9351
 ---
 # Captcha
 **Captcha** is used to distinguish human input from machine input.

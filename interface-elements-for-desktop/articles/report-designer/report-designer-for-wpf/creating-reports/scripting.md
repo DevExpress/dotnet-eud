@@ -1,5 +1,7 @@
 ---
 title: Scripting
+author: Anna Gubareva
+legacyId: 116357
 ---
 # Scripting
 This document describes the basic principles of _scripting_, which can be performed by handling the events of a report, and its [bands](../report-elements/report-bands.md) and [controls](../report-elements/report-controls.md).

@@ -1,5 +1,7 @@
 ---
 title: Switching a Vertical Grid to Batch Edit Mode
+author: Anna Kondratova
+legacyId: 118058
 ---
 # Switching a Vertical Grid to Batch Edit Mode
 To edit cell values, switch to batch edit mode using one of the following.

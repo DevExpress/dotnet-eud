@@ -1,5 +1,7 @@
 ---
 title: Shaping Data
+author: Anya Vekhina
+legacyId: 114679
 ---
 # Shaping Data
 The topics in this section illustrate how to shape data in reports in various ways, using the [Web Report Designer](../../report-designer.md).

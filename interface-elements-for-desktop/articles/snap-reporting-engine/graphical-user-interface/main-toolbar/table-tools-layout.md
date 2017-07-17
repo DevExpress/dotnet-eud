@@ -1,5 +1,7 @@
 ---
 title: 'Table Tools: Layout'
+author: Eugeniy Burmistrov
+legacyId: 17334
 ---
 # Table Tools: Layout
 This toolbar is context sensitive, and becomes active after placing the text cursor in a document table.

@@ -1,5 +1,7 @@
 ---
 title: Filter Queries
+author: Natalia Kazakova
+legacyId: 117968
 ---
 # Filter Queries
 SQL queries constructed in the [Query Builder](query-builder.md) can be filtered by including the _WHERE_ clauses to the query. Filtering can be applied to either underlying or aggregated data. You can also limit the number of returned records when filtering data.

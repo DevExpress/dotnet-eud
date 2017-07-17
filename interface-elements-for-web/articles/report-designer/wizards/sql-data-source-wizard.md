@@ -1,5 +1,7 @@
 ---
 title: SQL Data Source Wizard
+author: Anna Gubareva
+legacyId: 114521
 ---
 # SQL Data Source Wizard
 Two different SQL Data Source Wizard versions are available, one to create a new data source and the other to edit an existing one.

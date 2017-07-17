@@ -1,5 +1,7 @@
 ---
 title: Specify Summary Options
+author: Anna Gubareva
+legacyId: 5073
 ---
 # Specify Summary Options
 > This wizard step is only available if you have applied data grouping in the previous step ([Add Grouping Levels](add-grouping-levels.md)). If you have not grouped data, this step is skipped.

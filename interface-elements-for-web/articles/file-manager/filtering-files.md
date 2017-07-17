@@ -1,5 +1,7 @@
 ---
 title: Filtering Files
+author: Svetlana Nikulina
+legacyId: 9363
 ---
 # Filtering Files
 Filtering allows only files that meet the specified criteria be displayed.

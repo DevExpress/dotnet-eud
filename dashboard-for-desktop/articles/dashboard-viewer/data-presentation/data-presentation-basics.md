@@ -1,5 +1,7 @@
 ---
 title: Data Presentation Basics
+author: Andrey Aksenov
+legacyId: 16654
 ---
 # Data Presentation Basics
 The **Dashboard Viewer** is used to present dashboards in Windows Forms applications. 

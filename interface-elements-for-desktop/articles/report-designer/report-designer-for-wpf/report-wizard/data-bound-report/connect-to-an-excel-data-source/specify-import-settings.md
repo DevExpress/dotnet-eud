@@ -1,5 +1,7 @@
 ---
 title: Specify Import Settings
+author: Anna Gubareva
+legacyId: 116248
 ---
 # Specify Import Settings
 On this wizard page, you can specify required import settings. This page provides access to different settings depending on whether you have selected an Excel Workbook or CSV file.

@@ -1,5 +1,7 @@
 ---
 title: Edit Grid Cells
+author: Alexey Zolotarev
+legacyId: 4567
 ---
 # Edit Grid Cells
 ## Activate Cell Editor

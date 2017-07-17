@@ -1,5 +1,7 @@
 ---
 title: Search Panel
+author: Anna Gubareva
+legacyId: 117833
 ---
 # Search Panel
 The **Search Panel** enables you to find specific text in a document with specified search options.

@@ -1,5 +1,7 @@
 ---
 title: Delete an Appointment
+author: Boris Zaitsev
+legacyId: 4213
 ---
 # Delete an Appointment
 Use the popup (context) menu to delete an appointment.

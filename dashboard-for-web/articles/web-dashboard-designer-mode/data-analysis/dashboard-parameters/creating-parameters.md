@@ -1,5 +1,7 @@
 ---
 title: Creating Parameters
+author: Natalia Kazakova
+legacyId: 117551
 ---
 # Creating Parameters
 To create a dashboard parameter in the Web Dashboard, perform the following steps.

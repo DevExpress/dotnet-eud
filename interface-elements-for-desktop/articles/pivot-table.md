@@ -1,5 +1,7 @@
 ---
 title: Pivot Table
+author: Andrey Aksenov
+legacyId: 4846
 ---
 # Pivot Table
 This section describes the capabilities provided by the Pivot Table, which represents data in a cross-tabulated form.

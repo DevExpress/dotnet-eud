@@ -1,5 +1,7 @@
 ---
 title: Data Shaping
+author: Natalia Kazakova
+legacyId: 117739
 ---
 # Data Shaping
 Topics in this section describe various data shaping operations such as grouping, sorting and filtering that can be performed in the Web Dashboard.

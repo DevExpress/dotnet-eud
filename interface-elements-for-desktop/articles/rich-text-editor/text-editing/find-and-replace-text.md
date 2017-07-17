@@ -1,5 +1,7 @@
 ---
 title: Find and Replace Text
+author: Elena Dvoryadkina
+legacyId: 8549
 ---
 # Find and Replace Text
 ## Find Text

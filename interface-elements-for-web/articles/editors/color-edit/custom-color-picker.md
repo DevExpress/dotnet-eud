@@ -1,5 +1,7 @@
 ---
 title: Custom Color Picker
+author: Svetlana Nikulina
+legacyId: 16844
 ---
 # Custom Color Picker
 The **Custom Color Picker** allows you to select a custom color using a graphical interface.

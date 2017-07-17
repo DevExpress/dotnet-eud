@@ -1,5 +1,7 @@
 ---
 title: Print a Document
+author: Anna Kondratova
+legacyId: 113813
 ---
 # Print a Document
 1. Select the **File** tab and click the **Print** button in the **Common** group.

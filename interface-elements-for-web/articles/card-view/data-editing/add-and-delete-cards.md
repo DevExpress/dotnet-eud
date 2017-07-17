@@ -1,5 +1,7 @@
 ---
 title: Add and Delete Cards
+author: Svetlana Nikulina
+legacyId: 115280
 ---
 # Add and Delete Cards
 ## Add a Card

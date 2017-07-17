@@ -1,5 +1,7 @@
 ---
 title: Save a Workbook
+author: Natalya Senichkina
+legacyId: 15724
 ---
 # Save a Workbook
 To save a workbook, go to the **File** tab, and then click the **Save as** button in the **Common** group,  or press **F12** instead of these steps.

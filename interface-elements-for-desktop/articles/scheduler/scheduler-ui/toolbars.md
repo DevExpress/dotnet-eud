@@ -1,5 +1,7 @@
 ---
 title: Toolbars
+author: Boris Zaitsev
+legacyId: 11908
 ---
 # Toolbars
 A scheduler can be accompanied by a set of toolbars that provide you with a comprehensive functionality to perform basic operations in a scheduler ([navigate through dates](../selection-and-navigation/navigate-dates-in-the-scheduler.md), [change active view](../layout-customization/switch-scheduler-views.md), [create](../appointment-management/create-appointments.md), [edit](../appointment-management/edit-appointments.md) and [delete appointments](../appointment-management/delete-appointments.md), [select a type for grouping scheduler data](../layout-customization/scheduler-grouping.md), etc.) via a Bar interface.

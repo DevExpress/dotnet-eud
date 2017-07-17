@@ -1,5 +1,7 @@
 ---
 title: Filter Elements Overview
+author: Natalia Kazakova
+legacyId: 118043
 ---
 # Filter Elements Overview
 The Web Dashboard allows you to create three types of filter elements that provide the capability to filter other dashboard items.

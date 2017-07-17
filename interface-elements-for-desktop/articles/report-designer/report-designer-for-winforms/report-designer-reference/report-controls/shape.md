@@ -1,5 +1,7 @@
 ---
 title: Shape
+author: Eugeniy Burmistrov
+legacyId: 5014
 ---
 # Shape
 The **Shape** control allows you to embed simple graphic objects into your report. You can choose one of multiple predefined shapes (e.g. rectangles, ellipses, arrows, polygons, crosses and brackets of various kinds).

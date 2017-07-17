@@ -1,5 +1,7 @@
 ---
 title: Restrictions for Operations with Appointments
+author: Boris Zaitsev
+legacyId: 4184
 ---
 # Restrictions for Operations with Appointments
 Access to several operations may be restricted. You may find that you're not able to perform the following operations due to restrictions applied by your application vendor or administrator.

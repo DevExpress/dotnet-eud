@@ -1,5 +1,7 @@
 ---
 title: Insert a Page Break
+author: Anna Kondratova
+legacyId: 113840
 ---
 # Insert a Page Break
 ## Insert Page Break

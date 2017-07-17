@@ -1,5 +1,7 @@
 ---
 title: Work with Dropdown Editors
+author: Anna Kondratova
+legacyId: 5529
 ---
 # Work with Dropdown Editors
 ## Open Editor's Dropdown

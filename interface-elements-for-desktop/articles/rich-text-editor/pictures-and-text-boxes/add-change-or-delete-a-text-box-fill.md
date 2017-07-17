@@ -1,5 +1,7 @@
 ---
 title: Add, Change or Delete a Text Box Fill
+author: Elena Dvoryadkina
+legacyId: 11944
 ---
 # Add, Change or Delete a Text Box Fill
 ## Specify a Text Box Fill

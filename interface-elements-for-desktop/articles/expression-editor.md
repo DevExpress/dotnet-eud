@@ -1,5 +1,7 @@
 ---
 title: Expression Editor
+author: Alexey Zolotarev
+legacyId: 7430
 ---
 # Expression Editor
 The Expression Editor allows you to edit various Boolean or regular expressions in controls:

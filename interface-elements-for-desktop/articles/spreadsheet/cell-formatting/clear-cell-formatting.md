@@ -1,5 +1,7 @@
 ---
 title: Clear Cell Formatting
+author: Natalya Senichkina
+legacyId: 15778
 ---
 # Clear Cell Formatting
 To remove all formatting from cells, do one of the following.

@@ -1,5 +1,7 @@
 ---
 title: Keyboard Shortcuts
+author: Anna Kondratova
+legacyId: 113751
 ---
 # Keyboard Shortcuts
 The **Spreadsheet** provides the capability to perform common commands quickly using keyboard shortcuts.

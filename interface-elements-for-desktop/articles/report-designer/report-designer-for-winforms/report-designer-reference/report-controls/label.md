@@ -1,5 +1,7 @@
 ---
 title: Label
+author: Eugeniy Burmistrov
+legacyId: 5007
 ---
 # Label
 The most basic **Label** control is intended to display text in your report. It can represent [static](../../report-editing-basics/add-or-modify-static-information-in-your-report.md) or [dynamic](../../report-editing-basics/displaying-values-from-a-database-(binding-report-elements-to-data).md) text, or [both](../../report-editing-basics/use-mail-merge-in-report-elements.md). In addition, it can be used to calculate standard summary functions across a data field. The Label's text can only be formatted as a whole. So, if it's required to differently format parts of text, use the [Rich Text](rich-text.md) control.

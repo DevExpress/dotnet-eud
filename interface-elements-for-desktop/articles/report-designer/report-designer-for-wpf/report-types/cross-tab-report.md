@@ -1,5 +1,7 @@
 ---
 title: Cross-Tab Report
+author: Anna Gubareva
+legacyId: 116209
 ---
 # Cross-Tab Report
 This tutorial describes the steps needed to create a _cross-tab report_ using the [Pivot Grid](../report-elements/report-controls.md) control. This feature should not be confused with the [master-detail report](master-detail-report.md) or [table report](table-report.md). Additionally, the document demonstrates how to visualize data displayed in the Pivot Grid by linking it with the [Chart](../report-elements/report-controls.md) control.

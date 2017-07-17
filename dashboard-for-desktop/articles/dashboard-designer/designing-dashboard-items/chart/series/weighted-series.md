@@ -1,5 +1,7 @@
 ---
 title: Weighted Series
+author: Andrey Aksenov
+legacyId: 16547
 ---
 # Weighted Series
 Weighted series allow you to visualize data in three dimensions.

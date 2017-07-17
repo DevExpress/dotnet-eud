@@ -1,5 +1,7 @@
 ---
 title: Insert a Video Into HTML Editor
+author: Svetlana Nikulina
+legacyId: 17968
 ---
 # Insert a Video Into HTML Editor
 This topic describes how to insert video into an editor's content.

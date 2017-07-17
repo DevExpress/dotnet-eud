@@ -1,5 +1,7 @@
 ---
 title: Format Paragraphs
+author: Anna Kondratova
+legacyId: 113836
 ---
 # Format Paragraphs
 To format a paragraph, first click anywhere in it or [select](../text-editing/select-text.md) the paragraph, and then use the **Paragraph** group on the **Home** tab to create a [bulleted](../lists/bulleted-lists.md), [numbered](../lists/numbered-lists.md) and [multilevel](../lists/multilevel-lists.md) list, change line spacing, indentation, alignment and styles.

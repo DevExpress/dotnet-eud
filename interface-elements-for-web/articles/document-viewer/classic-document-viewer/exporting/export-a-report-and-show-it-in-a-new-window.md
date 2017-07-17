@@ -1,5 +1,7 @@
 ---
 title: Export a Report and Show It in a New Window
+author: Eugeniy Burmistrov
+legacyId: 4622
 ---
 # Export a Report and Show It in a New Window
 If your web browser supports the appropriate document format, it is possible to export a report and immediately show it in a new web browser's window.

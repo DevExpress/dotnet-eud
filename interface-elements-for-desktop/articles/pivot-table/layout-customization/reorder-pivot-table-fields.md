@@ -1,5 +1,7 @@
 ---
 title: Reorder Pivot Table Fields
+author: Andrey Aksenov
+legacyId: 4662
 ---
 # Reorder Pivot Table Fields
 This section describes the Pivot Table capabilities to reorder fields.

@@ -1,5 +1,7 @@
 ---
 title: Basic Operations
+author: Eugeniy Burmistrov
+legacyId: 5505
 ---
 # Basic Operations
 The topics in this section cover the basics of working with reports in the Report Designer.

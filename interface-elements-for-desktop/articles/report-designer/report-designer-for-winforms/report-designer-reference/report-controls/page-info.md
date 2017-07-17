@@ -1,5 +1,7 @@
 ---
 title: Page Info
+author: Eugeniy Burmistrov
+legacyId: 5019
 ---
 # Page Info
 The **Page Info** control is intended to [add page numbers and system information](../../report-editing-basics/add-page-numbers-and-system-information-to-a-report.md) (the current date and time or the current user name) into your report. As with many other controls, you can [format](../../report-editing-basics/change-value-formatting-of-report-elements.md) this control's content.

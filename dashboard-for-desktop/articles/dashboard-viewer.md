@@ -1,5 +1,7 @@
 ---
 title: Dashboard Viewer
+author: Andrey Aksenov
+legacyId: 15759
 ---
 # Dashboard Viewer
 The **Dashboard Viewer** provides the capability to display dashboards in Windows Forms applications.

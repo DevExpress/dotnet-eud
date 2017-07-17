@@ -1,5 +1,7 @@
 ---
 title: Format Text
+author: Elena Dvoryadkina
+legacyId: 7446
 ---
 # Format Text
 To format text, first [select it](../text-editing/select-text.md) and then use the **Font** page group on the **Home** [ tab](../text-editor-ui/ribbon-interface.md) to change the font family, size, color, etc.

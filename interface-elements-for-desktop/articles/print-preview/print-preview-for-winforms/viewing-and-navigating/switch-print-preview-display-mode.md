@@ -1,5 +1,7 @@
 ---
 title: Switch Print Preview Display Mode
+author: Eugeniy Burmistrov
+legacyId: 4560
 ---
 # Switch Print Preview Display Mode
 ## Enable the Facing Layout View

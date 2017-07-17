@@ -1,5 +1,7 @@
 ---
 title: Create Groups
+author: Anya Vekhina
+legacyId: 114528
 ---
 # Create Groups
 This page allows you to group data in your report. If you don't need to group your data, simply click **Next** on this page to skip this step.

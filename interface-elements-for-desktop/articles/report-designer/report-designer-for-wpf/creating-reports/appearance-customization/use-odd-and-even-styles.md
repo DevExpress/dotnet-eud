@@ -1,5 +1,7 @@
 ---
 title: Use Odd and Even Styles
+author: Anna Gubareva
+legacyId: 116336
 ---
 # Use Odd and Even Styles
 This tutorial describes how to apply _odd and even styles_ to [report controls](../../report-elements/report-controls.md), e.g., to alternate the background color for each record.

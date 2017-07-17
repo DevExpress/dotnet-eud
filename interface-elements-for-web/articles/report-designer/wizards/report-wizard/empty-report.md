@@ -1,5 +1,7 @@
 ---
 title: Empty Report
+author: Anna Gubareva
+legacyId: 116173
 ---
 # Empty Report
 Selecting this option on the [Choose a Report Type](choose-a-report-type.md) wizard page will create a new blank report that is not bound to any data source.

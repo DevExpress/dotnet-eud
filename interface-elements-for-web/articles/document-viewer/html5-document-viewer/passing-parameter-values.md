@@ -1,5 +1,7 @@
 ---
 title: Passing Parameter Values
+author: Anna Gubareva
+legacyId: 115385
 ---
 # Passing Parameter Values
 Some documents or reports allow you to control what data is to be displayed by specifying parameter values.

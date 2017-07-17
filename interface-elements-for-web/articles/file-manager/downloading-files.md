@@ -1,5 +1,7 @@
 ---
 title: Downloading Files
+author: Alexey Kazakov
+legacyId: 11345
 ---
 # Downloading Files
 To download files from the **File Manager**, do the following.

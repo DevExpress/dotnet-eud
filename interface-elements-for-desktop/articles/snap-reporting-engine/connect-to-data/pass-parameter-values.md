@@ -1,5 +1,7 @@
 ---
 title: Pass Parameter Values
+author: Eugeniy Burmistrov
+legacyId: 17321
 ---
 # Pass Parameter Values
 This document describes the main concepts for using parameters in **Snap**, and provides examples of their use in various tasks.

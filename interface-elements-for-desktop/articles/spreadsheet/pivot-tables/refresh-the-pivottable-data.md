@@ -1,5 +1,7 @@
 ---
 title: Refresh the PivotTable Data
+author: Polina Fedorova
+legacyId: 117892
 ---
 # Refresh the PivotTable Data
 You can update (refresh) the PivotTable data manually (while generating the report) or automatically (when you open the workbook with the pivot table). The steps below provide more detailed information about how to accomplish these tasks.

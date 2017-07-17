@@ -1,5 +1,7 @@
 ---
 title: Date Edit
+author: Svetlana Nikulina
+legacyId: 17902
 ---
 # Date Edit
 The **Date Edit** is used to specify a date and time.

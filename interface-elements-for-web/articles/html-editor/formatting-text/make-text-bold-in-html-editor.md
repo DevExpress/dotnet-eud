@@ -1,5 +1,7 @@
 ---
 title: Make Text Bold in HTML Editor
+author: Anna Kondratova
+legacyId: 4491
 ---
 # Make Text Bold in HTML Editor
 To apply bold formatting to a specific portion of the text, do the following:

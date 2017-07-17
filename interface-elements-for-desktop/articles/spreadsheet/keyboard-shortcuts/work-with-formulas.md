@@ -1,5 +1,7 @@
 ---
 title: Work with Formulas
+author: Natalya Senichkina
+legacyId: 15810
 ---
 # Work with Formulas
 The key combinations used to create formulas quickly are listed in the table below.

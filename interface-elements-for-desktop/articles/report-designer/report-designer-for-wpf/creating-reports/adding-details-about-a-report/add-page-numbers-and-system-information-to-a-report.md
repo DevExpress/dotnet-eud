@@ -1,5 +1,7 @@
 ---
 title: Add Page Numbers and System Information to a Report
+author: Anna Gubareva
+legacyId: 116379
 ---
 # Add Page Numbers and System Information to a Report
 This document describes how to insert _page numbers_ or other system information (e.g., _current date and time_, _user name_, etc.) into a report.

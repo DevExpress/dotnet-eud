@@ -1,5 +1,7 @@
 ---
 title: Gauge Scale
+author: Natalia Kazakova
+legacyId: 117536
 ---
 # Gauge Scale
 By default, the Gauge dashboard item automatically determines the range of the gauge scales based on the values they display.

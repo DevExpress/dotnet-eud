@@ -1,5 +1,7 @@
 ---
 title: Field List
+author: Anna Gubareva
+legacyId: 113890
 ---
 # Field List
 This document describes the **Field List** panel that enables you to explore and manage report data sources and parameters.

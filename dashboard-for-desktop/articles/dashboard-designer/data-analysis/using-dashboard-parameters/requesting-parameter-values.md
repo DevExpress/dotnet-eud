@@ -1,5 +1,7 @@
 ---
 title: Requesting Parameter Values
+author: Andrey Aksenov
+legacyId: 16524
 ---
 # Requesting Parameter Values
 The dashboard provides a built-in **Dashboard Parameters** dialog, which provides the capability to change dashboard parameter values. This dialog is created automatically, depending on the parameter type and visibility settings.

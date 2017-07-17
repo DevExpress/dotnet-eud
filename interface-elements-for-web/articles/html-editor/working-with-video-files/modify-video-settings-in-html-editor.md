@@ -1,5 +1,7 @@
 ---
 title: Modify Video Settings in HTML Editor
+author: Svetlana Nikulina
+legacyId: 17965
 ---
 # Modify Video Settings in HTML Editor
 To modify video element settings within editor content, do one of the following.

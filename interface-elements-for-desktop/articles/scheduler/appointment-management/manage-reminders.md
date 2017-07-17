@@ -1,5 +1,7 @@
 ---
 title: Manage Reminders
+author: Elena Dvoryadkina
+legacyId: 4192
 ---
 # Manage Reminders
 ## What is a Reminder?

@@ -1,5 +1,7 @@
 ---
 title: Switch Display Mode
+author: Anna Gubareva
+legacyId: 115386
 ---
 # Switch Display Mode
 You can switch between the Document Viewer's display modes by clicking the **Toggle Multipage Mode** ![web-designer-main-toolbar-multipage](../../../../images/img24556.png) button on the Viewer's toolbar.

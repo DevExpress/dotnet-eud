@@ -1,5 +1,7 @@
 ---
 title: Format Data
+author: Eugeniy Burmistrov
+legacyId: 17324
 ---
 # Format Data
 This document describes how to format dynamic textual data in a **Snap** document.

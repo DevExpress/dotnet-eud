@@ -1,5 +1,7 @@
 ---
 title: Providing Data
+author: Andrey Aksenov
+legacyId: 17940
 ---
 # Providing Data
 This topic describes how to bind filter elements to data using the **Dashboard Designer**.

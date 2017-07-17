@@ -1,5 +1,7 @@
 ---
 title: Examples of Using the Filter Editor
+author: Alexey Zolotarev
+legacyId: 4661
 ---
 # Examples of Using the Filter Editor
 The [Filter Editor](filter-data-via-the-filter-editor.md) allows you to filter data (display those records that meet specific requirements), by visually constructing filter criteria in a straightforward graphical form.

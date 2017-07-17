@@ -1,5 +1,7 @@
 ---
 title: Page Navigation
+author: Svetlana Nikulina
+legacyId: 115285
 ---
 # Page Navigation
 To switch between pages, use the CardView's pager:

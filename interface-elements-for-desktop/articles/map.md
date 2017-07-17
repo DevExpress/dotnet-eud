@@ -1,5 +1,7 @@
 ---
 title: Map
+author: Alexander Temnov
+legacyId: 16927
 ---
 # Map
 The section describes capabilities provided by the **Map** control. The following topics are available.

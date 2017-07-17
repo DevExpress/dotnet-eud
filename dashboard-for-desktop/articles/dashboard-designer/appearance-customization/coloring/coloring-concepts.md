@@ -1,5 +1,7 @@
 ---
 title: Coloring Concepts
+author: Andrey Aksenov
+legacyId: 17944
 ---
 # Coloring Concepts
 The Dashboard Designer provides you with the capability to color dashboard item elements by associating dimension values/measures and specified colors. You can choose whether to use a global color scheme to provide consistent colors for identical values or specify a local color scheme for each dashboard item.

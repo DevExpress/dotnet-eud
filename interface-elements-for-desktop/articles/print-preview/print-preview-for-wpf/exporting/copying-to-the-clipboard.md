@@ -1,5 +1,7 @@
 ---
 title: Copying to the Clipboard
+author: Anna Gubareva
+legacyId: 116498
 ---
 # Copying to the Clipboard
 Besides [exporting a document](exporting.md) to a third-party formatted file, you can copy a portion of the document content to the clipboard, and paste it into an editor compatible with one of the supported third-party formats.

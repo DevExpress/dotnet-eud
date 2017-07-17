@@ -1,5 +1,7 @@
 ---
 title: Insert a Calculated Field and Calculated Item
+author: Polina Fedorova
+legacyId: 117783
 ---
 # Insert a Calculated Field and Calculated Item
 If the predefined aggregation functions or the **Show Values As** calculation options do not meet your requirements, you can create your own formulas to calculate values in a PivotTable report by inserting [calculated fields](#calculatedfield) and [calculated items](#calculateditem).

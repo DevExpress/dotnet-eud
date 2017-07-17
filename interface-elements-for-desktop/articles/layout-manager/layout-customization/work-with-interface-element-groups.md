@@ -1,5 +1,7 @@
 ---
 title: Work with Interface Element Groups
+author: Alexey Zolotarev
+legacyId: 4668
 ---
 # Work with Interface Element Groups
 To perform layout customization, first invoke [Customization Mode](start-layout-customization.md). After customization has been completed, [exit](finish-layout-customization.md) customization mode.

@@ -1,5 +1,7 @@
 ---
 title: Fix Grid Rows
+author: Andrey Nadezhdin
+legacyId: 118053
 ---
 # Fix Grid Rows
 Some applications allow you to fix grid rows at the top or at the bottom of the grid. Fixed rows remain visible while the grid content is scrolled vertically.

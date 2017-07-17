@@ -1,5 +1,7 @@
 ---
 title: Providing Data
+author: Natalia Kazakova
+legacyId: 116573
 ---
 # Providing Data
 Topics in this section describe how to connect dashboards to data sources and work with the connected data.

@@ -1,5 +1,7 @@
 ---
 title: Ribbon Interface
+author: Boris Zaitsev
+legacyId: 11909
 ---
 # Ribbon Interface
 A scheduler can be accompanied by a set of of Ribbon tabbed pages that provide you with a comprehensive functionality to perform basic operations in a scheduler ([navigate through dates](../selection-and-navigation/navigate-dates-in-the-scheduler.md), [change active view](../layout-customization/switch-scheduler-views.md), [create](../appointment-management/create-appointments.md), [edit](../appointment-management/edit-appointments.md) and [delete appointments](../appointment-management/delete-appointments.md), [select a type for grouping scheduler data](../layout-customization/scheduler-grouping.md), etc.) via a Ribbon interface. Ribbon pages are structurally and visually split into logical groups. Each of these groups includes commands that have certain common features.

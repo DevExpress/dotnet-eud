@@ -1,5 +1,7 @@
 ---
 title: Choose a Report Style
+author: Anna Gubareva
+legacyId: 116236
 ---
 # Choose a Report Style
 On this wizard page, you can specify one of the predefined visual styles for the report.

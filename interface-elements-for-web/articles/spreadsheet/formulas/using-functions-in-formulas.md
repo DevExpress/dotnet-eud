@@ -1,5 +1,7 @@
 ---
 title: Using Functions in Formulas
+author: Anna Kondratova
+legacyId: 18244
 ---
 # Using Functions in Formulas
 The **Spreadsheet** provides the capability to use a set of predefined **functions** in formulas to perform simple or complex calculations.

@@ -1,5 +1,7 @@
 ---
 title: Report Designer for WinForms
+author: Eugeniy Burmistrov
+legacyId: 4848
 ---
 # Report Designer for WinForms
 This guide contains information about the basic principles of creating reports with Report Designer.

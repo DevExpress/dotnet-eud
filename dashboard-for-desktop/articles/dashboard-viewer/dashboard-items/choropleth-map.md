@@ -1,5 +1,7 @@
 ---
 title: Choropleth Map
+author: Andrey Aksenov
+legacyId: 16693
 ---
 # Choropleth Map
 The topics in this section describe the **Choropleth Map** dashboard item, which colorizes the required areas in proportion to the provided values.

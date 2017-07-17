@@ -1,5 +1,7 @@
 ---
 title: Count the Number of Records in a Report or a Group
+author: Eugeniy Burmistrov
+legacyId: 5125
 ---
 # Count the Number of Records in a Report or a Group
 This tutorial describes how to count the number of records in a report or a group. To demonstrate this feature, we'll use a report with grouping, similar the one created in the following tutorial: [Change or Apply Data Grouping to a Report](../../report-editing-basics/change-or-apply-data-grouping-to-a-report.md).

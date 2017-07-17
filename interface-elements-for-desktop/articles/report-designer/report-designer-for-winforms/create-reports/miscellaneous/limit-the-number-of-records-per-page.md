@@ -1,5 +1,7 @@
 ---
 title: Limit the Number of Records per Page
+author: Eugeniy Burmistrov
+legacyId: 5339
 ---
 # Limit the Number of Records per Page
 This tutorial demonstrates how to define how many records should be displayed at each page in a report's Print Preview. Note that no [scripts](handle-events-via-scripts.md) are required to accomplish this task.

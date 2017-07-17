@@ -1,5 +1,7 @@
 ---
 title: Numbered Lists
+author: Elena Dvoryadkina
+legacyId: 7457
 ---
 # Numbered Lists
 ## Create a Numbered List as You Type

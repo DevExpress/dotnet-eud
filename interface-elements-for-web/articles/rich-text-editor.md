@@ -1,5 +1,7 @@
 ---
 title: Rich Text Editor
+author: Anna Kondratova
+legacyId: 113794
 ---
 # Rich Text Editor
 This section describes the capabilities provided by the **Rich Text Editor**.

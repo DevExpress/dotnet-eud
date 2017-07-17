@@ -1,5 +1,7 @@
 ---
 title: Connecting to OLAP cubes
+author: Andrey Aksenov
+legacyId: 114166
 ---
 # Connecting to OLAP cubes
 The Dashboard Designer provides the capability to connect to an OLAP cube in the Microsoft Analysis Services database using the **Data Source** wizard.

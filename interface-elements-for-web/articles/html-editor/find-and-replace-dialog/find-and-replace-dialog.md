@@ -1,5 +1,7 @@
 ---
 title: Find and Replace Dialog
+author: Svetlana Nikulina
+legacyId: 7835
 ---
 # Find and Replace Dialog
 The **Find and Replace dialog** allows you to search text, navigate through search results and replace them.

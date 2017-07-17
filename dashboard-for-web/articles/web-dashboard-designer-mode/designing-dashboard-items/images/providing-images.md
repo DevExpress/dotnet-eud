@@ -1,5 +1,7 @@
 ---
 title: Providing Images
+author: Natalia Kazakova
+legacyId: 117568
 ---
 # Providing Images
 This topic describes how to provide images for the **Image** and **Bound Image** dashboard items.

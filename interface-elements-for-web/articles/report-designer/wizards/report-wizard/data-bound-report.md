@@ -1,5 +1,7 @@
 ---
 title: Data-bound Report
+author: Anna Gubareva
+legacyId: 116174
 ---
 # Data-bound Report
 Selecting this option on the [Choose a Report Type](choose-a-report-type.md) wizard page will proceed to the Report Wizard that enables you to select the data to display in a report and define the report layout.

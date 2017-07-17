@@ -1,5 +1,7 @@
 ---
 title: Field List Overview
+author: Andrey Aksenov
+legacyId: 9661
 ---
 # Field List Overview
 Pivot Table provides a Field List form used to reorder and hide fields, sort and filter data, etc. For more information on how to invoke a Field List, see [Invoke a Field List](field-list/invoke-a-field-list.md).

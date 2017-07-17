@@ -1,5 +1,7 @@
 ---
 title: Add, Change or Delete a Text Box Fill
+author: Dmitry Platonov
+legacyId: 118853
 ---
 # Add, Change or Delete a Text Box Fill
 You can fill the floating text box with a specified color or delete the filling

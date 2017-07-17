@@ -1,5 +1,7 @@
 ---
 title: Modify a Pivot Table
+author: Polina Fedorova
+legacyId: 117804
 ---
 # Modify a Pivot Table
 The following topic describes how to modify the existing pivot table. Select the task you wish to perform.

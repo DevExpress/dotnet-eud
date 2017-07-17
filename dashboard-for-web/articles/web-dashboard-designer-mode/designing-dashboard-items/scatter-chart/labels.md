@@ -1,5 +1,7 @@
 ---
 title: Labels
+author: Natalia Kazakova
+legacyId: 117988
 ---
 # Labels
 The Scatter Chart can display **point labels** that contain descriptions for data points, and provide **tooltips** with additional information.

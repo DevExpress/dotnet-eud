@@ -1,5 +1,7 @@
 ---
 title: Editing Values, Selecting Text and Using the Clipboard
+author: Svetlana Nikulina
+legacyId: 5455
 ---
 # Editing Values, Selecting Text and Using the Clipboard
 ## Select and Deselect Editor's Contents

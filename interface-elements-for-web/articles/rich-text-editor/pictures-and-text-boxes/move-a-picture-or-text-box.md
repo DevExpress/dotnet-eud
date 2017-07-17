@@ -1,5 +1,7 @@
 ---
 title: Move a Picture or Text Box
+author: Anna Kondratova
+legacyId: 113839
 ---
 # Move a Picture or Text Box
 ## Move a Picture or Text Box

@@ -1,5 +1,7 @@
 ---
 title: Underline Text in HTML Editor
+author: Anna Kondratova
+legacyId: 4498
 ---
 # Underline Text in HTML Editor
 To apply underlined formatting to a specific portion of the text, do the following:

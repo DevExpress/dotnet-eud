@@ -1,5 +1,7 @@
 ---
 title: Navigation inside Worksheets
+author: Natalya Senichkina
+legacyId: 15805
 ---
 # Navigation inside Worksheets
 The key combinations that allow you to navigate through a worksheet are listed in the table below.

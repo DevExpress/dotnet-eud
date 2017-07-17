@@ -1,5 +1,7 @@
 ---
 title: Editing Values, Selecting Text and Using the Clipboard
+author: Andrey Nadezhdin
+legacyId: 4711
 ---
 # Editing Values, Selecting Text and Using the Clipboard
 ## Select and Deselect Editor's Contents

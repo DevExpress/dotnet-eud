@@ -1,5 +1,7 @@
 ---
 title: Page Navigation
+author: Anna Kondratova
+legacyId: 118063
 ---
 # Page Navigation
 To switch between pages, use the Vertical Grid's Pager.

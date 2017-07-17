@@ -1,5 +1,7 @@
 ---
 title: Dashboard Title
+author: Andrey Aksenov
+legacyId: 16516
 ---
 # Dashboard Title
 The **Dashboard Title** is located at the top of the dashboard surface. It can contain text or image content.

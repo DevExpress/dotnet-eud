@@ -1,5 +1,7 @@
 ---
 title: Expression Editor
+author: Anna Gubareva
+legacyId: 114518
 ---
 # Expression Editor
 The **Expression Editor** provides the capability for constructing expressions in the [Web Report Designer](../../report-designer.md).

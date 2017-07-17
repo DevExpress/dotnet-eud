@@ -1,5 +1,7 @@
 ---
 title: Data Items Pane
+author: Andrey Aksenov
+legacyId: 17253
 ---
 # Data Items Pane
 The **DATA ITEMS** pane is placed side-by-side with the [Data Source Browser](data-source-browser.md), and allows you to create and modify data binding using drag-and-drop operations.

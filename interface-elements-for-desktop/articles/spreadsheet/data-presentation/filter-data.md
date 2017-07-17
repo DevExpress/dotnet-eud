@@ -1,5 +1,7 @@
 ---
 title: Filter Data
+author: Natalya Senichkina
+legacyId: 17910
 ---
 # Filter Data
 The **Spreadsheet** allows you to use the AutoFilter to arrange large amounts of data by displaying only rows that meet the filtering criteria.

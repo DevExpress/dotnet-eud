@@ -1,5 +1,7 @@
 ---
 title: Sparkline
+author: Andrey Aksenov
+legacyId: 118004
 ---
 # Sparkline
 _Sparklines_ can be used to visualize the variation of [actual or target](providing-data.md) values (for instance, over time).

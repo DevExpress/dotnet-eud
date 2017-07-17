@@ -1,5 +1,7 @@
 ---
 title: Data Explorer
+author: Eugeniy Burmistrov
+legacyId: 17315
 ---
 # Data Explorer
 This topic describes how to use the **Data Explorer** in Snap.

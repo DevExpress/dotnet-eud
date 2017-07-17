@@ -1,5 +1,7 @@
 ---
 title: Filter Editor
+author: Anna Gubareva
+legacyId: 114520
 ---
 # Filter Editor
 The **Filter Editor** provides a visual interface for constructing filter criteria of any complexity with an unlimited number of filter conditions combined by logical operators.

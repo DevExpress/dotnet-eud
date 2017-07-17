@@ -1,5 +1,7 @@
 ---
 title: Expression
+author: Andrey Aksenov
+legacyId: 114398
 ---
 # Expression
 An Expression format condition allows you to use complex conditions to apply formatting.

@@ -1,5 +1,7 @@
 ---
 title: Choose a Data Connection
+author: Anna Gubareva
+legacyId: 117820
 ---
 # Choose a Data Connection
 On this wizard page, you are required to select a data connection that provides necessary information to connect to a database.

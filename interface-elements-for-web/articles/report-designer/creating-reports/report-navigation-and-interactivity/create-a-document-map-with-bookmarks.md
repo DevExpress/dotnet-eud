@@ -1,5 +1,7 @@
 ---
 title: Create a Document Map with Bookmarks
+author: Anya Vekhina
+legacyId: 114743
 ---
 # Create a Document Map with Bookmarks
 This document describes the steps to create a report with _bookmarks_ (a so-called _Document Map_). This feature allows you to easily navigate through the report during [Print Preview](../../document-preview.md).

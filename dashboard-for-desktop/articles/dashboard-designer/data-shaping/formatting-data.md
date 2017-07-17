@@ -1,5 +1,7 @@
 ---
 title: Formatting Data
+author: Andrey Aksenov
+legacyId: 16534
 ---
 # Formatting Data
 Dashboard allows you to customize various data format settings for numeric and date-time values.

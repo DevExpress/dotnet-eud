@@ -1,5 +1,7 @@
 ---
 title: Paragraph Styling in HTML Editor
+author: Anna Kondratova
+legacyId: 4548
 ---
 # Paragraph Styling in HTML Editor
 The Paragraph style dropdown editor makes formatting the editor's content easier. To apply a style, do the following.

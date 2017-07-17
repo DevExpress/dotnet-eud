@@ -1,5 +1,7 @@
 ---
 title: Binding a Report to Data
+author: Anna Gubareva
+legacyId: 5044
 ---
 # Binding a Report to Data
 The Report Designer is primarily designed to work with _data-aware reports_, meaning that a report obtains its general (_dynamic_) data from an external _data source_.

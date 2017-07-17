@@ -1,5 +1,7 @@
 ---
 title: Create a Worksheet
+author: Natalya Senichkina
+legacyId: 15751
 ---
 # Create a Worksheet
 To create a new worksheet within the current workbook, do one of the following.

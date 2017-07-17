@@ -1,5 +1,7 @@
 ---
 title: Conditionally Change a Control's Appearance
+author: Anna Gubareva
+legacyId: 116338
 ---
 # Conditionally Change a Control's Appearance
 This tutorial describes how to conditionally change a control's appearance (e.g., make a [Label](../../report-elements/report-controls.md)'s text red if its value exceeds a certain threshold). Thanks to the _formatting rules_ feature, no [scripts](../scripting.md) are required to complete this task, so you should not have to write any code.

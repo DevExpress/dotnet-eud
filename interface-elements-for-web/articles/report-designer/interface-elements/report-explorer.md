@@ -1,5 +1,7 @@
 ---
 title: Report Explorer
+author: Anna Gubareva
+legacyId: 114789
 ---
 # Report Explorer
 This document describes the **Report Explorer** panel that shows a report's structure providing quick access to report elements, styles and formatting rules.

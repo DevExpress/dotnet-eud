@@ -1,5 +1,7 @@
 ---
 title: Delete Report Elements
+author: Eugeniy Burmistrov
+legacyId: 5575
 ---
 # Delete Report Elements
 To delete a report element ([band](../report-designer-reference/report-bands.md) or [control](../report-designer-reference/report-controls.md)), select it in the [Design Panel](../report-designer-reference/report-designer-ui/design-panel.md) or [Report Explorer](../report-designer-reference/report-designer-ui/report-explorer.md) (to select multiple elements, hold down SHIFT while selecting), and then do one of the following.

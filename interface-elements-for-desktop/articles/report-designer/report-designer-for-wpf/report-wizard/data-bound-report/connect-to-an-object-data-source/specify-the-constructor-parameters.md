@@ -1,5 +1,7 @@
 ---
 title: Specify the Constructor Parameters
+author: Anna Gubareva
+legacyId: 116245
 ---
 # Specify the Constructor Parameters
 On this wizard page, you can specify the constructor parameters.

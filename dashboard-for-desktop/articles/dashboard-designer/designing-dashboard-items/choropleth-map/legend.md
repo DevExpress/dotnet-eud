@@ -1,5 +1,7 @@
 ---
 title: Legend
+author: Andrey Aksenov
+legacyId: 16611
 ---
 # Legend
 A legend is an element of a map that shows values corresponding to each [color](map-coloring.md).

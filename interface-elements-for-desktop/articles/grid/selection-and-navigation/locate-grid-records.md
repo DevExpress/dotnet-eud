@@ -1,5 +1,7 @@
 ---
 title: Locate Grid Records
+author: Alexey Zolotarev
+legacyId: 4577
 ---
 # Locate Grid Records
 In Grid Views, you can locate a data row by typing the initial characters of the values contained in this row.

@@ -1,5 +1,7 @@
 ---
 title: Sizing and Full-Screen Mode
+author: Svetlana Nikulina
+legacyId: 9352
 ---
 # Sizing and Full-Screen Mode
 * To resize an HTML Editor place the mouse pointer over the size grip, press the left mouse button and drag the editor's scope to the required size.

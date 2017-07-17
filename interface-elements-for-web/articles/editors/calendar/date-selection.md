@@ -1,5 +1,7 @@
 ---
 title: Date Selection
+author: Svetlana Nikulina
+legacyId: 16842
 ---
 # Date Selection
 Click a date to select it in the calendar. To select today's date, click the **Today** button. To clear the selection, click the **Clear** button.

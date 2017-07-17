@@ -1,5 +1,7 @@
 ---
 title: Save a Report
+author: Eugeniy Burmistrov
+legacyId: 15585
 ---
 # Save a Report
 To save a report to a file, click the **Save** button on the **File** tab of the Snap application's ribbon toolbar.

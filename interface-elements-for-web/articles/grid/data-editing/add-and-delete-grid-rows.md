@@ -1,5 +1,7 @@
 ---
 title: Add and Delete Grid Rows
+author: Bogdan Harchenko
+legacyId: 4138
 ---
 # Add and Delete Grid Rows
 ## Add a Record

@@ -1,5 +1,7 @@
 ---
 title: Chart with Dynamic Series
+author: Anna Gubareva
+legacyId: 114585
 ---
 # Chart with Dynamic Series
 This document describes how to create a report with a [Chart control](../report-elements/report-controls.md) bound to data so that all series are automatically created based on a common template, which specifies universal options for all series.

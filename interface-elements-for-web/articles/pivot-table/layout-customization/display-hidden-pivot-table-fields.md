@@ -1,5 +1,7 @@
 ---
 title: Display Hidden Pivot Table Fields
+author: Andrey Aksenov
+legacyId: 11066
 ---
 # Display Hidden Pivot Table Fields
 To display hidden fields, use a simple or advanced Field List  (to learn more about Field Lists, see [Field List Overview](../field-list-overview.md)).

@@ -1,5 +1,7 @@
 ---
 title: Supported Data Sources
+author: Andrey Aksenov
+legacyId: 17239
 ---
 # Supported Data Sources
 The Dashboard Designer allows you to establish a connection to various data sources such as SQL databases, Microsoft Excel workbooks, XML/CSV data files or OLAP cubes.

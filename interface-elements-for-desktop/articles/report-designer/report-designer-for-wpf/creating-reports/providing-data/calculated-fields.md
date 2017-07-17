@@ -1,5 +1,7 @@
 ---
 title: Calculated Fields
+author: Anna Gubareva
+legacyId: 116278
 ---
 # Calculated Fields
 This document demonstrates how to add a _calculated field_ to a report. The main purpose of calculated fields is to perform pre-calculations of virtually any level of complexity over data fields based on a specific expression.

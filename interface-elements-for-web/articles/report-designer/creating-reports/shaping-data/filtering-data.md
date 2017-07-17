@@ -1,5 +1,7 @@
 ---
 title: Filtering Data
+author: Anna Gubareva
+legacyId: 114689
 ---
 # Filtering Data
 If the data source [bound](../providing-data/bind-a-report-to-data.md) to your report contains far more data rows than are necessary for processing report creation, you can exclude excessive or undesired data. To accomplish this, construct a filtering expression, using single or multiple data fields.

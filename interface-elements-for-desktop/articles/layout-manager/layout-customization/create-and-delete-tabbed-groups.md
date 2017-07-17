@@ -1,5 +1,7 @@
 ---
 title: Create and Delete Tabbed Groups
+author: Alexey Zolotarev
+legacyId: 4670
 ---
 # Create and Delete Tabbed Groups
 To perform layout customization, first invoke [Customization Mode](start-layout-customization.md). After customization has been completed, [exit](finish-layout-customization.md) customization mode.

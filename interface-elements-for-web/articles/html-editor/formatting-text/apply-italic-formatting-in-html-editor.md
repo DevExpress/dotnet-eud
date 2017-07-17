@@ -1,5 +1,7 @@
 ---
 title: Apply Italic Formatting in HTML Editor
+author: Anna Kondratova
+legacyId: 4492
 ---
 # Apply Italic Formatting in HTML Editor
 To apply italic formatting to a specific portion of the text, do the following.

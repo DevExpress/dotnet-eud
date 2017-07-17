@@ -1,5 +1,7 @@
 ---
 title: Filter TreeList Data
+author: Anna Gubareva
+legacyId: 18065
 ---
 # Filter TreeList Data
 ## Invoking the Filter Dropdown List

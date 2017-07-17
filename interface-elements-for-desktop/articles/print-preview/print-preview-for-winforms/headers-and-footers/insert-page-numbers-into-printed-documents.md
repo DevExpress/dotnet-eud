@@ -1,5 +1,7 @@
 ---
 title: Insert Page Numbers into Printed Documents
+author: Eugeniy Burmistrov
+legacyId: 4308
 ---
 # Insert Page Numbers into Printed Documents
 To insert or remove page numbers from a document, first [invoke the Header and Footer dialog](insert-page-header-and-page-footer-into-printed-documents.md).

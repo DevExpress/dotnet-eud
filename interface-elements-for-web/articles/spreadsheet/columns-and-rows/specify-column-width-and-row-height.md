@@ -1,5 +1,7 @@
 ---
 title: Specify Column Width and Row Height
+author: Anna Kondratova
+legacyId: 18150
 ---
 # Specify Column Width and Row Height
 ## Set the column width

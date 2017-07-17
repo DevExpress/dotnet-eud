@@ -1,5 +1,7 @@
 ---
 title: File Upload Control
+author: Anna Kondratova
+legacyId: 4402
 ---
 # File Upload Control
 This section describes the capabilities provided by the File Upload element.

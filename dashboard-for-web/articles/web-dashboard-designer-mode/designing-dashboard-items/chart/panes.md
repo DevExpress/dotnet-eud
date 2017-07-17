@@ -1,5 +1,7 @@
 ---
 title: Panes
+author: Natalia Kazakova
+legacyId: 117977
 ---
 # Panes
 Panes are visual areas within a diagram that display chart series. The Chart dashboard item can contain any number of panes.

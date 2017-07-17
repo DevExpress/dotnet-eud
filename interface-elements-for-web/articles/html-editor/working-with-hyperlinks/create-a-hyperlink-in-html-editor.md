@@ -1,5 +1,7 @@
 ---
 title: Create a Hyperlink in HTML Editor
+author: Svetlana Nikulina
+legacyId: 4519
 ---
 # Create a Hyperlink in HTML Editor
 ## Add a Hyperlink

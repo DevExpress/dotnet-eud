@@ -1,5 +1,7 @@
 ---
 title: Create and Delete Report Elements
+author: Anna Gubareva
+legacyId: 116287
 ---
 # Create and Delete Report Elements
 This document describes how to add and delete [report controls](../../report-elements/report-controls.md) and [bands](../../report-elements/report-bands.md) in the Report Designer.

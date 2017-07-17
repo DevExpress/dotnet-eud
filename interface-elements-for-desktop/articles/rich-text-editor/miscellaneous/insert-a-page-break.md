@@ -1,5 +1,7 @@
 ---
 title: Insert a Page Break
+author: Elena Dvoryadkina
+legacyId: 8547
 ---
 # Insert a Page Break
 ## Insert Page Break

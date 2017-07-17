@@ -1,5 +1,7 @@
 ---
 title: Print Preview
+author: Andrey Aksenov
+legacyId: 17254
 ---
 # Print Preview
 This document describes the **Print Preview** window, which displays the dashboard/dashboard item as it will appear on paper.

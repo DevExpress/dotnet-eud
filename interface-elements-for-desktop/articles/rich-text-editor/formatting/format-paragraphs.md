@@ -1,5 +1,7 @@
 ---
 title: Format Paragraphs
+author: Elena Dvoryadkina
+legacyId: 7447
 ---
 # Format Paragraphs
 To format a paragraph, first click anywhere within it or [select](../text-editing/select-text.md) the paragraph, and then use the **Paragraph** page group on the **Home** [ tab](../text-editor-ui/ribbon-interface.md) to change line spacing, indentation, alignment and styles.

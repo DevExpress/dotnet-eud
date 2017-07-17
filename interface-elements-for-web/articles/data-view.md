@@ -1,5 +1,7 @@
 ---
 title: Data View
+author: Svetlana Nikulina
+legacyId: 16822
 ---
 # Data View
 The **Data View** displays data in a card or list-based view.

@@ -1,5 +1,7 @@
 ---
 title: Color Edit
+author: Svetlana Nikulina
+legacyId: 16835
 ---
 # Color Edit
 A **Color Edit** is used to specify a color. The editor displays the current color and its hexadecimal value.

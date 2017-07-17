@@ -1,5 +1,7 @@
 ---
 title: Saving a Dashboard
+author: Natalia Kazakova
+legacyId: 117715
 ---
 # Saving a Dashboard
 The Web Dashboard provides the capability to save a dashboard definition (dashboard items, data source, data binding and layout settings, etc.) to an XML definition. This can be accomplished in the following ways.

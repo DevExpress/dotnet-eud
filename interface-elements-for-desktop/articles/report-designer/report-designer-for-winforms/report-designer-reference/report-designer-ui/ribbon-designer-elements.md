@@ -1,5 +1,7 @@
 ---
 title: Ribbon Designer Elements
+author: Eugeniy Burmistrov
+legacyId: 10545
 ---
 # Ribbon Designer Elements
 This document describes elements that comprise the Ribbon Report Designer.

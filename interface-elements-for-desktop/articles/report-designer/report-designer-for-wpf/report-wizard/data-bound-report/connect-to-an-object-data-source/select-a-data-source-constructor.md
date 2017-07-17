@@ -1,5 +1,7 @@
 ---
 title: Select a Data Source Constructor
+author: Anna Gubareva
+legacyId: 116244
 ---
 # Select a Data Source Constructor
 On this wizard page, select a data source constructor to be used to create an instance of the data source.

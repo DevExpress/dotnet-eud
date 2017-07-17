@@ -1,5 +1,7 @@
 ---
 title: Keyboard Shortcuts
+author: Anna Kondratova
+legacyId: 113989
 ---
 # Keyboard Shortcuts
 The **Rich Text Editor** provides the capability to perform common commands quickly using keyboard shortcuts.

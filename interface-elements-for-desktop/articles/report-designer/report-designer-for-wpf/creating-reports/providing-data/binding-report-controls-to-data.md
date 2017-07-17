@@ -1,5 +1,7 @@
 ---
 title: Binding Report Controls to Data
+author: Anna Gubareva
+legacyId: 116275
 ---
 # Binding Report Controls to Data
 [Report controls](../../report-elements/report-controls.md) can either display static information or dynamic data obtained from the [bound data source](binding-a-report-to-data.md).

@@ -1,5 +1,7 @@
 ---
 title: Connect to an Existing Data Source
+author: Natalia Kazakova
+legacyId: 117960
 ---
 # Connect to an Existing Data Source
 The Web Dashboard allows you to connect a dashboard to one of the existing data sources or add these data sources to the dashboard's data sources collection.

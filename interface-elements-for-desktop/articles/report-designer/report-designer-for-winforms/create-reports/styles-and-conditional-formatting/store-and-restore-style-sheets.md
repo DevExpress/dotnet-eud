@@ -1,5 +1,7 @@
 ---
 title: Store and Restore Style Sheets
+author: Eugeniy Burmistrov
+legacyId: 5207
 ---
 # Store and Restore Style Sheets
 This tutorial describes how you can save a report's style sheet into an external file, and then load it back to the report.

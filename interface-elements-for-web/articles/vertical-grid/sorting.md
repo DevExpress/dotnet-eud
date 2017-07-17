@@ -1,5 +1,7 @@
 ---
 title: Sorting
+author: Anna Kondratova
+legacyId: 118062
 ---
 # Sorting
 * To sort data, click a row header. If sorting against this row hasn't been applied, the header click will apply sorting in ascending order. If sorting has already been applied, subsequent clicks reverse the current sort order.

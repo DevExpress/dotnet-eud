@@ -1,5 +1,7 @@
 ---
 title: Show Two or More Pages in Print Preview
+author: Eugeniy Burmistrov
+legacyId: 5539
 ---
 # Show Two or More Pages in Print Preview
 To preview two or more pages at one time, click the **Multiple Pages** ![previewButtonMultiplePages](../../../../images/img7278.png) button on the toolbar.

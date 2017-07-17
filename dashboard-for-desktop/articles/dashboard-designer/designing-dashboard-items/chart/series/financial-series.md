@@ -1,5 +1,7 @@
 ---
 title: Financial Series
+author: Andrey Aksenov
+legacyId: 16548
 ---
 # Financial Series
 Financial series are used to illustrate stock prices.

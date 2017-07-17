@@ -1,5 +1,7 @@
 ---
 title: Ribbon
+author: Alexey Zolotarev
+legacyId: 5546
 ---
 # Ribbon
 The Ribbon organizes commands into a tabbed interface, providing quick and intuitive access to these commands.

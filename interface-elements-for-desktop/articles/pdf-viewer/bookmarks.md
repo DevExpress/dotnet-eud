@@ -1,5 +1,7 @@
 ---
 title: Bookmarks
+author: Alexander Temnov
+legacyId: 115328
 ---
 # Bookmarks
 The document describes the PDF Viewer bookmarks capabilities and customization options on a navigation pane.

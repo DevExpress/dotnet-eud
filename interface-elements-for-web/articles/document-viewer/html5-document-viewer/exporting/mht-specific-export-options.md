@@ -1,5 +1,7 @@
 ---
 title: MHT-Specific Export Options
+author: Anna Gubareva
+legacyId: 115379
 ---
 # MHT-Specific Export Options
 Before [exporting a document](export-a-document.md) to MHT format, you can specify MHT-specific options in the dedicated **Export Options** panel.

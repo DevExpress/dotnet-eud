@@ -1,5 +1,7 @@
 ---
 title: Load a Document
+author: Elena Dvoryadkina
+legacyId: 7467
 ---
 # Load a Document
 To load a document, on the **File** tab, in the **Common** group, click the **Open** button, or use the **CTRL+O** keyboard shortcut.

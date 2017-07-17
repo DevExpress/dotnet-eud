@@ -1,5 +1,7 @@
 ---
 title: Main Toolbar
+author: Anya Vekhina
+legacyId: 113884
 ---
 # Main Toolbar
 The **Main Toolbar** provides quick access to the report editing commands in the [Web Report Designer](../../report-designer.md).

@@ -1,5 +1,7 @@
 ---
 title: Control Toolbox
+author: Anna Gubareva
+legacyId: 4984
 ---
 # Control Toolbox
 The **Control Toolbox** lists all available [controls](../report-controls.md) and allows you to add them to your report.

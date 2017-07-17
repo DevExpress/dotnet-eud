@@ -1,5 +1,7 @@
 ---
 title: Grid
+author: Andrey Aksenov
+legacyId: 16561
 ---
 # Grid
 The topics in this section describe the features available in the **Grid** dashboard item, and provide extensive information on how to create and customize grids in the **Dashboard Designer**.

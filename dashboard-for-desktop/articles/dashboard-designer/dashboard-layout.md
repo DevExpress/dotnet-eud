@@ -1,5 +1,7 @@
 ---
 title: Dashboard Layout
+author: Andrey Aksenov
+legacyId: 16518
 ---
 # Dashboard Layout
 This section describes the features related to the Dashboard layout.

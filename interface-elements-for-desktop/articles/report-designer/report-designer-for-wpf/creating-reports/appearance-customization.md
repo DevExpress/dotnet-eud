@@ -1,5 +1,7 @@
 ---
 title: Appearance Customization
+author: Anna Gubareva
+legacyId: 116334
 ---
 # Appearance Customization
 The topics in this section describe how to customize the appearance of a report or any of its elements using specific appearance options, visual styles and conditional formatting.

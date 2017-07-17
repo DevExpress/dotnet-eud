@@ -1,5 +1,7 @@
 ---
 title: Legend
+author: Andrey Aksenov
+legacyId: 115251
 ---
 # Legend
 A **legend** is an element of a scatter chart that identifies chart points (for instance, [colored points](../../appearance-customization/coloring/coloring-concepts.md) corresponding to argument values).

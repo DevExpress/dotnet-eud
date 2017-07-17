@@ -1,5 +1,7 @@
 ---
 title: Create a Table
+author: Natalya Senichkina
+legacyId: 16823
 ---
 # Create a Table
 The **Spreadsheet** allows you to insert a new table in a worksheet, or convert an existing range to a table.

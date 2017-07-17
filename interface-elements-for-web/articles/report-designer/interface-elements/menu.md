@@ -1,5 +1,7 @@
 ---
 title: Menu
+author: Yuri Shutov
+legacyId: 113889
 ---
 # Menu
 The [Web Report Designer](../../report-designer.md) menu is invoked by clicking the menu button in the upper-left corner of the designer's user interface.

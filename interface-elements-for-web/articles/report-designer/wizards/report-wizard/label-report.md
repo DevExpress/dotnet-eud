@@ -1,5 +1,7 @@
 ---
 title: Label Report
+author: Anna Gubareva
+legacyId: 116175
 ---
 # Label Report
 Selecting this option on the [Choose a Report Type](choose-a-report-type.md) wizard page will proceed to the Label Wizard that enables you to create labels of a required type.

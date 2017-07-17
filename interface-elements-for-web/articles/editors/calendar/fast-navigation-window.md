@@ -1,5 +1,7 @@
 ---
 title: Fast Navigation Window
+author: Svetlana Nikulina
+legacyId: 16841
 ---
 # Fast Navigation Window
 The **Fast Navigation** window allows you to easily select a month and year to be displayed in the calendar. To display the Fast Navigation window, click the calendar header text. To hide the window, click the **OK** or **Cancel** button, click outside the window, or press the **ESC** key.

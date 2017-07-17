@@ -1,5 +1,7 @@
 ---
 title: Dashboard for Desktop
+author: Andrey Aksenov
+legacyId: 15757
 ---
 # Dashboard for Desktop
 The **DevExpress Dashboard** is an interactive data visualization tool optimized for real-time data consumption and analysis. It includes the following components:

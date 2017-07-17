@@ -1,5 +1,7 @@
 ---
 title: Expand and Collapse Rows in Vertical Grids
+author: Alexey Zolotarev
+legacyId: 4677
 ---
 # Expand and Collapse Rows in Vertical Grids
 ## Expand and Collapse Data Rows

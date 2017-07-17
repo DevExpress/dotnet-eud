@@ -1,5 +1,7 @@
 ---
 title: Create an Appointment
+author: Elena Dvoryadkina
+legacyId: 4207
 ---
 # Create an Appointment
 To create a new appointment, click within the Scheduler time cell area to select cell(s). A smart tag will appear shortly:

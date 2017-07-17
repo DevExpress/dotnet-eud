@@ -1,5 +1,7 @@
 ---
 title: Choose Columns to Display in a Report
+author: Anna Gubareva
+legacyId: 116232
 ---
 # Choose Columns to Display in a Report
 This wizard page allows you to select fields (attributes) whose data will be displayed in a report.

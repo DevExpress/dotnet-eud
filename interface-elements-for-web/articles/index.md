@@ -1,5 +1,7 @@
 ---
 title: Interface Elements for Web
+author: Alexey Akimov
+legacyId: 5646
 ---
 # Interface Elements for Web
 This documentation provides information on individual User Interface Elements such as grids, navigation panes, data editors, etc. Each element can provide context menus, allow numerous mouse operations and support a number of keyboard shortcuts.

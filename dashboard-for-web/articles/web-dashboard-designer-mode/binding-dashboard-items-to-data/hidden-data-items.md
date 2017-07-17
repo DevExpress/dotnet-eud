@@ -1,5 +1,7 @@
 ---
 title: Hidden Data Items
+author: Natalia Kazakova
+legacyId: 117957
 ---
 # Hidden Data Items
 The **hidden data items** can be used to perform various data shaping and analysis operations by measures or dimensions that do not directly take part in the visual representation of data.

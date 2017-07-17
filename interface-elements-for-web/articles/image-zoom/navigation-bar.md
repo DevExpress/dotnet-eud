@@ -1,5 +1,7 @@
 ---
 title: Navigation Bar
+author: Svetlana Nikulina
+legacyId: 17397
 ---
 # Navigation Bar
 The **Navigation Bar** allows you to fast navigate between images. To change an image, click or move the pointer over a corresponding thumbnail.

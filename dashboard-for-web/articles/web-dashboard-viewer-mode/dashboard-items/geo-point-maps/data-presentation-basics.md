@@ -1,5 +1,7 @@
 ---
 title: Data Presentation Basics
+author: Andrey Aksenov
+legacyId: 16752
 ---
 # Data Presentation Basics
 The Web Dashboard supports three types of **Geo Point** maps.

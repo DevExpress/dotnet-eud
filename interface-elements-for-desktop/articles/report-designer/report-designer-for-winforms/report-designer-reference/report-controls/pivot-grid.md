@@ -1,5 +1,7 @@
 ---
 title: Pivot Grid
+author: Eugeniy Burmistrov
+legacyId: 5018
 ---
 # Pivot Grid
 The **Pivot Grid** control represents dynamic data (obtained from an underlying data source) in a cross-tabulated form to create [cross-tab reports](../../create-reports/report-types/cross-tab-report.md), similar to Pivot Tables in Microsoft Excel&#174;. Column headers display unique values from one data field, and row headers - from another field. Each cell displays a summary for the corresponding row and column values. By specifying different data fields, you can see different totals. This allows you to get a compact layout for a complex data analysis.

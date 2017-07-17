@@ -1,5 +1,7 @@
 ---
 title: Multiple File Selection
+author: Svetlana Nikulina
+legacyId: 16820
 ---
 # Multiple File Selection
 **File Manager** allows you to choose multiple files and perform actions on them simultaneously.

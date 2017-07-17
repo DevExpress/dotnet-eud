@@ -1,5 +1,7 @@
 ---
 title: Dashboard Item Menu
+author: Natalia Kazakova
+legacyId: 117734
 ---
 # Dashboard Item Menu
 The **dashboard item menu** allows you to configure a dashboard item. This menu provides interface to supply a dashboard item with data, specify interactivity settings, etc. To invoke this menu, click the required dashboard item.

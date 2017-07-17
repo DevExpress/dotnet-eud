@@ -1,5 +1,7 @@
 ---
 title: Select a Worksheet, Table or Named Region
+author: Anna Gubareva
+legacyId: 116249
 ---
 # Select a Worksheet, Table or Named Region
 > This wizard page appears only if you selected a Microsoft Excel Workbook on the previous page.

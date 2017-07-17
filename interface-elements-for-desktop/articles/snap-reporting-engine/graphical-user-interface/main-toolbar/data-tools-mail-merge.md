@@ -1,5 +1,7 @@
 ---
 title: 'Data Tools: Mail Merge'
+author: Eugeniy Burmistrov
+legacyId: 17345
 ---
 # Data Tools: Mail Merge
 The commands available in the **Mail Merge** section of the **Data Tools** toolbar are divided into the following categories.

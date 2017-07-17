@@ -1,5 +1,7 @@
 ---
 title: Report Designer Elements
+author: Anna Gubareva
+legacyId: 4840
 ---
 # Report Designer Elements
 This document describes elements that comprise the Report Designer that is intended for creating and editing reports.

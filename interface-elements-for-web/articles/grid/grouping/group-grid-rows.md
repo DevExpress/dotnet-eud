@@ -1,5 +1,7 @@
 ---
 title: Group Grid Rows
+author: Bogdan Harchenko
+legacyId: 4145
 ---
 # Group Grid Rows
 * To group data, drag a column header from the column header panel to the group panel.

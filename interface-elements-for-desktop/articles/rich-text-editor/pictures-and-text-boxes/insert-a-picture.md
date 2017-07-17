@@ -1,5 +1,7 @@
 ---
 title: Insert a Picture
+author: Boris Zaitsev
+legacyId: 8550
 ---
 # Insert a Picture
 You can insert either [inline](#inlinepicture) or [floating](#floatingpicture) graphics in the document. Currently it is not possible to convert inline to floating and vice versa, so you have to choose beforehand how to anchor your picture.

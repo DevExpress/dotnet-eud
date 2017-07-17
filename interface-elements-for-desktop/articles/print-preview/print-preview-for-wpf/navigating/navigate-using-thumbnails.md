@@ -1,5 +1,7 @@
 ---
 title: Navigate Using Thumbnails
+author: Anna Gubareva
+legacyId: 117811
 ---
 # Navigate Using Thumbnails
 You can use thumbnails to quickly navigate between document pages.

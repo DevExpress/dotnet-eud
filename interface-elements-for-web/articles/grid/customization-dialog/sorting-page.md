@@ -1,5 +1,7 @@
 ---
 title: Sorting Page
+author: Anna Kondratova
+legacyId: 118811
 ---
 # Sorting Page
 Select a column from the "Columns to Sort" list to sort grid data against this column in ascending order. The grid can be sorted more than by one column, and a list of the sorted columns is displayed at the top of the **Sorting** page.

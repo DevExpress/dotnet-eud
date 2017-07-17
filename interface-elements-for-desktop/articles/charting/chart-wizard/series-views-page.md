@@ -1,5 +1,7 @@
 ---
 title: Series Views Page
+author: Alexander Temnov
+legacyId: 4162
 ---
 # Series Views Page
 ## Tasks

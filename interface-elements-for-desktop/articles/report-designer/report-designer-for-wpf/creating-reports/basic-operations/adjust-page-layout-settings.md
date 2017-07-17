@@ -1,5 +1,7 @@
 ---
 title: Adjust Page Layout Settings
+author: Anna Gubareva
+legacyId: 116290
 ---
 # Adjust Page Layout Settings
 In the Report Designer, page settings of a report can be specified in one of two ways. The first approach forces the default printer settings to be used when the report is printed, while the other one enables you to alter page settings independently.

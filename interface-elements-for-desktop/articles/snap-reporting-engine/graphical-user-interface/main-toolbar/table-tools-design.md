@@ -1,5 +1,7 @@
 ---
 title: 'Table Tools: Design'
+author: Eugeniy Burmistrov
+legacyId: 17333
 ---
 # Table Tools: Design
 This toolbar is context sensitive, and becomes active after placing the text cursor in a document table.

@@ -1,5 +1,7 @@
 ---
 title: Print Documents
+author: Alexander Temnov
+legacyId: 17453
 ---
 # Print Documents
 To print the current document, click the **Print** command located on the **File** toolbar button group, or press **CTRL**+**P**.

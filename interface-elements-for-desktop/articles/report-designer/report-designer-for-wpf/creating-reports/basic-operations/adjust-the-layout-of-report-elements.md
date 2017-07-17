@@ -1,5 +1,7 @@
 ---
 title: Adjust the Layout of Report Elements
+author: Anna Gubareva
+legacyId: 116289
 ---
 # Adjust the Layout of Report Elements
 This document describes how to customize the [report elements](../../report-elements.md) layout and consists of the following sections.

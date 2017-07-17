@@ -1,5 +1,7 @@
 ---
 title: Search Panel
+author: Svetlana Nikulina
+legacyId: 17897
 ---
 # Search Panel
 To filter data and highlight search results, type a filter criterion in the search panel.

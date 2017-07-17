@@ -1,5 +1,7 @@
 ---
 title: Layout
+author: Andrey Aksenov
+legacyId: 117550
 ---
 # Layout
 This topic describes how to control the Pivot dashboard item layout, the visibility of totals and grand totals, etc.

@@ -1,5 +1,7 @@
 ---
 title: Totals
+author: Andrey Aksenov
+legacyId: 17423
 ---
 # Totals
 The Grid dashboard item enables you to add a summary value (a **total**) calculated against displayed values of an individual column, and show the result under this column. Note that you can add any number of totals for each column. For example, you can obtain the number of column records, average or maximum value, etc.

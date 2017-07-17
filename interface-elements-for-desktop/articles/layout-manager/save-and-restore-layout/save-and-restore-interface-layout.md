@@ -1,5 +1,7 @@
 ---
 title: Save and Restore Interface Layout
+author: Alexey Zolotarev
+legacyId: 4675
 ---
 # Save and Restore Interface Layout
 You can save the current layout of controls to an XML file, and subsequently, restore it.

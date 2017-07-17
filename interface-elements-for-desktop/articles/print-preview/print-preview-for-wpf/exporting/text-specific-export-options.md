@@ -1,5 +1,7 @@
 ---
 title: Text-Specific Export Options
+author: Anna Gubareva
+legacyId: 116642
 ---
 # Text-Specific Export Options
 When [exporting a document](exporting.md), you can define the following TXT-specific exporting options.

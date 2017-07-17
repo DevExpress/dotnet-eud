@@ -1,5 +1,7 @@
 ---
 title: Parameters Panel
+author: Anna Gubareva
+legacyId: 116449
 ---
 # Parameters Panel
 The **Parameters** panel allows you to specify [report parameters](../creating-reports/providing-data/report-parameters.md) before generating a report preview.

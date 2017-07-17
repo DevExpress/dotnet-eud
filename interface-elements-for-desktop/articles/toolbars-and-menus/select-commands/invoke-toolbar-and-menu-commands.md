@@ -1,5 +1,7 @@
 ---
 title: Invoke Toolbar and Menu Commands
+author: Alexey Zolotarev
+legacyId: 5544
 ---
 # Invoke Toolbar and Menu Commands
 To invoke a specific bar or menu command, do one of the following:

@@ -1,5 +1,7 @@
 ---
 title: Format Cells
+author: Anna Kondratova
+legacyId: 18142
 ---
 # Format Cells
 The **Spreadsheet** provides the capability to format cells and the data they contain.

@@ -1,5 +1,7 @@
 ---
 title: CSV-Specific Export Options
+author: Anna Gubareva
+legacyId: 115376
 ---
 # CSV-Specific Export Options
 Before [exporting a document](export-a-document.md) to CSV format, you can specify CSV-specific options in the dedicated **Export Options** panel.

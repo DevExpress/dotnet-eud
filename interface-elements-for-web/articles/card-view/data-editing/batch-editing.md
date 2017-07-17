@@ -1,5 +1,7 @@
 ---
 title: Batch Editing
+author: Svetlana Nikulina
+legacyId: 115283
 ---
 # Batch Editing
 The **Card View** allows you to edit a group of records (on a single page) and save these changes with one click. In this view, you can create new cards, delete existing cards and edit individual cell values.

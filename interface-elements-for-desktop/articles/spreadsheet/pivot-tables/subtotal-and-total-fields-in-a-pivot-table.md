@@ -1,5 +1,7 @@
 ---
 title: Subtotal and Total Fields in a Pivot Table
+author: Polina Fedorova
+legacyId: 117873
 ---
 # Subtotal and Total Fields in a Pivot Table
 The following topic describes how to manage the [subtotals](#subtotals) and [grand totals](#grandtotals) in a pivot table.

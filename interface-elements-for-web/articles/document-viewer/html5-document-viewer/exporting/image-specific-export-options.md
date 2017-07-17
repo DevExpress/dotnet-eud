@@ -1,5 +1,7 @@
 ---
 title: Image-Specific Export Options
+author: Anna Gubareva
+legacyId: 115378
 ---
 # Image-Specific Export Options
 Before [exporting a document](export-a-document.md) to an image, you can specify Image-specific options in the dedicated **Export Options** panel.

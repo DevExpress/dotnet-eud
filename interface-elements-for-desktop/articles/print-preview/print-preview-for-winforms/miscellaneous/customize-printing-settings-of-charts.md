@@ -1,5 +1,7 @@
 ---
 title: Customize Printing Settings of Charts
+author: Eugeniy Burmistrov
+legacyId: 4337
 ---
 # Customize Printing Settings of Charts
 If allowed by your application vendor, you can customize additional print settings of a document. For example, if you are about to print out a chart, you may be able to customize the chart's printing options.

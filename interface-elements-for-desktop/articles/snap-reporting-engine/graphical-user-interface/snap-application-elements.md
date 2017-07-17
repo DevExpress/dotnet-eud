@@ -1,5 +1,7 @@
 ---
 title: Snap Application Elements
+author: Eugeniy Burmistrov
+legacyId: 17318
 ---
 # Snap Application Elements
 The topics in this section describe the main elements that make up the user interface of a Snap application.

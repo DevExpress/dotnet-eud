@@ -1,5 +1,7 @@
 ---
 title: Preview Toolbar
+author: Anya Vekhina
+legacyId: 114531
 ---
 # Preview Toolbar
 The **Preview Toolbar** provides quick access to the commands related to report viewing and publishing.

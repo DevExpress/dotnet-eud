@@ -1,5 +1,7 @@
 ---
 title: Configure Query Parameters
+author: Anna Gubareva
+legacyId: 117826
 ---
 # Configure Query Parameters
 This page is displayed if any query parameters were created on the [previous wizard page](create-a-query-or-select-a-stored-procedure.md).

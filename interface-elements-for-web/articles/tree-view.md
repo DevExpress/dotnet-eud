@@ -1,5 +1,7 @@
 ---
 title: Tree View
+author: Svetlana Nikulina
+legacyId: 9347
 ---
 # Tree View
 **Tree View** is used to represent hierarchical data as a tree.

@@ -1,5 +1,7 @@
 ---
 title: Hide Gridlines and Headings
+author: Natalya Senichkina
+legacyId: 15781
 ---
 # Hide Gridlines and Headings
 The **Spreadsheet** allows you to hide gridlines and headings that are displayed on a worksheet by default.

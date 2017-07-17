@@ -1,5 +1,7 @@
 ---
 title: Supported Functions
+author: Natalya Senichkina
+legacyId: 15760
 ---
 # Supported Functions
 The **Spreadsheet** supports the following functions to be used in formulas.

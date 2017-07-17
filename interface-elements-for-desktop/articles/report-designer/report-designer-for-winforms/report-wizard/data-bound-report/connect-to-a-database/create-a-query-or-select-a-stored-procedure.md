@@ -1,5 +1,7 @@
 ---
 title: Create a Query or Select a Stored Procedure
+author: Anna Gubareva
+legacyId: 5070
 ---
 # Create a Query or Select a Stored Procedure
 > This wizard step appears only if you're creating a new report from scratch. In this instance, familiarity with database connections is required, so we recommend that you contact your application administrator or vendor for assistance. If you're modifying an existing report, this step will not appear and you will start with the [Choose Columns to Display in Your Report](../choose-columns-to-display-in-your-report.md) wizard page.

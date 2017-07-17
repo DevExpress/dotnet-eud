@@ -1,5 +1,7 @@
 ---
 title: Y-Axis
+author: Andrey Aksenov
+legacyId: 16558
 ---
 # Y-Axis
 The **Y-axis** is the numerical axis of values.

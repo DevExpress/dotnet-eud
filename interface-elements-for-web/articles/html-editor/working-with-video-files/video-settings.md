@@ -1,5 +1,7 @@
 ---
 title: Video Settings
+author: Svetlana Nikulina
+legacyId: 17997
 ---
 # Video Settings
 When you [insert](insert-a-video-into-html-editor.md) or [modify](modify-video-settings-in-html-editor.md) video in an HTML Editor, you can customize the video player settings as well.

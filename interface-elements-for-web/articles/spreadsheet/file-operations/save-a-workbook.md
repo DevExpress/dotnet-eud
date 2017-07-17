@@ -1,5 +1,7 @@
 ---
 title: Save a Workbook
+author: Anna Kondratova
+legacyId: 18105
 ---
 # Save a Workbook
 To save a workbook, go to the **File** tab, and then click the **Save as** button in the **Common** group.

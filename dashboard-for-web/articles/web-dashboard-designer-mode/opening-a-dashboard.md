@@ -1,5 +1,7 @@
 ---
 title: Opening a Dashboard
+author: Natalia Kazakova
+legacyId: 117954
 ---
 # Opening a Dashboard
 To open a [saved](saving-a-dashboard.md) dashboard, go to the [dashboard menu](ui-elements/dashboard-menu.md) and click the **Open...** item. You will see a list of available dashboards.

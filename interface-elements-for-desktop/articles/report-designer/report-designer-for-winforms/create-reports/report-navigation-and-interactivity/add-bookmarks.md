@@ -1,5 +1,7 @@
 ---
 title: Add Bookmarks
+author: Eugeniy Burmistrov
+legacyId: 5066
 ---
 # Add Bookmarks
 This tutorial describes the steps to create a report with _bookmarks_ (a so-called _Document Map_). This feature allows you to easily navigate through the report during print preview.

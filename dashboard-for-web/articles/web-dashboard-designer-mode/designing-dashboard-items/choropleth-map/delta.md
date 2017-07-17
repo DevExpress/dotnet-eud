@@ -1,5 +1,7 @@
 ---
 title: Delta
+author: Natalia Kazakova
+legacyId: 117540
 ---
 # Delta
 The Choropleth Map allows you to indicate the difference between the actual and target values of a particular parameter. This difference is called **delta**.

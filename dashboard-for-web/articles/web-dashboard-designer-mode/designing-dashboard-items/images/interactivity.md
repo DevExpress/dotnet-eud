@@ -1,5 +1,7 @@
 ---
 title: Interactivity
+author: Natalia Kazakova
+legacyId: 117569
 ---
 # Interactivity
 This document describes the features that enable interaction between the Bound Image and other dashboard items. These features include **Master Filtering**.

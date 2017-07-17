@@ -1,5 +1,7 @@
 ---
 title: Insert a Table
+author: Boris Zaitsev
+legacyId: 9271
 ---
 # Insert a Table
 ## <a name="inserttable"/>Insert a Table

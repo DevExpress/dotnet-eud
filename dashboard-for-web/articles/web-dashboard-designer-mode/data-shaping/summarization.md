@@ -1,5 +1,7 @@
 ---
 title: Summarization
+author: Natalia Kazakova
+legacyId: 117703
 ---
 # Summarization
 To obtain numeric values that should be displayed within a dashboard item, Dashboard calculates a summary function against the specified measure.

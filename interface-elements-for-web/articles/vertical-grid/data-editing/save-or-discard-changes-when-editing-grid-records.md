@@ -1,5 +1,7 @@
 ---
 title: Save or Discard Changes when Editing Grid Records
+author: Anna Kondratova
+legacyId: 118057
 ---
 # Save or Discard Changes when Editing Grid Records
 ## Save Changes

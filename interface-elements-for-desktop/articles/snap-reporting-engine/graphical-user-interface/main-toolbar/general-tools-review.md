@@ -1,5 +1,7 @@
 ---
 title: 'General Tools: Review'
+author: Eugeniy Burmistrov
+legacyId: 17344
 ---
 # General Tools: Review
 The **Review** toolbar contains tools related to proofreading.

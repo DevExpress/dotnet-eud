@@ -1,5 +1,7 @@
 ---
 title: Adjust the Layout of Report Elements
+author: Anya Vekhina
+legacyId: 114611
 ---
 # Adjust the Layout of Report Elements
 This document describes how to customize the layout of a [report element](../../report-elements.md) after it is [created](create-report-elements.md). To move and resize an element or align it within the current report, perform one the following actions.

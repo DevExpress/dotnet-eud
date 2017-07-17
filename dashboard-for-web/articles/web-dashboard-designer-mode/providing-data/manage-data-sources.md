@@ -1,5 +1,7 @@
 ---
 title: Manage Data Sources
+author: Natalia Kazakova
+legacyId: 117961
 ---
 # Manage Data Sources
 The Web Dashboard allows you to manage the dashboard's data sources. To do this, open the [dashboard menu](../ui-elements/dashboard-menu.md) and go to the **Data Sources** page. Here you can add new data sources to the current dashboard or remove the existing data source.

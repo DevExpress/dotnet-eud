@@ -1,5 +1,7 @@
 ---
 title: Tree List
+author: Bogdan Harchenko
+legacyId: 4858
 ---
 # Tree List
 This section describes the capabilities provided by the **Tree List** (multi-column tree view).

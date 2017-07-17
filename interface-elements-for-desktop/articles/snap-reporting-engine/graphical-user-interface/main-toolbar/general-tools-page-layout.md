@@ -1,5 +1,7 @@
 ---
 title: 'General Tools: Page Layout'
+author: Eugeniy Burmistrov
+legacyId: 17332
 ---
 # General Tools: Page Layout
 The **Page Layout** toolbar contains page layout options that include paper kind, margins and orientation.

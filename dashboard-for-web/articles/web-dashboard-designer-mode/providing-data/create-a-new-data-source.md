@@ -1,5 +1,7 @@
 ---
 title: Create a New Data Source
+author: Natalia Kazakova
+legacyId: 117959
 ---
 # Create a New Data Source
 This topic describes how to create a new data source based on the existing data connection.

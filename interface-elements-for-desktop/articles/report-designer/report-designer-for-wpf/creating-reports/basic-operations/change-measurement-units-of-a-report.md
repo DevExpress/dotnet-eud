@@ -1,5 +1,7 @@
 ---
 title: Change Measurement Units of a Report
+author: Anna Gubareva
+legacyId: 116288
 ---
 # Change Measurement Units of a Report
 For your report, you can choose its global **Measure Units**, which can be **Hundredths of an Inch**, **Tenths of a Millimeter** or **Pixels**.

@@ -1,5 +1,7 @@
 ---
 title: Filter Editor
+author: Svetlana Nikulina
+legacyId: 5380
 ---
 # Filter Editor
 The **Filter Editor** is used to edit filter criteria. To create and customize filter criteria, use the ![ASPxFilterControl-AddConditionButton](../images/img8915.png) and ![ASPxFilterControl-RemoveConditions](../images/img8916.png) buttons, embedded into the control and context menus supported by the editor's elements.

@@ -1,5 +1,7 @@
 ---
 title: Geo Point Maps
+author: Andrey Aksenov
+legacyId: 16612
 ---
 # Geo Point Maps
 The topics in this section describe various types of **Geo Point Map** dashboard items that allow you to place callouts, bubbles or pies on the map using geographical coordinates.

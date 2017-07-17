@@ -1,5 +1,7 @@
 ---
 title: Cards
+author: Natalia Kazakova
+legacyId: 117945
 ---
 # Cards
 The **Card** dashboard item displays a series of cards. Each card illustrates the difference between two values. This difference can be expressed as an absolute value, an absolute variation or a percentage variation.

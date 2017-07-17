@@ -1,5 +1,7 @@
 ---
 title: Insert the User Name into Printed Documents
+author: Eugeniy Burmistrov
+legacyId: 4310
 ---
 # Insert the User Name into Printed Documents
 To insert user name into a document's header or footer, first [invoke the Header and Footer dialog](insert-page-header-and-page-footer-into-printed-documents.md).

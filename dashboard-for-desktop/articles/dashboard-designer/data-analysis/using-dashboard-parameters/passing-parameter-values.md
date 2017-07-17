@@ -1,5 +1,7 @@
 ---
 title: Passing Parameter Values
+author: Andrey Aksenov
+legacyId: 16523
 ---
 # Passing Parameter Values
 In this topic, you will learn how to pass parameter values to a dashboard.

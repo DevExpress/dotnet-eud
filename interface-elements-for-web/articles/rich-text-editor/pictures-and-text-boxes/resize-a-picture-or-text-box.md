@@ -1,5 +1,7 @@
 ---
 title: Resize a Picture or Text Box
+author: Dmitry Platonov
+legacyId: 118849
 ---
 # Resize a Picture or Text Box
 To resize a picture or text box, shrink or stretch an object in the following way.

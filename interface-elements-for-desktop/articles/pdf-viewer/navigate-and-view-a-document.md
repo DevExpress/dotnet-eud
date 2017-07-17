@@ -1,5 +1,7 @@
 ---
 title: Navigate and View a Document
+author: Alexander Temnov
+legacyId: 17454
 ---
 # Navigate and View a Document
 This document provides information on using the PDF Viewer user interface to navigate through the document content.

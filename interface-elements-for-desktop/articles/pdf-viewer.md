@@ -1,5 +1,7 @@
 ---
 title: PDF Viewer
+author: Alexander Temnov
+legacyId: 17451
 ---
 # PDF Viewer
 This section describes the capabilities of the **PDF Viewer**.

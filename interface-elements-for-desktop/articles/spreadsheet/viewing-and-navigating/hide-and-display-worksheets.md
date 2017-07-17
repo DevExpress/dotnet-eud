@@ -1,5 +1,7 @@
 ---
 title: Hide and Display Worksheets
+author: Natalya Senichkina
+legacyId: 15786
 ---
 # Hide and Display Worksheets
 The **Spreadsheet** provides the capability to hide worksheets in a workbook. It can be useful if you want to remove a worksheet from the **Sheet tab** bar without deleting it. By default, all worksheets are displayed on the **Sheet tab** bar.

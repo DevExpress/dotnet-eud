@@ -1,5 +1,7 @@
 ---
 title: Multi-File Selection
+author: Svetlana Nikulina
+legacyId: 11353
 ---
 # Multi-File Selection
 You can upload several files at once if multiple file selection is allowed by the application vendor.

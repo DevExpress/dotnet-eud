@@ -1,5 +1,7 @@
 ---
 title: Connect to an Object Data Source
+author: Anna Gubareva
+legacyId: 116238
 ---
 # Connect to an Object Data Source
 The topics in this section describe the wizard steps required to connect a report to an object data source.

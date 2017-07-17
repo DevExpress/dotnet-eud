@@ -1,5 +1,7 @@
 ---
 title: Converting Dashboard Items
+author: Andrey Aksenov
+legacyId: 16809
 ---
 # Converting Dashboard Items
 The Dashboard Designer provides the capability to convert data-bound dashboard items to another type. To convert the selected dashboard item to another type, use the **Convert** button in the ribbon's **Home** tab or the corresponding command in the item's context menu.

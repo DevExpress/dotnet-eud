@@ -1,5 +1,7 @@
 ---
 title: Card View
+author: Svetlana Nikulina
+legacyId: 115295
 ---
 # Card View
 This section describes the capabilities provided by the Card View control, which represents data in cards, supports data editing, sorting, filtering, summary calculation, and many other features.

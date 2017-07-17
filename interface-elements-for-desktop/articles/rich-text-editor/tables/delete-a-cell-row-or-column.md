@@ -1,5 +1,7 @@
 ---
 title: Delete a Cell, Row or Column
+author: Elena Dvoryadkina
+legacyId: 9274
 ---
 # Delete a Cell, Row or Column
 ## Delete a Cell

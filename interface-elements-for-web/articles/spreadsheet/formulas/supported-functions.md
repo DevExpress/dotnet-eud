@@ -1,5 +1,7 @@
 ---
 title: Supported Functions
+author: Anna Kondratova
+legacyId: 18245
 ---
 # Supported Functions
 The **Spreadsheet** supports the following functions that are used in formulas.

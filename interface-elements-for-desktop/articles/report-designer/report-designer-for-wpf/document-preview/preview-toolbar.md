@@ -1,5 +1,7 @@
 ---
 title: Preview Toolbar
+author: Anna Gubareva
+legacyId: 116447
 ---
 # Preview Toolbar
 The **Preview Toolbar** provides quick access to commands related to report viewing, editing and publishing.

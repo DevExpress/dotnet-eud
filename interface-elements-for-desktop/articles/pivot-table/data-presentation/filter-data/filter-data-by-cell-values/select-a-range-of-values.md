@@ -1,5 +1,7 @@
 ---
 title: Select a Range of Values
+author: Andrey Aksenov
+legacyId: 11953
 ---
 # Select a Range of Values
 You can select a range of cell values to be displayed in any of the following ways.

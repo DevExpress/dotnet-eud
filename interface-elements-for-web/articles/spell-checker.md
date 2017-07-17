@@ -1,5 +1,7 @@
 ---
 title: Spell Checker
+author: Alexey Kazakov
+legacyId: 17422
 ---
 # Spell Checker
 The **Spell Checker** provides the capability to check spelling and correct mistakes in a text.

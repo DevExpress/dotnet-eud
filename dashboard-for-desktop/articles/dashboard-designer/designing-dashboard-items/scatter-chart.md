@@ -1,5 +1,7 @@
 ---
 title: Scatter Chart
+author: Andrey Aksenov
+legacyId: 115246
 ---
 # Scatter Chart
 The topics in this section describe the features available in the **Scatter Chart** dashboard item, and provide information on how to create and customize scatter charts in the **DevExpress Dashboard Suite**.

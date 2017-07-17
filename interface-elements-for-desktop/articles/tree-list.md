@@ -1,5 +1,7 @@
 ---
 title: Tree List
+author: Alexey Zolotarev
+legacyId: 4850
 ---
 # Tree List
 This section describes the capabilities provided by a multi-column tree view, which displays hierarchical data, supports data editing, sorting, summary calculation and many other features:

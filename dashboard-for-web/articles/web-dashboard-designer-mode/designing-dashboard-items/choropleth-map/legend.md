@@ -1,5 +1,7 @@
 ---
 title: Legend
+author: Natalia Kazakova
+legacyId: 117545
 ---
 # Legend
 A **legend** is an element of a map that shows values corresponding to each color.

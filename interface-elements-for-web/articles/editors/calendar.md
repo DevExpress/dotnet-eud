@@ -1,5 +1,7 @@
 ---
 title: Calendar
+author: Svetlana Nikulina
+legacyId: 16834
 ---
 # Calendar
 The **Calendar** is used to [select dates](calendar/date-selection.md), and allows you to navigate through months and years.

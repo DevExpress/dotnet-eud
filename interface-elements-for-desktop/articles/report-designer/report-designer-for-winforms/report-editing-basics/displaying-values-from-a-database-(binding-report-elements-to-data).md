@@ -1,5 +1,7 @@
 ---
 title: Displaying Values from a Database (Binding Report Elements to Data)
+author: Eugeniy Burmistrov
+legacyId: 5568
 ---
 # Displaying Values from a Database (Binding Report Elements to Data)
 Report [controls](../report-designer-reference/report-controls.md) can either display [static](add-or-modify-static-information-in-your-report.md) information or _dynamic_ data fetched from the [bound database](../create-reports/binding-a-report-to-data.md).

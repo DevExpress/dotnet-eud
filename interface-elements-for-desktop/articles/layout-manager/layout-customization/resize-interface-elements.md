@@ -1,5 +1,7 @@
 ---
 title: Resize Interface Elements
+author: Alexey Zolotarev
+legacyId: 4666
 ---
 # Resize Interface Elements
 To perform layout customization, first invoke [Customization Mode](start-layout-customization.md). After customization has been completed, [exit](finish-layout-customization.md) customization mode.

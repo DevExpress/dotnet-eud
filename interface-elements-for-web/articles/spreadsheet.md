@@ -1,5 +1,7 @@
 ---
 title: Spreadsheet
+author: Anna Kondratova
+legacyId: 18085
 ---
 # Spreadsheet
 This section describes the capabilities provided by the **Spreadsheet**.

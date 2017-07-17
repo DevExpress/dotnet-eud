@@ -1,5 +1,7 @@
 ---
 title: Scheduler
+author: Boris Zaitsev
+legacyId: 4857
 ---
 # Scheduler
 This section describes the capabilities provided by the Scheduler, which is used for scheduling/calendar activities.

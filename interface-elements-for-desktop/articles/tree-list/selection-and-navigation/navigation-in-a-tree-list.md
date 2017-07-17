@@ -1,5 +1,7 @@
 ---
 title: Navigation in a Tree List
+author: Alexey Zolotarev
+legacyId: 4686
 ---
 # Navigation in a Tree List
 | Action | Description |

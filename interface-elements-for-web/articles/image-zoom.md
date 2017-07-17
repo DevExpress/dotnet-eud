@@ -1,5 +1,7 @@
 ---
 title: Image Zoom
+author: Svetlana Nikulina
+legacyId: 17389
 ---
 # Image Zoom
 The **Image Zoom** allows you to examine images in high-res detail.

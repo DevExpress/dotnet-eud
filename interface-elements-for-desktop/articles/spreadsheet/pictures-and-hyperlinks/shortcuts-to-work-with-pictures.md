@@ -1,5 +1,7 @@
 ---
 title: Shortcuts to Work with Pictures
+author: Natalya Senichkina
+legacyId: 15811
 ---
 # Shortcuts to Work with Pictures
 The **Spreadsheet** allows you to move, resize or rotate pictures quickly using keyboard shortcuts.

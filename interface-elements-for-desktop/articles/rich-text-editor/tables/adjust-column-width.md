@@ -1,5 +1,7 @@
 ---
 title: Adjust Column Width
+author: Elena Dvoryadkina
+legacyId: 10526
 ---
 # Adjust Column Width
 ## Automatically Change Column Width to Fit Entered Data

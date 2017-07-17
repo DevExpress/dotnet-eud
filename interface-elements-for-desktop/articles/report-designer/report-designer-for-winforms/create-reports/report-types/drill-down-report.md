@@ -1,5 +1,7 @@
 ---
 title: Drill-Down Report
+author: Anna Gubareva
+legacyId: 115573
 ---
 # Drill-Down Report
 This tutorial describes the steps needed to create a drill-down report. Drill-down reports display data partially - certain data is hidden and not printed on report pages. Hidden data can be accessed in the [Preview mode](../../report-designer-reference/report-designer-ui/preview-tab.md) by clicking a designated element, such as a label or image.

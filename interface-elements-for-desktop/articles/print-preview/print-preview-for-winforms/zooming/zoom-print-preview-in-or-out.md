@@ -1,5 +1,7 @@
 ---
 title: Zoom Print Preview In or Out
+author: Eugeniy Burmistrov
+legacyId: 4315
 ---
 # Zoom Print Preview In or Out
 ## Zoom In and Out of a Document

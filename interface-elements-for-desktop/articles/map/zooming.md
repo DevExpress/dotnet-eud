@@ -1,5 +1,7 @@
 ---
 title: Zooming
+author: Roman Karpov
+legacyId: 16929
 ---
 # Zooming
 The following operations can be performed by end-users to zoom in to or out of a map.

@@ -1,5 +1,7 @@
 ---
 title: Add and Delete Grid Records
+author: Alexey Zolotarev
+legacyId: 4568
 ---
 # Add and Delete Grid Records
 ## Add Records

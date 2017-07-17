@@ -1,5 +1,7 @@
 ---
 title: Filter Data
+author: Eugeniy Burmistrov
+legacyId: 17325
 ---
 # Filter Data
 This document describes how to filter dynamic data within a **Snap** document.

@@ -1,5 +1,7 @@
 ---
 title: File Attachment
+author: Alexander Temnov
+legacyId: 115330
 ---
 # File Attachment
 This document describes actions that can be performed on attachments in the PDF Viewer.

@@ -1,5 +1,7 @@
 ---
 title: Scripts Errors Panel
+author: Eugeniy Burmistrov
+legacyId: 7491
 ---
 # Scripts Errors Panel
 The **Scripts Errors Panel** displays the result of scripts validation after it's forced in the [Scripts Tab](scripts-tab.md).

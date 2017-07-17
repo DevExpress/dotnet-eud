@@ -1,5 +1,7 @@
 ---
 title: Toolbox
+author: Anna Gubareva
+legacyId: 114522
 ---
 # Toolbox
 The **Toolbox** contains elements ([report controls](../report-elements/report-controls.md)) that can be added to a report being edited in the [Web Report Designer](../../report-designer.md). Different controls correspond to various kinds of data that can be displayed in a report.
