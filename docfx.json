@@ -9,7 +9,7 @@
           "interface-elements-for-web/**/*.{md,yml}",
           
           "toc.yml",
-          "README.md"
+          "INDEX.md"
         ],
         "exclude": [
           "_*/**",
