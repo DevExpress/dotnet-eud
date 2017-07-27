@@ -5,7 +5,7 @@ In addition to [developer documentation](https://www.devexpress.com/Support/Docu
 The main goal of this repository is to provide developers who create applications with DevExpress .NET controls with drafts for their own help documents. You can distribute the included help documents to your end-users "as is" or create documentation for your own products based on them. Help documents are provided as markdown files, which are easy to edit and reuse. The [docfx.json](docfx.json) file allows you to build a documentation website using the [DocFX](https://dotnet.github.io/docfx/) documentation generation tool.
 
 ## Browse End-User Documentation
-You can browse the end-user documentation content starting from the [INDEX.md](INDEX.md) document.
+You can browse the end-user documentation content starting from the [index.md](index.md) document.
 
 ## Build Your Own Documentation Website
 Follow the steps below to create the documentation website for your application. 
