@@ -47,6 +47,7 @@ The Chart supports drill-down on **argument** or **series** values.
 	
 	![wdd-chart-drill-down-set-series](../../../../images/img125075.png)
 
+> [!NOTE]
 > In OLAP mode, you can perform drill-down for either a hierarchy data item or several dimension attributes.
 
 To specify drill-down type, go to the Chart's [Interactivity](../../ui-elements/dashboard-item-menu.md) menu and set **Arguments** or **Series** as a target dimension.

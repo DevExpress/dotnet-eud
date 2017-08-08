@@ -34,6 +34,7 @@ Drill-down requires that the **Arguments** section contains several dimensions, 
 
 ![wdd-scatter-chart-arguments-section](../../../../images/img125269.png)
 
+> [!NOTE]
 > In OLAP mode, you can perform drill-down for either a hierarchy data item or several dimension attributes.
 
 To enable **Drill-Down**, go to the Scatter Chart's [Interactivity](../../ui-elements/dashboard-item-menu.md) menu and turn the **Drill-Down** option on.

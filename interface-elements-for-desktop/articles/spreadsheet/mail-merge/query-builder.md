@@ -36,4 +36,5 @@ For more information on parameters, review the [Parameters Panel](parameters-pan
 
 When all the necessary changes are made, click **OK** to close the window and save the query in the document.
 
+> [!TIP]
 > All queries are stored in an .xls or .xlsx file. You can save the workbook after creating the data source. Subsequently, you can start performing a mail merge immediately after the XLSX/XLS file is loaded into the Spreadsheet control.

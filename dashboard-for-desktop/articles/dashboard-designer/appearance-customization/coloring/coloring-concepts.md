@@ -28,6 +28,7 @@ The dashboard provides two ways of coloring dashboard item elements.
 	
 	![ColoringPage_Ribbon](../../../../images/img25384.png)
 	
+	> [!IMPORTANT]
 	> When a global color scheme is used, the dashboard reserves automatically generated colors for certain values regardless of the filter state.
 * Using a local color scheme that provides an independent set of colors for each dashboard item.
 	
@@ -35,6 +36,7 @@ The dashboard provides two ways of coloring dashboard item elements.
 	
 	![LocalColors_Ribbon](../../../../images/img25386.png)
 	
+	> [!IMPORTANT]
 	> When a local color scheme is used, the dashboard reassigns palette colors when the filter state is changed.
 
 ## <a name="coloring-dimensions-and-measures"/>Coloring Dimensions and Measures

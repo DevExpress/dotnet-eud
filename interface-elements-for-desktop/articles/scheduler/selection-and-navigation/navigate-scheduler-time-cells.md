@@ -24,4 +24,5 @@ The following table contains the typical navigation operations:
 | ALT+HOME | **Day View**, **Work-Week View** - Moves focus to the beginning of a current week. |
 | ALT+END | **Day View**, **Work-Week View** - Moves focus to the end of a current week. |
 
+> [!NOTE]
 > When appointments are grouped, only ARROW keys can move focus to another resource group.

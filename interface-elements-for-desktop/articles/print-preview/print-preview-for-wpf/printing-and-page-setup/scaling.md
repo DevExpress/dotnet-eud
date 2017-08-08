@@ -18,4 +18,5 @@ The dialog provides two ways for scaling the document.
 
 Click **OK** to save changes and close the dialog.
 
+> [!NOTE]
 > If you're working with a document [loaded from a file](../file-management/load-a-print-preview-from-a-file.md), you cannot use scaling.

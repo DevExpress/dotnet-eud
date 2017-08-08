@@ -64,6 +64,7 @@ In the [Property Grid](../report-designer-ui/property-grid.md), the properties o
 	
 	Specifies the band's height, in [report units](../../create-reports/basic-operations/change-measurement-units-of-a-report.md).
 	
+	> [!NOTE]
 	> Note that this property is tied to the [report](../report-settings.md)'s Margins.Top (or Margins.Bottom) property, so that changing this property's value will cause the appropriate Margin value to be changed, and vice versa.
 * **Snap Line Padding**
 	

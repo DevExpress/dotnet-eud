@@ -14,4 +14,5 @@ Using this editor, you can define master-detail relationships between queries by
 
 This allows you to create hierarchical data sources that are used to create nested [master-detail reports](../report-types/master-detail-report-(detail-report-bands).md).
 
+> [!NOTE]
 > Although it is also possible to [join different tables](query-builder.md) within a single query, creating hierarchical data sources is preferred in most cases to provide better performance (in general, master-detail reports are generated faster than similar-looking reports created by grouping "flat" data sources).

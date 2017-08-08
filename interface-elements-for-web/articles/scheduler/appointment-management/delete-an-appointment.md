@@ -14,6 +14,7 @@ Click it to invoke the default popup menu.
 
 ![DeleteMenu](../../../images/img8236.png)
 
+> [!NOTE]
 > You can right-click within the appointment to invoke the editing menu, but this action may result in different menus if the browser (or the page) provides another context menu, overriding the scheduler action.
 
 Click **Delete**.

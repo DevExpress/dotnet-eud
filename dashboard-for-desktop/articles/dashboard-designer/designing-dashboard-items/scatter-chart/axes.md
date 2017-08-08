@@ -19,6 +19,7 @@ This will invoke the **X-Axis Settings/Y-Axis Settings** dialog.
 In this dialog, you can specify the following settings.
 * **Always show zero level** - Specifies whether or not the axis' zero level is visible. If this option is unchecked, the visible axis range is defined based on the values plotted in the chart.
 	
+	> [!NOTE]
 	> Note that the **X-Axis Settings** dialog does not contain this option.
 * **Reverse** - Allows you to reverse the axis. If the axis is reversed, its values are ordered from top to down.
 * **Show grid lines** - Allows you to hide and show grid lines for the axis.

@@ -10,6 +10,7 @@ The scheduler is intended to display appointment data using one of the standard 
 	
 	![ChangeActiveView_01.png](../../../images/img5491.png)
 	
+	> [!NOTE]
 	> Depending on the application vendor, some options may be unavailable in your application.
 * While navigating through dates via the **Go To Date** dialog, you can specify a view type to display a new time interval.
 	

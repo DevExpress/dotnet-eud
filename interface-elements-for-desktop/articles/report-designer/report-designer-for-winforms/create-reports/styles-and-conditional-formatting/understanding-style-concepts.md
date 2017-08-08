@@ -37,6 +37,7 @@ Click the ellipsis button for the **Style Sheet** property to invoke the **Style
 
 ![RD_ReportStyles_StylesEditor](../../../../../images/img122170.png)
 
+> [!NOTE]
 > Note that if styles contained in a style sheet loaded using the **Style Sheet Path** property have the same names as styles already contained in a report, the latter are overridden.
 
 To assign a particular style to a control, invoke the drop-down list for its **Style** property. Then, select one of the styles stored in a report's sheet collection or select **(New)** to create a new style sheet.
@@ -64,4 +65,5 @@ The following image demonstrates how the **Style Priority** property works.
 
 The same principles are applied to the _odd-even styles_ feature, which allows you to alternate the appearance of consecutive data rows in your report. For details on this, refer to [Use Odd and Even Styles](use-odd-and-even-styles.md).
 
+> [!NOTE]
 > When [conditional formatting](conditionally-change-a-controls-appearance.md) is applied to an element, its appearance definition has the highest priority.

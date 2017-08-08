@@ -13,12 +13,14 @@ When drill down on arguments is enabled, you can click a series point to view a 
 
 ![Chart_Interactivity_DrillDownOnArguments](../../../../../images/img21870.png)
 
+> [!NOTE]
 > When [Filtering by Arguments](master-filtering.md) is enabled, you can view the details by double-clicking a series point.
 
 Drill down on arguments requires that the Arguments section contains several data items, from the least detailed to the most detailed item.
 
 ![Chart_Interactivity_DrillDownOnArguments_DataItems](../../../../../images/img19557.png)
 
+> [!NOTE]
 > In OLAP mode, you can perform drill-down for either a hierarchy data item or several dimension attributes.
 
 To enable drill down on arguments, click the **Drill Down** button in the **Data** Ribbon tab (or the ![Chart_Interactivity_DrillDown_Toolbar](../../../../../images/img21873.png) button if you are using the toolbar menu)...
@@ -34,12 +36,14 @@ When drill down on a series is enabled, you can click a series point (or corresp
 
 ![Chart_Interactivity_DrillDownOnSeries](../../../../../images/img21871.png)
 
+> [!NOTE]
 > When [Filtering by Series](master-filtering.md) is enabled, you can view the details by double-clicking a series point.
 
 Drill down on a series requires that the Series section contains several data items, from the least detailed to the most detailed item.
 
 ![Chart_Interactivity_DrillDownOnSeries_DataItems](../../../../../images/img19556.png)
 
+> [!NOTE]
 > In OLAP mode, you can perform drill-down for either a hierarchy data item or several dimension attributes.
 
 To enable drill down on a series, click the **Drill Down** button in the **Data** Ribbon tab (or the ![Chart_Interactivity_DrillDown_Toolbar](../../../../../images/img21873.png) button if you are using the toolbar menu)...

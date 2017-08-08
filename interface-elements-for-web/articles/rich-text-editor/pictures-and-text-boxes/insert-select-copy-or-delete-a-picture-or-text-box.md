@@ -34,6 +34,7 @@ To select a picture/text box, click on its border.
 
 ![EUD_RichEdit_SelectTextBox](../../../images/img128947.png)
 
+> [!NOTE]
 > If the caret is placed inside the text box, you can modify the text box content, but it is impossible to move, copy or delete the text box.
 
 ## <a name="copy"/>Copy/Paste a Picture or Text Box

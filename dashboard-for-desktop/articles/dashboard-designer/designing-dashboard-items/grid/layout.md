@@ -58,6 +58,7 @@ The Grid allows you to merge neighboring cells with identical values . To do thi
 
 ![Grid_Layout_MergeCells](../../../../images/img19698.png)
 
+> [!NOTE]
 > Note that [banded rows](style.md) are not available when cell merging is enabled.
 
 ## <a name="word-wrapping"/>Word Wrapping
@@ -65,4 +66,5 @@ The word wrapping feature enables the capability to display cell content on mult
 
 ![Grid_WordWrapping](../../../../images/img24749.png)
 
+> [!NOTE]
 > The word wrapping feature is not in effect when the **AutoFit to Contents** [column width mode](#column-width-modes) is enabled.

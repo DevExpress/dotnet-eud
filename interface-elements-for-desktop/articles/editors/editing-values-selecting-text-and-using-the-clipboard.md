@@ -40,6 +40,7 @@ To undo the last text editing operation, do one of the following.
 * Press CTRL+Z.
 * Open the [Editor Context Menu](editor-context-menu.md) and select **Undo**.
 
+> [!NOTE]
 > After you've undone an operation, you can return to the previous edit value by executing the Undo command once again.
 
 ## Change Date/Time Values

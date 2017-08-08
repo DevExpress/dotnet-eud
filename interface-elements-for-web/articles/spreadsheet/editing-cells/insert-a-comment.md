@@ -35,6 +35,7 @@ To edit an existing comment, select the cell where you wish to modify the commen
 You can move and resize comment text boxes performing the following instructions.
 1. Select the cell that contains the comment you wish to move or resize.
 	
+	> [!TIP]
 	> If the comment is hidden, click the **Show/Hide Comment** button to display the comment.
 2. Click the comment box border to display the **sizing handles** (small rectangles at the corners and sides of the comment box).
 3. Do one of the following.

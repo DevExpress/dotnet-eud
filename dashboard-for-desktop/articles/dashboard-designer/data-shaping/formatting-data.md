@@ -46,6 +46,7 @@ To specify a format for date-time values, use the **Format** submenu in the data
 
 This submenu lists the available format types that depend on the selected group interval (for details on group intervals, see [Grouping](grouping.md)).
 
+> [!NOTE]
 > Specific group intervals do not have format options. This means that corresponding values can only be presented in a single manner. The **Format** submenu is not displayed for such group intervals.
 
 The following list shows format types by group interval.
@@ -118,6 +119,7 @@ The Dashboard allows you to specify a currency format at two levels: for the ent
 	
 	![Formatting_Numeric_Dialog_Currency](../../../images/img19380.png)
 	
+	> [!NOTE]
 	> This option only affects the way values are displayed. The Dashboard **does not** convert monetary amounts from one currency to another.
 	
 	For regions with several cultures, you can also select the culture that will be used to format currency values.
@@ -137,6 +139,7 @@ The Dashboard allows you to specify a currency format at two levels: for the ent
 	
 	![Formatting_Numeric_Currency_DashboardCurrencyDialog_Currency](../../../images/img19378.png)
 	
+	> [!NOTE]
 	> This option only affects the way values are displayed. The Dashboard **does not** convert monetary amounts from one currency to another.
 	
 	For regions with several cultures, you can also select the culture that will be used to format currency values.

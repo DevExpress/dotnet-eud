@@ -40,6 +40,7 @@ To manage common series options, use the **Common Options** tab of the **Series 
 	Note that this option is in effect for the [Line](point-and-line-series.md), [Area](area-series.md) and [Range Area](range-series.md) series.
 * **Show point markers** - Specifies whether or not to show point markers for the current series.
 	
+	> [!NOTE]
 	> Note that point markers are always shown when [Master Filtering](../../../interactivity/master-filtering.md) is enabled for the Chart dashboard item.
 	
 	Note that this option is in effect for the [Line](point-and-line-series.md) and [Area](area-series.md) series.
@@ -52,11 +53,13 @@ The **Point Label Options** tab of the **Series Options** dialog allows you to e
 * **Content** - Specifies the type of content displayed within point labels.
 * **Overlapping mode** - Specifies the label overlap mode.
 	
+	> [!NOTE]
 	> This option is not in effect when the dashboard is displayed in the Web Viewer.
 * **Orientation** - Specifies the orientation of point labels.
 
 **Bar options**
 
+> [!NOTE]
 > These settings are in effect for [Bar](bar-series.md) series only.
 
 * **Show for zero values** - Specifies whether or not to show labels for points with zero values.

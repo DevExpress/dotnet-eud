@@ -27,6 +27,7 @@ The image above shows a calculation menu of the [Pivot](../../designing-dashboar
 	
 	To learn more, see descriptions of the available calculations below.
 
+> [!NOTE]
 > Note that the list of available items in this menu can be changed by the Dashboard Designer dynamically. For instance, if the Pivot dashboard item does not contain dimensions in the **Rows** section, menu items related to rows will be disabled.
 
 ## Running Total

@@ -32,4 +32,5 @@ To remove a bar command from a bar, drag the bar command away from the bar, and 
 
 ![EU_XtraBars_HideCommandByDragging](../../../images/img7728.png)
 
+> [!NOTE]
 > You can cancel drag and drop while dragging an item by pressing ESC.

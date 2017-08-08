@@ -58,6 +58,7 @@ There are three types of look-up editor settings that can be specified for a par
 	2. Then, specify data members for the dashboard parameter's value and display name using **Value Member** and **Display Member**, respectively.
 	3. If necessary, specify the data member used to sort parameter values using the **Sort By** option. **Sort Order** specifies the required sort order.
 	
+	> [!NOTE]
 	> To learn how to create a data source for a dashboard parameter, see [Providing Data](../../providing-data.md).
 	> 
 	> Note that you cannot specify an [OLAP](../../providing-data/connecting-to-olap-cubes.md) data source as the data source for the dashboard parameter in the Dashboard Designer.

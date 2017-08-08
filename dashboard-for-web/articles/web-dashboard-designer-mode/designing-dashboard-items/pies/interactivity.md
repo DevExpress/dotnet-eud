@@ -47,6 +47,7 @@ The Pie supports drill-down on **argument** or **series** values.
 	
 	![wdd-pies-interactivity-series](../../../../images/img125782.png)
 
+> [!NOTE]
 > In OLAP mode, you can perform drill-down for either a hierarchy data item or several dimension attributes.
 
 To specify drill-down type, go to the Pie's [Interactivity](../../ui-elements/dashboard-item-menu.md) menu and set **Arguments** or **Series** as the target dimension.

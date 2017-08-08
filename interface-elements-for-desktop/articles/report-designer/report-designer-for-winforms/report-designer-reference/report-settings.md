@@ -95,6 +95,7 @@ While the main report's properties can be accessed via the report's [Smart Tag](
 	
 	Determines a specific list in a report's Data Source, for which the Report Designer objects display data. To learn more about this, refer to [Binding a Report to Data](../create-reports/binding-a-report-to-data.md).
 	
+	> [!NOTE]
 	> Usually, it is not necessary to specify the Data Member property when binding a report to data. This property should only be set directly if the dataset contains more than one table.
 * **Data Source**
 	
@@ -163,6 +164,7 @@ While the main report's properties can be accessed via the report's [Smart Tag](
 	
 	Determines the width of a report's margins (measured in [report units](../create-reports/basic-operations/change-measurement-units-of-a-report.md)).
 	
+	> [!NOTE]
 	> Note that the report's Margins.Top and Margins.Bottom properties are tied to the Height property of the [Page Margin Bands](report-bands/page-margin-bands.md). So,  changing these properties' values will cause changing the appropriate bands' Height value as well, and vice versa.
 * **Page Height**
 	
@@ -174,6 +176,7 @@ While the main report's properties can be accessed via the report's [Smart Tag](
 	
 	Determines the type of paper for a report. Setting this property to any value different from Custom will prevent the Page Height, Page Width and Paper Name properties from being customized.
 	
+	> [!NOTE]
 	> If the Paper Kind property is set to Custom, then the printer paper will be selected according to the Paper Name property's value. In this case, it's also necessary to set the Page Width and Page Height properties to the corresponding values of the paper selected.
 * **Paper Name**
 	

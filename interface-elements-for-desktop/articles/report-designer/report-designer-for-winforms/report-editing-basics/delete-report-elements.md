@@ -13,6 +13,7 @@ To delete a report element ([band](../report-designer-reference/report-bands.md)
 	
 	![RD_delete_1](../../../../images/img9173.png)
 
+> [!NOTE]
 > You can cancel the operation by pressing CTRL+Z.
 
 Note that certain elements cannot be deleted (such as the [Detail band](../report-designer-reference/report-bands/detail-band.md)).

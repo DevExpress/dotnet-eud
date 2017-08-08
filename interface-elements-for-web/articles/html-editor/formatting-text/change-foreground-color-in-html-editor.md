@@ -10,4 +10,5 @@ To change the text color, do the following.
 
 ![ASPxHtmlEditor-WorkingWithText-ForeGroundDialog](../../../images/img7424.png)
 
+> [!NOTE]
 > To type text with the specified fore color, select the color via the ![ASPxHtmlEditor-Buttons-ForeGround](../../../images/img7421.png) button. To stop formatting, select another color.

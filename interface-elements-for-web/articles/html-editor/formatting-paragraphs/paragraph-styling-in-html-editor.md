@@ -11,4 +11,5 @@ The Paragraph style dropdown editor makes formatting the editor's content easier
 
 ![ASPxHtmlEditor-Buttons-ParagraphStyling](../../../images/img9177.png)
 
+> [!NOTE]
 > This functionality may be unavailable in your application. This depends on the choice of the application vendor.

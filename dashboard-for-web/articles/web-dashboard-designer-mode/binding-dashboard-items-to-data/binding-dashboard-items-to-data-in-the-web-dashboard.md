@@ -19,6 +19,7 @@ You can change the default  data source (or a data member / query, optionally) o
 
 In the invoked section you can change the data source (data member) for the selected dashboard item. Click **OK** to save the changes.
 
+> [!NOTE]
 > Note that this action removes all data items from the current dashboard item.
 
 ## <a name="create"/>Create Binding
@@ -36,6 +37,7 @@ To rename the data item, go to the **Options** section and specify the data item
 
 ![WDD-rename-data-item](../../../images/img124591.png)
 
+> [!NOTE]
 > To learn how to bind a specific dashboard item to data, see the **Providing Data** topic for the [required dashboard item](../designing-dashboard-items.md).
 
 ## <a name="modify"/>Modify Binding

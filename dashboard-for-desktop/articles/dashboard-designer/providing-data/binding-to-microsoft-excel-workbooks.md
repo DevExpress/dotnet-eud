@@ -19,6 +19,7 @@ To bind a dashboard to a Microsoft Excel workbook, do the following.
 	
 	Click **Next**.
 	
+	> [!NOTE]
 	> If the workbook is protected by a password, the following window will be invoked.
 	> 
 	> ![DataSourceWizard_ProtectedExcelWorkbook](../../../images/img121200.png)

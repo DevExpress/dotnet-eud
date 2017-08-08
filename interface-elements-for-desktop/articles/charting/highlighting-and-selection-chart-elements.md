@@ -13,6 +13,7 @@ An end user can highlight a chart's area using either the drag gesture on your t
 
 ![SelectingChartElements1](../../images/img7221.png)
 
+> [!NOTE]
 > Chart element highlighting and selection is available only for **2D Chart Types**.
 
 ## Selection

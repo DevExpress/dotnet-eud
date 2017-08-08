@@ -10,6 +10,7 @@ The **Page Header** and **Page Footer** bands are located at the top and bottom 
 
 The Page Header/Footer bands are the best place for information that should be printed on every page. For example, use them to display the header of a table which is continued from the previous page (an example can be found at the [Table Report](../../create-reports/report-types/table-report.md) tutorial).
 
+> [!NOTE]
 > If you insert page break right after the [Report Header](report-header-and-footer.md) (by setting its **Page Break** to **After the Band**),  the Page Footer and Page Header bands will not be printed on the first page.
 
 In the [Property Grid](../report-designer-ui/property-grid.md), the properties of these bands are divided into the following groups.

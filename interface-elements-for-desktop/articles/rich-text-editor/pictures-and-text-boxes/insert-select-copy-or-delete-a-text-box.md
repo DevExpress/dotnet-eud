@@ -16,6 +16,7 @@ A floating text box enables you to specify [fill color](add-change-or-delete-a-t
 ## <a name="select"/>Select a Text Box
 To select a text box, click a border of the text box.
 
+> [!NOTE]
 > If the caret is placed inside the text box, you can modify the text box content, but it is impossible to [move](move-a-picture-or-text-box.md), [copy](#copytextbox), [delete](#deletetextbox) the text box or specify such attributes as [fill color](add-change-or-delete-a-text-box-fill.md), [outline color and weight](add-change-or-delete-a-border-for-a-picture-or-text-box.md), [text wrapping](wrap-text-around-a-picture-or-text-box.md), [position](wrap-text-around-a-picture-or-text-box.md), etc. In this case, the text box is not considered as selected, the **Picture Tools / Format** [tab](../text-editor-ui/ribbon-interface.md) and corresponding items of the text box's context menu are unavailable.
 
 ![RTESelectTextBox1](../../../images/img121259.png)![RTESelectTextBox2](../../../images/img121260.png)

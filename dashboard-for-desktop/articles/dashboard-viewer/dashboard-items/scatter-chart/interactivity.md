@@ -22,6 +22,7 @@ When drill-down is enabled, you can click a point to view the details.
 
 ![ScatterChart_DrillDown](../../../../images/img120198.png)
 
+> [!NOTE]
 > When **Master Filtering** is enabled, you can view the details by double-clicking a point.
 
 To return to the previous detail level (drill up), use the **Drill Up** button (the ![DrillDown_DrillUpArrow](../../../../images/img18627.png) icon) within the Chart's [caption](../../data-presentation/dashboard-layout.md) area or the **Drill Up** command in the Chart's context menu.

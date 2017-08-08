@@ -20,6 +20,7 @@ The **DevExpress Dashboard** ships with a set of default maps showing various pa
 * **USA** - a map of the USA
 * **Canada** - a map of Canada
 
+> [!NOTE]
 > The **World Countries** map has a lower level of detail than maps of specific regions and may not contain some of the countries. As an alternative, you can load a custom map with required granularity.
 
 To select a required default map, go to the **Common** section of the [Options](../../ui-elements/dashboard-item-menu.md) menu and use the **Default Map** dropdown list.

@@ -17,6 +17,7 @@ Select the action you wish to perform.
 	1. Select the rows or columns you wish to group.
 	2. On the **Data** tab, in the **Outline** group, click the **Group** button, and select the **Group** item in the button's drop-down menu...
 	
+	> [!NOTE]
 	> You can also place one group of rows or columns inside another. To do this, repeat the steps above until you create the required number of groups. Note that the number of nested groups is limited: you can create a maximum of **seven levels** of grouping.
 * To **ungroup** data in a worksheet, do the following.
 	1. Select the rows or columns you wish to ungroup.

@@ -20,6 +20,7 @@ To create a cross-tab report, do the following.
 	
 	After the data source is created, it is assigned to the grid's **Data Source** property. Its **Data Member** property defines the table or view of your data source from which the grid obtains its data.
 	
+	> [!NOTE]
 	> Since you have placed the Pivot Grid in the Detail band, the [report](../../report-designer-reference/report-settings.md)'s **Data Source** property should be set to **None**. Otherwise, the Pivot Grid will be repeated at the preview as many times as there are records in the data source.
 	> 
 	> ![RD_CreateReports_CrossTab_2](../../../../../images/img8386.png)

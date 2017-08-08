@@ -32,6 +32,7 @@ For instance, the URI pattern in the form below specifies the path to the folder
 
 Data source field values will be inserted to the position of the {0} placeholder. Thus, the Bound Image maps the current dimension value with the image placed at the specified URI.
 
+> [!NOTE]
 > Note that the Bound Image can display only a single image simultaneously. If [Master Filtering](../../interactivity/master-filtering.md) is not applied to the Bound Image, it selects the displayed image in the following ways.
 > * In the **Binary Array** mode, the displayed image cannot be predicted precisely as a result of sorting limitations for the _image_/_binary_ data types. Use the [Master Filtering](../../interactivity/master-filtering.md) feature to display the specified image.
 > * In the **URI** mode, the Bound Image displays an image corresponding a first attribute value taking into account the attribute's sort order.

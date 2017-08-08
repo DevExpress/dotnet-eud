@@ -30,6 +30,7 @@ To select a continuous range or rows/cards, you can do the following
 * Use ARROW, PAGE UP, PAGE DOWN keys while holding the SHIFT key down.
 * To select all rows/cards between the currently focused row/card and another one, click the target row/card while holding the SHIFT key down.
 	
+	> [!NOTE]
 	> If the SHIFT key is combined with CTRL, the previously selected rows/cards, if there are any, are not unselected. If you use the SHIFT key alone, the previously selected rows/cards are unselected.
 * To select a continuous range of cards in Layout Views, drag with the mouse around cards that are to be selected (marquee selection).
 

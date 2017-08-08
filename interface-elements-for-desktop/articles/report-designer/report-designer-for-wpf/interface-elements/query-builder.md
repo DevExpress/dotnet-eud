@@ -8,6 +8,7 @@ The **Query Builder** provides a visual interface for constructing SQL queries a
 
 ![wpf-designer-query-builder](../../../../images/img126699.png)
 
+> [!NOTE]
 > The Query Builder is not available for [object](../report-wizard/data-bound-report/connect-to-an-object-data-source.md), [Entity Framework](../report-wizard/data-bound-report/connect-to-an-entity-framework-data-source.md) and [Excel](../report-wizard/data-bound-report/connect-to-an-excel-data-source.md) data sources.
 
 The document consists of the following sections.
@@ -69,6 +70,7 @@ If tables do not have a relationship at the database level, you can manually joi
 
 After executing the query, it will return a "flat" table composed of data records selected based on the specified join options.
 
+> [!NOTE]
 > Although joining different tables within a single query may be required in some scenarios, creating hierarchical data sources generally results in better performance (in general, [master-detail reports](../report-types/master-detail-report-(detail-report-bands).md) are generated faster than similar-looking reports created by grouping "flat" data sources).
 
 ## <a name="editparameters"/>Edit Parameters
@@ -100,6 +102,7 @@ To specify filter criteria, click the **Filter...** button in the Query Builder.
 	
 	Using this editor, you can limit the number of resulting data rows. If data is sorted, you can specify how many rows to skip before retrieving the specified number of rows.
 	
+	> [!NOTE]
 	> Depending on the selected data provider, it can be impossible to take into account the skip setting in the provider-specific SQL string.
 	
 	Another option enables you to include only distinct values into the resulting set.
@@ -134,6 +137,7 @@ The following options are available.
 	
 	Specifies whether to preserve the original order of data records within the column, or sort them (in ascending or descending order).
 	
+	> [!NOTE]
 	> When binding to XML files, the Query Builder does not support sorting by aggregate functions, DISTINCT and SELECT ALL statements, and custom SQL.
 * **Sort Order**
 	
@@ -163,6 +167,7 @@ The following options are available.
 	
 	Applying any of these functions to a column will discard individual data records from the query result set, which will only include the aggregate function result.
 
+> [!NOTE]
 > You should apply aggregation/grouping to either all columns or to none of them.
 
 ## <a name="customsql"/>Enable Custom SQL Editing

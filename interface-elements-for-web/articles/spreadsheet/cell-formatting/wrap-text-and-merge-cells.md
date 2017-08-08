@@ -10,6 +10,7 @@ If text is too long to be displayed in a single cell, the **Spreadsheet** allows
 To merge cells, follow the instructions below.
 1. [Select](../editing-cells/select-cells-or-cell-content.md) the cells that you wish to merge.
 	
+	> [!NOTE]
 	> Make sure that the data you wish to display in the merged cell is contained in the upper-left cell of the selected range, because only the contents of this cell will remain in the merged cell. The data in the other cells will be deleted.
 2. In the **Alignment** group within the **Home** tab, click the **Merge Cells** button's drop-down arrow and select one of the following items.
 	* **Merge &amp; Center** - merge the selected cells and center the text in a merged cell.

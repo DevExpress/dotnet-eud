@@ -24,6 +24,7 @@ When drill-down is enabled, you can click a grid row to view the details.
 
 ![Anim_Grid_DrillDown](../../../../images/img19684.gif)
 
+> [!NOTE]
 > When **Master Filtering** is enabled, you can view the details by double-clicking a grid row.
 
 To return to the previous detail level (drill up), use the **Drill Up** button (the ![DrillDown_DrillUpArrow](../../../../images/img18627.png) icon) within the Grid's [caption](../../data-presentation/dashboard-layout.md) area, or the **Drill Up** command in the Grid's context menu.

@@ -18,6 +18,7 @@ This dialog allows you to change the following options specific to Bar Color Ran
 * The **Format Style** combo box allows you to change the color set used to apply formatting.
 * The **Use % ranges** check box specifies whether the percent or absolute scale is used to generate ranges.
 	
+	> [!NOTE]
 	> Note that this option is not available for numeric dimensions.
 * To change the appearance settings applied to values corresponding to the specified range, click the button next to the required color and select a new color or specify custom appearance settings. To learn how to specify custom settings, see the **Specify Appearance Settings** paragraph in the [Conditional Formatting](../conditional-formatting.md) topic.
 	
@@ -28,6 +29,7 @@ This dialog allows you to change the following options specific to Bar Color Ran
 	
 	![ColorRangeSetDialog_ChangeRangeStop](../../../../images/img118669.png)
 	
+	> [!NOTE]
 	> Note that a new value should fall into a range between corresponding values of the previous and next range.
 * To change the comparison logic for the required range, click the comparison sign and select the required option.
 	

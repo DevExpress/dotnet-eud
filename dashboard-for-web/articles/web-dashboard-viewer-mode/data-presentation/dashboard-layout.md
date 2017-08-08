@@ -27,6 +27,7 @@ Each [dashboard item](../dashboard-items.md) can include a caption that is displ
 
 ![WebViewer_DashboardItemCaption](../../../images/img22466.png)
 
+> [!NOTE]
 > If the dashboard item caption is not visible, command buttons are displayed at the top right corner of the item.
 
 The caption of the dashboard item contains the following information and buttons, depending on the dashboard item type.

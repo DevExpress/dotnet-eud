@@ -14,6 +14,7 @@ Depending upon [types of tab stops](#tab_types), typed text can be extended to t
 
 You can set any type of tab stops either [by using the ruler](#ruler) or [by using the dialog box](#dialog_box).
 
+> [!NOTE]
 > By default, there are no tab stops on the ruler when you create a new document.
 
 ## <a name="tab_types"/>Types of Tab Stops

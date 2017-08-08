@@ -6,6 +6,7 @@ legacyId: 115834
 # Image Editor
 An image editor allows you to load and display images.
 
+> [!NOTE]
 > The following steps may vary depending on application vendor.
 
 ## Built-in menu

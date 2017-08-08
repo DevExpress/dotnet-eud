@@ -18,4 +18,5 @@ To change the default coloring behavior, go to the **Coloring** section of the T
 
 ![wdd-treemap-coloring-options](../../../../images/img125996.png)
 
+> [!NOTE]
 > You can change the default palette used to color Treemap tiles. For this, go to the **Color Scheme** section of the Treemap's **Options** menu.

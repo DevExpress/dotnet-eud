@@ -15,6 +15,7 @@ To add parameters and filter your report based on their values, follow the steps
 	
 	![eud-parameterized-report-1](../../../images/img119089.png)
 	
+	> [!NOTE]
 	> In the [Document Preview](../document-preview.md), the report's document is not generated until you have submitted values of all the parameters with enabled **Visible** property.
 4. To assign a list of values to this report parameter, specify the **Look-Up Settings Type** property.
 	

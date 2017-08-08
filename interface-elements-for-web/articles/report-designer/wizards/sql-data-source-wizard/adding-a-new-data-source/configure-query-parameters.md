@@ -28,6 +28,7 @@ To link a query parameter to an existing report parameter, type the report param
 
 Click **Next** to proceed to the next wizard page: [Configure Master-Detail Relationships](configure-master-detail-relationships.md).
 
+> [!NOTE]
 > When invoking the SQL Data Source Wizard to edit an existing data source, [another version](../editing-an-existing-data-source/create-a-query-or-select-a-stored-procedure.md) of this page is displayed.
 > 
 > This version is also shown if your software vendor switched the SQL Data Source Wizard to the single-query mode.

@@ -16,6 +16,7 @@ The **Calendar** control is designed specifically for the date navigation and se
 
 ![VisualElements_DateNavigator](../../../images/img6711.png)
 
+> [!NOTE]
 > The availability of the Calendar depends on the application vendor.
 
 You are able to select either a particular date, or a range of dates by means of the Calendar, or directly in the Scheduler's time cell grid.  Selecting dates using the Calendar results in displaying them by the Scheduler, to which it is linked.

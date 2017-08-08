@@ -32,6 +32,7 @@ Drill-down requires that the **Series** section contains several dimensions at t
 
 ![wdd-gauge-drill-down-arguments-section](../../../../images/img125778.png)
 
+> [!NOTE]
 > In OLAP mode, you can perform drill-down for either a hierarchy data item or several dimension attributes.
 
 To enable **Drill-Down**, go to the Gauge's [Interactivity](../../ui-elements/dashboard-item-menu.md) menu and turn the **Drill-Down** option on.

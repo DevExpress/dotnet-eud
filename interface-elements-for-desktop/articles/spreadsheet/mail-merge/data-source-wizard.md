@@ -75,4 +75,5 @@ Next, proceed with the following steps in the wizard.
 	
 	To modify the query used in the data source, click **Manage Relations -> Manage Queries** in the **External Data Sources** group to invoke the [Query Builder](query-builder.md).
 
+> [!TIP]
 > The data source configuration is stored in .xls or .xlsx file. You can save the workbook after creating the data source. Subsequently, you can start a mail merge immediately after the XLSX/XLS file is loaded into the Spreadsheet control.

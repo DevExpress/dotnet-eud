@@ -12,4 +12,5 @@ When Master Filtering is enabled, you can click a tile or group caption (or mult
 
 ![Treemap_MasterFiltering2](../../../../../images/img125442.png)
 
+> [!NOTE]
 > If the Single Master Filter is used, you can select only tiles corresponding to the bottommost level.

@@ -55,4 +55,5 @@ The Filter Editor also allows you to limit the number of returned records. To do
 
 You can also skip the required number of records in the returned dataset by specifying the **records starting with index** value.
 
+> [!NOTE]
 > Note that the **Sorting type** should be specified in the Query Builder to enable the capability to skip the specified number of records. To learn how to apply sorting, see the **Edit Column Settings** paragraph in the [Query Builder](using-the-query-builder.md) topic.

@@ -39,6 +39,7 @@ To accomplish this task, do the following.
 	
 	Click **OK** to close the editor.
 	
+	> [!NOTE]
 	> When you are required to shape data at the level of a data source, you can create [custom queries](../../report-wizard/data-bound-report/connect-to-a-database/create-a-query-or-select-a-stored-procedure.md) by expanding the **Queries** category and clicking the ![report-wizard-multi-query-page-icon-add](../../../../../images/img125532.png) button.
 	> 
 	> This will invoke the [Query Builder](../../report-designer-reference/report-designer-ui/query-builder.md) where you can create complex queries by joining multiple tables, filtering, sorting and grouping their data, as well as calculating various aggregate functions.

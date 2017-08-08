@@ -49,6 +49,7 @@ To increment the value, press CTRL+UP ARROW. To decrement the value, press CTRL+
 
 To select the previous value, press CTRL+UP ARROW. To select the next value, press CTRL+DOWN ARROW.
 
+> [!NOTE]
 > This feature is not applicable to all editors.
 
 ### Edit Images

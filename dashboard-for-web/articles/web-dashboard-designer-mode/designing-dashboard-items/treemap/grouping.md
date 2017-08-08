@@ -16,4 +16,5 @@ Product tiles will be grouped into category groups.
 
 ![wdd-treemap-grouped](../../../../images/img125970.png)
 
+> [!NOTE]
 > Note that grouping is unavailable for the bottommost level.

@@ -25,6 +25,7 @@ Invokes a corresponding dialog that allows you to export a dashboard to a PDF fi
 * **Title** - Specifies the title of the exported document.
 * **Scale Mode** - Specifies the mode for scaling when exporting a dashboard.
 	
+	> [!NOTE]
 	> Note that this option is in effect when **Page Layout** is set to a value different from _Auto_.
 * **Include | Filters** - Allows you to include master filter values to the exported document.
 * **Include | Parameters** - Allows you to include parameter values to the exported document.

@@ -99,6 +99,7 @@ In the Property Grid, the Chart's properties are divided into the following grou
 	
 	Determines the data source member which supplies data to a Chart. To learn more on this, refer to [Chart with Static Series](../../create-reports/report-types/chart-with-static-series.md).
 	
+	> [!NOTE]
 	> Usually, it is not necessary to specify the Data Member property when binding a Chart to data. This property should only be set directly if the dataset contains more than one table.
 * **Data Source**
 	
@@ -116,11 +117,13 @@ In the Property Grid, the Chart's properties are divided into the following grou
 	
 	The template settings for the dynamically created series are defined by the specific properties which are available via the SeriesTemplate property of a Chart. In particular, the Argument Data Member and Value Data Members properties specify the data fields from which the arguments and data values of the series data points are obtained.
 	
+	> [!NOTE]
 	> Note that if the Series Data Member property is not set for a Chart, the Chart control can't automatically generate series even if the Argument Data Member and Value Data Members properties are defined.
 * **Series Name Template**
 	
 	Determines the settings used to name data bound series defining the prefix and postfix texts for the names of series which are dynamically created as a result of binding a Chart to data (using the Data Source, Series Data Member, Argument Data Member and Value Data Members properties). The series names, to which these prefixes and postfixes are added, are taken by each series from the data field defined by the Series Data Member property. To learn more on this, refer to [Chart with Dynamic Series](../../create-reports/report-types/chart-with-dynamic-series.md).
 	
+	> [!NOTE]
 	> Note that the settings available via the Series Name Template property are not applied to the data bound series which are contained within the Series collection of a Chart.
 * **Series Sorting**
 	

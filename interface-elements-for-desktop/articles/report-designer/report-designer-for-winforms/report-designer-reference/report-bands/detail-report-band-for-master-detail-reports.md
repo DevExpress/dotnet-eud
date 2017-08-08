@@ -83,6 +83,7 @@ In the [Property Grid](../report-designer-ui/property-grid.md), the properties o
 	
 	In this case, the Data Member property will specify the bound list in the XML data source.
 	
+	> [!NOTE]
 	> Note that a detail report uses the XML Data Path property value only when the Data Source property is set to None. The XML Data Path property has a lower priority than the Data Source property.
 
 ## Design

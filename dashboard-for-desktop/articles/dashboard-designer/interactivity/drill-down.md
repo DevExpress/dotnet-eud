@@ -23,6 +23,7 @@ To enable drill-down, click the **Drill-Down** button in the **Data** Ribbon tab
 
 ![Chart_Interactivity_DrillDown_Ribbon](../../../images/img21872.png)
 
+> [!NOTE]
 > If the selected dashboard item contains several types of elements that can be used for drill-down, the Ribbon or Toolbar will provide the appropriate buttons to switch between these types (e.g., **Arguments** and **Series** buttons in a Chart). For details, refer to the documentation for the individual dashboard items in the [Designing Dashboard Items](../designing-dashboard-items.md) topic.
 
 The following dashboard items support the Drill-Down feature.

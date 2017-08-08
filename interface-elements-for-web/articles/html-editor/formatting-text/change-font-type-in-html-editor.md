@@ -10,4 +10,5 @@ To change the text's font type, do the following.
 
 ![ASPxHtmlEditor-WorkingWithText-FontType](../../../images/img7395.png)
 
+> [!NOTE]
 > To type text with specified font, set it by using the **Font** list box. To stop formatting, define another font.

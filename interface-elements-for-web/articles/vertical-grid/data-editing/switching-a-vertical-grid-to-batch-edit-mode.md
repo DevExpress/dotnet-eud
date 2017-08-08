@@ -15,4 +15,5 @@ To edit cell values, switch to batch edit mode using one of the following.
 	
 	![EUD-ASPxVerticalGrid-FocusedCellClick](../../../images/img127026.gif)
 
+> [!NOTE]
 > Batch editing mode may be unavailable in your application, as this is a decision made by the application vendor.

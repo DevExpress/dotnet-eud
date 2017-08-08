@@ -11,6 +11,7 @@ You can modify existing appointments in the following ways:
 * [via the Bar or Ribbon interface](#barribbonui)
 * [via keyboard shortcuts and mouse operations](#keyboardshortcutsmouseoperations)
 
+> [!NOTE]
 > Access to some operations may be [restricted](restrictions-for-operations-with-appointments.md).
 
 ## <a name="contextmenu"/>Context Menu

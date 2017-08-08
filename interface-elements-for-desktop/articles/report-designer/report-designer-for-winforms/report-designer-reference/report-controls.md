@@ -58,6 +58,7 @@ If you drag the field with the right mouse button,  when the button is released 
 
 To learn more on data binding for report controls, refer to [Displaying Values from a Database (Binding Report Elements to Data)](../report-editing-basics/displaying-values-from-a-database-(binding-report-elements-to-data).md).
 
+> [!NOTE]
 > When controls overlap, the report may be shown incorrectly when [exported](../../../print-preview/print-preview-for-winforms/exporting/exporting-from-print-preview.md) to some formats. Red markers and a report tooltip will warn of this situation. You may switch off the red warning marks via the [report](report-settings.md)'s **Show Export Warnings** property.
 
 ![RD_Report_ShowExportWarnings](../../../../images/img8527.png)

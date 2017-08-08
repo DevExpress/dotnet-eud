@@ -30,4 +30,5 @@ In addition to editing text, you can enable switching [Check Box](../../report-e
 
 ![eud-web-check-box-edit-options](../../../../images/img126949.png)
 
+> [!NOTE]
 > The changes made to a control's content in Print Preview have no effect on other parts of the document (e.g., the related summary results, grouping, sorting, bookmarks and other settings that have already been processed before generating the document).

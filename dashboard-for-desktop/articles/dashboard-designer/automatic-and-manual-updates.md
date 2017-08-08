@@ -20,4 +20,5 @@ This indicates that this dashboard item requires the update to reflect changes. 
 
 Note that the state of the **Automatic Updates** option is saved to the [dashboard XML definition](saving-a-dashboard.md) but affects only the Dashboard Designer.
 
+> [!NOTE]
 > Note that automatic updates are disabled if you click the **Cancel** button on the loading panel when performing a time-consuming operation.

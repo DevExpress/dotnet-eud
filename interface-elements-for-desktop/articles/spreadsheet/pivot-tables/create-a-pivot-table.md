@@ -12,6 +12,7 @@ To create a PivotTable report, follow the steps below.
 	![Spreadsheet_PivotTable_Create](../../../images/img126424.png)
 2. In the invoked **Create PivotTable** dialog, specify the source data and the location of the new pivot table, and click **OK**. 
 	
+	> [!IMPORTANT]
 	> Before creating a pivot table, make sure that the source data is organized in a tabular format, has column headings in the first row and does not include blank rows or columns.
 	
 	![Spreadsheet_PivotTable_CreatePivotTable](../../../images/img126425.png)

@@ -7,6 +7,7 @@ legacyId: 5137
 ## Preview and Print a Report
 To switch a report to the print preview mode, click the [Preview Tab](report-designer-reference/report-designer-ui/preview-tab.md). You will see your report populated with data and broken down into pages, as specified. When in the Print Preview mode, you can print out your report using the appropriate menu and toolbar commands.
 
+> [!NOTE]
 > To learn more about the options available in the print preview mode, refer to the [Print Preview for WinForms](../../print-preview/print-preview-for-winforms.md) section of this documentation.
 
 ## Export a Report

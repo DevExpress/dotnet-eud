@@ -13,6 +13,7 @@ When Master Filtering is enabled, you can click a callout/bubble/pie (or multipl
 
 ![GeoPointMap_MasterFilter](../../../../images/img22296.png)
 
+> [!NOTE]
 > When you select a [clustered](clustering.md) bubble or pie, master filtering is applied by all points that are clustered into this bubble/pie.
 
 To learn how to enable Master Filtering in the Designer, see the [Master Filtering](../../interactivity/master-filtering.md) topic.

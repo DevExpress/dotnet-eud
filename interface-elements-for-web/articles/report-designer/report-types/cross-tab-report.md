@@ -15,6 +15,7 @@ To create a cross-tab report, do the following.
 	
 	![eud-cross-tab-report-1](../../../images/img119144.png)
 	
+	> [!NOTE]
 	> Since you have placed the Pivot Grid in the Detail band, the report's **Data Source** property should be set to **None**. Otherwise, the Pivot Grid will repeated at the preview as many times as there are records in the data source.
 	> 
 	> ![eud-chart-static-series-2](../../../images/img119107.png)

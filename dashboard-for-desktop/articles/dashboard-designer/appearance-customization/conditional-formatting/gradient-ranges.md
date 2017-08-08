@@ -18,6 +18,7 @@ This dialog allows you to change the following options specific to Gradient Rang
 * **Number of ranges** allows you to specify the number of ranges used to classify values. Click the **Generate Ranges** button to generate a new gradient scale according to the specified number of ranges.
 * The **Use % ranges** check box specifies whether the percent or absolute scale is used to generate ranges.
 	
+	> [!NOTE]
 	> Note that this option is not available for date-time dimensions.
 * To change the specific color in the gradient, click the button next to the required color and select a new color or specify a custom background color. This allows you to create a color gradient based on more than two colors. In this case, the specified colors are marked with an empty square.
 	
@@ -28,6 +29,7 @@ This dialog allows you to change the following options specific to Gradient Rang
 	
 	![GradientRangeDialog_ChangeRangeStop](../../../../images/img118678.png)
 	
+	> [!NOTE]
 	> Note that a new value should fall into a range between corresponding values of the previous and next range.
 * To change the comparison logic for the required range, click the comparison sign and select the required option.
 	

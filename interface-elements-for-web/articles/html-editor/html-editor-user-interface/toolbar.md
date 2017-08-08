@@ -12,4 +12,5 @@ Each standard toolbar button has its own tooltip, invoked while the button is ho
 
 ![ASPxHtmlEditor-toolbarbuttonhovering](../../../images/img7359.png)
 
+> [!NOTE]
 > Some buttons and functionality may be unavailable in your application. This is the choice of the application vendor.

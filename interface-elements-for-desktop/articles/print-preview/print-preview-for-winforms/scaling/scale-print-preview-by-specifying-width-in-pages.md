@@ -12,4 +12,5 @@ Set the required number of pages in the editor.
 
 Click **OK** to save changes and close the dialog.
 
+> [!NOTE]
 > If you're working with a document [loaded from file](../file-management/load-a-print-preview-from-a-file.md), you cannot use scaling.

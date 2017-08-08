@@ -38,6 +38,7 @@ Allows you to edit the content of a text-oriented [Report Controls](../report-el
 
 ![web-designer-surface-in-place-editor](../../../images/img24599.png)
 
+> [!NOTE]
 > The current Web Report Designer version does not support the in-place editing of rich text in the [Rich Text](../report-elements/report-controls.md) control. Only plain text editor is available for this report control.
 
 To toggle between the Design and Preview mode of a report, use the corresponding buttons of the [Main Toolbar](main-toolbar.md).

@@ -10,6 +10,7 @@ To convert the selected dashboard item to another type, use the dashboard item's
 
 ![wdd-convert-to-dialog](../../images/img125857.png)
 
+> [!NOTE]
 > You can also created a copy of the selected dashboard item using the **Duplicate current item** command.
 
 The Web Dashboard always preserves the following settings for data-bound dashboard items.

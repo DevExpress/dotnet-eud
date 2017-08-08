@@ -18,6 +18,7 @@ This dialog allows you to change the following options specific to Icon Ranges.
 * The **Format Style** combo box allows you to change the icon set used to apply formatting.
 * The **Use % ranges** check box specifies whether the percent or absolute scale is used to generate ranges.
 	
+	> [!NOTE]
 	> Note that this option is not available for date-time dimensions.
 * To change the icon displayed for values corresponding to the specified range, click the button next to the required icon and select a new icon.
 	
@@ -28,6 +29,7 @@ This dialog allows you to change the following options specific to Icon Ranges.
 	
 	![IconRangeSetDialog_ChangeRangeStop](../../../../images/img118657.png)
 	
+	> [!NOTE]
 	> Note that a new value should fall into a range between corresponding values of the previous and next range.
 * To change the comparison logic for the required range, click the comparison sign and select the required option.
 	

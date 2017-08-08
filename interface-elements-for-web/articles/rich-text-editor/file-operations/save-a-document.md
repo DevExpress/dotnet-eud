@@ -27,4 +27,5 @@ The **Rich Edit** control allows you to save documents in the following formats:
 
 To save the active document with its current file format and location, go to the **File** tab, and then click the **Save** button in the **Common** group. If you click the **Save** button to save a newly created document, the **Save as** dialog is invoked.
 
+> [!NOTE]
 > When saving a document in HTML format, in-line pictures are saved in the %FileName%_files folder, where %FileName% is the name of the document file. Image files are named "imageN.png", where N is the picture index starting from the beginning of the document.

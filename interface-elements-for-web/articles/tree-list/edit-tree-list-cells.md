@@ -21,4 +21,5 @@ If the cell values were edited within the Popup Edit Form, you can click the **C
 
 ![ASPxTreeList_PopupEdit_close.png](../../images/img16449.png)
 
+> [!NOTE]
 > In-place editing functionality may be disabled in your application. This is the choice of the application vendor.

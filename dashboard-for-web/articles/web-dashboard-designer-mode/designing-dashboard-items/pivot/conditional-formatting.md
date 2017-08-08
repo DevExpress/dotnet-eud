@@ -25,6 +25,7 @@ Depending on the selected format condition, the menu used to create a format rul
 
 ![wdd-pivot-cf-top-n-menu](../../../../images/img126062.png)
 
+> [!NOTE]
 > The **Miscellaneous** section of the format rule menu contains additional settings depending on the dashboard item type. The Pivot dashboard item allows you to manually specify an intersection level or disable the current rule.
 
 The format condition is now ready and will be applied to the Pivot dashboard item.

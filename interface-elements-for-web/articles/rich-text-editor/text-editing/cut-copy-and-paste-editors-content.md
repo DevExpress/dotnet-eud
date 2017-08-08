@@ -6,6 +6,7 @@ legacyId: 113833
 # Cut, Copy and Paste Editor's Content
 The **Rich Text Editor** allows you to move and copy text and images using the Clipboard.
 
+> [!NOTE]
 > Note that you can use Clipboard only in IE. For other browsers, use the keyboard shortcuts **Ctrl+C**, **Ctrl+X** and **Ctrl+V** to copy, cut and paste respectively.
 
 To move or copy a text or image, follow the steps below.

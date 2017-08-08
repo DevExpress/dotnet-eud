@@ -23,6 +23,7 @@ String values support the following grouping intervals.
 ## <a name="datetimegroupintervals"/>Date-Time Group Intervals
 Date-time values support the following group intervals.
 
+> [!NOTE]
 > Examples in the table below are formatted using the default settings. To learn how to customize format settings, see [Formatting Data](formatting-data.md).
 
 | Group interval | Description | Examples |

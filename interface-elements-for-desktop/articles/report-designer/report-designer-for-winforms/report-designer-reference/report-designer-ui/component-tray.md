@@ -8,4 +8,5 @@ The **Component Tray** shows components (non-visual report helpers) whose primar
 
 ![RD_Elements_ComponentTray](../../../../../images/img8317.png)
 
+> [!NOTE]
 > Component management and data binding configuration are usually performed by system administrators or your application vendor, since these areas require advanced knowledge of database connectivity. You will rarely, if ever, need to access component settings when modifying existing reports.

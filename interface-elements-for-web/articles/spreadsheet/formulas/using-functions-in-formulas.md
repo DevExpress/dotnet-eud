@@ -18,12 +18,14 @@ If you do not remember the name of the function you want to use, you can insert 
 
 On the **Formulas** tab, in the **Function Library** group, click the button corresponding to the category to which your function belongs, and select this function from the button's drop-down list.
 
+> [!TIP]
 > Frequently used functions such as **Sum**, **Average**, **Count Numbers**, **Max** and **Min** are also listed under the **AutoSum** button on the **Home** tab in the **Editing** group.
 
 For example, if you wish to add all numbers in the range **E4:E8**, in the **Function Library** group, select the **SUM** function from the **AutoSum** (or **Math &amp; Trig**) button's drop-down list. Type "E4:E8" in the function's parentheses or select the cell range directly in the worksheet, and press **ENTER**.
 
 ![EUD_ASPxSpreadsheet_Formulas_InsertFunction](../../../images/img26285.png)
 
+> [!NOTE]
 > If you start the formula with a function, the **Spreadsheet** automatically adds the equal sign to your formula.
 
 ## <a name="nestedfunction"/>Nested functions

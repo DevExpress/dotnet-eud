@@ -11,6 +11,7 @@ After [creating](create-a-new-data-source.md) a new dashboard, the **New** page 
 
 ![WebDesignerGettingStarted_CreateDataSource](../../../images/img123741.png)
 
+> [!NOTE]
 > The SQL data connection requires a query or a stored procedure for further work. To learn more about managing queries, see [Manage SQL Queries](working-with-sql-data-sources/manage-sql-queries.md).
 
 Click **Finish** to create a new data source based on the selected connection.

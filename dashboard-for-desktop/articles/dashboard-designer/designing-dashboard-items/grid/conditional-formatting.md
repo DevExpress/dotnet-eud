@@ -15,6 +15,7 @@ The Grid dashboard item allows you to apply conditional formatting to data items
 * [measure column](columns/measure-column.md);
 * [sparkline column](columns/sparkline-column.md).
 
+> [!NOTE]
 > Note that you can use [hidden measures](../../binding-dashboard-items-to-data/hidden-data-items.md) to specify a condition used to apply formatting to visible values.
 
 New appearance settings are applied to grid cells corresponding to the target dimension/measure values.

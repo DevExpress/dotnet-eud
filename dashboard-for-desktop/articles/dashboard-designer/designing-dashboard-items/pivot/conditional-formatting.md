@@ -12,6 +12,7 @@ The Pivot dashboard item supports the conditional formatting feature that provid
 ## <a name="conditional-formatting-overview"/>Conditional Formatting Overview
 The Pivot dashboard item allows you to use conditional formatting to measures placed in the **Values** section and dimensions placed in the **Columns/Rows** sections.
 
+> [!NOTE]
 > Note that you can use [hidden measures](../../binding-dashboard-items-to-data/hidden-data-items.md) to specify a condition used to apply formatting to visible values.
 
 New appearance settings are applied to pivot data cell or cells corresponding to column/row field values.
@@ -36,6 +37,7 @@ This dialog contains the following settings specific to Pivot.
 * If you specified the **Intersection mode** as _Specific Level_, use the **Row dimension** and **Column dimension** combo boxes to set the specific level.
 * The **Apply to row** and **Apply to column** check boxes allow you to specify whether to apply the formatting to the entire pivot row/column.
 
+> [!NOTE]
 > If you are creating a new format rule for the dimension from the **Columns/Rows** section, the corresponding format condition dialog would not contain any Pivot specific settings.
 
 ## <a name="edit-a-format-rule"/>Edit a Format Rule

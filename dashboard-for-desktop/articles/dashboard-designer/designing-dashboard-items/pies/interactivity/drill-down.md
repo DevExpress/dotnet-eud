@@ -13,12 +13,14 @@ When drill down on an argument is enabled, you can click a pie segment to view a
 
 ![Anim_Pies_DrillDownOnArguments](../../../../../images/img19909.png)
 
+> [!NOTE]
 > When [Filtering by Arguments](master-filtering.md) is enabled, you can view the details by double-clicking a pie segment.
 
 Drill down on an argument requires that the Arguments section contains several data items, from the least detailed to the most detailed item.
 
 ![Pies_Interactivity_DrillDown_Arguments_DataItems](../../../../../images/img19972.png)
 
+> [!NOTE]
 > In OLAP mode, you can perform drill-down for either a hierarchy data item or several dimension attributes.
 
 To enable drill down on an argument, click the **Drill Down** button in the **Data** Ribbon tab (or the ![Chart_Interactivity_DrillDown_Toolbar](../../../../../images/img21873.png) button if you are using the toolbar menu)...
@@ -34,12 +36,14 @@ When drill down on a series is enabled, you can click a pie chart to view a deta
 
 ![Anim_Pies_DrillDownOnSeries](../../../../../images/img19910.png)
 
+> [!NOTE]
 > When [Filtering by Series](master-filtering.md) is enabled, you can view the details by double-clicking a pie chart.
 
 Drill down on a series requires that the Series section contains several data items, from the least detailed to the most detailed item.
 
 ![Pies_Interactivity_DrillDown_Series_DataItems](../../../../../images/img19973.png)
 
+> [!NOTE]
 > In **OLAP** mode, you can perform drill-down for either a hierarchy data item or several dimension attributes.
 
 To enable drill down on a series, click the **Drill Down** button in the **Data** Ribbon tab (or the ![Chart_Interactivity_DrillDown_Toolbar](../../../../../images/img21873.png) button if you are using the toolbar menu)...

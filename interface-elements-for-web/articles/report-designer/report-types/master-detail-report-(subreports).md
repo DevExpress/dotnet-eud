@@ -57,6 +57,7 @@ To create a master-detail report using the subreport controls, do the following.
 	
 	![eud-subreports-9-5](../../../images/img121457.png)
 	
+	> [!NOTE]
 	> You can utilize the Subreport control to re-use an already existing report in the server-side report storage as a detail report. To do this, drop the Subreport control onto a report band, expand the drop-down list for the subreport's Report Source Url property and select the required report.
 	> 
 	> ![eud-subreports-9-6](../../../images/img121458.png)

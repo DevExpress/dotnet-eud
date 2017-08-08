@@ -22,6 +22,7 @@ To continue report customization, select at least one item and click **Next** to
 * If any custom queries and/or parameterized stored procedures are selected on this wizard page, you will be asked to customize parameters on the next wizard page: [Configure Query Parameters](configure-query-parameters.md).
 * If two or more tables and/or views are selected on this wizard page (and no custom queries), you will be asked to specify the data relationships on the next wizard page: [Configure Master-Detail Relationships](configure-master-detail-relationships.md).
 
+> [!NOTE]
 > When invoking the SQL Data Source Wizard to edit an existing data source, [another version](../editing-an-existing-data-source/create-a-query-or-select-a-stored-procedure.md) of this page is displayed.
 > 
 > This version is also shown if your software vendor switched the SQL Data Source Wizard to single-query mode.

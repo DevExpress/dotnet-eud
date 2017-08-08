@@ -9,6 +9,7 @@ There are two ways to invoke the context menu for an appointment:
 * **Right-click an appointment.**
 * **Use a smart tag.** To invoke a smart tag, select an appointment by clicking on it, and wait for the smart tag to appear. Then, click on the smart tag to invoke the context menu.
 	
+	> [!NOTE]
 	> This approach may be useful if you use a web browser (e.g. **Opera**), where right-clicking on an appointment doesn't invoke a **Scheduler** control's context menu.
 
 This context menu contains items that enable you to modify some appointment properties. For example, you can use the **Show Time As** submenu to change an appointment status.
@@ -23,6 +24,7 @@ Also, this menu contains the **Open** item, which allows you to invoke the [Edit
 
 ![EditMenuOpen](../../../images/img8233.png)
 
+> [!NOTE]
 > In addition, the appointment context menu may contain the **Edit Series** and **Restore Default State** menu items. This means that an appointment is a part of a series of recurring appointments. For more information, see [Make a Series of Recurring Appointments](make-a-series-of-recurring-appointments.md).
 
 ## <a name="editappointmentdialog"/>Edit Appointment Dialog

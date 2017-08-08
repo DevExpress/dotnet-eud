@@ -25,6 +25,7 @@ To adjust a Chart by manually creating its series, do the following.
 	
 	![EUD_WpfReportDersigner_Chart_3](../../../../images/img123913.png)
 	
+	> [!NOTE]
 	> Since you have placed the Chart in the Detail band, the report's **Data Source** property should not be set. Otherwise, the Chart will be repeated at the preview as many times as there are records in the data source.
 	> 
 	> ![EUD_WpfReportDesigner_CrossTabReport_4](../../../../images/img123582.png)

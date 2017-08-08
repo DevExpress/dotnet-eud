@@ -25,4 +25,5 @@ In this dialog you can specify document name, document format and the location t
 * Open Document Format (*.odt)
 * Electronic Publication (*.epub)
 
+> [!NOTE]
 > When saving a document in HTML format, in-line pictures are saved in the %FileName%_files folder, where %FileName% is the name of the document file. Image files are named "imageN.png", where N is the picture index starting from the beginning of the document.

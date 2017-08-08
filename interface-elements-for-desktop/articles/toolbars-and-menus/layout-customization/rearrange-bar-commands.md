@@ -12,4 +12,5 @@ To rearrange bar commands, do the following:
 
 To copy a bar command, press CTRL while dragging.
 
+> [!NOTE]
 > You can move commands even when the customization window is closed. For this purpose, hold down the ALT key when dragging a bar command.

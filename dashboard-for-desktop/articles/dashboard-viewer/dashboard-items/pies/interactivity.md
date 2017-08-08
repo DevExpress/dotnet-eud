@@ -38,6 +38,7 @@ The Pie dashboard item supports drill-down on argument or series values.
 	
 	![Anim_Pies_DrillDownOnArguments](../../../../images/img19909.png)
 	
+	> [!NOTE]
 	> When **Filtering by Arguments** is enabled, you can view the details by double-clicking a pie segment.
 * **Drill-Down on a Series**
 	
@@ -45,6 +46,7 @@ The Pie dashboard item supports drill-down on argument or series values.
 	
 	![Anim_Pies_DrillDownOnSeries](../../../../images/img19910.png)
 	
+	> [!NOTE]
 	> When **Filtering by Series** is enabled, you can view the details by double-clicking a pie chart.
 
 To return to the previous detail level (drill-up), use the **Drill Up** button (the ![DrillDown_DrillUpArrow](../../../../images/img18627.png) icon) in the [caption](../../data-presentation/dashboard-layout.md) area of the Pie dashboard item, or the **Drill Up** command in the context menu.

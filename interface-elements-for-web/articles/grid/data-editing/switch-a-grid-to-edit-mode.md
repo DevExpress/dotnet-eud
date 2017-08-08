@@ -8,4 +8,5 @@ To edit cell values, switch to the edit mode. To do this, click **Edit**.
 
 ![ASPxGridView_StartEdit](../../../images/img7155.png)
 
+> [!NOTE]
 > In-place editing links may be unavailable in your application. This is up to the application vendor.

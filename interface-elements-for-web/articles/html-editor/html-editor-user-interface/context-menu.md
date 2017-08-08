@@ -55,4 +55,5 @@ The context menu contains the following commands.
 
 Default command visibility is switched based on the currently selected element.
 
+> [!NOTE]
 > Some browsers (e.g., Firefox, Chrome) do not allow scripts to work with the clipboard for security reasons. Therefore, the Cut, Copy, and Paste commands are removed from the context menu for these browsers.

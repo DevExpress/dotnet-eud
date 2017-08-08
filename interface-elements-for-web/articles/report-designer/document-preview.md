@@ -19,4 +19,5 @@ The Document Preview provides a [Preview Toolbar](document-preview/preview-toolb
 | ![web-designer-panel-icon-document-map](../../images/img125879.png) | [Document Map Panel](document-preview/document-map-panel.md) |
 | ![web-designer-panel-icon-preview-parameters](../../images/img125880.png) | [Preview Parameters Panel](document-preview/preview-parameters-panel.md) |
 
+> [!NOTE]
 > To learn more about the options available in the preview mode, refer to the [HTML5 Document Viewer](../document-viewer/html5-document-viewer.md) section of this documentation.

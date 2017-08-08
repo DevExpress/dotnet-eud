@@ -39,6 +39,7 @@ You can create your own style for a multilevel list on the basis of one of the e
 	
 	![EUD_ASPxRichEdit_Lists_OutlinedListDialog-1](../../../images/img117991.png)
 	
+	> [!NOTE]
 	> The **Customize...** button is disabled if the **None** item of the **Bullets and Numbering** dialog is selected.
 4. In this dialog, change different list parameters to create your own list style.
 	

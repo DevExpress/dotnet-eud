@@ -9,6 +9,7 @@ The Web Dashboard allows you to group dimension values and display summaries for
 ## Changing a Date-Time Group Interval
 Date-time values support the following group intervals.
 
+> [!NOTE]
 > Examples in the table below are formatted using the default settings. To learn how to customize format settings, see [Formatting Data](formatting-data.md).
 
 | Group interval | Description | Examples |

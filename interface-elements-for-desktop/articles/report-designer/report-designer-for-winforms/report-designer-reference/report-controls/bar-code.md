@@ -8,6 +8,7 @@ The **Bar Code** control transforms its content into a bar code of the specified
 
 ![RD_Controls_BarCode](../../../../../images/img8279.png)
 
+> [!NOTE]
 > The barcode quality can degrade when the report is exported to formats other than PDF. To ensure reliable barcode recognition, print the report directly from an application using the native printing methods. The **Module** and **Auto-Module** properties of a control should be used with care.
 
 In the [Property Grid](../report-designer-ui/property-grid.md), the Bar Code's properties are divided into the following groups.

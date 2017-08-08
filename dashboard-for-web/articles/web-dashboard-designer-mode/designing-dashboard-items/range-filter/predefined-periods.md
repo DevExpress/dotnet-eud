@@ -23,6 +23,7 @@ The following modes used to set predefined ranges are available.
 * **Fixed** - Allows you to select a specific date value using the calendar. Use the **Start/End Date** option to set a value.
 * **Flow** - Allows you to select a relative date value. The **Interval** option specifies the interval between the current date and the required date. The **Offset** option allows you to set the number of such intervals.
 	
+	> [!NOTE]
 	> Note that the **Offset** option can accept **negative** and **positive** values. Negative values correspond to dates before the current date, while positive values correspond to future dates.
 
 ## <a name="select"/>Select Predefined Periods
