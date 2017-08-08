@@ -51,6 +51,7 @@ You can use regular expressions to search for specific text containing a particu
 	![RTERegularExpressions](../../../images/img121300.png)
 4. If you want to replace the found text, click the **Replace** tab and enter the replacement text in the **Replace with** box.
 	
+	> [!NOTE]
 	> You can tag various parts of a regular expression to use them in replacement expression (for example, to rearrange the parts of the expression). A regular expression may have up to **9** tagged expressions, numbered according to their order in the regular expression. To enter a tagged expression in the **Replace with** box, enter its index after the symbol $ or select it from the list of tagged expressions:
 	> 
 	> ![RTETaggedExpressions](../../../images/img121299.png)

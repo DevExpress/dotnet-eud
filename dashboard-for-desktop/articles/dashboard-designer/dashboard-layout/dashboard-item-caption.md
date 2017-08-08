@@ -16,6 +16,7 @@ To show or hide the caption of a dashboard item, click the **Show Caption** butt
 
 ![ItemMenu_ShowCaption](../../../images/img20446.png)
 
+> [!NOTE]
 > The caption of the Range Filter dashboard item is not visible by default.
 
 The caption of the Dashboard item contains the following information and buttons, depending on the dashboard item type:

@@ -17,4 +17,5 @@ The following sections are available in this guide.
 * [Report Wizard](report-designer-for-winforms/report-wizard.md)
 * [Preview, Print and Export Reports](report-designer-for-winforms/preview-print-and-export-reports.md)
 
+> [!NOTE]
 > Some features described in this guide may differ from what you see in your application. This depends on your application vendor.

@@ -17,6 +17,7 @@ DevExpress Dashboard ships with a set of default maps showing various parts of t
 * **USA** - a map of the USA.
 * **Canada** - a map of Canada.
 
+> [!NOTE]
 > Note that the **World Countries** map has a lower level of detail than maps of specific regions and may not contain some countries. As an alternative, you can load a custom map with the required granularity.
 
 To select the default map, use the **Default Map** button in the **Design** ribbon tab.
@@ -36,6 +37,8 @@ To open an existing shapefile, use the **Load Map** or **Import Map** button in 
 
 In the invoked dialog, locate the required **.shp** file. Note that custom maps created in the Cartesian coordinate system are not supported.
 
+> [!NOTE]
 > If the map is opened using the **Load Map** button, the [dashboard XML definition](../../saving-a-dashboard.md) will contain the path to a map shapefile. If the map is opened using the **Import Map** button, the dashboard XML definition will contain the map itself.
 
+> [!NOTE]
 > Attributes from the corresponding **.dbf** file located in the same directory will automatically be included in the map.

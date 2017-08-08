@@ -17,4 +17,5 @@ This dialog allows you to do the following:
 * Select paper size.
 * Change page margins. (This can also be done [in the Print Preview dialog](specify-page-margins-in-print-preview.md))
 
+> [!NOTE]
 > If you're working with a document that was [loaded from file](../file-management/load-a-print-preview-from-a-file.md), the **Page Setup** commands on the toolbar and main menu will be disabled.

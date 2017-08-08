@@ -48,6 +48,7 @@ The following commands are available.
 	First, check the join type. You can specify it in the **Join type** combo box (_Inner join_ or _Left outer join_).
 	To edit column and table names in the existing condition, click the name you wish to replace and choose a different name from the popup menu.
 	
+	> [!NOTE]
 	> Note that the **Join Editor** dialog will be invoked automatically if you join tables that do not have a relationship at the database level.
 * **Delete Relation** - Removes the selected relation. Note that this action removes the joined table(s).
 
@@ -61,12 +62,14 @@ The following settings are available for each column.
 * The **Table** column displays corresponding table names.
 * The **Alias** column allows you to specify the column alias.
 	
+	> [!NOTE]
 	> Note that aggregated columns should always have an alias.
 * The **Output** column allows you to choose whether to include specific columns to the query.
 * Use the **Sorting type** combo box to specify the sort order of column values. The **Sort order** column allows you to specify the order in which several columns are sorted.
 * The **Group By** statement is used in conjunction with the aggregate functions to group the result-set by one or more columns.
 * The **Aggregate** option allows you to specify the aggregate function used to aggregate column values.
 	
+	> [!NOTE]
 	> Note that you should apply aggregation/grouping either to all columns or to none of them.
 
 ## <a name="filter-data"/>Filter Data
@@ -77,6 +80,7 @@ To filter data in the Query Builder, click the **Filter...** button. This will i
 To learn more, see [Filter Queries](filter-queries.md).
 
 ## <a name="customize-sql-query"/>Customize SQL Query
+> [!IMPORTANT]
 > Note that the Query Builder does not allow you to use custom SQL queries by default.
 
 After you add the required tables, you can customize the automatically generated SQL query. To do this, enable the **Allow Edit SQL** check box and edit the SQL query displayed in the **SQL** pane.
@@ -85,6 +89,7 @@ After you add the required tables, you can customize the automatically generated
 
 For instance, you can add a WHERE clause to the SQL expression.
 
+> [!NOTE]
 > Note that if you edit the automatically generated query and uncheck the **Allow Edit SQL** check box, your changes will be discarded, and the generated query will be restored.
 
 ## <a name="preview-data"/>Preview Data

@@ -8,4 +8,5 @@ To edit cell values, switch to the edit mode by clicking **Edit**.
 
 ![EUD_CardView_EditCard](../../../images/img121510.png)
 
+> [!NOTE]
 > In-place editing links may be unavailable in your application. This is up to the application vendor.

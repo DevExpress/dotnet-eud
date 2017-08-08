@@ -10,4 +10,5 @@ The **Field Chooser** allows you to select the fields displayed in a **Tree List
 
 ![EUD_TreeList_Field Chooser](../../../images/img22695.png)
 
+> [!NOTE]
 > This functionality may be disabled in your application depending on the policies of the application vendor.

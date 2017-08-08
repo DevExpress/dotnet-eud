@@ -22,4 +22,5 @@ When drill-down is enabled, you can click a tile to view its details.
 
 ![Treemap_DrillDown](../../../../images/img127987.png)
 
+> [!NOTE]
 > When Master Filtering is enabled, you can view the details by double-clicking a tile.

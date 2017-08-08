@@ -22,6 +22,7 @@ When drill-down is enabled, you can click a gauge to view the details.
 
 ![Gauges_DrillDown_Web](../../../../images/img22509.png)
 
+> [!NOTE]
 > When **Master Filtering** is enabled, you can view the details by clicking a selected gauge.
 
 To return to the previous detail level (drill up), use the **Drill Up** button (the ![WebViewer_DrillUpIcon](../../../../images/img22464.png) icon) in the dashboard item's [caption](../../data-presentation/dashboard-layout.md).

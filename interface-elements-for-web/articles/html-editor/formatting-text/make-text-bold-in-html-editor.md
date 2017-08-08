@@ -10,6 +10,8 @@ To apply bold formatting to a specific portion of the text, do the following:
 
 ![ASPxHtmlEditor-WorkingWithText-BoldSample](../../../images/img7409.png)
 
+> [!NOTE]
 > Note that if you want to remove bold formatting from the text, select the required bold-formatted part of the text, and repeat the actions described above.
 
+> [!NOTE]
 > To type bold formatted text, press the ![ASPxHtmlEditor-Buttons-Bold](../../../images/img7400.png) button. To stop bold formatting, press the button again.

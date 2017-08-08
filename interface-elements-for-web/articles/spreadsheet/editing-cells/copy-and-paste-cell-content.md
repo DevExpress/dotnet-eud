@@ -6,6 +6,7 @@ legacyId: 18141
 # Copy and Paste Cell Content
 The **Spreadsheet** allows you to copy and paste entire cells, or only their contents, using the Clipboard.
 
+> [!NOTE]
 > Note that you can use Clipboard only in IE. For other browsers, use the keyboard shortcuts **Ctrl+C**, **Ctrl+X** and **Ctrl+V** to copy, cut and paste respectively.
 
 To move or copy cell content, follow the steps below.

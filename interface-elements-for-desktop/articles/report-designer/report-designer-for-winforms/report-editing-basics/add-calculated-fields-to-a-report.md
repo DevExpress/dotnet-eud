@@ -23,6 +23,7 @@ To add a calculated field to your report, follow the instructions below.
 	
 	Click **Fields** to see the field list. Double-click field names to add them to the expression string. Use the toolbar to add operators between field names.
 	
+	> [!NOTE]
 	> Note that it's also possible to employ [parameters](add-parameters-to-a-report.md) in a calculated field's expression.
 	
 	To close the dialog and save the expression, click **OK**.

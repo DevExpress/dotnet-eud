@@ -10,6 +10,7 @@ The **Spell Checker** provides the capability to check spelling and correct mist
 
 To start the check, click **Check Spelling...**.
 
+> [!NOTE]
 > An action required to start checking depends on your application vendor.
 
 The Spell Checker compares words in the text with words in the dictionaries. If the Spell Checker cannot find a word in the dictionaries, a Check Spelling window appears. The Spell Checker highlights words which are not in the dictionaries and suggests a list of alternates. To correct the current word, choose the right version from a list and click **Change**. Click **Change All** to correct this word in the entire text. To ignore the current word, click **Ignore Once**. To ignore this word in the entire document, click **Ignore All**.

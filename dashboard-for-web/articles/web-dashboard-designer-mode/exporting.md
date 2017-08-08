@@ -25,6 +25,7 @@ Invokes a corresponding dialog that allows you to export a dashboard to a PDF fi
 * **Title** - Specifies the title of the exported document.
 * **Scale Mode** - Specifies the mode for scaling when exporting a dashboard.
 	
+	> [!NOTE]
 	> Note that this option is in effect when **Page Layout** is set to value different from _Auto_.
 
 ### Export to Image
@@ -51,6 +52,7 @@ Invokes a corresponding dialog that allows you to export dashboard's data to the
 
 Specify the required options in the dialog and click the **Export** button to export the dashboard. To reset the changes to the default values, click the **Reset** button.
 
+> [!NOTE]
 > If you export the entire dashboard, its current state is preserved (e.g., the [dashboard layout](dashboard-layout.md), the scroll position of individual dashboard items and selections within [master filter](interactivity/master-filtering.md) items).
 
 ## <a name="exportingdashboarditems"/>Exporting Dashboard Items
@@ -63,4 +65,5 @@ To export a dashboard item, click the ![Printing_ExportElementButtonWeb](../../i
 
 To learn more about exporting specifics of different dashboard items, see the **Exporting** topic for the required [dashboard item](../web-dashboard-viewer-mode/dashboard-items.md).
 
+> [!NOTE]
 > When an individual dashboard item is printed, the entire item's content is reflected in the printed document regardless of the item's current scroll position.

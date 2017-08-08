@@ -17,6 +17,7 @@ Use this dialog to build filter criteria with a convenient tree-like interface.
 
 ![wdd-filter-editor](../../../images/img124632.png)
 
+> [!NOTE]
 > Note that you can use [hidden dimensions](../binding-dashboard-items-to-data/hidden-data-items.md) within the Filter Editor dialog, allowing you to filter data based on the values.
 
 ## Pass Parameter Values

@@ -16,6 +16,7 @@ To add parameters and filter your report based on their values, follow the steps
 	
 	![RD_CreateReports_Parametrized_1](../../../../images/img8357.png)
 	
+	> [!NOTE]
 	> In Print Preview, the report's document is not generated until you have submitted values of all the parameters that have the **Show in the parameters panel** option switched on via the **Parameters** UI.
 3. Enabling the **Supports the collection of standard values** option of the parameter allows end-users to modify its value and also activates the **Dynamic values** and the **Static values** tabs of the window:
 	* On the **Dynamic values** tab, you can specify a parameter's data source, data adapter and data member. The value member defines a data field that provides values to the parameter. The display member defines a data field that provides display names for parameter values (how these values appear in the user interface available in a Print Preview).

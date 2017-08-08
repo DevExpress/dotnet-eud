@@ -10,12 +10,14 @@ When drill-down is enabled, you can click a point to view the details.
 
 ![ScatterChart_DrillDown](../../../../../images/img120198.png)
 
+> [!NOTE]
 > When [Master Filtering](../../../interactivity/master-filtering.md) is enabled, you can view the details by double-clicking a point.
 
 Drill-down requires that the **Arguments** section contain several dimensions, from the least to the most detailed dimension.
 
 ![ScatterChart_DrillDownArguments](../../../../../images/img120199.png)
 
+> [!NOTE]
 > In OLAP mode, you can perform drill-down for either a hierarchy data item or several dimension attributes. To learn more about OLAP mode, see [Binding Dashboard Items to Data in OLAP mode](../../../binding-dashboard-items-to-data/binding-dashboard-items-to-data-in-olap-mode.md).
 
 To enable drill-down, click the **Drill Down** button in the **Data** Ribbon tab (or the ![DataShaping_Interactivity_DrillDown_Toolbar](../../../../../images/img19513.png) button if you are using the toolbar menu).

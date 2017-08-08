@@ -25,6 +25,7 @@ If necessary, you can customize the selected period by clicking the **Edit** but
 
 ![RangeFilter_PeriodDialog](../../../../images/img123459.png)
 
+> [!NOTE]
 > Note that the **Edit** dialog above contains the displayed periods (**Year**, **Quarter**, **Month**, **Day**) if the [group interval](../../data-shaping/grouping.md) of the Range Filter argument is set to **Day-Month-Year**.
 
 This dialog allows you to add the following periods.
@@ -65,4 +66,5 @@ This dialog allows you to add the following periods.
 		* **Fixed** - Allows you to select a specific date value using the calendar.
 		* **Flow** - Allows you to select a relative date value. The **Interval** option specifies the interval between the current date and the required date. The **Offset** option allows you to set the number of such intervals.
 			
+			> [!NOTE]
 			> Note that the **Offset** option can accept negative and positive values. Negative values correspond to dates before the current date, while positive values correspond to future dates.

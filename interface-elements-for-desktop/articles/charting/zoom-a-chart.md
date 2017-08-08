@@ -21,6 +21,7 @@ To zoom in a chart, do one of the following.
 	
 	After releasing the left mouse button, a chart is zoomed into the bounds of the selected region on a diagram.
 	
+	> [!NOTE]
 	> This feature is available for 2D charts only.
 	> 
 	> if you press SHIFT and can't zoom in anymore (the mouse pointer is changed to ![ZoomingChart4](../../images/img7226.gif)), then a chart is already zoomed in by **100** times (10000%). This is the maximum possible zoom factor allowed.

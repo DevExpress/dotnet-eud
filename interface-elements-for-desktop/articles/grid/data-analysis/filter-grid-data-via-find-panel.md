@@ -61,4 +61,5 @@ Precede a condition with "-" to exclude records that match this condition from t
 | ``From:Roller&nbsp;Subj:"currency&nbsp;mask"`` | Selects records that contain "Roller" in the column that starts with "From", AND also contain "currency mask" in the column that starts with "Subj". |
 | ``import&nbsp;-From:Steve`` | Selects records that contain "import" in any search column, excluding records that contain "Steve" in the column that starts with "From". |
 
+> [!NOTE]
 > Searches performed using a Find Panel are case insensitive.

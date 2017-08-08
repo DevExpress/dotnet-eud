@@ -30,6 +30,7 @@ The Card dashboard item uses the [Stretched](#available) layout template that ar
 
 To learn more about the available value types and visual elements, see [Change Layout](#change).
 
+> [!NOTE]
 > **Delta Indicator** and delta values (such as **Percent Variation** or **Absolute Variation**) are colored depending on delta settings. To learn how to manage delta settings, see [Delta](delta.md).
 
 ## <a name="change"/>Change Layout

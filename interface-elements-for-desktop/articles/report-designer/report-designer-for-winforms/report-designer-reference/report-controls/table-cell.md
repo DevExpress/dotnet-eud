@@ -81,6 +81,7 @@ In the [Property Grid](../report-designer-ui/property-grid.md), the Table Cell's
 	
 	Specifies the number of table rows that the cell spans.
 	
+	> [!NOTE]
 	> New controls cannot be dropped onto the merged cells.
 	> 
 	> The Can Grow and Can Shrink properties have no effect on the merged cells.
@@ -108,6 +109,7 @@ In the [Property Grid](../report-designer-ui/property-grid.md), the Table Cell's
 	
 	Allows you to perform calculations (summary, max, min, average, etc.) over a data field. For more information on calculating summaries, refer to [Add Totals to a Report](../../report-editing-basics/add-totals-to-a-report.md).
 	
+	> [!NOTE]
 	> Summarization is possible for a single data column only. To perform calculations with several data fields, use [calculated fields](../../report-editing-basics/add-calculated-fields-to-a-report.md).
 * **Tag**
 	

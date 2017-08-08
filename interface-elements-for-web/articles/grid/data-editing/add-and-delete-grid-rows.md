@@ -19,4 +19,5 @@ To delete a record, click **Delete** within the row to be deleted.
 
 ![DeleteRow](../../../images/img7149.png)
 
+> [!NOTE]
 > Records management links may be unavailable in your application. This is the choice of the application vendor.

@@ -40,6 +40,7 @@ You can create totals using different sets of summary functions. This depends on
 | ![field-list-icon-number](../../../../images/img18796.png) ![UIElements_DataSourceBrowser_FieldListIconNumericFloat](../../../../images/img20881.png) | Numeric | All available types |
 | ![field-list-icon-string](../../../../images/img18798.png) | String | Min, Max, Count |
 
+> [!IMPORTANT]
 > Note that the **Auto** type is available only for the [Measure](columns/measure-column.md) column.
 
 <a name="create"/>

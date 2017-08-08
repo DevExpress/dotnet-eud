@@ -14,4 +14,5 @@ HTML Editor provides the following ribbon tabs that contain predefined sets of r
 * **View** tab contains an item allowing you to switch the editor to full-screen mode.
 * **Layout** context tab contains table-related items and is displayed when a selection is in a table.
 
+> [!NOTE]
 > Some buttons and functionality may be unavailable in your application. This is the choice of the application vendor.

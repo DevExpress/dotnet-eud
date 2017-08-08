@@ -19,6 +19,7 @@ Text elements (e.g. [Labels](../report-designer-reference/report-controls/label.
 
 ![ElementInplaceEditing](../../../../images/img9159.png)
 
+> [!NOTE]
 > For in-place editing, you also can utilize the [Formatting Toolbar](../report-designer-reference/report-designer-ui/formatting-toolbar.md).
 
 Another way to change a control's static information, is by clicking its [Smart Tag](../report-designer-reference/report-designer-ui/smart-tag.md). Then, the invoked actions list will contain a link (or, a button) allowing you to edit this control's content.

@@ -25,6 +25,7 @@ To adjust a Chart with automatically created series, do the following.
 	
 	After the data source is created, it is assigned to the Chart's **Data Source** property. Its **Data Member** property defines from which table or view of your data source the Chart obtains its data.
 	
+	> [!NOTE]
 	> Since you have placed the Chart in the Detail band, the [report](../../report-designer-reference/report-settings.md)'s **Data Source** property should be set to **None**. Otherwise, the Chart will be repeated at the preview as many times as there are records in the data source.
 	> 
 	> ![RD_CreateReports_ChartStaticSeries_2](../../../../../images/img8365.png)

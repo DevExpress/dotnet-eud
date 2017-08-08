@@ -50,6 +50,7 @@ In the [Property Grid](../report-designer-ui/property-grid.md), the Pivot Grid's
 	
 	Determines the data source member which supplies data to a Pivot Grid. To learn more on this, refer to [Cross-Tab Report](../../create-reports/report-types/cross-tab-report.md).
 	
+	> [!NOTE]
 	> Usually, it is not necessary to specify the Data Member property when binding a Pivot Grid to data. This property should only be set directly if the dataset contains more than one table.
 * **Data Source**
 	
@@ -88,6 +89,7 @@ In the [Property Grid](../report-designer-ui/property-grid.md), the Pivot Grid's
 	
 	This dialog allows you to build complex filter criteria with an unlimited number of filter conditions, combined by logical operators. It provides a set of logical operators that significantly simplify the process of creating filters for text, numeric and date-time fields.
 	
+	> [!NOTE]
 	> The Prefilter is not supported in OLAP mode.
 * **Tag**
 	

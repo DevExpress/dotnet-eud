@@ -12,6 +12,7 @@ To enable the filtering functionality, select the required data, and on the **Da
 
 Once filtering is activated, a drop-down arrow ![Spreadsheet_FilterAndSortArrow](../../../images/img25500.png) appears on the right side of each column header in the range. Depending on the data in the column you wish to filter, you can apply one of the following filters: Filter by Values, Text Filter, Number Filter or Date Filter.
 
+> [!NOTE]
 > You can filter your data by multiple columns. Filters are **additive**: each new filter is applied in addition to the existing filters and further reduces your data.
 
 * [Filter by Values](#filtervalues)
@@ -45,6 +46,7 @@ To apply the text filter, do the following.
 	
 	To make your filter criterion more flexible, use the **wildcard characters**. The asterisk **&#42;** matches any number of characters, while the question mark **?** represents a single character. For example, to display all the values that start with the letter &quot;**C**&quot;, you can either use the **Begins With** operator as shown in the image above, or select the **Equals** operator and type &quot;**C&#42;**&quot; in the box on the right.
 	
+	> [!TIP]
 	> To filter values containing a specific character, such as the asterisk, question mark or tilde, put the tilde (&#126;) before it.
 
 ## <a name="numberfilter"/>Number Filter

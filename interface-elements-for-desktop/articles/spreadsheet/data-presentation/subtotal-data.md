@@ -6,6 +6,7 @@ legacyId: 17909
 # Subtotal Data
 The **Spreadsheet** allows you to automatically [group](outline-data.md) related data in a worksheet and add summary rows to each group using the **SUBTOTAL** function.
 
+> [!IMPORTANT]
 > Before subtotaling, it is necessary to ensure that the range to be subtotaled contains similar data in each column, has column headings in the first row and does not include blank rows or columns.
 
 To insert subtotals for the selected range, follow the steps below.

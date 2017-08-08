@@ -54,6 +54,7 @@ Along with [built-in heading styles](#headingstyles) and [outline levels](#outli
 		
 		This will add the "Entry Text" first-level item (the _\l_ switch sets the level of the TC entry) to the TOC with an _\f_ switch and the _A_ identifier. The _\f_ switch of the TC field is used to include the TC field in the corresponding TOC. A TC field identifier (_A_ in this case) must exactly match the text in the argument of the TOC field's \f switch. For example, the _{TOC \f A}_ table of contents will be created from TC fields like _{TC "Entry Text" \f A}_.
 		
+		> [!NOTE]
 		> TC fields display no result in the document. To view field codes, click **Show All Field Codes** on the **Mail Merge** [tab](../text-editor-ui/ribbon-interface.md).
 		
 		![RTE_TOC_ShowAllFieldCodes](../../../images/img121393.png)

@@ -34,6 +34,7 @@ Tables below list the available data sections.
 	* If you select **Value**, the Choropleth map colors map shapes depending on the values provided. To learn more, see [Map Coloring](map-coloring.md).
 	* If you select **Delta**, the Choropleth map colors map shapes depending on the difference between two values. To learn how to specify delta indication settings, see [Delta](map-coloring/delta.md).
 	
+	> [!NOTE]
 	> You can fill several data item containers in the **Maps** section and use the **Values** drop-down menu to switch between the provided values. To invoke the **Values** menu, click the ![DashboardItems_OtherElements](../../../../images/img20169.png) icon in the dashboard item caption.
 
 **TOOLTIP DATA ITEMS**

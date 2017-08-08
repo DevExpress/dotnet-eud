@@ -25,6 +25,7 @@ Depending on the selected format condition, the menu used to create a format rul
 
 ![wdd-grid-cf-value-menu](../../../../images/img126023.png)
 
+> [!NOTE]
 > The **Miscellaneous** section of the format rule menu contains additional settings, depending on the dashboard item type. The Grid dashboard item allows you to apply the current format rule to a row or disable this rule.
 
 The format condition is now ready and will be applied to the Grid dashboard item.

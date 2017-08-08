@@ -14,4 +14,5 @@ Any part of the editor's content (images, tables or other content) can be cut, c
 | ![ASPxHtmlEditor-Buttons-Paste](../../../images/img7392.png) **Paste** | CTRL+V, SHIFT+INS | Pastes the selected content to the editor. This action is available if the clipboard is not empty. |
 | ![ASPxHtmlEditor-Buttons-PasteFromWord](../../../images/img10317.png) **Paste From Word** | None | Pastes the copied content from Word to the editor. This action is available if the clipboard is not empty. |
 
+> [!NOTE]
 > The copy and cut operations place the copied or cut content onto the clipboard, replacing the existing content.

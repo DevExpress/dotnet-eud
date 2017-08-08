@@ -45,6 +45,7 @@ When the left outer join is selected, the relationship line displays an arrow po
 
 After executing the query, it will return a "flat" table composed of data records selected based on the specified join options.
 
+> [!NOTE]
 > Although joining different tables within a single query may be required in some scenarios, creating [hierarchical data sources](master-detail-relation-editor.md) generally results in better performance (in general, [master-detail reports](../report-types/master-detail-report.md) are generated faster than similar-looking reports created by grouping "flat" data sources).
 
 ## <a name="filter"/>Filter Data
@@ -103,6 +104,7 @@ The following options are available.
 	
 	Specifies whether or not the query result set should be grouped by this column.
 	
+	> [!NOTE]
 	> Grouping and/or aggregation can only be applied to each of the selected columns.
 * **Aggregate**
 	
@@ -112,6 +114,7 @@ The following options are available.
 	
 	Applying any of these functions to a column will discard individual data records from the query result set, which will only include the aggregate function result.
 	
+	> [!NOTE]
 	> Grouping and/or aggregation can only be applied to each of the selected columns.
 
 ## <a name="preview"/>Preview Results

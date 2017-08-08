@@ -42,6 +42,7 @@ A defined name is a meaningful shorthand name that describes the meaning of an i
 ## <a name="definednamescope"/>Defined Name Scope
 Each defined name has a scope - an area (individual worksheet or entire workbook) where the name is recognized and can be used without qualification. For example, a defined name (_cellName_) whose scope is the first worksheet of a workbook (_Sheet1_) is recognized without qualification in this worksheet only (e.g., _=5+cellName_). To use this defined name in other worksheets, precede it with the name of the worksheet to which the defined name belongs (e.g., _"=5+Sheet1!cellName"_). If the scope of a defined name (_cellName_global_) is an entire workbook, this name is recognized in any worksheet of this workbook (e.g., _"=5+cellName_global"_).
 
+> [!NOTE]
 > Each name must be unique in its scope.
 
 If the defined name is not found, the cell that uses this name displays the **#NAME?** [error](error-types-in-formulas.md).
@@ -96,6 +97,7 @@ To create a name from a selection, do the following.
 	
 	![Spreadsheet_CreateFromSelectionDialog](../../../images/img25748.png)
 
+> [!NOTE]
 > Names generated using this approach do not include the row and column labels and refer only to the cells containing values.
 
 ## <a name="namemanager"/>Mange Names Using the Name Manager Dialog

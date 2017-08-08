@@ -22,6 +22,7 @@ When drill-down is enabled, you can click a card to view the details.
 
 ![Anim_Cards_DrillDown](../../../../images/img19995.gif)
 
+> [!NOTE]
 > When **Master Filtering** is enabled, you can view the details by double-clicking a card.
 
 To return to the previous detail level (drill up), use the **Drill Up** button (the ![DrillDown_DrillUpArrow](../../../../images/img18627.png) icon) in the [caption](../../data-presentation/dashboard-layout.md) area of the **Card** dashboard item, or the **Drill Up** command in the context menu.

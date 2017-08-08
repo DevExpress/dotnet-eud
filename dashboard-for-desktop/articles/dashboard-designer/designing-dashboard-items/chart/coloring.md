@@ -10,4 +10,5 @@ By default, the Chart dashboard item colors different measures and series dimens
 
 ![Coloring_DimensionColorByItem](../../../../images/img25374.png)
 
+> [!NOTE]
 > Note that the Chart dashboard item does not support coloring for the [financial](series/financial-series.md) series.

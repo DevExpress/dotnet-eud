@@ -30,4 +30,5 @@ You can specify the color by typing it directly in the editor's text box. Note t
 | Shorthand hexadecimal notation | #0FF, 21f, #afa | ![ColorEdit_Format3](../../images/img22723.png) | #RGB, where R is red, G is green, and B is blue. These hexadecimal integers specify the components of the color. All values must be between 0 and F. The hash (#) sign can be skipped. |
 | RGB format | rgb(143,26,225), RGB(255,255,0), rgb(0,0,0) | ![ColorEdit_Format4](../../images/img22724.png) | RGB(red, green, blue). Each parameter (red, green, and blue) defines the intensity of the color and must be an integer between 0 and 255. |
 
+> [!NOTE]
 > If you specify the wrong value, the editor returns the last correct value.

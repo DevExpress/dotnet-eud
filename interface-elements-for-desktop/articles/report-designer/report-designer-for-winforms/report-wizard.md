@@ -14,6 +14,7 @@ The **Report Wizard** is a tool that allows you to easily create reports based o
 	
 	![RD_ReportWizard_0](../../../images/img8543.png)
 	
+	> [!NOTE]
 	> In this case, data binding steps are omitted, since a report already has a bound data source. Note that the initial report layout will be lost after completing the wizard.
 
 The following is a complete list of pages that may be available in the Report Wizard.

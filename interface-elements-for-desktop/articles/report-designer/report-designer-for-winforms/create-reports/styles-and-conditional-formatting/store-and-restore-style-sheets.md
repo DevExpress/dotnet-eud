@@ -33,4 +33,5 @@ To learn how to store and restore report style sheets, do the following.
 
 To learn how you can assign styles to report elements, refer to the [Understanding Style Concepts](understanding-style-concepts.md) and [Use Odd and Even Styles](use-odd-and-even-styles.md) documents.
 
+> [!NOTE]
 > Note that the styles loaded from a style sheet file have priority over the styles that exist in a report's style sheet. So, if the styles stored in the report have the same names as the styles loaded from a style sheet file, then the styles from the file will become substitutes for their namesakes.

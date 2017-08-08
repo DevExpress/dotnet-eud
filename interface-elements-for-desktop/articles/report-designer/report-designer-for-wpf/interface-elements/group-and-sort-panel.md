@@ -8,6 +8,7 @@ The **Group and Sort Panel** allows you to quickly apply [grouping](../creating-
 
 ![WPFDesigner_GroupAndSortPanel](../../../../images/img121992.png)
 
+> [!NOTE]
 > If a report is not bound to a data source, the **Group and Sort Panel** is inactive.
 
 To create a new sorting or grouping criterion, click the **Add a Sort** or **Add a Group** buttons, respectively. Then, select the desired data source field in the invoked drop-down list.

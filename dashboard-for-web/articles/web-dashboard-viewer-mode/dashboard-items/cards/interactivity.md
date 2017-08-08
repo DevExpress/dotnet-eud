@@ -22,6 +22,7 @@ When drill-down is enabled, you can click a card to view the details.
 
 ![Cards_DrillDown_Web](../../../../images/img22506.png)
 
+> [!NOTE]
 > When **Master Filtering** is enabled, you can view the details by clicking a selected card.
 
 To return to the previous detail level (drill up), use the **Drill Up** button (the ![WebViewer_DrillUpIcon](../../../../images/img22464.png) icon) in the card's [caption](../../data-presentation/dashboard-layout.md).

@@ -26,9 +26,11 @@ The dashboard provides two ways of coloring dashboard item elements.
 	
 	![wdd-coloring-global-scheme](../../../images/img126076.png)
 	
+	> [!IMPORTANT]
 	> When a global color scheme is used, the dashboard reserves automatically generated colors for certain values regardless of the filter state.
 * **Local color scheme**. This color scheme provides an _independent_ set of colors for each dashboard item.
 	
+	> [!IMPORTANT]
 	> When a local color scheme is used, the dashboard reassigns palette colors when the filter state is changed.
 
 To select a type of coloring dashboard item elements, open the [dashboard item menu](../ui-elements/dashboard-item-menu.md), go to the **Color Scheme** section and use the **Color Scheme Type** option.
@@ -62,6 +64,7 @@ For example, the image below shows the Chart dashboard item whose _Country_ **di
 
 ![wdd-coloring-by-measure](../../../images/img126108.png)
 
+> [!NOTE]
 > If you enabled coloring by different hues for several dimensions/measures, all combinations of dimension values/measures will be automatically colored using different colors from the default palette.
 
 ## <a name="customizedim"/>Customizing Color Palettes Using the Dashboard Item Menu

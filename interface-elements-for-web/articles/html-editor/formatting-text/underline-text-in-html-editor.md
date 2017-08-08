@@ -10,6 +10,8 @@ To apply underlined formatting to a specific portion of the text, do the followi
 
 ![ASPxHtmlEditor-WorkingWithText-UnderlineSample](../../../images/img7414.png)
 
+> [!NOTE]
 > Note that if you want to remove underline formatting from the text, select the required part of the text (which is already underlined) and repeat the actions described above.
 
+> [!NOTE]
 > To type underlined text press the ![ASPxHtmlEditor-Buttons-Underline](../../../images/img7402.png) button. To stop underlining, press this button again.

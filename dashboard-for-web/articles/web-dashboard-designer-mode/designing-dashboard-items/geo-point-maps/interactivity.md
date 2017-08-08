@@ -13,6 +13,7 @@ The Geo Point Map dashboard item supports filtering by callout/bubble/pie. When 
 
 ![wdd-geo-point-master-filtering](../../../../images/img125454.png)
 
+> [!NOTE]
 > When you select a clustered bubble or pie, master filtering is applied by all points that are clustered into this bubble/pie.
 
 To learn more about filtering concepts common to all dashboard items, see the [Master Filtering](../../interactivity/master-filtering.md) topic.

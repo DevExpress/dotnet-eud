@@ -33,6 +33,7 @@ The Chart dashboard item supports drill-down on argument or series values.
 	
 	![Chart_DrillDownOnArguments_Web](../../../../images/img22477.png)
 	
+	> [!NOTE]
 	> When **Filtering by Arguments** is enabled, you can view the details by clicking a selected series point.
 * **Drill-Down on a Series**
 	
@@ -40,6 +41,7 @@ The Chart dashboard item supports drill-down on argument or series values.
 	
 	![Chart_DrillDownOnSeries_Web](../../../../images/img22478.png)
 	
+	> [!NOTE]
 	> When **Filtering by Series** is enabled, you can view the details by clicking a selected series point.
 
 To return to the previous detail level (drill up), use the **Drill Up** button (the ![WebViewer_DrillUpIcon](../../../../images/img22464.png) icon) in the chart's [caption](../../data-presentation/dashboard-layout.md).

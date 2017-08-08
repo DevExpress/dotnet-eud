@@ -14,4 +14,5 @@ On the invoked **Save As** dialog, locate a folder where you want to store your 
 
 Your document will be saved with the **.prnx** file extension. Note that this extension will be added to the file name even if you enter another one.
 
+> [!NOTE]
 > If you [open a document](load-a-print-preview-from-a-file.md) which was previously saved to the hard drive, it is impossible to change its page settings (e.g. page size, orientation, margins, etc.). So, the **Page Setup** and the **Scale** buttons will be disabled.

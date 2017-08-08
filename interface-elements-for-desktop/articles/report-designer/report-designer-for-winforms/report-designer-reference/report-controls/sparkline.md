@@ -68,6 +68,7 @@ In the [Property Grid](../report-designer-ui/property-grid.md), the Sparkline co
 	
 	Determines the data source member that supplies data to a Sparkline.
 	
+	> [!NOTE]
 	> Usually, it is not necessary to specify the Data Member property when binding a Sparkline to data. This property should only be set directly if the dataset contains more than one table.
 * **Data Source**
 	

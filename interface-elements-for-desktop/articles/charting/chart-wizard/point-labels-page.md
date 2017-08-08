@@ -11,6 +11,7 @@ legacyId: 4163
 ## Page Elements
 ![ChartWizard_PointLabelsPage](../../../images/img7236.png)
 
+> [!NOTE]
 > The point labels are hidden in the chart control by default. To show series point labels, check the **Visibile** check box.
 
 **Chart preview area**

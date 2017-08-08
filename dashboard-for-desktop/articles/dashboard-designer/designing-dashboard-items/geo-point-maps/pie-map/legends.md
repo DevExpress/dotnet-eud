@@ -26,6 +26,7 @@ The weighted legend allows you to identify values corresponding to specific pie 
 
 ![GeoPointMap_WeightedLegend](../../../../../images/img23624.png)
 
+> [!NOTE]
 > The Pie Map dashboard item does not display the weighted legend if [weighed pies](pie-options.md) are disabled.
 
 To select the required weighted legend type, use the **Show Weighted Legend** button in the **Weighted Legend** section of the **Design** Ribbon tab.

@@ -17,6 +17,7 @@ To create a static report, do the following.
 	
 	In the invoked dialog, define the path to an RTF or TXT file containing a text of the announcement, and click **Open**.
 	
+	> [!NOTE]
 	> Note that you can perform additional text formatting using the [Formatting Toolbar](../../report-designer-reference/report-designer-ui/formatting-toolbar.md).
 4. To repeat the created report 20 times, select the Detail band, expand its **Report Print Options** property in the [Property Grid](../../report-designer-reference/report-designer-ui/property-grid.md) and set the **Detail Count at Design Time** property to **20**.
 	

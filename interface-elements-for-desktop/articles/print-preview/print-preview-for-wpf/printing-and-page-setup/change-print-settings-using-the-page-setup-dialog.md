@@ -13,4 +13,5 @@ The **Page Setup** dialog allows you to do the following.
 * Select page orientation (Portrait or Landscape).
 * Specify page margins by entering the required top, left, bottom and right page margin values into the appropriate editors.
 
+> [!NOTE]
 > If you're working with a document that was [loaded from a file](../file-management/load-a-print-preview-from-a-file.md), the **Page Setup** button on the toolbar is disabled.

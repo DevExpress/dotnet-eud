@@ -10,4 +10,5 @@ To apply a specific background color to the text, do the following.
 
 ![ASPxHtmlEditor-WorkingWithText-BackColorDialog](../../../images/img7423.png)
 
+> [!NOTE]
 > To type text with the specified background color, select the color by using the ![ASPxHtmlEditor-Buttons-BackColor](../../../images/img7422.png) button. To stop formatting, select the another color.

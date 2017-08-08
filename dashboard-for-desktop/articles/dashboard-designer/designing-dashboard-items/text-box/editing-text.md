@@ -14,4 +14,5 @@ This adds the **Text Box Editor** context category to the Dashboard Designer's r
 
 To learn how to edit the content within the Text Box, see [Rich Text Editor](../../../../../interface-elements-for-desktop/articles/rich-text-editor.md). After you change the document, click **Edit** again to finish editing.
 
+> [!NOTE]
 > Note that the Text Box can be [bound](../../binding-dashboard-items-to-data.md) to data. To learn how to do this, see [Providing Data](providing-data.md).

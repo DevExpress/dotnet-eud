@@ -136,6 +136,7 @@ Once you identified invalid values, you can hide validation circles again. Do on
 To remove data validation criteria, perform the steps below.
 1. [Select ](../editing-cells/select-cells-or-cell-content.md) the cells which you wish to stop validating.
 	
+	> [!TIP]
 	> To quickly select all cells to which data validation is applied, on the **Home** tab, in the **Editing** group, click **Find &#38; Select** | **Data Validation**.
 2. Invoke the [Data Validation](#dialog) dialog.
 3. Do one of the following.

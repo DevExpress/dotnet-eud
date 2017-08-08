@@ -42,4 +42,5 @@ The following step-by-step instructions describe how to [create a TOC](create-a-
 
 In the same way you can sequentially number tables and equations in a document, and built a table of tables or equations.
 
+> [!NOTE]
 > If you add, remove or modify captions, you can quickly update the table of figures by using the **References** button on the **Captions** ribbon tab or by selecting the **Update Field** item from the context menu.

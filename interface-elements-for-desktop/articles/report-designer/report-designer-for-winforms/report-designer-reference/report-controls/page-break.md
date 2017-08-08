@@ -12,6 +12,7 @@ This control is visually represented by a short line, attached to the report's l
 
 The Page Break control is useful when you need to insert a page break between controls within a [band](../report-bands.md) - for example, to divide subreports, so that the second subreport starts printing on a new page. Another example of the Page Break's use can be found in the following tutorial: [Limit the Number of Records per Page](../../create-reports/miscellaneous/limit-the-number-of-records-per-page.md).
 
+> [!NOTE]
 > Note that when you need a page break before or after printing a certain band, you may set its **Page Break** property to **Before the Band** or **After the Band**, instead of using the Page Break control.
 
 In the [Property Grid](../report-designer-ui/property-grid.md), the Page Break control's properties are divided into the following groups.

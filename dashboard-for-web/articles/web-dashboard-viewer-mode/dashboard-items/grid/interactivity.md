@@ -24,6 +24,7 @@ When drill-down is enabled, you can click a grid row to view the details.
 
 ![Grid_DrillDown_Web](../../../../images/img22481.png)
 
+> [!NOTE]
 > When **Master Filtering** is enabled, you can view the details by clicking the selected row.
 
 To return to the previous detail level (drill up), use the **Drill Up** button (the ![WebViewer_DrillUpIcon](../../../../images/img22464.png) icon) in the grid's [caption](../../data-presentation/dashboard-layout.md) area.

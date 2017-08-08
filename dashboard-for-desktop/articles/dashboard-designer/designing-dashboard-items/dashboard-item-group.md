@@ -21,6 +21,7 @@ To create a new group, use the **Group** button in the **Home** ribbon tab.
 
 You can add dashboard items to a group and manage item layout using [drag-and-drop](../dashboard-layout/dashboard-items-layout.md). To learn how to manage a group's caption, see the [Dashboard Item Caption](../dashboard-layout/dashboard-item-caption.md) topic.
 
+> [!NOTE]
 > Note that a dashboard item group cannot be added to another group.
 
 ## <a name="interactivity"/>Interactivity

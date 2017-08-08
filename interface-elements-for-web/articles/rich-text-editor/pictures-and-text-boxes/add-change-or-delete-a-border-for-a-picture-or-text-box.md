@@ -12,6 +12,7 @@ You can specify the color and weight of the outside border of a floating picture
 	
 	![EUD_RichEdit_AddTextBoxBorder](../../../images/img128948.png)
 	
+	> [!NOTE]
 	> By default, a floating picture is inserted with no border. To specify a colored outline border for a picture, a border weight must be set.
 
 ## Set the Weight of a Picture or Text Box Border

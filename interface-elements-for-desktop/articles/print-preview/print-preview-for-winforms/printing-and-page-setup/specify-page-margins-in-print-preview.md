@@ -18,4 +18,5 @@ To set document page margins, do one of the following.
 	
 	![previewMargins](../../../../images/img7304.png)
 
+> [!NOTE]
 > If you're working with a document that was [loaded from file](../file-management/load-a-print-preview-from-a-file.md), it is impossible to change its page settings (e.g. page size, orientation, margins, etc.).

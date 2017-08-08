@@ -30,6 +30,7 @@ To assign a particular style to a control, select this control and in the [Prope
 
 ![eud-styles-3](../../../../images/img120194.png)
 
+> [!NOTE]
 > A style that is assigned to a band applies to controls that the band contains.
 
 To access the style collection, you can also use the [Report Explorer](../../interface-elements/report-explorer.md), which allows you to add, edit or delete a style.
@@ -56,4 +57,5 @@ To revert a higher priority to a style's appearance property, click the Advanced
 
 The same principles are applied to the _odd-even styles_ feature, which allows you to alternate the appearance of consecutive data rows in your report. For details on this, refer to [Use Odd and Even Styles](use-odd-and-even-styles.md).
 
+> [!NOTE]
 > When [conditional formatting](conditionally-change-a-controls-appearance.md) is applied to an element, its appearance definition has the highest priority.

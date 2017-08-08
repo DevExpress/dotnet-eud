@@ -21,6 +21,7 @@ The **vertical ruler** allows you to set the top and bottom margins of a documen
 
 ![RTEVerticalAlignment](../../../images/img121323.png)
 
+> [!NOTE]
 > If the ruler is hidden, [switch the current view](../viewing-and-navigating/switch-document-views.md) to either the **Draft View** or **Print Layout View**.
 
 At the bottom and at the right of the **Text Editing Surface** there are horizontal and vertical **scrollbars**, which allow you to navigate through a document.

@@ -21,6 +21,7 @@ To create a cross-tab report, do the following.
 	
 	![EUD_WpfReportDesigner_CrossTabReport_3](../../../../images/img123581.png)
 	
+	> [!NOTE]
 	> Since you have placed a Pivot Grid in the Detail band, the report's **Data Source** property should not be set. Otherwise, the Pivot Grid will be repeated at the preview as many times as there are records in the data source.
 	> 
 	> ![EUD_WpfReportDesigner_CrossTabReport_4](../../../../images/img123582.png)

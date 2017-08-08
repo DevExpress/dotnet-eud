@@ -10,4 +10,5 @@ To change the text's font size, do the following.
 
 ![ASPxHtmlEditor-WorkingWithText-FontSize](../../../images/img7397.png)
 
+> [!NOTE]
 > To type text with the specified font size, set it by using the **Font Size** list box. To stop formatting, set the another font size.

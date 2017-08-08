@@ -10,12 +10,14 @@ When drill-down is enabled, you can click a card to view the details.
 
 ![Anim_Cards_DrillDown](../../../../../images/img19995.gif)
 
+> [!NOTE]
 > When [Master Filtering](master-filtering.md) is enabled, you can view the details by double-clicking a card.
 
 Drill-down requires that the **Series** section contains several dimensions, from the least to the most detailed dimension.
 
 ![Cards_Interactivity_DrillDown_DataItems](../../../../../images/img19987.png)
 
+> [!NOTE]
 > In **OLAP** mode, you can perform drill-down for either a hierarchy data item or several dimension attributes.
 
 To enable drill-down, click the **Drill Down** button in the **Data** Ribbon tab (or the ![DataShaping_Interactivity_DrillDown_Toolbar](../../../../../images/img19513.png) button if you are using the toolbar menu).

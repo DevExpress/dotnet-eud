@@ -12,6 +12,7 @@ You can specify the [color](#bordercolor) and [weight](#borderweight) of the out
 	
 	![RTEShapeOutline](../../../images/img121319.png)
 
+> [!NOTE]
 > By default, a floating picture is inserted with [no border](#removeborder). To specify a colored outline border for a picture, a border [weight](#borderweight) must be set.
 
 ## <a name="borderweight"/>Set the Weight of a Picture or Text Box Border

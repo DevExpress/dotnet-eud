@@ -14,6 +14,7 @@ You can select a table cell in one of the following ways.
 	
 	![RTeTablesSelectTableCell](../../../images/img121436.png)
 
+> [!NOTE]
 > To select multiple cells, click the left edge of a cell and then drag it across other cells.
 
 ## Select a Row

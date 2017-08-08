@@ -13,6 +13,7 @@ To create an array formula, do the following.
 	
 	![ArrayFormulaBraces.png](../../../images/img21284.png)
 
+> [!NOTE]
 > Any time you edit the array formula, you must press **CTRL+SHIFT+ENTER** to save changes and convert the formula into an array formula.
 
 The example below demonstrates how to create a formula that multiplies three arrays of values (quantity, price and discount) to get an array of amount values for each product item without entering a separate formula for each row.

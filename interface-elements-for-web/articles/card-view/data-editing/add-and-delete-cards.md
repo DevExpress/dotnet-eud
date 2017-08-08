@@ -19,4 +19,5 @@ To delete a card, click **Delete** in the card to be deleted.
 
 ![EUD_CardView_Delete](../../../images/img121509.png)
 
+> [!NOTE]
 > Cards management links may be unavailable in your application. This is the choice of the application vendor.

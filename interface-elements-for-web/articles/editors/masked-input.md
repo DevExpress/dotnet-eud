@@ -8,4 +8,5 @@ Masked input functionality is available for the text and date editors. It allows
 
 ![ASPxEditors-MaskedInput](../../images/img9400.png)
 
+> [!NOTE]
 > The keyboard and mouse wheel can be used to incrementally modify portions of the edit value.

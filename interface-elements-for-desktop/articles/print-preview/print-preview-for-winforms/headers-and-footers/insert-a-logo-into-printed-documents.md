@@ -14,4 +14,5 @@ Select the image from the dropdown list.
 
 Click OK to save changes and close the dialog.
 
+> [!NOTE]
 > If the **Image** button is disabled, then logo insertion is not supported by your software vendor.

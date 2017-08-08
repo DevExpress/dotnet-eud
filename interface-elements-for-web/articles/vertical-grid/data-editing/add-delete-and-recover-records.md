@@ -28,4 +28,5 @@ To create a new record:
 	![EUD-ASPxVerticalGrid-RecoverRec](../../../images/img127000.png)
 * Click **Save changes**.
 
+> [!NOTE]
 > Record management links may be unavailable in your application, as this is a decision made by the application vendor.

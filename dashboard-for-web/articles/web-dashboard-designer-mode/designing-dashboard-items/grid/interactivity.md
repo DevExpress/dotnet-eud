@@ -34,6 +34,7 @@ Drill-down requires that the Columns section contains several dimensions at the 
 
 ![wdd-grid-interactivity-several-dimensions](../../../../images/img125410.png)
 
+> [!NOTE]
 > In OLAP mode, you can perform drill-down for either a hierarchy data item or several dimension attributes.
 
 To enable **Drill-Down**, go to the Grid's [Interactivity](../../ui-elements/dashboard-item-menu.md) menu and turn the **Drill-Down** option on.

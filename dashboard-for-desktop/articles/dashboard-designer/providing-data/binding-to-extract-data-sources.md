@@ -6,6 +6,7 @@ legacyId: 116601
 # Binding to Extract Data Sources
 The Dashboard Designer allows you to create a _data extract_ that is a compressed snapshot of data obtained from the existing data source. This data is saved to a local file and can be updated from the original data source at any time.
 
+> [!NOTE]
 > Note that data extracts cannot be created for the [OLAP data sources](connecting-to-olap-cubes.md).
 
 To create a new data extract from the existing data source, perform the following steps.
@@ -29,6 +30,7 @@ To create a new data extract from the existing data source, perform the followin
 	
 	You can also limit the number of extracted rows by enabling the **Limit rows to extract** option and specifying the required number of rows. Click **Next**.
 	
+	> [!NOTE]
 	> Use the **Preview** button to see the data that will be placed into the resulting data extract.
 6. **(Conditional)** The next page only appears if the original data source contains [parameters](../data-analysis/using-dashboard-parameters.md) (for instance, the [SQL query is filtered](../working-with-data/filter-queries.md) using a dashboard parameter).
 	

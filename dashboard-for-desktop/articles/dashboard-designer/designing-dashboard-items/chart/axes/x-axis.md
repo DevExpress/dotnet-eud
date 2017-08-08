@@ -43,4 +43,5 @@ To specify the X-axis type in the Designer, invoke the data item menu for the ar
 
 ![Chart_Layout_XAxis_ContinuousDiscrete](../../../../../images/img19550.png)
 
+> [!NOTE]
 > Note that the continuous X-axis is not supported in [OLAP](../../../binding-dashboard-items-to-data/binding-dashboard-items-to-data-in-olap-mode.md) mode.

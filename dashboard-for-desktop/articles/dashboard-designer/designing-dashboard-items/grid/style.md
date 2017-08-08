@@ -22,4 +22,5 @@ To paint the background of odd and even rows differently, use the **Banded Rows*
 
 ![Grid_Layout_BandedRows](../../../../images/img19699.png)
 
+> [!NOTE]
 > Note that banded rows are not available when [cell merging](layout.md) is enabled.

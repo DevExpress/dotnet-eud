@@ -36,6 +36,7 @@ The new comment will be anchored to the cell. Type the desired text within the c
 		The comment will be activated and the cursor will be positioned within the comment box. Change the comment text as needed.
 	* Click inside the comment box, and start editing the comment text.
 		
+		> [!TIP]
 		> If the comment is hidden, click the **Show/Hide Comment** button to display the comment.
 
 ## <a name="copycomment"/>Copy Comments Only
@@ -52,6 +53,7 @@ The new comment will be anchored to the cell. Type the desired text within the c
 ## <a name="movecomment"/>Move and Resize a Comment
 1. Select the cell that contains the comment you wish to move or resize.
 	
+	> [!TIP]
 	> If the comment is hidden, click the **Show/Hide Comment** button to display the comment.
 2. Click the comment box border to display the **sizing handles** (small rectangles at the corners and sides of the comment box).
 3. Do one of the following.

@@ -15,6 +15,7 @@ To adjust a Chart with automatically created series, do the following:
 	
 	![eud-chart-static-series-1](../../../images/img119106.png)
 	
+	> [!NOTE]
 	> Set the report's **Data Source** property to **None** after placing the Chart in the Detail band. Otherwise, the Chart repeats at the preview as many times as there are records in the data source.
 	> 
 	> ![eud-chart-static-series-2](../../../images/img119107.png)

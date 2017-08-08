@@ -11,4 +11,5 @@ legacyId: 4151
 	&nbsp;
 * To make a column visible, drag its header from the Field Chooser and drop it onto the column header panel.
 
+> [!NOTE]
 > Depending on the application vendor's preferences, the Field Chooser may be unavailable in your application.

@@ -16,6 +16,7 @@ legacyId: 9339
 	
 	![RTETablesMergeCellsContextMenu](../../../images/img121430.png)
 	
+	> [!NOTE]
 	> The **Merge Cells** button becomes available, after you have selected the table cells to be merged.
 
 ## Split Cells
@@ -30,6 +31,7 @@ legacyId: 9339
 	
 	![RTEtAblesSplitCellsContextMenu](../../../images/img121432.png)
 	
+	> [!NOTE]
 	> The **Split Cells...** item of the context menu is available, if you right-click one cell of a table only.
 3. In the invoked **Split Cells** dialog, set the number of columns and rows into which the selected cells should be split.
 	

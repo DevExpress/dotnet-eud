@@ -10,4 +10,5 @@ To locate specific text within a report, click the **Display the search window**
 
 To initiate a search, enter the text you wish to locate, specify additional search options (such as case matching, whole word matching, and search direction), then press the **Find Next** button.
 
+> [!NOTE]
 > If you use a web browser other than the Microsoft&#174; Internet Explorer, the **Match whole word only** option is not available, and the corresponding checkbox is disabled in the **Search** dialog.

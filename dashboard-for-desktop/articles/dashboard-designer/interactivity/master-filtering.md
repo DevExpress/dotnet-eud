@@ -53,6 +53,7 @@ To enable/disable master filtering, use the **Multiple Master Filter** or **Sing
 
 ![DataShaping_Interactivity_MultipleMasterFilter_Ribbon](../../../images/img21845.png)
 
+> [!NOTE]
 > If the selected dashboard item contains several types of elements that can be used for filtering, the Ribbon or Toolbar will provide the appropriate buttons to switch between these types (e.g., the **Arguments** and **Series** buttons in the Chart). For details, refer to the documentation for individual dashboard items in the [Designing Dashboard Items](../designing-dashboard-items.md) section.
 
 ### Filtering Across Data Sources

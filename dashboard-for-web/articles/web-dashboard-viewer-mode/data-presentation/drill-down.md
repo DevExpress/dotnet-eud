@@ -8,6 +8,7 @@ The Web Dashboard provides the **drill-down** feature, which allows you to chang
 
 ![WebViewer_DrillDown](../../../images/img22463.gif)
 
+> [!NOTE]
 > You cannot drill down to view the details if **Multi-Select** is enabled in [Multiple Master Filter](master-filtering.md) mode.
 
 To return to the previous detail level (drill up), use the **Drill Up** button (the ![WebViewer_DrillUpIcon](../../../images/img22464.png) icon) in the dashboard item's [caption](dashboard-layout.md) area.

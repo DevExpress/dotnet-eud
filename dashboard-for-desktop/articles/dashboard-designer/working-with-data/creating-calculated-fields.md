@@ -8,6 +8,7 @@ The Dashboard Designer provides the capability to create calculated fields that 
 * [Creating a Calculated Field](#creating-a-calculated-field)
 * [Editing a Calculated Field](#editing-a-calculated-field)
 
+> [!NOTE]
 > Note that calculated fields are not supported for [OLAP](../providing-data/connecting-to-olap-cubes.md) data sources.
 
 ## <a name="creating-a-calculated-field"/>Creating a Calculated Field
@@ -28,6 +29,7 @@ This invokes the [Expression Editor](../../../../interface-elements-for-desktop/
 You can use the following elements in expressions.
 * Functions
 	
+	> [!NOTE]
 	> To learn how to use **Aggregate** functions, see [Aggregations](../data-analysis/aggregations.md). The [Expression Operators, Functions and Constants](../../../../interface-elements-for-desktop/articles/expression-editor/expression-operators-functions-and-constants.md) topic lists common functions (**DateTime**, **Math**, **String**, etc.) supported by expressions.
 * Operators
 * Columns

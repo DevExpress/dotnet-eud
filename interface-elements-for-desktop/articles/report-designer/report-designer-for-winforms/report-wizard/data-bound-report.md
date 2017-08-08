@@ -16,6 +16,7 @@ The following image shows a sample report created using the Data-bound Report Wi
 
 Use the links below to learn more about every step of the Data-bound Report wizard.
 
+> [!NOTE]
 > Depending on the method you used to [invoke the Wizard](../report-wizard.md), you may be creating an entirely new report or modifying an existing one. Creating reports from scratch requires data source connection knowledge. In these cases, it's better if you contact your application administrator or vendor for assistance with the first three steps of the wizard. If you're modifying an existing report, these initial data binding steps will not appear and you will start with [Choose Columns to Display in Your Report](data-bound-report/choose-columns-to-display-in-your-report.md).
 
 * [Select the Data Source Type](data-bound-report/select-the-data-source-type.md)

@@ -8,8 +8,10 @@ DevExpress Dashboard supports two data processing modes that are used to perform
 * In **server mode**, data-related operations are performed on the database server side. For instance, when you apply [filtering](../data-shaping/filtering.md) to a dashboard item, the Dashboard Designer requests the required data automatically by sending a query containing a corresponding SELECT statement with the specified WHERE clause.
 * In **client mode**, data-related operations are performed on the workstation side. In this mode, a compressed snapshot of aggregated data is loaded into a workstation memory. This reduces memory consumption and improves the speed of client-side data shaping operations using several techniques: data compression, various data grouping and multi-threading algorithms, etc.
 
+> [!TIP]
 > Note that performance in **server**/**client** modes depends on multiple factors such as database structure, server workload, etc. To decide which mode to use, test both.
 
+> [!NOTE]
 > In [OLAP](connecting-to-olap-cubes.md) mode, data processing is performed using the _server mode_ specified for the Analysis Services instance. To learn more, see [Determine the Server Mode of an Analysis Services Instance](https://msdn.microsoft.com/en-us/library/gg471594.aspx).
 
 ## Change Data Processing Mode

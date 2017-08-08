@@ -53,6 +53,7 @@ The following settings are available for each column.
 * The **Type** field displays the selected column type.
 * The **Alias** field allows you to specify the column alias.
 	
+	> [!NOTE]
 	> Note that aggregated columns should always have an alias.
 * The **Output** field allows you to choose whether to include the selected column to the query.
 * Use **Sort Type** to specify the sort order of column values.
@@ -60,6 +61,7 @@ The following settings are available for each column.
 * The **Group By** option allows you to group data by the values of the selected column.
 * The **Aggregate** field allows you to specify the aggregate function used to aggregate column values.
 	
+	> [!NOTE]
 	> Note that you should apply aggregation/grouping either to all columns or to none of them.
 
 ## <a name="filter"/>Filter Data

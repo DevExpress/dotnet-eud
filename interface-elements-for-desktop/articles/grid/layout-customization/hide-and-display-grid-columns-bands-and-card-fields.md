@@ -25,6 +25,7 @@ Do one of the following:
 	
 	![EU_XtraGrid_GridView_DragHiddenColumnOntoHeaderPanel](../../../images/img7488.png)
 
+> [!NOTE]
 > When a band is hidden together with its child bands and columns, headers of hidden children are not displayed within the Customization Form.
 
 ## Change the Visibility of Fields in Card Views

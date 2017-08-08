@@ -28,6 +28,7 @@ You can specify the binding mode for the Bound Image. Go to the Bound Image's [O
 	
 	Data source field values will be inserted to the position of the _{0}_ placeholder. Thus, the Bound Image maps the current dimension value with the image placed at the specified URI.
 
+> [!NOTE]
 > Note that the **Bound Image** can display only a single image simultaneously. If Master Filtering is not applied to the Bound Image, it selects the displayed image in the following ways.
 > * In the **Binary Array** mode, the displayed image cannot be predicted precisely as a result of sorting limitations for the image/binary data types. Use the [Master Filtering](../../interactivity/master-filtering.md) feature to display the specified image.
 > * In the **URI** mode, the Bound Image displays an image corresponding a first attribute value taking into account the attribute's sort order.

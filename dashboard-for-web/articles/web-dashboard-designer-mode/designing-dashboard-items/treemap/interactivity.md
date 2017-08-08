@@ -17,6 +17,7 @@ When **Master Filtering** is enabled, you can click a tile or group caption (or 
 
 ![wdd-treemap-interactivity](../../../../images/img125959.png)
 
+> [!NOTE]
 > If the Single Master Filter is used, you can select only tiles corresponding to the bottommost level.
 
 To enable **Master Filtering**, go to the Treemap's [Interactivity](../../ui-elements/dashboard-item-menu.md) menu and select the required Master Filtering mode.
@@ -36,6 +37,7 @@ Drill-down requires that the **Arguments** section contains several dimensions a
 
 ![wdd-drill-down-arguments](../../../../images/img127984.png)
 
+> [!NOTE]
 > In OLAP mode, you can perform drill-down for either a hierarchy data item or several dimension attributes.
 
 To enable **Drill-Down**, go to the Treemap's [Interactivity](../../ui-elements/dashboard-item-menu.md) menu and turn the **Drill-Down** option on.
@@ -44,4 +46,5 @@ To enable **Drill-Down**, go to the Treemap's [Interactivity](../../ui-elements/
 
 To return to the previous detail level, click the **Drill Up** button (the ![wdd-drill-up-icon](../../../../images/img125074.png) icon) in the Treemap's [caption](../../dashboard-layout/dashboard-item-caption.md).
 
+> [!NOTE]
 > [Grouping](grouping.md) is not in effect when drill-down is enabled.

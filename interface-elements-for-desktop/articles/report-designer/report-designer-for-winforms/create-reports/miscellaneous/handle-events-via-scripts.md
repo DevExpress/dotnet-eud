@@ -51,6 +51,7 @@ Note that scripts are saved to a file along with the report's layout (for detail
 	
 	The **Script References** property of the **Report** object specifies the full paths (including the file names) to the assemblies that are referenced in the scripts used in a report. These paths should be specified for all the assemblies that are included in scripts via the **using** (C#), **Imports** (Visual Basic) or **import** (J#) directives.
 	
+	> [!NOTE]
 	> Usually, you don't need include any assembles, because most standard assemblies that you may require in scripts are already referenced by the Report Designer.
 
 ## <a name="example"/>Example: Custom Summary

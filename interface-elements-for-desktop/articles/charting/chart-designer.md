@@ -34,4 +34,5 @@ The **Customization Tabs** area allows you to customize chart element settings. 
 	
 	![EndUser_ChartDesigner_DataTab](../../images/img118751.png)
 
+> [!NOTE]
 > For several chart elements, the **Customization Tabs** area may not contain all tabs from the Tabs list represented above.

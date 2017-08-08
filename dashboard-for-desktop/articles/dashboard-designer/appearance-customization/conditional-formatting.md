@@ -71,6 +71,7 @@ To create a new rule used to apply formatting according to the required conditio
 3. Specify [appearance settings](#specify-appearance-settings) applied to elements whose values meet the specified condition.
 4. Specify the data item to whose values conditional formatting is applied using the **Apply to** combo box. Thus, you can create a format rule for one data item and apply new appearance settings to the other data item. You can also create format rules for [hidden measures](../binding-dashboard-items-to-data/hidden-data-items.md) and apply formatting to values of visible data items.
 	
+	> [!NOTE]
 	> Different dashboard items can provide additional capabilities for creating a new format rule. To learn more, refer to documentation for the required dashboard item.
 
 ## <a name="specify-appearance-settings"/>Specify Appearance Settings
