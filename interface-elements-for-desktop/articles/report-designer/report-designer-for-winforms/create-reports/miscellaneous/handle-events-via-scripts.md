@@ -67,7 +67,7 @@ Then, the additional events are added to the label's **Scripts** property.
 
 You can handle these events in the following way.
 
-**csharp**
+**C#**
 
 ```csharp
 
@@ -95,7 +95,7 @@ DevExpress.XtraReports.UI.SummaryGetResultEventArgs e) {
 
 ```
 
-**vb**
+**VB.NET**
 
 ```vb
 

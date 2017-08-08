@@ -14,10 +14,7 @@ The **Aggr** function aggregates and summarizes underlying data using the detail
 
 The **Aggr** function has the following syntax.
 
-**expression**
-
-```expression
-
+```
 Aggr(summaryExpression, dimension1, dimension2, ...)
 
 ```
@@ -25,10 +22,7 @@ Aggr(summaryExpression, dimension1, dimension2, ...)
 The first argument is a [summary expression](summary-level-aggregations.md) calculated against a specific data source field. The next arguments are the set of dimensions whose values are aggregated and used to calculate summaries specified using the first argument.
 For instance, the following function calculates sums of sales for each product within the specified category.
 
-**expression**
-
-```expression
-
+```
 Aggr(Sum([Sales]), [Category], [Product])
 
 ```
@@ -42,10 +36,7 @@ If you created the calculated field that includes the **Aggr** function and drop
 	
 	To aggregate this data by individual categories, create a calculated field with the following expression.
 	
-	**expression**
-	
-	```expression
-	
+	```
 	Aggr(Sum([Sales]), [Category])
 	
 	```
@@ -67,10 +58,7 @@ If you created the calculated field that includes the **Aggr** function and drop
 	
 	To aggregate this data by categories and products, create a calculated field with the following expression.
 	
-	**expression**
-	
-	```expression
-	
+	```
 	Aggr(Sum([Sales]), [Category], [Product])
 	
 	```
@@ -92,10 +80,7 @@ In this example, the [Chart](../../designing-dashboard-items/chart.md) dashboard
 
 To display sales by the best/worst months for each year, create a new [calculated field](../../working-with-data/creating-calculated-fields.md) with the following expression.
 
-**expression**
-
-```expression
-
+```
 Aggr(Sum([Sales]), GetYear([OrderDate]), GetMonth([OrderDate]))
 
 ```
@@ -114,10 +99,7 @@ In this example, the [Pivot](../../designing-dashboard-items/pivot.md) dashboard
 To calculate a contribution of each quarter to a year sales, do the following.
 * Calculate totals for each year using the **Aggr** function by creating the following calculated field.
 	
-	**expression**
-	
-	```expression
-	
+	```
 	Aggr(Sum([Sales]), GetYear([OrderDate]))
 	
 	```
@@ -125,10 +107,7 @@ To calculate a contribution of each quarter to a year sales, do the following.
 	Set the name of the created field to _Sales by Year_.
 * Calculate a contribution of each quarter to year sales by creating the following calculated field.
 	
-	**expression**
-	
-	```expression
-	
+	```
 	Sum([Sales]) / Max([Sales by Year])
 	
 	```
@@ -146,10 +125,7 @@ The [Chart](../../designing-dashboard-items/chart.md) dashboard item below visua
 
 The following expression determines the minimum order date (the first purchase date) per customer.
 
-**expression**
-
-```expression
-
+```
 Aggr(Min(GetDateQuarterYear([OrderDate])), [CustomerID])
 
 ```
@@ -167,10 +143,7 @@ The Chart below shows the number of orders that is made by each customer.
 
 The calculated field below evaluates the number of unique orders made by each customer.
 
-**expression**
-
-```expression
-
+```
 Aggr(CountDistinct([OrderID]), [CustomerID])
 
 ```
@@ -191,10 +164,7 @@ The initial [Grid](../../designing-dashboard-items/grid.md) dashboard item shows
 To implement this scenario, perform the following steps.
 * Create the calculated field that will return product sales for individual years.
 	
-	**expression**
-	
-	```expression
-	
+	```
 	Aggr(Sum([Sales]), GetYear([OrderDate]), [ProductName])
 	
 	```
@@ -202,10 +172,7 @@ To implement this scenario, perform the following steps.
 	Set its name to _Product Sales by Year_.
 * Create the calculated field that will return maximum sales values.
 	
-	**expression**
-	
-	```expression
-	
+	```
 	Aggr(Max([Product Sales by Year]), GetYear([OrderDate]))
 	
 	```
@@ -213,10 +180,7 @@ To implement this scenario, perform the following steps.
 	Set its name to _Max Product Sales by Year_.
 * Finally, create a calculated field returning the name of the product with the best sales and a corresponding sales value.
 	
-	**expression**
-	
-	```expression
-	
+	```
 	Iif([Max Product Sales by Year] = [Product Sales by Year], [ProductName] + ' ($ ' + [Product Sales by Year] + ')', null)
 	
 	```
