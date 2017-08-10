@@ -35,7 +35,7 @@ In its simplest form, a search criterion consists of a single word. If you want 
 
 You can search against a specific column by preceding a search string with the column's display name plus a colon character.
 
-``_ColumnDisplayName_:_SearchString_``
+``ColumnDisplayName:SearchString``
 
 Instead of the complete name, it is possible to partially specify the display name, using the initial characters of a column's display name. A search will be performed against the first column whose display name starts with the specified substring.
 If you want to search against a column whose display caption contains space characters, specify the column's display caption in quotation marks.
@@ -54,12 +54,12 @@ Precede a condition with "-" to exclude records that match this condition from t
 | ``register`` | Selects records that contain the "register" string in any search column. |
 | ``check register Dave`` | Selects records that contain either "check" OR "register" OR "Dave" strings in any search column. |
 | ``"check register"`` | Selects records that contain "check register" in any search column. |
-| ``screen +"Richard Fisher"`` | Selects records that contain both "screen" AND "Richard Fisher" in search columns. |
+| ``screen +"Richard Fisher"`` | Selects records that contain both "screen" AND "Richard Fisher" in search columns. |
 | ``Product:Tofu Seattle`` | Selects records that contain "Tofu" in the column that starts with "Product", AND also contain "Seattle" in any search column. |
-| ``data +entry -mark`` | Selects records that contain both "data" AND "entry" in search columns, excluding records that contain "mark". |
-| ``menu mask -file`` | Selects records that contain "menu" OR "mask", excluding records that contain "file". |
-| ``From:Roller Subj:"currency mask"`` | Selects records that contain "Roller" in the column that starts with "From", AND also contain "currency mask" in the column that starts with "Subj". |
-| ``import -From:Steve`` | Selects records that contain "import" in any search column, excluding records that contain "Steve" in the column that starts with "From". |
+| ``data +entry -mark`` | Selects records that contain both "data" AND "entry" in search columns, excluding records that contain "mark". |
+| ``menu mask -file`` | Selects records that contain "menu" OR "mask", excluding records that contain "file". |
+| ``From:Roller Subj:"currency mask"`` | Selects records that contain "Roller" in the column that starts with "From", AND also contain "currency mask" in the column that starts with "Subj". |
+| ``import -From:Steve`` | Selects records that contain "import" in any search column, excluding records that contain "Steve" in the column that starts with "From". |
 
 > [!NOTE]
 > Searches performed using a Find Panel are case insensitive.
