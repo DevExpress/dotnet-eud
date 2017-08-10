@@ -80,7 +80,6 @@ DevExpress.XtraReports.UI.SummaryGetResultEventArgs e) {
 }
 
 ```
-
 **VB.NET**
 
 ```vb
