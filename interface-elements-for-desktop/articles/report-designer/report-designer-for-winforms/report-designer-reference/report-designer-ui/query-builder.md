@@ -26,7 +26,7 @@ You can invoke the **Query Builder** from the [query customization](../../report
 
 ![eud-win-report-wizard-create-query-page](../../../../../images/img126805.png)
 
-If you use an older Report Wizard version, the [query customization](../../report-wizard/data-bound-report/connect-to-a-database/create-a-query-or-select-a-stored-procedure-(single-query-wizard-version).md) page allows you to create a single query. In this case, select the **Query** option to specify that you want to construct an SQL query and then click the **Run Query Builder** button.
+If you use an older Report Wizard version, the [query customization](../../report-wizard/data-bound-report/connect-to-a-database/create-a-query-or-select-a-stored-procedure-2.md) page allows you to create a single query. In this case, select the **Query** option to specify that you want to construct an SQL query and then click the **Run Query Builder** button.
 
 ![eud-win-report-wizard-old-create-query-page](../../../../../images/img126806.png)
 

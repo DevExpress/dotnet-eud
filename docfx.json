@@ -18,7 +18,6 @@
       }
     ],
     "resource": [
-
       {"files": ["favicon.ico", "logo.svg"]},
       {
         "files": [
@@ -41,5 +40,36 @@
         "_appFooter": "Copyright (c) 1998-2017 Developer Express Inc. All rights reserved.",
 	"_appLogoPath": "logo.svg",
     }
+  },
+  "pdf": {
+    "content": [
+      {
+        "files": [
+          "dashboard-for-desktop/**/*.{md,yml}",
+          "dashboard-for-web/**/*.{md,yml}",
+          "interface-elements-for-desktop/**/*.{md,yml}",
+          "interface-elements-for-web/**/*.{md,yml}",
+        ],
+        "exclude": [
+          "_*/**",
+          "obj/**"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "dashboard-for-desktop/images/**",
+          "dashboard-for-web/images/**",
+          "interface-elements-for-desktop/images/**",
+          "interface-elements-for-web/images/**",
+        ],
+        "exclude": [
+          "obj/**",
+          "_*/**"
+        ]
+      }
+    ],
+    "dest": "_pdf"
   }
 }
