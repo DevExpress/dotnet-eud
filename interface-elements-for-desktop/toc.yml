@@ -748,7 +748,7 @@
           - name: Create a Query or Select a Stored Procedure
             href: articles/report-designer/report-designer-for-winforms/report-wizard/data-bound-report/connect-to-a-database/create-a-query-or-select-a-stored-procedure.md
           - name: Create a Query or Select a Stored Procedure (Single-Query Wizard Version)
-            href: articles/report-designer/report-designer-for-winforms/report-wizard/data-bound-report/connect-to-a-database/create-a-query-or-select-a-stored-procedure-(single-query-wizard-version).md
+            href: articles/report-designer/report-designer-for-winforms/report-wizard/data-bound-report/connect-to-a-database/create-a-query-or-select-a-stored-procedure-2.md
           - name: Configure Query Parameters
             href: articles/report-designer/report-designer-for-winforms/report-wizard/data-bound-report/connect-to-a-database/configure-query-parameters.md
         - name: Connect to an Entity Framework Data Source
