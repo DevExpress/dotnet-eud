@@ -1,0 +1,225 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Rich Text | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Rich Text | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.20.0.0">
+    
+    <link rel="shortcut icon" href="../../../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../../../toc.html">
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../../../index.html">
+                <img id="logo" class="svg" src="../../../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="rich-text">Rich Text</h1>
+
+<p>The <strong>Rich Text</strong> control allows you to display formatted text in your report. It can represent <a href="../../report-editing-basics/add-or-modify-static-information-in-your-report.html">static</a> or <a href="../../report-editing-basics/displaying-values-from-a-database-%28binding-report-elements-to-data%29.html">dynamic</a> text, or <a href="../../report-editing-basics/use-mail-merge-in-report-elements.html">both</a>. You can load content to the Rich Text from an external TXT or RTF file (which can also contain images) and then format any part of it. The formatting options include font face, styles and sizes, and color.</p>
+<p><img src="../../../../../images/img8284.png" alt="RD_Controls_RichText"></p>
+<p>A content from an external TXT or RTF file can be loaded to this control via its <a href="../report-designer-ui/smart-tag.html">Smart Tag</a>.</p>
+<p><img src="../../../../../images/img8341.png" alt="RD_CreateReports_StaticReport_1"></p>
+<p>In the <a href="../report-designer-ui/property-grid.html">Property Grid</a>, the Rich Text control&#39;s properties are divided into the following groups.</p>
+<h2 id="appearance">Appearance</h2>
+<ul>
+<li><p><strong>Background Color</strong></p>
+<p>  Specifies the background color for the control. This option is also available in the <a href="../report-designer-ui/formatting-toolbar.html">Formatting Toolbar</a> (<img src="../../../../../images/img8441.png" alt="RD_Toolbars_Format_Back">).</p>
+</li>
+<li><p><strong>Borders</strong>, <strong>Border Color</strong>, <strong>Border Dash Style</strong> and <strong>Border Width</strong></p>
+<p>  Specify border settings for the control.</p>
+</li>
+<li><p><strong>Font</strong></p>
+<p>  Specifies the font settings for the control. Some of these settings are available in the <a href="../report-designer-ui/formatting-toolbar.html">Formatting Toolbar</a>.</p>
+</li>
+<li><p><strong>Foreground Color</strong></p>
+<p>  Specifies the text color for the control. This option is also available in the <a href="../report-designer-ui/formatting-toolbar.html">Formatting Toolbar</a> (<img src="../../../../../images/img8440.png" alt="RD_Toolbars_Format_Color">).</p>
+</li>
+<li><p><strong>Formatting Rules</strong></p>
+<p>  Invokes the Formatting Rules Editor allowing you to choose which rules should be applied to the control during report generation, and define the precedence of the applied rules. To learn more on this, refer to <a href="../../create-reports/styles-and-conditional-formatting/conditionally-change-a-controls-appearance.html">Conditionally Change a Control&#39;s Appearance</a>.</p>
+</li>
+<li><p><strong>Padding</strong></p>
+<p>  Specifies indent values which are used to render the contents of the control.</p>
+</li>
+<li><p><strong>Style Priority</strong></p>
+<p>  Allows you to define the priority of various style elements (such as background color, border color, etc.). For more information on style inheritance, refer to <a href="../../create-reports/styles-and-conditional-formatting/understanding-style-concepts.html">Understanding Style Concepts</a>.</p>
+</li>
+<li><p><strong>Styles</strong></p>
+<p>  Specifies <a href="../../create-reports/styles-and-conditional-formatting/use-odd-and-even-styles.html">odd and even styles</a> for the control and enables you to assign an existing style to the control (or a newly created one). To learn more, see <a href="../../create-reports/styles-and-conditional-formatting/understanding-style-concepts.html">Understanding Style Concepts</a>.</p>
+</li>
+</ul>
+<h2 id="behavior">Behavior</h2>
+<ul>
+<li><p><strong>Anchor Horizontally</strong></p>
+<p>  Specifies the horizontal anchoring style of the control, so that after page rendering it stays attached to the left control, right control, or both. This property defines how a report control is resized to maintain the distance to the left and right edges of its container control.</p>
+</li>
+<li><p><strong>Anchor Vertically</strong></p>
+<p>  Specifies the vertical anchoring style of the control, so that after page rendering it stays attached to the top control, bottom control, or both. The property setting is useful for data-bound controls located between upper and lower controls, which are allowed to resize depending on their contents.</p>
+<p>  Note that if the Anchor Vertically property is set to Bottom or Both, the Can Grow and Can Shrink properties (see below) values are ignored, and don&#39;t participate in calculating a final height value of this control.</p>
+</li>
+<li><p><strong>Can Grow</strong></p>
+<p>  When this property is set to Yes, the control&#39;s height can be automatically increased, if required, to display the text. If there are other controls below the current control, they will be pushed down to prevent them from overlapping. Note that if a control overlaps the growing Rich Text by even one pixel, it will not be pushed down by the growing Rich Text.</p>
+</li>
+<li><p><strong>Can Publish</strong></p>
+<p>  Specifies whether or not a report control is displayed in a printed or exported document.</p>
+</li>
+<li><p><strong>Can Shrink</strong></p>
+<p>  When this property is set to Yes, and the text does not completely fill a Rich Text, then the control&#39;s height will be decreased to the height of its text. If there are other controls below the current one, they will be moved up to fill the gap. Note that if a control overlaps the shrinking Rich Text by even one pixel, it will not be pushed up by the shrinking Rich Text.</p>
+</li>
+<li><p><strong>Keep Together</strong></p>
+<p>  Specifies whether the contents of the control can be horizontally split across pages. In other words, if the control occupies more space than remains on the page, this property specifies whether this control should be split between the current page and the next, or whether it will be printed entirely on the next page. This property is in effect only when the control&#39;s content does not fit on the current page. If it does not fit on the next page either, then the control will be split despite this property&#39;s value.</p>
+</li>
+<li><p><strong>Process Duplicates</strong></p>
+<p>  Determines the control&#39;s behavior when its data source contains consecutive repeating records. They can be processed as is (when the property is set to Leave), suppressed except for the first entry (Suppress) and suppressed with the blank space printed instead of the repeated records (Suppress and Shrink).</p>
+</li>
+<li><p><strong>Process Null Values</strong></p>
+<p>  Determines whether to process Null (blank) values if they appear in the control&#39;s data source. They can be processed as is (when the property is set to Leave), suppressed (Suppress) and suppressed with the blank space printed instead of the blank records (Suppress and Shrink).</p>
+</li>
+<li><p><strong>Scripts</strong></p>
+<p>  This property contains events, which you can handle with the required scripts. For more information on scripting, refer to <a href="../../create-reports/miscellaneous/handle-events-via-scripts.html">Handle Events via Scripts</a>.</p>
+</li>
+<li><p><strong>Visible</strong></p>
+<p>  Specifies whether the control should be visible in print preview.</p>
+</li>
+</ul>
+<h2 id="data">Data</h2>
+<ul>
+<li><p><strong>(Data Bindings)</strong></p>
+<p>  If the current report is <a href="../../create-reports/binding-a-report-to-data.html">bound to data</a>, this property allows you to bind some of the control&#39;s properties (Bookmark, Html, Navigation URL, Rtf and Tag) to a data field obtained from the report&#39;s data source, and to apply a <a href="../../report-editing-basics/change-value-formatting-of-report-elements.html">format string</a> to it. For more information on this, refer to <a href="../../report-editing-basics/displaying-values-from-a-database-%28binding-report-elements-to-data%29.html">Displaying Values from a Database (Binding Report Elements to Data)</a>.</p>
+</li>
+<li><p><strong>Lines</strong></p>
+<p>  Provides access to the Text property of the control, allowing you to input multiple lines of static text.</p>
+</li>
+<li><p><strong>Null Value Text</strong></p>
+<p>  Specifies the text displayed by a control when the value of its bound data field is null.</p>
+</li>
+<li><p><strong>Tag</strong></p>
+<p>  This property allows you to add some additional information to the control; for example its id, by which it can then be accessible via <a href="../../create-reports/miscellaneous/handle-events-via-scripts.html">scripts</a>.</p>
+<p>  If the current <a href="../../create-reports/binding-a-report-to-data.html">report has a data source</a>, the Tag property can be bound to a data field obtained from the data source. To do this, expand the (Data Bindings) property, and in the Tag.Binding drop-down selector, select the required data field.</p>
+</li>
+<li><p><strong>Text</strong></p>
+<p>  Allows you to define a line of static text to be displayed. To type several lines of text, use the Lines property. Note that when the control is selected in the designer, you may simply start typing the text, and it will be automatically entered into the in-place editor.</p>
+<p>  <img src="../../../../../images/img8287.png" alt="RD_Controls_Label_1"></p>
+<p>  If the current <a href="../../create-reports/binding-a-report-to-data.html">report has a data source</a>, the Rtf property (instead of Text) can be bound to a data field obtained from the data source. To do this, expand the (Data Bindings) property and in the Rtf.Binding drop-down selector, select the required data field. For more information on this, refer to <a href="../../report-editing-basics/displaying-values-from-a-database-%28binding-report-elements-to-data%29.html">Displaying Values from a Database (Binding Report Elements to Data)</a>.</p>
+</li>
+</ul>
+<h2 id="design">Design</h2>
+<ul>
+<li><p><strong>(Name)</strong></p>
+<p>  Determines a control&#39;s name, by which it can be accessed in the <a href="../report-designer-ui/report-explorer.html">Report Explorer</a>, <a href="../report-designer-ui/property-grid.html">Property Grid</a> or via <a href="../../create-reports/miscellaneous/handle-events-via-scripts.html">scripts</a>.</p>
+</li>
+</ul>
+<h2 id="layout">Layout</h2>
+<ul>
+<li><p><strong>Location</strong></p>
+<p>  Specifies the control&#39;s location, measured in <a href="../../create-reports/basic-operations/change-measurement-units-of-a-report.html">report units</a>.</p>
+</li>
+<li><p><strong>Size</strong></p>
+<p>  Specifies the control&#39;s size, measured in <a href="../../create-reports/basic-operations/change-measurement-units-of-a-report.html">report units</a>.</p>
+</li>
+<li><p><strong>Snap Line Margin</strong></p>
+<p>  Specifies the margin (measured in <a href="../../create-reports/basic-operations/change-measurement-units-of-a-report.html">report units</a>), which is to be preserved around the control when it is <a href="../../create-reports/basic-operations/controls-positioning.html">aligned using Snap Lines</a>, or when other controls are aligned next to it.</p>
+</li>
+</ul>
+<h2 id="navigation">Navigation</h2>
+<ul>
+<li><p><strong>Bookmark</strong> and <strong>Parent Bookmark</strong></p>
+<p>  These properties are intended for the creation of a hierarchical structure within a report, called a document map. For an explanation and help, refer to <a href="../../create-reports/report-navigation-and-interactivity/add-bookmarks.html">Add Bookmarks</a>.</p>
+<p>  If the current <a href="../../create-reports/binding-a-report-to-data.html">report has a data source</a>, the Bookmark property can be bound to a data field obtained from the data source. To do this, expand the (Data Bindings) property and in the Bookmark.Binding drop-down selector, select the required data field.</p>
+</li>
+<li><p><strong>Navigation URL</strong> and <strong>Navigation Target</strong></p>
+<p>  Use the Navigation URL property to specify a URL for web browser navigation when a user clicks the control. The web browser displays a page in a window or a frame as specified by the Navigation Target property. Note that a URL should have an appropriate prefix (e.g. &quot;http://&quot;). You can create cross-references within the report by assigning the name of the target control to the Navigation URL property, and setting the Navigation Target property to &quot;_self&quot;. For more information, refer to <a href="../../create-reports/report-navigation-and-interactivity/create-hyperlinks.html">Create Hyperlinks</a>.</p>
+<p>  If the current <a href="../../create-reports/binding-a-report-to-data.html">report has a data source</a>, the Navigation URL property can be bound to a data field obtained from the data source. To do this, expand the (Data Bindings) property, and in the Navigation URL.Binding drop-down selector, select the required data field.</p>
+</li>
+</ul>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/master/interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-reference/report-controls/rich-text.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2017 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../../../styles/main.js"></script>
+  </body>
+</html>

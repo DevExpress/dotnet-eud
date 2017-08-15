@@ -1,0 +1,166 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Switch Scheduler Views | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Switch Scheduler Views | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.20.0.0">
+    
+    <link rel="shortcut icon" href="../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../toc.html">
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../index.html">
+                <img id="logo" class="svg" src="../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="switch-scheduler-views">Switch Scheduler Views</h1>
+
+<h2 id="change-active-view">Change Active View</h2>
+<p>The scheduler is intended to display appointment data using one of the standard <a href="#viewtypes">Views</a>. The currently active view used by the scheduler can be either selected intentionally or changed according to the scheduler&#39;s internal logic.</p>
+<ul>
+<li><p>To change the active view, use the corresponding item of the scheduler&#39;s context menu. This menu is invoked when you right-click any region of the scheduler (not occupied with an appointment).</p>
+<p>  <img src="../../../images/img5491.png" alt="ChangeActiveView_01.png"></p>
+<div class="NOTE"><h5>Note</h5><p>Depending on the application vendor, some options may be unavailable in your application.</p>
+</div>
+</li>
+<li><p>While navigating through dates via the <strong>Go To Date</strong> dialog, you can specify a view type to display a new time interval.</p>
+<p>  <img src="../../../images/img9134.png" alt="GotoDate View"></p>
+</li>
+<li>The scheduler selects a view mode automatically, according to the date range selected in the date navigator, combined with a scheduler.</li>
+<li><p>If a scheduler is provided with the Bar or Ribbon interface, you can use the <strong>Active View</strong> and <strong>Arrange</strong> <a href="../scheduler-ui/toolbars.html">toolbar</a>s or <a href="../scheduler-ui/ribbon-interface.html">Ribbon page group</a>s.</p>
+<table>
+<thead>
+<tr>
+<th>Change the active view via Bar interface</th>
+<th>Change the active view via Ribbon interface</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="../../../images/img16558.png" alt="Scheduler_ArrangeToolbar"></td>
+<td><img src="../../../images/img16548.png" alt="Scheduler_Ribbon_Arrange"></td>
+</tr>
+<tr>
+<td><img src="../../../images/img16560.png" alt="Scheduler_ActiveViewToolbar"></td>
+<td><img src="../../../images/img16550.png" alt="Scheduler_Ribbon_ActiveView"></td>
+</tr>
+</tbody>
+</table>
+</li>
+</ul>
+<h2 id="a-nameviewtypesavailable-view-types"><a name="viewtypes"></a>Available View Types</h2>
+<ul>
+<li><p><strong>Day View</strong> </p>
+<p>  This view provides the most detailed view of appointments for a certain day(s).</p>
+</li>
+<li><p><strong>Work-Week View</strong></p>
+<p>   This view displays appointments for the working days in a particular week.</p>
+</li>
+<li><p><strong>Week View</strong></p>
+<p>   This view displays appointments for any given week.</p>
+</li>
+<li><p><strong>Month (also called Multi-Week) View</strong> </p>
+<p>   The month view is the least detailed of the views, and is designed to allow browsing and long-term plan analysis. This view positions the days one after another horizontally, so that they form weeks, while weeks are placed one under the other.</p>
+</li>
+<li><p><strong>Timeline View</strong></p>
+<p>   This view plots appointments as horizontal bars along the timescales, and provides a clearer overview for scheduling purposes.</p>
+</li>
+<li><p><strong>Gantt View</strong></p>
+<p>   This view displays appointments as horizontal bars along the timescales, shows the current schedule status using percent-complete shadings and displays dependency relationships between appointments.</p>
+</li>
+<li><p><strong>Agenda View</strong></p>
+<p>   This view displays appointment as a chronological list grouped by day.</p>
+</li>
+</ul>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/master/interface-elements-for-desktop/articles/scheduler/layout-customization/switch-scheduler-views.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2017 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../styles/main.js"></script>
+  </body>
+</html>

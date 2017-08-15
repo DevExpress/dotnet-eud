@@ -1,0 +1,141 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Limit the Number of Records per Page | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Limit the Number of Records per Page | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.20.0.0">
+    
+    <link rel="shortcut icon" href="../../../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../../../toc.html">
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../../../index.html">
+                <img id="logo" class="svg" src="../../../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="limit-the-number-of-records-per-page">Limit the Number of Records per Page</h1>
+
+<p>This tutorial demonstrates how to define how many records should be displayed at each page in a report&#39;s Print Preview. Note that no <a href="handle-events-via-scripts.html">scripts</a> are required to accomplish this task.</p>
+<p>To demonstrate this feature, we&#39;ll use a report, similar to the one created in the following tutorial: <a href="../../report-editing-basics/change-or-apply-data-grouping-to-a-report.html">Change or Apply Data Grouping to a Report</a>.</p>
+<p>To limit the number of records per page, do the following.</p>
+<ol>
+<li><p>To add a <a href="../report-types/parameterized-report.html">parameter</a> to the report, in the <a href="../../report-designer-reference/report-designer-ui/field-list.html">Field List</a>, right-click the <strong>Parameters</strong> section, and in the invoked menu, choose <strong>Add Parameter</strong>.</p>
+<p> <img src="../../../../../images/img8865.png" alt="RD_HowTo_LimitNumberOfRecords_0"></p>
+</li>
+<li><p>Select the parameter, and in the <a href="../../report-designer-reference/report-designer-ui/property-grid.html">Property Grid</a>, set its <strong>Description</strong> to <strong>Rows per Page:</strong>, <strong>Parameter Type</strong> to <strong>Int32</strong> and <strong>(Name)</strong> to <strong>rowsNumber</strong>.</p>
+<p> <img src="../../../../../images/img8866.png" alt="RD_HowTo_LimitNumberOfRecords_1"></p>
+</li>
+<li><p>From the <a href="../../report-designer-reference/report-designer-ui/control-toolbox.html">Toolbox</a>, drop the <a href="../../report-designer-reference/report-controls/page-break.html">Page Break</a> control onto the top of the report&#39;s <a href="../../report-designer-reference/report-bands/detail-band.html">Detail</a> band.</p>
+<p> <img src="../../../../../images/img8867.png" alt="RD_HowTo_LimitNumberOfRecords_2"></p>
+</li>
+<li><p>Select the Page Break, and set its <strong>Visible</strong> property to <strong>No</strong>. Then, click the ellipsis button for its <strong>Formatting Rules</strong> property, and in the invoked <strong>Formatting Rules Editor</strong>, click the <strong>Edit Rule Sheet...</strong> button.</p>
+<p> <img src="../../../../../images/img8868.png" alt="RD_HowTo_LimitNumberOfRecords_3"></p>
+</li>
+<li><p>Now, in the invoked <strong>Formatting Rule Sheet Editor</strong>, click <img src="../../../../../images/img8593.png" alt="RD_buttons_add">, to create a new formatting rule. Set its <strong>Visible</strong> property to <strong>Yes</strong>, and click the ellipsis button for its <strong>Condition</strong> property.</p>
+<p> <img src="../../../../../images/img8870.png" alt="RD_HowTo_LimitNumberOfRecords_4"></p>
+</li>
+<li><p>In the invoked <strong>Condition Editor</strong>, define a logical expression for the rule, (e.g. <strong>([DataSource.CurrentRowIndex] % [Parameters.rowsNumber] == 0) And ([DataSource.CurrentRowIndex] != 0)</strong>).</p>
+<p> <img src="../../../../../images/img8871.png" alt="RD_HowTo_LimitNumberOfRecords_5"></p>
+<p> To save the changes and close the dialog, click <strong>OK</strong>.</p>
+<p> Then, click <strong>Close</strong>, to quit the <strong>Formatting Rule Sheet Editor</strong>, as well.</p>
+</li>
+<li><p>Now, back in the <strong>Formatting Rules Editor</strong>, move the created rule to the list of applied rules on the right, using the arrow buttons in the middle of the dialog.</p>
+<p> <img src="../../../../../images/img8872.png" alt="RD_HowTo_LimitNumberOfRecords_6"></p>
+<p> To save the changes and close the editor, click <strong>OK</strong>.</p>
+</li>
+</ol>
+<p>The report is now ready. Switch to the <a href="../../report-designer-reference/report-designer-ui/preview-tab.html">Preview Tab</a>, and in the <strong>Parameters</strong> section, define the required value and click <strong>Submit</strong>.</p>
+<p><img src="../../../../../images/img8873.png" alt="RD_HowTo_LimitNumberOfRecords_7"></p>
+<p>Note that while in this example, the number of rows is specified each time the report is being previewed, you can make this number secure, by setting the parameter&#39;s <strong>Value</strong> option to the desired value, and then setting the report&#39;s <strong>Request Parameters</strong> option to <strong>No</strong>.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/master/interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/create-reports/miscellaneous/limit-the-number-of-records-per-page.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2017 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../../../styles/main.js"></script>
+  </body>
+</html>

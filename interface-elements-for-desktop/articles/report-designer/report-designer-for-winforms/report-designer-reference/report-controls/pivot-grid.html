@@ -1,0 +1,242 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Pivot Grid | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Pivot Grid | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.20.0.0">
+    
+    <link rel="shortcut icon" href="../../../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../../../toc.html">
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../../../index.html">
+                <img id="logo" class="svg" src="../../../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="pivot-grid">Pivot Grid</h1>
+
+<p>The <strong>Pivot Grid</strong> control represents dynamic data (obtained from an underlying data source) in a cross-tabulated form to create <a href="../../create-reports/report-types/cross-tab-report.html">cross-tab reports</a>, similar to Pivot Tables in Microsoft Excel&#174;. Column headers display unique values from one data field, and row headers - from another field. Each cell displays a summary for the corresponding row and column values. By specifying different data fields, you can see different totals. This allows you to get a compact layout for a complex data analysis.</p>
+<p>The Pivot Grid has a designer which allows you to easily adjust its layout. It can be invoked using the control&#39;s <a href="../report-designer-ui/smart-tag.html">Smart Tag</a>.</p>
+<p><img src="../../../../../images/img8579.png" alt="RD_Controls_PivotGrid_0"></p>
+<p>For more information on using this control, refer to <a href="../../../../pivot-table.html">Pivot Table</a>.</p>
+<p>In the <a href="../report-designer-ui/property-grid.html">Property Grid</a>, the Pivot Grid&#39;s properties are divided into the following groups.</p>
+<h2 id="appearance">Appearance</h2>
+<ul>
+<li><p><strong>Appearance</strong></p>
+<p>  Allows you to define the appearance properties (such as Background Color, Foreground Color, Font, etc.) for the Pivot Grid&#39;s elements (Cell, Field Value, Filter Separator, Header Group Line, etc.).</p>
+</li>
+<li><p><strong>Formatting Rules</strong></p>
+<p>  Invokes the Formatting Rules Editor allowing you to choose which rules should be applied to the control during report generation, and define the precedence of the applied rules. To learn more on this, refer to <a href="../../create-reports/styles-and-conditional-formatting/conditionally-change-a-controls-appearance.html">Conditionally Change a Control&#39;s Appearance</a>.</p>
+</li>
+<li><p><strong>Styles</strong></p>
+<p>  Allows you to invoke the Styles Editor, which is intended to manage and customize the control&#39;s styles, which then can be assigned to the Pivot Grid&#39;s elements.</p>
+</li>
+</ul>
+<h2 id="behavior">Behavior</h2>
+<ul>
+<li><p><strong>Anchor Horizontally</strong></p>
+<p>  Specifies the horizontal anchoring style of the control, so that after page rendering it stays attached to the left control, right control, or both. This property defines how a report control is resized to maintain the distance to the left and right edges of its container control.</p>
+</li>
+<li><p><strong>Anchor Vertically</strong></p>
+<p>  Specifies the vertical anchoring style of the Pivot Grid, so that after page rendering it stays attached to the top control, bottom control, or both.</p>
+</li>
+<li><p><strong>Keep Together</strong></p>
+<p>  Specifies whether the contents of the control can be horizontally split across pages. In other words, if the control occupies more space than remains on the page, this property specifies whether this Pivot Grid should be split between the current page and the next, or whether it will be printed entirely on the next page. This property is in effect only when a Pivot Grid&#39;s content does not fit on the current page. If it does not fit on the next page either, then the Pivot Grid will be split despite this property&#39;s value.</p>
+</li>
+<li><p><strong>Scripts</strong></p>
+<p>  This property contains events, which you can handle by the required scripts. For more information on scripting, refer to <a href="../../create-reports/miscellaneous/handle-events-via-scripts.html">Handle Events via Scripts</a>.</p>
+</li>
+<li><p><strong>Visible</strong></p>
+<p>  Specifies whether the control should be visible in print preview.</p>
+</li>
+</ul>
+<h2 id="data">Data</h2>
+<ul>
+<li><p><strong>Data Adapter</strong></p>
+<p>  Determines a data adapter that will populate a Pivot Grid&#39;s data source which is assigned via the Data Source property. It is automatically set to the appropriate value, when the Data Member property is defined. To learn more on this, refer to <a href="../../create-reports/report-types/cross-tab-report.html">Cross-Tab Report</a>.</p>
+</li>
+<li><p><strong>Data Member</strong></p>
+<p>  Determines the data source member which supplies data to a Pivot Grid. To learn more on this, refer to <a href="../../create-reports/report-types/cross-tab-report.html">Cross-Tab Report</a>.</p>
+<div class="NOTE"><h5>Note</h5><p>Usually, it is not necessary to specify the Data Member property when binding a Pivot Grid to data. This property should only be set directly if the dataset contains more than one table.</p>
+</div>
+</li>
+<li><p><strong>Data Source</strong></p>
+<p>  Determines a Pivot Grid&#39;s data source. To learn more on this, refer to <a href="../../create-reports/report-types/cross-tab-report.html">Cross-Tab Report</a>.</p>
+</li>
+<li><p><strong>Fields</strong></p>
+<p>  Invokes the Pivot Grid Field Collection Editor, allowing you to manage and fully customize a Pivot Grid&#39;s fields.</p>
+</li>
+<li><p><strong>OLAP Connection String</strong></p>
+<p>  Specifies a connection string to a cube in an Microsoft Analysis Services database. A sample connection string is shown below:</p>
+<p>  <code>OLAPConnectionString=&quot;Provider=msolap;Data Source=localhost;Initial Catalog=Adventure Works DW;Cube Name=Adventure Works;Query Timeout=100;&quot;</code></p>
+<p>  A connection string can be built via the Connection String Editor. To invoke it, click the ellipsis button for the OLAP Connection String property.</p>
+<p>  To represent information from the bound cube, create specific Pivot Grid fields, and bind them to the required fields in the data source.</p>
+<p>  If the OLAP Connection String property is set to a valid string, the value of the Data Source property is cleared. Setting the Data Source property to a valid object clears the OLAP Connection String property.</p>
+</li>
+<li><p><strong>OLAP Data Provider</strong></p>
+<p>  A Pivot Grid can use one of the following data providers to communicate with the Microsoft Analysis Services server.</p>
+<ul>
+<li><p>OLE DB for OLAP</p>
+<p>  Provides basic OLAP binding capabilities.</p>
+</li>
+<li><p>ADOMD.NET</p>
+<p>  Offers certain performance gains when compared to OLE DB, and yet allows you to retrieve OLAP member format strings and properties from the server.</p>
+</li>
+<li><p>XMLA</p>
+<p>  An open XML-based standard that does not require any data access libraries or data providers to be installed on the client system. Nevertheless, it supports all OLAP features available in OLE DB and ADOMD.NET.</p>
+<p>The default data provider for Pivot Grid is OLE DB.</p>
+</li>
+</ul>
+</li>
+<li><p><strong>Prefilter</strong></p>
+<p>  When this property is expanded in the <a href="../report-designer-ui/property-grid.html">Property Grid</a>, you can set its Enabled property to Yes, and use the Criteria property to invoke the Pivot Grid Prefilter dialog.</p>
+<p>  This dialog allows you to build complex filter criteria with an unlimited number of filter conditions, combined by logical operators. It provides a set of logical operators that significantly simplify the process of creating filters for text, numeric and date-time fields.</p>
+<div class="NOTE"><h5>Note</h5><p>The Prefilter is not supported in OLAP mode.</p>
+</div>
+</li>
+<li><p><strong>Tag</strong></p>
+<p>  This property allows you to add some additional information to the control; for example its id, by which it can then be accessible via <a href="../../create-reports/miscellaneous/handle-events-via-scripts.html">scripts</a>.</p>
+</li>
+</ul>
+<h2 id="design">Design</h2>
+<ul>
+<li><p><strong>(Name)</strong></p>
+<p>  Determines a control&#39;s name, by which it can be accessed in the <a href="../report-designer-ui/report-explorer.html">Report Explorer</a>, <a href="../report-designer-ui/property-grid.html">Property Grid</a> or via <a href="../../create-reports/miscellaneous/handle-events-via-scripts.html">scripts</a>.</p>
+</li>
+</ul>
+<h2 id="layout">Layout</h2>
+<ul>
+<li><p><strong>Location</strong></p>
+<p>  Specifies the control&#39;s location, measured in <a href="../../create-reports/basic-operations/change-measurement-units-of-a-report.html">report units</a>.</p>
+</li>
+<li><p><strong>Size</strong></p>
+<p>  Specifies the control&#39;s size, measured in <a href="../../create-reports/basic-operations/change-measurement-units-of-a-report.html">report units</a>.</p>
+</li>
+<li><p><strong>Snap Line Margin</strong></p>
+<p>  Specifies the margin (measured in <a href="../../create-reports/basic-operations/change-measurement-units-of-a-report.html">report units</a>), which is to be preserved around the control when it is <a href="../../create-reports/basic-operations/controls-positioning.html">aligned using Snap Lines</a>, or when other controls are aligned next to it.</p>
+</li>
+</ul>
+<h2 id="navigation">Navigation</h2>
+<ul>
+<li><p><strong>Bookmark</strong> and <strong>Parent Bookmark</strong></p>
+<p>  These properties are intended for the creation of a hierarchical structure within a report called a document map. For an explanation and help, refer to <a href="../../create-reports/report-navigation-and-interactivity/add-bookmarks.html">Add Bookmarks</a>.</p>
+</li>
+</ul>
+<h2 id="options">Options</h2>
+<ul>
+<li><p><strong>Data Field Options</strong></p>
+<p>  Allows you to customize the options which control the presentation of the data fields.</p>
+</li>
+<li><p><strong>Data Options</strong></p>
+<p>  Allows you to define whether a Pivot Grid&#39;s fields must be case sensitive or not.</p>
+</li>
+<li><p><strong>Options Chart Data Source</strong></p>
+<p>  Provides access to the options controlling the display of the Pivot Grid&#39;s data in a <a href="chart.html">Chart</a>.</p>
+</li>
+<li><p><strong>Print Options</strong></p>
+<p>  Allows you to customize the print options of a Pivot Grid.</p>
+</li>
+<li><p><strong>View Options</strong></p>
+<p>  Allows you to customize the Pivot Grid&#39;s display options.</p>
+</li>
+</ul>
+<h2 id="printing">Printing</h2>
+<ul>
+<li><p><strong>Right to Left</strong></p>
+<p>  Specifies the orientation of the content within the Pivot Grid&#39;s cells. Use this option to correctly render text written in right-to-left languages.</p>
+<p>  By default, all report controls have this property set to Inherit, so enabling it for a report will apply this setting to all its controls.</p>
+<p>  The right-to-left layout is preserved when <a href="../../../../print-preview/print-preview-for-winforms/exporting/exporting-from-print-preview.html">exporting a report</a> to any of the supported formats (e.g., PDF, Excel, or RTF).</p>
+</li>
+</ul>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/master/interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-reference/report-controls/pivot-grid.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2017 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../../../styles/main.js"></script>
+  </body>
+</html>

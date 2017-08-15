@@ -1,0 +1,165 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Master-Detail Report (Subreports) | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Master-Detail Report (Subreports) | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.20.0.0">
+    
+    <link rel="shortcut icon" href="../../../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../../../toc.html">
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../../../index.html">
+                <img id="logo" class="svg" src="../../../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="master-detail-report-subreports">Master-Detail Report (Subreports)</h1>
+
+<p>This tutorial describes the steps needed to create a master-detail report using the <a href="../../report-designer-reference/report-controls/subreport.html">Subreport</a> control. For an alternative approach, refer to <a href="master-detail-report-%28detail-report-bands%29.html">Master-Detail Report (Detail Report Bands)</a>.</p>
+<p>To create a master-detail report using the subreport controls, do the following.</p>
+<ul>
+<li><a href="#create">Create a Master Report</a></li>
+<li><a href="#detail">Create and Customize a Detail Report</a></li>
+<li><a href="#subreport">Embed the Subreport</a></li>
+<li><a href="#result">Get the Result</a></li>
+</ul>
+<p><a name="create"></a></p>
+<h2 id="create-a-master-report">Create a Master Report</h2>
+<ol>
+<li><a href="../basic-operations/create-a-new-report.html">Create a new report</a> and <a href="../binding-a-report-to-data.html">bind it to a data source</a>. This report will be used as the master report.</li>
+<li><p>Drop the required fields from the <a href="../../report-designer-reference/report-designer-ui/field-list.html">Field List</a> panel onto the <a href="../../report-designer-reference/report-bands/detail-band.html">Detail Band</a>. In this example, the following report layout is used.</p>
+<p> <img src="../../../../../images/img122063.png" alt="RD_MasterDetail_Subreports1"></p>
+</li>
+<li><p>Drag the <a href="../../report-designer-reference/report-controls/subreport.html">Subreport</a> control from the <strong>Toolbox</strong> and drop it onto the <a href="../../report-designer-reference/report-bands/detail-band.html">Detail Band</a>.</p>
+<p> <img src="../../../../../images/img122064.png" alt="RD_MasterDetail_Subreports2"></p>
+</li>
+</ol>
+<p><a name="detail"></a></p>
+<h2 id="create-and-customize-the-detail-report">Create and Customize the Detail Report</h2>
+<ol>
+<li>Next, <a href="../basic-operations/create-a-new-report.html">add one more blank report</a> and <a href="../binding-a-report-to-data.html">bind it to the same data source</a>. It will be used as a detail report.</li>
+<li><p>Drop the required fields from the <a href="../../report-designer-reference/report-designer-ui/field-list.html">Field List</a> panel onto the <a href="../../report-designer-reference/report-bands/detail-band.html">Detail Band</a>. This tutorial uses the following layout for the detail report.</p>
+<p> <img src="../../../../../images/img122065.png" alt="RD_MasterDetail_Subreports3"></p>
+</li>
+<li><p>To add a parameter to the report, right-click the <strong>Parameters</strong> section and choose <strong>Add Parameter</strong> in the <a href="../../report-designer-reference/report-designer-ui/field-list.html">Field List</a>.</p>
+<p> <img src="../../../../../images/img122066.png" alt="RD_MasterDetail_Subreports4"></p>
+</li>
+<li><p>In the invoked <strong>Add New Parameter</strong> dialog, specify the parameter&#39;s options as shown in the image below.</p>
+<p> <img src="../../../../../images/img122067.png" alt="RD_MasterDetail_Subreports5"></p>
+</li>
+<li><p>Then, click the report&#39;s <a href="../../report-designer-reference/report-designer-ui/smart-tag.html">Smart Tag</a>, and in its actions list, click the ellipsis button for the <strong>Filter String</strong> property.</p>
+<p> In the invoked <strong>FilterString Editor</strong>, construct an expression where the <strong>Category ID</strong> data field is compared to the <strong>CatID</strong> parameter. To access the parameter, click the icon on the right until it turns into a question mark.</p>
+<p> <img src="../../../../../images/img122068.png" alt="RD_MasterDetail_Subreports6"></p>
+</li>
+<li><p>To save the detail report, select <strong>File | Save As</strong> in the <a href="../../report-designer-reference/report-designer-ui/main-menu.html">Main Menu</a>. Then, in the invoked standard <strong>Save</strong> dialog, specify the folder and file name.</p>
+<p> <img src="../../../../../images/img11066.png" alt="Report-SaveAs"></p>
+</li>
+</ol>
+<p><a name="subreport"></a></p>
+<h2 id="embed-the-subreport">Embed the Subreport</h2>
+<ol>
+<li><p>Next, switch back to the master report. Click the subreport control&#39;s smart tag, then click the ellipsis button for the <strong>ReportSource URL</strong> property and select the previously saved detail report.</p>
+<p> <img src="../../../../../images/img122069.png" alt="RD_MasterDetail_Subreports7"></p>
+</li>
+<li><p>Then, bind the subreport&#39;s <strong>CatID</strong> parameter used as a filtering criterion to the master report&#39;s <strong>CategoryID</strong> data field, which will serve as a source of the parameter value. To do this, click the subreport&#39;s smart tag and select <strong>Edit Parameter Bindings</strong> in the invoked actions list.</p>
+<p> <img src="../../../../../images/img122070.png" alt="RD_MasterDetail_Subreports8"></p>
+<p> This will invoke a <strong>Parameter Binding Collection Editor</strong>. Click <strong>Add</strong> to add new binding. In the binding properties list, specify the data field to which you want to bind a subreport parameter and the name of the parameter that you want to bind.</p>
+<p> <img src="../../../../../images/img122071.png" alt="RD_MasterDetail_Subreports9"></p>
+</li>
+</ol>
+<p><a name="result"></a></p>
+<h2 id="get-the-result">Get the Result</h2>
+<p>The master-detail report is now ready to be generated. You can view the result by switching to the <a href="../../report-designer-reference/report-designer-ui/preview-tab.html">Preview Tab</a>.</p>
+<p><img src="../../../../../images/img122073.png" alt="RD_MasterDetail_SubreportsResult"></p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/master/interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/create-reports/report-types/master-detail-report-(subreports).md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2017 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../../../styles/main.js"></script>
+  </body>
+</html>

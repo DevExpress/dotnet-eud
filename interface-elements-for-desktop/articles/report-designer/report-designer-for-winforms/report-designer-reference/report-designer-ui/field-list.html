@@ -1,0 +1,136 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Field List | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Field List | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.20.0.0">
+    
+    <link rel="shortcut icon" href="../../../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../../../toc.html">
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../../../index.html">
+                <img id="logo" class="svg" src="../../../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="field-list">Field List</h1>
+
+<p>The <strong>Field List</strong> is intended to display the structure of the data source to which a report is currently bound. This panel can also be used to create new bound report controls, manage <a href="../../report-editing-basics/add-calculated-fields-to-a-report.html">calculated fields</a> and <a href="../../report-editing-basics/add-parameters-to-a-report.html">report paramters</a>.</p>
+<p>This document consists of the following sections.</p>
+<ul>
+<li><a href="#datasource">Manage a Data Source</a></li>
+<li><a href="#binding">Create Bound Report Elements</a></li>
+<li><a href="#calcfields">Manage Calculated Fields</a></li>
+<li><a href="#parameters">Manage Report Parameters</a></li>
+</ul>
+<h2 id="manage-a-data-sourcea-namedatasource">Manage a Data Source<a name="datasource"></a></h2>
+<p>After <a href="../../create-reports/binding-a-report-to-data.html">binding a report to data</a>, the Field List shows the structure of the report&#39;s data source (assigned to the <strong>Data Source</strong> property). You can right-click the data source to access and manage its settings.</p>
+<p><img src="../../../../../images/img126954.png" alt="eud-win-reports-field-list-manage-queries"></p>
+<h2 id="a-namebindingcreate-bound-report-elements"><a name="binding"></a>Create Bound Report Elements</h2>
+<p>The Field List displays the list of all available data fields and allows you to create report elements that will show information from these fields.</p>
+<p><img src="../../../../../images/img126955.png" alt="eud-win-reports-field-list-drop-field"></p>
+<p>For more information on creating data-bound report controls, see <a href="../../report-editing-basics/displaying-values-from-a-database-%28binding-report-elements-to-data%29.html">Displaying Values from a Database (Binding Report Elements to Data)</a>.</p>
+<p>If the report&#39;s <strong>Show Designer&#39;s Hints</strong> option is enabled, a tooltip appears when pointing to an item in the Field List. This tooltip describes the purpose of a data field and provides information about the field&#39;s type.</p>
+<p><img src="../../../../../images/img124977.png" alt="EUD_WinReportDesigner_FieldListTooltip"></p>
+<h2 id="a-namecalcfieldsmanage-calculated-fields"><a name="calcfields"></a>Manage Calculated Fields</h2>
+<p>The Field List allows you to create <a href="../../report-editing-basics/add-calculated-fields-to-a-report.html">calculated fields</a> by building expressions based on the values of data fields, report parameter values, etc.</p>
+<p>To add a calculated field to a report, right-click any item inside the data member node, and in the invoked context menu, select <strong>Add Calculated Field</strong>.</p>
+<p><img src="../../../../../images/img126956.png" alt="eud-win-reports-field-list-add-calc-field"></p>
+<p>To edit settings of the created calculated field, select it and go to the <a href="property-grid.html">Property Grid</a>. You can also right-click the calculated field and use commands available in the context menu.</p>
+<h2 id="a-nameparametersmanage-report-parameters"><a name="parameters"></a>Manage Report Parameters</h2>
+<p>The Field List shows existing report parameters and allows you to add new ones to the report. To create a parameter, right click the <strong>Parameters</strong> node or any of its sub-nodes, and in the context menu, select <strong>Add Parameter</strong>.</p>
+<p><img src="../../../../../images/img126957.png" alt="eud-win-reports-field-list-add-parameter"></p>
+<p>You can customize report parameters using the <a href="property-grid.html">Property Grid</a> or commands available in the context menu in the same way as you can customize calculated fields.</p>
+<p>If the Field List is hidden, you can enable it in the <a href="main-menu.html">Main Menu</a> by selecting <strong>View</strong> | <strong>Windows</strong> | <strong>Field List</strong>.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/master/interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-reference/report-designer-ui/field-list.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2017 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../../../styles/main.js"></script>
+  </body>
+</html>

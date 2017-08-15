@@ -1,0 +1,167 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Master-Detail Report (Subreports) | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Master-Detail Report (Subreports) | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.20.0.0">
+    
+    <link rel="shortcut icon" href="../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../toc.html">
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../index.html">
+                <img id="logo" class="svg" src="../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="master-detail-report-subreports">Master-Detail Report (Subreports)</h1>
+
+<p>This tutorial describes the steps to create a master-detail report using the <a href="../report-elements/report-controls.html">Subreport</a> control. For an alternative approach, refer to <a href="master-detail-report-%28detail-report-bands%29.html">Master-Detail Report (Detail Report Bands)</a>.</p>
+<p>To create a master-detail report using the subreport controls, do the following.</p>
+<ul>
+<li><a href="#create">Create a Master Report</a></li>
+<li><a href="#detail">Create and Customize a Detail Report</a></li>
+<li><a href="#subreport">Configure Subreport Parameter Bindings</a></li>
+<li><a href="#result">Get the Result</a></li>
+</ul>
+<h2 id="a-namecreatecreate-a-master-report"><a name="create"></a>Create a Master Report</h2>
+<ol>
+<li><p><a href="../creating-reports/basic-operations/create-a-new-report.html">Create a new report</a> and <a href="../creating-reports/providing-data/bind-a-report-to-data.html">bind it to a data source</a>. In the <a href="../wizards/report-wizard.html">Report Wizard</a>, select the data table that will be used as the master table.</p>
+<p> <img src="../../../images/img120281.png" alt="eud-subreports-0"></p>
+</li>
+<li><p>Drop the required fields from the <a href="../interface-elements/field-list.html">Field List</a> onto the <a href="../report-elements/report-bands.html">Detail band</a>. In this tutorial, we&#39;ll use the following report layout.</p>
+<p> <img src="../../../images/img120283.png" alt="eud-subreports-2"></p>
+</li>
+<li><p>Drag the <a href="../report-elements/report-controls.html">Subreport</a> control from the <a href="../interface-elements/toolbox.html">Toolbox</a> and drop it onto the <a href="../report-elements/report-bands.html">Detail band</a>.</p>
+<p> <img src="../../../images/img120284.png" alt="eud-subreports-3"></p>
+<p> Double-click the added subreport to open the detail report. To switch between master and detail reports, click the corresponding tab in the bottom left corner of the Design Surface.</p>
+<p> <img src="../../../images/img120285.png" alt="eud-subreports-4"></p>
+</li>
+</ol>
+<h2 id="a-namedetailcreate-and-customize-the-detail-report"><a name="detail"></a>Create and Customize the Detail Report</h2>
+<ol>
+<li><p><a href="../creating-reports/providing-data/bind-a-report-to-data.html">Bind</a> the detail report to a data source using the <a href="../wizards/report-wizard.html">Report Wizard</a>. In the Report Wizard, select the data table that will be used as the detail table.</p>
+<p> <img src="../../../images/img120282.png" alt="eud-subreports-1"></p>
+</li>
+<li><p>Drop the required fields from the <a href="../interface-elements/field-list.html">Field List</a> onto the <a href="../report-elements/report-bands.html">Detail band</a>. In this tutorial, we&#39;ll use the following layout for the detail report.</p>
+<p> <img src="../../../images/img120286.png" alt="eud-subreports-5"></p>
+</li>
+<li><p>To add a <a href="../creating-reports/providing-data/report-parameters.html">parameter</a> to the report, in the <a href="../interface-elements/field-list.html">Field List</a>, select the <strong>Parameters</strong> node and click <strong>Add parameter</strong>.</p>
+<p> <img src="../../../images/img119468.png" alt="eud-report-parameters-0"></p>
+</li>
+<li><p>Then, specify properties of this parameter as shown below.</p>
+<p> <img src="../../../images/img120287.png" alt="eud-subreports-6"></p>
+</li>
+<li><p>To <a href="../creating-reports/shaping-data/filtering-data.html">filter</a> the detail report data, switch to the <a href="../interface-elements/properties-panel.html">Properties Panel</a> and click the ellipsis button for the report&#39;s <strong>Filter String</strong> property.</p>
+<p> <img src="../../../images/img118363.png" alt="filter-editor-filter-string"></p>
+<p> Then, in the invoked <a href="../interface-elements/filter-editor.html">Filter Editor</a>, construct an expression where the <strong>CategoryID</strong> data field is compared to the <strong>CatID</strong> parameter. To add a parameter to an expression, expand the drop-down menu for a value placeholder and select the <strong>Parameter</strong> item. This will convert the value placeholder into a parameter placeholder. Next, click the placeholder to choose the parameter.</p>
+<p> <img src="../../../images/img120288.png" alt="eud-subreports-7"></p>
+<p> Click <strong>Save</strong> to exit the Filter Editor.</p>
+</li>
+<li><p>Invoke the <a href="../interface-elements/menu.html">menu</a> of the <a href="../../report-designer.html">Web Report Designer</a> and click <strong>Save</strong> to save the detail report to the server-side report storage.</p>
+<p> <img src="../../../images/img120290.png" alt="eud-subreports-8"></p>
+<p> In the invoked <strong>Save Report</strong> dialog, specify the report name and click <strong>Save</strong>.</p>
+<p> <img src="../../../images/img121457.png" alt="eud-subreports-9-5"></p>
+<div class="NOTE"><h5>Note</h5><p>You can utilize the Subreport control to re-use an already existing report in the server-side report storage as a detail report. To do this, drop the Subreport control onto a report band, expand the drop-down list for the subreport&#39;s Report Source Url property and select the required report.</p>
+<p><img src="../../../images/img121458.png" alt="eud-subreports-9-6"></p>
+</div>
+</li>
+</ol>
+<h2 id="a-namesubreportconfigure-subreport-parameter-bindings"><a name="subreport"></a>Configure Subreport Parameter Bindings</h2>
+<p>Switch back to the master report and bind the subreport&#39;s <strong>CatID</strong> parameter used as a filtering criterion to the master report&#39;s <strong>CategoryID</strong> data field, which will serve as a source of the parameter value.</p>
+<p>To do this, select the subreport, expand the <strong>Data</strong> category on the <a href="../interface-elements/properties-panel.html">Properties Panel</a>, select the <strong>Parameter Bindings</strong> section and add a new parameter binding. In the binding properties list, specify the data field to which you want to bind a subreport parameter and the name of the parameter that you want to bind.</p>
+<p><img src="../../../images/img120291.png" alt="eud-subreports-9"></p>
+<h2 id="a-nameresultget-the-result"><a name="result"></a>Get the Result</h2>
+<p>The master-detail report is now ready. Switch the master report to the <a href="../document-preview.html">Preview</a> mode to view the result.</p>
+<p><img src="../../../images/img120292.png" alt="eud-subreports-10"></p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/master/interface-elements-for-web/articles/report-designer/report-types/master-detail-report-(subreports).md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2017 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../styles/main.js"></script>
+  </body>
+</html>

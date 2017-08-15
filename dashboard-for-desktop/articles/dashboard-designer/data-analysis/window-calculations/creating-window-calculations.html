@@ -1,0 +1,186 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Creating Window Calculations | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Creating Window Calculations | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.20.0.0">
+    
+    <link rel="shortcut icon" href="../../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../../toc.html">
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../../index.html">
+                <img id="logo" class="svg" src="../../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="creating-window-calculations">Creating Window Calculations</h1>
+
+<p>The Dashboard Designer allows you to add a <a href="window-calculations-overview.html">window calculation</a> for numeric measures. To do this, invoke the <a href="../../ui-elements/data-items-pane.html">data item menu</a> and select the required calculation type.</p>
+<p><img src="../../../../images/img123408.png" alt="Measure_CalculationMenu"></p>
+<p>The image above shows a calculation menu of the <a href="../../designing-dashboard-items/pivot.html">Pivot</a> dashboard item. The following items are available.</p>
+<ul>
+<li><strong>Percent of Column Grand Total</strong> - Calculates a contribution of individual measure values to a column grand total.</li>
+<li><strong>Percent of Row Grand Total</strong> - Calculates a contribution of individual measure values to a row grand total.</li>
+<li><strong>Percent of Grand Total</strong> - Calculates a contribution of individual measure values to a grand total.</li>
+<li><strong>Running Summary along Columns</strong> - Calculates a cumulative total for measure values along columns (horizontally).</li>
+<li><strong>Running Summary along Rows</strong> - Calculates a cumulative total for measure values along rows (vertically).</li>
+<li><strong>Difference along Columns</strong> - Calculates differences between measure values along columns (horizontally).</li>
+<li><strong>Difference along Rows</strong> - Calculates differences between measure values along rows (vertically).</li>
+<li><strong>Percent Difference along Columns</strong> - Calculates percentage differences between measure values along columns (horizontally).</li>
+<li><strong>Percent Difference along Rows</strong> - Calculates percentage differences between measure values along rows (vertically).</li>
+<li><strong>Rank along Columns</strong> - Ranks measure values along columns (horizontally).</li>
+<li><strong>Rank along Rows</strong> - Ranks measure values along rows (vertically).</li>
+<li><strong>Rank along Cells</strong> - Ranks measure values along cells (throughout the entire pivot table).</li>
+<li><p><strong>Custom...</strong> - Allows you to create a custom calculation by specifying various settings. Clicking this item invokes the <strong>Customize Calculation</strong> dialog that allows you to add additional customizations to calculations.</p>
+<p>  <img src="../../../../images/img123637.png" alt="CustomizeCalculationDialog_None"></p>
+<p>  To learn more, see descriptions of the available calculations below.</p>
+</li>
+</ul>
+<div class="NOTE"><h5>Note</h5><p>Note that the list of available items in this menu can be changed by the Dashboard Designer dynamically. For instance, if the Pivot dashboard item does not contain dimensions in the <strong>Rows</strong> section, menu items related to rows will be disabled.</p>
+</div>
+<h2 id="running-total">Running Total</h2>
+<p>The Running Total calculation can be used to compute a cumulative total for the specified measure across a <a href="window-definition.html">window</a>. For example, the Grid below displays cumulative sales across all quarters.</p>
+<p><img src="../../../../images/img123465.png" alt="CreatingCalculations_ExampleRunningTotal"></p>
+<p>The Customize Calculation dialog provides the following settings for the Running Total calculation.</p>
+<p><img src="../../../../images/img123627.png" alt="CustomizeCalculationDialog_RunningTotal"></p>
+<ul>
+<li><strong>Running along</strong> - Specifies a <a href="window-calculations-overview.html">window and direction</a> used to calculate running totals.</li>
+<li><strong>Summary function</strong> - Specifies a summary function used to apply calculation. To learn more about the available summary functions, see the <strong>Summary Function Types</strong> in the <a href="../../data-shaping/summarization.html">summary function</a> topic.</li>
+</ul>
+<h2 id="moving-calculation">Moving Calculation</h2>
+<p>The Moving calculation uses neighboring values to calculate a total. For example, the Grid below shows a moving average across all quarters.</p>
+<p><img src="../../../../images/img123466.png" alt="CreatingCalculations_ExampleMovingCalculation"></p>
+<p>The Customize Calculation dialog provides the following settings for the Moving calculation.</p>
+<p><img src="../../../../images/img123628.png" alt="CustomizeCalculationDialog_MovingCalculation"></p>
+<ul>
+<li><strong>Moving along</strong> - Specifies a <a href="window-definition.html">window and direction</a> used to apply a calculation.</li>
+<li><strong>Summary function</strong> - Specifies a summary function used to apply a calculation. To learn more about the available summary functions, see the <strong>Summary Function Types</strong> in the <a href="../../data-shaping/summarization.html">summary function</a> topic.</li>
+<li><strong>Start offset</strong> / <strong>End offset</strong> - Specify start/end offsets from the currently processed value. For instance, if you specified offsets as 1/1, the previous and next values will be used along with the current value to apply the Moving calculation.</li>
+</ul>
+<h2 id="difference">Difference</h2>
+<p>The Difference calculation can be used to compute the difference between measure values across a <a href="window-definition.html">window</a>. For example, the Grid below shows absolute differences between quarterly sales.</p>
+<p><img src="../../../../images/img123467.png" alt="CreatingCalculations_ExampleDifference"></p>
+<p>The Customize Calculation dialog provides the following settings for the Difference calculation.</p>
+<p><img src="../../../../images/img123629.png" alt="CustomizeCalculationDialog_Difference"></p>
+<ul>
+<li><strong>Calculate along</strong> - Specifies a <a href="window-calculations-overview.html">window and direction</a> used to calculate differences.</li>
+<li><p><strong>Difference from</strong> - Specifies the value used to calculate the difference. The following values are available: <em>Previous</em>, <em>Next</em>, <em>First</em> and <em>Last</em>.</p>
+<p>  You can also use the <strong>Percent Difference</strong> option to specify whether the absolute or percentage difference is displayed.</p>
+</li>
+</ul>
+<h2 id="percent-of-total">Percent of Total</h2>
+<p>A calculation is used to compute a percentage of the total for the specified measure across a <a href="window-definition.html">window</a>. For example, the Grid below shows a contribution of individual quarterly sales to total sales.</p>
+<p><img src="../../../../images/img123468.png" alt="CreatingCalculations_ExamplePercentOfTotal"></p>
+<p>The Customize Calculation dialog provides the following settings for the Percent of Total calculation.</p>
+<p><img src="../../../../images/img123630.png" alt="CustomizeCalculationDialog_PercentOfTotal"></p>
+<ul>
+<li><strong>Percent of Total</strong> - Specifies a <a href="window-calculations-overview.html">window and direction</a> used to apply a Percent of Total calculation.</li>
+</ul>
+<h2 id="rank">Rank</h2>
+<p>Use the Rank calculation to compute rankings for the specified measure across a <a href="window-definition.html">window</a>. For example, the Grid below shows a ranking of sales for individual quarters.</p>
+<p><img src="../../../../images/img123469.png" alt="CreatingCalculations_ExampleRank"></p>
+<p>The Customize Calculation dialog provides the following settings for the Rank calculation.</p>
+<p><img src="../../../../images/img123631.png" alt="CustomizeCalculationDialog_Rank"></p>
+<ul>
+<li><strong>Rank along</strong> - Specifies a <a href="window-calculations-overview.html">window and direction</a> used to rank values.</li>
+<li><strong>Rank type</strong> - Specifies the type of ranking. The following rank types are available: <em>Unique</em>, <em>Competition</em>, <em>Dense</em>, <em>Modified</em> and <em>Percentile</em>.</li>
+<li><strong>Order</strong> - Specifies the order of ranking. You can select <em>Ascending</em> or <em>Descending</em>.</li>
+</ul>
+<h2 id="expression">Expression</h2>
+<p>Use Expression to specify a custom calculation by adding the required <a href="calculation-functions-reference.html">calculation functions</a> inside the measure expression.</p>
+<p><img src="../../../../images/img123632.png" alt="CustomizeCalculationDialog_Expression"></p>
+<p>Click the <strong>Edit in Expression Editor</strong> button to invoke the <strong>Expression Editor</strong> and specify the required expression.</p>
+<p><img src="../../../../images/img123643.png" alt="CustomizeCalculation_ExpressionDialog"></p>
+<p>The Expression type provides the <strong>Calculate along</strong> option that specifies the <a href="window-calculations-overview.html">window and direction</a> used to calculate differences. Note that this option is in effect if the expression contains a <a href="calculation-functions-reference.html">calculation function</a>.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/master/dashboard-for-desktop/articles/dashboard-designer/data-analysis/window-calculations/creating-window-calculations.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2017 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../../styles/main.js"></script>
+  </body>
+</html>

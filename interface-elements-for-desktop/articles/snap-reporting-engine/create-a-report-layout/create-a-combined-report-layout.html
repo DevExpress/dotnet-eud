@@ -1,0 +1,155 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Create a Combined Report Layout | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Create a Combined Report Layout | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.20.0.0">
+    
+    <link rel="shortcut icon" href="../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../toc.html">
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../index.html">
+                <img id="logo" class="svg" src="../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="create-a-combined-report-layout">Create a Combined Report Layout</h1>
+
+<p>Snap allows you to create a single combined report, incorporating features of different report layout types. There is no limits on how many reports you can combine.</p>
+<p>In this tutorial, we will create a combined report that uses the features of mail-merge and chart-based reports.</p>
+<p>The tutorial consists of the following sections.</p>
+<ul>
+<li><a href="#mailmerge">Add Mail-Merge Report Functionality</a></li>
+<li><a href="#chart">Add Chart-Based Report Functionality</a></li>
+<li><a href="#result">View the Result</a></li>
+</ul>
+<h2 id="a-namemailmergeadd-mail-merge-report-functionality"><a name="mailmerge"></a>Add Mail-Merge Report Functionality</h2>
+<p>In this section, we will create a simple <strong>Mail-Merge Report</strong>.</p>
+<ol>
+<li>Create a new Snap document and <a href="../connect-to-data/create-a-master-detail-data-source.html">provide it with a master-detail data connection</a>.</li>
+<li><p>Specify which data source will be used for mail merge by right-clicking the required data source in the Data Explorer and select <strong>Use For Mail Merge</strong> in the invoked drop-down menu.</p>
+<p> <img src="../../../images/img23854.png" alt="combined-report-0"></p>
+</li>
+<li><p>Insert a master report part. To do this, drag-and-drop data fields from the <a href="../graphical-user-interface/snap-application-elements/data-explorer.html">Data Explorer</a> onto the  <a href="../graphical-user-interface/snap-application-elements/design-surface.html">Design Surface</a>.</p>
+<p> <img src="../../../images/img23857.png" alt="combined-report-1"></p>
+</li>
+<li><p>To insert a detail report part, drag-and-drop fields from a subordinate node of the data source.</p>
+<p> <img src="../../../images/img23858.png" alt="combined-report-2"></p>
+<p> The added detail part will have a tabular form by default.</p>
+<p> <img src="../../../images/img23864.png" alt="combined-report-7"></p>
+</li>
+</ol>
+<p>For more information on the creation mail-merge report, see the tutorial <a href="create-a-mail-merge-report.html">Create a Mail-Merge Report</a>.</p>
+<h2 id="a-namechartadd-chart-based-report-functionality"><a name="chart"></a>Add Chart-Based Report Functionality</h2>
+<p>In this section we will add a <strong>Chart</strong> to the Snap document.</p>
+<ol>
+<li><p>Click the <strong>Chart</strong> command in the <a href="../graphical-user-interface/main-toolbar/general-tools-insert.html">Insert</a> tab of the main toolbar.</p>
+<p> <img src="../../../images/img23859.png" alt="combined-report-3"></p>
+</li>
+<li><p>In the created chart, the blue circles correspond to the values and arguments of the chart. Drop one field from a subordinate node of the data source onto the &quot;values&quot; region in the chart...</p>
+<p> <img src="../../../images/img23860.png" alt="combined-report-4"></p>
+<p> ...and the other onto the &quot;arguments&quot; region.</p>
+<p> <img src="../../../images/img23861.png" alt="combined-report-5"></p>
+</li>
+</ol>
+<p>For more information on the creation of a chart-based report, see the tutorial <a href="create-a-chart-based-report.html">Create a Chart-Based Report</a>.</p>
+<h2 id="a-nameresultview-the-result"><a name="result"></a>View the Result</h2>
+<ul>
+<li><p>The Snap mail merge document is now ready. To view the result, click the <strong>Finish &amp; Merge</strong> button in the <a href="../graphical-user-interface/main-toolbar/data-tools-mail-merge.html">Mail Merge</a> tab, and select <strong>Print Preview...</strong> in the invoked  drop-down menu. In the invoked <strong>Export Range</strong> dialog, select <strong>All records</strong> and click <strong>OK</strong>.</p>
+<p>  <img src="../../../images/img22411.png" alt="snap-mail-merge-print-preview"></p>
+<p>  The following image illustrates a print preview for the final document.</p>
+<p>  <img src="../../../images/img23862.png" alt="combined-report-6"></p>
+</li>
+</ul>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/master/interface-elements-for-desktop/articles/snap-reporting-engine/create-a-report-layout/create-a-combined-report-layout.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2017 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../styles/main.js"></script>
+  </body>
+</html>

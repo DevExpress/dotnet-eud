@@ -1,0 +1,136 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Filtering Data | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Filtering Data | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.20.0.0">
+    
+    <link rel="shortcut icon" href="../../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../../toc.html">
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../../index.html">
+                <img id="logo" class="svg" src="../../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="filtering-data">Filtering Data</h1>
+
+<p>If the data source <a href="../providing-data/bind-a-report-to-data.html">bound</a> to your report contains far more data rows than are necessary for processing report creation, you can exclude excessive or undesired data. To accomplish this, construct a filtering expression, using single or multiple data fields.</p>
+<p>This document describes two approaches to filtering data with the <a href="../../../report-designer.html">Web Report Designer</a>.</p>
+<ul>
+<li><a href="#report">Filter Data at the Report Level</a></li>
+<li><a href="#datasource">Filter Data at the Data Source Level</a></li>
+</ul>
+<h2 id="a-namereportfilter-data-at-the-report-level"><a name="report"></a>Filter Data at the Report Level</h2>
+<p>To filter report data, switch to the <a href="../../interface-elements/properties-panel.html">Properties Panel</a>, and in the <strong>Actions</strong> or <strong>Data</strong> category, click the ellipsis button for the report&#39;s <strong>Filter String</strong> property.</p>
+<p><img src="../../../../images/img118363.png" alt="filter-editor-filter-string"></p>
+<p>In the invoked <a href="../../interface-elements/filter-editor.html">Filter Editor</a>, construct the filtering expression.</p>
+<p><img src="../../../../images/img118364.png" alt="filter-editor-condition"></p>
+<p>In every filter condition, the left part contains either the data field name, or the name of the <a href="../providing-data/calculated-fields.html">calculated field</a>, which exists in this data source at the same level. The right part of the condition contains either a certain numerical or string value, or the name of the <a href="../providing-data/report-parameters.html">report parameters</a>.</p>
+<p>To access parameters, expand the drop-down menu for a value placeholder and select the <strong>Parameter</strong> item.</p>
+<p><img src="../../../../images/img118471.png" alt="sql-data-source-wizard-filter-editor"></p>
+<p>This will convert the value placeholder into a parameter placeholder. Click this placeholder to insert the required parameter.</p>
+<h2 id="a-namedatasourcefilter-data-at-the-data-source-level"><a name="datasource"></a>Filter Data at the Data Source Level</h2>
+<p>To filter data at the report data source level, do the following.</p>
+<ol>
+<li>Invoke the <a href="../../wizards/sql-data-source-wizard.html">SQL Data Source Wizard</a>. To run the wizard to customize an existing query, switch to the <a href="../../interface-elements/field-list.html">Field List</a> panel, select the required SQL query and click the <strong>Edit query</strong> <img src="../../../../images/img118475.png" alt="web-report-designer-edit-query"> button.</li>
+<li><p>On this wizard page, click <strong>Run Query Builder...</strong> to edit the SQL query.</p>
+<p> <img src="../../../../images/img118468.png" alt="sql-data-source-wizard-run-query-builder"></p>
+</li>
+<li><p>In the invoked <a href="../../interface-elements/query-builder.html">Query Builder</a>, specify a filtering expression that will be used to filter resulting data at the data source level. To do this, click the ellipsis button for the <strong>Filter</strong> property, and in the invoked <a href="../../interface-elements/filter-editor.html">Filter Editor</a>, construct an expression.</p>
+<p> <img src="../../../../images/img118470.png" alt="sql-data-source-wizard-filter"></p>
+<p> Note that it is possible to embed <a href="../providing-data/query-parameters.html">query parameters</a> into the expression.</p>
+</li>
+</ol>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/master/interface-elements-for-web/articles/report-designer/creating-reports/shaping-data/filtering-data.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2017 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../../styles/main.js"></script>
+  </body>
+</html>

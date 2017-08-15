@@ -1,0 +1,175 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Create Appointments | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Create Appointments | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.20.0.0">
+    
+    <link rel="shortcut icon" href="../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../toc.html">
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../index.html">
+                <img id="logo" class="svg" src="../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="create-appointments">Create Appointments</h1>
+
+<h2 id="context-menu">Context Menu</h2>
+<p>The following items are available in the context menu, invoked when you right-click any region of the Scheduler (except for areas covered by appointments).</p>
+<p><img src="../../../images/img5492.png" alt="CreatingAppointments_01.png"></p>
+<ol>
+<li><p><strong>New Appointment</strong></p>
+<p> Invokes the <strong>Edit Appointment</strong> dialog.</p>
+<p> The <strong>Start time</strong> and <strong>End time</strong> values are initially set to the lower and upper boundaries of the current date and time selection.</p>
+<p> <img src="../../../images/img5493.png" alt="CreatingAppointments_02.png"></p>
+<p> Fill in other fields, if necessary. For example, use the large text box at the bottom of the dialog to enter text, which will be shown as an appointment&#39;s description in a <strong>Day</strong> or a <strong>Work Week</strong> <a href="../layout-customization/switch-scheduler-views.html">views</a>.</p>
+<p> You can also select the <strong>Reminder</strong> check box to enable appointment notifications (see <a href="manage-reminders.html">Manage Reminders</a>).</p>
+</li>
+<li><p><strong>New All Day Event</strong></p>
+<p> Invokes the <strong>Edit Event</strong> dialog, which is used to create a new all-day appointment (also called &#39;all-day event&#39;). The dialog is identical to <strong>Edit Appointment</strong> (shown above), except that in this case, the <strong>All day event</strong> option is checked, its time range is measured in days (not hours) and marked as <strong>Free</strong>. The appointment can be transformed into an all-day event and vice-versa by checking this box.</p>
+</li>
+<li><p><strong>New Recurring Appointment</strong></p>
+<p> All appointments maintained by the scheduler can either be simple (non-recurring - i.e., they happen only once), or recurring - occurring multiple times within a specified time interval.</p>
+<p> Selecting this menu item invokes the <strong>Edit Appointment</strong> dialog, used to create a new appointment, and also invokes the <strong>Appointment Recurrence</strong> dialog, which allows the recurrence pattern to be specified for the new appointment.</p>
+<p> <img src="../../../images/img4767.png" alt="RecurrenceDialog.png"></p>
+</li>
+<li><p><strong>New Recurring Event</strong></p>
+<p> Selecting this menu item invokes the <strong>Event</strong> editor dialog used to create a new all-day appointment, and also invokes the <strong>Appointment Recurrence</strong> dialog, which allows the recurrence pattern to be specified for the new event.</p>
+</li>
+</ol>
+<h2 id="bar-or-ribbon-interface">Bar or Ribbon Interface</h2>
+<p>If a scheduler is provided with the Bar or Ribbon interface, you can create new appointments (simple and recurring) using the <strong>New Appointment</strong> and <strong>New Recurring Appointment</strong> buttons on the <strong>Appointment</strong> <a href="../scheduler-ui/toolbars.html">toolbar</a> or <a href="../scheduler-ui/ribbon-interface.html">Ribbon page group</a>. These buttons invoke the <strong>Edit Appointment</strong> and <strong>Appointment Recurrence</strong> dialogs respectively.</p>
+<table>
+<thead>
+<tr>
+<th>Create a new appointment via Bar interface</th>
+<th>Create a new appointment via Ribbon interface</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="../../../images/img16556.png" alt="Scheduler_AppointmentToolbar"></td>
+<td><img src="../../../images/img16546.png" alt="Scheduler_Ribbon_Appointment"></td>
+</tr>
+</tbody>
+</table>
+<h2 id="keyboard-shortcuts-and-mouse-operations">Keyboard Shortcuts and Mouse Operations</h2>
+<table>
+<thead>
+<tr>
+<th>Action</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>An alphanumeric key or ENTER</td>
+<td>Pressing an alphanumeric key or ENTER invokes an in-place editor where you can type the subject of a new appointment occupying the currently selected area. Once you have typed your appointment&#39;s subject, you can either create and save the appointment by pressing <strong>ENTER</strong> or changing the focus, or cancel the operation by pressing <strong>ESC</strong>. The type of the created appointment depends on the selected time cell(s). When typing is done in <strong>Day</strong> or <strong>Work-Week</strong> view, the appointment is created with the time interval starting with the earliest time of the selected cells and ending with the latest, and the time is marked as <strong>Busy</strong>. If an all-day area is selected, then an all-day appointment is created with the time marked as <strong>Free</strong>. When the scheduler display mode is <strong>Week</strong> or <strong>Month</strong> view, the appointment is created with the start time set to 12 AM of the first selected day, and the end time is set to 12 AM of the day following the last selected day.</td>
+</tr>
+<tr>
+<td>Double-click</td>
+<td>Double-clicking within a scheduler view&#39;s time cell that does not contain any appointments invokes the <strong>Edit Appointment</strong> dialog described above.</td>
+</tr>
+<tr>
+<td>CTRL+N</td>
+<td>Pressing CTRL+N invokes the <strong>Edit Appointment</strong> dialog. Then this dialog can be used to create a new appointment.</td>
+</tr>
+<tr>
+<td>Dragging an appointment while holding CTRL</td>
+<td>This action creates a copy of the selected appointment and moves it, leaving the original appointment intact.</td>
+</tr>
+</tbody>
+</table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/master/interface-elements-for-desktop/articles/scheduler/appointment-management/create-appointments.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2017 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../styles/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,140 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Create a Master-Detail Data Source | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Create a Master-Detail Data Source | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.20.0.0">
+    
+    <link rel="shortcut icon" href="../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../toc.html">
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../index.html">
+                <img id="logo" class="svg" src="../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="create-a-master-detail-data-source">Create a Master-Detail Data Source</h1>
+
+<p>This tutorial describes how to add a master-detail relation to the document&#39;s data source.</p>
+<p>Prior to the following steps, connect a Snap document to data as shown in the <a href="connect-a-document-to-a-data-source.html">Connect a Document to a Data Source</a> tutorial.</p>
+<ol>
+<li><p>Right-click the <strong>NWind Data Source</strong> node in the <strong>Data Explorer</strong> window and select <strong>Manage Queries...</strong> in the invoked context menu.</p>
+<p> <img src="../../../images/img19876.png" alt="Howto-Bind-Snap-Report-to-Data06"></p>
+</li>
+<li><p>The <strong>Manage Queries</strong> dialog is displayed. It lists the available queries and allows you to edit them, delete or add a new query. Click  the ellipsis to the right of the query name to invoke the <strong>Query Editor</strong> dialog for the selected query.</p>
+<p> <img src="../../../images/img120441.png" alt="Howto-Bind-Snap-Report-to-Data06a"></p>
+</li>
+<li><p>Click <strong>Run Query Builder..</strong> to invoke the Query Builder window.</p>
+<p> <img src="../../../images/img120439.png" alt="Howto-Bind-Snap-Report-to-Data04new"></p>
+</li>
+<li><p>Double-click the <strong>Products</strong> item in the list of available tables on the left to include it in the list of data tables to be used.</p>
+<p> <img src="../../../images/img19877.png" alt="Howto-Bind-Snap-Report-to-Data07"></p>
+<p> Enable the check box for the <strong>Products</strong> table, to include all of its fields in the view.</p>
+<p> Click <strong>OK</strong> to close the Query Builder. Click <strong>Finish</strong> to close the <strong>Query Editor</strong>. Click <strong>OK</strong> to close the Manage Queries window which contains now two queries.</p>
+</li>
+<li><p>Right-click the <strong>NWind Data Source</strong> node in the <strong>Data Explorer</strong> window and select <strong>Manage Relations...</strong> in the invoked context menu.</p>
+<p> <img src="../../../images/img120451.png" alt="Howto-Bind-Snap-Report-to-Data08"></p>
+</li>
+<li><p>In the invoked <strong>Master-Detail Relation Editor</strong> window select the CategoryID item in the Categories table and drag it to item of the same name in the Products table.</p>
+<p> <img src="../../../images/img120452.png" alt="Howto-Bind-Snap-Report-to-Data08a"></p>
+</li>
+<li><p>The relation is created as illustrated in the following image.</p>
+<p> <img src="../../../images/img120453.png" alt="Howto-Bind-Snap-Report-to-Data08b"></p>
+<p> Next, click <strong>OK</strong> to apply changes to the data source and exit.</p>
+</li>
+<li><p>The content of the <strong>Data Explorer</strong> will be updated to reflect the new structure of the document data source.</p>
+<p> <img src="../../../images/img22853.png" alt="snap-master-detail-data-source"></p>
+</li>
+</ol>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/master/interface-elements-for-desktop/articles/snap-reporting-engine/connect-to-data/create-a-master-detail-data-source.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2017 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../styles/main.js"></script>
+  </body>
+</html>

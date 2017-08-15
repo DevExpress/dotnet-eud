@@ -1,0 +1,200 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Handle Events via Scripts | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Handle Events via Scripts | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.20.0.0">
+    
+    <link rel="shortcut icon" href="../../../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../../../toc.html">
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../../../index.html">
+                <img id="logo" class="svg" src="../../../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="handle-events-via-scripts">Handle Events via Scripts</h1>
+
+<p>This document describes the basic principles of <em>scripting</em>, which can be performed by handling the events of a report, and its <a href="../../report-designer-reference/report-bands.html">bands</a> and <a href="../../report-designer-reference/report-controls.html">controls</a>.</p>
+<p>This documents consists of the following sections.</p>
+<ul>
+<li><a href="#overview">Scripting Overview</a></li>
+<li><a href="#specifics">Scripting Specifics</a></li>
+<li><a href="#example">Example: Custom Summary</a></li>
+</ul>
+<h2 id="a-nameoverviewscripting-overview"><a name="overview"></a>Scripting Overview</h2>
+<p><em>Scripts</em> are program commands, placed within the <em>event handlers</em> of the required report elements. And, when the corresponding event occurs (e.g. a mouse click), the script code runs.</p>
+<p>You can write <em>scripts</em> for a report or any of its elements (bands and controls), to be executed when the report is being <a href="../../preview-print-and-export-reports.html">previewed, printed or exported</a>.</p>
+<p>Although when in the Report Designer, virtually any task can be accomplished without scripting (<a href="../styles-and-conditional-formatting/conditionally-change-a-controls-appearance.html">Conditionally Change a Control&#39;s Appearance</a>, <a href="../styles-and-conditional-formatting/conditionally-change-a-labels-text.html">Conditionally Change a Label&#39;s Text</a> and <a href="../styles-and-conditional-formatting/conditionally-hide-bands.html">Conditionally Hide Bands</a>), scripting is made available to extend the standard functionality as far as may be required. And, scripting is the only way to calculate <em>custom summaries</em> (this is detailed in the <a href="#example">last section of this document</a>).</p>
+<p>Every report element has a set of script events, which are individual for each element&#39;s type. For example, the events of the <a href="../../report-designer-reference/report-bands/detail-band.html">Detail</a> band are shown in the following image.</p>
+<p><img src="../../../../../images/img8604.png" alt="RD_Scripts_0"></p>
+<p>After you click (New) for an event (e.g. the <strong>Before Print</strong>, which is the most used), the <a href="../../report-designer-reference/report-designer-ui/scripts-tab.html">Scripts Tab</a> is switched on, where you can manage and edit all the report&#39;s scripts.</p>
+<p><img src="../../../../../images/img8605.png" alt="RD_Scripts_1"></p>
+<p>In this tab, for a selected event, a script template is auto-added, in the language specified via the <strong>Script Language</strong> property of the report.</p>
+<p>You can verify that your report&#39;s scripts are valid, by clicking <strong>Validate</strong>. The validation result is then displayed in the <a href="../../report-designer-reference/report-designer-ui/scripts-errors-panel.html">Scripts Errors Panel</a>.</p>
+<p><img src="../../../../../images/img11139.png" alt="RD_Elements_ScriptsErrors_0"></p>
+<p>Note that scripts are saved to a file along with the report&#39;s layout (for details on this, refer to <a href="../../report-editing-basics/back-up-the-current-layout-before-modifying-it.html">Back Up the Current Layout Before Modifying It</a>).</p>
+<h2 id="a-namespecificsscripting-specifics"><a name="specifics"></a>Scripting Specifics</h2>
+<ol>
+<li><p><strong>Scripting language</strong></p>
+<p> The report scripts may be written in one of the following languages that the .NET framework supports - <strong>C#</strong>, <strong>Visual Basic</strong> and <strong>J#</strong>. Since J# is not installed with the framework installation, by default, make sure it is present before writing code in it. The scripting language is specified via the <strong>Script Language</strong> property of the <a href="../../report-designer-reference/report-settings.html">Report</a> object. It is set to C#, by default.</p>
+</li>
+<li><p><strong>Scripting scope</strong></p>
+<p> Script execution is performed in the following way:</p>
+<p> The report engine generates a temporary class in memory. The names of the variables are defined by the <strong>Name</strong> properties of the controls and objects they represent. When the script is preprocessed, its namespace directives are cut from the script code and added to the namespace, where the temporary class is defined.</p>
+<p> After preprocessing, all scripts are placed in the code of the temporary class. Then, the resulting class is compiled in memory, and its methods are called when events occur.</p>
+<p> Scripting offers many advantages: you can declare classes (they will become inner classes), variables, methods, etc. A variable declared in one script is accessible in another script, because it is, in fact, a variable of the temporary class.</p>
+</li>
+<li><p><strong>Reference External Assemblies</strong></p>
+<p> The <strong>Script References</strong> property of the <strong>Report</strong> object specifies the full paths (including the file names) to the assemblies that are referenced in the scripts used in a report. These paths should be specified for all the assemblies that are included in scripts via the <strong>using</strong> (C#), <strong>Imports</strong> (Visual Basic) or <strong>import</strong> (J#) directives.</p>
+<div class="NOTE"><h5>Note</h5><p>Usually, you don&#39;t need include any assembles, because most standard assemblies that you may require in scripts are already referenced by the Report Designer.</p>
+</div>
+</li>
+</ol>
+<h2 id="a-nameexampleexample-custom-summary"><a name="example"></a>Example: Custom Summary</h2>
+<p>In this example, we will display the total number of  product unit packs in a group.</p>
+<p>To perform this, execute steps similar to the ones described in <a href="../../report-editing-basics/add-totals-to-a-report.html">Add Totals to a Report</a>, except that for the summary field, you should set the <strong>Function</strong> property to <strong>Custom</strong>.</p>
+<p><img src="../../../../../images/img8893.png" alt="RD_Scripts_CustomSummary_0"></p>
+<p>Then, the additional events are added to the label&#39;s <strong>Scripts</strong> property.</p>
+<p><img src="../../../../../images/img8894.png" alt="RD_Scripts_CustomSummary_1"></p>
+<p>You can handle these events in the following way.</p>
+<p><strong>C#</strong></p>
+<pre><code class="lang-csharp">
+// Declare a summary and a pack.
+double totalUnits = 0;
+double pack = 15;
+
+private void OnSummaryReset(object sender, System.EventArgs e) {
+    // Reset the result each time a group is printed.
+    totalUnits = 0;
+}
+
+private void OnSummaryRowChanged(object sender, System.EventArgs e) {
+    // Calculate a summary.
+    totalUnits += Convert.ToDouble(GetCurrentColumnValue(&quot;UnitsOnOrder&quot;));
+}
+
+private void OnSummaryGetResult(object sender, 
+DevExpress.XtraReports.UI.SummaryGetResultEventArgs e) {
+    // Round the result, so that a pack will be taken into account 
+    // even if it contains only one unit.
+    e.Result = Math.Ceiling(totalUnits / pack);
+    e.Handled = true;
+}
+</code></pre><p><strong>VB.NET</strong></p>
+<pre><code class="lang-vb">
+&#39; Declare a summary and a pack.
+Private totalUnits As Double = 0
+Private pack As Double = 15
+
+Private Sub OnSummaryReset(ByVal sender As Object, ByVal e As System.EventArgs)
+    &#39; Reset the result each time a group is printed.
+    totalUnits = 0
+End Sub
+
+Private Sub OnSummaryRowChanged(ByVal sender As Object, ByVal e As System.EventArgs)
+    &#39; Calculate a summary.
+    totalUnits += Convert.ToDouble(GetCurrentColumnValue(&quot;UnitsOnOrder&quot;))
+End Sub
+
+Private Sub OnSummaryGetResult(ByVal sender As Object,  _ 
+ByVal e As DevExpress.XtraReports.UI.SummaryGetResultEventArgs)
+    &#39; Round the result, so that a pack will be taken into account 
+    &#39; even if it contains only one unit.
+    e.Result = Math.Ceiling(totalUnits / pack)
+    e.Handled = True
+End Sub
+</code></pre><p>Finally, switch to the <a href="../../report-designer-reference/report-designer-ui/preview-tab.html">Preview Tab</a>, and view the result.</p>
+<p><img src="../../../../../images/img8895.png" alt="RD_Scripts_CustomSummary_2"></p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/master/interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/create-reports/miscellaneous/handle-events-via-scripts.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2017 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../../../styles/main.js"></script>
+  </body>
+</html>

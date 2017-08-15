@@ -1,0 +1,142 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Create a Pivot Table | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Create a Pivot Table | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.20.0.0">
+    
+    <link rel="shortcut icon" href="../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../toc.html">
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../index.html">
+                <img id="logo" class="svg" src="../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="create-a-pivot-table">Create a Pivot Table</h1>
+
+<p>A <strong>pivot table</strong> represents a summary table used to explore, analyze and aggregate large amounts of data in a worksheet. It helps divide your data into categories and subcategories, and automatically calculates subtotals and grand totals using the most suitable summary function from a predefined list.</p>
+<p>To create a PivotTable report, follow the steps below.</p>
+<ol>
+<li><p>On the <strong>Insert</strong> tab, in the <strong>Tables</strong> group, click the <strong>PivotTable</strong> button.</p>
+<p> <img src="../../../images/img126424.png" alt="Spreadsheet_PivotTable_Create"></p>
+</li>
+<li><p>In the invoked <strong>Create PivotTable</strong> dialog, specify the source data and the location of the new pivot table, and click <strong>OK</strong>. </p>
+<div class="IMPORTANT"><h5>Important</h5><p>Before creating a pivot table, make sure that the source data is organized in a tabular format, has column headings in the first row and does not include blank rows or columns.</p>
+</div>
+<p> <img src="../../../images/img126425.png" alt="Spreadsheet_PivotTable_CreatePivotTable"></p>
+</li>
+<li><p>An empty report is created and the <strong>Field List</strong> pane is invoked.</p>
+<p> <img src="../../../images/img126477.png" alt="Spreadsheet_PivotTable_Create_EmptyReport"></p>
+</li>
+<li><p>To fill the pivot table with data, select the desired field in the <strong>Field List</strong> pane and drop it to the one of the following areas at the pane bottom.</p>
+<ul>
+<li><strong>Rows Area</strong> - contains fields used to group report data by rows.</li>
+<li><strong>Columns Area</strong> - contains fields used to break report data into categories by columns.</li>
+<li><strong>Values Area</strong> - contains fields against which summaries are calculated. As a rule, value fields contain numeric values, which are summarized with the Sum function, but you can <a href="change-the-value-field-settings.html">change the calculation type</a> by selecting one of the predefined functions (Count, Average, Min, Max, Product, Count Numbers, StdDev, StdDevp, Var, or Varp).</li>
+<li><p><strong>Filters Area</strong> - contains fields used to filter the entire PivotTable report to display data for the selected items.</p>
+<p>All the changes are automatically reflected in the report.</p>
+<p><img src="../../../images/img126583.png" alt="Spreadsheet_PivotTable_Create_Fields"></p>
+</li>
+</ul>
+</li>
+<li><p>To postpone the report update, select the <strong>Defer Layout Update</strong> check box at the bottom of the pane. The table will be updated only after clicking the <strong>Update</strong> button.</p>
+<p> <img src="../../../images/img126428.png" alt="Spreadsheet_PivotTable_DeferLayoutUpdate"></p>
+</li>
+<li><p>To clear the PivotTable report, on the <strong>PivotTable Tools</strong> | <strong>Analyze</strong> tab, in the <strong>Actions</strong> group, click the <strong>Clear PivotTable</strong> button and select the <strong>Clear All</strong> item from the drop-down list.</p>
+<p> <img src="../../../images/img126478.png" alt="Spreadsheet_PivotTable_ClearAll"></p>
+</li>
+<li>To remove the pivot table completely, select the entire PivotTable range and press <strong>DELETE</strong>.</li>
+</ol>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/master/interface-elements-for-desktop/articles/spreadsheet/pivot-tables/create-a-pivot-table.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2017 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../styles/main.js"></script>
+  </body>
+</html>

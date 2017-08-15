@@ -1,0 +1,190 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Report Header and Footer | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Report Header and Footer | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.20.0.0">
+    
+    <link rel="shortcut icon" href="../../../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../../../toc.html">
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../../../index.html">
+                <img id="logo" class="svg" src="../../../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="report-header-and-footer">Report Header and Footer</h1>
+
+<p>The <strong>Report Header</strong> and <strong>Report Footer</strong> are the only types of report bands rendered once per report.</p>
+<p><img src="../../../../../images/img8302.png" alt="RD_Bands_RepHeader_0"></p>
+<p>The <strong>Report Header</strong> is the first band of a report on the first page (not counting <a href="page-margin-bands.html">margins</a> as they are &quot;out-of-page&quot; zones). The Report Header also precedes the <a href="page-header-and-footer.html">Page Header</a>, making it the best place to display the report&#39;s name, company logo, <a href="../../report-editing-basics/add-page-numbers-and-system-information-to-a-report.html">date of creation and user name</a>, etc.</p>
+<p>And, if you plan to add a <a href="../report-controls/chart.html">Chart</a> that visualizes the report&#39;s data, place this control onto this band.</p>
+<p>The <strong>Report Footer</strong> finalizes the informative part of the report. It is placed before the <a href="page-header-and-footer.html">Page Footer</a> and <a href="page-margin-bands.html">Bottom Margin</a> on the report&#39;s last page. Use the Report Footer for report <a href="../../report-editing-basics/add-totals-to-a-report.html">grand totals</a> or conclusions.</p>
+<p>In the <a href="../report-designer-ui/property-grid.html">Property Grid</a>, the properties of these bands are divided into the following groups.</p>
+<h2 id="appearance">Appearance</h2>
+<ul>
+<li><p><strong>Background Color</strong></p>
+<p>  Specifies the background color for the controls contained within the band. This option is also available in the <a href="../report-designer-ui/formatting-toolbar.html">Formatting Toolbar</a> (<img src="../../../../../images/img8441.png" alt="RD_Toolbars_Format_Back">).</p>
+</li>
+<li><p><strong>Borders</strong>, <strong>Border Color</strong>, <strong>Border Dash Style</strong> and <strong>Border Width</strong></p>
+<p>  Specify border settings for the controls contained within the band.</p>
+</li>
+<li><p><strong>Font</strong></p>
+<p>  Specifies the font settings for the controls contained within the band. Some of these settings are available in the <a href="../report-designer-ui/formatting-toolbar.html">Formatting Toolbar</a>.</p>
+</li>
+<li><p><strong>Foreground Color</strong></p>
+<p>  Specifies the text color for the controls contained within the band. This option is also available in the <a href="../report-designer-ui/formatting-toolbar.html">Formatting Toolbar</a> (<img src="../../../../../images/img8440.png" alt="RD_Toolbars_Format_Color">).</p>
+</li>
+<li><p><strong>Formatting Rules</strong></p>
+<p>  Invokes the Formatting Rules Editor allowing you to choose which rules should be applied to the band during report generation, and define the precedence of the applied rules. To learn more on this, refer to <a href="../../create-reports/styles-and-conditional-formatting/conditionally-change-a-controls-appearance.html">Conditionally Change a Control&#39;s Appearance</a>.</p>
+</li>
+<li><p><strong>Padding</strong></p>
+<p>  Specifies indent values which are used to render the contents of the controls contained within the bands.</p>
+</li>
+<li><p><strong>Style Priority</strong></p>
+<p>  Allows you to define the priority of various style elements (such as background color, border color, etc.). For more information on style inheritance, refer to <a href="../../create-reports/styles-and-conditional-formatting/understanding-style-concepts.html">Understanding Style Concepts</a>.</p>
+</li>
+<li><p><strong>Styles</strong></p>
+<p>  This property allows you to define <a href="../../create-reports/styles-and-conditional-formatting/use-odd-and-even-styles.html">odd and even styles</a> for the controls contained within the bands, as well as to assign an existing style to them (or a newly created one). For more information on style inheritance, refer to <a href="../../create-reports/styles-and-conditional-formatting/understanding-style-concepts.html">Understanding Style Concepts</a>.</p>
+</li>
+<li><p><strong>Text Alignment</strong></p>
+<p>  Allows you to change the text alignment of the controls contained within the bands. This option is also available in the <a href="../report-designer-ui/formatting-toolbar.html">Formatting Toolbar</a>.</p>
+</li>
+</ul>
+<h2 id="behavior">Behavior</h2>
+<ul>
+<li><p><strong>Keep Together</strong></p>
+<p>  When this option is on, the report tries to fit the band contents entirely on one page, not allowing it to split across several pages. In general, if the contents are too large to fit on a single page, then the band is started on a new page, and continues on the following page.</p>
+</li>
+<li><p><strong>Page Break</strong></p>
+<p>  Use this property if the current report design requires that the band&#39;s section should be separated from previous sections or follow-ups. Specify the Before the Band or After the Band values to insert a page break before or after the current band. In many cases, this property may be used instead of the <a href="../report-controls/page-break.html">Page Break</a> control.</p>
+</li>
+<li><p><strong>Print at Bottom</strong></p>
+<p>  This property is available for the Report Footer band only, and determines whether this band should be printed at the bottom of the last page, or immediately after the last report&#39;s details. The Report Footer has priority over the <a href="grouping-bands.html">Group Footer</a>&#39;s Print at Bottom property, so the Group Footer can never be placed after the Report Footer.</p>
+</li>
+<li><p><strong>Scripts</strong></p>
+<p>  This property contains events, which you can handle with the required scripts. For more information on scripting, refer to <a href="../../create-reports/miscellaneous/handle-events-via-scripts.html">Handle Events via Scripts</a>.</p>
+</li>
+<li><p><strong>Visible</strong></p>
+<p>  Specifies whether the band should be visible in print preview.</p>
+</li>
+</ul>
+<h2 id="data">Data</h2>
+<ul>
+<li><p><strong>Tag</strong></p>
+<p>  This property allows you to add some additional information to the band; for example its id, by which it can then be accessible via <a href="../../create-reports/miscellaneous/handle-events-via-scripts.html">scripts</a>.</p>
+</li>
+</ul>
+<h2 id="design">Design</h2>
+<ul>
+<li><p><strong>(Name)</strong></p>
+<p>  Determines a band&#39;s name, by which it can be accessed in the <a href="../report-designer-ui/report-explorer.html">Report Explorer</a>, <a href="../report-designer-ui/property-grid.html">Property Grid</a> or via <a href="../../create-reports/miscellaneous/handle-events-via-scripts.html">scripts</a>.</p>
+</li>
+</ul>
+<h2 id="layout">Layout</h2>
+<ul>
+<li><p><strong>Height</strong></p>
+<p>  Specifies the band&#39;s height, in <a href="../../create-reports/basic-operations/change-measurement-units-of-a-report.html">report units</a>.</p>
+</li>
+<li><p><strong>Snap Line Padding</strong></p>
+<p>  Specifies the padding (in <a href="../../create-reports/basic-operations/change-measurement-units-of-a-report.html">report measurement units</a>), which is to be preserved within the band when controls it contains are <a href="../../create-reports/basic-operations/controls-positioning.html">aligned using Snap Lines</a>.</p>
+</li>
+</ul>
+<h2 id="structure">Structure</h2>
+<ul>
+<li><p><strong>Sub-Bands</strong></p>
+<p>  Allows you to invoke the Sub-Band Collection Editor intended to manage and customize the band&#39;s collection of <a href="sub-bands.html">sub-bands</a>.</p>
+</li>
+</ul>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/master/interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-reference/report-bands/report-header-and-footer.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2017 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../../../styles/main.js"></script>
+  </body>
+</html>

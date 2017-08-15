@@ -1,0 +1,138 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Dock Panels | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Dock Panels | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.20.0.0">
+    
+    <link rel="shortcut icon" href="../../../favicon.ico">
+    <link rel="stylesheet" href="../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../toc.html">
+    <meta property="docfx:tocrel" content="../../toc.html">
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../index.html">
+                <img id="logo" class="svg" src="../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="dock-panels">Dock Panels</h1>
+
+<p>This topic describes the most common runtime operations for dock panels.</p>
+<h2 id="docking-hints">Docking Hints</h2>
+<p>Dock panels can be docked, floating or auto-hidden. To dock or undock a panel, simply click its header and drag the panel. As you drag the panel over an application form, docking hints appear (see the figure below). Use these hints to dock the panel to the desired position.</p>
+<p><img src="../../images/img22596.png" alt="Docking EndUser - Hints"></p>
+<p>Docking hints are semi-transparent square elements that allow you to dock a panel to a form&#39;s edges, or to an existing container as a tab, or between other docking elements. These hints are displayed separately or grouped in a docking guide (e.g., in the form&#39;s central area). Finally, a docking zone is a semi-transparent preview of exactly where your panel will be docked. This zone is displayed when you drag a panel into a docking hint, but before you drop it.</p>
+<h2 id="buttons">Buttons</h2>
+<p>Dock panels have multiple state change buttons in their top right corner.</p>
+<ul>
+<li><strong>Close</strong> - closes the current panel.</li>
+<li><strong>Maximize</strong>/<strong>Restore</strong> - maximizes the panel to full-screen size, or restores it back to its original size. Available only for floating panels.</li>
+<li><strong>Auto-hide</strong>/<strong>Dock</strong> - hides the panel, leaving only its header visible, or restores an auto-hidden panel back to the docked state. Depending on the application settings, hidden panels are displayed either on mouse hover or on click only. Available only for docked panels.</li>
+<li><strong>Pin</strong> - places the panel in the first tab position. Available only for panels docked as tabbed documents.</li>
+</ul>
+<h2 id="context-menu">Context Menu</h2>
+<p>Most docking operations are available from the panel&#39;s context menu, displayed on right-click. The figure below illustrates the context menu for a docked panel.</p>
+<p><img src="../../images/img22598.png" alt="Docking EndUser - DockPanel Context Menu"></p>
+<p>For dock panels docked as tabbed documents, the context menu displays multiple additional items, which allow you to pin the panel or start a new horizontal or vertical group within the docked area (see the image below).</p>
+<p><img src="../../images/img22599.png" alt="Docking EndUser - DockPanel Context Menu2"></p>
+<h2 id="interoperability-with-documents-and-other-dock-panels">Interoperability with Documents and Other Dock Panels</h2>
+<p>When dragging a dock panel, you can dock it to other dock panels. This will create a dock panel container that presents both panels as tabs. Note that in addition to docking panels via docking hints, you can also drag them to the tab header area. This allows you to instantly rearrange panels within the container (see the animation below).</p>
+<p><img src="../../images/img22600.gif" alt="Docking EndUser - DockToCaptionRegion GIF"></p>
+<p>Dock panels can be docked to both the dock panel docking areas (the form&#39;s edges) as well as to the tabbed View. Documents, however, can only be docked within the tabbed View, and not to the docking areas.</p>
+<h2 id="mouse-operations-and-hotkeys">Mouse Operations and Hotkeys</h2>
+<ul>
+<li><strong>Double-click</strong> a docked panel&#39;s caption - undocks the panel and makes it floating. This does not work with auto-hide panels.</li>
+<li><strong>Ctrl</strong>+<strong>Double-click</strong> a floating panel&#39;s caption - docks the floating panel to its previous docking position.</li>
+<li><strong>Esc</strong> while dragging a panel - cancels the dock operation and drops the panel at the current position.</li>
+<li><strong>Ctrl</strong>+<strong>Tab</strong> or <strong>Crtl</strong>+<strong>Shift</strong>+<strong>Tab</strong> - shows the Document Selector. See the <a href="dock-panels.html">Dock Panels</a> topic to learn more about the Document Selector.</li>
+</ul>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/master/interface-elements-for-desktop/articles/docking/dock-panels.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2017 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../styles/main.js"></script>
+  </body>
+</html>

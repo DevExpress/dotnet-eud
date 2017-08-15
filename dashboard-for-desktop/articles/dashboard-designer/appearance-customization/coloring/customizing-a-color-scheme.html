@@ -1,0 +1,163 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Customizing a Color Scheme | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Customizing a Color Scheme | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.20.0.0">
+    
+    <link rel="shortcut icon" href="../../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../../toc.html">
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../../index.html">
+                <img id="logo" class="svg" src="../../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="customizing-a-color-scheme">Customizing a Color Scheme</h1>
+
+<p>The Dashboard Designer provides the capability to edit colors contained in <a href="coloring-concepts.html">global and local color schemes</a>. You can select the required color from the default dashboard palette or specify a custom color.</p>
+<ul>
+<li><a href="#invoke-a-color-scheme-dialog">Invoke a Color Scheme Dialog</a></li>
+<li><a href="#edit-colors">Edit Colors</a></li>
+<li><a href="#add-a-new-value">Add a New Value</a></li>
+<li><a href="#add-a-new-color-table">Add a New Color Table</a></li>
+</ul>
+<h2 id="a-nameinvoke-a-color-scheme-dialoginvoke-a-color-scheme-dialog"><a name="invoke-a-color-scheme-dialog"></a>Invoke a Color Scheme Dialog</h2>
+<p>To edit colors, use the <strong>Color Scheme</strong> dialog. You can invoke this dialog in the following ways.</p>
+<ul>
+<li><p>To edit colors in a global color scheme, use the <strong>Edit Colors</strong> button in the <strong>Home</strong> ribbon tab or the <strong>Edit Colors</strong> button in the dashboard item&#39;s <strong>Design</strong> tab.</p>
+<p>  <img src="../../../../images/img25387.png" alt="Dashboard_EditColors_Ribbon"><img src="../../../../images/img25388.png" alt="DashboardItem_EditColors_Ribbon"></p>
+</li>
+<li><p>To edit colors in a local color scheme, use the <strong>Edit Colors</strong> button in the contextual <strong>Design</strong> ribbon tab.</p>
+<p>  <img src="../../../../images/img25449.png" alt="DashboardItem_EditLocalColors_Ribbon"></p>
+</li>
+</ul>
+<p>Lets consider a Chart dashboard item whose dimensions and measures are colored by hue using local colors.</p>
+<p><img src="../../../../images/img25392.png" alt="Chart_ColorByHueAll"></p>
+<p>For this dashboard item, the <strong>Color Scheme</strong> dialog will contain combinations of all dimension values and a specific measure.</p>
+<p><img src="../../../../images/img25394.png" alt="LocalColorSchemeDialog"></p>
+<p>In this dialog, you can perform the following actions.</p>
+<ul>
+<li><a href="#edit-colors">Edit automatically assigned colors</a> or specify new colors.</li>
+<li><a href="#add-a-new-value">Add new values</a> to a color table.</li>
+<li><a href="#add-a-new-color-table">Add new color tables</a> containing values whose colors are not yet assigned.</li>
+</ul>
+<h2 id="a-nameedit-colorsedit-colors"><a name="edit-colors"></a>Edit Colors</h2>
+<p>You can customize automatically assigned colors in several ways.</p>
+<ul>
+<li><p>To retain the automatically assigned color for the selected value, right-click the required value in the <strong>Value</strong> column and select <strong>Retain this color</strong>.</p>
+<p>  <img src="../../../../images/img25395.png" alt="RetainThisColor"></p>
+<p>  This reserves the current palette color for the selected value.</p>
+</li>
+<li><p>You can select another palette color by clicking the required cell in the <strong>Color</strong> column.</p>
+<p>  <img src="../../../../images/img25396.png" alt="SelectPaletteColor"></p>
+</li>
+<li><p>To specify a custom color, click <strong>More Colors...</strong> and pick any color using the RGB or HSB color model in the invoked <strong>Select Color</strong> dialog.</p>
+<p>  <img src="../../../../images/img25397.jpeg" alt="SelectColorDialog"></p>
+</li>
+</ul>
+<p>You can reset the customized color for the selected value using the <strong>Reset</strong> menu item.</p>
+<p><img src="../../../../images/img25407.png" alt="ResetColor"></p>
+<h2 id="a-nameadd-a-new-valueadd-a-new-value"><a name="add-a-new-value"></a>Add a New Value</h2>
+<p>The <strong>Color Scheme</strong> dialog allows you adding a new value with the specified color to the selected color table. To do this, click the <strong>New Value...</strong> button.</p>
+<p><img src="../../../../images/img25403.png" alt="NewValueDialog"></p>
+<p>In the invoked <strong>New Value</strong> dialog, specify the dimension values, add the required measures and click <strong>OK</strong>. This creates a new value whose color can be specified as described in <a href="#edit-colors">Edit Colors</a>.</p>
+<p>You can remove manually added values using the <strong>Remove</strong> context menu item.</p>
+<p><img src="../../../../images/img25405.png" alt="RemoveColor"></p>
+<h2 id="a-nameadd-a-new-color-tableadd-a-new-color-table"><a name="add-a-new-color-table"></a>Add a New Color Table</h2>
+<p>The <strong>Color Scheme</strong> dialog also allows you to add a new color table containing values whose colors are not yet assigned. To do this, click <strong>New Color Table...</strong> button.</p>
+<p><img src="../../../../images/img25408.png" alt="NewColorTableDialog"></p>
+<p>In the invoked dialog, specify the data source, add the required dimensions and enable the <strong>&#39;MeasureNames&#39; Dimension</strong> check-box if you need to add measures to a color table.</p>
+<p>Click <strong>OK</strong> to add the color table to a color scheme. Then, you can add values to this table (see <a href="#add-a-new-value">Add a New Value</a>) and specify its colors (see <a href="#edit-colors">Edit Colors</a>).</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/master/dashboard-for-desktop/articles/dashboard-designer/appearance-customization/coloring/customizing-a-color-scheme.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2017 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../../styles/main.js"></script>
+  </body>
+</html>

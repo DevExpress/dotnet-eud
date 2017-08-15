@@ -1,0 +1,171 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Search Panel | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Search Panel | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.20.0.0">
+    
+    <link rel="shortcut icon" href="../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../toc.html">
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../index.html">
+                <img id="logo" class="svg" src="../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="search-panel">Search Panel</h1>
+
+<p>To filter data and highlight search results, type a filter criterion in the search panel.</p>
+<p><img src="../../../images/img17905.png" alt="SearchPanel"></p>
+<h2 id="applying-the-search-panel-filter-criterion">Applying the Search Panel Filter Criterion</h2>
+<p>To apply a filter criterion typed in the search panel, press the ENTER key or click the <strong>Search</strong> button. Otherwise, a filter is automatically applied in 1.2 seconds.</p>
+<h2 id="clearing-the-search-panel-filter-criterion">Clearing the Search Panel Filter Criterion</h2>
+<p>To clear the search panel filter criterion, do one of the following.</p>
+<ul>
+<li>Press DELETE or BACKSPACE.</li>
+<li>Click the <strong>Clear</strong> button.</li>
+<li><p>Click the clear button, which is displayed within the editor when the editor is focused and is not empty.</p>
+<p>  <img src="../../../images/img25472.png" alt="EUD_Grid_SearchPanel"></p>
+</li>
+</ul>
+<h2 id="search-syntax">Search syntax</h2>
+<p>In its simplest form, a search criterion consists of a single word. However, the search panel allows you to create composite criteria.</p>
+<ul>
+<li><p><strong>Mask:</strong> criterion </p>
+<p>   maria</p>
+<p>  <img src="../../../images/img25474.png" alt="EUD_Grid_SearchPanelCriterion1"></p>
+<p>  <strong>Example description:</strong> selects records that contain the &quot;maria&quot; string in any search column.</p>
+</li>
+<li><p><strong>Mask:</strong> column:criterion </p>
+<p>  contact:maria</p>
+<p>  <img src="../../../images/img25475.png" alt="EUD_Grid_SearchPanelCriterion2"></p>
+<p>  You can search against a specific column by preceding a search string with the column&#39;s caption plus a colon character. Instead of the complete caption, it is possible to use the initial characters of the caption. A search will be performed against the first column whose name starts with the specified substring. If you want to search against a column whose caption contains space characters, specify the column&#39;s display caption in quotation marks.</p>
+<p>  If the search string contains multiple conditions separated by space characters, and at least one condition defines a search against a specific column, only records that match all of these conditions are shown (i.e., the conditions are combined by the AND logical operator).</p>
+<p>  <strong>Example description:</strong> selects records that contain &quot;maria&quot; in the column that starts with &quot;contact&quot;.</p>
+</li>
+<li><p><strong>Mask:</strong> criterion1 criretion2 </p>
+<p>  maria anders</p>
+<p>  <strong>Option AND</strong></p>
+<p>  <img src="../../../images/img25993.png" alt="EUD_Grid_SearchPanelCriterion3_v2"></p>
+<p>  <strong>Option OR</strong></p>
+<p>  <img src="../../../images/img25476.png" alt="EUD_Grid_SearchPanelCriterion3"></p>
+<p>  Based on conditions provided by your application vendor, the search panel can search words separated by space characters in one of the following ways.</p>
+<p>  <strong>Option AND</strong></p>
+<p>  Only records that match all of the conditions are shown (i.e., the conditions are combined by the AND logical operator).</p>
+<p>  <strong>Example description:</strong> selects records that contain both &quot;maria&quot; AND &quot;anders&quot; strings in any search column.</p>
+<p>  <strong>Option OR</strong></p>
+<p>  If there is no column specification, records that match at least one of these conditions are shown (i.e., the conditions are combined by the OR logical operator). If at least one condition defines a search against a specific column, only records that match all of these conditions are shown (i.e., the conditions are combined by the AND logical operator).</p>
+<p>  <strong>Example description:</strong> selects records that contain either &quot;maria&quot; OR &quot;anders&quot; strings in any search column.</p>
+</li>
+<li><p><strong>Mask:</strong> &quot;criterion with spaces&quot; </p>
+<p>  &quot;maria anders&quot;</p>
+<p>  <img src="../../../images/img25477.png" alt="EUD_Grid_SearchPanelCriterion4"></p>
+<p>  If you want to search for a string containing a space character, specify this string in quotation marks.</p>
+<p>  <strong>Example description:</strong> selects records that contain &quot;maria anders&quot; in any search column.</p>
+</li>
+<li><p><strong>Mask:</strong> criterion1 -criterion2</p>
+<p>  maria -anders</p>
+<p>  <img src="../../../images/img25478.png" alt="EUD_Grid_SearchPanelCriterion5"></p>
+<p>  Precede a condition with &quot;-&quot; to exclude records that match this condition from the result set. There should be no space between the &quot;-&quot; sign and the condition.</p>
+<p>  <strong>Example description:</strong> selects records that contain &quot;maria&quot;, excluding records that contain &quot;anders&quot;.</p>
+</li>
+<li><p><strong>Mask:</strong></p>
+<p>   criterion1 +criterion2 </p>
+<p>  maria +sweden</p>
+<p>  <img src="../../../images/img25479.png" alt="EUD_Grid_SearchPanelCriterion6"></p>
+<p>  Precede a condition with &quot;+&quot; to display only records that match this condition. The &quot;+&quot; specifier allows you to implement the logical AND operator. There should be no space character between the &quot;+&quot; sign and the condition.</p>
+<p>  <strong>Example description:</strong> selects records that contain both &quot;maria&quot; AND &quot;sweden&quot; in search columns.</p>
+</li>
+</ul>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/master/interface-elements-for-web/articles/grid/filtering/search-panel.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2017 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../styles/main.js"></script>
+  </body>
+</html>

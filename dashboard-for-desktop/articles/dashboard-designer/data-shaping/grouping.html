@@ -1,0 +1,232 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Grouping | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Grouping | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.20.0.0">
+    
+    <link rel="shortcut icon" href="../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../toc.html">
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../index.html">
+                <img id="logo" class="svg" src="../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="grouping">Grouping</h1>
+
+<p>The <strong>Dashboard Designer</strong> allows you to group dimension values and display summaries for entire groups rather than individual values.</p>
+<p>You can arrange dimension values in groups of different sizes by specifying the appropriate <strong>group interval</strong>. For instance, date-time values can be grouped by years, months, quarters, etc.</p>
+<p>This topic lists the supported text and date-time group intervals, and describes how to change the group interval.</p>
+<p>The following sections are available.</p>
+<ul>
+<li><a href="#textgroupintervals">Text Group Intervals</a></li>
+<li><a href="#datetimegroupintervals">Date-Time Group Intervals</a></li>
+<li><a href="#changegroupinterval">Changing Group Interval</a></li>
+</ul>
+<h2 id="a-nametextgroupintervalstext-group-intervals"><a name="textgroupintervals"></a>Text Group Intervals</h2>
+<p>String values support the following grouping intervals.</p>
+<ul>
+<li><strong>No Grouping</strong> - each value is displayed &quot;as is&quot;.</li>
+<li><strong>Alphabetical</strong> - values are grouped alphabetically (e.g., A, B, C, ... Z).</li>
+</ul>
+<h2 id="a-namedatetimegroupintervalsdate-time-group-intervals"><a name="datetimegroupintervals"></a>Date-Time Group Intervals</h2>
+<p>Date-time values support the following group intervals.</p>
+<div class="NOTE"><h5>Note</h5><p>Examples in the table below are formatted using the default settings. To learn how to customize format settings, see <a href="formatting-data.html">Formatting Data</a>.</p>
+</div>
+<table>
+<thead>
+<tr>
+<th>Group interval</th>
+<th>Description</th>
+<th>Examples</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Year</strong></td>
+<td>Values are grouped by the year.</td>
+<td>2010, 2011, 2012</td>
+</tr>
+<tr>
+<td><strong>Quarter</strong></td>
+<td>Values are grouped by the quarter.</td>
+<td>Q1, Q2, Q3, Q4</td>
+</tr>
+<tr>
+<td><strong>Month</strong></td>
+<td>Values are grouped by the month.</td>
+<td>January, February, March, ... December</td>
+</tr>
+<tr>
+<td><strong>Day</strong></td>
+<td>Values are grouped by the day of the month.</td>
+<td>1, 2, 3, ... 31</td>
+</tr>
+<tr>
+<td><strong>Hour</strong></td>
+<td>Values are grouped by the hour.</td>
+<td>0, 1, 2, ... 23</td>
+</tr>
+<tr>
+<td><strong>Minute</strong></td>
+<td>Values are grouped by the minute.</td>
+<td>0, 1, 2, ... 59</td>
+</tr>
+<tr>
+<td><strong>Second</strong></td>
+<td>Values are grouped by the second.</td>
+<td>0, 1, 2, ... 59</td>
+</tr>
+<tr>
+<td><strong>Day of the Year</strong></td>
+<td>Values are grouped by the day of the year.</td>
+<td>1, 2, 3, ... 365</td>
+</tr>
+<tr>
+<td><strong>Day of the Week</strong></td>
+<td>Values are grouped by the day of the week.</td>
+<td>Sunday, Monday, Tuesday, ... Saturday</td>
+</tr>
+<tr>
+<td><strong>Week of the Year</strong></td>
+<td>Values are grouped by the week of the year.</td>
+<td>1, 2, 3, ... 52</td>
+</tr>
+<tr>
+<td><strong>Week of the Month</strong></td>
+<td>Values are grouped by the week of the month.</td>
+<td>1, 2, 3, 4, 5</td>
+</tr>
+<tr>
+<td><strong>Month-Year</strong></td>
+<td>Values are grouped by the year and month.</td>
+<td>January 2012, February 2012, ... December 2012, January 2013, ...</td>
+</tr>
+<tr>
+<td><strong>Quarter-Year</strong></td>
+<td>Values are grouped by the year and quarter.</td>
+<td>Q3 2012, Q4 2012, Q1 2013, Q2 2013, ...</td>
+</tr>
+<tr>
+<td><strong>Day-Month-Year</strong></td>
+<td>Values are grouped by date.</td>
+<td>3/4/2012, 3/5/2012, 3/6/2012, ...</td>
+</tr>
+<tr>
+<td><strong>Date-Hour</strong></td>
+<td>Values are grouped by date with the hour value.</td>
+<td>3/4/2012 0:00 AM, 3/4/2012 1:00 AM, 3/4/2012 2:00 AM, ...</td>
+</tr>
+<tr>
+<td><strong>Date-Hour-Minute</strong></td>
+<td>Values are grouped by date with the hour and minute values.</td>
+<td>3/4/2012 0:00 AM, 3/4/2012 0:01 AM, 3/4/2012 0:02 AM, ...</td>
+</tr>
+<tr>
+<td><strong>Date-Hour-Minute-Second</strong></td>
+<td>Values are grouped by date with the hour, minute and second values.</td>
+<td>3/4/2012 0:00:00 AM, 3/4/2012 0:00:01 AM, 3/4/2012 0:00:02 AM, ...</td>
+</tr>
+<tr>
+<td><strong>Exact Date</strong></td>
+<td>Each value is displayed &quot;as is&quot;.</td>
+<td>2009, Q2 2009, 6/15/2009 1:45:30 PM, ...</td>
+</tr>
+</tbody>
+</table>
+<h2 id="a-namechangegroupintervalchanging-group-interval"><a name="changegroupinterval"></a>Changing Group Interval</h2>
+<p>To specify the group interval in the Designer, invoke the data item menu and select the desired group interval. Less common group intervals are organized in the <strong>More</strong> submenus.</p>
+<p><img src="../../../images/img19330.png" alt="DataShaping_GroupInterval_DateTime_Menu"></p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/master/dashboard-for-desktop/articles/dashboard-designer/data-shaping/grouping.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2017 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../styles/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,158 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Create Table of Contents for Special Cases | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Create Table of Contents for Special Cases | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.20.0.0">
+    
+    <link rel="shortcut icon" href="../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../toc.html">
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../index.html">
+                <img id="logo" class="svg" src="../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="create-table-of-contents-for-special-cases">Create Table of Contents for Special Cases</h1>
+
+<p>A table of contents (TOC) in a document is represented by a special TOC field. There is set of TOC field switches that you can combine to create TOCs of different types. This document describes how to create the following TOCs.</p>
+<ul>
+<li><a href="#tocspecifiedchapter">TOC for the Specified Portion of a Document</a></li>
+<li><a href="#tocfromspecifiedoutlinelevels">TOC Including Paragraphs with Specified Outline Levels</a></li>
+<li><a href="#tableoffigures">Table of Figures (Tables, Equations)</a></li>
+</ul>
+<h2 id="a-nametocspecifiedchaptertoc-for-the-specified-portion-of-a-document"><a name="tocspecifiedchapter"></a>TOC for the Specified Portion of a Document</h2>
+<p>To build a TOC consisting of titles (marked with built-in heading styles) from a specified portion of a document only, follow the steps below.</p>
+<ol>
+<li>Mark entries to be included in the TOC <a href="create-a-table-of-contents.html">by using built-in heading styles</a> (Heading 1, Heading 2, etc.).</li>
+<li>Mark a portion of a document whose headings you want to include in the TOC with the <em>&quot;Chapter1&quot;</em> <a href="../miscellaneous/insert-a-bookmark.html">bookmark</a>.</li>
+<li>Insert an empty field (<strong>CTRL+F9</strong>) and enter a TOC field code with the <em>\b</em> switch and bookmark name: <em>{TOC \b Chapter1}</em>.</li>
+</ol>
+<h2 id="a-nametocfromspecifiedoutlinelevelstoc-including-paragraphs-with-specified-outline-levels-only"><a name="tocfromspecifiedoutlinelevels"></a>TOC Including Paragraphs with Specified Outline Levels Only</h2>
+<p>To <a href="create-a-table-of-contents.html">generate a TOC</a> from Heading 1, Heading 2 and Heading 3 entries only (or paragraphs with outline levels 1 through 3), use the \o switch in the TOC field code.</p>
+<table>
+<thead>
+<tr>
+<th>{TOC}</th>
+<th>{TOC \o &quot;1-3&quot;}</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="../../../images/img121450.png" alt="RTETocFieldDefault"></td>
+<td><img src="../../../images/img121451.png" alt="RTETOCOSwitch"></td>
+</tr>
+</tbody>
+</table>
+<h2 id="a-nametableoffigurestable-of-figures-tables-equations"><a name="tableoffigures"></a>Table of Figures (Tables, Equations)</h2>
+<p>The following step-by-step instructions describe how to <a href="create-a-table-of-contents.html">create a TOC</a> from items numbered by a SEQ field (for example, table of figures), add sequence numbers (figure numbers) before page numbers in the table of contents, and specify the separator between sequence and page numbers.</p>
+<ol>
+<li><p>Specify captions for figures that you want to include in the table of figures. To do this, click the <strong>Insert Caption</strong> button on the <strong>References</strong> <a href="../text-editor-ui/ribbon-interface.html">tab</a> and select <strong>Figures Caption</strong>...</p>
+<p> <img src="../../../images/img121456.png" alt="RTETOCInsertFigure"></p>
+<p> ... or add the <em>{SEQ Figure}</em> field code (via <strong>CTRL+F9</strong>).</p>
+</li>
+<li>Click within a document where you wish to insert the table of figures.</li>
+<li><p>Click <strong>Insert Table of Figures</strong> on the <strong>References</strong> ribbon tab and select <strong>Table of Figures</strong>.</p>
+<p> <img src="../../../images/img121453.png" alt="RTETOCInsertTableOfFigures"></p>
+<p> If you click the <strong>Show All Field Codes</strong> button on the <strong>Mail Merge</strong> ribbon tab, you will see the TOC field code - <em>{ TOC \h \c &quot;Figure&quot; }</em>. The <em>\c</em> switch is used to build a TOC from items that are numbered by a SEQ field.</p>
+</li>
+<li>To add figure numbers before page numbers in the table of figures and insert the <em>=&gt;</em> separator between figure and page numbers, use the <em>\s</em> and <em>\d</em> switches of the TOC field - <em>{ TOC \h \c &quot;Figure&quot; \s Figure \d =&gt; }</em>.</li>
+<li><p>Resulting table of figures will look like the following.</p>
+<p> <img src="../../../images/img121455.png" alt="RTETOCFiguresResult"></p>
+</li>
+</ol>
+<p>In the same way you can sequentially number tables and equations in a document, and built a table of tables or equations.</p>
+<div class="NOTE"><h5>Note</h5><p>If you add, remove or modify captions, you can quickly update the table of figures by using the <strong>References</strong> button on the <strong>Captions</strong> ribbon tab or by selecting the <strong>Update Field</strong> item from the context menu.</p>
+</div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/master/interface-elements-for-desktop/articles/rich-text-editor/table-of-contents/create-table-of-contents-for-special-cases.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2017 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../styles/main.js"></script>
+  </body>
+</html>

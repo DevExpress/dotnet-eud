@@ -1,0 +1,156 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Filter TreeList Data | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Filter TreeList Data | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.20.0.0">
+    
+    <link rel="shortcut icon" href="../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../toc.html">
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../index.html">
+                <img id="logo" class="svg" src="../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="filter-treelist-data">Filter TreeList Data</h1>
+
+<h2 id="invoking-the-filter-dropdown-list">Invoking the Filter Dropdown List</h2>
+<p>Hover over the column header and click the filter button <img src="../../../images/img25850.png" alt="EUDTreeListColumnFilterButton"> that appears.</p>
+<p><img src="../../../images/img25849.png" alt="EUDTreeListColumnHeaderWithFilterButton"></p>
+<h2 id="creating-a-simple-filter-condition">Creating a Simple Filter Condition</h2>
+<p>To select records that contain a specific value in a specific column, do the following.</p>
+<ol>
+<li><p>Invoke the filter dropdown list containing available filter values.</p>
+<p> By default, if filtering is applied, the filter dropdown will only display the values which match the current filter criteria. If the SHIFT key is pressed while opening the filter dropdown, all values will be listed (not only those that match the current filter criteria).</p>
+</li>
+<li><p>Select the required filter value in the filter dropdown list.</p>
+<p> <img src="../../../images/img25851.png" alt="EUDTreeListRegularFilterDropdownList"></p>
+<p> The filter dropdown list will be immediately closed, and the control will display the records that contain the specified value in the specified column.</p>
+<p> If the filter dropdown list provides check boxes to the left of filter values, multiple values can be selected (checked) simultaneously.</p>
+<p> <img src="../../../images/img25852.png" alt="EUDTreeListCheckedFilterDropdownList"></p>
+<p> In this mode, click the <strong>OK</strong> button to close the filter dropdown list and apply the filter.</p>
+<p> For date-time columns, the filter dropdown list is displayed as a calendar. To apply the filter, select the desired date.</p>
+<p> <img src="../../../images/img25853.png" alt="EUDTreeListCalendarFilterDropdownList"></p>
+<p> The control will immediately display records which contain the selected date in the appropriate column. To hide the filter dropdown list, click the close button <img src="../../../images/img25854.png" alt="EUDCalendarFilterDropdownListCloseButton">.</p>
+</li>
+</ol>
+<h2 id="using-the-advanced-filter-editor-dialog">Using the Advanced Filter Editor Dialog</h2>
+<p>To invoke an advanced Filter Editor dialog, do one of the following.</p>
+<ul>
+<li><p>Right-click any column&#39;s header and select <strong>Filter Editor</strong>.</p>
+<p>  <img src="../../../images/img25855.png" alt="EUDTreeListFilterEditorContextMenuItem"></p>
+</li>
+<li><p>If the Filter Panel at the bottom of the TreeList control is visible, click the <strong>Edit Filter</strong> button.</p>
+<p>  <img src="../../../images/img25856.png" alt="EUDTreeListInvokeFilterEditorViaFilterEditorButton"></p>
+</li>
+</ul>
+<p>To learn how to work with the Filter Editor, refer to <a href="../../filter-editor/filter-data-via-the-filter-editor.html">Filter Data via the Filter Editor</a>.</p>
+<h2 id="using-the-auto-filter-row">Using the Auto Filter Row</h2>
+<p>If the Auto Filter Row is displayed at the top of the TreeList control, you can type text within this row. A filter condition is automatically created based on the entered value, and the filter is applied to the focused column.</p>
+<p><img src="../../../images/img25861.png" alt="EUDTreeListAutoFilterRow"></p>
+<h2 id="clearing-the-filter">Clearing the Filter</h2>
+<p>To clear the filter applied to a specific column, do one of the following.</p>
+<ul>
+<li>Invoke the filter dropdown list (see above), and then choose between clicking (All) or selecting (Select All) or choosing (Show All,) depending on the dropdown list type.</li>
+<li><p>Right-click the column header and select the <strong>Clear Filter</strong> menu item. </p>
+<p>  <img src="../../../images/img25857.png" alt="EUDTreeListClearFilterContextMenuItem"></p>
+</li>
+</ul>
+<p>To clear all filter criteria, click the Close Filter Button within the Filter Panel.</p>
+<p><img src="../../../images/img25858.png" alt="EUDTreeListCloseFilterButton"></p>
+<h2 id="disablingenabling-the-filter">Disabling/Enabling the Filter</h2>
+<p>Click the Enable Filter Button within the Filter Panel.</p>
+<p><img src="../../../images/img25860.png" alt="EUDTreeListEnableFilterButton"></p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/master/interface-elements-for-desktop/articles/tree-list/data-analysis/filter-treelist-data.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2017 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../styles/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,187 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Navigate Dates in the Scheduler | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Navigate Dates in the Scheduler | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.20.0.0">
+    
+    <link rel="shortcut icon" href="../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../toc.html">
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../index.html">
+                <img id="logo" class="svg" src="../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="navigate-dates-in-the-scheduler">Navigate Dates in the Scheduler</h1>
+
+<h2 id="context-menu">Context Menu</h2>
+<p>Right-clicking within the main area of the scheduler opens the context menu, which contains items for navigating through dates.</p>
+<table>
+<thead>
+<tr>
+<th>View</th>
+<th>Month View</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="../../../images/img121394.png" alt="NavThrDates_00.png"></td>
+<td><img src="../../../images/img5485.png" alt="NavThrDates_01.png"></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><p><strong>Go to This Day</strong></p>
+<p>  Only available in the <strong>Month View</strong>. This item is active when only one day is selected, and when activated, displays the target day in the <strong>Day View</strong> mode.</p>
+</li>
+<li><p><strong>Go to Today</strong></p>
+<p>  Moves focus to the current date, preserving the existing view mode.</p>
+</li>
+<li><p><strong>Go to Date...</strong></p>
+<p>  Invokes the <strong>Go To Date</strong> dialog to select the date and view type. The date can be selected either by using the calendar or by entering a string with the placeholders. To select the desired view type, use the <strong>Show In</strong> drop-down box.</p>
+<p>  <img src="../../../images/img5486.png" alt="NavThrDates_02.png"></p>
+<p>  <img src="../../../images/img9134.png" alt="GotoDate View"></p>
+</li>
+</ul>
+<h2 id="date-navigation-bar">Date Navigation Bar</h2>
+<p>You can navigate through dates using <strong>Date Navigation Bar</strong>. Clicking its navigation arrows moves backward and forward by the time frame. The current time interval is indicated near the arrows.</p>
+<p><img src="../../../images/img124245.png" alt="NavThrDates_DateNavigationBar"></p>
+<h2 id="date-navigator">Date Navigator</h2>
+<p>If the scheduler is accompanied by the <strong>date navigator</strong>, you can use it to navigate through dates. The common look of the date navigator is illustrated in the following picture.</p>
+<p><img src="../../../images/img6031.png" alt="Docs_VisualElements_DateNavigator"></p>
+<p>You can select either a particular date, or a range of dates in the date navigator, and the scheduler will display your selection using a <strong>Day View</strong>. The table below details how you can select dates in different ways.</p>
+<table>
+<thead>
+<tr>
+<th>Action</th>
+<th>Effect</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Click a date</td>
+<td>A single date is selected and the scheduler displays it using the <strong>Day View</strong>. If the currently active view is of another type, it is automatically changed to <strong>Day View</strong>.</td>
+</tr>
+<tr>
+<td>Click and drag across multiple dates, or click a start date, hold down the SHIFT key and click an end date</td>
+<td>The continuous range of dates is selected. The scheduler displays it using the <strong>Day View</strong>, irrespective of the size of the selected range.</td>
+</tr>
+<tr>
+<td>Hold down the CTRL key and click several dates</td>
+<td>A set of dates is selected. The scheduler displays it using the <strong>Day View</strong>, irrespective of the size of the selected range.</td>
+</tr>
+<tr>
+<td>Click a week number</td>
+<td>A corresponding week-long range is selected. The scheduler displays it using the <strong>Day View</strong>.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="bar-or-ribbon-interface">Bar or Ribbon Interface</h2>
+<p>If a scheduler is provided with the Bar or Ribbon interface, you can navigate through dates within a scheduler using the <strong>Backward</strong>, <strong>Forward</strong> and <strong>Go to Today</strong> buttons of the <strong>Navigate</strong> <a href="../scheduler-ui/toolbars.html">toolbar</a> or <a href="../scheduler-ui/ribbon-interface.html">Ribbon page group</a>.</p>
+<table>
+<thead>
+<tr>
+<th>Navigate through dates via Bar interface</th>
+<th>Navigate through dates via Ribbon interface</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="../../../images/img16557.png" alt="Scheduler_NavigateToolbar"></td>
+<td><img src="../../../images/img16547.png" alt="Scheduler_Ribbon_Navigate"></td>
+</tr>
+</tbody>
+</table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/master/interface-elements-for-desktop/articles/scheduler/selection-and-navigation/navigate-dates-in-the-scheduler.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2017 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../styles/main.js"></script>
+  </body>
+</html>

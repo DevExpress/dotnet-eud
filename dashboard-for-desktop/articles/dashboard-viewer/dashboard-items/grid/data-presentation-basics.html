@@ -1,0 +1,138 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Data Presentation Basics | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Data Presentation Basics | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.20.0.0">
+    
+    <link rel="shortcut icon" href="../../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../../toc.html">
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../../index.html">
+                <img id="logo" class="svg" src="../../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="data-presentation-basics">Data Presentation Basics</h1>
+
+<p>The <strong>Grid</strong> displays data in a two-dimensional table that supports four types of columns.</p>
+<p><img src="../../../../images/img19187.png" alt="Grid_ColumnTypes"></p>
+<ul>
+<li>The <strong>dimension column</strong> displays values from the bound data item &quot;as is&quot;.</li>
+<li>The <strong>measure column</strong> displays summaries calculated from data in the bound data item.</li>
+<li>The <strong>delta column</strong>, bound to two measures, calculates summaries for both measures, and displays the difference between these summaries.</li>
+<li>The <strong>sparkline column</strong> visualizes the variation of summary values over time.</li>
+</ul>
+<h2 id="sort-grid-rows">Sort Grid Rows</h2>
+<p>To sort records by a column&#39;s values and replace existing sort conditions that are applied to the current or other columns, click the target column&#39;s header until an <em>Up</em> or <em>Down</em> arrow icon is displayed within the header. The <em>Up</em> and <em>Down</em> arrows indicate ascending and descending sort orders, respectively.</p>
+<p><img src="../../../../images/img22369.png" alt="Grid_SortRows"></p>
+<p>To sort records by a column&#39;s values while preserving existing sort conditions, click a column header while holding the <strong>SHIFT</strong> key until an <em>Up</em> or <em>Down</em> arrow icon is displayed within the header.</p>
+<p><img src="../../../../images/img22371.png" alt="Grid_SortRows_Preserved"></p>
+<p>To remove sorting by a column, click a column header while holding down the <strong>CTRL</strong> key.</p>
+<h2 id="filter-grid-data">Filter Grid Data</h2>
+<p>To filter grid data, click the filter button (the <img src="../../../../images/img22372.png" alt="Grid_FilterIcon"> icon) and select the required filter value in the invoked filter dropdown list.</p>
+<p><img src="../../../../images/img22374.png" alt="Grid_FilterValues"></p>
+<p>Click <strong>Custom</strong> to construct filter criteria involving up to two conditions. This will invoke the <strong>Custom AutoFilter</strong> dialog, allowing you to compare a column with one or two values.</p>
+<p><img src="../../../../images/img22375.png" alt="Grid_CustomAutoFilter"></p>
+<p>To clear the filter applied to a specific column, invoke the filter dropdown list and click <strong>All</strong>.</p>
+<p><img src="../../../../images/img22377.png" alt="Grid_ClearFilter_All"></p>
+<p>To clear all filter criteria, click the <strong>Close Filter</strong> button within the Filter Panel.</p>
+<p><img src="../../../../images/img22378.png" alt="Grid_CloseFilter"></p>
+<h2 id="tooltips">Tooltips</h2>
+<p>A Grid dashboard item can display a tooltip when the mouse pointer is hovered over the bar in the measure column.</p>
+<p><img src="../../../../images/img23712.png" alt="GridBar_Tooltip"></p>
+<p>The tooltip shows the value in the measure column as text.</p>
+<p>When the mouse pointer is hovered over the cell in the sparkline column, the tooltip can display start/end values and minimum/maximum values.</p>
+<p><img src="../../../../images/img23713.png" alt="GridSparkline_Tooltip"></p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/master/dashboard-for-desktop/articles/dashboard-viewer/dashboard-items/grid/data-presentation-basics.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2017 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../../styles/main.js"></script>
+  </body>
+</html>

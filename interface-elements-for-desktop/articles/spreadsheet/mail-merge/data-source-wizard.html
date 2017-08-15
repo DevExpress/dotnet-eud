@@ -1,0 +1,173 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Data Source Wizard | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Data Source Wizard | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.20.0.0">
+    
+    <link rel="shortcut icon" href="../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../toc.html">
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../index.html">
+                <img id="logo" class="svg" src="../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="data-source-wizard">Data Source Wizard</h1>
+
+<p>The <strong>Data Source Wizard</strong> allows the user to create a new data source, configure it, and if there is more than one data source available, to select the one that is required for a particular task. Once created, the data source configuration will be stored in the XLS/XLSX spreadsheet file, so the user does not have to re-configure the data source again.</p>
+<p>To invoke the wizard, click <strong>Add Data Source</strong> in the <strong>External Data Sources</strong> group of the <strong>Mail Merge</strong> tab.</p>
+<p><img src="../../../images/img25339.png" alt="SpreadsheetControl_MailMerge_Add-New-Data-Source"></p>
+<p>Next, proceed with the following steps in the wizard.</p>
+<ol>
+<li><p>On the first page, specify the name for the new data source and click <strong>Next</strong>.</p>
+<p> <img src="../../../images/img121418.png" alt="Spreadsheet_MailMerge_DataSourceName"></p>
+</li>
+<li><p>On the next page, select the data source type and click <strong>Next</strong>. The following steps assume that a <strong>Database</strong> is selected.</p>
+<p> <img src="../../../images/img25332.png" alt="SpreadsheetControl_MailMerge_Data-Source-Wizard-01"></p>
+</li>
+<li><p>If a data connection has already been specified in the application, the next wizard page allows you to select whether to use one of the existing connections, or create a new one.</p>
+<p> <img src="../../../images/img25333.png" alt="SpreadsheetControl_MailMerge_Data-Source-Wizard-02"></p>
+</li>
+<li><p>When creating a new connection, you can specify the connection parameters on the next page.</p>
+<p> <img src="../../../images/img25334.png" alt="SpreadsheetControl_MailMerge_Data-Source-Wizard-03"></p>
+<p> On this page, you can define a custom connection string, or select from the following supported data source types.</p>
+<ul>
+<li>Microsoft SQL Server</li>
+<li>Microsoft Access 97</li>
+<li>Microsoft Access 2007</li>
+<li>Microsoft SQL Server CE</li>
+<li>Oracle</li>
+<li>Amazon Redshift</li>
+<li>Google BigQuery</li>
+<li>Teradata</li>
+<li>Firebird</li>
+<li>IBM DB2</li>
+<li>MySQL</li>
+<li>Pervasive PSQL</li>
+<li>PostgreSQL</li>
+<li>SAP Sybase Advantage</li>
+<li>SAP Sybase ASE</li>
+<li>SQLite</li>
+<li>VistaDB</li>
+<li>VistaDB5</li>
+<li><p>XML File</p>
+<p>Depending on the selected data provider, it may be necessary to specify additional connection options (such as authentication type and database name) on this page.</p>
+<p>To proceed to the next wizard page, click <strong>Next</strong>.</p>
+</li>
+</ul>
+</li>
+<li><p>On this page, you are prompted whether to save the user name and password in a connection string.</p>
+<p> <img src="../../../images/img25335.png" alt="SpreadsheetControl_MailMerge_Data-Source-Wizard-04"></p>
+<p> Click <strong>Next</strong> to proceed to the next page.</p>
+</li>
+<li><p>This page allows you to select a query or a stored procedure.</p>
+<p> <img src="../../../images/img25336.png" alt="SpreadsheetControl_MailMerge_Data-Source-Wizard-05"></p>
+<p> Click <strong>Run Query Builder...</strong> to invoke the <strong>Query Builder</strong> window.</p>
+</li>
+<li><p>The <strong>Query Builder</strong> window allows you to select tables and columns to include in the result. The joins are created automatically, however you can modify them using the <strong>Join Editor</strong>.</p>
+<p> <img src="../../../images/img25337.png" alt="SpreadsheetControl_MailMerge_Data-Source-Wizard-06"></p>
+<p> Click <strong>OK</strong> to close the <strong>Query Builder</strong> dialog and return to the <strong>Data Source Wizard</strong>.</p>
+</li>
+<li><p>The data source is created and configured.</p>
+<p> <img src="../../../images/img25338.png" alt="SpreadsheetControl_MailMerge_Data-Source-Wizard-07"></p>
+<p> Now you can click <strong>Finish</strong> to quit the <strong>Data Source Wizard</strong>.</p>
+<p> If the Spreadsheet is accompanied with the <strong>Field List Panel</strong>, the fields from the bound data source are immediately displayed within that panel. It allows you to drag and drop the required data field onto a worksheet used as a mail merge template.</p>
+<p> <img src="../../../images/img25563.png" alt="FielListPanel-DragDrop"></p>
+<p> To modify the query used in the data source, click <strong>Manage Relations -&gt; Manage Queries</strong> in the <strong>External Data Sources</strong> group to invoke the <a href="query-builder.html">Query Builder</a>.</p>
+</li>
+</ol>
+<div class="TIP"><h5>Tip</h5><p>The data source configuration is stored in .xls or .xlsx file. You can save the workbook after creating the data source. Subsequently, you can start a mail merge immediately after the XLSX/XLS file is loaded into the Spreadsheet control.</p>
+</div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/master/interface-elements-for-desktop/articles/spreadsheet/mail-merge/data-source-wizard.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2017 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../styles/main.js"></script>
+  </body>
+</html>

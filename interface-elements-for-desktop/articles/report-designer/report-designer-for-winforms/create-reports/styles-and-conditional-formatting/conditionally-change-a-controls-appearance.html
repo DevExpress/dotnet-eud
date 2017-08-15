@@ -1,0 +1,135 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Conditionally Change a Control's Appearance | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Conditionally Change a Control's Appearance | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.20.0.0">
+    
+    <link rel="shortcut icon" href="../../../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../../../toc.html">
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../../../index.html">
+                <img id="logo" class="svg" src="../../../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="conditionally-change-a-controls-appearance">Conditionally Change a Control&#39;s Appearance</h1>
+
+<p>This tutorial describes the steps to conditionally change a control&#39;s appearance (e.g. make a <a href="../../report-designer-reference/report-controls/label.html">Label</a>&#39;s text red if its value exceeds some threshold). Thanks to the <em>formatting rules</em> feature, to achieve this, no <a href="../miscellaneous/handle-events-via-scripts.html">scripts</a> are required, so you shouldn&#39;t write any code.</p>
+<p>To conditionally change a control&#39;s appearance, do the following.</p>
+<ol>
+<li><a href="../../report-editing-basics/displaying-values-from-a-database-%28binding-report-elements-to-data%29.html">Create a data-aware report</a>.</li>
+<li><p>Click the report&#39;s <a href="../../report-designer-reference/report-designer-ui/smart-tag.html">Smart Tag</a>, and in the invoked actions list, click the ellipsis button for the <strong>Formatting Rule Sheet</strong> option.</p>
+<p> <img src="../../../../../images/img8560.png" alt="RD_HowTo_FormattingRules_0"></p>
+<p> And, in the invoked <strong>Formatting Rule Sheet Editor</strong>, create a new <em>formatting rule</em> (by using the <img src="../../../../../images/img8593.png" alt="RD_buttons_add"> button), and click the ellipsis button for its <strong>Condition</strong> property.</p>
+<p> <img src="../../../../../images/img11143.png" alt="RD_HowTo_FormattingRules_0a"></p>
+</li>
+<li><p>Then, in the invoked <strong>Condition Editor</strong>, define the required <em>Boolean</em> condition (which means that its result is returned as either <em>true</em> or <em>false</em>). In this tutorial, we will format fields if the <strong>UnitPrice</strong> value is greater than <strong>30</strong>.</p>
+<p> <img src="../../../../../images/img8562.png" alt="RD_HowTo_FormattingRules_2"></p>
+<p> To save the condition and close the dialog, click <strong>OK</strong>.</p>
+</li>
+<li><p>Now, back in the <strong>Formatting Rule Sheet Editor</strong>, define the formatting to be applied (e.g. specify the desired font color).</p>
+<p> <img src="../../../../../images/img8563.png" alt="RD_HowTo_FormattingRules_3"></p>
+<p> To save the changes and quit the dialog, click <strong>Close</strong>.</p>
+</li>
+<li><p>Finally, select the band or control to which the formatting rule must be applied (in this example it is the <a href="../../report-designer-reference/report-bands/detail-band.html">Detail band</a>), and via its Smart Tag, access its collection of <strong>Formatting Rules</strong>.</p>
+<p> <img src="../../../../../images/img8564.png" alt="RD_HowTo_FormattingRules_4"></p>
+<p> And, in the invoked <strong>Formatting Rules Editor</strong>, move the rule from left to right (using the <strong>&#62;</strong> button), for it to come into effect for this band.</p>
+<p> <img src="../../../../../images/img11144.png" alt="RD_HowTo_FormattingRules_5"></p>
+<p> If multiple rules are applied, it is possible to customize their precedence, by using the up and down arrow buttons at the right of the dialog. So, the rules are applied in the same order that they appear in the list, and the last rule in the list has the highest priority.</p>
+</li>
+</ol>
+<p>The result is shown in the following image.</p>
+<p><img src="../../../../../images/img11145.png" alt="RD_HowTo_FormattingRules_6"></p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/master/interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/create-reports/styles-and-conditional-formatting/conditionally-change-a-controls-appearance.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2017 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../../../styles/main.js"></script>
+  </body>
+</html>

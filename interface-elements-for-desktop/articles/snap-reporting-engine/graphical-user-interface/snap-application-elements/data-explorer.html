@@ -1,0 +1,201 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Data Explorer | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Data Explorer | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.20.0.0">
+    
+    <link rel="shortcut icon" href="../../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../../toc.html">
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../../index.html">
+                <img id="logo" class="svg" src="../../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="data-explorer">Data Explorer</h1>
+
+<p>This topic describes how to use the <strong>Data Explorer</strong> in Snap.</p>
+<p>This topic consists of the following sections.</p>
+<ul>
+<li><a href="#overview">Overview</a></li>
+<li><a href="#description">Data Type Reference</a></li>
+</ul>
+<h2 id="a-nameoverviewoverview"><a name="overview"></a>Overview</h2>
+<p>The Data Explorer is essential for managing data in Snap applications. It allows you to <strong>add new data sources</strong> to a Snap document, access their structure and run the <a href="../../connect-to-data/use-the-query-builder.html">Query Builder</a> to customize a data source.</p>
+<p><img src="../../../../images/img21372.png" alt="snap-data-explorer-data-source-context-menu"></p>
+<p>Using the Data Explorer, you can also manage a report&#39;s parameters, as well as the <a href="../../connect-to-data/use-calculated-fields.html">calculated fields</a> supplied to the data source tables.</p>
+<p>You can create a Snap report layout by dropping the data members from the Data Explorer onto a document&#39;s <a href="design-surface.html">design surface</a>. The data members correspond to the columns created on the design surface, and the data member names are displayed in the column headers.</p>
+<p><img src="../../../../images/img18483.png" alt="How-to-Bind-Report-to-MS-SQL-Server-09"></p>
+<p>To display data in a chart, drop data fields from the Data Explorer onto the corresponding chart areas.</p>
+<p><img src="../../../../images/img18288.png" alt="ReportWithChart-02"></p>
+<p>When a data field is added to your document, its data type determines what <strong>element</strong> is created (e.g., text, <strong>chart</strong>, or <strong>bar code</strong>).</p>
+<h2 id="a-namedescriptiondata-type-reference"><a name="description"></a>Data Type Reference</h2>
+<p>In the Data Explorer, different icons are assigned to various data objects. These icons are explained in the following table.</p>
+<table>
+<thead>
+<tr>
+<th>Regular Data Source</th>
+<th>Mail Merge Data Source</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="../../../../images/img18794.png" alt="snap-data-explorer-icon-dataset"></td>
+<td><img src="../../../../images/img21420.png" alt="snap-data-explorer-icon-mail-merge-dataset"></td>
+<td>Designates an individual data source. When expanded, shows the hierarchy of its tables and/or views.</td>
+</tr>
+<tr>
+<td><img src="../../../../images/img18799.png" alt="field-list-icon-table"></td>
+<td><img src="../../../../images/img21421.png" alt="snap-data-explorer-icon-mail-merge-data-table"></td>
+<td>Designates a data table or view within a data source. When expanded, shows the hierarchy of its data fields. You can drag a data table and drop it onto the document surface, after which the entire table structure will be presented in the report in a tabular form.</td>
+</tr>
+<tr>
+<td><img src="../../../../images/img18797.png" alt="field-list-icon-parameters"></td>
+<td><img src="../../../../images/img18797.png" alt="field-list-icon-parameters"></td>
+<td>Parameters. Lists the report parameters. You can include parameters in a document&#39;s filtering expression or calculated fields, or you can use them directly in your reports, (e.g., by dropping them onto the document surface).</td>
+</tr>
+</tbody>
+</table>
+<p>For every table or view, the Data Explorer lists the available data fields. Depending on the data type, it will automatically assign one of the following icons.</p>
+<table>
+<thead>
+<tr>
+<th>Regular Data Source</th>
+<th>Mail Merge Data Source</th>
+<th>Data Type</th>
+<th>Displayed Contents</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="../../../../images/img18791.png" alt="field-list-icon-boolean"></td>
+<td><img src="../../../../images/img21425.png" alt="snap-data-explorer-field-icon-mail-merge-boolean"></td>
+<td>Boolean</td>
+<td>Check Box, plain text</td>
+</tr>
+<tr>
+<td><img src="../../../../images/img18792.png" alt="field-list-icon-byte"></td>
+<td><img src="../../../../images/img21426.png" alt="snap-data-explorer-field-icon-mail-merge-byte"></td>
+<td>Byte</td>
+<td>Bar Code, Picture</td>
+</tr>
+<tr>
+<td><img src="../../../../images/img18795.png" alt="field-list-icon-date-time"></td>
+<td><img src="../../../../images/img21428.png" alt="snap-data-explorer-field-icon-mail-merge-date-time"></td>
+<td>Date-time</td>
+<td>Plain text</td>
+</tr>
+<tr>
+<td><img src="../../../../images/img18796.png" alt="field-list-icon-number"></td>
+<td><img src="../../../../images/img21424.png" alt="snap-data-explorer-field-icon-mail-merge-numeric"></td>
+<td>Numeric</td>
+<td>Plain text, Bar Code</td>
+</tr>
+<tr>
+<td><img src="../../../../images/img18798.png" alt="field-list-icon-string"></td>
+<td><img src="../../../../images/img21423.png" alt="snap-data-explorer-field-icon-mail-merge-string"></td>
+<td>String</td>
+<td>Plain text, Bar Code</td>
+</tr>
+<tr>
+<td><img src="../../../../images/img18793.png" alt="field-list-icon-calculated-field"></td>
+<td><img src="../../../../images/img18793.png" alt="field-list-icon-calculated-field"></td>
+<td><strong>Calculated field</strong></td>
+<td>Determined by the result of the calculation.</td>
+</tr>
+</tbody>
+</table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/master/interface-elements-for-desktop/articles/snap-reporting-engine/graphical-user-interface/snap-application-elements/data-explorer.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2017 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../../styles/main.js"></script>
+  </body>
+</html>

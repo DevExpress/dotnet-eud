@@ -1,0 +1,151 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interactivity | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interactivity | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.20.0.0">
+    
+    <link rel="shortcut icon" href="../../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../../toc.html">
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../../index.html">
+                <img id="logo" class="svg" src="../../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="interactivity">Interactivity</h1>
+
+<p>To enable interaction between the Pie and other dashboard items, you can use interactivity features like <strong>Master Filtering</strong> and <strong>Drill-Down</strong>.</p>
+<ul>
+<li><a href="#masterfiltering">Master Filtering</a></li>
+<li><a href="#drilldown">Drill-Down</a></li>
+</ul>
+<h2 id="a-namemasterfilteringmaster-filtering"><a name="masterfiltering"></a>Master Filtering</h2>
+<p>You can use the Pie dashboard item as a filter for other dashboard items. To learn more about filtering concepts common to all dashboard items, see the <a href="../../interactivity/master-filtering.html">Master Filtering</a> topic.</p>
+<p>The Pie dashboard item supports filtering by <strong>arguments</strong>, <strong>series</strong> or <strong>points</strong>.</p>
+<ul>
+<li><p>Filtering <strong>by arguments</strong> allows you to make other dashboard items display only data related to selected argument values by clicking a pie segment.</p>
+<p>  <img src="../../../../images/img22485.png" alt="Pies_FilteringByArguments_Web"></p>
+</li>
+<li><p>When filtering <strong>by series</strong> is enabled, you can click a pie to make other dashboard items display only data related to the selected pie.</p>
+<p>  <img src="../../../../images/img22486.png" alt="Pies_FilteringBySeries_Web"></p>
+</li>
+<li><p>When filtering <strong>by points</strong> is enabled, you can click a single pie segment to make other dashboard items display only data related to the selected segment.</p>
+<p>  <img src="../../../../images/img125780.png" alt="wdd-pies-master-filter-points"></p>
+</li>
+</ul>
+<p>To configure filtering type, open the Pie&#39;s <a href="../../ui-elements/dashboard-item-menu.html">Interactivity</a> menu and select <strong>Arguments</strong>, <strong>Series</strong> or <strong>Points</strong> as a target dimension.</p>
+<p><img src="../../../../images/img125061.png" alt="wdd-chart-interactivity-set-points"></p>
+<p>To reset filtering, use the <strong>Clear Master Filter</strong> button (the <img src="../../../../images/img125072.png" alt="wdd-master-filtering-icon"> icon) in the Pie&#39;s <a href="../../dashboard-layout/dashboard-item-caption.html">caption</a>.</p>
+<h2 id="a-namedrilldowndrill-down"><a name="drilldown"></a>Drill-Down</h2>
+<p>The drill-down capability allows you to change the detail level of data displayed in the Pie dashboard item. To learn more about drill-down concepts common to all dashboard items, see the <a href="../../interactivity/drill-down.html">Drill-Down</a> topic.</p>
+<p>The Pie supports drill-down on <strong>argument</strong> or <strong>series</strong> values.</p>
+<ul>
+<li><p>To drill down on <strong>arguments</strong>, click a pie segment to view a detail diagram for the corresponding argument value.</p>
+<p>  <img src="../../../../images/img22487.png" alt="Pies_DrillDownOnArguments_Web"></p>
+<p>  Drill-down on arguments requires that the <strong>Arguments</strong> section contains several data items, from the least detailed to the most detailed item.</p>
+<p>  <img src="../../../../images/img125781.png" alt="wdd-pies-interactivity-arguments"></p>
+</li>
+<li><p>When drill-down on <strong>series</strong> is enabled, you can click a pie chart to view a detail diagram for the corresponding series value.</p>
+<p>  <img src="../../../../images/img22488.png" alt="Pies_DrillDownOnSeries_Web"></p>
+<p>  Drill-down on series requires that the <strong>Series</strong> section contains several data items, from the least detailed to the most detailed item.</p>
+<p>  <img src="../../../../images/img125782.png" alt="wdd-pies-interactivity-series"></p>
+</li>
+</ul>
+<div class="NOTE"><h5>Note</h5><p>In OLAP mode, you can perform drill-down for either a hierarchy data item or several dimension attributes.</p>
+</div>
+<p>To specify drill-down type, go to the Pie&#39;s <a href="../../ui-elements/dashboard-item-menu.html">Interactivity</a> menu and set <strong>Arguments</strong> or <strong>Series</strong> as the target dimension.</p>
+<p><img src="../../../../images/img125060.png" alt="wdd-chart-interactivity-set-series"></p>
+<p>To return to the previous detail level, click the <strong>Drill Up</strong> button (the <img src="../../../../images/img125074.png" alt="wdd-drill-up-icon"> icon) in the Pie&#39;s <a href="../../dashboard-layout/dashboard-item-caption.html">caption</a>.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/master/dashboard-for-web/articles/web-dashboard-designer-mode/designing-dashboard-items/pies/interactivity.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2017 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../../styles/main.js"></script>
+  </body>
+</html>

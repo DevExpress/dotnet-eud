@@ -1,0 +1,153 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Add Page Numbers and System Information to a Report | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Add Page Numbers and System Information to a Report | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.20.0.0">
+    
+    <link rel="shortcut icon" href="../../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../../toc.html">
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../../index.html">
+                <img id="logo" class="svg" src="../../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="add-page-numbers-and-system-information-to-a-report">Add Page Numbers and System Information to a Report</h1>
+
+<p>This document describes how to insert <em>page numbers</em> or other system information (e.g. <em>current date and time</em>, <em>user name</em>, etc.) into a report.</p>
+<p>Generally, this information is displayed within the <a href="../report-designer-reference/report-bands/page-header-and-footer.html">Page Header and Footer</a> or <a href="../report-designer-reference/report-bands/page-margin-bands.html">Page Margin</a> bands. To add page numbers or system information to a report, locate the <a href="../report-designer-reference/report-designer-ui/control-toolbox.html">Control Toolbox</a> and drag and drop the <a href="../report-designer-reference/report-controls/page-info.html">Page Info</a> control.</p>
+<p><img src="../../../../images/img8518.png" alt="RD_HowTo_InsertUserName_0"></p>
+<p>Then, follow the instructions below for your specific task.</p>
+<ul>
+<li><a href="#pagenumbers">Add Page Numbers</a></li>
+<li><a href="#datetime">Add System Date and Time</a></li>
+<li><a href="#username">Add the User Name</a></li>
+</ul>
+<h2 id="a-namepagenumbersadd-page-numbers"><a name="pagenumbers"></a>Add Page Numbers</h2>
+<ol>
+<li><p>Select the <strong>Page Info</strong> control, click its <a href="../report-designer-reference/report-designer-ui/smart-tag.html">Smart Tag</a>, and in the invoked actions list, expand the drop-down list for the <strong>Page Information</strong> entry.</p>
+<p> <img src="../../../../images/img8535.png" alt="RD_HowTo_InsertPageNumber_0"></p>
+<p> Select whether to display only the page number (Latin or Roman - uppercase or lowercase), or the current page number with total pages.</p>
+</li>
+<li><p>To <a href="change-value-formatting-of-report-elements.html">format</a> the control&#39;s text, via its Smart Tag, invoked its actions list, and specify the required format (e.g. <strong>Page {0} of {1}</strong>).</p>
+<p> <img src="../../../../images/img8536.png" alt="RD_HowTo_InsertPageNumber_1"></p>
+</li>
+<li>Using the control&#39;s actions list, you also can specify the <em>starting page number</em>, and the <em>running band</em> (e.g. this option is available when there are <a href="change-or-apply-data-grouping-to-a-report.html">groups</a> in a report, and it&#39;s required to apply independent page numbering for them). For details on this, refer to <a href="../create-reports/miscellaneous/add-page-numbers-for-groups.html">Add Page Numbers for Groups</a>.</li>
+</ol>
+<p>The result is shown below.</p>
+<p><img src="../../../../images/img8537.png" alt="RD_HowTo_InsertPageNumber_2"></p>
+<h2 id="a-namedatetimeadd-system-date-and-time"><a name="datetime"></a>Add System Date and Time</h2>
+<ol>
+<li><p>Select the <strong>Page Info</strong> control, click its <a href="../report-designer-reference/report-designer-ui/smart-tag.html">Smart Tag</a>, and in the invoked actions list, expand the drop-down list for the <strong>Page Information</strong> entry, and select <strong>Current Date and Time</strong>.</p>
+<p> <img src="../../../../images/img8522.png" alt="RD_HowTo_InsertDateTime_0"></p>
+</li>
+<li><p>To <a href="change-value-formatting-of-report-elements.html">format</a> the control&#39;s text, via its Smart Tag, invoked its actions list, and specify the required format. You can either type it in the <strong>Format</strong> field, or, click its ellipsis button and use the <strong>Format String Editor</strong>.</p>
+<p> <img src="../../../../images/img8524.png" alt="RD_HowTo_InsertDateTime_2"></p>
+</li>
+</ol>
+<p>The result is shown below.</p>
+<p><img src="../../../../images/img8523.png" alt="RD_HowTo_InsertDateTime_1"></p>
+<h2 id="a-nameusernameadd-the-user-name"><a name="username"></a>Add the User Name</h2>
+<ol>
+<li><p>Select the <strong>Page Info</strong> control, click its <a href="../report-designer-reference/report-designer-ui/smart-tag.html">Smart Tag</a>, and in the invoked actions list, expand the drop-down list for the <strong>Page Information</strong> entry, and select <strong>User Name</strong>.</p>
+<p> <img src="../../../../images/img8519.png" alt="RD_HowTo_InsertUserName_1"></p>
+</li>
+<li><p>To <a href="change-value-formatting-of-report-elements.html">format</a> the control&#39;s text, via its Smart Tag, invoke its actions list, and specify the required format (e.g. <strong>Current User: {0}</strong>).</p>
+<p> <img src="../../../../images/img8520.png" alt="RD_HowTo_InsertUserName_2"></p>
+</li>
+</ol>
+<p>The result is shown below.</p>
+<p><img src="../../../../images/img8521.png" alt="RD_HowTo_InsertUserName_3"></p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/master/interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-editing-basics/add-page-numbers-and-system-information-to-a-report.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2017 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../../styles/main.js"></script>
+  </body>
+</html>

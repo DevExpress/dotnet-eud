@@ -1,0 +1,304 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Chart | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Chart | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.20.0.0">
+    
+    <link rel="shortcut icon" href="../../../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../../../toc.html">
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../../../index.html">
+                <img id="logo" class="svg" src="../../../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="chart">Chart</h1>
+
+<p>The <strong>Chart</strong> is a sophisticated control used to embed graphs into your report. It graphically represents a <em>series</em> of <em>points</em> using numerous 2D or 3D chart types. A Chart can be populated with points both <em>manually</em> (by specifying <em>arguments</em> and <em>values</em> for each point) and <em>dynamically</em> (by connecting it to the report&#39;s data source, or binding it to a separate one).</p>
+<p>For more information about this control, refer to <a href="../../../../charting.html">Charting</a>.</p>
+<p><img src="../../../../../images/img8282.png" alt="RD_Controls_Chart"></p>
+<p>There are many available Chart types you can choose from. To name a few, these are Bar, Point, Line, Pie and Doughnut, Area, Radar and Polar, Range Bar, Gantt, Candle Stick and Stock charts.</p>
+<p>A Chart control contains multiple elements (diagram, series, series points, axes, legend, titles, labels, strips, constant lines, etc.). When any of these elements is selected, the <a href="../report-designer-ui/property-grid.html">Property Grid</a> shows only the properties which correspond to the selected item. Visual Chart elements which can be highlighted or selected, are described in <a href="../../../../charting/highlighting-and-selection-chart-elements.html">Highlighting and Selection Chart Elements</a>.</p>
+<p>The Chart control is data-aware in a different manner than the other report controls. Consider three common report scenarios:</p>
+<ol>
+<li>Static data for a Chart&#39;s series is provided <em>manually</em>. It can be done using the Series Collection Editor invoked by the Chart&#39;s Series property. It allows you to manually define values and arguments for each series point.</li>
+<li>Chart&#39;s series are created <em>automatically</em>, getting their data from the Chart&#39;s Data Source and dependent on the rules defined by the Series Template property. This approach is described in <a href="../../create-reports/report-types/chart-with-dynamic-series.html">Chart with Dynamic Series</a>.</li>
+<li>Each series is created and customized manually and has a separate Data Source. This approach is described in <a href="../../create-reports/report-types/chart-with-static-series.html">Chart with Static Series</a>.</li>
+</ol>
+<p>You can customize a created chart using both the Property Grid and the <a href="../../../../charting/chart-wizard.html">Chart Wizard</a>. To invoke the Chart Wizard, click a Chart&#39;s <a href="../report-designer-ui/smart-tag.html">Smart Tag</a>, and in the invoked actions list, click the <strong>Run Wizard...</strong> link.</p>
+<p><img src="../../../../../images/img8547.png" alt="RD_Controls_Chart_1"></p>
+<p>Then, the Chart Wizard will guide you through the whole process of customizing the Chart, from defining its view type to providing its data and customizing its appearance.</p>
+<p>In the Property Grid, the Chart&#39;s properties are divided into the following groups.</p>
+<h2 id="appearance">Appearance</h2>
+<ul>
+<li><p><strong>Appearance Name</strong></p>
+<p>  Allows you to choose one of the available appearances, to be used to draw the Chart&#39;s elements (Diagram, Axes, Legend, etc.).</p>
+</li>
+<li><p><strong>Background Color</strong></p>
+<p>  Specifies the background color for a Chart.</p>
+</li>
+<li><p><strong>Background Image</strong></p>
+<p>  Allows you to load a background image to a Chart (or define its URL), and also define whether it should be stretched to fit the entire Chart&#39;s area, or not.</p>
+</li>
+<li><p><strong>Borders</strong>, <strong>Border Color</strong>, <strong>Border Dash Style</strong> and <strong>Border Width</strong></p>
+<p>  Specify border settings for the control.</p>
+</li>
+<li><p><strong>Fill Style</strong></p>
+<p>  Determines the fill style of a Chart&#39;s background (Empty, Solid, Gradient or Hatch) and define other fill options if required.</p>
+</li>
+<li><p><strong>Formatting Rules</strong></p>
+<p>  Invokes the Formatting Rules Editor allowing you to choose which rules should be applied to the control during report generation, and define the precedence of the applied rules. To learn more on this, refer to <a href="../../create-reports/styles-and-conditional-formatting/conditionally-change-a-controls-appearance.html">Conditionally Change a Control&#39;s Appearance</a>.</p>
+</li>
+<li><p><strong>Image Type</strong></p>
+<p>  Determines whether a Chart should be internally rendered as a metafile in a report (in this case the quality of the rendered image is always good, but in particular cases some details of the control may be lost), or as a bitmap (in this case the quality of the rendered image is sometimes poor, but it allows a control to be drawn more precisely).</p>
+</li>
+<li><p><strong>Indicators Palette Name</strong></p>
+<p>  Specifies the palette that is used to paint all indicators that exist in a Chart.</p>
+</li>
+<li><p><strong>Padding</strong></p>
+<p>  Specifies the internal space between the Chart&#39;s content (the diagram and legend) and its edge, in pixels.</p>
+</li>
+<li><p><strong>Palette Name</strong></p>
+<p>  Allows you to choose one from the built-in palettes to be used to draw a Chart&#39;s series.</p>
+</li>
+<li><p><strong>Palette&#39;s Base Color Number</strong></p>
+<p>  Allows you to define an integer index determining the base color for the palette defined by the Chart&#39;s Palette Name property.</p>
+</li>
+<li><p><strong>Style Priority</strong></p>
+<p>  Allows you to define the priority of various style elements (such as background color, border color, etc.). For more information on style inheritance, refer to <a href="../../create-reports/styles-and-conditional-formatting/understanding-style-concepts.html">Understanding Style Concepts</a>.</p>
+</li>
+</ul>
+<h2 id="behavior">Behavior</h2>
+<ul>
+<li><p><strong>Anchor Horizontally</strong></p>
+<p>  Specifies the horizontal anchoring style of the control, so that after page rendering it stays attached to the left control, right control, or both. This property defines how a report control is resized to maintain the distance to the left and right edges of its container control.</p>
+</li>
+<li><p><strong>Anchor Vertically</strong></p>
+<p>  Specifies the vertical anchoring style of the control, so that after page rendering it stays attached to the top control, bottom control, or both.</p>
+</li>
+<li><p><strong>Can Publish</strong></p>
+<p>  Specifies whether or not a control is displayed in a printed or exported document.</p>
+</li>
+<li><p><strong>Empty Chart Text</strong></p>
+<p>  Specifies the text to be shown in the Chart, when it has no data to display.</p>
+</li>
+<li><p><strong>Scripts</strong></p>
+<p>  This property contains events, which you can handle by the required scripts. For more information on scripting, refer to <a href="../../create-reports/miscellaneous/handle-events-via-scripts.html">Handle Events via Scripts</a>.</p>
+</li>
+<li><p><strong>Small Chart Text</strong></p>
+<p>  Specifies the text to be shown in the Chart, when it&#39;s too small to fit the diagram.</p>
+</li>
+<li><p><strong>Visible</strong></p>
+<p>  Specifies whether a Chart should be visible in print preview.</p>
+</li>
+</ul>
+<h2 id="data">Data</h2>
+<ul>
+<li><p><strong>(Data Bindings)</strong></p>
+<p>  If the current report is <a href="../../create-reports/binding-a-report-to-data.html">bound to data</a>, this property allows you to bind some of a Chart&#39;s properties (Bookmark, Navigation URL and Tag) to a data field obtained from the report&#39;s data source, and to apply a <a href="../../report-editing-basics/change-value-formatting-of-report-elements.html">format string</a> to it. For more information on this, refer to <a href="../../report-editing-basics/displaying-values-from-a-database-%28binding-report-elements-to-data%29.html">Displaying Values from a Database (Binding Report Elements to Data)</a>.</p>
+</li>
+<li><p><strong>Data Adapter</strong></p>
+<p>  Determines a data adapter that will populate a Chart&#39;s data source which is assigned via the Data Source property. It is automatically set to the appropriate value, when the Data Member property is defined. To learn more on this, refer to <a href="../../create-reports/report-types/chart-with-static-series.html">Chart with Static Series</a>.</p>
+</li>
+<li><p><strong>Data Member</strong></p>
+<p>  Determines the data source member which supplies data to a Chart. To learn more on this, refer to <a href="../../create-reports/report-types/chart-with-static-series.html">Chart with Static Series</a>.</p>
+<div class="NOTE"><h5>Note</h5><p>Usually, it is not necessary to specify the Data Member property when binding a Chart to data. This property should only be set directly if the dataset contains more than one table.</p>
+</div>
+</li>
+<li><p><strong>Data Source</strong></p>
+<p>  Determines a Chart&#39;s data source. To learn more on this, refer to <a href="../../create-reports/report-types/chart-with-static-series.html">Chart with Static Series</a>.</p>
+</li>
+<li><p><strong>Pivot Grid Data Source Options</strong></p>
+<p>  Provides access to the layout settings of a Chart that is linked with a <a href="pivot-grid.html">Pivot Grid</a>.</p>
+</li>
+<li><p><strong>Series Data Member</strong></p>
+<p>  Determines the name of the data field whose values are used to automatically generate and populate a Chart&#39;s series. To learn more on this, refer to <a href="../../create-reports/report-types/chart-with-dynamic-series.html">Chart with Dynamic Series</a>.</p>
+<p>  When Chart binding is used to automatically generate series within a chart control based upon the data obtained from the associated data source (defined by the Data Source property), a rule needs to be defined that helps the Chart recognize the data records whose values are used to construct individual series objects. To do this, the Series Data Member property, which specifies the data field whose values are taken into account when series objects are automatically created and populated, can be used.</p>
+<p>  Each automatically generated series gets its name from the data field specified by the Series Data Member property. For example, this name is used to identify a series within the chart control&#39;s legend. The names of all automatically generated series can be supplemented with the same prefix and postfix defined by the settings which are available via the Series Name Template property.</p>
+<p>  The template settings for the dynamically created series are defined by the specific properties which are available via the SeriesTemplate property of a Chart. In particular, the Argument Data Member and Value Data Members properties specify the data fields from which the arguments and data values of the series data points are obtained.</p>
+<div class="NOTE"><h5>Note</h5><p>Note that if the Series Data Member property is not set for a Chart, the Chart control can&#39;t automatically generate series even if the Argument Data Member and Value Data Members properties are defined.</p>
+</div>
+</li>
+<li><p><strong>Series Name Template</strong></p>
+<p>  Determines the settings used to name data bound series defining the prefix and postfix texts for the names of series which are dynamically created as a result of binding a Chart to data (using the Data Source, Series Data Member, Argument Data Member and Value Data Members properties). The series names, to which these prefixes and postfixes are added, are taken by each series from the data field defined by the Series Data Member property. To learn more on this, refer to <a href="../../create-reports/report-types/chart-with-dynamic-series.html">Chart with Dynamic Series</a>.</p>
+<div class="NOTE"><h5>Note</h5><p>Note that the settings available via the Series Name Template property are not applied to the data bound series which are contained within the Series collection of a Chart.</p>
+</div>
+</li>
+<li><p><strong>Series Sorting</strong></p>
+<p>  Allows you to define the sort mode of a Chart&#39;s series (None by default, Descending or Ascending).</p>
+</li>
+<li><p><strong>Series Template</strong></p>
+<p>  Allows you to customize a template for series which are created dynamically as a result of binding a Chart to data (via the Data Source and Series Data Member properties). The settings which are available via the Series Template property are common to all such data bound series. These settings allow you to provide centralized customization of all dynamically created data bound series. To learn more on using this property, refer to <a href="../../create-reports/report-types/chart-with-dynamic-series.html">Chart with Dynamic Series</a>.</p>
+<p>  Note that the settings which are customized via the Series Template property don&#39;t apply to the series contained within the Series collection of a Chart.</p>
+</li>
+<li><p><strong>Tag</strong></p>
+<p>  This property allows you to add some additional information to the control; for example its id, by which it can then be accessible via <a href="../../create-reports/miscellaneous/handle-events-via-scripts.html">scripts</a>.</p>
+<p>  If the current <a href="../../create-reports/binding-a-report-to-data.html">report has a data source</a>, the Tag property can be bound to a data field obtained from the data source. To do this, expand the (Data Bindings) property and in the Tag.Binding drop-down selector, select the required data field.</p>
+</li>
+</ul>
+<h2 id="design">Design</h2>
+<ul>
+<li><p><strong>(Name)</strong></p>
+<p>  Determines a control&#39;s name, by which it can be accessed in the <a href="../report-designer-ui/report-explorer.html">Report Explorer</a>, <a href="../report-designer-ui/property-grid.html">Property Grid</a> or via <a href="../../create-reports/miscellaneous/handle-events-via-scripts.html">scripts</a>.</p>
+</li>
+</ul>
+<h2 id="elements">Elements</h2>
+<ul>
+<li><p><strong>Annotation Repository</strong></p>
+<p>  Provides centralized access to all annotations that are present in the Chart.</p>
+</li>
+<li><p><strong>Annotations</strong></p>
+<p>  Provides access to the annotations collection of the Chart.</p>
+</li>
+<li><p><strong>Diagram</strong></p>
+<p>  Allows you to customize a Chart&#39;s diagram elements: main and secondary axes and panes.</p>
+<p>  By default, a Chart is displayed in the Default Pane, but if necessary, you can display each Chart&#39;s series in a separate pane. To do this, click the Pane&#39;s ellipsis button, to invoke the Pane Collection Editor, allowing you to manage and customize panes. Then, select the required series within the Chart and set its View.Pane property to the required pane.</p>
+<p>  Note that the diagram is null until no visible series exists in the Chart&#39;s collection. So, to access the diagram&#39;s options, you should create a series first.</p>
+</li>
+<li><p><strong>Legend</strong></p>
+<p>  Allows you to customize a Chart&#39;s legend, by defining such properties as text alignment and antialiasing, font style, background color or image, border options, markers&#39; size and visibility, shadow options, etc.</p>
+</li>
+<li><p><strong>Legends</strong></p>
+<p>  Invokes the Legend Collection Editor, which allows you to manage and customize a Chart&#39;s additional legends.</p>
+</li>
+<li><p><strong>Series</strong></p>
+<p>  Invokes the Series Collection Editor, which allows you to manage and customize a Chart&#39;s series.</p>
+<p>  Note that <a href="../../create-reports/report-types/chart-with-dynamic-series.html">series which are bound to data at the level of a chart control</a> (in particular, using the Data Source, Series Data Member and both the Argument Data Member and Value Data Members properties) are created dynamically, based upon the data obtained from the specified data source, and they are not presented within the Series collection. To perform a centralized customization of such series, use the settings which are available via the Series Template property.</p>
+</li>
+<li><p><strong>Titles</strong></p>
+<p>  Invokes the Chart Title Collection Editor, which allows you to manage and customize a Chart&#39;s titles.</p>
+</li>
+</ul>
+<h2 id="layout">Layout</h2>
+<ul>
+<li><p><strong>Automatic Layout</strong></p>
+<p>  Specifies whether the adaptive layout feature is enabled for chart elements. This feature is used to maintain a better chart appearance and layout when the chart becomes smaller.</p>
+<table>
+<thead>
+<tr>
+<th>Automatic Layout = Yes</th>
+<th>Automatic Layout = No</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="../../../../../images/img125026.png" alt="AutoLayout_true"></td>
+<td><img src="../../../../../images/img125027.png" alt="AutoLayout_false"></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li><p><strong>Location</strong></p>
+<p>  Specifies the control&#39;s location, measured in <a href="../../create-reports/basic-operations/change-measurement-units-of-a-report.html">report units</a>.</p>
+</li>
+<li><p><strong>Size</strong></p>
+<p>  Specifies the control&#39;s size, measured in <a href="../../create-reports/basic-operations/change-measurement-units-of-a-report.html">report units</a>.</p>
+</li>
+<li><p><strong>Snap Line Margin</strong></p>
+<p>  Specifies the margin (measured in <a href="../../create-reports/basic-operations/change-measurement-units-of-a-report.html">report units</a>), which is to be preserved around the control when it is <a href="../../create-reports/basic-operations/controls-positioning.html">aligned using Snap Lines</a>, or when other controls are aligned next to it.</p>
+</li>
+</ul>
+<h2 id="navigation">Navigation</h2>
+<ul>
+<li><p><strong>Bookmark</strong> and <strong>Parent Bookmark</strong></p>
+<p>  These properties are intended for the creation of a hierarchical structure within a report called a document map. For an explanation and help, refer to <a href="../../create-reports/report-navigation-and-interactivity/add-bookmarks.html">Add Bookmarks</a>.</p>
+<p>  If the current <a href="../../create-reports/binding-a-report-to-data.html">report has a data source</a>, the Bookmark property can be bound to a data field obtained from the data source. To do this, expand the (Data Bindings) property and in the Bookmark.Binding drop-down selector, select the required data field.</p>
+</li>
+<li><p><strong>Navigation URL</strong> and <strong>Navigation Target</strong></p>
+<p>  Use the Navigation URL property to specify a URL for web browser navigation when a user clicks the control. The web browser displays a page in a window or a frame as specified by the Navigation Target property. Note that a URL should have an appropriate prefix (e.g. &quot;http://&quot;). You can create cross-references within the report by assigning the name of the target control to the Navigation URL property, and setting the Navigation Target property to &quot;_self&quot;. For more information, refer to <a href="../../create-reports/report-navigation-and-interactivity/create-hyperlinks.html">Create Hyperlinks</a>.</p>
+<p>  If the current <a href="../../create-reports/binding-a-report-to-data.html">report has a data source</a>, the Navigation URL property can be bound to a data field obtained from the data source. To do this, expand the (Data Bindings) property, and in the Navigation URL.Binding drop-down selector, select the required data field.</p>
+</li>
+</ul>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/master/interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-reference/report-controls/chart.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2017 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../../../styles/main.js"></script>
+  </body>
+</html>

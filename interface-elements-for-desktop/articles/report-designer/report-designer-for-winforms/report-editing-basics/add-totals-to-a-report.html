@@ -1,0 +1,132 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Add Totals to a Report | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Add Totals to a Report | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.20.0.0">
+    
+    <link rel="shortcut icon" href="../../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../../toc.html">
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../../index.html">
+                <img id="logo" class="svg" src="../../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="add-totals-to-a-report">Add Totals to a Report</h1>
+
+<p>With Report Designer, you can force a <a href="displaying-values-from-a-database-%28binding-report-elements-to-data%29.html">data-bound control</a> to calculate one of the standard summary functions (<strong>Average</strong>, <strong>Sum</strong>, <strong>Count</strong>, <strong>Percentage</strong>, <strong>Max</strong>, <strong>Min</strong>, etc.)</p>
+<p>To calculate summaries (totals) within a report, follow the instructions below.</p>
+<ol>
+<li><p>To display the result at the bottom of a report, the <a href="../report-designer-reference/report-bands/report-header-and-footer.html">Report Footer</a> band should be present. To add it, right-click anywhere over the report&#39;s area and in the invoked <a href="../report-designer-reference/report-designer-ui/context-menu.html">Context Menu</a>, select <strong>Insert Band</strong> | <strong>ReportFooter</strong>.</p>
+<p> <img src="../../../../images/img8459.png" alt="RD_HowTo_CalculateSummary_0"></p>
+</li>
+<li><p>Click the field for which a summary will be calculated, to select it. Then, hold down CTRL and drag the field onto the Report Footer area, to create an exact copy of the <a href="../create-reports/report-types/label-report.html">Label</a> that will display the summary.</p>
+<p> <img src="../../../../images/img8461.png" alt="RD_HowTo_CalculateSummary_2"></p>
+<div class="NOTE"><h5>Note</h5><p>You can also create a new label for your total by simply dragging it from the <a href="../report-designer-reference/report-designer-ui/control-toolbox.html">Control Toolbox</a>.</p>
+</div>
+</li>
+<li><p>Now, select the newly created Label, click its <a href="../report-designer-reference/report-designer-ui/smart-tag.html">Smart Tag</a>, and in its actions list, click the ellipsis button for the <strong>Summary</strong> item. And, in the invoked <strong>Summary Editor</strong>, specify the summary options.</p>
+<p> The following image shows an example of how you can set up your total. Note that the <strong>Summary Running</strong> option is set to <strong>Report</strong>, to ensure that all values from the specified data field are taken into account.</p>
+<p> <img src="../../../../images/img8462.png" alt="RD_HowTo_CalculateSummary_3"></p>
+<div class="NOTE"><h5>Note</h5><p>The <strong>Ignore NULL values</strong> option won&#39;t affect the result in this example, since NULL values are treated like zeros, by default. So, Sum won&#39;t change whether these values are taken into account or not. This option makes sense for functions like <strong>Count</strong> or <strong>Average</strong>, because the number of elements counted will depend on it.</p>
+</div>
+<p> Note also that <em>value formatting</em> is applied to a summary independently of the <a href="change-value-formatting-of-report-elements.html">general formatting</a>, and has a greater priority.</p>
+<p> When calculating totals for <a href="change-or-apply-data-grouping-to-a-report.html">groups</a>, you can <a href="../create-reports/miscellaneous/sort-groups-by-a-summary-function-result.html">sort the groups against a summary function result</a>.</p>
+<p> To save the settings and close the dialog, click <strong>OK</strong>.</p>
+</li>
+</ol>
+<p>Switch to the <a href="../report-designer-reference/report-designer-ui/preview-tab.html">Preview Tab</a>, and view the result.</p>
+<p><img src="../../../../images/img8463.png" alt="RD_HowTo_CalculateSummary_4"></p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/master/interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-editing-basics/add-totals-to-a-report.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2017 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../../styles/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,183 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Report Bands | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Report Bands | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.20.0.0">
+    
+    <link rel="shortcut icon" href="../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../toc.html">
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../index.html">
+                <img id="logo" class="svg" src="../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="report-bands">Report Bands</h1>
+
+<p>A <em>Report Band</em> represents a specific area on a report page, where <a href="report-controls.html">report controls</a> are contained. A band is used to define how to render report controls that belong to it. In the <a href="../../report-designer.html">Web Report Designer</a>,  every report consists of a number of bands, each of a different type.</p>
+<p>This document consists of the following sections.</p>
+<ul>
+<li><a href="#adding">Adding Bands</a></li>
+<li><a href="#bands">Available Bands</a></li>
+<li><a href="#position">Positions of Band Types</a></li>
+</ul>
+<h2 id="a-nameaddingadding-bands"><a name="adding"></a>Adding Bands</h2>
+<p>To add a new band to a report, select the report or any of its bands in the <strong>Properties</strong> panel and click an appropriate item in the <strong>Actions</strong> category.</p>
+<p><img src="../../../images/img122360.png" alt="web-report-designer-insert-bands"></p>
+<h2 id="a-namebandsavailable-bands"><a name="bands"></a>Available Bands</h2>
+<p>The following table lists the band types.</p>
+<table>
+<thead>
+<tr>
+<th>Icon</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="../../../images/img119258.png" alt="eud-create-report-elements-11"></td>
+<td>The <strong>Top Margin</strong> band represents the top page margin. It is intended for displaying <a href="../creating-reports/add-details-about-a-report/add-page-numbers-and-system-information-to-a-report.html">page numbers</a>, or some sort of supplementary information (e.g. <a href="../creating-reports/add-details-about-a-report/add-page-numbers-and-system-information-to-a-report.html">current system time</a> or the <a href="../creating-reports/add-details-about-a-report/add-page-numbers-and-system-information-to-a-report.html">user name</a>).</td>
+</tr>
+<tr>
+<td><img src="../../../images/img119257.png" alt="eud-create-report-elements-10"></td>
+<td>The <strong>Report Header</strong> is located at the beginning of a report. This band is intended to display some introductory information, e.g., a cover page for a report (the report&#39;s name, company logo, <a href="../creating-reports/add-details-about-a-report/add-page-numbers-and-system-information-to-a-report.html">date of creation and user name</a>, etc.) And, if you plan to add a <a href="../report-types/chart-with-static-series.html">Chart</a> that visualizes the report&#39;s data, place this control onto this band.</td>
+</tr>
+<tr>
+<td><img src="../../../images/img119255.png" alt="eud-create-report-elements-8"></td>
+<td>The <strong>Page Header</strong> band is located at the top of every page, below the <strong>Top Margin</strong> or <strong>Report Header</strong> band. This band is intended to display page numbers or a table header, continued from the previous page.</td>
+</tr>
+<tr>
+<td><img src="../../../images/img119252.png" alt="eud-create-report-elements-6"></td>
+<td>The <strong>Group Header</strong> band is located at the beginning of every group or at the top of the page if it is split across pages. This band specifies grouping criteria and is used to display information at the beginning of a group of records. To learn more, refer to <a href="../creating-reports/shaping-data/grouping-data.html">Grouping Data</a>.</td>
+</tr>
+<tr>
+<td><img src="../../../images/img119250.png" alt="eud-create-report-elements-4"></td>
+<td>The <strong>Detail</strong> band is located on a page between all other bands. This band cannot be deleted - the present report structure includes the Detail band in its core. In a <a href="../creating-reports/providing-data/bind-a-report-to-data.html">data-bound report</a>, the contents of the Detail band are repeated for every data entry. And, if static data is also present in the Detail band, it is repeated with each new entry in the resulting report. For more information about data binding, refer to <a href="../creating-reports/providing-data.html">Providing Data</a>.</td>
+</tr>
+<tr>
+<td><img src="../../../images/img119249.png" alt="eud-create-report-elements-3"></td>
+<td>The <strong>Detail Report Band</strong> is located below the <strong>Detail</strong> band and is intended to hold the detail report when creating a <a href="../report-types/master-detail-report-%28detail-report-bands%29.html">master-detail report</a>. There can be an unlimited number of Detail Report bands nested inside one another. To learn more about detail reports, refer to <a href="../report-types/master-detail-report-%28detail-report-bands%29.html">Master-Detail Report (Detail Report Bands)</a>.</td>
+</tr>
+<tr>
+<td><img src="../../../images/img119251.png" alt="eud-create-report-elements-5"></td>
+<td>The <strong>Group Footer</strong> band is located at the end of every group or at the bottom of the page if this group is split across pages. This band is primarily intended to show summary information for a group.</td>
+</tr>
+<tr>
+<td><img src="../../../images/img119256.png" alt="eud-create-report-elements-9"></td>
+<td>The <strong>Report Footer</strong> finalizes the informative part of the report. It is placed before the <strong>Page Footer</strong> and <strong>Bottom Margin</strong> on the report&#39;s last page. This band is intended to display some final information, e.g., report totals.</td>
+</tr>
+<tr>
+<td><img src="../../../images/img119254.png" alt="eud-create-report-elements-7"></td>
+<td>The <strong>Page Footer</strong> band is located at the bottom of every page, below the <strong>Report Footer</strong> and above the  <strong>Bottom Margin</strong> band. This band is intended to display page numbers or a table footer, which is continued on the following page.</td>
+</tr>
+<tr>
+<td><img src="../../../images/img119248.png" alt="eud-create-report-elements-2"></td>
+<td>The <strong>Bottom Margin</strong> band represents the bottom page margin. It is intended for displaying <a href="../creating-reports/add-details-about-a-report/add-page-numbers-and-system-information-to-a-report.html">page numbers</a>, or some sort of supplementary information (e.g., <a href="../creating-reports/add-details-about-a-report/add-page-numbers-and-system-information-to-a-report.html">current system time</a> or the <a href="../creating-reports/add-details-about-a-report/add-page-numbers-and-system-information-to-a-report.html">user name</a>).</td>
+</tr>
+<tr>
+<td><img src="../../../images/img119260.png" alt="eud-create-report-elements-12"></td>
+<td>The <strong>Sub-Band</strong> provides a functional copy of the source band below which it is located. A sub-band&#39;s behavior, as well as its position within the report band hierarchy, is dictated by the source band type. Any number of sub-bands can be added to the report band of any type, except for the <strong>Top Margin</strong> and <strong>Bottom Margin</strong> bands and the sub-band itself.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="a-namepositionpositions-of-band-types"><a name="position"></a>Positions of Band Types</h2>
+<p>The following image illustrates the relative positions of different band types, and how many times they are rendered in a report.</p>
+<p><img src="../../../images/img120145.png" alt="eud-report-bands-0"></p>
+<p>The <strong>Page Header</strong>, <strong>Page Footer</strong>, <strong>Top Margin</strong> and <strong>Bottom Margin</strong> bands are rendered in the report preview on every page.</p>
+<p>The <strong>Report Header</strong> and <strong>Report Footer</strong> bands are rendered in the report preview only once.</p>
+<p>The <strong>Group Header</strong> and <strong>Group Footer</strong> bands are rendered for every group of records in a report.</p>
+<p>The number of times the <strong>Detail</strong> band is rendered in a report depends upon the number of records returned from the bound data source - one band per record.</p>
+<p>To learn how to create a report band and change its layout, refer to <a href="../creating-reports/basic-operations/create-report-elements.html">Create Report Elements</a> and <a href="../creating-reports/basic-operations/adjust-the-layout-of-report-elements.html">Adjust the Layout of Report Elements</a>.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/master/interface-elements-for-web/articles/report-designer/report-elements/report-bands.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2017 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../styles/main.js"></script>
+  </body>
+</html>

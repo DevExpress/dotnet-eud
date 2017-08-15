@@ -1,0 +1,142 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Binding Report Controls to Data | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Binding Report Controls to Data | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.20.0.0">
+    
+    <link rel="shortcut icon" href="../../../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../../../toc.html">
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../../../index.html">
+                <img id="logo" class="svg" src="../../../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="binding-report-controls-to-data">Binding Report Controls to Data</h1>
+
+<p><a href="../../report-elements/report-controls.html">Report controls</a> can either display static information or dynamic data obtained from the <a href="binding-a-report-to-data.html">bound data source</a>.</p>
+<p>Data-bound controls are indicated by a yellow database icon, both on the <a href="../../interface-elements/design-surface.html">Design Surface</a> and in the <a href="../../interface-elements/report-explorer.html">Report Explorer</a>.</p>
+<p><img src="../../../../../images/img123704.png" alt="EUD_WpfReportDesigner_BindControls_1"></p>
+<p>To embed dynamic information to a report, if this information is contained in the report data source, you can use one of the following approaches.</p>
+<ul>
+<li><a href="#fieldlist">Using the Field List</a></li>
+<li><a href="#contextmenu">Using the Context Menu</a></li>
+<li><a href="#propertygrid">Using the Properties Panel</a></li>
+</ul>
+<p>After a control is bound to data, you can employ additional features that are listed in the <a href="#special">Special Capabilities</a> section of this document.</p>
+<p><a name="fieldlist"></a></p>
+<h2 id="using-the-field-list">Using the Field List</h2>
+<p>The Report Designer allows you to create a data-aware element using the <a href="../../interface-elements/field-list.html">Field List</a>. To do this, switch to the Field List panel, click the desired field item and drop it onto the report band. This automatically creates a control bound to the selected data field.</p>
+<p><img src="../../../../../images/img123705.png" alt="EUD_WpfReportDesigner_BindControls_2"></p>
+<p><a name="contextmenu"></a></p>
+<h2 id="using-the-context-menu">Using the Context Menu</h2>
+<p>Right click an existing report control, and in the invoked context menu, click the <strong>Edit...</strong> link.</p>
+<p><img src="../../../../../images/img123706.png" alt="EUD_WpfReportDesigner_BindControls_3"></p>
+<p>In the invoked <strong>Edit</strong> dialog, expand the <strong>Data Binding</strong> drop-down and select the required data field.</p>
+<p><img src="../../../../../images/img123707.png" alt="EUD_WpfReportDesigner_BindControls_4"></p>
+<p>To unbind a control&#39;s property, expand the <strong>Data Binding</strong> drop-down and click the <strong>Clear</strong> button.</p>
+<p><a name="propertygrid"></a></p>
+<h2 id="using-the-properties-panel">Using the Properties Panel</h2>
+<p>Select a control (e.g., on the <a href="../../interface-elements/design-surface.html">Design Surface</a>) and switch to the <a href="../../interface-elements/properties-panel.html">Properties Panel</a>. Expand the <strong>Data Bindings</strong> option and specify a data field for the required property (e.g., <strong>Text</strong>).</p>
+<p><img src="../../../../../images/img123709.png" alt="EUD_WpfReportDesigner_BindControls_5"></p>
+<p>To unbind a control&#39;s property, expand the corresponding drop-down and click the <strong>Clear</strong> button.</p>
+<p><a name="special"></a></p>
+<h2 id="special-capabilities">Special Capabilities</h2>
+<p>After a control is bound, you can apply formatting to its dynamic content (e.g., for it to be treated as currency, or date-time content). For details on this, refer to <a href="../shaping-data/formatting-data.html">Formatting Data</a>.</p>
+<p>It is possible to force a control to display a result of a summary function calculated across the data field to which it is bound. For more information, see <a href="../shaping-data/calculating-summaries.html">Calculating Summaries</a>.</p>
+<p>Another noteworthy option is to combine both static and dynamic content within the same control (e.g., to append some text prefix or postfix to a value obtained from a database), or even bind a control to multiple data fields at one time. This is detailed in <a href="using-mail-merge.html">Using Mail Merge</a>.</p>
+<p>If you are required to perform pre-calculations over the data field to which a control is bound, you can do so by creating a <em>calculated field</em>, and binding the control to it. This is detailed at <a href="calculated-fields.html">Calculated Fields</a>.</p>
+<p>In turn, a calculated field may contain both dynamic and static <em>parameters</em>, which can be requested each time a report is being previewed. For more information, refer to <a href="report-parameters.html">Report Parameters</a>.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/master/interface-elements-for-desktop/articles/report-designer/report-designer-for-wpf/creating-reports/providing-data/binding-report-controls-to-data.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2017 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../../../styles/main.js"></script>
+  </body>
+</html>

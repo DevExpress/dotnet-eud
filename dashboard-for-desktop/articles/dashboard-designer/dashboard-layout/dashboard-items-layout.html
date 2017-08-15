@@ -1,0 +1,189 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Dashboard Items Layout | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Dashboard Items Layout | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.20.0.0">
+    
+    <link rel="shortcut icon" href="../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../toc.html">
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../index.html">
+                <img id="logo" class="svg" src="../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="dashboard-items-layout">Dashboard Items Layout</h1>
+
+<p>The <strong>Dashboard Designer</strong> provides the capability to arrange and resize dashboard items and <a href="../designing-dashboard-items/dashboard-item-group.html">groups</a> in various ways, using simple drag-and-drop operations.</p>
+<p><img src="../../../images/img20477.png" alt="Layout_ItemsLayoutMain"></p>
+<ul>
+<li><a href="#layout-concepts">Layout Concepts</a></li>
+<li><a href="#item-resizing">Item Resizing</a></li>
+<li><a href="#item-positioning">Item Positioning</a></li>
+</ul>
+<h2 id="a-namelayout-conceptslayout-concepts"><a name="layout-concepts"></a>Layout Concepts</h2>
+<p>The dashboard arranges dashboard items and <a href="../designing-dashboard-items/dashboard-item-group.html">groups</a> using <em>layout items</em> and <em>layout groups</em>. They are special containers that are used to present a dashboard layout as a hierarchical structure.</p>
+<ul>
+<li>A layout item is used as a container that displays an individual dashboard item.</li>
+<li>A layout group is used as a container that is used to arrange layout items (or other layout groups) either horizontally or vertically. At the same time, layout groups are used as containers that display <a href="../designing-dashboard-items/dashboard-item-group.html">dashboard item groups</a>.</li>
+</ul>
+<p>Thus, a dashboard layout is hierarchically arranged from the root layout group to bottommost layout items, which display individual dashboard items.</p>
+<p><img src="../../../images/img25963.png" alt="DashboardLayoutHierarchy"></p>
+<h2 id="a-nameitem-resizingitem-resizing"><a name="item-resizing"></a>Item Resizing</h2>
+<p>You can resize individual items/groups of items by dragging their edges.</p>
+<p><img src="../../../images/img20595.png" alt="Layout_ResizingItem"></p>
+<p>By default, a 2x2 layout group of dashboard items is horizontally oriented and contains two child layout groups. This arranges dashboard items in two &#39;columns&#39; and allows you to set a different height for items in different columns. You can switch the orientation of the 2x2 group to <strong>Vertical</strong> using the indicator at the group intersection.</p>
+<p><img src="../../../images/img24753.png" alt="ItemsResizing_Crosshair"></p>
+<p>This allows you to specify different widths for dashboard items in different &#39;rows&#39;. The table below lists and describes different modes.</p>
+<table>
+<thead>
+<tr>
+<th>Indicator</th>
+<th>Result</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="../../../images/img24756.png" alt="VertIndicator_Layout"></td>
+<td><img src="../../../images/img25985.png" alt="Crosshair_VerticalResizing"></td>
+<td>Orients the layout group horizontally and allows you to change the height of individual items and the width of &#39;columns&#39;.</td>
+</tr>
+<tr>
+<td><img src="../../../images/img24755.png" alt="HorzIndicator_Layout"></td>
+<td><img src="../../../images/img25984.png" alt="Crosshair_HorizontalResizing"></td>
+<td>Orients the layout group vertically and allows you to change the width of individual items and the height of &#39;rows&#39;.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="a-nameitem-positioningitem-positioning"><a name="item-positioning"></a>Item Positioning</h2>
+<p>You can change the position of a dashboard item by using drag-and-drop and one of the following approaches.</p>
+<ul>
+<li>If the <a href="dashboard-item-caption.html">caption</a> of the dashboard item is visible, click it and hold down the left mouse button while dragging the item.</li>
+<li>If the caption of the dashboard item is not visible, click the <img src="../../../images/img20487.png" alt="Layout_DragAndDropIcon"> icon in the top left corner, and hold down the left mouse button while dragging the item.</li>
+</ul>
+<p>Depending on the required dashboard item position, a new layout group is created (if required) to maintain the arrangement of items. Thus, the dashboard item can be inserted to the desired area of a new or existing dashboard layout group.</p>
+<p>The following table illustrates how a dashboard item is dragged.</p>
+<table>
+<thead>
+<tr>
+<th>Action</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="../../../images/img117901.png" alt="DashboardDesigner_DraggingItem_1"></td>
+<td>Select the required dashboard item.</td>
+</tr>
+<tr>
+<td><img src="../../../images/img117902.png" alt="DashboardDesigner_DraggingItem_2"></td>
+<td>Drag the dashboard item to the expected area. The <em>drag indicator</em> ( <img src="../../../images/img117906.png" alt="DashboardDesigner_DragIndicator"> ) will show possible positions for the dashboard item.</td>
+</tr>
+<tr>
+<td><img src="../../../images/img117903.png" alt="DashboardDesigner_DraggingItem_3"></td>
+<td>Move the mouse cursor to the required position. The <em>drop indicator</em> ( <img src="../../../images/img117907.png" alt="DashboardDesigner_DropIndicator"> ) highlights the hovered position.</td>
+</tr>
+<tr>
+<td><img src="../../../images/img117904.png" alt="DashboardDesigner_DraggingItem_4"></td>
+<td>Then, the <em>drop indicator</em> sequentially displays areas that can be occupied by the dashboard item. Release the left mouse button when the drop indicator displays the required area.</td>
+</tr>
+<tr>
+<td><img src="../../../images/img117905.png" alt="DashboardDesigner_DraggingItem_5"></td>
+<td>The dashboard item is moved to a new position.</td>
+</tr>
+</tbody>
+</table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/master/dashboard-for-desktop/articles/dashboard-designer/dashboard-layout/dashboard-items-layout.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2017 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../styles/main.js"></script>
+  </body>
+</html>

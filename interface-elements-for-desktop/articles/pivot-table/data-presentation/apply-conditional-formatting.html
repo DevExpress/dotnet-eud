@@ -1,0 +1,172 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Apply Conditional Formatting | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Apply Conditional Formatting | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.20.0.0">
+    
+    <link rel="shortcut icon" href="../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../toc.html">
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../index.html">
+                <img id="logo" class="svg" src="../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="apply-conditional-formatting">Apply Conditional Formatting</h1>
+
+<p>You can change the appearance of individual cells based on specific conditions using <strong>Format Rules</strong> context menu. This feature helps to highlight important information, identify trends and exceptions, and compare data.</p>
+<p>To invoke the menu, do the following.</p>
+<ul>
+<li>Right-click the data cell corresponding to the intersection of the required data, row and column field.</li>
+<li>Select the required rule from the list.</li>
+</ul>
+<p><img src="../../../images/img25785.png" alt="WinForms Pivot Format Rules Popup Menu"></p>
+<p>Available format rules are displayed when expanding the <strong>Format Rules</strong> menu.</p>
+<h2 id="highlighting-cells-that-meet-a-specific-condition">Highlighting Cells that Meet a Specific Condition</h2>
+<p>This rule formats cells if values matches one of the predefined conditions, custom condition or contain the specified text.</p>
+<p>To apply this format, do the following:</p>
+<ul>
+<li><p>Choose the <strong>Highlight Cell Rules</strong> menu item and select the rule type.</p>
+<p>  <img src="../../../images/img26292.png" alt="EU_FormatRulesHighlightingCells"></p>
+</li>
+<li><p>According to the selected rule type, an appropriate dialog window is invoked.</p>
+<p>  <img src="../../../images/img26317.png" alt="EU-HighlightingCellsDialogBox"></p>
+<p>  Specify the rule value(s), choose a format style in the dropdown list, and click the OK button. To apply formatting to all data cells instead of an intersection, clear the <strong>Apply only to specific level</strong> check box.</p>
+</li>
+</ul>
+<h2 id="highlighting-top-or-bottom-cell-values">Highlighting Top or Bottom Cell Values</h2>
+<p>This rule formats cells that contain the highest or lowest values, and values that are above or below the average of the field intersection data cells value.</p>
+<p>To apply this format, do the following:</p>
+<ul>
+<li><p>Choose the <strong>Top/Bottom Rules</strong> menu item and select the rule type.</p>
+<p>  <img src="../../../images/img26293.png" alt="EU_FormatRulesTopBottom"></p>
+</li>
+<li><p>According to the selected rule type, an appropriate dialog window is invoked.</p>
+<p>  <img src="../../../images/img26318.png" alt="EU-TopBottomDialogBox"></p>
+<p>  Specify the rule value if it is necessary, choose a format style in the dropdown list, and click the OK button.</p>
+</li>
+</ul>
+<h2 id="highlighting-cells-using-data-bars">Highlighting Cells Using Data Bars</h2>
+<p>A data bar fills a cell according to the ratio of the cell&#39;s value to the highest and smallest field intersection data cells values. A longer bar corresponds to a higher value, and a shorter bar, to a lower value.</p>
+<p>To apply this format, choose the <strong>Data Bars</strong> menu item and select the bar style format.</p>
+<p><img src="../../../images/img26291.png" alt="EU_FormatRulesDataBars"></p>
+<p>Solid bars and bars with gradient fills are available in various colors.</p>
+<h2 id="applying-color-scales">Applying Color Scales</h2>
+<p>This format shows data distribution and variation using color scales. A cell is filled with a background color that is calculated according to the ratio of the cell&#39;s value to the highest and smallest field intersection data cells values.</p>
+<p>To apply this format, choose the <strong>Color Scales</strong> menu item and select one of the predefined two or three-color scales.</p>
+<p><img src="../../../images/img26290.png" alt="EU_FormatRulesColorScales"></p>
+<h2 id="highlighting-cells-using-predefined-icons">Highlighting Cells Using Predefined Icons</h2>
+<p>Icon sets allow you to classify data cells values into three, four or five ranges separated by threshold values, and display a specific icon in a cell according to the range to which this cell value belongs. In the Positive/Negative group, the available icon sets divide column values into three ranges: positive values, negative values and values equal to zero.</p>
+<p>To apply this format, choose the <strong>Icon Sets</strong> menu item and select one of the predefined icon sets.</p>
+<p><img src="../../../images/img26294.png" alt="EU_FormatRulesIconSets"></p>
+<h2 id="a-namemanagerconditional-formatting-rules-manager"><a name="manager"></a>Conditional Formatting Rules Manager</h2>
+<p>You can create, sort and modify the created rules using the <strong>Conditional Formatting Rules Manager</strong>. To invoke this manager, select the <strong>Manage Rules...</strong> item from the Format Rules context menu.</p>
+<p><img src="../../../images/img118790.png" alt="WinForms PivotFormat Rules Manager"></p>
+<ul>
+<li>To <strong>create</strong> a new rule, click the <strong>New Rule...</strong> button, select a rule type and specify its parameters. Depending on rule type, you can set maximum and minimum values, specify format, colors or icon style, etc.</li>
+<li>To <strong>edit</strong> the existing rule, click the <strong>Edit Rule...</strong> button and change the rule parameters. Besides that, you can see the rule&#39;s format preview and specify row, measure and column in the list of rules in the main window.</li>
+<li>To <strong>delete</strong> the rule, select the rule and click the <strong>Delete Rule</strong> button.</li>
+<li>To <strong>reorder</strong> rules, select the rule and click <strong>Up</strong> or <strong>Down</strong> button.</li>
+</ul>
+<h2 id="deleting-rules">Deleting Rules</h2>
+<p>If you have already applied one or more rules to data cells, the additional <strong>Clear Rules</strong> item is displayed in the <strong>Conditional Formatting</strong> menu.</p>
+<p><img src="../../../images/img26289.png" alt="EU_FormatRulesClearRules"></p>
+<p>You can select one of the following items.</p>
+<ul>
+<li>Click the <strong>Clear Rules from This Intersection</strong> menu item to delete conditional formatting rules from the target fields intersection.</li>
+<li>Click the <strong>Clear Rules from This Measure</strong> menu item to delete conditional formatting rules from the target data field.</li>
+<li>Click the <strong>Clear Rules from All Measures</strong> menu item to delete formatting rules from all data cells.</li>
+</ul>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/master/interface-elements-for-desktop/articles/pivot-table/data-presentation/apply-conditional-formatting.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2017 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../styles/main.js"></script>
+  </body>
+</html>

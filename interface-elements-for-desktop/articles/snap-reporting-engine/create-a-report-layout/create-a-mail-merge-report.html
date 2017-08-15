@@ -1,0 +1,138 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Create a Mail-Merge Report | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Create a Mail-Merge Report | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.20.0.0">
+    
+    <link rel="shortcut icon" href="../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../toc.html">
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../index.html">
+                <img id="logo" class="svg" src="../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="create-a-mail-merge-report">Create a Mail-Merge Report</h1>
+
+<p>This tutorial illustrates the steps required to create and publish a mail merge report with <strong>Snap</strong>.</p>
+<p>The tutorial contains following sections.</p>
+<ul>
+<li><a href="#adddynamiccontent">Add Dynamic Content</a></li>
+<li><a href="#result">Preview and Publish the Document</a></li>
+</ul>
+<h2 id="a-nameadddynamiccontentadd-dynamic-content"><a name="adddynamiccontent"></a>Add Dynamic Content</h2>
+<p>To create a Snap report using a document template, do the following.</p>
+<ol>
+<li>Add a new Snap document and <a href="../connect-to-data/create-a-master-detail-data-source.html">provide it with a master-detail data connection</a>.</li>
+<li><p>Next, specify which data source will be used for mail merge. To do this, click the <strong>Data Source</strong> button on the <a href="../graphical-user-interface/main-toolbar/data-tools-mail-merge.html">Data Tools: Mail Merge</a> tab and select the required data source in the invoked drop-down list.</p>
+<p> <img src="../../../images/img22823.png" alt="snap-getting-started-mail-merge02"></p>
+<p> Alternatively, right-click the required data source in the <a href="../graphical-user-interface/snap-application-elements/data-explorer.html">Data Explorer</a> and select <strong>Use For Mail Merge</strong> in the invoked drop-down menu.</p>
+<p> <img src="../../../images/img22824.png" alt="snap-getting-started-mail-merge03"></p>
+</li>
+<li><p>To insert data bound fields into the document, drag-and-drop data fields from the <a href="../graphical-user-interface/snap-application-elements/data-explorer.html">Data Explorer</a> onto the  <a href="../graphical-user-interface/snap-application-elements/design-surface.html">Design Surface</a>.</p>
+<p> <img src="../../../images/img22825.png" alt="snap-getting-started-mail-merge04"></p>
+<p> Activate the <strong>Highlight Fields</strong> option from the <a href="../graphical-user-interface/main-toolbar/general-tools-view.html">View</a> tab of the main toolbar to highlight all mail merge fields in a document. This allows you to easily distinguish between dynamic and static content.</p>
+<p> <img src="../../../images/img22826.png" alt="snap-getting-started-mail-merge05"></p>
+</li>
+<li><p>To insert a detail report section, drag-and-drop fields from a subordinate node of the data source. Fields of a nested level of a mail-merge data source are inserted into a template as columns of a table.</p>
+<p> <img src="../../../images/img22827.png" alt="snap-getting-started-mail-merge06"></p>
+</li>
+</ol>
+<h2 id="a-nameresultpreview-and-publish-the-document"><a name="result"></a>Preview and Publish the Document</h2>
+<p>The Snap mail merge document is now ready. To view the result, click the <strong>Finish &amp; Merge</strong> button in the <strong>Mail Merge</strong> tab, and select <strong>Print Preview...</strong> in the invoked  drop-down menu. In the invoked <strong>Export Range</strong> dialog, select <strong>All records</strong> and click <strong>OK</strong>.</p>
+<p><img src="../../../images/img22411.png" alt="snap-mail-merge-print-preview"></p>
+<p>The following image illustrates a print preview for the final document.</p>
+<p><img src="../../../images/img22828.png" alt="snap-getting-started-mail-merge07"></p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/master/interface-elements-for-desktop/articles/snap-reporting-engine/create-a-report-layout/create-a-mail-merge-report.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2017 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../styles/main.js"></script>
+  </body>
+</html>

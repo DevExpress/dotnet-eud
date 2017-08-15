@@ -1,0 +1,133 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Add or Modify Static Information in Your Report | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Add or Modify Static Information in Your Report | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.20.0.0">
+    
+    <link rel="shortcut icon" href="../../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../../toc.html">
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../../index.html">
+                <img id="logo" class="svg" src="../../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="add-or-modify-static-information-in-your-report">Add or Modify Static Information in Your Report</h1>
+
+<p>In a report, <em>static</em> and <em>dynamic</em> information is displayed using appropriate <a href="../report-designer-reference/report-controls.html">controls</a>.</p>
+<p><strong>Dynamic information</strong> changes through a report, such as <a href="displaying-values-from-a-database-%28binding-report-elements-to-data%29.html">values from a database</a> (which comprise the main report data) or <a href="add-page-numbers-and-system-information-to-a-report.html">service information</a> (such as <a href="add-page-numbers-and-system-information-to-a-report.html">current user name or page numbers</a>). Approaches to embed dynamic information to your report are detailed in the following document: <a href="displaying-values-from-a-database-%28binding-report-elements-to-data%29.html">Displaying Values from a Database (Binding Report Elements to Data)</a>.</p>
+<p><strong>Static information</strong> is text or images that aren&#39;t obtained from a data source, and therefore don&#39;t change through the report, and don&#39;t depend on the current computer. Static information can be printed only once (e.g. in a <a href="../report-designer-reference/report-bands/report-header-and-footer.html">Report Header</a>), can repeat on each page (e.g. in a <a href="../report-designer-reference/report-bands/page-header-and-footer.html">Page Header</a>) or can repeat with every entry in your report&#39;s data source (a data-bound label, which is placed onto the <a href="../report-designer-reference/report-bands/detail-band.html">Detail band</a>).</p>
+<p><img src="../../../../images/img8337.png" alt="RD_CreateReports_BindControl_4"></p>
+<p>Static information can be either <a href="#inplace">edited in-place</a>, or <a href="#loaded">loaded from an external file</a>.</p>
+<h2 id="a-nameinplacechange-static-information"><a name="inplace"></a>Change Static Information</h2>
+<p>Text elements (e.g. <a href="../report-designer-reference/report-controls/label.html">Labels</a> and <a href="../report-designer-reference/report-controls/rich-text.html">Rich Text Boxes</a>) allow in-place editing of their content. Simply double-click an element and activate the editor.</p>
+<p><img src="../../../../images/img9159.png" alt="ElementInplaceEditing"></p>
+<div class="NOTE"><h5>Note</h5><p>For in-place editing, you also can utilize the <a href="../report-designer-reference/report-designer-ui/formatting-toolbar.html">Formatting Toolbar</a>.</p>
+</div>
+<p>Another way to change a control&#39;s static information, is by clicking its <a href="../report-designer-reference/report-designer-ui/smart-tag.html">Smart Tag</a>. Then, the invoked actions list will contain a link (or, a button) allowing you to edit this control&#39;s content.</p>
+<p><img src="../../../../images/img11067.png" alt="RD_CreateReports_StaticReport"></p>
+<h2 id="a-nameloadedload-static-information-to-your-report"><a name="loaded"></a>Load Static Information to Your Report</h2>
+<p>To load static information to your report from an external file, drop an appropriate control from the <a href="../report-designer-reference/report-designer-ui/control-toolbox.html">Control Toolbox</a> (e.g. <a href="../report-designer-reference/report-controls/label.html">Label</a>, <a href="../report-designer-reference/report-controls/rich-text.html">Rich Text Box</a> or <a href="../report-designer-reference/report-controls/picture-box.html">Picture Box</a>). After it is properly <a href="change-the-layout-of-report-elements.html">positioned</a>, edit its content using the <a href="../report-designer-reference/report-designer-ui/smart-tag.html">Smart Tag</a>.</p>
+<p>For instance, the following instructions describe how to display a rich text (a formatted text with embedded images) into your report.</p>
+<ol>
+<li><p>Drop the <a href="../report-designer-reference/report-controls/rich-text.html">Rich Text</a> control from the <a href="../report-designer-reference/report-designer-ui/control-toolbox.html">Toolbox</a> onto the <a href="../report-designer-reference/report-bands/detail-band.html">Detail band</a>.</p>
+<p> <img src="../../../../images/img8340.png" alt="RD_CreateReports_StaticReport_0"></p>
+</li>
+<li><p>To load content from an external RTF or TXT file, select the created control and click its Smart Tag. In the invoked actions list, click the <strong>Load File...</strong> link.</p>
+<p> <img src="../../../../images/img8341.png" alt="RD_CreateReports_StaticReport_1"></p>
+<p> Then, in the invoked dialog, locate the required file, and click <strong>Open</strong>.</p>
+</li>
+</ol>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/master/interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-editing-basics/add-or-modify-static-information-in-your-report.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2017 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../../styles/main.js"></script>
+  </body>
+</html>

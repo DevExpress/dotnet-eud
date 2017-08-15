@@ -1,0 +1,184 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Create a Table of Contents | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Create a Table of Contents | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.20.0.0">
+    
+    <link rel="shortcut icon" href="../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../toc.html">
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../index.html">
+                <img id="logo" class="svg" src="../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="create-a-table-of-contents">Create a Table of Contents</h1>
+
+<h2 id="a-nameheadingstylescreate-a-toc-using-built-in-heading-styles"><a name="headingstyles"></a>Create a TOC Using Built-In Heading Styles</h2>
+<p>The easiest way to create a TOC is to use built-in heading styles.</p>
+<ul>
+<li><p><strong>Mark TOC Entries</strong></p>
+<ol>
+<li>Select the text (heading) that you want to appear in a TOC.</li>
+<li><p>Click the <strong>Add Text</strong> button on the <strong>References</strong> <a href="../text-editor-ui/ribbon-interface.html">tab</a> and then select the required level (for example, if you want the selected text to be displayed as the main heading in the TOC, click Level 1, etc.). If you change your mind and decide not to include the selected text in the TOC, click <strong>Do Not Show in Table of Contents</strong>.</p>
+<p> <img src="../../../images/img121389.png" alt="RTE_TOC_AddTextButton"></p>
+<p> After you have applied levels in a newly created document once or if you have opened a document with specified TOC entires by using heading styles, the corresponding heading styles (Heading 1, Heading 2, etc.) are automatically added to the list of available styles accessed via the <strong>Styles</strong> page group. In this case you can mark TOC entries by choosing these heading styles.</p>
+<p> <img src="../../../images/img121390.png" alt="RTETOCHeadingStyles"></p>
+</li>
+</ol>
+</li>
+<li><p><strong>Build a TOC</strong></p>
+<p>  After you have specified all required TOC entries, everything is ready to generate a TOC.</p>
+<ol>
+<li>Click within the document where you want to insert a TOC.</li>
+<li><p>In the <strong>Table of Contents</strong> group, click <strong>Table of Contents</strong>.</p>
+<p> <img src="../../../images/img121391.png" alt="RTE_TOC_CreateButton"></p>
+<p> This will automatically generate a TOC that consists of entries marked by using heading styles.</p>
+<p> If you click the <strong>Show All Field Codes</strong> button on the <strong>Mail Merge</strong> toolbar, you will see the TOC field code. By default, it is { TOC \h }. The \h switch inserts all TOC entires as hyperlinks.</p>
+</li>
+</ol>
+</li>
+</ul>
+<h2 id="a-nameoutlinelevelscreate-a-toc-using-paragraph-outline-levels"><a name="outlinelevels"></a>Create a TOC Using Paragraph Outline Levels</h2>
+<p>If you wish to include some text in a TOC without changing the text appearance, you can use outline levels. Unlike <a href="#headingstyles">heading styles</a>, outline levels applied to text do not affect text formatting characteristics.</p>
+<ul>
+<li><p><strong>Mark TOC Entries</strong></p>
+<ol>
+<li>Select the text that you wish to appear in the TOC.</li>
+<li>Right-click the selected text and choose <strong>Paragraph</strong> from the context menu. The <strong>Paragraph</strong> dialog will invoked.</li>
+<li><p>In this dialog, use the <strong>Outline level</strong> combo box to specify the outline level for the selected text. If you change your mind and decide not to include the selected text to the TOC, click <strong>Body Text</strong>.</p>
+<p> <img src="../../../images/img121392.png" alt="RTE_TOC_ParagraphDialog"></p>
+</li>
+</ol>
+</li>
+<li><p><strong>Build a TOC</strong></p>
+<p>  After you have specified all required TOC entries, everything is ready to generate a TOC.</p>
+<ol>
+<li>Click within the document where you want to insert a TOC.</li>
+<li>Press <strong>CTRL+F9</strong> to create an empty field wherein you can manually enter a field code to insert a TOC.</li>
+<li>In this field, write the <em>{ TOC \u }</em> field code. Use the <em>\u</em> switch to include text marked with outline levels in the TOC.</li>
+<li>To show the result TOC, place the cursor in the TOC field, right-click it and select the <strong>Update Field</strong> item from the context menu, or click the <strong>Update Table</strong> button on the <strong>References</strong> <a href="../text-editor-ui/ribbon-interface.html">tab</a>.</li>
+</ol>
+</li>
+</ul>
+<h2 id="create-a-toc-using-fields">Create a TOC Using Fields</h2>
+<p>Along with <a href="#headingstyles">built-in heading styles</a> and <a href="#outlinelevels">outline levels</a>, there is another way to label text to include it in a TOC - via TC fields. Sometimes it can be quicker and easier to add TC fields to mark TOC entries, rather than format the document using heading styles or outline levels. TC fields can be also helpful if you want to capture a portion of a long heading that should not be entirely included in the TOC and include only that portion in the TOC. In addition, if your document needs two or more TOCs showing different entries, you can mark entries for a particular TOC using TC fields with an identifier, which is specific for each TOC.</p>
+<ul>
+<li><p><strong>Mark TOC Entries</strong></p>
+<ol>
+<li>Click within a document where you want to add a TC field (for example, right below an abstract heading).</li>
+<li>Press <strong>CTRL+F9</strong> to create an empty field wherein you can manually enter a field code (TC in this case) and set required switches.</li>
+<li><p>Write the following.</p>
+<p> <em>{TC &quot;Entry Text&quot; \f A \l 1 }</em></p>
+<p> This will add the &quot;Entry Text&quot; first-level item (the <em>\l</em> switch sets the level of the TC entry) to the TOC with an <em>\f</em> switch and the <em>A</em> identifier. The <em>\f</em> switch of the TC field is used to include the TC field in the corresponding TOC. A TC field identifier (<em>A</em> in this case) must exactly match the text in the argument of the TOC field&#39;s \f switch. For example, the <em>{TOC \f A}</em> table of contents will be created from TC fields like <em>{TC &quot;Entry Text&quot; \f A}</em>.</p>
+<div class="NOTE"><h5>Note</h5><p>TC fields display no result in the document. To view field codes, click <strong>Show All Field Codes</strong> on the <strong>Mail Merge</strong> <a href="../text-editor-ui/ribbon-interface.html">tab</a>.</p>
+</div>
+<p> <img src="../../../images/img121393.png" alt="RTE_TOC_ShowAllFieldCodes"></p>
+</li>
+</ol>
+</li>
+<li><p><strong>Build a TOC</strong></p>
+<ol>
+<li>Click within the document where you want to insert a TOC.</li>
+<li>Press <strong>CTRL+F9</strong> to create an empty field wherein you can manually enter a field code to insert a TOC.</li>
+<li><p>Write the following:</p>
+<p> <em>{TOC \f A}</em></p>
+<p> The <em>\f</em> switch collects the TC field entries in the TOC. This switch&#39;s field-argument (<em>A</em> in this case) specifies which TC fields should be included in the TOC (TC fields with the same identifier - <em>A</em>).</p>
+</li>
+<li>To show the resulting TOC, place the cursor in the TOC field, right-click it and select the <strong>Update Field</strong> item from the context menu, or click the <strong>Update Table</strong> button on the <strong>References</strong> ribbon tab.</li>
+</ol>
+</li>
+</ul>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/master/interface-elements-for-desktop/articles/rich-text-editor/table-of-contents/create-a-table-of-contents.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2017 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../styles/main.js"></script>
+  </body>
+</html>

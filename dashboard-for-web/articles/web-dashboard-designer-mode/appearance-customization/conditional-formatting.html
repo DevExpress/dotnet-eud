@@ -1,0 +1,198 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Conditional Formatting | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Conditional Formatting | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.20.0.0">
+    
+    <link rel="shortcut icon" href="../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../toc.html">
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../index.html">
+                <img id="logo" class="svg" src="../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="conditional-formatting">Conditional Formatting</h1>
+
+<p>The Web Dashboard allows you to format dashboard item elements whose values meet a specified condition. This feature allows you to highlight specific elements using a predefined set of rules.</p>
+<p>To learn more about the specifics of using a conditional formatting feature for different dashboard items, see the following topics.</p>
+<ul>
+<li><a href="../designing-dashboard-items/grid/conditional-formatting.html">Conditional Formatting - Grid</a></li>
+<li><a href="../designing-dashboard-items/pivot/conditional-formatting.html">Conditional Formatting - Pivot</a></li>
+</ul>
+<p><img src="../../../images/img126130.png" alt="wdd-cf-main"></p>
+<p>Format rules used in conditional formatting can be divided into groups depending on their purpose and can be applied to measure or dimension values.</p>
+<p>Comparison rules used in conditional formatting can be divided into the following groups.</p>
+<ul>
+<li><strong>Value</strong> - Allows you to compare static values (such as Greater Than, Less Than, Between, etc.).</li>
+<li><strong>Top-Bottom</strong> - Highlights a specific number of topmost/bottommost values.</li>
+<li><strong>Average</strong> - Highlights values above the average value or below the average value.</li>
+<li><strong>A Date Occuring</strong> - Allows you to highlight date-time values that fall into a specified interval.</li>
+<li><strong>Expression</strong> - Allows you to use complex conditions to apply formatting. You can also pass dashboard parameters to expressions.</li>
+<li><strong>Icon and Color Ranges</strong> - Allows you to apply formatting by displaying specific icons for different ranges of values. You can select a predefined set of icons or use a specific icon for each range.</li>
+<li><strong>Color Ranges</strong> - Allows you to apply formatting using specific colors for different ranges of values. You can select a predefined set of colors or use custom appearance settings to highlight values within specified ranges.</li>
+<li><strong>Gradient Ranges</strong> - Allows you to apply formatting using gradient color scales.</li>
+<li><strong>Bar</strong> - Allows you to visualize numeric values using bars. You can also color bars corresponding to positive and negative values using different colors.</li>
+<li><strong>Bar Color Ranges</strong> - Allows you to visualize numeric values using bars whose colors are contained in the specified color set.</li>
+<li><strong>Bar Gradient Ranges</strong> - Allows you to visualize numeric values using bars whose colors are contained in the specified color gradient.</li>
+</ul>
+<p>You can create comparison rules for measures or dimensions. The table below lists format conditions that can be applied to different types of data items.</p>
+<ul>
+<li>Measure/numeric Dimension<ul>
+<li><strong>Value</strong></li>
+<li><strong>Top-Bottom</strong></li>
+<li><strong>Average</strong></li>
+<li><strong>Expression</strong></li>
+<li><strong>Icon Ranges</strong></li>
+<li><strong>Color Ranges</strong></li>
+<li><strong>Gradient Ranges</strong></li>
+<li><strong>Bar</strong></li>
+<li><strong>Bar Color Ranges</strong></li>
+<li><strong>Bar Gradient Ranges</strong></li>
+</ul>
+</li>
+<li>string Dimension<ul>
+<li><strong>Value</strong> with the condition type set to <em>Equal To</em>, <em>Not Equal To</em> or <em>Text that Contains</em></li>
+<li><strong>Expression</strong></li>
+</ul>
+</li>
+<li>date-time Dimension<ul>
+<li><strong>Value</strong></li>
+<li>A <strong>Date Occuring</strong> for dimensions with the continuous date-time group interval</li>
+<li><strong>Expression</strong></li>
+<li><strong>Icon and Color Ranges</strong></li>
+<li><strong>Color Ranges</strong></li>
+<li><strong>Gradient Ranges</strong></li>
+<li><strong>Bar</strong></li>
+<li><strong>Bar Color Ranges</strong></li>
+<li><strong>Bar Gradient Ranges</strong></li>
+</ul>
+</li>
+</ul>
+<h2 id="create-and-edit-a-format-rule">Create and Edit a Format Rule</h2>
+<p>To create a format rule, perform the following steps.</p>
+<ol>
+<li><p>Select the required measure/dimension by whose values a format condition will be calculated, open the <strong>Conditional Formating</strong> section of the data item menu and click &quot;+&quot; to add a new format rule.</p>
+<p> <img src="../../../images/img126022.png" alt="wdd-grid-cf-add-rule"></p>
+</li>
+<li><p>Specify the data item to which conditional formatting is applied using the <strong>Apply to</strong> combo box and select a condition type from the list.</p>
+<p> <img src="../../../images/img126024.png" alt="wdd-grid-cf-select-rule-type"></p>
+</li>
+<li><p>The format rule&#39;s menu is opened. This menu depends on the selected format condition and the type of the dashboard item. Here you can specify settings specific for the selected condition. For example, the <em>Value</em> format rule allows you to set a value that will be compared with dimension/measure values and specify a format rule style. The image below displays settings where values greater than 300M will be colored in pale green.</p>
+<p> <img src="../../../images/img126023.png" alt="wdd-grid-cf-value-menu"></p>
+<p> You can specify additional settings in the <strong>Miscellanous</strong> section of the format rule&#39;s menu. This section contains settings depending on the type of the dashboard item. For example, you can manually specify an intersection level for the Pivot or apply the current rule to a row in the Grid.</p>
+</li>
+<li><p>The format rule is now ready and will be applied to the dashboard item. </p>
+<p> <img src="../../../images/img126049.png" alt="wdd-grid-conditional-formatting-result"></p>
+</li>
+</ol>
+<p>To edit a format rule, open the <strong>Conditional Formatting</strong> section of the <a href="../ui-elements/data-item-menu.html">data item menu</a>, select the required format rule and click the <strong>Edit</strong> button (the <img src="../../../images/img126050.png" alt="wdd-icon-edit-collection-value-item"> icon). To delete the selected format rule, click the <strong>Delete</strong> button (the <img src="../../../images/img126104.png" alt="wdd-icon-delete-big"> icon).</p>
+<p><img src="../../../images/img126025.png" alt="wdd-grid-cf-edit-rule"></p>
+<p>You can see existing format rules for the entire dashboard item. To do this, open the dashboard item&#39;s <a href="../ui-elements/dashboard-item-menu.html">Options</a> menu and go to the <strong>Conditional Formatting</strong> section.</p>
+<p><img src="../../../images/img126046.png" alt="wdd-cf-all-rules"></p>
+<h2 id="appearance-settings">Appearance Settings</h2>
+<p>When creating a new format rule, you can select the required appearance settings in the <strong>Condition</strong> section of the format rule&#39;s menu. This settings applied according to the current format condition. All format conditions allow you to customize appearance settings in a similar manner.</p>
+<p>For example, the <em>Value</em> format condition allows you to specify appearance settings in the following way...</p>
+<ul>
+<li><p>The <strong>Appearance</strong> tab allows you to choose the predefined background color or font.</p>
+<p>  <img src="../../../images/img126044.png" alt="wdd-cf-appearance-gallery"></p>
+</li>
+<li><p>The <strong>Icons</strong> tab allows you to add the predefined icon.</p>
+<p>  <img src="../../../images/img126045.png" alt="wdd-cf-icons-gallery"></p>
+</li>
+</ul>
+<p>... while the different types of Range format rules allow you to customize predefined range colors and values.</p>
+<p><img src="../../../images/img126043.png" alt="wdd-cf-range-gallery"></p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/master/dashboard-for-web/articles/web-dashboard-designer-mode/appearance-customization/conditional-formatting.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2017 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../styles/main.js"></script>
+  </body>
+</html>

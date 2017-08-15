@@ -1,0 +1,132 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Controls Positioning | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Controls Positioning | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.20.0.0">
+    
+    <link rel="shortcut icon" href="../../../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../../../toc.html">
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../../../index.html">
+                <img id="logo" class="svg" src="../../../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="controls-positioning">Controls Positioning</h1>
+
+<p>This document describes how to easily construct professionally looking reports by precisely aligning their elements to each other. These are useful when creating new reports from scratch or when fixing cluttered report layouts with dozens of randomly scattered controls.</p>
+<p>To select an appropriate alignment mode for report elements, use a report&#39;s <strong>Snapping Mode</strong> property.</p>
+<p><img src="../../../../../images/img11118.png" alt="RD_SnapGrid_0"></p>
+<h2 id="snap-grid">Snap Grid</h2>
+<p>When a report is being edited in the Report Designer, it is lined up by the snap grid. This helps to establish the distance between report elements and align them to each other.</p>
+<p><img src="../../../../../images/img11119.png" alt="RD_SnapGrid_1"></p>
+<p>To quickly align a report control to the snap grid, right-click it and select <strong>Align To Grid</strong> in the context menu. Alternatively, use the <strong>Align to Grid</strong> toolbar button.</p>
+<p><img src="../../../../../images/img11120.png" alt="RD_SnapGrid_2"></p>
+<p>In the <strong>Snap to Grid</strong> mode, a report control that is being relocated using the mouse or the ARROW keys is automatically aligned with the nearest grid cell. When resizing the report control using the mouse or by pressing the SHIFT+ARROW keys, its size is discretely changed by one grid cell. You can temporarily ignore snapping to the grid when moving and resizing controls. For this, hold down the ALT key when using the mouse and the CTRL key when using the keyboard.</p>
+<p>You can select whether or not the snap grid should be drawn over a report surface by setting the <strong>Draw the Grid</strong> option in the <a href="../../report-designer-reference/report-designer-ui/property-grid.html">Property Grid</a>.</p>
+<p><img src="../../../../../images/img11123.png" alt="RD_SnapGrid_5"></p>
+<p>You also can adjust the <strong>Snap Grid Size</strong>, which is measured in the <a href="change-measurement-units-of-a-report.html">measurement units</a> set for your report.</p>
+<h2 id="snap-lines">Snap Lines</h2>
+<p>If the <strong>Snap Lines</strong> mode is selected, report elements are aligned using snap lines. These are special guide lines, which appear around the report control that is being moved or resized and indicate the distance to other report elements (controls and bands).</p>
+<p><img src="../../../../../images/img11122.png" alt="RD_SnapGrid_4"></p>
+<p>When you move a report control using the ARROW keys or resize it by pressing the SHIFT+ARROW keys, this control is aligned using snap lines to the nearest report element in that direction.</p>
+<p>To help maintain a uniform distance between elements, the snap lines maintain the inner paddings of report bands and the outer margins of report controls specified by the band&#39;s <strong>Snap Line Padding</strong> and control&#39;s <strong>Snap Line Margin</strong> properties, respectively.</p>
+<p><img src="../../../../../images/img11121.png" alt="RD_SnapGrid_3"></p>
+<p>To disable snapping using snap lines for controls being relocated or resized, additionally hold down the ALT key when using the mouse and the CTRL key when using the keyboard.</p>
+<h2 id="snap-lines-and-snap-grid">Snap Lines and Snap Grid</h2>
+<p>The <strong>Snap to Grid and Snap Lines</strong> mode enables snapping to both the snap grid and snap lines.</p>
+<h2 id="no-snapping">No Snapping</h2>
+<p>To disable snapping in your report, set the <strong>Snapping Mode</strong> property to <strong>None</strong>. In this case, report controls are moved and resized by one measurement unit defined by the <strong>ReportUnit</strong> property.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/master/interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/create-reports/basic-operations/controls-positioning.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2017 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../../../styles/main.js"></script>
+  </body>
+</html>

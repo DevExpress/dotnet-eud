@@ -1,0 +1,165 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Cross-Tab Report | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Cross-Tab Report | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.20.0.0">
+    
+    <link rel="shortcut icon" href="../../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../../toc.html">
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../../index.html">
+                <img id="logo" class="svg" src="../../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="cross-tab-report">Cross-Tab Report</h1>
+
+<p>This tutorial describes the steps needed to create a <em>cross-tab report</em> using the <a href="../report-elements/report-controls.html">Pivot Grid</a> control. This feature should not be confused with the <a href="master-detail-report.html">master-detail report</a> or <a href="table-report.html">table report</a>. Additionally, the document demonstrates how to visualize data displayed in the Pivot Grid by linking it with the <a href="../report-elements/report-controls.html">Chart</a> control.</p>
+<h2 id="create-a-cross-tab-report">Create a Cross-Tab Report</h2>
+<p>To create a cross-tab report, do the following.</p>
+<ol>
+<li><a href="../creating-reports/basic-operations/create-a-new-report.html">Create a new empty report</a>.</li>
+<li><p>Drop the <a href="../report-elements/report-controls.html">Pivot Grid</a> control from the <a href="../interface-elements/control-toolbox.html">Toolbox</a> onto the report&#39;s <a href="../report-elements/report-bands.html">Detail band</a>.</p>
+<p> <img src="../../../../images/img123579.png" alt="EUD_WpfReportDesigner_CrossTabReport_1"></p>
+</li>
+<li><p>To bind the Pivot Grid to a data source, right-click it and select <strong>Edit...</strong> in the context menu. In the invoked dialog, expand the <strong>Data Source</strong> drop-down and click the <strong>Add New</strong> button.</p>
+<p> <img src="../../../../images/img123580.png" alt="EUD_WpfReportDesigner_CrossTabReport_2"></p>
+</li>
+<li><p>The invoked <strong>Data Source Wizard</strong> will guide you through the process of assigning a data source to the grid. For detailed instructions on the Wizard&#39;s steps, refer to <a href="../creating-reports/providing-data/binding-a-report-to-data.html">Binding a Report to Data</a>, as this process is similar.</p>
+<p> After the data source is created, it is assigned to the pivot grid&#39;s <strong>Data Source</strong> property. Its <strong>Data Member</strong> property defines from which table or view of the data source the grid obtains its data.</p>
+<p> <img src="../../../../images/img123581.png" alt="EUD_WpfReportDesigner_CrossTabReport_3"></p>
+<div class="NOTE"><h5>Note</h5><p>Since you have placed a Pivot Grid in the Detail band, the report&#39;s <strong>Data Source</strong> property should not be set. Otherwise, the Pivot Grid will be repeated at the preview as many times as there are records in the data source.</p>
+<p><img src="../../../../images/img123582.png" alt="EUD_WpfReportDesigner_CrossTabReport_4"></p>
+</div>
+</li>
+<li><p>Once again, right-click the Pivot Grid and select <strong>Run Designer...</strong> in the invoked context menu.</p>
+<p> <img src="../../../../images/img123583.png" alt="EUD_WpfReportDesigner_CrossTabReport_5"></p>
+</li>
+<li><p>In the invoked <strong>PivotGrid Designer</strong>, click <strong>Retrieve Fields</strong>.</p>
+<p> <img src="../../../../images/img123584.png" alt="EUD_WpfReportDesigner_CrossTabReport_6"></p>
+</li>
+<li><p>Then, switch to the <strong>Layout</strong> section in the navigation bar on the left.</p>
+<p> Drag and drop the required fields to the <strong>Row Fields</strong>, <strong>Column Fields</strong> and <strong>Data Items</strong> areas.</p>
+<p> <img src="../../../../images/img123585.png" alt="EUD_WpfReportDesigner_CrossTabReport_7"></p>
+<p> Click <strong>Apply</strong> and close the editor.</p>
+</li>
+<li><p>In the last step, you can set your report&#39;s <strong>Vertical Content Splitting</strong> option to <strong>Smart</strong>. This will split the grid&#39;s columns precisely by their borders in the Print Preview.</p>
+<p> <img src="../../../../images/img123587.png" alt="EUD_WpfReportDesigner_CrossTabReport_8"></p>
+</li>
+</ol>
+<p>The cross-tab report is now ready. Switch to the <a href="../document-preview.html">Print Preview</a> tab and view the result.</p>
+<p><img src="../../../../images/img123586.png" alt="EUD_WpfReportDesigner_CrossTabReport_Result"></p>
+<h2 id="integrate-with-a-chart-control">Integrate with a Chart Control</h2>
+<p>The next step is to visualize data displayed in the Pivot Grid using a Chart control. To accomplish this, perform the following steps.</p>
+<ol>
+<li>Drop the <a href="../report-elements/report-controls.html">Chart</a> control from the <a href="../interface-elements/control-toolbox.html">Toolbox</a> onto the report&#39;s <a href="../report-elements/report-bands.html">Detail band</a> below the Pivot Grid. After you drop the Chart, the <strong>Chart Designer</strong> is automatically invoked.</li>
+<li><p>In the Designer, remove an already existing series by clicking the corresponding button.</p>
+<p> <img src="../../../../images/img126211.png" alt="chart-designer-remove-default-series"></p>
+</li>
+<li><p>Then, go to the <strong>Data</strong> tab at the right of the Designer&#39;s window and choose the Pivot Grid in the dedicated drop-down list.</p>
+<p> <img src="../../../../images/img126215.png" alt="chart-designer-data-tab-select-pivot-grid"></p>
+</li>
+<li><p>After this, all the Chart&#39;s binding and layout settings are automatically adjusted. Make sure that <strong>Series</strong>, <strong>Argument</strong> and <strong>Value</strong> cells have been automatically filled with the corresponding fields. Note, values for these fields are generated based on the Pivot Grid&#39;s columns, rows and data items, respectively.</p>
+<p> <img src="../../../../images/img126216.png" alt="chart-designer-pivot-grid-source-auto-created-series"></p>
+</li>
+<li><p>To avoid the overlapping of series labels, select the auto-generated series in the chart elements tree, and in the <strong>Options</strong> tab, disable the <strong>Labels Visibility</strong> check box.</p>
+<p> <img src="../../../../images/img126217.png" alt="chart-designer-auto-created-series-labels-visibility"></p>
+</li>
+<li>If required, you can customize various settings that determine the common behavior for a bridged Chart and Pivot Grid pair. To do this, use the Chart&#39;s <strong>Pivot Grid Data Source Options</strong> property. This property, in turn, is linked to the <strong>Options Chart Data Source</strong> property of the associated Pivot Grid.</li>
+<li><p>Finally, reset the report&#39;s <strong>Vertical Content Splitting</strong> option and switch to the <a href="../../report-designer-for-winforms/report-designer-reference/report-designer-ui/preview-tab.html">Preview Tab</a> to see the result.</p>
+<p> <img src="../../../../images/img125324.png" alt="EUD_WpfReportDesigner_PivotCharting_Result"></p>
+</li>
+</ol>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/master/interface-elements-for-desktop/articles/report-designer/report-designer-for-wpf/report-types/cross-tab-report.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2017 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../../styles/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,145 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Bind a Report to a Database | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Bind a Report to a Database | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.20.0.0">
+    
+    <link rel="shortcut icon" href="../../../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../../../toc.html">
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../../../index.html">
+                <img id="logo" class="svg" src="../../../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="bind-a-report-to-a-database">Bind a Report to a Database</h1>
+
+<p>This document describes how to bind a report to a hierarchical data source and specify a master-detail relationship between data source queries.</p>
+<p>To accomplish this task, do the following.</p>
+<ol>
+<li><a href="../basic-operations/create-a-new-report.html">Create a new report</a>.</li>
+<li><p>Click the report&#39;s <a href="../../report-designer-reference/report-designer-ui/smart-tag.html">Smart Tag</a>. In the invoked actions list, expand the <strong>Data Source</strong> drop-down list and click <strong>Add New DataSource</strong>.</p>
+<p> <img src="../../../../../images/img8330.png" alt="RD_CreateReports_BindReport_0"></p>
+</li>
+<li><p>The first page of the invoked <strong>Data Source Wizard</strong> allows you to specify the data source type. Select <strong>Database</strong> and click <strong>Next</strong> to proceed.</p>
+<p> <img src="../../../../../images/img8319.png" alt="RD_ReportWizard_Standard_1"></p>
+</li>
+<li><p>On the next page, specify whether you want to use an existing data connection or create a new data connection from scratch. Select the first option to create a new connection and click <strong>Next</strong>.</p>
+<p> <img src="../../../../../images/img8320.png" alt="RD_ReportWizard_Standard_2"></p>
+</li>
+<li><p>On the next wizard page, define a custom connection string or select one of the supported data source types. Depending on the data provider selected, it may be necessary to specify additional connection options (such as authentication type and database name).</p>
+<p> <img src="../../../../../images/img23763.png" alt="RD_ReportWizard_AddConnectionString"></p>
+<p> Click <strong>Next</strong> to proceed to the next wizard page.</p>
+</li>
+<li><p>If server authentication is required for the selected database type, the next page will prompt you to specify whether or not you want to save the user credentials along with the connection string.</p>
+<p> Select the required option and click <strong>Next</strong>.</p>
+<p> <img src="../../../../../images/img23765.png" alt="RD_ReportWizard_SaveConnectionString"></p>
+</li>
+<li><p>On the next page, you can choose which tables, views and/or stored procedures to add to the report.</p>
+<p> To create a master-detail report, select two or more tables and click <strong>Manage Relations</strong>.</p>
+<p> <img src="../../../../../images/img126863.png" alt="eud-win-report-wizard-creat-query-page-manage-relations"></p>
+<p> In the invoked editor, connect the required key fields (columns) using drag and drop.</p>
+<p> <img src="../../../../../images/img126864.png" alt="eud-win-reports-master-detail-relation-editor"></p>
+<p> Click <strong>OK</strong> to close the editor.</p>
+<div class="NOTE"><h5>Note</h5><p>When you are required to shape data at the level of a data source, you can create <a href="../../report-wizard/data-bound-report/connect-to-a-database/create-a-query-or-select-a-stored-procedure.html">custom queries</a> by expanding the <strong>Queries</strong> category and clicking the <img src="../../../../../images/img125532.png" alt="report-wizard-multi-query-page-icon-add"> button.</p>
+<p>This will invoke the <a href="../../report-designer-reference/report-designer-ui/query-builder.html">Query Builder</a> where you can create complex queries by joining multiple tables, filtering, sorting and grouping their data, as well as calculating various aggregate functions.</p>
+<p>Although it is also possible to join different tables within a single query, creating hierarchical data sources is preferred in most cases to provide better performance (in general, <a href="../report-types/master-detail-report-%28detail-report-bands%29.html">master-detail reports</a> are generated faster than similar-looking reports created by grouping &quot;flat&quot; data sources).</p>
+</div>
+<p> Click <strong>Finish</strong> to complete the <strong>Data Source Wizard</strong>. If the selected queries or stored procedures contain any <a href="../../report-editing-basics/use-query-parameters.html">parameters</a>, you can go to the <a href="../../report-wizard/data-bound-report/connect-to-a-database/configure-query-parameters.html">next wizard page</a> and define their values.</p>
+</li>
+</ol>
+<p>The newly created SQL data source will be displayed in the <strong>Components</strong> node of the <a href="../../report-designer-reference/report-designer-ui/report-explorer.html">Report Explorer</a>. Additionally, the hierarchy of the data source will be reflected by the <a href="../../report-designer-reference/report-designer-ui/field-list.html">Field List</a>. In both panels, you can right-click the data source to access its settings.</p>
+<p><img src="../../../../../images/img126866.png" alt="eud-win-report-explorer-field-list-master-detail-result"></p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/master/interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/create-reports/binding-a-report-to-data/bind-a-report-to-a-database.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2017 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../../../styles/main.js"></script>
+  </body>
+</html>

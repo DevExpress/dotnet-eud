@@ -1,0 +1,277 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Supported Data Sources | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Supported Data Sources | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.20.0.0">
+    
+    <link rel="shortcut icon" href="../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../toc.html">
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../index.html">
+                <img id="logo" class="svg" src="../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="supported-data-sources">Supported Data Sources</h1>
+
+<p>The Dashboard Designer allows you to establish a connection to various data sources such as SQL databases, Microsoft Excel workbooks, XML/CSV data files or OLAP cubes.</p>
+<p>The following data source types are supported.</p>
+<ul>
+<li><a href="#sql-data-source">SQL Data Source</a></li>
+<li><a href="#olap-data-source">OLAP Data Source</a></li>
+<li><a href="#microsoft-excel-workbooks/csv-files">Microsoft Excel Workbooks/CSV Files</a></li>
+</ul>
+<h2 id="a-namesql-data-sourcesql-data-source"><a name="sql-data-source"></a>SQL Data Source</h2>
+<p>To connect to various SQL databases, the Dashboard Designer requires corresponding providers to be installed on the client machine. The table below lists the supported data sources and the required data providers.</p>
+<table>
+<thead>
+<tr>
+<th>SQL Data Source</th>
+<th>Supported Versions</th>
+<th>Provider</th>
+<th>Database Provider Assembly</th>
+<th>Download link</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Microsoft SQL Server</td>
+<td>2005, 2008, 2008R2, 2012, 2014, 2016, 2005 Express Edition, 2008 R2 Express, 2012 Express, 2014 Express, 2016 Express, Azure SQL Database</td>
+<td>.NET Framework Data Provider for SQL Server</td>
+<td>System.Data.dll</td>
+<td>Included in .NET Framework</td>
+</tr>
+<tr>
+<td>Microsoft Access</td>
+<td>2000 or higher</td>
+<td>Microsoft Jet OLE DB Provider / Microsoft Access Database Engine (ACE)</td>
+<td>System.Data.dll</td>
+<td>Microsoft Access 2000-2003 - <a href="https://support.microsoft.com/en-us/kb/239114">Microsoft Jet 4.0 Database Engine</a> / Microsoft Access 2007 and later - <a href="https://www.microsoft.com/en-us/download/details.aspx?id=13255">Access Database Engine</a></td>
+</tr>
+<tr>
+<td>Microsoft SQL Server CE</td>
+<td>3.5, 4.0</td>
+<td>.NET Framework Data Provider for SQL Server Compact</td>
+<td>System.Data.SqlServerCe.dll</td>
+<td>Included in .NET Framework</td>
+</tr>
+<tr>
+<td>Oracle Database</td>
+<td>9i or higher</td>
+<td>Oracle Data Provider for .NET / .NET Framework Data Provider for Oracle</td>
+<td>Oracle.DataAccess.dll, Oracle.ManagedDataAccess.dll, System.Data.OracleClient.dll</td>
+<td><a href="http://www.oracle.com/technetwork/topics/dotnet/index-085163.html">Download link</a> (Included in .NET Framework)</td>
+</tr>
+<tr>
+<td>Amazon Redshift</td>
+<td>n/a</td>
+<td>.NET data provider for PostgreSQL</td>
+<td>Npgsql.dll</td>
+<td><a href="http://www.npgsql.org/">Download link</a></td>
+</tr>
+<tr>
+<td>Google BigQuery</td>
+<td>n/a</td>
+<td>DevExpress.DataAccess.BigQuery ADO.NET provider</td>
+<td>DevExpress.DataAccess.BigQuery.dll</td>
+<td><a href="https://www.nuget.org/packages/DevExpress.DataAccess.BigQuery">Download link</a></td>
+</tr>
+<tr>
+<td>Teradata</td>
+<td>13.0 or higher</td>
+<td>.NET Data Provider for Teradata</td>
+<td>Teradata.Client.Provider.dll</td>
+<td><a href="https://downloads.teradata.com/download/connectivity/net-data-provider-for-teradata">Download link</a></td>
+</tr>
+<tr>
+<td>SAP Sybase Advantage</td>
+<td>Advantage Database Server 9.1 or higher</td>
+<td>Advantage .NET Data Provider</td>
+<td>Advantage.Data.Provider.dll</td>
+<td><a href="http://devzone.advantagedatabase.com/dz/content.aspx?Key=20&amp;Release=19&amp;Product=4&amp;Platform=11">Download link</a></td>
+</tr>
+<tr>
+<td>SAP Sybase ASE</td>
+<td>Sybase Adaptive Server 12.0 or higher</td>
+<td>SAP Sybase ASE Database Client</td>
+<td>Sybase.Data.AseClient.dll</td>
+<td><a href="http://scn.sap.com/community/developer-center/oltp-db">Download link</a></td>
+</tr>
+<tr>
+<td>SAP SQL Anywhere</td>
+<td>11 or higher</td>
+<td>SAP SQL Anywhere Database Client</td>
+<td>iAnywhere.Data.SQLAnywhere.dll</td>
+<td><a href="http://scn.sap.com/docs/DOC-35857?d96a349c52fc4f68eea46a47ccb3d360">Download link</a></td>
+</tr>
+<tr>
+<td>IBM DB2</td>
+<td>9.5 or higher</td>
+<td>ADO.Net client from IBM</td>
+<td>IBM.Data.DB2.dll</td>
+<td><a href="https://www-01.ibm.com/support/docview.wss?rs=4020&amp;uid=swg21385217">Download link</a></td>
+</tr>
+<tr>
+<td>Firebird</td>
+<td>1.5 or higher, Dialect 3</td>
+<td>Firebird ADO.NET Data Provider</td>
+<td>FirebirdSql.Data.Firebird.dll, FirebirdSql.Data.FirebirdClient.dll</td>
+<td><a href="http://firebirdsql.org/en/net-provider/">Download link</a></td>
+</tr>
+<tr>
+<td>MySQL</td>
+<td>4.1 or higher</td>
+<td>ADO.NET driver for MySQL</td>
+<td>MySql.Data.dll</td>
+<td><a href="http://dev.mysql.com/downloads/connector/net/">Download link</a></td>
+</tr>
+<tr>
+<td>Pervasive PSQL</td>
+<td>9.x or higher</td>
+<td>PSQL ADO.NET Data Provider</td>
+<td>Pervasive.Data.SqlClient.dll</td>
+<td><a href="http://www.pervasive.com/database/Home/Products/psqlv12.aspx">Download link</a></td>
+</tr>
+<tr>
+<td>PostgreSQL</td>
+<td>7.x or higher</td>
+<td>.NET data provider for PostgreSQL</td>
+<td>Npgsql.dll</td>
+<td><a href="http://www.npgsql.org/">Download link</a></td>
+</tr>
+<tr>
+<td>VistaDB</td>
+<td>4, 5</td>
+<td>VistaDB ADO.NET Provider</td>
+<td>VistaDB.5.NET40.dll</td>
+<td><a href="http://www.gibraltarsoftware.com/VistaDB">Download link</a></td>
+</tr>
+<tr>
+<td>SQLite</td>
+<td>3.x</td>
+<td>ADO.NET provider for SQLite</td>
+<td>System.Data.SQLite.dll</td>
+<td><a href="https://system.data.sqlite.org/index.html/doc/trunk/www/index.wiki">Download link</a></td>
+</tr>
+<tr>
+<td>XML file</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>n/a</td>
+<td>n/a</td>
+</tr>
+</tbody>
+</table>
+<h2 id="a-nameolap-data-sourceolap-data-source"><a name="olap-data-source"></a>OLAP Data Source</h2>
+<p>To use the OLAP data source, the Dashboard Designer requires Microsoft Analysis Services OLE DB and Microsoft ADOMD.NET providers to be installed on the client machine. To learn more, see <a href="https://msdn.microsoft.com/en-us/library/dn141152.aspx#bkmk_OLE">Data providers used for Analysis Services connections</a>.</p>
+<p>The following OLAP servers are supported.</p>
+<ul>
+<li>Microsoft SQL Server 2000 Analysis Services</li>
+<li>Microsoft SQL Server 2005 Analysis Services</li>
+<li>Microsoft SQL Server 2008 Analysis Services</li>
+<li>Microsoft SQL Server 2008 R2 Analysis Services</li>
+<li>Microsoft SQL Server 2012 Analysis Services (Multi-dimensional mode)</li>
+<li>Microsoft SQL Server 2014 Analysis Services (Multi-dimensional mode)</li>
+<li>Microsoft SQL Server 2016 Analysis Services (Multi-dimensional mode)</li>
+</ul>
+<h2 id="a-namemicrosoft-excel-workbookscsv-filesmicrosoft-excel-workbookscsv-files"><a name="microsoft-excel-workbooks/csv-files"></a>Microsoft Excel Workbooks/CSV Files</h2>
+<p>The following Microsoft Excel/text formats are supported.</p>
+<ul>
+<li>XLS</li>
+<li>XLSX</li>
+<li>XLSM</li>
+<li>CSV</li>
+</ul>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/master/dashboard-for-desktop/articles/dashboard-designer/providing-data/supported-data-sources.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2017 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../styles/main.js"></script>
+  </body>
+</html>

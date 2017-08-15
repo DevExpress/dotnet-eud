@@ -1,0 +1,167 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Subreport | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Subreport | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.20.0.0">
+    
+    <link rel="shortcut icon" href="../../../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../../../toc.html">
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../../../index.html">
+                <img id="logo" class="svg" src="../../../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="subreport">Subreport</h1>
+
+<p>The <strong>Subreport</strong> control allows you to include other reports in your current report.</p>
+<p>There are several reasons for using subreports. The first one is to <em>reuse</em> reports. This can be of help if there is a particular report structure (<em>template</em>) that has to be included in all reports, and the report must have consistent appearance and functionality. A good example is a report header that contains the company information, logo, date, etc. The second reason for using subreports is creation of <em>master-detail</em> reports (or, <em>invoice</em> reports with hierarchically linked data).</p>
+<p>However, for master-detail reports creation, another approach is recommended: <a href="../../create-reports/report-types/master-detail-report-%28detail-report-bands%29.html">using Detail Report bands</a>.</p>
+<p><img src="../../../../../images/img8314.png" alt="RD_Controls_Subreport"></p>
+<p>You can click a subreport, to open the report to which it is linked in a new <a href="../report-designer-ui/design-panel.html">Design Panel</a>.</p>
+<p>In the <a href="../report-designer-ui/property-grid.html">Property Grid</a>, the Subreport&#39;s properties are divided into the following groups.</p>
+<h2 id="appearance">Appearance</h2>
+<ul>
+<li><p><strong>Formatting Rules</strong></p>
+<p>  Invokes the Formatting Rules Editor allowing you to choose which rules should be applied to the control during report generation, and define the precedence of the applied rules. To learn more on this, refer to <a href="../../create-reports/styles-and-conditional-formatting/conditionally-change-a-controls-appearance.html">Conditionally Change a Control&#39;s Appearance</a>.</p>
+</li>
+</ul>
+<h2 id="behavior">Behavior</h2>
+<ul>
+<li><p><strong>Can Shrink</strong></p>
+<p>  Determines whether a Subreport&#39;s height should be decreased if its contents don&#39;t completely fill the control.</p>
+<p>  Use this property to specify whether the height of the Subreport control should be taken into account when generating a report. This may be required, because usually the mutual location of report controls is considered when generating a report document. But, as the Subreport control actually represents a report itself, the height of a Subreport normally should not be taken into account in the generated report document.</p>
+<p>  Also, note that there is no Can Grow option for the Subreport control, as it always increases its height depending on its contents.</p>
+</li>
+<li><p><strong>Scripts</strong></p>
+<p>  This property contains events, which you can handle by the required scripts. For more information on scripting, refer to <a href="../../create-reports/miscellaneous/handle-events-via-scripts.html">Handle Events via Scripts</a>.</p>
+</li>
+<li><p><strong>Visible</strong></p>
+<p>  Specifies a value indicating whether the current control should be printed (when set to Yes) or hidden (No) on report generation.</p>
+</li>
+</ul>
+<h2 id="data">Data</h2>
+<ul>
+<li><p><strong>Parameter Bindings</strong></p>
+<p>  Provides access to the collection of subreport parameter bindings, which allow you to bind a subreport&#39;s parameter value to a master report&#39;s data field.</p>
+</li>
+<li><p><strong>Report Source</strong></p>
+<p>  Determines a report to be included as a subreport.</p>
+<p>  If report classes of the application that invoked the Report Designer are compiled into one assembly, then they are available as items in this combo box.</p>
+</li>
+<li><p><strong>Report Source Url</strong></p>
+<p>  Defines an URL of a report definition file (*.REPX), to be used as a report source.</p>
+</li>
+</ul>
+<h2 id="design">Design</h2>
+<ul>
+<li><p><strong>(Name)</strong></p>
+<p>  Determines a control&#39;s name, by which it can be accessed in the <a href="../report-designer-ui/report-explorer.html">Report Explorer</a>, <a href="../report-designer-ui/property-grid.html">Property Grid</a> or via <a href="../../create-reports/miscellaneous/handle-events-via-scripts.html">scripts</a>.</p>
+</li>
+</ul>
+<h2 id="layout">Layout</h2>
+<ul>
+<li><p><strong>Location</strong></p>
+<p>  Specifies the control&#39;s location, measured in <a href="../../create-reports/basic-operations/change-measurement-units-of-a-report.html">report units</a>.</p>
+</li>
+<li><p><strong>Size</strong></p>
+<p>  Specifies the control&#39;s size, measured in <a href="../../create-reports/basic-operations/change-measurement-units-of-a-report.html">report units</a>.</p>
+<p>  The Subreport isn&#39;t limited by the visible size of the control. The size of its actual content is taken into account when rendering the subreport on the page. Note that depending on its contents, its width is unlimited and its height is increased.</p>
+</li>
+<li><p><strong>Snap Line Margin</strong></p>
+<p>  Specifies the margin (measured in <a href="../../create-reports/basic-operations/change-measurement-units-of-a-report.html">report units</a>), which is to be preserved around the control when it is <a href="../../create-reports/basic-operations/controls-positioning.html">aligned using Snap Lines</a>, or when other controls are aligned next to it.</p>
+</li>
+</ul>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/master/interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-reference/report-controls/subreport.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2017 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../../../styles/main.js"></script>
+  </body>
+</html>

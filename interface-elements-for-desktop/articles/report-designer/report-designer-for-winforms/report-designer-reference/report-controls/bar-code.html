@@ -1,0 +1,366 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Bar Code | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Bar Code | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.20.0.0">
+    
+    <link rel="shortcut icon" href="../../../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../../../toc.html">
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../../../index.html">
+                <img id="logo" class="svg" src="../../../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="bar-code">Bar Code</h1>
+
+<p>The <strong>Bar Code</strong> control transforms its content into a bar code of the specified type. Multiple standard bar code symbologies are supported.</p>
+<p><img src="../../../../../images/img8279.png" alt="RD_Controls_BarCode"></p>
+<div class="NOTE"><h5>Note</h5><p>The barcode quality can degrade when the report is exported to formats other than PDF. To ensure reliable barcode recognition, print the report directly from an application using the native printing methods. The <strong>Module</strong> and <strong>Auto-Module</strong> properties of a control should be used with care.</p>
+</div>
+<p>In the <a href="../report-designer-ui/property-grid.html">Property Grid</a>, the Bar Code&#39;s properties are divided into the following groups.</p>
+<h2 id="appearance">Appearance</h2>
+<ul>
+<li><p><strong>Alignment</strong></p>
+<p>  Determines the alignment of the barcode image within the control. To define the text alignment, use the Text Alignment property.</p>
+</li>
+<li><p><strong>Background Color</strong></p>
+<p>  Specifies the background color for the control. This option is also available in the <a href="../report-designer-ui/formatting-toolbar.html">Formatting Toolbar</a> (<img src="../../../../../images/img8441.png" alt="RD_Toolbars_Format_Back">).</p>
+</li>
+<li><p><strong>Borders</strong>, <strong>Border Color</strong>, <strong>Border Dash Style</strong> and <strong>Border Width</strong></p>
+<p>  Specify border settings for the control.</p>
+</li>
+<li><p><strong>Font</strong></p>
+<p>  Specifies the font settings for the control. Some of these settings are available in the <a href="../report-designer-ui/formatting-toolbar.html">Formatting Toolbar</a>.</p>
+</li>
+<li><p><strong>Foreground Color</strong></p>
+<p>  Specifies the text and image color for the bar code. This option is also available in the <a href="../report-designer-ui/formatting-toolbar.html">Formatting Toolbar</a> (<img src="../../../../../images/img8440.png" alt="RD_Toolbars_Format_Color">).</p>
+</li>
+<li><p><strong>Formatting Rules</strong></p>
+<p>  Invokes the Formatting Rules Editor, allowing you to choose which rules should be applied to the control during report generation, and define the precedence of the applied rules. To learn more on this, refer to <a href="../../create-reports/styles-and-conditional-formatting/conditionally-change-a-controls-appearance.html">Conditionally Change a Control&#39;s Appearance</a>.</p>
+</li>
+<li><p><strong>Padding</strong></p>
+<p>  Specifies indent values which are used to render the contents of a Bar Code.</p>
+</li>
+<li><p><strong>Style Priority</strong></p>
+<p>  Allows you to define the priority of various style elements (such as background color, border color, etc.). For more information on style inheritance, refer to <a href="../../create-reports/styles-and-conditional-formatting/understanding-style-concepts.html">Understanding Style Concepts</a>.</p>
+</li>
+<li><p><strong>Styles</strong></p>
+<p>  Specifies <a href="../../create-reports/styles-and-conditional-formatting/use-odd-and-even-styles.html">odd and even styles</a> for the control and enables you to assign an existing style to the control (or a newly created one). To learn more, see <a href="../../create-reports/styles-and-conditional-formatting/understanding-style-concepts.html">Understanding Style Concepts</a>.</p>
+</li>
+<li><p><strong>Text Alignment</strong></p>
+<p>  Allows you to change the alignment of the control&#39;s text. This option is also available in the <a href="../report-designer-ui/formatting-toolbar.html">Formatting Toolbar</a>. To define the alignment of the barcode image, use the Alignment property.</p>
+</li>
+</ul>
+<h2 id="behavior">Behavior</h2>
+<ul>
+<li><p><strong>Anchor Horizontally</strong></p>
+<p>  Specifies the horizontal anchoring style of the control, so that after page rendering it stays attached to the left control, right control, or both. This property defines how a report control is resized to maintain the distance to the left and right edges of its container control.</p>
+</li>
+<li><p><strong>Anchor Vertically</strong></p>
+<p>  Specifies the vertical anchoring style of the control, so that, after page rendering, it stays attached to the top control, bottom control, or both.</p>
+</li>
+<li><p><strong>Auto-Module</strong></p>
+<p>  When this property is set to Yes, the barcode image is stretched to fit the entire control&#39;s width. When this option is turned off, this behavior is determined by the Module property.</p>
+</li>
+<li><p><strong>Can Publish</strong></p>
+<p>  Specifies whether or not a report control is displayed in a printed or exported document.</p>
+</li>
+<li><p><strong>Keep Together</strong></p>
+<p>  Specifies whether the contents of the control can be horizontally split across pages. In other words, if the control occupies more space than remains on the page, this property specifies whether this Bar Code should be split between the current page and the next, or whether it will be printed entirely on the next page. This property is in effect only when a Bar Code&#39;s content does not fit on the current page. If it does not fit on the next page either, then the Bar Code will be split, despite this property&#39;s value.</p>
+</li>
+<li><p><strong>Module</strong></p>
+<p>  Specifies the width of the narrowest bar or space in the barcode, measured in <a href="../../create-reports/basic-operations/change-measurement-units-of-a-report.html">report units</a>. You may set this property to Yes for automatic adjustment of its value, when the control is resized. Note that if the Module value is too low, the barcode output may become unreadable by a barcode scanner.</p>
+<p>  When the Auto-Module property is set to No, there could be a situation when the barcode image generated with the current setting of Module property is larger than the control itself. In this case, the control displays a warning, as illustrated below.</p>
+<p>  <img src="../../../../../images/img8280.png" alt="RD_Controls_BarCode_0"></p>
+<p>  So, increase the dimensions of the control, to avoid this.</p>
+</li>
+<li><p><strong>Orientation</strong></p>
+<p>  The barcode image within the control can be rotated. If you need this feature, use the Orientation property to specify one of four possible orientations (Normal, Upside Down, Rotate to the Left and Rotate to the Right) for an image within the control.</p>
+</li>
+<li><p><strong>Process Duplicates Mode</strong></p>
+<p>  Determines the control&#39;s behavior when its data source contains consecutive repeating records. They can be processed as is (when the property is set to Leave), suppressed except for the first entry (Suppress) and suppressed with the blank space printed instead of the repeated records (Suppress and Shrink).</p>
+<p>  When the MergeByValue and MergeByTag settings are selected, the control processes duplicate values by merging the identical content into a single line of text.</p>
+</li>
+<li><p><strong>Process Duplicates Target</strong></p>
+<p>  Specifies whether to process duplicate values of the control&#39;s Text or Tag property.</p>
+</li>
+<li><p><strong>Process Null Values</strong></p>
+<p>  Determines whether to process Null (blank) values if they appear in the control&#39;s data source. They can be processed as is (when the property is set to Leave), suppressed (Suppress) and suppressed with the blank space printed instead of the blank records (Suppress and Shrink).</p>
+</li>
+<li><p><strong>Scripts</strong></p>
+<p>  This property contains events, which you can handle with the required scripts. For more information on scripting, refer to <a href="../../create-reports/miscellaneous/handle-events-via-scripts.html">Handle Events via Scripts</a>.</p>
+</li>
+<li><p><strong>Show Text</strong></p>
+<p>  Determines whether to display the numerical value, or only the barcode within the control.</p>
+</li>
+<li><p><strong>Symbology</strong></p>
+<p>  The Symbology defines the mapping between barcode text and an image. The symbologies supported by the Bar Code control are listed in the following table:</p>
+</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th><strong>Symbology</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Codabar</strong></td>
+<td>The Codabar is an old format that uses discrete, self-checking symbology, capable of encoding 16 different characters, plus an additional 4 start/stop characters. You should also specify the <strong>Start and Stop Symbols</strong> and <strong>Wide Narrow Ratio</strong> properties.</td>
+</tr>
+<tr>
+<td><strong>Code11</strong></td>
+<td>Code 11, also known as USD-8, was developed as a high-density numerical-only symbology. The symbology is discrete, and is able to encode the numbers 0 through to 9, the dash symbol (-), and start/stop characters.</td>
+</tr>
+<tr>
+<td><strong>Code128</strong></td>
+<td>Code 128 has been widely implemented. It is a high-density symbology which permits encoding messages of arbitrary lengths of any character of the ASCII character set. The symbology includes a checksum digit for verification. You should also specify the <strong>Character Set</strong>. The recommended setting is <strong>Auto Charset</strong>.</td>
+</tr>
+<tr>
+<td><strong>Code39</strong></td>
+<td>Code 39 is also known as &quot;3 of 9 Code&quot; and &quot;USD-3&quot;. It can encode uppercase letters (A through Z), digits (0 through 9) and several special characters like the $ sign. The <strong>Calculate a Checksum</strong> and <strong>Wide Narrow Ratio</strong> (which should be in a range of 2.2 -3) properties can also be specified.</td>
+</tr>
+<tr>
+<td><strong>Code39Extended</strong></td>
+<td>This is an extension of Code 39, also known as &quot;Full ASCII Code 39&quot;. It is capable of encoding all 128 ASCII characters. The <strong>Calculate a Checksum</strong> and <strong>Wide Narrow Ratio</strong> (which should be in a range of 2.2 -3) properties can be specified.</td>
+</tr>
+<tr>
+<td><strong>Code93</strong></td>
+<td>Code 93 was designed to supplement and improve Code 39. It is an alphanumeric, variable length symbology, providing higher reliability and density than Code 39. The <strong>Calculate a Checksum</strong> property can be specified.</td>
+</tr>
+<tr>
+<td><strong>Code93Extended</strong></td>
+<td>It enables encoding of all 128 ASCII characters using Code 93&#39;s &quot;Full ASCII Mode&quot;. This is accomplished by using the ($), (/), (%), and (+) symbols as &quot;shift&quot; characters. The <strong>Calculate a Checksum</strong> property can be specified.</td>
+</tr>
+<tr>
+<td><strong>CodeMSI</strong></td>
+<td>MSI symbology, also known as Modified Plessey, is a low-density, numerical only symbology. To specify the checksum, use the <strong>MSI Checksum</strong> property. It can be set to None, Modulo 10 and Double Modulo 10.</td>
+</tr>
+<tr>
+<td><strong>DataMatrix</strong></td>
+<td>Data Matrix ECC200 code is a two-dimensional matrix barcode consisting of black and while &quot;cells&quot; arranged in a square or a rectangular pattern. The encoded information can be text or raw data.</td>
+</tr>
+<tr>
+<td><strong>DataMatrix GS1</strong></td>
+<td>GS1 DataMatrix uses a special start combination to differentiate the GS1 DataMatrix symbol from the other Data Matrix ECC 200 symbols. The Bar Code control now supports this symbology.</td>
+</tr>
+<tr>
+<td><strong>EAN128</strong></td>
+<td>UCC/EAN-128 symbology has the newer name GS1-128. It is based on the Code128 standard, additionally specifying the Application Identifiers for data sections within the code. It includes best before dates, batch numbers, quantities, weights and other attributes. The <strong>Character Set</strong> property can be specified (<strong>Auto Charset</strong> is the recommended value). The <strong>FNC1 Functional Character</strong> property defines a symbol that is not included in a bar code when met in text, but used to generate the application identifiers. The <strong>Human-Readable Text</strong> property, when set to Yes, inserts parentheses into the text below the bar code for better readability.</td>
+</tr>
+<tr>
+<td><strong>EAN13</strong></td>
+<td>The EAN-13 barcode contains 13 digits, no letters or other characters. The first two or three digits represent the country. The leading zero actually signifies the USA, and UPC-A coding. The last digit is the checksum digit. The control calculates it automatically and it should not be present in the control&#39;s text string. So, make sure that the text for this symbology contains no more than 12 digits. If fewer digits are supplied, the string is padded with zeroes on the left.</td>
+</tr>
+<tr>
+<td><strong>EAN8</strong></td>
+<td>EAN-8 is a shortened version of the EAN-13 code. It includes a 2 or 3 digit country code, 4 of 5 data digits (depending on the length of the country code), and a checksum digit. The control calculates the checksum digit automatically and it should not be present in the control&#39;s text string. So, make sure that the text for this symbology contains no more than 7 digits. If fewer digits are supplied, the string is padded with zeroes on the left.</td>
+</tr>
+<tr>
+<td><strong>GS1 Data Bar</strong></td>
+<td>This bar code is based on a family of symbols often used in the <strong>GS1 DataBar Coupon</strong> (coupon codes commonly used in retail). These bar codes can encode up to <strong>14</strong> digits, which makes them suitable for <strong>GTIN 8</strong>, <strong>12</strong>, <strong>13</strong> and <strong>14</strong>. <strong>GS1 DataBar Expanded</strong> and <strong>GS1 DataBar Expanded Stacked</strong> can encode up to <strong>74</strong> numeric or <strong>41</strong> alphanumeric characters, and provide the capability to utilize all <strong>GS1 Application Identifiers</strong> (e.g., expiration date, batch and serial number). These bar codes are often used in manufacturer coupons.</td>
+</tr>
+<tr>
+<td><strong>Industrial2of5</strong></td>
+<td>The Industrial (or non-interleaved) 2 of 5 code is a numerical, low-density symbology, based on two-out-of-five code. The <strong>Calculate a Checksum</strong> and <strong>Wide Narrow Ratio</strong> (which should be greater than or equal to 2.5) properties can be specified.</td>
+</tr>
+<tr>
+<td><strong>Intelligent Mail</strong></td>
+<td>The Intelligent Mail (IM) code is a 65-bar code for use on mail in the United States. The Intelligent Mail barcode is a height-modulated barcode that encodes up to 31 decimal digits of mail-piece data into 65 vertical bars.</td>
+</tr>
+<tr>
+<td><strong>Intelligent Mail Package</strong></td>
+<td>The Intelligent Mail Package Barcode (IMPB) was developed for the use on mail in the United States. Barcodes of this symbology are used only for packages as opposed to Intelligent Mail barcodes, which are used for postcards, letters, and flats.</td>
+</tr>
+<tr>
+<td><strong>Interleaved2of5</strong></td>
+<td>The Interleaved 2 of 5 code is a higher-density numerical symbology, based on two-out-of-five code. The <strong>Calculate a Checksum</strong> and <strong>Wide Narrow Ratio</strong> (which should be greater than or equal to 2.5) properties can be specified.</td>
+</tr>
+<tr>
+<td><strong>ITF-14</strong></td>
+<td>This bar code, also known as &quot;<strong>UPC Shipping Container Symbol</strong>&quot;, is used to mark packaging materials that contain products labeled with a UPC or EAN product identification number. This bar code provides a GS1 implementation of an <strong>Interleaved 2-of-5</strong> symbology for encoding a <strong>Global Trade Item Number</strong> (an identifier for trade items developed by GS1). This bar code always uses a total of <strong>14</strong> digits.</td>
+</tr>
+<tr>
+<td><strong>Matrix2of5</strong></td>
+<td>A variant of non-interleaved 2 of 5 code. It is a numerical only symbology. The <strong>Calculate a Checksum</strong> and <strong>Wide Narrow Ratio</strong> (which should be greater than or equal to 2.5) properties can be specified.</td>
+</tr>
+<tr>
+<td><strong>PDF417</strong></td>
+<td>This Portable Data File symbology is used in a variety of applications, and can also be used to generate postage accepted by the United States Postal Service. It consists of a variable number of rows, each of which is like a small linear bar code. Among other options, the <strong>Error Correction Level</strong> specifies the amount of redundancy, to protect a barcode&#39;s legibility.</td>
+</tr>
+<tr>
+<td><strong>PostNet</strong></td>
+<td>This symbology is used by the United States Postal Service to assist in directing mail. The code usually contains the zip-code and delivery point number. Unlike most other barcodes, PostNet actually encodes data in the height of the bars.</td>
+</tr>
+<tr>
+<td><strong>QR Code</strong></td>
+<td>QR (Quick Response) Code is a popular two-dimensional matrix barcode that consists of black modules arranged in a square pattern on a white background.</td>
+</tr>
+<tr>
+<td><strong>UPCA</strong></td>
+<td>The UPC-A barcode contains 12 digits, no letters or other characters. The first digit is the prefix signifying the product type. The last digit is the &quot;check digit&quot;. The check digit is calculated using the first eleven figures when the barcode is constructed. So, for a correct UPC-A, make sure that the text contains no more than 11 digits. If there are fewer than 11, the string is padded with zeroes on the left.</td>
+</tr>
+<tr>
+<td><strong>UPCE0</strong></td>
+<td>This symbology is a variation of UPC-A which allows for a more compact barcode by eliminating &quot;extra&quot; zeros. The first digit is always zero; the last digit is a checksum digit of the original UPC-A code. Not every UPC-A code can be transformed into UPC-E0. E.g., the control&#39;s text string &quot;4210000526&quot; is displayed by UPC-E0 symbology as &quot;04252614&quot; and represents the &quot;042100005264&quot; UPC-A code (check digit included).</td>
+</tr>
+<tr>
+<td><strong>UPCE1</strong></td>
+<td>This symbology is a variation of UPC-A, which allows for a more compact barcode by eliminating &quot;extra&quot; zeros. The first digit is always 1, and the last digit is a checksum digit of the original UPC-A code. Not every UPC-A code can be transformed into UPC-E1. E.g., the control&#39;s text string &quot;4210000526&quot; is displayed by UPC-E1 symbology as &quot;14252611&quot; and represents the &quot;142100005261&quot; UPC-A code (check digit included).</td>
+</tr>
+<tr>
+<td><strong>UPCSupplemental2</strong></td>
+<td>This is a supplemental two-digit barcode. Make sure that the control&#39;s text string contains two digits.</td>
+</tr>
+<tr>
+<td><strong>UPCSupplemental5</strong></td>
+<td>This is a supplemental five-digit barcode, usually used to indicate the suggested retail price of a book. Make sure that the control&#39;s text string contains five digits.</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><p><strong>Visible</strong></p>
+<p>  Specifies whether the control should be visible in print preview.</p>
+</li>
+</ul>
+<h2 id="data">Data</h2>
+<ul>
+<li><p><strong>(Data Bindings)</strong></p>
+<p>  If the current report is <a href="../../create-reports/binding-a-report-to-data.html">bound to data</a>, this property allows you to bind some of the control&#39;s properties (Bookmark, Navigation URL, Tag and Text) to a data field obtained from the report&#39;s data source, and to apply a <a href="../../report-editing-basics/change-value-formatting-of-report-elements.html">format string</a> to it. For more information on this, refer to <a href="../../report-editing-basics/displaying-values-from-a-database-%28binding-report-elements-to-data%29.html">Displaying Values from a Database (Binding Report Elements to Data)</a>.</p>
+</li>
+<li><p><strong>Tag</strong></p>
+<p>  This property allows you to add additional information to the control; for example its id, by which it can then be accessible via <a href="../../create-reports/miscellaneous/handle-events-via-scripts.html">scripts</a>.</p>
+<p>  If the current <a href="../../create-reports/binding-a-report-to-data.html">report has a data source</a>, the Tag property can  be bound to a data field obtained from the data source. To do this, expand the (Data Bindings) property, and in the Tag.Binding drop-down selector, select the required data field.</p>
+</li>
+<li><p><strong>Text</strong></p>
+<p>  Allows you to define a string to be encoded as a barcode. You can define whether to display this value within the control using the Show Text property. Note that when the control is selected in the designer, you may simply start typing the text, and it will be automatically entered into the in-place editor.</p>
+<p>  <img src="../../../../../images/img8504.png" alt="RD_Controls_BarCode_2"></p>
+<p>  If the content does not conform to the rules of a certain symbology (determined by the Symbology property), the control may display a warning, as in the picture below, or automatically correct the input string by padding it with zeroes or only allowing an acceptable number of characters to be displayed.</p>
+<p>  <img src="../../../../../images/img8281.png" alt="RD_Controls_BarCode_1"></p>
+<p>  If the current <a href="../../create-reports/binding-a-report-to-data.html">report has a data source</a>, the Text property can be bound to a data field obtained from the data source. To do this, expand the (Data Bindings) property, and in the Text.Binding drop-down selector, select the required data field. For more information on this, refer to <a href="../../report-editing-basics/displaying-values-from-a-database-%28binding-report-elements-to-data%29.html">Displaying Values from a Database (Binding Report Elements to Data)</a>.</p>
+</li>
+</ul>
+<h2 id="design">Design</h2>
+<ul>
+<li><p><strong>(Name)</strong></p>
+<p>  Determines a control&#39;s name, by which it can be accessed in the <a href="../report-designer-ui/report-explorer.html">Report Explorer</a>, <a href="../report-designer-ui/property-grid.html">Property Grid</a> or via <a href="../../create-reports/miscellaneous/handle-events-via-scripts.html">scripts</a>.</p>
+</li>
+</ul>
+<h2 id="layout">Layout</h2>
+<ul>
+<li><p><strong>Location</strong></p>
+<p>  Specifies the control&#39;s location, measured in <a href="../../create-reports/basic-operations/change-measurement-units-of-a-report.html">report units</a>.</p>
+</li>
+<li><p><strong>Size</strong></p>
+<p>  Specifies the control&#39;s size, measured in <a href="../../create-reports/basic-operations/change-measurement-units-of-a-report.html">report units</a>.</p>
+</li>
+<li><p><strong>Snap Line Margin</strong></p>
+<p>  Specifies the margin (measured in <a href="../../create-reports/basic-operations/change-measurement-units-of-a-report.html">report units</a>), which is to be preserved around the control when it is <a href="../../create-reports/basic-operations/controls-positioning.html">aligned using Snap Lines</a>, or when other controls are aligned next to it.</p>
+</li>
+</ul>
+<h2 id="navigation">Navigation</h2>
+<ul>
+<li><p><strong>Bookmark</strong> and <strong>Parent Bookmark</strong></p>
+<p>  These properties are intended for the creation of a hierarchical structure within a report, called a document map. For an explanation and help, refer to <a href="../../create-reports/report-navigation-and-interactivity/add-bookmarks.html">Add Bookmarks</a>.</p>
+<p>  If the current <a href="../../create-reports/binding-a-report-to-data.html">report has a data source</a>, the Bookmark property can be bound to a data field obtained from the data source. To do this, expand the (Data Bindings) property, and in the Bookmark.Binding drop-down selector, select the required data field.</p>
+</li>
+<li><p><strong>Navigation URL</strong> and <strong>Navigation Target</strong></p>
+<p>  Use the Navigation URL property to specify a URL for web browser navigation when a user clicks a Bar Code. The web browser displays a page in a window or a frame as specified by the Navigation Target property. Note that a URL should have an appropriate prefix (e.g. &quot;http://&quot;). You can create cross-references within the report by assigning the name of the target control to the Navigation URL property, and setting the Navigation Target property to &quot;_self&quot;. For more information, refer to <a href="../../create-reports/report-navigation-and-interactivity/create-hyperlinks.html">Create Hyperlinks</a>.</p>
+<p>  If the current <a href="../../create-reports/binding-a-report-to-data.html">report has a data source</a>, the Navigation URL property can be bound to a data field obtained from the data source. To do this, expand the (Data Bindings) property, and in the Navigation URL.Binding drop-down selector, select the required data field.</p>
+</li>
+</ul>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/master/interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-reference/report-controls/bar-code.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2017 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../../../styles/main.js"></script>
+  </body>
+</html>

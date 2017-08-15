@@ -1,0 +1,142 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Understanding Style Concepts | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Understanding Style Concepts | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.20.0.0">
+    
+    <link rel="shortcut icon" href="../../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../../toc.html">
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../../index.html">
+                <img id="logo" class="svg" src="../../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="understanding-style-concepts">Understanding Style Concepts</h1>
+
+<p>This document describes how you can provide a professional look to your reports, by effectively adjusting the appearance of its elements.</p>
+<p>This document consists of the following sections.</p>
+<ul>
+<li><a href="#properties">The Appearance Properties</a></li>
+<li><a href="#inheritance">Styles Priority and Inheritance</a></li>
+</ul>
+<h2 id="a-namepropertiesthe-appearance-properties"><a name="properties"></a>The Appearance Properties</h2>
+<p>In the <a href="../../../report-designer.html">Web Report Designer</a>, a report and each of its elements (<a href="../../report-elements/report-bands.html">bands</a> and <a href="../../report-elements/report-controls.html">controls</a>) has a complete set of appearance options (such as <strong>Background Color</strong>, <strong>Borders</strong>, <strong>Font</strong>, <strong>Foreground Color</strong>, <strong>Text Alignment</strong>, etc.). By default, these properties aren&#39;t specified, meaning that their real values are obtained from a control&#39;s (or band&#39;s) <em>parent</em>, which is the report itself. So, the appearance specified for a report is distributed to all its child elements. Similarly, the appearance of a band is translated to the controls it contains.</p>
+<p><img src="../../../../images/img120191.png" alt="eud-styles-0"></p>
+<p>In turn, a control&#39;s appearance can be adjusted independently from its parent.</p>
+<p><img src="../../../../images/img120192.png" alt="eud-styles-1"></p>
+<p>When it is required to reset a value assigned to a control&#39;s appearance property in the <a href="../../interface-elements/properties-panel.html">Properties Panel</a>, click the Advanced Options button for this property and then click <strong>Reset</strong>. The control will be restored to the appearance of its parent.</p>
+<p><img src="../../../../images/img120193.png" alt="eud-styles-2"></p>
+<h2 id="a-nameinheritancestyles-priority-and-inheritance"><a name="inheritance"></a>Styles Priority and Inheritance</h2>
+<p>In addition to the capability to specify <a href="#properties">appearance property</a> values for every control and band, you can create comprehensive <em>styles</em>, and they can be assigned to individual elements.</p>
+<p>To assign a particular style to a control, select this control and in the <a href="../../interface-elements/properties-panel.html">Properties Panel</a>, expand the <strong>Styles</strong> category. Then, invoke the drop-down list for the <strong>Style</strong> property and click <strong>Create New Style</strong> or select an existing style.</p>
+<p><img src="../../../../images/img120194.png" alt="eud-styles-3"></p>
+<div class="NOTE"><h5>Note</h5><p>A style that is assigned to a band applies to controls that the band contains.</p>
+</div>
+<p>To access the style collection, you can also use the <a href="../../interface-elements/report-explorer.html">Report Explorer</a>, which allows you to add, edit or delete a style.</p>
+<p><img src="../../../../images/img120129.png" alt="eud-report-explorer-3"></p>
+<p>To apply a style or formatting rule to a report control, drag it from the Report Explorer onto the required report control.</p>
+<p><img src="../../../../images/img120130.png" alt="eud-report-explorer-4"></p>
+<p>When both styles and individual appearance settings are assigned to an element, the priority is required to decide which of the properties to use.</p>
+<p>By default, a style&#39;s appearance property has a higher priority than an element&#39;s appearance property. The Advanced Options button for this appearance property is highlighted in blue.</p>
+<p><img src="../../../../images/img120195.png" alt="eud-styles-4"></p>
+<p>To assign a higher priority to an element&#39;s appearance property, click the Advanced Options button and then click <strong>Style Priority</strong>. It highlights the Advanced Options button in white.</p>
+<p><img src="../../../../images/img120196.png" alt="eud-styles-5"></p>
+<p>To revert a higher priority to a style&#39;s appearance property, click the Advanced Options button and then, click <strong>Style Priority</strong>.</p>
+<p><img src="../../../../images/img120197.png" alt="eud-styles-6"></p>
+<p>The same principles are applied to the <em>odd-even styles</em> feature, which allows you to alternate the appearance of consecutive data rows in your report. For details on this, refer to <a href="use-odd-and-even-styles.html">Use Odd and Even Styles</a>.</p>
+<div class="NOTE"><h5>Note</h5><p>When <a href="conditionally-change-a-controls-appearance.html">conditional formatting</a> is applied to an element, its appearance definition has the highest priority.</p>
+</div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/master/interface-elements-for-web/articles/report-designer/creating-reports/appearance-customization/understanding-style-concepts.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2017 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../../styles/main.js"></script>
+  </body>
+</html>

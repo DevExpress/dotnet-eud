@@ -1,0 +1,168 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Creating Calculated Fields | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Creating Calculated Fields | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.20.0.0">
+    
+    <link rel="shortcut icon" href="../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../toc.html">
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../index.html">
+                <img id="logo" class="svg" src="../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="creating-calculated-fields">Creating Calculated Fields</h1>
+
+<p>The Dashboard Designer provides the capability to create calculated fields that allow you to apply complex expressions to data fields that are obtained from the dashboard&#39;s data source. You can use these fields in data visualizations as regular data source fields.</p>
+<ul>
+<li><a href="#creating-a-calculated-field">Creating a Calculated Field</a></li>
+<li><a href="#editing-a-calculated-field">Editing a Calculated Field</a></li>
+</ul>
+<div class="NOTE"><h5>Note</h5><p>Note that calculated fields are not supported for <a href="../providing-data/connecting-to-olap-cubes.html">OLAP</a> data sources.</p>
+</div>
+<h2 id="a-namecreating-a-calculated-fieldcreating-a-calculated-field"><a name="creating-a-calculated-field"></a>Creating a Calculated Field</h2>
+<p>After you have created a data source, you can add a new calculated field based on the existing data source fields.</p>
+<p>To create a calculated field, select the required data source (and the required <a href="manage-sql-queries.html">query</a>/data member, if applicable) in the <a href="../ui-elements/data-source-browser.html">Data Source Browser</a> and click the <strong>Add Calculated Field</strong> button in the Ribbon&#39;s Data Source tab...</p>
+<p><img src="../../../images/img21578.png" alt="CalculatedFileds_AddCalculatedFieldButton_Ribbon"></p>
+<p>...or right-click the Field List and select <strong>Add Calculated Field</strong> in the context menu.</p>
+<p><img src="../../../images/img21581.png" alt="CalculatedFileds_AddCalculatedField_ContextMenu"></p>
+<p>This invokes the <a href="../../../../interface-elements-for-desktop/articles/expression-editor.html">Expression Editor</a> dialog, which allows you to specify an expression that will be used to obtain calculated field values. Here, you can construct the required expression.</p>
+<p><img src="../../../images/img21580.png" alt="CalculatedFileds_ExpressionEditor"></p>
+<p>You can use the following elements in expressions.</p>
+<ul>
+<li><p>Functions</p>
+<div class="NOTE"><h5>Note</h5><p>To learn how to use <strong>Aggregate</strong> functions, see <a href="../data-analysis/aggregations.html">Aggregations</a>. The <a href="../../../../interface-elements-for-desktop/articles/expression-editor/expression-operators-functions-and-constants.html">Expression Operators, Functions and Constants</a> topic lists common functions (<strong>DateTime</strong>, <strong>Math</strong>, <strong>String</strong>, etc.) supported by expressions.</p>
+</div>
+</li>
+<li>Operators</li>
+<li>Columns</li>
+<li>Constants</li>
+<li><a href="../data-analysis/using-dashboard-parameters.html">Parameters</a></li>
+</ul>
+<p>After the expression has been specified, click <strong>OK</strong>. This displays a new calculated field in the data source structure.</p>
+<p><img src="../../../images/img21582.png" alt="CalculatedFileds_DataSourceStructure"></p>
+<p>Now you can specify the required calculated field type, change its default name, etc.</p>
+<h2 id="a-nameediting-a-calculated-fieldediting-a-calculated-field"><a name="editing-a-calculated-field"></a>Editing a Calculated Field</h2>
+<p>To edit a calculated field, use its context menu.</p>
+<p><img src="../../../images/img21583.png" alt="CalculatedFileds_FieldContextMenu"></p>
+<p>This menu contains the following items.</p>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Edit Expression...</strong></td>
+<td>Invokes the <a href="../../../../interface-elements-for-desktop/articles/expression-editor.html">Expression Editor</a> dialog, which allows you to change an expression for an existing calculated field.</td>
+</tr>
+<tr>
+<td><strong>Field Type</strong></td>
+<td>Specifies the type of the calculated field.</td>
+</tr>
+<tr>
+<td><strong>Rename</strong></td>
+<td>Changes the calculated field name.</td>
+</tr>
+<tr>
+<td><strong>Delete</strong></td>
+<td>Removes the existing calculated field from the data source.</td>
+</tr>
+</tbody>
+</table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/master/dashboard-for-desktop/articles/dashboard-designer/working-with-data/creating-calculated-fields.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2017 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../styles/main.js"></script>
+  </body>
+</html>

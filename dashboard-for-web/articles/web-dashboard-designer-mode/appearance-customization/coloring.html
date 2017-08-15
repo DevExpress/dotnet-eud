@@ -1,0 +1,208 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Coloring | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Coloring | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.20.0.0">
+    
+    <link rel="shortcut icon" href="../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../toc.html">
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../index.html">
+                <img id="logo" class="svg" src="../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="coloring">Coloring</h1>
+
+<p>The Web Dashboard provides the capability to manage the coloring of dashboard item elements, such as chart series points or pie segments.</p>
+<ul>
+<li><a href="#supporteditems">Supported Dashboard Items</a></li>
+<li><a href="#overview">Color Schemes Overview</a></li>
+<li><a href="#coloring">Coloring Measures and Dimensions</a></li>
+<li><a href="#customizedim">Customizing Color Palettes Using the Dashboard Item Menu</a></li>
+<li><a href="#customizecpp">Customizing Color Palettes Using the Color Scheme Page</a></li>
+</ul>
+<h2 id="a-namesupporteditemssupported-dashboard-items"><a name="supporteditems"></a>Supported Dashboard Items</h2>
+<p>You can manage coloring for the following dashboard items.</p>
+<ul>
+<li><a href="../designing-dashboard-items/chart.html">Chart</a></li>
+<li><a href="../designing-dashboard-items/scatter-chart.html">Scatter Chart</a></li>
+<li><a href="../designing-dashboard-items/pies.html">Pie</a></li>
+<li><a href="../designing-dashboard-items/geo-point-maps/pie-map.html">Pie Map</a></li>
+<li><a href="../designing-dashboard-items/range-filter.html">Range Filter</a></li>
+<li><a href="../designing-dashboard-items/treemap.html">Treemap</a></li>
+</ul>
+<h2 id="a-nameoverviewcolor-schemes-overview"><a name="overview"></a>Color Schemes Overview</h2>
+<p>The dashboard provides two ways of coloring dashboard item elements.</p>
+<ul>
+<li><p><strong>Global color scheme</strong>. This color scheme provides consistent colors for identical values across the dashboard. The image below shows the dashboard containing Pie and Chart dashboard items. Pie segments and chart series points corresponding to <em>Beverages</em>, <em>Condiments</em> and <em>Confections</em> dimension values are colored using identical colors from the default palette.</p>
+<p>  <img src="../../../images/img126076.png" alt="wdd-coloring-global-scheme"></p>
+<div class="IMPORTANT"><h5>Important</h5><p>When a global color scheme is used, the dashboard reserves automatically generated colors for certain values regardless of the filter state.</p>
+</div>
+</li>
+<li><p><strong>Local color scheme</strong>. This color scheme provides an <em>independent</em> set of colors for each dashboard item.</p>
+<div class="IMPORTANT"><h5>Important</h5><p>When a local color scheme is used, the dashboard reassigns palette colors when the filter state is changed.</p>
+</div>
+</li>
+</ul>
+<p>To select a type of coloring dashboard item elements, open the <a href="../ui-elements/dashboard-item-menu.html">dashboard item menu</a>, go to the <strong>Color Scheme</strong> section and use the <strong>Color Scheme Type</strong> option.</p>
+<p><img src="../../../images/img126079.png" alt="wdd-coloring-change-color-scheme"></p>
+<h2 id="a-namecoloringcoloring-measures-and-dimensions"><a name="coloring"></a>Coloring Measures and Dimensions</h2>
+<p>Dashboard items allow you to manage the coloring of individual dimensions or all dashboard item measures using predefined coloring modes.</p>
+<p>The following coloring settings are available.</p>
+<table>
+<thead>
+<tr>
+<th>Setting</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Auto</strong></td>
+<td>Dimension values/measures are colored by default. To learn how specific dashboard items color their elements by default, see the <strong>Coloring</strong> topic for the corresponding <a href="../designing-dashboard-items.html">dashboard item</a>.</td>
+</tr>
+<tr>
+<td><strong>On</strong></td>
+<td>Dimension values/measures are colored by different hues.</td>
+</tr>
+<tr>
+<td><strong>Off</strong></td>
+<td>Dimension values/measures are colored with the same color.</td>
+</tr>
+</tbody>
+</table>
+<p>You can configure coloring in two ways.</p>
+<ul>
+<li><p>To specify the coloring mode for the specific measure/dimension, open the data item menu and go to <strong>Data Shaping</strong> section. Use the <strong>Coloring</strong> option to specify coloring mode of this data item.</p>
+<p>  <img src="../../../images/img126109.png" alt="wdd-coloring-data-item-options"></p>
+</li>
+<li><p>To see a list of all measures/dimensions for which you can specify coloring mode, open the dashboard item&#39;s <a href="../ui-elements/dashboard-item-menu.html">Options</a> menu and go to the <strong>Coloring</strong> section.</p>
+<p>  <img src="../../../images/img126086.png" alt="wdd-coloring-options"></p>
+</li>
+</ul>
+<p>For example, the image below shows the Chart dashboard item whose <em>Country</em> <strong>dimension</strong> is colored by different hues...</p>
+<p><img src="../../../images/img126084.png" alt="wdd-coloring-color-by-measure"></p>
+<p>...and this image shows the Pie dashboard item whose <strong>measures</strong> are colored by different hues.</p>
+<p><img src="../../../images/img126108.png" alt="wdd-coloring-by-measure"></p>
+<div class="NOTE"><h5>Note</h5><p>If you enabled coloring by different hues for several dimensions/measures, all combinations of dimension values/measures will be automatically colored using different colors from the default palette.</p>
+</div>
+<h2 id="a-namecustomizedimcustomizing-color-palettes-using-the-dashboard-item-menu"><a name="customizedim"></a>Customizing Color Palettes Using the Dashboard Item Menu</h2>
+<p>The Web Dashboard allows you to customize colors of the specific palette using the <strong>Color Scheme</strong> section of the dashboard item <a href="../ui-elements/dashboard-item-menu.html">Options</a> menu. To edit the color scheme, click the <strong>Edit</strong> button (the <img src="../../../images/img126050.png" alt="wdd-icon-edit-collection-value-item"> icon) of the corresponding color.</p>
+<p><img src="../../../images/img126112.png" alt="wdd-coloring-change-dashboard-item-color-scheme"></p>
+<p>Then, pick any color using the RGB color model in the invoked color picker and click <strong>Confirm</strong> to change the color.</p>
+<p><img src="../../../images/img126125.png" alt="wdd-coloring-color-picker"></p>
+<p>A new color scheme will be applied to the dashboard item(s).</p>
+<p><img src="../../../images/img126127.png" alt="wdd-coloring-change-local-scheme"></p>
+<h2 id="a-namecustomizecppcustomizing-color-palettes-using-the-color-schemes-page"><a name="customizecpp"></a>Customizing Color Palettes Using the Color Schemes Page</h2>
+<p>The Color Scheme page of the <a href="../ui-elements/dashboard-menu.html">dashboard menu</a> allows you to customize color tables by editing and adding colors.</p>
+<p><img src="../../../images/img126124.png" alt="wdd-coloring-scheme-page"></p>
+<ul>
+<li><p><strong>Edit colors</strong>. You can reassign a color in the selected color table. For this, select one of the available schemes in the <strong>Color Schemes</strong> pane and click the required color in the <strong>Colors</strong> pane to provide access to the <strong>Color</strong> combo box.</p>
+<p>  Clicking the <strong>Color</strong> dropdown button invokes a color picker where you can specify a new color.</p>
+<p>  <img src="../../../images/img126133.png" alt="wdd-coloring-invoke-color-picker"></p>
+<p>  Click <strong>Confirm</strong> to change the automatically assigned color for the selected value and update the current color scheme.</p>
+<p>  <img src="../../../images/img126122.png" alt="wdd-coloring-changed-color"></p>
+<p>  The image below demonstrates the dashboard items that are colored using the updated color table.</p>
+<p>  <img src="../../../images/img126123.png" alt="wdd-coloring-new-scheme"></p>
+</li>
+<li><p><strong>Add colors</strong>. The Color Scheme page allows you to add a new value with the specified color to the selected color scheme. To do this, use the <strong>Add color</strong> button.</p>
+<p>  <img src="../../../images/img126969.png" alt="wdd-coloring-adding-color"></p>
+<p>  Specify the dimension value of the added color or select the required measures. This creates a new value whose color can be specified as described in the <strong>Edit colors</strong> section.</p>
+<p>  <img src="../../../images/img126964.png" alt="wdd-coloring-added-color"></p>
+<p>  You can remove manually added values using the <strong>Remove</strong> button (the <img src="../../../images/img126104.png" alt="wdd-icon-delete-big"> icon).</p>
+</li>
+</ul>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/master/dashboard-for-web/articles/web-dashboard-designer-mode/appearance-customization/coloring.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2017 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../styles/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,135 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Create a Table Report | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Create a Table Report | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.20.0.0">
+    
+    <link rel="shortcut icon" href="../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../toc.html">
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../index.html">
+                <img id="logo" class="svg" src="../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="create-a-table-report">Create a Table Report</h1>
+
+<p>This tutorial will guide you through the process of creating a <strong>Table Report</strong>, and printing and saving it to your hard drive.
+ The table report is a data-aware <strong>Snap</strong> report with a tabular master-detail layout.</p>
+<p>To get started with this tutorial, create a new Snap document and provide a hierarchical data source for it, as described in the <a href="../connect-to-data/create-a-master-detail-data-source.html">Create a Master-Detail Data Source</a> topic.</p>
+<p>To create a master-detail Snap document layout, do the following.</p>
+<ol>
+<li><p>Create a simple tabular report by selecting the data fields that you wish to include in the report in the <a href="../graphical-user-interface/snap-application-elements/data-explorer.html">Data Explorer</a> and dragging them to the <a href="../graphical-user-interface/snap-application-elements/design-surface.html">Design Surface</a>. When you drop data fields onto the empty space in the document body, they are added as columns of a table. You can select multiple data fields by pressing <strong>CTRL</strong> or <strong>SHIFT</strong>.</p>
+<p> <img src="../../../images/img22836.png" alt="snap-getting-started-tabular-report01"></p>
+<p> To improve performance, Snap shows only the first <strong>20</strong> data rows of a Snap list by default. To change this setting, use the <strong>Editor Row Limit</strong> option, which is located on the <a href="../graphical-user-interface/main-toolbar/data-tools-list.html">List</a> tab of the main toolbar.</p>
+<p> <img src="../../../images/img18228.png" alt="SnapControl-get-started-10"></p>
+</li>
+<li><p>To convert the layout of a Snap list to a paragraph presentation, select the Snap list you wish to convert and click the <strong>Convert to Paragraphs</strong> command in the <strong>List</strong> tab of the contextual <strong>Data Tools</strong> toolbar category. Note that there is no reverse action allowing you to convert a Snap list back to the tabbed form.</p>
+<p> <img src="../../../images/img22839.png" alt="snap-getting-started-tabular-report04"></p>
+<p> The report should now appear as shown in the following image.</p>
+<p> <img src="../../../images/img22837.png" alt="snap-getting-started-tabular-report02"></p>
+<p> To remove a list header, select the Snap list, click the <strong>Header</strong> command in the <strong>List</strong> tab of the main toolbar, and select <strong>Remove Header</strong> in the invoked drop-down menu.</p>
+<p> <img src="../../../images/img22838.png" alt="snap-getting-started-tabular-report03"></p>
+</li>
+<li><p>To create a detail report, drag data fields from the child data table in the <strong>Data Explorer</strong> onto the lower border of the master report&#39;s data row, as shown in the image below.</p>
+<p> <img src="../../../images/img22840.png" alt="snap-getting-started-tabular-report05"></p>
+<p> The added detail part will have a tabular form by default.</p>
+<p> <img src="../../../images/img22841.png" alt="snap-getting-started-tabular-report06"></p>
+</li>
+<li><p>To preview your Snap document click the <strong>Print Preview</strong> button in the <a href="../graphical-user-interface/main-toolbar/general-tools-file.html">General Tools: File</a> tab of the main toolbar.</p>
+<p> <img src="../../../images/img22842.png" alt="snap-getting-started-tabular-report07"></p>
+</li>
+</ol>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/master/interface-elements-for-desktop/articles/snap-reporting-engine/create-a-report-layout/create-a-table-report.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2017 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../styles/main.js"></script>
+  </body>
+</html>

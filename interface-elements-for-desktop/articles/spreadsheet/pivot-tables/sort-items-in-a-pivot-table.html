@@ -1,0 +1,136 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Sort Items in a Pivot Table | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Sort Items in a Pivot Table | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.20.0.0">
+    
+    <link rel="shortcut icon" href="../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../toc.html">
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../index.html">
+                <img id="logo" class="svg" src="../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="sort-items-in-a-pivot-table">Sort Items in a Pivot Table</h1>
+
+<p>The following topic describes how to sort items in the PivotTable fields by <a href="#labels">labels</a> and <a href="#values">summary values</a>.</p>
+<p><a name="labels"></a></p>
+<h2 id="sort-item-labels">Sort Item Labels</h2>
+<p>Item labels in a PivotTable field can be sorted by text (<strong>A to Z</strong> or <strong>Z to A</strong>), numbers (<strong>smallest to largest</strong> or <strong>largest to smallest</strong>), or dates and times (<strong>oldest to newest</strong> or <strong>newest to oldest</strong>). To apply sorting, do the following.</p>
+<ol>
+<li>Click the arrow <img src="../../../images/img25500.png" alt="Spreadsheet_FilterAndSortArrow"> in the <strong>Row Labels</strong> or <strong>Column Labels</strong> cell. If there are multiple fields in the area, select the row or column field you wish to sort.</li>
+<li><p>In the invoked drop-down list, select the <strong>Sort A to Z</strong> item to use ascending order, or click <strong>Sort Z to A</strong> to sort in descending order. As a result, items in the filtered field will be reordered correspondingly. The tiny arrow <img src="../../../images/img25503.png" alt="Spreadsheet_SortedArrow"> appears in the row or column label to indicate that data in the report is sorted.</p>
+<p> <img src="../../../images/img126444.png" alt="Spreadsheet_PivotTable_Sorting"></p>
+</li>
+</ol>
+<p><a name="values"></a></p>
+<h2 id="sort-items-by-summary-values">Sort Items By Summary Values</h2>
+<p>Besides sorting item labels, you can also sort items in a row or column field based on data in the <strong>Values</strong> area of the PivotTable report. To do this, follow the steps below.</p>
+<ol>
+<li><p>Click the arrow <img src="../../../images/img25500.png" alt="Spreadsheet_FilterAndSortArrow"> in the <strong>Row Labels</strong> or <strong>Column Labels</strong> cell. In the invoked drop-down list, select the row or column field you wish to sort (if there are multiple fields in the area), and then click the <strong>More Sort Options...</strong> item.</p>
+<p> <img src="../../../images/img126471.png" alt="Spreadsheet_PivotTable_Sorting_Values_MoreSortOptions_ContextMenu"></p>
+</li>
+<li><p>In the invoked dialog box, select the desired sort order and the value field to sort by. Click the <strong>More Options...</strong> button. </p>
+<p> <img src="../../../images/img126472.png" alt="Spreadsheet_PivotTables_Sorting_Values_MoreOptionsDialog"></p>
+</li>
+<li><p>In the <strong>More Sort Options</strong> dialog, click <strong>Grand Total</strong> or select a row/column in the <strong>Values</strong> area to sort by and click <strong>OK</strong>. </p>
+<p> <img src="../../../images/img126473.png" alt="Spreadsheet_PivoteTable_Sorting_Values_MoreOptionsDialog2"></p>
+</li>
+<li><p>The result is shown in the image below. The tiny arrow <img src="../../../images/img25503.png" alt="Spreadsheet_SortedArrow"> appears in the row or column label to indicate that data in the corresponding field is sorted.</p>
+<p> <img src="../../../images/img126474.png" alt="Spreadsheet_PivotTable_Sorting_Values_Result"></p>
+</li>
+</ol>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/master/interface-elements-for-desktop/articles/spreadsheet/pivot-tables/sort-items-in-a-pivot-table.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2017 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../styles/main.js"></script>
+  </body>
+</html>

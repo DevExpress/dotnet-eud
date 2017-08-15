@@ -1,0 +1,173 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Master Filtering | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Master Filtering | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.20.0.0">
+    
+    <link rel="shortcut icon" href="../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../toc.html">
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../index.html">
+                <img id="logo" class="svg" src="../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="master-filtering">Master Filtering</h1>
+
+<p>The <strong>Dashboard</strong> allows you to use any data aware dashboard item as a filter for other dashboard items (<strong>Master Filter</strong>). You can select elements in a <strong>Master Filter</strong> item (grid records, chart bars, pie segments, etc.) to filter data in other dashboard items by the selected values.</p>
+<p><img src="../../../images/img25347.gif" alt="MainFeatures_MasterFiltering_Win"></p>
+<ul>
+<li><a href="#master-filtering-overview">Master Filtering Overview</a></li>
+<li><a href="#master-filter-settings">Master Filter Settings</a></li>
+<li><a href="#apply-filtering">Apply Filtering</a></li>
+</ul>
+<h2 id="a-namemaster-filtering-overviewmaster-filtering-overview"><a name="master-filtering-overview"></a>Master Filtering Overview</h2>
+<p>Dashboard items can be divided into four groups by their master filtering capabilities.</p>
+<ol>
+<li><p><strong>Data visualization dashboard items</strong> allow you to enable master filtering by specifying the selection mode. The following dashboard items allow you to manage their master filtering mode.</p>
+<ul>
+<li><a href="../designing-dashboard-items/chart.html">Chart</a></li>
+<li><a href="../designing-dashboard-items/scatter-chart.html">Scatter Chart</a></li>
+<li><a href="../designing-dashboard-items/grid.html">Grid</a></li>
+<li><a href="../designing-dashboard-items/pies.html">Pies</a></li>
+<li><a href="../designing-dashboard-items/cards.html">Cards</a></li>
+<li><a href="../designing-dashboard-items/gauges.html">Gauges</a></li>
+<li><a href="../designing-dashboard-items/choropleth-map.html">Choropleth Map</a></li>
+<li><a href="../designing-dashboard-items/geo-point-maps.html">Geo Point Maps</a></li>
+<li><p><a href="../designing-dashboard-items/treemap.html">Treemap</a></p>
+<p>To learn how to manage master filtering for these items, see <a href="#master-filter-settings">Master Filter Settings</a>.</p>
+</li>
+</ul>
+</li>
+<li><p><strong>Filter elements</strong> represent a special type of dashboard item whose main purpose is to apply filtering to other dashboard items. This capability is always enabled for these dashboard items.</p>
+<p> The following filter elements are available.</p>
+<ul>
+<li>Combo Box</li>
+<li>List Box</li>
+<li><p>Tree View</p>
+<p>Instead of switching between standard master filtering modes, some filter elements allow you to switch their type. This allows you to select a single value or multiple values.</p>
+<p>To learn more, see the <a href="../designing-dashboard-items/filter-elements.html">Filter Elements</a> section.</p>
+</li>
+</ul>
+</li>
+<li><p><strong>Range Filter</strong> is a special type of dashboard item that displays a chart with selection thumbs and allows you to filter out values displayed along the argument axis.</p>
+<p> To learn more, see the <a href="../designing-dashboard-items/range-filter.html">Range Filter</a> section.</p>
+</li>
+<li><p><strong>Dashboard item group</strong> allows you to manage interaction between dashboard items in and out of the group.</p>
+<p> To learn more about the interactivity capabilities of the dashboard item group, see the <strong>Interactivity</strong> paragraph in the <a href="../designing-dashboard-items/dashboard-item-group.html">Dashboard Item Group</a> topic.</p>
+</li>
+</ol>
+<h2 id="a-namemaster-filter-settingsmaster-filter-settings"><a name="master-filter-settings"></a>Master Filter Settings</h2>
+<h3 id="master-filtering-modes">Master Filtering Modes</h3>
+<p>The Master Filter item supports two selection modes.</p>
+<ul>
+<li><em>Multiple</em> - Allows you to select multiple elements in the Master Filter item.</li>
+<li><em>Single</em> - Allows you to select only one element in the Master Filter item. When this mode is enabled, the default selection will be set to a Master Filter element. You can change this selection, but cannot clear it.</li>
+</ul>
+<p>To enable/disable master filtering, use the <strong>Multiple Master Filter</strong> or <strong>Single Master Filter</strong> buttons in the <strong>Data</strong> Ribbon tab.</p>
+<p><img src="../../../images/img21845.png" alt="DataShaping_Interactivity_MultipleMasterFilter_Ribbon"></p>
+<div class="NOTE"><h5>Note</h5><p>If the selected dashboard item contains several types of elements that can be used for filtering, the Ribbon or Toolbar will provide the appropriate buttons to switch between these types (e.g., the <strong>Arguments</strong> and <strong>Series</strong> buttons in the Chart). For details, refer to the documentation for individual dashboard items in the <a href="../designing-dashboard-items.html">Designing Dashboard Items</a> section.</p>
+</div>
+<h3 id="filtering-across-data-sources">Filtering Across Data Sources</h3>
+<p>When different items in a dashboard are bound to different data sources, you can specify that a particular Master Filter should be applied across data sources. This means that it will apply filtering to fields with matching names in all data sources.</p>
+<p>Fields are matched by their full names. For fields in other data sources to be affected by Master Filtering, their names must match the name of the field in the current data source, and they must belong to the same hierarchy level so that their full names also match. For instance, <em>Customer.City</em> and <em>Customer.Address.City</em> will not be treated as matching fields.</p>
+<p>To enable filtering across data sources, use the <strong>Cross-Data-Source Filtering</strong> button in the <strong>Data</strong> Ribbon tab.</p>
+<p><img src="../../../images/img19416.png" alt="DataShaping_Interactivity_MasterFilter_CrossDataSource_Ribbon"></p>
+<h3 id="preventing-items-from-being-filtered">Preventing Items from Being Filtered</h3>
+<p>You can prevent specific dashboard items from being affected by Master Filters. To do this, use the <strong>Ignore Master Filters</strong> button in the <strong>Data</strong> Ribbon tab.</p>
+<p><img src="../../../images/img19417.png" alt="DataShaping_Interactivity_MasterFilter_Ignore_Ribbon"></p>
+<h2 id="a-nameapply-filteringapply-filtering"><a name="apply-filtering"></a>Apply Filtering</h2>
+<p>To learn how to apply filtering in a specific <a href="../designing-dashboard-items.html">dashboard item</a>, refer to the <strong>Master Filtering</strong> topic in the <strong>Interactivity</strong> section for this item.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/master/dashboard-for-desktop/articles/dashboard-designer/interactivity/master-filtering.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2017 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../styles/main.js"></script>
+  </body>
+</html>

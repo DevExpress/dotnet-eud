@@ -1,0 +1,174 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Printing and Exporting | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Printing and Exporting | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.20.0.0">
+    
+    <link rel="shortcut icon" href="../../../favicon.ico">
+    <link rel="stylesheet" href="../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../toc.html">
+    <meta property="docfx:tocrel" content="../../toc.html">
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../index.html">
+                <img id="logo" class="svg" src="../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="printing-and-exporting">Printing and Exporting</h1>
+
+<p>The Dashboard Viewer provides the capability to print or export an entire dashboard and individual items.</p>
+<ul>
+<li><a href="#printing-dashboards">Printing and Exporting Dashboards</a></li>
+<li><a href="#printing-dashboard-items">Printing and Exporting Dashboard Items</a></li>
+</ul>
+<h2 id="a-nameprinting-dashboardsprinting-and-exporting-dashboards"><a name="printing-dashboards"></a>Printing and Exporting Dashboards</h2>
+<p>To print or export the entire dashboard, click the <img src="../../images/img23662.png" alt="ExportToButtonDashboard_Designer"> button in the <a href="data-presentation/dashboard-layout.html">dashboard title</a> area and choose the required action.</p>
+<p><img src="../../images/img22453.png" alt="WinViewer_Printing"></p>
+<h3 id="print-preview">Print Preview...</h3>
+<p>Allows you to customize the document before printing/exporting. For instance, the following settings can be changed: the orientation and size of the printed page, page margins, etc.</p>
+<h3 id="export-to-pdf">Export to PDF</h3>
+<p>Invokes a corresponding dialog that allows you to export a dashboard to a PDF file with specific options. The following options are available:</p>
+<p><img src="../../images/img22909.png" alt="ExportToPDFDialog_Win"></p>
+<ul>
+<li><strong>Page Layout</strong> - Specifies the page orientation used to export a dashboard. You can select between <em>Portrait</em>, <em>Landscape</em>, and <em>Auto</em>. Note that in the <em>Auto</em> mode, page orientation is selected automatically depending on the horizontal and vertical sizes of a dashboard.</li>
+<li><strong>Size</strong> - Specifies the standard paper size (for instance, <em>Letter</em> or <em>A4</em>).</li>
+<li><strong>Show Title</strong> - Specifies whether or not to apply the dashboard title to the exported document title.</li>
+<li><strong>Title</strong> - Specifies the title of the exported document.</li>
+<li><p><strong>Scale Mode</strong> - Specifies the mode for scaling when exporting a dashboard.</p>
+<div class="NOTE"><h5>Note</h5><p>Note that this option is in effect when <strong>Page Layout</strong> is set to a value different from <em>Auto</em>.</p>
+</div>
+</li>
+<li><p><strong>Scale Factor</strong> - Specifies the scale factor (in fractions of 1) by which a dashboard is scaled.</p>
+<div class="NOTE"><h5>Note</h5><p>This option is in effect if <strong>Scale Mode</strong> is set to <em>Use Scale Factor</em>.</p>
+</div>
+</li>
+<li><p><strong>Auto Fit Page Count</strong> - Specifies the number of horizontal/vertical pages spanning the total width/height of a dashboard.</p>
+<div class="NOTE"><h5>Note</h5><p>This option is in effect if <strong>Scale Mode</strong> is set to <em>Auto Fit to Page Width</em>.</p>
+</div>
+</li>
+<li><strong>Include | Filters</strong> - Allows you to include master filter values to the exported document.</li>
+<li><strong>Include | Parameters</strong> - Allows you to include parameter values to the exported document.</li>
+<li><strong>Position</strong> - Specifies the position of the master filter and parameter values in the exported document. You can select between <em>Below</em> and <em>Separate Page</em>.</li>
+</ul>
+<h3 id="export-to-image">Export to Image</h3>
+<p>Invokes a corresponding dialog that allows you to export a dashboard to an image in the specified format. The following options are available:</p>
+<p><img src="../../images/img22910.png" alt="ExportToImageDialog_Win"></p>
+<ul>
+<li><strong>Image Format</strong> - Specifies the image format in which the dashboard is exported. The following formats are available: <em>PNG</em>, <em>JPEG</em>, and <em>GIF</em>.</li>
+<li><strong>Show Title</strong> - Specifies whether or not to apply the dashboard title to the exported document title.</li>
+<li><strong>Title</strong> - Specifies the title of the exported document.</li>
+<li><strong>Resolution (dpi)</strong> - Specifies the resolution (in dpi) used to export a dashboard.</li>
+<li><strong>Include | Filters</strong> - Allows you to include master filter values to the exported document.</li>
+<li><strong>Include | Parameters</strong> - Allows you to include parameter values to the exported document.</li>
+</ul>
+<h3 id="export-to-excel">Export to Excel</h3>
+<p>Invokes a corresponding dialog that allows you to export dashboard&#39;s data to the Excel file. The following options are available:</p>
+<p><img src="../../images/img128217.png" alt="ExportToExcelDialog_Win"></p>
+<ul>
+<li><strong>Excel Format</strong> - Specifies the Excel workbook format in which the dashboard&#39;s data is exported. You can select between <em>XLSX</em> and <em>XLS</em>.</li>
+<li><strong>Include | Filters</strong> - Allows you to include master filter values to the exported document.</li>
+<li><strong>Include | Parameters</strong> - Allows you to include parameter values to the exported document.</li>
+<li><strong>Position</strong> - Specifies the position of the master filter and parameter values in the exported document. You can select between <em>Below</em> and <em>Separate Sheet</em>.</li>
+</ul>
+<p>Specify the required options in the invoked dialog and click the <strong>Export</strong> button to export the dashboard. To reset changes to the default values, click the <strong>Reset</strong> button.</p>
+<h2 id="a-nameprinting-dashboard-itemsprinting-and-exporting-dashboard-items"><a name="printing-dashboard-items"></a>Printing and Exporting Dashboard Items</h2>
+<p>To print or export a dashboard item, click the <img src="../../images/img19552.png" alt="Printing_PrintButton"> button in its <a href="data-presentation/dashboard-layout.html">caption</a> and choose the required action.</p>
+<p><img src="../../images/img19611.png" alt="Printing_PrintElementWIn"></p>
+<ul>
+<li><strong>Print Preview...</strong> - Allows you to customize the document before printing/exporting.</li>
+<li><strong>Export to PDF</strong> - Invokes a corresponding dialog that allows you to export a dashboard to a PDF file with specific options.</li>
+<li><strong>Export to Image</strong> - Invokes a corresponding dialog that allows you to export a dashboard to image in the specified format.</li>
+<li><strong>Export to Excel</strong> - Invokes a corresponding dialog that allows you to export a dashboard item&#39;s data to the Excel workbook or CSV file.</li>
+</ul>
+<p>To learn more about printing/exporting specifics of different dashboard items, see the <strong>Printing and Exporting</strong> topic for the required <a href="dashboard-items.html">dashboard item</a>.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/master/dashboard-for-desktop/articles/dashboard-viewer/printing-and-exporting.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2017 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../styles/main.js"></script>
+  </body>
+</html>

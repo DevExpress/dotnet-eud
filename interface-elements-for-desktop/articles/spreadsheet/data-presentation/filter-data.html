@@ -1,0 +1,185 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Filter Data | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Filter Data | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.20.0.0">
+    
+    <link rel="shortcut icon" href="../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../toc.html">
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../index.html">
+                <img id="logo" class="svg" src="../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="filter-data">Filter Data</h1>
+
+<p>The <strong>Spreadsheet</strong> allows you to use the AutoFilter to arrange large amounts of data by displaying only rows that meet the filtering criteria.</p>
+<p>To enable the filtering functionality, select the required data, and on the <strong>Data</strong> tab, in the <strong>Sort &#38; Filter</strong> group, click the <strong>Filter</strong> button.</p>
+<p><img src="../../../images/img25515.png" alt="Spreadsheet_FilterCommand"></p>
+<p>Once filtering is activated, a drop-down arrow <img src="../../../images/img25500.png" alt="Spreadsheet_FilterAndSortArrow"> appears on the right side of each column header in the range. Depending on the data in the column you wish to filter, you can apply one of the following filters: Filter by Values, Text Filter, Number Filter or Date Filter.</p>
+<div class="NOTE"><h5>Note</h5><p>You can filter your data by multiple columns. Filters are <strong>additive</strong>: each new filter is applied in addition to the existing filters and further reduces your data.</p>
+</div>
+<ul>
+<li><a href="#filtervalues">Filter by Values</a></li>
+<li><a href="#textfilter">Text Filter</a></li>
+<li><a href="#numberfilter">Number Filter</a></li>
+<li><a href="#datefilter">Date and Time Filter</a></li>
+<li><a href="#reapplyfilter">Reapply a Filter</a></li>
+<li><a href="#clearfilter">Clear a Filter</a></li>
+</ul>
+<h2 id="a-namefiltervaluesfilter-by-values"><a name="filtervalues"></a>Filter by Values</h2>
+<p>To filter your data by a list of values, do the following.</p>
+<ol>
+<li>Click the arrow <img src="../../../images/img25500.png" alt="Spreadsheet_FilterAndSortArrow"> in the header of the column containing the values you wish to filter.</li>
+<li><p>In the drop-down menu, select the <strong>Filter by Values</strong> item to invoke the <strong>AutoFilter</strong> dialog.</p>
+<p> <img src="../../../images/img25625.png" alt="Spreadsheet_ApplyFilterByValues"></p>
+</li>
+<li><p>The <strong>AutoFilter</strong> dialog displays a list of all values in the selected column. Click the <strong>Uncheck All</strong> button to deselect the values. Then, select the check boxes for the items you wish to display, and click <strong>OK</strong>.</p>
+<p> <img src="../../../images/img25626.png" alt="Spreadsheet_AutoFilterDialog"></p>
+</li>
+</ol>
+<h2 id="a-nametextfiltertext-filter"><a name="textfilter"></a>Text Filter</h2>
+<p>To apply the text filter, do the following.</p>
+<ol>
+<li>Click the arrow <img src="../../../images/img25500.png" alt="Spreadsheet_FilterAndSortArrow"> in the header of the column containing text values you wish to filter.</li>
+<li><p>Point to <strong>Text Filters</strong> and select one of the built-in comparison operators, or select <strong>Custom Filter</strong> to construct your own filter expression.</p>
+<p> <img src="../../../images/img25591.png" alt="Spreadsheet_ApplyTextFilter"></p>
+</li>
+<li><p>In the invoked <strong>Custom AutoFilter</strong> dialog specify the filter criterion.</p>
+<p> <img src="../../../images/img25592.png" alt="Spreadsheet_CustomTextFilter"></p>
+<p> You can also specify the additional filter criterion using the <strong>AND</strong> or <strong>OR</strong> logical operator to combine the conditions.</p>
+<p> To make your filter criterion more flexible, use the <strong>wildcard characters</strong>. The asterisk <strong>&#42;</strong> matches any number of characters, while the question mark <strong>?</strong> represents a single character. For example, to display all the values that start with the letter &quot;<strong>C</strong>&quot;, you can either use the <strong>Begins With</strong> operator as shown in the image above, or select the <strong>Equals</strong> operator and type &quot;<strong>C&#42;</strong>&quot; in the box on the right.</p>
+<div class="TIP"><h5>Tip</h5><p>To filter values containing a specific character, such as the asterisk, question mark or tilde, put the tilde (&#126;) before it.</p>
+</div>
+</li>
+</ol>
+<h2 id="a-namenumberfilternumber-filter"><a name="numberfilter"></a>Number Filter</h2>
+<p>To apply the number filter, do the following.</p>
+<ol>
+<li>Click the arrow <img src="../../../images/img25500.png" alt="Spreadsheet_FilterAndSortArrow"> in the header of the column containing numeric values you wish to filter.</li>
+<li><p>Point to <strong>Number Filters</strong> and select one of the built-in comparison operators (<strong>Equals</strong>, <strong>Greater Than</strong>, <strong>Less Than</strong>, <strong>Between</strong>, <strong>Top 10</strong>, <strong>Above</strong> or <strong>Below Average</strong>, etc.), or select <strong>Custom Filter</strong> to construct your own filter expression.</p>
+<p> <img src="../../../images/img25564.png" alt="Spreadsheet_ApplyNumberFilter"></p>
+</li>
+<li><p>In the invoked <strong>Custom AutoFilter</strong> dialog specify the filter criterion.</p>
+<p> <img src="../../../images/img25565.png" alt="Spreadsheet_CustomNumberFilter"></p>
+<p> You can also specify the additional filter criterion using the <strong>AND</strong> or <strong>OR</strong> logical operator to combine the conditions.</p>
+</li>
+</ol>
+<h2 id="a-namedatefilterdate-and-time-filter"><a name="datefilter"></a>Date and Time Filter</h2>
+<p>To apply the date filter, do the following.</p>
+<ol>
+<li>Click the arrow <img src="../../../images/img25500.png" alt="Spreadsheet_FilterAndSortArrow"> in the header of the column containing dates you wish to filter.</li>
+<li><p>Point to <strong>Date Filters</strong> and select one of the built-in dynamic filter types to display dates that fall within a specified time period (next, this or last week, month, year, etc.)...</p>
+<p> <img src="../../../images/img25646.png" alt="Spreadsheet_DynamicDateFilter"></p>
+<p> ... or select the <strong>Before</strong>, <strong>After</strong>, <strong>Equals</strong> or <strong>Between</strong> item to invoke the <strong>Custom AutoFilter</strong> dialog and find dates that are before, after or equal to the specified date, or between two dates.</p>
+<p> <img src="../../../images/img25635.png" alt="Spreadsheet_CustomDateFilter"></p>
+</li>
+</ol>
+<h2 id="a-namereapplyfilterreapply-a-filter"><a name="reapplyfilter"></a>Reapply a Filter</h2>
+<p>To reapply a filter after you change your data, click a cell in the range or table to which the filter is applied, and then on the <strong>Data</strong> tab, in the <strong>Sort &#38; Filter</strong> group, click the <strong>Reapply</strong> button.</p>
+<p><img src="../../../images/img25637.png" alt="Spreadsheet_ReapplyFilter"></p>
+<h2 id="a-nameclearfilterclear-a-filter"><a name="clearfilter"></a>Clear a Filter</h2>
+<p>To remove a filter, do the following.</p>
+<ul>
+<li><p>To remove a filter from a specific column, click the <strong>Filter</strong> button <img src="../../../images/img25636.png" alt="Spreadsheet_AppliedFilterIcon"> in the column header, and then select the <strong>Clear Filter From &#39;Column Name&#39;</strong> item in the drop-down menu.</p>
+<p>  <img src="../../../images/img25633.png" alt="Spreadsheet_ClearFilterForColumn"></p>
+</li>
+<li><p>To clear all the specified filters and display the hidden rows, on the <strong>Data</strong> tab, in the <strong>Sort &#38; Filter</strong> group, click the <strong>Clear</strong> button.</p>
+<p>  <img src="../../../images/img25634.png" alt="Spreadsheet_ClearFilterButton"></p>
+</li>
+</ul>
+<p>To disable the filtering functionality, click a cell in the range or table, and then on the <strong>Data</strong> tab, in the <strong>Sort &#38; Filter</strong> group, click the <strong>Filter</strong> button. The drop-down arrows will disappear from the column headers and all the specified filters will be removed.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/master/interface-elements-for-desktop/articles/spreadsheet/data-presentation/filter-data.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2017 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../styles/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,163 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Master-Detail Report (Subreports) | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Master-Detail Report (Subreports) | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.20.0.0">
+    
+    <link rel="shortcut icon" href="../../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../../toc.html">
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../../index.html">
+                <img id="logo" class="svg" src="../../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="master-detail-report-subreports">Master-Detail Report (Subreports)</h1>
+
+<p>This tutorial describes the steps needed to create a master-detail report with hierarchically linked data using the <a href="../report-elements/report-controls.html">Subreport</a> control. For an alternative approach, refer to <a href="master-detail-report-%28detail-report-bands%29.html">Master-Detail Report (Detail Report Bands)</a>.</p>
+<p>To create a master-detail report using the subreport controls, do the following.</p>
+<ul>
+<li><a href="#create">Create a Master Report</a></li>
+<li><a href="#detail">Create and Customize a Detail Report</a></li>
+<li><a href="#subreport">Embed the Subreport</a></li>
+<li><a href="#result">Get the Result</a></li>
+</ul>
+<p><a name="create"></a></p>
+<h2 id="create-a-master-report">Create a Master Report</h2>
+<ol>
+<li><a href="../creating-reports/basic-operations/create-a-new-report.html">Create a new report</a> and <a href="../creating-reports/providing-data/binding-a-report-to-data.html">bind it to a data source</a>. This report will be used as the master report.</li>
+<li><p>Drop the required fields from the <a href="../interface-elements/field-list.html">Field List</a> panel onto the <a href="../report-elements/report-bands.html">Detail band</a>. In this example, the following report layout is used.</p>
+<p> <img src="../../../../images/img123528.png" alt="EUD_WpfReportDersigner_MasterDetail_Master"></p>
+</li>
+<li><p>Drag the <a href="../report-elements/report-controls.html">Subreport</a> control from the <a href="../interface-elements/control-toolbox.html">Toolbox</a> and drop it onto the Detail band.</p>
+<p> <img src="../../../../images/img123549.png" alt="EUD_WpfReportDesigner_MasterDetail_Subreport1"></p>
+</li>
+</ol>
+<p><a name="detail"></a></p>
+<h2 id="create-and-customize-the-detail-report">Create and Customize the Detail Report</h2>
+<ol>
+<li>Next, <a href="../report-wizard/empty-report.html">add one more blank report</a> and <a href="../creating-reports/providing-data/binding-a-report-to-data.html">bind it to the same data source</a>. It will be used as a detail report.</li>
+<li><p>Drop the required fields from the Field List panel onto the Detail band. This tutorial uses the following layout for the detail report.</p>
+<p> <img src="../../../../images/img123550.png" alt="EUD_WpfReportDesigner_MasterDetail_Subreport2"></p>
+</li>
+<li><p>To add a parameter to the report, right-click the <strong>Parameters</strong> section in the <strong>Field List</strong> and choose <strong>Add Parameter</strong> in the invoked context menu.</p>
+<p> <img src="../../../../images/img123551.png" alt="EUD_WpfReportDesigner_MasterDetail_Subreport3"></p>
+</li>
+<li><p>In the invoked <strong>Add New Parameter</strong> dialog, specify its options as shown in the image below.</p>
+<p> <img src="../../../../images/img124070.png" alt="EUD_WpfReportDesigner_MasterDetail_Subreport3a"></p>
+</li>
+<li><p>Select <strong>Edit...</strong> in the report&#39;s context menu. Then, in the <strong>Edit</strong> dialog, click the ellipsis button for the <strong>Filter String</strong> property.</p>
+<p> In the invoked <strong>Filter String Editor</strong>, construct an expression where the <strong>Category ID</strong> data field is compared to the <strong>CatID</strong> parameter. To access the parameter, click the icon on the right until it turns into a question mark.</p>
+<p> <img src="../../../../images/img123552.png" alt="EUD_WpfReportDesigner_MasterDetail_Subreport4"></p>
+</li>
+<li>To save the detail report, click the <strong>Save As</strong> <img src="../../../../images/img120138.png" alt="WPFDesigner_Toolbar_SaveAsIcon"> button  in the <a href="../interface-elements/toolbar.html">Toolbar</a>. Then, in the invoked standard <strong>Save</strong> dialog, specify the folder and file name.</li>
+</ol>
+<p><a name="subreport"></a></p>
+<h2 id="embed-the-subreport">Embed the Subreport</h2>
+<ol>
+<li><p>Next, switch back to the master report. Right-click the subreport and select <strong>Edit...</strong> in the invoked context menu. In the <strong>Edit</strong> dialog, click the ellipsis button for the <strong>Report Source URL</strong> property and select the previously saved detail report.</p>
+<p> <img src="../../../../images/img123553.png" alt="EUD_WpfReportDesigner_MasterDetail_Subreport5"></p>
+</li>
+<li><p>Then, bind the subreport&#39;s <strong>CatID</strong> parameter used as a filtering criterion to the master report&#39;s <strong>CategoryID</strong> data field, which will serve as a source of the parameter value. To do this, select <strong>Edit Parameter Bindings...</strong> in the subreport&#39;s context menu.</p>
+<p> <img src="../../../../images/img123554.png" alt="EUD_WpfReportDesigner_MasterDetail_Subreport6"></p>
+<p> This will invoke the <strong>Parameter Binding Collection Editor</strong>. Click <strong>Add</strong> to add new binding. In the binding properties list, specify the data field to which you want to bind a subreport parameter and the name of the parameter that you want to bind.</p>
+<p> <img src="../../../../images/img123555.png" alt="EUD_WpfReportDesigner_MasterDetail_Subreport7"></p>
+</li>
+</ol>
+<p><a name="result"></a></p>
+<h2 id="get-the-result">Get the Result</h2>
+<p>The master-detail report is now ready to be generated. You can view the result by switching to the <a href="../document-preview.html">Print Preview</a> tab.</p>
+<p><img src="../../../../images/img123532.png" alt="EUD_WpfReportDersigner_MasterDetail_Result"></p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/master/interface-elements-for-desktop/articles/report-designer/report-designer-for-wpf/report-types/master-detail-report-(subreports).md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2017 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../../styles/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,147 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Chart with Static Series | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Chart with Static Series | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.20.0.0">
+    
+    <link rel="shortcut icon" href="../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../toc.html">
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../index.html">
+                <img id="logo" class="svg" src="../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="chart-with-static-series">Chart with Static Series</h1>
+
+<p>This document describes how to create a report with a <a href="../report-elements/report-controls.html">Chart</a> control that displays products and their prices for a selected category. In this example, series data has a single data source, but you can use different data sources for different series if required.</p>
+<p>To adjust a Chart by manually creating its series, do the following:</p>
+<ol>
+<li><a href="../creating-reports/basic-operations/create-a-new-report.html">Create a new report</a> and <a href="../creating-reports/providing-data/bind-a-report-to-data.html">bind it to a data source</a>.</li>
+<li><p>Drop the <a href="../report-elements/report-controls.html">Chart</a> control from the <a href="../interface-elements/toolbox.html">Toolbox</a> onto the report&#39;s <a href="../report-elements/report-bands.html">Detail band</a>.</p>
+<p> <img src="../../../images/img119105.png" alt="eud-chart-static-0"></p>
+</li>
+<li><p>To bind the Chart to a data source, in the <a href="../interface-elements/properties-panel.html">Properties Panel</a>, expand the <strong>Data</strong> category and specify the <strong>Data Source</strong> property.</p>
+<p> <img src="../../../images/img119106.png" alt="eud-chart-static-series-1"></p>
+<div class="NOTE"><h5>Note</h5><p>Set the report&#39;s <strong>Data Source</strong> property to <strong>None</strong> after placing the Chart in the Detail band. Otherwise, the Chart repeats at the preview as many times as there are records in the data source.</p>
+<p><img src="../../../images/img119107.png" alt="eud-chart-static-series-2"></p>
+</div>
+</li>
+<li><p>Select the Chart control once again and click the <strong>Run Designer</strong> button displayed over it.</p>
+<p> <img src="../../../images/img128698.png" alt="eud-chart-control-run-designer"></p>
+</li>
+<li><p>In the invoked <strong>Chart Designer</strong>, add a new series to the Chart control. To do this, locate the <strong>Series</strong> element in the <strong>Chart Structure</strong> tree and click the plus button. In the invoked list of series types, select the required type (for example, <strong>Bar</strong>).</p>
+<p> <img src="../../../images/img128699.png" alt="eud-chart-control-add-series"></p>
+</li>
+<li><p>To populate the created series with points, select it in the tree and switch <strong>Properties</strong> panel at the right of the Designer&#39;s window. Assign the required data fields to the <strong>Argument Data Member</strong> and <strong>Value Data Members</strong> properties to define coordinates for series points.</p>
+<p> <img src="../../../images/img128700.png" alt="eud-chart-control-data-members"></p>
+</li>
+<li><p>To filter series data, expand the <strong>Data Filters</strong> category, create and adjust filtering criteria as demonstrated below.</p>
+<p> <img src="../../../images/img128701.png" alt="eud-chart-control-filter-data"></p>
+</li>
+<li>Create one more series with the same settings, but this time, select the <strong>Point</strong> view type.</li>
+<li><p>To improve your Chart&#39;s appearance, you can make the following adjustments:</p>
+<ul>
+<li>Remove the Chart&#39;s legend as it shows the same data for both series by selecting the <strong>Lagend</strong> item in the <strong>Chart Structure</strong> and setting its <strong>Visibility</strong> property to <strong>False</strong>.</li>
+<li>The point labels for <strong>Series1</strong> are unnecessary, so set the <strong>Labels Visibility</strong> property to <strong>False</strong>.</li>
+<li><p>Rotate the X-axis labels for better readability. To do this, select the <strong>Primary Axis X</strong> node in the tree and adjust properties for its labels (using the <strong>Label</strong> property). For instance, set the <strong>Angle</strong> property to <strong>20</strong> and the <strong>Enable Antialiasing</strong> property to <strong>True</strong>.</p>
+<p>It is also possible to customize other Chart properties.</p>
+</li>
+</ul>
+</li>
+</ol>
+<p>The chart is now ready. Switch your report to the <a href="../document-preview.html">Preview</a> mode and view the result.</p>
+<p><img src="../../../images/img119111.png" alt="eud-chart-static-series-6"></p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/master/interface-elements-for-web/articles/report-designer/report-types/chart-with-static-series.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2017 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../styles/main.js"></script>
+  </body>
+</html>

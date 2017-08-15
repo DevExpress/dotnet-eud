@@ -1,0 +1,145 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Displaying Values from a Database (Binding Report Elements to Data) | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Displaying Values from a Database (Binding Report Elements to Data) | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.20.0.0">
+    
+    <link rel="shortcut icon" href="../../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../../toc.html">
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../../index.html">
+                <img id="logo" class="svg" src="../../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="displaying-values-from-a-database-binding-report-elements-to-data">Displaying Values from a Database (Binding Report Elements to Data)</h1>
+
+<p>Report <a href="../report-designer-reference/report-controls.html">controls</a> can either display <a href="add-or-modify-static-information-in-your-report.html">static</a> information or <em>dynamic</em> data fetched from the <a href="../create-reports/binding-a-report-to-data.html">bound database</a>.</p>
+<p>Data-bound controls are indicated by a yellow database icon in their top-right corner, both in the <a href="../report-designer-reference/report-designer-ui/design-panel.html">Design Panel</a> and <a href="../report-designer-reference/report-designer-ui/report-explorer.html">Report Explorer</a>.</p>
+<p><img src="../../../../images/img8337.png" alt="RD_CreateReports_BindControl_4"></p>
+<p>To embed dynamic information to a report, if this information is contained in the report&#39;s data source, this can easily be done using one of the following approaches.</p>
+<ul>
+<li><a href="#fieldlist">Using the Field List</a></li>
+<li><a href="#smarttag">Using the Smart Tag</a></li>
+<li><a href="#propertygrid">Using the Property Grid</a></li>
+</ul>
+<p>After a control is bound to data, you may wish to employ additional features, which are listed in the final section of this document.</p>
+<ul>
+<li><a href="#special">Special Capabilities</a></li>
+</ul>
+<h2 id="a-namefieldlistusing-the-field-list"><a name="fieldlist"></a>Using the Field List</h2>
+<ul>
+<li><p>To bind an existing report control to a data field, click the required field item in the <a href="../report-designer-reference/report-designer-ui/field-list.html">Field List</a>, and then drag and drop it onto the control. The yellow database icon inside it will indicate that it&#39;s been successfully bound.</p>
+<p>  <img src="../../../../images/img8266.png" alt="RD_Elements_FieldList_1"></p>
+</li>
+<li>To add a new data-bound control, simply drag the required data field from the Field List onto a report band. This will create a <a href="../report-designer-reference/report-controls/label.html">Label</a> bound to this data field.
+  <img src="../../../../images/img8265.png" alt="RD_Elements_FieldList_0"></li>
+<li><p>A more flexible way to create data-bound elements is to right-click a Field List item, and then drag and drop it onto a report. This will invoke the <a href="../report-designer-reference/report-designer-ui/context-menu.html">Context Menu</a>, where you can choose which control should represent your data, and it will be automatically created and bound to the selected data field.</p>
+<p>  <img src="../../../../images/img8267.png" alt="RD_Elements_FieldList_2"></p>
+</li>
+</ul>
+<h2 id="a-namesmarttagusing-the-smart-tag"><a name="smarttag"></a>Using the Smart Tag</h2>
+<p>Click a control&#39;s <a href="../report-designer-reference/report-designer-ui/smart-tag.html">Smart Tag</a>, and in the invoked actions list, expand the <strong>Data Binding</strong> drop-down list, and select the required data field.</p>
+<p><img src="../../../../images/img8334.png" alt="RD_CreateReports_BindControl_1"></p>
+<h2 id="a-namepropertygridusing-the-property-grid"><a name="propertygrid"></a>Using the Property Grid</h2>
+<p>Click a control to select it, and in the <a href="../report-designer-reference/report-designer-ui/property-grid.html">Property Grid</a>, expand the <strong>(Data Bindings)</strong> branch that holds the bindable options. Specify a data field for the required attribute (e.g. <strong>Text</strong>).</p>
+<p><img src="../../../../images/img8335.png" alt="RD_CreateReports_BindControl_2"></p>
+<h2 id="a-namespecialspecial-capabilities"><a name="special"></a>Special Capabilities</h2>
+<p>After a control is bound, you can apply formatting to its dynamic content (e.g. for it to be treated as currency, or date-time content). For details on this, refer to <a href="change-value-formatting-of-report-elements.html">Change Value Formatting of Report Elements</a>.</p>
+<p>It is possible to make a control display a result of a summary function calculated across the data field to which it is bound. For details on this, refer to <a href="add-totals-to-a-report.html">Add Totals to a Report</a>.</p>
+<p>Another noteworthy option is to combine both static and dynamic content within the same control (e.g. to append some text prefix or postfix to a value obtained from a database), or even bind a control to multiple data fields at one time. This is detailed in <a href="use-mail-merge-in-report-elements.html">Use Mail Merge in Report Elements</a>.</p>
+<p>If it&#39;s required to perform some pre-calculations over the data field to which a control is bound, this can be done by creating a <em>calculated field</em>, and binding the control to it. This is detailed at <a href="add-calculated-fields-to-a-report.html">Add Calculated Fields to a Report</a>.</p>
+<p>In turn, a calculated field may contain both dynamic and static <em>parameters</em>, which can be requested each time a report is being previewed. For more information, refer to <a href="add-parameters-to-a-report.html">Add Parameters to a Report</a>.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/master/interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-editing-basics/displaying-values-from-a-database-(binding-report-elements-to-data).md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2017 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../../styles/main.js"></script>
+  </body>
+</html>
