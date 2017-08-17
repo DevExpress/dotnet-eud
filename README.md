@@ -7,8 +7,8 @@ This **End-User Documentation** targets application end-users and explains how t
 ## The Scope
 DevExpress products for WinForms, WPF and ASP.NET WebForms/MVC. 
 
-## Browse End-User Documentation
-To browse this repository's content, start with [index.md](index.md). As you'll see, the documentation is divided into four sections, each having a separate table of contents. 
+## Two Ways to Browse Content
+To browse this repository's content, start with [index.md](index.md).  
 
 We have also compiled this End-User Documentation into a sample website available at [devexpress.github.io/dotnet-eud](https://devexpress.github.io/dotnet-eud/).
 
