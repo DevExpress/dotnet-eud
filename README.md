@@ -5,7 +5,7 @@ This **End-User Documentation** targets application end-users and explains how t
 > For **Developer Documentation with API Reference** see [https://documentation.devexpress.com](https://www.devexpress.com/Support/Documentation/).
 
 ## The Scope
-This End-User Documentation covers DevExpress products for WinForms, WPF and ASP.NET WebForms/MVC. 
+DevExpress products for WinForms, WPF and ASP.NET WebForms/MVC. 
 
 ## Browse End-User Documentation
 To browse this repository's content, start with [index.md](index.md). As you'll see, the documentation is divided into four sections, each having a separate table of contents. 
