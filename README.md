@@ -1,8 +1,8 @@
 # DevExpress End-User Documentation
 
-**End-User Documentation** in this GitHub repository addresses application end-users and explains how to use the UI elements implemented by DevExpress. This information helps software developers create their own help files for projects that include DevExpress technologies.
+This **End-User Documentation** targets application end-users and explains how to use UI elements implemented by DevExpress. This information helps software developers create their own help files for projects that incorporate DevExpress technologies.
 
-> For **Developer Documentation with API Reference** that addresses software developers and explains how to use DevExpress products when building applications see [https://documentation.devexpress.com](https://www.devexpress.com/Support/Documentation/).
+> For **Developer Documentation with API Reference** see [https://documentation.devexpress.com](https://www.devexpress.com/Support/Documentation/).
 
 ## The Scope
 This End-User Documentation covers DevExpress products for WinForms, WPF and ASP.NET WebForms/MVC. 
@@ -13,11 +13,13 @@ To browse this repository's content, start with [index.md](index.md). As you'll 
 We have also compiled this End-User Documentation into a sample website available at [devexpress.github.io/dotnet-eud](https://devexpress.github.io/dotnet-eud/).
 
 ## Document Format and Supported Output Types
-All documents in this repository are markdown files, which are easy to edit, reuse or convert to other formats. 
+Documents in this repository are written in markdown. 
 
-The [docfx.json](docfx.json) file allows you to create a website using the [DocFX](https://dotnet.github.io/docfx/) documentation generation tool. 
+You can select individual documents, modify them as needed, and convert to required file formats.
 
-## Build Your Own Documentation Website
+The repository includes a [docfx.json](docfx.json) file, which enables you to convert a set of topics to an HTML website or a PDF file using [DocFX](https://dotnet.github.io/docfx/) and [wkhtmltopdf](https://github.com/wkhtmltopdf/wkhtmltopdf).   
+
+## Build an HTML Website
 To create a documentation website for your application:
 
 - Download and install the [latest version of DocFX](https://github.com/dotnet/docfx/releases). 
@@ -49,7 +51,7 @@ If your end-users require a printed version, you can create a PDF file:
     ```
 
 ## Obtain End-User Documentation for Versions Prior to 17.1
-This repository provides help files for DevExpress versions starting from 17.1. End-user documentation for previous versions is published in CHM and PDF formats at https://www.devexpress.com/Support/Documentation/download.xml?platform=user-dev-docs.
+This repository provides help files for DevExpress versions 17.1 and above. End-user documentation for previous versions is published in CHM and PDF formats at https://www.devexpress.com/Support/Documentation/download.xml?platform=user-dev-docs.
 
 ## Licensing Questions
 Refer to the [DevExpress End-User Documentation License Agreement](LICENSE.md).
