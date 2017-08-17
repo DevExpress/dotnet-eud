@@ -7,17 +7,18 @@ This **End-User Documentation** targets application end-users and explains how t
 ## The Scope
 DevExpress products for WinForms, WPF and ASP.NET WebForms/MVC. 
 
+## Licensing
+By accessing this repository, you agree to be bound by the terms of the [DevExpress End-User Documentation License Agreement](LICENSE.md).
+
 ## Two Ways to Browse Content
 To browse this repository's content, start with [index.md](index.md).  
 
 We have also compiled this End-User Documentation into a sample website available at [devexpress.github.io/dotnet-eud](https://devexpress.github.io/dotnet-eud/).
 
 ## Document Format and Supported Output Types
-Documents in this repository are written in markdown. 
+Documents in this repository are written in markdown. One way to use them is to manually copy required information to your own help file.
 
-You can select individual documents, modify them as needed, and convert to required file formats.
-
-The repository includes a [docfx.json](docfx.json) file, which enables you to convert a set of topics to an HTML website or a PDF file using [DocFX](https://dotnet.github.io/docfx/) and [wkhtmltopdf](https://github.com/wkhtmltopdf/wkhtmltopdf).   
+The repository also includes a [docfx.json](docfx.json) file, which enables you to convert a set of topics to an HTML website or a PDF file using [DocFX](https://dotnet.github.io/docfx/) and [wkhtmltopdf](https://github.com/wkhtmltopdf/wkhtmltopdf).   
 
 ## Build an HTML Website
 To create a documentation website for your application:
@@ -52,6 +53,3 @@ If your end-users require a printed version, you can create a PDF file:
 
 ## Obtain End-User Documentation for Versions Prior to 17.1
 This repository provides help files for DevExpress versions 17.1 and above. End-user documentation for previous versions is published in CHM and PDF formats at https://www.devexpress.com/Support/Documentation/download.xml?platform=user-dev-docs.
-
-## Licensing Questions
-Refer to the [DevExpress End-User Documentation License Agreement](LICENSE.md).
