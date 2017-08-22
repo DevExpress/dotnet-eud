@@ -46,7 +46,7 @@ If your end-users require a printed version, you can create a PDF file:
     ```
     set PATH=%PATH%;C:\Program Files\wkhtmltopdf\bin
     ```
-- Change the current directory to the repository root folder and call the DocFX executable with the *pdf* and *docfx.json* parameters. This will generate a *_pdf* subfulder with a PDF file for each included table-of-contents file.
+- Change the current directory to the repository root folder and call the DocFX executable with the *pdf* and *docfx.json* parameters. This will generate a *_pdf* subfоlder with a PDF file for each included table-of-contents file.
     ```
     docfx.exe pdf docfx.json
     ```
