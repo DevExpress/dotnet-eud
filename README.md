@@ -41,7 +41,7 @@ To create a documentation website for your application:
 ## Build Printer-Friendly PDF Files
 If your end-users require a printed version, you can create a PDF file:
 - Ensure that you can successfully build a website with DocFX (see the [previous section](#build-your-own-documentation-website)).
-- Download and install [wkhtmltopdf](https://github.com/wkhtmltopdf/wkhtmltopdf).
+- Download and install [wkhtmltopdf](https://wkhtmltopdf.org/downloads.html).
 - Open a console window and add the **wkhtmltopdf** executable path to the %PATH% environment variable:
     ```
     set PATH=%PATH%;C:\Program Files\wkhtmltopdf\bin
