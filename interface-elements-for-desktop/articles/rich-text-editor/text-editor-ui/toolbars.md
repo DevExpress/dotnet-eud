@@ -199,7 +199,7 @@ The **Rich Text** control can be accompanied by a set of toolbars that provide a
 * [Move a Picture or Text Box](../pictures-and-text-boxes/move-a-picture-or-text-box.md)
 
 ## Comment
-![RTEBarsComment](../../../images/img121519.jpg)
+![RTEBarsComment](../../../images/img121519.png)
 
 [Insert a Comment](../miscellaneous/insert-a-comment.md)
 
