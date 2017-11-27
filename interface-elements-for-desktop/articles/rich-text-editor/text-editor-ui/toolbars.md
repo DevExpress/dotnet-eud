@@ -80,7 +80,7 @@ The **Rich Text** control can be accompanied by a set of toolbars that provide a
 [Insert a Symbol](../miscellaneous/insert-a-symbol.md)
 
 ## Page Setup
-![RTEBarsPageSetup](../../../images/img121475.png)
+![RTEBarsPageSetup](../../../images/img121475.jpg)
 * [Adjust Page Settings](../document-layout-and-page-setup/adjust-page-settings.md)
 * [Lay Out Text in Columns](../document-layout-and-page-setup/lay-out-text-in-columns.md)
 * [Insert a Page Break](../miscellaneous/insert-a-page-break.md)
