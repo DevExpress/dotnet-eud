@@ -148,7 +148,7 @@ The **Rich Text** control can be accompanied by a set of toolbars that provide a
 * [Set Table Properties](../tables/set-table-properties.md)
 
 ## Rows &#38; Columns
-![RTEBarsRowsNColumns](../../../images/img121491.jpg)
+![RTEBarsRowsNColumns](../../../images/img121491.png)
 * [Insert a Cell, Row or Column](../tables/insert-a-cell-row-or-column.md)
 * [Delete a Cell, Row or Column](../tables/delete-a-cell-row-or-column.md)
 
