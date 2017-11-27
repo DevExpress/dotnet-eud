@@ -168,7 +168,7 @@ The **Rich Text** control can be accompanied by a set of toolbars that provide a
 [Align Text in Table Cells](../tables/align-text-in-table-cells.md)
 
 ## Protect
-![RTEBarsAlignment](../../../images/img121494.png)
+![RTEBarsAlignment](../../../images/img121495.png)
 
 [Protect and Unprotect a Document](../document-protection/protect-and-unprotect-a-document.md)
 
