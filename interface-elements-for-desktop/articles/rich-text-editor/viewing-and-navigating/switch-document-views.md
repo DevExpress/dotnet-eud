@@ -21,8 +21,6 @@ To enable this view, on the **View** [ tab](../text-editor-ui/ribbon-interface.m
 ![RTEDraftView](../../../images/img121285.png)
 
 In draft view the horizontal ruler is available. To show or hide it, click **Horizontal Ruler** on the **View** ribbon tab.
-
-
 ![RTEHorizontalRulerDraftView](../../../images/img121286 (2).png)
 
 ## Print Layout View
