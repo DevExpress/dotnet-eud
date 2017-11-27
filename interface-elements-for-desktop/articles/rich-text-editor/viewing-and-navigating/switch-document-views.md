@@ -9,7 +9,7 @@ The **Rich Edit** control provides a number of document views that you can switc
 ## Simple View
 A simple view shows a document without a page layout. This view can be useful when you want to concentrate on text editing.
 
-To enable this view, on the **View** [ tab](../text-editor-ui/ribbon-interface.md), in the **Document Views** group, click the **Simple View** button .
+To enable this view, on the **View** [ tab](../text-editor-ui/ribbon-interface.md), in the **Document Views** group, click the **Simple View** button.
 
 ![RTESimpleView](../../../images/img121284.png)
 
@@ -21,6 +21,7 @@ To enable this view, on the **View** [ tab](../text-editor-ui/ribbon-interface.m
 ![RTEDraftView](../../../images/img121285.png)
 
 In draft view the horizontal ruler is available. To show or hide it, click **Horizontal Ruler** on the **View** ribbon tab.
+
 
 ![RTEHorizontalRulerDraftView](../../../images/img121286 (2).png)
 
