@@ -194,7 +194,7 @@ The **Rich Text** control can be accompanied by a set of toolbars that provide a
 * [Add, Change or Delete a Text Box Fill](../pictures-and-text-boxes/add-change-or-delete-a-text-box-fill.md)
 
 ## Arrange
-![RTEBarsArrange](../../../images/img121500.jpg)
+![RTEBarsArrange](../../../images/img121500.png)
 * [Wrap Text around a Picture or Text Box](../pictures-and-text-boxes/wrap-text-around-a-picture-or-text-box.md)
 * [Move a Picture or Text Box](../pictures-and-text-boxes/move-a-picture-or-text-box.md)
 
