@@ -50,7 +50,7 @@ The **Rich Text** control can be accompanied by a set of toolbars that provide a
 [Insert a Page Break](../miscellaneous/insert-a-page-break.md)
 
 ## Tables
-![RTEBarsTables](../../../images/img121469.jpg)
+![RTEBarsTables](../../../images/img121469.png)
 
 [Insert a Table](../tables/insert-a-table.md)
 
