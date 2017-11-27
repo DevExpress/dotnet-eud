@@ -93,7 +93,7 @@ The **Rich Text** control can be accompanied by a set of toolbars that provide a
 [Change Page Background Color](../document-layout-and-page-setup/change-page-background-color.md)
 
 ## Mail Merge
-![RTEBarsMailMerge](../../../images/img121477.jpg)
+![RTEBarsMailMerge](../../../images/img121477.png)
 
 [Mail Merge](../mail-merge.md)
 
