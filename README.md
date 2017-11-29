@@ -11,9 +11,7 @@ DevExpress products for WinForms, WPF and ASP.NET WebForms/MVC.
 By accessing this repository, you agree to be bound by the terms of the [DevExpress End-User Documentation License Agreement](LICENSE.md).
 
 ## Two Ways to Browse Content
-To browse this repository's content, start with [index.md](index.md).  
-
-We have also compiled this End-User Documentation into a sample website available at [devexpress.github.io/dotnet-eud](https://devexpress.github.io/dotnet-eud/).
+To browse this repository's content, start with [index.md](index.md). We have also compiled this End-User Documentation into a sample website available at [devexpress.github.io/dotnet-eud](https://devexpress.github.io/dotnet-eud/).
 
 ## Document Format and Supported Output Types
 Documents in this repository are written in markdown. One way to use them is to manually copy required information to your own help file.
