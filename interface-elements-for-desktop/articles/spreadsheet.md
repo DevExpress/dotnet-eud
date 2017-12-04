@@ -97,6 +97,7 @@ This section describes the capabilities provided by the **Spreadsheet**.
 * [Changing a Chart Type](spreadsheet/charting/changing-a-chart-type.md)
 * [Applying a Predefined Chart Layout and Style](spreadsheet/charting/applying-a-predefined-chart-layout-and-style.md)
 * [Modifying a Chart Manually](spreadsheet/charting/modifying-a-chart-manually.md)
+* [Creating a Chart Sheet](spreadsheet/charting/creating-a-chart-sheet.md)
 
 **Mail Merge**
 * [Mail Merge Overview](spreadsheet/mail-merge/mail-merge-overview.md)
