@@ -1520,6 +1520,8 @@
       href: articles/spreadsheet/charting/applying-a-predefined-chart-layout-and-style.md
     - name: Modifying a Chart Manually
       href: articles/spreadsheet/charting/modifying-a-chart-manually.md
+    - name: Creating a Chart Sheet
+      href: articles/spreadsheet/charting/creating-a-chart-sheet.md
   - name: Mail Merge
     items:
     - name: Mail Merge Overview
