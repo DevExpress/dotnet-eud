@@ -16,10 +16,10 @@ These commands are divided into the following categories.
 ## <a name="clipboard"/>Clipboard
 | Command | Large&nbsp;Icon | Small&nbsp;Icon | Description |
 |---|---|---|---|
-| Paste | ![icon-toolbar-home-paste](../../../../images/img20739.png) | ![icon-small-toolbar-home-paste](../../../../images/img20774.png) | Pastes the content of the clipboard into a carriage position. |
+| Paste | ![icon-toolbar-home-paste](../../../../images/img20738.png) | ![icon-small-toolbar-home-paste](../../../../images/img20774.png) | Pastes the content of the clipboard into a carriage position. |
 | Cut | ![icon-toolbar-home-cut](../../../../images/img20725.png) | ![icon-small-toolbar-home-cut](../../../../images/img20760.png) | Cuts the selected content and places it in the clipboard. |
 | Copy | ![icon-toolbar-home-copy](../../../../images/img20724.png) | ![icon-small-toolbar-home-copy](../../../../images/img20759.png) | Copies the selected content and places it in the clipboard. |
-| Paste&nbsp;Special | ![icon-toolbar-home-paste-special](../../../../images/img20738.png) | ![icon-small-toolbar-home-paste-special](../../../../images/img20773.png) | Invokes the **Paste Special** dialog, allowing you to paste the content of the clipboard with a specified formatting. |
+| Paste&nbsp;Special | ![icon-toolbar-home-paste-special](../../../../images/img20739.png) | ![icon-small-toolbar-home-paste-special](../../../../images/img20773.png) | Invokes the **Paste Special** dialog, allowing you to paste the content of the clipboard with a specified formatting. |
 
 ## <a name="font"/>Font
 | Command | Large&nbsp;Icon | Small&nbsp;Icon | Description |
