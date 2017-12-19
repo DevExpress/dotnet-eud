@@ -33,7 +33,7 @@ Menu items highlighted in the illustration, are intended for creating new appoin
 	
 	Selecting this menu item invokes the **Edit Appointment** dialog, used to create a new appointment, extended with the **Recurrence** feature, which allows the recurrence pattern to be specified for the new appointment.
 	
-	![RecurrencePartNewApp](../../../images/img7971.png)
+	![RecurrencePartNewApp](../../../images/app-reminders.png)
 4. **New Recurring Event**
 	
 	Selecting this menu item invokes the **Edit Event** window, used to create a new all-day appointment, extended with the **Recurrence** feature, which allows the recurrence pattern to be specified for the new event.
