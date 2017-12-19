@@ -67,8 +67,6 @@ The **Edit Appointment** dialog allows you to edit the following properties of a
 * **Recurrence**
 	
 	Expands the **Recurrence** section that specifies a recurrence pattern for the appointment. For more information, see [Make a Series of Recurring Appointments](make-a-series-of-recurring-appointments.md).
-	
-	![RecurrencePartNewApp](../../../images/img7971.png)
 
 ## In-place Editor
 Double-click a specific appointment to invoke its **In-place Editor**, which allows you to edit an appointment's **Subject**.
