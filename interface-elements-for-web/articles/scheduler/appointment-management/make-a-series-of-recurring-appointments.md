@@ -16,7 +16,7 @@ The recurrence pattern contains information on appointment recurrence (a start d
 
  You can create and edit the recurrence pattern of an appointment in the standard [Edit Appointment](edit-an-appointment.md) dialog, by selecting the **Recurrence** check box. The image below demonstrates the common appearance of the recurrence section of the **Edit Appointment** dialog.
 
-![EditAppRecurrence](../../../images/img12066.png)
+![EditAppRecurrence](../../../images/app-reminders.png)
 
 In this dialog you can specify all the required values of different elements to define the recurrence behavior. The base element of the recurrence pattern is frequency. It specifies how often corresponding appointments will occur: **Daily**, **Weekly**, **Monthly** or **Yearly**.
 
