@@ -19,7 +19,7 @@ Menu items highlighted in the illustration, are intended for creating new appoin
 	
 	The **Start time** and **End time** values are initially set to the beginning and ending boundaries of the current date and time selection. The **Show time as** field is set to **Busy**. The **Resource** field value is set to the resource to which the selected cell belongs, although it may be **Any**, when appointments are not grouped by resources.
 	
-	![NewAppointmentForm](../../../images/img7970.png)
+	![NewAppointmentForm](../../../images/create-app.png)
 	
 	Fill in the **Subject**  and **Location** fields. If necessary, drop some lines of text into the text box at the bottom of the dialog, and they will be shown within an appointment in either **Day View** or **Work Week View**.
 	
