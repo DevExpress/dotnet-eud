@@ -997,6 +997,18 @@
       href: articles/tree-list/data-presentation/expand-and-collapse-tree-list-nodes.md
     - name: Sort Nodes in Tree List
       href: articles/tree-list/data-presentation/sort-nodes-in-tree-list.md
+  - name: Filtering
+    items:
+    - name: Header Filter 
+      href: articles/tree-list/filtering/header-filter.md
+    - name: Date Range Header Filter
+      href: articles/tree-list/filtering/date-range-header-filter.md
+    - name: Data Filter Row
+      href: articles/tree-list/filtering/filter-row.md
+    - name: Search Panel
+      href: articles/tree-list/filtering/search-panel.md
+    - name: Creating Complex Filter Criteria with the Filter Control
+      href: articles/tree-list/filtering/creating-complex-filter-criteria-with-the-filter-control.md
   - name: Layout and Navigation
     items:
     - name: Selection and Navigation in Tree List
