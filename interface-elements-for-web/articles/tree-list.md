@@ -24,5 +24,14 @@ This section describes the capabilities provided by the **Tree List** (multi-col
 
 &nbsp;
 
+**Filtering**
+* [Date Range Header Filter](tree-list/filtering/date-range-header-filter.md)
+* [Header Filter](tree-list/filtering/header-filter.md)
+* [Creating Complex Filter Criteria With The Filter Control](tree-list/filtering/creating-complex-filter-criteria-with-the-filter-control.md)
+* [Filter Row](tree-list/filtering/filter-row.md)
+* [Search Panel](tree-list/filtering/search-panel.md)
+
+&nbsp;
+
 **Selection and Navigation**
 * [Selection and Navigation in Tree List](tree-list/layout-and-navigation/selection-and-navigation-in-tree-list.md)
