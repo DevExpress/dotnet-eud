@@ -30,7 +30,7 @@ Also, this menu contains the **Open** item, which allows you to invoke the [Edit
 ## <a name="editappointmentdialog"/>Edit Appointment Dialog
 To invoke the **Edit Appointment** dialog, you can use an **Open** item of an appointment's [context menu](#contextmenu). The common appearance of this dialog is illustrated below.
 
-![EditForm](../../../images/img8238.png)
+![EditForm](../../../images/app-reminders.png)
 
 The **Edit Appointment** dialog allows you to edit the following properties of an appointment:
 * **Subject**
