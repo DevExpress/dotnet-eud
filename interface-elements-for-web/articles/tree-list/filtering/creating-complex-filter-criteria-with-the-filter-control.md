@@ -9,7 +9,7 @@ To open the **Filter Control**, click one of the following.
 	![FilterControlShow1](../../../images/tree-list-create-filter-control.png)
 * the filter expression link.
 	
-	![FilterControlShow2](../../../images/tree-list-filter-control.png)
+	![FilterControlShow2](../../../images/tree-list-filter-control-new.png)
 
 To create and customize filter criteria, use the ![FilterEditor_EU_AddButton](../../../images/img7350.png) and ![FilterEditor_EU_DeleteButton](../../../images/img7351.png) buttons embedded into the control:
 
