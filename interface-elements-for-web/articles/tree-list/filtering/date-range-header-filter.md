@@ -1,3 +1,7 @@
+---
+title: Date Range Header Filter
+author: Anna Kondratova
+---
 # Date Range Header Filter
 For columns containing date and time data, the dropdown displays a date range header filter.
 
