@@ -1,3 +1,7 @@
+---
+title: Header Filter
+author: Anna Kondratova
+---
 # Header Filter
 To filter data or change the filter conditions in the tree list, you can use the **Header Filter**.
 
