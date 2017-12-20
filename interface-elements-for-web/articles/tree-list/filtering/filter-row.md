@@ -1,4 +1,9 @@
-#Filter Row
+---
+title: Filter Row
+author: Anna Kondratova
+---
+
+# Filter Row
 
 Typing text within the **Filter Row** automatically creates a filter condition based on the value entered and applies it to the corresponding column.
 
