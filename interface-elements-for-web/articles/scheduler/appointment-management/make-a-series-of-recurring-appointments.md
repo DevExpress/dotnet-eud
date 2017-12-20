@@ -41,4 +41,4 @@ To replace an exception with a regular occurrence and discard all modifications,
 
 ![RecurringAppRestore](../../../images/img12071.png)
 
-Editing an appointment series's recurrence pattern (**Edit Series** context menu item) resets the recurrence chain, and restores all the exceptions to their default state. A warning is deisplayed before this happens.
+Editing an appointment series's recurrence pattern (**Edit Series** context menu item) resets the recurrence chain, and restores all the exceptions to their default state. A warning is displayed before this happens.
