@@ -1,3 +1,7 @@
+---
+title: Search Panel
+author: Anna Kondratova
+---
 # Search Panel
 To filter data and highlight search results, type a filter criterion in the search panel.
 
