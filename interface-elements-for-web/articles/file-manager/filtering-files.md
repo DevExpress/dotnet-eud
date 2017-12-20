@@ -1,3 +1,7 @@
+---
+title: Filtering Files
+author: Anna Kondratova
+---
 # Filtering Files
 End-users can filter file manager items within the current folder and all subfolders. 
 * To filter files or change the filter conditions type text within the Filter Box.
