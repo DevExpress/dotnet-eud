@@ -3,16 +3,17 @@ title: Header Filter
 author: Anna Kondratova
 ---
 # Header Filter
-To filter data or change the filter conditions in the tree list, you can use the **Header Filter**.
 
-Click a filter button to invoke the filter dropdown, which lists unique values in a column.
+Use the **Header Filter** to filter tree list data against a column.
 
-If the dropdown displays check boxes, check them to select the required values, and click **OK** to apply the filter criteria.
+Click a filter button to invoke the filter dropdown, which lists unique values within a column.
+
+If the dropdown displays check boxes, select the required values, and click **OK** to apply the filter criteria.
 
 ![EUD_TreeList_HeaderFilterCheckboxes](../../../images/header-filter-check-box.png)
 
-If the dropdown does not display check boxes, click the required value to apply the filter criteria.
+If the dropdown displays its items as a regular list, click the required value to apply the filter criteria.
 
 ![EUD_TreeList_HeaderFilterList](../../../images/header-filter-list.png)
 
-If filtering is applied, the filter dropdown only displays values that match the filter criteria. To remove the filter, click **(All)**.
+If filtering is applied, the tree list displays only values that match the filter criteria. To remove the filter, click **(All)** within the dropdown.
