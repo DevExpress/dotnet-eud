@@ -7,15 +7,15 @@ To build complex filter criteria with an unlimited number of filter conditions, 
 
 ![FilterControl](../../../images/img8592.png)
 
-To open the **Filter Control**, click one of the following.
-* the filter image displayed within the filter bar.
+Open the **Filter Control** using one of the following:
+* click the filter image displayed in the filter bar.
 	
 	![FilterControlShow1](../../../images/tree-list-create-filter-control.png)
-* the filter expression link.
+* click the filter expression link displayed in the filter bar.
 	
 	![FilterControlShow2](../../../images/tree-list-filter-control-new.png)
 
-To create and customize filter criteria, use the ![FilterEditor_EU_AddButton](../../../images/img7350.png) and ![FilterEditor_EU_DeleteButton](../../../images/img7351.png) buttons embedded into the control:
+Use the ![FilterEditor_EU_AddButton](../../../images/img7350.png) and ![FilterEditor_EU_DeleteButton](../../../images/img7351.png) buttons embedded into the control to create and customize filter criteria:
 
 ![FilterControlInfo](../../../images/img8602.png)
 
@@ -23,8 +23,8 @@ To create and customize filter criteria, use the ![FilterEditor_EU_AddButton](..
 
 **Remarks**
 
-A filter condition group is a set of conditions combined by the same logical operator. The following filter expression contains two groups combined by the logical **OR** operator: "(Country Equals 'UK' And Category Equals 'Beverages') Or (Country Equals 'USA' And Category Equals 'Produce')". In the **Filter Control**, it is represented as follows.
+A filter condition group is a set of conditions combined by a logical operator. The following filter expression contains two groups combined by the logical **OR** operator: "(Country Equals 'UK' And Category Equals 'Beverages') Or (Country Equals 'USA' And Category Equals 'Produce')". 
 
 ![FilterControlConditionGroups](../../../images/img8603.png)
 
-To learn more, see the [Filter Editor](../../filter-editor.md) topic.
+Refer to the [Filter Editor](../../filter-editor.md) topic for more information.
