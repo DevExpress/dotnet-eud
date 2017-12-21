@@ -14,9 +14,7 @@ Recurring appointments are created as a series of appointments using the [recurr
 ## <a name="recurrencepattern"/>Recurrence Pattern
 The recurrence pattern contains information on appointment recurrence (a start date and time of the recurrence series and a rule according to which a series is repeated).
 
--- "a start date and time of the recurrence series and a rule according to which a series is repeated" What are you trying to say here?
-
- You can create and edit an appointment's recurrence pattern in the standard [Edit Appointment](edit-an-appointment.md) dialog by selecting the **Recurrence** check box. The image below demonstrates the the usual appearance of the **Edit Appointment** dialog's recurrence section.
+You can create and edit an appointment's recurrence pattern in the standard [Edit Appointment](edit-an-appointment.md) dialog by selecting the **Recurrence** check box. The image below demonstrates the the usual appearance of the **Edit Appointment** dialog's recurrence section.
 
 ![EditAppRecurrence](../../../images/app-reminders.png)
 
