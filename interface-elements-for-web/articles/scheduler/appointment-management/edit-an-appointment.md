@@ -12,7 +12,7 @@ There are two ways to invoke an appointment's context menu:
 	> [!NOTE]
 	> This approach may be useful if you use a web browser (for example, **Opera**) and right-clicking on an appointment does not invoke a **Scheduler** control's context menu.
 
-This context menu contains items that allow you to modify some appointment properties. For example, you can use the **Show Time As** submenu to change an appointment's status.
+This context menu contains items that allow you to modify certain appointment properties. For example, you can use the **Show Time As** submenu to change an appointment's status.
 
 ![EditMenuShowTimeAs](../../../images/img8234.png)
 
@@ -54,7 +54,7 @@ The **Edit Appointment** dialog allows you to edit the following appointment pro
 	![EditAppStatus](../../../images/img12070.png)
 * **All day event**
 	
-	Transforms an appointment into an all-day event which always lasts an entire day (or several days). Note that if this property is **true**, the **Start** and **End** properties' real-time values are ignored, and instead, the start of the appointment is **0:00** on the **Start** date and the end of the appointment is **24:00** on the **End** date.
+	Transforms an appointment into an all-day event which always lasts an entire day (or several days). Note that if this property is **true**, the **Start** and **End** properties' real-time values are ignored, and instead, the appointment starts at **0:00** on the **Start** date and ends at **24:00** on the **End** date.
 * **Resource**
 	
 	A resource that is assigned to an appointment. This resource can be used to [group appointments by resources](../layout-customization/scheduler-grouping.md).
