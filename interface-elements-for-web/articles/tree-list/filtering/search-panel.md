@@ -10,11 +10,11 @@ Use the Search Panel to locate data and highlight search result by typing the fi
 
 ## Applying the Search Panel Filter Criterion
 
-Press the ENTER key or click the **Search** button to apply a filter criterion typed in the search panel. Otherwise, a filter is automatically applied in 1.2 seconds.
+Press Enter or click the **Search** button to apply a filter criterion typed in the search panel. Otherwise, a filter is automatically applied in 1.2 seconds.
 
 ## Clearing the Search Panel Filter Criterion
 To clear the search panel filter criterion, do one of the following:
-* Press DELETE or BACKSPACE.
+* Press Delete or Backspace.
 * Click the **Clear** button.
 * Click the clear button in the search box when it is focused and not empty.
 	
@@ -35,7 +35,7 @@ A search criterion consists of a single word in its simplest form. However, the 
 	
 	![EUD_Grid_SearchPanelCriterion2](../../../images/img25475.png)
 	
-	End-users can search against a specific column by preceding a search string with the column's caption plus a colon character. Instead of the complete caption, it is possible to use the caption's initial characters to perform a search against the first column whose name starts with the specified substring. To search against a column whose caption contains space characters, specify the column's display caption in quotation marks.
+	You can search against a specific column by preceding a search string with the column's caption plus a colon character. Instead of the complete caption, it is possible to use the caption's initial characters to perform a search against the first column whose name starts with the specified substring. To search against a column whose caption contains space characters, specify the column's display caption in quotation marks.
 	
 	If the search string contains multiple conditions separated by space characters, and at least one condition defines a search against a specific column, the tree list displays only records that match all of these conditions (the AND logical operator combines conditions).
 	
