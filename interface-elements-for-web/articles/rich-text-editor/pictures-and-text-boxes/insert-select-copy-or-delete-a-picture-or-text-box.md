@@ -11,7 +11,7 @@ Position the caret to the desired location and click the **Inline Picture** butt
 
 ![EUD_ASPxRichEdit_Insert_InsertInlinePicture](../../../images/img117833.png)
 
-In the invoked **Insert Image** dialog box, enter an image's web address (to load a picture from the web) or locate the required folder and select a file with graphics (to load pictures from your computer). Click Insert to insert the picture into the document.
+In the invoked **Insert Image** dialog box, enter an image's web address (to load a picture from the web) or locate the required folder and select a file with graphics (to load pictures from your computer). Click **Insert** to insert the picture into the document.
 
 ![EUD_ASPxRichEdit_Insert_InsertPictureDialog](../../../images/img117834.png)
 
