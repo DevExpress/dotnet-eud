@@ -4,7 +4,7 @@ author: Bogdan Harchenko
 legacyId: 4858
 ---
 # Tree List
-This section describes the capabilities provided by the **Tree List** (multi-column tree view).
+This section describes the capabilities the **Tree List** (multi-column tree view) provides.
 
 ![ASPxTreeList](../images/img6967.png)
 
