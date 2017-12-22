@@ -44,4 +44,4 @@ To delete an image or text box follow the instructions below.
 
 ## <a name="delete"/>Delete a Picture or Text Box
 1. [Select](#select) a picture/text box.
-2. Press **DELETE** or **BACKSPACE**
+2. Press **Delete** or **Backspace**
