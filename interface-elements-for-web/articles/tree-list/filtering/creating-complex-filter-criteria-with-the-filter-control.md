@@ -13,7 +13,7 @@ Open the **Filter Control** using one of the following:
 	![FilterControlShow1](../../../images/tree-list-create-filter-control-image.png)
 * Click the filter expression link in the filter bar.
 	
-	![FilterControlShow2](../../../images/tree-list-filter-control-expression.png)
+	![FilterControlShow2](../../../images/tree-list-filter-control-expression-link.png)
 
 Use the ![FilterEditor_EU_AddButton](../../../images/img7350.png) and ![FilterEditor_EU_DeleteButton](../../../images/img7351.png) buttons embedded into the control to create and customize the filter criteria:
 
