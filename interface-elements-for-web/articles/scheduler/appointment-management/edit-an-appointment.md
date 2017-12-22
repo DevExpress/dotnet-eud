@@ -76,15 +76,15 @@ Double-click an appointment to invoke its **In-place Editor** which allows you t
 Note that if you need to edit other appointment properties, you can invoke the [Edit Appointment dialog](#editappointmentdialog) via the **Open Appointment Editing Form** button.
 
 ## Mouse Operations
-To select an appointment, click it with the left mouse button. To select several appointments, press and hold the CTRL key and then click appointments with the left mouse button.
+To select an appointment, click it with the left mouse button. To select several appointments, press and hold the Ctrl key and then click appointments with the left mouse button.
 
 Drag-and-drop operations enable you to change an appointment's time interval if an appointment is moved along a time cell area.
 
 ![DragDrop](../../../images/img8239.png)
 
-If you press ESC before dropping an appointment, all changes are canceled, and the appointment returns to its original location.
+If you press Esc before dropping an appointment, all changes are canceled, and the appointment returns to its original location.
 
-If you press and hold the CTRL key and click and drag an appointment (or several appointments), you create appointment copy(s) when the mouse button is released.
+If you press and hold the Ctrl key and click and drag an appointment (or several appointments), you create appointment copy(s) when the mouse button is released.
 
 You can also change an appointment's type to **all-day** and vice-versa by dragging the appointment between the all-day area and time cells.
 
