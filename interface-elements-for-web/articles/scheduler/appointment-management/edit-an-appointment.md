@@ -25,7 +25,7 @@ This menu also contains the **Open** item which allows you to invoke the appoint
 ![EditMenuOpen](../../../images/img8233.png)
 
 > [!NOTE]
-> The appointment's context menu can also contain the **Edit Series** and **Restore Default State** menu items. This means that an appointment is a part of a recurring appointment series. See [Make a Series of Recurring Appointments](make-a-series-of-recurring-appointments.md) For more information.
+> The appointment's context menu can also contain the **Edit Series** and **Restore Default State** menu items. This means that an appointment is a part of a recurring appointment series. See [Make a Series of Recurring Appointments](make-a-series-of-recurring-appointments.md) for more information.
 
 ## <a name="editappointmentdialog"/>Edit Appointment Dialog
 To invoke the **Edit Appointment** dialog, select **Open** in an appointment's [context menu](#contextmenu). This dialog's usual appearance is illustrated below.
