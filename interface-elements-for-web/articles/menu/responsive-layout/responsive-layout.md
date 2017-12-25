@@ -1,8 +1,8 @@
 ---
-title: Adaptive Layout
+title: Responsive Layout
 author: Anna Kondratova
 ---
-# Adaptive Layout
+# Responsive Layout
 
 When the browser window changes its width, the menu can operate in the following modes:
 * The menu automatically resizes or hides its items to the popup menu hidden under the ellipse button. Click the ellipsis button to show the hidden items.
