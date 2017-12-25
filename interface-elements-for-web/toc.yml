@@ -30,6 +30,8 @@
       href: articles/card-view/filtering/creating-complex-filter-criteria-with-the-filter-control.md
     - name: Header Filter
       href: articles/card-view/filtering/header-filter.md
+    - name: Date Range Header Filter
+      href: articles/card-view/filtering/date-range-header-filter.md      
     - name: Search Panel
       href: articles/card-view/filtering/search-panel.md
 - name: Charting
