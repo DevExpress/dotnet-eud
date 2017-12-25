@@ -421,7 +421,9 @@
   href: articles/menu.md
   items:
   - name: Menu Scrolling
-    href: articles/menu/menu-scrolling.md
+    href: articles/menu/menu-scrolling/menu-scrolling.md
+  - name: Responsive Layout
+    href: articles/menu/responsive-layout/responsive-layout.md
 - name: Navigation Bar
   href: articles/navigation-bar.md
 - name: News Control
