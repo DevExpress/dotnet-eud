@@ -4,7 +4,7 @@ author: Bogdan Harchenko
 legacyId: 4858
 ---
 # Tree List
-This section describes the capabilities provided by the **Tree List** (multi-column tree view).
+This section describes the capabilities the **Tree List** (multi-column tree view) provides.
 
 ![ASPxTreeList](../images/img6967.png)
 
@@ -21,6 +21,15 @@ This section describes the capabilities provided by the **Tree List** (multi-col
 * [Reorder Tree List Nodes](tree-list/layout-and-navigation/reorder-tree-list-nodes.md)
 * [Sort Nodes in Tree List](tree-list/data-presentation/sort-nodes-in-tree-list.md)
 * [Field Chooser](tree-list/layout-and-navigation/field-chooser.md)
+
+&nbsp;
+
+**Filtering**
+* [Date Range Header Filter](tree-list/filtering/date-range-header-filter.md)
+* [Header Filter](tree-list/filtering/header-filter.md)
+* [Creating Complex Filter Criteria With The Filter Control](tree-list/filtering/creating-complex-filter-criteria-with-the-filter-control.md)
+* [Filter Row](tree-list/filtering/filter-row.md)
+* [Search Panel](tree-list/filtering/search-panel.md)
 
 &nbsp;
 

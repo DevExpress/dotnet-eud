@@ -1,11 +1,10 @@
 ---
 title: Filtering Files
-author: Svetlana Nikulina
-legacyId: 9363
+author: Anna Kondratova
 ---
 # Filtering Files
-Filtering allows only files that meet the specified criteria be displayed.
-* To filter files or change the filter conditions type text within the Filter Box.
-* To remove a filter, clear the text from the **Filter Box**.
+You can filter file manager items within the current folder and subfolders. 
+* Type text in the Filter Box to filter files or change the filter conditions.
+* Clear the text from the **Filter Box** to remove a filter.
 
 ![ASPxFileManager - Highlight](../../images/img12552.png)

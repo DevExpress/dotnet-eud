@@ -23,5 +23,6 @@ This section describes the capabilities provided by the Card View control, which
 
 **Filtering**
 * [Header Filter](card-view/filtering/header-filter.md)
+* [Date Range Header Filter](card-view/filtering/date-range-header-filter.md)
 * [Search Panel](card-view/filtering/search-panel.md)
 * [Creating Complex Filter Criteria with the Filter Control](card-view/filtering/creating-complex-filter-criteria-with-the-filter-control.md)
