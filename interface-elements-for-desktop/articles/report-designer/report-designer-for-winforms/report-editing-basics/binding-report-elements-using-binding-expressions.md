@@ -13,7 +13,7 @@ the top-right corner.
 
 ![Design Panel](../../../../images/design-panel-database-icons.png)
 
-You can use the following approaches to include  information from a data source to your report:
+You can use the following approaches to include information from a data source to your report:
 
 * [Using the Field List](#using-the-field-list)
 * [Using the Smart Tag](#using-the-smart-tag)
