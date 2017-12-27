@@ -8,7 +8,7 @@
     <title>Make a Series of Recurring Appointments | DevExpress End-User Documentation </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Make a Series of Recurring Appointments | DevExpress End-User Documentation ">
-    <meta name="generator" content="docfx 2.20.0.0">
+    <meta name="generator" content="docfx 2.28.1.0">
     
     <link rel="shortcut icon" href="../../../../favicon.ico">
     <link rel="stylesheet" href="../../../../styles/docfx.vendor.css">
@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="../../../../styles/main.css">
     <meta property="docfx:navrel" content="../../../../toc.html">
     <meta property="docfx:tocrel" content="../../../toc.html">
+    
     
     
   </head>
@@ -69,25 +70,25 @@
 <h1 id="make-a-series-of-recurring-appointments">Make a Series of Recurring Appointments</h1>
 
 <h2 id="what-is-a-recurring-appointment">What is a Recurring Appointment?</h2>
-<p>All appointments supported by the <strong>Scheduler</strong> control can be simple (non-recurring) or recurring. Non-recurring appointments occur only once in a specified time interval. Recurring appointments occur many times in the same time interval on different dates.</p>
-<p>Recurring appointments are created as series of appointments, specified by the <a href="#recurrencepattern">recurrence pattern</a> and indicated with the <img src="../../../images/img4572.png" alt="AppointmentImageType.Recurrence"> recurrence sign.</p>
+<p>The <strong>Scheduler</strong> control supports simple (non-recurring) or recurring appointments. Non-recurring appointments occur only once at a specified time interval. Recurring appointments occur many times at the same time interval on different dates.</p>
+<p>Recurring appointments are created as a series of appointments using the <a href="#recurrencepattern">recurrence pattern</a> and identified by the <img src="../../../images/img4572.png" alt="AppointmentImageType.Recurrence"> recurrence sign.</p>
 <p><img src="../../../images/img12067.png" alt="RecurringAppointments"></p>
 <h2 id="a-namerecurrencepatternrecurrence-pattern"><a name="recurrencepattern"></a>Recurrence Pattern</h2>
-<p>The recurrence pattern contains information on appointment recurrence (a start date and time of the recurrence series and a rule according to which a series is repeated).</p>
-<p> You can create and edit the recurrence pattern of an appointment in the standard <a href="edit-an-appointment.html">Edit Appointment</a> dialog, by selecting the <strong>Recurrence</strong> check box. The image below demonstrates the common appearance of the recurrence section of the <strong>Edit Appointment</strong> dialog.</p>
-<p><img src="../../../images/img12066.png" alt="EditAppRecurrence"></p>
-<p>In this dialog you can specify all the required values of different elements to define the recurrence behavior. The base element of the recurrence pattern is frequency. It specifies how often corresponding appointments will occur: <strong>Daily</strong>, <strong>Weekly</strong>, <strong>Monthly</strong> or <strong>Yearly</strong>.</p>
-<p>In addition, for each of these frequency types you can define periodicity - the time interval in which the recurrence&#39;s frequency will be applied. For instance, if you have defined that appointments occur <strong>Daily</strong>, you can also specify whether appointments repeat every several days or every week day. For the <strong>Monthly</strong> appointment frequency, you can specify for how many weeks and on which week days an appointment will recur.</p>
-<p>Also, you can specify when appointment recurrence must be stopped.</p>
-<p>If an appointment is recurring, its context menu contains the <strong>Edit Series</strong> item. Clicking this item invokes the <strong>Edit Appointment</strong> dialog that you can use to edit the recurrence pattern.</p>
+<p>The recurrence pattern contains information on appointment recurrence (the recurrence series&#39;s start date and time and a rule according to which a series is repeated).</p>
+<p>You can create and edit an appointment&#39;s recurrence pattern in the standard <a href="edit-an-appointment.html">Edit Appointment</a> dialog by selecting the <strong>Recurrence</strong> check box. The image below illustrates the usual appearance of the <strong>Edit Appointment</strong> dialog&#39;s recurrence section.</p>
+<p><img src="../../../images/app-reminders.png" alt="EditAppRecurrence"></p>
+<p>In this dialog, you can specify different elements&#39; values to define the recurrence behavior. Frequency is the recurrence pattern&#39;s base element. It specifies how often the corresponding appointments occur: <strong>Daily</strong>, <strong>Weekly</strong>, <strong>Monthly</strong> or <strong>Yearly</strong>.</p>
+<p>You can define periodicity for each frequency type - the time interval in which the recurrence&#39;s frequency is applied. For instance, if you have specified that appointments occur <strong>Daily</strong>, you can also specify whether appointments repeat every couple of days or every weekday. For the <strong>Monthly</strong> appointment frequency, you can specify for how many weeks and on which weekdays an appointment recurs.</p>
+<p>You can also specify when an appointment&#39;s recurrence must end.</p>
+<p>If an appointment is recurring, its context menu contains the <strong>Edit Series</strong> item. Clicking this item invokes the <strong>Edit Appointment</strong> dialog for editing the recurrence pattern.</p>
 <p><img src="../../../images/img12068.png" alt="RecurringAppContextMenu"></p>
-<p>If you use the <strong>Open</strong> item of the context menu to invoke the <strong>Edit Appointment</strong> dialog, you can edit only the current appointment, rather than the entire series. This way you can create <a href="#exceptions">exceptions</a>.</p>
+<p>If you use the context menu&#39;s <strong>Open</strong> item to invoke the <strong>Edit Appointment</strong> dialog, you can edit only the current appointment to avoid raising <a href="#exceptions">exceptions</a>.</p>
 <h2 id="a-nameexceptionsexceptions"><a name="exceptions"></a>Exceptions</h2>
-<p>If an occurrence (appointment that belongs to a series of recurring appointments) has some of its properties modified, it is called an <strong>Exception</strong>. Such appointments are marked with the <img src="../../../images/img4573.png" alt="AppointmentImageType.RecurrenceException"> crossed recurrence sign.</p>
-<p>You can delete one or several  occurrences in the recurrence chain. Deleted occurrence is a kind of Exception for the recurrence pattern. They are not visualized by the SchedulerControl.</p>
-<p>To replace an exception with a normal occurrence and discard all modifications, right-click the exception and click on the <strong>Restore Default State</strong> item of the invoked context menu.</p>
+<p>When you modify an occurrence&#39;s (an appointment that belongs to a recurring appointment series) properties, it is called an <strong>Exception</strong>. Such appointments are marked with the <img src="../../../images/img4573.png" alt="AppointmentImageType.RecurrenceException"> crossed recurrence sign.</p>
+<p>You can delete one or several  occurrences in the recurrence chain. A deleted occurrence is a type of recurrence pattern Exception, and the SchedulerControl does not visualize it.</p>
+<p>To replace an exception with a regular occurrence and discard all modifications, right-click the exception and click on the <strong>Restore Default State</strong> item in the invoked context menu.</p>
 <p><img src="../../../images/img12071.png" alt="RecurringAppRestore"></p>
-<p>If you edit the recurrence pattern for an appointment series (<strong>Edit Series</strong> context menu item), the recurrence chain is reset and all exceptions are restored to a default state. You&#39;ll get a warning before this happens.</p>
+<p>Editing an appointment series&#39;s recurrence pattern (<strong>Edit Series</strong> context menu item) resets the recurrence chain, and restores all the exceptions to their default state. A warning is displayed before this happens.</p>
 </article>
           </div>
           
@@ -115,7 +116,7 @@
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            Copyright (c) 1998-2017 Developer Express Inc. All rights reserved.
+            Copyright (c) 1998-2018 Developer Express Inc. All rights reserved.
             
           </div>
         </div>
