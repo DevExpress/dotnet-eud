@@ -50,5 +50,5 @@ Focus a control. In the [Property Grid](../report-designer-reference/report-desi
 * After a control is bound, you can [apply formatting](change-value-formatting-of-report-elements.md) to its dynamic content (e.g., treat it as a currency, or as a date and time).
 * It is possible to make a control display the result of a summary function calculated across the data field to which it is bound. For details, refer to the [Add Totals to a Report](add-totals-to-a-report.md) topic.
 * You can combine both static and dynamic content within the same control (e.g., append a text prefix or postfix), or bind a control to multiple data fields. For details, refer to the [Use Mail Merge in Report Elements](use-mail-merge-in-report-elements.md).
-* You can [create a calculated field](add-calculated-fields-to-a-report.md) and binding the control to it.
+* You can [create a calculated field](add-calculated-fields-to-a-report.md) and bind the control to it.
 * A calculated field may use both [parameters](add-parameters-to-a-report.md) requested each time a report is displayed.
