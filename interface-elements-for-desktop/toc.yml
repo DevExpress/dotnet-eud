@@ -483,8 +483,10 @@
         href: articles/report-designer/report-designer-for-winforms/report-editing-basics/delete-report-elements.md
       - name: Add or Modify Static Information in Your Report
         href: articles/report-designer/report-designer-for-winforms/report-editing-basics/add-or-modify-static-information-in-your-report.md
-      - name: Displaying Values from a Database (Binding Report Elements to Data)
+      - name: Binding Report Elements to Data
         href: articles/report-designer/report-designer-for-winforms/report-editing-basics/displaying-values-from-a-database-(binding-report-elements-to-data).md
+      - name: Binding Report Elements Using Binding Expressions
+        href: articles/report-designer/report-designer-for-winforms/report-editing-basics/binding-report-elements-using-binding-expressions.md
       - name: Use Mail Merge in Report Elements
         href: articles/report-designer/report-designer-for-winforms/report-editing-basics/use-mail-merge-in-report-elements.md
       - name: Add Calculated Fields to a Report
