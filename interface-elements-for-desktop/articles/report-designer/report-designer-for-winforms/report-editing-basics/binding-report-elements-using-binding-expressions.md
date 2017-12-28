@@ -1,10 +1,10 @@
 ---
-title: Binding Report Elements Using Binding Expressions
+title: Binding Report Elements Using Expression Bindings
 author: Konstantin Belyakov
 ---
-# Binding Report Elements Using Binding Expressions
+# Binding Report Elements Using Expression Bindings
 > [!WARNING]
-> This topic describes an approach you can use when *expression binding* is enabled in the Report Designer. If the **Expressions** (![Expressions](../../../../images/icon-expressions.svg)) icon is missing in the [Property Grid] (../report-designer-reference/report-designer-ui/property-grid.md), then *expression binding* is not enabled, and you should refer to the [Binding Report Elements to Data](displaying-values-from-a-database-(binding-report-elements-to-data).md) topic instead.
+> This topic describes an approach you can use when *expression bindings* are enabled in the Report Designer. If the **Expressions** (![Expressions](../../../../images/icon-expressions.svg)) icon is missing in the [Property Grid] (../report-designer-reference/report-designer-ui/property-grid.md), then *expression bindings* are not enabled, and you should refer to the [Binding Report Elements to Data](displaying-values-from-a-database-(binding-report-elements-to-data).md) topic instead.
 
 Report [controls](../report-designer-reference/report-controls.md) can display both [static](add-or-modify-static-information-in-your-report.md) information and data fetched from a  [bound database](../create-reports/binding-a-report-to-data.md).
 
