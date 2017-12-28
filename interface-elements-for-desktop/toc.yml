@@ -485,7 +485,7 @@
         href: articles/report-designer/report-designer-for-winforms/report-editing-basics/add-or-modify-static-information-in-your-report.md
       - name: Binding Report Elements to Data
         href: articles/report-designer/report-designer-for-winforms/report-editing-basics/displaying-values-from-a-database-(binding-report-elements-to-data).md
-      - name: Binding Report Elements Using Binding Expressions
+      - name: Binding Report Elements Using Expression Bindings
         href: articles/report-designer/report-designer-for-winforms/report-editing-basics/binding-report-elements-using-binding-expressions.md
       - name: Use Mail Merge in Report Elements
         href: articles/report-designer/report-designer-for-winforms/report-editing-basics/use-mail-merge-in-report-elements.md

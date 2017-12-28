@@ -18,7 +18,7 @@ The following documents are available in this section.
 **Providing Data**
 * [Add or Modify Static Information in Your Report](report-editing-basics/add-or-modify-static-information-in-your-report.md)
 * [Binding Report Elements to Data](report-editing-basics/displaying-values-from-a-database-(binding-report-elements-to-data).md)
-* [Binding Report Elements Using Binding Expressions](report-editing-basics/binding-report-elements-using-binding-expressions.md)
+* [Binding Report Elements Using Expression Bindings](report-editing-basics/binding-report-elements-using-binding-expressions.md)
 * [Use Mail Merge in Report Elements](report-editing-basics/use-mail-merge-in-report-elements.md)
 * [Add Calculated Fields to a Report](report-editing-basics/add-calculated-fields-to-a-report.md)
 * [Add Parameters to a Report](report-editing-basics/add-parameters-to-a-report.md)
