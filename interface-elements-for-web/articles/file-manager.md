@@ -15,3 +15,4 @@ This section describes the capabilities provided by the **File Manager**.
 * [Downloading Files](file-manager/downloading-files.md)
 * [Details View](file-manager/details-view.md)
 * [Access Control](file-manager/access-control.md)
+* [Adaptive Layout](file-manager/adaptive-layout.md)

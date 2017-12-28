@@ -181,6 +181,8 @@
     href: articles/file-manager/details-view.md
   - name: Access Control
     href: articles/file-manager/access-control.md
+  - name: Adaptive Layout
+    href: articles/file-manager/adaptive-layout.md	
 - name: File Upload Control
   href: articles/file-upload-control.md
   items:
