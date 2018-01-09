@@ -202,7 +202,7 @@
   - name: Change Conditions in Filter Editor
     href: articles/filter-editor/change-conditions-in-filter-editor.md
   - name: Delete Conditions in Filter Editor
-    href: articles/filter-editor/delete-conditions-in-filter-editor.md
+    href: articles/filter-editor/delete-conditions-in-filter-editor.md 
 - name: Grid
   href: articles/grid.md
   items:
