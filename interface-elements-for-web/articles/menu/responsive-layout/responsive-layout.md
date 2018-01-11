@@ -4,7 +4,7 @@ author: Anna Kondratova
 ---
 # Responsive Layout
 
-The menu can operate in the following modes when the browser window's width changes:
+The menu can operate in the following ways when the browser window's width changes:
 * The menu automatically resizes or hides its items in the popup menu hidden under the ellipse button. Click the ellipsis button to show the hidden items.
 
 ![Adaptivity_HideShowButtons](../../../images/menu-responsive-layout-ellipsis.png)
