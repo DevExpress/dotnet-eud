@@ -4,7 +4,7 @@ author: Svetlana Nikulina
 legacyId: 115295
 ---
 # Card View
-This section describes the capabilities provided by the Card View control, which represents data in cards, supports data editing, sorting, filtering, summary calculation, and many other features.
+This section describes the Card View control's capabilities. It represents data in cards, supports data editing, sorting, filtering, summary calculation, paging, scrolling, cards selection and data exporting. 
 
 ![ASPxCardView-MainImg](../images/img118478.png)
 
@@ -23,5 +23,9 @@ This section describes the capabilities provided by the Card View control, which
 
 **Filtering**
 * [Header Filter](card-view/filtering/header-filter.md)
+* [Date Range Header Filter](card-view/filtering/date-range-header-filter.md)
 * [Search Panel](card-view/filtering/search-panel.md)
 * [Creating Complex Filter Criteria with the Filter Control](card-view/filtering/creating-complex-filter-criteria-with-the-filter-control.md)
+
+**Exporting**
+* [Exporting](card-view/exporting/exporting.md)

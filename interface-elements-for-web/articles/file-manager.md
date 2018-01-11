@@ -4,7 +4,7 @@ author: Svetlana Nikulina
 legacyId: 9361
 ---
 # File Manager
-This section describes the capabilities provided by the **File Manager**.
+This section describes the **File Manager**'s features.
 
 ![ASPxFileManager_UD](../images/img13302.png)
 
@@ -15,3 +15,4 @@ This section describes the capabilities provided by the **File Manager**.
 * [Downloading Files](file-manager/downloading-files.md)
 * [Details View](file-manager/details-view.md)
 * [Access Control](file-manager/access-control.md)
+* [Adaptive Layout](file-manager/adaptive-layout.md)
