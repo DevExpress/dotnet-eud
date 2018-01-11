@@ -14,7 +14,7 @@ Click the hamburger button to expand/collapse the folder container in the toolba
 
 ## Toolbar
 
-The file manager automatically resizes or hides the toolbar items to the popup menu hidden under the ellipse button. Click the ellipsis button to show the hidden items.
+The file manager automatically resizes or hides the toolbar items in the popup menu hidden under the ellipse button. Click the ellipsis button to show the hidden items.
 
 ![Adaptivity_Toolbar](../../../images/fm-folder-ellipsis.png)
 
