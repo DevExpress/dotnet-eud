@@ -4,7 +4,7 @@ author: Svetlana Nikulina
 legacyId: 9382
 ---
 # Menu
-The menu is used to navigate through items.
+The menu is used for website navigation.
 
 Click a menu item to choose its subitems. If an item has an arrow sign (![ASPxMenuArrow](../images/img13320.png)), hover over it to expand its submenu.
 
