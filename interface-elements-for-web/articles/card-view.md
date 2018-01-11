@@ -4,7 +4,7 @@ author: Svetlana Nikulina
 legacyId: 115295
 ---
 # Card View
-This section describes the Card View control's capabilities. It represents data in cards, supports data editing, sorting, filtering, summary calculation, and many other features.
+This section describes the Card View control's capabilities. It represents data in cards, supports data editing, sorting, filtering, summary calculation, paging, scrolling, cards selection and data exporting. 
 
 ![ASPxCardView-MainImg](../images/img118478.png)
 
