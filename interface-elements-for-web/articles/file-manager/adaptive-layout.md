@@ -8,7 +8,7 @@ The file manager's elements are automatically rearranged when the browser window
 
 ## Folder Container
 
-Click the hamburger button to expand/collapse the folder container in the toolbar's left.
+Click the hamburger button to expand/collapse the folder container in the toolbar's left side.
 
 ![Adaptivity_FolderContainer](../../../images/fm-folder-container.png)
 
