@@ -41,6 +41,6 @@ Alternatively, you can click the ellipsis button to the right of the **Expressio
 ![Expressions Smart Tag - Expression Editor](../../../../images/binding-expressions-smart-tag-expression-editor.png)
 
 ## Using the Expressions Tab in the Property Grid
-Focus the required report control and select the **Expressions** (![Expressions](../../../../images/icon-expressions.svg)) tab in the [Property Grid] (../report-designer-reference/report-designer-ui/property-grid.md). Click the ellipsis button to the right of the **Text** property to invoke the Expression Editor and specify an expression.
+Focus the required report control and select the **Expressions** (![Expressions](../../../../images/icon-expressions.svg)) tab in the [Property Grid](../report-designer-reference/report-designer-ui/property-grid.md). Click the ellipsis button to the right of the **Text** property to invoke the Expression Editor and specify an expression.
 
 ![Expressions Smart Tag](../../../../images/binding-expressions-property-grid.png)
