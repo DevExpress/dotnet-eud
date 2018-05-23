@@ -9,7 +9,7 @@ The Dashboard allows you to use any data aware dashboard item as a filter for ot
 * [Filtering Across Data Sources](#across)
 * [Preventing Items from Being Filtered](#ignore)
 
-## <a name="modes"/>Master Filter Modes
+## <a name="modes"></a>Master Filter Modes
 To enable master filtering, go to the dashboard item's **Interactivity** menu and use the **Master Filtering Mode** option.
 
 ![wdd-master-filter-single](../../../images/img124780.png)
@@ -21,14 +21,14 @@ The Master Filter item supports the following modes.
 
 To disable the Master Filter, select **None** as a Master Filter mode.
 
-## <a name="across"/>Filtering Across Data Sources
+## <a name="across"></a>Filtering Across Data Sources
 When different items in a dashboard are bound to different data sources, you can specify that a particular Master Filter should be applied across data sources. This means that it will apply filtering to fields with matching names in all data sources.
 
 To filter data across data sources, enable the **Cross-Data-Source Filtering** in the dashboard item's **Interactivity** menu.
 
 ![wdd-master-filter-cross-data-source](../../../images/img124783.png)
 
-## <a name="ignore"/>Preventing Items from Being Filtered
+## <a name="ignore"></a>Preventing Items from Being Filtered
 You can prevent specific dashboard items from being affected by Master Filters. To do this, enable the **Ignore Master Filters** option in the dashboard item's **Interactivity** menu.
 
 ![wdd-master-filter-ignore](../../../images/img124782.png)

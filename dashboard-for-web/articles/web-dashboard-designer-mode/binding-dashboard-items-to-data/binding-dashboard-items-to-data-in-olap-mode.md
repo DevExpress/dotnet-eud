@@ -15,7 +15,7 @@ To visualize data, open the dashboard item's **Bindings** menu, click a placehol
 
 OLAP hierarchies allow you to customize each of their levels separately. Select the desired level in the dashboard item's [Bindings](../ui-elements/dashboard-item-menu.md) menu to invoke the [data item menu](../ui-elements/data-item-menu.md) to access hierarchy level options.
 
-![wdd-olap-hierachy-data-item-options](../../../images/img126318.png)
+![wdd-olap-hierarchy-data-item-options](../../../images/img126318.png)
 
 > [!NOTE]
 > You can easily drill down through OLAP hierarchies using the [Drill-Down](../interactivity/drill-down.md) feature.

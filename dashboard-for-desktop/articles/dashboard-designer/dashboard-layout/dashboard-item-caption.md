@@ -31,3 +31,9 @@ The caption of the Dashboard item contains the following information and buttons
 * **Values** button - invokes a drop-down menu that allows you to switch between the provided values (in the pie, card, gauge and map dashboard items). To learn more, see the **Providing Data** topic for the corresponding dashboard item.
 * **Clear Master Filter** button - allows you to reset filtering when a dashboard item acts as the [Master Filter](../interactivity/master-filtering.md). To learn more, see the **Master Filtering** topic in the **Interactivity** section for the corresponding dashboard item.
 * **Drill Up** button - allows you to return to the previous detail level when the [drill-down](../interactivity/drill-down.md) capability is enabled for this item. To learn more, see the **Drill-Down** topic in the **Interactivity** section for the corresponding dashboard item.
+* **Clear Selection** button - allows you to clear the selection inside an item.
+* **Initial Extent** button - restores the Map dashboard items' default size and position.
+* **Select Date Time Periods** button / menu - allows you to select date-time periods for the Range Filter.
+* **Multiselection** button - allows you to filter data by selecting multiple elements in dashboard items.
+* **Maximize** button - expands any dashboard item into the whole dashboard size to examine data in greater detail. Refer to [Dashboard Items Layout](dashboard-items-layout.md) for more information.
+* **Restore** button - restores the expanded item to its initial state.

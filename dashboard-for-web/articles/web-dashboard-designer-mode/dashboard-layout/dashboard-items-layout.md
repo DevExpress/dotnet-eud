@@ -6,7 +6,12 @@ legacyId: 117728
 # Dashboard Items Layout
 The **Web Dashboard** provides the capability to arrange and resize dashboard items and groups in various ways, using simple drag-and-drop operations.
 
-## Layout Concepts
+* [Layout Concepts](#layout-concepts)
+* [Item Resizing](#item-resizing)
+* [Maximize and Restore Item](#maximize-and-restore-item)
+* [Item Positioning](#item-positioning)
+
+## <a name="layout-concepts"></a>Layout Concepts
 The dashboard arranges dashboard items and groups using _layout items_ and _layout groups_. They are special containers that are used to present a dashboard layout as a hierarchical structure.
 * A **layout item** is used as a container that displays an individual dashboard item.
 * A **layout group** is used as a container that is used to arrange layout items (or other layout groups) either horizontally or vertically. At the same time, layout groups are used as containers that display dashboard item groups.
@@ -15,7 +20,7 @@ Thus, a dashboard layout is hierarchically arranged from the root layout group t
 
 ![DashboardLayoutHierarchy](../../../images/img25963.png)
 
-## Item Resizing
+## <a name="item-resizing"></a>Item Resizing
 You can resize individual items/groups of items by dragging their edges. For this, follow the steps below.
 1. In the area allowing you to resize items, cursor types will be changed to **column resize** / **row resize**.
 	
@@ -27,7 +32,18 @@ You can resize individual items/groups of items by dragging their edges. For thi
 	
 	![wdd-di-resize3](../../../images/img126144.png)
 
-## Item Positioning
+## <a name="maximize-and-restore-item"></a>Maximize and Restore Item
+You can expand any dashboard item into the whole dashboard size to examine data in greater detail. The expanded dashboard item size in this case is the same as the root layout group.
+
+1. To maximize a dashboard item, click the **Maximize** button in the [dashboard item caption](dashboard-item-caption.md).
+
+	![](../../../images/wdd-maximize-dashboard-item.png)
+
+2. To restore the item size, click **Restore**.
+
+	![](../../../images/wdd-restore-dashboard-item.png)
+
+## <a name="item-positioning"></a>Item Positioning
 You can change the position of a dashboard item by using drag-and-drop and the dashboard item's [Move](../ui-elements/dashboard-item-menu.md) button.
 
 Depending on the required dashboard item position, a new layout group is created (if required) to maintain the arrangement of items. Thus, the dashboard item can be inserted to the desired area of a new or existing dashboard layout group.
