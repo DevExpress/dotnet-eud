@@ -25,7 +25,7 @@ To copy text:
 
 * highlight the text you desire; 
 
-*choose the **Copy** command in the context menu, or press **Ctrl**+**C**;
+* choose the **Copy** command in the context menu, or press **Ctrl**+**C**;
 
 ![CopyText](../../images/img122778.png)
 
