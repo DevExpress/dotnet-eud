@@ -28,7 +28,7 @@ Click **Yes** to open the attached file, otherwise click **No**.
 ## <a name="save"/>Save an attachment
 The file attachment can be saved to your disk. To do this, select the file and click the "Save attachment" icon, as shown below.
 
-![ClickSaveAttachment](../../images/img121145.jpeg)
+![ClickSaveAttachment](../../images/img121145.jpg)
 
 The **Save As** dialog appears.
 
