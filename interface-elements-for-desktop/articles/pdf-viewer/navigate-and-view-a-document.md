@@ -21,7 +21,7 @@ To navigate between pages, use one of the following.
 	These buttons allow you to switch to the previous or next page of a document.
 * The **Pager** that is used to show the current page number and the total number of pages in a document.
 	
-	![ChangePage](../../images/img124778.jpg)
+	![ChangePage](../../images/img124778.png)
 	
 	To change the page number in the **Pager**, type a new page number and press **ENTER**.
 * The **Bookmarks** panel located on the Navigation pane.
