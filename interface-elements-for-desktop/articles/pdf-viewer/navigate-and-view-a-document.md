@@ -16,12 +16,12 @@ To navigate between pages, use one of the following.
 * The scrollbars.
 * **Previous** and **Next** navigation buttons.
 	
-	![pdf-viewer-1](../../images/img24365.jpeg)
+	![pdf-viewer-1](../../images/img24365.jpg)
 	
 	These buttons allow you to switch to the previous or next page of a document.
 * The **Pager** that is used to show the current page number and the total number of pages in a document.
 	
-	![ChangePage](../../images/img124778.jpeg)
+	![ChangePage](../../images/img124778.jpg)
 	
 	To change the page number in the **Pager**, type a new page number and press **ENTER**.
 * The **Bookmarks** panel located on the Navigation pane.
