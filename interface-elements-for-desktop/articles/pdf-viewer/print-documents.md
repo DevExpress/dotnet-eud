@@ -6,7 +6,7 @@ legacyId: 17453
 # Print Documents
 To print the current document, click the **Print** command located on the **File** toolbar button group, or press **CTRL**+**P**.
 
-![pdf-viewer-print](../../images/img24397.jpeg)
+![pdf-viewer-print](../../images/img24397.jpg)
 
 In the invoked standard **Print** dialog, choose the printer, specify the printing parameters and click **Print**.
 
