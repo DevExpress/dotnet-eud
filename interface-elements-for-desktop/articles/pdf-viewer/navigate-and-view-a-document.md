@@ -26,7 +26,7 @@ To navigate between pages, use one of the following.
 	To change the page number in the **Pager**, type a new page number and press **ENTER**.
 * The **Bookmarks** panel located on the Navigation pane.
 	
-	![BookmarksPanel](../../images/img124929.jpeg)
+	![BookmarksPanel](../../images/img124929.jpg)
 	
 	To jump to a topic, click a bookmark.
 * The **Page Thumbnails** panel located on the Navigation pane.
