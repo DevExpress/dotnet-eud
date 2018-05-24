@@ -16,22 +16,22 @@ To navigate between pages, use one of the following.
 * The scrollbars.
 * **Previous** and **Next** navigation buttons.
 	
-	![pdf-viewer-1](../../images/img24365.jpeg)
+	![pdf-viewer-1](../../images/img24365.jpg)
 	
 	These buttons allow you to switch to the previous or next page of a document.
 * The **Pager** that is used to show the current page number and the total number of pages in a document.
 	
-	![ChangePage](../../images/img124778.jpeg)
+	![ChangePage](../../images/img124778.png)
 	
 	To change the page number in the **Pager**, type a new page number and press **ENTER**.
 * The **Bookmarks** panel located on the Navigation pane.
 	
-	![BookmarksPanel](../../images/img124929.jpeg)
+	![BookmarksPanel](../../images/img124929.png)
 	
 	To jump to a topic, click a bookmark.
 * The **Page Thumbnails** panel located on the Navigation pane.
 	
-	![PageThumbnails ](../../images/img124910.jpeg)
+	![PageThumbnails ](../../images/img125140.png)
 	
 	To jump to the page in a document, click a page thumbnail in the **Page Thumbnails** panel.
 
@@ -58,14 +58,28 @@ To change the page view, use one of the following.
 ## <a name="search"/>Search for a Specific Text
 To search for a specific text within a document, click the **Find** button on the toolbar.
 
-![pdf-viewer-12](../../images/img24457.jpeg)
+![pdf-viewer-12](../../images/img24457.jpg)
 
-Otherwise, to invoke the **Find** dialog, right-click the document and select the **Find** ![previewButtonSearch](../../images/img7282.png) item in the context menu, or press **Ctrl**+**F**.
+To invoke the **Find** dialog using the context menu, right-click the document and select the **Find** ![previewButtonSearch](../../images/img7282.png) item in the context menu.
 
 ![pdf-viewer-7](../../images/img24446.png)
 
-In this dialog, you can input the text to find, and specify whether to match case or the whole word during the search. Click the **Previous** and **Next** buttons to set the search direction.
+In the **Find** dialog, type the text you want to search for and specify the following settings (if required):
+
+* The **Case Sensitive** option specifies whether to ignore the letter case when searching text.
+
+* The **Whole Words Only** option only considers whole words when searching text. For example, it does not find the word **types** when you search for **type**.
 
 ![pdf-viewer-search](../../images/img24368.png)
 
-To start searching or search again, click the **Previous** or **Next** button, or press **ENTER**.
+* To start searching, click the **Next** button in the **Find** dialog, or press the **ENTER** key when the PDF Viewer shows the **Find** dialog.
+
+The PDF Viewer stops searching when it finds the first occurrence of the search text, highlights the occurrence and navigates to the highlighted text.
+
+To search for the next match, click  the **Next** button in the **Find** dialog, or press the **ENTER** key again when the PDF Viewer shows the **Find** dialog. 
+
+To go to the previous match, click the **Previous** button.
+
+The PDF Viewer shows the following message when it finds the final occurrence of the search text or there were no results that match the search text.
+
+![TextSearchFinished](../../images/img132397.png)
