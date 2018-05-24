@@ -28,7 +28,7 @@ After the bookmark item is open, you can see its children in the pane.
 ## <a name="customization"/>Customization
 To customize the bookmarks behavior, click the **Options** drop-down button in the **Bookmarks** panel, as shown below.
 
-![RuntimeBookmarkOptions](../../images/img118811.jpg)
+![RuntimeBookmarkOptions](../../images/img118811.png)
 
 The available options are:
 * **Expand Current Bookmark**
