@@ -18,7 +18,7 @@ To rotate a document, use the following commands.
 	
 	Rotates the document clockwise through **90** degrees. To perform this command, right-click the viewed document, choose the **Rotate Clockwise** ![pdf-viewer-rotate-clockwise](../../images/img24380.png) item, or press **Ctrl + Shift + Add**.
 	
-	![pdf-viewer-6](../../images/img24445.png)
+	![pdf-viewer-6](../../images/img122765.png)
 * **Rotate Counterclockwise**
 	
 	Rotates the document counterclockwise through **90** degrees. To do this, invoke the context menu by right-clicking the document, choose the **Rotate Counterclockwise** ![pdf-viewer-rotate-cuonterclockwise](../../images/img24381.png) item, or press **Ctrl + Shift + Subtract**.
@@ -61,10 +61,11 @@ Choose the percentage value of the zoom factor or one of the following zoom fact
 	Sets the document zoom factor value to **100**%.
 * **Zoom to Page Level**
 	
-	Sets the document zoom factor value to fit the entire page height.
+	Sets the document zoom factor value to fit to the widest or highest page in a document.
 * **Fit to Width**
 	
-	Sets the document zoom factor value to fit the entire page width.
-* ### Fit to Visible
+	Sets the document zoom factor value to fit to the width of the widest page in a document. 
+* **Fit to Visible**
 	
-	The document zoom factor is calculated to fit the actual content of a page (if possible).
+	The document zoom factor is calculated to fit to the width of the visible content of a page. The region of the visible page content is defined by the bleed box. If the bleed box is not defined, the FitVisible mode operates the same as FitWidth mode. 
+
