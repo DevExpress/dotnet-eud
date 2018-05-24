@@ -58,7 +58,7 @@ To change the page view, use one of the following.
 ## <a name="search"/>Search for a Specific Text
 To search for a specific text within a document, click the **Find** button on the toolbar.
 
-![pdf-viewer-12](../../images/img24457.jpeg)
+![pdf-viewer-12](../../images/img24457.jpg)
 
 To invoke the **Find** dialog using the context menu, right-click the document and select the **Find**> ![previewButtonSearch](../../images/img7282.png) item in the context menu.
 
