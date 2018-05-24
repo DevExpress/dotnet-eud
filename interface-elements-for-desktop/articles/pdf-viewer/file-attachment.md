@@ -8,7 +8,7 @@ This document describes actions that can be performed on attachments in the PDF 
 
 An attachment is a file that is attached to a PDF document. The PDF Viewer shows the file attachments in the **Attachments** panel of the navigation pane.
 
-![Attachment](../../images/img121136.jpeg)
+![Attachment](../../images/im121136.jpg)
 
 ## <a name="open"/>Open an attachment
 To open a file attachment for viewing, you need an application which supports the corresponding file format to be installed in your computer. To view an attachment, do one of the following.
@@ -17,7 +17,7 @@ To open a file attachment for viewing, you need an application which supports th
 	or
 * select the file and click the "Open file in its native application" icon in the **Attachments** panel.
 	
-	![OpenAttachment](../../images/img121138.jpeg)
+	![OpenAttachment](../../images/img121138.jpg)
 
 The **Security Warning** message appears. It warns you that the PDF Viewer will be use an external application to open the attached file.
 
