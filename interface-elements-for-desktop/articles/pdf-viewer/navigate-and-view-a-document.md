@@ -60,7 +60,7 @@ To search for a specific text within a document, click the **Find** button on th
 
 ![pdf-viewer-12](../../images/img24457.jpg)
 
-To invoke the **Find** dialog using the context menu, right-click the document and select the **Find**> ![previewButtonSearch](../../images/img7282.png) item in the context menu.
+To invoke the **Find** dialog using the context menu, right-click the document and select the **Find** ![previewButtonSearch](../../images/img7282.png) item in the context menu.
 
 ![pdf-viewer-7](../../images/img24446.png)
 
