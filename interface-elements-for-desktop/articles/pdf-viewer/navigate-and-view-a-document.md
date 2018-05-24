@@ -31,7 +31,7 @@ To navigate between pages, use one of the following.
 	To jump to a topic, click a bookmark.
 * The **Page Thumbnails** panel located on the Navigation pane.
 	
-	![PageThumbnails ](../../images/img124910.jpeg)
+	![PageThumbnails ](../../images/img125140.png)
 	
 	To jump to the page in a document, click a page thumbnail in the **Page Thumbnails** panel.
 
