@@ -16,12 +16,12 @@ The document consists of the following sections.
 To rotate a document, use the following commands.
 * **Rotate Clockwise**
 	
-	Rotates the document clockwise through **90** degrees. To perform this command, right-click the viewed document, choose the **Rotate Clockwise** ![pdf-viewer-rotate-clockwise](../../images/img24380.png) item, or press **Ctrl + Shift + Add**.
+	Rotates the document clockwise through **90** degrees. To perform this command, right-click the viewed document, choose the **Rotate Clockwise** ![pdf-viewer-rotate-clockwise](../../images/img24380.jpg) item, or press **Ctrl + Shift + Add**.
 	
-	![pdf-viewer-6](../../images/img122765.png)
+	![pdf-viewer-6](../../images/img122765.jpg)
 * **Rotate Counterclockwise**
 	
-	Rotates the document counterclockwise through **90** degrees. To do this, invoke the context menu by right-clicking the document, choose the **Rotate Counterclockwise** ![pdf-viewer-rotate-cuonterclockwise](../../images/img24381.png) item, or press **Ctrl + Shift + Subtract**.
+	Rotates the document counterclockwise through **90** degrees. To do this, invoke the context menu by right-clicking the document, choose the **Rotate Counterclockwise** ![pdf-viewer-rotate-cuonterclockwise](../../images/img24381.jpg) item, or press **Ctrl + Shift + Subtract**.
 
 ## <a name="inout"/>Zoom In and Out of a Document
 Use buttons from the **Zoom** button group of the PDF Viewer tab.
@@ -53,7 +53,7 @@ You can perform the following actions:
 ## <a name="zoomfactor"/>Use a Specific Zoom Factor
 To zoom to a specific zoom factor, click the **Zoom** dropdown list button. The following list will be invoked.
 
-![pdf-viewer-zoom-list](../../images/img24377.jpeg)
+![pdf-viewer-zoom-list](../../images/img24377.jpg)
 
 Choose the percentage value of the zoom factor or one of the following zoom factor presets.
 * **Actual Size**
@@ -67,5 +67,5 @@ Choose the percentage value of the zoom factor or one of the following zoom fact
 	Sets the document zoom factor value to fit to the width of the widest page in a document. 
 * **Fit to Visible**
 	
-	The document zoom factor is calculated to fit to the width of the visible content of a page. The region of the visible page content is defined by the bleed box. If the bleed box is not defined, the FitVisible mode operates the same as FitWidth mode. 
+	The document zoom factor is calculated to fit to the width of the visible content of a page. The region of the visible page content is defined by the bleed box. If the bleed box is not defined, the Fit to Visible mode operates the same as Fit to Width mode. 
 
