@@ -26,7 +26,7 @@ To create a documentation website for your application:
 - Download and install the [latest version of DocFX](https://github.com/dotnet/docfx/releases). 
 - Clone the repository to your computer and checkout the branch corresponding to the version of DevExpress controls your application uses. Make sure not to use the **master** branch, which represents the version currently under development.
     ```
-    git clone https://github.com/DevExpress/dotnet-eud.git --branch 17.1
+    git clone https://github.com/DevExpress/dotnet-eud.git --branch 18.1
     ```
   If you do not have [Git](https://git-scm.com/) installed, select the required branch using the GitHub web interface and then download and extract the ZIP archive.
   
