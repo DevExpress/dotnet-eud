@@ -8,7 +8,7 @@
     <title>Dashboard Item Caption | DevExpress End-User Documentation </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Dashboard Item Caption | DevExpress End-User Documentation ">
-    <meta name="generator" content="docfx 2.28.1.0">
+    <meta name="generator" content="docfx 2.36.0.0">
     
     <link rel="shortcut icon" href="../../../../favicon.ico">
     <link rel="stylesheet" href="../../../../styles/docfx.vendor.css">
@@ -20,7 +20,7 @@
     
     
   </head>
-  <body data-spy="scroll" data-target="#affix">
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
         
@@ -69,44 +69,107 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="dashboard-item-caption">Dashboard Item Caption</h1>
 
-<p>Each dashboard item has a caption that is displayed at the top of this item. The caption contains static text along with other information, as well as command buttons.</p>
+<p>Each dashboard item has a caption that is displayed at the top of this item. The caption contains static text and other information, as well as command buttons.</p>
 <p><img src="../../../images/img126135.png" alt="wdd-dashboard-item-caption"></p>
-<p>To show or hide the caption of a dashboard item, go to the dashboard item <strong>Options</strong> menu and use the <strong>Show Caption</strong> option.</p>
+<h2 id="caption-overview">Caption Overview</h2>
+<p>You can control the dashboard item caption&#39;s visibility.</p>
+<ul>
+<li>When the caption is <strong>on</strong>, it is always displayed at the top of the dashboard item. Some command buttons are displayed when you hover the mouse pointer over them.</li>
+<li>When the caption is <strong>off</strong>, it is not visible by default. Some command buttons are displayed in a floating panel when you hover the mouse pointer over them. </li>
+</ul>
+<p>Go to the dashboard item <a href="../ui-elements/dashboard-item-menu.html">Options</a> menu and use the <strong>Show Caption</strong> option to control the caption visibility:</p>
 <p><img src="../../../images/img126136.png" alt="wdd-di-caption-options"></p>
-<div class="NOTE"><h5>Note</h5><p>The caption of the <a href="../designing-dashboard-items/range-filter.html">Range Filter</a> dashboard item is not visible by default.</p>
+<div class="NOTE"><h5>Note</h5><p>The <a href="../designing-dashboard-items/range-filter.html">Range Filter</a> dashboard item&#39;s caption is not visible by default.</p>
 </div>
-<p>The caption of the dashboard item contains the following information and buttons, depending on the dashboard item type.</p>
+<p>The dashboard item caption consists of the following elements:</p>
 <table>
 <thead>
 <tr>
 <th>Icon</th>
+<th>Button</th>
 <th>Description</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><strong>Dashboard Item Name</strong></td>
-<td>Represents the static text within a dashboard item&#39;s caption.</td>
+<td><img src="../../../images/web-dashboard-item-caption-data-reduced-icon.png" alt=""></td>
+<td><strong>Data Reducing</strong> icon</td>
+<td>Shows that visible data is limited.</td>
 </tr>
 <tr>
-<td><strong>Drill-Down</strong></td>
-<td>Shows a value or values from the current drill-down hierarchy. To learn more, see <a href="../interactivity/drill-down.html">Drill-Down</a>.</td>
+<td>Text</td>
+<td><strong>Drill-Down Text</strong></td>
+<td>Shows a value or values from the current drill-down hierarchy. See <a href="../interactivity/drill-down.html">Drill-Down</a> for more details.</td>
 </tr>
 <tr>
-<td><strong>Export to</strong></td>
+<td>Text</td>
+<td><strong>Caption Text</strong></td>
+<td>A static text.</td>
+</tr>
+<tr>
+<td><img src="../../../images/web-dashboard-item-caption-maximize-item-icon.png" alt=""></td>
+<td><strong>Maximize</strong> button</td>
+<td>Expands any dashboard item into the whole dashboard size to examine data in greater detail.</td>
+</tr>
+<tr>
+<td><img src="../../../images/web-dashboard-item-caption-restore-down-icon.png" alt=""></td>
+<td><strong>Restore</strong> button</td>
+<td>Restores the expanded item to its initial state.</td>
+</tr>
+<tr>
+<td><img src="../../../images/web-dashboard-item-caption-export-icon.png" alt=""></td>
+<td><strong>Export to</strong> button</td>
 <td>Allows you to print or export a dashboard item. To learn how to print individual dashboard items, see <a href="../exporting.html">Exporting</a>.</td>
 </tr>
 <tr>
-<td><strong>Values</strong></td>
+<td><img src="../../../images/web-dashboard-item-caption-values-icon.png" alt=""></td>
+<td><strong>Values</strong> button</td>
 <td>Invokes a drop-down menu that allows you to switch between provided values (in the pie, card, gauge and maps dashboard items). To learn more, see the <strong>Providing Data</strong> topic for the corresponding <a href="../designing-dashboard-items.html">dashboard item</a>.</td>
 </tr>
 <tr>
-<td><strong>Clear Master Filter</strong></td>
+<td><img src="../../../images/web-dashboard-item-caption-multiselection-icon.png" alt=""></td>
+<td><strong>Multi-Select</strong> button</td>
+<td>Allows you to filter data by selecting multiple elements in dashboard items.</td>
+</tr>
+<tr>
+<td><img src="../../../images/web-dashboard-item-caption-range-time-periods-icon.png" alt=""></td>
+<td><strong>Select Date Time Period</strong> menu / button</td>
+<td>Allows you to select date-time periods for the Range Filter.</td>
+</tr>
+<tr>
+<td><img src="../../../images/web-dashboard-item-caption-filters-icon.png" alt=""></td>
+<td><strong>Filters</strong> button</td>
+<td>Displays filters affecting the current dashboard item or entire dashboard. This button is only available in mobile layout.</td>
+</tr>
+<tr>
+<td><img src="../../../images/web-dashboard-item-caption-clear-master-filter-icon.png" alt=""></td>
+<td><strong>Clear Master Filter</strong> button</td>
 <td>Allows you to reset filtering when a dashboard item acts as the Master Filter. To learn more, see <a href="../interactivity/master-filtering.html">Master Filtering</a>.</td>
 </tr>
 <tr>
-<td><strong>Drill Up</strong></td>
-<td>Allows you to return to the previous detail level when the <a href="../interactivity/drill-down.html">drill-down</a> capability is enabled for this item.</td>
+<td><img src="../../../images/web-dashboard-item-caption-drill-up-icon.png" alt=""></td>
+<td><strong>Drill Up</strong> button</td>
+<td>Allows you to return to the previous detail level when this item&#39;s  <a href="../interactivity/drill-down.html">drill-down</a> capability is enabled.</td>
+</tr>
+<tr>
+<td><img src="../../../images/web-dashboard-item-caption-clear-selection-icon.png" alt=""></td>
+<td><strong>Clear Selection</strong> button</td>
+<td>Allows you to clear the selection inside an item.</td>
+</tr>
+<tr>
+<td><img src="../../../images/web-dashboard-item-caption-map-initial-extent-icon.png" alt=""></td>
+<td><strong>Initial Extent</strong> button</td>
+<td>Restores the Map dashboard items&#39; default size and position.</td>
+</tr>
+<tr>
+<td>Dashboards</td>
+<td><strong>Dashboards</strong> button</td>
+<td>Displays a list of available dashboards.</td>
+</tr>
+<tr>
+<td><img src="../../../images/web-dashboard-item-caption-back-icon.png" alt=""></td>
+<td><strong>Back</strong> button</td>
+<td>Returns to the dashboard items list.</td>
 </tr>
 </tbody>
 </table>
