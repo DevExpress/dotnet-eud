@@ -16,7 +16,7 @@ You can control the dashboard item caption's visibility.
 * When the caption is **on**, it is always displayed at the top of the dashboard item. Some command buttons are displayed when you hover the mouse pointer over them.
 * When the caption is **off**, it is not visible by default. Some command buttons are displayed in a floating panel when you hover the mouse pointer over them. 
 
-Go to the dashboard item [Options](xref:117446) menu and use the **Show Caption** option to control the caption visibility:
+Go to the dashboard item [Options](../ui-elements/dashboard-item-menu.md) menu and use the **Show Caption** option to control the caption visibility:
 
 ![wdd-di-caption-options](../../../images/img126136.png)
 
