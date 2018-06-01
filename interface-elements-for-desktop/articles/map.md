@@ -10,3 +10,4 @@ The section describes capabilities provided by the **Map** control. The followin
 * [Selection](map/selection.md)
 * [Using the Search Panel](map/using-the-search-panel.md)
 * [Mini Map](map/mini-map.md)
+* [Map Editor](map/map-editor.md)
