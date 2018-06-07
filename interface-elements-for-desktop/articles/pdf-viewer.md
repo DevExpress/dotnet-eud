@@ -8,7 +8,7 @@ This section describes the capabilities of the **PDF Viewer**.
 
 The PDF Viewer used to displaying PDF files and supports various document content such as text, images, vector graphics, etc.
 
-![pdf-viewer-control-windows-forms](../images/img19650.png)
+![pdf-viewer-control-windows-forms](../images/img19650.jpg)
 
 The following sections are available in this guide.
 * [Manage Documents and Files](pdf-viewer/manage-documents-and-files.md)
