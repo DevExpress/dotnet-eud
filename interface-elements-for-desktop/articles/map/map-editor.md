@@ -45,9 +45,11 @@ Use the ![Edit Mode Button](../../images/map-editor-edit-mode-button.png) button
 
 |Action|Animation|Description|
 |---|---|---|
+
 |Moving vertices|![Moving Vertices](../../images/map-editor-moving-points.gif)|Relocate a shape's point by dragging it.|
 |Adding vertices|![Adding Vertices](../../images/map-editor-adding-points.gif)|Hover the mouse pointer over the item's edge between two neighboring points and click where you want to insert a new vertex.|
-|Removing vertices|![Removing Vertices](../../images/map-editor-removing-points.gif)|Removes a shape's point by double-clicking it.|
+|Removing vertices|![Removing Vertices](../../images/map-editor-removing-points.gif)|Remove a shape's point by double-clicking it.|
+
 
 Note that you can only edit the following map vector items:
 - Map line
@@ -62,3 +64,4 @@ Create mode allows you to add new items to the map. Select one of the following 
 You can add dots and pushpins by clicking on the required location. To create a complex map item, add points sequentially to form a map item. The following animation shows how to create a map path:
 
 ![Map Editor Create Mode](../../images/map-editor-creating-path.gif)
+
