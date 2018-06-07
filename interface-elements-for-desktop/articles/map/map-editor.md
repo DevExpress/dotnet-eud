@@ -45,7 +45,6 @@ Use the ![Edit Mode Button](../../images/map-editor-edit-mode-button.png) button
 
 |Action|Animation|Description|
 |---|---|---|
-
 |Moving vertices|![Moving Vertices](../../images/map-editor-moving-points.gif)|Relocate a shape's point by dragging it.|
 |Adding vertices|![Adding Vertices](../../images/map-editor-adding-points.gif)|Hover the mouse pointer over the item's edge between two neighboring points and click where you want to insert a new vertex.|
 |Removing vertices|![Removing Vertices](../../images/map-editor-removing-points.gif)|Remove a shape's point by double-clicking it.|
