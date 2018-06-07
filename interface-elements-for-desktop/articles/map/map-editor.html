@@ -1,0 +1,174 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Map Editor | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Map Editor | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.36.0.0">
+    
+    <link rel="shortcut icon" href="../../../favicon.ico">
+    <link rel="stylesheet" href="../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../toc.html">
+    <meta property="docfx:tocrel" content="../../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../index.html">
+                <img id="logo" class="svg" src="../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="map-editor">Map Editor</h1>
+
+<p>The Map Editor is a built-in tool that allows you to create and modify map items. You can also relocate map items on the map surface, rotate them using a rotation handle, and resize items using the sizing handles. The Map Editor&#39;s active mode determines which actions you can perform while editing the map. Use the corresponding editor panel buttons to switch between the Default, Transform, Edit and Create modes.</p>
+<p><img src="../../images/map-editor-preview.png" alt="Map Editor Preview"></p>
+<h2 id="map-editors-panel">Map Editor&#39;s Panel</h2>
+<p>The Map Editor&#39;s panel consists of the following elements:</p>
+<ul>
+<li><img src="../../images/map-editor-undo-button.png" alt="Undo Button"> - Cancels the last action.</li>
+<li><img src="../../images/map-editor-redo-button.png" alt="Redo Button"> - Restores the last canceled action.</li>
+<li><img src="../../images/map-editor-default-mode-button.png" alt="Default Mode Button"> - Enables Default mode.</li>
+<li><img src="../../images/map-editor-transform-mode-button.png" alt="Transform Mode Button"> - Activates Transform mode.</li>
+<li><img src="../../images/map-editor-edit-mode-button.png" alt="Edit Mode Button"> - Turns on Edit mode.</li>
+<li><img src="../../images/map-editor-add-pushpin-button.png" alt="Add Pushpin Button"> - Enables &quot;Create Pushpin&quot; mode to create pushpins.</li>
+<li><img src="../../images/map-editor-add-path-button.png" alt="Add Path Button"> - Enables &quot;Create Path&quot; mode to create map paths.</li>
+<li><img src="../../images/map-editor-add-polyline-button.png" alt="Add Polyline Button"> - Activates &quot;Create Polyline&quot; mode to create map polylines.</li>
+<li><img src="../../images/map-editor-add-dot-button.png" alt="Add Dot Button"> - Enables &quot;Create Dot&quot; mode to create map dots.</li>
+<li><img src="../../images/map-editor-add-ellipse-button.png" alt="Add Ellipse Button"> - Enables &quot;Create Ellipse&quot; mode to create ellipses.</li>
+<li><img src="../../images/map-editor-add-rectangle-button.png" alt="Add Rectangle Button"> - Turns on &quot;Create Rectangle&quot; mode to create map rectangles.</li>
+<li><img src="../../images/map-editor-add-line-button.png" alt="Add Line Button"> - Enables &quot;Create Line&quot; mode to create map lines.</li>
+</ul>
+<h2 id="map-editor-modes">Map Editor Modes</h2>
+<p>The Map editor provides the following modes that define the available actions when editing a map:</p>
+<h3 id="default-mode">Default Mode</h3>
+<p>You can only view the map in Default mode. You can use the <img src="../../images/map-editor-default-mode-button.png" alt="Default Mode Button"> button to turn on this mode. </p>
+<h3 id="transform-mode">Transform Mode</h3>
+<p>Select the <img src="../../images/map-editor-transform-mode-button.png" alt="Transform Mode Button"> symbol to enable the Transform mode. This mode allows you to resize and rotate the selected map items using the sizing and rotation handles. You can also move map items by dragging them.</p>
+<p><img src="../../images/map-editor-transformation-in-action.png" alt="Item Transformation"></p>
+<h3 id="edit-mode">Edit Mode</h3>
+<p>Use the <img src="../../images/map-editor-edit-mode-button.png" alt="Edit Mode Button"> button to enable the Edit mode. It allows you to move, add, and remove item vertices to change vector map shapes. To edit a map item in this mode, select an item to display its points and perform one of the following actions:</p>
+<table>
+<thead>
+<tr>
+<th>Action</th>
+<th>Animation</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Moving vertices</td>
+<td><img src="../../images/map-editor-moving-points.gif" alt="Moving Vertices"></td>
+<td>Relocate a shape&#39;s point by dragging it.</td>
+</tr>
+<tr>
+<td>Adding vertices</td>
+<td><img src="../../images/map-editor-adding-points.gif" alt="Adding Vertices"></td>
+<td>Hover the mouse pointer over the item&#39;s edge between two neighboring points and click where you want to insert a new vertex.</td>
+</tr>
+<tr>
+<td>Removing vertices</td>
+<td><img src="../../images/map-editor-removing-points.gif" alt="Removing Vertices"></td>
+<td>Remove a shape&#39;s point by double-clicking it.</td>
+</tr>
+</tbody>
+</table>
+<p>Note that you can only edit the following map vector items:</p>
+<ul>
+<li>Map line</li>
+<li>Map path</li>
+<li>Map polygon</li>
+<li>Map polyline</li>
+</ul>
+<h3 id="create-mode">Create Mode</h3>
+<p>Create mode allows you to add new items to the map. Select one of the following symbols to create map items: <img src="../../images/map-editor-add-pushpin-button.png" alt="Add Pushpin Button"> <img src="../../images/map-editor-add-path-button.png" alt="Add Path Button"> <img src="../../images/map-editor-add-polyline-button.png" alt="Add Polyline Button"> <img src="../../images/map-editor-add-dot-button.png" alt="Add Dot Button"> <img src="../../images/map-editor-add-ellipse-button.png" alt="Add Ellipse Button"> <img src="../../images/map-editor-add-rectangle-button.png" alt="Add Rectangle Button"> <img src="../../images/map-editor-add-line-button.png" alt="Add Line Button"></p>
+<p>You can add dots and pushpins by clicking on the required location. To create a complex map item, add points sequentially to form a map item. The following animation shows how to create a map path:</p>
+<p><img src="../../images/map-editor-creating-path.gif" alt="Map Editor Create Mode"></p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/18.1/interface-elements-for-desktop/articles/map/map-editor.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2018 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../styles/main.js"></script>
+  </body>
+</html>
