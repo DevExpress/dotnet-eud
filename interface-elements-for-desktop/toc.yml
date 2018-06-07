@@ -159,6 +159,8 @@
     href: articles/map/using-the-search-panel.md
   - name: Mini Map
     href: articles/map/mini-map.md
+  - name: Map Editor
+    href: articles/map/map-editor.md
 - name: Navigation Bars
   href: articles/navigation-bars.md
   items:
