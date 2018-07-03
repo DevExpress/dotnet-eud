@@ -468,357 +468,391 @@
   href: articles/report-designer.md
   items:
   - name: Report Designer for WinForms
-    href: articles/report-designer/report-designer-for-winforms.md
+    href: articles/report-designer/report-designer-for-winforms.md 
+    items:
+    href: 
+    - name: First Look at the Report Designer
+      href: articles/report-designer/report-designer-for-winforms/first-look-at-the-report-designer.md
+    - name: Add New Reports
+      href: articles/report-designer/report-designer-for-winforms/add-new-reports.md
+    - name: Open Reports
+      href: articles/report-designer/report-designer-for-winforms/open-reports.md
+    - name: Save Reports
+      href: articles/report-designer/report-designer-for-winforms/save-reports.md            
+    - name: Use Report Elements
+      href: articles/report-designer/report-designer-for-winforms/use-report-elements.md
+      items:
+      - name: Manipulate Report Elements
+        href: articles/report-designer/report-designer-for-winforms/use-report-elements/manipulate-report-elements.md
+        items:
+        - name: Add Controls to a Report
+          href: articles/report-designer/report-designer-for-winforms/use-report-elements/manipulate-report-elements/add-controls-to-a-report.md
+        - name: Select Report Elements and Access Their Settings
+          href: articles/report-designer/report-designer-for-winforms/use-report-elements/manipulate-report-elements/select-report-elements-and-access-their-settings.md
+        - name: Move and Resize Report Elements
+          href: articles/report-designer/report-designer-for-winforms/use-report-elements/manipulate-report-elements/move-and-resize-report-elements.md
+        - name: Copy Report Controls
+          href: articles/report-designer/report-designer-for-winforms/use-report-elements/manipulate-report-elements/copy-report-controls.md
+        - name: Reuse Report Controls
+          href: articles/report-designer/report-designer-for-winforms/use-report-elements/manipulate-report-elements/reuse-report-controls.md
+        - name: Arrange Report Controls
+          href: articles/report-designer/report-designer-for-winforms/use-report-elements/manipulate-report-elements/arrange-report-controls.md
+        - name: Add Report Controls to Containers
+          href: articles/report-designer/report-designer-for-winforms/use-report-elements/manipulate-report-elements/add-report-controls-to-containers.md
+        - name: Validate the Report Layout
+          href: articles/report-designer/report-designer-for-winforms/use-report-elements/manipulate-report-elements/validate-the-report-layout.md
+  - name: Report Designer for WinForms
+    href: articles/report-designer/report-designer-for-winforms-old.md
     items:
     - name: Report Editing Basics
-      href: articles/report-designer/report-designer-for-winforms/report-editing-basics.md
+      href: articles/report-designer/report-designer-for-winforms-old (old)/report-editing-basics.md
       items:
       - name: Back Up the Current Layout Before Modifying It
-        href: articles/report-designer/report-designer-for-winforms/report-editing-basics/back-up-the-current-layout-before-modifying-it.md
+        href: articles/report-designer/report-designer-for-winforms-old/report-editing-basics/back-up-the-current-layout-before-modifying-it.md
       - name: Manually Update Report Output
-        href: articles/report-designer/report-designer-for-winforms/report-editing-basics/manually-update-report-output.md
+        href: articles/report-designer/report-designer-for-winforms-old/report-editing-basics/manually-update-report-output.md
       - name: Change the Layout of Report Elements
-        href: articles/report-designer/report-designer-for-winforms/report-editing-basics/change-the-layout-of-report-elements.md
+        href: articles/report-designer/report-designer-for-winforms-old/report-editing-basics/change-the-layout-of-report-elements.md
       - name: Change Fonts and Colors of Report Elements
-        href: articles/report-designer/report-designer-for-winforms/report-editing-basics/change-fonts-and-colors-of-report-elements.md
+        href: articles/report-designer/report-designer-for-winforms-old/report-editing-basics/change-fonts-and-colors-of-report-elements.md
       - name: Delete Report Elements
-        href: articles/report-designer/report-designer-for-winforms/report-editing-basics/delete-report-elements.md
+        href: articles/report-designer/report-designer-for-winforms-old/report-editing-basics/delete-report-elements.md
       - name: Add or Modify Static Information in Your Report
-        href: articles/report-designer/report-designer-for-winforms/report-editing-basics/add-or-modify-static-information-in-your-report.md
+        href: articles/report-designer/report-designer-for-winforms-old/report-editing-basics/add-or-modify-static-information-in-your-report.md
       - name: Binding Report Elements to Data
-        href: articles/report-designer/report-designer-for-winforms/report-editing-basics/displaying-values-from-a-database-(binding-report-elements-to-data).md
+        href: articles/report-designer/report-designer-for-winforms-old/report-editing-basics/displaying-values-from-a-database-(binding-report-elements-to-data).md
       - name: Binding Report Elements Using Expression Bindings
-        href: articles/report-designer/report-designer-for-winforms/report-editing-basics/binding-report-elements-using-binding-expressions.md
+        href: articles/report-designer/report-designer-for-winforms-old/report-editing-basics/binding-report-elements-using-binding-expressions.md
       - name: Use Mail Merge in Report Elements
-        href: articles/report-designer/report-designer-for-winforms/report-editing-basics/use-mail-merge-in-report-elements.md
+        href: articles/report-designer/report-designer-for-winforms-old/report-editing-basics/use-mail-merge-in-report-elements.md
       - name: Add Calculated Fields to a Report
-        href: articles/report-designer/report-designer-for-winforms/report-editing-basics/add-calculated-fields-to-a-report.md
+        href: articles/report-designer/report-designer-for-winforms-old/report-editing-basics/add-calculated-fields-to-a-report.md
       - name: Add Parameters to a Report
-        href: articles/report-designer/report-designer-for-winforms/report-editing-basics/add-parameters-to-a-report.md
+        href: articles/report-designer/report-designer-for-winforms-old/report-editing-basics/add-parameters-to-a-report.md
       - name: Use Query Parameters
-        href: articles/report-designer/report-designer-for-winforms/report-editing-basics/use-query-parameters.md
+        href: articles/report-designer/report-designer-for-winforms-old/report-editing-basics/use-query-parameters.md
       - name: Change Value Formatting of Report Elements
-        href: articles/report-designer/report-designer-for-winforms/report-editing-basics/change-value-formatting-of-report-elements.md
+        href: articles/report-designer/report-designer-for-winforms-old/report-editing-basics/change-value-formatting-of-report-elements.md
       - name: Change or Apply Data Sorting to a Report
-        href: articles/report-designer/report-designer-for-winforms/report-editing-basics/change-or-apply-data-sorting-to-a-report.md
+        href: articles/report-designer/report-designer-for-winforms-old/report-editing-basics/change-or-apply-data-sorting-to-a-report.md
       - name: Change or Apply Data Grouping to a Report
-        href: articles/report-designer/report-designer-for-winforms/report-editing-basics/change-or-apply-data-grouping-to-a-report.md
+        href: articles/report-designer/report-designer-for-winforms-old/report-editing-basics/change-or-apply-data-grouping-to-a-report.md
       - name: Change or Apply Data Filtering to a Report
-        href: articles/report-designer/report-designer-for-winforms/report-editing-basics/change-or-apply-data-filtering-to-a-report.md
+        href: articles/report-designer/report-designer-for-winforms-old/report-editing-basics/change-or-apply-data-filtering-to-a-report.md
       - name: Add Totals to a Report
-        href: articles/report-designer/report-designer-for-winforms/report-editing-basics/add-totals-to-a-report.md
+        href: articles/report-designer/report-designer-for-winforms-old/report-editing-basics/add-totals-to-a-report.md
       - name: Add Page Numbers and System Information to a Report
-        href: articles/report-designer/report-designer-for-winforms/report-editing-basics/add-page-numbers-and-system-information-to-a-report.md
+        href: articles/report-designer/report-designer-for-winforms-old/report-editing-basics/add-page-numbers-and-system-information-to-a-report.md
       - name: Create or Modify Watermarks of a Report
-        href: articles/report-designer/report-designer-for-winforms/report-editing-basics/create-or-modify-watermarks-of-a-report.md
+        href: articles/report-designer/report-designer-for-winforms-old/report-editing-basics/create-or-modify-watermarks-of-a-report.md
     - name: Create Reports
-      href: articles/report-designer/report-designer-for-winforms/create-reports.md
+      href: articles/report-designer/report-designer-for-winforms-old/create-reports.md
       items:
       - name: Basic Operations
-        href: articles/report-designer/report-designer-for-winforms/create-reports/basic-operations.md
+        href: articles/report-designer/report-designer-for-winforms-old/create-reports/basic-operations.md
         items:
         - name: Create a New Report
-          href: articles/report-designer/report-designer-for-winforms/create-reports/basic-operations/create-a-new-report.md
+          href: articles/report-designer/report-designer-for-winforms-old/create-reports/basic-operations/create-a-new-report.md
         - name: Controls Positioning
-          href: articles/report-designer/report-designer-for-winforms/create-reports/basic-operations/controls-positioning.md
+          href: articles/report-designer/report-designer-for-winforms-old/create-reports/basic-operations/controls-positioning.md
         - name: Change Measurement Units of a Report
-          href: articles/report-designer/report-designer-for-winforms/create-reports/basic-operations/change-measurement-units-of-a-report.md
+          href: articles/report-designer/report-designer-for-winforms-old/create-reports/basic-operations/change-measurement-units-of-a-report.md
         - name: Change Page Settings of a Report
-          href: articles/report-designer/report-designer-for-winforms/create-reports/basic-operations/change-page-settings-of-a-report.md
+          href: articles/report-designer/report-designer-for-winforms-old/create-reports/basic-operations/change-page-settings-of-a-report.md
       - name: Binding a Report to Data
-        href: articles/report-designer/report-designer-for-winforms/create-reports/binding-a-report-to-data.md
+        href: articles/report-designer/report-designer-for-winforms-old/create-reports/binding-a-report-to-data.md
         items:
         - name: Bind a Report to a Database
-          href: articles/report-designer/report-designer-for-winforms/create-reports/binding-a-report-to-data/bind-a-report-to-a-database.md
+          href: articles/report-designer/report-designer-for-winforms-old/create-reports/binding-a-report-to-data/bind-a-report-to-a-database.md
         - name: Bind a Report to an Entity Framework Data Source
-          href: articles/report-designer/report-designer-for-winforms/create-reports/binding-a-report-to-data/bind-a-report-to-an-entity-framework-data-source.md
+          href: articles/report-designer/report-designer-for-winforms-old/create-reports/binding-a-report-to-data/bind-a-report-to-an-entity-framework-data-source.md
         - name: Bind a Report to an Object Data Source
-          href: articles/report-designer/report-designer-for-winforms/create-reports/binding-a-report-to-data/bind-a-report-to-an-object-data-source.md
+          href: articles/report-designer/report-designer-for-winforms-old/create-reports/binding-a-report-to-data/bind-a-report-to-an-object-data-source.md
         - name: Bind a Report to an Excel Data Source
-          href: articles/report-designer/report-designer-for-winforms/create-reports/binding-a-report-to-data/bind-a-report-to-an-excel-data-source.md
+          href: articles/report-designer/report-designer-for-winforms-old/create-reports/binding-a-report-to-data/bind-a-report-to-an-excel-data-source.md
       - name: Report Types
-        href: articles/report-designer/report-designer-for-winforms/create-reports/report-types.md
+        href: articles/report-designer/report-designer-for-winforms-old/create-reports/report-types.md
         items:
         - name: Static Report
-          href: articles/report-designer/report-designer-for-winforms/create-reports/report-types/static-report.md
+          href: articles/report-designer/report-designer-for-winforms-old/create-reports/report-types/static-report.md
         - name: Table Report
-          href: articles/report-designer/report-designer-for-winforms/create-reports/report-types/table-report.md
+          href: articles/report-designer/report-designer-for-winforms-old/create-reports/report-types/table-report.md
         - name: Label Report
-          href: articles/report-designer/report-designer-for-winforms/create-reports/report-types/label-report.md
+          href: articles/report-designer/report-designer-for-winforms-old/create-reports/report-types/label-report.md
         - name: Multi-Column Report
-          href: articles/report-designer/report-designer-for-winforms/create-reports/report-types/multi-column-report.md
+          href: articles/report-designer/report-designer-for-winforms-old/create-reports/report-types/multi-column-report.md
         - name: Master-Detail Report
-          href: articles/report-designer/report-designer-for-winforms/create-reports/report-types/master-detail-report.md
+          href: articles/report-designer/report-designer-for-winforms-old/create-reports/report-types/master-detail-report.md
         - name: Master-Detail Report (Detail Report Bands)
-          href: articles/report-designer/report-designer-for-winforms/create-reports/report-types/master-detail-report-(detail-report-bands).md
+          href: articles/report-designer/report-designer-for-winforms-old/create-reports/report-types/master-detail-report-(detail-report-bands).md
         - name: Master-Detail Report (Subreports)
-          href: articles/report-designer/report-designer-for-winforms/create-reports/report-types/master-detail-report-(subreports).md
+          href: articles/report-designer/report-designer-for-winforms-old/create-reports/report-types/master-detail-report-(subreports).md
         - name: Drill-Down Report
-          href: articles/report-designer/report-designer-for-winforms/create-reports/report-types/drill-down-report.md
+          href: articles/report-designer/report-designer-for-winforms-old/create-reports/report-types/drill-down-report.md
         - name: Cross-Tab Report
-          href: articles/report-designer/report-designer-for-winforms/create-reports/report-types/cross-tab-report.md
+          href: articles/report-designer/report-designer-for-winforms-old/create-reports/report-types/cross-tab-report.md
         - name: Parameterized Report
-          href: articles/report-designer/report-designer-for-winforms/create-reports/report-types/parameterized-report.md
+          href: articles/report-designer/report-designer-for-winforms-old/create-reports/report-types/parameterized-report.md
         - name: Chart with Static Series
-          href: articles/report-designer/report-designer-for-winforms/create-reports/report-types/chart-with-static-series.md
+          href: articles/report-designer/report-designer-for-winforms-old/create-reports/report-types/chart-with-static-series.md
         - name: Chart with Dynamic Series
-          href: articles/report-designer/report-designer-for-winforms/create-reports/report-types/chart-with-dynamic-series.md
+          href: articles/report-designer/report-designer-for-winforms-old/create-reports/report-types/chart-with-dynamic-series.md
       - name: Styles and Conditional Formatting in Reports
-        href: articles/report-designer/report-designer-for-winforms/create-reports/styles-and-conditional-formatting-in-reports.md
+        href: articles/report-designer/report-designer-for-winforms-old/create-reports/styles-and-conditional-formatting-in-reports.md
         items:
         - name: Understanding Style Concepts
-          href: articles/report-designer/report-designer-for-winforms/create-reports/styles-and-conditional-formatting/understanding-style-concepts.md
+          href: articles/report-designer/report-designer-for-winforms-old/create-reports/styles-and-conditional-formatting/understanding-style-concepts.md
         - name: Use Odd and Even Styles
-          href: articles/report-designer/report-designer-for-winforms/create-reports/styles-and-conditional-formatting/use-odd-and-even-styles.md
+          href: articles/report-designer/report-designer-for-winforms-old/create-reports/styles-and-conditional-formatting/use-odd-and-even-styles.md
         - name: Store and Restore Style Sheets
-          href: articles/report-designer/report-designer-for-winforms/create-reports/styles-and-conditional-formatting/store-and-restore-style-sheets.md
+          href: articles/report-designer/report-designer-for-winforms-old/create-reports/styles-and-conditional-formatting/store-and-restore-style-sheets.md
         - name: Conditionally Change a Control's Appearance
-          href: articles/report-designer/report-designer-for-winforms/create-reports/styles-and-conditional-formatting/conditionally-change-a-controls-appearance.md
+          href: articles/report-designer/report-designer-for-winforms-old/create-reports/styles-and-conditional-formatting/conditionally-change-a-controls-appearance.md
         - name: Conditionally Hide Bands
-          href: articles/report-designer/report-designer-for-winforms/create-reports/styles-and-conditional-formatting/conditionally-hide-bands.md
+          href: articles/report-designer/report-designer-for-winforms-old/create-reports/styles-and-conditional-formatting/conditionally-hide-bands.md
         - name: Conditionally Change a Label's Text
-          href: articles/report-designer/report-designer-for-winforms/create-reports/styles-and-conditional-formatting/conditionally-change-a-labels-text.md
+          href: articles/report-designer/report-designer-for-winforms-old/create-reports/styles-and-conditional-formatting/conditionally-change-a-labels-text.md
       - name: Report Navigation and Interactivity
-        href: articles/report-designer/report-designer-for-winforms/create-reports/report-navigation-and-interactivity.md
+        href: articles/report-designer/report-designer-for-winforms-old/create-reports/report-navigation-and-interactivity.md
         items:
         - name: Add Bookmarks
-          href: articles/report-designer/report-designer-for-winforms/create-reports/report-navigation-and-interactivity/add-bookmarks.md
+          href: articles/report-designer/report-designer-for-winforms-old/create-reports/report-navigation-and-interactivity/add-bookmarks.md
         - name: Create a Table of Contents
-          href: articles/report-designer/report-designer-for-winforms/create-reports/report-navigation-and-interactivity/create-a-table-of-contents.md
+          href: articles/report-designer/report-designer-for-winforms-old/create-reports/report-navigation-and-interactivity/create-a-table-of-contents.md
         - name: Create Hyperlinks
-          href: articles/report-designer/report-designer-for-winforms/create-reports/report-navigation-and-interactivity/create-hyperlinks.md
+          href: articles/report-designer/report-designer-for-winforms-old/create-reports/report-navigation-and-interactivity/create-hyperlinks.md
         - name: Add a Cross-Reference
-          href: articles/report-designer/report-designer-for-winforms/create-reports/report-navigation-and-interactivity/add-a-cross-reference.md
+          href: articles/report-designer/report-designer-for-winforms-old/create-reports/report-navigation-and-interactivity/add-a-cross-reference.md
         - name: Enable Content Editing in Print Preview
-          href: articles/report-designer/report-designer-for-winforms/create-reports/report-navigation-and-interactivity/enable-content-editing-in-print-preview.md
+          href: articles/report-designer/report-designer-for-winforms-old/create-reports/report-navigation-and-interactivity/enable-content-editing-in-print-preview.md
       - name: Miscellaneous Report Management Capabilities
-        href: articles/report-designer/report-designer-for-winforms/create-reports/miscellaneous-report-management-capabilities.md
+        href: articles/report-designer/report-designer-for-winforms-old/create-reports/miscellaneous-report-management-capabilities.md
         items:
         - name: Handle Events via Scripts
-          href: articles/report-designer/report-designer-for-winforms/create-reports/miscellaneous/handle-events-via-scripts.md
+          href: articles/report-designer/report-designer-for-winforms-old/create-reports/miscellaneous/handle-events-via-scripts.md
         - name: Show the Current Row Index
-          href: articles/report-designer/report-designer-for-winforms/create-reports/miscellaneous/show-the-current-row-index.md
+          href: articles/report-designer/report-designer-for-winforms-old/create-reports/miscellaneous/show-the-current-row-index.md
         - name: Count the Number of Records in a Report or a Group
-          href: articles/report-designer/report-designer-for-winforms/create-reports/miscellaneous/count-the-number-of-records-in-a-report-or-a-group.md
+          href: articles/report-designer/report-designer-for-winforms-old/create-reports/miscellaneous/count-the-number-of-records-in-a-report-or-a-group.md
         - name: Add Page Numbers for Groups
-          href: articles/report-designer/report-designer-for-winforms/create-reports/miscellaneous/add-page-numbers-for-groups.md
+          href: articles/report-designer/report-designer-for-winforms-old/create-reports/miscellaneous/add-page-numbers-for-groups.md
         - name: Sort Groups by a Summary Function Result
-          href: articles/report-designer/report-designer-for-winforms/create-reports/miscellaneous/sort-groups-by-a-summary-function-result.md
+          href: articles/report-designer/report-designer-for-winforms-old/create-reports/miscellaneous/sort-groups-by-a-summary-function-result.md
         - name: Calculate an Aggregate Function
-          href: articles/report-designer/report-designer-for-winforms/create-reports/miscellaneous/calculate-an-aggregate-function.md
+          href: articles/report-designer/report-designer-for-winforms-old/create-reports/miscellaneous/calculate-an-aggregate-function.md
         - name: Cancel Printing If a Report Does Not Contain Any Records
-          href: articles/report-designer/report-designer-for-winforms/create-reports/miscellaneous/cancel-printing-if-a-report-does-not-contain-any-records.md
+          href: articles/report-designer/report-designer-for-winforms-old/create-reports/miscellaneous/cancel-printing-if-a-report-does-not-contain-any-records.md
         - name: Limit the Number of Records per Page
-          href: articles/report-designer/report-designer-for-winforms/create-reports/miscellaneous/limit-the-number-of-records-per-page.md
+          href: articles/report-designer/report-designer-for-winforms-old/create-reports/miscellaneous/limit-the-number-of-records-per-page.md
     - name: Report Designer Reference
-      href: articles/report-designer/report-designer-for-winforms/report-designer-reference.md
+      href: articles/report-designer/report-designer-for-winforms-old/report-designer-reference.md
       items:
       - name: Report Designer UI
-        href: articles/report-designer/report-designer-for-winforms/report-designer-reference/report-designer-ui.md
+        href: articles/report-designer/report-designer-for-winforms-old/report-designer-reference/report-designer-ui.md
         items:
         - name: Report Designer Elements
-          href: articles/report-designer/report-designer-for-winforms/report-designer-reference/report-designer-ui/report-designer-elements.md
+          href: articles/report-designer/report-designer-for-winforms-old/report-designer-reference/report-designer-ui/report-designer-elements.md
         - name: Ribbon Designer Elements
-          href: articles/report-designer/report-designer-for-winforms/report-designer-reference/report-designer-ui/ribbon-designer-elements.md
+          href: articles/report-designer/report-designer-for-winforms-old/report-designer-reference/report-designer-ui/ribbon-designer-elements.md
         - name: Component Tray
-          href: articles/report-designer/report-designer-for-winforms/report-designer-reference/report-designer-ui/component-tray.md
+          href: articles/report-designer/report-designer-for-winforms-old/report-designer-reference/report-designer-ui/component-tray.md
         - name: Context Menu
-          href: articles/report-designer/report-designer-for-winforms/report-designer-reference/report-designer-ui/context-menu.md
+          href: articles/report-designer/report-designer-for-winforms-old/report-designer-reference/report-designer-ui/context-menu.md
         - name: Control Toolbox
-          href: articles/report-designer/report-designer-for-winforms/report-designer-reference/report-designer-ui/control-toolbox.md
+          href: articles/report-designer/report-designer-for-winforms-old/report-designer-reference/report-designer-ui/control-toolbox.md
         - name: Design Panel
-          href: articles/report-designer/report-designer-for-winforms/report-designer-reference/report-designer-ui/design-panel.md
+          href: articles/report-designer/report-designer-for-winforms-old/report-designer-reference/report-designer-ui/design-panel.md
         - name: Designer Tab
-          href: articles/report-designer/report-designer-for-winforms/report-designer-reference/report-designer-ui/designer-tab.md
+          href: articles/report-designer/report-designer-for-winforms-old/report-designer-reference/report-designer-ui/designer-tab.md
         - name: Field List
-          href: articles/report-designer/report-designer-for-winforms/report-designer-reference/report-designer-ui/field-list.md
+          href: articles/report-designer/report-designer-for-winforms-old/report-designer-reference/report-designer-ui/field-list.md
         - name: Formatting Toolbar
-          href: articles/report-designer/report-designer-for-winforms/report-designer-reference/report-designer-ui/formatting-toolbar.md
+          href: articles/report-designer/report-designer-for-winforms-old/report-designer-reference/report-designer-ui/formatting-toolbar.md
         - name: Group and Sort Panel
-          href: articles/report-designer/report-designer-for-winforms/report-designer-reference/report-designer-ui/group-and-sort-panel.md
+          href: articles/report-designer/report-designer-for-winforms-old/report-designer-reference/report-designer-ui/group-and-sort-panel.md
         - name: HTML View Tab
-          href: articles/report-designer/report-designer-for-winforms/report-designer-reference/report-designer-ui/html-view-tab.md
+          href: articles/report-designer/report-designer-for-winforms-old/report-designer-reference/report-designer-ui/html-view-tab.md
         - name: Layout Toolbar
-          href: articles/report-designer/report-designer-for-winforms/report-designer-reference/report-designer-ui/layout-toolbar.md
+          href: articles/report-designer/report-designer-for-winforms-old/report-designer-reference/report-designer-ui/layout-toolbar.md
         - name: Main Menu
-          href: articles/report-designer/report-designer-for-winforms/report-designer-reference/report-designer-ui/main-menu.md
+          href: articles/report-designer/report-designer-for-winforms-old/report-designer-reference/report-designer-ui/main-menu.md
         - name: Main Toolbar
-          href: articles/report-designer/report-designer-for-winforms/report-designer-reference/report-designer-ui/main-toolbar.md
+          href: articles/report-designer/report-designer-for-winforms-old/report-designer-reference/report-designer-ui/main-toolbar.md
         - name: Preview Tab
-          href: articles/report-designer/report-designer-for-winforms/report-designer-reference/report-designer-ui/preview-tab.md
+          href: articles/report-designer/report-designer-for-winforms-old/report-designer-reference/report-designer-ui/preview-tab.md
         - name: Property Grid
-          href: articles/report-designer/report-designer-for-winforms/report-designer-reference/report-designer-ui/property-grid.md
+          href: articles/report-designer/report-designer-for-winforms-old/report-designer-reference/report-designer-ui/property-grid.md
         - name: Report Explorer
-          href: articles/report-designer/report-designer-for-winforms/report-designer-reference/report-designer-ui/report-explorer.md
+          href: articles/report-designer/report-designer-for-winforms-old/report-designer-reference/report-designer-ui/report-explorer.md
         - name: Scripts Errors Panel
-          href: articles/report-designer/report-designer-for-winforms/report-designer-reference/report-designer-ui/scripts-errors-panel.md
+          href: articles/report-designer/report-designer-for-winforms-old/report-designer-reference/report-designer-ui/scripts-errors-panel.md
         - name: Scripts Tab
-          href: articles/report-designer/report-designer-for-winforms/report-designer-reference/report-designer-ui/scripts-tab.md
+          href: articles/report-designer/report-designer-for-winforms-old/report-designer-reference/report-designer-ui/scripts-tab.md
         - name: Smart Tag
-          href: articles/report-designer/report-designer-for-winforms/report-designer-reference/report-designer-ui/smart-tag.md
+          href: articles/report-designer/report-designer-for-winforms-old/report-designer-reference/report-designer-ui/smart-tag.md
         - name: Status Bar
-          href: articles/report-designer/report-designer-for-winforms/report-designer-reference/report-designer-ui/status-bar.md
+          href: articles/report-designer/report-designer-for-winforms-old/report-designer-reference/report-designer-ui/status-bar.md
         - name: Query Builder
-          href: articles/report-designer/report-designer-for-winforms/report-designer-reference/report-designer-ui/query-builder.md
+          href: articles/report-designer/report-designer-for-winforms-old/report-designer-reference/report-designer-ui/query-builder.md
         - name: Zoom Toolbar
-          href: articles/report-designer/report-designer-for-winforms/report-designer-reference/report-designer-ui/zoom-toolbar.md
+          href: articles/report-designer/report-designer-for-winforms-old/report-designer-reference/report-designer-ui/zoom-toolbar.md
       - name: Report Controls
-        href: articles/report-designer/report-designer-for-winforms/report-designer-reference/report-controls.md
+        href: articles/report-designer/report-designer-for-winforms-old/report-designer-reference/report-controls.md
         items:
         - name: Label
-          href: articles/report-designer/report-designer-for-winforms/report-designer-reference/report-controls/label.md
+          href: articles/report-designer/report-designer-for-winforms-old/report-designer-reference/report-controls/label.md
         - name: Character Comb
-          href: articles/report-designer/report-designer-for-winforms/report-designer-reference/report-controls/character-comb.md
+          href: articles/report-designer/report-designer-for-winforms-old/report-designer-reference/report-controls/character-comb.md
         - name: Check Box
-          href: articles/report-designer/report-designer-for-winforms/report-designer-reference/report-controls/check-box.md
+          href: articles/report-designer/report-designer-for-winforms-old/report-designer-reference/report-controls/check-box.md
         - name: Rich Text
-          href: articles/report-designer/report-designer-for-winforms/report-designer-reference/report-controls/rich-text.md
+          href: articles/report-designer/report-designer-for-winforms-old/report-designer-reference/report-controls/rich-text.md
         - name: Picture Box
-          href: articles/report-designer/report-designer-for-winforms/report-designer-reference/report-controls/picture-box.md
+          href: articles/report-designer/report-designer-for-winforms-old/report-designer-reference/report-controls/picture-box.md
         - name: Panel
-          href: articles/report-designer/report-designer-for-winforms/report-designer-reference/report-controls/panel.md
+          href: articles/report-designer/report-designer-for-winforms-old/report-designer-reference/report-controls/panel.md
         - name: Table
-          href: articles/report-designer/report-designer-for-winforms/report-designer-reference/report-controls/table.md
+          href: articles/report-designer/report-designer-for-winforms-old/report-designer-reference/report-controls/table.md
         - name: Table Row
-          href: articles/report-designer/report-designer-for-winforms/report-designer-reference/report-controls/table-row.md
+          href: articles/report-designer/report-designer-for-winforms-old/report-designer-reference/report-controls/table-row.md
         - name: Table Cell
-          href: articles/report-designer/report-designer-for-winforms/report-designer-reference/report-controls/table-cell.md
+          href: articles/report-designer/report-designer-for-winforms-old/report-designer-reference/report-controls/table-cell.md
         - name: Line
-          href: articles/report-designer/report-designer-for-winforms/report-designer-reference/report-controls/line.md
+          href: articles/report-designer/report-designer-for-winforms-old/report-designer-reference/report-controls/line.md
         - name: Shape
-          href: articles/report-designer/report-designer-for-winforms/report-designer-reference/report-controls/shape.md
+          href: articles/report-designer/report-designer-for-winforms-old/report-designer-reference/report-controls/shape.md
         - name: Bar Code
-          href: articles/report-designer/report-designer-for-winforms/report-designer-reference/report-controls/bar-code.md
+          href: articles/report-designer/report-designer-for-winforms-old/report-designer-reference/report-controls/bar-code.md
         - name: Zip Code
-          href: articles/report-designer/report-designer-for-winforms/report-designer-reference/report-controls/zip-code.md
+          href: articles/report-designer/report-designer-for-winforms-old/report-designer-reference/report-controls/zip-code.md
         - name: Chart
-          href: articles/report-designer/report-designer-for-winforms/report-designer-reference/report-controls/chart.md
+          href: articles/report-designer/report-designer-for-winforms-old/report-designer-reference/report-controls/chart.md
         - name: Pivot Grid
-          href: articles/report-designer/report-designer-for-winforms/report-designer-reference/report-controls/pivot-grid.md
+          href: articles/report-designer/report-designer-for-winforms-old/report-designer-reference/report-controls/pivot-grid.md
         - name: Page Info
-          href: articles/report-designer/report-designer-for-winforms/report-designer-reference/report-controls/page-info.md
+          href: articles/report-designer/report-designer-for-winforms-old/report-designer-reference/report-controls/page-info.md
         - name: Page Break
-          href: articles/report-designer/report-designer-for-winforms/report-designer-reference/report-controls/page-break.md
+          href: articles/report-designer/report-designer-for-winforms-old/report-designer-reference/report-controls/page-break.md
         - name: Cross-band Line
-          href: articles/report-designer/report-designer-for-winforms/report-designer-reference/report-controls/cross-band-line.md
+          href: articles/report-designer/report-designer-for-winforms-old/report-designer-reference/report-controls/cross-band-line.md
         - name: Cross-band Box
-          href: articles/report-designer/report-designer-for-winforms/report-designer-reference/report-controls/cross-band-box.md
+          href: articles/report-designer/report-designer-for-winforms-old/report-designer-reference/report-controls/cross-band-box.md
         - name: Subreport
-          href: articles/report-designer/report-designer-for-winforms/report-designer-reference/report-controls/subreport.md
+          href: articles/report-designer/report-designer-for-winforms-old/report-designer-reference/report-controls/subreport.md
         - name: Sparkline
-          href: articles/report-designer/report-designer-for-winforms/report-designer-reference/report-controls/sparkline.md
+          href: articles/report-designer/report-designer-for-winforms-old/report-designer-reference/report-controls/sparkline.md
         - name: Table of Contents
-          href: articles/report-designer/report-designer-for-winforms/report-designer-reference/report-controls/table-of-contents.md
+          href: articles/report-designer/report-designer-for-winforms-old/report-designer-reference/report-controls/table-of-contents.md
         - name: Gauge
-          href: articles/report-designer/report-designer-for-winforms/report-designer-reference/report-controls/gauge.md
+          href: articles/report-designer/report-designer-for-winforms-old/report-designer-reference/report-controls/gauge.md
       - name: Report Bands
-        href: articles/report-designer/report-designer-for-winforms/report-designer-reference/report-bands.md
+        href: articles/report-designer/report-designer-for-winforms-old/report-designer-reference/report-bands.md
         items:
         - name: Detail Band
-          href: articles/report-designer/report-designer-for-winforms/report-designer-reference/report-bands/detail-band.md
+          href: articles/report-designer/report-designer-for-winforms-old/report-designer-reference/report-bands/detail-band.md
         - name: Grouping Bands
-          href: articles/report-designer/report-designer-for-winforms/report-designer-reference/report-bands/grouping-bands.md
+          href: articles/report-designer/report-designer-for-winforms-old/report-designer-reference/report-bands/grouping-bands.md
         - name: Report Header and Footer
-          href: articles/report-designer/report-designer-for-winforms/report-designer-reference/report-bands/report-header-and-footer.md
+          href: articles/report-designer/report-designer-for-winforms-old/report-designer-reference/report-bands/report-header-and-footer.md
         - name: Page Header and Footer
-          href: articles/report-designer/report-designer-for-winforms/report-designer-reference/report-bands/page-header-and-footer.md
+          href: articles/report-designer/report-designer-for-winforms-old/report-designer-reference/report-bands/page-header-and-footer.md
         - name: Page Margin Bands
-          href: articles/report-designer/report-designer-for-winforms/report-designer-reference/report-bands/page-margin-bands.md
+          href: articles/report-designer/report-designer-for-winforms-old/report-designer-reference/report-bands/page-margin-bands.md
         - name: Detail Report Band for Master-Detail Reports
-          href: articles/report-designer/report-designer-for-winforms/report-designer-reference/report-bands/detail-report-band-for-master-detail-reports.md
+          href: articles/report-designer/report-designer-for-winforms-old/report-designer-reference/report-bands/detail-report-band-for-master-detail-reports.md
         - name: Sub-Bands
-          href: articles/report-designer/report-designer-for-winforms/report-designer-reference/report-bands/sub-bands.md
+          href: articles/report-designer/report-designer-for-winforms-old/report-designer-reference/report-bands/sub-bands.md
       - name: Report Settings
-        href: articles/report-designer/report-designer-for-winforms/report-designer-reference/report-settings.md
+        href: articles/report-designer/report-designer-for-winforms-old/report-designer-reference/report-settings.md
     - name: Report Wizard
-      href: articles/report-designer/report-designer-for-winforms/report-wizard.md
+      href: articles/report-designer/report-designer-for-winforms-old/report-wizard.md
       items:
       - name: Choose a Report Type
-        href: articles/report-designer/report-designer-for-winforms/report-wizard/choose-a-report-type.md
+        href: articles/report-designer/report-designer-for-winforms-old/report-wizard/choose-a-report-type.md
       - name: Empty Report
-        href: articles/report-designer/report-designer-for-winforms/report-wizard/empty-report.md
+        href: articles/report-designer/report-designer-for-winforms-old/report-wizard/empty-report.md
       - name: Data-bound Report
-        href: articles/report-designer/report-designer-for-winforms/report-wizard/data-bound-report.md
+        href: articles/report-designer/report-designer-for-winforms-old/report-wizard/data-bound-report.md
         items:
         - name: Connect to a Database
-          href: articles/report-designer/report-designer-for-winforms/report-wizard/data-bound-report/connect-to-a-database.md
+          href: articles/report-designer/report-designer-for-winforms-old/report-wizard/data-bound-report/connect-to-a-database.md
           items:
           - name: Select a Data Connection
-            href: articles/report-designer/report-designer-for-winforms/report-wizard/data-bound-report/connect-to-a-database/select-a-data-connection.md
+            href: articles/report-designer/report-designer-for-winforms-old/report-wizard/data-bound-report/connect-to-a-database/select-a-data-connection.md
           - name: Specify a Connection String
-            href: articles/report-designer/report-designer-for-winforms/report-wizard/data-bound-report/connect-to-a-database/specify-a-connection-string.md
+            href: articles/report-designer/report-designer-for-winforms-old/report-wizard/data-bound-report/connect-to-a-database/specify-a-connection-string.md
           - name: Save the Connection String
-            href: articles/report-designer/report-designer-for-winforms/report-wizard/data-bound-report/connect-to-a-database/save-the-connection-string.md
+            href: articles/report-designer/report-designer-for-winforms-old/report-wizard/data-bound-report/connect-to-a-database/save-the-connection-string.md
           - name: Create a Query or Select a Stored Procedure
-            href: articles/report-designer/report-designer-for-winforms/report-wizard/data-bound-report/connect-to-a-database/create-a-query-or-select-a-stored-procedure.md
+            href: articles/report-designer/report-designer-for-winforms-old/report-wizard/data-bound-report/connect-to-a-database/create-a-query-or-select-a-stored-procedure.md
           - name: Create a Query or Select a Stored Procedure (Single-Query Wizard Version)
-            href: articles/report-designer/report-designer-for-winforms/report-wizard/data-bound-report/connect-to-a-database/create-a-query-or-select-a-stored-procedure-2.md
+            href: articles/report-designer/report-designer-for-winforms-old/report-wizard/data-bound-report/connect-to-a-database/create-a-query-or-select-a-stored-procedure-2.md
           - name: Configure Query Parameters
-            href: articles/report-designer/report-designer-for-winforms/report-wizard/data-bound-report/connect-to-a-database/configure-query-parameters.md
+            href: articles/report-designer/report-designer-for-winforms-old/report-wizard/data-bound-report/connect-to-a-database/configure-query-parameters.md
         - name: Connect to an Entity Framework Data Source
-          href: articles/report-designer/report-designer-for-winforms/report-wizard/data-bound-report/connect-to-an-entity-framework-data-source.md
+          href: articles/report-designer/report-designer-for-winforms-old/report-wizard/data-bound-report/connect-to-an-entity-framework-data-source.md
           items:
           - name: Select the Data Context
-            href: articles/report-designer/report-designer-for-winforms/report-wizard/data-bound-report/connect-to-an-entity-framework-data-source/select-the-data-context.md
+            href: articles/report-designer/report-designer-for-winforms-old/report-wizard/data-bound-report/connect-to-an-entity-framework-data-source/select-the-data-context.md
           - name: Select the Connection String
-            href: articles/report-designer/report-designer-for-winforms/report-wizard/data-bound-report/connect-to-an-entity-framework-data-source/select-the-connection-string.md
+            href: articles/report-designer/report-designer-for-winforms-old/report-wizard/data-bound-report/connect-to-an-entity-framework-data-source/select-the-connection-string.md
           - name: Specify a Connection String
-            href: articles/report-designer/report-designer-for-winforms/report-wizard/data-bound-report/connect-to-an-entity-framework-data-source/specify-a-connection-string.md
+            href: articles/report-designer/report-designer-for-winforms-old/report-wizard/data-bound-report/connect-to-an-entity-framework-data-source/specify-a-connection-string.md
           - name: Bind to a Stored Procedure
-            href: articles/report-designer/report-designer-for-winforms/report-wizard/data-bound-report/connect-to-an-entity-framework-data-source/bind-to-a-stored-procedure.md
+            href: articles/report-designer/report-designer-for-winforms-old/report-wizard/data-bound-report/connect-to-an-entity-framework-data-source/bind-to-a-stored-procedure.md
           - name: Select a Data Member
-            href: articles/report-designer/report-designer-for-winforms/report-wizard/data-bound-report/connect-to-an-entity-framework-data-source/select-a-data-member.md
+            href: articles/report-designer/report-designer-for-winforms-old/report-wizard/data-bound-report/connect-to-an-entity-framework-data-source/select-a-data-member.md
         - name: Connect to an Object Data Source
-          href: articles/report-designer/report-designer-for-winforms/report-wizard/data-bound-report/connect-to-an-object-data-source.md
+          href: articles/report-designer/report-designer-for-winforms-old/report-wizard/data-bound-report/connect-to-an-object-data-source.md
           items:
           - name: Select an Assembly
-            href: articles/report-designer/report-designer-for-winforms/report-wizard/data-bound-report/connect-to-an-object-data-source/select-an-assembly.md
+            href: articles/report-designer/report-designer-for-winforms-old/report-wizard/data-bound-report/connect-to-an-object-data-source/select-an-assembly.md
           - name: Select a Data Source Type
-            href: articles/report-designer/report-designer-for-winforms/report-wizard/data-bound-report/connect-to-an-object-data-source/select-a-data-source-type.md
+            href: articles/report-designer/report-designer-for-winforms-old/report-wizard/data-bound-report/connect-to-an-object-data-source/select-a-data-source-type.md
           - name: Select a Data Source Member
-            href: articles/report-designer/report-designer-for-winforms/report-wizard/data-bound-report/connect-to-an-object-data-source/select-a-data-source-member.md
+            href: articles/report-designer/report-designer-for-winforms-old/report-wizard/data-bound-report/connect-to-an-object-data-source/select-a-data-source-member.md
           - name: Specify the Member Parameters
-            href: articles/report-designer/report-designer-for-winforms/report-wizard/data-bound-report/connect-to-an-object-data-source/specify-the-member-parameters.md
+            href: articles/report-designer/report-designer-for-winforms-old/report-wizard/data-bound-report/connect-to-an-object-data-source/specify-the-member-parameters.md
           - name: Select the Data Binding Mode
-            href: articles/report-designer/report-designer-for-winforms/report-wizard/data-bound-report/connect-to-an-object-data-source/select-the-data-binding-mode.md
+            href: articles/report-designer/report-designer-for-winforms-old/report-wizard/data-bound-report/connect-to-an-object-data-source/select-the-data-binding-mode.md
           - name: Select a Data Source Constructor
-            href: articles/report-designer/report-designer-for-winforms/report-wizard/data-bound-report/connect-to-an-object-data-source/select-a-data-source-constructor.md
+            href: articles/report-designer/report-designer-for-winforms-old/report-wizard/data-bound-report/connect-to-an-object-data-source/select-a-data-source-constructor.md
           - name: Specify the Constructor Parameters
-            href: articles/report-designer/report-designer-for-winforms/report-wizard/data-bound-report/connect-to-an-object-data-source/specify-the-constructor-parameters.md
+            href: articles/report-designer/report-designer-for-winforms-old/report-wizard/data-bound-report/connect-to-an-object-data-source/specify-the-constructor-parameters.md
         - name: Connect to an Excel Data Source
-          href: articles/report-designer/report-designer-for-winforms/report-wizard/data-bound-report/connect-to-an-excel-data-source.md
+          href: articles/report-designer/report-designer-for-winforms-old/report-wizard/data-bound-report/connect-to-an-excel-data-source.md
           items:
           - name: Select an Excel Workbook or CSV file
-            href: articles/report-designer/report-designer-for-winforms/report-wizard/data-bound-report/connect-to-an-excel-data-source/select-an-excel-workbook-or-csv-file.md
+            href: articles/report-designer/report-designer-for-winforms-old/report-wizard/data-bound-report/connect-to-an-excel-data-source/select-an-excel-workbook-or-csv-file.md
           - name: Specify Import Settings
-            href: articles/report-designer/report-designer-for-winforms/report-wizard/data-bound-report/connect-to-an-excel-data-source/specify-import-settings.md
+            href: articles/report-designer/report-designer-for-winforms-old/report-wizard/data-bound-report/connect-to-an-excel-data-source/specify-import-settings.md
           - name: Select a Worksheet, Table or Named Region
-            href: articles/report-designer/report-designer-for-winforms/report-wizard/data-bound-report/connect-to-an-excel-data-source/select-a-worksheet-table-or-named-region.md
+            href: articles/report-designer/report-designer-for-winforms-old/report-wizard/data-bound-report/connect-to-an-excel-data-source/select-a-worksheet-table-or-named-region.md
           - name: Choose Columns
-            href: articles/report-designer/report-designer-for-winforms/report-wizard/data-bound-report/connect-to-an-excel-data-source/choose-columns.md
+            href: articles/report-designer/report-designer-for-winforms-old/report-wizard/data-bound-report/connect-to-an-excel-data-source/choose-columns.md
         - name: Select the Data Source Type
-          href: articles/report-designer/report-designer-for-winforms/report-wizard/data-bound-report/select-the-data-source-type.md
+          href: articles/report-designer/report-designer-for-winforms-old/report-wizard/data-bound-report/select-the-data-source-type.md
         - name: Choose Columns to Display in Your Report
-          href: articles/report-designer/report-designer-for-winforms/report-wizard/data-bound-report/choose-columns-to-display-in-your-report.md
+          href: articles/report-designer/report-designer-for-winforms-old/report-wizard/data-bound-report/choose-columns-to-display-in-your-report.md
         - name: Add Grouping Levels
-          href: articles/report-designer/report-designer-for-winforms/report-wizard/data-bound-report/add-grouping-levels.md
+          href: articles/report-designer/report-designer-for-winforms-old/report-wizard/data-bound-report/add-grouping-levels.md
         - name: Specify Summary Options
-          href: articles/report-designer/report-designer-for-winforms/report-wizard/data-bound-report/specify-summary-options.md
+          href: articles/report-designer/report-designer-for-winforms-old/report-wizard/data-bound-report/specify-summary-options.md
         - name: Choose a Report Layout
-          href: articles/report-designer/report-designer-for-winforms/report-wizard/data-bound-report/choose-a-report-layout.md
+          href: articles/report-designer/report-designer-for-winforms-old/report-wizard/data-bound-report/choose-a-report-layout.md
         - name: Choose a Report Style
-          href: articles/report-designer/report-designer-for-winforms/report-wizard/data-bound-report/choose-a-report-style.md
+          href: articles/report-designer/report-designer-for-winforms-old/report-wizard/data-bound-report/choose-a-report-style.md
         - name: Enter the Report Title
-          href: articles/report-designer/report-designer-for-winforms/report-wizard/data-bound-report/enter-the-report-title.md
+          href: articles/report-designer/report-designer-for-winforms-old/report-wizard/data-bound-report/enter-the-report-title.md
       - name: Label Report
-        href: articles/report-designer/report-designer-for-winforms/report-wizard/label-report.md
+        href: articles/report-designer/report-designer-for-winforms-old/report-wizard/label-report.md
         items:
         - name: Select a Label Type
-          href: articles/report-designer/report-designer-for-winforms/report-wizard/label-report/select-a-label-type.md
+          href: articles/report-designer/report-designer-for-winforms-old/report-wizard/label-report/select-a-label-type.md
         - name: Customize Label Options
-          href: articles/report-designer/report-designer-for-winforms/report-wizard/label-report/customize-label-options.md
+          href: articles/report-designer/report-designer-for-winforms-old/report-wizard/label-report/customize-label-options.md
     - name: Preview, Print and Export Reports
-      href: articles/report-designer/report-designer-for-winforms/preview-print-and-export-reports.md
+      href: articles/report-designer/report-designer-for-winforms-old/preview-print-and-export-reports.md
   - name: Report Designer for WPF
     href: articles/report-designer/report-designer-for-wpf.md
     items:
