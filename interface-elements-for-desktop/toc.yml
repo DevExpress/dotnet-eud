@@ -470,6 +470,15 @@
   - name: Report Designer for WinForms
     href: articles/report-designer/report-designer-for-winforms.md 
     items:
+    href: 
+    - name: First Look at the Report Designer
+      href: articles/report-designer/report-designer-for-winforms/first-look-at-the-report-designer.md
+    - name: Add New Reports
+      href: articles/report-designer/report-designer-for-winforms/add-new-reports.md
+    - name: Open Reports
+      href: articles/report-designer/report-designer-for-winforms/open-reports.md
+    - name: Save Reports
+      href: articles/report-designer/report-designer-for-winforms/save-reports.md            
     - name: Use Report Elements
       href: articles/report-designer/report-designer-for-winforms/use-report-elements.md
       items:
