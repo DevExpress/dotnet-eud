@@ -468,7 +468,30 @@
   href: articles/report-designer.md
   items:
   - name: Report Designer for WinForms
-    href: articles/report-designer/report-designer-for-winforms.md
+    href: articles/report-designer/report-designer-for-winforms.md 
+    items:
+    - name: Use Report Elements
+      href: articles/report-designer/report-designer-for-winforms/use-report-elements.md
+      items:
+      - name: Manipulate Report Elements
+        href: articles/report-designer/report-designer-for-winforms/use-report-elements/manipulate-report-elements.md
+        items:
+        - name: Add Controls to a Report
+          href: articles/report-designer/report-designer-for-winforms/use-report-elements/manipulate-report-elements/add-controls-to-a-report.md
+        - name: Select Report Elements and Access Their Settings
+          href: articles/report-designer/report-designer-for-winforms/use-report-elements/manipulate-report-elements/select-report-elements-and-access-their-settings.md
+        - name: Move and Resize Report Elements
+          href: articles/report-designer/report-designer-for-winforms/use-report-elements/manipulate-report-elements/move-and-resize-report-elements.md
+        - name: Copy Report Controls
+          href: articles/report-designer/report-designer-for-winforms/use-report-elements/manipulate-report-elements/copy-report-controls.md
+        - name: Reuse Report Controls
+          href: articles/report-designer/report-designer-for-winforms/use-report-elements/manipulate-report-elements/reuse-report-controls.md
+        - name: Arrange Report Controls
+          href: articles/report-designer/report-designer-for-winforms/use-report-elements/manipulate-report-elements/arrange-report-controls.md
+        - name: Add Report Controls to Containers
+          href: articles/report-designer/report-designer-for-winforms/use-report-elements/manipulate-report-elements/add-report-controls-to-containers.md
+        - name: Validate the Report Layout
+          href: articles/report-designer/report-designer-for-winforms/use-report-elements/manipulate-report-elements/validate-the-report-layout.md
   - name: Report Designer for WinForms
     href: articles/report-designer/report-designer-for-winforms-old.md
     items:
