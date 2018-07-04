@@ -6,6 +6,8 @@ owner: Mary Sammal
 
 Banded reports provide a generalized report layout notion. When you preview a banded report, a report document is generated based on the report layout you designed and the data source you specified.
 
+## Report Bands
+
 A report layout consists of bands that contain report controls and define their location on document pages. When you create a blank report, it contains only essential bands:
 
 - The **Detail Band** displays recurring contents that comes from the report's data source. This band is printed as many times as there are records available in a data source unless you filtered the incoming data.
