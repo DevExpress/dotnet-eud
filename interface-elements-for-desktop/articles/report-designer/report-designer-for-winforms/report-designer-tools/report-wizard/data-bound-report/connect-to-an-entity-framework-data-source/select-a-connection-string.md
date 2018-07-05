@@ -11,4 +11,4 @@ On this page, you can specify a connection string using one of the following two
 
 ![eurd-winreport-wizard-ef-datasource](../../../../../../../images/eurd-winreport-wizard-ef-datasource.png)
 
-Click **Next** to proceed to the next wizard page. If you select the first option, proceed to the [Specify a Connection String](../connect-to-a-database/specify-a-connection-string.md) page. If you choose one of the available connection strings, go to the [Bind to a Stored Procedure](bind-to-a-stored-procedure.md) or [Select a Data Member](select-a-data-member.md) page, depending on whether or not the current Entity Framework model provides stored procedures.
+Click **Next** to proceed to the next wizard page. If you select the first option, proceed to the [Specify a Connection String](specify-a-connection-string.md) page. If you choose one of the available connection strings, go to the [Bind to a Stored Procedure](bind-to-a-stored-procedure.md) or [Select a Data Member](select-a-data-member.md) page, depending on whether or not the current Entity Framework model provides stored procedures.
