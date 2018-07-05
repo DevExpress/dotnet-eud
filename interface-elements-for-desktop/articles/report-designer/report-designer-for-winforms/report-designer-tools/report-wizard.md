@@ -17,7 +17,7 @@ The Report Wizard allows you to add a report using one of the following template
 	Enables you to create a new report based on available predefined templates.
 * [Label Report](xref:4242)
 	
-	Runs the Label Wizard that enables you to select from hundreds of customizable layouts to create labels, badges or price tags.
+	Runs the Label Wizard. Allows you to select from different customizable layouts to create labels, badges or price tags.
 
 ![eurd-win-report-wizard](../../../../images/eurd-win-report-wizard.png)
 
@@ -27,19 +27,19 @@ Use one of the following ways to invoke the Report Wizard.
 
 - Create a new report
 
-    Use the [New Report via Wizard](add-new-reports.md) command to create a new report based on one of the templates the Report Wizard provides.
+    Use the [New Report via Wizard](add-new-reports.md) command to create a new report based on a Report Wizard template.
 
 - Edit an existing report
 
     Click the report's Smart Tag and then the **Design in Report Wizard...** context link in the invoked actions list.
 
     > [!Note]
-    > The report layout the Report Wizard creates overrides the initial report layout.
+    > The new report layout overrides the initial report layout.
 
 
 ## Report Wizard Pages
 
-Choose a report template on the first wizard page (see above). The wizard provides the following page series for each of the available report templates:
+Choose a report template on the first wizard page (see above). The wizard provides the following page series for each report template:
 
 * [Empty Report](report-wizard\empty-report.md)
 * [Data-bound Report](report-wizard\data-bound-report.md)
