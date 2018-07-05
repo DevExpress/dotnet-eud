@@ -12,4 +12,4 @@ The following image illustrates the newly added empty report's layout.
 
 ![eurd-win-empty-report](../../../../../images/eurd-win-empty-report.png)
 
-Refer to the [Use Report Elements](use-report-elements.md) section to learn how to add controls to the report and to the [Bind to Data](bind-to-data.md) section to learn how to provide data.
+Refer to the [Use Report Elements](use-report-elements.md) section for details on how to add controls to the report, and the [Bind to Data](bind-to-data.md) section for details on how to provide data.
