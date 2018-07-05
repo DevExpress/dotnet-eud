@@ -11,6 +11,5 @@ This task includes the following steps.
 * [Select a Data Connection](report-wizard\data-bound-report\connect-to-a-database\select-a-data-connection.md)
 * [Specify a Connection String](report-wizard\data-bound-report\connect-to-a-database\specify-a-connection-string.md)
 * [Save the Connection String](report-wizard\data-bound-report\connect-to-a-database\save-the-connection-string.md)
-* [Create a Query or Select a Stored Procedure (Multi-Query Version)](report-wizard\data-bound-report\connect-to-a-database\create-a-query-or-select-a-stored-procedure.md)
-* [Create a Query or Select a Stored Procedure (Single-Query Version)](report-wizard\data-bound-report\connect-to-a-database\create-a-query-or-select-a-stored-procedure-single-query-version.md)
+* [Create a Query or Select a Stored Procedure](report-wizard\data-bound-report\connect-to-a-database\create-a-query-or-select-a-stored-procedure.md)
 * [Configure Query Parameters](report-wizard\data-bound-report\connect-to-a-database\configure-query-parameters.md)

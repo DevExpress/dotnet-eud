@@ -1,13 +1,10 @@
 ---
 title: Create a Query or Select a Stored Procedure
-author: Anna Gubareva
-legacyId: 5070
+author: Mary Sammal
 ---
 # Create a Query or Select a Stored Procedure
 > [!NOTE]
 > This wizard step appears only if you're creating a new report from scratch. In this instance, familiarity with database connections is required, so we recommend that you contact your application administrator or vendor for assistance. If you're modifying an existing report, this step will not appear and you will start with the [Choose Fields to Display in a Report](../choose-fields-to-display-in-a-report.md) wizard page.
-> 
-> If your software vendor switched the Report Wizard to single-query mode, [another version](create-a-query-or-select-a-stored-procedure-single-query-version.md) of this page is displayed.
 
 On this wizard page, you can choose which tables, views and/or stored procedures from your data source to display in the report.
 
