@@ -4,7 +4,7 @@ author: Mary Sammal
 ---
 # Open Reports
 
-Use one of the following commands. The invoked standard **Save** dialog allows you to locate and open previously [saved reports](save-reports.md).
+You can use one of the following commands to open a report. The invoked **Save** dialog allows you to locate and open previously [saved reports](save-reports.md).
 
 ### Use the Ribbon Application Menu
 
@@ -21,4 +21,4 @@ Click the application button and then **Open...** in the invoked application men
 
 ### Use a Shortcut
 
-Press CTRL+O to open a report.
+You can also use the CTRL+O shortcut to open a report.
