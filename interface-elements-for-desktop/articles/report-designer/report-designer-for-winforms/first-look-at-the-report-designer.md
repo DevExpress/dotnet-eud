@@ -18,17 +18,17 @@ The report _design surface_ displays a report's structure and contents. The Repo
 
 - use the [Group and Sort](report-designer-tools\ui-panels\group-and-sort-panel.md) panel to manage the report's group and sort settings.
 
-When you create a blank report, the design surface displays page margins and an empty [detail band](introduction-to-banded-reports.md).
+A blank report's design surface displays page margins and an empty [detail band](introduction-to-banded-reports.md).
 
 
 ![report-bands-design-time-default-layout](../../../images/eurd-win-report-bands-design-time-default-layout.png)
 
 
-Use the zoom panel to change the the Report Designer's default zoom factor.
+Use the zoom panel to change the Report Designer's default zoom factor.
 
 ![report-designer-zoom-panel](../../../images/eurd-win-report-designer-zoom-panel.png)
 
-Switch to the **Preview** tab. This opens a [Print Preview](preview-print-and-export-reports.md) and displays the generated report document with the data the data source provides.
+Switch to the **Preview** tab. This opens a [Print Preview](preview-print-and-export-reports.md) and displays the generated report document with the data source's data.
 
 ![report-designer-view-tabs](../../../images/eurd-win-report-designer-view-tabs.png)
 
