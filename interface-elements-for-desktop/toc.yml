@@ -515,6 +515,13 @@
           href: articles/report-designer/report-designer-for-winforms/use-report-elements/use-tables/manipulate-table-elements.md
         - name: Hide Table Cells
           href: articles/report-designer/report-designer-for-winforms/use-report-elements/use-tables/hide-table-cells.md
+      - name: Use Gauges and Sparklines
+        href: articles/report-designer/report-designer-for-winforms/use-report-elements/use-gauges-and-sparklines.md
+        items:
+        - name: Add Gauges to a Report
+          href: articles/report-designer/report-designer-for-winforms/use-report-elements/use-gauges-and-sparklines/add-gauges-to-a-report.md
+        - name: Add Sparklines to a Report
+          href: articles/report-designer/report-designer-for-winforms/use-report-elements/use-gauges-and-sparklines/add-sparklines-to-a-report.md
       - name: Draw Lines and Shapes
         href: articles/report-designer/report-designer-for-winforms/use-report-elements/draw-lines-and-shapes.md
         items:
