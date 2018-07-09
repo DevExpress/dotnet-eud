@@ -4,7 +4,7 @@ owner: Mary Sammal
 ---
 # Introduction to Banded Reports
 
-Banded reports provide a generalized report layout notion. A report document is generated based on the specified data source and the report layout.
+Banded reports provide a generalized report layout notion. A report document is generated based on the report layout and data source.
 
 ## Report Bands
 
