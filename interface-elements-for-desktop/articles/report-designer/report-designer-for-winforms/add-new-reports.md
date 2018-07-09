@@ -11,7 +11,7 @@ This topic explains how to create a new report in the Report Designer.
 
 ## Create a New Blank Report
 
-Use one of the following commands to create a new report. The created report contains three [bands](introduction-to-banded-reports.md) - **Page Header**, **Detail** and **Page Footer**. Refer to the [Use Report Elements](use-report-elements.md) section for information on how to add controls to the report.
+You can use one of the following commands to create a new report. The created report contains three [bands](introduction-to-banded-reports.md) - **Page Header**, **Detail**, and **Page Footer**. Refer to the [Use Report Elements](use-report-elements.md) section for information on how to add controls to the report.
 
 ### Use the Ribbon's Home Tab
 
@@ -27,12 +27,12 @@ Click the application button and then **New Report**.
 
 ### Use a Shortcut
 
-Press CTRL+N to create a new report.
+You can also use the CTRL+N shortcut to create a new report.
 
 
 ## Create a New Report Using the Report Wizard
 
-The following commands run the [Report Wizard](report-designer-tools\report-wizard.md). Go through the wizard's pages to get a predesigned report as a result.
+The following commands run the [Report Wizard](report-designer-tools\report-wizard.md). Go through the wizard's pages to get a predesigned report.
 
 ### Use the Ribbon's Home Tab
 
@@ -48,4 +48,4 @@ Click the application button and then choose **New Report** | **New Report via W
 
 ### Use a Shortcut
 
-Press CTRL+W to run the [Report Wizard](report-designer-tools\report-wizard.md).
+You can also use the CTRL+W shortcut to run the [Report Wizard](report-designer-tools\report-wizard.md).
