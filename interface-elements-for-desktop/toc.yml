@@ -515,6 +515,15 @@
           href: articles/report-designer/report-designer-for-winforms/use-report-elements/use-tables/manipulate-table-elements.md
         - name: Hide Table Cells
           href: articles/report-designer/report-designer-for-winforms/use-report-elements/use-tables/hide-table-cells.md
+      - name: Draw Lines and Shapes
+        href: articles/report-designer/report-designer-for-winforms/use-report-elements/draw-lines-and-shapes.md
+        items:
+        - name: Draw Lines
+          href: articles/report-designer/report-designer-for-winforms/use-report-elements/draw-lines-and-shapes/draw-lines.md
+        - name: Draw Shapes
+          href: articles/report-designer/report-designer-for-winforms/use-report-elements/draw-lines-and-shapes/draw-shapes.md
+        - name: Draw Cross-Band Lines and Boxes
+          href: articles/report-designer/report-designer-for-winforms/use-report-elements/draw-lines-and-shapes/draw-cross-band-lines-and-boxes.md
   - name: Report Designer for WinForms
     href: articles/report-designer/report-designer-for-winforms-old.md
     items:
