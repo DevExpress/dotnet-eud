@@ -502,6 +502,31 @@
           href: articles/report-designer/report-designer-for-winforms/use-report-elements/manipulate-report-elements/add-report-controls-to-containers.md
         - name: Validate the Report Layout
           href: articles/report-designer/report-designer-for-winforms/use-report-elements/manipulate-report-elements/validate-the-report-layout.md
+      - name: Use Basic Report Controls
+        href: articles/report-designer/report-designer-for-winforms/use-report-elements/use-basic-report-controls.md
+        items:
+        - name: Label
+          href: articles/report-designer/report-designer-for-winforms/use-report-elements/use-basic-report-controls/label.md
+        - name: Character Comb
+          href: articles/report-designer/report-designer-for-winforms/use-report-elements/use-basic-report-controls/character-comb.md
+        - name: Rich Text
+          href: articles/report-designer/report-designer-for-winforms/use-report-elements/use-basic-report-controls/rich-text.md
+        - name: Check Box
+          href: articles/report-designer/report-designer-for-winforms/use-report-elements/use-basic-report-controls/check-box.md
+        - name: Picture Box
+          href: articles/report-designer/report-designer-for-winforms/use-report-elements/use-basic-report-controls/picture-box.md
+        - name: Zip Code
+          href: articles/report-designer/report-designer-for-winforms/use-report-elements/use-basic-report-controls/zip-code.md
+        - name: Subreport
+          href: articles/report-designer/report-designer-for-winforms/use-report-elements/use-basic-report-controls/subreport.md
+        - name: Panel
+          href: articles/report-designer/report-designer-for-winforms/use-report-elements/use-basic-report-controls/panel.md
+        - name: Page Break
+          href: articles/report-designer/report-designer-for-winforms/use-report-elements/use-basic-report-controls/page-break.md
+        - name: Table of Contents
+          href: articles/report-designer/report-designer-for-winforms/use-report-elements/use-basic-report-controls/table-of-contents.md
+        - name: Page Info
+          href: articles/report-designer/report-designer-for-winforms/use-report-elements/use-basic-report-controls/page-info.md
       - name: Use Tables
         href: articles/report-designer/report-designer-for-winforms/use-report-elements/use-tables.md
         items:
