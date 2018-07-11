@@ -1,5 +1,4 @@
 ---
-uid: "115540"
 title: Choose Fields to Display in a Report
 ---
 # Choose Fields to Display in a Report
