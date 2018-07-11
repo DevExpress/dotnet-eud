@@ -100,7 +100,7 @@ See the [Lay out Dynamic Report Content](../../lay-out-dynamic-report-content.md
 
 
 ## Interactivity
-You can enable [editing a label's content](../../provide-interactivity/edit-content-in-print-preview.md) in Print Preview by setting the **Enabled** option to **Yes**.
+You can enable [editing a label's content](../../provide-interactivity/edit-content-in-print-preview.md) in Print Preview by setting the **Enabled** option in the **Edit Options** category to **Yes**.
 
 ![](../../../../../images/eurd-win-label-edit-options-enabled.png)
 
