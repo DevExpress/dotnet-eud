@@ -3,7 +3,7 @@ title: Specify Import Settings
 ---
 # Specify Import Settings
 > [!NOTE]
-> This wizard step appears only if you're creating a new report from scratch. If you're modifying an existing report, this step will not appear and you will start with [Choose Columns to Display in Your Report](../choose-columns-to-display-in-your-report.md) wizard page.
+> This wizard step appears only if you're creating a new report from scratch. If you're modifying an existing report, this step will not appear and you will start with [Choose Fields to Display in a Report](../choose-fields-to-display-in-a-report.md) wizard page.
 
 On this wizard page, you can specify required import settings. This page provides access to different settings depending on whether you have selected an Excel Workbook or CSV file.
 

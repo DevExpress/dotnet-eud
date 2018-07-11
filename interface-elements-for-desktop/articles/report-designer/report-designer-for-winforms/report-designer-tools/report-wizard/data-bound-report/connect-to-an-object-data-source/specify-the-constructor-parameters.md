@@ -3,7 +3,7 @@ title: Specify the Constructor Parameters
 ---
 # Specify the Constructor Parameters
 > [!NOTE]
-> This wizard step appears only if you're creating a new report from scratch. If you're modifying an existing report, this step will not appear and you will start with the [Choose Columns to Display in Your Report](../choose-columns-to-display-in-your-report.md) wizard page.
+> This wizard step appears only if you're creating a new report from scratch. If you're modifying an existing report, this step will not appear and you will start with the [Choose Fields to Display in a Report](../choose-fields-to-display-in-a-report.md) wizard page.
 
 On this wizard page, specify the constructor parameters.
 
@@ -11,4 +11,4 @@ To specify the constructor parameter's value, use the **Value** column. Enable t
 
 ![RD_ReportWizard_ObjConstructorParameters](../../../../../../../images/eurd-win-data-access-object-binding-specify-constructor-parameters.png)
 
-Click **Next** to proceed to the next wizard page: [Choose Columns to Display in Your Report](../choose-columns-to-display-in-your-report.md).
+Click **Next** to proceed to the next wizard page: [Choose Fields to Display in a Report](../choose-fields-to-display-in-a-report.md).
