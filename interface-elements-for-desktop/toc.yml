@@ -507,7 +507,7 @@
       items:
       - name: Report Wizard
         href: articles/report-designer/report-designer-for-winforms/report-designer-tools/report-wizard.md
-          items:
+        items:
           - name: Choose a Report Type
           href: articles/report-designer/report-designer-for-winforms/report-designer-tools/report-wizard/choose-a-report-type.md
           - name: Empty Report
