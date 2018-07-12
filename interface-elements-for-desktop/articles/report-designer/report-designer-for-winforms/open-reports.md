@@ -4,7 +4,7 @@ author: Mary Sammal
 ---
 # Open Reports
 
-You can use one of the following commands to open a report. The invoked **Save** dialog allows you to locate and open previously [saved reports](save-reports.md).
+You can use one of the following commands to open a report. The invoked **Open** dialog allows you to locate and open previously [saved reports](save-reports.md).
 
 ### Use the Ribbon Application Menu
 
