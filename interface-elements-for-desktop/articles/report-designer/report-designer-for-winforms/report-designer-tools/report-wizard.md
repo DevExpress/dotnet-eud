@@ -76,9 +76,9 @@ Choose a report template on the first wizard page (see above). The wizard provid
             * [Specify Import Settings](report-wizard\data-bound-report\connect-to-an-excel-data-source\specify-import-settings.md)
             * [Select a Worksheet, Table or Named Range](report-wizard\data-bound-report\connect-to-an-excel-data-source\select-a-worksheet-table-or-named-range.md)
             * [Choose Columns](report-wizard\data-bound-report\connect-to-an-excel-data-source\choose-columns.md)
-        * [Choose Fields to Display in a Report (Multi-Query Version)](report-designer\report-designer-for-winforms\report-designer-tools\report-wizard\data-bound-report\choose-fields-to-display-in-a-report.md)
-        * [Add Grouping Levels (Multi-Query Version)](report-designer\report-designer-for-winforms\report-designer-tools\report-wizard\data-bound-report\add-grouping-levels.md)
-        * [Specify Summary Options (Multi-Query Version)](report-designer\report-designer-for-winforms\report-designer-tools\report-wizard\data-bound-report\specify-summary-options.md)
+        * [Choose Fields to Display in a Report](report-designer\report-designer-for-winforms\report-designer-tools\report-wizard\data-bound-report\choose-fields-to-display-in-a-report.md)
+        * [Add Grouping Levels](report-designer\report-designer-for-winforms\report-designer-tools\report-wizard\data-bound-report\add-grouping-levels.md)
+        * [Specify Summary Options](report-designer\report-designer-for-winforms\report-designer-tools\report-wizard\data-bound-report\specify-summary-options.md)
         * [Set the Report Title](report-designer\report-designer-for-winforms\report-designer-tools\report-wizard\data-bound-report\set-the-report-title.md)
 * [Template Report](report-designer\report-designer-for-winforms\report-designer-tools\report-wizard\template-report.md)
     
