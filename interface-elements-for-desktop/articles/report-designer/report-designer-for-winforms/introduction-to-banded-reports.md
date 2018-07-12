@@ -4,7 +4,7 @@ owner: Mary Sammal
 ---
 # Introduction to Banded Reports
 
-Banded reports provide a generalized report layout notion. A report document is generated based on the report layout and data source.
+Banded reports provide a generalized report layout notion. When you preview a banded report, a report document is generated based on the report layout and data source.
 
 ## Report Bands
 
@@ -24,7 +24,7 @@ You can also add the following bands:
 
     The **Report Header** is the report's first band (margins are "out-of-page" zones). Use this band to display the report's name, company logo, [date of creation, username](add-extra-information.md), etc.
 
-    The **Report Footer** finalizes the report's informative part. It is placed before the Page Footer and Bottom Margin on the report's last page. You can use the Report Footer band for report [summaries](shape-report-data\shape-data-expression-bindings\calculate-a-summary.md) or conclusions.
+    The **Report Footer** is placed before the Page Footer and Bottom Margin on the report's last page. You can use the Report Footer band for report [summaries](shape-report-data\shape-data-expression-bindings\calculate-a-summary.md) or conclusions.
     
 - **Page Header** and **Page Footer**
 
