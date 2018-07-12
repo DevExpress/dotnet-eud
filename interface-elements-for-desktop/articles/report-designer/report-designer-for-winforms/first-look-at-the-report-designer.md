@@ -6,9 +6,9 @@ owner: Mary Sammal
 
 ![](../../../images/eurd-win-report-designer.png)
 
-The report _design surface_ displays a report's structure and contents. The Report Designer's tools provide capabilities to design the report:
+The _design surface_ displays a report's structure and contents. You can use the tools on the Report Designer's panels to design the report:
 
-- observe the report's data source schema in the [Field List](report-designer-tools\ui-panels\field-list.md);
+- access the report's data source schema in the [Field List](report-designer-tools\ui-panels\field-list.md);
 
 - drop report controls from the [Toolbox](report-designer-tools\toolbox.md) to the design surface;
 
