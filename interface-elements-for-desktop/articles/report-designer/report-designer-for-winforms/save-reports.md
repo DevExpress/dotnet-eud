@@ -3,7 +3,7 @@ title: Save Reports
 author: Mary Sammal
 ---
 # Save Reports
-Create a report's _backup copy_ to guarantee that you can revert the report to its original state further.
+You can use one of the following commands to save reports:
 
 ## Use the Ribbon's Home Tab
 
@@ -13,7 +13,7 @@ Create a report's _backup copy_ to guarantee that you can revert the report to i
 	
 	Specify a folder and file name in the invoked standard **Save** dialog.
 
-* Click **Save** or press CTRL+S to save the report's current layout in the application's current folder.
+* Click **Save** or press CTRL+S to save the report's layout in the application's folder.
 	
 	![eurd-win-ribbon-save-report](../../../images/eurd-win-ribbon-save-report.png)
 
@@ -22,6 +22,6 @@ Create a report's _backup copy_ to guarantee that you can revert the report to i
 
 ## Use the Ribbon Application Menu
 
-Click the application button. The invoked application menu provides the **Save** and **Save as** commands. These commands allow you to save the report's copy and the current layout, correspondingly.
+Click the application button. In the application menu, use the **Save** command to save the report's current layout, and the **Save as** command to save the report's copy.
 
 ![eurd-win-application-menu-save-report](../../../images/eurd-win-application-menu-save-report.png)
