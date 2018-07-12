@@ -469,7 +469,7 @@
   items:
   - name: Report Designer for WinForms
     href: articles/report-designer/report-designer-for-winforms.md 
-    items: 
+    items:
     - name: First Look at the Report Designer
       href: articles/report-designer/report-designer-for-winforms/first-look-at-the-report-designer.md
     - name: Add New Reports
