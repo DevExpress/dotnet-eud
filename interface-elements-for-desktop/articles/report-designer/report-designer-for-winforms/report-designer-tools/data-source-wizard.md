@@ -13,7 +13,7 @@ The Data Source Wizard enables you to configure a data source and retrieve the r
 	Supports binding to a Microsoft ADO.NET Entity Framework data source.
 * [Object Binding](report-wizard\data-bound-report\connect-to-an-object-data-source)
 	
-	Connects to any data object implementing the IList, IList\<T> and IEnumerable\<T> interfaces.
+	Connects to a data object.
 * [Excel File](report-wizard\data-bound-report\connect-to-an-excel-data-source)
 	
 	Obtains data from Microsoft Excel workbooks (XLS, XLSX or XLSM files) or CSV files.
