@@ -601,7 +601,16 @@
       - name: Data Source Wizard
         href: articles/report-designer/report-designer-for-winforms/report-designer-tools/data-source-wizard.md
       - name: Toolbox
-        href: articles/report-designer/report-designer-for-winforms/report-designer-tools/toolbox.md	               	            
+        href: articles/report-designer/report-designer-for-winforms/report-designer-tools/toolbox.md
+      - name: Toolbar
+        href: articles/report-designer/report-designer-for-winforms/report-designer-tools/toolbar.md
+      - name: UI Panels
+        href: articles\report-designer\report-designer-for-winforms\report-designer-tools\ui-panels.md
+        items:
+        - name: Report Explorer
+          href: articles\report-designer\report-designer-for-winforms\report-designer-tools\ui-panels\report-explorer.md
+        - name: Property Grid
+          href: articles\report-designer\report-designer-for-winforms\report-designer-tools\ui-panels\property-grid.md
   - name: Report Designer for WinForms
     href: articles/report-designer/report-designer-for-winforms-old.md
     items:
