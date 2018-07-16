@@ -609,6 +609,8 @@
         items:
         - name: Report Explorer
           href: articles\report-designer\report-designer-for-winforms\report-designer-tools\ui-panels\report-explorer.md
+        - name: Field List
+          href: articles\report-designer\report-designer-for-winforms\report-designer-tools\ui-panels\field-list.md          
         - name: Report Gallery
           href: articles\report-designer\report-designer-for-winforms\report-designer-tools\ui-panels\report-gallery.md
         - name: Property Grid
