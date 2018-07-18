@@ -599,7 +599,7 @@
                 - name: Select a Data Member
                   href: articles/report-designer/report-designer-for-winforms/report-designer-tools/report-wizard/data-bound-report/connect-to-an-entity-framework-data-source/select-a-data-member.md
                 - name: Configure Filters
-                  href: articles/report-designer/report-designer-for-winforms/report-designer-tools/report-wizard/data-bound-report/connect-to-an-entity-framework-data-source/configure-filters.md			
+                  href: articles/report-designer/report-designer-for-winforms/report-designer-tools/report-wizard/data-bound-report/connect-to-an-entity-framework-data-source/configure-filters.md
               - name: Connect to an Object Data Source
                 href: articles/report-designer/report-designer-for-winforms/report-designer-tools/report-wizard/data-bound-report/connect-to-an-object-data-source.md
                 items:
@@ -644,14 +644,14 @@
             - name: Map Report Template Fields
               href: articles/report-designer/report-designer-for-winforms/report-designer-tools/report-wizard/template-report/map-report-template-fields.md
             - name: Specify Report Template Options
-              href: articles/report-designer/report-designer-for-winforms/report-designer-tools/report-wizard/template-report/specify-report-template-options.md		  
+              href: articles/report-designer/report-designer-for-winforms/report-designer-tools/report-wizard/template-report/specify-report-template-options.md
           - name: Label Report
             href: articles/report-designer/report-designer-for-winforms/report-designer-tools/report-wizard/label-report.md
             items:
             - name: Select the Label Type
               href: articles/report-designer/report-designer-for-winforms/report-designer-tools/report-wizard/label-report/select-the-label-type.md
             - name: Customize the Label Options
-              href: articles/report-designer/report-designer-for-winforms/report-designer-tools/report-wizard/label-report/customize-the-label-options.md	
+              href: articles/report-designer/report-designer-for-winforms/report-designer-tools/report-wizard/label-report/customize-the-label-options.md
       - name: Data Source Wizard
         href: articles/report-designer/report-designer-for-winforms/report-designer-tools/data-source-wizard.md
       - name: Query Builder
