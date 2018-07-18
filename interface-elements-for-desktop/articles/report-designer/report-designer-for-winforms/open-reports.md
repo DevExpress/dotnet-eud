@@ -4,7 +4,7 @@ author: Mary Sammal
 ---
 # Open Reports
 
-You can use one of the following commands to open a report. The invoked **Open** dialog allows you to locate and open previously [saved reports](save-reports.md).
+You can use one of the following commands to open a report. The invoked **Open** dialog provides previously [saved report files](save-reports.md), if there are any. These files have the REPX extension. They store information about the report layout. Find the required report file and press **Open**.
 
 ### Use the Ribbon Application Menu
 

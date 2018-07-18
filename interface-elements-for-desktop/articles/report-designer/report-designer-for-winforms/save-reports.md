@@ -3,6 +3,9 @@ title: Save Reports
 author: Mary Sammal
 ---
 # Save Reports
+
+When you save a report, a file with the REPX extension is created. This file stores information about the report layout.
+
 You can use one of the following commands to save reports:
 
 ## Use the Ribbon's Home Tab
