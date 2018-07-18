@@ -515,8 +515,6 @@
           href: articles/report-designer/report-designer-for-winforms/use-report-elements/use-basic-report-controls/check-box.md
         - name: Picture Box
           href: articles/report-designer/report-designer-for-winforms/use-report-elements/use-basic-report-controls/picture-box.md
-        - name: Zip Code
-          href: articles/report-designer/report-designer-for-winforms/use-report-elements/use-basic-report-controls/zip-code.md
         - name: Subreport
           href: articles/report-designer/report-designer-for-winforms/use-report-elements/use-basic-report-controls/subreport.md
         - name: Panel
