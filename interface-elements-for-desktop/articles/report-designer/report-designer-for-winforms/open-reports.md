@@ -4,7 +4,7 @@ author: Mary Sammal
 ---
 # Open Reports
 
-You can use different commands to open a report. The **Open** dialog displays [saved report files](save-reports.md) with the REPX extension. These files store information about the report's layout. To open a report, select it and press **Open**.
+You can use different commands to open a report. The **Open** dialog displays [saved report files](save-reports.md) with the REPX extension. These files store information about the report's layout. Select a report file and press **Open**.
 
 ### Use the Ribbon Application Menu
 
