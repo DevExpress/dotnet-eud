@@ -10,7 +10,7 @@ You can use one of the following commands to save reports:
 
 ## Use the Ribbon's Home Tab
 
-* Click **Save As** to save a copy of the report.
+* Click **Save**| **Save As** to save a copy of the report.
 	
 	![eurd-win-ribbon-save-report-as](../../../images/eurd-win-ribbon-save-report-as.png)
 	
