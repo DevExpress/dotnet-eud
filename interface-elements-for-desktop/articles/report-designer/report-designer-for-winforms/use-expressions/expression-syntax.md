@@ -1,5 +1,5 @@
 ---
-title: Expression Constants, Operators, and Functions
+title: Expression Syntax
 owner: Mary Sammal
 ---
 
@@ -147,7 +147,8 @@ Unary operators perform operations on a single expression.
 | **IsNull** | Represents a null reference, one that does not refer to any object. | "[Region] is null"   |
 
 ## Functions (Basic)
-**Aggregate Functions**
+
+### Aggregate Functions
 
 | Function | Description | Example |
 |---|---|---|---|
@@ -159,7 +160,7 @@ Unary operators perform operations on a single expression.
 | Single() | Returns a single object from the collection. | [Accounts].Single() is not null |
 | Sum(Value) | Returns the sum of all the expression values in the collection. | [Products].Sum([UnitsInStock]) |
 
-**Date-time Functions**
+### Date-time Functions
 
 | Function | Description | Example |
 |---|---|---|---|
@@ -234,7 +235,7 @@ Unary operators perform operations on a single expression.
 | Today() | Returns the current date. Regardless of the actual time, this function returns midnight of the current date. | AddMonths(Today(), 1)   |
 | UtcNow() | Returns the current system date and time, expressed as Coordinated Universal Time (UTC). | AddDays(UtcNow(), 7) |
 
-**Logical Functions**
+### Logical Functions
 
 <table><tr><th><p>Function</p>
 </th><th><p>Description</p>
@@ -260,7 +261,7 @@ Unary operators perform operations on a single expression.
 </td><td><p>IsNullOrEmpty([ProductName])</p>
 </td></tr></table>
 
-**Math Functions**
+### Math Functions
 
 | Function | Description | Example |
 |---|---|---|---|
@@ -296,7 +297,7 @@ Unary operators perform operations on a single expression.
 | ToInt(Value) | Converts Value to an equivalent 32-bit signed integer. | ToInt([Value]) |
 | ToLong(Value) | Converts Value to an equivalent 64-bit signed integer. | ToLong([Value]) |
 
-**String Functions**
+### String Functions
 
 | Function | Description | Example |
 |---|---|---|---|
@@ -339,7 +340,7 @@ Below is a list of functions that are used to construct [expression bindings](..
 <p><em>Beverages</em></p>
 <p><em>Soft drinks, coffees, teas, beers and ales.</em></p>
 </td></tr><tr><td><p>FormatString(Format, Value1, ... , ValueN)</p>
-</td><td><p>Returns the specified string with formatted field values. See <a class="xref" href="../shape-report-data\shape-data-data-bindings\format-data">Formatting Data</a> for details.</p>
+</td><td><p>Returns the specified string with formatted field values. See <a class="xref" href="..\shape-report-data\shape-data-data-bindings\format-data">Formatting Data</a> for details.</p>
 </td><td><p>FormatString(&#39;{0:$0.00}&#39;, [UnitPrice])</p>
 <p>Result: <em>$45.60</em></p>
 </td></tr><tr><td><p>Rgb(Red, Green, Blue)</p>
@@ -437,7 +438,7 @@ Use the following functions when [calculating summaries](..\shape-report-data\sh
 </td></tr><tr><td><p>sumRecordNumber(Expression)</p>
 </td><td><p>Returns the current record number in the specified summary region (group, page or report). This means for instance, if the summary is calculated for a group, then the record number is calculated only within that group, and is reset every time a new group is started.</p>
 <p>  In a simple scenario, you may not pass a parameter.</p>
-<p>  See also: <a class="xref" href="..\shape-report-data\shape-data-data-bindings\display-row-numbers-in-a-report-group-or-page.md">Displaying Row Numbers in a Report, Group or Page</a></p>
+<p>  See also: <a class="xref" href="..\shape-report-data\shape-data-data-bindings\display-row-numbers-in-a-report-group-or-page">Displaying Row Numbers in a Report, Group or Page</a></p>
 </td><td><p>sumRecordNumber()</p>
 </td></tr><tr><td><p>sumRunningSum(Expression)</p>
 </td><td><p>Summarizes all the values, which were printed before the current data row, with the current data row&#39;s value.</p>
