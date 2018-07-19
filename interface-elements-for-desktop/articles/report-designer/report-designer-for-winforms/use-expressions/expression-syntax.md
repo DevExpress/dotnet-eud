@@ -352,7 +352,7 @@ Below is a list of functions that are used to construct [expression bindings](..
 </td><td><p>Argb(1,200, 30, 200)</p>
 <p>Result: <em>&#39;1,200,30,200&#39;</em></p>
 </td></tr><tr><td><p>Join()</p>
-</td><td><p>Concatenates the <a class="xref" href="..\shape-report-data\use-report-parameters\create-multi-value-and-cascading-parameter.html">multi-value report parameter</a>&#39;s values into a string. This function is useful when you <a class="xref" href="..\shape-report-data\use-report-parameters\parameters-overview.html">bind a multi-value parameter to a label</a> to display the parameter&#39;s values in a report.</p>
+</td><td><p>Concatenates the <a class="xref" href="..\shape-report-data\use-report-parameters\create-multi-value-and-cascading-parameters.html">multi-value report parameter</a>&#39;s values into a string. This function is useful when you <a class="xref" href="..\shape-report-data\use-report-parameters\parameters-overview.html">bind a multi-value parameter to a label</a> to display the parameter&#39;s values in a report.</p>
 <p>This function has two overloads:</p>
 <ul>
 <li>Join(parameter) - concatenates the specified parameter&#39;s values using comma as a separator.</li>
@@ -382,7 +382,7 @@ The following functions are specific for [binding reports to a stored procedure]
 </ul>
 </td><td><p>Join([Parameters.Parameter1])</p>
 </td></tr><tr><td><p>CreateTable(Column1, ..., ColumnN)</p>
-</td><td><p>Creates a table from several multi-value parameters&#39; values. This function can be used when mapping multi-value report parameters to the query parameter that is generated from a stored procedure&#39;s <a href="https://docs.microsoft.com/en-us/sql/relational-databases/tables/use-table-valued-parameters-database-engine.html">User Defined Table Type</a> parameter. Refer to the <a class="xref" href="..\shape-report-data\use-report-parameters\use-query-parameters.html">Query Parameters</a> topic for more information.</p>
+</td><td><p>Creates a table from several multi-value parameters&#39; values. This function can be used when mapping multi-value report parameters to the query parameter that is generated from a stored procedure&#39;s <a href="https://docs.microsoft.com/en-us/sql/relational-databases/tables/use-table-valued-parameters-database-engine">User Defined Table Type</a> parameter. Refer to the <a class="xref" href="..\shape-report-data\use-report-parameters\use-query-parameters.html">Query Parameters</a> topic for more information.</p>
 </td><td><p>CreateTable([Parameters.Parameter1], ..., [Parameters.ParameterN])</p>
 </td></tr></table>
 
@@ -398,7 +398,7 @@ Use the following functions when [calculating summaries](..\shape-report-data\sh
 </td><td><p>sumAvg([UnitPrice])</p>
 </td></tr><tr><td><p>sumCount(Expression)</p>
 </td><td><p>Counts the number of values within the specified summary region (group, page or report). In a simple scenario, you may not pass a parameter.</p>
-<p>  When using this function in a <a class="xref" href="..\create-popular-reports\create-a-master-detail-report-use-detail-report-bands">master-detail report</a>&#39;s master band and passing a detail&#39;s field as a parameter, it counts the number of records within the detail&#39;s band.</p>
+<p>  When using this function in a <a class="xref" href="..\create-popular-reports\create-a-master-detail-report-use-detail-report-bands.html">master-detail report</a>&#39;s master band and passing a detail&#39;s field as a parameter, it counts the number of records within the detail&#39;s band.</p>
 <p>  See also: <a class="xref" href="..\shape-report-data\shape-data-data-bindings\count-the-number-of-records-in-a-report-or-group.html">Counting the Number of Records in a Report or Group</a>, <a class="xref" href="..\shape-report-data\shape-data-data-bindings\count-the-number-of-groups-in-a-report.html">Counting the Number of Groups in a Report</a></p>
 </td><td><p>sumCount([UnitPrice])</p>
 </td></tr><tr><td><p>sumDAvg(Expression)</p>
