@@ -340,7 +340,7 @@ Below is a list of functions that are used to construct [expression bindings](..
 <p><em>Beverages</em></p>
 <p><em>Soft drinks, coffees, teas, beers and ales.</em></p>
 </td></tr><tr><td><p>FormatString(Format, Value1, ... , ValueN)</p>
-</td><td><p>Returns the specified string with formatted field values. See <a class="xref" href="..\shape-report-data\shape-data-data-bindings\format-data">Formatting Data</a> for details.</p>
+</td><td><p>Returns the specified string with formatted field values. See <a class="xref" href="..\shape-report-data\shape-data-data-bindings\format-data.html">Formatting Data</a> for details.</p>
 </td><td><p>FormatString(&#39;{0:$0.00}&#39;, [UnitPrice])</p>
 <p>Result: <em>$45.60</em></p>
 </td></tr><tr><td><p>Rgb(Red, Green, Blue)</p>
