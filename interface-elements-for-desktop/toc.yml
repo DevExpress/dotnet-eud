@@ -556,6 +556,11 @@
           href: articles/report-designer/report-designer-for-winforms/use-report-elements/draw-lines-and-shapes/draw-shapes.md
         - name: Draw Cross-Band Lines and Boxes
           href: articles/report-designer/report-designer-for-winforms/use-report-elements/draw-lines-and-shapes/draw-cross-band-lines-and-boxes.md          
+    - name: Use Expressions
+      href: articles/report-designer/report-designer-for-winforms/use-expressions.md
+      items:
+      - name: Expression Syntax
+        href: articles/report-designer/report-designer-for-winforms/use-expressions/expression-syntax.md
     - name: Report Designer Tools
       href: articles/report-designer/report-designer-for-winforms/report-designer-tools.md
       items:
