@@ -15,7 +15,6 @@ This document describes how to add a chart to a report, provide data for the cha
 
     ![](../../../../../images/eurd-win-chart-add-to-report.png)
 
-
     After you drop the chart, the **Chart Designer** is automatically invoked if its **Display the designer every time a new chart is added** option is enabled. Close the designer at this step.
 
 2. Open the [Toolbar](../../report-designer-tools/toolbar.md)'s **Chart Tools** contextual tab and click **Add Data Source** to bind the chart to data. 
@@ -57,7 +56,6 @@ This document describes how to add a chart to a report, provide data for the cha
 
     ![](../../../../../images/eurd-win-chart-designer-bind-series-to-data.png)
 
-
     The **Properties** tab displays the **Argument Data Member** and **Value Data Members** settings that are automatically assigned to the corresponding fields.
 
 4. Click the **Data Filters** property's ellipsis button to filter series data. You can create and adjust the filter criteria in the invoked dialog.
@@ -71,8 +69,7 @@ This document describes how to add a chart to a report, provide data for the cha
     * save changes made in the Chart Designer;
     * close the Chart Designer;
     * switch to [Print Preview](../../preview-print-and-export-reports.md).
-
-    Return to the Report Designer and invoke the Chart Designer. The chart axes are now populated with actual data, and you can customize the chart.
+    * Return to the Report Designer and invoke the Chart Designer. The chart axes are now populated with actual data, and you can customize the chart.
 
 ## Customize the Chart
 
