@@ -12,7 +12,6 @@ The tutorials in this section illustrate how to solve various tasks related to s
 * [Conditionally Filter Report Data](shape-data-expression-bindings/conditionally-filter-report-data.md)
 * [Conditionally Suppress Controls](shape-data-expression-bindings/conditionally-supress-controls.md)
 * [Limit the Number of Records per Page](shape-data-expression-bindings/limit-the-number-of-records-per-page.md)
-* [Conditionally Change a Band's Visibility](shape-data-expression-bindings/conditionally-change-a-band's-visibility.md)
 * [Calculate a Summary](shape-data-expression-bindings/calculate-a-summary.md)
 * [Calculate an Advanced Summary](shape-data-expression-bindings/calculate-an-advanced-summary.md)
 * [Display Row Numbers in a Report, Group or Page](shape-data-expression-bindings/display-row-numbers-in-a-report-group-or-page.md)
