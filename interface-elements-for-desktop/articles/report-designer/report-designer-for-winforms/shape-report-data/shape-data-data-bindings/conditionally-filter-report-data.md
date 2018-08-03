@@ -23,11 +23,11 @@ This document describes how to filter a report's data based on a specific condit
 
 	![](../../../../../images/eurd-win-shaping-formatting-rules-property.png)
 
-4. In the invoked **Formatting Rule Sheet Editor**, click plus button to create a new formatting rule. Set the **Visible** property to **False** and click the **Condition** property's ellipsis button.
+4. In the invoked **Formatting Rule Sheet Editor**, click the plus button to create a new formatting rule. Set the **Visible** property to **False** and click the **Condition** property's ellipsis button.
 
 	![](../../../../../images/eurd-win-shaping-formatting-rule-settings.png)
 
-5. In the invoked **Condition Editor**, specify the required visibility condition. For example:
+5. In the invoked **Condition Editor**, specify the required visibility condition.
 	
 	![](../../../../../images/eurd-win-shaping-formatting-rule-filter-condition.png)
 	
