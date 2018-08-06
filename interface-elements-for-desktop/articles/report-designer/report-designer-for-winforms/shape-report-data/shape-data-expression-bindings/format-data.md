@@ -13,11 +13,11 @@ This document demonstrates how to specify value formatting for report elements (
 
 After you [bound your report to data](../../bind-to-data.md) and specified a bound data field in a report control's **Expression** property, you can format data values in a report.
 
-* Invoke the control's smart tag and click the **Format String** property's ellipsis button.
+1. Invoke the control's smart tag and click the **Format String** property's ellipsis button.
 	
 	![](../../../../../images/eurd-win-label-format-string-property.png)
 
-* This invokes the **Format String Editor** where you can specify the required format.
+2. This invokes the **Format String Editor** where you can specify the required format.
 	
 	![](../../../../../images/eurd-win-format-string-editor-currency.png)
 
@@ -25,7 +25,7 @@ Alternatively, you can use the **FormatString** function within the expression y
 
 ![](../../../../../images/eurd-win-expression-editor-formatstring-function.png)
 
-When switching to [Print Preview](../../preview-print-and-export-reports.md), you can view the report control displaying values with the specified format:
+When switching to [Print Preview](../../preview-print-and-export-reports.md), you can view the report control displaying values with the specified format.
 
 ![](../../../../../images/eurd-win-format-data-result.png)
 
