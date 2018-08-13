@@ -705,6 +705,17 @@
           href: articles/report-designer/report-designer-for-winforms/shape-report-data/shape-data-data-bindings/count-the-number-of-records-in-a-report-or-group.md
         - name: Count the Number of Groups in a Report
           href: articles/report-designer/report-designer-for-winforms/shape-report-data/shape-data-data-bindings/count-the-number-of-groups-in-a-report.md
+      - name: Use Report Parameters
+        href: articles/report-designer/report-designer-for-winforms/shape-report-data/use-report-parameters.md
+        items:
+        - name: Parameters Overview
+          href: articles/report-designer/report-designer-for-winforms/shape-report-data/use-report-parameters/parameters-overview.md
+        - name: Create Multi-Value and Cascading Parameters
+          href: articles/report-designer/report-designer-for-winforms/shape-report-data/use-report-parameters/create-multi-value-and-cascading-parameters.md
+        - name: Request and Pass Report Parameter Values
+          href: articles/report-designer/report-designer-for-winforms/shape-report-data/use-report-parameters/request-and-pass-report-parameter-values.md
+        - name: Query Parameters
+          href: articles/report-designer/report-designer-for-winforms/shape-report-data/use-report-parameters/use-query-parameters.md
     - name: Report Designer Tools
       href: articles/report-designer/report-designer-for-winforms/report-designer-tools.md
       items:
