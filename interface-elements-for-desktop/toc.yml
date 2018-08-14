@@ -705,6 +705,15 @@
           href: articles/report-designer/report-designer-for-winforms/shape-report-data/shape-data-data-bindings/count-the-number-of-records-in-a-report-or-group.md
         - name: Count the Number of Groups in a Report
           href: articles/report-designer/report-designer-for-winforms/shape-report-data/shape-data-data-bindings/count-the-number-of-groups-in-a-report.md
+      - name: Use Calculated Fields
+        href: articles/report-designer/report-designer-for-winforms/shape-report-data/use-calculated-fields.md
+        items:
+        - name: Calculated Fields Overview
+          href: articles/report-designer/report-designer-for-winforms/shape-report-data/use-calculated-fields/calculated-fields-overview.md
+        - name: Calculate an Aggregate Function
+          href: articles/report-designer/report-designer-for-winforms/shape-report-data/use-calculated-fields/calculate-an-aggregate-function.md
+        - name: Calculate a Weighted Average Function
+          href: articles/report-designer/report-designer-for-winforms/shape-report-data/use-calculated-fields/calculate-a-weighted-average-function.md
       - name: Use Report Parameters
         href: articles/report-designer/report-designer-for-winforms/shape-report-data/use-report-parameters.md
         items:
