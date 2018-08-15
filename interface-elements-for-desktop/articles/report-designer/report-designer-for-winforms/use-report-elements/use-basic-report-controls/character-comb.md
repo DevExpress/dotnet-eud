@@ -41,7 +41,7 @@ The following properties are specific to the Character Comb control:
 
 * **Cell Vertical Spacing** and **Cell Horizontal Spacing**
 	
-	Specify the spacing between adjacent cells (measured in [report units](../../configure-design-settings/change-a-report's-measurement-units.md)). These values do not depend on the specified border width of a control.
+	Specify the spacing between adjacent cells (measured in [report units](../../configure-design-settings/change-a-report-measurement-units.md)). These values do not depend on the specified border width of a control.
 	
 	The following image illustrates a Character Comb with **Cell Vertical Spacing** set to **15** and **Cell Horizontal Spacing** set to **5**.
 	
