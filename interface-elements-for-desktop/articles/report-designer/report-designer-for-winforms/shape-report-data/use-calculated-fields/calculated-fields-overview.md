@@ -27,6 +27,10 @@ The report's **Calculated Fields** property provides access to the calculated fi
 
 ![](../../../../../images/eurd-win-calculated-field-collection-editor.png)
 
+You can click the **Add Calculated Field** button in the [Toolbar](../../report-designer-tools/toolbar.md)'s **Home** tab to invoke the **Calculated Field Collection Editor**.
+
+![](../../../../../images/eurd-win-calculated-field-add-via-toolbar.png)
+
 You can drag the calculated field from the **Field List** onto the required band like an ordinary data field. 
 
 ![](../../../../../images/eurd-win-calculated-field-drop-onto-band.png)
