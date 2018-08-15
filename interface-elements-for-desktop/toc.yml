@@ -723,7 +723,7 @@
           href: articles/report-designer/report-designer-for-winforms/shape-report-data/use-report-parameters/create-multi-value-and-cascading-parameters.md
         - name: Request and Pass Report Parameter Values
           href: articles/report-designer/report-designer-for-winforms/shape-report-data/use-report-parameters/request-and-pass-report-parameter-values.md
-        - name: Query Parameters
+        - name: Use Query Parameters
           href: articles/report-designer/report-designer-for-winforms/shape-report-data/use-report-parameters/use-query-parameters.md
     - name: Report Designer Tools
       href: articles/report-designer/report-designer-for-winforms/report-designer-tools.md

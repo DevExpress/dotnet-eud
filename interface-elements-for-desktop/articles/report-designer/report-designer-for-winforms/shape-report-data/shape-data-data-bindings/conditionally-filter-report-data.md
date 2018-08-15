@@ -31,7 +31,6 @@ This document describes how to filter a report's data based on a specific condit
 	
 	![](../../../../../images/eurd-win-shaping-formatting-rule-filter-condition.png)
 	
-
 	Click **OK** to save the changes and close the dialog. Then, click **Close** to quit the **Formatting Rule Sheet Editor**.
 
 6. In the **Formatting Rules Editor**, you can see the created rule (called **formattingRule1**), which should be moved to the list of active rules on the right using the arrow buttons in the center of the dialog box.

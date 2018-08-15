@@ -21,8 +21,7 @@ This document describes how to change a report control's appearance based on a s
 
 3. In the invoked **Condition Editor**, specify the required Boolean condition (which means that its result is either _true_ or _false_).
 	
-	![](../../../../../images/eurd-win-shaping-formattin-rule-appearance-condition.png)
-	
+	![](../../../../../images/eurd-win-shaping-formattin-rule-appearance-condition.png)	
 
 	Click **OK** to save the changes and close the dialog.
 
