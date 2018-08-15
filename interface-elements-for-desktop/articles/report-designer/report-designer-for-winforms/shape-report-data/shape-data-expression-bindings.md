@@ -7,8 +7,8 @@ author: Anna Gubareva
 The tutorials in this section illustrate how to solve various tasks related to shaping report data when expression bindings **are enabled** in the Report Designer (the [Property Grid](../report-designer-tools/ui-panels/property-grid.md) provides the **Expressions** ![](../../../../images/eurd-win-property-grid-expressions-icon.png) tab ).
 
 * [Format Data](shape-data-expression-bindings/format-data.md)
-* [Conditionally Change a Control's Appearance](shape-data-expression-bindings/conditionally-change-a-control's-appearance.md)
-* [Conditionally Change a Label's Text](shape-data-expression-bindings/conditionally-change-a-label's-text.md)
+* [Conditionally Change a Control's Appearance](shape-data-expression-bindings/conditionally-change-a-control-appearance.md)
+* [Conditionally Change a Label's Text](shape-data-expression-bindings/conditionally-change-a-label-text.md)
 * [Conditionally Filter Report Data](shape-data-expression-bindings/conditionally-filter-report-data.md)
 * [Conditionally Suppress Controls](shape-data-expression-bindings/conditionally-supress-controls.md)
 * [Limit the Number of Records per Page](shape-data-expression-bindings/limit-the-number-of-records-per-page.md)
