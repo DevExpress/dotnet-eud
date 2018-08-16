@@ -725,6 +725,19 @@
           href: articles/report-designer/report-designer-for-winforms/shape-report-data/use-report-parameters/request-and-pass-report-parameter-values.md
         - name: Use Query Parameters
           href: articles/report-designer/report-designer-for-winforms/shape-report-data/use-report-parameters/use-query-parameters.md
+    - name: Lay out Dynamic Report Content
+      href: articles/report-designer/report-designer-for-winforms/lay-out-dynamic-report-content.md
+      items:
+      - name: Maintain the Band Location on a Page
+        href: articles/report-designer/report-designer-for-winforms/lay-out-dynamic-report-content/maintain-the-band-location-on-a-page.md   
+      - name: Keep Content Together
+        href: articles/report-designer/report-designer-for-winforms/lay-out-dynamic-report-content/keep-content-together.md
+      - name: Maintain the Size and Content of Data-Bound Controls
+        href: articles/report-designer/report-designer-for-winforms/lay-out-dynamic-report-content/maintain-the-size-and-content-of-data-bound-controls.md
+      - name: Anchor Controls
+        href: articles/report-designer/report-designer-for-winforms/lay-out-dynamic-report-content/anchor-controls.md
+      - name: Suppress Controls
+        href: articles/report-designer/report-designer-for-winforms/lay-out-dynamic-report-content/suppress-controls.md
     - name: Use Expressions
       href: articles/report-designer/report-designer-for-winforms/use-expressions.md
       items:
