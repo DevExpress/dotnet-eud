@@ -480,6 +480,15 @@
       href: articles/report-designer/report-designer-for-winforms/save-reports.md
     - name: Introduction to Banded Reports
       href: articles/report-designer/report-designer-for-winforms/introduction-to-banded-reports.md
+    - name: Configure Design Settings
+      href: articles/report-designer/report-designer-for-winforms/configure-design-settings.md
+      items:
+      - name: Change a Report's Measurement Units
+        href: articles/report-designer/report-designer-for-winforms/configure-design-settings/change-a-report-measurement-units.md   
+      - name: Change a Report's Page Settings
+        href: articles/report-designer/report-designer-for-winforms/configure-design-settings/change-a-report-page-settings.md
+      - name: Enable the Right-To-Left Layout
+        href: articles/report-designer/report-designer-for-winforms/configure-design-settings/enable-the-right-to-left-layout.md
     - name: Use Report Elements
       href: articles/report-designer/report-designer-for-winforms/use-report-elements.md
       items:
