@@ -2,7 +2,7 @@
 title: Bind a Report to a CSV File
 author: Anna Gubareva
 ---
-# Bind a Report to a CSV FIle
+# Bind a Report to a CSV File
 
 This tutorial describes how to bind a report to data obtained from a CSV file:
 
@@ -38,12 +38,14 @@ This tutorial describes how to bind a report to data obtained from a CSV file:
 	
 	To include a column to the result data source, enable the corresponding **Selected** check box. Use **Name** to specify the custom column name and **Type** to choose the column type.
 	
-	![eurd-win-exceldatasource_selectingcolumns](../../../../../../../images/eurd-win-exceldatasource_selectingcolumns.png)
+	![eurd-win-exceldatasource_selectingcolumns](../../../../images/eurd-win-exceldatasource_selectingcolumns.png)
 	
 	On this page, you can also preview the result data by clicking the **Preview** button.
 	
-	![eurd-win-exceldatasource_datapreview](../../../../../../../images/eurd-win-exceldatasource_datapreview.png)
+	![eurd-win-exceldatasource_datapreview](../../../../images/eurd-win-exceldatasource_datapreview.png)
 	
 	Click **Finish** to complete the wizard.
 
 The created data source becomes displayed in the [Report Explorer](../report-designer-tools/ui-panels/report-explorer.md)'s **Components** node. The [Field List](../report-designer-tools/ui-panels/field-list.md) reflects the data source's hierarchy.
+
+![](../../../../images/eurd-win-data-source-wizard-select-excel-result.png)
