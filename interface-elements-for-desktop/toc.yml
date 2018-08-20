@@ -480,6 +480,33 @@
       href: articles/report-designer/report-designer-for-winforms/save-reports.md
     - name: Introduction to Banded Reports
       href: articles/report-designer/report-designer-for-winforms/introduction-to-banded-reports.md
+    - name: Bind to Data
+      href: articles/report-designer/report-designer-for-winforms/bind-to-data.md
+      items:
+      - name: Bind a Report to a Database
+        href: articles/report-designer/report-designer-for-winforms/bind-to-data/bind-a-report-to-a-database.md   
+      - name: Bind a Report to a Stored Procedure
+        href: articles/report-designer/report-designer-for-winforms/bind-to-data/bind-a-report-to-a-stored-procedure.md
+      - name: Bind a Report to an XML File
+        href: articles/report-designer/report-designer-for-winforms/bind-to-data/bind-a-report-to-an-xml-file.md
+      - name: Bind a Report to an Entity Framework Data Source
+        href: articles/report-designer/report-designer-for-winforms/bind-to-data/bind-a-report-to-an-entity-framework-data-source.md   
+      - name: Bind a Report to an Object Data Source
+        href: articles/report-designer/report-designer-for-winforms/bind-to-data/bind-a-report-to-an-object-data-source.md
+      - name: Bind a Report to an Excel Workbook
+        href: articles/report-designer/report-designer-for-winforms/bind-to-data/bind-a-report-to-an-excel-workbook.md
+      - name: Bind a Report to a CSV File
+        href: articles/report-designer/report-designer-for-winforms/bind-to-data/bind-a-report-to-a-csv-files.md   
+      - name: Data Binding Modes
+        href: articles/report-designer/report-designer-for-winforms/bind-to-data/data-binding-modes.md
+      - name: Bind Report Controls to Data (Expression Bindings)
+        href: articles/report-designer/report-designer-for-winforms/bind-to-data/bind-controls-to-data-expression-bindings.md
+      - name: Bind Report Controls to Data (Data Bindings)
+        href: articles/report-designer/report-designer-for-winforms/bind-to-data/bind-controls-to-data-data-bindings.md   
+      - name: Use Embedded Fields (Mail Merge)
+        href: articles/report-designer/report-designer-for-winforms/bind-to-data/use-embedded-fields-mail-merge.md
+      - name: Update Report Data Bindings
+        href: articles/report-designer/report-designer-for-winforms/bind-to-data/update-report-data-bindings.md
     - name: Configure Design Settings
       href: articles/report-designer/report-designer-for-winforms/configure-design-settings.md
       items:
