@@ -11,7 +11,6 @@ The following documents describe the basic controls that display data in a repor
 * [Rich Text](use-basic-report-controls/rich-text.md)
 * [Check Box](use-basic-report-controls/check-box.md)
 * [Picture Box](use-basic-report-controls/picture-box.md)
-* [Zip Code](use-basic-report-controls/zip-code.md)
 
 The controls below allow you to embed other reports and customize the report layout:
 

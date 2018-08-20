@@ -18,9 +18,9 @@ To add a cross-band control to a report, select the corresponding item in the [T
 The following properties define a cross-band control's location in a report:
 
 * **Start Band** - determines the band from which the control starts to draw;
-* **Start Point** - specifies the exact coordinates (measured in [report units](../../configure-design-settings/change-a-report's-measurement-units.md)) within the start band where the control starts to draw;
+* **Start Point** - specifies the exact coordinates (measured in [report units](../../configure-design-settings/change-a-report-measurement-units.md)) within the start band where the control starts to draw;
 * **End Band** -  determines the band where the cross-band control stops to draw;
-* **End Point** - specifies the exact coordinates (measured in [report units](../../configure-design-settings/change-a-report's-measurement-units.md)) within the end band where the control finishes to draw.
+* **End Point** - specifies the exact coordinates (measured in [report units](../../configure-design-settings/change-a-report-measurement-units.md)) within the end band where the control finishes to draw.
 
 ![](../../../../../images/eurd-win-cross-band-control-properties.png)
 
