@@ -1,1 +1,96 @@
-[comment]: <> (This topic is intended for the Conversion Dialog. Explain when a user should select to convert its report from data bindings to expressions)
+---
+title: Data Binding Modes
+author: Anna Gubareva
+---
+# Data Binding Modes
+
+## Conversion Dialog
+
+The following dialog can appear when **expression bindings** are enabled in the Report Designer and you [open an existing report](../open-reports.md) that uses standard **data bindings**:
+
+![](../../../../images/eurd-win-bindings-to-expressions-conversion-dialog.png)
+
+This dialog prompts you to to convert your report to use expressions (the new binding mechanism). Click **Yes** to run the report conversion, click **No** to open the report without changes.
+
+If this dialog does not appear, check which binding mode the Report Designer uses.
+
+## Data Binding Modes
+
+* **Expression Bindings**
+
+    Enable you to use complex [expressions](../use-expressions.md) that include two or more fields and various functions. Expressions also allow you to calculate complex summaries without scripts and conditionally shape your data without formatting rules.
+
+    This mode is enabled in the Report Designer if the [Property Grid](../report-designer-tools/ui-panels/property-grid.md) provides the **Expressions** ![](../../../../images/eurd-win-property-grid-expressions-icon.png) tab.
+
+    ![](../../../../images/eurd-win-property-grid-expression-bindings-mode.png)
+
+* **Data Bindings**
+
+    Enable you to assign a single data field to a report control or use [report scripts](../use-report-scripts.md) in complex scenarios.
+
+    This mode is enabled in the Report Designer if the [Property Grid](../report-designer-tools/ui-panels/property-grid.md) does not provide the **Expressions** ![](../../../../images/eurd-win-property-grid-expressions-icon.png) tab.
+
+    ![](../../../../images/eurd-win-property-grid-data-bindings-mode.png)
+
+## Binding Mode Comparison
+
+### **Bind to a Single Data Field**
+
+
+
+* The [Field List](../report-designer-tools/ui-panels/field-list.md) panel allows you to drop fields onto the design surface or existing report controls. All binding ways are identical in the **data bindings** and **expression bindings** modes. 
+
+    ![](../../../../images/eurd-win-binding-using-field-list.png)
+
+* The control's smart tag enables you to select the target data field in the corresponding drop-down list.
+
+    | Expression Bindings | Data Bindings |
+    |---|---|
+    | ![](../../../../images/eurd-win-smart-tag-expression-binding.png) | ![](../../../../images/eurd-win-smart-tag-data-binding.png) |
+
+* You can select a report control and bind it to data in the [Property Grid](../report-designer-tools/ui-panels/property-grid.md).
+
+    | Expression Bindings | Data Bindings |
+    |---|---|
+    | Switch to the **Expressions** tab and click the the **Text** property's ellipsis button. In the invoked **Expression Editor**, select a data field. | Expand the **(Data Bindings)** category and assign a data field to the **Text** property. |
+    |![](../../../../images/eurd-win-property-grid-expression-binding.png) | ![](../../../../images/eurd-win-property-grid-data-binding.png) |
+
+    <table><tr><th><p>Expression Bindings</p>
+    </th><th><p>Data Bindings</p>
+    </th></tr><tr><td><p>Switch to the <strong>Expressions</strong> tab and click the the <strong>Text</strong> property's ellipsis button. In the invoked <strong>Expression Editor</strong>, select a data field.</p>
+    <p><img src="../../../../images/eurd-win-property-grid-expression-binding.png"></p>
+    </td><td><p>Expand the <strong>(Data Bindings)</strong> category and assign a data field to the <strong>Text</strong> property.</p>
+    <p><img src="../../../../images/eurd-win-property-grid-data-binding.png"></p>
+    </td>
+    </tr</table>
+
+
+
+See the following topics for more information:
+
+* [Bind Report Controls to Data (Expression Bindings)](bind-controls-to-data-expression-bindings)
+* [Bind Report Controls to Data (Data Bindings)](bind-controls-to-data-data-bindings)
+
+
+### **Bind to Multiple Data Fields**
+
+| Expression Bindings | Data Bindings |
+|---|---|
+| Use the [mail merge]() functionality. | Use the [mail merge]() functionality. |
+|![](../../../../images/eurd-win-binding-modes-mail-merge.png) | ![](../../../../images/eurd-win-binding-modes-mail-merge.png)
+| Click the **Expression** property's ellipsis button and specify the expression. | |
+|![](../../../../images/eurd-win-expression-binding-multiple-fields.png) | 
+
+
+### **Calculate Summary**
+
+Click the label's smart tag and set the **Summary Running** property to the range for which to calculate a summary. 
+
+| Expression Bindings | Data Bindings |
+|---|---|
+| Click the **Expression** property's ellipsis button and, in the invoked **Summary Expression Editor**, select the summary function in the **Summary** section. | Set the **Summary Func** property to the required summary function.
+|![](../../../../images/eurd-win-binding-modes-mail-merge.png) | ![](../../../../images/eurd-win-label-legacy-summary-settings.png)
+
+### **Complex Binding, Custom Summary**
+
+### **Customize Appearance**
