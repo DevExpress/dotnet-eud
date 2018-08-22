@@ -6,7 +6,7 @@ author: Anna Gubareva
 
 This document describes how to create an invoice report based on a predefined template using the [Report Wizard](../report-designer-tools/report-wizard.md).
 
-> [!TIP]
+> [!Note]
 > See the [Create an Invoice Manually](create-an-invoice-manually.md) topic to learn how to create an invoice report with a custom layout from scratch.
 
 Do the following to select an invoice template and configure its settings:
