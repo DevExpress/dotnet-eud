@@ -1,8 +1,5 @@
 ---
-uid: "5173"
 title: Add Cross-References and Hyperlinks
-owner: Anna Gubareva
-seealso: []
 ---
 # Add Cross-References and Hyperlinks
 
