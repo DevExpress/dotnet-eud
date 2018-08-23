@@ -11,4 +11,4 @@ The topics in this section describe how to use navigation features in your repor
 * [Add a Table of Contents](add-navigation\add-a-table-of-contents.md)
 
 > [!Note]
-> See [Provide Interactivity](provide-interactivity.md) to learn how to create drill-down and drill-through reports.
+> See [Provide Interactivity](provide-interactivity.md) to learn how to create drill-down reports.
