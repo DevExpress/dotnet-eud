@@ -507,6 +507,27 @@
         href: articles/report-designer/report-designer-for-winforms/bind-to-data/use-embedded-fields-mail-merge.md
       - name: Update Report Data Bindings
         href: articles/report-designer/report-designer-for-winforms/bind-to-data/update-report-data-bindings.md
+    - name: Create Popular Reports
+      href: articles/report-designer/report-designer-for-winforms/create-popular-reports.md
+      items:
+      - name: Create a Table Report
+        href: articles/report-designer/report-designer-for-winforms/create-popular-reports/create-a-table-report.md   
+      - name: Create an Invoice based on a Template
+        href: articles/report-designer/report-designer-for-winforms/create-popular-reports/create-an-invoice-based-on-template.md
+      - name: Create an Invoice Manually
+        href: articles/report-designer/report-designer-for-winforms/create-popular-reports/create-an-invoice-manually.md
+      - name: Create a Master-Detail Report (Use Detail Report Bands)
+        href: articles/report-designer/report-designer-for-winforms/create-popular-reports/create-a-master-detail-report-use-detail-report-bands.md   
+      - name: Create a Master-Detail Report (Use Subreports)
+        href: articles/report-designer/report-designer-for-winforms/create-popular-reports/create-a-master-detail-report-use-subreports.md
+      - name: Create Labels and Badges
+        href: articles/report-designer/report-designer-for-winforms/create-popular-reports/create-labels-and-badges.md
+      - name: Create a Multi-Column Report
+        href: articles/report-designer/report-designer-for-winforms/create-popular-reports/create-a-multi-column-report.md   
+      - name: Create an Interactive E-Form
+        href: articles/report-designer/report-designer-for-winforms/create-popular-reports/create-an-interactive-e-form.md
+      - name: Create a Cross-Tab Report
+        href: articles/report-designer/report-designer-for-winforms/create-popular-reports/create-a-cross-tab-report.md
     - name: Configure Design Settings
       href: articles/report-designer/report-designer-for-winforms/configure-design-settings.md
       items:
