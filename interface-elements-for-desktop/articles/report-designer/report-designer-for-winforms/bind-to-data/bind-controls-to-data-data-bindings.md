@@ -9,7 +9,7 @@ author: Anna Gubareva
 >
 > See [Bind Report Controls to Data (Expression Bindings)](bind-controls-to-data-expression-bindings.md) if expression bindings **are enabled** in the Report Designer (the [Property Grid](../report-designer-tools/ui-panels/property-grid.md) provides the **Expressions** ![](../../../../images/eurd-win-property-grid-expressions-icon.png) tab).
 
-You can use the following approaches to include information from a data source to your report:
+You can use the following approaches to include a data source's information in your report:
 
 * [Use the Field List](#use-the-field-list)
 * [Use the Smart Tag](#use-the-smart-tag)
@@ -17,7 +17,7 @@ You can use the following approaches to include information from a data source t
 
 ## Use the Field List
 
-After you [bound your report to data](../bind-to-data.md), the [Field List](../report-designer-tools/ui-panels/field-list.md) panel displays the data source's hierarchy and provides access to the available data fields. 
+After you [bind your report to data](../bind-to-data.md), the [Field List](../report-designer-tools/ui-panels/field-list.md) panel displays the data source's hierarchy and provides access to the available data fields. 
 
 Drop a data field from this panel onto a report's surface to create a new report control bound to the corresponding field.
 
@@ -27,7 +27,7 @@ Drop a data field onto an existing control to bind this control to the correspon
 
 ![eurd-win-field-list-drop-field-to-control](../../../../images/eurd-win-field-list-drop-field-to-control.png)
 
-You can do one the following to create a data-bound control of a specific type:
+You can do one of the following to create a data-bound control of a specific type:
 
 * Hold down the SHIFT key and drop a data field onto a report's surface.
 * Right-click a corresponding data field and drop it onto a report's surface.
@@ -40,7 +40,7 @@ You can also drop an entire data table onto a report to create a [Table](../use-
 
 ![eurd-win-field-list-drop-table](../../../../images/eurd-win-field-list-drop-table.png)
 
-To select multiple fields in the Field List, hold the CTRL or SHIFT key and click them. Drop these fields onto a report to create a new table.
+To select multiple fields in the Field List, hold CTRL or SHIFT and click the fields. Drop these fields onto a report to create a new table.
 
 ![design-time-field-list-drop-multiple-fields](../../../../images/eurd-win-list-drop-multiple-fields.png)
 
