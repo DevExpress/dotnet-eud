@@ -1,8 +1,8 @@
 ---
-title: Create a Master-Detail Report (Use Detail Report Band)
+title: Create a Master-Detail Report (Use Detail Report Bands)
 author: Anna Gubareva
 ---
-# Create a Master-Detail Report (Use Detail Report Band)
+# Create a Master-Detail Report (Use Detail Report Bands)
 
 This tutorial illustrates how to display hierarchical data in a master-detail report using nested [Detail Report bands](../introduction-to-banded-reports.md). This approach is effective if your data source contains master-detail relationship. Another way is described at [Create a Master-Detail Report (Use Subreports)](create-a-master-detail-report-use-subreports.md).
 
@@ -10,7 +10,7 @@ This tutorial illustrates how to display hierarchical data in a master-detail re
 
 2. [Bind the report](../bind-to-data.md) to a required data source and provide it with a master-detail relationship as described in the [Bind a Report to a Database](../bind-to-data/bind-a-report-to-a-database.md) topic.
 
-3. Drop the required data fields from the **Field List** onto the [Detail](../introduction-to-banded-reports.md) band.
+3. Drop the required data fields from the [Field List](../report-designer-tools/ui-panels/field-list.md) onto the [Detail](../introduction-to-banded-reports.md) band.
 
     ![](../../../../images/eurd-win-master-detail-drop-fields-for-master-layout.png)
 
@@ -33,4 +33,4 @@ This tutorial illustrates how to display hierarchical data in a master-detail re
 
 Switch to [Print Preview](../preview-print-and-export-reports.md) to see the resulting report.
 
-![](../../../../images/eurd-win-master-detail-result-detail-report-band.png)
+![](../../../../images/eurd-win-master-detail-result.png)
