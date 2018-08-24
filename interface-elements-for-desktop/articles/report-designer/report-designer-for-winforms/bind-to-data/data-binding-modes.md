@@ -6,11 +6,11 @@ author: Anna Gubareva
 
 ## Conversion Dialog
 
-The following dialog can appear when **expression bindings** are enabled in the Report Designer and you [open an existing report](../open-reports.md) that uses standard **data bindings**:
+The following dialog can appear when **expression bindings** are enabled in the Report Designer, and you [open an existing report](../open-reports.md) that uses standard **data bindings**:
 
 ![](../../../../images/eurd-win-bindings-to-expressions-conversion-dialog.png)
 
-This dialog prompts you to to convert your report to use expressions (the new binding mechanism). Click **Yes** to run the report conversion, click **No** to open the report without changes.
+This dialog prompts you to convert your report to use expressions (the new binding mechanism). Click **Yes** to run the report conversion, click **No** to open the report without changes.
 
 If this dialog does not appear, check which binding mode the Report Designer uses.
 
