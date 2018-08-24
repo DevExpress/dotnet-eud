@@ -8,13 +8,17 @@ This document describes how to make an element navigate to other elements in a r
 ## <a name="cross"></a>Add Cross-References
 You can improve report navigation using a cross-reference because the link's target is in the same document.
 
-You can add a cross-reference for a [report control](..\use-report-elements.md) by setting its **NavigateUrl** property to the target control's **Name** property value.
 
-![eurd-win-crossreferences_set-url](../../../../images/eurd-win-crossreferences_set-url.png)
 
-Set the **Target** property to *&#0095;self* to specify that the link is in the same document.
+You can add a cross-reference for a [report control](..\use-report-elements.md) by setting the following properties:
 
-![eurd-win-crossreferences_set-target](../../../../images/eurd-win-crossreferences_set-target.png)
+1. Set the **Target** property to *&#0095;self* to specify that the link is in the same document.
+
+    ![eurd-win-crossreferences_set-target](../../../../images/eurd-win-crossreferences_set-target.png)
+
+2. Set the **NavigateUrl** property to the target control's **Name** property value.
+
+    ![eurd-win-crossreferences_set-url](../../../../images/eurd-win-crossreferences_set-url.png)
 
 In this case, the control behaves like a link meaning that the cursor automatically changes to a hand in a report's preview when hovering the control. You can make a control resemble a link by specifying its  [appearance properties](..\customize-appearance\appearance-properties.md) (for example, change the text's color to blue and underline it).
 
