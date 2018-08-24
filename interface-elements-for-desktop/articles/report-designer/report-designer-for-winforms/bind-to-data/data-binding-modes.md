@@ -4,35 +4,37 @@ author: Anna Gubareva
 ---
 # Data Binding Modes
 
-## Conversion Dialog
+The Report Designer uses one of the following modes to provide dynamic content to your reports: expression bindings or standard data bindings.
 
-The following dialog can appear when **expression bindings** are enabled in the Report Designer, and you [open an existing report](../open-reports.md) that uses standard **data bindings**:
+## <a name="expressions"></a>Expression Bindings
+
+Expression bindings enable you to use complex [expressions](../use-expressions.md) that include two or more fields and various functions. Expressions also allow you to calculate complex summaries without scripts and conditionally shape your data without formatting rules.
+
+This mode is enabled in the Report Designer if the [Property Grid](../report-designer-tools/ui-panels/property-grid.md) provides the **Expressions** ![](../../../../images/eurd-win-property-grid-expressions-icon.png) tab.
+
+![](../../../../images/eurd-win-property-grid-expression-bindings-mode.png)
+
+
+## <a name="databindings"></a> Data Bindings
+
+Standard data bindings enable you to assign a single data field to a report control or use [report scripts](../use-report-scripts.md) to provide custom logic.
+
+This mode is enabled in the Report Designer if the [Property Grid](../report-designer-tools/ui-panels/property-grid.md) does not provide the **Expressions** ![](../../../../images/eurd-win-property-grid-expressions-icon.png) tab.
+
+![](../../../../images/eurd-win-property-grid-data-bindings-mode.png)
+
+## <a name="dialog"></a>Conversion Dialog
+
+The following dialog appears only when [expression bindings](#expressions) are enabled in the Report Designer, and you [open an existing report](../open-reports.md) that uses standard [data bindings](#databindings):
 
 ![](../../../../images/eurd-win-bindings-to-expressions-conversion-dialog.png)
 
 This dialog prompts you to convert your report to use expressions (the new binding mechanism). Click **Yes** to run the report conversion, click **No** to open the report without changes.
 
-If this dialog does not appear, check which binding mode the Report Designer uses.
+See the section below for information on how to use expressions instead of data bindings.
 
-## Data Binding Modes
 
-* **Expression Bindings**
-
-    Enable you to use complex [expressions](../use-expressions.md) that include two or more fields and various functions. Expressions also allow you to calculate complex summaries without scripts and conditionally shape your data without formatting rules.
-
-    This mode is enabled in the Report Designer if the [Property Grid](../report-designer-tools/ui-panels/property-grid.md) provides the **Expressions** ![](../../../../images/eurd-win-property-grid-expressions-icon.png) tab.
-
-    ![](../../../../images/eurd-win-property-grid-expression-bindings-mode.png)
-
-* **Data Bindings**
-
-    Enable you to assign a single data field to a report control or use [report scripts](../use-report-scripts.md) in complex scenarios.
-
-    This mode is enabled in the Report Designer if the [Property Grid](../report-designer-tools/ui-panels/property-grid.md) does not provide the **Expressions** ![](../../../../images/eurd-win-property-grid-expressions-icon.png) tab.
-
-    ![](../../../../images/eurd-win-property-grid-data-bindings-mode.png)
-
-## Binding Mode Comparison
+## <a name="comparison"></a>Binding Mode Comparison
 
 ### **Bind to a Single Data Field**
 
