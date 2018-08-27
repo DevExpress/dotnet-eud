@@ -91,4 +91,4 @@ The styles that the Report Gallery includes are available across reports. Drag a
 This embeds the style to the report and set's the report element's **Style** property.
 
 > [!NOTE]
-> You can combine styles into [style sheets](store-report-style-sheets.md) to reuse them between reports.
+> You can combine styles into [style sheets](store-report-style-sheets.md) and reuse them in reports.
