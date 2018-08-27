@@ -12,7 +12,7 @@ Press the caption button on the toolbar's Styles group to invoke the Styles Edit
 
 ![eurd-win-save-styles](../../../../images/eurd-win-save-styles.png)
 
-Press the ![Save](../../../../images/eurd-win-save-button-styles-editor.png) button to save the styles as a style sheet to an external REPSS file.
+Press the ![Save](../../../../images/eurd-win-save-button-styles-editor.png) button to save the styles as a style sheet (external REPSS file).
 
 ## Add a Style Sheet to a Report
 
