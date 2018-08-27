@@ -28,8 +28,10 @@ The table below contains constants, operators, and functions you can use in [exp
 </td></tr><tr><td><p>Enumeration</p>
 </td><td><p>Specify an enumeration value using its underlying integer value.</p>
 </td><td><p>[Status] == 1</p>
-<p>Note that you cannot specify an enumeration value using its qualified name. The following criteria <strong>is incorrect</strong>:</p>
+<p>You cannot specify an enumeration value using its qualified name. The following criteria <strong>is incorrect</strong>:</p>
 <p>[Status] = Status.InProgress</p>
+<p>You can use the <see cref="T:DevExpress.Data.Filtering.EnumProcessingHelper"></see> class&#39; static methods to register custom enumerations, and then refer to enumeration values as follows:</p>
+<p>Status = ##Enum#MyNamespace.Status,InProgress#</p>
 </td></tr><tr><td><p>Guid</p>
 </td><td><p>Wrap a Guid constant in curly braces. Use Guid constants in a relational operation with equality or inequality operators only.</p>
 </td><td><p>[OrderID] == {513724e5-17b7-4ec6-abc4-0eae12c72c1f}</p>
@@ -49,20 +51,6 @@ The table below contains constants, operators, and functions you can use in [exp
 <p>We recommend using the <strong>IsNull</strong> unary operator (for example, &quot;[Region] is null&quot;) or the <strong>IsNull</strong> logical function (for example, &quot;IsNull([Region])&quot;) instead.</p>
 </td><td><p>[Region] != ?</p>
 </td></tr></table>
-
-You can build parameterized criteria using any number of positional parameters. To do this, add parameter placeholders (question mark characters) to a criteria expression to identify parameter positions and provide a list of parameter values. When building criteria, parameter placeholders are substituted with parameter values in values in the order they are listed.
-
-_CriteriaOperator.Parse("[Name] == ? and [Age] == ?", "John", 33)_
-
-The following two examples are identical, but the second one allows you to avoid formatting errors.
-
-_CriteriaOperator.Parse("[OrderDate] >= #1/1/2009#")_
-
-_CriteriaOperator.Parse("[OrderDate] >= ?", new DateTime(2009, 1, 1))_
-
-When parameters are not specified, a parameter placeholder is substituted with null.
-
-_CriteriaOperator.Parse("[Region] != ?")_
 
 ## Operators
 
@@ -86,14 +74,14 @@ _CriteriaOperator.Parse("[Region] != ?")_
 </td><td><p>Returns the remainder (modulus) obtained by dividing one numeric expression by another.</p>
 </td><td><p>[Quantity] % 3</p>
 </td></tr><tr><td><p>|</p>
-</td><td><p>The bitwise OR operator. Compares each bit of its first operand to the corresponding bit of its second operand. If either bit is 1, the corresponding resulting bit is set to 1. Otherwise, the corresponding resulting bit is set to 0.</p>
-</td><td><p>[Flag1] | [Flag2]</p>
+</td><td><p>Performs a bitwise inclusive OR on two numeric expressions. Compares each bit of its first operand to the corresponding bit of its second operand. If either bit is 1, the corresponding resulting bit is set to 1. Otherwise, the corresponding resulting bit is set to 0.</p>
+</td><td><p>[Number] | [Number]</p>
 </td></tr><tr><td><p>&amp;</p>
 </td><td><p>The bitwise AND operator. Compares each bit of its first operand to the corresponding bit of its second operand. If both bits are 1, the corresponding resulting bit is set to 1. Otherwise, the corresponding resulting bit is set to 0.</p>
-</td><td><p>[Flag] &amp; 10</p>
+</td><td><p>[Number] &amp; 10</p>
 </td></tr><tr><td><p>^</p>
-</td><td><p>Performs a logical exclusive OR on two Boolean expressions, or a bitwise exclusive OR on two numeric expressions.</p>
-</td><td><p>[Flag1] ^ [Flag2]</p>
+</td><td><p>Performs a bitwise exclusive OR on two numeric expressions.</p>
+</td><td><p>[Number] ^ [Number]</p>
 </td></tr><tr><td><p>==</p>
 <p>=</p>
 </td><td><p>Returns true if both operands have the same value; otherwise, it returns false.</p>
@@ -119,9 +107,9 @@ _CriteriaOperator.Parse("[Region] != ?")_
 </td></tr><tr><td><p>Between (,)</p>
 </td><td><p>Specifies a range to test. Returns true if a value is greater than or equal to the first operand and less than or equal to the second operand.</p>
 </td><td><p>[Quantity] Between (10, 20)</p>
-</td></tr><tr><td><p>And</p>
+</td></tr><tr><td><p>And </p>
 <p>&amp;&amp;</p>
-</td><td><p>Performs a logical conjunction on two expressions.</p>
+</td><td><p>Performs a logical conjunction on two Boolean expressions.</p>
 </td><td><p>[InStock] And ([ExtendedPrice]&gt; 100)</p>
 <p>[InStock] &amp;&amp; ([ExtendedPrice]&gt; 100)</p>
 </td></tr><tr><td><p>Or</p>
@@ -129,22 +117,24 @@ _CriteriaOperator.Parse("[Region] != ?")_
 </td><td><p>Performs a logical disjunction on two Boolean expressions.</p>
 </td><td><p>[Country]==&#39;USA&#39; Or [Country]==&#39;UK&#39;</p>
 <p>[Country]==&#39;USA&#39; || [Country]==&#39;UK&#39;</p>
-</td></tr><tr><td><p>!</p>
-</td><td><p>Performs logical negation on an expression.</p>
-</td><td><p>![InStock]</p>
+</td></tr><tr><td><p>~</p>
+</td><td><p>Performs a bitwise negation on a numeric expression.</p>
+</td><td><p>~[Roles] = 251</p>
+</td></tr><tr><td><p>Not</p>
+<p>!</p>
+</td><td><p>Performs a logical negation on a Boolean expression.</p>
+</td><td><p>Not [InStock]</p>
+<p>![InStock]</p>
+</td></tr><tr><td><p>+</p>
+</td><td><p>Returns a numeric expression&#39;s value (a unary operator).</p>
+</td><td><p>+[Value] = 10</p>
+</td></tr><tr><td><p>-</p>
+</td><td><p>Returns the negative of a numeric expression&#39;s value (a unary operator).</p>
+</td><td><p>-[Value] = 20</p>
+</td></tr><tr><td><p>Is Null</p>
+</td><td><p>Returns true if an expression is a null reference, the one that does not refer to any object.</p>
+</td><td><p>[Region] is null</p>
 </td></tr></table>
-
-**Unary Operators**
-
-Unary operators perform operations on a single expression.
-
-| Name | Description | Usage |
-|---|---|---|---|
-| **BitwiseNot** | Represents the bitwise NOT operator. | "~[Roles] = 251" |
-| **Not** | Represents the logical NOT. | "Not [InStock]"   |
-| **Minus** | Represents the unary negation (-) operator. | "[Value] = -20"   |
-| **Plus** | Represents the unary plus (+) operator. | "[Value] = +10"   |
-| **IsNull** | Represents a null reference, one that does not refer to any object. | "[Region] is null"   |
 
 ## Functions (Basic)
 
@@ -240,15 +230,19 @@ Unary operators perform operations on a single expression.
 <table><tr><th><p>Function</p>
 </th><th><p>Description</p>
 </th><th><p>Example</p>
-</th></tr><tr><td><p>Iif(Expression, TruePart, FalsePart)</p>
+</th></tr><tr><td><p>Iif(Expression1, True_Value1, ..., ExpressionN, True_ValueN, False_Value)</p>
 </td><td><p>Returns one of several specified values depending upon the values of logical expressions.</p>
-<p>The function can take <em>n</em> operands of the <strong>CriteriaOperator</strong> class:</p>
-<p>1 - determines the first logical expression;</p>
-<p>2 &#0045; specifies the value that is returned if the first logical expression evaluates to <strong>true</strong>;</p>
-<p><strong>...</strong></p>
-<p>n&#0045;2 &#0045; determines the <em>n-2</em> logical expression;</p>
-<p>n&#0045;1 &#0045; specifies the value that is returned if the <em>n-2</em> logical expression evaluates to <strong>true</strong>;</p>
-<p>n &#0045; specifies the value that is returned if the previously evaluated logical expressions yielded <strong>false</strong>.</p>
+<p>The function can take <em>2N+1</em> arguments (<em>N</em> - the number of specified logical expressions):</p>
+<ul>
+<li><p>Each odd argument specifies a logical expression;</p>
+</li>
+<li><p>Each even argument specifies the value that is returned if the previous expression evaluates to <strong>true</strong>; </p>
+</li>
+<li><p><strong>...</strong></p>
+</li>
+<li><p>The last argument specifies the value that is returned if the previously evaluated logical expressions yielded <strong>false</strong>.</p>
+</li>
+</ul>
 </td><td><p>Iif(Name = &#39;Bob&#39;, 1, Name = &#39;Dan&#39;, 2, Name = &#39;Sam&#39;, 3, 4)&quot;)</p>
 </td></tr><tr><td><p>IsNull(Value)</p>
 </td><td><p>Returns True if the specified Value is NULL.</p>
@@ -340,7 +334,7 @@ Below is a list of functions that are used to construct [expression bindings](..
 <p><em>Beverages</em></p>
 <p><em>Soft drinks, coffees, teas, beers and ales.</em></p>
 </td></tr><tr><td><p>FormatString(Format, Value1, ... , ValueN)</p>
-</td><td><p>Returns the specified string with formatted field values. See <a class="xref" href="..\shape-report-data\shape-data-data-bindings\format-data.html">Formatting Data</a> for details.</p>
+</td><td><p>Returns the specified string with formatted field values. See <a class="xref" href="..\shape-report-data\shape-data-data-bindings\format-data.html">Format Data</a> for details.</p>
 </td><td><p>FormatString(&#39;{0:$0.00}&#39;, [UnitPrice])</p>
 <p>Result: <em>$45.60</em></p>
 </td></tr><tr><td><p>Rgb(Red, Green, Blue)</p>
@@ -460,6 +454,21 @@ Use the following functions when [calculating summaries](..\shape-report-data\sh
 </td><td><p>sumVarP([UnitPrice])</p>
 </td></tr></table>
 
+## Report Items In Expressions
+
+A report's elements are displayed in the Report Designer's Report Explorer. You can access these elements and their properties in expressions. The following example demonstrates how to set a label's BackColor property to the other label's BackColor property value.
+
+*[ReportItems].[xrLabel2].[BackColor]*
+
+> [!Tip]
+> **[ReportItems]** is a list that provides access to all report items.
+
+> [!Note]
+> You cannot use the ReportItems collection in a [Calculated Field](..\shape-report-data\use-calculated-fields.md)'s expression. 
+
+
+
+
 ## Variables
 
 <table><tr><th><p>Variable</p>
@@ -559,3 +568,11 @@ Operators are case insensitive. Although field values’ case sensitivity depend
 You can mark a keyword&#0045;like field name with an escape character (@ sign). In the expression below, the **CriteriaOperator.Parse** method interprets \@Or as the field named "Or", not the logical operator OR.
 
 _\@Or = 'value'_
+
+## Escape Characters
+ 
+Use a backslash (\) as an escape character for characters in expressions. Examples:
+
+- \[
+- \\
+- \'
