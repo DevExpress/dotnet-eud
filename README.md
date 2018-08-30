@@ -13,7 +13,7 @@ By accessing this repository, you agree to be bound by the terms of the [DevExpr
 ## Ways to Browse Content
 To browse this repository's content, start with [index.md](index.md).  
 
-We have also compiled this End-User Documentation into a sample website and PDF files. You can view the website at [devexpress.github.io/dotnet-eud](https://devexpress.github.io/dotnet-eud/), or download these PDF files:
+We have also compiled this End-User Documentation into a sample website and PDF files. You can view the website at [devexpress.github.io/dotnet-eud](https://devexpress.github.io/dotnet-eud/), or download the following PDF files:
 
 * [dotnet-eud_interface-elements-for-web.pdf](https://devexpress.github.io/dotnet-eud/pdf/dotnet-eud_interface-elements-for-web.pdf)
 * [dotnet-eud_interface-elements-for-desktop.pdf](https://devexpress.github.io/dotnet-eud/pdf/dotnet-eud_interface-elements-for-desktop.pdf)
