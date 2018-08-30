@@ -37,7 +37,7 @@ To create a documentation website for your application:
   - changing screenshots to match your app UI;
   - creating a [custom DocFX template](https://dotnet.github.io/docfx/tutorial/howto_create_custom_template.html).
   > Make sure to update *toc.yml* ([table-of-content](https://dotnet.github.io/docfx/tutorial/intro_toc.html)) files if you have added or removed topics.
-- Open a console window, change the current directory to the repository root folder and call the DocFX executable with the *build* and *docfx.json* parameters. DocFX will place the generated documentation content into the *\_site* folder. Add the *--serve* switch to preview the generated website at http://localhost:8080 once the build process is complete. 
+- Open a console window, change the current directory to the repository root folder and call the DocFX executable with the *build* and *docfx.json* parameters. DocFX will place the generated documentation content into the *\_site* folder. Add the `--serve` switch to preview the generated website at http://localhost:8080 once the build process is complete. 
     ```
     docfx.exe build docfx.json --serve
     ```
