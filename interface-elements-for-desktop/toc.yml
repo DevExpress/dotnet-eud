@@ -774,6 +774,15 @@
         href: articles/report-designer/report-designer-for-winforms/lay-out-dynamic-report-content/anchor-controls.md
       - name: Suppress Controls
         href: articles/report-designer/report-designer-for-winforms/lay-out-dynamic-report-content/suppress-controls.md
+    - name: Customize Appearance
+      href: articles/report-designer/report-designer-for-winforms/customize-appearance.md
+      items:
+      - name: Appearance Properties
+        href: articles/report-designer/report-designer-for-winforms/customize-appearance/appearance-properties.md
+      - name: Report Visual Styles
+        href: articles/report-designer/report-designer-for-winforms/customize-appearance/report-visual-styles.md
+      - name: Report Style Sheets
+        href: articles/report-designer/report-designer-for-winforms/customize-appearance/report-style-sheets.md
     - name: Use Expressions
       href: articles/report-designer/report-designer-for-winforms/use-expressions.md
       items:
