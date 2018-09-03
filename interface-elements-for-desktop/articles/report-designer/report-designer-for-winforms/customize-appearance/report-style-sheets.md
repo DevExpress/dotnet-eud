@@ -4,7 +4,7 @@ owner: Mary Sammal
 ---
 # Report Style Sheets
 
-You can combine [report styles](customize-appearance\report-visual-styles.md) into a style sheet and reuse them in reports. This topic explains how to create and use style sheets in reports.
+You can combine [report styles](report-visual-styles.md) into a style sheet and reuse them in reports. This topic explains how to create and use style sheets in reports.
 
 ## Save Styles as Style Sheets
 

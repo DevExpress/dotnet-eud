@@ -4,7 +4,7 @@ author: Anna Gubareva
 ---
 # Intelligent Mail Package
 
-The **Intelligent Mail Package Barcode** (**IMPB**) was developed for the use on mail in the United States. Bar codes of this symbology are used only for packages as opposed to [Intelligent Mail](..\use-report-elements\use-bar-codes\intelligent-mail-package.md) bar codes, which are used for postcards, letters, and flats.
+The **Intelligent Mail Package Barcode** (**IMPB**) was developed for the use on mail in the United States. Bar codes of this symbology are used only for packages as opposed to [Intelligent Mail](intelligent-mail.md) bar codes, which are used for postcards, letters, and flats.
 
 This bar code is capable of encoding package tracking information required for more efficient sorting and delivering of packages with the capability of piece-level tracking.
 

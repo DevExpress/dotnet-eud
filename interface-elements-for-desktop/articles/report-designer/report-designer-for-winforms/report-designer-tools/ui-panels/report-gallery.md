@@ -10,7 +10,7 @@ The **Report Gallery** allows you to store common report controls, styles, data 
 Do not confuse the Report Gallery with the [Report Explorer](report-explorer.md), which has a similar user interface, but provides a different functionality. The Report Gallery enables you to create frequently used templates and apply them afterward to other reports. The Report Explorer reflects the current report structure and displays components and styles available in the report.
 
 ## <a name="reportcontrols"></a>Manage Report Controls
-You can combine [report controls](use-report-elements.md) residing within the same [band](introduction-to-banded-reports.md) into a template. To do this, select one or multiple controls while holding down the SHIFT or CTRL key. Right-click the selection and choose **Add To Gallery** in the context menu.
+You can combine [report controls](../../use-report-elements.md) residing within the same [band](../../introduction-to-banded-reports.md) into a template. To do this, select one or multiple controls while holding down the SHIFT or CTRL key. Right-click the selection and choose **Add To Gallery** in the context menu.
 
 ![report-gallery-add-controls](../../../../../images/eurd-win-report-gallery-add-controls.png)
 

@@ -13,7 +13,7 @@ You can also use the [Toolbox](../../report-designer-tools/toolbox.md) to add ot
 
 ![](../../../../../images/eurd-win-drop-report-control-from-toolbox.png)
 
-This document describes how to add the most commonly used controls to a report. See [Use Report Controls](../../use-report-controls.md) for a complete list of available controls.
+This document describes how to add the most commonly used controls to a report. See [Use Report Elements](../../use-report-elements.md) for a complete list of available controls.
 
 ## Display Text
 Use the following controls to display text in a report:

@@ -8,7 +8,7 @@ The **Query Builder** provides a visual interface for constructing SQL queries u
 ![query-builder](../../../../images/eurd-win-query-builder.png)
 
 > [!NOTE]
-> The Query Builder is not available for [object](report-wizard\data-bound-report\connect-to-an-object-data-source), [Entity Framework](report-wizard\data-bound-report\connect-to-an-entity-framework-data-source.md) and [Excel](report-wizard\data-bound-report\connect-to-an-excel-data-source.md) data sources.
+> The Query Builder is not available for [object](report-wizard\data-bound-report\connect-to-an-object-data-source.md), [Entity Framework](report-wizard\data-bound-report\connect-to-an-entity-framework-data-source.md) and [Excel](report-wizard\data-bound-report\connect-to-an-excel-data-source.md) data sources.
 
 ## <a name="runquerybuilder"></a>Run the Query Builder
 You can invoke the **Query Builder** from the [query customization](report-wizard\data-bound-report\connect-to-a-database\create-a-query-or-select-a-stored-procedure.md) page of the [Report Wizard](report-wizard.md). On this page, click the ![report-wizard-multi-query-page-icon-add](../../../../images/eurd-win-report-wizard-multi-query-page-icon-add.png) button for the **Queries** category to create a new query using the Query Builder.

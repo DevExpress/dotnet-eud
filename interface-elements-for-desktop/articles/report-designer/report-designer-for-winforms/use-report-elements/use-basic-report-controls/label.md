@@ -112,4 +112,4 @@ Use the label's **Interactive Sorting** option to enable sorting report data by 
 
 ![](../../../../../images/eurd-win-label-interactive-sorting-options.png)
 
-Refer to [Sort a Report in Print Preview](../../provide-interactivity/sort-a-report-in-print-preview) for a step-by-step tutorial.
+Refer to [Sort a Report in Print Preview](../../provide-interactivity/sort-a-report-in-print-preview.md) for a step-by-step tutorial.

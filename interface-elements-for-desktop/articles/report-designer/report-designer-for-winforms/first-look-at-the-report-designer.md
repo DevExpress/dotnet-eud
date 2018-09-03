@@ -32,4 +32,4 @@ Switch to the **Preview** tab. This opens a [Print Preview](preview-print-and-ex
 
 ![report-designer-view-tabs](../../../images/eurd-win-report-designer-view-tabs.png)
 
-Switch to the **Scripts** tab to manage and customize [report scripts](user-report-scripts.md).
+Switch to the **Scripts** tab to manage and customize [report scripts](use-report-scripts.md).

@@ -43,7 +43,7 @@ The following image illustrates a sample report layout and the [Report Explorer]
 
 ## Add a Detail Band to a Master-Detail Band
 
-Use the **detail report band** to create hierarchical [master-detail reports](create-a-master-detail-report-use-detail-report-bands.md). Detail report bands provide detailed information about each record in the master report's detail band (for example, orders shipped to each customer). You can create such reports when master-detail relationships are defined between data source tables:
+Use the **detail report band** to create hierarchical [master-detail reports](create-popular-reports/create-a-master-detail-report-use-detail-report-bands.md). Detail report bands provide detailed information about each record in the master report's detail band (for example, orders shipped to each customer). You can create such reports when master-detail relationships are defined between data source tables:
 
 ![eurd-win-master-detail-relation-editor-report-designer](../../../images/eurd-win-master-detail-relation-editor-report-designer.png)
 
@@ -86,7 +86,7 @@ To add a band, right-click a report's design surface, and in the invoked context
 
 ![eurd-win-report-bands-context-menu](../../../images/eurd-win-report-bands-context-menu.png)
 
-You can insert a detail report band if the report's data source has [master-detail relations](create-a-master-detail-report-use-detail-report-bands.md).
+You can insert a detail report band if the report's data source has [master-detail relations](create-popular-reports/create-a-master-detail-report-use-detail-report-bands.md).
 
 ![eurd-win-add-band-relationship](../../../images/eurd-win-add-band-relationship.png)
 

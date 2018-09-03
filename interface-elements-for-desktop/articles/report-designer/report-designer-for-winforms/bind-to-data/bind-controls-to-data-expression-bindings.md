@@ -61,5 +61,5 @@ Select a report control and switch to the **Expressions** tab in the [Property G
 
 ![](../../../../images/eurd-win-property-grid-expressions.png)
 
-You can use the same approach to specify expressions for all the control properties. See [Shape Report Data](../shape-report-data/shape-data-expression-bindings) for more tutorials.
+You can use the same approach to specify expressions for all the control properties. See [Shape Report Data](../shape-report-data/shape-data-expression-bindings.md) for more tutorials.
 

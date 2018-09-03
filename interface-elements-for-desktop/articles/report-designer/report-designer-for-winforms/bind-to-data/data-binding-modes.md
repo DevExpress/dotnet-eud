@@ -63,8 +63,8 @@ See the section below for information on how to use expressions instead of data 
 
 See the following topics for more information:
 
-* [Bind Report Controls to Data (Expression Bindings)](bind-controls-to-data-expression-bindings)
-* [Bind Report Controls to Data (Data Bindings)](bind-controls-to-data-data-bindings)
+* [Bind Report Controls to Data (Expression Bindings)](bind-controls-to-data-expression-bindings.md)
+* [Bind Report Controls to Data (Data Bindings)](bind-controls-to-data-data-bindings.md)
 
 
 ### **Bind to Multiple Data Fields**
