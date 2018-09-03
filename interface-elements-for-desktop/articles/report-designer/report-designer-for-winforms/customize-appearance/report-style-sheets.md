@@ -8,7 +8,7 @@ You can combine [report styles](customize-appearance\report-visual-styles.md) in
 
 ## Save Styles as Style Sheets
 
-Press the caption button on the toolbar's Styles group to invoke the Styles Editor.
+Press the caption button in the toolbar's Styles group to invoke the Style Editor.
 
 ![eurd-win-save-styles](../../../../images/eurd-win-save-styles.png)
 
@@ -22,7 +22,7 @@ Do the following to embed a style sheet's styles in a report:
 
 ![eurd-win-invoke-styles-editor](../../../../images/eurd-win-invoke-styles-editor.png)
 
-- press ![]() and choose the style sheet file in the Open dialog.
+- press ![]() and choose a style sheet file in the Open dialog.
 
 ![eurd-win-open-style-sheet](../../../../images/eurd-win-open-style-sheet.png)
 
