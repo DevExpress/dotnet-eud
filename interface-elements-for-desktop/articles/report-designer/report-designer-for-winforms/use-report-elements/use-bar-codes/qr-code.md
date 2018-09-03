@@ -8,7 +8,7 @@ A **QR Code** (**QR** is the abbreviation for **Quick Response**) is a two-dimen
 
 ![](../../../../../images/eurd-win-bar-code-qr-code.png)
 
-The following properties are specific to the **QR** type and available in the [Property Grid](../../report-designer-tools/ui-panels/property-grid) under the **Symbology** property:
+The following properties are specific to the **QR** type and available in the [Property Grid](../../report-designer-tools/ui-panels/property-grid.md) under the **Symbology** property:
 
 * **Compaction Mode**
 

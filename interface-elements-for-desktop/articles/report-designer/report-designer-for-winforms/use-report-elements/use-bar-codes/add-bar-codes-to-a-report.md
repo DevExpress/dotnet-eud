@@ -14,7 +14,7 @@ After creating the bar code, select the bar code type (symbology) in the **Bar C
 	
 ![](../../../../../images/eurd-win-bar-code-symbology.png)
 	
-After specifying the symbology, you can customize the type-specific options of the bar code, which are listed in the [Property Grid](../../report-designer-tools/ui-panels/property-grid) under the **Symbology** property.
+After specifying the symbology, you can customize the type-specific options of the bar code, which are listed in the [Property Grid](../../report-designer-tools/ui-panels/property-grid.md) under the **Symbology** property.
 	
 ![](../../../../../images/eurd-win-bar-code-symbology-property.png)
 

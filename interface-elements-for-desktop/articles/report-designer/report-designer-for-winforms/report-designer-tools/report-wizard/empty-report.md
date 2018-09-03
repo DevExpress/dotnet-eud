@@ -4,7 +4,7 @@ owner: Mary Sammal
 ---
 # Empty Report
 
-To create an empty report, [run the Report Wizard](report-designer-tools\report-wizard.md), select **Empty Report** and click **Finish**.
+To create an empty report, [run the Report Wizard](..\report-wizard.md), select **Empty Report** and click **Finish**.
 
 ![eurd-win-report-wizard-empty-report](../../../../../images/eurd-win-report-wizard-empty-report.png)
 
@@ -12,4 +12,4 @@ The following image illustrates the newly added empty report's layout.
 
 ![eurd-win-empty-report](../../../../../images/eurd-win-empty-report.png)
 
-Refer to the [Use Report Elements](use-report-elements.md) section for details on how to add controls to the report, and the [Bind to Data](bind-to-data.md) section for details on how to provide data.
+Refer to the [Use Report Elements](../../use-report-elements.md) section for details on how to add controls to the report, and the [Bind to Data](../../bind-to-data.md) section for details on how to provide data.

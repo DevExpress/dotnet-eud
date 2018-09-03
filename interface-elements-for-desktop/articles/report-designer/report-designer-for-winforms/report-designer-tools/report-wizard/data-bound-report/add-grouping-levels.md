@@ -20,4 +20,4 @@ You can stop the wizard on this step by clicking **Finish**. In this case, your 
 
 ![eurd-win-report-wizard-master-detail-group-data-result](../../../../../../images/eurd-win-report-wizard-master-detail-group-data-result.png)
 
-If you want to customize your report further, click **Next**. If data grouping has been applied on this page, you will proceed to the [Specify Summary Options](specify-summary-options.md) page. If you have not grouped your data, you will skip the summaries step and go to the [Choose a Report Layout](choose-a-report-layout.md) page.
+If you want to customize your report further, click **Next**. If data grouping has been applied on this page, you will proceed to the [Specify Summary Options](specify-summary-options.md) page. If you have not grouped your data, you will skip the summaries step and go to the [Set the Report Title](set-the-report-title.md) page.

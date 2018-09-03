@@ -6,8 +6,8 @@ author: Anna Gubareva
 
 The following topics provide basic information about using bar codes:
 
-* [Add Bar Codes to Reports](use-bar-codes/add-bar-codes-to-a-report)
-* [Bar Code Recognition Specifics](use-bar-codes/bar-code-recognition-specifics)
+* [Add Bar Codes to Reports](use-bar-codes/add-bar-codes-to-a-report.md)
+* [Bar Code Recognition Specifics](use-bar-codes/bar-code-recognition-specifics.md)
 
 See the following topics to learn about the supported one-dimensional bar codes:
 

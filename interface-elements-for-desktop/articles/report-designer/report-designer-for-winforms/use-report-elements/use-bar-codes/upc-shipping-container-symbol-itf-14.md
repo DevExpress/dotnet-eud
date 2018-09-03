@@ -12,7 +12,7 @@ The thick black border around the symbol (the **Bearer Bar**) is intended to imp
 
 ![](../../../../../images/eurd-win-bar-code-itf-14.png)
 
-The following properties are specific to the **ITF-14** type and listed in the [Property Grid](../../report-designer-tools/ui-panels/property-grid) under the **Symbology** property:
+The following properties are specific to the **ITF-14** type and listed in the [Property Grid](../../report-designer-tools/ui-panels/property-grid.md) under the **Symbology** property:
 
 * **Calculate a Checksum**
 

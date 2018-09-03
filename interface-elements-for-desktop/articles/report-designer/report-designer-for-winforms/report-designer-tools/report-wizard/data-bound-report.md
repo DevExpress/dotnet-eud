@@ -4,7 +4,7 @@ owner: Mary Sammal
 ---
 # Data-Bound Report
 
-To create a new report and connect it to data, [run the Report Wizard](xref:4254) and select **Data-bound Report**.
+To create a new report and connect it to data, [run the Report Wizard](..\report-wizard.md) and select **Data-bound Report**.
 
 ![eurd-win-report-wizard](../../../../../images/eurd-win-report-wizard.png)
 

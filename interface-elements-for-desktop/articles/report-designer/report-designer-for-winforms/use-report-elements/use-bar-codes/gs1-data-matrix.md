@@ -8,7 +8,7 @@ The **GS1 Data Matrix** uses a special start combination to differentiate the **
 
 ![](../../../../../images/eurd-win-bar-code-gs1-datamatrix.png)
 
-The following properties are specific to the **GS1 DataMatrix** type and available in the [Property Grid](../../report-designer-tools/ui-panels/property-grid) under the **Symbology** property:
+The following properties are specific to the **GS1 DataMatrix** type and available in the [Property Grid](../../report-designer-tools/ui-panels/property-grid.md) under the **Symbology** property:
 
 
 * **FNC1 Functional Character**
