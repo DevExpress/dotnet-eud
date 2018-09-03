@@ -4,7 +4,7 @@ owner: Mary Sammal
 ---
 # Connect to a Database
 
-The following steps are required to connect a report to a database using the [Report Wizard](xref:4271):
+The following steps are required to connect a report to a database using the [Report Wizard](../../report-wizard.md):
 
 * [Select a Data Connection](connect-to-a-database\select-a-data-connection.md)
 * [Specify a Connection String](connect-to-a-database\specify-a-connection-string.md)

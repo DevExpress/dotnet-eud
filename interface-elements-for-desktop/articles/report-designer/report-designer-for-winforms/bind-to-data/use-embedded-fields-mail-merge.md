@@ -41,7 +41,7 @@ This adds the selected format to the target data field by separating it from the
 ![](../../../../images/eurd-win-mail-merge-format-string-result.png)
 
 ## <a name="supportedcontrols"></a>Supported Controls
-You can apply the mail merge feature to the **Text** of the following report controls inherited from the [](xref:DevExpress.XtraReports.UI.XRFieldEmbeddableControl) class:
+You can apply the mail merge feature to the **Text** of the following report controls:
 
 * [Bar Code](../use-report-elements/use-bar-codes.md)
 * [Character Comb](../use-report-elements/use-basic-report-controls/character-comb.md)
