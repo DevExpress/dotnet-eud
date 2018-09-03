@@ -12,20 +12,20 @@ Use the following approaches to create a visual style in your report:
 
 - **Extract a Style**
 
-    Specify [appearance properties](appearance-properties.md) for a report control and press **Extract Style** in the report's [toolbar](..\report-designer-tools\toolbar.md).
+    Specify a report control's [appearance properties](appearance-properties.md) and press **Extract Style** in the report's [toolbar](..\report-designer-tools\toolbar.md).
 
     ![eurd-win-specify-properties](../../../../images/eurd-win-specify-properties.png)
 
 
 - **Create a new Style**
 
-    Press the caption button on the toolbar's Styles group to invoke the Styles Editor.
+    Press the caption button in the toolbar's Styles group to invoke the Styles Editor.
 
     ![eurd-win-styles-add-styles](../../../../images/eurd-win-styles-add-style.png)
 
-    Press the **Add a style** button and specify appearance properties for the newly created style. Close the Styles Editor.
+    Press the **Add a style** button and specify the new style's appearance properties. Close the Styles Editor.
 
-The created style is added to the Styles gallery. You can access this gallery in the following places:
+The created style is added to the Style gallery. You can access this gallery in the following places:
 
 - the Styles group in the report's [toolbar](..\report-designer-tools\toolbar.md);
 
@@ -49,17 +49,15 @@ This assigns the style to the report element's **Style** property.
 
 ## Assign Odd and Even Styles
 
-You can assign different styles to alternating rows in a report.
-
-![eurd-win-use-oddevenstyles](../../../../images/eurd-win-use-oddevenstyles.png)
-
-Use the **Odd Style** and **Even Style** properties to apply these styles to a report control.
+You can use the **Odd Style** and **Even Style** properties to apply different styles to alternating rows in a report.
 
 ![eurd-win-styleproperty-oddeven](../../../../images/eurd-win-styleproperty-oddeven.png)
 
+![eurd-win-use-oddevenstyles](../../../../images/eurd-win-use-oddevenstyles.png)
+
 ## Customize a Style
 
-Press the caption button on the toolbar's Styles group to invoke the Styles Editor.
+Press the caption button in the toolbar's Styles group to invoke the Styles Editor.
 
 ![eurd-win-customize-style](../../../../images/eurd-win-customize-style.png)
 
@@ -67,11 +65,11 @@ Select a style and modify its property values. All the report elements apply the
 
 ## Style Inheritance
 
-The style that you assign to a report element (e.g to a band) applies to the nested report elements. If the nested elements have a style, it overrides the parent style.
+Nested elements inherit their parent element's style if they do not have an applied style. 
 
 ## Override Styles
 
-If you assign a style to a report element, you can still modify a particular appearance property for this element individually. The appearance property's value overrides the corresponding property value in the report element's style.
+You can specify a different value for a report element's appearance property to override the corresponding property value in the report element's style.
 
 > [!NOTE]
 > If you apply [conditional formatting](..\shape-report-data\shape-data-expression-bindings\conditionally-change-a-control-appearance.md), its appearance property values have a higher priority than both the individually specified properties and the style's properties.
@@ -80,7 +78,7 @@ If you assign a style to a report element, you can still modify a particular app
 
 You can add a style to the [Report Gallery](..\report-designer-tools\ui-panels\report-gallery.md) and use it across different reports.
 
-In the [Report Explorer](..\report-designer-tools\ui-panels\report-explorer.md), right click a style and choose **Add to Gallery**.
+In the [Report Explorer](..\report-designer-tools\ui-panels\report-explorer.md), right-click a style and choose **Add to Gallery**.
 
 ![eurd-win-add-style-to-gallery](../../../../images/eurd-win-add-style-to-gallery.png)
 
