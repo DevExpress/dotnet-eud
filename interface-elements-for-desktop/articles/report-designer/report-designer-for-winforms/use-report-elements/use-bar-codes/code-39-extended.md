@@ -8,7 +8,7 @@ Using **Code 39**'s "Full ASCII Mode", it is possible to encode all **128** ASCI
 
 ![](../../../../../images/eurd-win-bar-code-code-39-extended.png)
 
-The following properties are specific to the **Code 39 Extended** type and listed in the [Property Grid](../../report-designer-tools/ui-panels/property-grid) under the **Symbology** property:
+The following properties are specific to the **Code 39 Extended** type and listed in the [Property Grid](../../report-designer-tools/ui-panels/property-grid.md) under the **Symbology** property:
 
 * **Calculate a Checksum**
 

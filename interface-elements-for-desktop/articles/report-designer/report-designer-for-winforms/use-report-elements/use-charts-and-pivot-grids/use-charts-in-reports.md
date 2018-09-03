@@ -18,7 +18,7 @@ The **Chart** control can display multiple series.
 |---|---|
 | ![](../../../../../images/eurd-win-chart-bar-and-point-series.png) | ![](../../../../../images/eurd-win-chart-nested-doghnut-series.png)|
 
-The **Chart** control contains various visual elements (diagrams, series, legends, primary and secondary axes, titles and labels, etc.). You can select these elements in the **Report Designer** and customize their settings in the [Property Grid](../../report-designer-tools/ui-panels/property-grid).
+The **Chart** control contains various visual elements (diagrams, series, legends, primary and secondary axes, titles and labels, etc.). You can select these elements in the **Report Designer** and customize their settings in the [Property Grid](../../report-designer-tools/ui-panels/property-grid.md).
 
 The Report Designer provides the Chart Designer that allows you to create and customize charts.
 

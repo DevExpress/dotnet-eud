@@ -10,7 +10,7 @@ This bar code is capable of encoding package tracking information required for m
 
 ![](../../../../../images/eurd-win-bar-code-intelligent-mail-package.png)
 
-The following property is specific to the **Intelligent Mail Package** type and available in the [Property Grid](../../report-designer-tools/ui-panels/property-grid) under the **Symbology** property:
+The following property is specific to the **Intelligent Mail Package** type and available in the [Property Grid](../../report-designer-tools/ui-panels/property-grid.md) under the **Symbology** property:
 
 * **FNC1 Functional Character**
 	

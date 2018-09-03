@@ -8,7 +8,7 @@ The **Codabar** is a discrete, self-checking symbology that may encode **16** di
 
 ![](../../../../../images/eurd-win-bar-code-codabar.png)
 
-The following properties are specific to the **Codabar** type and listed in the [Property Grid](../../report-designer-tools/ui-panels/property-grid) under the **Symbology** property:
+The following properties are specific to the **Codabar** type and listed in the [Property Grid](../../report-designer-tools/ui-panels/property-grid.md) under the **Symbology** property:
 
 * **Start and Stop Symbols**
 	

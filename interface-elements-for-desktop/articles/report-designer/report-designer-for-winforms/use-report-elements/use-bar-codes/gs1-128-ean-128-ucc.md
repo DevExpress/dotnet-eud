@@ -10,7 +10,7 @@ While other bar codes simply encode data with no respect for what the data repre
 
 ![](../../../../../images/eurd-win-bar-code-gs1-128-ean-128.png)
 
-The following properties are specific to the **GS1-128** (**EAN-128**) type and available in the [Property Grid](../../report-designer-tools/ui-panels/property-grid) under the **Symbology** property:
+The following properties are specific to the **GS1-128** (**EAN-128**) type and available in the [Property Grid](../../report-designer-tools/ui-panels/property-grid.md) under the **Symbology** property:
 
 * **Character Set**
 	

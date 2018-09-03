@@ -10,7 +10,7 @@ author: Anna Gubareva
 
 ![](../../../../../images/eurd-win-bar-code-code-93.png)
 
-The following property is specific to the **Code 93** type and available in the [Property Grid](../../report-designer-tools/ui-panels/property-grid) under the **Symbology** property:
+The following property is specific to the **Code 93** type and available in the [Property Grid](../../report-designer-tools/ui-panels/property-grid.md) under the **Symbology** property:
 
 * **Calculate a Checksum**
 
