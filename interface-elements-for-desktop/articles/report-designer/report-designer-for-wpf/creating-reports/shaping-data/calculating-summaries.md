@@ -7,7 +7,7 @@ legacyId: 116283
 With the Report Designer, you can force a [data-bound control](../providing-data/binding-report-controls-to-data.md) to calculate one of the standard summary functions (**Average**, **Sum**, **Count**, **Max**, **Min**, etc.).
 
 To calculate summaries (totals) within a report, follow the instructions below.
-1. [Create a new report](../basic-operations/create-a-new-report.md) and [bind it to a data source](../../../report-designer-for-winforms/create-reports/binding-a-report-to-data.md). This tutorial starts with the following report layout.
+1. [Create a new report](../basic-operations/create-a-new-report.md) and [bind it to a data source](../providing-data/binding-report-controls-to-data.md). This tutorial starts with the following report layout.
 	
 	![EUD_WpfReportDersigner_Summaries_1](../../../../../images/img123593.png)
 2. To display a summary at the bottom of the report, add the [Report Footer](../../report-elements/report-bands.md) band. To do this, right-click the report's area and in the invoked context menu, select **Insert Band**, and then **Report Footer**.
