@@ -16,7 +16,7 @@ This document consists of the following sections.
 <a name="binding"/>
 
 ## Creating Bound Report Elements
-After [binding a report to data](../../report-designer-for-winforms/create-reports/binding-a-report-to-data.md), the Field List shows the structure of the report's data source assigned to the **Data Source** property. Then, the Field List can be used to add new bound controls.
+After [binding a report to data](../creating-reports/providing-data/binding-a-report-to-data.md), the Field List shows the structure of the report's data source assigned to the **Data Source** property. Then, the Field List can be used to add new bound controls.
 
 To add a new bound report element, click a desired field item in the Field List, and then drag-and-drop it onto the report band. This creates an appropriate control bound to the selected data field.
 
