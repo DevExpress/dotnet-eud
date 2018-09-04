@@ -62,6 +62,6 @@ The next step is to visualize data displayed in the Pivot Grid using a Chart con
 	
 	![chart-designer-auto-created-series-labels-visibility](../../../../images/img126217.png)
 6. If required, you can customize various settings that determine the common behavior for a bridged Chart and Pivot Grid pair. To do this, use the Chart's **Pivot Grid Data Source Options** property. This property, in turn, is linked to the **Options Chart Data Source** property of the associated Pivot Grid.
-7. Finally, reset the report's **Vertical Content Splitting** option and switch to the [Preview Tab](../../report-designer-for-winforms/report-designer-reference/report-designer-ui/preview-tab.md) to see the result.
+7. Finally, reset the report's **Vertical Content Splitting** option and switch to the [Preview Tab](../document-preview.md) to see the result.
 	
 	![EUD_WpfReportDesigner_PivotCharting_Result](../../../../images/img125324.png)
