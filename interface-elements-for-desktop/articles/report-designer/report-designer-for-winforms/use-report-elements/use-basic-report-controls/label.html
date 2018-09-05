@@ -1,0 +1,212 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Label | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Label | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.37.0.0">
+    
+    <link rel="shortcut icon" href="../../../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../../../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../../../index.html">
+                <img id="logo" class="svg" src="../../../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="label">Label</h1>
+
+<h2 id="label-overview">Label Overview</h2>
+<p>The <strong>Label</strong> control displays plain text in a report. You can add this control by dragging the <strong>Label</strong> item from the <a href="../../report-designer-tools/toolbox.html">Toolbox</a> onto the report&#39;s area.</p>
+<p><img src="../../../../../images/eurd-win-drop-report-control-from-toolbox.png" alt=""></p>
+<p>You can double-click the label to invoke its in-place editor and enter the desired static text.</p>
+<p><img src="../../../../../images/eurd-win-label-static-text.png" alt=""></p>
+<p>Press CTRL+Enter to submit text changes and exit the label&#39;s in-place editing mode.</p>
+<h2 id="bind-to-data">Bind to Data</h2>
+<h3 id="display-field-values">Display Field Values</h3>
+<p>You can <a href="../../bind-to-data/bind-controls-to-data-expression-bindings.html">bind</a> the label&#39;s <strong>Text</strong> property to a data field obtained from a report&#39;s data source. Click the control&#39;s smart tag, expand the <strong>Expression</strong> drop-down list and select the required data field.</p>
+<p><img src="../../../../../images/eurd-win-label-bind-to-data-field.png" alt=""></p>
+<p>Clicking the <strong>Expression</strong> option&#39;s ellipsis button invokes the <strong>Expression Editor</strong>. You can use this editor to construct a complex binding expression involving two or more data fields.</p>
+<p><img src="../../../../../images/eurd-win-label-expression-binding.png" alt=""></p>
+<p>You can also drag and drop a numeric or text field from the <a href="../../report-designer-tools/ui-panels/field-list.html">Field List</a> to create a new label bound to this field.</p>
+<p><img src="../../../../../images/eurd-win-label-drag-field-from-field-list.png" alt=""></p>
+<p>See the <a href="../../bind-to-data/bind-controls-to-data-expression-bindings.html">Bind Controls to Data</a> topic to learn more about creating data-aware controls.</p>
+<p>The <strong>Process Duplicates Mode</strong>, <strong>Process Duplicates Target</strong> and <strong>Process Null Values</strong> options enable you to hide a control when a duplicated or null value appears in an assigned data source.</p>
+<p><img src="../../../../../images/eurd-win-label-process-duplicates-mode.png" alt=""></p>
+<p>You can also specify output values&#39; <a href="../../shape-report-data/shape-data-expression-bindings/format-data.html">format</a> using the <strong>Format String</strong> property.</p>
+<p><img src="../../../../../images/eurd-win-label-format-string.png" alt=""></p>
+<h3 id="display-summaries">Display Summaries</h3>
+<p>You can make the label display a <a href="../../shape-report-data/shape-data-expression-bindings/calculate-a-summary.html">summary function&#39;s result</a> by setting the <strong>Summary Running</strong> property to the required range and selecting the summary function in the <strong>Summary Expression Editor</strong>.</p>
+<p><img src="../../../../../images/eurd-win-label-summary-function.png" alt=""></p>
+<h2 id="adjust-the-label-size-and-content">Adjust the Label Size and Content</h2>
+<h3 id="static-content">Static Content</h3>
+<p>You can change a label&#39;s size to fit its static text using the <strong>Fit Bounds To Text</strong> button in the <a href="../../report-designer-tools/toolbar.html">Toolbar</a>&#39;s <strong>Text Tools</strong> contextual tab:</p>
+<ul>
+<li><p>If the <strong>Word Wrap</strong> option is enabled, the command displays control content in multiple lines. It decreases the control&#39;s height and adjusts the width to fit this content.</p>
+<p>  <img src="../../../../../images/eurd-win-label-fit-bounds-to-text-word-wrap-enabled.png" alt=""></p>
+</li>
+<li><p>If the <strong>Word Wrap</strong> option is disabled and the control&#39;s content is partially visible, the command adjusts the control&#39;s size to display this content.</p>
+<p>  <img src="../../../../../images/eurd-win-label-fit-bounds-to-text-word-wrap-disabled.png" alt=""></p>
+</li>
+</ul>
+<p>This command&#39;s result also depends on the control&#39;s <strong>Text Alignment</strong> and <strong>Right To Left</strong> settings.</p>
+<p>Use the <strong>Fit Text To Bounds</strong> button to adjust the control&#39;s font size to fit its area. The <strong>Word Wrap</strong> option defines whether the resulting text can occupy multiple lines or should be in a single line.</p>
+<p><img src="../../../../../images/eurd-win-label-fit-text-to-bounds.png" alt=""></p>
+<p>These commands are not available in the following cases:</p>
+<ul>
+<li>A label&#39;s text is an empty string;</li>
+<li>A label&#39;s text is bound to data;</li>
+<li>A label&#39;s <strong>Angle</strong> property is specified.</li>
+</ul>
+<h3 id="data-bound-labels">Data-Bound Labels</h3>
+<p>The <strong>Can Grow</strong> and <strong>Can Shrink</strong> properties allow you to increase or decrease the control&#39;s height according to its content in Print Preview.</p>
+<table>
+<thead>
+<tr>
+<th>Can Grow is enabled</th>
+<th>Can Grow is disabled</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="../../../../../images/eurd-win-label-can-grow-true.png" alt=""></td>
+<td><img src="../../../../../images/eurd-win-label-can-grow-false.png" alt=""></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Can Shrink is enabled</th>
+<th>CanShrink is disabled</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="../../../../../images/eurd-win-label-can-shrink-true.png" alt=""></td>
+<td><img src="../../../../../images/eurd-win-label-can-shrink-false.png" alt=""></td>
+</tr>
+</tbody>
+</table>
+<p>The <strong>Auto Width</strong> property specifies whether to adjust a data-bound label&#39;s width to its content automatically.</p>
+<p>You can also use the opposite <strong>Text Fit Mode</strong> property to adjust a control&#39;s font size to fit its boundaries in Print Preview. This property is not available if the <strong>Can Grow</strong>, <strong>Can Shrink</strong> or <strong>Auto Width</strong> option is enabled.</p>
+<p><img src="../../../../../images/eurd-win-label-text-fit-mode-property.png" alt=""></p>
+<table>
+<thead>
+<tr>
+<th>Text Fit Mode = None</th>
+<th>Text Fit Mode = Grow Only</th>
+<th>Text Fit Mode = Shrink Only</th>
+<th>Text Fit Mode = Shrink And Grow</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="../../../../../images/eurd-win-label-text-fit-mode-none.png" alt=""></td>
+<td><img src="../../../../../images/eurd-win-label-text-fit-mode-grow-only.png" alt=""></td>
+<td><img src="../../../../../images/eurd-win-label-text-fit-mode-shrink-only.png" alt=""></td>
+<td><img src="../../../../../images/eurd-win-label-text-fit-mode-shrink-and-grow.png" alt=""></td>
+</tr>
+</tbody>
+</table>
+<p>See the <a href="../../lay-out-dynamic-report-content.html">Lay out Dynamic Report Content</a> topic for more information on these options.</p>
+<h2 id="interactivity">Interactivity</h2>
+<p>You can enable <a href="../../provide-interactivity/edit-content-in-print-preview.html">editing a label&#39;s content</a> in Print Preview by setting the <strong>Enabled</strong> option in the <strong>Edit Options</strong> category to <strong>Yes</strong>.</p>
+<p><img src="../../../../../images/eurd-win-label-edit-options-enabled.png" alt=""></p>
+<p>Clicking this label in a previewed document invokes the appropriate editor.</p>
+<p><img src="../../../../../images/eurd-win-label-content-editing-in-print-preview.png" alt=""></p>
+<p>Use the label&#39;s <strong>Interactive Sorting</strong> option to enable sorting report data by clicking this label in Print Preview. Set the <strong>Target Band</strong> property to the required Group Header or Detail band, and the <strong>Field Name</strong> property to the corresponding data field.</p>
+<p><img src="../../../../../images/eurd-win-label-interactive-sorting-options.png" alt=""></p>
+<p>Refer to <a href="../../provide-interactivity/sort-a-report-in-print-preview.html">Sort a Report in Print Preview</a> for a step-by-step tutorial.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/MarySammal/dotnet-eud/blob/TOC/interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/use-report-elements/use-basic-report-controls/label.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2018 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../../../styles/main.js"></script>
+  </body>
+</html>

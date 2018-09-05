@@ -1,0 +1,145 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Field List | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Field List | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.37.0.0">
+    
+    <link rel="shortcut icon" href="../../../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../../../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../../../index.html">
+                <img id="logo" class="svg" src="../../../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="4259">
+<h1 id="field-list">Field List</h1>
+
+<p>This panel displays the schema of a report&#39;s data sources. You can right-click a data source item to access its settings. For example, you can add a data source to the <a href="report-gallery.html">Report Gallery</a> to later re-use it in other reports.</p>
+<p><img src="../../../../../images/eurd-win-field-list-data-source-add-to-gallery.png" alt="design-time-field-list-data-source-add-to-gallery"></p>
+<p>The Field List enables you to perform the following actions.</p>
+<h2 id="bind-controls-to-data">Bind controls to data</h2>
+<p>Dropping a field onto a report&#39;s surface creates a new report control bound to a corresponding field.</p>
+<p><img src="../../../../../images/eurd-win-field-list-drop-fields.png" alt="eurd-win-field-list-drop-fields"></p>
+<p>Dropping a field onto an existing control binds this control to a corresponding field.</p>
+<p><img src="../../../../../images/eurd-win-field-list-drop-field-to-control.png" alt="eurd-win-field-list-drop-field-to-control"></p>
+<p>You can preserve data bindings of an existing control by holding down the CTRL key when dropping a data field on this control. This creates a new report control on top of the existing control.</p>
+<p><img src="../../../../../images/eurd-win-field-list-avoid-data-binding.png" alt="eurd-win-field-list-avoid-data-binding"></p>
+<h2 id="create-specific-controls">Create specific controls</h2>
+<p>To create a data-bound control of a specific type, do any of the following:</p>
+<ul>
+<li>Hold down the SHIFT key and drop a data field onto a report&#39;s surface.</li>
+<li>Right-click a corresponding data field and drop it onto a report&#39;s surface.</li>
+</ul>
+<p>This invokes a context menu enabling you to select which control to create.</p>
+<p><img src="../../../../../images/eurd-win-fieldlist-create-specific-contols.png" alt="eurd-win-fieldlist-create-specific-contols"></p>
+<h2 id="create-tables">Create tables</h2>
+<p>Dropping an entire data table onto a report creates a table with its columns bound to fields contained in the data table.</p>
+<p><img src="../../../../../images/eurd-win-field-list-drop-table.png" alt="eurd-win-field-list-drop-table"></p>
+<p>To select multiple fields, click them with holding the CTRL or SHIFT key. Dropping these fields onto a report creates a new table with its cells bound to the corresponding fields.</p>
+<p><img src="../../../../../images/eurd-win-list-drop-multiple-fields.png" alt="design-time-field-list-drop-multiple-fields"></p>
+<p>To create column headers, right-click the required fields with holding the CTRL or SHIFT key and drop them onto a report surface. This creates a new table with its cells displaying the field names.</p>
+<p><img src="../../../../../images/eurd-win-field-list-multi-select-bound-table-cells.png" alt="eurd-win-field-list-multi-select-bound-table-cells"></p>
+<h2 id="data-shaping-operations">Data shaping operations</h2>
+<p>In addition, the Field List can help you solve the following tasks:</p>
+<ul>
+<li><p>Add <a href="../../shape-report-data/use-calculated-fields/calculated-fields-overview.html">calculated fields</a> to data columns for performing various calculations in a report.</p>
+<p>  <img src="../../../../../images/eurd-win-field-list-add-calculated-field.png" alt="design-time-field-list-add-calculated-field"></p>
+</li>
+<li><p>Manage the collection of <a href="../../shape-report-data/use-report-parameters.html">report parameters</a>.</p>
+<p>  <img src="../../../../../images/eurd-winield-list-add-report-parameter.png" alt="design-time-field-list-add-report-parameter"></p>
+</li>
+</ul>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/MarySammal/dotnet-eud/blob/master/interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-tools/ui-panels/field-list.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2018 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../../../styles/main.js"></script>
+  </body>
+</html>

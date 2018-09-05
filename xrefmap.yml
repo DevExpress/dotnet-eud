@@ -1,3 +1,9 @@
 ### YamlMime:XRefMap
 sorted: true
-references: []
+references:
+- uid: "114802"
+  name: Toolbar
+  href: interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-tools/toolbar.html
+- uid: "4259"
+  name: Field List
+  href: interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-tools/ui-panels/field-list.html

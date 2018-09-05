@@ -1,0 +1,162 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Report Gallery | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Report Gallery | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.37.0.0">
+    
+    <link rel="shortcut icon" href="../../../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../../../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../../../index.html">
+                <img id="logo" class="svg" src="../../../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="report-gallery">Report Gallery</h1>
+
+<p>The <strong>Report Gallery</strong> allows you to store common report controls, styles, data sources and full report layouts, and re-use them in different reports.</p>
+<p><img src="../../../../../images/eurd-win-report-gallery.png" alt="report-gallery"></p>
+<p>Do not confuse the Report Gallery with the <a href="report-explorer.html">Report Explorer</a>, which has a similar user interface, but provides a different functionality. The Report Gallery enables you to create frequently used templates and apply them afterward to other reports. The Report Explorer reflects the current report structure and displays components and styles available in the report.</p>
+<h2 id="reportcontrols">Manage Report Controls</h2>
+<p>You can combine <a href="../../use-report-elements.html">report controls</a> residing within the same <a href="../../introduction-to-banded-reports.html">band</a> into a template. To do this, select one or multiple controls while holding down the SHIFT or CTRL key. Right-click the selection and choose <strong>Add To Gallery</strong> in the context menu.</p>
+<p><img src="../../../../../images/eurd-win-report-gallery-add-controls.png" alt="report-gallery-add-controls"></p>
+<p>This adds a new template to the <strong>Controls</strong> section under the name containing control names separated by commas. If you need to change the template name, select <strong>Rename</strong> in the template&#39;s context menu and type a new name.</p>
+<p><img src="../../../../../images/eurd-win-report-gallery-controls-template-rename.png" alt="report-gallery-controls-template-rename"></p>
+<p>To apply a control template to a report, drag and drop the corresponding item from the Report Gallery onto a required band.</p>
+<p><img src="../../../../../images/eurd-win-report-gallery-apply-controls-template.png" alt="report-gallery-apply-controls-template"></p>
+<p>Note that the template stores various settings related to its controls, such as binding information, appearance options, etc. All these settings are restored after adding controls to a report.</p>
+<h2 id="styles">Manage Styles</h2>
+<p>To create a style template, right-click a required style in the Report Explorer and select <strong>Add To Gallery</strong>. This adds a related item to the <strong>Styles</strong> category.</p>
+<p><img src="../../../../../images/eurd-win-report-gallery-add-style-template.png" alt="report-gallery-add-style-template"></p>
+<p>You can then add a style to a report using one of the following ways:</p>
+<ul>
+<li><p>To add a style to the report&#39;s style sheet, right-click the corresponding item in the Report Gallery and select <strong>Add to Report Style Sheet</strong> in the context menu.</p>
+<p>  <img src="../../../../../images/eurd-win-report-gallery-style-add-to-report-style-sheet.png" alt="report-gallery-style-add-to-report-style-sheet"></p>
+<p>  You can also add all styles available in the Report Gallery using the context menu of the <strong>Styles</strong> node.</p>
+</li>
+<li><p>To apply a style to a required report control, drag and drop this style from the Report Gallery onto this control. This also adds the selected style to the report style sheet, if it does not already contain this style.</p>
+<p>  <img src="../../../../../images/eurd-win-report-gallery-style-apply-to-control.png" alt="report-gallery-style-apply-to-control"></p>
+</li>
+</ul>
+<h2 id="components">Manage Components</h2>
+<p>You can add a fully configured data source to a template and use it in other reports without creating the same data source from scratch.</p>
+<p>Right-click a required data source in the Report Explorer and select <strong>Add To Gallery</strong>. This creates a new template in the <strong>Components</strong> category of the Report Gallery.</p>
+<p><img src="../../../../../images/eurd-win-report-gallery-add-component-template.png" alt="report-gallery-add-component-template"></p>
+<p>To add a data source template to a report, do one of the following:</p>
+<ul>
+<li><p>Right-click the data source in the Report Gallery and select <strong>Add to Report Components</strong> in the context menu.</p>
+<p>  <img src="../../../../../images/eurd-win-report-gallery-apply-component-template.png" alt="report-gallery-apply-component-template"></p>
+</li>
+<li>Drag and drop the data source from the Report Gallery onto the report.</li>
+</ul>
+<h2 id="reports">Manage Report Layouts</h2>
+<p>The Report Gallery allows you store report layout templates in the <strong>Reports</strong> category.</p>
+<p>To create a new report layout, right-click a report and select <strong>Add To Gallery</strong> in the context menu.</p>
+<p>To apply a template to the current report, do one of the following:</p>
+<ul>
+<li><p>Right-click the template in the Report Gallery and select <strong>Apply Layout to Report</strong>.</p>
+<p>  <img src="../../../../../images/eurd-win-report-gallery-apply-report-layout.png" alt="report-gallery-apply-report-layout"></p>
+</li>
+<li>Drag-and-drop the template from the Report Gallery onto a report.</li>
+</ul>
+<p>The following dialog appears to warn you about overriding the current layout:</p>
+<p><img src="../../../../../images/eurd-win-report-gallery-apply-report-message.png" alt="report-gallery-apply-report-message"></p>
+<p>When loading the report layout, all associated styles, formatting rules, and components are added to the report as well.</p>
+<h2 id="loadsavegallery">Load and Save the Report Gallery</h2>
+<p>You can load templates from a separate file containing gallery items in a special format. For this, right-click an empty space in the Report Gallery and select <strong>Load Gallery</strong>. In the invoked <strong>Open</strong> dialog, locate the required file and click <strong>OK</strong>.</p>
+<p><img src="../../../../../images/eurd-win-report-gallery-load-save-gallery.png" alt="report-gallery-load-save-gallery"></p>
+<p>To save the Report Gallery templates to an XML file, select <strong>Save Gallery As</strong> in the Gallery&#39;s context menu and specify a target file in the <strong>Save</strong> dialog.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/MarySammal/dotnet-eud/blob/TOC/interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-tools/ui-panels/report-gallery.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2018 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../../../styles/main.js"></script>
+  </body>
+</html>

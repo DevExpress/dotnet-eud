@@ -1,0 +1,137 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Enable the Right-To-Left Layout | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Enable the Right-To-Left Layout | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.37.0.0">
+    
+    <link rel="shortcut icon" href="../../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../../index.html">
+                <img id="logo" class="svg" src="../../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="enable-the-right-to-left-layout">Enable the Right-To-Left Layout</h1>
+
+<p>The report and most of the report controls provide the <strong>Right To Left</strong> property. </p>
+<p><img src="../../../../images/eurd-win-right-to-left-property.png" alt=""></p>
+<p>This property specifies content layout within a control (for most controls, this property affects the direction of their text, and for the <a href="../use-report-elements/use-basic-report-controls/check-box.html">Check Box</a>, this property also affects the check box position within the control).</p>
+<ul>
+<li><p><strong>Left-To-Right</strong></p>
+<p>  <img src="../../../../images/eurd-win-right-to-left-no.png" alt=""></p>
+</li>
+<li><p><strong>Right-To-Left</strong></p>
+<p>  <img src="../../../../images/eurd-win-right-to-left-yes.png" alt=""></p>
+</li>
+</ul>
+<p>By default, all report controls have this property set to <strong>Inherit</strong>, so enabling it for a report will apply this setting to all its controls.</p>
+<p>The following controls support this feature:</p>
+<ul>
+<li><a href="../use-report-elements/use-basic-report-controls/label.html">Label</a></li>
+<li><a href="../use-report-elements/use-basic-report-controls/check-box.html">Check Box</a></li>
+<li><a href="../use-report-elements/use-basic-report-controls/page-info.html">Page Info</a></li>
+<li><a href="../use-report-elements/use-basic-report-controls/panel.html">Panel</a></li>
+<li><a href="../use-report-elements/use-charts-and-pivot-grids.html">Pivot Grid</a></li>
+<li><a href="../use-report-elements/use-tables.html">Table</a></li>
+<li><a href="../use-report-elements/use-basic-report-controls/table-of-contents.html">Table of Contents</a></li>
+</ul>
+<p>For the <strong>Panel</strong> and <strong>Table</strong>, this option only affects the controls contained in them.</p>
+<p>When the <strong>Right To Left</strong> property of a report is set to <strong>Yes</strong>, you can also enable the <strong>Right To Left Layout</strong> property that specifies the position of controls within <a href="../introduction-to-banded-reports.html">report bands</a>. Enabling the right-to-left layout will also swap the page margins of a document (it will become impossible to place controls outside the right page margin).</p>
+<p><img src="../../../../images/eurd-win-right-to-left-layout.png" alt=""></p>
+<p>The controls&#39; coordinates will remain unchanged and only the point and direction of reference will change (the X coordinate will be calculated starting with the top right corner).</p>
+<p>The right-to-left layout is preserved when exporting a report to any of the <a href="../preview-print-and-export-reports.html">supported formats</a> (e.g., PDF, Excel, or RTF).</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/MarySammal/dotnet-eud/blob/master/interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/configure-design-settings/enable-the-right-to-left-layout.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2018 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../../styles/main.js"></script>
+  </body>
+</html>
