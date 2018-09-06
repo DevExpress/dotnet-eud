@@ -16,7 +16,7 @@ A report layout consists of bands that contain report controls and define their 
 
 - The top and bottom page **Margin bands**. These bands are repeated once on every document page.
 
-![eurd-win-report-bands-design-time-default-layout](../../../images/eurd-win-report-bands-design-time-default-layout.png)
+![](../../images/eurd-web-report-bands.png)
 
 You can also add the following bands:
 
@@ -39,25 +39,25 @@ You can also add the following bands:
 
 The following image illustrates a sample report layout and the [Report Explorer](report-designer-tools\ui-panels\report-explorer.md) panel that reflects the report's structure:
 
-![eurd-win-report-bands-basic-layout](../../../images/eurd-win-report-bands-basic-layout.png)
+![](../../images/eurd-web-report-bands-basic-layout.png)
 
 ## Add a Detail Band to a Master-Detail Band
 
 Use the **detail report band** to create hierarchical [master-detail reports](create-popular-reports/create-a-master-detail-report-use-detail-report-bands.md). Detail report bands provide detailed information about each record in the master report's detail band. You can create such reports when master-detail relationships are defined between data source tables:
 
-![eurd-win-master-detail-relation-editor-report-designer](../../../images/eurd-win-master-detail-relation-editor-report-designer.png)
+![](../../images/eurd-web-report-bands-master-detail-relation.png)
 
 A detail report band is a separate report (subreport) with its own data source and different bands. A report can have any number of detail reports that can also be nested.
 
 The following image illustrates a master-detail report and the [Report Explorer](report-designer-tools\ui-panels\report-explorer.md) panel that reflects the report's structure:
 
-![eurd-win-report-bands-basic-layout-subreports](../../../images/eurd-win-report-bands-basic-layout-subreports.png)
+![](../../images/eurd-web-report-bands-subreports.png)
 
 ## Create Band Copies
 
 You can create functional copies of a band, for example, to display different contents based on a specific condition. To do this, add **sub-bands** to bands.
 
-![eurd-win-report-bands-basic-layout-sub-bands](../../../images/eurd-win-report-bands-basic-layout-sub-bands.png)
+![](../../images/eurd-web-report-bands-basic-layout-sub-bands.png)
 
 > [!TIP]
 > See [Laying out Dynamic Report Contents](shape-report-data\lay-out-dynamic-report-content.md) for details on how to specify the location of bands' content on document pages.
@@ -67,14 +67,14 @@ You can create functional copies of a band, for example, to display different co
 
 Select a band and click on the band's tab title to collapse or expand the band.
 
-![eurd-win-report-bands-collapsing](../../../images/eurd-win-report-bands-collapsing.png)
+![](../../images/eurd-web-report-bands-collapsing.png)
 
 ### Hide Bands in the Report Document
 
 
-You can avoid printing a band's content in a document. To do this, set the band's **Visible** property to **false**. Select the band and set these properties in the [Properties Panel](report-designer-tools/ui-panels/properties-panel.md).
+You can avoid printing a band's content in a document. To do this, set the band's **Visible** property to **false**. Select the band and set this property in the [Properties Panel](report-designer-tools/ui-panels/properties-panel.md).
 
-![eurd-win-band-properties-in-property-grid](../../../images/eurd-win-band-properties-in-property-grid.png)
+![](../../images/eurd-web-report-bands-hiding.png)
 
 ### Remove Bands
 
@@ -84,8 +84,8 @@ Select a band on the report design surface and press DELETE. This removes the ba
 
 To add a band, select the report or any of its bands in the **Properties** panel and click an appropriate item in the **Actions** category.
 
-![eurd-win-report-bands-context-menu](../../../images/eurd-win-report-bands-context-menu.png)
+![](../../images/eurd-web-report-bands-add-bands.png)
 
 You can insert a detail report band if the report's data source has [master-detail relations](create-popular-reports/create-a-master-detail-report-use-detail-report-bands.md). Click **Insert Detail Report** in the **Actions** category.
 
-![eurd-win-add-band-relationship](../../../images/eurd-win-add-band-relationship.png)
+![](../../images/eurd-web-report-bands-add-detail-band.png)
