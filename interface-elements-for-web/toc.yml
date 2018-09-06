@@ -497,6 +497,15 @@
   href: articles/rating.md
 - name: Report Designer
   href: articles/report-designer.md
+  items:
+  - name: Add New Reports
+    href: articles/report-designer/add-new-reports.md
+  - name: Open Reports
+    href: articles/report-designer/open-reports.md
+  - name: Save Reports
+    href: articles/report-designer/save-reports.md
+  - name: Introduction to Banded Reports
+    href: articles/report-designer/introduction-to-banded-reports.md
 - name: Ribbon
   href: articles/ribbon.md
   items:
