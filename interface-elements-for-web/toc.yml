@@ -498,6 +498,8 @@
 - name: Report Designer
   href: articles/report-designer.md
   items:
+  - name: First Look at the Report Designer
+    href: articles/report-designer/first-look-at-the-report-designer.md
   - name: Add New Reports
     href: articles/report-designer/add-new-reports.md
   - name: Open Reports
