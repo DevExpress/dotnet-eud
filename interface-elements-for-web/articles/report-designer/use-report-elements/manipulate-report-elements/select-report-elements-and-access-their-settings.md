@@ -17,7 +17,7 @@ You can use the [Properties panel](../../report-designer-tools/ui-panels/propert
 
 ![](../../../../images/eurd-web-label-appearance.png)
 
-The **Actions** category contains the most commonly used element properties, as well as alignment and positioning commands.
+The **Actions** category contains the most commonly used element properties as well as alignment and positioning commands.
 
 ![](../../../../images/eurd-web-actions-category.png)
 
