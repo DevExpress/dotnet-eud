@@ -4,7 +4,7 @@ author: Anna Vekhina
 ---
 # Copy Report Controls
 
-You can use [Main Toolbar](../../report-designer-tools/toolbar.md)'s commands or keyboard shortcuts to clone an existing report control. A cloned control has the same settings as the initial control.
+You can use the [Main Toolbar](../../report-designer-tools/toolbar.md)'s commands or keyboard shortcuts to clone an existing report control. A cloned control has the same settings as the initial control.
 
 [Select report controls](select-report-elements-and-access-their-settings.md) and click the **Copy** button or press CTRL + C to copy report controls to the clipboard.
 
