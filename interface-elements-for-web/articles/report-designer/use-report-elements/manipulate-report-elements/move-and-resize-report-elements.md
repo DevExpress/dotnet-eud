@@ -12,7 +12,7 @@ You can also [select multiple controls](select-report-elements-and-access-their-
 
 ![](../../../../images/eurd-web-move-multiple-report-controls.png)
 
-To resize a control, select it and then drag a rectangle drawn on its edge or corner.
+Select a control and then drag a rectangle drawn on its edge or corner to resize it.
 
 ![](../../../../images/img119279.png)
 
