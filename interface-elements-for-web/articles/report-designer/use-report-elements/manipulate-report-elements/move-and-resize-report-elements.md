@@ -16,7 +16,7 @@ Select a control and then drag a rectangle drawn on its edge or corner to resize
 
 ![](../../../../images/img119279.png)
 
-Select a control and click the **Size to Grid** button to resize a control to the report's **Snap Grid**.
+You can use the **Size to Grid** button to resize a control to the report's **Snap Grid**.
 
 ![](../../../../images/eurd-web-size-to-grid.png)
 
