@@ -18,7 +18,7 @@ Use the **Expression Editor** to construct a complex binding expression with two
 
 ![](../../../../images/eurd-web-table-cell-expression.png)
 
-See the [Bind Report Controls to Data](../../bind-to-data/bind-controls-to-data-expression-bindings.md) topic to learn more about how to create data-aware controls.
+See the [Bind Report Controls to Data](../../bind-to-data/bind-controls-to-data-expression-bindings.md) topic for information on how to create data-aware controls.
 
 The **Process Duplicates Mode** and **Process Duplicates Target** options enable you to merge cells with identical values.
 
