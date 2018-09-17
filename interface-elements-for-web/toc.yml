@@ -540,7 +540,70 @@
       - name: Manipulate Table Elements
         href: articles/report-designer/use-report-elements/use-tables/manipulate-table-elements.md
       - name: Hide Table Cells
-        href: articles/report-designer/use-report-elements/use-tables/hide-table-cells.md
+        href: articles/report-designer/use-report-elements/use-tables/hide-table-cells.m
+    - name: Use Bar Codes
+      href: articles/report-designer/use-report-elements/use-bar-codes.md
+      items:
+      - name: Add Bar Codes to a Report
+        href: articles/report-designer/use-report-elements/use-bar-codes/add-bar-codes-to-a-report.md
+      - name: Bar Code Recognition Specifics
+        href: articles/report-designer/use-report-elements/use-bar-codes/bar-code-recognition-specifics.md
+      - name: Codabar
+        href: articles/report-designer/use-report-elements/use-bar-codes/codabar.md
+      - name: Code 11 (USD-8)
+        href: articles/report-designer/use-report-elements/use-bar-codes/code-11-usd-8.md
+      - name: Code 128
+        href: articles/report-designer/use-report-elements/use-bar-codes/code-128.md
+      - name: Code 39 (USD-3)
+        href: articles/report-designer/use-report-elements/use-bar-codes/code-39-usd-3.md
+      - name: Code 39 Extended
+        href: articles/report-designer/use-report-elements/use-bar-codes/code-39-extended.md
+      - name: Code 93
+        href: articles/report-designer/use-report-elements/use-bar-codes/code-93.md
+      - name: Code 93 Extended
+        href: articles/report-designer/use-report-elements/use-bar-codes/code-93-extended.md
+      - name: EAN 13
+        href: articles/report-designer/use-report-elements/use-bar-codes/ean-13.md
+      - name: EAN 8
+        href: articles/report-designer/use-report-elements/use-bar-codes/ean-8.md
+      - name: ECC200 - Data Matrix
+        href: articles/report-designer/use-report-elements/use-bar-codes/ecc200-data-matrix.md
+      - name: GS1 - DataBar
+        href: articles/report-designer/use-report-elements/use-bar-codes/gs1-databar.md
+      - name: GS1- Data Matrix
+        href: articles/report-designer/use-report-elements/use-bar-codes/gs1-data-matrix.md
+      - name: GS1-128 - EAN-128 (UCC)
+        href: articles/report-designer/use-report-elements/use-bar-codes/gs1-128-ean-128-ucc.md
+      - name: Industrial 2 of 5
+        href: articles/report-designer/use-report-elements/use-bar-codes/industrial-2-of-5.md
+      - name: Intelligent Mail
+        href: articles/report-designer/use-report-elements/use-bar-codes/intelligent-mail.md
+      - name: Intelligent Mail Package
+        href: articles/report-designer/use-report-elements/use-bar-codes/intelligent-mail-package.md
+      - name: Interleaved 2 of 5
+        href: articles/report-designer/use-report-elements/use-bar-codes/interleaved-2-of-5.md
+      - name: Matrix 2 of 5
+        href: articles/report-designer/use-report-elements/use-bar-codes/matrix-2-of-5.md
+      - name: MSI - Plessey
+        href: articles/report-designer/use-report-elements/use-bar-codes/msi-plessey.md
+      - name: PDF417
+        href: articles/report-designer/use-report-elements/use-bar-codes/pdf417.md
+      - name: PostNet
+        href: articles/report-designer/use-report-elements/use-bar-codes/postnet.md
+      - name: QR Code
+        href: articles/report-designer/use-report-elements/use-bar-codes/qr-code.md
+      - name: UPC Shipping Container Symbol (ITF-14)
+        href: articles/report-designer/use-report-elements/use-bar-codes/upc-shipping-container-symbol-itf-14.md
+      - name: UPC Supplemental 2
+        href: articles/report-designer/use-report-elements/use-bar-codes/upc-supplemental-2.md
+      - name: UPC Supplemental 5
+        href: articles/report-designer/use-report-elements/use-bar-codes/upc-supplemental-5.md
+      - name: UPC-A
+        href: articles/report-designer/use-report-elements/use-bar-codes/upc-a.md
+      - name: UPC-E0
+        href: articles/report-designer/use-report-elements/use-bar-codes/upc-e0.md
+      - name: UPC-E1
+        href: articles/report-designer/use-report-elements/use-bar-codes/upc-e1.md
     - name: Use Gauges and Sparklines
       href: articles/report-designer/use-report-elements/use-gauges-and-sparklines.md
       items:
