@@ -528,6 +528,19 @@
         href: articles/report-designer/use-report-elements/manipulate-report-elements/add-report-controls-to-containers.md
       - name: Validate the Report Layout
         href: articles/report-designer/use-report-elements/manipulate-report-elements/validate-the-report-layout.md    
+    - name: Use Tables
+      href: articles/report-designer/use-report-elements/use-tables.md
+      items:
+      - name: Table Overview
+        href: articles/report-designer/use-report-elements/use-tables/table-overview.md
+      - name: Bind Table Cells to Data
+        href: articles/report-designer/use-report-elements/use-tables/bind-table-cells-to-data.md
+      - name: Manage Table Structure
+        href: articles/report-designer/use-report-elements/use-tables/manage-table-structure.md
+      - name: Manipulate Table Elements
+        href: articles/report-designer/use-report-elements/use-tables/manipulate-table-elements.md
+      - name: Hide Table Cells
+        href: articles/report-designer/use-report-elements/use-tables/hide-table-cells.md   
 - name: Ribbon
   href: articles/ribbon.md
   items:
