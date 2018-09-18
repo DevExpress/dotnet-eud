@@ -49,7 +49,7 @@ Follow the steps below to create a documentation website for your application.
 - Finally, deploy the created documentation to a web server or browse the documentation directly from local file system. Since DocFX creates static HTML files only, no additional deployment or configuration steps are required.
 
 ## Build Printer-Friendly PDF Files
-If your end-users require a printed version, you can create a PDF file:
+If your end users require a printed version, you can create a PDF file:
 - Ensure that you can successfully build a website with DocFX (see the [previous section](#build-your-own-documentation-website)).
 - Download and install [wkhtmltopdf](https://wkhtmltopdf.org/downloads.html).
 - Open a console window and add the **wkhtmltopdf** executable path to the %PATH% environment variable:
@@ -79,7 +79,7 @@ Below are the common issues you can face when building this repository's documen
     ```
     docfx.exe build docfx.json --template statictoc
     ```
-  The table of contents is embedded into each topic with this template which increases the build time and HTML file sizes. Alternatively, you can override the browser's restrictions (which may be insecure). For example, Google Chrome and Microsoft Edge accept the `--allow-file-access-from-files` command line switch which allows loading local files.
+  The table of contents is embedded into each topic with this template which increases the build time and HTML file sizes. Alternatively, you can override the browser's restrictions (which may be unsecure). For example, Google Chrome and Microsoft Edge accept the `--allow-file-access-from-files` command line switch which allows loading local files.
   
   > We recommend using the `--serve` DocFX switch to preview documentation, and then share it with end users via a web server instead of browsing the file system.
 
