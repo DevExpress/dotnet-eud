@@ -1,6 +1,6 @@
 # DevExpress End-User Documentation
 
-This **End-User Documentation** targets the application's end-users and explains how to use UI elements DevExpress implements. This information helps software developers create their own help files for projects that incorporate DevExpress technologies.
+This **End-User Documentation** targets the application's end users and explains how to use UI elements DevExpress implements. This information helps software developers create their own help files for projects that incorporate DevExpress technologies.
 
 > For **Developer Documentation with API Reference** see [https://documentation.devexpress.com](https://www.devexpress.com/Support/Documentation/).
 
