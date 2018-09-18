@@ -1,8 +1,9 @@
 # DevExpress End-User Documentation
 
-This **End-User Documentation** targets the application's end users and explains how to use UI elements DevExpress implements. This information helps software developers create their own help files for projects that incorporate DevExpress technologies.
+This article explains how to clone DevExpress End-User documentation sources and how to create your own documentation websites and help files for projects based on DevExpress technologies. It also provides links to a sample pre-built website and PDF files.
 
-> For **Developer Documentation with API Reference** see [https://documentation.devexpress.com](https://www.devexpress.com/Support/Documentation/).
+> * If you require End-User documentation for **v17.1 and earlier** you can download previous versions in CHM and PDF formats from at https://www.devexpress.com/Support/Documentation/download.xml?platform=user-dev-docs
+> * For **Developer Documentation with API Reference** see [https://documentation.devexpress.com](https://www.devexpress.com/Support/Documentation/).
 
 ## The Scope
 DevExpress products for WinForms, WPF and ASP.NET WebForms/MVC. 
@@ -10,15 +11,16 @@ DevExpress products for WinForms, WPF and ASP.NET WebForms/MVC.
 ## Licensing
 By accessing this repository, you agree to the terms of the [DevExpress End-User Documentation License Agreement](LICENSE.md).
 
-## Ways to Browse Content
-To browse this repository's content, start with [index.md](index.md).  
+## How to View Content
+Do one of the following to view the End-User Documentation content.
 
-We have also compiled this End-User Documentation into a sample website and PDF files. You can view the website at [devexpress.github.io/dotnet-eud](https://devexpress.github.io/dotnet-eud/), or download the following PDF files:
-
-* [dotnet-eud_interface-elements-for-web.pdf](https://devexpress.github.io/dotnet-eud/pdf/dotnet-eud_interface-elements-for-web.pdf)
-* [dotnet-eud_interface-elements-for-desktop.pdf](https://devexpress.github.io/dotnet-eud/pdf/dotnet-eud_interface-elements-for-desktop.pdf)
-* [dotnet-eud_dashboard-for-web.pdf](https://devexpress.github.io/dotnet-eud/pdf/dotnet-eud_dashboard-for-web.pdf)
-* [dotnet-eud_dashboard-for-desktop.pdf](https://devexpress.github.io/dotnet-eud/pdf/dotnet-eud_dashboard-for-desktop.pdf)
+1. Browse this repository's content directly. Start with [index.md](index.md).
+2. View the sample pre-built website at [devexpress.github.io/dotnet-eud](https://devexpress.github.io/dotnet-eud/).
+3. Download these PDF files:
+   * [dotnet-eud_interface-elements-for-web.pdf](https://devexpress.github.io/dotnet-eud/pdf/dotnet-eud_interface-elements-for-web.pdf)
+   * [dotnet-eud_interface-elements-for-desktop.pdf](https://devexpress.github.io/dotnet-eud/pdf/dotnet-eud_interface-elements-for-desktop.pdf)
+   * [dotnet-eud_dashboard-for-web.pdf](https://devexpress.github.io/dotnet-eud/pdf/dotnet-eud_dashboard-for-web.pdf)
+   * [dotnet-eud_dashboard-for-desktop.pdf](https://devexpress.github.io/dotnet-eud/pdf/dotnet-eud_dashboard-for-desktop.pdf)
 
 ## Document Format and Supported Output Types
 Documents in this repository are written in markdown. You can manually copy the information to your own help file.
@@ -36,12 +38,12 @@ Follow the steps below to create a documentation website for your application.
   If you do not have [Git](https://git-scm.com/) installed, use the GitHub web interface to select the branch and then download and extract the ZIP archive.
   
   ![Download ZIP](https://user-images.githubusercontent.com/20167812/29712204-4ffaee9e-89a1-11e7-8a0e-3ff0464adda4.png)
-- You can skip this step if you want to reuse the end-user documentation as is. Otherwise, make changes as required, which may include:
+- You can make the following changes to the documentation, or skip this step if you want to reuse the end-user documentation as is:
   - remove unnecessary files;
   - add new documents to your application;
   - change screenshots to match your app's UI;
   - create a [custom DocFX template](https://dotnet.github.io/docfx/tutorial/howto_create_custom_template.html).
-  > You should update *toc.yml* ([table-of-content](https://dotnet.github.io/docfx/tutorial/intro_toc.html)) files if you added or removed topics.
+  > You should update the *toc.yml* ([table-of-content](https://dotnet.github.io/docfx/tutorial/intro_toc.html)) files if you added or removed topics.
 - Open a console window, change the current directory to the repository root folder and call the DocFX executable with the *build* and *docfx.json* parameters. DocFX will place the generated documentation content into the *\_site* folder. Add the `--serve` switch to preview the generated website at http://localhost:8080 once the build process is complete. 
     ```
     docfx.exe build docfx.json --serve
@@ -84,6 +86,3 @@ Below are the common issues you can face when building this repository's documen
   > We recommend using the `--serve` DocFX switch to preview documentation, and then share it with end users via a web server instead of browsing the file system.
 
 If your issue is not listed, you can [submit a new issue to this repository](https://github.com/DevExpress/dotnet-eud/issues/new) or contact us via the [DevExpress Support Center](https://www.devexpress.com/Support/Center/). You can search the [DocFX issues list](https://github.com/dotnet/docfx/issues), or try building the [docfx\-seed](https://github.com/docascode/docfx-seed) sample documentation project to check if your issue is specific to this repository. 
-
-## Obtain End-User Documentation for Versions Before 17.1
-This repository provides help files for DevExpress versions 17.1 and above. End-user documentation for previous versions is published in CHM and PDF formats at https://www.devexpress.com/Support/Documentation/download.xml?platform=user-dev-docs.
