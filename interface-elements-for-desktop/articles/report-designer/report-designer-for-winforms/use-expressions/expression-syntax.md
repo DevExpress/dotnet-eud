@@ -352,9 +352,9 @@ Below is a list of functions that are used to construct [expression bindings](..
 <li>Join(parameter) - concatenates the specified parameter&#39;s values using comma as a separator.</li>
 <li>Join(parameter, separator) - concatenates the specified parameter&#39;s values using the specified separator.</li>
 </ul>
-</td><td><p>Join([Parameters.CategoriesParameter])</p>
+</td><td><p>Join(?CategoriesParameter)</p>
 <p>Result: <em>Beverages, Condiments</em></p>
-<p>Join([Parameters.CategoriesParameter], newline())</p>
+<p>Join(?CategoriesParameter, newline())</p>
 <p>Result: </p>
 <p><em>Beverages</em></p>
 <p><em>Condiments</em></p>
@@ -374,10 +374,10 @@ The following functions are specific for [binding reports to a stored procedure]
 <li>Join(parameter) - concatenates the specified parameter&#39;s values using comma as a separator.</li>
 <li>Join(parameter, separator) - concatenates the specified parameter&#39;s values using the specified separator.</li>
 </ul>
-</td><td><p>Join([Parameters.Parameter1])</p>
+</td><td><p>Join(?Parameter1)</p>
 </td></tr><tr><td><p>CreateTable(Column1, ..., ColumnN)</p>
 </td><td><p>Creates a table from several multi-value parameters&#39; values. This function can be used when mapping multi-value report parameters to the query parameter that is generated from a stored procedure&#39;s <a href="https://docs.microsoft.com/en-us/sql/relational-databases/tables/use-table-valued-parameters-database-engine">User Defined Table Type</a> parameter. Refer to the <a class="xref" href="..\shape-report-data\use-report-parameters\use-query-parameters.md">Query Parameters</a> topic for more information.</p>
-</td><td><p>CreateTable([Parameters.Parameter1], ..., [Parameters.ParameterN])</p>
+</td><td><p>CreateTable(?Parameter1, ..., ?ParameterN)</p>
 </td></tr></table>
 
 ## <a name="summary-expression-editor">Functions for Summary Expression Editor</a>
@@ -489,14 +489,14 @@ A report's elements are displayed in the Report Designer's Report Explorer. You 
 
 ## Report Parameters
 
-Use the following syntax conventions to utilize [report parameters](..\shape-report-data\use-report-parameters.md) in the [Expression Editor](..\use-expressions.md):
+Use the following syntax to insert [parameters](..\shape-report-data\use-report-parameters.md) into expressions:
 
-* Insert [report parameters](..\shape-report-data\use-report-parameters.md) using the "Parameters." prefix before their names.
+* Type a question mark before a parameter's name.  
 
-  _[Parameters.parameter1]_
-* When referencing [report parameters](..\shape-report-data\use-report-parameters.md) in the [Filter Editor](..\shape-report-data\filter-data\filter-data-at-the-report-level.md) and using [query parameters](..\shape-report-data\use-report-parameters\use-query-parameters.md) in data source queries, type a question mark before the parameters' names. 
+  *?parameter1*
+* (*Obsolete approach*) Use the "Parameters." prefix before a [report parameter](..\shape-report-data\use-report-parameters.md)'s name.  
 
-  _?parameter1_
+  *[Parameters.parameter1]*
 
 ## Collection Elements Verification
 Use brackets "[]" to check if a collection contains an element that satisfies a condition. The following expression returns _true_ if the Accounts collection contains at least one element that satisfies the _[Amount] == 100_ condition:

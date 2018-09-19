@@ -38,7 +38,7 @@ You can drag the calculated field from the **Field List** onto the required band
 You can also group and sort your report data based on the calculated field values.
 
 ## <a name="syntax"></a>Expression Syntax
-A data field is inserted into the expression's text using its name in **[**square brackets**]**, and parameters are inserted using the "**Parameters.**" prefix before their names.
+A data field is inserted into the expression's text using its name in **[**square brackets**]**, and parameters are inserted using a question mark before their names.
 
 A calculated field's expression can evaluate the values of other calculated fields if you make sure to avoid circular references.
 

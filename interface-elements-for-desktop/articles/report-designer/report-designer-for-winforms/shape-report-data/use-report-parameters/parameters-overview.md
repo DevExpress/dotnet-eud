@@ -63,10 +63,12 @@ You can use report parameters to solve the following tasks:
 	
 	![](../../../../../images/eurd-win-parameters-for-data-binding.png)
 	
-	When using [mail merge](../../bind-to-data/use-embedded-fields-mail-merge.md), you can refer to a parameter by adding the **Parameters.** prefix before its name.
+	When using [mail merge](../../bind-to-data/use-embedded-fields-mail-merge.md), you can refer to a parameter by adding a question mark before its name.
+
+	![](../../../../../images/eurd-win-mailmerge-parameters.png)
 
 * **Specify Expressions**
     
-    Parameters can be used as part of [expressions](../../use-expressions.md). To refer to a report parameter, use the **Parameters.** prefix before its name.
+    Parameters can be used as part of [expressions](../../use-expressions.md). To refer to a report parameter, use a question mark before its name.
 
     ![](../../../../../images/eurd-win-parameters-in-expression-editor.png)
