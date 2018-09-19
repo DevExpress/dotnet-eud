@@ -3,7 +3,7 @@
 This article explains how to clone DevExpress End-User documentation sources and how to create your own documentation websites and help files for projects based on DevExpress technologies. It also provides links to a sample pre-built website and PDF files.
 
 
-> If you require End-User documentation for **v17.1 and earlier** you can download previous versions in CHM and PDF formats from at https://www.devexpress.com/Support/Documentation/download.xml?platform=user-dev-docs.
+> If you require End-User documentation for **v17.1 and earlier**, you can download previous versions in CHM and PDF formats from https://www.devexpress.com/Support/Documentation/download.xml?platform=user-dev-docs.
 >
 > For **Developer Documentation with API Reference** see [https://documentation.devexpress.com](https://www.devexpress.com/Support/Documentation/).
 
@@ -14,7 +14,7 @@ DevExpress products for WinForms, WPF and ASP.NET WebForms/MVC.
 By accessing this repository, you agree to the terms of the [DevExpress End-User Documentation License Agreement](LICENSE.md).
 
 ## How to View Content
-Do one of the following to view the End-User Documentation content.
+Do one of the following to view the End-User Documentation content:
 
 1. Browse this repository's content directly. Start with [index.md](index.md).
 2. View the sample pre-built website at [devexpress.github.io/dotnet-eud](https://devexpress.github.io/dotnet-eud/).
