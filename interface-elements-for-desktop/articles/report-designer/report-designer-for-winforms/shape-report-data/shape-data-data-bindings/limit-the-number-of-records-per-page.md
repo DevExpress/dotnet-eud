@@ -39,7 +39,7 @@ After you [bound your report to data](../../bind-to-data.md) and provided conten
 	
 	For example:
 	
-	**([DataSource.CurrentRowIndex] % [Parameters.parameter1] == 0) And ([DataSource.CurrentRowIndex] !=0)**
+	**([DataSource.CurrentRowIndex] % ?parameter1 == 0) And ([DataSource.CurrentRowIndex] !=0)**
 
     Click **OK**, to save the changes and close the dialog. Then, click **Close** to quit the **Formatting Rule Sheet Editor**.
 

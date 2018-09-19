@@ -31,7 +31,7 @@ After you [bound your report to data](../../bind-to-data.md) and provided conten
 	
 	For example:
 	
-	**([DataSource.CurrentRowIndex] % [Parameters.parameter1] == 0) And ([DataSource.CurrentRowIndex] !=0)**
+	**([DataSource.CurrentRowIndex] % ?parameter1 == 0) And ([DataSource.CurrentRowIndex] !=0)**
 
 When switching to [Print Preview](../../preview-print-and-export-reports.md), you can specify how many rows each report page should display by entering the corresponding parameter value:
 
