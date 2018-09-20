@@ -624,6 +624,15 @@
         href: articles/report-designer/use-report-elements/use-gauges-and-sparklines/add-gauges-to-a-report.md
       - name: Add Sparklines to a Report
         href: articles/report-designer/use-report-elements/use-gauges-and-sparklines/add-sparklines-to-a-report.md
+    - name: Draw Lines and Shapes
+      href: articles/report-designer/use-report-elements/draw-lines-and-shapes.md
+      items:
+      - name: Draw Lines
+        href: articles/report-designer/use-report-elements/draw-lines-and-shapes/draw-lines.md
+      - name: Draw Shapes
+        href: articles/report-designer/use-report-elements/draw-lines-and-shapes/draw-shapes.md
+      - name: Draw Cross-Band Lines and Boxes
+        href: articles/report-designer/use-report-elements/draw-lines-and-shapes/draw-cross-band-lines-and-boxes.md
 - name: Ribbon
   href: articles/ribbon.md
   items:
