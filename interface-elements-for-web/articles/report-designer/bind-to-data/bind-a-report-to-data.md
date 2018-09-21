@@ -13,9 +13,9 @@ This tutorial illustrates how to bind a report to a hierarchical data source and
 
    ![](../../../images/eurd-web-add-sql-data-source-menu.png) 
 
-   The menu contains this command if your software vendor explicitly provided any data connections.
+   The menu contains this command if your software vendor provides data connections.
 
-3. Select the required data connection on the [Data Source Wizard](../report-designer-tools/data-source-wizard.md)'s first page and click **Next** to proceed.
+3. Select the data connection on the [Data Source Wizard](../report-designer-tools/data-source-wizard.md)'s first page and click **Next**.
 
     ![](../../../images/eurd-web-binding-sql-ds-wizard.png)
 
@@ -26,7 +26,7 @@ This tutorial illustrates how to bind a report to a hierarchical data source and
     > [!NOTE]
     > You can also create [custom queries](../report-designer-tools/report-wizard/data-bound-report/connect-to-a-database/create-a-query-or-select-a-stored-procedure.md) to shape data at the data source level. Select **Queries** and click the plus button to add a new query.
     > 
-    > The invoked [Query Builder](../report-designer-tools/query-builder.md), allows you to join multiple tables, filter, sort and group their data, and calculate various aggregate functions.
+    > The invoked [Query Builder](../report-designer-tools/query-builder.md) allows you to join multiple tables, filter, sort, and group their data, and calculate various aggregate functions.
     > 
     > Although you can join different tables within a single query, master-detail data sources are preferred in most cases to provide better performance.
       
@@ -44,7 +44,7 @@ This tutorial illustrates how to bind a report to a hierarchical data source and
 
 ## Use an Existing Data Source
 
-You can bind your report to the predefined data source. Open the [Field List](../report-designer-tools/ui-panels/field-list.md) panel, click the **Add New DataSource** button and select a data source in the drop-down list.
+You can bind your report to a predefined data source. Open the [Field List](../report-designer-tools/ui-panels/field-list.md) panel, click the **Add New DataSource** button and select a data source from the drop-down list.
 
 ![](../../../images/eurd-web-binding-field-list-add-data-source.png)
 
