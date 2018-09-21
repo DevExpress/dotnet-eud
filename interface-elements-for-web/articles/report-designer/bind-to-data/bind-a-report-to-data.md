@@ -28,7 +28,7 @@ This tutorial illustrates how to bind a report to a hierarchical data source and
     > 
     > The invoked [Query Builder](../report-designer-tools/query-builder.md) allows you to join multiple tables, filter, sort, and group their data, and calculate various aggregate functions.
     > 
-    > Although you can join different tables within a single query, master-detail data sources are preferred in most cases to provide better performance.
+    > We recommend using master-detail data sources because the reporting engine obtains data from these data sources faster.
       
 
 5. Set master-detail relationships on this wizard page. Hover the master table name, click the plus button and choose the detail table. 
