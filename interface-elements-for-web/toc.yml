@@ -508,6 +508,21 @@
     href: articles/report-designer/save-reports.md
   - name: Introduction to Banded Reports
     href: articles/report-designer/introduction-to-banded-reports.md
+  - name: Bind to Data
+    href: articles/report-designer/bind-to-data.md
+    items:
+    - name: Bind a Report to Data
+      href: articles/report-designer/bind-to-data/bind-a-report-to-data.md
+    - name: Data Binding Modes
+      href: articles/report-designer/bind-to-data/data-binding-modes.md
+    - name: Bind Report Controls to Data (Expression Bindings)
+      href: articles/report-designer/bind-to-data/bind-controls-to-data-expression-bindings.md
+    - name: Bind Report Controls to Data (Data Bindings)
+      href: articles/report-designer/bind-to-data/bind-controls-to-data-data-bindings.md
+    - name: Use Embedded Fields (Mail Merge)
+      href: articles/report-designer/bind-to-data/use-embedded-fields-mail-merge.md
+    - name: Validate Report Data Bindings
+      href: articles/report-designer/bind-to-data/validate-report-data-bindings.md
   - name: Use Report Elements
     href: articles/report-designer/use-report-elements.md
     items:
