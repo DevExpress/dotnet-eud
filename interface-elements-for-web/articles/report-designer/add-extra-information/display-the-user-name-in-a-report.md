@@ -14,7 +14,7 @@ Do the following to insert the user name into a report:
 	
 	![](../../../images/eurd-web-insert-datetime-add-reportheader-band.png)
 
-2. Drop the [PageInfo](..\use-report-elements\use-basic-report-controls\page-info.md) control from the [Toolbox](..\report-designer-tools\toolbox.md) onto the **ReportHeader** band.
+2. Drop the [PageInfo](..\use-report-elements\use-basic-report-controls\page-info.md) control from the [Toolbox](..\report-designer-tools\toolbox.md) onto the **Report Header** band.
 	
 	![](../../../images/eurd-web-insert-date-time-add-pageinfo.png)
 
