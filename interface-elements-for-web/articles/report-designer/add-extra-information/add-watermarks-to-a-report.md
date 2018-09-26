@@ -6,7 +6,7 @@ author: Anna Vekhina
 
 This tutorial describes how to add watermarks to a report and use preprinted forms.
 
-![eurd-win-add-watermarks-result](../../../../images/eurd-win-add-watermarks-result.png)
+![](../../../images/eurd-web-add-watermarks-result.png)
 
 ## <a name="addwatermark"></a>Add a Watermark to a Report
 To add a watermark to a report, do the following.
@@ -15,7 +15,7 @@ To add a watermark to a report, do the following.
 	
 	![](../../../images/eurd-web-add-watermarks-properties-panel.png)
 
-2. In the **Watermark** node, specify either the **Text** or **Image** property, depending on the type of watermark you wish to add.
+2. In the **Watermark** node, specify the **Text** or **Image** property, depending on the type of watermark you wish to add.
 	
 	For a text watermark, specify the text, direction and font options.
 	
@@ -36,7 +36,7 @@ To display a watermark at design time, expand the **Design** category and enable
 
 ![](../../../images/eurd-web-add-preprinted-watermark.png)
 
-The following image illustrates a report with a watermark shown at design-time that contains a template of a preprinted form.
+The following image illustrates a report with a watermark shown at design time that contains a template of a preprinted form.
 
 ![](../../../images/eurd-web-add-a-template-watermark.png)
 
