@@ -659,6 +659,15 @@
       href: articles/report-designer/add-navigation/add-bookmarks-and-a-document-map.md
     - name: Create a Table of Contents
       href: articles/report-designer/add-navigation/add-a-table-of-contents.md
+  - name: Add Extra Information
+    href: articles/report-designer/add-extra-information.md
+    items:
+    - name: Add Watermarks to a Report
+      href: articles/report-designer/add-extra-information/add-watermarks-to-a-report.md
+    - name: Display the Current Date and Time in a Report
+      href: articles/report-designer/add-extra-information/display-the-current-date-and-time-in-a-report.md
+    - name: Display the User Name in a Report
+      href: articles/report-designer/add-extra-information/display-the-user-name-in-a-report.md
 - name: Ribbon
   href: articles/ribbon.md
   items:
