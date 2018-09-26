@@ -648,6 +648,26 @@
         href: articles/report-designer/use-report-elements/draw-lines-and-shapes/draw-shapes.md
       - name: Draw Cross-Band Lines and Boxes
         href: articles/report-designer/use-report-elements/draw-lines-and-shapes/draw-cross-band-lines-and-boxes.md
+  - name: Add Navigation
+    href: articles/report-designer/add-navigation.md
+    items:
+    - name: Add Page Numbers
+      href: articles/report-designer/add-navigation/add-page-numbers.md
+    - name: Add Cross-References and Hyperlinks
+      href: articles/report-designer/add-navigation/add-cross-references-and-hyperlinks.md
+    - name: Add Bookmarks and a Document Map
+      href: articles/report-designer/add-navigation/add-bookmarks-and-a-document-map.md
+    - name: Create a Table of Contents
+      href: articles/report-designer/add-navigation/add-a-table-of-contents.md
+  - name: Add Extra Information
+    href: articles/report-designer/add-extra-information.md
+    items:
+    - name: Add Watermarks to a Report
+      href: articles/report-designer/add-extra-information/add-watermarks-to-a-report.md
+    - name: Display the Current Date and Time in a Report
+      href: articles/report-designer/add-extra-information/display-the-current-date-and-time-in-a-report.md
+    - name: Display the User Name in a Report
+      href: articles/report-designer/add-extra-information/display-the-user-name-in-a-report.md
 - name: Ribbon
   href: articles/ribbon.md
   items:
