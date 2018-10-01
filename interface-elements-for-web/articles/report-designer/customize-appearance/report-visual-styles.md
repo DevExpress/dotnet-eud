@@ -16,7 +16,7 @@ Use the following approaches to create a visual style in your report:
     
     ![](../../../images/eurd-web-styles-properties-panel.png)
 
-- **Use the Report Explorer Panel**
+- **Use the Report Explorer**
     
     Switch to the [Report Explorer](../report-designer-tools/ui-panels/report-explorer.md) panel, select the **Styles** node and click the plus button ![](../../../images/eurd-web-styles-create.png) to add a new report visual style.
 
@@ -46,7 +46,7 @@ Select a style and click the **Properties** ![](../../../images/eurd-web-styles-
 
 ![](../../../images/eurd-web-edit-style.png)
 
-This switches to the Properties panel where you can adjust the settings of the selected style. All the report elements apply the updated style immediately.
+This opens to the Properties panel where you can adjust the settings of the selected style. All the report elements apply the updated style immediately.
 
 ![](../../../images/eurd-web-customize-style.png)
 
