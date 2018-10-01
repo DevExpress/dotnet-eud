@@ -661,6 +661,13 @@
       href: articles/report-designer/lay-out-dynamic-report-content/anchor-controls.md
     - name: Suppress Controls
       href: articles/report-designer/lay-out-dynamic-report-content/suppress-controls.md
+  - name: Customize Appearance
+    href: articles/report-designer/customize-appearance.md
+    items:
+    - name: Appearance Properties
+      href: articles/report-designer/customize-appearance/appearance-properties.md
+    - name: Report Visual Styles
+      href: articles/report-designer/customize-appearance/report-visual-styles.md
   - name: Add Navigation
     href: articles/report-designer/add-navigation.md
     items:
