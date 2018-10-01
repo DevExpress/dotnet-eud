@@ -648,6 +648,18 @@
         href: articles/report-designer/use-report-elements/draw-lines-and-shapes/draw-shapes.md
       - name: Draw Cross-Band Lines and Boxes
         href: articles/report-designer/use-report-elements/draw-lines-and-shapes/draw-cross-band-lines-and-boxes.md
+  - name: Shape Report Data
+    href: articles/report-designer/shape-report-data.md
+    items:
+    - name: Filter Data
+      href: articles/report-designer/shape-report-data/filter-data.md
+      items:
+      - name: Filter Data at the Report Level
+        href: articles/report-designer/shape-report-data/filter-data/filter-data-at-the-report-level.md
+      - name: Filter Data at the Data Source Level
+        href: articles/report-designer/shape-report-data/filter-data/filter-data-at-the-data-source-level.md
+      - name: Limit the Number of Records to Display
+        href: articles/report-designer/shape-report-data/filter-data/limit-the-number-of-records-to-display.md  
   - name: Lay out Dynamic Report Content
     href: articles/report-designer/lay-out-dynamic-report-content.md
     items:
