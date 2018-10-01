@@ -46,7 +46,7 @@ Select a style and click the **Properties** ![](../../../images/eurd-web-styles-
 
 ![](../../../images/eurd-web-edit-style.png)
 
-This opens to the Properties panel where you can adjust the settings of the selected style. All the report elements apply the updated style immediately.
+This opens the Properties panel where you can adjust the settings of the selected style. All the report elements apply the updated style immediately.
 
 ![](../../../images/eurd-web-customize-style.png)
 
