@@ -47,7 +47,9 @@ See the section below for information on how to use expressions instead of data 
 
     <table><tr><th><p>Expression Bindings</p>
     </th><th><p>Data Bindings</p>
-    </th></tr><tr><td><p>Switch to the <a class="xref"href="../report-designer-tools/ui-panels/expressions-panel.md"> Expressions</a> panel, click the <strong>Text</strong> property's ellipsis button and specify the expression.</p>
+    </th></tr><tr><td>
+    <p>Switch to the <a class="xref" href="..\report-designer-tools\ui-panels\expressions-panel.md"> Expressions</a> panel, click the <strong>Text</strong> property's ellipsis button and specify the expression.</p>
+
     <p><img src="../../../images/eurd-web-property-grid-expression-binding.png"></p>
     </td><td><p>Expand the <strong>Data Bindings</strong> drop-down list and select a data field.</p>
     <p><img src="../../../images/eurd-web-property-grid-text-data-binding.png"></p>
@@ -68,7 +70,8 @@ See the following topics for more information:
 </th><th><p>Data Bindings</p>
 </th></tr><tr><td><p>Use the <a class="xref" href="use-embedded-fields-mail-merge.md">mail merge</a> functionality.</p>
 <p><img src="../../../images/eurd-web-binding-modes-mail-merge.png"></p>
-<p>Switch to the <a class="xref"href="../report-designer-tools/ui-panels/expressions-panel.md"> Expressions</a> panel, click the <strong>Text</strong> property's ellipsis button and specify the expression.</p>
+<p>Switch to the <a class="xref"
+href="../report-designer-tools/ui-panels/expressions-panel.md"> Expressions</a> panel, click the <strong>Text</strong> property's ellipsis button and specify the expression.</p>
 <p><img src="../../../images/eurd-web-expression-binding-multiple-fields.png"></p>
 </td><td><p>Use the <a class="xref" href="use-embedded-fields-mail-merge.md">mail merge</a> functionality.</p>
 <p><img src="../../../images/eurd-web-binding-modes-mail-merge.png"></p>
@@ -105,7 +108,8 @@ See the following topics for more information:
 
 <table><tr><th><p>Expression Bindings</p>
 </th><th><p>Data Bindings</p>
-</th></tr><tr><td><p>Switch to the <a class="xref"href="../report-designer-tools/ui-panels/expressions-panel.md"> Expressions</a> panel, click the <strong>Style Name</strong> property's ellipsis button and specify the expression.</p>
+</th></tr><tr><td><p>Switch to the <a class="xref"
+href="../report-designer-tools/ui-panels/expressions-panel.md"> Expressions</a> panel, click the <strong>Style Name</strong> property's ellipsis button and specify the expression.</p>
 <p><img src="../../../images/eurd-web-shaping-style-name-expression.png"></p>
 <p>Refer to <a class="xref" href="..\shape-report-data\shape-data-expression-bindings\conditionally-change-a-control-appearance.md">Conditionally Change a Control Appearance</a> for an example.</p>
 </td><td><p>Create formatting rules and assign them to report controls.</p>

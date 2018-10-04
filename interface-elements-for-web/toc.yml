@@ -685,6 +685,31 @@
         href: articles/report-designer/shape-report-data/shape-data-expression-bindings/count-the-number-of-records-in-a-report-or-group.md
       - name: Count the Number of Groups in a Report
         href: articles/report-designer/shape-report-data/shape-data-expression-bindings/count-the-number-of-groups-in-a-report.md
+    - name: Shape Data (Data Bindings)
+      href: articles/report-designer/shape-report-data/shape-data-data-bindings.md
+      items:
+      - name: Format Data
+        href: articles/report-designer/shape-report-data/shape-data-data-bindings/format-data.md
+      - name: Conditionally Change a Control's Appearance
+        href: articles/report-designer/shape-report-data/shape-data-data-bindings/conditionally-change-a-control-appearance.md
+      - name: Conditionally Change a Label's Text
+        href: articles/report-designer/shape-report-data/shape-data-data-bindings/conditionally-change-a-label-text.md
+      - name: Conditionally Filter Report Data
+        href: articles/report-designer/shape-report-data/shape-data-data-bindings/conditionally-filter-report-data.md
+      - name: Conditionally Suppress Controls
+        href: articles/report-designer/shape-report-data/shape-data-data-bindings/conditionally-supress-controls.md
+      - name: Limit the Number of Records per Page
+        href: articles/report-designer/shape-report-data/shape-data-data-bindings/limit-the-number-of-records-per-page.md
+      - name: Calculate a Summary
+        href: articles/report-designer/shape-report-data/shape-data-data-bindings/calculate-a-summary.md
+      - name: Calculate a Custom Summary
+        href: articles/report-designer/shape-report-data/shape-data-data-bindings/calculate-a-custom-summary.md
+      - name: Display Row Numbers in a Report, Group or Page
+        href: articles/report-designer/shape-report-data/shape-data-data-bindings/display-row-numbers-in-a-report-group-or-page.md
+      - name: Count the Number of Records in a Report or Group
+        href: articles/report-designer/shape-report-data/shape-data-data-bindings/count-the-number-of-records-in-a-report-or-group.md
+      - name: Count the Number of Groups in a Report
+        href: articles/report-designer/shape-report-data/shape-data-data-bindings/count-the-number-of-groups-in-a-report.md
   - name: Lay out Dynamic Report Content
     href: articles/report-designer/lay-out-dynamic-report-content.md
     items:
