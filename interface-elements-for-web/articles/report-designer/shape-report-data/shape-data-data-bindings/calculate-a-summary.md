@@ -7,7 +7,7 @@ author: Anna Vekhina
 This tutorial describes the steps required to calculate one of the built-in summary functions in your report.
 
 > [!Warning]
-> Use the approach below if expression bindings **are not enabled** in the Report Designer (the Designer  does not provide the [Expressions](../../report-designer-tools/ui-panels/expressions-panel.md) panel).
+> Use the approach below if expression bindings **are not enabled** in the Report Designer (the Designer does not provide the [Expressions](../../report-designer-tools/ui-panels/expressions-panel.md) panel).
 >
 > See [Calculate a Summary](../shape-data-expression-bindings/calculate-a-summary.md) if expression bindings **are enabled** in the Report Designer (the Designer provides the [Expressions](../../report-designer-tools/ui-panels/expressions-panel.md) panel).
 
