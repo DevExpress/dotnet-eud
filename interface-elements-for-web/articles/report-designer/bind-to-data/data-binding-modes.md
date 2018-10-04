@@ -47,7 +47,9 @@ See the section below for information on how to use expressions instead of data 
 
     <table><tr><th><p>Expression Bindings</p>
     </th><th><p>Data Bindings</p>
-    </th></tr><tr><td><p>Switch to the <a class="xref"href="../report-designer-tools/ui-panels/expressions-panel.md"> Expressions</a> panel, click the <strong>Text</strong> property's ellipsis button and specify the expression.</p>
+    </th></tr><tr><td>
+    <p>Switch to the <a class="xref" href="..\report-designer-tools\ui-panels\expressions-panel.md"> Expressions</a> panel, click the <strong>Text</strong> property's ellipsis button and specify the expression.</p>
+
     <p><img src="../../../images/eurd-web-property-grid-expression-binding.png"></p>
     </td><td><p>Expand the <strong>Data Bindings</strong> drop-down list and select a data field.</p>
     <p><img src="../../../images/eurd-web-property-grid-text-data-binding.png"></p>

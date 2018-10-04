@@ -86,4 +86,4 @@ This tutorial describes the steps required to calculate a custom summary that is
 
 Switch to [Print Preview](../../preview-print-and-export-reports.md) to see the result.
 
-![](../../../../../images/eurd-win-label-advanced-summary-result.png)
+![](../../../../images/eurd-web-label-advanced-summary-result.png)
