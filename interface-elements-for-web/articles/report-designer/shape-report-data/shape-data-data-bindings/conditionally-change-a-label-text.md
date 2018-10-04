@@ -13,7 +13,7 @@ This document describes how to display different values in a report control base
 
 1. [Create a new report](../../add-new-reports.md) or open an existing one and [bind it to a data source](../../bind-to-data.md).
 
-2. Switch to the [Field List](../../report-designer-tools/ui-panels/field-list.md) and select **Add Calculated Field**.
+2. Switch to the [Field List](../../report-designer-tools/ui-panels/field-list.md) and select **Add calculated field**.
 
     ![](../../../../images/eurd-web-shaping-add-calculated-field.png)
 

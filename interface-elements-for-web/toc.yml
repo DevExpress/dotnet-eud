@@ -702,6 +702,8 @@
         href: articles/report-designer/shape-report-data/shape-data-data-bindings/limit-the-number-of-records-per-page.md
       - name: Calculate a Summary
         href: articles/report-designer/shape-report-data/shape-data-data-bindings/calculate-a-summary.md
+      - name: Calculate a Custom Summary
+        href: articles/report-designer/shape-report-data/shape-data-data-bindings/calculate-a-custom-summary.md
       - name: Display Row Numbers in a Report, Group or Page
         href: articles/report-designer/shape-report-data/shape-data-data-bindings/display-row-numbers-in-a-report-group-or-page.md
       - name: Count the Number of Records in a Report or Group
