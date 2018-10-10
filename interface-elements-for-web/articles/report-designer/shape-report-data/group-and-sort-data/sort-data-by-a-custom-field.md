@@ -25,6 +25,7 @@ This tutorial illustrates how to sort a report against a custom criteria, in par
 	![](../../../../images/eurd-web-sort-data-by-calculated-field.png)
 	
     Click the ![](../../../../images/eurd-web-order-ascending.png) or ![](../../../../images/eurd-web-order-descending.png) buttons to define the sort order within the group (ascending or descending).
+    Use the ![](../../../../images/eurd-web-disable-sorting.png) button to disable sorting in grouped data.
 
 6. Drag the corresponding field from the [Field List](../../report-designer-tools/ui-panels/field-list.md) onto the report area and switch to [Print Preview](../../preview-print-and-export-reports.md) to see the result.
 
