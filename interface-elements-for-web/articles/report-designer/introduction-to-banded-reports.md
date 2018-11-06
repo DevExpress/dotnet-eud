@@ -53,6 +53,34 @@ The following image illustrates a master-detail report and the [Report Explorer]
 
 ![](../../images/eurd-web-report-bands-subreports.png)
 
+## Vertical Bands
+
+You can replace the Detail band with the **Vertical Header**, **Vertical Detail** and **Vertical Total** bands to display record fields vertically and print data records horizontally - from left to right.
+
+![](../../images/eurd-web-report-vertical-bands-result.png)
+
+> [!NOTE]
+> If your report's Detail band contains report controls, this band and all these controls are lost when you add a vertical band (the same behavior takes place in the opposite situation).
+
+The following vertical bands are available:
+
+- **Vertical Header**
+
+    Contains headers of the report's data fields. These headers are arranged one after another in a vertical direction.
+
+- **Vertical Details**
+
+    Displays recurring contents from the report's data source. This band is printed as many times as there are available records in a data source, unless you filtered the data. The records are displayed one after another in a horizontal direction.
+
+- **Vertical Total**
+
+    This band is placed at the rightmost position (leftmost when RTL is enabled). You can use the Vertical Total band for report summaries or conclusions.
+
+![](../../images/eurd-web-report-vertical-bands-design-surface.png)
+
+> [!TIP]
+> See [Create a Vertical Report](create-popular-reports\create-a-vertical-report.md) for details on how to use vertical bands.
+
 ## Create Band Copies
 
 You can create functional copies of a band, for example, to display different contents based on a specific condition. To do this, add **sub-bands** to bands.
