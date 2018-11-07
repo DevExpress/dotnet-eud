@@ -19,17 +19,17 @@ This tutorial illustrates how to group a report against a custom criteria, in pa
 	![](../../../../images/eurd-web-group-data-calculated-field-expression.png)
 	
 	Click **OK** to close the editor and save the changes.
-5. Insert the [Group Header](../../introduction-to-banded-reports.md) band,      select the **Group Fields** section in the **Actions** category and add a      new group field to group the report's data by the calculated field. 
+4. Insert the [Group Header](../../introduction-to-banded-reports.md) band,      select the **Group Fields** section in the **Actions** category and add a      new group field to group the report's data by the calculated field. 
 		
 	![](../../../../images/eurd-web-group-by-calculated-field.png)
 	
 	Click the ![](../../../../images/eurd-web-order-ascending.png) or ![](../../../../images/eurd-web-order-descending.png) buttons to define the sort order within the group (ascending or descending). Use the ![](../../../../images/eurd-web-disable-sorting.png) button to disable sorting in grouped data.
 
-6. Switch to the **Field List** and drop the required data fields onto the report's area.
+5. Switch to the **Field List** and drop the required data fields onto the report's area.
 
     ![](../../../../images/eurd-web-group-by-field-layout.png)
 
-7. Click the smart tag of the label in the Group Header and set the **Text Format String** property to **{0:dddd}**. This makes the label only display the day of the week, and not the date.
+6. Click the smart tag of the label in the Group Header and set the **Text Format String** property to **{0:dddd}**. This makes the label only display the day of the week, and not the date.
 	
 	![](../../../../images/eurd-web-group-by-field-format-string.png)
 
