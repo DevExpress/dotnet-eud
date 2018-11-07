@@ -660,6 +660,19 @@
         href: articles/report-designer/shape-report-data/filter-data/filter-data-at-the-data-source-level.md
       - name: Limit the Number of Records to Display
         href: articles/report-designer/shape-report-data/filter-data/limit-the-number-of-records-to-display.md
+    - name: Group and Sort Data
+      href: articles/report-designer/shape-report-data/group-and-sort-data.md
+      items:
+      - name: Sort Data
+        href: articles/report-designer/shape-report-data/group-and-sort-data/sort-data.md
+      - name: Group Data
+        href: articles/report-designer/shape-report-data/group-and-sort-data/group-data.md
+      - name: Sort Data by a Custom Field
+        href: articles/report-designer/shape-report-data/group-and-sort-data/sort-data-by-a-custom-field.md
+      - name: Group Data by a Custom Field
+        href: articles/report-designer/shape-report-data/group-and-sort-data/group-data-by-a-custom-field.md 
+      - name: Sort Groups by a Summary Function's Result
+        href: articles/report-designer/shape-report-data/group-and-sort-data/sort-groups-by-a-summary-function-result.md   
     - name: Shape Data (Expression Bindings)
       href: articles/report-designer/shape-report-data/shape-data-expression-bindings.md
       items:
