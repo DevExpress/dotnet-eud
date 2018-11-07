@@ -30,6 +30,8 @@
       href: articles/card-view/filtering/creating-complex-filter-criteria-with-the-filter-control.md
     - name: Header Filter
       href: articles/card-view/filtering/header-filter.md
+    - name: Date Range Header Filter
+      href: articles/card-view/filtering/date-range-header-filter.md      
     - name: Search Panel
       href: articles/card-view/filtering/search-panel.md
   - name: Exporting
@@ -181,6 +183,8 @@
     href: articles/file-manager/details-view.md
   - name: Access Control
     href: articles/file-manager/access-control.md
+  - name: Adaptive Layout
+    href: articles/file-manager/adaptive-layout.md	
 - name: File Upload Control
   href: articles/file-upload-control.md
   items:
@@ -200,7 +204,7 @@
   - name: Change Conditions in Filter Editor
     href: articles/filter-editor/change-conditions-in-filter-editor.md
   - name: Delete Conditions in Filter Editor
-    href: articles/filter-editor/delete-conditions-in-filter-editor.md
+    href: articles/filter-editor/delete-conditions-in-filter-editor.md 
 - name: Grid
   href: articles/grid.md
   items:
@@ -423,7 +427,9 @@
   href: articles/menu.md
   items:
   - name: Menu Scrolling
-    href: articles/menu/menu-scrolling.md
+    href: articles/menu/menu-scrolling/menu-scrolling.md
+  - name: Responsive Layout
+    href: articles/menu/responsive-layout/responsive-layout.md
 - name: Navigation Bar
   href: articles/navigation-bar.md
 - name: News Control

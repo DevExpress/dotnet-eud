@@ -13,7 +13,7 @@ This document consists of the following sections.
 ## <a name="overview"/>Overview
 A thumbnail provides a miniature preview of a document page. The PDF Viewer shows page thumbnails of an active PDF document in the **Page Thumbnails** panel. The panel is located on the **Navigation** pane.
 
-![PageThumbnails ](../../images/img124910.jpeg)
+![PageThumbnails ](../../images/img124910.png)
 
 When a thumbnail is selected, the PDF Viewer shows the corresponding page.
 

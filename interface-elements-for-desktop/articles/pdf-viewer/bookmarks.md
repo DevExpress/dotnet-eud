@@ -15,20 +15,20 @@ This topic consists of the following sections.
 
 Click on a bookmark to display a page linked to the bookmark in the Viewer.  Bookmarks can also open web pages.
 
-![ClickBookmark](../../images/img118808.jpeg)
+![ClickBookmark](../../images/img118808.jpg)
 
 Bookmarks are displayed in a hierarchical tree providing a convenient document overview. They can show or hide the document hierarchy in the navigation pane.
 
 To open (or close) a bookmark item, click it with the mouse.
 
-![BookmarkItems](../../images/img118809.jpeg)
+![BookmarkItems](../../images/img118809.jpg)
 
 After the bookmark item is open, you can see its children in the pane.
 
 ## <a name="customization"/>Customization
 To customize the bookmarks behavior, click the **Options** drop-down button in the **Bookmarks** panel, as shown below.
 
-![RuntimeBookmarkOptions](../../images/img118811.jpeg)
+![RuntimeBookmarkOptions](../../images/img118811.png)
 
 The available options are:
 * **Expand Current Bookmark**
