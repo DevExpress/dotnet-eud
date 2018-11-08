@@ -8,7 +8,7 @@ The **Image Gallery** displays images as thumbnails, allows you to navigate thro
 
 ![ImageGallery](../images/img22781.png)
 
-Hover an image to display the image description.   
+Hover an image to display the image description.
 
 ![ImageGallery_Text](../images/img22782.png)
 
