@@ -6,7 +6,7 @@ author: Anna Vekhina
 
 This document describes the implementation of multi-value and cascading parameters. Multi-value parameters can accept more than a single value, and cascading parameters display values corresponding to current values of other parameters.
 
-## <a name="multivalue"></a>Multi-Value Parameters
+## Multi-Value Parameters
 To assign a collection of values to a parameter, enable its **Multi-Value** property.
 
 ![](../../../../images/eurd-web-parameters-create-multi-value-parameter.png)
@@ -19,7 +19,7 @@ The following image demonstrates an editor for a multi-value parameter in a Prin
 
 ![](../../../../images/eurd-web-parameters-multi-value-parameter-result.png)
 
-## <a name="cascading"></a>Cascading Parameters
+## Cascading Parameters
 The list of values available for a parameter in a Print Preview can be filtered based on the current value of another parameter.
 
 To filter the list of parameter values, click the ellipsis button for the parameter's **Filter String** property and specify a filter string that refers to another parameter.

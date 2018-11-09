@@ -6,7 +6,7 @@ author: Anna Vekhina
 
 You can use report parameters to pass data to a report before it has been published. Parameter values are specified in the **Preview Parameters** panel.
 
-## <a name="createparameters"></a>Create Parameters
+## Create Parameters
 To create a report parameter, switch to the [Field List](../../report-designer-tools/ui-panels/field-list.md), select the **Parameters** node and click **Add parameter**.
 
 ![](../../../../images/eurd-web-parameters-add-parameter-via-field-list.png)
@@ -29,11 +29,11 @@ The parameter provides the following options:
 
     * **No Look-Up**
         
-        Choose this item to disable a predefined list.
+       There is no a predefined list of a parameter's values.
 
     * **Static List**
 		
-		Choose this item to specify a static list of possible values. Each value should have a description that is displayed in a Print Preview.
+		A parameter obtains a list of values from a static list of possible values. Each value should have a description that is displayed in a Print Preview.
 		
 		![](../../../../images/eurd-web-parameters-static-values.png)
         
@@ -41,19 +41,14 @@ The parameter provides the following options:
 	
 	* **Dynamic List**
 		
-		Choose this item to bind parameter's values to a data source. In this case, specify a data source, and data member storing parameter values. The value member defines a data field that will provide values to the parameter. The display member defines a data field storing values displayed in a Print Preview.
+		A parameter obtains a list of values from a specified data source. Look-Up settings contains a data source, and data member storing parameter values. The value member defines a data field that will provide values to the parameter. The display member defines a data field storing values displayed in a Print Preview.
 		
 		![](../../../../images/eurd-web-parameters-dynamic-values.png)
 		
 		The value type of the specified data member should match the specified parameter type.
 		
 		
-		
-	
-
-
-
-## <a name="useparameters"></a>Use Parameters
+## Use Parameters
 You can use report parameters to solve the following tasks:
 
 * **Filter Data**
