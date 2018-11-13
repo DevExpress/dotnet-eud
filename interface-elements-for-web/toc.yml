@@ -732,6 +732,17 @@
         href: articles/report-designer/shape-report-data/use-calculated-fields/calculate-an-aggregate-function.md
       - name: Calculate a Weighted Average Function
         href: articles/report-designer/shape-report-data/use-calculated-fields/calculate-a-weighted-average-function.md
+    - name: Use Report Parameters
+      href: articles/report-designer/shape-report-data/use-report-parameters.md
+      items:
+      - name: Parameters Overview
+        href: articles/report-designer/shape-report-data/use-report-parameters/parameters-overview.md
+      - name: Create Multi-Value and Cascading Report Parameters
+        href: articles/report-designer/shape-report-data/use-report-parameters/create-multi-value-and-cascading-parameters.md
+      - name: Request and Pass Report Parameter Values
+        href: articles/report-designer/shape-report-data/use-report-parameters/request-and-pass-report-parameter-values.md
+      - name: Use Query Parameters
+        href: articles/report-designer/shape-report-data/use-report-parameters/use-query-parameters.md
   - name: Lay out Dynamic Report Content
     href: articles/report-designer/lay-out-dynamic-report-content.md
     items:
