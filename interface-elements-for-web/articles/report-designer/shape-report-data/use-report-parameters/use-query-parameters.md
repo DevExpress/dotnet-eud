@@ -62,32 +62,17 @@ Below, you can see how a value is specified for a query parameter within the Dat
 
 * **Providing a dynamic value**
 	
-	Activate the **Expression** checkbox for a parameter.
-	
-	The following three options are used to dynamically calculate the parameter's actual value:
-	
-	* Create a complex expression by expanding the **Value** property's drop-down list and selecting **Expression Editor**.
+	Create a complex expression by expanding the **Type** property's drop-down list and selecting **Expression**.
 		
-		![](../../../../images/eurd-web-query-parameters-dynamic-expression.png)
+	![](../../../../images/eurd-web-query-parameters-dynamic-expression.png)
 		
-		Construct an expression in the invoked **Expression Editor**.
+	Click the **Value** property's ellipsis button and construct an expression in the invoked **Expression Editor**. You can map a report parameter that already exists in a report to a query parameter.
 		
-		![](../../../../images/eurd-web-query-parameters-expression-editor.png)
-
-	* Map a new report parameter to a query parameter by expanding the **Value** property's drop-down list and selecting **New Report Parameter**.
-		
-		![](../../../../images/eurd-web-query-parameters-new-report-parameter.png)
-		
-		Specify report parameter settings in the invoked **Report Parameter** dialog. Remember to specify the report parameter type according to the type of the corresponding query parameter. Click **OK** to exit the dialog.
-		
-		![](../../../../images/eurd-web-query-parameters-report-parameter-settings.png)
-
-	* Map a report parameter that already exists in a report to a query parameter by expanding the **Value** property's drop-down list and selecting the parameter you want to use. An appropriate expression string is generated automatically.
-		
-		![](../../../../images/eurd-web-query-parameters-existing-report-parameter.png)
+	![](../../../../images/eurd-web-query-parameters-expression-editor.png)
 
 ## Pass a Multi-Value Parameter Value to a Query
-You can map [multi-value parameters](create-multi-value-and-cascading-parameters.md) to query parameters. For instance, the following query selects the orders whose IDs can be found within the values the _\@OrderID_ query parameter provides.
+You can map [multi-value parameters](create-multi-value-and-cascading-parameters.md) to query parameters. 
+For instance, the following query selects the orders whose IDs can be found within the values the _\@OrderID_ query parameter provides.
 
 ![](../../../../images/eurd-web-query-parameters-map-to-multi-value-parameter.png)
 

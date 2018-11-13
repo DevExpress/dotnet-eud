@@ -33,7 +33,7 @@ The parameter provides the following options:
 
     * **Static List**
 		
-		A parameter obtains a list of values from a static list of possible values. Each value should have a description that is displayed in a Print Preview.
+		A parameter obtains a list of values from a static list of possible values. Each value should have a description that is displayed in Print Preview.
 		
 		![](../../../../images/eurd-web-parameters-static-values.png)
         
@@ -41,7 +41,7 @@ The parameter provides the following options:
 	
 	* **Dynamic List**
 		
-		A parameter obtains a list of values from a specified data source. Look-Up settings contains a data source, and data member storing parameter values. The value member defines a data field that will provide values to the parameter. The display member defines a data field storing values displayed in a Print Preview.
+		A parameter obtains a list of values from a specified data source. Look-Up settings contain a data source, and data member storing parameter values. The value member defines a data field that will provide values to the parameter. The display member defines a data field storing values displayed in Print Preview.
 		
 		![](../../../../images/eurd-web-parameters-dynamic-values.png)
 		
