@@ -4,7 +4,7 @@ author: Svetlana Nikulina
 legacyId: 17412
 ---
 # Round Panel
-The **round panel** is a container area with rounded corners.
+The Round Panel is a container area with rounded corners.
 
 You can collapse and expand a panel by clicking the collapse button or the header.
 

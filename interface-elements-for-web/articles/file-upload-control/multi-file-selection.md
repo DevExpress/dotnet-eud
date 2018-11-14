@@ -6,7 +6,7 @@ legacyId: 11353
 # Multi-File Selection
 You can upload several files at once if multiple file selection is allowed by the application vendor.
 
-Click the **Browse** button to invoke the file chooser.
+Click **Browse** to invoke the file chooser.
 
 ![ASPxUploadControl_multi-select_browse.png](../../images/img16475.png)
 
@@ -21,4 +21,4 @@ You can select multiple files by doing one of the following.
 	
 	![ASPxUploadControl_multi-select_drag.png](../../images/img16478.png)
 
-After required files are selected, click the **Open** button to add them to file upload list.
+After required files are selected, click **Open** to add them to file upload list.
