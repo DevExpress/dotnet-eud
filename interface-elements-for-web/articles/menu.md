@@ -4,7 +4,7 @@ author: Svetlana Nikulina
 legacyId: 9382
 ---
 # Menu
-The Menu is used for website navigation.
+The Menu enables you to navigate through a website.
 
 Hover a menu item to display its subitems. If a subitem has an arrow sign (![ASPxMenuArrow](../images/img13320.png)), hover over it to expand its submenu.
 

@@ -4,7 +4,7 @@ author: Svetlana Nikulina
 legacyId: 16830
 ---
 # Image Slider
-The Image Slider is used to display images and navigate through them.
+The Image Slider displays images and enables you to navigate through them.
 
 ![EUD_ImageSlider](../images/img22708.png)
 
