@@ -714,9 +714,7 @@
   - name: Minimizing the Ribbon
     href: articles/ribbon/minimizing-the-ribbon.md
   - name: Gallery Bar
-    items:
-    - name: Gallery Bar
-      href: articles/ribbon/gallery-bar.md
+    href: articles/ribbon/gallery-bar.md
   - name: Invoke Ribbon Commands
     href: articles/ribbon/invoke-ribbon-commands.md
 - name: Rich Text Editor
