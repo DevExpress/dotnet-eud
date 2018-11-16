@@ -1,7 +1,6 @@
 ---
 title: Tree View Nodes Checking
 author: Svetlana Nikulina
-legacyId: 9349
 ---
 # Tree View Nodes Checking
 Click on a check box to toggle the node's checked state.

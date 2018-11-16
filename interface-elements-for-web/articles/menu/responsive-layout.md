@@ -1,6 +1,6 @@
 ---
 title: Responsive Layout
-author: Anna Kondratova
+author: Svetlana Nikulina
 ---
 # Responsive Layout
 

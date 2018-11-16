@@ -1,7 +1,6 @@
 ---
 title: Image Slider
 author: Svetlana Nikulina
-legacyId: 16830
 ---
 # Image Slider
 The Image Slider displays images and enables you to navigate through them.
