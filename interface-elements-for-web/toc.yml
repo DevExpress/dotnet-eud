@@ -199,11 +199,11 @@
 - name: Filter Editor
   href: articles/filter-editor.md
   items:
-  - name: Create New Conditions in Filter Editor
+  - name: Create New Conditions
     href: articles/filter-editor/create-new-conditions-in-filter-editor.md
-  - name: Change Conditions in Filter Editor
+  - name: Change Conditions
     href: articles/filter-editor/change-conditions-in-filter-editor.md
-  - name: Delete Conditions in Filter Editor
+  - name: Delete Conditions
     href: articles/filter-editor/delete-conditions-in-filter-editor.md 
 - name: Grid
   href: articles/grid.md
@@ -427,9 +427,9 @@
   href: articles/menu.md
   items:
   - name: Menu Scrolling
-    href: articles/menu/menu-scrolling/menu-scrolling.md
+    href: articles/menu/menu-scrolling.md
   - name: Responsive Layout
-    href: articles/menu/responsive-layout/responsive-layout.md
+    href: articles/menu/responsive-layout.md
 - name: Navigation Bar
   href: articles/navigation-bar.md
 - name: News Control
@@ -714,9 +714,7 @@
   - name: Minimizing the Ribbon
     href: articles/ribbon/minimizing-the-ribbon.md
   - name: Gallery Bar
-    items:
-    - name: Gallery Bar
-      href: articles/ribbon/gallery-bar/gallery-bar.md
+    href: articles/ribbon/gallery-bar.md
   - name: Invoke Ribbon Commands
     href: articles/ribbon/invoke-ribbon-commands.md
 - name: Rich Text Editor
