@@ -4,7 +4,7 @@ author: Svetlana Nikulina
 legacyId: 17994
 ---
 # Flash Settings
-When you [insert](insert-a-flash-into-html-editor.md) or [modify](modify-flash-settings-in-html-editor.md) flash in an HTML Editor, you can customize the flash player settings as well.
+When you [insert](insert-a-flash-into-html-editor.md) or [modify](modify-flash-settings-in-html-editor.md) flash in an HTML Editor, you can customize the flash player settings.
 
 To display the settings section in a flash dialog, select the **More options** check box.
 
