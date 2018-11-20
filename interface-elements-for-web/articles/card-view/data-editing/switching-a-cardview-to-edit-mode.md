@@ -1,9 +1,9 @@
 ---
-title: Switching a CardView to Edit Mode
+title: Switching a Card View to Edit Mode
 author: Svetlana Nikulina
 legacyId: 115281
 ---
-# Switching a CardView to Edit Mode
+# Switching a Card View to Edit Mode
 To edit cell values, switch to the edit mode by clicking **Edit**.
 
 ![EUD_CardView_EditCard](../../../images/img121510.png)
