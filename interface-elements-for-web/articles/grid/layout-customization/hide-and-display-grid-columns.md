@@ -1,15 +1,16 @@
 ---
-title: Hide and Display Grid Columns
+title: Hide and Display Columns
 author: Bogdan Harchenko
 legacyId: 4151
 ---
-# Hide and Display Grid Columns
-* To hide a column, invoke the Field Chooser, and drag the column's header onto it.
+# Hide and Display Columns
+Invoke the Field Chooser and drag a column's header onto it to hide the column.
 	
-	![HideColumns](../../../images/img7292.png)
+![HideColumns](../../../images/img7292.png)
 	
-	&nbsp;
-* To make a column visible, drag its header from the Field Chooser and drop it onto the column header panel.
 
-> [!NOTE]
-> Depending on the application vendor's preferences, the Field Chooser may be unavailable in your application.
+Drag a column's header from the Field Chooser and drop it onto the column header panel to make the column visible.
+
+
+## Customization Dialog
+The [customization dialog](../customization-dialog/column-chooser.md) enables you to change the order and visibility of data columns.

@@ -1,10 +1,10 @@
 ---
-title: Filtering Grid Data
+title: Filtering Data
 author: Svetlana Nikulina
 legacyId: 4144
 ---
-# Filtering Grid Data
-To filter data or change the filter conditions in the grid, use one of the following.
+# Filtering Data
+Grid provides different elements that allows you to filter data.
 
 **Filter Buttons**
 
@@ -18,13 +18,12 @@ If the dropdown does not display check boxes, click the required value to apply 
 
 ![ASpxGridView_HeaderFilter](../../../images/img7159.png)
 
-If filtering is applied, the filter dropdown only displays values that match the filter criteria. To remove the filter, click **(All)**.
+The filter dropdown only displays values that match the applied filter criteria. To remove the filter, click **(All)**.
 
 Note that if a filter is applied to a column, other column header filters display unique values of the sorted rows. To show the full list of values (include values of rows hidden by sorting), hold down SHIFT and click a header filter button.
 
 For columns containing date and time data, the dropdown displays a [date range header filter](date-range-header-filter.md).
 
-&nbsp;
 
 **Filter Row**
 
@@ -40,14 +39,17 @@ To remove the column filter, clear the text in the auto-filter row. To remove th
 
 ![ASPxGridView_ClearAutoFilterRow](../../../images/img7158.png)
 
-&nbsp;
+
 
 **Search Panel**
 
-To filter data and highlight search results, use the [Search Panel](search-panel.md).
+The [Search Panel](search-panel.md) enables you to filter data and highlight search results.
 
-&nbsp;
 
-**Filter Control**
+**Filter Builder**
 
-To create complex filter criteria, use the [Filter Control](creating-complex-filter-criteria-with-the-filter-control.md).
+The [Filter Builder](creating-complex-filter-criteria-with-the-filter-control.md) enables you to create complex filter criteria.
+
+**Customization Dialog**
+
+The [customization dialog](../customization-dialog/filtering-page.md) enables you to filter grid data by entering filter criteria.

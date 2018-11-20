@@ -4,10 +4,12 @@ author: Bogdan Harchenko
 legacyId: 4145
 ---
 # Group Grid Rows
-* To group data, drag a column header from the column header panel to the group panel.
+* Drag a column header from the column header panel to the group panel to group data.
 	
 	![ASPxGridView_Grouping](../../../images/img7178.png)
-* To change the group order, move a column header within the group panel.
+* Move a column header within the group panel to change the group order.
 	
 	![ASPxGridView_GroupReorder](../../../images/img7179.png)
-* To ungroup data, drag a column header(s) from the group panel to the column header panel.
+* Drag a column header(s) from the group panel to the column header panel to ungroup data.
+
+The [customization dialog](../customization-dialog/grouping-page.md) enables you to group and ungroup grid data, and change the order of grouping columns within the grid.
