@@ -210,68 +210,70 @@
   items:
   - name: Data Editing
     items:
-    - name: Add and Delete Grid Rows
+    - name: Add and Delete Rows
       href: articles/grid/data-editing/add-and-delete-grid-rows.md
-    - name: Save or Discard Changes when Editing Grid Rows
-      href: articles/grid/data-editing/save-or-discard-changes-when-editing-grid-rows.md
     - name: Switch a Grid to Edit Mode
       href: articles/grid/data-editing/switch-a-grid-to-edit-mode.md
+    - name: Save or Discard Changes when Editing Rows
+      href: articles/grid/data-editing/save-or-discard-changes-when-editing-grid-rows.md
     - name: Batch Editing
       href: articles/grid/data-editing/batch-editing.md
   - name: Selection and Navigation
     items:
-    - name: Page Navigation in Grids
+    - name: Page Navigation
       href: articles/grid/selection-and-navigation/page-navigation-in-grids.md
-    - name: Select Grid Rows
+    - name: Select Rows
       href: articles/grid/selection-and-navigation/select-grid-rows.md
     - name: Keyboard Navigation
       href: articles/grid/selection-and-navigation/keyboard-navigation.md
-  - name: Expand and Collapse Group Rows
-    items:
-    - name: Expand and Collapse Group Rows
-      href: articles/grid/expand-and-collapse-group-rows/expand-and-collapse-group-rows.md
   - name: Sorting
-    items:
-    - name: Sort Grid Rows
-      href: articles/grid/sorting/sort-grid-rows.md
+    href: articles/grid/sorting/sort-grid-rows.md
   - name: Grouping
     items:
     - name: Group Grid Rows
       href: articles/grid/grouping/group-grid-rows.md
+    - name: Expand and Collapse Group Rows
+      href: articles/grid/grouping/expand-and-collapse-group-rows.md  
   - name: Filtering
     items:
+    - name: Filtering Data
+      href: articles/grid/filtering/filtering-grid-data.md
     - name: Date Range Header Filter
       href: articles/grid/filtering/date-range-header-filter.md
-    - name: Filtering Grid Data
-      href: articles/grid/filtering/filtering-grid-data.md
     - name: Search Panel
       href: articles/grid/filtering/search-panel.md
-    - name: Creating Complex Filter Criteria with the Filter Control
+    - name: Creating Complex Filter Criteria with the Filter Builder
       href: articles/grid/filtering/creating-complex-filter-criteria-with-the-filter-control.md
   - name: Context Menu
-    items:
-    - name: Context Menu
-      href: articles/grid/context-menu/context-menu.md
+    href: articles/grid/context-menu/context-menu.md
   - name: Layout Customization
     items:
-    - name: Hide and Display Grid Columns
+    - name: Resize Columns
+      href: articles/grid/layout-customization/resize-columns.md
+    - name: Hide and Display Columns
       href: articles/grid/layout-customization/hide-and-display-grid-columns.md
-    - name: Reorder Grid Columns
+    - name: Reorder Columns
       href: articles/grid/layout-customization/reorder-grid-columns.md
   - name: Customization Dialog
     items:
+    - name: Customization Dialog
+      href: articles/grid/customization-dialog/customization-dialog.md    
     - name: Sorting Page
       href: articles/grid/customization-dialog/sorting-page.md
     - name: Grouping Page
       href: articles/grid/customization-dialog/grouping-page.md
     - name: Filtering Page
       href: articles/grid/customization-dialog/filtering-page.md
-    - name: Column Chooser
+    - name: Column Chooser Page
       href: articles/grid/customization-dialog/column-chooser.md
+  - name: Data Summaries
+    href: articles/grid/data-summaries.md
+  - name: Data Validation
+    href: articles/grid/data-validation.md
+  - name: Data Export
+    href: articles/grid/data-export.md
   - name: Responsive Layout
-    items:
-    - name: Responsive Layout
-      href: articles/grid/responsive-layout/responsive-layout.md
+    href: articles/grid/responsive-layout/responsive-layout.md
   - name: Grid Lookup
     items:
     - name: Grid Lookup

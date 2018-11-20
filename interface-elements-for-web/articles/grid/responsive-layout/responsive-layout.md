@@ -8,4 +8,4 @@ The grid automatically hides columns one by one when the browser window is resiz
 
 ![Adaptivity_HideShowButtons](../../../images/img11318.png)
 
-You can see hidden data in the adaptive detail row. Click the ellipsis button (**Show Adaptive Detail** button) to expand a detail row. To hide a detail row, click the **Hide Adaptive Detail** button.
+You can see hidden data in the adaptive detail row. Click the ellipsis button to expand the corresponding detail row. To hide a detail row, click the **Hide Adaptive Detail** button.

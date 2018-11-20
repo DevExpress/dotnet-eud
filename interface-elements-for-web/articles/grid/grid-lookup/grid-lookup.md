@@ -4,7 +4,7 @@ author: Svetlana Nikulina
 legacyId: 9354
 ---
 # Grid Lookup
-GridLookup is used to easily locate and select values from a dropdown grid.
+Grid Lookup enables you to easily locate and select values from a dropdown grid.
 
 ![ASPxGridLookup](../../../images/img13290.png)
 
