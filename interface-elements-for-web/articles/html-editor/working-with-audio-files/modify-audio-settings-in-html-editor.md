@@ -1,9 +1,9 @@
 ---
-title: Modify Audio Settings in HTML Editor
+title: Modify Audio Settings
 author: Svetlana Nikulina
 legacyId: 17961
 ---
-# Modify Audio Settings in HTML Editor
+# Modify Audio Settings
 To modify audio element settings within editor content, do one of the following.
 * Double-click the audio element.
 * Right-click the audio element and select **Change Audio...** within the invoked context menu.

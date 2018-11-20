@@ -285,127 +285,125 @@
 - name: HTML Editor
   href: articles/html-editor.md
   items:
-  - name: HTML Editor User Interface
+  - name: User Interface
     items:
-    - name: Ribbon
-      href: articles/html-editor/html-editor-user-interface/ribbon.md
     - name: View Modes
       href: articles/html-editor/html-editor-user-interface/view-modes.md
-    - name: Context Menu
-      href: articles/html-editor/html-editor-user-interface/context-menu.md
-    - name: Toolbar
+    - name: Menu Toolbar
       href: articles/html-editor/html-editor-user-interface/toolbar.md
+    - name: Ribbon
+      href: articles/html-editor/html-editor-user-interface/ribbon.md
     - name: Search Panel
       href: articles/html-editor/html-editor-user-interface/search-panel.md
+    - name: Context Menu
+      href: articles/html-editor/html-editor-user-interface/context-menu.md
     - name: Tag Inspector
       href: articles/html-editor/html-editor-user-interface/tag-inspector.md
   - name: Formatting Text
     items:
-    - name: Make Text Bold in HTML Editor
+    - name: Make Text Bold
       href: articles/html-editor/formatting-text/make-text-bold-in-html-editor.md
-    - name: Apply Italic Formatting in HTML Editor
+    - name: Apply Italic Formatting
       href: articles/html-editor/formatting-text/apply-italic-formatting-in-html-editor.md
-    - name: Underline Text in HTML Editor
+    - name: Underline Text 
       href: articles/html-editor/formatting-text/underline-text-in-html-editor.md
-    - name: Apply Strikethrough Formatting in HTML Editor
+    - name: Apply Strikethrough Formatting
       href: articles/html-editor/formatting-text/apply-strikethrough-formatting-in-html-editor.md
-    - name: Change Foreground Color in HTML Editor
+    - name: Change Foreground Color
       href: articles/html-editor/formatting-text/change-foreground-color-in-html-editor.md
-    - name: Change Background Color in HTML Editor
+    - name: Change Background Color
       href: articles/html-editor/formatting-text/change-background-color-in-html-editor.md
-    - name: Change Font Type in HTML Editor
+    - name: Change Font Type
       href: articles/html-editor/formatting-text/change-font-type-in-html-editor.md
-    - name: Change Font Size in HTML Editor
+    - name: Change Font Size
       href: articles/html-editor/formatting-text/change-font-size-in-html-editor.md
-    - name: Make Text Superscript or Subscript in HTML Editor
+    - name: Make Text Superscript or Subscript
       href: articles/html-editor/formatting-text/make-text-superscript-or-subscript-in-html-editor.md
-    - name: Remove Formatting in HTML Editor
+    - name: Remove Formatting
       href: articles/html-editor/formatting-text/remove-formatting-in-html-editor.md
   - name: Formatting Paragraphs
     items:
-    - name: Text Indentation in HTML Editor
+    - name: Text Indentation
       href: articles/html-editor/formatting-paragraphs/text-indentation-in-html-editor.md
-    - name: Text Alignment in HTML Editor
+    - name: Text Alignment
       href: articles/html-editor/formatting-paragraphs/text-alignment-in-html-editor.md
-    - name: Paragraph Styling in HTML Editor
+    - name: Paragraph Styling
       href: articles/html-editor/formatting-paragraphs/paragraph-styling-in-html-editor.md
-    - name: Ordered and Bullet Lists in HTML Editor
+    - name: Ordered and Bullet Lists
       href: articles/html-editor/formatting-paragraphs/ordered-and-bullet-lists-in-html-editor.md
   - name: Paste Formatting
     href: articles/html-editor/paste-formatting.md
   - name: Find and Replace Dialog
-    items:
-    - name: Find and Replace Dialog
-      href: articles/html-editor/find-and-replace-dialog/find-and-replace-dialog.md
+    href: articles/html-editor/find-and-replace-dialog/find-and-replace-dialog.md
   - name: Working with Hyperlinks
     items:
-    - name: Create a Hyperlink in HTML Editor
+    - name: Create a Hyperlink
       href: articles/html-editor/working-with-hyperlinks/create-a-hyperlink-in-html-editor.md
-    - name: Modify a Hyperlink in HTML Editor
+    - name: Modify a Hyperlink
       href: articles/html-editor/working-with-hyperlinks/modify-a-hyperlink-in-html-editor.md
-    - name: Remove a Hyperlink in HTML Editor
+    - name: Remove a Hyperlink
       href: articles/html-editor/working-with-hyperlinks/remove-a-hyperlink-in-html-editor.md
   - name: Working with Tables
     items:
-    - name: Create a Table in HTML Editor
+    - name: Create a Table
       href: articles/html-editor/working-with-tables/create-a-table-in-html-editor.md
-    - name: Remove a Table in HTML Editor
+    - name: Modify a Table
+      href: articles/html-editor/working-with-tables/modify-a-table-in-html-editor.md     
+    - name: Remove a Table
       href: articles/html-editor/working-with-tables/remove-a-table-in-html-editor.md
-    - name: Modify a Table in HTML Editor
-      href: articles/html-editor/working-with-tables/modify-a-table-in-html-editor.md
   - name: Working with Images
     items:
-    - name: Insert an Image in HTML Editor
+    - name: Insert an Image
       href: articles/html-editor/working-with-images/insert-an-image-in-html-editor.md
-    - name: Modify an Image's Settings in HTML Editor
+    - name: Modify an Image's Settings
       href: articles/html-editor/working-with-images/modify-an-images-settings-in-html-editor.md
     - name: Image Settings
       href: articles/html-editor/working-with-images/image-settings.md
   - name: Working with Audio Files
     items:
-    - name: Insert an Audio Into HTML Editor
+    - name: Insert an Audio
       href: articles/html-editor/working-with-audio-files/insert-an-audio-into-html-editor.md
-    - name: Modify Audio Settings in HTML Editor
+    - name: Modify Audio Settings
       href: articles/html-editor/working-with-audio-files/modify-audio-settings-in-html-editor.md
     - name: Audio Settings
       href: articles/html-editor/working-with-audio-files/audio-settings.md
   - name: Working with Flash Files
     items:
-    - name: Modify Flash Settings in HTML Editor
+    - name: Insert a Flash
+      href: articles/html-editor/working-with-flash-files/insert-a-flash-into-html-editor.md    
+    - name: Modify Flash Settings
       href: articles/html-editor/working-with-flash-files/modify-flash-settings-in-html-editor.md
-    - name: Insert a Flash Into HTML Editor
-      href: articles/html-editor/working-with-flash-files/insert-a-flash-into-html-editor.md
     - name: Flash Settings
       href: articles/html-editor/working-with-flash-files/flash-settings.md
   - name: Working with Video Files
     items:
-    - name: Modify Video Settings in HTML Editor
+    - name: Insert a Video
+      href: articles/html-editor/working-with-video-files/insert-a-video-into-html-editor.md    
+    - name: Modify Video Settings
       href: articles/html-editor/working-with-video-files/modify-video-settings-in-html-editor.md
-    - name: Insert a Video Into HTML Editor
-      href: articles/html-editor/working-with-video-files/insert-a-video-into-html-editor.md
     - name: Video Settings
       href: articles/html-editor/working-with-video-files/video-settings.md
   - name: Working with YouTube Video
     items:
-    - name: Modify YouTube Video Settings in HTML Editor
+    - name: Insert a YouTube Video
+      href: articles/html-editor/working-with-youtube-video/insert-a-youtube-video-into-html-editor.md   
+    - name: Modify YouTube Video Settings
       href: articles/html-editor/working-with-youtube-video/modify-youtube-video-settings-in-html-editor.md
-    - name: Insert a YouTube Video Into HTML Editor
-      href: articles/html-editor/working-with-youtube-video/insert-a-youtube-video-into-html-editor.md
     - name: YouTube Video Settings
       href: articles/html-editor/working-with-youtube-video/youtube-video-settings.md
   - name: Miscellaneous Operations
     items:
-    - name: Repeat and Undo Actions in HTML Editor
+    - name: Repeat and Undo Actions
       href: articles/html-editor/miscellaneous-operations/repeat-and-undo-actions-in-html-editor.md
-    - name: Printing HTML Editor Content
+    - name: Printing Content
       href: articles/html-editor/miscellaneous-operations/printing-html-editor-content.md
-    - name: Clipboard Operations in HTML Editor
+    - name: Clipboard Operations
       href: articles/html-editor/miscellaneous-operations/clipboard-operations-in-html-editor.md
-    - name: Check Spelling in HTML Editor
+    - name: Check Spelling
       href: articles/html-editor/miscellaneous-operations/check-spelling-in-html-editor.md
     - name: Sizing and Full-Screen Mode
       href: articles/html-editor/miscellaneous-operations/sizing-and-full-screen-mode.md
-    - name: Export HTML Editor Content to Various Documents Formats
+    - name: Export Content to Various Documents Formats
       href: articles/html-editor/miscellaneous-operations/export-html-editor-content-to-various-documents-formats.md
     - name: Shortcuts
       href: articles/html-editor/miscellaneous-operations/shortcuts.md

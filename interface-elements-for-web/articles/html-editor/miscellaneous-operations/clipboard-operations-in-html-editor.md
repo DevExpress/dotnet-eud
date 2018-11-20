@@ -1,10 +1,10 @@
 ---
-title: Clipboard Operations in HTML Editor
+title: Clipboard Operations
 author: Anna Kondratova
 legacyId: 4452
 ---
-# Clipboard Operations in HTML Editor
-Any part of the editor's content (images, tables or other content) can be cut, copied or pasted. The following table lists keyboard shortcuts and toolbar buttons providing this functionality.
+# Clipboard Operations
+Any part of the editor's content (images, tables or other content) can be cut, copied or pasted. The following table lists keyboard shortcuts and editor buttons providing this functionality.
  
 
 | Editor's Button | Shortcut | Description |
