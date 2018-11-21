@@ -1,7 +1,6 @@
 ---
 title: Menu
 author: Svetlana Nikulina
-legacyId: 9382
 ---
 # Menu
 The Menu enables you to navigate through a website.
