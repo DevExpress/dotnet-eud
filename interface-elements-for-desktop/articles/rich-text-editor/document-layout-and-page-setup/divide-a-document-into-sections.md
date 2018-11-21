@@ -1,5 +1,5 @@
 ---
-title: Divide a Documents into Sections
+title: Divide a Document into Sections
 author: Elena Dvoryadkina
 legacyId: 10534
 ---
@@ -12,11 +12,15 @@ To divide a document into sections, insert section breaks.
 2. On the **Page Layout** [ tab](../text-editor-ui/ribbon-interface.md), in the **Page Setup** group, click the **Breaks** button and select one of the following types of section breaks.
 	
 	![RTEInsertSectionBreak](../../../images/img121268.png)
+	* **Column** - starts a new section on the next column on the page.
 	* **Next Page** - inserts a section break and starts a new section on the next page.
+	* **Continuous** - starts the new section on the same page.
 	* **Even Page** - inserts a section break and starts a new section on the next even-numbered page.
 	* **Odd Page** - inserts a section break and starts a new section on the next odd-numbered page.
+	
+	
 
-To show the section break mark, press **CTRL+SHIFT+8** or on the **Home** [ tab](../text-editor-ui/ribbon-interface.md), in the **Paragraph** group, click the **Show/Hide Parapragh** button.
+To show the section break mark, press **CTRL+SHIFT+8** or on the **Home** [ tab](../text-editor-ui/ribbon-interface.md), in the **Paragraph** group, click the **Show/Hide Paragraph** button.
 
 ![RTEShowHideParagraph](../../../images/img121269.png)
 
@@ -30,6 +34,6 @@ You can change the type of the section break that has been inserted to start a s
 2. Invoke the **Page Setup** dialog by clicking the dialog box launcher.
 	
 	![RTEPageSetupDialog_invoke](../../../images/img128736.png)
-3. Сhange the **Section start** property on the **Layout** tab as required.
+3. Change the **Section start** property on the **Layout** tab as required.
 	
 	![RTEChangeSectionStart](../../../images/img121271.png)

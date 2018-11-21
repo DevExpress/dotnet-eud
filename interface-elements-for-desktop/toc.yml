@@ -1235,8 +1235,8 @@
       href: articles/rich-text-editor/file-operations/print-a-document.md
   - name: Document Layout and Page Setup
     items:
-    - name: Divide a Documents into Sections
-      href: articles/rich-text-editor/document-layout-and-page-setup/divide-a-documents-into-sections.md
+    - name: Divide a Document into Sections
+      href: articles/rich-text-editor/document-layout-and-page-setup/divide-a-document-into-sections.md
     - name: Adjust Page Settings
       href: articles/rich-text-editor/document-layout-and-page-setup/adjust-page-settings.md
     - name: Lay Out Text in Columns
