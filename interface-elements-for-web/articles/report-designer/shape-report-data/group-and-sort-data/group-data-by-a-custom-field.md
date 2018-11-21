@@ -29,7 +29,7 @@ This tutorial illustrates how to group a report against a custom criteria, in pa
 
     ![](../../../../images/eurd-web-group-by-field-layout.png)
 
-6. Click the smart tag of the label in the Group Header and set the **Text Format String** property to **{0:dddd}**. This makes the label only display the day of the week, and not the date.
+6. Select the label in the Group Header and set the **Text Format String** property to **{0:dddd}**. This makes the label only display the day of the week, and not the date.
 	
 	![](../../../../images/eurd-web-group-by-field-format-string.png)
 

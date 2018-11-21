@@ -6,14 +6,14 @@ author: Anna Vekhina
 
 This document illustrates how to assign the default and custom values to a report's parameters and describes the editors that are used to request these values in a Print Preview.
 
-## Requesting Parameter Values in a Print Preview
+## Requesting Parameter Values in Print Preview
 The parameter's **Value** property specifies the parameter's actual value. This value should correspond to the parameter's value type the **Type** property defines.
 
 ![](../../../../images/eurd-web-parameters-settings.png)
 
-A parameter's value is not requested from end-users and is automatically passed to the report when the parameter's **Visible** property is set to **false**. When a report has at least one visible parameter, a Print Preview provides the **Parameters** panel for submitting parameter values.
+A parameter's value is not requested from end-users and is automatically passed to the report when the parameter's **Visible** property is set to **false**. When a report has at least one visible parameter, Print Preview provides the **Parameters** panel for submitting parameter values.
 
-When loading a Print Preview, a report document is not created by default unless values for all visible parameters are submitted. To create report documents without requesting parameter values (and using their default values instead), disable the report's **Request Parameters** property.
+When loading Print Preview, a report document is not created by default unless values for all visible parameters are submitted. To create report documents without requesting parameter values (and using their default values instead), disable the report's **Request Parameters** property.
 
 ![](../../../../images/eurd-web-parameters-report-request-parameters.png)
 

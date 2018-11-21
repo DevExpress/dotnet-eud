@@ -69,6 +69,6 @@ You can use report parameters to solve the following tasks:
 
 * **Specify Expressions**
     
-    Parameters can be used as part of [expressions](../../use-expressions.md). To refer to a report parameter, use the **Parameters.** prefix before its name.
+    Parameters can be used as part of [expressions](../../use-expressions.md). To refer to a report parameter, use the **?** prefix before its name.
 
     ![](../../../../images/eurd-web-parameters-in-expression-editor.png)

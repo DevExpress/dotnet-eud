@@ -15,7 +15,7 @@ Multi-value parameters are useful when you need to [filter report data](../filte
 
 ![](../../../../images/eurd-web-parameters-filter-string-with-multi-value-parameter.png)
 
-The following image demonstrates an editor for a multi-value parameter in a Print Preview.
+The following image demonstrates an editor for a multi-value parameter in Print Preview.
 
 ![](../../../../images/eurd-web-parameters-multi-value-parameter-result.png)
 

@@ -14,7 +14,7 @@ Expand the **Actions** category and use the **Shape** property to select the sha
 
 ![](../../../../images/eurd-web-shape-control-select-type.png)
 
-The smart tag provides the following main properties common to all shape types:
+The **Actions** category provides the following main properties common to all shape types:
 
 * **Fill Color** - specifies the the shape's color.
 * **Stretch** - specifies whether to stretch a shape to fill its client rectangle area when it is rotated.
