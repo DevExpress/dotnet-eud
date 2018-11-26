@@ -6,6 +6,8 @@ author: Anna Vekhina
 
 This tutorial illustrates how to enable sorting report data in Print Preview.
 
+![](../../../images/eurd-web-interactive-sorting-groups-result.png)
+
 In this tutorial, we will start with the following report displaying products [grouped](..\shape-report-data\group-and-sort-data\group-data.md) by category names.
 
 ![](../../../images/eurd-web-interactive-sorting-starting.png)
@@ -17,7 +19,7 @@ To enable sorting report groups in Print Preview, select the label displaying pr
 
 ![](../../../images/eurd-web-interactive-sorting-for-groups.png)
 
-Expand the **Behavior** category, select the **Interactive Sorting** section, and set the **Target Band** property to *GroupHeader1*. Expand the **Group Fields** section and add a new group field to group the report's data by the product category name. Set the **Field Name** property to *CategoryName*.
+Expand the **Behavior** category, select the **Interactive Sorting** section, and set the **Target Band** property to *GroupHeader1*. Set the **Field Name** property to *CategoryName*.
 
 Switch to the **Preview** tab to sort report groups by the **CategoryName** field. When a mouse pointer hovers over the category name, it changes to a hand indicating the sorting capability. The arrow displayed at the element's right edge indicates the sorting order.
 
@@ -28,7 +30,7 @@ To enable sorting data in the Detail band, select the table cell displaying the 
 
 ![](../../../images/eurd-web-interactive-sorting-detail.png)
 
-Set the **Target Band** property to *Detail* and expand the **Sort Fields** section and add a new sort field to sort detail data by the product name. Set the table cell's **Field Name** property to the **ProductName** field.
+Set the **Target Band** property to *Detail* and expand the **Sort Fields** section and add a new sort field to sort detail data by the product name. Set the table cell's **Field Name** property to the _ProductName_ field.
 
 On switching to the Preview tab, you can now sort data in the Detail band by the **ProductName** field.
 

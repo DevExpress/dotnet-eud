@@ -30,7 +30,7 @@ To highlight all editing fields available in a document, click the **Editing Fie
 When enabling content editing in your report, consider the following.
 
 * The changes made to a control's content in Print Preview have no effect on other parts of the document (e.g., the related summary results, grouping, sorting, bookmarks and other settings that have already been processed before generating the document).
-* A control's **CanGrow** setting is ignored for editing fields.
+* A control's **Can Grow** setting is ignored for editing fields.
 	
 	Multi-line values can only be entered when no mask is applied to an editing field. The editing area of a field cannot exceed the original dimensions of a control.
 * Values entered into editing fields are reset back to their defaults after refreshing the document (e.g., when submitting [report parameter](..\shape-report-data\use-report-parameters.md) values and expanding or collapsing data in a [drill-down report](create-drill-down-reports.md)).
@@ -61,34 +61,19 @@ The following editors can be used to customize a field's content in Print Previe
 
 * **Default Editor**
 	
-	By default, the **EditorName** property is not specified, and a memo edit is used as a standard editor.
+	By default, the **Editor Name** property is not specified, and a memo edit is used as a standard editor.
 	
 	![](../../../images/eurd-web-content-editing-memoedit.png)
 * **Specific Value Editors**
 	
-	You can assign a specific editor to a control using its **EditorName** property.
+	You can assign a specific editor to a control using its **Editor Name** property.
+
+    > [!NOTE]
+    > This option is disabled for the **Character Comb** control.
 	
 	![](../../../images/eurd-web-content-editing-specific-editor.png)
 	
-	The standard editors are divided into the following categories.
 	
-	<table><tr><th><p>Numeric</p>
-    </th><th><p>Date-Time</p>
-    </th><th><p>Letters</p>
-    </th></tr><tr><td><ul>
-    <li>Integer</li>
-    <li>Integer Positive</li>
-    <li>Fixed-Point</li>
-    <li>Fixed-Point Positive</li>
-    </ul>
-    </td><td><ul>
-    <li>Date</li>
-    </ul>
-    </td><td><ul>
-    <li>Only Latin Letters</li>
-    </ul>
-    </td></tr></table>
-
 > [!NOTE]
 > If a table cell contains other controls, its editing is disabled (but not the editing of the controls contained in this cell), which is illustrated in the following image.
 > 
