@@ -25,14 +25,12 @@ To highlight all editing fields available in a document, click the **Editing Fie
 
 ![](../../../images/eurd-web-content-editing-fields-highlight-ribbon.png)
 
-To navigate between editing fields in Print Preview, use the TAB and SHIFT+TAB keys.
-
 ### Content Editing Specifics
 
 When enabling content editing in your report, consider the following.
 
 * The changes made to a control's content in Print Preview have no effect on other parts of the document (e.g., the related summary results, grouping, sorting, bookmarks and other settings that have already been processed before generating the document).
-* A contol's **CanGrow** setting is ignored for editing fields.
+* A control's **CanGrow** setting is ignored for editing fields.
 	
 	Multi-line values can only be entered when no mask is applied to an editing field. The editing area of a field cannot exceed the original dimensions of a control.
 * Values entered into editing fields are reset back to their defaults after refreshing the document (e.g., when submitting [report parameter](..\shape-report-data\use-report-parameters.md) values and expanding or collapsing data in a [drill-down report](create-drill-down-reports.md)).
@@ -55,7 +53,7 @@ To learn about the specifics of editing different kinds of content, see the foll
 ## Text Editing
 The [Label](..\use-report-elements\use-basic-report-controls\label.md), [Table Cell](..\use-report-elements\use-tables.md) and [Character Comb](..\use-report-elements\use-basic-report-controls\character-comb.md) controls can be assigned editors to customize their content in Print Preview.
 
-To enable content editing for these controls, expand their **EditOptions** property and set the **Enabled** property to **true**.
+To enable content editing for these controls, expand the **Behavior** category, select the **Edit Options** section and set the **Enabled** property to **Yes**.
 
 ![](../../../images/eurd-web-content-editing-enable.png)
 
@@ -87,9 +85,6 @@ The following editors can be used to customize a field's content in Print Previe
     <li>Date</li>
     </ul>
     </td><td><ul>
-    <li>Only Letters</li>
-    <li>Only Uppercase Letters</li>
-    <li>Only Lowercase Letters</li>
     <li>Only Latin Letters</li>
     </ul>
     </td></tr></table>
@@ -102,16 +97,17 @@ The following editors can be used to customize a field's content in Print Previe
 ## Check Box Editing
 The [Check Box](..\use-report-elements\use-basic-report-controls\check-box.md) control's value can be edited in Print Preview.
 
-To enable content editing for a check box, expand its **EditOptions** property and set the **Enabled** property to **true**.
+To enable content editing for a check box, expand the **Behavior** category, select the **Edit Options** section and set the **Enabled** property to **Yes**.
 
 ![](../../../images/eurd-web-content-editing-enable-checkbox.png)
 
-In Print Preview, the control's behavior depends on the **GroupID** setting.
+In Print Preview, the control's behavior depends on the **Group ID** setting.
 
 * When this property is set to **null** or an empty string value, a check box can be switched either to the "checked" or "unchecked" state (the "intermediate" state is not supported) independently on other available check boxes.
 	
 	![](../../../images/eurd-web-content-editing-checkboxe.png)
-* Otherwise, the field editor behaves like a radio button, and editors with the same **GroupID** value belong to a single logical group (i.e., only one option can be selected within a group at a time).
+
+* Otherwise, the field editor behaves like a radio button, and editors with the same **Group ID** value belong to a single logical group (i.e., only one option can be selected within a group at a time).
 
 
 
