@@ -1,10 +1,10 @@
 ---
-title: Load a Document
+title: Open a Document
 author: Anna Kondratova
 legacyId: 113812
 ---
-# Load a Document
-To load a document, select the **File** tab, and click the **Open** button in the **Common** group.
+# Open a Document
+To open a document, select the **File** tab, and click the **Open** button in the **Common** group; or press CTRL+O.
 
 ![EUD_ASPxRichEdit_File_Open](../../../images/img117754.png)
 
