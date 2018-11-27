@@ -730,28 +730,34 @@
     items:
     - name: Create a New Document
       href: articles/rich-text-editor/file-operations/create-a-new-document.md
-    - name: Load a Document
+    - name: Open a Document
       href: articles/rich-text-editor/file-operations/load-a-document.md
+    - name: Save a Document
+      href: articles/rich-text-editor/file-operations/save-a-document.md     
     - name: Print a Document
       href: articles/rich-text-editor/file-operations/print-a-document.md
-    - name: Save a Document
-      href: articles/rich-text-editor/file-operations/save-a-document.md
   - name: Document Layout and Page Setup
     items:
+    - name: Insert a Page Break
+      href: articles/rich-text-editor/document-layout-and-page-setup/insert-a-page-break.md
     - name: Divide a Documents into Sections
       href: articles/rich-text-editor/document-layout-and-page-setup/divide-a-documents-into-sections.md
     - name: Adjust Page Settings
       href: articles/rich-text-editor/document-layout-and-page-setup/adjust-page-settings.md
     - name: Lay Out Text in Columns
       href: articles/rich-text-editor/document-layout-and-page-setup/lay-out-text-in-columns.md
+    - name: Page Color
+      href: articles/rich-text-editor/document-layout-and-page-setup/page-color.md
   - name: Viewing and Navigating
     items:
-    - name: Navigate through a Document
-      href: articles/rich-text-editor/viewing-and-navigating/navigate-through-a-document.md
+    - name: Document Views
+      href: articles/rich-text-editor/viewing-and-navigating/document-views.md
     - name: Show Horizontal Ruler
       href: articles/rich-text-editor/viewing-and-navigating/show-horizontal-ruler.md
     - name: Full Screen Mode
       href: articles/rich-text-editor/viewing-and-navigating/full-screen-mode.md
+    - name: Navigate through a Document
+      href: articles/rich-text-editor/viewing-and-navigating/navigate-through-a-document.md
   - name: Text Editing
     items:
     - name: Select Text
@@ -798,6 +804,18 @@
       href: articles/rich-text-editor/lists/bulleted-lists.md
     - name: Multilevel Lists
       href: articles/rich-text-editor/lists/multilevel-lists.md
+  - name: Tables
+    href: articles/rich-text-editor/tables.md
+  - name: Find and Replace
+    href: articles/rich-text-editor/find-and-replace.md
+  - name: Header and Footer
+    items:
+    - name: Header and Footer
+      href: articles/rich-text-editor/header-and-footer/header-and-footer.md
+    - name: Page Number and Count
+      href: articles/rich-text-editor/header-and-footer/page-number-and-count.md     
+  - name: Table of Contents
+    href: articles/rich-text-editor/table-of-contents.md
   - name: Mail Merge
     href: articles/rich-text-editor/mail-merge.md
   - name: Keyboard Shortcuts
@@ -815,9 +833,7 @@
       href: articles/rich-text-editor/keyboard-shortcuts/text-formatting.md
   - name: Miscellaneous
     items:
-    - name: Insert a Page Break
-      href: articles/rich-text-editor/miscellaneous/insert-a-page-break.md
-    - name: Insert a Hyperlink
+    - name: Bookmark and Hyperlink 
       href: articles/rich-text-editor/miscellaneous/insert-a-hyperlink.md
     - name: Insert a Symbol
       href: articles/rich-text-editor/miscellaneous/insert-a-symbol.md

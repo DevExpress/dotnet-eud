@@ -15,9 +15,9 @@ You can insert a page break in your document anywhere you want. To do this, foll
 	
 	![EUD_ASPxRichEdit_PageLayout_Break-Page](../../../images/img117825.png)
 	
-	Or press **CTRL+ENTER**.
+	Or press CTRL+ENTER.
 
-To show the page break mark, press **CTRL+SHIFT+8** or click the ![EUD_ASPxRichEdit_Home_ParagraphMarkButton](../../../images/img117764.png) button in the **Paragraph** group in the **Home** tab.
+To show the page break mark, press CTRL+SHIFT+8 or click the ![EUD_ASPxRichEdit_Home_ParagraphMarkButton](../../../images/img117764.png) button in the **Paragraph** group in the **Home** tab.
 
 ![EUD_ASPxRichEdit_Home_ParagraphMarks](../../../images/img117761.png)
 

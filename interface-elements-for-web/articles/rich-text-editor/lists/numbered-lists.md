@@ -10,8 +10,8 @@ legacyId: 113841
 	
 	![EUD_ASPxRichEdit_Home_InsertNumberedList](../../../images/img117837.png)
 3. Type the text.
-4. Press **ENTER** to create the next item of the list.
-5. To finish the list, press **ENTER** twice.
+4. Press ENTER to create the next item of the list.
+5. To finish the list, press ENTER twice.
 
 ## Make a Numbered List from the Selected Text
 You can add numbers to existing lines of text in two ways. The first one is to use the **Paragraph** group in the **Home** tab:

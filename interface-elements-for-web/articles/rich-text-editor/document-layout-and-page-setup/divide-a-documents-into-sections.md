@@ -13,7 +13,7 @@ To divide a document into sections, insert section breaks.
 	
 	![EUD_ASPxRichEdit_PageLayout_Breaks](../../../images/img117760.png)
 
-To show the section break mark, press **CTRL+SHIFT+8** or select the **Home** tab and click the ![EUD_ASPxRichEdit_Home_ParagraphMarkButton](../../../images/img117764.png) button in the **Paragraph** group.
+To show the section break mark, press CTRL+SHIFT+8 or select the **Home** tab and click the ![EUD_ASPxRichEdit_Home_ParagraphMarkButton](../../../images/img117764.png) button in the **Paragraph** group.
 
 ![EUD_ASPxRichEdit_Home_ParagraphMarks](../../../images/img117761.png)
 
