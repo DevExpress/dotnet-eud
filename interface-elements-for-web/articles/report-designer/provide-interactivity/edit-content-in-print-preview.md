@@ -15,12 +15,6 @@ To enable content editing for a report control, expand the **Behavior** category
 
 When the **Enabled** property is set to **Yes** and the **ReadOnly** property is set to **No**, the control's content can be edited in Print Preview (clicking a field will invoke the appropriate editor).
 
-The following standard editors can be assigned to a control, depending on the kind of content it displays.
-
-| Memo Edit | Check Box |
-|---|---|
-| ![](../../../images/eurd-web-content-editing-memoedit.png) | ![](../../../images/eurd-web-content-editing-checkboxe.png) |
-
 To highlight all editing fields available in a document, click the **Editing Fields** ![](../../../images/eurd-web-eform-editing-fields-button.png) button on the Print Preview toolbar. This button is disabled when there are no such fields in a document.
 
 ![](../../../images/eurd-web-content-editing-fields-highlight-ribbon.png)
@@ -34,7 +28,7 @@ When enabling content editing in your report, consider the following.
 	
 	Multi-line values can only be entered when no mask is applied to an editing field. The editing area of a field cannot exceed the original dimensions of a control.
 * Values entered into editing fields are reset back to their defaults after refreshing the document (e.g., when submitting [report parameter](..\shape-report-data\use-report-parameters.md) values and expanding or collapsing data in a [drill-down report](create-drill-down-reports.md)).
-* It is impossible to edit content of a control that has its **DrillDownControl** property specified.
+* It is impossible to edit content of a control that has its **Drill-Down Control** property specified.
 * Field values entered in Print Preview for controls placed onto the Top Margin and Bottom Margin bands are not preserved when the report is exported to TXT or CSV, as well as the following formats as a single file.
 	
 	* HTML
@@ -46,11 +40,12 @@ When enabling content editing in your report, consider the following.
 
 To learn about the specifics of editing different kinds of content, see the following sections in this document.
 
-* [Text Editing](#textediting)
-* [Check Box Editing](#editingcheckbox)
+* [Text Editors](#texteditors)
+* [Check Box Editor](#checkboxeditor)
+* [Image Editors](#imageeditors)
 
 
-## Text Editing
+## <a name="texteditors"></a>Text Editors
 The [Label](..\use-report-elements\use-basic-report-controls\label.md), [Table Cell](..\use-report-elements\use-tables.md) and [Character Comb](..\use-report-elements\use-basic-report-controls\character-comb.md) controls can be assigned editors to customize their content in Print Preview.
 
 To enable content editing for these controls, expand the **Behavior** category, select the **Edit Options** section and set the **Enabled** property to **Yes**.
@@ -79,7 +74,7 @@ The following editors can be used to customize a field's content in Print Previe
 > 
 > ![](../../../images/eurd-web-content-editing-table-cell-container.png)
 
-## Check Box Editing
+## <a name="checkboxeditor"></a>Check Box Editor
 The [Check Box](..\use-report-elements\use-basic-report-controls\check-box.md) control's value can be edited in Print Preview.
 
 To enable content editing for a check box, expand the **Behavior** category, select the **Edit Options** section and set the **Enabled** property to **Yes**.
@@ -94,5 +89,33 @@ In Print Preview, the control's behavior depends on the **Group ID** setting.
 
 * Otherwise, the field editor behaves like a radio button, and editors with the same **Group ID** value belong to a single logical group (i.e., only one option can be selected within a group at a time).
 
+## <a name="imageeditors"></a>Image Editors
 
+Image editors are used to customize the [Picture Box](..\use-report-elements\use-basic-report-controls\picture-box.md) report control's content in Print Preview.
+
+To enable content editing for a picture box, expand the **Behavior** category, select the **Edit Options** section and set the **Enabled** property to **Yes**.
+
+![](../../../images/eurd-web-content-editing-picturebox.png)
+
+Use the control's **Editor Name** property to assign one of the following image editors.
+
+* **Image Editor**
+
+    Allows you to load an image and specify the image's size options.
+
+    ![](../../../images/eurd-web-content-editing-image.png)
+
+* **Signature Editor**
+    
+    Allows you to specify brush options and draw a signature.
+
+    ![](../../../images/eurd-web-content-editing-signature.png)
+
+* **Image and Signature Editor** (default)
+
+    Allows you to load an image and draw a signature. The image's size options and brush options are available.
+
+    ![](../../../images/eurd-web-content-editing-image-and-signature.png)
+
+All these image editors include the ![](../../../images/eurd-web-content-editing-clear-changes.png) button. This button allows you to restore the initial image.
 
