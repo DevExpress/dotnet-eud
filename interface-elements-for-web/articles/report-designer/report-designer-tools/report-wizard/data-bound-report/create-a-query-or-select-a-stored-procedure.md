@@ -13,7 +13,9 @@ Select tables or views and their particular columns to automatically include the
 
 ![](../../../../../images/eurd-web-report-wizard-create-a-query-automatically.png)
 
-Click **Next** to proceed to the next wizard page: [Configure Master-Detail Relationships](configure-master-detail-relationships.md).
+When a query contains two or more tables you should define master-detail relationships between them on the next wizard page: [Configure Master-Detail Relationships](configure-master-detail-relationships.md).
+
+Otherwise, clicking **Next** will open the next Report Wizard page: [Choose Fields to Display in a Report](choose-fields-to-display-in-a-report.md).
 
 ## Manage Custom Queries
 
