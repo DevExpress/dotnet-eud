@@ -46,6 +46,8 @@ The parameter provides the following options:
 		![](../../../../images/eurd-web-parameters-dynamic-values.png)
 		
 		The value type of the specified data member should match the specified parameter type.
+
+		Specify the **Sort Order** and **Sort Member** properties to sort the list of values.
 		
 		
 ## Use Parameters

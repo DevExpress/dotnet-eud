@@ -18,6 +18,10 @@ The following properties are specific to the **QR** type and available in the [P
 
     Specifies the amount of redundancy built into the bar code's coding, to compensate for calculation errors.
 
+* **Logo**
+
+    Specifies the image that overlays the QR code.
+
 * **Version**
 
     Specifies the bar code's size.
