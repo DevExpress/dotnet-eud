@@ -12,7 +12,7 @@ This tutorial describes the steps to create a label report that contains employe
 
     ![](../../../../images/eurd-win-report-design-in-report-wizard.png)
 
-3. The wizard guides you through the process of creating a label report. Refer to [Label Report](../report-designer-tools/report-wizard/label-report.md) for detailed instructions on the wizard's steps. 
+3. The wizard guides you through the process of creating a label report. Refer to [Label Report](../report-designer-tools/report-wizard/labels.md) for detailed instructions on the wizard's steps. 
 
     ![](../../../../images/eurd-win-label-report.png)
 
