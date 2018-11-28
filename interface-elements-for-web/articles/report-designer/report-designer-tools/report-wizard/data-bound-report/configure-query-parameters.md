@@ -17,7 +17,7 @@ A parameter value can be specified in one of the following ways.
 
     ![](../../../../../images/eurd-web-data-source-wizard-configure-query-parameters-expression-editor.png)
 
-    You can map a [report parameter](../../../../shape-report-data/use-report-parameters.md) that already exists in a report to a query parameter.
+    You can map a [report parameter](../../../shape-report-data/use-report-parameters.md) that already exists in a report to a query parameter.
 	
 	![](../../../../../images/eurd-web-report-wizard-page-multi-query-parameters.png)
 
@@ -31,4 +31,4 @@ Select a parameter on this wizard page and click the **Edit** ![](../../../../..
 
 ![](../../../../../images/eurd-web-report-wizard-edit-query-parameter.png)
 
-Click **Next** to proceed to the next wizard page: [Choose Fields to Display in a Report](../choose-fields-to-display-in-a-report.md).
+Click **Next** to proceed to the next wizard page: [Choose Fields to Display in a Report](choose-fields-to-display-in-a-report.md).

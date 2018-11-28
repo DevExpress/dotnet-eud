@@ -22,4 +22,4 @@ You can stop the wizard at this step by clicking **Finish**. The created report 
 
 ![](../../../../../images/eurd-web-report-wizard-master-detail-select-fields-result.png)
 
-If you want to customize the report further, click **Next** to go to the [Add Grouping Levels](../add-grouping-levels.md) page.
+If you want to customize the report further, click **Next** to go to the [Add Grouping Levels](add-grouping-levels.md) page.

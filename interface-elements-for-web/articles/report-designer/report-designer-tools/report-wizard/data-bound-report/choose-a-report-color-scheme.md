@@ -7,7 +7,7 @@ author: Anna Vekhina
 
 This page allows you to choose a base color for report styles.
 
-![](../../../../images/eurd-web-report-wizard-choose-a-report-color-scheme.png)
+![](../../../../../images/eurd-web-report-wizard-choose-a-report-color-scheme.png)
 
 The wizard creates styles based on the chosen color for the first level report controls and applies styles with more transparent colors to controls on deeper levels.
 

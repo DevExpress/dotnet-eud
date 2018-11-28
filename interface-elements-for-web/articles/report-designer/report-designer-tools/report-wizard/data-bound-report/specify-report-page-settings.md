@@ -7,7 +7,7 @@ author: Anna Vekhina
 
 At this step, set up the report's page.
 
-![](../../../../images/eurd-web-report-wizard-specify-report-page-settings.png)
+![](../../../../../images/eurd-web-report-wizard-specify-report-page-settings.png)
 
 This wizard page allows you to specify the following report properties:
 
@@ -26,6 +26,6 @@ This wizard page allows you to specify the following report properties:
 
 * Page **Orientation**
 
-You can change these settings after you finish the wizard in the Report Designer's [Properties](../../report-designer-tools/ui-panels/properties-panel.md) panel.
+You can change these settings after you finish the wizard in the Report Designer's [Properties](../../../report-designer-tools/ui-panels/properties-panel.md) panel.
 
 If you want to customize the report further, click **Next** to proceed to the next wizard page: [Choose a Report Color Scheme](choose-a-report-color-scheme.md). Otherwise, click **Finish** to complete report customization.

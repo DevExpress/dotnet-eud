@@ -7,7 +7,7 @@ author: Anna Vekhina
 
 On this wizard page, you can specify summaries to calculate in the selected reports.
 
-![](../../../../images/eurd-web-report-wizard-master-detail-specify-summaries.png)
+![](../../../../../images/eurd-web-report-wizard-master-detail-specify-summaries.png)
 
 Use the drop-down list at the top of the wizard page to choose a required report.
 
@@ -19,6 +19,6 @@ If data fields can contain empty values and you do not want to take these values
 
 You can stop the wizard at this step by clicking **Finish**. The created report looks similar to the image below.
 
-![](../../../../images/eurd-web-report-wizard-master-detail-specify-summaries-result.png)
+![](../../../../../images/eurd-web-report-wizard-master-detail-specify-summaries-result.png)
 
 If you want to customize the report further, click **Next** to proceed to the next wizard page: [Specify Report Page Settings](specify-report-page-settings.md).

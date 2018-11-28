@@ -7,4 +7,4 @@ author: Anna Vekhina
 
 On this page, specify the title for the report and click **Finish** to exit the wizard.
 
-![](../../../../images/eurd-web-report-wizard-set-the-report-title.png)
+![](../../../../../images/eurd-web-report-wizard-set-the-report-title.png)
