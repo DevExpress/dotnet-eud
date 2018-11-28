@@ -16,4 +16,4 @@ Click the ![eud-grid-customizationdialog-show](../../../images/img128929.png) to
 
 ![eud-grid-customizationdialog-columnchooserpage](../../../images/img128928.png)
 
-Click the **Apply** (![eud-grid-customizationdialog-apply-button](../../../images/grid-customizationdialog-apply.png)) or **Close** (![eud-grid-customizationdialog-close-button](../../../images/grid-customizationdialog-close.png)) button to apply or discard the changes.
+Click the **Apply** (![eud-grid-customizationdialog-apply-button](../../../images/grid-customizationdialog-apply.png)) or **Close** (![eud-grid-customizationdialog-close-button](../../../images/grid-customizationdialog-close.png)) button to apply or discard changes.
