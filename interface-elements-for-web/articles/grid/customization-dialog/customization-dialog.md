@@ -14,7 +14,7 @@ The following pages are available within the dialog:
 
 Click a tab to switch to the corresponding page.
 
-You can modify dialog settings on every page and click **Apply**... ![eud-grid-customizationdialog-apply-button](../../../images/grid-customizationdialog-apply.png)  
+You can modify dialog settings on every page and click **Apply** ![eud-grid-customizationdialog-apply-button](../../../images/grid-customizationdialog-apply.png)...  
 
 ...or click **Close** ![eud-grid-customizationdialog-close-button](../../../images/grid-customizationdialog-close.png) to discard all the changes.
 
