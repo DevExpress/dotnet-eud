@@ -809,6 +809,15 @@
       href: articles/report-designer/customize-appearance/appearance-properties.md
     - name: Report Visual Styles
       href: articles/report-designer/customize-appearance/report-visual-styles.md
+  - name: Provide Interactivity
+    href: articles/report-designer/provide-interactivity.md
+    items:
+    - name: Create Drill-Down Reports
+      href: articles/report-designer/provide-interactivity/create-drill-down-reports.md
+    - name: Sort a Report in Print Preview
+      href: articles/report-designer/provide-interactivity/sort-a-report-in-print-preview.md
+    - name: Edit Content in Print Preview
+      href: articles/report-designer/provide-interactivity/edit-content-in-print-preview.md
   - name: Add Navigation
     href: articles/report-designer/add-navigation.md
     items:
