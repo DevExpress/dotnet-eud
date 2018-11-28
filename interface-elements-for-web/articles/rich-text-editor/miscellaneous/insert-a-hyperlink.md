@@ -10,7 +10,7 @@ You can add hyperlinks pointing to external locations or associated with bookmar
 
 A bookmark can refer to a particular position in a document or to a document range (e.g. portion of text, image).
 
-To create a new bookmark place the pointer to the required position or select the required document range. Click the **Bookmark** button in the **Links** group in the **Insert** tab.
+To create a new bookmark, place the pointer to the required position or select the required document range. Click the **Bookmark** button in the **Links** group in the **Insert** tab.
 
 ![EUD_ASPxRichEdit_InsertTab](../../../images/img117729.png)
 
@@ -18,25 +18,26 @@ Or right-click the selected document range and click the **Bookmark...** command
 
 ![EUD_ASPxRichEdit_Insert_BookmarkContext](../../../images/img117874.png)
 
-The **Bookmark** dialog will appear.
+The **Bookmark** dialog appears.
 
 ![EUD_ASPxRichEdit_Insert_BookmarkDialog](../../../images/rich-text-editor-miscellaneous-insert-bookmark.png)
 
-Specify a bookmark name and click **Add**. Note that bookmark name can contain numbers, letters, and the underscore symbol ("_"), and must begin with a letter.
+Specify a bookmark name and click **Add**. 
+
+> [!NOTE]
+> A bookmark name can contain numbers, letters, and the underscore symbol ("_"), and must begin with a letter.
 
 To delete a bookmark, invoke the **Bookmark** dialog, select the required bookmark, and click **Delete**.
 
-To navigate through bookmarks, invoke the **Bookmark** dialog, select required bookmark in a list and click **Go To**.
+To navigate through bookmarks, invoke the **Bookmark** dialog, select required bookmark in a list, and click **Go To**.
 
 ## Hyperlinks
 
-A hyperlink marks a document range (e.g. portion of text, image) as a hot spot in the document. Click a hyperlink while pressing CTRL to follow the link.
+A hyperlink is a document range (e.g. portion of text, image) that you can use to go to a webpage, to another place within the same document, or to create a new email message. Click a hyperlink while pressing CTRL to follow the link.
 
-To create a new hyperlink, select a document range and click the **Hyperlink** button in the **Links** group in the **Insert** tab.
+To create a new hyperlink, select a document range and click the **Hyperlink** button in the **Links** group in the **Insert** tab, or right-click the selected document range and click the **Hyperlink...** command in the context menu.
  
-Or right-click the selected document range and click the **Hyperlink...** command in the context menu.
- 
-The **Hyperlink** dialog will appear. 
+The **Hyperlink** dialog appears. 
  
 Use the option buttons at the top of the dialog to change the hyperlink direction.
 
@@ -58,7 +59,7 @@ Select a bookmark name from the dropdown list (required), and specify the hyperl
 
 ![EUD_ASPxRichEdit_Insert_HyperlinkDialog-Email](../../../images/rich-text-editor-miscellaneous-insert-hyperlink-email.png)
 
-Inserts a hyperlink, which when clicked, creates a new email message. 
+Inserts a hyperlink that creates a new email message. 
 Specify an email address (required), message subject, link text and tooltip, and click **OK**.
 
 > [!NOTE]
