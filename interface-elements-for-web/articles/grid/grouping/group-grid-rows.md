@@ -12,4 +12,4 @@ legacyId: 4145
 	![ASPxGridView_GroupReorder](../../../images/img7179.png)
 * Drag a column header(s) from the group panel to the column header panel to ungroup data.
 
-The [customization dialog](../customization-dialog/grouping-page.md) enables you to group and ungroup grid data, and change the order of grouping columns within the grid.
+Use the [customization dialog](../customization-dialog/grouping-page.md) to group/ungroup grid data and change the order of grouping columns within the grid.

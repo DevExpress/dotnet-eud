@@ -3,9 +3,9 @@ title: Data Validation
 ---
 # Data Validation
 
-The grid validates entered values and if a value doesn't pass validation, displays errors.
+The grid validates entered values and displays errors if a value does not pass validation.
 
-An error icon indicating the invalid value. Hover your mouse over the icon to display a hint along with a description of the error.
+An error icon indicating the invalid value. Hover the mouse over the icon to display a hint with the error's description.
 
 Correct every invalid value to save data. 
 

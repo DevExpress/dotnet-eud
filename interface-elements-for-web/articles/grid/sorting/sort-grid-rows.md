@@ -10,4 +10,4 @@ legacyId: 4147
 * A click on a column header clears the sort settings on any other columns. Hold the SHIFT key down while clicking to sort against multiple columns.
 * Click a column's header while pressing the CTRL key to clear the column's sorting.
 
-The [customization dialog](../customization-dialog/sorting-page.md) enables you to sort grid data, change the sorting order (ascending/descending), and change the order of sorted columns within the grid.
+You can use the [customization dialog](../customization-dialog/sorting-page.md) to sort grid data, change the sorting order (ascending/descending), and change the order of sorted columns within the grid.

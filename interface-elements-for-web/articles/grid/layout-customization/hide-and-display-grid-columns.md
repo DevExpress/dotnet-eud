@@ -13,4 +13,4 @@ Drag a column's header from the Field Chooser and drop it onto the column header
 
 
 ## Customization Dialog
-The [customization dialog](../customization-dialog/column-chooser.md) enables you to change the order and visibility of data columns.
+Use the [customization dialog](../customization-dialog/column-chooser.md) to change the order and visibility of data columns.

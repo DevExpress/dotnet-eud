@@ -8,21 +8,22 @@ Grid provides different elements that allows you to filter data.
 
 **Filter Buttons**
 
-Click a filter button to invoke the filter dropdown, which lists unique values in a column.
+Click a filter button to invoke a filter drop-down list that contains unique values in a column.
 
-If the dropdown displays check boxes, check them to select the required values, and click **OK** to apply the filter criteria.
+You can use the check boxes in the drop-down list to select values and click **OK** to apply the filter criteria.
+
 
 ![filter_header.png](../../../images/img17833.png)
 
-If the dropdown does not display check boxes, click the required value to apply the filter criteria.
+If the drop-down list does not display check boxes, click the required value to apply the filter criteria.
 
 ![ASpxGridView_HeaderFilter](../../../images/img7159.png)
 
-The filter dropdown only displays values that match the applied filter criteria. To remove the filter, click **(All)**.
+The drop-down list displays values that match the applied filter criteria. To remove the filter, click **(All)**.
 
-Note that if a filter is applied to a column, other column header filters display unique values of the sorted rows. To show the full list of values (include values of rows hidden by sorting), hold down SHIFT and click a header filter button.
+Note that if a filter is applied to a column, other column header filters display the sorted rows' unique values. You can press SHIFT and click a header filter button to show all the values (including hidden rows' values).
 
-For columns containing date and time data, the dropdown displays a [date range header filter](date-range-header-filter.md).
+For columns containing date and time data, the drop-down box displays a [date range editor](date-range-header-filter.md).
 
 
 **Filter Row**
@@ -43,13 +44,13 @@ To remove the column filter, clear the text in the auto-filter row. To remove th
 
 **Search Panel**
 
-The [Search Panel](search-panel.md) enables you to filter data and highlight search results.
+Use the [Search Panel](search-panel.md) to filter data and highlight search results.
 
 
 **Filter Builder**
 
-The [Filter Builder](creating-complex-filter-criteria-with-the-filter-control.md) enables you to create complex filter criteria.
+Use the [Filter Builder](creating-complex-filter-criteria-with-the-filter-control.md) to create complex filter criteria.
 
 **Customization Dialog**
 
-The [customization dialog](../customization-dialog/filtering-page.md) enables you to filter grid data by entering filter criteria.
+Use the [customization dialog](../customization-dialog/filtering-page.md) to filter grid data by entering filter criteria.

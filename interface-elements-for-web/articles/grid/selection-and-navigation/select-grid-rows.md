@@ -8,7 +8,7 @@ legacyId: 5566
 
 Click a row while holding down the CTRL key to toggle the row's selected state. 
 
-Contiguous rows can be selected by clicking the first row and the last row, while holding down the SHIFT key. In this case, the previous selection is cleared. The selection can be further customized, by clicking individual rows while holding down the CTRL key.
+You can select contiguous rows by clicking the first row and the last row while holding down the SHIFT key. In this case the previous selection is cleared. You can further customize the selection by clicking individual rows while holding down the CTRL key.
 
 ![Selection](../../../images/img7293.png)
 
