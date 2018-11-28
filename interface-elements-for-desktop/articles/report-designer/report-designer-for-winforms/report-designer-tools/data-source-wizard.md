@@ -5,22 +5,37 @@ title: Data Source Wizard
 
 The Data Source Wizard enables you to configure a data source and retrieve the required data. It supports the following data source types:
 
-* [Database](report-wizard\data-bound-report\connect-to-a-database.md)
+* [Database](data-source-wizard\connect-to-a-database.md)
 	
 	Obtains data from all major data providers (Microsoft SQL Server, XML data, Microsoft Access, Oracle, etc.).
-* [Entity Framework](report-wizard\data-bound-report\connect-to-an-entity-framework-data-source.md)
+* [Entity Framework](data-source-wizard\connect-to-an-entity-framework-data-source.md)
 	
 	Supports binding to a Microsoft ADO.NET Entity Framework data source.
-* [Object Binding](report-wizard\data-bound-report\connect-to-an-object-data-source.md)
+* [Object Binding](data-source-wizard\connect-to-an-object-data-source.md)
 	
 	Connects to a data object.
-* [Excel File](report-wizard\data-bound-report\connect-to-an-excel-data-source.md)
+* [Excel File](data-source-wizard\connect-to-an-excel-data-source.md)
 	
 	Obtains data from Microsoft Excel workbooks (XLS, XLSX or XLSM files) or CSV files.
+* [JSON](data-source-wizard\connect-to-a-json-data-source.md)
 
-![eurd-win-report-wizard-select-data-source-type](../../../../images/eurd-win-report-wizard-select-data-source-type.png)
+	Connects to JSON-formatted data.
+
+* [XPO](data-source-wizard\connect-to-an-xpo-data-source.md)
+
+	Allows you to bind to **XPO** data.
+
+* [No Data](data-source-wizard\no-data.md)
+
+	Allows you design a report that is not bound to a data source.	
+
+![ReportWizard-SelectDataSourceType](../../../../images/eurd-ReportWizard-SelectDataSourceType.png)
 
 The Data Source Wizard allows you to do the following:
+
+* [Add a new data-bound report](..\add-new-reports.md) to your application using the [Report Wizard](report-wizard.md), which contains the Data Source Wizard pages.
+	
+	![report-wizard-databaound-report-01](../../../../images/eurd-wizard-databaound-report.png)
 
 * Bind an existing report or its [Detail Report band](../introduction-to-banded-reports.md) to data. To invoke this Wizard, click **Add Data Source** on the [Ribbon](toolbar.md)'s **Home** page.
 

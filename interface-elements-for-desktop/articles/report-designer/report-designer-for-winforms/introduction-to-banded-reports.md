@@ -10,11 +10,11 @@ Banded reports provide a generalized report layout notion. When you preview a ba
 
 A report layout consists of bands that contain report controls and define their location on document pages. A blank report contains the following bands:
 
-- The **Detail Band** displays recurring contents from the report's data source. This band is printed as many times as there are records available in a data source unless you filtered the data.
+- The **Detail Band** is printed for every record in a data source unless you filtered the data.
 
-    Every report must have a detail band, and you cannot delete it.
+    Every report should have a detail band, and you cannot delete it.
 
-- The top and bottom page **Margin bands**. These bands are repeated once on every document page.
+- The **Top Margin** and **Bottom Margin** bands. These bands are repeated once on every document page.
 
 ![eurd-win-report-bands-design-time-default-layout](../../../images/eurd-win-report-bands-design-time-default-layout.png)
 
@@ -43,15 +43,42 @@ The following image illustrates a sample report layout and the [Report Explorer]
 
 ## Add a Detail Band to a Master-Detail Band
 
-Use the **detail report band** to create hierarchical [master-detail reports](create-popular-reports/create-a-master-detail-report-use-detail-report-bands.md). Detail report bands provide detailed information about each record in the master report's detail band (for example, orders shipped to each customer). You can create such reports when master-detail relationships are defined between data source tables:
+Use the **Detail Report** band to create hierarchical [master-detail reports](create-popular-reports/create-a-master-detail-report-use-detail-report-bands.md). Detail report bands provide detailed information about each record in the master report's detail band (for example, orders shipped to each customer). You can create such reports when master-detail relationships are defined between data source tables:
 
 ![eurd-win-master-detail-relation-editor-report-designer](../../../images/eurd-win-master-detail-relation-editor-report-designer.png)
 
-A detail report band is a separate report (subreport) with its own data source and different bands. A report can have any number of detail reports that can also be nested.
+The Detail Report band is a separate report (subreport) with its own data source and different bands. A report can have any number of detail reports that can also be nested.
 
 The following image illustrates a master-detail report and the [Report Explorer](report-designer-tools\ui-panels\report-explorer.md) that reflects the report's structure:
 
 ![eurd-win-report-bands-basic-layout-subreports](../../../images/eurd-win-report-bands-basic-layout-subreports.png)
+
+## Vertical Bands
+
+You can replace the Detail band with the Vertical Header, Vertical Detail and Vertical Total bands to display record fields vertically and print data records horizontally - from left to right (and vise versa if the report's RTL mode is enabled).
+
+![VerticalBands_Demo](../../../images/eurd-VerticalBands-Demo.png)
+
+To add vertical bands to your report, right-click the report in the Report Designer and choose **Insert Vertical Band** in the invoked context menu.
+
+![VerticalBands_UseContextMenu](../../../images/eurd-VerticalBands-UseContextMenu.png)
+
+> [!Note]
+> If your report's **Detail** band contains report controls, this band and all these controls are lost when you add a vertical band (the same behavior takes place in the opposite situation).
+
+
+
+The following vertical bands are available:
+
+- **Vertical Header**    
+    Contains headers of the report's data fields. These headers are arranged vertically.
+- **Vertical Details**   
+    This band is printed for every record in a data source unless you filtered the data. The records are displayed one after another in a horizontal direction.
+- **Vertical Total**   
+    This band is placed at the rightmost position (leftmost when RTL is enabled). You can use the Vertical Total band for report [summaries](shape-report-data\shape-data-expression-bindings\calculate-a-summary.md) or conclusions.
+
+You can use the [Report Wizard](report-designer-tools\report-wizard.md) to create a report with vertical bands. Refer to the [Create a Vertical Report](create-popular-reports\create-a-vertical-report.md) topic for instructions on how to create a report with vertical bands.
+
 
 ## Create Band Copies
 
