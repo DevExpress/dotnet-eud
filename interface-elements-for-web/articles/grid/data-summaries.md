@@ -3,7 +3,7 @@ title: Data Summaries
 ---
 # Data Summaries
 
-The grid can calculate and displays summaries, i.e., brief information about groups of rows or individual data columns. The following most popular aggregate functions are provided.
+The grid can calculate and displays summaries, i.e., brief information about groups of rows or individual data columns. The following aggregate functions are available:
 * Average
 * Count
 * Max
