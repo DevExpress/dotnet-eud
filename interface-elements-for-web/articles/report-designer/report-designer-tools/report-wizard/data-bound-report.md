@@ -8,10 +8,10 @@ To create a new report and connect it to data, [run the Report Wizard](..\report
 
 ![](../../../../images/eurd-web-report-wizard.png)
 
-The Report Wizard can include the following pages (depending on the selected data source type):
+The Report Wizard can includes the following pages:
 
-* [Select the Data Source Type](data-bound-report\select-the-data-source-type.md)
+* [Choose a Data Connection](data-bound-report\choose-a-data-connection.md)
+* [Create a Query or Select a Stored Procedure](data-bound-report\create-a-query-or-select-a-stored-procedure.md)
+* [Configure Query Parameters](data-bound-report\configure-query-parameters.md)
+* [Configure Master-Detail Relationships](data-bound-report\configure-master-detail-relationships.md)
 * [Choose Fields to Display in a Report](data-bound-report\choose-fields-to-display-in-a-report.md)
-* [Add Grouping Levels](data-bound-report\add-grouping-levels.md)
-* [Specify Summary Options](data-bound-report\specify-summary-options.md)
-* [Set the Report Title](data-bound-report\set-the-report-title.md)
