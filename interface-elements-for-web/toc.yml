@@ -829,6 +829,52 @@
       href: articles/report-designer/add-extra-information/display-the-current-date-and-time-in-a-report.md
     - name: Display the User Name in a Report
       href: articles/report-designer/add-extra-information/display-the-user-name-in-a-report.md
+  - name: Report Designer Tools
+    href: articles/report-designer/report-designer-tools.md
+    items:
+    - name: Report Wizard
+      href: articles/report-designer/report-designer-tools/report-wizard.md
+      items:
+        - name: Empty Report
+          href: articles/report-designer/report-designer-tools/report-wizard/empty-report.md
+        - name: Data-bound Report
+          href: articles/report-designer/report-designer-tools/report-wizard/data-bound-report.md
+          items:
+          - name: Choose a Data Connection
+            href: articles/report-designer/report-designer-tools/report-wizard/data-bound-report/choose-a-data-connection.md    
+          - name: Create a Query or Select a Stored Procedure
+            href: articles/report-designer/report-designer-tools/report-wizard/data-bound-report/create-a-query-or-select-a-stored-procedure.md
+          - name: Configure Query Parameters
+            href: articles/report-designer/report-designer-tools/report-wizard/data-bound-report/configure-query-parameters.md
+          - name: Configure Master-Detail Relationships
+            href: articles/report-designer/report-designer-tools/report-wizard/data-bound-report/configure-master-detail-relationships.md
+          - name: Choose Fields to Display in a Report
+            href: articles/report-designer/report-designer-tools/report-wizard/data-bound-report/choose-fields-to-display-in-a-report.md
+          - name: Add Grouping Levels
+            href: articles/report-designer/report-designer-tools/report-wizard/data-bound-report/add-grouping-levels.md
+          - name: Specify Summary Options
+            href: articles/report-designer/report-designer-tools/report-wizard/data-bound-report/specify-summary-options.md
+          - name: Specify Report Page Settings
+            href: articles/report-designer/report-designer-tools/report-wizard/data-bound-report/specify-report-page-settings.md
+          - name: Choose a Report Color Scheme
+            href: articles/report-designer/report-designer-tools/report-wizard/data-bound-report/choose-a-report-color-scheme.md
+          - name: Set the Report Title
+            href: articles/report-designer/report-designer-tools/report-wizard/data-bound-report/set-the-report-title.md
+        - name: Label Report
+          href: articles/report-designer/report-designer-tools/report-wizard/label-report.md
+          items:
+          - name: Select the Label Type
+            href: articles/report-designer/report-designer-tools/report-wizard/data-bound-report/select-the-label-type.md
+          - name: Customize the Label Options
+            href: articles/report-designer/report-designer-tools/report-wizard/data-bound-report/customize-the-label-options.md     
+    - name: SQL Data Source Wizard
+      href: articles/report-designer/report-designer-tools/sql-data-source-wizard.md
+    - name: Query Builder
+      href: articles/report-designer/report-designer-tools/query-builder.md
+    - name: Toolbox
+      href: articles/report-designer/report-designer-tools/toolbox.md
+    - name: UI Panels
+      href: articles/report-designer/report-designer-tools/ui-panels.md  
 - name: Ribbon
   href: articles/ribbon.md
   items:
