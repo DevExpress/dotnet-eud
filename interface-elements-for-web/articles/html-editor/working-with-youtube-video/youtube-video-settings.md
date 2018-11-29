@@ -4,7 +4,7 @@ author: Svetlana Nikulina
 legacyId: 17998
 ---
 # YouTube Video Settings
-When you [insert](insert-a-youtube-video-into-html-editor.md) or [modify](modify-youtube-video-settings-in-html-editor.md) YouTube video in an HTML Editor, you can customize the video player settings as well.
+When you [insert](insert-a-youtube-video-into-html-editor.md) or [modify](modify-youtube-video-settings-in-html-editor.md) YouTube video in an HTML Editor, you can customize the video player settings.
 
 To display the settings section in a YouTube video dialog, select the **More options** check box.
 

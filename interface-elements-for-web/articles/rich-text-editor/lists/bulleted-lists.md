@@ -10,8 +10,8 @@ legacyId: 113842
 	
 	![EUD_ASPxRichEdit_Home_InsertBulletedList](../../../images/img117838.png)
 3. Type the text.
-4. Press **ENTER** to create the next item in the list.
-5. To finish the list, press **ENTER** twice.
+4. Press ENTER to create the next item in the list.
+5. To finish the list, press ENTER twice.
 
 ## Make a Bulleted List from the Selected Text
 You can add bullets to existing lines of text in two ways. The first method is to use the **Paragraph** group within the **Home** tab:

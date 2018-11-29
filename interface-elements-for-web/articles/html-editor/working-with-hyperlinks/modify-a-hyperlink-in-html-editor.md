@@ -1,11 +1,11 @@
 ---
-title: Modify a Hyperlink in HTML Editor
+title: Modify a Hyperlink
 author: Anna Kondratova
 legacyId: 4520
 ---
-# Modify a Hyperlink in HTML Editor
+# Modify a Hyperlink
 To modify a hyperlink, do the following.
-1. Select a hyperlink. Place a mouse pointer inside a link if you are going to modify a text hyperlink. Or, select an image in order to edit an image hyperlink.
+1. Select a hyperlink; or place a mouse pointer inside a link if you are going to modify a text hyperlink; or select an image in order to edit an image hyperlink.
 	
 	![ASPxHtmlEditor-selected hyperlink](../../../images/img7375.png)
 2. Click the **Insert link** button. Alternatively, you can right-click and select the **Change Link** item within the invoked context menu.

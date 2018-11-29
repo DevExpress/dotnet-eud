@@ -18,23 +18,26 @@ This section describes the capabilities provided by the **Rich Text Editor**.
 
 **File Operations**
 * [Create a New Document](rich-text-editor/file-operations/create-a-new-document.md)
-* [Load a Document](rich-text-editor/file-operations/load-a-document.md)
+* [Open a Document](rich-text-editor/file-operations/load-a-document.md)
 * [Save a Document](rich-text-editor/file-operations/save-a-document.md)
 * [Print a Document](rich-text-editor/file-operations/print-a-document.md)
 
 &nbsp;
 
 **Document Layout and Page Setup**
+* [Insert a Page Break](rich-text-editor/document-layout-and-page-setup/insert-a-page-break.md)
 * [Divide a Documents into Sections](rich-text-editor/document-layout-and-page-setup/divide-a-documents-into-sections.md)
 * [Adjust Page Settings](rich-text-editor/document-layout-and-page-setup/adjust-page-settings.md)
 * [Lay Out Text in Columns](rich-text-editor/document-layout-and-page-setup/lay-out-text-in-columns.md)
+* [Page Color](rich-text-editor/document-layout-and-page-setup/page-color.md)
 
 &nbsp;
 
 **Viewing and Navigating**
-* [Navigate through a Document](rich-text-editor/viewing-and-navigating/navigate-through-a-document.md)
+* [Document Views](rich-text-editor/viewing-and-navigating/document-views.md)
 * [Show Horizontal Ruler](rich-text-editor/viewing-and-navigating/show-horizontal-ruler.md)
 * [Full Screen Mode](rich-text-editor/viewing-and-navigating/full-screen-mode.md)
+* [Navigate through a Document](rich-text-editor/viewing-and-navigating/navigate-through-a-document.md)
 
 &nbsp;
 
@@ -73,6 +76,27 @@ This section describes the capabilities provided by the **Rich Text Editor**.
 
 &nbsp;
 
+**Tables**
+* [Tables](rich-text-editor/tables.md)
+
+&nbsp;
+
+**Find and Replace**
+* [Find and Replace](rich-text-editor/find-and-replace.md)
+
+&nbsp;
+
+**Header and Footer**
+* [Header and Footer](rich-text-editor/header-and-footer/header-and-footer.md)
+* [Page Number and Count](rich-text-editor/header-and-footer/page-number-and-count.md)
+
+&nbsp;
+
+**Table of Contents**
+* [Table of Contents](rich-text-editor/table-of-contents.md)
+
+&nbsp;
+
 **Mail Merge**
 * [Mail Merge](rich-text-editor/mail-merge.md)
 
@@ -88,6 +112,6 @@ This section describes the capabilities provided by the **Rich Text Editor**.
 &nbsp;
 
 **Miscellaneous**
-* [Insert a Page Break](rich-text-editor/miscellaneous/insert-a-page-break.md)
-* [Insert a Hyperlink](rich-text-editor/miscellaneous/insert-a-hyperlink.md)
+
+* [Bookmark and Hyperlink](rich-text-editor/miscellaneous/insert-a-hyperlink.md)
 * [Insert a Symbol](rich-text-editor/miscellaneous/insert-a-symbol.md)

@@ -1,21 +1,21 @@
 ---
 title: Responsive Layout
-author: Anna Kondratova
+author: Svetlana Nikulina
 ---
 # Responsive Layout
 
 ![Adaptivity_HideShowButtons](../../images/menu-responsive-layout.png)
 
-The menu can operate in the following ways when items do not fit the browser window's width.
+The menu can display its items as follows when they do not fit the browser window's width:
 
-* The menu moves its items to a popup menu hidden under the ellipsis button. Hover the button to show the hidden items.
+* Move items to a drop-down menu. To show these items, hover the ellipsis button.
 
 ![Adaptivity_HideShowButtons](../../images/menu-responsive-layout-ellipsis.png)
 
-* The menu hides root items' text and displays icons only. Hover an item to display its text.
+* Display icons only. When you hover an item, its caption is displayed as a tooltip.
 
 ![Adaptivity_HideShowButtons](../../images/menu-responsive-layout-icons.png)
 
-* The menu changes its orientation to vertical and hides items under the hamburger button. Click the button to show vertical side-menu.
+* Orientate vertically and hide items under the hamburger button. You can click this button to show vertical side-menu.
 
 ![Adaptivity_HideShowButtons](../../images/menu-responsive-layout-side-menu.png)

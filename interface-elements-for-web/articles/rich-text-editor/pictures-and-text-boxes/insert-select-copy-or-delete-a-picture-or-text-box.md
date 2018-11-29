@@ -36,12 +36,12 @@ Click a picture/text box's border to select it.
 ## <a name="copy"/>Copy/Paste a Picture or Text Box
 To copy floating images and text boxes within a document, do the following: 
 1. [Select](#select) a picture/text box to be copied.
-2. On the **Home** tab, in the **Clipboard** group, click **Copy**, or select it from the context menu, or press **Ctrl+C**.
+2. On the **Home** tab, in the **Clipboard** group, click **Copy**, or select it from the context menu, or press CTRL+C.
 3. Position the caret at the location for inserting the copied picture/text box.
-4. On the **Home** tab, in the **Clipboard** group, click **Paste**, or select it from the context menu, or press **Ctrl+V**.
+4. On the **Home** tab, in the **Clipboard** group, click **Paste**, or select it from the context menu, or press CTRL+V.
 
 To delete an image or text box follow the instructions below.
 
 ## <a name="delete"/>Delete a Picture or Text Box
 1. [Select](#select) a picture/text box.
-2. Press **Delete** or **Backspace**
+2. Press DELETE or BACKSPACE.
