@@ -4,7 +4,7 @@ author: Svetlana Nikulina
 legacyId: 4144
 ---
 # Filtering Data
-Grid provides different elements that allows you to filter data.
+Grid provides different elements that allow you to filter data.
 
 **Filter Buttons**
 
@@ -23,7 +23,7 @@ The drop-down list displays values that match the applied filter criteria. To re
 
 Note that if a filter is applied to a column, other column header filters display the sorted rows' unique values. You can press SHIFT and click a header filter button to show all the values (including hidden rows' values).
 
-For columns containing date and time data, the drop-down box displays a [date range editor](date-range-header-filter.md).
+The drop-down box displays a [date range editor](date-range-header-filter.md) for columns containing date and time data.
 
 
 **Filter Row**
@@ -53,4 +53,4 @@ Use the [Filter Builder](creating-complex-filter-criteria-with-the-filter-contro
 
 **Customization Dialog**
 
-Use the [customization dialog](../customization-dialog/filtering-page.md) to filter grid data by entering filter criteria.
+Use the customization dialog's [Filtering page](../customization-dialog/filtering-page.md) to apply filter criteria to grid data.
