@@ -4,12 +4,12 @@ author: Svetlana Nikulina
 legacyId: 115283
 ---
 # Batch Editing
-The Card View allows you to edit a group of records (on a single page) and save these changes with one click. In this view, you can create new cards, delete existing cards and edit individual cell values.
-* To create a new card, click the **New** button and specify the field values.
+You can create new cards, delete existing cards, and edit individual cell values on a single page and save these changes with one click. 
+* To create a new card, click the **New** button and specify field values.
 * To delete a card, click the **Delete** button in the card to be deleted.
 * To edit a cell value, click (or double-click) the cell and edit the value.
 
-The cells that were modified are highlighted in a different color. To save all changes, click **Save changes**. To cancel all changes, click **Cancel changes**.
+The modified cells are highlighted in a different color. To save all changes, click **Save changes** or click **Cancel changes**  to discard all the changes.
 
 ![EUD_CardView_Batch](../../../images/img121521.png)
 

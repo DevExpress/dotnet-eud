@@ -4,9 +4,9 @@ author: Svetlana Nikulina
 legacyId: 115285
 ---
 # Page Navigation
-To switch between pages, use the Card View's pager:
+Use Card View's pager to switch between pages.
 
 ![EUD_CardView_Pager](../../../images/img121525.png)
 
-To change the number of data items (cards) displayed on one page, click the **Rows per page** selector and select the required number of rows per page.
+To change the number of cards displayed on one page, click the **Rows per page** selector and select the required number of rows per page.
 ![EUD_CardView_PageSize](../../../images/img121526.png)

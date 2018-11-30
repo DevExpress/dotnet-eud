@@ -10,9 +10,9 @@
     items:
     - name: Add and Delete Cards
       href: articles/card-view/data-editing/add-and-delete-cards.md
-    - name: Switching a Card View to Edit Mode
-      href: articles/card-view/data-editing/switching-a-cardview-to-edit-mode.md
-    - name: 'Save or Discard Changes '
+    - name: Switch to Edit Mode
+      href: articles/card-view/data-editing/switch-to-edit-mode.md
+    - name: Save or Discard Changes
       href: articles/card-view/data-editing/save-or-discard-changes.md
     - name: Batch Editing
       href: articles/card-view/data-editing/batch-editing.md
@@ -24,6 +24,8 @@
       href: articles/card-view/selection-and-navigation/select-cards.md
   - name: Sorting
     href: articles/card-view/sorting.md
+  - name: Grouping
+    href: articles/card-view/grouping.md   
   - name: Filtering
     items:
     - name: Header Filter
@@ -34,6 +36,10 @@
       href: articles/card-view/filtering/search-panel.md
     - name: Creating Complex Filter Criteria with the Filter Builder
       href: articles/card-view/filtering/creating-complex-filter-criteria-with-the-filter-control.md
+  - name: Data Summaries
+    href: articles/card-view/data-summaries.md   
+  - name: Data Validation
+    href: articles/card-view/data-validation.md             
   - name: Exporting
     href: articles/card-view/exporting/exporting.md
 - name: Charting
