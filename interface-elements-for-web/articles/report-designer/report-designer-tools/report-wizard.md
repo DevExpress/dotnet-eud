@@ -20,11 +20,11 @@ The Report Wizard allows you to add a report using one of the following template
 
 ## Run the Report Wizard
 
-Use one of the following command in the designer [menu](report-designer-tools/menu.md) to invoke the Report Wizard.
+Use one of the following commands in the designer [menu](report-designer-tools/menu.md) to invoke the Report Wizard.
 
 - Create a new report
 
-    Use the [New Report via Wizard](../add-new-reports.md) command to create a new report based on a Report Wizard template.
+    Use the [New via Wizard...](../add-new-reports.md) command to create a new report based on a Report Wizard template.
 
     ![](../../../images/eurd-web-add-new-report-via-wizard.png)
 
