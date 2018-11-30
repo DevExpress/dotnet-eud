@@ -12,6 +12,7 @@ At this step, set up the report's page.
 This wizard page allows you to specify the following report properties:
 
 * Report Page **Size**
+
 * **Unit** 
 
     Choose between _Inch_, _Millimeter_ and _Pixel_ to specify size options on this wizard page. After you finish the wizard, the Report Designer transforms the specified units to _HundredthsOfAnInch_, _TenthsOfAMillimeter_ or _Pixels_ to provide a more precise report element alignment.

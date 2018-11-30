@@ -31,4 +31,6 @@ Select a parameter on this wizard page and click the **Edit** ![](../../../../..
 
 ![](../../../../../images/eurd-web-report-wizard-edit-query-parameter.png)
 
-Click **Next** to proceed to the next wizard page: [Choose Fields to Display in a Report](choose-fields-to-display-in-a-report.md).
+When the resulting query contains two or more queries you should define master-detail relationships between them on the next wizard page: [Configure Master-Detail Relationships](configure-master-detail-relationships.md).
+
+Otherwise, clicking **Next** will open the next Report Wizard page: [Choose Fields to Display in a Report](choose-fields-to-display-in-a-report.md).

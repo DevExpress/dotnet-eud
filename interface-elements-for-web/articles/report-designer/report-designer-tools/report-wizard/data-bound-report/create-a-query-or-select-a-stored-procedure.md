@@ -9,7 +9,7 @@ On this wizard page, you can choose which tables, views and/or stored procedures
 
 ## Select Data to Create a Query Automatically
 
-Select tables or views and their particular columns to automatically include them into the a query.
+Select tables and/or views to automatically include them into the a query. You can expand a table and select specific columns if you do not need to use the whole table.
 
 ![](../../../../../images/eurd-web-report-wizard-create-a-query-automatically.png)
 
