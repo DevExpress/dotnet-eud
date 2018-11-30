@@ -5,7 +5,7 @@ owner: Anna Vekhina
 
 # SQL Data Source Wizard
 
-The **SQL Data Source Wizard** enables you to create a new data source or edit an existing one. This wizard provides the same pages as the [Report Wizard](report-wizard.md).
+The **SQL Data Source Wizard** enables you to create a new data source or edit an existing one. 
 
 ## Add a New Data Source
 
