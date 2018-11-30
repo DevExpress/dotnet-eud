@@ -1017,38 +1017,50 @@
 - name: Tree List
   href: articles/tree-list.md
   items:
-  - name: Edit Tree List Cells
-    href: articles/tree-list/edit-tree-list-cells.md
+  - name: Data Editing
+    items:
+    - name: Edit Cell Values
+      href: articles/tree-list/data-editing/edit-cell-values.md
+    - name: Batch Editing
+      href: articles/tree-list/data-editing/batch-editing.md
   - name: Data Presentation
     items:
-    - name: Expand and Collapse Tree List Nodes
-      href: articles/tree-list/data-presentation/expand-and-collapse-tree-list-nodes.md
-    - name: Sort Nodes in Tree List
-      href: articles/tree-list/data-presentation/sort-nodes-in-tree-list.md
+    - name: Expand and Collapse Nodes
+      href: articles/tree-list/data-presentation/expand-and-collapse-nodes.md
+    - name: Sort Nodes
+      href: articles/tree-list/data-presentation/sort-nodes.md
   - name: Filtering
     items:
     - name: Header Filter 
       href: articles/tree-list/filtering/header-filter.md
     - name: Date Range Header Filter
       href: articles/tree-list/filtering/date-range-header-filter.md
-    - name: Data Filter Row
+    - name: Filter Row
       href: articles/tree-list/filtering/filter-row.md
     - name: Search Panel
       href: articles/tree-list/filtering/search-panel.md
-    - name: Creating Complex Filter Criteria with the Filter Control
+    - name: Creating Complex Filter Criteria with the Filter Builder
       href: articles/tree-list/filtering/creating-complex-filter-criteria-with-the-filter-control.md
-  - name: Layout and Navigation
+  - name: Navigation and Layout
     items:
-    - name: Selection and Navigation in Tree List
-      href: articles/tree-list/layout-and-navigation/selection-and-navigation-in-tree-list.md
-    - name: Reorder Columns in Tree Lists
-      href: articles/tree-list/layout-and-navigation/reorder-columns-in-tree-lists.md
-    - name: Reorder Tree List Nodes
-      href: articles/tree-list/layout-and-navigation/reorder-tree-list-nodes.md
+    - name: Selection and Navigation
+      href: articles/tree-list/layout-and-navigation/selection-and-navigation.md
     - name: Keyboard Navigation
       href: articles/tree-list/layout-and-navigation/keyboard-navigation.md
-    - name: Field Chooser
-      href: articles/tree-list/layout-and-navigation/field-chooser.md
+    - name: Reorder Nodes
+      href: articles/tree-list/layout-and-navigation/reorder-nodes.md
+    - name: Reorder Columns
+      href: articles/tree-list/layout-and-navigation/reorder-columns.md
+    - name: Resize Columns
+      href: articles/tree-list/layout-and-navigation/resize-columns.md
+    - name: Column Chooser
+      href: articles/tree-list/layout-and-navigation/column-chooser.md
+  - name: Data Summaries
+    href: articles/tree-list/data-summaries.md    
+  - name: Data Validation
+    href: articles/tree-list/data-validation.md  
+  - name: Data Export
+    href: articles/tree-list/data-export.md            
 - name: Tree View
   href: articles/tree-view.md
   items:

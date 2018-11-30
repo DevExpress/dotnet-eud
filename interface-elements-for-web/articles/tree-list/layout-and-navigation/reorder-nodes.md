@@ -1,10 +1,10 @@
 ---
-title: Reorder Tree List Nodes
+title: Reorder Nodes
 author: Bogdan Harchenko
 legacyId: 4534
 ---
-# Reorder Tree List Nodes
-To change a node's location, drag it via the mouse, and drop it at the required position.
+# Reorder Nodes
+You can drag a node by mouse and drop it at the required position.
 
 ![ASPxTreeList_NodeDragDrop](../../../images/img8911.gif)
 
