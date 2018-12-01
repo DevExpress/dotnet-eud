@@ -1073,29 +1073,33 @@
   items:
   - name: Data Editing
     items:
-    - name: Add, Delete and Recover Records
-      href: articles/vertical-grid/data-editing/add-delete-and-recover-records.md
-    - name: Switching a Vertical Grid to Batch Edit Mode
-      href: articles/vertical-grid/data-editing/switching-a-vertical-grid-to-batch-edit-mode.md
-    - name: Save or Discard Changes when Editing Grid Records
-      href: articles/vertical-grid/data-editing/save-or-discard-changes-when-editing-grid-records.md
-    - name: Batch Editing
-      href: articles/vertical-grid/data-editing/batch-editing.md
+    - name: Add, Delete and Recover Columns
+      href: articles/vertical-grid/data-editing/add-delete-and-recover-columns.md
+    - name: Switch to Edit Mode
+      href: articles/vertical-grid/data-editing/switch-to-edit-mode.md
+    - name: Save or Discard Changes
+      href: articles/vertical-grid/data-editing/save-or-discard-changes.md
   - name: Selection and Navigation
     items:
     - name: Page Navigation
       href: articles/vertical-grid/selection-and-navigation/page-navigation.md
     - name: Select Records
       href: articles/vertical-grid/selection-and-navigation/select-records.md
+  - name: Sorting
+    href: articles/vertical-grid/sorting.md     
   - name: Filtering
     items:
-    - name: Creating Complex Filter Criteria with the Filter Control
-      href: articles/vertical-grid/filtering/creating-complex-filter-criteria-with-the-filter-control.md
     - name: Header Filter
       href: articles/vertical-grid/filtering/header-filter.md
     - name: Search Panel
-      href: articles/vertical-grid/filtering/search-panel.md
-  - name: Sorting
-    href: articles/vertical-grid/sorting.md
+      href: articles/vertical-grid/filtering/search-panel.md    
+    - name: Creating Complex Filter Criteria with the Filter Builder
+      href: articles/vertical-grid/filtering/creating-complex-filter-criteria-with-the-filter-control.md
   - name: Expand and Collapse Category Rows
     href: articles/vertical-grid/expand-and-collapse-category-rows.md
+  - name: Data Summaries
+    href: articles/vertical-grid/data-summaries.md
+  - name: Data Validation
+    href: articles/vertical-grid/data-validation.md
+  - name: Data Export
+    href: articles/vertical-grid/data-export.md

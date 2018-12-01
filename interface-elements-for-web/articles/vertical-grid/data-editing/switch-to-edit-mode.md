@@ -1,10 +1,11 @@
 ---
-title: Switching a Vertical Grid to Batch Edit Mode
+title: Switch to Edit Mode
 author: Anna Kondratova
 legacyId: 118058
 ---
-# Switching a Vertical Grid to Batch Edit Mode
-To edit cell values, switch to batch edit mode using one of the following.
+# Switch to Edit Mode
+To switch to edit mode do one of the following.
+
 * Click a cell.
 	
 	![EUD-ASPxVerticalGrid-SingleClick](../../../images/img127024.gif)
@@ -16,4 +17,4 @@ To edit cell values, switch to batch edit mode using one of the following.
 	![EUD-ASPxVerticalGrid-FocusedCellClick](../../../images/img127026.gif)
 
 > [!NOTE]
-> Batch editing mode may be unavailable in your application, as this is a decision made by the application vendor.
+> Editing mode may be unavailable in your application, as this is a decision made by the application vendor.
