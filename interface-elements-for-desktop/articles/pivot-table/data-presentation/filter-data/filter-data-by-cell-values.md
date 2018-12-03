@@ -1,6 +1,6 @@
 ---
 title: Filter Data by Cell Values
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 11951
 ---
 # Filter Data by Cell Values

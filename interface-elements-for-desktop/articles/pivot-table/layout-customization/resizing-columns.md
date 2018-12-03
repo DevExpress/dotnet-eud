@@ -1,6 +1,6 @@
 ---
 title: Resizing Columns
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 11958
 ---
 # Resizing Columns

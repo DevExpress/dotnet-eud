@@ -1,6 +1,6 @@
 ---
 title: Dashboard Layout
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 16723
 ---
 # Dashboard Layout
