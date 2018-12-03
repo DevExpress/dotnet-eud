@@ -1,6 +1,6 @@
 ---
 title: Dashboard Viewer
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 15759
 ---
 # Dashboard Viewer

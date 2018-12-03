@@ -1,6 +1,6 @@
 ---
 title: Adding Dashboard Items
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 15768
 ---
 # Adding Dashboard Items

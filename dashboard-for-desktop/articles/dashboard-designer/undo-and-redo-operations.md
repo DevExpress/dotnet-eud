@@ -1,6 +1,6 @@
 ---
 title: Undo and Redo Operations
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 17926
 ---
 # Undo and Redo Operations

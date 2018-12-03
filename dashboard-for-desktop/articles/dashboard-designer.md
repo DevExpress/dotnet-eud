@@ -1,6 +1,6 @@
 ---
 title: Dashboard Designer
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 15758
 ---
 # Dashboard Designer

@@ -1,6 +1,6 @@
 ---
 title: Binding Dashboard Items to Data
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 15769
 ---
 # Binding Dashboard Items to Data

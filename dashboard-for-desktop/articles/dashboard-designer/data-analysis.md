@@ -1,6 +1,6 @@
 ---
 title: Data Analysis
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 16805
 ---
 # Data Analysis

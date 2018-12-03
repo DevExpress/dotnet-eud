@@ -1,6 +1,6 @@
 ---
 title: Dashboard Items Layout
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 16515
 ---
 # Dashboard Items Layout

@@ -1,6 +1,6 @@
 ---
 title: Converting Dashboard Items
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 16809
 ---
 # Converting Dashboard Items

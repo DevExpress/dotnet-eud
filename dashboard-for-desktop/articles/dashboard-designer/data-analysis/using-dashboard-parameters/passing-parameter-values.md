@@ -1,6 +1,6 @@
 ---
 title: Passing Parameter Values
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 16523
 ---
 # Passing Parameter Values

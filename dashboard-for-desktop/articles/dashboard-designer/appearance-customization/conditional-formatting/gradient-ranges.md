@@ -1,6 +1,6 @@
 ---
 title: Gradient Ranges
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 114190
 ---
 # Gradient Ranges

@@ -1,6 +1,6 @@
 ---
 title: Icon Ranges
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 114189
 ---
 # Icon Ranges

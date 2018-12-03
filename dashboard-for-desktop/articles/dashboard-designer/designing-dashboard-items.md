@@ -1,6 +1,6 @@
 ---
 title: Designing Dashboard Items
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 16538
 ---
 # Designing Dashboard Items
