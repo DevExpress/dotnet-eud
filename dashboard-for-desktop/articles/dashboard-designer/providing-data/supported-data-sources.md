@@ -1,6 +1,6 @@
 ---
 title: Supported Data Sources
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 17239
 ---
 # Supported Data Sources

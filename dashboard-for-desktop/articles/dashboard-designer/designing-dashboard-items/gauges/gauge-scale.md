@@ -1,6 +1,6 @@
 ---
 title: Gauge Scale
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 16596
 ---
 # Gauge Scale

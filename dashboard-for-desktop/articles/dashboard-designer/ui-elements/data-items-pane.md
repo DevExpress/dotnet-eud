@@ -1,6 +1,6 @@
 ---
 title: Data Items Pane
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 17253
 ---
 # Data Items Pane

@@ -1,6 +1,6 @@
 ---
 title: Web Dashboard - Viewer Mode
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 16757
 ---
 # Web Dashboard - Viewer Mode

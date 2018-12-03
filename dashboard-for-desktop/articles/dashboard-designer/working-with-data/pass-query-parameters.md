@@ -1,6 +1,6 @@
 ---
 title: Pass Query Parameters
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 15763
 ---
 # Pass Query Parameters

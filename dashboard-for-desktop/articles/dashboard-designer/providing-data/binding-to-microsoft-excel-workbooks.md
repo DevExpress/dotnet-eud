@@ -1,6 +1,6 @@
 ---
 title: Binding to Microsoft Excel Workbooks
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 115240
 ---
 # Binding to Microsoft Excel Workbooks

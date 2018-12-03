@@ -1,6 +1,6 @@
 ---
 title: Orientation
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 16559
 ---
 # Orientation

@@ -1,6 +1,6 @@
 ---
 title: Legend
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 115251
 ---
 # Legend

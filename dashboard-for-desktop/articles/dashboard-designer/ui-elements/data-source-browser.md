@@ -1,6 +1,6 @@
 ---
 title: Data Source Browser
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 17252
 ---
 # Data Source Browser

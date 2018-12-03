@@ -1,6 +1,6 @@
 ---
 title: Dashboard Items
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 16732
 ---
 # Dashboard Items

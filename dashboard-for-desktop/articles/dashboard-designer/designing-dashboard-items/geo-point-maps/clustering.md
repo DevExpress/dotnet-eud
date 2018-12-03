@@ -1,6 +1,6 @@
 ---
 title: Clustering
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 17256
 ---
 # Clustering

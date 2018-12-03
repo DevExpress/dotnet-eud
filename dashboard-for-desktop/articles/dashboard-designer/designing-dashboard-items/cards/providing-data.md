@@ -1,6 +1,6 @@
 ---
 title: Providing Data
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 16586
 ---
 # Providing Data

@@ -1,6 +1,6 @@
 ---
 title: Dimension Column
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 16565
 ---
 # Dimension Column

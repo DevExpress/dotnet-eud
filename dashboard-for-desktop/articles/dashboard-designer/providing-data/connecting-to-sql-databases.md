@@ -1,6 +1,6 @@
 ---
 title: Connecting to SQL Databases
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 16525
 ---
 # Connecting to SQL Databases

@@ -1,6 +1,6 @@
 ---
 title: Column Type Overview
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 16564
 ---
 # Column Type Overview

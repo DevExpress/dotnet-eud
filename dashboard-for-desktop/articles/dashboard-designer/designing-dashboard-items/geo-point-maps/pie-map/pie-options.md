@@ -1,6 +1,6 @@
 ---
 title: Pie Options
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 16788
 ---
 # Pie Options
