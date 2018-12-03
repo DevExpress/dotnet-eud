@@ -22,3 +22,4 @@ This section describes the available dashboard items.
 * [Treemap](designing-dashboard-items/treemap.md)
 * [Filter Elements](designing-dashboard-items/filter-elements.md)
 * [Dashboard Item Group](designing-dashboard-items/dashboard-item-group.md)
+* [Tab Container](designing-dashboard-items/tab-container.md)
