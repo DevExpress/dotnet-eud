@@ -4,7 +4,7 @@ author: Anya Vekhina
 legacyId: 17818
 ---
 # Report Designer
-This section of the  documentation describes the basic principles of creating reports with **Web Report Designer**.
+This section of the documentation describes the basic principles of creating reports with **Web Report Designer**.
 
 The Web Report Designer allows you to create new reports from scratch, bind them to data, display a report's Print Preview and send its output to a printer or export it to a file on a disk.
 
