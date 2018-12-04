@@ -57,9 +57,13 @@ You can also click the **Expression** option's ellipsis button to invoke the **E
 
 ## Use the Property Grid
 
-Select a report control and switch to the **Expressions** tab in the [Property Grid](../report-designer-tools/ui-panels/property-grid.md). Click the **Text** property's ellipsis button and construct a binding  [expression](../use-expressions/expression-syntax.md) in the invoked **Expression Editor**.
+Click a property marker to see whether the invoked context menu has the **PropertyName Expression** item.
 
-![](../../../../images/eurd-win-property-grid-expressions.png)
+![](../../../../images/eurd-win-property-grid-data-binding.png)
+
+Click this item to specify an expression in the invoked Expression Editor.
+
+![WinFormsPropertyGrid-ExpressionEditor](../../../../images/eurd-win-PropertyGrid-ExpressionEditor.png)
 
 You can use the same approach to specify expressions for all the control properties. See [Shape Report Data](../shape-report-data/shape-data-expression-bindings.md) for more tutorials.
 

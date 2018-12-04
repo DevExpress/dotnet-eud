@@ -7,7 +7,7 @@ author: Anna Gubareva
 This tutorial demonstrates how to bind a report to a stored procedure provided by an SQL data source:
 
 1. [Create a new report](../add-new-reports.md).
-2. Click the report's smart tag. In the invoked actions list, expand the drop-down menu for the **Data Source** property and click **Add Report DataSource**.
+2. Click the report's smart tag. In the invoked actions list, expand the drop-down menu for the **Data Source** property and click **Add New DataSource**.
 	
 	![](../../../../images/eurd-win-report-smart-tag-add-new-data-source.png)
 	
