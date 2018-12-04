@@ -3,7 +3,7 @@ uid: '400274'
 title: 'Bind a Report to an XPO Persistent Object'
 ---
 
-# Bind a Report to an XPO Persistent object
+# Bind a Report to an XPO Persistent Object
 
 This topic describes how to bind a report to XPO data at design time.
 
