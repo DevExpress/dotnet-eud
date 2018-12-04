@@ -84,7 +84,7 @@ The **Rich Text** control can be accompanied by a set of toolbars that provide a
 * [Adjust Page Settings](../document-layout-and-page-setup/adjust-page-settings.md)
 * [Lay Out Text in Columns](../document-layout-and-page-setup/lay-out-text-in-columns.md)
 * [Insert a Page Break](../miscellaneous/insert-a-page-break.md)
-* [Divide a Documents into Sections](../document-layout-and-page-setup/divide-a-documents-into-sections.md)
+* [Divide a Documents into Sections](../document-layout-and-page-setup/divide-a-document-into-sections.md)
 * [Add Line Numbers](../document-layout-and-page-setup/add-line-numbers.md)
 
 ## Background
