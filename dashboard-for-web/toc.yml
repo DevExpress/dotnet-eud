@@ -257,6 +257,8 @@
         href: articles/web-dashboard-designer-mode/designing-dashboard-items/filter-elements/interactivity.md
     - name: Dashboard Item Group
       href: articles/web-dashboard-designer-mode/designing-dashboard-items/dashboard-item-group.md
+    - name: Tab Container
+      href: articles/web-dashboard-designer-mode/designing-dashboard-items/tab-container.md
   - name: Data Shaping
     href: articles/web-dashboard-designer-mode/data-shaping.md
     items:
@@ -459,3 +461,5 @@
         href: articles/web-dashboard-viewer-mode/dashboard-items/treemap/exporting.md
     - name: Filter Elements
       href: articles/web-dashboard-viewer-mode/dashboard-items/filter-elements.md
+    - name: Tab Container
+      href: articles/web-dashboard-viewer-mode/dashboard-items/tab-container.md

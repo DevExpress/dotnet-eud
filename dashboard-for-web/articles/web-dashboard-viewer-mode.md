@@ -39,3 +39,4 @@ Dashboard items are used to present information in various ways.
 * [Text Box](web-dashboard-viewer-mode/dashboard-items/text-box.md)
 * [Treemap](web-dashboard-viewer-mode/dashboard-items/treemap.md)
 * [Filter Elements](web-dashboard-viewer-mode/dashboard-items/filter-elements.md)
+* [Tab Container](web-dashboard-viewer-mode/dashboard-items/tab-container.md)
