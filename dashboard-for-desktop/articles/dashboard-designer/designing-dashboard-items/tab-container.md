@@ -45,7 +45,7 @@ The tab caption is above the caption of the content element on the page. If a ta
 
 ![](../../../images/winforms-designer-tab-display-item-as-page.png)
 
-To disable _Display Item as Page_ feature, use one of the following methods:
+To disable the _Display Item as Page_ feature, use one of the following methods:
 * Select the tab page and click the **Display Item as Page** button in the **Layout** group on the **Design** ribbon tab of the **Page Tools** contextual tab set.
 
 	![](../../../images/ribbon-design-layout-displayitemaspage.png)
