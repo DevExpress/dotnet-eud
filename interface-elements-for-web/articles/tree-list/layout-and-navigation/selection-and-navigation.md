@@ -9,16 +9,16 @@ Use the Tree List's pager to switch between pages.
 
 ![ASPxTreeList_Paging](../../../images/img7367.png)
 
-To change the number of nodes displayed within a Tree List, click the **Page Size** menu and select the needed number of nodes per page.
+To change the number of nodes displayed in a Tree List, click the **Page Size** menu and select the number of nodes per page.
 
 ## Selection
 
-Select and clear a check box to select and cancel the selection of the corresponding node. 
+Select and clear a check box to select and unselect the node. 
 
 ![ASPxTreeList_Selection](../../../images/img7368.png)
 
 
-Select and clear the **Select All** check box to select and cancel the selection of all nodes. 
+Select and clear the **Select All** check box to select and unselect all nodes. 
 
 ![tree-list-select-all](../../../images/tree-list-select-all.png)
 
