@@ -9,3 +9,4 @@ This section describes features that enable interaction between various dashboar
 The section consists of the following topics.
 * [Master Filtering](interactivity/master-filtering.md)
 * [Drill-Down](interactivity/drill-down.md)
+* [Neutral Filter Mode](interactivity/neutral-filter-mode.md)
