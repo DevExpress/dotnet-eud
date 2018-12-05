@@ -281,6 +281,8 @@
       href: articles/web-dashboard-designer-mode/interactivity/master-filtering.md
     - name: Drill-Down
       href: articles/web-dashboard-designer-mode/interactivity/drill-down.md
+    - name: Neutral Filter Mode
+      href: articles/web-dashboard-designer-mode/interactivity/neutral-filter-mode.md
   - name: Appearance Customization
     href: articles/web-dashboard-designer-mode/appearance-customization.md
     items:
