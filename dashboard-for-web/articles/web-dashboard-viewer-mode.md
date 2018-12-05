@@ -15,6 +15,10 @@ The topics in this section provide information on how the Web Dashboard presents
 * [Drill-Down](web-dashboard-viewer-mode/data-presentation/drill-down.md)
 * [Dashboard Layout](web-dashboard-viewer-mode/data-presentation/dashboard-layout.md)
 
+## Mobile Layout
+The Web Dashboard uses a mobile layout to display dashboards on phones and tablets.
+* [Mobile Layout](web-dashboard-viewer-mode/mobile-layout.md)
+
 ## Dashboard Parameters
 The following topic describes how to change dashboard parameter values.
 * [Requesting Parameter Values](web-dashboard-viewer-mode/dashboard-parameters/requesting-parameter-values.md)
