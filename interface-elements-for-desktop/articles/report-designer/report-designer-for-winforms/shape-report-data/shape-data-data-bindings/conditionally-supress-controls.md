@@ -7,9 +7,9 @@ author: Anna Gubareva
 This document describes how to display or hide a report control in a published document based on a specified logical condition.
 
 > [!Warning]
-> Use the approach below if expression bindings **are not enabled** in the Report Designer (the [Property Grid](../../report-designer-tools/ui-panels/property-grid.md) does not provide the **Expressions** ![](../../../../../images/eurd-win-property-grid-expressions-icon.png) tab ).
+> Use the approach below if expression bindings **are not enabled** in the Report Designer (the [Property Grid](../../report-designer-tools/ui-panels/property-grid.md) does not provide the **PropertyName Expression** item in the property marker's context menu).
 >
-> See [Conditionally Suppress Controls](../shape-data-expression-bindings/conditionally-supress-controls.md)  if expression bindings **are enabled** in the Report Designer (the [Property Grid](../../report-designer-tools/ui-panels/property-grid.md) provides the **Expressions** ![](../../../../../images/eurd-win-property-grid-expressions-icon.png) tab).
+> See [Conditionally Suppress Controls](../shape-data-expression-bindings/conditionally-supress-controls.md)  if expression bindings **are enabled** in the Report Designer.
 
 1. [Create a new report](../../add-new-reports.md) or open an existing one and prepare the report layout.
 
