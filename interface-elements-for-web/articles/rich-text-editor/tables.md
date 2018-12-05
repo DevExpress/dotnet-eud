@@ -3,19 +3,21 @@ title: Tables
 
 ---
 # Tables
- Rich Text Editor allows you to create and edit tables in documents. 
+You can create and edit tables in documents. 
 
-To insert a table click **Insert** tab and then click the **Table** button. In the displayed drop-down box select the required table size and click the corresponding square.
+Click the **Table** button in **Insert** tab to insert a table. Then select the required table size and click the corresponding square in the drop-down box.
 
 ![RichTextEditor-Tables-InsertTable](../../images/rich-text-editor-tables-insert-table.png)
 
-## Table Element Resizing
-Drag cell borders to change column widths or row heights. You can use [ruler](viewing-and-navigating/show-horizontal-ruler.md) markers to resize columns. 
+## Resize Table Element
+Drag cell borders to change column widths or row heights. 
+
+You can use [ruler](viewing-and-navigating/show-horizontal-ruler.md) markers to resize columns. 
 
 ![RichTextEditor-Tables-Resizing](../../images/rich-text-editor-tables-resizing.png)
 
 ## Context Tabs
-When a pointer is in a table element, Rich Text Editor displays **Design** and **Layout** context tabs that allows you to customize table's design and layout settings.
+Use buttons in the **Design** and **Layout** context tabs to customize a table's design and layout settings. The tabs appear when a pointer is in a table element.
 
 ![RichTextEditor-Tables-DesignTab](../../images/rich-text-editor-tables-design-tab.png)
 
@@ -23,12 +25,12 @@ When a pointer is in a table element, Rich Text Editor displays **Design** and *
 
 
 ## Context Menu
-Right click a table element to display a context menu. The menu commands allows you to modify table properties and layout.
+Right-click a table element to display a context menu. The menu commands allows you to modify table properties and layout.
 
 ![RichTextEditor-Tables-ContextMenu](../../images/rich-text-editor-tables-context-menu.png)
 
 ## Keyboard Navigation
-To navigate through cells use arrow keys, or TAB and TAB+SHIFT. Use SHIFT together with the arrow keys to select cells.
+To navigate through cells, use arrow keys or press TAB and TAB+SHIFT. Press SHIFT together with the arrow keys to select cells.
 
 
 
