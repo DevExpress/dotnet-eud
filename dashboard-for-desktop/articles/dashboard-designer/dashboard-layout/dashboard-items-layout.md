@@ -41,7 +41,7 @@ This allows you to specify different widths for dashboard items in different 'ro
 ## Maximize and Restore Item
 You can expand any dashboard item into the whole dashboard size to examine data in greater detail. The expanded dashboard item size in this case is the same as the root layout group.
 
-- To maximize a dashboard item, click the **Maximize** button in the [dashboard item caption](xref:15620).
+- To maximize a dashboard item, click the **Maximize** button in the [dashboard item caption](dashboard-item-caption.md).
 
 	![](../../../images/win-dashboard-maximize-dashboard-item.png)
 
