@@ -9,8 +9,8 @@ In the **Spreadsheet**, the column width should be between zero and 1785 points.
 
 To change the column width, do one of the following:
 * Drag the right boundary of the column heading to resize the column's width. To set multiple columns' width, select the columns and drag the right boundary of any selected column.
-* Select a column and click the **Format** button on the **Home** tab in the **Cells** group. Then, select the **Column Width...** command. Specify the column's width in the displayed dialog box.
-* Right-click a column heading and select the **Column Width...** command in the displayed context menu. Specify the column's width in the displayed dialog box.
+* Select a column and click the **Format** button on the **Home** tab in the **Cells** group. Then, select the **Column Width...** command. Specify the column's width in the dialog box.
+* Right-click a column heading and select **Column Width...** in the context menu. Specify the column's width in the dialog box.
 
 To make the column width to automatically fit the contents, do one of the following:
 * Select the column and click the **Format** button on the **Home** tab in the **Cells** group. Then, select the **AutoFit Column Width** item from the drop-down list.
