@@ -4,7 +4,7 @@ title: Data Summaries
 # Data Summaries
 
  A summary calculates the value of an aggregate function over 
- all values within a group of nodes and display the results within footer.
+ all the values in a group of nodes and displays the results in the footer.
 
  The following aggregate functions are available:
 * Average
