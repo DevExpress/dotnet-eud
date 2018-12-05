@@ -23,7 +23,7 @@ This document describes how to filter a report's data based on a specific condit
 
 	![](../../../../images/eurd-web-shaping-legacy-report-add-formatting-rule.png)
 
-4. Expand the **Formatting** node and set the **Visible** property to **No**. Click the **Condition** property's ellipsis button. In the invoked **Expression Editor**, specify the required visibility condition.
+4. Expand the **Formatting** node and set the **Visible** property to **No**. Click the **Condition** property's ellipsis button. In the invoked [Expression Editor](../../report-designer-tools/expression-editor.md), specify the required visibility condition.
 
 	![](../../../../images/eurd-web-shaping-legacy-formatting-rule-filter-condition.png)
 

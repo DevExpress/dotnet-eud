@@ -17,7 +17,7 @@ This document describes how to display different values in a report control base
 
     ![](../../../../images/eurd-web-shaping-add-calculated-field.png)
 
-3. Click the **Edit** button and set the **Field Type** property to **String**. Then, click the **Expression** property's ellipsis button and define the required condition for the calculated field in the invoked **Expression Editor**.
+3. Click the **Edit** button and set the **Field Type** property to **String**. Then, click the **Expression** property's ellipsis button and define the required condition for the calculated field in the invoked [Expression Editor](../../report-designer-tools/expression-editor.md).
 
     ![](../../../../images/eurd-web-shaping-calculated-field-expression-for-custom-text.png)
 

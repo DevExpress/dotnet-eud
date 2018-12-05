@@ -29,7 +29,7 @@ After you [bound your report to data](../../bind-to-data.md) and provided conten
 
     ![](../../../../images/eurd-web-shaping-legacy-page-break-add-formatting-rule.png)
 
-5. Expand the **Formatting** node and set the **Visible** property to **Yes**. Click the **Condition** property's ellipsis button. In the invoked **Expression Editor**, specify the required visibility condition.
+5. Expand the **Formatting** node and set the **Visible** property to **Yes**. Click the **Condition** property's ellipsis button. In the invoked [Expression Editor](../../report-designer-tools/expression-editor.md), specify the required visibility condition.
 	
 	![](../../../../images/eurd-web-shaping-page-break-condtion.png)
 	

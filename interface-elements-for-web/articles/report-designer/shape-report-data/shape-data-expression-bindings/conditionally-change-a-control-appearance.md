@@ -31,7 +31,7 @@ This document describes how to change a report control's appearance based on a s
 	
 	![](../../../../images/eurd-web-shaping-style-name-expression-property.png)
 
-6. In the invoked **Expression Editor**, specify the required condition for switching between the created styles.
+6. In the invoked [Expression Editor](../../report-designer-tools/expression-editor.md), specify the required condition for switching between the created styles.
 	
 	![](../../../../images/eurd-web-shaping-style-condition-expression.png)
 

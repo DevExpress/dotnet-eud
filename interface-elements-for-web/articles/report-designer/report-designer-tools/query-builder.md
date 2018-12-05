@@ -167,7 +167,7 @@ Each query parameter provides the following properties:
 	
 	You can specify a static actual value according to the selected value's data type.
 	
-	Alternatively, construct an expression to generate actual parameter values dynamically. Click this property's ellipsis button to invoke the **Expression Editor** and create an expression. This ellipsis button is enabled if you set the query parameter's type to **Expression**.  
+	Alternatively, construct an expression to generate actual parameter values dynamically. Click this property's ellipsis button to invoke the [Expression Editor](../report-designer-tools/expression-editor.md) and create an expression. This ellipsis button is enabled if you set the query parameter's type to **Expression**.  
 
 
 ## <a id="preview"></a>Preview Results

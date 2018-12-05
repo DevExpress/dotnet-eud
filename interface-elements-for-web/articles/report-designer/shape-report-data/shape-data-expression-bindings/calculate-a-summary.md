@@ -27,7 +27,7 @@ This document describes how to calculate various summaries across a report and i
 	
 	![](../../../../images/eurd-web-label-summary-expression-property.png)
 
-6. This invokes the **Expression Editor** where you can select the required summary in the **Functions** | **Summary** section. Report summary functions start with the "sum" prefix to make it easy to differentiate them from aggregate functions.
+6. This invokes the [Expression Editor](../../report-designer-tools/expression-editor.md) where you can select the required summary in the **Functions** | **Summary** section. Report summary functions start with the "sum" prefix to make it easy to differentiate them from aggregate functions.
 	
 	![](../../../../images/eurd-web-label-summary-expression.png)
 	

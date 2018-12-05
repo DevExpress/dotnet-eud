@@ -17,7 +17,7 @@ A label can display row numbers after [binding your report to data](../../bind-t
 	
 	![](../../../../images/eurd-web-shaping-row-numbers-summary-running.png)
 
-2. Click the ellipsis button for the **Expression** property. In the invoked **Expression Editor**, select the **sumRecordNumber** function in the **Functions** | **Summary** section.
+2. Click the ellipsis button for the **Expression** property. In the invoked [Expression Editor](../../report-designer-tools/expression-editor.md), select the **sumRecordNumber** function in the **Functions** | **Summary** section.
 	
 	![](../../../../images/eurd-web-shaping-row-numbers-expression.png)
 

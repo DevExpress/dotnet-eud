@@ -14,7 +14,7 @@ This tutorial illustrates how to sort a report against a custom criteria, in par
 	
 	![](../../../../images/eurd-web-shaping-group-add-calculated-field.png)	
 
-3. Click the **Edit** button for the calculated field and then click the **Expression** property's ellipsis button. In the invoked **Expression Editor**, select the required date-time function and define the data field's name in **[**square brackets**]**. For example,  use the **Len([ProductName])** function to return the number of characters extracted from the **ProductName** data field.
+3. Click the **Edit** button for the calculated field and then click the **Expression** property's ellipsis button. In the invoked [Expression Editor](../../report-designer-tools/expression-editor.md), select the required date-time function and define the data field's name in **[**square brackets**]**. For example,  use the **Len([ProductName])** function to return the number of characters extracted from the **ProductName** data field.
 	
 	![](../../../../images/eurd-web-sort-data-calculated-field-expression.png)
 	

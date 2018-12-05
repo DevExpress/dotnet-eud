@@ -6,7 +6,7 @@ author: Anna Vekhina
 
 The **Expressions Panel** allows you to assign values to various element properties. The Report Designer provides this panel if expression bindings **are enabled** in the Designer.
 
-Clicking any property's ellipsis button invokes the **Expression Editor**, in which you can specify custom expressions with available data fields.
+Clicking any property's ellipsis button invokes the [Expression Editor](../expression-editor.md), in which you can specify custom expressions with available data fields.
 
 ![](../../../../images/eurd-web-expressions-panel.png)
 

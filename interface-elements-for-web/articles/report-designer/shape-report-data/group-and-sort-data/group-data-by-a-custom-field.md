@@ -14,7 +14,7 @@ This tutorial illustrates how to group a report against a custom criteria, in pa
 	
 	![](../../../../images/eurd-web-group-data-create-calculated-field.png)	
 
-3. Click the **Edit** button for the calculated field and then click the **Expression** property's ellipsis button. In the invoked **Expression Editor**, select the required date-time function and define the data field's name in **[**square brackets**]**. For example,  use the **GetDayOfWeek([OrderDate])** function to return a zero-based index of the day of the week, extracted from the **OrderDate** data field.
+3. Click the **Edit** button for the calculated field and then click the **Expression** property's ellipsis button. In the invoked [Expression Editor](../../report-designer-tools/expression-editor.md), select the required date-time function and define the data field's name in **[**square brackets**]**. For example,  use the **GetDayOfWeek([OrderDate])** function to return a zero-based index of the day of the week, extracted from the **OrderDate** data field.
 	
 	![](../../../../images/eurd-web-group-data-calculated-field-expression.png)
 	

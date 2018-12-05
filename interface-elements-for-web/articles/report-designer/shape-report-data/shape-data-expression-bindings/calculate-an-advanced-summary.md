@@ -25,7 +25,7 @@ This document describes how to calculate an advanced summary for report groups u
 
     ![](../../../../images/eurd-web-label-advanced-summary-expression-property.png)
 
-5. This invokes the **Expression Editor** where you can specify a custom expression with the required summary functions and other logical or arithmetical functions. For example:
+5. This invokes the [Expression Editor](../../report-designer-tools/expression-editor.md) where you can specify a custom expression with the required summary functions and other logical or arithmetical functions. For example:
 
     ![](../../../../images/eurd-web-label-advanced-summary-expression-editor.png)
 

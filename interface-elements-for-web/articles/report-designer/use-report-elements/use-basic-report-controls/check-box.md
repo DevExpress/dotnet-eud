@@ -31,7 +31,7 @@ Use the **Glyph Alignment** and **Text Alignment** properties to define the glyp
 
 
 ## Bind to Data
-You can [bind](../../bind-to-data/bind-controls-to-data-expression-bindings.md) the **Check State** property to a data field obtained from a report's data source. Expand the **Actions** category, click the **Check State** property's ellipsis button and select the required data field in the invoked **Expression Editor**.
+You can [bind](../../bind-to-data/bind-controls-to-data-expression-bindings.md) the **Check State** property to a data field obtained from a report's data source. Expand the **Actions** category, click the **Check State** property's ellipsis button and select the required data field in the invoked [Expression Editor](../../report-designer-tools/expression-editor.md).
 
 ![](../../../../images/eurd-web-check-box-bind-to-data.png)
 

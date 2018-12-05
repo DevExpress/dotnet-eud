@@ -17,7 +17,7 @@ This document describes how to display or hide a report control in a published d
 
     ![](../../../../images/eurd-web-shaping-check-box-add-formatting-rule.png)
 
-3. Expand the **Formatting** node and set the **Visible** property to **No**. Click the **Condition** property's ellipsis button. In the invoked **Expression Editor**, specify the required visibility condition.
+3. Expand the **Formatting** node and set the **Visible** property to **No**. Click the **Condition** property's ellipsis button. In the invoked [Expression Editor](../../report-designer-tools/expression-editor.md), specify the required visibility condition.
 
     ![](../../../../images/eurd-web-shaping-formatting-rule-suppress-expression.png)
 

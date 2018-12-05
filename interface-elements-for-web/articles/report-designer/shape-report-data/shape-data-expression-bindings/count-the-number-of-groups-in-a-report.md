@@ -23,7 +23,7 @@ This document describes how to count the number of groups in a report.
 	
 	![](../../../../images/eurd-web-shaping-group-count-summary-running.png)
 
-4. Click the ellipsis button for the label's **Expression** property. In the invoked **Expression Editor**, select the **sumDCount** summary function in the **Functions** | **Summary** section.
+4. Click the ellipsis button for the label's **Expression** property. In the invoked [Expression Editor](../../report-designer-tools/expression-editor.md), select the **sumDCount** summary function in the **Functions** | **Summary** section.
 	
 	![](../../../../images/eurd-web-shaping-group-count-expression.png)
 
