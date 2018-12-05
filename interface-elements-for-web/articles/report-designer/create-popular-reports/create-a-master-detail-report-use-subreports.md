@@ -38,7 +38,7 @@ This tutorial demonstrates how to create a master-detail report using the [Subre
 
 6. Switch to the [Properties](../report-designer-tools/ui-panels/properties-panel.md) panel, expand the **Actions** category and click the **Filter String** property's ellipsis button.
 	
-	In the invoked **Filter Editor**, construct an expression where the required data field is compared to the created parameter. To access the parameter, invoke the drop-down list on the right and select **Parameter**.
+	In the invoked [Filter Editor](../report-designer-tools/filter-editor.md), construct an expression where the required data field is compared to the created parameter. To access the parameter, invoke the drop-down list on the right and select **Parameter**.
 	
 	![](../../../images/eurd-web-detail-report-filter-string.png)
 
