@@ -4,7 +4,12 @@ author: Natalia Kazakova
 legacyId: 117728
 ---
 # Dashboard Items Layout
-The **Web Dashboard** provides the capability to arrange and resize dashboard items and groups in various ways, using simple drag-and-drop operations.
+The **Web Dashboard** provides the capability to arrange and resize dashboard items and groups using simple drag-and-drop operations.
+
+- [Layout Concepts](#layout-concepts)
+- [Item Resizing](#item-resizing)
+- [Maximize and Restore Item](#maximize-and-restore-item)
+- [Item Positioning](#item-positioning)
 
 ## Layout Concepts
 The dashboard arranges dashboard items and groups using _layout items_ and _layout groups_. They are special containers that are used to present a dashboard layout as a hierarchical structure.
@@ -26,6 +31,17 @@ You can resize individual items/groups of items by dragging their edges. For thi
 3. The dashboard items change their sizes.
 	
 	![wdd-di-resize3](../../../images/img126144.png)
+
+## Maximize and Restore Item
+You can expand any dashboard item to fit the dashboard to examine data in greater detail. The expanded dashboard item size in this case is the same as the root layout group.
+
+1. Click the **Maximize** button in the [dashboard item caption](dashboard-item-caption.md) to maximize a dashboard item.
+
+	![](../../../images/wdd-maximize-dashboard-item.png)
+
+2. Click **Restore** to restore the item's size.
+
+	![](../../../images/wdd-restore-dashboard-item.png)
 
 ## Item Positioning
 You can change the position of a dashboard item by using drag-and-drop and the dashboard item's [Move](../ui-elements/dashboard-item-menu.md) button.

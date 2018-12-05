@@ -10,6 +10,7 @@ The **Dashboard Designer** provides the capability to arrange and resize dashboa
 
 * [Layout Concepts](#layout-concepts)
 * [Item Resizing](#item-resizing)
+* [Maximize and Restore Item](#maximize-and-restore-item)
 * [Item Positioning](#item-positioning)
 
 ## Layout Concepts
@@ -36,6 +37,17 @@ This allows you to specify different widths for dashboard items in different 'ro
 |---|---|---|
 | ![VertIndicator_Layout](../../../images/img24756.png) | ![Crosshair_VerticalResizing](../../../images/img25985.png) | Orients the layout group horizontally and allows you to change the height of individual items and the width of 'columns'. |
 | ![HorzIndicator_Layout](../../../images/img24755.png) | ![Crosshair_HorizontalResizing](../../../images/img25984.png) | Orients the layout group vertically and allows you to change the width of individual items and the height of 'rows'. |
+
+## Maximize and Restore Item
+You can expand any dashboard item into the whole dashboard size to examine data in greater detail. The expanded dashboard item size in this case is the same as the root layout group.
+
+- To maximize a dashboard item, click the **Maximize** button in the [dashboard item caption](xref:15620).
+
+	![](../../../images/win-dashboard-maximize-dashboard-item.png)
+
+- To restore the item size, click **Restore**.
+
+	![](../../../images/win-dashboard-restore-dashboard-item.png)
 
 ## Item Positioning
 You can change the position of a dashboard item by using drag-and-drop and one of the following approaches.
