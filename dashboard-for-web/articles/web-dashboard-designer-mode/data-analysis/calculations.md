@@ -9,10 +9,10 @@ legacyId: 117710
 To create a window calculation, invoke the [Bindings](../ui-elements/dashboard-item-menu.md) menu and click the required measure. In the invoked [Data Item Menu](../ui-elements/data-item-menu.md), go to **Calculations** and select one of the available calculations.
 
 ![WebDashboard_CalculationsMenu](../../../images/img126064.png)
-* [Percent of Total](#percentoftotal)
-* [Running Summary](#runningrummary)
+* [Percent of Total](#percent-of-total)
+* [Running Summary](#running-summary)
 * [Difference](#difference)
-* [Percentage Difference](#percentagedifference)
+* [Percentage Difference](#percentage-difference)
 * [Moving](#moving)
 * [Rank](#rank)
 * [Custom](#custom)
@@ -20,7 +20,7 @@ To create a window calculation, invoke the [Bindings](../ui-elements/dashboard-i
 After you have selected the required calculation, you can change its default settings by clicking the **Edit** button (the ![wdd-icon-edit-collection-value-item](../../../images/img126050.png) icon). 
 This invokes the special window containing common and specific calculation settings:
 
-## <a name="percentoftotal"/>Percent of Total
+## Percent of Total
 A calculation is used to compute a percentage of the total for the specified measure across a window.
 
 ![WebDashboard_Calculations_PercentOfTotalSettings](../../../images/img126069.png)
@@ -33,7 +33,7 @@ In the Grid below, **Percent of Total** is applied to a fourth column to show a 
 
 ![WebDashboard_Calculations_PercentOfTotalExample](../../../images/img126094.png)
 
-## <a name="runningrummary"/>Running Summary
+## Running Summary
 Can be used to compute a cumulative total for the specified measure across a window.
 
 ![WebDashboard_Calculations_RunningSummarySettings](../../../images/img126070.png)
@@ -47,7 +47,7 @@ In the Grid below, the **Running Total** is applied to a fourth column to displa
 
 ![WebDashboard_Calculations_RunningTotalExample](../../../images/img126095.png)
 
-## <a name="difference"/>Difference
+## Difference
 Can be used to compute the difference between measure values across a window.
 
 ![WebDashboard_Calculations_DifferenceSettings](../../../images/img126071.png)
@@ -62,7 +62,7 @@ In the Grid below, the **Difference** is applied to a fourth column to show abso
 
 ![WebDashboard_Calculations_DifferenceExample](../../../images/img126096.png)
 
-## <a name="percentagedifference"/>Percentage Difference
+## Percentage Difference
 A calculation is used to compute the difference in percentages between measure values across a window.
 
 ![WebDashboard_Calculations_PercentageDifferenceSettings](../../../images/img126072.png)
@@ -77,7 +77,7 @@ In the Grid below, **Percentage Difference** is applied to a fourth column to sh
 
 ![WebDashboard_Calculations_PercentDifferenceExample](../../../images/img126097.png)
 
-## <a name="moving"/>Moving
+## Moving
 The Moving calculation uses neighboring values to calculate a total.
 
 ![WebDashboard_Calculations_MovingSettings](../../../images/img126073.png)
@@ -92,7 +92,7 @@ In the Grid below, a **Moving** calculation is applied to a fourth column to sho
 
 ![WebDashboard_Calculations_MovingAverageExample](../../../images/img126098.png)
 
-## <a name="rank"/>Rank
+## Rank
 Use the Rank calculation to compute rankings for the specified measure across a window.
 
 ![WebDashboard_Calculations_RankSettings](../../../images/img126074.png)
@@ -107,7 +107,7 @@ In the Grid below, a **Rank** calculation is applied to a fourth column to show 
 
 ![WebDashboard_Calculations_RankExample](../../../images/img126099.png)
 
-## <a name="custom"/>Custom
+## Custom
 Use Custom to specify a custom calculation by adding the required calculation functions inside the measure expression.
 
 ![WebDashboard_Calculations_CustomSettings](../../../images/img126075.png)
