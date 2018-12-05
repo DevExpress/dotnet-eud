@@ -4,7 +4,7 @@ author: Anna Vekhina
 ---
 
 # Expression Editor
-This document describes the **Expression Editor** used for constructing expressions in the End-User Report Designer.
+This document describes the **Expression Editor** used for constructing expressions in the [End-User Report Designer](../../report-designer.md).
 
 ## Expression Editor Overview
 
