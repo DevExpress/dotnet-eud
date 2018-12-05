@@ -8,44 +8,52 @@ You can add hyperlinks pointing to external locations or associated with bookmar
 
 ## Bookmarks
 
-A bookmark can refer to a particular position in a document or to a document range (e.g. portion of text, image).
+A bookmark can refer to a position in a document or to a document range (for example, portion of text, image).
 
-To create a new bookmark, place the pointer to the required position or select the required document range. Click the **Bookmark** button in the **Links** group in the **Insert** tab.
+### Add a bookmark
+* Select a document range or position the pointer.
+* Click the **Bookmark** button in **Insert** tab's **Links** group...
 
 ![EUD_ASPxRichEdit_InsertTab](../../../images/img117729.png)
 
-Or right-click the selected document range and click the **Bookmark...** command in the context menu.
+...or right-click the selected document range and select the **Bookmark...** command in the context menu.
 
 ![EUD_ASPxRichEdit_Insert_BookmarkContext](../../../images/img117874.png)
 
-The **Bookmark** dialog appears.
+This invokes the **Bookmark** dialog box.
 
 ![EUD_ASPxRichEdit_Insert_BookmarkDialog](../../../images/rich-text-editor-miscellaneous-insert-bookmark.png)
 
-Specify a bookmark name and click **Add**. 
+* Specify a bookmark name and click **Add**. 
 
 > [!NOTE]
 > A bookmark name can contain numbers, letters, and the underscore symbol ("_"), and must begin with a letter.
 
-To delete a bookmark, invoke the **Bookmark** dialog, select the required bookmark, and click **Delete**.
+### Delete a bookmark
+Invoke the **Bookmark** dialog, select a bookmark, and click **Delete**.
 
-To navigate through bookmarks, invoke the **Bookmark** dialog, select required bookmark in a list, and click **Go To**.
+### Bookmark navigation
+Invoke the **Bookmark** dialog, select a bookmark, and click **Go To** to navigate to the bookmark.
 
 ## Hyperlinks
 
-A hyperlink is a document range (e.g. portion of text, image) that you can use to go to a webpage, to another place within the same document, or to create a new email message. Click a hyperlink while pressing CTRL to follow the link.
+A hyperlink is a document range (for example, portion of text, image) that you can use to go to a webpage, to another place within the same document, or to create a new email message. 
 
-To create a new hyperlink, select a document range and click the **Hyperlink** button in the **Links** group in the **Insert** tab, or right-click the selected document range and click the **Hyperlink...** command in the context menu.
+Click a hyperlink while pressing CTRL to follow the link.
+
+### Add a hyperlink
+* Select a document range and click the **Hyperlink** button in **Insert** tab's **Links** group, or right-click a selected document range and click the **Hyperlink...** command in the context menu.
  
-The **Hyperlink** dialog appears. 
+This invokes the **Hyperlink** dialog box.
  
-Use the option buttons at the top of the dialog to change the hyperlink direction.
+*Use the option buttons at the top of the dialog to change the hyperlink direction.
 
 **Web page**
 
 ![EUD_ASPxRichEdit_Insert_HyperlinkDialog-WebPage](../../../images/img118710.png)
 
 Inserts a hyperlink to a web page. 
+
 Specify the hyperlink navigation URL (required), text, and tooltip, and click **OK**. 
 
 **Bookmark**
@@ -53,6 +61,7 @@ Specify the hyperlink navigation URL (required), text, and tooltip, and click **
 ![EUD_ASPxRichEdit_Insert_HyperlinkDialog-Bookmark](../../../images/rich-text-editor-miscellaneous-insert-hyperlink-bookmark.png)
 
 Inserts a hyperlink to a bookmark in the same document. 
+
 Select a bookmark name from the dropdown list (required), and specify the hyperlink navigation text, and tooltip, and click **OK**. 
 
 **Email address**
@@ -60,6 +69,7 @@ Select a bookmark name from the dropdown list (required), and specify the hyperl
 ![EUD_ASPxRichEdit_Insert_HyperlinkDialog-Email](../../../images/rich-text-editor-miscellaneous-insert-hyperlink-email.png)
 
 Inserts a hyperlink that creates a new email message. 
+
 Specify an email address (required), message subject, link text and tooltip, and click **OK**.
 
 > [!NOTE]
