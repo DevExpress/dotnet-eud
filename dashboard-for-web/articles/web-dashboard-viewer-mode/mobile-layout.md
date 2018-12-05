@@ -12,6 +12,8 @@ This topic describes the Web Dashboard's mobile layout that enables you to displ
 - [Mobile Layout's Views](#mobile-layouts-views)
 - [Dashboard Items Behavior](#dashboard-items-behavior)
 
+> [!Note]
+> You can [export](exporting.md) only dashboard items when the Web Dashboard displays dashboards on mobile phones.
 
 ## Mobile Layout's Views
 
