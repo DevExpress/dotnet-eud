@@ -2,11 +2,11 @@
 title: Filtering
 ---
 # Filtering
-You can use filtering commands located on the **Data** tab in the **Sort & Filter** group to activate filtering, reapply the filter, or completely remove all filters in a worksheet.
+You can use filtering commands on the **Data** tab in the **Sort & Filter** group to activate filtering, reapply a filter, or remove all the filters in a worksheet.
 
 ![EUD_ASPxSpreadsheet_DataMenu](../../../images/img26346.png)
 
-To enable filtering, focus a cell in a table to filter and click the **Filter** button.
+To enable filtering, focus the cell you can to filter and click **Filter**.
 
 Once filtering is turned on, click an arrow in the column header to choose a filter for the column.
 
@@ -15,7 +15,7 @@ Once filtering is turned on, click an arrow in the column header to choose a fil
 ## Apply a Filter
 To filter column by particular values, click an arrow in the column header and select **Filter by Values...**. A dialog box with a list of column values appears. 
 
-Select check boxes to display the corresponding values or clear checkboxes to hide the values.
+Select checkboxes to display the corresponding values or clear checkboxes to hide the values.
 
 ![EUD_ASPxSpreadsheet_FilteringDialog](../../../images/spreadsheet-data-presentation-filtering-dialog.png)
 
@@ -25,7 +25,7 @@ To apply a custom filter, click an arrow in the column header, select **Text Fil
 > A name and content of the **Text Filter** menu depends on the type of data in the filtered column (text, numeric values or dates).
 
 ## Clear Filter
-To clear filter for a particular column, click an arrow in the column's header and select **Clear Filter From "ColumnName"**.
+To clear a particular column's filter, click an arrow in the column's header and select **Clear Filter From "ColumnName"**.
 
 ![EUD_ASPxSpreadsheet_ClearFilter](../../../images/spreadsheet-data-presentation-clear-filter.png)
 
