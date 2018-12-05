@@ -86,6 +86,8 @@
           href: articles/dashboard-designer/designing-dashboard-items/chart/interactivity/master-filtering.md
         - name: Drill-Down
           href: articles/dashboard-designer/designing-dashboard-items/chart/interactivity/drill-down.md
+        - name: Neutral Filter Mode
+          href: articles/web-dashboard-designer-mode/interactivity/neutral-filter-mode.md
       - name: Coloring
         href: articles/dashboard-designer/designing-dashboard-items/chart/coloring.md
       - name: Legend
