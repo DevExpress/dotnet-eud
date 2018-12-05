@@ -14,4 +14,4 @@ Click the **Column Chooser** toolbar button to invoke the Column Chooser panel.
 ![EUD_TreeList_Field Chooser](../../../images/img22695.png)
 
 > [!NOTE]
-> This functionality may be disabled in your application depending on the policies of the application vendor.
+> This functionality may be disabled depending on the application vendor's policies.
