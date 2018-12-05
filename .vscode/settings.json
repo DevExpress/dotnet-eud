@@ -1,5 +1,0 @@
-{
-    "pasteImage.path": "${projectRoot}/dashboard-for-desktop/images",
-    "pasteImage.basePath": "${projectRoot}/dashboard-for-desktop",
-    "pasteImage.prefix": "../../../",
-}
