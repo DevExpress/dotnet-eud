@@ -90,8 +90,6 @@ The **Auto Width** property specifies whether to adjust a data-bound label's wid
 
 You can also use the opposite **Text Fit Mode** property to adjust a control's font size to fit its boundaries in Print Preview. This property is not available if the **Can Grow**, **Can Shrink** or **Auto Width** option is enabled.
 
-![](../../../../../images/eurd-win-label-text-fit-mode-property.png)
-
 | Text Fit Mode = None | Text Fit Mode = Grow Only | Text Fit Mode = Shrink Only | Text Fit Mode = Shrink And Grow |
 |---|---|---|---|
 | ![](../../../../../images/eurd-win-label-text-fit-mode-none.png) | ![](../../../../../images/eurd-win-label-text-fit-mode-grow-only.png) | ![](../../../../../images/eurd-win-label-text-fit-mode-shrink-only.png) | ![](../../../../../images/eurd-win-label-text-fit-mode-shrink-and-grow.png) |

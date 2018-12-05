@@ -10,6 +10,9 @@ A **QR Code** (**QR** is the abbreviation for **Quick Response**) is a two-dimen
 
 The following properties are specific to the **QR** type and available in the [Property Grid](../../report-designer-tools/ui-panels/property-grid.md) under the **Symbology** property:
 
+* **Auto Module**
+    Gets or sets whether the Module property value should be calculated automatically based upon the barcode's size.
+
 * **Compaction Mode**
 
     Specifies whether numeric, alpha-numeric or byte information should be used as the bar code's data.
@@ -22,3 +25,6 @@ The following properties are specific to the **QR** type and available in the [P
 
     Specifies the bar code's size.
 	
+* **Logo**
+
+    Specifies the image that overlays the QR code.    
