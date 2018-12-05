@@ -14,7 +14,7 @@ For the orientation and paper size, you can specify a requirement that applies t
 
 ## Specify the Report's Page Settings
 
-While designing the report, you can specify the report's page settings in the [Property Grid](../report-designer-tools/ui-panels/property-grid.md):
+While designing the report, you can specify the report's page settings in the [Property Grid](../report-designer-tools/ui-panels/property-grid.md)'s **Miscellaneous** tab:
 
 ![](../../../../images/eurd-win-specify-report-page-settings.png)
 
