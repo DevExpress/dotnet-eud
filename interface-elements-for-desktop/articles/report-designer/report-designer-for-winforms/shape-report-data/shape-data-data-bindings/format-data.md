@@ -7,9 +7,9 @@ author: Anna Gubareva
 This document demonstrates how to specify value formatting for report elements (for instance, format numeric values as a currency or apply a percent format).
 
 > [!Warning]
-> Use the approach below if expression bindings **are not enabled** in the Report Designer (the [Property Grid](../../report-designer-tools/ui-panels/property-grid.md) does not provide the **Expressions** ![](../../../../../images/eurd-win-property-grid-expressions-icon.png) tab ).
+> Use the approach below if expression bindings **are not enabled** in the Report Designer (the [Property Grid](../../report-designer-tools/ui-panels/property-grid.md) does not provide the **PropertyName Expression** item in the property marker's context menu).
 >
-> See [Format Data](../shape-data-expression-bindings/format-data.md) if expression bindings **are enabled** in the Report Designer (the [Property Grid](../../report-designer-tools/ui-panels/property-grid.md) provides the **Expressions** ![](../../../../../images/eurd-win-property-grid-expressions-icon.png) tab).
+> See [Format Data](../shape-data-expression-bindings/format-data.md) if expression bindings **are enabled** in the Report Designer.
 
 
 After you [bound your report to data](../../bind-to-data.md) and specified a bound data field in a report control's **Data Binding** property, you can format data values in a report.
