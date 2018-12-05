@@ -2,6 +2,7 @@
 title: Toolbox
 author: Anna Vekhina
 ---
+
 # Toolbox
 
 The **Toolbox** lists all available [controls](../use-report-elements.md) and allows you to add them to your report.

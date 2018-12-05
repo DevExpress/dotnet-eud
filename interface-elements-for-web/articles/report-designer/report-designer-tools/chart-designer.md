@@ -21,7 +21,7 @@ The Chart Designer consists of three main parts that are described below.
 
 The **Chart Structure** tree enables you to explore and manage a structure of a chart and its elements.
 
-When you click a chart element in the tree, the Properties panel displays settings of this element.
+When you click a chart element in the tree, the [Properties](#chartproperties) panel displays settings of this element.
 
 To create a new series, click the plus ![](../../../images/eurd-web-report-explorer-add-style.png) button for the **Series** collection and select a required series type in the invoked window.
 
@@ -44,7 +44,7 @@ This part also provides the following buttons:
 |![](../../../images/eurd-web-designer-main-toolbar-undo.png)| Reverses the most recent action. |
 |![](../../../images/eurd-web-designer-main-toolbar-redo.png)| Performs the action you have previously undone. |
 
-## Chart Properties
+##Chart Properties
 
 The **Properties** panel allows you to view and change settings of a chart and its elements. Changing any property updates the chart layout to display the current state.
 
