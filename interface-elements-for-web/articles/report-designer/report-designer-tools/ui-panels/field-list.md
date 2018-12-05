@@ -7,8 +7,6 @@ author: Anna Vekhina
 
 The **Field List** displays the schema of a report's data sources. This panel enables you to manage report data sources and parameters, add calculated fields and create bound report controls.
 
-![](../../../../images/eurd-web-field-list-data-source-add-to-gallery.png)
-
 ## Manage Report Data Sources
 
 The Field List shows available report data sources and their structure.
