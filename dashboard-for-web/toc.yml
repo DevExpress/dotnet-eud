@@ -349,6 +349,8 @@
       href: articles/web-dashboard-viewer-mode/data-presentation/drill-down.md
     - name: Dashboard Layout
       href: articles/web-dashboard-viewer-mode/data-presentation/dashboard-layout.md
+  - name: Mobile Layout
+    href: articles/web-dashboard-viewer-mode/mobile-layout.md
   - name: Dashboard Parameters
     items:
     - name: Requesting Parameter Values
