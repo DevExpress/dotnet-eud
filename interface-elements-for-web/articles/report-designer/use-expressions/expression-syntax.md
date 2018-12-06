@@ -380,7 +380,7 @@ The following functions are specific for binding reports to a stored procedure:
 </td><td><p>CreateTable([Parameters.Parameter1], ..., [Parameters.ParameterN])</p>
 </td></tr></table>
 
-## <a name="summary-expression-editor">Functions for Summary Expression Editor</a>
+## Functions for Summary Expression Editor
 
 Use the following functions when [calculating summaries](..\shape-report-data\shape-data-expression-bindings\calculate-a-summary.md) across a report and its groups:
 
@@ -465,8 +465,6 @@ A report's elements are displayed in the Report Designer's Report Explorer. You 
 
 > [!Note]
 > You cannot use the ReportItems collection in a [Calculated Field](..\shape-report-data\use-calculated-fields.md)'s expression. 
-
-
 
 
 ## Variables

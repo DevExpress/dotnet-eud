@@ -28,7 +28,7 @@ You can invoke the Filter Editor in one of the following ways:
 
     ![](../../../images/eurd-web-filter-string-property.png)
 
-* In the [Query Builder](), click the ellipsis button for the **Filter** or **Group Filter** property to filter data at the data source level.    
+* In the [Query Builder](query-builder.md), click the ellipsis button for the **Filter** or **Group Filter** property to filter data at the data source level.    
 
     ![](../../../images/eurd-web-filter-string-query-builder.png)
 

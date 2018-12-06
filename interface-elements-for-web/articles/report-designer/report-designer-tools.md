@@ -15,7 +15,7 @@ The following main elements make up the user interface of the Web Report Designe
 
 - [Design Surface](report-designer-tools/design-surface.md)
 - [Main Menu](report-designer-tools/menu.md)
-- [Main Toolbar](report-designer-tools/tooblar.md)
+- [Main Toolbar](report-designer-tools/toolbar.md)
 - [Toolbox](report-designer-tools/toolbox.md)
 - [Query Builder](report-designer-tools/query-builder.md)
 - [Chart Designer](report-designer-tools/chart-designer.md)

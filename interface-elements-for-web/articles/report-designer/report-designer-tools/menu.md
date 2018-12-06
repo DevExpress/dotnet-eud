@@ -20,6 +20,6 @@ The menu contains the following commands.
 | Open |![](../../../images/eurd-web-main-menu-open.png)| Invokes the **Open Report** dialog to retrieve a report from the list of [saved reports](../save-reports.md) and [open](../open-reports.md) it in a new tab. This command is only available when the Report Designer is provided with a report storage. |
 | Design in Report Wizard |![](../../../images/eurd-web-main-menu-design-in-wizard.png)| Invokes the [Report Wizard](report-wizard.md) to edit the current report and generate the report layout. |
 | Add SQL Data Source |![](../../../images/eurd-web-main-menu-add-sql-ds.png)| Invokes the [SQL Data Source Wizard](sql-data-source-wizard.md) to create a new data source and configure it. This command is only available when the Report Designer is provided with a set of default data connections. |
-| Save |![](../../../images/eurd-web-main-menu-save.png)| [Saves](../save-reports.md) the current report. |
+| Save |![](../../../images/eurd-web-main-menu-save.png)| [Saves](../save-reports.md) the current report. This command is only available when the Report Designer is provided with a report storage.|
 | Save As |![](../../../images/eurd-web-main-menu-save.png)| Invokes the **Save Report** dialog to save the current report to the report storage under a new URL. This command is only available when the Report Designer is provided with a report storage. |
 | Exit |![](../../../images/eurd-web-main-menu-exit.png)| Closes the [Web Report Designer](../../report-designer.md). |
