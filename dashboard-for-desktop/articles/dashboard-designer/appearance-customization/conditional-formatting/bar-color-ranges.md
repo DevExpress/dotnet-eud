@@ -1,6 +1,6 @@
 ---
 title: Bar Color Ranges
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 115243
 ---
 # Bar Color Ranges

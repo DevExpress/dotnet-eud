@@ -1,6 +1,6 @@
 ---
 title: Filtering
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 16532
 ---
 # Filtering

@@ -1,6 +1,6 @@
 ---
 title: Connecting to OLAP cubes
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 114166
 ---
 # Connecting to OLAP cubes

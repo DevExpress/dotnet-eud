@@ -1,6 +1,6 @@
 ---
 title: Edit Data in Pivot Tables
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 8457
 ---
 # Edit Data in Pivot Tables

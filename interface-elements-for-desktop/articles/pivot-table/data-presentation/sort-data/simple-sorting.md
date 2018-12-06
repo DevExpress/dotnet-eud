@@ -1,6 +1,6 @@
 ---
 title: Simple Sorting
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 9658
 ---
 # Simple Sorting

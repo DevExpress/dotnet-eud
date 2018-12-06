@@ -1,6 +1,6 @@
 ---
 title: Sort Data by Summaries
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 11060
 ---
 # Sort Data by Summaries

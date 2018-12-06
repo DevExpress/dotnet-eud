@@ -1,6 +1,6 @@
 ---
 title: Chart
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 16560
 ---
 # Chart

@@ -1,6 +1,6 @@
 ---
 title: Coloring
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 17943
 ---
 # Coloring

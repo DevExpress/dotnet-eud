@@ -4,7 +4,12 @@ author: Natalia Kazakova
 legacyId: 117728
 ---
 # Dashboard Items Layout
-The **Web Dashboard** provides the capability to arrange and resize dashboard items and groups in various ways, using simple drag-and-drop operations.
+The **Web Dashboard** provides the capability to arrange and resize dashboard items and groups using simple drag-and-drop operations.
+
+- [Layout Concepts](#layout-concepts)
+- [Item Resizing](#item-resizing)
+- [Maximize and Restore Item](#maximize-and-restore-item)
+- [Item Positioning](#item-positioning)
 
 * [Layout Concepts](#layout-concepts)
 * [Item Resizing](#item-resizing)
@@ -32,18 +37,18 @@ You can resize individual items/groups of items by dragging their edges. For thi
 	
 	![wdd-di-resize3](../../../images/img126144.png)
 
-## <a name="maximize-and-restore-item"></a>Maximize and Restore Item
-You can expand any dashboard item into the whole dashboard size to examine data in greater detail. The expanded dashboard item size in this case is the same as the root layout group.
+## Maximize and Restore Item
+You can expand any dashboard item to fit the dashboard to examine data in greater detail. The expanded dashboard item size in this case is the same as the root layout group.
 
-1. To maximize a dashboard item, click the **Maximize** button in the [dashboard item caption](dashboard-item-caption.md).
+1. Click the **Maximize** button in the [dashboard item caption](dashboard-item-caption.md) to maximize a dashboard item.
 
 	![](../../../images/wdd-maximize-dashboard-item.png)
 
-2. To restore the item size, click **Restore**.
+2. Click **Restore** to restore the item's size.
 
 	![](../../../images/wdd-restore-dashboard-item.png)
 
-## <a name="item-positioning"></a>Item Positioning
+## Item Positioning
 You can change the position of a dashboard item by using drag-and-drop and the dashboard item's [Move](../ui-elements/dashboard-item-menu.md) button.
 
 Depending on the required dashboard item position, a new layout group is created (if required) to maintain the arrangement of items. Thus, the dashboard item can be inserted to the desired area of a new or existing dashboard layout group.

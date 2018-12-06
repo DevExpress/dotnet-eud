@@ -1,6 +1,6 @@
 ---
 title: Coloring Concepts
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 17944
 ---
 # Coloring Concepts

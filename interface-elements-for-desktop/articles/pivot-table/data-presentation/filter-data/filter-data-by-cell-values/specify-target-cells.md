@@ -1,6 +1,6 @@
 ---
 title: Specify Target Cells
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 11956
 ---
 # Specify Target Cells

@@ -1,6 +1,6 @@
 ---
 title: Gauges
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 16691
 ---
 # Gauges

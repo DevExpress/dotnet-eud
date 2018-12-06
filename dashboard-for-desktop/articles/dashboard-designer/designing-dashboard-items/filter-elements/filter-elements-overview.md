@@ -1,6 +1,6 @@
 ---
 title: Filter Elements Overview
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 17939
 ---
 # Filter Elements Overview

@@ -1,6 +1,6 @@
 ---
 title: Delta
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 16587
 ---
 # Delta

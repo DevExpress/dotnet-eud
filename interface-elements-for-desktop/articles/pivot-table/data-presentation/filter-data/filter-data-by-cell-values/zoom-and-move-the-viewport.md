@@ -1,6 +1,6 @@
 ---
 title: Zoom and Move the Viewport
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 11955
 ---
 # Zoom and Move the Viewport

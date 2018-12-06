@@ -1,6 +1,6 @@
 ---
 title: Color Ranges
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 114209
 ---
 # Color Ranges

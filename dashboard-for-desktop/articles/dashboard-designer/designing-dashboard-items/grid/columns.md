@@ -1,6 +1,6 @@
 ---
 title: Columns
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 16563
 ---
 # Columns

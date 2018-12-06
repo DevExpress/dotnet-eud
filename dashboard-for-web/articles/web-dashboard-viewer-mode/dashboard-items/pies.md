@@ -1,6 +1,6 @@
 ---
 title: Pies
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 16736
 ---
 # Pies

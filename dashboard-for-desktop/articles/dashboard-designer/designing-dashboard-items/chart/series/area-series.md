@@ -1,6 +1,6 @@
 ---
 title: Area Series
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 16545
 ---
 # Area Series

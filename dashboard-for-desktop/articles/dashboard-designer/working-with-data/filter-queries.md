@@ -1,6 +1,6 @@
 ---
 title: Filter Queries
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 115239
 ---
 # Filter Queries

@@ -1,6 +1,6 @@
 ---
 title: Providing Maps
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 16613
 ---
 # Providing Maps

@@ -1,6 +1,6 @@
 ---
 title: Manage SQL Queries
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 114168
 ---
 # Manage SQL Queries

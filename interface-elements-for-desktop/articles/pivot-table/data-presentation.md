@@ -1,6 +1,6 @@
 ---
 title: Data Presentation
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 9665
 ---
 # Data Presentation

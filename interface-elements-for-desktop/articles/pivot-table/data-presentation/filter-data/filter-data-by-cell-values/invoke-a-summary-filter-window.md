@@ -1,6 +1,6 @@
 ---
 title: Invoke a Summary Filter Window
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 11952
 ---
 # Invoke a Summary Filter Window

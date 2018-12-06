@@ -1,6 +1,6 @@
 ---
 title: Move the Selected Range
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 11954
 ---
 # Move the Selected Range

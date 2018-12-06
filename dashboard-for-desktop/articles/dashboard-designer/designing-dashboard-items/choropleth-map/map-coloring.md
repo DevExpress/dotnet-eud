@@ -1,6 +1,6 @@
 ---
 title: Map Coloring
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 16608
 ---
 # Map Coloring

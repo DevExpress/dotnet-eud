@@ -1,6 +1,6 @@
 ---
 title: Working with Data
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 114172
 ---
 # Working with Data

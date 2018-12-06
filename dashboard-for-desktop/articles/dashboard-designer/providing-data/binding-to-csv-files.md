@@ -1,6 +1,6 @@
 ---
 title: Binding to CSV Files
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 115241
 ---
 # Binding to CSV Files

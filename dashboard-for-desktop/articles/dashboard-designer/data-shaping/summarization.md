@@ -1,6 +1,6 @@
 ---
 title: Summarization
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 16529
 ---
 # Summarization

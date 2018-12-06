@@ -1,6 +1,6 @@
 ---
 title: Dashboard Items
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 16732
 ---
 # Dashboard Items
@@ -21,3 +21,4 @@ This section describes the available dashboard items.
 * [Text Box](dashboard-items/text-box.md)
 * [Treemap](dashboard-items/treemap.md)
 * [Filter Elements](dashboard-items/filter-elements.md)
+* [Tab Container](dashboard-items/tab-container.md)

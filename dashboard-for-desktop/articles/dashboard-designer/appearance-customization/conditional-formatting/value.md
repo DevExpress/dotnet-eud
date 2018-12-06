@@ -1,6 +1,6 @@
 ---
 title: Value
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 114185
 ---
 # Value

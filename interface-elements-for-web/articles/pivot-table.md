@@ -1,6 +1,6 @@
 ---
 title: Pivot Table
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 4855
 ---
 # Pivot Table
