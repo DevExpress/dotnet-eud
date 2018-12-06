@@ -33,7 +33,7 @@ All the styles are now available in the report's toolbar and Report Explorer.
 
 ## Reuse Style Sheets in Reports
 
-You can utilize styles from a style sheet in a report. To do this, specify the path to the style sheet file in the report's **StyleSheetPath** property.
+You can utilize styles from a style sheet in a report. To do this, specify the path to the style sheet file in the report's **Style Sheet's Path** property.
 
 ![eurd-win-stylesheetpath](../../../../images/eurd-win-stylesheetpath.png)
 

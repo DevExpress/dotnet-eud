@@ -1,7 +1,7 @@
 ---
-title: Customizing Appearance
+title: Customize Appearance
 ---
-# Customizing Appearance
+# Customize Appearance
 
 The topics in this section describe how to customize the report elements' appearance:
 

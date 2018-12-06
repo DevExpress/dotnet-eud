@@ -8,7 +8,7 @@ You can choose whether a control's content can be split across several pages usi
 
 ![](../../../../images/eurd-win-keep-together-property.png)
 
-| **Keep Together = No** | **Keep Together = Yes** |
+| **"Keep Together" is disabled** | **"Keep Together" is enabled** |
 |---|---|
 | ![](../../../../images/eurd-win-keep-together-false.png) | ![](../../../../images/eurd-win-keep-together-true.png) |
 

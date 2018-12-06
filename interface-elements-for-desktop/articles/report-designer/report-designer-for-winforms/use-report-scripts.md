@@ -1,7 +1,7 @@
 ---
-title: Handle Events via Scripts
+title: Use Report Scripts
 ---
-# Handle Events via Scripts
+# Use Report Scripts
 This document describes the basic principles of _scripting_, which can be performed by handling the events of a report, and its [bands](introduction-to-banded-reports.md) and [controls](use-report-elements.md).
 
 
