@@ -5,7 +5,7 @@ title: Tables
 # Tables
 You can create and edit tables in documents. 
 
-Click the **Table** button in **Insert** tab to insert a table. Then select the table size and click the corresponding square in the drop-down box.
+Click the **Table** button in the **Insert** tab and select the table size in the drop-down box.
 
 ![RichTextEditor-Tables-InsertTable](../../images/rich-text-editor-tables-insert-table.png)
 
@@ -25,7 +25,7 @@ Use buttons in the **Design** and **Layout** context tabs to customize a table's
 
 
 ## Context Menu
-Right-click a table element to display a context menu. The menu commands allows you to modify table properties and layout.
+Right-click a table element to display a context menu. You can use the menu's commands to modify the table's properties and layout.
 
 ![RichTextEditor-Tables-ContextMenu](../../images/rich-text-editor-tables-context-menu.png)
 

@@ -4,7 +4,7 @@ title: Table of Contents
 ---
 # Table of Contents
 
-Table of Contents allow navigate through a document's marked content (paragraphs, images, tables, and equations). Click a table's row while pressing CTRL to move to the heading or figure.
+The Table of Contents allows you to navigate through a document's marked content (paragraphs, images, tables, and equations). Click a table's row while pressing CTRL to move to the heading or figure.
 
 ![EUD_ASPxRichEdit_Table-of-Contents](../../images/rich-text-editor-table-of-contents.png)
 
@@ -55,5 +55,5 @@ Click the **Table of Contents** button in the **References** tab to insert a tab
 Click the **Insert Table of Figures** button in the **References** tab and select a command to insert a table of figures.
 
 ## Update a Table
-If a navigation table displays outdated information (outdated headings/captions or outdated page numbers) after changing the document, set the pointer in the table and click the **Update Table** button in the **References** ribbon tab to update the table and display the correct information.
+If a navigation table displays outdated information (outdated headings/captions or outdated page numbers) after changing the document, place the pointer in the table and click the **Update Table** button in the **References** ribbon tab to update the table and display the correct information.
 
