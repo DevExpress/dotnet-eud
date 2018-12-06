@@ -13,7 +13,7 @@ A parameter value can be specified in one of the following ways.
 	
 	![](../../../../../images/eurd-web-data-source-wizard-multi-query-configure-parameters-static-values-date-time.png)
 
-* Alternatively, you can calculate a parameter value based on an expression. To do this, expand the **Type** property's drop-down list and select **Expression**. Click the **Value** property's ellipsis button and construct an expression in the invoked **Expression Editor**. 
+* Alternatively, you can calculate a parameter value based on an expression. To do this, expand the **Type** property's drop-down list and select **Expression**. Click the **Value** property's ellipsis button and construct an expression in the invoked [Expression Editor](../../expression-editor.md). 
 
     ![](../../../../../images/eurd-web-data-source-wizard-configure-query-parameters-expression-editor.png)
 

@@ -100,7 +100,7 @@ Do the following to evaluate an extended price based on the price, quantity and 
 	
 	![](../../../images/eurd-web-invoice-add-calculated-field.png)
 
-2. Click the **Edit** button for the calculated field and change its name to **ExtendedPrice**. Click the **Expression** property's ellipsis button, and in the invoked **Expression Editor**, construct the expression based on the **UnitPrice**, **Quantity** and **Discount** fields.
+2. Click the **Edit** button for the calculated field and change its name to **ExtendedPrice**. Click the **Expression** property's ellipsis button, and in the invoked [Expression Editor](../report-designer-tools/expression-editor.md), construct the expression based on the **UnitPrice**, **Quantity** and **Discount** fields.
 	
 	![](../../../images/eurd-web-invoice-calculated-field-expression.png)
 
@@ -127,7 +127,7 @@ Do the following to calculate a total price for each order as a sum of **Extende
 
 1. Add the Group Footer band to the detail report in the same way as the Group Header.
 
-2. Drop the Label control onto the added band and expand the **Actions** category in the Properties panel. Select the **Summary** section and set the **Running** property to **Report** to calculate the summary for the entire detail report and click the **Expression** property's ellipsis button. In the invoked **Expression Editor**, specify the following expression to calculate the total price:
+2. Drop the Label control onto the added band and expand the **Actions** category in the Properties panel. Select the **Summary** section and set the **Running** property to **Report** to calculate the summary for the entire detail report and click the **Expression** property's ellipsis button. In the invoked [Expression Editor](../report-designer-tools/expression-editor.md), specify the following expression to calculate the total price:
 	
 	![](../../../images/eurd-web-invoice-specify-summary-function.png)
 

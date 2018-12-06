@@ -17,7 +17,7 @@ This document describes how to display or hide a report control in a published d
 
     ![](../../../../images/eurd-web-shaping-check-box-visible-property.png)
 
-3. In the invoked **Expression Editor**, specify the required [expression](../../use-expressions.md).
+3. In the invoked [Expression Editor](../../report-designer-tools/expression-editor.md), specify the required [expression](../../use-expressions.md).
 	
 	![](../../../../images/eurd-web-shaping-suppress-expression.png)
 	

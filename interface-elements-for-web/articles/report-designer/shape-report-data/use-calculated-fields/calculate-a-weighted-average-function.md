@@ -29,7 +29,7 @@ You can calculate a weighted average by specifying a control's expression using 
 	
 	![](../../../../images/eurd-web-weighted-average-summary-running.png)
 
-5. Click the **Expression** property's ellipsis button. This invokes the **Expression Editor** where you can specify a custom expression with multiple built-in functions from the **Functions** | **Summary** section. Report summary functions start with the "sum" prefix to help differentiate them from aggregate functions.
+5. Click the **Expression** property's ellipsis button. This invokes the [Expression Editor](../../report-designer-tools/expression-editor.md) where you can specify a custom expression with multiple built-in functions from the **Functions** | **Summary** section. Report summary functions start with the "sum" prefix to help differentiate them from aggregate functions.
 	
 	![](../../../../images/eurd-web-weighted-average-summary-expression.png)
 
@@ -46,7 +46,7 @@ You can create a [calculated field](calculated-fields-overview.md) and use a sta
 4. Click the **Edit** button for the calculated field to display calculated field properties. Specify the **Name** property, set the **Field Type** to **Decimal** and click the **Expression** property's ellipsis button.
 	
 	![](../../../../images/eurd-web-weighted-average-calculated-field-settings.png)
-5. In the invoked **Expression Editor**, specify the expression using the **Sum** aggregate function. For example:
+5. In the invoked [Expression Editor](../report-designer-tools/expression-editor.md), specify the expression using the **Sum** aggregate function. For example:
 	
 	_[][[CategoryID] == [^.CategoryID]].Sum([UnitPrice] * [UnitsInStock])  / [][[CategoryID] == [^.CategoryID]].Sum([UnitsInStock])_
 	

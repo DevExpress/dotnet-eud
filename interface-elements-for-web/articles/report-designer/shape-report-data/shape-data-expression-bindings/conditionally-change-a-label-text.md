@@ -17,7 +17,7 @@ After you [bound your report to data](../../bind-to-data.md) and specified a bou
 	
 	![](../../../../images/eurd-web-shaping-label-expression-property-for-custom-text.png)
 
-2. In the invoked **Expression Editor**, specify the required [expression](../../use-expressions.md).
+2. In the invoked [Expression Editor](../../report-designer-tools/expression-editor.md), specify the required [expression](../../use-expressions.md).
 	
 	![](../../../../images/eurd-web-shaping-label-expression-for-custom-text.png)
 	

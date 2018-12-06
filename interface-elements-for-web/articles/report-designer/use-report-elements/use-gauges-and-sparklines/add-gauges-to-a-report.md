@@ -49,7 +49,7 @@ The following properties allow you to customize the gauge scale and specify its 
 
 
 ## Bind a Gauge to Data
-To [bind](../../bind-to-data/bind-controls-to-data-expression-bindings.md) the gauge's displayed value to data, open the [Expressions](../../report-designer-tools/ui-panels/expressions-panel.md) panel and click the **Actual Value** property's ellipsis button. Select the required data field or construct a complex binding expression involving two or more data fields in the invoked **Expression Editor**.
+To [bind](../../bind-to-data/bind-controls-to-data-expression-bindings.md) the gauge's displayed value to data, open the [Expressions](../../report-designer-tools/ui-panels/expressions-panel.md) panel and click the **Actual Value** property's ellipsis button. Select the required data field or construct a complex binding expression involving two or more data fields in the invoked [Expression Editor](../../report-designer-tools/expression-editor.md).
 
 ![](../../../../images/eurd-web-gauge-control-bind-to-data.png)
 

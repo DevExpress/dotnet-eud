@@ -15,7 +15,7 @@ This document describes how to change a report control's appearance based on a s
 
     ![](../../../../images/eurd-web-shaping-report-add-formatting-rule.png)
 
-2. Click the **Condition** property's ellipsis button. In the invoked **Expression Editor**, specify the required Boolean condition (which means that its result is either _true_ or _false_) and click **OK**.
+2. Click the **Condition** property's ellipsis button. In the invoked [Expression Editor](../../report-designer-tools/expression-editor.md), specify the required Boolean condition (which means that its result is either _true_ or _false_) and click **OK**.
 
 	![](../../../../images/eurd-web-shaping-formattin-rule-appearance-condition.png)
 

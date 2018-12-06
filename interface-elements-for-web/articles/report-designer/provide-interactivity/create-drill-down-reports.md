@@ -23,6 +23,6 @@ Do the following to create a drill-down report:
 	
 	![](../../../images/eurd-web-drill-down-report-label-smart-tag.png)
 	
-	This invokes the **Expression Editor** where you can make the label display different text based on the detail report's **DrillDownExpanded** property value.
+	This invokes the [Expression Editor](../report-designer-tools/expression-editor.md) where you can make the label display different text based on the detail report's **DrillDownExpanded** property value.
 	
 	![](../../../images/eurd-web-drill-down-report-expression.png)

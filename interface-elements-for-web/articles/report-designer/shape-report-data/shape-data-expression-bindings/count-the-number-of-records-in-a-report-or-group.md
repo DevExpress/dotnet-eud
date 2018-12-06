@@ -27,7 +27,7 @@ This document describes how to display the number or records in a report or grou
 	
 	![](../../../../images/eurd-web-shaping-count-summary-running.png)
 
-4. Click the **Expression** property's ellipsis button. In the invoked **Expression Editor**, select the **sumCount** function in the **Functions** | **Summary** section.
+4. Click the **Expression** property's ellipsis button. In the invoked [Expression Editor](../../report-designer-tools/expression-editor.md), select the **sumCount** function in the **Functions** | **Summary** section.
 	
 	![](../../../../images/eurd-web-shaping-count-expression.png)
 

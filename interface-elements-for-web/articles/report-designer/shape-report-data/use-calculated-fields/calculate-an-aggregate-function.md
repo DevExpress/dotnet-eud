@@ -14,7 +14,7 @@ This tutorial describes the steps required to create a report with an _aggregate
 
     ![](../../../../images/eurd-web-aggreagate-field-expression-property.png)
 
-4. In the invoked **Expression Editor**, double click the **[CategoriesProducts]** field and choose **Functions** | **Aggregate**. Then, double click the **Count()** function and insert the following text into the empty square brackets:
+4. In the invoked [Expression Editor](../../report-designer-tools/expression-editor.md), double click the **[CategoriesProducts]** field and choose **Functions** | **Aggregate**. Then, double click the **Count()** function and insert the following text into the empty square brackets:
 	
 	_"Not[Discontinued]And[UnitTotal] >= 500"._
 	

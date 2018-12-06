@@ -28,11 +28,11 @@ Press CTRL+Enter to submit changes and exit the in-place editor.
 
 ## Bind to Data
 
-Click the **Rtf Expression** or **Html Expression** option's ellipsis button to invoke the **Expression Editor**. This editor allows you to bind the control to a data field or construct a complex binding expression with two or more data fields. 
+Click the **Rtf Expression** or **Html Expression** option's ellipsis button to invoke the [Expression Editor](../../report-designer-tools/expression-editor.md). This editor allows you to bind the control to a data field or construct a complex binding expression with two or more data fields. 
 
 ![](../../../../images/eurd-web-rich-text-bind-to-data.png)
 
-You can use HTML formatted text, which contains markup tags to define text appearance. Click the **Html Expression** option's ellipsis button and enter this text in **'** quotes **'** in the invoked **Expression Editor**.
+You can use HTML formatted text, which contains markup tags to define text appearance. Click the **Html Expression** option's ellipsis button and enter this text in **'** quotes **'** in the invoked [Expression Editor](../report-designer-tools/expression-editor.md).
 
 ![](../../../../images/eurd-web-rich-text-html-formatted-text.png)
 

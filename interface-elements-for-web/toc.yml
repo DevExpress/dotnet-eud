@@ -880,12 +880,58 @@
             href: articles/report-designer/report-designer-tools/report-wizard/label-report/customize-the-label-options.md     
     - name: SQL Data Source Wizard
       href: articles/report-designer/report-designer-tools/sql-data-source-wizard.md
-    - name: Query Builder
-      href: articles/report-designer/report-designer-tools/query-builder.md
+      items:
+        - name: Add a New Data Source
+          href: articles/report-designer/report-designer-tools/sql-data-source-wizard/add-a-new-data-source.md
+          items:
+          - name: Choose a Data Connection
+            href: articles/report-designer/report-designer-tools/sql-data-source-wizard/add-a-new-data-source/choose-a-data-connection.md    
+          - name: Create a Query or Select a Stored Procedure
+            href: articles/report-designer/report-designer-tools/sql-data-source-wizard/add-a-new-data-source/create-a-query-or-select-a-stored-procedure.md
+          - name: Configure Query Parameters
+            href: articles/report-designer/report-designer-tools/sql-data-source-wizard/add-a-new-data-source/configure-query-parameters.md
+          - name: Configure Master-Detail Relationships
+            href: articles/report-designer/report-designer-tools/sql-data-source-wizard/add-a-new-data-source/configure-master-detail-relationships.md
+        - name: Edit an Existing Data Source
+          href: articles/report-designer/report-designer-tools/sql-data-source-wizard/edit-an-existing-data-source.md
+          items:
+          - name: Create a Query or Select a Stored Procedure
+            href: articles/report-designer/report-designer-tools/sql-data-source-wizard/edit-an-existing-data-source/create-a-query-or-select-a-stored-procedure.md
+          - name: Configure Query Parameters
+            href: articles/report-designer/report-designer-tools/sql-data-source-wizard/add-a-new-data-source/configure-query-parameters.md
+    - name: Design Surface
+      href: articles/report-designer/report-designer-tools/design-surface.md
+    - name: Main Menu
+      href: articles/report-designer/report-designer-tools/menu.md
+    - name: Main Toolbar
+      href: articles/report-designer/report-designer-tools/toolbar.md
     - name: Toolbox
       href: articles/report-designer/report-designer-tools/toolbox.md
+    - name: Query Builder
+      href: articles/report-designer/report-designer-tools/query-builder.md
+    - name: Chart Designer
+      href: articles/report-designer/report-designer-tools/chart-designer.md
+    - name: Expression Editor
+      href: articles/report-designer/report-designer-tools/expression-editor.md
+    - name: Filter Editor
+      href: articles/report-designer/report-designer-tools/filter-editor.md
+    - name: Format String Editor
+      href: articles/report-designer/report-designer-tools/format-string-editor.md
+    - name: Master-Detail Relation Editor
+      href: articles/report-designer/report-designer-tools/master-detail-relation-editor.md
+    - name: Script Editor
+      href: articles/report-designer/report-designer-tools/script-editor.md
     - name: UI Panels
-      href: articles/report-designer/report-designer-tools/ui-panels.md  
+      href: articles/report-designer/report-designer-tools/ui-panels.md
+      items:
+        - name: Properties Panel
+          href: articles/report-designer/report-designer-tools/ui-panels/properties-panel.md
+        - name: Expressions Panel
+          href: articles/report-designer/report-designer-tools/ui-panels/expressions-panel.md
+        - name: Field List
+          href: articles/report-designer/report-designer-tools/ui-panels/field-list.md
+        - name: Report Explorer
+          href: articles/report-designer/report-designer-tools/ui-panels/report-explorer.md
 - name: Ribbon
   href: articles/ribbon.md
   items:

@@ -19,7 +19,7 @@ This document describes how to filter a report's data based on a specific condit
 	
 	![](../../../../images/eurd-web-shaping-filter-parameter-settings.png)
 
-3. Select the report's detail band, switch it to the [Expressions](../../report-designer-tools/ui-panels/expressions-panel.md) panel and click the **Visible** property's ellipsis button. In the invoked **Expression Editor**, specify the required visibility condition. For example:
+3. Select the report's detail band, switch it to the [Expressions](../../report-designer-tools/ui-panels/expressions-panel.md) panel and click the **Visible** property's ellipsis button. In the invoked [Expression Editor](../../report-designer-tools/expression-editor.md), specify the required visibility condition. For example:
 	
 	![](../../../../images/eurd-web-shaping-formatting-rule-filter-condition.png)
 	

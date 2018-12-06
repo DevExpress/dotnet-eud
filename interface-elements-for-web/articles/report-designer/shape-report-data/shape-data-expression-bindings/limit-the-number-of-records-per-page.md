@@ -25,7 +25,7 @@ After you [bound your report to data](../../bind-to-data.md) and provided conten
 	
 	![](../../../../images/eurd-web-shaping-page-break.png)
 
-4. Switch to the [Expressions](../../report-designer-tools/ui-panels/expressions-panel.md) panel and click the **Visible** property's ellipsis button. In the invoked **Expression Editor**, specify the required [expression](../../use-expressions.md).
+4. Switch to the [Expressions](../../report-designer-tools/ui-panels/expressions-panel.md) panel and click the **Visible** property's ellipsis button. In the invoked [Expression Editor](../../report-designer-tools/expression-editor.md), specify the required [expression](../../use-expressions.md).
 	
 	![](../../../../images/eurd-web-shaping-page-break-visible-expression.png)
 	

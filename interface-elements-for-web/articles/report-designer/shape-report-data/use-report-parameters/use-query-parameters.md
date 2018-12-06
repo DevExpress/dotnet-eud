@@ -66,7 +66,7 @@ Below, you can see how a value is specified for a query parameter within the Dat
 		
 	![](../../../../images/eurd-web-query-parameters-dynamic-expression.png)
 		
-	Click the **Value** property's ellipsis button and construct an expression in the invoked **Expression Editor**. You can map a report parameter that already exists in a report to a query parameter.
+	Click the **Value** property's ellipsis button and construct an expression in the invoked [Expression Editor](../../report-designer-tools/expression-editor.md). You can map a report parameter that already exists in a report to a query parameter.
 		
 	![](../../../../images/eurd-web-query-parameters-expression-editor.png)
 

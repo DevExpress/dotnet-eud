@@ -21,7 +21,7 @@ Use the **Image Source** or **Image URL** property to specify the image the Pict
 The specified image is [saved](../../save-reports.md) with the report if you use the **Image Source** property. If you use the **Image URL** property, only the path to the image is stored. 
 
 ## Bind to Data
-You can use the Picture Box to display an image [dynamically obtained](../../bind-to-data/bind-controls-to-data-expression-bindings.md) from a data source. Click the **Image Source** property's ellipsis button and select the data field in the invoked **Expression Editor**. You can use this editor to construct a binding expression that can include two or more data fields.
+You can use the Picture Box to display an image [dynamically obtained](../../bind-to-data/bind-controls-to-data-expression-bindings.md) from a data source. Click the **Image Source** property's ellipsis button and select the data field in the invoked [Expression Editor](../../report-designer-tools/expression-editor.md). You can use this editor to construct a binding expression that can include two or more data fields.
 
 ![](../../../../images/eurd-web-picture-box-bind-to-data.png)
 

@@ -26,7 +26,7 @@ To filter the list of parameter values, click the ellipsis button for the parame
 
 ![](../../../../images/eurd-web-parameters-create-cascading-parameter.png)
 
-Switch to the [Properties](../../report-designer-tools/ui-panels/properties-panel.md) panel and click the ellipsis button for the report's **Filter String** property in the **Actions** category. In the invoked **Filter Editor**, construct an expression that uses both parameters:
+Switch to the [Properties](../../report-designer-tools/ui-panels/properties-panel.md) panel and click the ellipsis button for the report's **Filter String** property in the **Actions** category. In the invoked [Filter Editor](../../report-designer-tools/filter-editor.md), construct an expression that uses both parameters:
 
 ![](../../../../images/eurd-web-parameters-filter-with-cascading-parameters.png)
 
