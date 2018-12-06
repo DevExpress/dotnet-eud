@@ -4,22 +4,29 @@ author: Anna Kondratova
 legacyId: 113845
 ---
 # Mail Merge
-Document fields are special placeholders for non-static data that might change (be updated on a field update). These placeholders are replaced with actual data when the document is rendered for display or printing. The default **Mail Merge** tab can be used to work with fields (create, update, switch between field display modes).
+Document fields are placeholders for non-static data that can change (updated on a field update). These placeholders are replaced with actual data when the document is rendered. Use buttons in the **Mail Merge** tab to manage these fields.
 
-To insert a field, position the mouse cursor within a document and select the **Create Field** button in the **Mail Merge** tab (or use the **Ctrl+F9** shortcut). Field codes appear between curly brackets ( { } ).
+
+To insert a field, place the mouse cursor in a document and click the **Create Field** button in the **Mail Merge** tab (or press CTRL+F9).
 
 ![EUD_ASPxRichEdit_MailMerge_CreateField](../../images/img118711.png)
 
-The following field codes are supported:
+You can use the following field codes:
 
-**DATE** - Inserts the current date and time.
+* **DATE** - Inserts the current date and time.
+* **TIME** - Inserts the current time.
+* **PAGE** - Inserts the number of the page containing the field.
+* **NUMPAGES** - Inserts the total number of pages.
+* **MERGEFIELD** - Inserts a field merged with a data source.
+* **DOCVARIABLE** - Enables you to programmatically insert complex content when this field is updated.
 
-**TIME** - Inserts the current time.
 
-**DOCVARIABLE** - Enables you to programmatically insert complex content when this field is updated.
 
-**HYPERLINK** - Enables you to navigate to another location or to a bookmark.
+The **Show All Field Codes** button displays field codes for all the fields in the document.
 
-**NUMPAGES** - Inserts the total number of pages.
+The **Show All Field Results** button displays field results for all the fields in the document.
 
-**PAGE** - Inserts the number of the page containing the field.
+Fields should be updated to calculate a field result. Fields are updated automatically when the document is saved or printed. 
+
+Click the **Update All Fields** button to update fields, or select a field(s) and press F9.
+
