@@ -21,7 +21,7 @@ After you [bound your report to data](../../bind-to-data.md) and provided conten
 	
 	![](../../../../../images/eurd-win-shaping-limit-parameter-settings.png)
 
-3. Drop a [Page Break](../../use-report-elements/use-basic-report-controls/page-break.md) control onto the report's Detail band. Set the control's **Visible** property to **No** and click the **Formatting Rules** property's ellipsis button.
+3. Drop a [Page Break](../../use-report-elements/use-basic-report-controls/page-break.md) control onto the report's Detail band. Disable the control's **Visible** property and click the **Formatting Rules** property's ellipsis button.
 
     ![](../../../../../images/eurd-win-shaping-page-break-formatting-rules.png)
 

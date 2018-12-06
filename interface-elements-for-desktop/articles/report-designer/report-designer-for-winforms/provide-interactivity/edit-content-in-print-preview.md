@@ -49,9 +49,6 @@ The sections below provide information about options these controls expose. You 
 	* XLSX
 	* image
 
-> [!TIP]
-> Enable the **PdfExportOptions.ExportEditingFieldsToAcroForms** option to automatically convert a report's editable fields to AcroForms on PDF export.
-
 ## Text Editors
 
 Text editors are used to customize the [Label](..\use-report-elements\use-basic-report-controls\label.md), [Table Cell](..\use-report-elements\use-tables.md) and [Character Comb](..\use-report-elements\use-basic-report-controls\character-comb.md) report controls' content in Print Preview.

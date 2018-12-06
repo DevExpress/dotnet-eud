@@ -10,7 +10,7 @@ The Report Designer uses one of the following modes to provide dynamic content t
 
 Expression bindings enable you to use complex [expressions](../use-expressions.md) that include two or more fields and various functions. Expressions also allow you to calculate complex summaries without scripts and conditionally shape your data without formatting rules.
 
-This mode is enabled in the Report Designer if the [Property Grid](../report-designer-tools/ui-panels/property-grid.md) provides provides the **PropertyName Expression** option in property markers' context menu.
+This mode is enabled in the Report Designer if the [Property Grid](../report-designer-tools/ui-panels/property-grid.md) provides the **PropertyName Expression** option in property markers' context menu.
 
 ![](../../../../images/eurd-win-property-grid-data-binding.png)
 

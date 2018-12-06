@@ -6,7 +6,7 @@ title: 'Bind a Report to JSON Data'
 
 This topic describes how to bind a report to JSON data at design time.
 
-## Create JSONDataSource
+## Create JsonDataSource
 
 1. [Create a new report](../add-new-reports.md).
 

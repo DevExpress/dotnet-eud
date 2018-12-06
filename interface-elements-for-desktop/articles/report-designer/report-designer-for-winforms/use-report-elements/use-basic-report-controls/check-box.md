@@ -54,7 +54,7 @@ See the [Bind Report Controls to Data](../../bind-to-data/bind-controls-to-data-
 
 
 ## Interactivity
-You can enable [changing the check box state](../../provide-interactivity/edit-content-in-print-preview.md) in Print Preview by setting the **Enabled** option in the **Edit Options** category to **Yes**.
+You can enable [changing the check box state](../../provide-interactivity/edit-content-in-print-preview.md) in Print Preview by enabling the **Enabled** option in the **Edit Options** category.
 
 ![](../../../../../images/eurd-win-check-box-edit-options-enabled.png)
 

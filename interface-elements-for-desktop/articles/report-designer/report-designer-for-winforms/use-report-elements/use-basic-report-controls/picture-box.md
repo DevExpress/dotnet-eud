@@ -103,7 +103,7 @@ You can also use the **Image Alignment** property in the **Normal**, **Squeeze**
 
 ## Interactivity
 
-You can add a possibility to load/change an image and/or draw a signature in a picture box when it is displayed in Print Preview. To do this, enable the **EditOptions** | **Enabled** property.
+You can add a possibility to load/change an image and/or draw a signature in a picture box when it is displayed in Print Preview. To do this, enable the **Edit Options** | **Enabled** property.
 
 ![picture-box-enable-content-editing](../../../../../images/eurd-win-picture-box-enable-content-editing.png)
 
