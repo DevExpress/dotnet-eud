@@ -58,7 +58,7 @@ To add a control from the Toolbox, do one of the following.
 
 * Drag and drop an item from the Toolbox onto the required location within a report.
 	
-	![eurd-win-drag-control-from-toolbox](../../../../images/eurd-win-drag-control-from-toolbox.png)
+	![eurd-win-drag-control-from-toolbox](../../../../images/eurd-win-add-rich-text-to-report.png)
 * Select an item in the Toolbox, and then click the required location within a report.
 * Select an item in the Toolbox, and then indicate the bounding rectangle by holding the left mouse button.
 	

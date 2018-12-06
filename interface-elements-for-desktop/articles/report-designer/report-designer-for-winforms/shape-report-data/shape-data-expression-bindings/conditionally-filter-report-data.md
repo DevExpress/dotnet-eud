@@ -27,7 +27,7 @@ This document describes how to filter a report's data based on a specific condit
 	
 	![](../../../../../images/eurd-win-shaping-filter-expression.png)
 	
-	The expression above makes the **Visible** property return **True** or **False** depending on whether the field value is below the specified parameter value.
+	The expression above enables/disables the **Visible** property depending on whether the field value is below the specified parameter value.
 
 Switch to [Print Preview](../../preview-print-and-export-reports.md) to see the result. 
 

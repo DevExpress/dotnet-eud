@@ -21,7 +21,7 @@ This document describes how to display or hide a report control in a published d
 
     ![](../../../../../images/eurd-win-shaping-edit-rule-sheet.png)
 
-4. In the invoked **Formatting Rule Sheet Editor**, click the plus button to create a new formatting rule. Set the **Visible** property to **False** and click the **Condition** property's ellipsis button.
+4. In the invoked **Formatting Rule Sheet Editor**, click the plus button to create a new formatting rule. Set the **Visible** property to **No** and click the **Condition** property's ellipsis button.
 
 	![](../../../../../images/eurd-win-shaping-formatting-rule-settings.png)
 

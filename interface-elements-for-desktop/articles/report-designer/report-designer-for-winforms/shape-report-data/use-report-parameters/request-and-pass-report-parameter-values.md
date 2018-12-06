@@ -11,7 +11,7 @@ The parameter's **Value** property specifies the parameter's actual value. This 
 
 ![](../../../../../images/eurd-win-parameters-settings.png)
 
-A parameter's value is not requested from end-users and is automatically passed to the report when the parameter's **Visible** property is set to **false**. When a report has at least one visible parameter, a Print Preview provides the **Parameters** panel for submitting parameter values.
+A parameter's value is not requested from end-users and is automatically passed to the report when the parameter's **Visible** property is disabled. When a report has at least one visible parameter, a Print Preview provides the **Parameters** panel for submitting parameter values.
 
 When loading a Print Preview, a report document is not created by default unless values for all visible parameters are submitted. To create report documents without requesting parameter values (and using their default values instead), disable the report's **Request Parameters** property.
 

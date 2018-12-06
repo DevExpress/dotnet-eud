@@ -27,7 +27,7 @@ This document describes how to display or hide a report control in a published d
 	
 	**Iif([Discontinued] == False, False, [Discontinued])**
 	
-	This expression means that if the data field's value is **False**, the control's **Visible** property's value is also **False**.
+	This expression means that if the data field's value is **False**, the control's **Visible** property is disabled.
 
 When switching to [Print Preview](../../preview-print-and-export-reports.md), you can view the report control's visibility changes according to the assigned condition.
 

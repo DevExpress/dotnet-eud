@@ -21,7 +21,7 @@ This tutorial describes how to create a simple invoice report displaying informa
 
 3. On the first page of the invoked **Data Source Wizard**, you can choose the required data source type. Select **Database** and click **Next** to proceed.
 	
-	![](../../../../images/eurd-win-data-source-wizard-select-database.png)
+	![ReportWizard-SelectDataSourceType](../../../../images/eurd-ReportWizard-SelectDataSourceType.png)
 
 4. The following page allows you to specify whether you want to use an existing data connection or create a new one. For this example, select an existing connection and click **Next**.
 	
