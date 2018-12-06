@@ -30,6 +30,6 @@ Use the zoom panel to change the Report Designer's default zoom factor.
 
 Switch to the **Preview** tab. This opens a [Print Preview](preview-print-and-export-reports.md) and displays the generated report document with the data source's data.
 
-![report-designer-view-tabs](../../../images/eurd-win-report-designer-view-tabs.png)
+![eurd-win-preview](../../../images/eurd-win-preview.png)
 
 Switch to the **Scripts** tab to manage and customize [report scripts](use-report-scripts.md).

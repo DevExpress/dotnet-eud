@@ -6,7 +6,7 @@ title: Edit Content in Print Preview
 This document describes how to customize field values in a previewed document.
 
 ## <a name="enableediting"></a>Content Editing Overview
-Set a report control's **Edit Options** | **Enabled** property to **true** and leave the **Edit Options** | **Read Only** property disabled to make the control's content editable in Print Preview.
+Set a report control's **Edit Options** | **Enabled** property to **Yes** and leave the **Edit Options** | **Read Only** property disabled to make the control's content editable in Print Preview.
 
 ![editing-fields-label-edit-options-new](../../../../images/eurd-win-editing-fields-label-edit-options-new.png)
 
