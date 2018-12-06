@@ -16,7 +16,7 @@ This tutorial describes how to create a data-bound report displaying information
 
     ![](../../../images/eurd-web-table-report-insert-page-header.png)
 
-4. Drop the [Table](../use-report-elements/use-tables.md) control from the [Toolbox](../../report-designer-tools/toolbox.md) onto the Page Header band and specify columns' text to create column headers.
+4. Drop the [Table](../use-report-elements/use-tables.md) control from the [Toolbox](../report-designer-tools/toolbox.md) onto the Page Header band and specify columns' text to create column headers.
 
     ![](../../../images/eurd-web-table-report-add-static-captions.png)
 

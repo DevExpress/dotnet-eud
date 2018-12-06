@@ -45,7 +45,7 @@ The following properties allow you to customize the gauge scale and specify its 
 * **Maximum** - specifies the gauge's maximum value.
 * **Minimum** - specifies the gauge's minimum value.
 
-![](../../../../../images/eurd-win-gauge-control-smart-tag-properties.png)
+![](../../../../images/eurd-web-gauge-control-smart-tag-properties.png)
 
 
 ## Bind a Gauge to Data

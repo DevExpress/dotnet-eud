@@ -32,7 +32,7 @@ Click the **Rtf Expression** or **Html Expression** option's ellipsis button to 
 
 ![](../../../../images/eurd-web-rich-text-bind-to-data.png)
 
-You can use HTML formatted text, which contains markup tags to define text appearance. Click the **Html Expression** option's ellipsis button and enter this text in **'** quotes **'** in the invoked [Expression Editor](../report-designer-tools/expression-editor.md).
+You can use HTML formatted text, which contains markup tags to define text appearance. Click the **Html Expression** option's ellipsis button and enter this text in **'** quotes **'** in the invoked [Expression Editor](../../report-designer-tools/expression-editor.md).
 
 ![](../../../../images/eurd-web-rich-text-html-formatted-text.png)
 

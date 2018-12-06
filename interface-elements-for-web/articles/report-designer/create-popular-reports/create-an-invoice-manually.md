@@ -17,7 +17,7 @@ This tutorial describes how to create a simple invoice report displaying informa
    ![](../../../images/eurd-web-add-sql-data-source-menu.png) 
 
 
-3. Select a data connection on the [Data Source Wizard](../report-designer-tools/data-source-wizard.md)'s first page and click **Next**.
+3. Select a data connection on the [SQL Data Source Wizard](../report-designer-tools/sql-data-source-wizard.md)'s first page and click **Next**.
 
     ![](../../../images/eurd-web-invoice-select-data-connection-in-wizard.png)
 
@@ -148,7 +148,7 @@ Perform the following steps to sort data in the detail report:
 ## Customize the Report Appearance
 Do the following to customize the report and its elements' appearance:
 
-1. Click the gray area around the design surface to select the report, and in the [Property Grid](../report-designer-tools/ui-panels/property-grid.md), specify the font settings. These settings are distributed to all report elements.
+1. Click the gray area around the design surface to select the report, and in the [Properties](../report-designer-tools/ui-panels/properties-panel.md) panel, specify the font settings. These settings are distributed to all report elements.
 	
 	![](../../../images/eurd-web-invoice-report-appearance-properties.png)
 
@@ -191,7 +191,7 @@ Do the following to provide additional information to your invoices, such as the
 	
 	![](../../../images/eurd-web-invoice-add-page-info.png)
 
-4. Expand the **Actions** category and set the **Page Information** property to **Current Date and Time**. Click the **Text Format String** property's ellipsis button, and in the invoked **Format String Editor**, select a date format as in the [Format Data](#format) section above.
+4. Expand the **Actions** category and set the **Page Information** property to **Current Date and Time**. Click the **Text Format String** property's ellipsis button, and in the invoked **Format String Editor**, select a date format as in the **Format Data** section above.
 	
     ![](../../../images/eurd-web-invoice-page-info-text-format-string.png)
 

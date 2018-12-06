@@ -24,7 +24,7 @@ Use the [Character Comb](../use-report-elements/use-basic-report-controls/charac
 	
 	![](../../../images/eurd-web-eform-add-character-comb.png)
 
-2.  Select all the added controls, clear their text, switch to the [Properties](../../report-designer-tools/ui-panels/properties-panel.md) panel and expand the **Layout** category. Adjust cell settings, such as **Cell Width**, **Cell Height**, **Cell Horizontal Spacing**, etc.
+2.  Select all the added controls, clear their text, switch to the [Properties](../report-designer-tools/ui-panels/properties-panel.md) panel and expand the **Layout** category. Adjust cell settings, such as **Cell Width**, **Cell Height**, **Cell Horizontal Spacing**, etc.
 	
 	![](../../../images/eurd-web-eform-character-combs-cell-settings.png)
 
@@ -48,7 +48,7 @@ Use the [Character Comb](../use-report-elements/use-basic-report-controls/charac
     
     ![](../../../images/eurd-web-eform-add-picture-box.png)
      
-2. Switch to the [Properties](../../report-designer-tools/ui-panels/properties-panel.md) panel and adjust control's appearance settings. Expand the **Behavior** category and select the **Edit Options** section. Set the **Enabled** property to **Yes** and the **Editor Name** property to signature to enable drawing in Print Preview.
+2. Switch to the [Properties](../report-designer-tools/ui-panels/properties-panel.md) panel and adjust control's appearance settings. Expand the **Behavior** category and select the **Edit Options** section. Set the **Enabled** property to **Yes** and the **Editor Name** property to signature to enable drawing in Print Preview.
 
     ![](../../../images/eurd-web-eform-picture-box-enable-drawing.png)
 

@@ -46,7 +46,7 @@ You can create a [calculated field](calculated-fields-overview.md) and use a sta
 4. Click the **Edit** button for the calculated field to display calculated field properties. Specify the **Name** property, set the **Field Type** to **Decimal** and click the **Expression** property's ellipsis button.
 	
 	![](../../../../images/eurd-web-weighted-average-calculated-field-settings.png)
-5. In the invoked [Expression Editor](../report-designer-tools/expression-editor.md), specify the expression using the **Sum** aggregate function. For example:
+5. In the invoked [Expression Editor](../../report-designer-tools/expression-editor.md), specify the expression using the **Sum** aggregate function. For example:
 	
 	_[][[CategoryID] == [^.CategoryID]].Sum([UnitPrice] * [UnitsInStock])  / [][[CategoryID] == [^.CategoryID]].Sum([UnitsInStock])_
 	

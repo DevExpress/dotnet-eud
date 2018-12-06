@@ -15,16 +15,16 @@ This tutorial illustrates how to bind a report to a hierarchical data source and
 
    The menu contains this command if your software vendor provides data connections.
 
-3. Select the data connection on the [Data Source Wizard](../report-designer-tools/data-source-wizard.md)'s first page and click **Next**.
+3. Select the data connection on the [SQL Data Source Wizard](../report-designer-tools/sql-data-source-wizard.md)'s first page and click **Next**.
 
-    ![](../../../images/eurd-web-binding-sql-ds-wizard.png)
+    ![](../../../images/eurd-web-sql-ds-wizard-choose-a-data-connection.png)
 
 4. Choose which tables, views and/or stored procedures to add to a report and click **Next**. Select two or more tables to [create a master-detail report](../create-popular-reports/create-a-master-detail-report-use-detail-report-bands.md).
 
-    ![](../../../images/eurd-web-binding-sql-ds-wizard-tables.png)
+    ![](../../../images/eurd-web-sql-ds-wizard-create-a-query-automatically.png)
     
     > [!NOTE]
-    > You can also create [custom queries](../report-designer-tools/report-wizard/data-bound-report/connect-to-a-database/create-a-query-or-select-a-stored-procedure.md) to shape data at the data source level. Select **Queries** and click the plus button to add a new query.
+    > You can also create [custom queries](../report-designer-tools/sql-data-source-wizard/add-a-new-data-source/create-a-query-or-select-a-stored-procedure.md) to shape data at the data source level. Select **Queries** and click the plus button to add a new query.
     > 
     > The invoked [Query Builder](../report-designer-tools/query-builder.md) allows you to join multiple tables, filter, sort, and group their data, and calculate various aggregate functions.
     > 

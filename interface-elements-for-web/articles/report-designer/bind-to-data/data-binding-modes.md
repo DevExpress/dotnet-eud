@@ -43,7 +43,7 @@ See the section below for information on how to use expressions instead of data 
 
     ![](../../../images/eurd-web-field-list-drop-fields.png)
 
-* You can select a report control and bind it to data in the [Properties](../report-designer-tools/ui-panels/property-grid.md) panel.
+* You can select a report control and bind it to data in the [Properties](../report-designer-tools/ui-panels/properties-panel.md) panel.
 
     <table><tr><th><p>Expression Bindings</p>
     </th><th><p>Data Bindings</p>

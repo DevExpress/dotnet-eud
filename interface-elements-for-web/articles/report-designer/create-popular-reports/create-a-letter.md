@@ -10,7 +10,7 @@ This tutorial describes the steps to create a mail merge report, in which data f
 
 2. [Bind the report](../bind-to-data.md) to a required data source.
 
-3. Drop the [Label](../use-report-elements/use-basic-report-controls/label.md) control from the [Toolbox](../../report-designer-tools/toolbox.md) onto the [Detail](../introduction-to-banded-reports.md) band.
+3. Drop the [Label](../use-report-elements/use-basic-report-controls/label.md) control from the [Toolbox](../report-designer-tools/toolbox.md) onto the [Detail](../introduction-to-banded-reports.md) band.
 
     ![](../../../images/eurd-web-letter-drop-label.png)
 
