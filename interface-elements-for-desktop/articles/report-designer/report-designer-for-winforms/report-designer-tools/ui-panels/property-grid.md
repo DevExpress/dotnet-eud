@@ -5,52 +5,76 @@ title: Property Grid
 
 The **Property Grid** allows you to access and customize the report's and report elements' settings.
 
-![eurd-win-property-grid](../../../../../images/eurd-win-property-grid.png)
+![WinFormsPropertyGrid](../../../../../images/eurd-win-WinFormsPropertyGrid.png)
 
-## <a name="selectingelements"></a>Select a Report Element
+## Select a Report Element
 Do one of the following to select an element and show its properties in the Property Grid:
 
 * Select a required element in the drop-down list at the top of the Property Grid.
 	
-	![eurd-win-property-grid-element-search](../../../../../images/eurd-win-property-grid-element-search.png)
-* Click a required element in the [design surface](../../introduction-to-banded-reports.md).
+	![WinFormsPropertyGrid-SelectControl](../../../../../images/eurd-win-PropertyEditor-SelectControl.png)
+* Click a required element in the [design surface](../../first-look-at-the-report-designer.md).
 * Select a required element in the [Report Explorer](report-explorer.md).
 
 
-## <a name="displaymodes"></a>Display Modes
-The Property Grid can display element properties in the alphabetical flat order or combine them into categories depending on their purposes. Use the dedicated buttons to switch between these display modes. 
+## Property Grid Tabs
 
-![eurd-win-property-grid-display-modes](../../../../../images/eurd-win-property-grid-display-modes.png)
+The Property Grid displays properties in tabs.
 
-## <a name="changingproperties"></a>Change Property Values
-To set a property value, locate this property and specify its value using the corresponding editor. 
+![WinFormsPropertyGrid-Tabs](../../../../../images/eurd-win-PropertyGrid-Tabs.png)
 
-![eurd-win-property-grid-specify-property](../../../../../images/eurd-win-property-grid-specify-property.png)
+## Display Favorite Properties
 
-Specific properties contain nested properties, which you can access by clicking the property caption's expand button.
+The **Favorites** tab displays favorite or most frequently used properties.
 
-## <a name="favoriteproperties"></a>Display Favorite Properties
-
-The Property Grid provides the **Favorite** view that allows you to display favorite or most frequently used properties. 
-
-![](../../../../../images/eurd-property-grid-switch-to-favourite-properties.png)
-
-Selecting the **Show Favorite Properties** menu item displays the favorite list and adds a star to the **Properties** button's icon. 
-
-![](../../../../../images/eurd-win-property-grid-favourite-properties.png)
-
-Click the **Edit Favorite Properties** menu item to set up the favorite properties. In the invoked **Favorite Properties Editor**, enable check boxes for the controls' properties to include these properties to the favorite list.
-
-![](../../../../../images/eurd-win-favourite-properties-editor.png)
+![WinFormsPropertyGrid-Tabs](../../../../../images/eurd-win-PropertyGrid-Favorites.png)
 
 
-## <a name="expressions"></a>Specify Expressions
+Click the **Edit Favorite Properties** context menu item to set up the favorite properties. In the invoked **Favorite Properties Editor**, enable check boxes for the controls' properties to include these properties to the favorite list.
 
-If [expression bindings](../../bind-to-data/data-binding-modes.md) are enabled, the Property Grid contains the **Expressions** tab allowing you to assign values to various element properties. Clicking any property's ellipsis button invokes the **Expression Editor**, in which you can specify [custom expressions](../../use-expressions.md) with available data fields.
+![](../../../../../images/eurd-win-favorite-properties-editor.png)
 
-![](../../../../../images/eurd-win-property-grid-expressions.png)
+## Change Property Values
 
-## <a name="searching"></a>Search for Properties
-The Property Grid includes the search box that allows you to search for a required property. Select a property in the Property grid and press CTRL+F. In the displayed editor, enter text to search. The Property Grid automatically creates a search criteria based on the entered text and filters the list of available properties.
+The Property Grid displays a green marker if a property's default value changes.
 
-![eurd-win-property-grid-search](../../../../../images/eurd-win-property-grid-search.png)
+![WinFormsPropertyGrid-GreenMarks](../../../../../images/eurd-win-PropertyGrid-GreenMarks.png)
+
+Right-click a property's editor to reset the value.
+
+![WinFormsPropertyGrid-ResetValue](../../../../../images/eurd-win-FormsPropertyGrid-ResetValue.png)
+
+## Specify Expressions
+
+If [expression bindings](../../bind-to-data/data-binding-modes.md) are enabled, the Property Grid allows you to specify expressions that can include two or more data fields and various functions. Click a property marker to see whether the invoked context menu has the **PropertyName Expression** item. 
+
+![WinFormsPropertyGrid-Expression](../../../../../images/eurd-win-PropertyGrid-Expression.png)
+
+Click this item to specify an expression in the invoked Expression Editor.
+
+![WinFormsPropertyGrid-ExpressionEditor](../../../../../images/eurd-win-PropertyGrid-ExpressionEditor.png)
+
+The Property Grid highlights properties that have an assigned expression.
+
+![WinFormsPropertyGrid-ExpressionMark](../../../../../images/eurd-win-PropertyGrid-ExpressionMark.png)
+
+Click a property's marker and choose **Reset** to reset the property value.
+
+![WinFormsPropertyGrid-ResetExpression](../../../../../images/eurd-win-PropertyGrid-ResetExpression.png)
+
+> [!Note]
+> The **Reset** command resets the both the expression and the value you specified using the property editor.
+
+## Search Properties
+
+The Property Grid's search box allows you to search for a property. When you type within the search box, the Property Grid automatically creates a search criteria based on the entered text and filters the list of available properties.
+
+![WinFormsPropertyGrid-Search](../../../../../images/eurd-win-PropertyGrid-Search.png)
+
+If you type two substrings separated by a space character, these substrings are considered as individual conditions combined by the OR logical operator. To find properties that contain both substrings (i.e., to use the AND logical operator), enclose the entered string in quotation marks.
+
+
+
+
+
+

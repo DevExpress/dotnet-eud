@@ -7,9 +7,9 @@ author: Anna Gubareva
 This document describes how to change a report control's appearance based on a specific condition.
 
 > [!Warning]
-> Use the approach below if expression bindings **are enabled** in the Report Designer (the [Property Grid](../../report-designer-tools/ui-panels/property-grid.md) provides the **Expressions** ![](../../../../../images/eurd-win-property-grid-expressions-icon.png) tab ).
+> Use the approach below if expression bindings **are enabled** in the Report Designer (the [Property Grid](../../report-designer-tools/ui-panels/property-grid.md) provides the **PropertyName Expression** item in the property marker's context menu).
 >
-> See [Conditionally Change a Control's Appearance](../shape-data-data-bindings/conditionally-change-a-control-appearance.md) if expression bindings **are not enabled** in the Report Designer (the [Property Grid](../../report-designer-tools/ui-panels/property-grid.md) does not provide the **Expressions** ![](../../../../../images/eurd-win-property-grid-expressions-icon.png) tab).
+> See [Conditionally Change a Control's Appearance](../shape-data-data-bindings/conditionally-change-a-control-appearance.md) if expression bindings **are not enabled** in the Report Designer.
 
 1. Switch to the [Report Explorer](../../report-designer-tools/ui-panels/report-explorer.md) and right-click the **Styles** category to create a new visual style.
 	
@@ -35,7 +35,7 @@ This document describes how to change a report control's appearance based on a s
 	
 	![](../../../../../images/eurd-win-shaping-select-element-in-report-explorer.png)
 
-7. Switch to the **Expressions** section in the [Property Grid](../../report-designer-tools/ui-panels/property-grid.md) and click the ellipsis button for the control's **Style Name** property.
+7. Open the [Property Grid](../../report-designer-tools/ui-panels/property-grid.md)'s **Appearance** tab, click the **Style** property's marker and select **Style Expression** in the context menu.
 	
 	![](../../../../../images/eurd-win-shaping-style-name-expression-property.png)
 

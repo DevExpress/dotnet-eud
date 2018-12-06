@@ -37,6 +37,8 @@ This dialog provides the following options:
 		The value type of the specified data member should match the specified parameter type.
 		
 		You can filter the list of values by specifying the **Filter String** property. Using this property, you can implement [cascading parameters](create-multi-value-and-cascading-parameters.md).
+
+		You can sort the list of values by specifying the **Sort Member** and **Sort Order** properties.
 		
 	* **Static values**
 		
@@ -45,6 +47,8 @@ This dialog provides the following options:
 		![](../../../../../images/eurd-win-parameters-static-values.png)
 
 * **Allow multiple values** (corresponds to the parameter's **Multi-Value** property) - when this option is enabled, a parameter can be assigned a [collection of values](create-multi-value-and-cascading-parameters.md).
+
+* **Allow null value** (corresponds to the parameter's **Allow Null** property) - indicates whether the parameter's value can be unspecified.
 
 ## <a name="useparameters"></a>Use Parameters
 You can use report parameters to solve the following tasks:

@@ -4,7 +4,7 @@ author: Anna Gubareva
 legacyId: 116383
 ---
 # Creating Reports
-With the Report Designer, you can edit existing reports, as well as create your own reports from scratch. The following sections contain tutorials providing step-by-step instructions on both basic and advanced report customization.
+With the **Report Designer**, you can edit existing reports, as well as create your own reports from scratch. The following sections contain tutorials providing step-by-step instructions on both basic and advanced report customization.
 * [Basic Operations](creating-reports/basic-operations.md)
 	
 	The topics in this section cover the basics of working with reports in the Report Designer.

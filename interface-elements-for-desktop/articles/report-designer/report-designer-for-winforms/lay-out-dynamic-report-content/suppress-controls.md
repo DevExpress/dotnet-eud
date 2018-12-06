@@ -35,7 +35,7 @@ These properties are available for the following controls:
 
 You can suppress a control when a specified logical condition is met by specifying the required **Visible** property expressions as described in the [Conditionally Suppress Controls](../shape-report-data/shape-data-expression-bindings/conditionally-supress-controls.md) topic.
 
-In this case, a space remains in the band at the control's location. You can avoid this by placing these controls onto an [Panel](../use-report-elements/use-basic-report-controls/panel.md) and setting its **Can Shrink** property to **true**.
+In this case, a space remains in the band at the control's location. You can avoid this by placing these controls onto an [Panel](../use-report-elements/use-basic-report-controls/panel.md) and enabling its **Can Shrink** property.
 
 ![](../../../../images/eurd-win-panel-can-shrink-property.png)
 

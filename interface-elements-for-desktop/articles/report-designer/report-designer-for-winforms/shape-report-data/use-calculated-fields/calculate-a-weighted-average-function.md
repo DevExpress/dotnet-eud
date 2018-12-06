@@ -69,7 +69,7 @@ You can create a [calculated field](calculated-fields-overview.md) and use a sta
 ## <a name="datasourcelevel"></a>Calculate at Data Source Level
 You can calculate summaries at data source level using a **SqlDataSource** component and use them in a report as regular data fields. Then, create a [calculated field](calculated-fields-overview.md) with an appropriate expression utilizing these fields.
 
-1. When creating a new data-bound report using the [Report Wizard](../../report-designer-tools/report-wizard.md) or [binding an existing one to an SQL data source](../../bind-to-data.md), go to the [query customization](../../report-designer-tools/report-wizard/data-bound-report/connect-to-a-database/create-a-query-or-select-a-stored-procedure.md) page. On this page, click the plus button for the **Queries** category to create a new query using the [Query Builder](../../report-designer-tools/query-builder.md).
+1. When creating a new data-bound report using the [Report Wizard](../../report-designer-tools/report-wizard.md) or [binding an existing one to an SQL data source](../../bind-to-data.md), go to the [query customization](../../report-designer-tools/data-source-wizard/connect-to-a-database/create-a-query-or-select-a-stored-procedure.md) page. On this page, click the plus button for the **Queries** category to create a new query using the [Query Builder](../../report-designer-tools/query-builder.md).
 	
 	![](../../../../../images/eurd-win-weighted-average-add-query-in-wizard.png)
 	

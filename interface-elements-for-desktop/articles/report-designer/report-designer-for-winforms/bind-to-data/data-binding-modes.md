@@ -10,16 +10,16 @@ The Report Designer uses one of the following modes to provide dynamic content t
 
 Expression bindings enable you to use complex [expressions](../use-expressions.md) that include two or more fields and various functions. Expressions also allow you to calculate complex summaries without scripts and conditionally shape your data without formatting rules.
 
-This mode is enabled in the Report Designer if the [Property Grid](../report-designer-tools/ui-panels/property-grid.md) provides the **Expressions** ![](../../../../images/eurd-win-property-grid-expressions-icon.png) tab.
+This mode is enabled in the Report Designer if the [Property Grid](../report-designer-tools/ui-panels/property-grid.md) provides the **PropertyName Expression** option in property markers' context menu.
 
-![](../../../../images/eurd-win-property-grid-expression-bindings-mode.png)
+![](../../../../images/eurd-win-property-grid-data-binding.png)
 
 
 ## <a name="databindings"></a> Data Bindings
 
 Standard data bindings enable you to assign a single data field to a report control or use [report scripts](../use-report-scripts.md) to provide custom logic.
 
-This mode is enabled in the Report Designer if the [Property Grid](../report-designer-tools/ui-panels/property-grid.md) does not provide the **Expressions** ![](../../../../images/eurd-win-property-grid-expressions-icon.png) tab.
+This mode is enabled in the Report Designer if the [Property Grid](../report-designer-tools/ui-panels/property-grid.md) does not provide the **PropertyName Expression** option in property markers' context menu.
 
 ![](../../../../images/eurd-win-property-grid-data-bindings-mode.png)
 
@@ -52,13 +52,12 @@ See the section below for information on how to use expressions instead of data 
 
     <table><tr><th><p>Expression Bindings</p>
     </th><th><p>Data Bindings</p>
-    </th></tr><tr><td><p>Switch to the <strong>Expressions</strong> tab and specify a data field for the <strong>Text</strong> property.</p>
-    <p><img src="../../../../images/eurd-win-property-grid-expression-binding.png"></p>
-    </td><td><p>Expand the <strong>(Data Bindings)</strong> category and assign a data field to the <strong>Text</strong> property.</p>
+    </th></tr><tr><td><p>Click the <b>Text</b> property's marker and choose the <b>Text Expression</b> item. Specify an expression in the invoked Expression Editor.</p>
+    <p><img src="../../../../images/eurd-win-property-grid-data-binding.png"></p>
+    </td><td><p>Expand the <strong>(Data Bindings)</strong> group in the <b>Data</b> tab and assign a data field to the <strong>Text</strong> property.</p>
     <p><img src="../../../../images/eurd-win-property-grid-text-data-binding.png"></p>
     </td>
     </tr></table>
-
 
 
 See the following topics for more information:

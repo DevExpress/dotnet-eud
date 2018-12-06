@@ -12,7 +12,6 @@ To add a watermark to a report, do the following.
 
 1. Switch to the [toolbar](..\report-designer-tools\toolbar.md)'s **Page** page and press **Watermark**.
 
-	
 	![eurd-win-add-watermarks-use-toolbox](../../../../images/eurd-win-add-watermarks-use-toolbox.png)
 2. In the invoked **Watermark** dialog, select either the **Text Watermark** or **Picture Watermark** tab, depending on the type of watermark you wish to add.
 	
