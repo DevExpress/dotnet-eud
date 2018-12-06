@@ -96,7 +96,7 @@ You can specify the following options for the newly added properties:
     Indicates whether to retrieve data for this property from the server.    
 
 > [!Note]
-> At least one property in the **Properties** collection must have the **Fetch** property set to _true_.
+> At least one property in the **Properties** collection must have an enabled **Fetch** property.
 
 Use the **Clear Properties** command to clear the **Properties** collection and the **Populate Properties** command to add all the properties the entity type exposes.
 
@@ -126,7 +126,7 @@ Use the **XPObjectSource**'s **GroupFilter property to filter data on the server
 ![PObjectSource-GroupFilter-property](../../../../images/eurd-win-XPO-GroupFilter-property.png)
 
 > [!Note]
-> The **GroupFilter** property is available when the **Properties** collection in not empty and has at least one property with the **Group** flag set to *true*.
+> The **Group Filter** property is available when the **Properties** collection in not empty and has at least one property with an enabled **Group** flag.
 
 ### Limit the Retrieved Records' Number
 
@@ -134,10 +134,10 @@ Use the following properties to limit the number of records XPO retrieves from t
 
 ![XPObjectSource-Limit-the-Number](../../../../images/eurd-win-XPO-Limit-the-Number.png)
 
-- **TopReturnedRecords**  
+- **Top Returned Records**  
     Specifies the number of the top records in the data source XPO retrieves for the report.
 
-- **SkipReturnedRecords**   
+- **Skip Returned Records**   
     Specifies the number of top records in the data source XPO skips when it retrieves data for the report.
 
 > [!Note]

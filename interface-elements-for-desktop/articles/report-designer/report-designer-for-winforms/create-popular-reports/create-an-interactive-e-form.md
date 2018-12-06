@@ -24,14 +24,14 @@ Use the [Character Comb](..\use-report-elements\use-basic-report-controls\charac
 	
 	![eForm-report-add-character-comb](../../../../images/eurd-win-EForms-Character-Comb.png)
 2. Select all the added Character Combs and set their properties in the **Property Grid**:
-	- **CellSizeMode**
-	- **CellHeight**,
-	- **CellWidth**,
+	- **Cell Size Mode**
+	- **Cell Height**,
+	- **Cell Width**,
 	- and other cell settings.
 	
 	![eForm-report-character-combs-cell-settings](../../../../images/eurd-win-eform-report-character-combs-cell-settings.png)
-3. Set the Character Combs' **EditOptions** 
-| **Enabled** property to **True** to enable content editing in Print Preview.
+3. Enable the Character Combs' **Edit Options** 
+| **Enabled** property.
 	
 	![eForm-report-character-combs-edit-options-enabled](../../../../images/eurd-win-eform-report-character-combs-edit-options-enabled.png)
 4. Choose editors for the Character Comb controls' edit mode.
@@ -42,7 +42,7 @@ Use the [Character Comb](..\use-report-elements\use-basic-report-controls\charac
 		![eForm-report-character-combs-editor-name-letters](../../../../images/eurd-win-eform-report-character-combs-editor-name-letters.png)
 
 	- Controls that allow end users to enter integers  
-		Invoke a drop-down list for the **EditorName** property and select the **Positive Integer** item in the **Numeric** category.
+		Invoke a drop-down list for the **Editor Name** property and select the **Positive Integer** item in the **Numeric** category.
 	
 		![eForm-report-character-combs-editor-name-integer-positive](../../../../images/eurd-win-eform-report-character-combs-editor-name-integer-positive.png)
 
@@ -58,7 +58,7 @@ Use the following properties to set up these controls:
 
 - Set appearance properties.
 
-- Set the **Edit Options** | **Enabled** property to **True** to switch check box states in Print Preview.
+- Enable the **Edit Options** | **Enabled** property switch check box states in Print Preview.
 
 - Set the **Edit Options** | **Group ID** property to the same value to combine these two check boxes into a logical group. This allows you to select only one option at a time.
 	
@@ -72,7 +72,7 @@ Add the [PictureBox](..\use-report-elements\use-basic-report-controls\picture-bo
 
 Do the following to enable drawing in Print Preview:
 
-1. Set the control's **Edit Options** | **Enabled** property to **True**.
+1. Enable the control's **Edit Options** | **Enabled** property.
 
 2. Set the **Edit Options** | **Editor Name** property to **Signature**.
 

@@ -68,7 +68,7 @@ Switch to the Preview tab to see the result.
 
 You can set the following options in the [Property Grid](..\report-designer-tools\ui-panels\property-grid.md) to modify the vertical table:
 
-- Set the Vertical Header band's **Repeat Every Page** property to _false_ to display field headers once - on the first report page.
+- Disable the Vertical Header band's **Repeat Every Page** property to display field headers once - on the first report page.
 
 - Set the Vertical Detail band's **Band Layout** property to *Across Then Down* to print the data records that do not fit a page on the same page, otherwise, they are printed on the next page (as in this demo).
 
