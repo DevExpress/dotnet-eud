@@ -7,6 +7,8 @@ title: 'Bind a Report to an XPO Persistent Object'
 
 This topic describes how to bind a report to XPO data at design time.
 
+## Create XPObjectSource
+
 1. [Create a new report](../add-new-reports.md).
 
 2. Click the report's smart tag. In the invoked action list, expand the drop-down menu for the **Data Source** property and click **Add New DataSource**.
@@ -38,7 +40,7 @@ Finish the wizard. At this step, the wizard creates an **XPObjectSource** compon
 ![](../../../../images/eurd-win-XPO-field-list.png)
 
 
-You can [customize the field list](#Change-the-Property-Set) and set up the component's settings after you finish the wizard.
+You can [customize the field list](#change-the-property-set) and set up the component's settings after you finish the wizard.
 
 
 
@@ -166,13 +168,13 @@ You can set a parameter to a static value or generate it dynamically based on an
 
     Choose a query parameter's value type and set a static value to the **Value** property according to the selected type.
 
-    ![](~/images/XPObjectSource-Static-Parameter.png)
+    ![](../../../../images/eurd-win-XPObjectSource-Static-Parameter.png)
 
 - _Provide a dynamic value_  
 
     Activate the Expression checkbox for a parameter.
 
-    ![](~/images/XPObjectSource-Dynamic-Parameter-Value.png)
+    ![](../../../../images/eurd-win-XPObjectSource-Dynamic-Parameter-Value.png)
 
     The following three options are available to dynamically calculate the parameter's actual value:
 

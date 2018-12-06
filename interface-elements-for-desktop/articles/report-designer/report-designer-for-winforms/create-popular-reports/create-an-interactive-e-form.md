@@ -83,7 +83,7 @@ Switch to the [Preview tab](..\preview-print-and-export-reports.md) to see the r
 
 ![eForm-report-result](../../../../images/eurd-win-EForm-Preview.png)
 
-Click the ![highlight-fields-icon-bars](~/images/highlight-fields-icon-bars126306.png) button on the Print Preview toolbar to highlight all the editable fields on the form.
+Click the ![highlight-fields-icon-bars](../../../../images/eurd-win-highlight-fields-icon-bars126306.png) button on the Print Preview toolbar to highlight all the editable fields on the form.
 
 ![eForm-report-result](../../../../images/eurd-win-EForm-Preview-Editing-Fields.png)
 
