@@ -52,7 +52,7 @@ Click a control's smart tag, expand the **Data Binding** drop-down list and sele
 
 ## Use the Property Grid
 
-In the [Property Grid](../report-designer-tools/ui-panels/property-grid.md), expand the **(Data Bindings)** category and specify a data field for a required property (for instance, **Text**).
+In the [Property Grid](../report-designer-tools/ui-panels/property-grid.md), switch to the **Data** tab and specify a data field for a required property (for instance, **Text**).
 
 ![](../../../../images/eurd-win-property-grid-data-binding.png)
 
