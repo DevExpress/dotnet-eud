@@ -601,5 +601,10 @@
         href: articles/dashboard-viewer/dashboard-items/treemap/printing-and-exporting.md
     - name: Filter Elements
       href: articles/dashboard-viewer/dashboard-items/filter-elements.md
+      items:
+      - name: Filter Elements Overview
+        href: articles/dashboard-viewer/dashboard-items/filter-elements/filter-elements-overview.md
+      - name: Neutral Filter Mode
+        href: articles/dashboard-viewer/dashboard-items/filter-elements/neutral-filter-mode.md
     - name: Tab Container
       href: articles/dashboard-viewer/dashboard-items/tab-container.md
