@@ -2,11 +2,14 @@
 title: Freeze Panes
 ---
 # Freeze Panes
-You can lock specific rows or columns in one area to keep this area of a worksheet visible while scrolling the worksheet content vertically or horizontally.
+You can lock specific rows or columns to keep this area visible while scrolling the worksheet content vertically or horizontally.
 
 ![EUD_ASPxSpreadsheet_FreezePanes](../../../images/spreadsheet-data-presentation-freeze-panes.png)
 
-* Click **Unfreeze Panes** command to cancel applied freezing.
-* Click **Freeze Panes** command to freeze columns to the left of the selected cell(s) and rows above the selected cell(s).
-* Click **Freeze Top Row** command to freeze top row.
-* Click **Freeze First Column** command to freeze first column.
+The **Unfreeze Panes** command cancels applied freezing.
+
+The **Freeze Panes** command freezes columns to the left of the selected cell(s) and rows above the selected cell(s).
+
+The **Freeze Top Row** command freezes top row.
+
+The **Freeze First Column** command freezes first column.
