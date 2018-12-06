@@ -4,7 +4,8 @@ author: Natalia Kazakova
 legacyId: 117727
 ---
 # Dashboard Item Caption
-Each dashboard item has a caption that is displayed at the top of this item. The caption contains static text along with other information, as well as command buttons.
+
+Each dashboard item has a caption that is displayed at the top of this item. The caption contains static text and other information, as well as command buttons.
 
 ![wdd-dashboard-item-caption](../../../images/img126135.png)
 

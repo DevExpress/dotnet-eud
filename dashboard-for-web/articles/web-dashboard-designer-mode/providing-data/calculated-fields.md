@@ -4,31 +4,57 @@ author: Natalia Kazakova
 legacyId: 117964
 ---
 # Calculated Fields
-The Web Dashboard provides the capability to create **calculated fields** that allow you to apply complex expressions to data fields obtained from the dashboard's data source. As a result, you can use these fields in data visualizations as regular data source fields.
-* [Creating a Calculated Field](#create-a-calculated-field)
-* [Editing a Calculated Field](#edit-a-calculated-field)
 
-## Create a Calculated Field
-To create a calculated filed, open the [ dashboard menu](../ui-elements/dashboard-menu.md) and go to the **Data Sources** page. Select a required data source, then select a query and click the **Add Calculated Field** button.
+The Web Dashboard control provides the capability to create calculated fields that allow you to apply complex expressions to data fields obtained from the dashboard's data source. As a result, you can use these fields in data visualizations as regular data source fields.
 
-![wdd-calculated-field-create](../../../images/img124912.png)
+Note that calculated fields are not supported for the [OLAP](../binding-dashboard-items-to-data/binding-dashboard-items-to-data-in-olap-mode.md) data source.
 
-This action invokes the **Create Calculated Field** dialog, which allows you to specify an [expression](../data-analysis/expression-constants-operators-and-functions.md) that will be used to obtain calculated field values. Here you can construct the required expression.
+You can add a new calculated field based on the existing data source fields after you have created a data source. 
+
+* [Creating a Calculated Field](#create)
+* [Editing a Calculated Field](#edit)
+
+
+## <a name="create"/></a>Creating a Calculated Field
+
+You can creates calculated fields both in the **Data Sources** page and from the **Binding** panel.
+
+- Go to the [dashboard menu](../ui-elements/dashboard-menu.md) and open the **Data Sources** page. Select a required data source (and the required [query](working-with-sql-data-sources/manage-sql-queries.md)/data member, if applicable) and click the **Add Calculated Field** button to create a calculated field.
+
+	![wdd-calculated-field-create](../../../images/img124912.png)
+
+- Open the [Binding](../ui-elements/dashboard-item-menu.md) panel, go to the **Binding** section and click the **Add calculated field** button (the ![wdd-calculated-field-add-icon](../../../images/wdd-calculated-field-add-icon.png) icon).
+
+	![](../../../images/wdd-calculated-field-create-from-binding-panel.png)
+
+This invokes the **Edit Calculated Field** dialog, which allows you to construct the required expression.
+
+- Use the **Name** option to change the default field name.
+- Use the **Field Type** option to specify the required calculated field type.  
 
 ![wdd-calculated-field-editor](../../../images/img124913.png)
 
-To specify the required calculated field type use the **Type** option. To change the default name, use the **Name** option.
+The following elements are available for creating expressions:
 
-The following elements are available for creating expressions.
-* The **Functions** section includes different types of functions including [aggregate](../data-analysis/aggregations.md).
-* The **Operators** section allows you to select operators from the list.
-* The **Fields** section contains available fields and [dashboard parameters](../data-analysis/dashboard-parameters.md).
 
-After creating the expression, click **Save**. This creates a new calculated field in the Field List, indicated with the **f** glyph.
+Element | Description 
+---------|----------
+ Fields | Contains available fields and [dashboard parameters](../data-analysis/dashboard-parameters.md). 
+ Constants | Contains boolean variables. 
+ Functions | Contains different types of functions including [aggregate](../data-analysis/aggregations.md).
+ Operators | Allows you to select operators from the list. 
+
+After creating the expression, click **Save** to creates a new calculated field and display it in the [Field List](working-with-sql-data-sources/manage-sql-queries.md). This type of a field is indicated with the **_f_** glyph.
 
 ![wdd-calculated-field](../../../images/img124911.png)
 
-## Edit a Calculated Field
-To edit the created field, click the calculated field's **Edit** button (the ![wdd-icon-edit-query](../../../images/img125497.png) icon) on the Data Sources page. This action invokes the **Create Calculated Field** dialog. You can change the calculated field name, field type or edit the current expression.
+## <a name="edit"/></a>Editing a Calculated Field
 
-You can delete the calculated field by clicking the calculated field's **Delete** button (the ![wdd-icon-delete-query](../../../images/img125498.png) icon).
+You can configure calculated fields both in the **Data Sources** page and from the **Binding** panel:
+
+- To edit the created field using the **Data Sources** page, click the calculated field's **Edit** button (the ![wdd-icon-edit-query](../../../images/img125497.png) icon). 
+- In the **Binding** section, select the calculated field you want to edit and click the **Edit** button (the ![wdd-icon-editCalculatedField](../../../images/wdd-icon-editCalcField.png) icon).
+
+This invokes the **Edit Calculated Field** dialog. You can change the calculated field's name, type or edit the current expression.
+
+To delete the calculated field, use the calculated field's **Delete** button (the ![wdd-icon-delete-query](../../../images/img125498.png) / ![](../../../images/wdd-icon-deleteCalField.png) icons).

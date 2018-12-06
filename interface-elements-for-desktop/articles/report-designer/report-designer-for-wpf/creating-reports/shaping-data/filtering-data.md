@@ -4,7 +4,7 @@ author: Anna Gubareva
 legacyId: 116282
 ---
 # Filtering Data
-If a report is [bound to a data source](../../../report-designer-for-winforms/create-reports/binding-a-report-to-data.md) that contains far more data rows than are necessary for processing report creation, you can exclude excessive or undesired data. To accomplish this, construct a filtering expression using single or multiple data fields.
+If a report is [bound to a data source](../providing-data/binding-a-report-to-data.md) that contains far more data rows than are necessary for processing report creation, you can exclude excessive or undesired data. To accomplish this, construct a filtering expression using single or multiple data fields.
 
 This document describes two approaches to filtering data in the Report Designer.
 * [Filter Data at the Report Level](#report)

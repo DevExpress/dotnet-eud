@@ -1,17 +1,28 @@
 ---
 title: Preview, Print and Export Reports
-author: Eugeniy Burmistrov
-legacyId: 5137
 ---
 # Preview, Print and Export Reports
-## Preview and Print a Report
-To switch a report to the print preview mode, click the [Preview Tab](report-designer-reference/report-designer-ui/preview-tab.md). You will see your report populated with data and broken down into pages, as specified. When in the Print Preview mode, you can print out your report using the appropriate menu and toolbar commands.
+
+## Preview a Report
+To switch a report to the print preview mode, click the **Preview** tab. You will see your report populated with data and broken down into pages, as specified.
+
+![eurd-win-preview](../../../images/eurd-win-preview.png)
 
 > [!NOTE]
 > To learn more about the options available in the print preview mode, refer to the [Print Preview for WinForms](../../print-preview/print-preview-for-winforms.md) section of this documentation.
 
+
+## Print a Report
+
+When in the Print Preview mode, you can print out your report using the appropriate menu and toolbar commands.
+
+![eurd-win-print](../../../images/eurd-win-print.png)
+
 ## Export a Report
-In the [Preview Tab](report-designer-reference/report-designer-ui/preview-tab.md), you can export your report to files in different formats. The resulting files can either be saved to the hard drive or sent by e-mail.
+When in the Print Preview mode, you can export your report to files in different formats. The resulting files can either be saved to the hard drive or sent by e-mail.
+
+![eurd-win-export](../../../images/eurd-win-export.png)
+
 
 The following documents describe the basics of report exporting and format-specific export options.
 * [Exporting from Print Preview](../../print-preview/print-preview-for-winforms/exporting/exporting-from-print-preview.md)

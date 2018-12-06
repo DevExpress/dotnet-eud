@@ -11,7 +11,12 @@ The **Web Dashboard** provides the capability to arrange and resize dashboard it
 - [Maximize and Restore Item](#maximize-and-restore-item)
 - [Item Positioning](#item-positioning)
 
-## Layout Concepts
+* [Layout Concepts](#layout-concepts)
+* [Item Resizing](#item-resizing)
+* [Maximize and Restore Item](#maximize-and-restore-item)
+* [Item Positioning](#item-positioning)
+
+## <a name="layout-concepts"></a>Layout Concepts
 The dashboard arranges dashboard items and groups using _layout items_ and _layout groups_. They are special containers that are used to present a dashboard layout as a hierarchical structure.
 * A **layout item** is used as a container that displays an individual dashboard item.
 * A **layout group** is used as a container that is used to arrange layout items (or other layout groups) either horizontally or vertically. At the same time, layout groups are used as containers that display dashboard item groups.
@@ -20,7 +25,7 @@ Thus, a dashboard layout is hierarchically arranged from the root layout group t
 
 ![DashboardLayoutHierarchy](../../../images/img25963.png)
 
-## Item Resizing
+## <a name="item-resizing"></a>Item Resizing
 You can resize individual items/groups of items by dragging their edges. For this, follow the steps below.
 1. In the area allowing you to resize items, cursor types will be changed to **column resize** / **row resize**.
 	
