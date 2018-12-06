@@ -4,7 +4,7 @@ author: Anna Kondratova
 legacyId: 113848
 ---
 # Bookmark and Hyperlink
-You can add hyperlinks pointing to external locations or associated with bookmarks in the same document.
+You can add hyperlinks to external locations or associated with bookmarks in the same document.
 
 ## Bookmarks
 
@@ -39,10 +39,10 @@ Invoke the **Bookmark** dialog, select a bookmark, and click **Go To** to naviga
 
 A hyperlink is a document range (for example, portion of text, image) that you can use to go to a webpage, to another place within the same document, or to create a new email message. 
 
-Click a hyperlink while pressing CTRL to follow the link.
+Click a hyperlink while pressing CTRL to navigate to the link.
 
 ### Add a hyperlink
-* Select a document range and click the **Hyperlink** button in **Insert** tab's **Links** group, or right-click a selected document range and click the **Hyperlink...** command in the context menu.
+* Select a document range and click **Hyperlink** in **Insert** tab's **Links** group, or right-click the selected document range and click **Hyperlink...** in the context menu.
  
 This invokes the **Hyperlink** dialog box.
  
@@ -62,7 +62,7 @@ Specify the hyperlink navigation URL (required), text, and tooltip, and click **
 
 Inserts a hyperlink to a bookmark in the same document. 
 
-Select a bookmark name from the dropdown list (required), and specify the hyperlink navigation text, and tooltip, and click **OK**. 
+Select a bookmark name from the drop-down list (required), and specify the hyperlink's navigation text and tooltip, and click **OK**. 
 
 **Email address**
 
@@ -73,7 +73,7 @@ Inserts a hyperlink that creates a new email message.
 Specify an email address (required), message subject, link text and tooltip, and click **OK**.
 
 > [!NOTE]
-> If a hyperlink is specified for a portion of text, it automatically appears in the **Text** editor. For some elements, e.g. images, you can not specify hyperlink text. 
+> Hyperlinks automatically appear in the **Text** editor when it is specified for a portion of text. You cannot specify hyperlink text for some elements, for example, images. 
 
 
 
