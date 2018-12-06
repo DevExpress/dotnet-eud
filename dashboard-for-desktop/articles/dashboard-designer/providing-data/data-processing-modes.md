@@ -1,6 +1,6 @@
 ---
 title: Data Processing Modes
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 17238
 ---
 # Data Processing Modes

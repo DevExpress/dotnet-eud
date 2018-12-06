@@ -257,6 +257,8 @@
         href: articles/web-dashboard-designer-mode/designing-dashboard-items/filter-elements/interactivity.md
     - name: Dashboard Item Group
       href: articles/web-dashboard-designer-mode/designing-dashboard-items/dashboard-item-group.md
+    - name: Tab Container
+      href: articles/web-dashboard-designer-mode/designing-dashboard-items/tab-container.md
   - name: Data Shaping
     href: articles/web-dashboard-designer-mode/data-shaping.md
     items:
@@ -279,6 +281,8 @@
       href: articles/web-dashboard-designer-mode/interactivity/master-filtering.md
     - name: Drill-Down
       href: articles/web-dashboard-designer-mode/interactivity/drill-down.md
+    - name: Neutral Filter Mode
+      href: articles/web-dashboard-designer-mode/interactivity/neutral-filter-mode.md
   - name: Appearance Customization
     href: articles/web-dashboard-designer-mode/appearance-customization.md
     items:
@@ -302,6 +306,8 @@
         href: articles/web-dashboard-designer-mode/data-analysis/dashboard-parameters/passing-parameter-values.md
       - name: Requesting Parameter Values
         href: articles/web-dashboard-designer-mode/data-analysis/dashboard-parameters/requesting-parameter-values.md
+    - name: Expression Constants, Operators, and Functions
+      href: articles/web-dashboard-designer-mode/data-analysis/expression-constants-operators-and-functions.md
   - name: Converting Dashboard Items
     href: articles/web-dashboard-designer-mode/converting-dashboard-items.md
   - name: Dashboard Layout
@@ -347,6 +353,8 @@
       href: articles/web-dashboard-viewer-mode/data-presentation/drill-down.md
     - name: Dashboard Layout
       href: articles/web-dashboard-viewer-mode/data-presentation/dashboard-layout.md
+  - name: Mobile Layout
+    href: articles/web-dashboard-viewer-mode/mobile-layout.md
   - name: Dashboard Parameters
     items:
     - name: Requesting Parameter Values
@@ -459,3 +467,5 @@
         href: articles/web-dashboard-viewer-mode/dashboard-items/treemap/exporting.md
     - name: Filter Elements
       href: articles/web-dashboard-viewer-mode/dashboard-items/filter-elements.md
+    - name: Tab Container
+      href: articles/web-dashboard-viewer-mode/dashboard-items/tab-container.md

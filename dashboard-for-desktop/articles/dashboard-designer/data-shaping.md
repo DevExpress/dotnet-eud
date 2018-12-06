@@ -1,6 +1,6 @@
 ---
 title: Data Shaping
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 16528
 ---
 # Data Shaping

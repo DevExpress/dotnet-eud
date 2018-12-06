@@ -1,6 +1,6 @@
 ---
 title: Text Box
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 16756
 ---
 # Text Box

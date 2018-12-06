@@ -1,6 +1,6 @@
 ---
 title: Labels
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 16583
 ---
 # Labels

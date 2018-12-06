@@ -1,6 +1,6 @@
 ---
 title: Delta Column
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 16567
 ---
 # Delta Column

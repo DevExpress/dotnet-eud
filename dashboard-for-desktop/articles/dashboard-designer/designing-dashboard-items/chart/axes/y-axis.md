@@ -1,6 +1,6 @@
 ---
 title: Y-Axis
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 16558
 ---
 # Y-Axis

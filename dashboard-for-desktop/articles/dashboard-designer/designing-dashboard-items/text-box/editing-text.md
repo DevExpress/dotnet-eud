@@ -1,6 +1,6 @@
 ---
 title: Editing Text
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 16861
 ---
 # Editing Text

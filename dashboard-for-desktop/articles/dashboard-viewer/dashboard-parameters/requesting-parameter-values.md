@@ -1,6 +1,6 @@
 ---
 title: Requesting Parameter Values
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 16624
 ---
 # Requesting Parameter Values

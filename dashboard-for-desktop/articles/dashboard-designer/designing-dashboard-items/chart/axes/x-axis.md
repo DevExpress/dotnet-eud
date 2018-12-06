@@ -1,6 +1,6 @@
 ---
 title: X-Axis
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 16557
 ---
 # X-Axis

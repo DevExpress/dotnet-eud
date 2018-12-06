@@ -353,6 +353,8 @@
         href: articles/dashboard-designer/designing-dashboard-items/filter-elements/interactivity.md
     - name: Dashboard Item Group
       href: articles/dashboard-designer/designing-dashboard-items/dashboard-item-group.md
+    - name: Tab Container
+      href: articles/dashboard-designer/designing-dashboard-items/tab-container.md
   - name: Data Shaping
     href: articles/dashboard-designer/data-shaping.md
     items:
@@ -375,6 +377,8 @@
       href: articles/dashboard-designer/interactivity/master-filtering.md
     - name: Drill-Down
       href: articles/dashboard-designer/interactivity/drill-down.md
+    - name: Neutral Filter Mode
+      href: articles/dashboard-designer/interactivity/neutral-filter-mode.md
   - name: Appearance Customization
     href: articles/dashboard-designer/appearance-customization.md
     items:
@@ -597,3 +601,5 @@
         href: articles/dashboard-viewer/dashboard-items/treemap/printing-and-exporting.md
     - name: Filter Elements
       href: articles/dashboard-viewer/dashboard-items/filter-elements.md
+    - name: Tab Container
+      href: articles/dashboard-viewer/dashboard-items/tab-container.md

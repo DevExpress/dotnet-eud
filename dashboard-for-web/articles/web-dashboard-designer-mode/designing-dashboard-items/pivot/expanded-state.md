@@ -1,6 +1,6 @@
 ---
 title: Expanded State
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 118827
 ---
 # Expanded State

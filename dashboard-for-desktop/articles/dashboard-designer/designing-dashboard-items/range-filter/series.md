@@ -1,6 +1,6 @@
 ---
 title: Series
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 16620
 ---
 # Series

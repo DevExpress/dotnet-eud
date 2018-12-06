@@ -1,6 +1,6 @@
 ---
 title: Average
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 114187
 ---
 # Average

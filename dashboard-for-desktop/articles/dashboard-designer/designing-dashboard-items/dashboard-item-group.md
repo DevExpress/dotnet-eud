@@ -1,6 +1,6 @@
 ---
 title: Dashboard Item Group
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 17942
 ---
 # Dashboard Item Group

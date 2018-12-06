@@ -1,6 +1,6 @@
 ---
 title: Pivot
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 16602
 ---
 # Pivot

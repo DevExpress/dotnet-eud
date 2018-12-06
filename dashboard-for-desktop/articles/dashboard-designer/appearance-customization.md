@@ -1,6 +1,6 @@
 ---
 title: Appearance Customization
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 16795
 ---
 # Appearance Customization

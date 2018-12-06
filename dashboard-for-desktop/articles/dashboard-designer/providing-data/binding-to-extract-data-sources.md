@@ -1,6 +1,6 @@
 ---
 title: Binding to Extract Data Sources
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 116601
 ---
 # Binding to Extract Data Sources

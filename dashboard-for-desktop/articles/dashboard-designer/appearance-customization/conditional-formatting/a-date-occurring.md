@@ -1,6 +1,6 @@
 ---
 title: A Date Occurring
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 114397
 ---
 # A Date Occurring

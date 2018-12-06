@@ -1,6 +1,6 @@
 ---
 title: Using the Query Builder
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 16526
 ---
 # Using the Query Builder

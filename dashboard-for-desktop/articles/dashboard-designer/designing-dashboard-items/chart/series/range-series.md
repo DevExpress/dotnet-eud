@@ -1,6 +1,6 @@
 ---
 title: Range Series
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 16546
 ---
 # Range Series

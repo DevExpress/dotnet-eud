@@ -1,6 +1,6 @@
 ---
 title: Using Filter Popup Windows
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 11187
 ---
 # Using Filter Popup Windows

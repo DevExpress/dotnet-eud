@@ -1,6 +1,6 @@
 ---
 title: Hidden Data Items
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 15770
 ---
 # Hidden Data Items

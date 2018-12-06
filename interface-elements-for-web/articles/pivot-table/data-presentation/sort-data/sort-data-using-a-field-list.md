@@ -1,6 +1,6 @@
 ---
 title: Sort Data Using a Field List
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 11059
 ---
 # Sort Data Using a Field List

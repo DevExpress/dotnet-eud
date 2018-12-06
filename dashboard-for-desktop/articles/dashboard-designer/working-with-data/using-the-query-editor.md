@@ -1,6 +1,6 @@
 ---
 title: Using the Query Editor
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 115238
 ---
 # Using the Query Editor

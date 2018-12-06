@@ -1,6 +1,6 @@
 ---
 title: Change Summary Type in Pivot Tables
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 9657
 ---
 # Change Summary Type in Pivot Tables

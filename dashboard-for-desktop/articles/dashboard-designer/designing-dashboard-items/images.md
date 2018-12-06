@@ -1,6 +1,6 @@
 ---
 title: Images
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 16621
 ---
 # Images

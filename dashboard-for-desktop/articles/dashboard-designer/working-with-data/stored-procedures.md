@@ -1,6 +1,6 @@
 ---
 title: Stored Procedures
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 114170
 ---
 # Stored Procedures

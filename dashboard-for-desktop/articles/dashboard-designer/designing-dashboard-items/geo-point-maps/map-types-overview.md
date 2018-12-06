@@ -1,6 +1,6 @@
 ---
 title: Map Types Overview
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 17255
 ---
 # Map Types Overview

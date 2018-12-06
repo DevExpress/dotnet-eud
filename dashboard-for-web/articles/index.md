@@ -1,6 +1,6 @@
 ---
 title: Dashboard for Web
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 16709
 ---
 # Dashboard for Web

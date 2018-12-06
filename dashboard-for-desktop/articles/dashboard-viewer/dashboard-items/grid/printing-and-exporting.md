@@ -1,6 +1,6 @@
 ---
 title: Printing and Exporting
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 17241
 ---
 # Printing and Exporting

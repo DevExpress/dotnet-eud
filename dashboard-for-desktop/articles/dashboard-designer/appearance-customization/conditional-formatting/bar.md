@@ -1,6 +1,6 @@
 ---
 title: Bar
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 115242
 ---
 # Bar
