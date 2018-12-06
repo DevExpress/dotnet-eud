@@ -2,11 +2,11 @@
 title: Filtering
 ---
 # Filtering
-Use commands in the **Data** tab's **Sort & Filter** group to activate filtering, reapply a filter, or remove all filters in a worksheet.
+Use commands in the **Data** tab's **Sort & Filter** group to activate filtering, reapply a filter, or remove all the filters in a worksheet.
 
 ![EUD_ASPxSpreadsheet_DataMenu](../../../images/img26346.png)
 
-Select a table and click the **Filter** button to enable filtering. Click the arrow in a column's header to apply a filter for the column.
+Select a table and click the **Filter** button to enable filtering. Click the arrow in a column's header to apply a filter to the column.
 
 
 ## Apply a Filter
@@ -22,14 +22,14 @@ To apply a custom filter, click the arrow in a column header, select **Text Filt
 
 
 > [!NOTE]
-> A name and content of the **Text Filter** menu depends on the type of data in the filtered column (text, numeric values or dates).
+> The **Text Filter** menu's name and content depends on the type of data in the filtered column (text, numeric values or dates).
 
 ## Clear Filter
 Click the arrow in a column's header and select **Clear Filter From "ColumnName"** to clear the column's filter.
 
 ![EUD_ASPxSpreadsheet_ClearFilter](../../../images/spreadsheet-data-presentation-clear-filter.png)
 
-Click the **Clear** button in the **Data** tab's **Sort & Filter** group to clear all filters.
+Click the **Clear** button in the **Data** tab's **Sort & Filter** group to clear all the filters.
 
 
 ## Reapply Filter
