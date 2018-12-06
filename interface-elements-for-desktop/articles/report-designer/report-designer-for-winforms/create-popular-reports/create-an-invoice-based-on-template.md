@@ -15,9 +15,9 @@ Do the following to select an invoice template and configure its settings:
 
     ![](../../../../images/eurd-win-press-new-report-via-wizard.png)
 
-2. On the first wizard page, select **Template Report** and click **Next**.
+2. On the first wizard page, select **Template** and click **Next**.
 	
-	![](../../../../images/eurd-win-invoice-wizard-template-report.png)
+	![ReportWizard-ChooseReportType-Template](../../../../images/eurd-ReportWizard-ChooseReportType-Template.png)
 
 3. On the next wizard page, choose the report template that specifies elements' arrangement and appearance settings.
 	
@@ -27,7 +27,7 @@ Do the following to select an invoice template and configure its settings:
 
 4. The following page allows you to select a data source's type that provides data to your report. Choose **Database** and click **Next**.
 	
-	![](../../../../images/eurd-win-invoice-wizard-select-data-source-type.png)
+	![ReportWizard-SelectDataSourceType](../../../../images/eurd-ReportWizard-SelectDataSourceType.png)
 
 5. On the next wizard page, specify whether you want to use an existing data connection or create a new one. For this tutorial, select an existing connection and click **Next**.
 	

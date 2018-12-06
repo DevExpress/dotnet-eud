@@ -33,11 +33,11 @@ This tutorial describes how to create a simple invoice report displaying informa
 	
 	![](../../../../images/eurd-win-invoice-join-tables-in-query-builder.png)
 
-5. On the same wizard page, select the data view providing order details for listing products included in each order in the invoice. Click the **Manage Relations** button to specify a master-detail relationship between the queries. In the invoked dialog, connect the required key columns using drag-and-drop.
+6. On the same wizard page, select the data view providing order details for listing products included in each order in the invoice. Click the **Manage Relations** button to specify a master-detail relationship between the queries. In the invoked dialog, connect the required key columns using drag-and-drop.
 	
 	![](../../../../images/eurd-win-invoice-manage-master-detail-relations.png)
 
-6. Click **Finish** to complete the wizard.
+7. Click **Finish** to complete the wizard.
 
 After these steps, make sure that an appropriate data member is assigned to the report.
 

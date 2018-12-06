@@ -14,7 +14,7 @@ This tutorial describes the steps to create a label report that contains employe
 
 3. The wizard guides you through the process of creating a label report. Refer to [Label Report](../report-designer-tools/report-wizard/labels.md) for detailed instructions on the wizard's steps. 
 
-    ![](../../../../images/eurd-win-label-report.png)
+    ![ReportWizard-ChooseReportType-Labels](../../../../images/eurd-ReportWizard-ChooseReportType-Labels.png)
 
 4. After performing the above steps you will see that the report's Detail band is now divided into three differently colored areas. The first area at the left-hand side indicates the actual available band area for controls to be placed within it. The gray area at the right-hand side is intended for the columns in which labels will be displayed, so it cannot be occupied by controls. Finally, the white area specifies an indent between the available and reserved areas.
 
