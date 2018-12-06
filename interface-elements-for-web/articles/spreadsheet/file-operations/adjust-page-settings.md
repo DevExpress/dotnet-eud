@@ -29,3 +29,8 @@ Before you print a worksheet, you can change page layout settings such as [page 
 2. In the **Print** group within the **Page Layout** tab, select the **Gridlines** and/or **Headings** check boxes.
 	
 	![EUD_ASPxSpreadsheet_PrintGridlinesHeadings](../../../images/img117707.png)
+
+## Page Setup Dialog
+You can specify every page setting in a **Page Setup** dialog. To invoke the dialog, click a dialog box launcher in the bottom right corner of the **Page Setup** or **Print** group.
+
+![EUD_ASPxSpreadsheet_PrintDialog](../../../images/spreadsheet-file-operations-page-setup-dialog.png)

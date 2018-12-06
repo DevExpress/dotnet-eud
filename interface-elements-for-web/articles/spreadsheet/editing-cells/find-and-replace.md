@@ -4,7 +4,7 @@ author: Anna Kondratova
 legacyId: 18152
 ---
 # Find and Replace
-The **Spreadsheet** allows you to search for specific data in the current worksheet. To perform a search, on the **Home** tab, in the **Editing** group, click the **Find** button.
+The **Spreadsheet** allows you to search for specific data in the current worksheet. To perform a search, on the **Home** tab, in the **Editing** group, click the **Find** button or press CTRL+F.
 
 ![EUD_ASPxSpreadsheet_Home_Find](../../../images/img26056.png)
 

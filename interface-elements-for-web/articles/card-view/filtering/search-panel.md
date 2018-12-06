@@ -4,18 +4,18 @@ author: Anna Kondratova
 legacyId: 115292
 ---
 # Search Panel
-To filter data and highlight search results, type a filter criterion in the search panel.
+Type a filter criterion in the search panel to filter data and highlight search results.
 
 ![ASPxCardView_Seraching](../../../images/img118489.png)
 
-## Applying the Search Panel Filter Criterion
+## Apply the Search Panel Filter Criterion
 To apply a filter criterion typed in the search panel, press the ENTER key or click the **Search** button. Otherwise, a filter is automatically applied in 1.2 seconds.
 
-## Clearing the Search Panel Filter Criterion
+## Clear the Search Panel Filter Criterion
 To clear the search panel filter criterion, do one of the following.
 * Press DELETE or BACKSPACE.
 * Click the **Clear** button.
-* Click the clear button, which is displayed within the editor when the editor is focused and is not empty.
+* Click the clear button that is displayed within the editor when the editor is focused and is not empty.
 	
 	![EUD_Grid_SearchPanel](../../../images/img25472.png)
 

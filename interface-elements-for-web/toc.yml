@@ -10,9 +10,9 @@
     items:
     - name: Add and Delete Cards
       href: articles/card-view/data-editing/add-and-delete-cards.md
-    - name: Switching a CardView to Edit Mode
-      href: articles/card-view/data-editing/switching-a-cardview-to-edit-mode.md
-    - name: 'Save or Discard Changes '
+    - name: Switch to Edit Mode
+      href: articles/card-view/data-editing/switch-to-edit-mode.md
+    - name: Save or Discard Changes
       href: articles/card-view/data-editing/save-or-discard-changes.md
     - name: Batch Editing
       href: articles/card-view/data-editing/batch-editing.md
@@ -24,16 +24,22 @@
       href: articles/card-view/selection-and-navigation/select-cards.md
   - name: Sorting
     href: articles/card-view/sorting.md
+  - name: Grouping
+    href: articles/card-view/grouping.md   
   - name: Filtering
     items:
-    - name: Creating Complex Filter Criteria with the Filter Control
-      href: articles/card-view/filtering/creating-complex-filter-criteria-with-the-filter-control.md
     - name: Header Filter
       href: articles/card-view/filtering/header-filter.md
     - name: Date Range Header Filter
       href: articles/card-view/filtering/date-range-header-filter.md      
     - name: Search Panel
       href: articles/card-view/filtering/search-panel.md
+    - name: Creating Complex Filter Criteria with the Filter Builder
+      href: articles/card-view/filtering/creating-complex-filter-criteria-with-the-filter-control.md
+  - name: Data Summaries
+    href: articles/card-view/data-summaries.md   
+  - name: Data Validation
+    href: articles/card-view/data-validation.md             
   - name: Exporting
     href: articles/card-view/exporting/exporting.md
 - name: Charting
@@ -199,79 +205,81 @@
 - name: Filter Editor
   href: articles/filter-editor.md
   items:
-  - name: Create New Conditions in Filter Editor
+  - name: Create New Conditions
     href: articles/filter-editor/create-new-conditions-in-filter-editor.md
-  - name: Change Conditions in Filter Editor
+  - name: Change Conditions
     href: articles/filter-editor/change-conditions-in-filter-editor.md
-  - name: Delete Conditions in Filter Editor
+  - name: Delete Conditions
     href: articles/filter-editor/delete-conditions-in-filter-editor.md 
 - name: Grid
   href: articles/grid.md
   items:
   - name: Data Editing
     items:
-    - name: Add and Delete Grid Rows
+    - name: Add and Delete Rows
       href: articles/grid/data-editing/add-and-delete-grid-rows.md
-    - name: Save or Discard Changes when Editing Grid Rows
-      href: articles/grid/data-editing/save-or-discard-changes-when-editing-grid-rows.md
     - name: Switch a Grid to Edit Mode
       href: articles/grid/data-editing/switch-a-grid-to-edit-mode.md
+    - name: Save or Discard Changes when Editing Rows
+      href: articles/grid/data-editing/save-or-discard-changes-when-editing-grid-rows.md
     - name: Batch Editing
       href: articles/grid/data-editing/batch-editing.md
   - name: Selection and Navigation
     items:
-    - name: Page Navigation in Grids
+    - name: Page Navigation
       href: articles/grid/selection-and-navigation/page-navigation-in-grids.md
-    - name: Select Grid Rows
+    - name: Select Rows
       href: articles/grid/selection-and-navigation/select-grid-rows.md
     - name: Keyboard Navigation
       href: articles/grid/selection-and-navigation/keyboard-navigation.md
-  - name: Expand and Collapse Group Rows
-    items:
-    - name: Expand and Collapse Group Rows
-      href: articles/grid/expand-and-collapse-group-rows/expand-and-collapse-group-rows.md
   - name: Sorting
-    items:
-    - name: Sort Grid Rows
-      href: articles/grid/sorting/sort-grid-rows.md
+    href: articles/grid/sorting/sort-grid-rows.md
   - name: Grouping
     items:
     - name: Group Grid Rows
       href: articles/grid/grouping/group-grid-rows.md
+    - name: Expand and Collapse Group Rows
+      href: articles/grid/grouping/expand-and-collapse-group-rows.md  
   - name: Filtering
     items:
+    - name: Filtering Data
+      href: articles/grid/filtering/filtering-grid-data.md
     - name: Date Range Header Filter
       href: articles/grid/filtering/date-range-header-filter.md
-    - name: Filtering Grid Data
-      href: articles/grid/filtering/filtering-grid-data.md
     - name: Search Panel
       href: articles/grid/filtering/search-panel.md
-    - name: Creating Complex Filter Criteria with the Filter Control
+    - name: Creating Complex Filter Criteria with the Filter Builder
       href: articles/grid/filtering/creating-complex-filter-criteria-with-the-filter-control.md
   - name: Context Menu
-    items:
-    - name: Context Menu
-      href: articles/grid/context-menu/context-menu.md
+    href: articles/grid/context-menu/context-menu.md
   - name: Layout Customization
     items:
-    - name: Hide and Display Grid Columns
+    - name: Resize Columns
+      href: articles/grid/layout-customization/resize-columns.md
+    - name: Hide and Display Columns
       href: articles/grid/layout-customization/hide-and-display-grid-columns.md
-    - name: Reorder Grid Columns
+    - name: Reorder Columns
       href: articles/grid/layout-customization/reorder-grid-columns.md
   - name: Customization Dialog
     items:
+    - name: Customization Dialog
+      href: articles/grid/customization-dialog/customization-dialog.md    
     - name: Sorting Page
       href: articles/grid/customization-dialog/sorting-page.md
     - name: Grouping Page
       href: articles/grid/customization-dialog/grouping-page.md
     - name: Filtering Page
       href: articles/grid/customization-dialog/filtering-page.md
-    - name: Column Chooser
+    - name: Column Chooser Page
       href: articles/grid/customization-dialog/column-chooser.md
+  - name: Data Summaries
+    href: articles/grid/data-summaries.md
+  - name: Data Validation
+    href: articles/grid/data-validation.md
+  - name: Data Export
+    href: articles/grid/data-export.md
   - name: Responsive Layout
-    items:
-    - name: Responsive Layout
-      href: articles/grid/responsive-layout/responsive-layout.md
+    href: articles/grid/responsive-layout/responsive-layout.md
   - name: Grid Lookup
     items:
     - name: Grid Lookup
@@ -283,127 +291,125 @@
 - name: HTML Editor
   href: articles/html-editor.md
   items:
-  - name: HTML Editor User Interface
+  - name: User Interface
     items:
-    - name: Ribbon
-      href: articles/html-editor/html-editor-user-interface/ribbon.md
     - name: View Modes
       href: articles/html-editor/html-editor-user-interface/view-modes.md
-    - name: Context Menu
-      href: articles/html-editor/html-editor-user-interface/context-menu.md
-    - name: Toolbar
+    - name: Menu Toolbar
       href: articles/html-editor/html-editor-user-interface/toolbar.md
+    - name: Ribbon
+      href: articles/html-editor/html-editor-user-interface/ribbon.md
     - name: Search Panel
       href: articles/html-editor/html-editor-user-interface/search-panel.md
+    - name: Context Menu
+      href: articles/html-editor/html-editor-user-interface/context-menu.md
     - name: Tag Inspector
       href: articles/html-editor/html-editor-user-interface/tag-inspector.md
   - name: Formatting Text
     items:
-    - name: Make Text Bold in HTML Editor
+    - name: Make Text Bold
       href: articles/html-editor/formatting-text/make-text-bold-in-html-editor.md
-    - name: Apply Italic Formatting in HTML Editor
+    - name: Apply Italic Formatting
       href: articles/html-editor/formatting-text/apply-italic-formatting-in-html-editor.md
-    - name: Underline Text in HTML Editor
+    - name: Underline Text 
       href: articles/html-editor/formatting-text/underline-text-in-html-editor.md
-    - name: Apply Strikethrough Formatting in HTML Editor
+    - name: Apply Strikethrough Formatting
       href: articles/html-editor/formatting-text/apply-strikethrough-formatting-in-html-editor.md
-    - name: Change Foreground Color in HTML Editor
+    - name: Change Foreground Color
       href: articles/html-editor/formatting-text/change-foreground-color-in-html-editor.md
-    - name: Change Background Color in HTML Editor
+    - name: Change Background Color
       href: articles/html-editor/formatting-text/change-background-color-in-html-editor.md
-    - name: Change Font Type in HTML Editor
+    - name: Change Font Type
       href: articles/html-editor/formatting-text/change-font-type-in-html-editor.md
-    - name: Change Font Size in HTML Editor
+    - name: Change Font Size
       href: articles/html-editor/formatting-text/change-font-size-in-html-editor.md
-    - name: Make Text Superscript or Subscript in HTML Editor
+    - name: Make Text Superscript or Subscript
       href: articles/html-editor/formatting-text/make-text-superscript-or-subscript-in-html-editor.md
-    - name: Remove Formatting in HTML Editor
+    - name: Remove Formatting
       href: articles/html-editor/formatting-text/remove-formatting-in-html-editor.md
   - name: Formatting Paragraphs
     items:
-    - name: Text Indentation in HTML Editor
+    - name: Text Indentation
       href: articles/html-editor/formatting-paragraphs/text-indentation-in-html-editor.md
-    - name: Text Alignment in HTML Editor
+    - name: Text Alignment
       href: articles/html-editor/formatting-paragraphs/text-alignment-in-html-editor.md
-    - name: Paragraph Styling in HTML Editor
+    - name: Paragraph Styling
       href: articles/html-editor/formatting-paragraphs/paragraph-styling-in-html-editor.md
-    - name: Ordered and Bullet Lists in HTML Editor
+    - name: Ordered and Bullet Lists
       href: articles/html-editor/formatting-paragraphs/ordered-and-bullet-lists-in-html-editor.md
   - name: Paste Formatting
     href: articles/html-editor/paste-formatting.md
   - name: Find and Replace Dialog
-    items:
-    - name: Find and Replace Dialog
-      href: articles/html-editor/find-and-replace-dialog/find-and-replace-dialog.md
+    href: articles/html-editor/find-and-replace-dialog/find-and-replace-dialog.md
   - name: Working with Hyperlinks
     items:
-    - name: Create a Hyperlink in HTML Editor
+    - name: Create a Hyperlink
       href: articles/html-editor/working-with-hyperlinks/create-a-hyperlink-in-html-editor.md
-    - name: Modify a Hyperlink in HTML Editor
+    - name: Modify a Hyperlink
       href: articles/html-editor/working-with-hyperlinks/modify-a-hyperlink-in-html-editor.md
-    - name: Remove a Hyperlink in HTML Editor
+    - name: Remove a Hyperlink
       href: articles/html-editor/working-with-hyperlinks/remove-a-hyperlink-in-html-editor.md
   - name: Working with Tables
     items:
-    - name: Create a Table in HTML Editor
+    - name: Create a Table
       href: articles/html-editor/working-with-tables/create-a-table-in-html-editor.md
-    - name: Remove a Table in HTML Editor
+    - name: Modify a Table
+      href: articles/html-editor/working-with-tables/modify-a-table-in-html-editor.md     
+    - name: Remove a Table
       href: articles/html-editor/working-with-tables/remove-a-table-in-html-editor.md
-    - name: Modify a Table in HTML Editor
-      href: articles/html-editor/working-with-tables/modify-a-table-in-html-editor.md
   - name: Working with Images
     items:
-    - name: Insert an Image in HTML Editor
+    - name: Insert an Image
       href: articles/html-editor/working-with-images/insert-an-image-in-html-editor.md
-    - name: Modify an Image's Settings in HTML Editor
+    - name: Modify an Image's Settings
       href: articles/html-editor/working-with-images/modify-an-images-settings-in-html-editor.md
     - name: Image Settings
       href: articles/html-editor/working-with-images/image-settings.md
   - name: Working with Audio Files
     items:
-    - name: Insert an Audio Into HTML Editor
+    - name: Insert an Audio
       href: articles/html-editor/working-with-audio-files/insert-an-audio-into-html-editor.md
-    - name: Modify Audio Settings in HTML Editor
+    - name: Modify Audio Settings
       href: articles/html-editor/working-with-audio-files/modify-audio-settings-in-html-editor.md
     - name: Audio Settings
       href: articles/html-editor/working-with-audio-files/audio-settings.md
   - name: Working with Flash Files
     items:
-    - name: Modify Flash Settings in HTML Editor
+    - name: Insert a Flash
+      href: articles/html-editor/working-with-flash-files/insert-a-flash-into-html-editor.md    
+    - name: Modify Flash Settings
       href: articles/html-editor/working-with-flash-files/modify-flash-settings-in-html-editor.md
-    - name: Insert a Flash Into HTML Editor
-      href: articles/html-editor/working-with-flash-files/insert-a-flash-into-html-editor.md
     - name: Flash Settings
       href: articles/html-editor/working-with-flash-files/flash-settings.md
   - name: Working with Video Files
     items:
-    - name: Modify Video Settings in HTML Editor
+    - name: Insert a Video
+      href: articles/html-editor/working-with-video-files/insert-a-video-into-html-editor.md    
+    - name: Modify Video Settings
       href: articles/html-editor/working-with-video-files/modify-video-settings-in-html-editor.md
-    - name: Insert a Video Into HTML Editor
-      href: articles/html-editor/working-with-video-files/insert-a-video-into-html-editor.md
     - name: Video Settings
       href: articles/html-editor/working-with-video-files/video-settings.md
   - name: Working with YouTube Video
     items:
-    - name: Modify YouTube Video Settings in HTML Editor
+    - name: Insert a YouTube Video
+      href: articles/html-editor/working-with-youtube-video/insert-a-youtube-video-into-html-editor.md   
+    - name: Modify YouTube Video Settings
       href: articles/html-editor/working-with-youtube-video/modify-youtube-video-settings-in-html-editor.md
-    - name: Insert a YouTube Video Into HTML Editor
-      href: articles/html-editor/working-with-youtube-video/insert-a-youtube-video-into-html-editor.md
     - name: YouTube Video Settings
       href: articles/html-editor/working-with-youtube-video/youtube-video-settings.md
   - name: Miscellaneous Operations
     items:
-    - name: Repeat and Undo Actions in HTML Editor
+    - name: Repeat and Undo Actions
       href: articles/html-editor/miscellaneous-operations/repeat-and-undo-actions-in-html-editor.md
-    - name: Printing HTML Editor Content
+    - name: Printing Content
       href: articles/html-editor/miscellaneous-operations/printing-html-editor-content.md
-    - name: Clipboard Operations in HTML Editor
+    - name: Clipboard Operations
       href: articles/html-editor/miscellaneous-operations/clipboard-operations-in-html-editor.md
-    - name: Check Spelling in HTML Editor
+    - name: Check Spelling
       href: articles/html-editor/miscellaneous-operations/check-spelling-in-html-editor.md
     - name: Sizing and Full-Screen Mode
       href: articles/html-editor/miscellaneous-operations/sizing-and-full-screen-mode.md
-    - name: Export HTML Editor Content to Various Documents Formats
+    - name: Export Content to Various Documents Formats
       href: articles/html-editor/miscellaneous-operations/export-html-editor-content-to-various-documents-formats.md
     - name: Shortcuts
       href: articles/html-editor/miscellaneous-operations/shortcuts.md
@@ -427,9 +433,9 @@
   href: articles/menu.md
   items:
   - name: Menu Scrolling
-    href: articles/menu/menu-scrolling/menu-scrolling.md
+    href: articles/menu/menu-scrolling.md
   - name: Responsive Layout
-    href: articles/menu/responsive-layout/responsive-layout.md
+    href: articles/menu/responsive-layout.md
 - name: Navigation Bar
   href: articles/navigation-bar.md
 - name: News Control
@@ -714,9 +720,7 @@
   - name: Minimizing the Ribbon
     href: articles/ribbon/minimizing-the-ribbon.md
   - name: Gallery Bar
-    items:
-    - name: Gallery Bar
-      href: articles/ribbon/gallery-bar/gallery-bar.md
+    href: articles/ribbon/gallery-bar.md
   - name: Invoke Ribbon Commands
     href: articles/ribbon/invoke-ribbon-commands.md
 - name: Rich Text Editor
@@ -732,28 +736,34 @@
     items:
     - name: Create a New Document
       href: articles/rich-text-editor/file-operations/create-a-new-document.md
-    - name: Load a Document
+    - name: Open a Document
       href: articles/rich-text-editor/file-operations/load-a-document.md
+    - name: Save a Document
+      href: articles/rich-text-editor/file-operations/save-a-document.md     
     - name: Print a Document
       href: articles/rich-text-editor/file-operations/print-a-document.md
-    - name: Save a Document
-      href: articles/rich-text-editor/file-operations/save-a-document.md
   - name: Document Layout and Page Setup
     items:
+    - name: Insert a Page Break
+      href: articles/rich-text-editor/document-layout-and-page-setup/insert-a-page-break.md
     - name: Divide a Documents into Sections
       href: articles/rich-text-editor/document-layout-and-page-setup/divide-a-documents-into-sections.md
     - name: Adjust Page Settings
       href: articles/rich-text-editor/document-layout-and-page-setup/adjust-page-settings.md
     - name: Lay Out Text in Columns
       href: articles/rich-text-editor/document-layout-and-page-setup/lay-out-text-in-columns.md
+    - name: Page Color
+      href: articles/rich-text-editor/document-layout-and-page-setup/page-color.md
   - name: Viewing and Navigating
     items:
-    - name: Navigate through a Document
-      href: articles/rich-text-editor/viewing-and-navigating/navigate-through-a-document.md
+    - name: Document Views
+      href: articles/rich-text-editor/viewing-and-navigating/document-views.md
     - name: Show Horizontal Ruler
       href: articles/rich-text-editor/viewing-and-navigating/show-horizontal-ruler.md
     - name: Full Screen Mode
       href: articles/rich-text-editor/viewing-and-navigating/full-screen-mode.md
+    - name: Navigate through a Document
+      href: articles/rich-text-editor/viewing-and-navigating/navigate-through-a-document.md
   - name: Text Editing
     items:
     - name: Select Text
@@ -800,6 +810,18 @@
       href: articles/rich-text-editor/lists/bulleted-lists.md
     - name: Multilevel Lists
       href: articles/rich-text-editor/lists/multilevel-lists.md
+  - name: Tables
+    href: articles/rich-text-editor/tables.md
+  - name: Find and Replace
+    href: articles/rich-text-editor/find-and-replace.md
+  - name: Header and Footer
+    items:
+    - name: Header and Footer
+      href: articles/rich-text-editor/header-and-footer/header-and-footer.md
+    - name: Page Number and Count
+      href: articles/rich-text-editor/header-and-footer/page-number-and-count.md     
+  - name: Table of Contents
+    href: articles/rich-text-editor/table-of-contents.md
   - name: Mail Merge
     href: articles/rich-text-editor/mail-merge.md
   - name: Keyboard Shortcuts
@@ -817,9 +839,7 @@
       href: articles/rich-text-editor/keyboard-shortcuts/text-formatting.md
   - name: Miscellaneous
     items:
-    - name: Insert a Page Break
-      href: articles/rich-text-editor/miscellaneous/insert-a-page-break.md
-    - name: Insert a Hyperlink
+    - name: Bookmark and Hyperlink 
       href: articles/rich-text-editor/miscellaneous/insert-a-hyperlink.md
     - name: Insert a Symbol
       href: articles/rich-text-editor/miscellaneous/insert-a-symbol.md
@@ -902,8 +922,12 @@
     items:
     - name: Hide and Display Worksheets
       href: articles/spreadsheet/viewing/hide-and-display-worksheets.md
-    - name: Hide Gridlines
+    - name: Hide and Display Gridlines
       href: articles/spreadsheet/viewing/hide-gridlines.md
+    - name: Hide and Display Headings
+      href: articles/spreadsheet/viewing/hide-and-display-headings.md   
+    - name: Document Views
+      href: articles/spreadsheet/viewing/document-views.md         
     - name: Full Screen Mode
       href: articles/spreadsheet/viewing/full-screen-mode.md
   - name: Editing Cells
@@ -916,8 +940,10 @@
       href: articles/spreadsheet/editing-cells/fill-data-automatically.md
     - name: Find and Replace
       href: articles/spreadsheet/editing-cells/find-and-replace.md
-    - name: Insert a Comment
+    - name: Comments
       href: articles/spreadsheet/editing-cells/insert-a-comment.md
+    - name: Data Validation
+      href: articles/spreadsheet/editing-cells/data-validation.md      
   - name: Cell Formatting
     items:
     - name: Format Cells
@@ -930,9 +956,11 @@
       href: articles/spreadsheet/cell-formatting/number-formatting.md
     - name: Clear Cell Formatting
       href: articles/spreadsheet/cell-formatting/clear-cell-formatting.md
+    - name: Format as Table
+      href: articles/spreadsheet/cell-formatting/format-as-table.md
   - name: Columns and Rows
     items:
-    - name: Insert and Delete Rows and Columns
+    - name: Insert and Delete Columns and Rows 
       href: articles/spreadsheet/columns-and-rows/insert-and-delete-rows-and-columns.md
     - name: Show and Hide Columns and Rows
       href: articles/spreadsheet/columns-and-rows/show-and-hide-columns-and-rows.md
@@ -942,6 +970,10 @@
     items:
     - name: Sort Data
       href: articles/spreadsheet/data-presentation/sort-data.md
+    - name: Filtering
+      href: articles/spreadsheet/data-presentation/filtering.md
+    - name: Freeze Panes
+      href: articles/spreadsheet/data-presentation/freeze-panes.md
   - name: Formulas
     items:
     - name: Create a Simple Formula
@@ -997,38 +1029,50 @@
 - name: Tree List
   href: articles/tree-list.md
   items:
-  - name: Edit Tree List Cells
-    href: articles/tree-list/edit-tree-list-cells.md
+  - name: Data Editing
+    items:
+    - name: Edit Cell Values
+      href: articles/tree-list/data-editing/edit-cell-values.md
+    - name: Batch Editing
+      href: articles/tree-list/data-editing/batch-editing.md
   - name: Data Presentation
     items:
-    - name: Expand and Collapse Tree List Nodes
-      href: articles/tree-list/data-presentation/expand-and-collapse-tree-list-nodes.md
-    - name: Sort Nodes in Tree List
-      href: articles/tree-list/data-presentation/sort-nodes-in-tree-list.md
+    - name: Expand and Collapse Nodes
+      href: articles/tree-list/data-presentation/expand-and-collapse-nodes.md
+    - name: Sort Nodes
+      href: articles/tree-list/data-presentation/sort-nodes.md
   - name: Filtering
     items:
     - name: Header Filter 
       href: articles/tree-list/filtering/header-filter.md
     - name: Date Range Header Filter
       href: articles/tree-list/filtering/date-range-header-filter.md
-    - name: Data Filter Row
+    - name: Filter Row
       href: articles/tree-list/filtering/filter-row.md
     - name: Search Panel
       href: articles/tree-list/filtering/search-panel.md
-    - name: Creating Complex Filter Criteria with the Filter Control
+    - name: Creating Complex Filter Criteria with the Filter Builder
       href: articles/tree-list/filtering/creating-complex-filter-criteria-with-the-filter-control.md
-  - name: Layout and Navigation
+  - name: Navigation and Layout
     items:
-    - name: Selection and Navigation in Tree List
-      href: articles/tree-list/layout-and-navigation/selection-and-navigation-in-tree-list.md
-    - name: Reorder Columns in Tree Lists
-      href: articles/tree-list/layout-and-navigation/reorder-columns-in-tree-lists.md
-    - name: Reorder Tree List Nodes
-      href: articles/tree-list/layout-and-navigation/reorder-tree-list-nodes.md
+    - name: Selection and Navigation
+      href: articles/tree-list/layout-and-navigation/selection-and-navigation.md
     - name: Keyboard Navigation
       href: articles/tree-list/layout-and-navigation/keyboard-navigation.md
-    - name: Field Chooser
-      href: articles/tree-list/layout-and-navigation/field-chooser.md
+    - name: Reorder Nodes
+      href: articles/tree-list/layout-and-navigation/reorder-nodes.md
+    - name: Reorder Columns
+      href: articles/tree-list/layout-and-navigation/reorder-columns.md
+    - name: Resize Columns
+      href: articles/tree-list/layout-and-navigation/resize-columns.md
+    - name: Column Chooser
+      href: articles/tree-list/layout-and-navigation/column-chooser.md
+  - name: Data Summaries
+    href: articles/tree-list/data-summaries.md    
+  - name: Data Validation
+    href: articles/tree-list/data-validation.md  
+  - name: Data Export
+    href: articles/tree-list/data-export.md            
 - name: Tree View
   href: articles/tree-view.md
   items:
@@ -1041,29 +1085,33 @@
   items:
   - name: Data Editing
     items:
-    - name: Add, Delete and Recover Records
-      href: articles/vertical-grid/data-editing/add-delete-and-recover-records.md
-    - name: Switching a Vertical Grid to Batch Edit Mode
-      href: articles/vertical-grid/data-editing/switching-a-vertical-grid-to-batch-edit-mode.md
-    - name: Save or Discard Changes when Editing Grid Records
-      href: articles/vertical-grid/data-editing/save-or-discard-changes-when-editing-grid-records.md
-    - name: Batch Editing
-      href: articles/vertical-grid/data-editing/batch-editing.md
+    - name: Add, Delete and Recover Columns
+      href: articles/vertical-grid/data-editing/add-delete-and-recover-columns.md
+    - name: Switch to Edit Mode
+      href: articles/vertical-grid/data-editing/switch-to-edit-mode.md
+    - name: Save or Discard Changes
+      href: articles/vertical-grid/data-editing/save-or-discard-changes.md
   - name: Selection and Navigation
     items:
     - name: Page Navigation
       href: articles/vertical-grid/selection-and-navigation/page-navigation.md
     - name: Select Records
       href: articles/vertical-grid/selection-and-navigation/select-records.md
+  - name: Sorting
+    href: articles/vertical-grid/sorting.md     
   - name: Filtering
     items:
-    - name: Creating Complex Filter Criteria with the Filter Control
-      href: articles/vertical-grid/filtering/creating-complex-filter-criteria-with-the-filter-control.md
     - name: Header Filter
       href: articles/vertical-grid/filtering/header-filter.md
     - name: Search Panel
-      href: articles/vertical-grid/filtering/search-panel.md
-  - name: Sorting
-    href: articles/vertical-grid/sorting.md
+      href: articles/vertical-grid/filtering/search-panel.md    
+    - name: Creating Complex Filter Criteria with the Filter Builder
+      href: articles/vertical-grid/filtering/creating-complex-filter-criteria-with-the-filter-control.md
   - name: Expand and Collapse Category Rows
     href: articles/vertical-grid/expand-and-collapse-category-rows.md
+  - name: Data Summaries
+    href: articles/vertical-grid/data-summaries.md
+  - name: Data Validation
+    href: articles/vertical-grid/data-validation.md
+  - name: Data Export
+    href: articles/vertical-grid/data-export.md

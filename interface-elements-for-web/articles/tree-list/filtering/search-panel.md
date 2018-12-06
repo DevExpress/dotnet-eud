@@ -8,11 +8,11 @@ Use the Search Panel to locate data and highlight search result by typing the fi
 
 ![SearchPanel](../../../images/img17905.png)
 
-## Applying the Search Panel Filter Criterion
+## Apply the Search Panel Filter Criterion
 
 Press Enter or click the **Search** button to apply a filter criterion typed in the search panel. Otherwise, a filter is automatically applied in 1.2 seconds.
 
-## Clearing the Search Panel Filter Criterion
+## Clear the Search Panel Filter Criterion
 To clear the search panel filter criterion, do one of the following:
 * Press Delete or Backspace.
 * Click the **Clear** button.

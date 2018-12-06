@@ -4,12 +4,6 @@ author: Svetlana Nikulina
 legacyId: 115282
 ---
 # Save or Discard Changes
-## Save Changes
-To save the changes made, click **Update**.
+You can modify a card cell values and click **Update** or click **Cancel**  to discard all the changes.
 
-![EUD_CardView_UpdateEdit](../../../images/img121515.png)
-
-## Discard Changes
-To cancel the changes made, click **Cancel**.
-
-![EUD_CardView_CancelEdit](../../../images/img121516.png)
+![EUD_CardView_UpdateEdit](../../../images/img121507.png)

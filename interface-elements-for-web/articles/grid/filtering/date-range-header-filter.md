@@ -4,10 +4,10 @@ author: Svetlana Nikulina
 legacyId: 11814
 ---
 # Date Range Header Filter
-For columns containing date and time data, the dropdown displays a date range header filter.
+The header filter's drop-down box displays a date range editor for columns containing date and time data.
 
 ## Date Range Picker
-Click a filter button to invoke the filter dropdown, which contains a date picker and a set of date range periods.
+Click a filter button to invoke a filter drop-down box that contains a date picker and a set of date range periods.
 
 Click the drop-down button in the **From** text box to display a calendar. Select the first date in a required date range. You can also type the date in the text box.
 
@@ -20,7 +20,7 @@ Click the drop-down button in the **To** text box to display a calendar. Select 
 Select the required date periods and click **OK** to apply the filter criteria.
 
 ## Date Range Calendar
-Click a filter button to invoke the filter dropdown, which contains a calendar and a set of date range periods.
+Click a filter button to invoke a filter drop-down box that contains a calendar and a set of predefined periods.
 
 ![Grid_DateRangeCalendar](../../../images/img11356.png)
 
