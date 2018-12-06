@@ -922,8 +922,12 @@
     items:
     - name: Hide and Display Worksheets
       href: articles/spreadsheet/viewing/hide-and-display-worksheets.md
-    - name: Hide Gridlines
+    - name: Hide and Display Gridlines
       href: articles/spreadsheet/viewing/hide-gridlines.md
+    - name: Hide and Display Headings
+      href: articles/spreadsheet/viewing/hide-and-display-headings.md   
+    - name: Document Views
+      href: articles/spreadsheet/viewing/document-views.md         
     - name: Full Screen Mode
       href: articles/spreadsheet/viewing/full-screen-mode.md
   - name: Editing Cells
@@ -936,8 +940,10 @@
       href: articles/spreadsheet/editing-cells/fill-data-automatically.md
     - name: Find and Replace
       href: articles/spreadsheet/editing-cells/find-and-replace.md
-    - name: Insert a Comment
+    - name: Comments
       href: articles/spreadsheet/editing-cells/insert-a-comment.md
+    - name: Data Validation
+      href: articles/spreadsheet/editing-cells/data-validation.md      
   - name: Cell Formatting
     items:
     - name: Format Cells
@@ -950,9 +956,11 @@
       href: articles/spreadsheet/cell-formatting/number-formatting.md
     - name: Clear Cell Formatting
       href: articles/spreadsheet/cell-formatting/clear-cell-formatting.md
+    - name: Format as Table
+      href: articles/spreadsheet/cell-formatting/format-as-table.md
   - name: Columns and Rows
     items:
-    - name: Insert and Delete Rows and Columns
+    - name: Insert and Delete Columns and Rows 
       href: articles/spreadsheet/columns-and-rows/insert-and-delete-rows-and-columns.md
     - name: Show and Hide Columns and Rows
       href: articles/spreadsheet/columns-and-rows/show-and-hide-columns-and-rows.md
@@ -962,6 +970,10 @@
     items:
     - name: Sort Data
       href: articles/spreadsheet/data-presentation/sort-data.md
+    - name: Filtering
+      href: articles/spreadsheet/data-presentation/filtering.md
+    - name: Freeze Panes
+      href: articles/spreadsheet/data-presentation/freeze-panes.md
   - name: Formulas
     items:
     - name: Create a Simple Formula

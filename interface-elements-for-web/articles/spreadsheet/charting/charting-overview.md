@@ -4,7 +4,6 @@ author: Anna Kondratova
 legacyId: 18186
 ---
 # Charting Overview
--
 
 The **Spreadsheet** provides the capability to summarize worksheet data visually using a variety of **charts**. Charts display data series visually to make data interpretation easier, and show the relationship between different data series. To create a chart, click the chart type you wish to insert in the **Charts** group within the **Insert** tab.
 
@@ -70,6 +69,7 @@ _2-D Line Charts:_
 * Line with Markers
 * Stacked Line with Markers
 * 100% Stacked Line with Markers
+
 _3-D Line Charts:_
 * 3-D Line
 
@@ -85,9 +85,11 @@ Line charts display information as a series of data points connected by line seg
 _2-D Pie Charts:_
 * Pie
 * Exploded Pie
+
 _3-D Pie Charts:_
 * Pie in 3-D
 * Exploded Pie in 3-D
+
 _Doughnut Charts:_
 * Doughnut
 * Exploded Doughnut
@@ -105,18 +107,22 @@ _2-D Bar Charts:_
 * Clustered Bar
 * Stacked Bar
 * 100% Stacked Bar
+
 _3-D Bar Charts:_
 * Clustered Bar in 3-D
 * Stacked Bar in 3-D
 * 100% Stacked Bar in 3-D
+
 _Cylinder Charts:_
 * Clustered Horizontal Cylinder
 * Stacked Horizontal Cylinder
 * 100% Stacked Horizontal Cylinder
+
 _Cone Charts:_
 * Clustered Horizontal Cone
 * Stacked Horizontal Cone
 * 100% Stacked Horizontal Cone
+
 _Pyramid Charts:_
 * Clustered Horizontal Pyramid
 * Stacked Horizontal Pyramid
@@ -135,6 +141,7 @@ _2-D Area Charts:_
 * Area
 * Stacked Area
 * 100% Stacked Area
+
 _3-D Area Charts:_
 * 3-D Area
 * Stacked Area in 3-D
@@ -155,6 +162,7 @@ _Scatter Charts:_
 * Scatter with Smooth Lines
 * Scatter with Straight Lines and Markers
 * Scatter with Straight Lines
+
 _Bubble Charts:_
 * Bubble
 * Bubble with a 3-D Effect
