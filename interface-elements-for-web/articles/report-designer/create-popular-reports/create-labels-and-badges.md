@@ -10,7 +10,7 @@ This tutorial describes the steps to create a label report that contains employe
 
 1. [Create a new report](../add-new-reports.md) and [bind it](../bind-to-data.md) to a required data source (for instance, to a table that contains information about employees).
 
-2. Open the designer [menu](report-designer-tools/menu.md) and click **New via Wizard**.
+2. Open the designer [menu](../report-designer-tools/menu.md) and click **New via Wizard**.
 
     ![](../../../images/eurd-web-report-design-in-report-wizard.png)
 

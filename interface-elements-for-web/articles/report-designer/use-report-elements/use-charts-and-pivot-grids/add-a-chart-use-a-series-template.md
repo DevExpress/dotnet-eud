@@ -7,7 +7,7 @@ author: Anna Vekhina
 
 This document describes how to create a report with a **Chart** control bound to data and generate all series automatically based on a common template.
 
-![](../../../../../images/eurd-win-chart-auto-created-series-example.png)
+![](../../../../images/eurd-web-chart-auto-created-series-result.png)
 
 ## Add a Chart to a Report
 

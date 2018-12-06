@@ -9,7 +9,7 @@ This document describes how to arrange report data in multiple columns, which ca
 ![](../../../images/eurd-web-multi-column-result.png)
 
 ## Settings
-To access the multi-column settings of a report's Detail band, switch to the [Properties](../../report-designer-tools/ui-panels/properties-panel.md) panel and expand the **Actions** or the **Behavior** category.
+To access the multi-column settings of a report's Detail band, switch to the [Properties](../report-designer-tools/ui-panels/properties-panel.md) panel and expand the **Actions** or the **Behavior** category.
 
 ![](../../../images/eurd-web-multi-column-options.png)
 

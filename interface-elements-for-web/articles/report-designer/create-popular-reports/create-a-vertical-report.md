@@ -14,7 +14,7 @@ This tutorial describes how to use vertical bands to create a **Profit and Loss*
 
 2. [Bind the report](../bind-to-data.md) to a required data source.
 
-3. Change the report page layout to landscape so that the vertical table fit the report. Switch to the [Properties](../../report-designer-tools/ui-panels/properties-panel.md) panel, expand the **Page Settings** category and enable the **Landscape** property.
+3. Change the report page layout to landscape so that the vertical table fit the report. Switch to the [Properties](../report-designer-tools/ui-panels/properties-panel.md) panel, expand the **Page Settings** category and enable the **Landscape** property.
 
     ![](../../../images/eurd-web-vertical-reports-enable-landscape.png)
 
@@ -29,7 +29,7 @@ This tutorial describes how to use vertical bands to create a **Profit and Loss*
 
 Add a table with a single column that displays headers of the report's data fields.
 
-1. Drop the [Table](../use-report-elements/use-tables.md) control from the [Toolbox](../../report-designer-tools/toolbox.md) onto the Vertical Header band.
+1. Drop the [Table](../use-report-elements/use-tables.md) control from the [Toolbox](../report-designer-tools/toolbox.md) onto the Vertical Header band.
 
     ![](../../../images/eurd-web-vertical-reports-add-table.png)
 

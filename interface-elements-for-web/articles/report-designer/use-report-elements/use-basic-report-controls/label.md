@@ -18,7 +18,7 @@ Press CTRL+Enter to submit text changes and exit the label's in-place editing mo
 ## Bind to Data
 ### Display Field Values
 
-You can [bind](../../bind-to-data/bind-controls-to-data-expression-bindings.md) the label's **Text** property to a data field obtained from a report's data source. Switch to the [Properties](../../report-designer-tools/ui-panels/properties-panel.md) panel, expand the **Actions** category and click the **Expression** property's ellipsis button. Select the required data field in the invoked [Expression Editor](../report-designer-tools/expression-editor.md).
+You can [bind](../../bind-to-data/bind-controls-to-data-expression-bindings.md) the label's **Text** property to a data field obtained from a report's data source. Switch to the [Properties](../../report-designer-tools/ui-panels/properties-panel.md) panel, expand the **Actions** category and click the **Expression** property's ellipsis button. Select the required data field in the invoked [Expression Editor](../../report-designer-tools/expression-editor.md).
 
 ![](../../../../images/eurd-web-label-bind-to-data-field.png)
 
@@ -42,7 +42,7 @@ You can also specify output values' [format](../../shape-report-data/shape-data-
 
 ### Display Summaries
 
-You can make the label display a [summary function's result](../../shape-report-data/shape-data-expression-bindings/calculate-a-summary.md) by setting the **Running** property to the required range and selecting the summary function in the [Expression Editor](../report-designer-tools/expression-editor.md).
+You can make the label display a [summary function's result](../../shape-report-data/shape-data-expression-bindings/calculate-a-summary.md) by setting the **Running** property to the required range and selecting the summary function in the [Expression Editor](../../report-designer-tools/expression-editor.md).
 
 ![](../../../../images/eurd-web-label-summary-function.png)
 

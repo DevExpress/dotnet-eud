@@ -4,7 +4,7 @@ owner: Anna Vekhina
 ---
 # First Look at the Report Designer
 
-![](../../../images/eurd-win-report-designer.png)
+![](../../images/eurd-web-report-bands-default-design-time.png)
 
 The [Design Surface](report-designer-tools\design-surface.md) displays a report's structure and contents. You can use the tools on the Report Designer's panels to design the report:
 
@@ -22,4 +22,3 @@ The [Design Surface](report-designer-tools\design-surface.md) displays a report'
 
 - access the report's elements in the [Report Explorer](report-designer-tools\ui-panels\report-explorer.md) panel.
 
-![](../../images/eurd-web-report-bands-default-design-time.png)
