@@ -103,7 +103,7 @@ You can also use the **Image Alignment** property in the **Normal**, **Squeeze**
 
 ## Interactivity
 
-You can add a possibility to load/change an image and/or draw a signature in a picture box when it is displayed in Print Preview. To do this, set the **EditOptions** | **Enabled** property to *true*.
+You can add a possibility to load/change an image and/or draw a signature in a picture box when it is displayed in Print Preview. To do this, enable the **EditOptions** | **Enabled** property.
 
 ![picture-box-enable-content-editing](../../../../../images/eurd-win-picture-box-enable-content-editing.png)
 
@@ -114,4 +114,4 @@ Click the picture box in a previewed document and an editor invokes.
 > [!Tip]
 > You can draw borders for the picture box to make the editor visible in Print Preview, if an image is not specified.
 
-Refer to the [Content Editing in Print Preview](..\..\provide-interactivity\edit-content-in-print-preview.md) topic for details and to the [Create-an-Interactive-E-Form](..\..\create-popular-reports\create-an-interactive-e-form.md) tutorial to see how the E-Form demo report uses this picture box mode.
+Refer to the [Content Editing in Print Preview](../../provide-interactivity/edit-content-in-print-preview.md) topic for details and to the [Create-an-Interactive-E-Form](../../create-popular-reports/create-an-interactive-e-form.md) tutorial to see how the E-Form demo report uses this picture box mode.

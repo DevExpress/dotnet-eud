@@ -7,6 +7,8 @@ title: 'Bind a Report to an XPO Persistent Object'
 
 This topic describes how to bind a report to XPO data at design time.
 
+## Create XPObjectSource
+
 1. [Create a new report](../add-new-reports.md).
 
 2. Click the report's smart tag. In the invoked action list, expand the drop-down menu for the **Data Source** property and click **Add New DataSource**.
@@ -38,7 +40,7 @@ Finish the wizard. At this step, the wizard creates an **XPObjectSource** compon
 ![](../../../../images/eurd-win-XPO-field-list.png)
 
 
-You can [customize the field list](#Change-the-Property-Set) and set up the component's settings after you finish the wizard.
+You can [customize the field list](#change-the-property-set) and set up the component's settings after you finish the wizard.
 
 
 
@@ -96,7 +98,7 @@ You can specify the following options for the newly added properties:
     Indicates whether to retrieve data for this property from the server.    
 
 > [!Note]
-> At least one property in the **Properties** collection must have the **Fetch** property set to _true_.
+> At least one property in the **Properties** collection must have an enabled **Fetch** property.
 
 Use the **Clear Properties** command to clear the **Properties** collection and the **Populate Properties** command to add all the properties the entity type exposes.
 
@@ -126,7 +128,7 @@ Use the **XPObjectSource**'s **GroupFilter property to filter data on the server
 ![PObjectSource-GroupFilter-property](../../../../images/eurd-win-XPO-GroupFilter-property.png)
 
 > [!Note]
-> The **GroupFilter** property is available when the **Properties** collection in not empty and has at least one property with the **Group** flag set to *true*.
+> The **Group Filter** property is available when the **Properties** collection in not empty and has at least one property with an enabled **Group** flag.
 
 ### Limit the Retrieved Records' Number
 
@@ -134,10 +136,10 @@ Use the following properties to limit the number of records XPO retrieves from t
 
 ![XPObjectSource-Limit-the-Number](../../../../images/eurd-win-XPO-Limit-the-Number.png)
 
-- **TopReturnedRecords**  
+- **Top Returned Records**  
     Specifies the number of the top records in the data source XPO retrieves for the report.
 
-- **SkipReturnedRecords**   
+- **Skip Returned Records**   
     Specifies the number of top records in the data source XPO skips when it retrieves data for the report.
 
 > [!Note]
@@ -166,13 +168,13 @@ You can set a parameter to a static value or generate it dynamically based on an
 
     Choose a query parameter's value type and set a static value to the **Value** property according to the selected type.
 
-    ![](~/images/XPObjectSource-Static-Parameter.png)
+    ![](../../../../images/eurd-win-XPObjectSource-Static-Parameter.png)
 
 - _Provide a dynamic value_  
 
     Activate the Expression checkbox for a parameter.
 
-    ![](~/images/XPObjectSource-Dynamic-Parameter-Value.png)
+    ![](../../../../images/eurd-win-XPObjectSource-Dynamic-Parameter-Value.png)
 
     The following three options are available to dynamically calculate the parameter's actual value:
 

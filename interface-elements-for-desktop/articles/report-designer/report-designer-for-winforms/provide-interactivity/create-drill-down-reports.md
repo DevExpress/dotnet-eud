@@ -18,7 +18,7 @@ Do the following to create a drill-down report:
 	
 	![eurd-win-drilldown-set-drilldown-controll](../../../../images/eurd-win-drilldown-set-drilldown-control.png)
 	
-	You can also specify the band's **DrillDownExpanded** property to define whether or not the band is initially expanded. This property is set to **true** by default.
+	You can also specify the band's **Drill Down Expanded** property to define whether or not the band is initially expanded. This property is enabled by default.
 4. Click this label's smart tag and select the **Expression** property.
 	
 	![eurd-win-drill-down-report-label-smart-tag](../../../../images/eurd-win-drill-down-report-label-smart-tag.png)
