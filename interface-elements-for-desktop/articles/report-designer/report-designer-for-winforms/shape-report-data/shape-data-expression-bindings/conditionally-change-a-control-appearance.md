@@ -35,7 +35,7 @@ This document describes how to change a report control's appearance based on a s
 	
 	![](../../../../../images/eurd-win-shaping-select-element-in-report-explorer.png)
 
-7. Switch to the **Expressions** section in the [Property Grid](../../report-designer-tools/ui-panels/property-grid.md) and click the ellipsis button for the control's **Style Name** property.
+7. Open the [Property Grid](../../report-designer-tools/ui-panels/property-grid.md)'s **Appearance** tab, click the **Style** property's marker and select **Style Expression** in the context menu.
 	
 	![](../../../../../images/eurd-win-shaping-style-name-expression-property.png)
 
