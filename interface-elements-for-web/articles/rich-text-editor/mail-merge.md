@@ -22,9 +22,9 @@ You can use the following field codes:
 
 
 
-The **Show All Field Codes** button displays field codes for all fields in the document.
+The **Show All Field Codes** button displays field codes for all the fields in the document.
 
-The **Show All Field Results** button displays field results for all fields in the document.
+The **Show All Field Results** button displays field results for all the fields in the document.
 
 Fields should be updated to calculate a field result. Fields are updated automatically when the document is saved or printed. 
 
