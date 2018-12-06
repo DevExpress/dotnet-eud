@@ -14,14 +14,14 @@ This document describes how to display the number or records in a report or grou
 
 1. Expand the **Actions** category and insert a [Report Header](../../introduction-to-banded-reports.md) or Footer to display the record count for the entire report.
 	
-	![](../../../../images/eurd-web-shaping-insert-report-header.png)
+	![](../../../../images/eurd-web-shaping-data-bindings-insert-report-header.png)
 	
 	> [!Note]
 	> Use a Group Header/Footer for displaying record counts for groups, and a Page Header/Footer for displaying record counts for pages.
 
 2. Switch to the [Field List](../../report-designer-tools/ui-panels/field-list.md) and drop the corresponding data table field onto the created band to create a data-bound label.
 	
-	![](../../../../images/eurd-web-shaping-drop-field-onto-report-header.png)
+	![](../../../../images/eurd-web-shaping-data-bindings-drop-field-onto-report-header.png)
 
 3. Expand the **Summary** section in the **Actions** category and specify the **Running** property. Select **Report** to count the records throughout the entire report, or select **Group** or **Page** to reset the record count for every group or page.
 	
