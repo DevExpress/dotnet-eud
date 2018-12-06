@@ -45,6 +45,20 @@ To specify the condition for displaying delta indication, use the **Result indic
 |---|---|---|---|---|
 | ![Grid_Delta_Indication_LessIsGood](../../../../../images/img20112.png) | ![Grid_Delta_Indication_LessIsGood](../../../../../images/img20112.png) | ![Grid_Delta_Indication_WarningIfGreater](../../../../../images/img20114.png) | ![Grid_Delta_Indication_WarningIfLess](../../../../../images/img20115.png) | ![Grid_Delta_Indication_NoIndication](../../../../../images/img20113.png) |
 
+
+The **Format** tab allows you to specify the numeric display format for different value types, as described in the [Formatting Data](../../../data-shaping/formatting-data.md) document. 
+
+![](../../../../../images/grid_columntypes_deltacolumn_options_numericformat.png)
+
+The tab contains the following settings.
+
+* **Format type** - Specifies format types for numeric values. 
+* **Unit** - Specifies the unit to convert the numeric values.
+* **Precision** - Specifies the number of fractional digits to display.
+* **Currency** - Specifies the currency symbol and format provided by the current culture settings.
+* **Culture** - Specifies the name of a culture that defines the currency symbol and format.
+* **Include group separator** - Specifies whether separators should be inserted between digit groups.
+
 ## <a name="comparisontolerance"/>Comparison Tolerance
 The comparison tolerance allows you to specify more advanced conditions for displaying delta indication. For instance, you can set a specific indication to be displayed when the actual value exceeds the target value _by 10%_ or _by $2K_.
 
