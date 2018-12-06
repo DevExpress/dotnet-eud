@@ -4,15 +4,14 @@ author: Anna Kondratova
 ---
 
 # Filter Row
+Type text within the **Filter Row**'s cells to filter the corresponding columns.
 
-Typing text within the **Filter Row** automatically creates a filter condition based on the entered value and applies it to the corresponding column.
+To remove a column's filter, clear the text in the column's filter row. 
 
-![TreeList_AutoFilterRow](../../../images/filter-row-auto.png)
+![TreeList_AutoFilterRow](../../../images/tree-list-filter-row-auto.png)
 
-If the **Apply** button is visible, click the button to apply the filter.
 
-![TreeList-FilterRowApply](../../../images/filter-row-apply.png)
 
-To remove a column filter, clear the text in the column's filter row. To remove the grid's entire filter, click **Clear**.
+You can modify a filter row's cell values and click **Apply** or click **Clear** to remove all the applied filters.
 
-![TreeList_ClearAutoFilterRow](../../../images/filter-row-clear.png)
+![TreeList-FilterRowApply](../../../images/tree-list-filter-row-apply.png)
