@@ -1,9 +1,9 @@
 ---
-title: Invoke a Filter Popup Window
+title: Invoke a Filter Window
 author: Natalia Kazakova
 legacyId: 11138
 ---
-# Invoke a Filter Popup Window
+# Invoke a Filter Window
 You can invoke a Filter Window from the Pivot Table or from a Field List (to learn about Field Lists, see [Field List Overview](../../../field-list-overview.md)).
 
 ## Invoke a Filter Window from the Pivot Table
