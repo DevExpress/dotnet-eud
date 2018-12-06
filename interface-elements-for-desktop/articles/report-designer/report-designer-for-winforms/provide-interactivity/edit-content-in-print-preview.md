@@ -8,11 +8,11 @@ This document provides information about interactive document editing in Print P
 ## <a name="enableediting"></a>Content Editing Overview
 When content editing is enabled for a report control (either unbound or data-aware), it is possible to customize the corresponding field values in Print Preview.
 
-To enable content editing for a report control, expand its **EditOptions** property and set the **Enabled** property to **true**.
+To enable content editing for a report control, expand its **Edi tOptions** property and set the **Enabled** property to **Yes**.
 
 ![eurd-win-content-editing-enable](../../../../images/eurd-win-content-editing-enable.png)
 
-When the **EditOptions.Enabled** property is set to **true** and the **EditOptions.ReadOnly** property is disabled, the control's content can be edited in Print Preview (clicking a field will invoke the appropriate editor).
+When the **Edit Options** | **Enabled** property is set to **Yes** and the **EditOptions.ReadOnly** property is disabled, the control's content can be edited in Print Preview (clicking a field will invoke the appropriate editor).
 
 The following standard editors can be assigned to a control, depending on the kind of content it displays.
 
@@ -54,7 +54,7 @@ To learn about the specifics of editing different kinds of content, see the foll
 ## <a name="textediting"></a>Text Editing
 The [Label](..\use-report-elements\use-basic-report-controls\label.md), [Table Cell](..\use-report-elements\use-tables.md) and [Character Comb](..\use-report-elements\use-basic-report-controls\character-comb.md) controls can be assigned editors to customize their content in Print Preview.
 
-To enable content editing for these controls, expand their **EditOptions** property and set the **Enabled** property to **true**.
+To enable content editing for these controls, expand their **EditOptions** property and set the **Enabled** property to **Yes**.
 
 ![eurd-win-content-editing-enable](../../../../images/eurd-win-content-editing-enable.png)
 
@@ -101,7 +101,7 @@ The following editors can be used to customize a field's content in Print Previe
 ## <a name="editingcheckbox"></a>Check Box Editing
 The [Check Box](..\use-report-elements\use-basic-report-controls\check-box.md) control's value can be edited in Print Preview.
 
-To enable content editing for a check box, expand its **EditOptions** property and set the **Enabled** property to **true**.
+To enable content editing for a check box, expand its **EditOptions** property and set the **Enabled** property to **Yes**.
 
 ![eurd-win-content-editing-enable-checkbox](../../../../images/eurd-win-content-editing-enable-checkbox.png)
 

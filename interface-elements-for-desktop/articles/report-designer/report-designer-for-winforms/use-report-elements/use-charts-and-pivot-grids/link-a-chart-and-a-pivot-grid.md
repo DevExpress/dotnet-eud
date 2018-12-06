@@ -40,7 +40,7 @@ This tutorial demonstrates how to use the Chart control to visualize the Pivot G
 
     ![](../../../../../images/eurd-win-chart-designer-pivot-grid-data-source.png)
 
-    This adjusts all the Chart's binding and layout settings autmatically. Make sure that **Series**, **Argument** and **Value** cells are filled with the corresponding fields. Note that field values are generated based on the Pivot Grid's columns, rows, and data items.
+    This adjusts all the Chart's binding and layout settings automatically. Make sure that **Series**, **Argument** and **Value** cells are filled with the corresponding fields. Note that field values are generated based on the Pivot Grid's columns, rows, and data items.
 
     ![](../../../../../images/eurd-win-chart-designer-pivot-grid-result.png)
 
