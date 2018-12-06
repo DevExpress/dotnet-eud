@@ -414,6 +414,8 @@
         href: articles/dashboard-designer/appearance-customization/coloring/coloring-concepts.md
       - name: Customizing a Color Scheme
         href: articles/dashboard-designer/appearance-customization/coloring/customizing-a-color-scheme.md
+    - name: Data Display Formatting
+      href: articles/dashboard-designer/appearance-customization/data-display-formatting.md
   - name: Data Analysis
     href: articles/dashboard-designer/data-analysis.md
     items:
