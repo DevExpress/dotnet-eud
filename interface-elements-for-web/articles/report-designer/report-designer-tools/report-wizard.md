@@ -20,7 +20,7 @@ The Report Wizard allows you to add a report using one of the following template
 
 ## Run the Report Wizard
 
-Use one of the following commands in the designer [menu](report-designer-tools/menu.md) to invoke the Report Wizard.
+Use one of the following commands in the designer [menu](../report-designer-tools/menu.md) to invoke the Report Wizard.
 
 - Create a new report
 

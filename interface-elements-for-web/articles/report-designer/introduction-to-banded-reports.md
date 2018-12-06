@@ -32,7 +32,7 @@ You can also add the following bands:
 
 - **Group Header** and **Group Footer**
 
-    These bands are above and below each [group](shape-report-data\group-and-sort-data.md). The [Group and Sort Panel](report-designer-tools\ui-panels\group-and-sort-panel.md) create these bands automatically.
+    These bands are above and below each [group](shape-report-data\group-and-sort-data.md).
 
 > [!TIP]
 > Only the detail and group bands can be used to display dynamic data source contents. Other bands display titles, summaries, and [extra information](add-extra-information.md).
