@@ -18,7 +18,7 @@ Add the [Label](..\use-report-elements\use-basic-report-controls\label.md) repor
 
 ## Add Fillable Cells
 
-Use the [Character Comb](..\use-report-elements\use-basic-report-controls\character-comb.md) control for the form's text fields. This control displays letters in individual cells and allows end users to fill these cells in Print Preview.
+Use the [Character Comb](..\use-report-elements\use-basic-report-controls\character-comb.md) control for the form's text fields. This control displays letters in individual cells and allows you to fill these cells in Print Preview.
 
 1. Drop the Character Comb item from the Toolbox onto the report.
 	
@@ -36,12 +36,12 @@ Use the [Character Comb](..\use-report-elements\use-basic-report-controls\charac
 	![eForm-report-character-combs-edit-options-enabled](../../../../images/eurd-win-eform-report-character-combs-edit-options-enabled.png)
 4. Choose editors for the Character Comb controls' edit mode.
 
-	- Controls that allow end users to enter letters  
+	- Controls that allow you to enter letters  
 		Invoke a drop-down list for the **Editor Name** property and select the **Only Uppercase Letters** item in the **Letters** category.
 	
 		![eForm-report-character-combs-editor-name-letters](../../../../images/eurd-win-eform-report-character-combs-editor-name-letters.png)
 
-	- Controls that allow end users to enter integers  
+	- Controls that allow you to enter integers  
 		Invoke a drop-down list for the **Editor Name** property and select the **Positive Integer** item in the **Numeric** category.
 	
 		![eForm-report-character-combs-editor-name-integer-positive](../../../../images/eurd-win-eform-report-character-combs-editor-name-integer-positive.png)
