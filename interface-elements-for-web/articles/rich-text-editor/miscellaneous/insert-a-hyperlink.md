@@ -42,11 +42,9 @@ A hyperlink is a document range (for example, portion of text, image) that you c
 Click a hyperlink while pressing CTRL to navigate to the link.
 
 ### Add a hyperlink
-* Select a document range and click **Hyperlink** in **Insert** tab's **Links** group, or right-click the selected document range and click **Hyperlink...** in the context menu.
+* Select a document range and click **Hyperlink** in **Insert** tab's **Links** group, or right-click the selected document range and click **Hyperlink...** in the context menu to invoke the **Hyperlink** dialog box.
  
-This invokes the **Hyperlink** dialog box.
- 
-*Use the option buttons at the top of the dialog to change the hyperlink direction.
+*Use the option buttons at the top of the dialog to change the hyperlink's direction.
 
 **Web page**
 
