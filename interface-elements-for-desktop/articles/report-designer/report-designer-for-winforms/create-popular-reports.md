@@ -7,6 +7,7 @@ author: Anna Gubareva
 The following tutorials illustrate how to create table and invoice reports:
 
 * [Create a Table Report](create-popular-reports/create-a-table-report.md)
+* [Create a Vertical Report](create-popular-reports\create-a-vertical-report.md)
 * [Create an Invoice Based on a Template](create-popular-reports/create-an-invoice-based-on-template.md)
 * [Create an Invoice Manually](create-popular-reports/create-an-invoice-manually.md)
 
