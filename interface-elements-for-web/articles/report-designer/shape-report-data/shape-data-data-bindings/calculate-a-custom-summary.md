@@ -27,7 +27,7 @@ This tutorial describes the steps required to calculate a custom summary that is
 
     ![](../../../../images/eurd-web-label-legacy-custom-summary-scripts.png)
 
-    You can handle these events in the following way using the [Script Editor](../../use-report-scripts.md).
+    You can handle these events in the following way using the [Script Editor](../../report-designer-tools/script-editor.md).
 
     **C#**
 
