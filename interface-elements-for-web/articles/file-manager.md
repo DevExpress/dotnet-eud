@@ -4,7 +4,7 @@ author: Svetlana Nikulina
 legacyId: 9361
 ---
 # File Manager
-This section describes the **File Manager**'s features.
+This section describes the File Manager's features.
 
 ![ASPxFileManager_UD](../images/img13302.png)
 

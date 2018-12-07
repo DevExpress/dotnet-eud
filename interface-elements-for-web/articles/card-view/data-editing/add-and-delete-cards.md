@@ -6,7 +6,7 @@ legacyId: 115280
 # Add and Delete Cards
 ## Add a Card
 To create a new card:
-* Click **New**.
+* Click **New**. A new card appears.
 	
 	![EUD_CardView_NewCard](../../../images/img120609.png)
 * Specify cell values.

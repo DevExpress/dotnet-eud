@@ -4,7 +4,7 @@ author: Anna Kondratova
 legacyId: 18107
 ---
 # Print a Workbook
-To print a document, click the **Print** button in the **Common** group or press **CTRL+P**.
+To print a document, click the **Print** button in the **Common** group or press CTRL+P.
 
 ![EUD_ASPxSpreadsheet_PrintWorkbook](../../../images/img25927.png)
 

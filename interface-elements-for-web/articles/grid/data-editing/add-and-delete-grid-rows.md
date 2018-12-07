@@ -1,11 +1,11 @@
 ---
-title: Add and Delete Grid Rows
+title: Add and Delete Rows
 author: Bogdan Harchenko
 legacyId: 4138
 ---
-# Add and Delete Grid Rows
-## Add a Record
-To create a new record:
+# Add and Delete Rows
+## Add a Row
+To create a new row:
 * Click **New**.
 	
 	![ASPxGridView_AddDelete](../../../images/img7081.png)
@@ -14,10 +14,11 @@ To create a new record:
 	
 	![SaveChanges](../../../images/img7150.png)
 
-## Delete a Record
-To delete a record, click **Delete** within the row to be deleted.
+## Delete a Row
+To delete a row, click **Delete** within the row to be deleted.
 
 ![DeleteRow](../../../images/img7149.png)
 
+
 > [!NOTE]
-> Records management links may be unavailable in your application. This is the choice of the application vendor.
+> Row management links may be unavailable in your application. This is the choice of the application vendor.

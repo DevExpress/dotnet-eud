@@ -12,6 +12,6 @@ A **paragraph based style** affects paragraph formatting characteristics such as
 
 To apply a style, do the following.
 1. [Select text](../text-editing/select-text.md) or a paragraph that you want to format.
-2. Click or type the required style name in the **Styles** box in the **Styles** group within the **Home** tab.
+2. Click the required style name in the **Styles** box in the **Styles** group within the **Home** tab.
 	
 	![EUD_ASPxRichEdit_Home_StylesList](../../../images/img117813.png)

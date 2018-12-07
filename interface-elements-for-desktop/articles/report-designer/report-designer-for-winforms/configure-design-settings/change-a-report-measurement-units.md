@@ -16,7 +16,7 @@ To assign a system of measurements to a report, use its **Measure Units** proper
 
 ![](../../../../images/eurd-win-measure-units-in-smart-tag.png)
 
-... or in the [Property Grid](../report-designer-tools/ui-panels/property-grid.md).
+... or in the [Property Grid](../report-designer-tools/ui-panels/property-grid.md)'s **Behavior** tab.
 
 ![](../../../../images/eurd-win-measure-units-in-property-grid.png)
 

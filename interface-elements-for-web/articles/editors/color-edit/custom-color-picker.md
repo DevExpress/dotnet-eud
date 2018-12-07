@@ -4,11 +4,11 @@ author: Svetlana Nikulina
 legacyId: 16844
 ---
 # Custom Color Picker
-The **Custom Color Picker** allows you to select a custom color using a graphical interface.
+The Custom Color Picker allows you to select a custom color using a graphical interface.
 
 ![ColorEdit_CustomButton](../../../images/img22732.png)
 
-To display the color picker, click the **Custom Color...** button.
+To display the color picker, click **Custom Color...**.
 
 ![ColorEdit_Picker](../../../images/img22733.png)
 

@@ -4,7 +4,7 @@ author: Svetlana Nikulina
 legacyId: 11827
 ---
 # Ribbon
-The **ribbon** is a set of items which perform common tasks in HTML content editing and formatting, grouped by functionality. Most ribbon items work in the same manner as in Microsoft Word.
+The **Ribbon** is a set of items which perform common tasks in HTML content editing and formatting, grouped by functionality. Most ribbon items work in the same manner as in Microsoft Word.
 
 ![Ribbon](../../../images/img22844.png)
 
