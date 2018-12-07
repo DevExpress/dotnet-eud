@@ -14,7 +14,7 @@ The **Script Editor** allows you to write code for specific event handlers in th
 
 _Scripts_ are program commands, placed within the _event handlers_ of the required report elements. And, when the corresponding event occurs (e.g. a mouse click), the script code runs.
 
-You can write _scripts_ for a report or any of its elements (bands and controls), to be executed when the report is being [previewed, printed or exported]().
+You can write _scripts_ for a report or any of its elements (bands and controls), to be executed when the report is being [previewed, printed or exported](../preview-print-and-export-reports.md).
 
 The Script Editor provides you the capability to write and execute scripts. Use this editor if you want to slightly customize a report in the End-User Report Designer.
 
@@ -39,8 +39,8 @@ Each report element has its own set of events that can be handled by the Script 
 
     After the event is specified, a code template is generated in the current scripting language.
 
-3. To check for errors in the report's script, click the **Validate** button (![](../../../images/eurd-script-editor-script-editor-validate-button.png).
+3. To check for errors in the report's script, click the **Validate** ![](../../../images/eurd-script-editor-script-editor-validate-button.png) button.
 
-    If an error is found, the string containing this error is marked with an (![](../../../images/eurd-web-script-editor-error.png) icon. When a mouse pointer hovers over this icon, the text of the error is displayed.
+    If an error is found, the string containing this error is marked with an ![](../../../images/eurd-web-script-editor-error.png) icon. When a mouse pointer hovers over this icon, the text of the error is displayed.
 
     ![](../../../images/eurd-web-script-editor-error-msg.png)

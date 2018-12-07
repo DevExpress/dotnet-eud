@@ -17,7 +17,7 @@ This mode is enabled in the Report Designer if it provides the [Expressions](../
 
 ## <a name="databindings"></a> Data Bindings
 
-Standard data bindings enable you to assign a single data field to a report control or use [report scripts](../use-report-scripts.md) to provide custom logic.
+Standard data bindings enable you to assign a single data field to a report control or use [report scripts](../report-designer-tools/script-editor.md) to provide custom logic.
 
 This mode is enabled in the Report Designer if it does not provide the [Expressions](../report-designer-tools/ui-panels/expressions-panel.md) ![](../../../images/eurd-web-expressions-panel-icon.png) panel.
 
@@ -99,7 +99,7 @@ href="../report-designer-tools/ui-panels/expressions-panel.md"> Expressions</a> 
 </th></tr><tr><td><p>Use the <strong>Expression Editor</strong> to construct an <a class="xref" href="..\use-expressions.md">expression</a> of any complexity.</p>
 <p><img src="../../../images/eurd-web-label-advanced-summary-expression.png"></p>
 <p>Refer to <a class="xref" href="..\shape-report-data\shape-data-expression-bindings\calculate-an-advanced-summary.md">Calculate an Advanced Summary</a> for an example.</p>
-</td><td><p>Use <a class="xref" href="..\use-report-scripts.md">report scripts</a>.</p>
+</td><td><p>Use <a class="xref" href="..\report-designer-tools/script-editor.md">report scripts</a>.</p>
 <p>Refer to <a class="xref" href="..\shape-report-data\shape-data-data-bindings\calculate-a-custom-summary.md">Calculate a Custom Summary</a> for an example.</p>
 </td>
 </tr></table>
