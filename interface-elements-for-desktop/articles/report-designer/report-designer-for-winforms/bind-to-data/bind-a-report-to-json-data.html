@@ -1,0 +1,152 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Bind a Report to JSON Data | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Bind a Report to JSON Data | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.37.0.0">
+    
+    <link rel="shortcut icon" href="../../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../../index.html">
+                <img id="logo" class="svg" src="../../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="bind-a-report-to-json-data">Bind a Report to JSON Data</h1>
+
+<p>This topic describes how to bind a report to JSON data at design time.</p>
+<h2 id="create-jsondatasource">Create JsonDataSource</h2>
+<ol>
+<li><p><a href="../add-new-reports.html">Create a new report</a>.</p>
+</li>
+<li><p>Click the report&#39;s smart tag. In the invoked actions list, expand the drop-down menu for the <strong>DataSource</strong> property and click <strong>Add New Data Source...</strong></p>
+<p> <img src="../../../../images/eurd-win-report-smart-tag-add-new-data-source.png" alt=""></p>
+<p> This invokes the <a href="../report-designer-tools/data-source-wizard.html">Data Source Wizard</a>.</p>
+</li>
+<li><p>Choose the <strong>JSON</strong> option and click <strong>Next</strong>.</p>
+<p> <img src="../../../../images/eurd-win-JSON-SelectJSONDataSource.png" alt="JSON-SelectJSONDataSource"></p>
+<div class="NOTE"><h5>Note</h5><p>The Report Designer&#39;s Report Wizard provides the JSON option if the application has a reference to the open-source Newtonsoft.Json library.</p>
+</div>
+</li>
+<li><p>The next wizard page allows you to specify the location of the JSON-formatted data:</p>
+<ul>
+<li><p>Web Service Endpoint URI</p>
+<p>  <img src="../../../../images/eurd-win-JSON-URISource.png" alt=""></p>
+</li>
+<li><p>File Name</p>
+<p>  <img src="../../../../images/eurd-win-JSON-File.png" alt=""></p>
+</li>
+<li><p>String with JSON Content</p>
+<p>  <img src="../../../../images/eurd-win-JSON-String.png" alt=""> </p>
+</li>
+</ul>
+</li>
+<li><p>On the next page, the wizard shows the specified JSON data&#39;s structure. You can choose all nodes or a subset of nodes.</p>
+<p> <img src="../../../../images/eurd-win-JSON-SelectRootElement.png" alt="JSON-SelectRootElement"></p>
+<p> Uncheck the data fields that your report does not require.</p>
+<p> You can rename data fields if necessary.</p>
+<p> <img src="../../../../images/eurd-win-JSON-EditFieldNames.png" alt="JSON-EditFieldNames"></p>
+</li>
+</ol>
+<p>After you finish the wizard, it creates the <strong>JsonDataSource</strong> component. This component retrieves the checked data fields that the selected JSON element includes. The <a href="../report-designer-tools/ui-panels/field-list.html">Field List</a> reflects the data source structure.</p>
+<p><img src="../../../../images/eurd-win-JSON-FieldList.png" alt="JSON-FieldList"></p>
+<h2 id="customize-the-json-data-source">Customize the JSON Data Source</h2>
+<p>Right-click the <strong>JsonDataSource</strong> component in the Field List or Report Explorer and choose <strong>Edit...</strong>. Specify another JSON data location and reconfigure data fields in the invoked wizard.</p>
+<p><img src="../../../../images/eurd-win-JSON-Edit.png" alt="JSON-FieldList"></p>
+<h2 id="customize-the-json-data-source-schema">Customize the JSON Data Source Schema</h2>
+<p>Right-click the <strong>JsonDataSource</strong> component in the Report Explorer and choose <strong>Edit Schema...</strong>. Reconfigure data fields in the invoked wizard page.</p>
+<p><img src="../../../../images/eurd-win-JSON-EditSchema.png" alt="JSON-EditSchema"></p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/master/interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/bind-to-data/bind-a-report-to-json-data.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2018 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../../styles/main.js"></script>
+  </body>
+</html>

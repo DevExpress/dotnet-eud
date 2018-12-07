@@ -69,41 +69,54 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="edit-content-in-print-preview">Edit Content in Print Preview</h1>
 
-<p>This document provides information about interactive document editing in Print Preview that enables you to customize field values directly in a previewed document before printing or exporting it.</p>
+<p>This document describes how to customize field values in a previewed document.</p>
 <h2 id="enableediting">Content Editing Overview</h2>
-<p>When content editing is enabled for a report control (either unbound or data-aware), it is possible to customize the corresponding field values in Print Preview.</p>
-<p>To enable content editing for a report control, expand its <strong>EditOptions</strong> property and set the <strong>Enabled</strong> property to <strong>true</strong>.</p>
-<p><img src="../../../../images/eurd-win-content-editing-enable.png" alt="eurd-win-content-editing-enable"></p>
-<p>When the <strong>EditOptions.Enabled</strong> property is set to <strong>true</strong> and the <strong>EditOptions.ReadOnly</strong> property is disabled, the control&#39;s content can be edited in Print Preview (clicking a field will invoke the appropriate editor).</p>
-<p>The following standard editors can be assigned to a control, depending on the kind of content it displays.</p>
+<p>Enable a report control&#39;s <strong>Edit Options</strong> | <strong>Enabled</strong> property and leave the <strong>Edit Options</strong> | <strong>Read Only</strong> property disabled to make the control&#39;s content editable in Print Preview.</p>
+<p><img src="../../../../images/eurd-win-editing-fields-label-edit-options-new.png" alt="editing-fields-label-edit-options-new"></p>
+<p>Print Preview provides the <strong>Editing Fields</strong> toolbar button if content editing is enabled for at least one control in the displayed report. Click this button to highlight all editable fields available in the document.</p>
+<p><img src="../../../../images/eurd-win-editing-fields-highlight-ribbon-toolbar-sample-report.png" alt="editing-fields-highlight-ribbon-toolbar-sample-report"></p>
+<p>Use the TAB and SHIFT+TAB keys to navigate between editable fields forward and back.</p>
+<p>Click an editable field to invoke an editor and specify a value.</p>
+<p>You can enable content editing for data-aware and unbound report controls.</p>
+<p>The following report controls support content editing in Print Preview:</p>
 <table>
 <thead>
 <tr>
-<th>Memo Edit</th>
-<th>Check Box</th>
+<th>Text</th>
+<th>Boolean</th>
+<th>Image</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><img src="../../../../images/eurd-win-content-editing-memoedit.png" alt="eurd-win-content-editing-memoedit"></td>
-<td><img src="../../../../images/eurd-win-content-editing-checkboxe.png" alt="eurd-win-content-editing-checkboxe"></td>
+<td><a href="../use-report-elements/use-basic-report-controls/label.html">Label</a></td>
+<td><a href="../use-report-elements/use-basic-report-controls/check-box.html">Check Box</a></td>
+<td><a href="../use-report-elements/use-basic-report-controls/picture-box.html">Picture Box</a></td>
+</tr>
+<tr>
+<td><a href="../use-report-elements/use-tables.html">Table Cell</a></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="../use-report-elements/use-basic-report-controls/character-comb.html">Character Comb</a></td>
+<td></td>
+<td></td>
 </tr>
 </tbody>
 </table>
-<p>To highlight all editing fields available in a document, click the <strong>Editing Fields</strong> button on the Print Preview toolbar. This button is disabled when there are no such fields in a document.</p>
-<p><img src="../../../../images/eurd-win-content-editing-fields-highlight-ribbon.png" alt="eurd-win-content-editing-fields-highlight-ribbon"></p>
-<p>To navigate between editing fields in Print Preview, use the TAB and SHIFT+TAB keys.</p>
-<h3 id="content-editing-specifics">Content Editing Specifics</h3>
-<p>When enabling content editing in your report, consider the following.</p>
+<p>The sections below provide information about options these controls expose. You can use these options to set up content editing.</p>
+<h2 id="content-editing-limitations">Content Editing Limitations</h2>
 <ul>
-<li>The changes made to a control&#39;s content in Print Preview have no effect on other parts of the document (e.g., the related summary results, grouping, sorting, bookmarks and other settings that have already been processed before generating the document).</li>
-<li><p>A contol&#39;s <strong>CanGrow</strong> setting is ignored for editing fields.</p>
-<p>  Multi-line values can only be entered when no mask is applied to an editing field. The editing area of a field cannot exceed the original dimensions of a control.</p>
-</li>
-<li>Values entered into editing fields are reset back to their defaults after refreshing the document (e.g., when submitting <a href="../shape-report-data/use-report-parameters.html">report parameter</a> values and expanding or collapsing data in a <a href="create-drill-down-reports.html">drill-down report</a>).</li>
-<li>It is impossible to edit content of a control that has its <strong>DrillDownControl</strong> property specified.</li>
-<li><p>Field values entered in Print Preview for controls placed onto the Top Margin and Bottom Margin bands are not preserved when the report is exported to TXT or CSV, as well as the following formats as a single file.</p>
+<li>Changes made to a control&#39;s content in Print Preview does not effect the document&#39;s other parts (for example, summary results, grouping, sorting, bookmarks and other settings that were processed before the document was generated).</li>
+<li>A control&#39;s <strong>Can Grow</strong> setting is ignored for editable fields. The edited area cannot exceed the control&#39;s original dimensions.</li>
+<li>Multi-line values can only be entered when no mask is applied to an editable field.  </li>
+<li>Values entered into editable fields are reset after the document is refreshed (for example, when you submit <a href="../shape-report-data/use-report-parameters.html">report parameter</a> values or expand/collapse data in a <a href="create-drill-down-reports.html">drill-down report</a>).</li>
+<li>It is not possible to edit content in bands if their <strong>DrillDownControl</strong> property is specified.</li>
+<li><p>The entered values are not preserved in the Top Margin and Bottom Margin bands when the report is exported as a single file to the following formats:</p>
 <ul>
+<li>TXT</li>
+<li>CSV</li>
 <li>HTML</li>
 <li>MHT</li>
 <li>RTF</li>
@@ -113,61 +126,67 @@
 </ul>
 </li>
 </ul>
-<p>To learn about the specifics of editing different kinds of content, see the following sections in this document.</p>
-<ul>
-<li><a href="#textediting">Text Editing</a></li>
-<li><a href="#editingcheckbox">Check Box Editing</a></li>
-</ul>
-<h2 id="textediting">Text Editing</h2>
-<p>The <a href="../use-report-elements/use-basic-report-controls/label.html">Label</a>, <a href="../use-report-elements/use-tables.html">Table Cell</a> and <a href="../use-report-elements/use-basic-report-controls/character-comb.html">Character Comb</a> controls can be assigned editors to customize their content in Print Preview.</p>
-<p>To enable content editing for these controls, expand their <strong>EditOptions</strong> property and set the <strong>Enabled</strong> property to <strong>true</strong>.</p>
-<p><img src="../../../../images/eurd-win-content-editing-enable.png" alt="eurd-win-content-editing-enable"></p>
-<p>The following editors can be used to customize a field&#39;s content in Print Preview.</p>
-<ul>
-<li><p><strong>Default Editor</strong></p>
-<p>  By default, the <strong>EditorName</strong> property is not specified, and a memo edit is used as a standard editor.</p>
-<p>  <img src="../../../../images/eurd-win-content-editing-memoedit.png" alt="eurd-win-content-editing-memoedit"></p>
-</li>
-<li><p><strong>Specific Value Editors</strong></p>
-<p>  You can assign a specific editor to a control using its <strong>EditorName</strong> property.</p>
-<p>  <img src="../../../../images/eurd-win-content-editing-specific-editor.png" alt="eurd-win-content-editing-specific-editor"></p>
-<p>  The standard editors are divided into the following categories.</p>
-  <table><tr><th><p>Numeric</p>
-  </th><th><p>Date-Time</p>
-  </th><th><p>Letters</p>
-  </th></tr><tr><td><ul>
-  <li>Integer</li>
-  <li>Integer Positive</li>
-  <li>Fixed-Point</li>
-  <li>Fixed-Point Positive</li>
-  </ul>
-  </td><td><ul>
-  <li>Date</li>
-  </ul>
-  </td><td><ul>
-  <li>Only Letters</li>
-  <li>Only Uppercase Letters</li>
-  <li>Only Lowercase Letters</li>
-  <li>Only Latin Letters</li>
-  </ul>
-  </td></tr></table>
-
-</li>
-</ul>
-<div class="NOTE"><h5>Note</h5><p>If a table cell contains other controls, its editing is disabled (but not the editing of the controls contained in this cell), which is illustrated in the following image.</p>
+<h2 id="text-editors">Text Editors</h2>
+<p>Text editors are used to customize the <a href="../use-report-elements/use-basic-report-controls/label.html">Label</a>, <a href="../use-report-elements/use-tables.html">Table Cell</a> and <a href="../use-report-elements/use-basic-report-controls/character-comb.html">Character Comb</a> report controls&#39; content in Print Preview.</p>
+<p>The default text editor is a memo edit. </p>
+<p><img src="../../../../images/eurd-win-editoptions_standardmemoeditor.png" alt="EditOptions_StandardMemoEditor"></p>
+<p>Specify the <strong>Edit Options</strong> | <strong>Editor Name</strong> property to use one of the following text editors:</p>
+<p><img src="../../../../images/eurd-win-editoptions_editorname.png" alt="EditOptions_EditorName"></p>
+<table>
+<thead>
+<tr>
+<th>Numeric</th>
+<th>Date-Time</th>
+<th>Letters</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Integer</td>
+<td>Date</td>
+<td>Only Letters</td>
+</tr>
+<tr>
+<td>Positive Integer</td>
+<td></td>
+<td>Only Uppercase Letters</td>
+</tr>
+<tr>
+<td>Fixed-Point</td>
+<td></td>
+<td>Only Lowercase Letters</td>
+</tr>
+<tr>
+<td>Positive Fixed-Point</td>
+<td></td>
+<td>Only Latin Letters</td>
+</tr>
+</tbody>
+</table>
+<p>Each editor has a specific mask.</p>
+<div class="NOTE"><h5>Note</h5><p>If a table cell contains other controls, you cannot edit this cell (they can edit the cell&#39;s controls). The following image illustrates this:</p>
 <p><img src="../../../../images/eurd-win-content-editing-table-cell-container.png" alt="eurd-win-content-editing-table-cell-container"></p>
 </div>
-<h2 id="editingcheckbox">Check Box Editing</h2>
-<p>The <a href="../use-report-elements/use-basic-report-controls/check-box.html">Check Box</a> control&#39;s value can be edited in Print Preview.</p>
-<p>To enable content editing for a check box, expand its <strong>EditOptions</strong> property and set the <strong>Enabled</strong> property to <strong>true</strong>.</p>
-<p><img src="../../../../images/eurd-win-content-editing-enable-checkbox.png" alt="eurd-win-content-editing-enable-checkbox"></p>
-<p>In Print Preview, the control&#39;s behavior depends on the <strong>GroupID</strong> setting.</p>
+<h2 id="check-box-editor">Check Box Editor</h2>
+<p>The check box editor is used to customize the <a href="../use-report-elements/use-basic-report-controls/check-box.html">Check Box</a> report control&#39;s content in Print Preview.</p>
+<p><img src="../../../../images/eurd-win-content-editing-checkboxe.png" alt="eurd-win-content-editing-checkboxe"></p>
+<p>You can combine several check box editors into a radio group so that you can select only one option within a group at a time. For this, set the <a href="../use-report-elements/use-basic-report-controls/check-box.html">Check Box</a> report controls&#39; <strong>Group ID</strong> property to the same value.</p>
+<p><img src="../../../../images/eurd-win-content-editing-check-box-group.png" alt="content-editing-check-box-group"></p>
+<h2 id="image-editors">Image Editors</h2>
+<p>Image editors are used to customize the <a href="../use-report-elements/use-basic-report-controls/picture-box.html">XRPictureBox</a> report control&#39;s content in Print Preview.</p>
+<p>Use the control&#39;s <strong>Edit Options</strong> | <strong>Editor Name</strong> property to assign one of the following image editors.</p>
 <ul>
-<li><p>When this property is set to <strong>null</strong> or an empty string value, a check box can be switched either to the &quot;checked&quot; or &quot;unchecked&quot; state (the &quot;intermediate&quot; state is not supported) independently on other available check boxes.</p>
-<p>  <img src="../../../../images/eurd-win-content-editing-checkboxe.png" alt="eurd-win-content-editing-checkboxe"></p>
+<li><p><strong>Image Editor</strong><br>  Allows you to load an image and specify the image&#39;s size options.</p>
+<p>  <img src="../../../../images/eurd-win-content-editing-image.png" alt="content-editing-image"></p>
 </li>
-<li>Otherwise, the field editor behaves like a radio button, and editors with the same <strong>GroupID</strong> value belong to a single logical group (i.e., only one option can be selected within a group at a time).</li>
+<li><p><strong>Signature Editor</strong><br>  Allows you to specify brush options and draw a signature.</p>
+<p>  <img src="../../../../images/eurd-win-content-editing-signature.png" alt="content-editing-signature"></p>
+</li>
+<li><p><strong>Image and Signature Editor</strong> (default)<br>  Allows you to load an image and draw a signature. The image&#39;s size options and brush options are available.</p>
+<p>  <img src="../../../../images/eurd-win-content-editing-image-and-signature.png" alt="content-editing-image-and-signature"></p>
+</li>
 </ul>
+<p>All these image editors include the <img src="../../../../images/eurd-win-clear-changes.png" alt="clear-changes"> button. This button allows you to restore the initial image.</p>
 </article>
           </div>
           
@@ -176,7 +195,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/18.1/interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/provide-interactivity/edit-content-in-print-preview.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/master/interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/provide-interactivity/edit-content-in-print-preview.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

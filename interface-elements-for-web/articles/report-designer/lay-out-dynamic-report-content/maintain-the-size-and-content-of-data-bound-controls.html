@@ -1,0 +1,209 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Maintain the Size and Content of Data-Bound Controls | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Maintain the Size and Content of Data-Bound Controls | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.37.0.0">
+    
+    <link rel="shortcut icon" href="../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../index.html">
+                <img id="logo" class="svg" src="../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="maintain-the-size-and-content-of-data-bound-controls">Maintain the Size and Content of Data-Bound Controls</h1>
+
+<p>Use the control&#39;s <strong>Can Grow</strong> and <strong>Can Shrink</strong> properties to make a data-bound control automatically adjust its height to its contents.</p>
+<p><img src="../../../images/eurd-web-can-grow-can-shrink-properties.png" alt=""></p>
+<table>
+<thead>
+<tr>
+<th><strong>Can Grow = No</strong></th>
+<th><strong>Can Grow = Yes</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="../../../images/eurd-web-can-grow-false.png" alt=""></td>
+<td><img src="../../../images/eurd-web-can-grow-true.png" alt=""></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th><strong>Can Shrink = No</strong></th>
+<th><strong>Can Shrink = Yes</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="../../../images/eurd-web-can-shrink-false.png" alt=""></td>
+<td><img src="../../../images/eurd-web-can-shrink-true.png" alt=""></td>
+</tr>
+</tbody>
+</table>
+<div class="NOTE"><h5>Note</h5><p>This feature does not work with <a href="anchor-controls.html">anchoring</a> enabled, as well as for labels that are used to display <a href="../shape-report-data/shape-data-expression-bindings/calculate-a-summary.html">summary function results</a>.</p>
+</div>
+<p>Use the <strong>Auto Width</strong> property to make a data-bound <a href="../use-report-elements/use-basic-report-controls/label.html">Label</a> or <a href="../use-report-elements/use-basic-report-controls/character-comb.html">Character Comb</a> automatically adjust its width to its content. This option behavior depends on the control&#39;s current horizontal alignment (<strong>Text Alignment</strong> property value).</p>
+<ul>
+<li><p><strong>Text Alignment = Left</strong></p>
+<p>  <img src="../../../images/eurd-web-label-auto-width-left-align.png" alt=""></p>
+</li>
+<li><p><strong>Text Alignment = Right</strong></p>
+<p>  <img src="../../../images/eurd-web-label-auto-width-right-align.png" alt=""></p>
+</li>
+<li><p><strong>Text Alignment = Center</strong></p>
+<p>  <img src="../../../images/eurd-web-label-auto-width-center-align.png" alt=""></p>
+</li>
+</ul>
+<p>The control&#39;s <strong>Word Wrap</strong> property allows you to make a control display its contents in multiple lines when it does not fit into the control&#39;s dimensions.</p>
+<table>
+<thead>
+<tr>
+<th>Auto Width = No, Word Wrap = No</th>
+<th>Auto Width = No, Word Wrap = Yes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="../../../images/eurd-web-auto-width-false-word-wrap-false.png" alt=""></td>
+<td><img src="../../../images/eurd-web-auto-width-false-word-wrap-true.png" alt=""></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Auto Width = Yes, Word Wrap = No</th>
+<th>Auto Width = Yes, Word Wrap = Yes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="../../../images/eurd-web-auto-width-true-word-wrap-false.png" alt=""></td>
+<td><img src="../../../images/eurd-web-auto-width-false-word-wrap-true.png" alt=""></td>
+</tr>
+</tbody>
+</table>
+<p>You can also use the opposite <strong>Text Fit Mode</strong> property to adjust a label or table cell&#39;s font size to fit the control&#39;s bounds. Images below show how the <strong>Word Wrap</strong> property affects the label&#39;s font size.</p>
+<p><img src="../../../images/eurd-web-label-text-fit-mode-property.png" alt=""> </p>
+<table>
+<thead>
+<tr>
+<th>Text Fit Mode = None</th>
+<th>Text Fit Mode = Grow Only</th>
+<th>Text Fit Mode = Shrink Only</th>
+<th>Text Fit Mode = Shrink And Grow</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="../../../images/eurd-web-label-text-fit-mode-none.png" alt=""></td>
+<td><img src="../../../images/eurd-web-label-text-fit-mode-grow-only.png" alt=""></td>
+<td><img src="../../../images/eurd-web-label-text-fit-mode-shrink-only.png" alt=""></td>
+<td><img src="../../../images/eurd-web-label-text-fit-mode-shrink-and-grow.png" alt=""></td>
+</tr>
+</tbody>
+</table>
+<p>This property is not available in the following cases:</p>
+<ul>
+<li>The <strong>Can Grow</strong>, <strong>Can Shrink</strong> or <strong>Auto Width</strong> option is enabled;</li>
+<li>The label&#39;s <strong>Angle</strong> property is specified;</li>
+<li>The control&#39;s <strong>Anchor Horizontally</strong> or <strong>Anchor Vertically</strong> property is set to <strong>Both</strong>.</li>
+</ul>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/master/interface-elements-for-web/articles/report-designer/lay-out-dynamic-report-content/maintain-the-size-and-content-of-data-bound-controls.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2018 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../styles/main.js"></script>
+  </body>
+</html>

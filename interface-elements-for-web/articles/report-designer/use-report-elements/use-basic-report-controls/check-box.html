@@ -1,0 +1,170 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Check Box | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Check Box | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.37.0.0">
+    
+    <link rel="shortcut icon" href="../../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../../index.html">
+                <img id="logo" class="svg" src="../../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="check-box">Check Box</h1>
+
+<h2 id="check-box-overview">Check Box Overview</h2>
+<p>The <strong>Check Box</strong> control displays <strong>Yes</strong>/<strong>No</strong> or <strong>Checked</strong>/<strong>Unchecked</strong>/<strong>Indeterminate</strong> values in a report.</p>
+<p>You can add this control by dragging the <strong>Check Box</strong> item from the <a href="../../report-designer-tools/toolbox.html">Toolbox</a> onto the report&#39;s area.</p>
+<p><img src="../../../../images/eurd-web-add-check-box-control-to-report.png" alt=""></p>
+<p>Use one of the following properties to set the check box&#39;s state:</p>
+<ul>
+<li><strong>Checked</strong> - indicates whether the check box is selected (displays a check mark) or not (is empty).</li>
+<li><p><strong>Check State</strong> - specifies one of the following check box states:    </p>
+<table>
+<thead>
+<tr>
+<th>Icon</th>
+<th>Check State</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="../../../../images/eurd-web-check-box-unchecked-state.png" alt=""></td>
+<td>Unchecked</td>
+</tr>
+<tr>
+<td>  <img src="../../../../images/eurd-web-check-box-checked-state.png" alt=""></td>
+<td>Checked</td>
+</tr>
+<tr>
+<td><img src="../../../../images/eurd-web-check-box-indeterminate-state.png" alt=""></td>
+<td>Indeterminate</td>
+</tr>
+</tbody>
+</table>
+</li>
+</ul>
+<p>The <strong>Text</strong> property specifies the check box&#39;s caption. You can double-click the check box to invoke its in-place editor and type the desired text.</p>
+<p><img src="../../../../images/eurd-web-check-box-in-place-editor.png" alt=""></p>
+<p>Use the <strong>Glyph Alignment</strong> and <strong>Text Alignment</strong> properties to define the glyph and text alignment within the check box.</p>
+<h2 id="bind-to-data">Bind to Data</h2>
+<p>You can <a href="../../bind-to-data/bind-controls-to-data-expression-bindings.html">bind</a> the <strong>Check State</strong> property to a data field obtained from a report&#39;s data source. Expand the <strong>Actions</strong> category, click the <strong>Check State</strong> property&#39;s ellipsis button and select the required data field in the invoked <a href="../../report-designer-tools/expression-editor.html">Expression Editor</a>.</p>
+<p><img src="../../../../images/eurd-web-check-box-bind-to-data.png" alt=""></p>
+<p>The data field value determines the check box state in the following manner:</p>
+<ul>
+<li><strong>True</strong> or <strong>1</strong> activates the <strong>Checked</strong> state;</li>
+<li><strong>False</strong> or <strong>0</strong> activates the <strong>Unchecked</strong> state;</li>
+<li>Any other value activates the <strong>Indeterminate</strong> state.</li>
+</ul>
+<p>In the same way, click the <strong>Text</strong> property&#39;s ellipsis button and select the desired data field or construct a complex binding expression involving two or more data fields.</p>
+<p><img src="../../../../images/eurd-web-check-box-text-expression.png" alt=""></p>
+<p>You can also drag and drop a Boolean type data field from the <a href="../../report-designer-tools/ui-panels/field-list.html">Field List</a> to create a new check box bound to this field.</p>
+<p><img src="../../../../images/eurd-web-check-box-drop-field-from-field-list.png" alt=""></p>
+<p>See the <a href="../../bind-to-data/bind-controls-to-data-expression-bindings.html">Bind Report Controls to Data</a> topic to learn more about creating data-aware controls.</p>
+<h2 id="interactivity">Interactivity</h2>
+<p>You can enable <a href="../../provide-interactivity/edit-content-in-print-preview.html">changing the check box state</a> in Print Preview by setting the <strong>Enabled</strong> option in the <strong>Edit Options</strong> category to <strong>Yes</strong>.</p>
+<p><img src="../../../../images/eurd-web-check-box-edit-options-enabled.png" alt=""></p>
+<p>The <strong>Group ID</strong> setting defines the check box&#39;s behavior in Print Preview:</p>
+<ul>
+<li><p>When you set this property to an empty string value, a check box can be switched to either the &quot;checked&quot; and &quot;unchecked&quot; state independently on other available check boxes.</p>
+<p>  <img src="../../../../images/eurd-web-check-box-editing-in-print-preview.png" alt=""></p>
+</li>
+<li><p>Otherwise, the field editor behaves like a radio button, and editors that have the same ID belong to a single logical group (that is, only one option can be selected in a group at a time).</p>
+</li>
+</ul>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/master/interface-elements-for-web/articles/report-designer/use-report-elements/use-basic-report-controls/check-box.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2018 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../../styles/main.js"></script>
+  </body>
+</html>

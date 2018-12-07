@@ -1,0 +1,165 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Add a Chart (Set Up Series Manually) | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Add a Chart (Set Up Series Manually) | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.37.0.0">
+    
+    <link rel="shortcut icon" href="../../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../../index.html">
+                <img id="logo" class="svg" src="../../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="add-a-chart-set-up-series-manually">Add a Chart (Set Up Series Manually)</h1>
+
+<p>This document describes how to add a chart to a report, provide data for the chart series, and set up a chart&#39;s elements. In this example, series data has a single data source. You can also use different data sources for different series.</p>
+<p><img src="../../../../images/eurd-web-chart-manual-setup-example.png" alt=""></p>
+<h2 id="add-a-chart-to-a-report">Add a Chart to a Report</h2>
+<ol>
+<li><p>Drop the <strong>Chart</strong> control from the <a href="../../report-designer-tools/toolbox.html">Toolbox</a> onto the <a href="../../introduction-to-banded-reports.html">Detail band</a>.</p>
+<p> <img src="../../../../images/eurd-web-chart-add-to-report.png" alt=""></p>
+</li>
+<li><p>Click <strong>Run Designer...</strong> to invoke the Chart Designer.</p>
+<p> <img src="../../../../images/eurd-web-chart-run-designer.png" alt=""></p>
+</li>
+<li><p>Specify the <strong>Data Source</strong> and <strong>Data Member</strong> properties to bind the chart to data.</p>
+<p> <img src="../../../../images/eurd-web-chart-bind-to-data-designer.png" alt=""></p>
+</li>
+</ol>
+<div class="NOTE"><h5>Note</h5><p>The report&#39;s <strong>Data Source</strong> property should be set to <strong>None</strong> because you placed the Chart in the Detail band. When a report has its <strong>Data Source</strong> property specified, the Chart is repeated in the preview as many times as there are records in the report&#39;s data source.</p>
+</div>
+<h2 id="add-series-to-the-chart">Add Series to the Chart</h2>
+<ol>
+<li><p>Locate the <strong>Series</strong> element in the chart elements tree and click the plus button. Select the type (for example, <strong>Bar</strong>) in the invoked series type list.</p>
+<p> <img src="../../../../images/eurd-web-chart-designer-add-series.png" alt=""></p>
+</li>
+<li><p>Specify the <strong>Argument Data Member</strong> and <strong>Value</strong> properties to populate the created series with points.</p>
+<p> <img src="../../../../images/eurd-web-chart-designer-bind-series-to-data.png" alt=""></p>
+</li>
+<li><p>Expand the <strong>Data Filters</strong> category and click the plus button to add a new data filter. Adjust the filter criteria in the <strong>Misc</strong> node.</p>
+<p> <img src="../../../../images/eurd-web-chart-designer-data-filter.png" alt=""></p>
+</li>
+<li><p>Create another series with the same settings. For instance, select the <strong>Point</strong> view type for this series.</p>
+</li>
+<li><p>You can do the following to see how the chart looks when it is populated with data:</p>
+<ul>
+<li>save changes made in the Chart Designer;</li>
+<li>close the Chart Designer;</li>
+<li>switch to <a href="../../preview-print-and-export-reports.html">Print Preview</a>.</li>
+<li>Return to the Report Designer and invoke the Chart Designer. The chart axes are now populated with actual data, and you can customize the chart.</li>
+</ul>
+</li>
+</ol>
+<h2 id="customize-the-chart">Customize the Chart</h2>
+<p>Apply the following adjustments to improve the chart&#39;s appearance:</p>
+<ul>
+<li><p>Remove the chart&#39;s legend (the chart series are bound to the same data).</p>
+<ul>
+<li>Select <strong>Legend</strong> in the chart elements tree.</li>
+<li>Disable the <strong>Visibility</strong> check box in the <strong>Options</strong> tab.</li>
+</ul>
+</li>
+<li><p>Select the <strong>Label</strong> node under this series and disable the <strong>Visibility</strong> check box to hide <strong>Series1</strong>&#39;s point labels.</p>
+</li>
+<li>Customize the <strong>Series2</strong> markers&#39; appearance. Set the <strong>View.Point Marker Options.Kind</strong> property to <strong>InvertedTriangle</strong> and <strong>View.Point Marker Options.Size</strong> to <strong>12</strong> to replace the default circle with an upside down triangle.</li>
+<li>Customize the chart&#39;s appearance settings. For instance, select <strong>Nature Colors</strong> in the <strong>Palette</strong>&#39;s drop-down list.</li>
+</ul>
+<h2 id="view-the-result">View the Result</h2>
+<p>Switch to <a href="../../preview-print-and-export-reports.html">Print Preview</a> to see the resulting report.</p>
+<p><img src="../../../../images/eurd-web-chart-manual-setup-result.png" alt=""></p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/master/interface-elements-for-web/articles/report-designer/use-report-elements/use-charts-and-pivot-grids/add-a-chart-set-up-series-manually.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2018 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../../styles/main.js"></script>
+  </body>
+</html>

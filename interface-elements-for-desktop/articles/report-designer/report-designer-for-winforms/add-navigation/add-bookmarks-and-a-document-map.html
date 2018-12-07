@@ -75,18 +75,18 @@
 <p>This report displays products that are <a href="../shape-report-data/group-and-sort-data/group-data.html">grouped</a> by the <strong>CategoryName</strong> field. </p>
 <p>The following image illustrates the resulting report with a hierarchical Document Map. Clicking any bookmark navigates the Print Preview to the document section containing the associated element.</p>
 <p><img src="../../../../images/eurd-win-addbookmark_result.png" alt="eurd-win-addbookmark_result"></p>
-<p>Use the following steps to generate a Documnet Map in your grouped report.</p>
+<p>Use the following steps to generate a Document Map in your grouped report:</p>
 <ol>
-<li><p>Select the label placed in the <strong>Group Header</strong> band and switch to the <a href="../report-designer-tools/ui-panels/property-grid.html">Property Grid</a>&#39;s <strong>Expressions</strong> tab. Click the <strong>Bookmark</strong> property&#39;s ellipsis button, and in the invoked <strong>Expression Editor</strong>, select the <strong>CategoryName</strong> data field.</p>
+<li><p>Select the label placed in the <strong>Group Header</strong> band and switch to the <a href="../report-designer-tools/ui-panels/property-grid.html">Property Grid</a>&#39;s <strong>Miscellaneous</strong> tab. Click the <strong>Bookmark</strong> property&#39;s marker and select the <strong>Bookmark Expression</strong> item. In the invoked <strong>Expression Editor</strong>, select the <strong>CategoryName</strong> data field.</p>
 <p> <img src="../../../../images/eurd-win-addbookmark-set-bookmark-for-group.png" alt="eurd-win-addbookmark-set-bookmark-for-group"></p>
-<p> In the legacy binding mode (if the Property Grid does not provide the <strong>Expressions</strong> tab), you can specify this property in the Property Grid&#39;s <strong>DataBindings</strong> category.</p>
+<p> In the legacy binding mode (if the Property Grid does not provide the <strong>Bookmark Expression</strong> item), you can specify this property in the Property Grid&#39;s <strong>Data Bindings</strong> category.</p>
 <p> <img src="../../../../images/eurd-win-addbookmark_legacy.png" alt="eurd-win-addbookmark_legacy"></p>
 </li>
 <li><p>In the same way, select the label in the <strong>Detail</strong> band and bind its <strong>Bookmark</strong> property to the <strong>ProductName</strong> data field.</p>
 <p> <img src="../../../../images/eurd-win-addbookmark-set-bookmarks-for-details.png" alt="eurd-win-addbookmark-set-bookmarks-for-details"></p>
 <p> Most of the reporting controls (for example, <a href="../use-report-elements/use-tables.html">Table</a>, TableCell, <a href="../use-report-elements/use-basic-report-controls/check-box.html">CheckBox</a>, etc.) supports the <strong>Bookmark</strong> property.</p>
 </li>
-<li><p>Set the same label&#39;s <strong>BookmarkParent</strong> property to the label in the group band. This arranges bookmarks into a parent-child structure reflecting the report elements&#39; hierarchy in the Document Map.</p>
+<li><p>Set the same label&#39;s <strong>Parent Bookmark</strong> property to the label in the group band. This arranges bookmarks into a parent-child structure reflecting the report elements&#39; hierarchy in the Document Map.</p>
 <p> <img src="../../../../images/eurd-win-addbookmark-bookmark-parent.png" alt="eurd-win-addbookmark-bookmark-parent"></p>
 <div class="NOTE"><h5>Note</h5><p>Avoid cyclic bookmarks that occur when you assign two bookmarks as parents to each other. In this scenario, an exception raises when you attempt to create the report document.</p>
 </div>
@@ -96,7 +96,7 @@
 <p> The root bookmark displays the report name if you do not specify this property.</p>
 </li>
 </ol>
-<div class="NOTE"><h5>Note</h5><p>Duplicated bookmarks are suppressed to prevent adding multiple bookmarks with the same name to a final document. You can disable the  report&#39;s <strong>BookmarkDuplicateSuppress</strong> property to allow duplicated bookmarks.</p>
+<div class="NOTE"><h5>Note</h5><p>Duplicated bookmarks are suppressed to prevent adding multiple bookmarks with the same name to a final document. You can disable the  report&#39;s <strong>Bookmark Duplicate Suppress</strong> property to allow duplicated bookmarks.</p>
 </div>
 </article>
           </div>
@@ -106,7 +106,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/18.1/interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/add-navigation/add-bookmarks-and-a-document-map.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/master/interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/add-navigation/add-bookmarks-and-a-document-map.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

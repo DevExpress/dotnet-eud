@@ -91,6 +91,7 @@
 <p>  <img src="../../../../../images/eurd-win-parameters-dynamic-values.png" alt=""></p>
 <p>  The value type of the specified data member should match the specified parameter type.</p>
 <p>  You can filter the list of values by specifying the <strong>Filter String</strong> property. Using this property, you can implement <a href="create-multi-value-and-cascading-parameters.html">cascading parameters</a>.</p>
+<p>  You can sort the list of values by specifying the <strong>Sort Member</strong> and <strong>Sort Order</strong> properties.</p>
 </li>
 <li><p><strong>Static values</strong></p>
 <p>  Switch to this tab to specify a static list of possible values. Each value should have a description that is displayed in a Print Preview.</p>
@@ -99,6 +100,8 @@
 </ul>
 </li>
 <li><p><strong>Allow multiple values</strong> (corresponds to the parameter&#39;s <strong>Multi-Value</strong> property) - when this option is enabled, a parameter can be assigned a <a href="create-multi-value-and-cascading-parameters.html">collection of values</a>.</p>
+</li>
+<li><p><strong>Allow null value</strong> (corresponds to the parameter&#39;s <strong>Allow Null</strong> property) - indicates whether the parameter&#39;s value can be unspecified.</p>
 </li>
 </ul>
 <h2 id="useparameters">Use Parameters</h2>
@@ -112,10 +115,11 @@
 <li><p><strong>Bind to Data</strong></p>
 <p>  You can bind a report control to a parameter and display its value in the report. To create a new label bound to a parameter, drag the parameter from the <a href="../../report-designer-tools/ui-panels/field-list.html">Field List</a> and drop it onto the required band.</p>
 <p>  <img src="../../../../../images/eurd-win-parameters-for-data-binding.png" alt=""></p>
-<p>  When using <a href="../../bind-to-data/use-embedded-fields-mail-merge.html">mail merge</a>, you can refer to a parameter by adding the <strong>Parameters.</strong> prefix before its name.</p>
+<p>  When using <a href="../../bind-to-data/use-embedded-fields-mail-merge.html">mail merge</a>, you can refer to a parameter by adding a question mark before its name.</p>
+<p>  <img src="../../../../../images/eurd-win-mailmerge-parameters.png" alt=""></p>
 </li>
 <li><p><strong>Specify Expressions</strong></p>
-<p>  Parameters can be used as part of <a href="../../use-expressions.html">expressions</a>. To refer to a report parameter, use the <strong>Parameters.</strong> prefix before its name.</p>
+<p>  Parameters can be used as part of <a href="../../use-expressions.html">expressions</a>. To refer to a report parameter, use a question mark before its name.</p>
 <p>  <img src="../../../../../images/eurd-win-parameters-in-expression-editor.png" alt=""></p>
 </li>
 </ul>
@@ -127,7 +131,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/18.1/interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/shape-report-data/use-report-parameters/parameters-overview.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/master/interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/shape-report-data/use-report-parameters/parameters-overview.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

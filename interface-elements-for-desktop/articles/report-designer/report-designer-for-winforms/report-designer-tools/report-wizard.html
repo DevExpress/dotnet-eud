@@ -71,20 +71,23 @@
 
 <p>The Report Wizard allows you to add a report using one of the following templates:</p>
 <ul>
-<li><p><a href="report-wizard/empty-report.html">Empty Report</a></p>
-<p>  Creates a new blank report that is not bound to a data source.</p>
+<li><p><a href="report-wizard/blank-report.html">Blank</a></p>
+<p>  Creates a new blank report that is not bound to a data source. Choose this option to design your report without using the wizard.</p>
 </li>
-<li><p><a href="report-wizard/data-bound-report.html">Data-bound Report</a></p>
-<p>  Allows you to connect the created report to a data source and configure basic report layout settings (optional).</p>
+<li><p><a href="report-wizard/table-report.html">Table Report</a></p>
+<p>  Allows you to create a <a href="../create-popular-reports/create-a-table-report.html">table report</a>, connect it to a data source and configure basic report layout settings.</p>
 </li>
-<li><p><a href="report-wizard/template-report.html">Template Report</a></p>
+<li><p><a href="report-wizard/vertical-report.html">Vertical Report</a></p>
+<p>  Allows you to create a <a href="../create-popular-reports/create-a-vertical-report.html">vertical report</a>, connect it to a data source and configure basic report layout settings.        </p>
+</li>
+<li><p><a href="report-wizard/template.html">Template</a></p>
 <p>  Enables you to create a new report based on available predefined templates.</p>
 </li>
-<li><p><a href="report-wizard/label-report.html">Label Report</a></p>
+<li><p><a href="report-wizard/labels.html">Labels</a></p>
 <p>  Allows you to select from different customizable layouts to create labels, badges or price tags.</p>
 </li>
 </ul>
-<p><img src="../../../../images/eurd-win-report-wizard.png" alt="eurd-win-report-wizard"></p>
+<p><img src="../../../../images/eurd-ReportWizard-ChooseReportType-TableReport.png" alt="eurd-win-report-wizard"></p>
 <h2 id="run-the-report-wizard">Run the Report Wizard</h2>
 <p>Use one of the following ways to invoke the Report Wizard.</p>
 <ul>
@@ -97,74 +100,6 @@
 </div>
 </li>
 </ul>
-<h2 id="report-wizard-pages">Report Wizard Pages</h2>
-<p>Choose a report template on the first wizard page (see above). The wizard provides the following page series for each report template:</p>
-<ul>
-<li><a href="report-wizard/empty-report.html">Empty Report</a></li>
-<li><p><a href="report-wizard/data-bound-report.html">Data-bound Report</a></p>
-<ul>
-<li><p><a href="report-wizard/data-bound-report/select-the-data-source-type.html">Select the Data Source Type</a></p>
-<ul>
-<li><p><a href="report-wizard/data-bound-report/connect-to-a-database.html">Connect to a Database</a></p>
-<ul>
-<li><a href="report-wizard/data-bound-report/connect-to-a-database/select-a-data-connection.html">Select a Data Connection</a></li>
-<li><a href="report-wizard/data-bound-report/connect-to-a-database/specify-a-connection-string.html">Specify a Connection String</a></li>
-<li><a href="report-wizard/data-bound-report/connect-to-a-database/save-the-connection-string.html">Save the Connection String</a></li>
-<li><a href="report-wizard/data-bound-report/connect-to-a-database/create-a-query-or-select-a-stored-procedure.html">Create a Query or Select a Stored Procedure</a></li>
-<li><a href="report-wizard/data-bound-report/connect-to-a-database/configure-query-parameters.html">Configure Query Parameters</a></li>
-</ul>
-</li>
-<li><p><a href="report-wizard/data-bound-report/connect-to-an-entity-framework-data-source.html">Connect to an Entity Framework Data Source</a></p>
-<ul>
-<li><a href="report-wizard/data-bound-report/connect-to-an-entity-framework-data-source/select-the-data-context.html">Select the Data Context</a></li>
-<li><a href="report-wizard/data-bound-report/connect-to-an-entity-framework-data-source/select-a-connection-string.html">Select a Connection String</a></li>
-<li><a href="report-wizard/data-bound-report/connect-to-an-entity-framework-data-source/specify-a-connection-string.html">Specify a Connection String</a></li>
-<li><a href="report-wizard/data-bound-report/connect-to-an-entity-framework-data-source/bind-to-a-stored-procedure.html">Bind to a Stored Procedure</a></li>
-<li><a href="report-wizard/data-bound-report/connect-to-an-entity-framework-data-source/select-a-data-member.html">Select a Data Member</a></li>
-<li><a href="report-wizard/data-bound-report/connect-to-an-entity-framework-data-source/configure-filters.html">Configure Filters</a></li>
-</ul>
-</li>
-<li><p><a href="report-wizard/data-bound-report/connect-to-an-object-data-source.html">Connect to an Object Data Source</a></p>
-<ul>
-<li><a href="report-wizard/data-bound-report/connect-to-an-object-data-source/select-an-assembly.html">Select an Assembly</a></li>
-<li><a href="report-wizard/data-bound-report/connect-to-an-object-data-source/select-a-data-source-type.html">Select a Data Source Type</a></li>
-<li><a href="report-wizard/data-bound-report/connect-to-an-object-data-source/select-a-data-source-member.html">Select a Data Source Member</a></li>
-<li><a href="report-wizard/data-bound-report/connect-to-an-object-data-source/specify-the-member-parameters.html">Specify the Member Parameters</a></li>
-<li><a href="report-wizard/data-bound-report/connect-to-an-object-data-source/select-the-data-binding-mode.html">Select the Data Binding Mode</a></li>
-<li><a href="report-wizard/data-bound-report/connect-to-an-object-data-source/select-a-data-source-constructor.html">Select a Data Source Constructor</a></li>
-<li><a href="report-wizard/data-bound-report/connect-to-an-object-data-source/specify-the-constructor-parameters.html">Specify the Constructor Parameters</a></li>
-</ul>
-</li>
-<li><p><a href="report-wizard/data-bound-report/connect-to-an-excel-data-source.html">Connect to an Excel Data Source</a></p>
-<ul>
-<li><a href="report-wizard/data-bound-report/connect-to-an-excel-data-source/select-an-excel-workbook-or-csv-file.html">Select an Excel Workbook or CSV File</a></li>
-<li><a href="report-wizard/data-bound-report/connect-to-an-excel-data-source/specify-import-settings.html">Specify Import Settings</a></li>
-<li><a href="report-wizard/data-bound-report/connect-to-an-excel-data-source/select-a-worksheet-table-or-named-range.html">Select a Worksheet, Table or Named Range</a></li>
-<li><a href="report-wizard/data-bound-report/connect-to-an-excel-data-source/choose-columns.html">Choose Columns</a></li>
-</ul>
-</li>
-<li><a href="report-wizard/data-bound-report/choose-fields-to-display-in-a-report.html">Choose Fields to Display in a Report</a></li>
-<li><a href="report-wizard/data-bound-report/add-grouping-levels.html">Add Grouping Levels</a></li>
-<li><a href="report-wizard/data-bound-report/specify-summary-options.html">Specify Summary Options</a></li>
-<li><a href="report-wizard/data-bound-report/set-the-report-title.html">Set the Report Title</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li><p><a href="report-wizard/template-report.html">Template Report</a></p>
-<ul>
-<li><a href="report-wizard/template-report/choose-a-report-template.html">Choose a Report Template</a></li>
-<li><a href="report-wizard/template-report/map-report-template-fields.html">Map Report Template Fields</a></li>
-<li><a href="report-wizard/template-report/specify-report-template-options.html">Specify Report Template Options</a></li>
-</ul>
-</li>
-<li><p><a href="report-wizard/label-report.html">Label Report</a></p>
-<ul>
-<li><a href="report-wizard/label-report/select-the-label-type.html">Select the Label Type</a></li>
-<li><a href="report-wizard/label-report/customize-the-label-options.html">Customize the Label Options</a></li>
-</ul>
-</li>
-</ul>
 </article>
           </div>
           
@@ -173,7 +108,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/18.1/interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-tools/report-wizard.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/master/interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-tools/report-wizard.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

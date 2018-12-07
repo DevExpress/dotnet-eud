@@ -71,10 +71,10 @@
 
 <p>The <strong>Query Builder</strong> provides a visual interface for constructing SQL queries used to access database tables and views.</p>
 <p><img src="../../../../images/eurd-win-query-builder.png" alt="query-builder"></p>
-<div class="NOTE"><h5>Note</h5><p>The Query Builder is not available for <a href="report-wizard/data-bound-report/connect-to-an-object-data-source.html">object</a>, <a href="report-wizard/data-bound-report/connect-to-an-entity-framework-data-source.html">Entity Framework</a> and <a href="report-wizard/data-bound-report/connect-to-an-excel-data-source.html">Excel</a> data sources.</p>
+<div class="NOTE"><h5>Note</h5><p>The Query Builder is not available for <a href="data-source-wizard/connect-to-an-object-data-source.html">object</a>, <a href="data-source-wizard/connect-to-an-entity-framework-data-source.html">Entity Framework</a> and <a href="data-source-wizard/connect-to-an-excel-data-source.html">Excel</a> data sources.</p>
 </div>
 <h2 id="runquerybuilder">Run the Query Builder</h2>
-<p>You can invoke the <strong>Query Builder</strong> from the <a href="report-wizard/data-bound-report/connect-to-a-database/create-a-query-or-select-a-stored-procedure.html">query customization</a> page of the <a href="report-wizard.html">Report Wizard</a>. On this page, click the <img src="../../../../images/eurd-win-report-wizard-multi-query-page-icon-add.png" alt="report-wizard-multi-query-page-icon-add"> button for the <strong>Queries</strong> category to create a new query using the Query Builder.</p>
+<p>You can invoke the <strong>Query Builder</strong> from the <a href="data-source-wizard/connect-to-a-database/create-a-query-or-select-a-stored-procedure.html">query customization</a> page of the <a href="report-wizard.html">Report Wizard</a>. On this page, click the <img src="../../../../images/eurd-win-report-wizard-multi-query-page-icon-add.png" alt="report-wizard-multi-query-page-icon-add"> button for the <strong>Queries</strong> category to create a new query using the Query Builder.</p>
 <p><img src="../../../../images/eurd-win-report-wizard-invoke-query-builder.png" alt="eurd-win-report-wizard-invoke-query-builder"></p>
 <p>You can use the Query Builder to add queries to an existing SQL data source, as well as to edit existing queries. To do this, right-click the data source in the <a href="ui-panels/report-explorer.html">Report Explorer</a> or <a href="ui-panels/field-list.html">Field List</a>, and select <strong>Manage Queries...</strong> in the context menu.</p>
 <p><img src="../../../../images/eurd-win-report-explorer-field-list-manage-queries.png" alt="report-explorer-field-list-manage-queries"></p>
@@ -101,7 +101,7 @@
 <p><img src="../../../../images/eurd-win-query-builder-diagram-left-outer-join.png" alt="query-builder-diagram-left-outer-join"></p>
 <p>You can manually join tables if they do not have a relationship at the database level. In this case, when you drag-and-drop a table onto the list of tables, the <strong>Join Editor</strong> is automatically invoked allowing you to construct a custom <strong>join</strong> relationship.</p>
 <p>After executing the query, it returns a &quot;flat&quot; table composed of data records selected based on the specified join options.</p>
-<div class="NOTE"><h5>Note</h5><p>Although joining different tables within a single query may be required in some scenarios, creating <a href="report-wizard/data-bound-report/connect-to-a-database/create-a-query-or-select-a-stored-procedure.html">hierarchical data sources</a> generally results in better performance (in general, <a href="../create-popular-reports/create-a-master-detail-report-use-detail-report-bands.html">master-detail reports</a> are generated faster than similar-looking reports created by grouping &quot;flat&quot; data sources).</p>
+<div class="NOTE"><h5>Note</h5><p>Although joining different tables within a single query may be required in some scenarios, creating <a href="data-source-wizard/connect-to-a-database/create-a-query-or-select-a-stored-procedure.html">hierarchical data sources</a> generally results in better performance (in general, <a href="../create-popular-reports/create-a-master-detail-report-use-detail-report-bands.html">master-detail reports</a> are generated faster than similar-looking reports created by grouping &quot;flat&quot; data sources).</p>
 </div>
 <h2 id="editparameters">Edit Parameters</h2>
 <p>Click the <strong>Edit Parameters</strong> button to invoke the <strong>Query Parameters</strong> dialog, which allows you to add and remove <a href="../shape-report-data/use-report-parameters/use-query-parameters.html">query parameters</a> as well as specify parameter settings.</p>
@@ -113,14 +113,14 @@
 <li><strong>Expression</strong> - determines whether the actual parameter value is static or generated dynamically.</li>
 <li><strong>Value</strong> - specifies the actual value of a query parameter. If the <strong>Expression</strong> option is enabled, the actual parameter value is produced dynamically by calculating an associated <a href="../use-expressions.html">expression</a>, which is particularly useful when you need to map the query parameter value to the value of a <a href="../shape-report-data/use-report-parameters.html">report parameter</a>.</li>
 </ul>
-<p>The created parameters will be then available on the <a href="report-wizard/data-bound-report/connect-to-a-database/configure-query-parameters.html">Configure Query Parameters</a> wizard page.</p>
+<p>The created parameters will be then available on the <a href="data-source-wizard/connect-to-a-database/configure-query-parameters.html">Configure Query Parameters</a> wizard page.</p>
 <p>For general information on query parameters and ways of providing parameter values, see <a href="../shape-report-data/use-report-parameters/use-query-parameters.html">Query Parameters</a>.</p>
 <h2 id="filterdata">Filter Data</h2>
 <p>To specify filter criteria, click the <strong>Filter...</strong> button in the Query Builder. This invokes the <strong>Filter Editor</strong>, which provides the following capabilities.</p>
 <p><img src="../../../../images/eurd-win-query-designer-filter.png" alt="query-designer-filter"></p>
 <ul>
 <li><p><strong>Filter Tab</strong></p>
-<p>  The editor contains the <strong>Filter</strong> tab allowing you to specify filter conditions for resulting data. Filter criteria can be assigned <a href="report-wizard/data-bound-report/connect-to-a-database/configure-query-parameters.html">query parameters</a> or bound to <a href="../shape-report-data/use-report-parameters.html">report parameters</a>.</p>
+<p>  The editor contains the <strong>Filter</strong> tab allowing you to specify filter conditions for resulting data. Filter criteria can be assigned <a href="data-source-wizard/connect-to-a-database/configure-query-parameters.html">query parameters</a> or bound to <a href="../shape-report-data/use-report-parameters.html">report parameters</a>.</p>
 </li>
 <li><p><strong>Group Filter Tab</strong></p>
 <p>  The <strong>Group Filter</strong> tab allows you to specify filter conditions for grouped and aggregated data. If data is not grouped, the second tab is disabled.</p>
@@ -197,7 +197,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/18.1/interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-tools/query-builder.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/master/interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-tools/query-builder.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

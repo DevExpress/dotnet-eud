@@ -1,0 +1,133 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Limit the Number of Records per Page | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Limit the Number of Records per Page | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.37.0.0">
+    
+    <link rel="shortcut icon" href="../../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../../index.html">
+                <img id="logo" class="svg" src="../../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="limit-the-number-of-records-per-page">Limit the Number of Records per Page</h1>
+
+<p>This document describes how to specify the number of data source records displayed on report pages.</p>
+<div class="WARNING"><h5>Warning</h5><p>Use the approach below if expression bindings <strong>are enabled</strong> in the Report Designer (the Designer provides the <a href="../../report-designer-tools/ui-panels/expressions-panel.html">Expressions</a> panel).</p>
+<p>See <a href="../shape-data-data-bindings/limit-the-number-of-records-per-page.html">Limit the Number of Records per Page</a> if expression bindings <strong>are not enabled</strong> in the Report Designer (the Designer does not provide the <a href="../../report-designer-tools/ui-panels/expressions-panel.html">Expressions</a> panel).</p>
+</div>
+<p>After you <a href="../../bind-to-data.html">bound your report to data</a> and provided content to the report&#39;s <a href="../../introduction-to-banded-reports.html">Detail band</a>, you can limit the number of records each report page displays. This example demonstrates how to pass the required record count as a parameter value.</p>
+<ol>
+<li><p>Switch to the <a href="../../report-designer-tools/ui-panels/field-list.html">Field List</a> panel, select the <strong>Parameters</strong> node and click <strong>Add parameter</strong> to add a new report parameter.</p>
+<p> <img src="../../../../images/eurd-web-shaping-filter-add-parameter.png" alt=""></p>
+</li>
+<li><p>Specify the parameter&#39;s description displayed in Print Preview and set its type to <strong>Number (Integer)</strong>.</p>
+<p> <img src="../../../../images/eurd-web-shaping-limit-parameter-settings.png" alt=""></p>
+</li>
+<li><p>Drop a <a href="../../use-report-elements/use-basic-report-controls/page-break.html">Page Break</a> control onto the report&#39;s detail band.</p>
+<p> <img src="../../../../images/eurd-web-shaping-page-break.png" alt=""></p>
+</li>
+<li><p>Switch to the <a href="../../report-designer-tools/ui-panels/expressions-panel.html">Expressions</a> panel and click the <strong>Visible</strong> property&#39;s ellipsis button. In the invoked <a href="../../report-designer-tools/expression-editor.html">Expression Editor</a>, specify the required <a href="../../use-expressions.html">expression</a>.</p>
+<p> <img src="../../../../images/eurd-web-shaping-page-break-visible-expression.png" alt=""></p>
+<p> For example:</p>
+<p> <strong>([DataSource.CurrentRowebdex] % [Parameters.parameter1] == 0) And ([DataSource.CurrentRowebdex] !=0)</strong></p>
+</li>
+</ol>
+<p>When switching to <a href="../../preview-print-and-export-reports.html">Print Preview</a>, you can specify how many rows each report page should display by entering the corresponding parameter value:</p>
+<p><img src="../../../../images/eurd-web-shaping-limit-rows-result.png" alt=""></p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/master/interface-elements-for-web/articles/report-designer/shape-report-data/shape-data-expression-bindings/limit-the-number-of-records-per-page.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2018 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../../styles/main.js"></script>
+  </body>
+</html>

@@ -72,11 +72,11 @@
 <p>The Report Designer uses one of the following modes to provide dynamic content to your reports: expression bindings or standard data bindings.</p>
 <h2 id="expressions">Expression Bindings</h2>
 <p>Expression bindings enable you to use complex <a href="../use-expressions.html">expressions</a> that include two or more fields and various functions. Expressions also allow you to calculate complex summaries without scripts and conditionally shape your data without formatting rules.</p>
-<p>This mode is enabled in the Report Designer if the <a href="../report-designer-tools/ui-panels/property-grid.html">Property Grid</a> provides the <strong>Expressions</strong> <img src="../../../../images/eurd-win-property-grid-expressions-icon.png" alt=""> tab.</p>
-<p><img src="../../../../images/eurd-win-property-grid-expression-bindings-mode.png" alt=""></p>
+<p>This mode is enabled in the Report Designer if the <a href="../report-designer-tools/ui-panels/property-grid.html">Property Grid</a> provides the <strong>PropertyName Expression</strong> option in property markers&#39; context menu.</p>
+<p><img src="../../../../images/eurd-win-property-grid-data-binding.png" alt=""></p>
 <h2 id="databindings"> Data Bindings</h2>
 <p>Standard data bindings enable you to assign a single data field to a report control or use <a href="../use-report-scripts.html">report scripts</a> to provide custom logic.</p>
-<p>This mode is enabled in the Report Designer if the <a href="../report-designer-tools/ui-panels/property-grid.html">Property Grid</a> does not provide the <strong>Expressions</strong> <img src="../../../../images/eurd-win-property-grid-expressions-icon.png" alt=""> tab.</p>
+<p>This mode is enabled in the Report Designer if the <a href="../report-designer-tools/ui-panels/property-grid.html">Property Grid</a> does not provide the <strong>PropertyName Expression</strong> option in property markers&#39; context menu.</p>
 <p><img src="../../../../images/eurd-win-property-grid-data-bindings-mode.png" alt=""></p>
 <h2 id="dialog">Conversion Dialog</h2>
 <p>The following dialog appears only when <a href="#expressions">expression bindings</a> are enabled in the Report Designer, and you <a href="../open-reports.html">open an existing report</a> that uses standard <a href="#databindings">data bindings</a>:</p>
@@ -108,13 +108,12 @@
 <li><p>You can select a report control and bind it to data in the <a href="../report-designer-tools/ui-panels/property-grid.html">Property Grid</a>.</p>
   <table><tr><th><p>Expression Bindings</p>
   </th><th><p>Data Bindings</p>
-  </th></tr><tr><td><p>Switch to the <strong>Expressions</strong> tab and specify a data field for the <strong>Text</strong> property.</p>
-  <p><img src="../../../../images/eurd-win-property-grid-expression-binding.png"></p>
-  </td><td><p>Expand the <strong>(Data Bindings)</strong> category and assign a data field to the <strong>Text</strong> property.</p>
+  </th></tr><tr><td><p>Click the <b>Text</b> property&#39;s marker and choose the <b>Text Expression</b> item. Specify an expression in the invoked Expression Editor.</p>
+  <p><img src="../../../../images/eurd-win-property-grid-data-binding.png"></p>
+  </td><td><p>Expand the <strong>(Data Bindings)</strong> group in the <b>Data</b> tab and assign a data field to the <strong>Text</strong> property.</p>
   <p><img src="../../../../images/eurd-win-property-grid-text-data-binding.png"></p>
   </td>
   </tr></table>
-
 
 
 </li>
@@ -179,7 +178,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/18.1/interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/bind-to-data/data-binding-modes.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/master/interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/bind-to-data/data-binding-modes.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

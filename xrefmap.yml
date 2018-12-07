@@ -4,6 +4,42 @@ references:
 - uid: "114802"
   name: Toolbar
   href: interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-tools/toolbar.html
+- uid: "119389"
+  name: Template
+  href: interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-tools/report-wizard/template.html
+- uid: "400274"
+  name: Bind a Report to an XPO Persistent Object
+  href: interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/bind-to-data/bind-a-report-to-an-xpo-persistent-object.html
+- uid: "400391"
+  name: Choose an Entity Type
+  href: interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-tools/data-source-wizard/connect-to-an-xpo-data-source/choose-an-entity-type.html
+- uid: "400395"
+  name: Vertical Report
+  href: interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-tools/report-wizard/vertical-report.html
+- uid: "400402"
+  name: Select a Data Connection
+  href: interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-tools/data-source-wizard/connect-to-an-xpo-data-source/select-a-data-connection.html
+- uid: "400403"
+  name: Specify a Connection String
+  href: interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-tools/data-source-wizard/connect-to-an-xpo-data-source/specify-a-connection-string.html
+- uid: "400404"
+  name: Save the Connection String
+  href: interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-tools/data-source-wizard/connect-to-an-xpo-data-source/save-the-connection-string.html
+- uid: "400405"
+  name: Select the Data Source Type
+  href: interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-tools/report-wizard/labels/select-the-data-source-type.html
+- uid: "400406"
+  name: Select the Data Source Type
+  href: interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-tools/report-wizard/template/select-the-data-source-type.html
+- uid: "4252"
+  name: Select the Label Type
+  href: interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-tools/report-wizard/labels/select-the-label-type.html
+- uid: "4253"
+  name: Customize the Label Options
+  href: interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-tools/report-wizard/labels/customize-the-label-options.html
 - uid: "4259"
   name: Field List
   href: interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-tools/ui-panels/field-list.html
+- uid: "4271"
+  name: Table Report
+  href: interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-tools/report-wizard/table-report.html

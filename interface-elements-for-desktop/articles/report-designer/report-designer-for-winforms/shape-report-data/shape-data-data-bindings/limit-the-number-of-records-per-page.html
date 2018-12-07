@@ -70,8 +70,8 @@
 <h1 id="limit-the-number-of-records-per-page">Limit the Number of Records per Page</h1>
 
 <p>This document describes how to specify the number of data source records displayed on report pages.</p>
-<div class="WARNING"><h5>Warning</h5><p>Use the approach below if expression bindings <strong>are not enabled</strong> in the Report Designer (the <a href="../../report-designer-tools/ui-panels/property-grid.html">Property Grid</a> does not provide the <strong>Expressions</strong> <img src="../../../../../images/eurd-win-property-grid-expressions-icon.png" alt=""> tab ).</p>
-<p>See <a href="../shape-data-expression-bindings/limit-the-number-of-records-per-page.html">Limit the Number of Records per Page</a> if expression bindings <strong>are enabled</strong> in the Report Designer (the <a href="../../report-designer-tools/ui-panels/property-grid.html">Property Grid</a> provides the <strong>Expressions</strong> <img src="../../../../../images/eurd-win-property-grid-expressions-icon.png" alt=""> tab).</p>
+<div class="WARNING"><h5>Warning</h5><p>Use the approach below if expression bindings <strong>are not enabled</strong> in the Report Designer (the <a href="../../report-designer-tools/ui-panels/property-grid.html">Property Grid</a> does not provide the <strong>PropertyName Expression</strong> item in the property marker&#39;s context menu).</p>
+<p>See <a href="../shape-data-expression-bindings/limit-the-number-of-records-per-page.html">Limit the Number of Records per Page</a> if expression bindings <strong>are enabled</strong> in the Report Designer.</p>
 </div>
 <p>After you <a href="../../bind-to-data.html">bound your report to data</a> and provided content to the report&#39;s <a href="../../introduction-to-banded-reports.html">Detail band</a>, you can limit the number of records each report page displays. This example demonstrates how to pass the required record count as a parameter value.</p>
 <ol>
@@ -81,7 +81,7 @@
 <li><p>Specify the parameter&#39;s description displayed in Print Preview and set its type to <strong>Number (Integer)</strong>.</p>
 <p> <img src="../../../../../images/eurd-win-shaping-limit-parameter-settings.png" alt=""></p>
 </li>
-<li><p>Drop a <a href="../../use-report-elements/use-basic-report-controls/page-break.html">Page Break</a> control onto the report&#39;s Detail band. Set the control&#39;s <strong>Visible</strong> property to <strong>No</strong> and click the <strong>Formatting Rules</strong> property&#39;s ellipsis button.</p>
+<li><p>Drop a <a href="../../use-report-elements/use-basic-report-controls/page-break.html">Page Break</a> control onto the report&#39;s Detail band. Disable the control&#39;s <strong>Visible</strong> property and click the <strong>Formatting Rules</strong> property&#39;s ellipsis button.</p>
 <p> <img src="../../../../../images/eurd-win-shaping-page-break-formatting-rules.png" alt=""></p>
 </li>
 <li><p>In the invoked <strong>Formatting Rules Editor</strong>, click the <strong>Edit Rule Sheet</strong> button.</p>
@@ -93,7 +93,7 @@
 <li><p>In the invoked <strong>Condition Editor</strong>, specify the required expression.</p>
 <p> <img src="../../../../../images/eurd-win-shaping-page-break-condtion.png" alt=""></p>
 <p> For example:</p>
-<p> <strong>([DataSource.CurrentRowIndex] % [Parameters.parameter1] == 0) And ([DataSource.CurrentRowIndex] !=0)</strong></p>
+<p> <strong>([DataSource.CurrentRowIndex] % ?parameter1 == 0) And ([DataSource.CurrentRowIndex] !=0)</strong></p>
 <p> Click <strong>OK</strong>, to save the changes and close the dialog. Then, click <strong>Close</strong> to quit the <strong>Formatting Rule Sheet Editor</strong>.</p>
 </li>
 <li><p>In the <strong>Formatting Rules Editor</strong>, you can see the created rule (called <strong>formattingRule1</strong>), which should be moved to the list of active rules on the right using the arrow buttons in the center of the dialog box.</p>
@@ -110,7 +110,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/18.1/interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/shape-report-data/shape-data-data-bindings/limit-the-number-of-records-per-page.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/master/interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/shape-report-data/shape-data-data-bindings/limit-the-number-of-records-per-page.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

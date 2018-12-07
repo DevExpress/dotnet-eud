@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Insert a Hyperlink | DevExpress End-User Documentation </title>
+    <title>Bookmark and Hyperlink | DevExpress End-User Documentation </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Insert a Hyperlink | DevExpress End-User Documentation ">
+    <meta name="title" content="Bookmark and Hyperlink | DevExpress End-User Documentation ">
     <meta name="generator" content="docfx 2.37.0.0">
     
     <link rel="shortcut icon" href="../../../../favicon.ico">
@@ -67,15 +67,52 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="insert-a-hyperlink">Insert a Hyperlink</h1>
+<h1 id="bookmark-and-hyperlink">Bookmark and Hyperlink</h1>
 
-<p>The <strong>Hyperlink</strong> marks the document range as a hot spot in the document. It can be activated by clicking or pressing <strong>ENTER</strong> to navigate the specified external URL.</p>
-<p>To create a new hyperlink, select a range to mark and click the <strong>Hyperlink</strong> button in the <strong>Links</strong> group in the <strong>Insert</strong> tab...</p>
-<p><img src="../../../images/img117873.png" alt="EUD_ASPxRichEdit_Insert_InsertHyperlink"></p>
-<p>...or select the <strong>Hyperlink...</strong> item from the context menu.</p>
-<p><img src="../../../images/img117874.png" alt="EUD_ASPxRichEdit_Insert_HyperlinkContext"></p>
-<p>The <strong>Hyperlink</strong> dialog will appear.</p>
-<p><img src="../../../images/img118710.png" alt="EUD_ASPxRichEdit_Insert_HyperlinkDialog"></p>
+<p>You can add hyperlinks to external locations or associated with bookmarks in the same document.</p>
+<h2 id="bookmarks">Bookmarks</h2>
+<p>A bookmark can refer to a position in a document or to a document range (for example, portion of text, image).</p>
+<h3 id="add-a-bookmark">Add a bookmark</h3>
+<ul>
+<li>Select a document range or position the pointer.</li>
+<li>Click the <strong>Bookmark</strong> button in <strong>Insert</strong> tab&#39;s <strong>Links</strong> group...</li>
+</ul>
+<p><img src="../../../images/img117729.png" alt="EUD_ASPxRichEdit_InsertTab"></p>
+<p>...or right-click the selected document range and select the <strong>Bookmark...</strong> command in the context menu.</p>
+<p><img src="../../../images/img117874.png" alt="EUD_ASPxRichEdit_Insert_BookmarkContext"></p>
+<p>This invokes the <strong>Bookmark</strong> dialog box.</p>
+<p><img src="../../../images/rich-text-editor-miscellaneous-insert-bookmark.png" alt="EUD_ASPxRichEdit_Insert_BookmarkDialog"></p>
+<ul>
+<li>Specify a bookmark name and click <strong>Add</strong>. </li>
+</ul>
+<div class="NOTE"><h5>Note</h5><p>A bookmark name can contain numbers, letters, and the underscore symbol (&quot;_&quot;), and must begin with a letter.</p>
+</div>
+<h3 id="delete-a-bookmark">Delete a bookmark</h3>
+<p>Invoke the <strong>Bookmark</strong> dialog, select a bookmark, and click <strong>Delete</strong>.</p>
+<h3 id="bookmark-navigation">Bookmark navigation</h3>
+<p>Invoke the <strong>Bookmark</strong> dialog, select a bookmark, and click <strong>Go To</strong> to navigate to the bookmark.</p>
+<h2 id="hyperlinks">Hyperlinks</h2>
+<p>A hyperlink is a document range (for example, portion of text, image) that you can use to go to a webpage, to another place within the same document, or to create a new email message. </p>
+<p>Click a hyperlink while pressing CTRL to navigate to the link.</p>
+<h3 id="add-a-hyperlink">Add a hyperlink</h3>
+<ul>
+<li>Select a document range and click <strong>Hyperlink</strong> in <strong>Insert</strong> tab&#39;s <strong>Links</strong> group, or right-click the selected document range and click <strong>Hyperlink...</strong> in the context menu to invoke the <strong>Hyperlink</strong> dialog box.</li>
+</ul>
+<p>*Use the option buttons at the top of the dialog to change the hyperlink&#39;s destination.</p>
+<p><strong>Web page</strong></p>
+<p><img src="../../../images/img118710.png" alt="EUD_ASPxRichEdit_Insert_HyperlinkDialog-WebPage"></p>
+<p>Inserts a hyperlink to a web page. </p>
+<p>Specify the hyperlink&#39;s navigation URL (required), text, and tooltip, and click <strong>OK</strong>. </p>
+<p><strong>Bookmark</strong></p>
+<p><img src="../../../images/rich-text-editor-miscellaneous-insert-hyperlink-bookmark.png" alt="EUD_ASPxRichEdit_Insert_HyperlinkDialog-Bookmark"></p>
+<p>Inserts a hyperlink to a bookmark in the same document. </p>
+<p>Select a bookmark&#39;s name from the drop-down list (required), and specify the hyperlink&#39;s navigation text and tooltip, and click <strong>OK</strong>. </p>
+<p><strong>Email address</strong></p>
+<p><img src="../../../images/rich-text-editor-miscellaneous-insert-hyperlink-email.png" alt="EUD_ASPxRichEdit_Insert_HyperlinkDialog-Email"></p>
+<p>Inserts a hyperlink that creates a new email message. </p>
+<p>Specify an email address (required), message subject, link text and tooltip, and click <strong>OK</strong>.</p>
+<div class="NOTE"><h5>Note</h5><p>Hyperlink&#39;s text automatically appears in the <strong>Text</strong> editor when it is specified for a portion of text. You cannot specify hyperlink text for some elements, for example, images. </p>
+</div>
 </article>
           </div>
           
@@ -84,7 +121,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/18.1/interface-elements-for-web/articles/rich-text-editor/miscellaneous/insert-a-hyperlink.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/master/interface-elements-for-web/articles/rich-text-editor/miscellaneous/insert-a-hyperlink.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

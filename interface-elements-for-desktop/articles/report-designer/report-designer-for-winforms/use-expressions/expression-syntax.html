@@ -966,9 +966,9 @@
 <li>Join(parameter) - concatenates the specified parameter&#39;s values using comma as a separator.</li>
 <li>Join(parameter, separator) - concatenates the specified parameter&#39;s values using the specified separator.</li>
 </ul>
-</td><td><p>Join([Parameters.CategoriesParameter])</p>
+</td><td><p>Join(?CategoriesParameter)</p>
 <p>Result: <em>Beverages, Condiments</em></p>
-<p>Join([Parameters.CategoriesParameter], newline())</p>
+<p>Join(?CategoriesParameter, newline())</p>
 <p>Result: </p>
 <p><em>Beverages</em></p>
 <p><em>Condiments</em></p>
@@ -986,10 +986,10 @@
 <li>Join(parameter) - concatenates the specified parameter&#39;s values using comma as a separator.</li>
 <li>Join(parameter, separator) - concatenates the specified parameter&#39;s values using the specified separator.</li>
 </ul>
-</td><td><p>Join([Parameters.Parameter1])</p>
+</td><td><p>Join(?Parameter1)</p>
 </td></tr><tr><td><p>CreateTable(Column1, ..., ColumnN)</p>
 </td><td><p>Creates a table from several multi-value parameters&#39; values. This function can be used when mapping multi-value report parameters to the query parameter that is generated from a stored procedure&#39;s <a href="https://docs.microsoft.com/en-us/sql/relational-databases/tables/use-table-valued-parameters-database-engine">User Defined Table Type</a> parameter. Refer to the <a class="xref" href="../shape-report-data/use-report-parameters/use-query-parameters.html">Query Parameters</a> topic for more information.</p>
-</td><td><p>CreateTable([Parameters.Parameter1], ..., [Parameters.ParameterN])</p>
+</td><td><p>CreateTable(?Parameter1, ..., ?ParameterN)</p>
 </td></tr></table>
 
 <h2 id="a-namesummary-expression-editorfunctions-for-summary-expression-editora"><a name="summary-expression-editor">Functions for Summary Expression Editor</a></h2>
@@ -1088,13 +1088,13 @@
 <div class="NOTE"><h5>Note</h5><p>These variables are not valid when the report includes a <a href="../add-navigation/add-a-table-of-contents.html">table or contents</a>.</p>
 </div>
 <h2 id="report-parameters">Report Parameters</h2>
-<p>Use the following syntax conventions to utilize <a href="../shape-report-data/use-report-parameters.html">report parameters</a> in the <a href="../use-expressions.html">Expression Editor</a>:</p>
+<p>Use the following syntax to insert <a href="../shape-report-data/use-report-parameters.html">parameters</a> into expressions:</p>
 <ul>
-<li><p>Insert <a href="../shape-report-data/use-report-parameters.html">report parameters</a> using the &quot;Parameters.&quot; prefix before their names.</p>
-<p><em>[Parameters.parameter1]</em></p>
-</li>
-<li><p>When referencing <a href="../shape-report-data/use-report-parameters.html">report parameters</a> in the <a href="../shape-report-data/filter-data/filter-data-at-the-report-level.html">Filter Editor</a> and using <a href="../shape-report-data/use-report-parameters/use-query-parameters.html">query parameters</a> in data source queries, type a question mark before the parameters&#39; names. </p>
+<li><p>Type a question mark before a parameter&#39;s name.  </p>
 <p><em>?parameter1</em></p>
+</li>
+<li><p>(<em>Obsolete approach</em>) Use the &quot;Parameters.&quot; prefix before a <a href="../shape-report-data/use-report-parameters.html">report parameter</a>&#39;s name.  </p>
+<p><em>[Parameters.parameter1]</em></p>
 </li>
 </ul>
 <h2 id="collection-elements-verification">Collection Elements Verification</h2>
@@ -1161,7 +1161,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/18.1/interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/use-expressions/expression-syntax.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/master/interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/use-expressions/expression-syntax.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

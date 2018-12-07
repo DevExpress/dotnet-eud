@@ -1,0 +1,135 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Group Data by a Custom Field | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Group Data by a Custom Field | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.37.0.0">
+    
+    <link rel="shortcut icon" href="../../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../../index.html">
+                <img id="logo" class="svg" src="../../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="group-data-by-a-custom-field">Group Data by a Custom Field</h1>
+
+<p>This tutorial illustrates how to group a report against a custom criteria, in particular, group data by days of the week. </p>
+<ol>
+<li><p>Create a new or open an existing data-bound report.</p>
+<p> You cannot apply grouping unless your report is bound to a data source.</p>
+</li>
+<li><p>Create a <a href="../use-calculated-fields.html">calculated field</a>. Switch to the <a href="../../report-designer-tools/ui-panels/field-list.html">Field List</a> panel, select the data source or a table inside it and click <strong>Add Calculated Field</strong>.</p>
+<p> <img src="../../../../images/eurd-web-group-data-create-calculated-field.png" alt=""> </p>
+</li>
+<li><p>Click the <strong>Edit</strong> button for the calculated field and then click the <strong>Expression</strong> property&#39;s ellipsis button. In the invoked <a href="../../report-designer-tools/expression-editor.html">Expression Editor</a>, select the required date-time function and define the data field&#39;s name in <strong>[</strong>square brackets<strong>]</strong>. For example,  use the <strong>GetDayOfWeek([OrderDate])</strong> function to return a zero-based index of the day of the week, extracted from the <strong>OrderDate</strong> data field.</p>
+<p> <img src="../../../../images/eurd-web-group-data-calculated-field-expression.png" alt=""></p>
+<p> Click <strong>OK</strong> to close the editor and save the changes.</p>
+</li>
+<li><p>Insert the <a href="../../introduction-to-banded-reports.html">Group Header</a> band,      select the <strong>Group Fields</strong> section in the <strong>Actions</strong> category and add a      new group field to group the report&#39;s data by the calculated field. </p>
+<p> <img src="../../../../images/eurd-web-group-by-calculated-field.png" alt=""></p>
+<p> Click the <img src="../../../../images/eurd-web-order-ascending.png" alt=""> or <img src="../../../../images/eurd-web-order-descending.png" alt=""> buttons to define the sort order within the group (ascending or descending). Use the <img src="../../../../images/eurd-web-disable-sorting.png" alt=""> button to disable sorting in grouped data.</p>
+</li>
+<li><p>Switch to the <strong>Field List</strong> and drop the required data fields onto the report&#39;s area.</p>
+<p> <img src="../../../../images/eurd-web-group-by-field-layout.png" alt=""></p>
+</li>
+<li><p>Select the label in the Group Header and set the <strong>Text Format String</strong> property to <strong>{0:dddd}</strong>. This makes the label only display the day of the week, and not the date.</p>
+<p> <img src="../../../../images/eurd-web-group-by-field-format-string.png" alt=""></p>
+</li>
+</ol>
+<p>Switch to <a href="../../preview-print-and-export-reports.html">Print Preview</a> to see the result.</p>
+<p><img src="../../../../images/eurd-web-group-by-calculated-field-result.png" alt=""></p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/master/interface-elements-for-web/articles/report-designer/shape-report-data/group-and-sort-data/group-data-by-a-custom-field.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2018 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../../styles/main.js"></script>
+  </body>
+</html>

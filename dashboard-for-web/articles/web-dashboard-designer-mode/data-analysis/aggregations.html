@@ -77,56 +77,79 @@
 <tr>
 <th>Function</th>
 <th>Description</th>
+<th>Example</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>Aggr(SummaryExpression, Dimensions)</td>
 <td>Aggregates underlying data using the detail level specified by a predefined set of dimensions and a specified summary function.</td>
+<td>Aggr(Sum([Sales]), [Category], [Product])</td>
 </tr>
 <tr>
 <td>Avg(Value)</td>
 <td>Returns the average of all the values in the expression.</td>
+<td>Avg([Profit])</td>
 </tr>
 <tr>
 <td>Count()</td>
 <td>Returns the number of values.</td>
+<td>Count()</td>
+</tr>
+<tr>
+<td>CountNotNull(Value)</td>
+<td>Returns a number of non-null objects in a collection.</td>
+<td>CountNotNull([Orders])</td>
 </tr>
 <tr>
 <td>CountDistinct(Value)</td>
 <td>Returns the number of distinct values.</td>
+<td>CountDistinct([Orders])</td>
 </tr>
 <tr>
 <td>Max(Value)</td>
 <td>Returns the maximum value across all records.</td>
+<td>Max([Profit])</td>
 </tr>
 <tr>
 <td>Min(Value)</td>
 <td>Returns the minimum value across all records.</td>
+<td>Min([Profit])</td>
+</tr>
+<tr>
+<td>Mode(Value)</td>
+<td>Returns the mode of the values.</td>
+<td>Mode([Profit])</td>
 </tr>
 <tr>
 <td>Median(Value)</td>
 <td>Returns the median of the values.</td>
+<td>Median([Profit])</td>
 </tr>
 <tr>
 <td>Sum(Value)</td>
 <td>Returns the sum of all values.</td>
+<td>Sum([Profit])</td>
 </tr>
 <tr>
 <td>Var(Value)</td>
-<td>Returns an estimate of the variance of a population where the sample is a subset of the entire population.</td>
+<td>Returns an estimate of the variance of a population, where the sample is a subset of the entire population.</td>
+<td>Var([Orders])</td>
 </tr>
 <tr>
 <td>Varp(Value)</td>
-<td>Returns the variance of a population where the population is the entire data to be summarized.</td>
+<td>Returns the variance of a population, where the population is the entire data to be summarized.</td>
+<td>Varp([Orders])</td>
 </tr>
 <tr>
 <td>StdDev(Value)</td>
 <td>Returns an estimate of the standard deviation of a population, where the sample is a subset of the entire population.</td>
+<td>StdDev([Orders])</td>
 </tr>
 <tr>
 <td>StdDevp(Value)</td>
-<td>Returns the standard deviation of a population where the population is the entire data to be summarized.</td>
+<td>Returns the standard deviation of a population, where the population is the entire data to be summarized.</td>
+<td>StdDevp([Orders])</td>
 </tr>
 </tbody>
 </table>
@@ -146,7 +169,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/18.1/dashboard-for-web/articles/web-dashboard-designer-mode/data-analysis/aggregations.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/master/dashboard-for-web/articles/web-dashboard-designer-mode/data-analysis/aggregations.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

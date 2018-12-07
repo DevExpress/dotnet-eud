@@ -69,56 +69,77 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="create-an-interactive-e-form">Create an Interactive E-Form</h1>
 
-<p>This tutorial describes how to create an electronic form and make it fillable directly in Print Preview before printing or exporting it.</p>
-<p><img src="../../../../images/eurd-win-eform-result.png" alt=""></p>
+<p>This tutorial describes how to create a form that is fillable in Print Preview.</p>
+<p><img src="../../../../images/eurd-win-eform-result.png" alt="eForm-report-result"></p>
 <p>To get started with this tutorial, <a href="../add-new-reports.html">create a new report</a> or <a href="../open-reports.html">open an existing one</a>.</p>
-<h2 id="preprintedform">Use a Preprinted Form Template</h2>
-<p>Use a picture watermark as a template to display an image of the preprinted form on the report&#39;s body.</p>
+<h2 id="add-form-fields">Add Form Fields</h2>
+<p>Add the <a href="../use-report-elements/use-basic-report-controls/label.html">Label</a> report controls to the report and arrange them according to the form&#39;s template. Set the labels&#39; <strong>Text</strong> property to the form&#39;s field names.</p>
+<p><img src="../../../../images/eurd-win-EForm-Add-Form-Fields.png" alt="EForm-Add-Form-Fields"></p>
+<h2 id="add-fillable-cells">Add Fillable Cells</h2>
+<p>Use the <a href="../use-report-elements/use-basic-report-controls/character-comb.html">Character Comb</a> control for the form&#39;s text fields. This control displays letters in individual cells and allows you to fill these cells in Print Preview.</p>
 <ol>
-<li><p>Open the <a href="../report-designer-tools/toolbar.html">Toolbar</a>&#39;s <strong>Page</strong> tab and click the <strong>Watermark</strong> button.</p>
-<p> <img src="../../../../images/eurd-win-eform-toolbar-page-watermark-button.png" alt=""></p>
+<li><p>Drop the Character Comb item from the Toolbox onto the report.</p>
+<p> <img src="../../../../images/eurd-win-EForms-Character-Comb.png" alt="eForm-report-add-character-comb"></p>
 </li>
-<li><p>In the invoked <strong>Watermark</strong> dialog, switch to the <strong>Picture Watermark</strong> tab and click the <strong>Browse</strong> button. In the <strong>Select Picture</strong> dialog, select the image file with a required preprinted form and click <strong>Open</strong>.</p>
-<p> <img src="../../../../images/eurd-win-eform-watermark-dialog-select-picture.png" alt=""></p>
+<li><p>Select all the added Character Combs and set their properties in the <strong>Property Grid</strong>:</p>
+<ul>
+<li><strong>Cell Size Mode</strong></li>
+<li><strong>Cell Height</strong>,</li>
+<li><strong>Cell Width</strong>,</li>
+<li><p>and other cell settings.</p>
+<p><img src="../../../../images/eurd-win-eform-report-character-combs-cell-settings.png" alt="eForm-report-character-combs-cell-settings"></p>
 </li>
-<li><p>If required, specify the position, sizing mode, transparency and other options for the picture.</p>
-<p> <img src="../../../../images/eurd-win-eform-watermark-dialog-picture-settings.png" alt=""></p>
+</ul>
 </li>
-<li><p>To display the watermark on the design surface, open the <a href="../report-designer-tools/toolbar.html">Toolbar</a>&#39;s <strong>View</strong> tab and enable the <strong>Watermark</strong> option.</p>
-<p> <img src="../../../../images/eurd-win-eform-toolbar-view-watermark-button.png" alt=""></p>
+<li><p>Enable the Character Combs&#39; <strong>Edit Options</strong> 
+| <strong>Enabled</strong> property.</p>
+<p> <img src="../../../../images/eurd-win-eform-report-character-combs-edit-options-enabled.png" alt="eForm-report-character-combs-edit-options-enabled"></p>
+</li>
+<li><p>Choose editors for the Character Comb controls&#39; edit mode.</p>
+<ul>
+<li><p>Controls that allow you to enter letters<br>  Invoke a drop-down list for the <strong>Editor Name</strong> property and select the <strong>Only Uppercase Letters</strong> item in the <strong>Letters</strong> category.</p>
+<p>  <img src="../../../../images/eurd-win-eform-report-character-combs-editor-name-letters.png" alt="eForm-report-character-combs-editor-name-letters"></p>
+</li>
+<li><p>Controls that allow you to enter integers<br>  Invoke a drop-down list for the <strong>Editor Name</strong> property and select the <strong>Positive Integer</strong> item in the <strong>Numeric</strong> category.</p>
+<p>  <img src="../../../../images/eurd-win-eform-report-character-combs-editor-name-integer-positive.png" alt="eForm-report-character-combs-editor-name-integer-positive"></p>
+</li>
+</ul>
 </li>
 </ol>
-<p>The following image illustrates a report with a watermark providing a template of the preprinted form at design time.</p>
-<p><img src="../../../../images/eurd-win-eform-watermark-result.png" alt=""></p>
-<h2 id="contentcontrols">Provide Content Controls</h2>
-<p>The next step is to provide the report with controls whose content should be customizable in preview mode.</p>
+<h2 id="add-check-box-editors">Add Check Box Editors</h2>
+<p>Add <a href="../use-report-elements/use-basic-report-controls/check-box.html">Check Box</a> controls for the <em>Male/Female</em> fields.</p>
+<p><img src="../../../../images/eurd-win-eform-report-add-check-boxes.png" alt="eForm-report-add-check-boxes"></p>
+<p>Use the following properties to set up these controls:</p>
+<ul>
+<li><p>Set the <strong>Text</strong> property.</p>
+</li>
+<li><p>Set appearance properties.</p>
+</li>
+<li><p>Enable the <strong>Edit Options</strong> | <strong>Enabled</strong> property switch check box states in Print Preview.</p>
+</li>
+<li><p>Set the <strong>Edit Options</strong> | <strong>Group ID</strong> property to the same value to combine these two check boxes into a logical group. This allows you to select only one option at a time.</p>
+<p>  <img src="../../../../images/eurd-win-eform-report-check-boxes-edit-options.png" alt="eForm-report-check-boxes-edit-options"></p>
+</li>
+</ul>
+<h2 id="add-the-signature-editor">Add the Signature Editor</h2>
+<p>Add the <a href="../use-report-elements/use-basic-report-controls/picture-box.html">PictureBox</a> report control for the form&#39;s <em>Signature</em> field.</p>
+<p><img src="../../../../images/eurd-win-EForm-add-signature-picture-box.png" alt="EForm-add-signature-picture-box"></p>
+<p>Do the following to enable drawing in Print Preview:</p>
 <ol>
-<li><p>Add the <a href="../use-report-elements/use-basic-report-controls/character-comb.html">Character Comb</a> controls to the report for all required fields to allow entering characters in individual cells one by one.</p>
-<p> <img src="../../../../images/eurd-win-eform-drop-character-combs.png" alt=""></p>
+<li><p>Enable the control&#39;s <strong>Edit Options</strong> | <strong>Enabled</strong> property.</p>
 </li>
-<li><p>Select all the added controls, clear their text and switch to the <strong>Character Comb Tools</strong> contextual toolbar tab. Adjust cell settings, such as <strong>Width</strong>, <strong>Height</strong>, <strong>Horizontal Spacing</strong>, etc.</p>
-<p> <img src="../../../../images/eurd-win-eform-character-combs-settings.png" alt=""></p>
-</li>
-<li><p>Enable content editing in Print Preview for the same controls. Go to the <a href="../report-designer-tools/ui-panels/property-grid.html">Property Grid</a>, expand the <strong>Edit Options</strong> property and set the <strong>Enabled</strong> property to <strong>Yes</strong>.</p>
-<p> <img src="../../../../images/eurd-win-eform-character-combs-edit-options.png" alt=""></p>
-</li>
-<li><p>For controls intended for entering letters only, invoke a drop-down list for the <strong>Editor Name</strong> property and select the required item from the <strong>Letters</strong> category to assign an editor with the corresponding mask.</p>
-<p> <img src="../../../../images/eurd-win-eform-character-combs-letters-editor.png" alt=""></p>
-</li>
-<li><p>To provide a mask for editing integer values, set the <strong>Editor Name</strong> property to <strong>Integer Positive</strong></p>
-<p> <img src="../../../../images/eurd-win-eform-character-combs-integer-editor.png" alt=""></p>
-</li>
-<li><p>Add two <a href="../use-report-elements/use-basic-report-controls/check-box.html">Check Box</a> controls to the report for selecting a gender. Then, change their text and appearance settings.</p>
-<p> <img src="../../../../images/eurd-win-eform-drop-check-boxes.png" alt=""></p>
-</li>
-<li><p>To enable switching check box states in Print Preview, set the <strong>Edit Options</strong> | <strong>Enabled</strong> property to <strong>Yes</strong> as you did before. To allow selecting only one option at a time, combine these check boxes into a logical group by specifying the same value for the <strong>Group ID</strong> property.</p>
-<p> <img src="../../../../images/eurd-win-eform-check-boxes-group-id.png" alt=""></p>
+<li><p>Set the <strong>Edit Options</strong> | <strong>Editor Name</strong> property to <strong>Signature</strong>.</p>
+<p> <img src="../../../../images/eurd-win-EForm-Signature-content-editing.png" alt="EForm-Signature-content-editing"></p>
 </li>
 </ol>
-<h2 id="result">Get the Result</h2>
-<p>The e-form report is now ready. Switch to <a href="../preview-print-and-export-reports.html">Print Preview</a> to see the result.</p>
-<p>To highlight all editing fields available in the form, click the <img src="../../../../images/eurd-win-eform-editing-fields-button.png" alt=""> <strong>Editing Fields</strong> button on the Print Preview toolbar. Clicking a field invokes the appropriate editor. To apply the entered values and navigate between editing fields, use the TAB and SHIFT+TAB key combinations.</p>
-<p><img src="../../../../images/eurd-win-eform-result.png" alt=""></p>
+<h2 id="get-the-result">Get the Result</h2>
+<p>Switch to the <a href="../preview-print-and-export-reports.html">Preview tab</a> to see the result.</p>
+<p><img src="../../../../images/eurd-win-EForm-Preview.png" alt="eForm-report-result"></p>
+<p>Click the <img src="../../../../images/eurd-win-highlight-fields-icon-bars126306.png" alt="highlight-fields-icon-bars"> button on the Print Preview toolbar to highlight all the editable fields on the form.</p>
+<p><img src="../../../../images/eurd-win-EForm-Preview-Editing-Fields.png" alt="eForm-report-result"></p>
+<p>Click a field to invoke its editor. </p>
+<p><img src="../../../../images/eurd-win-eform-result.png" alt="eForm-report-result"></p>
+<p>Use TAB and SHIFT+TAB to navigate between editable fields.</p>
 </article>
           </div>
           
@@ -127,7 +148,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/18.1/interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/create-popular-reports/create-an-interactive-e-form.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/master/interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/create-popular-reports/create-an-interactive-e-form.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

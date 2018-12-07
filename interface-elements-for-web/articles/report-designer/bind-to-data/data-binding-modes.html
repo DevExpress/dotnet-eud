@@ -1,0 +1,198 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Data Binding Modes | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Data Binding Modes | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.37.0.0">
+    
+    <link rel="shortcut icon" href="../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../index.html">
+                <img id="logo" class="svg" src="../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="data-binding-modes">Data Binding Modes</h1>
+
+<p>The Report Designer uses one of the following modes to provide dynamic content to your reports: expression bindings or standard data bindings.</p>
+<h2 id="expressions">Expression Bindings</h2>
+<p>Expression bindings enable you to use complex <a href="../use-expressions.html">expressions</a> that include two or more fields and various functions. Expressions also allow you to calculate complex summaries without scripts and conditionally shape your data without formatting rules.</p>
+<p>This mode is enabled in the Report Designer if it provides the <a href="../report-designer-tools/ui-panels/expressions-panel.html">Expressions</a> <img src="../../../images/eurd-web-expressions-panel-icon.png" alt=""> panel.</p>
+<p><img src="../../../images/eurd-web-property-grid-expression-bindings-mode.png" alt=""></p>
+<h2 id="databindings"> Data Bindings</h2>
+<p>Standard data bindings enable you to assign a single data field to a report control or use <a href="../report-designer-tools/script-editor.html">report scripts</a> to provide custom logic.</p>
+<p>This mode is enabled in the Report Designer if it does not provide the <a href="../report-designer-tools/ui-panels/expressions-panel.html">Expressions</a> <img src="../../../images/eurd-web-expressions-panel-icon.png" alt=""> panel.</p>
+<p><img src="../../../images/eurd-web-property-grid-data-bindings-mode.png" alt=""></p>
+<h2 id="dialog">Conversion Dialog</h2>
+<p>The following dialog appears only when <a href="#expressions">expression bindings</a> are enabled in the Report Designer, and you <a href="../open-reports.html">open an existing report</a> that uses standard <a href="#databindings">data bindings</a>:</p>
+<p><img src="../../../images/eurd-web-bindings-to-expressions-conversion-dialog.png" alt=""></p>
+<p>This dialog prompts you to convert your report to use expressions (the new binding mechanism). Click <strong>Yes</strong> to run the report conversion, click <strong>No</strong> to open the report without changes.</p>
+<p>See the section below for information on how to use expressions instead of data bindings.</p>
+<h2 id="comparison">Binding Mode Comparison</h2>
+<h3 id="bind-to-a-single-data-field"><strong>Bind to a Single Data Field</strong></h3>
+<ul>
+<li><p>The <a href="../report-designer-tools/ui-panels/field-list.html">Field List</a> panel allows you to drop fields onto the design surface or existing report controls. All binding ways are identical in the <strong>data bindings</strong> and <strong>expression bindings</strong> modes. </p>
+<p>  <img src="../../../images/eurd-web-field-list-drop-fields.png" alt=""></p>
+</li>
+<li><p>You can select a report control and bind it to data in the <a href="../report-designer-tools/ui-panels/properties-panel.html">Properties</a> panel.</p>
+  <table><tr><th><p>Expression Bindings</p>
+  </th><th><p>Data Bindings</p>
+  </th></tr><tr><td>
+  <p>Switch to the <a class="xref" href="../report-designer-tools/ui-panels/expressions-panel.html"> Expressions</a> panel, click the <strong>Text</strong> property&#39;s ellipsis button and specify the expression.</p>
+
+  <p><img src="../../../images/eurd-web-property-grid-expression-binding.png"></p>
+  </td><td><p>Expand the <strong>Data Bindings</strong> drop-down list and select a data field.</p>
+  <p><img src="../../../images/eurd-web-property-grid-text-data-binding.png"></p>
+  </td>
+  </tr></table>
+
+
+
+</li>
+</ul>
+<p>See the following topics for more information:</p>
+<ul>
+<li><a href="bind-controls-to-data-expression-bindings.html">Bind Report Controls to Data (Expression Bindings)</a></li>
+<li><a href="bind-controls-to-data-data-bindings.html">Bind Report Controls to Data (Data Bindings)</a></li>
+</ul>
+<h3 id="bind-to-multiple-data-fields"><strong>Bind to Multiple Data Fields</strong></h3>
+<table><tr><th><p>Expression Bindings</p>
+</th><th><p>Data Bindings</p>
+</th></tr><tr><td><p>Use the <a class="xref" href="use-embedded-fields-mail-merge.html">mail merge</a> functionality.</p>
+<p><img src="../../../images/eurd-web-binding-modes-mail-merge.png"></p>
+<p>Switch to the <a class="xref" href="../report-designer-tools/ui-panels/expressions-panel.html"> Expressions</a> panel, click the <strong>Text</strong> property&#39;s ellipsis button and specify the expression.</p>
+<p><img src="../../../images/eurd-web-expression-binding-multiple-fields.png"></p>
+</td><td><p>Use the <a class="xref" href="use-embedded-fields-mail-merge.html">mail merge</a> functionality.</p>
+<p><img src="../../../images/eurd-web-binding-modes-mail-merge.png"></p>
+</td>
+</tr></table>
+
+<h3 id="calculate-summary"><strong>Calculate Summary</strong></h3>
+<table><tr><th><p>Expression Bindings</p>
+</th><th><p>Data Bindings</p>
+</th></tr><tr><td><p> Select the summary function in the <strong>Expression Editor</strong>&#39;s <strong>Summary</strong> section. </p>
+<p>All functions has the &#39;sum&#39; prefix.</p>
+<p><img src="../../../images/eurd-web-expression-binding-summary-function.png"></p>
+<p>See <a class="xref" href="../shape-report-data/shape-data-expression-bindings/calculate-a-summary.html">Calculate a Summary</a> for more information.</p>
+</td><td><p>Expand the <strong>Summary</strong> node in the <strong>Actions</strong> category and select the summary function in the <strong>Function</strong> drop-down list.</p>
+<p><img src="../../../images/eurd-web-data-binding-summary-function.png"></p>
+<p>See <a class="xref" href="../shape-report-data/shape-data-data-bindings/calculate-a-summary.html">Calculate a Summary</a> for more information.</p>
+</td>
+</tr></table>
+
+<h3 id="complex-bindings-custom-summary"><strong>Complex Bindings, Custom Summary</strong></h3>
+<table><tr><th><p>Expression Bindings</p>
+</th><th><p>Data Bindings</p>
+</th></tr><tr><td><p>Use the <strong>Expression Editor</strong> to construct an <a class="xref" href="../use-expressions.html">expression</a> of any complexity.</p>
+<p><img src="../../../images/eurd-web-label-advanced-summary-expression.png"></p>
+<p>Refer to <a class="xref" href="../shape-report-data/shape-data-expression-bindings/calculate-an-advanced-summary.html">Calculate an Advanced Summary</a> for an example.</p>
+</td><td><p>Use <a class="xref" href="../report-designer-tools/script-editor.html">report scripts</a>.</p>
+<p>Refer to <a class="xref" href="../shape-report-data/shape-data-data-bindings/calculate-a-custom-summary.html">Calculate a Custom Summary</a> for an example.</p>
+</td>
+</tr></table>
+
+<h3 id="conditionally-customize-appearance"><strong>Conditionally Customize Appearance</strong></h3>
+<table><tr><th><p>Expression Bindings</p>
+</th><th><p>Data Bindings</p>
+</th></tr><tr><td><p>Switch to the <a class="xref" href="../report-designer-tools/ui-panels/expressions-panel.html"> Expressions</a> panel, click the <strong>Style Name</strong> property&#39;s ellipsis button and specify the expression.</p>
+<p><img src="../../../images/eurd-web-shaping-style-name-expression.png"></p>
+<p>Refer to <a class="xref" href="../shape-report-data/shape-data-expression-bindings/conditionally-change-a-control-appearance.html">Conditionally Change a Control Appearance</a> for an example.</p>
+</td><td><p>Create formatting rules and assign them to report controls.</p>
+<p><img src="../../../images/eurd-web-shaping-formattin-rule-appearance-settings.png"></p>
+<p>Refer to <a class="xref" href="../shape-report-data/shape-data-data-bindings/conditionally-change-a-control-appearance.html">Conditionally Change a Control Appearance</a> for an example.</p>
+</td>
+</tr></table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/master/interface-elements-for-web/articles/report-designer/bind-to-data/data-binding-modes.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2018 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../styles/main.js"></script>
+  </body>
+</html>

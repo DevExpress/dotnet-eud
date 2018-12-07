@@ -87,7 +87,7 @@
 <p><img src="../../../../../images/eurd-win-calculated-field-drop-onto-band.png" alt=""></p>
 <p>You can also group and sort your report data based on the calculated field values.</p>
 <h2 id="syntax">Expression Syntax</h2>
-<p>A data field is inserted into the expression&#39;s text using its name in <strong>[</strong>square brackets<strong>]</strong>, and parameters are inserted using the &quot;<strong>Parameters.</strong>&quot; prefix before their names.</p>
+<p>A data field is inserted into the expression&#39;s text using its name in <strong>[</strong>square brackets<strong>]</strong>, and parameters are inserted using a question mark before their names.</p>
 <p>A calculated field&#39;s expression can evaluate the values of other calculated fields if you make sure to avoid circular references.</p>
 <div class="NOTE"><h5>Note</h5><p>When creating calculated fields, avoid dots in their names, because reports use them to address data source members.</p>
 </div>
@@ -95,7 +95,7 @@
 <p>To embed an apostrophe into an expression&#39;s text, it should be preceded by another apostrophe (e.g., <strong>&#39;It&#39;&#39;s sample text&#39;</strong>).</p>
 <p>The type of a value returned by a calculated field is defined by its <strong>Field Type</strong> property.</p>
 <p>If a calculated field expression involves the use of different types, it is necessary to convert them to the same type (e.g., <strong>Max(ToDecimal([Quantity]),[UnitPrice])</strong>)</p>
-<p>Although a value that is returned by a calculated field is usually converted to a string (to be displayed in a text-aware report control), it can return a value of any kind. For example, if a database field contains an image, you can set a calculated field&#39;s expression to &quot;=...&quot;, after which this calculated field can be bound to the <a href="../../use-report-elements/use-basic-report-controls/picture-box.html">Pucture Box</a> control.</p>
+<p>Although a value that is returned by a calculated field is usually converted to a string (to be displayed in a text-aware report control), it can return a value of any kind. For example, if a database field contains an image, you can set a calculated field&#39;s expression to &quot;=...&quot;, after which this calculated field can be bound to the <a href="../../use-report-elements/use-basic-report-controls/picture-box.html">Picture Box</a> control.</p>
 <p>To construct a valid aggregate expression, use the following format, which consists of four parts.</p>
 <p><em>[&lt;Collection&gt;][&lt;Condition&gt;].&lt;Aggregate&gt;(&lt;Expression&gt;)</em></p>
 <ul>
@@ -122,7 +122,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/18.1/interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/shape-report-data/use-calculated-fields/calculated-fields-overview.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/master/interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/shape-report-data/use-calculated-fields/calculated-fields-overview.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

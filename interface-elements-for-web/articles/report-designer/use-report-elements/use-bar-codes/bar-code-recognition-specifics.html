@@ -1,0 +1,146 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Bar Code Recognition Specifics | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Bar Code Recognition Specifics | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.37.0.0">
+    
+    <link rel="shortcut icon" href="../../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../../index.html">
+                <img id="logo" class="svg" src="../../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="bar-code-recognition-specifics">Bar Code Recognition Specifics</h1>
+
+<p>This document describes the main specifics of bar code recognition and how to resolve the most frequently encountered issues when working with bar codes.</p>
+<h2 id="choose-an-appropriate-bar-code-type">Choose an Appropriate Bar Code Type</h2>
+<p>Selecting an appropriate bar code type (symbology) depends on your specific business requirements and the applied industrial standards.</p>
+<p>In general, consider using <a href="interleaved-2-of-5.html">Bar Code 2 of 5 Interleaved</a> for encoding digits and <a href="code-39-usd-3.html">Bar Code 39</a> for encoding the full range of ASCII characters.</p>
+<h2 id="insert-the-function-code-one-character-fnc1-or-the-application-identifier-into-a-bar-code">Insert the Function Code One Character (FNC1) or the Application Identifier into a Bar Code</h2>
+<p>Some encodings enable you to insert a special <strong>FNC1</strong> character for separating application identifiers from the rest of the bar code.</p>
+<p>According to the <strong>GS1</strong> specification, the <strong>FNC1</strong> character is always inserted at the first position of the encoded data. Other identifiers can be inserted manually using the default &quot;<strong>#</strong>&quot; character.</p>
+<p>Although you can use any ASCII character as the <strong>FNC1</strong> placeholder, it will not be a part of the encoded data as it does not have any direct ASCII representation.</p>
+<div class="NOTE"><h5>Note</h5><p>For the <a href="code-128.html">Code 128</a> symbology, only <strong>FNC1</strong> characters are currently supported. At present, there is no way to define <strong>FNC2</strong> - <strong>4</strong> characters for this bar code.</p>
+</div>
+<p>For the list of the available application identifiers, refer to the official documentation at <a href="http://www.gs1.org/">www.gs1.org</a>.</p>
+<h2 id="specify-the-bar-code-resolution-on-export-to-third-party-formats">Specify the Bar Code Resolution on Export to Third-Party Formats</h2>
+<p>At present, only <a href="../../../document-viewer/html5-document-viewer/exporting/pdf-specific-export-options.html">export to PDF</a> preserves the original bar code in its vector form. Export to other formats will keep only the rasterized version of a bar code (with the default DPI set to <strong>96</strong>).</p>
+<p>For <a href="../../../document-viewer/html5-document-viewer/exporting/xlsx-specific-export-options.html">XLSX</a> and <a href="../../../document-viewer/html5-document-viewer/exporting/xls-specific-export-options.html">XLS</a> export, the output resolution can be set up manually using the <strong>Rasterization Resolution</strong> property.</p>
+<h2 id="common-issues">Common Issues</h2>
+<p>This document section provides solutions to the most common issues that you may encounter when creating bar codes.</p>
+<ul>
+<li><p><strong>The bar code is too &quot;dense&quot;</strong></p>
+<p>  The more information you wish to encode, the more bars should be drawn and the larger the bar code should become.</p>
+<p>  The bar code&#39;s <strong>Module</strong> property specifies the width of the narrowest bar in a bar code. Although you can set this property to a very small value, the actual value is determined by the maximum resolution of your bar code printer device. Alternatively, consider using the <strong>Auto Module</strong> option to automatically calculate the optimal bar size based on the current bar code dimensions.</p>
+<div class="NOTE"><h5>Note</h5><p>When bar codes are &quot;dense&quot; and you are manually specifying the Module value, make sure that multiplying this value by the bar code printer resolution results in an integer number. Otherwise, rounding errors may occur on calculating the resulting bar width.</p>
+<p>For example, when the Module is set to <strong>0.015</strong> inches and the printer resolution is <strong>300</strong> DPI, their product equals <strong>4.5</strong>, which may be rounded to <strong>4</strong> or <strong>5</strong> pixels for different bars and result in bar code recognition errors. In this case, the Module property should be set to <strong>0.01333</strong> (to make the bar width equal to <strong>4</strong> pixels) or to <strong>0.01667</strong> (to make the bar width equal to <strong>5</strong> pixels).</p>
+</div>
+</li>
+<li><p><strong>The bar code is correctly displayed on the preview but it is not scanned</strong></p>
+<p>  Make sure that your scanner has been correctly set up to be able to recognize a specific kind of a bar code. If you are not certain about how to operate the scanner properly, please refer to its product manual.</p>
+<p>  Avoid scanning bar codes from the monitor screen (e.g., using an application installed on your smartphone), because the screen DPI may not be sufficient to effectively recognize each particular bar.</p>
+</li>
+<li><p><strong>The bar code is correctly displayed on the preview but it is scanned incorrectly</strong></p>
+<p>  The cause for this problem may be an encoding issue specific to the &quot;binary&quot; input mode.</p>
+<p>  By default, the <strong>UTF-16</strong> encoding is used. However, your scanner device may use a different encoding model or even a codepage (i.e., a specific table that maps abstract values to real human-understandable characters). For additional information on this subject, please refer to the specification of your scanner device.</p>
+</li>
+<li><p><strong>The &quot;There are invalid characters in the text&quot; error occurs</strong></p>
+<p>  Different bar code symbologies define different ranges of allowed characters under different character sets. To avoid this error, please check the bar code specification.</p>
+</li>
+</ul>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/master/interface-elements-for-web/articles/report-designer/use-report-elements/use-bar-codes/bar-code-recognition-specifics.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2018 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../../styles/main.js"></script>
+  </body>
+</html>

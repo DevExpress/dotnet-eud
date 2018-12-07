@@ -69,16 +69,22 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="mail-merge">Mail Merge</h1>
 
-<p>Document fields are special placeholders for non-static data that might change (be updated on a field update). These placeholders are replaced with actual data when the document is rendered for display or printing. The default <strong>Mail Merge</strong> tab can be used to work with fields (create, update, switch between field display modes).</p>
-<p>To insert a field, position the mouse cursor within a document and select the <strong>Create Field</strong> button in the <strong>Mail Merge</strong> tab (or use the <strong>Ctrl+F9</strong> shortcut). Field codes appear between curly brackets ( { } ).</p>
+<p>Document fields are placeholders for non-static data that can change (updated on a field update). These placeholders are replaced with actual data when the document is rendered. Use buttons in the <strong>Mail Merge</strong> tab to manage these fields.</p>
+<p>To insert a field, place the mouse cursor in a document and click the <strong>Create Field</strong> button in the <strong>Mail Merge</strong> tab (or press CTRL+F9).</p>
 <p><img src="../../images/img118711.png" alt="EUD_ASPxRichEdit_MailMerge_CreateField"></p>
-<p>The following field codes are supported:</p>
-<p><strong>DATE</strong> - Inserts the current date and time.</p>
-<p><strong>TIME</strong> - Inserts the current time.</p>
-<p><strong>DOCVARIABLE</strong> - Enables you to programmatically insert complex content when this field is updated.</p>
-<p><strong>HYPERLINK</strong> - Enables you to navigate to another location or to a bookmark.</p>
-<p><strong>NUMPAGES</strong> - Inserts the total number of pages.</p>
-<p><strong>PAGE</strong> - Inserts the number of the page containing the field.</p>
+<p>You can use the following field codes:</p>
+<ul>
+<li><strong>DATE</strong> - Inserts the current date and time.</li>
+<li><strong>TIME</strong> - Inserts the current time.</li>
+<li><strong>PAGE</strong> - Inserts the number of the page containing the field.</li>
+<li><strong>NUMPAGES</strong> - Inserts the total number of pages.</li>
+<li><strong>MERGEFIELD</strong> - Inserts a field merged with a data source.</li>
+<li><strong>DOCVARIABLE</strong> - Enables you to programmatically insert complex content when this field is updated.</li>
+</ul>
+<p>The <strong>Show All Field Codes</strong> button displays field codes for all the fields in the document.</p>
+<p>The <strong>Show All Field Results</strong> button displays field results for all the fields in the document.</p>
+<p>Fields should be updated to calculate a field result. Fields are updated automatically when the document is saved or printed. </p>
+<p>Click the <strong>Update All Fields</strong> button to update fields, or select a field(s) and press F9.</p>
 </article>
           </div>
           
@@ -87,7 +93,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/18.1/interface-elements-for-web/articles/rich-text-editor/mail-merge.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/master/interface-elements-for-web/articles/rich-text-editor/mail-merge.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

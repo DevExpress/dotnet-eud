@@ -70,8 +70,8 @@
 <h1 id="conditionally-filter-report-data">Conditionally Filter Report Data</h1>
 
 <p>This document describes how to filter a report&#39;s data based on a specific condition.</p>
-<div class="WARNING"><h5>Warning</h5><p>Use the approach below if expression bindings <strong>are enabled</strong> in the Report Designer (the <a href="../../report-designer-tools/ui-panels/property-grid.html">Property Grid</a> provides the <strong>Expressions</strong> <img src="../../../../../images/eurd-win-property-grid-expressions-icon.png" alt=""> tab ).</p>
-<p>See <a href="../shape-data-data-bindings/conditionally-filter-report-data.html">Conditionally Filter Report Data</a> if expression bindings <strong>are not enabled</strong> in the Report Designer (the <a href="../../report-designer-tools/ui-panels/property-grid.html">Property Grid</a> does not provide the <strong>Expressions</strong> <img src="../../../../../images/eurd-win-property-grid-expressions-icon.png" alt=""> tab).</p>
+<div class="WARNING"><h5>Warning</h5><p>Use the approach below if expression bindings <strong>are enabled</strong> in the Report Designer (the <a href="../../report-designer-tools/ui-panels/property-grid.html">Property Grid</a> provides the <strong>PropertyName Expression</strong> item in the property marker&#39;s context menu).</p>
+<p>See <a href="../shape-data-data-bindings/conditionally-filter-report-data.html">Conditionally Filter Report Data</a> if expression bindings <strong>are not enabled</strong> in the Report Designer.</p>
 </div>
 <ol>
 <li><p>Switch to the <a href="../../report-designer-tools/ui-panels/field-list.html">Field List</a>, right-click the <strong>Parameters</strong> section and add a new report parameter.</p>
@@ -80,12 +80,12 @@
 <li><p>Specify the parameter&#39;s description in Print Preview and set its type to <strong>Number (Integer)</strong>.</p>
 <p> <img src="../../../../../images/eurd-win-shaping-filter-parameter-settings.png" alt=""></p>
 </li>
-<li><p>Select the report&#39;s detail band and switch it to the <a href="../../report-designer-tools/ui-panels/property-grid.html">Property Grid</a>. Navigate to its <strong>Expressions</strong> tab and click the <strong>Visible</strong> property&#39;s ellipsis button.</p>
+<li><p>Select the report&#39;s detail band and switch it to the <a href="../../report-designer-tools/ui-panels/property-grid.html">Property Grid</a>. Navigate to its <strong>Behavior</strong> tab, click the <strong>Visible</strong> property&#39;s marker and select <strong>Visible Expression</strong> in the context menu.</p>
 <p> <img src="../../../../../images/eurd-win-shaping-filter-visible-property.png" alt=""></p>
 </li>
 <li><p>In the invoked <strong>Expression Editor</strong>, specify the required visibility condition. For example:</p>
 <p> <img src="../../../../../images/eurd-win-shaping-filter-expression.png" alt=""></p>
-<p> The expression above makes the <strong>Visible</strong> property return <strong>True</strong> or <strong>False</strong> depending on whether the field value is below the specified parameter value.</p>
+<p> The expression above enables/disables the <strong>Visible</strong> property depending on whether the field value is below the specified parameter value.</p>
 </li>
 </ol>
 <p>Switch to <a href="../../preview-print-and-export-reports.html">Print Preview</a> to see the result. </p>
@@ -98,7 +98,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/18.1/interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/shape-report-data/shape-data-expression-bindings/conditionally-filter-report-data.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/master/interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/shape-report-data/shape-data-expression-bindings/conditionally-filter-report-data.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

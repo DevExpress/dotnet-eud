@@ -1,0 +1,269 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Create an Invoice Manually | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Create an Invoice Manually | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.37.0.0">
+    
+    <link rel="shortcut icon" href="../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../index.html">
+                <img id="logo" class="svg" src="../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="create-an-invoice-manually">Create an Invoice Manually</h1>
+
+<p>This tutorial describes how to create a simple invoice report displaying information about customers and their orders. You can perform similar steps to create various invoice layouts depending on your requirements.</p>
+<p><img src="../../../images/eurd-web-invoice-report-result.png" alt=""></p>
+<h2 id="create-a-report-and-bind-it-to-data">Create a Report and Bind It to Data</h2>
+<ol>
+<li><p><a href="../add-new-reports.html">Create a new report</a> or <a href="../open-reports.html">open an existing one</a>.</p>
+</li>
+<li><p>Invoke the designer <a href="../report-designer-tools/menu.html">menu</a> and click <strong>Add SQL Data Source...</strong>.</p>
+<p><img src="../../../images/eurd-web-add-sql-data-source-menu.png" alt=""> </p>
+</li>
+<li><p>Select a data connection on the <a href="../report-designer-tools/sql-data-source-wizard.html">SQL Data Source Wizard</a>&#39;s first page and click <strong>Next</strong>.</p>
+<p> <img src="../../../images/eurd-web-invoice-select-data-connection-in-wizard.png" alt=""></p>
+</li>
+<li><p>On the next page, you can choose which tables, views and/or stored procedures to add to the report.</p>
+<p> Obtain data from two different tables to display information about customers and orders at the same hierarchical level in the report. Click the plus button for the <strong>Queries</strong> category to create a custom query. In the invoked <a href="../report-designer-tools/query-builder.html">Query Builder</a>, add the required data tables to a query and join them based on a key column.</p>
+<p> <img src="../../../images/eurd-web-invoice-join-tables-in-query-builder.png" alt=""></p>
+</li>
+<li><p>On the same wizard page, select the data view providing order details for listing products included in each order in the invoice and click <strong>Next</strong>. </p>
+<p> <img src="../../../images/eurd-web-invoice-add-view.png" alt=""></p>
+</li>
+<li><p>Click <strong>Next</strong> on the <strong>Configure query parameters</strong> page to skip this step.</p>
+</li>
+<li><p>On the next page, specify a master-detail relationship between the queries. Select the required key fields (columns) to connect tables.</p>
+<p> <img src="../../../images/eurd-web-invoice-master-detail-relationships.png" alt=""></p>
+</li>
+<li><p>Click <strong>Finish</strong> to complete the wizard.</p>
+</li>
+</ol>
+<p>After these steps, make sure that an appropriate data member is assigned to the report.</p>
+<p><img src="../../../images/eurd-web-invoice-report-data-member.png" alt=""></p>
+<h2 id="prepare-the-master-report-layout">Prepare the Master Report Layout</h2>
+<p>Create the master report layout to display basic information about customers and their orders.</p>
+<ol>
+<li><p>Switch to the <a href="../report-designer-tools/ui-panels/field-list.html">Field List</a> and drop the required data fields onto the <a href="../introduction-to-banded-reports.html">Detail band</a>. New controls of appropriate types are automatically created and bound to the corresponding fields.</p>
+<p> <img src="../../../images/eurd-web-invoice-master-layout-dynamic-fields.png" alt=""></p>
+</li>
+<li><p>Drop <a href="../use-report-elements/use-basic-report-controls/label.html">Label</a> controls from the <a href="../report-designer-tools/toolbox.html">Toolbox</a> onto the band to display static captions for specific data fields.</p>
+<p> <img src="../../../images/eurd-web-invoice-master-layout-static-labels.png" alt=""></p>
+</li>
+<li><p>Double-click the added labels one after another and enter the required text.</p>
+<p> <img src="../../../images/eurd-web-invoice-master-layout-specify-static-text.png" alt=""></p>
+</li>
+<li><p>Use the <a href="../use-report-elements/draw-lines-and-shapes/draw-lines.html">Line</a> control to separate data.</p>
+<p> <img src="../../../images/eurd-web-invoice-master-layout-add-line.png" alt=""></p>
+</li>
+</ol>
+<h2 id="prepare-the-detail-report-layout">Prepare the Detail Report Layout</h2>
+<p>Perform the following steps to create a detail report and construct its layout to show the order details in a tabular form:</p>
+<ol>
+<li><p>Expand the <strong>Actions</strong> category and click <strong>Insert Detail Report Band</strong> to create a <a href="../introduction-to-banded-reports.html">Detail Report Band</a>.</p>
+<p> <img src="../../../images/eurd-web-invoice-insert-detail-report.png" alt=""></p>
+</li>
+<li><p>Select the Detail Report band and select the master-detail relationship&#39;s name in the <strong>Data Member</strong> property&#39;s drop-down list.</p>
+<p> <img src="../../../images/eurd-web-invoice-bind-detail-report.png" alt=""></p>
+</li>
+<li><p>Add dynamic content to the detail report. Go to the <strong>Field List</strong>, select the data fields while holding down CTRL or SHIFT and drag-and-drop them onto the Detail band. This automatically creates a <a href="../use-report-elements/use-tables.html">Table</a> control with table cells bound to the corresponding fields.</p>
+<p> You should drag-and-drop fields from the category corresponding to the master-detail relationship to correctly generate the detail report&#39;s data.</p>
+<p> <img src="../../../images/eurd-web-invoice-detail-layout-add-dynamic-table.png" alt=""></p>
+</li>
+<li><p>Add the Group Header band to the detail report to display captions for table columns. Select the Detail Report band and click <strong>Insert Group Header Band</strong> in the <strong>Actions</strong> category.</p>
+<p> <img src="../../../images/eurd-web-invoice-insert-group-header-band.png" alt=""></p>
+</li>
+<li><p>To create column headers, drop the <a href="../use-report-elements/use-tables/table-overview.html">Table</a> control from the <strong>Toolbox</strong> onto the Group Header band and enter the required text in the table&#39;s cells.</p>
+<p> <img src="../../../images/eurd-web-invoice-detail-layout-add-table-headers.png" alt=""></p>
+</li>
+<li><p>Select the Detail Report band, expand the <strong>Behavior</strong> category and set the band&#39;s <strong>Page Break</strong> property to <strong>After the Band</strong> to print each order on a separate page.</p>
+<p> <img src="../../../images/eurd-web-invoice-detail-report-page-break.png" alt=""></p>
+</li>
+</ol>
+<h2 id="create-a-calculated-field">Create a Calculated Field</h2>
+<p>This section demonstrates how to create a <a href="../shape-report-data/use-calculated-fields.html">custom field</a> whose values are calculated using a pre-defined expression.</p>
+<p>Do the following to evaluate an extended price based on the price, quantity and discount values obtained from a database:</p>
+<ol>
+<li><p>In the <a href="../report-designer-tools/ui-panels/field-list.html">Field List</a>, select the detail table and click <strong>Add calculated field</strong>.</p>
+<p> <img src="../../../images/eurd-web-invoice-add-calculated-field.png" alt=""></p>
+</li>
+<li><p>Click the <strong>Edit</strong> button for the calculated field and change its name to <strong>ExtendedPrice</strong>. Click the <strong>Expression</strong> property&#39;s ellipsis button, and in the invoked <a href="../report-designer-tools/expression-editor.html">Expression Editor</a>, construct the expression based on the <strong>UnitPrice</strong>, <strong>Quantity</strong> and <strong>Discount</strong> fields.</p>
+<p> <img src="../../../images/eurd-web-invoice-calculated-field-expression.png" alt=""></p>
+</li>
+<li><p>You can use the created calculated field as an ordinary data field. Add a cell to a table in the Detail band and drop the calculated field onto this cell. Additionally, create one more table cell in the Group Header for displaying the corresponding caption.</p>
+<p> <img src="../../../images/eurd-web-invoice-drop-calculated-field-onto-report.png" alt=""></p>
+</li>
+</ol>
+<h2 id="format-data">Format Data</h2>
+<p>The next step is to specify report elements&#39; <a href="../shape-report-data/shape-data-expression-bindings/format-data.html">value formatting</a> to improve displaying their incoming data.</p>
+<ol>
+<li><p>In the master report&#39;s Detail band, select controls bound to date fields while holding down CTRL. Switch to the <a href="../report-designer-tools/ui-panels/properties-panel.html">Properties</a> panel, expand the <strong>Data</strong> category and click the <strong>Text Format String</strong> property&#39;s ellipsis button. In the invoked <strong>Format String Editor</strong>, activate the <strong>DateTime</strong> category and select the format, for example, display dates as a month (name) followed by the day (number) and year (four digits).</p>
+<p> <img src="../../../images/eurd-web-invoice-format-date-fields.png" alt=""></p>
+</li>
+<li><p>Select the table cell bound to the <strong>Discount</strong> data field in the detail report&#39;s Detail band. Expand the <strong>Actions</strong> category, click the <strong>Text Format String</strong> property&#39;s ellipsis button, and in the invoked <strong>Format String Editor</strong>, apply the <strong>Percent</strong> format. In this case, field values are multiplied by 100 and displayed with a percent symbol.</p>
+<p> <img src="../../../images/eurd-web-invoice-format-discount-field.png" alt=""></p>
+</li>
+<li><p>In the detail report&#39;s Detail band, select the cells bound to the <strong>UnitPrice</strong> and <strong>ExtendedPrice</strong> fields. Invoke the <strong>Format String Editor</strong> once again and choose the format preset from the <strong>Currency</strong> category (for instance, <strong>c2</strong>).</p>
+</li>
+</ol>
+<h2 id="calculate-a-summary">Calculate a Summary</h2>
+<p>Do the following to calculate a total price for each order as a sum of <strong>Extended Price</strong> values:</p>
+<ol>
+<li><p>Add the Group Footer band to the detail report in the same way as the Group Header.</p>
+</li>
+<li><p>Drop the Label control onto the added band and expand the <strong>Actions</strong> category in the Properties panel. Select the <strong>Summary</strong> section and set the <strong>Running</strong> property to <strong>Report</strong> to calculate the summary for the entire detail report and click the <strong>Expression</strong> property&#39;s ellipsis button. In the invoked <a href="../report-designer-tools/expression-editor.html">Expression Editor</a>, specify the following expression to calculate the total price:</p>
+<p> <img src="../../../images/eurd-web-invoice-specify-summary-function.png" alt=""></p>
+</li>
+<li><p>Use the <strong>Text Format String</strong> property to format the summary&#39;s value (for instance, set it to <strong>Total: {0:c2}</strong>).</p>
+<p> <img src="../../../images/eurd-web-invoice-summary-format-string.png" alt=""></p>
+</li>
+</ol>
+<h2 id="sort-data">Sort Data</h2>
+<p>Perform the following steps to sort data in the detail report:</p>
+<ol>
+<li><p>Select the <strong>Detail</strong> band in the detail report. Select the <strong>Sort Fields</strong> section in the <strong>Actions</strong> category and add a new sort field to sort the detail report&#39;s data by the required data field.</p>
+<p> <img src="../../../images/eurd-web-invoice-sort-data.png" alt=""></p>
+</li>
+<li><p>Click the <img src="../../../images/eurd-web-order-ascending.png" alt=""> or <img src="../../../images/eurd-web-order-descending.png" alt=""> buttons to define the sort order within the group (ascending or descending). Use the <img src="../../../images/eurd-web-disable-sorting.png" alt=""> button to disable sorting in grouped data.</p>
+</li>
+</ol>
+<h2 id="customize-the-report-appearance">Customize the Report Appearance</h2>
+<p>Do the following to customize the report and its elements&#39; appearance:</p>
+<ol>
+<li><p>Click the gray area around the design surface to select the report, and in the <a href="../report-designer-tools/ui-panels/properties-panel.html">Properties</a> panel, specify the font settings. These settings are distributed to all report elements.</p>
+<p> <img src="../../../images/eurd-web-invoice-report-appearance-properties.png" alt=""></p>
+</li>
+<li><p>You can adjust a control&#39;s font independently from its parent (for instance, make summary values bold).</p>
+<p> <img src="../../../images/eurd-web-invoice-report-control-appearance-properties.png" alt=""></p>
+</li>
+<li><p>Change specific controls&#39; (bound to date fields, price fields, etc.) text alignment using the <strong>Text Alignment</strong> property.</p>
+<p> <img src="../../../images/eurd-web-invoice-report-control-text-alignment.png" alt=""></p>
+</li>
+<li><p>Create a global <a href="../customize-appearance/report-visual-styles.html">visual style</a> to apply it afterwards to multiple controls. Switch to the <a href="../report-designer-tools/ui-panels/report-explorer.html">Report Explorer</a> panel, select the <strong>Styles</strong> node and click the plus button <img src="../../../images/eurd-web-styles-create.png" alt=""> to add a new report visual style.</p>
+<p> <img src="../../../images/eurd-web-invoice-add-style.png" alt=""></p>
+</li>
+<li><p>Select the created style and click the <strong>Properties</strong> <img src="../../../images/eurd-web-styles-edit.png" alt=""> button in the Report Explorer. This opens the Properties panel where you can adjust the settings of the selected style.</p>
+<p> <img src="../../../images/eurd-web-invoice-report-style-settings.png" alt=""></p>
+</li>
+<li><p>Select report elements, expand the <strong>Styles</strong> category and choose a style in the <strong>Style</strong> property&#39;s drop-down list to apply the style to the selected elements.</p>
+<p> <img src="../../../images/eurd-web-invoice-apply-report-style.png" alt=""></p>
+</li>
+<li><p>You can provide different appearances to alternating (odd and even) table rows in the detail report. Select the table and expand the <strong>Styles</strong> property in the Property Grid. Invoke the drop-down list for the <strong>EvenStyle</strong> property and select <strong>New</strong>.</p>
+<p> <img src="../../../images/eurd-web-invoice-create-even-style.png" alt=""></p>
+<p> Specify the created style&#39;s appearance settings (for example, background color).</p>
+</li>
+</ol>
+<h2 id="add-additional-information">Add Additional Information</h2>
+<p>Do the following to provide additional information to your invoices, such as the report name and current date:</p>
+<ol>
+<li><p>Add the Page Header band to the master report to display the required information on each invoice page.</p>
+</li>
+<li><p>Drop the Label control from the <strong>Toolbox</strong> onto the Page Header, double-click the control and type &quot;<strong>Invoice</strong>&quot;. Specify the required appearance settings (font, foreground color, etc.).</p>
+<p> <img src="../../../images/eurd-web-invoice-page-header-report-name.png" alt=""></p>
+</li>
+<li><p>Add the <a href="../use-report-elements/use-basic-report-controls/page-info.html">Page Info</a> control to the Page Header band to display system date in the report.</p>
+<p> <img src="../../../images/eurd-web-invoice-add-page-info.png" alt=""></p>
+</li>
+<li><p>Expand the <strong>Actions</strong> category and set the <strong>Page Information</strong> property to <strong>Current Date and Time</strong>. Click the <strong>Text Format String</strong> property&#39;s ellipsis button, and in the invoked <strong>Format String Editor</strong>, select a date format as in the <strong>Format Data</strong> section above.</p>
+<p> <img src="../../../images/eurd-web-invoice-page-info-text-format-string.png" alt=""></p>
+</li>
+</ol>
+<h2 id="view-the-result">View the Result</h2>
+<p>The invoice report is now ready. Switch to <a href="../preview-print-and-export-reports.html">Print Preview</a> to see the result.</p>
+<p><img src="../../../images/eurd-web-invoice-report-result.png" alt=""></p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/master/interface-elements-for-web/articles/report-designer/create-popular-reports/create-an-invoice-manually.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2018 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../styles/main.js"></script>
+  </body>
+</html>
