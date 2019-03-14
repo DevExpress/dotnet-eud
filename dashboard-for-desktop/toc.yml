@@ -133,6 +133,8 @@
           href: articles/dashboard-designer/designing-dashboard-items/grid/columns/column-type-overview.md
         - name: Dimension Column
           href: articles/dashboard-designer/designing-dashboard-items/grid/columns/dimension-column.md
+        - name: Hyperlink Column
+          href: articles/dashboard-designer/designing-dashboard-items/grid/columns/hyperlink-column.md
         - name: Measure Column
           href: articles/dashboard-designer/designing-dashboard-items/grid/columns/measure-column.md
         - name: Delta Column
