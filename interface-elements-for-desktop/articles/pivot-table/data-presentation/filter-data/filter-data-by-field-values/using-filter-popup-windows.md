@@ -1,12 +1,29 @@
 ---
-title: Using Filter Popup Windows
+title: Using Filter Windows
 author: Natalia Kazakova
 legacyId: 11139
 ---
-# Using Filter Popup Windows
+# Using Filter Windows
 Depending on the settings made by your application vendor, the Pivot Table can display an individual Filter Window for each field, or an integrated Filter Window for a group of fields.
 
 This topic describes how to filter data using both types of Filter Windows.
+
+## Excel-style Filter Window
+The Excel-style filter popup's content depends on the type of data the related field displays. 
+
+In the **"Values"** tab, end-users can select specific field values from the Pivot Grid. 
+
+![pivot-filter-excel-style-values](../../../../../images/pivot-filter-excel-style-values.png)
+
+The **"Filters"** tab supplies users with additional options related to the field type. For example, when filtering a string field, you can show only those records that begin with 'C': 
+
+![pivot-filter-excel-style-textfilters](../../../../../images/pivot-filter-excel-style-textfilters.png)
+
+Filters applied using the Excel-style filter popup are displayed in the Filter Panel and can be changed in the Filter Editor dialog, which allows end-users to apply complex filter conditions.
+
+> The Excel-style filter cannot be used to apply filtering in OLAP mode. 
+
+
 
 ## Simple Filter Window
 A simple Filter Window allows you to hide visible and show previously hidden values of a particular field.
