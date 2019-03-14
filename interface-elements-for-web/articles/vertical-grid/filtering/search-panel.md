@@ -4,14 +4,14 @@ author: Anna Kondratova
 legacyId: 118061
 ---
 # Search Panel
-To filter data and highlight search results, type a filter criterion in the search panel.
+Type a filter criterion in the search panel to filter data and highlight search results.
 
 ![ASPxVerticalGrid-SearchPanel-1](../../../images/img123788.png)
 
-## Applying the Search Panel Filter Criterion
+## Apply the Search Panel Filter Criterion
 To apply a filter criterion typed in the search panel, press the ENTER key or click **Search**. Otherwise, a filter is automatically applied in 1.2 seconds.
 
-## Clearing the Search Panel Filter Criterion
+## Clear the Search Panel Filter Criterion
 To clear the search panel filter criterion, do one of the following.
 * Press the DELETE or BACKSPACE key.
 * Click the **Clear** button.
@@ -28,7 +28,7 @@ In its simplest form, a search criterion consists of a single word. However, the
 	![VerticalGridSearchCriterion](../../../images/img123881.png)
 	
 	**Example description:** selects records that contain the "Maria" string in any search row.
-* **Mask:** column:criterion 
+* **Mask:** row:criterion 
 	
 	**Example:** city: ber
 	

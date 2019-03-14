@@ -10,14 +10,14 @@ legacyId: 113843
 	
 	![EUD_ASPxRichEdit_Home_InsertMultilevelList](../../../images/img117839.png)
 3. Type the text.
-4. To change list levels, press **TAB** and **SHIFT+TAB**, or click the **Increase Indent** ![EUD_ASPxRichEdit_Home_IncreaseIndentButton](../../../images/img117847.png) and **Decrease Indent** ![EUD_ASPxRichEdit_Home_DecreaseIndentButton](../../../images/img117848.png) buttons in the **Paragraph** toolbar in the **Home** tab. Press **ENTER** to create the next item on the current level.
-5. To finish the list, press **ENTER** twice.
+4. To change list levels, press TAB and SHIFT+TAB, or click the **Increase Indent** ![EUD_ASPxRichEdit_Home_IncreaseIndentButton](../../../images/img117847.png) and **Decrease Indent** ![EUD_ASPxRichEdit_Home_DecreaseIndentButton](../../../images/img117848.png) buttons in the **Paragraph** toolbar in the **Home** tab. Press ENTER to create the next item on the current level.
+5. To finish the list, press ENTER twice.
 
 ## Make a Multilevel List from the Selected Text
 You can make a multilevel list from existing lines of text in two ways. The first one is to use the **Paragraph** group in the **Home** tab.
 1. Select the text lines that you want to transform into a list.
 2. Select the **Home** tab, and click the **Multilevel list** ![EUD_ASPxRichEdit_Home_MultilevelListButton](../../../images/img117842.png) button in the **Paragraph** group.
-3. Use **TAB** and **SHIFT+TAB**, or the **Increase Indent** ![EUD_ASPxRichEdit_Home_IncreaseIndentButton](../../../images/img117847.png) and **Decrease Indent** ![EUD_ASPxRichEdit_Home_DecreaseIndentButton](../../../images/img117848.png) buttons of the **Paragraph** group in the **Home** tab to change levels.
+3. Use TAB and SHIFT+TAB, or the **Increase Indent** ![EUD_ASPxRichEdit_Home_IncreaseIndentButton](../../../images/img117847.png) and **Decrease Indent** ![EUD_ASPxRichEdit_Home_DecreaseIndentButton](../../../images/img117848.png) buttons of the **Paragraph** group in the **Home** tab to change levels.
 
 Another way to do the same thing is to use the [context menu](../text-editor-ui/editor-elements.md):
 1. Select the text to be transformed into a list.
@@ -27,7 +27,7 @@ Another way to do the same thing is to use the [context menu](../text-editor-ui/
 3. In the invoked **Bullets and Numbering** dialog, click the **Outline Numbered** tab and choose the list style that you want to apply.
 	
 	![EUD_ASPxRichEdit_Home_MultilevelListDialog](../../../images/img117846.png)
-4. Use **TAB** and **SHIFT+TAB**, or the **Increase Indent** ![EUD_ASPxRichEdit_Home_IncreaseIndentButton](../../../images/img117847.png) and **Decrease Indent** ![EUD_ASPxRichEdit_Home_DecreaseIndentButton](../../../images/img117848.png) buttons of the **Paragraph** group in the **Home** tab to change levels.
+4. Use TAB and SHIFT+TAB, or the **Increase Indent** ![EUD_ASPxRichEdit_Home_IncreaseIndentButton](../../../images/img117847.png) and **Decrease Indent** ![EUD_ASPxRichEdit_Home_DecreaseIndentButton](../../../images/img117848.png) buttons of the **Paragraph** group in the **Home** tab to change levels.
 
 ## Create Your Own List Style
 You can create your own style for a multilevel list on the basis of one of the existing list styles, by changing different list parameters.
@@ -50,4 +50,4 @@ You can create your own style for a multilevel list on the basis of one of the e
 	...you will get the list style as illustrated below.
 	
 	![EUD_ASPxRichEdit_Lists_CustomizedOutlined](../../../images/img117993.png)
-5. Use **TAB** and **SHIFT+TAB**, or the **Increase Indent** ![RichEdit_IncreaseIndentButton](../../../images/img117847.png) and **Decrease Indent** ![RichEdit_DecreaseIndentButton](../../../images/img117848.png) buttons of the **Paragraph** toolbar to change levels.
+5. Use TAB and SHIFT+TAB, or the **Increase Indent** ![RichEdit_IncreaseIndentButton](../../../images/img117847.png) and **Decrease Indent** ![RichEdit_DecreaseIndentButton](../../../images/img117848.png) buttons of the **Paragraph** toolbar to change levels.

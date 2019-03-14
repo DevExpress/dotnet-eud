@@ -7,8 +7,9 @@ legacyId: 5646
 This documentation provides information on individual User Interface Elements such as grids, navigation panes, data editors, etc. Each element can provide context menus, allow numerous mouse operations and support a number of keyboard shortcuts.
 
 To obtain information about these features, browse through the table of contents to locate the element you are interested in.
-* [Card View](card-view.md)
 * [Common Activities](common-activities.md)
+* [Card View](card-view.md)
+* [Charting](charting.md)
 * [Data View](data-view.md)
 * [Docking Panel](docking-panel.md)
 * [Document Viewer](document-viewer.md)
@@ -29,9 +30,11 @@ To obtain information about these features, browse through the table of contents
 * [Rating](rating.md)
 * [Report Designer](report-designer.md)
 * [Ribbon](ribbon.md)
+* [Rich Text Editor](rich-text-editor.md)
+* [Round Panel](round-panel.md)
 * [Scheduler](scheduler.md)
-* [Splitter](splitter.md)
 * [Spell Checker](spell-checker.md)
+* [Splitter](splitter.md)
 * [Spreadsheet](spreadsheet.md)
 * [Tab Control](tab-control.md)
 * [Tree List](tree-list.md)

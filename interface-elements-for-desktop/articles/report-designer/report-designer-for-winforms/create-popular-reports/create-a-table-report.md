@@ -34,11 +34,11 @@ This tutorial describes how to create a data-bound report displaying information
 
     ![](../../../../images/eurd-win-table-report-appearance-via-toolbar.png)
 
-9. Define a currency format for the **UnitPrice** cell. Click the cell's smart tag, and then, click the **Format String** property's ellipsis button. Select the appropriate format in the invoked **Format String Editor** editor and click **OK**.
+8. Define a currency format for the **UnitPrice** cell. Click the cell's smart tag, and then, click the **Format String** property's ellipsis button. Select the appropriate format in the invoked **Format String Editor** editor and click **OK**.
 
     ![](../../../../images/eurd-win-table-report-format-string.png)
 
-10. To further improve the table readability, you can apply different visual styles to its odd and even rows. See [Report Visual Styles](../customize-appearance/report-visual-styles.md) to learn more. 
+9. To further improve the table readability, you can apply different visual styles to its odd and even rows. See [Report Visual Styles](../customize-appearance/report-visual-styles.md) to learn more. 
 
     ![](../../../../images/eurd-win-table-report-odd-even-styles.png)
 	

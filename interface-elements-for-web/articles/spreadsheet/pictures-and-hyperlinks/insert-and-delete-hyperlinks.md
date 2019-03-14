@@ -27,6 +27,7 @@ The **Spreadsheet** allows you to [insert](#inserthyperlink), edit and [delete](
 		
 		![EUD_ASPxSpreadsheet_Home_ClearContents](../../../images/img26142.png)
 	* Right-click the cell that contains the hyperlink and select **Clear Contents** from the invoked context menu.
+	* Focus the cell that contains the hyperlink and press DELETE.
 2. To delete a hyperlink while maintaining its text with hyperlink formatting, in the **Editing** group within the **Home** tab, click **Clear**, and select **Clear Hyperlinks** from the drop-down list.
 	
 	![EUD_ASPxSpreadsheet_Home_ClearHyperlinks](../../../images/img26143.png)

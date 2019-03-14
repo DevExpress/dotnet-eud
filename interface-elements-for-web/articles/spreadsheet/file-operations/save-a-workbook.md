@@ -21,4 +21,4 @@ The available file formats in the **Save as** dialog box are the following.
 * Tab-delimited Text File format (*.txt)
 * Comma-separated Values File format (*.csv)
 
-To save the active workbook with its current file format and location, go to the **File** tab, and then click the **Save** button in the **Common** group. If you click the **Save** button to save a newly created workbook, the **Save spreadsheet file as** dialog is invoked.
+To save the active workbook with its current file format and location, go to the **File** tab, and then click the **Save** button in the **Common** group or press CTRL+S. If you click the **Save** button to save a newly created workbook, the **Save spreadsheet file as** dialog is invoked.

@@ -1,16 +1,14 @@
 ---
-title: Insert an Audio Into HTML Editor
+title: Insert an Audio
 author: Svetlana Nikulina
 legacyId: 17905
 ---
-# Insert an Audio Into HTML Editor
-This topic describes how to insert audio into an editor's content.
-
-First, position the mouse pointer on the place in the text where you want to add audio, and click the **Insert Audio** button.
+# Insert an Audio
+To insert audio into an editor's content, position the mouse pointer on the place in the text where you want to add audio, and click the **Insert Audio** button.
 
 ![EUD_InsertAudioButton](../../../images/img25639.png)
 
-Now, define the required parameters of the audio in the invoked **Insert Audio** dialog.
+Define the required parameters of the audio in the invoked **Insert Audio** dialog.
 
 ## Insert an Audio Stored on the Local Machine
 * Click the **From your computer** tab in the **Insert Audio** dialog.

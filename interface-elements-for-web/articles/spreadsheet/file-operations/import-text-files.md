@@ -6,7 +6,7 @@ legacyId: 113720
 # Import Text Files
 The **Spreadsheet** provides the capability to save a workbook as a text file (.txt or .csv).
 
-####Save a Workbook as a Text File
+## Save a Workbook as a Text File
 1. To save a workbook as a text file, go to the **File** tab, and in the **Common** group, click the **Save As** button.
 	
 	![EUD_ASPxSpreadsheet_SaveAsWorkbook](../../../images/img25925.png)

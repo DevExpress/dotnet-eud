@@ -4,7 +4,7 @@ author: Svetlana Nikulina
 legacyId: 16837
 ---
 # Fullscreen Viewer
-The Image Gallery **Fullscreen Viewer** displays images in full screen mode and allows you to navigate through them.
+The image gallery **Fullscreen Viewer** displays images in full screen mode and allows you to navigate through them.
 
 ![ImageGallery_Full](../../images/img22783.png)
 
@@ -12,14 +12,14 @@ Hover the navigation bar marker (![ImageGallery_NavMarker](../../images/img22795
 
 ![ImageGallery_NavBar](../../images/img22796.png)
 
-You can navigate through images by clicking the navigation buttons or the image area, or by pressing the **ARROW** keys. You can also use the mouse scroll wheel, or perform a swipe gesture. You can also use the swipe gesture on touch devices.
+You can navigate through images by clicking the navigation buttons or the image area, or by pressing the arrow keys. You can also use the mouse scroll wheel, or perform a swipe gesture. You can also use the swipe gesture on touch devices.
 
 ## Closing the Fullscreen Viewer
-To close the Fullscreen Viewer, click the **Close** button or press the **ESC** key.
+To close the fullscreen viewer, click the **Close** button or press the ESC key.
 
 ![ImageGallery_Close](../../images/img22794.png)
 
 ## Slide Show
-The **Fullscreen Viewer** can display images in a slide show. To play the slide show, click the **Play** button. To pause the slide show, click the **Pause** button. Note that you can still navigate through images manually, while the slide show is playing.
+The fullscreen viewer can display images in a slide show. To play the slide show, click the **Play** button. To pause the slide show, click the **Pause** button. Note that you can still navigate through images manually, while the slide show is playing.
 
 ![ImageGallery_PlayPause](../../images/img22762.png)

@@ -7,9 +7,9 @@ author: Anna Gubareva
 This document describes how to specify the number of data source records displayed on report pages.
 
 > [!Warning]
-> Use the approach below if expression bindings **are not enabled** in the Report Designer (the [Property Grid](../../report-designer-tools/ui-panels/property-grid.md) does not provide the **Expressions** ![](../../../../../images/eurd-win-property-grid-expressions-icon.png) tab ).
+> Use the approach below if expression bindings **are not enabled** in the Report Designer (the [Property Grid](../../report-designer-tools/ui-panels/property-grid.md) does not provide the **PropertyName Expression** item in the property marker's context menu).
 >
-> See [Limit the Number of Records per Page](../shape-data-expression-bindings/limit-the-number-of-records-per-page.md) if expression bindings **are enabled** in the Report Designer (the [Property Grid](../../report-designer-tools/ui-panels/property-grid.md) provides the **Expressions** ![](../../../../../images/eurd-win-property-grid-expressions-icon.png) tab).
+> See [Limit the Number of Records per Page](../shape-data-expression-bindings/limit-the-number-of-records-per-page.md) if expression bindings **are enabled** in the Report Designer.
 
 After you [bound your report to data](../../bind-to-data.md) and provided content to the report's [Detail band](../../introduction-to-banded-reports.md), you can limit the number of records each report page displays. This example demonstrates how to pass the required record count as a parameter value.
 
@@ -21,7 +21,7 @@ After you [bound your report to data](../../bind-to-data.md) and provided conten
 	
 	![](../../../../../images/eurd-win-shaping-limit-parameter-settings.png)
 
-3. Drop a [Page Break](../../use-report-elements/use-basic-report-controls/page-break.md) control onto the report's Detail band. Set the control's **Visible** property to **No** and click the **Formatting Rules** property's ellipsis button.
+3. Drop a [Page Break](../../use-report-elements/use-basic-report-controls/page-break.md) control onto the report's Detail band. Disable the control's **Visible** property and click the **Formatting Rules** property's ellipsis button.
 
     ![](../../../../../images/eurd-win-shaping-page-break-formatting-rules.png)
 

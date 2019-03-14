@@ -1,15 +1,15 @@
 ---
-title: Save or Discard Changes when Editing Grid Rows
+title: Save or Discard Changes when Editing Rows
 author: Bogdan Harchenko
 legacyId: 4140
 ---
-# Save or Discard Changes when Editing Grid Rows
+# Save or Discard Changes when Editing Rows
 ## Save Changes
-To save the changes made, click **Update**.
+Click **Update** to save your changes.
 
 ![SaveChanges](../../../images/img7150.png)
 
 ## Discard Changes
-To cancel the changes made, click **Cancel**.
+Click **Cancel** to cancel your changes. 
 
 ![CancelChanges](../../../images/img7151.png)

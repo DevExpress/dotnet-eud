@@ -28,7 +28,7 @@ The following tools allow you to control report elements' size, location, alignm
 
 		![](../../../../../images/eurd-win-snap-grid-size.png)
 		
-		To hide the grid, disable the **Grid Lines** option in the toolbar's **View** tab or set a report's **Draw the Grid** property to **false**.
+		To hide the grid, disable the **Grid Lines** option in the toolbar's **View** tab or disable a report's **Draw the Grid** property.
 
 		![](../../../../../images/eurd-win-toolbar-show-grid-lines.png)
 								

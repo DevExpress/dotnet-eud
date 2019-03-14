@@ -4,7 +4,7 @@ author: Svetlana Nikulina
 legacyId: 16835
 ---
 # Color Edit
-A **Color Edit** is used to specify a color. The editor displays the current color and its hexadecimal value.
+The Color Edit is used to specify a color. The editor displays the current color and its hexadecimal value.
 
 ![ColorEdit_Input](../../images/img22731.png)
 
@@ -13,7 +13,7 @@ Click the drop-down button to display the drop-down color palette.
 ![ColorEdit_Palette](../../images/img22715.png)
 
 ## Specifying a color in the Color Edit
-Using the **Color Edit**, you can specify a color in the following ways.
+Using the Color Edit, you can specify a color in the following ways.
 
 **Using the color palette**
 

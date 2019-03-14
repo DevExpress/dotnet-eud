@@ -11,27 +11,41 @@ This section describes the capabilities the **Tree List** (multi-column tree vie
 &nbsp;
 
 **Data Editing**
-* [Edit Tree List Cells](tree-list/edit-tree-list-cells.md)
+* [Edit Cell Values](tree-list/data-editing/edit-cell-values.md)
+* [Batch Editing](tree-list/data-editing/batch-editing.md)
 
 &nbsp;
 
-**Data Presentation and Layout**
-* [Expand and Collapse Tree List Nodes](tree-list/data-presentation/expand-and-collapse-tree-list-nodes.md)
-* [Reorder Columns in Tree Lists](tree-list/layout-and-navigation/reorder-columns-in-tree-lists.md)
-* [Reorder Tree List Nodes](tree-list/layout-and-navigation/reorder-tree-list-nodes.md)
-* [Sort Nodes in Tree List](tree-list/data-presentation/sort-nodes-in-tree-list.md)
-* [Field Chooser](tree-list/layout-and-navigation/field-chooser.md)
+**Data Presentation**
+* [Expand and Collapse Nodes](tree-list/data-presentation/expand-and-collapse-nodes.md)
+* [Sort Nodes](tree-list/data-presentation/sort-nodes.md)
+
 
 &nbsp;
 
 **Filtering**
-* [Date Range Header Filter](tree-list/filtering/date-range-header-filter.md)
 * [Header Filter](tree-list/filtering/header-filter.md)
-* [Creating Complex Filter Criteria With The Filter Control](tree-list/filtering/creating-complex-filter-criteria-with-the-filter-control.md)
+* [Date Range Header Filter](tree-list/filtering/date-range-header-filter.md)
 * [Filter Row](tree-list/filtering/filter-row.md)
 * [Search Panel](tree-list/filtering/search-panel.md)
+* [Creating Complex Filter Criteria With The Filter Builder](tree-list/filtering/creating-complex-filter-criteria-with-the-filter-control.md)
+
 
 &nbsp;
 
-**Selection and Navigation**
-* [Selection and Navigation in Tree List](tree-list/layout-and-navigation/selection-and-navigation-in-tree-list.md)
+**Navigation and Layout**
+* [Selection and Navigation](tree-list/layout-and-navigation/selection-and-navigation.md)
+* [Keyboard Navigation](tree-list/layout-and-navigation/keyboard-navigation.md)
+* [Reorder Nodes](tree-list/layout-and-navigation/reorder-nodes.md)
+* [Reorder Columns](tree-list/layout-and-navigation/reorder-columns.md)
+* [Resize Columns](tree-list/layout-and-navigation/resize-columns.md)
+* [Column Chooser](tree-list/layout-and-navigation/column-chooser.md)
+
+**Data Summaries**
+* [Data Summaries](tree-list/data-summaries.md)
+
+**Data Validation**
+* [Data Validation](tree-list/data-validation.md)
+
+**Data Export**
+* [Data Export](tree-list/data-export.md)

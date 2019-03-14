@@ -53,7 +53,7 @@ The type of a value returned by a calculated field is defined by its **Field Typ
 
 If a calculated field expression involves the use of different types, it is necessary to convert them to the same type (e.g., **Max(ToDecimal([Quantity]),[UnitPrice])**)
 
-Although a value that is returned by a calculated field is usually converted to a string (to be displayed in a text-aware report control), it can return a value of any kind. For example, if a database field contains an image, you can set a calculated field's expression to "=...", after which this calculated field can be bound to the [Pucture Box](../../use-report-elements/use-basic-report-controls/picture-box.md) control.
+Although a value that is returned by a calculated field is usually converted to a string (to be displayed in a text-aware report control), it can return a value of any kind. For example, if a database field contains an image, you can set a calculated field's expression to "=...", after which this calculated field can be bound to the [Picture Box](../../use-report-elements/use-basic-report-controls/picture-box.md) control.
 
 To construct a valid aggregate expression, use the following format, which consists of four parts.
 
