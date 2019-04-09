@@ -1,3 +1,7 @@
+---
+title: Date Filter
+author: Natalia Kazakova
+---
 # Date Filter
 The **Date Filter** dashboard item allows you to filter dashboard data based on the selected data range. The range can be relative (Last 3 Months), use fixed dates (01-01-2018), or presets (Month-to-date). You can also filter dates before or after a specified date. 
 
