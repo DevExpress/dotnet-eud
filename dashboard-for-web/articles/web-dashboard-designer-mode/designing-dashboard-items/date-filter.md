@@ -12,10 +12,6 @@ The Date Filter item displays a set of intervals that can be used as quick filte
 
 ![](../../../images/datefilter-web-autoheight.png)
 
-You can use a drop-down calendar to specify a custom period:
-
-![](../../../images/datefilter-web-dropdown-daycalendar.png)
-
 ## Add a New Date Filter to the Dashboard
 
 To create a Date Filter item, click the **Date Filter** item in the [Toolbox](../ui-elements/toolbox.md) **Filter** section:
@@ -54,7 +50,7 @@ You can include placeholders in a custom string. The `{0}` placeholder is the in
 
 ![](../../../images/datefilter-web-quick-filters.png)
 
-The **Select Date Time Period** button (the  icon) displayed in the Date Filter caption invokes the drop-down list with quick filters.
+The **Select Date Time Period** button displayed in the Date Filter caption invokes the drop-down list with quick filters.
 
 To add quick filters, open the Date Filter's [Options](../ui-elements/dashboard-item-menu.md) menu and go to the **Custom Periods** section. Click "+" to add a new period:
 
