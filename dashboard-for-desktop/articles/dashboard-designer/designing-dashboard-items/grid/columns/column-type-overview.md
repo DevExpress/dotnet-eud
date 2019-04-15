@@ -8,6 +8,9 @@ The **Grid** dashboard item supports four types of columns.
 * [Dimension Column](dimension-column.md)
 	
 	Displays values in the bound data item "as is".
+* [Hyperlink Column](hyperlink-column.md)
+	
+	Allows you to display hyperlinks in the Grid dashboard item.
 * [Measure Column](measure-column.md)
 	
 	Displays summaries calculated against data in the bound data item.
@@ -32,6 +35,7 @@ Column type indicators are defined as follows:
 | Icon | Column Type |
 |---|---|
 | ![Grid_ColumnTypeIndicators_DimensionColumn](../../../../../images/img19670.png) | [Dimension Column](dimension-column.md) |
+| ![Grid_ColumnTypeIndicators_SparklineColumn](../../../../../images/img21673-hyperlink.png) | [Hyperlink Column](hyperlink-column.md) |
 | ![Grid_ColumnTypeIndicators_MeasureColumn](../../../../../images/img19671.png) | [Measure Column](measure-column.md) |
 | ![Grid_ColumnTypeIndicators_DeltaColumn](../../../../../images/img19669.png) | [Delta Column](delta-column.md) |
 | ![Grid_ColumnTypeIndicators_SparklineColumn](../../../../../images/img21673.png) | [Sparkline Column](sparkline-column.md) |
