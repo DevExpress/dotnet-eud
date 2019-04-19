@@ -14,7 +14,7 @@ On the next page, add a new parameter (using the **Add** button) and specify its
 * **Name** - Specifies a parameter's name.
 * **Type** - Specifies the parameter's type.
 * **Expression** - Specifies whether an expression is used to specify a parameter's value.
-* **Value** - Specifies the parameter's value. If the **Expression** check box is checked, you can invoke the [Expression Editor](../../../../interface-elements-for-desktop/articles/expression-editor.md) dialog to specify the required expression or select an existing [dashboard parameter](../data-analysis/using-dashboard-parameters/creating-parameters.md) to pass to the SQL query.
+* **Value** - Specifies the parameter's value. If the **Expression** check box is checked, you can invoke the **Expression Editor** dialog to specify the required [expression](../../dashboard-designer/data-analysis/expression-constants-operators-and-functions.md) or select an existing [dashboard parameter](../data-analysis/using-dashboard-parameters/creating-parameters.md) to pass to the SQL query.
 
 Use the **Remove** button to remove query parameters.
 

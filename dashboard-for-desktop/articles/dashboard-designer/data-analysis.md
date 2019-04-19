@@ -10,3 +10,4 @@ The section consists of the following topics.
 * [Aggregations](data-analysis/aggregations.md)
 * [Window Calculations](data-analysis/window-calculations.md)
 * [Using Dashboard Parameters](data-analysis/using-dashboard-parameters.md)
+* [Expression Constants, Operators, and Functions](data-analysis/expression-constants-operators-and-functions.md)
