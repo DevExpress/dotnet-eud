@@ -7,6 +7,7 @@ Filter elements provide the capability to [filter](../../data-presentation/maste
 * [Combo Box](#combo-box)
 * [List Box](#list-box)
 * [Tree View](#tree-view)
+* [Date Filter](#date-filter)
 
 ## <a name="combo-box"/>Combo Box
 The **Combo Box** dashboard item allows you to select a value(s) from the drop-down list.
@@ -30,3 +31,11 @@ The **List Box** dashboard item allows you to select a value(s) from the list.
 The **Tree View** dashboard item displays values in a hierarchical way and allows you to expand/collapse nodes.
 
 ![Treeview_Checked](../../../../images/img24843.png)
+
+## Date Filter
+
+The [Date Filter](../date-filter.md) dashboard item allows you to filter dashboard data based on the selected data range. The range can be relative (Last 3 Months), use fixed dates (01-01-2018), or presets (Month-to-date). You can also filter dates before or after a specified date. 
+
+The DateFilter item displays a set of intervals that can be used as quick filters. 
+
+![Date Filter](../../../../images/datefilter-autoheight.png)

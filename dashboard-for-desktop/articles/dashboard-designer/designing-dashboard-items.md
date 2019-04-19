@@ -17,6 +17,7 @@ This section describes the available dashboard items.
 * [Choropleth Map](designing-dashboard-items/choropleth-map.md)
 * [Geo Point Maps](designing-dashboard-items/geo-point-maps.md)
 * [Range Filter](designing-dashboard-items/range-filter.md)
+* [Date Filter](designing-dashboard-items/date-filter.md)
 * [Images](designing-dashboard-items/images.md)
 * [Text Box](designing-dashboard-items/text-box.md)
 * [Treemap](designing-dashboard-items/treemap.md)

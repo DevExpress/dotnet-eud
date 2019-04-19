@@ -14,7 +14,7 @@ The Date Filter item displays a set of intervals that can be used as quick filte
 
 ## Add a New Date Filter to the Dashboard
 
-To create a Date Filter item, click the **Date Filter** item in the [Toolbox](../ui-elements/toolbox.md) **Filter** section:
+To create a Date Filter item, click the **Date Filter** item (the  ![](../../../images/wdd-datefilter-icon.png)  icon) in the [Toolbox](../ui-elements/toolbox.md) **Filter** section:
 
 ![](../../../images/wdd-toolbox-filter-elements125330.png)
 
@@ -32,7 +32,7 @@ The Date Filter item displays a **Date Picker** that is a button with a drop-dow
 
 ![](../../../images/datefilter-web-datepicker.png)
 
-You can configure whether to display the Date Picker in the Date Filter item. For this, go to the Date Filter's [Options](../ui-elements/dashboard-item-menu.md) menu, open to the **Layout** section and specify the **Visible Components** setting.
+You can configure whether to display the Date Picker in the Date Filter item. For this, go to the Date Filter's [Options](../ui-elements/dashboard-item-menu.md) menu, open to the **Layout** section and specify the **Show Date Picker** setting.
 
 ## Display Format
 
@@ -82,8 +82,3 @@ Quick filters in the Date Filter item can be arranged horizontally or vertically
 To specify the arrangement mode, go to the dashboard item [Options](../ui-elements/dashboard-item-menu.md) menu, open the **Layout** section and specify the **Arrangement Mode** setting:
 
 ![](../../../images/datefilter-web-options.png)
-
-
-The Date Filter item can display the date picker with quick filter buttons (default), or only the date picker, or only quick filters. To specify which visible components to display, go to the dashboard item Options menu, open the **Layout** section and configure the **Visible Components** setting:
-
-![](../../../images/datefilter-web-visible-components.png)
