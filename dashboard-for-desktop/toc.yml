@@ -304,6 +304,8 @@
         href: articles/dashboard-designer/designing-dashboard-items/range-filter/predefined-ranges.md
       - name: Coloring
         href: articles/dashboard-designer/designing-dashboard-items/range-filter/coloring.md
+    - name: Date Filter
+      href: articles/dashboard-designer/designing-dashboard-items/date-filter.md
     - name: Images
       href: articles/dashboard-designer/designing-dashboard-items/images.md
       items:
@@ -428,6 +430,8 @@
         href: articles/dashboard-designer/data-analysis/aggregations/summary-level-aggregations.md
       - name: Intermediate Level Aggregations
         href: articles/dashboard-designer/data-analysis/aggregations/intermediate-level-aggregations.md
+    - name: Expression Constants, Operators, and Functions
+      href: articles/dashboard-designer/data-analysis/expression-constants-operators-and-functions.md  
     - name: Window Calculations
       href: articles/dashboard-designer/data-analysis/window-calculations.md
       items:
@@ -582,6 +586,8 @@
       items:
       - name: Printing and Exporting
         href: articles/dashboard-viewer/dashboard-items/range-filter/printing-and-exporting.md
+    - name: Date Filter
+      href: articles/dashboard-viewer/dashboard-items/date-filter.md
     - name: Image
       href: articles/dashboard-viewer/dashboard-items/image.md
       items:
