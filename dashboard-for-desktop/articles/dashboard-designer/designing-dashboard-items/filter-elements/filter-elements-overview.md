@@ -8,6 +8,7 @@ The **Dashboard Designer** allows you to create three types of filter elements t
 * [Combo Box](#combo-box)
 * [List Box](#list-box)
 * [Tree View](#tree-view)
+* [Date Filter](#date-filter)
 
 To add the required filter element to the dashboard, use the **Filter Elements** button in the **Home** ribbon tab.
 
@@ -45,3 +46,11 @@ The **Tree View** dashboard item displays values in a hierarchical way and allow
 You can manage the initial expanded state of filter values using the **Auto Expand** button in the **Design** ribbon tab.
 
 ![Treeview_AutoExpand](../../../../images/img24844.png)
+
+## Date Filter
+
+The [Date Filter](../../designing-dashboard-items/date-filter.md) dashboard item allows you to filter dashboard data based on the selected data range. The range can be relative (Last 3 Months), use fixed dates (01-01-2018), or presets (Month-to-date). You can also filter dates before or after a specified date. 
+
+The DateFilter item displays a set of intervals that can be used as quick filters. 
+
+![Date Filter](../../../../images/datefilter-autoheight.png)
