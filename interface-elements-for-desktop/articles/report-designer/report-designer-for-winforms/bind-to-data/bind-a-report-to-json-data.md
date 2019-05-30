@@ -37,6 +37,16 @@ This topic describes how to bind a report to JSON data at design time.
 
         ![](../../../../images/eurd-win-JSON-String.png) 
 
+    If you choose the **Web Service Endpoint** option, you can configure a connection string on the next wizard pages.
+
+    4.1. Specify request parameters.
+
+    ![JSON-specify-request-parameters](../../../../images/eurd-win-JSON-specify-request-parameters.png)
+
+    > [!Tip]
+    > Specify the Basic HTTP Authentication parameters or header parameters to access JSON data.
+
+
 5. On the next page, the wizard shows the specified JSON data's structure. You can choose all nodes or a subset of nodes.
 
     ![JSON-SelectRootElement](../../../../images/eurd-win-JSON-SelectRootElement.png)
