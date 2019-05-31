@@ -218,6 +218,8 @@
         href: articles/web-dashboard-designer-mode/designing-dashboard-items/range-filter/interactivity.md
       - name: Predefined Periods
         href: articles/web-dashboard-designer-mode/designing-dashboard-items/range-filter/predefined-periods.md
+    - name: Date Filter
+      href: articles/web-dashboard-designer-mode/designing-dashboard-items/date-filter.md
     - name: Images
       href: articles/web-dashboard-designer-mode/designing-dashboard-items/images.md
       items:

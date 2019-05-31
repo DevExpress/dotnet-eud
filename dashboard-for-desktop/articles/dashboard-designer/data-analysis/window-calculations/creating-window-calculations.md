@@ -93,7 +93,7 @@ Use Expression to specify a custom calculation by adding the required [calculati
 
 ![CustomizeCalculationDialog_Expression](../../../../images/img123632.png)
 
-Click the **Edit in Expression Editor** button to invoke the **Expression Editor** and specify the required expression.
+Click the **Edit in Expression Editor** button to invoke the **Expression Editor** and specify the required [expression](../../data-analysis/expression-constants-operators-and-functions.md).
 
 ![CustomizeCalculation_ExpressionDialog](../../../../images/img123643.png)
 
