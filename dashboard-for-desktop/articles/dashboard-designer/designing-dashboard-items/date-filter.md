@@ -22,7 +22,7 @@ To create a Date Filter item, click the **Filter Elements** drop-down button in 
 
 ## Bind to Data
 
-Use the [Data Items Pane](xref:15622) to perform data binding. Drag the dimension field from the [Data Source Browser](xref:15611) to the data item, and click the _Options_ button to select [group intervals](xref:15693).
+Use the **Data Items Pane** to perform data binding. Drag the dimension field from the [Data Source Browser](../ui-elements/data-source-browser.md) to the data item, and click the _Options_ button to select [group intervals](../data-shaping/formatting-data.md).
 
 ![DATA ITEMS Pane](../../../images/datefilter-data-items-pane.png)
 
@@ -45,9 +45,9 @@ The calendar drops down when the end user:
 * clicks the button without a specified range (the button with the "Click to set filter" caption)
 * clicks the ![edit-date-filter-icon](../../../images/editdatefilter.png) icon on the button with the specified datetime range.
 
-A drop-down calendar may contain a single calendar control (the Filter Type is Exact, Before or After, one calendar ele, ) or two calendar controls (the Filter Type is Between).
+A drop-down calendar may contain a single calendar control (the Filter Type is Exact, Before or After) or two calendar controls (the Filter Type is Between).
 
-When the user selects the date, the Date Picker caption displays information about that date (date range) and an ![edit-date-filter-icon](../../../images/editdatefilter.png) icon. The caption text is constructed from a custom string with date placeholders. If the user clicks the caption, The Date Picker button acts as a checked button to apply the date range (checked) or reset the date filter (unchecked) to its default value. When the user clicks the icon, the drop-down calendar appears and enables the user to select another date range. 
+When the user selects the date, the Date Picker caption displays information about that date (date range) and the ![edit-date-filter-icon](../../../images/editdatefilter.png) icon. The caption text is constructed from a custom string with date placeholders. If the user clicks the caption, The Date Picker button acts as a checked button to apply the date range (checked) or reset the date filter (unchecked) to its default value. When the user clicks the icon, the drop-down calendar appears and enables the user to select another date range. 
 
 To show or hide the Date Picker component, click the **Show Date Picker** check button in the ribbon (Date Filter Tools contextual tab-> Design page -> Layout group):
 
@@ -55,7 +55,7 @@ To show or hide the Date Picker component, click the **Show Date Picker** check 
 
 ## Display Format
 
-To specify the date-time value format, use the **Format** submenu in the data item menu, as described in the [Formatting Data](xref:15697#formatting-date-time-values) topic.
+To specify the date-time value format, use the **Format** submenu in the data item menu, as described in the [Formatting Data](../data-shaping/formatting-data.md) topic.
 
 To specify a custom string displayed in the Date Picker component, use the **Edit Names** dialog. To invoke the dialog, right-click the DateFilter item and click the Edit Names... menu item or click the **Edit Names** button in the **Design** Ribbon tab.
 
@@ -71,7 +71,7 @@ Quick Filters are buttons displayed within the DateFilter item. Each button has 
 
 The item's context menu contains commands with the same captions that act as quick filters.
 
-A newly created DateFilter dashboard item has no quick filters. To add a quick filter, click the _[Options](xref:15622)_ button (the ![BoundImageAttributeOptionsButton](../../../images/boundimageattributeoptionsbutton123296.png) icon) next to the [Argument](xref:15451) placeholder or select the _Edit Periods_ command in the context menu. This invokes the **Edit Periods** dialog. You can select a [predefined range](xref:117398) or add a custom period, specify the quick filter's range and caption.
+A newly created DateFilter dashboard item has no quick filters. To add a quick filter, click the _Options_ button next to the _Argument_ placeholder or select the _Edit Periods_ command in the context menu. This invokes the **Edit Periods** dialog. You can select a [predefined range](range-filter/predefined-ranges.md) or add a custom period, specify the quick filter's range and caption.
 
 ![datefilter-edit-periods-dialog](../../../images/datefilter-edit-periods-dialog.png)
 
