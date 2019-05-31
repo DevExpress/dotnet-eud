@@ -1,5 +1,4 @@
 ---
-uid: '400691'
 title: 'Use Data-Driven Page Sequence'
 owner: Sergey Andreev
 ---
@@ -14,25 +13,27 @@ Follow the steps below to create a combined report:
 
 ## Create a Chart Report
 
-1. Create a chart report that shows all products in a category. The report is [bound](../bind-to-data/bind-a-report-to-a-database.md) to the sample **Northwind** database's **Products** table. Set the report's **Landscape**** property to **true** to enable the Landscape page orientation.
+1. Create a that shows data in the chart form. [Bind](../bind-to-data/bind-a-report-to-a-database.md) the report to a data source. Set the report's **Landscape** property to **true** to enable the Landscape page orientation.
 
     ![xtrareports-subreport](../../../../images/eurd-merge-chart-report.png)
 
-1. Add the **CatID** parameter to your chart report to specify which product category to build the chart for. Right-click **Parameters** in the **Field List** and choose **Add Parameter**.
+1. Add a parameter to your chart report to identify which data to use for the chart. Right-click **Parameters** in the **Field List** and choose **Add Parameter**.
 
     ![xtrareports-subreport-add-parameter](../../../../images/eurd-fieldlist-addparameter.png)
 
-1. Select the created parameter and set its **Name** property to **CatID**, **Type** to **Int32** and uncheck the **Visible** option.
+1. Select the created parameter and set its **Name** and **Type**, and uncheck the **Visible** option.
 
     ![xtrareports-subreport-configure-parameter](../../../../images/eurd-report-param.png)
 
-1. Click the report's smart tag. Click the **Filter String** option's ellipsis button. In the invoked [FilterString Editor](../shape-report-data/filter-data/filter-data-at-the-report-level.md), construct an expression to compare the **CategoryID** data field to the **CatID** parameter. To access the parameter, click the icon on the right until it turns into a question mark.
+1. Click the report's smart tag. Click the **Filter String** option's ellipsis button. In the invoked [FilterString Editor](../shape-report-data/filter-data/filter-data-at-the-report-level.md), construct an expression to compare the key data field to the created parameter. To access the parameter, click the icon on the right until it turns into a question mark.
 
     ![xtrareports-subreport-add-parameter](../../../../images/eurd-report-param-2.png)
 
+1. Save the report.
+
 ## Create the Base Report
 
-1. [Join](../report-designer-tools/query-builder.md) the **Northwind** database's **Products** and **Categories** tables. Create a report [bound](../bind-to-data/bind-a-report-to-a-database.md) to the resulting query, and arrange a layout like the one shown below:
+1. Create a report [bound](../bind-to-data/bind-a-report-to-a-database.md) to the same data source as the chart report, and arrange a layout like the one shown below:
 
     ![xtrareports-create-report](../../../../images/eurd-merge-products-report-layout.png)
 
@@ -52,7 +53,7 @@ Follow the steps below to create a combined report:
 
     ![xtrareports-subreport-enable-generateownpages](../../../../images/eurd-merge-enable-generateownpages-2.png)
 
-1. Bind the chart report's **CatID** parameter to the base report's **CategoryID** data field. Click the subreport's smart tag and select **Edit Parameter Bindings** in the invoked **SubReport Tasks** window.
+1. Bind the chart report's parameter to the base report's data field. Click the subreport's smart tag and select **Edit Parameter Bindings** in the invoked **SubReport Tasks** window.
 
     ![xtrareports-add-subreport](../../../../images/eurd-merge-edit-parameter-bindings.png)
 
