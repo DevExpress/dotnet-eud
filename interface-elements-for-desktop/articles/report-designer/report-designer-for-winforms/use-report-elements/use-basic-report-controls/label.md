@@ -5,11 +5,12 @@ author: Anna Gubareva
 # Label
 
 ## Label Overview
-The **Label** control displays plain text in a report. You can add this control by dragging the **Label** item from the [Toolbox](../../report-designer-tools/toolbox.md) onto the report's area.
+
+The **Label** control displays plain text in a report. Drag the **Label** item from the [Toolbox](../../report-designer-tools/toolbox.md) onto the report's area to add a Label control to it.
 
 ![](../../../../../images/eurd-win-drop-report-control-from-toolbox.png)
 
-You can double-click the label to invoke its in-place editor and enter the desired static text.
+Double-click the label to invoke its in-place editor and enter the desired static text.
 
 ![](../../../../../images/eurd-win-label-static-text.png)
 
@@ -18,11 +19,11 @@ Press CTRL+Enter to submit text changes and exit the label's in-place editing mo
 ## Bind to Data
 ### Display Field Values
 
-You can [bind](../../bind-to-data/bind-controls-to-data-expression-bindings.md) the label's **Text** property to a data field obtained from a report's data source. Click the control's smart tag, expand the **Expression** drop-down list and select the required data field.
+You can [bind](../../bind-to-data/bind-controls-to-data-expression-bindings.md) the label's **Text** property to a data field obtained from a report's data source. Click the control's smart tag, expand the **Expression** drop-down list and select the data field.
 
 ![](../../../../../images/eurd-win-label-bind-to-data-field.png)
 
-Clicking the **Expression** option's ellipsis button invokes the **Expression Editor**. You can use this editor to construct a complex binding expression involving two or more data fields.
+Click the **Expression** option's ellipsis button to invoke the **Expression Editor**. You can use this editor to construct a complex binding expression that involves two or more data fields.
 
 ![](../../../../../images/eurd-win-label-expression-binding.png)
 
@@ -42,7 +43,7 @@ You can also specify output values' [format](../../shape-report-data/shape-data-
 
 ### Display Summaries
 
-You can make the label display a [summary function's result](../../shape-report-data/shape-data-expression-bindings/calculate-a-summary.md) by setting the **Summary Running** property to the required range and selecting the summary function in the **Summary Expression Editor**.
+Specify a data range in the **Summary Running** property and select the summary function in the **Summary Expression Editor** to make the label display a [summary function's result](../../shape-report-data/shape-data-expression-bindings/calculate-a-summary.md).
 
 ![](../../../../../images/eurd-win-label-summary-function.png)
 
@@ -50,14 +51,14 @@ You can make the label display a [summary function's result](../../shape-report-
 ## Adjust the Label Size and Content
 ### Static Content
 
-You can change a label's size to fit its static text using the **Fit Bounds To Text** button in the [Toolbar](../../report-designer-tools/toolbar.md)'s **Text Tools** contextual tab:
+Use **Fit Bounds To Text** in the [Toolbar](../../report-designer-tools/toolbar.md)'s **Text Tools** contextual tab to change a label's size and fit its static text:
 
 * If the **Word Wrap** option is enabled, the command displays control content in multiple lines. It decreases the control's height and adjusts the width to fit this content.
-	
+
 	![](../../../../../images/eurd-win-label-fit-bounds-to-text-word-wrap-enabled.png)
 
 * If the **Word Wrap** option is disabled and the control's content is partially visible, the command adjusts the control's size to display this content.
-	
+
 	![](../../../../../images/eurd-win-label-fit-bounds-to-text-word-wrap-disabled.png)
 
 This command's result also depends on the control's **Text Alignment** and **Right To Left** settings.
@@ -86,7 +87,7 @@ The **Can Grow** and **Can Shrink** properties allow you to increase or decrease
 |---|---|
 | ![](../../../../../images/eurd-win-label-can-shrink-true.png) | ![](../../../../../images/eurd-win-label-can-shrink-false.png) |
 
-The **Auto Width** property specifies whether to adjust a data-bound label's width to its content automatically.
+The **Auto Width** property specifies whether to adjust a data-bound label's width to its content.
 
 You can also use the opposite **Text Fit Mode** property to adjust a control's font size to fit its boundaries in Print Preview. This property is not available if the **Can Grow**, **Can Shrink** or **Auto Width** option is enabled.
 
@@ -98,16 +99,36 @@ See the [Lay out Dynamic Report Content](../../lay-out-dynamic-report-content.md
 
 
 ## Interactivity
-You can enable [editing a label's content](../../provide-interactivity/edit-content-in-print-preview.md) in Print Preview by enabling the **Enabled** option in the **Edit Options** category.
+Set the **Enabled** option in the **Edit Options** category to [make a label's content editable](../../provide-interactivity/edit-content-in-print-preview.md) in Print Preview.
 
 ![](../../../../../images/eurd-win-label-edit-options-enabled.png)
 
-Clicking this label in a previewed document invokes the appropriate editor.
+Click this label in a previewed document to invoke the appropriate editor.
 
 ![](../../../../../images/eurd-win-label-content-editing-in-print-preview.png)
 
-Use the label's **Interactive Sorting** option to enable sorting report data by clicking this label in Print Preview. Set the **Target Band** property to the required Group Header or Detail band, and the **Field Name** property to the corresponding data field.
+Use the label's **Interactive Sorting** option to allow users to click this label in Print Preview to enable sorting report data. Set the **Target Band** property to the required Group Header or Detail band, and specify the data field in the **Field Name** property.
 
 ![](../../../../../images/eurd-win-label-interactive-sorting-options.png)
 
 Refer to [Sort a Report in Print Preview](../../provide-interactivity/sort-a-report-in-print-preview.md) for a step-by-step tutorial.
+
+## Markup Text
+
+If the **Allow Markup Text** property is checked, you can use markup tags to format the label's text.
+
+**Label** supports the following tags:
+
+| Tag | End Tag | Description |
+| --- | ------- | ----------- |
+| **&lt;br&gt;** |   | Inserts a single line break. Enable the **WordWrap** property to use this tag. |
+| **&lt;nbsp&gt;** | - | Inserts a space. |
+| **&lt;color**=_value_**&gt;** | **&lt;/color&gt;** | Specifies the text color. |
+| **&lt;backcolor**=_value_**&gt;** | **&lt;/backcolor&gt;** | Specifies the background color. |
+| **&lt;size**=_value_**&gt;** | **&lt;/size&gt;** | Specifies the font size. |
+| **&lt;b&gt;** | **&lt;/b&gt;** | Defines bold text. |
+| **&lt;i&gt;** | **&lt;/i&gt;** | Defines italic text. |
+| **&lt;s&gt;** | **&lt;/s&gt;** | Defines strikethrough text. |
+| **&lt;u&gt;** | **&lt;/u&gt;** | Defines underlined text. |
+| **&lt;image=**_value_**&gt;**  | - | Inserts an image from the report's named image collection. Supports both raster images and SVG images. The **image** tag's **size** attribute sets the image display pixel size. If the specified width/height exceeds the label's width/height, it is reduced to display the entire image. Specify the **size** attribute after the tag's value followed by the ";" character. |
+| **&lt;href=**_value_**&gt;** | **&lt;/href&gt;** | Displays a hyperlink. The value string specifies the hyperlink source, and the string between the opening and closing tags is the text to display. |
