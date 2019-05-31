@@ -36,18 +36,18 @@ This tutorial describes how to use the [detail band](..\introduction-to-banded-r
     Set the following options:
 
     - **Key Field Name** and **Parent Field Name**, or **Child List Field Name**  
-    Set the **Key Field Name** and **Parent Field Name** properties if your report's data have the Id-ParentID related fields.  
+    Set the **Key Field Name** and **Parent Field Name** properties if your report's data has the Id-ParentID related fields.  
     Set the **Child List Field Name** property if your report's data is recursive. Assign the collection of child objects (records) if they have the same type as the parent objects (records).
     
     - **Indent**   
     Specify the child level node offset.
 
     - **Keep Together with First Child**  
-    Specify whether to print a parent node together with its first child node on the next page, if these nodes do not fit at the end of a page.
+    Specify whether to print a parent node together with its first child node on the next page if these nodes do not fit at the end of a page.
 
     ![HierarchicalReport-HierarchyPrintOptions-Result](../../../../images/eurd-win-HierarchicalReport-HierarchyPrintOptions-Result.png)
 
-    As you can see in the image above, the **Detail** band that contains child rows is printed with the specified indent. However, the row (the sum of the label widths) do not fit the page now.
+    As you can see in the image above, the **Detail** band that contains child rows is printed with the specified indent. However, the row (the sum of the label widths) does not fit the page now.
 
 5. Align labels.
 
@@ -55,7 +55,7 @@ This tutorial describes how to use the [detail band](..\introduction-to-banded-r
 
         ![HierarchicalReport-AnchorHorizontally-both](../../../../images/eurd-win-hierarchicalreports-anchorhorizontally-both.png)
 
-    - Anchor the rest data-bound labels to the right edge of the Detail band (their container). Set their **Anchor Horizontal** property to **Rignt**.    
+    - Anchor the rest of the data-bound labels to the right edge of the Detail band (their container). Set their **Anchor Horizontal** property to **Rignt**.    
 
         ![HierarchicalReport-AnchorHorizontally-right](../../../../images/eurd-win-hierarchicalreports-anchorhorizontally-right.png)
 
