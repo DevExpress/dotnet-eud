@@ -5,7 +5,7 @@ owner: Sergey Andreev
 
 # Use Data-Driven Page Sequence
 
-This topic describes how to combine a table report that uses the Portrait page orientation and a chart report that uses the Landscape page orientation.
+This topic describes how to combine a table report that uses the Portrait page orientation and a chart report that uses Landscape page orientation.
 
 ![xtrareports-merge-reports](../../../../images/eurd-merge-reports.png)
 
@@ -13,7 +13,7 @@ Follow the steps below to create a combined report:
 
 ## Create a Chart Report
 
-1. Create a that shows data in the chart form. [Bind](../bind-to-data/bind-a-report-to-a-database.md) the report to a data source. Set the report's **Landscape** property to **true** to enable the Landscape page orientation.
+1. Create a report that shows data in the chart form. [Bind](../bind-to-data/bind-a-report-to-a-database.md) the report to a data source. Set the report's **Landscape** property to **true** to enable the Landscape page orientation.
 
     ![xtrareports-subreport](../../../../images/eurd-merge-chart-report.png)
 

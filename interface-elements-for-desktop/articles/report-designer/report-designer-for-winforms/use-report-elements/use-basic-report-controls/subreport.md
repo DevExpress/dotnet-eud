@@ -12,7 +12,7 @@ To add this control to a report, drag the **Subreport** item from the [Toolbox](
 
 The Subreport control allows you to solve the following tasks:
 
-* **Reuse reports**, if there is a particular report structure (template) that needs to be included in many reports, for instance, a report header that always contains the same information (the company information, logo, date, etc.).
+* **Reuse reports**, if there is a particular report structure (template) that needs to be included in many reports; for instance, a report header that always contains the same information (the company information, logo, date, etc.).
 
 * [Create master-detail reports](../../create-popular-reports/create-a-master-detail-report-use-subreports.md)
 * [Merge reports](../../merge-reports.md)
