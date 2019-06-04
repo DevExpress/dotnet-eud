@@ -10,7 +10,7 @@ The **Label** control displays plain text in a report. Drag the **Label** item f
 
 ![](../../../../../images/eurd-win-drop-report-control-from-toolbox.png)
 
-Double-click the label to invoke its in-place editor and enter the desired static text.
+Double-click the label to invoke its in-place editor and enter the static text.
 
 ![](../../../../../images/eurd-win-label-static-text.png)
 
@@ -23,7 +23,7 @@ You can [bind](../../bind-to-data/bind-controls-to-data-expression-bindings.md) 
 
 ![](../../../../../images/eurd-win-label-bind-to-data-field.png)
 
-Click the **Expression** option's ellipsis button to invoke the **Expression Editor**. You can use this editor to construct a complex binding expression that involves two or more data fields.
+Click the **Expression** option's ellipsis button to invoke the **Expression Editor**. You can use this editor to construct a complex binding expression from two or more data fields.
 
 ![](../../../../../images/eurd-win-label-expression-binding.png)
 
@@ -52,7 +52,7 @@ Specify a data range in the **Summary Running** property and select the summary 
 
 You can change label size at design time to fit its static text. Right-click the label and select the **Fit Bounds To Text** toolbar button:
 
-* If the **Word Wrap** option is enabled, the command displays control content on multiple lines. It reduces control height and adjusts the width to fit its content.
+* If the **Word Wrap** option is enabled, the command displays control content on multiple lines. It reduces control height and adjusts its width to fit its content.
 
 	![](../../../../../images/eurd-win-label-fit-bounds-to-text-word-wrap-enabled.png)
 
@@ -85,9 +85,9 @@ The **Can Grow** and **Can Shrink** properties allow you to increase or decrease
 |---|---|
 | ![](../../../../../images/eurd-win-label-can-shrink-true.png) | ![](../../../../../images/eurd-win-label-can-shrink-false.png) |
 
-The **Auto Width** property specifies whether or not to adjust a data-bound label's width to its content.
+The **Auto Width** property specifies whether to adjust a data-bound label's width to its content.
 
-You can also use the opposite **Text Fit Mode** property to adjust a control's font size to fit its boundaries in Print Preview mode. This property is not available if the **Can Grow**, **Can Shrink** or **Auto Width** option is enabled.
+You can also use the opposite **Text Fit Mode** property to adjust a control's font size to fit its boundaries in Print Preview. This property is not available if the **Can Grow**, **Can Shrink** or **Auto Width** option is enabled.
 
 | Text Fit Mode = None | Text Fit Mode = Grow Only | Text Fit Mode = Shrink Only | Text Fit Mode = Shrink And Grow |
 |---|---|---|---|
@@ -97,7 +97,7 @@ See the [Arrange Dynamic Report Content](../../lay-out-dynamic-report-content.md
 
 ## Interactivity
 
-Check the **Enabled** option in the **Edit Options** category to enable users to [edit a label's content](../../provide-interactivity/edit-content-in-print-preview.md) in Print Preview mode.
+Check the **Enabled** option in the **Edit Options** category to allow users to [edit a label's content](../../provide-interactivity/edit-content-in-print-preview.md) in Print Preview mode.
 
 ![](../../../../../images/eurd-win-label-edit-options-enabled.png)
 
@@ -105,7 +105,7 @@ Click this label in a previewed document to invoke the editor.
 
 ![](../../../../../images/eurd-win-label-content-editing-in-print-preview.png)
 
-Use the label's **Interactive Sorting** option to allow users to click this label in Print Preview to sort report data. Set the **Target Band** property to the required Group Header or Detail band, and specify the data field in the **Field Name** property.
+Use the label's **Interactive Sorting** option to allow users to click this label in Print Preview to sort report data. Set the **Target Band** property to the Group Header or Detail band, and specify the data field in the **Field Name** property.
 
 ![](../../../../../images/eurd-win-label-interactive-sorting-options.png)
 
