@@ -50,7 +50,7 @@ Specify a data range in the **Summary Running** property and select the summary 
 ## Adjust the Label Size and Content
 ### Static Content
 
-You can change label size at design time to fit its static text. Right-click the label and select the **Fit Bounds To Text** command in the context menu:
+You can change label size at design time to fit its static text. Right-click the label and select the **Fit Bounds To Text** toolbar button:
 
 * If the **Word Wrap** option is enabled, the command displays control content on multiple lines. It reduces control height and adjusts the width to fit its content.
 
@@ -113,7 +113,9 @@ Refer to [Sort a Report in Print Preview](../../provide-interactivity/sort-a-rep
 
 ## Markup Text
 
-If the **Allow Markup Text** property is checked, you can use markup tags to format the label's text.
+Enable the **Allow Markup Text** property to format the label's text with markup tags.
+
+![](../../../../../images/eurd-label-markup.png)
 
 **Label** supports the following tags:
 
@@ -128,5 +130,5 @@ If the **Allow Markup Text** property is checked, you can use markup tags to for
 | **&lt;i&gt;** | **&lt;/i&gt;** | Defines italic text. |
 | **&lt;s&gt;** | **&lt;/s&gt;** | Defines strikethrough text. |
 | **&lt;u&gt;** | **&lt;/u&gt;** | Defines underlined text. |
-| **&lt;image=**_value_**&gt;**  | - | Inserts an image from the report's named image collection. Supports both raster images and SVG images. The **image** tag's **size** attribute sets the image display pixel size. If the specified width/height exceeds the label's width/height, it is reduced to display the entire image. Specify the **size** attribute after the tag's value followed by the ";" character. |
+| **&lt;image=**_value_**&gt;**  | - | Inserts an image from the report's named image collection. Supports both raster images and SVG images. Use the report's **Image Resources** property to provide images and reference them by their **Id**. The **image** tag's **size** attribute sets the image display pixel size. If the specified width/height exceeds the label's width/height, it is reduced to display the entire image. Specify the **size** attribute after the tag's value followed by the ";" character. |
 | **&lt;href=**_value_**&gt;** | **&lt;/href&gt;** | Displays a hyperlink. The value string specifies the hyperlink source, and the string between the opening and closing tags is the text to display. |
