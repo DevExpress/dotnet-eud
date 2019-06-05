@@ -4,7 +4,7 @@ author: Anna Gubareva
 ---
 # Check Box
 
-The **Check State** property specifies the checkbox state:
+The **Check State** property specifies the checkbox's state.
 
 ![report-control-check-box](../../../../../images/eurd-checkbox-checkstate.png)
 
@@ -12,7 +12,7 @@ The **Check State** property specifies the checkbox state:
 
 The **Checked** property indicates whether the checkbox is checked (displays a check mark) or not (is empty).
 
-The **Text** property specifies the checkbox caption. Double-click the checkbox to invoke its in-place editor and type the caption text.
+The **Text** property specifies the checkbox's caption. Double-click the checkbox to invoke its in-place editor and type the caption text.
 
 ![report-control-check-box-text](../../../../../images/eurd-label-inline-editor.png)
 
@@ -22,11 +22,11 @@ Drag a Boolean field from the [Field List](../../../../../articles/report-design
 
 ![report-control-check-box-add-from-toolbox](../../../../../images/eurd-checkbox-drag-from-fieldlist.png)
 
-If you added a checkbox from the [Toolbox](../../../../../articles\report-designer\report-designer-for-winforms\report-designer-tools\toolbox.md), click the control's [smart tag](../../../../../articles/report-designer/report-designer-for-winforms/use-report-elements/manipulate-report-elements/select-report-elements-and-access-their-settings.md), expand the [](xref:DevExpress.XtraReports.UI.XRCheckBox.CheckState) property's **Expression** drop-down list and select a data field. This [binds](../../../../../articles/report-designer/report-designer-for-winforms/bind-to-data/bind-controls-to-data-expression-bindings.md) your control's [](xref:DevExpress.XtraReports.UI.XRCheckBox.CheckState) property to a data source field.
+If you add a checkbox from the [Toolbox](../../../../../articles\report-designer\report-designer-for-winforms\report-designer-tools\toolbox.md), click the control's [smart tag](../../../../../articles/report-designer/report-designer-for-winforms/use-report-elements/manipulate-report-elements/select-report-elements-and-access-their-settings.md), expand the [](xref:DevExpress.XtraReports.UI.XRCheckBox.CheckState) property's **Expression** drop-down list and select a data field. This [binds](../../../../../articles/report-designer/report-designer-for-winforms/bind-to-data/bind-controls-to-data-expression-bindings.md) your control's [](xref:DevExpress.XtraReports.UI.XRCheckBox.CheckState) property to a data source field.
 
 ![report-control-check-box-bind-to-data](../../../../../images/eurd-chekbox-bind-to-data.png)
 
-The data field value determines the checkbox state:
+The data field value specifies the checkbox's state:
 
 * **True** or **1** - activates the **Checked** state;
 * **False** or **0** - activates the **Unchecked** state;
@@ -58,7 +58,7 @@ The **Glyph Options** property provides access to glyph settings.
 
   ![report-control-check-box-customization](../../../../../images/eurd-checkbox-glyph-style.png)
 
-* **Alignment** - specifies the glyph alignment within the control.
+* **Alignment** - specifies the glyph's alignment within the control.
 
   ![report-control-check-box-customization](../../../../../images/eurd-checkbox-glyph-alignment.png)
 
@@ -68,7 +68,7 @@ The **Glyph Options** property provides access to glyph settings.
 
     ![report-control-check-box-customization](../../../../../images/eurd-checkbox-glyphoptions-customglyphs.png)
 
-    When you specify custom glyphs, the **Open File** dialog is invoked.
+    The **Open File** dialog is invoked when you specify custom glyphs.
 
     ![report-control-check-box-customization](../../../../../images/eurd-checkbox-glyphoptions-customglyphs-openfile.png)
 
