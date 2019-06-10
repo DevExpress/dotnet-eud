@@ -18,7 +18,7 @@ This topic describes how to create a federated data source that joins data from 
 
 ## Create Data Federation and Bind the Report to It
 
-1. Click the report's smart tag, expand the **Data Source** property's drop-down menu and click **Add New DataSource**.
+1. Click the report's smart tag, expand the **Data Source** property's drop-down menu, and click **Add New DataSource**.
 
     ![](../../../../images/eurd-add-federated-datasource.png)
 
