@@ -30,7 +30,7 @@ This topic describes how to create a federated data source that joins data from 
 
     ![](../../../../images/eurd-data-federation-wizard-add-query.png)
 
-4. In the invoked [Query Builder](../../../../articles/report-designer/report-designer-for-winforms/report-designer-tools/query-builder.md), drag and drop the **Categories** table onto the design surface.
+4. In the invoked [Query Builder](../../../../articles/report-designer/report-designer-for-winforms/report-designer-tools/query-builder.md), drag and drop the table from the SQL data source onto the design surface.
 
     ![](../../../../images/eurd-data-federation-query-builder-drop-table.png)
 

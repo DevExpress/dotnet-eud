@@ -26,7 +26,7 @@ This topic describes how to create a federated data source that retrieves data f
 
     ![](../../../../images/eurd-data-federation-wizard.png)
 
-3. On the next page, enable check boxes for the SQL data source's **Categories** table and the Excel data source. The selected items are included in data federation as separate queries.
+3. On the next page, enable check boxes for the SQL data source's table and the Excel data source. The selected items are included in data federation as separate queries.
 
     Click **Manage Relations** to specify a master-detail relationship between these queries.
 
