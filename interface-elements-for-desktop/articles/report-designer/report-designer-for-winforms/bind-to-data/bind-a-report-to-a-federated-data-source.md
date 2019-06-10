@@ -38,7 +38,7 @@ This topic describes how to create a federated data source that joins data from 
 
     ![](../../../../images/eurd-data-federation-query-builder-join-tables.png)
 
-6. Enable check boxes for the data fields you want to include in the query result set.
+6. Enable checkboxes for the data fields you want to include in the query result set.
 
     ![](../../../../images/eurd-data-federation-query-builder-select-fields.png)
 
