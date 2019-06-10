@@ -34,7 +34,7 @@ This topic describes how to create a federated data source that joins data from 
 
     ![](../../../../images/eurd-data-federation-query-builder-drop-table.png)
 
-5. Drag and drop the Excel data source onto the design surface. In the invoked **Join Editor**, select the **Inner join** type and create a join relationship based on the key field.
+5. Drag and drop the Excel data source onto the design surface. In the invoked **Join Editor**, select the **Inner join** type and create a relationship based on the key field.
 
     ![](../../../../images/eurd-data-federation-query-builder-join-tables.png)
 
@@ -66,7 +66,7 @@ Once you rename the query, update the report's **Data Member** property.
 
     ![](../../../../images/eurd-data-federation-report-wizard-table-report.png)
 
-3. Select data fields to display in the report and click **Finish**. You can also go to the [next page](../../../../articles/report-designer/report-designer-for-winforms/report-designer-tools/report-wizard/table-report/add-grouping-levels.md) to continue layout creation.
+3. Select data fields to display in the report and click **Finish**. You can also go to the [next page](../../../../articles/report-designer/report-designer-for-winforms/report-designer-tools/report-wizard/table-report/add-grouping-levels.md) to create the layout.
 
     ![](../../../../images/eurd-data-federation-report-wizard-select-fields.png)
 
