@@ -48,7 +48,7 @@ The Wizard creates a new **FederationDataSource** that includes the single query
 
 ![](../../../../images/eurd-data-federation-data-source-structure.png)
 
-The federated query's default name equals to the main table's name. You can rename this query in the **Manage Queries** dialog. To invoke it, right-click the data source in the Field List or Report Explorer and select **Manage Queries** in the context menu.
+The federated query's default name is the same as the main table's name. To rename this query, right-click the data source in the Field List or Report Explorer and select **Manage Queries** in the context menu.
 
 ![](../../../../images/eurd-data-federation-rename-query.png)
 
