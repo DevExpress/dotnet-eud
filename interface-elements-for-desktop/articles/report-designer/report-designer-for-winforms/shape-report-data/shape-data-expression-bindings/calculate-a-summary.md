@@ -9,7 +9,7 @@ This document shows how to use a report control's Expression property to calcula
 ![xtrareports-summary](../../../../../images/eurd-summary.png)
 
 > [!Warning]
-> Use the approach below if expression bindings **are enabled** in the Report Designer (the [Property Grid](../../report-designer-tools/ui-panels/property-grid.md) provides the **PropertyName Expression** item in the property marker's context menu).
+> Use this approach if expression bindings **are enabled** in the Report Designer (the [Property Grid](../../report-designer-tools/ui-panels/property-grid.md) provides the **PropertyName Expression** item in the property marker's context menu).
 >
 > ![xtrareports-summary](../../../../../images/eurd-label-expression-binding-mode.png)
 >
