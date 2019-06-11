@@ -11,13 +11,15 @@ This document shows how to use a report control's Expression property to calcula
 > [!Warning]
 > Use the approach below if expression bindings **are enabled** in the Report Designer (the [Property Grid](../../report-designer-tools/ui-panels/property-grid.md) provides the **PropertyName Expression** item in the property marker's context menu).
 >
+> ![xtrareports-summary](../../../../../images/eurd-label-expression-binding-mode.png)
+>
 > See [Calculate a Summary](../shape-data-data-bindings/calculate-a-summary.md) if expression bindings **are not enabled** in the Report Designer.
 
 Follow the steps below to calculate a summary:
 
-1. Create a report [bound](../../../../../articles/report-designer/report-designer-for-winforms/bind-to-data.md) to a database.
+1. Create a report [bound](../../../../../articles/report-designer/report-designer-for-winforms/bind-to-data.md) to a data source.
 
-1. Use the [Group and Sort Panel](../../../../../articles/report-designer/report-designer-for-winforms/report-designer-tools/ui-panels/group-and-sort-panel.md) to [group](../../../../../articles/report-designer/report-designer-for-winforms/shape-report-data/group-and-sort-data/group-data.md) or [sort](../../../../../articles/report-designer/report-designer-for-winforms/shape-report-data/group-and-sort-data/sort-data.md) report data by the key data field and construct a layout like the following:
+1. Use the [Group and Sort Panel](../../../../../articles/report-designer/report-designer-for-winforms/report-designer-tools/ui-panels/group-and-sort-panel.md) to [group report data](../../../../../articles/report-designer/report-designer-for-winforms/shape-report-data/group-and-sort-data/group-data.md) by the key data field and construct a layout like the following:
 
 	![xtrareports-summary-report-layout](../../../../../images/eurd-summary-layout.png)
 
