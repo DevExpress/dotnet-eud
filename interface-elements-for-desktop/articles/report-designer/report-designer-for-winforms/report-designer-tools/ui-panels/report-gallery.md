@@ -9,9 +9,6 @@ The **Report Gallery** allows you to store and reuse reports and their elements.
 
 Do not confuse the Report Gallery with the [Report Explorer](report-explorer.md) that has a similar user interface. The Report Gallery stores shared templates. The Report Explorer displays the current report structure.
 
-> [!NOTE]
-> **Watch the Video**: [Report Gallery (YouTube)](https://www.youtube.com/watch?v=SEaEMVFoIAw)
-
 ## Reports
 
 The Report Gallery displays report layout templates in the **Reports** category.
@@ -145,7 +142,3 @@ You can import gallery items from an XML file. Right-click the **Import** toolba
 ![report-gallery-load-save-gallery](../../../../../images/eurd-report-gallery-load-save-gallery.png)
 
 To save gallery templates to an XML file, click the **Export** toolbar button and select a target file in the **Save** dialog.
-
-## Template Storage
-
-The Report Gallery stores templates in the **%localappdata%\Developer Express Inc\XtraReports Suite\ReportGallery.xml** file.
