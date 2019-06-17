@@ -17,7 +17,9 @@ This document describes how to calculate an advanced summary for report groups u
 
     ![](../../../../../images/eurd-win-label-summary-group-data.png)
 
-3. Drop a [Label](../../use-report-elements/use-basic-report-controls/label.md) onto the group footer to display the summary result. Click the label's smart tag and set its **Summary Running** property to **Group**.
+3. Drop a [Label](../../use-report-elements/use-basic-report-controls/label.md) onto the group footer to display the summary result.
+
+    Click the label's smart tag and set its **Summary** property to **Group**.
 
     ![](../../../../../images/eurd-win-label-advanced-summary-running.png)
 
