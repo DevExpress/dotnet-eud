@@ -45,7 +45,7 @@ Follow the steps below to calculate a summary:
 
 	> [!TIP]
 	> See the [Expression Operators, Functions and Constants](../../../../../articles/expression-editor/expression-operators-functions-and-constants.md) topic for a complete list of supported summary functions.
-1. You can use the **FormatString** property to format the summary value:
+1. You can use the **Format String** property to format the summary value:
 	
 	![summary-format-string-label-smart-tag](../../../../../images/eurd-summary-label-details.png)
 

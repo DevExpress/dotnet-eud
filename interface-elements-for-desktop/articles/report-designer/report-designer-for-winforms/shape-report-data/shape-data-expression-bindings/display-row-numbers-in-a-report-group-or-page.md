@@ -20,7 +20,7 @@ A label can display row numbers after [binding your report to data](../../bind-t
 2. In the Summary Editor window:
 
 	* Set the **Summary running** property. Select **Report** to increment the row numbers throughout the entire report, or select **Group** or **Page** to reset the row numbers for every group or page.
-	* Set the **Summary function** property to **RecordNumber**.
+	* Set the **Summary function** property to **Record Number**.
 	
 	![](../../../../../images/eurd-win-shaping-row-numbers-expression-property.png)
 

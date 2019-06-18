@@ -35,7 +35,7 @@ This document describes how to display the number or records in a report or grou
 
 	![](../../../../../images/eurd-win-shaping-count-expression.png)
 
-6. Back in the **Label Tasks** window, you can use the **FormatString** property to format the resulting value:
+6. Back in the **Label Tasks** window, you can use the **Format String** property to format the resulting value:
 	
 	![](../../../../../images/eurd-win-shaping-count-format-string.png)
 

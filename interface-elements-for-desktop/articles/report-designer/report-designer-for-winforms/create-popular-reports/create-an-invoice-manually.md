@@ -131,7 +131,7 @@ Do the following to calculate a total price for each order as a sum of **Extende
 
 	* Set the **Summary running** property to the **Report** value to calculate the summary for the entire detail report.
 	* Set the **Summary function** property to **Sum**.
-	* Set the **Argument Expression** property to **[ExtendedPrice]**.
+	* Set the **Argument Expression** property to the field you want to sum up.
 	
 	![](../../../../images/eurd-win-invoice-specify-summary-function.png)
 

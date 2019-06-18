@@ -35,7 +35,7 @@ This document describes how to count the number of groups in a report.
 
 ![](../../../../../images/eurd-win-shaping-group-count-expression.png)
 
-8. Back in the **Label Tasks** window, you can use the **FormatString** property to format the summary's value:
+8. Back in the **Label Tasks** window, you can use the **Format String** property to format the summary's value:
 
 	![](../../../../../images/eurd-win-shaping-group-count-format-string.png)
 
