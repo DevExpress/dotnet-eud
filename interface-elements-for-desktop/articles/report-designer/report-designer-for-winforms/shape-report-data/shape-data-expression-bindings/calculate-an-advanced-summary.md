@@ -23,7 +23,7 @@ This document describes how to calculate an advanced summary for report groups u
 
     ![](../../../../../images/eurd-win-label-advanced-summary-running.png)
 
-4. Click the **Expression** propertyэы ellipsis button.
+4. Click the **Expression** property's ellipsis button.
 
     ![](../../../../../images/eurd-win-label-advanced-summary-expression-property.png)
 
