@@ -739,6 +739,8 @@
           href: articles/report-designer/report-designer-for-winforms/shape-report-data/shape-data-expression-bindings/limit-the-number-of-records-per-page.md
         - name: Calculate a Summary
           href: articles/report-designer/report-designer-for-winforms/shape-report-data/shape-data-expression-bindings/calculate-a-summary.md
+        - name: Calculate a Weighted Average
+          href: articles/report-designer/report-designer-for-winforms/shape-report-data/shape-data-data-bindings/calculate-a-weighted-average.md
         - name: Calculate an Advanced Summary
           href: articles/report-designer/report-designer-for-winforms/shape-report-data/shape-data-expression-bindings/calculate-an-advanced-summary.md
         - name: Display Row Numbers in a Report, Group or Page
@@ -764,6 +766,8 @@
           href: articles/report-designer/report-designer-for-winforms/shape-report-data/shape-data-data-bindings/limit-the-number-of-records-per-page.md
         - name: Calculate a Summary
           href: articles/report-designer/report-designer-for-winforms/shape-report-data/shape-data-data-bindings/calculate-a-summary.md
+        - name: Calculate a Weighted Average
+          href: articles/report-designer/report-designer-for-winforms/shape-report-data/shape-data-expression-bindings/calculate-a-weighted-average.md
         - name: Calculate a Custom Summary
           href: articles/report-designer/report-designer-for-winforms/shape-report-data/shape-data-data-bindings/calculate-a-custom-summary.md
         - name: Display Row Numbers in a Report, Group or Page
@@ -779,8 +783,6 @@
           href: articles/report-designer/report-designer-for-winforms/shape-report-data/use-calculated-fields/calculated-fields-overview.md
         - name: Calculate an Aggregate Function
           href: articles/report-designer/report-designer-for-winforms/shape-report-data/use-calculated-fields/calculate-an-aggregate-function.md
-        - name: Calculate a Weighted Average Function
-          href: articles/report-designer/report-designer-for-winforms/shape-report-data/use-calculated-fields/calculate-a-weighted-average-function.md
       - name: Use Report Parameters
         href: articles/report-designer/report-designer-for-winforms/shape-report-data/use-report-parameters.md
         items:

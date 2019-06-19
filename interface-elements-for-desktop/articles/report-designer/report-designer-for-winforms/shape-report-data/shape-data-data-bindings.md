@@ -13,6 +13,7 @@ The tutorials in this section illustrate how to solve various tasks related to s
 * [Conditionally Suppress Controls](shape-data-data-bindings/conditionally-supress-controls.md)
 * [Limit the Number of Records per Page](shape-data-data-bindings/limit-the-number-of-records-per-page.md)
 * [Calculate a Summary](shape-data-data-bindings/calculate-a-summary.md)
+* [Calculate a Weighted Average](shape-data-data-bindings/calculate-a-weighted-average.md)
 * [Calculate a Custom Summary](shape-data-data-bindings/calculate-a-custom-summary.md)
 * [Display Row Numbers in a Report, Group or Page](shape-data-data-bindings/display-row-numbers-in-a-report-group-or-page.md)
 * [Count the Number of Records in a Report or Group](shape-data-data-bindings/count-the-number-of-records-in-a-report-or-group.md)
