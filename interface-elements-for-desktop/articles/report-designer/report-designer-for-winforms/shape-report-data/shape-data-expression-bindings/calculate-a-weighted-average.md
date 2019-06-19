@@ -4,19 +4,19 @@ author: Anna Gubareva
 ---
 # Calculate a Weighted Average
 
+> [!NOTE]
+> Use this approach if expression bindings **are enabled** in the Report Designer (the [Property Grid](../../report-designer-tools/ui-panels/property-grid.md) provides the **PropertyName Expression** items).
+> 
+> ![](../../../../../images/eurd-label-expression-binding-mode.png)
+
+> See the [Calculate a Weighted Average](../shape-data-data-bindings/calculate-a-weighted-average.md) topic in the [Shape Data (Data Bindings)](../shape-data-data-bindings.md) section to learn about the alternative approach.
+
 ![](../../../../../images/eurd-win-weighted-average-result.png)
 
-## <a name="summaryfunctions"></a>Use Report Summary Functions (Recommended)
-
-You can calculate a weighted average at report level by specifying a control's expression using several built-in report summary functions.
-
-> [!NOTE]
-> You can use this approach if expression bindings **are enabled** in the Report Designer (the [Property Grid](../../report-designer-tools/ui-panels/property-grid.md) provides the **Expressions** ![](../../../../../images/eurd-win-property-grid-expressions-icon.png) tab).
-> 
-> See the next document sections to learn about alternative approaches.
+Follow the steps below to calculate a weighted average:
 
 1. [Open an existing report](../../open-reports.md) or [create a new one from scratch](../../add-new-reports.md).
-2. [Bind a report](../../bind-to-data.md) to a required data source. 
+2. [Bind a report](../../bind-to-data.md) to a required data source.
 3. [Group the report's data](../../shape-report-data/group-and-sort-data/group-data.md) using the [Group and Sort Panel](../../report-designer-tools/ui-panels/group-and-sort-panel.md) and construct a layout like the following:
 	
 	![](../../../../../images/eurd-win-weighted-average-group-data.png)

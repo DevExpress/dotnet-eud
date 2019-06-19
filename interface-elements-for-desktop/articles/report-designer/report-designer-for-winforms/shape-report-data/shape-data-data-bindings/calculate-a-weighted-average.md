@@ -5,9 +5,11 @@ author: Anna Gubareva
 # Calculate a Weighted Average
 
 > [!NOTE]
-> You can use this approach if data bindings **are enabled** in the Report Designer (the [Property Grid](../../report-designer-tools/ui-panels/property-grid.md) does not provide the **Expressions** ![](../../../../../images/eurd-win-property-grid-expressions-icon.png) tab).
+> Use this approach if data bindings **are enabled** in the Report Designer (the [Property Grid](../../report-designer-tools/ui-panels/property-grid.md) does not provide the **PropertyName Expression** items).
 >
-> See the next document sections to learn about alternative approaches.
+> ![](../../../../../images/eurd-label-expression-binding-mode-2.png)
+>
+> See the [Calculate a Weighted Average](../shape-data-expression-bindings/calculate-a-weighted-average.md) topic in the [Shape Data (Expression Bindings)](../shape-data-expression-bindings.md) section to learn about the alternative approach.
 
 ![](../../../../../images/eurd-win-weighted-average-result.png)
 
@@ -54,7 +56,7 @@ Use a **sqlDataSource** component to calculate summaries at data source level. Y
 
 	![report-wizard-invoke-query-builder](../../../../../images/eurd-weighted-average-data-source-wizard.png)
 
-	To customize a data source, right-click the data source in the [Report Explorer](../../../../../articles/report-designer/report-designer-for-winforms/report-designer-tools/ui-panels/report-explorer.md) or [Field List](../../../../../articles/report-designer/report-designer-for-winforms/report-designer-tools/ui-panels/field-list.md) and select **Manage Queries...** in the context menu.
+	To customize a data source, right-click the data source in the [Report Explorer](../../../../../articles/report-designer/report-designer-for-winforms/report-designer-tools/ui-panels/report-explorer.md) or [Field List](../../../../../articles/report-designer/report-designer-for-winforms/report-designer-tools/ui-panels/field-list.md) and select **Manage Queries** in the context menu.
 
 	![how-to-sql-data-source03](../../../../../images/eurd-weighted-average-manage-queries.png)
 
@@ -70,7 +72,7 @@ Use a **sqlDataSource** component to calculate summaries at data source level. Y
 
 	![WeightedAverage_AddTables](../../../../../images/eurd-weighted-average-query-builder.png)
 
-3. In the column list under the data source editor, group data by the **CategoryID** and **CategoryName** fields and apply the **Sum** aggregate function to the **UnitsInStock** field.
+3. In the column list under the data source editor, group data by the group fields and apply the **Sum** aggregate function to the **UnitsInStock** field.
 
 	![WeightedAverage_GroupAndAggregate](../../../../../images/eurd-weighted-average-column-list.png)
 
@@ -96,5 +98,6 @@ Use a **sqlDataSource** component to calculate summaries at data source level. Y
 
 9. In the invoked **Expression Editor**, construct the expression and click **OK**:
 
-	![WeightedAverage_ExpressionForCalcField](~/images/weightedaverage_expressionforcalcfield124733.png)
+	![WeightedAverage_ExpressionForCalcField](../../../../../images/eurd-weighted-average-construct-expression.png)
+
 10. Add the created calculated field to the report as an ordinary data field and format its value.
