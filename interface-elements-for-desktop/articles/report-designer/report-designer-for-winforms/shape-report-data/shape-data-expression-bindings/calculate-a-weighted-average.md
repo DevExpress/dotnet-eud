@@ -5,7 +5,8 @@ author: Anna Gubareva
 # Calculate a Weighted Average
 
 > [!NOTE]
-> Use this approach if expression bindings **are enabled** in the Report Designer (the [Property Grid](../../report-designer-tools/ui-panels/property-grid.md) provides the **PropertyName Expression** items).
+> Use this approach if expressions **are enabled** in the Report Designer
+(the Label's smart tag includes the **Expression** parameter).
 > 
 > ![](../../../../../images/eurd-label-expression-binding-mode.png)
 
