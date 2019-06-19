@@ -5,11 +5,11 @@ author: Anna Gubareva
 # Calculate a Weighted Average
 
 > [!NOTE]
-> Use this approach if data bindings **are enabled** in the Report Designer. (the Label's smart tag includes the **Data Binding** parameter).
+> Use this approach if data bindings **are enabled** in the Report Designer (the Label's smart tag includes the **Data Binding** property).
 >
 > ![](../../../../../images/eurd-label-expression-binding-mode.png)
 >
-> See the [Calculate a Weighted Average](../shape-data-expression-bindings/calculate-a-weighted-average.md) topic in the [Shape Data (Expression Bindings)](../shape-data-expression-bindings.md) section to learn about the alternative approach.
+> See the [Calculate a Weighted Average](../shape-data-expression-bindings/calculate-a-weighted-average.md) topic in the [Shape Data (Expression Bindings)](../shape-data-expression-bindings.md) section to learn about an alternative approach.
 
 ![](../../../../../images/eurd-win-weighted-average-result.png)
 
