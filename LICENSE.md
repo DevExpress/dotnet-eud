@@ -1,8 +1,8 @@
 DEVELOPER EXPRESS INC
 DEVEXPRESS Components/Tools End-User Help Documentation
-Copyright (C) 2000-2017 Developer Express Inc.
+Copyright (C) 2000-2019 Developer Express Inc.
 
-Last revised July, 2017 
+Last revised June, 2019 
 
 END-USER LICENSE AGREEMENT
 
