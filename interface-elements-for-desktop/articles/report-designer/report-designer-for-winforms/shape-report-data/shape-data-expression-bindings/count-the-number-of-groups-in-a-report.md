@@ -30,7 +30,7 @@ This document describes how to count the number of groups in a report.
 7. In the Summary Editor window:
 
 	* Set the **Summary running** property to the **Report** value.
-	* Set the **Summary function** property to **DCount**.
+	* Set the **Summary function** property to **Count (Distinct)**.
 	* Set the **Argument expression** property to the field you group the data by.
 
 ![](../../../../../images/eurd-win-shaping-group-count-expression.png)
