@@ -44,6 +44,30 @@ Right-click a property's editor to reset the value.
 
 ![WinFormsPropertyGrid-ResetValue](../../../../../images/eurd-win-FormsPropertyGrid-ResetValue.png)
 
+## Set Color Properties
+
+You can use Magnifier to set color properties.
+
+![](../../../../../images/eurd-win-magnifier-button.png)
+
+Do the following to use Magnifier:
+
+- Click the Magnifier button.
+- Move the invoked Magnifier on the screen to find the color you want to set.
+
+	![](../../../../../images/eurd-win-magnifier-get-color.png)
+
+	You can zoom out the magnified zone. To do this use one of the following options:
+	
+	- Hold Ctrl and press + / -
+	- Scroll the mouse wheel
+
+- Click to set the color property to the found color.
+
+	![](../../../../../images/eurd-win-magnifier-set-color.png)
+
+Right click to cancel Magnifier mode.	
+
 ## Specify Expressions
 
 If [expression bindings](../../bind-to-data/data-binding-modes.md) are enabled, the Property Grid allows you to specify expressions that can include two or more data fields and various functions. Click a property marker to see whether the invoked context menu has the **PropertyName Expression** item. 
