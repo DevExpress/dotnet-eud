@@ -123,13 +123,21 @@ Do the following to calculate a total price for each order as a sum of **Extende
 
 1. Add the Group Footer band to the detail report in the same way as the Group Header.
 
-2. Drop the Label control onto the added band and click its smart tag. Set the **Summary Running** property to **Report** to calculate the summary for the entire detail report and click the **Expression** property's ellipsis button. In the invoked **Expression Editor**, specify the following expression to calculate the total price:
+2. Drop the Label control onto the added band and click its smart tag. In the invoked Label Tasks window, click the **Summary** field's ellipsis button.
+
+	![](../../../../images/eurd-label-summary-3.png)
+
+* In the **Summary Editor** window:
+
+	* Set the **Summary running** property to the **Report** value to calculate the summary for the entire detail report.
+	* Set the **Summary function** property to **Sum**.
+	* Set the **Argument Expression** property to the field you want to sum up.
 	
 	![](../../../../images/eurd-win-invoice-specify-summary-function.png)
 
-3. Use the **Format String** property to format the summary's value (for instance, set it to **Total: {0:c2}**).
+3. Back in the **Label Tasks** window, use the **Format String** property to format the summary's value (for instance, set it to **Total: {0:c2}**).
 	
-	![](../../../../images/eurd-win-invoice-summary-format-string.png)
+	![](../../../../images/eurd-invoice-report-label-summary-format.png)
 
 ## <a name="sorting"></a>Sort Data
 Perform the following steps to sort data in the detail report:
