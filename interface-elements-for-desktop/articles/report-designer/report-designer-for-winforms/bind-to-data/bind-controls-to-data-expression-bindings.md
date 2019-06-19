@@ -4,10 +4,12 @@ author: Anna Gubareva
 ---
 # Bind Report Controls to Data (Expression Bindings)
 
-> [!Warning]
-> Use the approach below if expression bindings **are enabled** in the Report Designer (the [Property Grid](../report-designer-tools/ui-panels/property-grid.md) provides the *PropertyName Expression* option in property markers' context menu).
+> [!NOTE]
+> Use this approach if expressions **are enabled** in the Report Designer (the Label's smart tag includes the **Expression** property).
 >
-> See [Bind Report Controls to Data (Data Bindings)](bind-controls-to-data-data-bindings.md) if expression bindings **are not enabled** in the Report Designer (the [Property Grid](../report-designer-tools/ui-panels/property-grid.md) does not provide the *PropertyName Expression* option in property markers' context menu).
+> ![](../../../../images/eurd-label-expression-binding-modes.png)
+
+> See the [Bind Report Controls to Data (Data Bindings)](bind-controls-to-data-data-bindings.md) topic to learn about an alternative approach.
 
 You can use the following approaches to include a data source's information in your report:
 
