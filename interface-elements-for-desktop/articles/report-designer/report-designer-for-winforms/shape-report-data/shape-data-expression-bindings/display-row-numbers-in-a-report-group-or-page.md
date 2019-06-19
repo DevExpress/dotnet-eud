@@ -13,19 +13,18 @@ This document describes how to show the current row number for each data source 
 
 A label can display row numbers after [binding your report to data](../../bind-to-data.md) and specifying a bound data field in the Label's **Expression** property.
 
-1. Click the label's smart tag and invoke its **Summary Running** drop-down list. Select **Report** to increment the row numbers throughout the entire report, or select **Group** or **Page** to reset the row numbers for every group or page.
+1. Click the label's smart tag. In the invoked **Label Tasks** window, click the **Summary** property's ellipsis button.
 	
 	![](../../../../../images/eurd-win-shaping-row-numbers-summary-running.png)
 
-2. Click the ellipsis button for the **Expression** property.
+2. In the Summary Editor window:
+
+	* Set the **Summary running** property. Select **Report** to increment the row numbers throughout the entire report, or select **Group** or **Page** to reset the row numbers for every group or page.
+	* Set the **Summary function** property to **Record Number**.
 	
 	![](../../../../../images/eurd-win-shaping-row-numbers-expression-property.png)
 
-3. In the invoked **Summary Expression Editor**, select the **sumRecordNumber** function in the **Functions** | **Summary** section.
-	
-	![](../../../../../images/eurd-win-shaping-row-numbers-expression.png)
-
-4. Use the **Format String** property to format the resulting value.
+3. Back in the **Label Tasks** window, you can use the **FormatString** property to format the resulting value:
 	
 	![](../../../../../images/eurd-win-shaping-row-numbers-format-string.png)
 

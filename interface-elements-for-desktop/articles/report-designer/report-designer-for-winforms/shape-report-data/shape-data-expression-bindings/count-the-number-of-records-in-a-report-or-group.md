@@ -23,19 +23,19 @@ This document describes how to display the number or records in a report or grou
 	
 	![](../../../../../images/eurd-win-shaping-drop-field-onto-report-header.png)
 
-3. Click the label's smart tag and invoke its **Summary Running** drop-down list. Select **Report** to count the records throughout the entire report, or select **Group** or **Page** to reset the record count for every group or page.
+3. Click the label's smart tag. In the invoked Label Tasks window, click the **Summary** field's ellipsis button.
 	
 	![](../../../../../images/eurd-win-shaping-count-summary-running.png)
 
-4. Click the **Expression** property's ellipsis button.
-	
-	![](../../../../../images/eurd-win-shaping-count-expression-property.png)
+4. In the **Summary Editor** window:
 
-5. In the invoked **Summary Expression Editor**, select the **sumCount** function in the **Functions** | **Summary** section.
-	
+	* Set the **Summary** property. Select **Report** to count the records throughout the entire report, or select **Group** or **Page** to reset the record count for every group or page.
+	* Set the **Summary function** property to **DCount**.
+	* Set the **Argument Expression** property to the data field you need to count.
+
 	![](../../../../../images/eurd-win-shaping-count-expression.png)
 
-6. Use the **Format String** property to format the resulting value.
+6. Back in the **Label Tasks** window, you can use the **Format String** property to format the resulting value:
 	
 	![](../../../../../images/eurd-win-shaping-count-format-string.png)
 
