@@ -8,12 +8,12 @@ This document shows how to use a report control's Expression property to calcula
 
 ![xtrareports-summary](../../../../../images/eurd-summary.png)
 
-> [!Warning]
-> Use this approach if expression bindings **are enabled** in the Report Designer (the [Property Grid](../../report-designer-tools/ui-panels/property-grid.md) provides the **PropertyName Expression** item in the property marker's context menu).
+> [!NOTE]
+> Use this approach if expressions **are enabled** in the Report Designer (the Label's smart tag includes the **Expression** property).
 >
-> ![xtrareports-summary](../../../../../images/eurd-label-expression-binding-mode.png)
+> ![](../../../../../images/eurd-label-expression-binding-modes.png)
 >
-> See [Calculate a Summary](../shape-data-data-bindings/calculate-a-summary.md) if expression bindings **are not enabled** in the Report Designer.
+> See the [Calculate a Summary](../shape-data-data-bindings/calculate-a-summary.md) topic in the [Shape Data (Data Bindings)](../shape-data-data-bindings.md) section to learn about an alternative approach.
 
 Follow the steps below to calculate a summary:
 

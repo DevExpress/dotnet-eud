@@ -6,10 +6,12 @@ author: Anna Gubareva
 
 This document describes how to calculate an advanced summary for report groups using a built-in summary function and arithmetical or logical functions.
 
-> [!Warning]
-> Use the approach below if expression bindings **are enabled** in the Report Designer (the [Property Grid](../../report-designer-tools/ui-panels/property-grid.md) provides the **PropertyName Expression** item in the property marker's context menu).
+> [!NOTE]
+> Use this approach if expressions **are enabled** in the Report Designer (the Label's smart tag includes the **Expression** property).
 >
-> See [Calculate a Custom Summary](../shape-data-data-bindings/calculate-a-custom-summary.md) if expression bindings **are not enabled** in the Report Designer.
+> ![](../../../../../images/eurd-label-expression-binding-modes.png)
+>
+> See the [Calculate a Custom Summary](../shape-data-data-bindings/calculate-a-custom-summary.md) topic in the [Shape Data (Data Bindings)](../shape-data-data-bindings.md) section to learn about an alternative approach.
 
 1. [Create a new report](../../add-new-reports.md) or open an existing one and [bind it to a data source](../../bind-to-data.md).
 
