@@ -6,7 +6,7 @@ author: Anna Gubareva
 
 This document describes how to add [controls](xref:2605) to a report.
 
-## <a id="addcontrolsfromthetoolbox"></a>Add Controls from Standard Controls
+## <a id="addcontrolsfromthetoolbox"></a>Add Controls from the Standard Controls Bar
 
 Use the End-User Designer's Standard Controls bar to add controls to your report.
 
@@ -60,7 +60,7 @@ You can add text and graphics from external applications to your reports:
 
 * Copy a file, text or image from an external application, and paste it into your report.
 
-	![eurd-add-controls-copy-text](~/images/eurd-add-controls-copy-text.png)
+	![eurd-add-controls-copy-text](../../../../../images/eurd-add-controls-copy-text.png)
 
 The following table shows which file types transform into report controls:
 
