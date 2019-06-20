@@ -16,15 +16,15 @@ To add the **Picture Box** control to a report, drag the **Picture Box** item fr
 Specify one of the following properties to set an image:
 
 - **Image Source**  
-    Save the image to the report's definition.
+    Save the image to the report definition.
 - **Image Url**  
-    Save only a path to the image.
+    Only save a path to the image.
 
 ![](../../../../../images/eurd-win-picture-box-image-property.png)
 
 ## Assign an External Image
 
-Click the **Image Source** / **Image URL** property's ellipsis button and the **Open File** dialog is invoked.
+Click the **Image Source** / **Image URL** property's ellipsis button to invoke the **Open File** dialog.
 
 ![](../../../../../images/eurd-win-ImageSource-OpenFileDialog.png)
 
@@ -36,7 +36,7 @@ Set the report's **Image Resources** property.
 
 ![](../../../../../images/eurd-win-ImageResources-Editor.png)
 
-Invoke the **Picture Box**'s smart tag. Click the **Expression** option's ellipsis button to invoke the **Expression Editor**. Choose an image from the **Images** collection:
+Click the **Picture Box**'s smart tag. In the invoked menu, click the **Expression** option's ellipsis button to open the **Expression Editor**. Choose an image from the **Images** collection:
 
 ![ImageSource-OpenFileDialog](../../../../../images/eurd-win-ImageSource-ExpressionEditor-ImagesCollection.png)
 
@@ -45,7 +45,7 @@ Invoke the **Picture Box**'s smart tag. Click the **Expression** option's ellips
 
 Use one of the following techniques to add the **Picture Box** control that obtains an image from a data source.
 
-- Invoke the control's smart tag, expand the **Expression** drop-down list for the **Image Source** property and select a data field.
+- Click the control's smart tag. In the invoked menu, expand the **Expression** drop-down list for the **Image Source** property and select a data field.
 
     ![](../../../../../images/eurd-win-picturebox-set-field.png)
 
