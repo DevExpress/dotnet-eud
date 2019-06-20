@@ -8,7 +8,7 @@ This document describes how to add [controls](xref:2605) to a report.
 
 ## <a id="addcontrolsfromthetoolbox"></a>Add Controls from the Standard Controls Bar
 
-Use the End-User Designer's Standard Controls bar to add controls to your report.
+Use the End-User Designer's [Toolbox](../../../../../articles/report-designer/report-designer-for-winforms/report-designer-tools/toolbox.md) to add controls to your report.
 
 ![eurd-add-controls](../../../../../images/eurd-add-controls.png)
 
