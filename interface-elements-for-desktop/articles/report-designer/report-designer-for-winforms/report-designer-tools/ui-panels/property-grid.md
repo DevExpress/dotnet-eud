@@ -46,27 +46,27 @@ Right-click a property's editor to reset the value.
 
 ## Set Color Properties
 
-You can use Magnifier to set color properties.
+You can use the Magnifier to set color properties.
 
 ![](../../../../../images/eurd-win-magnifier-button.png)
 
-Do the following to use Magnifier:
+Do the following to use the Magnifier:
 
 - Click the Magnifier button.
 - Move the invoked Magnifier on the screen to find the color you want to set.
 
 	![](../../../../../images/eurd-win-magnifier-get-color.png)
 
-	You can zoom out the magnified zone. To do this use one of the following options:
+	You can use the Magnifier to zoom out. Use one of the following options to do this:
 	
 	- Hold Ctrl and press + / -
 	- Scroll the mouse wheel
 
-- Click to set the color property to the found color.
+- Click to set the color property to the selected color.
 
 	![](../../../../../images/eurd-win-magnifier-set-color.png)
 
-Right click to cancel Magnifier mode.	
+Right click to cancel the Magnifier mode.	
 
 ## Specify Expressions
 
