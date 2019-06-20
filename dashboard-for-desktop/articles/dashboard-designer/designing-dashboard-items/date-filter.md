@@ -71,6 +71,16 @@ Quick Filters are buttons displayed within the DateFilter item. Each button has 
 
 The item's context menu contains commands with the same captions that act as quick filters.
 
+A newly created DateFilter dashboard item has no quick filters. To add a quick filter:
+
+* in the dashboard designer, click the _[Options](../../ui-elements/data-items-pane.md)_ button (the ![BoundImageAttributeOptionsButton](../../../images/img123296.png) icon) next to the [Argument](providing-data.md) placeholder
+* or select the _Edit Periods_ command in the context menu
+* or click the **Edit Periods** in the ribbon (Date Filter Tools contextual tab-> Design page -> Interactivity group):
+
+    ![datefilter-editperiods-ribbon](../../../images/datefilter-editperiods-ribbon.png)
+
+This invokes the **Edit Periods** dialog. You can select a [predefined range](xref:117398) or add a custom period, specify the quick filter's range and caption.
+
 A newly created DateFilter dashboard item has no quick filters. To add a quick filter, click the _Options_ button next to the _Argument_ placeholder or select the _Edit Periods_ command in the context menu. This invokes the **Edit Periods** dialog. You can select a [predefined range](range-filter/predefined-ranges.md) or add a custom period, specify the quick filter's range and caption.
 
 ![datefilter-edit-periods-dialog](../../../images/datefilter-edit-periods-dialog.png)
