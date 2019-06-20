@@ -10,7 +10,7 @@ This document describes how to show the current row number for each data source 
 > Use this approach if expressions **are enabled** in the Report Designer (the Label's smart tag includes the **Expression** property).
 >
 > ![](../../../../../images/eurd-label-expression-binding-modes.png)
-
+>
 > See the [Display Row Numbers in a Report, Group or Page](../shape-data-data-bindings/display-row-numbers-in-a-report-group-or-page.md) topic in the [Shape Data (Data Bindings)](../shape-data-data-bindings.md) section to learn about an alternative approach.
 
 A label can display row numbers after [binding your report to data](../../bind-to-data.md) and specifying a bound data field in the Label's **Expression** property.

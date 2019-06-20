@@ -10,7 +10,7 @@ This document demonstrates how to specify value formatting for report elements (
 > Use this approach if expressions **are enabled** in the Report Designer (the Label's smart tag includes the **Expression** property).
 >
 > ![](../../../../../images/eurd-label-expression-binding-modes.png)
-
+>
 > See the [Format Data](../shape-data-data-bindings/format-data.md) topic in the [Shape Data (Data Bindings)](../shape-data-data-bindings.md) section to learn about an alternative approach.
 
 After you [bound your report to data](../../bind-to-data.md) and specified a bound data field in a report control's **Expression** property, you can format data values in a report.

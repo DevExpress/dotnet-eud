@@ -22,6 +22,6 @@ The tutorials in this section illustrate how to solve various tasks related to s
 > [!NOTE]
 > Use this section if expressions **are enabled** in the Report Designer (the Label's smart tag includes the **Expression** property).
 >
-> ![](../../../../../images/eurd-label-expression-binding-modes.png)
-
+> ![](../../../../images/eurd-label-expression-binding-modes.png)
+>
 > See the [Shape Data (Data Bindings)](../shape-data-data-bindings.md) section to learn about an alternative approach.

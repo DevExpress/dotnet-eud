@@ -10,7 +10,7 @@ This document describes how to display or hide a report control in a published d
 > Use this approach if expressions **are enabled** in the Report Designer (the Label's smart tag includes the **Expression** property).
 >
 > ![](../../../../../images/eurd-label-expression-binding-modes.png)
-
+>
 > See the [Conditionally Suppress Controls](../shape-data-data-bindings/conditionally-supress-controls.md) topic in the [Shape Data (Data Bindings)](../shape-data-data-bindings.md) section to learn about an alternative approach.
 
 1. [Create a new report](../../add-new-reports.md) or open an existing one and prepare the report layout.

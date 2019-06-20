@@ -10,7 +10,7 @@ This document describes how to specify the number of data source records display
 > Use this approach if expressions **are enabled** in the Report Designer (the Label's smart tag includes the **Expression** property).
 >
 > ![](../../../../../images/eurd-label-expression-binding-modes.png)
-
+>
 > See the [Limit the Number of Records per Page](../shape-data-data-bindings/limit-the-number-of-records-per-page.md) topic in the [Shape Data (Data Bindings)](../shape-data-data-bindings.md) section to learn about an alternative approach.
 
 After you [bound your report to data](../../bind-to-data.md) and provided content to the report's [Detail band](../../introduction-to-banded-reports.md), you can limit the number of records each report page displays. This example demonstrates how to pass the required record count as a parameter value.

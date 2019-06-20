@@ -11,8 +11,8 @@ The Report Designer uses one of the following modes to provide dynamic content t
 > [!NOTE]
 > Use this approach if expressions **are enabled** in the Report Designer (the Label's smart tag includes the **Expression** property).
 >
-> ![](../../../../../images/eurd-label-expression-binding-modes.png)
-
+> ![](../../../../images/eurd-label-expression-binding-modes.png)
+>
 > See the **Data Bindings** paragraph to learn about an alternative approach.
 
 Expression bindings enable you to use complex [expressions](../use-expressions.md) that include two or more fields and various functions. Expressions also allow you to calculate complex summaries without scripts and conditionally shape your data without formatting rules.
@@ -27,8 +27,8 @@ This mode is enabled in the Report Designer if the [Property Grid](../report-des
 > [!NOTE]
 > Use this approach if data bindings **are enabled** in the Report Designer (the Label's smart tag includes the **Data Binding** property).
 >
-> ![](../../../../../images/eurd-label-expression-binding-modes.png)
-
+> ![](../../../../images/eurd-label-expression-binding-modes.png)
+>
 > See the **Expression Bindings** paragraph to learn about an alternative approach.
 
 Standard data bindings enable you to assign a single data field to a report control or use [report scripts](../use-report-scripts.md) to provide custom logic.

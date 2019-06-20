@@ -8,7 +8,7 @@ author: Anna Gubareva
 > Use this approach if data bindings **are enabled** in the Report Designer (the Label's smart tag includes the **Data Binding** property).
 >
 > ![](../../../../images/eurd-label-expression-binding-modes.png)
-
+>
 > See the [Bind Report Controls to Data (Expression Bindings)](bind-controls-to-data-expression-bindings.md) topic to learn about an alternative approach.
 
 You can use the following approaches to include a data source's information in your report:
