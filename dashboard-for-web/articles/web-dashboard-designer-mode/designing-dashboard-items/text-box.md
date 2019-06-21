@@ -15,3 +15,6 @@ To do this, go to the Text Box's [Options](../ui-elements/dashboard-item-menu.md
 ![wdd-textbox-add-rtf-file](../../../images/img125845.png)
 
 This invokes the Open dialog, which allows you to locate the RTF file.
+
+> [!Note]
+> The loaded RTF file's content in the Text Box can differ from the original RTF file's layout because of RTF to HTML conversion limitations and browser specifics.
