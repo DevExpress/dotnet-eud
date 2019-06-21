@@ -4,40 +4,51 @@ author: Anna Gubareva
 ---
 # Calculate a Summary
 
-This document describes how to calculate various summaries across a report and its groups.
+This document shows how to use a report control's Expression property to calculate a group summary, as shown in the image below:
 
-> [!Warning]
-> Use the approach below if expression bindings **are enabled** in the Report Designer (the [Property Grid](../../report-designer-tools/ui-panels/property-grid.md) provides the **PropertyName Expression** item in the property marker's context menu).
+![xtrareports-summary](../../../../../images/eurd-summary.png)
+
+> [!NOTE]
+> Use this approach if expressions **are enabled** in the Report Designer (the Label's smart tag includes the **Expression** property).
 >
-> See [Calculate a Summary](../shape-data-data-bindings/calculate-a-summary.md) if expression bindings **are not enabled** in the Report Designer.
+> ![](../../../../../images/eurd-label-expression-binding-modes.png)
+>
+> See the [Calculate a Summary](../shape-data-data-bindings/calculate-a-summary.md) topic in the [Shape Data (Data Bindings)](../shape-data-data-bindings.md) section to learn about an alternative approach.
 
-1. [Create a new report](../../add-new-reports.md) or open an existing one and [bind it to a data source](../../bind-to-data.md).
+Follow the steps below to calculate a summary:
 
-2. Switch to the [Group and Sort](../../report-designer-tools/ui-panels/group-and-sort-panel.md) panel and group the report's data by the required field. Display the footer for the created group.
+1. Create a report [bound](../../../../../articles/report-designer/report-designer-for-winforms/bind-to-data.md) to a data source.
 
-    ![](../../../../../images/eurd-win-label-summary-group-data.png)
+1. Use the [Group and Sort Panel](../../../../../articles/report-designer/report-designer-for-winforms/report-designer-tools/ui-panels/group-and-sort-panel.md) to [group report data](../../../../../articles/report-designer/report-designer-for-winforms/shape-report-data/group-and-sort-data/group-data.md) by the key data field and construct a layout like the following:
 
-3. Prepare the report layout and drop a required data field onto the group footer to display the summary result.
+	![xtrareports-summary-report-layout](../../../../../images/eurd-summary-layout.png)
 
-4. Click the label's smart tag and invoke its **Summary Running** drop-down list. Select the range for which to calculate a summary (the entire report, a specific report group or document page).
-	
-	![](../../../../../images/eurd-win-label-summary-running-group.png)
+1. Right-click the report's **Detail** band and select **Insert Band** / **Group Footer** from the context menu.
 
-5. Click the **Expression** property's ellipsis button.
-	
-	![](../../../../../images/eurd-win-label-summary-expression-property.png)
+	![xtrareports-summary-add-group-footer](../../../../../images/eurd-summary-add-group-footer.png)
 
-6. This invokes the **Summary Expression Editor** where you can select the required summary in the **Functions** | **Summary** section. Report summary functions start with the "sum" prefix to make it easy to differentiate them from aggregate functions.
-	
-	![](../../../../../images/eurd-win-label-summary-expression.png)
-	
+1. Drop a **Label** control onto the **Group Footer** band.
+
+	![xtrareports-summary-drop-label](../../../../../images/eurd-summary-drop-label.png)
+
+1. Click the label's smart tag, then click the **Summary** field's ellipsis button to open the **Summary Editor** form.
+
+	![summary-expressions-label-smart-tag](../../../../../images/eurd-summary-label-summary.png)
+
+1. In the **Summary Editor** form, use the following options:
+
+	* **Summary running** - specifies summary calculation range (the entire report, current report group, or current document page).
+	* **Summary function** - specifies a summary function.
+	* **Argument expression** - specifies a data field or a complex expression.
+
+	![summary-expressions-label-smart-tag](../../../../../images/eurd-label-summaryeditor.png)
+
 	> [!TIP]
-	> See the [Expression Constants, Operators, and Functions](../../use-expressions/expression-syntax.md) topic for a complete list of supported summary functions.
-
-7. You can use the **Format String** property to format the summary's value.
+	> See the [Expression Operators, Functions and Constants](../../../../../articles/expression-editor/expression-operators-functions-and-constants.md) topic for a complete list of supported summary functions.
+1. You can use the **Format String** property to format the summary value:
 	
-	![](../../../../../images/eurd-win-label-summary-format-string.png)
+	![summary-format-string-label-smart-tag](../../../../../images/eurd-summary-label-details.png)
 
-Switch to [Print Preview](../../preview-print-and-export-reports.md) to see the result.
+Switch to Print Preview mode to see the result:
 
-![](../../../../../images/eurd-win-label-summary-result.png)
+![summary-report-group-result-preview](../../../../../images/eurd-summary-preview.png)

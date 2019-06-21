@@ -6,7 +6,7 @@ author: Anna Gubareva
 
 ## <a name="overview"></a>Overview
 
-You can use the **Picture Box** control to embed _static_ (stored with the report definition) or _dynamic_ (obtained from a data source) images into a report. The images can have one of the following formats: BMP, JPG, JPEG, GIF, TIF, TIFF, PNG, ICO, DIB, RLE, JPE, JFIF, EMF, WMF, SVG.
+Use the **Picture Box** control to add images to a report. The images can have one of the following formats: BMP, JPG, JPEG, GIF, TIF, TIFF, PNG, ICO, DIB, RLE, JPE, JFIF, EMF, WMF, SVG.
 
 To add the **Picture Box** control to a report, drag the **Picture Box** item from the [Toolbox](../../report-designer-tools/toolbox.md) onto the report's area.
 
@@ -15,25 +15,52 @@ To add the **Picture Box** control to a report, drag the **Picture Box** item fr
 
 Specify one of the following properties to set an image:
 
-- **ImageSource**  
-    Use this property to save images along with a report definition.
-- **ImageUrl**  
-    Use this property to save only the path to the image.
+- **Image Source**  
+    Save the image to the report definition.
+- **Image Url**  
+    Only save a path to the image.
 
 ![](../../../../../images/eurd-win-picture-box-image-property.png)
 
+## Assign an External Image
+
+Click the **Image Source** / **Image URL** property's ellipsis button to invoke the **Open File** dialog.
+
+![](../../../../../images/eurd-win-ImageSource-OpenFileDialog.png)
+
+The selected image or its URL is saved to the report definition **.repx** file.
+
+## Assign an Image from the Report's Image Collection
+
+Set the report's **Image Resources** property.
+
+![](../../../../../images/eurd-win-ImageResources-Editor.png)
+
+Click the **Picture Box**'s smart tag. In the invoked menu, click the **Expression** option's ellipsis button to open the **Expression Editor**. Choose an image from the **Images** collection:
+
+![ImageSource-OpenFileDialog](../../../../../images/eurd-win-ImageSource-ExpressionEditor-ImagesCollection.png)
+
+
 ## Bind a Picture Box to Data
-You can use the Picture Box to display an image [dynamically obtained](../../bind-to-data/bind-controls-to-data-expression-bindings.md) from a data source. Click the control's smart tag, expand the **Image** property's **Expression** drop-down list and select the data field.
 
-![](../../../../../images/eurd-win-picture-box-bind-to-data.png)
+Use one of the following techniques to add the **Picture Box** control that obtains an image from a data source.
 
-You can bind the **Image URL** property to data in the same way. 
+- Click the control's smart tag. In the invoked menu, expand the **Expression** drop-down list for the **Image Source** property and select a data field.
 
-Click the **Expression** option's ellipsis button to invoke the **Expression Editor**. This editor allows you to construct a complex binding expression with two or more data fields.
+    ![](../../../../../images/eurd-win-picturebox-set-field.png)
 
-You can also drag and drop a field that contains image data from the [Field List](../../report-designer-tools/ui-panels/field-list.md) to create a new Picture Box bound to this field.
+    You can bind the **Image Url** property to data in a similar way. In this instance, the URL that specifies the image location is obtained from the data source.  
 
-![](../../../../../images/eurd-win-picture-box-drop-from-field-list.png)
+    Click the **Expression** option's ellipsis button to invoke the **Expression Editor**. Use this editor to construct a [binding expression](../../use-expressions.md) that can include two or more data fields.
+
+- Drag an image data field from the report's [Field List](../../report-designer-tools/ui-panels/field-list.md) and drop it onto a report band.
+
+    ![](../../../../../images/eurd-win-picture-box-drop-from-field-list.png)
+
+- Right-click a data field in the [Field List](../../report-designer-tools/ui-panels/field-list.md) and drop it onto a report band. Select the **Picture Box** item in the invoked context menu.
+
+    ![](../../../../../images/eurd-win-picture-box-drop-right-click.png)
+
 
 See the [Bind Report Controls to Data](../../bind-to-data/bind-controls-to-data-expression-bindings.md) topic for more information about how to create data-aware controls.
 

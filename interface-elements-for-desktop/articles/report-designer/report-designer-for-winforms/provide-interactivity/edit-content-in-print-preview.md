@@ -106,4 +106,4 @@ Use the control's **Edit Options** | **Editor Name** property to assign one of t
 
     ![content-editing-image-and-signature](../../../../images/eurd-win-content-editing-image-and-signature.png)
 
-All these image editors include the ![clear-changes](../../../../images/eurd-win-clear-changes.png) button. This button allows you to restore the initial image.
+All these image editors include the ![clear-changes](../../../../images/eurd-win-clear-changes.png) button. This button allows you to clear the editor's content.

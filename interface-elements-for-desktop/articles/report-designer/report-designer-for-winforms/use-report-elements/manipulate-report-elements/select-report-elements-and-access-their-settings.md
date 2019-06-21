@@ -25,7 +25,7 @@ The [Toolbar](../../report-designer-tools/toolbar.md) provides a corresponding c
 
 ![](../../../../../images/eurd-win-report-control-contextual-tab.png)
 
-You can use the Property Grid to access the whole set of settings that the selected element supports.
+You can use the [Property Grid](../../report-designer-tools/ui-panels/property-grid.md) to access the whole set of settings that the selected element supports.
 
 ![](../../../../../images/eurd-win-report-control-property-grid.png)
 

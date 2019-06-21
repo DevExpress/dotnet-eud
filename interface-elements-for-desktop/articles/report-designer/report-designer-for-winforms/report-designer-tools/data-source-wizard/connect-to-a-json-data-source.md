@@ -9,6 +9,7 @@ The topics in this section describe the steps required to connect a report to JS
 This task includes the following steps:
 
 * [Specify JSON Data Location](connect-to-a-json-data-source\specify-json-data-location.md)
+* [Specify Request Parameters](connect-to-a-json-data-source\specify-request-parameters.md)
 * [Select Data Fields](connect-to-a-json-data-source\select-data-fields.md)
 
 > [!Note]

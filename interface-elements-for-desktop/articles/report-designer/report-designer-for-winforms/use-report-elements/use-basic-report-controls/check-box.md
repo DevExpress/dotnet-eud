@@ -4,64 +4,72 @@ author: Anna Gubareva
 ---
 # Check Box
 
-## Check Box Overview
-The **Check Box** control displays **Yes**/**No** or **Checked**/**Unchecked**/**Indeterminate** values in a report.
+The **Check State** property specifies the checkbox's state.
 
-You can add this control by dragging the **Check Box** item from the [Toolbox](../../report-designer-tools/toolbox.md) onto the report's area.
+![report-control-check-box](../../../../../images/eurd-checkbox-checkstate.png)
 
-![](../../../../../images/eurd-win-add-check-box-control-to-report.png)
+![report-control-check-box](../../../../../images/eurd-checkbox-checkstates.png)
 
-Use one of the following properties to set the check box's state:
+The **Checked** property indicates whether the checkbox is checked (displays a check mark) or not (is empty).
 
-* **Checked** - indicates whether the check box is selected (displays a check mark) or not (is empty).
-* **Check State** - specifies one of the following check box states:	
+The **Text** property specifies the checkbox's caption. Double-click the checkbox to invoke its in-place editor and type the caption text.
 
-    | Icon | Check State |
-    |---|---|
-    | ![](../../../../../images/eurd-win-check-box-unchecked-state.png) | Unchecked |
-    ![](../../../../../images/eurd-win-check-box-checked-state.png) | Checked|
-    |![](../../../../../images/eurd-win-check-box-indeterminate-state.png) |Indeterminate
-
-The **Text** property specifies the check box's caption. You can double-click the check box to invoke its in-place editor and type the desired text.
-
-![](../../../../../images/eurd-win-check-box-in-place-editor.png)
-
-Use the **Glyph Alignment** and **Text Alignment** properties to define the glyph and text alignment within the check box.
-
+![report-control-check-box-text](../../../../../images/eurd-label-inline-editor.png)
 
 ## Bind to Data
-You can [bind](../../bind-to-data/bind-controls-to-data-expression-bindings.md) the **Check State** property to a data field obtained from a report's data source. Click the control's smart tag, expand the **Expression** drop-down list for the **Check State** property and select the required data field.
 
-![](../../../../../images/eurd-win-check-box-bind-to-data.png)
+Drag a Boolean field from the [Field List](../../../../../articles/report-designer/report-designer-for-winforms/report-designer-tools/ui-panels/field-list.md) onto your report. This adds a new checkbox to your report and binds its **Check State** property to the dragged field.
 
-The data field value determines the check box state in the following manner:
+![report-control-check-box-add-from-toolbox](../../../../../images/eurd-checkbox-drag-from-fieldlist.png)
 
-* **True** or **1** activates the **Checked** state;
-* **False** or **0** activates the **Unchecked** state;
-* Any other value activates the **Indeterminate** state.
+If you add a checkbox from the [Toolbox](../../../../../articles\report-designer\report-designer-for-winforms\report-designer-tools\toolbox.md), click the control's [smart tag](../../../../../articles/report-designer/report-designer-for-winforms/use-report-elements/manipulate-report-elements/select-report-elements-and-access-their-settings.md), expand the **CheckState** property's **Expression** drop-down list and select a data field. This [binds](../../../../../articles/report-designer/report-designer-for-winforms/bind-to-data/bind-controls-to-data-expression-bindings.md) your control's **CheckState** property to a data source field.
 
-In the same way, expand the **Expression** drop-down list for the **Text** property and bind it to the desired data field.
+![report-control-check-box-bind-to-data](../../../../../images/eurd-chekbox-bind-to-data.png)
 
-Clicking the **Expression** option's ellipsis button invokes the **Expression Editor**, in which you can construct a complex binding expression involving two or more data fields.
+The data field value specifies the checkbox's state:
 
-![](../../../../../images/eurd-win-check-box-text-expression.png)
+* **True** or **1** - activates the **Checked** state;
+* **False** or **0** - activates the **Unchecked** state;
+* Any other value - activates the **Indeterminate** state.
 
-You can also drag and drop a Boolean type data field from the [Field List](../../report-designer-tools/ui-panels/field-list.md) to create a new check box bound to this field.
+You can [bind](../../../../../articles/report-designer/report-designer-for-winforms/bind-to-data/bind-controls-to-data-expression-bindings.md) your control's **CheckState** the checkbox caption to a data source field. Click the control's [smart tag](../../../../../articles/report-designer/report-designer-for-winforms/use-report-elements/manipulate-report-elements/select-report-elements-and-access-their-settings.md), expand the **Expression** drop-down list and select the data field.
 
-![](../../../../../images/eurd-win-check-box-drop-field-from-field-list.png)
+The **Expression** option's ellipsis button invokes the **Expression Editor**. This Editor allows you to construct a complex binding expression with two or more fields.
 
-See the [Bind Report Controls to Data](../../bind-to-data/bind-controls-to-data-expression-bindings.md) topic to learn more about creating data-aware controls.
+![report-control-check-box-bind-to-data](../../../../../images/eurd-checkbox-expression-editor.png)
 
+Refer to the [Bind Controls to Data (Expression Bindings)](../../../../../articles/report-designer/report-designer-for-winforms/bind-to-data/bind-controls-to-data-expression-bindings.md) topic for more information about the available data binding modes and how to create data-aware controls.
 
 ## Interactivity
-You can enable [changing the check box state](../../provide-interactivity/edit-content-in-print-preview.md) in Print Preview by enabling the **Enabled** option in the **Edit Options** category.
 
-![](../../../../../images/eurd-win-check-box-edit-options-enabled.png)
+Change the **Enabled** checkbox within the **Edit Options** group to specify if users can [change the checkbox state](../../../../../articles/report-designer/report-designer-for-winforms/provide-interactivity/edit-content-in-print-preview.md) in Print Preview.
 
-The **Group ID** setting defines the check box's behavior in Print Preview:
+![report-control-check-box-interactivity](../../../../../images/eurd-checkbox-enabled.png)
 
-* When you set this property to an empty string value, a check box can be switched to either the "checked" and "unchecked" state independently on other available check boxes.
-	
-	![](../../../../../images/eurd-win-check-box-editing-in-print-preview.png)
+You can create checkbox groups to make them behave like radio lists. To group checkboxes, set their **Group ID** option within the **Edit Options** group a group ID value.
 
-* Otherwise, the field editor behaves like a radio button, and editors that have the same ID belong to a single logical group (that is, only one option can be selected in a group at a time).
+![report-control-check-box-interactivity](../../../../../images/eurd-checkbox-groupid.png)
+
+## Customization
+
+The **Glyph Options** property provides access to glyph settings.
+
+* **Style** - specifies a predefined glyph style.
+
+  ![report-control-check-box-customization](../../../../../images/eurd-checkbox-glyph-style.png)
+
+* **Alignment** - specifies the glyph's alignment within the control.
+
+  ![report-control-check-box-customization](../../../../../images/eurd-checkbox-glyph-alignment.png)
+
+* **Size** - specifies the glyph size.
+
+* **Custom Glyphs** - specifies a custom glyph image for each checkbox state (Checked/Unchecked/Indeterminate).
+
+    ![report-control-check-box-customization](../../../../../images/eurd-checkbox-glyphoptions-customglyphs.png)
+
+    The **Open File** dialog is invoked when you specify custom glyphs.
+
+    ![report-control-check-box-customization](../../../../../images/eurd-checkbox-glyphoptions-customglyphs-openfile.png)
+
+    The selected glyph image is saved to the report definition .repx file.
