@@ -501,6 +501,10 @@
         href: articles/report-designer/report-designer-for-winforms/bind-to-data/bind-a-report-to-json-data.md
       - name: Bind a Report to an XPO Persistent Object
         href: articles\report-designer\report-designer-for-winforms\bind-to-data\bind-a-report-to-an-xpo-persistent-object.md        
+      - name: Bind a Report to a Federated Data Source
+        href: articles\report-designer\report-designer-for-winforms\bind-to-data\bind-a-report-to-a-federated-data-source.md        
+      - name: Bind a Report to a Federated Master-Detail Data Source
+        href: articles\report-designer\report-designer-for-winforms\bind-to-data\bind-a-report-to-a-federated-master-detail-data-source.md        
       - name: Data Binding Modes
         href: articles/report-designer/report-designer-for-winforms/bind-to-data/data-binding-modes.md
       - name: Bind Report Controls to Data (Expression Bindings)
@@ -737,6 +741,8 @@
           href: articles/report-designer/report-designer-for-winforms/shape-report-data/shape-data-expression-bindings/limit-the-number-of-records-per-page.md
         - name: Calculate a Summary
           href: articles/report-designer/report-designer-for-winforms/shape-report-data/shape-data-expression-bindings/calculate-a-summary.md
+        - name: Calculate a Weighted Average
+          href: articles/report-designer/report-designer-for-winforms/shape-report-data/shape-data-data-bindings/calculate-a-weighted-average.md
         - name: Calculate an Advanced Summary
           href: articles/report-designer/report-designer-for-winforms/shape-report-data/shape-data-expression-bindings/calculate-an-advanced-summary.md
         - name: Display Row Numbers in a Report, Group or Page
@@ -762,6 +768,8 @@
           href: articles/report-designer/report-designer-for-winforms/shape-report-data/shape-data-data-bindings/limit-the-number-of-records-per-page.md
         - name: Calculate a Summary
           href: articles/report-designer/report-designer-for-winforms/shape-report-data/shape-data-data-bindings/calculate-a-summary.md
+        - name: Calculate a Weighted Average
+          href: articles/report-designer/report-designer-for-winforms/shape-report-data/shape-data-expression-bindings/calculate-a-weighted-average.md
         - name: Calculate a Custom Summary
           href: articles/report-designer/report-designer-for-winforms/shape-report-data/shape-data-data-bindings/calculate-a-custom-summary.md
         - name: Display Row Numbers in a Report, Group or Page
@@ -777,8 +785,6 @@
           href: articles/report-designer/report-designer-for-winforms/shape-report-data/use-calculated-fields/calculated-fields-overview.md
         - name: Calculate an Aggregate Function
           href: articles/report-designer/report-designer-for-winforms/shape-report-data/use-calculated-fields/calculate-an-aggregate-function.md
-        - name: Calculate a Weighted Average Function
-          href: articles/report-designer/report-designer-for-winforms/shape-report-data/use-calculated-fields/calculate-a-weighted-average-function.md
       - name: Use Report Parameters
         href: articles/report-designer/report-designer-for-winforms/shape-report-data/use-report-parameters.md
         items:
@@ -841,6 +847,13 @@
         href: articles/report-designer/report-designer-for-winforms/add-extra-information/display-the-user-name-in-a-report.md
       - name: Display the Current Date and Time in a Report
         href: articles/report-designer/report-designer-for-winforms/add-extra-information/display-the-current-date-and-time-in-a-report.md
+    - name: Merge Reports
+      href: articles/report-designer/report-designer-for-winforms/merge-reports.md
+      items:
+      - name: Add a Report to the End/Beginning
+        href: articles/report-designer/report-designer-for-winforms/merge-reports/add-a-report-to-the-end-beginning.md
+      - name: Use Data-Driven Page Sequence
+        href: articles/report-designer/report-designer-for-winforms/merge-reports/use-data-driven-page-sequence.md
     - name: Use Expressions
       href: articles/report-designer/report-designer-for-winforms/use-expressions.md
       items:

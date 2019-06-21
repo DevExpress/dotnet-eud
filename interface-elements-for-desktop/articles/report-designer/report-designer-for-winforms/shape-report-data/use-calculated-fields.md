@@ -8,4 +8,3 @@ The topics in this section describe how to add custom fields to a report's data 
 
 * [Calculated Fields Overview](use-calculated-fields/calculated-fields-overview.md)
 * [Calculate an Aggregate Function](use-calculated-fields/calculate-an-aggregate-function.md)
-* [Calculate a Weighted Average Function](use-calculated-fields/calculate-a-weighted-average-function.md)
