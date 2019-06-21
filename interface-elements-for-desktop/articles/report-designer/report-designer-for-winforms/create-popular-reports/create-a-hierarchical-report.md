@@ -65,12 +65,11 @@ This tutorial describes how to use the [detail band](..\introduction-to-banded-r
 
     - Add the [Check Box](..\use-report-elements\use-basic-report-controls\check-box.md) control to the **Detail** band at the left-most position.
 
-      ![HiearachicalReport-AddCheckBox](../../../../images/eurd-win-HiearachicalReport-AddCheckBox.png)
+        ![HiearachicalReport-AddCheckBox](../../../../images/eurd-win-HiearachicalReport-AddCheckBox.png)
 
     - Set the **Check Box** control's glyph options. Use custom glyphs for the *checked* and *unchecked* checkbox states.
 
         ![HierarchicalReport-CheckBoxProperties](../../../../images/eurd-win-HierarchicalReport-CheckBoxProperties.png)
-
 
     - Set the **Detail** band's **Drill Down Control** property to the added **Check Box** control.
 
