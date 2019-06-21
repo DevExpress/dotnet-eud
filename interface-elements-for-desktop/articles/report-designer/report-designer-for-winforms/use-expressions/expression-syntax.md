@@ -30,8 +30,6 @@ The table below contains constants, operators, and functions you can use in [exp
 </td><td><p>[Status] == 1</p>
 <p>You cannot specify an enumeration value using its qualified name. The following criteria <strong>is incorrect</strong>:</p>
 <p>[Status] = Status.InProgress</p>
-<p>You can use the <see cref="T:DevExpress.Data.Filtering.EnumProcessingHelper"></see> class&#39; static methods to register custom enumerations, and then refer to enumeration values as follows:</p>
-<p>Status = ##Enum#MyNamespace.Status,InProgress#</p>
 </td></tr><tr><td><p>Guid</p>
 </td><td><p>Wrap a Guid constant in curly braces. Use Guid constants in a relational operation with equality or inequality operators only.</p>
 </td><td><p>[OrderID] == {513724e5-17b7-4ec6-abc4-0eae12c72c1f}</p>

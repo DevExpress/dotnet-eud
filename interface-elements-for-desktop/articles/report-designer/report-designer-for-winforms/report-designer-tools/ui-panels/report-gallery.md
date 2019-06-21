@@ -95,7 +95,7 @@ Right-click a style in the Report Explorer and select **Add To Gallery** to crea
 
 Use the following ways to apply a style template:
 
-* To add the style to the report's [style sheet](../../../../../articles/report-designer/report-designer-for-winforms/customize-appearance/report-visual-styles.md#sheets), right-click the style in the Report Gallery and select **Add to Report Style Sheet**.
+* To add the style to the report's [style sheet](../../../../../articles/report-designer/report-designer-for-winforms/customize-appearance/report-style-sheets.md), right-click the style in the Report Gallery and select **Add to Report Style Sheet**.
 	
 	![report-gallery-style-add-to-report-style-sheet](../../../../../images/eurd-report-gallery-style-add-to-report-style-sheet.png)
 	

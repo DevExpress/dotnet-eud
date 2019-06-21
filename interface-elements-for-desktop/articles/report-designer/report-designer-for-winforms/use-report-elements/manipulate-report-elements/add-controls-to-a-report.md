@@ -4,7 +4,7 @@ author: Anna Gubareva
 ---
 # Add Controls to a Report
 
-This document describes how to add [controls](xref:2605) to a report.
+This document describes how to add [controls](../../../../../articles/report-designer/report-designer-for-winforms/use-report-elements.md) to a report.
 
 ## <a id="addcontrolsfromthetoolbox"></a>Add Controls from the Standard Controls Bar
 

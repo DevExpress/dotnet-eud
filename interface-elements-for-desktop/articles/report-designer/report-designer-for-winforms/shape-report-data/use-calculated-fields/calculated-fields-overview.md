@@ -72,6 +72,6 @@ For more information, see [Expression Syntax](../../use-expressions/expression-s
 The following tutorials demonstrate the use of calculated fields in various environments:
 
 * [Calculate an Aggregate Function](calculate-an-aggregate-function.md)
-* [Calculate a Weighted Average Function](calculate-a-weighted-average-function.md)
+* [Calculate a Weighted Average Function](../shape-data-expression-bindings/calculate-a-weighted-average.md)
 * [Sort Data by a Custom Field](../../shape-report-data/group-and-sort-data/sort-data-by-a-custom-field.md)
 * [Group Data by a Custom Field](../../shape-report-data/group-and-sort-data/group-data-by-a-custom-field.md)
