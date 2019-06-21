@@ -450,6 +450,9 @@ Use the following functions when [calculating summaries](..\shape-report-data\sh
 </td></tr><tr><td><p>sumVarP(Expression)</p>
 </td><td><p>Calculates the population variance of all the values within the specified summary region (group, page or report).</p>
 </td><td><p>sumVarP([UnitPrice])</p>
+</td></tr><tr><td><p>sumWAvg(Expression, Expression)</p>
+</td><td><p>Calculates the weighted average of all the values within the specified summary region (group, page or report). This type of summary returns the result of the following operation: Sum(Expression1 * Expression2) / Sum(Expression2).</p>
+</td><td><p>sumWAvg([UnitPrice])</p>
 </td></tr></table>
 
 ## Report Items In Expressions
@@ -459,11 +462,16 @@ A report's elements are displayed in the Report Designer's Report Explorer. You 
 *[ReportItems].[xrLabel2].[BackColor]*
 
 > [!Tip]
-> **[ReportItems]** is a list that provides access to all report items.
+> **[ReportItems]** is a plain list that provides access to all report items at one level.
 
 > [!Note]
 > You cannot use the ReportItems collection in a [Calculated Field](..\shape-report-data\use-calculated-fields.md)'s expression. 
 
+## Images for Picture Boxes
+
+When you construct an expression for the [Picture Box](../use-report-elements/use-basic-report-controls/picture-box.md)'s **ImageSource** property, you can use image **Id**s  from the report's **ImageResources** collection.
+
+*IIf([MarchSales]>20, [Images.ArrowUp],[Images.ArrowDown])*
 
 
 
@@ -480,6 +488,10 @@ A report's elements are displayed in the Report Designer's Report Explorer. You 
 </td><td><p>Returns a zero-based index of the current data row in a data source.</p>
 </td><td><p>Iif([DataSource.CurrentRowIndex] % 2 = 0, &#39;red&#39;, &#39;green&#39;)</p>
 <p>Result: When this expression is used for a table row&#39;s BackColor property, odd rows are colored in red and even rows - in green.</p>
+</td></tr><tr><td><p>DataSource.CurrentRowHierarchyLevel</p>
+</td><td><p>Returns a zero-based level of the current row in a <a class="xref" href="..\create-popular-reports\create-a-hierarchical-report.md">hierarchical report</a>.</p>
+</td><td><p>Iif([DataSource.CurrentRowHierarchyLevel] == 0, Rgb(231,235,244), ?)</p>
+<p>Result: When this expression is used for the BackColor property of the Detail band that is printed in tree mode, the root level rows are highlighted.</p>
 </td></tr></table>
 
 > [!Note]
@@ -571,6 +583,6 @@ _\@Or = 'value'_
  
 Use a backslash (\) as an escape character for characters in expressions. Examples:
 
-- \[
-- \\
-- \'
+- \\[
+- \\\
+- \\'
