@@ -28,7 +28,7 @@ Click the **Image Source** / **Image URL** property's ellipsis button to invoke 
 
 ![](../../../../../images/eurd-win-ImageSource-OpenFileDialog.png)
 
-The selected image / its URL is saved to the report definition **.repx** file.
+The selected image or its URL is saved to the report definition **.repx** file.
 
 ## Assign an Image from the Report's Image Collection
 
