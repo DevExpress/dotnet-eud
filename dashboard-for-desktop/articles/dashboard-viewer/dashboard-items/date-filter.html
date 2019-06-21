@@ -1,0 +1,136 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Date Filter | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Date Filter | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.37.0.0">
+    
+    <link rel="shortcut icon" href="../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../index.html">
+                <img id="logo" class="svg" src="../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="date-filter">Date Filter</h1>
+
+<p>The <strong>Date Filter</strong> dashboard item allows you to filter dashboard data based on the selected data range. The range can be relative (Last 3 Months), use fixed dates (01-01-2018), or presets (Month-to-date). You can also filter dates before or after a specified date. </p>
+<p>The DateFilter item displays a set of intervals that can be used as quick filters. The predefined intervals are also available in the context menu.</p>
+<p><img src="../../../images/datefilter-autoheight.png" alt="Date Filter"></p>
+<p>You can click the button to invoke the Date Picker:</p>
+<p><img src="../../../images/datefilter-dropdown-daycalendar.png" alt="Date Filter - Date Picker Drop-Down"></p>
+<h2 id="date-picker">Date Picker</h2>
+<p><img src="../../../images/datefilter-datepicker.png" alt="Date Picker"></p>
+<p>The DateFilter item contains a Date Picker - a button with a drop-down calendar. This button initially displays &quot;Click to set filter&quot;.</p>
+<p>The calendar drops down when you:</p>
+<ul>
+<li>click the button without a specified range (the button with the &quot;Click to set filter&quot; caption)</li>
+<li>click the <img src="../../../images/editdatefilter.png" alt="edit-date-filter-icon"> icon on the button with the specified datetime range.</li>
+</ul>
+<p>A drop-down calendar may contain a single calendar control (the Filter Type is Exact, Before or After, one calendar ele, ) or two calendar controls (the Filter Type is Between).</p>
+<p>When you select the date, the Date Picker caption displays information about that date (date range) and an <img src="../../../images/editdatefilter.png" alt="edit-date-filter-icon"> icon. The caption text is constructed from a custom string with date placeholders. If you click the caption, The Date Picker button acts as a checked button to apply the date range (checked) or reset the date filter (unchecked) to its default value. When you the icon, the drop-down calendar appears and enables the user to select another date range. </p>
+<h2 id="quick-filters">Quick Filters</h2>
+<p>Quick Filters are buttons displayed within the DateFilter item. Each button has a DateTime range assigned to it. You can click the button to apply that range as a Date filter. The button is checked until you click the same button once more to reset the filter to its default value. The buttom becomes unchecked if you click another button.</p>
+<p><img src="../../../images/datefilter-quick-filters.png" alt="Quick Filters"></p>
+<h2 id="arrange-quick-filters">Arrange Quick Filters</h2>
+<p>Quick filters in the DateFilter item can be arranged horizontally or vertically. The default mode is <em>auto height</em>, in which quick filters are displayed horizontally and the dashboard item shrinks automatically to fit the items and save space.</p>
+<p>Auto Height Arrangement Mode:</p>
+<p><img src="../../../images/datefilter-autoheight.png" alt="Auto Height Arrangement Mode"></p>
+<p>Vertical Arrangement Mode:</p>
+<p><img src="../../../images/datefilter-vertical.png" alt="Vertical Arrangement Mode"></p>
+<p>Horizontal Arrangement Mode:</p>
+<p><img src="../../../images/datefilter-horizontal.png" alt="Horizontal Arrangement Mode"></p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/19.1/dashboard-for-desktop/articles/dashboard-viewer/dashboard-items/date-filter.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2019 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../styles/main.js"></script>
+  </body>
+</html>

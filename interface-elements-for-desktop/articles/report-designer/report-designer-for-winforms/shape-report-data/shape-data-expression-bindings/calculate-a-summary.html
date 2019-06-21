@@ -8,7 +8,7 @@
     <title>Calculate a Summary | DevExpress End-User Documentation </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Calculate a Summary | DevExpress End-User Documentation ">
-    <meta name="generator" content="docfx 2.40.12.0">
+    <meta name="generator" content="docfx 2.37.0.0">
     
     <link rel="shortcut icon" href="../../../../../../favicon.ico">
     <link rel="stylesheet" href="../../../../../../styles/docfx.vendor.css">
@@ -69,35 +69,45 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="calculate-a-summary">Calculate a Summary</h1>
 
-<p>This document describes how to calculate various summaries across a report and its groups.</p>
-<div class="WARNING"><h5>Warning</h5><p>Use the approach below if expression bindings <strong>are enabled</strong> in the Report Designer (the <a href="../../report-designer-tools/ui-panels/property-grid.html">Property Grid</a> provides the <strong>PropertyName Expression</strong> item in the property marker&#39;s context menu).</p>
-<p>See <a href="../shape-data-data-bindings/calculate-a-summary.html">Calculate a Summary</a> if expression bindings <strong>are not enabled</strong> in the Report Designer.</p>
+<p>This document shows how to use a report control&#39;s Expression property to calculate a group summary, as shown in the image below:</p>
+<p><img src="../../../../../images/eurd-summary.png" alt="xtrareports-summary"></p>
+<div class="NOTE"><h5>Note</h5><p>Use this approach if expressions <strong>are enabled</strong> in the Report Designer (the Label&#39;s smart tag includes the <strong>Expression</strong> property).</p>
+<p><img src="../../../../../images/eurd-label-expression-binding-modes.png" alt=""></p>
+<p>See the <a href="../shape-data-data-bindings/calculate-a-summary.html">Calculate a Summary</a> topic in the <a href="../shape-data-data-bindings.html">Shape Data (Data Bindings)</a> section to learn about an alternative approach.</p>
 </div>
+<p>Follow the steps below to calculate a summary:</p>
 <ol>
-<li><p><a href="../../add-new-reports.html">Create a new report</a> or open an existing one and <a href="../../bind-to-data.html">bind it to a data source</a>.</p>
+<li><p>Create a report <a href="../../bind-to-data.html">bound</a> to a data source.</p>
 </li>
-<li><p>Switch to the <a href="../../report-designer-tools/ui-panels/group-and-sort-panel.html">Group and Sort</a> panel and group the report&#39;s data by the required field. Display the footer for the created group.</p>
-<p> <img src="../../../../../images/eurd-win-label-summary-group-data.png" alt=""></p>
+<li><p>Use the <a href="../../report-designer-tools/ui-panels/group-and-sort-panel.html">Group and Sort Panel</a> to <a href="../group-and-sort-data/group-data.html">group report data</a> by the key data field and construct a layout like the following:</p>
+<p> <img src="../../../../../images/eurd-summary-layout.png" alt="xtrareports-summary-report-layout"></p>
 </li>
-<li><p>Prepare the report layout and drop a required data field onto the group footer to display the summary result.</p>
+<li><p>Right-click the report&#39;s <strong>Detail</strong> band and select <strong>Insert Band</strong> / <strong>Group Footer</strong> from the context menu.</p>
+<p> <img src="../../../../../images/eurd-summary-add-group-footer.png" alt="xtrareports-summary-add-group-footer"></p>
 </li>
-<li><p>Click the label&#39;s smart tag and invoke its <strong>Summary Running</strong> drop-down list. Select the range for which to calculate a summary (the entire report, a specific report group or document page).</p>
-<p> <img src="../../../../../images/eurd-win-label-summary-running-group.png" alt=""></p>
+<li><p>Drop a <strong>Label</strong> control onto the <strong>Group Footer</strong> band.</p>
+<p> <img src="../../../../../images/eurd-summary-drop-label.png" alt="xtrareports-summary-drop-label"></p>
 </li>
-<li><p>Click the <strong>Expression</strong> property&#39;s ellipsis button.</p>
-<p> <img src="../../../../../images/eurd-win-label-summary-expression-property.png" alt=""></p>
+<li><p>Click the label&#39;s smart tag, then click the <strong>Summary</strong> field&#39;s ellipsis button to open the <strong>Summary Editor</strong> form.</p>
+<p> <img src="../../../../../images/eurd-summary-label-summary.png" alt="summary-expressions-label-smart-tag"></p>
 </li>
-<li><p>This invokes the <strong>Summary Expression Editor</strong> where you can select the required summary in the <strong>Functions</strong> | <strong>Summary</strong> section. Report summary functions start with the &quot;sum&quot; prefix to make it easy to differentiate them from aggregate functions.</p>
-<p> <img src="../../../../../images/eurd-win-label-summary-expression.png" alt=""></p>
-<div class="TIP"><h5>Tip</h5><p>See the <a href="../../use-expressions/expression-syntax.html">Expression Constants, Operators, and Functions</a> topic for a complete list of supported summary functions.</p>
+<li><p>In the <strong>Summary Editor</strong> form, use the following options:</p>
+<ul>
+<li><strong>Summary running</strong> - specifies summary calculation range (the entire report, current report group, or current document page).</li>
+<li><strong>Summary function</strong> - specifies a summary function.</li>
+<li><p><strong>Argument expression</strong> - specifies a data field or a complex expression.</p>
+<p><img src="../../../../../images/eurd-label-summaryeditor.png" alt="summary-expressions-label-smart-tag"></p>
+<div class="TIP"><h5>Tip</h5><p>See the <a href="../../../../expression-editor/expression-operators-functions-and-constants.html">Expression Operators, Functions and Constants</a> topic for a complete list of supported summary functions.</p>
 </div>
 </li>
-<li><p>You can use the <strong>Format String</strong> property to format the summary&#39;s value.</p>
-<p> <img src="../../../../../images/eurd-win-label-summary-format-string.png" alt=""></p>
+</ul>
+</li>
+<li><p>You can use the <strong>Format String</strong> property to format the summary value:</p>
+<p> <img src="../../../../../images/eurd-summary-label-details.png" alt="summary-format-string-label-smart-tag"></p>
 </li>
 </ol>
-<p>Switch to <a href="../../preview-print-and-export-reports.html">Print Preview</a> to see the result.</p>
-<p><img src="../../../../../images/eurd-win-label-summary-result.png" alt=""></p>
+<p>Switch to Print Preview mode to see the result:</p>
+<p><img src="../../../../../images/eurd-summary-preview.png" alt="summary-report-group-result-preview"></p>
 </article>
           </div>
           
@@ -106,7 +116,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/18.2/interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/shape-report-data/shape-data-expression-bindings/calculate-a-summary.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/19.1/interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/shape-report-data/shape-data-expression-bindings/calculate-a-summary.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>
@@ -125,7 +135,7 @@
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            Copyright (c) 1998-2018 Developer Express Inc. All rights reserved.
+            Copyright (c) 1998-2019 Developer Express Inc. All rights reserved.
             
           </div>
         </div>

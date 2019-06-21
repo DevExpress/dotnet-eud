@@ -8,7 +8,7 @@
     <title>Create an Invoice Manually | DevExpress End-User Documentation </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Create an Invoice Manually | DevExpress End-User Documentation ">
-    <meta name="generator" content="docfx 2.40.12.0">
+    <meta name="generator" content="docfx 2.37.0.0">
     
     <link rel="shortcut icon" href="../../../../../favicon.ico">
     <link rel="stylesheet" href="../../../../../styles/docfx.vendor.css">
@@ -165,11 +165,24 @@
 <ol>
 <li><p>Add the Group Footer band to the detail report in the same way as the Group Header.</p>
 </li>
-<li><p>Drop the Label control onto the added band and click its smart tag. Set the <strong>Summary Running</strong> property to <strong>Report</strong> to calculate the summary for the entire detail report and click the <strong>Expression</strong> property&#39;s ellipsis button. In the invoked <strong>Expression Editor</strong>, specify the following expression to calculate the total price:</p>
-<p> <img src="../../../../images/eurd-win-invoice-specify-summary-function.png" alt=""></p>
+<li><p>Drop the Label control onto the added band and click its smart tag. In the invoked Label Tasks window, click the <strong>Summary</strong> field&#39;s ellipsis button.</p>
+<p> <img src="../../../../images/eurd-label-summary-3.png" alt=""></p>
 </li>
-<li><p>Use the <strong>Format String</strong> property to format the summary&#39;s value (for instance, set it to <strong>Total: {0:c2}</strong>).</p>
-<p> <img src="../../../../images/eurd-win-invoice-summary-format-string.png" alt=""></p>
+</ol>
+<ul>
+<li><p>In the <strong>Summary Editor</strong> window:</p>
+<ul>
+<li>Set the <strong>Summary running</strong> property to the <strong>Report</strong> value to calculate the summary for the entire detail report.</li>
+<li>Set the <strong>Summary function</strong> property to <strong>Sum</strong>.</li>
+<li><p>Set the <strong>Argument Expression</strong> property to the field you want to sum up.</p>
+<p><img src="../../../../images/eurd-win-invoice-specify-summary-function.png" alt=""></p>
+</li>
+</ul>
+</li>
+</ul>
+<ol>
+<li><p>Back in the <strong>Label Tasks</strong> window, use the <strong>Format String</strong> property to format the summary&#39;s value (for instance, set it to <strong>Total: {0:c2}</strong>).</p>
+<p> <img src="../../../../images/eurd-invoice-report-label-summary-format.png" alt=""></p>
 </li>
 </ol>
 <h2 id="sorting">Sort Data</h2>
@@ -237,7 +250,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/18.2/interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/create-popular-reports/create-an-invoice-manually.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/19.1/interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/create-popular-reports/create-an-invoice-manually.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>
@@ -256,7 +269,7 @@
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            Copyright (c) 1998-2018 Developer Express Inc. All rights reserved.
+            Copyright (c) 1998-2019 Developer Express Inc. All rights reserved.
             
           </div>
         </div>

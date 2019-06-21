@@ -8,7 +8,7 @@
     <title>Count the Number of Groups in a Report | DevExpress End-User Documentation </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Count the Number of Groups in a Report | DevExpress End-User Documentation ">
-    <meta name="generator" content="docfx 2.40.12.0">
+    <meta name="generator" content="docfx 2.37.0.0">
     
     <link rel="shortcut icon" href="../../../../../../favicon.ico">
     <link rel="stylesheet" href="../../../../../../styles/docfx.vendor.css">
@@ -70,8 +70,9 @@
 <h1 id="count-the-number-of-groups-in-a-report">Count the Number of Groups in a Report</h1>
 
 <p>This document describes how to count the number of groups in a report.</p>
-<div class="WARNING"><h5>Warning</h5><p>Use the approach below if expression bindings <strong>are enabled</strong> in the Report Designer (the <a href="../../report-designer-tools/ui-panels/property-grid.html">Property Grid</a> provides the <strong>PropertyName Expression</strong> item in the property marker&#39;s context menu).</p>
-<p>See <a href="../shape-data-data-bindings/count-the-number-of-groups-in-a-report.html">Count the Number of Groups in a Report</a> if expression bindings <strong>are not enabled</strong> in the Report Designer.</p>
+<div class="NOTE"><h5>Note</h5><p>Use this approach if expressions <strong>are enabled</strong> in the Report Designer (the Label&#39;s smart tag includes the <strong>Expression</strong> property).</p>
+<p><img src="../../../../../images/eurd-label-expression-binding-modes.png" alt=""></p>
+<p>See the <a href="../shape-data-data-bindings/count-the-number-of-groups-in-a-report.html">Count the Number of Groups in a Report</a> topic in the <a href="../shape-data-data-bindings.html">Shape Data (Data Bindings)</a> section to learn about an alternative approach.</p>
 </div>
 <ol>
 <li><p>Switch to the <a href="../../report-designer-tools/ui-panels/group-and-sort-panel.html">Group and Sort</a> panel and create a new group. Enable the <strong>Show Header</strong> option to display the Group Header in the report.</p>
@@ -83,16 +84,20 @@
 <li><p>Right-click the report&#39;s surface and add a Report Footer to the report.</p>
 <p> <img src="../../../../../images/eurd-win-shaping-insert-report-footer.png" alt=""></p>
 </li>
-<li><p>Drop a label onto the Report Footer and invoke its smart tag. Set its <strong>Summary Running</strong> property to <strong>Report</strong>.</p>
+<li><p>Drop a label onto the Report Footer and click its smart tag. In the invoked <strong>Label Tasks</strong> window, click the <strong>Summary</strong> property&#39;s ellipsis button.</p>
 <p> <img src="../../../../../images/eurd-win-shaping-group-count-summary-running.png" alt=""></p>
 </li>
-<li><p>Click the ellipsis button for the label&#39;s <strong>Expression</strong> property.</p>
-<p> <img src="../../../../../images/eurd-win-shaping-group-count-expression-property.png" alt=""></p>
+<li><p>In the Summary Editor window:</p>
+<ul>
+<li>Set the <strong>Summary running</strong> property to the <strong>Report</strong> value.</li>
+<li>Set the <strong>Summary function</strong> property to <strong>Count (Distinct)</strong>.</li>
+<li>Set the <strong>Argument expression</strong> property to the field you group the data by.</li>
+</ul>
 </li>
-<li><p>In the invoked <strong>Summary Expression Editor</strong>, select the <strong>sumDCount</strong> summary function in the <strong>Functions</strong> | <strong>Summary</strong> section.</p>
-<p> <img src="../../../../../images/eurd-win-shaping-group-count-expression.png" alt=""></p>
-</li>
-<li><p>Use the <strong>Format String</strong> property to format the summary&#39;s value.</p>
+</ol>
+<p><img src="../../../../../images/eurd-win-shaping-group-count-expression.png" alt=""></p>
+<ol>
+<li><p>Back in the <strong>Label Tasks</strong> window, you can use the <strong>Format String</strong> property to format the summary&#39;s value:</p>
 <p> <img src="../../../../../images/eurd-win-shaping-group-count-format-string.png" alt=""></p>
 </li>
 </ol>
@@ -106,7 +111,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/18.2/interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/shape-report-data/shape-data-expression-bindings/count-the-number-of-groups-in-a-report.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/19.1/interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/shape-report-data/shape-data-expression-bindings/count-the-number-of-groups-in-a-report.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>
@@ -125,7 +130,7 @@
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            Copyright (c) 1998-2018 Developer Express Inc. All rights reserved.
+            Copyright (c) 1998-2019 Developer Express Inc. All rights reserved.
             
           </div>
         </div>

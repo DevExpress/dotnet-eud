@@ -8,7 +8,7 @@
     <title>Add Controls to a Report | DevExpress End-User Documentation </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Add Controls to a Report | DevExpress End-User Documentation ">
-    <meta name="generator" content="docfx 2.40.12.0">
+    <meta name="generator" content="docfx 2.37.0.0">
     
     <link rel="shortcut icon" href="../../../../../../favicon.ico">
     <link rel="stylesheet" href="../../../../../../styles/docfx.vendor.css">
@@ -69,83 +69,67 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="add-controls-to-a-report">Add Controls to a Report</h1>
 
-<h2 id="add-report-controls">Add Report Controls</h2>
-<p>To display a data field&#39;s value in your report, drag the corresponding item from the <a href="../../report-designer-tools/ui-panels/field-list.html">Field List</a> and drop it onto the report&#39;s detail band. This creates a new report control bound to the corresponding field.</p>
-<p><img src="../../../../../images/eurd-win-drop-field-from-field-list.png" alt=""></p>
-<p>You can also use the <a href="../../report-designer-tools/toolbox.html">Toolbox</a> to add other controls to your report and display content such as text, images, charts, barcodes, and so on.</p>
-<p><img src="../../../../../images/eurd-win-drop-report-control-from-toolbox.png" alt=""></p>
-<p>This document describes how to add the most commonly used controls to a report. See <a href="../../use-report-elements.html">Use Report Elements</a> for a complete list of available controls.</p>
-<h2 id="display-text">Display Text</h2>
-<p>Use the following controls to display text in a report:</p>
+<p>This document describes how to add <a href="../../use-report-elements.html">controls</a> to a report.</p>
+<h2 id="addcontrolsfromthetoolbox">Add Controls from the Standard Controls Bar</h2>
+<p>Use the End-User Designer&#39;s <a href="../../report-designer-tools/toolbox.html">Toolbox</a> to add controls to your report.</p>
+<p><img src="../../../../../images/eurd-add-controls.png" alt="eurd-add-controls"></p>
+<h2 id="addfieldsfromthefieldlist">Add Data-Bound Controls from the Field List</h2>
+<p>You can drag fields from the <a href="../../report-designer-tools/ui-panels/field-list.html">Field List</a> onto your report to add data-bound controls, after you <a href="../../bind-to-data.html">bound</a> your report to a data source.</p>
+<h3 id="add-a-control">Add a Control</h3>
+<p>Drag a field from the <a href="../../report-designer-tools/ui-panels/field-list.html">Field List</a> and drop it onto the report&#39;s surface.</p>
+<p><img src="../../../../../images/eurd-add-controls-from-field-list.png" alt="eurd-add-controls-from-field-list"></p>
+<p>To add a control of specific type, do either of the following:</p>
 <ul>
-<li><p><a href="../use-basic-report-controls/label.html">Label</a></p>
-<p>  Displays plain text in a report. </p>
-<p>  <img src="../../../../../images/eurd-win-display-text-using-labels.png" alt=""></p>
+<li>Hold down the SHIFT key and drop a data field onto a report&#39;s surface.</li>
+<li>Right-click a data field and drop it onto a report&#39;s surface.</li>
+</ul>
+<p>This invokes a context menu where you can select which control to add.</p>
+<p><img src="../../../../../images/eurd-add-controls-from-field-list-picturebox.png" alt="eurd-add-controls-from-field-list-picturebox"></p>
+<h3 id="add-a-table">Add a Table</h3>
+<p>Hold the CTRL or SHIFT key and click several fields. Drop them onto the report&#39;s surface to add a table with its cells bound to these fields.</p>
+<p><img src="../../../../../images/eurd-add-controls-add-table.png" alt="eurd-add-controls-add-table"></p>
+<p>Drop an entire data table from the <a href="../../report-designer-tools/ui-panels/field-list.html">Field List</a> to add a report table with columns bound to the data table&#39;s fields.</p>
+<p><img src="../../../../../images/eurd-add-controls-add-entire-table.png" alt="eurd-add-controls-add-entire-table"></p>
+<p>To add column headers, do either of the following:</p>
+<ul>
+<li>Select the fields and hold the CTRL or SHIFT key when you drop them onto a report surface.</li>
+<li>Drag and drop fields with the right mouse button.</li>
+</ul>
+<p><img src="../../../../../images/eurd-add-controls-add-column-headers.png" alt="eurd-add-controls-add-column-headers"></p>
+<p> This adds a new table whose cells display the field names.</p>
+<h2 id="addcontrolsfromexternalsources">Add Content from External Sources</h2>
+<p>You can add text and graphics from external applications to your reports:</p>
+<ul>
+<li><p>Drag a file, text or image from an external application onto your report.</p>
+<p>  <img src="../../../../../images/eurd-add-controls-drag-rich-text.png" alt="eurd-add-controls-drag-rich-text"></p>
 </li>
-<li><p><a href="../use-basic-report-controls/rich-text.html">Rich Text</a></p>
-<p>  Displays rich text in a report. You can apply different font settings to the control&#39;s content and load content from an external file.</p>
-<p>  <img src="../../../../../images/eurd-win-display-text-using-rich-text.png" alt=""></p>
-</li>
-<li><p><a href="../use-tables.html">Table</a></p>
-<p>  Contains any number of cells arranged in one or more rows.
-  Each table cell can display plain text or contain other controls.</p>
-<p>  <img src="../../../../../images/eurd-win-display-text-using-tables.png" alt=""></p>
-</li>
-<li><p><a href="../use-basic-report-controls/character-comb.html">Character Comb</a></p>
-<p>  Displays each character in a separate cell and can be used to create printed forms.</p>
-<p>  <img src="../../../../../images/eurd-win-display-text-using-character-comb.png" alt=""></p>
+<li><p>Copy a file, text or image from an external application, and paste it into your report.</p>
+<p>  <img src="../../../../../images/eurd-add-controls-copy-text.png" alt="eurd-add-controls-copy-text"></p>
 </li>
 </ul>
-<p>Double-click any of these controls to invoke an in-place editor where you can enter and format text.</p>
-<p><img src="../../../../../images/eurd-win-display-text-in-place-editor.png" alt=""></p>
-<p>Press CTRL+Enter to submit changes and close this mode.</p>
-<p>You can use the corresponding toolbar elements to access the selected control&#39;s font and alignment settings.</p>
-<p><img src="../../../../../images/eurd-win-display-text-formatting-toolbar.png" alt=""></p>
-<p>Labels and other text-oriented controls can display the following content:</p>
-<ul>
-<li><p><strong>Static content</strong></p>
-<p>  A control&#39;s content does not change once it is specified in a published document.</p>
-<p>  <img src="../../../../../images/eurd-win-report-control-static-content.png" alt=""></p>
-</li>
-<li><p><strong>Dynamic content</strong></p>
-<p>  A connected data source supplies this content. In a published document, it changes according to the printed data source record.</p>
-<p>  <img src="../../../../../images/eurd-win-report-control-dynamic-content.png" alt=""></p>
-<p>  You can use a control&#39;s smart tag to format dynamic content.</p>
-<p>  <img src="../../../../../images/eurd-win-report-control-dynamic-content-format-string.png" alt=""></p>
-</li>
-<li><p><strong>Mixed content</strong></p>
-<p>  You can combine labels&#39; and other text-oriented controls&#39; static and dynamic content within the same control.</p>
-<p>  In the in-place editor, enclose data source fields in square brackets to embed these fields into the control&#39;s text. </p>
-<p>  <img src="../../../../../images/eurd-win-report-control-mail-merge-content.png" alt=""></p>
-<p>  You can select a field in the in-place editor and use the <strong>Format String</strong> property in the control&#39;s smart tag to format this field&#39;s value.</p>
-<p>  <img src="../../../../../images/eurd-win-report-control-mail-merge-format-string.png" alt=""></p>
-</li>
-</ul>
-<h2 id="display-page-information">Display Page Information</h2>
-<p>Use the <a href="../use-basic-report-controls/page-info.html">Page Info</a> control to display information about document pages, such as the current page number and/or total number of pages.</p>
-<p><img src="../../../../../images/eurd-win-display-page-information.png" alt=""></p>
-<p>You can also use this control to add information about a report&#39;s author and the document&#39;s creation date.</p>
-<p>See the following tutorials for detailed instructions:</p>
-<ul>
-<li><a href="../../add-navigation/add-page-numbers.html">Add Page Numbers</a></li>
-<li><a href="../../add-extra-information/display-the-user-name-in-a-report.html">Display the User Name in a Report</a></li>
-<li><a href="../../add-extra-information/display-the-current-date-and-time-in-a-report.html">Display the Current Date and Time in a Report</a></li>
-</ul>
-<h2 id="display-check-boxes-images-and-bar-codes">Display Check Boxes, Images and Bar Codes</h2>
-<p>Drop a Boolean data field from the Field List onto a report to create a <a href="../use-basic-report-controls/check-box.html">Check Box</a> control bound to that field.</p>
-<p><img src="../../../../../images/eurd-win-display-check-boxes.png" alt=""></p>
-<p>Check boxes can display different states depending on the underlying data values.</p>
-<p><img src="../../../../../images/eurd-win-check-boxe-states.png" alt=""></p>
-<p>Use the <a href="../use-basic-report-controls/picture-box.html">Picture Box</a> control to display images in a report. You can load an image from an external file or bind this control to a binary data source field.</p>
-<p><img src="../../../../../images/eurd-win-display-picture-boxes.png" alt=""></p>
-<p>To display bar codes, use the <a href="../use-bar-codes.html">Bar Code</a> control.</p>
-<p><img src="../../../../../images/eurd-win-display-bar-codes.png" alt=""></p>
-<h2 id="drawinglinesshapes">Drawing Lines and Shapes</h2>
-<p>Use the <a href="../draw-lines-and-shapes/draw-shapes.html">Shape</a> control to draw simple graphics in a report (circles, crosses or arrows).</p>
-<p><img src="../../../../../images/eurd-win-display-shapes.png" alt=""></p>
-<p>The <a href="../draw-lines-and-shapes/draw-lines.html">Line</a> control enables you to draw straight or slanted lines in a single band.</p>
-<p><img src="../../../../../images/eurd-win-display-lines.png" alt=""></p>
-<p>The <a href="../draw-lines-and-shapes/draw-cross-band-lines-and-boxes.html">Cross-Band Line and Box</a> controls enable you to draw lines and boxes spanning multiple report bands.</p>
+<p>The following table shows which file types transform into report controls:</p>
+<table>
+<thead>
+<tr>
+<th>File Type</th>
+<th>Control</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>.TXT</td>
+<td>A <a href="../use-basic-report-controls/label.html">Label</a> control that contains file contents.</td>
+</tr>
+<tr>
+<td>.DOC, .DOCX, .RTF, .HTM, .HTML</td>
+<td>A <a href="../use-basic-report-controls/rich-text.html">Rich Text</a> control that contains file content.</td>
+</tr>
+<tr>
+<td>.JPG, .PNG, .BMP, .GIF, .TIF, .SVG</td>
+<td>A <a href="../use-basic-report-controls/picture-box.html">Picture Box</a> control that contains the image.</td>
+</tr>
+</tbody>
+</table>
 </article>
           </div>
           
@@ -154,7 +138,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/18.2/interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/use-report-elements/manipulate-report-elements/add-controls-to-a-report.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/19.1/interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/use-report-elements/manipulate-report-elements/add-controls-to-a-report.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>
@@ -173,7 +157,7 @@
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            Copyright (c) 1998-2018 Developer Express Inc. All rights reserved.
+            Copyright (c) 1998-2019 Developer Express Inc. All rights reserved.
             
           </div>
         </div>

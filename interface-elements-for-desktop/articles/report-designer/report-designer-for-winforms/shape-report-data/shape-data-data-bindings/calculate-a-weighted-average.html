@@ -1,0 +1,183 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Calculate a Weighted Average | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Calculate a Weighted Average | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.37.0.0">
+    
+    <link rel="shortcut icon" href="../../../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../../../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../../../index.html">
+                <img id="logo" class="svg" src="../../../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="calculate-a-weighted-average">Calculate a Weighted Average</h1>
+
+<div class="NOTE"><h5>Note</h5><p>Use this approach if data bindings <strong>are enabled</strong> in the Report Designer (the Label&#39;s smart tag includes the <strong>Data Binding</strong> property).</p>
+<p><img src="../../../../../images/eurd-label-expression-binding-modes.png" alt=""></p>
+<p>See the <a href="../shape-data-expression-bindings/calculate-a-weighted-average.html">Calculate a Weighted Average</a> topic in the <a href="../shape-data-expression-bindings.html">Shape Data (Expression Bindings)</a> section to learn about an alternative approach.</p>
+</div>
+<p><img src="../../../../../images/eurd-win-weighted-average-result.png" alt=""></p>
+<p>Use one of the following approaches to calculate weighted average data:</p>
+<h2 id="aggregate-functions">Aggregate Functions</h2>
+<p>You can create a <a href="../use-calculated-fields/calculated-fields-overview.html">calculated field</a> and use a standard aggregate function in its expression to evaluate a weighted average at the report level.</p>
+<ol>
+<li><a href="../../open-reports.html">Open an existing report</a> or <a href="../../add-new-reports.html">create a new one from scratch</a>.</li>
+<li><a href="../../bind-to-data.html">Bind a report</a> to a required data source.</li>
+<li><p>Right-click any item in the <a href="../../report-designer-tools/ui-panels/field-list.html">Field List</a>&#39;s data source node, and in the invoked context menu, select <strong>Add Calculated Field</strong>.</p>
+<p> <img src="../../../../../images/eurd-weighted-average-field-list.png" alt=""></p>
+</li>
+<li><p>Select the created calculated field and switch to the <strong>Properties</strong> window. Specify the <strong>Name</strong> property, set the <strong>Field Type</strong> to Decimal and click the Expression property&#39;s ellipsis button.</p>
+<p> <img src="../../../../../images/eurd-weighted-average-properties.png" alt=""></p>
+</li>
+<li><p>In the invoked Expression Editor, specify an aggregate expression:</p>
+<p> <img src="../../../../../images/eurd-weighted-average-expression-editor.png" alt=""></p>
+<p> To construct a valid aggregate expression, use the following format:</p>
+<p> [&lt;Collection&gt;][&lt;Condition&gt;].&lt;Aggregate&gt;(&lt;Expression&gt;)</p>
+<ul>
+<li>&lt;Collection&gt; - Specifies a collection to calculate an aggregated value against. It can be the relationship name for a master-detail relationship, or a collection property&#39;s name exposed by the target class. For example, [CategoriesProducts][[CategoryId]&gt;5].Count(). Empty brackets [] indicate the root collection.</li>
+<li>&lt;Condition&gt; - Specifies a condition that defines which records to use for the aggregate function calculation. To calculate an aggregated value against all records, delete this logical clause and its square brackets (for example, [].Count()).</li>
+<li>&lt;Aggregate&gt; - Specifies one of the available aggregate functions listed in the Aggregate enumeration.</li>
+<li><p>&lt;Expression&gt; - Specifies the expression to use. For example, [][[CategoryID] &gt; 5].Sum([UnitPrice]*[Quantity]). The Count function does not require field values to count the records (the round brackets can be empty for this function).</p>
+<p>Use the Parent Relationship Traversal Operator (&#39;^&#39;) to refer to the processed group (for instance, [][[^.CategoryID] == [CategoryID]].Sum([UnitPrice])). This allows you to calculate aggregates within groups.</p>
+<p>For more information, see <a href="../../../../expression-editor/expression-operators-functions-and-constants.html">Expression Constants, Operators, and Functions</a>.</p>
+</li>
+</ul>
+</li>
+<li><p>Add the created calculated field to the report as an ordinary data field and format its value.</p>
+</li>
+</ol>
+<h2 id="data-source-level">Data Source Level</h2>
+<p>Use a <strong>sqlDataSource</strong> component to calculate summaries at data source level. You can use these summaries as regular data fields in your report. Then, create a <a href="../use-calculated-fields/calculated-fields-overview.html">calculated field</a> where your expression uses these fields.</p>
+<ol>
+<li><p>When you use the <a href="../../report-designer-tools/report-wizard.html">Report Wizard</a> or <a href="../../bind-to-data/bind-a-report-to-a-database.html">bind a report to an SQL data source</a>, go to the <a href="../../report-designer-tools/data-source-wizard/connect-to-a-database/create-a-query-or-select-a-stored-procedure.html">query customization</a> page and click the <img src="../../../../../images/eurd-weighted-average-plus-icon.png" alt="report-wizard-multi-query-page-icon-add"> button for the <strong>Queries</strong> category. Then use the <a href="../../report-designer-tools/query-builder.html">Query Builder</a> to create a new query.</p>
+<p> <img src="../../../../../images/eurd-weighted-average-data-source-wizard.png" alt="report-wizard-invoke-query-builder"></p>
+<p> To customize a data source, right-click the data source in the <a href="../../report-designer-tools/ui-panels/report-explorer.html">Report Explorer</a> or <a href="../../report-designer-tools/ui-panels/field-list.html">Field List</a> and select <strong>Manage Queries</strong> in the context menu.</p>
+<p> <img src="../../../../../images/eurd-weighted-average-manage-queries.png" alt="how-to-sql-data-source03"></p>
+<p> In the invoked <strong>Manage Queries</strong> dialog, click the query&#39;s ellipsis button.</p>
+<p> <img src="../../../../../images/eurd-weighted-average-manage-queries-dialog.png" alt="ManageQueriesDialog_EditQuery"></p>
+<p> In the invoked editor page, click the <strong>Run Query Builder</strong> button.</p>
+<p> <img src="../../../../../images/eurd-weighted-average-query-editor.png" alt="data-source-wizard-create-query"></p>
+</li>
+<li><p>In the <strong>Query Builder</strong>, add tables to the query. Enable the fields&#39; checkboxes to include them in the query.</p>
+<p> <img src="../../../../../images/eurd-weighted-average-query-builder.png" alt="WeightedAverage_AddTables"></p>
+</li>
+<li><p>In the column list under the data source editor, group data by the group fields and apply the <strong>Sum</strong> aggregate function to the <strong>UnitsInStock</strong> field.</p>
+<p> <img src="../../../../../images/eurd-weighted-average-column-list.png" alt="WeightedAverage_GroupAndAggregate"></p>
+</li>
+<li><p>Click a new column&#39;s expression ellipsis button. In the invoked <strong>Expression Editor</strong>, specify an expression that multiplies the averaged field and the weight field as in the image below:</p>
+<p> <img src="../../../../../images/eurd-weighted-average-expression-editor-2.png" alt="WeightedAverage_ColumnExpression"></p>
+</li>
+<li><p>Apply the <strong>Sum</strong> aggregate function to the previously created column as well.</p>
+<p> The image below shows the created query.</p>
+<p> <img src="../../../../../images/eurd-weighted-average-created-query.png" alt="WeightedAverage_ResultingQuery"></p>
+</li>
+<li><p>Click <strong>OK</strong> to complete the <strong>Query Builder</strong>, then click <strong>Finish</strong> to exit the wizard.</p>
+</li>
+<li><p>Go to the <a href="../../report-designer-tools/ui-panels/field-list.html">Field List</a>, right-click any item inside the data source node. In the invoked context menu, select <strong>Add Calculated Field</strong>.</p>
+<p> <img src="../../../../../images/eurd-weighted-average-add-calculated-field.png" alt="WeightedAverage_AddCalculatedField"></p>
+</li>
+<li><p>Right-click the created calculated field and select <strong>Edit Expression</strong>.</p>
+<p> <img src="../../../../../images/eurd-weighted-average-edit-expression.png" alt="WeightedAverage_CalcFieldEditExpression"></p>
+</li>
+<li><p>In the invoked <strong>Expression Editor</strong>, construct the expression and click <strong>OK</strong>:</p>
+<p> <img src="../../../../../images/eurd-weighted-average-construct-expression.png" alt="WeightedAverage_ExpressionForCalcField"></p>
+</li>
+<li><p>Add the created calculated field to the report as an ordinary data field and format its value.</p>
+</li>
+</ol>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/19.1/interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/shape-report-data/shape-data-data-bindings/calculate-a-weighted-average.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2019 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../../../styles/main.js"></script>
+  </body>
+</html>

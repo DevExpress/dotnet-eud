@@ -8,7 +8,7 @@
     <title>Display Row Numbers in a Report, Group or Page | DevExpress End-User Documentation </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Display Row Numbers in a Report, Group or Page | DevExpress End-User Documentation ">
-    <meta name="generator" content="docfx 2.40.12.0">
+    <meta name="generator" content="docfx 2.37.0.0">
     
     <link rel="shortcut icon" href="../../../../../../favicon.ico">
     <link rel="stylesheet" href="../../../../../../styles/docfx.vendor.css">
@@ -70,21 +70,24 @@
 <h1 id="display-row-numbers-in-a-report-group-or-page">Display Row Numbers in a Report, Group or Page</h1>
 
 <p>This document describes how to show the current row number for each data source value displayed in a report.</p>
-<div class="WARNING"><h5>Warning</h5><p>Use the approach below if expression bindings <strong>are enabled</strong> in the Report Designer (the <a href="../../report-designer-tools/ui-panels/property-grid.html">Property Grid</a> provides the <strong>PropertyName Expression</strong> item in the property marker&#39;s context menu).</p>
-<p>See <a href="../shape-data-data-bindings/display-row-numbers-in-a-report-group-or-page.html">Display Row Numbers in a Report, Group or Page</a> if expression bindings <strong>are not enabled</strong> in the Report Designer.</p>
+<div class="NOTE"><h5>Note</h5><p>Use this approach if expressions <strong>are enabled</strong> in the Report Designer (the Label&#39;s smart tag includes the <strong>Expression</strong> property).</p>
+<p><img src="../../../../../images/eurd-label-expression-binding-modes.png" alt=""></p>
+<p>See the <a href="../shape-data-data-bindings/display-row-numbers-in-a-report-group-or-page.html">Display Row Numbers in a Report, Group or Page</a> topic in the <a href="../shape-data-data-bindings.html">Shape Data (Data Bindings)</a> section to learn about an alternative approach.</p>
 </div>
 <p>A label can display row numbers after <a href="../../bind-to-data.html">binding your report to data</a> and specifying a bound data field in the Label&#39;s <strong>Expression</strong> property.</p>
 <ol>
-<li><p>Click the label&#39;s smart tag and invoke its <strong>Summary Running</strong> drop-down list. Select <strong>Report</strong> to increment the row numbers throughout the entire report, or select <strong>Group</strong> or <strong>Page</strong> to reset the row numbers for every group or page.</p>
+<li><p>Click the label&#39;s smart tag. In the invoked <strong>Label Tasks</strong> window, click the <strong>Summary</strong> property&#39;s ellipsis button.</p>
 <p> <img src="../../../../../images/eurd-win-shaping-row-numbers-summary-running.png" alt=""></p>
 </li>
-<li><p>Click the ellipsis button for the <strong>Expression</strong> property.</p>
-<p> <img src="../../../../../images/eurd-win-shaping-row-numbers-expression-property.png" alt=""></p>
+<li><p>In the Summary Editor window:</p>
+<ul>
+<li>Set the <strong>Summary running</strong> property. Select <strong>Report</strong> to increment the row numbers throughout the entire report, or select <strong>Group</strong> or <strong>Page</strong> to reset the row numbers for every group or page.</li>
+<li><p>Set the <strong>Summary function</strong> property to <strong>Record Number</strong>.</p>
+<p><img src="../../../../../images/eurd-win-shaping-row-numbers-expression-property.png" alt=""></p>
 </li>
-<li><p>In the invoked <strong>Summary Expression Editor</strong>, select the <strong>sumRecordNumber</strong> function in the <strong>Functions</strong> | <strong>Summary</strong> section.</p>
-<p> <img src="../../../../../images/eurd-win-shaping-row-numbers-expression.png" alt=""></p>
+</ul>
 </li>
-<li><p>Use the <strong>Format String</strong> property to format the resulting value.</p>
+<li><p>Back in the <strong>Label Tasks</strong> window, you can use the <strong>FormatString</strong> property to format the resulting value:</p>
 <p> <img src="../../../../../images/eurd-win-shaping-row-numbers-format-string.png" alt=""></p>
 </li>
 </ol>
@@ -98,7 +101,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/18.2/interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/shape-report-data/shape-data-expression-bindings/display-row-numbers-in-a-report-group-or-page.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/19.1/interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/shape-report-data/shape-data-expression-bindings/display-row-numbers-in-a-report-group-or-page.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>
@@ -117,7 +120,7 @@
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            Copyright (c) 1998-2018 Developer Express Inc. All rights reserved.
+            Copyright (c) 1998-2019 Developer Express Inc. All rights reserved.
             
           </div>
         </div>

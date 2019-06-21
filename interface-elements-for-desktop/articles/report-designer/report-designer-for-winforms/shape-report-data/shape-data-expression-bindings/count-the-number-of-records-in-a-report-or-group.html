@@ -8,7 +8,7 @@
     <title>Count the Number of Records in a Report or Group | DevExpress End-User Documentation </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Count the Number of Records in a Report or Group | DevExpress End-User Documentation ">
-    <meta name="generator" content="docfx 2.40.12.0">
+    <meta name="generator" content="docfx 2.37.0.0">
     
     <link rel="shortcut icon" href="../../../../../../favicon.ico">
     <link rel="stylesheet" href="../../../../../../styles/docfx.vendor.css">
@@ -70,8 +70,9 @@
 <h1 id="count-the-number-of-records-in-a-report-or-group">Count the Number of Records in a Report or Group</h1>
 
 <p>This document describes how to display the number or records in a report or group.</p>
-<div class="WARNING"><h5>Warning</h5><p>Use the approach below if expression bindings <strong>are enabled</strong> in the Report Designer (the <a href="../../report-designer-tools/ui-panels/property-grid.html">Property Grid</a> provides the <strong>PropertyName Expression</strong> item in the property marker&#39;s context menu).</p>
-<p>See <a href="../shape-data-data-bindings/count-the-number-of-records-in-a-report-or-group.html">Count the Number of Records in a Report or Group</a> if expression bindings <strong>are not enabled</strong> in the Report Designer.</p>
+<div class="NOTE"><h5>Note</h5><p>Use this approach if expressions <strong>are enabled</strong> in the Report Designer (the Label&#39;s smart tag includes the <strong>Expression</strong> property).</p>
+<p><img src="../../../../../images/eurd-label-expression-binding-modes.png" alt=""></p>
+<p>See the <a href="../shape-data-data-bindings/count-the-number-of-records-in-a-report-or-group.html">Count the Number of Records in a Report or Group</a> topic in the <a href="../shape-data-data-bindings.html">Shape Data (Data Bindings)</a> section to learn about an alternative approach.</p>
 </div>
 <ol>
 <li><p>Right-click the report&#39;s design surface and add a Report Header or Footer to display the record count for the entire report.</p>
@@ -82,16 +83,19 @@
 <li><p>Switch to the <a href="../../report-designer-tools/ui-panels/field-list.html">Field List</a> and drop the corresponding data table field onto the created band to create a data-bound label.</p>
 <p> <img src="../../../../../images/eurd-win-shaping-drop-field-onto-report-header.png" alt=""></p>
 </li>
-<li><p>Click the label&#39;s smart tag and invoke its <strong>Summary Running</strong> drop-down list. Select <strong>Report</strong> to count the records throughout the entire report, or select <strong>Group</strong> or <strong>Page</strong> to reset the record count for every group or page.</p>
+<li><p>Click the label&#39;s smart tag. In the invoked Label Tasks window, click the <strong>Summary</strong> field&#39;s ellipsis button.</p>
 <p> <img src="../../../../../images/eurd-win-shaping-count-summary-running.png" alt=""></p>
 </li>
-<li><p>Click the <strong>Expression</strong> property&#39;s ellipsis button.</p>
-<p> <img src="../../../../../images/eurd-win-shaping-count-expression-property.png" alt=""></p>
+<li><p>In the <strong>Summary Editor</strong> window:</p>
+<ul>
+<li>Set the <strong>Summary</strong> property. Select <strong>Report</strong> to count the records throughout the entire report, or select <strong>Group</strong> or <strong>Page</strong> to reset the record count for every group or page.</li>
+<li>Set the <strong>Summary function</strong> property to <strong>DCount</strong>.</li>
+<li><p>Set the <strong>Argument Expression</strong> property to the data field you need to count.</p>
+<p><img src="../../../../../images/eurd-win-shaping-count-expression.png" alt=""></p>
 </li>
-<li><p>In the invoked <strong>Summary Expression Editor</strong>, select the <strong>sumCount</strong> function in the <strong>Functions</strong> | <strong>Summary</strong> section.</p>
-<p> <img src="../../../../../images/eurd-win-shaping-count-expression.png" alt=""></p>
+</ul>
 </li>
-<li><p>Use the <strong>Format String</strong> property to format the resulting value.</p>
+<li><p>Back in the <strong>Label Tasks</strong> window, you can use the <strong>Format String</strong> property to format the resulting value:</p>
 <p> <img src="../../../../../images/eurd-win-shaping-count-format-string.png" alt=""></p>
 </li>
 </ol>
@@ -105,7 +109,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/18.2/interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/shape-report-data/shape-data-expression-bindings/count-the-number-of-records-in-a-report-or-group.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/19.1/interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/shape-report-data/shape-data-expression-bindings/count-the-number-of-records-in-a-report-or-group.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>
@@ -124,7 +128,7 @@
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            Copyright (c) 1998-2018 Developer Express Inc. All rights reserved.
+            Copyright (c) 1998-2019 Developer Express Inc. All rights reserved.
             
           </div>
         </div>

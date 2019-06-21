@@ -8,7 +8,7 @@
     <title>Picture Box | DevExpress End-User Documentation </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Picture Box | DevExpress End-User Documentation ">
-    <meta name="generator" content="docfx 2.40.12.0">
+    <meta name="generator" content="docfx 2.37.0.0">
     
     <link rel="shortcut icon" href="../../../../../../favicon.ico">
     <link rel="stylesheet" href="../../../../../../styles/docfx.vendor.css">
@@ -70,22 +70,39 @@
 <h1 id="picture-box">Picture Box</h1>
 
 <h2 id="overview">Overview</h2>
-<p>You can use the <strong>Picture Box</strong> control to embed <em>static</em> (stored with the report definition) or <em>dynamic</em> (obtained from a data source) images into a report. The images can have one of the following formats: BMP, JPG, JPEG, GIF, TIF, TIFF, PNG, ICO, DIB, RLE, JPE, JFIF, EMF, WMF, SVG.</p>
+<p>Use the <strong>Picture Box</strong> control to add images to a report. The images can have one of the following formats: BMP, JPG, JPEG, GIF, TIF, TIFF, PNG, ICO, DIB, RLE, JPE, JFIF, EMF, WMF, SVG.</p>
 <p>To add the <strong>Picture Box</strong> control to a report, drag the <strong>Picture Box</strong> item from the <a href="../../report-designer-tools/toolbox.html">Toolbox</a> onto the report&#39;s area.</p>
 <p><img src="../../../../../images/eurd-win-add-picture-box-to-report.png" alt=""></p>
 <p>Specify one of the following properties to set an image:</p>
 <ul>
-<li><strong>ImageSource</strong><br>  Use this property to save images along with a report definition.</li>
-<li><strong>ImageUrl</strong><br>  Use this property to save only the path to the image.</li>
+<li><strong>Image Source</strong><br>  Save the image to the report definition.</li>
+<li><strong>Image Url</strong><br>  Only save a path to the image.</li>
 </ul>
 <p><img src="../../../../../images/eurd-win-picture-box-image-property.png" alt=""></p>
+<h2 id="assign-an-external-image">Assign an External Image</h2>
+<p>Click the <strong>Image Source</strong> / <strong>Image URL</strong> property&#39;s ellipsis button to invoke the <strong>Open File</strong> dialog.</p>
+<p><img src="../../../../../images/eurd-win-ImageSource-OpenFileDialog.png" alt=""></p>
+<p>The selected image or its URL is saved to the report definition <strong>.repx</strong> file.</p>
+<h2 id="assign-an-image-from-the-reports-image-collection">Assign an Image from the Report&#39;s Image Collection</h2>
+<p>Set the report&#39;s <strong>Image Resources</strong> property.</p>
+<p><img src="../../../../../images/eurd-win-ImageResources-Editor.png" alt=""></p>
+<p>Click the <strong>Picture Box</strong>&#39;s smart tag. In the invoked menu, click the <strong>Expression</strong> option&#39;s ellipsis button to open the <strong>Expression Editor</strong>. Choose an image from the <strong>Images</strong> collection:</p>
+<p><img src="../../../../../images/eurd-win-ImageSource-ExpressionEditor-ImagesCollection.png" alt="ImageSource-OpenFileDialog"></p>
 <h2 id="bind-a-picture-box-to-data">Bind a Picture Box to Data</h2>
-<p>You can use the Picture Box to display an image <a href="../../bind-to-data/bind-controls-to-data-expression-bindings.html">dynamically obtained</a> from a data source. Click the control&#39;s smart tag, expand the <strong>Image</strong> property&#39;s <strong>Expression</strong> drop-down list and select the data field.</p>
-<p><img src="../../../../../images/eurd-win-picture-box-bind-to-data.png" alt=""></p>
-<p>You can bind the <strong>Image URL</strong> property to data in the same way. </p>
-<p>Click the <strong>Expression</strong> option&#39;s ellipsis button to invoke the <strong>Expression Editor</strong>. This editor allows you to construct a complex binding expression with two or more data fields.</p>
-<p>You can also drag and drop a field that contains image data from the <a href="../../report-designer-tools/ui-panels/field-list.html">Field List</a> to create a new Picture Box bound to this field.</p>
-<p><img src="../../../../../images/eurd-win-picture-box-drop-from-field-list.png" alt=""></p>
+<p>Use one of the following techniques to add the <strong>Picture Box</strong> control that obtains an image from a data source.</p>
+<ul>
+<li><p>Click the control&#39;s smart tag. In the invoked menu, expand the <strong>Expression</strong> drop-down list for the <strong>Image Source</strong> property and select a data field.</p>
+<p>  <img src="../../../../../images/eurd-win-picturebox-set-field.png" alt=""></p>
+<p>  You can bind the <strong>Image Url</strong> property to data in a similar way. In this instance, the URL that specifies the image location is obtained from the data source.  </p>
+<p>  Click the <strong>Expression</strong> option&#39;s ellipsis button to invoke the <strong>Expression Editor</strong>. Use this editor to construct a <a href="../../use-expressions.html">binding expression</a> that can include two or more data fields.</p>
+</li>
+<li><p>Drag an image data field from the report&#39;s <a href="../../report-designer-tools/ui-panels/field-list.html">Field List</a> and drop it onto a report band.</p>
+<p>  <img src="../../../../../images/eurd-win-picture-box-drop-from-field-list.png" alt=""></p>
+</li>
+<li><p>Right-click a data field in the <a href="../../report-designer-tools/ui-panels/field-list.html">Field List</a> and drop it onto a report band. Select the <strong>Picture Box</strong> item in the invoked context menu.</p>
+<p>  <img src="../../../../../images/eurd-win-picture-box-drop-right-click.png" alt=""></p>
+</li>
+</ul>
 <p>See the <a href="../../bind-to-data/bind-controls-to-data-expression-bindings.html">Bind Report Controls to Data</a> topic for more information about how to create data-aware controls.</p>
 <h2 id="svg-support-limitations">SVG Support Limitations</h2>
 <p>The <strong>Picture Box</strong> control does not support the following SVG content:</p>
@@ -150,7 +167,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/18.2/interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/use-report-elements/use-basic-report-controls/picture-box.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/19.1/interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/use-report-elements/use-basic-report-controls/picture-box.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>
@@ -169,7 +186,7 @@
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            Copyright (c) 1998-2018 Developer Express Inc. All rights reserved.
+            Copyright (c) 1998-2019 Developer Express Inc. All rights reserved.
             
           </div>
         </div>

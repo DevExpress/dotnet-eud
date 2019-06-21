@@ -377,6 +377,7 @@ $(function () {
             href = navrel + href;
             $(e).attr("href", href);
 
+            // TODO: currently only support one level navbar
             var isActive = false;
             var originalHref = e.name;
             if (originalHref) {
@@ -386,10 +387,7 @@ $(function () {
               }
             } else {
               if (util.getAbsolutePath(href) === currentAbsPath) {
-                var dropdown = $(e).attr('data-toggle') == "dropdown"
-                if (!dropdown) {
-                  isActive = true;
-                }
+                isActive = true;
               }
             }
             if (isActive) {
