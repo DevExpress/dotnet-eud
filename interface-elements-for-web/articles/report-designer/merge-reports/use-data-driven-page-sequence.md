@@ -13,15 +13,15 @@ Follow the steps below to create a combined report:
 
 ## Create a Chart Report
 
-1. Create a report that shows data in the chart form. [Bind](../bind-to-data/bind-a-report-to-a-database.md) the report to a data source. Set the report's **Landscape** property to **true** to enable the Landscape page orientation.
+1. Create a report that shows data in the chart form. [Bind](../bind-to-data/bind-a-report-to-data.md) the report to a data source. Set the report's **Landscape** property to **true** to enable the Landscape page orientation.
 
     ![eurd-merge-chart-report](../../../images/eurd-merge-chart-report.png)
 
-1. Add a parameter to your chart report to identify which data to use for the chart. Switch to the **Field List** tab and click the plus sign next to **Parameters**.
+1. Add a parameter to your chart report to identify which data to use for the chart. Switch to the **Field List** tab and click the **Parameters** node's plus button.
 
     ![eurd-fieldlist-addparameter](../../../images/eurd-fieldlist-addparameter.png)
 
-1. Click the created parameter's edit icon and set its **Name** and **Type**, and uncheck the **Visible** option.
+1. Click the created parameter's edit button and set its **Name** and **Type**, and uncheck the **Visible** option.
 
     ![eurd-report-param](../../../images/eurd-report-param.png)
 
@@ -49,7 +49,7 @@ Follow the steps below to create a combined report:
 
     ![xtrareports-add-subreport](../../../images/eurd-merge-add-subreport.png)
 
-1. Click the subreport control's smart tag. In the **Sub-Report Tasks** window, set the **Report Source** parameter to the chart report's location.
+1. Select the subreport control. In the **Actions** group, set the **Report Source Url** parameter to the chart report.
 
     ![xtrareports-add-subreport](../../../images/eurd-merge-configure-subreport.png)
 
