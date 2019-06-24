@@ -57,13 +57,9 @@ Follow the steps below to create a combined report:
 
     ![xtrareports-subreport-enable-generateownpages](../../../images/eurd-merge-enable-generateownpages-2.png)
 
-1. Bind the chart report's parameter to the base report's data field. Switch to the subreport's **Field List** tab and click the plus icon next to **Parameters**.
+1. Bind the subreport's parameter used as a filter criterion to the master report's data field that serves as a source of the parameter value. Expand the **Data** category, select the **Parameter Bindings** section and add a new parameter binding. In the binding properties list, specify the data field to bind a subreport parameter to, and the parameter you want to bind.
 
     ![xtrareports-add-subreport](../../../images/eurd-merge-subreport-add-parameter.png)
-
-1. Click the edit icon next to the added parameter and specify the parameter's **Name** and **Type**. Uncheck the **Visible** property.
-
-    ![xtrareports-add-subreport](../../../images/eurd-merge-subreport-edit-parameter.png)
 
 1. Switch to Preview mode to see the combined report.
 
