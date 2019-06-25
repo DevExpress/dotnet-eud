@@ -34,7 +34,7 @@ This tutorial describes how to use vertical bands to create a report where recor
 
     ![](../../../images/eurd-web-vertical-reports-layout.png)
 
-The wizard adds report controls to the following [bands](../introduction-to-banded-reports.md):
+The wizard adds report controls to the following [bands](../../report-designer/introduction-to-banded-reports.md):
 
 - **Vertical Header band**  
     Contains a table with a single column that displays data field headers.
@@ -52,4 +52,4 @@ Switch to the Preview mode to see the result.
 >
 > ![](../../../images/eurd-web-vertical-reports-insert.png)  
 >
-> Refer to the [Introduction to Banded Reports](../introduction-to-banded-reports.md#vertical-bands) topic for more information.
+> Refer to the [Introduction to Banded Reports](../../report-designer/introduction-to-banded-reports.md#vertical-bands) topic for more information.
