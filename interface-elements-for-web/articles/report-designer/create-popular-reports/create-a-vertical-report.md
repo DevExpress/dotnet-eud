@@ -8,6 +8,8 @@ This tutorial describes how to use vertical bands to create a report where recor
 
 ![](../../../images/eurd-web-vertical-reports-result.png)
 
+# Design a Report in Report Wizard
+
 1. [Create a new report](../add-new-reports.md) or [open an existing one](../open-reports.md).
 
 1. Open the Web Report Designer's menu. Select **Design in Report Wizard**.
@@ -53,3 +55,19 @@ Switch to the Preview mode to see the result.
 > ![](../../../images/eurd-web-vertical-reports-insert.png)  
 >
 > Refer to the [Introduction to Banded Reports](../../report-designer/introduction-to-banded-reports.md#vertical-bands) topic for more information.
+
+## Set Vertical Table Options
+
+You can set the following options to modify the vertical table:
+
+* Set the Vertical Header band's **Repeat Every Page** property to false to display field headers once - on the first report page.
+
+    ![](../../../images/eurd-web-vertical-reports-repeat-every-page.png)
+
+* Set the Vertical Detail band's **Band Layout** property to **Across Then Down** to print the data records that do not fit a page on the same page, otherwise, they are printed on the next page.
+
+    ![](../../../images/eurd-web-vertical-reports-band-layout.png)
+
+* Add a field to the **Sort Fields** group to sort the report's data.
+
+    ![](../../../images/eurd-web-vertical-reports-sort-fields.png)
