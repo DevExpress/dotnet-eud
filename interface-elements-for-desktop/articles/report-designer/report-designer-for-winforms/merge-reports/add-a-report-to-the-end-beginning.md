@@ -20,10 +20,10 @@ Follow the steps below to add a separate report to the end of another report an
     > [!Tip]
     > To add a report to the beginning of another report (for instance, to add a title page), use the **Report Header** band instead.
 
-1. Click the subreport's smart tag. In the invoked **Sub-Report Tasks** window, specify the report that you want to insert:
+1. Click the subreport's smart tag and specify a report in the **Sub-Report Tasks** window:
 
-    * If you have a pre-defined report, set it in the **Report Source** parameter.
-    * If you want to use a customized pre-defined report, or if you have a sub-report saved to your hard drive, set it in the **Report Source Url** parameter.
+    * Use the **Report Source** property to assign a predefined report from the Designer.
+    * Use the **Report Source Url** property to assign a custom report.
 
     ![xtrareports-add-subreport](../../../../images/eurd-merge-configure-subreport-2.png)
 
