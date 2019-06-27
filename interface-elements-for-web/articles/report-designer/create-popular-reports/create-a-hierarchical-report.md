@@ -63,7 +63,7 @@ This tutorial describes how to use the [detail band](../../report-designer/intro
 
 1. Add a drill-down control to expand/collapse child rows.
 
-    - Add a [Check Box](..\use-report-elements\use-basic-report-controls\check-box.md) control to the **Detail** band at the left-most position.
+    - Add a [Check Box](../use-report-elements/use-basic-report-controls/check-box.md) control to the **Detail** band at the left-most position.
 
       ![eurd-hierarchical-report-add-checkbox](../../../images/eurd-hierarchical-report-add-checkbox.png)
 
