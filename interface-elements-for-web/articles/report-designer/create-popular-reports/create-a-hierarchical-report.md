@@ -20,12 +20,12 @@ This tutorial describes how to use the [detail band](../../report-designer/intro
 
 1. Arrange controls on the report.
 
-    - Add the [Report Header](..\introduction-to-banded-reports.md) and [Page Header](..\introduction-to-banded-reports.md) bands (see the **Manage Report Bands | Add Bands** section in the [Introduction to Banded Reports](..\introduction-to-banded-reports.md) document for details)
-    - Add [data-bound labels](..\use-report-elements\use-basic-report-controls\label.md) to the **Detail** band.
+    - Add the [Report Header](../introduction-to-banded-reports.md) and [Page Header](../introduction-to-banded-reports.md) bands (see the **Manage Report Bands | Add Bands** section in the [Introduction to Banded Reports](../introduction-to-banded-reports.md) document for details)
+    - Add [data-bound labels](../use-report-elements/use-basic-report-controls/label.md) to the **Detail** band.
 
     ![eurd-hierarchical-report-add-controls](../../../images/eurd-hierarchical-report-add-controls.png)
 
-    Switch to [Preview](..\preview-print-and-export-reports.md) mode to see an intermediate result.
+    Switch to [Preview](../preview-print-and-export-reports.md) mode to see an intermediate result.
 
     ![eurd-hierarchical-report-add-controls-result](../../../images/eurd-hierarchical-report-add-controls-result.png)
 
