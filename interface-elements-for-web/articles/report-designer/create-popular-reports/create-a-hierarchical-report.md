@@ -4,7 +4,7 @@ author: Sergey Andreev
 ---
 # Create a Hierarchical Report
 
-This tutorial describes how to use the [detail band](..\introduction-to-banded-reports.md)'s **Hierarchy Print Options** property to create a hierarchical report.
+This tutorial describes how to use the [detail band](../../report-designer/introduction-to-banded-reports.md)'s **Hierarchy Print Options** property to create a hierarchical report.
 
 ![eurd-hierarchical-report-result](../../../images/eurd-hierarchical-report-expressions-result.png)
 
