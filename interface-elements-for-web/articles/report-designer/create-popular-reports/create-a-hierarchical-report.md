@@ -91,9 +91,9 @@ This tutorial describes how to use the [detail band](../../report-designer/intro
 
 8. Highlight root nodes.
 
-    To format rows based on their nesting level, use the **Current Row Hierarchy Level** variable in expressions. For example, specify the **Detail** band's appearance properties as listed below:
+    To format rows based on their nesting level, use the **CurrentRowHierarchyLevel** variable in expressions. For example, specify the **Detail** band's appearance properties as listed below:
 
-    - Set the **Back Color** property to *iif([DataSource.CurrentRowHierarchyLevel] == 0, Rgb(231,235,244), ?)*
+    - Set the **Background Color** property to *iif([DataSource.CurrentRowHierarchyLevel] == 0, Rgb(231,235,244), ?)*
     - Set the **Font | Bold** property to *[DataSource.CurrentRowHierarchyLevel] == 0*
 
     ![HierarchicalReport-ExpressionVariable](../../../images/eurd-hierarchical-report-expressions.png)
