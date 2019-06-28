@@ -12,11 +12,9 @@ This tutorial describes how to use the [detail band](../../report-designer/intro
 
 1. [Bind the report](../bind-to-data.md) to a data source.
 
-    The following image demonstrates an empty report bound to an ObjectDataSource.
-
     ![eurd-hierarchical-report-bind-to-data](../../../images/eurd-hierarchical-report-bind-to-data.png)
 
-    Each record in this data source includes the "parent ID" field that defines the parent-child relationship and thus builds the hierarchy.
+    Each record in the data source should include a field that defines the parent-child relationship and thus builds the hierarchy.
 
 1. Arrange controls on the report.
 
@@ -75,7 +73,7 @@ This tutorial describes how to use the [detail band](../../report-designer/intro
 
         ![HierarchicalReport-SetDrillDownControl](../../../images/eurd-hierarchical-report-drilldown.png)
 
-    - Set the **Check Box**'s **Check State** property to the following expression: *[ReportItems].[Detail].[DrillDownExpanded]* (in the control's Smart Tag or the [Properties Panel](../report-designer-tools/ui-panels/properties-panel.md)'s Expressions tab).
+    - Set the **Check Box**'s **Check State** property to the following expression: *[ReportItems].[Detail].[DrillDownExpanded]*.
 
         ![HierarchicalReport-CheckStateExpression](../../../images/eurd-hierarchical-report-checkstateexpression.png)
 
