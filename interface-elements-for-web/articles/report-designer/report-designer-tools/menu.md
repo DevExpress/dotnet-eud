@@ -6,7 +6,7 @@ author: Anna Vekhina
 
 The Web Report Designer menu is invoked by clicking the menu button in the upper-left corner of the designer's user interfaces.
 
-![](../../../images/eurd-web-main-menu.png)
+![Main menu](../../../images/eurd-web-main-menu.png)
 
 Note that some of the menu commands listed in this topic are only available when specific conditions are met. Visibility conditions for such commands are provided in the command description.
 
