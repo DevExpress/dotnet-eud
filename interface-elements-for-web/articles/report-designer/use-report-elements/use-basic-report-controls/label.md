@@ -62,7 +62,7 @@ You can change a label's size to fit its static text using the **Fit Bounds To T
 
 This command's result also depends on the control's **Text Alignment** and **Right To Left** settings.
 
-Use the **Fit Text To Bounds** buttom to adjust the control's font size to fit its area. The **Word Wrap** option defines whether the text can occupy multiple lines or should be in a single line.
+Use the **Fit Text To Bounds** button to adjust the control's font size to fit its area. The **Word Wrap** option defines whether the text can occupy multiple lines or should be in a single line.
 
 ![](../../../../images/eurd-web-label-fit-text-to-bounds.png)
 
@@ -96,11 +96,11 @@ You can also use the opposite **Text Fit Mode** property to adjust a control's f
 |---|---|---|---|
 | ![](../../../../images/eurd-web-label-text-fit-mode-none.png) | ![](../../../../images/eurd-web-label-text-fit-mode-grow-only.png) | ![](../../../../images/eurd-web-label-text-fit-mode-shrink-only.png) | ![](../../../../images/eurd-web-label-text-fit-mode-shrink-and-grow.png) |
 
-See the [Lay out Dynamic Report Content](../../lay-out-dynamic-report-content.md) topic for more information/
+See the [Lay out Dynamic Report Content](../../lay-out-dynamic-report-content.md) topic for more information.
 
 
 ## Interactivity
-Set the **Enabled** option in the **Edit Options** category section to **Yes** to allow users to [edit a label's content](../../provide-interactivity/edit-content-in-print-preview.md) in Print Preview mode.
+Set the **Enabled** option in the **Edit Options** category section to **Yes** to [edit a label's content](../../provide-interactivity/edit-content-in-print-preview.md) in Print Preview mode.
 
 ![](../../../../images/eurd-web-label-edit-options-enabled.png)
 
@@ -108,7 +108,7 @@ Clicking this label in a previewed document invokes the appropriate editor.
 
 ![](../../../../images/eurd-web-label-content-editing-in-print-preview.png)
 
-Use the label's **Interactive Sorting** option to allow users to click this label in Print Preview to sort report data. Set the **Target Band** property to the Group Header or Detail band, and specify the data field in the **Field Name** property.
+Use the label's **Interactive Sorting** option to click this label in Print Preview to sort report data. Set the **Target Band** property to the Group Header or Detail band, and specify the data field in the **Field Name** property.
 
 ![](../../../../images/eurd-web-label-interactive-sorting-options.png)
 
@@ -120,8 +120,8 @@ Enable the **Allow Markup Text** property to format the label's text with markup
 
 ![](../../../../images/eurd-web-label-markup-text-allow-markup-text-buttom-tag-examples.png)
 
-
 **Label** supports the following tags:
+
 | Tag | End Tag | Description |
 | --- | ------- | ----------- |
 | **&lt;br&gt;** |   | Inserts a single line break. Enable the **WordWrap** property to use this tag. |
