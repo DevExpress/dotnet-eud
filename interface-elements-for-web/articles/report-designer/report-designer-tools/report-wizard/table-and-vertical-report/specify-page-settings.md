@@ -47,4 +47,5 @@ The following images show the resulting report layout:
 
 
 ![**Table Report**](../../../../../images/eurd-web-report-wizard-resulting-table-report.png)
+
 ![**Vertical Report**](../../../../../images/eurd-web-report-wizard-resulting-vertical-report.png)

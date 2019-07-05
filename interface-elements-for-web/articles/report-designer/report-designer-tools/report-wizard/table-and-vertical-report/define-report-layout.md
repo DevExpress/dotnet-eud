@@ -51,6 +51,7 @@ You can stop the wizard at this step and get the report layout similar to the im
 
 
 ![**Table Report**](../../../../../images/eurd-web-report-wizard-table-group-result.png)
+
 ![**Vertical Report**](../../../../../images/eurd-web-report-wizard-vertical-group-result.png)
 
 ## Add Summary Fields
@@ -66,4 +67,5 @@ Select the **Ignore null values** checkbox to do not take data fields' empty val
 
 
 ![**Table Report**](../../../../../images/eurd-web-report-wizard-table-summary-result.png)
+
 ![**Vertical Report**](../../../../../images/eurd-web-report-wizard-vertical-summary-result.png)

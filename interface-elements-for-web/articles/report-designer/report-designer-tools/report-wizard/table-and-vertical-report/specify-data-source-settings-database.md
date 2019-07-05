@@ -76,7 +76,7 @@ You can use the following approaches to specify a parameter value:
 
 * **Provide a dynamic parameter value** 
 
-    Set the **Type** option to **Expression** and specify the **Result Type**. Click the **Value** option's ellipsis button and construct an expression in the invoked [](xref:114059).
+    Set the **Type** option to **Expression** and specify the **Result Type**. Click the **Value** option's ellipsis button and construct an expression in the invoked.
 
     ![](../../../../../images/eurd-web-report-wizard-parameter-dynamic-value.png)
 
