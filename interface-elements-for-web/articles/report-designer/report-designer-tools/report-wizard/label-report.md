@@ -28,7 +28,7 @@ Click **Finish** to complete report creation.
 
 ## Result
 
-After the wizard is finished, it divides the report's [Detail band](../../../introduction-to-banded-reports.md) into three differently colored areas:
+After the wizard is finished, it divides the report's [Detail band](../../introduction-to-banded-reports.md) into three differently colored areas:
 
 * The area at the left-hand side indicates the actual band area where you can place [controls](../../use-report-elements/use-basic-report-controls.md).
 * The gray area at the right-hand side defines the space where label columns are repeated. Do not place controls in this area. 

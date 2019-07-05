@@ -41,11 +41,11 @@ On the start page, choose the report type you want to create.
 
     Creates a blank report that is not bound to a data source. Choose this option to design your report from scratch without the wizard.
 
-* [Table Report](report-wizard\table-and-vertical-report)
+* [Table Report](report-wizard\table-and-vertical-report.md)
 
     Creates a [table report](../create-popular-reports/create-a-table-report.md) and binds it to data.
 
-* [Vertical Report](report-wizard\table-and-vertical-report)
+* [Vertical Report](report-wizard\table-and-vertical-report.md)
 
     Creates a [vertical report](../create-popular-reports/create-a-vertical-report.md) and binds it to data.
 
