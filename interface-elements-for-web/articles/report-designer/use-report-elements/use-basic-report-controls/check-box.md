@@ -68,15 +68,20 @@ The **Group ID** setting defines the checkbox's behavior in Print Preview:
 ## Glyph Customization
 
 The **Glyph Options** property provides access to glyph settings.
+
 ![](../../../../images/eurd-web-check-box-glyph-options.png)
 
 
 * **Alignment** - specifies the glyph's alignment within the control.
+
     ![](../../../../images/eurd-web-check-box-glyph-options-alignment.png)
 
 * **Size** - specifies the glyph size.
+
 * **Glyph Style** - specifies a predefined glyph style.
+
     ![](../../../../images/eurd-web-check-box-glyph-options-glyph-style.png)
+    
 * **Custom Glyphs** - specifies a custom glyph image for each checkbox state (Checked/Unchecked/Indeterminate).
 
     ![](../../../../images/eurd-web-check-box-glyph-options-custom-glyphs.png)
