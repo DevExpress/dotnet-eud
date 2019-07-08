@@ -9,13 +9,13 @@ This tutorial illustrates how to bind a report to a hierarchical data source and
 ## Add a New Data Source
 
 1. [Create a new blank report](../../report-designer/add-new-reports.md).
-2. Invoke the designer [menu](../report-designer-tools/menu.md) and click **Add SQL Data Source...**.
+2. Invoke the designer [menu](../report-designer-tools/menu.md) and click **Add Data Source...**.
 
-   ![](../../../images/eurd-web-add-sql-data-source-menu.png) 
+   ![](../../../images/eurd-web-data-source-menu.png) 
 
    The menu contains this command if your software vendor provides data connections.
 
-3. Select the data connection on the [SQL Data Source Wizard](../report-designer-tools/sql-data-source-wizard.md)'s first page and click **Next**.
+3. Select the data connection on the [Data Source Wizard](../report-designer-tools/data-source-wizard.md)'s first page and click **Next**.
 
     ![](../../../images/eurd-web-sql-ds-wizard-choose-a-data-connection.png)
 
@@ -24,7 +24,7 @@ This tutorial illustrates how to bind a report to a hierarchical data source and
     ![](../../../images/eurd-web-sql-ds-wizard-create-a-query-automatically.png)
     
     > [!NOTE]
-    > You can also create [custom queries](../report-designer-tools/sql-data-source-wizard/add-a-new-data-source/create-a-query-or-select-a-stored-procedure.md) to shape data at the data source level. Select **Queries** and click the plus button to add a new query.
+    > You can also create [custom queries](../report-designer-tools/data-source-wizard\specify-data-source-settings-database.md) to shape data at the data source level. Select **Queries** and click the plus button to add a new query.
     > 
     > The invoked [Query Builder](../report-designer-tools/query-builder.md) allows you to join multiple tables, filter, sort, and group their data, and calculate various aggregate functions.
     > 

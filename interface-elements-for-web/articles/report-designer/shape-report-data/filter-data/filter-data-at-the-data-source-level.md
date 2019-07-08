@@ -18,7 +18,7 @@ This tutorial illustrates how to filter data at the report data source level, as
 
     ![](../../../../images/eurd-web-filter-data-edit-query.png)
 
-    Click **Run Query Builder** in the invoked [SQL Data Source Wizard](../../report-designer-tools/sql-data-source-wizard.md). 
+    Click **Run Query Builder** in the invoked [Data Source Wizard](../../report-designer-tools/data-source-wizard.md). 
 
     ![](../../../../images/eurd-web-filter-data-source-wizard.png)
 

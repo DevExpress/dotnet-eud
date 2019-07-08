@@ -4,7 +4,7 @@ owner: Anna Vekhina
 ---
 # Query Builder
 
-The **Query Builder** is a visual queries editor. You can invoke it from the [SQL Data Source Wizard](sql-data-source-wizard.md).
+The **Query Builder** is a visual queries editor. You can invoke it from the [Data Source Wizard](data-source-wizard.md).
 
 ## <a id="select"></a>Select Tables
 Drag and drop a specific table or view onto the Query Builder design surface to include it into a query result set. 

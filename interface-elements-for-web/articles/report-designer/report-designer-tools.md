@@ -9,7 +9,7 @@ The topics in this section describe the main tools and features available in the
 The Web Report Designer provides the following two kinds of wizards that enable you to create new reports and bind them to data.
 
 - [Report Wizard](report-designer-tools/report-wizard.md)
-- [SQL Data Source Wizard](report-designer-tools/sql-data-source-wizard.md)
+- [Data Source Wizard](report-designer-tools/data-source-wizard.md)
 
 The following main elements make up the user interface of the Web Report Designer.
 
