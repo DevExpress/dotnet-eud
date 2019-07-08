@@ -5,7 +5,7 @@ author: Anna Vekhina
 
 # Master-Detail Relation Editor
 
-When a data source contains two or more [queries](sql-data-source-wizard/add-a-new-data-source/create-a-query-or-select-a-stored-procedure.md), clicking the ![](../../../images/eurd-web-report-wizard-edit-query.png) button in the [Field List](ui-panels/field-list.md) will invoke the **Master-Detail Relation Editor**.
+When a data source contains two or more [queries](data-source-wizard/specify-data-source-settings-database.md), clicking the ![](../../../images/eurd-web-report-wizard-edit-query.png) button in the [Field List](ui-panels/field-list.md) will invoke the **Master-Detail Relation Editor**.
 
 ![](../../../images/eurd-web-open-master-detail-relation-editor.png)
 
