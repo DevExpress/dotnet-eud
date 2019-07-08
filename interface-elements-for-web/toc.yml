@@ -900,27 +900,13 @@
             href: articles/report-designer/report-designer-tools/report-wizard/label-report/select-the-label-type.md
           - name: Customize the Label Options
             href: articles/report-designer/report-designer-tools/report-wizard/label-report/customize-the-label-options.md     
-    - name: SQL Data Source Wizard
-      href: articles/report-designer/report-designer-tools/sql-data-source-wizard.md
+    - name: Data Source Wizard
+      href: articles/report-designer/report-designer-tools/data-source-wizard.md
       items:
-        - name: Add a New Data Source
-          href: articles/report-designer/report-designer-tools/sql-data-source-wizard/add-a-new-data-source.md
-          items:
-          - name: Choose a Data Connection
-            href: articles/report-designer/report-designer-tools/sql-data-source-wizard/add-a-new-data-source/choose-a-data-connection.md    
-          - name: Create a Query or Select a Stored Procedure
-            href: articles/report-designer/report-designer-tools/sql-data-source-wizard/add-a-new-data-source/create-a-query-or-select-a-stored-procedure.md
-          - name: Configure Query Parameters
-            href: articles/report-designer/report-designer-tools/sql-data-source-wizard/add-a-new-data-source/configure-query-parameters.md
-          - name: Configure Master-Detail Relationships
-            href: articles/report-designer/report-designer-tools/sql-data-source-wizard/add-a-new-data-source/configure-master-detail-relationships.md
-        - name: Edit an Existing Data Source
-          href: articles/report-designer/report-designer-tools/sql-data-source-wizard/edit-an-existing-data-source.md
-          items:
-          - name: Create a Query or Select a Stored Procedure
-            href: articles/report-designer/report-designer-tools/sql-data-source-wizard/edit-an-existing-data-source/create-a-query-or-select-a-stored-procedure.md
-          - name: Configure Query Parameters
-            href: articles/report-designer/report-designer-tools/sql-data-source-wizard/add-a-new-data-source/configure-query-parameters.md
+        - name: Specify Data Source Settings (Database)
+          href: articles\report-designer\report-designer-tools\data-source-wizard\specify-data-source-settings-database.md
+        - name: Specify Data Source Settings (JSON)
+          href: articles\report-designer\report-designer-tools\data-source-wizard\specify-data-source-settings-json.md
     - name: Design Surface
       href: articles/report-designer/report-designer-tools/design-surface.md
     - name: Main Menu
