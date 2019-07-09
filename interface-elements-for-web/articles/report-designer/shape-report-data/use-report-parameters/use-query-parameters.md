@@ -15,7 +15,7 @@ Query parameters are used in the following scenarios:
 
 * When filtering report data at the data source level using the [Query Builder](../../report-designer-tools/query-builder.md).
 	
-	The Query Builder helps you construct SQL queries when creating a new data-bound report or [binding an existing report to an SQL data source](../../bind-to-data/bind-a-report-to-data.md),
+	The Query Builder helps you construct SQL queries when creating a new data-bound report or [binding an existing report to an SQL data source](../../bind-to-data/bind-a-report-to-a-database.md),
 	
 	![](../../../../images/eurd-web-query-parameters-create-query.png)
 	
