@@ -12,7 +12,7 @@ This tutorial describes how to create a simple invoice report displaying informa
 
 1. [Create a new report](../add-new-reports.md) or [open an existing one](../open-reports.md).
 
-2. Invoke the designer [menu](../report-designer-tools/menu.md) and click **Add Data Source**.
+2. Invoke the designer [menu](../report-designer-tools/menu.md) and click **Add Data Source...**.
 
    ![](../../../images/eurd-web-data-source-menu.png) 
 

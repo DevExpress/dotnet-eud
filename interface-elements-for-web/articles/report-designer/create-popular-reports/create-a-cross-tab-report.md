@@ -20,7 +20,7 @@ A cross-tab report displays complex multi-dimensional data, such as summary stat
 
 3. Invoke the designer [menu](../report-designer-tools/menu.md) and click **Add Data Source...**.
 
-   ![](../../../images/eurd-web-add-sql-data-source-menu.png)
+   ![](../../../images/eurd-web-add-data-source-menu.png)
    
    Navigate through the invoked [Data Source Wizard](../report-designer-tools/data-source-wizard.md)'s pages to set up the data source. See the [Bind to Data](../bind-to-data.md) section for more information. 
 
