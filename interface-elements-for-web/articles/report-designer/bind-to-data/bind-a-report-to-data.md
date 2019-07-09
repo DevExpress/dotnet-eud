@@ -9,22 +9,22 @@ This tutorial illustrates how to bind a report to a hierarchical data source and
 ## Add a New Data Source
 
 1. [Create a new blank report](../../report-designer/add-new-reports.md).
-2. Invoke the designer [menu](../report-designer-tools/menu.md) and click **Add SQL Data Source...**.
+2. Invoke the designer [menu](../report-designer-tools/menu.md) and click **Add Data Source...**.
 
-   ![](../../../images/eurd-web-add-sql-data-source-menu.png) 
+   ![](../../../images/eurd-web-data-source-menu.png) 
 
    The menu contains this command if your software vendor provides data connections.
 
-3. Select the data connection on the [SQL Data Source Wizard](../report-designer-tools/sql-data-source-wizard.md)'s first page and click **Next**.
+3. Select the data connection on the [Data Source Wizard](../report-designer-tools/data-source-wizard.md)'s first page and click **Next**.
 
-    ![](../../../images/eurd-web-sql-ds-wizard-choose-a-data-connection.png)
+    ![](../../../images/eurd-web-data-source-wizard-choose-a-data-connection.png)
 
 4. Choose which tables, views and/or stored procedures to add to a report and click **Next**. Select two or more tables to [create a master-detail report](../create-popular-reports/create-a-master-detail-report-use-detail-report-bands.md).
 
-    ![](../../../images/eurd-web-sql-ds-wizard-create-a-query-automatically.png)
+    ![](../../../images/eurd-web-data-source-wizard-create-a-query-automatically.png)
     
     > [!NOTE]
-    > You can also create [custom queries](../report-designer-tools/sql-data-source-wizard/add-a-new-data-source/create-a-query-or-select-a-stored-procedure.md) to shape data at the data source level. Select **Queries** and click the plus button to add a new query.
+    > You can also create [custom queries](../report-designer-tools/data-source-wizard\specify-data-source-settings-database.md) to shape data at the data source level. Select **Queries** and click the plus button to add a new query.
     > 
     > The invoked [Query Builder](../report-designer-tools/query-builder.md) allows you to join multiple tables, filter, sort, and group their data, and calculate various aggregate functions.
     > 
@@ -33,11 +33,11 @@ This tutorial illustrates how to bind a report to a hierarchical data source and
 
 5. Set master-detail relationships on this wizard page. Hover the master table name, click the plus button and choose the detail table. 
 
-    ![](../../../images/eurd-web-binding-sql-ds-wizard-master-detail-relations.png)
+    ![](../../../images/eurd-web-binding-data-source-wizard-master-detail-relations.png)
 
     Select the required key fields (columns) to connect tables. 
 
-    ![](../../../images/eurd-web-binding-sql-ds-wizard-master-detail-key-fields.png)
+    ![](../../../images/eurd-web-binding-data-source-wizard-master-detail-key-fields.png)
 
     Click **Finish** to close the Data Source Wizard.
 

@@ -12,12 +12,12 @@ This tutorial describes how to create a simple invoice report displaying informa
 
 1. [Create a new report](../add-new-reports.md) or [open an existing one](../open-reports.md).
 
-2. Invoke the designer [menu](../report-designer-tools/menu.md) and click **Add SQL Data Source...**.
+2. Invoke the designer [menu](../report-designer-tools/menu.md) and click **Add Data Source...**.
 
-   ![](../../../images/eurd-web-add-sql-data-source-menu.png) 
+   ![](../../../images/eurd-web-data-source-menu.png) 
 
 
-3. Select a data connection on the [SQL Data Source Wizard](../report-designer-tools/sql-data-source-wizard.md)'s first page and click **Next**.
+3. Select a data connection on the [Data Source Wizard](../report-designer-tools/data-source-wizard.md)'s first page and click **Next**.
 
     ![](../../../images/eurd-web-invoice-select-data-connection-in-wizard.png)
 

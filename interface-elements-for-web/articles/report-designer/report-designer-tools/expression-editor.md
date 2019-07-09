@@ -53,7 +53,7 @@ In the [data binding](../bind-to-data/bind-controls-to-data-data-bindings.md) mo
 
 * **Specify a Query Parameter's Value**
 
-    In the [Configure Query Parameters](sql-data-source-wizard/add-a-new-data-source/configure-query-parameters.md) wizard page, set the parameter type to **Expression** and click the **Value** property's the ellipsis button.
+    In the [Configure Query Parameters](data-source-wizard\specify-data-source-settings-database.md) wizard page, set the parameter type to **Expression** and click the **Value** property's the ellipsis button.
 
     ![](../../../images/eurd-web-sql-ds-wizard-configure-query-parameters-expression-editor.png)
 
