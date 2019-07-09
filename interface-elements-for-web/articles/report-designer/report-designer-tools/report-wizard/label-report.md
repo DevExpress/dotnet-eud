@@ -36,4 +36,4 @@ After the wizard is finished, it divides the report's [Detail band](../../introd
 
 ![](../../../../images/eurd-web-report-wizard-label-report-result.png)
 
-To provide report data, use the [Data Source Wizard](../sql-data-source-wizard.md).
+To provide report data, use the [Data Source Wizard](../data-source-wizard.md).
