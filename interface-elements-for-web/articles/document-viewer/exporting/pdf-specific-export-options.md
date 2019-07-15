@@ -6,7 +6,7 @@ legacyId: 115380
 # PDF-Specific Export Options
 Before [exporting a document](export-a-document.md) to PDF, you can specify PDF-specific options in the dedicated **Export Options** panel.
 
-![EUD_HTML5DV_PdfExportOptions](../../../../images/img121802.png)
+![EUD_HTML5DV_PdfExportOptions](../../../images/img121802.png)
 
 ## General Options
 * **Convert Images to Jpeg**
@@ -34,12 +34,12 @@ Before [exporting a document](export-a-document.md) to PDF, you can specify PDF-
 ## Document Options
 The **Document Options** complex property contains options which specify the **Document Properties** of the created PDF file. Click the complex property's header to access its nested options.
 
-![EUD_HTML5DV_PdfDocumentOptions](../../../../images/img121803.png)
+![EUD_HTML5DV_PdfDocumentOptions](../../../images/img121803.png)
 
 ## PDF Password Security Options
 This complex property allows you to adjust the security options of the resulting PDF file.
 
-![EUD_HTML5DV_PdfSecurityOptions](../../../../images/img121804.png)
+![EUD_HTML5DV_PdfSecurityOptions](../../../images/img121804.png)
 * **OpenPassword**
 	
 	Specifies the password for opening the exported PDF document.

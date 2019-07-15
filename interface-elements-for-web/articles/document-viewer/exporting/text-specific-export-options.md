@@ -6,7 +6,7 @@ legacyId: 115382
 # Text-Specific Export Options
 Before [exporting a document](export-a-document.md) to TXT format, you can specify TXT-specific options in the dedicated **Export Options** panel.
 
-![EUD_HTML5DV_TextExportOptions](../../../../images/img121806.png)
+![EUD_HTML5DV_TextExportOptions](../../../images/img121806.png)
 * **Encoding**
 	
 	Specifies the encoding used in the exported document.
