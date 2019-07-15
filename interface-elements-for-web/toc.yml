@@ -514,6 +514,8 @@
       href: articles/report-designer/create-popular-reports/create-a-master-detail-report-use-detail-report-bands.md
     - name: Create a Master-Detail Report (Use Subreports)
       href: articles/report-designer/create-popular-reports/create-a-master-detail-report-use-subreports.md
+    - name: Create a Hierarchical Report
+      href: articles/report-designer/create-popular-reports/create-a-hierarchical-report.md
     - name: Create a Vertical Report
       href: articles/report-designer/create-popular-reports/create-a-vertical-report.md
     - name: Create Labels and Badges
@@ -825,6 +827,13 @@
       href: articles/report-designer/add-extra-information/display-the-current-date-and-time-in-a-report.md
     - name: Display the User Name in a Report
       href: articles/report-designer/add-extra-information/display-the-user-name-in-a-report.md
+  - name: Merge Reports
+    href: articles/report-designer/merge-reports.md
+    items:
+    - name: Add a Report to the End/Beginning
+      href: articles/report-designer/merge-reports/add-a-report-to-the-end-beginning.md
+    - name: Use Data-Driven Page Sequence
+      href: articles/report-designer/merge-reports/use-data-driven-page-sequence.md
   - name: Use Expressions
     href: articles/report-designer/use-expressions.md
     items:
