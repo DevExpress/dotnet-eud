@@ -24035,7 +24035,7 @@
       "output": {
         ".html": {
           "relative_path": "interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/create-popular-reports.html",
-          "hash": "Joid9Mgd2msmvMPuhVtOcw=="
+          "hash": "mf5dcef9VyF1iQBrYyx57g=="
         }
       },
       "is_incremental": true,
@@ -24062,7 +24062,7 @@
           "hash": "3WDLVLoksAdq+4cHPUT+5w=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -24335,7 +24335,7 @@
       "output": {
         ".html": {
           "relative_path": "interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/merge-reports/add-a-report-to-the-end-beginning.html",
-          "hash": "uSB2pJgNMGXg/ppBmJn1BA=="
+          "hash": "ge91lj+0EgRbxitffEFpaA=="
         }
       },
       "is_incremental": true,
@@ -24347,7 +24347,7 @@
       "output": {
         ".html": {
           "relative_path": "interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/merge-reports/use-data-driven-page-sequence.html",
-          "hash": "XVF3REE1SsaW57FEUIZJ6w=="
+          "hash": "R/qfo2KZpLd+3LtCJYmxnw=="
         }
       },
       "is_incremental": true,
@@ -25838,7 +25838,7 @@
           "hash": "DLOVd6AJYdfIfnFOqdUZ9g=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -26474,7 +26474,7 @@
           "hash": "NBYGrd6E5irEF0pHQ4bE5A=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -68004,7 +68004,7 @@
       "output": {
         ".html": {
           "relative_path": "interface-elements-for-web/articles/document-viewer.html",
-          "hash": "xFI9ZPwOXjvgiFdTRYGrDQ=="
+          "hash": "tc6fEsEvH0/U+AfswzebuQ=="
         }
       },
       "is_incremental": true,
@@ -68012,11 +68012,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "interface-elements-for-web/articles/document-viewer/classic-document-viewer.md",
+      "source_relative_path": "interface-elements-for-web/articles/document-viewer/content-editing.md",
       "output": {
         ".html": {
-          "relative_path": "interface-elements-for-web/articles/document-viewer/classic-document-viewer.html",
-          "hash": "4jxECnv13L7U9empZV1hQg=="
+          "relative_path": "interface-elements-for-web/articles/document-viewer/content-editing.html",
+          "hash": "OddID9wrbgx21u2GDVzO9w=="
         }
       },
       "is_incremental": true,
@@ -68024,11 +68024,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "interface-elements-for-web/articles/document-viewer/classic-document-viewer/exporting/export-a-report-and-save-it-to-the-disk.md",
+      "source_relative_path": "interface-elements-for-web/articles/document-viewer/exporting/csv-specific-export-options.md",
       "output": {
         ".html": {
-          "relative_path": "interface-elements-for-web/articles/document-viewer/classic-document-viewer/exporting/export-a-report-and-save-it-to-the-disk.html",
-          "hash": "ryPv9kYMeFL9/RasqAZcfQ=="
+          "relative_path": "interface-elements-for-web/articles/document-viewer/exporting/csv-specific-export-options.html",
+          "hash": "f29f9W/OZPk8sKDuuVq7ww=="
         }
       },
       "is_incremental": true,
@@ -68036,11 +68036,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "interface-elements-for-web/articles/document-viewer/classic-document-viewer/exporting/export-a-report-and-show-it-in-a-new-window.md",
+      "source_relative_path": "interface-elements-for-web/articles/document-viewer/exporting/docx-specific-export-options.md",
       "output": {
         ".html": {
-          "relative_path": "interface-elements-for-web/articles/document-viewer/classic-document-viewer/exporting/export-a-report-and-show-it-in-a-new-window.html",
-          "hash": "xiivAP2pqmqDxyF77SpPIA=="
+          "relative_path": "interface-elements-for-web/articles/document-viewer/exporting/docx-specific-export-options.html",
+          "hash": "5TDSQF15bG3ZVpoeJvNn2w=="
         }
       },
       "is_incremental": true,
@@ -68048,11 +68048,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "interface-elements-for-web/articles/document-viewer/classic-document-viewer/navigation/navigate-to-a-specific-report-page.md",
+      "source_relative_path": "interface-elements-for-web/articles/document-viewer/exporting/export-a-document.md",
       "output": {
         ".html": {
-          "relative_path": "interface-elements-for-web/articles/document-viewer/classic-document-viewer/navigation/navigate-to-a-specific-report-page.html",
-          "hash": "M/0dbkfIYXKcuMz3WiuTDg=="
+          "relative_path": "interface-elements-for-web/articles/document-viewer/exporting/export-a-document.html",
+          "hash": "N1JEUkUcN+FDCPlqSKsGVw=="
         }
       },
       "is_incremental": true,
@@ -68060,11 +68060,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "interface-elements-for-web/articles/document-viewer/classic-document-viewer/navigation/navigate-using-report-bookmarks.md",
+      "source_relative_path": "interface-elements-for-web/articles/document-viewer/exporting/html-specific-export-options.md",
       "output": {
         ".html": {
-          "relative_path": "interface-elements-for-web/articles/document-viewer/classic-document-viewer/navigation/navigate-using-report-bookmarks.html",
-          "hash": "y0Yovqunn7wcC0vElQN5LA=="
+          "relative_path": "interface-elements-for-web/articles/document-viewer/exporting/html-specific-export-options.html",
+          "hash": "z0Zf/SOrAGIDUhXmWQkkag=="
         }
       },
       "is_incremental": true,
@@ -68072,11 +68072,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "interface-elements-for-web/articles/document-viewer/classic-document-viewer/navigation/search-for-a-specific-text-within-a-report.md",
+      "source_relative_path": "interface-elements-for-web/articles/document-viewer/exporting/image-specific-export-options.md",
       "output": {
         ".html": {
-          "relative_path": "interface-elements-for-web/articles/document-viewer/classic-document-viewer/navigation/search-for-a-specific-text-within-a-report.html",
-          "hash": "BrGnQx4gO2GlJRrOa3YV4A=="
+          "relative_path": "interface-elements-for-web/articles/document-viewer/exporting/image-specific-export-options.html",
+          "hash": "O0XeZxTFXf/bLWZRyqRL/A=="
         }
       },
       "is_incremental": true,
@@ -68084,11 +68084,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "interface-elements-for-web/articles/document-viewer/classic-document-viewer/passing-parameter-values.md",
+      "source_relative_path": "interface-elements-for-web/articles/document-viewer/exporting/mht-specific-export-options.md",
       "output": {
         ".html": {
-          "relative_path": "interface-elements-for-web/articles/document-viewer/classic-document-viewer/passing-parameter-values.html",
-          "hash": "/Gn42Fvp518xWLhmkyHW6Q=="
+          "relative_path": "interface-elements-for-web/articles/document-viewer/exporting/mht-specific-export-options.html",
+          "hash": "XRn8RMBdYc/wJaaZvyuYew=="
         }
       },
       "is_incremental": true,
@@ -68096,11 +68096,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "interface-elements-for-web/articles/document-viewer/classic-document-viewer/printing/install-and-activate-the-adobe-reader-plug-in-for-printing-in-a-web-browser.md",
+      "source_relative_path": "interface-elements-for-web/articles/document-viewer/exporting/pdf-specific-export-options.md",
       "output": {
         ".html": {
-          "relative_path": "interface-elements-for-web/articles/document-viewer/classic-document-viewer/printing/install-and-activate-the-adobe-reader-plug-in-for-printing-in-a-web-browser.html",
-          "hash": "4XeceAwLKdT9YA8biinw6w=="
+          "relative_path": "interface-elements-for-web/articles/document-viewer/exporting/pdf-specific-export-options.html",
+          "hash": "MNmfg0+O3mOi4hkvRNNzsQ=="
         }
       },
       "is_incremental": true,
@@ -68108,11 +68108,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "interface-elements-for-web/articles/document-viewer/classic-document-viewer/printing/print-a-report-using-the-pdf-web-browser-plug-in.md",
+      "source_relative_path": "interface-elements-for-web/articles/document-viewer/exporting/rtf-specific-export-options.md",
       "output": {
         ".html": {
-          "relative_path": "interface-elements-for-web/articles/document-viewer/classic-document-viewer/printing/print-a-report-using-the-pdf-web-browser-plug-in.html",
-          "hash": "RCsUSh0Fqk3++IhhNiwAIQ=="
+          "relative_path": "interface-elements-for-web/articles/document-viewer/exporting/rtf-specific-export-options.html",
+          "hash": "1OnZ5J3KQDwZfze1qtVPlQ=="
         }
       },
       "is_incremental": true,
@@ -68120,11 +68120,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "interface-elements-for-web/articles/document-viewer/classic-document-viewer/printing/print-reports-using-the-native-functionality-of-a-web-browser.md",
+      "source_relative_path": "interface-elements-for-web/articles/document-viewer/exporting/text-specific-export-options.md",
       "output": {
         ".html": {
-          "relative_path": "interface-elements-for-web/articles/document-viewer/classic-document-viewer/printing/print-reports-using-the-native-functionality-of-a-web-browser.html",
-          "hash": "7AcD6UN9i1j+R6m3Zct4JQ=="
+          "relative_path": "interface-elements-for-web/articles/document-viewer/exporting/text-specific-export-options.html",
+          "hash": "LkicjHmwxFKSrDcNwuyCzA=="
         }
       },
       "is_incremental": true,
@@ -68132,11 +68132,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "interface-elements-for-web/articles/document-viewer/html5-document-viewer.md",
+      "source_relative_path": "interface-elements-for-web/articles/document-viewer/exporting/xls-specific-export-options.md",
       "output": {
         ".html": {
-          "relative_path": "interface-elements-for-web/articles/document-viewer/html5-document-viewer.html",
-          "hash": "Bw2YDykL83cmyWDzXe7lUg=="
+          "relative_path": "interface-elements-for-web/articles/document-viewer/exporting/xls-specific-export-options.html",
+          "hash": "nEYNpihaaewwHCK68SgsmQ=="
         }
       },
       "is_incremental": true,
@@ -68144,11 +68144,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "interface-elements-for-web/articles/document-viewer/html5-document-viewer/content-editing.md",
+      "source_relative_path": "interface-elements-for-web/articles/document-viewer/exporting/xlsx-specific-export-options.md",
       "output": {
         ".html": {
-          "relative_path": "interface-elements-for-web/articles/document-viewer/html5-document-viewer/content-editing.html",
-          "hash": "puE/zxikuFZ9/VnYpK0BJw=="
+          "relative_path": "interface-elements-for-web/articles/document-viewer/exporting/xlsx-specific-export-options.html",
+          "hash": "xLdI+FRY8fHC2RhUnzzmyQ=="
         }
       },
       "is_incremental": true,
@@ -68156,11 +68156,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "interface-elements-for-web/articles/document-viewer/html5-document-viewer/exporting/csv-specific-export-options.md",
+      "source_relative_path": "interface-elements-for-web/articles/document-viewer/passing-parameter-values.md",
       "output": {
         ".html": {
-          "relative_path": "interface-elements-for-web/articles/document-viewer/html5-document-viewer/exporting/csv-specific-export-options.html",
-          "hash": "oqmsawTayk6fVmmFNGefgw=="
+          "relative_path": "interface-elements-for-web/articles/document-viewer/passing-parameter-values.html",
+          "hash": "lEJK0EXGFQ/3UfY/7ADjow=="
         }
       },
       "is_incremental": true,
@@ -68168,11 +68168,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "interface-elements-for-web/articles/document-viewer/html5-document-viewer/exporting/docx-specific-export-options.md",
+      "source_relative_path": "interface-elements-for-web/articles/document-viewer/printing.md",
       "output": {
         ".html": {
-          "relative_path": "interface-elements-for-web/articles/document-viewer/html5-document-viewer/exporting/docx-specific-export-options.html",
-          "hash": "MkhCdr8UeQUCzoGmTwHnRw=="
+          "relative_path": "interface-elements-for-web/articles/document-viewer/printing.html",
+          "hash": "Mo2hvjJAfOMdHEBQMlTmUQ=="
         }
       },
       "is_incremental": true,
@@ -68180,11 +68180,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "interface-elements-for-web/articles/document-viewer/html5-document-viewer/exporting/export-a-document.md",
+      "source_relative_path": "interface-elements-for-web/articles/document-viewer/viewing-and-navigating/navigate-between-pages.md",
       "output": {
         ".html": {
-          "relative_path": "interface-elements-for-web/articles/document-viewer/html5-document-viewer/exporting/export-a-document.html",
-          "hash": "tViZC27LBCA7nARzyMBbSQ=="
+          "relative_path": "interface-elements-for-web/articles/document-viewer/viewing-and-navigating/navigate-between-pages.html",
+          "hash": "ZfdvNYomJ8FWRZjNseE1XQ=="
         }
       },
       "is_incremental": true,
@@ -68192,11 +68192,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "interface-elements-for-web/articles/document-viewer/html5-document-viewer/exporting/html-specific-export-options.md",
+      "source_relative_path": "interface-elements-for-web/articles/document-viewer/viewing-and-navigating/navigate-using-bookmarks.md",
       "output": {
         ".html": {
-          "relative_path": "interface-elements-for-web/articles/document-viewer/html5-document-viewer/exporting/html-specific-export-options.html",
-          "hash": "zu7f7DnYe1pcjVGlq6DIOA=="
+          "relative_path": "interface-elements-for-web/articles/document-viewer/viewing-and-navigating/navigate-using-bookmarks.html",
+          "hash": "TOdBW8roYKGm9e4zPR1xQQ=="
         }
       },
       "is_incremental": true,
@@ -68204,11 +68204,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "interface-elements-for-web/articles/document-viewer/html5-document-viewer/exporting/image-specific-export-options.md",
+      "source_relative_path": "interface-elements-for-web/articles/document-viewer/viewing-and-navigating/search-for-a-specific-text.md",
       "output": {
         ".html": {
-          "relative_path": "interface-elements-for-web/articles/document-viewer/html5-document-viewer/exporting/image-specific-export-options.html",
-          "hash": "e1BWLEgjuh4U+U0xELMSSg=="
+          "relative_path": "interface-elements-for-web/articles/document-viewer/viewing-and-navigating/search-for-a-specific-text.html",
+          "hash": "ljTIYbkuXomunSGggzpkiw=="
         }
       },
       "is_incremental": true,
@@ -68216,11 +68216,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "interface-elements-for-web/articles/document-viewer/html5-document-viewer/exporting/mht-specific-export-options.md",
+      "source_relative_path": "interface-elements-for-web/articles/document-viewer/viewing-and-navigating/switch-display-mode.md",
       "output": {
         ".html": {
-          "relative_path": "interface-elements-for-web/articles/document-viewer/html5-document-viewer/exporting/mht-specific-export-options.html",
-          "hash": "igU5Bjc4hOC4yNYp5t6ckg=="
+          "relative_path": "interface-elements-for-web/articles/document-viewer/viewing-and-navigating/switch-display-mode.html",
+          "hash": "Cb9qC52Lq8LoTPe24+N0eg=="
         }
       },
       "is_incremental": true,
@@ -68228,143 +68228,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "interface-elements-for-web/articles/document-viewer/html5-document-viewer/exporting/pdf-specific-export-options.md",
+      "source_relative_path": "interface-elements-for-web/articles/document-viewer/viewing-and-navigating/zooming.md",
       "output": {
         ".html": {
-          "relative_path": "interface-elements-for-web/articles/document-viewer/html5-document-viewer/exporting/pdf-specific-export-options.html",
-          "hash": "BC5NaDQlGlvuHN18JI5Z3A=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "interface-elements-for-web/articles/document-viewer/html5-document-viewer/exporting/rtf-specific-export-options.md",
-      "output": {
-        ".html": {
-          "relative_path": "interface-elements-for-web/articles/document-viewer/html5-document-viewer/exporting/rtf-specific-export-options.html",
-          "hash": "ZgyKJwPtrmyScgBmgbQmCQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "interface-elements-for-web/articles/document-viewer/html5-document-viewer/exporting/text-specific-export-options.md",
-      "output": {
-        ".html": {
-          "relative_path": "interface-elements-for-web/articles/document-viewer/html5-document-viewer/exporting/text-specific-export-options.html",
-          "hash": "bN1/QHUq858ugY7yre9yVA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "interface-elements-for-web/articles/document-viewer/html5-document-viewer/exporting/xls-specific-export-options.md",
-      "output": {
-        ".html": {
-          "relative_path": "interface-elements-for-web/articles/document-viewer/html5-document-viewer/exporting/xls-specific-export-options.html",
-          "hash": "0y5khHxEcdW4g6Whfgreww=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "interface-elements-for-web/articles/document-viewer/html5-document-viewer/exporting/xlsx-specific-export-options.md",
-      "output": {
-        ".html": {
-          "relative_path": "interface-elements-for-web/articles/document-viewer/html5-document-viewer/exporting/xlsx-specific-export-options.html",
-          "hash": "ONx6IM9SH9le8S3r+nVCsw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "interface-elements-for-web/articles/document-viewer/html5-document-viewer/passing-parameter-values.md",
-      "output": {
-        ".html": {
-          "relative_path": "interface-elements-for-web/articles/document-viewer/html5-document-viewer/passing-parameter-values.html",
-          "hash": "sf29zbd6vWrNmheLFpWV4g=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "interface-elements-for-web/articles/document-viewer/html5-document-viewer/printing.md",
-      "output": {
-        ".html": {
-          "relative_path": "interface-elements-for-web/articles/document-viewer/html5-document-viewer/printing.html",
-          "hash": "sN7206Dp44bMmGTZ0gTU3A=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "interface-elements-for-web/articles/document-viewer/html5-document-viewer/viewing-and-navigating/navigate-between-pages.md",
-      "output": {
-        ".html": {
-          "relative_path": "interface-elements-for-web/articles/document-viewer/html5-document-viewer/viewing-and-navigating/navigate-between-pages.html",
-          "hash": "n6YKAzoceygrtePj87wgKw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "interface-elements-for-web/articles/document-viewer/html5-document-viewer/viewing-and-navigating/navigate-using-bookmarks.md",
-      "output": {
-        ".html": {
-          "relative_path": "interface-elements-for-web/articles/document-viewer/html5-document-viewer/viewing-and-navigating/navigate-using-bookmarks.html",
-          "hash": "fzls7LIPw7LgeHD+8AgkGg=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "interface-elements-for-web/articles/document-viewer/html5-document-viewer/viewing-and-navigating/search-for-a-specific-text.md",
-      "output": {
-        ".html": {
-          "relative_path": "interface-elements-for-web/articles/document-viewer/html5-document-viewer/viewing-and-navigating/search-for-a-specific-text.html",
-          "hash": "1+L4+u5hZQ62dydUbYOn7g=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "interface-elements-for-web/articles/document-viewer/html5-document-viewer/viewing-and-navigating/switch-display-mode.md",
-      "output": {
-        ".html": {
-          "relative_path": "interface-elements-for-web/articles/document-viewer/html5-document-viewer/viewing-and-navigating/switch-display-mode.html",
-          "hash": "ZUTJ9jW18l9D0x8oQHj8gQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "interface-elements-for-web/articles/document-viewer/html5-document-viewer/viewing-and-navigating/zooming.md",
-      "output": {
-        ".html": {
-          "relative_path": "interface-elements-for-web/articles/document-viewer/html5-document-viewer/viewing-and-navigating/zooming.html",
-          "hash": "Scv/M3041YCHQokpYEtAZw=="
+          "relative_path": "interface-elements-for-web/articles/document-viewer/viewing-and-navigating/zooming.html",
+          "hash": "/2PT9YCAweij2av7ldmeNQ=="
         }
       },
       "is_incremental": true,
@@ -70416,7 +70284,7 @@
       "output": {
         ".html": {
           "relative_path": "interface-elements-for-web/articles/report-designer/bind-to-data.html",
-          "hash": "7zViWVR/ys9JR9NQTT6AcQ=="
+          "hash": "/qfBRkPuqZxwXylb8SlL3Q=="
         }
       },
       "is_incremental": true,
@@ -70424,11 +70292,23 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "interface-elements-for-web/articles/report-designer/bind-to-data/bind-a-report-to-data.md",
+      "source_relative_path": "interface-elements-for-web/articles/report-designer/bind-to-data/bind-a-report-to-a-database.md",
       "output": {
         ".html": {
-          "relative_path": "interface-elements-for-web/articles/report-designer/bind-to-data/bind-a-report-to-data.html",
-          "hash": "AvAIWgjOHuoYk1pJ0Si1ow=="
+          "relative_path": "interface-elements-for-web/articles/report-designer/bind-to-data/bind-a-report-to-a-database.html",
+          "hash": "hYepQXw0EV2eBuzcBijJjw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "interface-elements-for-web/articles/report-designer/bind-to-data/bind-a-report-to-json-data.md",
+      "output": {
+        ".html": {
+          "relative_path": "interface-elements-for-web/articles/report-designer/bind-to-data/bind-a-report-to-json-data.html",
+          "hash": "MuVJeaW7jBLgT9saYlfU3Q=="
         }
       },
       "is_incremental": true,
@@ -70464,7 +70344,7 @@
       "output": {
         ".html": {
           "relative_path": "interface-elements-for-web/articles/report-designer/bind-to-data/data-binding-modes.html",
-          "hash": "FG6pZxXps2ViIOz5AVoKsw=="
+          "hash": "r2coGip2eaZMfwUPma2wwg=="
         }
       },
       "is_incremental": true,
@@ -70476,7 +70356,7 @@
       "output": {
         ".html": {
           "relative_path": "interface-elements-for-web/articles/report-designer/bind-to-data/use-embedded-fields-mail-merge.html",
-          "hash": "3aPcQ2amA5wKOT2hen0G/Q=="
+          "hash": "R6nRW5T3ykfPpGuTPHIm8A=="
         }
       },
       "is_incremental": true,
@@ -70548,7 +70428,7 @@
       "output": {
         ".html": {
           "relative_path": "interface-elements-for-web/articles/report-designer/create-popular-reports.html",
-          "hash": "l6kPohYTHJorliCJrFPDwg=="
+          "hash": "tLwVCXn2uY+MYfjKFEfnRQ=="
         }
       },
       "is_incremental": true,
@@ -70560,7 +70440,19 @@
       "output": {
         ".html": {
           "relative_path": "interface-elements-for-web/articles/report-designer/create-popular-reports/create-a-cross-tab-report.html",
-          "hash": "UGtXoGXwrYDm085ydP9qeg=="
+          "hash": "6aezDkwpP6qTJLTxJZb20g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "interface-elements-for-web/articles/report-designer/create-popular-reports/create-a-hierarchical-report.md",
+      "output": {
+        ".html": {
+          "relative_path": "interface-elements-for-web/articles/report-designer/create-popular-reports/create-a-hierarchical-report.html",
+          "hash": "Jidj+jNoSOG7Ef/x/jjBlA=="
         }
       },
       "is_incremental": true,
@@ -70584,7 +70476,7 @@
       "output": {
         ".html": {
           "relative_path": "interface-elements-for-web/articles/report-designer/create-popular-reports/create-a-master-detail-report-use-detail-report-bands.html",
-          "hash": "QPp7fQ1QCg1LimoxbWaP0A=="
+          "hash": "s0mmtoPC+/pgoiZrAKwk0w=="
         }
       },
       "is_incremental": true,
@@ -70632,7 +70524,7 @@
       "output": {
         ".html": {
           "relative_path": "interface-elements-for-web/articles/report-designer/create-popular-reports/create-a-vertical-report.html",
-          "hash": "bO8u5647b1K/vscS6HeGng=="
+          "hash": "lUhppTsIvb/DDvYLhLuBBQ=="
         }
       },
       "is_incremental": true,
@@ -70656,7 +70548,7 @@
       "output": {
         ".html": {
           "relative_path": "interface-elements-for-web/articles/report-designer/create-popular-reports/create-an-invoice-manually.html",
-          "hash": "1VanpoQc9RJew4ojL2b8SA=="
+          "hash": "5nwlV1Gs1N/UJ3PDO6ck6A=="
         }
       },
       "is_incremental": true,
@@ -70668,7 +70560,7 @@
       "output": {
         ".html": {
           "relative_path": "interface-elements-for-web/articles/report-designer/create-popular-reports/create-labels-and-badges.html",
-          "hash": "cobTkFzfFt8h7vi0o0rMqg=="
+          "hash": "Dbd7J/nh8e0yk03MqrQIAw=="
         }
       },
       "is_incremental": true,
@@ -70808,6 +70700,42 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "interface-elements-for-web/articles/report-designer/merge-reports.md",
+      "output": {
+        ".html": {
+          "relative_path": "interface-elements-for-web/articles/report-designer/merge-reports.html",
+          "hash": "cpZX0GCo8c9/5mC+fApTUA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "interface-elements-for-web/articles/report-designer/merge-reports/add-a-report-to-the-end-beginning.md",
+      "output": {
+        ".html": {
+          "relative_path": "interface-elements-for-web/articles/report-designer/merge-reports/add-a-report-to-the-end-beginning.html",
+          "hash": "ij1FiBbtDN9/aucf2/jnJw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "interface-elements-for-web/articles/report-designer/merge-reports/use-data-driven-page-sequence.md",
+      "output": {
+        ".html": {
+          "relative_path": "interface-elements-for-web/articles/report-designer/merge-reports/use-data-driven-page-sequence.html",
+          "hash": "d5risNb41aKl0RmHm7JUYQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "interface-elements-for-web/articles/report-designer/open-reports.md",
       "output": {
         ".html": {
@@ -70824,7 +70752,7 @@
       "output": {
         ".html": {
           "relative_path": "interface-elements-for-web/articles/report-designer/preview-print-and-export-reports.html",
-          "hash": "LqLqV34DgTGngouoeIfCdg=="
+          "hash": "ohF8riT5vHDK3aa4f+hQ9g=="
         }
       },
       "is_incremental": true,
@@ -70860,7 +70788,7 @@
       "output": {
         ".html": {
           "relative_path": "interface-elements-for-web/articles/report-designer/provide-interactivity/edit-content-in-print-preview.html",
-          "hash": "M/pXtApBvY5W3qxo1H5wZw=="
+          "hash": "c3pUKAyMR0p4tUKh+r+RZQ=="
         }
       },
       "is_incremental": true,
@@ -70884,7 +70812,7 @@
       "output": {
         ".html": {
           "relative_path": "interface-elements-for-web/articles/report-designer/report-designer-tools.html",
-          "hash": "E3AhAV5hamU+t8vBaooF6A=="
+          "hash": "H5LR6csWTk9n0ROdc7LMCA=="
         }
       },
       "is_incremental": true,
@@ -70897,6 +70825,42 @@
         ".html": {
           "relative_path": "interface-elements-for-web/articles/report-designer/report-designer-tools/chart-designer.html",
           "hash": "CecJxRHGcYU4kpdk/m149g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "interface-elements-for-web/articles/report-designer/report-designer-tools/data-source-wizard.md",
+      "output": {
+        ".html": {
+          "relative_path": "interface-elements-for-web/articles/report-designer/report-designer-tools/data-source-wizard.html",
+          "hash": "LmZm+T6TIt4W/eK2TWdUNg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "interface-elements-for-web/articles/report-designer/report-designer-tools/data-source-wizard/specify-data-source-settings-database.md",
+      "output": {
+        ".html": {
+          "relative_path": "interface-elements-for-web/articles/report-designer/report-designer-tools/data-source-wizard/specify-data-source-settings-database.html",
+          "hash": "JCDl5gctpSDOer/ICuaHQw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "interface-elements-for-web/articles/report-designer/report-designer-tools/data-source-wizard/specify-data-source-settings-json.md",
+      "output": {
+        ".html": {
+          "relative_path": "interface-elements-for-web/articles/report-designer/report-designer-tools/data-source-wizard/specify-data-source-settings-json.html",
+          "hash": "xE9VlNH9AP6t8cEoDiX2dA=="
         }
       },
       "is_incremental": true,
@@ -70920,7 +70884,7 @@
       "output": {
         ".html": {
           "relative_path": "interface-elements-for-web/articles/report-designer/report-designer-tools/expression-editor.html",
-          "hash": "H+L5/YmuOZqPNDgZgWTGFg=="
+          "hash": "si2OaclZcTKiGGV7yUjZYg=="
         }
       },
       "is_incremental": true,
@@ -70956,7 +70920,7 @@
       "output": {
         ".html": {
           "relative_path": "interface-elements-for-web/articles/report-designer/report-designer-tools/master-detail-relation-editor.html",
-          "hash": "LnlfFy5/NaJ0JxWu707qUg=="
+          "hash": "8vnHpXc9y+telklQt58PbA=="
         }
       },
       "is_incremental": true,
@@ -70968,7 +70932,7 @@
       "output": {
         ".html": {
           "relative_path": "interface-elements-for-web/articles/report-designer/report-designer-tools/menu.html",
-          "hash": "lbSuPrfDRYkj1GxgzgJPtQ=="
+          "hash": "LnX1/rGXKY5VCHAaGcy0nw=="
         }
       },
       "is_incremental": true,
@@ -70980,7 +70944,7 @@
       "output": {
         ".html": {
           "relative_path": "interface-elements-for-web/articles/report-designer/report-designer-tools/query-builder.html",
-          "hash": "KoOy9CGqpnMW6pNLkiVzIg=="
+          "hash": "oalNGkgdIWhbo7MNpPiMmQ=="
         }
       },
       "is_incremental": true,
@@ -70992,151 +70956,7 @@
       "output": {
         ".html": {
           "relative_path": "interface-elements-for-web/articles/report-designer/report-designer-tools/report-wizard.html",
-          "hash": "Z+xDyHyvBQQGxqxefXNDYA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "interface-elements-for-web/articles/report-designer/report-designer-tools/report-wizard/choose-a-report-type.md",
-      "output": {
-        ".html": {
-          "relative_path": "interface-elements-for-web/articles/report-designer/report-designer-tools/report-wizard/choose-a-report-type.html",
-          "hash": "4wjlEah7uvM6YYyPIk322A=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "interface-elements-for-web/articles/report-designer/report-designer-tools/report-wizard/data-bound-report.md",
-      "output": {
-        ".html": {
-          "relative_path": "interface-elements-for-web/articles/report-designer/report-designer-tools/report-wizard/data-bound-report.html",
-          "hash": "6QSo6nBLPXZtAXhdm+Q2zQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "interface-elements-for-web/articles/report-designer/report-designer-tools/report-wizard/data-bound-report/add-grouping-levels.md",
-      "output": {
-        ".html": {
-          "relative_path": "interface-elements-for-web/articles/report-designer/report-designer-tools/report-wizard/data-bound-report/add-grouping-levels.html",
-          "hash": "SSNtcHBO82uELH0KNKtlSg=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "interface-elements-for-web/articles/report-designer/report-designer-tools/report-wizard/data-bound-report/choose-a-data-connection.md",
-      "output": {
-        ".html": {
-          "relative_path": "interface-elements-for-web/articles/report-designer/report-designer-tools/report-wizard/data-bound-report/choose-a-data-connection.html",
-          "hash": "iYbfbxFUSMgIMLZtwOPekQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "interface-elements-for-web/articles/report-designer/report-designer-tools/report-wizard/data-bound-report/choose-a-report-color-scheme.md",
-      "output": {
-        ".html": {
-          "relative_path": "interface-elements-for-web/articles/report-designer/report-designer-tools/report-wizard/data-bound-report/choose-a-report-color-scheme.html",
-          "hash": "L3bzUQRbADcdVO8TOfVxTQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "interface-elements-for-web/articles/report-designer/report-designer-tools/report-wizard/data-bound-report/choose-fields-to-display-in-a-report.md",
-      "output": {
-        ".html": {
-          "relative_path": "interface-elements-for-web/articles/report-designer/report-designer-tools/report-wizard/data-bound-report/choose-fields-to-display-in-a-report.html",
-          "hash": "EVI7jL0pgeYBN3Gpr+z2Jg=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "interface-elements-for-web/articles/report-designer/report-designer-tools/report-wizard/data-bound-report/configure-master-detail-relationships.md",
-      "output": {
-        ".html": {
-          "relative_path": "interface-elements-for-web/articles/report-designer/report-designer-tools/report-wizard/data-bound-report/configure-master-detail-relationships.html",
-          "hash": "qhva17kxPa9T6vCQUms14Q=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "interface-elements-for-web/articles/report-designer/report-designer-tools/report-wizard/data-bound-report/configure-query-parameters.md",
-      "output": {
-        ".html": {
-          "relative_path": "interface-elements-for-web/articles/report-designer/report-designer-tools/report-wizard/data-bound-report/configure-query-parameters.html",
-          "hash": "mTmxEYnjUL7I5+5QfmvLMw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "interface-elements-for-web/articles/report-designer/report-designer-tools/report-wizard/data-bound-report/create-a-query-or-select-a-stored-procedure.md",
-      "output": {
-        ".html": {
-          "relative_path": "interface-elements-for-web/articles/report-designer/report-designer-tools/report-wizard/data-bound-report/create-a-query-or-select-a-stored-procedure.html",
-          "hash": "Ds0LNYrdN1p+8V+EY+sQkQ=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "interface-elements-for-web/articles/report-designer/report-designer-tools/report-wizard/data-bound-report/set-the-report-title.md",
-      "output": {
-        ".html": {
-          "relative_path": "interface-elements-for-web/articles/report-designer/report-designer-tools/report-wizard/data-bound-report/set-the-report-title.html",
-          "hash": "IU+Yn9ajYdERjJZmubGjhw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "interface-elements-for-web/articles/report-designer/report-designer-tools/report-wizard/data-bound-report/specify-report-page-settings.md",
-      "output": {
-        ".html": {
-          "relative_path": "interface-elements-for-web/articles/report-designer/report-designer-tools/report-wizard/data-bound-report/specify-report-page-settings.html",
-          "hash": "GAT6rO9zXb7/8axff6BWyw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "interface-elements-for-web/articles/report-designer/report-designer-tools/report-wizard/data-bound-report/specify-summary-options.md",
-      "output": {
-        ".html": {
-          "relative_path": "interface-elements-for-web/articles/report-designer/report-designer-tools/report-wizard/data-bound-report/specify-summary-options.html",
-          "hash": "lasX7/UdjXtjimHYxkn5tg=="
+          "hash": "r2ZHecSid8143bqSqDpkSQ=="
         }
       },
       "is_incremental": true,
@@ -71160,7 +70980,7 @@
       "output": {
         ".html": {
           "relative_path": "interface-elements-for-web/articles/report-designer/report-designer-tools/report-wizard/label-report.html",
-          "hash": "uyW6iU0v9xIUVjg1XLHUnw=="
+          "hash": "927sFskijM8aSMERymynZQ=="
         }
       },
       "is_incremental": true,
@@ -71168,11 +70988,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "interface-elements-for-web/articles/report-designer/report-designer-tools/report-wizard/label-report/customize-the-label-options.md",
+      "source_relative_path": "interface-elements-for-web/articles/report-designer/report-designer-tools/report-wizard/table-and-vertical-report.md",
       "output": {
         ".html": {
-          "relative_path": "interface-elements-for-web/articles/report-designer/report-designer-tools/report-wizard/label-report/customize-the-label-options.html",
-          "hash": "fDgZ/3eL0y3HfbGV+4OlWg=="
+          "relative_path": "interface-elements-for-web/articles/report-designer/report-designer-tools/report-wizard/table-and-vertical-report.html",
+          "hash": "PPjgh/t2xtJQ5isQpfqBzw=="
         }
       },
       "is_incremental": true,
@@ -71180,11 +71000,59 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "interface-elements-for-web/articles/report-designer/report-designer-tools/report-wizard/label-report/select-the-label-type.md",
+      "source_relative_path": "interface-elements-for-web/articles/report-designer/report-designer-tools/report-wizard/table-and-vertical-report/define-report-layout.md",
       "output": {
         ".html": {
-          "relative_path": "interface-elements-for-web/articles/report-designer/report-designer-tools/report-wizard/label-report/select-the-label-type.html",
-          "hash": "XhfK7ncvgY7zwZswPWdpBw=="
+          "relative_path": "interface-elements-for-web/articles/report-designer/report-designer-tools/report-wizard/table-and-vertical-report/define-report-layout.html",
+          "hash": "Lw5h8cXqVc1VYfX78X/Dzw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "interface-elements-for-web/articles/report-designer/report-designer-tools/report-wizard/table-and-vertical-report/select-data-source.md",
+      "output": {
+        ".html": {
+          "relative_path": "interface-elements-for-web/articles/report-designer/report-designer-tools/report-wizard/table-and-vertical-report/select-data-source.html",
+          "hash": "9Voe590B1OKw1gumGm38Sw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "interface-elements-for-web/articles/report-designer/report-designer-tools/report-wizard/table-and-vertical-report/specify-data-source-settings-database.md",
+      "output": {
+        ".html": {
+          "relative_path": "interface-elements-for-web/articles/report-designer/report-designer-tools/report-wizard/table-and-vertical-report/specify-data-source-settings-database.html",
+          "hash": "9Bh1tDGCoSS93j9rN2dnFg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "interface-elements-for-web/articles/report-designer/report-designer-tools/report-wizard/table-and-vertical-report/specify-data-source-settings-json.md",
+      "output": {
+        ".html": {
+          "relative_path": "interface-elements-for-web/articles/report-designer/report-designer-tools/report-wizard/table-and-vertical-report/specify-data-source-settings-json.html",
+          "hash": "CulhSb/QJezcYj938laW5Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "interface-elements-for-web/articles/report-designer/report-designer-tools/report-wizard/table-and-vertical-report/specify-page-settings.md",
+      "output": {
+        ".html": {
+          "relative_path": "interface-elements-for-web/articles/report-designer/report-designer-tools/report-wizard/table-and-vertical-report/specify-page-settings.html",
+          "hash": "p+NRrEfxdFwWjL85umPWkA=="
         }
       },
       "is_incremental": true,
@@ -71204,107 +71072,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "interface-elements-for-web/articles/report-designer/report-designer-tools/sql-data-source-wizard.md",
-      "output": {
-        ".html": {
-          "relative_path": "interface-elements-for-web/articles/report-designer/report-designer-tools/sql-data-source-wizard.html",
-          "hash": "hzuEOjGzZW6dl2nCuypXhg=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "interface-elements-for-web/articles/report-designer/report-designer-tools/sql-data-source-wizard/add-a-new-data-source.md",
-      "output": {
-        ".html": {
-          "relative_path": "interface-elements-for-web/articles/report-designer/report-designer-tools/sql-data-source-wizard/add-a-new-data-source.html",
-          "hash": "Fn7UETTzMLQh/XCODKxMUw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "interface-elements-for-web/articles/report-designer/report-designer-tools/sql-data-source-wizard/add-a-new-data-source/choose-a-data-connection.md",
-      "output": {
-        ".html": {
-          "relative_path": "interface-elements-for-web/articles/report-designer/report-designer-tools/sql-data-source-wizard/add-a-new-data-source/choose-a-data-connection.html",
-          "hash": "U5AIAR/dBrSQXNzkV41HRA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "interface-elements-for-web/articles/report-designer/report-designer-tools/sql-data-source-wizard/add-a-new-data-source/configure-master-detail-relationships.md",
-      "output": {
-        ".html": {
-          "relative_path": "interface-elements-for-web/articles/report-designer/report-designer-tools/sql-data-source-wizard/add-a-new-data-source/configure-master-detail-relationships.html",
-          "hash": "yhlWSKu1CYHkZb44AzgCcA=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "interface-elements-for-web/articles/report-designer/report-designer-tools/sql-data-source-wizard/add-a-new-data-source/configure-query-parameters.md",
-      "output": {
-        ".html": {
-          "relative_path": "interface-elements-for-web/articles/report-designer/report-designer-tools/sql-data-source-wizard/add-a-new-data-source/configure-query-parameters.html",
-          "hash": "P9eIFNnn0eSpU6WddJ7u6w=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "interface-elements-for-web/articles/report-designer/report-designer-tools/sql-data-source-wizard/add-a-new-data-source/create-a-query-or-select-a-stored-procedure.md",
-      "output": {
-        ".html": {
-          "relative_path": "interface-elements-for-web/articles/report-designer/report-designer-tools/sql-data-source-wizard/add-a-new-data-source/create-a-query-or-select-a-stored-procedure.html",
-          "hash": "NkccM5Fm21tklAL0pI0tKg=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "interface-elements-for-web/articles/report-designer/report-designer-tools/sql-data-source-wizard/edit-an-existing-data-source.md",
-      "output": {
-        ".html": {
-          "relative_path": "interface-elements-for-web/articles/report-designer/report-designer-tools/sql-data-source-wizard/edit-an-existing-data-source.html",
-          "hash": "bzauy9Jq9rnBEF8i9XYE/w=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "interface-elements-for-web/articles/report-designer/report-designer-tools/sql-data-source-wizard/edit-an-existing-data-source/create-a-query-or-select-a-stored-procedure.md",
-      "output": {
-        ".html": {
-          "relative_path": "interface-elements-for-web/articles/report-designer/report-designer-tools/sql-data-source-wizard/edit-an-existing-data-source/create-a-query-or-select-a-stored-procedure.html",
-          "hash": "fi7P5G7DnqC5tNziaK/IWw=="
-        }
-      },
-      "is_incremental": true,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
       "source_relative_path": "interface-elements-for-web/articles/report-designer/report-designer-tools/toolbar.md",
       "output": {
         ".html": {
           "relative_path": "interface-elements-for-web/articles/report-designer/report-designer-tools/toolbar.html",
-          "hash": "zhsuWUheWG3bozC66sFe7w=="
+          "hash": "bEL5yaDFG5Hz6lJiIs0eQQ=="
         }
       },
       "is_incremental": true,
@@ -71352,7 +71124,7 @@
       "output": {
         ".html": {
           "relative_path": "interface-elements-for-web/articles/report-designer/report-designer-tools/ui-panels/field-list.html",
-          "hash": "2U2wKd31K8GvvdTzADbVJQ=="
+          "hash": "UEXCrS3MC3UPu3Fxw0bsvQ=="
         }
       },
       "is_incremental": true,
@@ -71388,7 +71160,7 @@
       "output": {
         ".html": {
           "relative_path": "interface-elements-for-web/articles/report-designer/save-reports.html",
-          "hash": "xWjJO8nFJoCCCdHT+ZIPBA=="
+          "hash": "fdLoHXHVAQbygwirNb5mrQ=="
         }
       },
       "is_incremental": true,
@@ -71424,7 +71196,7 @@
       "output": {
         ".html": {
           "relative_path": "interface-elements-for-web/articles/report-designer/shape-report-data/filter-data/filter-data-at-the-data-source-level.html",
-          "hash": "gsc0EJDjjJXS0+ze52K5sA=="
+          "hash": "16kMNCupBzDVc8yz2jidMQ=="
         }
       },
       "is_incremental": true,
@@ -71928,7 +71700,7 @@
       "output": {
         ".html": {
           "relative_path": "interface-elements-for-web/articles/report-designer/shape-report-data/use-report-parameters/use-query-parameters.html",
-          "hash": "cZ9MsVq+RQT8UGz4KZVYFA=="
+          "hash": "t4t5EOUurPgOLz90SZNwZg=="
         }
       },
       "is_incremental": true,
@@ -71952,7 +71724,7 @@
       "output": {
         ".html": {
           "relative_path": "interface-elements-for-web/articles/report-designer/use-expressions/expression-syntax.html",
-          "hash": "VZbDNiN063YFqZvKvCnf+Q=="
+          "hash": "we+VUq4YeG5SMEEY2HAiig=="
         }
       },
       "is_incremental": true,
@@ -72144,7 +71916,7 @@
       "output": {
         ".html": {
           "relative_path": "interface-elements-for-web/articles/report-designer/use-report-elements/use-bar-codes/bar-code-recognition-specifics.html",
-          "hash": "znQIG5zVzGUBkz+NNiZ85A=="
+          "hash": "xU3Gg8T7uK8S8gkfljnGAw=="
         }
       },
       "is_incremental": true,
@@ -72516,7 +72288,7 @@
       "output": {
         ".html": {
           "relative_path": "interface-elements-for-web/articles/report-designer/use-report-elements/use-basic-report-controls/check-box.html",
-          "hash": "8FaA5jqeKl9FugrD/FoIAw=="
+          "hash": "VbeYRHzwIIjDp5BbfFLifw=="
         }
       },
       "is_incremental": true,
@@ -72528,7 +72300,7 @@
       "output": {
         ".html": {
           "relative_path": "interface-elements-for-web/articles/report-designer/use-report-elements/use-basic-report-controls/label.html",
-          "hash": "s6VF5bdk6Cqe7YPzBo+mUQ=="
+          "hash": "ICRjmca2CcV3lwfre4rN7g=="
         }
       },
       "is_incremental": true,
@@ -72600,7 +72372,7 @@
       "output": {
         ".html": {
           "relative_path": "interface-elements-for-web/articles/report-designer/use-report-elements/use-basic-report-controls/subreport.html",
-          "hash": "Pu9LevlUTkNR0jixTy8X6Q=="
+          "hash": "uilwRYSsvB2Vfp8oZ7ul5Q=="
         }
       },
       "is_incremental": true,
@@ -72720,7 +72492,7 @@
       "output": {
         ".html": {
           "relative_path": "interface-elements-for-web/articles/report-designer/use-report-elements/use-gauges-and-sparklines/add-sparklines-to-a-report.html",
-          "hash": "Mmnyv3RLnG/bxFPX+D5NcA=="
+          "hash": "Pc7sRz/oFnEtbj8BT2AttA=="
         }
       },
       "is_incremental": true,
@@ -74804,6 +74576,17 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/2019-07-08_16-50-20.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/2019-07-08_16-50-20.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "interface-elements-for-web/images/app-reminders.png",
       "output": {
         "resource": {
@@ -74903,10 +74686,417 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/create-a-master-detail-report-use-detail-report-bands.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/create-a-master-detail-report-use-detail-report-bands.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "interface-elements-for-web/images/create-app.png",
       "output": {
         "resource": {
           "relative_path": "interface-elements-for-web/images/create-app.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-fieldlist-addparameter.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-fieldlist-addparameter.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-hierarchical-report-add-checkbox.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-hierarchical-report-add-checkbox.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-hierarchical-report-add-controls-result.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-hierarchical-report-add-controls-result.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-hierarchical-report-add-controls.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-hierarchical-report-add-controls.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-hierarchical-report-anchor-2.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-hierarchical-report-anchor-2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-hierarchical-report-anchor-result.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-hierarchical-report-anchor-result.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-hierarchical-report-anchor.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-hierarchical-report-anchor.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-hierarchical-report-bind-to-data.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-hierarchical-report-bind-to-data.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-hierarchical-report-checkbox-properties.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-hierarchical-report-checkbox-properties.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-hierarchical-report-checkbox-result.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-hierarchical-report-checkbox-result.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-hierarchical-report-checkstateexpression.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-hierarchical-report-checkstateexpression.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-hierarchical-report-drilldown.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-hierarchical-report-drilldown.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-hierarchical-report-expressions-result.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-hierarchical-report-expressions-result.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-hierarchical-report-expressions.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-hierarchical-report-expressions.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-hierarchical-report-hierarchyprintoptions-result.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-hierarchical-report-hierarchyprintoptions-result.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-hierarchical-report-hierarchyprintoptions.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-hierarchical-report-hierarchyprintoptions.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-hierarchical-report-sort-fields-result.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-hierarchical-report-sort-fields-result.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-hierarchical-report-sort-fields.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-hierarchical-report-sort-fields.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-merge-add-group-footer.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-merge-add-group-footer.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-merge-add-report-footer.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-merge-add-report-footer.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-merge-add-subreport-2.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-merge-add-subreport-2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-merge-add-subreport.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-merge-add-subreport.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-merge-chart-report.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-merge-chart-report.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-merge-configure-subreport-2.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-merge-configure-subreport-2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-merge-configure-subreport.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-merge-configure-subreport.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-merge-enable-generateownpages-2.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-merge-enable-generateownpages-2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-merge-endreport-layouts.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-merge-endreport-layouts.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-merge-endreport-result.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-merge-endreport-result.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-merge-products-report-layout.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-merge-products-report-layout.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-merge-reports.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-merge-reports.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-merge-subreport-add-parameter.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-merge-subreport-add-parameter.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-merge-subreport-edit-parameter.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-merge-subreport-edit-parameter.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-report-filterstring.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-report-filterstring.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-report-merging.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-report-merging.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-report-param-2.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-report-param-2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-report-param.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-report-param.png"
         }
       },
       "is_incremental": false,
@@ -74951,6 +75141,17 @@
       "output": {
         "resource": {
           "relative_path": "interface-elements-for-web/images/eurd-script-editor-scripts-intellisense.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-web-ContentEditing-Image-Reset-Menu-Item.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-web-ContentEditing-Image-Reset-Menu-Item.png"
         }
       },
       "is_incremental": false,
@@ -75072,6 +75273,17 @@
       "output": {
         "resource": {
           "relative_path": "interface-elements-for-web/images/eurd-web-add-cross-band-control-to-report.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-web-add-data-source-menu.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-web-add-data-source-menu.png"
         }
       },
       "is_incremental": false,
@@ -75981,6 +76193,28 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-web-binding-data-source-wizard-master-detail-key-fields.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-web-binding-data-source-wizard-master-detail-key-fields.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-web-binding-data-source-wizard-master-detail-relations.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-web-binding-data-source-wizard-master-detail-relations.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "interface-elements-for-web/images/eurd-web-binding-field-list-add-data-source.png",
       "output": {
         "resource": {
@@ -76740,6 +76974,50 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-web-check-box-glyph-options-alignment.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-web-check-box-glyph-options-alignment.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-web-check-box-glyph-options-custom-glyphs.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-web-check-box-glyph-options-custom-glyphs.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-web-check-box-glyph-options-glyph-style.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-web-check-box-glyph-options-glyph-style.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-web-check-box-glyph-options.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-web-check-box-glyph-options.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "interface-elements-for-web/images/eurd-web-check-box-in-place-editor.png",
       "output": {
         "resource": {
@@ -76799,6 +77077,17 @@
       "output": {
         "resource": {
           "relative_path": "interface-elements-for-web/images/eurd-web-check-boxe-states.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-web-choose-data-source.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-web-choose-data-source.png"
         }
       },
       "is_incremental": false,
@@ -77136,10 +77425,153 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-web-data-source-json.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-web-data-source-json.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-web-data-source-menu.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-web-data-source-menu.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-web-data-source-wizard-choose-a-data-connection.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-web-data-source-wizard-choose-a-data-connection.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "interface-elements-for-web/images/eurd-web-data-source-wizard-configure-query-parameters-expression-editor.png",
       "output": {
         "resource": {
           "relative_path": "interface-elements-for-web/images/eurd-web-data-source-wizard-configure-query-parameters-expression-editor.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-web-data-source-wizard-create-a-query-automatically.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-web-data-source-wizard-create-a-query-automatically.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-web-data-source-wizard-json-choose-no.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-web-data-source-wizard-json-choose-no.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-web-data-source-wizard-json-choose-web-service-endpoint-uri.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-web-data-source-wizard-json-choose-web-service-endpoint-uri.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-web-data-source-wizard-json-choose-yes.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-web-data-source-wizard-json-choose-yes.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-web-data-source-wizard-json-edit-schema.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-web-data-source-wizard-json-edit-schema.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-web-data-source-wizard-json-field-list.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-web-data-source-wizard-json-field-list.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-web-data-source-wizard-json-http-header-query-parameters.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-web-data-source-wizard-json-http-header-query-parameters.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-web-data-source-wizard-json-http-headers-query-parameters.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-web-data-source-wizard-json-http-headers-query-parameters.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-web-data-source-wizard-json-select-data-filds.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-web-data-source-wizard-json-select-data-filds.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-web-data-source-wizard-json.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-web-data-source-wizard-json.png"
         }
       },
       "is_incremental": false,
@@ -77184,6 +77616,17 @@
       "output": {
         "resource": {
           "relative_path": "interface-elements-for-web/images/eurd-web-designer-main-toolbar-delete.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-web-designer-main-toolbar-fullscreen.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-web-designer-main-toolbar-fullscreen.png"
         }
       },
       "is_incremental": false,
@@ -78317,6 +78760,28 @@
       "output": {
         "resource": {
           "relative_path": "interface-elements-for-web/images/eurd-web-format-string-property.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-web-fullscreen-ds-wizard-select-data-source-type.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-web-fullscreen-ds-wizard-select-data-source-type.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-web-fullscreen-report-wizard-label-report.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-web-fullscreen-report-wizard-label-report.png"
         }
       },
       "is_incremental": false,
@@ -79560,6 +80025,28 @@
       "output": {
         "resource": {
           "relative_path": "interface-elements-for-web/images/eurd-web-label-legacy-summary-settings.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-web-label-markup-text-allow-markup-text-buttom-tag-exabples.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-web-label-markup-text-allow-markup-text-buttom-tag-exabples.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-web-label-markup-text-allow-markup-text-buttom-tag-examples.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-web-label-markup-text-allow-markup-text-buttom-tag-examples.png"
         }
       },
       "is_incremental": false,
@@ -81580,6 +82067,17 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-web-report-wizard-add-summary.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-web-report-wizard-add-summary.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "interface-elements-for-web/images/eurd-web-report-wizard-choose-a-report-color-scheme.png",
       "output": {
         "resource": {
@@ -81591,10 +82089,43 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-web-report-wizard-choose-color-scheme.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-web-report-wizard-choose-color-scheme.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "interface-elements-for-web/images/eurd-web-report-wizard-choose-data-connection.png",
       "output": {
         "resource": {
           "relative_path": "interface-elements-for-web/images/eurd-web-report-wizard-choose-data-connection.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-web-report-wizard-choose-data-fields.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-web-report-wizard-choose-data-fields.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-web-report-wizard-choose-queries.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-web-report-wizard-choose-queries.png"
         }
       },
       "is_incremental": false,
@@ -81617,6 +82148,50 @@
       "output": {
         "resource": {
           "relative_path": "interface-elements-for-web/images/eurd-web-report-wizard-create-a-query.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-web-report-wizard-custom-query-menu.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-web-report-wizard-custom-query-menu.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-web-report-wizard-database-settings.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-web-report-wizard-database-settings.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-web-report-wizard-define-report-layout.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-web-report-wizard-define-report-layout.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-web-report-wizard-edit-query-button.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-web-report-wizard-edit-query-button.png"
         }
       },
       "is_incremental": false,
@@ -81668,10 +82243,109 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-web-report-wizard-group.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-web-report-wizard-group.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-web-report-wizard-json-existing-data-connection.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-web-report-wizard-json-existing-data-connection.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-web-report-wizard-json-new-data-connection.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-web-report-wizard-json-new-data-connection.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-web-report-wizard-json-request-parameters.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-web-report-wizard-json-request-parameters.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-web-report-wizard-json-select-data-fields.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-web-report-wizard-json-select-data-fields.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-web-report-wizard-json-settings.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-web-report-wizard-json-settings.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-web-report-wizard-json-string.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-web-report-wizard-json-string.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-web-report-wizard-json-web-service-endpoint.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-web-report-wizard-json-web-service-endpoint.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "interface-elements-for-web/images/eurd-web-report-wizard-label-report-options.png",
       "output": {
         "resource": {
           "relative_path": "interface-elements-for-web/images/eurd-web-report-wizard-label-report-options.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-web-report-wizard-label-report-result.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-web-report-wizard-label-report-result.png"
         }
       },
       "is_incremental": false,
@@ -81712,10 +82386,32 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-web-report-wizard-master-detail-relationship.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-web-report-wizard-master-detail-relationship.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "interface-elements-for-web/images/eurd-web-report-wizard-master-detail-relationships.png",
       "output": {
         "resource": {
           "relative_path": "interface-elements-for-web/images/eurd-web-report-wizard-master-detail-relationships.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-web-report-wizard-master-detail-result.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-web-report-wizard-master-detail-result.png"
         }
       },
       "is_incremental": false,
@@ -81789,6 +82485,17 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-web-report-wizard-navigation-panel.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-web-report-wizard-navigation-panel.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "interface-elements-for-web/images/eurd-web-report-wizard-page-multi-query-parameters.png",
       "output": {
         "resource": {
@@ -81800,10 +82507,87 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-web-report-wizard-page-structure.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-web-report-wizard-page-structure.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-web-report-wizard-parameter-dynamic-value.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-web-report-wizard-parameter-dynamic-value.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-web-report-wizard-parameter-mapping.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-web-report-wizard-parameter-mapping.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-web-report-wizard-parameter-static-value.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-web-report-wizard-parameter-static-value.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-web-report-wizard-queries-result.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-web-report-wizard-queries-result.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "interface-elements-for-web/images/eurd-web-report-wizard-query-builder.png",
       "output": {
         "resource": {
           "relative_path": "interface-elements-for-web/images/eurd-web-report-wizard-query-builder.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-web-report-wizard-query-parameters.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-web-report-wizard-query-parameters.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-web-report-wizard-remove-query-button.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-web-report-wizard-remove-query-button.png"
         }
       },
       "is_incremental": false,
@@ -81833,10 +82617,76 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-web-report-wizard-resulting-table-report.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-web-report-wizard-resulting-table-report.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-web-report-wizard-resulting-vertical-report.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-web-report-wizard-resulting-vertical-report.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-web-report-wizard-run-in-menu.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-web-report-wizard-run-in-menu.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-web-report-wizard-select-data-source-type.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-web-report-wizard-select-data-source-type.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-web-report-wizard-select-report-fields.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-web-report-wizard-select-report-fields.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "interface-elements-for-web/images/eurd-web-report-wizard-set-the-report-title.png",
       "output": {
         "resource": {
           "relative_path": "interface-elements-for-web/images/eurd-web-report-wizard-set-the-report-title.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-web-report-wizard-specify-page-settings.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-web-report-wizard-specify-page-settings.png"
         }
       },
       "is_incremental": false,
@@ -81855,10 +82705,131 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-web-report-wizard-specify-report-title.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-web-report-wizard-specify-report-title.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-web-report-wizard-table-group-result.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-web-report-wizard-table-group-result.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-web-report-wizard-table-report.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-web-report-wizard-table-report.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-web-report-wizard-table-result.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-web-report-wizard-table-result.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-web-report-wizard-table-select-queries.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-web-report-wizard-table-select-queries.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-web-report-wizard-table-summary-result.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-web-report-wizard-table-summary-result.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-web-report-wizard-vertical-group-result.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-web-report-wizard-vertical-group-result.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-web-report-wizard-vertical-result.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-web-report-wizard-vertical-result.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-web-report-wizard-vertical-select-queries.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-web-report-wizard-vertical-select-queries.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-web-report-wizard-vertical-summary-result.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-web-report-wizard-vertical-summary-result.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "interface-elements-for-web/images/eurd-web-report-wizard.png",
       "output": {
         "resource": {
           "relative_path": "interface-elements-for-web/images/eurd-web-report-wizard.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-web-reports-groupingconcept9139.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-web-reports-groupingconcept9139.png"
         }
       },
       "is_incremental": false,
@@ -84330,6 +85301,39 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-web-vertical-reports-insert.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-web-vertical-reports-insert.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-web-vertical-reports-layout.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-web-vertical-reports-layout.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-web-vertical-reports-menu.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-web-vertical-reports-menu.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "interface-elements-for-web/images/eurd-web-vertical-reports-repeat-every-page.png",
       "output": {
         "resource": {
@@ -84363,10 +85367,65 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-web-vertical-reports-sort-fields.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-web-vertical-reports-sort-fields.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "interface-elements-for-web/images/eurd-web-vertical-reports-summaries.png",
       "output": {
         "resource": {
           "relative_path": "interface-elements-for-web/images/eurd-web-vertical-reports-summaries.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-web-vertical-reports-wizard-1.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-web-vertical-reports-wizard-1.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-web-vertical-reports-wizard-2.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-web-vertical-reports-wizard-2.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-web-vertical-reports-wizard-3.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-web-vertical-reports-wizard-3.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "interface-elements-for-web/images/eurd-web-vertical-reports-wizard-4.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-web/images/eurd-web-vertical-reports-wizard-4.png"
         }
       },
       "is_incremental": false,
@@ -97743,7 +98802,7 @@
       "output": {
         ".html": {
           "relative_path": "interface-elements-for-web/toc.html",
-          "hash": "uROztoGeHIpZNtW9UpRHtg=="
+          "hash": "IZYflv1IRq7mt3aUpXVadA=="
         }
       },
       "is_incremental": false,

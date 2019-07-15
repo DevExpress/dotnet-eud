@@ -69,14 +69,13 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="check-box">Check Box</h1>
 
-<h2 id="check-box-overview">Check Box Overview</h2>
-<p>The <strong>Check Box</strong> control displays <strong>Yes</strong>/<strong>No</strong> or <strong>Checked</strong>/<strong>Unchecked</strong>/<strong>Indeterminate</strong> values in a report.</p>
+<p>The <strong>Check Box</strong> control displays the checkbox&#39;s state.</p>
 <p>You can add this control by dragging the <strong>Check Box</strong> item from the <a href="../../report-designer-tools/toolbox.html">Toolbox</a> onto the report&#39;s area.</p>
 <p><img src="../../../../images/eurd-web-add-check-box-control-to-report.png" alt=""></p>
-<p>Use one of the following properties to set the check box&#39;s state:</p>
+<p>Use one of the following properties to set the checkbox&#39;s state:</p>
 <ul>
-<li><strong>Checked</strong> - indicates whether the check box is selected (displays a check mark) or not (is empty).</li>
-<li><p><strong>Check State</strong> - specifies one of the following check box states:    </p>
+<li><strong>Checked</strong> - indicates whether the checkbox is selected (displays a check mark) or not (is empty).</li>
+<li><p><strong>Check State</strong> - specifies one of the following checkbox states: </p>
 <table>
 <thead>
 <tr>
@@ -101,13 +100,12 @@
 </table>
 </li>
 </ul>
-<p>The <strong>Text</strong> property specifies the check box&#39;s caption. You can double-click the check box to invoke its in-place editor and type the desired text.</p>
+<p>The <strong>Text</strong> property specifies the checkbox&#39;s caption. You can double-click the checkbox to invoke its in-place editor and type the desired text.</p>
 <p><img src="../../../../images/eurd-web-check-box-in-place-editor.png" alt=""></p>
-<p>Use the <strong>Glyph Alignment</strong> and <strong>Text Alignment</strong> properties to define the glyph and text alignment within the check box.</p>
 <h2 id="bind-to-data">Bind to Data</h2>
 <p>You can <a href="../../bind-to-data/bind-controls-to-data-expression-bindings.html">bind</a> the <strong>Check State</strong> property to a data field obtained from a report&#39;s data source. Expand the <strong>Actions</strong> category, click the <strong>Check State</strong> property&#39;s ellipsis button and select the required data field in the invoked <a href="../../report-designer-tools/expression-editor.html">Expression Editor</a>.</p>
 <p><img src="../../../../images/eurd-web-check-box-bind-to-data.png" alt=""></p>
-<p>The data field value determines the check box state in the following manner:</p>
+<p>The data field value determines the checkbox state in the following manner:</p>
 <ul>
 <li><strong>True</strong> or <strong>1</strong> activates the <strong>Checked</strong> state;</li>
 <li><strong>False</strong> or <strong>0</strong> activates the <strong>Unchecked</strong> state;</li>
@@ -115,18 +113,34 @@
 </ul>
 <p>In the same way, click the <strong>Text</strong> property&#39;s ellipsis button and select the desired data field or construct a complex binding expression involving two or more data fields.</p>
 <p><img src="../../../../images/eurd-web-check-box-text-expression.png" alt=""></p>
-<p>You can also drag and drop a Boolean type data field from the <a href="../../report-designer-tools/ui-panels/field-list.html">Field List</a> to create a new check box bound to this field.</p>
+<p>You can also drag and drop a Boolean type data field from the <a href="../../report-designer-tools/ui-panels/field-list.html">Field List</a> to create a new checkbox bound to this field.</p>
 <p><img src="../../../../images/eurd-web-check-box-drop-field-from-field-list.png" alt=""></p>
 <p>See the <a href="../../bind-to-data/bind-controls-to-data-expression-bindings.html">Bind Report Controls to Data</a> topic to learn more about creating data-aware controls.</p>
 <h2 id="interactivity">Interactivity</h2>
-<p>You can enable <a href="../../provide-interactivity/edit-content-in-print-preview.html">changing the check box state</a> in Print Preview by setting the <strong>Enabled</strong> option in the <strong>Edit Options</strong> category to <strong>Yes</strong>.</p>
+<p>Set the <strong>Edit Options</strong> | <strong>Enabled</strong> option to <strong>Yes</strong> to enable <a href="../../provide-interactivity/edit-content-in-print-preview.html">changing the checkbox state</a> in Print Preview.</p>
 <p><img src="../../../../images/eurd-web-check-box-edit-options-enabled.png" alt=""></p>
-<p>The <strong>Group ID</strong> setting defines the check box&#39;s behavior in Print Preview:</p>
+<p>The <strong>Group ID</strong> setting defines the checkbox&#39;s behavior in Print Preview:</p>
 <ul>
-<li><p>When you set this property to an empty string value, a check box can be switched to either the &quot;checked&quot; and &quot;unchecked&quot; state independently on other available check boxes.</p>
+<li><p>When you set this property to an empty string value, a checkbox can be switched to either the &quot;checked&quot; and &quot;unchecked&quot; state independently on other available check boxes.</p>
 <p>  <img src="../../../../images/eurd-web-check-box-editing-in-print-preview.png" alt=""></p>
 </li>
 <li><p>Otherwise, the field editor behaves like a radio button, and editors that have the same ID belong to a single logical group (that is, only one option can be selected in a group at a time).</p>
+</li>
+</ul>
+<h2 id="glyph-customization">Glyph Customization</h2>
+<p>The <strong>Glyph Options</strong> property provides access to glyph settings.</p>
+<p><img src="../../../../images/eurd-web-check-box-glyph-options.png" alt=""></p>
+<ul>
+<li><p><strong>Alignment</strong> - specifies the glyph&#39;s alignment within the control.</p>
+<p>  <img src="../../../../images/eurd-web-check-box-glyph-options-alignment.png" alt=""></p>
+</li>
+<li><p><strong>Size</strong> - specifies the glyph size.</p>
+</li>
+<li><p><strong>Glyph Style</strong> - specifies a predefined glyph style.</p>
+<p>  <img src="../../../../images/eurd-web-check-box-glyph-options-glyph-style.png" alt=""></p>
+</li>
+<li><p><strong>Custom Glyphs</strong> - specifies a custom glyph image for each checkbox state (Checked/Unchecked/Indeterminate).</p>
+<p>  <img src="../../../../images/eurd-web-check-box-glyph-options-custom-glyphs.png" alt=""></p>
 </li>
 </ul>
 </article>

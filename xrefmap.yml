@@ -31,6 +31,36 @@ references:
 - uid: "400406"
   name: Select the Data Source Type
   href: interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-tools/report-wizard/template/select-the-data-source-type.html
+- uid: "400947"
+  name: Data Source Wizard
+  href: interface-elements-for-web/articles/report-designer/report-designer-tools/data-source-wizard.html
+- uid: "400950"
+  name: Specify Data Source Settings (Database)
+  href: interface-elements-for-web/articles/report-designer/report-designer-tools/data-source-wizard/specify-data-source-settings-database.html
+- uid: "400951"
+  name: Specify Data Source Settings (JSON)
+  href: interface-elements-for-web/articles/report-designer/report-designer-tools/data-source-wizard/specify-data-source-settings-json.html
+- uid: "400954"
+  name: Label Report
+  href: interface-elements-for-web/articles/report-designer/report-designer-tools/report-wizard/label-report.html
+- uid: "400956"
+  name: Table and Vertical Report
+  href: interface-elements-for-web/articles/report-designer/report-designer-tools/report-wizard/table-and-vertical-report.html
+- uid: "400957"
+  name: Select Data Source
+  href: interface-elements-for-web/articles/report-designer/report-designer-tools/report-wizard/table-and-vertical-report/select-data-source.html
+- uid: "400958"
+  name: Specify Data Source Settings (Database)
+  href: interface-elements-for-web/articles/report-designer/report-designer-tools/report-wizard/table-and-vertical-report/specify-data-source-settings-database.html
+- uid: "400959"
+  name: Define Report Layout
+  href: interface-elements-for-web/articles/report-designer/report-designer-tools/report-wizard/table-and-vertical-report/define-report-layout.html
+- uid: "400960"
+  name: Specify Page Settings
+  href: interface-elements-for-web/articles/report-designer/report-designer-tools/report-wizard/table-and-vertical-report/specify-page-settings.html
+- uid: "400965"
+  name: Specify Data Source Settings (JSON)
+  href: interface-elements-for-web/articles/report-designer/report-designer-tools/report-wizard/table-and-vertical-report/specify-data-source-settings-json.html
 - uid: "4252"
   name: Select the Label Type
   href: interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-tools/report-wizard/labels/select-the-label-type.html

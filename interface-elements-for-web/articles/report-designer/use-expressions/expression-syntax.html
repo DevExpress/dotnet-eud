@@ -93,8 +93,6 @@
 </td><td><p>[Status] == 1</p>
 <p>You cannot specify an enumeration value using its qualified name. The following criteria <strong>is incorrect</strong>:</p>
 <p>[Status] = Status.InProgress</p>
-<p>You can use the <see cref="T:DevExpress.Data.Filtering.EnumProcessingHelper"></see> class&#39; static methods to register custom enumerations, and then refer to enumeration values as follows:</p>
-<p>Status = ##Enum#MyNamespace.Status,InProgress#</p>
 </td></tr><tr><td><p>Guid</p>
 </td><td><p>Wrap a Guid constant in curly braces. Use Guid constants in a relational operation with equality or inequality operators only.</p>
 </td><td><p>[OrderID] == {513724e5-17b7-4ec6-abc4-0eae12c72c1f}</p>
@@ -966,16 +964,16 @@
 <li>Join(parameter) - concatenates the specified parameter&#39;s values using comma as a separator.</li>
 <li>Join(parameter, separator) - concatenates the specified parameter&#39;s values using the specified separator.</li>
 </ul>
-</td><td><p>Join([Parameters.CategoriesParameter])</p>
+</td><td><p>Join(?CategoriesParameter)</p>
 <p>Result: <em>Beverages, Condiments</em></p>
-<p>Join([Parameters.CategoriesParameter], newline())</p>
+<p>Join(?CategoriesParameter, newline())</p>
 <p>Result: </p>
 <p><em>Beverages</em></p>
 <p><em>Condiments</em></p>
 </td></tr></table>
 
 <h2 id="functions-for-stored-procedure-binding">Functions for Stored Procedure Binding</h2>
-<p>The following functions are specific for binding reports to a stored procedure:</p>
+<p>The following functions are specific for <a href="../bind-to-data/bind-a-report-to-a-database.html">binding reports to a stored procedure</a></p>
 <table><tr><th><p>Function</p>
 </th><th><p>Description</p>
 </th><th><p>Example</p>
@@ -986,13 +984,13 @@
 <li>Join(parameter) - concatenates the specified parameter&#39;s values using comma as a separator.</li>
 <li>Join(parameter, separator) - concatenates the specified parameter&#39;s values using the specified separator.</li>
 </ul>
-</td><td><p>Join([Parameters.Parameter1])</p>
+</td><td><p>Join(?Parameter1)</p>
 </td></tr><tr><td><p>CreateTable(Column1, ..., ColumnN)</p>
 </td><td><p>Creates a table from several multi-value parameters&#39; values. This function can be used when mapping multi-value report parameters to the query parameter that is generated from a stored procedure&#39;s <a href="https://docs.microsoft.com/en-us/sql/relational-databases/tables/use-table-valued-parameters-database-engine">User Defined Table Type</a> parameter. Refer to the <a class="xref" href="../shape-report-data/use-report-parameters/use-query-parameters.html">Query Parameters</a> topic for more information.</p>
-</td><td><p>CreateTable([Parameters.Parameter1], ..., [Parameters.ParameterN])</p>
+</td><td><p>CreateTable(?Parameter1, ..., ?ParameterN)</p>
 </td></tr></table>
 
-<h2 id="functions-for-summary-expression-editor">Functions for Summary Expression Editor</h2>
+<h2 id="a-namesummary-expression-editorfunctions-for-summary-expression-editora"><a name="summary-expression-editor">Functions for Summary Expression Editor</a></h2>
 <p>Use the following functions when <a href="../shape-report-data/shape-data-expression-bindings/calculate-a-summary.html">calculating summaries</a> across a report and its groups:</p>
 <table><tr><th><p>Function</p>
 </th><th><p>Description</p>
@@ -1062,15 +1060,21 @@
 </td></tr><tr><td><p>sumVarP(Expression)</p>
 </td><td><p>Calculates the population variance of all the values within the specified summary region (group, page or report).</p>
 </td><td><p>sumVarP([UnitPrice])</p>
+</td></tr><tr><td><p>sumWAvg(Expression, Expression)</p>
+</td><td><p>Calculates the weighted average of all the values within the specified summary region (group, page or report). This type of summary returns the result of the following operation: Sum(Expression1 * Expression2) / Sum(Expression2).</p>
+</td><td><p>sumWAvg([UnitPrice])</p>
 </td></tr></table>
 
 <h2 id="report-items-in-expressions">Report Items In Expressions</h2>
 <p>A report&#39;s elements are displayed in the Report Designer&#39;s Report Explorer. You can access these elements and their properties in expressions. The following example demonstrates how to set a label&#39;s BackColor property to the other label&#39;s BackColor property value.</p>
 <p><em>[ReportItems].[xrLabel2].[BackColor]</em></p>
-<div class="TIP"><h5>Tip</h5><p><strong>[ReportItems]</strong> is a list that provides access to all report items.</p>
+<div class="TIP"><h5>Tip</h5><p><strong>[ReportItems]</strong> is a plain list that provides access to all report items at one level.</p>
 </div>
 <div class="NOTE"><h5>Note</h5><p>You cannot use the ReportItems collection in a <a href="../shape-report-data/use-calculated-fields.html">Calculated Field</a>&#39;s expression. </p>
 </div>
+<h2 id="images-for-picture-boxes">Images for Picture Boxes</h2>
+<p>When you construct an expression for the <a href="../use-report-elements/use-basic-report-controls/picture-box.html">Picture Box</a>&#39;s <strong>ImageSource</strong> property, you can use image <strong>Id</strong>s  from the report&#39;s <strong>ImageResources</strong> collection.</p>
+<p><em>IIf([MarchSales]&gt;20, [Images.ArrowUp],[Images.ArrowDown])</em></p>
 <h2 id="variables">Variables</h2>
 <table><tr><th><p>Variable</p>
 </th><th><p>Description</p>
@@ -1083,18 +1087,22 @@
 </td><td><p>Returns a zero-based index of the current data row in a data source.</p>
 </td><td><p>Iif([DataSource.CurrentRowIndex] % 2 = 0, &#39;red&#39;, &#39;green&#39;)</p>
 <p>Result: When this expression is used for a table row&#39;s BackColor property, odd rows are colored in red and even rows - in green.</p>
+</td></tr><tr><td><p>DataSource.CurrentRowHierarchyLevel</p>
+</td><td><p>Returns a zero-based level of the current row in a <a class="xref" href="../create-popular-reports/create-a-hierarchical-report.html">hierarchical report</a>.</p>
+</td><td><p>Iif([DataSource.CurrentRowHierarchyLevel] == 0, Rgb(231,235,244), ?)</p>
+<p>Result: When this expression is used for the BackColor property of the Detail band that is printed in tree mode, the root level rows are highlighted.</p>
 </td></tr></table>
 
 <div class="NOTE"><h5>Note</h5><p>These variables are not valid when the report includes a <a href="../add-navigation/add-a-table-of-contents.html">table or contents</a>.</p>
 </div>
 <h2 id="report-parameters">Report Parameters</h2>
-<p>Use the following syntax conventions to utilize <a href="../shape-report-data/use-report-parameters.html">report parameters</a> in the <a href="../use-expressions.html">Expression Editor</a>:</p>
+<p>Use the following syntax to insert <a href="../shape-report-data/use-report-parameters.html">parameters</a> into expressions:</p>
 <ul>
-<li><p>Insert <a href="../shape-report-data/use-report-parameters.html">report parameters</a> using the &quot;Parameters.&quot; prefix before their names.</p>
-<p><em>[Parameters.parameter1]</em></p>
-</li>
-<li><p>When referencing <a href="../shape-report-data/use-report-parameters.html">report parameters</a> in the <a href="../shape-report-data/filter-data/filter-data-at-the-report-level.html">Filter Editor</a> and using <a href="../shape-report-data/use-report-parameters/use-query-parameters.html">query parameters</a> in data source queries, type a question mark before the parameters&#39; names. </p>
+<li><p>Type a question mark before a parameter&#39;s name.  </p>
 <p><em>?parameter1</em></p>
+</li>
+<li><p>(<em>Obsolete approach</em>) Use the &quot;Parameters.&quot; prefix before a <a href="../shape-report-data/use-report-parameters.html">report parameter</a>&#39;s name.  </p>
+<p><em>[Parameters.parameter1]</em></p>
 </li>
 </ul>
 <h2 id="collection-elements-verification">Collection Elements Verification</h2>
@@ -1149,9 +1157,9 @@
 <h2 id="escape-characters">Escape Characters</h2>
 <p>Use a backslash () as an escape character for characters in expressions. Examples:</p>
 <ul>
-<li>[</li>
-<li>\</li>
-<li>&#39;</li>
+<li>\[</li>
+<li>\\</li>
+<li>\&#39;</li>
 </ul>
 </article>
           </div>
