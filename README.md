@@ -5,7 +5,7 @@ This article explains how to clone DevExpress End-User documentation sources and
 
 > If you require End-User documentation for **v17.1 and earlier**, you can download previous versions in CHM and PDF formats from https://www.devexpress.com/Support/Documentation/download.xml?platform=user-dev-docs.
 >
-> For **Developer Documentation with API Reference** see [https://documentation.devexpress.com](https://www.devexpress.com/Support/Documentation/).
+> For **Developer Documentation with API Reference** see [https://docs.devexpress.com](https://docs.devexpress.com).
 
 ## The Scope
 DevExpress products for WinForms, WPF and ASP.NET WebForms/MVC. 

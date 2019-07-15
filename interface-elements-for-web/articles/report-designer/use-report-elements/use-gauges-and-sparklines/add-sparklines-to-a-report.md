@@ -20,7 +20,7 @@ The sparkline uses the report's data source if you do not specify the **DataSour
 
 After that, specify the **Data Member** property and set the **Value Member** property to a data field that provides point values for the sparkline.
 
-To create a new data source for a sparkline, click **Add SQL Data Source...** in the [Menu](../../report-designer-tools/menu.md). This invokes the [SQL Data Source Wizard](../../report-designer-tools/sql-data-source-wizard.md) that allows you to set up a required data source.
+To create a new data source for a sparkline, click **Add Data Source...** in the [Menu](../../report-designer-tools/menu.md). This invokes the [Data Source Wizard](../../report-designer-tools/data-source-wizard.md) that allows you to set up a required data source.
 
 ## Adjust the Sparkline View
 
