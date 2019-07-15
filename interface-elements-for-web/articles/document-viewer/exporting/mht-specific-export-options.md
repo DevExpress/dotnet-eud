@@ -6,7 +6,7 @@ legacyId: 115379
 # MHT-Specific Export Options
 Before [exporting a document](export-a-document.md) to MHT format, you can specify MHT-specific options in the dedicated **Export Options** panel.
 
-![EUD_HTML5DV_MhtExportOptions](../../../../images/img121801.png)
+![EUD_HTML5DV_MhtExportOptions](../../../images/img121801.png)
 * **Export Mode**
 	
 	Specifies how a document is exported to MHT. The following modes are available.

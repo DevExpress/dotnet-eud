@@ -6,7 +6,7 @@ legacyId: 115377
 # HTML-Specific Export Options
 Before [exporting a document](export-a-document.md) to HTML format, you can specify HTML-specific options in the dedicated **Export Options** panel.
 
-![EUD_HTML5DV_HtmlExportOptions](../../../../images/img121799.png)
+![EUD_HTML5DV_HtmlExportOptions](../../../images/img121799.png)
 * **Export Mode**
 	
 	Specifies how a document is exported to HTML. The following modes are available.

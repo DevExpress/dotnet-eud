@@ -360,7 +360,7 @@ Below is a list of functions that are used to construct [expression bindings](..
 
 ## Functions for Stored Procedure Binding
 
-The following functions are specific for [binding reports to a stored procedure](..\bind-to-data\bind-a-report-to-a-stored-procedure.md):
+The following functions are specific for [binding reports to a stored procedure](..\bind-to-data\bind-a-report-to-a-database.md)
 
 <table><tr><th><p>Function</p>
 </th><th><p>Description</p>

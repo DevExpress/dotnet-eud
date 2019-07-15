@@ -56,78 +56,48 @@
 - name: Document Viewer
   href: articles/document-viewer.md
   items:
-  - name: Classic Document Viewer
-    href: articles/document-viewer/classic-document-viewer.md
+  - name: Viewing and Navigating
     items:
-    - name: Navigation
-      items:
-      - name: Navigate to a Specific Report Page
-        href: articles/document-viewer/classic-document-viewer/navigation/navigate-to-a-specific-report-page.md
-      - name: Navigate using Report Bookmarks
-        href: articles/document-viewer/classic-document-viewer/navigation/navigate-using-report-bookmarks.md
-      - name: Search for a Specific Text within a Report
-        href: articles/document-viewer/classic-document-viewer/navigation/search-for-a-specific-text-within-a-report.md
-    - name: Printing
-      items:
-      - name: Print a Report Using the PDF Web Browser Plug-In
-        href: articles/document-viewer/classic-document-viewer/printing/print-a-report-using-the-pdf-web-browser-plug-in.md
-      - name: Install and Activate the Adobe Reader Plug-In for Printing in a Web Browser
-        href: articles/document-viewer/classic-document-viewer/printing/install-and-activate-the-adobe-reader-plug-in-for-printing-in-a-web-browser.md
-      - name: Print Reports Using the Native Functionality of a Web Browser
-        href: articles/document-viewer/classic-document-viewer/printing/print-reports-using-the-native-functionality-of-a-web-browser.md
-    - name: Exporting
-      items:
-      - name: Export a Report and Save It to the Disk
-        href: articles/document-viewer/classic-document-viewer/exporting/export-a-report-and-save-it-to-the-disk.md
-      - name: Export a Report and Show It in a New Window
-        href: articles/document-viewer/classic-document-viewer/exporting/export-a-report-and-show-it-in-a-new-window.md
-    - name: Passing Parameter Values
-      href: articles/document-viewer/classic-document-viewer/passing-parameter-values.md
-  - name: HTML5 Document Viewer
-    href: articles/document-viewer/html5-document-viewer.md
+    - name: Navigate Between Pages
+      href: articles/document-viewer/viewing-and-navigating/navigate-between-pages.md
+    - name: Navigate Using Bookmarks
+      href: articles/document-viewer/viewing-and-navigating/navigate-using-bookmarks.md
+    - name: Search for a Specific Text
+      href: articles/document-viewer/viewing-and-navigating/search-for-a-specific-text.md
+    - name: Switch Display Mode
+      href: articles/document-viewer/viewing-and-navigating/switch-display-mode.md
+    - name: Zooming
+      href: articles/document-viewer/viewing-and-navigating/zooming.md
+  - name: Content Editing
+    href: articles/document-viewer/content-editing.md
+  - name: Passing Parameter Values
+    href: articles/document-viewer/passing-parameter-values.md
+  - name: Printing
+    href: articles/document-viewer/printing.md
+  - name: Exporting
     items:
-    - name: Viewing and Navigating
-      items:
-      - name: Navigate Between Pages
-        href: articles/document-viewer/html5-document-viewer/viewing-and-navigating/navigate-between-pages.md
-      - name: Navigate Using Bookmarks
-        href: articles/document-viewer/html5-document-viewer/viewing-and-navigating/navigate-using-bookmarks.md
-      - name: Search for a Specific Text
-        href: articles/document-viewer/html5-document-viewer/viewing-and-navigating/search-for-a-specific-text.md
-      - name: Switch Display Mode
-        href: articles/document-viewer/html5-document-viewer/viewing-and-navigating/switch-display-mode.md
-      - name: Zooming
-        href: articles/document-viewer/html5-document-viewer/viewing-and-navigating/zooming.md
-    - name: Content Editing
-      href: articles/document-viewer/html5-document-viewer/content-editing.md
-    - name: Passing Parameter Values
-      href: articles/document-viewer/html5-document-viewer/passing-parameter-values.md
-    - name: Printing
-      href: articles/document-viewer/html5-document-viewer/printing.md
-    - name: Exporting
-      items:
-      - name: Export a  Document
-        href: articles/document-viewer/html5-document-viewer/exporting/export-a-document.md
-      - name: CSV-Specific Export Options
-        href: articles/document-viewer/html5-document-viewer/exporting/csv-specific-export-options.md
-      - name: HTML-Specific Export Options
-        href: articles/document-viewer/html5-document-viewer/exporting/html-specific-export-options.md
-      - name: Image-Specific Export Options
-        href: articles/document-viewer/html5-document-viewer/exporting/image-specific-export-options.md
-      - name: MHT-Specific Export Options
-        href: articles/document-viewer/html5-document-viewer/exporting/mht-specific-export-options.md
-      - name: PDF-Specific Export Options
-        href: articles/document-viewer/html5-document-viewer/exporting/pdf-specific-export-options.md
-      - name: RTF-Specific Export Options
-        href: articles/document-viewer/html5-document-viewer/exporting/rtf-specific-export-options.md
-      - name: Text-Specific Export Options
-        href: articles/document-viewer/html5-document-viewer/exporting/text-specific-export-options.md
-      - name: XLS-Specific Export Options
-        href: articles/document-viewer/html5-document-viewer/exporting/xls-specific-export-options.md
-      - name: XLSX-Specific Export Options
-        href: articles/document-viewer/html5-document-viewer/exporting/xlsx-specific-export-options.md
-      - name: DOCX-Specific Export Options
-        href: articles/document-viewer/html5-document-viewer/exporting/docx-specific-export-options.md
+    - name: Export a  Document
+      href: articles/document-viewer/exporting/export-a-document.md
+    - name: CSV-Specific Export Options
+      href: articles/document-viewer/exporting/csv-specific-export-options.md
+    - name: HTML-Specific Export Options
+      href: articles/document-viewer/exporting/html-specific-export-options.md
+    - name: Image-Specific Export Options
+      href: articles/document-viewer/exporting/image-specific-export-options.md
+    - name: MHT-Specific Export Options
+      href: articles/document-viewer/exporting/mht-specific-export-options.md
+    - name: PDF-Specific Export Options
+      href: articles/document-viewer/exporting/pdf-specific-export-options.md
+    - name: RTF-Specific Export Options
+      href: articles/document-viewer/exporting/rtf-specific-export-options.md
+    - name: Text-Specific Export Options
+      href: articles/document-viewer/exporting/text-specific-export-options.md
+    - name: XLS-Specific Export Options
+      href: articles/document-viewer/exporting/xls-specific-export-options.md
+    - name: XLSX-Specific Export Options
+      href: articles/document-viewer/exporting/xlsx-specific-export-options.md
+    - name: DOCX-Specific Export Options
+      href: articles/document-viewer/exporting/docx-specific-export-options.md
 - name: Editors
   href: articles/editors.md
   items:

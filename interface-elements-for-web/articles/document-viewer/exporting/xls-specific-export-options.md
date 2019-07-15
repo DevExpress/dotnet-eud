@@ -6,7 +6,7 @@ legacyId: 115383
 # XLS-Specific Export Options
 Before [exporting a document](export-a-document.md) to XLS format, you can specify XLS-specific options in the dedicated **Export Options** panel.
 
-![EUD_HTML5DV_XlsExportOptions](../../../../images/img121833.png)
+![EUD_HTML5DV_XlsExportOptions](../../../images/img121833.png)
 * **Export Mode**
 	
 	Specifies how a document is exported to XLS.

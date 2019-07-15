@@ -6,7 +6,7 @@ legacyId: 115376
 # CSV-Specific Export Options
 Before [exporting a document](export-a-document.md) to CSV format, you can specify CSV-specific options in the dedicated **Export Options** panel.
 
-![EUD_HTML5DV_CsvExportOptions](../../../../images/img121798.png)
+![EUD_HTML5DV_CsvExportOptions](../../../images/img121798.png)
 * **Encoding**
 	
 	Specifies the encoding used in the exported document.
