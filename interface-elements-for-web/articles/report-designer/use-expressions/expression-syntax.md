@@ -30,8 +30,6 @@ The table below contains constants, operators, and functions you can use in [exp
 </td><td><p>[Status] == 1</p>
 <p>You cannot specify an enumeration value using its qualified name. The following criteria <strong>is incorrect</strong>:</p>
 <p>[Status] = Status.InProgress</p>
-<p>You can use the <see cref="T:DevExpress.Data.Filtering.EnumProcessingHelper"></see> class&#39; static methods to register custom enumerations, and then refer to enumeration values as follows:</p>
-<p>Status = ##Enum#MyNamespace.Status,InProgress#</p>
 </td></tr><tr><td><p>Guid</p>
 </td><td><p>Wrap a Guid constant in curly braces. Use Guid constants in a relational operation with equality or inequality operators only.</p>
 </td><td><p>[OrderID] == {513724e5-17b7-4ec6-abc4-0eae12c72c1f}</p>
@@ -352,9 +350,9 @@ Below is a list of functions that are used to construct [expression bindings](..
 <li>Join(parameter) - concatenates the specified parameter&#39;s values using comma as a separator.</li>
 <li>Join(parameter, separator) - concatenates the specified parameter&#39;s values using the specified separator.</li>
 </ul>
-</td><td><p>Join([Parameters.CategoriesParameter])</p>
+</td><td><p>Join(?CategoriesParameter)</p>
 <p>Result: <em>Beverages, Condiments</em></p>
-<p>Join([Parameters.CategoriesParameter], newline())</p>
+<p>Join(?CategoriesParameter, newline())</p>
 <p>Result: </p>
 <p><em>Beverages</em></p>
 <p><em>Condiments</em></p>
@@ -362,7 +360,7 @@ Below is a list of functions that are used to construct [expression bindings](..
 
 ## Functions for Stored Procedure Binding
 
-The following functions are specific for binding reports to a stored procedure:
+The following functions are specific for [binding reports to a stored procedure](..\bind-to-data\bind-a-report-to-a-database.md)
 
 <table><tr><th><p>Function</p>
 </th><th><p>Description</p>
@@ -374,13 +372,13 @@ The following functions are specific for binding reports to a stored procedure:
 <li>Join(parameter) - concatenates the specified parameter&#39;s values using comma as a separator.</li>
 <li>Join(parameter, separator) - concatenates the specified parameter&#39;s values using the specified separator.</li>
 </ul>
-</td><td><p>Join([Parameters.Parameter1])</p>
+</td><td><p>Join(?Parameter1)</p>
 </td></tr><tr><td><p>CreateTable(Column1, ..., ColumnN)</p>
 </td><td><p>Creates a table from several multi-value parameters&#39; values. This function can be used when mapping multi-value report parameters to the query parameter that is generated from a stored procedure&#39;s <a href="https://docs.microsoft.com/en-us/sql/relational-databases/tables/use-table-valued-parameters-database-engine">User Defined Table Type</a> parameter. Refer to the <a class="xref" href="..\shape-report-data\use-report-parameters\use-query-parameters.md">Query Parameters</a> topic for more information.</p>
-</td><td><p>CreateTable([Parameters.Parameter1], ..., [Parameters.ParameterN])</p>
+</td><td><p>CreateTable(?Parameter1, ..., ?ParameterN)</p>
 </td></tr></table>
 
-## Functions for Summary Expression Editor
+## <a name="summary-expression-editor">Functions for Summary Expression Editor</a>
 
 Use the following functions when [calculating summaries](..\shape-report-data\shape-data-expression-bindings\calculate-a-summary.md) across a report and its groups:
 
@@ -452,6 +450,9 @@ Use the following functions when [calculating summaries](..\shape-report-data\sh
 </td></tr><tr><td><p>sumVarP(Expression)</p>
 </td><td><p>Calculates the population variance of all the values within the specified summary region (group, page or report).</p>
 </td><td><p>sumVarP([UnitPrice])</p>
+</td></tr><tr><td><p>sumWAvg(Expression, Expression)</p>
+</td><td><p>Calculates the weighted average of all the values within the specified summary region (group, page or report). This type of summary returns the result of the following operation: Sum(Expression1 * Expression2) / Sum(Expression2).</p>
+</td><td><p>sumWAvg([UnitPrice])</p>
 </td></tr></table>
 
 ## Report Items In Expressions
@@ -461,10 +462,17 @@ A report's elements are displayed in the Report Designer's Report Explorer. You 
 *[ReportItems].[xrLabel2].[BackColor]*
 
 > [!Tip]
-> **[ReportItems]** is a list that provides access to all report items.
+> **[ReportItems]** is a plain list that provides access to all report items at one level.
 
 > [!Note]
 > You cannot use the ReportItems collection in a [Calculated Field](..\shape-report-data\use-calculated-fields.md)'s expression. 
+
+## Images for Picture Boxes
+
+When you construct an expression for the [Picture Box](../use-report-elements/use-basic-report-controls/picture-box.md)'s **ImageSource** property, you can use image **Id**s  from the report's **ImageResources** collection.
+
+*IIf([MarchSales]>20, [Images.ArrowUp],[Images.ArrowDown])*
+
 
 
 ## Variables
@@ -480,6 +488,10 @@ A report's elements are displayed in the Report Designer's Report Explorer. You 
 </td><td><p>Returns a zero-based index of the current data row in a data source.</p>
 </td><td><p>Iif([DataSource.CurrentRowIndex] % 2 = 0, &#39;red&#39;, &#39;green&#39;)</p>
 <p>Result: When this expression is used for a table row&#39;s BackColor property, odd rows are colored in red and even rows - in green.</p>
+</td></tr><tr><td><p>DataSource.CurrentRowHierarchyLevel</p>
+</td><td><p>Returns a zero-based level of the current row in a <a class="xref" href="..\create-popular-reports\create-a-hierarchical-report.md">hierarchical report</a>.</p>
+</td><td><p>Iif([DataSource.CurrentRowHierarchyLevel] == 0, Rgb(231,235,244), ?)</p>
+<p>Result: When this expression is used for the BackColor property of the Detail band that is printed in tree mode, the root level rows are highlighted.</p>
 </td></tr></table>
 
 > [!Note]
@@ -487,14 +499,14 @@ A report's elements are displayed in the Report Designer's Report Explorer. You 
 
 ## Report Parameters
 
-Use the following syntax conventions to utilize [report parameters](..\shape-report-data\use-report-parameters.md) in the [Expression Editor](..\use-expressions.md):
+Use the following syntax to insert [parameters](..\shape-report-data\use-report-parameters.md) into expressions:
 
-* Insert [report parameters](..\shape-report-data\use-report-parameters.md) using the "Parameters." prefix before their names.
+* Type a question mark before a parameter's name.  
 
-  _[Parameters.parameter1]_
-* When referencing [report parameters](..\shape-report-data\use-report-parameters.md) in the [Filter Editor](..\shape-report-data\filter-data\filter-data-at-the-report-level.md) and using [query parameters](..\shape-report-data\use-report-parameters\use-query-parameters.md) in data source queries, type a question mark before the parameters' names. 
+  *?parameter1*
+* (*Obsolete approach*) Use the "Parameters." prefix before a [report parameter](..\shape-report-data\use-report-parameters.md)'s name.  
 
-  _?parameter1_
+  *[Parameters.parameter1]*
 
 ## Collection Elements Verification
 Use brackets "[]" to check if a collection contains an element that satisfies a condition. The following expression returns _true_ if the Accounts collection contains at least one element that satisfies the _[Amount] == 100_ condition:
@@ -571,6 +583,6 @@ _\@Or = 'value'_
  
 Use a backslash (\) as an escape character for characters in expressions. Examples:
 
-- \[
-- \\
-- \'
+- \\[
+- \\\
+- \\'

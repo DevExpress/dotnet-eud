@@ -20,6 +20,8 @@ The Subreport control allows you to solve the following tasks:
 	
 	Another reason for using subreports is to create master-detail reports (reports with hierarchically linked data). For more details on this, see [Create a Master-Detail Report (Use Subreports)](../../create-popular-reports/create-a-master-detail-report-use-subreports.md).
 
+* [Merge Reports](../../merge-reports.md)
+
 You can use an already existing report in the report storage as a report source. Select the Subreport control, open the **Actions** category, expand the **Report Source URL** property's drop-down list and select the required report.
 
 ![](../../../../images/eurd-web-subreport-report-source-url.png)

@@ -56,78 +56,48 @@
 - name: Document Viewer
   href: articles/document-viewer.md
   items:
-  - name: Classic Document Viewer
-    href: articles/document-viewer/classic-document-viewer.md
+  - name: Viewing and Navigating
     items:
-    - name: Navigation
-      items:
-      - name: Navigate to a Specific Report Page
-        href: articles/document-viewer/classic-document-viewer/navigation/navigate-to-a-specific-report-page.md
-      - name: Navigate using Report Bookmarks
-        href: articles/document-viewer/classic-document-viewer/navigation/navigate-using-report-bookmarks.md
-      - name: Search for a Specific Text within a Report
-        href: articles/document-viewer/classic-document-viewer/navigation/search-for-a-specific-text-within-a-report.md
-    - name: Printing
-      items:
-      - name: Print a Report Using the PDF Web Browser Plug-In
-        href: articles/document-viewer/classic-document-viewer/printing/print-a-report-using-the-pdf-web-browser-plug-in.md
-      - name: Install and Activate the Adobe Reader Plug-In for Printing in a Web Browser
-        href: articles/document-viewer/classic-document-viewer/printing/install-and-activate-the-adobe-reader-plug-in-for-printing-in-a-web-browser.md
-      - name: Print Reports Using the Native Functionality of a Web Browser
-        href: articles/document-viewer/classic-document-viewer/printing/print-reports-using-the-native-functionality-of-a-web-browser.md
-    - name: Exporting
-      items:
-      - name: Export a Report and Save It to the Disk
-        href: articles/document-viewer/classic-document-viewer/exporting/export-a-report-and-save-it-to-the-disk.md
-      - name: Export a Report and Show It in a New Window
-        href: articles/document-viewer/classic-document-viewer/exporting/export-a-report-and-show-it-in-a-new-window.md
-    - name: Passing Parameter Values
-      href: articles/document-viewer/classic-document-viewer/passing-parameter-values.md
-  - name: HTML5 Document Viewer
-    href: articles/document-viewer/html5-document-viewer.md
+    - name: Navigate Between Pages
+      href: articles/document-viewer/viewing-and-navigating/navigate-between-pages.md
+    - name: Navigate Using Bookmarks
+      href: articles/document-viewer/viewing-and-navigating/navigate-using-bookmarks.md
+    - name: Search for a Specific Text
+      href: articles/document-viewer/viewing-and-navigating/search-for-a-specific-text.md
+    - name: Switch Display Mode
+      href: articles/document-viewer/viewing-and-navigating/switch-display-mode.md
+    - name: Zooming
+      href: articles/document-viewer/viewing-and-navigating/zooming.md
+  - name: Content Editing
+    href: articles/document-viewer/content-editing.md
+  - name: Passing Parameter Values
+    href: articles/document-viewer/passing-parameter-values.md
+  - name: Printing
+    href: articles/document-viewer/printing.md
+  - name: Exporting
     items:
-    - name: Viewing and Navigating
-      items:
-      - name: Navigate Between Pages
-        href: articles/document-viewer/html5-document-viewer/viewing-and-navigating/navigate-between-pages.md
-      - name: Navigate Using Bookmarks
-        href: articles/document-viewer/html5-document-viewer/viewing-and-navigating/navigate-using-bookmarks.md
-      - name: Search for a Specific Text
-        href: articles/document-viewer/html5-document-viewer/viewing-and-navigating/search-for-a-specific-text.md
-      - name: Switch Display Mode
-        href: articles/document-viewer/html5-document-viewer/viewing-and-navigating/switch-display-mode.md
-      - name: Zooming
-        href: articles/document-viewer/html5-document-viewer/viewing-and-navigating/zooming.md
-    - name: Content Editing
-      href: articles/document-viewer/html5-document-viewer/content-editing.md
-    - name: Passing Parameter Values
-      href: articles/document-viewer/html5-document-viewer/passing-parameter-values.md
-    - name: Printing
-      href: articles/document-viewer/html5-document-viewer/printing.md
-    - name: Exporting
-      items:
-      - name: Export a  Document
-        href: articles/document-viewer/html5-document-viewer/exporting/export-a-document.md
-      - name: CSV-Specific Export Options
-        href: articles/document-viewer/html5-document-viewer/exporting/csv-specific-export-options.md
-      - name: HTML-Specific Export Options
-        href: articles/document-viewer/html5-document-viewer/exporting/html-specific-export-options.md
-      - name: Image-Specific Export Options
-        href: articles/document-viewer/html5-document-viewer/exporting/image-specific-export-options.md
-      - name: MHT-Specific Export Options
-        href: articles/document-viewer/html5-document-viewer/exporting/mht-specific-export-options.md
-      - name: PDF-Specific Export Options
-        href: articles/document-viewer/html5-document-viewer/exporting/pdf-specific-export-options.md
-      - name: RTF-Specific Export Options
-        href: articles/document-viewer/html5-document-viewer/exporting/rtf-specific-export-options.md
-      - name: Text-Specific Export Options
-        href: articles/document-viewer/html5-document-viewer/exporting/text-specific-export-options.md
-      - name: XLS-Specific Export Options
-        href: articles/document-viewer/html5-document-viewer/exporting/xls-specific-export-options.md
-      - name: XLSX-Specific Export Options
-        href: articles/document-viewer/html5-document-viewer/exporting/xlsx-specific-export-options.md
-      - name: DOCX-Specific Export Options
-        href: articles/document-viewer/html5-document-viewer/exporting/docx-specific-export-options.md
+    - name: Export a  Document
+      href: articles/document-viewer/exporting/export-a-document.md
+    - name: CSV-Specific Export Options
+      href: articles/document-viewer/exporting/csv-specific-export-options.md
+    - name: HTML-Specific Export Options
+      href: articles/document-viewer/exporting/html-specific-export-options.md
+    - name: Image-Specific Export Options
+      href: articles/document-viewer/exporting/image-specific-export-options.md
+    - name: MHT-Specific Export Options
+      href: articles/document-viewer/exporting/mht-specific-export-options.md
+    - name: PDF-Specific Export Options
+      href: articles/document-viewer/exporting/pdf-specific-export-options.md
+    - name: RTF-Specific Export Options
+      href: articles/document-viewer/exporting/rtf-specific-export-options.md
+    - name: Text-Specific Export Options
+      href: articles/document-viewer/exporting/text-specific-export-options.md
+    - name: XLS-Specific Export Options
+      href: articles/document-viewer/exporting/xls-specific-export-options.md
+    - name: XLSX-Specific Export Options
+      href: articles/document-viewer/exporting/xlsx-specific-export-options.md
+    - name: DOCX-Specific Export Options
+      href: articles/document-viewer/exporting/docx-specific-export-options.md
 - name: Editors
   href: articles/editors.md
   items:
@@ -517,8 +487,10 @@
   - name: Bind to Data
     href: articles/report-designer/bind-to-data.md
     items:
-    - name: Bind a Report to Data
-      href: articles/report-designer/bind-to-data/bind-a-report-to-data.md
+    - name: Bind a Report to a Database
+      href: articles/report-designer/bind-to-data/bind-a-report-to-a-database.md
+    - name: Bind a Report to JSON Data
+      href: articles/report-designer/bind-to-data/bind-a-report-to-json-data.md   
     - name: Data Binding Modes
       href: articles/report-designer/bind-to-data/data-binding-modes.md
     - name: Bind Report Controls to Data (Expression Bindings)
@@ -542,6 +514,8 @@
       href: articles/report-designer/create-popular-reports/create-a-master-detail-report-use-detail-report-bands.md
     - name: Create a Master-Detail Report (Use Subreports)
       href: articles/report-designer/create-popular-reports/create-a-master-detail-report-use-subreports.md
+    - name: Create a Hierarchical Report
+      href: articles/report-designer/create-popular-reports/create-a-hierarchical-report.md
     - name: Create a Vertical Report
       href: articles/report-designer/create-popular-reports/create-a-vertical-report.md
     - name: Create Labels and Badges
@@ -853,6 +827,13 @@
       href: articles/report-designer/add-extra-information/display-the-current-date-and-time-in-a-report.md
     - name: Display the User Name in a Report
       href: articles/report-designer/add-extra-information/display-the-user-name-in-a-report.md
+  - name: Merge Reports
+    href: articles/report-designer/merge-reports.md
+    items:
+    - name: Add a Report to the End/Beginning
+      href: articles/report-designer/merge-reports/add-a-report-to-the-end-beginning.md
+    - name: Use Data-Driven Page Sequence
+      href: articles/report-designer/merge-reports/use-data-driven-page-sequence.md
   - name: Use Expressions
     href: articles/report-designer/use-expressions.md
     items:
@@ -866,61 +847,30 @@
     - name: Report Wizard
       href: articles/report-designer/report-designer-tools/report-wizard.md
       items:
-        - name: Choose a Report Type
-          href: articles/report-designer/report-designer-tools/report-wizard/choose-a-report-type.md
         - name: Empty Report
           href: articles/report-designer/report-designer-tools/report-wizard/empty-report.md
-        - name: Data-bound Report
-          href: articles/report-designer/report-designer-tools/report-wizard/data-bound-report.md
+        - name: Table and Vertical Report
+          href: articles/report-designer/report-designer-tools/report-wizard/table-and-vertical-report.md
           items:
-          - name: Choose a Data Connection
-            href: articles/report-designer/report-designer-tools/report-wizard/data-bound-report/choose-a-data-connection.md    
-          - name: Create a Query or Select a Stored Procedure
-            href: articles/report-designer/report-designer-tools/report-wizard/data-bound-report/create-a-query-or-select-a-stored-procedure.md
-          - name: Configure Query Parameters
-            href: articles/report-designer/report-designer-tools/report-wizard/data-bound-report/configure-query-parameters.md
-          - name: Configure Master-Detail Relationships
-            href: articles/report-designer/report-designer-tools/report-wizard/data-bound-report/configure-master-detail-relationships.md
-          - name: Choose Fields to Display in a Report
-            href: articles/report-designer/report-designer-tools/report-wizard/data-bound-report/choose-fields-to-display-in-a-report.md
-          - name: Add Grouping Levels
-            href: articles/report-designer/report-designer-tools/report-wizard/data-bound-report/add-grouping-levels.md
-          - name: Specify Summary Options
-            href: articles/report-designer/report-designer-tools/report-wizard/data-bound-report/specify-summary-options.md
-          - name: Specify Report Page Settings
-            href: articles/report-designer/report-designer-tools/report-wizard/data-bound-report/specify-report-page-settings.md
-          - name: Choose a Report Color Scheme
-            href: articles/report-designer/report-designer-tools/report-wizard/data-bound-report/choose-a-report-color-scheme.md
-          - name: Set the Report Title
-            href: articles/report-designer/report-designer-tools/report-wizard/data-bound-report/set-the-report-title.md
+          - name: Select Data Source  
+            href: articles\report-designer\report-designer-tools\report-wizard\table-and-vertical-report\select-data-source.md
+          - name: Specify Data Source Settings (Database)
+            href: articles\report-designer\report-designer-tools\report-wizard\table-and-vertical-report\specify-data-source-settings-database.md  
+          - name: Specify Data Source Settings (JSON)  
+            href: articles\report-designer\report-designer-tools\report-wizard\table-and-vertical-report\specify-data-source-settings-json.md
+          - name: Define Report Layout
+            href: articles\report-designer\report-designer-tools\report-wizard\table-and-vertical-report\define-report-layout.md
+          - name: Specify Page Settings
+            href: articles\report-designer\report-designer-tools\report-wizard\table-and-vertical-report\specify-page-settings.md
         - name: Label Report
-          href: articles/report-designer/report-designer-tools/report-wizard/label-report.md
-          items:
-          - name: Select the Label Type
-            href: articles/report-designer/report-designer-tools/report-wizard/label-report/select-the-label-type.md
-          - name: Customize the Label Options
-            href: articles/report-designer/report-designer-tools/report-wizard/label-report/customize-the-label-options.md     
-    - name: SQL Data Source Wizard
-      href: articles/report-designer/report-designer-tools/sql-data-source-wizard.md
+          href: articles/report-designer/report-designer-tools/report-wizard/label-report.md 
+    - name: Data Source Wizard
+      href: articles/report-designer/report-designer-tools/data-source-wizard.md
       items:
-        - name: Add a New Data Source
-          href: articles/report-designer/report-designer-tools/sql-data-source-wizard/add-a-new-data-source.md
-          items:
-          - name: Choose a Data Connection
-            href: articles/report-designer/report-designer-tools/sql-data-source-wizard/add-a-new-data-source/choose-a-data-connection.md    
-          - name: Create a Query or Select a Stored Procedure
-            href: articles/report-designer/report-designer-tools/sql-data-source-wizard/add-a-new-data-source/create-a-query-or-select-a-stored-procedure.md
-          - name: Configure Query Parameters
-            href: articles/report-designer/report-designer-tools/sql-data-source-wizard/add-a-new-data-source/configure-query-parameters.md
-          - name: Configure Master-Detail Relationships
-            href: articles/report-designer/report-designer-tools/sql-data-source-wizard/add-a-new-data-source/configure-master-detail-relationships.md
-        - name: Edit an Existing Data Source
-          href: articles/report-designer/report-designer-tools/sql-data-source-wizard/edit-an-existing-data-source.md
-          items:
-          - name: Create a Query or Select a Stored Procedure
-            href: articles/report-designer/report-designer-tools/sql-data-source-wizard/edit-an-existing-data-source/create-a-query-or-select-a-stored-procedure.md
-          - name: Configure Query Parameters
-            href: articles/report-designer/report-designer-tools/sql-data-source-wizard/add-a-new-data-source/configure-query-parameters.md
+        - name: Specify Data Source Settings (Database)
+          href: articles\report-designer\report-designer-tools\data-source-wizard\specify-data-source-settings-database.md
+        - name: Specify Data Source Settings (JSON)
+          href: articles\report-designer\report-designer-tools\data-source-wizard\specify-data-source-settings-json.md
     - name: Design Surface
       href: articles/report-designer/report-designer-tools/design-surface.md
     - name: Main Menu

@@ -18,11 +18,11 @@ A cross-tab report displays complex multi-dimensional data, such as summary stat
 
     You cannot place a Pivot Grid in another report control (for example, [Table Cell](../use-report-elements/use-tables.md) or [Panel](../use-report-elements/use-basic-report-controls/panel.md)) because its width cannot be determined at design time.
 
-3. Invoke the designer [menu](../report-designer-tools/menu.md) and click **Add SQL Data Source...**.
+3. Invoke the designer [menu](../report-designer-tools/menu.md) and click **Add Data Source...**.
 
-   ![](../../../images/eurd-web-add-sql-data-source-menu.png)
+   ![](../../../images/eurd-web-add-data-source-menu.png)
    
-   Navigate through the invoked [SQL Data Source Wizard](../report-designer-tools/sql-data-source-wizard.md)'s pages to set up the data source. See the [Bind to Data](../bind-to-data.md) section for more information. 
+   Navigate through the invoked [Data Source Wizard](../report-designer-tools/data-source-wizard.md)'s pages to set up the data source. See the [Bind to Data](../bind-to-data.md) section for more information. 
 
 3. After the data source is created, you can specify the Pivot Grid's **Data Source** and **Data Member** properties. Expand the **Actions** category and to bind the Pivot Grid to data.
 

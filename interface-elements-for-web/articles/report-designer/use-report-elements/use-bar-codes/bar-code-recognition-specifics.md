@@ -24,9 +24,9 @@ Although you can use any ASCII character as the **FNC1** placeholder, it will no
 For the list of the available application identifiers, refer to the official documentation at [www.gs1.org](http://www.gs1.org/).
 
 ## Specify the Bar Code Resolution on Export to Third-Party Formats
-At present, only [export to PDF](../../../document-viewer/html5-document-viewer/exporting/pdf-specific-export-options.md) preserves the original bar code in its vector form. Export to other formats will keep only the rasterized version of a bar code (with the default DPI set to **96**).
+At present, only [export to PDF](../../../document-viewer/exporting/pdf-specific-export-options.md) preserves the original bar code in its vector form. Export to other formats will keep only the rasterized version of a bar code (with the default DPI set to **96**).
 
-For [XLSX](../../../document-viewer/html5-document-viewer/exporting/xlsx-specific-export-options.md) and [XLS](../../../document-viewer/html5-document-viewer/exporting/xls-specific-export-options.md) export, the output resolution can be set up manually using the **Rasterization Resolution** property.
+For [XLSX](../../../document-viewer/exporting/xlsx-specific-export-options.md) and [XLS](../../../document-viewer/exporting/xls-specific-export-options.md) export, the output resolution can be set up manually using the **Rasterization Resolution** property.
 
 ## Common Issues
 This document section provides solutions to the most common issues that you may encounter when creating bar codes.

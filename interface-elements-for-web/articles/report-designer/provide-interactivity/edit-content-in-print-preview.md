@@ -117,5 +117,5 @@ Use the control's **Editor Name** property to assign one of the following image 
 
     ![](../../../images/eurd-web-content-editing-image-and-signature.png)
 
-All these image editors include the ![](../../../images/eurd-web-content-editing-clear-changes.png) button. This button allows you to restore the initial image.
+All the image editors listed above can include the ![](../../../images/eurd-web-ContentEditing-Image-Reset-Menu-Item.png) menu item. This item is available only when the Picture Box control has an original image.
 
