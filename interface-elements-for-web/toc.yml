@@ -517,8 +517,10 @@
   - name: Bind to Data
     href: articles/report-designer/bind-to-data.md
     items:
-    - name: Bind a Report to Data
-      href: articles/report-designer/bind-to-data/bind-a-report-to-data.md
+    - name: Bind a Report to a Database
+      href: articles/report-designer/bind-to-data/bind-a-report-to-a-database.md
+    - name: Bind a Report to JSON Data
+      href: articles/report-designer/bind-to-data/bind-a-report-to-json-data.md   
     - name: Data Binding Modes
       href: articles/report-designer/bind-to-data/data-binding-modes.md
     - name: Bind Report Controls to Data (Expression Bindings)
@@ -866,40 +868,23 @@
     - name: Report Wizard
       href: articles/report-designer/report-designer-tools/report-wizard.md
       items:
-        - name: Choose a Report Type
-          href: articles/report-designer/report-designer-tools/report-wizard/choose-a-report-type.md
         - name: Empty Report
           href: articles/report-designer/report-designer-tools/report-wizard/empty-report.md
-        - name: Data-bound Report
-          href: articles/report-designer/report-designer-tools/report-wizard/data-bound-report.md
+        - name: Table and Vertical Report
+          href: articles/report-designer/report-designer-tools/report-wizard/table-and-vertical-report.md
           items:
-          - name: Choose a Data Connection
-            href: articles/report-designer/report-designer-tools/report-wizard/data-bound-report/choose-a-data-connection.md    
-          - name: Create a Query or Select a Stored Procedure
-            href: articles/report-designer/report-designer-tools/report-wizard/data-bound-report/create-a-query-or-select-a-stored-procedure.md
-          - name: Configure Query Parameters
-            href: articles/report-designer/report-designer-tools/report-wizard/data-bound-report/configure-query-parameters.md
-          - name: Configure Master-Detail Relationships
-            href: articles/report-designer/report-designer-tools/report-wizard/data-bound-report/configure-master-detail-relationships.md
-          - name: Choose Fields to Display in a Report
-            href: articles/report-designer/report-designer-tools/report-wizard/data-bound-report/choose-fields-to-display-in-a-report.md
-          - name: Add Grouping Levels
-            href: articles/report-designer/report-designer-tools/report-wizard/data-bound-report/add-grouping-levels.md
-          - name: Specify Summary Options
-            href: articles/report-designer/report-designer-tools/report-wizard/data-bound-report/specify-summary-options.md
-          - name: Specify Report Page Settings
-            href: articles/report-designer/report-designer-tools/report-wizard/data-bound-report/specify-report-page-settings.md
-          - name: Choose a Report Color Scheme
-            href: articles/report-designer/report-designer-tools/report-wizard/data-bound-report/choose-a-report-color-scheme.md
-          - name: Set the Report Title
-            href: articles/report-designer/report-designer-tools/report-wizard/data-bound-report/set-the-report-title.md
+          - name: Select Data Source  
+            href: articles\report-designer\report-designer-tools\report-wizard\table-and-vertical-report\select-data-source.md
+          - name: Specify Data Source Settings (Database)
+            href: articles\report-designer\report-designer-tools\report-wizard\table-and-vertical-report\specify-data-source-settings-database.md  
+          - name: Specify Data Source Settings (JSON)  
+            href: articles\report-designer\report-designer-tools\report-wizard\table-and-vertical-report\specify-data-source-settings-json.md
+          - name: Define Report Layout
+            href: articles\report-designer\report-designer-tools\report-wizard\table-and-vertical-report\define-report-layout.md
+          - name: Specify Page Settings
+            href: articles\report-designer\report-designer-tools\report-wizard\table-and-vertical-report\specify-page-settings.md
         - name: Label Report
-          href: articles/report-designer/report-designer-tools/report-wizard/label-report.md
-          items:
-          - name: Select the Label Type
-            href: articles/report-designer/report-designer-tools/report-wizard/label-report/select-the-label-type.md
-          - name: Customize the Label Options
-            href: articles/report-designer/report-designer-tools/report-wizard/label-report/customize-the-label-options.md     
+          href: articles/report-designer/report-designer-tools/report-wizard/label-report.md 
     - name: Data Source Wizard
       href: articles/report-designer/report-designer-tools/data-source-wizard.md
       items:

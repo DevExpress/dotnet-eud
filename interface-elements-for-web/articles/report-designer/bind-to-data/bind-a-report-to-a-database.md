@@ -1,10 +1,10 @@
 ---
-title: Bind a Report to Data
+title: Bind a Report to a Database
 author: Anna Vekhina
 ---
-# Bind a Report to Data
+# Bind a Report to a Database
 
-This tutorial illustrates how to bind a report to a hierarchical data source and specify a master-detail relationship between data source queries.
+This tutorial illustrates how to bind a report to a database and specify a master-detail relationship between data source queries.
 
 ## Add a New Data Source
 
@@ -17,27 +17,25 @@ This tutorial illustrates how to bind a report to a hierarchical data source and
 
 3. Select the data connection on the [Data Source Wizard](../report-designer-tools/data-source-wizard.md)'s first page and click **Next**.
 
-    ![](../../../images/eurd-web-sql-ds-wizard-choose-a-data-connection.png)
+    ![](../../../images/eurd-web-data-source-wizard-choose-a-data-connection.png)
 
 4. Choose which tables, views and/or stored procedures to add to a report and click **Next**. Select two or more tables to [create a master-detail report](../create-popular-reports/create-a-master-detail-report-use-detail-report-bands.md).
 
-    ![](../../../images/eurd-web-sql-ds-wizard-create-a-query-automatically.png)
+    ![](../../../images/eurd-web-data-source-wizard-create-a-query-automatically.png)
     
     > [!NOTE]
     > You can also create [custom queries](../report-designer-tools/data-source-wizard\specify-data-source-settings-database.md) to shape data at the data source level. Select **Queries** and click the plus button to add a new query.
     > 
     > The invoked [Query Builder](../report-designer-tools/query-builder.md) allows you to join multiple tables, filter, sort, and group their data, and calculate various aggregate functions.
-    > 
-    > We recommend using master-detail data sources because the reporting engine obtains data from these data sources faster.
       
 
 5. Set master-detail relationships on this wizard page. Hover the master table name, click the plus button and choose the detail table. 
 
-    ![](../../../images/eurd-web-binding-sql-ds-wizard-master-detail-relations.png)
+    ![](../../../images/eurd-web-binding-data-source-wizard-master-detail-relations.png)
 
     Select the required key fields (columns) to connect tables. 
 
-    ![](../../../images/eurd-web-binding-sql-ds-wizard-master-detail-key-fields.png)
+    ![](../../../images/eurd-web-binding-data-source-wizard-master-detail-key-fields.png)
 
     Click **Finish** to close the Data Source Wizard.
 
@@ -48,6 +46,6 @@ You can bind your report to a predefined data source. Open the [Field List](../r
 
 ![](../../../images/eurd-web-binding-field-list-add-data-source.png)
 
-The Field List reflects the newly added SQL data source and its hierarchy. You can select the data source to access its settings.
+The Field List reflects the added SQL data source and its hierarchy. You can select the data source to edit it.
 
 ![](../../../images/eurd-web-binding-field-list-hierarchy.png)

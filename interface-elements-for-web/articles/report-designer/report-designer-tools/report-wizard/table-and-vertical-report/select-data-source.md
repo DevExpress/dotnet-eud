@@ -15,7 +15,7 @@ Select the first option and choose a data source from the list.
 
 
 * If you create a new report, the list displays the Report Designer's predefined data sources.
-* If you edit an existing report, the list contains the Report Designer's predefined data sources and data sources added to the current report with the [Data Source Wizard](../../sql-data-source-wizard.md).
+* If you edit an existing report, the list contains the Report Designer's predefined data sources and data sources added to the current report with the [Data Source Wizard](../../data-source-wizard.md).
 
 If the report and Report Designer have data sources with identical names, this list displays the report's data source.
 
