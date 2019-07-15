@@ -13,7 +13,7 @@ Follow the steps below to create a combined report:
 
 ## Create a Chart Report
 
-1. Create a report that shows data in the chart form. [Bind](../bind-to-data/bind-a-report-to-data.md) the report to a data source. Set the report's **Landscape** property to **true** to enable the Landscape page orientation.
+1. Create a report that shows data in the chart form. [Bind](../bind-to-data/bind-a-report-to-a-database.md) the report to a data source. Set the report's **Landscape** property to **true** to enable the Landscape page orientation.
 
     ![eurd-merge-chart-report](../../../images/eurd-merge-chart-report.png)
 
@@ -37,7 +37,7 @@ Follow the steps below to create a combined report:
 
 ## Create the Base Report
 
-1. Create a report [bound](../bind-to-data/bind-a-report-to-data.md) to the same data source as the chart report, and arrange a layout like the one shown below:
+1. Create a report [bound](../bind-to-data/bind-a-report-to-a-database.md) to the same data source as the chart report, and arrange a layout like the one shown below:
 
     ![xtrareports-create-report](../../../images/eurd-merge-products-report-layout.png)
 
