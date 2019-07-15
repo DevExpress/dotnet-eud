@@ -45,7 +45,10 @@ Follow the steps below to create a combined report:
 
     ![xtrareports-add-subreport](../../../../images/eurd-merge-add-subreport-3.png)
 
-1. Click the subreport control's smart tag. In the **Sub-Report Tasks** window, set the **Report Source** parameter to the chart report's location.
+1. Click the sub-report control's smart tag and specify the chart report in the **Sub-Report Tasks** window:
+
+    * Use the **Report Source** property to assign a predefined report from the Designer.
+    * Use the **Report Source Url** property to assign a custom report.
 
     ![xtrareports-add-subreport](../../../../images/eurd-merge-configure-subreport-2.png)
 

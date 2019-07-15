@@ -2,37 +2,55 @@
 title: Report Wizard
 owner: Anna Vekhina
 ---
-# Report Wizard
 
-The Report Wizard allows you to add a report using one of the following templates:
+# Report Wizard 
+
+The Report Wizard enables you to create reports or modify existing reports based on predefined templates.
+
+![](../../../images/eurd-web-report-wizard-table-report.png)
+
+The Designer's Menu has the following commands:
+
+* **New via Wizard** - runs the Report Wizard and creates a new report.
+* **Design in Report Wizard** - runs the Report Wizard and modifies the current report. 
+
+![](../../../images/eurd-web-report-wizard-run-in-menu.png)
+
+
+## Report Wizard Pages
+
+The following image shows the wizard's navigation structure:
+
+![](../../../images/eurd-web-report-wizard-page-structure.png)
+
+The wizard's navigation panel at the left-hand side:
+
+* displays the entire page list;
+* highlights the current page;
+* grays out disabled pages;
+* allows you to switch between pages.
+
+![](../../../images/eurd-web-report-wizard-navigation-panel.png)
+
+
+## Select the Report Type
+
+On the start page, choose the report type you want to create.
 
 * [Empty Report](report-wizard\empty-report.md)
-	
-	Creates a new blank report that is not bound to a data source.
-* [Data-bound Report](report-wizard\data-bound-report.md)
-	
-	Allows you to connect the created report to a data source and configure basic report layout settings (optional).
+
+    Creates a blank report that is not bound to a data source. Choose this option to design your report from scratch without the wizard.
+
+* [Table Report](report-wizard\table-and-vertical-report.md)
+
+    Creates a [table report](../create-popular-reports/create-a-table-report.md) and binds it to data.
+
+* [Vertical Report](report-wizard\table-and-vertical-report.md)
+
+    Creates a [vertical report](../create-popular-reports/create-a-vertical-report.md) and binds it to data.
+
 * [Label Report](report-wizard\label-report.md)
-	
-	Allows you to select from different customizable layouts to create labels, badges or price tags.
 
-![](../../../images/eurd-web-report-wizard.png)
-
-## Run the Report Wizard
-
-Use one of the following commands in the designer [menu](../report-designer-tools/menu.md) to invoke the Report Wizard.
-
-- Create a new report
-
-    Use the [New via Wizard...](../add-new-reports.md) command to create a new report based on a Report Wizard template.
-
-    ![](../../../images/eurd-web-add-new-report-via-wizard.png)
-
-- Edit an existing report
-
-    Use the **Design in Report Wizard...** command to edit an existing report.
-
-    > [!Note]
-    > The new report layout overrides the initial report layout.
+    Creates badges, business cards, price tags and other label types.
 
 

@@ -12,28 +12,29 @@ This tutorial describes how to create a simple invoice report displaying informa
 
 1. [Create a new report](../add-new-reports.md) or [open an existing one](../open-reports.md).
 
-2. Invoke the designer [menu](../report-designer-tools/menu.md) and click **Add SQL Data Source...**.
+2. Invoke the designer [menu](../report-designer-tools/menu.md) and click **Add Data Source...**.
 
-   ![](../../../images/eurd-web-add-sql-data-source-menu.png) 
+   ![](../../../images/eurd-web-data-source-menu.png) 
 
+3. Select **Database** on the first page of the invoked Data Source Wizard and click **Next**.
 
-3. Select a data connection on the [SQL Data Source Wizard](../report-designer-tools/sql-data-source-wizard.md)'s first page and click **Next**.
+	![](../../../images/eurd-web-fullscreen-ds-wizard-select-data-source-type.png)
+
+4. Select a data connection on the next page.
 
     ![](../../../images/eurd-web-invoice-select-data-connection-in-wizard.png)
 
-4. On the next page, you can choose which tables, views and/or stored procedures to add to the report.
+5. On the same page, you can choose which tables, views and/or stored procedures to add to the report.
 	
 	Obtain data from two different tables to display information about customers and orders at the same hierarchical level in the report. Click the plus button for the **Queries** category to create a custom query. In the invoked [Query Builder](../report-designer-tools/query-builder.md), add the required data tables to a query and join them based on a key column.
 	
 	![](../../../images/eurd-web-invoice-join-tables-in-query-builder.png)
 
-5. On the same wizard page, select the data view providing order details for listing products included in each order in the invoice and click **Next**. 
+6. On the same wizard page, select the data view providing order details for listing products included in each order in the invoice. 
 
     ![](../../../images/eurd-web-invoice-add-view.png)
 
-6. Click **Next** on the **Configure query parameters** page to skip this step.
-
-7. On the next page, specify a master-detail relationship between the queries. Select the required key fields (columns) to connect tables.
+7. On the same page, specify a master-detail relationship between the queries. Select the required key fields (columns) to connect tables.
 	
 	![](../../../images/eurd-web-invoice-master-detail-relationships.png)
 
