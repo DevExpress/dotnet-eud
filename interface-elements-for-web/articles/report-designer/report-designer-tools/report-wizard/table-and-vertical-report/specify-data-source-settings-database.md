@@ -35,9 +35,6 @@ If you enabled custom SQL queries, the plus button invokes a context menu. You c
 
 ![](../../../../../images/eurd-web-report-wizard-custom-query-menu.png)
 
-> [!Important]
-> Enable custom SQL queries only if you trust your users and environment. Make sure that you provide a secure query validation to protect your database. See General Security Considerations for more information.
-
 You can click the ![](../../../../../images/eurd-web-report-wizard-edit-query-button.png) button to customize the query or the ![](../../../../../images/eurd-web-report-wizard-remove-query-button.png) button to remove the query.
 
 Once you finished the wizard, the data source becomes available in the [Report Explorer](../../ui-panels/report-explorer.md)'s **Components** node. The [Field List](../../ui-panels/field-list.md) reflects the data source structure.

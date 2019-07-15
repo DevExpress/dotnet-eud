@@ -41,7 +41,7 @@ Specify the connection name and select the JSON source type.
 
 At this step, the wizard shows the JSON schema. Check the data fields you want to include in your report.
 
-!![](../../../../images/eurd-web-report-wizard-json-select-data-fields.png)
+![](../../../../images/eurd-web-report-wizard-json-select-data-fields.png)
 
 Click **Next** to proceed.
 

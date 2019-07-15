@@ -7,7 +7,7 @@ owner: Anna Gubareva
 
 Select **Label Report** on the start page to create a report with labels.
 
-![](../../../../images/eurd-web-add-label-report.png)
+![](../../../../images/eurd-web-fullscreen-report-wizard-label-report.png)
 
 Click **Next** to go to the **Specify Page Settings** page.
 

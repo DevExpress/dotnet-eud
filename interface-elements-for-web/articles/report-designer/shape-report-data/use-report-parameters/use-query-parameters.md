@@ -35,7 +35,7 @@ Query parameters are used in the following scenarios:
 	
 * When binding a report to a stored procedure provided by an SQL data source.
 	
-	The Data Source Wizard include the following page. 
+	The Data Source Wizard includes the following page. 
     
     ![](../../../../images/eurd-web-query-parameters-select-stored-procedure.png)
     
