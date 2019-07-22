@@ -38,6 +38,27 @@ You can resize columns equally in a similar way by selecting the columns or the 
 
 ![](../../../../images/eurd-web-table-control-distribute-columns-evenly.png)
 
+## Reorder Table Cells
+
+In [Report Explorer](../../report-designer-tools/ui-panels/report-explorer.md) you can change the order of table cells. Select a cell and drag it to a new position.
+
+![](../../../../images/eurd-web-table-cells-report-explorer.png)
+
+ During the drag-and-drop operation, the dragged and focused cells are swapped. 
+
+ ![](../../../../images/eurd-web-table-dragged-cells-at-report-explorer.png)  
+
+ ![](../../../../images/eurd-web-table-dragged-cells-at-report.png)  
+ 
+ - The green light indicates where the cell can be dropped. 
+
+    ![](../../../../images/eurd-web-table-green-light.png)  
+ 
+ - The red light indicates where the cell can't be dropped.
+
+    ![](../../../../images/eurd-web-table-cells-red-light.png) 
+
+
 ## Stretch Table Cells
 You can stretch a cell so that it occupies several rows and columns. To stretch a cell across several columns, remove a neighboring cell by pressing DELETE or selecting the **Delete Cell** command in the **Action** category.
 
