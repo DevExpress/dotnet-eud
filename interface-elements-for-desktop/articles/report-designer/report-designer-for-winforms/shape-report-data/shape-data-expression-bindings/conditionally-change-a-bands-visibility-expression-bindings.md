@@ -13,31 +13,20 @@ The report created in this tutorial contains two Detail **sub-bands** with diffe
 
 ![1](../../../../../images/conditionally-change-a-bands-visibility.png)
 
-Follow the steps below to see how to change the sub-bands' visibility based on the **Product**'s **Discontinued** field value.
+The steps below demonstrate how to change a band's visibility based on a field's value.
 
-1. Bind your report to the Products table from the Northwind database.
+1. Select the required band and switch to the **Properties** panel. Choose **Expressions** ![](../../../../../images/conditionally-change-a-bands-visibility-expression-button.png) and click the **Visible** property's ellipsis button.
 
-2. Add two **Sub-bands** to the Detail band, and drag the **XRLabel** from the **Toolbox** to the first sub-band and **XRTable** to the second sub-band.
+	![](../../../../../images/conditionally-change-a-bands-visibility-visible-button.png)
 
-	![2](../../../../../images/conditionally-change-a-bands-visibility-add-sub-bands.png)
-
-	Bind **Label1** and **TableCell1** to the **ProductName** field. Add an **XRPictureBox** control to the **TableCell2** and specify its **ImageSource** property. This picture will serve as an indication of discontinued products.
-	
-	![3](../../../../../images/conditionally-change-a-bands-visibility-sub-bands-with-fields.png)
-
-3. Select **SubBand1** and switch to the Visual Studio property grid. Switch to its Expressions section and click the **Visible** property's ellipsis button.
-
-	In the invoked Expression Editor, specify the **Iif(![Discontinued], true, false)** expression.
-
-	This expression sets the **Visible** property to *True* or *False* based on the **Discontinued** data field's value. 
+2. In the invoked **Expression Editor**, specify the required expression.
 
 	![4](../../../../../images/conditionally-change-a-bands-visibility-first-expression.png)
 
-	Do the same with **SubBand2**. But use the **[Discontinued]** expression.
 
-	![5](../../../../../images/conditionally-change-a-bands-visibility-second-expression.png)
+	Here, the **[Discontinued] == false** expression is set for the **SubBand1** and the **[Discontinued] == true** expression for the **SubBand2**. These expressions specify the **Visible** property based on the **Discontinued** data field's value. 
 
+The **Preview** below displays how changes to band visibility influence the Product List. The **SubBand1** is used to display products that have the **Discontinued** field set to **false**, and the **SubBand2** is used to display discontinued products.
 
-As a result, Print Preview displays how changes to band visibility influence the Product List. The **SubBand1** is used to display products that have the **Discontinued** field set to false, and the **SubBand2** is used to display discontinued products.
+![](../../../../../images/conditionally-change-a-bands-visibility-result.png)
 
-![6](../../../../../images/conditionally-change-a-bands-visibility-result.png)

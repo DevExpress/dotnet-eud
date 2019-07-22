@@ -15,7 +15,7 @@ The report created in this tutorial contains two Detail **sub-bands** with diffe
 
 The steps below demonstrate how to change a band's visibility based on a field's value.
 
-1. Select the required band and switch to the **Expressions** panel. Cick the **Visible** property's ellipsis button.
+1. Select the required band and switch to the **Expressions** panel. Click the **Visible** property's ellipsis button.
 
     ![](../../../../images/eurd-web-conditionally-change-a-bands-visibility-expression.png)
 
