@@ -19,7 +19,7 @@ The steps below demonstrate how to change a band's visibility based on a field's
 	
 		![how-to-conditionally-change-band-visibility-1](../../../../../images/how-to-conditionally-change-band-visibility-124975.png)
 	
-	- In the invoked **Formatting Rules Editor**, click the **Edit Rule Sheet...** button. The button invokes the **Formatting Rule Sheet Editor**. Click ![Buttons_Plus](../../../../../images/buttons_plus8644.png) to create a new formatting rule.
+	- In the **Formatting Rules Editor**, click the **Edit Rule Sheet...** button to invoke the **Formatting Rule Sheet Editor**. Click ![Buttons_Plus](../../../../../images/buttons_plus8644.png) to create a new formatting rule.
 	
 		![](../../../../../images/eurd-web-conditionally-change-a-bands-visibility-add-new-rules.png)
 		
