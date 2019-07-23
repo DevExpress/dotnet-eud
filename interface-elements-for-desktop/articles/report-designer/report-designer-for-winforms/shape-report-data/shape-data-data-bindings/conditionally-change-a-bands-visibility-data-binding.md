@@ -45,7 +45,7 @@ The steps below demonstrate how to change a band's visibility based on a field's
 	![](../../../../../images/change-a-bands-visibility-formatting-ruled-editor.png)
 	
 
-	Here, the **formattingRule1** is applied to the **SubBand1**, and the **formattingRule2** - to the **SubBand2**.
+	Here, the **formattingRule1** is applied to **SubBand1**, and the **formattingRule2** to **SubBand2**.
 
 The Print Preview displays how changes to band visibility influence the Product List. The **SubBand1** is used to display products that have the **Discontinuous** field set to false, and the **SubBand2** is used to display the discontinued products.
 
