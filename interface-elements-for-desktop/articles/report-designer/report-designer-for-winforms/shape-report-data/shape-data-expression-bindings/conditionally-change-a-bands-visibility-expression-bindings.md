@@ -5,7 +5,7 @@ seealso: []
 ---
 # Conditionally Change a Band's Visibility
 
-This topic describes how to change report band visibility.
+This topic describes how to change the report band's visibility.
 
 Set a band's **Visible** property to an expression to conditionally change the band's visibility based on a field's value or a parameter.
 
