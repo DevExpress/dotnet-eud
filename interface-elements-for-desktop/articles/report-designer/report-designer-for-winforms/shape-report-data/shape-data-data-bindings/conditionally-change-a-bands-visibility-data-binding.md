@@ -25,7 +25,7 @@ The steps below demonstrate how to change a band's visibility based on a field's
 		
 		Here, two rules are added.
 
-  	- Specify a condition for the rule. Click the ellipsis button for the rule's **Condition** property. In the invoked **Formatting Rules Editor**, specify the required expression.
+  	- Specify a condition for the rule. Click the ellipsis button for the rule's **Condition** property and specify the expression in the invoked **Formatting Rules Editor**.
 
 		![How to - ConditionallySuppressControls_2](../../../../../images/howto_conditionallysuppresscontrols_28647.png)
 
