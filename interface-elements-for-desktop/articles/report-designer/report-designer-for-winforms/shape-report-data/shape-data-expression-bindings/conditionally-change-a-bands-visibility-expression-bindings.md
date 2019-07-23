@@ -15,7 +15,7 @@ The report created in this tutorial contains two Detail **sub-bands** with diffe
 
 The steps below demonstrate how to change a band's visibility based on a field's value.
 
-1. Select the required band and switch to the **Properties** panel. Choose **Expressions** ![](../../../../../images/conditionally-change-a-bands-visibility-expression-button.png) and click the **Visible** property's ellipsis button.
+1. Select a band and switch to the **Properties** panel. Choose **Expressions** ![](../../../../../images/conditionally-change-a-bands-visibility-expression-button.png) and click the **Visible** property's ellipsis button.
 
 	![](../../../../../images/conditionally-change-a-bands-visibility-visible-button.png)
 
