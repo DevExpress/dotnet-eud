@@ -40,7 +40,7 @@ You can resize columns equally in a similar way by selecting the columns or the 
 
 ## Reorder Table Cells
 
-In [Report Explorer](../../report-designer-tools/ui-panels/report-explorer.md) you can change the order of table cells. Select a cell and drag it to a new position.
+You can change table cells' order in the [Report Explorer](../../report-designer-tools/ui-panels/report-explorer.md). To do this, select a cell and drag it to a new position.
 
 ![](../../../../images/eurd-web-table-cells-report-explorer.png)
 
