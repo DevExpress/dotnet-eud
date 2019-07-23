@@ -15,7 +15,7 @@ The steps below demonstrate how to change a band's visibility based on a field's
 
 1. Create formatting rule(s). 
 
-	- Select a report and click its smart tag. In the invoked actions list, click the ellipsis button for the **FormattingRules** property.
+	- Select a report and click its smart tag. In the invoked actions list, click the **FormattingRules** property's ellipsis button.
 	
 		![how-to-conditionally-change-band-visibility-1](../../../../../images/how-to-conditionally-change-band-visibility-124975.png)
 	
