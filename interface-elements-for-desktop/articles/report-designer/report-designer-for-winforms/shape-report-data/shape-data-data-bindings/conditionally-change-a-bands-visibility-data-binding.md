@@ -40,7 +40,7 @@ The steps below demonstrate how to change a band's visibility based on a field's
 	
 2. Apply the rule(s) to the required band(s).
  	
-	Invoke the **Formatting Rules Editor** for a selected a band and move a rule to the **Rules applied to a control** section.
+	Select a band, invoke the **Formatting Rules Editor**, and move a rule to the **Rules applied to a control** section.
 	
 	![](../../../../../images/change-a-bands-visibility-formatting-ruled-editor.png)
 	
