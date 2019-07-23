@@ -19,7 +19,7 @@ The steps below demonstrate how to change a band's visibility based on a field's
 
 	![](../../../../../images/conditionally-change-a-bands-visibility-visible-button.png)
 
-2. In the invoked **Expression Editor**, specify the required expression.
+2. In the invoked **Expression Editor**, specify the expression.
 
 	![4](../../../../../images/conditionally-change-a-bands-visibility-first-expression.png)
 
