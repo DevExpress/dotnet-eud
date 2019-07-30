@@ -15,20 +15,19 @@ The report created in this tutorial contains two Detail **sub-bands** with diffe
 
 The steps below demonstrate how to change a band's visibility based on a field's value.
 
-1. Create formatiing rule(s).
+1. Create formatting rule(s).
   
     - Select the report and switch to the **Appearance** category in the **Properties** panel. Select the **Formatting rules** node and click the plus button to add a new formatting rule.
 
         ![](../../../../images/eurd-web-conditionally-change-a-bands-visibility-add-formating-rule.png)
 
-        Here, two rules are added.
+        In the tutorial's report, two rules are added.
 
     - Specify a condition for each rule. Click a rule's **Condition** property's ellipsis button. In the invoked **Expression Editor**, specify the required expression.
 
+       ![](../../../../images/eurd-web-conditionally-change-a-bands-visibility-condition-property.png)   
 
-        ![](../../../../images/eurd-web-conditionally-change-a-bands-visibility-condition-property.png)   
-
-        Here, the **[Discontinued] == false** expression is set for the **formattingRule1**  and the **[Discontinued] == true** expression - for the **formattingRule2**. 
+       Here, the **[Discontinued] == false** expression is set for the **formattingRule1**  and the **[Discontinued] == true** expression - for the **formattingRule2**. 
         
     - Specify the **Visible** property for the rules.
 

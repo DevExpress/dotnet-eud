@@ -23,7 +23,7 @@ The steps below demonstrate how to change a band's visibility based on a field's
 	
 		![](../../../../../images/eurd-web-conditionally-change-a-bands-visibility-add-new-rules.png)
 		
-		Here, two rules are added.
+		In the tutorial's report, two rules are added.
 
   	- Specify a condition for the rule. Click the ellipsis button for the rule's **Condition** property and specify the expression in the invoked **Formatting Rules Editor**.
 
@@ -40,12 +40,11 @@ The steps below demonstrate how to change a band's visibility based on a field's
 	
 2. Apply the rule(s) to the required band(s).
  	
-	Select a band, invoke the **Formatting Rules Editor**, and move a rule to the **Rules applied to a control** section.
+   Select a band, invoke the **Formatting Rules Editor**, and move a rule to the **Rules applied to a control** section.
 	
-	![](../../../../../images/change-a-bands-visibility-formatting-ruled-editor.png)
+   ![](../../../../../images/change-a-bands-visibility-formatting-ruled-editor.png)
 	
-
-	Here, the **formattingRule1** is applied to **SubBand1**, and the **formattingRule2** to **SubBand2**.
+   Here, the **formattingRule1** is applied to **SubBand1**, and the **formattingRule2** to **SubBand2**.
 
 The Print Preview displays how changes to band visibility influence the Product List. The **SubBand1** is used to display products that have the **Discontinuous** field set to false, and the **SubBand2** is used to display the discontinued products.
 
