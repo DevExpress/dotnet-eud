@@ -9,6 +9,7 @@ The tutorials in this section illustrate how to solve various tasks related to s
 * [Format Data](shape-data-data-bindings/format-data.md)
 * [Conditionally Change a Control's Appearance](shape-data-data-bindings/conditionally-change-a-control-appearance.md)
 * [Conditionally Change a Label's Text](shape-data-data-bindings/conditionally-change-a-label-text.md)
+* [Conditionally Change a Band's Visibility](shape-data-data-bindings/conditionally-change-a-bands-visibility-data-binding.md)
 * [Conditionally Filter Report Data](shape-data-data-bindings/conditionally-filter-report-data.md)
 * [Conditionally Suppress Controls](shape-data-data-bindings/conditionally-supress-controls.md)
 * [Limit the Number of Records per Page](shape-data-data-bindings/limit-the-number-of-records-per-page.md)
