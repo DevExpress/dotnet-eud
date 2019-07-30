@@ -733,6 +733,8 @@
           href: articles/report-designer/report-designer-for-winforms/shape-report-data/shape-data-expression-bindings/conditionally-change-a-control-appearance.md
         - name: Conditionally Change a Label's Text
           href: articles/report-designer/report-designer-for-winforms/shape-report-data/shape-data-expression-bindings/conditionally-change-a-label-text.md
+        - name: Conditionally Change a Band's Visibility
+          href: articles/report-designer/report-designer-for-winforms/shape-report-data/shape-data-expression-bindings/conditionally-change-a-bands-visibility-expression-bindings.md
         - name: Conditionally Filter Report Data
           href: articles/report-designer/report-designer-for-winforms/shape-report-data/shape-data-expression-bindings/conditionally-filter-report-data.md
         - name: Conditionally Suppress Controls
@@ -760,6 +762,8 @@
           href: articles/report-designer/report-designer-for-winforms/shape-report-data/shape-data-data-bindings/conditionally-change-a-control-appearance.md
         - name: Conditionally Change a Label's Text
           href: articles/report-designer/report-designer-for-winforms/shape-report-data/shape-data-data-bindings/conditionally-change-a-label-text.md
+        - name: Conditionally Change a Band's Visibility
+          href: articles/report-designer/report-designer-for-winforms/shape-report-data/shape-data-data-bindings/conditionally-change-a-bands-visibility-data-binding.md
         - name: Conditionally Filter Report Data
           href: articles/report-designer/report-designer-for-winforms/shape-report-data/shape-data-data-bindings/conditionally-filter-report-data.md
         - name: Conditionally Suppress Controls
