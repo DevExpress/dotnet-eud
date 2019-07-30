@@ -57,6 +57,18 @@ You can resize columns equally in a similar way by selecting the columns or the 
 
 ![](../../../../../images/eurd-win-table-control-distribute-columns-evenly.png)
 
+## Reorder Table Cells
+
+You can change the order of table cells. Select a cell and drag it to a new position.
+
+![](../../../../../images/reorder-table-cells.gif)
+
+ During the drag-and-drop operation, green and blue pointers on the left indicate where the cell can be dropped. 
+- ![](../../../../../images/reorder-table-cells-green-pointer.png)  
+The dragged and focused cells are swapped.
+- ![](../../../../../images/reorder-table-cells-blue-pointer.png)  
+The dragged cell is placed above the focused cell.
+
 ## Stretch Table Cells
 You can stretch a cell so that it occupies several rows and columns. To stretch a cell across several columns, remove a neighboring cell by pressing DELETE or selecting **Delete** | **Cell** in the context menu and resize the remaining cells.
 
