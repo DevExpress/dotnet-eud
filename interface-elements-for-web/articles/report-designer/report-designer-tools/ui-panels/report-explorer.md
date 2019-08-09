@@ -3,39 +3,69 @@ title: Report Explorer
 author: Anna Vekhina
 ---
 # Report Explorer
-The **Report Explorer** shows a report's structure in a tree-like form providing easy access to report elements. Additionally, the **Report Explorer** contains the **Components** node, which displays non-visual report components, such as data objects created when binding a report to a data source.
+
+The **Report Explorer** panel shows a report's structure and provides access to report elements, styles, and components.
 
 ![](../../../../images/eurd-web-report-explorer.png)
 
-The following actions are available for report element customization:
+## Manage Report Elements
+
+Report Explorer displays all [report controls](../../use-report-elements.md) and [bands](../../introduction-to-banded-reports.md) in a tree-like form.
+
+![](../../../../images/eurd-web-report-explorer-label.png)
+
+The following actions are available to customize report elements:
 
 | Button | Description |
 |---|---|
 | ![](../../../../images/eurd-web-fieldlist-data-source-edit-relationships.png) | Switches to the [Properties Panel](properties-panel.md) where you can adjust the selected report element's or the entire report's settings. |
-| ![](../../../../images/eurd-web-fieldlist-data-source-delete.png) | Removes the selected report element. This button is not available for the **Detail**, **TopMargin**, and **BottomMargin** bands. |
+| ![](../../../../images/eurd-web-fieldlist-data-source-delete.png) | Deletes the selected report element. Note that this button is not available for the **Detail**, **Top Margin**, and **Bottom Margin** bands. |
 
-You can use drag-and-drop operations to do the following in the Report Explorer:
+You can use drag-and-drop for the following operations:
 
-* Reorder report controls and specific bands.
+* Reorder report controls, or move them from one band to another.
 
     ![](../../../../images/eurd-web-report-explorer-reorder-report-controls.png)
 
-* Move report controls between bands and containers.
+* Reorder **Detail Report** bands, or move them inside / outside other bands.
 
-    ![](../../../../images/eurd-web-report-explorer-move-report-controls.png) ![](../../../../images/eurd-web-report-explorer-move-report-controls-panel.png)
+    ![](../../../../images/eurd-web-report-explorer-move-report-controls-panel.png)
 
-The **Report Explorer** also provides quick access to all [styles](../../customize-appearance/report-visual-styles.md) available for a report. 
+* Reorder **Group Header** and **Group Footer** bands.
+
+    ![](../../../../images/eurd-web-report-explorer-move-group-bands.png)
+
+* Reorder table cells, or move them between table rows. Reorder table rows.  
+
+    ![](../../../../images/eurd-web-report-explorer-move-table cells.png)
+
+An acceptable drop target is highlighted in green when you drag an item over it. An unacceptable target is highlighted in red.
+
+## Manage Report Styles
+
+Expand the **Styles** category in Report Explorer to access the [report style](../../customize-appearance/report-visual-styles.md) collection.
+
+To apply a style to a report control, drag a style item from Report Explorer onto this control.
 
 ![](../../../../images/eurd-web-report-explorer-styles.png)
 
-You can manage styles using the following commands.
+You can use the following actions to customize report styles:
 
 | Button | Description |
 |---|---|
 | ![](../../../../images/eurd-web-report-explorer-add-style.png) | Creates a new style. |
 | ![](../../../../images/eurd-web-fieldlist-data-source-edit-relationships.png) | Switches to the [Properties Panel](properties-panel.md) where you can adjust the selected style's settings. |
-| ![](../../../../images/eurd-web-fieldlist-data-source-delete.png) | Removes the selected style. |
+| ![](../../../../images/eurd-web-fieldlist-data-source-delete.png) | Deletes the selected style. |
 
-To apply a style to a report control, drag it from the Report Explorer onto the required report control.
+## Manage Components
 
-![](../../../../images/eurd-web-report-explorer-apply-style.png)
+The Report Explorer shows available report data sources in the **Components** category. This list is synchronized with data sources from the [Field List](field-list.md) panel.
+
+![web-report-explorer-components](~/images/web-report-explorer-components132701.png)
+
+The following actions are available to customize data sources:
+
+| Button | Description |
+|---|---|
+| ![](../../../../images/eurd-web-fieldlist-data-source-delete.png) | Deletes the selected data source. |
+| ![](../../../../images/eurd-web-fieldlist-data-source-edit-relationships.png) | Switches to the [Properties Panel](properties-panel.md) where you can rename the selected data source. ![web-report-explorer-rename-datasource](../../../../images/web-report-explorer-rename-datasource.png) |
