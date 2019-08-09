@@ -37,7 +37,7 @@ You can use drag-and-drop for the following operations:
 
 * Reorder table cells, or move them between table rows. Reorder table rows.  
 
-    ![](../../../../images/eurd-web-report-explorer-move-table cells.png)
+    ![](../../../../images/eurd-web-report-explorer-move-table-cells.png)
 
 An acceptable drop target is highlighted in green when you drag an item over it. An unacceptable target is highlighted in red.
 
@@ -61,7 +61,7 @@ You can use the following actions to customize report styles:
 
 The Report Explorer shows available report data sources in the **Components** category. This list is synchronized with data sources from the [Field List](field-list.md) panel.
 
-![web-report-explorer-components](~/images/web-report-explorer-components132701.png)
+![web-report-explorer-components](../../../../images/eurd-web-report-explorer-components.png)
 
 The following actions are available to customize data sources:
 
