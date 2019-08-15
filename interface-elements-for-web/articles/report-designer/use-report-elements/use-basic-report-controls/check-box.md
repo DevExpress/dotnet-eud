@@ -28,7 +28,7 @@ The **Text** property specifies the checkbox's caption. You can double-click the
 
 ## Bind to Data
 
-You can [bind](../../bind-to-data/bind-controls-to-data-expression-bindings.md) the **Check State** property to a data field obtained from a report's data source. Switch to the [Properties](../../report-designer-tools/ui-panels/properties-panel.md) panel, expand the **Actions** category and click the **Check State** property's marker. Select **Check State Expression** in the popup menu. Thend select a data field in the invoked [Expression Editor](../../report-designer-tools/expression-editor.md).
+You can [bind](../../bind-to-data/bind-controls-to-data-expression-bindings.md) the **Check State** property to a data field obtained from a report's data source. Switch to the [Properties](../../report-designer-tools/ui-panels/properties-panel.md) panel, expand the **Actions** category and click the **Check State** property's marker. Select **Check State Expression** from the popup menu. Then select a data field in the invoked [Expression Editor](../../report-designer-tools/expression-editor.md).
 
 ![](../../../../images/eurd-web-check-box-bind-to-data.png)
 

@@ -36,7 +36,7 @@ To select multiple fields in the Field List, hold CTRL or SHIFT and click the fi
 
 ## Use the Properties Panel
 
-Select a report control and switch to the [Properties](../report-designer-tools/ui-panels/properties-panel.md) panel. Click the **Text** property's marker and select **Text Expression** in the popup menu. Select a data field or construct a binding [expression](../use-expressions/expression-syntax.md) in the invoked [Expression Editor](../report-designer-tools/expression-editor.md).
+Select a report control and switch to the [Properties](../report-designer-tools/ui-panels/properties-panel.md) panel. Click the **Text** property's marker and select **Text Expression** from the popup menu. Select a data field or construct a binding [expression](../use-expressions/expression-syntax.md) in the invoked [Expression Editor](../report-designer-tools/expression-editor.md).
 
 ![](../../../images/eurd-web-expression-editor.png)
 
