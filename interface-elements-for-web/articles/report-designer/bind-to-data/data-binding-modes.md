@@ -56,8 +56,6 @@ See the section below for information on how to use expressions instead of data 
     </td>
     </tr></table>
 
-
-
 See the following topics for more information:
 
 * [Bind Report Controls to Data (Expression Bindings)](bind-controls-to-data-expression-bindings.md)
@@ -83,7 +81,6 @@ href="../report-designer-tools/ui-panels/expressions-panel.md"> Expressions</a> 
 <table><tr><th><p>Expression Bindings</p>
 </th><th><p>Data Bindings</p>
 </th></tr><tr><td><p> Select the summary function in the <strong>Expression Editor</strong>'s <strong>Summary</strong> section. </p>
-<p>All functions have the 'sum' prefix.</p>
 <p><img src="../../../images/eurd-web-expression-binding-summary-function.png"></p>
 <p>See <a class="xref" href="..\shape-report-data\shape-data-expression-bindings\calculate-a-summary.md">Calculate a Summary</a> for more information.</p>
 </td><td><p>Expand the <strong>Summary</strong> node in the <strong>Actions</strong> category and select the summary function in the <strong>Function</strong> drop-down list.</p>

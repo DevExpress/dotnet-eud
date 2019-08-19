@@ -18,11 +18,11 @@ Press CTRL+Enter to submit text changes and exit the label's in-place editing mo
 ## Bind to Data
 ### Display Field Values
 
-You can [bind](../../bind-to-data/bind-controls-to-data-expression-bindings.md) the label's **Text** property to a data field obtained from a report's data source. Switch to the [Properties](../../report-designer-tools/ui-panels/properties-panel.md) panel, expand the **Actions** category and click the **Expression** property's ellipsis button. Select the required data field in the invoked [Expression Editor](../../report-designer-tools/expression-editor.md).
+You can [bind](../../bind-to-data/bind-controls-to-data-expression-bindings.md) the label's **Text** property to a data field obtained from a report's data source. Switch to the [Properties](../../report-designer-tools/ui-panels/properties-panel.md) panel, expand the **Actions** category and click the **Text** property's marker. Select **Text Expression** from the popup menu. Then select a data field or construct a binding [expression](../use-expressions/expression-syntax.md) in the invoked [Expression Editor](../report-designer-tools/expression-editor.md).
 
 ![](../../../../images/eurd-web-label-bind-to-data-field.png)
 
-Click the **Expression** option's ellipsis button to invoke the [Expression Editor](../../report-designer-tools/expression-editor.md). You can use this editor to construct a complex binding expression involving two or more data fields.
+You can use the Expression Editor to construct a complex binding expression that involves two or more data fields.
 
 ![](../../../../images/eurd-web-label-expression-binding.png)
 

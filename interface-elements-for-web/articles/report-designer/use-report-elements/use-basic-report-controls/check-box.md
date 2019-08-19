@@ -26,11 +26,9 @@ The **Text** property specifies the checkbox's caption. You can double-click the
 
 ![](../../../../images/eurd-web-check-box-in-place-editor.png)
 
-
-
-
 ## Bind to Data
-You can [bind](../../bind-to-data/bind-controls-to-data-expression-bindings.md) the **Check State** property to a data field obtained from a report's data source. Expand the **Actions** category, click the **Check State** property's ellipsis button and select the required data field in the invoked [Expression Editor](../../report-designer-tools/expression-editor.md).
+
+You can [bind](../../bind-to-data/bind-controls-to-data-expression-bindings.md) the **Check State** property to a data field obtained from a report's data source. Switch to the [Properties](../../report-designer-tools/ui-panels/properties-panel.md) panel, expand the **Actions** category and click the **Check State** property's marker. Select **Check State Expression** from the popup menu. Then select a data field in the invoked [Expression Editor](../../report-designer-tools/expression-editor.md).
 
 ![](../../../../images/eurd-web-check-box-bind-to-data.png)
 
@@ -40,7 +38,7 @@ The data field value determines the checkbox state in the following manner:
 * **False** or **0** activates the **Unchecked** state;
 * Any other value activates the **Indeterminate** state.
 
-In the same way, click the **Text** property's ellipsis button and select the desired data field or construct a complex binding expression involving two or more data fields.
+In the same way, click the **Text** property's marker, select **Text Expression**, then select a data field or construct a complex binding expression that involves two or more data fields.
 
 ![](../../../../images/eurd-web-check-box-text-expression.png)
 

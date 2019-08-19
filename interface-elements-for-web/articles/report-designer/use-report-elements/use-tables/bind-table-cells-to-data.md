@@ -14,7 +14,7 @@ You can bind individual table cells to data in the same ways as [Label](../use-b
 
 ![](../../../../images/eurd-web-bind-existing-table-cell-to-data.png)
 
-Use the [Expression Editor](../../report-designer-tools/expression-editor.md) to construct a complex binding expression with two or more data fields. Click the **Expression** option's ellipsis button to invoke the Expression Editor. 
+Use the [Expression Editor](../../report-designer-tools/expression-editor.md) to construct a complex binding expression with two or more data fields. Click the **Text** property's marker and select **Text Expression** from the popup menu to invoke the Expression Editor.
 
 ![](../../../../images/eurd-web-table-cell-expression.png)
 
