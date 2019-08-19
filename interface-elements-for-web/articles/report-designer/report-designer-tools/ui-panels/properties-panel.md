@@ -45,7 +45,7 @@ The property marker indicates if the property's value was changed:
 
 	![web-report-designer-object-property](../../../../images/eurd-web-properties-panel-marker-white.png)
 
-* If a [report style](xref:1303) supersedes a property's value, the marker is light blue. This applies to appearance properties (for instance, an element's **BackColor**, **Font**, **Borders**).
+* If a [report style](../../customize-appearance/report-visual-styles.md) supersedes a property's value, the marker is light blue. This applies to appearance properties (for instance, an element's **BackColor**, **Font**, **Borders**).
 
 	![web-report-designer-object-property](../../../../images/eurd-web-properties-panel-marker-blue.png)
 
