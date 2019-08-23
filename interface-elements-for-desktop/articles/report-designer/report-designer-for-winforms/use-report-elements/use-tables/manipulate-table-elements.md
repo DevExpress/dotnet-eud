@@ -70,10 +70,17 @@ The dragged and focused cells are swapped.
 The dragged cell is placed above the focused cell.
 
 ## Stretch Table Cells
-You can stretch a cell so that it occupies several rows and columns. To stretch a cell across several columns, remove a neighboring cell by pressing DELETE or selecting **Delete** | **Cell** in the context menu and resize the remaining cells.
+You can stretch a cell so that it occupies several rows and columns.
 
-![](../../../../../images/eurd-win-table-control-cell-column-span.png)
+- Stretch a cell across several columns  
+  Remove a neighboring cell by pressing DELETE or selecting **Delete** | **Cell** in the context menu and resize the remaining cells.
 
-Use a table cell's **Row Span** property to specify the number of rows the table cell spans.
+  ![](../../../../../images/eurd-win-table-control-cell-column-span.png)
 
-![](../../../../../images/eurd-win-table-control-cell-rows-span.png)
+- Stretch a cell across several columns  
+  Use a table cell's **Row Span** property to specify the number of rows the table cell spans.
+
+  ![](../../../../../images/eurd-win-table-control-cell-rows-span.png)
+
+  > [!NOTE]
+  > For the **RowSpan** property to work properly, the spanned cells should have the same width.
