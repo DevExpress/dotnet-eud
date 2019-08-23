@@ -60,10 +60,17 @@ You can change table cells' order in the [Report Explorer](../../report-designer
 
 
 ## Stretch Table Cells
-You can stretch a cell to occupy several rows and columns. To stretch a cell across several columns, press DELETE or select the **Delete Cell** command in the **Action** category to remove a neighboring cell.
+You can stretch a cell to occupy several rows and columns.
 
-![](../../../../images/eurd-web-table-control-cell-column-span.png)
+- Stretch a cell across several columns  
+  Press DELETE or select the **Delete Cell** command in the **Action** category to remove a neighboring cell.
 
-Use a table cell's **Row Span** property to specify the number of rows the table cell spans.
+  ![](../../../../images/eurd-web-table-control-cell-column-span.png)
 
-![](../../../../images/eurd-web-table-control-cell-rows-span.png)
+- Stretch a cell across several rows  
+  Use a table cell's **Row Span** property to specify the number of rows the table cell spans.
+
+  ![](../../../../images/eurd-web-table-control-cell-rows-span.png)
+
+  > [!NOTE]
+  > For the **RowSpan** property to work properly, the spanned cells should have the same width.
