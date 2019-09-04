@@ -49,6 +49,6 @@ After you finish the wizard, it creates an **ObjectDataSource** component. This 
 
 ## Configure Parameters
 
-Choose an **ObjectDataSource** component in the Field List and click **Edit Parameters**. Reconfigure the parameters on the invoked wizard page.
+Choose an **ObjectDataSource** component in the Field List and click **Edit Parameters**. Reconfigure the parameters on the invoked wizard page and click **Finish** to apply changes.
 
 ![](../../../images/eurd-web-data-source-wizard-object-edit-parameters.png)
