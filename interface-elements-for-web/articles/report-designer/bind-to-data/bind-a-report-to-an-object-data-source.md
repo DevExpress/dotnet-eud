@@ -7,21 +7,19 @@ author: Sergey Andreev
 
 This topic describes how to bind a report to object data at design time.
 
-## Create a Project and Prepare a Data Source
+## Add a New Data Source
 
-1. [Create a new report](../../report-designer/add-new-reports.md).
-
-2. Select **Add Data Source** from the [designer menu](../report-designer-tools/menu.md).
+1. Select **Add Data Source** from the [designer menu](../report-designer-tools/menu.md).
 	
     ![](../../../images/eurd-web-choose-data-source.png)
 
     This invokes the [Data Source Wizard](../report-designer-tools/data-source-wizard.md).
 
-3. Choose **Object** and click **Next**.
+2. Choose **Object** and click **Next**.
 	
     ![](../../../images/eurd-web-data-source-object.png)
 
-4. Specify data source settings on the next screen.
+3. Specify data source settings on the next screen.
 
     ![](../../../images/eurd-datasource-wizard-object-datasource.png)
 
@@ -43,7 +41,7 @@ This topic describes how to bind a report to object data at design time.
 
 Click **Finish** to close the Data Source Wizard.
 
-After you finish the wizard, it creates an **ObjectDataSource** component. This component retrieves the data fields that the selected object type includes. The [Field List](../report-designer-tools/ui-panels/field-list.md) reflects the data source structure.
+After you finish the wizard, it creates an **ObjectDataSource** component and binds the report to this component. The component retrieves the data fields that the selected object or method exposes. The [Field List](../report-designer-tools/ui-panels/field-list.md) reflects the data source structure.
 
 ![](../../../images/eurd-report-wizard-object-datasource-result.png)
 
@@ -52,3 +50,5 @@ After you finish the wizard, it creates an **ObjectDataSource** component. This 
 Choose an **ObjectDataSource** component in the Field List and click **Edit Parameters**. Reconfigure the parameters on the invoked wizard page and click **Finish** to apply changes.
 
 ![](../../../images/eurd-web-data-source-wizard-object-edit-parameters.png)
+
+For more information on how to set up an object data source, refer to the [Data Source Wizard](../report-designer-tools/data-source-wizard.md).
