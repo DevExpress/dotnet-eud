@@ -37,7 +37,7 @@ This topic describes how to bind a report to object data at design time.
 
         ![](../../../images/eurd-report-wizard-object-datasource-configure-parameters.png)
 
-        You can use expressions to provide data source parameter values. Click a parameter's marker and select **Expression** from the popup menu to switch the parameter's editor to the expression mode. Specify an expression in the parameter's editor, or click the parameter's ellipsis button to launch the [Expression Editor](xref:114059). You can use [report parameters](xref:4812) in expressions to specify an input value for a data source parameter.
+        You can use expressions to provide data source parameter values. Click a parameter's marker and select **Expression** from the popup menu to switch the parameter's editor to the expression mode. Specify an expression in the parameter's editor, or click the parameter's ellipsis button to launch the [Expression Editor](../report-designer-tools/expression-editor.md). You can use [report parameters](../shape-report-data/use-report-parameters.md) in expressions to specify an input value for a data source parameter.
 
         ![](../../../images/eurd-report-wizard-object-datasource-configure-parameters-expression.png)
 
