@@ -1,9 +1,9 @@
 ---
-title: 'Bind a Report to Object Data'
+title: 'Bind a Report to an Object Data Source'
 author: Sergey Andreev
 ---
 
-# Bind a Report to Object Data
+# Bind a Report to an Object Data Source
 
 This topic describes how to bind a report to object data at design time.
 
