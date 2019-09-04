@@ -41,7 +41,7 @@ This topic describes how to bind a report to object data at design time.
 
         ![](../../../images/eurd-report-wizard-object-datasource-configure-parameters-expression.png)
 
-    Click **Finish** to close the Data Source Wizard.
+Click **Finish** to close the Data Source Wizard.
 
 After you finish the wizard, it creates an **ObjectDataSource** component. This component retrieves the data fields that the selected object type includes. The [Field List](../report-designer-tools/ui-panels/field-list.md) reflects the data source structure.
 
