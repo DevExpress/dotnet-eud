@@ -997,6 +997,11 @@
             href: articles/report-designer/report-designer-for-winforms/report-designer-tools/data-source-wizard/connect-to-an-xpo-data-source/specify-a-connection-string.md
           - name: Save the Connection String
             href: articles/report-designer/report-designer-for-winforms/report-designer-tools/data-source-wizard/connect-to-an-xpo-data-source/save-the-connection-string.md
+        - name: Connect to a Federated Data Source
+          href: articles/report-designer/report-designer-for-winforms/report-designer-tools/data-source-wizard/connect-to-a-federated-data-source.md
+          items:
+          - name: Create a Federated Query
+            href: articles\report-designer\report-designer-for-winforms\report-designer-tools\data-source-wizard\connect-to-a-federated-data-source\create-a-federated-query.md
         - name: No Data
           href: articles/report-designer/report-designer-for-winforms/report-designer-tools/data-source-wizard/no-data.md
       - name: Query Builder
