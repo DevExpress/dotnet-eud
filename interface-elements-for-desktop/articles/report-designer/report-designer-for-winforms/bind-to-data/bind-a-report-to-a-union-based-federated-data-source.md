@@ -21,8 +21,7 @@ You can create a federated data source for your report to display data combined 
 
 1. Click the report's smart tag, expand the **DataSource** property's drop-down menu and click **Add Report Data Source**.
 
-    image
-    ![](../../../../images/eurd-win-DataFederationUnion-report-smart-tag.png)
+    ![](../../../../images/DataFederationUnion-report-smart-tag.png)
 
 2. In the invoked [Data Source Wizard](../../../../articles/report-designer/report-designer-for-winforms/report-designer-tools/data-source-wizard.md), select **Data Federation** and click **Next**.
 
@@ -70,14 +69,12 @@ The federated query's default name equals to the first source's name (the **Cust
 
 Once you rename the query, update the report's **DataMember** property.
 
-image
 ![](../../../../images/DataFederationUnion-report-data-source-property.png)
 
 ## Design the Report Layout
 
 1. Click the report's smart tag and select **Design in Report Wizard**.
 
-    image
     ![](../../../../images/DataFederationUnion-design-in-report-wizard.png)
 
 2. In the invoked [Report Wizard](../../../../articles/report-designer/report-designer-for-winforms/report-designer-tools/report-wizard.md), select **Table Report** and click **Next**.
