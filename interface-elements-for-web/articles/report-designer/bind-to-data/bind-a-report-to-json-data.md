@@ -7,21 +7,19 @@ author: Mary
 
 This topic describes how to bind a report to JSON data at design time.
 
-## Create a Project and Prepare a Data Source
+## Add a New Data Source
 
-1. [Create a new blank report](../../report-designer/add-new-reports.md).
-
-2. Invoke the designer [menu](../report-designer-tools/menu.md) and click **Add Data Source...**.
+1. Invoke the designer [menu](../report-designer-tools/menu.md) and click **Add Data Source...**.
 	
     ![](../../../images/eurd-web-choose-data-source.png)
 
     This invokes the Data Source Wizard.
 
-3. Choose the **JSON** option and click **Next**.
+2. Choose the **JSON** option and click **Next**.
 	
     ![JSON-SelectJSONDataSource](../../../images/eurd-web-data-source-json.png)
 
-4. The next wizard page allows you to specify whether you want to use an existing data connection or create a new data connection.
+3. The next wizard page allows you to specify whether you want to use an existing data connection or create a new data connection.
 
     ![](../../../images/eurd-web-data-source-wizard-json-choose-yes.png)
 
@@ -38,7 +36,7 @@ This topic describes how to bind a report to JSON data at design time.
     Specify the Basic HTTP Authentication parameters or header parameters to access JSON data.
 
 
-5. Also, on this page, the wizard shows the specified JSON data's structure. You can choose all nodes or a subset of nodes.
+4. This wizard page also shows the specified JSON data's structure. You can choose all nodes or a subset of nodes.
 
     ![](../../../images/eurd-web-data-source-wizard-json-select-data-filds.png)
 
