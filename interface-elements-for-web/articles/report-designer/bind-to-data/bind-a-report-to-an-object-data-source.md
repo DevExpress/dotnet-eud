@@ -23,15 +23,15 @@ This topic describes how to bind a report to object data at design time.
 
     ![](../../../images/eurd-datasource-wizard-object-datasource.png)
 
-    * Select an object type and constructor from the list. If you select an object type, the default constructor is invoked.
+    * Select an object type or constructor from the list. If you select an object type, the default constructor is invoked.
 
         ![](../../../images/eurd-datasource-wizard-object-datasource-select-object.png)
 
-    * Select the method that should provide data. Alternatively, select **Entire Object** to bind to the object's fields.
+    * Select the method that should provide data. Alternatively, select **Entire Object** to bind the report to the object's fields.
 
         ![](../../../images/eurd-report-wizard-object-datasource-select-member.png)
 
-    * Specify input values for the constructor (if you selected a constructor that requires input values). Specify input values for the data member (if you selected a data member that requires input values).
+    * Specify input values for a constructor and data member that requires input values.
 
         ![](../../../images/eurd-report-wizard-object-datasource-configure-parameters.png)
 
@@ -47,7 +47,7 @@ After you finish the wizard, it creates an **ObjectDataSource** component and bi
 
 ## Configure Parameters
 
-Choose an **ObjectDataSource** component in the Field List and click **Edit Parameters**. Reconfigure the parameters on the invoked wizard page and click **Finish** to apply changes.
+Choose an **ObjectDataSource** component in the Field List and click **Edit Parameters**. Reconfigure the parameters on the invoked wizard page and click **Finish** to apply the changes.
 
 ![](../../../images/eurd-web-data-source-wizard-object-edit-parameters.png)
 

@@ -36,7 +36,7 @@ This topic describes how to bind a report to JSON data at design time.
     Specify the Basic HTTP Authentication parameters or header parameters to access JSON data.
 
 
-4. Also, on this page, the wizard shows the specified JSON data's structure. You can choose all nodes or a subset of nodes.
+4. This wizard page also shows the specified JSON data's structure. You can choose all nodes or a subset of nodes.
 
     ![](../../../images/eurd-web-data-source-wizard-json-select-data-filds.png)
 
