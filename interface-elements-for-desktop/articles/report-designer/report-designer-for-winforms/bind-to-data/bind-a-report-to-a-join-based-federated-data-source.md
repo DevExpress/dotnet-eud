@@ -1,8 +1,8 @@
 ---
-title: Bind a Report to a Federated Data Source
+title: Bind a Report to a Join-Based Federated Data Source
 owner: Anna Gubareva
 ---
-# Bind a Report to a Federated Data Source
+# Bind a Report to a Join-Based Federated Data Source
 
 This topic describes how to create a federated data source that joins data from multiple data sources into a single query.
 
