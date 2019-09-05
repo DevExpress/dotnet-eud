@@ -491,6 +491,8 @@
       href: articles/report-designer/bind-to-data/bind-a-report-to-a-database.md
     - name: Bind a Report to JSON Data
       href: articles/report-designer/bind-to-data/bind-a-report-to-json-data.md   
+    - name: Bind a Report to an Object Data Source
+      href: articles/report-designer/bind-to-data/bind-a-report-to-an-object-data-source.md   
     - name: Data Binding Modes
       href: articles/report-designer/bind-to-data/data-binding-modes.md
     - name: Bind Report Controls to Data (Expression Bindings)
