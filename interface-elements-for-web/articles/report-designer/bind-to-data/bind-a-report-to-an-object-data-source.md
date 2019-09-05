@@ -31,7 +31,7 @@ This topic describes how to bind a report to object data at design time.
 
         ![](../../../images/eurd-report-wizard-object-datasource-select-member.png)
 
-    * Specify input values for a constructor and data member that requires input values.
+    * Specify input values for the constructor and/or data member if required.
 
         ![](../../../images/eurd-report-wizard-object-datasource-configure-parameters.png)
 
