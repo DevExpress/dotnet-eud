@@ -501,8 +501,10 @@
         href: articles/report-designer/report-designer-for-winforms/bind-to-data/bind-a-report-to-json-data.md
       - name: Bind a Report to an XPO Persistent Object
         href: articles\report-designer\report-designer-for-winforms\bind-to-data\bind-a-report-to-an-xpo-persistent-object.md        
-      - name: Bind a Report to a Federated Data Source
-        href: articles\report-designer\report-designer-for-winforms\bind-to-data\bind-a-report-to-a-federated-data-source.md        
+      - name: Bind a Report to a Join-Based Federated Data Source
+        href: articles\report-designer\report-designer-for-winforms\bind-to-data\bind-a-report-to-a-join-based-federated-data-source.md       
+      - name: Bind a Report to a Union-Based Federated Data Source
+        href: articles\report-designer\report-designer-for-winforms\bind-to-data\bind-a-report-to-a-union-based-federated-data-source.md        
       - name: Bind a Report to a Federated Master-Detail Data Source
         href: articles\report-designer\report-designer-for-winforms\bind-to-data\bind-a-report-to-a-federated-master-detail-data-source.md        
       - name: Data Binding Modes
@@ -995,6 +997,11 @@
             href: articles/report-designer/report-designer-for-winforms/report-designer-tools/data-source-wizard/connect-to-an-xpo-data-source/specify-a-connection-string.md
           - name: Save the Connection String
             href: articles/report-designer/report-designer-for-winforms/report-designer-tools/data-source-wizard/connect-to-an-xpo-data-source/save-the-connection-string.md
+        - name: Connect to a Federated Data Source
+          href: articles/report-designer/report-designer-for-winforms/report-designer-tools/data-source-wizard/connect-to-a-federated-data-source.md
+          items:
+          - name: Create a Federated Query
+            href: articles\report-designer\report-designer-for-winforms\report-designer-tools\data-source-wizard\connect-to-a-federated-data-source\create-a-federated-query.md
         - name: No Data
           href: articles/report-designer/report-designer-for-winforms/report-designer-tools/data-source-wizard/no-data.md
       - name: Query Builder
