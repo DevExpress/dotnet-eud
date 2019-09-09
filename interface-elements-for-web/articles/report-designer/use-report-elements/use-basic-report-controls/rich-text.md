@@ -37,19 +37,19 @@ Double-click a Rich Text control and type text in the invoked in-place editor. A
 
 Rich Text supports the following edit operations:
 
-* Undo/Redo History
+* **Undo/Redo History**
 
     The undo/redo history contains the last 100 operations and is available until you exit the in-place edit mode.
 
-* Clipboard Operations
+* **Clipboard Operations**
 
     You can use clipboard operations (Cut, Copy, and Paste) to manipulate with text and images.
 
-* Hyperlinks
+* **Hyperlinks**
 
     You can create and modify hyperlinks.
 
-* Drag and Drop
+* **Drag and Drop**
 
     Use Drag and Drop to move images and text within the editor.
 
