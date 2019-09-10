@@ -43,7 +43,7 @@ Rich Text supports the following edit operations:
 
 * **Clipboard Operations**
 
-    You can use clipboard operations (Cut, Copy, and Paste) to manipulate with text and images.
+    You can use clipboard operations (Cut, Copy, and Paste) to manipulate text and images.
 
 * **Hyperlinks**
 
