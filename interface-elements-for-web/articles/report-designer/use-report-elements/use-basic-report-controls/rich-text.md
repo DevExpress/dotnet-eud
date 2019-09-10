@@ -53,6 +53,10 @@ Rich Text supports the following edit operations:
 
     Use Drag and Drop to move images and text within the editor.
 
+The legacy Rich Text does not provide a ribbon with text format options. Its in-place editor allows you to enter only plain text. Bind the control to a data field that provides RTF or HTML content to display formatted text.
+
+![](../../../../images/eurd-web-rich-text-in-place-editor-legacy.png)
+
 ## Bind to Data
 
 Click the **Rtf Expression** or **Html Expression** option's ellipsis button to invoke the [Expression Editor](../../report-designer-tools/expression-editor.md). Use this editor to bind the control to a data field or construct a complex binding expression with two or more data fields.
