@@ -53,7 +53,7 @@ Rich Text supports the following edit operations:
 
     Use Drag and Drop to move images and text within the editor.
 
-> [!Note]
+> [!NOTE]
 > The legacy Rich Text does not provide a ribbon with text format options. Its in-place editor allows you to enter only plain text. Bind the control to a data field that provides RTF or HTML content to display formatted text.
 > 
 > ![](../../../../images/eurd-web-rich-text-in-place-editor-legacy.png)
