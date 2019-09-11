@@ -18,5 +18,6 @@ Click the **Add Data Source...** command in the Designer's menu to run the Data 
 
 On the start page, choose the data source type and click **Next** to proceed:
 
-* [Spesify Data Source Setting (Database)](data-source-wizard/specify-data-source-settings-database.md) if you selected **Database**;
-* [Spesify Data Sourse Setting (JSON)](data-source-wizard/specify-data-source-settings-json.md) if you selected **JSON**.
+* [Specify Data Source Setting (Database)](data-source-wizard/specify-data-source-settings-database.md) if you selected **Database**;
+* [Specify Data Source Setting (JSON)](data-source-wizard/specify-data-source-settings-json.md) if you selected **JSON**.
+* [Specify Data Source Setting (Object)](data-source-wizard/specify-data-source-settings-object.md) if you selected **Object**.
