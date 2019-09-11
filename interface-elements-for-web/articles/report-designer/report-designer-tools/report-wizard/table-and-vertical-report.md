@@ -12,6 +12,6 @@ Select **Table Report**/**Vertical Report** on the start page to create a [table
 The wizard includes the following steps:
 
 * [Select Data Source](table-and-vertical-report/select-data-source.md)
-* [Spesify Data Source Setting (Database)](table-and-vertical-report/specify-data-source-settings-database.md) / [Spesify Data Sourse Setting (JSON)](table-and-vertical-report/specify-data-source-settings-json.md)
+* [Specify Data Source Setting (Database)](table-and-vertical-report/specify-data-source-settings-database.md) / [Specify Data Source Settings (JSON)](table-and-vertical-report/specify-data-source-settings-json.md) / [Specify Data Source Settings (Object)](table-and-vertical-report/specify-data-source-settings-object.md)
 * [Define Report Layout](table-and-vertical-report/define-report-layout.md)
 * [Specify Page Settings](table-and-vertical-report/specify-page-settings.md)
