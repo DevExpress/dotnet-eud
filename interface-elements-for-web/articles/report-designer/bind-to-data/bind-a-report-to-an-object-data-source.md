@@ -23,15 +23,15 @@ This topic describes how to bind a report to object data at design time.
 
     ![](../../../images/eurd-datasource-wizard-object-datasource.png)
 
-    * Select an object type or constructor from the list. If you select an object type, the default constructor is invoked.
+    * Select a data object or constructor from the list. If you select a data object, its default constructor is used.
 
         ![](../../../images/eurd-datasource-wizard-object-datasource-select-object.png)
 
-    * Select the method that should provide data. Alternatively, select **Entire Object** to bind the report to the object's fields.
+    * Select the method that should provide data or select **Entire Object** to bind the report to the object's fields.
 
         ![](../../../images/eurd-report-wizard-object-datasource-select-member.png)
 
-    * Specify input values for the constructor and/or data member if required.
+    * Specify constructor and/or data member parameters, if required.
 
         ![](../../../images/eurd-report-wizard-object-datasource-configure-parameters.png)
 
@@ -41,7 +41,7 @@ This topic describes how to bind a report to object data at design time.
 
 Click **Finish** to close the Data Source Wizard.
 
-After you finish the wizard, it creates an **ObjectDataSource** component and binds the report to this component. The component retrieves the data fields that the selected object or method exposes. The [Field List](../report-designer-tools/ui-panels/field-list.md) reflects the data source structure.
+Once you finished the wizard, the data source becomes available in the [Report Explorer](../ui-panels/report-explorer.md)'s **Components** node. The [Field List](../ui-panels/field-list.md) reflects the data source structure.
 
 ![](../../../images/eurd-report-wizard-object-datasource-result.png)
 
