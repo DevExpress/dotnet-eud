@@ -12,4 +12,4 @@ To add a selected template to a report, drag it from the Report Gallery onto a r
 
 ![](../../../../../images/eurd-win-use-controls-from-report-gallery.png)
 
-A template stores various settings related to its controls, such as binding information and appearance options. All these settings are restored after adding controls to a report.
+A template stores various settings related to its controls, such as binding information and appearance options. All these settings are restored after you add controls to a report.
