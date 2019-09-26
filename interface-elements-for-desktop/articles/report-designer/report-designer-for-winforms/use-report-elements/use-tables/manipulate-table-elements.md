@@ -78,7 +78,7 @@ Select a table element and switch to the **Properties** window. Expand the **Sty
 
 As an alternative, you can drag a style from the Report Explorer onto an element.
 
-![design-time-drag-style](../../../../../images/eurd-win-drag-style-table.gif)
+![design-time-drag-style](../../../../../images/eurd-win-drag-style.gif)
 
 ## Stretch Table Cells
 
