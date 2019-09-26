@@ -8,9 +8,16 @@ You can use the mouse or keyboard to move a report control to a new location.
 
 ![](../../../../../images/eurd-win-move-report-control.png)
 
-You can also [select multiple controls](select-report-elements-and-access-their-settings.md) and move them in the same way as individual report controls.
+You can [select multiple controls](select-report-elements-and-access-their-settings.md) and move them in the same way as individual report controls.
 
 ![](../../../../../images/eurd-win-move-multiple-report-controls.png)
+
+You can also use the [Report Explorer](../../report-designer-tools/ui-panels/report-explorer.md) to move a control. You can move controls to other bands (except the **DetailReport** band), or into a **Panel** or **TableCell** controls. Select a control and drag it (either within the Report Explorer or to the design surface). The drop targets are highlighted when you drag the control over them.
+
+![design-time-move-controls](../../../../../images/eurd-win-move-controls.gif)
+
+> [!NOTE]
+> You can drag the TableOfContents control only to the **ReportHeader** and **ReportFooter** bands.
 
 To resize a control, select it and then drag a rectangle drawn on its edge or corner.
 

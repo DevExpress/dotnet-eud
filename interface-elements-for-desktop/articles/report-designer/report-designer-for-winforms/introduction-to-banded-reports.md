@@ -99,7 +99,7 @@ Click the arrow button on the band's title to collapse or expand the band.
 ### Hide Bands in the Report Document
 
 
-You can avoid printing a band's content in a document. To do this, set the band's **Height** property to a zero or disable its **Visible** property. Select the band and set these properties in the [Property Grid](report-designer-tools\ui-panels\property-grid.md).
+You can avoid printing band content in a document. To do this, select the band and set the band's **Height** property to zero or disable its **Visible** property in the [Property Grid](report-designer-tools\ui-panels\property-grid.md).
 
 ![eurd-win-band-properties-in-property-grid](../../../images/eurd-win-band-properties-in-property-grid.png)
 
@@ -126,3 +126,33 @@ Click the **Edit and Reorder Bands** context link in a report's smart tag to acc
 This command is also available in a band's context and smart tag menus.
 
 ![eurd-win-report-bands-collection-band-smart-tag](../../../images/eurd-win-report-bands-collection-band-smart-tag.png)
+
+The invoked editor allows you to reorder bands and change their properties.
+
+![report-bands-collection-band-smart-tag](../../../images/eurd-win-report-bands-collection-band-editor.png)
+
+Alternatively, use the [Report Explorer](../../report-designer-tools/ui-panels/report-explorer.md) to edit and reorder bands. Select a band and edit its properties in the **Property Grid**.
+
+![report-explorer-edit-band](../../../images/eurd-win-report-explorer-edit-band.gif)
+
+Drag a band to change its order or move inside/outside of another band. The drop targets are highlighted when you drag a band over them.
+
+![report-explorer-drag-band](../../../images/eurd-win-report-explorer-drag-band.gif)
+
+You can drag bands to the following targets:
+
+| Dragged Band | Drop Targets |
+| --- | --- |
+| **SubBand** | All bands except **TopMargin** and **BottomMargin** |
+| **GroupHeader**, **GroupFooter** | **XtraReport** (root node), **DetailReport** |
+| **DetailReport** | **XtraReport** (root node), **DetailReport** |
+
+## Apply Styles to Bands
+
+Select a band and switch to the **Property Grid**. Expand the **Styles** group and set the **Style** property to the style name.
+
+![design-time-select-style](../../../images/eurd-win-select-style-band.png)
+
+As an alternative, you can drag a style from the [Report Explorer](../../report-designer-tools/ui-panels/report-explorer.md) onto a band. This is applicable to all bands except **DetailReport**.
+
+![design-time-drag-style](../../../images/eurd-win-drag-style-band.gif)

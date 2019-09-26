@@ -2,22 +2,49 @@
 title: Report Explorer
 ---
 # Report Explorer
-The **Report Explorer** shows a report's structure in a tree-like form providing easy access to report elements. Additionally, the **Report Explorer** contains the **Components** node, which displays non-visual report components, such as data objects created when binding a report to a data source.
+
+The **Report Explorer** shows a report structure in a tree-like form and provides access to components assigned to a report (such as its data sources).
 
 ![RD_Elements_ReportExplorer](../../../../../images/eurd-win-report-explorer.png)
 
-Once a report element or component has been selected in the Report Explorer, its settings can be changed using the [Toolbar](../toolbar.md) or [Property Grid](property-grid.md). You can also right-click elements and components to invoke their context menu.
+## Report Bands and Controls
+
+Bands and controls are listed in a hierarchical tree-like structure.
+
+Select an element and invoke the context menu to access the available actions.
 
 ![eurd-win-report-explorer-context-menu](../../../../../images/eurd-win-report-explorer-context-menu.png)
 
-Data-aware controls are marked with a special database icon in the Report Explorer.
+Select an element and navigate to the **Properties Grid** to edit the element's options.
+
+![design-time-report-explorer-right-click](../../../../../images/eurd-win-report-explorer-properties.png)
+
+Data-bound controls are marked with a yellow database icon.
 
 ![eurd-win-report-explorer-bound-controls](../../../../../images/eurd-win-report-explorer-bound-controls.png)
 
-The **Report Explorer** also provides quick access to all [styles](../../customize-appearance/report-visual-styles.md) available for a report. You can manage styles using commands available in the context menu. To invoke a context menu, right-click the corresponding root node or their sub-node.
+Drag elements to change their location.
 
-![eurd-win-report-explorer-styles-menu](../../../../../images/eurd-win-report-explorer-styles-menu.png)
+![eurd-win-move-controls](../../../../../images/eurd-win-move-controls.gif)
 
-To apply a style to a report control, drag it from the Report Explorer onto the required report control.
+Check the following topics for more information on how to manipulate report elements:
 
-If the Report Explorer is hidden, you can enable it. To do this, select  in the **Windows** | **Report Explorer** on the [Toolbar](../toolbar.md)'s **View** page.
+* [Manipulate Bands](../../introduction-to-banded-reports.md#access-the-bands-collection)
+* [Manipulate Report Controls](../../use-report-elements/manipulate-report-elements/move-and-resize-report-elements.md)
+* [Manipulate Table Elements](../../use-report-elements/use-tables/manipulate-table-elements.md#reorder-table-rows-and-cells)
+
+## Report Styles
+
+Drop a style onto a report element. This applies the selected style to the element.
+
+![design-time-drag-style](../../../../../images/eurd-win-drag-style.gif)
+
+You can select all report elements with a specific style.
+
+![design-time-report-explorer-style-select-controls](../../../../../images/eurd-win-report-explorer-style-select-controls.png)
+
+## Report Components
+
+The Components node lists all [data sources](../../bind-to-data.md) configured for the report. Right-click a data source to customize its settings or add it to the [Report Gallery](report-gallery.md).
+
+![design-time-report-explorer-data-source-add-to-gallery](../../../../../images/eurd-win-report-explorer-data-source-add-to-gallery.png)
