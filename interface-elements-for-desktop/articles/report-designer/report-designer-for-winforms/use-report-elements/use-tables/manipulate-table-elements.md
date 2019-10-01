@@ -72,7 +72,7 @@ The Report Explorer highlights the possible drop targets when you drag an elemen
 
 ## Apply Styles to Table Elements
 
-Select a table element and switch to the **Properties** window. Expand the **Styles** group and set the **Style** property to the style name.
+Select a table element and switch to the **Property Grid**. Expand the **Styles** group and set the **Style** property to the style name.
 
 ![design-time-select-style](../../../../../images/eurd-win-select-style-table.png)
 

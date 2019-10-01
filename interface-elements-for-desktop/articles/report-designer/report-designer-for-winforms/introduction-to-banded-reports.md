@@ -66,8 +66,6 @@ To add vertical bands to your report, right-click the report in the Report Desig
 > [!Note]
 > If your report's **Detail** band contains report controls, this band and all these controls are lost when you add a vertical band (the same behavior takes place in the opposite situation).
 
-
-
 The following vertical bands are available:
 
 - **Vertical Header**    

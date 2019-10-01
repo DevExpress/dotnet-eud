@@ -15,7 +15,7 @@ Select an element and invoke the context menu to access the available actions.
 
 ![eurd-win-report-explorer-context-menu](../../../../../images/eurd-win-report-explorer-context-menu.png)
 
-Select an element and navigate to the **Properties Grid** to edit the element's options.
+Select an element and navigate to the **Property Grid** to edit the element's options.
 
 ![design-time-report-explorer-right-click](../../../../../images/eurd-win-report-explorer-properties.png)
 
