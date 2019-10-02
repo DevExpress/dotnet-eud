@@ -6,7 +6,7 @@ author: Anna Gubareva
 
 Your report layout should meet the following requirements to correctly print and export it:
 
-* **Avoid intersecting controls**
+* **Avoid overlapping controls**
 	
 	The Report Designer highlights intersecting report controls to warn you that the report layout can be exported incorrectly to HTML, RTF, DOCX, XLS, XLSX, CSV and TXT formats.
 
