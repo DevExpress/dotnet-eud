@@ -85,7 +85,7 @@ You can create functional copies of a band, for example, to display different co
 ![eurd-win-report-bands-basic-layout-sub-bands](../../../images/eurd-win-report-bands-basic-layout-sub-bands.png)
 
 > [!TIP]
-> See [Laying out Dynamic Report Contents](shape-report-data\lay-out-dynamic-report-content.md) for details on how to specify the location of bands' content on document pages.
+> See [Lay out Dynamic Report Content](lay-out-dynamic-report-content.md) for details on how to specify the location of bands' content on document pages.
 
 ## <a name="managingreportbands"></a>Manage Report Bands
 ### Hide Bands in the Report Designer
