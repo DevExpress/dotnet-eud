@@ -16,3 +16,4 @@ This section contains the following topics.
 * [Stored Procedures](working-with-data/stored-procedures.md)
 * [Preview Data](working-with-data/preview-data.md)
 * [Creating Calculated Fields](working-with-data/creating-calculated-fields.md)
+* [Data Inspector](working-with-data/data-inspector.md)
