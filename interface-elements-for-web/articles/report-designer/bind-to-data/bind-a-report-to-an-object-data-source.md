@@ -41,7 +41,7 @@ This topic describes how to bind a report to object data at design time.
 
 Click **Finish** to close the Data Source Wizard.
 
-Once you finished the wizard, the data source becomes available in the [Report Explorer](../ui-panels/report-explorer.md)'s **Components** node. The [Field List](../ui-panels/field-list.md) reflects the data source structure.
+Once you finished the wizard, the data source becomes available in the [Report Explorer](../report-designer-tools/ui-panels/report-explorer.md)'s **Components** node. The [Field List](../report-designer-tools/ui-panels/field-list.md) reflects the data source structure.
 
 ![](../../../images/eurd-report-wizard-object-datasource-result.png)
 

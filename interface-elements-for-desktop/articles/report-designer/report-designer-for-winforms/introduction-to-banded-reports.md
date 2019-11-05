@@ -85,7 +85,7 @@ You can create functional copies of a band, for example, to display different co
 ![eurd-win-report-bands-basic-layout-sub-bands](../../../images/eurd-win-report-bands-basic-layout-sub-bands.png)
 
 > [!TIP]
-> See [Laying out Dynamic Report Contents](shape-report-data\lay-out-dynamic-report-content.md) for details on how to specify the location of bands' content on document pages.
+> See [Lay out Dynamic Report Content](lay-out-dynamic-report-content.md) for details on how to specify the location of bands' content on document pages.
 
 ## <a name="managingreportbands"></a>Manage Report Bands
 ### Hide Bands in the Report Designer
@@ -129,7 +129,7 @@ The invoked editor allows you to reorder bands and change their properties.
 
 ![report-bands-collection-band-smart-tag](../../../images/eurd-win-report-bands-collection-band-editor.png)
 
-Alternatively, use the [Report Explorer](../../report-designer-tools/ui-panels/report-explorer.md) to edit and reorder bands. Select a band and edit its properties in the **Property Grid**.
+Alternatively, use the [Report Explorer](report-designer-tools/ui-panels/report-explorer.md) to edit and reorder bands. Select a band and edit its properties in the **Property Grid**.
 
 ![report-explorer-edit-band](../../../images/eurd-win-report-explorer-edit-band.gif)
 
@@ -151,6 +151,6 @@ Select a band and switch to the **Property Grid**. Expand the **Styles** group a
 
 ![design-time-select-style](../../../images/eurd-win-select-style-band.png)
 
-As an alternative, you can drag a style from the [Report Explorer](../../report-designer-tools/ui-panels/report-explorer.md) onto a band. This is applicable to all bands except **DetailReport**.
+As an alternative, you can drag a style from the [Report Explorer](report-designer-tools/ui-panels/report-explorer.md) onto a band. This is applicable to all bands except **DetailReport**.
 
 ![design-time-drag-style](../../../images/eurd-win-drag-style-band.gif)
