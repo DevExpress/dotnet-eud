@@ -32,4 +32,6 @@ The Dashboard Viewer enables interaction between various dashboard items. These 
 * [Master Filtering](master-filtering.md)
 * [Drill-Down](drill-down.md)
 
+You can inspect raw or aggregated data. See the [Data Inspector](data-inspector.md) topic for details.
+
 To learn more about the dashboard layout, see the [Dashboard Layout](dashboard-layout.md) topic.

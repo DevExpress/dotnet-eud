@@ -33,6 +33,8 @@
       href: articles/web-dashboard-designer-mode/providing-data/filter-data-sources.md
     - name: Calculated Fields
       href: articles/web-dashboard-designer-mode/providing-data/calculated-fields.md
+    - name: Data Inspector
+      href: articles/web-dashboard-designer-mode/providing-data/data-inspector.md
   - name: Adding Dashboard Items
     href: articles/web-dashboard-designer-mode/adding-dashboard-items.md
   - name: Binding Dashboard Items to Data

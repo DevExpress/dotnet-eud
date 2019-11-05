@@ -41,6 +41,8 @@
       href: articles/dashboard-designer/working-with-data/preview-data.md
     - name: Creating Calculated Fields
       href: articles/dashboard-designer/working-with-data/creating-calculated-fields.md
+    - name: Data Inspector
+      href: articles/dashboard-designer/working-with-data/data-inspector.md
   - name: Adding Dashboard Items
     href: articles/dashboard-designer/adding-dashboard-items.md
   - name: Binding Dashboard Items to Data
@@ -495,6 +497,8 @@
       href: articles/dashboard-viewer/data-presentation/drill-down.md
     - name: Dashboard Layout
       href: articles/dashboard-viewer/data-presentation/dashboard-layout.md
+    - name: Data Inspector
+      href: articles/dashboard-viewer/data-presentation/data-inspector.md
   - name: Dashboard Parameters
     items:
     - name: Requesting Parameter Values
