@@ -301,6 +301,8 @@
       href: articles/web-dashboard-designer-mode/appearance-customization/conditional-formatting.md
     - name: Coloring
       href: articles/web-dashboard-designer-mode/appearance-customization/coloring.md
+    - name: Themes
+      href: articles/web-dashboard-designer-mode/appearance-customization/themes.md
   - name: Data Analysis
     href: articles/web-dashboard-designer-mode/data-analysis.md
     items:
