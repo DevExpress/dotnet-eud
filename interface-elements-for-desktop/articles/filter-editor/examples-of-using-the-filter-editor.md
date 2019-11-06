@@ -17,29 +17,25 @@ Basically, filter conditions specify what data to select from a data source and 
 	![FilterEditor_SimpleCondt_Invoke](../../images/img7312.png)
 	
 	To learn how to invoke the Filter Editor for other controls, see corresponding sections in this documentation.
-2. **The Filter Editor will pop up.**
+
+2. **Select a column**.
 	
-	When invoking the Filter Editor for a grid control, if no filtering has yet been applied, the Filter Editor will contain a new filter condition referring to the clicked column. If, for example, the Filter Editor has been opened by right-clicking a Product Name column, it will look like the image below:
+	To filter against the Discount column, click the column name field. This will display the list of available columns. Select the Discount column in this list:
 	
 	![FilterEditor_SimpleCondt_NewConditionForProductName](../../images/img7314.png)
-3. **Select a column**.
+3. **Select a comparison operator**.
 	
-	Now, to filter against the Discount column, click the condition's link displaying a column name ('Product Name'). This will display the list of available columns. Select the Discount column in this list:
-	
-	![FilterEditor_SimpleCondt_SwitchProductNameToDiscount](../../images/img7315.png)
-4. **Select a comparison operator**.
-	
-	To select the '&gt;=' comparison operator, click the condition's operator link ('Equals') to display the list of supported comparison operators and select the required operator:
+	Click the operator field to choose the required operator.
 	
 	![FilterEditor_SimpleCondt_SwitchOperators](../../images/img7316.png)
 	
 	The comparison operator list displays only those operators that are supported by the current column's data type. For instance, the Discount column is of the numeric type, and the operator list doesn't display the 'Begins with' operator and other operators that are related to strings.
-5. **Enter a value**.
+4. **Enter a value**.
 	
 	Now, click the value box and enter a comparison value ('0.05'):
 	
 	![FilterEditor_SimpleCondt_EnterValue005](../../images/img7317.png)
-6. **Save changes**.
+5. **Save changes**.
 	
 	Click OK or Apply, to filter data using the created filter condition. The grid will show the filter panel displaying the current filter criteria:
 	
@@ -55,17 +51,17 @@ Filter criteria typically consist of two or more simple filter conditions combin
 2. Set the condition's operator to Equals and operand value to 'Tofu' (as described in the previous section):
 	
 	![FilterEditor_3Cond_FirstCondt](../../images/img7329.png)
-3. To add one more condition, press the ![FilterEditor_EU_AddButton](../../images/img7350.png) button next to the group's AND operator:
+3. To add one more condition, press the ![FilterEditor_EU_AddButton](../../images/img7350.png) button next to the group's AND operator. This will create a new condition under the current one:
 	
 	![FilterEditor_3Cond_AddSecondCondt](../../images/img7330.png)
 	
-	This will create a new condition under the current one:
 	
-	![FilterEditor_3Cond_SecondIncompleteCondt](../../images/img7331.png)
-4. For the second condition, set the column to 'Discount', operator to '>=' and operand value to '0.1':
+	
+	
+4. For the second condition, set the column to 'Unit Price', operator to '>=' and operand value to '100':
 	
 	![FilterEditor_3Cond_SecondCondt](../../images/img7332.png)
-5. To add a third condition to the same group, click the ![FilterEditor_EU_AddButton](../../images/img7350.png) button again. Set the condition's column to 'Quantity', operator to '>' and operand value to '99'. Below is the result:
+5. To add a third condition to the same group, click the ![FilterEditor_EU_AddButton](../../images/img7350.png) button again. Set the condition's column to 'Units in Stock', operator to '>' and operand value to '50'. Below is the result:
 	
 	![FilterEditor_3Cond_Final](../../images/img7327.png)
 6. Click OK or Apply, to apply the created filter criteria.
@@ -103,10 +99,7 @@ This is how you can do this:
 9. For the condition within the created group, set the column to 'UnitPrice', operator to '&gt;' and operand value to '10':
 	
 	![FilterEditor_4Cond_2CondtGroup_1Condt](../../images/img7407.png)
-10. Click the ![FilterEditor_EU_AddButton](../../images/img7350.png) button to add a new condition to the new group:
-	
-	![FilterEditor_4Cond_2CondtGroup_AddNewCondt](../../images/img7408.png)
-11. For the new condition, set the column to 'Quantity', operator to '&gt;' and operand value to '10':
+10. Click the ![FilterEditor_EU_AddButton](../../images/img7350.png) button to add a new condition to the new group. For the new condition, set the column to 'Quantity', operator to '&gt;' and operand value to '10':
 	
 	![FilterEditor_4Cond_2CondtGroup_2Condt](../../images/img7410.png)
 12. Click OK or Apply, to apply the created filter criteria.
