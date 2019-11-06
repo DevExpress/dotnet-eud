@@ -19,6 +19,13 @@
         href: articles/web-dashboard-designer-mode/providing-data/working-with-sql-data-sources/manage-sql-queries.md
       - name: Dashboard Data Source Wizard
         href: articles/web-dashboard-designer-mode/providing-data/working-with-sql-data-sources/dashboard-data-source-wizard.md
+        items:
+        - name: Specify Data Source Settings (Database)
+          href: articles/web-dashboard-designer-mode/providing-data/working-with-sql-data-sources/dashboard-data-source-wizard/specify-data-source-settings-database.md
+        - name: Specify Data Source Settings (JSON)
+          href: articles/web-dashboard-designer-mode/providing-data/working-with-sql-data-sources/dashboard-data-source-wizard/specify-data-source-settings-json.md
+        - name: Specify Data Source Settings (OLAP)
+          href: articles/web-dashboard-designer-mode/providing-data/working-with-sql-data-sources/dashboard-data-source-wizard/specify-data-source-settings-olap.md
       - name: Query Builder
         href: articles/web-dashboard-designer-mode/providing-data/working-with-sql-data-sources/query-builder.md
       - name: Filter Queries
