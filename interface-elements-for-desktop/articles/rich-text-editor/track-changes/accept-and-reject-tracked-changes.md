@@ -8,7 +8,7 @@ Select the change you want to accept and click **Accept** in the **Changes** rib
 
 ![IMAGE](../../../images/rich-text-editor-track-changes-accept.png)
 
-To accept the change and keep the cursor at the same position, open the **Accept** drop down menu and select **Accept This Change**.
+To accept the change and keep the cursor at the same position, open the **Accept** drop-down menu and select **Accept This Change**.
 
 ![IMAGE](../../../images/rich-text-editor-track-changes-accept-this-change.png)
 
