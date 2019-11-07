@@ -4,9 +4,7 @@ author: Natalia Kazakova
 ---
 # Themes
 
-## Supported Themes
-
-The following themes are available for the Web Dashboard control: 
+The Web Dashboard control supports the following themes (and their compact counterparts): 
 
 | Theme  | Image |
 |---|---|
