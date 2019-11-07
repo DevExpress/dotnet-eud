@@ -4,7 +4,7 @@
 
 ### Accept A Specific Change
 
-To accept a single change, select the change you want to accept and click **Accept** button in the **Changes** ribbon group on the **Review** tab. The change will be accepted, and the cursor will be moved to the next change.
+Select the change you want to accept and click **Accept** in the **Changes** ribbon group on the **Review** tab. This accepts the change and moves the cursor to the next change.
 
 ![IMAGE](../../../images/rich-text-editor-track-changes-accept.png)
 
