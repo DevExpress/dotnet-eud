@@ -36,13 +36,9 @@ You can [add](#add-a-new-comment),edit, [filter](#filter-comments) and [delete](
 
 ## Filter Comments
 
-* On the **Review** tab in the **Tracking** group, click the **Reviewers** button. Select the user whose comments you wish to display from the drop-down list...
+* On the **Review** tab in the **Tracking** group, click the **Show Markup** button. Select the user whose comments you wish to display from the  **Reviewers** drop-down list, or select **All Authors** to see all added comments.
 
     ![RTECommentsSortViewers](../../../images/img121530.png)
-
-    ...or select **All Authors** to see all added comments.
-
-  ![RTECommentsSortViewersAll](../../../images/img121531.png)
 
 ## Delete Comments
 
