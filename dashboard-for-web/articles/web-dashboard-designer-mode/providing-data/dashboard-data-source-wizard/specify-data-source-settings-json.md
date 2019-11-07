@@ -8,9 +8,9 @@ The following pages are available for the JSON data source type: 
 
 ## Create a New Data Connection
 
-If you are allowed to create new JSON data connections, the "Choose a data connection" page looks as follow:
+If allowed by your application vendor to create new JSON data connections, the "Choose a data connection" page looks as follow:
 
-![](../../../../../images/dashboard-data-source-wizard-create-data-connections.png)
+![](../../../../images/dashboard-data-source-wizard-create-data-connections.png)
 
 Select a new data connection on the "Choose Connection (JSON)" page and click **Next**.
 
@@ -18,7 +18,7 @@ Select a new data connection on the "Choose Connection (JSON)" page and click **
 
 On the next page, specify the connection name and select the JSON source type:
 
-![](../../../../../images/dashboard-data-source-wizard-configure-data-connections.png)
+![](../../../../images/dashboard-data-source-wizard-configure-data-connections.png)
 
 * **Web Service Endpoint (URI)**
 
@@ -32,9 +32,9 @@ Click **Next** to proceed to the "[Select Data Fields](#select-data-fields)" pag
 
 ## Select an Existing Data Connection
 
-If you are not allowed to create new JSON data connections, the "Choose a data connection" page looks as follow: 
+If not allowed by your application vendor to create new JSON data connections, the "Choose a data connection" page looks as follow: 
 
-![](../../../../../images/dashboard-data-source-wizard-choose-data-connectors.png)
+![](../../../../images/dashboard-data-source-wizard-choose-data-connectors.png)
 
 Select an existing connection from the list and click **Next** to proceed to the "Select Data Fields" page.
 
@@ -43,7 +43,7 @@ Select an existing connection from the list and click **Next** to proceed to the
 
 The "Select data fields" page allows you to include / exclude data fields used in a JSON data source.
 
- ![](../../../../../images/dashboard-data-source-wizard-select-data-fields.png)
+ ![](../../../../images/dashboard-data-source-wizard-select-data-fields.png)
 
  Click **Finish** to create a JSON data source.
 

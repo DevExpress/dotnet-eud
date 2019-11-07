@@ -4,9 +4,9 @@ author: Natalia Kazakova
 legacyId: 117968
 ---
 # Filter Queries
-SQL queries constructed in the [Query Builder](query-builder.md) can be filtered by including the _WHERE_ clauses to the query. Filtering can be applied to either underlying or aggregated data. You can also limit the number of returned records when filtering data.
+SQL queries constructed in the [Query Builder](../query-builder.md) can be filtered by including the _WHERE_ clauses to the query. Filtering can be applied to either underlying or aggregated data. You can also limit the number of returned records when filtering data.
 
-To filter a query, deselect added tables and click the ellipsis button of the **Filter** field within the [Query Builder](query-builder.md).
+To filter a query, deselect added tables and click the ellipsis button of the **Filter** field within the [Query Builder](../query-builder.md).
 
 ![wdd-invoke-filter-editor-for-query](../../../../images/img125644.png)
 

@@ -11,7 +11,7 @@ To add a new data source, click **Add** next to the **Used Data Sources** list.
 ![WDD-add-data-source-to-the-collection](../../../images/img124583.png)
 
 The **Add Data Source** window is invoked. Here you can perform the following actions.
-* Click **Create** to invoke the [Dashboard Data Source Wizard](working-with-sql-data-sources/dashboard-data-source-wizard.md) where you can create a new data source based on the predefined data connection.
+* Click **Create** to invoke the [Dashboard Data Source Wizard](dashboard-data-source-wizard.md) where you can create a new data source based on the predefined data connection.
 * Select the existing data source from the list.
 
 ![WDD-include-selected-data-source-to-the-dashboard](../../../images/img124584.png)
