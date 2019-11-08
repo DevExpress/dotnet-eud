@@ -8,7 +8,7 @@ On the **Review** [tab](text-editor-ui/ribbon-interface.md), in the **Tracking**
 
 ![track-changes-enable](../../../images/rich-text-editor-track-changes-enable.png)
 
-When Track Changes is turned on, changes are indicated by red lines in the margin.
+When Track Changes is turned on, red lines in the margin indicate the changes.
 
 ![IMAGE](../../../images/rich-text-editor-track-changes-simple-markup.png)
 
