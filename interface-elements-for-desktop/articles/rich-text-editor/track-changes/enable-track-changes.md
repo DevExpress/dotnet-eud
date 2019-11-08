@@ -1,6 +1,6 @@
 # Enable Track Changes
 
-The Rich Text Editor allows you to use Track Changes to make revisions in a document.
+The **Track Changes** feature allows you to keep track of the changes.
 
 ## Turn On Track Changes
 
@@ -16,7 +16,7 @@ When it's turned off, the Rich Text Editor stops marking changes, but the lines 
 
 ## View Changes
 
-Use the **Display for Review** drop-down list to specify how to display changes in the document. On the **Review** [tab](text-editor-ui/ribbon-interface.md), in the **Tracking** group, open the **Display for Review** list. s
+Use the **Display for Review** drop-down list to specify how to display changes in the document. On the **Review** [tab](text-editor-ui/ribbon-interface.md), in the **Tracking** group, open the **Display for Review** list.
 
 ![IMAGE](../../../images/rich-text-editor-track-changes-display-for-review.png)
 
@@ -36,7 +36,7 @@ You can also double-click red lines in the margin to toggle between **Simple Mar
 >[!NOTE]
 > Rich Text Editor does not display changes in the Reviewing Pane or in balloons.
 
-Use **Next** and **Previous** buttons on the **Changes** ribbon group to switch between revisions.
+Use **Next** and **Previous** buttons on the **Changes** ribbon group to switch between changes.
 
 ![IMAGE](../../../images/rich-text-editor-track-changes-previous-next.png)
 
