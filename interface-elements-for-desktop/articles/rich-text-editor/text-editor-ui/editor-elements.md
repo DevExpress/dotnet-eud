@@ -4,29 +4,43 @@ author: Elena Dvoryadkina
 legacyId: 7441
 ---
 # Editor Elements
-The **Rich Text Editor** consists of visual elements that provide you with the capability to edit and view documents.
 
-![RTEElementsOverView](../../../images/img121233.png)
+The Rich Text Editor can contain the following visual elements:
 
-## Main Elements
-The main area of the **Rich Text Editor** control is the **Text Editing Surface** that displays a document to be edited. Here, a document can look as it will appear when you print it (**Print Layout View**) or with reduced formatting and pagination (**Simple View** or **Draft View**). For more information, see [Switch Document Views](../viewing-and-navigating/switch-document-views.md).
+![RTEElementsOverView](../../../images/rteelementsoverview121233.png)
 
-To the top and to the left of the **Text Editing Surface**, the **Rich Text Editor** displays horizontal and vertical **rulers**, which you can use to align text, graphics, and other elements in a document.
+## Command UI
 
-The **horizontal ruler** controls the width of table columns and the horizontal spacing of paragraph margins, columns and tabs.
+![IMAGE](../../../images/richedit_visual_elements_command_ui.png)
 
-![RTETabsAlignment](../../../images/img121322.png)
+The Rich Text Editor can be provided with a Ribbon or with a set of toolbars. Each command bar type enables end users to perform basic operations (format and edit text, create lists, add headers and footers, work with tables, etc.).
 
-The **vertical ruler** allows you to set the top and bottom margins of a document, and change the height of table rows.
+## Views
 
-![RTEVerticalAlignment](../../../images/img121323.png)
+![IMAGE](../../../images/richedit_visual_elements_views.png)
 
-> [!NOTE]
-> If the ruler is hidden, [switch the current view](../viewing-and-navigating/switch-document-views.md) to either the **Draft View** or **Print Layout View**.
+The Rich Text Editor is able to display documents in three different ways depending on the applied **View**. You can change the active view and control the visibility of the editing surface elements.
 
-At the bottom and at the right of the **Text Editing Surface** there are horizontal and vertical **scrollbars**, which allow you to navigate through a document.
+## Rulers
 
-## Context Menu
-The **Rich Text Editor** supports the **Context Menu** that appears when you right-click within the **Text Editing Surface**. The context menu provides common commands and displays suggested corrections if you right-click a misspelled word.
+![IMAGE](../../../images/richedit_visual_elements_rulers.png)
 
-![RTESpellCheckingContextMenu](../../../images/img121326.png)
+The Rich Text Editor's editing surface is provided with horizontal and vertical rulers. The rulers help end you align text, shapes, tables and other elements.
+
+## Scrollbars
+
+![IMAGE](../../../images/richedit_visual_elements_scrollbars.png)
+
+The document view can display horizontal and vertical scrollbars if a page does not fit into the control's display area.
+
+## Reviewing Pane
+
+![IMAGE](../../../images/richedit_visual_elements_reviewing_pane.png)
+
+The Reviewing Pane displays all comments contained in the document and allows you to navigate throughout the comments and modify them.
+
+## Pop-up Menus
+
+![IMAGE](../../../images/richedit_visual_elements_popup_menus.png)
+
+When you clicks different visual objects, a specific pop-up menu appears. The Rich Text Editor provides several pop-up menu types.
