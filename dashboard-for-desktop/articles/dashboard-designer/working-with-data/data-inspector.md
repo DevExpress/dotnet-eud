@@ -3,26 +3,20 @@ title: Data Inspector
 author: Margarita Zakhodyaeva
 ---
 # Data Inspector
-**Data Inspector** is a dialog window that contains two grids that display raw and aggregated data. You can switch from one grid to another with the radio group located at the window top. 
-
-Aggregated Data:
-
-![](../../../images/data-inspector-aggr.png)
-
-Raw Data:
-
-![](../../../images/data-inspector-raw.png)
+**Data Inspector** is a dialog window that displays raw and aggregated data. 
 
 
 ## Overview
 
 To invoke the Data Inspector window, click the "Inspect Data" button ![](../../../images/inspect-data-winforms.png) in the [dashboard item caption](../dashboard-layout/dashboard-item-caption.md) or select the "Inspect Data" context menu item. 
 
-The "Inspect Data" button and menu item are initially hidden. You can inspect the raw or / and aggregated data depending on the Dashboard Designer configuration.
 
 ## Aggregated (Displayed) Data
 
 The data shown as _Aggregated_ is retrieved from the dashboard item's data storage.
+
+![](../../../images/data-inspector-aggr.png)
+
 The columns are:
 
 * [Dimensions](../designing-dashboard-items/grid/columns/dimension-column.md), except the **Sparkline**.
@@ -32,3 +26,7 @@ The columns are:
 ## Raw Data
 
 Raw data is the dashboard item's underlying data. 
+
+Raw Data:
+
+![](../../../images/data-inspector-raw.png)

@@ -10,6 +10,19 @@
       href: articles/web-dashboard-designer-mode/providing-data/create-a-new-data-source.md
     - name: Connect to an Existing Data Source
       href: articles/web-dashboard-designer-mode/providing-data/connect-to-an-existing-data-source.md
+    - name: Dashboard Data Source Wizard
+      href: articles/web-dashboard-designer-mode/providing-data/dashboard-data-source-wizard.md
+      items:
+       - name: Specify Data Source Settings (Database)
+         href: articles/web-dashboard-designer-mode/providing-data/dashboard-data-source-wizard/specify-data-source-settings-database.md
+       - name: Specify Data Source Settings (JSON)
+         href: articles/web-dashboard-designer-mode/providing-data/dashboard-data-source-wizard/specify-data-source-settings-json.md
+       - name: Specify Data Source Settings (OLAP)
+         href: articles/web-dashboard-designer-mode/providing-data/dashboard-data-source-wizard/specify-data-source-settings-olap.md
+    - name: Query Builder
+      href: articles/web-dashboard-designer-mode/providing-data/query-builder.md
+    - name: Preview Data
+      href: articles/web-dashboard-designer-mode/providing-data/preview-data.md
     - name: Manage Data Sources
       href: articles/web-dashboard-designer-mode/providing-data/manage-data-sources.md
     - name: Working with SQL Data Sources
@@ -17,18 +30,12 @@
       items:
       - name: Manage SQL Queries
         href: articles/web-dashboard-designer-mode/providing-data/working-with-sql-data-sources/manage-sql-queries.md
-      - name: Dashboard Data Source Wizard
-        href: articles/web-dashboard-designer-mode/providing-data/working-with-sql-data-sources/dashboard-data-source-wizard.md
-      - name: Query Builder
-        href: articles/web-dashboard-designer-mode/providing-data/working-with-sql-data-sources/query-builder.md
       - name: Filter Queries
         href: articles/web-dashboard-designer-mode/providing-data/working-with-sql-data-sources/filter-queries.md
       - name: Pass Query Parameters
         href: articles/web-dashboard-designer-mode/providing-data/working-with-sql-data-sources/pass-query-parameters.md
       - name: Stored Procedures
         href: articles/web-dashboard-designer-mode/providing-data/working-with-sql-data-sources/stored-procedures.md
-      - name: Preview Data
-        href: articles/web-dashboard-designer-mode/providing-data/working-with-sql-data-sources/preview-data.md
     - name: Filter Data Sources
       href: articles/web-dashboard-designer-mode/providing-data/filter-data-sources.md
     - name: Calculated Fields
@@ -294,6 +301,8 @@
       href: articles/web-dashboard-designer-mode/appearance-customization/conditional-formatting.md
     - name: Coloring
       href: articles/web-dashboard-designer-mode/appearance-customization/coloring.md
+    - name: Themes
+      href: articles/web-dashboard-designer-mode/appearance-customization/themes.md
   - name: Data Analysis
     href: articles/web-dashboard-designer-mode/data-analysis.md
     items:

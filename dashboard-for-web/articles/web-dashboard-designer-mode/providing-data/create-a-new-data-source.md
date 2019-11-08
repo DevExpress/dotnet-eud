@@ -7,7 +7,7 @@ legacyId: 117959
 This topic describes how to create a new data source based on the existing data connection.
 
 ## Create a Data Source for a New Dashboard
-After [creating](create-a-new-data-source.md) a new dashboard, the **New** page of the [dashboard menu](../ui-elements/dashboard-menu.md) is invoked. Click the **Create data source...** button to invoke the [Dashboard Data Source Wizard](working-with-sql-data-sources/dashboard-data-source-wizard.md) where you can select the required connection.
+After [creating](create-a-new-data-source.md) a new dashboard, the **New** page of the [dashboard menu](../ui-elements/dashboard-menu.md) is invoked. Click the **Create data source...** button to invoke the [Dashboard Data Source Wizard](dashboard-data-source-wizard.md) where you can select the required connection.
 
 ![WebDesignerGettingStarted_CreateDataSource](../../../images/img123741.png)
 
