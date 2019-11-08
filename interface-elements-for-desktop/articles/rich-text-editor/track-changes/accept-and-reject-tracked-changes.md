@@ -20,7 +20,7 @@ You can also accept a change from the context menu.
 
 All the changes can be accepted simultaneously. In the **Changes** ribbon group on the **Review** tab, open the **Accept** drop-down menu and select one of the following options:
 
-* **Accept All Changes** - to accept all changes and keep Track Changes on;
+* **Accept All Changes** - Accept all changes and keep Track Changes on;
 * **Accept All Changes and Stop Tracking** - to accept all changes and disable Track Changes;
 * **Accept All Changes Shown** - to accept all visible changes (available if changes from specific authors are displayed).
 
