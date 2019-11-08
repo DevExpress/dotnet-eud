@@ -4,17 +4,87 @@ author: Natalya Senichkina
 legacyId: 15801
 ---
 # Spreadsheet Elements
-The **Spreadsheet** consists of visual elements that provide the capability to [create](../file-operations/create-a-workbook.md), edit and view spreadsheet documents, which are called **workbooks**. A workbook includes one or more **worksheets** used to store data. You can [add](../file-operations/create-a-worksheet.md), [delete](../file-operations/delete-a-worksheet.md) and [rename](../file-operations/rename-a-worksheet.md) worksheets in a workbook. All existing worksheets are displayed on the **Sheet tab** bar at the bottom of the control. Click one of the sheet tabs to switch between existing worksheets. To navigate through the current worksheet, use the horizontal and vertical **scrollbars**.
 
-A worksheet consists of **cells** that are organized into 1,048,576 **rows** and 16,384 **columns**. Each row is numbered (**1**, **2**, **3**, ...) and each column is lettered (**A**, **B**, **C**, ...) if the [A1 reference style](../formulas/cell-references.md) is used, or numbered (**1**, **2**, **3**, ...) if the [R1C1 reference style](../formulas/cell-references.md) is specified. **Row** and **column headings** are displayed at the left and at the top of a worksheet, respectively.
+The **Spreadsheet** can include the following elements:
 
-An individual cell is a box at the intersection of a column and a row. Each cell is indicated by a **cell reference**, (the column letter and row number where the column and row intersect). For example, **B2** refers to a cell at the intersection of column **B** and row **2**. The cell reference is displayed in the **Name Box**, located at the top-left corner of a worksheet. The current cell that is selected and used to enter data is called the **active cell**. The active cell is identified by a blue border around the cell.
+* [Ribbon](#ribbon)
 
-Each cell contains a single piece of data, the **cell value**. You can enter different types of values such as text, numbers or dates. The **Spreadsheet** also provides the capability to create and edit [formulas](../formulas/create-a-simple-formula.md) that perform calculations on the data on a worksheet. To enter a formula, you can use the **Formula Bar** at the top of a worksheet. If a cell does not contain a formula, the cell content is displayed in the **Formula Bar**.
+* [Formula Bar](#formula-bar)
 
-![SpreadsheetElements.png](../../../images/img21266.png)
+* [Spreadsheet Control](#spreadsheet-control)
 
-## Context Menu
-The **Spreadsheet** supports a **Context Menu**, which appears when you right-click anywhere on a worksheet (e.g., an individual cell, or row and column headers). The context menu provides common commands for working with a document.
+* [Status Bar](#status-bar)
 
-![ContextMenu.png](../../../images/img21267.png)
+![WinFormsSpreadsheet_VisualElements](../../../images/winforms-spreadsheet-visualelements.png)
+
+## Ribbon
+
+A ribbon contains multiple tabs with grouped commands that enable you to perform basic operations in the Spreadsheet control: create, load, modify, save, and print spreadsheet documents.
+
+![Spreadsheet_VisualElements_Ribbon](../../../images/spreadsheet-visualelements-ribbon.png)
+
+## Formula Bar
+
+The **Formula Bar** displays an active cell's value and allows you to view, enter, and edit formulas and cell data in the Spreadsheet control.
+
+![Spreadsheet_VisualElements_FormulaBar](../../../images/spreadsheet-visualelements-formulabar.png)
+
+The **Name Box** is a part of the Formula Bar that displays a reference to an active cell or a name for the selected cell range (if specified), picture or chart. The Name Box also enables you to create named ranges, and quickly navigate to cells by their references and names.
+
+![Spreadsheet_VisualElements_NameBox](../../../images/spreadsheet-visualelements-namebox.png)
+
+## Spreadsheet Control
+
+### Worksheet
+
+A worksheet is a single page within a document. A worksheet is represented by a grid of cells and is used to store and edit data in the Spreadsheet control. The default Spreadsheet application contains one blank worksheet.
+
+![Spreadsheet_VisualElements_Worksheet](../../../images/spreadsheet-visualelements-worksheet.png)
+
+### Rows and Columns
+
+Each worksheet is divided into 1,048,576 rows and 16,384 columns. Each row is numbered (1, 2, 3, ...) and each column is lettered (A, B, C, ...) or numbered (1, 2, 3, ...), depending on the reference style applied.
+
+![Spreadsheet_VisualElements_RowsAndColumns](../../../images/spreadsheet-visualelements-rowsandcolumns.png)
+
+### Cells
+
+All worksheet data is stored in cells. All cells have faint borders, or _gridlines_, around them.
+
+![Spreadsheet_VisualElements_Cells](../../../images/spreadsheet-visualelements-cells.png)
+
+You can double-click a cell, press **F2** or start typing to edit a cell value. You can enter a numeric] or text value, or insert a formula to calculate a cell's value dynamically.
+
+### Selection
+
+The Spreadsheet control enables you to select cells, cell ranges, rows, and columns in a worksheet. The selected cell used to enter data is called an _active cell_. When a cell range is selected, the active cell is usually the top left cell of this range.
+
+![Spreadsheet_VisualElements_Selection](../../../images/spreadsheet-visualelements-selection.png)
+
+### Sheet Tab Selector
+
+The **Sheet Tab Selector** displays all worksheets in a workbook. It enables you to add new worksheets, move between the existing worksheets, rename, hide or delete them.
+
+![Spreadsheet_VisualElements_SheetTabSelector](../../../images/spreadsheet-visualelements-sheettabselector.png)
+
+### Vertical and Horizontal Scroll Bars
+
+The horizontal and vertical scroll bars allow you to navigate through the current worksheet.
+
+![Spreadsheet_VisualElements_ScrollBars](../../../images/spreadsheet-visualelements-scrollbars.png)
+
+### Context Menus
+
+When you right-clicks anywhere on a worksheet (that is, a cell, row or column header, picture or chart), a context menu appears. It contains basic commands used to work with the current object.
+
+![Spreadsheet_VisualElements_ContextMenu](../../../images/spreadsheet-visualelements-contextmenu.png)
+
+## Status Bar
+
+A status bar appears at the bottom of the Spreadsheet application and displays the following elements:
+
+* Summary data: the average, count, numerical count, min, max, and sum of selected cells.
+
+* The zoom level and zoom slider.
+
+![StatusBar](../../../images/spreadsheet-visualelements-status-bar.png)
