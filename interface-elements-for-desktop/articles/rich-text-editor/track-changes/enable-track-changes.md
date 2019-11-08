@@ -12,7 +12,7 @@ When Track Changes is turned on, red lines in the margin indicate the changes.
 
 ![IMAGE](../../../images/rich-text-editor-track-changes-simple-markup.png)
 
-When it's turned off, the Rich Text Editor stops marking changes, but the lines are still displayed in the document.
+When you turn of Track Changes, the Rich Text Editor does not mark changes but displays the lines in the document.
 
 ## View Changes
 
