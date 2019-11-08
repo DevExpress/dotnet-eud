@@ -1403,6 +1403,12 @@
       href: articles/rich-text-editor/table-of-contents/create-table-of-contents-for-special-cases.md
     - name: Update Table of Contents
       href: articles/rich-text-editor/table-of-contents/update-table-of-contents.md
+  - name: Track Changes
+    items:
+    - name: Enable Track Changes
+      href: articles/rich-text-editor/track-changes/enable-track-changes.md
+    - name: Accept and Reject Tracked Changes
+      href: articles/rich-text-editor/track-changes/accept-and-reject-tracked-changes.md
   - name: Document Protection
     items:
     - name: Protect and Unprotect a Document
