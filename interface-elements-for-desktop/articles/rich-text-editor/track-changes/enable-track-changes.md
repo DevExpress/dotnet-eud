@@ -48,7 +48,7 @@ On the **Review** [tab](text-editor-ui/ribbon-interface.md), in the **Tracking**
 
 ## Lock Tracking
 
-You can provide a password to prevent users from disabling Track Changes. On the **Review** [tab](text-editor-ui/ribbon-interface.md), in the **Tracking** group, click **Lock Tracking** in the **Track Changes** drop-down list.
+You can set a password that prevents users from disabling Track Changes. In the **Tracking** group on the **Review** [tab](text-editor-ui/ribbon-interface.md), click **Lock Tracking** in the **Track Changes** drop-down list.
 
 ![IMAGE](../../../images/rich-text-editor-track-changes-lock-track.png)
 
