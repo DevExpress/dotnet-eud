@@ -22,7 +22,7 @@ All the changes can be accepted simultaneously. In the **Changes** ribbon group 
 
 * **Accept All Changes** - Accept all changes and keep Track Changes on;
 * **Accept All Changes and Stop Tracking** - to accept all changes and disable Track Changes;
-* **Accept All Changes Shown** - to accept all visible changes (available if changes from specific authors are displayed).
+* **Accept All Changes Shown** - Accept all visible changes (available if changes from specific authors are displayed).
 
 ![IMAGE](../../../images/rich-text-editor-track-changes-accept-all.png)
 
