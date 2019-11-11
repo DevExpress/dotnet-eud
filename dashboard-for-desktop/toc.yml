@@ -20,6 +20,16 @@
       href: articles/dashboard-designer/providing-data/binding-to-extract-data-sources.md
     - name: Data Processing Modes
       href: articles/dashboard-designer/providing-data/data-processing-modes.md
+    - name: Connect to EF Data Sources
+      href: articles/dashboard-designer/providing-data/connect-to-ef-data-sources.md
+    - name: Binding to Federated Data Source
+      href: articles/dashboard-designer/providing-data/binding-to-federated-data-source.md
+    - name: Binding to JSON Data Sources
+      href: articles/dashboard-designer/providing-data/binding-to-json-data-sources.md
+    - name: Binding to Object Data Sources
+      href: articles/dashboard-designer/providing-data/binding-to-object-data-sources.md
+    - name: Binding to XPO Data Sources
+      href: articles/dashboard-designer/providing-data/binding-to-xpo-data-sources.md
   - name: Working with Data
     href: articles/dashboard-designer/working-with-data.md
     items:
