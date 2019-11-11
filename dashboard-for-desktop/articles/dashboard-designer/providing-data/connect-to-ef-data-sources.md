@@ -1,8 +1,8 @@
 ---
-title: Binding to EF Data Sources
+title: Connect to EF Data Sources
 author: Margarita Zakhodyaeva
 ---
-# Binding to EF Data Sources
+# Connect to EF Data Sources
 
 To bind a dashboard to an Entity Framework data source from the current project, do the following.
 
@@ -14,7 +14,7 @@ To bind a dashboard to an Entity Framework data source from the current project,
 
    ![ef_data_source_wizard](../../../images/ef-data-sourse-wizard.png)
 
-3. On the next page, select the required data context and click **Next**.
+3. On the next page, select the available data context and click **Next**.
 
    ![select_required_connection](../../../images/select-required-connection.png)
 

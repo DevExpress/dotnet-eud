@@ -4,7 +4,7 @@ author: Margarita Zakhodyaeva
 ---
 
 # Binding to Federated Data Source
->[NOTE]
+>[!NOTE]
 >The dashboard should have at least one **SQL**, **Object** or **Excel** data source already connected to it. Otherwise, the **Data Federation** option is not available in the **Data Source Wizard**.
 
 To create a federated data source with the Data Source Wizard, perform the following steps:

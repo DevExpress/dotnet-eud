@@ -13,10 +13,9 @@ The following data source types are supported.
 * [JSON Data Source](#json-data-source)
 * [XPO Data Source](#xpo-data-source)
 * [Extract Data Source](#extract-data-source)
-* [Federated Data Source](#federated-data-source)
-* [Federated Data Source](#federated-data-source) 
 * [Object Data Source](#object-data-source)
 * [Entity Framework Data Source](#entity-framework-data-source)
+* [Federated Data Source](#federated-data-source) 
 
 
 
@@ -87,6 +86,7 @@ The XPO data source gets data from **eXpress Persistent Objects**.
 To create an XPO data source and specify connection parameters, see [Binding to XPO Data Sources](binding-to-XPO-data-sources.md).
 
 ## Extract Data Source
+
 **Extract Data Source** is a compressed snapshot of data from a regular data source.
 This data is saved to a local file and can be updated from the original data source at any time.
 
@@ -96,6 +96,20 @@ This data is saved to a local file and can be updated from the original data sou
  A special in-memory cache allows you to improve performance when accessing extract data. 
                                                                     
  To create an Extract data source and specify connection parameters, see [Binding to Extract Data Sources](binding-to-extract-data-sources.md).
+
+
+## Object Data Source
+
+The Dashboard Designer provides a connection to an object data source defined in a separate class within a current project.
+
+To create a connection to an Object data source, see [Binding to Object Data Sources](binding-to-object-data-sources.md).
+
+## Entity Framework Data Source
+
+Use the available data context to connect to EF data source. 
+
+To create a connection to an EF data source, see [Connect to EF Data Sources](connect-to-ef-data-sources.md).
+
 
  ## Federated Data Source
 
@@ -108,18 +122,6 @@ This data is saved to a local file and can be updated from the original data sou
 * [Object Data Source](#object-data-source)
 
 To create a Federated data source with the **Data Source Wizard**, see [Binding to Federated Data Source](binding-to-federated-data-source.md).
-
-## Object Data Source
-
-The Dashboard Designer provides a connection to an object data source defined in a separate class within a current project.
-
-To create a connection to an Object data source, see [Binding to Object Data Sources](binding-to-object-data-sources.md).
-
-## Entity Framework Data Source
-
-The Dashboard Designer allows you to connect to an Entity Framework data source defined within the current project from an external assembly containing the required context.
-
-To create a connection to an EF data source, see [Binding to EF Data Sources](binding-to-ef-data-sources.md).
 
 
 

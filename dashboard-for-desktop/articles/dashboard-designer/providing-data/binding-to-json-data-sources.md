@@ -12,11 +12,42 @@ To bind a dashboard to Jason Data Sources, do the following.
     ![new-data-source](../../../images/new-data-source.png)
 
 
-2. On the first page of the invoked **Data Source Wizard** dialog, select **JSON data source** and click Next. The wizard guides you to specify the JSON data location and select the root node.
+2. On the first page of the invoked **Data Source Wizard** dialog, select **JSON data source** and click Next. 
 
-    >[!ImageGallery]
+    ![choose-data-source](../../../images/choose-data-source-2.png)
+   
 
-    >![chose-data-source](../../../images/chose-data-source-2.png)
-    >![specify-data-source](../../../images/specify3.png)
-    >![specify-data-source](../../../images/specify4.png)
-    >![specify-data-source](../../../images/specify5.png)
+3.  Select the JSON source type and specify the JSON data location. 
+     
+     * Web Service Endpoint (URI)
+
+       Specify a URL to a file in the JSON format.
+
+       ![specify-data-source](../../../images/specify3.png)
+
+      On the next page specify the Web Service Endpoint's request parameters (username and password, HTTP headers, or query parameters).
+
+       ![specify-data-source](../../../images/specify4.png)
+
+    * JSON String
+
+       Provide data in the JSON format. 
+
+       ![json_string](../../../images/json_string.png)
+       
+    * JSON File
+
+       Specify the JSON file location.
+
+       ![json_file_location](../../../images/json_file_location.png)
+
+
+4. Select the root node and click **Finish**
+
+    ![specify-data-source](../../../images/specify5.png)
+
+
+
+
+
+
