@@ -18,4 +18,6 @@ Boolean expressions:
 
 _"[Country] == 'USA'"_
 
+For more information about syntax you can use in expressions, see [Expression Operators, Functions and Constants](expression-editor/expression-operators-functions-and-constants.md)
+
 The Expression Editor supports numerous standard functions, allowing you to easily perform different string, date-time, logical and math operations over data. You can access the available functions by selecting the **Functions** category.
