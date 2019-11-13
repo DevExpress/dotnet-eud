@@ -5,17 +5,6 @@ author: Margarita Zakhodyaeva
 # Pivot Grid Expression Syntax
 
 The following topic contains constants, operators, and functions you can use in expressions.
-* [Constants](#constants)
-* [Operators](#operators)
-* [Aggregate Functions](#aggregate-functions)
-* [Date-time-Functions](#date-time-functions)
-* [Logical-Functions](#logical-functions)
-* [Math-Functions](#math-functions)
-* [String Functions](#string-functions)
-* [Operator Precedence](#operator-precedence)
-* [Case Sensitivity](#case-sensitivity)
-* [Escape Characters](#escape-characters)
-* [Export to XLS and XLSX](#export-to-xls-and-xlsx)
 
 ## Constants
 
@@ -23,81 +12,56 @@ The following topic contains constants, operators, and functions you can use in 
 |---|---|---|
 | String | Wrap string constants in apostrophes.| [Country] = 'France'|
 |constants | If a string contains an apostrophe, use double apostrophes.|[Name] = 'O''Neil'|
-| Date-time constants| Wrap date-time constants in hash symbol '#'.| True
-| Represents the 'True' Boolean value.| [InStock] = True | [OrderDate] >= #2018-03-22 13:18:51.94944# |
+| Date-time constants| Wrap date-time constants in hash symbol '#'.| [OrderDate] >= #2018-03-22 13:18:51.94944#
+| Represents the 'True' Boolean value.| [InStock] = True | [InStock] = True |
 | False | Represents the 'False' Boolean value.| [InStock] = False
-| Enumeration | To specify an enumeration value,  use its underlying integer value. | Correct: [Status] = 1 |
-|             |  Do not use an enumeration's qualified name in an expression. | Incorrect: [Status] = Status.InProgress |
-|             | You can register custom enumerations using the  class' static methods | Enum registered using EnumProcessingHelper: [Status] = | 
-|             | and then refer to enumeration values as follows: | ##Enum#MyNamespace.Status,InProgress# |
-| GUID | Wrap a GUID constant in curly braces. | [OrderID] = {513724e5-17b7-4ec6-abc4-0eae12c72c1f} |
-|      | Use GUID constants only with equality and inequality operators. |         
-| Numeric | Add suffixes to literals to specify a numeric type: |
-|         | * Int32 (int)       | * [ID] = 25           |
-|         | * Int16 (short)     | * [Qty] = 25s         |
-|         | * Byte (byte)       | * [ByteField] = 201b  |
-|         | * Double (double)   | * [Price] = 25.0      |
-|         | * Single (float)    | * [Price] = 25.0f     |
-|         | * Decimal (decimal) | * [Price] = 25.0m     |
-| ? | A missing, invalid or unknown value.
-|   | We recommend using the IsNull unary operator ("[Region] Is Null") | [Region] != ? |
-|   | or the IsNull logical function ("IsNull([Region])") instead.| 
+| Enumeration | To specify an enumeration value,  use its underlying integer value. Do not use an enumeration's qualified name in an expression. | _Correct_: [Status] = 1 <br> _Incorrect_: [Status] = Status.InProgress| </br>
+| GUID | Wrap a GUID constant in curly braces. Use GUID constants only with equality and inequality operators.| [OrderID] = {513724e5-17b7-4ec6-abc4-0eae12c72c1f} |      
+| Numeric | Add suffixes to literals to specify a numeric type: <br> * Int32 (int) </br> * Int16 (short) </br> * Byte (byte)  </br>  * Double (double)  </br>  * Single (float) </br> * Decimal (decimal) </br>  | <br> * [ID] = 25 </br> * [Qty] = 25s  </br>  * [ByteField] = 201b </br> * [Price] = 25.0  </br>  * [Price] = 25.0f </br> * [Price] = 25.0m </br> |
+| ? | A missing, invalid or unknown value. We recommend using the **IsNull** unary operator ("[Region] Is Null") or the **IsNull** logical function ("IsNull([Region])") instead.  | [Region] != ? |
+
 
 ## Operators
 
 | Operator | Description | Example |
 |---|---|---|
-| + | Calculates the sum of two numeric  operands. Concatenates the string representations of operands, if one of them | [UnitPrice] + 4 |
-|   | is a string.| [FirstName] + ' ' + [LastName] |
+| + | Calculates the sum of two numeric  operands. Concatenates the string representations of operands, if one of them is a string. | [UnitPrice] + 4 <br> [FirstName] + ' ' + [LastName] </br> |
 | - | Subtracts the second operand from the first operand. | [Price1] - [Price2] |
 | * | Multiplies operands.| [Quantity] * [UnitPrice] |
 | / | Divides the first operand by the second operand.| [Quantity] / 2 |
 | % | Returns the remainder after division of  the first operand by the second operand.| [Quantity] % 3|
-| \| | Performs a bitwise inclusive OR on two numeric expressions. Compares each bit of its first operand to the |  [Number] \| [Number] |
-|   | corresponding bit of its second operand. If either bit is 1, the corresponding resulting bit is set to 1. |
-|   | Otherwise, the corresponding resulting bit is set to 0. |
-| & | The bitwise AND operator. Compares each bit of its first operand to the corresponding bit of its second operand. | [Number] & 10 |
-|   | If both bits are 1, the corresponding resulting bit is set to 1. Otherwise, the corresponding resulting bit is set to 0. | 
+| \| | Performs a bitwise inclusive OR on two numeric expressions. Compares each bit of its first operand to the corresponding bit of its second operand. If either bit is 1, the corresponding resulting bit is set to 1. Otherwise, the corresponding resulting bit is set to 0. |  [Number] \| [Number] |
+| & | The bitwise AND operator. Compares each bit of its first operand to the corresponding bit of its second operand. If both bits are 1, the corresponding resulting bit is set to 1. Otherwise, the corresponding resulting bit is set to 0. | [Number] & 10 |
 | ^ | Performs a bitwise exclusive OR on two numeric expressions. | [Number] ^ [Number] |
-| = | Returns true if operands are equal; otherwise, it returns false. | [Quantity] = 10
-| == |  |   |
-| != | Returns true if operands are not equal; otherwise, it returns false. | [Country] != 'France' | | <
+| = <br>  == </br>| Returns true if operands are equal; otherwise, it returns false. | [Quantity] = 10
+| != | Returns true if operands are not equal; otherwise, it returns false. | [Country] != 'France' | | 
 | < | Relational 'less than' operator.| [UnitPrice] < 20 |
 | <= | Relational 'less than or equal' operator. | [UnitPrice] <= 20 |
 | >= | Relational 'greater than or equal' operator. | [UnitPrice] >= 30 |
 | > | Relational 'greater than' operator. | [UnitPrice] > 30 |
-| And | Performs a logical conjunction on two Boolean expressions. | [InStock] And ([ExtendedPrice]> 100) |
-| &&  |     | [InStock] && ([ExtendedPrice]> 100) |
-| Or | Performs a logical disjunction on two Boolean expressions. | [Country]=='USA' Or [Country]=='UK' |
-| \|\| |   | [Country]=='USA' || [Country]=='UK' |
+| And <br>  &&  </br> | Performs a logical conjunction on two Boolean expressions. | [InStock] And ([ExtendedPrice]> 100) <br> [InStock] && ([ExtendedPrice]> 100) </br>|
+| Or <br> \|\| </br> | Performs a logical disjunction on two Boolean expressions. | [Country]=='USA' Or [Country]=='UK' <br> [Country]=='USA' \|\| [Country]=='UK' </br> |
 | ~ | Performs a bitwise negation on a numeric expression.| ~[Roles] = 251 |
-| Not | Performs a logical negation on a Boolean expression. | Not [InStock] |
-| ! |       |  ![InStock] |
+| Not <br> !  </br>| Performs a logical negation on a Boolean expression. | Not [InStock] <br> ![InStock]  </br> |
 | + | Returns a numeric expression's value (a unary operator). | +[Value] = 10 |
 | - | Returns the negative of a numeric expression's value (a unary operator). | -[Value] = 20 |
 | Is Null | Returns true if an expression is a null reference, the one that does not refer to any object. | [Region] is null |
-| In (value1,value2,...) | Specifies a list of values to test. Returns true if an operand is equal to a value contained in a list. | [Country] In ('USA', 'UK', 'Italy') |
-| Between (value1,value2) | Specifies a range to test. Returns true if an operand is greater than or equal to the value1 and less than or equal| [Quantity] Between(10, 20) |
-|                         | to the value2. | [Product Name] Between('Ikura','Pavlova') |
+| In (value1,value2,...) | Specifies a list of values to test. Returns **true** if an operand is equal to a value contained in a list. | [Country] In ('USA', 'UK', 'Italy') |
+| Between (value1,value2) | Specifies a range to test. Returns **true** if an operand is greater than or equal to the value1 and less than or equal to the value2.| [Quantity] Between(10, 20) <br>  [Product Name] Between('Ikura','Pavlova') </br> |
+
 
 ## Aggregate Functions
 
-
 | Function | Description | Example |
 |---|---|---|
-| Avg(Value) | Returns the average of the values.                  | Avg([Quantity]) returns an average quantity of goods in an order, |
-|            | ![func-average](../../../images/func_average.png)   | if the pivot table is built upon the data table where each row is an order. | 
-|            |                                                     | The Quantity values are summarized for all orders in the underlying data table, |                             
-|            |                                                     | and the result is divided by the total number of orders. |                               
+| Avg(Value) | Returns the average of the values. <br> ![func-average](../../../images/func_average4457.png) </br> | Avg([Quantity]) returns an average quantity of goods in an order, if the pivot table is built upon the data table where each row is an order. The Quantity values are summarized for all orders in the underlying data table, and the result is divided by the total number of orders.|                             
 | Count() | Returns the number of records in the underlying data table. | Count() |
 | Exists() | Not supported in Pivot Grid expressions.| |   
-| Max(Value) | Returns the maximum value. | Max([Quantity]) returns the maximum quantity of goods in a single order among all orders in the underlying data table, |
-|            |                            | if the pivot table is built upon the data table where each row is an order. |
-| Min(Value) | Returns the minimum value. | Min([Quantity]) returns the maximum quantity of goods in a single order among all orders in the underlying data table, |
-|            |                            | if the pivot table is built upon the data table where each row is an order. |
+| Max(Value) | Returns the maximum value. | Max([Quantity]) returns the maximum quantity of goods in a single order among all orders in the underlying data table, if the pivot table is built upon the data table where each row is an order. |
+| Min(Value) | Returns the minimum value. | Min([Quantity]) returns the maximum quantity of goods in a single order among all orders in the underlying data table, if the pivot table is built upon the data table where each row is an order. |
 | Single()   | Not supported in Pivot Grid expressions. | |
-| Sum(Value) | Returns the sum of all values.| Sum([Quantity]) returns the number of all items in all orders in the underlying data table, if the pivot table is built upon |
-|            |                            |  the data table where each row is an order. |
+| Sum(Value) | Returns the sum of all values.| Sum([Quantity]) returns the number of all items in all orders in the underlying data table, if the pivot table is built upon the data table where each row is an order.|
+
 
 ## Date-time Functions
 
@@ -178,10 +142,7 @@ The following topic contains constants, operators, and functions you can use in 
 
 | Function | Description | Example |
 |---|---|---|
-| Iif(Expression1, True_Value1, ..., ExpressionN, True_ValueN, False_Value) | Returns one of several specified values depending upon the values of logical expressions. The function can take | Iif(Name = 'Bob', 1, 0)
-|                                                                           | 2N+1 arguments (N - the number of specified logical expressions):                                               | Iif(Name = 'Bob', 1, Name =
-|                                                                           | * Each odd argument specifies a logical expression;                                                             | 'Dan', 2, Name = 'Sam', 3, 0)
-|                                                                           | * Each even argument specifies the value that is returned if the previous expression evaluates to true;         |
+| Iif(Expression1, True_Value1, ..., ExpressionN, True_ValueN, False_Value) | Returns one of several specified values depending upon the values of logical expressions. The function can take 2N+1 arguments (N - the number of specified logical expressions): <br> * Each odd argument specifies a logical expression; </br>  * Each even argument specifies the value that is returned if the previous expression evaluates to **true** </br>  | Iif(Name = 'Bob', 1, 0) <br> Iif(Name = 'Bob', 1, Name = 'Dan', 2, Name = 'Sam', 3, 0) </br>
 | IsNull(Value) | Returns True if the specified Value is NULL. | IsNull([OrderDate]) |
 | IsNull(Value1, Value2) | Returns Value1 if it is not set to NULL; otherwise, Value2 is returned. | IsNull([ShipDate], [RequiredDate]) |
 | IsNullOrEmpty(String) | Returns True if the specified String object is NULL or an empty string; otherwise, False is returned. | IsNullOrEmpty([ProductName]) |

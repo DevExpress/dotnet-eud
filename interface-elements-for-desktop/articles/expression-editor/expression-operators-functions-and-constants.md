@@ -39,6 +39,7 @@ The following DevExpress products extend and/or override this syntax. The table 
 | + | Returns a numeric expression's value (a unary operator). | +[Value] = 10|  Yes |
 | - | Returns the negative of a numeric expression's value (a unary operator). | -[Value] = 20|  Yes |
 | ~ | Performs a bitwise negation on a numeric expression.| ~[Roles] = 251 | - |
+| Is null | Returns true if an expression is a null reference, the one that does not refer to any object. | [Region] is null | yes |
 
 ## Functions
 
@@ -51,10 +52,7 @@ The following DevExpress products extend and/or override this syntax. The table 
 | Exists() | Determines whether the object exists in the collection. | [Categories][[CategoryID] == 7].Exists() | - |
 | Max(Value) | Returns the maximum expression value in a collection. | [Products].Max([UnitPrice]) | - |
 | Min(Value) | Returns the minimum expression value in a collection. | [Products].Min([UnitPrice]) | - |
-| Single() | Returns a single object from a collection that contains no more than one object. If the collection contains more objects, use the Condition | [Accounts].Single() is not null [Collection].Single([Property1]) - returns the found object's property value. | - |
-|          | property to specify a condition. The collection must contain only one object that satisfies the condition; otherwise, the function's behavior  |
-|          | is undefined (the function may return an unexpected value or throw an exception). You can pass an expression as a parameter: [Collection][Condition].Single(Expression). |
-|          |The function returns the Expression value evaluated on an object that meets the specified Condition (optional).| 
+| Single() | Returns a single object from a collection that contains no more than one object. If the collection contains more objects, use the Condition property to specify a condition. The collection must contain only one object that satisfies the condition; otherwise, the function's behavior  is undefined (the function may return an unexpected value or throw an exception). You can pass an expression as a parameter: _[Collection][Condition].Single(Expression)_. The function returns the Expression value evaluated on an object that meets the specified _Condition (optional)_. | [Accounts].Single() is not null [Collection].Single([Property1]) - returns the found object's property value. | - |        
 | Sum(Value) | Returns the sum of all the expression values in the collection. | [Products].Sum([UnitsInStock]) | - |
 | A custom aggregate function | Returns a custom expression value for a collection, according to a custom aggregate function. You can call the function directly or pass it as a parameter.| Call a Custom Aggregate Function | - |
 
@@ -137,7 +135,7 @@ The following DevExpress products extend and/or override this syntax. The table 
 
 | Function | Description | Example |  XLS(x) Format Export-Friendly [*See Note](#note---restrictions) |
 |---|---|---|---| 
-| Iif(Expression, TruePart, FalsePart) | Returns either TruePart or FalsePart, depending on the evaluation of the Boolean Expression. | Iif([Quantity]>=10, 10, 0 ) |  Yes |
+| Iif(Expression1, True_Value1, ..., ExpressionN, True_ValueN, False_Value) | Returns one of several specified values depending upon the values of logical expressions. The function can take 2N+1 arguments (N - the number of specified logical expressions): each odd argument specifies a logical expression; each even argument specifies the value that is returned if the previous expression evaluates to true. | Iif(Name = 'Bob', 1, 0) Iif(Name = 'Bob', 1, Name = 'Dan', 2, Name = 'Sam', 3, 0) |  Yes |
 | IsNull(Value) | Returns True if the specified Value is NULL. | IsNull([OrderDate]) |  Yes |
 | IsNull(Value1, Value2) | Returns Value1 if it is not set to NULL; otherwise, Value2 is returned. | IsNull([ShipDate], [RequiredDate]) |  - |
 | IsNullOrEmpty(String) | Returns True if the specified String object is NULL or an empty string; otherwise, False is returned. | IsNullOrEmpty([ProductName]) |  Yes |
@@ -160,6 +158,8 @@ The following DevExpress products extend and/or override this syntax. The table 
 | Log(Value) | Returns the natural logarithm of a specified number. | Log([Value]) |  Yes |
 | Log(Value, Base) | Returns the logarithm of a specified number in a specified Base. | Log([Value], 2) |  Yes |
 | Log10(Value) | Returns the base 10 logarithm of a specified number. | Log10([Value]) |  Yes |
+| Max(Value1, Value2) |	Returns the maximum value from the specified values. |	Max([Value1], [Value2])	| Yes
+| Min(Value1, Value2) |	Returns the minimum value from the specified values. |	Min([Value1], [Value2]) | Yes
 | Power(Value, Power) | Returns a specified number raised to a specified power. | Power([Value], 3) |  Yes |
 | Rnd() | Returns a random number that is less than 1, but greater than or equal to zero. | Rnd()*100 |  Yes |
 | Round(Value) | Rounds the given value to the nearest integer. | Round([Value]) |  Yes |
@@ -184,6 +184,8 @@ The following DevExpress products extend and/or override this syntax. The table 
 | CharIndex(String1, String2) | Returns the starting position of String1 within String2, beginning from the zero character position to the end of a string. | CharIndex('e', 'devexpress') | - |
 | CharIndex(String1, String2, StartLocation) | Returns the starting position of String1 within String2, beginning from the StartLocation character position to the end of a string. | CharIndex('e', 'devexpress', 2) | - |
 | Concat(String1, ... , StringN) | Returns the result of concatenating two or more string values. | Concat('A', ')', [ProductName]) |  Yes |
+|Contains(String1, SubString1) |	Returns True if SubString1 occurs within String1; otherwise, False is returned. |	Contains([ProductName], 'dairy') |	Yes
+|EndsWith(String1, SubString1) |	Returns True if the end of String1 matches SubString1; otherwise, False is returned. |	EndsWith([Description], 'The end.') |	Yes
 | Insert(String1, StartPosition, String2) | Inserts String2 into String1 at the position specified by StartPositon | Insert([Name], 0, 'ABC-') | - |
 | Len(Value) | Returns an integer containing either the number of characters in a string or the nominal number of bytes required to store a variable. | Len([Description]) |  Yes |
 | Lower(String) | Returns String in lowercase. | Lower([ProductName]) |  Yes |
@@ -194,6 +196,7 @@ The following DevExpress products extend and/or override this syntax. The table 
 | Remove(String, StartPosition, Length) | Deletes a specified number of characters from this instance, beginning at a specified position. | Remove([Name], 0, 3) | - |
 | Replace(String, SubString2, String3) | Returns a copy of String1, in which SubString2 has been replaced with String3. | Replace([Name], 'The ', '') | - |
 | Reverse(String) | Reverses the order of elements within String. | Reverse([Name]) | - |
+| StartsWith(String1, SubString1)	 | Returns True if the beginning of String1 matches SubString1; otherwise, False.	| StartsWith([Title], 'The best')	 | Yes
 | Substring(String, StartPosition, Length) | Retrieves a substring from String. The substring starts at StartPosition and has the specified Length.. | Substring([Description], 2, 3) |  Yes |
 | Substring(String, StartPosition) | Retrieves a substring from String. The substring starts at StartPosition. | Substring([Description], 2) |  - |
 | ToStr(Value) | Returns a string representation of an object. | ToStr([ID]) | - |
@@ -209,16 +212,24 @@ The following DevExpress products extend and/or override this syntax. The table 
 | Date-time constants | Date-time constants must be wrapped in '#'. | [OrderDate] &gt;= #1/1/2009# |  Yes |
 | True | Represents the Boolean True value. | [InStock] == True |  Yes |
 | False | Represents the Boolean False value. | [InStock] == False |  Yes |
-| ? | Represents a null reference or DBNull.Value. | [Region] != ? |  Yes |
+| ? | Represents a null reference that does not refer to any object. We recommend using the IsNull unary operator (for example, "[Region] is null") or the IsNull logical function (for example, "IsNull([Region])") instead. | [Region] != ? |  Yes |
 | Enumeration | Specify an enumeration value using its underlying integer value. | [Status] == 1
 | Guid|  Wrap a Guid constant in curly braces. Use Guid constants in a relational operation with equality or inequality operators only. | [OrderID] == {513724e5-17b7-4ec6-abc4-0eae12c72c1f} | Yes |
-| Numeric |     Specify different numeric constant types in a string form using suffixes: |  [Price] == 25.0m |  Yes |
-|   |     * Int32 (int) - _1_ |
-|   |     * Int16 (short) - _1s_ | |  
-|   |      * Byte (byte) - _1b_ | | 
-|   |      * Double (double) - _1.0_ | | 
-|   |      * Single (float) - _1.0f_ | |  
-|   |      * Decimal (decimal) - _1.0m_ | |  
+| Numeric |     Specify different numeric constant types in a string form using suffixes: <br> * Int32 (int)  - _1_ </br> * Int16 (short) - _1s_ </br> * Byte (byte) - _1b_  </br>  * Double (double) - _1.0_ </br> * Single (float) - _1.0f_ </br>  * Decimal (decimal) - _1.0m_ </br>    |  [Price] == 25.0m |  Yes |     
+
+You can build parameterized criteria using any number of positional parameters. To do this, add parameter placeholders (question mark characters) to a criteria expression to identify parameter positions and provide a list of parameter values. When building criteria, parameter placeholders are substituted with parameter values in values in the order they are listed.
+
+_CriteriaOperator.Parse("[Name] == ? and [Age] == ?", "John", 33)_
+
+The following two examples are identical, but the second one allows you to avoid formatting errors.
+
+_CriteriaOperator.Parse("[OrderDate] >= #1/1/2009#")_
+
+_CriteriaOperator.Parse("[OrderDate] >= ?", new DateTime(2009, 1, 1))_
+
+When parameters are not specified, a parameter placeholder is substituted with null.
+
+_CriteriaOperator.Parse("[Region] != ?")_
 
 ## Collection Elements Verification
 

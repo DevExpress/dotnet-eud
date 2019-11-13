@@ -12,9 +12,9 @@ The [Pivot Grid](../../pivot-table.md) control allows you to export Pivot Grid d
 
 Two export modes are supported when exporting data from a Pivot Grid control to table formats (*.xls(x), *.csv).
 
-* Data-aware Export - The export mode, optimized for subsequent analysis of pivot grid data within Microsoft Excel. Various data shaping options that are applied within the pivot grid are retained in the output XLS(X) and CSV documents.
+* **Data-aware Export** - The export mode, optimized for subsequent analysis of pivot grid data within Microsoft Excel. Various data shaping options that are applied within the pivot grid are retained in the output XLS(X) and CSV documents.
 
-* WYSIWYG Export - In this export mode, the layout of pivot grid cells is retained in resulting XLS(X) and CSV documents. Specific data shaping options are not retained compared to data-aware export.
+* **WYSIWYG Export** - In this export mode, the layout of pivot grid cells is retained in resulting XLS(X) and CSV documents. Specific data shaping options are not retained compared to data-aware export.
 Data exported using other formats (PDF, RTF, TXT, etc.) is always exported in the WYSIWYG mode.
 
 ## Data-Aware Export
