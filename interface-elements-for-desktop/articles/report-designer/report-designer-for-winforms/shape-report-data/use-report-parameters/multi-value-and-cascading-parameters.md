@@ -1,8 +1,8 @@
 ---
-title: Create Multi-Value and Cascading Parameters
+title: Multi-Value and Cascading Parameters
 author: Anna Gubareva
 ---
-# Create Multi-Value and Cascading Parameters
+# Multi-Value and Cascading Parameters
 
 This document describes the implementation of multi-value and cascading parameters. Multi-value parameters can accept more than a single value, and cascading parameters display values corresponding to current values of other parameters.
 
