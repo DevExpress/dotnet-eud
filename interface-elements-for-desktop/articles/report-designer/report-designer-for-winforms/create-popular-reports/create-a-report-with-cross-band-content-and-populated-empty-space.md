@@ -11,17 +11,17 @@ This tutorial describes how to create an invoice report with the following layou
 
 ![](../../../../images/eurd-win-underlay-report-preview-6.png)
 
-1. [Add a new blank report](xref:14989) to your application.
-
-1. [Bind](xref:2554) the report to a data source.
-
 ## Add a Data Table
+
+1. [Add a new blank report](../add-new-reports.md) to your application.
+
+1. [Bind](../bind-to-data.md) the report to a data source.
 
 1. Switch to the [Field List](../report-designer-tools/ui-panels/field-list.md) and select data fields. Hold CTRL or SHIFT and click the fields to select multiple fields and drop them onto the Detail band.
 
     ![](../../../../images/eurd-win-underlay-report-drop-fields.png)
 
-    This creates a table with each cell bound to a data field.
+    This creates a [Table](../use-report-elements/use-tables.md) with each cell bound to a data field.
 
 1. Add line numbers. Right-click the first cell and select **Insert** / **Column to Left** from the context menu.
 
@@ -34,13 +34,13 @@ This tutorial describes how to create an invoice report with the following layou
 
     ![](../../../../images/eurd-win-underlay-report-add-line-numbers.png)
 
-The resulting report lists all data from the data source.
+The resulting report lists all items from all invoices.
 
 ![](../../../../images/eurd-win-underlay-report-preview-1.png)
 
 ## Group Data
 
-Group table data by units (for instance, group order data by orders).
+Group table data to produce invoices.
 
 1. Right-click the design surface. Select **Insert Band** / **GroupHeader** from the context menu.
 
@@ -64,7 +64,7 @@ The _GroupHeader_ band is printed for each group. Use it to add a heading that i
 
 	![](../../../../images/eurd-win-underlay-report-drop-titles.png)
 
-The records are now grouped by units.
+The records are now grouped by orders.
 
 ![](../../../../images/eurd-win-underlay-report-preview-2.png)
 
@@ -102,7 +102,7 @@ Each invoice now includes the numbered lines that continue until the totals.
 
 ## Add Cross-Band Data
 
-Add a panel with recipient details across the entire invoice. Place the panel on a separate _GroupHeader_ band that is printed on the background of other bands.
+Add a panel with recipient details across the entire group. Place the panel on a separate _GroupHeader_ band that is printed on the background of other bands.
 
 1. Add another _GroupHeader_ band to the top of the report. Click the added band's smart tag and set the **Print Across Bands** property. This makes the band content start at the top of the _GroupHeader1_ and end at the bottom of the _GroupFooter1_ band.
 
@@ -111,7 +111,7 @@ Add a panel with recipient details across the entire invoice. Place the panel on
 	> [!Tip]
 	> Choose a _PageHeader_ band instead of the _GroupHeader_ to limit the cross-band content to a page, even if the _GroupFooter_ is on the next page.
 
-2. As the new _GroupHeader_ band is above the invoice header, it is not grouped. To include it in the grouping, remove the group field from the _GroupHeader1_ band, and [add it to GroupHeader2](#group-data).
+2. As the new _GroupHeader_ band is above the header, it is not grouped. To include it in the grouping, remove the group field from the _GroupHeader1_ band, and [add it to GroupHeader2](#group-data).
 
 1. Add a [Panel](../use-report-elements/use-basic-report-controls/panel.md) control to the _GroupHeader_. Specify the panel's **Background Color** and drop fields onto the panel.
 
