@@ -9,7 +9,7 @@ The **Property Grid** allows you to access and customize report/report element s
 
 ## Select a Report Element
 
-Perform one of the following to select an element and show its properties in the Property Grid:
+Perform one of the following actions to select an element and show its properties in the Property Grid:
 
 * Select an element in the drop-down list at the top of the Property Grid.
 
@@ -24,7 +24,7 @@ The Property Grid displays properties in tabs. The active tab is activated at th
 
 ![WinFormsPropertyGrid-Tabs](../../../../../images/eurd-win-PropertyGrid-Tabs.png)
 
-## Display Favorite Properties
+## Favorite Properties
 
 The **Favorites** tab displays favorite or most frequently used properties.
 
