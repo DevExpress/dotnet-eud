@@ -4,7 +4,7 @@ author: Margarita Zakhodyaeva
 ---
 # Exporting and Printing
 
-The Pivot Grid control supports print and export functionality.
+The Pivot Grid control allows its data to be printed and exported.
 
 ## Export
 
