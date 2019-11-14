@@ -12,7 +12,7 @@ This tutorial describes how to use charts to visualize data in each report group
 
 Do the following to group data in a report:
 
-1. [Bind the report](../../bind-to-data.md) to a database table (for instance, **Products**).
+1. [Bind the report](../../bind-to-data/bind-a-report-to-a-database.md) to a database table (for instance, **Products**).
 
 1. Drop the **ProductName** field from the [Field List](../../report-designer-tools/ui-panels/field-list.md) onto the report's Detail band.
 
@@ -26,7 +26,7 @@ Do the following to group data in a report:
 
 	![](../../../../../images/eurd-win-chart-for-groups-show-footer.png)
 
-1. Drop the **CategoryID** field onto the Group Header to display group titles in the report.
+1. Drop the **CategoryID** field onto the Group Header band to display group titles in the report.
 
 	![](../../../../../images/eurd-win-chart-for-groups-add-field-to-group-header.png)
 
@@ -48,13 +48,13 @@ Do the following to add a chart to the report:
 
 	![](../../../../../images/eurd-win-chart-group-footer-add-parameter.png)
 
-1. Expand the **Binding** drop-down list and select a data field.
+1. Expand the **Binding** drop-down list and select the **CategoryID** field.
 
 	![](../../../../../images/eurd-win-chart-group-footer-bind-parameter.png)
 
 	Click **OK** to close the editor.
 
-1. Open the [Toolbar](../../report-designer-tools/toolbar.md)'s **Chart Tools** contextual tab and click the **Run Designer** button.
+1. Open the [Toolbar](../../report-designer-tools/toolbar.md)'s **Chart Tools** contextual tab and click **Run Designer**.
 
 	![](../../../../../images/eurd-win-chart-run-designer-button.png)
 
@@ -68,16 +68,16 @@ Do the following to add a chart to the report:
 
 1. Switch to the created series' **Data** tab.
 	
-	Drop the **ProductName** field onto the Argument area and the **UnitPrice** field onto the Value area.
+	Drop the **ProductName** field onto the **Argument** area and the **UnitPrice** field onto the **Value** area.
 	
 	![](../../../../../images/eurd-win-chart-for-groups-designer-data-settings.png)
 
-1. Switch to the **Properties** tab. Click the **Filter String** property's ellipsis button. Construct filter criteria in the invoked FilterString Editor and click OK.
+1. Switch to the **Properties** tab. Click the **Filter String** property's ellipsis button. Construct filter criteria in the invoked **FilterString Editor** and click **OK**.
 	
 	![](../../../../../images/eurd-win-chart-for-groups-designer-data-filters.png)
 
 	Click **OK** to close the **Chart Designer** window.
 
-Switch to [Print Preview](../../preview-print-and-export-reports.md) to see the resulting report.
+Switch to [Print Preview](../../preview-print-and-export-reports.md) to see the result.
 
 ![](../../../../../images/eurd-win-chart-for-groups-result.png)

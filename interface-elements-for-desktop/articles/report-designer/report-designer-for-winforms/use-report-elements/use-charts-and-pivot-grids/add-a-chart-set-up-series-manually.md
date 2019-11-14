@@ -4,7 +4,7 @@ author: Anna Gubareva
 ---
 # Add a Chart (Set Up Series Manually)
 
-This document describes how to add a chart to a report, provide data for chart series, and set up chart elements. This example shows two chart series based on the same data source. You can use different data sources for different series.
+This document demonstrates how to add a chart to a report, provide data for chart series, and set up chart elements. This example shows two chart series based on the same data source. You can use different data sources for different series.
 
 ![](../../../../../images/eurd-win-chart-manual-setup-example.png)
 
@@ -20,14 +20,14 @@ This document describes how to add a chart to a report, provide data for chart s
 
     Close the wizard at this stage.
 
-2. Click the chart's [smart tag](../../../../../articles/report-designer/report-designer-for-winforms/use-report-elements/manipulate-report-elements/select-report-elements-and-access-their-settings.md) to bind the chart to data. Expand the **Data Source** property's drop-down and click **Add Report Data Source**.
+2. Click the chart's [smart tag](../../../../../articles/report-designer/report-designer-for-winforms/use-report-elements/manipulate-report-elements/select-report-elements-and-access-their-settings.md) to bind the chart to data. Expand the **Data Source** property's drop-down and click **Add New Data Source**.
 
     ![](../../../../../images/eurd-win-add-chart-data-source.png)
 
-3. The invoked [Data Source Wizard](../../report-designer-tools/data-source-wizard.md) enables you to assign a data source to the chart. Bind the chart to a data source as described in the [Bind to Data](../../bind-to-data.md) section.
+3. The invoked [Data Source Wizard](../../report-designer-tools/data-source-wizard.md) enables you to assign a data source to the chart. Bind the chart to a data source as described in the [Bind to Data](../../bind-to-data.md) topic.
 
 > [!NOTE]
-> The report's **Data Source** property should be set to **None** because you placed the Chart in the Detail band. When a report has its **Data Source** property specified, the Chart is repeated in the preview as many times as there are records in the report's data source.
+> The report's **Data Source** property should be set to **None** because you placed the Chart in the Detail band. When a report has its **Data Source** property specified, the Chart is repeated in Print Preview as many times as there are records in the report's data source.
 
 ## Add Series to the Chart
 
@@ -73,12 +73,12 @@ Apply the following adjustments to improve the chart's appearance:
 
     ![](../../../../../images/eurd-win-chart-designer-remove-legend.png)
 
-* Select the **Label** node under **Series 1** and disable the **Visibility** check box to hide the series' point labels.
-* Customize the **Series 2** markers' appearance. Set the **Size** to **12** and **Kind** property to **Inverted Triangle** to replace the default circle with an upside down triangle.
+* Select the **Label** node under **Series 1** and disable the **Visibility** check box to hide point labels.
+* Customize the **Series 2** markers' appearance. Set **Size** to **12** and **Kind** to **Inverted Triangle** to replace the default circle with an upside down triangle.
 
     ![](../../../../../images/eurd-win-chart-designer-marker-appearance.png)
 
-* Customize the chart's appearance settings. For instance, select **Nature Colors** in the **Palette**'s drop-down list.
+* Customize the chart's appearance settings. For instance, select **Nature Colors** from the drop-down **Palette** list.
 
     ![](../../../../../images/eurd-win-chart-designer-set-palette.png)
 
