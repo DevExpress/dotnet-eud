@@ -75,7 +75,7 @@ The comprehensive functionality for the **Rich Text** control can be provided vi
 * [Protect and Unprotect a Document](../document-protection/protect-and-unprotect-a-document.md)
 * [Insert a Comment](../miscellaneous/insert-a-comment.md)
 * [Enable Track Changes](../track-changes/enable-track-changes.md)
-* [Accept and Reject Changes](../track-changes/accept-and-reject-changes.md)
+* [Accept and Reject Changes](../track-changes/accept-and-reject-tracked-changes.md)
 
 ## View
 
