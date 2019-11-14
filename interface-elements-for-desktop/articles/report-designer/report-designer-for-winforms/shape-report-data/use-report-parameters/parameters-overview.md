@@ -4,7 +4,7 @@ author: Anna Gubareva
 ---
 # Parameters Overview
 
-You can use report parameters to pass data to a report before it has been published. Parameter values are specified in a Print Preview's **Parameters** panel.
+You can use report parameters to pass data to a report before it has been published. Parameter values are specified in Print Preview's **Parameters** panel.
 
 ## Add Parameters
 
@@ -16,30 +16,30 @@ Alternatively, you can click the **Add Parameter** button in the [Toolbar](../..
 
 ![](../../../../../images/eurd-win-parameters-add-parameter-via-toolbar.png)
 
-This invokes the **Add New Parameter** dialog where you can customize the created parameter.
+This invokes the **Add New Parameter** dialog where you can configure the created parameter.
 
 ![](../../../../../images/eurd-win-parameters-add-new-parameter-dialog.png)
 
-This dialog provides the following options:
+The dialog provides the following options:
 
 * **Name**  
 	Specifies the unique name by which you can refer to the parameter.
 * **Description**  
 	Specifies the text that appears in Print Preview alongside with the value editor.
 * **Type**  
-	Specifies the parameter's value type. A value editor for the specified type is displayed in a Print Preview.
+	Specifies the parameter's value type. A value editor for the specified type is displayed in Print Preview.
 * **Default value**  
 	Specifies the parameter's **Value**. When users change a parameter's value in Print Preview, they can press **Reset** to return to the default value.
 
 	![](../../../../../images/eurd-win-parameters-reset-parameter-value.png)
 
 * **Expression**  
-	Specifies an expression that defines the parameter's value based on specific conditions. Click the **Expression** property's ellipsis button and construct an expression in the invoked Expression Editor.
+	Specifies an expression that defines the parameter's value based on specific conditions. Click the **Expression** property's ellipsis button and construct an expression in the invoked **Expression Editor**.
 
 	![](../../../../../images/eurd-win-parameters-construct-expression.png)
 
 * **Show in the parameters panel** (corresponds to the parameter's **Visible** property)  
-	Enable this option to request the parameter value in a Print Preview. Otherwise, the default parameter value is silently passed to the report.
+	Enable this option to request the parameter value in Print Preview. Otherwise, the report assumes the default parameter value.
 * **Allow multiple values** (corresponds to the parameter's **Multi-Value** property)  
 	Enable this option to allow a parameter to accept a [collection of values](create-multi-value-and-cascading-parameters.md).
 * **Allow null value** (corresponds to the parameter's **Allow Null** property)  
@@ -69,21 +69,21 @@ This dialog provides the following options:
 
 ## Use Parameters
 
-Report parameters pass data to a report before it has been generated in Print Preview. You can let users specify parameter values, or you can assign values in code.
+Report parameters pass data to a report before it has been generated in Print Preview. You can let users specify parameter values.
 
 Use report parameters in the following cases:
 
-* **Filter Data**
+* **Filter**
 
 	Parameters can provide values to a report's **Filter String** to [filter report data](../filter-data/filter-data-at-the-report-level.md).
 
 	![](../../../../../images/eurd-win-parameters-in-filter-string.png)
 
-	You can link report parameter to [query parameters](use-query-parameters.md) used in the SQL string's SELECT statement to [filter data at the data source level](../filter-data/filter-data-at-the-data-source-level.md).
+	You can link the report parameter to [query parameters](use-query-parameters.md) used in the SQL string's SELECT statement to [filter data at the data source level](../filter-data/filter-data-at-the-data-source-level.md).
 
 * **Bind to Data**
 	
-	You can bind a report control to a parameter and display its value in the report. To create a new [label](../../use-report-elements/use-basic-report-controls/label.md) bound to a parameter, drag the parameter from the [Field List](../../report-designer-tools/ui-panels/field-list.md) and drop it onto a band.
+	You can bind a report control to a parameter and display its value in a report. To create a new [label](../../use-report-elements/use-basic-report-controls/label.md) bound to a parameter, drag the parameter from the [Field List](../../report-designer-tools/ui-panels/field-list.md) and drop it onto a band.
 	
 	![](../../../../../images/eurd-win-parameters-for-data-binding.png)
 	
