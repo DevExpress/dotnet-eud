@@ -69,11 +69,22 @@ _CriteriaOperator.Parse("[Region] != ?")_
 
 ## Functions
 
+**Advanced Functions - Intermediate Aggregation Level**
+
+| Function | Description | Example | 
+|---|---|---|
+| aggr(SummaryExpression, Dimensions) | Uses the detail level specified by a predefined set of dimensions and a specified summary function to aggregate underlying data.| aggr(Sum([Sales]), [Category], [Product]) |
+| w(WindowExpression, partitionByFunction, orderByFunction) | Calculates aggregated values with the specified window function for the window defined by the specified partitioning and ordering. | w(RankDense(Sum([ProductSales]), 'desc'), partitionBy([CategoryName]), orderBy()) |
+| partitionBy(column1, column2, ...) | Specifies the columns by which the data rows are partitioned. The window function is applied to each partition separately. Note that the _partitionBy_ function can be used only as a w function argument. | partitionBy([Product])|
+| orderBy(column1, column2, ...) | Specifies the logical order in which the window function calculation is performed on the rows in the window. The _orderBy_ function can be used only as a w function argument.| orderBy(GetYear([Date]), desc(Sum([Sales]))) |
+| asc(column) | Specifies that the values in the specified column are sorted in ascending order. This is the default sort order. The _asc_ function can be used only as a w function argument. |asc(Sum([Sales]))|
+| desc(column) | Specifies that the values in the specified column are sorted in descending order. The _desc_ function can be used only as a w function argument. | desc(Sum([Sales]))|
+
+
 **Aggregate Functions**
 
 | Function | Description | Example |
 |---|---|---|
-| Aggr(SummaryExpression, Dimensions) | Aggregates underlying data using the detail level specified by a predefined set of dimensions and a specified summary function. | Aggr(Sum([Sales]), [Category], [Product]) |
 | Avg(Value) | Returns the average of all the values in the expression. | Avg([Profit]) | 
 | Count() | Returns the number of values. | Count() |
 | CountNotNull(Value) | Returns a number of non-null objects in a collection. | CountNotNull([Orders]) |
