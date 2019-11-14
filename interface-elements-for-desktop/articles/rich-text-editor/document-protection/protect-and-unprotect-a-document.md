@@ -5,7 +5,7 @@ legacyId: 9344
 ---
 # Protect and Unprotect a Document
 
-## Protect to a Document
+## Protect a Document
 
 Follow the steps below to protect a document with a password.
 
@@ -20,7 +20,7 @@ Follow the steps below to protect a document with a password.
 
     ![RTEProtectionPassword](../../../images/img121365.png)
 
-You can also [allow particular users to change certain parts of a document](#give-users-permission-to-edit-certain-parts-of-a-document).
+You can also [allow particular users to change certain parts of a document](#give-users-permission-to-edit-certain-document-parts).
 
 ## Give Users Permission to Edit Certain Document Parts
 
