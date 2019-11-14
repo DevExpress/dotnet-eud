@@ -4,7 +4,7 @@ The **Track Changes** feature allows you to keep track of the changes.
 
 ## Turn On Track Changes
 
-On the **Review** [tab](text-editor-ui/ribbon-interface.md), in the **Tracking** group, click the **Track Changes** button.
+On the **Review** [tab](../text-editor-ui/ribbon-interface.md), in the **Tracking** group, click the **Track Changes** button.
 
 ![track-changes-enable](../../../images/rich-text-editor-track-changes-enable.png)
 
@@ -16,7 +16,7 @@ When you turn of Track Changes, the Rich Text Editor does not mark changes but d
 
 ## View Changes
 
-Use the **Display for Review** drop-down list to specify how to display changes in the document. On the **Review** [tab](text-editor-ui/ribbon-interface.md), in the **Tracking** group, open the **Display for Review** list.
+Use the **Display for Review** drop-down list to specify how to display changes in the document. On the **Review** [tab](../text-editor-ui/ribbon-interface.md), in the **Tracking** group, open the **Display for Review** list.
 
 ![IMAGE](../../../images/rich-text-editor-track-changes-display-for-review.png)
 
@@ -42,13 +42,13 @@ Use **Next** and **Previous** buttons on the **Changes** ribbon group to switch 
 
 ### View Changes from Specific Authors
 
-On the **Review** [tab](text-editor-ui/ribbon-interface.md), in the **Tracking** group, open the **Show Markup** list. Select users whose changes you wish to display in the **Reviewers** list.
+On the **Review** [tab](../text-editor-ui/ribbon-interface.md), in the **Tracking** group, open the **Show Markup** list. Select users whose changes you wish to display in the **Reviewers** list.
 
 ![IMAGE](../../../images/rich-text-editor-track-changes-reviewers.png)
 
 ## Lock Tracking
 
-You can set a password that prevents users from disabling Track Changes. In the **Tracking** group on the **Review** [tab](text-editor-ui/ribbon-interface.md), click **Lock Tracking** in the **Track Changes** drop-down list.
+You can set a password that prevents users from disabling Track Changes. In the **Tracking** group on the **Review** [tab](../text-editor-ui/ribbon-interface.md), click **Lock Tracking** in the **Track Changes** drop-down list.
 
 ![IMAGE](../../../images/rich-text-editor-track-changes-lock-track.png)
 
