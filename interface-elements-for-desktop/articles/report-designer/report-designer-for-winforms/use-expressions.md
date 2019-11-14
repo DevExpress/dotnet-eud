@@ -34,11 +34,17 @@ The Expression Editor displays all the errors it finds in the specified expressi
 
 ![Expressions_ExpressionEditor_ErrorValidation](../../../images/eurd-win-expression-editor_error-validation.png)
 
-## Filter Editor
+## FilterString Editor
 
 The Report Designer allows you to use the FilterString Editor to specify filter criteria. The FilterString Editor provides a visual interface where you can use an unlimited number of conditions and combine them with logical operators to create filter criteria. You can also switch to the Text mode and type a filter string.
 
 ![Expressions_FilterEditor](../../../images/eurd-win-filter-editor.png)
+
+Click the report's smart tag. Then click the FilterString property's ellipsis button. This invokes the FilterString Editor where you can apply a filter against report data.
+
+![Expressions_FilterEditor](../../../images/eurd-win-invoke-filterstring-editor.png)
+
+FilterString editors are also available in the CrossTab control and in the Chart's Series where you can apply a FilterString against an individual control's data.
 
 The FilterString Editor supports intelligent code completion. It suggests functions and available data elements as you type, validates the typed string and highlights errors.
 
