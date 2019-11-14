@@ -7,7 +7,7 @@ author: Margarita Zakhodyaeva
 The following topic contains constants, operators, and functions you can use in Pivot Grid [expressions](edit-unbound-expression.md).
 
 >[!NOTE]
->Refers to [Criteria Language Syntax](../../expression-editor/expression-operators-functions-and-constants.md) a list of basic constants, operators, and functions DevExpress products support.
+> Refer to [Criteria Language Syntax](../../expression-editor/expression-operators-functions-and-constants.md) for a list of basic constants, operators, and functions DevExpress products support.
 
 ## Constants
 

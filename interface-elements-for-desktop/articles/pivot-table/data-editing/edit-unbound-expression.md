@@ -4,7 +4,7 @@ author: Natalia Kazakova
 legacyId: 114400
 ---
 # Edit Unbound Expression
-To edit the unbound field's expression, use the [Expression Editor](../../expression-editor.md). Select the [**Expression Editor**]() menu command to invoke it. 
+To edit the unbound field's expression, use the [Expression Editor](../../expression-editor.md). Select the **Expression Editor** menu command to invoke it. 
 
 Expressions allow you to calculate values based on values of other fields. 
 

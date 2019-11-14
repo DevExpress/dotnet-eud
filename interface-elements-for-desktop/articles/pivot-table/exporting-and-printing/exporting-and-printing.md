@@ -12,7 +12,7 @@ The [Pivot Grid](../../pivot-table.md) control allows you to export Pivot Grid d
 
  ![exporting](../../../images/exporting.png)
 
- ## Export Modes
+ ### Export Modes
 
 Two export modes are supported when exporting data from a Pivot Grid control to table formats (*.xls(x), *.csv).
 
