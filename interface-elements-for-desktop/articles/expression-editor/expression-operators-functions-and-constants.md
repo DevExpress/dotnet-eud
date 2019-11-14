@@ -291,8 +291,7 @@ _Accounts[Amount == (2 + 48) * 2]_
 Operators are case insensitive. Although field values’ case sensitivity depends on the data source.
 
 > [!NOTE]
-> A data source affects certain operators' behavior. For instance, by default, the SQL Server Express 2005 is configured as case insensitive. In this case, the following expression always evaluates to **true**:
-> 
+> A data source affects certain operators' behavior. For instance, a data source can be configured as case insensitive. In this case, the following expression always evaluates to true
 > _Lower(Name) == Upper(Name)_
 
 ## Escaping Keywords
@@ -323,4 +322,4 @@ Note the following restriction when exporting DevExpress Data Grid and Tree List
 
 Only expressions that contain export-friendly functions are exported to XLS(X) format. Refer to the **XLS(x) Format Export-Friendly** column in the tables above to find out if a function can be exported to XLS(x) format.
 
-For more information about data exporting, see [exporting](../pivot-table/exporting-and-printing/exporting-and-printing.md)
+

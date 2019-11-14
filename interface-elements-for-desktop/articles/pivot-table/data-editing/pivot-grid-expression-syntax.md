@@ -4,7 +4,10 @@ author: Margarita Zakhodyaeva
 ---
 # Pivot Grid Expression Syntax
 
-The following topic contains constants, operators, and functions you can use in expressions.
+The following topic contains constants, operators, and functions you can use in Pivot Grid [expressions](edit-unbound-expression.md).
+
+>[!NOTE]
+>Refers to [Criteria Language Syntax](../../expression-editor/expression-operators-functions-and-constants.md) a list of basic constants, operators, and functions DevExpress products support.
 
 ## Constants
 
@@ -259,7 +262,9 @@ Use a backslash (\) as an escape character for characters in expressions, for ex
 
 ## Export to XLS and XLSX
 
-The Pivot Grid does not export expressions to XLS and XLSX format.
+The Pivot Grid does not [export](../exporting-and-printing/exporting-and-printing.md) expressions to XLS and XLSX format.
+
+
 
                                                                           
 
