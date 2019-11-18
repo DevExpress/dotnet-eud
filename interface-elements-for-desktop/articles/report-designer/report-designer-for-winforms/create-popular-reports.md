@@ -34,6 +34,7 @@ The following tutorial illustrates interactive report features:
 The following tutorial explains how to use the Pivot Grid control in your reports:
 
 * [Create a Cross-Tab Report](create-popular-reports/create-a-cross-tab-report.md)
+* [Create a Balance Sheet](create-popular-reports/create-a-balance-sheet.md)
 
 > [!Note]
 > See the [Use Charts and Pivot Grids](use-report-elements/use-charts-and-pivot-grids.md) documentation section to learn more about using Pivot Grids and Charts in your reports.

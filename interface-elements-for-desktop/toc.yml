@@ -542,6 +542,8 @@
         href: articles/report-designer/report-designer-for-winforms/create-popular-reports/create-an-interactive-e-form.md
       - name: Create a Cross-Tab Report
         href: articles/report-designer/report-designer-for-winforms/create-popular-reports/create-a-cross-tab-report.md
+      - name: Create a Balance Sheet
+        href: articles/report-designer/report-designer-for-winforms/create-popular-reports/create-a-balance-sheet.md
     - name: Configure Design Settings
       href: articles/report-designer/report-designer-for-winforms/configure-design-settings.md
       items:
