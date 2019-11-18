@@ -165,13 +165,25 @@ To group numeric values, set the **Group Interval** property to **Numeric** and 
 
 ![](../../../../images/eurd-win-cross-tab-numeric-values-grouped.png)
 
+## Parameters
+
+The Cross Tab uses and displays values of data fields from an assigned data source (the **Data Source** property). To provide values outside the data source, use internal Cross Tab parameters. Each parameter is stored in the Parameters collection.
+
+You can access the Parameters property in the Cross Tab's smart tag or in the Properties window.
+
+![](../../../../images/eurd-win-cross-tab-parameters-property.png)
+
+Click this property's ellipsis button and add parameters in the invoked Collection Editor. You can bind a Cross Tab parameter to a [report parameter](../shape-report-data/use-report-parameters.md) or to any data field available in a report.
+
+![](../../../../images/eurd-win-cross-tab-create-internal-parameter.png)
+
+You can then use the created parameters to [filter the Cross Tab](#filter-data).
+
 ## Filter Data
 
 Use the Cross Tab's **Filter String** property to invoke the **FilterString Editor** and specify the filter criteria.
 
 ![](../../../../images/eurd-win-cross-tab-filter-data.png)
-
-You can also add [report parameters](../shape-report-data/use-report-parameters.md) to the Cross Tab's **Parameters** collection and use them in the filter criteria.
 
 ## Layout Options
 
