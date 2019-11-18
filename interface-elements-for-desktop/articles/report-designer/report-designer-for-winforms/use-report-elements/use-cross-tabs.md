@@ -185,6 +185,8 @@ Use the Cross Tab's **Filter String** property to invoke the **FilterString Edit
 
 ![](../../../../images/eurd-win-cross-tab-filter-data.png)
 
+You can use the [Cross Tab's parameters](#parameters) in filter criteria.
+
 ## Layout Options
 
 Use the [LayoutOptions](xref:DevExpress.XtraReports.UI.XRCrossTab.LayoutOptions) property to change the cell's order and location.
