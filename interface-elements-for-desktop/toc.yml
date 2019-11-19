@@ -687,6 +687,16 @@
           href: articles/report-designer/report-designer-for-winforms/use-report-elements/use-charts-and-pivot-grids/use-charts-to-visualize-data-in-report-groups.md
         - name: Link a Chart and a Pivot Grid
           href: articles/report-designer/report-designer-for-winforms/use-report-elements/use-charts-and-pivot-grids/link-a-chart-and-a-pivot-grid.md
+      - name: Use Cross Tabs
+        href: articles/report-designer/report-designer-for-winforms/use-report-elements/use-cross-tabs.md
+        - name: Cross Tab Overview
+          href: articles/report-designer/report-designer-for-winforms/use-report-elements/use-cross-tabs/cross-tab-overview.md
+        - name: Cross Tab Fields
+          href: articles/report-designer/report-designer-for-winforms/use-report-elements/use-cross-tabs/cross-tab-fields.md
+        - name: Cross Tab Settings
+          href: articles/report-designer/report-designer-for-winforms/use-report-elements/use-cross-tabs/cross-tab-settings.md
+        - name: Layout Options
+          href: articles/report-designer/report-designer-for-winforms/use-report-elements/use-cross-tabs/layout-options.md
       - name: Use Gauges and Sparklines
         href: articles/report-designer/report-designer-for-winforms/use-report-elements/use-gauges-and-sparklines.md
         items:
