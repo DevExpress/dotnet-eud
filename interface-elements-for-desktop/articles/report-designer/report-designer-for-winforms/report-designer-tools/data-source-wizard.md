@@ -45,7 +45,7 @@ The Data Source Wizard allows you to do the following:
 
 	![eurd-win-add-report-data-source](../../../../images/eurd-win-add-report-data-source.png)
 	
-* Connect the [Chart](../use-report-elements/use-charts-and-pivot-grids.md), [Pivot Grid](../create-popular-reports/create-a-cross-tab-report.md) and [Sparkline](../use-report-elements/use-gauges-and-sparklines.md) report controls to individual data sources.
+* Connect the [Chart](../use-report-elements/use-charts-and-pivot-grids.md), [Cross Tab](../use-report-elements/use-cross-tabs.md) and [Sparkline](../use-report-elements/use-gauges-and-sparklines.md) report controls to individual data sources.
 
     You can invoke the Data Source Wizard using the **Add Data Source** command on the **Chart** | **Design** contextual page.
 
