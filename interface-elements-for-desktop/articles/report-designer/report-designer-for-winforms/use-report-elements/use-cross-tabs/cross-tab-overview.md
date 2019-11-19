@@ -4,13 +4,13 @@ author: Sergey Andreev
 ---
 # Cross Tab Overview
 
-Use the **Cross Tab** control to display multi-dimensional data, such as summary statistics, surveys, market research information, etc.
+Use the **Cross Tab** control to display multi-dimensional data, such as summary statistics, surveys, and market research information.
 
 ![](../../../../../images/eurd-win-balance-sheet-report.png)
 
 The following step-by-step tutorials describe how to add this control to a report:
 
-* [Create a Cross-Tab Report](../../create-popular-reports/create-a-cross-tab-report.md) - Shows how to use the [Cross-Tab Report Wizard](../../report-designer-tools/report-wizard/cross-tab-report-wizard.md).
+* [Create a Cross-Tab Report](../../create-popular-reports/create-a-cross-tab-report.md) - Shows how to use the [Cross-Tab Report Wizard](../../report-designer-tools/report-wizard/cross-tab-report.md).
 * [Create a Balance Sheet](../../create-popular-reports/create-a-balance-sheet.md) - Demonstrates how to configure a Cross Tab on the design surface.
 
 ## Add a Cross Tab to a Report
