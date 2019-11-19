@@ -6,7 +6,7 @@ author: Sergey Andreev
 
 The Cross Tab control allows you to display and analyze multi-dimensional data, such as summary statistics, surveys, market research information.
 
-![](../../../../images/eurd-win-cross-tab-styles-areas.png)
+![](../../../../images/eurd-win-cross-tab-field-structure-on-preview.png)
 
 Refer to the following topics for instructions on how to use cross tabs in reports:
 

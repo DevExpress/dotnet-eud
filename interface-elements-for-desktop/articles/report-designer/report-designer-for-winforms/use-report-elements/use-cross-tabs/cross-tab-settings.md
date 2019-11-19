@@ -64,9 +64,9 @@ To group numeric values, set the **Group Interval** property to **Numeric** and 
 
 ## Use Parameters
 
-The Cross Tab uses and displays values of data fields from an assigned data source (the **Data Source** property). To provide values outside the data source, use internal Cross Tab parameters. Each parameter is stored in the Parameters collection.
+The Cross Tab uses and displays values of data fields from an assigned data source. To provide values outside the data source, use internal Cross Tab parameters. Each parameter is stored in the **Parameters** collection.
 
-You can access the Parameters property in the Cross Tab's smart tag or in the Properties window.
+You can access the **Parameters** property in the Cross Tab's smart tag or in the Properties window.
 
 ![](../../../../../images/eurd-win-cross-tab-parameters-property.png)
 
