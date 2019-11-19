@@ -31,9 +31,7 @@ The following tutorial illustrates interactive report features:
 > 
 > See [Use Report Parameters](shape-report-data/use-report-parameters.md) to learn how to customize reports by submitting parameter values in Print Preview.
 
-The following tutorial explains how to use the Pivot Grid control in your reports:
+The following tutorials explain how to use the Cross Tab control in your reports:
 
 * [Create a Cross-Tab Report](create-popular-reports/create-a-cross-tab-report.md)
-
-> [!Note]
-> See the [Use Charts and Pivot Grids](use-report-elements/use-charts-and-pivot-grids.md) documentation section to learn more about using Pivot Grids and Charts in your reports.
+* [Create a Balance Sheet](create-popular-reports/create-a-balance-sheet.md)

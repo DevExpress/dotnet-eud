@@ -15,14 +15,6 @@ Use the **Chart** control to add a chart to a report.
 * [Add a Chart (Use a Series Template)](use-charts-and-pivot-grids/add-a-chart-use-a-series-template.md)
 * [Use Charts to Visualize Data in Report Groups](use-charts-and-pivot-grids/use-charts-to-visualize-data-in-report-groups.md)
 
-
-## Pivot Grid
-
-Use the **Pivot Grid** control to add a pivot grid to a report.
-
-* [Create a Cross-Tab Report](../create-popular-reports/create-a-cross-tab-report.md)
-
-
 ## Use Chart and Pivot Grid Linked Together
 
 * [Link a Chart and a Pivot Grid](use-charts-and-pivot-grids/link-a-chart-and-a-pivot-grid.md)
