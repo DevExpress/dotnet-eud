@@ -8,11 +8,6 @@ Use the **Cross Tab** control to display multi-dimensional data, such as summary
 
 ![](../../../../../images/eurd-win-balance-sheet-report.png)
 
-The following step-by-step tutorials describe how to add this control to a report:
-
-* [Create a Cross-Tab Report](../../create-popular-reports/create-a-cross-tab-report.md) - Shows how to use the [Cross-Tab Report Wizard](../../report-designer-tools/report-wizard/cross-tab-report.md).
-* [Create a Balance Sheet](../../create-popular-reports/create-a-balance-sheet.md) - Demonstrates how to configure a Cross Tab on the design surface.
-
 ## Add a Cross Tab to a Report
 
 Drag the **Cross Tab** item from the Toolbox onto a report.
@@ -35,3 +30,8 @@ If these properties are not set, the Cross Tab uses its parent report's data sou
 
 > [!Note]
 > If you place a Cross Tab in the [Detail band](../../introduction-to-banded-reports.md), ensure that the report's **Data Source** property is not set. Otherwise, the Cross Tab data is printed as many times as there are rows in the report data source.
+
+The following step-by-step tutorials describe how to create reports that use the Cross Tab control:
+
+* [Create a Cross-Tab Report](../../create-popular-reports/create-a-cross-tab-report.md) - Uuse the [Cross-Tab Report Wizard](../../report-designer-tools/report-wizard/cross-tab-report.md) to create a report.
+* [Create a Balance Sheet](../../create-popular-reports/create-a-balance-sheet.md) - Configure a Cross Tab on the design surface.

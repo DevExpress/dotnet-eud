@@ -40,6 +40,31 @@ Use a cell's **Row Visible** and **Column Visible** properties to specify row an
 
 ![](../../../../../images/eurd-win-cross-tab-with-hidden-grand-totals.png)
 
+## Print Options
+
+Use the **Print Options** property to specify print options and define which Cross Tab elements to print.
+
+![](../../../../../images/eurd-win-cross-tab-print-options-properties-window.png)
+
+* **Print Layout**  
+    Specifies how to print the Cross Tab content that does not fit on one page:
+    * on the next page (**Across Only**);
+    * on the same page below the previous content (**Across Then Down**).
+
+* **Across Then Down Offset**  
+    Specifies the vertical distance between parts of the Cross Tab content in the **Across Then Down** print layout.
+
+* **Print Totals For Single Values**  
+    Specifies when to print totals:
+    * for any field value even when it contains one nested value (**checked**);
+    * for the field values that contain two and more nested values (**unchecked**).
+
+* **Repeat Row Headers**, **Repeat Column Headers**
+    Specifies whether to repeat row/column headers when the Cross Tab content is split horizontally/vertically or print them only once.
+
+> [!Note]
+> Cross tab cells are split between pages if they do not fit the page's width or height. Set the report's **Vertical Content Splitting** and **Horizontal Content Splitting** properties to **Smart** **Smart** to move cells to the next page (or to the Cross Tab's next part shown on the same page.
+
 ## Adjust Control Size
 
 Drag the Cross Tab's handlers to change its size. You can also resize individual rows and columns.
@@ -87,28 +112,3 @@ Specify [expression bindings](../../bind-to-data/bind-controls-to-data-expressio
 Expressions are evaluated when a report is previewed. The calculated appearance settings have the highest priority. They override a cell's appearance settings and style settings.
 
 ![](../../../../../images/eurd-win-cross-tab-cell-back-color-expression-result.png)
-
-## Print Options
-
-Use the **Print Options** property to specify print options and define which Cross Tab elements to print.
-
-![](../../../../../images/eurd-win-cross-tab-print-options-properties-window.png)
-
-* **Print Layout**  
-    Specifies how to print the Cross Tab content that does not fit on one page:
-    * on the next page (**Across Only**);
-    * on the same page below the previous content (**Across Then Down**).
-
-* **Across Then Down Offset**  
-    Specifies the vertical distance between parts of the Cross Tab content in the **Across Then Down** print layout.
-
-* **Print Totals For Single Values**  
-    Specifies when to print totals:
-    * for any field value even when it contains one nested value (**checked**);
-    * for the field values that contain two and more nested values (**unchecked**).
-
-* **Repeat Row Headers**, **Repeat Column Headers**
-    Specifies whether to repeat row/column headers when the Cross Tab content is split horizontally/vertically or print them only once.
-
-> [!Note]
-> Cross tab cells are split between pages if they do not fit the page's width or height. Set the report's **Vertical Content Splitting** and **Horizontal Content Splitting** properties to **Smart** **Smart** to move cells to the next page (or to the Cross Tab's next part shown on the same page.
