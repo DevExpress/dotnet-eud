@@ -4,7 +4,7 @@ author: Sergey Andreev
 ---
 # Layout Options
 
-Use the **Layout Options** property to change the cell's order and location.
+Use the **Layout Options** property to change the cells' order and location.
 
 ![](../../../../../images/eurd-win-cross-tab-layout-options-properties-window.png)
 
@@ -47,7 +47,7 @@ Use the **Print Options** property to specify print options and define which Cro
 ![](../../../../../images/eurd-win-cross-tab-print-options-properties-window.png)
 
 * **Print Layout**  
-    Specifies how to print the Cross Tab content that does not fit on one page:
+    Specifies how to print the Cross Tab content that does not fit the page's width:
     * on the next page (**Across Only**);
     * on the same page below the previous content (**Across Then Down**).
 

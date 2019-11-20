@@ -43,7 +43,7 @@ You can also use the **Sort By Summary Info** property to arrange row/column fie
 
 1. Select a cell you want to sort and expand the **Sort By Summary Info** property in the [Property Grid](../../report-designer-tools/ui-panels/property-grid.md).
 1. Set the **Field Name** property to the name of an assigned data source's field. You can also define a field that is not currently displayed in the Cross Tab.
-1. **Summary Type** property to specify which summary function to calculate. The summary type can differ from the summary type currently used in the Cross Tab.
+1. Use the **Summary Type** property to specify which summary function to calculate. The summary type can differ from the summary type currently used in the Cross Tab.
 1. Use the **Sort Order** property to define the sort order.
 
     ![](../../../../../images/eurd-win-cross-tab-sort-by-summary-info.png)
@@ -54,7 +54,7 @@ The Cross Tab displays unique values of column and row fields and does not group
 
 ![](../../../../../images/eurd-win-cross-tab-group-interval-default.png)
 
-Use the **Group Interval** property to combine original field values into categories (groups). For instance, you can group date-time values by year, month, quarter, day, hour, etc.
+Use the **Group Interval** property to combine original field values into categories (groups). For instance, you can group date-time values by year, month, quarter, day, hour.
 
 ![](../../../../../images/eurd-win-cross-tab-group-interval-date-year.png)
 
