@@ -28,8 +28,8 @@ This tutorial describes how to use the Cross Tab control to create a **Sales Sum
 1. Drop data fields onto cross-tab areas:
 
     * the **OrderDate** and **CategoryName** fields onto the **Rows** area
-    * the **Country** and **SalesPerson** fields onto the **Columns** area
-    * the **ExtendedPrice** field onto the **Data** area
+    * the **Country** and **Sales Person** fields onto the **Columns** area
+    * the **Extended Price** field onto the **Data** area
 
     The field order defines the hierarchy in the resulting cross-tab report. The higher the field on the list, the higher the level in the field hierarchy.
 
@@ -52,7 +52,7 @@ The generated report contains a Cross Tab that is configured based on the specif
 ![](../../../../images/eurd-win-cross-tab-report-wizard-result.png)
 
 > [!TIP]
-> Ensure that the report's DataSource property is not set if you place the Cross Tab into the Detail band. Otherwise, the Cross Tab data is printed as many times as there are rows in the report data source.
+> Ensure that the report's **Data Source** property is not set if you place the Cross Tab into the Detail band. Otherwise, the Cross Tab data is printed as many times as there are rows in the report data source.
 
 Switch to the Preview tab to see an intermediate result.
 
@@ -72,7 +72,7 @@ Select the Cross Tab cell bound to the **OrderDate** field and click its smart t
 
 1. Apply currency formatting to Extended Price data. Hold down SHIFT or CTRL, and select the following cells:
 
-	* the cell bound to the **ExtendedPrice** field
+	* the cell bound to the **Extended Price** field
 	* the cells that display column and row totals
 	* the cells that display column and row grand totals
 
@@ -103,7 +103,7 @@ Select the Cross Tab cell bound to the **OrderDate** field and click its smart t
 
     ![](../../../../images/eurd-win-cross-tab-report-total-area-style.png)
 
-1. Expand the **DataAreaStyle** property and set Font to **Calibri 9**.
+1. Expand the **Data Area Style** property and set Font to **Calibri 9**.
 
     ![](../../../../images/eurd-win-cross-tab-report-data-area-style.png)
 
