@@ -6,7 +6,7 @@ author: Anna Gubareva
 
 This tutorial describes how to use the Cross Tab control to create a **Balance Sheet** report.
 
-![](~/images/balance-sheet-report.png)
+![](../../../../images/eurd-win-balance-sheet-report.png)
 
 > [!Tip]
 > This tutorial shows how to configure a Cross Tab using the [Report Wizard](../report-designer-tools/report-wizard.md). See [Create a Cross-Tab Report](create-a-cross-tab-report.md) for information on how to use the Cross-Tab Report Wizard.
@@ -23,7 +23,7 @@ This tutorial describes how to use the Cross Tab control to create a **Balance S
 
     ![](../../../../images/eurd-win-balance-sheet-cross-tab-add-data-source.png)
 
-4. (4.1-4.5) Use the invoked [Data Source Wizard](../report-designer-tools/data-source-wizard.md) to bind the Cross Tab to a data source.
+4. Use the invoked [Data Source Wizard](../report-designer-tools/data-source-wizard.md) to bind the Cross Tab to a data source.
 
 Click **Finish** to complete the Data Source Wizard and assign the created data source to the Cross Tab.
 
@@ -90,11 +90,11 @@ Select the Cross Tab cell bound to the **Date** field and click its smart tag. S
 
 1. The Cross Tab control stacks row headers horizontally. You can change the view so that parent values span the entire row header panel width.
 
-    Select the Cross Tab and switches to the [Property Grid](../report-designer-tools/ui-panels/property-grid.md). Expand the [LayoutOptions](xref:DevExpress.XtraReports.UI.XRCrossTab.LayoutOptions) group and enable the [HierarchicalRowLayout](xref:DevExpress.XtraReports.UI.CrossTab.CrossTabLayoutOptions.HierarchicalRowLayout) property.
+    Select the Cross Tab and switch to the [Property Grid](../report-designer-tools/ui-panels/property-grid.md). Expand the **Layout Options** group and enable the **Hierarchical Row Layout** property.
 
     ![](../../../../images/eurd-win-balance-sheet-hierarchical-row-layout.png)
 
-2. Set the **CornerHeaderDisplayMode** property to **None** to merge cells in the top-left corner into a single empty cell.
+2. Set the **Corner Header Display Mode** property to **None** to merge cells in the top-left corner into a single empty cell.
 
     ![](../../../../images/eurd-win-balance-sheet-corner-header-display-mode.png)
 
@@ -104,7 +104,7 @@ Switch to Print Preview to see the result.
 
 ## Hide Grand Totals
 
-1. Select the bottom right cell and click its smart tag. Disable the [RowVisible](xref:DevExpress.XtraReports.UI.CrossTab.XRCrossTabCell.RowVisible) and [ColumnVisible](xref:DevExpress.XtraReports.UI.CrossTab.XRCrossTabCell.ColumnVisible) properties to hide the row and column that display grand total values. Invisible cells are filled with a hatch brush.
+1. Select the bottom right cell and click its smart tag. Disable the **Row Visible** and **Column Visible** properties to hide the row and column that display grand total values. Invisible cells are filled with a hatch brush.
 
     ![](../../../../images/eurd-win-balance-sheet-row-column-visible.png)
 
@@ -122,10 +122,9 @@ The Cross Tab control no longer displays grand total values.
 
     ![](../../../../images/eurd-win-balance-sheet-sort-order.png)
 
-2. Format currency data. Hold down SHIFT or CTRL and select the cells that display data and total values. Set the [TextFormatString](xref:DevExpress.XtraReports.UI.CrossTab.XRCrossTabCell.TextFormatString) property to **{0:#,##0.00;(#,##0.00);-}**. This string consists of three formats separated by semicolons: for positive values, negative values and null values.
+2. Format currency data. Hold down SHIFT or CTRL and select the cells that display data and total values. Set the **Text Format String** property to **{0:#,##0.00;(#,##0.00);-}**. This string consists of three formats separated by semicolons: for positive values, negative values and null values.
 
     ![](../../../../images/eurd-win-balance-sheet-text-format-string.png)
-
 
 ![](../../../../images/eurd-win-balance-sheet-sort-format-options-preview.png)
 
@@ -135,7 +134,7 @@ The Cross Tab control no longer displays grand total values.
 
     * **Background Color** to **White**
     * **Border Color** to **SlateGray**
-    * **Font** to **Tahoma, 8.25pt**
+    * **Font** to **Tahoma 8.25**
     * **Foreground Color** to **SlateGray**
 
     ![](../../../../images/eurd-win-balance-sheet-general-style.png)
@@ -144,13 +143,13 @@ The Cross Tab control no longer displays grand total values.
 
     * reset the **Background Color** property value to inherit the color from the general style;
     * set the **Foreground Color** property to **MidnightBlue** to override the general foreground color;
-    * set the **Font** property to **Tahoma, 8.25, Bold** to override the general font.
+    * set the **Font** property to **Tahoma 8.25** to override the general font.
 
     ![](../../../../images/eurd-win-balance-sheet-header-area-style.png)
 
-3. Expand the [TotalAreaStyle](xref:DevExpress.XtraReports.UI.CrossTab.CrossTabStyles.TotalAreaStyle) property and set the following properties to override general settings:
+3. Expand the **Total Area Style** property and set the following properties to override general settings:
 
-    * **Font** to **Tahoma, 8.25, Bold**
+    * **Font** to **Tahoma 8.25 Bold**
     * **Foreground Color**  to **MidnightBlue**
 
     ![](../../../../images/eurd-win-balance-sheet-total-area-style.png)
@@ -158,7 +157,7 @@ The Cross Tab control no longer displays grand total values.
 4. Select the cell bound to the **Name** data field and set the following appearance properties:
 
     * **Foreground Color**  to **SlateGray**
-    * **Font** to **Tahoma, 8.25**
+    * **Font** to **Tahoma 8.25**
 
     These values apply to the selected cell only and override values specified for the entire header area.
 
@@ -166,7 +165,7 @@ The Cross Tab control no longer displays grand total values.
 
 ![](../../../../images/eurd-win-balance-sheet-styles-preview.png)
 
-5. Select the cells in the top row and in the rows with total values. Set the **Borders** property to **Bottom** and **BorderWidth** property to **2**.
+5. Select the cells in the top row and in the rows with total values. Set the **Borders** property to **Bottom** and **Border Width** property to **2**.
 
     ![](../../../../images/eurd-win-balance-sheet-add-borders.png)
 
@@ -186,7 +185,7 @@ The Cross Tab control no longer displays grand total values.
 
 ## Apply Odd and Even Row Styles
 
-Use the **GroupRowIndex** variable in [expressions](xref:120091) to identify odd and even rows.
+Use the **GroupRowIndex** variable in [expressions](../use-expressions.md) to identify odd and even rows.
 
 Select the cell bound to the **Name** field and the next cell in the data area. Go to the **Properties** window and open the **Expressions** tab. Click the **Background Color** property's marker, select **Background Color Expression** and specify the following expression:
 
