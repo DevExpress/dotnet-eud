@@ -3,7 +3,7 @@ title: Cross-Tab Report
 ---
 # Cross-Tab Report
 
-Select **Cross-Tab Report** on the start wizard page to create a [cross-tab report](../../create-popular-reports/create-a-cross-tab-report.md) that displays multi-dimensional data.
+Select **Cross-Tab Report** on the wizard's [start page](../report-wizard.md) to create a [cross-tab report](../../create-popular-reports/create-a-cross-tab-report.md) that displays multi-dimensional data.
 
 ![](../../../../../images/eurd-win-cross-tab-report-wizard-select-report-type.png)
 
@@ -17,14 +17,14 @@ Once the data source is configured, you can define the report's layout on the ne
 
 ![](../../../../../images/eurd-win-cross-tab-report-wizard-drop-fields.png)
 
-You can also select a data field from the corresponding drop-down list.
+You can also select a field from the corresponding drop-down list.
 
 ![](../../../../../images/eurd-win-cross-tab-report-wizard-drop-down-list.png)
 
 > [!Note]
 > The field order defines the hierarchy in the resulting cross-tab report. The higher the field on the list, the higher the level in the field hierarchy.
 
-You can click **Finish** to stop the Report Wizard. If you wan to customize the report further, click **Next** and proceed to the next pages:
+You can click **Finish** to stop the Report Wizard. If you want to customize the report further, click **Next** and proceed to the next pages:
 
 * [Specify Report Page Settings](table-report/specify-report-page-settings.md)
 * [Choose a Report Color Scheme](table-report/choose-a-report-color-scheme.md)
