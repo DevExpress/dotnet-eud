@@ -17,13 +17,13 @@ This topic assumes that you have a report that groups data source data into invo
 
 ## Add Line Numbers
 
-1. Right-click the [Detail band](../introduction-to-banded-reports.md)'s first cell and select Insert / Column to Left from the context menu.
+1. Right-click the first cell in the [Detail band](../introduction-to-banded-reports.md)'s table and select Insert / Column to Left from the context menu.
 
 	![](../../../../images/eurd-win-underlay-report-add-cell.png)
 
 1. Select the new cell and specify the following property values:
 
-	* **Summary**: _Report_
+	* **Summary**: _Group_
 	* **Expression**: _sumRecordNumber()_
 
 	![](../../../../images/eurd-win-underlay-report-add-line-numbers.png)
@@ -48,14 +48,20 @@ Each invoice now includes the numbered lines that continue until the totals.
 
 Add a panel with recipient details across the entire group. Place the panel on a separate _GroupHeader_ band that is printed on the background of other bands.
 
-1. Add another _GroupHeader_ band to the top of the report. Click the added band's smart tag and set the **Print Across Bands** property. This makes the band content start at the top of the _GroupHeader1_ and end at the bottom of the _GroupFooter1_ band.
+1. Right-click the design surface. Select **Insert Band** / **GroupHeader** from the context menu.
+
+	![](../../../../images/eurd-win-underlay-report-add-group-header.png)
+
+1. Click the added band's smart tag and set the **Print Across Bands** property. This makes the band content start at the top of the _GroupHeader1_ and end at the bottom of the _GroupFooter1_ band.
 
 	![](../../../../images/eurd-win-underlay-report-printundernextband.png)
 
 	> [!Tip]
 	> Choose a _PageHeader_ band instead of the _GroupHeader_ to limit the cross-band content to a page, even if the _GroupFooter_ is on the next page.
 
-2. As the new _GroupHeader_ band is above the header, it is not grouped. To include it in the grouping, remove the group field from the _GroupHeader1_ band, and [add it to GroupHeader2](#group-data).
+2. As the new _GroupHeader_ band is above the header, it is not included in the grouping. Move the group fields from the previous _GroupHeader_ band to the new band. Click _GroupHeader1_'s smart tag, click the **Group Fields** property's ellipsis button and remove group fields from the invoked **Group Field Collection Editor**. Then click _GroupHeader2_'s smart tag, click the **Group Fields** property's ellipsis button and add the same group fields.
+
+	![](../../../../images/eurd-win-underlay-report-move-group-fields.png)
 
 1. Add a [Panel](../use-report-elements/use-basic-report-controls/panel.md) control to the _GroupHeader_. Specify the panel's **Background Color** and drop fields onto the panel.
 

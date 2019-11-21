@@ -524,6 +524,8 @@
       href: articles/report-designer/create-popular-reports/create-labels-and-badges.md
     - name: Create a Multi-Column Report
       href: articles/report-designer/create-popular-reports/create-a-multi-column-report.md
+    - name: Create a Report with Cross-Band Content and Populated Empty Space
+      href: articles/report-designer/create-popular-reports/create-a-report-with-cross-band-content-and-populated-empty-space.md
     - name: Create an Interactive E-Form
       href: articles/report-designer/create-popular-reports/create-an-interactive-e-form.md
     - name: Create a Cross-Tab Report
