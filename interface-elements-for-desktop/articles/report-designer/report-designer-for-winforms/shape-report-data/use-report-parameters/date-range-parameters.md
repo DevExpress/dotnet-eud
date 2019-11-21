@@ -17,7 +17,7 @@ Perform the steps below to add a date range parameter to a report.
 1. Specify the options below in the invoked **Add New Parameter** dialog and click **OK**.
 
     - **Name** - the parameter's name;
-    - **Description** - the parameter's description displayed to users;
+    - **Description** - the parameter's description displayed in Print Preview's **Parameters** panel;
     - **Type** - the parameter's data type. Set it to **Date** to create a date range;
     - **Range Value** - enable this option to create a date range.
 
@@ -27,7 +27,7 @@ Perform the steps below to add a date range parameter to a report.
 
     ![](../../../../../images/eurd-win-use-date-ranges-design-configure-subparam.png)
 
-    The **Value** property allows you to specify a static default value. Use the **Value Expression** property to specify a dynamic default value. Click the **Value** property's marker, select **Value Expression** and specify an expression in the invoked **Expression Editor**.
+    The **Value** property allows you to specify a static default value. Provide an expression for the **Value** property to specify a dynamic default value. Click the **Value** property's marker, select **Value Expression** and specify an expression in the invoked **Expression Editor**.
 
     ![](../../../../../images/eurd-win-use-date-ranges-design-value-expression.png)
 
@@ -36,9 +36,9 @@ Perform the steps below to add a date range parameter to a report.
     ![](../../../../../images/eurd-win-use-date-ranges-filterstring.png)
 
     > [!NOTE]
-    > The start and end parameter values store the selected day's midnight time. For instance, if a user chooses _10/15/2019_, the value is _10/15/2019 12:00:00 AM_. If your date fields include non-midnight time, records for the end date _10/15/2019_ are excluded from a report. Use the **GetDate()** function in the **FilterString Editor** to include data for the 10/15/2019 date.  
+    > The start and end parameter values store the selected day's midnight time. For instance, if you choose _10/15/2019_, the value is _10/15/2019 12:00:00 AM_. If your date fields include non-midnight time, records for the end date _10/15/2019_ are excluded from a report. Use the **GetDate()** function in the **FilterString Editor** to include data for the 10/15/2019 date.  
     > ![](../../../../../images/eurd-win-use-date-ranges-filterstring-getdate.png)
 
-When users switch to Print Preview, the **Parameters** panel displays the date range parameter. After a user submits a start and end date, a report document is displayed with filtered data.
+When you switch to Print Preview, the **Parameters** panel displays the date range parameter. After you submit a start and end date, a report document is displayed with filtered data.
 
 ![](../../../../../images/eurd-win-use-date-ranges-parameters-panel.png)

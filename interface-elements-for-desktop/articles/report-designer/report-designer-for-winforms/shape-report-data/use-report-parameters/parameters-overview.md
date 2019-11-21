@@ -4,7 +4,7 @@ author: Anna Gubareva
 ---
 # Parameters Overview
 
-You can use report parameters to pass data to a report before it has been published. Parameter values are specified in Print Preview's **Parameters** panel.
+You can use report parameters to pass data to a report before it is generated. Parameter values are specified in Print Preview's **Parameters** panel.
 
 ## Add Parameters
 
@@ -29,12 +29,12 @@ The dialog provides the following options:
 * **Type**  
 	Specifies the parameter's value type. A value editor for the specified type is displayed in Print Preview.
 * **Default value**  
-	Specifies the parameter's **Value**. When users change a parameter's value in Print Preview, they can press **Reset** to return to the default value.
+	Specifies the parameter's **Value**. When you change a parameter's value in Print Preview, you can press **Reset** to return to the default value.
 
 	![](../../../../../images/eurd-win-parameters-reset-parameter-value.png)
 
 * **Expression**  
-	Specifies an expression that defines the parameter's value based on specific conditions. Click the **Expression** property's ellipsis button and construct an expression in the invoked **Expression Editor**.
+	Specifies an [expression](../../use-expressions.md) that defines the parameter's value based on specific conditions. Click the **Expression** property's ellipsis button and construct an expression in the invoked **Expression Editor**.
 
 	![](../../../../../images/eurd-win-parameters-construct-expression.png)
 
@@ -47,7 +47,7 @@ The dialog provides the following options:
 * **Range Value**  
 	Enable this option if the parameter should specify a range with a start value and an end value. This option applies to _Date_-type parameters. See [Date Range Parameters](date-range-parameters.md) for information on how to configure a date range parameter.
 * **Supports the collection of standard values**  
-	Applies if the parameter is visible (its value is requested in Print Preview). A user can choose a value from a predefined list. You can populate this list with static values, or specify a data source from where the values are obtained.
+	Applies if the parameter is visible (its value is requested in Print Preview). You can choose a value from a predefined list. You can populate this list with static values, or specify a data source from where the values are obtained.
 
 	* **Dynamic values**
 
@@ -69,7 +69,7 @@ The dialog provides the following options:
 
 ## Use Parameters
 
-Report parameters pass data to a report before it has been generated in Print Preview. You can let users specify parameter values.
+Report parameters pass data to a report before it is generated in Print Preview. You can specify parameter values.
 
 Use report parameters in the following cases:
 
