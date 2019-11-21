@@ -12,7 +12,7 @@ In this tutorial, we will start with the following report displaying products [g
 You can implement interactive sorting for both the detail data and report groups.
 
 ## <a name="sortreportgroups"></a>Sort Report Groups
-To enable sorting report groups in Print Preview, select the label displaying product category names located in the **Group Header** band and switch to the [Property Grid](..\report-designer-tools\ui-panels\property-grid.md).
+To enable sorting report groups in Print Preview, select the label displaying product category names located in the **Group Header** band and switch to the [Property Grid](..\report-designer-tools\ui-panels\property-grid-tabbed-view.md).
 
 ![eurd-win-interactive-sorting-for-groupsr](../../../../images/eurd-win-interactive-sorting-for-groups.png)
 
@@ -23,7 +23,7 @@ Switch to the **Preview** tab to sort report groups by the **CategoryName** fiel
 ![ieurd-win-interactive-sorting-groups-result](../../../../images/ieurd-win-interactive-sorting-groups-result.png)
 
 ## <a name="sortdetaildata"></a>Sort Detail Data
-To enable sorting data in the Detail band, select the table cell displaying the **Product Name** title and switch to the [Property Grid](..\report-designer-tools\ui-panels\property-grid.md).
+To enable sorting data in the Detail band, select the table cell displaying the **Product Name** title and switch to the [Property Grid](..\report-designer-tools\ui-panels\property-grid-tabbed-view.md).
 
 ![eurd-win-interactive-sorting-detail](../../../../images/eurd-win-interactive-sorting-detail.png)
 

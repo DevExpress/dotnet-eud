@@ -1,11 +1,27 @@
 ---
-title: Property Grid
+title: Property Grid (Non-Tabbed View)
 ---
-# Property Grid
+# Property Grid (Non-Tabbed View)
 
 The **Property Grid** allows you to access and customize report/report element settings.
 
-![WinFormsPropertyGrid](../../../../../images/eurd-win-WinFormsPropertyGrid.png)
+![WinFormsPropertyGrid-Tabs](../../../../../images/eurd-win-property-grid-nontabbed-view.png)
+
+See the [Property Grid (Tabbed View)](property-grid-tabbed-view.md) topic if your Property Grid arranges properties in tabs.
+
+![WinFormsPropertyGrid-Tabs](../../../../../images/eurd-win-PropertyGrid-Tabs.png)
+
+You can switch between categorized and alphabetical modes.
+
+  ![Categorized-Alphabetical-Mode-Switchers](../../../../../images/eurd-win-propertygrid-nontabbed-modeswitchers.png)
+
+  - In the categorized mode, properties are listed in a tree-like form.
+
+    ![Categorized-Mode](../../../../../images/eurd-win-propertygrid-nontabbed-categorized.png)
+
+  - In the alphabetical mode, all properties are displayed in a single list and are sorted alphabetically by name.
+
+    ![Alphabetical-Mode](../../../../../images/eurd-win-propertygrid-nontabbed-alphabetical.png)
 
 ## Select a Report Element
 
@@ -18,37 +34,31 @@ Perform one of the following actions to select an element and show its propertie
 * Click an element in the [design surface](../../first-look-at-the-report-designer.md).
 * Select an element in the [Report Explorer](report-explorer.md).
 
-## Property Grid Tabs
-
-The Property Grid displays properties in tabs. The active tab is activated at the application's next start.
-
-![WinFormsPropertyGrid-Tabs](../../../../../images/eurd-win-PropertyGrid-Tabs.png)
-
 ## Favorite Properties
 
 The **Favorites** tab displays favorite or most frequently used properties.
 
-![WinFormsPropertyGrid-Tabs](../../../../../images/eurd-win-PropertyGrid-Favorites.png)
+![WinFormsPropertyGrid-Tabs](../../../../../images/eurd-win-PropertyGrid-Favorites-nontabbed.png)
 
 Click the **Edit Favorite Properties** context menu item to set up the favorite properties. In the invoked **Favorite Properties Editor**, enable check boxes for the controls' properties to include these properties into the favorite list.
 
-![](../../../../../images/eurd-win-favorite-properties-editor.png)
+![](../../../../../images/eurd-win-favorite-properties-editor-nontabbed.png)
 
 ## Change Property Values
 
 The Property Grid adds a green property marker to properties if their default value changes.
 
-![WinFormsPropertyGrid-GreenMarks](../../../../../images/eurd-win-PropertyGrid-GreenMarks.png)
+![WinFormsPropertyGrid-GreenMarks](../../../../../images/eurd-win-PropertyGrid-GreenMarks-nontabbed.png)
 
 Right-click a property's editor to reset the value.
 
-![WinFormsPropertyGrid-ResetValue](../../../../../images/eurd-win-FormsPropertyGrid-ResetValue.png)
+![WinFormsPropertyGrid-ResetValue](../../../../../images/eurd-win-FormsPropertyGrid-ResetValue-nontabbed.png)
 
 ## Set Color Properties
 
 You can use the Magnifier to set color properties.
 
-![](../../../../../images/eurd-win-magnifier-button.png)
+![](../../../../../images/eurd-win-magnifier-button-nontabbed.png)
 
 Do the following to use the Magnifier:
 
@@ -72,7 +82,7 @@ Right click to cancel the Magnifier mode.
 
 If [expression bindings](../../bind-to-data/data-binding-modes.md) are enabled, the Property Grid allows you to specify expressions that can include two or more data fields and various functions. Click a property's marker to see whether the invoked context menu has the **PropertyName Expression** item.
 
-![WinFormsPropertyGrid-Expression](../../../../../images/eurd-win-PropertyGrid-Expression.png)
+![WinFormsPropertyGrid-Expression](../../../../../images/eurd-win-PropertyGrid-Expression-nontabbed.png)
 
 Click this item to specify an expression in the invoked Expression Editor.
 
@@ -80,11 +90,11 @@ Click this item to specify an expression in the invoked Expression Editor.
 
 The Property Grid highlights properties that have an assigned expression.
 
-![WinFormsPropertyGrid-ExpressionMark](../../../../../images/eurd-win-PropertyGrid-ExpressionMark.png)
+![WinFormsPropertyGrid-ExpressionMark](../../../../../images/eurd-win-PropertyGrid-ExpressionMark-nontabbed.png)
 
 Click a property's marker and choose **Reset** to reset the property value.
 
-![WinFormsPropertyGrid-ResetExpression](../../../../../images/eurd-win-PropertyGrid-ResetExpression.png)
+![WinFormsPropertyGrid-ResetExpression](../../../../../images/eurd-win-PropertyGrid-ResetExpression-nontabbed.png)
 
 > [!Note]
 > The **Reset** command resets both the expression and the value you specified using the property editor.
@@ -93,22 +103,6 @@ Click a property's marker and choose **Reset** to reset the property value.
 
 The Property Grid's search box allows you to search for a property. When you type within the search box, the Property Grid automatically creates a search criteria based on the entered text and filters the list of available properties.
 
-![WinFormsPropertyGrid-Search](../../../../../images/eurd-win-PropertyGrid-Search.png)
+![WinFormsPropertyGrid-Search](../../../../../images/eurd-win-PropertyGrid-Search-nontabbed.png)
 
 If you type two substrings separated by a space character, these substrings are considered as individual conditions combined by the OR logical operator. To find properties that contain both substrings (to use the AND logical operator), enclose the entered string in quotation marks.
-
-## Non-Tabbed View
-
-![Property-Grid-NonTabbed-View](../../../../../images/eurd-win-property-grid-nontabbed-view.png)
-
-The non-tabbed view allows users to switch between categorized and alphabetical modes.
-
-  ![Categorized-Alphabetical-Mode-Switchers](../../../../../images/eurd-win-propertygrid-nontabbed-modeswitchers.png)
-
-  - In the categorized mode, properties are listed in a tree-like form.
-
-    ![Categorized-Mode](../../../../../images/eurd-win-propertygrid-nontabbed-categorized.png)
-
-  - In the alphabetical mode, all properties are displayed in a single list and are sorted alphabetically by name.
-
-    ![Alphabetical-Mode](../../../../../images/eurd-win-propertygrid-nontabbed-alphabetical.png)
