@@ -8,7 +8,7 @@ Use expressions to [retrieve and format data](bind-to-data\bind-controls-to-data
 
 ## Expression Syntax
 
-An expression is a string that, when parsed and processed, evaluates a value. Expressions consist of field names, constants, operators, and functions. Field names are wrapped in square brackets. Here are examples of expressions:
+An expression is a string that evaluates a value when it is parsed and processed. Expressions consist of field names, constants, operators, and functions. Field names are wrapped in square brackets.
 
 _"[Quantity] * [UnitPrice] * (1 - [BonusAmount])"_
 
@@ -40,7 +40,7 @@ The Report Designer allows you to use the FilterString Editor to specify filter 
 
 ![Expressions_FilterEditor](../../../images/eurd-win-filter-editor.png)
 
-Click the report's smart tag. Then click the **Filter String** property's ellipsis button. This invokes the FilterString Editor where you can apply a filter against report data.
+Click the report's smart tag. Then click the **Filter String** property's ellipsis button. This invokes the FilterString Editor that allows you to apply a filter.
 
 ![Expressions_FilterEditor](../../../images/eurd-win-invoke-filterstring-editor.png)
 
