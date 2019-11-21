@@ -4,7 +4,7 @@ owner: Mary Sammal
 ---
 # Use Expressions
 
-Expressions specify criteria used to [retrieve and format data](bind-to-data\bind-controls-to-data-expression-bindings.md), [create calculated fields](shape-report-data\use-calculated-fields.md) and [calculate summaries](shape-report-data\shape-data-expression-bindings\calculate-a-summary.md), [conditionally shape data and change a report control's appearance](shape-report-data\shape-data-expression-bindings.md).
+Use expressions to [retrieve and format data](bind-to-data\bind-controls-to-data-expression-bindings.md), [create calculated fields](shape-report-data\use-calculated-fields.md) and [calculate summaries](shape-report-data\shape-data-expression-bindings\calculate-a-summary.md), [conditionally shape data and change a report control's appearance](shape-report-data\shape-data-expression-bindings.md).
 
 ## Expression Syntax
 
@@ -18,7 +18,7 @@ _"[Country] == 'USA'"_
 
 _"[OrderDate] > #8/16/1994# AND [Quantity] > 20"_
 
-You can use [Expression Operators, Functions and Constants](use-expressions\expression-syntax.md) in your expressions.
+You can use [operators, functions and constants](use-expressions\expression-syntax.md) in your expressions.
 
 ## Expression Editor
 
@@ -26,7 +26,7 @@ The Report Designer allows you to use the Expression Editor that provides functi
 
 ![Expressions_ExpressionEditor](../../../images/eurd-win-expression-editor.png)
 
-The Expression Editor highlights an expression's syntax and supports intelligent code completion. The Editor suggests functions and available data elements as you type.
+The Expression Editor highlights an expression's syntax and supports intelligent code completion (it suggests functions and available data elements as you type).
 
 ![Expressions_ExpressionEditor_Intellisense](../../../images/eurd-win-expression-editor_intellisense.png)
 
@@ -40,11 +40,11 @@ The Report Designer allows you to use the FilterString Editor to specify filter 
 
 ![Expressions_FilterEditor](../../../images/eurd-win-filter-editor.png)
 
-Click the report's smart tag. Then click the FilterString property's ellipsis button. This invokes the FilterString Editor where you can apply a filter against report data.
+Click the report's smart tag. Then click the **Filter String** property's ellipsis button. This invokes the FilterString Editor where you can apply a filter against report data.
 
 ![Expressions_FilterEditor](../../../images/eurd-win-invoke-filterstring-editor.png)
 
-FilterString editors are also available in the CrossTab control and in the Chart's Series where you can apply a FilterString against an individual control's data.
+You can also use FilterString editors to filter data in the [Cross Tab](use-report-elements/use-cross-tabs.md) control and in the [Chart](use-report-elements/use-charts-and-pivot-grids.md)'s series.
 
 The FilterString Editor supports intelligent code completion. It suggests functions and available data elements as you type, validates the typed string and highlights errors.
 
