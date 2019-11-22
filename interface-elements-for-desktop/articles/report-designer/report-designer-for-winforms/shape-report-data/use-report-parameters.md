@@ -24,4 +24,4 @@ The topics in this section describe how to use parameters in a report:
 
 * [Query Parameters](use-report-parameters/query-parameters.md)
 
-	Details how to link report parameters with query parameters defined in your report's data source.
+	Explains how to link report parameters to query parameters defined in your report's data source.

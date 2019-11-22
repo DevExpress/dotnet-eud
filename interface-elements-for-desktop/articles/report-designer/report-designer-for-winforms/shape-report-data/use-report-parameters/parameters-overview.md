@@ -39,13 +39,13 @@ The dialog provides the following options:
 	![](../../../../../images/eurd-win-parameters-construct-expression.png)
 
 * **Show in the parameters panel** (corresponds to the parameter's **Visible** property)  
-	Enable this option to request the parameter value in Print Preview. Otherwise, the report assumes the default parameter value.
+	Enable this option to request the parameter value in Print Preview. Otherwise, the report takes the default parameter value.
 * **Allow multiple values** (corresponds to the parameter's **Multi-Value** property)  
 	Enable this option to allow a parameter to accept a [collection of values](create-multi-value-and-cascading-parameters.md).
 * **Allow null value** (corresponds to the parameter's **Allow Null** property)  
 	Enable this option if the parameter's value can be unspecified.
 * **Range Value**  
-	Enable this option if the parameter should specify a range with a start value and an end value. This option applies to _Date_-type parameters. See [Date Range Parameters](date-range-parameters.md) for information on how to configure a date range parameter.
+	Enable this option if the parameter should specify a range with a start and end value. This option applies to _Date_-type parameters. See [Date Range Parameters](date-range-parameters.md) for information on how to configure a date range parameter.
 * **Supports the collection of standard values**  
 	Applies if the parameter is visible (its value is requested in Print Preview). You can choose a value from a predefined list. You can populate this list with static values, or specify a data source from where the values are obtained.
 
@@ -69,7 +69,7 @@ The dialog provides the following options:
 
 ## Use Parameters
 
-Report parameters pass data to a report before it is generated in Print Preview. You can specify parameter values.
+Report parameters pass data to a report before it is generated in Print Preview. You can specify these parameter's values.
 
 Use report parameters in the following cases:
 
@@ -87,7 +87,7 @@ Use report parameters in the following cases:
 	
 	![](../../../../../images/eurd-win-parameters-for-data-binding.png)
 	
-	You can refer to a parameter in [mail merge](../../bind-to-data/use-embedded-fields-mail-merge.md). Add a question mark in front of the parameter's name.
+	Add a question mark in front of a parameter's name to refer to it in [mail merge](../../bind-to-data/use-embedded-fields-mail-merge.md).
 
 	![](../../../../../images/eurd-win-mailmerge-parameters.png)
 
