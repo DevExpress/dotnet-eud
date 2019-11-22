@@ -51,7 +51,7 @@ The dialog provides the following options:
 
 	* **Dynamic values**
 
-		Specify a data source, data adapter and data member for the parameter values storage. **Value Member** defines a data field that provides values to the parameter. **Display Member** defines a data field that stores values displayed in Print Preview.
+		Specify a data source, data adapter, and data member for the parameter values storage. **Value Member** defines the data field that provides the parameter's values. **Display Member** defines the data field that stores values displayed in Print Preview.
 		
 		![](../../../../../images/eurd-win-parameters-dynamic-values.png)
 		
