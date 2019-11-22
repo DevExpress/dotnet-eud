@@ -45,6 +45,9 @@ Each invoice now includes the numbered lines that continue until the totals.
 
 ![](../../../images/eurd-web-underlay-report-preview-4.png)
 
+> [!NOTE]
+> You can display predefined values instead of empty lines. Specify the predefined values in the **Text** properties of the _Detail_ band's controls.
+
 ## Add Cross-Band Data
 
 Add a panel with recipient details across the entire group. Place the panel on a separate _Group Header_ band that is printed on the background of other bands.

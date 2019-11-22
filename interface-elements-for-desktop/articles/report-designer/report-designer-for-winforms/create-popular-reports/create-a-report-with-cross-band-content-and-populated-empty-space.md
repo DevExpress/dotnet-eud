@@ -17,7 +17,7 @@ This topic assumes that you have a report that groups data source data into invo
 
 ## Add Line Numbers
 
-1. Right-click the first cell in the [Detail band](../introduction-to-banded-reports.md)'s table and select Insert / Column to Left from the context menu.
+1. Right-click the first cell in the [Detail band](../introduction-to-banded-reports.md)'s table and select **Insert** / **Column to Left** from the context menu.
 
 	![](../../../../images/eurd-win-underlay-report-add-cell.png)
 
@@ -43,6 +43,9 @@ Click the _Detail_ band's smart tag and check the **Fill Empty Space** property.
 Each invoice now includes the numbered lines that continue until the totals.
 
 ![](../../../../images/eurd-win-underlay-report-preview-4.png)
+
+> [!NOTE]
+> You can display predefined values instead of empty lines. Specify the predefined values in the **Text** properties of the _Detail_ band's controls.
 
 ## Add Cross-Band Data
 
