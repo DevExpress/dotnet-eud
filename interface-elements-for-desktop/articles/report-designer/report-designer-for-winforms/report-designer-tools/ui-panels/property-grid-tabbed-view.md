@@ -34,7 +34,7 @@ The **Favorites** tab displays favorite or most frequently used properties.
 
 ![WinFormsPropertyGrid-Tabs](../../../../../images/eurd-win-PropertyGrid-Favorites.png)
 
-Click the **Edit Favorite Properties** context menu item to set up the favorite properties. In the invoked **Favorite Properties Editor**, enable check boxes for the controls' properties to include these properties into the favorite list.
+Click the **Edit Favorite Property List** context menu item to set up the favorite properties. Enable check boxes for the controls' properties in the invoked **Favorite Properties Editor** to include these properties into the favorite list.
 
 ![](../../../../../images/eurd-win-favorite-properties-editor.png)
 
@@ -70,7 +70,7 @@ Do the following to use the Magnifier:
 
 	![](../../../../../images/eurd-win-magnifier-set-color.png)
 
-Right click to cancel the Magnifier mode.
+Right click or press Esc to cancel the Magnifier mode.
 
 ## Specify Expressions
 
@@ -98,5 +98,3 @@ Click a property's marker and choose **Reset** to reset the property value.
 The Property Grid's search box allows you to search for a property. When you type within the search box, the Property Grid automatically creates a search criteria based on the entered text and filters the list of available properties.
 
 ![WinFormsPropertyGrid-Search](../../../../../images/eurd-win-PropertyGrid-Search.png)
-
-If you type two substrings separated by a space character, these substrings are considered as individual conditions combined by the OR logical operator. To find properties that contain both substrings (to use the AND logical operator), enclose the entered string in quotation marks.

@@ -7,9 +7,18 @@ The **Property Grid** allows you to access and customize report/report element s
 
 ![WinFormsPropertyGrid-Tabs](../../../../../images/eurd-win-property-grid-nontabbed-view.png)
 
-See the [Property Grid (Tabbed View)](property-grid-tabbed-view.md) topic if your Property Grid arranges properties in tabs.
+## Select a Report Element
 
-![WinFormsPropertyGrid-Tabs](../../../../../images/eurd-win-PropertyGrid-Tabs.png)
+Perform one of the following actions to select an element and show its properties in the Property Grid:
+
+* Select an element in the drop-down list at the top of the Property Grid.
+
+	![WinFormsPropertyGrid-SelectControl](../../../../../images/eurd-win-PropertyEditor-SelectControl.png)
+
+* Click an element in the [design surface](../../first-look-at-the-report-designer.md).
+* Select an element in the [Report Explorer](report-explorer.md).
+
+## Categorized and Alphabetical Modes
 
 You can switch between categorized and alphabetical modes.
 
@@ -23,16 +32,9 @@ You can switch between categorized and alphabetical modes.
 
     ![Alphabetical-Mode](../../../../../images/eurd-win-propertygrid-nontabbed-alphabetical.png)
 
-## Select a Report Element
+See the [Property Grid (Tabbed View)](property-grid-tabbed-view.md) topic if your Property Grid arranges properties in tabs.
 
-Perform one of the following actions to select an element and show its properties in the Property Grid:
-
-* Select an element in the drop-down list at the top of the Property Grid.
-
-	![WinFormsPropertyGrid-SelectControl](../../../../../images/eurd-win-PropertyEditor-SelectControl.png)
-
-* Click an element in the [design surface](../../first-look-at-the-report-designer.md).
-* Select an element in the [Report Explorer](report-explorer.md).
+![WinFormsPropertyGrid-Tabs](../../../../../images/eurd-win-PropertyGrid-Tabs.png)
 
 ## Favorite Properties
 
@@ -40,7 +42,7 @@ The **Favorites** tab displays favorite or most frequently used properties.
 
 ![WinFormsPropertyGrid-Tabs](../../../../../images/eurd-win-PropertyGrid-Favorites-nontabbed.png)
 
-Click the **Edit Favorite Properties** context menu item to set up the favorite properties. In the invoked **Favorite Properties Editor**, enable check boxes for the controls' properties to include these properties into the favorite list.
+Click the **Edit Favorite Property List** context menu item to set up the favorite properties. Enable check boxes for the controls' properties in the invoked **Favorite Properties Editor** to include these properties into the favorite list.
 
 ![](../../../../../images/eurd-win-favorite-properties-editor-nontabbed.png)
 
@@ -76,7 +78,7 @@ Do the following to use the Magnifier:
 
 	![](../../../../../images/eurd-win-magnifier-set-color.png)
 
-Right click to cancel the Magnifier mode.
+Right click or press Esc to cancel the Magnifier mode.
 
 ## Specify Expressions
 
@@ -104,5 +106,3 @@ Click a property's marker and choose **Reset** to reset the property value.
 The Property Grid's search box allows you to search for a property. When you type within the search box, the Property Grid automatically creates a search criteria based on the entered text and filters the list of available properties.
 
 ![WinFormsPropertyGrid-Search](../../../../../images/eurd-win-PropertyGrid-Search-nontabbed.png)
-
-If you type two substrings separated by a space character, these substrings are considered as individual conditions combined by the OR logical operator. To find properties that contain both substrings (to use the AND logical operator), enclose the entered string in quotation marks.
