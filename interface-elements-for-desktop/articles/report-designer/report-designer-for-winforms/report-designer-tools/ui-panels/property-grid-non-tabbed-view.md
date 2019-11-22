@@ -7,6 +7,10 @@ The **Property Grid** allows you to access and customize report/report element s
 
 ![WinFormsPropertyGrid-Tabs](../../../../../images/eurd-win-property-grid-nontabbed-view.png)
 
+See the [Property Grid (Tabbed View)](property-grid-tabbed-view.md) topic if your Property Grid arranges properties in tabs.
+
+![WinFormsPropertyGrid-Tabs](../../../../../images/eurd-win-PropertyGrid-Tabs_nontabbed.png)
+
 ## Select a Report Element
 
 Perform one of the following actions to select an element and show its properties in the Property Grid:
@@ -31,10 +35,6 @@ You can switch between categorized and alphabetical modes.
   - In the alphabetical mode, all properties are displayed in a single list and are sorted alphabetically by name.
 
     ![Alphabetical-Mode](../../../../../images/eurd-win-propertygrid-nontabbed-alphabetical.png)
-
-See the [Property Grid (Tabbed View)](property-grid-tabbed-view.md) topic if your Property Grid arranges properties in tabs.
-
-![WinFormsPropertyGrid-Tabs](../../../../../images/eurd-win-PropertyGrid-Tabs.png)
 
 ## Favorite Properties
 

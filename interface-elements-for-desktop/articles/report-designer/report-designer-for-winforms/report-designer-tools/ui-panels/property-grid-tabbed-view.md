@@ -7,6 +7,10 @@ The **Property Grid** allows you to access and customize report/report element s
 
 ![WinFormsPropertyGrid](../../../../../images/eurd-win-WinFormsPropertyGrid.png)
 
+See the [Property Grid (Non-Tabbed View)](property-grid-non-tabbed-view.md) topic if your Property Grid does not display tabs.
+
+![WinFormsPropertyGrid-Tabs](../../../../../images/eurd-win-property-grid-nontabbed-view-tabbed-topic.png)
+
 ## Select a Report Element
 
 Perform one of the following actions to select an element and show its properties in the Property Grid:
@@ -23,10 +27,6 @@ Perform one of the following actions to select an element and show its propertie
 The Property Grid displays properties in tabs. The active tab is activated at the application's next start.
 
 ![WinFormsPropertyGrid-Tabs](../../../../../images/eurd-win-PropertyGrid-Tabs.png)
-
-See the [Property Grid (Non-Tabbed View)](property-grid-non-tabbed-view.md) topic if your Property Grid does not display tabs.
-
-![WinFormsPropertyGrid-Tabs](../../../../../images/eurd-win-property-grid-nontabbed-view.png)
 
 ## Favorite Properties
 
