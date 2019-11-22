@@ -45,7 +45,7 @@ Each invoice now includes the numbered lines that continue until the totals.
 ![](../../../../images/eurd-win-underlay-report-preview-4.png)
 
 > [!NOTE]
-> You can display predefined values instead of empty lines. Specify the predefined values in the **Text** properties of the _Detail_ band's controls.
+> You can display predefined values instead of empty lines. Specify predefined values in the **Text** properties of the _Detail_ band's controls.
 
 ## Add Cross-Band Data
 
@@ -55,7 +55,7 @@ Add a panel with recipient details across the entire group. Place the panel on a
 
 	![](../../../../images/eurd-win-underlay-report-add-group-header.png)
 
-1. Click the added band's smart tag and set the **Print Across Bands** property. This makes the band content start at the top of the _GroupHeader1_ and end at the bottom of the _GroupFooter1_ band.
+1. Click the added band's smart tag and set the **Print Across Bands** property.  This makes the band content start on the background of the group's other bands.
 
 	![](../../../../images/eurd-win-underlay-report-printundernextband.png)
 
