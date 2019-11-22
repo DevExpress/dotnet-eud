@@ -44,7 +44,7 @@ Click the report's smart tag. Then click the **Filter String** property's ellips
 
 ![Expressions_FilterEditor](../../../images/eurd-win-invoke-filterstring-editor.png)
 
-You can also use FilterString editors to filter data in the [Cross Tab](use-report-elements/use-cross-tabs.md) control and in the [Chart](use-report-elements/use-charts-and-pivot-grids.md)'s series.
+You can also filter data in the [Cross Tab](use-report-elements/use-cross-tabs.md) control and in the [Chart](use-report-elements/use-charts-and-pivot-grids.md)'s series.
 
 The FilterString Editor supports intelligent code completion. It suggests functions and available data elements as you type, validates the typed string and highlights errors.
 
