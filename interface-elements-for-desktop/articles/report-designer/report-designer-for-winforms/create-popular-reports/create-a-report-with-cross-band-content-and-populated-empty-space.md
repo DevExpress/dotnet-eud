@@ -11,7 +11,9 @@ This tutorial describes how to create an invoice report with the following layou
 
 ![](../../../../images/eurd-win-underlay-report-preview-6.png)
 
-This topic assumes that you have a report that groups data source data into invoices and prints each invoice on a separate page.
+## Initial Report
+
+[Create](../add-new-reports.md) or [open](../open-reports.md) a [table report](../create-popular-reports/create-a-table-report.md) that has an empty space between the _Detail_ band and the footer, like the invoice report below.
 
 ![](../../../../images/eurd-win-underlay-report-preview-0.png)
 
@@ -28,7 +30,7 @@ This topic assumes that you have a report that groups data source data into invo
 
 	![](../../../../images/eurd-win-underlay-report-add-line-numbers.png)
 
-	Each row now includes a row number.
+Each row now includes a number.
 
 ![](../../../../images/eurd-win-underlay-report-preview-3.png)
 
@@ -40,16 +42,16 @@ Click the _Detail_ band's smart tag and check the **Fill Empty Space** property.
 
 ![](../../../../images/eurd-win-underlay-report-fillemptyspace.png)
 
-Each invoice now includes the numbered lines that continue until the totals.
+Invoices now include numbered lines that continue until the totals.
 
 ![](../../../../images/eurd-win-underlay-report-preview-4.png)
 
 > [!NOTE]
-> You can display predefined values instead of empty lines. Specify predefined values in the **Text** properties of the _Detail_ band's controls.
+> Set the **Text** properties of the _Detail_ band's controls to display static text within the added lines.
 
 ## Add Cross-Band Data
 
-Add a panel with recipient details across the entire group. Place the panel on a separate _GroupHeader_ band that is printed on the background of other bands.
+Add a panel across an invoice.
 
 1. Right-click the design surface. Select **Insert Band** / **GroupHeader** from the context menu.
 
@@ -60,17 +62,19 @@ Add a panel with recipient details across the entire group. Place the panel on a
 	![](../../../../images/eurd-win-underlay-report-printundernextband.png)
 
 	> [!Tip]
-	> Choose a _PageHeader_ band instead of the _GroupHeader_ to limit the cross-band content to a page, even if the _GroupFooter_ is on the next page.
+	> Choose a _PageHeader_ band instead of the _GroupHeader_ to display the cross-band content on an entire page.
 
-2. As the new _GroupHeader_ band is above the header, it is not included in the grouping. Move the group fields from the previous _GroupHeader_ band to the new band. Click _GroupHeader1_'s smart tag, click the **Group Fields** property's ellipsis button and remove group fields from the invoked **Group Field Collection Editor**. Then click _GroupHeader2_'s smart tag, click the **Group Fields** property's ellipsis button and add the same group fields.
+2. Specify group fields for the new _GroupHeader_ to display this band for each invoice. Click the _GroupHeader_'s smart tag, click the **Group Fields** property's ellipsis button and add group fields in the invoked **Group Field Collection Editor**.
 
 	![](../../../../images/eurd-win-underlay-report-move-group-fields.png)
+
+	Make sure to remove these fields from the initial _GroupHeader_ band.
 
 1. Add a [Panel](../use-report-elements/use-basic-report-controls/panel.md) control to the _GroupHeader_. Specify the panel's **Background Color** and drop fields onto the panel.
 
 	![](../../../../images/eurd-win-underlay-report-add-recipient.png)
 
-4. Adjust the panel's width and height. The height should match the page height, as the _GroupFooter_ is printed at the bottom of the page.
+4. Adjust the panel's width and height. The height should match the page height, as the footer is printed at the bottom of the page (the _GroupFooter_'s **Print At Bottom** property is enabled).
 
 	![](../../../../images/eurd-win-underlay-report-adjust-crossband-height.png)
 
@@ -78,7 +82,7 @@ Add a panel with recipient details across the entire group. Place the panel on a
 
 	![](../../../../images/eurd-win-underlay-report-preview-5.png)
 
-1. Adjust the content in other bands to print it side-by-side with the panel.
+1. Resize the content in other bands to print it side-by-side with the panel.
 
 	![](../../../../images/eurd-win-underlay-report-adjust-width.png)
 

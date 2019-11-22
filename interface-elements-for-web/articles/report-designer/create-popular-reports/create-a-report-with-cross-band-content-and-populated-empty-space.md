@@ -11,7 +11,9 @@ This tutorial describes how to create an invoice report with the following layou
 
 ![](../../../images/eurd-web-underlay-report-preview-6.png)
 
-This topic assumes that you have a report that groups data source data into invoices and prints each invoice on a separate page.
+## Initial Report
+
+[Create](../add-new-reports.md) or [open](../open-reports.md) a [table report](../create-popular-reports/create-a-table-report.md) that has an empty space between the _Detail_ band and the footer, like the invoice report below.
 
 ![](../../../images/eurd-web-underlay-report-preview-0.png)
 
@@ -29,7 +31,7 @@ This topic assumes that you have a report that groups data source data into invo
 
 	![](../../../images/eurd-web-underlay-report-add-line-numbers-2.png)
 
-	Each row now includes a row number.
+	Each row now includes a number.
 
 ![](../../../images/eurd-web-underlay-report-preview-3.png)
 
@@ -41,12 +43,12 @@ Select the _Detail_ band and enable the **Fill Empty Space** property.
 
 ![](../../../images/eurd-web-underlay-report-fillemptyspace.png)
 
-Each invoice now includes the numbered lines that continue until the totals.
+Invoices now include numbered lines that continue until the totals.
 
 ![](../../../images/eurd-web-underlay-report-preview-4.png)
 
 > [!NOTE]
-> You can display predefined values instead of empty lines. Specify predefined values in the **Text** properties of the _Detail_ band's controls.
+> Set the **Text** properties of the _Detail_ band's controls to display static text within the added lines.
 
 ## Add Cross-Band Data
 
@@ -61,7 +63,7 @@ Add a panel with recipient details across the entire group. Place the panel on a
 	![](../../../images/eurd-web-underlay-report-printundernextband.png)
 
 	> [!Tip]
-	> Choose a _Page Header_ band instead of the _Group Header_ to limit the cross-band content to a page, even if the _Group Footer_ is on the next page.
+	> Choose a _Page Header_ band instead of the _Group Header_ to display the cross-band content on an entire page.
 
 1. As the new _Group Header_ band is above the header, it is not included in the grouping. Move the group fields from the previous _Group Header_ band to the new band.
 
@@ -71,7 +73,7 @@ Add a panel with recipient details across the entire group. Place the panel on a
 
 	![](../../../images/eurd-web-underlay-report-add-recipient.png)
 
-1. Adjust the panel's width and height. The height should match the page height, as the _Group Footer_ is printed at the bottom of the page.
+1. Adjust the panel's width and height. The height should match the page height, as the footer is printed at the bottom of the page (the _Group Footer_'s **Print At Bottom** property is enabled).
 
 	![](../../../images/eurd-web-underlay-report-adjust-crossband-height.png)
 
@@ -79,7 +81,7 @@ Add a panel with recipient details across the entire group. Place the panel on a
 
 	![](../../../images/eurd-web-underlay-report-preview-5.png)
 
-1. Adjust the content in other bands to print it side-by-side with the panel.
+1. Resize the content in other bands to print it side-by-side with the panel.
 
 	![](../../../images/eurd-web-underlay-report-adjust-width.png)
 
