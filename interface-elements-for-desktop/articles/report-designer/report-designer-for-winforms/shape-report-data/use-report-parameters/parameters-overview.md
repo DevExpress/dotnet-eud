@@ -93,6 +93,6 @@ Use report parameters in the following cases:
 
 * **Specify Expressions**
     
-    You can include parameters into [expressions](../../use-expressions.md). Use a question mark (?) in front of a parameter's name.
+    Use a question mark (?) in front of a parameter's name to include it in an [expression](../../use-expressions.md).
 
     ![](../../../../../images/eurd-win-parameters-in-expression-editor.png)
