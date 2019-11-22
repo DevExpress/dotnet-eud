@@ -16,7 +16,7 @@ The topics in this section describe how to use parameters in a report:
 
 * [Multi-Value and Cascading Report Parameters](use-report-parameters/multi-value-and-cascading-parameters.md)
 
-	Explains how to configure report parameters so that they accept multiple values, and how to filter a parameter's values based on another parameter's value.
+	Explains how to configure report parameters to accept multiple values and filter a parameter's values based on another parameter's value.
 
 * [Date Range Parameters](use-report-parameters/date-range-parameters.md)
 
