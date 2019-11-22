@@ -10,7 +10,7 @@ This symbology has been widely implemented in many applications where a relative
 
 ![](../../../../../images/eurd-win-bar-code-code-128.png)
 
-The following property is specific to the **Code 128** type and available in the [Property Grid](../../report-designer-tools/ui-panels/property-grid.md) under the **Symbology** property:
+The following property is specific to the **Code 128** type and available in the [Property Grid](../../report-designer-tools/ui-panels/property-grid-tabbed-view.md) under the **Symbology** property:
 
 * **Character Set**
 	

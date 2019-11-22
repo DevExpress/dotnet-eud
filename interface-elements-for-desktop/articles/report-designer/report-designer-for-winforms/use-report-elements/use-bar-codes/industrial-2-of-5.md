@@ -8,7 +8,7 @@ author: Anna Gubareva
 
 ![](../../../../../images/eurd-win-bar-code-industrial-2-of-5.png)
 
-The following properties are specific to the **Industrial 2 of 5** type and available in the [Property Grid](../../report-designer-tools/ui-panels/property-grid.md) under the **Symbology** property:
+The following properties are specific to the **Industrial 2 of 5** type and available in the [Property Grid](../../report-designer-tools/ui-panels/property-grid-tabbed-view.md) under the **Symbology** property:
 
 * **Calculate a Checksum**
 

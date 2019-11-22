@@ -1,42 +1,46 @@
 ---
-title: Property Grid
+title: Property Grid (Tabbed View)
 ---
-# Property Grid
+# Property Grid (Tabbed View)
 
-The **Property Grid** allows you to access and customize the report's and report elements' settings.
+The **Property Grid** allows you to access and customize report/report element settings.
 
 ![WinFormsPropertyGrid](../../../../../images/eurd-win-WinFormsPropertyGrid.png)
 
+See the [Property Grid (Non-Tabbed View)](property-grid-non-tabbed-view.md) topic if your Property Grid does not display tabs.
+
+![WinFormsPropertyGrid-Tabs](../../../../../images/eurd-win-property-grid-nontabbed-view-tabbed-topic.png)
+
 ## Select a Report Element
-Do one of the following to select an element and show its properties in the Property Grid:
 
-* Select a required element in the drop-down list at the top of the Property Grid.
-	
+Perform one of the following actions to select an element and show its properties in the Property Grid:
+
+* Select an element in the drop-down list at the top of the Property Grid.
+
 	![WinFormsPropertyGrid-SelectControl](../../../../../images/eurd-win-PropertyEditor-SelectControl.png)
-* Click a required element in the [design surface](../../first-look-at-the-report-designer.md).
-* Select a required element in the [Report Explorer](report-explorer.md).
 
+* Click an element in the [design surface](../../first-look-at-the-report-designer.md).
+* Select an element in the [Report Explorer](report-explorer.md).
 
 ## Property Grid Tabs
 
-The Property Grid displays properties in tabs.
+The Property Grid displays properties in tabs. The active tab is activated at the application's next start.
 
 ![WinFormsPropertyGrid-Tabs](../../../../../images/eurd-win-PropertyGrid-Tabs.png)
 
-## Display Favorite Properties
+## Favorite Properties
 
 The **Favorites** tab displays favorite or most frequently used properties.
 
 ![WinFormsPropertyGrid-Tabs](../../../../../images/eurd-win-PropertyGrid-Favorites.png)
 
-
-Click the **Edit Favorite Properties** context menu item to set up the favorite properties. In the invoked **Favorite Properties Editor**, enable check boxes for the controls' properties to include these properties to the favorite list.
+Click the **Edit Favorite Property List** context menu item to set up the favorite properties. Enable check boxes for the controls' properties in the invoked **Favorite Properties Editor** to include these properties into the favorite list.
 
 ![](../../../../../images/eurd-win-favorite-properties-editor.png)
 
 ## Change Property Values
 
-The Property Grid displays a green marker if a property's default value changes.
+The Property Grid adds a green property marker to properties if their default value changes.
 
 ![WinFormsPropertyGrid-GreenMarks](../../../../../images/eurd-win-PropertyGrid-GreenMarks.png)
 
@@ -58,7 +62,7 @@ Do the following to use the Magnifier:
 	![](../../../../../images/eurd-win-magnifier-get-color.png)
 
 	You can use the Magnifier to zoom out. Use one of the following options to do this:
-	
+
 	- Hold Ctrl and press + / -
 	- Scroll the mouse wheel
 
@@ -66,11 +70,11 @@ Do the following to use the Magnifier:
 
 	![](../../../../../images/eurd-win-magnifier-set-color.png)
 
-Right click to cancel the Magnifier mode.	
+Right click or press Esc to cancel the Magnifier mode.
 
 ## Specify Expressions
 
-If [expression bindings](../../bind-to-data/data-binding-modes.md) are enabled, the Property Grid allows you to specify expressions that can include two or more data fields and various functions. Click a property marker to see whether the invoked context menu has the **PropertyName Expression** item. 
+If [expression bindings](../../bind-to-data/data-binding-modes.md) are enabled, the Property Grid allows you to specify expressions that can include two or more data fields and various functions. Click a property's marker to see whether the invoked context menu has the **PropertyName Expression** item.
 
 ![WinFormsPropertyGrid-Expression](../../../../../images/eurd-win-PropertyGrid-Expression.png)
 
@@ -87,18 +91,10 @@ Click a property's marker and choose **Reset** to reset the property value.
 ![WinFormsPropertyGrid-ResetExpression](../../../../../images/eurd-win-PropertyGrid-ResetExpression.png)
 
 > [!Note]
-> The **Reset** command resets the both the expression and the value you specified using the property editor.
+> The **Reset** command resets both the expression and the value you specified using the property editor.
 
 ## Search Properties
 
 The Property Grid's search box allows you to search for a property. When you type within the search box, the Property Grid automatically creates a search criteria based on the entered text and filters the list of available properties.
 
 ![WinFormsPropertyGrid-Search](../../../../../images/eurd-win-PropertyGrid-Search.png)
-
-If you type two substrings separated by a space character, these substrings are considered as individual conditions combined by the OR logical operator. To find properties that contain both substrings (i.e., to use the AND logical operator), enclose the entered string in quotation marks.
-
-
-
-
-
-

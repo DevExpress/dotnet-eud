@@ -1021,8 +1021,10 @@
           href: articles/report-designer/report-designer-for-winforms/report-designer-tools/ui-panels/field-list.md          
         - name: Report Gallery
           href: articles/report-designer/report-designer-for-winforms/report-designer-tools/ui-panels/report-gallery.md
-        - name: Property Grid
-          href: articles/report-designer/report-designer-for-winforms/report-designer-tools/ui-panels/property-grid.md
+        - name: Property Grid (Tabbed View)
+          href: articles/report-designer/report-designer-for-winforms/report-designer-tools/ui-panels/property-grid-tabbed-view.md
+        - name: Property Grid (Non-Tabbed View)
+          href: articles/report-designer/report-designer-for-winforms/report-designer-tools/ui-panels/property-grid-non-tabbed-view.md
         - name: Group and Sort Panel
           href: articles/report-designer/report-designer-for-winforms/report-designer-tools/ui-panels/group-and-sort-panel.md
   - name: Report Designer for WPF

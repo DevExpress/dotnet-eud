@@ -17,7 +17,7 @@ This document describes how to display or hide a report control in a published d
 
     ![](../../../../../images/eurd-win-shaping-suppress-initial-layout.png)
 
-2. Select the required control and switch to the [Property Grid](../../report-designer-tools/ui-panels/property-grid.md). Open the **Behavior** tab, click the **Visible** property's marker and select **Visible Expression** in the context menu.
+2. Select the required control and switch to the [Property Grid](../../report-designer-tools/ui-panels/property-grid-tabbed-view.md). Open the **Behavior** tab, click the **Visible** property's marker and select **Visible Expression** in the context menu.
 
     ![](../../../../../images/eurd-win-shaping-suppress-visible-property.png)
 
