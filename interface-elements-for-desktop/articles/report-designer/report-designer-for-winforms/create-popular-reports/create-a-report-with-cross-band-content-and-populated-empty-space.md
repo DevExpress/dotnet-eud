@@ -64,11 +64,11 @@ Add a panel across an invoice.
 	> [!Tip]
 	> Choose a _PageHeader_ band instead of the _GroupHeader_ to display the cross-band content on an entire page.
 
-2. Specify group fields for the new _GroupHeader_ to display this band for each invoice. Click the _GroupHeader_'s smart tag, click the **Group Fields** property's ellipsis button and add group fields in the invoked **Group Field Collection Editor**.
+2. Assign group fields to the added band to include it in each invoice (group fields are specified for the initial _GroupHeader_). Click the new _GroupHeader_'s smart tag, click the **Group Fields** property's ellipsis button and add group fields in the invoked **Group Field Collection Editor**.
 
 	![](../../../../images/eurd-win-underlay-report-move-group-fields.png)
 
-	Make sure to remove these fields from the initial _GroupHeader_ band.
+	Make sure to remove these fields from the initial _GroupHeader_.
 
 1. Add a [Panel](../use-report-elements/use-basic-report-controls/panel.md) control to the _GroupHeader_. Specify the panel's **Background Color** and drop fields onto the panel.
 
