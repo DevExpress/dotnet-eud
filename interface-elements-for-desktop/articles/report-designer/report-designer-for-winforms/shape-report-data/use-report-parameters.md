@@ -12,7 +12,7 @@ The topics in this section describe how to use parameters in a report:
 
 * [Request and Pass Report Parameter Values](use-report-parameters/request-and-pass-report-parameter-values.md)
 
-	Illustrates how to assign the default and custom values to a report's parameters and describes the editors that are used to request these values in a Print Preview.
+	Illustrates how to assign default and custom values to a report's parameters and describes the editors that are used to request these values in a Print Preview.
 
 * [Multi-Value and Cascading Report Parameters](use-report-parameters/multi-value-and-cascading-parameters.md)
 
