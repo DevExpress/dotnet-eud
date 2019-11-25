@@ -6,7 +6,7 @@ author: Anna Vekhina
 
 You can use report parameters to pass data to a report before it is generated. Parameter values are specified in the **Preview Parameters** panel.
 
-Add Parameters
+## Add Parameters
 
 Switch to the [Field List](../../report-designer-tools/ui-panels/field-list.md), select **Parameters** and click the ![](../../../../images/eurd-web-parameters-button-plus.png) button.
 
