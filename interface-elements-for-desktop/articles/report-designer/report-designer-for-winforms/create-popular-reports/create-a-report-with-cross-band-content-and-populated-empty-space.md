@@ -4,7 +4,7 @@ author: Sergey Andreev
 ---
 # Create a Report with Cross-Band Content and Populated Empty Space
 
-This tutorial describes how to create an invoice report with the following layout options:
+This document describes how to create an invoice report with the following layout options:
 
 - Print part of the content across bands (the blue panel);
 - Populate the empty space between the detail and footer information with blank rows.
@@ -13,9 +13,13 @@ This tutorial describes how to create an invoice report with the following layou
 
 ## Initial Report
 
-[Create](../add-new-reports.md) or [open](../open-reports.md) a [table report](../create-popular-reports/create-a-table-report.md) that has an empty space between the _Detail_ band and the footer, like the invoice report below.
+In this tutorial, the report groups order data to produce invoices. The group field (**OrderID**) is specified in the _GroupHeader1_ band.
 
 ![](../../../../images/eurd-win-underlay-report-preview-0.png)
+
+The _GroupFooter_ band is displayed at the bottom of the page (the **Print At Bottom** property is enabled). There is an empty space between the _Detail_ band's data and the footer.
+
+![](../../../../images/eurd-win-underlay-report-preview.png)
 
 ## Add Line Numbers
 
@@ -36,13 +40,13 @@ Each row now includes a number.
 
 ## Populate the Empty Space
 
-Populate the empty space between the _Detail_ band's data and the totals.
+Populate the empty space between the _Detail_ band's data and the footer.
 
-Click the _Detail_ band's smart tag and check the **Fill Empty Space** property.
+Click the _Detail_ band's smart tag and enable the **Fill Empty Space** property.
 
 ![](../../../../images/eurd-win-underlay-report-fillemptyspace.png)
 
-Invoices now include numbered lines that continue until the totals.
+The empty space is now populated with numbered lines.
 
 ![](../../../../images/eurd-win-underlay-report-preview-4.png)
 
@@ -51,7 +55,7 @@ Invoices now include numbered lines that continue until the totals.
 
 ## Add Cross-Band Data
 
-Follow the steps below to display content across report groups.
+Follow the steps below to display content across each group.
 
 1. Right-click the design surface. Select **Insert Band** / **GroupHeader** from the context menu.
 
@@ -60,11 +64,11 @@ Follow the steps below to display content across report groups.
 	> [!Tip]
 	> Choose a _PageHeader_ band instead to display the cross-band content on an entire page.
 
-1. Click the added band's smart tag and set the **Print Across Bands** property.  This displays the band content on the background of the report group.
+1. Click the added band's smart tag and enable the **Print Across Bands** property.  This displays the band content on the background of the report group.
 
 	![](../../../../images/eurd-win-underlay-report-printundernextband.png)
 
-2. Assign group fields to the added band to include it in each group, and un-assign these fields are specified from the initial _GroupHeader_. Click the new band's smart tag, click the **Group Fields** property's ellipsis button and add group fields in the invoked **Group Field Collection Editor**.
+2. Move the group field to the added band to include it in the group. Click the new band's smart tag, click the **Group Fields** property's ellipsis button and add group fields in the invoked **Group Field Collection Editor**.
 
 	![](../../../../images/eurd-win-underlay-report-move-group-fields.png)
 
