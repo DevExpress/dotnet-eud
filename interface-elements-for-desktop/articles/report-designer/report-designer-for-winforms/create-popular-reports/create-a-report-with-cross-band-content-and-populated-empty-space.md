@@ -66,7 +66,7 @@ The empty space is now populated with numbered lines.
 
 	![](../../../../images/eurd-win-underlay-report-printundernextband.png)
 
-2. The group field (**OrderID**) is in _GroupHeader1_ band's **Group Fields** collection. The new band is above _GroupHeader1_ and does not participate in the report's group. Move the group field to the new band.
+2. The group field (**OrderID**) is in the _GroupHeader1_ band's **Group Fields** collection. The new band is above _GroupHeader1_ and does not participate in the report's group. Move the group field to the new band.
 
 	- Click _GroupHeader1_'s smart tag, click the **Group Fields** property's ellipsis button and remove **OrderID** from the invoked **Group Field Collection Editor**.
 
