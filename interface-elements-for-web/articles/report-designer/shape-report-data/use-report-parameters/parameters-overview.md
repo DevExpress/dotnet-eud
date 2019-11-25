@@ -31,7 +31,7 @@ The dialog provides the following options:
 * **Allow Null**  
 	Check this option if the parameter's value can be unspecified.
 * **Expression**  
-	An [expression](../../use-expressions.md) that defines the parameter's value based on specific conditions. Click the Expression property's ellipsis button and construct an expression in the invoked Expression Editor.
+	An [expression](../../use-expressions.md) that defines the parameter's value based on specific conditions. Click the **Expression** property's ellipsis button and construct an expression in the invoked Expression Editor.
 * **Value**  
 	The parameter's default value. When you change a parameter's value in Print Preview, you can press **Reset** to return to the default value.
 
@@ -46,17 +46,17 @@ The dialog provides the following options:
 
     * **Static List**
 
-		A static list of values. Provide a description for each value that is displayed in Print Preview.
+		A static list of predefined values. Provide a description for each value.
 
 		![](../../../../images/eurd-web-parameters-static-values.png)
 
 	* **Dynamic List**
 
-		Specify a data source, data adapter, and data member for the parameter values storage. **Value Member** defines the data field that provides the parameter's values. **Display Member** defines the data field that stores values displayed in Print Preview.
+		A predefined list of values retrieved from the specified data source. **Value Member** defines the data field that provides the parameter's values. **Display Member** defines the data field that stores values displayed in the parameter's editor.
 
 		![](../../../../images/eurd-web-parameters-dynamic-values.png)
 
-		If the data member's value type does not match the parameter type, the validation rejects the value in Print Preview.
+		If the data member's value type does not match the parameter type, the validation rejects the value.
 
         You can specify the **Filter String** property to filter the list of values and implement [cascading parameters](multi-value-and-cascading-parameters.md#cascading-parameters).
 
@@ -64,7 +64,7 @@ The dialog provides the following options:
 
 	* **Range Parameters** (available for **Date** parameters only)
 
-		A parameter is a value range that includes a **Start Parameter** and **End Parameter**. The start and end parameters provide the following properties:
+		A value range between the **Start Parameter** and **End Parameter**. The start and end parameters provide the following properties:
 
 		* **Name** - the unique name by which you can refer to the parameter.
 		* **Value** - the parameter's default value.
@@ -73,8 +73,6 @@ The dialog provides the following options:
 		![](../../../../images/eurd-web-parameters-range.png)
 
 ## Use Parameters
-
-Report parameters pass data to a report before it is generated in Print Preview. You can specify these parameter's values.
 
 Use report parameters in the following cases:
 
