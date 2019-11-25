@@ -4,7 +4,7 @@ author: Sergey Andreev
 ---
 # Create a Report with Cross-Band Content and Populated Empty Space
 
-This document describes how to create an invoice report with the following layout options:
+This document describes how to create a report with the following layout options:
 
 - Print part of the content across bands (the blue panel);
 - Populate the empty space between the detail and footer information with blank rows.
@@ -13,7 +13,7 @@ This document describes how to create an invoice report with the following layou
 
 ## Initial Report
 
-In this tutorial, the report groups order data to produce invoices. The group field (**OrderID**) is specified in the _GroupHeader1_ band.
+In this tutorial, the report [groups data](../shape-report-data/group-and-sort-data.md) by the **OrderID** field.
 
 ![](../../../../images/eurd-win-underlay-report-preview-0.png)
 
@@ -53,9 +53,7 @@ The empty space is now populated with numbered lines.
 > [!NOTE]
 > Set the **Text** properties of the _Detail_ band's controls to display static text within the added lines.
 
-## Add Cross-Band Data
-
-Follow the steps below to display content across each group.
+## Add Cross-Band Content to Report Groups
 
 1. Right-click the design surface. Select **Insert Band** / **GroupHeader** from the context menu.
 
@@ -64,13 +62,19 @@ Follow the steps below to display content across each group.
 	> [!Tip]
 	> Choose a _PageHeader_ band instead to display the cross-band content on an entire page.
 
-1. Click the added band's smart tag and enable the **Print Across Bands** property.  This displays the band content on the background of the report group.
+1. Click the added band's smart tag and enable the **Print Across Bands** property.  This displays the band content on the background of the _GroupHeader1_, _Detail_, and _GroupFooter1_ bands.
 
 	![](../../../../images/eurd-win-underlay-report-printundernextband.png)
 
-2. Move the group field to the added band to include it in the group. Click the new band's smart tag, click the **Group Fields** property's ellipsis button and add group fields in the invoked **Group Field Collection Editor**.
+2. The group field (**OrderID**) is in _GroupHeader1_ band's **Group Fields** collection. The new band is above _GroupHeader1_ and does not participate in the report's group. Move the group field to the new band.
 
-	![](../../../../images/eurd-win-underlay-report-move-group-fields.png)
+	- Click _GroupHeader1_'s smart tag, click the **Group Fields** property's ellipsis button and remove **OrderID** from the invoked **Group Field Collection Editor**.
+
+		![](../../../../images/eurd-win-underlay-report-remove-group-fields.png)
+
+	- Click the new band's smart tag, click the **Group Fields** property's ellipsis button and add **OrderID** in **Group Field Collection Editor**.
+
+		![](../../../../images/eurd-win-underlay-report-move-group-fields.png)
 
 1. Add a [Panel](../use-report-elements/use-basic-report-controls/panel.md) control to the _GroupHeader_. Specify the panel's **Background Color** and drop fields onto the panel.
 
