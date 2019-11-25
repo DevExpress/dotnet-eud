@@ -1,8 +1,8 @@
 ---
-title: Use Query Parameters
+title: Query Parameters
 author: Anna Vekhina
 ---
-# Use Query Parameters
+# Query Parameters
 
 This document provides general information on query parameters and describes common ways of utilizing parametrized SQL queries to filter data at the data source level.
 
