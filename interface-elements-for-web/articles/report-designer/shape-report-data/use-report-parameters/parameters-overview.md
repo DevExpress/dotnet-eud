@@ -46,11 +46,11 @@ The dialog provides the following options:
 
 		![](../../../../images/eurd-web-parameters-static-values.png)
 
-        You can specify the **Filter String** property to filter the list of values and implement [cascading parameters](multi-value-and-cascading-parameters.md).
+        You can specify the **Filter String** property to filter the list of values and implement [cascading parameters](multi-value-and-cascading-parameters.md#cascading-parameters).
 
 	* **Dynamic List**
 
-		A parameter obtains a list of values from a specified data source. Look-Up settings contain a data source and data member that store parameter values. The value member defines a data field that will provide values to the parameter. The display member defines a data field storing values displayed in Print Preview.
+		A parameter obtains a list of values from a specified data source. The **Value Source** contains a data source and data member that store parameter values. The value member defines a data field that will provide values to the parameter. The display member defines a data field storing values displayed in Print Preview.
 
 		![](../../../../images/eurd-web-parameters-dynamic-values.png)
 
