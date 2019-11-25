@@ -19,52 +19,56 @@ This invokes the **Add Parameter** dialog where you can configure the created pa
 The dialog provides the following options:
 
 * **Name**  
-	Specifies the unique name by which you can refer to the parameter.
+	The unique name by which you can refer to the parameter.
 * **Description**  
-	Specifies the text that appears in Print Preview alongside with the value editor.
+	The text that appears in Print Preview alongside with the value editor.
 * **Type**  
-	Specifies the parameter's value type. A value editor for the specified type is displayed in Print Preview.
+	The parameter's value type. A value editor for the specified type is displayed in Print Preview.
 * **Visible**  
-	Enable this option to request the parameter value in Print Preview. Otherwise, the report takes the default parameter value.
+	Set this option to request the parameter value in Print Preview. Otherwise, the report takes the default parameter value.
 * **Multi-Value**  
 	Enable this option to allow a parameter to accept a [collection of values](multi-value-and-cascading-parameters.md).
 * **Allow Null**  
-	Enable this option if the parameter's value can be unspecified.
+	Check this option if the parameter's value can be unspecified.
 * **Expression**  
-	Specifies an [expression](../../use-expressions.md) that defines the parameter's value based on specific conditions. Click the Expression property's ellipsis button and construct an expression in the invoked Expression Editor.
-* **Value** - specifies the default parameter value.
+	An [expression](../../use-expressions.md) that defines the parameter's value based on specific conditions. Click the Expression property's ellipsis button and construct an expression in the invoked Expression Editor.
+* **Value**  
+	The parameter's default value. When you change a parameter's value in Print Preview, you can press **Reset** to return to the default value.
 
-* **Value Source** - specifies whether to choose the parameter's value from a predefined list. You can either manually populate this list with possible values, or specify a data source from where these values should be obtained.
+	![](../../../../images/eurd-web-parameters-reset-parameter-value.png)
+
+* **Value Source**  
+	The parameter's value source type.
 
     * **No Look-Up**
 
-       There is no predefined list of parameter values.
+       There are no predefined parameter values.
 
     * **Static List**
 
-		A parameter is populated with predefined values from a static list. Each value should have a description that is displayed in Print Preview.
+		A static list of values. Provide a description for each value that is displayed in Print Preview.
 
 		![](../../../../images/eurd-web-parameters-static-values.png)
 
-        You can specify the **Filter String** property to filter the list of values and implement [cascading parameters](multi-value-and-cascading-parameters.md#cascading-parameters).
-
 	* **Dynamic List**
 
-		A parameter obtains a list of values from a specified data source. The **Value Source** contains a data source and data member that store parameter values. The value member defines a data field that will provide values to the parameter. The display member defines a data field storing values displayed in Print Preview.
+		Specify a data source, data adapter, and data member for the parameter values storage. **Value Member** defines the data field that provides the parameter's values. **Display Member** defines the data field that stores values displayed in Print Preview.
 
 		![](../../../../images/eurd-web-parameters-dynamic-values.png)
 
-		The specified data member's value type should match the specified parameter type.
+		If the data member's value type does not match the parameter type, the validation rejects the value in Print Preview.
 
-		Specify the **Sort Order** and **Sort Member** properties to sort the list of values.
+        You can specify the **Filter String** property to filter the list of values and implement [cascading parameters](multi-value-and-cascading-parameters.md#cascading-parameters).
 
-	* **Range Parameters** (is available for **Date** parameters only)
+		Specify the **Sort Order** and **Sort Member** properties to sort parameter values.
 
-		A parameter is a date range that includes a **Start Date** and **End Date**. The start and end dates provide the following properties:
+	* **Range Parameters** (available for **Date** parameters only)
 
-		* **Name** - the unique name by which you can refer to the parameter's start or end date.
-		* **Value** - the default date value.
-		* **Expression** - an expression that defines a date's value based on specific conditions.
+		A parameter is a value range that includes a **Start Parameter** and **End Parameter**. The start and end parameters provide the following properties:
+
+		* **Name** - the unique name by which you can refer to the parameter.
+		* **Value** - the parameter's default value.
+		* **Expression** - an expression that defines the parameter's value based on specific conditions.
 
 		![](../../../../images/eurd-web-parameters-range.png)
 

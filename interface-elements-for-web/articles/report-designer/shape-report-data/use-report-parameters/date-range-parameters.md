@@ -14,7 +14,7 @@ Perform the steps below to add a date range parameter to a report.
 
     ![](../../../../images/eurd-web-use-date-ranges-design-add-param.png)
 
-1. Specify the options below in the invoked **Add Parameter** dialog and click **OK**.
+1. Specify the options below in the invoked **Add Parameter** dialog.
 
     - **Name** - the parameter's name;
     - **Description** - the parameter's description displayed in the **Preview Parameters** panel;
@@ -23,11 +23,13 @@ Perform the steps below to add a date range parameter to a report.
 
     ![](../../../../images/eurd-web-use-date-ranges-design-add-param-dialog.png)
 
-1. The **Add Parameter** dialog shows the **Start Parameter** and **End Parameter**.
+1. Specify the **Start Parameter** and **End Parameter**.
 
     ![](../../../../images/eurd-web-use-date-ranges-design-configure-subparam.png)
 
-    The start and end parameters' **Value** properties allows you to specify a static default value. Provide an expression to specify a dynamic default value. Click the **Expression** property's ellipsis button and specify an expression in the invoked editor.
+	* **Name** - the unique name by which you can refer to the parameter.
+	* **Value** - the parameter's default value.
+	* **Expression** - an expression that defines the parameter's value based on specific conditions.
 
     ![](../../../../images/eurd-web-use-date-ranges-design-value-expression.png)
 
