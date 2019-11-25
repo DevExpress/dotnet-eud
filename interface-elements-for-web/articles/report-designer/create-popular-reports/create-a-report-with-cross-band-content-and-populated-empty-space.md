@@ -4,7 +4,7 @@ author: Sergey Andreev
 ---
 # Create a Report with Cross-Band Content and Populated Empty Space
 
-This tutorial describes how to create an invoice report with the following layout options:
+This document describes how to create a report with the following layout options:
 
 - Print part of the content across bands (the blue panel);
 - Populate the empty space between the detail and footer information with blank rows.
@@ -13,7 +13,11 @@ This tutorial describes how to create an invoice report with the following layou
 
 ## Initial Report
 
-[Create](../add-new-reports.md) or [open](../open-reports.md) a [table report](../create-popular-reports/create-a-table-report.md) that has an empty space between the _Detail_ band and the footer, like the invoice report below.
+In this tutorial, the report [groups data](../shape-report-data/group-and-sort-data.md) by the **OrderID** field.
+
+![](../../../images/eurd-web-underlay-report-preview.png)
+
+The _GroupFooter_ band is displayed at the bottom of the page (the **Print At Bottom** property is enabled). There is an empty space between the **Detail** band's data and the footer.
 
 ![](../../../images/eurd-web-underlay-report-preview-0.png)
 
@@ -37,13 +41,13 @@ This tutorial describes how to create an invoice report with the following layou
 
 ## Populate the Empty Space
 
-Add empty lines to invoices to populate the empty space between the _Detail_ band's data and the totals.
+Populate the empty space between the _Detail_ band's data and the footer.
 
 Select the _Detail_ band and enable the **Fill Empty Space** property.
 
 ![](../../../images/eurd-web-underlay-report-fillemptyspace.png)
 
-Invoices now include numbered lines that continue until the totals.
+The empty space is now populated with numbered lines.
 
 ![](../../../images/eurd-web-underlay-report-preview-4.png)
 
@@ -58,14 +62,20 @@ Add a panel with recipient details across the entire group. Place the panel on a
 
 	![](../../../images/eurd-web-underlay-report-addgroupheader.png)
 
-1. Select the added band and enable the **Print Across Bands** property. This makes the band content start on the background of the group's other bands.
-
-	![](../../../images/eurd-web-underlay-report-printundernextband.png)
-
 	> [!Tip]
 	> Choose a _Page Header_ band instead of the _Group Header_ to display the cross-band content on an entire page.
 
-1. As the new _Group Header_ band is above the header, it is not included in the grouping. Move the group fields from the previous _Group Header_ band to the new band.
+1. Select the added band and enable the **Print Across Bands** property. This displays the band content on the background of the _GroupHeader1_, _Detail_, and _GroupFooter1_ bands.
+
+	![](../../../images/eurd-web-underlay-report-printundernextband.png)
+
+1. The group field (**OrderID**) is in the _GroupHeader1_ band's **Group Fields** collection. The new band is above **GroupHeader1** and does not participate in the report's group. Move the group field to the new band.
+
+	* Select _GroupHeader1_ and remove **OrderID** from **Group Fields**.
+
+	![](../../../images/eurd-web-underlay-report-removegroupfields.png)
+
+	* Select the new band and add **OrderID** to **Group Fields**.
 
 	![](../../../images/eurd-web-underlay-report-movegroupfields.png)
 
