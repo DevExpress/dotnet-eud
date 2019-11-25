@@ -41,7 +41,7 @@ The dialog provides the following options:
 * **Show in the parameters panel** (corresponds to the parameter's **Visible** property)  
 	Enable this option to request the parameter value in Print Preview. Otherwise, the report takes the default parameter value.
 * **Allow multiple values** (corresponds to the parameter's **Multi-Value** property)  
-	Enable this option to allow a parameter to accept a [collection of values](create-multi-value-and-cascading-parameters.md).
+	Enable this option to allow a parameter to accept a [collection of values](multi-value-and-cascading-parameters.md).
 * **Allow null value** (corresponds to the parameter's **Allow Null** property)  
 	Enable this option if the parameter's value can be unspecified.
 * **Range Value**  
@@ -57,7 +57,7 @@ The dialog provides the following options:
 		
 		The specified data member's value type should match the specified parameter type.
 		
-		Use the **Filter String** property to filter parameter values and implement [cascading parameters](create-multi-value-and-cascading-parameters.md).
+		Use the **Filter String** property to filter parameter values and implement [cascading parameters](multi-value-and-cascading-parameters.md).
 
 		Specify the **Sort Member** and **Sort Order** properties to sort parameter values.
 		
@@ -79,7 +79,7 @@ Use report parameters in the following cases:
 
 	![](../../../../../images/eurd-win-parameters-in-filter-string.png)
 
-	You can link the report parameter to [query parameters](use-query-parameters.md) used in the SQL string's SELECT statement to [filter data at the data source level](../filter-data/filter-data-at-the-data-source-level.md).
+	You can link the report parameter to [query parameters](query-parameters.md) used in the SQL string's SELECT statement to [filter data at the data source level](../filter-data/filter-data-at-the-data-source-level.md).
 
 * **Bind to Data**
 	

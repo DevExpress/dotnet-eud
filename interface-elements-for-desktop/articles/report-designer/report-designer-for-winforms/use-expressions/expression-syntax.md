@@ -344,7 +344,7 @@ Below is a list of functions that are used to construct [expression bindings](..
 </td><td><p>Argb(1,200, 30, 200)</p>
 <p>Result: <em>&#39;1,200,30,200&#39;</em></p>
 </td></tr><tr><td><p>Join()</p>
-</td><td><p>Concatenates the <a class="xref" href="..\shape-report-data\use-report-parameters\create-multi-value-and-cascading-parameters.md">multi-value report parameter</a>&#39;s values into a string. This function is useful when you <a class="xref" href="..\shape-report-data\use-report-parameters\parameters-overview.md">bind a multi-value parameter to a label</a> to display the parameter&#39;s values in a report.</p>
+</td><td><p>Concatenates the <a class="xref" href="..\shape-report-data\use-report-parameters\multi-value-and-cascading-parameters.md">multi-value report parameter</a>&#39;s values into a string. This function is useful when you <a class="xref" href="..\shape-report-data\use-report-parameters\parameters-overview.md">bind a multi-value parameter to a label</a> to display the parameter&#39;s values in a report.</p>
 <p>This function has two overloads:</p>
 <ul>
 <li>Join(parameter) - concatenates the specified parameter&#39;s values using comma as a separator.</li>
@@ -366,7 +366,7 @@ The following functions are specific for [binding reports to a stored procedure]
 </th><th><p>Description</p>
 </th><th><p>Example</p>
 </th></tr><tr><td><p>Join()</p>
-</td><td><p>Concatenates the <a class="xref" href="..\shape-report-data\use-report-parameters\create-multi-value-and-cascading-parameters.md">multi-value report parameter</a>&#39;s values into a string. This function can be used when mapping multi-value report parameters to query parameters generated from a stored procedure&#39;s parameters. Refer to the <a class="xref" href="..\shape-report-data\use-report-parameters\use-query-parameters.md">Query Parameters</a> topic for more information.</p>
+</td><td><p>Concatenates the <a class="xref" href="..\shape-report-data\use-report-parameters\multi-value-and-cascading-parameters.md">multi-value report parameter</a>&#39;s values into a string. This function can be used when mapping multi-value report parameters to query parameters generated from a stored procedure&#39;s parameters. Refer to the <a class="xref" href="..\shape-report-data\use-report-parameters\query-parameters.md">Query Parameters</a> topic for more information.</p>
 <p>This function has two overloads:</p>
 <ul>
 <li>Join(parameter) - concatenates the specified parameter&#39;s values using comma as a separator.</li>
@@ -374,7 +374,7 @@ The following functions are specific for [binding reports to a stored procedure]
 </ul>
 </td><td><p>Join(?Parameter1)</p>
 </td></tr><tr><td><p>CreateTable(Column1, ..., ColumnN)</p>
-</td><td><p>Creates a table from several multi-value parameters&#39; values. This function can be used when mapping multi-value report parameters to the query parameter that is generated from a stored procedure&#39;s <a href="https://docs.microsoft.com/en-us/sql/relational-databases/tables/use-table-valued-parameters-database-engine">User Defined Table Type</a> parameter. Refer to the <a class="xref" href="..\shape-report-data\use-report-parameters\use-query-parameters.md">Query Parameters</a> topic for more information.</p>
+</td><td><p>Creates a table from several multi-value parameters&#39; values. This function can be used when mapping multi-value report parameters to the query parameter that is generated from a stored procedure&#39;s <a href="https://docs.microsoft.com/en-us/sql/relational-databases/tables/use-table-valued-parameters-database-engine">User Defined Table Type</a> parameter. Refer to the <a class="xref" href="..\shape-report-data\use-report-parameters\query-parameters.md">Query Parameters</a> topic for more information.</p>
 </td><td><p>CreateTable(?Parameter1, ..., ?ParameterN)</p>
 </td></tr></table>
 

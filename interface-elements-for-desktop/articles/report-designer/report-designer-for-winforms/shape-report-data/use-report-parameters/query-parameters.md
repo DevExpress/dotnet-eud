@@ -89,12 +89,12 @@ Below, you can see how a value is specified for a query parameter within the Dat
 		![](../../../../../images/eurd-win-query-parameters-existing-report-parameter.png)
 
 ## <a name="PassMultiValueParameterValueToQuery"></a>Pass a Multi-Value Parameter Value to a Query
-You can map [multi-value parameters](create-multi-value-and-cascading-parameters.md) to query parameters. For instance, the following query selects the orders whose IDs can be found within the values the _\@OrderID_ query parameter provides.
+You can map [multi-value parameters](multi-value-and-cascading-parameters.md) to query parameters. For instance, the following query selects the orders whose IDs can be found within the values the _\@OrderID_ query parameter provides.
 
 ![](../../../../../images/eurd-win-query-parameters-map-to-multi-value-parameter.png)
 
 ## <a name="multivalueparameterinstoredprocedure"></a>Pass a Multi-Value Report Parameter Value to a Stored Procedure
-You cannot pass a [multi-value parameter](create-multi-value-and-cascading-parameters.md) value to a stored procedure directly. Use one of the following expression functions:
+You cannot pass a [multi-value parameter](multi-value-and-cascading-parameters.md) value to a stored procedure directly. Use one of the following expression functions:
 
 * Use the [Join() expression function](../../use-expressions/expression-syntax.md) to convert the array of parameter values to a string if you use MS SQL Server, MySQL or Oracle database systems.
 

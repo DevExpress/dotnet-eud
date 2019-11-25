@@ -10,7 +10,7 @@ This document describes how to create a date range parameter and filter report d
 
 Perform the steps below to add a date range parameter to a report.
 
-1. Switch to the [Field List](../../report-designer-tools/ui-panels/field-list.md), select **Parameters** and click the plus button.
+1. Switch to the [Field List](../../report-designer-tools/ui-panels/field-list.md), select **Parameters** and click the ![](../../../../images/eurd-web-parameters-button-plus.png) button.
 
     ![](../../../../images/eurd-web-use-date-ranges-design-add-param.png)
 

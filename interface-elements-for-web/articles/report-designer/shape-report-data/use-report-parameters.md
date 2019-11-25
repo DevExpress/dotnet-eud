@@ -14,7 +14,7 @@ The topics in this section describe how to use parameters in a report:
 
 	Illustrates how to assign default and custom values to a report's parameters and describes the editors that are used to request these values in a Print Preview.
 
-* [Create Multi-Value and Cascading Report Parameters](use-report-parameters/create-multi-value-and-cascading-parameters.md)
+* [Create Multi-Value and Cascading Report Parameters](use-report-parameters/multi-value-and-cascading-parameters.md)
 
 	Explains how to configure report parameters to accept multiple values and filter a parameter's values based on another parameter's value.
 
@@ -22,6 +22,6 @@ The topics in this section describe how to use parameters in a report:
 
 	Describes how to create date range parameters to filter report data by a specific time period.
 
-* [Query Parameters](use-report-parameters/use-query-parameters.md)
+* [Query Parameters](use-report-parameters/query-parameters.md)
 
 	Explains how to link report parameters to query parameters defined in your report's data source.
