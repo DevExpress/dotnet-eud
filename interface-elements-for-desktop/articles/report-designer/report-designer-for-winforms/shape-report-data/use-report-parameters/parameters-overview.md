@@ -69,7 +69,7 @@ The dialog provides the following options:
 
 ## Use Parameters
 
-Report parameters pass data to a report before it is generated in Print Preview. You can specify these parameter's values.
+Report parameters pass data to a report before it is generated in Print Preview. You can specify these parameter values.
 
 Use report parameters in the following cases:
 
