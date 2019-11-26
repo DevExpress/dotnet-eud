@@ -55,7 +55,7 @@ The dialog provides the following options:
 		
 		![](../../../../../images/eurd-win-parameters-dynamic-values.png)
 		
-		The specified data member's value type should match the specified parameter type.
+		If the data member's value type does not match the parameter type, the validation rejects the value.
 		
 		Use the **Filter String** property to filter parameter values and implement [cascading parameters](multi-value-and-cascading-parameters.md).
 
@@ -68,8 +68,6 @@ The dialog provides the following options:
 		![](../../../../../images/eurd-win-parameters-static-values.png)
 
 ## Use Parameters
-
-Report parameters pass data to a report before it is generated in Print Preview. You can specify these parameter values.
 
 Use report parameters in the following cases:
 

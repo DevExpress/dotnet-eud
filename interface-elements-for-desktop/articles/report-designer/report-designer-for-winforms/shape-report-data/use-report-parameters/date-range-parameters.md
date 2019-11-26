@@ -23,15 +23,15 @@ Perform the steps below to add a date range parameter to a report.
 
     ![](../../../../../images/eurd-win-use-date-ranges-design-add-param-dialog.png)
 
-1. The _dateRange_ parameter appears in the **Field List** and includes the inner _dateRange_Start_ and _dateRange_End_ parameters. Select the _dateRange_ parameter and switch to the **Property Grid** to specify the inner parameters' default values.
+1. The _dateRange_ parameter appears in the **Field List** and includes the  _dateRange_Start_ and _dateRange_End_ parameters. Select the _dateRange_ parameter and switch to the **Property Grid** to specify the parameters' default values.
 
     ![](../../../../../images/eurd-win-use-date-ranges-design-configure-subparam.png)
 
-    The **Value** property allows you to specify a static value. To do this. provide an expression for the **Value** property which specifies a dynamic value. Click the **Value** property's marker, select **Value Expression**, and specify an expression in the invoked editor.
+    The **Value** property allows you to specify a static value. To specify a dynamic value, click the **Value** property's marker, select **Value Expression** and specify an expression in the invoked editor.
 
     ![](../../../../../images/eurd-win-use-date-ranges-design-value-expression.png)
 
-1. Use the start and end parameter names in the report's filter string to [filter data](../filter-data/filter-data-at-the-report-level.md) by the specified date range. Select the report, click the **Filter String** property's ellipsis button in the **Property Grid**, and construct a filter string in the invoked **FilterString Editor**.
+1. Use the start and end parameter names in the report's filter string to [filter data](../filter-data/filter-data-at-the-report-level.md) by the specified date range. Select the report, click the **Filter String** property's ellipsis button in the **Property Grid** and construct a filter string in the invoked **FilterString Editor**.
 
     ![](../../../../../images/eurd-win-use-date-ranges-filterstring.png)
 

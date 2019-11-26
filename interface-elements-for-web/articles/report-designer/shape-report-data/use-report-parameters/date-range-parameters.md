@@ -33,7 +33,7 @@ Perform the steps below to add a date range parameter to a report.
 
     ![](../../../../images/eurd-web-use-date-ranges-design-value-expression.png)
 
-1. Use the start and end parameter names in the report's filter string to [filter data](../filter-data/filter-data-at-the-report-level.md) by the created date range. Select the report, click the **Filter String** property's ellipsis button in the **Properties** panel and construct a filter string in the invoked **Filter Editor**.
+1. Use the start and end parameter names in the report's filter string to [filter data](../filter-data/filter-data-at-the-report-level.md) by the specified date range. Select the report, click the **Filter String** property's ellipsis button in the **Properties** panel and construct a filter string in the invoked **Filter Editor**.
 
     ![](../../../../images/eurd-web-use-date-ranges-filterstring.png)
 

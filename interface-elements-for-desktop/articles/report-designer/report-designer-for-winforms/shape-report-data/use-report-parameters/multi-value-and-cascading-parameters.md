@@ -4,7 +4,7 @@ author: Anna Gubareva
 ---
 # Multi-Value and Cascading Parameters
 
-This document describes how to implement multi-value and cascading parameters. Cascading parameters display values that correspond to other parameters'.
+This document describes how to implement multi-value and cascading parameters. Cascading parameters display values that correspond to other parameters' values.
 
 ## <a name="multivalue"></a>Multi-Value Parameters
 To assign a collection of values to a parameter, enable its **Multi-Value** property. In the **Add New Parameter** dialog, this option corresponds to the **Allow multiple values** checkbox.
