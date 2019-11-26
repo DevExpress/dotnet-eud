@@ -21,19 +21,15 @@ This tutorial describes how to use the Cross Tab control to create a **Sales Sum
 
 1. Bind the report to a data source as described in the [Bind to Data](../bind-to-data.md) section.
 
-1. Select a data member and click **Next**.
+1. Select a data member that stores data for each sales person's sales. Click **Next**.
 
     ![](../../../../images/eurd-win-cross-tab-report-wizard-select-view.png)
 
-1. Drop data fields onto cross-tab areas:
-
-    * Field for row headers - onto the **Rows** area
-    * Fields for column headers - onto the **Columns** area
-    * Fields to be shown in row and column intersections - onto the **Data** area
-
-    The field order defines the hierarchy in the resulting cross-tab report. The higher the field on the list, the higher the level in the field hierarchy.
+1. Drop data fields onto cross-tab areas to define row/column headers and data.
 
     ![](../../../../images/eurd-win-cross-tab-report-wizard-drop-fields.png)
+
+    The field order defines the hierarchy in the resulting cross-tab report. The higher the field on the list, the higher the level in the field hierarchy.
 
 1. Change the report page layout to landscape to ensure the cross-tab content fits the report well. Click **Next**.
 
