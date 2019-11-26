@@ -27,7 +27,7 @@ Perform the steps below to add a date range parameter to a report.
 
     ![](../../../../../images/eurd-win-use-date-ranges-design-configure-subparam.png)
 
-    The **Value** property allows you to specify a static default value. Provide an expression for the **Value** property to specify a dynamic default value. Click the **Value** property's marker, select **Value Expression** and specify an expression in the invoked editor.
+    The **Value** property allows you to specify a static value. To do this. provide an expression for the **Value** property which specifies a dynamic value. Click the **Value** property's marker, select **Value Expression**, and specify an expression in the invoked editor.
 
     ![](../../../../../images/eurd-win-use-date-ranges-design-value-expression.png)
 
