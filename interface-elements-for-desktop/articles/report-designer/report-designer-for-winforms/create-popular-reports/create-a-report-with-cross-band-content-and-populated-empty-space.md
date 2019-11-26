@@ -40,7 +40,7 @@ Each row now includes a number.
 
 ## Populate the Empty Space
 
-Populate the empty space between the _Detail_ band's data and the footer.
+Populate the empty space between the _Detail_ band's data and footer.
 
 Click the _Detail_ band's smart tag and enable the **Fill Empty Space** property.
 
