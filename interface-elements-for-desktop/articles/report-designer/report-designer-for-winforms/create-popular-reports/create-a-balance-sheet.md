@@ -38,39 +38,15 @@ The data source structure becomes available in the [Field List](../report-design
 
 ## Define the Cross Tab Layout
 
-1. Drop the **Type** data field from the Field List onto the Cross Tab's **Rows** area to display field values as row headers.
+1. Drop data fields from the Field List onto the Cross Tab's areas to define the Cross Tab's rows, columns, and data.
+
+    A row is added to the bottom of the Cross Tab to display grand total values calculated against the added row or column header.
 
     ![](../../../../images/eurd-win-balance-sheet-drop-type.gif)
 
-    One Cross Tab cell becomes bound to this data field. The corresponding row is printed in the document as many times as there are field values in the data source. The cell in the top left corner displays the data field header.
-
-    One more row is added to the bottom of the Cross Tab to display grand total values calculated against this field.
-
-2. Drag the **SubType** data field from the Field List and drop onto the row area next to the cell bound to the **Type** field.
+    Drop nested row headers next to the parent header cells to create a hierarchy.
 
     ![](../../../../images/eurd-win-balance-sheet-drop-subtype.gif)
-
-    The CrossTab arranges the **Type** and **SubType** field values into a hierarchy. The top left corner displays headers for both data fields.
-
-    One more row is added to the Cross Tab to display total values calculated against the **SubType** field. Grand total value is calculated against all rows.
-
-3. Drag the **Name** data field from the Field List and drop onto the row area next to the cell bound to the **SubType** field.
-
-    ![](../../../../images/eurd-win-balance-sheet-drop-name.gif)
-
-    The **Name** field values are displayed at the third hierarchical level. One more row is added to display totals against this field as well.
-
-4. Drop the **Date** data field from the Field List onto the **Columns** area to display field values as column headers.
-
-    ![](../../../../images/eurd-win-balance-sheet-drop-date.gif)
-
-    One Cross Tab cell becomes bound to this data field. One more column is added to the right of the Cross Tab to display grand total values calculated against this field.
-
-5. Drop the **Value** data field from the Field List onto the **Data** area.
-
-    ![](../../../../images/eurd-win-balance-sheet-drop-value.gif)
-
-    Data from this field is used to calculate summary values at the intersection of rows and columns. If the data area contains only one field, no field headers are displayed.
 
 Switch to Print Preview to see the Cross Tab populated with data.
 
@@ -80,7 +56,7 @@ Switch to Print Preview to see the Cross Tab populated with data.
 
 As you can see in the image above, the Cross Tab displays data for individual days.
 
-Select the Cross Tab cell bound to the **Date** field and click its smart tag. Set the **Group Interval** property to **Year** to group data by years.
+Select the column header cell and click its smart tag. Set the **Group Interval** property to group data.
 
 ![](../../../../images/eurd-win-balance-sheet-date-group-interval.png)
 
@@ -118,11 +94,11 @@ The Cross Tab control no longer displays grand total values.
 
 ## Sort and Format Data
 
-1. Select the cell bound to the **Name** field and change its sort order. The Cross Tab sorts row and column field values in ascending order. Set the **Sort Order** property to **None** to restore the original data source order.
+1. Select the row sub-header cell and change its sort order. The Cross Tab sorts row and column field values in ascending order. Set the **Sort Order** property to **None** to restore the original data source order.
 
     ![](../../../../images/eurd-win-balance-sheet-sort-order.png)
 
-2. Format currency data. Hold down SHIFT or CTRL and select the cells that display data and total values. Set the **Text Format String** property to **{0:#,##0.00;(#,##0.00);-}**. This string consists of three formats separated by semicolons: for positive values, negative values and null values.
+2. Format the data. Hold down SHIFT or CTRL and select cells. Specify the cells' **Text Format String** property.
 
     ![](../../../../images/eurd-win-balance-sheet-text-format-string.png)
 
@@ -154,7 +130,7 @@ The Cross Tab control no longer displays grand total values.
 
     ![](../../../../images/eurd-win-balance-sheet-total-area-style.png)
 
-4. Select the cell bound to the **Name** data field and set the following appearance properties:
+4. Select the row sub-header cell and set the following appearance properties:
 
     * **Foreground Color**  to **SlateGray**
     * **Font** to **Tahoma 8.25**
@@ -177,7 +153,7 @@ The Cross Tab control no longer displays grand total values.
 
     ![](../../../../images/eurd-win-balance-sheet-back-color-for-top-row.png)
 
-8. Select the cell bound to the **SubType** field and the next cell in the data area. Set their **Background Color** property to **AliceBlue**.
+8. Select the row sub-header cell and the next cell in the data area. Set their **Background Color** property to **AliceBlue**.
 
     ![](../../../../images/eurd-win-balance-sheet-back-color-for-rows.png)
 
@@ -187,7 +163,7 @@ The Cross Tab control no longer displays grand total values.
 
 Use the **GroupRowIndex** variable in [expressions](../use-expressions.md) to identify odd and even rows.
 
-Select the cell bound to the **Name** field and the next cell in the data area. Go to the **Properties** window and open the **Expressions** tab. Click the **Background Color** property's marker, select **Background Color Expression** and specify the following expression:
+Select the row sub-header cell and the next cell in the data area. Go to the **Properties** window and open the **Expressions** tab. Click the **Background Color** property's marker, select **Background Color Expression** and specify the following expression:
 
 _iif([Arguments.GroupRowIndex] % 2 == 1, Rgb(235, 241, 252), ?)_
 
@@ -201,11 +177,7 @@ Select these auxiliary cells and disable the **Column Visible** property.
 
 ![](../../../../images/eurd-win-balance-sheet-hide-tree-view-cells.png)
 
-To add indents to row field values and imitate a tree-like view, set the **Padding** property of the following cells:
-
-* The cell bound to the **SubType** field: **24, 2, 0, 0**.
-* The cell bound to the **Name** field: **42, 2, 0, 0**.
-* The cell that displays totals against the **SubType** field: **24, 2, 0, 0**.
+To add indents to row field values and imitate a tree-like view, set the **Padding** property for the Cross Tab's cells.
 
 ![](../../../../images/eurd-win-balance-sheet-tree-paddings.png)
 
