@@ -52,7 +52,7 @@ This document demonstrates how to add a chart to a report, provide data for char
 
 4. Filter series data.
 
-    - Seitch to the **Properties** tab.
+    - Switch to the **Properties** tab.
     - Click the **Filter String** property's ellipsis button.
     - Construct filter criteria in the invoked **FilterString Editor** and click **OK**.
 

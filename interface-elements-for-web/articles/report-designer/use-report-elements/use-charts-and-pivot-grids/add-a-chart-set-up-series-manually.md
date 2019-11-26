@@ -10,7 +10,7 @@ This document demonstrates how to add a chart to a report, provide data for char
 
 ## Add a Chart to a Report
 
-1. [Bind the report to data](../../bind-to-data.md).
+1. [Bind a report to data](../../bind-to-data.md).
 
 1. Drop the **Chart** control from the [Toolbox](../../report-designer-tools/toolbox.md) onto the [Detail band](../../introduction-to-banded-reports.md).
 

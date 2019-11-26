@@ -28,6 +28,10 @@ Follow the steps below to make each chart instance display data for its group.
 
 	![](../../../../images/eurd-web-chart-run-designer.png)
 
+1. Bind the chart to data. Specify the **Data Source** and **Data Member** fields.
+
+	![](../../../../images/eurd-web-chart-bind-to-data-designer.png)
+
 1. Add a new series. Click the plus button next to the Series item in the Chart Designer.
 
 	![](../../../../images/eurd-web-chart-designer-add-series.png)
