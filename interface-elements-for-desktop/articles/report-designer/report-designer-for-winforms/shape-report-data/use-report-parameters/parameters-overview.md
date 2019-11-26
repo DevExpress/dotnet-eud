@@ -47,7 +47,7 @@ The dialog provides the following options:
 * **Range Value**  
 	Enable this option if the parameter should specify a range with a start and end value. This option applies to _Date_-type parameters. See [Date Range Parameters](date-range-parameters.md) for information on how to configure a date range parameter.
 * **Supports the collection of standard values**  
-	Applies if the parameter is visible (its value is requested in Print Preview). You can choose a value from a predefined list. You can populate this list with static values, or specify a data source from where the values are obtained.
+	Applies if the parameter is visible (its value is requested in Print Preview). You can choose a value from a predefined list which is populated with static values, or specify a data source from where the values are obtained.
 
 	* **Dynamic values**
 
