@@ -1,8 +1,8 @@
 ---
-title: Cross Tab Settings
+title: Data Shaping
 author: Sergey Andreev
 ---
-# Cross Tab Settings
+# Data Shaping
 
 ## Calculate Totals
 
