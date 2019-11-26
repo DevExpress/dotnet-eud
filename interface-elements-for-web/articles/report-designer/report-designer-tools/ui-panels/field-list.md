@@ -20,7 +20,7 @@ The following actions are available in the Field List for data source customizat
 | ![](../../../../images/eurd-web-fieldlist-add-data-source-button.png) | Invokes a list of default data sources that you can add to a report. |
 | ![](../../../../images/eurd-web-fieldlist-data-source-delete.png) | Removes the selected data source. |
 | ![](../../../../images/eurd-web-fieldlist-data-source-edit-relationships.png) | Invokes the [Master-Detail Relation Editor](../master-detail-relation-editor.md). |
-| ![](../../../../images/eurd-web-fieldlist-data-source-add-query.png) | Invokes the [Create a Query or Select a Stored Procedure](../data-source-wizard\specify-data-source-settings-database.md) wizard page. |
+| ![](../../../../images/eurd-web-fieldlist-data-source-add-query.png) | Invokes the Create a Query or Select a Stored Procedure wizard page. |
 
 The following actions are available for query customization:
 
