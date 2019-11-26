@@ -21,15 +21,15 @@ This tutorial describes how to use the Cross Tab control to create a **Sales Sum
 
 1. Bind the report to a data source as described in the [Bind to Data](../bind-to-data.md) section.
 
-1. Select a data member (for instance, the **SalesPerson** view that stores data for each sales person's sales) and click **Next**.
+1. Select a data member and click **Next**.
 
     ![](../../../../images/eurd-win-cross-tab-report-wizard-select-view.png)
 
 1. Drop data fields onto cross-tab areas:
 
-    * the **OrderDate** and **CategoryName** fields onto the **Rows** area
-    * the **Country** and **Sales Person** fields onto the **Columns** area
-    * the **Extended Price** field onto the **Data** area
+    * Field for row headers - onto the **Rows** area
+    * Fields for column headers - onto the **Columns** area
+    * Fields to be shown in row and column intersections - onto the **Data** area
 
     The field order defines the hierarchy in the resulting cross-tab report. The higher the field on the list, the higher the level in the field hierarchy.
 
@@ -62,7 +62,7 @@ As you can see in the image above, the Cross Tab displays data for individual da
 
 ## Specify Group Settings
 
-Select the Cross Tab cell bound to the **OrderDate** field and click its smart tag. Set the **Group Interval** property to **Quarter** to group data by quarter.
+Select the row header cell and click its smart tag. Specify the **Group Interval** property to group data.
 
 ![](../../../../images/eurd-win-cross-tab-report-group-interval.png)
 
@@ -70,21 +70,9 @@ Select the Cross Tab cell bound to the **OrderDate** field and click its smart t
 
 ## Format Data
 
-1. Apply currency formatting to Extended Price data. Hold down SHIFT or CTRL, and select the following cells:
+Apply data formatting to cells. Hold down SHIFT or CTRL to select multiple cells, then go to the **Properties** window and specify the **Text Format String** property.
 
-	* the cell bound to the **Extended Price** field
-	* the cells that display column and row totals
-	* the cells that display column and row grand totals
-
-    Go to the **Properties** window and set the **Text Format String** property to **{0:c}**
-
-    ![](../../../../images/eurd-win-cross-tab-report-prices-format-string.png)
-
-1. Select the cell bound to the **OrderDate** field and click its smart tag. Set the **Format String** option to **Quarter {0}**.
-
-    ![](../../../../images/eurd-win-cross-tab-report-quarter-format-string.png)
-
-    ![](../../../../images/eurd-win-cross-tab-report-format-data-preview.png)
+![](../../../../images/eurd-win-cross-tab-report-prices-format-string.png)
 
 ## Customize Appearance
 
@@ -111,7 +99,7 @@ Select the Cross Tab cell bound to the **OrderDate** field and click its smart t
 
     ![](../../../../images/eurd-win-cross-tab-report-grand-totals-appearance.png)
 
-1. Select the cell bound to the **OrderDate** field and set **Text Alignment** to **Top Left**.
+1. Select the row header cell and set **Text Alignment** to **Top Left**.
 
     ![](../../../../images/eurd-win-cross-tab-report-cell-text-alignment.png)
 
