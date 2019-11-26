@@ -800,12 +800,14 @@
         items:
         - name: Parameters Overview
           href: articles/report-designer/report-designer-for-winforms/shape-report-data/use-report-parameters/parameters-overview.md
-        - name: Create Multi-Value and Cascading Parameters
-          href: articles/report-designer/report-designer-for-winforms/shape-report-data/use-report-parameters/create-multi-value-and-cascading-parameters.md
+        - name: Multi-Value and Cascading Parameters
+          href: articles/report-designer/report-designer-for-winforms/shape-report-data/use-report-parameters/multi-value-and-cascading-parameters.md
+        - name: Date Range Parameters
+          href: articles/report-designer/report-designer-for-winforms/shape-report-data/use-report-parameters/date-range-parameters.md
         - name: Request and Pass Report Parameter Values
           href: articles/report-designer/report-designer-for-winforms/shape-report-data/use-report-parameters/request-and-pass-report-parameter-values.md
-        - name: Use Query Parameters
-          href: articles/report-designer/report-designer-for-winforms/shape-report-data/use-report-parameters/use-query-parameters.md
+        - name: Query Parameters
+          href: articles/report-designer/report-designer-for-winforms/shape-report-data/use-report-parameters/query-parameters.md
     - name: Lay out Dynamic Report Content
       href: articles/report-designer/report-designer-for-winforms/lay-out-dynamic-report-content.md
       items:

@@ -58,4 +58,4 @@ A parameter can also be allowed to accept multiple values by enabling its **Mult
 
 ![](../../../../images/eurd-web-parameters-multi-value-editor.png)
 
-When creating cascading parameters, the list of values available for one parameter is filtered based on another parameter's current value. See [Create Multi-Value and Cascading Report Parameters](create-multi-value-and-cascading-parameters.md) for more information.
+When creating cascading parameters, the list of values available for one parameter is filtered based on another parameter's current value. See [Create Multi-Value and Cascading Report Parameters](multi-value-and-cascading-parameters.md) for more information.

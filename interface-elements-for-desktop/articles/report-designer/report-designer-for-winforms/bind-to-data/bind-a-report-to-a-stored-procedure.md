@@ -27,7 +27,7 @@ This tutorial demonstrates how to bind a report to a stored procedure provided b
 6. On the next page, you can choose which tables, views and/or stored procedures to add to the report. Expand the **Stored Procedures** category, select the required stored procedure from the list of available stored procedures and click **Next**.
 	
 	![](../../../../images/eurd-win-data-source-wizard-select-stored-procedure.png)
-7. Then, the wizard generates query parameters for each stored procedure parameter. The next wizard page presents the generated query parameters. You can assign a static value or an expression to a parameter. In addition, you can map a report parameter to a query parameter. This is helpful when you specify parameter values in the report's Preview. For details on how to configure query parameters, refer to the [Use Query Parameters](../shape-report-data/use-report-parameters/use-query-parameters.md) topic.
+7. Then, the wizard generates query parameters for each stored procedure parameter. The next wizard page presents the generated query parameters. You can assign a static value or an expression to a parameter. In addition, you can map a report parameter to a query parameter. This is helpful when you specify parameter values in the report's Preview. For details on how to configure query parameters, refer to the [Use Query Parameters](../shape-report-data/use-report-parameters/query-parameters.md) topic.
 	
 	Click the **Preview** button and select a query to preview the result of the stored procedure execution with the specified parameters.
 	
