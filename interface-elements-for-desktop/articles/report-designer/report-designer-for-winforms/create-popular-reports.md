@@ -21,6 +21,7 @@ The tutorials listed below demonstrate various layout options available for repo
 
 * [Create Labels and Badges](create-popular-reports/create-labels-and-badges.md)
 * [Create a Multi-Column Report](create-popular-reports/create-a-multi-column-report.md)
+* [Create a Report with Cross-Band Content and Populated Empty Space](create-popular-reports/create-a-report-with-cross-band-content-and-populated-empty-space.md)
 
 The following tutorial illustrates interactive report features:
 
