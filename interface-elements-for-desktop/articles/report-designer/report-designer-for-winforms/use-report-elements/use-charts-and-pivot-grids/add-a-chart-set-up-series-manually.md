@@ -64,7 +64,7 @@ This document demonstrates how to add a chart to a report, provide data for char
 
 Improve the chart's appearance:
 
-* Remove the chart legend because the chart series are bound to the same data. Select **Legend** in the chart elements tree and disable the **Visibility** check box in the **Options** tab.
+* Remove the chart legend, because the chart series are bound to the same data. Select **Legend** in the chart elements tree and disable the **Visibility** check box in the **Options** tab.
 
     ![](../../../../../images/eurd-win-chart-designer-remove-legend.png)
 
