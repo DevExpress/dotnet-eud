@@ -96,7 +96,7 @@ Do the following to evaluate an extended price based on the price, quantity and 
 	
 	![](../../../../images/eurd-win-invoice-add-calculated-field.png)
 
-2. Select the created calculated field, and in the [Property Grid](../report-designer-tools/ui-panels/property-grid.md), change its name to **ExtendedPrice**. Click the **Expression** property's ellipsis button, and in the invoked **Expression Editor**, construct the expression based on the **UnitPrice**, **Quantity** and **Discount** fields.
+2. Select the created calculated field, and in the [Property Grid](../report-designer-tools/ui-panels/property-grid-tabbed-view.md), change its name to **ExtendedPrice**. Click the **Expression** property's ellipsis button, and in the invoked **Expression Editor**, construct the expression based on the **UnitPrice**, **Quantity** and **Discount** fields.
 	
 	![](../../../../images/eurd-win-invoice-calculated-field-expression.png)
 
@@ -108,7 +108,7 @@ Do the following to evaluate an extended price based on the price, quantity and 
 ## <a name="format"></a>Format Data
 The next step is to specify report elements' [value formatting](../shape-report-data/shape-data-expression-bindings/format-data.md) to improve displaying their incoming data.
 
-1. In the master report's Detail band, select controls bound to date fields while holding down CTRL or SHIFT. Switch to the [Property Grid](../report-designer-tools/ui-panels/property-grid.md) and click the **Text Format String** property's ellipsis button. In the invoked **Format String Editor**, activate the **DateTime** category and select the format, for example, display dates as a month (name) followed by the day (number) and year (four digits).
+1. In the master report's Detail band, select controls bound to date fields while holding down CTRL or SHIFT. Switch to the [Property Grid](../report-designer-tools/ui-panels/property-grid-tabbed-view.md) and click the **Text Format String** property's ellipsis button. In the invoked **Format String Editor**, activate the **DateTime** category and select the format, for example, display dates as a month (name) followed by the day (number) and year (four digits).
 	
 	![](../../../../images/eurd-win-invoice-format-date-fields.png)
 
@@ -154,7 +154,7 @@ Perform the following steps to sort data in the detail report:
 ## <a name="appearance"></a>Customize the Report Appearance
 Do the following to customize the report and its elements' appearance:
 
-1. Click the gray area around the design surface to select the report, and in the [Property Grid](../report-designer-tools/ui-panels/property-grid.md), specify the font settings. These settings are distributed to all report elements.
+1. Click the gray area around the design surface to select the report, and in the [Property Grid](../report-designer-tools/ui-panels/property-grid-tabbed-view.md), specify the font settings. These settings are distributed to all report elements.
 	
 	![](../../../../images/eurd-win-invoice-report-appearance-properties.png)
 

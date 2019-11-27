@@ -18,7 +18,7 @@ The **Chart** control can display multiple series.
 |---|---|
 | ![](../../../../../images/eurd-win-chart-bar-and-point-series.png) | ![](../../../../../images/eurd-win-chart-nested-doghnut-series.png)|
 
-The **Chart** control contains various visual elements (diagrams, series, legends, primary and secondary axes, titles and labels, etc.). You can select these elements in the **Report Designer** and customize their settings in the [Property Grid](../../report-designer-tools/ui-panels/property-grid.md).
+The **Chart** control contains various visual elements (diagrams, series, legends, primary and secondary axes, titles and labels, etc.). You can select these elements in the **Report Designer** and customize their settings in the [Property Grid](../../report-designer-tools/ui-panels/property-grid-tabbed-view.md).
 
 The Report Designer provides the Chart Designer that allows you to create and customize charts.
 
@@ -38,7 +38,7 @@ A chart can display report data in the following ways:
 
     ![](../../../../../images/eurd-win-chart-in-report-header.png)
 
-* Place a chart on a group header/footer to visualize data in each report group. Refer to the [Use Charts to Visualize Data in Report Groups](use-charts-to-visualize-data-in-report-groups.md) step-by-step tutorial for more information.
+* Place a chart on a group header/footer to visualize data in each report group. Refer to the [Use Charts to Visualize Grouped Data](use-charts-to-visualize-grouped-data.md) step-by-step tutorial for more information.
 
     ![](../../../../../images/eurd-win-chart-in-group-footer.png)
 

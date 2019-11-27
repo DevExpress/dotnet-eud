@@ -12,7 +12,7 @@ To create a calculated field, switch to the [Field List](../../report-designer-t
 
 ![](../../../../../images/eurd-win-add-calculated-field.png)
 
- Right-click the calculated field in the **Field List** and select **Edit Expression**. Alternatively, you can select the calculated field, and in the [Property Grid](../../report-designer-tools/ui-panels/property-grid.md), click the **Expression** property's ellipsis button.
+ Right-click the calculated field in the **Field List** and select **Edit Expression**. Alternatively, you can select the calculated field, and in the [Property Grid](../../report-designer-tools/ui-panels/property-grid-tabbed-view.md), click the **Expression** property's ellipsis button.
 
 ![](../../../../../images/eurd-win-calculated-field-eidt-expression.png)
 

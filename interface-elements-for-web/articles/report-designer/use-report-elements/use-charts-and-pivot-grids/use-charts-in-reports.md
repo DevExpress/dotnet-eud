@@ -36,7 +36,7 @@ A chart can display report data in the following ways:
 
     ![](../../../../images/eurd-web-chart-in-report-header.png)
 
-* Place a chart on a group header/footer to visualize data in each report group. Refer to the [Use Charts to Visualize Data in Report Groups](use-charts-to-visualize-data-in-report-groups.md) step-by-step tutorial for more information.
+* Place a chart on a group header/footer to visualize data in each report group. Refer to the [Use Charts to Visualize Grouped Data](use-charts-to-visualize-grouped-data.md) step-by-step tutorial for more information.
 
     ![](../../../../images/eurd-web-chart-in-group-footer.png)
 

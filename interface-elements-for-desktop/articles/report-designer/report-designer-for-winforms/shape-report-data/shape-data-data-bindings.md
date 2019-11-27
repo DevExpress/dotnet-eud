@@ -4,7 +4,7 @@ author: Anna Gubareva
 ---
 # Shape Data (Data Bindings)
 
-The tutorials in this section illustrate how to solve various tasks related to shaping report data when expression bindings **are not enabled** in the Report Designer (the [Property Grid](../report-designer-tools/ui-panels/property-grid.md) does not provide the **PropertyName Expression** item in the property marker's context menu).
+The tutorials in this section illustrate how to solve various tasks related to shaping report data when expression bindings **are not enabled** in the Report Designer (the [Property Grid](../report-designer-tools/ui-panels/property-grid-tabbed-view.md) does not provide the **PropertyName Expression** item in the property marker's context menu).
 
 * [Format Data](shape-data-data-bindings/format-data.md)
 * [Conditionally Change a Control's Appearance](shape-data-data-bindings/conditionally-change-a-control-appearance.md)

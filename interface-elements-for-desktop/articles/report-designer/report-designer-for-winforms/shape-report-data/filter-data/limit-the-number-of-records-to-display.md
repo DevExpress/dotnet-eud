@@ -4,7 +4,7 @@ author: Anna Gubareva
 ---
 # Limit the Number of Records to Display
 
-You can filter records displayed in [Print Preview](../../preview-print-and-export-reports.md) using **Report Print Options**. You can specify them in the [Property Grid](../../report-designer-tools/ui-panels/property-grid.md)'s **Miscellaneous** tab.
+You can filter records displayed in [Print Preview](../../preview-print-and-export-reports.md) using **Report Print Options**. You can specify them in the [Property Grid](../../report-designer-tools/ui-panels/property-grid-tabbed-view.md)'s **Miscellaneous** tab.
 
 ![](../../../../../images/eurd-win-report-print-options.png)
 
