@@ -526,8 +526,6 @@
         href: articles/report-designer/report-designer-for-winforms/create-popular-reports/create-an-invoice-based-on-template.md
       - name: Create an Invoice Manually
         href: articles/report-designer/report-designer-for-winforms/create-popular-reports/create-an-invoice-manually.md
-      - name: Create a Report with Cross-Band Content and Populated Empty Space
-        href: articles/report-designer/report-designer-for-winforms/create-popular-reports/create-a-report-with-cross-band-content-and-populated-empty-space.md
       - name: Create a Master-Detail Report (Use Detail Report Bands)
         href: articles/report-designer/report-designer-for-winforms/create-popular-reports/create-a-master-detail-report-use-detail-report-bands.md   
       - name: Create a Master-Detail Report (Use Subreports)
@@ -540,6 +538,8 @@
         href: articles/report-designer/report-designer-for-winforms/create-popular-reports/create-labels-and-badges.md
       - name: Create a Multi-Column Report
         href: articles/report-designer/report-designer-for-winforms/create-popular-reports/create-a-multi-column-report.md   
+      - name: Create a Report with Cross-Band Content and Populated Empty Space
+        href: articles/report-designer/report-designer-for-winforms/create-popular-reports/create-a-report-with-cross-band-content-and-populated-empty-space.md
       - name: Create an Interactive E-Form
         href: articles/report-designer/report-designer-for-winforms/create-popular-reports/create-an-interactive-e-form.md
       - name: Create a Cross-Tab Report
