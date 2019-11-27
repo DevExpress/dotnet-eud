@@ -66,7 +66,7 @@ Switch to the Preview tab to see the result.
 
 ## Set Vertical Table Options
 
-You can set the following options in the [Property Grid](..\report-designer-tools\ui-panels\property-grid.md) to modify the vertical table:
+You can set the following options in the [Property Grid](..\report-designer-tools\ui-panels\property-grid-tabbed-view.md) to modify the vertical table:
 
 - Disable the Vertical Header band's **Repeat Every Page** property to display field headers once - on the first report page.
 

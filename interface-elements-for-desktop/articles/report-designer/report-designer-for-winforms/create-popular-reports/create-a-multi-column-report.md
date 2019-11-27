@@ -7,7 +7,7 @@ author: Anna Gubareva
 This document describes how to arrange report data in multiple columns, which can be used to create mailing labels, business cards or multi-column directories.
 
 ## <a name="settings"></a>Settings
-To access the multi-column settings of a report's Detail band, use its smart tag or the [Property Grid](../report-designer-tools/ui-panels/property-grid.md).
+To access the multi-column settings of a report's Detail band, use its smart tag or the [Property Grid](../report-designer-tools/ui-panels/property-grid-tabbed-view.md).
 
 ![](../../../../images/eurd-win-multi-column-options.png)
 

@@ -526,6 +526,8 @@
         href: articles/report-designer/report-designer-for-winforms/create-popular-reports/create-an-invoice-based-on-template.md
       - name: Create an Invoice Manually
         href: articles/report-designer/report-designer-for-winforms/create-popular-reports/create-an-invoice-manually.md
+      - name: Create a Report with Cross-Band Content and Populated Empty Space
+        href: articles/report-designer/report-designer-for-winforms/create-popular-reports/create-a-report-with-cross-band-content-and-populated-empty-space.md
       - name: Create a Master-Detail Report (Use Detail Report Bands)
         href: articles/report-designer/report-designer-for-winforms/create-popular-reports/create-a-master-detail-report-use-detail-report-bands.md   
       - name: Create a Master-Detail Report (Use Subreports)
@@ -542,6 +544,8 @@
         href: articles/report-designer/report-designer-for-winforms/create-popular-reports/create-an-interactive-e-form.md
       - name: Create a Cross-Tab Report
         href: articles/report-designer/report-designer-for-winforms/create-popular-reports/create-a-cross-tab-report.md
+      - name: Create a Balance Sheet
+        href: articles/report-designer/report-designer-for-winforms/create-popular-reports/create-a-balance-sheet.md
     - name: Configure Design Settings
       href: articles/report-designer/report-designer-for-winforms/configure-design-settings.md
       items:
@@ -683,10 +687,23 @@
           href: articles/report-designer/report-designer-for-winforms/use-report-elements/use-charts-and-pivot-grids/add-a-chart-set-up-series-manually.md
         - name: Add a Chart (Use a Series Template)
           href: articles/report-designer/report-designer-for-winforms/use-report-elements/use-charts-and-pivot-grids/add-a-chart-use-a-series-template.md
-        - name: Use Charts to Visualize Data in Report Groups
-          href: articles/report-designer/report-designer-for-winforms/use-report-elements/use-charts-and-pivot-grids/use-charts-to-visualize-data-in-report-groups.md
+        - name: Use Charts to Visualize Grouped Data
+          href: articles/report-designer/report-designer-for-winforms/use-report-elements/use-charts-and-pivot-grids/use-charts-to-visualize-grouped-data.md
         - name: Link a Chart and a Pivot Grid
           href: articles/report-designer/report-designer-for-winforms/use-report-elements/use-charts-and-pivot-grids/link-a-chart-and-a-pivot-grid.md
+      - name: Use Cross Tabs
+        href: articles/report-designer/report-designer-for-winforms/use-report-elements/use-cross-tabs.md
+        items:
+        - name: Cross Tab Overview
+          href: articles/report-designer/report-designer-for-winforms/use-report-elements/use-cross-tabs/cross-tab-overview.md
+        - name: Cross Tab Fields
+          href: articles/report-designer/report-designer-for-winforms/use-report-elements/use-cross-tabs/cross-tab-fields.md
+        - name: Shape Data
+          href: articles/report-designer/report-designer-for-winforms/use-report-elements/use-cross-tabs/shape-data.md
+        - name: Layout and Print Options
+          href: articles/report-designer/report-designer-for-winforms/use-report-elements/use-cross-tabs/layout-and-print-options.md
+        - name: Customize Appearance
+          href: articles/report-designer/report-designer-for-winforms/use-report-elements/use-cross-tabs/customize-appearance.md
       - name: Use Gauges and Sparklines
         href: articles/report-designer/report-designer-for-winforms/use-report-elements/use-gauges-and-sparklines.md
         items:
@@ -798,12 +815,14 @@
         items:
         - name: Parameters Overview
           href: articles/report-designer/report-designer-for-winforms/shape-report-data/use-report-parameters/parameters-overview.md
-        - name: Create Multi-Value and Cascading Parameters
-          href: articles/report-designer/report-designer-for-winforms/shape-report-data/use-report-parameters/create-multi-value-and-cascading-parameters.md
+        - name: Multi-Value and Cascading Parameters
+          href: articles/report-designer/report-designer-for-winforms/shape-report-data/use-report-parameters/multi-value-and-cascading-parameters.md
+        - name: Date Range Parameters
+          href: articles/report-designer/report-designer-for-winforms/shape-report-data/use-report-parameters/date-range-parameters.md
         - name: Request and Pass Report Parameter Values
           href: articles/report-designer/report-designer-for-winforms/shape-report-data/use-report-parameters/request-and-pass-report-parameter-values.md
-        - name: Use Query Parameters
-          href: articles/report-designer/report-designer-for-winforms/shape-report-data/use-report-parameters/use-query-parameters.md
+        - name: Query Parameters
+          href: articles/report-designer/report-designer-for-winforms/shape-report-data/use-report-parameters/query-parameters.md
     - name: Lay out Dynamic Report Content
       href: articles/report-designer/report-designer-for-winforms/lay-out-dynamic-report-content.md
       items:
@@ -1023,8 +1042,10 @@
           href: articles/report-designer/report-designer-for-winforms/report-designer-tools/ui-panels/field-list.md          
         - name: Report Gallery
           href: articles/report-designer/report-designer-for-winforms/report-designer-tools/ui-panels/report-gallery.md
-        - name: Property Grid
-          href: articles/report-designer/report-designer-for-winforms/report-designer-tools/ui-panels/property-grid.md
+        - name: Property Grid (Tabbed View)
+          href: articles/report-designer/report-designer-for-winforms/report-designer-tools/ui-panels/property-grid-tabbed-view.md
+        - name: Property Grid (Non-Tabbed View)
+          href: articles/report-designer/report-designer-for-winforms/report-designer-tools/ui-panels/property-grid-non-tabbed-view.md
         - name: Group and Sort Panel
           href: articles/report-designer/report-designer-for-winforms/report-designer-tools/ui-panels/group-and-sort-panel.md
   - name: Report Designer for WPF

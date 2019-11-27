@@ -16,7 +16,7 @@ This tutorial illustrates how to filter data at the report data source level, as
 
 
 
-4. Select the data source in the [Report Explorer](../../report-designer-tools/ui-panels/report-explorer.md), expand its **Queries** collection property in the [Property Grid](../../report-designer-tools/ui-panels/property-grid.md) and click the ellipsis for the **Filter String** property of the required query.
+4. Select the data source in the [Report Explorer](../../report-designer-tools/ui-panels/report-explorer.md), expand its **Queries** collection property in the [Property Grid](../../report-designer-tools/ui-panels/property-grid-tabbed-view.md) and click the ellipsis for the **Filter String** property of the required query.
 
     ![](../../../../../images/eurd-win-filer-data-source-filter-string-property.png)
 
@@ -27,7 +27,7 @@ This tutorial illustrates how to filter data at the report data source level, as
     Every filter condition consists of three parts:
     * A data field name.
     * Criteria operator, such as **Equals**, **Is less than**, **Is between**, etc.
-    * A static operand value, another data field or a query parameter. See the [Use Query Parameters](../use-report-parameters/use-query-parameters.md) topic to learn about embedding these parameters into filter conditions.
+    * A static operand value, another data field or a query parameter. See the [Use Query Parameters](../use-report-parameters/query-parameters.md) topic to learn about embedding these parameters into filter conditions.
 
     You can arrange specific conditions into groups with **And**, **Or**, **Not And**, and **Not Or** operators.
 

@@ -23,7 +23,7 @@ After you [bound your report to data](../../bind-to-data.md) and provided conten
 	
 	![](../../../../../images/eurd-win-shaping-limit-parameter-settings.png)
 
-3. Drop a [Page Break](../../use-report-elements/use-basic-report-controls/page-break.md) control onto the report's detail band and switch to the [Property Grid](../../report-designer-tools/ui-panels/property-grid.md). Open the **Behavior** tab, click the **Visible** property's marker and select **Visible Expression** in the context menu.
+3. Drop a [Page Break](../../use-report-elements/use-basic-report-controls/page-break.md) control onto the report's detail band and switch to the [Property Grid](../../report-designer-tools/ui-panels/property-grid-tabbed-view.md). Open the **Behavior** tab, click the **Visible** property's marker and select **Visible Expression** in the context menu.
 	
 	![](../../../../../images/eurd-win-shaping-page-break-visible-property.png)
 
