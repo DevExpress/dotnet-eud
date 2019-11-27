@@ -27,7 +27,7 @@ The following actions are available for query customization:
 | Button | Description |
 |---|---|
 | ![](../../../../images/eurd-web-fieldlist-data-source-delete.png) | Removes the selected query. |
-| ![](../../../../images/eurd-web-fieldlist-data-source-edit-relationships.png) | Invokes the [Create a Query or Select a Stored Procedure](../data-source-wizard\specify-data-source-settings-database.md) wizard page. |
+| ![](../../../../images/eurd-web-fieldlist-data-source-edit-relationships.png) | Invokes the **Create a Query or Select a Stored Procedure** wizard page. |
 
 ## Bind controls to data
 
