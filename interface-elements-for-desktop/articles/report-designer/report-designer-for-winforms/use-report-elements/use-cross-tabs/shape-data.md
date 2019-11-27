@@ -15,9 +15,9 @@ The Cross Tab calculates the following automatic totals:
 
 ![](../../../../../images/eurd-win-cross-tab-totals-types.png)
 
-You can use the [layout options](layout-options.md) to move rows and columns that display total values.
+You can use the [layout options](layout-and-print-options.md) to move rows and columns that display total values.
 
-If you want to [hide specific totals](layout-options.md#hide-specific-rows-and-columns), select any cell in the row/column and disable the **Row Visible**/**Column Visible** property.
+If you want to [hide specific totals](layout-and-print-options.md#hide-specific-rows-and-columns), select any cell in the row/column and disable the **Row Visible**/**Column Visible** property.
 
 ![](../../../../../images/eurd-win-cross-tab-column-visible.png)
 
@@ -41,7 +41,7 @@ The Cross Tab displays row and column field values in the ascending order. Use t
 
 You can also use the **Sort By Summary Info** property to arrange row/column field values based on grand totals values.
 
-1. Select a cell you want to sort and expand the **Sort By Summary Info** property in the [Property Grid](../../report-designer-tools/ui-panels/property-grid.md).
+1. Select a cell you want to sort and expand the **Sort By Summary Info** property in the [Property Grid](../../report-designer-tools/ui-panels/property-grid-tabbed-view.md).
 1. Set the **Field Name** property to the name of an assigned data source's field. You can also define a field that is not currently displayed in the Cross Tab.
 1. Use the **Summary Type** property to specify which summary function to calculate. The summary type can differ from the summary type currently used in the Cross Tab.
 1. Use the **Sort Order** property to define the sort order.
