@@ -66,7 +66,7 @@ Select the column header cell and click its smart tag. Set the **Group Interval*
 
 1. The Cross Tab control stacks row headers horizontally. You can change the view so that parent values span the entire row header panel width.
 
-    Select the Cross Tab and switch to the [Property Grid](../report-designer-tools/ui-panels/property-grid.md). Expand the **Layout Options** group and enable the **Hierarchical Row Layout** property.
+    Select the Cross Tab and switch to the [Property Grid](../report-designer-tools/ui-panels/property-grid-tabbed-view.md). Expand the **Layout Options** group and enable the **Hierarchical Row Layout** property.
 
     ![](../../../../images/eurd-win-balance-sheet-hierarchical-row-layout.png)
 
