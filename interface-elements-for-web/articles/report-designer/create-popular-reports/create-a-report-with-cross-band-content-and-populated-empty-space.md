@@ -13,7 +13,7 @@ This document describes how to create a report with the following layout options
 
 ## Initial Report
 
-In this tutorial, the report [groups data](../shape-report-data/group-and-sort-data.md) by the **OrderID** field.
+In this tutorial, the report [groups data](../shape-report-data/group-and-sort-data.md) by a data source field (the report's group field).
 
 ![](../../../images/eurd-web-underlay-report-preview.png)
 
@@ -69,13 +69,13 @@ Add a panel with recipient details across the entire group. Place the panel on a
 
 	![](../../../images/eurd-web-underlay-report-printundernextband.png)
 
-1. The group field (**OrderID**) is in the _GroupHeader1_ band's **Group Fields** collection. The new band is above **GroupHeader1** and does not participate in the report's group. Move the group field to the new band.
+1. The report's group field is in the _GroupHeader1_ band's **Group Fields** collection. The new band is above **GroupHeader1** and does not participate in the report's group. Move the group field to the new band.
 
-	* Select _GroupHeader1_ and remove **OrderID** from **Group Fields**.
+	* Select _GroupHeader1_ and remove the group field from **Group Fields**.
 
 	![](../../../images/eurd-web-underlay-report-removegroupfields.png)
 
-	* Select the new band and add **OrderID** to **Group Fields**.
+	* Select the new band and add the group field to **Group Fields**.
 
 	![](../../../images/eurd-web-underlay-report-movegroupfields.png)
 

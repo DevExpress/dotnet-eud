@@ -13,7 +13,7 @@ This document describes how to create a report with the following layout options
 
 ## Initial Report
 
-In this tutorial, the report [groups data](../shape-report-data/group-and-sort-data.md) by the **OrderID** field.
+In this tutorial, the report [groups data](../shape-report-data/group-and-sort-data.md) by a data source field (the report's group field).
 
 ![](../../../../images/eurd-win-underlay-report-preview-0.png)
 
@@ -66,13 +66,13 @@ The empty space is now populated with numbered lines.
 
 	![](../../../../images/eurd-win-underlay-report-printundernextband.png)
 
-2. The group field (**OrderID**) is in the _GroupHeader1_ band's **Group Fields** collection. The new band is above _GroupHeader1_ and does not participate in the report's group. Move the group field to the new band.
+2. The report's group field is in the _GroupHeader1_ band's **Group Fields** collection. The new band is above _GroupHeader1_ and does not participate in the report's group. Move the group field to the new band.
 
-	- Click _GroupHeader1_'s smart tag, click the **Group Fields** property's ellipsis button and remove **OrderID** from the invoked **Group Field Collection Editor**.
+	- Click _GroupHeader1_'s smart tag, click the **Group Fields** property's ellipsis button and remove the group field from the invoked **Group Field Collection Editor**.
 
 		![](../../../../images/eurd-win-underlay-report-remove-group-fields.png)
 
-	- Click the new band's smart tag, click the **Group Fields** property's ellipsis button and add **OrderID** in **Group Field Collection Editor**.
+	- Click the new band's smart tag, click the **Group Fields** property's ellipsis button and add the group field in **Group Field Collection Editor**.
 
 		![](../../../../images/eurd-win-underlay-report-move-group-fields.png)
 
