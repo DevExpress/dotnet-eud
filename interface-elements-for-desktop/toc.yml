@@ -919,6 +919,8 @@
               href: articles/report-designer/report-designer-for-winforms/report-designer-tools/report-wizard/table-report/set-the-report-title.md
           - name: Vertical Report
             href: articles/report-designer/report-designer-for-winforms/report-designer-tools/report-wizard/vertical-report.md
+          - name: Cross-Tab Report
+            href: articles/report-designer/report-designer-for-winforms/report-designer-tools/report-wizard/cross-tab-report.md
           - name: Labels
             href: articles/report-designer/report-designer-for-winforms/report-designer-tools/report-wizard/labels.md
             items:
