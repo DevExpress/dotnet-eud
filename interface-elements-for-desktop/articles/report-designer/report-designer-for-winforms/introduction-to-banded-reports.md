@@ -97,7 +97,7 @@ Click the arrow button on the band's title to collapse or expand the band.
 ### Hide Bands in the Report Document
 
 
-You can avoid printing band content in a document. To do this, select the band and set the band's **Height** property to zero or disable its **Visible** property in the [Property Grid](report-designer-tools\ui-panels\property-grid.md).
+You can avoid printing band content in a document. To do this, select the band and set the band's **Height** property to zero or disable its **Visible** property in the [Property Grid](report-designer-tools\ui-panels\property-grid-tabbed-view.md).
 
 ![eurd-win-band-properties-in-property-grid](../../../images/eurd-win-band-properties-in-property-grid.png)
 

@@ -12,7 +12,7 @@ These bar codes can encode up to **14** digits, which makes them suitable for **
 
 ![](../../../../../images/eurd-win-bar-code-gs1-databar.png)
 
-The following properties are specific to the **GS1 DataBar** type and available in the [Property Grid](../../report-designer-tools/ui-panels/property-grid.md) under the **Symbology** property:
+The following properties are specific to the **GS1 DataBar** type and available in the [Property Grid](../../report-designer-tools/ui-panels/property-grid-tabbed-view.md) under the **Symbology** property:
 
 * **FNC1 Functional Character**
 	

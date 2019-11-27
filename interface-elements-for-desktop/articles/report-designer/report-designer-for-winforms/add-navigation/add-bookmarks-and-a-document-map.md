@@ -17,7 +17,7 @@ The following image illustrates the resulting report with a hierarchical Documen
 
 Use the following steps to generate a Document Map in your grouped report:
 
-1. Select the label placed in the **Group Header** band and switch to the [Property Grid](..\report-designer-tools\ui-panels\property-grid.md)'s **Miscellaneous** tab. Click the **Bookmark** property's marker and select the **Bookmark Expression** item. In the invoked **Expression Editor**, select the **CategoryName** data field.
+1. Select the label placed in the **Group Header** band and switch to the [Property Grid](..\report-designer-tools\ui-panels\property-grid-tabbed-view.md)'s **Miscellaneous** tab. Click the **Bookmark** property's marker and select the **Bookmark Expression** item. In the invoked **Expression Editor**, select the **CategoryName** data field.
 	
 	![eurd-win-addbookmark-set-bookmark-for-group](../../../../images/eurd-win-addbookmark-set-bookmark-for-group.png)
 	

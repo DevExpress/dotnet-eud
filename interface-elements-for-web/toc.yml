@@ -524,6 +524,8 @@
       href: articles/report-designer/create-popular-reports/create-labels-and-badges.md
     - name: Create a Multi-Column Report
       href: articles/report-designer/create-popular-reports/create-a-multi-column-report.md
+    - name: Create a Report with Cross-Band Content and Populated Empty Space
+      href: articles/report-designer/create-popular-reports/create-a-report-with-cross-band-content-and-populated-empty-space.md
     - name: Create an Interactive E-Form
       href: articles/report-designer/create-popular-reports/create-an-interactive-e-form.md
     - name: Create a Cross-Tab Report
@@ -665,8 +667,8 @@
         href: articles/report-designer/use-report-elements/use-charts-and-pivot-grids/add-a-chart-set-up-series-manually.md
       - name: Add a Chart (Use a Series Template)
         href: articles/report-designer/use-report-elements/use-charts-and-pivot-grids/add-a-chart-use-a-series-template.md
-      - name: Use Charts to Visualize Data in Report Groups
-        href: articles/report-designer/use-report-elements/use-charts-and-pivot-grids/use-charts-to-visualize-data-in-report-groups.md
+      - name: Use Charts to Visualize Grouped Data
+        href: articles/report-designer/use-report-elements/use-charts-and-pivot-grids/use-charts-to-visualize-grouped-data.md
       - name: Link a Chart and a Pivot Grid
         href: articles/report-designer/use-report-elements/use-charts-and-pivot-grids/link-a-chart-and-a-pivot-grid.md
     - name: Use Gauges and Sparklines
@@ -778,12 +780,14 @@
       items:
       - name: Parameters Overview
         href: articles/report-designer/shape-report-data/use-report-parameters/parameters-overview.md
-      - name: Create Multi-Value and Cascading Report Parameters
-        href: articles/report-designer/shape-report-data/use-report-parameters/create-multi-value-and-cascading-parameters.md
+      - name: Multi-Value and Cascading Report Parameters
+        href: articles/report-designer/shape-report-data/use-report-parameters/multi-value-and-cascading-parameters.md
+      - name: Date Range Parameters
+        href: articles/report-designer/shape-report-data/use-report-parameters/date-range-parameters.md
       - name: Request and Pass Report Parameter Values
         href: articles/report-designer/shape-report-data/use-report-parameters/request-and-pass-report-parameter-values.md
-      - name: Use Query Parameters
-        href: articles/report-designer/shape-report-data/use-report-parameters/use-query-parameters.md
+      - name: Query Parameters
+        href: articles/report-designer/shape-report-data/use-report-parameters/query-parameters.md
   - name: Lay out Dynamic Report Content
     href: articles/report-designer/lay-out-dynamic-report-content.md
     items:

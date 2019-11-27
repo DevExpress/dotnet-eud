@@ -21,6 +21,7 @@ The tutorials listed below demonstrate various layout options available for repo
 
 * [Create Labels and Badges](create-popular-reports/create-labels-and-badges.md)
 * [Create a Multi-Column Report](create-popular-reports/create-a-multi-column-report.md)
+* [Create a Report with Cross-Band Content and Populated Empty Space](create-popular-reports/create-a-report-with-cross-band-content-and-populated-empty-space.md)
 
 The following tutorial illustrates interactive report features:
 
@@ -31,7 +32,7 @@ The following tutorial illustrates interactive report features:
 > 
 > See [Use Report Parameters](shape-report-data/use-report-parameters.md) to learn how to customize reports by submitting parameter values in Print Preview.
 
-The following tutorial explains how to use the Cross Tab control in your reports:
+The following tutorials explain how to use the Cross Tab control in your reports:
 
 * [Create a Cross-Tab Report](create-popular-reports/create-a-cross-tab-report.md)
 * [Create a Balance Sheet](create-popular-reports/create-a-balance-sheet.md)

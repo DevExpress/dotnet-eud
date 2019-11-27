@@ -29,7 +29,7 @@ This tutorial illustrates how to filter data at the report data source level, as
     Every filter condition consists of three parts:
     * A data field name.
     * Criteria operator, such as **Equals**, **Is less than**, **Is between**, etc.
-    * A static operand value, another data field or a query parameter. See the [Use Query Parameters](../use-report-parameters/use-query-parameters.md) topic to learn about embedding these parameters into filter conditions.
+    * A static operand value, another data field or a query parameter. See the [Use Query Parameters](../use-report-parameters/query-parameters.md) topic to learn about embedding these parameters into filter conditions.
 
     You can arrange specific conditions into groups with **And**, **Or**, **Not And**, and **Not Or** operators.
 

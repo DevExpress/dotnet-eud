@@ -14,7 +14,7 @@ This tutorial illustrates how to sort a report against a custom criteria, in par
 	
 	![](../../../../../images/eurd-win-sort-data-create-calculated-field.png)	
 
-3. Select the calculated field, and in the [Property Grid](../../report-designer-tools/ui-panels/property-grid.md), click the **Expression** property's ellipsis button.
+3. Select the calculated field, and in the [Property Grid](../../report-designer-tools/ui-panels/property-grid-tabbed-view.md), click the **Expression** property's ellipsis button.
 	
 	![](../../../../../images/eurd-win-sort-data-calculated-field-settings.png)
 	

@@ -9,7 +9,7 @@ _Scripts_ are program commands, placed within the _event handlers_ of the requir
 
 You can write _scripts_ for a report or any of its elements (bands and controls), to be executed when the report is being [previewed, printed or exported](preview-print-and-export-reports.md).
 
-In the [Property Grid](report-designer-tools\ui-panels\property-grid.md), expand the **Scripts** property for the required element. Every report element has an individual set of script events. 
+In the [Property Grid](report-designer-tools\ui-panels\property-grid-tabbed-view.md), expand the **Scripts** property for the required element. Every report element has an individual set of script events. 
 
 ![eurd-win-scripting-scripts-property](../../../images/eurd-win-scripting-scripts-property.png)
 
