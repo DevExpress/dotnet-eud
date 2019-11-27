@@ -75,7 +75,7 @@ This tutorial describes how to use the [detail band](..\introduction-to-banded-r
 
         ![HierarchicalReport-SetDrillDownControl](../../../../images/eurd-win-HierarchicalReport-SetDrillDownControl.png)
 
-    - Set the **Check Box**'s **Check State** property to the following expression: *[ReportItems].[Detail].[DrillDownExpanded]* (in the control's Smart Tag or the [Property Grid](..\report-designer-tools\ui-panels\property-grid.md)'s Expressions tab).
+    - Set the **Check Box**'s **Check State** property to the following expression: *[ReportItems].[Detail].[DrillDownExpanded]* (in the control's Smart Tag or the [Property Grid](..\report-designer-tools\ui-panels\property-grid-tabbed-view.md)'s Expressions tab).
 
         ![HierarchicalReport-CheckStateExpression](../../../../images/eurd-win-HierarchicalReport-CheckStateExpression.png)
 

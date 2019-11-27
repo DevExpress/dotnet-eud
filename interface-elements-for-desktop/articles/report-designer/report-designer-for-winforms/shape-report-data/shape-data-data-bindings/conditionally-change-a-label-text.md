@@ -19,7 +19,7 @@ This document describes how to display different values in a report control base
 
     ![](../../../../../images/eurd-win-shaping-add-calculated-field.png)
 
-3. Switch to the [Property Grid](../../report-designer-tools/ui-panels/property-grid.md) and set the **Field Type** property to **String**. Then. click the  **Expression** property's ellipsis button.
+3. Switch to the [Property Grid](../../report-designer-tools/ui-panels/property-grid-tabbed-view.md) and set the **Field Type** property to **String**. Then. click the  **Expression** property's ellipsis button.
 
     ![](../../../../../images/eurd-win-shaping-calculated-field-expression-property.png)
 

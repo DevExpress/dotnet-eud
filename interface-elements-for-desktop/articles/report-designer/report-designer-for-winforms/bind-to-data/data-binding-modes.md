@@ -46,7 +46,7 @@ See the section below for information on how to use expressions instead of data 
     |---|---|
     | ![](../../../../images/eurd-win-smart-tag-expression-binding.png) | ![](../../../../images/eurd-win-smart-tag-data-binding.png) |
 
-* You can select a report control and bind it to data in the [Property Grid](../report-designer-tools/ui-panels/property-grid.md).
+* You can select a report control and bind it to data in the [Property Grid](../report-designer-tools/ui-panels/property-grid-tabbed-view.md).
 
     <table><tr><th><p>Expression Bindings</p>
     </th><th><p>Data Bindings</p>

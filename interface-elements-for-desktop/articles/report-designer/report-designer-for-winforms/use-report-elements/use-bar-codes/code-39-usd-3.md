@@ -8,7 +8,7 @@ author: Anna Gubareva
 
 ![](../../../../../images/eurd-win-bar-code-code-39.png)
 
-The following properties are specific to the **Code 39** type and listed in the [Property Grid](../../report-designer-tools/ui-panels/property-grid.md) under the **Symbology** property:
+The following properties are specific to the **Code 39** type and listed in the [Property Grid](../../report-designer-tools/ui-panels/property-grid-tabbed-view.md) under the **Symbology** property:
 
 * **Calculate a Checksum**
 

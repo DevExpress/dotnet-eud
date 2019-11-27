@@ -10,7 +10,7 @@ This tutorial describes the steps required to create a report with an _aggregate
 
 2. Create a new [calculated field](calculated-fields-overview.md) and set the field name to "AggregateField".
 
-3. Select the calculated field, switch to the [Property Grid](../../report-designer-tools/ui-panels/property-grid.md) and click the **Expression** property's ellipsis button.
+3. Select the calculated field, switch to the [Property Grid](../../report-designer-tools/ui-panels/property-grid-tabbed-view.md) and click the **Expression** property's ellipsis button.
 
     ![](../../../../../images/eurd-win-aggreagate-field-expression-property.png)
 
