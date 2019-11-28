@@ -70,25 +70,50 @@
 <h1 id="rich-text">Rich Text</h1>
 
 <h2 id="overview">Overview</h2>
-<p>The <strong>Rich Text</strong> control displays formatted text (static, dynamic or mixed) in your report.</p>
-<p>To add this control to a report, drag the <strong>Rich Text</strong> item from the <a href="../../report-designer-tools/toolbox.html">Toolbox</a> onto the report&#39;s area.</p>
+<p>The <strong>Rich Text</strong> control displays formatted text (static, dynamic or mixed) in a report.</p>
+<p><img src="../../../../images/eurd-web-rich-text.png" alt=""></p>
+<p>To add this control to a report, drag the <strong>Rich Text</strong> item from the <a href="../../report-designer-tools/toolbox.html">Toolbox</a> onto the report&#39;s <a href="../../report-designer-tools/design-surface.html">Design Surface</a>.</p>
 <p><img src="../../../../images/eurd-web-add-rich-text-to-report.png" alt=""></p>
+<h2 id="load-content-from-a-file">Load Content from a File</h2>
 <p>You can load RTF or HTML content from an external file. Expand the <strong>Data</strong> category and click the <strong>Load file</strong> property&#39;s ellipsis button.</p>
 <p><img src="../../../../images/eurd-web-rich-text-load-file.png" alt=""></p>
 <p>In the invoked <strong>Open</strong> dialog, select the file and click <strong>Open</strong>.</p>
-<p>You can double-click the Rich Text to invoke its in-place editor and enter static text. </p>
+<p>Rich Text supports the following file formats:</p>
+<ul>
+<li>RTF</li>
+<li>DOCX</li>
+<li>TXT</li>
+<li>HTML</li>
+</ul>
+<h2 id="edit-content-in-place">Edit Content in Place</h2>
+<p>Double-click a Rich Text control and type text in the invoked in-place editor. A ribbon with text format options appears next to the editor.</p>
 <p><img src="../../../../images/eurd-web-rich-text-in-place-editor.png" alt=""></p>
-<p>Press CTRL+Enter to submit changes and exit the in-place editor.</p>
-<div class="NOTE"><h5>Note</h5><p>The Rich Text&#39;s in-place editor allows you to enter only plain text. Bind the control to a data field that provides RTF or HTML content to display formatted text.</p>
+<p>Rich Text supports the following edit operations:</p>
+<ul>
+<li><p><strong>Undo/Redo History</strong></p>
+<p>  The undo/redo history contains the last 100 operations and is available until you exit the in-place edit mode.</p>
+</li>
+<li><p><strong>Clipboard Operations</strong></p>
+<p>  You can use clipboard operations (Cut, Copy, and Paste) to manipulate text and images.</p>
+</li>
+<li><p><strong>Hyperlinks</strong></p>
+<p>  You can create and modify hyperlinks.</p>
+</li>
+<li><p><strong>Drag and Drop</strong></p>
+<p>  Use Drag and Drop to move images and text within the editor.</p>
+</li>
+</ul>
+<div class="NOTE"><h5>Note</h5><p>The legacy Rich Text does not provide a ribbon with text format options. Its in-place editor allows you to enter only plain text. Bind the control to a data field that provides RTF or HTML content to display formatted text.</p>
+<p><img src="../../../../images/eurd-web-rich-text-in-place-editor-legacy.png" alt=""></p>
 </div>
 <h2 id="bind-to-data">Bind to Data</h2>
-<p>Click the <strong>Rtf Expression</strong> or <strong>Html Expression</strong> option&#39;s ellipsis button to invoke the <a href="../../report-designer-tools/expression-editor.html">Expression Editor</a>. This editor allows you to bind the control to a data field or construct a complex binding expression with two or more data fields. </p>
+<p>Click the <strong>Rtf Expression</strong> or <strong>Html Expression</strong> option&#39;s ellipsis button to invoke the <a href="../../report-designer-tools/expression-editor.html">Expression Editor</a>. Use this editor to bind the control to a data field or construct a complex binding expression with two or more data fields.</p>
 <p><img src="../../../../images/eurd-web-rich-text-bind-to-data.png" alt=""></p>
-<p>You can use HTML formatted text, which contains markup tags to define text appearance. Click the <strong>Html Expression</strong> option&#39;s ellipsis button and enter this text in <strong>&#39;</strong> quotes <strong>&#39;</strong> in the invoked <a href="../../report-designer-tools/expression-editor.html">Expression Editor</a>.</p>
+<p>You can use HTML formatted text that contains markup tags to define text appearance. Click the <strong>Html Expression</strong> option&#39;s ellipsis button and enter this text in <strong>&#39;</strong> quotes <strong>&#39;</strong> in the invoked <a href="../../report-designer-tools/expression-editor.html">Expression Editor</a>.</p>
 <p><img src="../../../../images/eurd-web-rich-text-html-formatted-text.png" alt=""></p>
 <p>Drag and drop a numeric or text field from the <a href="../../report-designer-tools/ui-panels/field-list.html">Field List</a> onto the <strong>Rich Text</strong> control to bind it to this field.</p>
 <p><img src="../../../../images/eurd-web-rich-text-drop-fom-field-list.png" alt=""></p>
-<p>The Rich Text also enables you to merge data fields and static content in its text. </p>
+<p>The Rich Text also enables you to merge data fields and static content in its text.</p>
 <p><img src="../../../../images/eurd-web-mail-merge-preview-result.png" alt=""></p>
 <p>See the <a href="../../bind-to-data/bind-controls-to-data-expression-bindings.html">Bind Controls to Data</a> and <a href="../../bind-to-data/use-embedded-fields-mail-merge.html">Use Embedded Fields</a> topics for more information.</p>
 </article>
@@ -99,7 +124,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/19.1/interface-elements-for-web/articles/report-designer/use-report-elements/use-basic-report-controls/rich-text.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/19.2/interface-elements-for-web/articles/report-designer/use-report-elements/use-basic-report-controls/rich-text.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

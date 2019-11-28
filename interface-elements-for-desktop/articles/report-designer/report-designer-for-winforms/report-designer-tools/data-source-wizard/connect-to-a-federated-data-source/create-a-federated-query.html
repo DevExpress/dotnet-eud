@@ -1,0 +1,155 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Create a Federated Query | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Create a Federated Query | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.37.0.0">
+    
+    <link rel="shortcut icon" href="../../../../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../../../../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../../../../index.html">
+                <img id="logo" class="svg" src="../../../../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="create-a-federated-query">Create a Federated Query</h1>
+
+<p>On this wizard page, you can create federated queries based on data from other data sources.</p>
+<p>Note that initial data sources can contain data at the root level (e.g., an <a href="../../../bind-to-data/bind-a-report-to-an-excel-workbook.html">Excel data source</a>) or have one or more queries (e.g., a <a href="../../../bind-to-data/bind-a-report-to-a-database.html">SQL data source</a>).</p>
+<h2 id="include-data-into-separate-queries">Include Data into Separate Queries</h2>
+<p>Enable check boxes for data fields, queries and/or entire data sources.</p>
+<p><img src="../../../../../../images/eurd-win-data-source-wizard-data-federation-select-queries.png" alt=""></p>
+<p>The selected items are included in data federation as separate queries based on initial data source queries.</p>
+<p><img src="../../../../../../images/eurd-win-data-federation-queries-field-list.png" alt=""></p>
+<p>The wizard specifies query names as follows:</p>
+<ul>
+<li>If the initial data source contains one or more queries (such as in a SQL data source), the federated query name consists of the data source name and query name separated by an underscore.</li>
+<li>If the initial data source contains data at the root level (such as in an Excel data source), federated query name is equivalent to the data source name.</li>
+</ul>
+<h2 id="combine-data-into-a-single-query">Combine Data into a Single Query</h2>
+<p>To combine data from multiple data sources into a single query, click <strong>Add Query</strong>.</p>
+<p><img src="../../../../../../images/eurd-win-data-source-wizard-data-federation-add-query.png" alt=""></p>
+<p>This invokes the <a href="../../query-builder.html">Query Builder</a> adapted to federated data sources. Specify the query type.</p>
+<p><img src="../../../../../../images/DataFederationUnion-Specify-Query-Type.png" alt=""></p>
+<ul>
+<li><p><strong>Join</strong></p>
+<p>  Drag and drop items onto the design surface, and specify join relationships in the <strong>Join Editor</strong>.</p>
+<p>  <img src="../../../../../../images/eurd-win-data-source-wizard-data-federation-join-data.png" alt=""></p>
+<p>  Enable check boxes for the data fields you want to include in the query result set.</p>
+<p>  <img src="../../../../../../images/eurd-win-data-source-wizard-data-federation-join-select-fields.png" alt=""></p>
+</li>
+<li><p><strong>Union and Union All</strong></p>
+<p>  Double-click the data sources you want to combine into a single query. The query includes only fields that have identical names and types in the origin sources.</p>
+<p>  <img src="../../../../../../images/DataFederationUnion-Common-Fields.png" alt=""></p>
+<p>  Rename fields.</p>
+<p>  <img src="../../../../../../images/DataFederation-FieldAliases.png" alt=""></p>
+<div class="TIP"><h5>Tip</h5><p>When you use the <strong>Union</strong> mode, duplicate data from the origin data sources is removed from the query result set. Use the <strong>Union All</strong> mode to include all data.</p>
+</div>
+</li>
+</ul>
+<p>The created query appears on the wizard page in the <strong>Federated Queries</strong> category. The federated query&#39;s default name is equivalent to the main table name. </p>
+<p><img src="../../../../../../images/eurd-win-data-source-wizard-data-federation-join-query.png" alt=""></p>
+<p>You can click the <img src="../../../../../../images/eurd-win-report-wizard-multi-query-page-icon-edit125534.png" alt="report-wizard-multi-query-page-icon-edit"> button to customize the query or the <img src="../../../../../../images/eurd-win-report-wizard-multi-query-page-icon-remove125533.png" alt="report-wizard-multi-query-page-icon-remove"> button to remove the query. </p>
+<p>Once you finish the wizard, it creates a federated data source that includes a single query.</p>
+<p><img src="../../../../../../images/eurd-win-data-federation-single-query-field-list.png" alt=""></p>
+<h2 id="specify-master-detail-relationships">Specify Master-Detail Relationships</h2>
+<p>Click <strong>Manage Relations</strong> to define master-detail relationships between two or more queries.</p>
+<p><img src="../../../../../../images/eurd-win-data-source-wizard-data-federation-manage-relations.png" alt=""></p>
+<p>In the invoked editor, drag and drop the key field from the master query to the detail query.</p>
+<p><img src="../../../../../../images/eurd-win-data-source-wizard-data-federation-relation-editor.png" alt=""></p>
+<p>Once the wizard is complete, you can see the master-detail hierarchy in the Field List.</p>
+<p><img src="../../../../../../images/eurd-win-data-federation-master-detail-hierarchy-field-list.png" alt=""></p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/19.2/interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-tools/data-source-wizard/connect-to-a-federated-data-source/create-a-federated-query.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2019 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../../../../styles/main.js"></script>
+  </body>
+</html>

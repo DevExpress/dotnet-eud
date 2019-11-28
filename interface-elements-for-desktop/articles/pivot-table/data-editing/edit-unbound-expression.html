@@ -69,8 +69,15 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="edit-unbound-expression">Edit Unbound Expression</h1>
 
-<p>You can edit the unbound field&#39;s expression in the Expression Editor by selecting the <strong>Expression Editor...</strong> menu command. Expressions allow you to calculate values based on values of other fields. You can use constants, various functions and operators in expressions.</p>
+<p>To edit the unbound field&#39;s expression, use the <a href="../../expression-editor.html">Expression Editor</a>. Select the <strong>Expression Editor</strong> menu command to invoke it. </p>
+<p>Expressions allow you to calculate values based on values of other fields. </p>
 <p><img src="../../../images/img118797.png" alt="_EU_ExpressionEditorInvoking"></p>
+<p>An expression is a string that, when parsed and processed, evaluates a value. Expressions consist of field names, constants, operators, and functions. Field names must be wrapped in brackets. Here are examples of expressions:</p>
+<p><em>&quot;[Quantity] * [UnitPrice] * (1 - [BonusAmount])&quot;</em></p>
+<p><em>&quot;[FirstName] + &#39; &#39; + [LastName]&quot;</em></p>
+<p><em>&quot;[Country] == &#39;USA&#39;&quot;</em></p>
+<p><em>&quot;[OrderDate] &gt; #8/16/1994# AND [Quantity] &gt; 20&quot;</em></p>
+<p>For more information about syntax you can use in expressions, see <a href="pivot-grid-expression-syntax.html">Pivot Grid Expression Syntax</a>.</p>
 </article>
           </div>
           
@@ -79,7 +86,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/19.1/interface-elements-for-desktop/articles/pivot-table/data-editing/edit-unbound-expression.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/19.2/interface-elements-for-desktop/articles/pivot-table/data-editing/edit-unbound-expression.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

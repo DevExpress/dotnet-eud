@@ -69,21 +69,24 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="protect-and-unprotect-a-document">Protect and Unprotect a Document</h1>
 
-<h2 id="a-nameprotectdocumentadd-protection-to-a-document"><a name="protectdocument"></a>Add Protection to a Document</h2>
-<p>To protect a document by specifying a password, follow the steps below.</p>
+<h2 id="protect-a-document">Protect a Document</h2>
+<p>Follow the steps below to protect a document with a password.</p>
 <ol>
-<li><p>On the <strong>Review</strong> <a href="../text-editor-ui/ribbon-interface.html">tab</a>, in the <strong>Protect</strong> group, click the <strong>Protect Document</strong> button .</p>
+<li><p>On the <strong>Review</strong> <a href="../text-editor-ui/ribbon-interface.html">tab</a>, in the <strong>Protect</strong> group, click the <strong>Protect Document</strong> button.</p>
 <p> <img src="../../../images/img121364.png" alt="RTEProtectDocumentRibbonMenu"></p>
 </li>
-<li><p>In the invoked <strong>Start Enforcing Protection</strong> dialog, specify a password to restrict people from editing a document. To do this, type a password in the <strong>Enter new password (optional)</strong> box and confirm it in the <strong>Reenter password to confirm</strong> box.</p>
+<li><p>Specify a protection type in the invoked <strong>Document Protection</strong> dialog. Select <strong>No changes (Read-only)</strong> to restrict all actions, <strong>Comments</strong> - to allow leaving comments only, <strong>Tracked Changes</strong> - to prevent other users from creating untracked changes.</p>
+<p> <img src="../../../images/img121365_1.png" alt="DocumentProtectionTypes"></p>
+</li>
+<li><p>Type a password in the <strong>Enter new password (optional)</strong> box and confirm it in the <strong>Reenter password to confirm</strong> box.</p>
 <p> <img src="../../../images/img121365.png" alt="RTEProtectionPassword"></p>
 </li>
 </ol>
-<p>You can also <a href="#giveuserspermissiontoeditcertainparts">allow particular users to change certain parts of a document</a>.</p>
-<h2 id="a-namegiveuserspermissiontoeditcertainpartsgive-users-permission-to-edit-certain-parts-of-a-document"><a name="giveuserspermissiontoeditcertainparts"></a>Give Users Permission to Edit Certain Parts of a Document</h2>
-<p>Before <a href="#protectdocument">adding protection</a> to a document, you can specify certain parts of the document where you want to remove the restriction and allow a particular user or group of users to modify these parts.</p>
+<p>You can also <a href="#give-users-permission-to-edit-certain-document-parts">allow particular users to change certain parts of a document</a>.</p>
+<h2 id="give-users-permission-to-edit-certain-document-parts">Give Users Permission to Edit Certain Document Parts</h2>
+<p>Before <a href="#protect-a-document">adding protection</a> to a document, you can specify certain parts of the document where you want to remove the restriction and allow a particular user or group of users to modify these parts.</p>
 <ol>
-<li><a href="../text-editing/select-text.html">Select a part of a document</a> to be unrestricted.</li>
+<li><a href="../text-editing/select-text.html">Select a part of a document</a> to be available.</li>
 <li><p>On the <strong>Review</strong> <a href="../text-editor-ui/ribbon-interface.html">tab</a>, in the <strong>Protect</strong> group, click the <strong>Range Editing Permissions</strong> button.</p>
 <p> <img src="../../../images/img121366.png" alt="RTEProtectionRangeEdiingPermissionsButton"></p>
 </li>
@@ -94,10 +97,9 @@
 <p> <img src="../../../images/img121368.png" alt="RTEProtectionHighlighted"></p>
 </li>
 <li>Continue to select the document regions and give users permission to edit them.</li>
-<li>After specifying all required unrestricted parts of a document, <a href="#protectdocument">add protection</a>.</li>
+<li>After specifying all required parts, <a href="#protect-a-document">enable protection</a>.</li>
 </ol>
 <h2 id="remove-protection-from-a-document">Remove Protection from a Document</h2>
-<p>You can unprotect a document, if you know the password for removing document protection.</p>
 <ol>
 <li><p>On the <strong>Review</strong> <a href="../text-editor-ui/ribbon-interface.html">tab</a>, in the <strong>Protect</strong> group, click the <strong>Unprotect Document</strong> button.</p>
 <p> <img src="../../../images/img121369.png" alt="RTEProtectUnprotectButton"></p>
@@ -114,7 +116,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/19.1/interface-elements-for-desktop/articles/rich-text-editor/document-protection/protect-and-unprotect-a-document.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/19.2/interface-elements-for-desktop/articles/rich-text-editor/document-protection/protect-and-unprotect-a-document.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

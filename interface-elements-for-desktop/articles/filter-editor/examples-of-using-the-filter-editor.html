@@ -79,16 +79,12 @@
 <p> <img src="../../images/img7312.png" alt="FilterEditor_SimpleCondt_Invoke"></p>
 <p> To learn how to invoke the Filter Editor for other controls, see corresponding sections in this documentation.</p>
 </li>
-<li><p><strong>The Filter Editor will pop up.</strong></p>
-<p> When invoking the Filter Editor for a grid control, if no filtering has yet been applied, the Filter Editor will contain a new filter condition referring to the clicked column. If, for example, the Filter Editor has been opened by right-clicking a Product Name column, it will look like the image below:</p>
+<li><p><strong>Select a column</strong>.</p>
+<p> To filter against the Discount column, click the column name field. This will display the list of available columns. Select the Discount column in this list:</p>
 <p> <img src="../../images/img7314.png" alt="FilterEditor_SimpleCondt_NewConditionForProductName"></p>
 </li>
-<li><p><strong>Select a column</strong>.</p>
-<p> Now, to filter against the Discount column, click the condition&#39;s link displaying a column name (&#39;Product Name&#39;). This will display the list of available columns. Select the Discount column in this list:</p>
-<p> <img src="../../images/img7315.png" alt="FilterEditor_SimpleCondt_SwitchProductNameToDiscount"></p>
-</li>
 <li><p><strong>Select a comparison operator</strong>.</p>
-<p> To select the &#39;&gt;=&#39; comparison operator, click the condition&#39;s operator link (&#39;Equals&#39;) to display the list of supported comparison operators and select the required operator:</p>
+<p> Click the operator field to choose the required operator.</p>
 <p> <img src="../../images/img7316.png" alt="FilterEditor_SimpleCondt_SwitchOperators"></p>
 <p> The comparison operator list displays only those operators that are supported by the current column&#39;s data type. For instance, the Discount column is of the numeric type, and the operator list doesn&#39;t display the &#39;Begins with&#39; operator and other operators that are related to strings.</p>
 </li>
@@ -111,15 +107,13 @@
 <li><p>Set the condition&#39;s operator to Equals and operand value to &#39;Tofu&#39; (as described in the previous section):</p>
 <p> <img src="../../images/img7329.png" alt="FilterEditor_3Cond_FirstCondt"></p>
 </li>
-<li><p>To add one more condition, press the <img src="../../images/img7350.png" alt="FilterEditor_EU_AddButton"> button next to the group&#39;s AND operator:</p>
+<li><p>To add one more condition, press the <img src="../../images/img7350.png" alt="FilterEditor_EU_AddButton"> button next to the group&#39;s AND operator. This will create a new condition under the current one:</p>
 <p> <img src="../../images/img7330.png" alt="FilterEditor_3Cond_AddSecondCondt"></p>
-<p> This will create a new condition under the current one:</p>
-<p> <img src="../../images/img7331.png" alt="FilterEditor_3Cond_SecondIncompleteCondt"></p>
 </li>
-<li><p>For the second condition, set the column to &#39;Discount&#39;, operator to &#39;&gt;=&#39; and operand value to &#39;0.1&#39;:</p>
+<li><p>For the second condition, set the column to &#39;Unit Price&#39;, operator to &#39;&gt;=&#39; and operand value to &#39;100&#39;:</p>
 <p> <img src="../../images/img7332.png" alt="FilterEditor_3Cond_SecondCondt"></p>
 </li>
-<li><p>To add a third condition to the same group, click the <img src="../../images/img7350.png" alt="FilterEditor_EU_AddButton"> button again. Set the condition&#39;s column to &#39;Quantity&#39;, operator to &#39;&gt;&#39; and operand value to &#39;99&#39;. Below is the result:</p>
+<li><p>To add a third condition to the same group, click the <img src="../../images/img7350.png" alt="FilterEditor_EU_AddButton"> button again. Set the condition&#39;s column to &#39;Units in Stock&#39;, operator to &#39;&gt;&#39; and operand value to &#39;50&#39;. Below is the result:</p>
 <p> <img src="../../images/img7327.png" alt="FilterEditor_3Cond_Final"></p>
 </li>
 <li>Click OK or Apply, to apply the created filter criteria.</li>
@@ -155,10 +149,7 @@
 <li><p>For the condition within the created group, set the column to &#39;UnitPrice&#39;, operator to &#39;&gt;&#39; and operand value to &#39;10&#39;:</p>
 <p> <img src="../../images/img7407.png" alt="FilterEditor_4Cond_2CondtGroup_1Condt"></p>
 </li>
-<li><p>Click the <img src="../../images/img7350.png" alt="FilterEditor_EU_AddButton"> button to add a new condition to the new group:</p>
-<p><img src="../../images/img7408.png" alt="FilterEditor_4Cond_2CondtGroup_AddNewCondt"></p>
-</li>
-<li><p>For the new condition, set the column to &#39;Quantity&#39;, operator to &#39;&gt;&#39; and operand value to &#39;10&#39;:</p>
+<li><p>Click the <img src="../../images/img7350.png" alt="FilterEditor_EU_AddButton"> button to add a new condition to the new group. For the new condition, set the column to &#39;Quantity&#39;, operator to &#39;&gt;&#39; and operand value to &#39;10&#39;:</p>
 <p><img src="../../images/img7410.png" alt="FilterEditor_4Cond_2CondtGroup_2Condt"></p>
 </li>
 <li>Click OK or Apply, to apply the created filter criteria.</li>
@@ -171,7 +162,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/19.1/interface-elements-for-desktop/articles/filter-editor/examples-of-using-the-filter-editor.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/19.2/interface-elements-for-desktop/articles/filter-editor/examples-of-using-the-filter-editor.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

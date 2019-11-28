@@ -120,14 +120,14 @@
 <h2 id="create-band-copies">Create Band Copies</h2>
 <p>You can create functional copies of a band, for example, to display different contents based on a specific condition. To do this, add <strong>sub-bands</strong> to bands.</p>
 <p><img src="../../../images/eurd-win-report-bands-basic-layout-sub-bands.png" alt="eurd-win-report-bands-basic-layout-sub-bands"></p>
-<div class="TIP"><h5>Tip</h5><p>See <a href="shape-report-data/lay-out-dynamic-report-content.html">Laying out Dynamic Report Contents</a> for details on how to specify the location of bands&#39; content on document pages.</p>
+<div class="TIP"><h5>Tip</h5><p>See <a href="lay-out-dynamic-report-content.html">Lay out Dynamic Report Content</a> for details on how to specify the location of bands&#39; content on document pages.</p>
 </div>
 <h2 id="managingreportbands">Manage Report Bands</h2>
 <h3 id="hide-bands-in-the-report-designer">Hide Bands in the Report Designer</h3>
 <p>Click the arrow button on the band&#39;s title to collapse or expand the band.</p>
 <p><img src="../../../images/eurd-win-report-bands-collapsing.png" alt="eurd-win-report-bands-collapsing"></p>
 <h3 id="hide-bands-in-the-report-document">Hide Bands in the Report Document</h3>
-<p>You can avoid printing a band&#39;s content in a document. To do this, set the band&#39;s <strong>Height</strong> property to a zero or disable its <strong>Visible</strong> property. Select the band and set these properties in the <a href="report-designer-tools/ui-panels/property-grid.html">Property Grid</a>.</p>
+<p>You can avoid printing band content in a document. To do this, select the band and set the band&#39;s <strong>Height</strong> property to zero or disable its <strong>Visible</strong> property in the <a href="report-designer-tools/ui-panels/property-grid.html">Property Grid</a>.</p>
 <p><img src="../../../images/eurd-win-band-properties-in-property-grid.png" alt="eurd-win-band-properties-in-property-grid"></p>
 <h3 id="remove-bands">Remove Bands</h3>
 <p>Select a band on the report design surface and press DELETE. This removes the band and all its content.</p>
@@ -141,6 +141,40 @@
 <p><img src="../../../images/eurd-win-report-bands-collection-report-smart-tag.png" alt="eurd-win-report-bands-collection-report-smart-tag"></p>
 <p>This command is also available in a band&#39;s context and smart tag menus.</p>
 <p><img src="../../../images/eurd-win-report-bands-collection-band-smart-tag.png" alt="eurd-win-report-bands-collection-band-smart-tag"></p>
+<p>The invoked editor allows you to reorder bands and change their properties.</p>
+<p><img src="../../../images/eurd-win-report-bands-collection-band-editor.png" alt="report-bands-collection-band-smart-tag"></p>
+<p>Alternatively, use the <a href="report-designer-tools/ui-panels/report-explorer.html">Report Explorer</a> to edit and reorder bands. Select a band and edit its properties in the <strong>Property Grid</strong>.</p>
+<p><img src="../../../images/eurd-win-report-explorer-edit-band.gif" alt="report-explorer-edit-band"></p>
+<p>Drag a band to change its order or move inside/outside of another band. The drop targets are highlighted when you drag a band over them.</p>
+<p><img src="../../../images/eurd-win-report-explorer-drag-band.gif" alt="report-explorer-drag-band"></p>
+<p>You can drag bands to the following targets:</p>
+<table>
+<thead>
+<tr>
+<th>Dragged Band</th>
+<th>Drop Targets</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>SubBand</strong></td>
+<td>All bands except <strong>TopMargin</strong> and <strong>BottomMargin</strong></td>
+</tr>
+<tr>
+<td><strong>GroupHeader</strong>, <strong>GroupFooter</strong></td>
+<td><strong>XtraReport</strong> (root node), <strong>DetailReport</strong></td>
+</tr>
+<tr>
+<td><strong>DetailReport</strong></td>
+<td><strong>XtraReport</strong> (root node), <strong>DetailReport</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="apply-styles-to-bands">Apply Styles to Bands</h2>
+<p>Select a band and switch to the <strong>Property Grid</strong>. Expand the <strong>Styles</strong> group and set the <strong>Style</strong> property to the style name.</p>
+<p><img src="../../../images/eurd-win-select-style-band.png" alt="design-time-select-style"></p>
+<p>As an alternative, you can drag a style from the <a href="report-designer-tools/ui-panels/report-explorer.html">Report Explorer</a> onto a band. This is applicable to all bands except <strong>DetailReport</strong>.</p>
+<p><img src="../../../images/eurd-win-drag-style-band.gif" alt="design-time-drag-style"></p>
 </article>
           </div>
           
@@ -149,7 +183,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/19.1/interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/introduction-to-banded-reports.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/19.2/interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/introduction-to-banded-reports.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

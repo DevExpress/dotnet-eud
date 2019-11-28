@@ -278,7 +278,7 @@
 </tbody>
 </table>
 <h2 id="functions">Functions</h2>
-<p><strong>Aggregate Functions</strong></p>
+<p><strong>Advanced Functions - Intermediate Aggregation Level</strong></p>
 <table>
 <thead>
 <tr>
@@ -289,10 +289,47 @@
 </thead>
 <tbody>
 <tr>
-<td>Aggr(SummaryExpression, Dimensions)</td>
-<td>Aggregates underlying data using the detail level specified by a predefined set of dimensions and a specified summary function.</td>
-<td>Aggr(Sum([Sales]), [Category], [Product])</td>
+<td>aggr(SummaryExpression, Dimensions)</td>
+<td>Uses the detail level specified by a predefined set of dimensions and a specified summary function to aggregate underlying data.</td>
+<td>aggr(Sum([Sales]), [Category], [Product])</td>
 </tr>
+<tr>
+<td>w(WindowExpression, partitionByFunction, orderByFunction)</td>
+<td>Calculates aggregated values with the specified window function for the window defined by the specified partitioning and ordering.</td>
+<td>w(RankDense(Sum([ProductSales]), &#39;desc&#39;), partitionBy([CategoryName]), orderBy())</td>
+</tr>
+<tr>
+<td>partitionBy(column1, column2, ...)</td>
+<td>Specifies the columns by which the data rows are partitioned. The window function is applied to each partition separately. The <em>partitionBy</em> function can be used only as a <em>w function</em> argument.</td>
+<td>partitionBy([Product])</td>
+</tr>
+<tr>
+<td>orderBy(column1, column2, ...)</td>
+<td>Specifies the logical order in which the window function calculation is performed on the rows in the window. The <em>orderBy</em> function can be used only as a <em>w function</em> argument.</td>
+<td>orderBy(GetYear([Date]), desc(Sum([Sales])))</td>
+</tr>
+<tr>
+<td>asc(column)</td>
+<td>Specifies that the values in the specified column are sorted in ascending order. This is the default sort order. The <em>asc</em> function can be used only as a <em>w function</em> argument.</td>
+<td>asc(Sum([Sales]))</td>
+</tr>
+<tr>
+<td>desc(column)</td>
+<td>Specifies that the values in the specified column are sorted in descending order. The <em>desc</em> function can be used only as a <em>w function</em> argument.</td>
+<td>desc(Sum([Sales]))</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Aggregate Functions</strong></p>
+<table>
+<thead>
+<tr>
+<th>Function</th>
+<th>Description</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
 <tr>
 <td>Avg(Value)</td>
 <td>Returns the average of all the values in the expression.</td>
@@ -1380,7 +1417,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/19.1/dashboard-for-web/articles/web-dashboard-designer-mode/data-analysis/expression-constants-operators-and-functions.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/19.2/dashboard-for-web/articles/web-dashboard-designer-mode/data-analysis/expression-constants-operators-and-functions.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

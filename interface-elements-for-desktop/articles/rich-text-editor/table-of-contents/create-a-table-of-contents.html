@@ -69,21 +69,19 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="create-a-table-of-contents">Create a Table of Contents</h1>
 
-<h2 id="a-nameheadingstylescreate-a-toc-using-built-in-heading-styles"><a name="headingstyles"></a>Create a TOC Using Built-In Heading Styles</h2>
+<h2 id="create-a-toc-using-built-in-heading-styles">Create a TOC Using Built-In Heading Styles</h2>
 <p>The easiest way to create a TOC is to use built-in heading styles.</p>
-<ul>
-<li><p><strong>Mark TOC Entries</strong></p>
+<h3 id="mark-toc-entries">Mark TOC Entries</h3>
 <ol>
 <li>Select the text (heading) that you want to appear in a TOC.</li>
 <li><p>Click the <strong>Add Text</strong> button on the <strong>References</strong> <a href="../text-editor-ui/ribbon-interface.html">tab</a> and then select the required level (for example, if you want the selected text to be displayed as the main heading in the TOC, click Level 1, etc.). If you change your mind and decide not to include the selected text in the TOC, click <strong>Do Not Show in Table of Contents</strong>.</p>
-<p> <img src="../../../images/img121389.png" alt="RTE_TOC_AddTextButton"></p>
+<p> [<img src="../../../images/img121389.png" alt="RTE_TOC_AddTextButton"></p>
 <p> After you have applied levels in a newly created document once or if you have opened a document with specified TOC entires by using heading styles, the corresponding heading styles (Heading 1, Heading 2, etc.) are automatically added to the list of available styles accessed via the <strong>Styles</strong> page group. In this case you can mark TOC entries by choosing these heading styles.</p>
 <p> <img src="../../../images/img121390.png" alt="RTETOCHeadingStyles"></p>
 </li>
 </ol>
-</li>
-<li><p><strong>Build a TOC</strong></p>
-<p>  After you have specified all required TOC entries, everything is ready to generate a TOC.</p>
+<h3 id="build-a-toc">Build a TOC</h3>
+<p>After you have specified all required TOC entries, everything is ready to generate a TOC.</p>
 <ol>
 <li>Click within the document where you want to insert a TOC.</li>
 <li><p>In the <strong>Table of Contents</strong> group, click <strong>Table of Contents</strong>.</p>
@@ -92,12 +90,9 @@
 <p> If you click the <strong>Show All Field Codes</strong> button on the <strong>Mail Merge</strong> toolbar, you will see the TOC field code. By default, it is { TOC \h }. The \h switch inserts all TOC entires as hyperlinks.</p>
 </li>
 </ol>
-</li>
-</ul>
-<h2 id="a-nameoutlinelevelscreate-a-toc-using-paragraph-outline-levels"><a name="outlinelevels"></a>Create a TOC Using Paragraph Outline Levels</h2>
-<p>If you wish to include some text in a TOC without changing the text appearance, you can use outline levels. Unlike <a href="#headingstyles">heading styles</a>, outline levels applied to text do not affect text formatting characteristics.</p>
-<ul>
-<li><p><strong>Mark TOC Entries</strong></p>
+<h2 id="create-a-toc-using-paragraph-outline-levels">Create a TOC Using Paragraph Outline Levels</h2>
+<p>If you wish to include some text in a TOC without changing the text appearance, you can use outline levels. Unlike <a href="#create-a-toc-using-built-in-heading-styles">heading styles</a>, outline levels applied to text do not affect text formatting characteristics.</p>
+<h3 id="mark-toc-entries-1">Mark TOC Entries</h3>
 <ol>
 <li>Select the text that you wish to appear in the TOC.</li>
 <li>Right-click the selected text and choose <strong>Paragraph</strong> from the context menu. The <strong>Paragraph</strong> dialog will invoked.</li>
@@ -105,21 +100,17 @@
 <p> <img src="../../../images/img121392.png" alt="RTE_TOC_ParagraphDialog"></p>
 </li>
 </ol>
-</li>
-<li><p><strong>Build a TOC</strong></p>
-<p>  After you have specified all required TOC entries, everything is ready to generate a TOC.</p>
+<h3 id="build-a-toc-1">Build a TOC</h3>
+<p>After you have specified all required TOC entries, everything is ready to generate a TOC.</p>
 <ol>
 <li>Click within the document where you want to insert a TOC.</li>
 <li>Press <strong>CTRL+F9</strong> to create an empty field wherein you can manually enter a field code to insert a TOC.</li>
 <li>In this field, write the <em>{ TOC \u }</em> field code. Use the <em>\u</em> switch to include text marked with outline levels in the TOC.</li>
 <li>To show the result TOC, place the cursor in the TOC field, right-click it and select the <strong>Update Field</strong> item from the context menu, or click the <strong>Update Table</strong> button on the <strong>References</strong> <a href="../text-editor-ui/ribbon-interface.html">tab</a>.</li>
 </ol>
-</li>
-</ul>
 <h2 id="create-a-toc-using-fields">Create a TOC Using Fields</h2>
-<p>Along with <a href="#headingstyles">built-in heading styles</a> and <a href="#outlinelevels">outline levels</a>, there is another way to label text to include it in a TOC - via TC fields. Sometimes it can be quicker and easier to add TC fields to mark TOC entries, rather than format the document using heading styles or outline levels. TC fields can be also helpful if you want to capture a portion of a long heading that should not be entirely included in the TOC and include only that portion in the TOC. In addition, if your document needs two or more TOCs showing different entries, you can mark entries for a particular TOC using TC fields with an identifier, which is specific for each TOC.</p>
-<ul>
-<li><p><strong>Mark TOC Entries</strong></p>
+<p>Along with <a href="#create-a-toc-using-built-in-heading-styles">built-in heading styles</a> and <a href="#create-a-toc-using-paragraph-outline-levels">outline levels</a>, there is another way to label text to include it in a TOC - via TC fields. Sometimes it can be quicker and easier to add TC fields to mark TOC entries, rather than format the document using heading styles or outline levels. TC fields can be also helpful if you want to capture a portion of a long heading that should not be entirely included in the TOC and include only that portion in the TOC. In addition, if your document needs two or more TOCs showing different entries, you can mark entries for a particular TOC using TC fields with an identifier, which is specific for each TOC.</p>
+<h3 id="mark-toc-entries-2">Mark TOC Entries</h3>
 <ol>
 <li>Click within a document where you want to add a TC field (for example, right below an abstract heading).</li>
 <li>Press <strong>CTRL+F9</strong> to create an empty field wherein you can manually enter a field code (TC in this case) and set required switches.</li>
@@ -131,8 +122,7 @@
 <p> <img src="../../../images/img121393.png" alt="RTE_TOC_ShowAllFieldCodes"></p>
 </li>
 </ol>
-</li>
-<li><p><strong>Build a TOC</strong></p>
+<h3 id="build-a-toc-2">Build a TOC</h3>
 <ol>
 <li>Click within the document where you want to insert a TOC.</li>
 <li>Press <strong>CTRL+F9</strong> to create an empty field wherein you can manually enter a field code to insert a TOC.</li>
@@ -142,8 +132,6 @@
 </li>
 <li>To show the resulting TOC, place the cursor in the TOC field, right-click it and select the <strong>Update Field</strong> item from the context menu, or click the <strong>Update Table</strong> button on the <strong>References</strong> ribbon tab.</li>
 </ol>
-</li>
-</ul>
 </article>
           </div>
           
@@ -152,7 +140,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/19.1/interface-elements-for-desktop/articles/rich-text-editor/table-of-contents/create-a-table-of-contents.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/19.2/interface-elements-for-desktop/articles/rich-text-editor/table-of-contents/create-a-table-of-contents.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

@@ -69,9 +69,12 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="report-explorer">Report Explorer</h1>
 
-<p>The <strong>Report Explorer</strong> shows a report&#39;s structure in a tree-like form providing easy access to report elements. Additionally, the <strong>Report Explorer</strong> contains the <strong>Components</strong> node, which displays non-visual report components, such as data objects created when binding a report to a data source.</p>
+<p>The <strong>Report Explorer</strong> panel shows a report&#39;s structure and provides access to report elements, styles, and components.</p>
 <p><img src="../../../../images/eurd-web-report-explorer.png" alt=""></p>
-<p>The following actions are available for report element customization:</p>
+<h2 id="manage-report-elements">Manage Report Elements</h2>
+<p>Report Explorer displays all <a href="../../use-report-elements.html">report controls</a> and <a href="../../introduction-to-banded-reports.html">bands</a> in a tree-like form.</p>
+<p><img src="../../../../images/eurd-web-report-explorer-label.png" alt=""></p>
+<p>The following actions are available to customize report elements:</p>
 <table>
 <thead>
 <tr>
@@ -86,22 +89,31 @@
 </tr>
 <tr>
 <td><img src="../../../../images/eurd-web-fieldlist-data-source-delete.png" alt=""></td>
-<td>Removes the selected report element. This button is not available for the <strong>Detail</strong>, <strong>TopMargin</strong>, and <strong>BottomMargin</strong> bands.</td>
+<td>Deletes the selected report element. Note that this button is not available for the <strong>Detail</strong>, <strong>Top Margin</strong>, and <strong>Bottom Margin</strong> bands.</td>
 </tr>
 </tbody>
 </table>
-<p>You can use drag-and-drop operations to do the following in the Report Explorer:</p>
+<p>You can use drag-and-drop for the following operations:</p>
 <ul>
-<li><p>Reorder report controls and specific bands.</p>
+<li><p>Reorder report controls, or move them from one band to another.</p>
 <p>  <img src="../../../../images/eurd-web-report-explorer-reorder-report-controls.png" alt=""></p>
 </li>
-<li><p>Move report controls between bands and containers.</p>
-<p>  <img src="../../../../images/eurd-web-report-explorer-move-report-controls.png" alt=""> <img src="../../../../images/eurd-web-report-explorer-move-report-controls-panel.png" alt=""></p>
+<li><p>Reorder <strong>Detail Report</strong> bands, or move them inside / outside other bands.</p>
+<p>  <img src="../../../../images/eurd-web-report-explorer-move-report-controls-panel.png" alt=""></p>
+</li>
+<li><p>Reorder <strong>Group Header</strong> and <strong>Group Footer</strong> bands.</p>
+<p>  <img src="../../../../images/eurd-web-report-explorer-move-group-bands.png" alt=""></p>
+</li>
+<li><p>Reorder table cells, or move them between table rows. Reorder table rows.  </p>
+<p>  <img src="../../../../images/eurd-web-report-explorer-move-table-cells.png" alt=""></p>
 </li>
 </ul>
-<p>The <strong>Report Explorer</strong> also provides quick access to all <a href="../../customize-appearance/report-visual-styles.html">styles</a> available for a report. </p>
+<p>An acceptable drop target is highlighted in green when you drag an item over it. An unacceptable target is highlighted in red.</p>
+<h2 id="manage-report-styles">Manage Report Styles</h2>
+<p>Expand the <strong>Styles</strong> category in Report Explorer to access the <a href="../../customize-appearance/report-visual-styles.html">report style</a> collection.</p>
+<p>To apply a style to a report control, drag a style item from Report Explorer onto this control.</p>
 <p><img src="../../../../images/eurd-web-report-explorer-styles.png" alt=""></p>
-<p>You can manage styles using the following commands.</p>
+<p>You can use the following actions to customize report styles:</p>
 <table>
 <thead>
 <tr>
@@ -120,12 +132,32 @@
 </tr>
 <tr>
 <td><img src="../../../../images/eurd-web-fieldlist-data-source-delete.png" alt=""></td>
-<td>Removes the selected style.</td>
+<td>Deletes the selected style.</td>
 </tr>
 </tbody>
 </table>
-<p>To apply a style to a report control, drag it from the Report Explorer onto the required report control.</p>
-<p><img src="../../../../images/eurd-web-report-explorer-apply-style.png" alt=""></p>
+<h2 id="manage-components">Manage Components</h2>
+<p>The Report Explorer shows available report data sources in the <strong>Components</strong> category. This list is synchronized with data sources from the <a href="field-list.html">Field List</a> panel.</p>
+<p><img src="../../../../images/eurd-web-report-explorer-components.png" alt="web-report-explorer-components"></p>
+<p>The following actions are available to customize data sources:</p>
+<table>
+<thead>
+<tr>
+<th>Button</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="../../../../images/eurd-web-fieldlist-data-source-delete.png" alt=""></td>
+<td>Deletes the selected data source.</td>
+</tr>
+<tr>
+<td><img src="../../../../images/eurd-web-fieldlist-data-source-edit-relationships.png" alt=""></td>
+<td>Switches to the <a href="properties-panel.html">Properties Panel</a> where you can rename the selected data source. <img src="../../../../images/web-report-explorer-rename-datasource.png" alt="web-report-explorer-rename-datasource"></td>
+</tr>
+</tbody>
+</table>
 </article>
           </div>
           
@@ -134,7 +166,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/19.1/interface-elements-for-web/articles/report-designer/report-designer-tools/ui-panels/report-explorer.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/19.2/interface-elements-for-web/articles/report-designer/report-designer-tools/ui-panels/report-explorer.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

@@ -74,10 +74,16 @@
 <ul>
 <li><a href="#sql-data-source">SQL Data Source</a></li>
 <li><a href="#olap-data-source">OLAP Data Source</a></li>
-<li><a href="#microsoft-excel-workbooks/csv-files">Microsoft Excel Workbooks/CSV Files</a></li>
+<li><a href="#microsoft-excel-workbookscsv-files">Microsoft Excel Workbooks/CSV Files</a></li>
+<li><a href="#json-data-source">JSON Data Source</a></li>
+<li><a href="#xpo-data-source">XPO Data Source</a></li>
+<li><a href="#extract-data-source">Extract Data Source</a></li>
+<li><a href="#object-data-source">Object Data Source</a></li>
+<li><a href="#entity-framework-data-source">Entity Framework Data Source</a></li>
+<li><a href="#federated-data-source">Federated Data Source</a> </li>
 </ul>
-<h2 id="a-namesql-data-sourcesql-data-source"><a name="sql-data-source"></a>SQL Data Source</h2>
-<p>To connect to various SQL databases, the Dashboard Designer requires corresponding providers to be installed on the client machine. The table below lists the supported data sources and the required data providers.</p>
+<h2 id="sql-data-source">SQL Data Source</h2>
+<p>To connect to various SQL databases, the Dashboard Designer requires corresponding providers to be installed on your machine. The table below lists the supported data sources and the required data providers.</p>
 <table>
 <thead>
 <tr>
@@ -217,8 +223,10 @@
 </tr>
 </tbody>
 </table>
-<h2 id="a-nameolap-data-sourceolap-data-source"><a name="olap-data-source"></a>OLAP Data Source</h2>
-<p>To use the OLAP data source, the Dashboard Designer requires Microsoft Analysis Services OLE DB and Microsoft ADOMD.NET providers to be installed on the client machine. To learn more, see <a href="https://msdn.microsoft.com/en-us/library/dn141152.aspx#bkmk_OLE">Data providers used for Analysis Services connections</a>.</p>
+<p>To create a connection to a SQL data source, see <a href="connecting-to-sql-databases.html">Binding to SQL databases</a>.</p>
+<p>To create </p>
+<h2 id="olap-data-source">OLAP Data Source</h2>
+<p>To use the OLAP data source, the Dashboard Designer requires Microsoft Analysis Services OLE DB and Microsoft ADOMD.NET providers to be installed on your machine. To learn more, see <a href="https://msdn.microsoft.com/en-us/library/dn141152.aspx#bkmk_OLE">Data providers used for Analysis Services connections</a>.</p>
 <p>The following OLAP servers are supported.</p>
 <ul>
 <li>Microsoft SQL Server 2000 Analysis Services</li>
@@ -229,7 +237,8 @@
 <li>Microsoft SQL Server 2014 Analysis Services (Multi-dimensional mode)</li>
 <li>Microsoft SQL Server 2016 Analysis Services (Multi-dimensional mode)</li>
 </ul>
-<h2 id="a-namemicrosoft-excel-workbookscsv-filesmicrosoft-excel-workbookscsv-files"><a name="microsoft-excel-workbooks/csv-files"></a>Microsoft Excel Workbooks/CSV Files</h2>
+<p>To create a connection to an OLAP cube data source, see <a href="connecting-to-olap-cubes.html">Binding to OLAP cubes</a>.</p>
+<h2 id="microsoft-excel-workbookscsv-files">Microsoft Excel Workbooks/CSV Files</h2>
 <p>The following Microsoft Excel/text formats are supported.</p>
 <ul>
 <li>XLS</li>
@@ -237,6 +246,40 @@
 <li>XLSM</li>
 <li>CSV</li>
 </ul>
+<p>To create a connection to Microsoft Excel workbooks or CSV files, see <a href="binding-to-microsoft-excel-workbooks.html">Binding to Microsoft Excel Workbooks</a>.</p>
+<h2 id="json-data-source">JSON Data Source</h2>
+<p>The JSON data source retrieves data from:</p>
+<ul>
+<li>Web-service endpoint</li>
+<li>text file</li>
+<li>string</li>
+</ul>
+<p>To create a JSON data source and specify connection parameters in the <strong>Data Source Wizard</strong>, see <a href="binding-to-json-data-sources.html">Binding to JSON Data Sources</a>.</p>
+<h2 id="xpo-data-source">XPO Data Source</h2>
+<p>The XPO data source gets data from <strong>eXpress Persistent Objects</strong>.
+To create an XPO data source and specify connection parameters, see <a href="binding-to-XPO-data-sources.html">Binding to XPO Data Sources</a>.</p>
+<h2 id="extract-data-source">Extract Data Source</h2>
+<p><strong>Extract Data Source</strong> is a compressed snapshot of data from a regular data source.
+This data is saved to a local file and can be updated from the original data source at any time.</p>
+<p> <img src="../../../images/extract-data-source.png" alt="Extract data source"></p>
+<p> The extract data file is optimized for data grouping. It reduces the initial dashboard load time.
+ A special in-memory cache allows you to improve performance when accessing extract data. </p>
+<p> To create an Extract data source and specify connection parameters, see <a href="binding-to-extract-data-sources.html">Binding to Extract Data Sources</a>.</p>
+<h2 id="object-data-source">Object Data Source</h2>
+<p>The Dashboard Designer provides a connection to an object data source defined in a separate class within a current project.</p>
+<p>To create a connection to an Object data source, see <a href="binding-to-object-data-sources.html">Binding to Object Data Sources</a>.</p>
+<h2 id="entity-framework-data-source">Entity Framework Data Source</h2>
+<p>Use the available data context to connect to EF data source. </p>
+<p>To create a connection to an EF data source, see <a href="connect-to-ef-data-sources.html">Connect to EF Data Sources</a>.</p>
+<h2 id="federated-data-source">Federated Data Source</h2>
+<p> A federated data source integrates different data sources and provides uniform data access with a federated query.</p>
+<p> Federated data source supports the following data source types:</p>
+<ul>
+<li><a href="#sql-data-source">SQL Data Source</a></li>
+<li><a href="#microsoft-excel-workbookscsv-files">Excel Data Source</a></li>
+<li><a href="#object-data-source">Object Data Source</a></li>
+</ul>
+<p>To create a Federated data source with the <strong>Data Source Wizard</strong>, see <a href="binding-to-federated-data-source.html">Binding to Federated Data Source</a>.</p>
 </article>
           </div>
           
@@ -245,7 +288,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/19.1/dashboard-for-desktop/articles/dashboard-designer/providing-data/supported-data-sources.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/19.2/dashboard-for-desktop/articles/dashboard-designer/providing-data/supported-data-sources.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>
