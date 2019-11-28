@@ -9,17 +9,21 @@ This tutorial illustrates how to bind a report to a database and specify a maste
 ## Add a New Data Source
 
 1. [Create a new blank report](../../report-designer/add-new-reports.md).
-2. Invoke the designer [menu](../report-designer-tools/menu.md) and click **Add Data Source...**.
+1. Invoke the designer [menu](../report-designer-tools/menu.md) and click **Add Data Source**.
 
    ![](../../../images/eurd-web-data-source-menu.png) 
 
    The menu contains this command if your software vendor provides data connections.
 
-3. Select the data connection on the [Data Source Wizard](../report-designer-tools/data-source-wizard.md)'s first page and click **Next**.
+1. Select **Database** in the invoked Data Source Wizard and click **Next**.
+
+    ![](../../../images/eurd-web-data-source-wizard-select-db.png)
+
+1. Select the data connection on the [Data Source Wizard](../report-designer-tools/data-source-wizard.md)'s first page and click **Next**.
 
     ![](../../../images/eurd-web-data-source-wizard-choose-a-data-connection.png)
 
-4. Choose which tables, views and/or stored procedures to add to a report and click **Next**. Select two or more tables to [create a master-detail report](../create-popular-reports/create-a-master-detail-report-use-detail-report-bands.md).
+1. Choose which tables, views and/or stored procedures to add to a report and click **Next**. Select two or more tables to [create a master-detail report](../create-popular-reports/create-a-master-detail-report-use-detail-report-bands.md).
 
     ![](../../../images/eurd-web-data-source-wizard-create-a-query-automatically.png)
     
@@ -29,7 +33,7 @@ This tutorial illustrates how to bind a report to a database and specify a maste
     > The invoked [Query Builder](../report-designer-tools/query-builder.md) allows you to join multiple tables, filter, sort, and group their data, and calculate various aggregate functions.
       
 
-5. Set master-detail relationships on this wizard page. Hover the master table name, click the plus button and choose the detail table. 
+1. Set master-detail relationships on this wizard page. Hover the master table name, click the plus button and choose the detail table. 
 
     ![](../../../images/eurd-web-binding-data-source-wizard-master-detail-relations.png)
 
