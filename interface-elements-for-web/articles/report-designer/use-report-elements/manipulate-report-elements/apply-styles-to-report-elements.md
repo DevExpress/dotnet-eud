@@ -1,7 +1,7 @@
 ---
 title: Apply Styles to Report Elements
 ---
-# Apply Styles to Report elements
+# Apply Styles to Report Elements
 
 Select a control and switch to the **Properties** window. Expand the **Styles** group and set the **Style** property to the style name.
 
