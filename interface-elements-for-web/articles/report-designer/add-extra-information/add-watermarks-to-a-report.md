@@ -29,6 +29,9 @@ To add a watermark to a report, do the following.
 	
 	Additionally, for both textual and picture watermarks, you can adjust the transparency, position (in front of or behind the document content), and the page range in which the watermark will be printed.
 
+	> [!NOTE]
+	> The **Transparency** property is unavailable when you specify an SVG image.
+
 ## <a name="preprintedform"></a>Supply a Preprinted Form
 You can use a picture watermark as a template, to display an image of the preprinted form on the report's body at design time.
 

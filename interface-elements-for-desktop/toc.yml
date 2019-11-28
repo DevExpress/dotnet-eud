@@ -698,12 +698,12 @@
           href: articles/report-designer/report-designer-for-winforms/use-report-elements/use-cross-tabs/cross-tab-overview.md
         - name: Cross Tab Fields
           href: articles/report-designer/report-designer-for-winforms/use-report-elements/use-cross-tabs/cross-tab-fields.md
-        - name: Shape Data
-          href: articles/report-designer/report-designer-for-winforms/use-report-elements/use-cross-tabs/shape-data.md
+        - name: Data Shaping
+          href: articles/report-designer/report-designer-for-winforms/use-report-elements/use-cross-tabs/data-shaping.md
         - name: Layout and Print Options
           href: articles/report-designer/report-designer-for-winforms/use-report-elements/use-cross-tabs/layout-and-print-options.md
-        - name: Customize Appearance
-          href: articles/report-designer/report-designer-for-winforms/use-report-elements/use-cross-tabs/customize-appearance.md
+        - name: Cross Tab Appearance
+          href: articles/report-designer/report-designer-for-winforms/use-report-elements/use-cross-tabs/cross-tab-appearance.md
       - name: Use Gauges and Sparklines
         href: articles/report-designer/report-designer-for-winforms/use-report-elements/use-gauges-and-sparklines.md
         items:
