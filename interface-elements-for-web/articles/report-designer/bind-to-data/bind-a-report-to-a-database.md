@@ -15,11 +15,11 @@ This tutorial illustrates how to bind a report to a database and specify a maste
 
    The menu contains this command if your software vendor provides data connections.
 
-1. Select **Database** in the invoked Data Source Wizard and click **Next**.
+1. Select **Database** in the invoked [Data Source Wizard](../report-designer-tools/data-source-wizard.md) and click **Next**.
 
     ![](../../../images/eurd-web-data-source-wizard-select-db.png)
 
-1. Select the data connection on the [Data Source Wizard](../report-designer-tools/data-source-wizard.md)'s first page and click **Next**.
+1. Select the data connection and click **Next**.
 
     ![](../../../images/eurd-web-data-source-wizard-choose-a-data-connection.png)
 
