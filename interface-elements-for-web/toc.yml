@@ -868,6 +868,8 @@
             href: articles\report-designer\report-designer-tools\report-wizard\table-and-vertical-report\specify-data-source-settings-database.md  
           - name: Specify Data Source Settings (JSON)  
             href: articles\report-designer\report-designer-tools\report-wizard\table-and-vertical-report\specify-data-source-settings-json.md
+          - name: Specify Data Source Settings (Object)  
+            href: articles\report-designer\report-designer-tools\report-wizard\table-and-vertical-report\specify-data-source-settings-object.md
           - name: Define Report Layout
             href: articles\report-designer\report-designer-tools\report-wizard\table-and-vertical-report\define-report-layout.md
           - name: Specify Page Settings
@@ -881,6 +883,8 @@
           href: articles\report-designer\report-designer-tools\data-source-wizard\specify-data-source-settings-database.md
         - name: Specify Data Source Settings (JSON)
           href: articles\report-designer\report-designer-tools\data-source-wizard\specify-data-source-settings-json.md
+        - name: Specify Data Source Settings (Object)
+          href: articles\report-designer\report-designer-tools\data-source-wizard\specify-data-source-settings-object.md
     - name: Design Surface
       href: articles/report-designer/report-designer-tools/design-surface.md
     - name: Main Menu
