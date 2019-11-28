@@ -24,4 +24,11 @@ Drag a band's header strip to resize the band.
 
 ![](../../../../images/img119280.png)
 
+You can also use the [Report Explorer](../../report-designer-tools/ui-panels/report-explorer.md) to move a control. You can move controls to other bands (except **Detail Report Band**), or into a **Panel** or **Table Cell** controls. Select a control and drag it within the Report Explorer. The drop targets are highlighted when you drag the control over them.
+
+![](../../../../images/eurd-web-report-explorer-reorder-controls.gif)
+
+> [!NOTE]
+> You can drag the **Table Of Contents** only to the **Report Header Band** and **Report Footer Band**.
+
 See [Arrange Report Controls](arrange-report-controls.md) for information about tools that help you align report controls to each other and layout edges.

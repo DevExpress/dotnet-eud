@@ -1,8 +1,10 @@
 ---
-title: Customize Appearance
+title: Cross Tab Appearance
 author: Sergey Andreev
 ---
-# Customize Appearance
+# Cross Tab Appearance
+
+## Customize Appearance
 
 After you drop the Cross Tab from the Toolbox onto a report or finish the Cross-Tab Report Wizard, 4 predefined [report styles](../../customize-appearance/report-visual-styles.md) are created and assigned to the Cross Tab's **Styles**.
 
