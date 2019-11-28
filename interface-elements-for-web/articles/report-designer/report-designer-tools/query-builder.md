@@ -59,7 +59,7 @@ The query provides the following options:
 	Specifies a custom query name (alias).
 * **Filter**
 	
-	Runs the [Filter Editor](filter-editor.md) where you can specify filter conditions for the resulting data. Filter criteria may contain [query parameters](../shape-report-data/use-report-parameters/use-query-parameters.md).
+	Runs the [Filter Editor](filter-editor.md) where you can specify filter conditions for the resulting data. Filter criteria may contain [query parameters](../shape-report-data/use-report-parameters/query-parameters.md).
 * **Group Filter**
 	
 	Runs the Filter Editor where you can specify filter conditions for grouped and aggregated data. This option is enabled only for grouped data.
@@ -139,7 +139,7 @@ The **Column Properties** section contains the following options:
 
 ## <a id="parameters"></a>Use Query Parameters
 
-Use the **Parameters** section to add, remove and edit [query parameters](../shape-report-data/use-report-parameters/use-query-parameters.md). 
+Use the **Parameters** section to add, remove and edit [query parameters](../shape-report-data/use-report-parameters/query-parameters.md). 
 
 ![](../../../images/eurd-web-designer-query-builder-parameters.png)
 

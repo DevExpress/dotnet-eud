@@ -28,7 +28,7 @@ Use the Report Designer's [Toolbar](..\report-designer-tools\toolbar.md) to acce
 
 ![eurd-win-appearance-properties-on-toolbar](../../../../images/eurd-win-appearance-properties-on-toolbar.png)
 
-More appearance properties are available in the [Property Grid](..\report-designer-tools\ui-panels\property-grid.md)'s **Appearance** tab.
+More appearance properties are available in the [Property Grid](..\report-designer-tools\ui-panels\property-grid-tabbed-view.md)'s **Appearance** tab.
 
 ![eurd-win-appearance-properties-in-property-grid](../../../../images/eurd-win-appearance-properties-in-property-grid.png)
 

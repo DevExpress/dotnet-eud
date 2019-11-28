@@ -10,7 +10,7 @@ Unlike the **Interleaved 2 of 5**, all of the information is encoded in the bars
 
 ![](../../../../../images/eurd-win-bar-code-matrix-2-of-5.png)
 
-The following properties are specific to the **Matrix 2 of 5** type and available in the [Property Grid](../../report-designer-tools/ui-panels/property-grid.md) under the **Symbology** property:
+The following properties are specific to the **Matrix 2 of 5** type and available in the [Property Grid](../../report-designer-tools/ui-panels/property-grid-tabbed-view.md) under the **Symbology** property:
 
 * **Calculate a Checksum**
 

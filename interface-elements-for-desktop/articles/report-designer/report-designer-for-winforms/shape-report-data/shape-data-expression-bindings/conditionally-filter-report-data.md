@@ -21,7 +21,7 @@ This document describes how to filter a report's data based on a specific condit
 	
 	![](../../../../../images/eurd-win-shaping-filter-parameter-settings.png)
 
-3. Select the report's detail band and switch it to the [Property Grid](../../report-designer-tools/ui-panels/property-grid.md). Navigate to its **Behavior** tab, click the **Visible** property's marker and select **Visible Expression** in the context menu.
+3. Select the report's detail band and switch it to the [Property Grid](../../report-designer-tools/ui-panels/property-grid-tabbed-view.md). Navigate to its **Behavior** tab, click the **Visible** property's marker and select **Visible Expression** in the context menu.
 	
 	![](../../../../../images/eurd-win-shaping-filter-visible-property.png)
 
