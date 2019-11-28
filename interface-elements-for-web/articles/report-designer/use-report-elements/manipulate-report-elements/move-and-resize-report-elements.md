@@ -16,7 +16,7 @@ Select a control and then drag a rectangle drawn on its edge or corner to resize
 
 ![](../../../../images/img119279.png)
 
-You can use the **Size to Grid** button to resize a control to the report's **Snap Grid**.
+Use the **Size to Grid** button to resize a control to the report's **Snap Grid**.
 
 ![](../../../../images/eurd-web-size-to-grid.png)
 
@@ -24,7 +24,7 @@ Drag a band's header strip to resize the band.
 
 ![](../../../../images/img119280.png)
 
-You can also use the [Report Explorer](../../report-designer-tools/ui-panels/report-explorer.md) to move a control. You can move controls to other bands (except **Detail Report Band**), or into a **Panel** or **Table Cell** controls. Select a control and drag it within the Report Explorer. The drop targets are highlighted when you drag the control over them.
+You can also use the [Report Explorer](../../report-designer-tools/ui-panels/report-explorer.md) to move a control to other bands (except **Detail Report Band**), or into a **Panel** or **Table Cell** controls. Select a control and drag it within the Report Explorer. The drop targets are highlighted when you drag the control over them.
 
 ![](../../../../images/eurd-web-report-explorer-reorder-controls.gif)
 
