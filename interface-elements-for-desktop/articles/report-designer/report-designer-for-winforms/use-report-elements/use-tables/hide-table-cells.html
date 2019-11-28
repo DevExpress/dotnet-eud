@@ -75,13 +75,13 @@
 <p>In the invoked <strong>Add New Parameter</strong> dialog, specify the parameter&#39;s name and description for Print Preview, and set the type to <strong>Boolean</strong>.</p>
 <p><img src="../../../../../images/eurd-win-parameter-settings-to-hide-table-cells.png" alt=""></p>
 <ul>
-<li><div class="WARNING"><h5>Warning</h5><p>Use the approach below if expression bindings <strong>are enabled</strong> in the Report Designer (the <a href="../../report-designer-tools/ui-panels/property-grid.html">Property Grid</a> provides the <strong>PropertyName Expression</strong> item in the property marker&#39;s context menu).</p>
+<li><div class="WARNING"><h5>Warning</h5><p>Use the approach below if expression bindings <strong>are enabled</strong> in the Report Designer (the <a href="../../report-designer-tools/ui-panels/property-grid-tabbed-view.html">Property Grid</a> provides the <strong>PropertyName Expression</strong> item in the property marker&#39;s context menu).</p>
 </div>
 <p>  Specify an <a href="../../shape-report-data/shape-data-expression-bindings/conditionally-supress-controls.html">expression</a> for the cell&#39;s <strong>Visible</strong> property to define a logical condition for displaying or hiding this cell.</p>
 <p>  The image below demonstrates how to provide the visibility expression for the cell bound to the <strong>CategoryID</strong> field. For a report to display correctly, you should specify the same expression for the cell that displays the field caption in the Page Header.</p>
 <p>  <img src="../../../../../images/eurd-win-hide-table-cell-using-expression.png" alt=""></p>
 </li>
-<li><div class="WARNING"><h5>Warning</h5><p>Use the approach below if expression bindings <strong>are not enabled</strong> in the Report Designer (the <a href="../../report-designer-tools/ui-panels/property-grid.html">Property Grid</a> does not provide the <strong>PropertyName Expression</strong> item in the property marker&#39;s context menu).</p>
+<li><div class="WARNING"><h5>Warning</h5><p>Use the approach below if expression bindings <strong>are not enabled</strong> in the Report Designer (the <a href="../../report-designer-tools/ui-panels/property-grid-tabbed-view.html">Property Grid</a> does not provide the <strong>PropertyName Expression</strong> item in the property marker&#39;s context menu).</p>
 </div>
 <p>  Create a <a href="../../shape-report-data/shape-data-data-bindings/conditionally-supress-controls.html">formatting rule</a>, specify a logical condition to hide a cell and set the <strong>Visible</strong> property to <strong>False</strong> as shown below. For a report to display correctly, apply the created rule to the cells in the Detail band and the Page Header band.</p>
 <p>  <img src="../../../../../images/eurd-win-hide-table-cell-using-formatting-rule.png" alt=""></p>

@@ -1,0 +1,182 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Layout and Print Options | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Layout and Print Options | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.37.0.0">
+    
+    <link rel="shortcut icon" href="../../../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../../../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../../../index.html">
+                <img id="logo" class="svg" src="../../../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="layout-and-print-options">Layout and Print Options</h1>
+
+<p>Use the <strong>Layout Options</strong> property to change the cells&#39; order and location.</p>
+<p><img src="../../../../../images/eurd-win-cross-tab-layout-options-properties-window.png" alt=""></p>
+<ul>
+<li><p><strong>Column Total Header Position</strong>, <strong>Row Total Header Position</strong><br>  Specifies where to display column/row total headers:</p>
+<ul>
+<li>show in the same row/column as column/row field values against which totals are calculated (<strong>Inner</strong>);</li>
+<li>span across two rows/columns (<strong>Outer</strong>).</li>
+</ul>
+</li>
+<li><p><strong>Column Totals Position</strong>, <strong>Row Totals Position</strong><br>  Specifies the position of the column/row totals and column/row grand totals:</p>
+<ul>
+<li>after column/row field values (<strong>After Data</strong>);</li>
+<li>before column/row field values (<strong>Before Data</strong>).</li>
+</ul>
+</li>
+<li><p><strong>Corner Header Display Mode</strong><br>  Specifies what data the Cross Tab should display in the top left corner:</p>
+<ul>
+<li>split the corner into columns and display row field names (<strong>Row Field Names</strong>);</li>
+<li>split the corner into rows and display column field names (<strong>Column Field Names</strong>);</li>
+<li>do not split the corner and do not display any text (<strong>None</strong>).</li>
+</ul>
+</li>
+<li><p><strong>Data Field Layout</strong><br>  Specifies how to arrange two or more data fields in the Cross Tab layout:</p>
+<ul>
+<li>in a row one after another (<strong>InRow</strong>);</li>
+<li>in a column one under another (<strong>InColumn</strong>).</li>
+</ul>
+</li>
+<li><p><strong>Hierarchical Row Layout</strong><br>  Specifies how to display row headers:</p>
+<ul>
+<li>in a tree-like view one under another (<strong>checked</strong>)</li>
+<li>in a single line (<strong>unchecked</strong>).</li>
+</ul>
+</li>
+</ul>
+<h2 id="hide-specific-rows-and-columns">Hide Specific Rows and Columns</h2>
+<p>Use a cell&#39;s <strong>Row Visible</strong> and <strong>Column Visible</strong> properties to specify row and column visibility. For instance, select the bottom right cell and disable these options to hide grand totals. At design time, invisible cells are filled with a hatch brush.</p>
+<p><img src="../../../../../images/eurd-win-cross-tab-with-hidden-grand-totals.png" alt=""></p>
+<h2 id="print-options">Print Options</h2>
+<p>Use the <strong>Print Options</strong> property to specify print options and define which Cross Tab elements to print.</p>
+<p><img src="../../../../../images/eurd-win-cross-tab-print-options-properties-window.png" alt=""></p>
+<ul>
+<li><p><strong>Print Layout</strong><br>  Specifies how to print the Cross Tab content that does not fit the page&#39;s width:</p>
+<ul>
+<li>on the next page (<strong>Across Only</strong>);</li>
+<li>on the same page below the previous content (<strong>Across Then Down</strong>).</li>
+</ul>
+</li>
+<li><p><strong>Across Then Down Offset</strong><br>  Specifies the vertical distance between parts of the Cross Tab content in the <strong>Across Then Down</strong> print layout.</p>
+</li>
+<li><p><strong>Print Totals For Single Values</strong><br>  Specifies when to print totals:</p>
+<ul>
+<li>for any field value even when it contains one nested value (<strong>checked</strong>);</li>
+<li>for the field values that contain two and more nested values (<strong>unchecked</strong>).</li>
+</ul>
+</li>
+<li><p><strong>Repeat Row Headers</strong>, <strong>Repeat Column Headers</strong>
+  Specifies whether to repeat row/column headers when the Cross Tab content is split horizontally/vertically or print them only once.</p>
+</li>
+</ul>
+<div class="NOTE"><h5>Note</h5><p>Cross tab cells are split between pages if they do not fit the page&#39;s width or height. Set the report&#39;s <strong>Vertical Content Splitting</strong> and <strong>Horizontal Content Splitting</strong> properties to <strong>Smart</strong> <strong>Smart</strong> to move cells to the next page (or to the Cross Tab&#39;s next part shown on the same page.</p>
+</div>
+<h2 id="adjust-control-size">Adjust Control Size</h2>
+<p>Drag the Cross Tab&#39;s handlers to change its size. You can also resize individual rows and columns.</p>
+<p><img src="../../../../../images/eurd-win-cross-tab-change-size.png" alt=""></p>
+<p>Use a cell&#39;s <strong>Column Auto Width Mode</strong> property to specify a cell width calculation method.</p>
+<p><img src="../../../../../images/eurd-win-cross-tab-cell-column-auto-width-mode.png" alt=""></p>
+<h2 id="adjust-header-text">Adjust Header Text</h2>
+<p>You can double-click any cell that displays the header and use the in-place editor to enter text.</p>
+<p><img src="../../../../../images/eurd-win-cross-tab-cell-in-place-editor.png" alt=""></p>
+<p>Each Cross Tab cell provides the <strong>Angle</strong> property that allows you to rotate the cell&#39;s text.</p>
+<p><img src="../../../../../images/eurd-win-cross-tab-cell-angle-property.png" alt=""></p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/19.2/interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/use-report-elements/use-cross-tabs/layout-and-print-options.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2019 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../../../styles/main.js"></script>
+  </body>
+</html>

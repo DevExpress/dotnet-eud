@@ -69,78 +69,75 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="add-a-chart-set-up-series-manually">Add a Chart (Set Up Series Manually)</h1>
 
-<p>This document describes how to add a chart to a report, provide data for the chart series, and set up a chart&#39;s elements. In this example, series data has a single data source. You can also use different data sources for different series.</p>
+<p>This document demonstrates how to add a chart to a report, provide data for chart series, and set up chart elements. This topic shows two chart series based on the same data source. You can use different data sources for different series.</p>
 <p><img src="../../../../../images/eurd-win-chart-manual-setup-example.png" alt=""></p>
 <h2 id="add-a-chart-to-a-report">Add a Chart to a Report</h2>
 <ol>
 <li><p>Drop the <strong>Chart</strong> control from the <a href="../../report-designer-tools/toolbox.html">Toolbox</a> onto the <a href="../../introduction-to-banded-reports.html">Detail band</a>.</p>
 <p> <img src="../../../../../images/eurd-win-chart-add-to-report.png" alt=""></p>
-<p> After you drop the chart, the <strong>Chart Designer</strong> is automatically invoked if its <strong>Display the designer every time a new chart is added</strong> option is enabled. Close the designer at this step.</p>
+<p> The <strong>Chart Designer</strong> wizard is invoked. Disable the <strong>Display the designer every time a new chart is added</strong> option if you do not want to trigger the wizard the next time you create a chart.</p>
+<p> <img src="../../../../../images/eurd-win-chart-designer-display-every-time.png" alt=""></p>
+<p> Close the wizard at this stage.</p>
 </li>
-<li><p>Open the <a href="../../report-designer-tools/toolbar.html">Toolbar</a>&#39;s <strong>Chart Tools</strong> contextual tab and click <strong>Add Data Source</strong> to bind the chart to data. </p>
-<p> <img src="../../../../../images/eurd-win-chart-add-data-source-button.png" alt=""></p>
+<li><p>Click the chart&#39;s <a href="../manipulate-report-elements/select-report-elements-and-access-their-settings.html">smart tag</a> to bind the chart to data. Expand the <strong>Data Source</strong> property&#39;s drop-down and click <strong>Add New Data Source</strong>.</p>
+<p> <img src="../../../../../images/eurd-win-add-chart-data-source.png" alt=""></p>
 </li>
-<li><p>The invoked <a href="../../report-designer-tools/data-source-wizard.html">Data Source Wizard</a> enables you to assign a data source to the chart. Bind the chart to a data source as described in the <a href="../../bind-to-data.html">Bind to Data</a> section.</p>
-</li>
-<li><p>Click the chart&#39;s smart tag and make sure that the <strong>Data Source</strong> and <strong>Data Member</strong> properties were specified correctly.</p>
-<p> <img src="../../../../../images/eurd-win-chart-data-source-in-smart-tag.png" alt=""></p>
+<li><p>The invoked <a href="../../report-designer-tools/data-source-wizard.html">Data Source Wizard</a> enables you to create a data source and <a href="../../bind-to-data.html">bind</a> the chart to it.</p>
 </li>
 </ol>
-<div class="NOTE"><h5>Note</h5><p>The report&#39;s <strong>Data Source</strong> property should be set to <strong>None</strong> because you placed the Chart in the Detail band. When a report has its <strong>Data Source</strong> property specified, the Chart is repeated in the preview as many times as there are records in the report&#39;s data source.</p>
+<div class="NOTE"><h5>Note</h5><p>Ensure that the report&#39;s <strong>Data Source</strong> property is set to <strong>None</strong> when you place a chart into the <strong>Detail</strong> band. Otherwise, the chart is repeated as many times as there are records in the report&#39;s data source.</p>
 </div>
 <h2 id="add-series-to-the-chart">Add Series to the Chart</h2>
 <ol>
-<li><p>Switch to the <strong>Chart Tools</strong> toolbar tab and click <strong>Run Designer</strong>.</p>
+<li><p>Select the chart. Switch to the <strong>Chart Tools</strong> toolbar tab and click <strong>Run Designer</strong>.</p>
 <p> <img src="../../../../../images/eurd-win-chart-run-designer-button.png" alt=""></p>
 </li>
-<li><p>Do the following in the invoked <strong>Chart Designer</strong> to add a new series to the chart control:</p>
+<li><p>Add a new series to the chart.</p>
 <ul>
-<li>Locate the <strong>Series</strong> element in the chart elements tree and click the plus button.</li>
-<li><p>Select the type (for example, <strong>Bar</strong>) in the invoked series type list.</p>
-<p><img src="../../../../../images/eurd-win-chart-designer-add-series.png" alt=""></p>
+<li>Locate <strong>Series</strong> in the chart elements tree and click the plus button.</li>
+<li><p>Select the series type (for example, <strong>Bar</strong>) from the invoked list.</p>
+<p><img src="../../../../../images/eurd-win-chart-designer-add-new-series.png" alt=""></p>
 </li>
 </ul>
 </li>
-<li><p>Perform the following steps to populate the created series with points:</p>
+<li><p>Populate the created series with points.</p>
 <ul>
-<li>Select the series in the tree and switch to the <strong>Data</strong> tab to the right of the designer&#39;s window.</li>
-<li>Select an existing data source in the corresponding drop-down list.</li>
-<li><p>Drag-and-drop the data fields onto the <strong>Argument</strong> and <strong>Value</strong> cells to define series points&#39; coordinates.</p>
+<li>Switch to the <strong>Data</strong> tab.</li>
+<li>Select a data source from the drop-down list.</li>
+<li><p>Drop data fields onto the <strong>Argument</strong> and <strong>Value</strong> cells to define the series&#39; points.</p>
 <p><img src="../../../../../images/eurd-win-chart-designer-bind-series-to-data.png" alt=""></p>
-<p>The <strong>Properties</strong> tab displays the <strong>Argument Data Member</strong> and <strong>Value Data Members</strong> settings that are automatically assigned to the corresponding fields.</p>
 </li>
 </ul>
 </li>
-<li><p>Click the <strong>Data Filters</strong> property&#39;s ellipsis button to filter series data. You can create and adjust the filter criteria in the invoked dialog.</p>
-<p> <img src="../../../../../images/eurd-win-chart-designer-data-filter.png" alt=""></p>
-</li>
-<li><p>Create another series with the same settings. For instance, select the <strong>Point</strong> view type for this series.</p>
-</li>
-<li><p>You can do the following to see how the chart looks when it is populated with data:</p>
+<li><p>Filter series data.</p>
 <ul>
-<li>save changes made in the Chart Designer;</li>
-<li>close the Chart Designer;</li>
-<li>switch to <a href="../../preview-print-and-export-reports.html">Print Preview</a>.</li>
-<li>Return to the Report Designer and invoke the Chart Designer. The chart axes are now populated with actual data, and you can customize the chart.</li>
+<li>Switch to the <strong>Properties</strong> tab.</li>
+<li>Click the <strong>Filter String</strong> property&#39;s ellipsis button.</li>
+<li><p>Construct filter criteria in the invoked <strong>FilterString Editor</strong> and click <strong>OK</strong>.</p>
+<p><img src="../../../../../images/eurd-win-chart-designer-data-filter.png" alt=""></p>
+</li>
 </ul>
+</li>
+<li><p>Create another series with the same settings. Select the <strong>Point</strong> view type for this series.</p>
 </li>
 </ol>
 <h2 id="customize-the-chart">Customize the Chart</h2>
-<p>Apply the following adjustments to improve the chart&#39;s appearance:</p>
+<p>Improve the chart&#39;s appearance:</p>
 <ul>
-<li><p>Remove the chart&#39;s legend (the chart series are bound to the same data).</p>
-<ul>
-<li>Select <strong>Legend</strong> in the chart elements tree.</li>
-<li>Disable the <strong>Visibility</strong> check box in the <strong>Options</strong> tab.</li>
-</ul>
+<li><p>Remove the chart legend, because the chart series are bound to the same data. Select <strong>Legend</strong> in the chart elements tree and disable the <strong>Visibility</strong> check box in the <strong>Options</strong> tab.</p>
+<p>  <img src="../../../../../images/eurd-win-chart-designer-remove-legend.png" alt=""></p>
 </li>
-<li><p>Select the <strong>Label</strong> node under this series and disable the <strong>Visibility</strong> check box to hide <strong>Series1</strong>&#39;s point labels.</p>
+<li><p>Select the <strong>Label</strong> node under <strong>Series 1</strong> and disable the <strong>Visibility</strong> check box to hide point labels.</p>
 </li>
-<li>Customize the <strong>Series2</strong> markers&#39; appearance. Set the <strong>View.Point Marker Options.Kind</strong> property to <strong>InvertedTriangle</strong> and <strong>View.Point Marker Options.Size</strong> to <strong>12</strong> to replace the default circle with an upside down triangle.</li>
-<li>Customize the chart&#39;s appearance settings. For instance, select <strong>Nature Colors</strong> in the <strong>Palette</strong>&#39;s drop-down list.</li>
+<li><p>Customize the <strong>Series 2</strong> markers&#39; appearance. Set <strong>Size</strong> to <strong>12</strong> and <strong>Kind</strong> to <strong>Inverted Triangle</strong> to replace the default circle with an upside down triangle.</p>
+<p>  <img src="../../../../../images/eurd-win-chart-designer-marker-appearance.png" alt=""></p>
+</li>
+<li><p>Customize the chart&#39;s appearance settings. For instance, select <strong>Nature Colors</strong> from the drop-down <strong>Palette</strong> list.</p>
+<p>  <img src="../../../../../images/eurd-win-chart-designer-set-palette.png" alt=""></p>
+</li>
 </ul>
 <h2 id="view-the-result">View the Result</h2>
-<p>Switch to <a href="../../preview-print-and-export-reports.html">Print Preview</a> to see the resulting report.</p>
+<p>Switch to <a href="../../preview-print-and-export-reports.html">Print Preview</a> to preview your report.</p>
 <p><img src="../../../../../images/eurd-win-chart-manual-setup-result.png" alt=""></p>
 </article>
           </div>
