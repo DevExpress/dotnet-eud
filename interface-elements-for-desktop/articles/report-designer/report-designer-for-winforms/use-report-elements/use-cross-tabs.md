@@ -18,7 +18,7 @@ Refer to the following topics for instructions on how to use cross tabs in repor
 
     Describes the Cross Tab row fields, column fields, data fields, and how to format field values.
 
-* [Shape Data](use-cross-tabs/shape-data.md)
+* [Data Shaping](use-cross-tabs/data-shaping.md)
 
     Demonstrates how to group, sort and filter a Cross Tab.
 
@@ -26,6 +26,6 @@ Refer to the following topics for instructions on how to use cross tabs in repor
 
     Shows how to adjust Cross Tab size, change header text, and specify how the control is printed.
 
-* [Customize Appearance](use-cross-tabs/customize-appearance.md)
+* [Cross Tab Appearance](use-cross-tabs/cross-tab-appearance.md)
 
     Explains how to change Cross Tab element appearance settings.
