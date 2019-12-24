@@ -47,8 +47,6 @@ To connect to various SQL databases, the Dashboard Designer requires correspondi
 
 To create a connection to a SQL data source, see [Binding to SQL databases](connecting-to-sql-databases.md).
 
-To create 
-
 ## OLAP Data Source
 To use the OLAP data source, the Dashboard Designer requires Microsoft Analysis Services OLE DB and Microsoft ADOMD.NET providers to be installed on your machine. To learn more, see [Data providers used for Analysis Services connections](https://msdn.microsoft.com/en-us/library/dn141152.aspx#bkmk_OLE).
 
