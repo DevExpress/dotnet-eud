@@ -23,7 +23,7 @@ Data-bound controls are marked with a yellow database icon.
 
 ![eurd-win-report-explorer-bound-controls](../../../../../images/eurd-win-report-explorer-bound-controls.png)
 
-Right-click an element in the **Report Explorer** and select **Navigate To Control** from the context menu to bring the element into view on the design surface.
+Right-click an element in the **Report Explorer** and select **Navigate To Control** from the context menu to move the design surface's visible area to this element.
 
 ![eurd-win-navigate-to-control](../../../../../images/eurd-win-navigate-to-control.gif)
 
