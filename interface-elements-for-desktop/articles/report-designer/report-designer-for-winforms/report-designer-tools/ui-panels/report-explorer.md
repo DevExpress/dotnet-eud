@@ -23,7 +23,7 @@ Data-bound controls are marked with a yellow database icon.
 
 ![eurd-win-report-explorer-bound-controls](../../../../../images/eurd-win-report-explorer-bound-controls.png)
 
-You can use the **Report Explorer** to switch to a report element. Right-click the element in the **Report Explorer** and select **Navigate To Control** from the context menu.
+Use the **Report Explorer** to switch to a report element. Right-click the element in the **Report Explorer** and select **Navigate To Control** from the context menu.
 
 ![eurd-win-navigate-to-control](../../../../../images/eurd-win-navigate-to-control.gif)
 
