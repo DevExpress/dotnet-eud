@@ -88,14 +88,21 @@ You can create functional copies of a band, for example, to display different co
 > See [Lay out Dynamic Report Content](lay-out-dynamic-report-content.md) for details on how to specify the location of bands' content on document pages.
 
 ## <a name="managingreportbands"></a>Manage Report Bands
-### Hide Bands in the Report Designer
+### Expand or Collapse Bands in the Report Designer
 
-Click the arrow button on the band's title to collapse or expand the band.
+Click the arrow button on a band's title to collapse or expand the band.
 
 ![eurd-win-report-bands-collapsing](../../../images/eurd-win-report-bands-collapsing.png)
 
-### Hide Bands in the Report Document
+Click **Collapse All** on the [Toolbar](report-designer-tools/toolbar.md)'s [View Tab](report-designer-tools/toolbar.md#view-tab) to collapse all bands in a report. Click **Expand All** to expand all report bands.
 
+![eurd-win-collapse-all-bands](../../../images/eurd-win-collapse-all-bands.png)
+
+Right-click a band and select **Collapse Other Bands** from the context menu to collapse all bands except the current band.
+
+![eurd-win-collapse-other-bands](../../../images/eurd-win-collapse-other-bands.png)
+
+### Hide Bands in the Report Document
 
 You can avoid printing band content in a document. To do this, select the band and set the band's **Height** property to zero or disable its **Visible** property in the [Property Grid](report-designer-tools\ui-panels\property-grid-tabbed-view.md).
 
