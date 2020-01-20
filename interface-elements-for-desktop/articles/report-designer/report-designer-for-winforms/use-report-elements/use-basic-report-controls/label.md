@@ -113,7 +113,7 @@ The horizontal gap between labels is included in the left cell.
 
 ![](../../../../../images/eurd-win-table-space-between-labels.png)
 
-The table cells copy appearance and data-related property values from the labels.
+The table cells copy all property values from the labels.
 
 ## Interactivity
 
