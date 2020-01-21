@@ -98,7 +98,7 @@ Click **Collapse All** on the [Toolbar](report-designer-tools/toolbar.md)'s [Vie
 
 ![eurd-win-collapse-all-bands](../../../images/eurd-win-collapse-all-bands.png)
 
-Right-click a band and select **Collapse Other Bands** from the context menu to collapse all bands except the current band.
+Right-click a band and select **Collapse Other Bands** from the context menu to collapse all bands except the clicked band.
 
 ![eurd-win-collapse-other-bands](../../../images/eurd-win-collapse-other-bands.png)
 
