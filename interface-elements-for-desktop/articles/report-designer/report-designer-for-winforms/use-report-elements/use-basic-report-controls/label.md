@@ -95,6 +95,26 @@ You can also use the opposite **Text Fit Mode** property to adjust a control's f
 
 See the [Arrange Dynamic Report Content](../../lay-out-dynamic-report-content.md) topic for more information.
 
+### Convert Labels to Table
+
+You can convert multiple labels to a [table](../use-tables.md) to simplify control alignment.
+
+Hold CTRL or SHIFT and click labels to select them. Right-click any of the selected labels and select **Convert To Table** from the context menu. A table with one row is added to the report instead of the selected labels.
+
+![](../../../../../images/eurd-win-label-convert-to-table.png)
+
+The **Convert To Table** option is not available if any of the selected labels overlap horizontally.
+
+![](../../../../../images/eurd-win-label-labels-overlap.png)
+
+The created table occupies horizontal space from the leftmost label's left edge to the rightmost label's right edge, and vertical space from the topmost label's top edge to the lowest label's bottom edge.
+
+The horizontal gap between labels is included in the left cell.
+
+![](../../../../../images/eurd-win-table-space-between-labels.png)
+
+The table cells copy all property values from the labels.
+
 ## Interactivity
 
 Check the **Enabled** option in the **Edit Options** category to allow users to [edit a label's content](../../provide-interactivity/edit-content-in-print-preview.md) in Print Preview mode.

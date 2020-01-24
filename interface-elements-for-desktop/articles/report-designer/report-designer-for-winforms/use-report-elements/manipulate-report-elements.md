@@ -13,5 +13,6 @@ The following topics describe how to add various controls to a report, manipulat
 * [Copy Report Controls](manipulate-report-elements/copy-report-controls.md)
 * [Reuse Report Controls](manipulate-report-elements/reuse-report-controls.md)
 * [Arrange Report Controls](manipulate-report-elements/arrange-report-controls.md)
+* [Convert Labels to Table](manipulate-report-elements/convert-labels-to-table.md)
 * [Add Report Controls to Containers](manipulate-report-elements/add-report-controls-to-containers.md)
 * [Validate the Report Layout](manipulate-report-elements/validate-the-report-layout.md)
