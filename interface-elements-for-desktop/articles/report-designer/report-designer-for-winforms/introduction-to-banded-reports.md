@@ -90,7 +90,7 @@ You can create functional copies of a band, for example, to display different co
 ## <a name="managingreportbands"></a>Manage Report Bands
 ### Expand or Collapse Bands in the Report Designer
 
-Click the arrow button on a band's title to collapse or expand the band.
+Click the arrow button on a band's title to collapse or expand that band.
 
 ![eurd-win-report-bands-collapsing](../../../images/eurd-win-report-bands-collapsing.png)
 
