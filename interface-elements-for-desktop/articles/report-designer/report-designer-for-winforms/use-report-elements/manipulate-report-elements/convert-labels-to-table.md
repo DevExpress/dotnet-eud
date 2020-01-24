@@ -3,7 +3,7 @@ title: Convert Labels to Table
 ---
 # Convert Labels to Table
 
-You can convert multiple [labels](../use-basic-report-controls/label.md) to a [table](../use-tables.md) to save time on control alignment and to reduce a chance of misaligned controls.
+You can convert multiple [labels](../use-basic-report-controls/label.md) to a [table](../use-tables.md) to simplify control alignment.
 
 Hold CTRL or SHIFT and click labels to select them. Right-click any of the selected labels and select **Convert To Table** from the context menu. A table with one row is added to the report instead of the selected labels.
 
