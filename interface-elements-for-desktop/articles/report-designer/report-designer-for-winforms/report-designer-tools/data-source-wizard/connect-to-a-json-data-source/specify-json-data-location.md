@@ -4,9 +4,9 @@ title: 'Specify JSON Data Location'
 
 # Specify JSON Data Location
 
-This wizard page allows you to specify the location of the JSON-formatted data:
+This wizard page allows you to specify a Web Service Endpoint URI, a filename, or a string with JSON content. If you choose the **Web Service Endpoint** option, you can configure a connection string with URI path parameters and query parameters.
 
-- Web Service Endpoint URI
+- Web Service Endpoint
 
     ![](../../../../../../images/eurd-win-JSON-URISource.png)
 
