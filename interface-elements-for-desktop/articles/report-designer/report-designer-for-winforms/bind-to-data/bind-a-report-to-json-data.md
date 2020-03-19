@@ -4,7 +4,7 @@ title: 'Bind a Report to JSON Data'
 
 # Bind a Report to JSON Data
 
-This topic describes how to bind a report to JSON data at design time.
+This topic describes how to bind a report to JSON data.
 
 ## Create JsonDataSource
 
@@ -45,11 +45,11 @@ This topic describes how to bind a report to JSON data at design time.
 
     You can enable the new parameter's **Expression** property and [use expressions](../use-expressions.md) to set path parameter and query parameter values.
 
-    - Select Expression Editor from the Value property's drop-down list, specify the expression in the invoked [Expression Editor](../use-expressions.md#expression-editor), and click OK.
+    - Select **Expression Editor** from the Value property's drop-down list, specify the expression in the invoked [Expression Editor](../use-expressions.md#expression-editor), and click **OK**.
 
     ![JSON-specify-parameter-expression](../../../../images/eurd-win-JSON-path-parameter-specify-expression.png)
 
-    - Expressions can include [report parameters](../shape-report-data/use-report-parameters.md). Select New Report Parameter from the Value property's drop-down list, configure the report parameter in the invoked Report Parameter dialog, and click OK.
+    - Expressions can include [report parameters](../shape-report-data/use-report-parameters.md). Select **New Report Parameter** from the **Value** property's drop-down list, configure the report parameter in the invoked **Report Parameter** dialog, and click **OK**.
 
     ![JSON-add-report-parameter](../../../../images/eurd-win-JSON-add-report-parameter.png)
 

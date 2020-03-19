@@ -5,7 +5,7 @@ author: Mary
 
 # Bind a Report to JSON Data
 
-This topic describes how to bind a report to JSON data at design time.
+This topic describes how to bind a report to JSON data.
 
 ## Add a New Data Source
 
@@ -29,7 +29,7 @@ This topic describes how to bind a report to JSON data at design time.
 
     ![](../../../images/eurd-web-data-source-wizard-json-choose-web-service-endpoint-uri.png)
 
-    Specify request parameters (username and password, HTTP headers, or query parameters).
+    Specify request parameters (username and password, path parameters, query parameters, or HTTP headers).
 
     - A path parameter appends a path element to a JSON endpoint's Uri.
     - A query parameter specifies a HTTP request parameter that is passed to a JSON endpoint.
@@ -43,7 +43,7 @@ This topic describes how to bind a report to JSON data at design time.
 
         ![](../../../images/eurd-web-data-source-wizard-json-http-headers-path-parameter-expression.png)
 
-    - Expressions can include [report parameters](../shape-report-data/use-report-parameters.md). In the **Expression Editor**, expand the **Parameters** tab, select a report parameter to which you want to bind the path parameter, query parameter, or header parameter, and click **OK**.
+    - Expressions can include [report parameters](../shape-report-data/use-report-parameters.md). In the **Expression Editor**, expand **Parameters**, select a report parameter to which you want to bind the path parameter, query parameter, or header parameter, and click **OK**.
 
         ![](../../../images/eurd-web-data-source-wizard-json-http-headers-path-parameter-report-parameter.png)
 
