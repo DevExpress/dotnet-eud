@@ -31,7 +31,7 @@ This topic describes how to bind a report to JSON data.
 
     Specify request parameters (username and password, path parameters, query parameters, or HTTP headers).
 
-    - A path parameter appends a path element to a JSON endpoint's Uri.
+    - A path parameter appends a path element to a JSON endpoint's URI.
     - A query parameter specifies a HTTP request parameter that is passed to a JSON endpoint.
     - A header parameter adds a custom HTTP header to JSON endpoint requests.
 
