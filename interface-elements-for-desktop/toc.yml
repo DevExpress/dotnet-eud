@@ -501,7 +501,7 @@
         href: articles/report-designer/report-designer-for-winforms/bind-to-data/bind-a-report-to-an-excel-workbook.md
       - name: Bind a Report to a CSV File
         href: articles/report-designer/report-designer-for-winforms/bind-to-data/bind-a-report-to-a-csv-file.md   
-      - name: Bind a Report to a JSON data
+      - name: Bind a Report to JSON data
         href: articles/report-designer/report-designer-for-winforms/bind-to-data/bind-a-report-to-json-data.md
       - name: Bind a Report to an XPO Persistent Object
         href: articles\report-designer\report-designer-for-winforms\bind-to-data\bind-a-report-to-an-xpo-persistent-object.md        
@@ -1011,8 +1011,8 @@
           items:
           - name: Specify JSON Data Location
             href: articles/report-designer/report-designer-for-winforms/report-designer-tools/data-source-wizard/connect-to-a-json-data-source/specify-json-data-location.md
-          - name: Specify Request Parameters
-            href: articles/report-designer/report-designer-for-winforms/report-designer-tools/data-source-wizard/connect-to-a-json-data-source/specify-request-parameters.md        
+          - name: Configure Web Service Endpoint Request
+            href: articles/report-designer/report-designer-for-winforms/report-designer-tools/data-source-wizard/connect-to-a-json-data-source/configure-web-service-endpoint-request.md        
           - name: Select Data Fields
             href: articles/report-designer/report-designer-for-winforms/report-designer-tools/data-source-wizard/connect-to-a-json-data-source/select-data-fields.md
         - name: Connect to an XPO Data Source
