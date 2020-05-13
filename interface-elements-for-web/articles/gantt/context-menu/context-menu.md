@@ -3,9 +3,9 @@ title: Context Menu
 ---
 # Context Menu
 
-The Gantt provides the context menu for the following elements: data cells in the task list, tasks and dependencies in the chart area. Right-click the Gantt element to invoke the context menu.
+Right-click in the task list or Gantt chart to invoke the context menu.
 
-<image>
+![Gantt - context menu](~/interface-elements-for-web/images/Gantt/context-menu.png)
 
 {|
 |-
@@ -13,10 +13,22 @@ The Gantt provides the context menu for the following elements: data cells in th
 ! Description
 |-
 
-| text
-| text
+| Add -> New Task
+| Adds a new task.
 |-
 
-| text
-| text
+| Add -> New Subtask
+| Adds a new subtask.
+|-
+
+| Task Details
+| Invokes a dialog window where a user can edit a task.
+|-
+
+| Delete Task
+| Deletes a task.
+| -
+
+| Delete Dependency
+| Deletes a dependency.
 |}

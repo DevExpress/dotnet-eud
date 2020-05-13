@@ -1,57 +1,69 @@
 ---
-title: Modify Tasks
+title: Add, Edit and Delete Tasks
+author: Anna Kondratova
 ---
-# Modify Tasks
+# Add, Edit and Delete Tasks
 
 ## Add a Task
 
 To create a new task:
 
-* Click the **New** button in the task list or the **Add** item in the context menu.
+* Right-click a task and select the "Add" [context menu](gantt/context-menu/context-menu.md) or [toolbar](gantt/toolbar/toolbar.md) item.
 
-    ![Web-Gantt-New-Button](../../../images/web-gantt-new-button.png)
+"New Task" - Appends a new task at the same level as the selected task.
 
-    This action adds a new task to the end of the task list at the **next** hierarchical level.
+![](~/interface-elements-for-web/images/Gantt/add-new-task.png)
 
-    ![Web-Gantt-New-Task](../../../images/web-gantt-new-task.png)
+"New Subtask" - Adds a child task to the selected task.
 
-* Specify data for a task. Double click each cell in the task list to specify a task subject, start and end dates.
-
-    <image>
-    
-    Double click a task in the Gantt chart to invoke the "Task Details..." dialog window where you can specify the task's progress and associated resource in the "Task Information" and "Resources" dialogs.
-
-    <image>
-
-    You can also move a task and use its resize handlers to change a task's start date, end date and duration directly in the chart area.
-
-    <image>
-
-* Specify a task's dependencies. Hover over a task, press its start or end point and drag to another task. Note that the drag direction defines a dependency type. 
-
-    <image>
+![](~/interface-elements-for-web/images/Gantt/add-new-subtask.png)
 
 ## Edit a Task
 
-In the task list, double click a task cell to edit the task's title, start and/or end date. 
+Use one of the approaches described below to edit a task.
 
-<image>
+* Double-click a task in the task list. 
 
-In the Gantt chart, double click a task or use the context menu to invoke the "Task Details..." dialog window where you can edit the task's information (title, start and end dates, associated resources and progress).
+    ![](~/interface-elements-for-web/images/Gantt/inline-editing.png)
 
-<image>
+*  Right-click a task and select the "Task Details" context menu item (or double-click a task in the chart area).
 
-To change the task dependencies, first delete existing dependencies. Then press the task's start or end point and drag to another task to create new dependencies. Note that the drag direction defines a dependency type. 
+    ![](~/interface-elements-for-web/images/Gantt/popup-edit-form.png)
 
-<image>
+* Hover the mouse pointer over the task you want to modify.
 
-You can also move a task and use its resize handlers to change a task's start date, end date and duration directly in the chart area.
+    ![](~/interface-elements-for-web/images/Gantt/drag-and-drop.png)
 
-<image>
+    **Move** - Hold on the task and drag it to change its start and end time.
 
-## Delete a Task
+    ![](~/interface-elements-for-web/images/Gantt/moving.png)
 
-* Click the **Delete** button in the task list or use the **Remove Task** context menu item to delete a task. Note that this action also removes dependencies associated with the deleted task.
+    **Resize** - Drag the resize handles at the task's edges to change the task duration.
 
-<image>
+    ![](~/interface-elements-for-web/images/Gantt/resizing.png)
 
+    **Change progress** - Move the slider to change the task's progress.
+
+    ![](~/interface-elements-for-web/images/Gantt/change-progress.png)
+
+## Save Changes
+
+The Gantt saves the changes right after you have edited a task in the task list or used drag and drop functionality.
+
+![](~/interface-elements-for-web/images/Gantt/manage-tasks.gif)
+
+In the "Task Details" dialog, click OK to save the changes. 
+
+![](~/interface-elements-for-web/images/Gantt/dialog-ok.png)
+
+## Remove a Task
+
+Right-click a task and select the 'Delete Task' context menu](gantt/context-menu/context-menu.md) or [toolbar](gantt/toolbar/toolbar.md) item to remove a task.
+
+![](~/interface-elements-for-web/images/Gantt/delete-task.png)
+
+## Undo/Redo Changes
+
+Use Ctrl+Z and Ctrl+Y or "Undo" and "Redo" [toolbar buttons](gantt/toolbar/toolbar.md) to roll back changes.
+
+![](~/interface-elements-for-web/images/Gantt/undo-redo.gif)
