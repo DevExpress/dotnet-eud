@@ -201,6 +201,8 @@
         href: articles/dashboard-designer/designing-dashboard-items/cards/sparkline.md
       - name: Formatting
         href: articles/dashboard-designer/designing-dashboard-items/cards/formatting.md
+      - name: Conditional Formatting
+        href: articles/dashboard-designer/designing-dashboard-items/cards/conditional-formatting.md
       - name: Interactivity
         href: articles/dashboard-designer/designing-dashboard-items/cards/interactivity.md
         items:
