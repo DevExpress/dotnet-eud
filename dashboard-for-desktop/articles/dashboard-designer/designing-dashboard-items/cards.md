@@ -30,3 +30,6 @@ This section consists of the following subsections:
 * [Cards Arrangement](cards/cards-arrangement.md)
 	
 	Describes how to arrange cards within the Card dashboard item.
+* [Conditional Formatting](cards/conditional-formatting.md)	
+
+	Describes how to format the Card dashboard item’s elements whose values meet a specified condition.	
