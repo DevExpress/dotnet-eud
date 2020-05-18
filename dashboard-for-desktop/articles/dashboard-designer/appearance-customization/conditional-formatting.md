@@ -57,7 +57,7 @@ You can create format rules in the following ways:
 
   ![EditRules_Ribbon](../../../images/editrules_ribbon118564.png)
 
-	The invoked dialog contains the **calculated by** combo box where you can select the item whose values are used to calculate the format rule. You can calculate a format rule using [measures or dimensions](../binding-dashboard-items-to-data/binding-dashboard-items-to-data.md). For the Card dashboard item, format rules also can be calculated with [delta](../designing-dashboard-items/cards/delta.md) values. 
+	The invoked dialog contains the **calculated by** combo box, where you can select the item whose values are used to calculate the format rule. You can use [measures or dimensions](../binding-dashboard-items-to-data/binding-dashboard-items-to-data.md) to calculate a format rule. For the Card dashboard item, format rules are also calculated with [delta](../designing-dashboard-items/cards/delta.md) values. 
 	Specify the delta type if you calculate a condition by delta in the **using** combo box. Click the **Add** button, select the format rule from the pop-up menu, and specify the rule's condition:
 
 	![](../../../images/win-conditional-formatting-card-rule-manager.png)
