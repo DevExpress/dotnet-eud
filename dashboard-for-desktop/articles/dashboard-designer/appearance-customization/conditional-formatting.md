@@ -38,7 +38,7 @@ Format conditions that can be applied to different data item types are as follow
 	* [Expression](conditional-formatting/expression.md)
 * date-time
 	* [Value](conditional-formatting/value.md)
-	* [A Date Occurring](conditional-formatting/value.md) for dimensions with the continuous date-time group interval
+	* [A Date Occurring](conditional-formatting/value.md) (for dimensions with a continuous date-time group interval)
 	* [Expression](conditional-formatting/expression.md)
 	* [Icon Ranges](conditional-formatting/icon-ranges.md)
 	* [Color Ranges](conditional-formatting/color-ranges.md)
