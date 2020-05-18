@@ -10,7 +10,7 @@ For the Card dashboard item, you can apply conditional formatting to the card's 
 ![](../../../../images/winforms-card-conditional-formatting.png)
 
 > [!Note]
-> Cards that use [legacy layout](https://docs.devexpress.com/Dashboard/113798/create-dashboards/create-dashboards-in-the-winforms-designer/designing-dashboard-items/cards/layout#legacy-layout-v162-and-earlier) do not support conditional formatting.
+> Cards that use a [legacy layout](https://docs.devexpress.com/Dashboard/113798/create-dashboards/create-dashboards-in-the-winforms-designer/designing-dashboard-items/cards/layout#legacy-layout-v162-and-earlier) do not support conditional formatting.
 
 ## Create a Format Rule
 
