@@ -112,7 +112,7 @@ This dialog allows you to perform the following actions.
 * To delete the selected rule, use the **Delete** button.
 * To reorder format rules, use the **Up** and **Down** buttons (the ![EditRules_UpButton](../../../images/img118698.png) and ![EditRules_DownButton](../../../images/img118699.png) icon, respectively). Reordering of rules allows you to specify the priority of rules from higher (a bottommost rule) to lower (a topmost rule).
 * To enable/disable the required rule, use the corresponding check box on the left column.
-* To create a new rule, click the **Add** button and select the required format condition. The **calculated by** combo box allows you to select the measure/dimension that is used to calculate the format rule. For Card, when you create a rule for delta, specify the delta type whose values are used to calculate a condition in the **using** combo box.
+* To create a new rule, click the **Add** button and select the required format condition. The **calculated by** combo box specifies the measure/dimension used to calculate the format rule. For a Card, when you create a delta rule, specify the delta type (whose values are used to calculate a condition) in the **using** combo box.
 * To filter format rules by the specified data item, use the **Filter by** combo box.
 
 To clear all rules for the specified data item, use the **Clear Rules** button in the data item's context menu.
