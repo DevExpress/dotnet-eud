@@ -61,7 +61,7 @@ The read-only **Resulting URI** field displays the resulting JSON URI.
 
 ![](../../../../images/web-dashboard-data-source-wizard-json-resulting-uri.png)
 
-Configure the basic HTTP authentication credentials and click **Next** to proceed to the [Select Data Fields](#select-data-fields) page. 
+Configure basic HTTP authentication credentials and click **Next** to proceed to the [Select Data Fields](#select-data-fields) page. 
 
 ### JSON String
 
