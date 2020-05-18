@@ -16,7 +16,7 @@ For the Card dashboard item, you can apply conditional formatting to the card's 
 
 You can create format rules in the following ways:
 
-* Click the Edit Rules button on the Home ribbon tab.
+* Click the **Edit Rules** button in the **Home** ribbon tab.
 
    ![EditRules_Ribbon](../../../../images/editrules_ribbon118564.png)
 
