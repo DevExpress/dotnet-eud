@@ -24,7 +24,7 @@ To invoke the Prefilter, click an empty space within the Pivot Table header regi
 
 ## Filter Panel
 
-After you built and applied a filter condition, a **Filter Panel** appears at the Pivot Table bottom. This panel displays the filter condition.
+After you have built and applied a filter condition, a **Filter Panel** appears at the bottom of the Pivot Table. This panel displays the filter condition.
 
 ![EU_PrefilterPanel](../../../../images/img15871.png)
 
