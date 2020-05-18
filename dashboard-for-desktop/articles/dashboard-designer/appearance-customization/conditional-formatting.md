@@ -21,7 +21,7 @@ Comparison rules used in conditional formatting can be divided into the followin
 * [Bar Color Ranges](conditional-formatting/bar-color-ranges.md) - Allows you to visualize numeric values using bars whose colors are contained in the specified color set.
 * [Bar Gradient Ranges](conditional-formatting/bar-gradient-ranges.md) - Allows you to visualize numeric values using bars whose colors are contained in the specified color gradient.
 
-The list below shows format conditions that can be applied to different types of data items.
+Format conditions that can be applied to different data item types are as follows:
 * numeric
 	* [Value](conditional-formatting/value.md)
 	* [Top-Bottom](conditional-formatting/top-bottom.md)
