@@ -44,7 +44,7 @@ The image below displays the Greater Than dialog that corresponds to the Value f
 
 ![](../../../../images/win-conditional-formatting-cards-appearance-settings-window.png)
 
-A background color applies to the entire card. In this case, the **Apply to** drop-down list is not in effect.
+The background color applies to the entire card. Note that the **Apply to** drop-down list is not in effect.
 
 ![](../../../../images/win-conditional-formatting-cards-background.png)
 
