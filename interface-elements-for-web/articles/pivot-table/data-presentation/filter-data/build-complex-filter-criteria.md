@@ -28,7 +28,7 @@ After you have built and applied a filter condition, a **Filter Panel** appears 
 
 ![EU_PrefilterPanel](../../../../images/img15871.png)
 
-The Filter Panel displays a filter expression, a check box used to temporarily enable/disable the filtering, and a clear button used to reset the current filter condition.
+The Filter Panel displays a filter expression, a check box used to temporarily enable/disable the filter, and a 'clear' button used to reset the current filter condition.
 
 To modify a filter condition, open the Filter Editor. Click a filter condition displayed in the filter panel to invoke it.
 
