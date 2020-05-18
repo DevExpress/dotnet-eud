@@ -20,7 +20,7 @@ You can create format rules in the following ways:
 
    ![EditRules_Ribbon](../../../../images/editrules_ribbon118564.png)
 
-   The invoked dialog contains the **calculated by** combo box where you can select the item whose values are used to calculate the format rule. 
+   The invoked dialog contains the **calculated by** combo box, where you can select the item whose values are used to calculate the format rule. 
     
    * To apply a format rule to a specific card, calculate a format rule by delta values. The [expression](../../appearance-customization/conditional-formatting/expression.md) format condition is an exception to this rule and applies to all cards.
    * To apply a format rule to all cards in the Card item, calculate a rule by hidden measures and series dimensions.
