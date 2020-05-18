@@ -81,7 +81,7 @@ Format rule settings depend on the dashboard item. Refer to the following sectio
 ## Specify Appearance Settings
 You can configure and customize current format condition appearance settings.
 
-* The **Appearance** tab allows you to choose the predefined background color/font.
+* The **Appearance** tab allows you to choose a predefined background color/font.
 	
 	![NewRuleDialog_AppearanceTab](../../../images/img118585.png)
 * The **Icons** tab allows you to add the predefined icon.
