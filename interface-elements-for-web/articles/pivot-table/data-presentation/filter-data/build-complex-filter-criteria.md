@@ -16,7 +16,7 @@ The Pivot Table synchronizes filters applied in [Filter Windows](filter-data-by-
 
 If you use **classic** mode, a **Prefilter** is available instead.
 
-The Prefilter does not affect filters applied in the Filter Windows.
+Note that the Prefilter does not affect filters applied in Filter Windows.
 
 To invoke the Prefilter, click an empty space within the Pivot Table header region and select **Show Prefilter** from the context menu.
 
