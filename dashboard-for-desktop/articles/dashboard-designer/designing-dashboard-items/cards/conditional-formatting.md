@@ -53,7 +53,7 @@ A background color applies to the entire card. In this case, the **Apply to** dr
 ## Edit a Format Rule
 
 To edit format rules for the current Card dashboard item, use the following options.
-* Click the **Edit Rules** button in the **Home** ribbon tab or use corresponding item in the Card context menu.
+* Click the **Edit Rules** button in the **Home** ribbon tab or use a corresponding item in the Card context menu.
 * Click the [menu button](../../ui-elements/data-items-pane.md) for the required data item and select **Edit Rules**.
 
 All of these actions invoke the **Edit Rules** dialog that contains existing format rules. For more information, see [Conditional Formatting](../../appearance-customization/conditional-formatting.md).
