@@ -9,7 +9,7 @@ The Pivot Grid Control allows you to pin columns to the left or rightmost edge. 
 
  ![](../../../images/win-pivot-fixed-pinned-columns.png)
 
- To pin or unpin a column, right-click the column's header and select the corresponding command:
+ To pin or unpin a column, right-click the column header and select the corresponding command:
 
  ![](../../../images/win-pivot-fixed-columns-pin-column.png)  
 
