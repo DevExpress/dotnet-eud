@@ -34,7 +34,7 @@ Format conditions that can be applied to different data item types are as follow
 	* [Bar Color Ranges](conditional-formatting/bar-color-ranges.md) <sup>1</sup> 
 	* [Bar Gradient Ranges](conditional-formatting/bar-gradient-ranges.md) <sup>1</sup> 
 * string 
-	* [Value](conditional-formatting/value.md) with the condition type set to _Equal To_, _Not Equal To_ or _Text that Contains_
+	* [Value](conditional-formatting/value.md) (with a condition type set to _Equal To_, _Not Equal To_ or _Text that Contains_)
 	* [Expression](conditional-formatting/expression.md)
 * date-time
 	* [Value](conditional-formatting/value.md)
