@@ -88,7 +88,7 @@ You can configure and customize current format condition appearance settings.
 	
 	![NewRuleDialog_IconsTab](../../../images/img118586.png)
 
-* Use the **Custom Appearance** area in the **Appearance** tab to add presets containing custom appearance settings. To add a new preset, click an empty square. This invokes the **Custom Style Settings** dialog, allowing you to specify the required appearance settings.
+* Use the **Custom Appearance** area in the **Appearance** tab to add presets containing custom appearance settings. To add a new preset, click an empty square. This invokes the **Custom Style Settings** dialog, which allows you to specify required appearance settings.
 	
 	![CustomStyleSettingsDialog](../../../images/img118587.png)
 	
