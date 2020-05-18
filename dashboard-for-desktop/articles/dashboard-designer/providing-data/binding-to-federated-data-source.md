@@ -25,7 +25,7 @@ To create a federated data source with the Data Source Wizard, perform the follo
 
    **Join**
 
-   Combines rows from two or more tables based on a column they share. The join type specifies records that have matching values in both tables.
+   Combines rows from two or more tables based on a shared column. The 'join' type specifies records with matching values in both tables.
      
     Drag-and-drop the data sources, specify the related column to create the relationship between tables, and select the columns you want to include in the query. Columns included in the query are displayed in the bottom pane where you can configure their settings.
 
