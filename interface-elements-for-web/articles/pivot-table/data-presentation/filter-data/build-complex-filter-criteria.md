@@ -30,6 +30,6 @@ After you have built and applied a filter condition, a **Filter Panel** appears 
 
 The Filter Panel displays a filter expression, a check box used to temporarily enable/disable the filter, and a 'clear' button used to reset the current filter condition.
 
-To modify a filter condition, open the Filter Editor. Click a filter condition displayed in the filter panel to invoke it.
+To modify a filter condition, open the Filter Editor. In the filter panel, click a filter condition to invoke it.
 
 For information on the Filter Editor filtering capabilities, see [Filter Editor](../../../filter-editor.md).
