@@ -12,7 +12,7 @@ To invoke the Filter Editor, click an empty space within the Pivot Table header 
 
 ![EU_Filter](../../../../images/img15870.png)
 
-The Pivot Table synchronizes filters applied in the [Filter Windows](filter-data-by-field-values/using-filter-popup-windows.md) and Filter Editor. You can customize the resulting filter sting or clear it to reset the applied filters.
+The Pivot Table synchronizes filters applied in [Filter Windows](filter-data-by-field-values/using-filter-popup-windows.md) and the Filter Editor. You can customize the filter sting or clear it to reset applied filters.
 
 If you use a **classic** mode, a **Prefilter** is available instead.
 
