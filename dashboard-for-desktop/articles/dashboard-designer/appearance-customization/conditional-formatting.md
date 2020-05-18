@@ -11,7 +11,7 @@ The Dashboard Designer control supports conditional formatting. You can apply a 
 Comparison rules used in conditional formatting can be divided into the following groups:
 * [Value](conditional-formatting/value.md) - Allows you to compare static values (such as Greater Than, Less Than, Between, etc.).
 * [Top-Bottom](conditional-formatting/top-bottom.md) - Highlights a specific number of top/bottom values (Top N, Bottom N).
-* [Average](conditional-formatting/average.md) - Highlights values above the average value or below the average value.
+* [Average](conditional-formatting/average.md) - Highlights values above or below the average value.
 * [A Date Occurring](conditional-formatting/a-date-occurring.md) - Allows you to highlight date-time values that fall into a specified interval.
 * [Expression](conditional-formatting/expression.md) - Allows you to use complex conditions to apply formatting. You can also pass dashboard parameters to expressions.
 * [Icon Ranges](conditional-formatting/icon-ranges.md) - Allows you to apply formatting by displaying specific icons for different ranges of values. You can select a predefined set of icons or use a specific icon for each range.
