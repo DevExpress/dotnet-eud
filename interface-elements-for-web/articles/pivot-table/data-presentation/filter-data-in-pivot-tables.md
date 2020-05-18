@@ -6,7 +6,7 @@ legacyId: 5372
 # Filter Data in Pivot Tables
 By default, the Pivot Table processes all records when calculating its values. Data filtering allows you to process only those records that meet your requirements.
 
-Topics in this section describe two ways of filtering data in Pivot Tables - using Filter Windows (provide simple filtering capabilities) and the Filter Editor (used for advanced filtering).
+This section explains how to use Filter Windows (for simple filtering) and the Filter Editor (for advanced filtering) to filter Pivot Table data.
 
 The following sections and topics are available:
 * [Filter Data by Field Values](filter-data/filter-data-by-field-values.md)
