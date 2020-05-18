@@ -39,7 +39,7 @@ Specify appearance settings and set the condition's value for the format rule. A
 
 The appearance settings dialog contains the **Apply to** drop-down list. Select a [layout element](layout.md) to which you want to apply a format rule. Select _All elements_ to apply the format rule to all card elements. 
 
-The image below displays the Greater Than dialog corresponding to the Value format condition. 
+The image below displays the Greater Than dialog that corresponds to the Value format condition. 
 
 
 ![](../../../../images/win-conditional-formatting-cards-appearance-settings-window.png)
