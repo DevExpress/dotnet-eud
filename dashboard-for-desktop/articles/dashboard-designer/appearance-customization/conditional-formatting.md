@@ -8,7 +8,7 @@ The Dashboard Designer control supports conditional formatting. You can apply a 
 
 ![BlogDashboard_ConditionalFormatting](../../../images/img118090.png)
 
-Comparison rules used in conditional formatting can be divided into the following groups:
+Comparison rules used in conditional formatting can be categorized as follows:
 * [Value](conditional-formatting/value.md) - Allows you to compare static values (such as Greater Than, Less Than, Between, etc.).
 * [Top-Bottom](conditional-formatting/top-bottom.md) - Highlights a specific number of top/bottom values (Top N, Bottom N).
 * [Average](conditional-formatting/average.md) - Highlights values above or below the average value.
