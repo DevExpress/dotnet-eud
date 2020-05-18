@@ -14,7 +14,7 @@ To invoke the Filter Editor, click an empty space within the Pivot Table header 
 
 The Pivot Table synchronizes filters applied in [Filter Windows](filter-data-by-field-values/using-filter-popup-windows.md) and the Filter Editor. You can customize the filter sting or clear it to reset applied filters.
 
-If you use a **classic** mode, a **Prefilter** is available instead.
+If you use **classic** mode, a **Prefilter** is available instead.
 
 The Prefilter does not affect filters applied in the Filter Windows.
 
