@@ -73,7 +73,7 @@ For the Grid dashboard item, you can also right-click the column's header, selec
  ![GreaterThanDialog](../../../images/img118555.png)
 
 	
-Settings, where you can apply a format rule, depend on the dashboard item. Refer to the following sections for more information:
+Format rule settings depend on the dashboard item. Refer to the following sections for more information:
 * [Conditional Formatting - Grid](../designing-dashboard-items/grid/conditional-formatting.md)
 * [Conditional Formatting - Pivot](../designing-dashboard-items/pivot/conditional-formatting.md)
 * [Conditional Formatting - Card](../designing-dashboard-items/cards/conditional-formatting.md)
