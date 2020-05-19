@@ -26,7 +26,7 @@ This section provides the following topics.
 	Shows how to format values displayed within a card.
 * [Interactivity](cards/interactivity.md)
 	
-	Describes features that enable interaction between the Card dashboard item and other items.
+	Describes features that enable interaction between a Card dashboard item and other items.
 * [Cards Arrangement](cards/cards-arrangement.md)
 	
 	Describes how to arrange cards within the Card dashboard item.
