@@ -23,7 +23,7 @@ Specify the data item/card used to calculate a condition in the **Common** secti
 Available settings in the **Common** section depend on the selected **Calculated by** option:
 
 * If you select the **Card** option, specify the card by whose values the format rule is calculated. The format rule applies to the [related card](providing-data.md). The **Value Type** option enables you to specify the card's value type according to which a condition is calculated. The **expression** format condition is an exception to this rule and applies to all cards.
-* For the **Data Item** option you can choose a hidden measure or series dimension. The rule applies to all cards in the Card item.
+* The **Data Item** option allows you to select a hidden measure or a series dimension. The rule applies to all cards in the Card item.
 
 Select a format rule type from the list to open its settings.
 	
