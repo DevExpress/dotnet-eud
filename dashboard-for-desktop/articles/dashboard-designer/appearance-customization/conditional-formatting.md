@@ -84,7 +84,7 @@ You can configure and customize current format condition appearance settings.
 * The **Appearance** tab allows you to choose a predefined background color/font.
 	
 	![NewRuleDialog_AppearanceTab](../../../images/img118585.png)
-* The **Icons** tab allows you to add the predefined icon.
+* You can add a predefined icon in the **Icons** tab.
 	
 	![NewRuleDialog_IconsTab](../../../images/img118586.png)
 
