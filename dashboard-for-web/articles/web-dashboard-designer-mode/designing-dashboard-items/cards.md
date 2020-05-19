@@ -32,4 +32,4 @@ This section provides the following topics.
 	Describes how to arrange cards within a Card dashboard item.
 * [Conditional Formatting](cards/conditional-formatting.md)	
 
-	Describes how to format the Card dashboard item’s elements whose values meet a specified condition.
+	Describes how to format a Card dashboard item’s elements when its values meet a specified condition.	

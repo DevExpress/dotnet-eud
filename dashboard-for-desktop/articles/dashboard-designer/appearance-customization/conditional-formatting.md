@@ -9,13 +9,13 @@ The Dashboard Designer control supports conditional formatting. You can apply a 
 ![BlogDashboard_ConditionalFormatting](../../../images/img118090.png)
 
 Comparison rules used in conditional formatting can be categorized as follows:
-* [Value](conditional-formatting/value.md) - Allows you to compare static values (such as Greater Than, Less Than, Between, etc.).
+* [Value](conditional-formatting/value.md) - Compares static values (Greater Than, Less Than, Between, etc.).
 * [Top-Bottom](conditional-formatting/top-bottom.md) - Highlights a specific number of top/bottom values (Top N, Bottom N).
 * [Average](conditional-formatting/average.md) - Highlights values above or below the average value.
-* [A Date Occurring](conditional-formatting/a-date-occurring.md) - Allows you to highlight date-time values that fall into a specified interval.
-* [Expression](conditional-formatting/expression.md) - Allows you to use complex conditions to apply formatting. You can also pass dashboard parameters to expressions.
-* [Icon Ranges](conditional-formatting/icon-ranges.md) - Allows you to apply formatting by displaying specific icons for different ranges of values. You can select a predefined set of icons or use a specific icon for each range.
-* [Color Ranges](conditional-formatting/color-ranges.md) - Allows you to apply formatting using specific colors for different ranges of values. You can select a predefined set of colors or use custom appearance settings to highlight values within specified ranges.
+* [A Date Occurring](conditional-formatting/a-date-occurring.md) -  Highlights date-time values that are within a specified interval.
+* [Expression](conditional-formatting/expression.md) - Uses complex conditions to apply formatting. You can also pass dashboard parameters to expressions.
+* [Icon Ranges](conditional-formatting/icon-ranges.md) - Display a specific icon based on a value range. You can select a predefined set of icons or apply a specific icon to each range.
+* [Color Ranges](conditional-formatting/color-ranges.md) - Apply specific colors to different value ranges. You can select a predefined set of colors or use custom appearance settings to highlight values within specified ranges.
 * [Gradient Ranges](conditional-formatting/gradient-ranges.md) - Allows you to apply formatting using gradient color scales.
 * [Bar](conditional-formatting/bar.md) - Allows you to visualize numeric values using bars. You can also color bars corresponding to positive and negative values using different colors.
 * [Bar Color Ranges](conditional-formatting/bar-color-ranges.md) - Visualizes numeric values as bars. Values within a range display a specific color.
@@ -107,12 +107,12 @@ This invokes the **Edit Rules** dialog containing existing format rules for this
 
 ![EditRulesDialog](../../../images/img118565.png)
 
-This dialog allows you to perform the following actions.
-* To edit the selected rule, use the **Edit** button or double-click the required rule.
-* To delete the selected rule, use the **Delete** button.
-* To reorder format rules, use the **Up** and **Down** buttons (![EditRules_UpButton](../../../images/img118698.png) and ![EditRules_DownButton](../../../images/img118699.png) icons). The reorder of rules reverses rule priority from high (for the lowest rule) to low (for the highest rule).
-* To enable/disable the required rule, use the corresponding check box on the left column.
-* To create a new rule, click the **Add** button and select the required format condition. The **calculated by** combo box specifies the measure/dimension used to calculate the format rule. For a Card, when you create a delta rule, specify the delta type (whose values are used to calculate a condition) in the **using** combo box.
-* To filter format rules by the specified data item, use the **Filter by** combo box.
+This dialog allows you to:
+* Edit the selected rule, use the **Edit** button or double-click the required rule.
+* Delete the selected rule, use the **Delete** button.
+* Reorder format rules, use the **Up** and **Down** buttons (![EditRules_UpButton](../../../images/img118698.png) and ![EditRules_DownButton](../../../images/img118699.png) icons). The reorder of rules reverses rule priority from high (for the lowest rule) to low (for the highest rule).
+* Enable/disable the required rule, use the corresponding check box on the left column.
+* Create a new rule, click the **Add** button and select the required format condition. The **calculated by** combo box specifies the measure/dimension used to calculate the format rule. For a Card, when you create a delta rule, specify the delta type (whose values are used to calculate a condition) in the **using** combo box.
+* Filter format rules by the specified data item, use the **Filter by** combo box.
 
 To clear all rules for the specified data item, use the **Clear Rules** button in the data item's context menu.

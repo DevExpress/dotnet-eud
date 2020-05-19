@@ -34,7 +34,7 @@ The table below lists format conditions that can be applied to different types o
 	* **Value**
 	* **Top-Bottom**
 	* **Average**
-	* **Expression**
+	* **Expression** 
 	* **Icon Ranges**
 	* **Color Ranges**
 	* **Gradient Ranges**
