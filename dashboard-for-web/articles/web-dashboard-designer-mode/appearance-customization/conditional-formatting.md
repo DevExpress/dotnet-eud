@@ -6,7 +6,7 @@ legacyId: 117564
 # Conditional Formatting
 The Web Dashboard supports conditional formatting. You can apply a custom style to data elements that satisfy a certain condition. 
 
-For more information about conditional formatting specifics for different dashboard items, see the following topics:
+For more information about conditional formatting for different dashboard items, see the following topics:
 
 * [Conditional Formatting - Grid](../designing-dashboard-items/grid/conditional-formatting.md)
 * [Conditional Formatting - Pivot](../designing-dashboard-items/pivot/conditional-formatting.md)
@@ -110,4 +110,3 @@ The format rule's menu **Condition** section contains appearance settings. You c
 You can also customize predefined colors and values for each Range format rule.
 
 ![wdd-cf-range-gallery](../../../images/img126043.png)
-
