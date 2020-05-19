@@ -10,7 +10,7 @@ The Web Dashboard allows you to group dimension values and display summaries for
 Date-time values support the following group intervals.
  
 > [!NOTE]
-> Examples in the table below are formatted using the default settings. To learn how to customize format settings, see [Formatting Data](formatting-data.md).
+> Examples in the table below are formatted with the default settings. To learn how to customize format settings, see the following help topic: [Formatting Data](formatting-data.md).
 
 | Group interval | Description | Examples |
 |---|---|---|
