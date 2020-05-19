@@ -16,8 +16,8 @@ Comparison rules used in conditional formatting can be categorized as follows:
 * [Expression](conditional-formatting/expression.md) - Uses complex conditions to apply formatting. You can also pass dashboard parameters to expressions.
 * [Icon Ranges](conditional-formatting/icon-ranges.md) - Display a specific icon based on a value range. You can select a predefined set of icons or apply a specific icon to each range.
 * [Color Ranges](conditional-formatting/color-ranges.md) - Apply specific colors to different value ranges. You can select a predefined set of colors or use custom appearance settings to highlight values within specified ranges.
-* [Gradient Ranges](conditional-formatting/gradient-ranges.md) - Allows you to apply formatting using gradient color scales.
-* [Bar](conditional-formatting/bar.md) - Allows you to visualize numeric values using bars. You can also color bars corresponding to positive and negative values using different colors.
+* [Gradient Ranges](conditional-formatting/gradient-ranges.md) - Apply formatting using gradient color scales.
+* [Bar](conditional-formatting/bar.md) - Visualizes numeric values as bars. You can also color bars corresponding to positive and negative values using different colors.
 * [Bar Color Ranges](conditional-formatting/bar-color-ranges.md) - Visualizes numeric values as bars. Values within a range display a specific color.
 * [Bar Gradient Ranges](conditional-formatting/bar-gradient-ranges.md) - Visualizes numeric values as bars. Values within a range display a specific bar gradient.
 

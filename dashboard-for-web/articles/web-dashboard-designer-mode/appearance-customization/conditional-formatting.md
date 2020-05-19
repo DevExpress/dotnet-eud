@@ -22,8 +22,8 @@ Format rules used in conditional formatting can be categorized as follows:
 * **Expression** - Uses complex conditions to apply formatting. You can also pass dashboard parameters to expressions.
 * **Icon and Color Ranges** - Display a specific icon based on a value range. You can select a predefined set of icons or apply a specific icon to each range.
 * **Color Ranges** - Apply specific colors to different value ranges. You can select a predefined set of colors or use custom appearance settings to highlight values within specified ranges.
-* **Gradient Ranges** - Allows you to apply formatting using gradient color scales.
-* **Bar** - Allows you to visualize numeric values using bars. You can also color bars corresponding to positive and negative values using different colors.
+* **Gradient Ranges** - Apply formatting using gradient color scales.
+* **Bar** - Visualizes numeric values as bars. You can also color bars corresponding to positive and negative values using different colors.
 * **Bar Color Ranges** - Visualizes numeric values as bars. Values within a range display a specific color.
 * **Bar Gradient Ranges** - Visualizes numeric values as bars. Values within a range display a specific color.
 
