@@ -14,7 +14,7 @@ For more information about conditional formatting for different dashboard items,
 
 ![wdd-cf-main](../../../images/img126130.png)
 
-Format rules used in conditional formatting can be divided into the following groups:
+Format rules used in conditional formatting can be categorized as follows:
 * **Value** - Allows you to compare static values (such as Greater Than, Less Than, Between, etc.).
 * **Top-Bottom** - Highlights a specific number of topmost/bottommost values.
 * **Average** - Highlights values above the average value or below the average value.
