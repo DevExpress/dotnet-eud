@@ -66,7 +66,7 @@ You can create format rules in the following ways:
 
     ![AddFormatRule_ValueItem](../../../images/img118549.png)
 
-For the Grid dashboard item, you can also right-click the column's header, select **Add Format Rule** and choose the condition.
+For a Grid dashboard item, you can also right-click the column header, select **Add Format Rule** and choose the condition.
 
  Specify [appearance settings](#specify-appearance-settings) and set the condition's value for the format rule. Available settings depend on the selected format rule. The image below displays the **Greater Than** dialog corresponding to the [Value](conditional-formatting/value.md) format condition for the [Grid](../designing-dashboard-items/grid.md) dashboard item. _ExtendedPrice_ is a data item to which the format condition applies in the **Apply to** drop-down list.
 
