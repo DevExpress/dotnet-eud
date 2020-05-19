@@ -52,7 +52,7 @@ Follow the steps below to connect to the JSON data source:
 
     ![specify-data-source](../../../images/specify4.png)
 
-    Specify the expression in the invoked **Expression Editor**, and click **OK**. 
+    Specify the expression in the invoked **Expression Editor** and click **OK**. 
 
     ![](../../../images/winforms-dashboard-wizard-expression-editor.png)
 
@@ -84,4 +84,3 @@ Follow the steps below to connect to the JSON data source:
     ![specify-data-source](../../../images/specify5.png)
 
     Click **Finish** to create a JSON data source.
-
