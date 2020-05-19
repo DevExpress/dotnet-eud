@@ -62,7 +62,7 @@ You can create format rules in the following ways:
 
 	![](../../../images/win-conditional-formatting-card-rule-manager.png)
 
-* Click the measure/dimension menu button in the Data Item's pane and select **Add Format Rule** to invoke the same pop-up menu. For the Card, this menu is invoked when you click the series dimension/[hidden measure](../binding-dashboard-items-to-data/hidden-data-items.md) menu button.
+* Click the measure/dimension menu button in the Data Item's pane and select **Add Format Rule** to invoke its pop-up menu. For a Card, this menu is invoked when you click the series dimension/[hidden measure](../binding-dashboard-items-to-data/hidden-data-items.md) menu button.
 
     ![AddFormatRule_ValueItem](../../../images/img118549.png)
 
