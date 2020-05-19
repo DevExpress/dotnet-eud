@@ -65,7 +65,7 @@ Configure basic HTTP authentication credentials and click **Next** to proceed to
 
 ### JSON String
 
- A string that contains JSON data. You can also use the Upload JSON button to load content from the selected JSON file.
+ A string that contains JSON data. You can also use the **Upload JSON** button to load content from the selected JSON file.
 
 ![](../../../../images/web-dashboard-json-datasource-json-string.png)
 
