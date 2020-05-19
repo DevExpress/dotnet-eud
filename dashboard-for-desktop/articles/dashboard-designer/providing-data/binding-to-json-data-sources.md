@@ -14,7 +14,7 @@ Follow the steps below to connect to the JSON data source:
 
     ![new-data-source](../../../images/new-data-source.png)
 
-2. On the first page of the invoked **Data Source Wizard** dialog, select **JSON data** and click Next. 
+2. On the first page of the invoked **Data Source Wizard** dialog, select **JSON data** and click **Next**. 
 
     ![choose-data-source](../../../images/choose-data-source-2.png)
 
@@ -84,7 +84,6 @@ Follow the steps below to connect to the JSON data source:
     ![specify-data-source](../../../images/specify5.png)
 
     Click **Finish** to create a JSON data source.
-
 
 
 
