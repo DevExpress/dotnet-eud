@@ -42,7 +42,7 @@ The table below lists format conditions that can be applied to different types o
 	* **Bar Color Ranges** <sup>1</sup>
 	* **Bar Gradient Ranges** <sup>1</sup>
 * string 
-	* **Value** with the condition type set to _Equal To_, _Not Equal To_ or _Text that Contains_
+	* **Value** (with the condition type set to _Equal To_, _Not Equal To_ or _Text that Contains_)
 	* **Expression**
 * date-time 
 	* **Value**
