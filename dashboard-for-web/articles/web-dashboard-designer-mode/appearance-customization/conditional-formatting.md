@@ -98,7 +98,7 @@ When you edit a format rule, you can enable or disable the rule in the **Miscell
 
 ## Appearance Settings
 
-The format rule's menu **Condition** section contains appearance settings. You can configure and customize current format condition appearance settings:
+The format rule menu's **Condition** section contains appearance settings. You can configure and customize the following format condition appearance settings:
 
 * Choose a predefined background color or font in the **Appearance** tab.
 	
