@@ -57,13 +57,13 @@ Select the **Fields** section in the Expression Editor, double-click the predefi
 
 Path parameters and query parameters are included in endpoint requests in the order in which they are listed. Move a parameter up or down the list to change its position within an endpoint request.
 
-The read-only **Resulting URI** field displays the resulting JSON URI.
+The read-only **Resulting URI** field displays the result: a JSON URI.
 
 ![](../../../../images/web-dashboard-data-source-wizard-json-resulting-uri.png)
 
 Configure basic HTTP authentication credentials and click **Next** to proceed to the [Select Data Fields](#select-data-fields) page. 
 
-### JSON String
+### JSON String 
 
  A string that contains JSON data. You can also use the **Upload JSON** button to load content from the selected JSON file.
 

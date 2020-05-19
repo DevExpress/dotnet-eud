@@ -48,7 +48,7 @@ The background color applies to the entire card. Note that the **Apply to** drop
 
 ![](../../../../images/win-conditional-formatting-cards-background.png)
 
- Some predefined background styles contain a font color. This font color applies to all card elements regardless of drop-down list settings (for any card layout element).
+Some predefined background styles contain a font color. This font color applies to all card elements regardless of drop-down list settings (for any card layout element).
 
 ## Edit a Format Rule
 

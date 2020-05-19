@@ -4,7 +4,7 @@ author: Natalia Kazakova
 legacyId: 114184
 ---
 # Conditional Formatting
-The Dashboard Designer control supports conditional formatting. You can apply a custom style to data elements that satisfy a certain condition. Supported elements include cells in [Grid](../designing-dashboard-items/grid.md) or [Pivot Grid](../designing-dashboard-items/pivot.md), and cards in the [Card item](../designing-dashboard-items/cards.md).
+The Dashboard Designer control supports conditional formatting. You can apply a custom style to data elements that satisfy a certain condition. Supported elements include cells in [Grid](../designing-dashboard-items/grid.md) or [Pivot Grid](../designing-dashboard-items/pivot.md), and cards in a [Card item](../designing-dashboard-items/cards.md).
 
 ![BlogDashboard_ConditionalFormatting](../../../images/img118090.png)
 
@@ -18,8 +18,8 @@ Comparison rules used in conditional formatting can be categorized as follows:
 * [Color Ranges](conditional-formatting/color-ranges.md) - Apply specific colors to different value ranges. You can select a predefined set of colors or use custom appearance settings to highlight values within specified ranges.
 * [Gradient Ranges](conditional-formatting/gradient-ranges.md) - Apply formatting using gradient color scales.
 * [Bar](conditional-formatting/bar.md) - Visualizes numeric values as bars. You can also color bars corresponding to positive and negative values using different colors.
-* [Bar Color Ranges](conditional-formatting/bar-color-ranges.md) - Visualizes numeric values as bars. Values within a range display a specific color.
-* [Bar Gradient Ranges](conditional-formatting/bar-gradient-ranges.md) - Visualizes numeric values as bars. Values within a range display a specific bar gradient.
+* [Bar Color Ranges](conditional-formatting/bar-color-ranges.md) - Visualize numeric values as bars. Values within a range display a specific color.
+* [Bar Gradient Ranges](conditional-formatting/bar-gradient-ranges.md) - Visualize numeric values as bars. Values within a range display a specific bar gradient.
 
 Format conditions that can be applied to different data item types are as follows:
 * numeric
@@ -47,7 +47,7 @@ Format conditions that can be applied to different data item types are as follow
 	* [Bar Color Ranges](conditional-formatting/bar-color-ranges.md) <sup>1</sup> 
 	* [Bar Gradient Ranges](conditional-formatting/bar-gradient-ranges.md) <sup>1</sup> 
 
-	<sup>1</sup>  The Card dashboard item does not support these rules.
+	<sup>1</sup>  A Card dashboard item does not support these rules.
 
 ## Create a Format Rule
 

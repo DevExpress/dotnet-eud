@@ -24,8 +24,8 @@ Format rules used in conditional formatting can be categorized as follows:
 * **Color Ranges** - Apply specific colors to different value ranges. You can select a predefined set of colors or use custom appearance settings to highlight values within specified ranges.
 * **Gradient Ranges** - Apply formatting using gradient color scales.
 * **Bar** - Visualizes numeric values as bars. You can also color bars corresponding to positive and negative values using different colors.
-* **Bar Color Ranges** - Visualizes numeric values as bars. Values within a range display a specific color.
-* **Bar Gradient Ranges** - Visualizes numeric values as bars. Values within a range display a specific color.
+* **Bar Color Ranges** - Visualize numeric values as bars. Values within a range display a specific color.
+* **Bar Gradient Ranges** - Visualize numeric values as bars. Values within a range display a specific color.
 
 You can use [measure or dimension](../binding-dashboard-items-to-data/binding-dashboard-items-to-data-in-the-web-dashboard.md) values to calculate a format rule. For a Card dashboard item, you can also calculate format rules by [delta](../designing-dashboard-items/cards/delta.md) values.
 
@@ -94,7 +94,6 @@ Click **Delete** (the ![wdd-icon-delete-big](../../../images/img126104.png) icon
 When you edit a format rule, you can enable or disable the rule in the **Miscellaneous** section.
 
 ![](../../../images/web-conditional-formatting-edit-rule-miscellaneous-section.png)
-
 
 ## Appearance Settings
 

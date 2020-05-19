@@ -3,9 +3,9 @@ title: Conditional Formatting
 author: Margarita Zakhodyaeva
 ---
 
-# Conditional Formatting
+# Conditional Formatting 
 
-For the Card dashboard item, you can apply conditional formatting to the card's visual elements (like Title, Subtitle, different values) and change the card's background.
+For the Card dashboard item, you can apply conditional formatting to the card's visual elements (like Title, Subtitle, various values) and change the card's background.
 
 ![](../../../../images/web-dashboard-card-conditional-formatting.png)
 
@@ -41,7 +41,7 @@ If you select a background color, it applies to the entire card and the **Apply 
 
 ![](../../../../images/web-conditional-formatting-card.png)
 
-Some of the predefined background styles contain a font color. This font color applies to all the card's elements regardless of the drop-down list settings (all/particular element).
+Some predefined background styles contain a font color. This font color applies to all card elements regardless of drop-down list settings (for any card layout element).
 
 ## Edit a Format Rule
 
