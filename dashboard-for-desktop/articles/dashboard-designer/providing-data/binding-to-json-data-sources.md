@@ -59,7 +59,7 @@ Follow the steps below to connect to the JSON data source:
     An expression can include [dashboard parameters](../data-analysis/using-dashboard-parameters.md). 
 
     > [!Tip]
-    > Refer to the [Create Parameters](../data-analysis/using-dashboard-parameters/creating-parameters.md) topic for more information how to create a dashboard parameter.  
+    > Refer to the following help topic for details on how to create a dashboard parameter: [Create Parameters](../data-analysis/using-dashboard-parameters/creating-parameters.md).  
 
     Select **Add Dashboard Parameter** from the **Value** property's drop-down list, configure the dashboard parameter in the invoked **Dashboard Parameter** dialog, and click **OK**.  
 
