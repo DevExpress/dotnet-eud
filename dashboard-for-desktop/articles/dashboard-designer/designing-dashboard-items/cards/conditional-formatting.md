@@ -23,7 +23,7 @@ You can create format rules in the following ways:
    The invoked dialog contains the **calculated by** combo box, where you can select the item whose values are used to calculate the format rule. 
     
    * To apply a format rule to a specific card, use delta values to calculate the rule. The [expression](../../appearance-customization/conditional-formatting/expression.md) format condition is an exception to this rule and applies to all cards.
-   * To apply a format rule to all cards in the Card item, calculate a rule by hidden measures and series dimensions.
+   * To apply a format rule to all cards in a Card item, use hidden measures and series dimensions to calculate the rule.
 
    For a Card item, the Edit Rules dialog has a **using** combo box. If you use a delta calculation, specify the delta type in this box. Click the **Add** button, select the format rule from the pop-up menu, and specify the rule's condition:
 
