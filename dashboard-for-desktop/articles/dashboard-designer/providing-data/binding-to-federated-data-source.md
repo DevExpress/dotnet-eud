@@ -47,7 +47,7 @@ To create a federated data source with the Data Source Wizard, perform the follo
 
    When you are finished, click **OK**.
  
-5. The [Data Source Browser](../ui-elements/data-source-browser.md) displays the newly created Federation Data Source.
+5. The [Data Source Browser](../ui-elements/data-source-browser.md) displays the newly created Federated Data Source.
 
    The image below displays a new _Federation Data Source 1_ with a joined _SQlite Orders_ query.
 
