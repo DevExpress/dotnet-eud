@@ -75,7 +75,7 @@ Select a condition from the list and [specify its settings](#appearance-settings
 	
 Specify additional settings in the **Miscellaneous** section. For example, you can specify the intersection level for the Pivot or apply the current rule to a row in the Grid.
 
-See the following topics for more information about specific formatting settings of the dashboard items:
+See the following topics for more information about specific format settings for dashboard items:
 
 * [Conditional Formatting - Grid](../designing-dashboard-items/grid/conditional-formatting.md)
 * [Conditional Formatting - Pivot](../designing-dashboard-items/pivot/conditional-formatting.md)
