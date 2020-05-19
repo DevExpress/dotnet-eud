@@ -33,7 +33,7 @@ To create a federated data source with the Data Source Wizard, perform the follo
 
    **Union**
 
-   Combines rows from two or more tables into a single data set and removes duplicate rows in merged tables. You can only create a union query for data sources that contain similar columns with the same names. Data types of such columns should be [implicitly converted](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/types/casting-and-type-conversions#implicit-conversions).
+   Combines rows from two or more tables into a single data set and removes duplicate rows in merged tables. You can only create a union query for data sources that contain similar columns with the same name. Data types for these columns should be [implicitly converted](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/types/casting-and-type-conversions#implicit-conversions).
 
    Drag-and-drop the data sources to combine them in one. Unlike the join type, you cannot specify which columns to include in the union query. Columns included in the query are displayed in the bottom pane where you can specify the aliases of the newly created columns.
 
