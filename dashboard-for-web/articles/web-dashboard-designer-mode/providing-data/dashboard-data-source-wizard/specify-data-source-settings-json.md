@@ -33,7 +33,7 @@ A URL to a file in JSON format. You can also specify the Web Service Endpoint's 
 ![](../../../../images/web-dashboard-json-datasource-parameters.png)
 
 - A **path parameter** appends a path element to a JSON endpoint's Uri.
-- A **query parameter** specifies a HTTP request parameter that is passed to a JSON endpoint.
+- A **query parameter** specifies an HTTP request parameter that is passed to a JSON endpoint.
 - A **header** is a custom HTTP header of JSON endpoint requests.
 
 You can use expressions to specify path parameters, query parameter values, and headers.
