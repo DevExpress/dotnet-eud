@@ -16,7 +16,7 @@ For more information about conditional formatting for different dashboard items,
 
 Format rules used in conditional formatting can be categorized as follows:
 * **Value** - Compares static values (Greater Than, Less Than, Between, etc.).
-* **Top-Bottom** - Highlights a specific number of topmost/bottommost values.
+* **Top-Bottom** - Highlights a specific number of top/bottom values (Top N, Bottom N).
 * **Average** - Highlights values above the average value or below the average value.
 * **A Date Occurring** - Allows you to highlight date-time values that fall into a specified interval.
 * **Expression** - Allows you to use complex conditions to apply formatting. You can also pass dashboard parameters to expressions.
