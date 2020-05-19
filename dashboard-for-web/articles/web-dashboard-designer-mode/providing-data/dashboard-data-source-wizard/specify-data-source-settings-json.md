@@ -38,7 +38,7 @@ A URL to a file in JSON format. You can also specify the Web Service Endpoint's 
 
 You can use expressions to specify path parameters, query parameter values, and headers.
 
-Click the **F** icon  to switch the **Value** option to **Expression Editor** and click **...**  to invoke the editor.
+Click the **F** icon  to switch the **Value** option to **Expression Editor** and click the ellipsis button (**...**)  to invoke the editor.
 
 ![](../../../../images/web-dashboard-wizard-json-parameters-expression-editor-f-icon.png)
 
