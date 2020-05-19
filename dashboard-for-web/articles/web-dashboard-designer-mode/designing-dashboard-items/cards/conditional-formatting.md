@@ -35,7 +35,7 @@ Select a condition from the list and [specify its settings](#appearance-settings
 
 ## Appearance Settings  
 
-To apply the selected appearance to the Title, Subtitle, values and other card's layout elements, use the **Apply to** drop-down list. The _All elements_ value applies the format rule to all card elements.
+To apply the selected appearance to the Title, Subtitle, values, and other card layout elements, use the **Apply to** drop-down list. The _All elements_ value applies the format rule to all card elements.
 
 If you select a background color, it applies to the entire card and the **Apply to** value is not in effect.
 
