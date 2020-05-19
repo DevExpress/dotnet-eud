@@ -29,7 +29,7 @@ This section consists of the following subsections:
 	Describes features that enable interaction between a Card dashboard item and other items.
 * [Cards Arrangement](cards/cards-arrangement.md)
 	
-	Describes how to arrange cards within the Card dashboard item.
+	Describes how to arrange cards within a Card dashboard item.
 * [Conditional Formatting](cards/conditional-formatting.md)	
 
 	Describes how to format the Card dashboard item’s elements whose values meet a specified condition.	
