@@ -83,7 +83,7 @@ See the following topics for more information about specific format settings for
 
 ## Edit a Format Rule
 
-You can see existing format rules for the entire dashboard item. To do this, open the dashboard item's [Options](../ui-elements/dashboard-item-menu.md) menu and go to the **Conditional Formatting** section.
+You can see existing format rules for an entire dashboard item. To do this, open the dashboard item's [Options](../ui-elements/dashboard-item-menu.md) menu and go to the **Conditional Formatting** section.
 
 ![wdd-cf-all-rules](../../../images/img126046.png)
 
