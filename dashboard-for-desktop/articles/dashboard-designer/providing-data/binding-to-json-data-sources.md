@@ -71,7 +71,7 @@ Follow the steps below to connect to the JSON data source:
 
     ![](../../../images/winforms-dashboard-wizard-json-parameters-configured-uri.png)
 
-    Click **Next** to configure the basic HTTP authentication credentials and specify HTTP Header parameters. 
+    Click **Next** to configure basic HTTP authentication credentials and specify HTTP Header parameters. 
 
     ![](../../../images/winforms-dashboard-wizard-json-parameters-authentification.png)
 
