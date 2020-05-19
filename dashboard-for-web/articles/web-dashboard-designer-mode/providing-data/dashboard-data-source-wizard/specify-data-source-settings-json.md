@@ -28,7 +28,7 @@ Specify the connection name and select the JSON source type.
 
 ### Web Service Endpoint (URI)
 
-A URL to a file in the JSON format. You can also specify the Web Service Endpoint's request parameters (username and password, HTTP headers, or query parameters).
+A URL to a file in JSON format. You can also specify the Web Service Endpoint's request parameters (username and password, HTTP headers, or query parameters).
 
 ![](../../../../images/web-dashboard-json-datasource-parameters.png)
 
