@@ -46,7 +46,7 @@ Follow the steps below to connect to the JSON data source:
 
     - A **path parameter** appends a path element to a JSON endpoint's Uri.
     - A **query parameter** specifies an HTTP request parameter that is passed to a JSON endpoint.
-    - A **header** is a custom HTTP header of JSON endpoint requests.
+    - A **header** is a custom HTTP header in JSON endpoint requests.
 
     You can use expressions and dashboard parameters to set path parameters, query parameter values and headers. Click "+" icon to create a new parameter, enable the new parameter's **Expression** property and select **Expression Editor** from the **Value** property's drop-down list.
 
@@ -84,6 +84,5 @@ Follow the steps below to connect to the JSON data source:
     ![specify-data-source](../../../images/specify5.png)
 
     Click **Finish** to create a JSON data source.
-
 
 
