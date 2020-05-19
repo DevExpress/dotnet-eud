@@ -67,7 +67,7 @@ Follow the steps below to connect to the JSON data source:
 
     Path parameters and query parameters are included in endpoint requests in the order in which they are listed. Move a parameter up or down the list to change its position within an endpoint request.
 
-    The read-only **Resulting URI** field displays the resulting JSON URI.
+    The read-only **Resulting URI** field displays the result: a JSON URI.
 
     ![](../../../images/winforms-dashboard-wizard-json-parameters-configured-uri.png)
 
