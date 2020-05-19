@@ -79,7 +79,7 @@ Follow the steps below to connect to the JSON data source:
     
 ## Select Data Fields
 
-4. The "Select data fields" page allows you to include / exclude data fields used in a JSON data source.
+4. The "Select data fields" page allows you to include or exclude data fields used in a JSON data source.
 
     ![specify-data-source](../../../images/specify5.png)
 
