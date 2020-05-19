@@ -20,7 +20,7 @@ Format rules used in conditional formatting can be categorized as follows:
 * **Average** - Highlights values above or below the average value.
 * **A Date Occurring** - Highlights date-time values that are within a specified interval.
 * **Expression** - Uses complex conditions to apply formatting. You can also pass dashboard parameters to expressions.
-* **Icon and Color Ranges** - Allows you to apply formatting by displaying specific icons for different ranges of values. You can select a predefined set of icons or use a specific icon for each range.
+* **Icon and Color Ranges** - Display a specific icon based on a value range. You can select a predefined set of icons or apply a specific icon to each range.
 * **Color Ranges** - Allows you to apply formatting using specific colors for different ranges of values. You can select a predefined set of colors or use custom appearance settings to highlight values within specified ranges.
 * **Gradient Ranges** - Allows you to apply formatting using gradient color scales.
 * **Bar** - Allows you to visualize numeric values using bars. You can also color bars corresponding to positive and negative values using different colors.
