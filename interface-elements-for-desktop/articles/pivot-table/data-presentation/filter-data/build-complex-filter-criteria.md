@@ -12,7 +12,7 @@ To invoke the Filter Editor, click an empty space within the Pivot Table header 
 
 ![EU_XtraPivotGrid_ShowFieldListMenu](../../../../images/img7594.png)
 
-After you have built and applied a filter condition, a filter panel appears at the Pivot Table bottom. This panel displays the filter condition.
+After you have built and applied a filter condition, a filter panel appears at the bottom of the Pivot Table. This panel displays the filter condition.
 
 ![pivotgrid_FilterPanel](../../../../images/img13154.png)
 
