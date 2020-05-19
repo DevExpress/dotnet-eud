@@ -5,7 +5,7 @@ author: Margarita Zakhodyaeva
 
 # Conditional Formatting
 
-For the Card dashboard item, you can apply conditional formatting to the card's visual elements (like Title, Subtitle, different values) and change the card's background.
+For a Card dashboard item, you can apply conditional formatting to the card's visual elements (e.g., Title, Subtitle, various values) and change the card's background.
 
 ![](../../../../images/winforms-card-conditional-formatting.png)
 
