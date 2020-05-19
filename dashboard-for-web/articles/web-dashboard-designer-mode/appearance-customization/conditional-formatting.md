@@ -19,7 +19,7 @@ Format rules used in conditional formatting can be categorized as follows:
 * **Top-Bottom** - Highlights a specific number of top/bottom values (Top N, Bottom N).
 * **Average** - Highlights values above or below the average value.
 * **A Date Occurring** - Highlights date-time values that are within a specified interval.
-* **Expression** - Allows you to use complex conditions to apply formatting. You can also pass dashboard parameters to expressions.
+* **Expression** - Uses complex conditions to apply formatting. You can also pass dashboard parameters to expressions.
 * **Icon and Color Ranges** - Allows you to apply formatting by displaying specific icons for different ranges of values. You can select a predefined set of icons or use a specific icon for each range.
 * **Color Ranges** - Allows you to apply formatting using specific colors for different ranges of values. You can select a predefined set of colors or use custom appearance settings to highlight values within specified ranges.
 * **Gradient Ranges** - Allows you to apply formatting using gradient color scales.
