@@ -10,7 +10,7 @@ For the Card dashboard item, you can apply conditional formatting to the card's 
 ![](../../../../images/web-dashboard-card-conditional-formatting.png)
 
 > [!Note]
-> Cards that use [legacy layout](https://docs.devexpress.com/Dashboard/118608/create-dashboards/create-dashboards-on-the-web/designing-dashboard-items/cards/layout#legacy-layout-v162-and-earlier) do not support conditional formatting.
+> Cards that use a [legacy layout](https://docs.devexpress.com/Dashboard/118608/create-dashboards/create-dashboards-on-the-web/designing-dashboard-items/cards/layout#legacy-layout-v162-and-earlier) do not support conditional formatting.
 
 ## Create a Format Rule
 
