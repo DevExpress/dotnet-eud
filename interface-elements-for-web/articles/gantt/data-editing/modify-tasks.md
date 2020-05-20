@@ -62,6 +62,6 @@ Right-click a task and select the 'Delete Task' [context menu](~/interface-eleme
 
 ## Undo/Redo Changes
 
-Use Ctrl+Z and Ctrl+Y or "Undo" and "Redo" [toolbar buttons](~/interface-elements-for-web/articles/gantt/toolbar.md) to roll back changes.
+Use Ctrl+Z and Ctrl+Y or "Undo" and "Redo" [toolbar items](~/interface-elements-for-web/articles/gantt/toolbar.md) to roll back changes.
 
 ![](~/interface-elements-for-web/images/Gantt/undo-redo.gif)
