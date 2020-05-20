@@ -209,20 +209,16 @@
   href: articles/gantt.md
   items:
   - name: Context Menu
-    items:
-    - name: Context Menu
-      href: articles/gantt/context-menu/context-menu.md
+    href: articles/gantt/context-menu.md
   - name: Toolbar
-    items:
-    - name: Toolbar
-      href: articles/gantt/toolbar/toolbar.md
+    href: articles/gantt/toolbar.md
   - name: Data Editing
     items:
     - name: Add, Edit and Delete Tasks
       href: articles/gantt/data-editing/modify-tasks.md
     - name: Add and Delete Dependencies
       href: articles/gantt/data-editing/modify-dependencies.md
-    - name: Add and Delete Resources
+    - name: Add, Edit and Delete Resources
       href: articles/gantt/data-editing/modify-resources.md
 - name: Grid
   href: articles/grid.md

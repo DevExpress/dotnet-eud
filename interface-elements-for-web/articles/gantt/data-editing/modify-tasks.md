@@ -6,17 +6,15 @@ author: Anna Kondratova
 
 ## Add a Task
 
-To create a new task:
+Right-click a task and select the "Add" [context menu item](gantt/context-menu.md) or click the "Add Item" [toolbar item](gantt/toolbar.md) to create a task:
 
-* Right-click a task and select the "Add" [context menu](gantt/context-menu/context-menu.md) or [toolbar](gantt/toolbar/toolbar.md) item.
+- "New Task" - Appends a new task at the same level as the selected task.
 
-"New Task" - Appends a new task at the same level as the selected task.
+    ![](~/interface-elements-for-web/images/Gantt/add-new-task.png)
 
-![](~/interface-elements-for-web/images/Gantt/add-new-task.png)
+- "New Subtask" - Adds a child task to the selected task.
 
-"New Subtask" - Adds a child task to the selected task.
-
-![](~/interface-elements-for-web/images/Gantt/add-new-subtask.png)
+    ![](~/interface-elements-for-web/images/Gantt/add-new-subtask.png)
 
 ## Edit a Task
 
@@ -58,12 +56,12 @@ In the "Task Details" dialog, click OK to save the changes.
 
 ## Remove a Task
 
-Right-click a task and select the 'Delete Task' context menu](gantt/context-menu/context-menu.md) or [toolbar](gantt/toolbar/toolbar.md) item to remove a task.
+Right-click a task and select the 'Delete Task' context menu](gantt/context-menu.md) or [toolbar](gantt/toolbar.md) item to remove a task.
 
 ![](~/interface-elements-for-web/images/Gantt/delete-task.png)
 
 ## Undo/Redo Changes
 
-Use Ctrl+Z and Ctrl+Y or "Undo" and "Redo" [toolbar buttons](gantt/toolbar/toolbar.md) to roll back changes.
+Use Ctrl+Z and Ctrl+Y or "Undo" and "Redo" [toolbar buttons](gantt/toolbar.md) to roll back changes.
 
 ![](~/interface-elements-for-web/images/Gantt/undo-redo.gif)

@@ -16,6 +16,6 @@ Hold on the preceding task's required edge (marked with a circle) and drag the l
 
 ## Delete Dependency
 
-Right-click a dependency and select the "Delete Dependency" [context menu item](gantt/context-menu/context-menu.md).
+Right-click a dependency and select the "Delete Dependency" [context menu item](gantt/context-menu.md).
 
 ![](~/interface-elements-for-web/images/Gantt/delete-dependency.png)
