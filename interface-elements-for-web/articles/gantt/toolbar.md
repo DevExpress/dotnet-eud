@@ -3,6 +3,8 @@ title: Toolbar
 author: Anna Kondratova
 ---
 
+# Toolbar
+
 ![Gantt - toolbar](~/interface-elements-for-web/images/Gantt/toolbar.png)
 
 The toolbar provides the following commands:
