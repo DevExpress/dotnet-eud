@@ -249,6 +249,8 @@
       href: articles/pivot-table/data-presentation/apply-conditional-formatting.md
     - name: Change Summary Type in Pivot Tables
       href: articles/pivot-table/data-presentation/change-summary-type-in-pivot-tables.md
+    - name: Pinned (Fixed) Columns
+      href: articles/pivot-table/data-presentation/pinned-(fixed)-columns.md
   - name: Exporting and Printing
     href: articles/pivot-table/exporting-and-printing/exporting-and-printing.md
   - name: Layout Customization

@@ -164,6 +164,7 @@ _CriteriaOperator.Parse("[Region] != ?")_
 | GetDateHourMinuteSecond(DateTime) | Extracts the date part with the hour, minute, and second values from the defined DateTime. | GetDateHourMinuteSecond([OrderDate]) | 
 | GetDateMonthYear(DateTime) | Extracts the date with the month and year from the defined DateTime. | GetDateMonthYear([OrderDate]) | 
 | GetDateQuarterYear(DateTime) | Extracts the date with the quarter and year from the defined DateTime. | GetDateQuarterYear([OrderDate]) | 
+| GetDateWeekYear() |Returns the date of the first day of the week for a given DateTime (uses culture settings).  |   GetDateHourMinuteSecond([OrderDate])  |
 | GetDay(DateTime) | Extracts a day from the defined DateTime. | GetDay([OrderDate]) | 
 | GetDayOfWeek(DateTime) | Extracts a day of the week from the defined DateTime. | GetDayOfWeek([OrderDate]) | 
 | GetDayOfYear(DateTime) | Extracts a day of the year from the defined DateTime. | GetDayOfYear([OrderDate]) | 

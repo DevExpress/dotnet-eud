@@ -88,6 +88,7 @@ The following topic contains constants, operators, and functions you can use in 
 | DateDiffTick(startDate, endDate) | Returns the number of tick boundaries between two non-nullable dates. | DateDiffTick([StartTime], Now()) |
 | DateDiffYear(startDate, endDate) | Returns the number of year boundaries between two non-nullable dates. | DateDiffYear([StartTime], Now()) |
 | GetDate(DateTime) | Returns the date component of the specified DateTime. | GetDate([OrderDateTime]) |
+| GetDateWeekYear() |Returns the date of the first day of the week for a given DateTime (uses culture settings).  |   GetDateHourMinuteSecond([OrderDate])  |
 | GetDay(DateTime) | Returns an integer that is the day of the month in the specified DateTime. | GetDay([OrderDate]) |
 | GetDayOfWeek(DateTime) | Returns the day of the week in the specified DateTime. | GetDayOfWeek([OrderDate]) |
 | GetDayOfYear(DateTime) | Extracts the day of the year from the defined DateTime. | GetDayOfYear([OrderDate]) |

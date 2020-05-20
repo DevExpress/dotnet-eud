@@ -133,6 +133,8 @@
         href: articles/web-dashboard-designer-mode/designing-dashboard-items/cards/interactivity.md
       - name: Cards Arrangement
         href: articles/web-dashboard-designer-mode/designing-dashboard-items/cards/cards-arrangement.md
+      - name: Conditional Formatting
+        href: articles/web-dashboard-designer-mode/designing-dashboard-items/cards/conditional-formatting.md
     - name: Gauges
       href: articles/web-dashboard-designer-mode/designing-dashboard-items/gauges.md
       items:

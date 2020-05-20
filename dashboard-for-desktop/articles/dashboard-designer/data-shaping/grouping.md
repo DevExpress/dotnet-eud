@@ -3,7 +3,7 @@ title: Grouping
 author: Natalia Kazakova
 legacyId: 16530
 ---
-# Grouping
+# Grouping 
 The **Dashboard Designer** allows you to group dimension values and display summaries for entire groups rather than individual values.
 
 You can arrange dimension values in groups of different sizes by specifying the appropriate **group interval**. For instance, date-time values can be grouped by years, months, quarters, etc.
@@ -39,6 +39,7 @@ Date-time values support the following group intervals.
 | **Day of the Week** | Values are grouped by the day of the week. | Sunday, Monday, Tuesday, ... Saturday |
 | **Week of the Year** | Values are grouped by the week of the year. | 1, 2, 3, ... 52 |
 | **Week of the Month** | Values are grouped by the week of the month. | 1, 2, 3, 4, 5 |
+| **Week-Year**  |   Values are grouped by the date of the first day of the week (uses culture settings). |    7/1/2018, 7/8/2018, 7/15/2018, ... 11/4/2018, 11/11/2018, 11/18/2018, ...   |
 | **Month-Year** | Values are grouped by the year and month. | January 2012, February 2012, ... December 2012, January 2013, ... |
 | **Quarter-Year** | Values are grouped by the year and quarter. | Q3 2012, Q4 2012, Q1 2013, Q2 2013, ... |
 | **Day-Month-Year** | Values are grouped by date. | 3/4/2012, 3/5/2012, 3/6/2012, ... |
