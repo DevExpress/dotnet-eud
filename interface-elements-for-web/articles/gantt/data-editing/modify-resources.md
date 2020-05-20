@@ -4,7 +4,7 @@ author: Anna Kondratova
 ---
 # Add and Delete Resources
 
-Open the ["Task Details" dialog window](gantt/context-menu.md) to manage resources.
+Open the ["Task Details" dialog window](~/interface-elements-for-web/articles/gantt/context-menu.md) to manage resources.
 
 ## List of Available Resources
 
