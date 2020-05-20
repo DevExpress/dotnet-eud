@@ -6,7 +6,7 @@ author: Anna Kondratova
 
 ## Add a Task
 
-Right-click a task and select the "Add" [context menu item](~/interface-elements-for-web/articles/gantt/context-menu.md) or click the "Add Item" [toolbar item](~/interface-elements-for-web/articles/gantt/toolbar.md) to create a task:
+Right-click a task and select the "Add" [context menu item](~/interface-elements-for-web/articles/gantt/context-menu.md) or click the "Add Task" [toolbar item](~/interface-elements-for-web/articles/gantt/toolbar.md) to create a task:
 
 - "New Task" - Appends a new task at the same level as the selected task.
 

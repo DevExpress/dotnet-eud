@@ -3,7 +3,7 @@ title: Context Menu
 ---
 # Context Menu
 
-Right-click a task in the task list or Gantt chart to invoke the context menu.
+Right-click a task to invoke the context menu.
 
 ![Gantt - context menu](~/interface-elements-for-web/images/Gantt/context-menu.png)
 
