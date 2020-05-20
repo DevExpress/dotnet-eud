@@ -107,12 +107,13 @@ This invokes the **Edit Rules** dialog containing existing format rules for this
 
 ![EditRulesDialog](../../../images/img118565.png)
 
-This dialog allows you to:
-* Edit the selected rule, use the **Edit** button or double-click the required rule.
-* Delete the selected rule, use the **Delete** button.
-* Reorder format rules, use the **Up** and **Down** buttons (![EditRules_UpButton](../../../images/img118698.png) and ![EditRules_DownButton](../../../images/img118699.png) icons). The reorder of rules reverses rule priority from high (for the lowest rule) to low (for the highest rule).
-* Enable/disable the required rule, use the corresponding check box on the left column.
-* Create a new rule, click the **Add** button and select the required format condition. The **calculated by** combo box specifies the measure/dimension used to calculate the format rule. For a Card, when you create a delta rule, specify the delta type (whose values are used to calculate a condition) in the **using** combo box.
-* Filter format rules by the specified data item, use the **Filter by** combo box.
+|Action | Description|
+|----|-----|
+|Edit the selected rule|Use the **Edit** button or double-click the rule. |
+|Delete the selected rule|Use the **Delete** button. |
+|Reorder format rules|Use the **Up** and **Down** buttons (![EditRules_UpButton](../../../images/img118698.png) and ![EditRules_DownButton](../../../images/img118699.png) icons). You can reorder rules to specify their priority. Rules are applied from top to bottom. The bottom rule has the highest priority. |
+|Enable/disable a rule|Use the corresponding check box in the left column. |
+|Create a new rule|Click the **Add** button and select the format condition. The **calculated by** combo box allows you to select the measure/dimension that is used to calculate the format rule. For Card, when you create a rule for delta, specify the delta type whose values are used to calculate a condition in the **using** combo box. |
+|Filter format rules by the specified data item| Use the **Filter by** combo box. |
 
 To clear all rules for the specified data item, use the **Clear Rules** button in the data item's context menu.
