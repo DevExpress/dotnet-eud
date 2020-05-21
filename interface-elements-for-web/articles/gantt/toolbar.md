@@ -18,5 +18,5 @@ The toolbar provides the following commands:
 | Collapse Tasks  | Collapses all tasks. |
 | Expand Tasks | Expands all tasks. |
 | Zoom In | Zooms in on the chart. |
-| Zoom In and Zoom Out | Zooms out the chart. |
+| Zoom Out | Zooms out the chart. |
 | Full Screen | Switches the Gantt to full screen. |

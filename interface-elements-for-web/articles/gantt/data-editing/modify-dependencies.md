@@ -8,7 +8,7 @@ author: Anna Kondratova
 
 A dependency type specifies which edges (right or left - for preceding and succeeding tasks) serve as the start and end points for the dependency. 
 
-Hold on the preceding task's required edge (marked with a circle) and drag the line to the required edge of the succeeding task. 
+Move the mouse pointer above the preceding task's edge (marked with a circle) and drag the connector to the edge of the next task.
 
 "Finish-To-Start" dependency between tasks:
 
