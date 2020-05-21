@@ -851,6 +851,8 @@
     items:
     - name: Expression Syntax
       href: articles/report-designer/use-expressions/expression-syntax.md
+  - name: Localize Reports
+    href: articles/report-designer/localize-reports.md
   - name: Preview, Print and Export Reports
     href: articles/report-designer/preview-print-and-export-reports.md
   - name: Report Designer Tools
@@ -909,6 +911,8 @@
       href: articles/report-designer/report-designer-tools/master-detail-relation-editor.md
     - name: Script Editor
       href: articles/report-designer/report-designer-tools/script-editor.md
+    - name: Localization Editor
+      href: articles/report-designer/report-designer-tools/localization-editor.md
     - name: UI Panels
       href: articles/report-designer/report-designer-tools/ui-panels.md
       items:
