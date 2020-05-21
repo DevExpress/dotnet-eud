@@ -6,7 +6,7 @@ author: Anna Kondratova
 
 ## Add Dependency
 
-A dependency type specifies which edges (right or left) of the preceding and succeeding tasks serve as the start and end points for the dependency. 
+A dependency type specifies which edges (right or left - for preceding and succeeding tasks) serve as the start and end points for the dependency. 
 
 Hold on the preceding task's required edge (marked with a circle) and drag the line to the required edge of the succeeding task. 
 

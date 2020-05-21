@@ -6,9 +6,9 @@ author: Anna Kondratova
 
 ## Add a Task
 
-Right-click a task and select the "Add" [context menu item](~/interface-elements-for-web/articles/gantt/context-menu.md) or click the "Add Task" [toolbar item](~/interface-elements-for-web/articles/gantt/toolbar.md) to create a task:
+To create a task, right-click an existing task and select the "Add" [context menu item](~/interface-elements-for-web/articles/gantt/context-menu.md), or click the "Add Task" [toolbar item](~/interface-elements-for-web/articles/gantt/toolbar.md):
 
-- "New Task" - Appends a new task at the same level as the selected task.
+- "New Task" - Adds a new task at the same level as the selected task.
 
     ![](~/interface-elements-for-web/images/Gantt/add-new-task.png)
 
@@ -24,11 +24,11 @@ Use one of the approaches described below to edit a task.
 
     ![](~/interface-elements-for-web/images/Gantt/inline-editing.png)
 
-*  Right-click a task and select the "Task Details" context menu item (or double-click a task in the chart area).
+* Right-click a task and select the "Task Details" context menu item (or double-click a task in the chart area).
 
     ![](~/interface-elements-for-web/images/Gantt/popup-edit-form.png)
 
-* Hover the mouse pointer over the task you want to modify.
+* Move the mouse pointer over the task you want to modify.
 
     ![](~/interface-elements-for-web/images/Gantt/drag-and-drop.png)
 
@@ -36,7 +36,7 @@ Use one of the approaches described below to edit a task.
 
     ![](~/interface-elements-for-web/images/Gantt/moving.png)
 
-    **Resize** - Drag the resize handles at the task's edges to change the task duration.
+    **Resize** - Drag a resize handle (located at a task's edge) to change the task duration.
 
     ![](~/interface-elements-for-web/images/Gantt/resizing.png)
 
@@ -46,22 +46,22 @@ Use one of the approaches described below to edit a task.
 
 ## Save Changes
 
-The Gantt saves the changes right after you have edited a task in the task list or used drag and drop functionality.
+The Gantt saves changes right after you edit a task in the task list or perform a drag-and-drop operation.
 
 ![](~/interface-elements-for-web/images/Gantt/manage-tasks.gif)
 
-In the "Task Details" dialog, click OK to save the changes. 
+In the "Task Details" dialog, click OK to save changes. 
 
 ![](~/interface-elements-for-web/images/Gantt/dialog-ok.png)
 
 ## Remove a Task
 
-Right-click a task and select the 'Delete Task' [context menu](~/interface-elements-for-web/articles/gantt/context-menu.md) or [toolbar](~/interface-elements-for-web/articles/gantt/toolbar.md) item to remove a task.
+To remove a task, right-click a task and select the 'Delete Task' [context menu](~/interface-elements-for-web/articles/gantt/context-menu.md) item or [toolbar](~/interface-elements-for-web/articles/gantt/toolbar.md) item.
 
 ![](~/interface-elements-for-web/images/Gantt/delete-task.png)
 
 ## Undo/Redo Changes
 
-Use Ctrl+Z and Ctrl+Y or "Undo" and "Redo" [toolbar items](~/interface-elements-for-web/articles/gantt/toolbar.md) to roll back changes.
+Press Ctrl+Z or Ctrl+Y (or click "Undo" or "Redo" in the [toolbar](~/interface-elements-for-web/articles/gantt/toolbar.md)) to cancel or reverse changes.
 
 ![](~/interface-elements-for-web/images/Gantt/undo-redo.gif)
