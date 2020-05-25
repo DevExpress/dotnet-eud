@@ -32,7 +32,7 @@ Use one of the approaches described below to edit a task.
 
     ![](~/interface-elements-for-web/images/Gantt/drag-and-drop.png)
 
-    **Move** - Hold on the task and drag it to change its start and end time.
+    **Move** - Drag the task to change its start and end times.
 
     ![](~/interface-elements-for-web/images/Gantt/moving.png)
 
