@@ -1,6 +1,6 @@
 ---
 title: Filter Data by Field Values
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 11137
 ---
 # Filter Data by Field Values
@@ -17,4 +17,4 @@ The following topics are available:
 	Describes how to build filter conditions in Filter Popup Windows.
 * [Filtering Options](filter-data-by-field-values/filtering-options.md)
 	
-	Acquaints you with filtering options provided by the Pivot Table and describes how you can access these options via a specially designed toolbar.
+	Introduces Pivot Table filtering options and describes a specially designed toolbar to access them.

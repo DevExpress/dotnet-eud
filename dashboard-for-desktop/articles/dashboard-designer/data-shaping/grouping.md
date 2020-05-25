@@ -1,6 +1,6 @@
 ---
 title: Grouping
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 16530
 ---
 # Grouping

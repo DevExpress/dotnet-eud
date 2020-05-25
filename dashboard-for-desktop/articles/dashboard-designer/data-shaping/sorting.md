@@ -1,6 +1,6 @@
 ---
 title: Sorting
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 16531
 ---
 # Sorting

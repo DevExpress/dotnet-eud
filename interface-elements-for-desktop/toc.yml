@@ -200,6 +200,8 @@
       href: articles/pivot-table/data-editing/edit-data-in-pivot-tables.md
     - name: Edit Unbound Expression
       href: articles/pivot-table/data-editing/edit-unbound-expression.md
+    - name: Pivot Grid Expression Syntax
+      href: articles/pivot-table/data-editing/pivot-grid-expression-syntax.md
   - name: Data Presentation
     href: articles/pivot-table/data-presentation.md
     items:
@@ -220,9 +222,9 @@
       - name: Filter Data by Field Values
         href: articles/pivot-table/data-presentation/filter-data/filter-data-by-field-values.md
         items:
-        - name: Invoke a Filter Popup Window
+        - name: Invoke a Filter Window
           href: articles/pivot-table/data-presentation/filter-data/filter-data-by-field-values/invoke-a-filter-popup-window.md
-        - name: Using Filter Popup Windows
+        - name: Using Filter Windows
           href: articles/pivot-table/data-presentation/filter-data/filter-data-by-field-values/using-filter-popup-windows.md
         - name: Filtering Options
           href: articles/pivot-table/data-presentation/filter-data/filter-data-by-field-values/filtering-options.md
@@ -247,6 +249,8 @@
       href: articles/pivot-table/data-presentation/apply-conditional-formatting.md
     - name: Change Summary Type in Pivot Tables
       href: articles/pivot-table/data-presentation/change-summary-type-in-pivot-tables.md
+  - name: Exporting and Printing
+    href: articles/pivot-table/exporting-and-printing/exporting-and-printing.md
   - name: Layout Customization
     href: articles/pivot-table/layout-customization.md
     items:
@@ -497,6 +501,16 @@
         href: articles/report-designer/report-designer-for-winforms/bind-to-data/bind-a-report-to-an-excel-workbook.md
       - name: Bind a Report to a CSV File
         href: articles/report-designer/report-designer-for-winforms/bind-to-data/bind-a-report-to-a-csv-file.md   
+      - name: Bind a Report to a JSON data
+        href: articles/report-designer/report-designer-for-winforms/bind-to-data/bind-a-report-to-json-data.md
+      - name: Bind a Report to an XPO Persistent Object
+        href: articles\report-designer\report-designer-for-winforms\bind-to-data\bind-a-report-to-an-xpo-persistent-object.md        
+      - name: Bind a Report to a Join-Based Federated Data Source
+        href: articles\report-designer\report-designer-for-winforms\bind-to-data\bind-a-report-to-a-join-based-federated-data-source.md       
+      - name: Bind a Report to a Union-Based Federated Data Source
+        href: articles\report-designer\report-designer-for-winforms\bind-to-data\bind-a-report-to-a-union-based-federated-data-source.md        
+      - name: Bind a Report to a Federated Master-Detail Data Source
+        href: articles\report-designer\report-designer-for-winforms\bind-to-data\bind-a-report-to-a-federated-master-detail-data-source.md        
       - name: Data Binding Modes
         href: articles/report-designer/report-designer-for-winforms/bind-to-data/data-binding-modes.md
       - name: Bind Report Controls to Data (Expression Bindings)
@@ -520,14 +534,22 @@
         href: articles/report-designer/report-designer-for-winforms/create-popular-reports/create-a-master-detail-report-use-detail-report-bands.md   
       - name: Create a Master-Detail Report (Use Subreports)
         href: articles/report-designer/report-designer-for-winforms/create-popular-reports/create-a-master-detail-report-use-subreports.md
+      - name: Create a Hierarchical Report
+        href: articles\report-designer\report-designer-for-winforms\create-popular-reports\create-a-hierarchical-report.md         
+      - name: Create a Vertical Report
+        href: articles\report-designer\report-designer-for-winforms\create-popular-reports\create-a-vertical-report.md        
       - name: Create Labels and Badges
         href: articles/report-designer/report-designer-for-winforms/create-popular-reports/create-labels-and-badges.md
       - name: Create a Multi-Column Report
         href: articles/report-designer/report-designer-for-winforms/create-popular-reports/create-a-multi-column-report.md   
+      - name: Create a Report with Cross-Band Content and Populated Empty Space
+        href: articles/report-designer/report-designer-for-winforms/create-popular-reports/create-a-report-with-cross-band-content-and-populated-empty-space.md
       - name: Create an Interactive E-Form
         href: articles/report-designer/report-designer-for-winforms/create-popular-reports/create-an-interactive-e-form.md
       - name: Create a Cross-Tab Report
         href: articles/report-designer/report-designer-for-winforms/create-popular-reports/create-a-cross-tab-report.md
+      - name: Create a Balance Sheet
+        href: articles/report-designer/report-designer-for-winforms/create-popular-reports/create-a-balance-sheet.md
     - name: Configure Design Settings
       href: articles/report-designer/report-designer-for-winforms/configure-design-settings.md
       items:
@@ -549,6 +571,8 @@
           href: articles/report-designer/report-designer-for-winforms/use-report-elements/manipulate-report-elements/select-report-elements-and-access-their-settings.md
         - name: Move and Resize Report Elements
           href: articles/report-designer/report-designer-for-winforms/use-report-elements/manipulate-report-elements/move-and-resize-report-elements.md
+        - name: Apply Styles to Report Elements
+          href: articles/report-designer/report-designer-for-winforms/use-report-elements/manipulate-report-elements/apply-styles-to-report-elements.md
         - name: Copy Report Controls
           href: articles/report-designer/report-designer-for-winforms/use-report-elements/manipulate-report-elements/copy-report-controls.md
         - name: Reuse Report Controls
@@ -667,10 +691,23 @@
           href: articles/report-designer/report-designer-for-winforms/use-report-elements/use-charts-and-pivot-grids/add-a-chart-set-up-series-manually.md
         - name: Add a Chart (Use a Series Template)
           href: articles/report-designer/report-designer-for-winforms/use-report-elements/use-charts-and-pivot-grids/add-a-chart-use-a-series-template.md
-        - name: Use Charts to Visualize Data in Report Groups
-          href: articles/report-designer/report-designer-for-winforms/use-report-elements/use-charts-and-pivot-grids/use-charts-to-visualize-data-in-report-groups.md
+        - name: Use Charts to Visualize Grouped Data
+          href: articles/report-designer/report-designer-for-winforms/use-report-elements/use-charts-and-pivot-grids/use-charts-to-visualize-grouped-data.md
         - name: Link a Chart and a Pivot Grid
           href: articles/report-designer/report-designer-for-winforms/use-report-elements/use-charts-and-pivot-grids/link-a-chart-and-a-pivot-grid.md
+      - name: Use Cross Tabs
+        href: articles/report-designer/report-designer-for-winforms/use-report-elements/use-cross-tabs.md
+        items:
+        - name: Cross Tab Overview
+          href: articles/report-designer/report-designer-for-winforms/use-report-elements/use-cross-tabs/cross-tab-overview.md
+        - name: Cross Tab Fields
+          href: articles/report-designer/report-designer-for-winforms/use-report-elements/use-cross-tabs/cross-tab-fields.md
+        - name: Data Shaping
+          href: articles/report-designer/report-designer-for-winforms/use-report-elements/use-cross-tabs/data-shaping.md
+        - name: Layout and Print Options
+          href: articles/report-designer/report-designer-for-winforms/use-report-elements/use-cross-tabs/layout-and-print-options.md
+        - name: Cross Tab Appearance
+          href: articles/report-designer/report-designer-for-winforms/use-report-elements/use-cross-tabs/cross-tab-appearance.md
       - name: Use Gauges and Sparklines
         href: articles/report-designer/report-designer-for-winforms/use-report-elements/use-gauges-and-sparklines.md
         items:
@@ -721,6 +758,8 @@
           href: articles/report-designer/report-designer-for-winforms/shape-report-data/shape-data-expression-bindings/conditionally-change-a-control-appearance.md
         - name: Conditionally Change a Label's Text
           href: articles/report-designer/report-designer-for-winforms/shape-report-data/shape-data-expression-bindings/conditionally-change-a-label-text.md
+        - name: Conditionally Change a Band's Visibility
+          href: articles/report-designer/report-designer-for-winforms/shape-report-data/shape-data-expression-bindings/conditionally-change-a-bands-visibility-expression-bindings.md
         - name: Conditionally Filter Report Data
           href: articles/report-designer/report-designer-for-winforms/shape-report-data/shape-data-expression-bindings/conditionally-filter-report-data.md
         - name: Conditionally Suppress Controls
@@ -729,6 +768,8 @@
           href: articles/report-designer/report-designer-for-winforms/shape-report-data/shape-data-expression-bindings/limit-the-number-of-records-per-page.md
         - name: Calculate a Summary
           href: articles/report-designer/report-designer-for-winforms/shape-report-data/shape-data-expression-bindings/calculate-a-summary.md
+        - name: Calculate a Weighted Average
+          href: articles/report-designer/report-designer-for-winforms/shape-report-data/shape-data-data-bindings/calculate-a-weighted-average.md
         - name: Calculate an Advanced Summary
           href: articles/report-designer/report-designer-for-winforms/shape-report-data/shape-data-expression-bindings/calculate-an-advanced-summary.md
         - name: Display Row Numbers in a Report, Group or Page
@@ -746,6 +787,8 @@
           href: articles/report-designer/report-designer-for-winforms/shape-report-data/shape-data-data-bindings/conditionally-change-a-control-appearance.md
         - name: Conditionally Change a Label's Text
           href: articles/report-designer/report-designer-for-winforms/shape-report-data/shape-data-data-bindings/conditionally-change-a-label-text.md
+        - name: Conditionally Change a Band's Visibility
+          href: articles/report-designer/report-designer-for-winforms/shape-report-data/shape-data-data-bindings/conditionally-change-a-bands-visibility-data-binding.md
         - name: Conditionally Filter Report Data
           href: articles/report-designer/report-designer-for-winforms/shape-report-data/shape-data-data-bindings/conditionally-filter-report-data.md
         - name: Conditionally Suppress Controls
@@ -754,6 +797,8 @@
           href: articles/report-designer/report-designer-for-winforms/shape-report-data/shape-data-data-bindings/limit-the-number-of-records-per-page.md
         - name: Calculate a Summary
           href: articles/report-designer/report-designer-for-winforms/shape-report-data/shape-data-data-bindings/calculate-a-summary.md
+        - name: Calculate a Weighted Average
+          href: articles/report-designer/report-designer-for-winforms/shape-report-data/shape-data-expression-bindings/calculate-a-weighted-average.md
         - name: Calculate a Custom Summary
           href: articles/report-designer/report-designer-for-winforms/shape-report-data/shape-data-data-bindings/calculate-a-custom-summary.md
         - name: Display Row Numbers in a Report, Group or Page
@@ -769,19 +814,19 @@
           href: articles/report-designer/report-designer-for-winforms/shape-report-data/use-calculated-fields/calculated-fields-overview.md
         - name: Calculate an Aggregate Function
           href: articles/report-designer/report-designer-for-winforms/shape-report-data/use-calculated-fields/calculate-an-aggregate-function.md
-        - name: Calculate a Weighted Average Function
-          href: articles/report-designer/report-designer-for-winforms/shape-report-data/use-calculated-fields/calculate-a-weighted-average-function.md
       - name: Use Report Parameters
         href: articles/report-designer/report-designer-for-winforms/shape-report-data/use-report-parameters.md
         items:
         - name: Parameters Overview
           href: articles/report-designer/report-designer-for-winforms/shape-report-data/use-report-parameters/parameters-overview.md
-        - name: Create Multi-Value and Cascading Parameters
-          href: articles/report-designer/report-designer-for-winforms/shape-report-data/use-report-parameters/create-multi-value-and-cascading-parameters.md
+        - name: Multi-Value and Cascading Parameters
+          href: articles/report-designer/report-designer-for-winforms/shape-report-data/use-report-parameters/multi-value-and-cascading-parameters.md
+        - name: Date Range Parameters
+          href: articles/report-designer/report-designer-for-winforms/shape-report-data/use-report-parameters/date-range-parameters.md
         - name: Request and Pass Report Parameter Values
           href: articles/report-designer/report-designer-for-winforms/shape-report-data/use-report-parameters/request-and-pass-report-parameter-values.md
-        - name: Use Query Parameters
-          href: articles/report-designer/report-designer-for-winforms/shape-report-data/use-report-parameters/use-query-parameters.md
+        - name: Query Parameters
+          href: articles/report-designer/report-designer-for-winforms/shape-report-data/use-report-parameters/query-parameters.md
     - name: Lay out Dynamic Report Content
       href: articles/report-designer/report-designer-for-winforms/lay-out-dynamic-report-content.md
       items:
@@ -833,6 +878,13 @@
         href: articles/report-designer/report-designer-for-winforms/add-extra-information/display-the-user-name-in-a-report.md
       - name: Display the Current Date and Time in a Report
         href: articles/report-designer/report-designer-for-winforms/add-extra-information/display-the-current-date-and-time-in-a-report.md
+    - name: Merge Reports
+      href: articles/report-designer/report-designer-for-winforms/merge-reports.md
+      items:
+      - name: Add a Report to the End/Beginning
+        href: articles/report-designer/report-designer-for-winforms/merge-reports/add-a-report-to-the-end-beginning.md
+      - name: Use Data-Driven Page Sequence
+        href: articles/report-designer/report-designer-for-winforms/merge-reports/use-data-driven-page-sequence.md
     - name: Use Expressions
       href: articles/report-designer/report-designer-for-winforms/use-expressions.md
       items:
@@ -850,96 +902,135 @@
         items:
           - name: Choose a Report Type
             href: articles/report-designer/report-designer-for-winforms/report-designer-tools/report-wizard/choose-a-report-type.md
-          - name: Empty Report
-            href: articles/report-designer/report-designer-for-winforms/report-designer-tools/report-wizard/empty-report.md
-          - name: Data-Bound Report
-            href: articles/report-designer/report-designer-for-winforms/report-designer-tools/report-wizard/data-bound-report.md
+          - name: Blank Report
+            href: articles/report-designer/report-designer-for-winforms/report-designer-tools/report-wizard/blank-report.md
+          - name: Table Report
+            href: articles/report-designer/report-designer-for-winforms/report-designer-tools/report-wizard/table-report.md
             items:
             - name: Select the Data Source Type
-              href: articles/report-designer/report-designer-for-winforms/report-designer-tools/report-wizard/data-bound-report/select-the-data-source-type.md
-              items:
-              - name: Connect to a Database
-                href: articles/report-designer/report-designer-for-winforms/report-designer-tools/report-wizard/data-bound-report/connect-to-a-database.md
-                items:
-                - name: Select a Data Connection
-                  href: articles/report-designer/report-designer-for-winforms/report-designer-tools/report-wizard/data-bound-report/connect-to-a-database/select-a-data-connection.md
-                - name: Specify a Connection String
-                  href: articles/report-designer/report-designer-for-winforms/report-designer-tools/report-wizard/data-bound-report/connect-to-a-database/specify-a-connection-string.md
-                - name: Save the Connection String
-                  href: articles/report-designer/report-designer-for-winforms/report-designer-tools/report-wizard/data-bound-report/connect-to-a-database/save-the-connection-string.md
-                - name: Create a Query or Select a Stored Procedure
-                  href: articles/report-designer/report-designer-for-winforms/report-designer-tools/report-wizard/data-bound-report/connect-to-a-database/create-a-query-or-select-a-stored-procedure.md
-                - name: Configure Query Parameters
-                  href: articles/report-designer/report-designer-for-winforms/report-designer-tools/report-wizard/data-bound-report/connect-to-a-database/configure-query-parameters.md
-              - name: Connect to an Entity Framework Data Source
-                href: articles/report-designer/report-designer-for-winforms/report-designer-tools/report-wizard/data-bound-report/connect-to-an-entity-framework-data-source.md
-                items:
-                - name: Select the Data Context
-                  href: articles/report-designer/report-designer-for-winforms/report-designer-tools/report-wizard/data-bound-report/connect-to-an-entity-framework-data-source/select-the-data-context.md
-                - name: Select a Connection String
-                  href: articles/report-designer/report-designer-for-winforms/report-designer-tools/report-wizard/data-bound-report/connect-to-an-entity-framework-data-source/select-a-connection-string.md
-                - name: Specify a Connection String
-                  href: articles/report-designer/report-designer-for-winforms/report-designer-tools/report-wizard/data-bound-report/connect-to-an-entity-framework-data-source/specify-a-connection-string.md
-                - name: Bind to a Stored Procedure
-                  href: articles/report-designer/report-designer-for-winforms/report-designer-tools/report-wizard/data-bound-report/connect-to-an-entity-framework-data-source/bind-to-a-stored-procedure.md
-                - name: Select a Data Member
-                  href: articles/report-designer/report-designer-for-winforms/report-designer-tools/report-wizard/data-bound-report/connect-to-an-entity-framework-data-source/select-a-data-member.md
-                - name: Configure Filters
-                  href: articles/report-designer/report-designer-for-winforms/report-designer-tools/report-wizard/data-bound-report/connect-to-an-entity-framework-data-source/configure-filters.md
-              - name: Connect to an Object Data Source
-                href: articles/report-designer/report-designer-for-winforms/report-designer-tools/report-wizard/data-bound-report/connect-to-an-object-data-source.md
-                items:
-                - name: Select an Assembly
-                  href: articles/report-designer/report-designer-for-winforms/report-designer-tools/report-wizard/data-bound-report/connect-to-an-object-data-source/select-an-assembly.md
-                - name: Select a Data Source Type
-                  href: articles/report-designer/report-designer-for-winforms/report-designer-tools/report-wizard/data-bound-report/connect-to-an-object-data-source/select-a-data-source-type.md
-                - name: Select a Data Source Member
-                  href: articles/report-designer/report-designer-for-winforms/report-designer-tools/report-wizard/data-bound-report/connect-to-an-object-data-source/select-a-data-source-member.md
-                - name: Specify the Member Parameters
-                  href: articles/report-designer/report-designer-for-winforms/report-designer-tools/report-wizard/data-bound-report/connect-to-an-object-data-source/specify-the-member-parameters.md
-                - name: Select the Data Binding Mode
-                  href: articles/report-designer/report-designer-for-winforms/report-designer-tools/report-wizard/data-bound-report/connect-to-an-object-data-source/select-the-data-binding-mode.md
-                - name: Select a Data Source Constructor
-                  href: articles/report-designer/report-designer-for-winforms/report-designer-tools/report-wizard/data-bound-report/connect-to-an-object-data-source/select-a-data-source-constructor.md
-                - name: Specify the Constructor Parameters
-                  href: articles/report-designer/report-designer-for-winforms/report-designer-tools/report-wizard/data-bound-report/connect-to-an-object-data-source/specify-the-constructor-parameters.md
-              - name: Connect to an Excel Data Source
-                href: articles/report-designer/report-designer-for-winforms/report-designer-tools/report-wizard/data-bound-report/connect-to-an-excel-data-source.md
-                items:
-                - name: Select an Excel Workbook or CSV file
-                  href: articles/report-designer/report-designer-for-winforms/report-designer-tools/report-wizard/data-bound-report/connect-to-an-excel-data-source/select-an-excel-workbook-or-csv-file.md
-                - name: Specify Import Settings
-                  href: articles/report-designer/report-designer-for-winforms/report-designer-tools/report-wizard/data-bound-report/connect-to-an-excel-data-source/specify-import-settings.md
-                - name: Select a Worksheet, Table or Named Range
-                  href: articles/report-designer/report-designer-for-winforms/report-designer-tools/report-wizard/data-bound-report/connect-to-an-excel-data-source/select-a-worksheet-table-or-named-range.md
-                - name: Choose Columns
-                  href: articles/report-designer/report-designer-for-winforms/report-designer-tools/report-wizard/data-bound-report/connect-to-an-excel-data-source/choose-columns.md              
+              href: articles/report-designer/report-designer-for-winforms/report-designer-tools/report-wizard/table-report/select-the-data-source-type.md
             - name: Choose Fields to Display in a Report
-              href: articles/report-designer/report-designer-for-winforms/report-designer-tools/report-wizard/data-bound-report/choose-fields-to-display-in-a-report.md
+              href: articles/report-designer/report-designer-for-winforms/report-designer-tools/report-wizard/table-report/choose-fields-to-display-in-a-report.md
             - name: Add Grouping Levels
-              href: articles/report-designer/report-designer-for-winforms/report-designer-tools/report-wizard/data-bound-report/add-grouping-levels.md
+              href: articles/report-designer/report-designer-for-winforms/report-designer-tools/report-wizard/table-report/add-grouping-levels.md
             - name: Specify Summary Options
-              href: articles/report-designer/report-designer-for-winforms/report-designer-tools/report-wizard/data-bound-report/specify-summary-options.md
+              href: articles/report-designer/report-designer-for-winforms/report-designer-tools/report-wizard/table-report/specify-summary-options.md
+            - name: Specify Report Page Settings
+              href: articles/report-designer/report-designer-for-winforms/report-designer-tools/report-wizard/table-report/specify-report-page-settings.md
+            - name: Choose a Report Color Scheme
+              href: articles/report-designer/report-designer-for-winforms/report-designer-tools/report-wizard/table-report/choose-a-report-color-scheme.md
             - name: Set the Report Title
-              href: articles/report-designer/report-designer-for-winforms/report-designer-tools/report-wizard/data-bound-report/set-the-report-title.md
-          - name: Template Report
-            href: articles/report-designer/report-designer-for-winforms/report-designer-tools/report-wizard/template-report.md
+              href: articles/report-designer/report-designer-for-winforms/report-designer-tools/report-wizard/table-report/set-the-report-title.md
+          - name: Vertical Report
+            href: articles/report-designer/report-designer-for-winforms/report-designer-tools/report-wizard/vertical-report.md
+          - name: Cross-Tab Report
+            href: articles/report-designer/report-designer-for-winforms/report-designer-tools/report-wizard/cross-tab-report.md
+          - name: Labels
+            href: articles/report-designer/report-designer-for-winforms/report-designer-tools/report-wizard/labels.md
+            items:
+            - name: Select the Data Source Type
+              href: articles/report-designer/report-designer-for-winforms/report-designer-tools/report-wizard/labels/select-the-data-source-type.md            
+            - name: Select the Label Type
+              href: articles/report-designer/report-designer-for-winforms/report-designer-tools/report-wizard/labels/select-the-label-type.md
+            - name: Customize the Label Options
+              href: articles/report-designer/report-designer-for-winforms/report-designer-tools/report-wizard/labels/customize-the-label-options.md            
+          - name: Template
+            href: articles/report-designer/report-designer-for-winforms/report-designer-tools/report-wizard/template.md
             items:
             - name: Choose a Report Template
-              href: articles/report-designer/report-designer-for-winforms/report-designer-tools/report-wizard/template-report/choose-a-report-template.md
+              href: articles/report-designer/report-designer-for-winforms/report-designer-tools/report-wizard/template/choose-a-report-template.md
+            - name: Select the Data Source Type
+              href: articles/report-designer/report-designer-for-winforms/report-designer-tools/report-wizard/template/select-the-data-source-type.md               
             - name: Map Report Template Fields
-              href: articles/report-designer/report-designer-for-winforms/report-designer-tools/report-wizard/template-report/map-report-template-fields.md
+              href: articles/report-designer/report-designer-for-winforms/report-designer-tools/report-wizard/template/map-report-template-fields.md
             - name: Specify Report Template Options
-              href: articles/report-designer/report-designer-for-winforms/report-designer-tools/report-wizard/template-report/specify-report-template-options.md
-          - name: Label Report
-            href: articles/report-designer/report-designer-for-winforms/report-designer-tools/report-wizard/label-report.md
-            items:
-            - name: Select the Label Type
-              href: articles/report-designer/report-designer-for-winforms/report-designer-tools/report-wizard/label-report/select-the-label-type.md
-            - name: Customize the Label Options
-              href: articles/report-designer/report-designer-for-winforms/report-designer-tools/report-wizard/label-report/customize-the-label-options.md
+              href: articles/report-designer/report-designer-for-winforms/report-designer-tools/report-wizard/template/specify-report-template-options.md
       - name: Data Source Wizard
         href: articles/report-designer/report-designer-for-winforms/report-designer-tools/data-source-wizard.md
+        items:
+        - name: Connect to a Database
+          href: articles/report-designer/report-designer-for-winforms/report-designer-tools/data-source-wizard/connect-to-a-database.md
+          items:
+          - name: Select a Data Connection
+            href: articles/report-designer/report-designer-for-winforms/report-designer-tools/data-source-wizard/connect-to-a-database/select-a-data-connection.md
+          - name: Specify a Connection String
+            href: articles/report-designer/report-designer-for-winforms/report-designer-tools/data-source-wizard/connect-to-a-database/specify-a-connection-string.md
+          - name: Save the Connection String
+            href: articles/report-designer/report-designer-for-winforms/report-designer-tools/data-source-wizard/connect-to-a-database/save-the-connection-string.md
+          - name: Create a Query or Select a Stored Procedure
+            href: articles/report-designer/report-designer-for-winforms/report-designer-tools/data-source-wizard/connect-to-a-database/create-a-query-or-select-a-stored-procedure.md
+          - name: Configure Query Parameters
+            href: articles/report-designer/report-designer-for-winforms/report-designer-tools/data-source-wizard/connect-to-a-database/configure-query-parameters.md
+        - name: Connect to an Entity Framework Data Source
+          href: articles/report-designer/report-designer-for-winforms/report-designer-tools/data-source-wizard/connect-to-an-entity-framework-data-source.md
+          items:
+          - name: Select the Data Context
+            href: articles/report-designer/report-designer-for-winforms/report-designer-tools/data-source-wizard/connect-to-an-entity-framework-data-source/select-the-data-context.md
+          - name: Select a Connection String
+            href: articles/report-designer/report-designer-for-winforms/report-designer-tools/data-source-wizard/connect-to-an-entity-framework-data-source/select-a-connection-string.md
+          - name: Specify a Connection String
+            href: articles/report-designer/report-designer-for-winforms/report-designer-tools/data-source-wizard/connect-to-an-entity-framework-data-source/specify-a-connection-string.md
+          - name: Bind to a Stored Procedure
+            href: articles/report-designer/report-designer-for-winforms/report-designer-tools/data-source-wizard/connect-to-an-entity-framework-data-source/bind-to-a-stored-procedure.md
+          - name: Select a Data Member
+            href: articles/report-designer/report-designer-for-winforms/report-designer-tools/data-source-wizard/connect-to-an-entity-framework-data-source/select-a-data-member.md
+          - name: Configure Filters
+            href: articles/report-designer/report-designer-for-winforms/report-designer-tools/data-source-wizard/connect-to-an-entity-framework-data-source/configure-filters.md
+        - name: Connect to an Object Data Source
+          href: articles/report-designer/report-designer-for-winforms/report-designer-tools/data-source-wizard/connect-to-an-object-data-source.md
+          items:
+          - name: Select an Assembly
+            href: articles/report-designer/report-designer-for-winforms/report-designer-tools/data-source-wizard/connect-to-an-object-data-source/select-an-assembly.md
+          - name: Select a Data Source Type
+            href: articles/report-designer/report-designer-for-winforms/report-designer-tools/data-source-wizard/connect-to-an-object-data-source/select-a-data-source-type.md
+          - name: Select a Data Source Member
+            href: articles/report-designer/report-designer-for-winforms/report-designer-tools/data-source-wizard/connect-to-an-object-data-source/select-a-data-source-member.md
+          - name: Specify the Member Parameters
+            href: articles/report-designer/report-designer-for-winforms/report-designer-tools/data-source-wizard/connect-to-an-object-data-source/specify-the-member-parameters.md
+          - name: Select the Data Binding Mode
+            href: articles/report-designer/report-designer-for-winforms/report-designer-tools/data-source-wizard/connect-to-an-object-data-source/select-the-data-binding-mode.md
+          - name: Select a Data Source Constructor
+            href: articles/report-designer/report-designer-for-winforms/report-designer-tools/data-source-wizard/connect-to-an-object-data-source/select-a-data-source-constructor.md
+          - name: Specify the Constructor Parameters
+            href: articles/report-designer/report-designer-for-winforms/report-designer-tools/data-source-wizard/connect-to-an-object-data-source/specify-the-constructor-parameters.md
+        - name: Connect to an Excel Data Source
+          href: articles/report-designer/report-designer-for-winforms/report-designer-tools/data-source-wizard/connect-to-an-excel-data-source.md
+          items:
+          - name: Select an Excel Workbook or CSV file
+            href: articles/report-designer/report-designer-for-winforms/report-designer-tools/data-source-wizard/connect-to-an-excel-data-source/select-an-excel-workbook-or-csv-file.md
+          - name: Specify Import Settings
+            href: articles/report-designer/report-designer-for-winforms/report-designer-tools/data-source-wizard/connect-to-an-excel-data-source/specify-import-settings.md
+          - name: Select a Worksheet, Table or Named Range
+            href: articles\report-designer\report-designer-for-winforms\report-designer-tools\data-source-wizard\connect-to-an-excel-data-source\select-a-worksheet,-table-or-named-range.md
+          - name: Choose Columns
+            href: articles/report-designer/report-designer-for-winforms/report-designer-tools/data-source-wizard/connect-to-an-excel-data-source/choose-columns.md                      
+        - name: Connect to a JSON Data Source
+          href: articles/report-designer/report-designer-for-winforms/report-designer-tools/data-source-wizard/connect-to-a-json-data-source.md
+          items:
+          - name: Specify JSON Data Location
+            href: articles/report-designer/report-designer-for-winforms/report-designer-tools/data-source-wizard/connect-to-a-json-data-source/specify-json-data-location.md
+          - name: Specify Request Parameters
+            href: articles/report-designer/report-designer-for-winforms/report-designer-tools/data-source-wizard/connect-to-a-json-data-source/specify-request-parameters.md        
+          - name: Select Data Fields
+            href: articles/report-designer/report-designer-for-winforms/report-designer-tools/data-source-wizard/connect-to-a-json-data-source/select-data-fields.md
+        - name: Connect to an XPO Data Source
+          href: articles/report-designer/report-designer-for-winforms/report-designer-tools/data-source-wizard/connect-to-an-xpo-data-source.md
+          items:
+          - name: Choose an Entity Type
+            href: articles/report-designer/report-designer-for-winforms/report-designer-tools/data-source-wizard/connect-to-an-xpo-data-source/choose-an-entity-type.md
+          - name: Select a Data Connection
+            href: articles/report-designer/report-designer-for-winforms/report-designer-tools/data-source-wizard/connect-to-an-xpo-data-source/select-a-data-connection.md
+          - name: Specify a Connection String
+            href: articles/report-designer/report-designer-for-winforms/report-designer-tools/data-source-wizard/connect-to-an-xpo-data-source/specify-a-connection-string.md
+          - name: Save the Connection String
+            href: articles/report-designer/report-designer-for-winforms/report-designer-tools/data-source-wizard/connect-to-an-xpo-data-source/save-the-connection-string.md
+        - name: Connect to a Federated Data Source
+          href: articles/report-designer/report-designer-for-winforms/report-designer-tools/data-source-wizard/connect-to-a-federated-data-source.md
+          items:
+          - name: Create a Federated Query
+            href: articles\report-designer\report-designer-for-winforms\report-designer-tools\data-source-wizard\connect-to-a-federated-data-source\create-a-federated-query.md
+        - name: No Data
+          href: articles/report-designer/report-designer-for-winforms/report-designer-tools/data-source-wizard/no-data.md
       - name: Query Builder
         href: articles/report-designer/report-designer-for-winforms/report-designer-tools/query-builder.md        
       - name: Toolbox
@@ -955,8 +1046,10 @@
           href: articles/report-designer/report-designer-for-winforms/report-designer-tools/ui-panels/field-list.md          
         - name: Report Gallery
           href: articles/report-designer/report-designer-for-winforms/report-designer-tools/ui-panels/report-gallery.md
-        - name: Property Grid
-          href: articles/report-designer/report-designer-for-winforms/report-designer-tools/ui-panels/property-grid.md
+        - name: Property Grid (Tabbed View)
+          href: articles/report-designer/report-designer-for-winforms/report-designer-tools/ui-panels/property-grid-tabbed-view.md
+        - name: Property Grid (Non-Tabbed View)
+          href: articles/report-designer/report-designer-for-winforms/report-designer-tools/ui-panels/property-grid-non-tabbed-view.md
         - name: Group and Sort Panel
           href: articles/report-designer/report-designer-for-winforms/report-designer-tools/ui-panels/group-and-sort-panel.md
   - name: Report Designer for WPF
@@ -1235,8 +1328,8 @@
       href: articles/rich-text-editor/file-operations/print-a-document.md
   - name: Document Layout and Page Setup
     items:
-    - name: Divide a Documents into Sections
-      href: articles/rich-text-editor/document-layout-and-page-setup/divide-a-documents-into-sections.md
+    - name: Divide a Document into Sections
+      href: articles/rich-text-editor/document-layout-and-page-setup/divide-a-document-into-sections.md
     - name: Adjust Page Settings
       href: articles/rich-text-editor/document-layout-and-page-setup/adjust-page-settings.md
     - name: Lay Out Text in Columns
@@ -1337,6 +1430,12 @@
       href: articles/rich-text-editor/table-of-contents/create-table-of-contents-for-special-cases.md
     - name: Update Table of Contents
       href: articles/rich-text-editor/table-of-contents/update-table-of-contents.md
+  - name: Track Changes
+    items:
+    - name: Enable Track Changes
+      href: articles/rich-text-editor/track-changes/enable-track-changes.md
+    - name: Accept and Reject Tracked Changes
+      href: articles/rich-text-editor/track-changes/accept-and-reject-tracked-changes.md
   - name: Document Protection
     items:
     - name: Protect and Unprotect a Document

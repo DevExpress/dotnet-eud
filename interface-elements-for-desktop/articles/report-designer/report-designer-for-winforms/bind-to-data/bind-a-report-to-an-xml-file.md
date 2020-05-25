@@ -4,29 +4,29 @@ author: Anna Gubareva
 ---
 # Bind a Report to an XML File
 
-This tutorial demonstrates how to bind a report to data stored in an external XML file:
+This tutorial demonstrates how to bind a report to data stored in an external XML file.
 
 1. [Create a new report](../add-new-reports.md).
 
-2. Click the report's smart tag. In the invoked actions list, expand the drop-down menu for the **Data Source** property and click **Add Report DataSource**.
+2. Click the report's smart tag. In the invoked actions list, expand the drop-down menu for the **Data Source** property and click **Add New DataSource**.
 	
 	![](../../../../images/eurd-win-report-smart-tag-add-new-data-source.png)
 
 3. On the first page of the invoked [Data Source Wizard](../report-designer-tools/data-source-wizard.md), select **Database** and click **Next**.
 	
-	![](../../../../images/eurd-win-data-source-wizard-select-database.png)
+	![](../../../../images/eurd-win-data-source-wizard.png)
 
-5. The next page allows you to specify whether you want to use an existing data connection or create a new data connection. Select the first option and click **Next**.
+4. The next page allows you to specify whether you want to use an existing data connection or create a new data connection. Select the first option and click **Next**.
 	
 	![](../../../../images/eurd-win-data-source-wizard-select-new-connection.png)
 
-6. On the next page, specify the data provider (**XML file**) and the path to the database file. 
+5. On the next page, specify the data provider (**XML file**) and the path to the database file. 
 	
 	![](../../../../images/eurd-win-data-source-wizard-select-xml-file.png)
 	
 	To proceed to the next wizard page, click **Next**.
 
-7. On the next page, you can choose which tables, views and/or stored procedures to add to the report. You can also construct custom queries using the [Query Builder](../report-designer-tools/query-builder.md). Click **Finish** to exit the wizard.
+6. On the next page, you can choose which tables, views and/or stored procedures to add to the report. You can also construct custom queries using the [Query Builder](../report-designer-tools/query-builder.md). Click **Finish** to exit the wizard.
 	
 	![](../../../../images/eurd-win-data-source-wizard-select-xml-table.png)
 	

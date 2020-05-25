@@ -1,6 +1,6 @@
 ---
 title: Totals
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 17423
 ---
 # Totals

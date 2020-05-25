@@ -1,6 +1,6 @@
 ---
 title: Sort Data Using the Context Menu
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 11076
 ---
 # Sort Data Using the Context Menu

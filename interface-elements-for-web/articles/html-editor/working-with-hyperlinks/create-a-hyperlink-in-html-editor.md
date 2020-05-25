@@ -1,11 +1,11 @@
 ---
-title: Create a Hyperlink in HTML Editor
+title: Create a Hyperlink
 author: Svetlana Nikulina
 legacyId: 4519
 ---
-# Create a Hyperlink in HTML Editor
+# Create a Hyperlink
 ## Add a Hyperlink
-* Select the text or image that you want to display as a hyperlink and click the **Insert Link** button within the editor's toolbar.
+* Select the text or image that you want to display as a hyperlink and click the **Insert Link** button.
 * Or, simply click the **Insert Link** button to create a new text link at the current cursor position.
 
 ![ASPxHtmlEditor-CreateHyperlink](../../../images/img7362.png)

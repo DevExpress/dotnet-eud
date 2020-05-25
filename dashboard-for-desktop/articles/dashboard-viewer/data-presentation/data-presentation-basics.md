@@ -1,6 +1,6 @@
 ---
 title: Data Presentation Basics
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 16654
 ---
 # Data Presentation Basics
@@ -31,5 +31,7 @@ A wide range of dashboard items are used to display visual or textual informatio
 The Dashboard Viewer enables interaction between various dashboard items. These features include **Master Filtering** and **Drill-Down**.
 * [Master Filtering](master-filtering.md)
 * [Drill-Down](drill-down.md)
+
+You can inspect raw or aggregated data. See the [Data Inspector](data-inspector.md) topic for details.
 
 To learn more about the dashboard layout, see the [Dashboard Layout](dashboard-layout.md) topic.

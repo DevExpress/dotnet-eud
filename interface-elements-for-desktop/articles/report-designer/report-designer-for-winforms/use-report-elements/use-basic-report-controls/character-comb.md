@@ -46,11 +46,6 @@ The following properties are specific to the Character Comb control:
 	The following image illustrates a Character Comb with **Cell Vertical Spacing** set to **15** and **Cell Horizontal Spacing** set to **5**.
 	
 	![](../../../../../images/eurd-character-comb-vertical-and-horizontal-spacing.png)
-	
-	The area between cells is painted using the background color of the control's parent container (the control's **Back Color** property is ignored for this area). In the following image, the control is assigned a gray background color, and the report's background color is white.
-	
-	![](../../../../../images/eurd-character-comb-back-color.png)
-	
 
 * **Border Width**
 	

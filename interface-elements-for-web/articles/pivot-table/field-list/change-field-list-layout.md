@@ -1,6 +1,6 @@
 ---
 title: Change Field List Layout
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 11072
 ---
 # Change Field List Layout

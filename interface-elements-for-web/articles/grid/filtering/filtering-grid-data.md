@@ -1,30 +1,30 @@
 ---
-title: Filtering Grid Data
+title: Filtering Data
 author: Svetlana Nikulina
 legacyId: 4144
 ---
-# Filtering Grid Data
-To filter data or change the filter conditions in the grid, use one of the following.
+# Filtering Data
+Grid provides different elements that allow you to filter data.
 
 **Filter Buttons**
 
-Click a filter button to invoke the filter dropdown, which lists unique values in a column.
+Click a filter button to invoke a filter drop-down list that contains unique values in a column.
 
-If the dropdown displays check boxes, check them to select the required values, and click **OK** to apply the filter criteria.
+You can use the check boxes in the drop-down list to select values and click **OK** to apply the filter criteria.
+
 
 ![filter_header.png](../../../images/img17833.png)
 
-If the dropdown does not display check boxes, click the required value to apply the filter criteria.
+If the drop-down list does not display check boxes, click the required value to apply the filter criteria.
 
 ![ASpxGridView_HeaderFilter](../../../images/img7159.png)
 
-If filtering is applied, the filter dropdown only displays values that match the filter criteria. To remove the filter, click **(All)**.
+The drop-down list displays values that match the applied filter criteria. To remove the filter, click **(All)**.
 
-Note that if a filter is applied to a column, other column header filters display unique values of the sorted rows. To show the full list of values (include values of rows hidden by sorting), hold down SHIFT and click a header filter button.
+Note that if a filter is applied to a column, other column header filters display the sorted rows' unique values. You can press SHIFT and click a header filter button to show all the values (including hidden rows' values).
 
-For columns containing date and time data, the dropdown displays a [date range header filter](date-range-header-filter.md).
+The drop-down box displays a [date range editor](date-range-header-filter.md) for columns containing date and time data.
 
-&nbsp;
 
 **Filter Row**
 
@@ -40,14 +40,17 @@ To remove the column filter, clear the text in the auto-filter row. To remove th
 
 ![ASPxGridView_ClearAutoFilterRow](../../../images/img7158.png)
 
-&nbsp;
+
 
 **Search Panel**
 
-To filter data and highlight search results, use the [Search Panel](search-panel.md).
+Use the [Search Panel](search-panel.md) to filter data and highlight search results.
 
-&nbsp;
 
-**Filter Control**
+**Filter Builder**
 
-To create complex filter criteria, use the [Filter Control](creating-complex-filter-criteria-with-the-filter-control.md).
+Use the [Filter Builder](creating-complex-filter-criteria-with-the-filter-control.md) to create complex filter criteria.
+
+**Customization Dialog**
+
+Use the customization dialog's [Filtering page](../customization-dialog/filtering-page.md) to apply filter criteria to grid data.

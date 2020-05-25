@@ -1,6 +1,6 @@
 ---
 title: Cards Arrangement
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 16592
 ---
 # Cards Arrangement

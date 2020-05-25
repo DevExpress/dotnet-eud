@@ -4,7 +4,7 @@ author: Bogdan Harchenko
 legacyId: 4141
 ---
 # Switch a Grid to Edit Mode
-To edit cell values, switch to the edit mode. To do this, click **Edit**.
+Click **Edit** to switch the Grid to edit mode.
 
 ![ASPxGridView_StartEdit](../../../images/img7155.png)
 

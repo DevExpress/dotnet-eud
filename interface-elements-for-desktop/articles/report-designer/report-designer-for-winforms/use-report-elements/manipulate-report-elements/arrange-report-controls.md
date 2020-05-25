@@ -4,7 +4,7 @@ author: Anna Gubareva
 ---
 # Arrange Report Controls
 
-The following tools allow you to control report elements' size, location, alignment and maintain the distance between them:
+The following tools allow you to control report element size, location, alignment, and to maintain the distance between them:
 
 * **Rulers**
 	
@@ -14,7 +14,7 @@ The following tools allow you to control report elements' size, location, alignm
 	
 * **Layout Toolbar**
 	
-	The **Layout** toolbar tab enables you to align report controls to each other, change the report element's size, change the stacked elements' order, and so on.
+	Use the **Layout Toolbar** commands to align report controls.
 
 	![](../../../../../images/eurd-win-toolbar-layout-tab.png)
 
@@ -28,13 +28,13 @@ The following tools allow you to control report elements' size, location, alignm
 
 		![](../../../../../images/eurd-win-snap-grid-size.png)
 		
-		To hide the grid, disable the **Grid Lines** option in the toolbar's **View** tab or set a report's **Draw the Grid** property to **false**.
+		To hide the grid, disable the **Grid Lines** option in the toolbar's **View** tab or disable a report's **Draw the Grid** property.
 
 		![](../../../../../images/eurd-win-toolbar-show-grid-lines.png)
 								
-		Relocating a report control with the mouse or ARROW keys automatically aligns the control to the nearest grid cell.
+		A report control is aligned to the nearest grid cell when moved with the mouse or ARROW keys.
 
-		You can use the **Align to Grid** toolbar button or context menu item to align the selected controls to the grid's cells.
+		You can use the **Align to Grid** toolbar button or context menu item to align the selected controls to the grid cells.
 
 		![](../../../../../images/eurd-win-align-to-grid-context-menu-item.png)
 		

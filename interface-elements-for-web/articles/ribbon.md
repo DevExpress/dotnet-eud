@@ -4,7 +4,7 @@ author: Svetlana Nikulina
 legacyId: 16829
 ---
 # Ribbon
-The **Ribbon** provides a rich toolbar functionality.
+The Ribbon provides a rich toolbar functionality.
 
 ![EUD_Ribbon](../images/img22688.png)
 

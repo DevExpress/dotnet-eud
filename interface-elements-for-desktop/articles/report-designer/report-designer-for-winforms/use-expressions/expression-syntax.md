@@ -30,8 +30,6 @@ The table below contains constants, operators, and functions you can use in [exp
 </td><td><p>[Status] == 1</p>
 <p>You cannot specify an enumeration value using its qualified name. The following criteria <strong>is incorrect</strong>:</p>
 <p>[Status] = Status.InProgress</p>
-<p>You can use the <see cref="T:DevExpress.Data.Filtering.EnumProcessingHelper"></see> class&#39; static methods to register custom enumerations, and then refer to enumeration values as follows:</p>
-<p>Status = ##Enum#MyNamespace.Status,InProgress#</p>
 </td></tr><tr><td><p>Guid</p>
 </td><td><p>Wrap a Guid constant in curly braces. Use Guid constants in a relational operation with equality or inequality operators only.</p>
 </td><td><p>[OrderID] == {513724e5-17b7-4ec6-abc4-0eae12c72c1f}</p>
@@ -346,7 +344,7 @@ Below is a list of functions that are used to construct [expression bindings](..
 </td><td><p>Argb(1,200, 30, 200)</p>
 <p>Result: <em>&#39;1,200,30,200&#39;</em></p>
 </td></tr><tr><td><p>Join()</p>
-</td><td><p>Concatenates the <a class="xref" href="..\shape-report-data\use-report-parameters\create-multi-value-and-cascading-parameters.md">multi-value report parameter</a>&#39;s values into a string. This function is useful when you <a class="xref" href="..\shape-report-data\use-report-parameters\parameters-overview.md">bind a multi-value parameter to a label</a> to display the parameter&#39;s values in a report.</p>
+</td><td><p>Concatenates the <a class="xref" href="..\shape-report-data\use-report-parameters\multi-value-and-cascading-parameters.md">multi-value report parameter</a>&#39;s values into a string. This function is useful when you <a class="xref" href="..\shape-report-data\use-report-parameters\parameters-overview.md">bind a multi-value parameter to a label</a> to display the parameter&#39;s values in a report.</p>
 <p>This function has two overloads:</p>
 <ul>
 <li>Join(parameter) - concatenates the specified parameter&#39;s values using comma as a separator.</li>
@@ -368,7 +366,7 @@ The following functions are specific for [binding reports to a stored procedure]
 </th><th><p>Description</p>
 </th><th><p>Example</p>
 </th></tr><tr><td><p>Join()</p>
-</td><td><p>Concatenates the <a class="xref" href="..\shape-report-data\use-report-parameters\create-multi-value-and-cascading-parameters.md">multi-value report parameter</a>&#39;s values into a string. This function can be used when mapping multi-value report parameters to query parameters generated from a stored procedure&#39;s parameters. Refer to the <a class="xref" href="..\shape-report-data\use-report-parameters\use-query-parameters.md">Query Parameters</a> topic for more information.</p>
+</td><td><p>Concatenates the <a class="xref" href="..\shape-report-data\use-report-parameters\multi-value-and-cascading-parameters.md">multi-value report parameter</a>&#39;s values into a string. This function can be used when mapping multi-value report parameters to query parameters generated from a stored procedure&#39;s parameters. Refer to the <a class="xref" href="..\shape-report-data\use-report-parameters\query-parameters.md">Query Parameters</a> topic for more information.</p>
 <p>This function has two overloads:</p>
 <ul>
 <li>Join(parameter) - concatenates the specified parameter&#39;s values using comma as a separator.</li>
@@ -376,7 +374,7 @@ The following functions are specific for [binding reports to a stored procedure]
 </ul>
 </td><td><p>Join(?Parameter1)</p>
 </td></tr><tr><td><p>CreateTable(Column1, ..., ColumnN)</p>
-</td><td><p>Creates a table from several multi-value parameters&#39; values. This function can be used when mapping multi-value report parameters to the query parameter that is generated from a stored procedure&#39;s <a href="https://docs.microsoft.com/en-us/sql/relational-databases/tables/use-table-valued-parameters-database-engine">User Defined Table Type</a> parameter. Refer to the <a class="xref" href="..\shape-report-data\use-report-parameters\use-query-parameters.md">Query Parameters</a> topic for more information.</p>
+</td><td><p>Creates a table from several multi-value parameters&#39; values. This function can be used when mapping multi-value report parameters to the query parameter that is generated from a stored procedure&#39;s <a href="https://docs.microsoft.com/en-us/sql/relational-databases/tables/use-table-valued-parameters-database-engine">User Defined Table Type</a> parameter. Refer to the <a class="xref" href="..\shape-report-data\use-report-parameters\query-parameters.md">Query Parameters</a> topic for more information.</p>
 </td><td><p>CreateTable(?Parameter1, ..., ?ParameterN)</p>
 </td></tr></table>
 
@@ -452,6 +450,9 @@ Use the following functions when [calculating summaries](..\shape-report-data\sh
 </td></tr><tr><td><p>sumVarP(Expression)</p>
 </td><td><p>Calculates the population variance of all the values within the specified summary region (group, page or report).</p>
 </td><td><p>sumVarP([UnitPrice])</p>
+</td></tr><tr><td><p>sumWAvg(Expression, Expression)</p>
+</td><td><p>Calculates the weighted average of all the values within the specified summary region (group, page or report). This type of summary returns the result of the following operation: Sum(Expression1 * Expression2) / Sum(Expression2).</p>
+</td><td><p>sumWAvg([UnitPrice])</p>
 </td></tr></table>
 
 ## Report Items In Expressions
@@ -461,11 +462,16 @@ A report's elements are displayed in the Report Designer's Report Explorer. You 
 *[ReportItems].[xrLabel2].[BackColor]*
 
 > [!Tip]
-> **[ReportItems]** is a list that provides access to all report items.
+> **[ReportItems]** is a plain list that provides access to all report items at one level.
 
 > [!Note]
 > You cannot use the ReportItems collection in a [Calculated Field](..\shape-report-data\use-calculated-fields.md)'s expression. 
 
+## Images for Picture Boxes
+
+When you construct an expression for the [Picture Box](../use-report-elements/use-basic-report-controls/picture-box.md)'s **ImageSource** property, you can use image **Id**s  from the report's **ImageResources** collection.
+
+*IIf([MarchSales]>20, [Images.ArrowUp],[Images.ArrowDown])*
 
 
 
@@ -482,6 +488,10 @@ A report's elements are displayed in the Report Designer's Report Explorer. You 
 </td><td><p>Returns a zero-based index of the current data row in a data source.</p>
 </td><td><p>Iif([DataSource.CurrentRowIndex] % 2 = 0, &#39;red&#39;, &#39;green&#39;)</p>
 <p>Result: When this expression is used for a table row&#39;s BackColor property, odd rows are colored in red and even rows - in green.</p>
+</td></tr><tr><td><p>DataSource.CurrentRowHierarchyLevel</p>
+</td><td><p>Returns a zero-based level of the current row in a <a class="xref" href="..\create-popular-reports\create-a-hierarchical-report.md">hierarchical report</a>.</p>
+</td><td><p>Iif([DataSource.CurrentRowHierarchyLevel] == 0, Rgb(231,235,244), ?)</p>
+<p>Result: When this expression is used for the BackColor property of the Detail band that is printed in tree mode, the root level rows are highlighted.</p>
 </td></tr></table>
 
 > [!Note]
@@ -573,6 +583,6 @@ _\@Or = 'value'_
  
 Use a backslash (\) as an escape character for characters in expressions. Examples:
 
-- \[
-- \\
-- \'
+- \\[
+- \\\
+- \\'

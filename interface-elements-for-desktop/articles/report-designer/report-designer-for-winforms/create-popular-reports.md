@@ -7,6 +7,7 @@ author: Anna Gubareva
 The following tutorials illustrate how to create table and invoice reports:
 
 * [Create a Table Report](create-popular-reports/create-a-table-report.md)
+* [Create a Vertical Report](create-popular-reports\create-a-vertical-report.md)
 * [Create an Invoice Based on a Template](create-popular-reports/create-an-invoice-based-on-template.md)
 * [Create an Invoice Manually](create-popular-reports/create-an-invoice-manually.md)
 
@@ -14,11 +15,13 @@ The following topics describe how to display hierarchical data in your reports:
 
 * [Create a Master-Detail Report (Use Detail Report Bands)](create-popular-reports/create-a-master-detail-report-use-detail-report-bands.md)
 * [Create a Master-Detail Report (Use Subreports)](create-popular-reports/create-a-master-detail-report-use-subreports.md)
+* [Create a Hierarchical Report](create-popular-reports/create-a-hierarchical-report.md)
 
 The tutorials listed below demonstrate various layout options available for reports:
 
 * [Create Labels and Badges](create-popular-reports/create-labels-and-badges.md)
 * [Create a Multi-Column Report](create-popular-reports/create-a-multi-column-report.md)
+* [Create a Report with Cross-Band Content and Populated Empty Space](create-popular-reports/create-a-report-with-cross-band-content-and-populated-empty-space.md)
 
 The following tutorial illustrates interactive report features:
 
@@ -29,9 +32,7 @@ The following tutorial illustrates interactive report features:
 > 
 > See [Use Report Parameters](shape-report-data/use-report-parameters.md) to learn how to customize reports by submitting parameter values in Print Preview.
 
-The following tutorial explains how to use the Pivot Grid control in your reports:
+The following tutorials explain how to use the Cross Tab control in your reports:
 
 * [Create a Cross-Tab Report](create-popular-reports/create-a-cross-tab-report.md)
-
-> [!Note]
-> See the [Use Charts and Pivot Grids](use-report-elements/use-charts-and-pivot-grids.md) documentation section to learn more about using Pivot Grids and Charts in your reports.
+* [Create a Balance Sheet](create-popular-reports/create-a-balance-sheet.md)

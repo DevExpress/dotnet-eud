@@ -11,3 +11,7 @@ Topics in this section describe how to connect dashboards to data sources and wo
 * [Working with SQL Data Sources](providing-data/working-with-sql-data-sources.md)
 * [Filter Data Sources](providing-data/filter-data-sources.md)
 * [Calculated Fields](providing-data/calculated-fields.md)
+* [Data Inspector](providing-data/data-inspector.md)
+* [Preview Data](providing-data/preview-data.md)
+* [Dashboard Data Source Wizard](providing-data/dashboard-data-source-wizard.md)
+* [Query Builder](providing-data/query-builder.md)

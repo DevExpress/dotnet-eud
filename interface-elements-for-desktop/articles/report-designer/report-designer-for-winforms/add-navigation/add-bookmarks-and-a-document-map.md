@@ -15,13 +15,13 @@ The following image illustrates the resulting report with a hierarchical Documen
 
 ![eurd-win-addbookmark_result](../../../../images/eurd-win-addbookmark_result.png)
 
-Use the following steps to generate a Documnet Map in your grouped report.
+Use the following steps to generate a Document Map in your grouped report:
 
-1. Select the label placed in the **Group Header** band and switch to the [Property Grid](..\report-designer-tools\ui-panels\property-grid.md)'s **Expressions** tab. Click the **Bookmark** property's ellipsis button, and in the invoked **Expression Editor**, select the **CategoryName** data field.
+1. Select the label placed in the **Group Header** band and switch to the [Property Grid](..\report-designer-tools\ui-panels\property-grid-tabbed-view.md)'s **Miscellaneous** tab. Click the **Bookmark** property's marker and select the **Bookmark Expression** item. In the invoked **Expression Editor**, select the **CategoryName** data field.
 	
 	![eurd-win-addbookmark-set-bookmark-for-group](../../../../images/eurd-win-addbookmark-set-bookmark-for-group.png)
 	
-	In the legacy binding mode (if the Property Grid does not provide the **Expressions** tab), you can specify this property in the Property Grid's **DataBindings** category.
+	In the legacy binding mode (if the Property Grid does not provide the **Bookmark Expression** item), you can specify this property in the Property Grid's **Data Bindings** category.
 	
 	![eurd-win-addbookmark_legacy](../../../../images/eurd-win-addbookmark_legacy.png)
 2. In the same way, select the label in the **Detail** band and bind its **Bookmark** property to the **ProductName** data field.
@@ -29,7 +29,7 @@ Use the following steps to generate a Documnet Map in your grouped report.
 	![eurd-win-addbookmark-set-bookmarks-for-details](../../../../images/eurd-win-addbookmark-set-bookmarks-for-details.png)
 	
 	Most of the reporting controls (for example, [Table](..\use-report-elements\use-tables.md), TableCell, [CheckBox](..\use-report-elements\use-basic-report-controls\check-box.md), etc.) supports the **Bookmark** property.
-3. Set the same label's **BookmarkParent** property to the label in the group band. This arranges bookmarks into a parent-child structure reflecting the report elements' hierarchy in the Document Map.
+3. Set the same label's **Parent Bookmark** property to the label in the group band. This arranges bookmarks into a parent-child structure reflecting the report elements' hierarchy in the Document Map.
 	
 	![eurd-win-addbookmark-bookmark-parent](../../../../images/eurd-win-addbookmark-bookmark-parent.png)
 	
@@ -42,4 +42,4 @@ Use the following steps to generate a Documnet Map in your grouped report.
 	The root bookmark displays the report name if you do not specify this property.
 
 > [!NOTE]
-> Duplicated bookmarks are suppressed to prevent adding multiple bookmarks with the same name to a final document. You can disable the  report's **BookmarkDuplicateSuppress** property to allow duplicated bookmarks.
+> Duplicated bookmarks are suppressed to prevent adding multiple bookmarks with the same name to a final document. You can disable the  report's **Bookmark Duplicate Suppress** property to allow duplicated bookmarks.

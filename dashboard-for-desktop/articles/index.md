@@ -1,6 +1,6 @@
 ---
 title: Dashboard for Desktop
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 15757
 ---
 # Dashboard for Desktop

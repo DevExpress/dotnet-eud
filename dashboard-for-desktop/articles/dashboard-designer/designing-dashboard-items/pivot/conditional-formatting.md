@@ -1,6 +1,6 @@
 ---
 title: Conditional Formatting
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 114225
 ---
 # Conditional Formatting

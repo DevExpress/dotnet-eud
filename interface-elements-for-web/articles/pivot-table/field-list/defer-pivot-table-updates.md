@@ -1,6 +1,6 @@
 ---
 title: Defer Pivot Table Updates
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 11071
 ---
 # Defer Pivot Table Updates

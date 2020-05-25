@@ -1,6 +1,6 @@
 ---
 title: Remove Filtering
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 11957
 ---
 # Remove Filtering

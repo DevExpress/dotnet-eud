@@ -1,6 +1,6 @@
 ---
 title: Choropleth Map
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 16748
 ---
 # Choropleth Map

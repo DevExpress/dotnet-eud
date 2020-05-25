@@ -1,6 +1,6 @@
 ---
 title: Dashboard Items
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 16732
 ---
 # Dashboard Items
@@ -17,7 +17,9 @@ This section describes the available dashboard items.
 * [Choropleth Map](dashboard-items/choropleth-map.md)
 * [Geo Point Maps](dashboard-items/geo-point-maps.md)
 * [Range Filter](dashboard-items/range-filter.md)
+* [Date Filter](dashboard-items/date-filter.md)
 * [Image](dashboard-items/image.md)
 * [Text Box](dashboard-items/text-box.md)
 * [Treemap](dashboard-items/treemap.md)
 * [Filter Elements](dashboard-items/filter-elements.md)
+* [Tab Container](dashboard-items/tab-container.md)

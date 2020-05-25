@@ -1,6 +1,6 @@
 ---
 title: Reorder Pivot Table Fields
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 4662
 ---
 # Reorder Pivot Table Fields

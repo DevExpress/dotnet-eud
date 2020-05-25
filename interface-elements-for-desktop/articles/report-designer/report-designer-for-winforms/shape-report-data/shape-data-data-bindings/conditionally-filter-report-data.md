@@ -6,10 +6,12 @@ author: Anna Gubareva
 
 This document describes how to filter a report's data based on a specific condition.
 
-> [!Warning]
-> Use the approach below if expression bindings **are not enabled** in the Report Designer (the [Property Grid](../../report-designer-tools/ui-panels/property-grid.md) does not provide the **Expressions** ![](../../../../../images/eurd-win-property-grid-expressions-icon.png) tab ).
+> [!NOTE]
+> Use this approach if data bindings **are enabled** in the Report Designer (the Label's smart tag includes the **Data Binding** property).
 >
-> See [Conditionally Filter Report Data](../shape-data-expression-bindings/conditionally-filter-report-data.md) if expression bindings **are enabled** in the Report Designer (the [Property Grid](../../report-designer-tools/ui-panels/property-grid.md) provides the **Expressions** ![](../../../../../images/eurd-win-property-grid-expressions-icon.png) tab).
+> ![](../../../../../images/eurd-label-expression-binding-modes.png)
+>
+> See the [Conditionally Filter Report Data](../shape-data-expression-bindings/conditionally-filter-report-data.md) topic in the [Shape Data (Expression Bindings)](../shape-data-expression-bindings.md) section to learn about an alternative approach.
 
 1. Switch to the [Field List](../../report-designer-tools/ui-panels/field-list.md), right-click the **Parameters** section and add a new report parameter.
 	
@@ -23,7 +25,7 @@ This document describes how to filter a report's data based on a specific condit
 
 	![](../../../../../images/eurd-win-shaping-formatting-rules-property.png)
 
-4. In the invoked **Formatting Rule Sheet Editor**, click the plus button to create a new formatting rule. Set the **Visible** property to **False** and click the **Condition** property's ellipsis button.
+4. In the invoked **Formatting Rule Sheet Editor**, click the plus button to create a new formatting rule. Set the **Visible** property to **No** and click the **Condition** property's ellipsis button.
 
 	![](../../../../../images/eurd-win-shaping-formatting-rule-settings.png)
 

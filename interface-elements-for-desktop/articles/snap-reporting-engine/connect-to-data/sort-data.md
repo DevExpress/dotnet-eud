@@ -23,7 +23,9 @@ To apply sorting to a **Snap list**, do the following.
 
 You can specify multiple sort criteria for a Snap list. In this case, sort levels are applied in the order that they are added.
 
-## <a name="sortmailmergedocument"/>Sort Mail Merge Document Data
+<a name="sortmailmergedocument"></a>
+## Sort Mail Merge Document Data
+
 Sorting a **mail merge document** defines the order in which data entries will appear as pages of the final document.
 
 To sort a mail merge document, do the following.

@@ -8,13 +8,13 @@ In the Report Designer, page settings of a report can be specified in one of two
 
 ## Use Settings of the Default Printer
 
-For the orientation and paper size, you can specify a requirement that applies the corresponding printer settings instead of the report's. In this instance, the page properties in the [Property Grid](../report-designer-tools/ui-panels/property-grid.md) are disabled and displayed as grayed out. This may be useful when the report is printed in several places with different printers and printer settings.
+For the orientation and paper size, you can specify a requirement that applies the corresponding printer settings instead of the report's. In this instance, the page properties in the [Property Grid](../report-designer-tools/ui-panels/property-grid-tabbed-view.md) are disabled and displayed as grayed out. This may be useful when the report is printed in several places with different printers and printer settings.
 
 ![](../../../../images/eurd-win-using-settings-of-default-printer.png)
 
 ## Specify the Report's Page Settings
 
-While designing the report, you can specify the report's page settings in the [Property Grid](../report-designer-tools/ui-panels/property-grid.md):
+While designing the report, you can specify the report's page settings in the [Property Grid](../report-designer-tools/ui-panels/property-grid-tabbed-view.md)'s **Miscellaneous** tab:
 
 ![](../../../../images/eurd-win-specify-report-page-settings.png)
 

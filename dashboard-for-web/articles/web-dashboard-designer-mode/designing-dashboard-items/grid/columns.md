@@ -10,6 +10,13 @@ The Grid dashboard item supports four types of columns.
 * **Dimension**
 	
 	A dimension column displays values from the bound data item "as is".  If the dimension column is bound to a data source containing images, it can display images.
+* **Hyperlink**
+	
+	A dimension column allows you to display hyperlinks in the Grid dashboard item. You can provide hyperlinks as a separate data column, or they can be automatically created at run-time from any column using the specified **URI pattern**.
+	
+	![grid_hyperlink_column](../../../../images/grid_hyperlink_column.png)
+
+
 * **Measure**
 	
 	A measure column displays summaries calculated against data in the bound data item.

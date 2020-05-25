@@ -1,6 +1,6 @@
 ---
 title: Bubble Map
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 16718
 ---
 # Bubble Map

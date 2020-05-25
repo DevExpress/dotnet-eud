@@ -21,7 +21,7 @@ This tutorial describes how to create a simple invoice report displaying informa
 
 3. On the first page of the invoked **Data Source Wizard**, you can choose the required data source type. Select **Database** and click **Next** to proceed.
 	
-	![](../../../../images/eurd-win-data-source-wizard-select-database.png)
+	![ReportWizard-SelectDataSourceType](../../../../images/eurd-ReportWizard-SelectDataSourceType.png)
 
 4. The following page allows you to specify whether you want to use an existing data connection or create a new one. For this example, select an existing connection and click **Next**.
 	
@@ -33,11 +33,11 @@ This tutorial describes how to create a simple invoice report displaying informa
 	
 	![](../../../../images/eurd-win-invoice-join-tables-in-query-builder.png)
 
-5. On the same wizard page, select the data view providing order details for listing products included in each order in the invoice. Click the **Manage Relations** button to specify a master-detail relationship between the queries. In the invoked dialog, connect the required key columns using drag-and-drop.
+6. On the same wizard page, select the data view providing order details for listing products included in each order in the invoice. Click the **Manage Relations** button to specify a master-detail relationship between the queries. In the invoked dialog, connect the required key columns using drag-and-drop.
 	
 	![](../../../../images/eurd-win-invoice-manage-master-detail-relations.png)
 
-6. Click **Finish** to complete the wizard.
+7. Click **Finish** to complete the wizard.
 
 After these steps, make sure that an appropriate data member is assigned to the report.
 
@@ -96,7 +96,7 @@ Do the following to evaluate an extended price based on the price, quantity and 
 	
 	![](../../../../images/eurd-win-invoice-add-calculated-field.png)
 
-2. Select the created calculated field, and in the [Property Grid](../report-designer-tools/ui-panels/property-grid.md), change its name to **ExtendedPrice**. Click the **Expression** property's ellipsis button, and in the invoked **Expression Editor**, construct the expression based on the **UnitPrice**, **Quantity** and **Discount** fields.
+2. Select the created calculated field, and in the [Property Grid](../report-designer-tools/ui-panels/property-grid-tabbed-view.md), change its name to **ExtendedPrice**. Click the **Expression** property's ellipsis button, and in the invoked **Expression Editor**, construct the expression based on the **UnitPrice**, **Quantity** and **Discount** fields.
 	
 	![](../../../../images/eurd-win-invoice-calculated-field-expression.png)
 
@@ -108,7 +108,7 @@ Do the following to evaluate an extended price based on the price, quantity and 
 ## <a name="format"></a>Format Data
 The next step is to specify report elements' [value formatting](../shape-report-data/shape-data-expression-bindings/format-data.md) to improve displaying their incoming data.
 
-1. In the master report's Detail band, select controls bound to date fields while holding down CTRL or SHIFT. Switch to the [Property Grid](../report-designer-tools/ui-panels/property-grid.md) and click the **Text Format String** property's ellipsis button. In the invoked **Format String Editor**, activate the **DateTime** category and select the format, for example, display dates as a month (name) followed by the day (number) and year (four digits).
+1. In the master report's Detail band, select controls bound to date fields while holding down CTRL or SHIFT. Switch to the [Property Grid](../report-designer-tools/ui-panels/property-grid-tabbed-view.md) and click the **Text Format String** property's ellipsis button. In the invoked **Format String Editor**, activate the **DateTime** category and select the format, for example, display dates as a month (name) followed by the day (number) and year (four digits).
 	
 	![](../../../../images/eurd-win-invoice-format-date-fields.png)
 
@@ -123,13 +123,21 @@ Do the following to calculate a total price for each order as a sum of **Extende
 
 1. Add the Group Footer band to the detail report in the same way as the Group Header.
 
-2. Drop the Label control onto the added band and click its smart tag. Set the **Summary Running** property to **Report** to calculate the summary for the entire detail report and click the **Expression** property's ellipsis button. In the invoked **Expression Editor**, specify the following expression to calculate the total price:
+2. Drop the Label control onto the added band and click its smart tag. In the invoked Label Tasks window, click the **Summary** field's ellipsis button.
+
+	![](../../../../images/eurd-label-summary-3.png)
+
+* In the **Summary Editor** window:
+
+	* Set the **Summary running** property to the **Report** value to calculate the summary for the entire detail report.
+	* Set the **Summary function** property to **Sum**.
+	* Set the **Argument Expression** property to the field you want to sum up.
 	
 	![](../../../../images/eurd-win-invoice-specify-summary-function.png)
 
-3. Use the **Format String** property to format the summary's value (for instance, set it to **Total: {0:c2}**).
+3. Back in the **Label Tasks** window, use the **Format String** property to format the summary's value (for instance, set it to **Total: {0:c2}**).
 	
-	![](../../../../images/eurd-win-invoice-summary-format-string.png)
+	![](../../../../images/eurd-invoice-report-label-summary-format.png)
 
 ## <a name="sorting"></a>Sort Data
 Perform the following steps to sort data in the detail report:
@@ -146,7 +154,7 @@ Perform the following steps to sort data in the detail report:
 ## <a name="appearance"></a>Customize the Report Appearance
 Do the following to customize the report and its elements' appearance:
 
-1. Click the gray area around the design surface to select the report, and in the [Property Grid](../report-designer-tools/ui-panels/property-grid.md), specify the font settings. These settings are distributed to all report elements.
+1. Click the gray area around the design surface to select the report, and in the [Property Grid](../report-designer-tools/ui-panels/property-grid-tabbed-view.md), specify the font settings. These settings are distributed to all report elements.
 	
 	![](../../../../images/eurd-win-invoice-report-appearance-properties.png)
 

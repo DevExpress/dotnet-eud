@@ -1,6 +1,6 @@
 ---
 title: Columns
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 16563
 ---
 # Columns
@@ -13,6 +13,9 @@ This section consists of the following topics.
 * [Dimension Column](columns/dimension-column.md)
 	
 	Describes dimension column specifics.
+* [Hyperlink Column](columns/hyperlink-column.md)
+	
+	Describes hyperlink column specifics.
 * [Measure Column](columns/measure-column.md)
 	
 	Describes measure column specifics.

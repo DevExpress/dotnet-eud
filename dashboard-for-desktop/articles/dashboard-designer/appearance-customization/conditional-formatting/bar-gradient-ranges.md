@@ -1,6 +1,6 @@
 ---
 title: Bar Gradient Ranges
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 115244
 ---
 # Bar Gradient Ranges

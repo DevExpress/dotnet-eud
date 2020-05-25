@@ -12,7 +12,6 @@ To add a watermark to a report, do the following.
 
 1. Switch to the [toolbar](..\report-designer-tools\toolbar.md)'s **Page** page and press **Watermark**.
 
-	
 	![eurd-win-add-watermarks-use-toolbox](../../../../images/eurd-win-add-watermarks-use-toolbox.png)
 2. In the invoked **Watermark** dialog, select either the **Text Watermark** or **Picture Watermark** tab, depending on the type of watermark you wish to add.
 	
@@ -27,6 +26,9 @@ To add a watermark to a report, do the following.
 	In the invoked **Select Picture** dialog, select the file containing the image that you wish to use as a watermark and click **Open**. Next, specify the size mode and alignment options for the picture.
 	
 	Additionally, for both textual and picture watermarks, you can adjust the transparency, position (in front of or behind the document content), and the page range in which the watermark will be printed.
+
+	> [!NOTE]
+	> The **Transparency** property is unavailable when you specify an SVG image.
 
 ## <a name="preprintedform"></a>Supply a Preprinted Form
 You can use a picture watermark as a template, to display an image of the preprinted form on the report's body at design time.

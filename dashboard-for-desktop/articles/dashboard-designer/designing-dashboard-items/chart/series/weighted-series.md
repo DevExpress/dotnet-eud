@@ -1,6 +1,6 @@
 ---
 title: Weighted Series
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 16547
 ---
 # Weighted Series

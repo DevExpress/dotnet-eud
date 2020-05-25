@@ -22,7 +22,7 @@ Do the following to embed a style sheet's styles in a report:
 
 ![eurd-win-invoke-styles-editor](../../../../images/eurd-win-invoke-styles-editor.png)
 
-- press ![]() and choose a style sheet file in the Open dialog.
+- press ![](../../../../images/eurd-win-Open-Dialog.png) and choose a style sheet file in the Open dialog.
 
 ![eurd-win-open-style-sheet](../../../../images/eurd-win-open-style-sheet.png)
 
@@ -33,7 +33,7 @@ All the styles are now available in the report's toolbar and Report Explorer.
 
 ## Reuse Style Sheets in Reports
 
-You can utilize styles from a style sheet in a report. To do this, specify the path to the style sheet file in the report's **StyleSheetPath** property.
+You can utilize styles from a style sheet in a report. To do this, specify the path to the style sheet file in the report's **Style Sheet's Path** property.
 
 ![eurd-win-stylesheetpath](../../../../images/eurd-win-stylesheetpath.png)
 

@@ -6,16 +6,18 @@ author: Anna Gubareva
 
 This document describes how to display or hide a report control in a published document based on a specified logical condition.
 
-> [!Warning]
-> Use the approach below if expression bindings **are enabled** in the Report Designer (the [Property Grid](../../report-designer-tools/ui-panels/property-grid.md) provides the **Expressions** ![](../../../../../images/eurd-win-property-grid-expressions-icon.png) tab ).
+> [!NOTE]
+> Use this approach if expressions **are enabled** in the Report Designer (the Label's smart tag includes the **Expression** property).
 >
-> See [Conditionally Suppress Controls](../shape-data-data-bindings/conditionally-supress-controls.md) if expression bindings **are not enabled** in the Report Designer (the [Property Grid](../../report-designer-tools/ui-panels/property-grid.md) does not provide the **Expressions** ![](../../../../../images/eurd-win-property-grid-expressions-icon.png) tab).
+> ![](../../../../../images/eurd-label-expression-binding-modes.png)
+>
+> See the [Conditionally Suppress Controls](../shape-data-data-bindings/conditionally-supress-controls.md) topic in the [Shape Data (Data Bindings)](../shape-data-data-bindings.md) section to learn about an alternative approach.
 
 1. [Create a new report](../../add-new-reports.md) or open an existing one and prepare the report layout.
 
     ![](../../../../../images/eurd-win-shaping-suppress-initial-layout.png)
 
-2. Select the required control and switch to the [Property Grid](../../report-designer-tools/ui-panels/property-grid.md). Open the **Expressions** tab and click the **Visible** property's ellipsis button.
+2. Select the required control and switch to the [Property Grid](../../report-designer-tools/ui-panels/property-grid-tabbed-view.md). Open the **Behavior** tab, click the **Visible** property's marker and select **Visible Expression** in the context menu.
 
     ![](../../../../../images/eurd-win-shaping-suppress-visible-property.png)
 
@@ -27,7 +29,7 @@ This document describes how to display or hide a report control in a published d
 	
 	**Iif([Discontinued] == False, False, [Discontinued])**
 	
-	This expression means that if the data field's value is **False**, the control's **Visible** property's value is also **False**.
+	This expression means that if the data field's value is **False**, the control's **Visible** property is disabled.
 
 When switching to [Print Preview](../../preview-print-and-export-reports.md), you can view the report control's visibility changes according to the assigned condition.
 

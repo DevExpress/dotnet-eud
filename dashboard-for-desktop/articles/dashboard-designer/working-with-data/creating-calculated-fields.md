@@ -1,6 +1,6 @@
 ---
 title: Creating Calculated Fields
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 15765
 ---
 # Creating Calculated Fields
@@ -22,7 +22,7 @@ To create a calculated field, select the required data source (and the required 
 
 ![CalculatedFileds_AddCalculatedField_ContextMenu](../../../images/img21581.png)
 
-This invokes the [Expression Editor](../../../../interface-elements-for-desktop/articles/expression-editor.md) dialog, which allows you to specify an expression that will be used to obtain calculated field values. Here, you can construct the required expression.
+This invokes the **Expression Editor** dialog, which allows you to specify an [expression](../data-analysis/expression-constants-operators-and-functions.md) that will be used to obtain calculated field values. Here, you can construct the required expression.
 
 ![CalculatedFileds_ExpressionEditor](../../../images/img21580.png)
 
@@ -30,7 +30,7 @@ You can use the following elements in expressions.
 * Functions
 	
 	> [!NOTE]
-	> To learn how to use **Aggregate** functions, see [Aggregations](../data-analysis/aggregations.md). The [Expression Operators, Functions and Constants](../../../../interface-elements-for-desktop/articles/expression-editor/expression-operators-functions-and-constants.md) topic lists common functions (**DateTime**, **Math**, **String**, etc.) supported by expressions.
+	> To learn how to use **Aggregate** functions, see [Aggregations](../data-analysis/aggregations.md). The [Expression Operators, Functions and Constants](../data-analysis/expression-constants-operators-and-functions.md) topic lists the functions (**DateTime**, **Math**, **String**, etc.) supported by expressions.
 * Operators
 * Columns
 * Constants

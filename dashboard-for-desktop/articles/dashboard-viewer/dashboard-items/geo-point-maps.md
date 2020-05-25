@@ -1,6 +1,6 @@
 ---
 title: Geo Point Maps
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 16694
 ---
 # Geo Point Maps

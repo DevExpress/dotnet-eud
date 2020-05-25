@@ -12,7 +12,7 @@ The _design surface_ displays a report's structure and contents. You can use the
 
 - drop report controls from the [Toolbox](report-designer-tools\toolbox.md) to the design surface;
 
-- use the [Ribbon](report-designer-tools\toolbar.md) toolbar and [Property Grid](report-designer-tools\ui-panels\property-grid.md) to set up the report controls;
+- use the [Ribbon](report-designer-tools\toolbar.md) toolbar and [Property Grid](report-designer-tools\ui-panels\property-grid-tabbed-view.md) to set up the report controls;
 
 - access the report's elements in the [Report Explorer](report-designer-tools\ui-panels\report-explorer.md);
 
@@ -30,6 +30,6 @@ Use the zoom panel to change the Report Designer's default zoom factor.
 
 Switch to the **Preview** tab. This opens a [Print Preview](preview-print-and-export-reports.md) and displays the generated report document with the data source's data.
 
-![report-designer-view-tabs](../../../images/eurd-win-report-designer-view-tabs.png)
+![eurd-win-preview](../../../images/eurd-win-preview.png)
 
 Switch to the **Scripts** tab to manage and customize [report scripts](use-report-scripts.md).

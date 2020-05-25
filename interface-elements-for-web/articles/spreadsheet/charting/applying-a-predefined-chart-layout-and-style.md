@@ -10,6 +10,10 @@ To change a chart style or layout, right-click the chart you wish to format, the
 
 ![EUD_ASPxSpreadsheet_Insert_ChartContextMenu](../../../images/img26193.png)
 
+When a chart is selected, the Spreadsheet displays context tabs (**Design**, **Layout**, and **Format**) that allows you to customize a chart style or layout.
+
+![EUD_ASPxSpreadsheet_Chart_ContextTabs](../../../images/spreadsheet-charting-context-tabs.png)
+
 ## Apply a Predefined Chart Layout
 In the **Chart Layouts** dialog box, select the required chart layout. For example, select **Layout 10**, which positions the chart legend to the right of the chart area, and adds the chart and axis titles.
 

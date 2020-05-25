@@ -1,7 +1,7 @@
 ---
-title: Handle Events via Scripts
+title: Use Report Scripts
 ---
-# Handle Events via Scripts
+# Use Report Scripts
 This document describes the basic principles of _scripting_, which can be performed by handling the events of a report, and its [bands](introduction-to-banded-reports.md) and [controls](use-report-elements.md).
 
 
@@ -9,7 +9,7 @@ _Scripts_ are program commands, placed within the _event handlers_ of the requir
 
 You can write _scripts_ for a report or any of its elements (bands and controls), to be executed when the report is being [previewed, printed or exported](preview-print-and-export-reports.md).
 
-In the [Property Grid](report-designer-tools\ui-panels\property-grid.md), expand the **Scripts** property for the required element. Every report element has an individual set of script events. 
+In the [Property Grid](report-designer-tools\ui-panels\property-grid-tabbed-view.md), expand the **Scripts** property for the required element. Every report element has an individual set of script events. 
 
 ![eurd-win-scripting-scripts-property](../../../images/eurd-win-scripting-scripts-property.png)
 

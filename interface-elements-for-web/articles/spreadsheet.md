@@ -26,7 +26,9 @@ This section describes the capabilities provided by the **Spreadsheet**.
 
 **Viewing and Navigating**
 * [Hide and Display Worksheets](spreadsheet/viewing/hide-and-display-worksheets.md)
-* [Hide Gridlines](spreadsheet/viewing/hide-gridlines.md)
+* [Hide and Display Gridlines](spreadsheet/viewing/hide-gridlines.md)
+* [Hide and Display Headings](spreadsheet/viewing/hide-and-display-headings.md)
+* [Document Views](spreadsheet/viewing/document-views.md)
 * [Full Screen Mode](spreadsheet/viewing/full-screen-mode.md)
 
 **Editing Cells**
@@ -34,7 +36,8 @@ This section describes the capabilities provided by the **Spreadsheet**.
 * [Copy and Paste Cell Content](spreadsheet/editing-cells/copy-and-paste-cell-content.md)
 * [Fill Data Automatically](spreadsheet/editing-cells/fill-data-automatically.md)
 * [Find and Replace](spreadsheet/editing-cells/find-and-replace.md)
-* [Insert a Comment](spreadsheet/editing-cells/insert-a-comment.md)
+* [Comments](spreadsheet/editing-cells/insert-a-comment.md)
+* [Data Validation](spreadsheet/editing-cells/data-validation.md)
 
 **Cell Formatting**
 * [Format Cells](spreadsheet/cell-formatting/format-cells.md)
@@ -42,14 +45,17 @@ This section describes the capabilities provided by the **Spreadsheet**.
 * [Wrap Text and Merge Cells](spreadsheet/cell-formatting/wrap-text-and-merge-cells.md)
 * [Number Formatting](spreadsheet/cell-formatting/number-formatting.md)
 * [Clear Cell Formatting](spreadsheet/cell-formatting/clear-cell-formatting.md)
+* [Format as Table](spreadsheet/cell-formatting/format-as-table.md)
 
 **Columns and Rows**
-* [Insert and Delete Rows and Columns](spreadsheet/columns-and-rows/insert-and-delete-rows-and-columns.md)
+* [Insert and Delete Columns and Rows](spreadsheet/columns-and-rows/insert-and-delete-rows-and-columns.md)
 * [Show and Hide Columns and Rows](spreadsheet/columns-and-rows/show-and-hide-columns-and-rows.md)
 * [Specify Column Width and Row Height](spreadsheet/columns-and-rows/specify-column-width-and-row-height.md)
 
 **Data Presentation**
 * [Sort Data](spreadsheet/data-presentation/sort-data.md)
+* [Filtering](spreadsheet/data-presentation/filtering.md)
+* [Freeze Panes](spreadsheet/data-presentation/freeze-panes.md)
 
 **Formulas**
 * [Create a Simple Formula](spreadsheet/formulas/create-a-simple-formula.md)

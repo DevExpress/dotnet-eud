@@ -10,7 +10,7 @@ Every **Data Matrix** is composed of two solid adjacent borders in an "L" shape 
 
 ![](../../../../../images/eurd-win-bar-code-ECC200.png)
 
-The following properties are specific to the **ECC200 - Data Matrix** type and available in the [Property Grid](../../report-designer-tools/ui-panels/property-grid.md) under the **Symbology** property:
+The following properties are specific to the **ECC200 - Data Matrix** type and available in the [Property Grid](../../report-designer-tools/ui-panels/property-grid-tabbed-view.md) under the **Symbology** property:
 
 * **Compaction Mode**
 	

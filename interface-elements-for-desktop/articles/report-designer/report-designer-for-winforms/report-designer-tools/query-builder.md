@@ -8,10 +8,10 @@ The **Query Builder** provides a visual interface for constructing SQL queries u
 ![query-builder](../../../../images/eurd-win-query-builder.png)
 
 > [!NOTE]
-> The Query Builder is not available for [object](report-wizard\data-bound-report\connect-to-an-object-data-source.md), [Entity Framework](report-wizard\data-bound-report\connect-to-an-entity-framework-data-source.md) and [Excel](report-wizard\data-bound-report\connect-to-an-excel-data-source.md) data sources.
+> The Query Builder is not available for [object](data-source-wizard\connect-to-an-object-data-source.md), [Entity Framework](data-source-wizard\connect-to-an-entity-framework-data-source.md) and [Excel](data-source-wizard\connect-to-an-excel-data-source.md) data sources.
 
 ## <a name="runquerybuilder"></a>Run the Query Builder
-You can invoke the **Query Builder** from the [query customization](report-wizard\data-bound-report\connect-to-a-database\create-a-query-or-select-a-stored-procedure.md) page of the [Report Wizard](report-wizard.md). On this page, click the ![report-wizard-multi-query-page-icon-add](../../../../images/eurd-win-report-wizard-multi-query-page-icon-add.png) button for the **Queries** category to create a new query using the Query Builder.
+You can invoke the **Query Builder** from the [query customization](data-source-wizard\connect-to-a-database\create-a-query-or-select-a-stored-procedure.md) page of the [Report Wizard](report-wizard.md). On this page, click the ![report-wizard-multi-query-page-icon-add](../../../../images/eurd-win-report-wizard-multi-query-page-icon-add.png) button for the **Queries** category to create a new query using the Query Builder.
 
 ![eurd-win-report-wizard-invoke-query-builder](../../../../images/eurd-win-report-wizard-invoke-query-builder.png)
 
@@ -64,10 +64,10 @@ You can manually join tables if they do not have a relationship at the database 
 After executing the query, it returns a "flat" table composed of data records selected based on the specified join options.
 
 > [!NOTE]
-> Although joining different tables within a single query may be required in some scenarios, creating [hierarchical data sources](report-wizard\data-bound-report\connect-to-a-database\create-a-query-or-select-a-stored-procedure.md) generally results in better performance (in general, [master-detail reports](..\create-popular-reports\create-a-master-detail-report-use-detail-report-bands.md) are generated faster than similar-looking reports created by grouping "flat" data sources).
+> Although joining different tables within a single query may be required in some scenarios, creating [hierarchical data sources](data-source-wizard\connect-to-a-database\create-a-query-or-select-a-stored-procedure.md) generally results in better performance (in general, [master-detail reports](..\create-popular-reports\create-a-master-detail-report-use-detail-report-bands.md) are generated faster than similar-looking reports created by grouping "flat" data sources).
 
 ## <a name="editparameters"></a>Edit Parameters
-Click the **Edit Parameters** button to invoke the **Query Parameters** dialog, which allows you to add and remove [query parameters](..\shape-report-data\use-report-parameters\use-query-parameters.md) as well as specify parameter settings.
+Click the **Edit Parameters** button to invoke the **Query Parameters** dialog, which allows you to add and remove [query parameters](..\shape-report-data\use-report-parameters\query-parameters.md) as well as specify parameter settings.
 
 ![query-builder-diagram-query-parameters](../../../../images/eurd-win-query-builder-diagram-query-parameters.png)
 
@@ -78,9 +78,9 @@ For each query parameter, the following properties are available.
 * **Expression** - determines whether the actual parameter value is static or generated dynamically.
 * **Value** - specifies the actual value of a query parameter. If the **Expression** option is enabled, the actual parameter value is produced dynamically by calculating an associated [expression](../use-expressions.md), which is particularly useful when you need to map the query parameter value to the value of a [report parameter](..\shape-report-data\use-report-parameters.md).
 
-The created parameters will be then available on the [Configure Query Parameters](report-wizard/data-bound-report/connect-to-a-database/configure-query-parameters.md) wizard page.
+The created parameters will be then available on the [Configure Query Parameters](data-source-wizard/connect-to-a-database/configure-query-parameters.md) wizard page.
 
-For general information on query parameters and ways of providing parameter values, see [Query Parameters](..\shape-report-data\use-report-parameters\use-query-parameters.md).
+For general information on query parameters and ways of providing parameter values, see [Query Parameters](..\shape-report-data\use-report-parameters\query-parameters.md).
 
 ## <a name="filterdata"></a>Filter Data
 To specify filter criteria, click the **Filter...** button in the Query Builder. This invokes the **Filter Editor**, which provides the following capabilities.
@@ -89,7 +89,7 @@ To specify filter criteria, click the **Filter...** button in the Query Builder.
 
 * **Filter Tab**
 	
-	The editor contains the **Filter** tab allowing you to specify filter conditions for resulting data. Filter criteria can be assigned [query parameters](report-wizard/data-bound-report/connect-to-a-database/configure-query-parameters.md) or bound to [report parameters](..\shape-report-data\use-report-parameters.md).
+	The editor contains the **Filter** tab allowing you to specify filter conditions for resulting data. Filter criteria can be assigned [query parameters](data-source-wizard/connect-to-a-database/configure-query-parameters.md) or bound to [report parameters](..\shape-report-data\use-report-parameters.md).
 * **Group Filter Tab**
 	
 	The **Group Filter** tab allows you to specify filter conditions for grouped and aggregated data. If data is not grouped, the second tab is disabled.

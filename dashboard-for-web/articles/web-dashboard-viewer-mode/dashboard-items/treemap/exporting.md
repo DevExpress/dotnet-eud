@@ -1,6 +1,6 @@
 ---
 title: Exporting
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 17395
 ---
 # Exporting

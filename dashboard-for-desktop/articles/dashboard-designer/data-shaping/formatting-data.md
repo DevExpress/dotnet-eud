@@ -1,6 +1,6 @@
 ---
 title: Formatting Data
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 16534
 ---
 # Formatting Data

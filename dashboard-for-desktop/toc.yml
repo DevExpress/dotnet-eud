@@ -20,6 +20,16 @@
       href: articles/dashboard-designer/providing-data/binding-to-extract-data-sources.md
     - name: Data Processing Modes
       href: articles/dashboard-designer/providing-data/data-processing-modes.md
+    - name: Connect to EF Data Sources
+      href: articles/dashboard-designer/providing-data/connect-to-ef-data-sources.md
+    - name: Binding to Federated Data Source
+      href: articles/dashboard-designer/providing-data/binding-to-federated-data-source.md
+    - name: Binding to JSON Data Sources
+      href: articles/dashboard-designer/providing-data/binding-to-json-data-sources.md
+    - name: Binding to Object Data Sources
+      href: articles/dashboard-designer/providing-data/binding-to-object-data-sources.md
+    - name: Binding to XPO Data Sources
+      href: articles/dashboard-designer/providing-data/binding-to-xpo-data-sources.md
   - name: Working with Data
     href: articles/dashboard-designer/working-with-data.md
     items:
@@ -41,6 +51,8 @@
       href: articles/dashboard-designer/working-with-data/preview-data.md
     - name: Creating Calculated Fields
       href: articles/dashboard-designer/working-with-data/creating-calculated-fields.md
+    - name: Data Inspector
+      href: articles/dashboard-designer/working-with-data/data-inspector.md
   - name: Adding Dashboard Items
     href: articles/dashboard-designer/adding-dashboard-items.md
   - name: Binding Dashboard Items to Data
@@ -133,6 +145,8 @@
           href: articles/dashboard-designer/designing-dashboard-items/grid/columns/column-type-overview.md
         - name: Dimension Column
           href: articles/dashboard-designer/designing-dashboard-items/grid/columns/dimension-column.md
+        - name: Hyperlink Column
+          href: articles/dashboard-designer/designing-dashboard-items/grid/columns/hyperlink-column.md
         - name: Measure Column
           href: articles/dashboard-designer/designing-dashboard-items/grid/columns/measure-column.md
         - name: Delta Column
@@ -302,6 +316,8 @@
         href: articles/dashboard-designer/designing-dashboard-items/range-filter/predefined-ranges.md
       - name: Coloring
         href: articles/dashboard-designer/designing-dashboard-items/range-filter/coloring.md
+    - name: Date Filter
+      href: articles/dashboard-designer/designing-dashboard-items/date-filter.md
     - name: Images
       href: articles/dashboard-designer/designing-dashboard-items/images.md
       items:
@@ -353,6 +369,8 @@
         href: articles/dashboard-designer/designing-dashboard-items/filter-elements/interactivity.md
     - name: Dashboard Item Group
       href: articles/dashboard-designer/designing-dashboard-items/dashboard-item-group.md
+    - name: Tab Container
+      href: articles/dashboard-designer/designing-dashboard-items/tab-container.md
   - name: Data Shaping
     href: articles/dashboard-designer/data-shaping.md
     items:
@@ -375,6 +393,8 @@
       href: articles/dashboard-designer/interactivity/master-filtering.md
     - name: Drill-Down
       href: articles/dashboard-designer/interactivity/drill-down.md
+    - name: Neutral Filter Mode
+      href: articles/dashboard-designer/interactivity/neutral-filter-mode.md
   - name: Appearance Customization
     href: articles/dashboard-designer/appearance-customization.md
     items:
@@ -410,6 +430,8 @@
         href: articles/dashboard-designer/appearance-customization/coloring/coloring-concepts.md
       - name: Customizing a Color Scheme
         href: articles/dashboard-designer/appearance-customization/coloring/customizing-a-color-scheme.md
+    - name: Data Display Formatting
+      href: articles/dashboard-designer/appearance-customization/data-display-formatting.md
   - name: Data Analysis
     href: articles/dashboard-designer/data-analysis.md
     items:
@@ -420,6 +442,8 @@
         href: articles/dashboard-designer/data-analysis/aggregations/summary-level-aggregations.md
       - name: Intermediate Level Aggregations
         href: articles/dashboard-designer/data-analysis/aggregations/intermediate-level-aggregations.md
+    - name: Expression Constants, Operators, and Functions
+      href: articles/dashboard-designer/data-analysis/expression-constants-operators-and-functions.md  
     - name: Window Calculations
       href: articles/dashboard-designer/data-analysis/window-calculations.md
       items:
@@ -483,6 +507,8 @@
       href: articles/dashboard-viewer/data-presentation/drill-down.md
     - name: Dashboard Layout
       href: articles/dashboard-viewer/data-presentation/dashboard-layout.md
+    - name: Data Inspector
+      href: articles/dashboard-viewer/data-presentation/data-inspector.md
   - name: Dashboard Parameters
     items:
     - name: Requesting Parameter Values
@@ -574,6 +600,8 @@
       items:
       - name: Printing and Exporting
         href: articles/dashboard-viewer/dashboard-items/range-filter/printing-and-exporting.md
+    - name: Date Filter
+      href: articles/dashboard-viewer/dashboard-items/date-filter.md
     - name: Image
       href: articles/dashboard-viewer/dashboard-items/image.md
       items:
@@ -595,3 +623,10 @@
         href: articles/dashboard-viewer/dashboard-items/treemap/printing-and-exporting.md
     - name: Filter Elements
       href: articles/dashboard-viewer/dashboard-items/filter-elements.md
+      items:
+      - name: Filter Elements Overview
+        href: articles/dashboard-viewer/dashboard-items/filter-elements/filter-elements-overview.md
+      - name: Neutral Filter Mode
+        href: articles/dashboard-viewer/dashboard-items/filter-elements/neutral-filter-mode.md
+    - name: Tab Container
+      href: articles/dashboard-viewer/dashboard-items/tab-container.md

@@ -1,6 +1,6 @@
 ---
 title: Data Presentation Basics
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 16554
 ---
 # Data Presentation Basics

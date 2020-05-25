@@ -1,6 +1,6 @@
 ---
 title: Style
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 16584
 ---
 # Style

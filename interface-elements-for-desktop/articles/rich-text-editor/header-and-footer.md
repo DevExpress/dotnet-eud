@@ -43,7 +43,7 @@ You can skip the header or footer on the first page, or create a unique header o
 4. Create the header or footer for odd pages in the **Odd Page Header** or **Odd Page Footer** areas and create the header or footer for even pages in the **Even Page Header** or **Even Page Footer** areas.
 
 ## Use Specific Headers and Footers for Each Section
-If your [document is divided into sections](document-layout-and-page-setup/divide-a-documents-into-sections.md), you can specify different headers and footers for each section.
+If your [document is divided into sections](document-layout-and-page-setup/divide-a-document-into-sections.md), you can specify different headers and footers for each section.
 1. Click the first section from the document beginning whose headers and footers you wish to change.
 2. Click the **Header** or **Footer** button on the **Insert** [tab](text-editor-ui/ribbon-interface.md).
 	

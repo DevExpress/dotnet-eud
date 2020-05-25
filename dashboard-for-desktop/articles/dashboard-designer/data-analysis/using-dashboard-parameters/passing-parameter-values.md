@@ -1,6 +1,6 @@
 ---
 title: Passing Parameter Values
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 16523
 ---
 # Passing Parameter Values
@@ -18,7 +18,7 @@ The Dashboard Designer provides the capability to use a dashboard parameter as a
 	
 	![QueryEditor_PassDashboardParameter](../../../../images/img121219.png)
 	
-	If necessary, you can select **Expression editor...** and specify an [expression](../../../../../interface-elements-for-desktop/articles/expression-editor.md) to bind a query parameter to a dashboard parameter using custom logic.
+	If necessary, you can select **Expression editor...** and specify an [expression](../../data-analysis/expression-constants-operators-and-functions.md) to bind a query parameter to a dashboard parameter using custom logic.
 
 ## <a name="filtering"/>Filtering
 You can filter the specified [query](../../working-with-data/filter-queries.md) of the [SQL Data Source](../../providing-data/connecting-to-sql-databases.md) or [apply filtering](../../data-shaping/filtering.md) to a specific dashboard item according to the current parameter value(s) using the [Filter Editor](../../../../../interface-elements-for-desktop/articles/filter-editor.md).

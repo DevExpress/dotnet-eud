@@ -4,7 +4,7 @@ author: Elena Dvoryadkina
 legacyId: 10536
 ---
 # Add Line Numbers
-1. To add line numbers to a whole document, [select the entire document](../text-editing/select-text.md) if your document is divided into multiple [sections](divide-a-documents-into-sections.md). If your document consists of one section only, simply click anywhere within a document.
+1. To add line numbers to a whole document, [select the entire document](../text-editing/select-text.md) if your document is divided into multiple [sections](divide-a-document-into-sections.md). If your document consists of one section only, simply click anywhere within a document.
 	
 	To add line numbers to a particular section or multiple sections, click a section or select multiple sections.
 2. On the **Page Layout** [ tab](../text-editor-ui/ribbon-interface.md), in the **Page Setup** group, click **Line Numbers** and select one of the available line numbering types from the invoked list...

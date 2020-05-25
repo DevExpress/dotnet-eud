@@ -1,6 +1,6 @@
 ---
 title: Scatter Chart
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 115246
 ---
 # Scatter Chart

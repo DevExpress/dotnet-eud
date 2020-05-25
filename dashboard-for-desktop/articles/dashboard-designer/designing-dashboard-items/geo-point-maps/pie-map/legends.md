@@ -1,6 +1,6 @@
 ---
 title: Legends
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 16794
 ---
 # Legends

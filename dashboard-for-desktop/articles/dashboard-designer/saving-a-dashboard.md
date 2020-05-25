@@ -1,6 +1,6 @@
 ---
 title: Saving a Dashboard
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 16519
 ---
 # Saving a Dashboard
