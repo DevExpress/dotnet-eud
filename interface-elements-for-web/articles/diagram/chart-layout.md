@@ -1,0 +1,19 @@
+---
+title: Chart Layout
+author: Svetlana Nikulina
+---
+# Chart Layout
+The **Diagram** can create a chart layout based on a predefined algorithm.
+
+- The **Tree** layout algorithm is used to draw hierarchical diagrams. It arranges shapes in a tree structure and aligns them evenly based on their hierarchical level.
+
+- The **Layered** layout algorithm is used to draw layered graphs. It minimizes the number of connector crossings and spreads shapes evenly.
+
+
+To select a layout type and direction for your chart, click a layout command on the **Properties > Layout** tab. 
+
+![Layout](../../images/diagram-layout.png)
+
+If your document contains several unconnected charts, you can specify a layout for a particular chart. Select the chart's element(s) (shape or connector) and click a layout command. The **Diagram** rebuilds layout of a chart to witch the selected element belongs.
+
+![Layout](../../images/diagram-layout-with-selection.png)
