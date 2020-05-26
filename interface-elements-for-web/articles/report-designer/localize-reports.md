@@ -15,7 +15,7 @@ Perform the following actions to localize a report:
 
     ![](../..//images/eurd-localize-report-web-forms-panel-set-language.png)
 
-    The **Language** drop-down list contains all available .NET locales. The report's languages are highlighted in bold.
+    The **Language** drop-down list contains all available locales. The report's languages are highlighted in bold.
 
 2. Change the controls' property values. You can move and resize a control.
 
