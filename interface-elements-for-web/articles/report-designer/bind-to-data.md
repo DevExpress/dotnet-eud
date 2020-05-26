@@ -7,6 +7,7 @@ author: Anna Vekhina
 The following topics illustrate how to bind a report and its controls to data:
 
 * [Bind a Report to a Database](bind-to-data/bind-a-report-to-a-database.md)
+* [Specify Query Parameters](bind-to-data/specify-query-parameters.md)
 * [Bind a Report to JSON Data](bind-to-data/bind-a-report-to-json-data.md)
 * [Data Binding Modes](bind-to-data/data-binding-modes.md)
 * [Bind Report Controls to Data (Expression Bindings)](bind-to-data/bind-controls-to-data-expression-bindings.md)

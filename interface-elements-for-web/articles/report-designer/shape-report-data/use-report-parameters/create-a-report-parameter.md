@@ -16,13 +16,13 @@ Specify the following basic options:
 
 | Option | Description |
 | --- | --- |
-| **Name** | A parameter should have a unique name with which you can refer to this parameter in expressions and filter strings. |
+| **Name** | A parameter should have a unique name. You can use this name to refer to this parameter in expressions and filter strings. |
 | **Type** | Specifies which values a parameter can accept. |
 | **Value** or **[Expression](../../use-expressions.md#expression-syntax)** | Specifies a parameter's value. Expressions can include data source fields or other parameters. When evaluated, expressions are parsed and processed to obtain a value. |
 
 ## Use the Parameters Panel to Ask for User Input
 
-Enable the *Visible** option to make your report interactive. The Preview displays the **Parameters** panel that shows editors for report parameters marked as visible. This allows you to specify a value before the report is rendered. Specify the parameter's **Description** to display the editor's caption in the **Parameters** panel.
+Enable the **Visible** option to make your report interactive. The Preview displays the **Parameters** panel that shows editors for report parameters marked as visible. This allows you to specify a value before the report is rendered. Specify the parameter's **Description** to display the editor's caption in the **Parameters** panel.
 
 ![Parameters Panel](../../../../images/eurd-web-parameters-create-date-parameter.png)
 

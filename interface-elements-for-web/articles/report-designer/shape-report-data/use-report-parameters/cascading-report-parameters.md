@@ -17,7 +17,7 @@ Follow the steps below to filter the list of parameter values by another paramet
 
     ![Specify Filter String](../../../../images/eurd-web-cascading-parameter-filterstring.png)
 
-1. In the report's smart tag, click the **Filter String** property's ellipsis button. In the invoked **FilterString Editor**, specify an expression that uses both parameters:
+1. In the report's smart tag, click the **Filter String** property's ellipsis button. In the invoked **Filter Editor**, specify an expression that uses both parameters:
 
     ![Specify Report Filter String](../../../../images/eurd-web-cascading-parameter-report-filterstring.png)
 

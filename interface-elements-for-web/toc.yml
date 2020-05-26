@@ -489,6 +489,8 @@
     items:
     - name: Bind a Report to a Database
       href: articles/report-designer/bind-to-data/bind-a-report-to-a-database.md
+    - name: Specify Query Parameters
+      href: articles/report-designer/bind-to-data/specify-query-parameters.md
     - name: Bind a Report to JSON Data
       href: articles/report-designer/bind-to-data/bind-a-report-to-json-data.md   
     - name: Bind a Report to an Object Data Source

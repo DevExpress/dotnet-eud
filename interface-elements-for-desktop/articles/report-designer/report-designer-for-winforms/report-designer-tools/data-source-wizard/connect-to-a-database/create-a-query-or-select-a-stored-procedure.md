@@ -43,4 +43,4 @@ On finishing the wizard, the specified data relationships will appear in the [Fi
 
 ![eurd-win-report-field-list2](../../../../../../images/eurd-win-report-field-list2.png)
 
-If selected queries or stored procedures contain any [parameters](../../../shape-report-data/use-report-parameters/query-parameters.md), you will be required to define their values on the next wizard page: [Configure Query Parameters](configure-query-parameters.md).
+If selected queries or stored procedures contain any [parameters](../../../bind-to-data/specify-query-parameters.md), you will be required to define their values on the next wizard page: [Configure Query Parameters](configure-query-parameters.md).

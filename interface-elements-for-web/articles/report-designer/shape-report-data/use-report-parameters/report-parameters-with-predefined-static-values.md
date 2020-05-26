@@ -4,7 +4,7 @@ author: Sergey Andreev
 ---
 # Report Parameters with Predefined Static Values
 
-You can create a parameter with a list of predefined values. In the **Parameters** panel, such a parameter allows users to select a value from the predefined list.
+You can create a parameter with a list of predefined values. In the **Parameters** panel, such a parameter allows you to select a value from the predefined list.
 
 ![Report Parameter with Static Values](../../../../images/eurd-web-report-parameters-static-values.png)
 
@@ -15,4 +15,4 @@ Follow the steps below to create a parameter with a list of predefined static va
 
     ![Specify Static Values](../../../../images/eurd-web-parameter-specify-static-values.png)
 
-3. Specify a list of values. Each value should have a description that is displayed in the **Parameters Panel**.
+3. Specify a list of values. Each value should have a description that is displayed in the **Parameters** panel.

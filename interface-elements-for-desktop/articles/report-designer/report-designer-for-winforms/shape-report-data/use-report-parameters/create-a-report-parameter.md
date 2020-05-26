@@ -14,7 +14,7 @@ The Report Designer offers multiple ways to create a parameter:
 
     ![Field List - Add Parameter](../../../../../images/eurd-win-fieldlist-add-parameter.png)
 
-* Select the report and click the **Parameters** property's ellipsis button in the [Property Grid](../../report-designer-tools/ui-panels/property-grid.md). Click **Add** in the invoked **Report Parameters Editor** dialog.
+* Select the report and click the **Parameters** property's ellipsis button in the [Property Grid](../../report-designer-tools/ui-panels/property-grid-tabbed-view.md). Click **Add** in the invoked **Report Parameters Editor** dialog.
 
     ![Create Report Parameter from PRoperty Grid](../../../../../images/eurd-win-create-report-parameter-from-property-grid.png)
 
@@ -26,7 +26,7 @@ Specify the following basic options:
 
 | Option | Description |
 | --- | --- |
-| **Name** | A parameter should have a unique name with which you can refer to this parameter in expressions and filter strings. |
+| **Name** | A parameter should have a unique name. You can use this name to refer to this parameter in expressions and filter strings. |
 | **Type** | Specifies which values a parameter can accept. |
 | **Default Value** or **[Expression](../../use-expressions.md#expression-syntax)** | Specifies a parameter's value. Expressions can include data source fields or other parameters. When evaluated, expressions are parsed and processed to obtain a value. |
 

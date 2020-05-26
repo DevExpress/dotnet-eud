@@ -26,7 +26,7 @@ Take into account the following syntax conventions when using the Expression Edi
 
 * Reference a data field in the expression by enclosing its name in the square brackets (for example, **[ProductName]**).
 
-* Insert [report parameters](../shape-report-data/use-report-parameters/parameters-overview.md) and [query parameters](../shape-report-data/use-report-parameters/query-parameters.md) by typing a question mark before their names (for instance, **?parameter1**).
+* Insert [report parameters](../shape-report-data/use-report-parameters.md) and [query parameters](../bind-to-data/specify-query-parameters.md) by typing a question mark before their names (for instance, **?parameter1**).
 
 * Denote string values with apostrophes. Type a double apostrophe to embed an apostrophe into an expression's text (for example, **'It''s sample text'**).
 

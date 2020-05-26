@@ -25,8 +25,8 @@ Use report parameters in the following cases:
 
     > [!TIP]
     > Data can be filtered:
-    > * On the report level. All data is loaded from the data source before a filter is applied
-    > * On the data sosurce level. Only the filtered data is loaded. See [Filter Data at the Data Source Level](filter-data/filter-data-at-the-data-source-level.md) for more information.
+    > * On the report level. All data is loaded from the data source before a filter is applied.
+    > * On the data source level. Only the filtered data is loaded. See [Filter Data at the Data Source Level](filter-data/filter-data-at-the-data-source-level.md) for more information.
 
 * **In [Expressions](../use-expressions.md)**
 
@@ -66,15 +66,19 @@ Use report parameters in the following cases:
 
     * **[Database](../bind-to-data/bind-a-report-to-a-database.md)**
 
-        Use [query parameters](../report-designer-tools/query-builder.md#editparameters) to filter data on the database level or pass values to a stored procedure.
+        Use [query parameters](../bind-to-data/specify-query-parameters.md) to filter data on the database level or pass values to a stored procedure.
 
     * **[JSON](../bind-to-data/bind-a-report-to-json-data.md)**
 
-        Use path parameters, query parameters, and header parameters to configure HTTP requests to the web service endpoint.
+        Use path, query, and header parameters to configure HTTP requests to the web service endpoint.
 
     * **[Object](../bind-to-data/bind-a-report-to-an-object-data-source.md)**
 
         Use object data source parameters to pass variables to the method that fetches data.
+
+    * **[Entity Framework](../bind-to-data/bind-a-report-to-an-entity-framework-data-source.md)**
+
+        Use Entity Framework data source parameters to pass variables to the method that fetches data.
 
 * **Display a Report Parameter Value in a Report Explicitly**
 

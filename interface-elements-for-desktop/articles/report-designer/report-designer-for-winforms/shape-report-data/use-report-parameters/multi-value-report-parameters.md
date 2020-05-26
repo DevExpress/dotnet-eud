@@ -10,8 +10,6 @@ This document describes how to create a multi-value parameter and [filter report
 
 ## Create a Multi-Value Parameter
 
-Follow these steps to create a multi-value parameter at design time:
-
 1. [Create a report parameter](create-a-report-parameter.md) and enable the **Allow multiple values** option.
 
     ![Create Multi-Value Parameter](../../../../../images/eurd-win-multi-value-parameters-create-parameter.png)
@@ -50,34 +48,34 @@ Use one of the following methods to pre-select multiple parameter values when a 
 
 ## Optional Multi-Value Parameter
 
-You can leave the parameter unspecified and display all report data. A user optionally chooses parameter values to filter the report.  
+You can leave the parameter unspecified and display all report data, or choose parameter values to filter the report.
 
 ![Optional Multi-Value Parameter](../../../../../images/eurd-win-parameters-multi-value-optional.png)
 
 Do the following to make a multi-value parameter optional.
 
-Configure the parameter:
+1. Configure the parameter:
 
-![parameters-multi-value-optional-settings](../../../../../images/eurd-win-parameters-multi-value-optional-settings.png)
+    ![parameters-multi-value-optional-settings](../../../../../images/eurd-win-parameters-multi-value-optional-settings.png)
 
-| Property | Value |
-| --- | --- |
-| **Allow null value** | Checked |
-| **Default Value** | Not specified |
-| **Expression** | Not specified |
-| **Select all values** | Unchecked |
+    | Property | Value |
+    | --- | --- |
+    | **Allow null value** | Checked |
+    | **Default Value** | Not specified |
+    | **Expression** | Not specified |
+    | **Select all values** | Unchecked |
 
-Disable the report's **Request Parameters** property.
+1. Disable the report's **Request Parameters** property.
 
-![Disable Request Parameters](../../../../../images/eurd-win-report-requestparameters-disable.png)
+    ![Disable Request Parameters](../../../../../images/eurd-win-report-requestparameters-disable.png)
 
-Use the following report filter string:
+1. Use the following report filter string:
 
-```
-?category Is Null or [CategoryID] In (?category)
-```
+    ```
+    ?category Is Null or [CategoryID] In (?category)
+    ```
 
 ![Empty Multi-Value Parameter](../../../../../images/eurd-win-parameters-multi-value-empty-value.png)
 
 > [!TIP]
-> You can also use the filter string shown above to filter report data at the data source level.
+> You can also use the filter string shown above to [filter report data at the data source level](../filter-data/filter-data-at-the-data-source-level.md).
