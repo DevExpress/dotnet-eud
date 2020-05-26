@@ -37,7 +37,7 @@ Add a PDF document for each product listed in an order.
 
     ![drop-xrpdfcontent](../../../images/eurd-pdfcontentdemo-drop-xrpdfcontent.png)
 
-1. Bind the dropped control to the source of PDF data. Select the control, click the **Source** property's marker, and select **Source Expression**. In the invoked **Expression Editor**, select the data source field that stores PDF documents and click **OK**.
+1. Bind the dropped control to the source of PDF data. Select the control, switch to the [Properties Panel](../report-designer-tools/ui-panels/properties-panel.md), click the **Source** property's marker, and select **Source Expression**. In the invoked **Expression Editor**, select the data source field that stores PDF documents and click **OK**.
 
     ![bind-to-pdf-source](../../../images/eurd-pdfcontentdemo-bind-to-pdf-source.png)
 
