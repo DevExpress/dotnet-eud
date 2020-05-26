@@ -10,6 +10,7 @@ The tutorials in this section provide detailed instructions on how to create rep
 * [Label Report](report-types/label-report.md)
 * [Multi-Column Report](report-types/multi-column-report.md)
 * [Master-Detail Report](report-types/master-detail-report.md)
+* [Report with PDF Content](report-types/report-with-pdf-content.md)
 * [Cross-Tab Report](report-types/cross-tab-report.md)
 * [Parametrized Report](report-types/parametrized-report.md)
 * [Chart with Static Series](report-types/chart-with-static-series.md)
