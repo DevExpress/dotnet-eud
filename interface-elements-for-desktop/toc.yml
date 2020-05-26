@@ -1076,6 +1076,8 @@
         href: articles/report-designer/report-designer-for-wpf/report-types/master-detail-report-(detail-report-bands).md
       - name: Master-Detail Report (Subreports)
         href: articles/report-designer/report-designer-for-wpf/report-types/master-detail-report-(subreports).md
+      - name: Report with PDF Content
+        href: articles/report-designer/report-designer-for-wpf/report-types/report-with-pdf-content.md
       - name: Cross-Tab Report
         href: articles/report-designer/report-designer-for-wpf/report-types/cross-tab-report.md
       - name: Parametrized Report

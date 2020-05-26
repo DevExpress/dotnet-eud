@@ -9,7 +9,7 @@ This tutorial describes how to add PDF content to a report.
 ![pdfcontentdemo-result](../../../../images/eurd-pdfcontentdemo-result.png)
 
 > [!TIP]
-> The [Create a Master-Detail Report (Use Subreports)](create-a-master-detail-report-use-subreports.md) topic describes another way to create a report that merges different documents.
+> The [Master-Detail Report (Subreports)](master-detail-report-(subreports).md) topic describes another way to create a report that merges different documents.
 
 ## Create a Report Layout
 
