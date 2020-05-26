@@ -4,21 +4,38 @@ author: Anna Vekhina
 ---
 
 # Expression Editor
-This document describes the **Expression Editor** used for constructing expressions in the [End-User Report Designer](../../report-designer.md).
 
-## Expression Editor Overview
+This document describes how to use the **Expression Editor** to specify expressions in the [Report Designer](../../report-designer.md).
 
-The Expression Editor provides a variety of aggregate, date-time, logical, math and string functions. You can also use logical and arithmetic operators, fields of a data source to which a report is bound, report elements, constants, and variables.
+Invoke the **Expression Editor** from a property's popup menu in the [Properties Panel](ui-panels/properties-panel.md). Click the property's marker and select the **_PropertyName_ Expression**.
+
+![](../../../images/eurd-web-report-designer-property-popup-menu.png)
+
+If a property's editor displays an ellipsis button, you can click this button to invoke the **Expression Editor** and specify an expression that evaluates to the property's value.
+
+![](../../../images/eurd-web-report-designer-expressions-tab.png)
+
+The **Expression Editor** offers a choice of functions, operators, data source fields, report elements, constants, and variables to create an expression.
 
 ![](../../../images/eurd-web-expression-editor-construct-expression.png)
 
-This editor supports syntax highlighting and intelligent code completion (suggesting functions and available data elements as you type).
+An expression can span multiple lines.
 
-![](../../../images/eurd-web-expression-editor-code-completion.png)
+![](../../../images/eurd-web-report-designer-expression-multiple-lines.png)
 
-An error icon appears if an expression contains any errors. Hovering over this icon with the mouse invokes the popup indicating the error's position.
+You can add single-line or multi-line comments in the following format: `/* comment text */`.
+
+![](../../../images/eurd-web-expression-editor-comments.png)
+
+The **Expression Editor** highlights an expression's syntax and supports intelligent code completion (it suggests functions and available data elements as you type).
+
+![](../../../images/eurd-web-report-designer-expression-editor-code-completion.png)
+
+An error icon appears if an expression contains errors. Hover the mouse pointer over this icon to invoke a pop-up notification that shows the location of the error.
 
 ![](../../../images/eurd-web-expression-editor-error.png)
+
+See the [Expression Syntax](../use-expressions/expression-syntax.md) topic for the expression syntax description.
 
 ## Expression Syntax
 
@@ -35,7 +52,6 @@ Take into account the following syntax conventions when using the Expression Edi
 * Use a question mark to specify a null reference (one that does not refer to any object) (**[Region] != ?**).
 
 * If an expression involves the use of different types, you can convert them to the same type using dedicated functions (for instance, **Max(ToDecimal([Quantity]),[UnitPrice])**).
-
 
 ## Using the Expression Editor
 
