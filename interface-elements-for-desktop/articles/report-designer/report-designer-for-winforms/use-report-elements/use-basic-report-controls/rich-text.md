@@ -112,7 +112,7 @@ The table below lists the supported HTML tags. External links are processed for 
 
 ### Export to Excel
 
-When a report is exported to XLS, the following rich-text content is converted from **Rich Text** controls into Excel-native rich-text content:
+When a report is exported to XLS or XLSX, the following rich-text content is converted from **Rich Text** controls into Excel-native rich-text content:
 
 | | HTML Tags and RTF Equivalents |
 | --- | --- |

@@ -153,7 +153,7 @@ Enable the **Allow Markup Text** property to format the label's text with markup
 | **&lt;image=**_value_**&gt;**  | - | Inserts an image from the report's named image collection. Supports both raster images and SVG images. Use the report's **Image Resources** property to provide images and reference them by their **Id**. The **image** tag's **size** attribute sets the image display pixel size. If the specified width/height exceeds the label's width/height, it is reduced to display the entire image. Specify the **size** attribute after the tag's value followed by the ";" character. |
 | **&lt;href=**_value_**&gt;** | **&lt;/href&gt;** | Displays a hyperlink. The value string specifies the hyperlink source, and the string between the opening and closing tags is the text to display. |
 
-When a report is exported to XLS, the following rich-text content is converted from labels into Excel-native rich-text content:
+When a report is exported to XLS or XLSX, the following rich-text content is converted from labels into Excel-native rich-text content:
 
 | | |
 | --- | --- |
