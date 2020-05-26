@@ -17,7 +17,7 @@ Create a report that should include PDF content.
 
 ![initial-report](../../../images/eurd-pdfcontentdemo-initial-report.png)
 
-In this tutorial, the report shows a purchase order. A **Detail Report** band is bound to the data source's **Orders** query to display the order details and customer information. An inner **Detail Report** band is bound to the **OrderItems** query to list products included in an order.
+In this tutorial, the report shows a purchase order. A **Detail Report** band displays order details and customer information. An inner **Detail Report** band lists products included in an order.
 
 ![initial-report](../../../images/eurd-pdfcontentdemo-initial-preview.png)
 
@@ -25,7 +25,7 @@ In this tutorial, the report shows a purchase order. A **Detail Report** band is
 
 Add a PDF document for each product listed in an order.
 
-1. Add a **Detail Report** band at the location where you want to place PDF content. As PDF content is rendered on separate pages, the report from this tutorial includes this band at the bottom. Bind the new band to the same data member as in the [Create a Report Layout](#create-a-report-layout) section above (**OrderItems** in this example).
+1. Add a **Detail Report** band at the location where you want to place PDF content. As PDF content is rendered on separate pages, the report from this tutorial includes this band at the bottom. Bind the new band to the same data member as in the [Create a Report Layout](#create-a-report-layout) section above.
 
     ![add-detail-report-for-pdf](../../../images/eurd-pdfcontentdemo-add-detail-report-for-pdf.png)
 
