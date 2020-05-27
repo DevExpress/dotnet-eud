@@ -4,6 +4,8 @@ author: Svetlana Nikulina
 ---
 # Keyboard Shortcuts
 
+The table below lists key combinations available in the **Diagram**.
+
 | Shortcut | Description |
 |---|---|
 | Left arrow key | Moves the selected elements one grid cell to the left. |
@@ -21,4 +23,5 @@ author: Svetlana Nikulina
 | Delete | Deletes the selected elements. |
 | Ctrl+Z | Undoes the last action. |
 | Ctrl+Y | Redoes the last undone action. |
+| Ctrl+Enter | Finishes shape/connector text editing. |
 | F11 |	Switches to full screen. |

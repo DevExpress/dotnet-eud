@@ -59,7 +59,9 @@
   - name: Create a New Chart
     href: articles/diagram/create-a-new-chart.md
   - name: Select Elements
-    href: articles/diagram/select-elements.md   
+    href: articles/diagram/select-elements.md
+  - name: Work with Chart Elements
+    href: articles/diagram/work-with-chart-elements.md       
   - name: Chart Layout
     href: articles/diagram/chart-layout.md
   - name: Page Settings
