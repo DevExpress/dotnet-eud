@@ -506,7 +506,7 @@ Use the following variables in an expressions to change a [Cross Tab](../use-rep
 
 ## Use Report Parameters
 
-Use the following syntax to insert [parameters](..\shape-report-data\use-report-parameters.md) in an expression:
+Use the following syntax to insert [report parameters](..\shape-report-data\use-report-parameters.md) in an expression:
 
 * Type a question mark before a parameter's name.  
 
@@ -525,7 +525,7 @@ The following expression returns _false_ if the Accounts collection is empty:
 
 _[Accounts][]_
 
-Refer to the [](..\shape-report-data\use-calculated-fields\calculate-an-aggregate-function.md) topic for an example on how to use this syntax.
+Refer to the [Calculate an Aggregate Function](..\shape-report-data\use-calculated-fields\calculate-an-aggregate-function.md) topic for an example on how to use this syntax.
 
 ## Specify Parent Relations
 
@@ -535,7 +535,7 @@ You can use this operator to refer to the currently processed report group. This
 
 _[][[^.CategoryID] == [CategoryID]].Sum([UnitPrice])_
 
-Refer to the [](..\shape-report-data\use-calculated-fields\calculate-an-aggregate-function.md) topic for details.
+Refer to the [Calculate an Aggregate Function](..\shape-report-data\use-calculated-fields\calculate-an-aggregate-function.md) topic for details.
 
 ## Group Clauses with Brackets
 
@@ -586,7 +586,7 @@ Operators are case insensitive. However, field values’ case sensitivity depend
 > 
 > _Lower(Name) == Upper(Name)_
 
-## Escaping Keywords
+## Escape Keywords
 
 You can mark a keyword&#0045;like field name with the **@** escape character. In the expression below, the **CriteriaOperator.Parse** method interprets \@Or as a field named "Or", not the logical operator OR.
 
