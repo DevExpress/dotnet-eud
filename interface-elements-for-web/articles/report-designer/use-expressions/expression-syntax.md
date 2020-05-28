@@ -8,6 +8,7 @@ owner: Anna Vekhina
 The table below contains constants, operators, and functions you can use in [expressions](..\use-expressions.md).
 
 ## Constants
+
 <table><tr><th><p>Constant</p>
 </th><th><p>Description</p>
 </th><th><p>Example</p>
@@ -455,25 +456,23 @@ Use the following functions when [calculating summaries](..\shape-report-data\sh
 </td><td><p>sumWAvg([UnitPrice])</p>
 </td></tr></table>
 
-## Report Items In Expressions
+## Refer to Report Items In Expressions
 
-A report's elements are displayed in the Report Designer's Report Explorer. You can access these elements and their properties in expressions. The following example demonstrates how to set a label's BackColor property to the other label's BackColor property value.
+A report's elements are displayed in the Report Designer's Report Explorer. You can access these elements and their properties in an expression. The following example demonstrates how to set a label's BackColor property to the other label's BackColor property value.
 
-*[ReportItems].[xrLabel2].[BackColor]*
+*[ReportItems.Label2].[BackColor]*
 
 > [!Tip]
 > **[ReportItems]** is a plain list that provides access to all report items at one level.
 
 > [!Note]
-> You cannot use the ReportItems collection in a [Calculated Field](..\shape-report-data\use-calculated-fields.md)'s expression. 
+> You cannot use the ReportItems collection in a [Calculated Field](..\shape-report-data\use-calculated-fields.md)'s expression.
 
-## Images for Picture Boxes
+## Specify Images for Picture Boxes
 
-When you construct an expression for the [Picture Box](../use-report-elements/use-basic-report-controls/picture-box.md)'s **ImageSource** property, you can use image **Id**s  from the report's **ImageResources** collection.
+When you specify an expression for the [Picture Box](../use-report-elements/use-basic-report-controls/picture-box.md)'s **ImageSource** property, you can use image **Id**s  from the report's **ImageResources** collection.
 
 *IIf([MarchSales]>20, [Images.ArrowUp],[Images.ArrowDown])*
-
-
 
 ## Variables
 
@@ -497,9 +496,9 @@ When you construct an expression for the [Picture Box](../use-report-elements/us
 > [!Note]
 > These variables are not valid when the report includes a [table or contents](..\add-navigation\add-a-table-of-contents.md).
 
-## Report Parameters
+## Use Report Parameters
 
-Use the following syntax to insert [parameters](..\shape-report-data\use-report-parameters.md) into expressions:
+Use the following syntax to insert [report parameters](..\shape-report-data\use-report-parameters.md) in an expression:
 
 * Type a question mark before a parameter's name.  
 
@@ -508,8 +507,9 @@ Use the following syntax to insert [parameters](..\shape-report-data\use-report-
 
   *[Parameters.parameter1]*
 
-## Collection Elements Verification
-Use brackets "[]" to check if a collection contains an element that satisfies a condition. The following expression returns _true_ if the Accounts collection contains at least one element that satisfies the _[Amount] == 100_ condition:
+## Verify Collection Elements
+
+Use brackets "[]" to check if a collection contains an element that satisfies your condition. The following expression returns _true_ if the Accounts collection contains at least one element that satisfies the _[Amount] == 100_ condition:
 
 _[Accounts][[Amount] == 100]_
 
@@ -517,18 +517,18 @@ The following expression returns _false_ if the Accounts collection is empty:
 
 _[Accounts][]_
 
-Refer to the [](..\shape-report-data\use-calculated-fields\calculate-an-aggregate-function.md) topic to see an example how to use this syntax.
+## Specify Parent Relations
 
-## Parent Relating Operator
-Use the parent relating operator ('^' character) to refer to a parent in expressions written in the context of a child. You can apply this operator successively to navigate multiple parent relationships. 
+Use the '^' parent relation operator to refer to a parent in expressions that are written in the context of a child. You can apply this operator successively to span multi-level parent relationships.
 
-You can use this operator to refer to the currently processed report group. This allows you to calculate aggregates within groups using expressions like the following:
+You can use this operator to refer to the currently processed report group. This allows you to calculate aggregates within groups, as shown in the following expression:
 
 _[][[^.CategoryID] == [CategoryID]].Sum([UnitPrice])_
 
-Refer to the [](..\shape-report-data\use-calculated-fields\calculate-an-aggregate-function.md) topic for details.
+Refer to the [Calculate an Aggregate Function](..\shape-report-data\use-calculated-fields\calculate-an-aggregate-function.md) topic for details.
 
 ## Grouping Clauses with Brackets
+
 It is important to use brackets to ensure that your expression returns the intended results.
 
 For instance, the following expression for objects of the Customer type returns all of the Customers where an Account exists with a Date of 8/25/2006 and where an account exists with an Amount of 100:
@@ -539,7 +539,8 @@ Construct the expression as in the following example to search for all Customers
 
 _[Accounts][[Date] == #8/25/2006# &amp;&amp; [Amount] == 100]_
 
-## Operator Precedence
+## Change Operator Precedence
+
 When an expression contains multiple operators, their precedence controls the order in which expression elements are evaluated.
 
 * Literal values
@@ -547,7 +548,7 @@ When an expression contains multiple operators, their precedence controls the or
 * Identifiers
 * OR (left-associative)
 * AND (left-associative)
-* '.' relationship qualifier (left-associative)
+* The '.' relationship qualifier (left-associative)
 * ==, !=
 * &lt;, &gt;, &lt;=, &gt;=
 * -, + (left-associative)
@@ -567,21 +568,23 @@ _Accounts[Amount == 2 + 48 * 2]_
 _Accounts[Amount == (2 + 48) * 2]_
 
 ## Case Sensitivity
+
 Operators are case insensitive. Although field values’ case sensitivity depends on the data source.
 
 > [!NOTE]
-> A data source affects certain operators' behavior. For instance, by default, the SQL Server Express 2005 is configured as case insensitive. In this case, the following expression always evaluates to **true**:
-> 
+> Data source specifics affect certain operators' behavior. For instance, SQL Server Express 2005 is configured as case insensitive. In this case, the following expression always evaluates to **true**:
+>
 > _Lower(Name) == Upper(Name)_
 
-## Escaping Keywords
-You can mark a keyword&#0045;like field name with an escape character (@ sign). In the expression below, the **CriteriaOperator.Parse** method interprets \@Or as the field named "Or", not the logical operator OR.
+## Escape Keywords
+
+You can mark a keyword&#0045;like field name with the **@** escape character. In the expression below, the **CriteriaOperator.Parse** method interprets \@Or as a field named "Or", not the logical operator OR.
 
 _\@Or = 'value'_
 
 ## Escape Characters
- 
-Use a backslash (\) as an escape character for characters in expressions. Examples:
+
+Use a backslash (\) as an escape character for characters in an expression, as shown below:
 
 - \\[
 - \\\

@@ -455,25 +455,32 @@ Use the following functions when [calculating summaries](..\shape-report-data\sh
 </td><td><p>sumWAvg([UnitPrice])</p>
 </td></tr></table>
 
-## Report Items In Expressions
+## Refer to Report Items In Expressions
 
-A report's elements are displayed in the Report Designer's Report Explorer. You can access these elements and their properties in expressions. The following example demonstrates how to set a label's BackColor property to the other label's BackColor property value.
+A report's elements are displayed in the Report Designer's Report Explorer. You can access these elements and their properties in an expression. The following example demonstrates how to set a label's BackColor property to the other label's BackColor property value.
 
-*[ReportItems].[xrLabel2].[BackColor]*
+*[ReportItems.Label2].[BackColor]*
 
 > [!Tip]
 > **[ReportItems]** is a plain list that provides access to all report items at one level.
 
 > [!Note]
-> You cannot use the ReportItems collection in a [Calculated Field](..\shape-report-data\use-calculated-fields.md)'s expression. 
+> You cannot use the ReportItems collection in a [Calculated Field](..\shape-report-data\use-calculated-fields.md)'s expression.
 
-## Images for Picture Boxes
+## Specify Images for Picture Boxes
 
-When you construct an expression for the [Picture Box](../use-report-elements/use-basic-report-controls/picture-box.md)'s **ImageSource** property, you can use image **Id**s  from the report's **ImageResources** collection.
+When you specify an expression for the [Picture Box](../use-report-elements/use-basic-report-controls/picture-box.md)'s **ImageSource** property, you can use image **Id**s  from the report's **ImageResources** collection.
 
 *IIf([MarchSales]>20, [Images.ArrowUp],[Images.ArrowDown])*
 
+## Use Row/Column Indexes for Cross Tab Cells
 
+Use the following variables in an expressions to change a [Cross Tab](../use-report-elements/use-cross-tabs.md) cell's appearance settings:
+
+| Variable | Description | Example |
+| --- | --- | --- |
+| Arguments.GroupColumnIndex | Returns the index of a cell's column within a group. | iif([Arguments.GroupColumnIndex] % 2 == 1, Rgb(235, 241, 252), ?)<br>Result: The specified color applies if a cell is located in an odd column; if the cell is located in an even column, its color does not change. |
+| Arguments.GroupRowIndex | Returns the index of a cell's row within a group. | iif([Arguments.GroupRowIndex] % 2 == 1, Rgb(235, 241, 252), ?)<br> Result: The specified color applies if a cell is located in an odd row; if the cell is located in an even row, its color does not change. |
 
 ## Variables
 
@@ -483,11 +490,11 @@ When you construct an expression for the [Picture Box](../use-report-elements/us
 </th></tr><tr><td><p>DataSource.RowCount</p>
 </td><td><p>Returns the total amount of data rows in a data source.</p>
 </td><td><p>[DataSource.RowCount] != 0</p>
-<p>Result: When using this expression for a control&#39;s Visible property, the control is not displayed if there is no data in the data source.</p>
+<p>Result: When this expression is applied to a control&#39;s Visible property, the control is not displayed if there is no data in the data source.</p>
 </td></tr><tr><td><p>DataSource.CurrentRowIndex</p>
 </td><td><p>Returns a zero-based index of the current data row in a data source.</p>
 </td><td><p>Iif([DataSource.CurrentRowIndex] % 2 = 0, &#39;red&#39;, &#39;green&#39;)</p>
-<p>Result: When this expression is used for a table row&#39;s BackColor property, odd rows are colored in red and even rows - in green.</p>
+<p>Result: When this expression is used for a table row&#39;s BackColor property, odd rows are colored in red, even rows are colored in green.</p>
 </td></tr><tr><td><p>DataSource.CurrentRowHierarchyLevel</p>
 </td><td><p>Returns a zero-based level of the current row in a <a class="xref" href="..\create-popular-reports\create-a-hierarchical-report.md">hierarchical report</a>.</p>
 </td><td><p>Iif([DataSource.CurrentRowHierarchyLevel] == 0, Rgb(231,235,244), ?)</p>
@@ -497,9 +504,9 @@ When you construct an expression for the [Picture Box](../use-report-elements/us
 > [!Note]
 > These variables are not valid when the report includes a [table or contents](..\add-navigation\add-a-table-of-contents.md).
 
-## Report Parameters
+## Use Report Parameters
 
-Use the following syntax to insert [parameters](..\shape-report-data\use-report-parameters.md) into expressions:
+Use the following syntax to insert [report parameters](..\shape-report-data\use-report-parameters.md) in an expression:
 
 * Type a question mark before a parameter's name.  
 
@@ -508,8 +515,9 @@ Use the following syntax to insert [parameters](..\shape-report-data\use-report-
 
   *[Parameters.parameter1]*
 
-## Collection Elements Verification
-Use brackets "[]" to check if a collection contains an element that satisfies a condition. The following expression returns _true_ if the Accounts collection contains at least one element that satisfies the _[Amount] == 100_ condition:
+## Verify Collection Elements
+
+Use brackets "[]" to check if a collection contains an element that satisfies your condition. The following expression returns _true_ if the Accounts collection contains at least one element that satisfies the _[Amount] == 100_ condition:
 
 _[Accounts][[Amount] == 100]_
 
@@ -517,29 +525,32 @@ The following expression returns _false_ if the Accounts collection is empty:
 
 _[Accounts][]_
 
-Refer to the [](..\shape-report-data\use-calculated-fields\calculate-an-aggregate-function.md) topic to see an example how to use this syntax.
+Refer to the [Calculate an Aggregate Function](..\shape-report-data\use-calculated-fields\calculate-an-aggregate-function.md) topic for an example on how to use this syntax.
 
-## Parent Relating Operator
-Use the parent relating operator ('^' character) to refer to a parent in expressions written in the context of a child. You can apply this operator successively to navigate multiple parent relationships. 
+## Specify Parent Relations
 
-You can use this operator to refer to the currently processed report group. This allows you to calculate aggregates within groups using expressions like the following:
+Use the '^' parent relation operator to refer to a parent in expressions that are written in the context of a child. You can apply this operator successively to span multi-level parent relationships.
+
+You can use this operator to refer to the currently processed report group. This allows you to calculate aggregates within groups, as shown in the following expression:
 
 _[][[^.CategoryID] == [CategoryID]].Sum([UnitPrice])_
 
-Refer to the [](..\shape-report-data\use-calculated-fields\calculate-an-aggregate-function.md) topic for details.
+Refer to the [Calculate an Aggregate Function](..\shape-report-data\use-calculated-fields\calculate-an-aggregate-function.md) topic for details.
 
-## Grouping Clauses with Brackets
+## Group Clauses with Brackets
+
 It is important to use brackets to ensure that your expression returns the intended results.
 
-For instance, the following expression for objects of the Customer type returns all of the Customers where an Account exists with a Date of 8/25/2006 and where an account exists with an Amount of 100:
+For instance, the following expression returns all Customers where the account Date is 8/25/2006 ot where the account Amount is 100:
 
 _[Accounts][[Date] == #8/25/2006#] &amp;&amp; [Accounts][[Amount] == 100]_
 
-Construct the expression as in the following example to search for all Customers that have an Account with both a Date of 8/25/2006 and an Amount of 100:
+Construct an expression as in the following example to search for all Customers that have an Account with both a Date of 8/25/2006 and an Amount of 100:
 
 _[Accounts][[Date] == #8/25/2006# &amp;&amp; [Amount] == 100]_
 
-## Operator Precedence
+## Change Operator Precedence
+
 When an expression contains multiple operators, their precedence controls the order in which expression elements are evaluated.
 
 * Literal values
@@ -547,7 +558,7 @@ When an expression contains multiple operators, their precedence controls the or
 * Identifiers
 * OR (left-associative)
 * AND (left-associative)
-* '.' relationship qualifier (left-associative)
+* The '.' relationship qualifier (left-associative)
 * ==, !=
 * &lt;, &gt;, &lt;=, &gt;=
 * -, + (left-associative)
@@ -560,28 +571,30 @@ When an expression contains multiple operators, their precedence controls the or
 * '[]' (for set-restriction)
 * '()'
 
-The default precedence can be changed by grouping elements with parentheses. For instance, the operators are performed in a default order in the first of the following two code samples. In the second code sample, the addition operation is performed first, because its associated elements are grouped with parentheses, and the multiplication operation is performed last.
+Group elements with parentheses to change operator precedence. For instance, operators are applied in the default order in the first code sample below. In the second code sample, the addition operation is applied first, because its associated elements are grouped with parentheses, and the multiplication operation is applied last.
 
 _Accounts[Amount == 2 + 48 * 2]_
 
 _Accounts[Amount == (2 + 48) * 2]_
 
 ## Case Sensitivity
-Operators are case insensitive. Although field values’ case sensitivity depends on the data source.
+
+Operators are case insensitive. However, field values’ case sensitivity depends on the data source.
 
 > [!NOTE]
-> A data source affects certain operators' behavior. For instance, by default, the SQL Server Express 2005 is configured as case insensitive. In this case, the following expression always evaluates to **true**:
+> Data source specifics affect certain operators' behavior. For instance, SQL Server Express 2005 is configured as case insensitive. In this case, the following expression always evaluates to **true**:
 > 
 > _Lower(Name) == Upper(Name)_
 
-## Escaping Keywords
-You can mark a keyword&#0045;like field name with an escape character (@ sign). In the expression below, the **CriteriaOperator.Parse** method interprets \@Or as the field named "Or", not the logical operator OR.
+## Escape Keywords
+
+You can mark a keyword&#0045;like field name with the **@** escape character. In the expression below, the **CriteriaOperator.Parse** method interprets \@Or as a field named "Or", not the logical operator OR.
 
 _\@Or = 'value'_
 
 ## Escape Characters
- 
-Use a backslash (\) as an escape character for characters in expressions. Examples:
+
+Use a backslash (\) as an escape character for characters in an expression, as shown below:
 
 - \\[
 - \\\
