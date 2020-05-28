@@ -50,6 +50,8 @@ This tab enables you to
 * turn on/off [export and printing warnings](..\use-report-elements\manipulate-report-elements.md) to highlight intersecting controls and controls placed outside page margins;
 * display the document's watermark on the design surface;
 * specify whether to draw the snap grid;
+* expand or collapse all report bands;
+* change the report language and show localizable properties in the **Property Grid**;
 * zoom the design surface;
 * manage the Report Designer panels' visibility.
 

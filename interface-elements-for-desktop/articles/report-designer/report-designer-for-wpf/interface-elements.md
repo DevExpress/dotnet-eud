@@ -15,4 +15,5 @@ This section consists of the following topics.
 * [Properties Panel](interface-elements/properties-panel.md)
 * [Design Surface](interface-elements/design-surface.md)
 * [Script Editor](interface-elements/script-editor.md)
+* [Localization Editor](interface-elements/localization-editor.md)
 * [Query Builder](interface-elements/query-builder.md)
