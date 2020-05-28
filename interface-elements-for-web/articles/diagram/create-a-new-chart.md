@@ -15,11 +15,13 @@ This topic explains how to create a new chart and customize its settings.
 
 ## Connect Shapes
 
-1. Add one more shape to the chart.
+1. Add another shape to the chart.
+
 
 1. Hover a start shape to display its connection points. 
 
-1. Hover a point, press the left mouse button and drag the connector to another shape's connection point. Release the mouse button. Now, if you move a shape, the connector will stretch to it.
+1. Hover a point, press the left mouse button, and drag the connector to another shape's connection point, and release the mouse button. Now, if you move a shape, the connector stretches to it.
+
 
 1. Double click the connector to add a text. You can move the text along the connector by mouse.
 

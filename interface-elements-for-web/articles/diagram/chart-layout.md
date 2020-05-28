@@ -14,6 +14,7 @@ To select a layout type and direction for your chart, click a layout command on 
 
 ![Layout](../../images/diagram-layout.png)
 
-If your document contains several unconnected charts, you can specify a layout for a particular chart. Select the chart's element(s) (shape or connector) and click a layout command. The **Diagram** rebuilds layout of a chart to witch the selected element belongs.
+If your document contains several unconnected charts, you can specify a layout for a particular chart. Select the chart's element(s) (shape or connector) and click a layout command. The **Diagram** rebuilds the layout of a chart to witch the selected element belongs.
+
 
 ![Layout](../../images/diagram-layout-with-selection.png)

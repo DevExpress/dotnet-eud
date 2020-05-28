@@ -39,7 +39,8 @@ A connector can have several texts. A text appears at the position you double-cl
 
 ## Clone an Element
 
-You can create a copy of an element or a group of [selected elements](select-elements.md) by mouse or by keyboard.
+You can use the mouse or keyboard commands to create a copy of an element or a group of [selected elements](select-elements.md).
+
 
 - **By mouse**: press the Ctrl+Shift and drag an element to clone it.
 
@@ -56,7 +57,8 @@ You can create a copy of an element or a group of [selected elements](select-ele
 
 1. Release a connector at the following positions: 
 
-- at another shape's connection point to connect the particular points. In this case, if a shape is moved, the connector remains linked to the specified points.
+- at another shape's connection point to connect these points. In this case, the connector remains linked to the specified points if a shape is moved.
+
 
 ![Link to Point](../../images/diagram-link-to-point.gif)
 

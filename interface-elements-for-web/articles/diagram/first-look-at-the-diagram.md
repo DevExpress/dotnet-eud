@@ -8,7 +8,8 @@ author: Svetlana Nikulina
 
 ## Diagram Tools
 
-- The **History** toolbar allows you to undo and redo your actions. On mobile devises the toolbar additionally displays the **Show Toolbox** button that shows/hides the **Toolbox**.
+- The **History** toolbar allows you to undo and redo actions. On mobile devises, the toolbar also displays the **Show Toolbox** button that shows/hides the **Toolbox**.
+
 
     ![Show Toolbox Button](../../images/diagram-history-and-toolbox-button.png)
 
@@ -22,11 +23,13 @@ author: Svetlana Nikulina
 
     ![Context Toolbox](../../images/diagram-context-toolbox.png)
 
-- The **Context Menu** appears when you right-click a chart element(s).
+- The **Context Menu** appears when you right-click chart elements.
+
 
     ![Context Menu](../../images/diagram-context-menu.png)
 
-    On mobile devises tap a chart element to display the **Context Menu**. 
+    On mobile devises, tap a chart element to display the **Context Menu**. 
+
 
     ![Mobile Context Menu](../../images/diagram-mobile-context-menu.png)
 
