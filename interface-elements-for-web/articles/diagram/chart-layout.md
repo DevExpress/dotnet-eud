@@ -10,7 +10,8 @@ The **Diagram** can create a chart layout based on a predefined algorithm.
 - The **Layered** layout algorithm is used to draw layered graphs. It minimizes the number of connector crossings and spreads shapes evenly.
 
 
-To select a layout type and direction for your chart, click a layout command on the **Properties > Layout** tab. 
+To select your chart's layout type and direction, click a layout command on the **Properties > Layout** tab. 
+
 
 ![Layout](../../images/diagram-layout.png)
 
