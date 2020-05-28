@@ -15,6 +15,7 @@ The following topics describe how to display hierarchical data in your reports:
 
 * [Create a Master-Detail Report (Use Detail Report Bands)](create-popular-reports/create-a-master-detail-report-use-detail-report-bands.md)
 * [Create a Master-Detail Report (Use Subreports)](create-popular-reports/create-a-master-detail-report-use-subreports.md)
+* [Create a Report with PDF Content](create-popular-reports/create-a-report-with-pdf-content.md)
 * [Create a Hierarchical Report](create-popular-reports/create-a-hierarchical-report.md)
 
 The tutorials listed below demonstrate various layout options available for reports:
