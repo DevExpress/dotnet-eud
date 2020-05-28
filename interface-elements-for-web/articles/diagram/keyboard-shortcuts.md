@@ -23,5 +23,8 @@ The table below lists key combinations available in the **Diagram**.
 | Delete | Deletes the selected elements. |
 | Ctrl+Z | Undoes the last action. |
 | Ctrl+Y | Redoes the last undone action. |
+| Ctrl+B | Applies bold formatting to the selected text |
+| Ctrl+I | Applies italic formatting to the selected text |
+| Ctrl+U | Underlines the selected text |
 | Ctrl+Enter | Finishes shape/connector text editing. |
 | F11 |	Switches to full screen. |
