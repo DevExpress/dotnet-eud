@@ -5,13 +5,13 @@ author: Sergey Andreev
 
 # Localize Reports
 
-The Report Designer enables you to localize a report for different target languages and cultures and save localized values to the report file.
+The Report Designer enables you to localize a report for different languages and cultures and save localized values to the report file.
 
 ## Use Properties Panel
 
 Perform the following actions to localize a report:
 
-1. Specify a report language other than the _Default_:
+1. Specify a report language other than _Default_:
 
     ![](../..//images/eurd-localize-report-web-forms-panel-set-language.png)
 

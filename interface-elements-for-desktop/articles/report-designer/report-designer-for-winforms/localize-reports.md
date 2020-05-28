@@ -4,9 +4,9 @@ author: Anna Gubareva
 ---
 # Localize Reports
 
-This document describes how to localize a report for different target languages and cultures.
+This document describes how to localize a report for different languages and cultures.
 
-To localize a report, open it in the Report Designer and specify a report language other than the _Default_. Change the reporting controls' text, sizes, and locations and save the report. All language-specific changes are saved with the report. When a localized report is displayed in Preview, the document contains modifications that match the application's culture.
+To localize a report, open it in the Report Designer and specify a report language other than _Default_. Change the reporting controls' text, sizes, and locations and save the report. All language-specific changes are saved with the report. When a localized report is displayed in Preview, the document contains modifications that match the application's culture.
 
 Perform the following actions to localize a report:
 
