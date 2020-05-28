@@ -1,27 +1,81 @@
 ---
 title: Use Report Parameters
-author: Anna Vekhina
+author: Sergey Andreev
 ---
 # Use Report Parameters
 
-The topics in this section describe how to use parameters in a report:
+Report parameters pass data to a report before it is generated in **Preview**. You can specify parameter values.
 
-* [Parameters Overview](use-report-parameters/parameters-overview.md)
+The topics in this section describe how to create report parameters of different types and specify their values:
 
-	Describes how to create and use report parameters.
+* [Create a Report Parameter](use-report-parameters/create-a-report-parameter.md)
+* [Report Parameters with Predefined Static Values](use-report-parameters/report-parameters-with-predefined-static-values.md)
+* [Report Parameters with Predefined Dynamic Values](use-report-parameters/report-parameters-with-predefined-dynamic-values.md)
+* [Multi-Value Report Parameters](use-report-parameters/multi-value-report-parameters.md)
+* [Cascading Report Parameters](use-report-parameters/cascading-report-parameters.md)
+* [Date Range Report Parameters](use-report-parameters/date-range-report-parameters.md)
 
-* [Multi-Value and Cascading Report Parameters](use-report-parameters/multi-value-and-cascading-parameters.md)
+Use report parameters in the following cases:
 
-	Explains how to configure report parameters to accept multiple values and filter a parameter's values based on another parameter's value.
+* **In [Filter Strings](filter-data.md)**
 
-* [Date Range Parameters](use-report-parameters/date-range-parameters.md)
+    Report parameters can be referenced in a filter string.
 
-	Describes how to create date range parameters to filter report data by a specific time period.
+    ![Parameter in FIlter String](../../../images/eurd-web-parameters-filter-string-with-multi-value-parameter.png)
 
-* [Request and Pass Report Parameter Values](use-report-parameters/request-and-pass-report-parameter-values.md)
+    > [!TIP]
+    > Data can be filtered:
+    > * On the report level. All data is loaded from the data source before a filter is applied.
+    > * On the data source level. Only the filtered data is loaded. See [Filter Data at the Data Source Level](filter-data/filter-data-at-the-data-source-level.md) for more information.
 
-	Illustrates how to assign default and custom values to a report's parameters and describes the editors that are used to request these values in a Print Preview.
+* **In [Expressions](../use-expressions.md)**
 
-* [Query Parameters](use-report-parameters/query-parameters.md)
+    You can create a report parameter and use it in expressions. For instance, you can do the following:
 
-	Explains how to link report parameters to query parameters defined in your report's data source.
+    * Specify a [calculated field](use-calculated-fields/calculated-fields-overview.md)'s value.
+    * [Bind](../bind-to-data/bind-controls-to-data-expression-bindings.md) a control to data. 
+    * Conditionally change [a band's visibility](shape-data-expression-bindings/conditionally-change-a-bands-vibility-expression-binding.md) or [a control's appearance](shape-data-expression-bindings/conditionally-change-a-control-appearance.md).
+ 
+    ![Parameters in Expression Editor](../../../images/eurd-web-parameters-expression-editor.png)
+
+* **In [Mail Merge](../bind-to-data/use-embedded-fields-mail-merge.md)**
+
+    You can use a report parameter in a control's text.
+
+    ![MailMerge Parameters](../../../images/eurd-web-mail-merge-insert-parameters.png)
+
+* **As a Value Source for Control Parameters**
+
+    The following controls have internal collections of parameters. You can bind these internal parameters to report parameters.
+
+    * **[Chart](../use-report-elements/use-charts-and-pivot-grids/use-charts-in-reports.md)**
+
+	    [Filter chart data](../use-report-elements/use-charts-and-pivot-grids/use-charts-to-visualize-grouped-data.md) by parameters.
+
+    * **[Subreport](../use-report-elements/use-basic-report-controls/subreport.md)**
+
+	    Use the control's parameters collection to specify parameter values in the report that the **Subreport** control references.
+
+* **As a Value Source for Data Source Parameters**
+
+    The following data sources have internal collections of parameters. You can bind these internal parameters to report parameters to make them dependent on an external value.
+
+    * **[Database](../bind-to-data/bind-a-report-to-a-database.md)**
+
+        Use [query parameters](../bind-to-data/specify-query-parameters.md) to filter data on the database level or pass values to a stored procedure.
+
+    * **[JSON](../bind-to-data/bind-a-report-to-json-data.md)**
+
+        Use path, query, and header parameters to configure HTTP requests to the web service endpoint.
+
+    * **[Object](../bind-to-data/bind-a-report-to-an-object-data-source.md)**
+
+        Use object data source parameters to pass variables to the method that fetches data.
+
+* **Display a Report Parameter Value in a Report Explicitly**
+
+    ![Display Parameters Explicitly](../../../images/eurd-web-parameters-for-data-binding.png)
+
+Wherever you specify a parameter name, prefix it with the question mark character.
+
+![Prepend Parameters with Question Mark](../../../images/eurd-web-parameters-prepend-with-question-mark.png)

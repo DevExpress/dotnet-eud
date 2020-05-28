@@ -15,7 +15,7 @@ The Report Designer **Toolbar** includes the **Home**, **Layout**, **Page**, and
 Use commands in this tab to
 
 * add new reports, load and save report layouts;
-* add data sources, [calculated fields](..\shape-report-data\use-calculated-fields.md), and [report parameters](..\shape-report-data\use-report-parameters\parameters-overview.md);
+* add data sources, [calculated fields](..\shape-report-data\use-calculated-fields.md), and [report parameters](../shape-report-data/use-report-parameters.md);
 * delete the selected report elements, place them on the clipboard and paste them onto report bands;
 * customize font, color, formatting and alignment settings;
 * create new styles based on the selected control's appearance settings and then apply the created styles to other controls.
