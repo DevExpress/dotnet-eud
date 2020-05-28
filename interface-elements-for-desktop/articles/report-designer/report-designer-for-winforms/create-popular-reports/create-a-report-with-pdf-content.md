@@ -42,7 +42,7 @@ Add a PDF document for each product listed in an order.
     > * **Bind to a PDF file**  
     >   Specify the file's path or URL in the control's **Source URL** property. The specified file should be available when a report is generated.
     > * **Save the PDF content in the report**  
-    >   Click the **Source** property's ellipsis button and select the file from which to load the content.
+    >   Click the **Source** property's ellipsis button and select the file from which to load content.
 
 The report is ready and can be viewed in the **Preview** tab. Each PDF document is printed on a separate page and uses its own page settings.
 
