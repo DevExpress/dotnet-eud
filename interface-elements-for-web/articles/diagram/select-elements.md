@@ -13,7 +13,7 @@ author: Svetlana Nikulina
 To select multiple elements do one of the following.
 
 - Click elements while holding down the Shift key.
-- Drag a mouse over elements while holding down the left mouse button. Elements that are inside or cross the selection area, will be selected
+- Drag a mouse over elements while holding down the left mouse button. Elements that are inside or cross the selection area, will be selected.
 
 ![Selection](../../images/diagram-selection.png)
 

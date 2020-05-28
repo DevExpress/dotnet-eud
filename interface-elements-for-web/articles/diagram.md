@@ -4,7 +4,7 @@ author: Svetlana Nikulina
 ---
 # Diagram
 
-The **Diagram** allows you to design diagrams, flowcharts, and org charts online. 
+The **Diagram** allows you to design diagrams, flowcharts, and organizational charts online. 
 
 ![Diagram](../images/diagram-overview.png)
 
@@ -17,6 +17,3 @@ The **Diagram** allows you to design diagrams, flowcharts, and org charts online
 * [Page Settings](diagram/page-and-view-settings.md)
 * [Export to an Image](diagram/export-to-an-image.md)
 * [Keyboard Shortcuts](diagram/keyboard-shortcuts.md)
-
-> [!NOTE]
-> Specific features described in this guide may differ from what you see in your application. This depends on your application vendor.

@@ -9,6 +9,6 @@ The **Diagram** can export its content to the following image formats:
 - JPEG
 - SVG
 
-Click the **Export** command on the **View** toolbar and select a file format to download a document content in the corresponding image format.
+Click the **Export** command on the **View** toolbar and select a format to download the document content in this image format.
 
 ![Export](../../images/diagram-export.png)

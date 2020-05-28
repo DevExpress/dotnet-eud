@@ -17,16 +17,16 @@ To switch to simple view mode, select the **Simple View** command on the **View*
 
 ## Grid Settings
 
-Use the following commands on the **View** toolbar to control grid settings:
+Use the following commands on the **View** toolbar to control grid settings.
 
 - **Show Grid** - controls the grid visibility.
-- **Snap to Grid** - controls whether the chart elements (shapes and connectors) are snapped to the grid.
+- **Snap to Grid** - specifies whether shapes and connectors are snapped to the grid.
 
 ![Grid Settings](../../images/diagram-grid-settings.png)
 
 ## Full Screen
 
-To switch to full-screen mode, click the **Full screen** command on the **View** toolbar or press F11 while the **Diagram** has focus.
+To switch to full screen mode, click the **Full Screen** command on the **View** toolbar or press F11 while the **Diagram** has focus.
 
 ![Full Screen](../../images/diagram-full-screen.png)
 

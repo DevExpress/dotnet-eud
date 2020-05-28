@@ -17,10 +17,9 @@ This topic explains how to create a new chart and customize its settings.
 
 1. Add another shape to the chart.
 
+1. Hover the mouse cursor over a shape to display its connection points.
 
-1. Hover a start shape to display its connection points. 
-
-1. Hover a point, press the left mouse button, and drag the connector to another shape's connection point, and release the mouse button. Now, if you move a shape, the connector stretches to it.
+1. Hover a point, press the left mouse button, drag the connector to another shape's connection point, and release the mouse button. Now, if you move a shape, the connector stretches to it.
 
 
 1. Double click the connector to add a text. You can move the text along the connector by mouse.
@@ -31,7 +30,7 @@ This topic explains how to create a new chart and customize its settings.
 
 You can arrange shapes into collapsible horizontal and vertical containers.
 
-Drag shape over a container, so that the container is highlighted. Drop the shape.
+Drag a shape over a container (the container will be highlighted). Drop the shape.
 
 ![Container](../../images/diagram-container.gif)
 
@@ -51,7 +50,7 @@ Drag shape over a container, so that the container is highlighted. Drop the shap
 
 1. Right click the shape to invoke a context menu. Select the **Insert Shape Image...** command. 
 
-1. Select the shape image in the **Insert Image** dialog box and click OK.
+1. Select the shape image and click OK.
 
 To change or delete the image, select the corresponding command in the context menu.
 
@@ -63,6 +62,6 @@ To change or delete the image, select the corresponding command in the context m
 
 1. Click the **Properties** button to invoke the **Properties** toolbar.
 
-1. Customize the style settings for the selected element(s) on the **Style** tab.
+1. Use the editors on the **Style** tab to customize style settings.
 
 ![Customization](../../images/diagram-customization.gif)
