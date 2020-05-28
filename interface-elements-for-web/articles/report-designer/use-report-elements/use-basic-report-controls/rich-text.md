@@ -82,7 +82,7 @@ See the [Bind Controls to Data](../../bind-to-data/bind-controls-to-data-express
 
 ### Supported Tags
 
-The table below lists the supported HTML tags. External links are processed for inline pictures and style sheets (CSS files). The ID and Class attributes are interpreted for all tags, including the unlisted ones. These attributes are used to specify a style applied to the document part defined by a certain tag.
+The table below lists the supported HTML tags. External links are processed for inline pictures and style sheets (CSS files). The ID and Class attributes are interpreted for all tags, including the unlisted ones. These attributes are used to specify a style for content within a certain tag
 
 | Tag | Attributes | Notes |
 ---------|----------|---------
