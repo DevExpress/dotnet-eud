@@ -21,7 +21,7 @@ Embedded fields are replaced with values obtained from an assigned data source w
 
 Consider the following specifics and limitations when using embedded fields:
 
-* Field names should not use dots and spaces to be interpreted correctly.
+* Field names should not use spaces to be interpreted correctly.
 * Mail Merge is not available for a table's nested fields in a master-detail hierarchy.
 * Embedded fields cannot be exported to [XLS](../../document-viewer/exporting/xls-specific-export-options.md) and [XLSX](../../document-viewer/exporting/xlsx-specific-export-options.md) as values; they are always exported as plain text. We recommend using [text formats](../shape-report-data/shape-data-expression-bindings/format-data.md) instead if you need to accompany dynamic data with static text.
 
