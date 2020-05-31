@@ -33,9 +33,7 @@ Use one of the following actions:
 
 * Change the text and click **Apply** to apply your changes and preview the text in the report designer.
 
-* Click **OK** to apply changes and **close** the editor.
-
-![](~/images/localize-report-localization-editor-applied.png)
+* Click **OK** to apply changes and close the editor.
 
 > [!Tip]
 > When the **Localization Editor** is invoked, the grid in the right panel displays values for the report controls' **Text** properties. You can click the **Property** column header to modify a filter and select other properties or clear the filter to show all textual properties.

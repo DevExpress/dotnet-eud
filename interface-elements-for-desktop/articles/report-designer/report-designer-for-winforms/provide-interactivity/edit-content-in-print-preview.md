@@ -77,6 +77,14 @@ Each editor has a specific mask.
 > 
 > ![eurd-win-content-editing-table-cell-container](../../../../images/eurd-win-content-editing-table-cell-container.png)
 
+## Character Comb Editors
+
+The **Character Comb** control displays text so that each character is printed in an individual cell.
+
+![Character Comb](../../../../images/eurd-win-character-comb-report-control.png)
+
+Specify the Character Comb's **Edit Options** | **Editor Name** property to use a text editor, as described in the [Text Editors](#text-editors) section above.
+
 ## Check Box Editor
 The check box editor is used to customize the [Check Box](..\use-report-elements\use-basic-report-controls\check-box.md) report control's content in Print Preview.
 
@@ -107,3 +115,11 @@ Use the control's **Edit Options** | **Editor Name** property to assign one of t
     ![content-editing-image-and-signature](../../../../images/eurd-win-content-editing-image-and-signature.png)
 
 All these image editors include the ![clear-changes](../../../../images/eurd-win-clear-changes.png) button. This button allows you to clear the editor's content.
+
+## Export Editable Fields to PDF AcroForms
+
+Enable the report's **Export Options | PDF Export Options | Export Editing Fields to AcroForms** property to export [text fields](#text-editors), [check boxes](#check-box-editor), [character combs](#character-comb-editors), and [image editors](#image-editors) to PDF as editable form fields (**AcroForms**).
+
+![Export Editing Fields to AcroForms](../../../../images/eurd-win-exporteditingfieldstoacroforms.png)
+
+![Report Preview](../../../../images/eurd-win-editing-fields-preview.png)

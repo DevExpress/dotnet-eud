@@ -38,9 +38,6 @@ A data field is inserted into the expression's text using its name in **[**squar
 
 A calculated field's expression can evaluate the values of other calculated fields if you make sure to avoid circular references.
 
-> [!NOTE]
-> When creating calculated fields, avoid dots in their names, because reports use them to address data source members.
-
 Date-time constants must be wrapped in hashtags (**#**) (e.g., **[OrderDate] >= #1/1/2009#**). To represent a null reference (one that does not refer to any object), use a question mark (e.g., **[Region] != ?**). To denote strings, use apostrophes (**'**), otherwise an error will occur.
 
 To embed an apostrophe into an expression's text, it should be preceded by another apostrophe (e.g., **'It's sample text'**).
