@@ -40,12 +40,13 @@ When enabling content editing in your report, consider the following.
 
 To learn about the specifics of editing different kinds of content, see the following sections in this document.
 
-* [Text Editors](#texteditors)
-* [Check Box Editor](#checkboxeditor)
-* [Image Editors](#imageeditors)
+* [Text Editors](#text-editors)
+* [Character Comb Editors](#character-comb-editors)
+* [Check Box Editor](#check-box-editor)
+* [Image Editors](#image-editors)
 
 
-## <a name="texteditors"></a>Text Editors
+## Text Editors
 The [Label](..\use-report-elements\use-basic-report-controls\label.md), [Table Cell](..\use-report-elements\use-tables.md) and [Character Comb](..\use-report-elements\use-basic-report-controls\character-comb.md) controls can be assigned editors to customize their content in Print Preview.
 
 To enable content editing for these controls, expand the **Behavior** category, select the **Edit Options** section and set the **Enabled** property to **Yes**.
@@ -82,7 +83,7 @@ The **Character Comb** control displays text so that each character is printed i
 
 Specify the Character Comb's **Edit Options** | **Editor Name** property to use a text editor, as described in the [Text Editors](#text-editors) section above.
 
-## <a name="checkboxeditor"></a>Check Box Editor
+## Check Box Editor
 The [Check Box](..\use-report-elements\use-basic-report-controls\check-box.md) control's value can be edited in Print Preview.
 
 To enable content editing for a check box, expand the **Behavior** category, select the **Edit Options** section and set the **Enabled** property to **Yes**.
@@ -97,7 +98,7 @@ In Print Preview, the control's behavior depends on the **Group ID** setting.
 
 * Otherwise, the field editor behaves like a radio button, and editors with the same **Group ID** value belong to a single logical group (i.e., only one option can be selected within a group at a time).
 
-## <a name="imageeditors"></a>Image Editors
+## Image Editors
 
 Image editors are used to customize the [Picture Box](..\use-report-elements\use-basic-report-controls\picture-box.md) report control's content in Print Preview.
 
