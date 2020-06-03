@@ -3,7 +3,8 @@ title: Chart Layout
 author: Svetlana Nikulina
 ---
 # Chart Layout
-The **Diagram** tool creates a chart layout based on a predefined algorithm.
+The **Diagram** tool creates a chart layout based on predefined algorithms:
+
 
 - The **Tree** layout algorithm is used to draw hierarchical diagrams. It arranges shapes in a tree structure and aligns them based on their hierarchical level.
 
