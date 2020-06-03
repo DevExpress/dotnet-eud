@@ -11,6 +11,7 @@ To obtain information about these features, browse through the table of contents
 * [Card View](card-view.md)
 * [Charting](charting.md)
 * [Data View](data-view.md)
+* [Diagram](diagram.md)
 * [Docking Panel](docking-panel.md)
 * [Document Viewer](document-viewer.md)
 * [Editors](editors.md)

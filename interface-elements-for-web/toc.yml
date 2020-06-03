@@ -51,6 +51,25 @@
     href: articles/charting/series-selection.md
 - name: Data View
   href: articles/data-view.md
+- name: Diagram
+  href: articles/diagram.md
+  items:
+  - name: First Look at the Diagram
+    href: articles/diagram/first-look-at-the-diagram.md
+  - name: Create a New Chart
+    href: articles/diagram/create-a-new-chart.md
+  - name: Select Elements
+    href: articles/diagram/select-elements.md
+  - name: Work with Chart Elements
+    href: articles/diagram/work-with-chart-elements.md       
+  - name: Chart Layout
+    href: articles/diagram/chart-layout.md
+  - name: Page Settings
+    href: articles/diagram/page-and-view-settings.md
+  - name: Export to an Image
+    href: articles/diagram/export-to-an-image.md
+  - name: Keyboard Shortcuts
+    href: articles/diagram/keyboard-shortcuts.md          
 - name: Docking Panel
   href: articles/docking-panel.md
 - name: Document Viewer
