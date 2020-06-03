@@ -19,7 +19,7 @@ Perform the following actions to localize a report:
 
 2. Change the controls' property values. You can move and resize a control.
 
-![](../../images/eurd-localize-report-web-forms-change-content.png)
+    ![](../../images/eurd-localize-report-web-forms-change-content.png)
 
 3. Save the report.
 
