@@ -53,7 +53,7 @@ Drag a shape over a container (this highlights the container) and drop the shape
 1. Double click the shape to change its text.
 
 
-1. Right click the shape to invoke a context menu. Select the **Insert Shape Image...** command. 
+1. Right click the shape to invoke the context menu. Select the **Insert Shape Image...** command. 
 
 1. Select the shape image and click OK.
 

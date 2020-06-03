@@ -4,12 +4,12 @@ author: Svetlana Nikulina
 ---
 # Page and View Settings
 
-The **Diagram** divides the work area into pages. Use the commands on the **Properties > Diagram** tab to specify a page's size, orientation, and color.
+The **Diagram** tool divides the work area into pages. Use the commands on the **Properties > Diagram** tab to specify a page's size, orientation, and color.
 
 ![Page and View Settings](../../images/diagram-page-settings.png)
 
 ## Simple View
-In simple view mode, the **Diagram** does not divide the work area into pages and a content occupies all the available work area.
+In simple view mode, the **Diagram** tool does not divide the work area into pages and a content occupies all the available work area.
 
 To switch to simple view mode, select the **Simple View** command on the **View** toolbar.
 
@@ -26,7 +26,7 @@ Use the following commands on the **View** toolbar to control grid settings.
 
 ## Full Screen
 
-To switch to full screen mode, click the **Full Screen** command on the **View** toolbar or press F11 while the **Diagram** has focus.
+To switch to full screen mode, click the **Full Screen** command on the **View** toolbar or press F11 while the **Diagram** tool has focus.
 
 ![Full Screen](../../images/diagram-full-screen.png)
 

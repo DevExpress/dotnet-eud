@@ -4,7 +4,7 @@ author: Svetlana Nikulina
 ---
 # Keyboard Shortcuts
 
-The table below lists key combinations available in the **Diagram**.
+The table below lists key combinations available in the **Diagram** tool.
 
 | Shortcut | Description |
 |---|---|

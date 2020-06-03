@@ -4,7 +4,7 @@ author: Svetlana Nikulina
 ---
 # Diagram
 
-The **Diagram** allows you to design diagrams, flowcharts, and organizational charts online. 
+The **Diagram** tool allows you to design diagrams, flowcharts, and organizational charts online. 
 
 ![Diagram](../images/diagram-overview.png)
 

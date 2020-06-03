@@ -8,8 +8,8 @@ author: Svetlana Nikulina
 
 You can use the mouse or keyboard commands to move an element or a group of [selected elements](select-elements.md).
 
-- **By mouse**: drag and drop an element. 
-- **By keyboard**: select an element and press arrow keys to move the element.
+- **Mouse**: drag and drop an element. 
+- **Keyboard**: select an element and press arrow keys to move the element.
 
 If the [Snap to Grid](page-and-view-settings.md#grid-settings) option is enabled, an element is moved snapping to the grid. Press and hold Ctrl to move the element smoothly.
 
@@ -99,7 +99,7 @@ The **Context Toolbox** allows you to create a shape inside a container.
 
 ## Modify a Connector
 
-The **Diagram** can draw orthogonal and straight connectors. 
+The **Diagram** tool can draw orthogonal and straight connectors. 
 
 ![Line Type](../../images/diagram-connector-line-type.png)
 
@@ -113,15 +113,15 @@ Specify a connector's line type in the **Style** tab on the **Properties** toolb
 You can move a connector's line segments.
 
 1. Select a connector to display its key points.
-2. Drag a point to move a line segments.
+2. Drag a point to move a line segment.
 
 ### Straight Connectors
 
 You can add line segments to connectors.
 
 1. Select a connector to display its key points.
-2. Drag a middle point to add a line segments.
+2. Drag a middle point to add a line segment.
 
-To remove a key point, move it on line with nearest points.
+To remove a key point, move it between neighboring points.
 
 ![Connectors](../../images/diagram-modify-connector.gif)
