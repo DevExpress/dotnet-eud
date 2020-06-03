@@ -1,0 +1,136 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Conditional Formatting | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Conditional Formatting | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.37.0.0">
+    
+    <link rel="shortcut icon" href="../../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../../index.html">
+                <img id="logo" class="svg" src="../../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="conditional-formatting">Conditional Formatting</h1>
+
+<p>For the Card dashboard item, you can apply conditional formatting to the card&#39;s visual elements (like Title, Subtitle, various values) and change the card&#39;s background.</p>
+<p><img src="../../../../images/web-dashboard-card-conditional-formatting.png" alt=""></p>
+<div class="NOTE"><h5>Note</h5><p>Cards that use a <a href="https://docs.devexpress.com/Dashboard/118608/create-dashboards/create-dashboards-on-the-web/designing-dashboard-items/cards/layout#legacy-layout-v162-and-earlier">legacy layout</a> do not support conditional formatting.</p>
+</div>
+<h2 id="create-a-format-rule">Create a Format Rule</h2>
+<p>To create a format rule, open the <strong>Conditional Formatting</strong> section in the dashboard item&#39;s <a href="../../ui-elements/dashboard-item-menu.html">Options</a> menu or in the <a href="../../ui-elements/data-item-menu.html">data item menu</a>. Click &quot;+&quot; to add a new format rule:</p>
+<p><img src="../../../../images/wed-dashboard-cf-add-rule.png" alt="wed-dashboard-cf-add-rule"></p>
+<p>Specify the data item/card used to calculate a condition in the <strong>Common</strong> section. You can also create a format rule for one data item and apply different settings to the other data item. </p>
+<p>Available settings in the <strong>Common</strong> section depend on the selected <strong>Calculated by</strong> option:</p>
+<ul>
+<li>If you select the <strong>Card</strong> option, specify the card by whose values the format rule is calculated. The format rule applies to the <a href="providing-data.html">related card</a>. The <strong>Value Type</strong> option enables you to specify the card&#39;s value type according to which a condition is calculated. The <strong>expression</strong> format condition is an exception to this rule and applies to all cards.</li>
+<li>The <strong>Data Item</strong> option allows you to select a hidden measure or a series dimension. The rule applies to all cards in the Card item.</li>
+</ul>
+<p>Select a format rule type from the list to open its settings.</p>
+<p><img src="../../../../images/wdd-card-cf-select-rule.png" alt="wdd-grid-cf-select-rule-type"></p>
+<p>Select a condition from the list and <a href="#appearance-settings">specify its settings</a> in the <strong>Condition</strong> section. Available settings depend on the selected format rule.</p>
+<p><img src="../../../../images/img126023.png" alt="wdd-grid-cf-value-menu"></p>
+<h2 id="appearance-settings">Appearance Settings</h2>
+<p>To apply the selected appearance to the Title, Subtitle, values, and other card layout elements, use the <strong>Apply to</strong> drop-down list. The <em>All elements</em> value applies the format rule to all card elements.</p>
+<p>If you select a background color, it applies to the entire card and the <strong>Apply to</strong> value is not in effect.</p>
+<p><img src="../../../../images/web-conditional-formatting-card.png" alt=""></p>
+<p>Some predefined background styles contain a font color. This font color applies to all card elements regardless of drop-down list settings (for any card layout element).</p>
+<h2 id="edit-a-format-rule">Edit a Format Rule</h2>
+<p>To edit a format rule, select the rule and click <strong>Edit</strong> <img src="../../../../images/wdd-icon-edit-collection-value-item126050.png" alt="wdd-icon-edit-collection-value-item">.</p>
+<p><img src="../../../../images/wdd-grid-cf-edit-rule126025.png" alt="wdd-grid-cf-edit-rule"></p>
+<p>Click <strong>Delete</strong> <img src="../../../../images/wdd-icon-delete-big126104.png" alt="wdd-icon-delete-big"> to delete the selected format rule.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/master/dashboard-for-web/articles/web-dashboard-designer-mode/designing-dashboard-items/cards/conditional-formatting.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2019 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../../styles/main.js"></script>
+  </body>
+</html>

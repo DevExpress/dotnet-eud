@@ -69,38 +69,25 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="conditional-formatting">Conditional Formatting</h1>
 
-<p>The Dashboard Designer provides the capability to apply formatting to dashboard item elements whose values meet the specified condition. This feature allows you to highlight specific elements using a predefined set of rules.</p>
-<p>To learn more about specifics of using a conditional formatting feature for different dashboard items, see the following topics.</p>
-<ul>
-<li><a href="../designing-dashboard-items/grid/conditional-formatting.html">Conditional Formatting - Grid</a></li>
-<li><a href="../designing-dashboard-items/pivot/conditional-formatting.html">Conditional Formatting - Pivot</a></li>
-</ul>
+<p>The Dashboard Designer control supports conditional formatting. You can apply a custom style to data elements that satisfy a certain condition. Supported elements include cells in <a href="../designing-dashboard-items/grid.html">Grid</a> or <a href="../designing-dashboard-items/pivot.html">Pivot Grid</a>, and cards in a <a href="../designing-dashboard-items/cards.html">Card item</a>.</p>
 <p><img src="../../../images/img118090.png" alt="BlogDashboard_ConditionalFormatting"></p>
-<p>The current topic describes the following common concepts.</p>
+<p>Comparison rules used in conditional formatting can be categorized as follows:</p>
 <ul>
-<li><a href="#conditional-formatting-overview">Conditional Formatting Overview</a></li>
-<li><a href="#create-a-format-rule">Create a Format Rule</a></li>
-<li><a href="#specify-appearance-settings">Specify Appearance Settings</a></li>
-<li><a href="#edit-a-format-rule">Edit a Format Rule</a></li>
+<li><a href="conditional-formatting/value.html">Value</a> - Compares static values (Greater Than, Less Than, Between, etc.).</li>
+<li><a href="conditional-formatting/top-bottom.html">Top-Bottom</a> - Highlights a specific number of top/bottom values (Top N, Bottom N).</li>
+<li><a href="conditional-formatting/average.html">Average</a> - Highlights values above or below the average value.</li>
+<li><a href="conditional-formatting/a-date-occurring.html">A Date Occurring</a> -  Highlights date-time values that are within a specified interval.</li>
+<li><a href="conditional-formatting/expression.html">Expression</a> - Uses complex conditions to apply formatting. You can also pass dashboard parameters to expressions.</li>
+<li><a href="conditional-formatting/icon-ranges.html">Icon Ranges</a> - Display a specific icon based on a value range. You can select a predefined set of icons or apply a specific icon to each range.</li>
+<li><a href="conditional-formatting/color-ranges.html">Color Ranges</a> - Apply specific colors to different value ranges. You can select a predefined set of colors or use custom appearance settings to highlight values within specified ranges.</li>
+<li><a href="conditional-formatting/gradient-ranges.html">Gradient Ranges</a> - Apply formatting using gradient color scales.</li>
+<li><a href="conditional-formatting/bar.html">Bar</a> - Visualizes numeric values as bars. You can also color bars corresponding to positive and negative values using different colors.</li>
+<li><a href="conditional-formatting/bar-color-ranges.html">Bar Color Ranges</a> - Visualize numeric values as bars. Values within a range display a specific color.</li>
+<li><a href="conditional-formatting/bar-gradient-ranges.html">Bar Gradient Ranges</a> - Visualize numeric values as bars. Values within a range display a specific bar gradient.</li>
 </ul>
-<h2 id="a-nameconditional-formatting-overviewconditional-formatting-overview"><a name="conditional-formatting-overview"></a>Conditional Formatting Overview</h2>
-<p>Comparison rules used in conditional formatting can be divided into the following groups.</p>
+<p>Format conditions that can be applied to different data item types are as follows:</p>
 <ul>
-<li><a href="conditional-formatting/value.html">Value</a> - Allows you to compare static values (such as Greater Than, Less Than, Between, etc.).</li>
-<li><a href="conditional-formatting/top-bottom.html">Top-Bottom</a> - Highlights a specific number of topmost/bottommost values.</li>
-<li><a href="conditional-formatting/average.html">Average</a> - Highlights values above the average value or below the average value.</li>
-<li><a href="conditional-formatting/a-date-occurring.html">A Date Occurring</a> - Allows you to highlight date-time values that fall into a specified interval.</li>
-<li><a href="conditional-formatting/expression.html">Expression</a> - Allows you to use complex conditions to apply formatting. You can also pass dashboard parameters to expressions.</li>
-<li><a href="conditional-formatting/icon-ranges.html">Icon Ranges</a> - Allows you to apply formatting by displaying specific icons for different ranges of values. You can select a predefined set of icons or use a specific icon for each range.</li>
-<li><a href="conditional-formatting/color-ranges.html">Color Ranges</a> - Allows you to apply formatting using specific colors for different ranges of values. You can select a predefined set of colors or use custom appearance settings to highlight values within specified ranges.</li>
-<li><a href="conditional-formatting/gradient-ranges.html">Gradient Ranges</a> - Allows you to apply formatting using gradient color scales.</li>
-<li><a href="conditional-formatting/bar.html">Bar</a> - Allows you to visualize numeric values using bars. You can also color bars corresponding to positive and negative values using different colors.</li>
-<li><a href="conditional-formatting/bar-color-ranges.html">Bar Color Ranges</a> - Allows you to visualize numeric values using bars whose colors are contained in the specified color set.</li>
-<li><a href="conditional-formatting/bar-gradient-ranges.html">Bar Gradient Ranges</a> - Allows you to visualize numeric values using bars whose colors are contained in the specified color gradient.</li>
-</ul>
-<p>You can create comparison rules for <a href="../binding-dashboard-items-to-data/binding-dashboard-items-to-data.html">measures or dimensions</a>. The list below shows format conditions that can be applied to different types of data items.</p>
-<ul>
-<li>Measure/numeric Dimension<ul>
+<li>numeric<ul>
 <li><a href="conditional-formatting/value.html">Value</a></li>
 <li><a href="conditional-formatting/top-bottom.html">Top-Bottom</a></li>
 <li><a href="conditional-formatting/average.html">Average</a></li>
@@ -108,75 +95,109 @@
 <li><a href="conditional-formatting/icon-ranges.html">Icon Ranges</a></li>
 <li><a href="conditional-formatting/color-ranges.html">Color Ranges</a></li>
 <li><a href="conditional-formatting/gradient-ranges.html">Gradient Ranges</a></li>
-<li><a href="conditional-formatting/bar.html">Bar</a></li>
-<li><a href="conditional-formatting/bar-color-ranges.html">Bar Color Ranges</a></li>
-<li><a href="conditional-formatting/bar-gradient-ranges.html">Bar Gradient Ranges</a></li>
+<li><a href="conditional-formatting/bar.html">Bar</a> <sup>1</sup> </li>
+<li><a href="conditional-formatting/bar-color-ranges.html">Bar Color Ranges</a> <sup>1</sup> </li>
+<li><a href="conditional-formatting/bar-gradient-ranges.html">Bar Gradient Ranges</a> <sup>1</sup> </li>
 </ul>
 </li>
-<li>string Dimension<ul>
-<li><a href="conditional-formatting/value.html">Value</a> with the condition type set to <em>Equal To</em>, <em>Not Equal To</em> or <em>Text that Contains</em></li>
+<li>string <ul>
+<li><a href="conditional-formatting/value.html">Value</a> (with a condition type set to <em>Equal To</em>, <em>Not Equal To</em> or <em>Text that Contains</em>)</li>
 <li><a href="conditional-formatting/expression.html">Expression</a></li>
 </ul>
 </li>
-<li>date-time Dimension<ul>
+<li><p>date-time</p>
+<ul>
 <li><a href="conditional-formatting/value.html">Value</a></li>
-<li><a href="conditional-formatting/value.html">A Date Occuring</a> for dimensions with the continuous date-time group interval</li>
+<li><a href="conditional-formatting/value.html">A Date Occurring</a> (for dimensions with a continuous date-time group interval)</li>
 <li><a href="conditional-formatting/expression.html">Expression</a></li>
 <li><a href="conditional-formatting/icon-ranges.html">Icon Ranges</a></li>
 <li><a href="conditional-formatting/color-ranges.html">Color Ranges</a></li>
 <li><a href="conditional-formatting/gradient-ranges.html">Gradient Ranges</a></li>
-<li><a href="conditional-formatting/bar.html">Bar</a></li>
-<li><a href="conditional-formatting/bar-color-ranges.html">Bar Color Ranges</a></li>
-<li><a href="conditional-formatting/bar-gradient-ranges.html">Bar Gradient Ranges</a></li>
-</ul>
+<li><a href="conditional-formatting/bar.html">Bar</a> <sup>1</sup> </li>
+<li><a href="conditional-formatting/bar-color-ranges.html">Bar Color Ranges</a> <sup>1</sup> </li>
+<li><p><a href="conditional-formatting/bar-gradient-ranges.html">Bar Gradient Ranges</a> <sup>1</sup> </p>
+<p><sup>1</sup>  A Card dashboard item does not support these rules.</p>
 </li>
 </ul>
-<h2 id="a-namecreate-a-format-rulecreate-a-format-rule"><a name="create-a-format-rule"></a>Create a Format Rule</h2>
-<p>To create a new rule used to apply formatting according to the required condition, do the following.</p>
-<ol>
-<li><p>Choose a measure/dimension by whose values a format condition will be calculated. Click the measure/dimension menu button, select <strong>Add Format Rule</strong> and choose the condition.</p>
-<p> <img src="../../../images/img118549.png" alt="AddFormatRule_ValueItem"></p>
 </li>
-<li><p>This invokes the dialog that depends on the selected format condition and the type of dashboard item. For instance, the image below displays the <strong>Greater Than</strong> dialog corresponding to the <a href="conditional-formatting/value.html">Value</a> format condition for the <a href="../designing-dashboard-items/grid.html">Grid</a> dashboard item.</p>
-<p> <img src="../../../images/img118555.png" alt="GreaterThanDialog"></p>
-<p> In this dialog, specify settings specific for the selected condition (for instance, specify a value to compare with dimension/measure values). To learn more, see the documentation for the required condition.</p>
-</li>
-<li>Specify <a href="#specify-appearance-settings">appearance settings</a> applied to elements whose values meet the specified condition.</li>
-<li><p>Specify the data item to whose values conditional formatting is applied using the <strong>Apply to</strong> combo box. Thus, you can create a format rule for one data item and apply new appearance settings to the other data item. You can also create format rules for <a href="../binding-dashboard-items-to-data/hidden-data-items.html">hidden measures</a> and apply formatting to values of visible data items.</p>
-<div class="NOTE"><h5>Note</h5><p>Different dashboard items can provide additional capabilities for creating a new format rule. To learn more, refer to documentation for the required dashboard item.</p>
-</div>
-</li>
-</ol>
-<h2 id="a-namespecify-appearance-settingsspecify-appearance-settings"><a name="specify-appearance-settings"></a>Specify Appearance Settings</h2>
-<p>When creating a new format rule, you can select the required appearance settings applied according to the current format condition. All format conditions allow you to customize appearance settings in a similar manner. For instance, the <a href="conditional-formatting/value.html">Value</a> format condition allows you to specify appearance settings in the following way:</p>
+</ul>
+<h2 id="create-a-format-rule">Create a Format Rule</h2>
+<p>You can create format rules in the following ways:</p>
 <ul>
-<li><p>The <strong>Appearance</strong> tab allows you to choose the predefined background color/font.</p>
+<li><p>Click the <strong>Edit Rules</strong> button on the <strong>Home</strong> ribbon tab. </p>
+<p><img src="../../../images/editrules_ribbon118564.png" alt="EditRules_Ribbon"></p>
+<p>  The invoked dialog contains the <strong>calculated by</strong> combo box, where you can select the item whose values are used to calculate the format rule. You can use <a href="../binding-dashboard-items-to-data/binding-dashboard-items-to-data.html">measures or dimensions</a> to calculate a format rule. For the Card dashboard item, format rules are also calculated with <a href="../designing-dashboard-items/cards/delta.html">delta</a> values. 
+  If you use delta to calculate a condition, specify the delta type in the <strong>using</strong> combo box. Click the <strong>Add</strong> button, select the format rule from the pop-up menu, and specify the rule&#39;s condition:</p>
+<p>  <img src="../../../images/win-conditional-formatting-card-rule-manager.png" alt=""></p>
+</li>
+<li><p>Click the measure/dimension menu button in the Data Item&#39;s pane and select <strong>Add Format Rule</strong> to invoke its pop-up menu. For a Card, this menu is invoked when you click the series dimension/<a href="../binding-dashboard-items-to-data/hidden-data-items.html">hidden measure</a> menu button.</p>
+<p>  <img src="../../../images/img118549.png" alt="AddFormatRule_ValueItem"></p>
+</li>
+</ul>
+<p>For a Grid dashboard item, you can also right-click the column header, select <strong>Add Format Rule</strong> and choose the condition.</p>
+<p> Specify <a href="#specify-appearance-settings">appearance settings</a> and set the condition&#39;s value for the format rule. Available settings depend on the selected format rule. The image below displays the <strong>Greater Than</strong> dialog, which corresponds to the <a href="conditional-formatting/value.html">Value</a> format condition for a <a href="../designing-dashboard-items/grid.html">Grid</a> dashboard item. The format condition applies to the <em>ExtendedPrice</em> data item in the <strong>Apply to</strong> drop-down list.</p>
+<p> <img src="../../../images/img118555.png" alt="GreaterThanDialog"></p>
+<p>Format rule settings depend on the dashboard item. Refer to the following sections for more information:</p>
+<ul>
+<li><a href="../designing-dashboard-items/grid/conditional-formatting.html">Conditional Formatting - Grid</a></li>
+<li><a href="../designing-dashboard-items/pivot/conditional-formatting.html">Conditional Formatting - Pivot</a></li>
+<li><a href="../designing-dashboard-items/cards/conditional-formatting.html">Conditional Formatting - Card</a></li>
+</ul>
+<h2 id="specify-appearance-settings">Specify Appearance Settings</h2>
+<p>You can configure and customize current format condition appearance settings.</p>
+<ul>
+<li><p>The <strong>Appearance</strong> tab allows you to choose a predefined background color/font.</p>
 <p>  <img src="../../../images/img118585.png" alt="NewRuleDialog_AppearanceTab"></p>
 </li>
-<li><p>The <strong>Icons</strong> tab allows you to add the predefined icon.</p>
+<li><p>You can add a predefined icon in the <strong>Icons</strong> tab.</p>
 <p>  <img src="../../../images/img118586.png" alt="NewRuleDialog_IconsTab"></p>
 </li>
-<li><p>Use the <strong>Custom Appearance</strong> area in the <strong>Appearance</strong> tab to add presets containing custom appearance settings. To add a new preset, click an empty square. This invokes the <strong>Custom Style Settings</strong> dialog, allowing you to specify the required appearance settings.</p>
+<li><p>Use the <strong>Custom Appearance</strong> area in the <strong>Appearance</strong> tab to add presets containing custom appearance settings. To add a new preset, click an empty square. This invokes the <strong>Custom Style Settings</strong> dialog, which allows you to specify required appearance settings.</p>
 <p>  <img src="../../../images/img118587.png" alt="CustomStyleSettingsDialog"></p>
-<p>  In this dialog, you can specify the backgoround/foreground colors and font settings. Click <strong>Create</strong> to add a preset. The created preset will be displayed in the <strong>Custom Appearance</strong> area.</p>
+<p>  In this dialog, you can specify the background/foreground colors and font settings. Click <strong>Create</strong> to add a preset. </p>
 </li>
 </ul>
-<h2 id="a-nameedit-a-format-ruleedit-a-format-rule"><a name="edit-a-format-rule"></a>Edit a Format Rule</h2>
+<h2 id="edit-a-format-rule">Edit a Format Rule</h2>
 <p>To edit format rules for the selected dashboard item, click the <strong>Edit Rules</strong> button in the <strong>Home</strong> ribbon tab.</p>
 <p><img src="../../../images/img118564.png" alt="EditRules_Ribbon"></p>
 <p>As an alternative, use the <strong>Edit Rules</strong> data item&#39;s menu item or the corresponding item in the dashboard item&#39;s context menu.</p>
 <p><img src="../../../images/img118590.png" alt="EditRulesMenuItem"></p>
 <p>This invokes the <strong>Edit Rules</strong> dialog containing existing format rules for this dashboard item.</p>
 <p><img src="../../../images/img118565.png" alt="EditRulesDialog"></p>
-<p>This dialog allows you to perform the following actions.</p>
-<ul>
-<li>To edit the selected rule, use the <strong>Edit</strong> button or double-click the required rule.</li>
-<li>To delete the selected rule, use the <strong>Delete</strong> button.</li>
-<li>To reorder format rules, use the <strong>Up</strong> and <strong>Down</strong> buttons (the <img src="../../../images/img118698.png" alt="EditRules_UpButton"> and <img src="../../../images/img118699.png" alt="EditRules_DownButton"> icon, respectively). Reordering of rules allows you to specify the priority of rules from higher (a bottommost rule) to lower (a topmost rule).</li>
-<li>To enable/disable the required rule, use the corresponding check box on the left column.</li>
-<li>To create a new rule, click the <strong>Add</strong> button and select the required format condition. The <strong>calculated by</strong> combo box allows you to select the measure/dimension by whose values a format rule is applied.</li>
-<li>To filter format rules by the specified data item, use the <strong>Filter by</strong> combo box.</li>
-</ul>
+<table>
+<thead>
+<tr>
+<th>Action</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Edit the selected rule</td>
+<td>Use the <strong>Edit</strong> button or double-click the rule.</td>
+</tr>
+<tr>
+<td>Delete the selected rule</td>
+<td>Use the <strong>Delete</strong> button.</td>
+</tr>
+<tr>
+<td>Reorder format rules</td>
+<td>Use the <strong>Up</strong> and <strong>Down</strong> buttons (<img src="../../../images/img118698.png" alt="EditRules_UpButton"> and <img src="../../../images/img118699.png" alt="EditRules_DownButton"> icons). You can reorder rules to specify their priority. Rules are applied from top to bottom. The bottom rule has the highest priority.</td>
+</tr>
+<tr>
+<td>Enable/disable a rule</td>
+<td>Use the corresponding check box in the left column.</td>
+</tr>
+<tr>
+<td>Create a new rule</td>
+<td>Click the <strong>Add</strong> button and select the format condition. The <strong>calculated by</strong> combo box allows you to select the measure/dimension that is used to calculate the format rule. For Card, when you create a rule for delta, specify the delta type whose values are used to calculate a condition in the <strong>using</strong> combo box.</td>
+</tr>
+<tr>
+<td>Filter format rules by the specified data item</td>
+<td>Use the <strong>Filter by</strong> combo box.</td>
+</tr>
+</tbody>
+</table>
 <p>To clear all rules for the specified data item, use the <strong>Clear Rules</strong> button in the data item&#39;s context menu.</p>
 </article>
           </div>
@@ -186,7 +207,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/19.2/dashboard-for-desktop/articles/dashboard-designer/appearance-customization/conditional-formatting.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/master/dashboard-for-desktop/articles/dashboard-designer/appearance-customization/conditional-formatting.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

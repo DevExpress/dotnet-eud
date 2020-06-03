@@ -162,6 +162,16 @@
 </tbody>
 </table>
 <p>See the <a href="../../lay-out-dynamic-report-content.html">Arrange Dynamic Report Content</a> topic for more information.</p>
+<h3 id="convert-labels-to-table">Convert Labels to Table</h3>
+<p>You can convert multiple labels to a <a href="../use-tables.html">table</a> to simplify control alignment.</p>
+<p>Hold CTRL or SHIFT and click labels to select them. Right-click any of the selected labels and select <strong>Convert To Table</strong> from the context menu. A table with one row is added to the report instead of the selected labels.</p>
+<p><img src="../../../../../images/eurd-win-label-convert-to-table.png" alt=""></p>
+<p>The <strong>Convert To Table</strong> option is not available if any of the selected labels overlap horizontally.</p>
+<p><img src="../../../../../images/eurd-win-label-labels-overlap.png" alt=""></p>
+<p>The created table occupies horizontal space from the leftmost label&#39;s left edge to the rightmost label&#39;s right edge, and vertical space from the topmost label&#39;s top edge to the lowest label&#39;s bottom edge.</p>
+<p>The horizontal gap between labels is included in the left cell.</p>
+<p><img src="../../../../../images/eurd-win-table-space-between-labels.png" alt=""></p>
+<p>The table cells copy all property values from the labels.</p>
 <h2 id="interactivity">Interactivity</h2>
 <p>Check the <strong>Enabled</strong> option in the <strong>Edit Options</strong> category to allow users to <a href="../../provide-interactivity/edit-content-in-print-preview.html">edit a label&#39;s content</a> in Print Preview mode.</p>
 <p><img src="../../../../../images/eurd-win-label-edit-options-enabled.png" alt=""></p>
@@ -240,6 +250,41 @@
 </tr>
 </tbody>
 </table>
+<p>When a report is exported to XLS or XLSX, the following rich-text content is converted from labels into Excel-native rich-text content:</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Text format</td>
+<td>&lt;b&gt;, &lt;i&gt;, &lt;u&gt;, &lt;s&gt;</td>
+</tr>
+<tr>
+<td>Line break</td>
+<td>&lt;br&gt;</td>
+</tr>
+<tr>
+<td>Non-breaking space</td>
+<td>&lt;nbsp&gt;</td>
+</tr>
+<tr>
+<td>Font</td>
+<td>&lt;font=<strong>[font name]</strong>&gt;</td>
+</tr>
+<tr>
+<td>Font size</td>
+<td>&lt;size=<strong>[font size]</strong>&gt;</td>
+</tr>
+<tr>
+<td>Foreground color</td>
+<td>&lt;color=<strong>[color]</strong>&gt;</td>
+</tr>
+</tbody>
+</table>
 </article>
           </div>
           
@@ -248,7 +293,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/19.2/interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/use-report-elements/use-basic-report-controls/label.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/master/interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/use-report-elements/use-basic-report-controls/label.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

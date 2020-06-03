@@ -69,37 +69,58 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="binding-to-json-data-sources">Binding to JSON Data Sources</h1>
 
-<p>Jason Data Sources allows you to extract JSON data from a Web-service endpoint URI, text file, or a string in JSON format.
-To bind a dashboard to Jason Data Sources, do the following.</p>
+<p>The Dashboard Designer allows you to connect to the JSON data source that retrieves data from a Web-service endpoint, text file or a string in JSON format.</p>
+<h2 id="create-a-new-data-connection">Create a New Data Connection</h2>
+<p>Follow the steps below to connect to the JSON data source:</p>
 <ol>
 <li><p>Click the <strong>New Data Source</strong> button in the <strong>Data Source</strong> ribbon tab.</p>
 <p> <img src="../../../images/new-data-source.png" alt="new-data-source"></p>
 </li>
-<li><p>On the first page of the invoked <strong>Data Source Wizard</strong> dialog, select <strong>JSON data source</strong> and click Next. </p>
+<li><p>On the first page of the invoked <strong>Data Source Wizard</strong> dialog, select <strong>JSON data</strong> and click <strong>Next</strong>. </p>
 <p> <img src="../../../images/choose-data-source-2.png" alt="choose-data-source"></p>
 </li>
-<li><p>Select the JSON source type and specify the JSON data location. </p>
-<ul>
-<li><p>Web Service Endpoint (URI)</p>
-<p>Specify a URL to a file in the JSON format.</p>
+</ol>
+<h2 id="configure-a-new-data-connection">Configure a New Data Connection</h2>
+<ol>
+<li><p>On the next page, configure a new data connection. </p>
 <p><img src="../../../images/specify3.png" alt="specify-data-source"></p>
-<p>On the next page specify the Web Service Endpoint&#39;s request parameters (username and password, HTTP headers, or query parameters).</p>
-<p><img src="../../../images/specify4.png" alt="specify-data-source"></p>
-</li>
-</ul>
+<h3 id="json-string">JSON String</h3>
+<p>Specify a string that contains JSON data.</p>
+<p><img src="../../../images/json_string.png" alt="json_string"></p>
+<p>Click <strong>Next</strong> to proceed to the <a href="#select-data-fields">Select Data Fields</a> page.</p>
+<h3 id="json-file">JSON File</h3>
+<p>Specify the JSON data location to load content from the selected JSON file.</p>
+<p><img src="../../../images/json_file_location.png" alt="json_file_location"></p>
+<p>Click <strong>Next</strong> to proceed to the <a href="#select-data-fields">Select Data Fields</a> page.</p>
+<h3 id="web-service-endpoint-uri">Web Service Endpoint (URI)</h3>
+<p>Specify a URL to a file in JSON format and the Web Service Endpoint&#39;s request parameters (username and password, HTTP headers, query parameters or URI path parameters).</p>
 <ul>
-<li><p>JSON String</p>
-<p> Provide data in the JSON format. </p>
-<p> <img src="../../../images/json_string.png" alt="json_string"></p>
-</li>
-<li><p>JSON File</p>
-<p> Specify the JSON file location.</p>
-<p> <img src="../../../images/json_file_location.png" alt="json_file_location"></p>
-</li>
+<li>A <strong>path parameter</strong> appends a path element to a JSON endpoint&#39;s Uri.</li>
+<li>A <strong>query parameter</strong> specifies an HTTP request parameter that is passed to a JSON endpoint.</li>
+<li>A <strong>header</strong> is a custom HTTP header in JSON endpoint requests.</li>
 </ul>
+<p>You can use expressions and dashboard parameters to set path parameters, query parameter values and headers. Click the &quot;+&quot; icon to create a new parameter, enable the new parameter&#39;s <strong>Expression</strong> property and select <strong>Expression Editor</strong> from the <strong>Value</strong> property&#39;s drop-down list.</p>
+<p><img src="../../../images/specify4.png" alt="specify-data-source"></p>
+<p>Specify the expression in the invoked <strong>Expression Editor</strong> and click <strong>OK</strong>. </p>
+<p><img src="../../../images/winforms-dashboard-wizard-expression-editor.png" alt=""></p>
+<p>An expression can include <a href="../data-analysis/using-dashboard-parameters.html">dashboard parameters</a>. </p>
+<div class="TIP"><h5>Tip</h5><p>Refer to the following help topic for details on how to create a dashboard parameter: <a href="../data-analysis/using-dashboard-parameters/creating-parameters.html">Create Parameters</a>.  </p>
+</div>
+<p>Select <strong>Add Dashboard Parameter</strong> from the <strong>Value</strong> property&#39;s drop-down list, configure the dashboard parameter in the invoked <strong>Dashboard Parameter</strong> dialog, and click <strong>OK</strong>.  </p>
+<p><img src="../../../images/winforms-dashboard-wizard-dashboard-parameter.png" alt=""></p>
+<p>Path parameters and query parameters are included in endpoint requests in the order in which they are listed. Move a parameter up or down the list to change its position within an endpoint request.</p>
+<p>The read-only <strong>Resulting URI</strong> field displays the result: a JSON URI.</p>
+<p><img src="../../../images/winforms-dashboard-wizard-json-parameters-configured-uri.png" alt=""></p>
+<p>Click <strong>Next</strong> to configure basic HTTP authentication credentials and specify HTTP Header parameters. </p>
+<p><img src="../../../images/winforms-dashboard-wizard-json-parameters-authentification.png" alt=""></p>
+<p>Click <strong>Next</strong> to proceed to the <a href="#select-data-fields">Select Data Fields</a> page.</p>
 </li>
-<li><p>Select the root node and click <strong>Finish</strong></p>
+</ol>
+<h2 id="select-data-fields">Select Data Fields</h2>
+<ol>
+<li><p>The &quot;Select data fields&quot; page allows you to include or exclude data fields used in a JSON data source.</p>
 <p> <img src="../../../images/specify5.png" alt="specify-data-source"></p>
+<p> Click <strong>Finish</strong> to create a JSON data source.</p>
 </li>
 </ol>
 </article>
@@ -110,7 +131,7 @@ To bind a dashboard to Jason Data Sources, do the following.</p>
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/19.2/dashboard-for-desktop/articles/dashboard-designer/providing-data/binding-to-json-data-sources.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/master/dashboard-for-desktop/articles/dashboard-designer/providing-data/binding-to-json-data-sources.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

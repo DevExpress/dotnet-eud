@@ -69,7 +69,7 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="bind-a-report-to-json-data">Bind a Report to JSON Data</h1>
 
-<p>This topic describes how to bind a report to JSON data at design time.</p>
+<p>This topic describes how to bind a report to JSON data.</p>
 <h2 id="add-a-new-data-source">Add a New Data Source</h2>
 <ol>
 <li><p>Invoke the designer <a href="../report-designer-tools/menu.html">menu</a> and click <strong>Add Data Source...</strong>.</p>
@@ -82,11 +82,28 @@
 <li><p>The next wizard page allows you to specify whether you want to use an existing data connection or create a new data connection.</p>
 <p> <img src="../../../images/eurd-web-data-source-wizard-json-choose-yes.png" alt=""></p>
 <p> <img src="../../../images/eurd-web-data-source-wizard-json-choose-no.png" alt=""></p>
-<p> If you prefer to create a new data connection, specify its settings. </p>
+<p> If you prefer to create a new data connection, specify its settings. You can use a Web Service Endpoint, a filename, or a string with JSON data. In this example, the JSON data is obtained from a <a href="https://northwind.now.sh/api/customers">JSON sample data location</a>.</p>
 <p> <img src="../../../images/eurd-web-data-source-wizard-json-choose-web-service-endpoint-uri.png" alt=""></p>
-<p> Specify request parameters.</p>
-<p> <img src="../../../images/eurd-web-data-source-wizard-json-http-headers-query-parameters.png" alt=""></p>
-<p> Specify the Basic HTTP Authentication parameters or header parameters to access JSON data.</p>
+<p> Specify request parameters (username and password, path parameters, query parameters, or HTTP headers).</p>
+<ul>
+<li>A path parameter appends a path element to a JSON endpoint&#39;s URI.</li>
+<li>A query parameter specifies a HTTP request parameter that is passed to a JSON endpoint.</li>
+<li><p>A header parameter adds a custom HTTP header to JSON endpoint requests.</p>
+<p><img src="../../../images/eurd-web-report-wizard-json-request-parameters.png" alt=""></p>
+<p>You can click the parameter&#39;s <img src="../../../images/eurd-web-f-button.png" alt=""> button and use an expression to set the parameter value.</p>
+</li>
+<li><p>Click the <strong>Value</strong> property&#39;s ellipsis button. Specify the expression in the invoked <a href="../use-expressions.html#expression-editor">Expression Editor</a> and click <strong>OK</strong>.</p>
+<p>  <img src="../../../images/eurd-web-data-source-wizard-json-http-headers-path-parameter-expression.png" alt=""></p>
+</li>
+<li><p>Expressions can include <a href="../shape-report-data/use-report-parameters.html">report parameters</a>. In the <strong>Expression Editor</strong>, expand <strong>Parameters</strong>, select a report parameter to which you want to bind the path parameter, query parameter, or header parameter, and click <strong>OK</strong>.</p>
+<p>  <img src="../../../images/eurd-web-data-source-wizard-json-http-headers-path-parameter-report-parameter.png" alt=""></p>
+<div class="NOTE"><h5>Note</h5><p>The Data Source Wizard sends a request to the endpoint with the specified parameters to populate the data source and build the data source schema. Ensure that the parameters are always set to the values that the endpoint expects. Otherwise, the Data Source Wizard generates an error on the next steps.<br>For instance, if a user specifies the name of a JSON file in a parameter, specify the default file name in order to avoid an error.</p>
+</div>
+<p>Path parameters, query parameters, and header parameters are included in endpoint requests in the same order as they are listed. Move a parameter up or down in the list to change its position in endpoint requests.</p>
+<p>The <strong>Resulting URI</strong> read-only field shows how the resulting JSON URI looks.</p>
+<p><img src="../../../images/eurd-web-data-source-wizard-json-http-headers-resulting-uri.png" alt=""></p>
+</li>
+</ul>
 </li>
 <li><p>This wizard page also shows the specified JSON data&#39;s structure. You can choose all nodes or a subset of nodes.</p>
 <p> <img src="../../../images/eurd-web-data-source-wizard-json-select-data-filds.png" alt=""></p>
@@ -106,7 +123,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/19.2/interface-elements-for-web/articles/report-designer/bind-to-data/bind-a-report-to-json-data.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/master/interface-elements-for-web/articles/report-designer/bind-to-data/bind-a-report-to-json-data.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

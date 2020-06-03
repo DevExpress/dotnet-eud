@@ -69,24 +69,73 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="use-report-parameters">Use Report Parameters</h1>
 
-<p>The topics in this section describe how to use parameters in a report:</p>
+<p>Report parameters pass data to a report before it is generated in <strong>Preview</strong>. You can specify parameter values.</p>
+<p>The topics in this section describe how to create report parameters of different types and specify their values:</p>
 <ul>
-<li><p><a href="use-report-parameters/parameters-overview.html">Parameters Overview</a></p>
-<p>  Describes how to create and use report parameters.</p>
+<li><a href="use-report-parameters/create-a-report-parameter.html">Create a Report Parameter</a></li>
+<li><a href="use-report-parameters/report-parameters-with-predefined-static-values.html">Report Parameters with Predefined Static Values</a></li>
+<li><a href="use-report-parameters/report-parameters-with-predefined-dynamic-values.html">Report Parameters with Predefined Dynamic Values</a></li>
+<li><a href="use-report-parameters/multi-value-report-parameters.html">Multi-Value Report Parameters</a></li>
+<li><a href="use-report-parameters/cascading-report-parameters.html">Cascading Report Parameters</a></li>
+<li><a href="use-report-parameters/date-range-report-parameters.html">Date Range Report Parameters</a></li>
+</ul>
+<p>Use report parameters in the following cases:</p>
+<ul>
+<li><p><strong>In <a href="filter-data.html">Filter Strings</a></strong></p>
+<p>  Report parameters can be referenced in a filter string.</p>
+<p>  <img src="../../../images/eurd-web-parameters-filter-string-with-multi-value-parameter.png" alt="Parameter in FIlter String"></p>
+<div class="TIP"><h5>Tip</h5><p>Data can be filtered:</p>
+<ul>
+<li>On the report level. All data is loaded from the data source before a filter is applied.</li>
+<li>On the data source level. Only the filtered data is loaded. See <a href="filter-data/filter-data-at-the-data-source-level.html">Filter Data at the Data Source Level</a> for more information.</li>
+</ul>
+</div>
 </li>
-<li><p><a href="use-report-parameters/multi-value-and-cascading-parameters.html">Multi-Value and Cascading Report Parameters</a></p>
-<p>  Explains how to configure report parameters to accept multiple values and filter a parameter&#39;s values based on another parameter&#39;s value.</p>
-</li>
-<li><p><a href="use-report-parameters/date-range-parameters.html">Date Range Parameters</a></p>
-<p>  Describes how to create date range parameters to filter report data by a specific time period.</p>
-</li>
-<li><p><a href="use-report-parameters/request-and-pass-report-parameter-values.html">Request and Pass Report Parameter Values</a></p>
-<p>  Illustrates how to assign default and custom values to a report&#39;s parameters and describes the editors that are used to request these values in a Print Preview.</p>
-</li>
-<li><p><a href="use-report-parameters/query-parameters.html">Query Parameters</a></p>
-<p>  Explains how to link report parameters to query parameters defined in your report&#39;s data source.</p>
+<li><p><strong>In <a href="../use-expressions.html">Expressions</a></strong></p>
+<p>  You can create a report parameter and use it in expressions. For instance, you can do the following:</p>
+<ul>
+<li>Specify a <a href="use-calculated-fields/calculated-fields-overview.html">calculated field</a>&#39;s value.</li>
+<li><a href="../bind-to-data/bind-controls-to-data-expression-bindings.html">Bind</a> a control to data. </li>
+<li><p>Conditionally change <a href="shape-data-expression-bindings/conditionally-change-a-bands-vibility-expression-binding.html">a band&#39;s visibility</a> or <a href="shape-data-expression-bindings/conditionally-change-a-control-appearance.html">a control&#39;s appearance</a>.</p>
+<p><img src="../../../images/eurd-web-parameters-expression-editor.png" alt="Parameters in Expression Editor"></p>
 </li>
 </ul>
+</li>
+<li><p><strong>In <a href="../bind-to-data/use-embedded-fields-mail-merge.html">Mail Merge</a></strong></p>
+<p>  You can use a report parameter in a control&#39;s text.</p>
+<p>  <img src="../../../images/eurd-web-mail-merge-insert-parameters.png" alt="MailMerge Parameters"></p>
+</li>
+<li><p><strong>As a Value Source for Control Parameters</strong></p>
+<p>  The following controls have internal collections of parameters. You can bind these internal parameters to report parameters.</p>
+<ul>
+<li><p><strong><a href="../use-report-elements/use-charts-and-pivot-grids/use-charts-in-reports.html">Chart</a></strong></p>
+<p>  <a href="../use-report-elements/use-charts-and-pivot-grids/use-charts-to-visualize-grouped-data.html">Filter chart data</a> by parameters.</p>
+</li>
+<li><p><strong><a href="../use-report-elements/use-basic-report-controls/subreport.html">Subreport</a></strong></p>
+<p>  Use the control&#39;s parameters collection to specify parameter values in the report that the <strong>Subreport</strong> control references.</p>
+</li>
+</ul>
+</li>
+<li><p><strong>As a Value Source for Data Source Parameters</strong></p>
+<p>  The following data sources have internal collections of parameters. You can bind these internal parameters to report parameters to make them dependent on an external value.</p>
+<ul>
+<li><p><strong><a href="../bind-to-data/bind-a-report-to-a-database.html">Database</a></strong></p>
+<p>  Use <a href="../bind-to-data/specify-query-parameters.html">query parameters</a> to filter data on the database level or pass values to a stored procedure.</p>
+</li>
+<li><p><strong><a href="../bind-to-data/bind-a-report-to-json-data.html">JSON</a></strong></p>
+<p>  Use path, query, and header parameters to configure HTTP requests to the web service endpoint.</p>
+</li>
+<li><p><strong><a href="../bind-to-data/bind-a-report-to-an-object-data-source.html">Object</a></strong></p>
+<p>  Use object data source parameters to pass variables to the method that fetches data.</p>
+</li>
+</ul>
+</li>
+<li><p><strong>Display a Report Parameter Value in a Report Explicitly</strong></p>
+<p>  <img src="../../../images/eurd-web-parameters-for-data-binding.png" alt="Display Parameters Explicitly"></p>
+</li>
+</ul>
+<p>Wherever you specify a parameter name, prefix it with the question mark character.</p>
+<p><img src="../../../images/eurd-web-parameters-prepend-with-question-mark.png" alt="Prepend Parameters with Question Mark"></p>
 </article>
           </div>
           
@@ -95,7 +144,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/19.2/interface-elements-for-web/articles/report-designer/shape-report-data/use-report-parameters.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/master/interface-elements-for-web/articles/report-designer/shape-report-data/use-report-parameters.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

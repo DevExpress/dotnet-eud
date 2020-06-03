@@ -1,0 +1,198 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Work with Chart Elements | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Work with Chart Elements | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.37.0.0">
+    
+    <link rel="shortcut icon" href="../../../favicon.ico">
+    <link rel="stylesheet" href="../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../toc.html">
+    <meta property="docfx:tocrel" content="../../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../index.html">
+                <img id="logo" class="svg" src="../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="work-with-chart-elements">Work with Chart Elements</h1>
+
+<h2 id="move-an-element">Move an Element</h2>
+<p>You can use the mouse or keyboard commands to move an element or a group of <a href="select-elements.html">selected elements</a>.</p>
+<ul>
+<li><strong>Mouse</strong>: drag and drop an element. </li>
+<li><strong>Keyboard</strong>: select an element and press arrow keys to move the element.</li>
+</ul>
+<p>If the <a href="page-and-view-settings.html#grid-settings">Snap to Grid</a> option is enabled, an element is moved snapping to the grid. Press and hold Ctrl to move the element smoothly.</p>
+<p><img src="../../images/diagram-move-element.gif" alt="Mobile Element"></p>
+<h2 id="resize-a-shape">Resize a Shape</h2>
+<ol>
+<li><p><a href="select-elements.html">Select a shape</a> to display resizing squares along the selection.</p>
+</li>
+<li><p>Drag a square to resize the shape. </p>
+</li>
+</ol>
+<p>If the <a href="page-and-view-settings.html#grid-settings">Snap to Grid</a> option is enabled, a shape is resized snapping to the grid. Press and hold Ctrl to resize the element smoothly.</p>
+<p><img src="../../images/diagram-resize-shape.gif" alt="Resize a Shape"></p>
+<h2 id="transform-a-shape">Transform a Shape</h2>
+<p>Certain shapes display a transform handle when selected. Use this handle to transform the shape.</p>
+<p><img src="../../images/diagram-transform-shape.gif" alt="Resize a Shape"></p>
+<h2 id="edit-an-elements-text">Edit an Element&#39;s Text</h2>
+<ol>
+<li><p>Double click an element to start text editing.</p>
+</li>
+<li><p>Edit the text. Press Enter to start a new line.</p>
+</li>
+<li><p>Press Ctrl+Enter or click outside the element to finish editing.</p>
+</li>
+</ol>
+<p>A connector can have several texts. A text box appears at the double-clicked position. After editing, you can use the mouse to move the text along the connector.</p>
+<p><img src="../../images/diagram-edit-text.gif" alt="Edit Text"></p>
+<h2 id="clone-an-element">Clone an Element</h2>
+<p>You can use the mouse or keyboard commands to create a copy of an element or a group of <a href="select-elements.html">selected elements</a>.</p>
+<ul>
+<li><p><strong>Mouse</strong>: press Ctrl+Shift and drag an element to clone it.</p>
+</li>
+<li><p><strong>Keyboard</strong>: select an element and press Ctrl+Shift+arrow to create a copy next to the original element in the arrow&#39;s direction.</p>
+</li>
+</ul>
+<p><img src="../../images/diagram-clone-element.gif" alt="Clone a Shape"></p>
+<h2 id="link-a-connector-to-a-shape">Link a Connector to a Shape</h2>
+<ol>
+<li><p>Hover the mouse pointer over a shape to display its connection points.</p>
+</li>
+<li><p>Drag a point to create a connector.</p>
+</li>
+<li><p>Release a connector at one of the following positions: </p>
+</li>
+</ol>
+<ul>
+<li>at another shape&#39;s connection point to connect these points. In this case, the connector remains linked to the specified points if a shape is moved.</li>
+</ul>
+<p><img src="../../images/diagram-link-to-point.gif" alt="Link to Point"></p>
+<ul>
+<li>at another shape to connect shapes without specifying particular points. In this case, the connector links to the nearest points if a shape is moved.</li>
+</ul>
+<p><img src="../../images/diagram-link-to-shape.gif" alt="Link to Shape"></p>
+<p>Drag a shape close to a connector&#39;s end to link the shape to the connector.</p>
+<p><img src="../../images/diagram-link-shape-to-connector.gif" alt="Link a Shape to Connector"></p>
+<h2 id="create-a-shape-via-the-context-toolbox">Create a Shape via the Context Toolbox</h2>
+<p>The <strong>Context Toolbox</strong> appears when you drag a connector from a shape and drop it without connecting it to another shape. </p>
+<p>Select a shape to insert it at the end of the connector. </p>
+<p><img src="../../images/diagram-context-toolbox.gif" alt="Context Toolbox"></p>
+<p>The <strong>Context Toolbox</strong> allows you to create a shape inside a container. </p>
+<ol>
+<li>Drag a connector from a shape while pressing Ctrl and release the connector inside a container. </li>
+<li>Select the shape you want to add. The shape is placed in the container&#39;s nested shape collection.</li>
+</ol>
+<p><img src="../../images/diagram-context-toolbox-with-container.gif" alt="Context Toolbox"></p>
+<h2 id="modify-a-connector">Modify a Connector</h2>
+<p>The <strong>Diagram</strong> tool can draw orthogonal and straight connectors. </p>
+<p><img src="../../images/diagram-connector-line-type.png" alt="Line Type"></p>
+<p>Specify a connector&#39;s line type in the <strong>Style</strong> tab on the <strong>Properties</strong> toolbar.</p>
+<p><img src="../../images/diagram-properties-line-type.png" alt="Line Type"></p>
+<h3 id="orthogonal-connectors">Orthogonal Connectors</h3>
+<p>You can move a connector&#39;s line segments.</p>
+<ol>
+<li>Select a connector to display its key points.</li>
+<li>Drag a point to move a line segment.</li>
+</ol>
+<h3 id="straight-connectors">Straight Connectors</h3>
+<p>You can add line segments to connectors.</p>
+<ol>
+<li>Select a connector to display its key points.</li>
+<li>Drag a middle point to add a line segment.</li>
+</ol>
+<p>To remove a key point, move it between neighboring points.</p>
+<p><img src="../../images/diagram-modify-connector.gif" alt="Connectors"></p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/master/interface-elements-for-web/articles/diagram/work-with-chart-elements.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2019 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../styles/main.js"></script>
+  </body>
+</html>

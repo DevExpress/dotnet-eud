@@ -958,7 +958,7 @@
 </td><td><p>Argb(1,200, 30, 200)</p>
 <p>Result: <em>&#39;1,200,30,200&#39;</em></p>
 </td></tr><tr><td><p>Join()</p>
-</td><td><p>Concatenates the <a class="xref" href="../shape-report-data/use-report-parameters/multi-value-and-cascading-parameters.html">multi-value report parameter</a>&#39;s values into a string. This function is useful when you <a class="xref" href="../shape-report-data/use-report-parameters/parameters-overview.html">bind a multi-value parameter to a label</a> to display the parameter&#39;s values in a report.</p>
+</td><td><p>Concatenates the <a class="xref" href="../shape-report-data/use-report-parameters/multi-value-report-parameters.html">multi-value report parameter</a>&#39;s values into a string. This function is useful when you <a class="xref" href="../shape-report-data/use-report-parameters.html">bind a multi-value parameter to a label</a> to display the parameter&#39;s values in a report.</p>
 <p>This function has two overloads:</p>
 <ul>
 <li>Join(parameter) - concatenates the specified parameter&#39;s values using comma as a separator.</li>
@@ -978,7 +978,7 @@
 </th><th><p>Description</p>
 </th><th><p>Example</p>
 </th></tr><tr><td><p>Join()</p>
-</td><td><p>Concatenates the <a class="xref" href="../shape-report-data/use-report-parameters/multi-value-and-cascading-parameters.html">multi-value report parameter</a>&#39;s values into a string. This function can be used when mapping multi-value report parameters to query parameters generated from a stored procedure&#39;s parameters. Refer to the <a class="xref" href="../shape-report-data/use-report-parameters/query-parameters.html">Query Parameters</a> topic for more information.</p>
+</td><td><p>Concatenates the <a class="xref" href="../shape-report-data/use-report-parameters/multi-value-report-parameters.html">multi-value report parameter</a>&#39;s values into a string. This function can be used when mapping multi-value report parameters to query parameters generated from a stored procedure&#39;s parameters. Refer to the <a class="xref" href="../bind-to-data/specify-query-parameters.html">Specify Query Parameters</a> topic for more information.</p>
 <p>This function has two overloads:</p>
 <ul>
 <li>Join(parameter) - concatenates the specified parameter&#39;s values using comma as a separator.</li>
@@ -986,7 +986,7 @@
 </ul>
 </td><td><p>Join(?Parameter1)</p>
 </td></tr><tr><td><p>CreateTable(Column1, ..., ColumnN)</p>
-</td><td><p>Creates a table from several multi-value parameters&#39; values. This function can be used when mapping multi-value report parameters to the query parameter that is generated from a stored procedure&#39;s <a href="https://docs.microsoft.com/en-us/sql/relational-databases/tables/use-table-valued-parameters-database-engine">User Defined Table Type</a> parameter. Refer to the <a class="xref" href="../shape-report-data/use-report-parameters/query-parameters.html">Query Parameters</a> topic for more information.</p>
+</td><td><p>Creates a table from several multi-value parameters&#39; values. This function can be used when mapping multi-value report parameters to the query parameter that is generated from a stored procedure&#39;s <a href="https://docs.microsoft.com/en-us/sql/relational-databases/tables/use-table-valued-parameters-database-engine">User Defined Table Type</a> parameter. Refer to the <a class="xref" href="../bind-to-data/specify-query-parameters.html">Specify Query Parameters</a> topic for more information.</p>
 </td><td><p>CreateTable(?Parameter1, ..., ?ParameterN)</p>
 </td></tr></table>
 
@@ -1065,16 +1065,39 @@
 </td><td><p>sumWAvg([UnitPrice])</p>
 </td></tr></table>
 
-<h2 id="report-items-in-expressions">Report Items In Expressions</h2>
-<p>A report&#39;s elements are displayed in the Report Designer&#39;s Report Explorer. You can access these elements and their properties in expressions. The following example demonstrates how to set a label&#39;s BackColor property to the other label&#39;s BackColor property value.</p>
-<p><em>[ReportItems].[xrLabel2].[BackColor]</em></p>
+<h2 id="refer-to-report-items-in-expressions">Refer to Report Items In Expressions</h2>
+<p>A report&#39;s elements are displayed in the Report Designer&#39;s Report Explorer. You can access these elements and their properties in an expression. The following example demonstrates how to set a label&#39;s BackColor property to the other label&#39;s BackColor property value.</p>
+<p><em>[ReportItems.Label2].[BackColor]</em></p>
 <div class="TIP"><h5>Tip</h5><p><strong>[ReportItems]</strong> is a plain list that provides access to all report items at one level.</p>
 </div>
-<div class="NOTE"><h5>Note</h5><p>You cannot use the ReportItems collection in a <a href="../shape-report-data/use-calculated-fields.html">Calculated Field</a>&#39;s expression. </p>
+<div class="NOTE"><h5>Note</h5><p>You cannot use the ReportItems collection in a <a href="../shape-report-data/use-calculated-fields.html">Calculated Field</a>&#39;s expression.</p>
 </div>
-<h2 id="images-for-picture-boxes">Images for Picture Boxes</h2>
-<p>When you construct an expression for the <a href="../use-report-elements/use-basic-report-controls/picture-box.html">Picture Box</a>&#39;s <strong>ImageSource</strong> property, you can use image <strong>Id</strong>s  from the report&#39;s <strong>ImageResources</strong> collection.</p>
+<h2 id="specify-images-for-picture-boxes">Specify Images for Picture Boxes</h2>
+<p>When you specify an expression for the <a href="../use-report-elements/use-basic-report-controls/picture-box.html">Picture Box</a>&#39;s <strong>ImageSource</strong> property, you can use image <strong>Id</strong>s  from the report&#39;s <strong>ImageResources</strong> collection.</p>
 <p><em>IIf([MarchSales]&gt;20, [Images.ArrowUp],[Images.ArrowDown])</em></p>
+<h2 id="use-rowcolumn-indexes-for-cross-tab-cells">Use Row/Column Indexes for Cross Tab Cells</h2>
+<p>Use the following variables in an expressions to change a <a href="../use-report-elements/use-cross-tabs.html">Cross Tab</a> cell&#39;s appearance settings:</p>
+<table>
+<thead>
+<tr>
+<th>Variable</th>
+<th>Description</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Arguments.GroupColumnIndex</td>
+<td>Returns the index of a cell&#39;s column within a group.</td>
+<td>iif([Arguments.GroupColumnIndex] % 2 == 1, Rgb(235, 241, 252), ?)<br>Result: The specified color applies if a cell is located in an odd column; if the cell is located in an even column, its color does not change.</td>
+</tr>
+<tr>
+<td>Arguments.GroupRowIndex</td>
+<td>Returns the index of a cell&#39;s row within a group.</td>
+<td>iif([Arguments.GroupRowIndex] % 2 == 1, Rgb(235, 241, 252), ?)<br> Result: The specified color applies if a cell is located in an odd row; if the cell is located in an even row, its color does not change.</td>
+</tr>
+</tbody>
+</table>
 <h2 id="variables">Variables</h2>
 <table><tr><th><p>Variable</p>
 </th><th><p>Description</p>
@@ -1082,11 +1105,11 @@
 </th></tr><tr><td><p>DataSource.RowCount</p>
 </td><td><p>Returns the total amount of data rows in a data source.</p>
 </td><td><p>[DataSource.RowCount] != 0</p>
-<p>Result: When using this expression for a control&#39;s Visible property, the control is not displayed if there is no data in the data source.</p>
+<p>Result: When this expression is applied to a control&#39;s Visible property, the control is not displayed if there is no data in the data source.</p>
 </td></tr><tr><td><p>DataSource.CurrentRowIndex</p>
 </td><td><p>Returns a zero-based index of the current data row in a data source.</p>
 </td><td><p>Iif([DataSource.CurrentRowIndex] % 2 = 0, &#39;red&#39;, &#39;green&#39;)</p>
-<p>Result: When this expression is used for a table row&#39;s BackColor property, odd rows are colored in red and even rows - in green.</p>
+<p>Result: When this expression is used for a table row&#39;s BackColor property, odd rows are colored in red, even rows are colored in green.</p>
 </td></tr><tr><td><p>DataSource.CurrentRowHierarchyLevel</p>
 </td><td><p>Returns a zero-based level of the current row in a <a class="xref" href="../create-popular-reports/create-a-hierarchical-report.html">hierarchical report</a>.</p>
 </td><td><p>Iif([DataSource.CurrentRowHierarchyLevel] == 0, Rgb(231,235,244), ?)</p>
@@ -1095,8 +1118,8 @@
 
 <div class="NOTE"><h5>Note</h5><p>These variables are not valid when the report includes a <a href="../add-navigation/add-a-table-of-contents.html">table or contents</a>.</p>
 </div>
-<h2 id="report-parameters">Report Parameters</h2>
-<p>Use the following syntax to insert <a href="../shape-report-data/use-report-parameters.html">parameters</a> into expressions:</p>
+<h2 id="use-report-parameters">Use Report Parameters</h2>
+<p>Use the following syntax to insert <a href="../shape-report-data/use-report-parameters.html">report parameters</a> in an expression:</p>
 <ul>
 <li><p>Type a question mark before a parameter&#39;s name.  </p>
 <p><em>?parameter1</em></p>
@@ -1105,24 +1128,24 @@
 <p><em>[Parameters.parameter1]</em></p>
 </li>
 </ul>
-<h2 id="collection-elements-verification">Collection Elements Verification</h2>
-<p>Use brackets &quot;[]&quot; to check if a collection contains an element that satisfies a condition. The following expression returns <em>true</em> if the Accounts collection contains at least one element that satisfies the <em>[Amount] == 100</em> condition:</p>
+<h2 id="verify-collection-elements">Verify Collection Elements</h2>
+<p>Use brackets &quot;[]&quot; to check if a collection contains an element that satisfies your condition. The following expression returns <em>true</em> if the Accounts collection contains at least one element that satisfies the <em>[Amount] == 100</em> condition:</p>
 <p><em>[Accounts][[Amount] == 100]</em></p>
 <p>The following expression returns <em>false</em> if the Accounts collection is empty:</p>
 <p><em>[Accounts][]</em></p>
-<p>Refer to the <a href="../shape-report-data/use-calculated-fields/calculate-an-aggregate-function.html"></a> topic to see an example how to use this syntax.</p>
-<h2 id="parent-relating-operator">Parent Relating Operator</h2>
-<p>Use the parent relating operator (&#39;^&#39; character) to refer to a parent in expressions written in the context of a child. You can apply this operator successively to navigate multiple parent relationships. </p>
-<p>You can use this operator to refer to the currently processed report group. This allows you to calculate aggregates within groups using expressions like the following:</p>
+<p>Refer to the <a href="../shape-report-data/use-calculated-fields/calculate-an-aggregate-function.html">Calculate an Aggregate Function</a> topic for an example on how to use this syntax.</p>
+<h2 id="specify-parent-relations">Specify Parent Relations</h2>
+<p>Use the &#39;^&#39; parent relation operator to refer to a parent in expressions that are written in the context of a child. You can apply this operator successively to span multi-level parent relationships.</p>
+<p>You can use this operator to refer to the currently processed report group. This allows you to calculate aggregates within groups, as shown in the following expression:</p>
 <p><em>[][[^.CategoryID] == [CategoryID]].Sum([UnitPrice])</em></p>
-<p>Refer to the <a href="../shape-report-data/use-calculated-fields/calculate-an-aggregate-function.html"></a> topic for details.</p>
-<h2 id="grouping-clauses-with-brackets">Grouping Clauses with Brackets</h2>
+<p>Refer to the <a href="../shape-report-data/use-calculated-fields/calculate-an-aggregate-function.html">Calculate an Aggregate Function</a> topic for details.</p>
+<h2 id="group-clauses-with-brackets">Group Clauses with Brackets</h2>
 <p>It is important to use brackets to ensure that your expression returns the intended results.</p>
-<p>For instance, the following expression for objects of the Customer type returns all of the Customers where an Account exists with a Date of 8/25/2006 and where an account exists with an Amount of 100:</p>
+<p>For instance, the following expression returns all Customers where the account Date is 8/25/2006 ot where the account Amount is 100:</p>
 <p><em>[Accounts][[Date] == #8/25/2006#] &amp;&amp; [Accounts][[Amount] == 100]</em></p>
-<p>Construct the expression as in the following example to search for all Customers that have an Account with both a Date of 8/25/2006 and an Amount of 100:</p>
+<p>Construct an expression as in the following example to search for all Customers that have an Account with both a Date of 8/25/2006 and an Amount of 100:</p>
 <p><em>[Accounts][[Date] == #8/25/2006# &amp;&amp; [Amount] == 100]</em></p>
-<h2 id="operator-precedence">Operator Precedence</h2>
+<h2 id="change-operator-precedence">Change Operator Precedence</h2>
 <p>When an expression contains multiple operators, their precedence controls the order in which expression elements are evaluated.</p>
 <ul>
 <li>Literal values</li>
@@ -1130,7 +1153,7 @@
 <li>Identifiers</li>
 <li>OR (left-associative)</li>
 <li>AND (left-associative)</li>
-<li>&#39;.&#39; relationship qualifier (left-associative)</li>
+<li>The &#39;.&#39; relationship qualifier (left-associative)</li>
 <li>==, !=</li>
 <li>&lt;, &gt;, &lt;=, &gt;=</li>
 <li>-, + (left-associative)</li>
@@ -1143,19 +1166,19 @@
 <li>&#39;[]&#39; (for set-restriction)</li>
 <li>&#39;()&#39;</li>
 </ul>
-<p>The default precedence can be changed by grouping elements with parentheses. For instance, the operators are performed in a default order in the first of the following two code samples. In the second code sample, the addition operation is performed first, because its associated elements are grouped with parentheses, and the multiplication operation is performed last.</p>
+<p>Group elements with parentheses to change operator precedence. For instance, operators are applied in the default order in the first code sample below. In the second code sample, the addition operation is applied first, because its associated elements are grouped with parentheses, and the multiplication operation is applied last.</p>
 <p><em>Accounts[Amount == 2 + 48 * 2]</em></p>
 <p><em>Accounts[Amount == (2 + 48) * 2]</em></p>
 <h2 id="case-sensitivity">Case Sensitivity</h2>
-<p>Operators are case insensitive. Although field values’ case sensitivity depends on the data source.</p>
-<div class="NOTE"><h5>Note</h5><p>A data source affects certain operators&#39; behavior. For instance, by default, the SQL Server Express 2005 is configured as case insensitive. In this case, the following expression always evaluates to <strong>true</strong>:</p>
+<p>Operators are case insensitive. However, field values’ case sensitivity depends on the data source.</p>
+<div class="NOTE"><h5>Note</h5><p>Data source specifics affect certain operators&#39; behavior. For instance, SQL Server Express 2005 is configured as case insensitive. In this case, the following expression always evaluates to <strong>true</strong>:</p>
 <p><em>Lower(Name) == Upper(Name)</em></p>
 </div>
-<h2 id="escaping-keywords">Escaping Keywords</h2>
-<p>You can mark a keyword&#0045;like field name with an escape character (@ sign). In the expression below, the <strong>CriteriaOperator.Parse</strong> method interprets @Or as the field named &quot;Or&quot;, not the logical operator OR.</p>
+<h2 id="escape-keywords">Escape Keywords</h2>
+<p>You can mark a keyword&#0045;like field name with the <strong>@</strong> escape character. In the expression below, the <strong>CriteriaOperator.Parse</strong> method interprets @Or as a field named &quot;Or&quot;, not the logical operator OR.</p>
 <p><em>@Or = &#39;value&#39;</em></p>
 <h2 id="escape-characters">Escape Characters</h2>
-<p>Use a backslash () as an escape character for characters in expressions. Examples:</p>
+<p>Use a backslash () as an escape character for characters in an expression, as shown below:</p>
 <ul>
 <li>\[</li>
 <li>\\</li>
@@ -1169,7 +1192,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/19.2/interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/use-expressions/expression-syntax.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/master/interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/use-expressions/expression-syntax.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

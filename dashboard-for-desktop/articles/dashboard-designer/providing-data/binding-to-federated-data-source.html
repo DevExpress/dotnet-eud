@@ -79,13 +79,25 @@
 <li><p>On the first page of the invoked <strong>Data Source Wizard</strong> dialog, select <strong>Data Federation</strong> and click <strong>Next</strong>.</p>
 <p><img src="../../../images/choose-federated-data-source.png" alt="Choose_federated_data_source"></p>
 </li>
-<li><p>The <a href="../working-with-data/using-the-query-builder.html">Query Builder</a> dialog appears that displays the available data sources.</p>
+<li><p>The <a href="../working-with-data/using-the-query-builder.html">Query Builder</a> dialog displays available data sources.</p>
 <p><img src="../../../images/query-builder-available-sources.png" alt="Query_Builder_available_sources"></p>
 </li>
-<li><p>Drag-and-drop the data sources, specify the joins and check the columns to include them in the query. When you are finished, click <strong>OK</strong>.</p>
+<li><p>Select the <strong>Query Type</strong>:</p>
+<p><strong>Join</strong></p>
+<p>Combines rows from two or more tables based on a shared column. The &#39;join&#39; type specifies records with matching values in both tables.</p>
+<p> Drag-and-drop the required data sources, specify the related column (to create a relationship between tables), and select columns to include in the query. Columns included in the query are displayed in the bottom pane - where you can configure their settings.</p>
 <p><img src="../../../images/federated-source-settings.png" alt="Federated_data_source_settings"></p>
+<p><strong>Union</strong></p>
+<p>Combines rows from two or more tables into a single data set and removes duplicate rows in merged tables. You can only create a union query for data sources that contain similar columns with the same name. Data types for these columns should be <a href="https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/types/casting-and-type-conversions#implicit-conversions">implicitly converted</a>.</p>
+<p>Drag-and-drop the data sources to combine them into a single data source. Unlike the join query, you cannot specify columns to include in the union query. Columns included in the query are displayed in the bottom pane, where you can specify the aliases of the newly created columns.</p>
+<p><img src="../../../images/data-federation-querybuilder-union.png" alt=""></p>
+<p><strong>Union All</strong> </p>
+<p>Operates in the same manner as <strong>Union</strong>, but duplicates rows from different tables when they contain the same data.</p>
+<p><img src="../../../images/data-federation-querybuilder-union-all.png" alt=""></p>
+<p>When you are finished, click <strong>OK</strong>.</p>
 </li>
-<li><p>The <a href="../ui-elements/data-source-browser.html">Data Source Browser</a> displays the newly created Federation Data Source:</p>
+<li><p>The <a href="../ui-elements/data-source-browser.html">Data Source Browser</a> displays the newly created Federated Data Source.</p>
+<p>The image below displays a new <em>Federation Data Source 1</em> with a joined <em>SQlite Orders</em> query.</p>
 <p><img src="../../../images/data-source-browser-federated-data-source.png" alt="Federated_data_source_configuration"></p>
 <p> The query name is the same as the root table&#39;s name in the query builder. Click the <strong>Rename</strong> button in the <strong>Query</strong> group on the <strong>Data Source</strong> ribbon tab to change the query name.</p>
 </li>
@@ -98,7 +110,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/19.2/dashboard-for-desktop/articles/dashboard-designer/providing-data/binding-to-federated-data-source.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/master/dashboard-for-desktop/articles/dashboard-designer/providing-data/binding-to-federated-data-source.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

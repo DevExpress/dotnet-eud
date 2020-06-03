@@ -116,6 +116,270 @@
 <p>The Rich Text also enables you to merge data fields and static content in its text.</p>
 <p><img src="../../../../images/eurd-web-mail-merge-preview-result.png" alt=""></p>
 <p>See the <a href="../../bind-to-data/bind-controls-to-data-expression-bindings.html">Bind Controls to Data</a> and <a href="../../bind-to-data/use-embedded-fields-mail-merge.html">Use Embedded Fields</a> topics for more information.</p>
+<h2 id="markup-text">Markup Text</h2>
+<h3 id="supported-tags">Supported Tags</h3>
+<p>The table below lists the supported HTML tags. External links are processed for inline pictures and style sheets (CSS files). The ID and Class attributes are interpreted for all tags, including the unlisted ones. These attributes are used to specify a style for content within a certain tag</p>
+<table>
+<thead>
+<tr>
+<th>Tag</th>
+<th>Attributes</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>a</td>
+<td>dir</td>
+<td></td>
+</tr>
+<tr>
+<td>b</td>
+<td>dir</td>
+<td></td>
+</tr>
+<tr>
+<td>base</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>basefont</td>
+<td>size<br>color<br>face<br>dir</td>
+<td></td>
+</tr>
+<tr>
+<td>big</td>
+<td>dir</td>
+<td></td>
+</tr>
+<tr>
+<td>blockquote</td>
+<td>dir</td>
+<td></td>
+</tr>
+<tr>
+<td>br</td>
+<td>dir</td>
+<td></td>
+</tr>
+<tr>
+<td>center</td>
+<td>dir</td>
+<td></td>
+</tr>
+<tr>
+<td>code</td>
+<td>dir</td>
+<td></td>
+</tr>
+<tr>
+<td>del</td>
+<td>cite<br>datetime</td>
+<td></td>
+</tr>
+<tr>
+<td>div</td>
+<td>page-break-before<br>page-break-after<br>page-break-inside<br>background-color<br>border (CSS)<br>dir</td>
+<td>Only the <strong>always</strong> property value is supported for the <strong>page-break-before</strong> tag.</td>
+</tr>
+<tr>
+<td>em</td>
+<td>dir</td>
+<td></td>
+</tr>
+<tr>
+<td>font</td>
+<td>size<br>color<br>face<br>dir</td>
+<td></td>
+</tr>
+<tr>
+<td>h1-h6</td>
+<td>align<br>dir</td>
+<td></td>
+</tr>
+<tr>
+<td>head</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>html</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>hr</td>
+<td>align<br>color<br>noshade<br>size<br>width</td>
+<td></td>
+</tr>
+<tr>
+<td>i</td>
+<td>dir</td>
+<td></td>
+</tr>
+<tr>
+<td>ins</td>
+<td>cite<br>datetime</td>
+<td></td>
+</tr>
+<tr>
+<td>img</td>
+<td>align<br>src<br>height<br>width</td>
+<td>If the <strong>align</strong> attribute is not specified, the image is considered as inline.</td>
+</tr>
+<tr>
+<td>li</td>
+<td>type<br>value<br>dir</td>
+<td></td>
+</tr>
+<tr>
+<td>link</td>
+<td>href<br>type<br>media<br>dir</td>
+<td></td>
+</tr>
+<tr>
+<td>meta</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>ol</td>
+<td>type<br>value<br>align<br>dir</td>
+<td></td>
+</tr>
+<tr>
+<td>p</td>
+<td>align<br>dir</td>
+<td></td>
+</tr>
+<tr>
+<td>script</td>
+<td></td>
+<td>Text inside this tag is ignored.</td>
+</tr>
+<tr>
+<td>small</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>span</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>strike</td>
+<td>dir</td>
+<td></td>
+</tr>
+<tr>
+<td>strong</td>
+<td>dir</td>
+<td></td>
+</tr>
+<tr>
+<td>style</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>sub</td>
+<td>dir</td>
+<td></td>
+</tr>
+<tr>
+<td>sup</td>
+<td>dir</td>
+<td></td>
+</tr>
+<tr>
+<td>table</td>
+<td>align<br>bgcolor<br>border<br>bordercolor<br>cellpadding<br>cellspacing<br>dir<br>width</td>
+<td>The <strong>dir</strong> attribute reorders table columns.</td>
+</tr>
+<tr>
+<td>td</td>
+<td>align<br>bgcolor<br>bordercolor<br>colspan<br>height<br>nowrap<br>rowspan<br>text-align<br>valign<br>width</td>
+<td>The <strong>align</strong> tag is supported in the Internet Explorer only.<br>The <strong>Rich Text</strong> control&#39;s interpretation of the <strong>bordercolor</strong> attribute is different from the HTML browser.</td>
+</tr>
+<tr>
+<td>th</td>
+<td>any allowed</td>
+<td></td>
+</tr>
+<tr>
+<td>tr</td>
+<td>align<br>bgcolor<br>bordercolor<br>height<br>text-align<br>valign</td>
+<td>The <strong>align</strong> attribute is supported in the Internet Explorer only.</td>
+</tr>
+<tr>
+<td>title</td>
+<td></td>
+<td>Text inside this tag is ignored.</td>
+</tr>
+<tr>
+<td>u</td>
+<td>dir</td>
+<td></td>
+</tr>
+<tr>
+<td>ul</td>
+<td>dir</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="unsupported-tags">Unsupported Tags</h3>
+<ul>
+<li>&lt;base&gt; tag with <em>href</em> attribute;</li>
+<li>&lt;div&gt; tag with <em>border</em>, <em>align</em> and <em>float</em> CSS attribute;</li>
+<li>&lt;li&gt; tag with <em>list-style-image</em> CSS attribute;</li>
+<li>&lt;margin&gt; tag;</li>
+<li>&lt;tab&gt; tag;</li>
+<li>&lt;table&gt; tag with <em>cols</em> attribute;</li>
+<li>&lt;td&gt; tab with <em>bordercolor</em> and <em>nowrap</em> attributes;</li>
+<li><em>!important</em> declaration;</li>
+<li><em>word-wrap</em> and <em>break-word</em> css properties;</li>
+<li>css3 shapes;</li>
+<li>&lt;ui&gt; tag with <em>type</em> attribute.</li>
+</ul>
+<h3 id="export-to-excel">Export to Excel</h3>
+<p>When a report is exported to XLS or XLSX, the following rich-text content is converted from <strong>Rich Text</strong> controls into Excel-native rich-text content:</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>HTML Tags and RTF Equivalents</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Text format</td>
+<td>&lt;b&gt;, &lt;i&gt;, &lt;u&gt;, &lt;s&gt;, &lt;strong&gt;, &lt;em&gt;</td>
+</tr>
+<tr>
+<td>Line break</td>
+<td>&lt;br&gt;</td>
+</tr>
+<tr>
+<td>Non-breaking space</td>
+<td>&amp;nbsp;</td>
+</tr>
+<tr>
+<td>Font</td>
+<td>&lt;font face=<strong>[font name]</strong>&gt;</td>
+</tr>
+<tr>
+<td>Font size</td>
+<td>&lt;font size=<strong>[font size]</strong>&gt;</td>
+</tr>
+<tr>
+<td>Foreground color</td>
+<td>&lt;font color=<strong>[color]</strong>&gt;</td>
+</tr>
+</tbody>
+</table>
 </article>
           </div>
           
@@ -124,7 +388,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/19.2/interface-elements-for-web/articles/report-designer/use-report-elements/use-basic-report-controls/rich-text.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/master/interface-elements-for-web/articles/report-designer/use-report-elements/use-basic-report-controls/rich-text.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

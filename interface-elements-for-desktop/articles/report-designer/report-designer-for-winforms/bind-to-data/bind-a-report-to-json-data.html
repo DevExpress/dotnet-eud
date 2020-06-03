@@ -69,7 +69,7 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="bind-a-report-to-json-data">Bind a Report to JSON Data</h1>
 
-<p>This topic describes how to bind a report to JSON data at design time.</p>
+<p>This topic describes how to bind a report to JSON data.</p>
 <h2 id="create-jsondatasource">Create JsonDataSource</h2>
 <ol>
 <li><p><a href="../add-new-reports.html">Create a new report</a>.</p>
@@ -83,20 +83,37 @@
 <div class="NOTE"><h5>Note</h5><p>The Report Designer&#39;s Report Wizard provides the JSON option if the application has a reference to the open-source Newtonsoft.Json library.</p>
 </div>
 </li>
-<li><p>The next wizard page allows you to specify the location of the JSON-formatted data:</p>
+<li><p>The next wizard page allows you to specify a Web Service Endpoint, a filename, or a string with JSON data. In this example, the JSON data is obtained from a <a href="https://northwind.now.sh/api/customers">JSON sample data location</a>.</p>
 <ul>
-<li><p>Web Service Endpoint URI</p>
+<li><p>Choose <strong>Web Service Endpoint</strong> and specify the endpoint data.</p>
 <p>  <img src="../../../../images/eurd-win-JSON-URISource.png" alt=""></p>
 </li>
-<li><p>File Name</p>
+<li><p>Choose <strong>JSON File</strong> and specify the JSON file location.</p>
 <p>  <img src="../../../../images/eurd-win-JSON-File.png" alt=""></p>
 </li>
-<li><p>String with JSON Content</p>
+<li><p>Choose <strong>JSON String</strong> and provide the JSON data string.</p>
 <p>  <img src="../../../../images/eurd-win-JSON-String.png" alt=""> </p>
-<p>If you choose the <strong>Web Service Endpoint</strong> option, you can configure a connection string on the next wizard pages.</p>
-<p>4.1. Specify request parameters.</p>
+<p>If you choose the <strong>Web Service Endpoint</strong> option, you can configure a web service endpoint, URI path parameters, query parameters, and header parameters.</p>
+<p>4.1. Specify path parameters and query parameters.</p>
 <p><img src="../../../../images/eurd-win-JSON-specify-request-parameters.png" alt="JSON-specify-request-parameters"></p>
-<div class="TIP"><h5>Tip</h5><p>Specify the Basic HTTP Authentication parameters or header parameters to access JSON data.</p>
+<p>You can enable the new parameter&#39;s <strong>Expression</strong> property and <a href="../use-expressions.html">use expressions</a> to set path parameter and query parameter values.</p>
+</li>
+<li><p>Select <strong>Expression Editor</strong> from the Value property&#39;s drop-down list, specify the expression in the invoked <a href="../use-expressions.html#expression-editor">Expression Editor</a>, and click <strong>OK</strong>.</p>
+<p><img src="../../../../images/eurd-win-JSON-path-parameter-specify-expression.png" alt="JSON-specify-parameter-expression"></p>
+</li>
+<li><p>Expressions can include <a href="../shape-report-data/use-report-parameters.html">report parameters</a>. Select <strong>New Report Parameter</strong> from the <strong>Value</strong> property&#39;s drop-down list, configure the report parameter in the invoked <strong>Report Parameter</strong> dialog, and click <strong>OK</strong>.</p>
+<p><img src="../../../../images/eurd-win-JSON-add-report-parameter.png" alt="JSON-add-report-parameter"></p>
+<div class="NOTE"><h5>Note</h5><p>The Data Source Wizard sends a request to the endpoint with the specified parameters to populate the data source and build the data source schema. Ensure that the parameters are always set to the values that the endpoint expects. Otherwise, the Data Source Wizard generates an error on the next steps.<br>For instance, if a user specifies the name of a JSON file in a parameter, specify the default file name in order to avoid the <em>File Not Found</em> error.</p>
+</div>
+<p>Path parameters and query parameters are included in endpoint requests in the same order as they are listed. Move a parameter up or down in the list to change its position in endpoint requests.</p>
+<p>The <strong>Resulting URI</strong> read-only field shows how the resulting JSON URI looks.</p>
+<p><img src="../../../../images/eurd-win-JSON-resulting-uri.png" alt="JSON-resulting-uri"></p>
+<p>Click <strong>Next</strong> to proceed to the Wizard&#39;s next page.</p>
+<p>4.2. Configure the Basic HTTP Authentication credentials and HTTP header parameters. Use the same steps as in P.4.1. above to configure a header parameter.</p>
+<p><img src="../../../../images/eurd-win-JSON-header-parameters.png" alt="JSON-header-parameters"></p>
+<p>4.3. Choose whether to save the created connection string to the application&#39;s configuration file. If not, the connection parameters are saved to the report&#39;s definition.</p>
+<p><img src="../../../../images/eurd-win-JSON-save-connection-string.png" alt="JSON-save-connection-string"></p>
+<div class="TIP"><h5>Tip</h5><p>If the path parameters, query parameters, and header parameters you specified do not contain sensitive data, you can save them along with the connection parameters. Otherwise, the path parameters, query parameters, and header parameters are used once to retrieve JSON data to an object in memory. This object is accessible until you close the Report Designer.</p>
 </div>
 </li>
 </ul>
@@ -124,7 +141,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/19.2/interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/bind-to-data/bind-a-report-to-json-data.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/master/interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/bind-to-data/bind-a-report-to-json-data.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

@@ -69,20 +69,28 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="expression-editor">Expression Editor</h1>
 
-<p>This document describes the <strong>Expression Editor</strong> used for constructing expressions in the <a href="../../report-designer.html">End-User Report Designer</a>.</p>
-<h2 id="expression-editor-overview">Expression Editor Overview</h2>
-<p>The Expression Editor provides a variety of aggregate, date-time, logical, math and string functions. You can also use logical and arithmetic operators, fields of a data source to which a report is bound, report elements, constants, and variables.</p>
+<p>This document describes how to use the <strong>Expression Editor</strong> to specify expressions in the <a href="../../report-designer.html">Report Designer</a>.</p>
+<p>Invoke the <strong>Expression Editor</strong> from a property&#39;s popup menu in the <a href="ui-panels/properties-panel.html">Properties Panel</a>. Click the property&#39;s marker and select the <strong><em>PropertyName</em> Expression</strong>.</p>
+<p><img src="../../../images/eurd-web-report-designer-property-popup-menu.png" alt=""></p>
+<p>If a property&#39;s editor displays an ellipsis button, you can click this button to invoke the <strong>Expression Editor</strong> and specify an expression that evaluates to the property&#39;s value.</p>
+<p><img src="../../../images/eurd-web-report-designer-expressions-tab.png" alt=""></p>
+<p>The <strong>Expression Editor</strong> offers a choice of functions, operators, data source fields, report elements, constants, and variables to create an expression.</p>
 <p><img src="../../../images/eurd-web-expression-editor-construct-expression.png" alt=""></p>
-<p>This editor supports syntax highlighting and intelligent code completion (suggesting functions and available data elements as you type).</p>
-<p><img src="../../../images/eurd-web-expression-editor-code-completion.png" alt=""></p>
-<p>An error icon appears if an expression contains any errors. Hovering over this icon with the mouse invokes the popup indicating the error&#39;s position.</p>
+<p>An expression can span multiple lines.</p>
+<p><img src="../../../images/eurd-web-report-designer-expression-multiple-lines.png" alt=""></p>
+<p>You can add single-line or multi-line comments in the following format: <code>/* comment text */</code>.</p>
+<p><img src="../../../images/eurd-web-expression-editor-comments.png" alt=""></p>
+<p>The <strong>Expression Editor</strong> highlights an expression&#39;s syntax and supports intelligent code completion (it suggests functions and available data elements as you type).</p>
+<p><img src="../../../images/eurd-web-report-designer-expression-editor-code-completion.png" alt=""></p>
+<p>An error icon appears if an expression contains errors. Hover the mouse pointer over this icon to invoke a pop-up notification that shows the location of the error.</p>
 <p><img src="../../../images/eurd-web-expression-editor-error.png" alt=""></p>
+<p>See the <a href="../use-expressions/expression-syntax.html">Expression Syntax</a> topic for the expression syntax description.</p>
 <h2 id="expression-syntax">Expression Syntax</h2>
 <p>Take into account the following syntax conventions when using the Expression Editor:</p>
 <ul>
 <li><p>Reference a data field in the expression by enclosing its name in the square brackets (for example, <strong>[ProductName]</strong>).</p>
 </li>
-<li><p>Insert <a href="../shape-report-data/use-report-parameters/parameters-overview.html">report parameters</a> and <a href="../shape-report-data/use-report-parameters/query-parameters.html">query parameters</a> by typing a question mark before their names (for instance, <strong>?parameter1</strong>).</p>
+<li><p>Insert <a href="../shape-report-data/use-report-parameters.html">report parameters</a> and <a href="../bind-to-data/specify-query-parameters.html">query parameters</a> by typing a question mark before their names (for instance, <strong>?parameter1</strong>).</p>
 </li>
 <li><p>Denote string values with apostrophes. Type a double apostrophe to embed an apostrophe into an expression&#39;s text (for example, <strong>&#39;It&#39;&#39;s sample text&#39;</strong>).</p>
 </li>
@@ -119,7 +127,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/19.2/interface-elements-for-web/articles/report-designer/report-designer-tools/expression-editor.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/master/interface-elements-for-web/articles/report-designer/report-designer-tools/expression-editor.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>
