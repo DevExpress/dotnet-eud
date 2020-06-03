@@ -48,16 +48,19 @@ A connector can have several texts. A text box appears at the double-clicked pos
 You can use the mouse or keyboard commands to create a copy of an element or a group of [selected elements](select-elements.md).
 
 
-- **By mouse**: press Ctrl+Shift and drag an element to clone it.
+- **Mouse**: press Ctrl+Shift and drag an element to clone it.
 
-- **By keyboard**: select an element and press Ctrl+Shift+arrow key to create a copy next to the original element in the arrow's direction.
+
+- **Keyboard**: select an element and press Ctrl+Shift+arrow to create a copy next to the original element in the arrow's direction.
+
 
 ![Clone a Shape](../../images/diagram-clone-element.gif)
 
 
 ## Link a Connector to a Shape
 
-1. Hover the mouse cursor over a shape to display its connection points.
+1. Hover the mouse pointer over a shape to display its connection points.
+
 
 1. Drag a point to create a connector.
 
@@ -81,14 +84,16 @@ Drag a shape close to a connector's end to link the shape to the connector.
 
 The **Context Toolbox** appears when you drag a connector from a shape and drop it without connecting it to another shape. 
 
-Select a shape to create it at the end of the connector. 
+Select a shape to insert it at the end of the connector. 
+
 
 ![Context Toolbox](../../images/diagram-context-toolbox.gif)
 
 The **Context Toolbox** allows you to create a shape inside a container. 
 
 1. Drag a connector from a shape while pressing Ctrl and release the connector inside a container. 
-2. Select a shape you want to add. The shape is placed in the container's nested shape collection.
+2. Select the shape you want to add. The shape is placed in the container's nested shape collection.
+
 
 ![Context Toolbox](../../images/diagram-context-toolbox-with-container.gif)
 
@@ -98,7 +103,8 @@ The **Diagram** can draw orthogonal and straight connectors.
 
 ![Line Type](../../images/diagram-connector-line-type.png)
 
-Specify a connector's line type on the **Style** tab in the **Properties** toolbar.
+Specify a connector's line type in the **Style** tab on the **Properties** toolbar.
+
 
 ![Line Type](../../images/diagram-properties-line-type.png)
 

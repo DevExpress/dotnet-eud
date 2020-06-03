@@ -12,7 +12,8 @@ author: Svetlana Nikulina
 
     ![Show Toolbox Button](../../images/diagram-history-and-toolbox-button.png)
 
-- The **Toolbox** allows you to add shapes to your chart. Select the **View** > **Settings** > **Show Toolbox** command to switch the **Toolbox** visibility. On mobile devises, the **Show Toolbox** button is additionally displayed in the **History** toolbar.
+- The **Toolbox** allows you to add shapes to your chart. Select **View** > **Settings** > **Show Toolbox** to change the **Toolbox**'s visibility. On mobile devises, there is an additional **Show Toolbox** button in the **History** toolbar.
+
 
 - The **Properties** toolbar allows you to [customize shape and connector style settings](create-a-new-chart.md#customize-shape-and-connector-style-settings), change the [chart layout](chart-layout.md), and specify [page settings](page-and-view-settings.md). Click the **Properties** button to show and hide the toolbar.
 

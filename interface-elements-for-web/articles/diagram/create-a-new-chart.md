@@ -17,12 +17,14 @@ This topic explains how to create a new chart and customize its settings.
 
 1. Add another shape to the chart.
 
-1. Hover the mouse cursor over a shape to display its connection points.
+1. Hover the mouse pointer over a shape to display its connection points.
+
 
 1. Hover a point, press the left mouse button, drag the connector to another shape's connection point, and release the mouse button. Now, if you move a shape, the connector stretches to it.
 
 
-1. Double click the connector to add a text. You can move the text along the connector by mouse.
+1. Double click the connector to add text. You can use the mouse to move the text along the connector.
+
 
 ![Add a Connector](../../images/diagram-add-connector.gif)
 
@@ -30,7 +32,8 @@ This topic explains how to create a new chart and customize its settings.
 
 You can arrange shapes into collapsible horizontal and vertical containers.
 
-Drag a shape over a container (the container will be highlighted). Drop the shape.
+Drag a shape over a container (this highlights the container) and drop the shape.
+
 
 ![Container](../../images/diagram-container.gif)
 
@@ -38,7 +41,8 @@ Drag a shape over a container (the container will be highlighted). Drop the shap
 
 1. Click a shape to select it. 
 
-1. Drag squares at the shape borders and corners to resize the shape.
+1. Drag the squares at the shape's borders and corners to resize the shape.
+
 
 ![Resize a Shape](../../images/diagram-resizing.gif)
 
@@ -46,7 +50,8 @@ Drag a shape over a container (the container will be highlighted). Drop the shap
 
 1. Drag a shape from the **Org Chart** toolbox group onto the page.
 
-1. Double click the shape and change its text.
+1. Double click the shape to change its text.
+
 
 1. Right click the shape to invoke a context menu. Select the **Insert Shape Image...** command. 
 
@@ -58,7 +63,8 @@ To change or delete the image, select the corresponding command in the context m
 
 ## Customize Shape and Connector Style Settings
 
-1. Select a shape, a connector, or a group of elements.
+1. Select a shape, connector, or group of elements.
+
 
 1. Click the **Properties** button to invoke the **Properties** toolbar.
 
