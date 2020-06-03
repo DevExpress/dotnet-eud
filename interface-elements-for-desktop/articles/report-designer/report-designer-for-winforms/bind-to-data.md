@@ -8,6 +8,7 @@ The following tutorials illustrate how to bind a report to various data sources:
 
 * [Bind a Report to a Database](bind-to-data/bind-a-report-to-a-database.md)
 * [Bind a Report to a Stored Procedure](bind-to-data/bind-a-report-to-a-stored-procedure.md)
+* [Specify Query Parameters](bind-to-data/specify-query-parameters.md)
 * [Bind a Report to an XML File](bind-to-data/bind-a-report-to-an-xml-file.md)
 * [Bind a Report to an Entity Framework Data Source](bind-to-data/bind-a-report-to-an-entity-framework-data-source.md)
 * [Bind a Report to an Object Data Source](bind-to-data/bind-a-report-to-an-object-data-source.md)

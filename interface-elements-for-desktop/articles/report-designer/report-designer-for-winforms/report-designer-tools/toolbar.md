@@ -15,7 +15,7 @@ The Report Designer **Toolbar** includes the **Home**, **Layout**, **Page**, and
 Use commands in this tab to
 
 * add new reports, load and save report layouts;
-* add data sources, [calculated fields](..\shape-report-data\use-calculated-fields.md), and [report parameters](..\shape-report-data\use-report-parameters\parameters-overview.md);
+* add data sources, [calculated fields](..\shape-report-data\use-calculated-fields.md), and [report parameters](../shape-report-data/use-report-parameters.md);
 * delete the selected report elements, place them on the clipboard and paste them onto report bands;
 * customize font, color, formatting and alignment settings;
 * create new styles based on the selected control's appearance settings and then apply the created styles to other controls.
@@ -50,6 +50,8 @@ This tab enables you to
 * turn on/off [export and printing warnings](..\use-report-elements\manipulate-report-elements.md) to highlight intersecting controls and controls placed outside page margins;
 * display the document's watermark on the design surface;
 * specify whether to draw the snap grid;
+* expand or collapse all report bands;
+* change the report language and show localizable properties in the **Property Grid**;
 * zoom the design surface;
 * manage the Report Designer panels' visibility.
 

@@ -27,7 +27,7 @@ Specify the connection name and select the JSON source type.
 
     ![](../../../../images/eurd-web-report-wizard-json-web-service-endpoint.png)
 
-    You can also specify the Web Service Endpoint's request parameters (username and password, HTTP headers, or query parameters)
+    You can also specify the Web Service Endpoint's request parameters (username and password, path parameters, query parameters, or header parameters).
 
     ![](../../../../images/eurd-web-report-wizard-json-request-parameters.png)
 

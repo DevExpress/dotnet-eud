@@ -45,7 +45,7 @@ This tutorial demonstrates how to bind a report to a hierarchical data source an
     > 
     > Although it is also possible to join different tables within a single query, creating hierarchical data sources is preferred in most cases to provide better performance (in general, master-detail reports are generated faster than similar-looking reports created by grouping "flat" data sources).
         
-Click **Finish** to complete the **Data Source Wizard**. If the selected queries or stored procedures contain any [parameters](../shape-report-data/use-report-parameters/query-parameters.md), you can go to the [next wizard page](../report-designer-tools/data-source-wizard/connect-to-a-database/configure-query-parameters.md) and define their values.
+Click **Finish** to complete the **Data Source Wizard**. If the selected queries or stored procedures contain any [parameters](specify-query-parameters.md), you can go to the [next wizard page](../report-designer-tools/data-source-wizard/connect-to-a-database/configure-query-parameters.md) and define their values.
 
 The newly created SQL data source will be displayed in the **Components** node of the [Report Explorer](../report-designer-tools/ui-panels/report-explorer.md). Additionally, the hierarchy of the data source will be reflected by the [Field List](../report-designer-tools/ui-panels/field-list.md). In both panels, you can right-click the data source to access its settings.
 

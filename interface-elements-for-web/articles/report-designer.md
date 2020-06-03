@@ -25,6 +25,7 @@ The **Web Report Designer** allows you to create data-bound reports and provides
 * [Provide Interactivity](report-designer/provide-interactivity.md)
 * [Add Extra Information](report-designer/add-extra-information.md)
 * [Use Expressions](report-designer/use-expressions.md)
+* [Localize Reports](report-designer/localize-reports.md)
 * [Report Designer Tools](report-designer/report-designer-tools.md)
 * [Preview, Print and Export Reports](report-designer/preview-print-and-export-reports.md)
 

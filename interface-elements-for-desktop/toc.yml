@@ -490,9 +490,11 @@
       href: articles/report-designer/report-designer-for-winforms/bind-to-data.md
       items:
       - name: Bind a Report to a Database
-        href: articles/report-designer/report-designer-for-winforms/bind-to-data/bind-a-report-to-a-database.md   
+        href: articles/report-designer/report-designer-for-winforms/bind-to-data/bind-a-report-to-a-database.md
       - name: Bind a Report to a Stored Procedure
         href: articles/report-designer/report-designer-for-winforms/bind-to-data/bind-a-report-to-a-stored-procedure.md
+      - name: Specify Query Parameters
+        href: articles/report-designer/report-designer-for-winforms/bind-to-data/specify-query-parameters.md
       - name: Bind a Report to an XML File
         href: articles/report-designer/report-designer-for-winforms/bind-to-data/bind-a-report-to-an-xml-file.md
       - name: Bind a Report to an Entity Framework Data Source
@@ -503,7 +505,7 @@
         href: articles/report-designer/report-designer-for-winforms/bind-to-data/bind-a-report-to-an-excel-workbook.md
       - name: Bind a Report to a CSV File
         href: articles/report-designer/report-designer-for-winforms/bind-to-data/bind-a-report-to-a-csv-file.md   
-      - name: Bind a Report to a JSON data
+      - name: Bind a Report to JSON data
         href: articles/report-designer/report-designer-for-winforms/bind-to-data/bind-a-report-to-json-data.md
       - name: Bind a Report to an XPO Persistent Object
         href: articles\report-designer\report-designer-for-winforms\bind-to-data\bind-a-report-to-an-xpo-persistent-object.md        
@@ -536,6 +538,8 @@
         href: articles/report-designer/report-designer-for-winforms/create-popular-reports/create-a-master-detail-report-use-detail-report-bands.md   
       - name: Create a Master-Detail Report (Use Subreports)
         href: articles/report-designer/report-designer-for-winforms/create-popular-reports/create-a-master-detail-report-use-subreports.md
+      - name: Create a Report with PDF Content
+        href: articles/report-designer/report-designer-for-winforms/create-popular-reports/create-a-report-with-pdf-content.md
       - name: Create a Hierarchical Report
         href: articles\report-designer\report-designer-for-winforms\create-popular-reports\create-a-hierarchical-report.md         
       - name: Create a Vertical Report
@@ -581,6 +585,8 @@
           href: articles/report-designer/report-designer-for-winforms/use-report-elements/manipulate-report-elements/reuse-report-controls.md
         - name: Arrange Report Controls
           href: articles/report-designer/report-designer-for-winforms/use-report-elements/manipulate-report-elements/arrange-report-controls.md
+        - name: Convert Labels to Table
+          href: articles/report-designer/report-designer-for-winforms/use-report-elements/manipulate-report-elements/convert-labels-to-table.md
         - name: Add Report Controls to Containers
           href: articles/report-designer/report-designer-for-winforms/use-report-elements/manipulate-report-elements/add-report-controls-to-containers.md
         - name: Validate the Report Layout
@@ -819,16 +825,18 @@
       - name: Use Report Parameters
         href: articles/report-designer/report-designer-for-winforms/shape-report-data/use-report-parameters.md
         items:
-        - name: Parameters Overview
-          href: articles/report-designer/report-designer-for-winforms/shape-report-data/use-report-parameters/parameters-overview.md
-        - name: Multi-Value and Cascading Parameters
-          href: articles/report-designer/report-designer-for-winforms/shape-report-data/use-report-parameters/multi-value-and-cascading-parameters.md
-        - name: Date Range Parameters
-          href: articles/report-designer/report-designer-for-winforms/shape-report-data/use-report-parameters/date-range-parameters.md
-        - name: Request and Pass Report Parameter Values
-          href: articles/report-designer/report-designer-for-winforms/shape-report-data/use-report-parameters/request-and-pass-report-parameter-values.md
-        - name: Query Parameters
-          href: articles/report-designer/report-designer-for-winforms/shape-report-data/use-report-parameters/query-parameters.md
+        - name: Create a Report Parameter
+          href: articles/report-designer/report-designer-for-winforms/shape-report-data/use-report-parameters/create-a-report-parameter.md
+        - name: Report Parameters with Predefined Static Values
+          href: articles/report-designer/report-designer-for-winforms/shape-report-data/use-report-parameters/report-parameters-with-predefined-static-values.md
+        - name: Report Parameters with Predefined Dynamic Values
+          href: articles/report-designer/report-designer-for-winforms/shape-report-data/use-report-parameters/report-parameters-with-predefined-dynamic-values.md
+        - name: Multi-Value Report Parameters
+          href: articles/report-designer/report-designer-for-winforms/shape-report-data/use-report-parameters/multi-value-report-parameters.md
+        - name: Cascading Report Parameters
+          href: articles/report-designer/report-designer-for-winforms/shape-report-data/use-report-parameters/cascading-report-parameters.md
+        - name: Date Range Report Parameters
+          href: articles/report-designer/report-designer-for-winforms/shape-report-data/use-report-parameters/date-range-report-parameters.md
     - name: Lay out Dynamic Report Content
       href: articles/report-designer/report-designer-for-winforms/lay-out-dynamic-report-content.md
       items:
@@ -1011,8 +1019,8 @@
           items:
           - name: Specify JSON Data Location
             href: articles/report-designer/report-designer-for-winforms/report-designer-tools/data-source-wizard/connect-to-a-json-data-source/specify-json-data-location.md
-          - name: Specify Request Parameters
-            href: articles/report-designer/report-designer-for-winforms/report-designer-tools/data-source-wizard/connect-to-a-json-data-source/specify-request-parameters.md        
+          - name: Configure Web Service Endpoint Request
+            href: articles/report-designer/report-designer-for-winforms/report-designer-tools/data-source-wizard/connect-to-a-json-data-source/configure-web-service-endpoint-request.md        
           - name: Select Data Fields
             href: articles/report-designer/report-designer-for-winforms/report-designer-tools/data-source-wizard/connect-to-a-json-data-source/select-data-fields.md
         - name: Connect to an XPO Data Source
@@ -1054,6 +1062,8 @@
           href: articles/report-designer/report-designer-for-winforms/report-designer-tools/ui-panels/property-grid-non-tabbed-view.md
         - name: Group and Sort Panel
           href: articles/report-designer/report-designer-for-winforms/report-designer-tools/ui-panels/group-and-sort-panel.md
+    - name: Localize Reports
+      href: articles/report-designer/report-designer-for-winforms/localize-reports.md
   - name: Report Designer for WPF
     href: articles/report-designer/report-designer-for-wpf.md
     items:
@@ -1074,6 +1084,8 @@
         href: articles/report-designer/report-designer-for-wpf/report-types/master-detail-report-(detail-report-bands).md
       - name: Master-Detail Report (Subreports)
         href: articles/report-designer/report-designer-for-wpf/report-types/master-detail-report-(subreports).md
+      - name: Report with PDF Content
+        href: articles/report-designer/report-designer-for-wpf/report-types/report-with-pdf-content.md
       - name: Cross-Tab Report
         href: articles/report-designer/report-designer-for-wpf/report-types/cross-tab-report.md
       - name: Parametrized Report
@@ -1200,6 +1212,8 @@
         href: articles/report-designer/report-designer-for-wpf/interface-elements/design-surface.md
       - name: Script Editor
         href: articles/report-designer/report-designer-for-wpf/interface-elements/script-editor.md
+      - name: Localization Editor
+        href: articles/report-designer/report-designer-for-wpf/interface-elements/localization-editor.md
       - name: Query Builder
         href: articles/report-designer/report-designer-for-wpf/interface-elements/query-builder.md
     - name: Report Wizard
