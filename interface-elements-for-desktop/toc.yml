@@ -525,37 +525,37 @@
         href: articles/report-designer/report-designer-for-winforms/bind-to-data/use-embedded-fields-mail-merge.md
       - name: Update Report Data Bindings
         href: articles/report-designer/report-designer-for-winforms/bind-to-data/update-report-data-bindings.md
-    - name: Create Popular Reports
-      href: articles/report-designer/report-designer-for-winforms/create-popular-reports.md
+    - name: Create Reports
+      href: articles/report-designer/report-designer-for-winforms/create-reports.md
       items:
       - name: Create a Table Report
-        href: articles/report-designer/report-designer-for-winforms/create-popular-reports/create-a-table-report.md   
+        href: articles/report-designer/report-designer-for-winforms/create-reports/create-a-table-report.md   
       - name: Create an Invoice Based on a Template
-        href: articles/report-designer/report-designer-for-winforms/create-popular-reports/create-an-invoice-based-on-template.md
+        href: articles/report-designer/report-designer-for-winforms/create-reports/create-an-invoice-based-on-template.md
       - name: Create an Invoice Manually
-        href: articles/report-designer/report-designer-for-winforms/create-popular-reports/create-an-invoice-manually.md
+        href: articles/report-designer/report-designer-for-winforms/create-reports/create-an-invoice-manually.md
       - name: Create a Master-Detail Report (Use Detail Report Bands)
-        href: articles/report-designer/report-designer-for-winforms/create-popular-reports/create-a-master-detail-report-use-detail-report-bands.md   
+        href: articles/report-designer/report-designer-for-winforms/create-reports/create-a-master-detail-report-use-detail-report-bands.md   
       - name: Create a Master-Detail Report (Use Subreports)
-        href: articles/report-designer/report-designer-for-winforms/create-popular-reports/create-a-master-detail-report-use-subreports.md
+        href: articles/report-designer/report-designer-for-winforms/create-reports/create-a-master-detail-report-use-subreports.md
       - name: Create a Report with PDF Content
-        href: articles/report-designer/report-designer-for-winforms/create-popular-reports/create-a-report-with-pdf-content.md
+        href: articles/report-designer/report-designer-for-winforms/create-reports/create-a-report-with-pdf-content.md
       - name: Create a Hierarchical Report
-        href: articles\report-designer\report-designer-for-winforms\create-popular-reports\create-a-hierarchical-report.md         
+        href: articles\report-designer\report-designer-for-winforms\create-reports\create-a-hierarchical-report.md         
       - name: Create a Vertical Report
-        href: articles\report-designer\report-designer-for-winforms\create-popular-reports\create-a-vertical-report.md        
+        href: articles\report-designer\report-designer-for-winforms\create-reports\create-a-vertical-report.md        
       - name: Create Labels and Badges
-        href: articles/report-designer/report-designer-for-winforms/create-popular-reports/create-labels-and-badges.md
+        href: articles/report-designer/report-designer-for-winforms/create-reports/create-labels-and-badges.md
       - name: Create a Multi-Column Report
-        href: articles/report-designer/report-designer-for-winforms/create-popular-reports/create-a-multi-column-report.md   
+        href: articles/report-designer/report-designer-for-winforms/create-reports/create-a-multi-column-report.md   
       - name: Create a Report with Cross-Band Content and Populated Empty Space
-        href: articles/report-designer/report-designer-for-winforms/create-popular-reports/create-a-report-with-cross-band-content-and-populated-empty-space.md
+        href: articles/report-designer/report-designer-for-winforms/create-reports/create-a-report-with-cross-band-content-and-populated-empty-space.md
       - name: Create an Interactive E-Form
-        href: articles/report-designer/report-designer-for-winforms/create-popular-reports/create-an-interactive-e-form.md
+        href: articles/report-designer/report-designer-for-winforms/create-reports/create-an-interactive-e-form.md
       - name: Create a Cross-Tab Report
-        href: articles/report-designer/report-designer-for-winforms/create-popular-reports/create-a-cross-tab-report.md
+        href: articles/report-designer/report-designer-for-winforms/create-reports/create-a-cross-tab-report.md
       - name: Create a Balance Sheet
-        href: articles/report-designer/report-designer-for-winforms/create-popular-reports/create-a-balance-sheet.md
+        href: articles/report-designer/report-designer-for-winforms/create-reports/create-a-balance-sheet.md
     - name: Configure Design Settings
       href: articles/report-designer/report-designer-for-winforms/configure-design-settings.md
       items:
