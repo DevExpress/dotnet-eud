@@ -19,7 +19,7 @@ This section contains tutorials that explain how to create different reports.
 ### [Master-Detail Reports with Detail Report Bands](create-reports/master-detail-reports-with-detail-report-bands.md)
 ![](../../../images/master-detail-with-detail-report-bands-preview.png)
 
-### [Master-Detail Reports with Subreports](create-reports/master-detail-reports-with-detail-report-bands.md)
+### [Master-Detail Reports with Subreports](create-reports/master-detail-reports-with-subreports.md)
 ![](../../../images/master-detail-with-subreport-preview.png)
 
 ### [Hierarchical Reports](create-reports/hierarchical-reports.md)
