@@ -1,8 +1,8 @@
 ---
-title: Create a Multi-Column Report
+title: Multi-Column Reports
 author: Anna Gubareva
 ---
-# Create a Multi-Column Report
+# Multi-Column Reports
 
 This document describes how to arrange report data in multiple columns, which can be used to create mailing labels, business cards or multi-column directories.
 

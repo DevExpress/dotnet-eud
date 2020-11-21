@@ -528,34 +528,34 @@
     - name: Create Reports
       href: articles/report-designer/report-designer-for-winforms/create-reports.md
       items:
-      - name: Create a Table Report
-        href: articles/report-designer/report-designer-for-winforms/create-reports/create-a-table-report.md   
-      - name: Create an Invoice Based on a Template
-        href: articles/report-designer/report-designer-for-winforms/create-reports/create-an-invoice-based-on-template.md
-      - name: Create an Invoice Manually
-        href: articles/report-designer/report-designer-for-winforms/create-reports/create-an-invoice-manually.md
-      - name: Create a Master-Detail Report (Use Detail Report Bands)
-        href: articles/report-designer/report-designer-for-winforms/create-reports/create-a-master-detail-report-use-detail-report-bands.md   
-      - name: Create a Master-Detail Report (Use Subreports)
-        href: articles/report-designer/report-designer-for-winforms/create-reports/create-a-master-detail-report-use-subreports.md
-      - name: Create a Report with PDF Content
-        href: articles/report-designer/report-designer-for-winforms/create-reports/create-a-report-with-pdf-content.md
-      - name: Create a Hierarchical Report
-        href: articles\report-designer\report-designer-for-winforms\create-reports\create-a-hierarchical-report.md         
-      - name: Create a Vertical Report
-        href: articles\report-designer\report-designer-for-winforms\create-reports\create-a-vertical-report.md        
-      - name: Create Labels and Badges
-        href: articles/report-designer/report-designer-for-winforms/create-reports/create-labels-and-badges.md
-      - name: Create a Multi-Column Report
-        href: articles/report-designer/report-designer-for-winforms/create-reports/create-a-multi-column-report.md   
-      - name: Create a Report with Cross-Band Content and Populated Empty Space
-        href: articles/report-designer/report-designer-for-winforms/create-reports/create-a-report-with-cross-band-content-and-populated-empty-space.md
-      - name: Create an Interactive E-Form
-        href: articles/report-designer/report-designer-for-winforms/create-reports/create-an-interactive-e-form.md
-      - name: Create a Cross-Tab Report
-        href: articles/report-designer/report-designer-for-winforms/create-reports/create-a-cross-tab-report.md
-      - name: Create a Balance Sheet
-        href: articles/report-designer/report-designer-for-winforms/create-reports/create-a-balance-sheet.md
+      - name: Table Reports
+        href: articles/report-designer/report-designer-for-winforms/create-reports/table-reports.md
+      - name: Vertical Reports
+        href: articles\report-designer\report-designer-for-winforms\create-reports\vertical-reports.md
+      - name: Master-Detail Reports with Detail Report Bands
+        href: articles/report-designer/report-designer-for-winforms/create-reports/master-detail-reports-with-detail-report-bands.md   
+      - name: Master-Detail Reports with Subreports
+        href: articles/report-designer/report-designer-for-winforms/create-reports/master-detail-reports-with-detail-report-bands.md
+      - name: Hierarchical Reports
+        href: articles\report-designer\report-designer-for-winforms\create-reports\hierarchical-reports.md
+      - name: Invoices
+        href: articles/report-designer/report-designer-for-winforms/create-reports/invoices.md
+      - name: Invoices from Templates
+        href: articles/report-designer/report-designer-for-winforms/create-reports/invoices-from-templates.md
+      - name: Cross-Tab Reports
+        href: articles/report-designer/report-designer-for-winforms/create-reports/cross-tab-reports.md
+      - name: Balance Sheets
+        href: articles/report-designer/report-designer-for-winforms/create-reports/balance-sheets.md
+      - name: Labels and Badges
+        href: articles/report-designer/report-designer-for-winforms/create-reports/labels-and-badges.md
+      - name: Multi-Column Reports
+        href: articles/report-designer/report-designer-for-winforms/create-reports/multi-column-reports.md
+      - name: Interactive E-Forms
+        href: articles/report-designer/report-designer-for-winforms/create-reports/interactive-e-forms.md
+      - name: Reports with Cross-Band Content and Populated Empty Space
+        href: articles/report-designer/report-designer-for-winforms/create-reports/reports-with-cross-band-content-and-populated-empty-space.md
+      - name: Reports with PDF Content
+        href: articles/report-designer/report-designer-for-winforms/create-reports/reports-with-pdf-content.md
     - name: Configure Design Settings
       href: articles/report-designer/report-designer-for-winforms/configure-design-settings.md
       items:

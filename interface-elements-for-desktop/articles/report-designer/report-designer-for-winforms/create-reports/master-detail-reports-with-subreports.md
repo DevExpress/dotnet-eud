@@ -1,10 +1,10 @@
 ---
-title: Create a Master-Detail Report (Use Subreports)
+title: Master-Detail Reports with Subreports
 author: Anna Gubareva
 ---
-# Create a Master-Detail Report (Use Subreports)
+# Master-Detail Reports with Subreports
 
-This tutorial demonstrates how to create a master-detail report using the [Subreport](../use-report-elements/use-basic-report-controls/subreport.md) control. This approach is useful if your data source does not contain master-detail relationship or you prefer to store master and detail reports in different files. Another approach is described at [Create a Master-Detail Report (Use Detail Report Bands)](create-a-master-detail-report-use-detail-report-bands.md).
+This tutorial demonstrates how to create a master-detail report using the [Subreport](../use-report-elements/use-basic-report-controls/subreport.md) control. This approach is useful if your data source does not contain master-detail relationship or you prefer to store master and detail reports in different files. Another approach is described at [Create a Master-Detail Report (Use Detail Report Bands)](master-detail-reports-with-detail-report-bands.md).
 
 ## <a name="master"></a>Create a Master Report
 

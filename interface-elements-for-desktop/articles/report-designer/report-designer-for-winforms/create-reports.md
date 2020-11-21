@@ -8,52 +8,52 @@ This section contains tutorials that explain how to create different reports.
 
 ## Basic Reports
 
-### [Table Reports](create-reports/create-a-table-report.md)
+### [Table Reports](create-reports/table-reports.md)
 ![](../../../images/table-report-preview.png)
 
-### [Vertical Reports](create-reports\create-a-vertical-report.md)
+### [Vertical Reports](create-reports\vertical-reports.md)
 ![](../../../images/vertical-report-preview.png)
 
 ## Reports with Hierarchical Data
 
-### [Master-Detail Reports with Detail Report Bands](create-reports/create-a-master-detail-report-use-detail-report-bands.md)
+### [Master-Detail Reports with Detail Report Bands](create-reports/master-detail-reports-with-detail-report-bands.md)
 ![](../../../images/master-detail-with-detail-report-bands-preview.png)
 
-### [Master-Detail Reports with Subreports](create-reports/create-a-master-detail-report-use-subreports.md)
+### [Master-Detail Reports with Subreports](create-reports/master-detail-reports-with-detail-report-bands.md)
 ![](../../../images/master-detail-with-subreport-preview.png)
 
-### [Hierarchical Reports](create-reports/create-a-hierarchical-report.md)
+### [Hierarchical Reports](create-reports/hierarchical-reports.md)
 ![](../../../images/hierarchical-report-preview.png)
 
 ## Invoice Reports
 
-### [Invoices](create-reports/create-an-invoice-manually.md)
+### [Invoices](create-reports/invoices.md)
 ![](../../../images/manual-invoice-preview.png)
 
-### [Invoices from Templates](create-reports/create-an-invoice-based-on-template.md)
+### [Invoices from Templates](create-reports/invoices-from-templates.md)
 ![](../../../images/template-invoice-preview.png)
 
 ## Cross-Tab Reports
 
-### [Cross-Tab Reports](create-reports/create-a-cross-tab-report.md)
+### [Cross-Tab Reports](create-reports/cross-tab-reports.md)
 ![](../../../images/cross-tab-report-preview.png)
 
-### [Balance Sheets](create-reports/create-a-balance-sheet.md)
+### [Balance Sheets](create-reports/balance-sheets.md)
 ![](../../../images/balance-sheet-report-preview.png)
 
 ## Multi-Column Reports
 
-### [Labels and Badges](create-reports/create-labels-and-badges.md)
+### [Labels and Badges](create-reports/labels-and-badges.md)
 ![](../../../images/labels-and-badges-report-preview.png)
 
-### [Multi-Column Reports](create-reports/create-a-multi-column-report.md)
+### [Multi-Column Reports](create-reports/multi-column-reports.md)
 ![](../../../images/multi-column-report-preview.png)
 
 ## Interactive Reports
 
 You can add interactive elements to your report to customize it in Print Preview:
 
-### [Interactive E-Forms](create-reports/create-an-interactive-e-form.md)
+### [Interactive E-Forms](create-reports/interactive-e-forms.md)
 ![](../../../images/interactive-eform-preview.png)
 
 > [!Note]
@@ -63,8 +63,8 @@ You can add interactive elements to your report to customize it in Print Preview
 
 ## Layout Features
 
-### [Reports with Cross-Band Content and Populated Empty Space](create-reports/create-a-report-with-cross-band-content-and-populated-empty-space.md)
+### [Reports with Cross-Band Content and Populated Empty Space](create-reports/reports-with-cross-band-content-and-populated-empty-space.md)
 ![](../../../images/cross-band-and-populated-empty-space-report-preview.png)
 
-### [Reports with PDF content](create-reports/create-a-report-with-pdf-content.md)
+### [Reports with PDF content](create-reports/reports-with-pdf-content.md)
 ![](../../../images/report-with-pdf-content-preview.png)

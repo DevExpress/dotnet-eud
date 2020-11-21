@@ -1,13 +1,13 @@
 ---
-title: Create an Invoice Manually
+title: Invoices
 author: Anna Gubareva
 ---
-# Create an Invoice Manually
+# Invoices
 
 This tutorial describes how to create a simple invoice report displaying information about customers and their orders. You can perform similar steps to create various invoice layouts depending on your requirements.
 
 > [!Note]
-> See the [Create an Invoice based on a Template](create-an-invoice-based-on-template.md) topic to learn how to create an invoice report based on a predefined layout.
+> See the [Invoices from Templates](invoices-from-templates.md) topic for information on how to create an invoice report based on a predefined layout.
 
 ![](../../../../images/eurd-win-invoice-report-result.png)
 

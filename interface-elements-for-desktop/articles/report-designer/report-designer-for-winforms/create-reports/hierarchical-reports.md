@@ -1,8 +1,8 @@
 ---
-title: Create a Hierarchical Report
+title: Hierarchical Reports
 author: Mary Sammal
 ---
-# Create a Hierarchical Report
+# Hierarchical Reports
 
 This tutorial describes how to use the [detail band](..\introduction-to-banded-reports.md)'s **Hierarchy Print Options** property to create a hierarchical report.
 

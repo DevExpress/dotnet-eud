@@ -9,7 +9,7 @@ This tutorial describes how to use the Cross Tab control to create a **Sales Sum
 ![](../../../../images/eurd-win-cross-tab-report-result-final.png)
 
 > [!TIP]
-> This tutorial demonstrates how to use the Cross-Tab Report Wizard. See [Create a Balance Sheet](create-a-balance-sheet.md) for information on how to configure a Cross Tab on the Design Surface.
+> This tutorial demonstrates how to use the Cross-Tab Report Wizard. See [Balance Sheets](balance-sheets.md) tutorial for information on how to configure a Cross Tab on the Design Surface.
 
 ## Add a Cross-Tab Report
 

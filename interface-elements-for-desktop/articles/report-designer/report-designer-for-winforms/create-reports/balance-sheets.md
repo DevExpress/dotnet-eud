@@ -2,14 +2,14 @@
 title: Create a Balance Sheet
 author: Anna Gubareva
 ---
-# Create a Balance Sheet
+# Balance Sheets
 
 This tutorial describes how to use the Cross Tab control to create a **Balance Sheet** report.
 
 ![](../../../../images/eurd-win-balance-sheet-report.png)
 
 > [!Tip]
-> This tutorial shows how to configure a Cross Tab using the [Report Wizard](../report-designer-tools/report-wizard.md). See [Create a Cross-Tab Report](create-a-cross-tab-report.md) for information on how to use the Cross-Tab Report Wizard.
+> This tutorial shows how to configure a Cross Tab using the [Report Wizard](../report-designer-tools/report-wizard.md). See the [Cross-Tab Reports](cross-tab-reports.md) tutorial for information on how to use the Cross-Tab Report Wizard.
 
 ## Add a Cross Tab and Bind It to Data
 
