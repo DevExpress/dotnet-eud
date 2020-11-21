@@ -556,6 +556,8 @@
         href: articles/report-designer/report-designer-for-winforms/create-popular-reports/create-a-cross-tab-report.md
       - name: Create a Balance Sheet
         href: articles/report-designer/report-designer-for-winforms/create-popular-reports/create-a-balance-sheet.md
+      - name: Reports with Visual PDF Signature
+        href: articles/report-designer/report-designer-for-winforms/create-popular-reports/reports-with-visual-pdf-signature.md
     - name: Configure Design Settings
       href: articles/report-designer/report-designer-for-winforms/configure-design-settings.md
       items:
