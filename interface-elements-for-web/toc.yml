@@ -553,6 +553,8 @@
       href: articles/report-designer/create-popular-reports/create-an-interactive-e-form.md
     - name: Create a Cross-Tab Report
       href: articles/report-designer/create-popular-reports/create-a-cross-tab-report.md
+    - name: Reports with Visual PDF Signature
+      href: articles/report-designer/create-popular-reports/reports-with-visual-pdf-signature.md
   - name: Configure Design Settings
     href: articles/report-designer/configure-design-settings.md
     items:

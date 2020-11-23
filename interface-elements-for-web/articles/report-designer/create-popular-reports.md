@@ -43,3 +43,5 @@ The following tutorial explains how to use the Pivot Grid control in your report
 
 > [!Note]
 > See the [Use Charts and Pivot Grids](use-report-elements/use-charts-and-pivot-grids.md) documentation section to learn more about using Pivot Grids and Charts in your reports.
+
+* [Reports with Visual PDF Signature](create-popular-reports/reports-with-visual-pdf-signature.md)
