@@ -48,6 +48,6 @@ Click the **Preview Tab** to show the result.
 
     ![](../../../../images/pdf-signature-report-sign-3.png)
 
-Save and open the document to see the final result.
+Save and open the document to show the final result.
 
 ![](../../../../images/pdf-signature-report-result-after-sign.png)
