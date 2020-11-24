@@ -2,44 +2,74 @@
 title: Create Popular Reports
 author: Anna Vekhina
 ---
-# Create Popular Reports
 
-The following tutorials illustrate how to create basic reports:
+# Create Reports
 
-* [Create a Letter](create-popular-reports/create-a-letter.md)
-* [Create a Table Report](create-popular-reports/create-a-table-report.md)
-* [Create a Vertical Report](create-popular-reports/create-an-invoice-manually.md)
+This section contains tutorials that explain how to create different reports.
 
-The following topics describe how to display hierarchical data in your reports:
+## Basic Reports
 
-* [Create a Master-Detail Report (Use Detail Report Bands)](create-popular-reports/create-a-master-detail-report-use-detail-report-bands.md)
-* [Create a Master-Detail Report (Use Subreports)](create-popular-reports/create-a-master-detail-report-use-subreports.md)
-* [Create a Report with PDF Content](create-popular-reports/create-a-report-with-pdf-content.md)
-* [Create a Hierarchical Report](create-popular-reports/create-a-hierarchical-report.md)
+### [Table Reports](create-reports/table-reports.md)
+![](../../images/table-report-preview.png)
 
-The following tutorial illustrates how to create invoice reports:
+### [Vertical Reports](create-reports\vertical-reports.md)
+![](../../images/vertical-report-preview.png)
 
-* [Create an Invoice Manually](create-popular-reports/create-an-invoice-manually.md)
+### [Letters](create-reports/letters.md)
+![](../../images/letter-report-preview.png)
 
+## Reports with Hierarchical Data
 
-The tutorials listed below demonstrate various layout options available for reports:
+### [Master-Detail Reports with Detail Report Bands](create-reports/master-detail-reports-with-detail-report-bands.md)
+![](../../images/master-detail-with-detail-report-bands-preview.png)
 
-* [Create Labels and Badges](create-popular-reports/create-labels-and-badges.md)
-* [Create a Multi-Column Report](create-popular-reports/create-a-multi-column-report.md)
-* [Create a Report with Cross-Band Content and Populated Empty Space](create-popular-reports/create-a-report-with-cross-band-content-and-populated-empty-space.md)
+### [Master-Detail Reports with Subreports](create-reports/master-detail-reports-with-subreports.md)
+![](../../images/master-detail-with-subreport-preview.png)
 
-The following tutorial illustrates interactive report features:
+### [Hierarchical Reports](create-reports/hierarchical-reports.md)
+![](../../images/hierarchical-report-preview.png)
 
-* [Create an Interactive E-Form](create-popular-reports/create-an-interactive-e-form.md)
+## Invoice Reports
+
+### [Invoices](create-reports/invoices.md)
+![](../../images/manual-invoice-preview.png)
+
+## Cross-Tab Reports
+
+### [Cross-Tab Reports](create-reports/cross-tab-reports.md)
+
+![](../../images/cross-tab-report-preview.png)
 
 > [!Note]
-> See the [Provide Interactivity](provide-interactivity.md) documentation section to learn about providing a drill-down functionality to your reports.
+> See the [Use Charts and Pivot Grids](use-report-elements/use-charts-and-pivot-grids.md) documentation section for information on how to use Pivot Grids and Charts in your reports.
+
+## Multi-Column Reports
+
+### [Labels and Badges](create-reports/labels-and-badges.md)
+![](../../images/labels-and-badges-report-preview.png)
+
+### [Multi-Column Reports](create-reports/multi-column-reports.md)
+![](../../images/multi-column-report-preview.png)
+
+## Interactive Reports
+
+You can add interactive elements to your report to customize it in Print Preview:
+
+### [Interactive E-Forms](create-reports/interactive-e-forms.md)
+![](../../images/interactive-eform-preview.png)
+
+> [!Note]
+> See the [Provide Interactivity](provide-interactivity.md) section for information on how to provide drill-down and drill-through functionality in your reports.
 > 
-> See [Use Report Parameters](shape-report-data/use-report-parameters.md) to learn how to customize reports by submitting parameter values in Print Preview.
+> See [Use Report Parameters](shape-report-data/use-report-parameters.md) for instructions on how to submit parameter values in Print Preview to customize your reports.
 
-The following tutorial explains how to use the Pivot Grid control in your reports:
+## Layout Features
 
-* [Create a Cross-Tab Report](create-popular-reports/create-a-cross-tab-report.md)
+### [Reports with Cross-Band Content and Populated Empty Space](create-reports/reports-with-cross-band-content-and-populated-empty-space.md)
+![](../../images/cross-band-and-populated-empty-space-report-preview.png)
 
-> [!Note]
-> See the [Use Charts and Pivot Grids](use-report-elements/use-charts-and-pivot-grids.md) documentation section to learn more about using Pivot Grids and Charts in your reports.
+### [Reports with PDF content](create-reports/reports-with-pdf-content.md)
+![](../../images/report-with-pdf-content-preview.png)
+
+
+
