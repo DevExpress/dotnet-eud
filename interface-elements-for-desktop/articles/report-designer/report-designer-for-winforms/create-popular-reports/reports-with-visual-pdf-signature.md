@@ -14,7 +14,7 @@ This tutorial describes how to create a report with a visual PDF signature.
 
     ![](../../../../images/pdf-signature-report-drop-rich-text.png)
 
-2. Double-click the control and insert text of the [DevExpress Website Terms of Use](https://www.devexpress.com/aboutus/legal.xml).
+2. Double-click the control and insert the [DevExpress Website Terms of Use](https://www.devexpress.com/aboutus/legal.xml) text.
 
     ![](../../../../images/pdf-signature-report-add-data-to-rich-text.png)
 
