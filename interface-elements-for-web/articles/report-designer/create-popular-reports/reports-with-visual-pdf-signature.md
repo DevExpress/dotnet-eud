@@ -2,52 +2,48 @@
 title: Reports with a Visual PDF Signature
 author: Eugene Polevikov
 ---
-# Reports with a Visual PDF Signature [WIP]
+# Reports with a Visual PDF Signature
 
 This tutorial describes how to create a report with a visual PDF signature.
 
-![](../../../../images/pdf-signature-report-result-after-sign-lower.png)
+![](../../../images/pdf-signature-report-result-after-sign-lower.png)
 
 ## Create a Report Layout
 
-1. Drop the **RichText** control from the report controls Toolbox tab onto the **Detail** band.
+1. Drop the **Rich Text** control from the report controls Toolbox tab onto the **Detail** band.
 
-    ![](../../../../images/pdf-signature-report-drop-rich-text.png)
+    ![](../../../images/pdf-signature-report-drop-rich-text.png)
 
 2. Double-click the control and insert text of the [DevExpress Website Terms of Use](https://www.devexpress.com/aboutus/legal.xml).
 
-    ![](../../../../images/pdf-signature-report-add-data-to-rich-text.png)
+    ![](../../../images/pdf-signature-report-add-data-to-rich-text.png)
 
-3. Right-click the design surface. Select **Insert Band / ReportFooter** from the context menu.
+3. Select the **Detail** band. In the property grid, expand the **Actions** section and choose **Insert Report Footer Band**. Enable the footer band's **Print at Bottom** property.
 
-    ![](../../../../images/pdf-signature-report-add-report-footer.png)
+    ![](../../../images/pdf-signature-report-add-report-footer.png)
 
-4. Drop the **PdfSignature** control from the report controls Toolbox tab onto the **Report Footer** band.
+4. Drop the **Pdf Signature** control from the report controls Toolbox tab onto the **Report Footer** band.
 
-    ![](../../../../images/pdf-signature-report-add-pdf-signature.png)
+    ![](../../../images/pdf-signature-report-add-pdf-signature.png)
 
-5. Place the **Label** control to the left of the **PdfSignature** control and add the following text: _I have read and accept this Website Terms of Use statement_.
+5. Place the **Label** control to the left of the **Pdf Signature** control and add the following text: _I have read and accept this Website Terms of Use statement_.
 
-    ![](../../../../images/pdf-signature-report-add-xr-label-and-line.png)
+    ![](../../../images/pdf-signature-report-add-xr-label-and-line.png)
 
-Click the **Preview Tab** to see the result.
+Open **Preview** to see the result.
 
-![](../../../../images/pdf-signature-report-result-before-sign.png)
+![](../../../images/pdf-signature-report-result-before-sign.png)
 
 ## Export and Sign the Report
 
-1. In **Preview**, click **Export Document** and select **PDF File**.
+1. In **Preview**, expand the list with export formats and select **PDF**.
 
-    ![](../../../../images/pdf-signature-report-sign-1.png)
+    ![](../../../images/pdf-signature-report-sign-1.png)
 
-2. In the invoked **PDF Export Options** dialog, click the **Digital Signature** option's ellipsis button.
+2. Open the exported document in a PDF editor and sign it.
 
-    ![](../../../../images/pdf-signature-report-sign-2.png)
+    ![](../../../images/pdf-signature-report-sign-2.png)
 
-3. In the invoked **Signature Options** dialog, choose a certificate and specify signature details.
+Save and reopen the document to see the final result.
 
-    ![](../../../../images/pdf-signature-report-sign-3.png)
-
-Save and open the document to see the final result.
-
-![](../../../../images/pdf-signature-report-result-after-sign.png)
+![](../../../images/pdf-signature-report-result-after-sign.png)
