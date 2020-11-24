@@ -30,7 +30,7 @@ This tutorial describes how to create a report with a visual PDF signature.
 
     ![](../../../../images/pdf-signature-report-add-xr-label-and-line.png)
 
-Click the **Preview Tab** to see the result.
+Click the **Preview Tab** to show the result.
 
 ![](../../../../images/pdf-signature-report-result-before-sign.png)
 
