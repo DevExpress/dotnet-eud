@@ -4,7 +4,7 @@ author: Anna Vekhina
 ---
 # Table Reports
 
-This tutorial describes how to create a data-bound report displaying information in a tabular format. Table reports should not be confused with hierarchical [master-detail reports](master-detail-report-with-detail-report-bands.md), nor with [cross-tab reports](create-reports).
+This tutorial describes how to create a data-bound report displaying information in a tabular format. Table reports should not be confused with hierarchical [master-detail reports](master-detail-reports-with-detail-report-bands.md), nor with [cross-tab reports](cross-tab-reports.md).
 
 ![](../../../images/eurd-web-table-report-result.png)
 

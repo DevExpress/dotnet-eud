@@ -114,6 +114,6 @@ To add a band, select the report or any of its bands in the **Properties** panel
 
 ![](../../images/eurd-web-report-bands-add-bands.png)
 
-You can insert a detail report band if the report's data source has [master-detail relations](create-reports/master-detail-report-with-detail-report-bands.md). Click **Insert Detail Report** in the **Actions** category.
+You can insert a detail report band if the report's data source has [master-detail relations](create-reports/master-detail-reports-with-detail-report-bands.md). Click **Insert Detail Report** in the **Actions** category.
 
 ![](../../images/eurd-web-report-bands-add-detail-band.png)
