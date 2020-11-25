@@ -1610,7 +1610,7 @@
     - name: Create a Table Report
       href: articles/snap-reporting-engine/create-a-report-layout/create-a-table-report.md
     - name: Create a Multi-Column Report
-      href: articles/snap-reporting-engine/create-a-report-layout/create-a-multi-column-report.md
+      href: articles/snap-reporting-engine/create-a-report-layout/multi-column-reports.md
     - name: Create a Side-by-Side Report
       href: articles/snap-reporting-engine/create-a-report-layout/create-a-side-by-side-report.md
     - name: Create a Parameterized Report

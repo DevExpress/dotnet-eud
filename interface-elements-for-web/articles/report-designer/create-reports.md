@@ -1,5 +1,5 @@
 ---
-title: Create Popular Reports
+title: Create Reports
 author: Anna Vekhina
 ---
 

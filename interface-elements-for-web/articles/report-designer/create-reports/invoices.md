@@ -1,8 +1,8 @@
 ---
-title: Create an Invoice Manually
+title: Invoices
 author: Anna Vekhina
 ---
-# Create an Invoice Manually
+# Invoices
 
 This tutorial describes how to create a simple invoice report displaying information about customers and their orders. You can perform similar steps to create various invoice layouts depending on your requirements.
 

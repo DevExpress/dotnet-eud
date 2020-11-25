@@ -1,8 +1,8 @@
 ---
-title: Create Labels and Badges
+title: Labels and Badges
 author: Anna Vekhina
 ---
-# Create Labels and Badges
+# Labels and Badges
 
 This tutorial describes the steps to create a label report that contains employee badges.
 

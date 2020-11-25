@@ -43,11 +43,11 @@ On the start page, choose the report type you want to create.
 
 * [Table Report](report-wizard\table-and-vertical-report.md)
 
-    Creates a [table report](../create-popular-reports/create-a-table-report.md) and binds it to data.
+    Creates a [table report](../create-reports/table-reports.md) and binds it to data.
 
 * [Vertical Report](report-wizard\table-and-vertical-report.md)
 
-    Creates a [vertical report](../create-popular-reports/create-a-vertical-report.md) and binds it to data.
+    Creates a [vertical report](../create-reports/vertical-reports.md) and binds it to data.
 
 * [Label Report](report-wizard\label-report.md)
 

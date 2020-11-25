@@ -1,8 +1,8 @@
 ---
-title: 'Create a Report with Cross-Band Content and Populated Empty Space'
+title: 'Reports with Cross-Band Content and Populated Empty Space'
 author: Sergey Andreev
 ---
-# Create a Report with Cross-Band Content and Populated Empty Space
+# Reports with Cross-Band Content and Populated Empty Space
 
 This document describes how to create a report with the following layout options:
 

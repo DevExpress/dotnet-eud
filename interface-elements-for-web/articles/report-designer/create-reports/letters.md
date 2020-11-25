@@ -1,8 +1,8 @@
 ---
-title: Create a Letter
+title: Letters
 author: Anna Vekhina
 ---
-# Create a Letter
+# Letters
 
 This tutorial describes the steps to create a mail merge report, in which data fields are embedded into a label's text that is replaced with corresponding data values on preview or export.
 

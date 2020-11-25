@@ -13,7 +13,7 @@ Using this editor, you can define master-detail relationships between queries by
 
 ![](../../../images/eurd-web-master-detail-relation-editor.png)
 
-This allows you to create hierarchical data sources that are used to create nested [master-detail reports](../create-popular-reports/create-a-master-detail-report-use-detail-report-bands.md).
+This allows you to create hierarchical data sources that are used to create nested [master-detail reports](../create-reports/master-detail-reports-with-detail-report-bands.md).
 
 > [!NOTE]
 > Although it is also possible to [join different tables](query-builder.md) within a single query, creating hierarchical data sources is preferred in most cases to provide better performance (in general, master-detail reports are generated faster than similar-looking reports created by grouping "flat" data sources).

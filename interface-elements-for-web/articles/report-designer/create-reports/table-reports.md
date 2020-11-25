@@ -1,10 +1,10 @@
 ---
-title: Create a Table Report
+title: Table Reports
 author: Anna Vekhina
 ---
-# Create a Table Report
+# Table Reports
 
-This tutorial describes how to create a data-bound report displaying information in a tabular format. Table reports should not be confused with hierarchical [master-detail reports](create-a-master-detail-report-use-detail-report-bands.md), nor with [cross-tab reports](create-a-cross-tab-report.md).
+This tutorial describes how to create a data-bound report displaying information in a tabular format. Table reports should not be confused with hierarchical [master-detail reports](master-detail-report-with-detail-report-bands.md), nor with [cross-tab reports](create-reports).
 
 ![](../../../images/eurd-web-table-report-result.png)
 

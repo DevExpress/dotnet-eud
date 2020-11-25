@@ -1,8 +1,8 @@
 ---
-title: Create an Interactive E-Form
+title: Interactive E-Forms
 author: Anna Vekhina
 ---
-# Create an Interactive E-Form
+# Interactive E-Forms
 
 This tutorial describes how to create an electronic form and make it fillable directly in Print Preview before printing or exporting it.
 

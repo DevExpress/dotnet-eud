@@ -1,8 +1,8 @@
 ---
-title: Create a Vertical Report
+title: Vertical Reports
 author: Anna Vekhina
 ---
-# Create a Vertical Report
+# Vertical Reports
 
 This tutorial describes how to use vertical bands to create a report where record fields are arranged vertically and data records are printed horizontally.
 

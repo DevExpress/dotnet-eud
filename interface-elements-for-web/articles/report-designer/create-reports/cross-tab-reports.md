@@ -1,8 +1,8 @@
 ---
-title: Create a Cross-Tab Report
+title: Cross-Tab Reports
 author: Anna Vekhina
 ---
-# Create a Cross-Tab Report
+# Cross-Tab Reports
 
 A cross-tab report displays complex multi-dimensional data, such as summary statistics, surveys, and market research information. This report uses a Pivot Grid control that calculates automatic summaries and grand totals across grouped rows and columns.
 
