@@ -68,3 +68,6 @@ You can add interactive elements to your report to customize it in Print Preview
 
 ### [Reports with PDF content](create-reports/reports-with-pdf-content.md)
 ![](../../../images/report-with-pdf-content-preview.png)
+
+### [Reports with a Visual PDF Signature](create-reports/reports-with-visual-pdf-signature.md)
+![](../../../images/report-with-a-visual-pdf-signature.png)
