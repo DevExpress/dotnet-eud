@@ -4,7 +4,8 @@ author: Svetlana Nikulina
 legacyId: 4854
 ---
 # Grid
-This section describes the Grid's capabilities. It represents data in a tabular form, supports data editing, sorting, grouping, filtering, summary calculation, column resizing, data exporting and using data cell bands. 
+
+This section describes Grid control capabilities. A grid represents data in tabular form, and supports data editing, sorting, grouping, filtering, summary calculation, column resizing, data export and data cell bands.
 
 ![cdMasterDetail_Result](../images/img6625.png)
 
