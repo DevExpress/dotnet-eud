@@ -43,7 +43,7 @@ The following image illustrates a sample report layout and the [Report Explorer]
 
 ## Add a Detail Band to a Master-Detail Band
 
-Use the **detail report band** to create hierarchical [master-detail reports](create-popular-reports/create-a-master-detail-report-use-detail-report-bands.md). Detail report bands provide detailed information about each record in the master report's detail band. You can create such reports when master-detail relationships are defined between data source tables:
+Use the **detail report band** to create hierarchical [master-detail reports](create-reports/master-detail-reports-with-detail-report-bands.md). Detail report bands provide detailed information about each record in the master report's detail band. You can create such reports when master-detail relationships are defined between data source tables:
 
 ![](../../images/eurd-web-report-bands-master-detail-relation.png)
 
@@ -79,7 +79,7 @@ The following vertical bands are available:
 ![](../../images/eurd-web-report-vertical-bands-design-surface.png)
 
 > [!TIP]
-> See [Create a Vertical Report](create-popular-reports\create-a-vertical-report.md) for details on how to use vertical bands.
+> See [Vertical Reports](create-reports\vertical-reports.md) for details on how to use vertical bands.
 
 ## Create Band Copies
 
@@ -114,6 +114,6 @@ To add a band, select the report or any of its bands in the **Properties** panel
 
 ![](../../images/eurd-web-report-bands-add-bands.png)
 
-You can insert a detail report band if the report's data source has [master-detail relations](create-popular-reports/create-a-master-detail-report-use-detail-report-bands.md). Click **Insert Detail Report** in the **Actions** category.
+You can insert a detail report band if the report's data source has [master-detail relations](create-reports/master-detail-reports-with-detail-report-bands.md). Click **Insert Detail Report** in the **Actions** category.
 
 ![](../../images/eurd-web-report-bands-add-detail-band.png)
