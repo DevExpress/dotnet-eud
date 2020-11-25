@@ -1,6 +1,6 @@
 ---
 title: Sparkline
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 16588
 ---
 # Sparkline

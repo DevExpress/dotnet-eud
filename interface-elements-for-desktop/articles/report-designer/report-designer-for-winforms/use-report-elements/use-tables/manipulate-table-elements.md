@@ -5,6 +5,7 @@ author: Anna Gubareva
 # Manipulate Table Elements
 
 ## Select Table Elements
+
 You can click a table cell to select it and [access its settings](../manipulate-report-elements/select-report-elements-and-access-their-settings.md). To select multiple cells, hold the SHIFT or CTRL key and click cells.
 
 ![](../../../../../images/eurd-win-table-control-multiple-selected-cells.png)
@@ -21,6 +22,7 @@ The **Select** group in the [toolbar](../../report-designer-tools/toolbar.md)'s 
 
 
 ## Resize Table Elements
+
 You can resize a table or its cell by dragging the rectangle drawn on its edge or corner. 
 
 The following column resizing modes are supported:
@@ -57,11 +59,40 @@ You can resize columns equally in a similar way by selecting the columns or the 
 
 ![](../../../../../images/eurd-win-table-control-distribute-columns-evenly.png)
 
+## Reorder Table Rows and Cells
+
+You can change the order of table rows and cells. Switch to the [Report Explorer](../../report-designer-tools/ui-panels/report-explorer.md) window, select a row or cell and drag it to a new position.
+
+![](../../../../../images/reorder-table-cells.gif)
+
+The Report Explorer highlights the possible drop targets when you drag an element over them.
+
+> [!NOTE]
+> You can move table rows and cells only within the same parent control.
+
+## Apply Styles to Table Elements
+
+Select a table element and switch to the **Property Grid**. Expand the **Styles** group and set the **Style** property to the style name.
+
+![design-time-select-style](../../../../../images/eurd-win-select-style-table.png)
+
+As an alternative, you can drag a style from the Report Explorer onto an element.
+
+![design-time-drag-style](../../../../../images/eurd-win-drag-style.gif)
+
 ## Stretch Table Cells
-You can stretch a cell so that it occupies several rows and columns. To stretch a cell across several columns, remove a neighboring cell by pressing DELETE or selecting **Delete** | **Cell** in the context menu and resize the remaining cells.
 
-![](../../../../../images/eurd-win-table-control-cell-column-span.png)
+You can stretch a cell so that it occupies several rows and columns.
 
-Use a table cell's **Row Span** property to specify the number of rows the table cell spans.
+- Stretch a cell across several columns  
+  Remove a neighboring cell by pressing DELETE or selecting **Delete** | **Cell** in the context menu and resize the remaining cells.
 
-![](../../../../../images/eurd-win-table-control-cell-rows-span.png)
+  ![](../../../../../images/eurd-win-table-control-cell-column-span.png)
+
+- Stretch a cell across several columns  
+  Use a table cell's **Row Span** property to specify the number of rows the table cell spans.
+
+  ![](../../../../../images/eurd-win-table-control-cell-rows-span.png)
+
+  > [!NOTE]
+  > For the **RowSpan** property to work properly, the spanned cells should have the same width.

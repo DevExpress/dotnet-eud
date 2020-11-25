@@ -1,6 +1,6 @@
 ---
 title: Invoke a Field List
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 9674
 ---
 # Invoke a Field List

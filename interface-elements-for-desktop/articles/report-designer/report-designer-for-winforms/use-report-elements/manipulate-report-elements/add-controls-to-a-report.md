@@ -4,127 +4,68 @@ author: Anna Gubareva
 ---
 # Add Controls to a Report
 
-## Add Report Controls
-To display a data field's value in your report, drag the corresponding item from the [Field List](../../report-designer-tools/ui-panels/field-list.md) and drop it onto the report's detail band. This creates a new report control bound to the corresponding field.
+This document describes how to add [controls](../../../../../articles/report-designer/report-designer-for-winforms/use-report-elements.md) to a report.
 
-![](../../../../../images/eurd-win-drop-field-from-field-list.png)
+## <a id="addcontrolsfromthetoolbox"></a>Add Controls from the Standard Controls Bar
 
-You can also use the [Toolbox](../../report-designer-tools/toolbox.md) to add other controls to your report and display content such as text, images, charts, barcodes, and so on.
+Use the End-User Designer's [Toolbox](../../../../../articles/report-designer/report-designer-for-winforms/report-designer-tools/toolbox.md) to add controls to your report.
 
-![](../../../../../images/eurd-win-drop-report-control-from-toolbox.png)
+![eurd-add-controls](../../../../../images/eurd-add-controls.png)
 
-This document describes how to add the most commonly used controls to a report. See [Use Report Elements](../../use-report-elements.md) for a complete list of available controls.
+## <a id="addfieldsfromthefieldlist"></a>Add Data-Bound Controls from the Field List
 
-## Display Text
-Use the following controls to display text in a report:
+You can drag fields from the [Field List](../../../../../articles/report-designer/report-designer-for-winforms/report-designer-tools/ui-panels/field-list.md) onto your report to add data-bound controls, after you [bound](../../../../../articles/report-designer/report-designer-for-winforms/bind-to-data.md) your report to a data source.
 
-* [Label](../use-basic-report-controls/label.md)
-	
-	Displays plain text in a report. 
+### Add a Control
 
-	![](../../../../../images/eurd-win-display-text-using-labels.png)
-	
+Drag a field from the [Field List](../../../../../articles/report-designer/report-designer-for-winforms/report-designer-tools/ui-panels/field-list.md) and drop it onto the report's surface.
 
-* [Rich Text](../use-basic-report-controls/rich-text.md)
-	
-	Displays rich text in a report. You can apply different font settings to the control's content and load content from an external file.
+![eurd-add-controls-from-field-list](../../../../../images/eurd-add-controls-from-field-list.png)
 
-	![](../../../../../images/eurd-win-display-text-using-rich-text.png)
-	
+To add a control of specific type, do either of the following:
 
-* [Table](../use-tables.md)
-	
-	Contains any number of cells arranged in one or more rows.
-	Each table cell can display plain text or contain other controls.
+* Hold down the SHIFT key and drop a data field onto a report's surface.
+* Right-click a data field and drop it onto a report's surface.
 
-	![](../../../../../images/eurd-win-display-text-using-tables.png)
-	
-* [Character Comb](../use-basic-report-controls/character-comb.md)
-	
-	Displays each character in a separate cell and can be used to create printed forms.
+This invokes a context menu where you can select which control to add.
 
-	![](../../../../../images/eurd-win-display-text-using-character-comb.png)
-	
+![eurd-add-controls-from-field-list-picturebox](../../../../../images/eurd-add-controls-from-field-list-picturebox.png)
 
-Double-click any of these controls to invoke an in-place editor where you can enter and format text.
+### Add a Table
 
-![](../../../../../images/eurd-win-display-text-in-place-editor.png)
+Hold the CTRL or SHIFT key and click several fields. Drop them onto the report's surface to add a table with its cells bound to these fields.
 
-Press CTRL+Enter to submit changes and close this mode.
+![eurd-add-controls-add-table](../../../../../images/eurd-add-controls-add-table.png)
 
-You can use the corresponding toolbar elements to access the selected control's font and alignment settings.
+Drop an entire data table from the [Field List](../../../../../articles/report-designer/report-designer-for-winforms/report-designer-tools/ui-panels/field-list.md) to add a report table with columns bound to the data table's fields.
 
-![](../../../../../images/eurd-win-display-text-formatting-toolbar.png)
+![eurd-add-controls-add-entire-table](../../../../../images/eurd-add-controls-add-entire-table.png)
 
+To add column headers, do either of the following:
 
-Labels and other text-oriented controls can display the following content:
+* Select the fields and hold the CTRL or SHIFT key when you drop them onto a report surface.
+* Drag and drop fields with the right mouse button.
 
-* **Static content**
-	
-	A control's content does not change once it is specified in a published document.
+![eurd-add-controls-add-column-headers](../../../../../images/eurd-add-controls-add-column-headers.png)
 
-	![](../../../../../images/eurd-win-report-control-static-content.png)
+ This adds a new table whose cells display the field names.
 
-* **Dynamic content**
-	
-	A connected data source supplies this content. In a published document, it changes according to the printed data source record.
+## <a id="addcontrolsfromexternalsources"></a>Add Content from External Sources
 
-	![](../../../../../images/eurd-win-report-control-dynamic-content.png)
-	
-	You can use a control's smart tag to format dynamic content.
+You can add text and graphics from external applications to your reports:
 
-	![](../../../../../images/eurd-win-report-control-dynamic-content-format-string.png)
-	
+* Drag a file, text or image from an external application onto your report.
 
-* **Mixed content**
-	
-	You can combine labels' and other text-oriented controls' static and dynamic content within the same control.
-	
-	In the in-place editor, enclose data source fields in square brackets to embed these fields into the control's text. 
+	![eurd-add-controls-drag-rich-text](../../../../../images/eurd-add-controls-drag-rich-text.png)
 
-	![](../../../../../images/eurd-win-report-control-mail-merge-content.png)
-	
-	You can select a field in the in-place editor and use the **Format String** property in the control's smart tag to format this field's value.
+* Copy a file, text or image from an external application, and paste it into your report.
 
-	![](../../../../../images/eurd-win-report-control-mail-merge-format-string.png)
+	![eurd-add-controls-copy-text](../../../../../images/eurd-add-controls-copy-text.png)
 
-## Display Page Information
-Use the [Page Info](../use-basic-report-controls/page-info.md) control to display information about document pages, such as the current page number and/or total number of pages.
+The following table shows which file types transform into report controls:
 
-![](../../../../../images/eurd-win-display-page-information.png)
-
-You can also use this control to add information about a report's author and the document's creation date.
-
-See the following tutorials for detailed instructions:
-
-* [Add Page Numbers](../../add-navigation/add-page-numbers.md)
-* [Display the User Name in a Report](../../add-extra-information/display-the-user-name-in-a-report.md)
-* [Display the Current Date and Time in a Report](../../add-extra-information/display-the-current-date-and-time-in-a-report.md)
-
-## Display Check Boxes, Images and Bar Codes
-Drop a Boolean data field from the Field List onto a report to create a [Check Box](../use-basic-report-controls/check-box.md) control bound to that field.
-
-![](../../../../../images/eurd-win-display-check-boxes.png)
-
-Check boxes can display different states depending on the underlying data values.
-
-![](../../../../../images/eurd-win-check-boxe-states.png)
-
-Use the [Picture Box](../use-basic-report-controls/picture-box.md) control to display images in a report. You can load an image from an external file or bind this control to a binary data source field.
-
-![](../../../../../images/eurd-win-display-picture-boxes.png)
-
-To display bar codes, use the [Bar Code](../use-bar-codes.md) control.
-
-![](../../../../../images/eurd-win-display-bar-codes.png)
-
-## <a name="drawinglinesshapes"></a>Drawing Lines and Shapes
-Use the [Shape](../draw-lines-and-shapes/draw-shapes.md) control to draw simple graphics in a report (circles, crosses or arrows).
-
-![](../../../../../images/eurd-win-display-shapes.png)
-
-The [Line](../draw-lines-and-shapes/draw-lines.md) control enables you to draw straight or slanted lines in a single band.
-
-![](../../../../../images/eurd-win-display-lines.png)
-
-The [Cross-Band Line and Box](../draw-lines-and-shapes/draw-cross-band-lines-and-boxes.md) controls enable you to draw lines and boxes spanning multiple report bands.
+| File Type | Control |
+| --- | --- |
+| .TXT | A [Label](../../../../../articles/report-designer/report-designer-for-winforms/use-report-elements/use-basic-report-controls/label.md) control that contains file contents. |
+| .DOC, .DOCX, .RTF, .HTM, .HTML | A [Rich Text](../../../../../articles/report-designer/report-designer-for-winforms/use-report-elements/use-basic-report-controls/rich-text.md) control that contains file content. |
+| .JPG, .PNG, .BMP, .GIF, .TIF, .SVG | A [Picture Box](../../../../../articles/report-designer/report-designer-for-winforms/use-report-elements/use-basic-report-controls/picture-box.md) control that contains the image. |

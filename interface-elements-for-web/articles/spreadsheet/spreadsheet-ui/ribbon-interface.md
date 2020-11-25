@@ -34,7 +34,7 @@ The comprehensive functionality of the **Spreadsheet** is provided by a set of *
 
 [Clear Cell Formatting](../cell-formatting/clear-cell-formatting.md)
 
-[Insert and Delete Rows and Columns](../columns-and-rows/insert-and-delete-rows-and-columns.md)
+[Insert and Delete Columns and Rows](../columns-and-rows/insert-and-delete-rows-and-columns.md)
 
 [Show and Hide Columns and Rows](../columns-and-rows/show-and-hide-columns-and-rows.md)
 
@@ -44,14 +44,15 @@ The comprehensive functionality of the **Spreadsheet** is provided by a set of *
 
 [Find and Replace](../editing-cells/find-and-replace.md)
 
+[Format As Table](../cell-formatting/format-as-table.md)
+
 ## Insert
 ![EUD_ASPxSpreadsheet_InsertTab](../../../images/img26104.png)
+
 
 [Insert a Picture](../pictures-and-hyperlinks/insert-a-picture.md)
 
 [Move and Resize a Picture](../pictures-and-hyperlinks/move-and-resize-a-picture.md)
-
-[Insert and Delete Hyperlinks](../pictures-and-hyperlinks/insert-and-delete-hyperlinks.md)
 
 [Charting Overview](../charting/charting-overview.md)
 
@@ -63,10 +64,14 @@ The comprehensive functionality of the **Spreadsheet** is provided by a set of *
 
 [Modifying a Chart Manually](../charting/modifying-a-chart-manually.md)
 
+[Insert and Delete Hyperlinks](../pictures-and-hyperlinks/insert-and-delete-hyperlinks.md)
+
+
 ## Page Layout
 ![EUD_ASPxSpreadsheet_PageLayoutMenu](../../../images/img26237.png)
 
 [Adjust Page Settings](../file-operations/adjust-page-settings.md)
+
 
 ## Formulas
 ![EUD_ASPxSpreadsheet_FormulasMenu](../../../images/img26252.png)
@@ -86,9 +91,25 @@ The comprehensive functionality of the **Spreadsheet** is provided by a set of *
 
 [Sort Data](../data-presentation/sort-data.md)
 
+[Filtering](../data-presentation/filtering.md)
+
+[Data Validation](../editing-cells/data-validation.md)
+
+## Review
+![EUD_ASPxSpreadsheet_ReviewMenu](../../../images/spreadsheet-tab-review.png)
+
+[Comments](../editing-cells/insert-a-comment.md)
+
+
 ## View
 ![EUD_ASPxSpreadsheet_ViewMenu](../../../images/img117633.png)
 
-[Hide Gridlines](../viewing/hide-gridlines.md)
+[Document Views](../viewing/document-views.md)
+
+[Hide and Display Gridlines](../viewing/hide-gridlines.md)
+
+[Hide and Display Headings](../viewing/hide-and-display-headings.md)
 
 [Full Screen Mode](../viewing/full-screen-mode.md)
+
+[Freeze Panes](../data-presentation/freeze-panes.md)

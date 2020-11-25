@@ -1,6 +1,6 @@
 ---
 title: Creating Parameters
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 16522
 ---
 # Creating Parameters

@@ -1,16 +1,14 @@
 ---
-title: Insert an Image in HTML Editor
+title: Insert an Image
 author: Svetlana Nikulina
 legacyId: 4535
 ---
-# Insert an Image in HTML Editor
-This topic describes how to insert an image into an editor's content.
-
-First, position the mouse pointer on the place in the text where you want to add an image and click the **Insert Image** button.
+# Insert an Image
+To insert an image into an editor's content, position the mouse pointer on the place in the text where you want to add an image and click the **Insert Image** button.
 
 ![ASPxHtmlEditor-Image-Insert](../../../images/img7382.png)
 
-Now, define the required parameters of the image within the invoked **Insert Image** dialog.
+Define the required parameters of the image within the invoked **Insert Image** dialog.
 
 ## Insert an Image Stored on the Local Machine
 * Select the **From this computer** radio button within the **Insert Image** dialog.

@@ -12,7 +12,7 @@ To create a calculated field, switch to the [Field List](../../report-designer-t
 
 ![](../../../../../images/eurd-win-add-calculated-field.png)
 
- Right-click the calculated field in the **Field List** and select **Edit Expression**. Alternatively, you can select the calculated field, and in the [Property Grid](../../report-designer-tools/ui-panels/property-grid.md), click the **Expression** property's ellipsis button.
+ Right-click the calculated field in the **Field List** and select **Edit Expression**. Alternatively, you can select the calculated field, and in the [Property Grid](../../report-designer-tools/ui-panels/property-grid-tabbed-view.md), click the **Expression** property's ellipsis button.
 
 ![](../../../../../images/eurd-win-calculated-field-eidt-expression.png)
 
@@ -42,9 +42,6 @@ A data field is inserted into the expression's text using its name in **[**squar
 
 A calculated field's expression can evaluate the values of other calculated fields if you make sure to avoid circular references.
 
-> [!NOTE]
-> When creating calculated fields, avoid dots in their names, because reports use them to address data source members.
-
 Date-time constants must be wrapped in hashtags (**#**) (e.g., **[OrderDate] >= #1/1/2009#**). To represent a null reference (one that does not refer to any object), use a question mark (e.g., **[Region] != ?**). To denote strings, use apostrophes (**'**), otherwise an error will occur.
 
 To embed an apostrophe into an expression's text, it should be preceded by another apostrophe (e.g., **'It''s sample text'**).
@@ -53,7 +50,7 @@ The type of a value returned by a calculated field is defined by its **Field Typ
 
 If a calculated field expression involves the use of different types, it is necessary to convert them to the same type (e.g., **Max(ToDecimal([Quantity]),[UnitPrice])**)
 
-Although a value that is returned by a calculated field is usually converted to a string (to be displayed in a text-aware report control), it can return a value of any kind. For example, if a database field contains an image, you can set a calculated field's expression to "=...", after which this calculated field can be bound to the [Pucture Box](../../use-report-elements/use-basic-report-controls/picture-box.md) control.
+Although a value that is returned by a calculated field is usually converted to a string (to be displayed in a text-aware report control), it can return a value of any kind. For example, if a database field contains an image, you can set a calculated field's expression to "=...", after which this calculated field can be bound to the [Picture Box](../../use-report-elements/use-basic-report-controls/picture-box.md) control.
 
 To construct a valid aggregate expression, use the following format, which consists of four parts.
 
@@ -72,6 +69,6 @@ For more information, see [Expression Syntax](../../use-expressions/expression-s
 The following tutorials demonstrate the use of calculated fields in various environments:
 
 * [Calculate an Aggregate Function](calculate-an-aggregate-function.md)
-* [Calculate a Weighted Average Function](calculate-a-weighted-average-function.md)
+* [Calculate a Weighted Average Function](../shape-data-expression-bindings/calculate-a-weighted-average.md)
 * [Sort Data by a Custom Field](../../shape-report-data/group-and-sort-data/sort-data-by-a-custom-field.md)
 * [Group Data by a Custom Field](../../shape-report-data/group-and-sort-data/group-data-by-a-custom-field.md)

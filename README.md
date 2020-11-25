@@ -2,10 +2,7 @@
 
 This article explains how to clone DevExpress End-User documentation sources and how to create your own documentation websites and help files for projects based on DevExpress technologies. It also provides links to a sample pre-built website and PDF files.
 
-
-> If you require End-User documentation for **v17.1 and earlier**, you can download previous versions in CHM and PDF formats from https://www.devexpress.com/Support/Documentation/download.xml?platform=user-dev-docs.
->
-> For **Developer Documentation with API Reference** see [https://documentation.devexpress.com](https://www.devexpress.com/Support/Documentation/).
+> For **Developer Documentation with API Reference** see [https://docs.devexpress.com](https://docs.devexpress.com).
 
 ## The Scope
 DevExpress products for WinForms, WPF and ASP.NET WebForms/MVC. 
@@ -87,4 +84,27 @@ Below are the common issues you can face when building this repository's documen
   
   > We recommend using the `--serve` DocFX switch to preview documentation, and then share it with end users via a web server instead of browsing the file system.
 
-If your issue is not listed, you can [submit a new issue to this repository](https://github.com/DevExpress/dotnet-eud/issues/new) or contact us via the [DevExpress Support Center](https://www.devexpress.com/Support/Center/). You can search the [DocFX issues list](https://github.com/dotnet/docfx/issues), or try building the [docfx\-seed](https://github.com/docascode/docfx-seed) sample documentation project to check if your issue is specific to this repository. 
+If your issue is not listed, you can [submit a new issue to this repository](https://github.com/DevExpress/dotnet-eud/issues/new) or contact us via the [DevExpress Support Center](https://www.devexpress.com/Support/Center/). You can search the [DocFX issues list](https://github.com/dotnet/docfx/issues), or try building the [docfx\-seed](https://github.com/docascode/docfx-seed) sample documentation project to check if your issue is specific to this repository.
+
+## Versions 17.1 and Earlier
+
+If you require End-User documentation for v17.1 or earlier, download **End-User Documentation Installer** containing CHM and PDF files. Markdown is not available for these versions. 
+
+| Version | Installer                                                                                      |
+|:--------|:-----------------------------------------------------------------------------------------------|
+| v17.1   | [DevExpressEndUserDocs171.exe](https://go.devexpress.com/Documentation_EUD_17_1.aspx "127 Mb") |
+| v16.2   | [DevExpressEndUserDocs162.exe](https://go.devexpress.com/Documentation_EUD_16_2.aspx "128 Mb") |
+| v16.1   | [DevExpressEndUserDocs161.exe](https://go.devexpress.com/Documentation_EUD_16_1.aspx "109 Mb") |
+| v15.2   | [DevExpressEndUserDocs152.exe](https://go.devexpress.com/Documentation_EUD_15_2.aspx "96 Mb")  |
+| v15.1   | [DevExpressEndUserDocs151.exe](https://go.devexpress.com/Documentation_EUD_15_1.aspx "84 Mb")  |
+| v14.2   | [DevExpressEndUserDocs142.exe](https://go.devexpress.com/Documentation_EUD_14_2.aspx "75 Mb")  |
+| v14.1   | [DevExpressEndUserDocs141.exe](https://go.devexpress.com/Documentation_EUD_14_1.aspx "73 Mb")  |
+| v13.2   | [DevExpressEndUserDocs132.exe](https://go.devexpress.com/Documentation_EUD_13_2.aspx "61 Mb")  |
+| v13.1   | [DevExpressEndUserDocs131.exe](https://go.devexpress.com/Documentation_EUD_13_1.aspx "35 Mb")  |
+| v12.2   | [DevExpressEndUserDocs122.exe](https://go.devexpress.com/Documentation_EUD_12_2.aspx "35 Mb")  |
+| v12.1   | [DevExpressEndUserDocs121.exe](https://go.devexpress.com/Documentation_EUD_12_1.aspx "35 Mb")  |
+
+You are free to download these files and distribute them to your end users. However, Developer Express Inc. has the right to change or remove these files without notice.
+
+
+

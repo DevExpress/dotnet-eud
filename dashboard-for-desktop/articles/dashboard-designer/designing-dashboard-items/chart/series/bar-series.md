@@ -1,6 +1,6 @@
 ---
 title: Bar Series
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 16543
 ---
 # Bar Series

@@ -1,6 +1,6 @@
 ---
 title: Master Filtering
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 115249
 ---
 # Master Filtering

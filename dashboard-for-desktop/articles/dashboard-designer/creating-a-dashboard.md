@@ -1,6 +1,6 @@
 ---
 title: Creating a Dashboard
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 16968
 ---
 # Creating a Dashboard

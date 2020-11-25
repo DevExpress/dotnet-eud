@@ -4,7 +4,7 @@ author: Anna Kondratova
 legacyId: 113814
 ---
 # Save a Document
-To save a document, go to the **File** tab, and then click the **Save as** button in the **Common** group.
+To save a document, go to the **File** tab, and then click the **Save as** button in the **Common** group; or press CTRL+S.
 
 ![EUD_ASPxRichEdit_File_SaveAs](../../../images/img117757.png)
 

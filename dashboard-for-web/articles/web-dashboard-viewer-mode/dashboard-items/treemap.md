@@ -1,6 +1,6 @@
 ---
 title: Treemap
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 17379
 ---
 # Treemap

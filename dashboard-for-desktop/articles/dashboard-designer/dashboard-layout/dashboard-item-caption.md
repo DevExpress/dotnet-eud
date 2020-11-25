@@ -1,6 +1,6 @@
 ---
 title: Dashboard Item Caption
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 16517
 ---
 # Dashboard Item Caption

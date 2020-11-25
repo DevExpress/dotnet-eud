@@ -4,22 +4,30 @@ author: Anya Vekhina
 legacyId: 17818
 ---
 # Report Designer
-This section of the  documentation describes the basic principles of creating reports with **Web Report Designer**.
 
-The Web Report Designer allows you to create new reports from scratch, bind them to data, display a report's Print Preview and send its output to a printer or export it to a file on a disk.
+The **Web Report Designer** allows you to create data-bound reports and provides a rich set of tools to construct report layouts that meet your requirements. 
 
-![web-client-side-report-designer-light-color-scheme](../images/img24693.png)
+![](../images/eurd-web-report-designer-start-page.png)
 
-The Web Report Designer's main features:
-* a JavaScript/HTML5 engine that provides a responsive user interface for in-browser reporting on the client;
-* an integrated Property Grid, a Quick Access panel for editing commonly used options, a Data Explorer and Parameters panels;
-* a rich set of report controls (see the [Toolbox](report-designer/interface-elements/toolbox.md) document for a complete list of available controls);
-* cross-browser compatibility.
+* [First Look at the Report Designer](report-designer/first-look-at-the-report-designer.md)
+* [Add New Reports](report-designer/add-new-reports.md)
+* [Open Reports](report-designer/open-reports.md)
+* [Save Reports](report-designer/save-reports.md)
+* [Introduction to Banded Reports](report-designer/introduction-to-banded-reports.md)
+* [Bind to Data](report-designer/bind-to-data.md)
+* [Create Popular Reports](report-designer/create-popular-reports.md)
+* [Configure Design Settings](report-designer/configure-design-settings.md)
+* [Use Report Elements](report-designer/use-report-elements.md)
+* [Shape Report Data](report-designer/shape-report-data.md)
+* [Lay out Dynamic Report Content](report-designer/lay-out-dynamic-report-content.md)
+* [Customize Appearance](report-designer/customize-appearance.md)
+* [Add Navigation](report-designer/add-navigation.md)
+* [Provide Interactivity](report-designer/provide-interactivity.md)
+* [Add Extra Information](report-designer/add-extra-information.md)
+* [Use Expressions](report-designer/use-expressions.md)
+* [Localize Reports](report-designer/localize-reports.md)
+* [Report Designer Tools](report-designer/report-designer-tools.md)
+* [Preview, Print and Export Reports](report-designer/preview-print-and-export-reports.md)
 
-Different aspects of using the Web Report Designer are covered in the following documentation sections.
-* [Report Types](report-designer/report-types.md)
-* [Creating Reports](report-designer/creating-reports.md)
-* [Report Elements](report-designer/report-elements.md)
-* [Interface Elements](report-designer/interface-elements.md)
-* [Wizards](report-designer/wizards.md)
-* [Document Preview](report-designer/document-preview.md)
+> [!NOTE]
+> Specific features described in this guide may differ from what you see in your application. This depends on your application vendor.

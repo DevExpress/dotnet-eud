@@ -1,6 +1,6 @@
 ---
 title: Range Filter
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 16754
 ---
 # Range Filter

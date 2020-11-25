@@ -6,10 +6,12 @@ author: Anna Gubareva
 
 This document describes how to display or hide a report control in a published document based on a specified logical condition.
 
-> [!Warning]
-> Use the approach below if expression bindings **are not enabled** in the Report Designer (the [Property Grid](../../report-designer-tools/ui-panels/property-grid.md) does not provide the **Expressions** ![](../../../../../images/eurd-win-property-grid-expressions-icon.png) tab ).
+> [!NOTE]
+> Use this approach if data bindings **are enabled** in the Report Designer (the Label's smart tag includes the **Data Binding** property).
 >
-> See [Conditionally Suppress Controls](../shape-data-expression-bindings/conditionally-supress-controls.md)  if expression bindings **are enabled** in the Report Designer (the [Property Grid](../../report-designer-tools/ui-panels/property-grid.md) provides the **Expressions** ![](../../../../../images/eurd-win-property-grid-expressions-icon.png) tab).
+> ![](../../../../../images/eurd-label-expression-binding-modes.png)
+>
+> See the [Conditionally Suppress Controls](../shape-data-expression-bindings/conditionally-supress-controls.md) topic in the [Shape Data (Expression Bindings)](../shape-data-expression-bindings.md) section to learn about an alternative approach.
 
 1. [Create a new report](../../add-new-reports.md) or open an existing one and prepare the report layout.
 
@@ -21,7 +23,7 @@ This document describes how to display or hide a report control in a published d
 
     ![](../../../../../images/eurd-win-shaping-edit-rule-sheet.png)
 
-4. In the invoked **Formatting Rule Sheet Editor**, click the plus button to create a new formatting rule. Set the **Visible** property to **False** and click the **Condition** property's ellipsis button.
+4. In the invoked **Formatting Rule Sheet Editor**, click the plus button to create a new formatting rule. Set the **Visible** property to **No** and click the **Condition** property's ellipsis button.
 
 	![](../../../../../images/eurd-win-shaping-formatting-rule-settings.png)
 

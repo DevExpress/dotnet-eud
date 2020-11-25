@@ -4,7 +4,7 @@ author: Anna Kondratova
 legacyId: 113860
 ---
 # Using Tabs
-Tab stops specify the exact positions the cursor moves after repeatedly clicking the **Tab** key. Tab stops are located on the [horizontal ruler](../viewing-and-navigating/show-horizontal-ruler.md) and allows you to align text.
+Tab stops specify the exact positions the cursor moves after repeatedly pressing the TAB key. Tab stops are located on the [horizontal ruler](../viewing-and-navigating/show-horizontal-ruler.md) and allows you to align text.
 
 ![EUD_ASPxRichEdit_Tabs_Example](../../../images/img117911.png)
 
@@ -15,7 +15,7 @@ Depending upon [types of tab stops](#tab_types), typed text can be extended to t
 You can set any type of tab stops either [by using the ruler](#ruler) or [by using the dialog box](#dialog_box).
 
 > [!NOTE]
-> By default, there are no tab stops on the ruler when you create a new document.
+> There are no tab stops on the ruler when you create a new document.
 
 ## <a name="tab_types"/>Types of Tab Stops
 | Type of a Tab Stop | Example |

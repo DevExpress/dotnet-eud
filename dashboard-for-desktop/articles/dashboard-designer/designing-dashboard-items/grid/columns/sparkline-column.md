@@ -1,6 +1,6 @@
 ---
 title: Sparkline Column
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 16568
 ---
 # Sparkline Column

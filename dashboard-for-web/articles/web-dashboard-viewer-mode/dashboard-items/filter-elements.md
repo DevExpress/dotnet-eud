@@ -1,6 +1,6 @@
 ---
 title: Filter Elements
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 17948
 ---
 # Filter Elements
@@ -31,3 +31,9 @@ The **List Box** dashboard item allows you to select a value(s) from the list.
 The **Tree View** dashboard item displays values in a hierarchical way and allows you to expand/collapse nodes.
 
 ![TreeView_Web](../../../images/img25531.png)
+
+## Date Filter
+
+The [Date Filter](../dashboard-items/date-filter.md) dashboard item allows you to filter dashboard data based on the selected data range. 
+
+![](../../../images/datefilter-web-autoheight.png)

@@ -6,10 +6,12 @@ author: Anna Gubareva
 
 This document describes how to filter a report's data based on a specific condition.
 
-> [!Warning]
-> Use the approach below if expression bindings **are enabled** in the Report Designer (the [Property Grid](../../report-designer-tools/ui-panels/property-grid.md) provides the **Expressions** ![](../../../../../images/eurd-win-property-grid-expressions-icon.png) tab ).
+> [!NOTE]
+> Use this approach if expressions **are enabled** in the Report Designer (the Label's smart tag includes the **Expression** property).
 >
-> See [Conditionally Filter Report Data](../shape-data-data-bindings/conditionally-filter-report-data.md) if expression bindings **are not enabled** in the Report Designer (the [Property Grid](../../report-designer-tools/ui-panels/property-grid.md) does not provide the **Expressions** ![](../../../../../images/eurd-win-property-grid-expressions-icon.png) tab).
+> ![](../../../../../images/eurd-label-expression-binding-modes.png)
+>
+> See the [Conditionally Filter Report Data](../shape-data-data-bindings/conditionally-filter-report-data.md) topic in the [Shape Data (Data Bindings)](../shape-data-data-bindings.md) section to learn about an alternative approach.
 
 1. Switch to the [Field List](../../report-designer-tools/ui-panels/field-list.md), right-click the **Parameters** section and add a new report parameter.
 	
@@ -19,7 +21,7 @@ This document describes how to filter a report's data based on a specific condit
 	
 	![](../../../../../images/eurd-win-shaping-filter-parameter-settings.png)
 
-3. Select the report's detail band and switch it to the [Property Grid](../../report-designer-tools/ui-panels/property-grid.md). Navigate to its **Expressions** tab and click the **Visible** property's ellipsis button.
+3. Select the report's detail band and switch it to the [Property Grid](../../report-designer-tools/ui-panels/property-grid-tabbed-view.md). Navigate to its **Behavior** tab, click the **Visible** property's marker and select **Visible Expression** in the context menu.
 	
 	![](../../../../../images/eurd-win-shaping-filter-visible-property.png)
 
@@ -27,7 +29,7 @@ This document describes how to filter a report's data based on a specific condit
 	
 	![](../../../../../images/eurd-win-shaping-filter-expression.png)
 	
-	The expression above makes the **Visible** property return **True** or **False** depending on whether the field value is below the specified parameter value.
+	The expression above enables/disables the **Visible** property depending on whether the field value is below the specified parameter value.
 
 Switch to [Print Preview](../../preview-print-and-export-reports.md) to see the result. 
 

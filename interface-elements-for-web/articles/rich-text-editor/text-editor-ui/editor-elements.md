@@ -11,7 +11,7 @@ The **Rich Text Editor** consists of visual elements that provide you with the c
 ## Main Elements
 The main area of the **Rich Text Editor** control is the **Text Editing Surface** that displays a document to be edited. Here, a document looks as it will appear when you print it.
 
-At the top of the **Text Editing Surface**, the **Rich Text Editor** displays a horizontal **ruler**, which you can use to align text, graphics, and other elements in a document. The horizontal **ruler** controls the width of table columns and the horizontal spacing of paragraph margins, columns and tabs.
+At the top of the **Text Editing Surface**, the **Rich Text Editor** displays a horizontal **ruler**, which you can use to align text, graphics, and other elements in a document. The horizontal **ruler** controls the width of table columns and the horizontal spacing of paragraph margins, columns and tabs. You can control the [ruler visibility](../viewing-and-navigating/show-horizontal-ruler.md).
 
 ![EUD_ASPxRichEdit_Rulers](../../../images/img117725.png)
 

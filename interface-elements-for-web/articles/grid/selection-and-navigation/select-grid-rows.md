@@ -1,17 +1,24 @@
 ---
-title: Select Grid Rows
+title: Select Rows
 author: Andrey Trukhatchev
 legacyId: 5566
 ---
-# Select Grid Rows
-If multiple row selection is allowed by the application vendor, you can select multiple rows by doing one of the following.
-* Click a row while holding the CTRL key. This toggles a row's selected state without affecting other rows.
-* If selection check boxes are visible, check rows that need to be selected.
+# Select Rows
+## Using Row Clicks
+
+Click a row while holding down the CTRL key to toggle the row's selected state. 
+
+You can select contiguous rows by clicking the first row and the last row while holding down the SHIFT key. In this case the previous selection is cleared. You can further customize the selection by clicking individual rows while holding down the CTRL key.
 
 ![Selection](../../../images/img7293.png)
 
-&nbsp;
 
-To select all rows between the clicked row and the previously focused row, click a row while holding the SHIFT key. In this case, the previous selection is cleared.
+## Using Check Boxes
+
+Select and clear a check box to select and cancel the selection of the corresponding row. 
 
 ![MultiSelectShift](../../../images/img7294.png)
+
+Select and clear the **Select All** check box to select and cancel the selection of all rows on the page (or all rows in the grid). 
+
+![SelectAll](../../../images/grid-selection-selectall.png)

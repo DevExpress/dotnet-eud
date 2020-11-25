@@ -1,6 +1,6 @@
 ---
 title: Binding Dashboard Items to Data in OLAP mode
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 15771
 ---
 # Binding Dashboard Items to Data in OLAP mode

@@ -11,7 +11,7 @@ This topic explains how to create a new report in the Report Designer.
 
 ## Create a New Blank Report
 
-You can use one of the following commands to create a new report. The created report contains three [bands](introduction-to-banded-reports.md) - **Page Header**, **Detail**, and **Page Footer**. Refer to the [Use Report Elements](use-report-elements.md) section for information on how to add controls to the report.
+You can use one of the following commands to create a new report. The created report contains three [bands](introduction-to-banded-reports.md) - **Top Margin**, **Detail**, and **Bottom Margin**. Refer to the [Use Report Elements](use-report-elements.md) section for information on how to add controls to the report.
 
 ### Use the Ribbon's Home Tab
 

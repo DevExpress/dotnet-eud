@@ -1,6 +1,6 @@
 ---
 title: Cards
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 16585
 ---
 # Cards
@@ -26,7 +26,10 @@ This section consists of the following subsections:
 	Shows how to format values displayed within a card.
 * [Interactivity](cards/interactivity.md)
 	
-	Describes features that enable interaction between the Card dashboard item and other items.
+	Describes features that enable interaction between a Card dashboard item and other items.
 * [Cards Arrangement](cards/cards-arrangement.md)
 	
-	Describes how to arrange cards within the Card dashboard item.
+	Describes how to arrange cards within a Card dashboard item.
+* [Conditional Formatting](cards/conditional-formatting.md)	
+
+	Describes how to format a Card dashboard item’s elements when its values meet a specified condition.	

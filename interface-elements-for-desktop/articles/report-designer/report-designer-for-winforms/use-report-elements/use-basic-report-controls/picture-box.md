@@ -5,36 +5,82 @@ author: Anna Gubareva
 # Picture Box
 
 ## <a name="overview"></a>Overview
-The **Picture Box** control allows you to embed _static_ (stored with the report) or _dynamic_ (obtained from a data source) images into a report.
 
-To add this control to a report, drag the **Picture Box** item from the [Toolbox](../../report-designer-tools/toolbox.md) onto the report's area.
+Use the **Picture Box** control to add images to a report. The images can have one of the following formats: BMP, JPG, JPEG, GIF, TIF, TIFF, PNG, ICO, DIB, RLE, JPE, JFIF, EMF, WMF, SVG.
+
+To add the **Picture Box** control to a report, drag the **Picture Box** item from the [Toolbox](../../report-designer-tools/toolbox.md) onto the report's area.
 
 ![](../../../../../images/eurd-win-add-picture-box-to-report.png)
 
-The Picture Box can display images with the following formats: BMP, JPG, JPEG, GIF, TIF, TIFF, PNG, ICO, DIB, RLE, JPE, JFIF, EMF, WMF.
 
+Specify one of the following properties to set an image:
 
-Use the **Image** or **Image URL** property to specify the image the Picture Box displays. You can access these properties in the control's smart tag.
+- **Image Source**  
+    Save the image to the report definition.
+- **Image Url**  
+    Only save a path to the image.
 
 ![](../../../../../images/eurd-win-picture-box-image-property.png)
 
-The specified image is [saved](../../save-reports.md) with the report if you use the **Image** property. If you use the **Image URL** property, only the path to the image is stored. 
+## Assign an External Image
 
-## Bind to Data
-You can use the Picture Box to display an image [dynamically obtained](../../bind-to-data/bind-controls-to-data-expression-bindings.md) from a data source. Click the control's smart tag, expand the **Image** property's **Expression** drop-down list and select the data field.
+Click the **Image Source** / **Image URL** property's ellipsis button to invoke the **Open File** dialog.
 
-![](../../../../../images/eurd-win-picture-box-bind-to-data.png)
+![](../../../../../images/eurd-win-ImageSource-OpenFileDialog.png)
 
-You can bind the **Image URL** property to data in the same way. 
+The selected image or its URL is saved to the report definition **.repx** file.
 
-Click the **Expression** option's ellipsis button to invoke the **Expression Editor**. This editor allows you to construct a complex binding expression with two or more data fields.
+## Assign an Image from the Report's Image Collection
 
-You can also drag and drop a field that contains image data from the [Field List](../../report-designer-tools/ui-panels/field-list.md) to create a new Picture Box bound to this field.
+Set the report's **Image Resources** property.
 
-![](../../../../../images/eurd-win-picture-box-drop-from-field-list.png)
+![](../../../../../images/eurd-win-ImageResources-Editor.png)
+
+Click the **Picture Box**'s smart tag. In the invoked menu, click the **Expression** option's ellipsis button to open the **Expression Editor**. Choose an image from the **Images** collection:
+
+![ImageSource-OpenFileDialog](../../../../../images/eurd-win-ImageSource-ExpressionEditor-ImagesCollection.png)
+
+
+## Bind a Picture Box to Data
+
+Use one of the following techniques to add the **Picture Box** control that obtains an image from a data source.
+
+- Click the control's smart tag. In the invoked menu, expand the **Expression** drop-down list for the **Image Source** property and select a data field.
+
+    ![](../../../../../images/eurd-win-picturebox-set-field.png)
+
+    You can bind the **Image Url** property to data in a similar way. In this instance, the URL that specifies the image location is obtained from the data source.  
+
+    Click the **Expression** option's ellipsis button to invoke the **Expression Editor**. Use this editor to construct a [binding expression](../../use-expressions.md) that can include two or more data fields.
+
+- Drag an image data field from the report's [Field List](../../report-designer-tools/ui-panels/field-list.md) and drop it onto a report band.
+
+    ![](../../../../../images/eurd-win-picture-box-drop-from-field-list.png)
+
+- Right-click a data field in the [Field List](../../report-designer-tools/ui-panels/field-list.md) and drop it onto a report band. Select the **Picture Box** item in the invoked context menu.
+
+    ![](../../../../../images/eurd-win-picture-box-drop-right-click.png)
+
 
 See the [Bind Report Controls to Data](../../bind-to-data/bind-controls-to-data-expression-bindings.md) topic for more information about how to create data-aware controls.
 
+## SVG Support Limitations
+
+The **Picture Box** control does not support the following SVG content:
+
+- Gradient colors
+- Text (you can convert text to curves as a workaround)
+- Animations
+- External .css styles
+
+Export (except for PDF) has the following limitations:
+
+- SVG images are converted to metafiles because document viewers may not support SVG format.
+    
+- SVG images are exported as PNG in the Microsoft Azure environment.
+
+
+The **Medium Trust** permission level does not support SVG.
 
 ## Image Size Modes
 
@@ -81,3 +127,18 @@ This control supports the following image size modes:
     ![](../../../../../images/eurd-win-picture-box-image-size-mode-tile.png)
 
 You can also use the **Image Alignment** property in the **Normal**, **Squeeze** and **Zoom Image** modes to specify the alignment in relation to the control's boundaries.
+
+## Interactivity
+
+You can add a possibility to load/change an image and/or draw a signature in a picture box when it is displayed in Print Preview. To do this, enable the **Edit Options** | **Enabled** property.
+
+![picture-box-enable-content-editing](../../../../../images/eurd-win-picture-box-enable-content-editing.png)
+
+Click the picture box in a previewed document and an editor invokes.
+
+![picture-box-content-editing](../../../../../images/eurd-win-picture-box-content-editing.png)
+
+> [!Tip]
+> You can draw borders for the picture box to make the editor visible in Print Preview, if an image is not specified.
+
+Refer to the [Content Editing in Print Preview](../../provide-interactivity/edit-content-in-print-preview.md) topic for details and to the [Create-an-Interactive-E-Form](../../create-popular-reports/create-an-interactive-e-form.md) tutorial to see how the E-Form demo report uses this picture box mode.

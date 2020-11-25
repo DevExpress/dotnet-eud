@@ -1,6 +1,6 @@
 ---
 title: Delta
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 16609
 ---
 # Delta
@@ -42,3 +42,16 @@ This invokes the **Choropleth Map Options** dialog. When the map type is set to 
 	You can specify that a required indicator should only be displayed when the difference between the actual and target values exceeds a specified value. For instance, the actual value exceeds the target value by 10%, or by $2K.
 	
 	Use the **Threshold type** combo box to select whether you wish to specify the threshold in percentage values or in absolute values. Then use the **Threshold value** box to specify the threshold value.
+
+The **Format** tab allows you to specify the numeric display formats for for different value types, as described in the [Formatting Data](../../../data-shaping/formatting-data.md) document.
+
+![](../../../../../images/choroplethmap_deltaoptionsdialog_format.png)
+
+The tab contains the following settings.
+
+* **Format type** - Specifies format types for numeric values. 
+* **Unit** - Specifies the unit to convert the numeric values.
+* **Precision** - Specifies the number of fractional digits to display.
+* **Currency** - Specifies the currency symbol and format provided by the current culture settings.
+* **Culture** - Specifies the name of a culture that defines the currency symbol and format.
+* **Include group separator** - Specifies whether separators should be inserted between digit groups.

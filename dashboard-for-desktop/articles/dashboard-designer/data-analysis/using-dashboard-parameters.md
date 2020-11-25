@@ -1,6 +1,6 @@
 ---
 title: Using Dashboard Parameters
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 16521
 ---
 # Using Dashboard Parameters

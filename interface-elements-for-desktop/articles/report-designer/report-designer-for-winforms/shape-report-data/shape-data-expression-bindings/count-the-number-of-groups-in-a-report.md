@@ -6,10 +6,12 @@ author: Anna Gubareva
 
 This document describes how to count the number of groups in a report.
 
-> [!Warning]
-> Use the approach below if expression bindings **are enabled** in the Report Designer (the [Property Grid](../../report-designer-tools/ui-panels/property-grid.md) provides the **Expressions** ![](../../../../../images/eurd-win-property-grid-expressions-icon.png) tab ).
+> [!NOTE]
+> Use this approach if expressions **are enabled** in the Report Designer (the Label's smart tag includes the **Expression** property).
 >
-> See [Count the Number of Groups in a Report](../shape-data-data-bindings/count-the-number-of-groups-in-a-report.md) if expression bindings **are not enabled** in the Report Designer (the [Property Grid](../../report-designer-tools/ui-panels/property-grid.md) does not provide the **Expressions** ![](../../../../../images/eurd-win-property-grid-expressions-icon.png) tab).
+> ![](../../../../../images/eurd-label-expression-binding-modes.png)
+>
+> See the [Count the Number of Groups in a Report](../shape-data-data-bindings/count-the-number-of-groups-in-a-report.md) topic in the [Shape Data (Data Bindings)](../shape-data-data-bindings.md) section to learn about an alternative approach.
 
 1. Switch to the [Group and Sort](../../report-designer-tools/ui-panels/group-and-sort-panel.md) panel and create a new group. Enable the **Show Header** option to display the Group Header in the report.
 	
@@ -20,23 +22,23 @@ This document describes how to count the number of groups in a report.
 	![](../../../../../images/eurd-win-shaping-count-drop-filed-onto-group-header.png)
 
 3. Right-click the report's surface and add a Report Footer to the report.
-	
+
 	![](../../../../../images/eurd-win-shaping-insert-report-footer.png)
 
-4. Drop a label onto the Report Footer and invoke its smart tag. Set its **Summary Running** property to **Report**.
-	
+4. Drop a label onto the Report Footer and click its smart tag. In the invoked **Label Tasks** window, click the **Summary** property's ellipsis button.
+
 	![](../../../../../images/eurd-win-shaping-group-count-summary-running.png)
 
-5. Click the ellipsis button for the label's **Expression** property.
-	
-	![](../../../../../images/eurd-win-shaping-group-count-expression-property.png)
+7. In the Summary Editor window:
 
-6. In the invoked **Summary Expression Editor**, select the **sumDCount** summary function in the **Functions** | **Summary** section.
-	
-	![](../../../../../images/eurd-win-shaping-group-count-expression.png)
+	* Set the **Summary running** property to the **Report** value.
+	* Set the **Summary function** property to **Count (Distinct)**.
+	* Set the **Argument expression** property to the field you group the data by.
 
-7. Use the **Format String** property to format the summary's value.
-	
+![](../../../../../images/eurd-win-shaping-group-count-expression.png)
+
+8. Back in the **Label Tasks** window, you can use the **Format String** property to format the summary's value:
+
 	![](../../../../../images/eurd-win-shaping-group-count-format-string.png)
 
 You can see the group count in the report footer when switching to [Print Preview](../../preview-print-and-export-reports.md).

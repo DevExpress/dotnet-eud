@@ -1,6 +1,6 @@
 ---
 title: Select a Range of Values
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 11953
 ---
 # Select a Range of Values

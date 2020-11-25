@@ -1,6 +1,6 @@
 ---
 title: Predefined Ranges
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 117399
 ---
 # Predefined Ranges

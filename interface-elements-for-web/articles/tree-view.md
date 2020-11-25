@@ -4,7 +4,7 @@ author: Svetlana Nikulina
 legacyId: 9347
 ---
 # Tree View
-**Tree View** is used to represent hierarchical data as a tree.
+The Tree View displays hierarchical data as a tree.
 
 ![TreeView - Add methods](../images/img12409.png)
 

@@ -1,6 +1,6 @@
 ---
 title: Filtering Options
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 11140
 ---
 # Filtering Options

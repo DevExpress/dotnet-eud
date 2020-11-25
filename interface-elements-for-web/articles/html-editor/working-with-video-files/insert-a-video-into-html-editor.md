@@ -1,16 +1,14 @@
 ---
-title: Insert a Video Into HTML Editor
+title: Insert a Video Into
 author: Svetlana Nikulina
 legacyId: 17968
 ---
-# Insert a Video Into HTML Editor
-This topic describes how to insert video into an editor's content.
-
-First, position the mouse pointer on the place in the text where you want to add video and click the **Insert Video** button.
+# Insert a Video Into
+To insert video into an editor's content, position the mouse pointer on the place in the text where you want to add video and click the **Insert Video** button.
 
 ![EUD_InsertVideo_Button](../../../images/img25648.png)
 
-Now, define the required parameters of the video within the invoked **Insert Video** dialog.
+Define the required parameters of the video within the invoked **Insert Video** dialog.
 
 ## Insert an Video Stored on the Local Machine
 * Click the **From your computer** tab in the **Insert Video** dialog.

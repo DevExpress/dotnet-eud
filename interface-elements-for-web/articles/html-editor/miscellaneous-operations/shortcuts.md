@@ -4,7 +4,7 @@ author: Svetlana Nikulina
 legacyId: 114192
 ---
 # Shortcuts
-By default, HTML Editor provides the following shortcuts.
+HTML Editor provides the following shortcuts.
 
 | Shortcut | Description |
 |---|---|

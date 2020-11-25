@@ -1,6 +1,6 @@
 ---
 title: Customizing a Color Scheme
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 17945
 ---
 # Customizing a Color Scheme

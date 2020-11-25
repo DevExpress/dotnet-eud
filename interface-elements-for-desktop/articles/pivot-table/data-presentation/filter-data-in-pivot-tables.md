@@ -1,6 +1,6 @@
 ---
 title: Filter Data in Pivot Tables
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 4650
 ---
 # Filter Data in Pivot Tables
@@ -17,4 +17,4 @@ The following sections and topics are available.
 	Contains topics that describe how to specify which cell values to display and which to hide.
 * [Build Complex Filter Criteria](filter-data/build-complex-filter-criteria.md)
 	
-	Describes the Prefilter feature that allows you to build complex filter criteria.
+	Describes the Filter Editor that allows you to build complex filter criteria.

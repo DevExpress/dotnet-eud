@@ -6,26 +6,27 @@ author: Anna Gubareva
 
 This document describes how to show the current row number for each data source value displayed in a report.
 
-> [!Warning]
-> Use the approach below if expression bindings **are enabled** in the Report Designer (the [Property Grid](../../report-designer-tools/ui-panels/property-grid.md) provides the **Expressions** ![](../../../../../images/eurd-win-property-grid-expressions-icon.png) tab ).
+> [!NOTE]
+> Use this approach if expressions **are enabled** in the Report Designer (the Label's smart tag includes the **Expression** property).
 >
-> See [Display Row Numbers in a Report, Group or Page](../shape-data-data-bindings/display-row-numbers-in-a-report-group-or-page.md) if expression bindings **are not enabled** in the Report Designer (the [Property Grid](../../report-designer-tools/ui-panels/property-grid.md) does not provide the **Expressions** ![](../../../../../images/eurd-win-property-grid-expressions-icon.png) tab).
+> ![](../../../../../images/eurd-label-expression-binding-modes.png)
+>
+> See the [Display Row Numbers in a Report, Group or Page](../shape-data-data-bindings/display-row-numbers-in-a-report-group-or-page.md) topic in the [Shape Data (Data Bindings)](../shape-data-data-bindings.md) section to learn about an alternative approach.
 
 A label can display row numbers after [binding your report to data](../../bind-to-data.md) and specifying a bound data field in the Label's **Expression** property.
 
-1. Click the label's smart tag and invoke its **Summary Running** drop-down list. Select **Report** to increment the row numbers throughout the entire report, or select **Group** or **Page** to reset the row numbers for every group or page.
+1. Click the label's smart tag. In the invoked **Label Tasks** window, click the **Summary** property's ellipsis button.
 	
 	![](../../../../../images/eurd-win-shaping-row-numbers-summary-running.png)
 
-2. Click the ellipsis button for the **Expression** property.
+2. In the Summary Editor window:
+
+	* Set the **Summary running** property. Select **Report** to increment the row numbers throughout the entire report, or select **Group** or **Page** to reset the row numbers for every group or page.
+	* Set the **Summary function** property to **Record Number**.
 	
 	![](../../../../../images/eurd-win-shaping-row-numbers-expression-property.png)
 
-3. In the invoked **Summary Expression Editor**, select the **sumRecordNumber** function in the **Functions** | **Summary** section.
-	
-	![](../../../../../images/eurd-win-shaping-row-numbers-expression.png)
-
-4. Use the **Format String** property to format the resulting value.
+3. Back in the **Label Tasks** window, you can use the **FormatString** property to format the resulting value:
 	
 	![](../../../../../images/eurd-win-shaping-row-numbers-format-string.png)
 

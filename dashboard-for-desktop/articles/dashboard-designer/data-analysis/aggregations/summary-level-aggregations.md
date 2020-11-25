@@ -1,6 +1,6 @@
 ---
 title: Summary Level Aggregations
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 116588
 ---
 # Summary Level Aggregations

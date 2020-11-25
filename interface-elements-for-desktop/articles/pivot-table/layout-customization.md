@@ -1,6 +1,6 @@
 ---
 title: Layout Customization
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 9666
 ---
 # Layout Customization

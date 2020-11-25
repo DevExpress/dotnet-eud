@@ -1,6 +1,6 @@
 ---
 title: Master Filtering
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 16536
 ---
 # Master Filtering
@@ -11,7 +11,7 @@ The **Dashboard** allows you to use any data aware dashboard item as a filter fo
 * [Master Filter Settings](#master-filter-settings)
 * [Apply Filtering](#apply-filtering)
 
-## <a name="master-filtering-overview"/>Master Filtering Overview
+## Master Filtering Overview
 Dashboard items can be divided into four groups by their master filtering capabilities.
 1. **Data visualization dashboard items** allow you to enable master filtering by specifying the selection mode. The following dashboard items allow you to manage their master filtering mode.
 	* [Chart](../designing-dashboard-items/chart.md)
@@ -42,7 +42,7 @@ Dashboard items can be divided into four groups by their master filtering capabi
 	
 	To learn more about the interactivity capabilities of the dashboard item group, see the **Interactivity** paragraph in the [Dashboard Item Group](../designing-dashboard-items/dashboard-item-group.md) topic.
 
-## <a name="master-filter-settings"/>Master Filter Settings
+## Master Filter Settings
 ### Master Filtering Modes
 
 The Master Filter item supports two selection modes.

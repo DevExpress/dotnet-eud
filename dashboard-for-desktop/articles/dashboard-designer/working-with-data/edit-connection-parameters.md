@@ -1,6 +1,6 @@
 ---
 title: Edit Connection Parameters
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 114167
 ---
 # Edit Connection Parameters

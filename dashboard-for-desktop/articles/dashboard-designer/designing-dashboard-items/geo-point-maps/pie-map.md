@@ -1,6 +1,6 @@
 ---
 title: Pie Map
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 16779
 ---
 # Pie Map

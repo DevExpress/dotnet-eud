@@ -10,12 +10,12 @@ You can clone an existing report control by selecting it using the mouse, holdin
 
 You can also copy report controls to the clipboard using CTRL + C or the **Copy** command, and then paste these controls to a new container or band. 
 
-* The original control positions are preserved when inserting controls by pressing CTRL + V or using the **Paste** toolbar command. 
+* The original control positions are preserved when you use the CTRL + V hotkey or the **Paste** toolbar command to insert controls.
 
     ![](../../../../../images/eurd-win-copy-report-controls-with-ctrl-v.png)
 
     The pasted controls are repositioned by an offset of 10 units on both axes if another control already occupies the target position.
 
-* When inserting controls using the **Paste** context menu command, controls are inserted at the mouse position where you invoked the context menu.
+* When you use the **Paste** context menu item, controls are inserted at the position where you invoked the context menu.
 
     ![](../../../../../images/eurd-win-copy-report-controls-with-paste-command.png)

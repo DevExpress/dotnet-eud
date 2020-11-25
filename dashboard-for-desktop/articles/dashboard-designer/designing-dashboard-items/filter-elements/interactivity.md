@@ -1,6 +1,6 @@
 ---
 title: Interactivity
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 17941
 ---
 # Interactivity
@@ -23,8 +23,10 @@ You can also create a set of related filter elements containing relevant filter 
 Disable the **Ignore Master Filters** option for the required filter element to allow applying filtering to this element.
 
 ## Filter Element Options
-Filter elements provide the capability to specify whether to enable the _(All)_ option that allows you to apply filtering by all values. To do this, use the **Show 'All' Value** button in the **Design** ribbon tab.
+_Standard_ Combo Box and _Radio_ List Box filter elements have the _(Allow Empty Filter)_ option that enables the filter mode without selected items. To enable the mode, click the **Allow Empty Filter** button in the **Design** ribbon tab.
 
 ![ShowAllValue_Ribbon](../../../../images/img26111.png)
 
-Note that this capability is supported by the 'Standard' Combo Box and 'Radio' List Box filter elements.
+The **Enable Search** button displays the search box that allows you to search and filter as you type: 
+
+![Enable_Search](../../../../images/img256001.png)

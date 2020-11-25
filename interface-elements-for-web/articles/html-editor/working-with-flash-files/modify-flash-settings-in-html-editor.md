@@ -1,9 +1,9 @@
 ---
-title: Modify Flash Settings in HTML Editor
+title: Modify Flash Settings
 author: Svetlana Nikulina
 legacyId: 17964
 ---
-# Modify Flash Settings in HTML Editor
+# Modify Flash Settings
 To modify flash element settings within editor content, do one of the following.
 * Double-click the flash element.
 * Right-click the flash element and select **Change Flash...** within the invoked context menu.

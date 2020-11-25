@@ -1,6 +1,6 @@
 ---
 title: Automatic and Manual Updates
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 115245
 ---
 # Automatic and Manual Updates

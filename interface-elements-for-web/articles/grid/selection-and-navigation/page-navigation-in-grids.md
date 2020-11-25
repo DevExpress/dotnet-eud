@@ -1,10 +1,10 @@
 ---
-title: Page Navigation in Grids
+title: Page Navigation
 author: Alexey Kazakov
 legacyId: 4130
 ---
-# Page Navigation in Grids
-To switch between pages, use the grid's Pager:
+# Page Navigation
+Use the grid's pager to switch between pages.
 
 ![Navigation](../../../images/img7295.png)
 
@@ -12,7 +12,7 @@ When data is grouped, rows that belong to one group may be displayed on differen
 
 ![eud_Navigation_DataGrouping](../../../images/img9164.png)
 
-&nbsp;
 
-To change the number of data items (rows) displayed within a grid, click a page size selector and select the needed number of rows per page.
+To change the number of data items (rows) displayed within a grid, click the **Page Size** menu and select the needed number of rows per page.
+
 ![ASPxGridView_page_size.png](../../../images/img17834.png)

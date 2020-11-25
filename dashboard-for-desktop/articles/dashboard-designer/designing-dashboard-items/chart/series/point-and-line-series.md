@@ -1,6 +1,6 @@
 ---
 title: Point and Line Series
-author: Andrey Aksenov
+author: Natalia Kazakova
 legacyId: 16544
 ---
 # Point and Line Series
