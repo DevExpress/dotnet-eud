@@ -10,7 +10,21 @@ This bar code is capable of encoding package tracking information required for m
 
 ![](../../../../../images/eurd-win-bar-code-intelligent-mail-package.png)
 
-The following property is specific to the **Intelligent Mail Package** type and available in the [Property Grid](../../report-designer-tools/ui-panels/property-grid-tabbed-view.md) under the **Symbology** property:
+## Add the Bar Code to a Report
+
+1. Drag the **Bar Code** item from the report controls toolbox tab and drop it onto the report. 
+
+    ![](../../../../../images/drag-and-drop-barcode.png)
+
+2. Set the control’s **Symbology** property to **Code93Extended**. 
+
+    ![](../../../../../images/intelligent-mail-package-in-designer.png)
+
+3. Specify [common](add-bar-codes-to-a-report.md) barcode properties and properties [specific](#specific-properties) to **Code 93 Extended**.
+
+## Specific Properties
+
+In the [property grid](../../report-designer-tools/ui-panels/property-grid-tabbed-view.md), expand the **Symbology** list and specify the following property specific to **Code 93 Extended**:
 
 * **FNC1 Functional Character**
 	
