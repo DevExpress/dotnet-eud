@@ -8,7 +8,21 @@ Using **Code 39**'s "Full ASCII Mode", it is possible to encode all **128** ASCI
 
 ![](../../../../../images/eurd-win-bar-code-code-39-extended.png)
 
-The following properties are specific to the **Code 39 Extended** type and listed in the [Property Grid](../../report-designer-tools/ui-panels/property-grid-tabbed-view.md) under the **Symbology** property:
+## Add the Bar Code to a Report
+
+1. Drag the **Bar Code** item from the report controls toolbox tab and drop it onto the report. 
+
+    ![](../../../../../images/drag-and-drop-barcode.png)
+
+2. Set the control’s **Symbology** property to **Code39Extended**. 
+
+    ![](../../../../../images/code-39-extended-in-designer.png)
+
+3. Specify [common](add-bar-codes-to-a-report.md) barcode properties and properties [specific](#specific-properties) to **Code 39 Extended**.
+
+## Specific Properties
+
+In the [property grid](../../report-designer-tools/ui-panels/property-grid-tabbed-view.md), expand the **Symbology** list and specify the following properties specific for **Code 39 Extended**:
 
 * **Calculate a Checksum**
 
@@ -18,7 +32,7 @@ The following properties are specific to the **Code 39 Extended** type and liste
 
     Specifies the density of a bar code's bars.
 
-The **Code 39 Extended** bar code, as opposed to [Code 39](code-39-usd-3.md), automatically replaces all necessary characters with special symbols, when required. This means that you do not need to do this manually, otherwise, the result will be incorrect.
+The **Code 39 Extended** barcode, as opposed to [Code 39](code-39-usd-3.md), automatically replaces all necessary characters with special symbols, when required. This means that you do not need to do this manually, otherwise, the result will be incorrect.
 
 For example, if you want to insert a "TAB" character into a bar code's text, use "\t", which will be replaced by "$I" for coding, and then into "TAB" after scanning:
 
