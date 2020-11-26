@@ -22,7 +22,7 @@ Using **Code 93**'s "Full ASCII Mode", it is possible to encode all **128** ASCI
 
 ## Specific Properties
 
-In the [property grid](../../report-designer-tools/ui-panels/property-grid-tabbed-view.md), expand the **Symbology** list and specify the following properties specific to **Code 93 Extended**:
+In the [property grid](../../report-designer-tools/ui-panels/property-grid-tabbed-view.md), expand the **Symbology** list and specify the following property specific to **Code 93 Extended**:
 
 * **Calculate a Checksum**
 
