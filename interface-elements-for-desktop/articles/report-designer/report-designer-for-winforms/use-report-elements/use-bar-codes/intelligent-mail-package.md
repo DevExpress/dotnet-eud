@@ -16,15 +16,15 @@ This bar code is capable of encoding package tracking information required for m
 
     ![](../../../../../images/drag-and-drop-barcode.png)
 
-2. Set the control’s **Symbology** property to **Code93Extended**. 
+2. Set the control’s **Symbology** property to **IntelligentMailPackage**. 
 
     ![](../../../../../images/intelligent-mail-package-in-designer.png)
 
-3. Specify [common](add-bar-codes-to-a-report.md) barcode properties and properties [specific](#specific-properties) to **Code 93 Extended**.
+3. Specify [common](add-bar-codes-to-a-report.md) barcode properties and properties [specific](#specific-properties) to **Intelligent Mail Package**.
 
 ## Specific Properties
 
-In the [property grid](../../report-designer-tools/ui-panels/property-grid-tabbed-view.md), expand the **Symbology** list and specify the following property specific to **Code 93 Extended**:
+In the [property grid](../../report-designer-tools/ui-panels/property-grid-tabbed-view.md), expand the **Symbology** list and specify the following property specific to **Intelligent Mail Package**:
 
 * **FNC1 Functional Character**
 	
