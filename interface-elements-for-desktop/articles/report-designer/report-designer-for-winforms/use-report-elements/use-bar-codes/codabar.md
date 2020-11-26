@@ -22,7 +22,7 @@ The **Codabar** is a discrete, self-checking symbology that may encode **16** di
 
 ## Specific Properties
 
-In the [property grid](../../report-designer-tools/ui-panels/property-grid-tabbed-view.md), expand the **Symbology** list and specify the following **Codebar**'s properties:
+In the [property grid](../../report-designer-tools/ui-panels/property-grid-tabbed-view.md), expand the **Symbology** list and specify the following properties specific for **Codabar**:
 
 * **StartSymbol**
 
