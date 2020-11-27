@@ -8,7 +8,21 @@ author: Anna Vekhina
 
 ![](../../../../images/eurd-web-bar-code-code-39.png)
 
-The following properties are specific to the **Code 39** type and listed in the [Properties](../../report-designer-tools/ui-panels/properties-panel.md) panel under the **Symbology** property:
+## Add the Bar Code to a Report
+
+1. Drag the **Bar Code** item from the report controls toolbox tab and drop it onto the report. 
+
+    ![](../../../../images/eurd-web-add-bar-code-to-report.png)
+
+2. Set the control’s **Symbology** property to **Code39**. 
+
+    ![](../../../../images/code-39-in-designer.png)
+
+3. Specify [common](add-bar-codes-to-a-report.md) barcode properties and properties [specific](#specific-properties) to **Code 39**.
+
+## Specific Properties
+
+In the [property grid](../../report-designer-tools/ui-panels/properties-panel.md), expand the **Symbology** list and specify the following properties specific to **Code 39**:
 
 * **Calculate a Checksum**
 
