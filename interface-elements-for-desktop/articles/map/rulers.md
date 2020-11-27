@@ -36,7 +36,7 @@ After you add a ruler to a map, you can perform the following actions:
 
     ![ Move a ruler point](../../images/map-ruler-move-point.gif)
 
-* **Delete a ruler point**. Double-click the ruler point. You can delete a point when the ruler contains more than two points. You can remove only the entire ruler if it contains two points.
+* **Delete a ruler point**. Double-click the ruler point. You can delete a point when the ruler contains more than two points. You can remove the entire ruler if it contains only two points.
  
     ![ Delete a ruler point](../../images/map-ruler-remove-point.gif)
 
