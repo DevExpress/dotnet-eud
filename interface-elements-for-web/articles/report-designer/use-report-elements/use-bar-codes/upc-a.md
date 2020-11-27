@@ -14,3 +14,15 @@ The **UPC-A** bar code contains **12** digits, no letters or other characters. T
 The recommended dimensions are shown in the picture. The standard allows magnification up to **200**%, and reduction of up to **80**% of the recommended size.
 
 There should be two quiet zones before and after the bar code. They provide reliable operation of the bar code scanner. The quiet zone recommended length is **2.97** mm for the bar code of standard width and height.
+
+## Add the Bar Code to a Report
+
+1. Drag the **Bar Code** item from the report controls toolbox tab and drop it onto the report. 
+
+    ![](../../../../images/eurd-web-add-bar-code-to-report.png)
+
+2. Set the control’s **Symbology** property to **UPCA**. 
+
+    ![](../../../../images/upca-in-designer.png)
+
+3. Specify [common](add-bar-codes-to-a-report.md) barcode properties.
