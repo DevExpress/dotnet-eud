@@ -28,7 +28,7 @@ Click ![Area ruler button](../../images/map-ruler-area-icon.png) button to creat
 
 After you add a ruler to a map, you can perform the following actions:
 
-* **Add a ruler point**.  Click the position on the ruler where you wish to add a point.
+* **Add a ruler point**.  Click the position on the ruler where you want to add a point.
 
     ![ Add a ruler point](../../images/map-ruler-add-point.gif) 
 
