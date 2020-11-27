@@ -81,7 +81,6 @@ Use a cell's **Row Auto Height Mode** property to specify whether and how a cell
 
 Column widths are changed before row heights.
 
-
 ## Adjust Header Text
 
 You can double-click any cell that displays the header and use the in-place editor to enter text.
