@@ -1,17 +1,14 @@
 ---
-title: Codabar
+title: Pharmacode
 author: Eugene Polevikov
 ---
 # Pharmacode
 
 **Pharmacode** is a binary code developed by the German LAETUS GMBH company. The code is widely used in the pharmaceutical industry as a packaging control system. It can be either one-track or two-track.
 
-{|
-|-
-! One-Track Pharmacode !! Two-Track Pharmacode
-|-
-| ![pharmacode-one-track](../../../../../images/pharmacode-one-track.png) || ![pharmacode-two-track](../../../../../images/pharmacode-two-track.png)
-|}
+| One-Track Pharmacode | Two-Track Pharmacode |
+| :---: | :---: |
+| ![pharmacode-one-track](../../../../../images/pharmacode-one-track.png) | ![pharmacode-two-track](../../../../../images/pharmacode-two-track.png) |
 
 ## Add the Bar Code to a Report
 
@@ -27,7 +24,7 @@ author: Eugene Polevikov
 
 ## Specific Properties
 
-In the [property grid](../../report-designer-tools/ui-panels/property-grid-tabbed-view.md), expand the **Symbology** list and specify the following properties specific to **Pharmacode**:
+In the [property grid](../../report-designer-tools/ui-panels/property-grid-tabbed-view.md), expand the **Symbology** list and specify the following property specific to **Pharmacode**:
 
 * **Pharmacode Type**
 
