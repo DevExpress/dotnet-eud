@@ -161,6 +161,8 @@
     href: articles/map/mini-map.md
   - name: Map Editor
     href: articles/map/map-editor.md
+  - name: Rulers
+    href: articles/map/rulers.md
 - name: Navigation Bars
   href: articles/navigation-bars.md
   items:
