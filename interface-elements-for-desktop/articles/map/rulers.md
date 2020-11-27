@@ -12,7 +12,7 @@ You can use rulers to measure distances and areas on a map.
 
 ## Measure Distances
 
-Click  the ![Distance ruler button](../../images/map-ruler-distance-icon.png) button to create a distance ruler. This ruler calculates the distance between two or more points on a map. The total distance is shown in a map callout. Note that measurements ignore changes in elevation.
+Click  the ![Distance ruler button](../../images/map-ruler-distance-icon.png) button to create a ruler. This ruler calculates the distance between two or more points on a map. The total distance is shown in a map callout. Note that measurements ignore changes in elevation.
 
 ![Create distance ruler](../../images/map-distance-ruler.gif) 
 
