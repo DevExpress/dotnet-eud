@@ -12,7 +12,21 @@ The thick black border around the symbol (the **Bearer Bar**) is intended to imp
 
 ![](../../../../../images/eurd-win-bar-code-itf-14.png)
 
-The following properties are specific to the **ITF-14** type and listed in the [Property Grid](../../report-designer-tools/ui-panels/property-grid-tabbed-view.md) under the **Symbology** property:
+## Add the Bar Code to a Report
+
+1. Drag the **Bar Code** item from the report controls toolbox tab and drop it onto the report. 
+
+    ![](../../../../../images/drag-and-drop-barcode.png)
+
+2. Set the control’s **Symbology** property to **ITF14**. 
+
+    ![](../../../../../images/itf14-in-designer.png)
+
+3. Specify [common](add-bar-codes-to-a-report.md) barcode properties and properties [specific](#specific-properties) to **ITF-14**.
+
+## Specific Properties
+
+In the [property grid](../../report-designer-tools/ui-panels/property-grid-tabbed-view.md), expand the **Symbology** list and specify the following properties specific to **ITF-14**:
 
 * **Calculate a Checksum**
 

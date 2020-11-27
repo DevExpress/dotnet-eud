@@ -10,4 +10,14 @@ The **2**-digit supplement represents the issue number of the magazine. This is 
 
 ![](../../../../../images/eurd-win-bar-code-upc-supplemental-2.png)
 
-The are no properties specific to the **UPC Supplemental 2** bar code type.
+## Add the Bar Code to a Report
+
+1. Drag the **Bar Code** item from the report controls toolbox tab and drop it onto the report. 
+
+    ![](../../../../../images/drag-and-drop-barcode.png)
+
+2. Set the control’s **Symbology** property to **UPCSupplemental2**. 
+
+    ![](../../../../../images/upc-supplemental-2-in-designer.png)
+
+3. Specify [common](add-bar-codes-to-a-report.md) barcode properties.
