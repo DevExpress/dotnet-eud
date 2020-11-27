@@ -38,8 +38,8 @@ This invokes the [Query Builder](../../query-builder.md) designed to federated d
 
 You can use the **Join**, **Union**, **Union All**, and **Transform** query types to combine data. Refer to the following articles for more information on these query types.
 
-* Bind a Report to a Join-Based Federated Data Source
-* Bind a Report to a Union-Based Federated Data Source
+* [Bind a Report to a Join-Based Federated Data Source](../../../bind-to-data/bind-a-report-to-a-join-based-federated-data-source.md)
+* [Bind a Report to a Union-Based Federated Data Source](../../../bind-to-data/bind-a-report-to-a-union-based-federated-data-source.md)
 * Bind a Report to a Transformation-Based Data Source
 
 ## Specify Master-Detail Relationships
@@ -56,4 +56,4 @@ Once the wizard is complete, you can see the master-detail hierarchy in the Fiel
 
 ![](../../../../../../images/data-federation-master-detail-hierarchy-field-list.png)
 
-For more information, refer to the following guide: Bind a Report to a Federated Master-Detail Data Source.
+For more information, refer to the following guide: [Bind a Report to a Federated Master-Detail Data Source](../../../bind-to-data/bind-a-report-to-a-federated-master-detail-data-source.md).
