@@ -8,7 +8,21 @@ A **QR Code** (**QR** is the abbreviation for **Quick Response**) is a two-dimen
 
 ![](../../../../../images/eurd-win-bar-code-qr-code.png)
 
-The following properties are specific to the **QR** type and available in the [Property Grid](../../report-designer-tools/ui-panels/property-grid-tabbed-view.md) under the **Symbology** property:
+## Add the Bar Code to a Report
+
+1. Drag the **Bar Code** item from the report controls toolbox tab and drop it onto the report. 
+
+    ![](../../../../../images/drag-and-drop-barcode.png)
+
+2. Set the control’s **Symbology** property to **QRCode**. 
+
+    ![](../../../../../images/qrcode-in-designer.png)
+
+3. Specify [common](add-bar-codes-to-a-report.md) barcode properties and properties [specific](#specific-properties) to **QR Code**.
+
+## Specific Properties
+
+In the [property grid](../../report-designer-tools/ui-panels/property-grid-tabbed-view.md), expand the **Symbology** list and specify the following properties specific to **QR Code**:
 
 * **Auto Module**
     Gets or sets whether the Module property value should be calculated automatically based upon the barcode's size.
