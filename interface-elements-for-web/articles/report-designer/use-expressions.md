@@ -20,6 +20,8 @@ _"[OrderDate] > #8/16/1994# AND [Quantity] > 20"_
 
 You can use [operators, functions, and constants](use-expressions\expression-syntax.md) in your expressions.
 
+See the [Data Binding Modes](use-expressions/data-binding-modes.md) topic for details on the available binding modes.
+
 ## Expression Editor
 
 The Report Designer's [Expression Editor](report-designer-tools/expression-editor.md) that provides functions, operators, data source fields, report elements, constants, and variables to construct expressions.

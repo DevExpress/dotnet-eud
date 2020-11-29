@@ -22,7 +22,6 @@ The following tutorials illustrate how to bind a report to various data sources:
 
 The following topics describe how to bind report controls to data:
 
-* [Data Binding Modes](bind-to-data/data-binding-modes.md)
 * [Bind Report Controls to Data (Expression Bindings)](bind-to-data/bind-controls-to-data-expression-bindings.md)
 * [Bind Report Controls to Data (Data Bindings)](bind-to-data/bind-controls-to-data-data-bindings.md)
 * [Use Embedded Fields (Mail Merge)](bind-to-data/use-embedded-fields-mail-merge.md)
