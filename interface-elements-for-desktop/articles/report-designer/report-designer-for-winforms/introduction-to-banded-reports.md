@@ -24,7 +24,7 @@ You can also add the following bands:
 
     The **Report Header** is the report's first band (margins are "out-of-page" zones). Use this band to display the report's name, company logo, [date of creation, username](add-extra-information.md), etc.
 
-    The **Report Footer** is placed before the Page Footer and Bottom Margin on the report's last page. You can use the Report Footer band for report [summaries](shape-report-data\shape-data-expression-bindings\calculate-a-summary.md) or conclusions.
+    The **Report Footer** is placed before the Page Footer and Bottom Margin on the report's last page. You can use the Report Footer band for report [summaries](shape-report-data\calculate-summaries\calculate-a-summary.md) or conclusions.
     
 - **Page Header** and **Page Footer**
 
@@ -73,7 +73,7 @@ The following vertical bands are available:
 - **Vertical Details**   
     This band is printed for every record in a data source unless you filtered the data. The records are displayed one after another in a horizontal direction.
 - **Vertical Total**   
-    This band is placed at the rightmost position (leftmost when RTL is enabled). You can use the Vertical Total band for report [summaries](shape-report-data\shape-data-expression-bindings\calculate-a-summary.md) or conclusions.
+    This band is placed at the rightmost position (leftmost when RTL is enabled). You can use the Vertical Total band for report [summaries](shape-report-data\calculate-summaries\calculate-a-summary.md) or conclusions.
 
 You can use the [Report Wizard](report-designer-tools\report-wizard.md) to create a report with vertical bands. Refer to the [Create a Vertical Report](create-popular-reports\create-a-vertical-report.md) topic for instructions on how to create a report with vertical bands.
 

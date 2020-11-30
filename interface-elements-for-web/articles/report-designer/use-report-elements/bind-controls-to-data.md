@@ -1,13 +1,8 @@
 ---
-title: Bind Report Controls to Data (Data Bindings)
+title: Bind Report Controls to Data
 author: Anna Vekhina
 ---
-# Bind Report Controls to Data (Data Bindings)
-
-> [!Warning]
-> Use the approach below if expression bindings **are not enabled** in the Report Designer (the [Expressions](../report-designer-tools/ui-panels/expressions-panel.md) ![](../../../images/eurd-web-expressions-panel-icon.png) panel is not available in the Designer).
->
-> See [Bind Report Controls to Data (Expression Bindings)](bind-controls-to-data-expression-bindings.md) if expression bindings **are enabled** in the Report Designer (the [Expressions](../report-designer-tools/ui-panels/expressions-panel.md) ![](../../../images/eurd-web-expressions-panel-icon.png) panel is available in the Designer).
+# Bind Report Controls to Data
 
 You can use the following approaches to include a data source's information in your report:
 
@@ -26,7 +21,6 @@ Drop a data field onto an existing control to bind this control to the correspon
 
 ![](../../../images/eurd-web-field-list-drop-field-to-control.png)
 
-
 You can also drop an entire data table onto a report to create a [Table](../use-report-elements/use-tables.md) control with its cells bound to the corresponding data table fields. 
 
 ![](../../../images/eurd-web-field-list-drop-table.png)
@@ -35,10 +29,10 @@ To select multiple fields in the Field List, hold CTRL or SHIFT and click the fi
 
 ![](../../../images/eurd-web-list-drop-multiple-fields.png)
 
-
 ## Use the Properties Panel
 
-You can use the [Properties](../report-designer-tools/ui-panels/properties-panel.md) panel to bind a report control to a data field. Select the control, expand the **Data Bindings** drop-down list in the **Actions** category and choose a data field.
+Select a report control and switch to the [Properties](../report-designer-tools/ui-panels/properties-panel.md) panel. Click the **Text** property's marker and select **Text Expression** from the popup menu. Select a data field or construct a binding [expression](../use-expressions/expression-syntax.md) in the invoked [Expression Editor](../report-designer-tools/expression-editor.md).
 
-![](../../../images/eurd-web-properties-panel-data-binding.png)
+![](../../../images/eurd-web-expression-editor.png)
 
+You can use the same approach to specify expressions for all the control properties. See [Shape Report Data](../shape-report-data.md) for more tutorials.

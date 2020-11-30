@@ -37,7 +37,7 @@ The following are some additional bar code options:
 
 ## Bind to Data
 
-You can [bind](../../bind-to-data/bind-controls-to-data-expression-bindings.md) the bar code's **Text** property to a data field obtained from a report's data source. Click the control's smart tag, expand the **Expression** drop-down list and select the data field.
+You can [bind](../bind-controls-to-data.md) the bar code's **Text** property to a data field obtained from a report's data source. Click the control's smart tag, expand the **Expression** drop-down list and select the data field.
 
 ![](../../../../../images/eurd-win-bar-code-bind-to-data.png)
 

@@ -33,12 +33,12 @@ Use report parameters in the following cases:
     You can create a report parameter and use it in expressions. For instance, you can do the following:
 
     * Specify a [calculated field](use-calculated-fields/calculated-fields-overview.md)'s value.
-    * [Bind](../bind-to-data/bind-controls-to-data-expression-bindings.md) a control to data. 
-    * Conditionally change [a band's visibility](shape-data-expression-bindings/conditionally-change-a-bands-vibility-expression-binding.md) or [a control's appearance](shape-data-expression-bindings/conditionally-change-a-control-appearance.md).
+    * [Bind](../use-report-elements/bind-controls-to-data.md) a control to data. 
+    * Conditionally change [a band's visibility](specify-conditions-for-report-elements/conditionally-change-a-bands-vibility-expression-bindings.md) or [a control's appearance](specify-conditions-for-report-elements/conditionally-change-a-control-appearance.md).
  
     ![Parameters in Expression Editor](../../../images/eurd-web-parameters-expression-editor.png)
 
-* **In [Mail Merge](../bind-to-data/use-embedded-fields-mail-merge.md)**
+* **In [Mail Merge](../use-report-elements/use-embedded-fields-mail-merge.md)**
 
     You can use a report parameter in a control's text.
 

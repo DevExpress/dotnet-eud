@@ -4,7 +4,7 @@ owner: Mary Sammal
 ---
 # Use Expressions
 
-Use expressions to [retrieve and format data](bind-to-data\bind-controls-to-data-expression-bindings.md), [create calculated fields](shape-report-data\use-calculated-fields.md) and [calculate summaries](shape-report-data\shape-data-expression-bindings\calculate-a-summary.md), [conditionally shape data and change a report control's appearance](shape-report-data\shape-data-expression-bindings.md).
+Use expressions to [retrieve and format data](use-report-elements\bind-controls-to-data.md), [create calculated fields](shape-report-data\use-calculated-fields.md) and [calculate summaries](shape-report-data\calculate-summaries\calculate-a-summary.md), [conditionally shape data and change a report control's appearance](shape-report-data\specify-conditions-for-report-elements.md).
 
 ## Expression Syntax
 

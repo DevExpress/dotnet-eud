@@ -24,7 +24,7 @@ You can also override appearance settings of each Cross Tab cell. These settings
 
 ## Customize Appearance Conditionally
 
-Specify [expression bindings](../../bind-to-data/bind-controls-to-data-expression-bindings.md) to change a cell's appearance based on a specific condition. You can use the **GroupRowIndex** and **GroupColumnIndex** arguments to identify group indexes (for instance, to define the background color for odd and even rows).
+Specify [expression bindings](../bind-controls-to-data.md) to change a cell's appearance based on a specific condition. You can use the **GroupRowIndex** and **GroupColumnIndex** arguments to identify group indexes (for instance, to define the background color for odd and even rows).
 
 ![](../../../../../images/eurd-win-cross-tab-cell-back-color-expression.png)
 

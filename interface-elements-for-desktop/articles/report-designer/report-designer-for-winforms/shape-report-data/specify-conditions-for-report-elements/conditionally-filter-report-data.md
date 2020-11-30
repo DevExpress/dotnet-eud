@@ -6,13 +6,6 @@ author: Anna Gubareva
 
 This document describes how to filter a report's data based on a specific condition.
 
-> [!NOTE]
-> Use this approach if expressions **are enabled** in the Report Designer (the Label's smart tag includes the **Expression** property).
->
-> ![](../../../../../images/eurd-label-expression-binding-modes.png)
->
-> See the [Conditionally Filter Report Data](../shape-data-data-bindings/conditionally-filter-report-data.md) topic in the [Shape Data (Data Bindings)](../shape-data-data-bindings.md) section to learn about an alternative approach.
-
 1. Switch to the [Field List](../../report-designer-tools/ui-panels/field-list.md), right-click the **Parameters** section and add a new report parameter.
 	
 	![](../../../../../images/eurd-win-shaping-filter-add-parameter.png)

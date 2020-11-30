@@ -29,7 +29,7 @@ Press CTRL+Enter to submit changes and exit the in-place editor.
 
 ## Bind to Data
 
-You can [bind](../../bind-to-data/bind-controls-to-data-expression-bindings.md) the control's **RTF** property to a data field obtained from a report's data source. Click the control's smart tag, expand the **Rtf Expression**'s drop-down list and select the data field.
+You can [bind](../../use-report-elements/bind-controls-to-data.md) the control's **RTF** property to a data field obtained from a report's data source. Click the control's smart tag, expand the **Rtf Expression**'s drop-down list and select the data field.
  
 ![](../../../../../images/eurd-win-rich-text-bind-to-data.png)
 
@@ -45,7 +45,7 @@ The Rich Text also enables you to merge data fields and static content in its te
 
 ![](../../../../../images/eurd-win-rich-text-mail-merge.png)
 
-See the [Bind Controls to Data](../../bind-to-data/bind-controls-to-data-expression-bindings.md) and [Use Embedded Fields](../../bind-to-data/use-embedded-fields-mail-merge.md) topics for more information.
+See the [Bind Controls to Data](../bind-controls-to-data.md) and [Use Embedded Fields](../use-embedded-fields-mail-merge.md) topics for more information.
 
 ## Markup Text
 

@@ -22,7 +22,7 @@ The specified image is [saved](../../save-reports.md) with the report if you use
 
 ## Bind to Data
 
-You can use the Picture Box to display an image [dynamically obtained](../../bind-to-data/bind-controls-to-data-expression-bindings.md) from a data source. Click the **Image Source** property's marker and select **Image Source Expression** from the popup menu. Then select the data field in the invoked [Expression Editor](../../report-designer-tools/expression-editor.md). You can use this editor to construct a binding expression that can include two or more data fields.
+You can use the Picture Box to display an image [dynamically obtained](../bind-controls-to-data.md) from a data source. Click the **Image Source** property's marker and select **Image Source Expression** from the popup menu. Then select the data field in the invoked [Expression Editor](../../report-designer-tools/expression-editor.md). You can use this editor to construct a binding expression that can include two or more data fields.
 
 ![](../../../../images/eurd-web-picture-box-bind-to-data.png)
 
@@ -32,7 +32,7 @@ You can also drag and drop a field that contains image data from the [Field List
 
 ![](../../../../images/eurd-web-picture-box-drop-from-field-list.png)
 
-See the [Bind Report Controls to Data](../../bind-to-data/bind-controls-to-data-expression-bindings.md) topic for more information about how to create data-aware controls.
+See the [Bind Report Controls to Data](../bind-controls-to-data.md) topic for more information about how to create data-aware controls.
 
 ## SVG Support Limitations
 The Picture Box does not support the following SVG content:

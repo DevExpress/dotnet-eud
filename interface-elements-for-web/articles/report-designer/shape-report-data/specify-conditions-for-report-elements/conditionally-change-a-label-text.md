@@ -6,11 +6,6 @@ author: Anna Vekhina
 
 This document describes how to display different values in a report control based on a specified logical condition.
 
-> [!Warning]
-> Use the approach below if expression bindings **are enabled** in the Report Designer (the Designer provides the [Expressions](../../report-designer-tools/ui-panels/expressions-panel.md) panel).
->
-> See [Conditionally Change a Label's Text](../shape-data-data-bindings/conditionally-change-a-label-text.md) if expression bindings **are not enabled** in the Report Designer (the Designer does not provide the [Expressions](../../report-designer-tools/ui-panels/expressions-panel.md) panel).
-
 After you [bound your report to data](../../bind-to-data.md) and specified a bound data field in a report control's **Expression** property, you can make this control display different values based on a specified logical condition:
 
 1. Expand the **Actions** category and click the **Expression** property's ellipsis button.

@@ -31,7 +31,7 @@ This tutorial illustrates how to display hierarchical data in a master-detail re
     > [!NOTE]
     > You should drag-and-drop fields from the category corresponding to the master-detail relationship to correctly generate the detail report's data. Otherwise, the report will display only the first record of the detail table as many times as there are records in this table.
 
-6. If required, customize the report's [appearance](../customize-appearance.md) and [format values](../shape-report-data/shape-data-expression-bindings/format-data.md).
+6. If required, customize the report's [appearance](../customize-appearance.md) and [format values](../shape-report-data/format-data.md).
 
 Switch to [Print Preview](../preview-print-and-export-reports.md) to see the resulting report.
 

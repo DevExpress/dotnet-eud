@@ -9,7 +9,7 @@ This tutorial explains how to sort groups by a summary function result, in parti
 1. Create a new or open an existing data-bound report.
 	
 	You cannot apply grouping unless your report is bound to a data source.
-2. [Group the report](group-data.md) by the required data field, [calculate the record count](../shape-data-expression-bindings/calculate-a-summary.md) in each group and construct the required report layout.
+2. [Group the report](group-data.md) by the required data field, [calculate the record count](../calculate-summaries/calculate-a-summary.md) in each group and construct the required report layout.
 
     ![](../../../../images/eurd-web-group-by-summary-layout.png)
 

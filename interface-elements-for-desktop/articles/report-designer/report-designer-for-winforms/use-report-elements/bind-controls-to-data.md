@@ -1,15 +1,8 @@
 ---
-title: Bind Report Controls to Data (Data Bindings)
+title: Bind Report Controls to Data (Expression Bindings)
 author: Anna Gubareva
 ---
-# Bind Report Controls to Data (Data Bindings)
-
-> [!NOTE]
-> Use this approach if data bindings **are enabled** in the Report Designer (the Label's smart tag includes the **Data Binding** property).
->
-> ![](../../../../images/eurd-label-expression-binding-modes.png)
->
-> See the [Bind Report Controls to Data (Expression Bindings)](bind-controls-to-data-expression-bindings.md) topic to learn about an alternative approach.
+# Bind Report Controls to Data (Expression Bindings)
 
 You can use the following approaches to include a data source's information in your report:
 
@@ -48,13 +41,24 @@ To select multiple fields in the Field List, hold CTRL or SHIFT and click the fi
 
 ## Use the Smart Tag
 
-Click a control's smart tag, expand the **Data Binding** drop-down list and select a data field.
+Click a control's smart tag, expand the **Expression** drop-down list and select a data field.
 
-![](../../../../images/eurd-win-control-smart-tag-data-binding.png)
+![](../../../../images/eurd-win-label-bind-to-data-field.png)
+
+You can also click the **Expression** option's ellipsis button to invoke the **Expression Editor**. This editor allows you to construct a complex binding expression with two or more data fields and various functions. See [Expression Syntax](../use-expressions/expression-syntax.md) for more information.
+ 
+![](../../../../images/eurd-win-label-expression-binding.png)
+
 
 ## Use the Property Grid
 
-In the [Property Grid](../report-designer-tools/ui-panels/property-grid-tabbed-view.md), expand the (Data Bindings) category and specify a data field for a required property (for instance, Text).
+Click a property marker to see whether the invoked context menu has the **PropertyName Expression** item.
 
-![](../../../../images/eurd-win-property-grid-text-data-binding.png)
+![](../../../../images/eurd-win-property-grid-data-binding.png)
+
+Click this item to specify an expression in the invoked Expression Editor.
+
+![WinFormsPropertyGrid-ExpressionEditor](../../../../images/eurd-win-PropertyGrid-ExpressionEditor.png)
+
+You can use the same approach to specify expressions for all the control properties. See [Shape Report Data](../shape-report-data.md) for more tutorials.
 

@@ -20,6 +20,6 @@ The Main Toolbar provides access to the report editing commands in the [Web Repo
 | Zoom Out |![](../../../images/eurd-web-designer-main-toolbar-zoom-out.png)| Decreases the document's current zoom factor by 5 percent. |
 | Zoom Factor |![](../../../images/eurd-web-designer-main-toolbar-zoom-factor.png)| Zooms to a specific zoom factor selected from the dropdown list. |
 | Zoom In |![](../../../images/eurd-web-designer-main-toolbar-zoom-in.png)| Increases the document's current zoom factor by 5 percent. |
-| Validate Bindings |![](../../../images/eurd-web-designer-main-toolbar-validate-bindings.png)| Highlights report controls with [invalid data bindings](../bind-to-data/validate-report-data-bindings.md) or incorrect expressions. |
+| Validate Bindings |![](../../../images/eurd-web-designer-main-toolbar-validate-bindings.png)| Highlights report controls with [invalid data bindings](../use-report-elements/validate-report-data-bindings.md) or incorrect expressions. |
 |Full Screen|![](../../../images/eurd-web-designer-main-toolbar-fullscreen.png)|Toggles between the Report Designer's full screen and default size.|
 | Preview |![](../../../images/eurd-web-designer-main-toolbar-preview.png)| Toggles between a report's Design and Preview mode. |

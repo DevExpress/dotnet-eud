@@ -47,4 +47,4 @@ To reset values of these properties, click the property marker in the Property G
 
 ![AppearanceProperties_1](../../../../images/eurd-win-appearance-properties-reset.png)
 
-If a report element has a [style](report-visual-styles.md) assigned to it, the priority of the properties defined by this style is determined by the **StylePriority** property. Note that when a [conditional formatting](..\shape-report-data\shape-data-expression-bindings\conditionally-change-a-control-appearance.md) is involved, the appearance it defines is of greater priority than the properties described above.
+If a report element has a [style](report-visual-styles.md) assigned to it, the priority of the properties defined by this style is determined by the **StylePriority** property. Note that when a [conditional formatting](..\shape-report-data\specify-conditions-for-report-elements\conditionally-change-a-control-appearance.md) is involved, the appearance it defines is of greater priority than the properties described above.

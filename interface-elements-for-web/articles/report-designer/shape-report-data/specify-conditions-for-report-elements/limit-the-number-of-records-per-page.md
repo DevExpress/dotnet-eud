@@ -6,11 +6,6 @@ author: Anna Vekhina
 
 This document describes how to specify the number of data source records displayed on report pages.
 
-> [!Warning]
-> Use the approach below if expression bindings **are enabled** in the Report Designer (the Designer provides the [Expressions](../../report-designer-tools/ui-panels/expressions-panel.md) panel).
->
-> See [Limit the Number of Records per Page](../shape-data-data-bindings/limit-the-number-of-records-per-page.md) if expression bindings **are not enabled** in the Report Designer (the Designer does not provide the [Expressions](../../report-designer-tools/ui-panels/expressions-panel.md) panel).
-
 After you [bound your report to data](../../bind-to-data.md) and provided content to the report's [Detail band](../../introduction-to-banded-reports.md), you can limit the number of records each report page displays. This example demonstrates how to pass the required record count as a parameter value.
 
 1. Switch to the [Field List](../../report-designer-tools/ui-panels/field-list.md) panel, select the **Parameters** node and click **Add parameter** to add a new report parameter.

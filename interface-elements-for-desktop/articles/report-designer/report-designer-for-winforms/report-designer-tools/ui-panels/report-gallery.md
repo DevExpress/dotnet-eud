@@ -69,7 +69,7 @@ Use the following ways to apply a band template:
 	| **Group Header**, **Group Footer**, **Detail Report Band** | If the same band is selected in the report, replaces the band's content. Otherwise, adds a new band to the deepest hierarchy level. |
 	| **Report Header**, **Report Footer**, **Page Header**, **Page Footer**, **Vertical Header**, **Vertical Footer** | If the same band exists in the report, replaces the band's content. Otherwise, adds a new band. |
 
-Note that the template stores settings related to the band and its controls ([binding information](../../../../../articles/report-designer/report-designer-for-winforms/bind-to-data/bind-controls-to-data-expression-bindings.md), [appearance options](../../../../../articles/report-designer/report-designer-for-winforms/customize-appearance/appearance-properties.md), etc). All these settings are restored when you apply the template.
+Note that the template stores settings related to the band and its controls ([binding information](../../../../../articles/report-designer/report-designer-for-winforms/use-report-elements/bind-controls-to-data.md), [appearance options](../../../../../articles/report-designer/report-designer-for-winforms/customize-appearance/appearance-properties.md), etc). All these settings are restored when you apply the template.
 
 ## Controls
 

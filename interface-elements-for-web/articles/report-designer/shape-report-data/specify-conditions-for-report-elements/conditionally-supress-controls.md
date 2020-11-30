@@ -6,11 +6,6 @@ author: Anna Vekhina
 
 This document describes how to display or hide a report control in a published document based on a specified logical condition.
 
-> [!Warning]
-> Use the approach below if expression bindings **are enabled** in the Report Designer (the Designer provides the [Expressions](../../report-designer-tools/ui-panels/expressions-panel.md) panel).
->
-> See [Conditionally Suppress Controls](../shape-data-data-bindings/conditionally-supress-controls.md) if expression bindings **are not enabled** in the Report Designer (the Designer does not provide the [Expressions](../../report-designer-tools/ui-panels/expressions-panel.md) panel).
-
 1. [Create a new report](../../add-new-reports.md) or open an existing one and prepare the report layout.
 
 2. Select the required control, switch to the [Expressions](../../report-designer-tools/ui-panels/expressions-panel.md) panel and click the **Visible** property's ellipsis button. 

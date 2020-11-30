@@ -68,7 +68,7 @@ In the above image, the report data in the Detail band is contained within a [Pa
 
 ![](../../../../images/eurd-win-multi-column-panel-borders-property.png)
 
-You can also specify a custom background color for the Panel. To learn how to change this color dynamically (based on the report's underlying data), see [Conditionally Change a Control's Appearance](../shape-report-data/shape-data-expression-bindings/conditionally-change-a-control-appearance.md).
+You can also specify a custom background color for the Panel. To learn how to change this color dynamically (based on the report's underlying data), see [Conditionally Change a Control's Appearance](../shape-report-data/specify-conditions-for-report-elements/conditionally-change-a-control-appearance.md).
 
 When the report data is [grouped](../shape-report-data/group-and-sort-data/group-data.md) (as in the above image), and the **First Down, then Across** multi-column layout is used, you can make each group start on a new column. To do this, set the **Page Break** property of the Group Footer to **After the Band** or **After the Band, Except for the Last Entry**. When there is no data to display in the Group Footer, set the band height to zero.
 

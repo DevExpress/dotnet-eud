@@ -62,7 +62,7 @@ Use one of the following techniques to add the **Picture Box** control that obta
     ![](../../../../../images/eurd-win-picture-box-drop-right-click.png)
 
 
-See the [Bind Report Controls to Data](../../bind-to-data/bind-controls-to-data-expression-bindings.md) topic for more information about how to create data-aware controls.
+See the [Bind Report Controls to Data](../bind-controls-to-data.md) topic for more information about how to create data-aware controls.
 
 ## SVG Support Limitations
 

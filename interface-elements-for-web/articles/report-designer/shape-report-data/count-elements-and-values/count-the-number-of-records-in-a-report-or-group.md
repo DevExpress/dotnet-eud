@@ -6,12 +6,6 @@ author: Anna Vekhina
 
 This document describes how to display the number or records in a report or group.
 
-> [!Warning]
-> Use the approach below if expression bindings **are enabled** in the Report Designer (the Designer provides the [Expressions](../../report-designer-tools/ui-panels/expressions-panel.md) panel).
->
-> See [Count the Number of Records in a Report or Group](../shape-data-data-bindings/count-the-number-of-records-in-a-report-or-group.md) if expression bindings **are not enabled** in the Report Designer (the Designer does not provide the [Expressions](../../report-designer-tools/ui-panels/expressions-panel.md) panel).
-
-
 1. Select the corresponding command in the **Actions** category and insert a [Report Header](../../introduction-to-banded-reports.md) or Footer to display the record count for the entire report.
 	
 	![](../../../../images/eurd-web-shaping-insert-report-header.png)

@@ -6,13 +6,6 @@ author: Anna Gubareva
 
 This document describes how to display the number or records in a report or group.
 
-> [!NOTE]
-> Use this approach if expressions **are enabled** in the Report Designer (the Label's smart tag includes the **Expression** property).
->
-> ![](../../../../../images/eurd-label-expression-binding-modes.png)
->
-> See the [Count the Number of Records in a Report or Group](../shape-data-data-bindings/count-the-number-of-records-in-a-report-or-group.md) topic in the [Shape Data (Data Bindings)](../shape-data-data-bindings.md) section to learn about an alternative approach.
-
 1. Right-click the report's design surface and add a Report Header or Footer to display the record count for the entire report.
 	
 	![](../../../../../images/eurd-win-shaping-insert-report-header.png)

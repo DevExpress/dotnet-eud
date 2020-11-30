@@ -6,13 +6,6 @@ author: Anna Gubareva
 
 This document describes how to count the number of groups in a report.
 
-> [!NOTE]
-> Use this approach if expressions **are enabled** in the Report Designer (the Label's smart tag includes the **Expression** property).
->
-> ![](../../../../../images/eurd-label-expression-binding-modes.png)
->
-> See the [Count the Number of Groups in a Report](../shape-data-data-bindings/count-the-number-of-groups-in-a-report.md) topic in the [Shape Data (Data Bindings)](../shape-data-data-bindings.md) section to learn about an alternative approach.
-
 1. Switch to the [Group and Sort](../../report-designer-tools/ui-panels/group-and-sort-panel.md) panel and create a new group. Enable the **Show Header** option to display the Group Header in the report.
 	
 	![](../../../../../images/eurd-win-shaping-count-group-data.png)

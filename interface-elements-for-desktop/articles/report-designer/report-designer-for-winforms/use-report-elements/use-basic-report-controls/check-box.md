@@ -22,7 +22,7 @@ Drag a Boolean field from the [Field List](../../../../../articles/report-design
 
 ![report-control-check-box-add-from-toolbox](../../../../../images/eurd-checkbox-drag-from-fieldlist.png)
 
-If you add a checkbox from the [Toolbox](../../../../../articles\report-designer\report-designer-for-winforms\report-designer-tools\toolbox.md), click the control's [smart tag](../../../../../articles/report-designer/report-designer-for-winforms/use-report-elements/manipulate-report-elements/select-report-elements-and-access-their-settings.md), expand the **CheckState** property's **Expression** drop-down list and select a data field. This [binds](../../../../../articles/report-designer/report-designer-for-winforms/bind-to-data/bind-controls-to-data-expression-bindings.md) your control's **CheckState** property to a data source field.
+If you add a checkbox from the [Toolbox](../../../../../articles\report-designer\report-designer-for-winforms\report-designer-tools\toolbox.md), click the control's [smart tag](../../../../../articles/report-designer/report-designer-for-winforms/use-report-elements/manipulate-report-elements/select-report-elements-and-access-their-settings.md), expand the **CheckState** property's **Expression** drop-down list and select a data field. This [binds](../bind-controls-to-data.md) your control's **CheckState** property to a data source field.
 
 ![report-control-check-box-bind-to-data](../../../../../images/eurd-chekbox-bind-to-data.png)
 
@@ -32,13 +32,13 @@ The data field value specifies the checkbox's state:
 * **False** or **0** - activates the **Unchecked** state;
 * Any other value - activates the **Indeterminate** state.
 
-You can [bind](../../../../../articles/report-designer/report-designer-for-winforms/bind-to-data/bind-controls-to-data-expression-bindings.md) your control's **CheckState** the checkbox caption to a data source field. Click the control's [smart tag](../../../../../articles/report-designer/report-designer-for-winforms/use-report-elements/manipulate-report-elements/select-report-elements-and-access-their-settings.md), expand the **Expression** drop-down list and select the data field.
+You can [bind](../bind-controls-to-data.md) your control's **CheckState** the checkbox caption to a data source field. Click the control's [smart tag](../../../../../articles/report-designer/report-designer-for-winforms/use-report-elements/manipulate-report-elements/select-report-elements-and-access-their-settings.md), expand the **Expression** drop-down list and select the data field.
 
 The **Expression** option's ellipsis button invokes the **Expression Editor**. This Editor allows you to construct a complex binding expression with two or more fields.
 
 ![report-control-check-box-bind-to-data](../../../../../images/eurd-checkbox-expression-editor.png)
 
-Refer to the [Bind Controls to Data (Expression Bindings)](../../../../../articles/report-designer/report-designer-for-winforms/bind-to-data/bind-controls-to-data-expression-bindings.md) topic for more information about the available data binding modes and how to create data-aware controls.
+Refer to the [Bind Controls to Data](../bind-controls-to-data.md) topic for more information about the available data binding modes and how to create data-aware controls.
 
 ## Interactivity
 

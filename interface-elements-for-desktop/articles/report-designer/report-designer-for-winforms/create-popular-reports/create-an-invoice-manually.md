@@ -106,7 +106,7 @@ Do the following to evaluate an extended price based on the price, quantity and 
 
 
 ## <a name="format"></a>Format Data
-The next step is to specify report elements' [value formatting](../shape-report-data/shape-data-expression-bindings/format-data.md) to improve displaying their incoming data.
+The next step is to specify report elements' [value formatting](../shape-report-data/format-data.md) to improve displaying their incoming data.
 
 1. In the master report's Detail band, select controls bound to date fields while holding down CTRL or SHIFT. Switch to the [Property Grid](../report-designer-tools/ui-panels/property-grid-tabbed-view.md) and click the **Text Format String** property's ellipsis button. In the invoked **Format String Editor**, activate the **DateTime** category and select the format, for example, display dates as a month (name) followed by the day (number) and year (four digits).
 	

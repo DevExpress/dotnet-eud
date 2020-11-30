@@ -6,13 +6,6 @@ author: Anna Gubareva
 
 This document describes how to change a report control's appearance based on a specific condition.
 
-> [!NOTE]
-> Use this approach if expressions **are enabled** in the Report Designer (the Label's smart tag includes the **Expression** property).
->
-> ![](../../../../../images/eurd-label-expression-binding-modes.png)
->
-> See the [Conditionally Change a Control's Appearance](../shape-data-data-bindings/conditionally-change-a-control-appearance.md) topic in the [Shape Data (Data Bindings)](../shape-data-data-bindings.md) section to learn about an alternative approach.
-
 1. Switch to the [Report Explorer](../../report-designer-tools/ui-panels/report-explorer.md) and right-click the **Styles** category to create a new visual style.
 	
 	![](../../../../../images/eurd-win-shaping-create-new-report-style.png)

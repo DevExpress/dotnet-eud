@@ -61,7 +61,7 @@ This tutorial demonstrates how to create a master-detail report using the [Subre
 	
 	![](../../../../images/eurd-win-master-report-subreport-parameter-binding-editor.png)
 
-5. If required, customize the report's [appearance](../customize-appearance.md) and [format values](../shape-report-data/shape-data-expression-bindings/format-data.md).
+5. If required, customize the report's [appearance](../customize-appearance.md) and [format values](../shape-report-data/format-data.md).
 
 ## <a name="result"></a>View the Result
 
