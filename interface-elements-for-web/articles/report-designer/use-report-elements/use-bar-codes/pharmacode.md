@@ -2,7 +2,7 @@
 title: Pharmacode
 author: Eugene Polevikov
 ---
-# PDF417
+# Pharmacode
 
 **Pharmacode** is a binary code developed by the German LAETUS GMBH company. The code is widely used in the pharmaceutical industry as a packaging control system. It can be either one-track or two-track.
 
