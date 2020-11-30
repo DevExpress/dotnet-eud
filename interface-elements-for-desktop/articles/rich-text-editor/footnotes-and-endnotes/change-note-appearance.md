@@ -8,7 +8,7 @@ Click the **Footnotes** dialog box launcher on the **References** tab or right-c
 
 This invokes the **Footnote and Endnote dialog**. Options in this dialog allow you to specify note location, layout, and format.
 
-![dialog](.../../../images/richedit-dialogs-footnote-and-endnote.png)
+![dialog](../../../images/richedit-dialogs-footnote-and-endnote.png)
 
 To specify what note options to change, click the **Footnotes** or **Endnotes** radio button in the dialog's **Location** section.
 
