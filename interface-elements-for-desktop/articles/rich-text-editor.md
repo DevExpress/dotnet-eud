@@ -84,6 +84,11 @@ This section describes the capabilities provided by the **Rich Text Editor**.
 
 * [Header and Footer](rich-text-editor/header-and-footer.md)
 
+## Footnotes and Endnotes
+
+* [Insert and Edit a Footnote or Endnote](rich-text-editor/footnotes-and-endnotes/insert-and-edit-a-footnote-or-endnote.md)
+* [Change Note Appearance](rich-text-editor/footnotes-and-endnotes/change-note-appearance.md)
+
 ## Embed Fields (Mail Merge)
 
 * [Mail Merge](rich-text-editor/mail-merge.md)
