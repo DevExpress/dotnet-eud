@@ -18,7 +18,7 @@ You can apply changes to the current section or to the whole document. Select th
 
 ## Change Note Location
 
-Select the desired note location from **Location** the drop down menu. You can place footnotes at the bottom of the page or below text. Endnotes can be located at the end of the document or at the end of each section.
+Select the desired note location from the **Location** drop down menu. You can place footnotes at the bottom of the page or below text. Endnotes can be located at the end of the document or at the end of each section.
 
 ![location](../../../images/rich-edit-footnotes-and-endnotes-layout.png)
 
