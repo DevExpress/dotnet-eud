@@ -34,7 +34,7 @@ Use report parameters in the following cases:
 
     * Specify a [calculated field](use-calculated-fields/calculated-fields-overview.md)'s value.
     * [Bind](../use-report-elements/bind-controls-to-data.md) a control to data. 
-    * Conditionally change [a band's visibility](specify-conditions-for-report-elements/conditionally-change-a-bands-vibility-expression-bindings.md) or [a control's appearance](specify-conditions-for-report-elements/conditionally-change-a-control-appearance.md).
+    * Conditionally change [a band's visibility](specify-conditions-for-report-elements/conditionally-change-a-bands-visibility-expression-bindings.md) or [a control's appearance](specify-conditions-for-report-elements/conditionally-change-a-control-appearance.md).
  
     ![Parameters in Expression Editor](../../../images/eurd-web-parameters-expression-editor.png)
 
