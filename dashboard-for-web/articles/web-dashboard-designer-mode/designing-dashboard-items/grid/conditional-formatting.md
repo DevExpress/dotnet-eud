@@ -4,36 +4,57 @@ author: Natalia Kazakova
 legacyId: 117532
 ---
 # Conditional Formatting
-The Grid dashboard item supports the conditional formatting feature that provides the capability to apply formatting to grid cells whose values meet the specified condition. This feature allows you to highlight specific cells or entire rows using a predefined set of rules. To learn more about conditional formatting concepts common for all dashboard items, see [Conditional Formatting](../../appearance-customization/conditional-formatting.md).
+Use conditional formatting to highlight individual cells or rows based on specific conditions. You can apply format rules to the **dimension** and **measure** [column types](columns.md). You can use [hidden measures](../../binding-dashboard-items-to-data/hidden-data-items.md) to specify a condition used to apply formatting to visible values. 
 
-![wdd-grid-conditional-formatting](../../../../images/img125791.png)
+![wdd-grid-conditional-formatting](../../../../images/img125791.png) 
 
-The Grid dashboard item allows you to apply conditional formatting to data items providing data to the **dimension** and **measure** [column types](columns.md).
+## Supported Format Rules
 
-You can use [hidden measures](../../binding-dashboard-items-to-data/hidden-data-items.md) to specify a condition used to apply formatting to visible values. New appearance settings are applied to grid cells corresponding to the target dimension/measure values.
+Format rules that can be applied to different data item types are as follows:
+* numeric 
+	* **Value**
+	* **Top-Bottom**
+	* **Average**
+	* **Expression**  
+	* **Icon Ranges**
+	* **Color Ranges**
+	* **Gradient Ranges**
+	* **Bar** 
+	* **Bar Color Ranges** 
+	* **Bar Gradient Ranges** 
+* string 
+	* **Value** (with the condition type set to _Equal To_, _Not Equal To_ or _Text that Contains_)
+	* **Expression**
+* date-time 
+	* **Value**
+	* A **Date Occurring** (for dimensions with a continuous date-time group interval)
+	* **Expression**
+	* **Icon and Color Ranges**
+	* **Color Ranges**
+	* **Gradient Ranges**
+	* **Bar** 
+	* **Bar Color Ranges** 
+	* **Bar Gradient Ranges** 
 
-## Create and Edit Format Rules
-To create a new format rule, select the required measure / dimension by whose values a format condition will be calculated, open its [menu](../../ui-elements/data-item-menu.md) and go to the **Conditional Formatting** section. Click "+" to add a new rule.
+Refer to the following topic for more information about format condition types: [Conditional Formatting in Web Dashboard](../../appearance-customization/conditional-formatting.md).
 
-![wdd-grid-cf-add-rule](../../../../images/img126022.png)
+## Create and Edit a Format Rule   
 
-Then, specify the data item to which conditional formatting is applied using the **Apply to** combo box and select the condition type.
+You can create and edit format rules in the **Conditional Formatting** section that is located in the following places:
 
-![wdd-grid-cf-select-rule-type](../../../../images/img126024.png)
+* The dashboard item's [Options](../../ui-elements/dashboard-item-menu.md) menu
 
-Depending on the selected format condition, the menu used to create a format rule for a Grid contains different settings. For example, the image below displays the _Value_ format condition menu. Here you need to specify a required value and select a format rule style.
+*  [data item menu](../../ui-elements/data-item-menu.md)
 
-![wdd-grid-cf-value-menu](../../../../images/img126023.png)
+Refer to the following topic for information on how to create and edit format rules: [Conditional Formatting in Web Dashboard](../../appearance-customization/conditional-formatting.md).
 
-> [!NOTE]
-> The **Miscellaneous** section of the format rule menu contains additional settings, depending on the dashboard item type. The Grid dashboard item allows you to apply the current format rule to a row or disable this rule.
+## Grid-Specific Format Condition Settings
 
-The format condition is now ready and will be applied to the Grid dashboard item.
+The format rule's **Miscellaneous** section contains the following properties that are specific to the Grid item:
 
-![wdd-grid-conditional-formatting-result](../../../../images/img126049.png)
+![web-cf-grid-miscellaneous](../../../../images/web-cf-grid-miscellaneous.png)
 
-To edit a format rule, open the **Conditional Formatting** section of the [data item menu](../../ui-elements/data-item-menu.md), select the required format rule and click the **Edit** button (the ![wdd-icon-edit-collection-value-item](../../../../images/img126050.png) icon).
-
-![wdd-grid-cf-edit-rule](../../../../images/img126025.png)
-
-To delete the selected format rule, click the **Delete** button (the ![wdd-icon-delete-big](../../../../images/img126104.png) icon).
+ | Option | Description |
+ | -- | --| 
+ | **Enabled** | Enables/ Disables the current format rule. |
+ | **Applied to Row** | Applies the current format rule to a row. |

@@ -4,42 +4,65 @@ author: Natalia Kazakova
 legacyId: 114224
 ---
 # Conditional Formatting
-The Grid dashboard item supports the conditional formatting feature that provides the capability to apply formatting to grid cells whose values meet the specified condition. This feature allows you to highlight specific cells or entire rows using a predefined set of rules. To learn more about conditional formatting concepts common for all dashboard items, see the [Conditional Formatting](../../appearance-customization/conditional-formatting.md) topic.
-* [Conditional Formatting Overview](#conditional-formatting-overview)
-* [Create a Format Rule](#create-a-format-rule)
-* [Edit a Format Rule](#edit-a-format-rule)
+A Grid dashboard item applies conditional formatting to data items that provide data to the [dimension](columns/dimension-column.md) and [measure](columns/measure-column.md) column types.
 
-## <a name="conditional-formatting-overview"/>Conditional Formatting Overview
-The Grid dashboard item allows you to apply conditional formatting to data items providing data to the following column types.
-* [dimension column](columns/dimension-column.md);
-* [measure column](columns/measure-column.md);
-* [sparkline column](columns/sparkline-column.md).
+[grid-with-applied-format-rules](../../../../images/grid-with-applied-format-rules.png)
 
-> [!NOTE]
-> Note that you can use [hidden measures](../../binding-dashboard-items-to-data/hidden-data-items.md) to specify a condition used to apply formatting to visible values.
+You can use [hidden measures](../../binding-dashboard-items-to-data/hidden-data-items.md) to specify a condition used to apply formatting to visible values.
 
-New appearance settings are applied to grid cells corresponding to the target dimension/measure values.
+## Supported Format Rules
 
-## <a name="create-a-format-rule"/>Create a Format Rule
-To create a new format rule for the Grid's dimension/measure, do one of the following.
-* Click the **Options** button next to the required measure/dimension, select **Add Format Rule** and choose the condition.
-	
-	![AddFormatRule_ValueItem](../../../../images/img118549.png)
-* Right-click the column header corresponding to the required measure/dimension and select **Add Format Rule**.
-	
-	![Grid_CreateNewRule_ColumnHeader](../../../../images/img118700.png)
-* Use the [Edit Rules](#edit-a-format-rule) dialog.
+The following list contains available format rules and corresponding data types:
+* numeric
+	* [Value](../../appearance-customization/conditional-formatting/value.md)
+	* [Top-Bottom](../../appearance-customization/conditional-formatting/top-bottom.md)
+	* [Average](../../appearance-customization/conditional-formatting/average.md)
+	* [Expression](../../appearance-customization/conditional-formatting/expression.md)
+	* [Icon Ranges](../../appearance-customization/conditional-formatting/icon-ranges.md)
+	* [Color Ranges](../../appearance-customization/conditional-formatting/color-ranges.md)
+	* [Gradient Ranges](../../appearance-customization/conditional-formatting/gradient-ranges.md)
+	* [Bar](../../appearance-customization/conditional-formatting/bar.md) 
+	* [Bar Color Ranges](../../appearance-customization/conditional-formatting/bar-color-ranges.md) 
+	* [Bar Gradient Ranges](../../appearance-customization/conditional-formatting/bar-gradient-ranges.md) 
+* string 
+	* [Value](../../appearance-customization/conditional-formatting/value.md) (with a condition type set to _Equal To_, _Not Equal To_ or _Text that Contains_)
+	* [Expression](../../appearance-customization/conditional-formatting/expression.md)
+* date-time
+	* [Value](../../appearance-customization/conditional-formatting/value.md)
+	* [A Date Occurring](../../appearance-customization/conditional-formatting/value.md) (for dimensions with a continuous date-time group interval)
+	* [Expression](../../appearance-customization/conditional-formatting/expression.md)
+	* [Icon Ranges](../../appearance-customization/conditional-formatting/icon-ranges.md)
+	* [Color Ranges](../../appearance-customization/conditional-formatting/color-ranges.md)
+	* [Gradient Ranges](../../appearance-customization/conditional-formatting/gradient-ranges.md)
+	* [Bar](../../appearance-customization/conditional-formatting/bar.md) 
+	* [Bar Color Ranges](../../appearance-customization/conditional-formatting/bar-color-ranges.md) 
+	* [Bar Gradient Ranges](../../appearance-customization/conditional-formatting/bar-gradient-ranges.md) 
 
-Depending on the selected format condition, the dialog used to create a format rule for Grid contains different settings.
-For instance, the image below displays the **Greater Than** dialog corresponding to the [Value](../../appearance-customization/conditional-formatting/value.md) format condition.
+## Create and Edit a Format Rule
+
+You can create and edit format rules in the following ways:
+
+* Click the **Edit Rules** button on the **Home** ribbon tab. 
+
+* Click the measure/dimension menu button in the Data Item's pane and select **Add Format Rule**/**Edit Rules**. 
+
+Refer to the following topic for information on how to create and edit format rules: [Conditional Formatting Common](../../appearance-customization/conditional-formatting.md).
+
+## Grid-Specific Format Condition Settings
+
+Specify appearance settings and set the condition's value for the format rule. Available settings depend on the selected format rule. The image below displays the **Greater Than** dialog, which corresponds to the [Value](../../appearance-customization/conditional-formatting/value.md) format condition for a Grid dashboard item. The format condition applies to the _ExtendedPrice_ data item in the **Apply to** drop-down list.
 
 ![GreaterThanDialog](../../../../images/img118555.png)
 
 The **Apply to row** check box allows you to specify whether to apply the formatting to the entire grid row.
 
-## <a name="edit-a-format-rule"/>Edit a Format Rule
-To edit format rules for the current Grid dashboard item, use the following options.
-* Click the **Edit Rules** button in the **Home** ribbon tab or use corresponding item in the Grid context menu.
-* Click the [menu button](../../ui-elements/data-items-pane.md) for the required data item and select **Edit Rules**. As an alternative, right-click the column header corresponding to the required data item and select **Edit Rules**.
+You can configure and customize current format condition appearance settings.
 
-All of these actions invoke the **Edit Rules** dialog containing existing format rules. To learn more, see [Conditional Formatting](../../appearance-customization/conditional-formatting.md).
+* Choose a predefined background color/font or click an empty square to add a new preset in the **Appearance** tab.
+
+	![NewRuleDialog_AppearanceTab](../../../../images/img118585.png)
+
+* Add a predefined icon in the **Icons** tab.	
+
+
+

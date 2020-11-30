@@ -12,6 +12,32 @@ For a Card dashboard item, you can apply conditional formatting to the card's vi
 > [!Note]
 > Cards that use a [legacy layout](https://docs.devexpress.com/Dashboard/113798/create-dashboards/create-dashboards-in-the-winforms-designer/designing-dashboard-items/cards/layout#legacy-layout-v162-and-earlier) do not support conditional formatting.
 
+## Supported Format Rules
+
+You can use [measure or dimension](../../binding-dashboard-items-to-data/binding-dashboard-items-to-data.md) values to calculate a format rule. You can also use [delta](delta.md) values to calculate a Card dashboard item's format rules.
+
+The following list contains available format rules and corresponding data types:
+
+* numeric
+	* [Value](../../appearance-customization/conditional-formatting/value.md)
+	* [Top-Bottom](../../appearance-customization/conditional-formatting/top-bottom.md)
+	* [Average](../../appearance-customization/conditional-formatting/average.md)
+	* [Expression](../../appearance-customization/conditional-formatting/expression.md)
+    * [Icon Ranges](../../appearance-customization/conditional-formatting/icon-ranges.md)
+	* [Color Ranges](../../appearance-customization/conditional-formatting/color-ranges.md)
+	* [Gradient Ranges](../../appearance-customization/conditional-formatting/gradient-ranges.md)
+* string 
+	* [Value](../../appearance-customization/conditional-formatting/value.md) (with a condition type set to _Equal To_, _Not Equal To_ or _Text that Contains_)
+	* [Expression](../../appearance-customization/conditional-formatting/expression.md)
+* date-time
+	* [Value](../../appearance-customization/conditional-formatting/value.md)
+	* [A Date Occurring](../../appearance-customization/conditional-formatting/value.md) (for dimensions with a continuous date-time group interval)
+	* [Expression](../../appearance-customization/conditional-formatting/expression.md)
+    * [Icon Ranges](../../appearance-customization/conditional-formatting/icon-ranges.md)
+	* [Color Ranges](../../appearance-customization/conditional-formatting/color-ranges.md)
+	* [Gradient Ranges](../../appearance-customization/conditional-formatting/gradient-ranges.md)
+
+
 ## Create a Format Rule
 
 You can create format rules in the following ways:
@@ -20,7 +46,7 @@ You can create format rules in the following ways:
 
    ![EditRules_Ribbon](../../../../images/editrules_ribbon118564.png)
 
-   The invoked dialog contains the **calculated by** combo box, where you can select the item whose values are used to calculate the format rule. 
+   The invoked dialog contains the **calculated by** combo box where you can select the item whose values are used to calculate the format rule. 
     
    * To apply a format rule to a specific card, use delta values to calculate the rule. The [expression](../../appearance-customization/conditional-formatting/expression.md) format condition is an exception to this rule and applies to all cards.
    * To apply a format rule to all cards in a Card item, use hidden measures and series dimensions to calculate the rule.
@@ -33,7 +59,9 @@ You can create format rules in the following ways:
 
     ![AddFormatRule_ValueItem](../../../../images/addformatrule_valueitem118549.png)
 
-## Appearance Settings   
+Refer to the following topic for information on how to create and edit format rules: [Conditional Formatting Common](../../appearance-customization/conditional-formatting.md).    
+
+## Card-Specific Format Condition Settings
 
 Specify appearance settings and set the condition's value for the format rule. Available settings depend on the selected format rule. 
 

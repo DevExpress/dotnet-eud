@@ -27,3 +27,6 @@ This section is divided into the following subsections.
 * [Labels](scatter-chart/labels.md)
 	
 	Provides information about point labels and tooltips that contain descriptions of data points.
+* [Conditional Formatting](scatter-chart/conditional-formatting.md)
+
+	Describes the format condition settings.	

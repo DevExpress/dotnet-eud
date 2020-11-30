@@ -4,36 +4,88 @@ author: Natalia Kazakova
 legacyId: 117517
 ---
 # Conditional Formatting
-The Pivot dashboard item supports the conditional formatting feature that provides the capability to apply formatting to data cells whose values meet the specified condition. This feature allows you to highlight specific cells or entire rows/columns using a predefined set of rules. To learn more about conditional formatting concepts common for all dashboard items, see [Conditional Formatting](../../appearance-customization/conditional-formatting.md).
+A Pivot dashboard item highlights cells with a certain color, depending on the cell's value. You can calculate a format rule by measures placed in the **Values** section and dimensions placed in the **Columns** or **Rows** sections.
+
+You can use [hidden measures](../../binding-dashboard-items-to-data/hidden-data-items.md) to specify a condition used to apply formatting to visible values. 
 
 ![wdd-pivot-cf](../../../../images/img126057.png)
 
-The Pivot dashboard item allows you to use conditional formatting for measures placed in the **Values** section and dimensions placed in the **Columns/Rows** sections.
+## Supported Format Rules
 
-You can use [hidden measures](../../binding-dashboard-items-to-data/hidden-data-items.md) to specify a condition used to apply formatting to visible values. New appearance settings are applied to data cells corresponding to a row/column intersection. You can set the intersection of the row and column manually or use predefined settings.
+Format rules that can be applied to different data item types are as follows:
+* numeric 
+	* **Value**
+	* **Top-Bottom**
+	* **Average**
+	* **Expression**  
+	* **Icon Ranges**
+	* **Color Ranges**
+	* **Gradient Ranges**
+	* **Bar** 
+	* **Bar Color Ranges** 
+	* **Bar Gradient Ranges** 
+* string 
+	* **Value** (with the condition type set to _Equal To_, _Not Equal To_ or _Text that Contains_)
+	* **Expression**
+* date-time 
+	* **Value**
+	* A **Date Occurring** (for dimensions with a continuous date-time group interval)
+	* **Expression**
+	* **Icon and Color Ranges**
+	* **Color Ranges**
+	* **Gradient Ranges**
+	* **Bar** 
+	* **Bar Color Ranges** 
+	* **Bar Gradient Ranges** 
 
-## Create and Edit Format Rules
-To create a new format rule for the Pivot's dimension/measure, select the required data item by whose values a format condition will be calculated, open its menu and go to the **Conditional Formatting** section. Click "+" to add a new rule.
+Refer to the following topic for more information about format condition types: [Conditional Formatting in Web Dashboard](../../appearance-customization/conditional-formatting.md).
 
-![wdd-pivot-cf-add-rule](../../../../images/img126058.png)
+## Create and Edit a Format Rule   
 
-Then, specify the data item to which conditional formatting is applied using the **Apply to** combo box and select the condition type.
+You can create and edit format rules in the **Conditional Formatting** section that is located in the following places:
 
-![wdd-pivot-cf-select-rule](../../../../images/img126060.png)
+* The dashboard item's [Options](../../ui-elements/dashboard-item-menu.md) menu
 
-Depending on the selected format condition, the menu used to create a format rule for Pivot contains different settings. For example, the image below displays the _Top/Bottom_ format condition menu. Here, you need to specify the number of values to be displayed and select a format rule style.
+*  [data item menu](../../ui-elements/data-item-menu.md)
 
-![wdd-pivot-cf-top-n-menu](../../../../images/img126062.png)
+Refer to the following topic for information on how to create and edit format rules: [Conditional Formatting in Web Dashboard](../../appearance-customization/conditional-formatting.md).
 
-> [!NOTE]
-> The **Miscellaneous** section of the format rule menu contains additional settings depending on the dashboard item type. The Pivot dashboard item allows you to manually specify an intersection level or disable the current rule.
+## Pivot-Specific Format Condition Settings
 
-The format condition is now ready and will be applied to the Pivot dashboard item.
+New appearance settings are applied to data cells that correspond to a row/column intersection. You can set a new intersection of the row and column or use predefined settings.
 
-![wdd-pivot-cf-applied-rule](../../../../images/img126061.png)
+Note the following specifics:
 
-To edit a format rule, open the **Conditional Formatting** section of the [data item menu](../../ui-elements/data-item-menu.md), select the required format rule and click the **Edit** button (the ![wdd-icon-edit-collection-value-item](../../../../images/img126050.png) icon).
+1. The dashboard does not calculate format rules in a pivot for percentage values on multiple levels. In this case, "All Levels" intersection mode is not available.
+2. If you create a new format rule for a dimension from the Columns/Rows section, the corresponding format condition dialog does not contain any Pivot-specific settings.
 
-![wdd-pivot-cf-edit-rule](../../../../images/img126063.png)
+The format rule's **Miscellaneous** section contains pivot-specific options:
 
-To delete the selected format rule, click the **Delete** button (the ![wdd-icon-delete-big](../../../../images/img126104.png) icon).
+![](../../../../images/web-cf-pivot-miscellaneous.png)
+
+| Option | Description |
+| --|--|
+| **Enabled** | Enables/ Disables the current format rule. |
+| **Intersection Mode** | Specifies the level on which to apply conditional formatting to pivot cells. |  
+| **Intersection Row/Column Dimension**  | Applies the format rule to the specified row/column dimension, if you select the _Specific Level_ as the intersection mode.|
+| **Apply to Row/Column** | Specifies whether to apply the formatting to the entire Pivot's row/column.|
+
+A Pivot item allows you to specify to which field intersection a format rule is applied.
+
+| Intersection Level Mode| Description |
+| --|--|
+| _Auto_ | Identifies the default level. For the Pivot dashboard item, _Auto_ identifies the First Level. |
+| _First Level_ |The first level values are used to apply conditional formatting. |
+| _Last Level_ | The last level values are used to apply conditional formatting. |
+| _All Levels_ | All pivot data cells are used to apply conditional formatting. |
+| _Specific Level_ | The specified measures/dimensions are used to apply conditional formatting. |
+
+For example, the Pivot item has three fields in the column area (_Year_, _Category_, and _Product_) and one field in the row area (_State_):
+
+![intersection_levels](../../../../images/intersection_levels.png)
+
+The image below displays different intersection levels with the applied format rule:
+
+![pivot_applied_levels](../../../../images/pivot_applied_levels.png)
+
+To apply a format rule to the row or column Grand Total, change the **Intersection Level Mode** to _Specific level_ and set the _[Grand Total]_ value as the intersection row/column dimension.  

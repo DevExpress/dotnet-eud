@@ -4,22 +4,35 @@ author: Natalia Kazakova
 legacyId: 117961
 ---
 # Manage Data Sources
-The Web Dashboard allows you to manage the dashboard's data sources. To do this, open the [dashboard menu](../ui-elements/dashboard-menu.md) and go to the **Data Sources** page. Here you can add new data sources to the current dashboard or remove the existing data source.
+You can add a new data source to the current dashboard or remove existing data sources. To do this, open the [dashboard menu](../ui-elements/dashboard-menu.md) and go to the **Data Sources** page.
+
+## Add a Data Source
 
 To add a new data source, click **Add** next to the **Used Data Sources** list.
 
 ![WDD-add-data-source-to-the-collection](../../../images/img124583.png)
 
-The **Add Data Source** window is invoked. Here you can perform the following actions.
-* Click **Create** to invoke the [Dashboard Data Source Wizard](dashboard-data-source-wizard.md) where you can create a new data source based on the predefined data connection.
-* Select the existing data source from the list.
+The **Add Data Source** window appears.
 
-![WDD-include-selected-data-source-to-the-dashboard](../../../images/img124584.png)
+![WDD-include-selected-data-source-to-the-dashboard](../../../images/wdd-include-selected-data-source-to-the-dashboard124584.png)
 
-After that, click **Add** to add the selected data source to the dashboard data sources.
+The window allows you to do the following:
 
-The added data source will be displayed in the **Used Data Sources** section. You can use the added data sources to [change the data source](../binding-dashboard-items-to-data/binding-dashboard-items-to-data-in-the-web-dashboard.md) of the created dashboard items.
+| Action | Description |
+|----------|----------|
+| **Add an existing data source** | Select the data source and click the **Add** button.  |
+| **Create a new data source** | Click **Create data source...**. It invokes the [Dashboard Data Source Wizard](dashboard-data-source-wizard.md) where you can create a new data source based on the predefined data connection. Then click **Add** to add the newly created data source to the dashboard data sources.  |
 
-To remove the existing data source from the dashboard data sources, click **Remove** ( the ![WDD-icon-delete-data-source](../../../images/img124585.png) icon).
+You can find the newly added data source in the **Used Data Sources** list.
 
-![wdd-delete-data-source](../../../images/img125495.png)
+## Manage Data Sources
+
+Select a data source to manage it:
+
+![wdd-manage-data-source](../../../images/wdd-manage-data-source.png)
+
+Click the **Rename** button (![](../../../images/wdd-icon-rename-data-source.png)) to rename the selected data source. The **Rename Data Source** dialog appears and you can enter a new name:
+
+![web-rename-data-source-dialog](../../../images/web-rename-data-source-dialog.png)
+
+To remove an existing data source, select it and click **Remove** (![WDD-icon-delete-data-source](../../../images/img124585.png)).

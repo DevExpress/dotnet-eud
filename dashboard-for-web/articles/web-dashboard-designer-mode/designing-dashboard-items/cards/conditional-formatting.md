@@ -12,41 +12,57 @@ For the Card dashboard item, you can apply conditional formatting to the card's 
 > [!Note]
 > Cards that use a [legacy layout](https://docs.devexpress.com/Dashboard/118608/create-dashboards/create-dashboards-on-the-web/designing-dashboard-items/cards/layout#legacy-layout-v162-and-earlier) do not support conditional formatting.
 
-## Create a Format Rule
+## Supported Format Rules
 
-To create a format rule, open the **Conditional Formatting** section in the dashboard item's [Options](../../ui-elements/dashboard-item-menu.md) menu or in the [data item menu](../../ui-elements/data-item-menu.md). Click "+" to add a new format rule:
-	
-![wed-dashboard-cf-add-rule](../../../../images/wed-dashboard-cf-add-rule.png)
-	
-Specify the data item/card used to calculate a condition in the **Common** section. You can also create a format rule for one data item and apply different settings to the other data item. 
+Format rules that can be applied to different data item types are as follows:
+* numeric 
+	* **Value**
+	* **Top-Bottom**
+	* **Average**
+	* **Expression** 
+	* **Icon Ranges**
+	* **Color Ranges**
+	* **Gradient Ranges**
+* string 
+	* **Value** (with the condition type set to _Equal To_, _Not Equal To_ or _Text that Contains_)
+	* **Expression**
+* date-time 
+	* **Value**
+	* A **Date Occurring** (for dimensions with a continuous date-time group interval)
+	* **Expression**
+	* **Icon and Color Ranges**
+	* **Color Ranges**
+	* **Gradient Ranges**
+
+Refer to the following topic for more information about format condition types: [Conditional Formatting in Web Dashboard](../../appearance-customization/conditional-formatting.md).
+## Create and Edit a Format Rule   
+
+You can create and edit format rules in the **Conditional Formatting** section that is located in the following places:
+
+* The dashboard item's [Options](../../ui-elements/dashboard-item-menu.md) menu
+
+*  [data item menu](../../ui-elements/data-item-menu.md)
+
+Refer to the following topic for information on how to create and edit format rules: [Conditional Formatting in Web Dashboard](../../appearance-customization/conditional-formatting.md).
+## Card-Specific Format Condition Settings
+
+For a Card dashboard item, you can apply conditional formatting to the card's visual elements (like Title, Subtitle, different values) and change the card's background.
 
 Available settings in the **Common** section depend on the selected **Calculated by** option:
 
-* If you select the **Card** option, specify the card by whose values the format rule is calculated. The format rule applies to the [related card](providing-data.md). The **Value Type** option enables you to specify the card's value type according to which a condition is calculated. The **expression** format condition is an exception to this rule and applies to all cards.
-* The **Data Item** option allows you to select a hidden measure or a series dimension. The rule applies to all cards in the Card item.
+* The **Card** option specifies a data item container (a card by whose values the format rule is calculated. The **Value Type** option specifies the card's measurement according to which a condition is calculated.
 
-Select a format rule type from the list to open its settings.
-	
-![wdd-grid-cf-select-rule-type](../../../../images/wdd-card-cf-select-rule.png)
+    If the Card dashboard item contains multiple values in data item containers (cards), make sure you apply a format rule to the active card to see changes. Click ![WebDashboard_DashboardItem_LayersIcon](../../../../images/webdashboard_dashboarditem_layersicon132016.png) in the dashboard item caption to switch between cards. The expression format rule ignores the specified card and is applied to all cards regardless of the specified value.
+* For the **Data Item** option you can choose a hidden measure or series dimension. The rule applies to all cards in a Card item.
 
-Select a condition from the list and [specify its settings](#appearance-settings) in the **Condition** section. Available settings depend on the selected format rule.
-	
-![wdd-grid-cf-value-menu](../../../../images/img126023.png)
-
-## Appearance Settings  
+![conditional-formatting-card-delta-variation](../../../../images/web-conditional-formatting-card-delta-variation.png)
 
 To apply the selected appearance to the Title, Subtitle, values, and other card layout elements, use the **Apply to** drop-down list. The _All elements_ value applies the format rule to all card elements.
 
-If you select a background color, it applies to the entire card and the **Apply to** value is not in effect.
+If you select background color, it applies to the entire card and the **Apply to** value is not in effect.
 
-![](../../../../images/web-conditional-formatting-card.png)
+![conditional-formatting-card](../../../../images/web-conditional-formatting-card.png)
 
-Some predefined background styles contain a font color. This font color applies to all card elements regardless of drop-down list settings (for any card layout element).
+Some predefined background styles contain a font color. This font color applies to all the card elements regardless of the drop-down list settings (all/particular element).
 
-## Edit a Format Rule
 
-To edit a format rule, select the rule and click **Edit** ![wdd-icon-edit-collection-value-item](../../../../images/wdd-icon-edit-collection-value-item126050.png).
-
-![wdd-grid-cf-edit-rule](../../../../images/wdd-grid-cf-edit-rule126025.png)
-
-Click **Delete** ![wdd-icon-delete-big](../../../../images/wdd-icon-delete-big126104.png) to delete the selected format rule.

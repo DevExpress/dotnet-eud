@@ -4,8 +4,15 @@ author: Natalia Kazakova
 legacyId: 16789
 ---
 # Coloring
-Certain dashboard items provide the capability to color dashboard item elements by associating dimension values/measures and specified colors. You can choose whether to use a global color scheme to provide consistent colors for identical values or specify a local color scheme for each dashboard item. To learn more about coloring concepts common for all dashboard items, see the [Coloring](../../../appearance-customization/coloring.md) section.
+In **Default** color mode, the Pie Map dashboard item colors its segments in the following way:
 
-The Pie Map dashboard item allows you to manage the coloring of segments corresponding to various dimension values/measures. For instance, the image below illustrates the Pie Map dashboard item whose argument values are colored by hue.
+* If the Pie Map dashboard item contains arguments (the **Arguments** section), different argument values are colored by [hue](../../../appearance-customization/coloring/coloring-concepts.md).
+* If the Pie Map dashboard item contains only measures (the **Values** section), values corresponding to different measures are colored by hue.
+
+The image below illustrates the Pie Map dashboard item whose argument values are painted in different colors. A special icon (![ColoringIndicator](../../../../../images/coloringindicator25453.png)) on the data item shows that color variation is enabled.
 
 ![PieMap_DataItems](../../../../../images/img23581.png)
+
+>[!Tip]
+>**Documentation:**<br>
+>* [Coloring Basics](../../../appearance-customization/coloring.md)

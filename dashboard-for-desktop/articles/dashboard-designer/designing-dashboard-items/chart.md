@@ -33,3 +33,6 @@ This section is divided into the following subsections.
 * [Orientation](chart/orientation.md)
 	
 	Describes how to toggle the chart's orientation.
+* [Conditional Formatting](chart/conditional-formatting.md)
+
+	Describes the format condition settings.	

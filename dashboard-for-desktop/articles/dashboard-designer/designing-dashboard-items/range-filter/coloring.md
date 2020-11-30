@@ -4,8 +4,11 @@ author: Natalia Kazakova
 legacyId: 16985
 ---
 # Coloring
-Certain dashboard items provide the capability to color dashboard item elements by associating dimension values/measures and specified colors. You can choose whether to use a global color scheme to provide consistent colors for identical values or specify a local color scheme for each dashboard item. To learn more about coloring concepts common for all dashboard items, see the [Coloring](../../appearance-customization/coloring.md) section.
+The Range Filter dashboard item paints different measures and series dimensions by [hue](../../appearance-customization/coloring/coloring-concepts.md) in **Default** color mode. The image below shows the Range Filter item whose _State_ series dimension values are painted in different colors. A special icon (![ColoringIndicator](../../../../images/coloringindicator25453.png)) on the data item shows that color variation is enabled.
 
-By default, the Range Filter dashboard item colors different measures and series dimensions by hue. The image below illustrates the Range Filter dashboard item whose series points corresponding to different categories are colored in different colors.
+![win-range-filter-colored-by-default](../../../../images/win-range-filter-colored-by-default.png)
 
-![RangeProvidingData_Main](../../../../images/img117712.png)
+>[!Tip]
+>**Documentation:**<br>
+>* [Coloring Basics](../../appearance-customization/coloring.md)
+
