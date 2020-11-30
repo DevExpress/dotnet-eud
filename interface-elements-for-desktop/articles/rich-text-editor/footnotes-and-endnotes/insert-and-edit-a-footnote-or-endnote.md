@@ -1,8 +1,8 @@
 # Insert and Edit a Footnote or an Endnote
 
-* Place the cursor to the required position.
+* Place the cursor at the required position.
 
-* Click **Insert Footnote** or **Insert Endnote** button in the **Footnotes** group on the **References** tab.
+* Click the **Insert Footnote** or **Insert Endnote** button in the **Footnotes** group on the **References** tab.
 
     ![ribbon](../../../images/richedit-footnote-and-endnote-ribbon.png)
 * Enter the footnote or endnote text. The note content can be formatted as regular text.
@@ -30,11 +30,11 @@ You can convert all footnotes to endnotes and vice versa. Click the **Footnotes*
 
 ![invoke dialog](../../../images/richedit-dialogs-footnote-and-endnote-invoke.png)
 
-In the opened dialog, click the **Convert** button. This invokes the **Convert Notes** dialog. Select the required option to convert or swap notes.
+In the **Footnotes** dialog, click the **Convert** button. This invokes the **Convert Notes** dialog. Select the required option to convert or swap notes.
 
 ![convert notes](../../../images/richedit-dialogs-footnote-and-endnote-convert.png)
 
-## Remove a Footnote or and Endnote
+## Remove a Footnote or Endnote
 
 Delete the note reference to remove a footnote or endnote. Right-click the note and click **Go to Footnote** or **Go to Endnote** to locate the reference.
 

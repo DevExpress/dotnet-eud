@@ -37,7 +37,7 @@ The **Format** section allows you to specify the following options:
     ![number format](../../../images/rich-edit-footnotes-and-endnotes-format.png)
 * **Custom Mark** - Specifies the symbol used to mark a footnote or endnote reference. You can paste a symbol to the **Custom mark** field or click **Symbol** to select a symbol from the **Symbol** dialog.
     image
-* **Start At** - Specifies the start number for a footnote or endnote reference. Enter the number in the **Start At** field.If you set the **Numbering** option to **Restart each section** or **Restart each page**, the **Start At** option value is ignored.
+* **Start At** - Specifies the start number for a footnote or endnote reference. Enter the number in the **Start At** field. If you set the **Numbering** option to **Restart each section** or **Restart each page**, the **Start At** option value is ignored.
 
 * **Numbering** - Specifies when reference numbering should be reset. If you set this option to **Restart each section** or **Restart each page** and then change the **Start At** option, the **Numbering** value is reset to **Continuous**.
 
