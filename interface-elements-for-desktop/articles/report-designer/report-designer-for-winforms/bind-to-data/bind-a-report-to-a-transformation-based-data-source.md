@@ -148,8 +148,8 @@ The **Field List** displays the created Federation Data Source.
 
     | Property | Value |
     | --- | --- |
-    | **ForeColor** | White |
-    | **BackColor** | DimGray |
+    | **Foreground Color** | White |
+    | **Background Color** | DimGray |
     | **Padding** | 10, 10, 0, 0 |
     | **Font** | Arial, 9pt, style=Bold |
 
@@ -157,7 +157,7 @@ The **Field List** displays the created Federation Data Source.
 
 8. Change the band heights to match the table rows. Select the bands and drag their edges the same way as for the table cells.
 
-9. Add a style for the table's even rows. Select **xrTableRow1** in the **Properties** window, expand the [](xref:DevExpress.XtraReports.UI.XRControl.Styles) property, and select **New** for the [EvenStyle] property. Then select **xrControlStyle1** and set the **BackColor** property to **224, 224, 224**.
+9. Add a style for the table's even rows. Select **TableRow2** in the **Properties** window, expand the **Styles** property, and select **New** for the **Even Style** property. Then select **Style1** and set the **Background Color** property to **216, 216, 216**.
 
     ![Set Even Style](../../../../images/federated-data-source-set-even-style.png)
 
