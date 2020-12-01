@@ -10,7 +10,21 @@ Every **Data Matrix** is composed of two solid adjacent borders in an "L" shape 
 
 ![](../../../../../images/eurd-win-bar-code-ECC200.png)
 
-The following properties are specific to the **ECC200 - Data Matrix** type and available in the [Property Grid](../../report-designer-tools/ui-panels/property-grid-tabbed-view.md) under the **Symbology** property:
+## Add the Bar Code to a Report
+
+1. Drag the **Bar Code** item from the report controls toolbox tab and drop it onto the report. 
+
+    ![](../../../../../images/drag-and-drop-barcode.png)
+
+2. Set the control’s **Symbology** property to **DataMatrix**. 
+
+    ![](../../../../../images/data-matrix-in-designer.png)
+
+3. Specify [common](add-bar-codes-to-a-report.md) barcode properties and properties [specific](#specific-properties) to **Data Matrix**.
+
+## Specific Properties
+
+In the [property grid](../../report-designer-tools/ui-panels/property-grid-tabbed-view.md), expand the **Symbology** list and specify the following properties specific to **Data Matrix**:
 
 * **Compaction Mode**
 	

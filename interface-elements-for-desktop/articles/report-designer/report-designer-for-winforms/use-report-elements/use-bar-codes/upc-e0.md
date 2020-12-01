@@ -13,4 +13,16 @@ In the example below,  the original **UPC-A** code is "**04210000526**". We shou
 ![](../../../../../images/eurd-win-bar-code-upc-e0.png)
 
 
-Not every **UPC-A** code can be transformed into the **UPC-E0** (it must meet special requirements). 
+Not every **UPC-A** code can be transformed into the **UPC-E0** (it must meet special requirements).
+
+## Add the Bar Code to a Report
+
+1. Drag the **Bar Code** item from the report controls toolbox tab and drop it onto the report. 
+
+    ![](../../../../../images/drag-and-drop-barcode.png)
+
+2. Set the control’s **Symbology** property to **UPCE0**. 
+
+    ![](../../../../../images/upce0-in-designer.png)
+
+3. Specify [common](add-bar-codes-to-a-report.md) barcode properties.

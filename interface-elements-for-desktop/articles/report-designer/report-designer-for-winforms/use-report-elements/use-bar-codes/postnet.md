@@ -10,4 +10,14 @@ Unlike most other bar codes, in which data is encoded in the width of the bars a
 
 ![](../../../../../images/eurd-win-bar-code-postnet.png)
 
-The are no properties specific to the **PostNet** bar code type.
+## Add the Bar Code to a Report
+
+1. Drag the **Bar Code** item from the report controls toolbox tab and drop it onto the report. 
+
+    ![](../../../../../images/drag-and-drop-barcode.png)
+
+2. Set the control’s **Symbology** property to **PostNet**. 
+
+    ![](../../../../../images/postnet-in-designer.png)
+
+3. Specify [common](add-bar-codes-to-a-report.md) barcode properties.

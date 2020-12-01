@@ -10,4 +10,14 @@ The **Intelligent Mail** bar code has also been referred to as **One Code Soluti
 
 ![](../../../../../images/eurd-win-bar-code-intelligent-mail.png)
 
-The are no properties specific to the **Intelligent Mail** bar code type.
+## Add the Bar Code to a Report
+
+1. Drag the **Bar Code** item from the report controls toolbox tab and drop it onto the report. 
+
+    ![](../../../../../images/drag-and-drop-barcode.png)
+
+2. Set the control’s **Symbology** property to **IntelligentMail**. 
+
+    ![](../../../../../images/intelligent-mail-in-designer.png)
+
+3. Specify [common](add-bar-codes-to-a-report.md) barcode properties.

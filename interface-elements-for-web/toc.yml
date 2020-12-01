@@ -669,6 +669,8 @@
         href: articles/report-designer/use-report-elements/use-bar-codes/msi-plessey.md
       - name: PDF417
         href: articles/report-designer/use-report-elements/use-bar-codes/pdf417.md
+      - name: Pharmacode
+        href: articles/report-designer/use-report-elements/use-bar-codes/pharmacode.md
       - name: PostNet
         href: articles/report-designer/use-report-elements/use-bar-codes/postnet.md
       - name: QR Code
