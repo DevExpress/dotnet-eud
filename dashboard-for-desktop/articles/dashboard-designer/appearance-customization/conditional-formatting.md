@@ -94,7 +94,7 @@ The image below displays the **Greater Than** dialog, which corresponds to the [
  ![GreaterThanDialog](../../../images/img118555.png)
 ## Dashboard Items Specific
 
-Refer to the following topics for more information about specific format rule settings and how to create a format rule in code for different dashboard items:
+Refer to the following topics for more information about specific format rule settings:
 * [Conditional Formatting - Grid](../designing-dashboard-items/grid/conditional-formatting.md)
 * [Conditional Formatting - Pivot](../designing-dashboard-items/pivot/conditional-formatting.md)
 * [Conditional Formatting - Card](../designing-dashboard-items/cards/conditional-formatting.md)
