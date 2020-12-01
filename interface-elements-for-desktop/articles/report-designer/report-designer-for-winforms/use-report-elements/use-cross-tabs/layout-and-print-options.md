@@ -75,6 +75,12 @@ Use a cell's **Column Auto Width Mode** property to specify a cell width calcula
 
 ![](../../../../../images/eurd-win-cross-tab-cell-column-auto-width-mode.png)
 
+Use a cell's **Row Auto Height Mode** property to specify whether and how a cell's height changes to fit its content.
+
+![](../../../../../images/cross-tab-row-auto-height-mode-property.png)
+
+Column widths are changed before row heights.
+
 ## Adjust Header Text
 
 You can double-click any cell that displays the header and use the in-place editor to enter text.
