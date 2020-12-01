@@ -5,7 +5,7 @@ author: Eugene Polevikov
 
 # Bind a Report to a Transformation-Based Data Source
 
-If you bind a report to a **JSON**, **Object**, **Entity Framework**, or **XPO** data source that contains a collection property, you can flatten the data source structure:
+If you bind a report to a [JSON](bind-a-report-to-json-data.md), [Object](bind-a-report-to-an-object-data-source.md), [Entity Framework](bind-a-report-to-an-entity-framework-data-source.md), or [XPO](bind-a-report-to-an-xpo-persistent-object.md) data source that contains a collection property, you can flatten the data source structure:
 
 ![](../../../../images/federated-data-source-transformation.png)
 
@@ -13,9 +13,9 @@ This tutorial illustrates how to use the **Federation Data Source**'s **Transfor
 
 ## Create a Report and Bind it to a Data Source
 
-1. **Create a new blank report**
+1. [Create a new blank report](../add-new-reports.md)
 
-2. **Add a JSON data source**
+2. [Add a JSON data source](bind-a-report-to-json-data.md)
 
 	This tutorial uses the following JSON string:
 
@@ -90,7 +90,7 @@ This tutorial illustrates how to use the **Federation Data Source**'s **Transfor
     ]
     ```
 
-The **Field List** displays the created JSON data source.
+The [Field List](../report-designer-tools/ui-panels/field-list.md) displays the created JSON data source.
 
 ![](../../../../images/federated-data-source-json-field-list.png)
 
@@ -108,7 +108,7 @@ The **Field List** displays the created JSON data source.
 
     ![](../../../../images/federated-data-source-add-query.png)
 
-4. In the invoked **Query Builder**, select the **Transformation** query type. Select the data source or query that contains columns you want to transform. Select the **Transform** check box next to the column you need to unfold and flatten. The bottom pane allows you to specify the aliases for the generated columns.
+4. In the invoked [Query Builder](../report-designer-tools/query-builder.md), select the **Transformation** query type. Select the data source or query that contains columns you want to transform. Select the **Transform** check box next to the column you need to unfold and flatten. The bottom pane allows you to specify the aliases for the generated columns.
 
     ![](../../../../images/federated-data-source-transformation-query.png)
 
@@ -120,11 +120,11 @@ The **Field List** displays the created Federation Data Source.
 
 ## Prepare the Report Layout
 
-1. Set the **Landscape** orientation for report pages. Select the report and switch to the **Properties** panel. Enable the [Landscape] property.
+1. Set the **Landscape** orientation for report pages. Select the report and switch to the **Properties** panel. Enable the **Landscape** property.
 
     ![Set Landscape Page Orientation](../../../../images/federated-data-source-landscape-orientation.png)
 
-2. Drop data fields from the **Field List** onto the report's [Detail] band. Hold CTRL or SHIFT and click the fields to select multiple fields.
+2. Drop data fields from the **Field List** onto the report's [Detail](../introduction-to-banded-reports.md) band. Hold CTRL or SHIFT and click the fields to select multiple fields.
 
     ![Drop Fields Onto the Report](../../../../images/federated-data-source-drop-fields.png)
 
