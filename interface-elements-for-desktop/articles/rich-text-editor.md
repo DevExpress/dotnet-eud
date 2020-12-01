@@ -5,7 +5,7 @@ legacyId: 7431
 ---
 # Rich Text Editor
 
-This section describes the **Rich Text Editor** capabilities.
+This section describes the capabilities provided by the **Rich Text Editor**.
 
 ![RTEMainPage](../images/img121232.png)
 
@@ -24,7 +24,7 @@ This section describes the **Rich Text Editor** capabilities.
 
 ## Document Layout and Page Setup
 
-* [Divide a Document into Sections](rich-text-editor/document-layout-and-page-setup/divide-a-document-into-sections.md)
+* [Divide a Documents into Sections](rich-text-editor/document-layout-and-page-setup/divide-a-document-into-sections.md)
 * [Adjust Page Settings](rich-text-editor/document-layout-and-page-setup/adjust-page-settings.md)
 * [Lay Out Text in Columns](rich-text-editor/document-layout-and-page-setup/lay-out-text-in-columns.md)
 * [Add Line Numbers](rich-text-editor/document-layout-and-page-setup/add-line-numbers.md)
@@ -83,11 +83,6 @@ This section describes the **Rich Text Editor** capabilities.
 ## Header and Footer
 
 * [Header and Footer](rich-text-editor/header-and-footer.md)
-
-## Footnotes and Endnotes
-
-* [Insert and Edit a Footnote or Endnote](rich-text-editor/footnotes-and-endnotes/insert-and-edit-a-footnote-or-endnote.md)
-* [Change Note Appearance](rich-text-editor/footnotes-and-endnotes/change-note-appearance.md)
 
 ## Embed Fields (Mail Merge)
 
