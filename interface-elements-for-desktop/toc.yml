@@ -1434,16 +1434,8 @@
       href: articles/rich-text-editor/tables/set-background-color-of-cells.md
     - name: Set Table Properties
       href: articles/rich-text-editor/tables/set-table-properties.md
-    - name: Set Table Properties
-      href: articles/rich-text-editor/tables/wrap-text-around-a-table.md
   - name: Header and Footer
     href: articles/rich-text-editor/header-and-footer.md
-  - name: Footnotes and Endnotes
-    items:
-    - name: Insert and Edit a Footnote or Endnote
-      href: articles/rich-text-editor/footnotes-and-endnotes/insert-and-edit-a-footnote-or-endnote.md
-    - name: Change Note Appearance
-      href: articles/rich-text-editor/footnotes-and-endnotes/change-note-appearance.md
   - name: Mail Merge
     href: articles/rich-text-editor/mail-merge.md
   - name: Table of Contents
