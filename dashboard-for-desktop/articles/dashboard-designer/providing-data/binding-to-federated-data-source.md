@@ -15,10 +15,10 @@ You can create a federated data source if a dashboard contains at least one data
 Combines rows from two or more tables based on a column they share. The join type specifies records that have matching values in both tables.
 
 ### Union
-Combines rows from two or more tables into one data set and removes duplicate rows in merged tables. You can only create a union query for data sources that contain columns with the same name. Data types of such columns should be implicitly converted.
+Combines rows from two or more tables into one data set and removes duplicate rows in merged tables. You can only create a union query for data sources that contain columns with the same name. Data types of such columns should be [implicitly converted]((https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/types/casting-and-type-conversions#implicit-conversions).
 
 ### Union All
-Operates like Union, but duplicates rows from different tables when they contain the same data.
+Operates like **Union**, but duplicates rows from different tables when they contain the same data.
 
 ### Transformation
 Unfolds complex objects and flattens them in a simple data set. The dashboard does not support data source fields that store collections so you need to transform the data source into a new flattened data table.
