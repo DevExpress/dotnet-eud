@@ -4,8 +4,26 @@ author: Margarita Zakhodyaeva
 ---
 
 # Binding to Federated Data Source
->[!NOTE]
->The dashboard should have at least one **SQL**, **Object** or **Excel** data source already connected to it. Otherwise, the **Data Federation** option is not available in the **Data Source Wizard**.
+
+A federated data source integrates different data sources and provides uniform data access with a federated query. OLAP data sources are not supported.
+
+## Overview
+
+You can create a federated data source if a dashboard contains at least one data source. To do this, create a query where you specify how to federate existing data sources. The federated query can be one of the following types:
+
+### Join
+Combines rows from two or more tables based on a column they share. The join type specifies records that have matching values in both tables.
+
+### Union
+Combines rows from two or more tables into one data set and removes duplicate rows in merged tables. You can only create a union query for data sources that contain columns with the same name. Data types of such columns should be implicitly converted.
+
+### Union All
+Operates like Union, but duplicates rows from different tables when they contain the same data.
+
+### Transformation
+Unfolds complex objects and flattens them in a simple data set. The dashboard does not support data source fields that store collections so you need to transform the data source into a new flattened data table.
+
+## Create a Federated Data Source with the Data Source Wizard
 
 To create a federated data source with the Data Source Wizard, perform the following steps:
 
@@ -25,27 +43,29 @@ To create a federated data source with the Data Source Wizard, perform the follo
 
    **Join**
 
-   Combines rows from two or more tables based on a shared column. The 'join' type specifies records with matching values in both tables.
-     
-    Drag-and-drop the required data sources, specify the related column (to create a relationship between tables), and select columns to include in the query. Columns included in the query are displayed in the bottom pane - where you can configure their settings.
+   Drag-and-drop the data sources, specify the related column to create the relationship between tables, and select the columns you want to include in the query. Use _* (All Columns)_ to get a complete list of the columns from a table. Columns included in the query are displayed in the bottom pane where you can configure their settings.
 
    ![Federated_data_source_settings](../../../images/federated-source-settings.png)
 
    **Union**
 
-   Combines rows from two or more tables into a single data set and removes duplicate rows in merged tables. You can only create a union query for data sources that contain similar columns with the same name. Data types for these columns should be [implicitly converted](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/types/casting-and-type-conversions#implicit-conversions).
+   Double-click the data sources you want to combine. Unlike Join queries, you cannot select individual columns. Columns included in the query are displayed in the bottom pane where you can specify their aliases.
 
-   Drag-and-drop the data sources to combine them into a single data source. Unlike the join query, you cannot specify columns to include in the union query. Columns included in the query are displayed in the bottom pane, where you can specify the aliases of the newly created columns.
-
-   ![](../../../images/data-federation-querybuilder-union.png)
+   ![data-federation-querybuilder-union](../../../images/data-federation-querybuilder-union.png)
 
    **Union All** 
 
-   Operates in the same manner as **Union**, but duplicates rows from different tables when they contain the same data.
+   Double-click the data sources you want to combine. A **UnionAll** query duplicates rows from different tables even if they contain the same data. Columns included in the query are displayed in the bottom pane where you can specify their aliases.
 
-   ![](../../../images/data-federation-querybuilder-union-all.png)
+   ![data-federation-querybuilder-union-all](../../../images/data-federation-querybuilder-union-all.png)
 
-   When you are finished, click **OK**.
+   **Transformation**
+
+   Select a data source/query that contains columns you want to transform. Select the **Transform** checkbox next to the column you want to unfold and flatten. The bottom pane allows you to specify the aliases for the generated columns.
+
+   ![data-federation-querybuilder-transformation](../../../images/data-federation-querybuilder-transformation.png)
+
+   Click **OK** to create a query.
  
 5. The [Data Source Browser](../ui-elements/data-source-browser.md) displays the newly created Federated Data Source.
 
