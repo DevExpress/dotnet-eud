@@ -34,13 +34,21 @@ This topic describes how to create a federated data source that joins data from 
 
     ![](../../../../images/eurd-data-federation-query-builder-drop-table.png)
 
-5. Drag and drop the Excel data source onto the design surface. In the invoked **Join Editor**, select the **Inner join** type and create a relationship based on the key field.
+5. Drag and drop the Excel data source onto the design surface. In the invoked **Join Editor**, select the **Inner join** type and create a relationship based on the **CategoryID** key field.
 
     ![](../../../../images/eurd-data-federation-query-builder-join-tables.png)
 
 6. Enable checkboxes for the data fields you want to include in the query result set.
 
     ![](../../../../images/eurd-data-federation-query-builder-select-fields.png)
+
+    You can specify a different name for a field. Click the field's **Alias** cell and type the alias.
+
+    ![](../../../../images/eurd-data-federation-query-builder-specify-alias.png)
+
+    Use the grid's empty line to add an unbound field to a query. Click the field's ellipsis button to invoke the [Expression Editor](../use-expressions.md) and construct an expression that specifies the field's value.
+
+    ![](../../../../images/eurd-data-federation-query-builder-construct-expression.png)
 
 7. Click **OK** to close the Query Builder. Click **Finish** to complete the Data Source Wizard.
  

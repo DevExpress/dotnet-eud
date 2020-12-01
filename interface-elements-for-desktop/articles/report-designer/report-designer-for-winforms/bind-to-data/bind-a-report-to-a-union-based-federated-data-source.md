@@ -48,16 +48,12 @@ You can create a federated data source for your report to display data combined 
     <!--image-->
     ![](../../../../images/DataFederationUnion-Common-Fields.png)
 
-6. Enable check boxes for the data fields you want to include in the query result set.
-
-    <!--image-->
-
-7. Rename fields.
+6. Rename fields.
 
     <!--image-->
     ![](../../../../images/DataFederation-FieldAliases.png)
 
-8. Click **OK** to close the Query Builder. Click **Finish** to complete the Data Source Wizard.
+7. Click **OK** to close the Query Builder. Click **Finish** to complete the Data Source Wizard.
  
 The Wizard creates a new **FederationDataSource** that includes the single **Customers** query. This data source becomes available in the [Report Explorer](../../../../articles/report-designer/report-designer-for-winforms/report-designer-tools/ui-panels/report-explorer.md)'s **Components** node. The [Field List](../../../../articles/report-designer/report-designer-for-winforms/report-designer-tools/ui-panels/field-list.md) reflects the data source structure. 
 
