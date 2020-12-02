@@ -9,7 +9,7 @@
 * In the invoked **Table Properties** dialog, click **Around** in the **Text Wrapping** section. Click the enabled **Positioning** button to open the **Table Positioning** dialog.
 
     ![RTETablesPropertiesRibbon](../../../images/richedit-tables-wrapping-dialog.png)
-* Here you can specify the table's horizontal and vertical position. Enter numeric value in the **Position** combo box to specify an absolute position. To set a relative position, select the required alignment from the **Position** list and the relative element from the **Relative to:** list.
+* In this dialog, you can specify the table's horizontal and vertical positions. Enter a numeric value in the **Position** combo box to specify an absolute position. To set a relative position, select the required alignment from the **Position** list and the relative element from the **Relative to:** list.
 
 * Specify the distance between the table and surrounding text in the **Distance from surrounding text** section.
 
