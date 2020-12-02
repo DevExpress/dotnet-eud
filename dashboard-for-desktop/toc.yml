@@ -111,6 +111,8 @@
           href: articles/dashboard-designer/designing-dashboard-items/chart/axes/y-axis.md
       - name: Orientation
         href: articles/dashboard-designer/designing-dashboard-items/chart/orientation.md
+      - name: Conditional Formatting
+        href: articles/dashboard-designer/designing-dashboard-items/chart/conditional-formatting.md
     - name: Scatter Chart
       href: articles/dashboard-designer/designing-dashboard-items/scatter-chart.md
       items:
@@ -133,6 +135,8 @@
         href: articles/dashboard-designer/designing-dashboard-items/scatter-chart/orientation.md
       - name: Labels
         href: articles/dashboard-designer/designing-dashboard-items/scatter-chart/labels.md
+      - name: Conditional Formatting
+        href: articles/dashboard-designer/designing-dashboard-items/scatter-chart/conditional-formatting.md
     - name: Grid
       href: articles/dashboard-designer/designing-dashboard-items/grid.md
       items:

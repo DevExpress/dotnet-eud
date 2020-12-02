@@ -48,7 +48,7 @@ To clear the applied filter, select **Clear** from the measure's context menu.
 > The measure filter is technically an expression that uses the `filter(summaryExpression, filterCriteria)` function where `summaryExpression` is a measure to be filtered and `filterCriteria` is a filter. See [Expression Constants, Operators, and Functions](../data-analysis/expression-constants-operators-and-functions.md) for more information about functions you can use in dashboard expressions.
 
 The image below shows a Chart with three measures:  
-
+ 
 - _2019 - Opened_ is filtered by year 2019.
 - _2020 - Opened_ is filtered by year 2020.
 - _Opened_ is the original measure without filters.

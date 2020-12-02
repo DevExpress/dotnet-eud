@@ -73,6 +73,8 @@
         href: articles/web-dashboard-designer-mode/designing-dashboard-items/chart/axes.md
       - name: Orientation
         href: articles/web-dashboard-designer-mode/designing-dashboard-items/chart/orientation.md
+      - name: Consitional Formatting
+        href: articles/web-dashboard-designer-mode/designing-dashboard-items/chart/conditional-formatting.md
     - name: Scatter Chart
       href: articles/web-dashboard-designer-mode/designing-dashboard-items/scatter-chart.md
       items:
@@ -88,6 +90,8 @@
         href: articles/web-dashboard-designer-mode/designing-dashboard-items/scatter-chart/orientation.md
       - name: Labels
         href: articles/web-dashboard-designer-mode/designing-dashboard-items/scatter-chart/labels.md
+      - name: Conditional Formatting
+        href: articles/web-dashboard-designer-mode/designing-dashboard-items/scatter-chart/conditional-formatting.md
     - name: Grid
       href: articles/web-dashboard-designer-mode/designing-dashboard-items/grid.md
       items:
