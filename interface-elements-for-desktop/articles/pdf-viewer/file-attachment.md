@@ -5,7 +5,7 @@ legacyId: 115330
 ---
 # File Attachments
 
-This document describes actions that can be performed on attachments in the PDF Viewer.
+This document describes the available actions for attachments in the PDF Viewer.
 
 An attachment is a file that is attached to a PDF document. The PDF Viewer shows file attachments in the **Attachments** panel of the navigation pane.
 
@@ -13,7 +13,7 @@ An attachment is a file that is attached to a PDF document. The PDF Viewer shows
 
 ## Open an Attachment
 
-To open a file attachment for viewing, you need an application which supports the corresponding file format to be installed in your computer. To view an attachment, do one of the following.
+To open certain file attachments, you need an application that can read the corresponding file format. To view an attachment, do one of the following:
 
 * double click the attached file;
 

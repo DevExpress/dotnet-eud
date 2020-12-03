@@ -7,7 +7,7 @@ legacyId: 17451
 
 This section describes the **PDF Viewer** capabilities.
 
-The PDF Viewer is used to display PDF files and supports various document content such as text, images, vector graphics, etc.
+The PDF Viewer can display PDF files with different document content such as text, images, vector graphics, etc.
 
 ![pdf-viewer-control-windows-forms](../images/img19650.jpg)
 
