@@ -29,7 +29,7 @@ This section is divided into the following subsections.
 	Describes how to customize settings related to chart axes.
 * [Legend](chart/legend.md)
 	
-	Provides information about the chart legend and its options.
+	Describes the chart legend and its options.
 * [Orientation](chart/orientation.md)
 	
 	Describes how to toggle the chart's orientation.

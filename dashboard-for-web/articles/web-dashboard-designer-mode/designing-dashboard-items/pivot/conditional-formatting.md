@@ -4,7 +4,7 @@ author: Natalia Kazakova
 legacyId: 117517
 ---
 # Conditional Formatting
-A Pivot dashboard item highlights cells with a certain color, depending on the cell's value. You can calculate a format rule by measures placed in the **Values** section and dimensions placed in the **Columns** or **Rows** sections.
+A Pivot dashboard item highlights cells with a certain color, depending on the cell's value. You can calculate a format rule by measures placed in the **Values** section and dimensions placed in the **Columns** or **Rows** section.
 
 You can use [hidden measures](../../binding-dashboard-items-to-data/hidden-data-items.md) to specify a condition used to apply formatting to visible values. 
 
@@ -46,7 +46,7 @@ You can create and edit format rules in the **Conditional Formatting** section t
 
 * The dashboard item's [Options](../../ui-elements/dashboard-item-menu.md) menu
 
-*  [data item menu](../../ui-elements/data-item-menu.md)
+* The [data item menu](../../ui-elements/data-item-menu.md)
 
 Refer to the following topic for information on how to create and edit format rules: [Conditional Formatting in Web Dashboard](../../appearance-customization/conditional-formatting.md).
 
@@ -56,7 +56,7 @@ New appearance settings are applied to data cells that correspond to a row/colum
 
 Note the following specifics:
 
-1. The dashboard does not calculate format rules in a pivot for percentage values on multiple levels. In this case, "All Levels" intersection mode is not available.
+1. The dashboard does not calculate format rules in a pivot item for percentage values at multiple levels. In this case, the "All Levels" intersection mode is not available.
 2. If you create a new format rule for a dimension from the Columns/Rows section, the corresponding format condition dialog does not contain any Pivot-specific settings.
 
 The format rule's **Miscellaneous** section contains pivot-specific options:
@@ -65,12 +65,12 @@ The format rule's **Miscellaneous** section contains pivot-specific options:
 
 | Option | Description |
 | --|--|
-| **Enabled** | Enables/ Disables the current format rule. |
-| **Intersection Mode** | Specifies the level on which to apply conditional formatting to pivot cells. |  
+| **Enabled** | Enables/disables the current format rule. |
+| **Intersection Mode** | Specifies the level at which to apply conditional formatting to pivot cells. |  
 | **Intersection Row/Column Dimension**  | Applies the format rule to the specified row/column dimension, if you select the _Specific Level_ as the intersection mode.|
 | **Apply to Row/Column** | Specifies whether to apply the formatting to the entire Pivot's row/column.|
 
-A Pivot item allows you to specify to which field intersection a format rule is applied.
+A Pivot item allows you to specify the field intersection to which a format rule is applied.
 
 | Intersection Level Mode| Description |
 | --|--|

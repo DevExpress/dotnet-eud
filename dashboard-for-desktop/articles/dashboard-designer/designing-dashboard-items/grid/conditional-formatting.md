@@ -4,7 +4,7 @@ author: Natalia Kazakova
 legacyId: 114224
 ---
 # Conditional Formatting
-A Grid dashboard item applies conditional formatting to data items that provide data to the [dimension](columns/dimension-column.md) and [measure](columns/measure-column.md) column types. 
+A Grid dashboard item applies conditional formatting to data items that supply data to the [dimension](columns/dimension-column.md) and [measure](columns/measure-column.md) column types. 
 
 ![grid-with-applied-format-rules](../../../../images/grid-with-applied-format-rules.png)
 
@@ -63,6 +63,5 @@ You can configure and customize current format condition appearance settings.
 	![NewRuleDialog_AppearanceTab](../../../../images/img118585.png)
 
 * Add a predefined icon in the **Icons** tab.	
-
 
 

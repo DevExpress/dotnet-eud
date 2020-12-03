@@ -59,11 +59,11 @@ The image below displays the **Greater Than** dialog (a [Value](../../appearance
 
 ![chart-greater-than-dialog-example](../../../../images/chart-greater-than-dialog-example.png)
 
-Enable **Display in Legend** to add information about the applied rule to the chart. Set the **Caption** field to specify the legend's text. For Range format rules the legend's text is generated automatically and depends on the range intervals.
+Enable **Display in Legend** to add information about the applied rule to the chart. Set the **Caption** field to specify the legend's text. For Range format rules, the legend's text is generated automatically and depends on the range intervals.
 
-Use the **Apply to chart elements** drop-down list to apply a rule on points or lines.
+Use the **Apply to chart elements** drop-down list to apply a rule to points or lines.
 
-* **Point**: A rule applies to the data-points such as bars, points and bubbles.
+* **Point**: A rule applies to the data points such as bars, points and bubbles.
 * **Line/Area**: A rule applies to lines and areas.
 
 The image below displays the Chart item with the applied **Greater Than** format rule. The **Apply to chart elements** option is set to **Point** and the rule is applied to points of the line series. 
@@ -80,7 +80,7 @@ A Chart item paints elements in pale gray if they do not meet the applied format
 
 ![](../../../../images/chart-coloring-by-default-cf.png)
 
-Select **Color by Hue** option in a Data item's pane to restore the color scheme.
+Select the **Color by Hue** option in a Data item's pane to restore the color scheme.
 
 ![](../../../../images/chart-coloring-by-hue-with-applied-format-rule.png)
 

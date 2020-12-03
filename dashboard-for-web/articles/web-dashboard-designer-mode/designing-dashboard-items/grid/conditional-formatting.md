@@ -44,7 +44,7 @@ You can create and edit format rules in the **Conditional Formatting** section t
 
 * The dashboard item's [Options](../../ui-elements/dashboard-item-menu.md) menu
 
-*  [data item menu](../../ui-elements/data-item-menu.md)
+* The [data item menu](../../ui-elements/data-item-menu.md)
 
 Refer to the following topic for information on how to create and edit format rules: [Conditional Formatting in Web Dashboard](../../appearance-customization/conditional-formatting.md).
 
@@ -56,5 +56,5 @@ The format rule's **Miscellaneous** section contains the following properties th
 
  | Option | Description |
  | -- | --| 
- | **Enabled** | Enables/ Disables the current format rule. |
+ | **Enabled** | Enables/disables the current format rule. |
  | **Applied to Row** | Applies the current format rule to a row. |

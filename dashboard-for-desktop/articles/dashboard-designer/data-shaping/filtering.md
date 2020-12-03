@@ -10,7 +10,7 @@ The Dashboard Designer allows you to filter data in the dashboard items or apply
 
 Filters that apply to a [dashboard item](../designing-dashboard-items.md) affect only this item. To add filters, select the target dashboard item and do one of the following:
 
-* Click the **Edit Filter** button in the **Data** tab in a Ribbon menu. 
+* Click the **Edit Filter** button in the Ribbon menu's **Data** tab. 
 	
 	![DataShaping_Filtering_EditFilterButton](../../../images/datashaping_filtering_editfilterbutton19368.png)
 * Right-click a dashboard item and select **Edit Filter** from its context menu.
@@ -45,7 +45,7 @@ The filtered measure has the _Filter_ icon:
 To clear the applied filter, select **Clear** from the measure's context menu.
 
 > [!Note]
-> The measure filter is technically an expression that uses the `filter(summaryExpression, filterCriteria)` function where `summaryExpression` is a measure to be filtered and `filterCriteria` is a filter. See [Expression Constants, Operators, and Functions](../data-analysis/expression-constants-operators-and-functions.md) for more information about functions you can use in dashboard expressions.
+> The measure filter is technically an expression that uses the `filter(summaryExpression, filterCriteria)` function, where `summaryExpression` is the measure to be filtered and `filterCriteria` is the filter. See the following topic for more information about functions you can use in dashboard expressions: [Expression Constants, Operators, and Functions](../data-analysis/expression-constants-operators-and-functions.md).
 
 The image below shows a Chart with three measures:  
  
@@ -60,7 +60,7 @@ The image below shows a Chart with three measures:
 You can specify a Visible Data Filter to limit displayed data. This filter type does not filter underlying data used in calculations or intermediate level aggregations.
 
 
-Click the **Set Visible Data Filter** button in the **Data** tab in a Ribbon menu to invoke the Visible Data Filter Editor where you can set a filter condition:
+Click the **Set Visible Data Filter** button in the Ribbon menu's **Data** tab to invoke the Visible Data Filter Editor, where you can set a filter condition:
 
 ![win-filter-visible-data-filter-ribbon-button](../../../images/win-filter-visible-data-filter-ribbon-button.png)
 
@@ -70,16 +70,16 @@ For example, a Grid dashboard item has 35 rows and displays sales percentages.
 
 The image below shows the difference between filters (the filter condition is the same): 
 
-- **Dashboard Item Filter**: sales percentages are re-calculated based on the visible data.
+- **Dashboard Item Filter**: sales percentages are recalculated based on the visible data.
 - **Visible Data Filter**: sales percentages remain the same because this filter type does not affect calculations.
 
 ![win-filter-visible-data-filter-grids](../../../images/win-filter-visible-data-filter-grids.png)
 
 ## Pass Parameter Values
-You can use the Filter Editor to filter a dashboard item according to the current parameter value. See the [Pass Parameter Values](../data-analysis/using-dashboard-parameters/passing-parameter-values.md) topic for details.
+You can use the Filter Editor to filter a dashboard item according to the current parameter value. See the following topic for details: [Pass Parameter Values](../data-analysis/using-dashboard-parameters/passing-parameter-values.md).
 
 ## OLAP Filtering Specifics
-You cannot apply filtering by building complex filter criteria in [OLAP](../binding-dashboard-items-to-data/binding-dashboard-items-to-data-in-olap-mode.md) mode. Instead, you can filter dimension attributes and hierarchies by manually selecting the values you wish (or do not wish) to include in the dashboard.
+You cannot filter data by building complex filter criteria in [OLAP](../binding-dashboard-items-to-data/binding-dashboard-items-to-data-in-olap-mode.md) mode. Instead, select the values you wish to include in or exclude from the dashboard to filter dimension attributes and hierarchies.
 
 For dimension attributes, the Filter Editor contains a list of all values. You can select the values that you wish to display.
 

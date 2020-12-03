@@ -79,7 +79,7 @@ You can see the Treemap's arguments that use colors from the **Local Color Schem
 
 ![win-coloring-treemap-local-color-scheme](../../../../images/win-coloring-treemap-local-color-scheme.png)
 
-Colors modified in the local color scheme do not affect items that use the global color scheme. The following image shows the custom color for _Georgia_ in the Treemap:
+Colors modified in the local color scheme do not affect items that use the global color scheme. The following image shows a custom color for _Georgia_ in the Treemap:
 
 ![win-coloring-treemap-local-color-scheme-custom-color](../../../../images/win-coloring-treemap-local-color-scheme-custom-color.png)
 

@@ -60,7 +60,7 @@ The image below displays the Scatter Chart item with the applied **Greater Than*
 
 ![win-scatter-chart-conditional-formatting](../../../../images/win-scatter-chart-conditional-formatting.png)
 
-For Range format rules the legend display text is generated automatically and depends on the range intervals:
+For Range format rules, the legend display text is generated automatically and depends on the range intervals:
 
 ![win-scatter-chart-with-range-rule](../../../../images/win-scatter-chart-with-range-rule.png)
 

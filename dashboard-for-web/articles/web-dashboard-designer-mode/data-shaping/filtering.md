@@ -33,7 +33,7 @@ Open a dashboard item's [Binding](../ui-elements/dashboard-item-menu.md) menu an
 You can clear the applied filter in the [data item menu](../ui-elements/data-item-menu.md)'s **Filter** section.
 
 > [!Note]
-> The measure filter is technically an expression that uses the `filter(summaryExpression, filterCriteria)` function where `summaryExpression` is a measure to be filtered and `filterCriteria` is a filter. See [Expression Constants, Operators, and Functions](../data-analysis/expression-constants-operators-and-functions.md) for more information about functions you can use in dashboard expressions.
+> The measure filter is technically an expression that uses the `filter(summaryExpression, filterCriteria)` function, where `summaryExpression` is the measure to be filtered and `filterCriteria` is the filter. See the following topic for more information about functions you can use in dashboard expressions: [Expression Constants, Operators, and Functions](../data-analysis/expression-constants-operators-and-functions.md).
 
 The image below shows a Chart with three measures: 
 
@@ -48,7 +48,7 @@ The image below shows a Chart with three measures:
 
 You can specify a Visible Data Filter to limit displayed data. This filter type does not filter underlying data used in calculations or intermediate level aggregations.
 
-Open a dashboard item's [Filters](../ui-elements/dashboard-item-menu.md) menu, go to the **Visible Data Filter** section and click **Edit** to invoke the Filter Editor where you can specify a condition:
+Open a dashboard item's [Filters](../ui-elements/dashboard-item-menu.md) menu, go to the **Visible Data Filter** section and click **Edit** to invoke the Filter Editor, where you can specify a condition:
 
 ![web-invoke-visible-data-filter](../../../images/web-invoke-visible-data-filter.png)
 
@@ -58,13 +58,13 @@ For example, a Grid dashboard item has 35 rows and displays sales percentages.
 
 The image below shows the difference between filters (the filter condition is the same): 
 
-- **Dashboard Item Filter**: sales percentages are re-calculated based on the visible data.
+- **Dashboard Item Filter**: sales percentages are recalculated based on the visible data.
 - **Visible Data Filter**: sales percentages remain the same because this filter type does not affect calculations.
 
 ![web-filter-visible-data-filter-grids](../../../images/web-filter-visible-data-filter-grids.png)
 
 ## OLAP Filtering Specifics
-In OLAP mode, you cannot apply filtering by building complex filter criteria. Instead, you can filter dimension attributes and hierarchies by manually selecting the values you wish to include or exclude from the dashboard.
+In OLAP mode, you cannot filter data by building complex filter criteria. Instead, select the values you wish to include in or exclude from the dashboard to filter dimension attributes and hierarchies.
 
 | Dimension Attribute | Dimension Hierarchy |
 |---|---|

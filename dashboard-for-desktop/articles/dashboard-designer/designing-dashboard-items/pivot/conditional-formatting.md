@@ -5,7 +5,7 @@ legacyId: 114225
 ---
 # Conditional Formatting
 
-A Pivot dashboard item applies conditional formatting to cell values. You can calculate a format rule by measures placed in the **Values** section and dimensions placed in the **Columns** or **Rows** sections.
+A Pivot dashboard item applies conditional formatting to cell values. You can calculate a format rule by measures placed in the **Values** section and dimensions placed in the **Columns** or **Rows** section.
 
 > [!NOTE]
 > Note that you can use [hidden measures](../../binding-dashboard-items-to-data/hidden-data-items.md) to specify a condition used to apply formatting to visible values.
@@ -64,12 +64,12 @@ The **Appearance** tab contains the following Pivot-specific settings:
 
 | Option | Description |
 | --|--|
-| **Enabled** | Enables/ Disables the current format rule. |
-| **Intersection Mode** | Specifies the level on which to apply conditional formatting to pivot cells. |  
+| **Enabled** | Enables/disables the current format rule. |
+| **Intersection Mode** | Specifies the level at which to apply conditional formatting to pivot cells. |  
 | **Intersection Row/Column Dimension**  | Applies the format rule to the specified row/column dimension, if you select the _Specific Level_ as the intersection mode.|
 | **Apply to Row/Column** | Specifies whether to apply the formatting to the entire Pivot's row/column.|
 
-A Pivot item allows you to specify to which field intersection a format rule is applied.
+A Pivot item allows you to specify the field intersection to which a format rule is applied.
 
 | Intersection Level Mode| Description |
 | --|--|
@@ -88,6 +88,5 @@ To apply a format rule to the row or column Grand Total, change the **Intersecti
 
 Note the following limitations:
 
-1. The dashboard cannot calculate conditional formatting in a Pivot for multiple levels of ranges with _percentage_ values. In this case, the "All Levels" intersection mode is not available for a conditional formatting rule.
+1. The dashboard cannot calculate conditional formatting in a Pivot item for multiple range levels with _percentage_ values. In this case, the "All Levels" intersection mode is not available for a conditional formatting rule.
 2. The format condition dialog does not contain any Pivot-specific settings for a dimension from **Columns** and **Rows**.
-
