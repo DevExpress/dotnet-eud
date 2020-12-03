@@ -187,8 +187,10 @@
     href: articles/pdf-viewer/thumbnails.md
   - name: Bookmarks
     href: articles/pdf-viewer/bookmarks.md
-  - name: File Attachment
+  - name: File Attachments
     href: articles/pdf-viewer/file-attachment.md
+  - name: Annotations
+    href: articles/pdf-viewer/annotations.md
   - name: Export and Import the AcroForm Data
     href: articles/pdf-viewer/export-and-import-the-acroform-data.md
 - name: Pivot Table
