@@ -18,7 +18,7 @@ author: Anna Gubareva
 
 2. Set the control’s **Symbology** property to **Code93**. 
 
-    ![](../../../../../images/code-93-in-designer.png)
+    ![](../../../../../images/code-93-extended-in-designer.png)
 
 3. Specify [common](add-bar-codes-to-a-report.md) barcode properties and properties [specific](#specific-properties) to **Code 93**.
 
