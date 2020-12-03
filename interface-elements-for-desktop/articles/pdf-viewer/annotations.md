@@ -16,7 +16,7 @@ You can also add text markup annotations from the context menu.
 
 ![image](../../images/markup-context-menu.png)
 
-You can change the default settings for annotation tools. Click the drop-down arrow in the corresponding annotation tool and specify the color and opacity.
+You can change the default settings for annotation tools. Click the drop-down arrow in the corresponding annotation tool in the **Text** ribbon group and specify the color and opacity.
 
 ![image](../../images/markup-tool-color-picker.png)
 
