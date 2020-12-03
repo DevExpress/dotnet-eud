@@ -33,7 +33,7 @@ Add a [Chart](../../designing-dashboard-items/chart.md) with the same Argument a
 
 ![win-coloring-treemap-chart-none](../../../../images/win-coloring-treemap-chart-none.png)
 
-**Default** means **None** for chart arguments.  
+Note that **Default** means **None** for chart arguments.  
 
 ## Color Mode: Hue 
 
