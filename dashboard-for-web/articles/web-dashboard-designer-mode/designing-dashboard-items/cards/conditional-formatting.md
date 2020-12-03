@@ -50,7 +50,7 @@ For a Card dashboard item, you can apply conditional formatting to the card's vi
 
 Available settings in the **Common** section depend on the selected **Calculated by** option:
 
-* The **Card** option specifies a data item container (a card by whose values the format rule is calculated. The **Value Type** option specifies the card's measurement according to which a condition is calculated.
+* The **Card** option specifies a data item container. The format rule is calculated based on the card's values. The **Value Type** option specifies the card's measurement upon which a condition is calculated.
 
     If the Card dashboard item contains multiple values in data item containers (cards), make sure you apply a format rule to the active card to see changes. Click ![WebDashboard_DashboardItem_LayersIcon](../../../../images/webdashboard_dashboarditem_layersicon132016.png) in the dashboard item caption to switch between cards. The expression format rule ignores the specified card and is applied to all cards regardless of the specified value.
 * For the **Data Item** option, you can choose a hidden measure or series dimension. The rule applies to all cards in a Card item.
@@ -64,4 +64,3 @@ If you select a background color, it applies to the entire card and the **Apply 
 ![conditional-formatting-card](../../../../images/web-conditional-formatting-card.png)
 
 Some predefined background styles contain a font color. This font color applies to all the card elements regardless of the drop-down list settings (all/particular element).
-
