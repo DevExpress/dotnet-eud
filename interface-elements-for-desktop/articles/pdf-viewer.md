@@ -5,13 +5,13 @@ legacyId: 17451
 ---
 # PDF Viewer
 
-This section describes the **PDF Viewer** capabilities.
+This section describes the **PDF Viewer** features.
 
 The PDF Viewer can display PDF files with different document content such as text, images, vector graphics, etc.
 
 ![pdf-viewer-control-windows-forms](../images/img19650.jpg)
 
-The following sections are available:
+The section consists of the following articles:
 
 * [Manage Documents and Files](pdf-viewer/manage-documents-and-files.md)
 * [Print Documents](pdf-viewer/print-documents.md)
