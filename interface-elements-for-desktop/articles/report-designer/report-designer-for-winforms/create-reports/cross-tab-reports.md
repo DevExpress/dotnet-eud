@@ -1,8 +1,8 @@
 ---
-title: Create a Cross-Tab Report
+title: Cross-Tab Reports
 author: Anna Gubareva
 ---
-# Create a Cross-Tab Report
+# Cross-Tab Reports
 
 This tutorial describes how to use the Cross Tab control to create a **Sales Summary** report.
 

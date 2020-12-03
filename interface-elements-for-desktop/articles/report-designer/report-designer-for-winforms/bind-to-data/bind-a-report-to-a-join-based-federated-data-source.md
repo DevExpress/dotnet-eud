@@ -34,7 +34,7 @@ This topic describes how to create a federated data source that joins data from 
 
     ![](../../../../images/eurd-data-federation-query-builder-drop-table.png)
 
-5. Drag and drop the Excel data source onto the design surface. In the invoked **Join Editor**, select the **Inner join** type and create a relationship based on the **CategoryID** key field.
+5. Drag and drop the Excel data source onto the design surface. In the invoked **Join Editor**, select the **Inner join** type and create a relationship based on the key field.
 
     ![](../../../../images/eurd-data-federation-query-builder-join-tables.png)
 
