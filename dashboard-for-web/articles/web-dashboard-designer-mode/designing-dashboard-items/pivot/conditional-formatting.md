@@ -68,7 +68,7 @@ The format rule's **Miscellaneous** section contains pivot-specific options:
 | **Enabled** | Enables/disables the current format rule. |
 | **Intersection Mode** | Specifies the level at which to apply conditional formatting to pivot cells. |  
 | **Intersection Row/Column Dimension**  | Applies the format rule to the specified row/column dimension, if you select the _Specific Level_ as the intersection mode.|
-| **Apply to Row/Column** | Specifies whether to apply the formatting to the entire Pivot's row/column.|
+| **Apply to Row/Column** | Specifies whether to apply the formatting to the Pivot item's entire row/column.
 
 A Pivot item allows you to specify the field intersection to which a format rule is applied.
 
