@@ -44,7 +44,7 @@ Set the TreeMap's color mode to **Default** or **Hue**:
 ![win-coloring-chart-none-treemap-hue](../../../../images/win-coloring-chart-none-treemap-hue.png)
 
 
-In the Chart settings, move _State_ from Arguments to Series. **Default** now means **Hue** in this new context. The ![ColoringIndicator](../../../../images/coloringindicator25453.png) indicator on the data item shows that color variation by hue is enabled.
+In the Chart settings, move _State_ from Arguments to Series. **Default** now means **Hue** in this new context. The coloring indicator (![ColoringIndicator](../../../../images/coloringindicator25453.png)) on the data item shows that color variation by hue is enabled.
 
 ![win-coloring-chart-treemap-hue](../../../../images/win-coloring-chart-treemap-hue.png)
 
