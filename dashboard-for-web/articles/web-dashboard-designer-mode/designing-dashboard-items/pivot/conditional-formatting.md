@@ -29,7 +29,7 @@ Format rules that can be applied to different data item types are as follows:
 	* **Expression**
 * date-time 
 	* **Value**
-	* A **Date Occurring** (for dimensions with a continuous date-time group interval)
+	* **A Date Occurring** (for dimensions with a continuous date-time group interval)
 	* **Expression**
 	* **Icon and Color Ranges**
 	* **Color Ranges**
