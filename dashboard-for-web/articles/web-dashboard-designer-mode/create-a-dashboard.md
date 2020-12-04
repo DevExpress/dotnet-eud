@@ -1,9 +1,9 @@
 ---
-title: Creating a Dashboard
+title: Create a Dashboard
 author: Natalia Kazakova
 legacyId: 117922
 ---
-# Creating a Dashboard
+# Create a Dashboard
 The Web dashboard allows you to embed the user interface required for creating dashboards at runtime.
 
 You can create a new dashboard in two ways.

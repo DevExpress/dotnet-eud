@@ -1,8 +1,8 @@
 - name: Dashboard Designer
   href: articles/dashboard-designer.md
   items:
-  - name: Creating a Dashboard
-    href: articles/dashboard-designer/creating-a-dashboard.md
+  - name: Create a Dashboard
+    href: articles/dashboard-designer/create-a-dashboard.md
   - name: Provide Data
     href: articles/dashboard-designer/provide-data.md
     items:

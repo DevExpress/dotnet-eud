@@ -12,7 +12,7 @@ The dashboard menu consists of the following buttons.
 
 | Button | Description | Shortcut |
 |---|---|---|
-| **New...** | Use this button to create a new dashboard. The invoked **New...** page allows you to set a dashboard name, choose an existing data source for this dashboard or create a new one. To learn more, see [Creating a Dashboard](../creating-a-dashboard.md). | Alt+N |
+| **New...** | Use this button to create a new dashboard. The invoked **New...** page allows you to set a dashboard name, choose an existing data source for this dashboard or create a new one. To learn more, see [Create a Dashboard](../create-a-dashboard.md). | Alt+N |
 | **Open...** | This button allows you to [open](../open-a-dashboard.md) the existing dashboards. | Alt+O |
 | **Save** | Use this button to [save](../save-a-dashboard.md) the current dashboard. | Alt+S |
 | **Data Sources** | This button opens the **Data Sources** page where you can configure dashboard _data sources_. To learn more, see [Manage Data Sources](../provide-data/manage-data-sources.md). | Alt+A |

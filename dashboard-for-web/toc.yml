@@ -1,8 +1,8 @@
 - name: Web Dashboard - Designer Mode
   href: articles/web-dashboard-designer-mode.md
   items:
-  - name: Creating a Dashboard
-    href: articles/web-dashboard-designer-mode/creating-a-dashboard.md
+  - name: Create a Dashboard
+    href: articles/web-dashboard-designer-mode/create-a-dashboard.md
   - name: Provide Data
     href: articles/web-dashboard-designer-mode/provide-data.md
     items:

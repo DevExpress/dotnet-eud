@@ -4,7 +4,7 @@ author: Natalia Kazakova
 legacyId: 117923
 ---
 # Adding Dashboard Items
-After [creating a dashboard](creating-a-dashboard.md) and [provide data](provide-data.md) to it, add **dashboard items** to display visual or textual information in a dashboard.
+After [creating a dashboard](create-a-dashboard.md) and [provide data](provide-data.md) to it, add **dashboard items** to display visual or textual information in a dashboard.
 
 To create a dashboard item, click the corresponding button in the [Toolbox](ui-elements/toolbox.md) or drag an item from the Toolbox into the dashboard surface.
 
