@@ -21,11 +21,11 @@ The following sections describe how to create hyperlink columns in more detail:
 
 ## Data Field Containing Uri Values
 
-Drag the _Name_ data field from the Data Source tree view to the column's [data item container](../../../binding-dashboard-items-to-data/binding-dashboard-items-to-data.md). The data field is automatically processed as [dimension](dimension-column.md). Drag and drop the GDP data field to another column's data item container. The data field is recognized as [measure](measure-column.md) and summarized.
+Drag the _Name_ data field from the Data Source tree view to the column's [data item container](../../../bind-dashboard-items-to-data/bind-dashboard-items-to-data.md). The data field is automatically processed as [dimension](dimension-column.md). Drag and drop the GDP data field to another column's data item container. The data field is recognized as [measure](measure-column.md) and summarized.
 
 ![GridHyperLinkColumn_InitialGrid](../../../../../images/GridHyperLinkColumn_InitialGrid.png)
 
-[Drop](../../../binding-dashboard-items-to-data/binding-dashboard-items-to-data.md) the _Link_ field between the _Name_ and the _GDP (Sum)_ data items. The Grid recognizes this field as **dimension** and displays links as plain text.
+[Drop](../../../bind-dashboard-items-to-data/bind-dashboard-items-to-data.md) the _Link_ field between the _Name_ and the _GDP (Sum)_ data items. The Grid recognizes this field as **dimension** and displays links as plain text.
 
 ![GridHyperLinkColumn_HyperlinkAsText](../../../../../images/GridHyperLinkColumn_HyperlinkAsText.png)
 
@@ -50,7 +50,7 @@ The grid displays official country names with links obtained from the _Link_ dat
 ## Uri Pattern
 In this case, a specified URI pattern is used to generate links.
 
-Drag the _Name_ data field from the Data Source tree view to the column's [data item container](../../../binding-dashboard-items-to-data/binding-dashboard-items-to-data.md). The data field is automatically processed as [dimension](dimension-column.md). Drag and drop the GDP data field to another column's data item container. The data field is recognized as [measure](measure-column.md) and summarized.
+Drag the _Name_ data field from the Data Source tree view to the column's [data item container](../../../bind-dashboard-items-to-data/bind-dashboard-items-to-data.md). The data field is automatically processed as [dimension](dimension-column.md). Drag and drop the GDP data field to another column's data item container. The data field is recognized as [measure](measure-column.md) and summarized.
 
 ![GridHyperLinkColumn_InitialGrid](../../../../../images/GridHyperLinkColumn_InitialGrid.png)
 

@@ -9,7 +9,7 @@ The Dashboard Designer provides the capability to convert data-bound dashboard i
 ![Ribbon_ConvertDashboardItem](../../images/img23151.png)
 
 The Dashboard Designer always preserves the following settings for data-bound dashboard items.
-* The set of [data items](binding-dashboard-items-to-data.md) used to bind the dashboard item to data.
+* The set of [data items](bind-dashboard-items-to-data.md) used to bind the dashboard item to data.
 * [Data shaping](data-shaping.md) settings of data items and their names.
 * A custom name displayed within the dashboard item [caption](dashboard-layout/dashboard-item-caption.md).
 

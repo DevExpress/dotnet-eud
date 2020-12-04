@@ -18,8 +18,8 @@ The following series types support conditional formatting:
 
 You can use the following data in rule calculations:
 
-- [measures](../../binding-dashboard-items-to-data/binding-dashboard-items-to-data.md) from the **Values** section 
-- [dimensions](../../binding-dashboard-items-to-data/binding-dashboard-items-to-data.md) from the **Arguments**/**Series** section 
+- [measures](../../bind-dashboard-items-to-data/bind-dashboard-items-to-data.md) from the **Values** section 
+- [dimensions](../../bind-dashboard-items-to-data/bind-dashboard-items-to-data.md) from the **Arguments**/**Series** section 
 - hidden measures 
 
 The following list contains available format rules and corresponding data types:

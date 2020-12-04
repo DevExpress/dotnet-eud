@@ -55,15 +55,15 @@
       href: articles/dashboard-designer/working-with-data/data-inspector.md
   - name: Adding Dashboard Items
     href: articles/dashboard-designer/adding-dashboard-items.md
-  - name: Binding Dashboard Items to Data
-    href: articles/dashboard-designer/binding-dashboard-items-to-data.md
+  - name: Bind Dashboard Items to Data
+    href: articles/dashboard-designer/bind-dashboard-items-to-data.md
     items:
-    - name: Binding Dashboard Items to Data
-      href: articles/dashboard-designer/binding-dashboard-items-to-data/binding-dashboard-items-to-data.md
+    - name: Bind Dashboard Items to Data
+      href: articles/dashboard-designer/bind-dashboard-items-to-data/bind-dashboard-items-to-data.md
     - name: Hidden Data Items
-      href: articles/dashboard-designer/binding-dashboard-items-to-data/hidden-data-items.md
-    - name: Binding Dashboard Items to Data in OLAP mode
-      href: articles/dashboard-designer/binding-dashboard-items-to-data/binding-dashboard-items-to-data-in-olap-mode.md
+      href: articles/dashboard-designer/bind-dashboard-items-to-data/hidden-data-items.md
+    - name: Bind Dashboard Items to Data in OLAP mode
+      href: articles/dashboard-designer/bind-dashboard-items-to-data/bind-dashboard-items-to-data-in-olap-mode.md
   - name: Dashboard Item Settings
     href: articles/dashboard-designer/dashboard-item-settings.md
     items:

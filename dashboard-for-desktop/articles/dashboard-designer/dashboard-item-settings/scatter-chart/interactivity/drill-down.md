@@ -18,7 +18,7 @@ Drill-down requires that the **Arguments** section contain several dimensions, f
 ![ScatterChart_DrillDownArguments](../../../../../images/img120199.png)
 
 > [!NOTE]
-> In OLAP mode, you can perform drill-down for either a hierarchy data item or several dimension attributes. To learn more about OLAP mode, see [Binding Dashboard Items to Data in OLAP mode](../../../binding-dashboard-items-to-data/binding-dashboard-items-to-data-in-olap-mode.md).
+> In OLAP mode, you can perform drill-down for either a hierarchy data item or several dimension attributes. To learn more about OLAP mode, see [Bind Dashboard Items to Data in OLAP mode](../../../bind-dashboard-items-to-data/bind-dashboard-items-to-data-in-olap-mode.md).
 
 To enable drill-down, click the **Drill Down** button in the **Data** Ribbon tab (or the ![DataShaping_Interactivity_DrillDown_Toolbar](../../../../../images/img19513.png) button if you are using the toolbar menu).
 

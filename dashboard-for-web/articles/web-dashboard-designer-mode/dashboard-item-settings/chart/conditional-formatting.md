@@ -20,9 +20,9 @@ The following [series types](series.md) support conditional formatting:
 
 You can use the following data in rule calculations:
 
-- [measures](../../binding-dashboard-items-to-data/binding-dashboard-items-to-data-in-the-web-dashboard.md) from the **Values** section 
-- [dimensions](../../binding-dashboard-items-to-data/binding-dashboard-items-to-data-in-the-web-dashboard.md) from the **Arguments**/**Series** section 
-- [hidden measures](../../binding-dashboard-items-to-data/hidden-data-items.md) 
+- [measures](../../bind-dashboard-items-to-data/bind-dashboard-items-to-data-in-the-web-dashboard.md) from the **Values** section 
+- [dimensions](../../bind-dashboard-items-to-data/bind-dashboard-items-to-data-in-the-web-dashboard.md) from the **Arguments**/**Series** section 
+- [hidden measures](../../bind-dashboard-items-to-data/hidden-data-items.md) 
 
 Format conditions that can be applied to different data item types are as follows:
 * numeric 

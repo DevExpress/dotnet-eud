@@ -7,7 +7,7 @@ legacyId: 117964
 
 The Web Dashboard control provides the capability to create calculated fields that allow you to apply complex expressions to data fields obtained from the dashboard's data source. As a result, you can use these fields in data visualizations as regular data source fields.
 
-Note that calculated fields are not supported for the [OLAP](../binding-dashboard-items-to-data/binding-dashboard-items-to-data-in-olap-mode.md) data source.
+Note that calculated fields are not supported for the [OLAP](../bind-dashboard-items-to-data/bind-dashboard-items-to-data-in-olap-mode.md) data source.
 
 You can add a new calculated field based on the existing data source fields after you have created a data source. 
 

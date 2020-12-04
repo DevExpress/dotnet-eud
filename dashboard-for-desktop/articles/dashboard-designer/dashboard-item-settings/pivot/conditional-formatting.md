@@ -8,7 +8,7 @@ legacyId: 114225
 A Pivot dashboard item applies conditional formatting to cell values. You can calculate a format rule by measures placed in the **Values** section and dimensions placed in the **Columns** or **Rows** section.
 
 > [!NOTE]
-> Note that you can use [hidden measures](../../binding-dashboard-items-to-data/hidden-data-items.md) to specify a condition used to apply formatting to visible values.
+> Note that you can use [hidden measures](../../bind-dashboard-items-to-data/hidden-data-items.md) to specify a condition used to apply formatting to visible values.
 
 ![pivot-with-applied-format-rules](../../../../images/pivot-with-applied-format-rules.png)
 

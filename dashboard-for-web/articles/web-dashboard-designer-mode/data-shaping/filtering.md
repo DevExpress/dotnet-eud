@@ -4,7 +4,7 @@ author: Natalia Kazakova
 legacyId: 117706
 ---
 # Filtering
-Web Dashboard allows you to filter data in the [dashboard items](../dashboard-item-settings.md) or apply filters to a specific measure. [Dimensions](../binding-dashboard-items-to-data/binding-dashboard-items-to-data-in-the-web-dashboard.md) and [hidden dimensions](../binding-dashboard-items-to-data/hidden-data-items.md) are used to build filter criteria.
+Web Dashboard allows you to filter data in the [dashboard items](../dashboard-item-settings.md) or apply filters to a specific measure. [Dimensions](../bind-dashboard-items-to-data/bind-dashboard-items-to-data-in-the-web-dashboard.md) and [hidden dimensions](../bind-dashboard-items-to-data/hidden-data-items.md) are used to build filter criteria.
 
 ## Dashboard Item Filter
 
@@ -21,7 +21,7 @@ This invokes the [Filter Editor](../../../../interface-elements-for-web/articles
 
 ## Measure Filter
 
-You can apply filters to individual [measures](../binding-dashboard-items-to-data/binding-dashboard-items-to-data-in-the-web-dashboard.md). If you create multiple measures that only differ in applied filters, you can compare values calculated over different date-time periods or against different categories.
+You can apply filters to individual [measures](../bind-dashboard-items-to-data/bind-dashboard-items-to-data-in-the-web-dashboard.md). If you create multiple measures that only differ in applied filters, you can compare values calculated over different date-time periods or against different categories.
 
 Open a dashboard item's [Binding](../ui-elements/dashboard-item-menu.md) menu and select a measure to filter. In the invoked [data item menu](../ui-elements/data-item-menu.md), open the **Filter** section and click **Edit**. This invokes the [Filter Editor](../../../../interface-elements-for-web/articles/report-designer/report-designer-tools/filter-editor.md) dialog where you can specify filter criteria. 
 

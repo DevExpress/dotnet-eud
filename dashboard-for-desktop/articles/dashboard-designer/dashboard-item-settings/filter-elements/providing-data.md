@@ -6,7 +6,7 @@ legacyId: 17940
 # Providing Data
 This topic describes how to bind filter elements to data using the **Dashboard Designer**.
 
-The Dashboard Designer allows you to bind various dashboard items to data in a consistent manner (see [Binding Dashboard Items to Data](../../binding-dashboard-items-to-data/binding-dashboard-items-to-data.md) for details), the only difference being the data sections that these dashboard items comprise.
+The Dashboard Designer allows you to bind various dashboard items to data in a consistent manner (see [Bind Dashboard Items to Data](../../bind-dashboard-items-to-data/bind-dashboard-items-to-data.md) for details), the only difference being the data sections that these dashboard items comprise.
 
 ## Binding Overview
 All filter elements provide the **Dimensions** data section, which accepts dimensions used to provide filter values.

@@ -4,7 +4,7 @@ author: Natalia Kazakova
 legacyId: 117532
 ---
 # Conditional Formatting
-Use conditional formatting to highlight individual cells or rows based on specific conditions. You can apply format rules to the **dimension** and **measure** [column types](columns.md). You can use [hidden measures](../../binding-dashboard-items-to-data/hidden-data-items.md) to specify a condition used to apply formatting to visible values. 
+Use conditional formatting to highlight individual cells or rows based on specific conditions. You can apply format rules to the **dimension** and **measure** [column types](columns.md). You can use [hidden measures](../../bind-dashboard-items-to-data/hidden-data-items.md) to specify a condition used to apply formatting to visible values. 
 
 ![wdd-grid-conditional-formatting](../../../../images/img125791.png) 
 

@@ -8,7 +8,7 @@ A Grid dashboard item applies conditional formatting to data items that supply d
 
 ![grid-with-applied-format-rules](../../../../images/grid-with-applied-format-rules.png)
 
-You can use [hidden measures](../../binding-dashboard-items-to-data/hidden-data-items.md) to specify a condition used to apply formatting to visible values.
+You can use [hidden measures](../../bind-dashboard-items-to-data/hidden-data-items.md) to specify a condition used to apply formatting to visible values.
 
 ## Supported Format Rules
 

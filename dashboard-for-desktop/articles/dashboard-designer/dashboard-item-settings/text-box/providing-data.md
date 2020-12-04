@@ -4,7 +4,7 @@ author: Natalia Kazakova
 legacyId: 16862
 ---
 # Providing Data
-The Text Box dashboard item can be [bound to data](../../binding-dashboard-items-to-data.md) as other data-aware dashboard items. To do this, perform the following steps.
+The Text Box dashboard item can be [bound to data](../../bind-dashboard-items-to-data.md) as other data-aware dashboard items. To do this, perform the following steps.
 1. Drop the _Name_, _RetailPrice_ and _Description_ data source fields from the _Products_ table to the **Values** section of the Text Box.
 	
 	![TextBoxBind_ValuesSection](../../../../images/img123342.png)

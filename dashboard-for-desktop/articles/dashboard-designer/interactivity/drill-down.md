@@ -11,11 +11,11 @@ Dashboard provides the **Drill-Down** feature, which allows you to change the de
 * [Perform Drill-Down](#perform-drill-down)
 
 ## <a name="enable-drill-down"/>Enable Drill-Down
-Drill-down requires that the [data section](../binding-dashboard-items-to-data/binding-dashboard-items-to-data.md) contains several dimensions...
+Drill-down requires that the [data section](../bind-dashboard-items-to-data/bind-dashboard-items-to-data.md) contains several dimensions...
 
 ![DrillDown_DataItems_SeveralDimensions](../../../images/img22541.png)
 
-... or a hierarchy data item (in [OLAP mode](../binding-dashboard-items-to-data/binding-dashboard-items-to-data-in-olap-mode.md)).
+... or a hierarchy data item (in [OLAP mode](../bind-dashboard-items-to-data/bind-dashboard-items-to-data-in-olap-mode.md)).
 
 ![DrillDown_DataItems_Hierarchy](../../../images/img22542.png)
 

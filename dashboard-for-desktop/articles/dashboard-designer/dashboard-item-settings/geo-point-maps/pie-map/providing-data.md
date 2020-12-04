@@ -6,7 +6,7 @@ legacyId: 16783
 # Providing Data
 This topic describes how to bind the **Pie Map** dashboard item to data using the **Dashboard Designer**.
 
-The Dashboard Designer allows you to bind various dashboard items to data in a virtually uniform manner (see [Binding Dashboard Items to Data](../../../binding-dashboard-items-to-data/binding-dashboard-items-to-data.md) for details). The only difference is in the data sections that these dashboard items have.
+The Dashboard Designer allows you to bind various dashboard items to data in a virtually uniform manner (see [Bind Dashboard Items to Data](../../../bind-dashboard-items-to-data/bind-dashboard-items-to-data.md) for details). The only difference is in the data sections that these dashboard items have.
 
 The image below shows a sample Pie Map dashboard item that is bound to data.
 

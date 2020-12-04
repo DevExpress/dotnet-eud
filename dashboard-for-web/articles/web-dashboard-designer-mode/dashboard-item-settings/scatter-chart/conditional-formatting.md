@@ -12,9 +12,9 @@ Use conditional formatting to highlight points in a Scatter Chart dashboard item
 
 You can use the following data in rule calculations:
 
-- [measures](../../binding-dashboard-items-to-data/binding-dashboard-items-to-data-in-the-web-dashboard.md) from the **X and Y axis** sections 
-- [measures](../../binding-dashboard-items-to-data/binding-dashboard-items-to-data-in-the-web-dashboard.md) from the **Weight** section
-- [dimensions](../../binding-dashboard-items-to-data/binding-dashboard-items-to-data-in-the-web-dashboard.md) from the **Arguments** section 
+- [measures](../../bind-dashboard-items-to-data/bind-dashboard-items-to-data-in-the-web-dashboard.md) from the **X and Y axis** sections 
+- [measures](../../bind-dashboard-items-to-data/bind-dashboard-items-to-data-in-the-web-dashboard.md) from the **Weight** section
+- [dimensions](../../bind-dashboard-items-to-data/bind-dashboard-items-to-data-in-the-web-dashboard.md) from the **Arguments** section 
 - hidden measures 
 
 Format conditions that can be applied to different data item types are as follows:

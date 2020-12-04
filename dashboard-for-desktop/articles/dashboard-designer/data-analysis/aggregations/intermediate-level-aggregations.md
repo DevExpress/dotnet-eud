@@ -6,7 +6,7 @@ legacyId: 116589
 # Intermediate Level Aggregations
 The Dashboard can aggregate and summarize data on different levels.
 * The [Query Builder](../../working-with-data/using-the-query-builder.md) allows you to prepare an underlying data source before analyzing data. You can apply grouping, sorting, summarization and other data shaping operations during data selection.
-* [Dashboard items](../../dashboard-item-settings.md) aggregate and summarize data at a visualization level using dimensions and measures, respectively. To learn more, see [Binding Dashboard Items to Data](../../binding-dashboard-items-to-data/binding-dashboard-items-to-data.md).
+* [Dashboard items](../../dashboard-item-settings.md) aggregate and summarize data at a visualization level using dimensions and measures, respectively. To learn more, see [Bind Dashboard Items to Data](../../bind-dashboard-items-to-data/bind-dashboard-items-to-data.md).
 * The **Aggr** function allows you to introduce an intermediate detail level that is not related to the visualization level. This allows you to create custom aggregations at different levels and combine these aggregations with existing visualizations.
 
 ## Overview

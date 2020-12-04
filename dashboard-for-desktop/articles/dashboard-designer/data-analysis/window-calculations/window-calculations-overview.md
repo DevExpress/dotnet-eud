@@ -8,7 +8,7 @@ Window calculations provide the capability to apply specific computations to mea
 
 ![CalculationsOverview_Demo](../../../../images/img123477.png)
 
-The Dashboard Designer allows you to apply window calculations to values of the specified [measure](../../binding-dashboard-items-to-data/binding-dashboard-items-to-data.md). The following calculation types are supported.
+The Dashboard Designer allows you to apply window calculations to values of the specified [measure](../../bind-dashboard-items-to-data/bind-dashboard-items-to-data.md). The following calculation types are supported.
 * **Running Total** - Allows you to calculate a cumulative total for a set of measure values.
 	
 	![RunningTotalOverview](../../../../images/img123490.png)

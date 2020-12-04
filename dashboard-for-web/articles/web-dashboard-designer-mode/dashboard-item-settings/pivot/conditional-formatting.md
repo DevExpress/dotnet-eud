@@ -6,7 +6,7 @@ legacyId: 117517
 # Conditional Formatting
 A Pivot dashboard item highlights cells with a certain color, depending on the cell's value. You can calculate a format rule by measures placed in the **Values** section and dimensions placed in the **Columns** or **Rows** section.
 
-You can use [hidden measures](../../binding-dashboard-items-to-data/hidden-data-items.md) to specify a condition used to apply formatting to visible values. 
+You can use [hidden measures](../../bind-dashboard-items-to-data/hidden-data-items.md) to specify a condition used to apply formatting to visible values. 
 
 ![wdd-pivot-cf](../../../../images/img126057.png)
 

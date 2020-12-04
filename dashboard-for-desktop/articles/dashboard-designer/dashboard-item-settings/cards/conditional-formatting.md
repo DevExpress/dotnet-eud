@@ -14,7 +14,7 @@ For a Card dashboard item, you can apply conditional formatting to the card's vi
 
 ## Supported Format Rules
 
-You can use [measure or dimension](../../binding-dashboard-items-to-data/binding-dashboard-items-to-data.md) values to calculate a format rule. You can also use [delta](delta.md) values to calculate a Card dashboard item's format rules.
+You can use [measure or dimension](../../bind-dashboard-items-to-data/bind-dashboard-items-to-data.md) values to calculate a format rule. You can also use [delta](delta.md) values to calculate a Card dashboard item's format rules.
 
 The following list contains available format rules and corresponding data types:
 

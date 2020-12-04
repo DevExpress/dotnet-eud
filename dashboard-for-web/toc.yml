@@ -44,15 +44,15 @@
       href: articles/web-dashboard-designer-mode/providing-data/data-inspector.md
   - name: Adding Dashboard Items
     href: articles/web-dashboard-designer-mode/adding-dashboard-items.md
-  - name: Binding Dashboard Items to Data
-    href: articles/web-dashboard-designer-mode/binding-dashboard-items-to-data.md
+  - name: Bind Dashboard Items to Data
+    href: articles/web-dashboard-designer-mode/bind-dashboard-items-to-data.md
     items:
-    - name: Binding Dashboard Items to Data in the Web Dashboard
-      href: articles/web-dashboard-designer-mode/binding-dashboard-items-to-data/binding-dashboard-items-to-data-in-the-web-dashboard.md
+    - name: Bind Dashboard Items to Data in the Web Dashboard
+      href: articles/web-dashboard-designer-mode/bind-dashboard-items-to-data/bind-dashboard-items-to-data-in-the-web-dashboard.md
     - name: Hidden Data Items
-      href: articles/web-dashboard-designer-mode/binding-dashboard-items-to-data/hidden-data-items.md
-    - name: Binding Dashboard Items to Data in OLAP Mode
-      href: articles/web-dashboard-designer-mode/binding-dashboard-items-to-data/binding-dashboard-items-to-data-in-olap-mode.md
+      href: articles/web-dashboard-designer-mode/bind-dashboard-items-to-data/hidden-data-items.md
+    - name: Bind Dashboard Items to Data in OLAP Mode
+      href: articles/web-dashboard-designer-mode/bind-dashboard-items-to-data/bind-dashboard-items-to-data-in-olap-mode.md
   - name: Dashboard Item Settings
     href: articles/web-dashboard-designer-mode/dashboard-item-settings.md
     items:

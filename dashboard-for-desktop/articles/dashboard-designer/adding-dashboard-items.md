@@ -13,7 +13,7 @@ This creates an empty dashboard item, and displays the required data sections fo
 ![EUDocs_CreatingDashboardItems_NewPivot](../../images/img21201.png)
 
 Perform the following steps to design a dashboard item.
-* [Bind](binding-dashboard-items-to-data/binding-dashboard-items-to-data.md) the dashboard item to data.
+* [Bind](bind-dashboard-items-to-data/bind-dashboard-items-to-data.md) the dashboard item to data.
 * Perform the required [data shaping](data-shaping.md) operations (such as grouping, sorting and filtering).
 * Use the [interactivity](interactivity.md) features to enable interaction between various dashboard items.
 * Adjust the dashboard item's [position and size](dashboard-layout/dashboard-items-layout.md) and specify the [dashboard item caption](dashboard-layout/dashboard-item-caption.md) settings.

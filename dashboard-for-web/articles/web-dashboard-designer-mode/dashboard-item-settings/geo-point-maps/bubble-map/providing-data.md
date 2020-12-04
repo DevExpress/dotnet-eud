@@ -4,7 +4,7 @@ author: Natalia Kazakova
 legacyId: 118025
 ---
 # Providing Data
-The **Web Dashboard** allows you to bind various dashboard items to data in a virtually uniform manner. To learn more, see the [Binding Dashboard Items to Data in the Web Dashboard](../../../binding-dashboard-items-to-data/binding-dashboard-items-to-data-in-the-web-dashboard.md) topic.
+The **Web Dashboard** allows you to bind various dashboard items to data in a virtually uniform manner. To learn more, see the [Bind Dashboard Items to Data in the Web Dashboard](../../../bind-dashboard-items-to-data/bind-dashboard-items-to-data-in-the-web-dashboard.md) topic.
 
 The only difference is in the data sections that the required dashboard item has. This topic describes how to bind the **Bubble Map** dashboard item to data.
 

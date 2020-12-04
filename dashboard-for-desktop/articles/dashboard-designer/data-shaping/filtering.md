@@ -4,7 +4,7 @@ author: Natalia Kazakova
 legacyId: 16532
 ---
 # Filtering
-The Dashboard Designer allows you to filter data in the dashboard items or apply filters to a specific measure. [Dimensions](../binding-dashboard-items-to-data/binding-dashboard-items-to-data.md) and [hidden dimensions](../binding-dashboard-items-to-data/hidden-data-items.md) are used to build filter criteria.
+The Dashboard Designer allows you to filter data in the dashboard items or apply filters to a specific measure. [Dimensions](../bind-dashboard-items-to-data/bind-dashboard-items-to-data.md) and [hidden dimensions](../bind-dashboard-items-to-data/hidden-data-items.md) are used to build filter criteria.
 
 ## Dashboard Item Filter
 
@@ -28,7 +28,7 @@ To clear the applied filter, select **Clear** from the dashboard item's context 
 
 ## Measure Filter
 
-You can apply filters to individual [measures](../binding-dashboard-items-to-data/binding-dashboard-items-to-data.md). If you create multiple measures that only differ in applied filters, you can compare values calculated over different date-time periods or against different categories.
+You can apply filters to individual [measures](../bind-dashboard-items-to-data/bind-dashboard-items-to-data.md). If you create multiple measures that only differ in applied filters, you can compare values calculated over different date-time periods or against different categories.
 
 Select a dashboard item and right-click a measure to be filtered. Select **Edit Filter** from its context menu.
 
@@ -79,7 +79,7 @@ The image below shows the difference between filters (the filter condition is th
 You can use the Filter Editor to filter a dashboard item according to the current parameter value. See the following topic for details: [Pass Parameter Values](../data-analysis/using-dashboard-parameters/passing-parameter-values.md).
 
 ## OLAP Filtering Specifics
-You cannot filter data by building complex filter criteria in [OLAP](../binding-dashboard-items-to-data/binding-dashboard-items-to-data-in-olap-mode.md) mode. Instead, select the values you wish to include in or exclude from the dashboard to filter dimension attributes and hierarchies.
+You cannot filter data by building complex filter criteria in [OLAP](../bind-dashboard-items-to-data/bind-dashboard-items-to-data-in-olap-mode.md) mode. Instead, select the values you wish to include in or exclude from the dashboard to filter dimension attributes and hierarchies.
 
 For dimension attributes, the Filter Editor contains a list of all values. You can select the values that you wish to display.
 
