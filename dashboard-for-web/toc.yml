@@ -327,8 +327,8 @@
         href: articles/web-dashboard-designer-mode/data-analysis/dashboard-parameters/requesting-parameter-values.md
     - name: Expression Constants, Operators, and Functions
       href: articles/web-dashboard-designer-mode/data-analysis/expression-constants-operators-and-functions.md
-  - name: Converting Dashboard Items
-    href: articles/web-dashboard-designer-mode/converting-dashboard-items.md
+  - name: Convert Dashboard Items
+    href: articles/web-dashboard-designer-mode/convert-dashboard-items.md
   - name: Dashboard Layout
     href: articles/web-dashboard-designer-mode/dashboard-layout.md
     items:

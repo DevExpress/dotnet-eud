@@ -472,8 +472,8 @@
         href: articles/dashboard-designer/data-analysis/using-dashboard-parameters/passing-parameter-values.md
       - name: Requesting Parameter Values
         href: articles/dashboard-designer/data-analysis/using-dashboard-parameters/requesting-parameter-values.md
-  - name: Converting Dashboard Items
-    href: articles/dashboard-designer/converting-dashboard-items.md
+  - name: Convert Dashboard Items
+    href: articles/dashboard-designer/convert-dashboard-items.md
   - name: Dashboard Layout
     href: articles/dashboard-designer/dashboard-layout.md
     items:

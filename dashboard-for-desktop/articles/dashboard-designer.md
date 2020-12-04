@@ -20,7 +20,7 @@ The following topics will guide you through the process of creating a dashboard.
 * [Interactivity](dashboard-designer/interactivity.md)
 * [Appearance Customization](dashboard-designer/appearance-customization.md)
 * [Data Analysis](dashboard-designer/data-analysis.md)
-* [Converting Dashboard Items](dashboard-designer/converting-dashboard-items.md)
+* Convert Dashboard Items(dashboard-designer/convert-dashboard-items.md)
 * [Dashboard Layout](dashboard-designer/dashboard-layout.md)
 * [Undo and Redo Operations](dashboard-designer/undo-and-redo-operations.md)
 * [Automatic and Manual Updates](dashboard-designer/automatic-and-manual-updates.md)
