@@ -5,7 +5,7 @@ author: Margarita Zakhodyaeva
 
 # Binding to Federated Data Source
 
-A federated data source integrates different data sources and provides uniform data access with a federated query. OLAP data sources are not supported.
+A _federated data source_ combines multiple data sources (except OLAP) in one.
 
 ## Overview
 
