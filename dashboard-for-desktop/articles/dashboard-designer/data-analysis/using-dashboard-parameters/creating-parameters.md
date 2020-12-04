@@ -21,8 +21,8 @@ To create dashboard parameters in the Dashboard Designer, do the following:
 	* **Allow Null** - Specifies whether or a not null value can be passed as a parameter value.
 	* **Allow Multiselect** - Specifies whether or not multi-selection is enabled for the current parameter. The following limitations are applied to parameters with multi-selection enabled.
 		* Use the **is any of** or **is none of** operators to pass a multi-select parameter to a [filter](../../data-shaping/filtering.md) criteria or to the [Expression](../../appearance-customization/conditional-formatting/expression.md) format condition.
-		* Use the **In** or **Not In** operators to pass a multi-select parameter to a [calculated field](../../working-with-data/creating-calculated-fields.md) expression.
-		* Stored procedures used in the [SQL](../../working-with-data/stored-procedures.md) data source do not support multi-select parameters.
+		* Use the **In** or **Not In** operators to pass a multi-select parameter to a [calculated field](../../work-with-data/creating-calculated-fields.md) expression.
+		* Stored procedures used in the [SQL](../../work-with-data/stored-procedures.md) data source do not support multi-select parameters.
 	* **Name** - Specifies the parameter name. When creating and modifying parameter names, follow the rules below.
 		* A name can contain letters, numbers and underscores.
 		* A name cannot contain spaces.

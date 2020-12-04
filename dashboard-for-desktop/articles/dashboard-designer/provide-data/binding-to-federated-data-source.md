@@ -35,7 +35,7 @@ To create a federated data source with the Data Source Wizard, perform the follo
 
    ![Choose_federated_data_source](../../../images/choose-federated-data-source.png)
 
-3. The [Query Builder](../../dashboard-designer/working-with-data/using-the-query-builder.md) dialog displays available data sources.
+3. The [Query Builder](../../dashboard-designer/work-with-data/using-the-query-builder.md) dialog displays available data sources.
 
    ![Query_Builder_available_sources](../../../images/query-builder-available-sources.png)
 

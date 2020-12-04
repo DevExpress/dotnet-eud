@@ -32,7 +32,7 @@ To create a new data extract from the existing data source, perform the followin
 	
 	> [!NOTE]
 	> Use the **Preview** button to see the data that will be placed into the resulting data extract.
-6. **(Conditional)** The next page only appears if the original data source contains [parameters](../data-analysis/using-dashboard-parameters.md) (for instance, the [SQL query is filtered](../working-with-data/filter-queries.md) using a dashboard parameter).
+6. **(Conditional)** The next page only appears if the original data source contains [parameters](../data-analysis/using-dashboard-parameters.md) (for instance, the [SQL query is filtered](../work-with-data/filter-queries.md) using a dashboard parameter).
 	
 	![DataSourceWizard_Extract_SpecifyParameterValues](../../../images/img124257.png)
 7. On the final page, specify a path to the file that will contain the resulting data extract.

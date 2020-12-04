@@ -30,29 +30,29 @@
       href: articles/dashboard-designer/provide-data/binding-to-object-data-sources.md
     - name: Binding to XPO Data Sources
       href: articles/dashboard-designer/provide-data/binding-to-XPO-data-sources.md
-  - name: Working with Data
-    href: articles/dashboard-designer/working-with-data.md
+  - name: Work with Data
+    href: articles/dashboard-designer/work-with-data.md
     items:
     - name: Edit Connection Parameters
-      href: articles/dashboard-designer/working-with-data/edit-connection-parameters.md
+      href: articles/dashboard-designer/work-with-data/edit-connection-parameters.md
     - name: Using the Query Builder
-      href: articles/dashboard-designer/working-with-data/using-the-query-builder.md
+      href: articles/dashboard-designer/work-with-data/using-the-query-builder.md
     - name: Using the Query Editor
-      href: articles/dashboard-designer/working-with-data/using-the-query-editor.md
+      href: articles/dashboard-designer/work-with-data/using-the-query-editor.md
     - name: Manage SQL Queries
-      href: articles/dashboard-designer/working-with-data/manage-sql-queries.md
+      href: articles/dashboard-designer/work-with-data/manage-sql-queries.md
     - name: Filter Queries
-      href: articles/dashboard-designer/working-with-data/filter-queries.md
+      href: articles/dashboard-designer/work-with-data/filter-queries.md
     - name: Pass Query Parameters
-      href: articles/dashboard-designer/working-with-data/pass-query-parameters.md
+      href: articles/dashboard-designer/work-with-data/pass-query-parameters.md
     - name: Stored Procedures
-      href: articles/dashboard-designer/working-with-data/stored-procedures.md
+      href: articles/dashboard-designer/work-with-data/stored-procedures.md
     - name: Preview Data
-      href: articles/dashboard-designer/working-with-data/preview-data.md
+      href: articles/dashboard-designer/work-with-data/preview-data.md
     - name: Creating Calculated Fields
-      href: articles/dashboard-designer/working-with-data/creating-calculated-fields.md
+      href: articles/dashboard-designer/work-with-data/creating-calculated-fields.md
     - name: Data Inspector
-      href: articles/dashboard-designer/working-with-data/data-inspector.md
+      href: articles/dashboard-designer/work-with-data/data-inspector.md
   - name: Add Dashboard Items
     href: articles/dashboard-designer/add-dashboard-items.md
   - name: Bind Dashboard Items to Data

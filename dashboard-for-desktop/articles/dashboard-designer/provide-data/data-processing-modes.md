@@ -20,15 +20,15 @@ Different data source types allow you to manage the current data processing mode
 	
 	![ServerModeButton_Ribbon](../../../images/img23212.png)
 	
-	**Server mode** is supported for the SQL data sources created using the Data Source wizard and supplied with data using the [Query Builder](../working-with-data/using-the-query-builder.md).
+	**Server mode** is supported for the SQL data sources created using the Data Source wizard and supplied with data using the [Query Builder](../work-with-data/using-the-query-builder.md).
 * [Excel Data Source](binding-to-microsoft-excel-workbooks.md) supports **client mode** only.
 * [Extract Data Source](binding-to-extract-data-sources.md) works in **client mode**.
 
 ## Server Mode Limitations
 In **server mode**, the Dashboard does not have simultaneous access to bound data in its entirety. This imposes some limitations.
-* [Stored procedures](../working-with-data/stored-procedures.md) are not supported in server mode.
+* [Stored procedures](../work-with-data/stored-procedures.md) are not supported in server mode.
 * Stored procedures executed using custom SQL are not supported in server mode.
-* Some [calculated fields](../working-with-data/creating-calculated-fields.md) cannot be evaluated in server mode.
+* Some [calculated fields](../work-with-data/creating-calculated-fields.md) cannot be evaluated in server mode.
 * The [Count Distinct](../data-shaping/summarization.md) summary function is not supported for the following database engines:
 	* Microsoft Access
 	* Microsoft SQL Server CE

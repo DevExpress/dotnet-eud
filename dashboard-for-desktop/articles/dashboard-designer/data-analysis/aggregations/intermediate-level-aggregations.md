@@ -5,12 +5,12 @@ legacyId: 116589
 ---
 # Intermediate Level Aggregations
 The Dashboard can aggregate and summarize data on different levels.
-* The [Query Builder](../../working-with-data/using-the-query-builder.md) allows you to prepare an underlying data source before analyzing data. You can apply grouping, sorting, summarization and other data shaping operations during data selection.
+* The [Query Builder](../../work-with-data/using-the-query-builder.md) allows you to prepare an underlying data source before analyzing data. You can apply grouping, sorting, summarization and other data shaping operations during data selection.
 * [Dashboard items](../../dashboard-item-settings.md) aggregate and summarize data at a visualization level using dimensions and measures, respectively. To learn more, see [Bind Dashboard Items to Data](../../bind-dashboard-items-to-data/bind-dashboard-items-to-data.md).
 * The **Aggr** function allows you to introduce an intermediate detail level that is not related to the visualization level. This allows you to create custom aggregations at different levels and combine these aggregations with existing visualizations.
 
 ## Overview
-The **Aggr** function aggregates and summarizes underlying data using the detail level specified by a predefined set of dimensions and a specified summary function. This function can be used during the creation of a new [calculated field](../../working-with-data/creating-calculated-fields.md) in the Expression Editor.
+The **Aggr** function aggregates and summarizes underlying data using the detail level specified by a predefined set of dimensions and a specified summary function. This function can be used during the creation of a new [calculated field](../../work-with-data/creating-calculated-fields.md) in the Expression Editor.
 
 The **Aggr** function has the following syntax.
 
@@ -78,7 +78,7 @@ In this example, the [Chart](../../dashboard-item-settings/chart.md) dashboard i
 
 ![Aggr_Example1_SalesByYear](../../../../images/img122812.png)
 
-To display sales by the best/worst months for each year, create a new [calculated field](../../working-with-data/creating-calculated-fields.md) with the following expression.
+To display sales by the best/worst months for each year, create a new [calculated field](../../work-with-data/creating-calculated-fields.md) with the following expression.
 
 ```
 Aggr(Sum([Sales]), GetYear([OrderDate]), GetMonth([OrderDate]))

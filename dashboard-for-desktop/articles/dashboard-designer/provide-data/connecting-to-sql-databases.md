@@ -36,11 +36,11 @@ To connect to an SQL database in the Dashboard Designer, follow the steps below.
 4. After you have specified the required connection parameters, click **Next** and specify how to select data from the database.
 	
 	![DataSourceWizard_Query](../../../images/img117952.png)
-	* Select the **Query** option and run the [Query Builder](../working-with-data/using-the-query-builder.md) by clicking the **Run Query Builder...** button. The Query Builder allows you to choose the required tables/columns visually and passes the resulting SQL query to the **SQL String** editor. Click **Finish** to create the data source.
-	* Select the **Stored Procedure** option to select one of the [stored procedure](../working-with-data/stored-procedures.md)s from the database.
+	* Select the **Query** option and run the [Query Builder](../work-with-data/using-the-query-builder.md) by clicking the **Run Query Builder...** button. The Query Builder allows you to choose the required tables/columns visually and passes the resulting SQL query to the **SQL String** editor. Click **Finish** to create the data source.
+	* Select the **Stored Procedure** option to select one of the [stored procedure](../work-with-data/stored-procedures.md)s from the database.
 	
 	Click **Next**.
-5. On the final page, you can optionally add [query parameters](../working-with-data/pass-query-parameters.md) and [preview](../working-with-data/preview-data.md) data.
+5. On the final page, you can optionally add [query parameters](../work-with-data/pass-query-parameters.md) and [preview](../work-with-data/preview-data.md) data.
 	
 	![DataSourceWizard_AddQueryParameters](../../../images/img118003.png)
 	
