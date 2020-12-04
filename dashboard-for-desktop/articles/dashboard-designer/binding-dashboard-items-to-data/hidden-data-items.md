@@ -19,21 +19,21 @@ You can use **hidden dimensions** to [apply filtering](../data-shaping/filtering
 
 ![HiddenDimension_Filtering](../../../images/img118917.png)
 
-For instance, the [Grid](../designing-dashboard-items/grid.md) on the image above is filtered by the first quarter of the _OrderDate (Quarter)_ dimension.
+For instance, the [Grid](../dashboard-item-settings/grid.md) on the image above is filtered by the first quarter of the _OrderDate (Quarter)_ dimension.
 
 ## <a name="sorting"/>Sorting
 You can [sort](../data-shaping/sorting.md) values of the specified dimension by the **hidden measure**. To do this, select the required measure from the dimension's **Sort By** sub-menu.
 
 ![HiddenMeasure_Sorting](../../../images/img118918.png)
 
-For instance, categories displayed in the [Grid](../designing-dashboard-items/grid.md) on the image above are sorted by values of the hidden _Quantity (Sum)_ measure.
+For instance, categories displayed in the [Grid](../dashboard-item-settings/grid.md) on the image above are sorted by values of the hidden _Quantity (Sum)_ measure.
 
 ## <a name="top-n"/>Top N
 You can use **hidden measures** in [Top N](../data-shaping/top-n.md) conditions. To do this, select the required measure from the **Measure** combo box in the **Top N Values** dialog.
 
 ![HiddenMeasure_TopN](../../../images/img118919.png)
 
-For instance, the [Grid](../designing-dashboard-items/grid.md) on the image above displays top 5 categories for the _Quantity (Sum)_ hidden measure.
+For instance, the [Grid](../dashboard-item-settings/grid.md) on the image above displays top 5 categories for the _Quantity (Sum)_ hidden measure.
 
 ## <a name="conditional-formatting"/>Conditional Formatting
 You can create format rules based on **hidden measures** to apply [conditional formatting](../appearance-customization/conditional-formatting.md) to elements corresponding to visible values. To do this, use the **Add Format Rule** menu of the hidden measure.

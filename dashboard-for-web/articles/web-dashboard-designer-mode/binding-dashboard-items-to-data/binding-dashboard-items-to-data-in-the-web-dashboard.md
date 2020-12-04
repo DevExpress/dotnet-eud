@@ -14,7 +14,7 @@ This topic explains how to bind the newly created dashboard item to data source 
 ## <a name="create"/>Create Binding
 To bind a dashboard item to data, invoke the dashboard item's [Bindings](../ui-elements/dashboard-item-menu.md) menu to open binding settings. In this menu you can see a data source (data member)  to which the dashboard item is bound and empty placeholders for data items.
 
-The image below displays the [Grid](../designing-dashboard-items/grid.md) dashboard item, that binded to _Sales Person_ query of the _SQL Data Source_, and corresponding [data sections](../designing-dashboard-items/grid/providing-data.md).
+The image below displays the [Grid](../dashboard-item-settings/grid.md) dashboard item, that binded to _Sales Person_ query of the _SQL Data Source_, and corresponding [data sections](../dashboard-item-settings/grid/providing-data.md).
 
 ![wdd-bindings-menu](../../../images/img124590.png)
 
@@ -27,7 +27,7 @@ To rename the data item, go to the **Options** section and specify the data item
 ![WDD-rename-data-item](../../../images/img124591.png)
 
 > [!NOTE]
-> To learn how to bind a specific dashboard item to data, see the **Providing Data** topic for the [required dashboard item](../designing-dashboard-items.md).
+> To learn how to bind a specific dashboard item to data, see the **Providing Data** topic for the [required dashboard item](../dashboard-item-settings.md).
 
 ## <a name="modify"/>Modify Binding
 You can modify data binding by dragging a data item within a data section. To do this, drag the data item to the required position.

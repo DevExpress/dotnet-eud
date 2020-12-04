@@ -20,7 +20,7 @@ Each data section corresponds to a particular dashboard item area or element, an
 
 Mapping is performed using **data items** - objects that are used to bind a dashboard item to data source fields. Data items are used to link the dashboard item to the required data source fields and, thus, visualize data within the dashboard item.
 
-Another key concept in data binding is the **data item container**, which represents a set of data items. It can contain either a single data item or multiple data items, and allows you to specify various options related to how a [specific dashboard item](../designing-dashboard-items.md) visualizes data.
+Another key concept in data binding is the **data item container**, which represents a set of data items. It can contain either a single data item or multiple data items, and allows you to specify various options related to how a [specific dashboard item](../dashboard-item-settings.md) visualizes data.
 
 ![DataItemsPane_VisualElements_Binding](../../../images/img22871.png)
 
@@ -57,7 +57,7 @@ To bind a dashboard item to data, select the dashboard item. Then choose the req
 
 You can remove the data item by dragging it outside the DATA ITEMS pane.
 
-To learn how to bind a specific dashboard item to data, see the **Providing Data** topic for the required [dashboard item](../designing-dashboard-items.md).
+To learn how to bind a specific dashboard item to data, see the **Providing Data** topic for the required [dashboard item](../dashboard-item-settings.md).
 
 To rename the data item, click its menu button and select **Rename**, to invoke the **Rename Data Item** dialog.
 

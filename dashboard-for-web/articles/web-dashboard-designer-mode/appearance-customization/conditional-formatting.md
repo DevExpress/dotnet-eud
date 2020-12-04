@@ -4,7 +4,7 @@ author: Natalia Kazakova
 legacyId: 117564
 ---
 # Conditional Formatting
-The Web Dashboard supports conditional formatting. You can apply a custom style to data elements that satisfy a certain condition for [Grid](../designing-dashboard-items/grid.md), [Pivot](../designing-dashboard-items/pivot.md), [Chart](../designing-dashboard-items/chart.md), [Scatter Chart](../designing-dashboard-items/scatter-chart.md) and [Card](../designing-dashboard-items/cards.md) items.
+The Web Dashboard supports conditional formatting. You can apply a custom style to data elements that satisfy a certain condition for [Grid](../dashboard-item-settings/grid.md), [Pivot](../dashboard-item-settings/pivot.md), [Chart](../dashboard-item-settings/chart.md), [Scatter Chart](../dashboard-item-settings/scatter-chart.md) and [Card](../dashboard-item-settings/cards.md) items.
 
 ![wdd-cf-main](../../../images/img126130.png)
 
@@ -48,7 +48,7 @@ Format conditions that can be applied to different data item types are as follow
 	* **Bar** 
 	* **Bar Color Ranges** 
 	* **Bar Gradient Ranges** 
-	
+
 ## Create a Format Rule
 
 To create a format rule, open the **Conditional Formatting** section in the dashboard item's [Options](../ui-elements/dashboard-item-menu.md) menu or in the [data item menu](../ui-elements/data-item-menu.md). Click "+" to add a new format rule:
@@ -108,8 +108,8 @@ You can change generated colors for the Range format rules:
 
 See the following sections for more information about specific format settings for dashboard items:
 
-* [Conditional Formatting - Grid](../designing-dashboard-items/grid/conditional-formatting.md)
-* [Conditional Formatting - Pivot](../designing-dashboard-items/pivot/conditional-formatting.md)
-* [Conditional Formatting - Card](../designing-dashboard-items/cards/conditional-formatting.md)
-* [Conditional Formatting - Chart](../designing-dashboard-items/chart/conditional-formatting.md)
-* [Conditional Formatting - Scatter Chart](../designing-dashboard-items/scatter-chart/conditional-formatting.md) 
+* [Conditional Formatting - Grid](../dashboard-item-settings/grid/conditional-formatting.md)
+* [Conditional Formatting - Pivot](../dashboard-item-settings/pivot/conditional-formatting.md)
+* [Conditional Formatting - Card](../dashboard-item-settings/cards/conditional-formatting.md)
+* [Conditional Formatting - Chart](../dashboard-item-settings/chart/conditional-formatting.md)
+* [Conditional Formatting - Scatter Chart](../dashboard-item-settings/scatter-chart/conditional-formatting.md) 

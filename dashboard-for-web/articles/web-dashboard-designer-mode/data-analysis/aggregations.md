@@ -31,5 +31,5 @@ These functions can be used for all types of numeric fields. After creating such
 ## Intermediate Level Aggregations
 The Web Dashboard can aggregate and summarize data on different levels.
 * The [Query Builder](../providing-data/query-builder.md) allows you to prepare an underlying data source before analyzing data. You can apply grouping, sorting, summarization and other data shaping operations during data selection.
-* [Dashboard items](../designing-dashboard-items.md) aggregate and summarize data at a visualization level using dimensions and measures, respectively. To learn more, see [Binding Dashboard Items to Data](../binding-dashboard-items-to-data.md).
+* [Dashboard items](../dashboard-item-settings.md) aggregate and summarize data at a visualization level using dimensions and measures, respectively. To learn more, see [Binding Dashboard Items to Data](../binding-dashboard-items-to-data.md).
 * The **Aggr** function introduces an intermediate detail level that is not related to the visualization level. This allows you to create custom aggregations at different levels and combine these aggregations with existing visualizations.

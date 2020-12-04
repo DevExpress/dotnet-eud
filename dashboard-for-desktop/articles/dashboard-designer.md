@@ -15,7 +15,7 @@ The following topics will guide you through the process of creating a dashboard.
 * [Working with Data](dashboard-designer/working-with-data.md)
 * [Adding Dashboard Items](dashboard-designer/adding-dashboard-items.md)
 * [Binding Dashboard Items to Data](dashboard-designer/binding-dashboard-items-to-data.md)
-* [Designing Dashboard Items](dashboard-designer/designing-dashboard-items.md)
+* [Dashboard Item Settings](dashboard-designer/dashboard-item-settings.md)
 * [Data Shaping](dashboard-designer/data-shaping.md)
 * [Interactivity](dashboard-designer/interactivity.md)
 * [Appearance Customization](dashboard-designer/appearance-customization.md)

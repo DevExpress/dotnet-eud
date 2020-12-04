@@ -9,7 +9,7 @@ The Dashboard Designer allows you to paint dashboard item elements such as chart
 ![Coloring_GlobalColors](../../../images/coloring_globalcolors25370.png)
 
 ## Supported Dashboard Items
-You can paint the following [dashboard items](../designing-dashboard-items.md):
+You can paint the following [dashboard items](../dashboard-item-settings.md):
 
 * Chart
 * Scatter Chart

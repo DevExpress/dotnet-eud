@@ -4,7 +4,7 @@ author: Natalia Kazakova
 legacyId: 117706
 ---
 # Filtering
-Web Dashboard allows you to filter data in the [dashboard items](../designing-dashboard-items.md) or apply filters to a specific measure. [Dimensions](../binding-dashboard-items-to-data/binding-dashboard-items-to-data-in-the-web-dashboard.md) and [hidden dimensions](../binding-dashboard-items-to-data/hidden-data-items.md) are used to build filter criteria.
+Web Dashboard allows you to filter data in the [dashboard items](../dashboard-item-settings.md) or apply filters to a specific measure. [Dimensions](../binding-dashboard-items-to-data/binding-dashboard-items-to-data-in-the-web-dashboard.md) and [hidden dimensions](../binding-dashboard-items-to-data/hidden-data-items.md) are used to build filter criteria.
 
 ## Dashboard Item Filter
 

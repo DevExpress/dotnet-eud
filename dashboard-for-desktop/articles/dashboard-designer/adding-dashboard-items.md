@@ -8,7 +8,7 @@ To create a dashboard item in the Dashboard Designer, click the corresponding bu
 
 ![Ribbon_InsertGroup](../../images/img18512.png)
 
-This creates an empty dashboard item, and displays the required data sections for binding this item to data (for instance, the image below displays the [Pivot](designing-dashboard-items/pivot.md) dashboard item and corresponding data sections).
+This creates an empty dashboard item, and displays the required data sections for binding this item to data (for instance, the image below displays the [Pivot](dashboard-item-settings/pivot.md) dashboard item and corresponding data sections).
 
 ![EUDocs_CreatingDashboardItems_NewPivot](../../images/img21201.png)
 
@@ -17,7 +17,7 @@ Perform the following steps to design a dashboard item.
 * Perform the required [data shaping](data-shaping.md) operations (such as grouping, sorting and filtering).
 * Use the [interactivity](interactivity.md) features to enable interaction between various dashboard items.
 * Adjust the dashboard item's [position and size](dashboard-layout/dashboard-items-layout.md) and specify the [dashboard item caption](dashboard-layout/dashboard-item-caption.md) settings.
-* Specify specific dashboard item settings based on its type. To learn more, see [Designing Dashboard Items](designing-dashboard-items.md).
+* Specify specific dashboard item settings based on its type. To learn more, see [Dashboard Item Settings](dashboard-item-settings.md).
 
 After you have created and designed the dashboard item, you can create an exact copy. To do this, click the **Duplicate** button in the **Home** ribbon tab...
 

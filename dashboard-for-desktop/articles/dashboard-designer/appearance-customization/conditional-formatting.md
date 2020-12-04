@@ -4,7 +4,7 @@ author: Natalia Kazakova
 legacyId: 114184
 ---
 # Conditional Formatting
-The Dashboard Designer control supports conditional formatting. You can apply a custom style to data elements that satisfy a certain condition for [Grid](../designing-dashboard-items/grid.md), [Pivot](../designing-dashboard-items/pivot.md), [Chart](../designing-dashboard-items/chart.md), [Scatter Chart](../designing-dashboard-items/scatter-chart.md) and [Card](../designing-dashboard-items/cards.md) items.
+The Dashboard Designer control supports conditional formatting. You can apply a custom style to data elements that satisfy a certain condition for [Grid](../dashboard-item-settings/grid.md), [Pivot](../dashboard-item-settings/pivot.md), [Chart](../dashboard-item-settings/chart.md), [Scatter Chart](../dashboard-item-settings/scatter-chart.md) and [Card](../dashboard-item-settings/cards.md) items.
 
 ![BlogDashboard_ConditionalFormatting](../../../images/img118090.png)
 
@@ -89,15 +89,15 @@ The **Add** button invokes a pop-up menu where you can specify appearance settin
 
 ![rule_manager](../../../images/win-conditional-formatting-card-rule-manager.png)
 
-The image below displays the **Greater Than** dialog, which corresponds to the [Value](conditional-formatting/value.md) format condition for a [Grid](../designing-dashboard-items/grid.md) dashboard item. The format condition applies to the _ExtendedPrice_ data item in the **Apply to** drop-down list.
+The image below displays the **Greater Than** dialog, which corresponds to the [Value](conditional-formatting/value.md) format condition for a [Grid](../dashboard-item-settings/grid.md) dashboard item. The format condition applies to the _ExtendedPrice_ data item in the **Apply to** drop-down list.
 
  ![GreaterThanDialog](../../../images/img118555.png)
 ## Dashboard Items Specific
 
 Refer to the following topics for more information about specific format rule settings:
-* [Conditional Formatting - Grid](../designing-dashboard-items/grid/conditional-formatting.md)
-* [Conditional Formatting - Pivot](../designing-dashboard-items/pivot/conditional-formatting.md)
-* [Conditional Formatting - Card](../designing-dashboard-items/cards/conditional-formatting.md)
-* [Conditional Formatting - Chart](../designing-dashboard-items/chart/conditional-formatting.md)
-* [Conditional Formatting - Scatter Chart](../designing-dashboard-items/scatter-chart/conditional-formatting.md)
+* [Conditional Formatting - Grid](../dashboard-item-settings/grid/conditional-formatting.md)
+* [Conditional Formatting - Pivot](../dashboard-item-settings/pivot/conditional-formatting.md)
+* [Conditional Formatting - Card](../dashboard-item-settings/cards/conditional-formatting.md)
+* [Conditional Formatting - Chart](../dashboard-item-settings/chart/conditional-formatting.md)
+* [Conditional Formatting - Scatter Chart](../dashboard-item-settings/scatter-chart/conditional-formatting.md)
  

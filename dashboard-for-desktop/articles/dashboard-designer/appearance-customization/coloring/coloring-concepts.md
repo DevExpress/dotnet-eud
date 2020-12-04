@@ -21,7 +21,7 @@ Refer to the following topic for more information about common concepts: [Colori
 
 You can disable default color variation for dashboard item elements.  
 
-If you add a [TreeMap](../../designing-dashboard-items/treemap.md) to a dashboard, individual elements (titles) use different colors: 
+If you add a [TreeMap](../../dashboard-item-settings/treemap.md) to a dashboard, individual elements (titles) use different colors: 
 
 ![win-coloring-treemap-default](../../../../images/win-coloring-treemap-default.png)
 
@@ -29,7 +29,7 @@ _State_ values (Arguments) use different colors. To disable color variation, go 
 
 ![win-coloring-treemap-none](../../../../images/win-coloring-treemap-none.png)
 
-Add a [Chart](../../designing-dashboard-items/chart.md) with the same Argument and Value as in the TreeMap: 
+Add a [Chart](../../dashboard-item-settings/chart.md) with the same Argument and Value as in the TreeMap: 
 
 ![win-coloring-treemap-chart-none](../../../../images/win-coloring-treemap-chart-none.png)
 
@@ -56,7 +56,7 @@ Add _Category_ as a chart argument and switch to 100% Stacked View:
 
 The same _State_ data items use identical colors. Dashboard constructs a **Global Color Scheme** for this purpose. 
 
-Add a [Range Filter](../../designing-dashboard-items/range-filter.md) with the following settings: 
+Add a [Range Filter](../../dashboard-item-settings/range-filter.md) with the following settings: 
 
 ![win-coloring-range-filter](../../../../images/win-coloring-range-filter.png)
 
@@ -85,12 +85,12 @@ Colors modified in the local color scheme do not affect items that use the globa
 
 ## Dashboard Item Color Mode Specifics
 
-* [Chart - Coloring](../../designing-dashboard-items/chart/coloring.md)
-* [Scatter Chart - Coloring](../../designing-dashboard-items/scatter-chart/coloring.md)
-* [Pie - Coloring](../../designing-dashboard-items/pies/coloring.md)
-* [Pie Map - Coloring](../../designing-dashboard-items/geo-point-maps/pie-map/coloring.md)
-* [Range Filter - Coloring](../../designing-dashboard-items/range-filter/coloring.md)
-* [Treemap - Coloring](../../designing-dashboard-items/treemap/coloring.md)
+* [Chart - Coloring](../../dashboard-item-settings/chart/coloring.md)
+* [Scatter Chart - Coloring](../../dashboard-item-settings/scatter-chart/coloring.md)
+* [Pie - Coloring](../../dashboard-item-settings/pies/coloring.md)
+* [Pie Map - Coloring](../../dashboard-item-settings/geo-point-maps/pie-map/coloring.md)
+* [Range Filter - Coloring](../../dashboard-item-settings/range-filter/coloring.md)
+* [Treemap - Coloring](../../dashboard-item-settings/treemap/coloring.md)
 
 ## How to Customize a Color Scheme
 

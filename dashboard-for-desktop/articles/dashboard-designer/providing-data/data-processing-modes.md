@@ -33,13 +33,13 @@ In **server mode**, the Dashboard does not have simultaneous access to bound dat
 	* Microsoft Access
 	* Microsoft SQL Server CE
 * The [Median](../data-shaping/summarization.md) summary function is supported for the Oracle data provider only.
-* The [Bound Image](../designing-dashboard-items/images/image-types-overview.md) and [Grid](../designing-dashboard-items/grid.md) dashboard items cannot display images from the following types of databases:
+* The [Bound Image](../dashboard-item-settings/images/image-types-overview.md) and [Grid](../dashboard-item-settings/grid.md) dashboard items cannot display images from the following types of databases:
 	* Microsoft SQL Server
 	* MySQL
 	* PostgreSQL
 
 ## Data Processing Errors
-The Dashboard Designer provides the capability to display errors that occurred during data processing operations (such as changing measure [summary types](../data-shaping/summarization.md), [calculation](../data-analysis/window-calculations.md) errors, etc.). For instance, the [Grid](../designing-dashboard-items/grid.md) below shows an error when the summary type of the _Extended Price_ measure is set to [Median](../data-shaping/summarization.md) in server mode.
+The Dashboard Designer provides the capability to display errors that occurred during data processing operations (such as changing measure [summary types](../data-shaping/summarization.md), [calculation](../data-analysis/window-calculations.md) errors, etc.). For instance, the [Grid](../dashboard-item-settings/grid.md) below shows an error when the summary type of the _Extended Price_ measure is set to [Median](../data-shaping/summarization.md) in server mode.
 
 ![ErrorInCaption_ServerMode](../../../images/img123959.png)
 

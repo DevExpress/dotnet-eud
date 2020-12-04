@@ -28,7 +28,7 @@ The Dashboard Designer allows you to apply window calculations to values of the 
 Note that the computing of calculations depends on two factors.
 * The type of the [dashboard item](../../adding-dashboard-items.md).
 	
-	 In this case, you need to specify a calculation _direction_ that depends on the dashboard item type. For instance, the [Pivot](../../designing-dashboard-items/pivot.md) dashboard item provides the capability to apply calculations along with its columns or rows.
+	 In this case, you need to specify a calculation _direction_ that depends on the dashboard item type. For instance, the [Pivot](../../dashboard-item-settings/pivot.md) dashboard item provides the capability to apply calculations along with its columns or rows.
 * The set of dimensions that are used to calculate measure values.
 	
 	In this case, a calculation _direction_ depends on the dimensions' order.

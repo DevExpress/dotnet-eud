@@ -10,7 +10,7 @@ Automatic updates are enabled by default and can be managed using the **Automati
 
 ![AutomaticUpdatesButton_Ribbon](../../images/img121079.png)
 
-Click this button to disable automatic updates. In this case, the dashboard item will not be updated automatically according to each change. Imagine that you have a Grid dashboard item containing the [dimension](designing-dashboard-items/grid/columns/dimension-column.md) and [measure](designing-dashboard-items/grid/columns/measure-column.md) columns. If you change the [sort order](data-shaping/sorting.md) of the _Sales Person_ column or change the [summary type](data-shaping/summarization.md) of the _Extended Price_ column, the Grid will be shaded and will display the ![UpdateCaptionIcon](../../images/img121080.png) icon within its caption.
+Click this button to disable automatic updates. In this case, the dashboard item will not be updated automatically according to each change. Imagine that you have a Grid dashboard item containing the [dimension](dashboard-item-settings/grid/columns/dimension-column.md) and [measure](dashboard-item-settings/grid/columns/measure-column.md) columns. If you change the [sort order](data-shaping/sorting.md) of the _Sales Person_ column or change the [summary type](data-shaping/summarization.md) of the _Extended Price_ column, the Grid will be shaded and will display the ![UpdateCaptionIcon](../../images/img121080.png) icon within its caption.
 
 ![AutomaticUpdates_Grid_Main](../../images/img121081.png)
 

@@ -17,9 +17,9 @@ The data shown as _Aggregated_ is retrieved from the dashboard item's data stora
 
 The columns are:
 
-* [Dimensions](../designing-dashboard-items/grid/columns.md), except the **Sparkline**.
-* [Measures](../designing-dashboard-items/grid/columns.md). A list of dimensions does not include unbound measures (the measures without a DataMember, such as [Totals](../designing-dashboard-items/grid/totals.md) and the number of points in a [Cluster](../designing-dashboard-items/geo-point-maps/clustering.md).
- * The [Sparkline](../designing-dashboard-items/grid/columns.md) is displayed as a column.
+* [Dimensions](../dashboard-item-settings/grid/columns.md), except the **Sparkline**.
+* [Measures](../dashboard-item-settings/grid/columns.md). A list of dimensions does not include unbound measures (the measures without a DataMember, such as [Totals](../dashboard-item-settings/grid/totals.md) and the number of points in a [Cluster](../dashboard-item-settings/geo-point-maps/clustering.md).
+ * The [Sparkline](../dashboard-item-settings/grid/columns.md) is displayed as a column.
 
 ## Raw Data
 

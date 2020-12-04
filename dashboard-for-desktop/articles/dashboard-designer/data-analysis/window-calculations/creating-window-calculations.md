@@ -8,7 +8,7 @@ The Dashboard Designer allows you to add a [window calculation](window-calculati
 
 ![Measure_CalculationMenu](../../../../images/img123408.png)
 
-The image above shows a calculation menu of the [Pivot](../../designing-dashboard-items/pivot.md) dashboard item. The following items are available.
+The image above shows a calculation menu of the [Pivot](../../dashboard-item-settings/pivot.md) dashboard item. The following items are available.
 * **Percent of Column Grand Total** - Calculates a contribution of individual measure values to a column grand total.
 * **Percent of Row Grand Total** - Calculates a contribution of individual measure values to a row grand total.
 * **Percent of Grand Total** - Calculates a contribution of individual measure values to a grand total.

@@ -19,7 +19,7 @@ To create a tab container, use the **Tab Container** button (the ![Insert Tab Co
 
 Click the **Add page** button (the ![](../../../images/wdd-tab-container-add-page-button.png) icon) to add a new page to the tab container.
 
-A tab page can contain [dashboard items](../designing-dashboard-items.md) and [dashboard item groups](dashboard-item-group.md). You can add them to a tab page using one of the following ways:
+A tab page can contain [dashboard items](../dashboard-item-settings.md) and [dashboard item groups](dashboard-item-group.md). You can add them to a tab page using one of the following ways:
 
 * Create a new item using the buttons inside the empty tab page.
 * Drag a new item from the [Toolbox](../ui-elements/toolbox.md) and drop it to the tab page.

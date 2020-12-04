@@ -8,7 +8,7 @@ The Dashboard Designer allows you to filter data in the dashboard items or apply
 
 ## Dashboard Item Filter
 
-Filters that apply to a [dashboard item](../designing-dashboard-items.md) affect only this item. To add filters, select the target dashboard item and do one of the following:
+Filters that apply to a [dashboard item](../dashboard-item-settings.md) affect only this item. To add filters, select the target dashboard item and do one of the following:
 
 * Click the **Edit Filter** button in the **Data** tab in a Ribbon menu. 
 	

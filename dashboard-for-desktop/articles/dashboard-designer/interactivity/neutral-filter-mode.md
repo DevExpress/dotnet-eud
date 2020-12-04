@@ -6,7 +6,7 @@ legacyId: 400262
 
 # Neutral Filter Mode
 
-The [filter elements](../designing-dashboard-items/filter-elements.md) show all items selected by default, to indicate that no filtering is currently taking place. Starting from this state, users typically begin each filtering operation by deselecting **All**, before they select individual items.
+The [filter elements](../dashboard-item-settings/filter-elements.md) show all items selected by default, to indicate that no filtering is currently taking place. Starting from this state, users typically begin each filtering operation by deselecting **All**, before they select individual items.
 
 An extra click is required to begin any actual filtering operation, because the **standard filter mode** shows all items selected. This is not an optimal implementation for performance reasons, because it generates filtering criteria that are evaluated by the data layer and/or the database.
 
