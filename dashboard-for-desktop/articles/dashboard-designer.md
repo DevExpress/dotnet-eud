@@ -11,7 +11,7 @@ The **Dashboard Designer** provides an intuitive UI that facilitates data bindin
 ## Creating Dashboards
 The following topics will guide you through the process of creating a dashboard.
 * [Creating a Dashboard](dashboard-designer/creating-a-dashboard.md)
-* [Providing Data](dashboard-designer/providing-data.md)
+* [Provide Data](dashboard-designer/provide-data.md)
 * [Working with Data](dashboard-designer/working-with-data.md)
 * [Adding Dashboard Items](dashboard-designer/adding-dashboard-items.md)
 * [Bind Dashboard Items to Data](dashboard-designer/bind-dashboard-items-to-data.md)

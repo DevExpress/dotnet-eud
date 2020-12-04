@@ -9,7 +9,7 @@ The Dashboard Designer provides the capability to create calculated fields that 
 * [Editing a Calculated Field](#editing-a-calculated-field)
 
 > [!NOTE]
-> Note that calculated fields are not supported for [OLAP](../providing-data/connecting-to-olap-cubes.md) data sources.
+> Note that calculated fields are not supported for [OLAP](../provide-data/connecting-to-olap-cubes.md) data sources.
 
 ## <a name="creating-a-calculated-field"/>Creating a Calculated Field
 After you have created a data source, you can add a new calculated field based on the existing data source fields.

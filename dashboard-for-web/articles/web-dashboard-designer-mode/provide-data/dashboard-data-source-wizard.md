@@ -17,15 +17,15 @@ In the invoked window choose the existing data sources or click **Create data so
 
 On the start page, select the data source type. You can create a new dashboard data source based on a database, JSON data, or an OLAP cube.
 
-* [Database](../providing-data/dashboard-data-source-wizard/specify-data-source-settings-database.md)
+* [Database](../provide-data/dashboard-data-source-wizard/specify-data-source-settings-database.md)
 
   Obtains data from all major data providers (Microsoft SQL Server, XML data, Microsoft Access, Oracle, etc.).
 
-* [JSON](../providing-data/dashboard-data-source-wizard/specify-data-source-settings-json.md)
+* [JSON](../provide-data/dashboard-data-source-wizard/specify-data-source-settings-json.md)
 
   Connects to JSON-formatted data.
 
-* [OLAP Data Source](../providing-data/dashboard-data-source-wizard/specify-data-source-settings-olap.md) 
+* [OLAP Data Source](../provide-data/dashboard-data-source-wizard/specify-data-source-settings-olap.md) 
 
   Connects to OLAP cubes.
 

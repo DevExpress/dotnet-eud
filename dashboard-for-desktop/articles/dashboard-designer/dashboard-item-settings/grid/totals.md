@@ -28,7 +28,7 @@ You can use the following summary functions when creating totals.
 * **Average** - The average of the values.
 	
 	![func_average](../../../../images/img4457.png)
-* **Auto** - The total is calculated using the type of [summary function](../../data-shaping/summarization.md) specified for the measure corresponding to the current Grid column. Note that in this case, the total is calculated based on values of the corresponding data field from the underlying data source. Note that the **Auto** type is not supported when the Grid is bound to the [OLAP](../../providing-data/connecting-to-olap-cubes.md) data source.
+* **Auto** - The total is calculated using the type of [summary function](../../data-shaping/summarization.md) specified for the measure corresponding to the current Grid column. Note that in this case, the total is calculated based on values of the corresponding data field from the underlying data source. Note that the **Auto** type is not supported when the Grid is bound to the [OLAP](../../provide-data/connecting-to-olap-cubes.md) data source.
 
 You can create totals using different sets of summary functions. This depends on the type of the data source field providing data for the target column.
 

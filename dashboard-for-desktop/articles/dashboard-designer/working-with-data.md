@@ -4,7 +4,7 @@ author: Natalia Kazakova
 legacyId: 114172
 ---
 # Working with Data
-The topics in this section describe how to work with data in a [connected](providing-data.md) data source.
+The topics in this section describe how to work with data in a [connected](provide-data.md) data source.
 
 This section contains the following topics.
 * [Edit Connection Parameters](working-with-data/edit-connection-parameters.md)

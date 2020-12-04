@@ -3,45 +3,45 @@
   items:
   - name: Creating a Dashboard
     href: articles/web-dashboard-designer-mode/creating-a-dashboard.md
-  - name: Providing Data
-    href: articles/web-dashboard-designer-mode/providing-data.md
+  - name: Provide Data
+    href: articles/web-dashboard-designer-mode/provide-data.md
     items:
     - name: Create a New Data Source
-      href: articles/web-dashboard-designer-mode/providing-data/create-a-new-data-source.md
+      href: articles/web-dashboard-designer-mode/provide-data/create-a-new-data-source.md
     - name: Connect to an Existing Data Source
-      href: articles/web-dashboard-designer-mode/providing-data/connect-to-an-existing-data-source.md
+      href: articles/web-dashboard-designer-mode/provide-data/connect-to-an-existing-data-source.md
     - name: Dashboard Data Source Wizard
-      href: articles/web-dashboard-designer-mode/providing-data/dashboard-data-source-wizard.md
+      href: articles/web-dashboard-designer-mode/provide-data/dashboard-data-source-wizard.md
       items:
        - name: Specify Data Source Settings (Database)
-         href: articles/web-dashboard-designer-mode/providing-data/dashboard-data-source-wizard/specify-data-source-settings-database.md
+         href: articles/web-dashboard-designer-mode/provide-data/dashboard-data-source-wizard/specify-data-source-settings-database.md
        - name: Specify Data Source Settings (JSON)
-         href: articles/web-dashboard-designer-mode/providing-data/dashboard-data-source-wizard/specify-data-source-settings-json.md
+         href: articles/web-dashboard-designer-mode/provide-data/dashboard-data-source-wizard/specify-data-source-settings-json.md
        - name: Specify Data Source Settings (OLAP)
-         href: articles/web-dashboard-designer-mode/providing-data/dashboard-data-source-wizard/specify-data-source-settings-olap.md
+         href: articles/web-dashboard-designer-mode/provide-data/dashboard-data-source-wizard/specify-data-source-settings-olap.md
     - name: Query Builder
-      href: articles/web-dashboard-designer-mode/providing-data/query-builder.md
+      href: articles/web-dashboard-designer-mode/provide-data/query-builder.md
     - name: Preview Data
-      href: articles/web-dashboard-designer-mode/providing-data/preview-data.md
+      href: articles/web-dashboard-designer-mode/provide-data/preview-data.md
     - name: Manage Data Sources
-      href: articles/web-dashboard-designer-mode/providing-data/manage-data-sources.md
+      href: articles/web-dashboard-designer-mode/provide-data/manage-data-sources.md
     - name: Working with SQL Data Sources
-      href: articles/web-dashboard-designer-mode/providing-data/working-with-sql-data-sources.md
+      href: articles/web-dashboard-designer-mode/provide-data/working-with-sql-data-sources.md
       items:
       - name: Manage SQL Queries
-        href: articles/web-dashboard-designer-mode/providing-data/working-with-sql-data-sources/manage-sql-queries.md
+        href: articles/web-dashboard-designer-mode/provide-data/working-with-sql-data-sources/manage-sql-queries.md
       - name: Filter Queries
-        href: articles/web-dashboard-designer-mode/providing-data/working-with-sql-data-sources/filter-queries.md
+        href: articles/web-dashboard-designer-mode/provide-data/working-with-sql-data-sources/filter-queries.md
       - name: Pass Query Parameters
-        href: articles/web-dashboard-designer-mode/providing-data/working-with-sql-data-sources/pass-query-parameters.md
+        href: articles/web-dashboard-designer-mode/provide-data/working-with-sql-data-sources/pass-query-parameters.md
       - name: Stored Procedures
-        href: articles/web-dashboard-designer-mode/providing-data/working-with-sql-data-sources/stored-procedures.md
+        href: articles/web-dashboard-designer-mode/provide-data/working-with-sql-data-sources/stored-procedures.md
     - name: Filter Data Sources
-      href: articles/web-dashboard-designer-mode/providing-data/filter-data-sources.md
+      href: articles/web-dashboard-designer-mode/provide-data/filter-data-sources.md
     - name: Calculated Fields
-      href: articles/web-dashboard-designer-mode/providing-data/calculated-fields.md
+      href: articles/web-dashboard-designer-mode/provide-data/calculated-fields.md
     - name: Data Inspector
-      href: articles/web-dashboard-designer-mode/providing-data/data-inspector.md
+      href: articles/web-dashboard-designer-mode/provide-data/data-inspector.md
   - name: Adding Dashboard Items
     href: articles/web-dashboard-designer-mode/adding-dashboard-items.md
   - name: Bind Dashboard Items to Data

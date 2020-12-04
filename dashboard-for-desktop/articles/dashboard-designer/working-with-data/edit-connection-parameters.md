@@ -4,7 +4,7 @@ author: Natalia Kazakova
 legacyId: 114167
 ---
 # Edit Connection Parameters
-After you [connected](../providing-data/connecting-to-sql-databases.md) to the data store and selected the required data, you can edit the connection parameters used to establish a connection.
+After you [connected](../provide-data/connecting-to-sql-databases.md) to the data store and selected the required data, you can edit the connection parameters used to establish a connection.
 
 To edit connection parameters for the selected data source, click the **Edit Connection** button in the **Data Source** ribbon tab.
 

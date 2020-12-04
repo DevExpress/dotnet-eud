@@ -8,7 +8,7 @@ In **OLAP** mode, the cube schema is fetched automatically, and the [Data Source
 
 ![ProvidingData_OLAP_DataSourceBrowser](../../../images/img19751.png)
 
-To visualize data from the OLAP cube, [ drag-and-drop ](bind-dashboard-items-to-data.md) measures, attributes or hierarchies onto the appropriate data sections in the **DATA ITEMS** area.
+To visualize data from the OLAP cube, [drag-and-drop](bind-dashboard-items-to-data.md) measures, attributes or hierarchies onto the appropriate data sections in the **DATA ITEMS** area.
 
 Note that OLAP measures can only be placed in the **Values** section, while dimension attributes and hierarchies can only be placed in other data sections.
 

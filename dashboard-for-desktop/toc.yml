@@ -3,33 +3,33 @@
   items:
   - name: Creating a Dashboard
     href: articles/dashboard-designer/creating-a-dashboard.md
-  - name: Providing Data
-    href: articles/dashboard-designer/providing-data.md
+  - name: Provide Data
+    href: articles/dashboard-designer/provide-data.md
     items:
     - name: Supported Data Sources
-      href: articles/dashboard-designer/providing-data/supported-data-sources.md
+      href: articles/dashboard-designer/provide-data/supported-data-sources.md
     - name: Connecting to SQL Databases
-      href: articles/dashboard-designer/providing-data/connecting-to-sql-databases.md
+      href: articles/dashboard-designer/provide-data/connecting-to-sql-databases.md
     - name: Connecting to OLAP cubes
-      href: articles/dashboard-designer/providing-data/connecting-to-olap-cubes.md
+      href: articles/dashboard-designer/provide-data/connecting-to-olap-cubes.md
     - name: Binding to Microsoft Excel Workbooks
-      href: articles/dashboard-designer/providing-data/binding-to-microsoft-excel-workbooks.md
+      href: articles/dashboard-designer/provide-data/binding-to-microsoft-excel-workbooks.md
     - name: Binding to CSV Files
-      href: articles/dashboard-designer/providing-data/binding-to-csv-files.md
+      href: articles/dashboard-designer/provide-data/binding-to-csv-files.md
     - name: Binding to Extract Data Sources
-      href: articles/dashboard-designer/providing-data/binding-to-extract-data-sources.md
+      href: articles/dashboard-designer/provide-data/binding-to-extract-data-sources.md
     - name: Data Processing Modes
-      href: articles/dashboard-designer/providing-data/data-processing-modes.md
+      href: articles/dashboard-designer/provide-data/data-processing-modes.md
     - name: Connect to EF Data Sources
-      href: articles/dashboard-designer/providing-data/connect-to-ef-data-sources.md
+      href: articles/dashboard-designer/provide-data/connect-to-ef-data-sources.md
     - name: Binding to Federated Data Source
-      href: articles/dashboard-designer/providing-data/binding-to-federated-data-source.md
+      href: articles/dashboard-designer/provide-data/binding-to-federated-data-source.md
     - name: Binding to JSON Data Sources
-      href: articles/dashboard-designer/providing-data/binding-to-json-data-sources.md
+      href: articles/dashboard-designer/provide-data/binding-to-json-data-sources.md
     - name: Binding to Object Data Sources
-      href: articles/dashboard-designer/providing-data/binding-to-object-data-sources.md
+      href: articles/dashboard-designer/provide-data/binding-to-object-data-sources.md
     - name: Binding to XPO Data Sources
-      href: articles/dashboard-designer/providing-data/binding-to-xpo-data-sources.md
+      href: articles/dashboard-designer/provide-data/binding-to-XPO-data-sources.md
   - name: Working with Data
     href: articles/dashboard-designer/working-with-data.md
     items:

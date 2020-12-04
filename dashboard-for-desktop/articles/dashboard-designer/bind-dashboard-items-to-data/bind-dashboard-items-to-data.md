@@ -4,7 +4,7 @@ author: Natalia Kazakova
 legacyId: 15769
 ---
 # Bind Dashboard Items to Data
-This topic explains how to bind the newly [created](../adding-dashboard-items.md) dashboard item to [data source](../providing-data.md) fields, to display data.
+This topic explains how to bind the newly [created](../adding-dashboard-items.md) dashboard item to [data source](../provide-data.md) fields, to display data.
 * [Binding Concepts](#binding-concepts)
 * [Create Binding](#create-binding)
 * [Modify Binding](#modify-binding)
