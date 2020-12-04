@@ -4,15 +4,15 @@ author: Anna Gubareva
 ---
 # Matrix 2 of 5
 
-**Matrix 2 of 5** is a linear one-dimensional bar code. **Matrix 2 of 5** is a self-checking numerical-only bar code.
+**Matrix 2 of 5** is a linear one-dimensional barcode. **Matrix 2 of 5** is a self-checking numerical-only barcode.
 
 Unlike the **Interleaved 2 of 5**, all of the information is encoded in the bars; the spaces are of a fixed width and used only to separate the bars. **Matrix 2 of 5** is used primarily for warehouse sorting, photo finishing, and airline ticket marking.
 
 ![](../../../../../images/eurd-win-bar-code-matrix-2-of-5.png)
 
-## Add the Bar Code to a Report
+## Add the Barcode to a Report
 
-1. Drag the **Bar Code** item from the report controls toolbox tab and drop it onto the report. 
+1. Drag the **Barcode** item from the report controls toolbox tab and drop it onto the report. 
 
     ![](../../../../../images/drag-and-drop-barcode.png)
 
@@ -28,8 +28,8 @@ In the [property grid](../../report-designer-tools/ui-panels/property-grid-tabbe
 
 * **Calculate a Checksum**
 
-    Specifies whether to calculate a checksum for the bar code.
+    Specifies whether to calculate a checksum for the barcode.
 
 * **Wide Narrow Ratio**
 
-    Specifies the density of a bar code's bars.
+    Specifies the density of a barcode's bars.

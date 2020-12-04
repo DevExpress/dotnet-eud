@@ -9,9 +9,9 @@ The **Codabar** is a discrete, self-checking symbology that may encode **16** di
 
 ![](../../../../images/eurd-web-bar-code-codabar.png)
 
-## Add the Bar Code to a Report
+## Add the Barcode to a Report
 
-1. Drag the **Bar Code** item from the report controls toolbox tab and drop it onto the report. 
+1. Drag the **Barcode** item from the report controls toolbox tab and drop it onto the report. 
 
     ![](../../../../images/eurd-web-add-bar-code-to-report.png)
 

@@ -8,9 +8,9 @@ Using **Code 39**'s "Full ASCII Mode", it is possible to encode all **128** ASCI
 
 ![](../../../../../images/eurd-win-bar-code-code-39-extended.png)
 
-## Add the Bar Code to a Report
+## Add the Barcode to a Report
 
-1. Drag the **Bar Code** item from the report controls toolbox tab and drop it onto the report. 
+1. Drag the **Barcode** item from the report controls toolbox tab and drop it onto the report. 
 
     ![](../../../../../images/drag-and-drop-barcode.png)
 

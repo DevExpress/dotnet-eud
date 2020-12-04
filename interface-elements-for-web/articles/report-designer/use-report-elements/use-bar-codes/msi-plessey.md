@@ -6,13 +6,13 @@ author: Anna Vekhina
 
 **MSI** was developed by the MSI Data Corporation, based on the original **Plessey Code**. **MSI**, also known as **Modified Plessey**, is used primarily to mark retail shelves for inventory control.
 
-**MSI** is a continuous, non-self-checking symbology. While an **MSI** bar code can be of any length, a given application usually implements a fixed-length code.
+**MSI** is a continuous, non-self-checking symbology. While an **MSI** barcode can be of any length, a given application usually implements a fixed-length code.
 
 ![](../../../../images/eurd-web-bar-code-msi-plessey.png)
 
-## Add the Bar Code to a Report
+## Add the Barcode to a Report
 
-1. Drag the **Bar Code** item from the report controls toolbox tab and drop it onto the report. 
+1. Drag the **Barcode** item from the report controls toolbox tab and drop it onto the report. 
 
     ![](../../../../images/eurd-web-add-bar-code-to-report.png)
 
@@ -28,4 +28,4 @@ In the [property grid](../../report-designer-tools/ui-panels/properties-panel.md
 
 * **MSI Checksum**
 
-    Specifies the bar code's checksum type, which defines the appearance of checksum bars added to the bar code.
+    Specifies the barcode's checksum type, which defines the appearance of checksum bars added to the barcode.

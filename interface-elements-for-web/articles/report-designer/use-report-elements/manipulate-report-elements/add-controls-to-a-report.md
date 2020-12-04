@@ -97,7 +97,7 @@ See the following tutorials for detailed instructions:
 * [Display the User Name in a Report](../../add-extra-information/display-the-user-name-in-a-report.md)
 * [Display the Current Date and Time in a Report](../../add-extra-information/display-the-current-date-and-time-in-a-report.md)
 
-## Display Check Boxes, Images and Bar Codes
+## Display Check Boxes, Images and Barcodes
 Drop a Boolean data field from the Field List onto a report to create a [Check Box](../use-basic-report-controls/check-box.md) control bound to that field.
 
 ![](../../../../images/eurd-web-check-box.png)
@@ -110,7 +110,7 @@ Use the [Picture Box](../use-basic-report-controls/picture-box.md) control to di
 
 ![](../../../../images/eurd-web-picture-box.png)
 
-To display bar codes, use the [Bar Code](../use-bar-codes.md) control.
+To display barcodes, use the [Barcode](../use-bar-codes.md) control.
 
 ![](../../../../images/eurd-web-bar-code.png)
 

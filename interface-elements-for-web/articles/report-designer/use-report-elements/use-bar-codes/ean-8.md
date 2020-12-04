@@ -4,13 +4,13 @@ author: Anna Vekhina
 ---
 # EAN 8
 
-**EAN-8** is the **EAN** equivalent of **UPC-E** in the sense that it provides a "short" bar code for small packages.
+**EAN-8** is the **EAN** equivalent of **UPC-E** in the sense that it provides a "short" barcode for small packages.
 
 ![](../../../../images/eurd-web-bar-code-ean8.png)
 
-## Add the Bar Code to a Report
+## Add the Barcode to a Report
 
-1. Drag the **Bar Code** item from the report controls toolbox tab and drop it onto the report. 
+1. Drag the **Barcode** item from the report controls toolbox tab and drop it onto the report. 
 
     ![](../../../../images/eurd-web-add-bar-code-to-report.png)
 

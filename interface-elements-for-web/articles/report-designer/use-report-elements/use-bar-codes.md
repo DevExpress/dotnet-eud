@@ -1,15 +1,15 @@
 ---
-title: Use Bar Codes
+title: Use Barcodes
 author: Anna Vekhina
 ---
-# Use Bar Codes
+# Use Barcodes
 
-The following topics provide basic information about using bar codes:
+The following topics provide basic information about using barcodes:
 
-* [Add Bar Codes to Reports](use-bar-codes/add-bar-codes-to-a-report.md)
-* [Bar Code Recognition Specifics](use-bar-codes/bar-code-recognition-specifics.md)
+* [Add Barcodes to Reports](use-bar-codes/add-bar-codes-to-a-report.md)
+* [Barcode Recognition Specifics](use-bar-codes/bar-code-recognition-specifics.md)
 
-See the following topics to learn about the supported one-dimensional bar codes:
+See the following topics to learn about the supported one-dimensional barcodes:
 
 * [Codabar](use-bar-codes/codabar.md)
 * [Code 11 (USD-8)](use-bar-codes/code-11-usd-8.md)
@@ -36,7 +36,7 @@ See the following topics to learn about the supported one-dimensional bar codes:
 * [UPC-E0](use-bar-codes/upc-e0.md)
 * [UPC-E1](use-bar-codes/upc-e1.md)
 
-See the following topics to learn about the supported two-dimensional bar codes:
+See the following topics to learn about the supported two-dimensional barcodes:
 
 * [ECC200 - Data Matrix](use-bar-codes/ecc200-data-matrix.md)
 * [GS1- Data Matrix](use-bar-codes/gs1-data-matrix.md)

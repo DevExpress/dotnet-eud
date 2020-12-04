@@ -4,17 +4,17 @@ author: Anna Gubareva
 ---
 # UPC Shipping Container Symbol (ITF-14)
 
-The **UPC Shipping Container Symbol** (**ITF-14**) bar code is used to mark packaging materials that contain products labeled with a **UPC** or **EAN** product identification number.
+The **UPC Shipping Container Symbol** (**ITF-14**) barcode is used to mark packaging materials that contain products labeled with a **UPC** or **EAN** product identification number.
 
-This bar code provides a **GS1** implementation of an **Interleaved 2 of 5** bar code for encoding a **Global Trade Item Number** (an identifier for trade items developed by **GS1**). This bar code always uses a total of **14** digits.
+This barcode provides a **GS1** implementation of an **Interleaved 2 of 5** barcode for encoding a **Global Trade Item Number** (an identifier for trade items developed by **GS1**). This barcode always uses a total of **14** digits.
 
-The thick black border around the symbol (the **Bearer Bar**) is intended to improve bar code reading reliability.
+The thick black border around the symbol (the **Bearer Bar**) is intended to improve barcode reading reliability.
 
 ![](../../../../../images/eurd-win-bar-code-itf-14.png)
 
-## Add the Bar Code to a Report
+## Add the Barcode to a Report
 
-1. Drag the **Bar Code** item from the report controls toolbox tab and drop it onto the report. 
+1. Drag the **Barcode** item from the report controls toolbox tab and drop it onto the report. 
 
     ![](../../../../../images/drag-and-drop-barcode.png)
 
@@ -30,8 +30,8 @@ In the [property grid](../../report-designer-tools/ui-panels/property-grid-tabbe
 
 * **Calculate a Checksum**
 
-    Specifies whether to calculate a checksum for the bar code.
+    Specifies whether to calculate a checksum for the barcode.
 
 * **Wide Narrow Ratio**
 
-    Specifies the density of a bar code's bars.
+    Specifies the density of a barcode's bars.

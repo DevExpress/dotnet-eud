@@ -8,9 +8,9 @@ The **GS1 Data Matrix** uses a special start combination to differentiate the **
 
 ![](../../../../images/eurd-web-bar-code-gs1-datamatrix.png)
 
-## Add the Bar Code to a Report
+## Add the Barcode to a Report
 
-1. Drag the **Bar Code** item from the report controls toolbox tab and drop it onto the report. 
+1. Drag the **Barcode** item from the report controls toolbox tab and drop it onto the report. 
 
     ![](../../../../images/eurd-web-add-bar-code-to-report.png)
 
@@ -26,12 +26,12 @@ In the [property grid](../../report-designer-tools/ui-panels/properties-panel.md
 
 * **FNC1 Functional Character**
 	
-	Specifies the symbol (or set of symbols) in the bar code text that will be replaced with the **FNC1** functional character when the bar code's bars are drawn.
+	Specifies the symbol (or set of symbols) in the barcode text that will be replaced with the **FNC1** functional character when the barcode's bars are drawn.
 
 * **Human-Readable Text**
 
-    Specifies whether or not parentheses should be included in the bar code's text to improve the readability of the bar code's text.
+    Specifies whether or not parentheses should be included in the barcode's text to improve the readability of the barcode's text.
 
 * **Matrix Size**
 
-	Specifies the bar code matrix size.
+	Specifies the barcode matrix size.

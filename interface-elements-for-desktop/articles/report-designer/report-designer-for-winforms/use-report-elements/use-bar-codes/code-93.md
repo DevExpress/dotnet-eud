@@ -10,9 +10,9 @@ author: Anna Gubareva
 
 ![](../../../../../images/eurd-win-bar-code-code-93.png)
 
-## Add the Bar Code to a Report
+## Add the Barcode to a Report
 
-1. Drag the **Bar Code** item from the report controls toolbox tab and drop it onto the report. 
+1. Drag the **Barcode** item from the report controls toolbox tab and drop it onto the report. 
 
     ![](../../../../../images/drag-and-drop-barcode.png)
 
@@ -28,7 +28,7 @@ In the [property grid](../../report-designer-tools/ui-panels/property-grid-tabbe
 
 * **Calculate a Checksum**
 
-    Specifies whether to calculate a checksum for the bar code.
+    Specifies whether to calculate a checksum for the barcode.
 
     > [!NOTE]
-	> A checksum of a **Code 93** bar code can contain characters that are not supported by this bar code symbology. For this reason, the checksum is not included in the **Code 93** bar code's displayed text.
+	> A checksum of a **Code 93** barcode can contain characters that are not supported by this barcode symbology. For this reason, the checksum is not included in the **Code 93** barcode's displayed text.

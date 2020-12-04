@@ -4,13 +4,13 @@ author: Anna Vekhina
 ---
 # Interleaved 2 of 5
 
-**Interleaved 2 of 5** is a higher-density numerical bar code based upon the **Standard 2 of 5** symbology. It is used primarily in the distribution and warehouse industry.
+**Interleaved 2 of 5** is a higher-density numerical barcode based upon the **Standard 2 of 5** symbology. It is used primarily in the distribution and warehouse industry.
 
 ![](../../../../images/eurd-web-bar-code-interleaved-2-of-5.png)
 
-## Add the Bar Code to a Report
+## Add the Barcode to a Report
 
-1. Drag the **Bar Code** item from the report controls toolbox tab and drop it onto the report. 
+1. Drag the **Barcode** item from the report controls toolbox tab and drop it onto the report. 
 
     ![](../../../../images/eurd-web-add-bar-code-to-report.png)
 
@@ -26,8 +26,8 @@ In the [property grid](../../report-designer-tools/ui-panels/properties-panel.md
 
 * **Calculate a Checksum**
 
-    Specifies whether to calculate a checksum for the bar code.
+    Specifies whether to calculate a checksum for the barcode.
 
 * **Wide Narrow Ratio**
 
-    Specifies the density of a bar code's bars.
+    Specifies the density of a barcode's bars.

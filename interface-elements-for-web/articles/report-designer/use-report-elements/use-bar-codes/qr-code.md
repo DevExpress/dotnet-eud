@@ -8,9 +8,9 @@ A **QR Code** (**QR** is the abbreviation for **Quick Response**) is a two-dimen
 
 ![](../../../../images/eurd-web-bar-code-qr-code.png)
 
-## Add the Bar Code to a Report
+## Add the Barcode to a Report
 
-1. Drag the **Bar Code** item from the report controls toolbox tab and drop it onto the report. 
+1. Drag the **Barcode** item from the report controls toolbox tab and drop it onto the report. 
 
     ![](../../../../images/eurd-web-add-bar-code-to-report.png)
 
@@ -26,11 +26,11 @@ In the [property grid](../../report-designer-tools/ui-panels/properties-panel.md
 
 * **Compaction Mode**
 
-    Specifies whether numeric, alpha-numeric or byte information should be used as the bar code's data.
+    Specifies whether numeric, alpha-numeric or byte information should be used as the barcode's data.
 	
 * **Error Correction Level**
 
-    Specifies the amount of redundancy built into the bar code's coding, to compensate for calculation errors.
+    Specifies the amount of redundancy built into the barcode's coding, to compensate for calculation errors.
 
 * **Logo**
 
@@ -38,5 +38,5 @@ In the [property grid](../../report-designer-tools/ui-panels/properties-panel.md
 
 * **Version**
 
-    Specifies the bar code's size.
+    Specifies the barcode's size.
 	

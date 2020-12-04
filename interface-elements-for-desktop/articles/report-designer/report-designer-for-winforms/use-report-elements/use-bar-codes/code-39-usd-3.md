@@ -4,13 +4,13 @@ author: Anna Gubareva
 ---
 # Code 39 (USD-3)
 
-**Code 39**, the first alpha-numeric symbology to be developed, is still widely used, particularly in non-retail environments. It is the standard bar code used by the United States Department of Defense, and is also used by the Health Industry Bar Code Council (HIBCC). **Code 39** is also known as "**3 of 9 Code**" and "**USD-3**".
+**Code 39**, the first alpha-numeric symbology to be developed, is still widely used, particularly in non-retail environments. It is the standard barcode used by the United States Department of Defense, and is also used by the Health Industry Barcode Council (HIBCC). **Code 39** is also known as "**3 of 9 Code**" and "**USD-3**".
 
 ![](../../../../../images/eurd-win-bar-code-code-39.png)
 
-## Add the Bar Code to a Report
+## Add the Barcode to a Report
 
-1. Drag the **Bar Code** item from the report controls toolbox tab and drop it onto the report. 
+1. Drag the **Barcode** item from the report controls toolbox tab and drop it onto the report. 
 
     ![](../../../../../images/drag-and-drop-barcode.png)
 
