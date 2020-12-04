@@ -37,7 +37,7 @@ Format conditions that can be applied to different data item types are as follow
 	* **Expression**
 * date-time 
 	* **Value**
-	* A **Date Occurring** (for dimensions with a continuous date-time group interval)
+	* **A Date Occurring** (for dimensions with a continuous date-time group interval)
 	* **Expression**
 	* **Color Ranges**
 	* **Gradient Ranges**
@@ -50,7 +50,7 @@ You can create and edit format rules in the **Conditional Formatting** section t
 
 * The dashboard item's [Options](../../ui-elements/dashboard-item-menu.md) menu
 
-*  [data item menu](../../ui-elements/data-item-menu.md)
+* The [data item menu](../../ui-elements/data-item-menu.md)
 
 Refer to the following topic for information on how to create and edit format rules: [Conditional Formatting in Web Dashboard](../../appearance-customization/conditional-formatting.md).
 
@@ -64,9 +64,9 @@ The image below displays the **Value** rule settings. The condition colors point
 
 You can apply one of the predefined colors or set a custom color for this condition.
 
-Use the **Apply to chart elements** button group to apply a rule on points or lines.
+Use the **Apply to chart elements** button group to apply a rule to points or lines.
 
-* **Point**: A rule applies to the data-points such as bars, points and bubbles.
+* **Point**: A rule applies to the data points such as bars, points and bubbles.
 * **Line / Area**: A rule applies to lines and areas.
 
 If you select **Line / Area**, the format rule applies to the line when at least one line point meets the rule's condition: 

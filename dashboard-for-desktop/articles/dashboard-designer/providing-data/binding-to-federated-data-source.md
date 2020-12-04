@@ -21,7 +21,7 @@ Combines rows from two or more tables into one data set and removes duplicate ro
 Operates like **Union**, but duplicates rows from different tables when they contain the same data.
 
 ### Transformation
-Unfolds complex objects and flattens them in a simple data set. The dashboard does not support data source fields that store collections so you need to transform the data source into a new flattened data table.
+Unfolds complex objects and flattens them in a simple data set. The dashboard does not support data source fields that store collections, so you need to transform the data source into a new flattened data table.
 
 ## Create a Federated Data Source with the Data Source Wizard
 
@@ -49,7 +49,7 @@ To create a federated data source with the Data Source Wizard, perform the follo
 
    **Union**
 
-   Double-click the data sources you want to combine. Unlike Join queries, you cannot select individual columns. Columns included in the query are displayed in the bottom pane where you can specify their aliases.
+   Double-click the data sources you want to combine. Unlike join queries, you cannot select individual columns. Columns included in the query are displayed in the bottom pane where you can specify their aliases.
 
    ![data-federation-querybuilder-union](../../../images/data-federation-querybuilder-union.png)
 

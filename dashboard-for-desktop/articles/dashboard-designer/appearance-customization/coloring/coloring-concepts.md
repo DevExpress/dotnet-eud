@@ -33,7 +33,7 @@ Add a [Chart](../../dashboard-item-settings/chart.md) with the same Argument and
 
 ![win-coloring-treemap-chart-none](../../../../images/win-coloring-treemap-chart-none.png)
 
-**Default** means **None** for chart arguments.  
+Note that **Default** means **None** for chart arguments.  
 
 ## Color Mode: Hue 
 
@@ -44,7 +44,7 @@ Set the TreeMap's color mode to **Default** or **Hue**:
 ![win-coloring-chart-none-treemap-hue](../../../../images/win-coloring-chart-none-treemap-hue.png)
 
 
-In the Chart settings, move _State_ from Arguments to Series. **Default** now means **Hue** in this new context. The ![ColoringIndicator](../../../../images/coloringindicator25453.png) indicator on the data item shows that color variation by hue is enabled.
+In the Chart settings, move _State_ from Arguments to Series. **Default** now means **Hue** in this new context. The coloring indicator (![ColoringIndicator](../../../../images/coloringindicator25453.png)) on the data item shows that color variation by hue is enabled.
 
 ![win-coloring-chart-treemap-hue](../../../../images/win-coloring-chart-treemap-hue.png)
 
@@ -60,7 +60,7 @@ Add a [Range Filter](../../dashboard-item-settings/range-filter.md) with the fol
 
 ![win-coloring-range-filter](../../../../images/win-coloring-range-filter.png)
 
-The same colors correspond to the same _State_ fields so you can associate and compare data from all dashboard items. This happens because all items use **Global Colors** (the default setting). You can see the switch to **Global Colors** in the Ribbon. Click **Edit Colors** to modify the colors used in the palette:  
+Corresponding _State_ fields are painted with the same colors, so you can associate and compare data from all dashboard items. This happens because all items use **Global Colors** (the default setting). You can see the switch to **Global Colors** in the Ribbon. Click **Edit Colors** to modify the colors used in the palette:  
 
 ![win-coloring-custom-color](../../../../images/win-coloring-custom-color.png)
 
@@ -79,7 +79,7 @@ You can see the Treemap's arguments that use colors from the **Local Color Schem
 
 ![win-coloring-treemap-local-color-scheme](../../../../images/win-coloring-treemap-local-color-scheme.png)
 
-Colors modified in the local color scheme do not affect items that use the global color scheme. The following image shows the custom color for _Georgia_ in the Treemap:
+Colors modified in the local color scheme do not affect items that use the global color scheme. The following image shows a custom color for _Georgia_ in the Treemap:
 
 ![win-coloring-treemap-local-color-scheme-custom-color](../../../../images/win-coloring-treemap-local-color-scheme-custom-color.png)
 

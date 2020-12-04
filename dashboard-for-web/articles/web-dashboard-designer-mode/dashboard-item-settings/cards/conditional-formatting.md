@@ -28,7 +28,7 @@ Format rules that can be applied to different data item types are as follows:
 	* **Expression**
 * date-time 
 	* **Value**
-	* A **Date Occurring** (for dimensions with a continuous date-time group interval)
+	* **A Date Occurring** (for dimensions with a continuous date-time group interval)
 	* **Expression**
 	* **Icon and Color Ranges**
 	* **Color Ranges**
@@ -41,7 +41,7 @@ You can create and edit format rules in the **Conditional Formatting** section t
 
 * The dashboard item's [Options](../../ui-elements/dashboard-item-menu.md) menu
 
-*  [data item menu](../../ui-elements/data-item-menu.md)
+* The [data item menu](../../ui-elements/data-item-menu.md)
 
 Refer to the following topic for information on how to create and edit format rules: [Conditional Formatting in Web Dashboard](../../appearance-customization/conditional-formatting.md).
 ## Card-Specific Format Condition Settings
@@ -50,19 +50,17 @@ For a Card dashboard item, you can apply conditional formatting to the card's vi
 
 Available settings in the **Common** section depend on the selected **Calculated by** option:
 
-* The **Card** option specifies a data item container (a card by whose values the format rule is calculated. The **Value Type** option specifies the card's measurement according to which a condition is calculated.
+* The **Card** option specifies a data item container. The format rule is calculated based on the card's values. The **Value Type** option specifies the card's measurement upon which a condition is calculated.
 
     If the Card dashboard item contains multiple values in data item containers (cards), make sure you apply a format rule to the active card to see changes. Click ![WebDashboard_DashboardItem_LayersIcon](../../../../images/webdashboard_dashboarditem_layersicon132016.png) in the dashboard item caption to switch between cards. The expression format rule ignores the specified card and is applied to all cards regardless of the specified value.
-* For the **Data Item** option you can choose a hidden measure or series dimension. The rule applies to all cards in a Card item.
+* For the **Data Item** option, you can choose a hidden measure or series dimension. The rule applies to all cards in a Card item.
 
 ![conditional-formatting-card-delta-variation](../../../../images/web-conditional-formatting-card-delta-variation.png)
 
 To apply the selected appearance to the Title, Subtitle, values, and other card layout elements, use the **Apply to** drop-down list. The _All elements_ value applies the format rule to all card elements.
 
-If you select background color, it applies to the entire card and the **Apply to** value is not in effect.
+If you select a background color, it applies to the entire card and the **Apply to** value is not in effect.
 
 ![conditional-formatting-card](../../../../images/web-conditional-formatting-card.png)
 
 Some predefined background styles contain a font color. This font color applies to all the card elements regardless of the drop-down list settings (all/particular element).
-
-

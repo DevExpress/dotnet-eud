@@ -30,7 +30,7 @@ Format conditions that can be applied to different data item types are as follow
 	* **Expression**
 * date-time 
 	* **Value**
-	* A **Date Occurring** (for dimensions with a continuous date-time group interval)
+	* **A Date Occurring** (for dimensions with a continuous date-time group interval)
 	* **Expression**
 	* **Color Ranges**
 	* **Gradient Ranges**
@@ -44,7 +44,7 @@ You can create and edit format rules in the **Conditional Formatting** section t
 
 * The dashboard item's [Options](../../ui-elements/dashboard-item-menu.md) menu
 
-*  [data item menu](../../ui-elements/data-item-menu.md)
+* The [data item menu](../../ui-elements/data-item-menu.md)
 
 Refer to the following topic for information on how to create and edit format rules: [Conditional Formatting in Web Dashboard](../../appearance-customization/conditional-formatting.md).
 
@@ -64,7 +64,7 @@ The image below displays the Scatter Chart item with the applied **Greater Than*
 
 ![web-scatter-chart-conditional-formatting](../../../../images/web-scatter-chart-conditional-formatting.png)
 
-For Range format rules the legend display text is generated automatically and depends on the range intervals:
+For Range format rules, the legend display text is generated automatically and depends on the range intervals:
 
 ![web-scatter-chart-with-range-rule](../../../../images/web-scatter-chart-with-range-rule.png)
 
