@@ -21,7 +21,7 @@ Refer to the following topic for more information about common concepts: [Colori
 
 You can disable default color variation for dashboard item elements.  
 
-If you add a [TreeMap](../../designing-dashboard-items/treemap.md) to a dashboard, individual elements (titles) use different colors: 
+For example, if you add a [TreeMap](../../designing-dashboard-items/treemap.md) to a dashboard, individual elements (titles) use different colors: 
 
 ![win-coloring-treemap-default](../../../../images/win-coloring-treemap-default.png)
 
