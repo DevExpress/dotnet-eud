@@ -60,7 +60,7 @@ Add a [Range Filter](../../designing-dashboard-items/range-filter.md) with the f
 
 ![win-coloring-range-filter](../../../../images/win-coloring-range-filter.png)
 
-The same colors correspond to the same _State_ fields so you can associate and compare data from all dashboard items. This happens because all items use **Global Colors** (the default setting). You can see the switch to **Global Colors** in the Ribbon. Click **Edit Colors** to modify the colors used in the palette:  
+Corresponding _State_ fields are painted with the same colors, so you can associate and compare data from all dashboard items. This happens because all items use **Global Colors** (the default setting). You can see the switch to **Global Colors** in the Ribbon. Click **Edit Colors** to modify the colors used in the palette:  
 
 ![win-coloring-custom-color](../../../../images/win-coloring-custom-color.png)
 
