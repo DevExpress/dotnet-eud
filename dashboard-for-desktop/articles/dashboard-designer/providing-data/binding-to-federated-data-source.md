@@ -49,7 +49,7 @@ To create a federated data source with the Data Source Wizard, perform the follo
 
    **Union**
 
-   Double-click the data sources you want to combine. Unlike Join queries, you cannot select individual columns. Columns included in the query are displayed in the bottom pane where you can specify their aliases.
+   Double-click the data sources you want to combine. Unlike join queries, you cannot select individual columns. Columns included in the query are displayed in the bottom pane where you can specify their aliases.
 
    ![data-federation-querybuilder-union](../../../images/data-federation-querybuilder-union.png)
 
