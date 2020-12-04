@@ -16,4 +16,4 @@ The Web Dashboard provides the capability to save a dashboard definition (dashbo
 	
 	![wdd-save-chages-confirm-dialog](../../images/img125634.png)
 
-To learn how to open the saved dashboard, see Open a Dashboard(open-a-dashboard.md).
+To learn how to open the saved dashboard, see [Open a Dashboard](open-a-dashboard.md).

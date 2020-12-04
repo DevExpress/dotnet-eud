@@ -19,11 +19,11 @@ The following topics will guide you through the process of creating a dashboard.
 * [Interactivity](web-dashboard-designer-mode/interactivity.md)
 * [Appearance Customization](web-dashboard-designer-mode/appearance-customization.md)
 * [Data Analysis](web-dashboard-designer-mode/data-analysis.md)
-* Convert Dashboard Items(web-dashboard-designer-mode/convert-dashboard-items.md)
+* [Convert Dashboard Items](web-dashboard-designer-mode/convert-dashboard-items.md)
 * [Dashboard Layout](web-dashboard-designer-mode/dashboard-layout.md)
 * [Undo and Redo Operations](web-dashboard-designer-mode/undo-and-redo-operations.md)
 * [Save a Dashboard](web-dashboard-designer-mode/save-a-dashboard.md)
-* Open a Dashboard(web-dashboard-designer-mode/open-a-dashboard.md)
+* [Open a Dashboard](web-dashboard-designer-mode/open-a-dashboard.md)
 
 ## Exporting
 The Web Dashboard provides the capability to export the individual items of a dashboard, as well as the entire dashboard.
