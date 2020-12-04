@@ -37,7 +37,7 @@ Format conditions that can be applied to different data item types are as follow
 	* **Expression**
 * date-time 
 	* **Value**
-	* A **Date Occurring** (for dimensions with a continuous date-time group interval)
+	* **A Date Occurring** (for dimensions with a continuous date-time group interval)
 	* **Expression**
 	* **Color Ranges**
 	* **Gradient Ranges**
