@@ -21,7 +21,7 @@ Format rules used in conditional formatting can be categorized as follows:
 * **Gradient Ranges** - Apply formatting using gradient color scales.
 * **Bar** - Visualizes numeric values as bars. You can also color bars corresponding to positive and negative values using different colors.
 * **Bar Color Ranges** - Visualize numeric values as bars. Values within a range display a specific color.
-* **Bar Gradient Ranges** - Visualize numeric values as bars. Values within a range display a specific color.
+* **Bar Gradient Ranges** - Visualize numeric values as bars. Values within a range display a specific bar gradient.
 
 Format conditions that can be applied to different data item types are as follows:
 * numeric 

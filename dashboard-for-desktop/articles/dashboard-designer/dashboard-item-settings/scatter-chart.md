@@ -11,7 +11,7 @@ The topics in this section describe the features available in the **Scatter Char
 This section is divided into the following subsections.
 * [Providing Data](scatter-chart/providing-data.md)
 	
-	Provides information on how to supply the Scatter Chart dashboard item with data.
+	Explains how to supply the Scatter Chart dashboard item with data.
 * [Interactivity](scatter-chart/interactivity.md)
 	
 	Describes features that enable interaction between the Scatter Chart and other dashboard items.
@@ -20,7 +20,7 @@ This section is divided into the following subsections.
 	Describes coloring capabilities of the Scatter Chart dashboard item.
 * [Legend](scatter-chart/legend.md)
 	
-	Provides information about the chart legend and its options.
+	Describes the chart legend and its options.
 * [Axes](scatter-chart/axes.md)
 	
 	Describes how to customize settings related to chart axes.
@@ -29,7 +29,7 @@ This section is divided into the following subsections.
 	Describes how to toggle the chart's orientation.
 * [Labels](scatter-chart/labels.md)
 	
-	Provides information about point labels and tooltips that contain descriptions of data points.
+	Describes point labels and tooltips that contain descriptions of data points.
 * [Conditional Formatting](scatter-chart/conditional-formatting.md)
 
 	Describes the format condition settings.

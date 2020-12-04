@@ -11,13 +11,13 @@ The topics in this section describe the features available in the **Chart** dash
 This section is divided into the following subsections.
 * [Providing Data](chart/providing-data.md)
 	
-	Provides information on how to supply the Chart dashboard item with data.
+	Explains how to supply the Chart dashboard item with data.
 * [Series](chart/series.md)
 	
 	Enumerates and describes different types of series that can be displayed within the Chart dashboard item.
 * [Panes](chart/panes.md)
 	
-	Introduces the concept of chart panes (visual areas within a diagram that display chart series), and provides information on how to create them.
+	Introduces the concept of chart panes (visual areas within a diagram that display chart series), and describes how to create them.
 * [Interactivity](chart/interactivity.md)
 	
 	Describes features that enable interaction between the Chart and other dashboard items.
