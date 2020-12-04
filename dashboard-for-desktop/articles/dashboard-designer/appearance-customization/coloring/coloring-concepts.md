@@ -37,7 +37,7 @@ Note that **Default** means **None** for chart arguments.
 
 ## Color Mode: Hue 
 
-You can enable colors in both previously added items.
+You can enable colors in previously added Treemap and Chart items.
 
 Set the TreeMap's color mode to **Default** or **Hue**: 
 
