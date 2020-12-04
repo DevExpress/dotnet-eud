@@ -1,9 +1,9 @@
 ---
-title: Providing Data
+title: Provide Data
 author: Natalia Kazakova
 legacyId: 116573
 ---
-# Providing Data
+# Provide Data
 Topics in this section describe how to connect dashboards to data sources and work with the connected data.
 * [Create a New Data Source](provide-data/create-a-new-data-source.md)
 * [Connect to an Existing Data Source](provide-data/connect-to-an-existing-data-source.md)
