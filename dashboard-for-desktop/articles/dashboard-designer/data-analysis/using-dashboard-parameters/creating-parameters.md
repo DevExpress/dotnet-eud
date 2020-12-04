@@ -21,8 +21,8 @@ To create dashboard parameters in the Dashboard Designer, do the following:
 	* **Allow Null** - Specifies whether or a not null value can be passed as a parameter value.
 	* **Allow Multiselect** - Specifies whether or not multi-selection is enabled for the current parameter. The following limitations are applied to parameters with multi-selection enabled.
 		* Use the **is any of** or **is none of** operators to pass a multi-select parameter to a [filter](../../data-shaping/filtering.md) criteria or to the [Expression](../../appearance-customization/conditional-formatting/expression.md) format condition.
-		* Use the **In** or **Not In** operators to pass a multi-select parameter to a [calculated field](../../working-with-data/creating-calculated-fields.md) expression.
-		* Stored procedures used in the [SQL](../../working-with-data/stored-procedures.md) data source do not support multi-select parameters.
+		* Use the **In** or **Not In** operators to pass a multi-select parameter to a [calculated field](../../work-with-data/creating-calculated-fields.md) expression.
+		* Stored procedures used in the [SQL](../../work-with-data/stored-procedures.md) data source do not support multi-select parameters.
 	* **Name** - Specifies the parameter name. When creating and modifying parameter names, follow the rules below.
 		* A name can contain letters, numbers and underscores.
 		* A name cannot contain spaces.
@@ -54,11 +54,11 @@ There are three types of look-up editor settings that can be specified for a par
 * **Dynamic List** - allows you to use a list of values from the existing data source as a parameter. You need to select the required **Data Source** from the list of available data sources and data members for the dashboard parameter's display name and value, respectively.
 	
 	![Parameters_LookUpSettings_Dynamic](../../../../images/img21842.png)
-	1. First, select the required **Data Source** from the list of available data sources. For the [SQL](../../providing-data/connecting-to-sql-databases.md) data source, select the required **Data Member** that specifies the query from the selected **Data Source**.
+	1. First, select the required **Data Source** from the list of available data sources. For the [SQL](../../provide-data/connecting-to-sql-databases.md) data source, select the required **Data Member** that specifies the query from the selected **Data Source**.
 	2. Then, specify data members for the dashboard parameter's value and display name using **Value Member** and **Display Member**, respectively.
 	3. If necessary, specify the data member used to sort parameter values using the **Sort By** option. **Sort Order** specifies the required sort order.
 	
 	> [!NOTE]
-	> To learn how to create a data source for a dashboard parameter, see [Providing Data](../../providing-data.md).
+	> To learn how to create a data source for a dashboard parameter, see [Provide Data](../../provide-data.md).
 	> 
-	> Note that you cannot specify an [OLAP](../../providing-data/connecting-to-olap-cubes.md) data source as the data source for the dashboard parameter in the Dashboard Designer.
+	> Note that you cannot specify an [OLAP](../../provide-data/connecting-to-olap-cubes.md) data source as the data source for the dashboard parameter in the Dashboard Designer.
