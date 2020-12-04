@@ -24,7 +24,7 @@ The following topics will guide you through the process of creating a dashboard.
 * [Dashboard Layout](dashboard-designer/dashboard-layout.md)
 * [Undo and Redo Operations](dashboard-designer/undo-and-redo-operations.md)
 * [Automatic and Manual Updates](dashboard-designer/automatic-and-manual-updates.md)
-* [Saving a Dashboard](dashboard-designer/saving-a-dashboard.md)
+* [Save a Dashboard](dashboard-designer/save-a-dashboard.md)
 
 ## Printing and Exporting
 The Dashboard Designer provides the capability to print or export the individual items of a dashboard, as well as the entire dashboard.

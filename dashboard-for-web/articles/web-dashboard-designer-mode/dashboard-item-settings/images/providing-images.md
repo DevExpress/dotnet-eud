@@ -11,7 +11,7 @@ To provide an image to the Image dashboard item, open the Image's [Options](../.
 
 ![wdd-image-provide-image](../../../../images/img125751.png)
 
-The URL option saves the path to the image in the [dashboard definition](../../saving-a-dashboard.md).
+The URL option saves the path to the image in the [dashboard definition](../../save-a-dashboard.md).
 
 ## Provide a Set of Images
 The **Bound Image** dashboard item provides the **Attribute** data section containing the corresponding placeholder.

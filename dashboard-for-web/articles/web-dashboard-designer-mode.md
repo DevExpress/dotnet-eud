@@ -22,8 +22,8 @@ The following topics will guide you through the process of creating a dashboard.
 * [Converting Dashboard Items](web-dashboard-designer-mode/converting-dashboard-items.md)
 * [Dashboard Layout](web-dashboard-designer-mode/dashboard-layout.md)
 * [Undo and Redo Operations](web-dashboard-designer-mode/undo-and-redo-operations.md)
-* [Saving a Dashboard](web-dashboard-designer-mode/saving-a-dashboard.md)
-* [Opening a Dashboard](web-dashboard-designer-mode/opening-a-dashboard.md)
+* [Save a Dashboard](web-dashboard-designer-mode/save-a-dashboard.md)
+* Open a Dashboard(web-dashboard-designer-mode/open-a-dashboard.md)
 
 ## Exporting
 The Web Dashboard provides the capability to export the individual items of a dashboard, as well as the entire dashboard.

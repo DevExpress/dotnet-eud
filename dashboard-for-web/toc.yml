@@ -340,10 +340,10 @@
       href: articles/web-dashboard-designer-mode/dashboard-layout/dashboard-items-layout.md
   - name: Undo and Redo Operations
     href: articles/web-dashboard-designer-mode/undo-and-redo-operations.md
-  - name: Saving a Dashboard
-    href: articles/web-dashboard-designer-mode/saving-a-dashboard.md
-  - name: Opening a Dashboard
-    href: articles/web-dashboard-designer-mode/opening-a-dashboard.md
+  - name: Save a Dashboard
+    href: articles/web-dashboard-designer-mode/save-a-dashboard.md
+  - name: Open a Dashboard
+    href: articles/web-dashboard-designer-mode/open-a-dashboard.md
   - name: Exporting
     href: articles/web-dashboard-designer-mode/exporting.md
   - name: UI Elements

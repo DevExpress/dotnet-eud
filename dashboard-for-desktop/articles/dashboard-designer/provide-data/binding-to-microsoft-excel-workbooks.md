@@ -24,7 +24,7 @@ To bind a dashboard to a Microsoft Excel workbook, do the following.
 	> 
 	> ![DataSourceWizard_ProtectedExcelWorkbook](../../../images/img121200.png)
 	> 
-	> Specify a password in the **Password** field and click **OK**. Note that if you enable the **Save password** flag, the password will be saved to a [dashboard definition](../saving-a-dashboard.md) as plain text.
+	> Specify a password in the **Password** field and click **OK**. Note that if you enable the **Save password** flag, the password will be saved to a [dashboard definition](../save-a-dashboard.md) as plain text.
 4. Then, specify import settings used to extract data from the workbook.
 	
 	![DataSourceWizard_SpecifyImportSettings](../../../images/img120059.png)

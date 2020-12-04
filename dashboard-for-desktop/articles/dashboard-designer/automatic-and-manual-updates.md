@@ -18,7 +18,7 @@ This indicates that this dashboard item requires the update to reflect changes. 
 
 ![UpdateButton_Ribbon](../../images/img121082.png)
 
-Note that the state of the **Automatic Updates** option is saved to the [dashboard XML definition](saving-a-dashboard.md) but affects only the Dashboard Designer.
+Note that the state of the **Automatic Updates** option is saved to the [dashboard XML definition](save-a-dashboard.md) but affects only the Dashboard Designer.
 
 > [!NOTE]
 > Note that automatic updates are disabled if you click the **Cancel** button on the loading panel when performing a time-consuming operation.

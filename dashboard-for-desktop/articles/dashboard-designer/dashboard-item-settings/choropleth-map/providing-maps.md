@@ -38,7 +38,7 @@ To open an existing shapefile, use the **Load Map** or **Import Map** button in 
 In the invoked dialog, locate the required **.shp** file. Note that custom maps created in the Cartesian coordinate system are not supported.
 
 > [!NOTE]
-> If the map is opened using the **Load Map** button, the [dashboard XML definition](../../saving-a-dashboard.md) will contain the path to a map shapefile. If the map is opened using the **Import Map** button, the dashboard XML definition will contain the map itself.
+> If the map is opened using the **Load Map** button, the [dashboard XML definition](../../save-a-dashboard.md) will contain the path to a map shapefile. If the map is opened using the **Import Map** button, the dashboard XML definition will contain the map itself.
 
 > [!NOTE]
 > Attributes from the corresponding **.dbf** file located in the same directory will be included in the map automatically.
