@@ -12,15 +12,15 @@ The Report Wizard allows you to add a report using one of the following template
 
 * [Table Report](report-wizard/table-report.md)
 
-	Allows you to create a [table report](../create-popular-reports/create-a-table-report.md), connect it to a data source and configure basic report layout settings.
+	Allows you to create a [table report](../create-reports/table-reports.md), connect it to a data source and configure basic report layout settings.
 
 * [Vertical Report](report-wizard/vertical-report.md)
 
-	Allows you to create a [vertical report](../create-popular-reports/create-a-vertical-report.md), connect it to a data source and configure basic report layout settings.
+	Allows you to create a [vertical report](../create-reports/vertical-reports.md), connect it to a data source and configure basic report layout settings.
 
 * [Cross-Tab Report](report-wizard/cross-tab-report.md)
 
-	Allows you to create a [cross-tab report](../create-popular-reports/create-a-cross-tab-report.md), connect it to a data source and configure basic report layout settings.
+	Allows you to create a [cross-tab report](../create-reports/cross-tab-reports.md), connect it to a data source and configure basic report layout settings.
 
 * [Labels](report-wizard/labels.md)
 

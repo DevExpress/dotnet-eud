@@ -3,7 +3,7 @@ title: Cross-Tab Report
 ---
 # Cross-Tab Report
 
-Select **Cross-Tab Report** on the wizard's [start page](../report-wizard.md) to create a [cross-tab report](../../create-popular-reports/create-a-cross-tab-report.md) that displays multi-dimensional data.
+Select **Cross-Tab Report** on the wizard's [start page](../report-wizard.md) to create a [cross-tab report](../../create-reports/cross-tab-reports.md) that displays multi-dimensional data.
 
 ![](../../../../../images/eurd-win-cross-tab-report-wizard-select-report-type.png)
 

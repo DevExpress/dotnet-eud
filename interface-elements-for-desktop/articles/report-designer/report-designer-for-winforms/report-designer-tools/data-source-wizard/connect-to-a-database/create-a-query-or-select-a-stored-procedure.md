@@ -25,7 +25,7 @@ On finishing the wizard, each of the selected data items will be included into a
 ![eurd-win-report-field-list](../../../../../../images/eurd-win-report-field-list.png)
 
 ## Specify Master-Detail Relationships
-To define [master-detail relationships](../../../create-popular-reports/create-a-master-detail-report-use-detail-report-bands.md) between two or more queries, click **Manage Relations**.
+To define [master-detail relationships](../../../create-reports/master-detail-reports-with-detail-report-bands.md) between two or more queries, click **Manage Relations**.
 
 ![eurd-master-detail-relation-editor-categories-products-order-details](../../../../../../images/eurd-master-detail-relation-editor-categories-products-order-details.png)
 

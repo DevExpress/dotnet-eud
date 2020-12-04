@@ -4,7 +4,7 @@ author: Anna Vekhina
 ---
 # Table Overview
 
-The **Table** control displays information in a tabular format and allows you to create  [table reports](../../create-popular-reports/create-a-table-report.md).
+The **Table** control displays information in a tabular format and allows you to create [table reports](../../create-reports/table-reports.md).
 
 You can add a table control by dragging the **Table** item from the [Toolbox](../../report-designer-tools/toolbox.md) onto the report's area.
 
