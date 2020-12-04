@@ -104,7 +104,7 @@ You can change generated colors for the Range format rules:
 
 ![wdd-cf-range-gallery](../../../images/wdd-cf-range-gallery126043.png)
 
-## Dashboard Items Specific
+## Dashboard Item Format Rule Specifics
 
 See the following sections for more information about specific format settings for dashboard items:
 
