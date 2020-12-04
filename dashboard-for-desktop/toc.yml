@@ -53,8 +53,8 @@
       href: articles/dashboard-designer/working-with-data/creating-calculated-fields.md
     - name: Data Inspector
       href: articles/dashboard-designer/working-with-data/data-inspector.md
-  - name: Adding Dashboard Items
-    href: articles/dashboard-designer/adding-dashboard-items.md
+  - name: Add Dashboard Items
+    href: articles/dashboard-designer/add-dashboard-items.md
   - name: Bind Dashboard Items to Data
     href: articles/dashboard-designer/bind-dashboard-items-to-data.md
     items:

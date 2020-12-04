@@ -8,7 +8,7 @@ DevExpress Dashboard provides the capability to combine dashboard items into a g
 * Combine dashboard items within the dashboard into a separate [layout group](../dashboard-layout/dashboard-items-layout.md).
 * Manage [interaction](../interactivity/master-filtering.md) between dashboard items within and outside the group.
 
-For instance, you can combine related [filter elements](filter-elements.md) and [data visualization dashboard items](../adding-dashboard-items.md) into a group.
+For instance, you can combine related [filter elements](filter-elements.md) and [data visualization dashboard items](../add-dashboard-items.md) into a group.
 
 ![Fundamentals_DashboardItemGroup](../../../images/img24788.png)
 * [Create a Group](#create-a-group)

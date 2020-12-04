@@ -42,8 +42,8 @@
       href: articles/web-dashboard-designer-mode/provide-data/calculated-fields.md
     - name: Data Inspector
       href: articles/web-dashboard-designer-mode/provide-data/data-inspector.md
-  - name: Adding Dashboard Items
-    href: articles/web-dashboard-designer-mode/adding-dashboard-items.md
+  - name: Add Dashboard Items
+    href: articles/web-dashboard-designer-mode/add-dashboard-items.md
   - name: Bind Dashboard Items to Data
     href: articles/web-dashboard-designer-mode/bind-dashboard-items-to-data.md
     items:

@@ -12,7 +12,7 @@ The **Web Dashboard** allows you to create dashboards in a web browser and provi
 The following topics will guide you through the process of creating a dashboard.
 * [Create a Dashboard](web-dashboard-designer-mode/create-a-dashboard.md)
 * [Provide Data](web-dashboard-designer-mode/provide-data.md)
-* [Adding Dashboard Items](web-dashboard-designer-mode/adding-dashboard-items.md)
+* [Add Dashboard Items](web-dashboard-designer-mode/add-dashboard-items.md)
 * [Bind Dashboard Items to Data](web-dashboard-designer-mode/bind-dashboard-items-to-data.md)
 * [Dashboard Item Settings](web-dashboard-designer-mode/dashboard-item-settings.md)
 * [Data Shaping](web-dashboard-designer-mode/data-shaping.md)
