@@ -70,6 +70,9 @@
         ]
       }
     ],
-    "dest": "_pdf"
+    "dest": "_pdf",
+	"wkhtmltopdf": {
+      "additionalArguments": "--enable-local-file-access"
+    }
   }
 }
