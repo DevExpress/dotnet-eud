@@ -520,17 +520,7 @@
       - name: Bind a Report to a Transformation-Based Data Source
         href: articles\report-designer\report-designer-for-winforms\bind-to-data\bind-a-report-to-a-transformation-based-data-source.md          
       - name: Bind a Report to a Federated Master-Detail Data Source
-        href: articles\report-designer\report-designer-for-winforms\bind-to-data\bind-a-report-to-a-federated-master-detail-data-source.md        
-      - name: Data Binding Modes
-        href: articles/report-designer/report-designer-for-winforms/bind-to-data/data-binding-modes.md
-      - name: Bind Report Controls to Data (Expression Bindings)
-        href: articles/report-designer/report-designer-for-winforms/bind-to-data/bind-controls-to-data-expression-bindings.md
-      - name: Bind Report Controls to Data (Data Bindings)
-        href: articles/report-designer/report-designer-for-winforms/bind-to-data/bind-controls-to-data-data-bindings.md   
-      - name: Use Embedded Fields (Mail Merge)
-        href: articles/report-designer/report-designer-for-winforms/bind-to-data/use-embedded-fields-mail-merge.md
-      - name: Update Report Data Bindings
-        href: articles/report-designer/report-designer-for-winforms/bind-to-data/update-report-data-bindings.md
+        href: articles\report-designer\report-designer-for-winforms\bind-to-data\bind-a-report-to-a-federated-master-detail-data-source.md
     - name: Create Reports
       href: articles/report-designer/report-designer-for-winforms/create-reports.md
       items:
@@ -599,6 +589,12 @@
           href: articles/report-designer/report-designer-for-winforms/use-report-elements/manipulate-report-elements/add-report-controls-to-containers.md
         - name: Validate the Report Layout
           href: articles/report-designer/report-designer-for-winforms/use-report-elements/manipulate-report-elements/validate-the-report-layout.md
+      - name: Bind Report Controls to Data
+        href: articles/report-designer/report-designer-for-winforms/use-report-elements/bind-controls-to-data.md
+      - name: Use Embedded Fields (Mail Merge)
+        href: articles/report-designer/report-designer-for-winforms/use-report-elements/use-embedded-fields-mail-merge.md
+      - name: Update Report Data Bindings
+        href: articles/report-designer/report-designer-for-winforms/use-report-elements/update-report-data-bindings.md
       - name: Use Basic Report Controls
         href: articles/report-designer/report-designer-for-winforms/use-report-elements/use-basic-report-controls.md
         items:
@@ -767,64 +763,41 @@
           href: articles/report-designer/report-designer-for-winforms/shape-report-data/group-and-sort-data/group-data-by-a-custom-field.md
         - name: Sort Groups by a Summary Function's Result
           href: articles/report-designer/report-designer-for-winforms/shape-report-data/group-and-sort-data/sort-groups-by-a-summary-function-result.md
-      - name: Shape Data (Expression Bindings)
-        href: articles/report-designer/report-designer-for-winforms/shape-report-data/shape-data-expression-bindings.md
+      - name: Format Data
+        href: articles/report-designer/report-designer-for-winforms/shape-report-data/format-data.md
+      - name: Specify Conditions for Report Elements
+        href: articles/report-designer/report-designer-for-winforms/shape-report-data/specify-conditions-for-report-elements.md
         items:
-        - name: Format Data
-          href: articles/report-designer/report-designer-for-winforms/shape-report-data/shape-data-expression-bindings/format-data.md
         - name: Conditionally Change a Control's Appearance
-          href: articles/report-designer/report-designer-for-winforms/shape-report-data/shape-data-expression-bindings/conditionally-change-a-control-appearance.md
+          href: articles/report-designer/report-designer-for-winforms/shape-report-data/specify-conditions-for-report-elements/conditionally-change-a-control-appearance.md
         - name: Conditionally Change a Label's Text
-          href: articles/report-designer/report-designer-for-winforms/shape-report-data/shape-data-expression-bindings/conditionally-change-a-label-text.md
+          href: articles/report-designer/report-designer-for-winforms/shape-report-data/specify-conditions-for-report-elements/conditionally-change-a-label-text.md
         - name: Conditionally Change a Band's Visibility
-          href: articles/report-designer/report-designer-for-winforms/shape-report-data/shape-data-expression-bindings/conditionally-change-a-bands-visibility-expression-bindings.md
+          href: articles/report-designer/report-designer-for-winforms/shape-report-data/specify-conditions-for-report-elements/conditionally-change-a-bands-visibility-expression-bindings.md
         - name: Conditionally Filter Report Data
-          href: articles/report-designer/report-designer-for-winforms/shape-report-data/shape-data-expression-bindings/conditionally-filter-report-data.md
+          href: articles/report-designer/report-designer-for-winforms/shape-report-data/specify-conditions-for-report-elements/conditionally-filter-report-data.md
         - name: Conditionally Suppress Controls
-          href: articles/report-designer/report-designer-for-winforms/shape-report-data/shape-data-expression-bindings/conditionally-supress-controls.md
+          href: articles/report-designer/report-designer-for-winforms/shape-report-data/specify-conditions-for-report-elements/conditionally-supress-controls.md
         - name: Limit the Number of Records per Page
-          href: articles/report-designer/report-designer-for-winforms/shape-report-data/shape-data-expression-bindings/limit-the-number-of-records-per-page.md
+          href: articles/report-designer/report-designer-for-winforms/shape-report-data/specify-conditions-for-report-elements/limit-the-number-of-records-per-page.md
+      - name: Calculate Summaries
+        href: articles/report-designer/report-designer-for-winforms/shape-report-data/calculate-summaries.md
+        items:
         - name: Calculate a Summary
-          href: articles/report-designer/report-designer-for-winforms/shape-report-data/shape-data-expression-bindings/calculate-a-summary.md
+          href: articles/report-designer/report-designer-for-winforms/shape-report-data/calculate-summaries/calculate-a-summary.md
         - name: Calculate a Weighted Average
-          href: articles/report-designer/report-designer-for-winforms/shape-report-data/shape-data-data-bindings/calculate-a-weighted-average.md
+          href: articles/report-designer/report-designer-for-winforms/shape-report-data/calculate-summaries/calculate-a-weighted-average.md
         - name: Calculate an Advanced Summary
-          href: articles/report-designer/report-designer-for-winforms/shape-report-data/shape-data-expression-bindings/calculate-an-advanced-summary.md
-        - name: Display Row Numbers in a Report, Group or Page
-          href: articles/report-designer/report-designer-for-winforms/shape-report-data/shape-data-expression-bindings/display-row-numbers-in-a-report-group-or-page.md
-        - name: Count the Number of Records in a Report or Group
-          href: articles/report-designer/report-designer-for-winforms/shape-report-data/shape-data-expression-bindings/count-the-number-of-records-in-a-report-or-group.md
-        - name: Count the Number of Groups in a Report
-          href: articles/report-designer/report-designer-for-winforms/shape-report-data/shape-data-expression-bindings/count-the-number-of-groups-in-a-report.md
-      - name: Shape Data (Data Bindings)
-        href: articles/report-designer/report-designer-for-winforms/shape-report-data/shape-data-data-bindings.md
+          href: articles/report-designer/report-designer-for-winforms/shape-report-data/calculate-summaries/calculate-an-advanced-summary.md
+      - name: Count Elements and Values
+        href: articles/report-designer/report-designer-for-winforms/shape-report-data/count-elements-and-values.md
         items:
-        - name: Format Data
-          href: articles/report-designer/report-designer-for-winforms/shape-report-data/shape-data-data-bindings/format-data.md
-        - name: Conditionally Change a Control's Appearance
-          href: articles/report-designer/report-designer-for-winforms/shape-report-data/shape-data-data-bindings/conditionally-change-a-control-appearance.md
-        - name: Conditionally Change a Label's Text
-          href: articles/report-designer/report-designer-for-winforms/shape-report-data/shape-data-data-bindings/conditionally-change-a-label-text.md
-        - name: Conditionally Change a Band's Visibility
-          href: articles/report-designer/report-designer-for-winforms/shape-report-data/shape-data-data-bindings/conditionally-change-a-bands-visibility-data-binding.md
-        - name: Conditionally Filter Report Data
-          href: articles/report-designer/report-designer-for-winforms/shape-report-data/shape-data-data-bindings/conditionally-filter-report-data.md
-        - name: Conditionally Suppress Controls
-          href: articles/report-designer/report-designer-for-winforms/shape-report-data/shape-data-data-bindings/conditionally-supress-controls.md
-        - name: Limit the Number of Records per Page
-          href: articles/report-designer/report-designer-for-winforms/shape-report-data/shape-data-data-bindings/limit-the-number-of-records-per-page.md
-        - name: Calculate a Summary
-          href: articles/report-designer/report-designer-for-winforms/shape-report-data/shape-data-data-bindings/calculate-a-summary.md
-        - name: Calculate a Weighted Average
-          href: articles/report-designer/report-designer-for-winforms/shape-report-data/shape-data-expression-bindings/calculate-a-weighted-average.md
-        - name: Calculate a Custom Summary
-          href: articles/report-designer/report-designer-for-winforms/shape-report-data/shape-data-data-bindings/calculate-a-custom-summary.md
         - name: Display Row Numbers in a Report, Group or Page
-          href: articles/report-designer/report-designer-for-winforms/shape-report-data/shape-data-data-bindings/display-row-numbers-in-a-report-group-or-page.md
+          href: articles/report-designer/report-designer-for-winforms/shape-report-data/count-elements-and-values/display-row-numbers-in-a-report-group-or-page.md
         - name: Count the Number of Records in a Report or Group
-          href: articles/report-designer/report-designer-for-winforms/shape-report-data/shape-data-data-bindings/count-the-number-of-records-in-a-report-or-group.md
+          href: articles/report-designer/report-designer-for-winforms/shape-report-data/count-elements-and-values/count-the-number-of-records-in-a-report-or-group.md
         - name: Count the Number of Groups in a Report
-          href: articles/report-designer/report-designer-for-winforms/shape-report-data/shape-data-data-bindings/count-the-number-of-groups-in-a-report.md
+          href: articles/report-designer/report-designer-for-winforms/shape-report-data/count-elements-and-values/count-the-number-of-groups-in-a-report.md
       - name: Use Calculated Fields
         href: articles/report-designer/report-designer-for-winforms/shape-report-data/use-calculated-fields.md
         items:
@@ -910,6 +883,8 @@
       items:
       - name: Expression Syntax
         href: articles/report-designer/report-designer-for-winforms/use-expressions/expression-syntax.md
+      - name: Data Binding Modes
+        href: articles/report-designer/report-designer-for-winforms/use-expressions/data-binding-modes.md
     - name: Use Report Scripts
       href: articles/report-designer/report-designer-for-winforms/use-report-scripts.md
     - name: Print, Preview and Export Reports

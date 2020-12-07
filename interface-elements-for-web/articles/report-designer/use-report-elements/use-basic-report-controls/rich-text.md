@@ -76,7 +76,7 @@ The Rich Text also enables you to merge data fields and static content in its te
 
 ![](../../../../images/eurd-web-mail-merge-preview-result.png)
 
-See the [Bind Controls to Data](../../bind-to-data/bind-controls-to-data-expression-bindings.md) and [Use Embedded Fields](../../bind-to-data/use-embedded-fields-mail-merge.md) topics for more information.
+See the [Bind Controls to Data](../bind-controls-to-data.md) and [Use Embedded Fields](../use-embedded-fields-mail-merge.md) topics for more information.
 
 ## Markup Text
 

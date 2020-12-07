@@ -4,7 +4,7 @@ author: Anna Vekhina
 ---
 # Bind Table Cells to Data
 
-Use the [Field List](../../report-designer-tools/ui-panels/field-list.md) to create a table control with cells [bound](../../bind-to-data/bind-controls-to-data-expression-bindings.md) to data fields obtained from a report's data source. 
+Use the [Field List](../../report-designer-tools/ui-panels/field-list.md) to create a table control with cells [bound](../bind-controls-to-data.md) to data fields obtained from a report's data source. 
 
 Hold CTRL or SHIFT and click multiple data fields to select them. Drop the selected data fields onto the Detail band.
 
@@ -18,7 +18,7 @@ Use the [Expression Editor](../../report-designer-tools/expression-editor.md) to
 
 ![](../../../../images/eurd-web-table-cell-expression.png)
 
-See the [Bind Report Controls to Data](../../bind-to-data/bind-controls-to-data-expression-bindings.md) topic for information on how to create data-aware controls.
+See the [Bind Report Controls to Data](../bind-controls-to-data.md) topic for information on how to create data-aware controls.
 
 The **Process Duplicates Mode** and **Process Duplicates Target** options enable you to merge cells with identical values.
 

@@ -19,7 +19,7 @@ Press CTRL+Enter to submit text changes and exit the label's in-place edit mode.
 ## Bind to Data
 ### Display Field Values
 
-You can [bind](../../bind-to-data/bind-controls-to-data-expression-bindings.md) the label's **Text** property to a data field obtained from a report's data source. Click the control's smart tag, expand the **Expression** drop-down list and select the data field.
+You can [bind](../bind-controls-to-data.md) the label's **Text** property to a data field obtained from a report's data source. Click the control's smart tag, expand the **Expression** drop-down list and select the data field.
 
 ![](../../../../../images/eurd-win-label-bind-to-data-field.png)
 
@@ -31,19 +31,19 @@ You can also drag and drop a numeric or text field from the [Field List](../../r
 
 ![](../../../../../images/eurd-win-label-drag-field-from-field-list.png)
 
-See the [Bind Controls to Data](../../bind-to-data/bind-controls-to-data-expression-bindings.md) topic for more information.
+See the [Bind Controls to Data](../bind-controls-to-data.md) topic for more information.
 
 The **Process Duplicates Mode**, **Process Duplicates Target** and **Process Null Values** options enable you to hide a control when a duplicated or null value appears in an assigned data source.
 
 ![](../../../../../images/eurd-win-label-process-duplicates-mode.png)
 
-You can also use the **Format String** property to specify output values' [format](../../shape-report-data/shape-data-expression-bindings/format-data.md).
+You can also use the **Format String** property to specify output values' [format](../../shape-report-data/format-data.md).
 
 ![](../../../../../images/eurd-win-label-format-string.png)
 
 ### Display Summaries
 
-Specify a data range in the **Summary Running** property and select the summary function in the **Summary Expression Editor** to make the label display a [summary function's result](../../shape-report-data/shape-data-expression-bindings/calculate-a-summary.md).
+Specify a data range in the **Summary Running** property and select the summary function in the **Summary Expression Editor** to make the label display a [summary function's result](../../shape-report-data/calculate-summaries/calculate-a-summary.md).
 
 ![](../../../../../images/eurd-win-label-summary-function.png)
 

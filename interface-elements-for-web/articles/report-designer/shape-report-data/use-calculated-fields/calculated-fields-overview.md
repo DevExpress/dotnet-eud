@@ -4,7 +4,7 @@ author: Anna Vekhina
 ---
 # Calculated Fields Overview
 
-Calculated fields are primarily used in data-aware reports when using both [standard data binding](../../bind-to-data/bind-controls-to-data-expression-bindings.md) and [mail merge](../../bind-to-data/use-embedded-fields-mail-merge.md). Calculated fields allow you to pre-process a report's input data, based on a certain expression. So, using calculated fields allows you to apply complex expressions to one or more data fields that are obtained from your report's underlying data source. Moreover, you can both [group](../../shape-report-data/group-and-sort-data/group-data.md) and [sort](../../shape-report-data/group-and-sort-data/sort-data.md) your report data based on a calculated field's value.
+Calculated fields allow you to pre-process a report's input data, based on a certain expression. So, using calculated fields allows you to apply complex expressions to one or more data fields that are obtained from your report's underlying data source. Moreover, you can both [group](../../shape-report-data/group-and-sort-data/group-data.md) and [sort](../../shape-report-data/group-and-sort-data/sort-data.md) your report data based on a calculated field's value.
 
 ## <a name="overview"></a>Calculated Fields Overview
 
