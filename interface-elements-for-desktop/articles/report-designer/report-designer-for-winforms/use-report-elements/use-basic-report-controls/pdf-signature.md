@@ -23,7 +23,7 @@ You can sign a report document when you [export it to PDF](../../../../print-pre
 
 Drop the **PDF Signature** control from the **Toolbox** onto a report.
 
-![Drop PDF Signature from the Toolbox](../../../../../images/xrpdfsignature-drop-from-toolbox.png)
+![Drop PDF Signature from the Toolbox](../../../../../images/eurd-win-pdf-signature-drop-from-toolbox.png)
 
 ## Report with Multiple Signatures
 
@@ -61,7 +61,7 @@ Expand the control's smart tag and enable check boxes for the signature fields t
 
     The control shows a sample certificate name in place of a signature image. When an exported document is signed, the converted PDF form field shows the actual certificate name.
 
-    ![Show Certificate Name as Image](../../../../../images/xrpdfsignature-showcertificatenameasimage.png)
+    ![Show Certificate Name as Image](../../../../../images/eurd-win-pdf-signature-showcertificatenameasimage.png)
 
 * **Display Document Signature**
 

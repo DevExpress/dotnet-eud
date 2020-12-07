@@ -8,7 +8,7 @@ author: Sergey Andreev
 
 PDF content is rendered on separate pages and uses its own page settings.
 
-![](../../../../../images/eurd-pdf-content-diagram.png)
+![](../../../../images/eurd-pdf-content-diagram.png)
 
 Use one of the following options to specify PDF content:
 
@@ -24,11 +24,7 @@ Use one of the following options to specify PDF content:
 
 Drop the **PDF Content** item from the Toolbox onto a [band](../../introduction-to-banded-reports.md) on the design surface.
 
-![](../../../../../images/xrpdfcontent-drop-from-toolbox.png)
-
-You can also copy a PDF document from an external application and paste it in your report, or drag a document and drop it onto the design surface. The dragged file's content is assigned to the control's **Source** property as [binary data](#specify-binary-pdf-data).
-
-![](../../../../../images/eurd-pdf-content-drag-file.png)
+![](../../../../images/eurd-pdf-content-drop-from-toolbox.png)
 
 ## Specify PDF Data
 
@@ -36,7 +32,7 @@ You can assign PDF data to the control's **Source** property.
 
 Expand the **PDF Content**'s smart tag and click the **Source** property's ellipsis button to obtain the binary data from a file.
 
-![](../../../../../images/eurd-pdf-content-source-ellipsis.png)
+![](../../../../images/eurd-pdf-content-source-ellipsis.png)
 
 When users save a report, the **Source** property value persists in the report file.
 
@@ -47,15 +43,11 @@ When users save a report, the **Source** property value persists in the report f
 
 You can use an external PDF document as a source of PDF data. Set the **Source URL** property to a local file system path or URL.
 
-Expand the **PDF Content**'s smart tag and click the **Source URL** property's ellipsis button to specify the PDF document location in the file system.
+To specify the PDF document's location on the Web, specify the URL as the **Source URL** property's value.
 
-![](../../../../../images/eurd-pdf-content-sourceurl-ellipsis.png)
+![](../../../../images/eurd-pdf-content-sourceurl.png)
 
-To specify the PDF document's location on the Web, use the URL as the **Source URL** property's value.
-
-![](../../../../../images/eurd-pdf-content-sourceurl.png)
-
-When users save a report, the URL or path specified in the **Source URL** property is included in the report file. The PDF document should be available at the specified location when a report is printed or rendered in Preview.
+When users save a report, the URL specified in the **Source URL** property is included in the report file. The PDF document should be available at the specified location when a report is printed or rendered in Preview.
 
 > [!TIP]
 > See the [Use Expressions](#use-expressions) section for information on how to conditionally specify the **Source URL** property value, or bind it to a report parameter or data source field.
@@ -70,11 +62,11 @@ Expand the **PDF Content**'s smart tag.
 
 * Click the **Expression** property's ellipsis button below the **Source** property. Use the invoked **Expression Editor** to create an expression that identifies the source of binary PDF data.
 
-    ![](../../../../../images/eurd-pdf-content-source-expression.png)
+    ![](../../../../images/eurd-pdf-content-source-expression.png)
 
 * Click the **Expression** property's ellipsis button below the **Source URL** property. Use the invoked **Expression Editor** to create an expression the value of which identifies a URL or path to a PDF document.
 
-    ![](../../../../../images/eurd-pdf-content-sourceurl-expression.png)
+    ![](../../../../images/eurd-pdf-content-sourceurl-expression.png)
 
 
 ## Limitations

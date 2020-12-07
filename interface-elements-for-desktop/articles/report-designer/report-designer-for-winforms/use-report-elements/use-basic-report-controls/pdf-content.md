@@ -24,9 +24,9 @@ Use one of the following options to specify PDF content:
 
 Drop the **PDF Content** item from the Toolbox onto a [band](../../introduction-to-banded-reports.md) on the design surface.
 
-![](../../../../../images/xrpdfcontent-drop-from-toolbox.png)
+![](../../../../../images/eurd-win-pdf-content-drop-from-toolbox.png)
 
-You can also copy a PDF document from an external application and paste it in your report, or drag a document and drop it onto the design surface. The dragged file's content is assigned to the control's **Source** property as [binary data](#specify-binary-pdf-data).
+You can also copy a PDF document from an external application and paste it in your report, or drag a document and drop it onto the design surface. The dragged file's content is assigned to the control's **Source** property as [PDF data](#specify-pdf-data).
 
 ![](../../../../../images/eurd-win-pdf-content-drag-file.png)
 
