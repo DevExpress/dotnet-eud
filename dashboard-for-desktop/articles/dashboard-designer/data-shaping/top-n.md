@@ -23,4 +23,4 @@ In this dialog, check the **Enabled** check box and specify the following settin
 | **Measure** | The parameter that will determine the top or bottom value. |
 | **Show "Others" value** | If enabled, all values that are not the top/bottom values are consolidated in the "Others" value. |
 
-You can use the [hidden measure](../binding-dashboard-items-to-data/hidden-data-items.md) as a parameter that will determine the top or bottom value.
+You can use the [hidden measure](../bind-dashboard-items-to-data/hidden-data-items.md) as a parameter that will determine the top or bottom value.

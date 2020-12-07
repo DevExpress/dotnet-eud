@@ -24,7 +24,7 @@ When identical or null values appear in a report's data source, you can suppress
 
 These properties are available for the following controls:
 
-* [Bar Code](../use-report-elements/use-bar-codes.md)
+* [Barcode](../use-report-elements/use-bar-codes.md)
 * [Label](../use-report-elements/use-basic-report-controls/label.md)
 * [Character Comb](../use-report-elements/use-basic-report-controls/character-comb.md)
 * [Rich Text](../use-report-elements/use-basic-report-controls/rich-text.md)

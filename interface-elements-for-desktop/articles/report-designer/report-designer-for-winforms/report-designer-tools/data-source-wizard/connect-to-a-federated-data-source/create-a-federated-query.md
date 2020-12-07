@@ -15,12 +15,16 @@ Enable check boxes for data fields, queries and/or entire data sources.
 
 The selected items are included in data federation as separate queries based on initial data source queries.
 
-![](../../../../../../images/eurd-win-data-federation-queries-field-list.png)
+![](../../../../../../images/data-federation-queries-field-list.png)
 
 The wizard specifies query names as follows:
 
 * If the initial data source contains one or more queries (such as in a SQL data source), the federated query name consists of the data source name and query name separated by an underscore.
 * If the initial data source contains data at the root level (such as in an Excel data source), federated query name is equivalent to the data source name.
+
+Right-click the federated data source and choose **Manage Relations**. This invokes the **Master-Detail Relation Editor** you can use to [specify a master-detail relationship](#specify-master-detail-relationships) between the separate queries.
+
+![](../../../../../../images/data-federation-queries-field-list-manage-relations.png)
 
 ## Combine Data into a Single Query
 
@@ -28,42 +32,15 @@ To combine data from multiple data sources into a single query, click **Add Quer
 
 ![](../../../../../../images/eurd-win-data-source-wizard-data-federation-add-query.png)
 
-This invokes the [Query Builder](../../query-builder.md) adapted to federated data sources. Specify the query type.
+This invokes the [Query Builder](../../query-builder.md) designed to federated data sources.
 
 ![](../../../../../../images/DataFederationUnion-Specify-Query-Type.png)
 
-- **Join**
+You can use the **Join**, **Union**, **Union All**, and **Transform** query types to combine data. Refer to the following articles for more information on these query types.
 
-    Drag and drop items onto the design surface, and specify join relationships in the **Join Editor**.
-
-    ![](../../../../../../images/eurd-win-data-source-wizard-data-federation-join-data.png)
-
-    Enable check boxes for the data fields you want to include in the query result set.
-
-    ![](../../../../../../images/eurd-win-data-source-wizard-data-federation-join-select-fields.png)
-
-- **Union and Union All**
-
-    Double-click the data sources you want to combine into a single query. The query includes only fields that have identical names and types in the origin sources.
-
-    ![](../../../../../../images/DataFederationUnion-Common-Fields.png)
-
-    Rename fields.
-
-    ![](../../../../../../images/DataFederation-FieldAliases.png)
-
-    > [!Tip]
-    > When you use the **Union** mode, duplicate data from the origin data sources is removed from the query result set. Use the **Union All** mode to include all data.
-
-The created query appears on the wizard page in the **Federated Queries** category. The federated query's default name is equivalent to the main table name. 
-
-![](../../../../../../images/eurd-win-data-source-wizard-data-federation-join-query.png)
-
-You can click the ![report-wizard-multi-query-page-icon-edit](../../../../../../images/eurd-win-report-wizard-multi-query-page-icon-edit125534.png) button to customize the query or the ![report-wizard-multi-query-page-icon-remove](../../../../../../images/eurd-win-report-wizard-multi-query-page-icon-remove125533.png) button to remove the query. 
-
-Once you finish the wizard, it creates a federated data source that includes a single query.
-
-![](../../../../../../images/eurd-win-data-federation-single-query-field-list.png)
+* [Bind a Report to a Join-Based Federated Data Source](../../../bind-to-data/bind-a-report-to-a-join-based-federated-data-source.md)
+* [Bind a Report to a Union-Based Federated Data Source](../../../bind-to-data/bind-a-report-to-a-union-based-federated-data-source.md)
+* Bind a Report to a Transformation-Based Data Source
 
 ## Specify Master-Detail Relationships
 
@@ -77,4 +54,6 @@ In the invoked editor, drag and drop the key field from the master query to the 
 
 Once the wizard is complete, you can see the master-detail hierarchy in the Field List.
 
-![](../../../../../../images/eurd-win-data-federation-master-detail-hierarchy-field-list.png)
+![](../../../../../../images/data-federation-master-detail-hierarchy-field-list.png)
+
+For more information, refer to the following guide: [Bind a Report to a Federated Master-Detail Data Source](../../../bind-to-data/bind-a-report-to-a-federated-master-detail-data-source.md).

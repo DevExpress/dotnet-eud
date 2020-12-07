@@ -34,7 +34,7 @@ You can add a format to the target data field by separating it from the field na
 ## <a name="supportedcontrols"></a>Supported Controls
 You can apply the mail merge feature to the **Text** of the following report controls:
 
-* [Bar Code](../use-report-elements/use-bar-codes.md)
+* [Barcode](../use-report-elements/use-bar-codes.md)
 * [Character Comb](../use-report-elements/use-basic-report-controls/character-comb.md)
 * [Check Box](../use-report-elements/use-basic-report-controls/check-box.md)
 * [Label](../use-report-elements/use-basic-report-controls/label.md)

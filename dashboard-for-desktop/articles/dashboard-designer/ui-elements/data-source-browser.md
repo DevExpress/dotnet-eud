@@ -4,7 +4,7 @@ author: Natalia Kazakova
 legacyId: 17252
 ---
 # Data Source Browser
-The **Data Source Browser** allows you to navigate through dashboard data sources. It displays the data source structure and allows you to [bind dashboard items](../binding-dashboard-items-to-data/binding-dashboard-items-to-data.md) to the required data source fields using drag-and-drop operations. The Data Source Browser also enables you to manage [calculated fields](../working-with-data/creating-calculated-fields.md).
+The **Data Source Browser** allows you to navigate through dashboard data sources. It displays the data source structure and allows you to [bind dashboard items](../bind-dashboard-items-to-data/bind-dashboard-items-to-data.md) to the required data source fields using drag-and-drop operations. The Data Source Browser also enables you to manage [calculated fields](../work-with-data/creating-calculated-fields.md).
 
 ![UIElements_DataSourceBrowser_Browser](../../../images/img20675.png)
 
@@ -29,4 +29,4 @@ The Data Source Browser identifies the following data field types.
 | ![field-list-icon-date-time](../../../images/img18795.png) | Date-time |
 | ![field-list-icon-number](../../../images/img18796.png) ![UIElements_DataSourceBrowser_FieldListIconNumericFloat](../../../images/img20881.png) | Numeric |
 | ![field-list-icon-string](../../../images/img18798.png) | String |
-| ![field-list-icon-calculated-field](../../../images/img18793.png) ![SummaryCalculatedFieldIcon](../../../images/img118212.png) | [Calculated field](../working-with-data/creating-calculated-fields.md) |
+| ![field-list-icon-calculated-field](../../../images/img18793.png) ![SummaryCalculatedFieldIcon](../../../images/img118212.png) | [Calculated field](../work-with-data/creating-calculated-fields.md) |

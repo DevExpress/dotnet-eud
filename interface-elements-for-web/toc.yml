@@ -633,12 +633,12 @@
         href: articles/report-designer/use-report-elements/use-tables/manipulate-table-elements.md
       - name: Hide Table Cells
         href: articles/report-designer/use-report-elements/use-tables/hide-table-cells.md
-    - name: Use Bar Codes
+    - name: Use Barcodes
       href: articles/report-designer/use-report-elements/use-bar-codes.md
       items:
-      - name: Add Bar Codes to a Report
+      - name: Add Barcodes to a Report
         href: articles/report-designer/use-report-elements/use-bar-codes/add-bar-codes-to-a-report.md
-      - name: Bar Code Recognition Specifics
+      - name: Barcode Recognition Specifics
         href: articles/report-designer/use-report-elements/use-bar-codes/bar-code-recognition-specifics.md
       - name: Codabar
         href: articles/report-designer/use-report-elements/use-bar-codes/codabar.md
@@ -680,6 +680,8 @@
         href: articles/report-designer/use-report-elements/use-bar-codes/msi-plessey.md
       - name: PDF417
         href: articles/report-designer/use-report-elements/use-bar-codes/pdf417.md
+      - name: Pharmacode
+        href: articles/report-designer/use-report-elements/use-bar-codes/pharmacode.md
       - name: PostNet
         href: articles/report-designer/use-report-elements/use-bar-codes/postnet.md
       - name: QR Code

@@ -189,8 +189,10 @@
     href: articles/pdf-viewer/thumbnails.md
   - name: Bookmarks
     href: articles/pdf-viewer/bookmarks.md
-  - name: File Attachment
+  - name: File Attachments
     href: articles/pdf-viewer/file-attachment.md
+  - name: Annotations
+    href: articles/pdf-viewer/annotations.md
   - name: Export and Import the AcroForm Data
     href: articles/pdf-viewer/export-and-import-the-acroform-data.md
 - name: Pivot Table
@@ -514,7 +516,9 @@
       - name: Bind a Report to a Join-Based Federated Data Source
         href: articles\report-designer\report-designer-for-winforms\bind-to-data\bind-a-report-to-a-join-based-federated-data-source.md       
       - name: Bind a Report to a Union-Based Federated Data Source
-        href: articles\report-designer\report-designer-for-winforms\bind-to-data\bind-a-report-to-a-union-based-federated-data-source.md        
+        href: articles\report-designer\report-designer-for-winforms\bind-to-data\bind-a-report-to-a-union-based-federated-data-source.md
+      - name: Bind a Report to a Transformation-Based Data Source
+        href: articles\report-designer\report-designer-for-winforms\bind-to-data\bind-a-report-to-a-transformation-based-data-source.md          
       - name: Bind a Report to a Federated Master-Detail Data Source
         href: articles\report-designer\report-designer-for-winforms\bind-to-data\bind-a-report-to-a-federated-master-detail-data-source.md        
 - name: Create Reports
@@ -627,12 +631,12 @@
           href: articles/report-designer/report-designer-for-winforms/use-report-elements/use-tables/manipulate-table-elements.md
         - name: Hide Table Cells
           href: articles/report-designer/report-designer-for-winforms/use-report-elements/use-tables/hide-table-cells.md
-      - name: Use Bar Codes
+      - name: Use Barcodes
         href: articles/report-designer/report-designer-for-winforms/use-report-elements/use-bar-codes.md
         items:
-        - name: Add Bar Codes to a Report
+        - name: Add Barcodes to a Report
           href: articles/report-designer/report-designer-for-winforms/use-report-elements/use-bar-codes/add-bar-codes-to-a-report.md
-        - name: Bar Code Recognition Specifics
+        - name: Barcode Recognition Specifics
           href: articles/report-designer/report-designer-for-winforms/use-report-elements/use-bar-codes/bar-code-recognition-specifics.md
         - name: Codabar
           href: articles/report-designer/report-designer-for-winforms/use-report-elements/use-bar-codes/codabar.md
@@ -674,6 +678,8 @@
           href: articles/report-designer/report-designer-for-winforms/use-report-elements/use-bar-codes/msi-plessey.md
         - name: PDF417
           href: articles/report-designer/report-designer-for-winforms/use-report-elements/use-bar-codes/pdf417.md
+        - name: Pharmacode
+          href: articles/report-designer/report-designer-for-winforms/use-report-elements/use-bar-codes/pharmacode.md
         - name: PostNet
           href: articles/report-designer/report-designer-for-winforms/use-report-elements/use-bar-codes/postnet.md
         - name: QR Code
@@ -1413,8 +1419,16 @@
       href: articles/rich-text-editor/tables/set-background-color-of-cells.md
     - name: Set Table Properties
       href: articles/rich-text-editor/tables/set-table-properties.md
+    - name: Wrap Text Around a Table
+      href: articles/rich-text-editor/tables/wrap-text-around-a-table.md
   - name: Header and Footer
     href: articles/rich-text-editor/header-and-footer.md
+  - name: Footnotes and Endnotes
+    items:
+    - name: Insert and Edit a Footnote or Endnote
+      href: articles/rich-text-editor/footnotes-and-endnotes/insert-and-edit-a-footnote-or-endnote.md
+    - name: Change Note Appearance
+      href: articles/rich-text-editor/footnotes-and-endnotes/change-note-appearance.md
   - name: Mail Merge
     href: articles/rich-text-editor/mail-merge.md
   - name: Table of Contents

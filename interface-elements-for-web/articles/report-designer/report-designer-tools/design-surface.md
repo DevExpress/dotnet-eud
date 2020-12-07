@@ -40,7 +40,7 @@ You can click the [Validate Bindings](../use-report-elements/validate-report-dat
 
 ## In-Place Editors
 
-In-place editors allow you to edit the text-oriented controls' content ([Bar Code](../use-report-elements/use-bar-codes.md), [Character Comb](../use-report-elements/use-basic-report-controls/character-comb.md), [Check Box](../use-report-elements/use-basic-report-controls/check-box.md), [Label](../use-report-elements/use-basic-report-controls/label.md), [Table Cell](../use-report-elements/use-tables.md)) by double-clicking them.
+In-place editors allow you to edit the text-oriented controls' content ([Barcode](../use-report-elements/use-bar-codes.md), [Character Comb](../use-report-elements/use-basic-report-controls/character-comb.md), [Check Box](../use-report-elements/use-basic-report-controls/check-box.md), [Label](../use-report-elements/use-basic-report-controls/label.md), [Table Cell](../use-report-elements/use-tables.md)) by double-clicking them.
 
 ![](../../../images/eurd-web-designer-surface-in-place-editor.png)
 

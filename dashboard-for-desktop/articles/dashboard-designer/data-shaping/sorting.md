@@ -25,10 +25,10 @@ To enable sorting by measure in the Designer, use the **Sort by** submenu in the
 
 ![DataShaping_Sorting_SortByMeasure](../../../images/img19367.png)
 
-You can also sort dimension values by the values of [hidden measures](../binding-dashboard-items-to-data/hidden-data-items.md).
+You can also sort dimension values by the values of [hidden measures](../bind-dashboard-items-to-data/hidden-data-items.md).
 
 ## <a name="olap-sorting-specifics"/>OLAP Sorting Specifics
-In [OLAP](../binding-dashboard-items-to-data/binding-dashboard-items-to-data-in-olap-mode.md) mode, you can use the following options to specify the sort order for attribute members.
+In [OLAP](../bind-dashboard-items-to-data/bind-dashboard-items-to-data-in-olap-mode.md) mode, you can use the following options to specify the sort order for attribute members.
 
 ![DimensionAttribute_Sorting](../../../images/img118928.png)
 * **No Sorting** - Specifies the default server sorting for the current attribute.

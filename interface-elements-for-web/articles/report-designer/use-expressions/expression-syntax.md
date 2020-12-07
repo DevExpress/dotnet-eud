@@ -391,8 +391,8 @@ Use the following functions when [calculating summaries](..\shape-report-data\ca
 </td><td><p>sumAvg([UnitPrice])</p>
 </td></tr><tr><td><p>sumCount(Expression)</p>
 </td><td><p>Counts the number of values within the specified summary region (group, page or report). In a simple scenario, you may not pass a parameter.</p>
-<p>  When using this function in a <a class="xref" href="..\create-popular-reports\create-a-master-detail-report-use-detail-report-bands.md">master-detail report</a>&#39;s master band and passing a detail&#39;s field as a parameter, it counts the number of records within the detail&#39;s band.</p>
-<p>  See also: <a class="xref" href="..\shape-report-data\count-elements-and-values\count-the-number-of-records-in-a-report-or-group.md">Counting the Number of Records in a Report or Group</a>, <a class="xref" href="..\shape-report-data\count-elements-and-values\count-the-number-of-groups-in-a-report.md">Counting the Number of Groups in a Report</a></p>
+<p>  When using this function in a <a class="xref" href="..\create-reports\master-detail-reports-with-detail-report-bands.md">master-detail report</a>&#39;s master band and passing a detail&#39;s field as a parameter, it counts the number of records within the detail&#39;s band.</p>
+<p>  See also: <a class="xref" href="..\shape-report-data\shape-data-data-bindings\count-the-number-of-records-in-a-report-or-group.md">Counting the Number of Records in a Report or Group</a>, <a class="xref" href="..\shape-report-data\shape-data-data-bindings\count-the-number-of-groups-in-a-report.md">Counting the Number of Groups in a Report</a></p>
 </td><td><p>sumCount([UnitPrice])</p>
 </td></tr><tr><td><p>sumDAvg(Expression)</p>
 </td><td><p>Calculates the average of all the <strong>distinct</strong> values within the specified summary region (group, page or report).</p>
@@ -488,7 +488,7 @@ When you specify an expression for the [Picture Box](../use-report-elements/use-
 </td><td><p>Iif([DataSource.CurrentRowIndex] % 2 = 0, &#39;red&#39;, &#39;green&#39;)</p>
 <p>Result: When this expression is used for a table row&#39;s BackColor property, odd rows are colored in red and even rows - in green.</p>
 </td></tr><tr><td><p>DataSource.CurrentRowHierarchyLevel</p>
-</td><td><p>Returns a zero-based level of the current row in a <a class="xref" href="..\create-popular-reports\create-a-hierarchical-report.md">hierarchical report</a>.</p>
+</td><td><p>Returns a zero-based level of the current row in a <a class="xref" href="..\create-reports\hierarchical-reports.md">hierarchical report</a>.</p>
 </td><td><p>Iif([DataSource.CurrentRowHierarchyLevel] == 0, Rgb(231,235,244), ?)</p>
 <p>Result: When this expression is used for the BackColor property of the Detail band that is printed in tree mode, the root level rows are highlighted.</p>
 </td></tr></table>

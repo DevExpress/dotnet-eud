@@ -27,7 +27,7 @@ The following controls are most commonly used to display data in a report.
 | ![icon-large-picture-box-report-controls](../../../../images/img22805.png) | Picture Box |
 | ![icon-large-table-report-controls](../../../../images/img22807.png) | Table |
 | ![icon-large-cellular-label-report-controls](../../../../images/img124827.png) | Character Comb |
-| ![icon-large-bar-code-report-controls](../../../../images/img22810.png) | Bar Code |
+| ![icon-large-bar-code-report-controls](../../../../images/img22810.png) | Barcode |
 | ![icon-large-zip-code-report-controls](../../../../images/img22811.png) | Zip Code |
 | ![icon-large-gauge-report-controls](../../../../images/img23177.png) | Gauge |
 

@@ -1,277 +1,281 @@
 - name: Web Dashboard - Designer Mode
   href: articles/web-dashboard-designer-mode.md
   items:
-  - name: Creating a Dashboard
-    href: articles/web-dashboard-designer-mode/creating-a-dashboard.md
-  - name: Providing Data
-    href: articles/web-dashboard-designer-mode/providing-data.md
+  - name: Create a Dashboard
+    href: articles/web-dashboard-designer-mode/create-a-dashboard.md
+  - name: Provide Data
+    href: articles/web-dashboard-designer-mode/provide-data.md
     items:
     - name: Create a New Data Source
-      href: articles/web-dashboard-designer-mode/providing-data/create-a-new-data-source.md
+      href: articles/web-dashboard-designer-mode/provide-data/create-a-new-data-source.md
     - name: Connect to an Existing Data Source
-      href: articles/web-dashboard-designer-mode/providing-data/connect-to-an-existing-data-source.md
+      href: articles/web-dashboard-designer-mode/provide-data/connect-to-an-existing-data-source.md
     - name: Dashboard Data Source Wizard
-      href: articles/web-dashboard-designer-mode/providing-data/dashboard-data-source-wizard.md
+      href: articles/web-dashboard-designer-mode/provide-data/dashboard-data-source-wizard.md
       items:
        - name: Specify Data Source Settings (Database)
-         href: articles/web-dashboard-designer-mode/providing-data/dashboard-data-source-wizard/specify-data-source-settings-database.md
+         href: articles/web-dashboard-designer-mode/provide-data/dashboard-data-source-wizard/specify-data-source-settings-database.md
        - name: Specify Data Source Settings (JSON)
-         href: articles/web-dashboard-designer-mode/providing-data/dashboard-data-source-wizard/specify-data-source-settings-json.md
+         href: articles/web-dashboard-designer-mode/provide-data/dashboard-data-source-wizard/specify-data-source-settings-json.md
        - name: Specify Data Source Settings (OLAP)
-         href: articles/web-dashboard-designer-mode/providing-data/dashboard-data-source-wizard/specify-data-source-settings-olap.md
+         href: articles/web-dashboard-designer-mode/provide-data/dashboard-data-source-wizard/specify-data-source-settings-olap.md
     - name: Query Builder
-      href: articles/web-dashboard-designer-mode/providing-data/query-builder.md
+      href: articles/web-dashboard-designer-mode/provide-data/query-builder.md
     - name: Preview Data
-      href: articles/web-dashboard-designer-mode/providing-data/preview-data.md
+      href: articles/web-dashboard-designer-mode/provide-data/preview-data.md
     - name: Manage Data Sources
-      href: articles/web-dashboard-designer-mode/providing-data/manage-data-sources.md
+      href: articles/web-dashboard-designer-mode/provide-data/manage-data-sources.md
     - name: Working with SQL Data Sources
-      href: articles/web-dashboard-designer-mode/providing-data/working-with-sql-data-sources.md
+      href: articles/web-dashboard-designer-mode/provide-data/working-with-sql-data-sources.md
       items:
       - name: Manage SQL Queries
-        href: articles/web-dashboard-designer-mode/providing-data/working-with-sql-data-sources/manage-sql-queries.md
+        href: articles/web-dashboard-designer-mode/provide-data/working-with-sql-data-sources/manage-sql-queries.md
       - name: Filter Queries
-        href: articles/web-dashboard-designer-mode/providing-data/working-with-sql-data-sources/filter-queries.md
+        href: articles/web-dashboard-designer-mode/provide-data/working-with-sql-data-sources/filter-queries.md
       - name: Pass Query Parameters
-        href: articles/web-dashboard-designer-mode/providing-data/working-with-sql-data-sources/pass-query-parameters.md
+        href: articles/web-dashboard-designer-mode/provide-data/working-with-sql-data-sources/pass-query-parameters.md
       - name: Stored Procedures
-        href: articles/web-dashboard-designer-mode/providing-data/working-with-sql-data-sources/stored-procedures.md
+        href: articles/web-dashboard-designer-mode/provide-data/working-with-sql-data-sources/stored-procedures.md
     - name: Filter Data Sources
-      href: articles/web-dashboard-designer-mode/providing-data/filter-data-sources.md
+      href: articles/web-dashboard-designer-mode/provide-data/filter-data-sources.md
     - name: Calculated Fields
-      href: articles/web-dashboard-designer-mode/providing-data/calculated-fields.md
+      href: articles/web-dashboard-designer-mode/provide-data/calculated-fields.md
     - name: Data Inspector
-      href: articles/web-dashboard-designer-mode/providing-data/data-inspector.md
-  - name: Adding Dashboard Items
-    href: articles/web-dashboard-designer-mode/adding-dashboard-items.md
-  - name: Binding Dashboard Items to Data
-    href: articles/web-dashboard-designer-mode/binding-dashboard-items-to-data.md
+      href: articles/web-dashboard-designer-mode/provide-data/data-inspector.md
+  - name: Add Dashboard Items
+    href: articles/web-dashboard-designer-mode/add-dashboard-items.md
+  - name: Bind Dashboard Items to Data
+    href: articles/web-dashboard-designer-mode/bind-dashboard-items-to-data.md
     items:
-    - name: Binding Dashboard Items to Data in the Web Dashboard
-      href: articles/web-dashboard-designer-mode/binding-dashboard-items-to-data/binding-dashboard-items-to-data-in-the-web-dashboard.md
+    - name: Bind Dashboard Items to Data in the Web Dashboard
+      href: articles/web-dashboard-designer-mode/bind-dashboard-items-to-data/bind-dashboard-items-to-data-in-the-web-dashboard.md
     - name: Hidden Data Items
-      href: articles/web-dashboard-designer-mode/binding-dashboard-items-to-data/hidden-data-items.md
-    - name: Binding Dashboard Items to Data in OLAP Mode
-      href: articles/web-dashboard-designer-mode/binding-dashboard-items-to-data/binding-dashboard-items-to-data-in-olap-mode.md
-  - name: Designing Dashboard Items
-    href: articles/web-dashboard-designer-mode/designing-dashboard-items.md
+      href: articles/web-dashboard-designer-mode/bind-dashboard-items-to-data/hidden-data-items.md
+    - name: Bind Dashboard Items to Data in OLAP Mode
+      href: articles/web-dashboard-designer-mode/bind-dashboard-items-to-data/bind-dashboard-items-to-data-in-olap-mode.md
+  - name: Dashboard Item Settings
+    href: articles/web-dashboard-designer-mode/dashboard-item-settings.md
     items:
     - name: Chart
-      href: articles/web-dashboard-designer-mode/designing-dashboard-items/chart.md
+      href: articles/web-dashboard-designer-mode/dashboard-item-settings/chart.md
       items:
       - name: Providing Data
-        href: articles/web-dashboard-designer-mode/designing-dashboard-items/chart/providing-data.md
+        href: articles/web-dashboard-designer-mode/dashboard-item-settings/chart/providing-data.md
       - name: Series
-        href: articles/web-dashboard-designer-mode/designing-dashboard-items/chart/series.md
+        href: articles/web-dashboard-designer-mode/dashboard-item-settings/chart/series.md
       - name: Panes
-        href: articles/web-dashboard-designer-mode/designing-dashboard-items/chart/panes.md
+        href: articles/web-dashboard-designer-mode/dashboard-item-settings/chart/panes.md
       - name: Interactivity
-        href: articles/web-dashboard-designer-mode/designing-dashboard-items/chart/interactivity.md
+        href: articles/web-dashboard-designer-mode/dashboard-item-settings/chart/interactivity.md
       - name: Legend
-        href: articles/web-dashboard-designer-mode/designing-dashboard-items/chart/legend.md
+        href: articles/web-dashboard-designer-mode/dashboard-item-settings/chart/legend.md
       - name: Axes
-        href: articles/web-dashboard-designer-mode/designing-dashboard-items/chart/axes.md
+        href: articles/web-dashboard-designer-mode/dashboard-item-settings/chart/axes.md
       - name: Orientation
-        href: articles/web-dashboard-designer-mode/designing-dashboard-items/chart/orientation.md
+        href: articles/web-dashboard-designer-mode/dashboard-item-settings/chart/orientation.md
+      - name: Consitional Formatting
+        href: articles/web-dashboard-designer-mode/dashboard-item-settings/chart/conditional-formatting.md
     - name: Scatter Chart
-      href: articles/web-dashboard-designer-mode/designing-dashboard-items/scatter-chart.md
+      href: articles/web-dashboard-designer-mode/dashboard-item-settings/scatter-chart.md
       items:
       - name: Providing Data
-        href: articles/web-dashboard-designer-mode/designing-dashboard-items/scatter-chart/providing-data.md
+        href: articles/web-dashboard-designer-mode/dashboard-item-settings/scatter-chart/providing-data.md
       - name: Interactivity
-        href: articles/web-dashboard-designer-mode/designing-dashboard-items/scatter-chart/interactivity.md
+        href: articles/web-dashboard-designer-mode/dashboard-item-settings/scatter-chart/interactivity.md
       - name: Legend
-        href: articles/web-dashboard-designer-mode/designing-dashboard-items/scatter-chart/legend.md
+        href: articles/web-dashboard-designer-mode/dashboard-item-settings/scatter-chart/legend.md
       - name: Axes
-        href: articles/web-dashboard-designer-mode/designing-dashboard-items/scatter-chart/axes.md
+        href: articles/web-dashboard-designer-mode/dashboard-item-settings/scatter-chart/axes.md
       - name: Orientation
-        href: articles/web-dashboard-designer-mode/designing-dashboard-items/scatter-chart/orientation.md
+        href: articles/web-dashboard-designer-mode/dashboard-item-settings/scatter-chart/orientation.md
       - name: Labels
-        href: articles/web-dashboard-designer-mode/designing-dashboard-items/scatter-chart/labels.md
+        href: articles/web-dashboard-designer-mode/dashboard-item-settings/scatter-chart/labels.md
+      - name: Conditional Formatting
+        href: articles/web-dashboard-designer-mode/dashboard-item-settings/scatter-chart/conditional-formatting.md
     - name: Grid
-      href: articles/web-dashboard-designer-mode/designing-dashboard-items/grid.md
+      href: articles/web-dashboard-designer-mode/dashboard-item-settings/grid.md
       items:
       - name: Providing Data
-        href: articles/web-dashboard-designer-mode/designing-dashboard-items/grid/providing-data.md
+        href: articles/web-dashboard-designer-mode/dashboard-item-settings/grid/providing-data.md
       - name: Columns
-        href: articles/web-dashboard-designer-mode/designing-dashboard-items/grid/columns.md
+        href: articles/web-dashboard-designer-mode/dashboard-item-settings/grid/columns.md
       - name: Interactivity
-        href: articles/web-dashboard-designer-mode/designing-dashboard-items/grid/interactivity.md
+        href: articles/web-dashboard-designer-mode/dashboard-item-settings/grid/interactivity.md
       - name: Conditional Formatting
-        href: articles/web-dashboard-designer-mode/designing-dashboard-items/grid/conditional-formatting.md
+        href: articles/web-dashboard-designer-mode/dashboard-item-settings/grid/conditional-formatting.md
       - name: Totals
-        href: articles/web-dashboard-designer-mode/designing-dashboard-items/grid/totals.md
+        href: articles/web-dashboard-designer-mode/dashboard-item-settings/grid/totals.md
       - name: Layout
-        href: articles/web-dashboard-designer-mode/designing-dashboard-items/grid/layout.md
+        href: articles/web-dashboard-designer-mode/dashboard-item-settings/grid/layout.md
     - name: Pies
-      href: articles/web-dashboard-designer-mode/designing-dashboard-items/pies.md
+      href: articles/web-dashboard-designer-mode/dashboard-item-settings/pies.md
       items:
       - name: Providing Data
-        href: articles/web-dashboard-designer-mode/designing-dashboard-items/pies/providing-data.md
+        href: articles/web-dashboard-designer-mode/dashboard-item-settings/pies/providing-data.md
       - name: Interactivity
-        href: articles/web-dashboard-designer-mode/designing-dashboard-items/pies/interactivity.md
+        href: articles/web-dashboard-designer-mode/dashboard-item-settings/pies/interactivity.md
       - name: Layout
-        href: articles/web-dashboard-designer-mode/designing-dashboard-items/pies/layout.md
+        href: articles/web-dashboard-designer-mode/dashboard-item-settings/pies/layout.md
       - name: Labels
-        href: articles/web-dashboard-designer-mode/designing-dashboard-items/pies/labels.md
+        href: articles/web-dashboard-designer-mode/dashboard-item-settings/pies/labels.md
       - name: Style
-        href: articles/web-dashboard-designer-mode/designing-dashboard-items/pies/style.md
+        href: articles/web-dashboard-designer-mode/dashboard-item-settings/pies/style.md
     - name: Cards
-      href: articles/web-dashboard-designer-mode/designing-dashboard-items/cards.md
+      href: articles/web-dashboard-designer-mode/dashboard-item-settings/cards.md
       items:
       - name: Providing Data
-        href: articles/web-dashboard-designer-mode/designing-dashboard-items/cards/providing-data.md
+        href: articles/web-dashboard-designer-mode/dashboard-item-settings/cards/providing-data.md
       - name: Layout
-        href: articles/web-dashboard-designer-mode/designing-dashboard-items/cards/layout.md
+        href: articles/web-dashboard-designer-mode/dashboard-item-settings/cards/layout.md
       - name: Delta
-        href: articles/web-dashboard-designer-mode/designing-dashboard-items/cards/delta.md
+        href: articles/web-dashboard-designer-mode/dashboard-item-settings/cards/delta.md
       - name: Sparkline
-        href: articles/web-dashboard-designer-mode/designing-dashboard-items/cards/sparkline.md
+        href: articles/web-dashboard-designer-mode/dashboard-item-settings/cards/sparkline.md
       - name: Formatting
-        href: articles/web-dashboard-designer-mode/designing-dashboard-items/cards/formatting.md
+        href: articles/web-dashboard-designer-mode/dashboard-item-settings/cards/formatting.md
       - name: Interactivity
-        href: articles/web-dashboard-designer-mode/designing-dashboard-items/cards/interactivity.md
+        href: articles/web-dashboard-designer-mode/dashboard-item-settings/cards/interactivity.md
       - name: Cards Arrangement
-        href: articles/web-dashboard-designer-mode/designing-dashboard-items/cards/cards-arrangement.md
+        href: articles/web-dashboard-designer-mode/dashboard-item-settings/cards/cards-arrangement.md
       - name: Conditional Formatting
-        href: articles/web-dashboard-designer-mode/designing-dashboard-items/cards/conditional-formatting.md
+        href: articles/web-dashboard-designer-mode/dashboard-item-settings/cards/conditional-formatting.md
     - name: Gauges
-      href: articles/web-dashboard-designer-mode/designing-dashboard-items/gauges.md
+      href: articles/web-dashboard-designer-mode/dashboard-item-settings/gauges.md
       items:
       - name: Providing Data
-        href: articles/web-dashboard-designer-mode/designing-dashboard-items/gauges/providing-data.md
+        href: articles/web-dashboard-designer-mode/dashboard-item-settings/gauges/providing-data.md
       - name: Delta
-        href: articles/web-dashboard-designer-mode/designing-dashboard-items/gauges/delta.md
+        href: articles/web-dashboard-designer-mode/dashboard-item-settings/gauges/delta.md
       - name: Gauge Scale
-        href: articles/web-dashboard-designer-mode/designing-dashboard-items/gauges/gauge-scale.md
+        href: articles/web-dashboard-designer-mode/dashboard-item-settings/gauges/gauge-scale.md
       - name: Interactivity
-        href: articles/web-dashboard-designer-mode/designing-dashboard-items/gauges/interactivity.md
+        href: articles/web-dashboard-designer-mode/dashboard-item-settings/gauges/interactivity.md
       - name: Layout
-        href: articles/web-dashboard-designer-mode/designing-dashboard-items/gauges/layout.md
+        href: articles/web-dashboard-designer-mode/dashboard-item-settings/gauges/layout.md
       - name: Style
-        href: articles/web-dashboard-designer-mode/designing-dashboard-items/gauges/style.md
+        href: articles/web-dashboard-designer-mode/dashboard-item-settings/gauges/style.md
     - name: Pivot
-      href: articles/web-dashboard-designer-mode/designing-dashboard-items/pivot.md
+      href: articles/web-dashboard-designer-mode/dashboard-item-settings/pivot.md
       items:
       - name: Providing Data
-        href: articles/web-dashboard-designer-mode/designing-dashboard-items/pivot/providing-data.md
+        href: articles/web-dashboard-designer-mode/dashboard-item-settings/pivot/providing-data.md
       - name: Interactivity
-        href: articles/web-dashboard-designer-mode/designing-dashboard-items/pivot/interactivity.md
+        href: articles/web-dashboard-designer-mode/dashboard-item-settings/pivot/interactivity.md
       - name: Conditional Formatting
-        href: articles/web-dashboard-designer-mode/designing-dashboard-items/pivot/conditional-formatting.md
+        href: articles/web-dashboard-designer-mode/dashboard-item-settings/pivot/conditional-formatting.md
       - name: Layout
-        href: articles/web-dashboard-designer-mode/designing-dashboard-items/pivot/layout.md
+        href: articles/web-dashboard-designer-mode/dashboard-item-settings/pivot/layout.md
       - name: Expanded State
-        href: articles/web-dashboard-designer-mode/designing-dashboard-items/pivot/expanded-state.md
+        href: articles/web-dashboard-designer-mode/dashboard-item-settings/pivot/expanded-state.md
     - name: Choropleth Map
-      href: articles/web-dashboard-designer-mode/designing-dashboard-items/choropleth-map.md
+      href: articles/web-dashboard-designer-mode/dashboard-item-settings/choropleth-map.md
       items:
       - name: Providing Maps
-        href: articles/web-dashboard-designer-mode/designing-dashboard-items/choropleth-map/providing-maps.md
+        href: articles/web-dashboard-designer-mode/dashboard-item-settings/choropleth-map/providing-maps.md
       - name: Providing Data
-        href: articles/web-dashboard-designer-mode/designing-dashboard-items/choropleth-map/providing-data.md
+        href: articles/web-dashboard-designer-mode/dashboard-item-settings/choropleth-map/providing-data.md
       - name: Delta
-        href: articles/web-dashboard-designer-mode/designing-dashboard-items/choropleth-map/delta.md
+        href: articles/web-dashboard-designer-mode/dashboard-item-settings/choropleth-map/delta.md
       - name: Map Navigation
-        href: articles/web-dashboard-designer-mode/designing-dashboard-items/choropleth-map/map-navigation.md
+        href: articles/web-dashboard-designer-mode/dashboard-item-settings/choropleth-map/map-navigation.md
       - name: Interactivity
-        href: articles/web-dashboard-designer-mode/designing-dashboard-items/choropleth-map/interactivity.md
+        href: articles/web-dashboard-designer-mode/dashboard-item-settings/choropleth-map/interactivity.md
       - name: Labels
-        href: articles/web-dashboard-designer-mode/designing-dashboard-items/choropleth-map/labels.md
+        href: articles/web-dashboard-designer-mode/dashboard-item-settings/choropleth-map/labels.md
       - name: Legend
-        href: articles/web-dashboard-designer-mode/designing-dashboard-items/choropleth-map/legend.md
+        href: articles/web-dashboard-designer-mode/dashboard-item-settings/choropleth-map/legend.md
     - name: Geo Point Maps
-      href: articles/web-dashboard-designer-mode/designing-dashboard-items/geo-point-maps.md
+      href: articles/web-dashboard-designer-mode/dashboard-item-settings/geo-point-maps.md
       items:
       - name: Map Types Overview
-        href: articles/web-dashboard-designer-mode/designing-dashboard-items/geo-point-maps/map-types-overview.md
+        href: articles/web-dashboard-designer-mode/dashboard-item-settings/geo-point-maps/map-types-overview.md
       - name: Providing Maps
-        href: articles/web-dashboard-designer-mode/designing-dashboard-items/geo-point-maps/providing-maps.md
+        href: articles/web-dashboard-designer-mode/dashboard-item-settings/geo-point-maps/providing-maps.md
       - name: Geo Point Map
-        href: articles/web-dashboard-designer-mode/designing-dashboard-items/geo-point-maps/geo-point-map.md
+        href: articles/web-dashboard-designer-mode/dashboard-item-settings/geo-point-maps/geo-point-map.md
         items:
         - name: Providing Data
-          href: articles/web-dashboard-designer-mode/designing-dashboard-items/geo-point-maps/geo-point-map/providing-data.md
+          href: articles/web-dashboard-designer-mode/dashboard-item-settings/geo-point-maps/geo-point-map/providing-data.md
       - name: Bubble Map
-        href: articles/web-dashboard-designer-mode/designing-dashboard-items/geo-point-maps/bubble-map.md
+        href: articles/web-dashboard-designer-mode/dashboard-item-settings/geo-point-maps/bubble-map.md
         items:
         - name: Providing Data
-          href: articles/web-dashboard-designer-mode/designing-dashboard-items/geo-point-maps/bubble-map/providing-data.md
+          href: articles/web-dashboard-designer-mode/dashboard-item-settings/geo-point-maps/bubble-map/providing-data.md
         - name: Legends
-          href: articles/web-dashboard-designer-mode/designing-dashboard-items/geo-point-maps/bubble-map/legends.md
+          href: articles/web-dashboard-designer-mode/dashboard-item-settings/geo-point-maps/bubble-map/legends.md
       - name: Pie Map
-        href: articles/web-dashboard-designer-mode/designing-dashboard-items/geo-point-maps/pie-map.md
+        href: articles/web-dashboard-designer-mode/dashboard-item-settings/geo-point-maps/pie-map.md
         items:
         - name: Providing Data
-          href: articles/web-dashboard-designer-mode/designing-dashboard-items/geo-point-maps/pie-map/providing-data.md
+          href: articles/web-dashboard-designer-mode/dashboard-item-settings/geo-point-maps/pie-map/providing-data.md
         - name: Pie Options
-          href: articles/web-dashboard-designer-mode/designing-dashboard-items/geo-point-maps/pie-map/pie-options.md
+          href: articles/web-dashboard-designer-mode/dashboard-item-settings/geo-point-maps/pie-map/pie-options.md
         - name: Coloring
-          href: articles/web-dashboard-designer-mode/designing-dashboard-items/geo-point-maps/pie-map/coloring.md
+          href: articles/web-dashboard-designer-mode/dashboard-item-settings/geo-point-maps/pie-map/coloring.md
         - name: Legends
-          href: articles/web-dashboard-designer-mode/designing-dashboard-items/geo-point-maps/pie-map/legends.md
+          href: articles/web-dashboard-designer-mode/dashboard-item-settings/geo-point-maps/pie-map/legends.md
       - name: Clustering
-        href: articles/web-dashboard-designer-mode/designing-dashboard-items/geo-point-maps/clustering.md
+        href: articles/web-dashboard-designer-mode/dashboard-item-settings/geo-point-maps/clustering.md
       - name: Map Navigation
-        href: articles/web-dashboard-designer-mode/designing-dashboard-items/geo-point-maps/map-navigation.md
+        href: articles/web-dashboard-designer-mode/dashboard-item-settings/geo-point-maps/map-navigation.md
       - name: Interactivity
-        href: articles/web-dashboard-designer-mode/designing-dashboard-items/geo-point-maps/interactivity.md
+        href: articles/web-dashboard-designer-mode/dashboard-item-settings/geo-point-maps/interactivity.md
       - name: Labels
-        href: articles/web-dashboard-designer-mode/designing-dashboard-items/geo-point-maps/labels.md
+        href: articles/web-dashboard-designer-mode/dashboard-item-settings/geo-point-maps/labels.md
     - name: Range Filter
-      href: articles/web-dashboard-designer-mode/designing-dashboard-items/range-filter.md
+      href: articles/web-dashboard-designer-mode/dashboard-item-settings/range-filter.md
       items:
       - name: Providing Data
-        href: articles/web-dashboard-designer-mode/designing-dashboard-items/range-filter/providing-data.md
+        href: articles/web-dashboard-designer-mode/dashboard-item-settings/range-filter/providing-data.md
       - name: Series
-        href: articles/web-dashboard-designer-mode/designing-dashboard-items/range-filter/series.md
+        href: articles/web-dashboard-designer-mode/dashboard-item-settings/range-filter/series.md
       - name: Interactivity
-        href: articles/web-dashboard-designer-mode/designing-dashboard-items/range-filter/interactivity.md
+        href: articles/web-dashboard-designer-mode/dashboard-item-settings/range-filter/interactivity.md
       - name: Predefined Periods
-        href: articles/web-dashboard-designer-mode/designing-dashboard-items/range-filter/predefined-periods.md
+        href: articles/web-dashboard-designer-mode/dashboard-item-settings/range-filter/predefined-periods.md
     - name: Date Filter
-      href: articles/web-dashboard-designer-mode/designing-dashboard-items/date-filter.md
+      href: articles/web-dashboard-designer-mode/dashboard-item-settings/date-filter.md
     - name: Images
-      href: articles/web-dashboard-designer-mode/designing-dashboard-items/images.md
+      href: articles/web-dashboard-designer-mode/dashboard-item-settings/images.md
       items:
       - name: Image Overview
-        href: articles/web-dashboard-designer-mode/designing-dashboard-items/images/image-overview.md
+        href: articles/web-dashboard-designer-mode/dashboard-item-settings/images/image-overview.md
       - name: Providing Images
-        href: articles/web-dashboard-designer-mode/designing-dashboard-items/images/providing-images.md
+        href: articles/web-dashboard-designer-mode/dashboard-item-settings/images/providing-images.md
       - name: Interactivity
-        href: articles/web-dashboard-designer-mode/designing-dashboard-items/images/interactivity.md
+        href: articles/web-dashboard-designer-mode/dashboard-item-settings/images/interactivity.md
       - name: Image Settings
-        href: articles/web-dashboard-designer-mode/designing-dashboard-items/images/image-settings.md
+        href: articles/web-dashboard-designer-mode/dashboard-item-settings/images/image-settings.md
     - name: Text Box
-      href: articles/web-dashboard-designer-mode/designing-dashboard-items/text-box.md
+      href: articles/web-dashboard-designer-mode/dashboard-item-settings/text-box.md
     - name: Treemap
-      href: articles/web-dashboard-designer-mode/designing-dashboard-items/treemap.md
+      href: articles/web-dashboard-designer-mode/dashboard-item-settings/treemap.md
       items:
       - name: Providing Data
-        href: articles/web-dashboard-designer-mode/designing-dashboard-items/treemap/providing-data.md
+        href: articles/web-dashboard-designer-mode/dashboard-item-settings/treemap/providing-data.md
       - name: Interactivity
-        href: articles/web-dashboard-designer-mode/designing-dashboard-items/treemap/interactivity.md
+        href: articles/web-dashboard-designer-mode/dashboard-item-settings/treemap/interactivity.md
       - name: Layout
-        href: articles/web-dashboard-designer-mode/designing-dashboard-items/treemap/layout.md
+        href: articles/web-dashboard-designer-mode/dashboard-item-settings/treemap/layout.md
       - name: Grouping
-        href: articles/web-dashboard-designer-mode/designing-dashboard-items/treemap/grouping.md
+        href: articles/web-dashboard-designer-mode/dashboard-item-settings/treemap/grouping.md
       - name: Coloring
-        href: articles/web-dashboard-designer-mode/designing-dashboard-items/treemap/coloring.md
+        href: articles/web-dashboard-designer-mode/dashboard-item-settings/treemap/coloring.md
       - name: Labels
-        href: articles/web-dashboard-designer-mode/designing-dashboard-items/treemap/labels.md
+        href: articles/web-dashboard-designer-mode/dashboard-item-settings/treemap/labels.md
     - name: Filter Elements
-      href: articles/web-dashboard-designer-mode/designing-dashboard-items/filter-elements.md
+      href: articles/web-dashboard-designer-mode/dashboard-item-settings/filter-elements.md
       items:
       - name: Filter Elements Overview
-        href: articles/web-dashboard-designer-mode/designing-dashboard-items/filter-elements/filter-elements-overview.md
+        href: articles/web-dashboard-designer-mode/dashboard-item-settings/filter-elements/filter-elements-overview.md
       - name: Providing Data
-        href: articles/web-dashboard-designer-mode/designing-dashboard-items/filter-elements/providing-data.md
+        href: articles/web-dashboard-designer-mode/dashboard-item-settings/filter-elements/providing-data.md
       - name: Interactivity
-        href: articles/web-dashboard-designer-mode/designing-dashboard-items/filter-elements/interactivity.md
+        href: articles/web-dashboard-designer-mode/dashboard-item-settings/filter-elements/interactivity.md
     - name: Dashboard Item Group
-      href: articles/web-dashboard-designer-mode/designing-dashboard-items/dashboard-item-group.md
+      href: articles/web-dashboard-designer-mode/dashboard-item-settings/dashboard-item-group.md
     - name: Tab Container
-      href: articles/web-dashboard-designer-mode/designing-dashboard-items/tab-container.md
+      href: articles/web-dashboard-designer-mode/dashboard-item-settings/tab-container.md
   - name: Data Shaping
     href: articles/web-dashboard-designer-mode/data-shaping.md
     items:
@@ -323,8 +327,8 @@
         href: articles/web-dashboard-designer-mode/data-analysis/dashboard-parameters/requesting-parameter-values.md
     - name: Expression Constants, Operators, and Functions
       href: articles/web-dashboard-designer-mode/data-analysis/expression-constants-operators-and-functions.md
-  - name: Converting Dashboard Items
-    href: articles/web-dashboard-designer-mode/converting-dashboard-items.md
+  - name: Convert Dashboard Items
+    href: articles/web-dashboard-designer-mode/convert-dashboard-items.md
   - name: Dashboard Layout
     href: articles/web-dashboard-designer-mode/dashboard-layout.md
     items:
@@ -336,10 +340,10 @@
       href: articles/web-dashboard-designer-mode/dashboard-layout/dashboard-items-layout.md
   - name: Undo and Redo Operations
     href: articles/web-dashboard-designer-mode/undo-and-redo-operations.md
-  - name: Saving a Dashboard
-    href: articles/web-dashboard-designer-mode/saving-a-dashboard.md
-  - name: Opening a Dashboard
-    href: articles/web-dashboard-designer-mode/opening-a-dashboard.md
+  - name: Save a Dashboard
+    href: articles/web-dashboard-designer-mode/save-a-dashboard.md
+  - name: Open a Dashboard
+    href: articles/web-dashboard-designer-mode/open-a-dashboard.md
   - name: Exporting
     href: articles/web-dashboard-designer-mode/exporting.md
   - name: UI Elements

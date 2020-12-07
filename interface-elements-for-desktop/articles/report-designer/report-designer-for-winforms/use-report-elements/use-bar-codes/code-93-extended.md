@@ -8,11 +8,25 @@ Using **Code 93**'s "Full ASCII Mode", it is possible to encode all **128** ASCI
 
 ![](../../../../../images/eurd-win-bar-code-code-93-extended.png)
 
-The following property is specific to the **Code 93 Extended** type and available in the [Property Grid](../../report-designer-tools/ui-panels/property-grid-tabbed-view.md) under the **Symbology** property:
+## Add the Barcode to a Report
+
+1. Drag the **Barcode** item from the report controls toolbox tab and drop it onto the report. 
+
+    ![](../../../../../images/drag-and-drop-barcode.png)
+
+2. Set the control’s **Symbology** property to **Code93Extended**. 
+
+    ![](../../../../../images/code-93-extended-in-designer.png)
+
+3. Specify [common](add-bar-codes-to-a-report.md) barcode properties and properties [specific](#specific-properties) to **Code 93 Extended**.
+
+## Specific Properties
+
+In the [property grid](../../report-designer-tools/ui-panels/property-grid-tabbed-view.md), expand the **Symbology** list and specify the following property specific to **Code 93 Extended**:
 
 * **Calculate a Checksum**
 
-    Specifies whether to calculate a checksum for the bar code.
+    Specifies whether to calculate a checksum for the barcode.
 
     > [!NOTE]
-	> A checksum of a **Code 93 Extended** bar code can contain characters that are not supported by this bar code symbology. For this reason, the checksum is not included in the **Code 93 Extended** bar code's displayed text.
+	> A checksum of a **Code 93 Extended** barcode can contain characters that are not supported by this barcode symbology. For this reason, the checksum is not included in the **Code 93 Extended** barcode's displayed text.

@@ -15,7 +15,7 @@ The **Web Report Designer** allows you to create data-bound reports and provides
 * [Save Reports](report-designer/save-reports.md)
 * [Introduction to Banded Reports](report-designer/introduction-to-banded-reports.md)
 * [Bind to Data](report-designer/bind-to-data.md)
-* [Create Popular Reports](report-designer/create-popular-reports.md)
+* [Create Popular Reports](report-designer/create-reports.md)
 * [Configure Design Settings](report-designer/configure-design-settings.md)
 * [Use Report Elements](report-designer/use-report-elements.md)
 * [Shape Report Data](report-designer/shape-report-data.md)

@@ -112,4 +112,4 @@ Click the Picture Box in a previewed document and an editor invokes.
 > [!TIP]
 > You can draw borders for the Picture Box to make the editor visible in Print Preview, if an image is not specified.
 
-Refer to the [Edit Content in Print Preview](../../provide-interactivity/edit-content-in-print-preview.md) and [Create an Interactive E-Form](../../create-popular-reports/create-an-interactive-e-form.md) topics to see how use this Picture Box mode.
+Refer to the [Edit Content in Print Preview](../../provide-interactivity/edit-content-in-print-preview.md) and [Interactive E-Forms](../../create-reports/interactive-e-forms.md) topics to see how use this Picture Box mode.

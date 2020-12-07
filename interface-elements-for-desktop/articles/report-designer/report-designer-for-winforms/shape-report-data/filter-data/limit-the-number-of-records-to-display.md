@@ -18,6 +18,6 @@ Use the **Detail Count** option to define how many times to print the Detail ban
 
 ## **Print on Empty Data Source**
 
-Disable the **Print when Data Source is Empty** option to avoid generating a report when its data source is empty. You can use this setting in [master-detail reports](../../create-popular-reports/create-a-master-detail-report-use-detail-report-bands.md) to hide the detail report if its data source contains no records.
+Disable the **Print when Data Source is Empty** option to avoid generating a report when its data source is empty. You can use this setting in [master-detail reports](../../create-reports/master-detail-reports-with-detail-report-bands.md) to hide the detail report if its data source contains no records.
 
 The **Detail Count when Data Source is Empty** property allows you to specify how many times to print the Detail band when a report does not have a data source. You can use this property to create static reports that are not connected to a data source and display the same static content several times.

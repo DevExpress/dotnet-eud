@@ -42,7 +42,7 @@ The context menu provides quick access to the most commonly used actions that de
 <a name="inplaceeditors"/>
 
 ## In-place Editors
-An in-place editor allows you to edit the content of a text-oriented control (Bar Code, Check Box, Label, Table Cell or Zip Code) by double-clicking it.
+An in-place editor allows you to edit the content of a text-oriented control (Barcode, Check Box, Label, Table Cell or Zip Code) by double-clicking it.
 
 ![WPFDesigner_InPlaceEditor](../../../../images/img123028.png)
 

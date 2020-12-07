@@ -35,7 +35,7 @@ These elements are divided into the following categories.
 ## <a name="toolbox"/>Toolbox
 | Command | Large Icon | Small Icon | Description |
 |---|---|---|---|
-| Bar Code | ![icon-toolbar-insert-bar-code](../../../../images/img20416.png) | ![icon-small-toolbar-insert-bar-code](../../../../images/img20431.png) | Inserts a **bar code** at the carriage position. After adding a bar code, specify its symbology, data binding and other options using the **Properties** command in the [Data Tools: Field](data-tools-field.md) tab. |
+| Barcode | ![icon-toolbar-insert-bar-code](../../../../images/img20416.png) | ![icon-small-toolbar-insert-bar-code](../../../../images/img20431.png) | Inserts a **barcode** at the carriage position. After adding a barcode, specify its symbology, data binding and other options using the **Properties** command in the [Data Tools: Field](data-tools-field.md) tab. |
 | Check Box | ![icon-toolbar-insert-check-box](../../../../images/img20419.png) | ![icon-small-toolbar-insert-check-box](../../../../images/img20434.png) | Inserts a **check box** at the carriage position (e.g., to display Boolean values from a data source). To customize the check box state or bind it to external data, use the **Properties** command in the [Data Tools: Field](data-tools-field.md) tab. |
 | Chart | ![icon-toolbar-insert-chart](../../../../images/img20418.png) | ![icon-small-toolbar-insert-chart](../../../../images/img20433.png) | Inserts a **chart** at the carriage position. |
 | Sparkline | ![icon-ribbon-toolbox-sparkline](../../../../images/img22266.png) | ![icon-ribbon-toolbox-sparkline-small](../../../../images/img22280.png) | Inserts a **sparkline** at the carriage position. |

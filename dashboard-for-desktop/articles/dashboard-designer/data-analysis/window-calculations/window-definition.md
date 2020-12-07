@@ -7,7 +7,7 @@ legacyId: 116579
 A _window definition_ specifies a window that limits measure values participating in a calculation. To learn more, see [Window Calculations Overview](window-calculations-overview.md).
 
 ## Dashboard Item Window Definition
-The following table lists window definitions in terms of the [Pivot](../../designing-dashboard-items/pivot.md) dashboard item. A calculation is performed using the [Index](calculation-functions-reference.md) function along the following _[directions](window-calculations-overview.md)_.
+The following table lists window definitions in terms of the [Pivot](../../dashboard-item-settings/pivot.md) dashboard item. A calculation is performed using the [Index](calculation-functions-reference.md) function along the following _[directions](window-calculations-overview.md)_.
 
 | Direction | Description | Example | Example Description |
 |---|---|---|---|

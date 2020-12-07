@@ -6,13 +6,13 @@ legacyId: 116582
 # Window Calculation Limitations
 ## Supported Dashboard Items
 Window calculations can be applied to measures of the following dashboard items.
-* [Chart](../../designing-dashboard-items/chart.md)
-* [Grid](../../designing-dashboard-items/grid.md)
-* [Pies](../../designing-dashboard-items/pies.md)
-* [Cards](../../designing-dashboard-items/cards.md)
-* [Gauges](../../designing-dashboard-items/gauges.md)
-* [Pivot](../../designing-dashboard-items/pivot.md)
-* [Range Filter](../../designing-dashboard-items/range-filter.md)
+* [Chart](../../dashboard-item-settings/chart.md)
+* [Grid](../../dashboard-item-settings/grid.md)
+* [Pies](../../dashboard-item-settings/pies.md)
+* [Cards](../../dashboard-item-settings/cards.md)
+* [Gauges](../../dashboard-item-settings/gauges.md)
+* [Pivot](../../dashboard-item-settings/pivot.md)
+* [Range Filter](../../dashboard-item-settings/range-filter.md)
 
 ## Data Shaping Limitations
 The use of calculations imposes the following limitations related to [data shaping](../../data-shaping.md) features.
