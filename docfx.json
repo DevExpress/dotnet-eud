@@ -71,7 +71,7 @@
       }
     ],
     "dest": "_pdf",
-	"wkhtmltopdf": {
+    "wkhtmltopdf": {
       "additionalArguments": "--enable-local-file-access"
     }
   }
