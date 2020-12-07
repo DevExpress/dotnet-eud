@@ -559,7 +559,8 @@
     - name: Reports with PDF Content
       href: articles/report-designer/create-reports/reports-with-pdf-content.md
     - name: Reports with Visual PDF Signature
-      href: articles/report-designer/create-reports/reports-with-visual-pdf-signature.md  - name: Configure Design Settings
+      href: articles/report-designer/create-reports/reports-with-visual-pdf-signature.md
+  - name: Configure Design Settings
     href: articles/report-designer/configure-design-settings.md
     items:
     - name: Change a Report's Measurement Units
