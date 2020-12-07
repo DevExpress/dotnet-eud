@@ -618,6 +618,10 @@
           href: articles/report-designer/report-designer-for-winforms/use-report-elements/use-basic-report-controls/table-of-contents.md
         - name: Page Info
           href: articles/report-designer/report-designer-for-winforms/use-report-elements/use-basic-report-controls/page-info.md
+        - name: PDF Content
+          href: articles/report-designer/report-designer-for-winforms/use-report-elements/use-basic-report-controls/pdf-content.md
+        - name: PDF Signature
+          href: articles/report-designer/report-designer-for-winforms/use-report-elements/use-basic-report-controls/pdf-signature.md
       - name: Use Tables
         href: articles/report-designer/report-designer-for-winforms/use-report-elements/use-tables.md
         items:

@@ -18,6 +18,11 @@ The controls below allow you to embed other reports and customize the report lay
 * [Panel](use-basic-report-controls/panel.md)
 * [Page Break](use-basic-report-controls/page-break.md)
 
+The following controls add PDF-specific features to reports:
+
+* [PDF Content](use-basic-report-controls/pdf-content.md)
+* [PDF Signature](use-basic-report-controls/pdf-signature.md)
+
 Use the following controls to display auxiliary information in a report:
 
 * [Table of Contents](use-basic-report-controls/table-of-contents.md)
