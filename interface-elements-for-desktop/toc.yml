@@ -520,8 +520,8 @@
       - name: Bind a Report to a Transformation-Based Data Source
         href: articles\report-designer\report-designer-for-winforms\bind-to-data\bind-a-report-to-a-transformation-based-data-source.md          
       - name: Bind a Report to a Federated Master-Detail Data Source
-        href: articles\report-designer\report-designer-for-winforms\bind-to-data\bind-a-report-to-a-federated-master-detail-data-source.md        
-- name: Create Reports
+        href: articles\report-designer\report-designer-for-winforms\bind-to-data\bind-a-report-to-a-federated-master-detail-data-source.md
+    - name: Create Reports
       href: articles/report-designer/report-designer-for-winforms/create-reports.md
       items:
       - name: Table Reports

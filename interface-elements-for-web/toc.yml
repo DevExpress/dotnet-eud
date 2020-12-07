@@ -528,8 +528,8 @@
     - name: Bind a Report to JSON Data
       href: articles/report-designer/bind-to-data/bind-a-report-to-json-data.md   
     - name: Bind a Report to an Object Data Source
-      href: articles/report-designer/bind-to-data/bind-a-report-to-an-object-data-source.md   
- - name: Create Reports
+      href: articles/report-designer/bind-to-data/bind-a-report-to-an-object-data-source.md
+  - name: Create Reports
     href: articles/report-designer/create-reports.md
     items:
     - name: Table Reports

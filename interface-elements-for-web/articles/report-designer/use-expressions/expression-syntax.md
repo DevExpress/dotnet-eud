@@ -392,7 +392,7 @@ Use the following functions when [calculating summaries](..\shape-report-data\ca
 </td></tr><tr><td><p>sumCount(Expression)</p>
 </td><td><p>Counts the number of values within the specified summary region (group, page or report). In a simple scenario, you may not pass a parameter.</p>
 <p>  When using this function in a <a class="xref" href="..\create-reports\master-detail-reports-with-detail-report-bands.md">master-detail report</a>&#39;s master band and passing a detail&#39;s field as a parameter, it counts the number of records within the detail&#39;s band.</p>
-<p>  See also: <a class="xref" href="..\shape-report-data\shape-data-data-bindings\count-the-number-of-records-in-a-report-or-group.md">Counting the Number of Records in a Report or Group</a>, <a class="xref" href="..\shape-report-data\shape-data-data-bindings\count-the-number-of-groups-in-a-report.md">Counting the Number of Groups in a Report</a></p>
+<p>  See also: <a class="xref" href="..\shape-report-data\count-elements-and-values\count-the-number-of-records-in-a-report-or-group.md">Counting the Number of Records in a Report or Group</a>, <a class="xref" href="..\shape-report-data\count-elements-and-values\count-the-number-of-groups-in-a-report.md">Counting the Number of Groups in a Report</a></p>
 </td><td><p>sumCount([UnitPrice])</p>
 </td></tr><tr><td><p>sumDAvg(Expression)</p>
 </td><td><p>Calculates the average of all the <strong>distinct</strong> values within the specified summary region (group, page or report).</p>
