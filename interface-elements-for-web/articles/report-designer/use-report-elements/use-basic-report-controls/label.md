@@ -18,7 +18,7 @@ Press CTRL+Enter to submit text changes and exit the label's in-place editing mo
 ## Bind to Data
 ### Display Field Values
 
-You can [bind](../../bind-to-data/bind-controls-to-data-expression-bindings.md) the label's **Text** property to a data field obtained from a report's data source. Switch to the [Properties](../../report-designer-tools/ui-panels/properties-panel.md) panel, expand the **Actions** category and click the **Text** property's marker. Select **Text Expression** from the popup menu. Then select a data field or construct a binding [expression](../../use-expressions/expression-syntax.md) in the invoked [Expression Editor](../../report-designer-tools/expression-editor.md).
+You can [bind](../bind-controls-to-data.md) the label's **Text** property to a data field obtained from a report's data source. Switch to the [Properties](../../report-designer-tools/ui-panels/properties-panel.md) panel, expand the **Actions** category and click the **Text** property's marker. Select **Text Expression** from the popup menu. Then select a data field or construct a binding [expression](../../use-expressions/expression-syntax.md) in the invoked [Expression Editor](../../report-designer-tools/expression-editor.md).
 
 ![](../../../../images/eurd-web-label-bind-to-data-field.png)
 
@@ -30,19 +30,19 @@ You can also drag and drop a numeric or text field from the [Field List](../../r
 
 ![](../../../../images/eurd-web-label-drag-field-from-field-list.png)
 
-See the [Bind Controls to Data](../../bind-to-data/bind-controls-to-data-expression-bindings.md) topic for more information.
+See the [Bind Controls to Data](../bind-controls-to-data.md) topic for more information.
 
 The **Process Duplicates Mode**, **Process Duplicates Target** and **Process Null Values** options enable you to hide a control when a duplicated or null value appears in an assigned data source.
 
 ![](../../../../images/eurd-web-label-process-duplicates-mode.png)
 
-You can also use the **Text Format String** property to specify output values' [format](../../shape-report-data/shape-data-expression-bindings/format-data.md).
+You can also use the **Text Format String** property to specify output values' [format](../../shape-report-data/format-data.md).
 
 ![](../../../../images/eurd-web-label-format-string.png)
 
 ### Display Summaries
 
-Specify a data range in the **Running** property and select the summary function in the [Expression Editor](../../report-designer-tools/expression-editor.md) to display a [summary function's result](../../shape-report-data/shape-data-expression-bindings/calculate-a-summary.md) in a label.
+Specify a data range in the **Running** property and select the summary function in the [Expression Editor](../../report-designer-tools/expression-editor.md) to display a [summary function's result](../../shape-report-data/calculate-summaries/calculate-a-summary.md) in a label.
 
 ![](../../../../images/eurd-web-label-summary-function.png)
 

@@ -52,3 +52,7 @@ You can select all report elements with a specific style.
 The Components node lists all [data sources](../../bind-to-data.md) configured for the report. Right-click a data source to customize its settings or add it to the [Report Gallery](report-gallery.md).
 
 ![design-time-report-explorer-data-source-add-to-gallery](../../../../../images/eurd-win-report-explorer-data-source-add-to-gallery.png)
+
+You can convert a **Data Set** data source to an SQL data source. Right-click the Data Set and select **Convert to SqlDataSource** from the context menu. Click **Yes** in the invoked dialog to confirm the selected action.
+
+![design-time-report-explorer-data-source-convert-data-set](../../../../../images/eurd-win-report-explorer-data-source-convert-data-set.png)

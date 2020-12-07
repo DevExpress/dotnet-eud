@@ -14,21 +14,11 @@ In the invoked **Add New Parameter** dialog, specify the parameter's name and de
 
 ![](../../../../../images/eurd-win-parameter-settings-to-hide-table-cells.png)
 
-* > [!Warning]
-    > Use the approach below if expression bindings **are enabled** in the Report Designer (the [Property Grid](../../report-designer-tools/ui-panels/property-grid-tabbed-view.md) provides the **PropertyName Expression** item in the property marker's context menu).
+Specify an [expression](../../shape-report-data/specify-conditions-for-report-elements/conditionally-supress-controls.md) for the cell's **Visible** property to define a logical condition for displaying or hiding this cell.
 
-    Specify an [expression](../../shape-report-data/shape-data-expression-bindings/conditionally-supress-controls.md) for the cell's **Visible** property to define a logical condition for displaying or hiding this cell.
+The image below demonstrates how to provide the visibility expression for the cell bound to the **CategoryID** field. For a report to display correctly, you should specify the same expression for the cell that displays the field caption in the Page Header.
 
-    The image below demonstrates how to provide the visibility expression for the cell bound to the **CategoryID** field. For a report to display correctly, you should specify the same expression for the cell that displays the field caption in the Page Header.
-
-    ![](../../../../../images/eurd-win-hide-table-cell-using-expression.png)
-
-* > [!Warning]
-    > Use the approach below if expression bindings **are not enabled** in the Report Designer (the [Property Grid](../../report-designer-tools/ui-panels/property-grid-tabbed-view.md) does not provide the **PropertyName Expression** item in the property marker's context menu).
-
-    Create a [formatting rule](../../shape-report-data/shape-data-data-bindings/conditionally-supress-controls.md), specify a logical condition to hide a cell and set the **Visible** property to **False** as shown below. For a report to display correctly, apply the created rule to the cells in the Detail band and the Page Header band.
-
-    ![](../../../../../images/eurd-win-hide-table-cell-using-formatting-rule.png)
+![](../../../../../images/eurd-win-hide-table-cell-using-expression.png)
 
 The **Process Hidden Cell Mode** property allows you to define how to distribute the remaining space between the table's visible cells.
 

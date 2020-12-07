@@ -35,7 +35,7 @@ The following are some additional barcode options:
 
 ## Bind to Data
 
-You can [bind](../../bind-to-data/bind-controls-to-data-expression-bindings.md) the barcode's **Text** property to a data field obtained from a report's data source. Click the **Text** property's ellipsis button in the [Expressions](../../report-designer-tools/ui-panels/expressions-panel.md) panel. The invoked [Expression Editor](../../report-designer-tools/expression-editor.md) allows you to select a data field or construct a complex binding expression with two or more data fields.
+You can [bind](../bind-controls-to-data.md) the bar code's **Text** property to a data field obtained from a report's data source. Click the **Text** property's ellipsis button in the [Expressions](../../report-designer-tools/ui-panels/expressions-panel.md) panel. The invoked [Expression Editor](../../report-designer-tools/expression-editor.md) allows you to select a data field or construct a complex binding expression with two or more data fields.
 
 ![](../../../../images/eurd-web-bar-code-bind-to-data.png)
 

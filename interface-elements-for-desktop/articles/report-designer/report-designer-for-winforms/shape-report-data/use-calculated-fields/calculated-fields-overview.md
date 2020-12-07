@@ -4,7 +4,7 @@ author: Anna Gubareva
 ---
 # Calculated Fields Overview
 
-Calculated fields are primarily used in data-aware reports when using both [standard data binding](../../bind-to-data/bind-controls-to-data-expression-bindings.md) and [mail merge](../../bind-to-data/use-embedded-fields-mail-merge.md). Calculated fields allow you to pre-process a report's input data, based on a certain expression. So, using calculated fields allows you to apply complex expressions to one or more data fields that are obtained from your report's underlying data source. Moreover, you can both [group](../../shape-report-data/group-and-sort-data/group-data.md) and [sort](../../shape-report-data/group-and-sort-data/sort-data.md) your report data based on a calculated field's value.
+Calculated fields allow you to pre-process a report's input data, based on a certain expression. So, using calculated fields allows you to apply complex expressions to one or more data fields that are obtained from your report's underlying data source. Moreover, you can both [group](../../shape-report-data/group-and-sort-data/group-data.md) and [sort](../../shape-report-data/group-and-sort-data/sort-data.md) your report data based on a calculated field's value.
 
 ## <a name="overview"></a>Calculated Fields Overview
 
@@ -69,6 +69,6 @@ For more information, see [Expression Syntax](../../use-expressions/expression-s
 The following tutorials demonstrate the use of calculated fields in various environments:
 
 * [Calculate an Aggregate Function](calculate-an-aggregate-function.md)
-* [Calculate a Weighted Average Function](../shape-data-expression-bindings/calculate-a-weighted-average.md)
+* [Calculate a Weighted Average Function](../calculate-summaries/calculate-a-weighted-average.md)
 * [Sort Data by a Custom Field](../../shape-report-data/group-and-sort-data/sort-data-by-a-custom-field.md)
 * [Group Data by a Custom Field](../../shape-report-data/group-and-sort-data/group-data-by-a-custom-field.md)

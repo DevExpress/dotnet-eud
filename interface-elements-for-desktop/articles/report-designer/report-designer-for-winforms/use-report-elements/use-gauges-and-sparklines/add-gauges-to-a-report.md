@@ -49,7 +49,8 @@ The following properties allow you to customize the gauge scale and specify its 
 
 
 ## Bind a Gauge to Data
-To [bind](../../bind-to-data/bind-controls-to-data-expression-bindings.md) the gauge's displayed value to data, click the control's smart tag and in the invoked actions list, expand the **Expression** drop-down list for the **Actual Value** property and select the required data field.
+
+To [bind](../bind-controls-to-data.md) the gauge's displayed value to data, click the control's smart tag and in the invoked actions list, expand the **Expression** drop-down list for the **Actual Value** property and select the required data field.
 
 ![](../../../../../images/eurd-win-gauge-control-bind-to-data.png)
 
