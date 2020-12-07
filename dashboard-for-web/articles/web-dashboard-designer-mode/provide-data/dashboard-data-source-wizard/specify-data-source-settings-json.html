@@ -1,0 +1,152 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Specify Data Source Settings (JSON) | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Specify Data Source Settings (JSON) | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.56.5.0">
+    
+    <link rel="shortcut icon" href="../../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../../index.html">
+                <img id="logo" class="svg" src="../../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="specify-data-source-settings-json">Specify Data Source Settings (JSON)</h1>
+
+<h2 id="select-an-existing-data-connection">Select an Existing Data Connection</h2>
+<p>The following page appears if you select JSON on the start page. Select an existing connection from the list. </p>
+<p><img src="../../../../images/web-dashboard-data-source-wizard-json.png" alt=""></p>
+<p>Click <strong>Next</strong> to proceed to the <a href="#select-data-fields">Select Data Fields</a> page.</p>
+<h2 id="create-a-new-data-connection">Create a New Data Connection</h2>
+<p>Select a new data connection on the following page and click <strong>Next</strong>.</p>
+<p><img src="../../../../images/dashboard-data-source-wizard-create-data-connections.png" alt=""></p>
+<h2 id="configure-a-new-data-connection">Configure a New Data Connection</h2>
+<p>On the next page, configure a new data connection:</p>
+<p><img src="../../../../images/dashboard-data-source-wizard-configure-data-connections.png" alt=""></p>
+<p>Specify the connection name and select the JSON source type.</p>
+<h3 id="web-service-endpoint-uri">Web Service Endpoint (URI)</h3>
+<p>A URL to a file in JSON format. You can also specify the Web Service Endpoint&#39;s request parameters (username and password, HTTP headers, or query parameters).</p>
+<p><img src="../../../../images/web-dashboard-json-datasource-parameters.png" alt=""></p>
+<ul>
+<li>A <strong>path parameter</strong> appends a path element to a JSON endpoint&#39;s Uri.</li>
+<li>A <strong>query parameter</strong> specifies an HTTP request parameter that is passed to a JSON endpoint.</li>
+<li>A <strong>header</strong> is a custom HTTP header in JSON endpoint requests.</li>
+</ul>
+<p>You can use expressions to specify path parameters, query parameter values, and headers.</p>
+<p>Click the <strong>F</strong> icon  to switch the <strong>Value</strong> option to <strong>Expression Editor</strong> and click the ellipsis button (<strong>...</strong>)  to invoke the editor.</p>
+<p><img src="../../../../images/web-dashboard-wizard-json-parameters-expression-editor-f-icon.png" alt=""></p>
+<p>Double-click the expression in the invoked Expression Editor and click <strong>OK</strong>.</p>
+<p><img src="../../../../images/web-dashboard-wizard-json-parameters-expression-editor.png" alt=""></p>
+<p>An expression can include <a href="../../data-analysis/dashboard-parameters.html">dashboard parameters</a>. </p>
+<div class="TIP"><h5>Tip</h5><p>Refer to the following help topic for details on how to create a dashboard parameter: <a href="../../data-analysis/dashboard-parameters/creating-parameters.html">Creating Parameters</a>. </p>
+</div>
+<p>Select the <strong>Fields</strong> section in the Expression Editor, double-click the predefined dashboard parameter, and click <strong>OK</strong>.</p>
+<p><img src="../../../../images/web-dashboard-wizard-json-parameters-expression-editor-select-dashboard-parameters.png" alt=""></p>
+<p>Path parameters and query parameters are included in endpoint requests in the order in which they are listed. Move a parameter up or down the list to change its position within an endpoint request.</p>
+<p>The read-only <strong>Resulting URI</strong> field displays the result: a JSON URI.</p>
+<p><img src="../../../../images/web-dashboard-data-source-wizard-json-resulting-uri.png" alt=""></p>
+<p>Configure basic HTTP authentication credentials and click <strong>Next</strong> to proceed to the <a href="#select-data-fields">Select Data Fields</a> page. </p>
+<h3 id="json-string">JSON String</h3>
+<p> A string that contains JSON data. You can also use the <strong>Upload JSON</strong> button to load content from the selected JSON file.</p>
+<p><img src="../../../../images/web-dashboard-json-datasource-json-string.png" alt=""></p>
+<p>Click <strong>Next</strong> to proceed to the &quot;<a href="#select-data-fields">Select Data Fields</a>&quot; page.</p>
+<h2 id="select-data-fields">Select Data Fields</h2>
+<p>The &quot;Select data fields&quot; page allows you to include / exclude data fields used in a JSON data source.</p>
+<p> <img src="../../../../images/dashboard-data-source-wizard-select-data-fields.png" alt=""></p>
+<p> Click <strong>Finish</strong> to create a JSON data source.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/20.2/dashboard-for-web/articles/web-dashboard-designer-mode/provide-data/dashboard-data-source-wizard/specify-data-source-settings-json.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2019 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../../styles/main.js"></script>
+  </body>
+</html>

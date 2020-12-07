@@ -1,0 +1,135 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Providing Images | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Providing Images | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.56.5.0">
+    
+    <link rel="shortcut icon" href="../../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../../index.html">
+                <img id="logo" class="svg" src="../../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="providing-images">Providing Images</h1>
+
+<h2 id="providing-static-images">Providing Static Images</h2>
+<p>To load an image to a dashboard item, use the <strong>Load Image</strong> and <strong>Import Image</strong> buttons in the Ribbon, or commands in the context menu (<strong>Load Image...</strong> and <strong>Import Image...</strong>, respectively).</p>
+<p><img src="../../../../images/img20214.png" alt="Image_LoadImage_Ribbon"></p>
+<p>These commands invoke the <strong>Open</strong> dialog, which allows you to locate the desired image.</p>
+<p>The <strong>Load Image</strong> command saves the path to the image in the dashboard definition, while the <strong>Import Image</strong> command saves the image itself.</p>
+<h2 id="binding-the-bound-image-to-data">Binding the Bound Image to Data</h2>
+<p>The Bound Image dashboard item provides the Attribute data section containing the corresponding placeholder.</p>
+<p><img src="../../../../images/img123290.png" alt="BoundImageDataSections"></p>
+<p>Specify the binding mode for the Bound Image by clicking the Options button (the  icon) next to the Attribute placeholder. This invokes the following dialog.</p>
+<p><img src="../../../../images/img123297.png" alt="ImageBindingOptionsDialog"></p>
+<p>This dialog provides two options.</p>
+<ul>
+<li><strong>Binary Array</strong> - Use this mode if images are stored in the data source as byte arrays.</li>
+<li><strong>URI</strong> - Use this mode to locate images accessible by a predefined URI. In this case, the data source field should return strings that are parts of URIs to these images.</li>
+</ul>
+<p>For instance, the URI pattern in the form below specifies the path to the folder containing the required images.</p>
+<p><img src="../../../../images/img123307.png" alt="ImageBindingOptionsDialog_URI"></p>
+<p>Data source field values will be inserted to the position of the {0} placeholder. Thus, the Bound Image maps the current dimension value with the image placed at the specified URI.</p>
+<div class="NOTE"><h5>Note</h5><p>Note that the Bound Image can display only a single image simultaneously. If <a href="../../interactivity/master-filtering.html">Master Filtering</a> is not applied to the Bound Image, it selects the displayed image in the following ways.</p>
+<ul>
+<li>In the <strong>Binary Array</strong> mode, the displayed image cannot be predicted precisely as a result of sorting limitations for the <em>image</em>/<em>binary</em> data types. Use the <a href="../../interactivity/master-filtering.html">Master Filtering</a> feature to display the specified image.</li>
+<li>In the <strong>URI</strong> mode, the Bound Image displays an image corresponding a first attribute value taking into account the attribute&#39;s sort order.</li>
+</ul>
+</div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/20.2/dashboard-for-desktop/articles/dashboard-designer/dashboard-item-settings/images/providing-images.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2019 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../../styles/main.js"></script>
+  </body>
+</html>

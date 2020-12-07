@@ -8,7 +8,7 @@
     <title>Codabar | DevExpress End-User Documentation </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Codabar | DevExpress End-User Documentation ">
-    <meta name="generator" content="docfx 2.37.0.0">
+    <meta name="generator" content="docfx 2.56.5.0">
     
     <link rel="shortcut icon" href="../../../../../favicon.ico">
     <link rel="stylesheet" href="../../../../../styles/docfx.vendor.css">
@@ -71,13 +71,28 @@
 
 <p>The <strong>Codabar</strong> is a discrete, self-checking symbology that may encode <strong>16</strong> different characters, plus an additional <strong>4</strong> start/stop characters. This symbology is used by U.S. blood banks, photo labs, and on FedEx air bills.</p>
 <p><img src="../../../../images/eurd-web-bar-code-codabar.png" alt=""></p>
-<p>The following properties are specific to the <strong>Codabar</strong> type and listed in the <a href="../../report-designer-tools/ui-panels/properties-panel.html">Properties</a> panel under the <strong>Symbology</strong> property:</p>
+<h2 id="add-the-barcode-to-a-report">Add the Barcode to a Report</h2>
+<ol>
+<li><p>Drag the <strong>Barcode</strong> item from the report controls toolbox tab and drop it onto the report. </p>
+<p> <img src="../../../../images/eurd-web-add-bar-code-to-report.png" alt=""></p>
+</li>
+<li><p>Set the control’s <strong>Symbology</strong> property to <strong>Codabar</strong>. </p>
+<p> <img src="../../../../images/codabar-in-designer.png" alt=""></p>
+</li>
+<li><p>Specify <a href="add-bar-codes-to-a-report.html">common</a> barcode properties and properties <a href="#specific-properties">specific</a> to <strong>Codebar</strong>.</p>
+</li>
+</ol>
+<h2 id="specific-properties">Specific Properties</h2>
+<p>In the <a href="../../report-designer-tools/ui-panels/properties-panel.html">property grid</a>, expand the <strong>Symbology</strong> list and specify the following properties specific to <strong>Codabar</strong>:</p>
 <ul>
-<li><p><strong>Start and Stop Symbols</strong></p>
-<p>  Specifies the first (start) and last (stop) symbols used to code the bar code&#39;s structure.</p>
+<li><p><strong>StartSymbol</strong></p>
+<p>  Gets or sets the first (start) symbol used to code the barcode&#39;s structure.</p>
+</li>
+<li><p><strong>StopSymbol</strong></p>
+<p>  Gets or sets the last (stop) symbol used to code the barcode&#39;s structure.</p>
 </li>
 <li><p><strong>Wide Narrow Ratio</strong></p>
-<p>  Specifies the density of a bar code&#39;s bars.</p>
+<p>  Specifies the density of a barcode&#39;s bars.</p>
 </li>
 </ul>
 </article>
@@ -88,12 +103,13 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/20.1/interface-elements-for-web/articles/report-designer/use-report-elements/use-bar-codes/codabar.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/20.2/interface-elements-for-web/articles/report-designer/use-report-elements/use-bar-codes/codabar.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+                <h5>In This Article</h5>
+                <div></div>
               </nav>
             </div>
           </div>

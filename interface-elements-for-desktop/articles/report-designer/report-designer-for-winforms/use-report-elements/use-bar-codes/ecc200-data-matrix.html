@@ -8,7 +8,7 @@
     <title>ECC200 - Data Matrix | DevExpress End-User Documentation </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="ECC200 - Data Matrix | DevExpress End-User Documentation ">
-    <meta name="generator" content="docfx 2.37.0.0">
+    <meta name="generator" content="docfx 2.56.5.0">
     
     <link rel="shortcut icon" href="../../../../../../favicon.ico">
     <link rel="stylesheet" href="../../../../../../styles/docfx.vendor.css">
@@ -69,16 +69,28 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="ecc200---data-matrix">ECC200 - Data Matrix</h1>
 
-<p><strong>Data Matrix</strong> code (<strong>ISO/IEC 16022</strong> international standard) is a two-dimensional matrix bar code consisting of black and white &quot;cells&quot; arranged in a rectangular pattern. The information to be encoded can be text or raw data.</p>
+<p><strong>Data Matrix</strong> code (<strong>ISO/IEC 16022</strong> international standard) is a two-dimensional matrix barcode consisting of black and white &quot;cells&quot; arranged in a rectangular pattern. The information to be encoded can be text or raw data.</p>
 <p>Every <strong>Data Matrix</strong> is composed of two solid adjacent borders in an &quot;L&quot; shape (called the &quot;finder pattern&quot;), and two other borders consisting of alternating dark and light cells or modules (called the &quot;timing pattern&quot;). Within these borders are rows and columns of cells that encode information. The finder pattern is used to locate and orient the symbol, while the timing pattern provides a count of the number of rows and columns in the symbol.</p>
 <p><img src="../../../../../images/eurd-win-bar-code-ECC200.png" alt=""></p>
-<p>The following properties are specific to the <strong>ECC200 - Data Matrix</strong> type and available in the <a href="../../report-designer-tools/ui-panels/property-grid-tabbed-view.html">Property Grid</a> under the <strong>Symbology</strong> property:</p>
+<h2 id="add-the-barcode-to-a-report">Add the Barcode to a Report</h2>
+<ol>
+<li><p>Drag the <strong>Barcode</strong> item from the report controls toolbox tab and drop it onto the report. </p>
+<p> <img src="../../../../../images/drag-and-drop-barcode.png" alt=""></p>
+</li>
+<li><p>Set the control’s <strong>Symbology</strong> property to <strong>DataMatrix</strong>. </p>
+<p> <img src="../../../../../images/data-matrix-in-designer.png" alt=""></p>
+</li>
+<li><p>Specify <a href="add-bar-codes-to-a-report.html">common</a> barcode properties and properties <a href="#specific-properties">specific</a> to <strong>Data Matrix</strong>.</p>
+</li>
+</ol>
+<h2 id="specific-properties">Specific Properties</h2>
+<p>In the <a href="../../report-designer-tools/ui-panels/property-grid-tabbed-view.html">property grid</a>, expand the <strong>Symbology</strong> list and specify the following properties specific to <strong>Data Matrix</strong>:</p>
 <ul>
 <li><p><strong>Compaction Mode</strong></p>
-<p>  Specifies whether textual information or a byte array should be used as the bar code&#39;s data, as well as its encoding.</p>
+<p>  Specifies whether textual information or a byte array should be used as the barcode&#39;s data, as well as its encoding.</p>
 </li>
 <li><p><strong>Matrix Size</strong></p>
-<p>  Specifies the bar code matrix size.</p>
+<p>  Specifies the barcode matrix size.</p>
 </li>
 </ul>
 </article>
@@ -89,12 +101,13 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/20.1/interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/use-report-elements/use-bar-codes/ecc200-data-matrix.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/20.2/interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/use-report-elements/use-bar-codes/ecc200-data-matrix.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+                <h5>In This Article</h5>
+                <div></div>
               </nav>
             </div>
           </div>

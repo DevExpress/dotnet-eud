@@ -8,7 +8,7 @@
     <title>Code 39 Extended | DevExpress End-User Documentation </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Code 39 Extended | DevExpress End-User Documentation ">
-    <meta name="generator" content="docfx 2.37.0.0">
+    <meta name="generator" content="docfx 2.56.5.0">
     
     <link rel="shortcut icon" href="../../../../../../favicon.ico">
     <link rel="stylesheet" href="../../../../../../styles/docfx.vendor.css">
@@ -71,17 +71,29 @@
 
 <p>Using <strong>Code 39</strong>&#39;s &quot;Full ASCII Mode&quot;, it is possible to encode all <strong>128</strong> ASCII characters. This is accomplished by using the (<strong>$</strong>), (<strong>/</strong>), (<strong>%</strong>), and (<strong>&#0043;</strong>) symbols as &quot;shift&quot; characters. These characters combined with the single character that follows indicate which Full ASCII character is to be used.</p>
 <p><img src="../../../../../images/eurd-win-bar-code-code-39-extended.png" alt=""></p>
-<p>The following properties are specific to the <strong>Code 39 Extended</strong> type and listed in the <a href="../../report-designer-tools/ui-panels/property-grid-tabbed-view.html">Property Grid</a> under the <strong>Symbology</strong> property:</p>
+<h2 id="add-the-barcode-to-a-report">Add the Barcode to a Report</h2>
+<ol>
+<li><p>Drag the <strong>Barcode</strong> item from the report controls toolbox tab and drop it onto the report. </p>
+<p> <img src="../../../../../images/drag-and-drop-barcode.png" alt=""></p>
+</li>
+<li><p>Set the control’s <strong>Symbology</strong> property to <strong>Code39Extended</strong>. </p>
+<p> <img src="../../../../../images/code-39-extended-in-designer.png" alt=""></p>
+</li>
+<li><p>Specify <a href="add-bar-codes-to-a-report.html">common</a> barcode properties and properties <a href="#specific-properties">specific</a> to <strong>Code 39 Extended</strong>.</p>
+</li>
+</ol>
+<h2 id="specific-properties">Specific Properties</h2>
+<p>In the <a href="../../report-designer-tools/ui-panels/property-grid-tabbed-view.html">property grid</a>, expand the <strong>Symbology</strong> list and specify the following properties specific to <strong>Code 39 Extended</strong>:</p>
 <ul>
 <li><p><strong>Calculate a Checksum</strong></p>
-<p>  Specifies whether to calculate a checksum for the bar code.</p>
+<p>  Specifies whether to calculate a checksum for the barcode.</p>
 </li>
 <li><p><strong>Wide Narrow Ratio</strong></p>
-<p>  Specifies the density of a bar code&#39;s bars.</p>
+<p>  Specifies the density of a barcode&#39;s bars.</p>
 </li>
 </ul>
-<p>The <strong>Code 39 Extended</strong> bar code, as opposed to <a href="code-39-usd-3.html">Code 39</a>, automatically replaces all necessary characters with special symbols, when required. This means that you do not need to do this manually, otherwise, the result will be incorrect.</p>
-<p>For example, if you want to insert a &quot;TAB&quot; character into a bar code&#39;s text, use &quot;\t&quot;, which will be replaced by &quot;$I&quot; for coding, and then into &quot;TAB&quot; after scanning:</p>
+<p>The <strong>Code 39 Extended</strong> barcode, as opposed to <a href="code-39-usd-3.html">Code 39</a>, automatically replaces all necessary characters with special symbols, when required. This means that you do not need to do this manually, otherwise, the result will be incorrect.</p>
+<p>For example, if you want to insert a &quot;TAB&quot; character into a barcode&#39;s text, use &quot;\t&quot;, which will be replaced by &quot;$I&quot; for coding, and then into &quot;TAB&quot; after scanning:</p>
 <table>
 <thead>
 <tr>
@@ -91,7 +103,7 @@
 </thead>
 <tbody>
 <tr>
-<td>Bar code&#39;s text:</td>
+<td>Barcode&#39;s text:</td>
 <td>&quot;12345\t678&quot;</td>
 </tr>
 <tr>
@@ -104,7 +116,7 @@
 </tr>
 </tbody>
 </table>
-<p>The checksum is not considered to be part of a bar code&#39;s text and checksum characters are never replaced. When the bar code&#39;s <strong>Show Text</strong> and <strong>Calculate a Checksum</strong> properties are enabled, the bar code will not display a checksum character. This is required to avoid mistakenly treating a checksum as part of bar code text.</p>
+<p>The checksum is not considered to be part of a barcode&#39;s text and checksum characters are never replaced. When the barcode&#39;s <strong>Show Text</strong> and <strong>Calculate a Checksum</strong> properties are enabled, the barcode will not display a checksum character. This is required to avoid mistakenly treating a checksum as part of barcode text.</p>
 </article>
           </div>
           
@@ -113,12 +125,13 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/20.1/interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/use-report-elements/use-bar-codes/code-39-extended.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/20.2/interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/use-report-elements/use-bar-codes/code-39-extended.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+                <h5>In This Article</h5>
+                <div></div>
               </nav>
             </div>
           </div>

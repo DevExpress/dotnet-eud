@@ -8,7 +8,7 @@
     <title>Master Filtering | DevExpress End-User Documentation </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Master Filtering | DevExpress End-User Documentation ">
-    <meta name="generator" content="docfx 2.37.0.0">
+    <meta name="generator" content="docfx 2.56.5.0">
     
     <link rel="shortcut icon" href="../../../../favicon.ico">
     <link rel="stylesheet" href="../../../../styles/docfx.vendor.css">
@@ -81,15 +81,15 @@
 <ol>
 <li><p><strong>Data visualization dashboard items</strong> allow you to enable master filtering by specifying the selection mode. The following dashboard items allow you to manage their master filtering mode.</p>
 <ul>
-<li><a href="../designing-dashboard-items/chart.html">Chart</a></li>
-<li><a href="../designing-dashboard-items/scatter-chart.html">Scatter Chart</a></li>
-<li><a href="../designing-dashboard-items/grid.html">Grid</a></li>
-<li><a href="../designing-dashboard-items/pies.html">Pies</a></li>
-<li><a href="../designing-dashboard-items/cards.html">Cards</a></li>
-<li><a href="../designing-dashboard-items/gauges.html">Gauges</a></li>
-<li><a href="../designing-dashboard-items/choropleth-map.html">Choropleth Map</a></li>
-<li><a href="../designing-dashboard-items/geo-point-maps.html">Geo Point Maps</a></li>
-<li><p><a href="../designing-dashboard-items/treemap.html">Treemap</a></p>
+<li><a href="../dashboard-item-settings/chart.html">Chart</a></li>
+<li><a href="../dashboard-item-settings/scatter-chart.html">Scatter Chart</a></li>
+<li><a href="../dashboard-item-settings/grid.html">Grid</a></li>
+<li><a href="../dashboard-item-settings/pies.html">Pies</a></li>
+<li><a href="../dashboard-item-settings/cards.html">Cards</a></li>
+<li><a href="../dashboard-item-settings/gauges.html">Gauges</a></li>
+<li><a href="../dashboard-item-settings/choropleth-map.html">Choropleth Map</a></li>
+<li><a href="../dashboard-item-settings/geo-point-maps.html">Geo Point Maps</a></li>
+<li><p><a href="../dashboard-item-settings/treemap.html">Treemap</a></p>
 <p>To learn how to manage master filtering for these items, see <a href="#master-filter-settings">Master Filter Settings</a>.</p>
 </li>
 </ul>
@@ -101,15 +101,15 @@
 <li>List Box</li>
 <li><p>Tree View</p>
 <p>Instead of switching between standard master filtering modes, some filter elements allow you to switch their type. This allows you to select a single value or multiple values.</p>
-<p>To learn more, see the <a href="../designing-dashboard-items/filter-elements.html">Filter Elements</a> section.</p>
+<p>To learn more, see the <a href="../dashboard-item-settings/filter-elements.html">Filter Elements</a> section.</p>
 </li>
 </ul>
 </li>
 <li><p><strong>Range Filter</strong> is a special type of dashboard item that displays a chart with selection thumbs and allows you to filter out values displayed along the argument axis.</p>
-<p> To learn more, see the <a href="../designing-dashboard-items/range-filter.html">Range Filter</a> section.</p>
+<p> To learn more, see the <a href="../dashboard-item-settings/range-filter.html">Range Filter</a> section.</p>
 </li>
 <li><p><strong>Dashboard item group</strong> allows you to manage interaction between dashboard items in and out of the group.</p>
-<p> To learn more about the interactivity capabilities of the dashboard item group, see the <strong>Interactivity</strong> paragraph in the <a href="../designing-dashboard-items/dashboard-item-group.html">Dashboard Item Group</a> topic.</p>
+<p> To learn more about the interactivity capabilities of the dashboard item group, see the <strong>Interactivity</strong> paragraph in the <a href="../dashboard-item-settings/dashboard-item-group.html">Dashboard Item Group</a> topic.</p>
 </li>
 </ol>
 <h2 id="master-filter-settings">Master Filter Settings</h2>
@@ -121,7 +121,7 @@
 </ul>
 <p>To enable/disable master filtering, use the <strong>Multiple Master Filter</strong> or <strong>Single Master Filter</strong> buttons in the <strong>Data</strong> Ribbon tab.</p>
 <p><img src="../../../images/img21845.png" alt="DataShaping_Interactivity_MultipleMasterFilter_Ribbon"></p>
-<div class="NOTE"><h5>Note</h5><p>If the selected dashboard item contains several types of elements that can be used for filtering, the Ribbon or Toolbar will provide the appropriate buttons to switch between these types (e.g., the <strong>Arguments</strong> and <strong>Series</strong> buttons in the Chart). For details, refer to the documentation for individual dashboard items in the <a href="../designing-dashboard-items.html">Designing Dashboard Items</a> section.</p>
+<div class="NOTE"><h5>Note</h5><p>If the selected dashboard item contains several types of elements that can be used for filtering, the Ribbon or Toolbar will provide the appropriate buttons to switch between these types (e.g., the <strong>Arguments</strong> and <strong>Series</strong> buttons in the Chart). For details, refer to the documentation for individual dashboard items in the <a href="../dashboard-item-settings.html">Dashboard Item Settings</a> section.</p>
 </div>
 <h3 id="filtering-across-data-sources">Filtering Across Data Sources</h3>
 <p>When different items in a dashboard are bound to different data sources, you can specify that a particular Master Filter should be applied across data sources. This means that it will apply filtering to fields with matching names in all data sources.</p>
@@ -132,7 +132,7 @@
 <p>You can prevent specific dashboard items from being affected by Master Filters. To do this, use the <strong>Ignore Master Filters</strong> button in the <strong>Data</strong> Ribbon tab.</p>
 <p><img src="../../../images/img19417.png" alt="DataShaping_Interactivity_MasterFilter_Ignore_Ribbon"></p>
 <h2 id="a-nameapply-filteringapply-filtering"><a name="apply-filtering"></a>Apply Filtering</h2>
-<p>To learn how to apply filtering in a specific <a href="../designing-dashboard-items.html">dashboard item</a>, refer to the <strong>Master Filtering</strong> topic in the <strong>Interactivity</strong> section for this item.</p>
+<p>To learn how to apply filtering in a specific <a href="../dashboard-item-settings.html">dashboard item</a>, refer to the <strong>Master Filtering</strong> topic in the <strong>Interactivity</strong> section for this item.</p>
 </article>
           </div>
           
@@ -141,12 +141,13 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/20.1/dashboard-for-desktop/articles/dashboard-designer/interactivity/master-filtering.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/20.2/dashboard-for-desktop/articles/dashboard-designer/interactivity/master-filtering.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+                <h5>In This Article</h5>
+                <div></div>
               </nav>
             </div>
           </div>

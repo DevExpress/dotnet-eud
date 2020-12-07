@@ -1,0 +1,144 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Providing Data | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Providing Data | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.56.5.0">
+    
+    <link rel="shortcut icon" href="../../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../../index.html">
+                <img id="logo" class="svg" src="../../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="providing-data">Providing Data</h1>
+
+<p>The Dashboard Designer allows you to bind various dashboard items to data in a virtually uniform manner. To learn more, see the <a href="../../bind-dashboard-items-to-data.html">Bind Dashboard Items to Data</a> topic.</p>
+<p>The only difference is in the data sections that the required dashboard item has. This topic describes how to bind a <strong>Choropleth Map</strong> dashboard item to data in the Designer.</p>
+<p>The image below shows a sample Choropleth Map dashboard item that is bound to data.</p>
+<p><img src="../../../../images/img117705.png" alt="ChoroplethMapDataBinding_Main"></p>
+<p>To bind the Choropleth Map dashboard item to data, drag and drop a data source field to a placeholder contained in one of the available data sections. 
+The Choropleth Map provides two data item groups for data binding: DATA ITEMS and TOOLTIP DATA ITEMS.
+Tables below list the available data sections.</p>
+<p><strong>DATA ITEMS</strong></p>
+<ul>
+<li><p><strong>Attribute</strong> - 
+  Allows you to associate map shapes with data source field values.</p>
+<p>  To associate map shapes with data source field values, drag-and-drop the required dimension to the data item&#39;s placeholder and select the required attribute in the <strong>Map Attribute Binding</strong> dialog. To invoke this dialog, click the <em><a href="../../ui-elements/data-items-pane.html">Options</a></em> button (the <img src="../../../../images/img22351.png" alt="ChoroplethMap_MapAttributeBindingIcon"> icon) next to the <strong>Attribute</strong> placeholder.</p>
+<p>  <img src="../../../../images/img117708.png" alt="MapAttributeBindingDialog_ChoroplethMap"></p>
+<p>  Select the required attribute and click <strong>OK</strong>.</p>
+</li>
+<li><p><strong>Maps</strong> -
+  Contains data items whose values are used to color map shapes. Map shape colors vary based on the map type.</p>
+<p>  Click the <em><a href="../../ui-elements/data-items-pane.html">Options</a></em> button (the <img src="../../../../images/img19671.png" alt="Grid_ColumnTypeIndicators_MeasureColumn"> or <img src="../../../../images/img19669.png" alt="Grid_ColumnTypeIndicators_DeltaColumn"> icon depending on the map type) next to the <strong>Value</strong> placeholder and select the required map type in the invoked <strong>Choropleth Map Options</strong> dialog.</p>
+<p>  <img src="../../../../images/img117709.png" alt="ChoroplethMapOptions_MapType"></p>
+<ul>
+<li>If you select <strong>Value</strong>, the Choropleth map colors map shapes depending on the values provided. To learn more, see <a href="map-coloring.html">Map Coloring</a>.</li>
+<li><p>If you select <strong>Delta</strong>, the Choropleth map colors map shapes depending on the difference between two values. To learn how to specify delta indication settings, see <a href="map-coloring/delta.html">Delta</a>.</p>
+<div class="NOTE"><h5>Note</h5><p>You can fill several data item containers in the <strong>Maps</strong> section and use the <strong>Values</strong> drop-down menu to switch between the provided values. To invoke the <strong>Values</strong> menu, click the <img src="../../../../images/img20169.png" alt="DashboardItems_OtherElements"> icon in the dashboard item caption.</p>
+</div>
+</li>
+</ul>
+</li>
+</ul>
+<p><strong>TOOLTIP DATA ITEMS</strong></p>
+<ul>
+<li><strong>Measures</strong> -
+  Allows you to add supplementary content to the tooltips. Drag and drop the required measures to provide additional data.</li>
+</ul>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/20.2/dashboard-for-desktop/articles/dashboard-designer/dashboard-item-settings/choropleth-map/providing-data.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2019 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../../styles/main.js"></script>
+  </body>
+</html>

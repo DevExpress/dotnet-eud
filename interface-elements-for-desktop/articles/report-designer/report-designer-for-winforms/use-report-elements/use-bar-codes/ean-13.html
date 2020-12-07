@@ -8,7 +8,7 @@
     <title>EAN 13 | DevExpress End-User Documentation </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="EAN 13 | DevExpress End-User Documentation ">
-    <meta name="generator" content="docfx 2.37.0.0">
+    <meta name="generator" content="docfx 2.56.5.0">
     
     <link rel="shortcut icon" href="../../../../../../favicon.ico">
     <link rel="stylesheet" href="../../../../../../styles/docfx.vendor.css">
@@ -69,12 +69,22 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="ean-13">EAN 13</h1>
 
-<p><strong>EAN-13</strong>, based upon the <strong>UPC-A</strong> standard, was implemented by the International Article Numbering Association (EAN) in Europe. At present, the <strong>GS1</strong> organization is responsible for the maintenance of bar code standards.</p>
-<p>The <strong>EAN-13</strong> bar code contains <strong>13</strong> digits, no letters or other characters. The first two or three digits represent the country. The leading zero actually signifies the USA, and <strong>UPC-A</strong> coding. The last digit is the &quot;check digit&quot;, the checksum. The check digit is calculated using the first twelve figures when the bar code is constructed. So, for the correct <strong>EAN-13</strong> code, you should specify only the first <strong>12</strong> digits.</p>
+<p><strong>EAN-13</strong>, based upon the <strong>UPC-A</strong> standard, was implemented by the International Article Numbering Association (EAN) in Europe. At present, the <strong>GS1</strong> organization is responsible for the maintenance of barcode standards.</p>
+<p>The <strong>EAN-13</strong> barcode contains <strong>13</strong> digits, no letters or other characters. The first two or three digits represent the country. The leading zero actually signifies the USA, and <strong>UPC-A</strong> coding. The last digit is the &quot;check digit&quot;, the checksum. The check digit is calculated using the first twelve figures when the barcode is constructed. So, for the correct <strong>EAN-13</strong> code, you should specify only the first <strong>12</strong> digits.</p>
 <p>The recommended dimensions are shown in the following image. The standard allows magnification up to <strong>200</strong>%, and reduction of up to <strong>80</strong>% of the recommended size.</p>
 <p><img src="../../../../../images/eurd-win-bar-code-ean13.png" alt=""></p>
-<p>There should be two quiet zones before and after the bar code. They provide reliable operation of the bar code scanner. The quiet zone recommended length is <strong>3.63</strong> mm for the left zone and <strong>2.31</strong> mm for the right zone.</p>
-<p>The are no properties specific to the <strong>EAN 13</strong> bar code type.</p>
+<p>There should be two quiet zones before and after the barcode. They provide reliable operation of the barcode scanner. The quiet zone recommended length is <strong>3.63</strong> mm for the left zone and <strong>2.31</strong> mm for the right zone.</p>
+<h2 id="add-the-barcode-to-a-report">Add the Barcode to a Report</h2>
+<ol>
+<li><p>Drag the <strong>Barcode</strong> item from the report controls toolbox tab and drop it onto the report. </p>
+<p> <img src="../../../../../images/drag-and-drop-barcode.png" alt=""></p>
+</li>
+<li><p>Set the control’s <strong>Symbology</strong> property to <strong>EAN13</strong>. </p>
+<p> <img src="../../../../../images/ean-13-in-designer.png" alt=""></p>
+</li>
+<li><p>Specify <a href="add-bar-codes-to-a-report.html">common</a> barcode properties.</p>
+</li>
+</ol>
 </article>
           </div>
           
@@ -83,12 +93,13 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/20.1/interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/use-report-elements/use-bar-codes/ean-13.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/20.2/interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/use-report-elements/use-bar-codes/ean-13.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+                <h5>In This Article</h5>
+                <div></div>
               </nav>
             </div>
           </div>

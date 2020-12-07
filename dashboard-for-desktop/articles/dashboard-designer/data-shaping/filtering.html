@@ -8,7 +8,7 @@
     <title>Filtering | DevExpress End-User Documentation </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Filtering | DevExpress End-User Documentation ">
-    <meta name="generator" content="docfx 2.37.0.0">
+    <meta name="generator" content="docfx 2.56.5.0">
     
     <link rel="shortcut icon" href="../../../../favicon.ico">
     <link rel="stylesheet" href="../../../../styles/docfx.vendor.css">
@@ -69,35 +69,60 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="filtering">Filtering</h1>
 
-<p>The <strong>Dashboard</strong> allows you to filter a <a href="../working-with-data/filter-queries.html">query</a> of the <a href="../providing-data/connecting-to-sql-databases.html">SQL Data Source</a> or apply filtering to a specific data-aware dashboard item.</p>
-<p>This topic describes how to enable and reset filtering.</p>
-<h2 id="apply-filtering">Apply Filtering</h2>
-<p>To configure filtering, select the target dashboard item and do one of the following.</p>
+<p>The Dashboard Designer allows you to filter data in the dashboard items or apply filters to a specific measure. <a href="../bind-dashboard-items-to-data/bind-dashboard-items-to-data.html">Dimensions</a> and <a href="../bind-dashboard-items-to-data/hidden-data-items.html">hidden dimensions</a> are used to build filter criteria.</p>
+<h2 id="dashboard-item-filter">Dashboard Item Filter</h2>
+<p>Filters that apply to a <a href="../dashboard-item-settings.html">dashboard item</a> affect only this item. To add filters, select the target dashboard item and do one of the following:</p>
 <ul>
-<li><p>If you are using a Ribbon menu, click the <strong>Edit Filter</strong> button in the <strong>Data</strong> tab.</p>
-<p>  <img src="../../../images/img19368.png" alt="DataShaping_Filtering_EditFilterButton"></p>
+<li><p>Click the <strong>Edit Filter</strong> button in the Ribbon menu&#39;s <strong>Data</strong> tab. </p>
+<p>  <img src="../../../images/datashaping_filtering_editfilterbutton19368.png" alt="DataShaping_Filtering_EditFilterButton"></p>
 </li>
 <li><p>Right-click a dashboard item and select <strong>Edit Filter</strong> from its context menu.</p>
-<p>  <img src="../../../images/img19369.png" alt="DataShaping_Filtering_EditFilterMenuItem"></p>
+<p>  <img src="../../../images/datashaping_filtering_editfiltermenuitem19369.png" alt="DataShaping_Filtering_EditFilterMenuItem"></p>
 </li>
 </ul>
-<p>This will invoke the <strong>Filter Editor</strong> dialog. Use this dialog to build filter criteria with a convenient tree-like interface.</p>
-<p><img src="../../../images/img19370.png" alt="DataShaping_Filtering_FilterEditor"></p>
-<p>You can use <a href="../binding-dashboard-items-to-data/hidden-data-items.html">hidden dimensions</a> within the Filter Editor dialog, allowing you to filter data based on their values.</p>
-<h2 id="clear-filtering">Clear Filtering</h2>
-<p>To clear filtering in the Designer, select the target dashboard item and do one of the following.</p>
+<p>This invokes the <a href="../../../../interface-elements-for-desktop/articles/filter-editor/filter-data-via-the-filter-editor.html">Filter Editor</a> dialog that allows you to build complex filter criteria:</p>
+<p><img src="../../../images/datashaping_filtering_filtereditor19370.png" alt="DataShaping_Filtering_FilterEditor"></p>
+<div class="TIP"><h5>Tip</h5><p><strong>Documentation</strong>: <a href="../../../../interface-elements-for-desktop/articles/filter-editor/filter-data-via-the-filter-editor.html">Filter Editor</a> </p>
+</div>
+<p>To clear the applied filter, select <strong>Clear</strong> from the dashboard item&#39;s context menu or click the <strong>Clear</strong> button in the <strong>Data</strong> Ribbon tab.</p>
+<h2 id="measure-filter">Measure Filter</h2>
+<p>You can apply filters to individual <a href="../bind-dashboard-items-to-data/bind-dashboard-items-to-data.html">measures</a>. If you create multiple measures that only differ in applied filters, you can compare values calculated over different date-time periods or against different categories.</p>
+<p>Select a dashboard item and right-click a measure to be filtered. Select <strong>Edit Filter</strong> from its context menu.</p>
+<p><img src="../../../images/win-filter-to-measure-menu.png" alt="win-filter-to-measure-menu"></p>
+<p>This invokes the <strong>Filter Editor</strong> dialog where you can specify filter criteria:</p>
+<p><img src="../../../images/win-filter-editor-for-measure.png" alt="win-filter-editor-for-measure"></p>
+<p>The filtered measure has the <em>Filter</em> icon:</p>
+<p><img src="../../../images/win-filtered-measure-icon.png" alt="win-filtered-measure-icon"></p>
+<p>To clear the applied filter, select <strong>Clear</strong> from the measure&#39;s context menu.</p>
+<div class="NOTE"><h5>Note</h5><p>The measure filter is technically an expression that uses the <code>filter(summaryExpression, filterCriteria)</code> function, where <code>summaryExpression</code> is the measure to be filtered and <code>filterCriteria</code> is the filter. See the following topic for more information about functions you can use in dashboard expressions: <a href="../data-analysis/expression-constants-operators-and-functions.html">Expression Constants, Operators, and Functions</a>.</p>
+</div>
+<p>The image below shows a Chart with three measures:  </p>
 <ul>
-<li><p>If you are using a Ribbon menu, click the <strong>Clear</strong> button in the <strong>Data</strong> tab.</p>
-<p>  <img src="../../../images/img19371.png" alt="DataShaping_Filtering_ClearFilterButton"></p>
-</li>
-<li>Right-click a dashboard item and select <strong>Clear</strong> from its context menu.</li>
+<li><em>2019 - Opened</em> is filtered by year 2019.</li>
+<li><em>2020 - Opened</em> is filtered by year 2020.</li>
+<li><em>Opened</em> is the original measure without filters.</li>
 </ul>
+<p><img src="../../../images/win-filter-to-measure-year.png" alt="win-filter-to-measure-year"></p>
+<h2 id="visible-data-filter">Visible Data Filter</h2>
+<p>You can specify a Visible Data Filter to limit displayed data. This filter type does not filter underlying data used in calculations or intermediate level aggregations.</p>
+<p>Click the <strong>Set Visible Data Filter</strong> button in the Ribbon menu&#39;s <strong>Data</strong> tab to invoke the Visible Data Filter Editor, where you can set a filter condition:</p>
+<p><img src="../../../images/win-filter-visible-data-filter-ribbon-button.png" alt="win-filter-visible-data-filter-ribbon-button"></p>
+<p>For example, a Grid dashboard item has 35 rows and displays sales percentages.</p>
+<p><img src="../../../images/win-filter-visible-data-filter-original-grid.png" alt="win-filter-visible-data-filter-original-grid"></p>
+<p>The image below shows the difference between filters (the filter condition is the same): </p>
+<ul>
+<li><strong>Dashboard Item Filter</strong>: sales percentages are recalculated based on the visible data.</li>
+<li><strong>Visible Data Filter</strong>: sales percentages remain the same because this filter type does not affect calculations.</li>
+</ul>
+<p><img src="../../../images/win-filter-visible-data-filter-grids.png" alt="win-filter-visible-data-filter-grids"></p>
+<h2 id="pass-parameter-values">Pass Parameter Values</h2>
+<p>You can use the Filter Editor to filter a dashboard item according to the current parameter value. See the following topic for details: <a href="../data-analysis/using-dashboard-parameters/passing-parameter-values.html">Pass Parameter Values</a>.</p>
 <h2 id="olap-filtering-specifics">OLAP Filtering Specifics</h2>
-<p>You cannot apply filtering by building complex filter criteria in <a href="../binding-dashboard-items-to-data/binding-dashboard-items-to-data-in-olap-mode.html">OLAP</a> mode. Instead, you can filter dimension attributes and hierarchies by manually selecting the values you wish (or do not wish) to include in the dashboard.</p>
+<p>You cannot filter data by building complex filter criteria in <a href="../bind-dashboard-items-to-data/bind-dashboard-items-to-data-in-olap-mode.html">OLAP</a> mode. Instead, select the values you wish to include in or exclude from the dashboard to filter dimension attributes and hierarchies.</p>
 <p>For dimension attributes, the Filter Editor contains a list of all values. You can select the values that you wish to display.</p>
 <p><img src="../../../images/img19755.png" alt="ProvidingData_OLAP_Filter_Standard"></p>
 <p>For hierarchies, a tree is displayed instead, allowing you to filter individual values at any hierarchy level.</p>
-<p><img src="../../../images/img19754.png" alt="ProvidingData_OLAP_Filter_Hierarchical"></p>
+<p><img src="../../../images/img19754.png" alt="ProvidingData_OLAP_Filter_Hierarchical"> </p>
 </article>
           </div>
           
@@ -106,12 +131,13 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/20.1/dashboard-for-desktop/articles/dashboard-designer/data-shaping/filtering.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/20.2/dashboard-for-desktop/articles/dashboard-designer/data-shaping/filtering.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+                <h5>In This Article</h5>
+                <div></div>
               </nav>
             </div>
           </div>

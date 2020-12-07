@@ -1,0 +1,161 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Vertical Reports | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Vertical Reports | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.56.5.0">
+    
+    <link rel="shortcut icon" href="../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../index.html">
+                <img id="logo" class="svg" src="../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="vertical-reports">Vertical Reports</h1>
+
+<p>This tutorial describes how to use vertical bands to create a report where record fields are arranged vertically and data records are printed horizontally.</p>
+<p><img src="../../../images/eurd-web-vertical-reports-result.png" alt=""></p>
+<h1 id="design-a-report-in-report-wizard">Design a Report in Report Wizard</h1>
+<ol>
+<li><p><a href="../add-new-reports.html">Create a new report</a> or <a href="../open-reports.html">open an existing one</a>.</p>
+</li>
+<li><p>Open the Web Report Designer&#39;s menu. Select <strong>Design in Report Wizard</strong>.</p>
+<p> <img src="../../../images/eurd-web-vertical-reports-menu.png" alt=""></p>
+</li>
+<li><p>In the invoked Report Wizard, select <strong>Vertical Report</strong> and click <strong>Next</strong>.</p>
+<p> <img src="../../../images/eurd-web-vertical-reports-wizard-1.png" alt=""></p>
+</li>
+<li><p>Select a data source for the report.</p>
+<p> <img src="../../../images/eurd-web-vertical-reports-wizard-2.png" alt=""></p>
+</li>
+<li><p>Select queries and data fields to include in the report. Add group fields and summary fields.</p>
+<p> <img src="../../../images/eurd-web-vertical-reports-wizard-3.png" alt=""></p>
+</li>
+<li><p>Specify page settings and set the report&#39;s title.</p>
+<p> <img src="../../../images/eurd-web-vertical-reports-wizard-4.png" alt=""></p>
+</li>
+<li><p>Click <strong>Finish</strong> to open the generated report in the Report Designer.</p>
+<p> <img src="../../../images/eurd-web-vertical-reports-layout.png" alt=""></p>
+</li>
+</ol>
+<p>The wizard adds report controls to the following <a href="../introduction-to-banded-reports.html">bands</a>:</p>
+<ul>
+<li><strong>Vertical Header band</strong><br>  Contains a table with a single column that displays data field headers.</li>
+<li><strong>Vertical Details band</strong><br>  Contains a table with a single column that is printed as many times as there are records in the report&#39;s data source.</li>
+<li><strong>Vertical Total band</strong><br>  Contains a table with a single column that has as many labels in cells as there are summary functions you specified for each field in the Report Wizard.</li>
+</ul>
+<p>Switch to the Preview mode to see the result.</p>
+<p><img src="../../../images/eurd-web-vertical-reports-result.png" alt=""></p>
+<div class="TIP"><h5>Tip</h5><p>You can create a vertical report without using the Report Wizard. Click <strong>Insert Vertical Header Band</strong> in the report&#39;s Actions group.</p>
+<p><img src="../../../images/eurd-web-vertical-reports-insert.png" alt="">  </p>
+<p>Refer to the <a href="../introduction-to-banded-reports.html#vertical-bands">Introduction to Banded Reports</a> topic for more information.</p>
+</div>
+<h2 id="set-vertical-table-options">Set Vertical Table Options</h2>
+<p>You can set the following options to modify the vertical table:</p>
+<ul>
+<li><p>Set the Vertical Header band&#39;s <strong>Repeat Every Page</strong> property to false to display field headers once - on the first report page.</p>
+<p>  <img src="../../../images/eurd-web-vertical-reports-repeat-every-page.png" alt=""></p>
+</li>
+<li><p>Set the Vertical Detail band&#39;s <strong>Band Layout</strong> property to <strong>Across Then Down</strong> to print the data records that do not fit a page on the same page, otherwise, they are printed on the next page.</p>
+<p>  <img src="../../../images/eurd-web-vertical-reports-band-layout.png" alt=""></p>
+</li>
+<li><p>Add a field to the <strong>Sort Fields</strong> group to sort the report&#39;s data.</p>
+<p>  <img src="../../../images/eurd-web-vertical-reports-sort-fields.png" alt=""></p>
+</li>
+</ul>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/20.2/interface-elements-for-web/articles/report-designer/create-reports/vertical-reports.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2019 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../styles/main.js"></script>
+  </body>
+</html>

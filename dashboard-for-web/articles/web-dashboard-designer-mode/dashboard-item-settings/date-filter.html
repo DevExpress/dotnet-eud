@@ -1,0 +1,157 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Date Filter | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Date Filter | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.56.5.0">
+    
+    <link rel="shortcut icon" href="../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../index.html">
+                <img id="logo" class="svg" src="../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="date-filter">Date Filter</h1>
+
+<p>The <strong>Date Filter</strong> dashboard item allows you to filter dashboard data based on the selected data range. The range can be relative (Last 3 Months), use fixed dates (01-01-2018), or presets (Month-to-date). You can also filter dates before or after a specified date. </p>
+<p><img src="../../../images/datefilter-web-overview.png" alt=""></p>
+<p>The Date Filter item displays a set of intervals that can be used as quick filters:</p>
+<p><img src="../../../images/datefilter-web-autoheight.png" alt=""></p>
+<h2 id="add-a-new-date-filter-to-the-dashboard">Add a New Date Filter to the Dashboard</h2>
+<p>To create a Date Filter item, click the <strong>Date Filter</strong> item (the  <img src="../../../images/wdd-datefilter-icon.png" alt="">  icon) in the <a href="../ui-elements/toolbox.html">Toolbox</a> <strong>Filter</strong> section:</p>
+<p><img src="../../../images/wdd-toolbox-filter-elements125330.png" alt=""></p>
+<h2 id="bind-to-data">Bind to Data</h2>
+<p>Click the <strong>Dimension</strong> placeholder in the data section and select the required data source field in the <strong>Binding</strong> section of the invoked <a href="../ui-elements/data-item-menu.html">data item menu</a> to bind the Date Filter to data.</p>
+<p><img src="../../../images/datefilter-web-data-binding.png" alt=""></p>
+<p>For details, see the <a href="../bind-dashboard-items-to-data.html">Bind Dashboard Items to Data</a> topic.</p>
+<h2 id="date-picker">Date Picker</h2>
+<p>The Date Filter item displays a <strong>Date Picker</strong> that is a button with a drop-down calendar. A drop-down calendar allows the end-user to select a single date or a date range:</p>
+<p><img src="../../../images/datefilter-web-datepicker.png" alt=""></p>
+<p>You can configure whether to display the Date Picker in the Date Filter item. For this, go to the Date Filter&#39;s <a href="../ui-elements/dashboard-item-menu.html">Options</a> menu, open to the <strong>Layout</strong> section and specify the <strong>Show Date Picker</strong> setting.</p>
+<h2 id="display-format">Display Format</h2>
+<p>To specify the date-time value format, use the <strong>Format Type</strong> option in the <strong>Format</strong> section of the <a href="../ui-elements/data-item-menu.html">data item menu</a>, as described in the Formatting Data topic.</p>
+<p>To specify a custom string displayed in the Date Picker component, go to the dashboard item <a href="../ui-elements/dashboard-item-menu.html">Options</a> menu, open the <strong>Layout</strong> section and fill in the <strong>Display Text Pattern</strong> text field:</p>
+<p><img src="../../../images/datefilter-web-options.png" alt=""></p>
+<p>You can include placeholders in a custom string. The <code>{0}</code> placeholder is the interval&#39;s start, the <code>{1}</code> placeholder is the interval&#39;s end.</p>
+<h2 id="create-quick-filters">Create Quick Filters</h2>
+<p><strong>Quick Filters</strong> are buttons displayed within the Date Filter item. Each button is bound to a predefined date-time period that can be used to perform a selection. You can click the button to apply a custom period to a Date filter:</p>
+<p><img src="../../../images/datefilter-web-quick-filters.png" alt=""></p>
+<p>The <strong>Select Date Time Period</strong> button displayed in the Date Filter caption invokes the drop-down list with quick filters.</p>
+<p>To add quick filters, open the Date Filter&#39;s <a href="../ui-elements/dashboard-item-menu.html">Options</a> menu and go to the <strong>Custom Periods</strong> section. Click &quot;+&quot; to add a new period:</p>
+<p><img src="../../../images/datefilter-web-custom-periods.png" alt=""></p>
+<p>Click the <em>edit</em> icon to invoke the editor&#39;s panel and configure a custom period. The following image illustrates how to modify the <strong>Month-to-Date</strong> custom period:</p>
+<p><img src="../../../images/datefilter-web-custom-period-month-to-date.png" alt=""></p>
+<p>You can specify the following settings for the start/end boundaries:</p>
+<ul>
+<li><strong>Caption</strong> - Specifies a predefined period caption.</li>
+<li><strong>Start Mode</strong> - Specifies a mode of the start boundary.</li>
+<li><strong>End Mode</strong> - Specifies a mode of the end boundary.</li>
+</ul>
+<p>The following modes used to set predefined ranges are available:</p>
+<ul>
+<li><strong>None</strong> - The selection will begin from the start/end of the visible range.</li>
+<li><strong>Fixed</strong> - Allows you to select a specific date value using the calendar. Use the <strong>Start/End Date</strong> option to set a value.</li>
+<li><strong>Flow</strong> - Allows you to select a relative date value. The <strong>Interval</strong> option specifies the interval between the current date and the required date. The <strong>Offset</strong> option allows you to set the number of such intervals.</li>
+</ul>
+<div class="NOTE"><h5>Note</h5><p>Note that the <strong>Offset</strong> option can accept <strong>negative</strong> and <strong>positive</strong> values. Negative values correspond to dates before the current date, while positive values correspond to future dates.</p>
+</div>
+<h2 id="arrange-quick-filters">Arrange Quick Filters</h2>
+<p>Quick filters in the Date Filter item can be arranged horizontally or vertically. The default mode is <em>auto height</em>, in which quick filters are displayed horizontally and the dashboard item shrinks automatically to fit the items and save space.</p>
+<p>To specify the arrangement mode, go to the dashboard item <a href="../ui-elements/dashboard-item-menu.html">Options</a> menu, open the <strong>Layout</strong> section and specify the <strong>Arrangement Mode</strong> setting:</p>
+<p><img src="../../../images/datefilter-web-options.png" alt=""></p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/20.2/dashboard-for-web/articles/web-dashboard-designer-mode/dashboard-item-settings/date-filter.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2019 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../styles/main.js"></script>
+  </body>
+</html>

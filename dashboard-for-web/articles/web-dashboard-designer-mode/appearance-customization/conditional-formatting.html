@@ -8,7 +8,7 @@
     <title>Conditional Formatting | DevExpress End-User Documentation </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Conditional Formatting | DevExpress End-User Documentation ">
-    <meta name="generator" content="docfx 2.37.0.0">
+    <meta name="generator" content="docfx 2.56.5.0">
     
     <link rel="shortcut icon" href="../../../../favicon.ico">
     <link rel="stylesheet" href="../../../../styles/docfx.vendor.css">
@@ -69,14 +69,9 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="conditional-formatting">Conditional Formatting</h1>
 
-<p>The Web Dashboard supports conditional formatting. You can apply a custom style to data elements that satisfy a certain condition. </p>
-<p>For more information about conditional formatting for different dashboard items, see the following topics:</p>
-<ul>
-<li><a href="../designing-dashboard-items/grid/conditional-formatting.html">Conditional Formatting - Grid</a></li>
-<li><a href="../designing-dashboard-items/pivot/conditional-formatting.html">Conditional Formatting - Pivot</a></li>
-<li><a href="../designing-dashboard-items/cards/conditional-formatting.html">Conditional Formatting - Card</a></li>
-</ul>
+<p>The Web Dashboard supports conditional formatting. You can apply a custom style to data elements that satisfy a certain condition for <a href="../dashboard-item-settings/grid.html">Grid</a>, <a href="../dashboard-item-settings/pivot.html">Pivot</a>, <a href="../dashboard-item-settings/chart.html">Chart</a>, <a href="../dashboard-item-settings/scatter-chart.html">Scatter Chart</a> and <a href="../dashboard-item-settings/cards.html">Card</a> items.</p>
 <p><img src="../../../images/img126130.png" alt="wdd-cf-main"></p>
+<h2 id="format-rules">Format Rules</h2>
 <p>Format rules used in conditional formatting can be categorized as follows:</p>
 <ul>
 <li><strong>Value</strong> - Compares static values (Greater Than, Less Than, Between, etc.).</li>
@@ -89,10 +84,9 @@
 <li><strong>Gradient Ranges</strong> - Apply formatting using gradient color scales.</li>
 <li><strong>Bar</strong> - Visualizes numeric values as bars. You can also color bars corresponding to positive and negative values using different colors.</li>
 <li><strong>Bar Color Ranges</strong> - Visualize numeric values as bars. Values within a range display a specific color.</li>
-<li><strong>Bar Gradient Ranges</strong> - Visualize numeric values as bars. Values within a range display a specific color.</li>
+<li><strong>Bar Gradient Ranges</strong> - Visualize numeric values as bars. Values within a range display a specific bar gradient.</li>
 </ul>
-<p>You can use <a href="../binding-dashboard-items-to-data/binding-dashboard-items-to-data-in-the-web-dashboard.html">measure or dimension</a> values to calculate a format rule. For a Card dashboard item, you can also calculate format rules by <a href="../designing-dashboard-items/cards/delta.html">delta</a> values.</p>
-<p>The table below lists format conditions that can be applied to different types of data items.</p>
+<p>Format conditions that can be applied to different data item types are as follows:</p>
 <ul>
 <li>numeric <ul>
 <li><strong>Value</strong></li>
@@ -102,9 +96,9 @@
 <li><strong>Icon Ranges</strong></li>
 <li><strong>Color Ranges</strong></li>
 <li><strong>Gradient Ranges</strong></li>
-<li><strong>Bar</strong> <sup>1</sup></li>
-<li><strong>Bar Color Ranges</strong> <sup>1</sup></li>
-<li><strong>Bar Gradient Ranges</strong> <sup>1</sup></li>
+<li><strong>Bar</strong> </li>
+<li><strong>Bar Color Ranges</strong> </li>
+<li><strong>Bar Gradient Ranges</strong> </li>
 </ul>
 </li>
 <li>string <ul>
@@ -112,24 +106,21 @@
 <li><strong>Expression</strong></li>
 </ul>
 </li>
-<li><p>date-time </p>
-<ul>
+<li>date-time <ul>
 <li><strong>Value</strong></li>
 <li>A <strong>Date Occurring</strong> (for dimensions with a continuous date-time group interval)</li>
 <li><strong>Expression</strong></li>
 <li><strong>Icon and Color Ranges</strong></li>
 <li><strong>Color Ranges</strong></li>
 <li><strong>Gradient Ranges</strong></li>
-<li><strong>Bar</strong> <sup>1</sup></li>
-<li><strong>Bar Color Ranges</strong> <sup>1</sup></li>
-<li><p><strong>Bar Gradient Ranges</strong> <sup>1</sup></p>
-<p><sup>1</sup>  The Card dashboard item does not support these rules.</p>
-</li>
+<li><strong>Bar</strong> </li>
+<li><strong>Bar Color Ranges</strong> </li>
+<li><strong>Bar Gradient Ranges</strong> </li>
 </ul>
 </li>
 </ul>
 <h2 id="create-a-format-rule">Create a Format Rule</h2>
-<p> To create a format rule, open the <strong>Conditional Formatting</strong> section in the dashboard item&#39;s <a href="../ui-elements/dashboard-item-menu.html">Options</a> menu or in the <a href="../ui-elements/data-item-menu.html">data item menu</a>. Click &quot;+&quot; to add a new format rule:</p>
+<p>To create a format rule, open the <strong>Conditional Formatting</strong> section in the dashboard item&#39;s <a href="../ui-elements/dashboard-item-menu.html">Options</a> menu or in the <a href="../ui-elements/data-item-menu.html">data item menu</a>. Click &quot;+&quot; to add a new format rule:</p>
 <p><img src="../../../images/wed-dashboard-cf-add-rule.png" alt="wed-dashboard-cf-add-rule"></p>
 <p>Specify the data item/card used to calculate a condition in the <strong>Common</strong> section. You can also create a format rule for one data item and apply different settings to the other data item. </p>
 <p>Select a format rule type from the list to open its settings.</p>
@@ -137,21 +128,16 @@
 <p>Select a condition from the list and <a href="#appearance-settings">specify its settings</a> in the <strong>Condition</strong> section. Available settings depend on the selected format rule.</p>
 <p><img src="../../../images/img126023.png" alt="wdd-grid-cf-value-menu"></p>
 <p>Specify additional settings in the <strong>Miscellaneous</strong> section. For example, you can specify the intersection level for the Pivot or apply the current rule to a row in the Grid.</p>
-<p>See the following topics for more information about specific format settings for dashboard items:</p>
-<ul>
-<li><a href="../designing-dashboard-items/grid/conditional-formatting.html">Conditional Formatting - Grid</a></li>
-<li><a href="../designing-dashboard-items/pivot/conditional-formatting.html">Conditional Formatting - Pivot</a></li>
-<li><a href="../designing-dashboard-items/cards/conditional-formatting.html">Conditional Formatting - Card</a></li>
-</ul>
 <h2 id="edit-a-format-rule">Edit a Format Rule</h2>
-<p>You can see existing format rules for an entire dashboard item. To do this, open the dashboard item&#39;s <a href="../ui-elements/dashboard-item-menu.html">Options</a> menu and go to the <strong>Conditional Formatting</strong> section.</p>
-<p><img src="../../../images/img126046.png" alt="wdd-cf-all-rules"></p>
 <p>To edit a format rule, select the rule and click <strong>Edit</strong> (the <img src="../../../images/img126050.png" alt="wdd-icon-edit-collection-value-item"> icon).</p>
+<p><img src="../../../images/wdd-grid-cf-edit-rule126025.png" alt="wdd-icon-delete-big"></p>
 <p>Click <strong>Delete</strong> (the <img src="../../../images/img126104.png" alt="wdd-icon-delete-big"> icon) to delete the selected format rule.</p>
 <p>When you edit a format rule, you can enable or disable the rule in the <strong>Miscellaneous</strong> section.</p>
-<p><img src="../../../images/web-conditional-formatting-edit-rule-miscellaneous-section.png" alt=""></p>
+<p><img src="../../../images/web-conditional-formatting-edit-rule-miscellaneous-section.png" alt="miscellaneous-section"></p>
+<p>Other settings in the <strong>Miscellaneous</strong> section depend on the selected dashboard item.</p>
 <h2 id="appearance-settings">Appearance Settings</h2>
-<p>The format rule menu&#39;s <strong>Condition</strong> section contains appearance settings. You can configure and customize the following format condition appearance settings:</p>
+<p>The format rule menu&#39;s <strong>Condition</strong> section contains appearance settings. </p>
+<p>For Grid, Pivot, and Card items, you can configure and customize the current format condition appearance settings:</p>
 <ul>
 <li><p>Choose a predefined background color or font in the <strong>Appearance</strong> tab.</p>
 <p>  <img src="../../../images/img126044.png" alt="wdd-cf-appearance-gallery"></p>
@@ -160,8 +146,19 @@
 <p>  <img src="../../../images/img126045.png" alt="wdd-cf-icons-gallery"></p>
 </li>
 </ul>
-<p>You can also customize predefined colors and values for each Range format rule.</p>
-<p><img src="../../../images/img126043.png" alt="wdd-cf-range-gallery"></p>
+<p>Chart and Scatter Chart items have a predefined palette and a custom palette. Click a color chip in the <strong>Custom Color</strong> palette to set a new custom color. You can pick any color using the RGB or HSB color model in the invoked color picker.</p>
+<p><img src="../../../images/wdd-cf-chart-styles.png" alt="wdd-cf-chart-styles"></p>
+<p>You can change generated colors for the Range format rules:</p>
+<p><img src="../../../images/wdd-cf-range-gallery126043.png" alt="wdd-cf-range-gallery"></p>
+<h2 id="dashboard-item-format-rule-specifics">Dashboard Item Format Rule Specifics</h2>
+<p>See the following sections for more information about specific format settings for dashboard items:</p>
+<ul>
+<li><a href="../dashboard-item-settings/grid/conditional-formatting.html">Conditional Formatting - Grid</a></li>
+<li><a href="../dashboard-item-settings/pivot/conditional-formatting.html">Conditional Formatting - Pivot</a></li>
+<li><a href="../dashboard-item-settings/cards/conditional-formatting.html">Conditional Formatting - Card</a></li>
+<li><a href="../dashboard-item-settings/chart/conditional-formatting.html">Conditional Formatting - Chart</a></li>
+<li><a href="../dashboard-item-settings/scatter-chart/conditional-formatting.html">Conditional Formatting - Scatter Chart</a> </li>
+</ul>
 </article>
           </div>
           
@@ -170,12 +167,13 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/20.1/dashboard-for-web/articles/web-dashboard-designer-mode/appearance-customization/conditional-formatting.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/20.2/dashboard-for-web/articles/web-dashboard-designer-mode/appearance-customization/conditional-formatting.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+                <h5>In This Article</h5>
+                <div></div>
               </nav>
             </div>
           </div>

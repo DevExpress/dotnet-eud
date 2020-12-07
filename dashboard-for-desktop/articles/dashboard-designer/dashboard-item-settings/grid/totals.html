@@ -1,0 +1,191 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Totals | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Totals | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.56.5.0">
+    
+    <link rel="shortcut icon" href="../../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../../index.html">
+                <img id="logo" class="svg" src="../../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="totals">Totals</h1>
+
+<p>The Grid dashboard item enables you to add a summary value (a <strong>total</strong>) calculated against displayed values of an individual column, and show the result under this column. Note that you can add any number of totals for each column. For example, you can obtain the number of column records, average or maximum value, etc.</p>
+<p><img src="../../../../images/img120084.png" alt="Dashboard-Grid-Totals-Main"></p>
+<p>This topic describes how to create, edit or clear totals.</p>
+<p>The topic consists of the following sections.</p>
+<ul>
+<li><a href="#overview">Totals Overview</a></li>
+<li><a href="#create">Create and Edit Totals</a></li>
+<li><a href="#clear">Clear Totals</a></li>
+</ul>
+<p><a name="overview"></a></p>
+<h2 id="totals-overview">Totals Overview</h2>
+<p>You can use the following summary functions when creating totals.</p>
+<ul>
+<li><strong>Count</strong> - The number of records.</li>
+<li><p><strong>Sum</strong> - The sum of the values.</p>
+<p>  <img src="../../../../images/img4460.png" alt="func_sum"></p>
+</li>
+<li><strong>Min</strong> - The smallest value.</li>
+<li><strong>Max</strong> - The largest value.</li>
+<li><p><strong>Average</strong> - The average of the values.</p>
+<p>  <img src="../../../../images/img4457.png" alt="func_average"></p>
+</li>
+<li><strong>Auto</strong> - The total is calculated using the type of <a href="../../data-shaping/summarization.html">summary function</a> specified for the measure corresponding to the current Grid column. Note that in this case, the total is calculated based on values of the corresponding data field from the underlying data source. Note that the <strong>Auto</strong> type is not supported when the Grid is bound to the <a href="../../provide-data/connecting-to-olap-cubes.html">OLAP</a> data source.</li>
+</ul>
+<p>You can create totals using different sets of summary functions. This depends on the type of the data source field providing data for the target column.</p>
+<table>
+<thead>
+<tr>
+<th>Icon</th>
+<th>Data Source Field Type</th>
+<th>Supported Totals</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="../../../../images/img18791.png" alt="field-list-icon-boolean"></td>
+<td>Boolean</td>
+<td>Count</td>
+</tr>
+<tr>
+<td><img src="../../../../images/img18792.png" alt="field-list-icon-byte"></td>
+<td>Byte</td>
+<td>Count</td>
+</tr>
+<tr>
+<td><img src="../../../../images/img18795.png" alt="field-list-icon-date-time"></td>
+<td>Date-time</td>
+<td>Min, Max, Count</td>
+</tr>
+<tr>
+<td><img src="../../../../images/img18796.png" alt="field-list-icon-number"> <img src="../../../../images/img20881.png" alt="UIElements_DataSourceBrowser_FieldListIconNumericFloat"></td>
+<td>Numeric</td>
+<td>All available types</td>
+</tr>
+<tr>
+<td><img src="../../../../images/img18798.png" alt="field-list-icon-string"></td>
+<td>String</td>
+<td>Min, Max, Count</td>
+</tr>
+</tbody>
+</table>
+<div class="IMPORTANT"><h5>Important</h5><p>Note that the <strong>Auto</strong> type is available only for the <a href="columns/measure-column.html">Measure</a> column.</p>
+</div>
+<p><a name="create"></a></p>
+<h2 id="create-and-edit-totals">Create and Edit Totals</h2>
+<p>To create a total, use the context menu of the column header. Right-click the required column header, select <strong>Add Total</strong> and specify the type of summary function used to calculate a total.</p>
+<p><img src="../../../../images/img120080.png" alt="Dashboard-Grid-Totals-AddTotal"></p>
+<p>To change the total type, right-click the required total and select a new total type.</p>
+<p><img src="../../../../images/img120104.png" alt="Dashboard-Grid-Totals-ChangeTotalType"></p>
+<p><a name="clear"></a></p>
+<h2 id="clear-totals">Clear Totals</h2>
+<p>You can delete one total or all the totals in a particular column.</p>
+<ul>
+<li><p>To delete a single total, right-click a total and select <strong>Remove</strong>.</p>
+<p>  <img src="../../../../images/img120107.png" alt="Dashboard-Grid-Totals-DeleteOneTotal"></p>
+</li>
+<li><p>To delete all column totals, right-click the column header and select <strong>Clear Totals</strong> in the invoked context menu.</p>
+<p>  <img src="../../../../images/img120106.png" alt="Dashboard-Grid-Totals-ClearTotals"></p>
+</li>
+</ul>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/20.2/dashboard-for-desktop/articles/dashboard-designer/dashboard-item-settings/grid/totals.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2019 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../../styles/main.js"></script>
+  </body>
+</html>

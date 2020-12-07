@@ -8,7 +8,7 @@
     <title>Filtering | DevExpress End-User Documentation </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Filtering | DevExpress End-User Documentation ">
-    <meta name="generator" content="docfx 2.37.0.0">
+    <meta name="generator" content="docfx 2.56.5.0">
     
     <link rel="shortcut icon" href="../../../../favicon.ico">
     <link rel="stylesheet" href="../../../../styles/docfx.vendor.css">
@@ -69,24 +69,49 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="filtering">Filtering</h1>
 
-<p>The Web Dashboard allows you to apply filtering for individual dashboard items, filter a <a href="../providing-data/working-with-sql-data-sources.html">query</a> of the SQL Data Source or the entire Data Source.</p>
-<p>This topic describes how to filter data in the dashboard items.</p>
-<h2 id="apply-filtering">Apply Filtering</h2>
-<p>To configure filtering in the Web Dashboard, select the target dashboard item and invoke the dashboard item&#39;s <a href="../ui-elements/dashboard-item-menu.html">Bindings</a> menu. Then, go to the <strong>Data / Filtering</strong> section and use the <strong>Click to set Filter Criteria</strong> button to invoke the Filter Editor dialog.</p>
-<p><img src="../../../images/img124630.png" alt="wdd-invoke-filter-editor"></p>
-<p>Use this dialog to build filter criteria with a convenient tree-like interface.</p>
-<p><img src="../../../images/img124632.png" alt="wdd-filter-editor"></p>
-<div class="NOTE"><h5>Note</h5><p>Note that you can use <a href="../binding-dashboard-items-to-data/hidden-data-items.html">hidden dimensions</a> within the Filter Editor dialog, allowing you to filter data based on the values.</p>
+<p>Web Dashboard allows you to filter data in the <a href="../dashboard-item-settings.html">dashboard items</a> or apply filters to a specific measure. <a href="../bind-dashboard-items-to-data/bind-dashboard-items-to-data-in-the-web-dashboard.html">Dimensions</a> and <a href="../bind-dashboard-items-to-data/hidden-data-items.html">hidden dimensions</a> are used to build filter criteria.</p>
+<h2 id="dashboard-item-filter">Dashboard Item Filter</h2>
+<p>Filters that are applied to a dashboard item affect only this item. Open a dashboard item&#39;s <a href="../ui-elements/dashboard-item-menu.html">Filters</a> menu, go to the <strong>Item Filter</strong> section and click <strong>Edit</strong> to add a filter:</p>
+<p><img src="../../../images/wdd-invoke-filter-editor124630.png" alt="wdd-invoke-filter-editor"></p>
+<p>This invokes the <a href="../../../../interface-elements-for-web/articles/report-designer/report-designer-tools/filter-editor.html">Filter Editor</a> dialog where you can specify filter criteria:</p>
+<p><img src="../../../images/filtering_filtereditor_empty132417.png" alt="Filtering_FilterEditor_Empty"></p>
+<div class="TIP"><h5>Tip</h5><p><strong>Documentation</strong>: <a href="../../../../interface-elements-for-web/articles/report-designer/report-designer-tools/filter-editor.html">Filter Editor</a> </p>
 </div>
-<h2 id="pass-parameter-values">Pass Parameter Values</h2>
-<p>You can use the Filter Editor to filter a data source according to the current parameter value. To learn more, see the <a href="../data-analysis/dashboard-parameters.html">Using Dashboard Parameters</a> topic.</p>
+<h2 id="measure-filter">Measure Filter</h2>
+<p>You can apply filters to individual <a href="../bind-dashboard-items-to-data/bind-dashboard-items-to-data-in-the-web-dashboard.html">measures</a>. If you create multiple measures that only differ in applied filters, you can compare values calculated over different date-time periods or against different categories.</p>
+<p>Open a dashboard item&#39;s <a href="../ui-elements/dashboard-item-menu.html">Binding</a> menu and select a measure to filter. In the invoked <a href="../ui-elements/data-item-menu.html">data item menu</a>, open the <strong>Filter</strong> section and click <strong>Edit</strong>. This invokes the <a href="../../../../interface-elements-for-web/articles/report-designer/report-designer-tools/filter-editor.html">Filter Editor</a> dialog where you can specify filter criteria. </p>
+<p><img src="../../../images/web-filter-to-measure-menu.png" alt="web-filter-to-measure-menu"></p>
+<div class="TIP"><h5>Tip</h5><p><strong>Documentation</strong>: <a href="../../../../interface-elements-for-web/articles/report-designer/report-designer-tools/filter-editor.html">Filter Editor</a></p>
+</div>
+<p>You can clear the applied filter in the <a href="../ui-elements/data-item-menu.html">data item menu</a>&#39;s <strong>Filter</strong> section.</p>
+<div class="NOTE"><h5>Note</h5><p>The measure filter is technically an expression that uses the <code>filter(summaryExpression, filterCriteria)</code> function, where <code>summaryExpression</code> is the measure to be filtered and <code>filterCriteria</code> is the filter. See the following topic for more information about functions you can use in dashboard expressions: <a href="../data-analysis/expression-constants-operators-and-functions.html">Expression Constants, Operators, and Functions</a>.</p>
+</div>
+<p>The image below shows a Chart with three measures: </p>
+<ul>
+<li><em>2019 - Opened</em> is filtered by year 2019.</li>
+<li><em>2020 - Opened</em> is filtered by year 2020.</li>
+<li><em>Opened</em> is the original measure without filters.</li>
+</ul>
+<p><img src="../../../images/web-filter-to-measure-year.png" alt="web-filter-to-measure-year"></p>
+<h2 id="visible-data-filter">Visible Data Filter</h2>
+<p>You can specify a Visible Data Filter to limit displayed data. This filter type does not filter underlying data used in calculations or intermediate level aggregations.</p>
+<p>Open a dashboard item&#39;s <a href="../ui-elements/dashboard-item-menu.html">Filters</a> menu, go to the <strong>Visible Data Filter</strong> section and click <strong>Edit</strong> to invoke the Filter Editor, where you can specify a condition:</p>
+<p><img src="../../../images/web-invoke-visible-data-filter.png" alt="web-invoke-visible-data-filter"></p>
+<p>For example, a Grid dashboard item has 35 rows and displays sales percentages.</p>
+<p><img src="../../../images/web-filter-visible-data-filter-original-grid.png" alt="web-filter-visible-data-filter-original-grid"></p>
+<p>The image below shows the difference between filters (the filter condition is the same): </p>
+<ul>
+<li><strong>Dashboard Item Filter</strong>: sales percentages are recalculated based on the visible data.</li>
+<li><strong>Visible Data Filter</strong>: sales percentages remain the same because this filter type does not affect calculations.</li>
+</ul>
+<p><img src="../../../images/web-filter-visible-data-filter-grids.png" alt="web-filter-visible-data-filter-grids"></p>
 <h2 id="olap-filtering-specifics">OLAP Filtering Specifics</h2>
-<p>In OLAP mode, you cannot apply filtering by building complex filter criteria. Instead, you can filter dimension attributes and hierarchies by manually selecting the values you wish to include or exclude from the dashboard.</p>
+<p>In OLAP mode, you cannot filter data by building complex filter criteria. Instead, select the values you wish to include in or exclude from the dashboard to filter dimension attributes and hierarchies.</p>
 <table>
 <thead>
 <tr>
 <th>Dimension Attribute</th>
-<th>Dimension Hierachy</th>
+<th>Dimension Hierarchy</th>
 </tr>
 </thead>
 <tbody>
@@ -108,12 +133,13 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/20.1/dashboard-for-web/articles/web-dashboard-designer-mode/data-shaping/filtering.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/20.2/dashboard-for-web/articles/web-dashboard-designer-mode/data-shaping/filtering.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+                <h5>In This Article</h5>
+                <div></div>
               </nav>
             </div>
           </div>

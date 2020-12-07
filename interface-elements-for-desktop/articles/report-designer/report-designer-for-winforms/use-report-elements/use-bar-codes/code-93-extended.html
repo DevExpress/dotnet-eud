@@ -8,7 +8,7 @@
     <title>Code 93 Extended | DevExpress End-User Documentation </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Code 93 Extended | DevExpress End-User Documentation ">
-    <meta name="generator" content="docfx 2.37.0.0">
+    <meta name="generator" content="docfx 2.56.5.0">
     
     <link rel="shortcut icon" href="../../../../../../favicon.ico">
     <link rel="stylesheet" href="../../../../../../styles/docfx.vendor.css">
@@ -71,11 +71,23 @@
 
 <p>Using <strong>Code 93</strong>&#39;s &quot;Full ASCII Mode&quot;, it is possible to encode all <strong>128</strong> ASCII characters. This is accomplished by using the (<strong>$</strong>), (<strong>/</strong>), (<strong>%</strong>), and (<strong>&#0043;</strong>) symbols as &quot;shift&quot; characters. These characters combined with the single character that follows indicate which Full ASCII character is to be used.</p>
 <p><img src="../../../../../images/eurd-win-bar-code-code-93-extended.png" alt=""></p>
-<p>The following property is specific to the <strong>Code 93 Extended</strong> type and available in the <a href="../../report-designer-tools/ui-panels/property-grid-tabbed-view.html">Property Grid</a> under the <strong>Symbology</strong> property:</p>
+<h2 id="add-the-barcode-to-a-report">Add the Barcode to a Report</h2>
+<ol>
+<li><p>Drag the <strong>Barcode</strong> item from the report controls toolbox tab and drop it onto the report. </p>
+<p> <img src="../../../../../images/drag-and-drop-barcode.png" alt=""></p>
+</li>
+<li><p>Set the control’s <strong>Symbology</strong> property to <strong>Code93Extended</strong>. </p>
+<p> <img src="../../../../../images/code-93-extended-in-designer.png" alt=""></p>
+</li>
+<li><p>Specify <a href="add-bar-codes-to-a-report.html">common</a> barcode properties and properties <a href="#specific-properties">specific</a> to <strong>Code 93 Extended</strong>.</p>
+</li>
+</ol>
+<h2 id="specific-properties">Specific Properties</h2>
+<p>In the <a href="../../report-designer-tools/ui-panels/property-grid-tabbed-view.html">property grid</a>, expand the <strong>Symbology</strong> list and specify the following property specific to <strong>Code 93 Extended</strong>:</p>
 <ul>
 <li><p><strong>Calculate a Checksum</strong></p>
-<p>  Specifies whether to calculate a checksum for the bar code.</p>
-<div class="NOTE"><h5>Note</h5><p>A checksum of a <strong>Code 93 Extended</strong> bar code can contain characters that are not supported by this bar code symbology. For this reason, the checksum is not included in the <strong>Code 93 Extended</strong> bar code&#39;s displayed text.</p>
+<p>  Specifies whether to calculate a checksum for the barcode.</p>
+<div class="NOTE"><h5>Note</h5><p>A checksum of a <strong>Code 93 Extended</strong> barcode can contain characters that are not supported by this barcode symbology. For this reason, the checksum is not included in the <strong>Code 93 Extended</strong> barcode&#39;s displayed text.</p>
 </div>
 </li>
 </ul>
@@ -87,12 +99,13 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/20.1/interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/use-report-elements/use-bar-codes/code-93-extended.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/20.2/interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/use-report-elements/use-bar-codes/code-93-extended.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+                <h5>In This Article</h5>
+                <div></div>
               </nav>
             </div>
           </div>

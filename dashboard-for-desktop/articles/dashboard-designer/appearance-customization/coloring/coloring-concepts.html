@@ -8,7 +8,7 @@
     <title>Coloring Concepts | DevExpress End-User Documentation </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Coloring Concepts | DevExpress End-User Documentation ">
-    <meta name="generator" content="docfx 2.37.0.0">
+    <meta name="generator" content="docfx 2.56.5.0">
     
     <link rel="shortcut icon" href="../../../../../favicon.ico">
     <link rel="stylesheet" href="../../../../../styles/docfx.vendor.css">
@@ -67,72 +67,64 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="coloring-concepts">Coloring Concepts</h1>
+<h1 id="coloring">Coloring</h1>
 
-<p>The Dashboard Designer provides you with the capability to color dashboard item elements by associating dimension values/measures and specified colors. You can choose whether to use a global color scheme to provide consistent colors for identical values or specify a local color scheme for each dashboard item.</p>
+<p>The Dashboard Designer associates dimension values/measures and specified colors to paint dashboard item elements. This topic describes how to configure color settings in the WinForms Designer.</p>
+<h2 id="coloring-basics">Coloring Basics</h2>
+<p>The following concepts are common to both Desktop and Web Dashboard controls:</p>
 <ul>
-<li><a href="#supporteditems">Supported Dashboard Items</a></li>
-<li><a href="#color-schemes">Color Schemes</a></li>
-<li><a href="#coloring-dimensions-and-measures">Coloring Dimensions and Measures</a></li>
+<li>Color Modes</li>
+<li>Color Schemes</li>
+<li>Supported Dashboard Items</li>
 </ul>
-<h2 id="a-namesupporteditemssupported-dashboard-items"><a name="supporteditems"></a>Supported Dashboard Items</h2>
-<p>DevExpress Dashboard allows you to manage coloring for the following dashboard items.</p>
-<ul>
-<li><a href="../../designing-dashboard-items/chart.html">Chart</a></li>
-<li><a href="../../designing-dashboard-items/scatter-chart.html">Scatter Chart</a></li>
-<li><a href="../../designing-dashboard-items/pies.html">Pie</a></li>
-<li><a href="../../designing-dashboard-items/geo-point-maps/pie-map.html">Pie Map</a></li>
-<li><a href="../../designing-dashboard-items/range-filter.html">Range Filter</a></li>
-<li><a href="../../designing-dashboard-items/treemap.html">Treemap</a></li>
-</ul>
-<h2 id="a-namecolor-schemescolor-schemes"><a name="color-schemes"></a>Color Schemes</h2>
-<p>The dashboard provides two ways of coloring dashboard item elements.</p>
-<ul>
-<li><p>Using a global color scheme that provides consistent colors for identical values across the dashboard. The image below shows the dashboard containing Pie and Chart dashboard items. Pie segments and chart series points corresponding to &#39;Beverages&#39;, &#39;Condiments&#39; and &#39;Diary Products&#39; dimension values are colored using identical colors from the default palette.</p>
-<p>  <img src="../../../../images/img25370.png" alt="Coloring_GlobalColors"></p>
-<p>  To use global colors for coloring dashboard item elements, click the <strong>Global Colors</strong> button in the <strong>Design</strong> ribbon tab.</p>
-<p>  <img src="../../../../images/img25384.png" alt="ColoringPage_Ribbon"></p>
-<div class="IMPORTANT"><h5>Important</h5><p>When a global color scheme is used, the dashboard reserves automatically generated colors for certain values regardless of the filter state.</p>
+<p>Refer to the following topic for more information about common concepts: <a href="../coloring.html">Coloring Basics</a>.</p>
+<h2 id="color-mode-none">Color Mode: None</h2>
+<p>You can disable default color variation for dashboard item elements.  </p>
+<p>If you add a <a href="../../dashboard-item-settings/treemap.html">TreeMap</a> to a dashboard, individual elements (titles) use different colors: </p>
+<p><img src="../../../../images/win-coloring-treemap-default.png" alt="win-coloring-treemap-default"></p>
+<p><em>State</em> values (Arguments) use different colors. To disable color variation, go to the Argument settings and select <strong>Color by | None</strong>.</p>
+<p><img src="../../../../images/win-coloring-treemap-none.png" alt="win-coloring-treemap-none"></p>
+<p>Add a <a href="../../dashboard-item-settings/chart.html">Chart</a> with the same Argument and Value as in the TreeMap: </p>
+<p><img src="../../../../images/win-coloring-treemap-chart-none.png" alt="win-coloring-treemap-chart-none"></p>
+<p>Note that <strong>Default</strong> means <strong>None</strong> for chart arguments.  </p>
+<h2 id="color-mode-hue">Color Mode: Hue</h2>
+<p>You can enable colors in previously added Treemap and Chart items.</p>
+<p>Set the TreeMap&#39;s color mode to <strong>Default</strong> or <strong>Hue</strong>: </p>
+<p><img src="../../../../images/win-coloring-chart-none-treemap-hue.png" alt="win-coloring-chart-none-treemap-hue"></p>
+<p>In the Chart settings, move <em>State</em> from Arguments to Series. <strong>Default</strong> now means <strong>Hue</strong> in this new context. The coloring indicator (<img src="../../../../images/coloringindicator25453.png" alt="ColoringIndicator">) on the data item shows that color variation by hue is enabled.</p>
+<p><img src="../../../../images/win-coloring-chart-treemap-hue.png" alt="win-coloring-chart-treemap-hue"></p>
+<p>Add <em>Category</em> as a chart argument and switch to 100% Stacked View:  </p>
+<p><img src="../../../../images/win-coloring-full-stacked-chart.png" alt="win-coloring-full-stacked-chart"></p>
+<h2 id="use-global-color-scheme">Use Global Color Scheme</h2>
+<p>The same <em>State</em> data items use identical colors. Dashboard constructs a <strong>Global Color Scheme</strong> for this purpose. </p>
+<p>Add a <a href="../../dashboard-item-settings/range-filter.html">Range Filter</a> with the following settings: </p>
+<p><img src="../../../../images/win-coloring-range-filter.png" alt="win-coloring-range-filter"></p>
+<p>Corresponding <em>State</em> fields are painted with the same colors, so you can associate and compare data from all dashboard items. This happens because all items use <strong>Global Colors</strong> (the default setting). You can see the switch to <strong>Global Colors</strong> in the Ribbon. Click <strong>Edit Colors</strong> to modify the colors used in the palette:  </p>
+<p><img src="../../../../images/win-coloring-custom-color.png" alt="win-coloring-custom-color"></p>
+<div class="NOTE"><h5>Note</h5><p>The dashboard uses the default palette. This palette contains 20 unique colors to paint dimension values/measures. For more information on how to change default colors or create a new color table, refer to the following help topic: <a href="customizing-a-color-scheme.html">Customizing a Color Scheme</a>. </p>
 </div>
-</li>
-<li><p>Using a local color scheme that provides an independent set of colors for each dashboard item.</p>
-<p>  To use local colors for coloring dashboard item elements, click <strong>Local Colors</strong> in the <strong>Design</strong> ribbon tab.</p>
-<p>  <img src="../../../../images/img25386.png" alt="LocalColors_Ribbon"></p>
-<div class="IMPORTANT"><h5>Important</h5><p>When a local color scheme is used, the dashboard reassigns palette colors when the filter state is changed.</p>
-</div>
-</li>
+<p>This is how the Dashboard appears after you change the color for <em>Georgia</em> in the palette:</p>
+<p><img src="../../../../images/win-dashboard-with-global-color-scheme.png" alt="win-dashboard-with-global-color-scheme"></p>
+<h2 id="use-local-color-scheme">Use Local Color Scheme</h2>
+<p>If you want to use an independent set of colors in the selected dashboard item, switch to the <strong>Local Color Scheme</strong>. </p>
+<p>You can see the Treemap&#39;s arguments that use colors from the <strong>Local Color Scheme</strong>:  </p>
+<p><img src="../../../../images/win-coloring-treemap-local-color-scheme.png" alt="win-coloring-treemap-local-color-scheme"></p>
+<p>Colors modified in the local color scheme do not affect items that use the global color scheme. The following image shows a custom color for <em>Georgia</em> in the Treemap:</p>
+<p><img src="../../../../images/win-coloring-treemap-local-color-scheme-custom-color.png" alt="win-coloring-treemap-local-color-scheme-custom-color"></p>
+<h2 id="dashboard-item-color-mode-specifics">Dashboard Item Color Mode Specifics</h2>
+<ul>
+<li><a href="../../dashboard-item-settings/chart/coloring.html">Chart - Coloring</a></li>
+<li><a href="../../dashboard-item-settings/scatter-chart/coloring.html">Scatter Chart - Coloring</a></li>
+<li><a href="../../dashboard-item-settings/pies/coloring.html">Pie - Coloring</a></li>
+<li><a href="../../dashboard-item-settings/geo-point-maps/pie-map/coloring.html">Pie Map - Coloring</a></li>
+<li><a href="../../dashboard-item-settings/range-filter/coloring.html">Range Filter - Coloring</a></li>
+<li><a href="../../dashboard-item-settings/treemap/coloring.html">Treemap - Coloring</a></li>
 </ul>
-<h2 id="a-namecoloring-dimensions-and-measurescoloring-dimensions-and-measures"><a name="coloring-dimensions-and-measures"></a>Coloring Dimensions and Measures</h2>
-<p>Dashboard items allow you to manage the coloring of individual dimensions or all dashboard item measures using predefined coloring modes.</p>
-<table>
-<thead>
-<tr>
-<th>Coloring Mode</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Default</td>
-<td>Dimension values/measures are colored by default. To learn how specific dashboard items color their elements by default, see the <strong>Coloring</strong> topic for the corresponding dashboard item.</td>
-</tr>
-<tr>
-<td>Hue</td>
-<td>Dimension values/measures are colored by hue. If coloring by hue is enabled, a data item indicates this using the <img src="../../../../images/img25453.png" alt="ColoringIndicator"> indicator.</td>
-</tr>
-<tr>
-<td>None</td>
-<td>Dimension values/measures are colored with the same color.</td>
-</tr>
-</tbody>
-</table>
-<h3 id="coloring-dimension-values">Coloring Dimension Values</h3>
-<p>To specify the coloring mode for the required dimension, click the dimension&#39;s <a href="../../ui-elements/data-items-pane.html">menu button</a> and use the <strong>Color by</strong> submenu. For instance, the image below shows the Chart dashboard item whose &#39;Country&#39; dimension is colored by hue.</p>
-<p><img src="../../../../images/img25374.png" alt="Coloring_DimensionColorByItem"></p>
-<h3 id="coloring-measures">Coloring Measures</h3>
-<p>To specify the coloring mode for dashboard item measures, click the <a href="../../ui-elements/data-items-pane.html">menu button</a> of any measure and use the <strong>Color by</strong> submenu. For instance, the image below shows the Pie dashboard item whose measures are colored by hue.</p>
-<p><img src="../../../../images/img25376.png" alt="Coloring_MeasuresColorByItem"></p>
-<p>If you enabled coloring by hue for several dimensions/measures, all combinations of dimension values/measures will be automatically colored using different colors from the default palette. To learn how to customize these colors, see <a href="customizing-a-color-scheme.html">Customizing a Color Scheme</a>.</p>
+<h2 id="how-to-customize-a-color-scheme">How to Customize a Color Scheme</h2>
+<p>Refer to the following topic for more information on how to customize a color scheme:</p>
+<ul>
+<li><a href="customizing-a-color-scheme.html">Customizing a Color Scheme</a></li>
+</ul>
 </article>
           </div>
           
@@ -141,12 +133,13 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/20.1/dashboard-for-desktop/articles/dashboard-designer/appearance-customization/coloring/coloring-concepts.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/20.2/dashboard-for-desktop/articles/dashboard-designer/appearance-customization/coloring/coloring-concepts.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+                <h5>In This Article</h5>
+                <div></div>
               </nav>
             </div>
           </div>

@@ -1,0 +1,173 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Conditional Formatting | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Conditional Formatting | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.56.5.0">
+    
+    <link rel="shortcut icon" href="../../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../../index.html">
+                <img id="logo" class="svg" src="../../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="conditional-formatting">Conditional Formatting</h1>
+
+<p>Use conditional formatting to highlight points in a Scatter Chart dashboard item.</p>
+<p><img src="../../../../images/web-cf-scatter-chart-main.png" alt="web-cf-scatter-chart-main"></p>
+<h2 id="supported-format-rules">Supported Format Rules</h2>
+<p>You can use the following data in rule calculations:</p>
+<ul>
+<li><a href="../../bind-dashboard-items-to-data/bind-dashboard-items-to-data-in-the-web-dashboard.html">measures</a> from the <strong>X and Y axis</strong> sections </li>
+<li><a href="../../bind-dashboard-items-to-data/bind-dashboard-items-to-data-in-the-web-dashboard.html">measures</a> from the <strong>Weight</strong> section</li>
+<li><a href="../../bind-dashboard-items-to-data/bind-dashboard-items-to-data-in-the-web-dashboard.html">dimensions</a> from the <strong>Arguments</strong> section </li>
+<li>hidden measures </li>
+</ul>
+<p>Format conditions that can be applied to different data item types are as follows:</p>
+<ul>
+<li>numeric <ul>
+<li><strong>Value</strong> </li>
+<li><strong>Top-Bottom</strong></li>
+<li><strong>Average</strong></li>
+<li><strong>Expression</strong> </li>
+<li><strong>Color Ranges</strong></li>
+<li><strong>Gradient Ranges</strong></li>
+</ul>
+</li>
+<li>string <ul>
+<li><strong>Value</strong> (with the condition type set to <em>Equal To</em>, <em>Not Equal To</em> or <em>Text that Contains</em>)</li>
+<li><strong>Expression</strong></li>
+</ul>
+</li>
+<li>date-time <ul>
+<li><strong>Value</strong></li>
+<li><strong>A Date Occurring</strong> (for dimensions with a continuous date-time group interval)</li>
+<li><strong>Expression</strong></li>
+<li><strong>Color Ranges</strong></li>
+<li><strong>Gradient Ranges</strong></li>
+</ul>
+</li>
+</ul>
+<p>Refer to the following topic for more information about format condition types: <a href="../../appearance-customization/conditional-formatting.html">Conditional Formatting in Web Dashboard</a>.</p>
+<h2 id="create-and-edit-a-format-rule">Create and Edit a Format Rule</h2>
+<p>You can create and edit format rules in the <strong>Conditional Formatting</strong> section that is located in the following places:</p>
+<ul>
+<li><p>The dashboard item&#39;s <a href="../../ui-elements/dashboard-item-menu.html">Options</a> menu</p>
+</li>
+<li><p>The <a href="../../ui-elements/data-item-menu.html">data item menu</a></p>
+</li>
+</ul>
+<p>Refer to the following topic for information on how to create and edit format rules: <a href="../../appearance-customization/conditional-formatting.html">Conditional Formatting in Web Dashboard</a>.</p>
+<h2 id="format-condition-settings-specific-to-scatter-charts">Format Condition Settings Specific to Scatter Charts</h2>
+<p>Specify appearance settings and set the condition&#39;s value to create a format rule. Available settings depend on the selected format condition type.</p>
+<p>The image below displays the <strong>Value</strong> rule settings. The condition colors bubbles if their weight exceeds 200.</p>
+<p><img src="../../../../images/web-scatter-chart-cf-appearance-settings-dialog.png" alt="web-scatter-chart-cf-appearance-settings-dialog"></p>
+<p>You can apply one of the predefined colors or set a custom color for this condition.</p>
+<p>Go to the rule&#39;s <strong>Legend</strong> section and set the <strong>Caption</strong> field to specify the legend&#39;s text. It enables the <strong>Display in Legend</strong> option and the Scatter Chart item displays information about the applied rule in the legend.</p>
+<p>The image below displays the Scatter Chart item with the applied <strong>Greater Than</strong> format rule. The <strong>Display in Legend</strong> option is activated and the rule&#39;s caption is displayed in the legend:</p>
+<p><img src="../../../../images/web-scatter-chart-conditional-formatting.png" alt="web-scatter-chart-conditional-formatting"></p>
+<p>For Range format rules, the legend display text is generated automatically and depends on the range intervals:</p>
+<p><img src="../../../../images/web-scatter-chart-with-range-rule.png" alt="web-scatter-chart-with-range-rule"></p>
+<h2 id="coloring">Coloring</h2>
+<p>A Scatter Chart item paints elements in pale gray if they don&#39;t meet the applied format condition. Note that this doesn&#39;t apply to elements that are painted by different hues.</p>
+<p>Enable coloring for arguments to restore the color scheme:</p>
+<p><img src="../../../../images/web-scatter-chart-color-by-hue.png" alt="web-scatter-chart-color-by-hue"></p>
+<div class="TIP"><h5>Tip</h5><p><strong>Documentation:</strong>
+<a href="../../appearance-customization/coloring.html">Web Dashboard - Coloring</a></p>
+</div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/20.2/dashboard-for-web/articles/web-dashboard-designer-mode/dashboard-item-settings/scatter-chart/conditional-formatting.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2019 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../../styles/main.js"></script>
+  </body>
+</html>

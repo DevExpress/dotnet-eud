@@ -8,7 +8,7 @@
     <title>Introduction to Banded Reports | DevExpress End-User Documentation </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Introduction to Banded Reports | DevExpress End-User Documentation ">
-    <meta name="generator" content="docfx 2.37.0.0">
+    <meta name="generator" content="docfx 2.56.5.0">
     
     <link rel="shortcut icon" href="../../../../favicon.ico">
     <link rel="stylesheet" href="../../../../styles/docfx.vendor.css">
@@ -84,7 +84,7 @@
 <ul>
 <li><p><strong>Report Header</strong> and <strong>Report Footer</strong>  </p>
 <p>  The <strong>Report Header</strong> is the report&#39;s first band (margins are &quot;out-of-page&quot; zones). Use this band to display the report&#39;s name, company logo, <a href="add-extra-information.html">date of creation, username</a>, etc.</p>
-<p>  The <strong>Report Footer</strong> is placed before the Page Footer and Bottom Margin on the report&#39;s last page. You can use the Report Footer band for report <a href="shape-report-data/shape-data-expression-bindings/calculate-a-summary.html">summaries</a> or conclusions.</p>
+<p>  The <strong>Report Footer</strong> is placed before the Page Footer and Bottom Margin on the report&#39;s last page. You can use the Report Footer band for report <a href="shape-report-data/calculate-summaries/calculate-a-summary.html">summaries</a> or conclusions.</p>
 </li>
 <li><p><strong>Page Header</strong> and <strong>Page Footer</strong></p>
 <p>  These bands are at the top and bottom of every page in a report. They display information that should be printed on every page.</p>
@@ -98,7 +98,7 @@
 <p>The following image illustrates a sample report layout and the <a href="report-designer-tools/ui-panels/report-explorer.html">Report Explorer</a> that reflects the report&#39;s structure:</p>
 <p><img src="../../../images/eurd-win-report-bands-basic-layout.png" alt="eurd-win-report-bands-basic-layout"></p>
 <h2 id="add-a-detail-band-to-a-master-detail-band">Add a Detail Band to a Master-Detail Band</h2>
-<p>Use the <strong>Detail Report</strong> band to create hierarchical <a href="create-popular-reports/create-a-master-detail-report-use-detail-report-bands.html">master-detail reports</a>. Detail report bands provide detailed information about each record in the master report&#39;s detail band (for example, orders shipped to each customer). You can create such reports when master-detail relationships are defined between data source tables:</p>
+<p>Use the <strong>Detail Report</strong> band to create hierarchical <a href="create-reports/master-detail-reports-with-detail-report-bands.html">master-detail reports</a>. Detail report bands provide detailed information about each record in the master report&#39;s detail band (for example, orders shipped to each customer). You can create such reports when master-detail relationships are defined between data source tables:</p>
 <p><img src="../../../images/eurd-win-master-detail-relation-editor-report-designer.png" alt="eurd-win-master-detail-relation-editor-report-designer"></p>
 <p>The Detail Report band is a separate report (subreport) with its own data source and different bands. A report can have any number of detail reports that can also be nested.</p>
 <p>The following image illustrates a master-detail report and the <a href="report-designer-tools/ui-panels/report-explorer.html">Report Explorer</a> that reflects the report&#39;s structure:</p>
@@ -114,9 +114,9 @@
 <ul>
 <li><strong>Vertical Header</strong><br>  Contains headers of the report&#39;s data fields. These headers are arranged vertically.</li>
 <li><strong>Vertical Details</strong><br>  This band is printed for every record in a data source unless you filtered the data. The records are displayed one after another in a horizontal direction.</li>
-<li><strong>Vertical Total</strong><br>  This band is placed at the rightmost position (leftmost when RTL is enabled). You can use the Vertical Total band for report <a href="shape-report-data/shape-data-expression-bindings/calculate-a-summary.html">summaries</a> or conclusions.</li>
+<li><strong>Vertical Total</strong><br>  This band is placed at the rightmost position (leftmost when RTL is enabled). You can use the Vertical Total band for report <a href="shape-report-data/calculate-summaries/calculate-a-summary.html">summaries</a> or conclusions.</li>
 </ul>
-<p>You can use the <a href="report-designer-tools/report-wizard.html">Report Wizard</a> to create a report with vertical bands. Refer to the <a href="create-popular-reports/create-a-vertical-report.html">Create a Vertical Report</a> topic for instructions on how to create a report with vertical bands.</p>
+<p>You can use the <a href="report-designer-tools/report-wizard.html">Report Wizard</a> to create a report with vertical bands. Refer to the <a href="create-reports/vertical-reports.html">Vertical Reports</a> topic for instructions on how to create a report with vertical bands.</p>
 <h2 id="create-band-copies">Create Band Copies</h2>
 <p>You can create functional copies of a band, for example, to display different contents based on a specific condition. To do this, add <strong>sub-bands</strong> to bands.</p>
 <p><img src="../../../images/eurd-win-report-bands-basic-layout-sub-bands.png" alt="eurd-win-report-bands-basic-layout-sub-bands"></p>
@@ -138,7 +138,7 @@
 <h3 id="add-bands">Add Bands</h3>
 <p>To add a band, right-click a report&#39;s design surface, and in the invoked context menu, choose <strong>Insert Band</strong>.</p>
 <p><img src="../../../images/eurd-win-report-bands-context-menu.png" alt="eurd-win-report-bands-context-menu"></p>
-<p>You can insert a detail report band if the report&#39;s data source has <a href="create-popular-reports/create-a-master-detail-report-use-detail-report-bands.html">master-detail relations</a>.</p>
+<p>You can insert a detail report band if the report&#39;s data source has <a href="create-reports/master-detail-reports-with-detail-report-bands.html">master-detail relations</a>.</p>
 <p><img src="../../../images/eurd-win-add-band-relationship.png" alt="eurd-win-add-band-relationship"></p>
 <h3 id="access-the-bands-collection">Access the Bands Collection</h3>
 <p>Click the <strong>Edit and Reorder Bands</strong> context link in a report&#39;s smart tag to access the report&#39;s bands collection.</p>
@@ -187,12 +187,13 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/20.1/interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/introduction-to-banded-reports.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/20.2/interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/introduction-to-banded-reports.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+                <h5>In This Article</h5>
+                <div></div>
               </nav>
             </div>
           </div>

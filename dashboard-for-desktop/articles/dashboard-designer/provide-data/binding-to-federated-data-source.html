@@ -1,0 +1,155 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Binding to Federated Data Source | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Binding to Federated Data Source | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.56.5.0">
+    
+    <link rel="shortcut icon" href="../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../index.html">
+                <img id="logo" class="svg" src="../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="binding-to-federated-data-source">Binding to Federated Data Source</h1>
+
+<p>A <em>federated data source</em> combines multiple data sources (except OLAP) in one.</p>
+<h2 id="overview">Overview</h2>
+<p>You can create a federated data source if a dashboard contains at least one data source. To do this, create a query where you specify how to federate existing data sources. The federated query can be one of the following types:</p>
+<h3 id="join">Join</h3>
+<p>Combines rows from two or more tables based on a column they share. The join type specifies records that have matching values in both tables.</p>
+<h3 id="union">Union</h3>
+<p>Combines rows from two or more tables into one data set and removes duplicate rows in merged tables. You can only create a union query for data sources that contain columns with the same name. Data types of such columns should be <a href="https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/types/casting-and-type-conversions#implicit-conversions">implicitly converted</a>.</p>
+<h3 id="union-all">Union All</h3>
+<p>Operates like <strong>Union</strong>, but duplicates rows from different tables when they contain the same data.</p>
+<h3 id="transformation">Transformation</h3>
+<p>Unfolds complex objects and flattens them in a simple data set. The dashboard does not support data source fields that store collections, so you need to transform the data source into a new flattened data table.</p>
+<h2 id="create-a-federated-data-source-with-the-data-source-wizard">Create a Federated Data Source with the Data Source Wizard</h2>
+<p>To create a federated data source with the Data Source Wizard, perform the following steps:</p>
+<ol>
+<li><p>Click the <strong>New Data Source</strong> button in the <strong>Data Source</strong> ribbon tab.</p>
+<p><img src="../../../images/choose-new-data-source.png" alt="Choose_new_data_source"></p>
+</li>
+<li><p>On the first page of the invoked <strong>Data Source Wizard</strong> dialog, select <strong>Data Federation</strong> and click <strong>Next</strong>.</p>
+<p><img src="../../../images/choose-federated-data-source.png" alt="Choose_federated_data_source"></p>
+</li>
+<li><p>The <a href="../work-with-data/using-the-query-builder.html">Query Builder</a> dialog displays available data sources.</p>
+<p><img src="../../../images/query-builder-available-sources.png" alt="Query_Builder_available_sources"></p>
+</li>
+<li><p>Select the <strong>Query Type</strong>:</p>
+<p><strong>Join</strong></p>
+<p>Drag-and-drop the data sources, specify the related column to create the relationship between tables, and select the columns you want to include in the query. Use <em>* (All Columns)</em> to get a complete list of the columns from a table. Columns included in the query are displayed in the bottom pane where you can configure their settings.</p>
+<p><img src="../../../images/federated-source-settings.png" alt="Federated_data_source_settings"></p>
+<p><strong>Union</strong></p>
+<p>Double-click the data sources you want to combine. Unlike join queries, you cannot select individual columns. Columns included in the query are displayed in the bottom pane where you can specify their aliases.</p>
+<p><img src="../../../images/data-federation-querybuilder-union.png" alt="data-federation-querybuilder-union"></p>
+<p><strong>Union All</strong> </p>
+<p>Double-click the data sources you want to combine. A <strong>UnionAll</strong> query duplicates rows from different tables even if they contain the same data. Columns included in the query are displayed in the bottom pane where you can specify their aliases.</p>
+<p><img src="../../../images/data-federation-querybuilder-union-all.png" alt="data-federation-querybuilder-union-all"></p>
+<p><strong>Transformation</strong></p>
+<p>Select a data source/query that contains columns you want to transform. Select the <strong>Transform</strong> checkbox next to the column you want to unfold and flatten. The bottom pane allows you to specify the aliases for the generated columns.</p>
+<p><img src="../../../images/data-federation-querybuilder-transformation.png" alt="data-federation-querybuilder-transformation"></p>
+<p>Click <strong>OK</strong> to create a query.</p>
+</li>
+<li><p>The <a href="../ui-elements/data-source-browser.html">Data Source Browser</a> displays the newly created Federated Data Source.</p>
+<p>The image below displays a new <em>Federation Data Source 1</em> with a joined <em>SQlite Orders</em> query.</p>
+<p><img src="../../../images/data-source-browser-federated-data-source.png" alt="Federated_data_source_configuration"></p>
+<p> The query name is the same as the root table&#39;s name in the query builder. Click the <strong>Rename</strong> button in the <strong>Query</strong> group on the <strong>Data Source</strong> ribbon tab to change the query name.</p>
+</li>
+</ol>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/20.2/dashboard-for-desktop/articles/dashboard-designer/provide-data/binding-to-federated-data-source.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2019 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../styles/main.js"></script>
+  </body>
+</html>

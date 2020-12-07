@@ -8,7 +8,7 @@
     <title>Conditional Formatting | DevExpress End-User Documentation </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Conditional Formatting | DevExpress End-User Documentation ">
-    <meta name="generator" content="docfx 2.37.0.0">
+    <meta name="generator" content="docfx 2.56.5.0">
     
     <link rel="shortcut icon" href="../../../../favicon.ico">
     <link rel="stylesheet" href="../../../../styles/docfx.vendor.css">
@@ -69,8 +69,9 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="conditional-formatting">Conditional Formatting</h1>
 
-<p>The Dashboard Designer control supports conditional formatting. You can apply a custom style to data elements that satisfy a certain condition. Supported elements include cells in <a href="../designing-dashboard-items/grid.html">Grid</a> or <a href="../designing-dashboard-items/pivot.html">Pivot Grid</a>, and cards in a <a href="../designing-dashboard-items/cards.html">Card item</a>.</p>
+<p>The Dashboard Designer control supports conditional formatting. You can apply a custom style to data elements that satisfy a certain condition for <a href="../dashboard-item-settings/grid.html">Grid</a>, <a href="../dashboard-item-settings/pivot.html">Pivot</a>, <a href="../dashboard-item-settings/chart.html">Chart</a>, <a href="../dashboard-item-settings/scatter-chart.html">Scatter Chart</a> and <a href="../dashboard-item-settings/cards.html">Card</a> items.</p>
 <p><img src="../../../images/img118090.png" alt="BlogDashboard_ConditionalFormatting"></p>
+<h2 id="format-rules">Format Rules</h2>
 <p>Comparison rules used in conditional formatting can be categorized as follows:</p>
 <ul>
 <li><a href="conditional-formatting/value.html">Value</a> - Compares static values (Greater Than, Less Than, Between, etc.).</li>
@@ -95,9 +96,9 @@
 <li><a href="conditional-formatting/icon-ranges.html">Icon Ranges</a></li>
 <li><a href="conditional-formatting/color-ranges.html">Color Ranges</a></li>
 <li><a href="conditional-formatting/gradient-ranges.html">Gradient Ranges</a></li>
-<li><a href="conditional-formatting/bar.html">Bar</a> <sup>1</sup> </li>
-<li><a href="conditional-formatting/bar-color-ranges.html">Bar Color Ranges</a> <sup>1</sup> </li>
-<li><a href="conditional-formatting/bar-gradient-ranges.html">Bar Gradient Ranges</a> <sup>1</sup> </li>
+<li><a href="conditional-formatting/bar.html">Bar</a> </li>
+<li><a href="conditional-formatting/bar-color-ranges.html">Bar Color Ranges</a> </li>
+<li><a href="conditional-formatting/bar-gradient-ranges.html">Bar Gradient Ranges</a> </li>
 </ul>
 </li>
 <li>string <ul>
@@ -105,65 +106,37 @@
 <li><a href="conditional-formatting/expression.html">Expression</a></li>
 </ul>
 </li>
-<li><p>date-time</p>
-<ul>
+<li>date-time<ul>
 <li><a href="conditional-formatting/value.html">Value</a></li>
 <li><a href="conditional-formatting/value.html">A Date Occurring</a> (for dimensions with a continuous date-time group interval)</li>
 <li><a href="conditional-formatting/expression.html">Expression</a></li>
 <li><a href="conditional-formatting/icon-ranges.html">Icon Ranges</a></li>
 <li><a href="conditional-formatting/color-ranges.html">Color Ranges</a></li>
 <li><a href="conditional-formatting/gradient-ranges.html">Gradient Ranges</a></li>
-<li><a href="conditional-formatting/bar.html">Bar</a> <sup>1</sup> </li>
-<li><a href="conditional-formatting/bar-color-ranges.html">Bar Color Ranges</a> <sup>1</sup> </li>
-<li><p><a href="conditional-formatting/bar-gradient-ranges.html">Bar Gradient Ranges</a> <sup>1</sup> </p>
-<p><sup>1</sup>  A Card dashboard item does not support these rules.</p>
-</li>
+<li><a href="conditional-formatting/bar.html">Bar</a> </li>
+<li><a href="conditional-formatting/bar-color-ranges.html">Bar Color Ranges</a> </li>
+<li><a href="conditional-formatting/bar-gradient-ranges.html">Bar Gradient Ranges</a> </li>
 </ul>
 </li>
 </ul>
-<h2 id="create-a-format-rule">Create a Format Rule</h2>
+<h2 id="create-and-edit-a-format-rule">Create and Edit a Format Rule</h2>
 <p>You can create format rules in the following ways:</p>
 <ul>
 <li><p>Click the <strong>Edit Rules</strong> button on the <strong>Home</strong> ribbon tab. </p>
 <p><img src="../../../images/editrules_ribbon118564.png" alt="EditRules_Ribbon"></p>
-<p>  The invoked dialog contains the <strong>calculated by</strong> combo box, where you can select the item whose values are used to calculate the format rule. You can use <a href="../binding-dashboard-items-to-data/binding-dashboard-items-to-data.html">measures or dimensions</a> to calculate a format rule. For the Card dashboard item, format rules are also calculated with <a href="../designing-dashboard-items/cards/delta.html">delta</a> values. 
-  If you use delta to calculate a condition, specify the delta type in the <strong>using</strong> combo box. Click the <strong>Add</strong> button, select the format rule from the pop-up menu, and specify the rule&#39;s condition:</p>
-<p>  <img src="../../../images/win-conditional-formatting-card-rule-manager.png" alt=""></p>
+<p>  This action invokes the <a href="#the-edit-rules-dialog">Edit Rules</a> dialog where you can create a new format rule or manage rules applied to the dashboard item.</p>
 </li>
-<li><p>Click the measure/dimension menu button in the Data Item&#39;s pane and select <strong>Add Format Rule</strong> to invoke its pop-up menu. For a Card, this menu is invoked when you click the series dimension/<a href="../binding-dashboard-items-to-data/hidden-data-items.html">hidden measure</a> menu button.</p>
-<p>  <img src="../../../images/img118549.png" alt="AddFormatRule_ValueItem"></p>
-</li>
-</ul>
-<p>For a Grid dashboard item, you can also right-click the column header, select <strong>Add Format Rule</strong> and choose the condition.</p>
-<p> Specify <a href="#specify-appearance-settings">appearance settings</a> and set the condition&#39;s value for the format rule. Available settings depend on the selected format rule. The image below displays the <strong>Greater Than</strong> dialog, which corresponds to the <a href="conditional-formatting/value.html">Value</a> format condition for a <a href="../designing-dashboard-items/grid.html">Grid</a> dashboard item. The format condition applies to the <em>ExtendedPrice</em> data item in the <strong>Apply to</strong> drop-down list.</p>
-<p> <img src="../../../images/img118555.png" alt="GreaterThanDialog"></p>
-<p>Format rule settings depend on the dashboard item. Refer to the following sections for more information:</p>
-<ul>
-<li><a href="../designing-dashboard-items/grid/conditional-formatting.html">Conditional Formatting - Grid</a></li>
-<li><a href="../designing-dashboard-items/pivot/conditional-formatting.html">Conditional Formatting - Pivot</a></li>
-<li><a href="../designing-dashboard-items/cards/conditional-formatting.html">Conditional Formatting - Card</a></li>
-</ul>
-<h2 id="specify-appearance-settings">Specify Appearance Settings</h2>
-<p>You can configure and customize current format condition appearance settings.</p>
-<ul>
-<li><p>The <strong>Appearance</strong> tab allows you to choose a predefined background color/font.</p>
-<p>  <img src="../../../images/img118585.png" alt="NewRuleDialog_AppearanceTab"></p>
-</li>
-<li><p>You can add a predefined icon in the <strong>Icons</strong> tab.</p>
-<p>  <img src="../../../images/img118586.png" alt="NewRuleDialog_IconsTab"></p>
-</li>
-<li><p>Use the <strong>Custom Appearance</strong> area in the <strong>Appearance</strong> tab to add presets containing custom appearance settings. To add a new preset, click an empty square. This invokes the <strong>Custom Style Settings</strong> dialog, which allows you to specify required appearance settings.</p>
-<p>  <img src="../../../images/img118587.png" alt="CustomStyleSettingsDialog"></p>
-<p>  In this dialog, you can specify the background/foreground colors and font settings. Click <strong>Create</strong> to add a preset. </p>
+<li><p>Click the measure/dimension menu button in the Data Item&#39;s pane and select <strong>Add Format Rule</strong>/<strong>Edit Rules</strong>.</p>
+<p>  <img src="../../../images/editrulesmenuitem118590.png" alt=""> </p>
+<p>  The <strong>Add Format Rule</strong> option invokes the pop-up menu where you can select the format rule and format condition&#39;s type for a new rule. </p>
+<p>  When you click <strong>Edit Rules</strong>, the <a href="#the-edit-rules-dialog">Edit Rules</a> dialog appears. You can edit all created format rules for the selected data item in the dialog.</p>
+<p>  The <strong>Clear Rules</strong> button clears the rules for the specified data item.</p>
 </li>
 </ul>
-<h2 id="edit-a-format-rule">Edit a Format Rule</h2>
-<p>To edit format rules for the selected dashboard item, click the <strong>Edit Rules</strong> button in the <strong>Home</strong> ribbon tab.</p>
-<p><img src="../../../images/img118564.png" alt="EditRules_Ribbon"></p>
-<p>As an alternative, use the <strong>Edit Rules</strong> data item&#39;s menu item or the corresponding item in the dashboard item&#39;s context menu.</p>
-<p><img src="../../../images/img118590.png" alt="EditRulesMenuItem"></p>
-<p>This invokes the <strong>Edit Rules</strong> dialog containing existing format rules for this dashboard item.</p>
-<p><img src="../../../images/img118565.png" alt="EditRulesDialog"></p>
+<h2 id="the-edit-rules-dialog">The Edit Rules Dialog</h2>
+<p>The <strong>Edit Rules</strong> dialog contains format rules applied to the dashboard item:</p>
+<p><img src="../../../images/editrulesdialog118565.png" alt="edit_rules_dialog"></p>
+<p>You can manage format rules in the dialog in the following ways:</p>
 <table>
 <thead>
 <tr>
@@ -198,7 +171,19 @@
 </tr>
 </tbody>
 </table>
-<p>To clear all rules for the specified data item, use the <strong>Clear Rules</strong> button in the data item&#39;s context menu.</p>
+<p>The <strong>Add</strong> button invokes a pop-up menu where you can specify appearance settings and set the condition&#39;s value for the format rule. Available settings depend on the selected format rule.</p>
+<p><img src="../../../images/win-conditional-formatting-card-rule-manager.png" alt="rule_manager"></p>
+<p>The image below displays the <strong>Greater Than</strong> dialog, which corresponds to the <a href="conditional-formatting/value.html">Value</a> format condition for a <a href="../dashboard-item-settings/grid.html">Grid</a> dashboard item. The format condition applies to the <em>ExtendedPrice</em> data item in the <strong>Apply to</strong> drop-down list.</p>
+<p> <img src="../../../images/img118555.png" alt="GreaterThanDialog"></p>
+<h2 id="dashboard-items-specific">Dashboard Items Specific</h2>
+<p>Refer to the following topics for more information about specific format rule settings:</p>
+<ul>
+<li><a href="../dashboard-item-settings/grid/conditional-formatting.html">Conditional Formatting - Grid</a></li>
+<li><a href="../dashboard-item-settings/pivot/conditional-formatting.html">Conditional Formatting - Pivot</a></li>
+<li><a href="../dashboard-item-settings/cards/conditional-formatting.html">Conditional Formatting - Card</a></li>
+<li><a href="../dashboard-item-settings/chart/conditional-formatting.html">Conditional Formatting - Chart</a></li>
+<li><a href="../dashboard-item-settings/scatter-chart/conditional-formatting.html">Conditional Formatting - Scatter Chart</a></li>
+</ul>
 </article>
           </div>
           
@@ -207,12 +192,13 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/20.1/dashboard-for-desktop/articles/dashboard-designer/appearance-customization/conditional-formatting.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/20.2/dashboard-for-desktop/articles/dashboard-designer/appearance-customization/conditional-formatting.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+                <h5>In This Article</h5>
+                <div></div>
               </nav>
             </div>
           </div>

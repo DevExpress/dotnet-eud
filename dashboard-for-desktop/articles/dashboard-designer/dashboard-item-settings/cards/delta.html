@@ -1,0 +1,146 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Delta | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Delta | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.56.5.0">
+    
+    <link rel="shortcut icon" href="../../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../../index.html">
+                <img id="logo" class="svg" src="../../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="delta">Delta</h1>
+
+<p>Cards allow you to visualize the difference between the <a href="providing-data.html">actual and target</a> values using special delta values and a delta indicator. If the default layout is used (<a href="layout.html">Stretched layout type</a>), the card displays the following delta values/elements:</p>
+<p><img src="../../../../images/img128177.png" alt="Card_StretchedLayout_OnlyDeltaElements"></p>
+<ul>
+<li><strong>Delta Indicator</strong> - Indicates whether the actual value is less or greater than the target value.</li>
+<li><strong>Percent Variation</strong> and <strong>Absolute Variation</strong> - delta values that show a difference between the actual and target value. You can also display the <strong>Percent of Target</strong> value. To do this, customize the <a href="layout.html">card&#39;s layout</a>.</li>
+</ul>
+<p>To customize settings that relate to the calculation and display of delta values/elements, use the Options button (the <img src="../../../../images/img20167.png" alt="DataItemsArea_OptionsButton"> icon) displayed next to the data item container in the <strong><a href="providing-data.html">Cards</a></strong> section.</p>
+<p><img src="../../../../images/img19985.png" alt="Cards_DeltaOptions_OptionsButton"></p>
+<p>In the invoked <strong>Card Settings</strong> dialog, go to the <strong>Delta Options</strong> tab:</p>
+<p><img src="../../../../images/img128288.png" alt="CardSettings_DeltaOptionsTab"></p>
+<p>Then, specify the following settings:</p>
+<ul>
+<li><p><strong>Result Indication</strong> - 
+  You can specify the condition for displaying delta indication.</p>
+<ul>
+<li><p><strong>Greater is Good</strong> - The &#39;good&#39; indication is displayed if the actual value exceeds the target value; if the target value exceeds the actual value, the &#39;bad&#39; indication displays.</p>
+<p>  <img src="../../../../images/img128178.png" alt="Card_GreaterIsGood"></p>
+</li>
+<li><p><strong>Less is Good</strong> - The &#39;bad&#39; indication displays if the actual value exceeds the target value; if the target value exceeds the actual value, the &#39;good&#39; indication displays.</p>
+<p>  <img src="../../../../images/img128179.png" alt="Card_LessIsGood"></p>
+</li>
+<li><p><strong>Warning if Greater</strong> - A warning is displays only if the actual value exceeds the target value.</p>
+<p>  <img src="../../../../images/img128180.png" alt="Card_WarningIfGreater"></p>
+</li>
+<li><p><strong>Warning if Less</strong> - A warning is displays only if the target value exceeds the actual value.</p>
+<p>  <img src="../../../../images/img128181.png" alt="Card_WarningIfLess"></p>
+</li>
+<li><p><strong>No Indication</strong> - Indication does not display.</p>
+<p>  <img src="../../../../images/img128182.png" alt="Card_NoIndication"></p>
+</li>
+</ul>
+</li>
+<li><strong>Threshold type</strong> / <strong>Threshold value</strong> - 
+  For instance, you can specify that a specific indication should display when the actual value exceeds the target value <em>by 10%</em> or <em>by $2K</em>. Use the <strong>Threshold type</strong> combo box to select whether you wish to specify the comparison tolerance in percentage values or absolute values. Then use the <strong>Threshold value</strong> box to specify the comparison tolerance.</li>
+</ul>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/20.2/dashboard-for-desktop/articles/dashboard-designer/dashboard-item-settings/cards/delta.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2019 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../../styles/main.js"></script>
+  </body>
+</html>

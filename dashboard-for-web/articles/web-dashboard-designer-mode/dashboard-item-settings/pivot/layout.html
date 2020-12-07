@@ -1,0 +1,168 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Layout | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Layout | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.56.5.0">
+    
+    <link rel="shortcut icon" href="../../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../../index.html">
+                <img id="logo" class="svg" src="../../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="layout">Layout</h1>
+
+<p>This topic describes how to control the Pivot dashboard item layout, the visibility of totals and grand totals, etc.</p>
+<ul>
+<li><a href="#layouttype">Layout Type</a></li>
+<li><a href="#totalsvisibility">Totals Visibility</a></li>
+<li><a href="#totalsposition">Totals Position</a></li>
+<li><a href="#valuesvisibility">Values Visibility</a></li>
+<li><a href="#valuesposition">Values Position</a></li>
+</ul>
+<h2 id="a-namelayouttypelayout-type"><a name="layouttype"></a>Layout Type</h2>
+<p>If the Pivot dashboard item contains a hierarchy of dimensions in the <a href="providing-data.html">Rows</a> section, you can specify the layout used to arrange values corresponding to individual groups.</p>
+<table>
+<thead>
+<tr>
+<th>Layout type</th>
+<th>Example</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Compact</strong></td>
+<td><img src="../../../../images/img127806.png" alt="WebPivot_LayoutCompact"></td>
+<td>Displays values from different Row dimensions in a single column. Note that in this case totals are displayed at the top of a group, and you cannot change <a href="#totalsposition">totals position</a>.</td>
+</tr>
+<tr>
+<td><strong>Tabular</strong></td>
+<td><img src="../../../../images/img127807.png" alt="WebPivot_LayoutTabular"></td>
+<td>Displays values from different Row dimensions in separate columns.</td>
+</tr>
+</tbody>
+</table>
+<p>To change the Pivot layout, go to <strong><a href="../../ui-elements/dashboard-item-menu.html">Options menu</a></strong> | <strong>Layout</strong> and use the <strong>Layout</strong> option.</p>
+<h2 id="a-nametotalsvisibilitytotals-visibility"><a name="totalsvisibility"></a>Totals Visibility</h2>
+<p>You can control the visibility of totals and grand totals for the entire Pivot dashboard item. For instance, the image below displays the Pivot dashboard item with the disabled row totals.</p>
+<p><img src="../../../../images/img127808.png" alt="WebPivot_DisableRowTotals_Example"></p>
+<p>To manage the visibility of totals and grand totals, go to <strong><a href="../../ui-elements/dashboard-item-menu.html">Options menu</a></strong> | <strong>Layout</strong> and use the following options:</p>
+<ul>
+<li><strong>Row Totals</strong> / <strong>Row Grand Totals</strong></li>
+<li><strong>Column Totals</strong> / <strong>Column Grand Totals</strong></li>
+</ul>
+<p>Moreover, you can control the visibility of totals for individual dimensions/measures. To do this, go to <strong><a href="../../ui-elements/dashboard-item-menu.html">Bindings menu</a></strong>, select the required data item and use its <strong>Options</strong> | <strong>Show Totals</strong> option.</p>
+<h2 id="a-nametotalspositiontotals-position"><a name="totalsposition"></a>Totals Position</h2>
+<p>If necessary, you can change the position of totals/grand totals for the Pivot dashboard item. For instance, in the Image below the Pivot dashboard item whose row totals are moved from bottom to top.</p>
+<p><img src="../../../../images/img127809.png" alt="WebPivot_RowTotals_Bottom_Top"></p>
+<p>To manage totals position, go to <strong><a href="../../ui-elements/dashboard-item-menu.html">Options menu</a></strong> | <strong>Layout</strong> and use the following options:</p>
+<ul>
+<li><strong>Row Totals Position</strong></li>
+<li><strong>Column Totals Position</strong></li>
+</ul>
+<h2 id="a-namevaluesvisibilityvalues-visibility"><a name="valuesvisibility"></a>Values Visibility</h2>
+<p>The Pivot dashboard item can contain several measures in the <a href="providing-data.html">Values</a> section. In this case, you can hide summary values corresponding to specific measures. For instance, the image below shows the Pivot with hidden <em>Quantity</em> values.</p>
+<p><img src="../../../../images/img127811.png" alt="WebPivot_ValuesVisibility"></p>
+<p>To do this, go to <strong><a href="../../ui-elements/dashboard-item-menu.html">Bindings menu</a></strong>, select the required measure and use its <strong>Options</strong> | <strong>Show Values</strong> option.</p>
+<h2 id="a-namevaluespositionvalues-position"><a name="valuesposition"></a>Values Position</h2>
+<p>The Pivot dashboard item allows you to control the position of headers used to arrange summary values corresponding to different measures. For instance, you can display values in columns or in rows.</p>
+<p><img src="../../../../images/img127810.png" alt="WebPivot_ValuesPosition"></p>
+<p>To manage this position, go to <strong><a href="../../ui-elements/dashboard-item-menu.html">Options menu</a></strong> | <strong>Layout</strong> and use the <strong>Values Position</strong> option.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/20.2/dashboard-for-web/articles/web-dashboard-designer-mode/dashboard-item-settings/pivot/layout.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2019 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../../styles/main.js"></script>
+  </body>
+</html>

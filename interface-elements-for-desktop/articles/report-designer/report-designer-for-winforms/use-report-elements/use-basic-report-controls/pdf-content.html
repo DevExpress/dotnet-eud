@@ -1,0 +1,171 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>PDF Content | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="PDF Content | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.56.5.0">
+    
+    <link rel="shortcut icon" href="../../../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../../../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../../../index.html">
+                <img id="logo" class="svg" src="../../../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="pdf-content">PDF Content</h1>
+
+<p><strong>PDF Content</strong> is a control that renders PDF content in a report.</p>
+<p>PDF content is rendered on separate pages and uses its own page settings.</p>
+<p><img src="../../../../../images/eurd-win-pdf-content-diagram.png" alt=""></p>
+<p>Use one of the following options to specify PDF content:</p>
+<ul>
+<li><p><a href="#specify-pdf-data">Specify PDF data</a>.</p>
+<p>  This data is stored in the report file. The source of this data does not need to be available when the report is rendered.</p>
+</li>
+<li><p><a href="#specify-a-reference-to-a-pdf-document">Specify a reference to a PDF document</a>.</p>
+<p>  The reference to the document is stored in the report definition file. The referenced document should be available when the report is rendered.</p>
+</li>
+</ul>
+<h2 id="add-a-pdf-content-control-to-a-report">Add a PDF Content Control to a Report</h2>
+<p>Drop the <strong>PDF Content</strong> item from the Toolbox onto a <a href="../../introduction-to-banded-reports.html">band</a> on the design surface.</p>
+<p><img src="../../../../../images/eurd-win-pdf-content-drop-from-toolbox.png" alt=""></p>
+<p>You can also copy a PDF document from an external application and paste it in your report, or drag a document and drop it onto the design surface. The dragged file&#39;s content is assigned to the control&#39;s <strong>Source</strong> property as <a href="#specify-pdf-data">PDF data</a>.</p>
+<p><img src="../../../../../images/eurd-win-pdf-content-drag-file.png" alt=""></p>
+<h2 id="specify-pdf-data">Specify PDF Data</h2>
+<p>You can assign PDF data to the control&#39;s <strong>Source</strong> property.</p>
+<p>Expand the <strong>PDF Content</strong>&#39;s smart tag and click the <strong>Source</strong> property&#39;s ellipsis button to obtain the binary data from a file.</p>
+<p><img src="../../../../../images/eurd-win-pdf-content-source-ellipsis.png" alt=""></p>
+<p>When users save a report, the <strong>Source</strong> property value persists in the report file.</p>
+<div class="TIP"><h5>Tip</h5><p>See the <a href="#use-expressions">Use Expressions</a> section below for information on how to conditionally specify the <strong>Source</strong> property value, or bind it to a report parameter or data source field.</p>
+</div>
+<h2 id="specify-a-reference-to-a-pdf-document">Specify a Reference to a PDF Document</h2>
+<p>You can use an external PDF document as a source of PDF data. Set the <strong>Source URL</strong> property to a local file system path or URL.</p>
+<p>Expand the <strong>PDF Content</strong>&#39;s smart tag and click the <strong>Source URL</strong> property&#39;s ellipsis button to specify the PDF document location in the file system.</p>
+<p><img src="../../../../../images/eurd-win-pdf-content-sourceurl-ellipsis.png" alt=""></p>
+<p>To specify the PDF document&#39;s location on the Web, use the URL as the <strong>Source URL</strong> property&#39;s value.</p>
+<p><img src="../../../../../images/eurd-win-pdf-content-sourceurl.png" alt=""></p>
+<p>When users save a report, the URL or path specified in the <strong>Source URL</strong> property is included in the report file. The PDF document should be available at the specified location when a report is printed or rendered in Preview.</p>
+<div class="TIP"><h5>Tip</h5><p>See the <a href="#use-expressions">Use Expressions</a> section for information on how to conditionally specify the <strong>Source URL</strong> property value, or bind it to a report parameter or data source field.</p>
+</div>
+<p>The <strong>Source URL</strong> property value takes precedence over the <strong>Source</strong> property value. If you specify both properties, <strong>PDF Content</strong> includes the content specified by <strong>Source URL</strong>. However, if the file specified in the <strong>Source URL</strong> property cannot be loaded, the binary data from the <strong>Source</strong> property is used.</p>
+<h2 id="use-expressions">Use Expressions</h2>
+<p>You can specify an expression that specifies the <strong>Source</strong> or <strong>Source URL</strong> property value. An expression can include <a href="../../shape-report-data/use-report-parameters.html">report parameters</a> or <a href="../../bind-to-data.html">data source</a> fields, or it can conditionally specify a property value.</p>
+<p>Expand the <strong>PDF Content</strong>&#39;s smart tag.</p>
+<ul>
+<li><p>Click the <strong>Expression</strong> property&#39;s ellipsis button below the <strong>Source</strong> property. Use the invoked <strong>Expression Editor</strong> to create an expression that identifies the source of binary PDF data.</p>
+<p>  <img src="../../../../../images/eurd-win-pdf-content-source-expression.png" alt=""></p>
+</li>
+<li><p>Click the <strong>Expression</strong> property&#39;s ellipsis button below the <strong>Source URL</strong> property. Use the invoked <strong>Expression Editor</strong> to create an expression the value of which identifies a URL or path to a PDF document.</p>
+<p>  <img src="../../../../../images/eurd-win-pdf-content-sourceurl-expression.png" alt=""></p>
+</li>
+</ul>
+<h2 id="limitations">Limitations</h2>
+<ul>
+<li><p>PDF content always starts on a new page. Report content is printed?on a new page after the PDF content is finished.</p>
+</li>
+<li><p>PDF content is displayed as an image in Preview. Users cannot select text in PDF content. To allow users to select text, export the report to PDF.</p>
+</li>
+<li><p>You cannot add the <strong>PDF Content</strong> control to the following bands:</p>
+<ul>
+<li><strong>Top Margin</strong> / <strong>Bottom Margin</strong></li>
+<li><strong>Page Header</strong> / <strong>Page Footer</strong></li>
+<li><strong>Group Header</strong> / <strong>Group Footer</strong> bands (if their <strong>Repeat Every Page</strong> properties are enabled).</li>
+<li><strong>Vertical Header</strong> / <strong>Vertical Detail</strong> / <strong>Vertical Total</strong></li>
+</ul>
+</li>
+</ul>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/20.2/interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/use-report-elements/use-basic-report-controls/pdf-content.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2019 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../../../styles/main.js"></script>
+  </body>
+</html>

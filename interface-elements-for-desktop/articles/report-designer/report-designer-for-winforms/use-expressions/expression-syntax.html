@@ -8,7 +8,7 @@
     <title>Expression Syntax | DevExpress End-User Documentation </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Expression Syntax | DevExpress End-User Documentation ">
-    <meta name="generator" content="docfx 2.37.0.0">
+    <meta name="generator" content="docfx 2.56.5.0">
     
     <link rel="shortcut icon" href="../../../../../favicon.ico">
     <link rel="stylesheet" href="../../../../../styles/docfx.vendor.css">
@@ -935,7 +935,7 @@
 </tbody>
 </table>
 <h2 id="functions-for-expression-bindings-and-calculated-fields">Functions for Expression Bindings and Calculated Fields</h2>
-<p>Below is a list of functions that are used to construct <a href="../bind-to-data/data-binding-modes.html">expression bindings</a> and <a href="../shape-report-data/use-calculated-fields.html">calculated fields</a>:</p>
+<p>Below is a list of functions that are used to construct <a href="data-binding-modes.html">expression bindings</a> and <a href="../shape-report-data/use-calculated-fields.html">calculated fields</a>:</p>
 <table><tr><th><p>Function</p>
 </th><th><p>Description</p>
 </th><th><p>Example</p>
@@ -946,7 +946,7 @@
 <p><em>Beverages</em></p>
 <p><em>Soft drinks, coffees, teas, beers and ales.</em></p>
 </td></tr><tr><td><p>FormatString(Format, Value1, ... , ValueN)</p>
-</td><td><p>Returns the specified string with formatted field values. See <a class="xref" href="../shape-report-data/shape-data-data-bindings/format-data.html">Format Data</a> for details.</p>
+</td><td><p>Returns the specified string with formatted field values. See <a class="xref" href="../shape-report-data/format-data.html">Format Data</a> for details.</p>
 </td><td><p>FormatString(&#39;{0:$0.00}&#39;, [UnitPrice])</p>
 <p>Result: <em>$45.60</em></p>
 </td></tr><tr><td><p>Rgb(Red, Green, Blue)</p>
@@ -991,7 +991,7 @@
 </td></tr></table>
 
 <h2 id="a-namesummary-expression-editorfunctions-for-summary-expression-editora"><a name="summary-expression-editor">Functions for Summary Expression Editor</a></h2>
-<p>Use the following functions when <a href="../shape-report-data/shape-data-expression-bindings/calculate-a-summary.html">calculating summaries</a> across a report and its groups:</p>
+<p>Use the following functions when <a href="../shape-report-data/calculate-summaries/calculate-a-summary.html">calculating summaries</a> across a report and its groups:</p>
 <table><tr><th><p>Function</p>
 </th><th><p>Description</p>
 </th><th><p>Example</p>
@@ -1000,8 +1000,8 @@
 </td><td><p>sumAvg([UnitPrice])</p>
 </td></tr><tr><td><p>sumCount(Expression)</p>
 </td><td><p>Counts the number of values within the specified summary region (group, page or report). In a simple scenario, you may not pass a parameter.</p>
-<p>  When using this function in a <a class="xref" href="../create-popular-reports/create-a-master-detail-report-use-detail-report-bands.html">master-detail report</a>&#39;s master band and passing a detail&#39;s field as a parameter, it counts the number of records within the detail&#39;s band.</p>
-<p>  See also: <a class="xref" href="../shape-report-data/shape-data-data-bindings/count-the-number-of-records-in-a-report-or-group.html">Counting the Number of Records in a Report or Group</a>, <a class="xref" href="../shape-report-data/shape-data-data-bindings/count-the-number-of-groups-in-a-report.html">Counting the Number of Groups in a Report</a></p>
+<p>  When using this function in a <a class="xref" href="../create-reports/master-detail-reports-with-detail-report-bands.html">master-detail report</a>&#39;s master band and passing a detail&#39;s field as a parameter, it counts the number of records within the detail&#39;s band.</p>
+<p>  See also: <a class="xref" href="../shape-report-data/count-elements-and-values/count-the-number-of-records-in-a-report-or-group.html">Counting the Number of Records in a Report or Group</a>, <a class="xref" href="../shape-report-data/count-elements-and-values/count-the-number-of-groups-in-a-report.html">Counting the Number of Groups in a Report</a></p>
 </td><td><p>sumCount([UnitPrice])</p>
 </td></tr><tr><td><p>sumDAvg(Expression)</p>
 </td><td><p>Calculates the average of all the <strong>distinct</strong> values within the specified summary region (group, page or report).</p>
@@ -1040,7 +1040,7 @@
 </td></tr><tr><td><p>sumRecordNumber(Expression)</p>
 </td><td><p>Returns the current record number in the specified summary region (group, page or report). This means for instance, if the summary is calculated for a group, then the record number is calculated only within that group, and is reset every time a new group is started.</p>
 <p>  In a simple scenario, you may not pass a parameter.</p>
-<p>  See also: <a class="xref" href="../shape-report-data/shape-data-data-bindings/display-row-numbers-in-a-report-group-or-page.html">Displaying Row Numbers in a Report, Group or Page</a></p>
+<p>  See also: <a class="xref" href="../shape-report-data/count-elements-and-values/display-row-numbers-in-a-report-group-or-page.html">Displaying Row Numbers in a Report, Group or Page</a></p>
 </td><td><p>sumRecordNumber()</p>
 </td></tr><tr><td><p>sumRunningSum(Expression)</p>
 </td><td><p>Summarizes all the values, which were printed before the current data row, with the current data row&#39;s value.</p>
@@ -1111,7 +1111,7 @@
 </td><td><p>Iif([DataSource.CurrentRowIndex] % 2 = 0, &#39;red&#39;, &#39;green&#39;)</p>
 <p>Result: When this expression is used for a table row&#39;s BackColor property, odd rows are colored in red, even rows are colored in green.</p>
 </td></tr><tr><td><p>DataSource.CurrentRowHierarchyLevel</p>
-</td><td><p>Returns a zero-based level of the current row in a <a class="xref" href="../create-popular-reports/create-a-hierarchical-report.html">hierarchical report</a>.</p>
+</td><td><p>Returns a zero-based level of the current row in a <a class="xref" href="../create-reports/hierarchical-reports.html">hierarchical report</a>.</p>
 </td><td><p>Iif([DataSource.CurrentRowHierarchyLevel] == 0, Rgb(231,235,244), ?)</p>
 <p>Result: When this expression is used for the BackColor property of the Detail band that is printed in tree mode, the root level rows are highlighted.</p>
 </td></tr></table>
@@ -1192,12 +1192,13 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/20.1/interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/use-expressions/expression-syntax.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/20.2/interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/use-expressions/expression-syntax.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+                <h5>In This Article</h5>
+                <div></div>
               </nav>
             </div>
           </div>
