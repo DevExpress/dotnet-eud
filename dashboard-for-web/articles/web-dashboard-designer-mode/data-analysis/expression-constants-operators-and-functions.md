@@ -318,6 +318,7 @@ Iif(Name = 'Bob', 1, Name = 'Dan', 2, Name = 'Sam', 3, 0)
 | CharIndex(String1, String2) | Returns the starting position of String1 within String2, beginning from the zero character position to the end of a string. | CharIndex('e', 'devexpress') | 
 | CharIndex(String1, String2, StartLocation) | Returns the starting position of String1 within String2, beginning from the StartLocation character position to the end of a string. | CharIndex('e', 'devexpress', 2) | 
 | Concat(String1, ... , StringN) | Returns a string value containing the concatenation of the current string with any additional strings. | Concat('A', ')', [ProductName]) | 
+| Contains(String1, SubString1) | Returns True if SubString1 occurs within String1; otherwise, False is returned.| Contains([ProductName], 'dairy') | 
 | EndsWith(String1, SubString1) | Returns True if the end of String1 matches SubString1; otherwise, False is returned. | EndsWith([Description], 'The end.') | 
 | Insert(String1, StartPosition, String2) | Inserts String2 into String1 at the position specified by StartPositon | Insert([Name], 0, 'ABC-') | 
 | Len(Value) | Returns an integer containing either the number of characters in a string or the nominal number of bytes required to store a variable. | Len([Description]) | 
