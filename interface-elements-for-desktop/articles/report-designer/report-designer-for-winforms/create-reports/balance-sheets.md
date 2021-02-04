@@ -139,8 +139,6 @@ The Cross Tab control no longer displays grand total values.
 
     ![](../../../../images/eurd-win-balance-sheet-cell-appearance-settings.png)
 
-![](../../../../images/eurd-win-balance-sheet-styles-preview.png)
-
 5. Select the cells in the top row and in the rows with total values. Set the **Borders** property to **Bottom** and **Border Width** property to **2**.
 
     ![](../../../../images/eurd-win-balance-sheet-add-borders.png)
