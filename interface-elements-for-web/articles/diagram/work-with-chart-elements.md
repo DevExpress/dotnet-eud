@@ -19,7 +19,7 @@ If the [Snap to Grid](page-and-view-settings.md#grid-settings) option is enabled
 
 ![Mobile Element](../../images/diagram-move-element.gif)
 
-You can combine Ctrl and Shift buttons.
+You can combine the Ctrl and Shift buttons.
 
 ## Resize a Shape
 
@@ -33,7 +33,7 @@ If the [Snap to Grid](page-and-view-settings.md#grid-settings) option is enabled
 
 ![Resize a Shape](../../images/diagram-resize-shape.gif)
 
-You can combine Ctrl and Shift buttons.
+You can combine the Ctrl and Shift buttons.
 
 ## Transform a Shape
 
@@ -61,11 +61,12 @@ You can use the mouse or keyboard commands to create a copy of an element or a g
 - **Mouse**: press Alt and drag an element to clone it.
 
 
-- **Keyboard**: select an element and press Ctrl+Shift+arrow to create a copy next to the original element in the arrow's direction.
+- **Keyboard**: select an element and press Alt+arrow to create a copy next to the original element in the arrow's direction.
 
 
 ![Clone a Shape](../../images/diagram-clone-element.gif)
 
+You can combine  the Alt, Ctrl, and Shift buttons.
 
 ## Link a Connector to a Shape
 

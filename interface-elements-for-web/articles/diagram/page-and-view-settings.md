@@ -44,6 +44,6 @@ To switch to full screen mode, click the **Full Screen** command on the **View**
 
 Use one of the following ways to zoom into or out of a diagram page:
 
-* Press and hold the **Ctrl** key and spin the mouse wheel.
+* Press and hold the Ctrl key and spin the mouse wheel.
 
 * Change the current zoom level in the **View** toolbar.
