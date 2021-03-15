@@ -30,7 +30,8 @@ Use the following commands on the **View** toolbar to control grid settings.
 
 * Drag a side/bottom scroll bar to scroll a page vertically/horizontally.
 
-* Hold Space and drag a diagram page to scroll it in any direction.
+* Hold Space and drag a diagram page to pan it in any direction.
+
 
     ![Scroll a Page](../../images/diagram-scroll-page.gif)
 
