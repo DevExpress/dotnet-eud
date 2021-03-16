@@ -66,7 +66,8 @@ You can use the mouse or keyboard commands to create a copy of an element or a g
 
 ![Clone a Shape](../../images/diagram-clone-element.gif)
 
-You can combine  the Alt, Ctrl, and Shift buttons.
+You can combine the Alt, Ctrl, and Shift buttons.
+
 
 ## Link a Connector to a Shape
 
