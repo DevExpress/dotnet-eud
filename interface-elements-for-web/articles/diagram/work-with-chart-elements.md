@@ -37,7 +37,8 @@ You can combine the Ctrl and Shift buttons.
 
 ## Transform a Shape
 
-Certain shapes display a transform handle when selected. Use this handle to transform the shape.
+Certain shapes display a transformation handle when selected. Use this handle to transform the shape.
+
 
 ![Resize a Shape](../../images/diagram-transform-shape.gif)
 
