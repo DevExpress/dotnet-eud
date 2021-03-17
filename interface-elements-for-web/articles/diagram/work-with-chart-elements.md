@@ -11,23 +11,34 @@ You can use the mouse or keyboard commands to move an element or a group of [sel
 - **Mouse**: drag and drop an element. 
 - **Keyboard**: select an element and press arrow keys to move the element.
 
-If the [Snap to Grid](page-and-view-settings.md#grid-settings) option is enabled, an element is moved snapping to the grid. Press and hold Ctrl to move the element smoothly.
+Press and hold Shift to move the element horizontally or vertically.
+
+![Mobile Element](../../images/diagram-move-element-shift.gif)
+
+If the [Snap to Grid](page-and-view-settings.md#grid-settings) option is enabled, an element is moved snapping to the grid. Press and hold Ctrl to move the element smoothly. 
 
 ![Mobile Element](../../images/diagram-move-element.gif)
+
+You can combine the Ctrl and Shift buttons.
 
 ## Resize a Shape
 
 1. [Select a shape](select-elements.md) to display resizing squares along the selection.
 
-1. Drag a square to resize the shape. 
+1. Drag a square to resize the shape.
+
+Press and hold Shift to maintain the shape's width-to-height ratio.
 
 If the [Snap to Grid](page-and-view-settings.md#grid-settings) option is enabled, a shape is resized snapping to the grid. Press and hold Ctrl to resize the element smoothly.
 
 ![Resize a Shape](../../images/diagram-resize-shape.gif)
 
+You can combine the Ctrl and Shift buttons.
+
 ## Transform a Shape
 
-Certain shapes display a transform handle when selected. Use this handle to transform the shape.
+Certain shapes display a transformation handle when selected. Use this handle to transform the shape.
+
 
 ![Resize a Shape](../../images/diagram-transform-shape.gif)
 
@@ -45,17 +56,11 @@ A connector can have several texts. A text box appears at the double-clicked pos
 
 ## Clone an Element
 
-You can use the mouse or keyboard commands to create a copy of an element or a group of [selected elements](select-elements.md).
-
-
-- **Mouse**: press Ctrl+Shift and drag an element to clone it.
-
-
-- **Keyboard**: select an element and press Ctrl+Shift+arrow to create a copy next to the original element in the arrow's direction.
-
+Press Alt and drag an element to clone it.
 
 ![Clone a Shape](../../images/diagram-clone-element.gif)
 
+You can combine the Alt, Ctrl, and Shift buttons.
 
 ## Link a Connector to a Shape
 
