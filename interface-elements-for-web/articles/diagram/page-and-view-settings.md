@@ -32,8 +32,7 @@ Use the following commands on the **View** toolbar to control grid settings.
 
 * Hold Space and drag a diagram page to pan it in any direction.
 
-
-    ![Scroll a Page](../../images/diagram-scroll-page.gif)
+![Scroll a Page](../../images/diagram-scroll-page.gif)
 
 ## Full Screen
 
