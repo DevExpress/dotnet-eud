@@ -521,6 +521,8 @@
         href: articles\report-designer\report-designer-for-winforms\bind-to-data\bind-a-report-to-a-transformation-based-data-source.md          
       - name: Bind a Report to a Federated Master-Detail Data Source
         href: articles\report-designer\report-designer-for-winforms\bind-to-data\bind-a-report-to-a-federated-master-detail-data-source.md
+      - name: Data Binding Modes
+        href: articles/report-designer/report-designer-for-winforms/use-expressions/data-binding-modes.md
     - name: Create Reports
       href: articles/report-designer/report-designer-for-winforms/create-reports.md
       items:
@@ -887,8 +889,6 @@
       items:
       - name: Expression Syntax
         href: articles/report-designer/report-designer-for-winforms/use-expressions/expression-syntax.md
-      - name: Data Binding Modes
-        href: articles/report-designer/report-designer-for-winforms/use-expressions/data-binding-modes.md
     - name: Use Report Scripts
       href: articles/report-designer/report-designer-for-winforms/use-report-scripts.md
     - name: Print, Preview and Export Reports
