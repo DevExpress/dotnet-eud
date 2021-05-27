@@ -30,6 +30,8 @@
       href: articles/dashboard-designer/providing-data/binding-to-object-data-sources.md
     - name: Binding to XPO Data Sources
       href: articles/dashboard-designer/providing-data/binding-to-xpo-data-sources.md
+    - name: Binding to MongoDB
+      href: articles/dashboard-designer/providing-data/binding-to-mongodb.md
   - name: Working with Data
     href: articles/dashboard-designer/working-with-data.md
     items:
