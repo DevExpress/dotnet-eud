@@ -22,9 +22,9 @@ Follow the steps below to establish a connection to a database:
 
     - Pass an entire string. 
 
-        Refer to the following topic for information about connection string format and options: [Connection String URI Format](https://docs.mongodb.com/manual/reference/connection-string/).
-
         ![MongoDB Connection String](../../../images/win-data-source-wizard-mongo-specify-connection-parameters.png)
+
+        Refer to the following topic for information about connection string format and options: [Connection String URI Format](https://docs.mongodb.com/manual/reference/connection-string/).
 
     - Enter connection fields individually.
 

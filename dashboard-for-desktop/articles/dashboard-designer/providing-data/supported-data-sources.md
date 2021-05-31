@@ -39,7 +39,7 @@ To connect to various SQL databases, the Dashboard Designer requires correspondi
 | MySQL | 4.1 or higher | ADO.NET driver for MySQL | MySql.Data.dll | [Download link](http://dev.mysql.com/downloads/connector/net/) |
 | Pervasive PSQL | 9.x or higher | PSQL ADO.NET Data Provider | Pervasive.Data.SqlClient.dll | [Download link](http://www.pervasive.com/database/Home/Products/psqlv12.aspx) |
 | PostgreSQL | 7.x or higher | .NET data provider for PostgreSQL | Npgsql.dll | [Download link](http://www.npgsql.org/) |
-| VistaDB | 4, 5 | VistaDB ADO.NET Provider | VistaDB.5.NET40.dll | [Download link](http://www.gibraltarsoftware.com/VistaDB) |
+| VistaDB | 4, 5, 6 | VistaDB ADO.NET Provider | VistaDB.5.NET40.dll | [Download link](http://www.gibraltarsoftware.com/VistaDB) |
 | SQLite | 3.x | ADO.NET provider for SQLite | System.Data.SQLite.dll | [Download link](https://system.data.sqlite.org/index.html/doc/trunk/www/index.wiki) |
 | XML file | n/a | n/a | n/a | n/a |
 

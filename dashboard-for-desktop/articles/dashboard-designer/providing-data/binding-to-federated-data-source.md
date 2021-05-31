@@ -18,6 +18,7 @@ You can create federated queries of the following types:
 - **Transformation**
 
   If a data source contains a complex column (an object), you can transform its properties to display them as separate columns in a flattened view. 
+  
 ## Create a Federated Data Source with the Data Source Wizard
 
 To create a federated data source with the Data Source Wizard, perform the following steps:
