@@ -34,7 +34,7 @@ On the first page of the invoked **Data Source Wizard** dialog, select **Data Fe
 ![Choose_federated_data_source](../../../images/choose-federated-data-source.png)
 ### Select the Query Type 
 
-The [Query Builder](../../dashboard-designer/working-with-data/using-the-query-builder.md) displays the available data sources you can use to create queries.
+The [Query Builder](../../dashboard-designer/work-with-data/using-the-query-builder.md) displays the available data sources you can use to create queries.
 
    ![Query_Builder_available_sources](../../../images/query-builder-available-sources.png)
 
