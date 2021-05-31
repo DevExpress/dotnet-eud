@@ -6,6 +6,8 @@ legacyId: 117706
 # Filtering
 Web Dashboard allows you to filter data in the [dashboard items](../dashboard-item-settings.md) or apply filters to a specific measure. [Dimensions](../bind-dashboard-items-to-data/bind-dashboard-items-to-data-in-the-web-dashboard.md) and [hidden dimensions](../bind-dashboard-items-to-data/hidden-data-items.md) are used to build filter criteria.
 
+![Filtering_Main](../../../images/filtering_main132414.png)
+
 ## Dashboard Item Filter
 
 Filters that are applied to a dashboard item affect only this item. Open a dashboard item's [Filters](../ui-elements/dashboard-item-menu.md) menu, go to the **Item Filter** section and click **Edit** to add a filter:
