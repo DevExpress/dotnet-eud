@@ -25,7 +25,7 @@ On finishing the wizard, each of the selected data items will be included into a
 ![eurd-win-report-field-list](../../../../../../images/eurd-win-report-field-list.png)
 
 ## Specify Master-Detail Relationships
-To define [master-detail relationships](../../../create-popular-reports/create-a-master-detail-report-use-detail-report-bands.md) between two or more queries, click **Manage Relations**.
+To define [master-detail relationships](../../../create-reports/master-detail-reports-with-detail-report-bands.md) between two or more queries, click **Manage Relations**.
 
 ![eurd-master-detail-relation-editor-categories-products-order-details](../../../../../../images/eurd-master-detail-relation-editor-categories-products-order-details.png)
 
@@ -43,4 +43,4 @@ On finishing the wizard, the specified data relationships will appear in the [Fi
 
 ![eurd-win-report-field-list2](../../../../../../images/eurd-win-report-field-list2.png)
 
-If selected queries or stored procedures contain any [parameters](../../../shape-report-data/use-report-parameters/query-parameters.md), you will be required to define their values on the next wizard page: [Configure Query Parameters](configure-query-parameters.md).
+If selected queries or stored procedures contain any [parameters](../../../bind-to-data/specify-query-parameters.md), you will be required to define their values on the next wizard page: [Configure Query Parameters](configure-query-parameters.md).

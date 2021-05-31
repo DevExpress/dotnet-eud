@@ -82,7 +82,7 @@ Right click or press Esc to cancel the Magnifier mode.
 
 ## Specify Expressions
 
-If [expression bindings](../../bind-to-data/data-binding-modes.md) are enabled, the Property Grid allows you to specify expressions that can include two or more data fields and various functions. Click a property's marker to see whether the invoked context menu has the **PropertyName Expression** item.
+If [expression bindings](../../use-expressions/data-binding-modes.md) are enabled, the Property Grid allows you to specify expressions that can include two or more data fields and various functions. Click a property's marker to see whether the invoked context menu has the **PropertyName Expression** item.
 
 ![WinFormsPropertyGrid-Expression](../../../../../images/eurd-win-PropertyGrid-Expression-nontabbed.png)
 

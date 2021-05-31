@@ -40,12 +40,13 @@ When enabling content editing in your report, consider the following.
 
 To learn about the specifics of editing different kinds of content, see the following sections in this document.
 
-* [Text Editors](#texteditors)
-* [Check Box Editor](#checkboxeditor)
-* [Image Editors](#imageeditors)
+* [Text Editors](#text-editors)
+* [Character Comb Editors](#character-comb-editors)
+* [Check Box Editor](#check-box-editor)
+* [Image Editors](#image-editors)
 
 
-## <a name="texteditors"></a>Text Editors
+## Text Editors
 The [Label](..\use-report-elements\use-basic-report-controls\label.md), [Table Cell](..\use-report-elements\use-tables.md) and [Character Comb](..\use-report-elements\use-basic-report-controls\character-comb.md) controls can be assigned editors to customize their content in Print Preview.
 
 To enable content editing for these controls, expand the **Behavior** category, select the **Edit Options** section and set the **Enabled** property to **Yes**.
@@ -74,7 +75,15 @@ The following editors can be used to customize a field's content in Print Previe
 > 
 > ![](../../../images/eurd-web-content-editing-table-cell-container.png)
 
-## <a name="checkboxeditor"></a>Check Box Editor
+## Character Comb Editors
+
+The **Character Comb** control displays text so that each character is printed in an individual cell.
+
+![Character Comb](../../../images/eurd-web-character-comb-report-control.png)
+
+Specify the Character Comb's **Edit Options** | **Editor Name** property to use a text editor, as described in the [Text Editors](#text-editors) section above.
+
+## Check Box Editor
 The [Check Box](..\use-report-elements\use-basic-report-controls\check-box.md) control's value can be edited in Print Preview.
 
 To enable content editing for a check box, expand the **Behavior** category, select the **Edit Options** section and set the **Enabled** property to **Yes**.
@@ -89,7 +98,7 @@ In Print Preview, the control's behavior depends on the **Group ID** setting.
 
 * Otherwise, the field editor behaves like a radio button, and editors with the same **Group ID** value belong to a single logical group (i.e., only one option can be selected within a group at a time).
 
-## <a name="imageeditors"></a>Image Editors
+## Image Editors
 
 Image editors are used to customize the [Picture Box](..\use-report-elements\use-basic-report-controls\picture-box.md) report control's content in Print Preview.
 
@@ -119,3 +128,10 @@ Use the control's **Editor Name** property to assign one of the following image 
 
 All the image editors listed above can include the ![](../../../images/eurd-web-ContentEditing-Image-Reset-Menu-Item.png) menu item. This item is available only when the Picture Box control has an original image.
 
+## Export Editable Fields to PDF AcroForms
+
+Enable the report's **Export Options | PDF Export Options | Export Editing Fields to AcroForms** property to export [text fields](#text-editors), [check boxes](#check-box-editor), [character combs](#character-comb-editors), and [image editors](#image-editors) to PDF as editable form fields (**AcroForms**).
+
+![Export Editing Fields to AcroForms](../../../images/eurd-web-exporteditingfieldstoacroforms.png)
+
+![Report Preview](../../../images/eurd-web-editing-fields-preview.png)

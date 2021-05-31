@@ -51,6 +51,25 @@
     href: articles/charting/series-selection.md
 - name: Data View
   href: articles/data-view.md
+- name: Diagram
+  href: articles/diagram.md
+  items:
+  - name: First Look at the Diagram
+    href: articles/diagram/first-look-at-the-diagram.md
+  - name: Create a New Chart
+    href: articles/diagram/create-a-new-chart.md
+  - name: Select Elements
+    href: articles/diagram/select-elements.md
+  - name: Work with Chart Elements
+    href: articles/diagram/work-with-chart-elements.md       
+  - name: Chart Layout
+    href: articles/diagram/chart-layout.md
+  - name: Page and View Settings
+    href: articles/diagram/page-and-view-settings.md
+  - name: Export to an Image
+    href: articles/diagram/export-to-an-image.md
+  - name: Keyboard Shortcuts
+    href: articles/diagram/keyboard-shortcuts.md          
 - name: Docking Panel
   href: articles/docking-panel.md
 - name: Document Viewer
@@ -181,6 +200,21 @@
     href: articles/filter-editor/change-conditions-in-filter-editor.md
   - name: Delete Conditions
     href: articles/filter-editor/delete-conditions-in-filter-editor.md 
+- name: Gantt
+  href: articles/gantt.md
+  items:
+  - name: Context Menu
+    href: articles/gantt/context-menu.md
+  - name: Toolbar
+    href: articles/gantt/toolbar.md
+  - name: Data Editing
+    items:
+    - name: Add, Edit and Delete Tasks
+      href: articles/gantt/data-editing/modify-tasks.md
+    - name: Add and Delete Dependencies
+      href: articles/gantt/data-editing/modify-dependencies.md
+    - name: Add, Edit and Delete Resources
+      href: articles/gantt/data-editing/modify-resources.md
 - name: Grid
   href: articles/grid.md
   items:
@@ -489,47 +523,43 @@
     items:
     - name: Bind a Report to a Database
       href: articles/report-designer/bind-to-data/bind-a-report-to-a-database.md
+    - name: Specify Query Parameters
+      href: articles/report-designer/bind-to-data/specify-query-parameters.md
     - name: Bind a Report to JSON Data
       href: articles/report-designer/bind-to-data/bind-a-report-to-json-data.md   
     - name: Bind a Report to an Object Data Source
-      href: articles/report-designer/bind-to-data/bind-a-report-to-an-object-data-source.md   
-    - name: Data Binding Modes
-      href: articles/report-designer/bind-to-data/data-binding-modes.md
-    - name: Bind Report Controls to Data (Expression Bindings)
-      href: articles/report-designer/bind-to-data/bind-controls-to-data-expression-bindings.md
-    - name: Bind Report Controls to Data (Data Bindings)
-      href: articles/report-designer/bind-to-data/bind-controls-to-data-data-bindings.md
-    - name: Use Embedded Fields (Mail Merge)
-      href: articles/report-designer/bind-to-data/use-embedded-fields-mail-merge.md
-    - name: Validate Report Data Bindings
-      href: articles/report-designer/bind-to-data/validate-report-data-bindings.md
-  - name: Create Popular Reports
-    href: articles/report-designer/create-popular-reports.md
+      href: articles/report-designer/bind-to-data/bind-a-report-to-an-object-data-source.md
+  - name: Create Reports
+    href: articles/report-designer/create-reports.md
     items:
-    - name: Create a Letter
-      href: articles/report-designer/create-popular-reports/create-a-letter.md
-    - name: Create a Table Report
-      href: articles/report-designer/create-popular-reports/create-a-table-report.md
-    - name: Create an Invoice Manually
-      href: articles/report-designer/create-popular-reports/create-an-invoice-manually.md
-    - name: Create a Master-Detail Report (Use Detail Report Bands)
-      href: articles/report-designer/create-popular-reports/create-a-master-detail-report-use-detail-report-bands.md
-    - name: Create a Master-Detail Report (Use Subreports)
-      href: articles/report-designer/create-popular-reports/create-a-master-detail-report-use-subreports.md
-    - name: Create a Hierarchical Report
-      href: articles/report-designer/create-popular-reports/create-a-hierarchical-report.md
-    - name: Create a Vertical Report
-      href: articles/report-designer/create-popular-reports/create-a-vertical-report.md
-    - name: Create Labels and Badges
-      href: articles/report-designer/create-popular-reports/create-labels-and-badges.md
-    - name: Create a Multi-Column Report
-      href: articles/report-designer/create-popular-reports/create-a-multi-column-report.md
-    - name: Create a Report with Cross-Band Content and Populated Empty Space
-      href: articles/report-designer/create-popular-reports/create-a-report-with-cross-band-content-and-populated-empty-space.md
-    - name: Create an Interactive E-Form
-      href: articles/report-designer/create-popular-reports/create-an-interactive-e-form.md
-    - name: Create a Cross-Tab Report
-      href: articles/report-designer/create-popular-reports/create-a-cross-tab-report.md
+    - name: Table Reports
+      href: articles/report-designer/create-reports/table-reports.md
+    - name: Vertical Reports
+      href: articles/report-designer/create-reports/vertical-reports.md
+    - name: Letters
+      href: articles/report-designer/create-reports/letters.md
+    - name: Master-Detail Report with Detail Report Bands
+      href: articles/report-designer/create-reports/master-detail-reports-with-detail-report-bands.md
+    - name: Master-Detail Report with Subreports
+      href: articles/report-designer/create-reports/master-detail-reports-with-subreports.md
+    - name: Hierarchical Report
+      href: articles/report-designer/create-reports/hierarchical-reports.md
+    - name: Invoices
+      href: articles/report-designer/create-reports/invoices.md
+    - name: Cross-Tab Reports
+      href: articles/report-designer/create-reports/cross-tab-reports.md
+    - name: Labels and Badges
+      href: articles/report-designer/create-reports/labels-and-badges.md
+    - name: Multi-Column Reports
+      href: articles/report-designer/create-reports/multi-column-reports.md
+    - name: Interactive E-Forms
+      href: articles/report-designer/create-reports/interactive-e-forms.md
+    - name: Reports with Cross-Band Content and Populated Empty Space
+      href: articles/report-designer/create-reports/reports-with-cross-band-content-and-populated-empty-space.md
+    - name: Reports with PDF Content
+      href: articles/report-designer/create-reports/reports-with-pdf-content.md
+    - name: Reports with Visual PDF Signature
+      href: articles/report-designer/create-reports/reports-with-visual-pdf-signature.md
   - name: Configure Design Settings
     href: articles/report-designer/configure-design-settings.md
     items:
@@ -547,6 +577,12 @@
       items:
       - name: Add Controls to a Report
         href: articles/report-designer/use-report-elements/manipulate-report-elements/add-controls-to-a-report.md
+      - name: Bind Report Controls to Data
+        href: articles/report-designer/use-report-elements/bind-controls-to-data.md
+      - name: Use Embedded Fields (Mail Merge)
+        href: articles/report-designer/use-report-elements/use-embedded-fields-mail-merge.md
+      - name: Validate Report Data Bindings
+        href: articles/report-designer/use-report-elements/validate-report-data-bindings.md
       - name: Select Report Elements and Access Their Settings
         href: articles/report-designer/use-report-elements/manipulate-report-elements/select-report-elements-and-access-their-settings.md
       - name: Move and Resize Report Elements
@@ -583,7 +619,11 @@
       - name: Table of Contents
         href: articles/report-designer/use-report-elements/use-basic-report-controls/table-of-contents.md
       - name: Page Info
-        href: articles/report-designer/use-report-elements/use-basic-report-controls/page-info.md         
+        href: articles/report-designer/use-report-elements/use-basic-report-controls/page-info.md
+      - name: PDF Content
+        href: articles/report-designer/use-report-elements/use-basic-report-controls/pdf-content.md
+      - name: PDF Signature
+        href: articles/report-designer/use-report-elements/use-basic-report-controls/pdf-signature.md
     - name: Use Tables
       href: articles/report-designer/use-report-elements/use-tables.md
       items:
@@ -597,12 +637,12 @@
         href: articles/report-designer/use-report-elements/use-tables/manipulate-table-elements.md
       - name: Hide Table Cells
         href: articles/report-designer/use-report-elements/use-tables/hide-table-cells.md
-    - name: Use Bar Codes
+    - name: Use Barcodes
       href: articles/report-designer/use-report-elements/use-bar-codes.md
       items:
-      - name: Add Bar Codes to a Report
+      - name: Add Barcodes to a Report
         href: articles/report-designer/use-report-elements/use-bar-codes/add-bar-codes-to-a-report.md
-      - name: Bar Code Recognition Specifics
+      - name: Barcode Recognition Specifics
         href: articles/report-designer/use-report-elements/use-bar-codes/bar-code-recognition-specifics.md
       - name: Codabar
         href: articles/report-designer/use-report-elements/use-bar-codes/codabar.md
@@ -644,6 +684,8 @@
         href: articles/report-designer/use-report-elements/use-bar-codes/msi-plessey.md
       - name: PDF417
         href: articles/report-designer/use-report-elements/use-bar-codes/pdf417.md
+      - name: Pharmacode
+        href: articles/report-designer/use-report-elements/use-bar-codes/pharmacode.md
       - name: PostNet
         href: articles/report-designer/use-report-elements/use-bar-codes/postnet.md
       - name: QR Code
@@ -714,60 +756,39 @@
         href: articles/report-designer/shape-report-data/group-and-sort-data/group-data-by-a-custom-field.md 
       - name: Sort Groups by a Summary Function's Result
         href: articles/report-designer/shape-report-data/group-and-sort-data/sort-groups-by-a-summary-function-result.md   
-    - name: Shape Data (Expression Bindings)
-      href: articles/report-designer/shape-report-data/shape-data-expression-bindings.md
+    - name: Format Data
+      href: articles/report-designer/shape-report-data/format-data.md
+    - name: Specify Conditions for Report Elements
+      href: articles/report-designer/shape-report-data/specify-conditions-for-report-elements.md
       items:
-      - name: Format Data
-        href: articles/report-designer/shape-report-data/shape-data-expression-bindings/format-data.md
       - name: Conditionally Change a Control's Appearance
-        href: articles/report-designer/shape-report-data/shape-data-expression-bindings/conditionally-change-a-control-appearance.md
+        href: articles/report-designer/shape-report-data/specify-conditions-for-report-elements/conditionally-change-a-control-appearance.md
       - name: Conditionally Change a Label's Text
-        href: articles/report-designer/shape-report-data/shape-data-expression-bindings/conditionally-change-a-label-text.md
+        href: articles/report-designer/shape-report-data/specify-conditions-for-report-elements/conditionally-change-a-label-text.md
       - name: Conditionally Change a Band's Visibility
-        href: articles/report-designer/shape-report-data/shape-data-expression-bindings/conditionally-change-a-bands-vibility-expression-binding.md
+        href: articles/report-designer/shape-report-data/specify-conditions-for-report-elements/conditionally-change-a-bands-visibility-expression-bindings.md
       - name: Conditionally Filter Report Data
-        href: articles/report-designer/shape-report-data/shape-data-expression-bindings/conditionally-filter-report-data.md
+        href: articles/report-designer/shape-report-data/specify-conditions-for-report-elements/conditionally-filter-report-data.md
       - name: Conditionally Suppress Controls
-        href: articles/report-designer/shape-report-data/shape-data-expression-bindings/conditionally-supress-controls.md
+        href: articles/report-designer/shape-report-data/specify-conditions-for-report-elements/conditionally-supress-controls.md
       - name: Limit the Number of Records per Page
-        href: articles/report-designer/shape-report-data/shape-data-expression-bindings/limit-the-number-of-records-per-page.md
-      - name: Calculate a Summary
-        href: articles/report-designer/shape-report-data/shape-data-expression-bindings/calculate-a-summary.md
-      - name: Calculate an Advanced Summary
-        href: articles/report-designer/shape-report-data/shape-data-expression-bindings/calculate-an-advanced-summary.md
-      - name: Display Row Numbers in a Report, Group or Page
-        href: articles/report-designer/shape-report-data/shape-data-expression-bindings/display-row-numbers-in-a-report-group-or-page.md
-      - name: Count the Number of Records in a Report or Group
-        href: articles/report-designer/shape-report-data/shape-data-expression-bindings/count-the-number-of-records-in-a-report-or-group.md
-      - name: Count the Number of Groups in a Report
-        href: articles/report-designer/shape-report-data/shape-data-expression-bindings/count-the-number-of-groups-in-a-report.md
-    - name: Shape Data (Data Bindings)
-      href: articles/report-designer/shape-report-data/shape-data-data-bindings.md
+        href: articles/report-designer/shape-report-data/specify-conditions-for-report-elements/limit-the-number-of-records-per-page.md
+    - name: Calculate Summaries
+      href: articles/report-designer/shape-report-data/calculate-summaries.md
       items:
-      - name: Format Data
-        href: articles/report-designer/shape-report-data/shape-data-data-bindings/format-data.md
-      - name: Conditionally Change a Control's Appearance
-        href: articles/report-designer/shape-report-data/shape-data-data-bindings/conditionally-change-a-control-appearance.md
-      - name: Conditionally Change a Label's Text
-        href: articles/report-designer/shape-report-data/shape-data-data-bindings/conditionally-change-a-label-text.md
-      - name: Conditionally Change a Band's Visibility 
-        href: articles/report-designer/shape-report-data/shape-data-data-bindings/conditionally-change-a-bands-visibility-data-binding.md
-      - name: Conditionally Filter Report Data
-        href: articles/report-designer/shape-report-data/shape-data-data-bindings/conditionally-filter-report-data.md
-      - name: Conditionally Suppress Controls
-        href: articles/report-designer/shape-report-data/shape-data-data-bindings/conditionally-supress-controls.md
-      - name: Limit the Number of Records per Page
-        href: articles/report-designer/shape-report-data/shape-data-data-bindings/limit-the-number-of-records-per-page.md
       - name: Calculate a Summary
-        href: articles/report-designer/shape-report-data/shape-data-data-bindings/calculate-a-summary.md
-      - name: Calculate a Custom Summary
-        href: articles/report-designer/shape-report-data/shape-data-data-bindings/calculate-a-custom-summary.md
+        href: articles/report-designer/shape-report-data/calculate-summaries/calculate-a-summary.md
+      - name: Calculate an Advanced Summary
+        href: articles/report-designer/shape-report-data/calculate-summaries/calculate-an-advanced-summary.md
+    - name: Count Elements and Values
+      href: articles/report-designer/shape-report-data/count-elements-and-values.md
+      items:
       - name: Display Row Numbers in a Report, Group or Page
-        href: articles/report-designer/shape-report-data/shape-data-data-bindings/display-row-numbers-in-a-report-group-or-page.md
+        href: articles/report-designer/shape-report-data/count-elements-and-values/display-row-numbers-in-a-report-group-or-page.md
       - name: Count the Number of Records in a Report or Group
-        href: articles/report-designer/shape-report-data/shape-data-data-bindings/count-the-number-of-records-in-a-report-or-group.md
+        href: articles/report-designer/shape-report-data/count-elements-and-values/count-the-number-of-records-in-a-report-or-group.md
       - name: Count the Number of Groups in a Report
-        href: articles/report-designer/shape-report-data/shape-data-data-bindings/count-the-number-of-groups-in-a-report.md
+        href: articles/report-designer/shape-report-data/count-elements-and-values/count-the-number-of-groups-in-a-report.md
     - name: Use Calculated Fields
       href: articles/report-designer/shape-report-data/use-calculated-fields.md
       items:
@@ -780,16 +801,18 @@
     - name: Use Report Parameters
       href: articles/report-designer/shape-report-data/use-report-parameters.md
       items:
-      - name: Parameters Overview
-        href: articles/report-designer/shape-report-data/use-report-parameters/parameters-overview.md
-      - name: Multi-Value and Cascading Report Parameters
-        href: articles/report-designer/shape-report-data/use-report-parameters/multi-value-and-cascading-parameters.md
-      - name: Date Range Parameters
-        href: articles/report-designer/shape-report-data/use-report-parameters/date-range-parameters.md
-      - name: Request and Pass Report Parameter Values
-        href: articles/report-designer/shape-report-data/use-report-parameters/request-and-pass-report-parameter-values.md
-      - name: Query Parameters
-        href: articles/report-designer/shape-report-data/use-report-parameters/query-parameters.md
+      - name: Create a Report Parameter
+        href: articles/report-designer/shape-report-data/use-report-parameters/create-a-report-parameter.md
+      - name: Report Parameters with Predefined Static Values
+        href: articles/report-designer/shape-report-data/use-report-parameters/report-parameters-with-predefined-static-values.md
+      - name: Report Parameters with Predefined Dynamic Values
+        href: articles/report-designer/shape-report-data/use-report-parameters/report-parameters-with-predefined-dynamic-values.md
+      - name: Multi-Value Report Parameters
+        href: articles/report-designer/shape-report-data/use-report-parameters/multi-value-report-parameters.md
+      - name: Cascading Report Parameters
+        href: articles/report-designer/shape-report-data/use-report-parameters/cascading-report-parameters.md
+      - name: Date Range Report Parameters
+        href: articles/report-designer/shape-report-data/use-report-parameters/date-range-report-parameters.md
   - name: Lay out Dynamic Report Content
     href: articles/report-designer/lay-out-dynamic-report-content.md
     items:
@@ -851,6 +874,10 @@
     items:
     - name: Expression Syntax
       href: articles/report-designer/use-expressions/expression-syntax.md
+    - name: Data Binding Modes
+      href: articles/report-designer/use-expressions/data-binding-modes.md
+  - name: Localize Reports
+    href: articles/report-designer/localize-reports.md
   - name: Preview, Print and Export Reports
     href: articles/report-designer/preview-print-and-export-reports.md
   - name: Report Designer Tools
@@ -909,6 +936,8 @@
       href: articles/report-designer/report-designer-tools/master-detail-relation-editor.md
     - name: Script Editor
       href: articles/report-designer/report-designer-tools/script-editor.md
+    - name: Localization Editor
+      href: articles/report-designer/report-designer-tools/localization-editor.md
     - name: UI Panels
       href: articles/report-designer/report-designer-tools/ui-panels.md
       items:

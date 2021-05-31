@@ -14,7 +14,7 @@ The Report Designer allows you to create data-bound reports and provides a rich 
 * [Save Reports](report-designer-for-winforms/save-reports.md)
 * [Introduction to Banded Reports](report-designer-for-winforms/introduction-to-banded-reports.md)
 * [Bind to Data](report-designer-for-winforms/bind-to-data.md)
-* [Create Popular Reports](report-designer-for-winforms/create-popular-reports.md)
+* [Create Reports](report-designer-for-winforms/create-reports.md)
 * [Configure Design Settings](report-designer-for-winforms/configure-design-settings.md)
 * [Use Report Elements](report-designer-for-winforms/use-report-elements.md)
 * [Shape Report Data](report-designer-for-winforms/shape-report-data.md)
@@ -25,6 +25,7 @@ The Report Designer allows you to create data-bound reports and provides a rich 
 * [Add Extra Information](report-designer-for-winforms/add-extra-information.md)
 * [Use Expressions](report-designer-for-winforms/use-expressions.md)
 * [Use Report Scripts](report-designer-for-winforms/use-report-scripts.md)
+* [Localize Reports](report-designer-for-winforms/localize-reports.md)
 * [Report Designer Tools](report-designer-for-winforms/report-designer-tools.md)
 * [Preview, Print and Export Reports](report-designer-for-winforms/preview-print-and-export-reports.md)
 

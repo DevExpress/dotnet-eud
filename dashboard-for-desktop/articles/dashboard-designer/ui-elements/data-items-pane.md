@@ -6,7 +6,7 @@ legacyId: 17253
 # Data Items Pane
 The **DATA ITEMS** pane is placed side-by-side with the [Data Source Browser](data-source-browser.md), and allows you to create and modify data binding using drag-and-drop operations.
 
-To learn how to bind dashboard items to data source fields, see the [Binding Dashboard Items to Data](../binding-dashboard-items-to-data/binding-dashboard-items-to-data.md) topic.
+To learn how to bind dashboard items to data source fields, see the [Bind Dashboard Items to Data](../bind-dashboard-items-to-data/bind-dashboard-items-to-data.md) topic.
 
 ![UIElements_DataItemsArea_Area](../../../images/img20852.png)
 

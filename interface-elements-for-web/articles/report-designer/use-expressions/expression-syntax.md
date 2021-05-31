@@ -8,6 +8,7 @@ owner: Anna Vekhina
 The table below contains constants, operators, and functions you can use in [expressions](..\use-expressions.md).
 
 ## Constants
+
 <table><tr><th><p>Constant</p>
 </th><th><p>Description</p>
 </th><th><p>Example</p>
@@ -320,7 +321,7 @@ The table below contains constants, operators, and functions you can use in [exp
 
 ## Functions for Expression Bindings and Calculated Fields
 
-Below is a list of functions that are used to construct [expression bindings](..\bind-to-data\data-binding-modes.md) and [calculated fields](..\shape-report-data\use-calculated-fields.md):
+Below is a list of functions that are used to construct [expressions](../use-expressions.md) and [calculated fields](..\shape-report-data\use-calculated-fields.md):
 
 <table><tr><th><p>Function</p>
 </th><th><p>Description</p>
@@ -332,7 +333,7 @@ Below is a list of functions that are used to construct [expression bindings](..
 <p><em>Beverages</em></p>
 <p><em>Soft drinks, coffees, teas, beers and ales.</em></p>
 </td></tr><tr><td><p>FormatString(Format, Value1, ... , ValueN)</p>
-</td><td><p>Returns the specified string with formatted field values. See <a class="xref" href="..\shape-report-data\shape-data-data-bindings\format-data.md">Format Data</a> for details.</p>
+</td><td><p>Returns the specified string with formatted field values. See <a class="xref" href="..\shape-report-data\format-data.md">Format Data</a> for details.</p>
 </td><td><p>FormatString(&#39;{0:$0.00}&#39;, [UnitPrice])</p>
 <p>Result: <em>$45.60</em></p>
 </td></tr><tr><td><p>Rgb(Red, Green, Blue)</p>
@@ -344,7 +345,7 @@ Below is a list of functions that are used to construct [expression bindings](..
 </td><td><p>Argb(1,200, 30, 200)</p>
 <p>Result: <em>&#39;1,200,30,200&#39;</em></p>
 </td></tr><tr><td><p>Join()</p>
-</td><td><p>Concatenates the <a class="xref" href="..\shape-report-data\use-report-parameters\multi-value-and-cascading-parameters.md">multi-value report parameter</a>&#39;s values into a string. This function is useful when you <a class="xref" href="..\shape-report-data\use-report-parameters\parameters-overview.md">bind a multi-value parameter to a label</a> to display the parameter&#39;s values in a report.</p>
+</td><td><p>Concatenates the <a class="xref" href="..\shape-report-data\use-report-parameters\multi-value-report-parameters.md">multi-value report parameter</a>&#39;s values into a string. This function is useful when you <a class="xref" href="../shape-report-data/use-report-parameters.md">bind a multi-value parameter to a label</a> to display the parameter&#39;s values in a report.</p>
 <p>This function has two overloads:</p>
 <ul>
 <li>Join(parameter) - concatenates the specified parameter&#39;s values using comma as a separator.</li>
@@ -366,7 +367,7 @@ The following functions are specific for [binding reports to a stored procedure]
 </th><th><p>Description</p>
 </th><th><p>Example</p>
 </th></tr><tr><td><p>Join()</p>
-</td><td><p>Concatenates the <a class="xref" href="..\shape-report-data\use-report-parameters\multi-value-and-cascading-parameters.md">multi-value report parameter</a>&#39;s values into a string. This function can be used when mapping multi-value report parameters to query parameters generated from a stored procedure&#39;s parameters. Refer to the <a class="xref" href="..\shape-report-data\use-report-parameters\query-parameters.md">Query Parameters</a> topic for more information.</p>
+</td><td><p>Concatenates the <a class="xref" href="..\shape-report-data\use-report-parameters\multi-value-report-parameters.md">multi-value report parameter</a>&#39;s values into a string. This function can be used when mapping multi-value report parameters to query parameters generated from a stored procedure&#39;s parameters. Refer to the <a class="xref" href="../bind-to-data/specify-query-parameters.md">Specify Query Parameters</a> topic for more information.</p>
 <p>This function has two overloads:</p>
 <ul>
 <li>Join(parameter) - concatenates the specified parameter&#39;s values using comma as a separator.</li>
@@ -374,13 +375,13 @@ The following functions are specific for [binding reports to a stored procedure]
 </ul>
 </td><td><p>Join(?Parameter1)</p>
 </td></tr><tr><td><p>CreateTable(Column1, ..., ColumnN)</p>
-</td><td><p>Creates a table from several multi-value parameters&#39; values. This function can be used when mapping multi-value report parameters to the query parameter that is generated from a stored procedure&#39;s <a href="https://docs.microsoft.com/en-us/sql/relational-databases/tables/use-table-valued-parameters-database-engine">User Defined Table Type</a> parameter. Refer to the <a class="xref" href="..\shape-report-data\use-report-parameters\query-parameters.md">Query Parameters</a> topic for more information.</p>
+</td><td><p>Creates a table from several multi-value parameters&#39; values. This function can be used when mapping multi-value report parameters to the query parameter that is generated from a stored procedure&#39;s <a href="https://docs.microsoft.com/en-us/sql/relational-databases/tables/use-table-valued-parameters-database-engine">User Defined Table Type</a> parameter. Refer to the <a class="xref" href="../bind-to-data/specify-query-parameters.md">Specify Query Parameters</a> topic for more information.</p>
 </td><td><p>CreateTable(?Parameter1, ..., ?ParameterN)</p>
 </td></tr></table>
 
 ## <a name="summary-expression-editor">Functions for Summary Expression Editor</a>
 
-Use the following functions when [calculating summaries](..\shape-report-data\shape-data-expression-bindings\calculate-a-summary.md) across a report and its groups:
+Use the following functions when [calculating summaries](..\shape-report-data\calculate-summaries\calculate-a-summary.md) across a report and its groups:
 
 <table><tr><th><p>Function</p>
 </th><th><p>Description</p>
@@ -390,8 +391,8 @@ Use the following functions when [calculating summaries](..\shape-report-data\sh
 </td><td><p>sumAvg([UnitPrice])</p>
 </td></tr><tr><td><p>sumCount(Expression)</p>
 </td><td><p>Counts the number of values within the specified summary region (group, page or report). In a simple scenario, you may not pass a parameter.</p>
-<p>  When using this function in a <a class="xref" href="..\create-popular-reports\create-a-master-detail-report-use-detail-report-bands.md">master-detail report</a>&#39;s master band and passing a detail&#39;s field as a parameter, it counts the number of records within the detail&#39;s band.</p>
-<p>  See also: <a class="xref" href="..\shape-report-data\shape-data-data-bindings\count-the-number-of-records-in-a-report-or-group.md">Counting the Number of Records in a Report or Group</a>, <a class="xref" href="..\shape-report-data\shape-data-data-bindings\count-the-number-of-groups-in-a-report.md">Counting the Number of Groups in a Report</a></p>
+<p>  When using this function in a <a class="xref" href="..\create-reports\master-detail-reports-with-detail-report-bands.md">master-detail report</a>&#39;s master band and passing a detail&#39;s field as a parameter, it counts the number of records within the detail&#39;s band.</p>
+<p>  See also: <a class="xref" href="..\shape-report-data\count-elements-and-values\count-the-number-of-records-in-a-report-or-group.md">Counting the Number of Records in a Report or Group</a>, <a class="xref" href="..\shape-report-data\count-elements-and-values\count-the-number-of-groups-in-a-report.md">Counting the Number of Groups in a Report</a></p>
 </td><td><p>sumCount([UnitPrice])</p>
 </td></tr><tr><td><p>sumDAvg(Expression)</p>
 </td><td><p>Calculates the average of all the <strong>distinct</strong> values within the specified summary region (group, page or report).</p>
@@ -430,7 +431,7 @@ Use the following functions when [calculating summaries](..\shape-report-data\sh
 </td></tr><tr><td><p>sumRecordNumber(Expression)</p>
 </td><td><p>Returns the current record number in the specified summary region (group, page or report). This means for instance, if the summary is calculated for a group, then the record number is calculated only within that group, and is reset every time a new group is started.</p>
 <p>  In a simple scenario, you may not pass a parameter.</p>
-<p>  See also: <a class="xref" href="..\shape-report-data\shape-data-data-bindings\display-row-numbers-in-a-report-group-or-page.md">Displaying Row Numbers in a Report, Group or Page</a></p>
+<p>  See also: <a class="xref" href="..\shape-report-data\count-elements-and-values\display-row-numbers-in-a-report-group-or-page.md">Displaying Row Numbers in a Report, Group or Page</a></p>
 </td><td><p>sumRecordNumber()</p>
 </td></tr><tr><td><p>sumRunningSum(Expression)</p>
 </td><td><p>Summarizes all the values, which were printed before the current data row, with the current data row&#39;s value.</p>
@@ -455,25 +456,23 @@ Use the following functions when [calculating summaries](..\shape-report-data\sh
 </td><td><p>sumWAvg([UnitPrice])</p>
 </td></tr></table>
 
-## Report Items In Expressions
+## Refer to Report Items In Expressions
 
-A report's elements are displayed in the Report Designer's Report Explorer. You can access these elements and their properties in expressions. The following example demonstrates how to set a label's BackColor property to the other label's BackColor property value.
+A report's elements are displayed in the Report Designer's Report Explorer. You can access these elements and their properties in an expression. The following example demonstrates how to set a label's BackColor property to the other label's BackColor property value.
 
-*[ReportItems].[xrLabel2].[BackColor]*
+*[ReportItems.Label2].[BackColor]*
 
 > [!Tip]
 > **[ReportItems]** is a plain list that provides access to all report items at one level.
 
 > [!Note]
-> You cannot use the ReportItems collection in a [Calculated Field](..\shape-report-data\use-calculated-fields.md)'s expression. 
+> You cannot use the ReportItems collection in a [Calculated Field](..\shape-report-data\use-calculated-fields.md)'s expression.
 
-## Images for Picture Boxes
+## Specify Images for Picture Boxes
 
-When you construct an expression for the [Picture Box](../use-report-elements/use-basic-report-controls/picture-box.md)'s **ImageSource** property, you can use image **Id**s  from the report's **ImageResources** collection.
+When you specify an expression for the [Picture Box](../use-report-elements/use-basic-report-controls/picture-box.md)'s **ImageSource** property, you can use image **Id**s  from the report's **ImageResources** collection.
 
 *IIf([MarchSales]>20, [Images.ArrowUp],[Images.ArrowDown])*
-
-
 
 ## Variables
 
@@ -489,7 +488,7 @@ When you construct an expression for the [Picture Box](../use-report-elements/us
 </td><td><p>Iif([DataSource.CurrentRowIndex] % 2 = 0, &#39;red&#39;, &#39;green&#39;)</p>
 <p>Result: When this expression is used for a table row&#39;s BackColor property, odd rows are colored in red and even rows - in green.</p>
 </td></tr><tr><td><p>DataSource.CurrentRowHierarchyLevel</p>
-</td><td><p>Returns a zero-based level of the current row in a <a class="xref" href="..\create-popular-reports\create-a-hierarchical-report.md">hierarchical report</a>.</p>
+</td><td><p>Returns a zero-based level of the current row in a <a class="xref" href="..\create-reports\hierarchical-reports.md">hierarchical report</a>.</p>
 </td><td><p>Iif([DataSource.CurrentRowHierarchyLevel] == 0, Rgb(231,235,244), ?)</p>
 <p>Result: When this expression is used for the BackColor property of the Detail band that is printed in tree mode, the root level rows are highlighted.</p>
 </td></tr></table>
@@ -497,9 +496,9 @@ When you construct an expression for the [Picture Box](../use-report-elements/us
 > [!Note]
 > These variables are not valid when the report includes a [table or contents](..\add-navigation\add-a-table-of-contents.md).
 
-## Report Parameters
+## Use Report Parameters
 
-Use the following syntax to insert [parameters](..\shape-report-data\use-report-parameters.md) into expressions:
+Use the following syntax to insert [report parameters](..\shape-report-data\use-report-parameters.md) in an expression:
 
 * Type a question mark before a parameter's name.  
 
@@ -508,8 +507,9 @@ Use the following syntax to insert [parameters](..\shape-report-data\use-report-
 
   *[Parameters.parameter1]*
 
-## Collection Elements Verification
-Use brackets "[]" to check if a collection contains an element that satisfies a condition. The following expression returns _true_ if the Accounts collection contains at least one element that satisfies the _[Amount] == 100_ condition:
+## Verify Collection Elements
+
+Use brackets "[]" to check if a collection contains an element that satisfies your condition. The following expression returns _true_ if the Accounts collection contains at least one element that satisfies the _[Amount] == 100_ condition:
 
 _[Accounts][[Amount] == 100]_
 
@@ -517,18 +517,18 @@ The following expression returns _false_ if the Accounts collection is empty:
 
 _[Accounts][]_
 
-Refer to the [](..\shape-report-data\use-calculated-fields\calculate-an-aggregate-function.md) topic to see an example how to use this syntax.
+## Specify Parent Relations
 
-## Parent Relating Operator
-Use the parent relating operator ('^' character) to refer to a parent in expressions written in the context of a child. You can apply this operator successively to navigate multiple parent relationships. 
+Use the '^' parent relation operator to refer to a parent in expressions that are written in the context of a child. You can apply this operator successively to span multi-level parent relationships.
 
-You can use this operator to refer to the currently processed report group. This allows you to calculate aggregates within groups using expressions like the following:
+You can use this operator to refer to the currently processed report group. This allows you to calculate aggregates within groups, as shown in the following expression:
 
 _[][[^.CategoryID] == [CategoryID]].Sum([UnitPrice])_
 
-Refer to the [](..\shape-report-data\use-calculated-fields\calculate-an-aggregate-function.md) topic for details.
+Refer to the [Calculate an Aggregate Function](..\shape-report-data\use-calculated-fields\calculate-an-aggregate-function.md) topic for details.
 
 ## Grouping Clauses with Brackets
+
 It is important to use brackets to ensure that your expression returns the intended results.
 
 For instance, the following expression for objects of the Customer type returns all of the Customers where an Account exists with a Date of 8/25/2006 and where an account exists with an Amount of 100:
@@ -539,7 +539,8 @@ Construct the expression as in the following example to search for all Customers
 
 _[Accounts][[Date] == #8/25/2006# &amp;&amp; [Amount] == 100]_
 
-## Operator Precedence
+## Change Operator Precedence
+
 When an expression contains multiple operators, their precedence controls the order in which expression elements are evaluated.
 
 * Literal values
@@ -547,7 +548,7 @@ When an expression contains multiple operators, their precedence controls the or
 * Identifiers
 * OR (left-associative)
 * AND (left-associative)
-* '.' relationship qualifier (left-associative)
+* The '.' relationship qualifier (left-associative)
 * ==, !=
 * &lt;, &gt;, &lt;=, &gt;=
 * -, + (left-associative)
@@ -567,21 +568,23 @@ _Accounts[Amount == 2 + 48 * 2]_
 _Accounts[Amount == (2 + 48) * 2]_
 
 ## Case Sensitivity
+
 Operators are case insensitive. Although field values’ case sensitivity depends on the data source.
 
 > [!NOTE]
-> A data source affects certain operators' behavior. For instance, by default, the SQL Server Express 2005 is configured as case insensitive. In this case, the following expression always evaluates to **true**:
-> 
+> Data source specifics affect certain operators' behavior. For instance, SQL Server Express 2005 is configured as case insensitive. In this case, the following expression always evaluates to **true**:
+>
 > _Lower(Name) == Upper(Name)_
 
-## Escaping Keywords
-You can mark a keyword&#0045;like field name with an escape character (@ sign). In the expression below, the **CriteriaOperator.Parse** method interprets \@Or as the field named "Or", not the logical operator OR.
+## Escape Keywords
+
+You can mark a keyword&#0045;like field name with the **@** escape character. In the expression below, the **CriteriaOperator.Parse** method interprets \@Or as a field named "Or", not the logical operator OR.
 
 _\@Or = 'value'_
 
 ## Escape Characters
- 
-Use a backslash (\) as an escape character for characters in expressions. Examples:
+
+Use a backslash (\) as an escape character for characters in an expression, as shown below:
 
 - \\[
 - \\\

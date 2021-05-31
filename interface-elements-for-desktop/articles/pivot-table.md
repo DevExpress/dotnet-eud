@@ -34,6 +34,10 @@ This section describes the capabilities provided by the Pivot Table, which repre
 	
 	Describes how to specify which calculations the Pivot Table should perform against its data.
 
+* [Pinned (Fixed) Columns](pivot-table/data-presentation/pinned-(fixed)-columns.md)
+
+	Describes how to pin columns in the Pivot Table.	
+
 &nbsp;
 
 **Layout Customization**

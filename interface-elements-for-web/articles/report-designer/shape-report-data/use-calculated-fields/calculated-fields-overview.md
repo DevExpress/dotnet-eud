@@ -4,7 +4,7 @@ author: Anna Vekhina
 ---
 # Calculated Fields Overview
 
-Calculated fields are primarily used in data-aware reports when using both [standard data binding](../../bind-to-data/bind-controls-to-data-expression-bindings.md) and [mail merge](../../bind-to-data/use-embedded-fields-mail-merge.md). Calculated fields allow you to pre-process a report's input data, based on a certain expression. So, using calculated fields allows you to apply complex expressions to one or more data fields that are obtained from your report's underlying data source. Moreover, you can both [group](../../shape-report-data/group-and-sort-data/group-data.md) and [sort](../../shape-report-data/group-and-sort-data/sort-data.md) your report data based on a calculated field's value.
+Calculated fields allow you to pre-process a report's input data, based on a certain expression. So, using calculated fields allows you to apply complex expressions to one or more data fields that are obtained from your report's underlying data source. Moreover, you can both [group](../../shape-report-data/group-and-sort-data/group-data.md) and [sort](../../shape-report-data/group-and-sort-data/sort-data.md) your report data based on a calculated field's value.
 
 ## <a name="overview"></a>Calculated Fields Overview
 
@@ -37,9 +37,6 @@ You can also group and sort your report data based on the calculated field value
 A data field is inserted into the expression's text using its name in **[**square brackets**]**, and parameters are inserted using the "**?**" prefix before their names.
 
 A calculated field's expression can evaluate the values of other calculated fields if you make sure to avoid circular references.
-
-> [!NOTE]
-> When creating calculated fields, avoid dots in their names, because reports use them to address data source members.
 
 Date-time constants must be wrapped in hashtags (**#**) (e.g., **[OrderDate] >= #1/1/2009#**). To represent a null reference (one that does not refer to any object), use a question mark (e.g., **[Region] != ?**). To denote strings, use apostrophes (**'**), otherwise an error will occur.
 

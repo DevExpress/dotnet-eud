@@ -7,7 +7,7 @@ This wizard page allows you to select data members for a report and its detail r
 
 ![report-wizard-master-detail-select-fields](../../../../../../images/report-wizard-master-detail-select-fields128032.png)
 
-The list on the left-hand side displays queries and [master-detail relationships](../../../create-popular-reports\create-a-master-detail-report-use-detail-report-bands.md) specified on the previous wizard page. Select required check boxes to create relevant reports and assign their **DataMember** property.
+The list on the left-hand side displays queries and [master-detail relationships](../../../create-reports\master-detail-reports-with-detail-report-bands.md) specified on the previous wizard page. Select required check boxes to create relevant reports and assign their **DataMember** property.
 
 In the list on the right-hand side, choose data fields from the selected data members to include into corresponding reports.
 

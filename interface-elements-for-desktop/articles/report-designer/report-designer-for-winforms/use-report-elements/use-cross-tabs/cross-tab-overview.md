@@ -33,5 +33,5 @@ If these properties are not set, the Cross Tab uses its parent report's data sou
 
 The following step-by-step tutorials describe how to create reports that use the Cross Tab control:
 
-* [Create a Cross-Tab Report](../../create-popular-reports/create-a-cross-tab-report.md) - Use the [Cross-Tab Report Wizard](../../report-designer-tools/report-wizard/cross-tab-report.md) to create a report.
-* [Create a Balance Sheet](../../create-popular-reports/create-a-balance-sheet.md) - Configure a Cross Tab on the design surface.
+* [Create a Cross-Tab Report](../../create-reports/cross-tab-reports.md) - Use the [Cross-Tab Report Wizard](../../report-designer-tools/report-wizard/cross-tab-report.md) to create a report.
+* [Balance Sheets](../../create-reports/balance-sheets.md) - Configure a Cross Tab on the design surface.

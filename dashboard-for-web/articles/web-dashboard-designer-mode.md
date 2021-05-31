@@ -10,20 +10,20 @@ The **Web Dashboard** allows you to create dashboards in a web browser and provi
 
 ## Creating Dashboards
 The following topics will guide you through the process of creating a dashboard.
-* [Creating a Dashboard](web-dashboard-designer-mode/creating-a-dashboard.md)
-* [Providing Data](web-dashboard-designer-mode/providing-data.md)
-* [Adding Dashboard Items](web-dashboard-designer-mode/adding-dashboard-items.md)
-* [Binding Dashboard Items to Data](web-dashboard-designer-mode/binding-dashboard-items-to-data.md)
-* [Designing Dashboard Items](web-dashboard-designer-mode/designing-dashboard-items.md)
+* [Create a Dashboard](web-dashboard-designer-mode/create-a-dashboard.md)
+* [Provide Data](web-dashboard-designer-mode/provide-data.md)
+* [Add Dashboard Items](web-dashboard-designer-mode/add-dashboard-items.md)
+* [Bind Dashboard Items to Data](web-dashboard-designer-mode/bind-dashboard-items-to-data.md)
+* [Dashboard Item Settings](web-dashboard-designer-mode/dashboard-item-settings.md)
 * [Data Shaping](web-dashboard-designer-mode/data-shaping.md)
 * [Interactivity](web-dashboard-designer-mode/interactivity.md)
 * [Appearance Customization](web-dashboard-designer-mode/appearance-customization.md)
 * [Data Analysis](web-dashboard-designer-mode/data-analysis.md)
-* [Converting Dashboard Items](web-dashboard-designer-mode/converting-dashboard-items.md)
+* [Convert Dashboard Items](web-dashboard-designer-mode/convert-dashboard-items.md)
 * [Dashboard Layout](web-dashboard-designer-mode/dashboard-layout.md)
 * [Undo and Redo Operations](web-dashboard-designer-mode/undo-and-redo-operations.md)
-* [Saving a Dashboard](web-dashboard-designer-mode/saving-a-dashboard.md)
-* [Opening a Dashboard](web-dashboard-designer-mode/opening-a-dashboard.md)
+* [Save a Dashboard](web-dashboard-designer-mode/save-a-dashboard.md)
+* [Open a Dashboard](web-dashboard-designer-mode/open-a-dashboard.md)
 
 ## Exporting
 The Web Dashboard provides the capability to export the individual items of a dashboard, as well as the entire dashboard.

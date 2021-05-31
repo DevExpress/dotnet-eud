@@ -69,7 +69,7 @@ Once you rename the query, update the report's **Data Member** property.
 
     ![](../../../../images/eurd-data-federation-report-wizard-table-report.png)
 
-3. Select data members for the report and its [detail reports](../../../../articles/report-designer/report-designer-for-winforms/create-popular-reports/create-a-master-detail-report-use-detail-report-bands.md). Select data fields to display in the report and click **Finish**. You can also go to the [next page](../../../../articles/report-designer/report-designer-for-winforms/report-designer-tools/report-wizard/table-report/add-grouping-levels.md) to continue layout creation.
+3. Select data members for the report and its [detail reports](../../../../articles/report-designer/report-designer-for-winforms/create-reports/master-detail-reports-with-detail-report-bands.md). Select data fields to display in the report and click **Finish**. You can also go to the [next page](../../../../articles/report-designer/report-designer-for-winforms/report-designer-tools/report-wizard/table-report/add-grouping-levels.md) to continue layout creation.
 
     ![](../../../../images/eurd-data-federation-master-detail-report-wizard-select-fields.png)
 

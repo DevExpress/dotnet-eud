@@ -5,12 +5,12 @@ legacyId: 116589
 ---
 # Intermediate Level Aggregations
 The Dashboard can aggregate and summarize data on different levels.
-* The [Query Builder](../../working-with-data/using-the-query-builder.md) allows you to prepare an underlying data source before analyzing data. You can apply grouping, sorting, summarization and other data shaping operations during data selection.
-* [Dashboard items](../../designing-dashboard-items.md) aggregate and summarize data at a visualization level using dimensions and measures, respectively. To learn more, see [Binding Dashboard Items to Data](../../binding-dashboard-items-to-data/binding-dashboard-items-to-data.md).
+* The [Query Builder](../../work-with-data/using-the-query-builder.md) allows you to prepare an underlying data source before analyzing data. You can apply grouping, sorting, summarization and other data shaping operations during data selection.
+* [Dashboard items](../../dashboard-item-settings.md) aggregate and summarize data at a visualization level using dimensions and measures, respectively. To learn more, see [Bind Dashboard Items to Data](../../bind-dashboard-items-to-data/bind-dashboard-items-to-data.md).
 * The **Aggr** function allows you to introduce an intermediate detail level that is not related to the visualization level. This allows you to create custom aggregations at different levels and combine these aggregations with existing visualizations.
 
 ## Overview
-The **Aggr** function aggregates and summarizes underlying data using the detail level specified by a predefined set of dimensions and a specified summary function. This function can be used during the creation of a new [calculated field](../../working-with-data/creating-calculated-fields.md) in the Expression Editor.
+The **Aggr** function aggregates and summarizes underlying data using the detail level specified by a predefined set of dimensions and a specified summary function. This function can be used during the creation of a new [calculated field](../../work-with-data/creating-calculated-fields.md) in the Expression Editor.
 
 The **Aggr** function has the following syntax.
 
@@ -27,7 +27,7 @@ Aggr(Sum([Sales]), [Category], [Product])
 
 ```
 
-If you created the calculated field that includes the **Aggr** function and dropped the created field into an existing [dashboard item](../../designing-dashboard-items.md), the Dashboard joins the resulting aggregation with the already displayed data. This means that you can add data with the increased or decreased granularity to the dashboard item. There are two main scenarios.
+If you created the calculated field that includes the **Aggr** function and dropped the created field into an existing [dashboard item](../../dashboard-item-settings.md), the Dashboard joins the resulting aggregation with the already displayed data. This means that you can add data with the increased or decreased granularity to the dashboard item. There are two main scenarios.
 * In the first scenario, an aggregation has a **less detailed granularity** than visualized data.
 	
 	In this scenario, an underlying data source contains the list of orders for two categories and corresponding products.
@@ -45,7 +45,7 @@ If you created the calculated field that includes the **Aggr** function and drop
 	
 	![Aggr_Overview_UnderlyingAndInternalLow](../../../../images/img122839.png)
 	
-	The sample [Grid](../../designing-dashboard-items/grid.md) dashboard item contains more detailed data and includes the following columns: _Category_, _Product_ and the sum of _Sales_.
+	The sample [Grid](../../dashboard-item-settings/grid.md) dashboard item contains more detailed data and includes the following columns: _Category_, _Product_ and the sum of _Sales_.
 	
 	![Aggr_Overview_CategoryProductGrid](../../../../images/img122838.png)
 	
@@ -74,11 +74,11 @@ If you created the calculated field that includes the **Aggr** function and drop
 ## Example 1 - Best/Worst Sales by Year
 The following example shows how to display best and worst monthly sales for each year.
 
-In this example, the [Chart](../../designing-dashboard-items/chart.md) dashboard item shows the sum of sales by different years. The _Sales_ field is placed in the [Values](../../designing-dashboard-items/chart/providing-data.md) section and the _OrderDate_ (with the **Year** [group interval](../../data-shaping/grouping.md)) is placed in the [Arguments](../../designing-dashboard-items/chart/providing-data.md) section.
+In this example, the [Chart](../../dashboard-item-settings/chart.md) dashboard item shows the sum of sales by different years. The _Sales_ field is placed in the [Values](../../dashboard-item-settings/chart/providing-data.md) section and the _OrderDate_ (with the **Year** [group interval](../../data-shaping/grouping.md)) is placed in the [Arguments](../../dashboard-item-settings/chart/providing-data.md) section.
 
 ![Aggr_Example1_SalesByYear](../../../../images/img122812.png)
 
-To display sales by the best/worst months for each year, create a new [calculated field](../../working-with-data/creating-calculated-fields.md) with the following expression.
+To display sales by the best/worst months for each year, create a new [calculated field](../../work-with-data/creating-calculated-fields.md) with the following expression.
 
 ```
 Aggr(Sum([Sales]), GetYear([OrderDate]), GetMonth([OrderDate]))
@@ -92,7 +92,7 @@ Drop this field (_Sales by Year/Month_ in the image below) to the Values section
 ## Example 2 - Percent of Total
 This example will demonstrate how to calculate a contribution of individual quarter sales to year sales.
 
-In this example, the [Pivot](../../designing-dashboard-items/pivot.md) dashboard item displays the sum of sales by year/quarter. The _Sales_ field is placed in the [Values](../../designing-dashboard-items/pivot/providing-data.md) section and the hierarchy of _OrderDate_ fields (with the **Year** and **Quarter** [group intervals](../../data-shaping/grouping.md)) is placed in [Rows](../../designing-dashboard-items/pivot/providing-data.md).
+In this example, the [Pivot](../../dashboard-item-settings/pivot.md) dashboard item displays the sum of sales by year/quarter. The _Sales_ field is placed in the [Values](../../dashboard-item-settings/pivot/providing-data.md) section and the hierarchy of _OrderDate_ fields (with the **Year** and **Quarter** [group intervals](../../data-shaping/grouping.md)) is placed in [Rows](../../dashboard-item-settings/pivot/providing-data.md).
 
 ![Aggr_Example2_SalesByQuarterYear](../../../../images/img122821.png)
 
@@ -119,7 +119,7 @@ To calculate a contribution of each quarter to a year sales, do the following.
 ## Example 3 - Customer Acquisition
 In this example, a customer acquisition will be evaluated by grouping customers by the quarter/year of their first purchase to compare sales contributions.
 
-The [Chart](../../designing-dashboard-items/chart.md) dashboard item below visualizes sales by quarter/year.
+The [Chart](../../dashboard-item-settings/chart.md) dashboard item below visualizes sales by quarter/year.
 
 ![Aggr_Example3_CohortAnalysis](../../../../images/img122827.png)
 
@@ -157,7 +157,7 @@ The Chart will show the number of customers that made a specific number of order
 ## Example 5 - Best Product Sales by Year
 This scenario requires the use of nested aggregations. In this example, the dashboard will show products with the best sales in a year along with sales values.
 
-The initial [Grid](../../designing-dashboard-items/grid.md) dashboard item shows sales of all products by year (the _OrderDate_ column with the **Year** [group interval](../../data-shaping/grouping.md) and the _Sales_ column). The data source also contains the _ProductName_ field.
+The initial [Grid](../../dashboard-item-settings/grid.md) dashboard item shows sales of all products by year (the _OrderDate_ column with the **Year** [group interval](../../data-shaping/grouping.md) and the _Sales_ column). The data source also contains the _ProductName_ field.
 
 ![Aggr_Example5_SalesByYear](../../../../images/img122866.png)
 

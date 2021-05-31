@@ -5,7 +5,7 @@ owner: Anna Gubareva
 ---
 # Table and Vertical Report
 
-Select **Table Report**/**Vertical Report** on the start page to create a [table](../../create-popular-reports/create-a-table-report.md)/[vertical](../../create-popular-reports/create-a-vertical-report.md) report and bind it to data.
+Select **Table Report**/**Vertical Report** on the start page to create a [table](../../create-reports/table-reports.md)/[vertical](../../create-reports/vertical-reports.md) report and bind it to data.
 
 ![](../../../../images/eurd-web-report-wizard-table-report.png)
 

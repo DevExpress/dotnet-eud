@@ -26,7 +26,7 @@ The **Chart Designer** allows you to create and set up the **Chart** control and
 
 To provide data to a chart, use the **Data Source** property.
 
-You can assign a [Pivot Grid](../../create-popular-reports/create-a-cross-tab-report.md) to a chart's data source. This allows the **Pivot Grid** to supply data to the chart. Refer to the  [Link a Chart and a Pivot Grid](link-a-chart-and-a-pivot-grid.md) topic for details.
+You can assign a [Pivot Grid](../../create-reports/cross-tab-reports.md) to a chart's data source. This allows the **Pivot Grid** to supply data to the chart. Refer to the [Link a Chart and a Pivot Grid](link-a-chart-and-a-pivot-grid.md) topic for details.
 
 When the chart data source is not assigned, the chart obtains data from the report's data source 
 

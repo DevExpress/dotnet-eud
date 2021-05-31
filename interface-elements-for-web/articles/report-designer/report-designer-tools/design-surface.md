@@ -32,15 +32,15 @@ To access a band's properties, click the band's caption and switch to the [Prope
 
 ## Data Binding Indication
 
-The Report Designer displays a database barrel icon above [data-bound](../bind-to-data/bind-controls-to-data-expression-bindings.md) report controls.
+The Report Designer displays a database barrel icon above [data-bound](../use-report-elements/bind-controls-to-data.md) report controls.
 
-You can click the [Validate Bindings](../bind-to-data/validate-report-data-bindings.md) toolbar button to highlight report controls with invalid [expression/data bindings](../bind-to-data/data-binding-modes.md). This allows you to determine if the specified expression has an incorrect syntax or uses non-existing data source fields.
+You can click the [Validate Bindings](../use-report-elements/validate-report-data-bindings.md) toolbar button to highlight report controls with invalid [expression/data bindings](../use-expressions/data-binding-modes.md). This allows you to determine if the specified expression has an incorrect syntax or uses non-existing data source fields.
 
 ![](../../../images/eurd-web-validation-bindings.png)
 
 ## In-Place Editors
 
-In-place editors allow you to edit the text-oriented controls' content ([Bar Code](../use-report-elements/use-bar-codes.md), [Character Comb](../use-report-elements/use-basic-report-controls/character-comb.md), [Check Box](../use-report-elements/use-basic-report-controls/check-box.md), [Label](../use-report-elements/use-basic-report-controls/label.md), [Table Cell](../use-report-elements/use-tables.md)) by double-clicking them.
+In-place editors allow you to edit the text-oriented controls' content ([Barcode](../use-report-elements/use-bar-codes.md), [Character Comb](../use-report-elements/use-basic-report-controls/character-comb.md), [Check Box](../use-report-elements/use-basic-report-controls/check-box.md), [Label](../use-report-elements/use-basic-report-controls/label.md), [Table Cell](../use-report-elements/use-tables.md)) by double-clicking them.
 
 ![](../../../images/eurd-web-designer-surface-in-place-editor.png)
 

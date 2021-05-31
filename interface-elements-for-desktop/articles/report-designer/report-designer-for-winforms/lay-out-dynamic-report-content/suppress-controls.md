@@ -24,7 +24,7 @@ When identical or null values appear in a report's data source, you can suppress
 
 These properties are available for the following controls:
 
-* [Bar Code](../use-report-elements/use-bar-codes.md)
+* [Barcode](../use-report-elements/use-bar-codes.md)
 * [Label](../use-report-elements/use-basic-report-controls/label.md)
 * [Character Comb](../use-report-elements/use-basic-report-controls/character-comb.md)
 * [Rich Text](../use-report-elements/use-basic-report-controls/rich-text.md)
@@ -33,7 +33,7 @@ These properties are available for the following controls:
 
 ## Conditionally Suppress a Control
 
-You can suppress a control when a specified logical condition is met by specifying the required **Visible** property expressions as described in the [Conditionally Suppress Controls](../shape-report-data/shape-data-expression-bindings/conditionally-supress-controls.md) topic.
+You can suppress a control when a specified logical condition is met by specifying the required **Visible** property expressions as described in the [Conditionally Suppress Controls](../shape-report-data/specify-conditions-for-report-elements/conditionally-supress-controls.md) topic.
 
 In this case, a space remains in the band at the control's location. You can avoid this by placing these controls onto an [Panel](../use-report-elements/use-basic-report-controls/panel.md) and enabling its **Can Shrink** property.
 

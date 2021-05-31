@@ -19,7 +19,7 @@ Press CTRL+Enter to submit text changes and exit the label's in-place edit mode.
 ## Bind to Data
 ### Display Field Values
 
-You can [bind](../../bind-to-data/bind-controls-to-data-expression-bindings.md) the label's **Text** property to a data field obtained from a report's data source. Click the control's smart tag, expand the **Expression** drop-down list and select the data field.
+You can [bind](../bind-controls-to-data.md) the label's **Text** property to a data field obtained from a report's data source. Click the control's smart tag, expand the **Expression** drop-down list and select the data field.
 
 ![](../../../../../images/eurd-win-label-bind-to-data-field.png)
 
@@ -31,19 +31,19 @@ You can also drag and drop a numeric or text field from the [Field List](../../r
 
 ![](../../../../../images/eurd-win-label-drag-field-from-field-list.png)
 
-See the [Bind Controls to Data](../../bind-to-data/bind-controls-to-data-expression-bindings.md) topic for more information.
+See the [Bind Controls to Data](../bind-controls-to-data.md) topic for more information.
 
 The **Process Duplicates Mode**, **Process Duplicates Target** and **Process Null Values** options enable you to hide a control when a duplicated or null value appears in an assigned data source.
 
 ![](../../../../../images/eurd-win-label-process-duplicates-mode.png)
 
-You can also use the **Format String** property to specify output values' [format](../../shape-report-data/shape-data-expression-bindings/format-data.md).
+You can also use the **Format String** property to specify output values' [format](../../shape-report-data/format-data.md).
 
 ![](../../../../../images/eurd-win-label-format-string.png)
 
 ### Display Summaries
 
-Specify a data range in the **Summary Running** property and select the summary function in the **Summary Expression Editor** to make the label display a [summary function's result](../../shape-report-data/shape-data-expression-bindings/calculate-a-summary.md).
+Specify a data range in the **Summary Running** property and select the summary function in the **Summary Expression Editor** to make the label display a [summary function's result](../../shape-report-data/calculate-summaries/calculate-a-summary.md).
 
 ![](../../../../../images/eurd-win-label-summary-function.png)
 
@@ -95,6 +95,26 @@ You can also use the opposite **Text Fit Mode** property to adjust a control's f
 
 See the [Arrange Dynamic Report Content](../../lay-out-dynamic-report-content.md) topic for more information.
 
+### Convert Labels to Table
+
+You can convert multiple labels to a [table](../use-tables.md) to simplify control alignment.
+
+Hold CTRL or SHIFT and click labels to select them. Right-click any of the selected labels and select **Convert To Table** from the context menu. A table with one row is added to the report instead of the selected labels.
+
+![](../../../../../images/eurd-win-label-convert-to-table.png)
+
+The **Convert To Table** option is not available if any of the selected labels overlap horizontally.
+
+![](../../../../../images/eurd-win-label-labels-overlap.png)
+
+The created table occupies horizontal space from the leftmost label's left edge to the rightmost label's right edge, and vertical space from the topmost label's top edge to the lowest label's bottom edge.
+
+The horizontal gap between labels is included in the left cell.
+
+![](../../../../../images/eurd-win-table-space-between-labels.png)
+
+The table cells copy all property values from the labels.
+
 ## Interactivity
 
 Check the **Enabled** option in the **Edit Options** category to allow users to [edit a label's content](../../provide-interactivity/edit-content-in-print-preview.md) in Print Preview mode.
@@ -132,3 +152,14 @@ Enable the **Allow Markup Text** property to format the label's text with markup
 | **&lt;u&gt;** | **&lt;/u&gt;** | Defines underlined text. |
 | **&lt;image=**_value_**&gt;**  | - | Inserts an image from the report's named image collection. Supports both raster images and SVG images. Use the report's **Image Resources** property to provide images and reference them by their **Id**. The **image** tag's **size** attribute sets the image display pixel size. If the specified width/height exceeds the label's width/height, it is reduced to display the entire image. Specify the **size** attribute after the tag's value followed by the ";" character. |
 | **&lt;href=**_value_**&gt;** | **&lt;/href&gt;** | Displays a hyperlink. The value string specifies the hyperlink source, and the string between the opening and closing tags is the text to display. |
+
+When a report is exported to XLS or XLSX, the following rich-text content is converted from labels into Excel-native rich-text content:
+
+| | |
+| --- | --- |
+| Text format | \<b>, \<i>, \<u>, \<s> |
+| Line break | \<br> |
+| Non-breaking space | \<nbsp> |
+| Font | \<font=**[font name]**> |
+| Font size | \<size=**[font size]**> |
+| Foreground color | \<color=**[color]**> |

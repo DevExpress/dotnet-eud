@@ -3,61 +3,96 @@ title: Coloring Concepts
 author: Natalia Kazakova
 legacyId: 17944
 ---
-# Coloring Concepts
-The Dashboard Designer provides you with the capability to color dashboard item elements by associating dimension values/measures and specified colors. You can choose whether to use a global color scheme to provide consistent colors for identical values or specify a local color scheme for each dashboard item.
-* [Supported Dashboard Items](#supporteditems)
-* [Color Schemes](#color-schemes)
-* [Coloring Dimensions and Measures](#coloring-dimensions-and-measures)
+# Coloring 
 
-## <a name="supporteditems"/>Supported Dashboard Items
-DevExpress Dashboard allows you to manage coloring for the following dashboard items.
-* [Chart](../../designing-dashboard-items/chart.md)
-* [Scatter Chart](../../designing-dashboard-items/scatter-chart.md)
-* [Pie](../../designing-dashboard-items/pies.md)
-* [Pie Map](../../designing-dashboard-items/geo-point-maps/pie-map.md)
-* [Range Filter](../../designing-dashboard-items/range-filter.md)
-* [Treemap](../../designing-dashboard-items/treemap.md)
+The Dashboard Designer associates dimension values/measures and specified colors to paint dashboard item elements. This topic describes how to configure color settings in the WinForms Designer.
 
-## <a name="color-schemes"/>Color Schemes
-The dashboard provides two ways of coloring dashboard item elements.
-* Using a global color scheme that provides consistent colors for identical values across the dashboard. The image below shows the dashboard containing Pie and Chart dashboard items. Pie segments and chart series points corresponding to 'Beverages', 'Condiments' and 'Diary Products' dimension values are colored using identical colors from the default palette.
-	
-	![Coloring_GlobalColors](../../../../images/img25370.png)
-	
-	To use global colors for coloring dashboard item elements, click the **Global Colors** button in the **Design** ribbon tab.
-	
-	![ColoringPage_Ribbon](../../../../images/img25384.png)
-	
-	> [!IMPORTANT]
-	> When a global color scheme is used, the dashboard reserves automatically generated colors for certain values regardless of the filter state.
-* Using a local color scheme that provides an independent set of colors for each dashboard item.
-	
-	To use local colors for coloring dashboard item elements, click **Local Colors** in the **Design** ribbon tab.
-	
-	![LocalColors_Ribbon](../../../../images/img25386.png)
-	
-	> [!IMPORTANT]
-	> When a local color scheme is used, the dashboard reassigns palette colors when the filter state is changed.
+## Coloring Basics
 
-## <a name="coloring-dimensions-and-measures"/>Coloring Dimensions and Measures
-Dashboard items allow you to manage the coloring of individual dimensions or all dashboard item measures using predefined coloring modes.
+The following concepts are common to both Desktop and Web Dashboard controls:
 
-| Coloring Mode | Description |
-|---|---|
-| Default | Dimension values/measures are colored by default. To learn how specific dashboard items color their elements by default, see the **Coloring** topic for the corresponding dashboard item. |
-| Hue | Dimension values/measures are colored by hue. If coloring by hue is enabled, a data item indicates this using the ![ColoringIndicator](../../../../images/img25453.png) indicator. |
-| None | Dimension values/measures are colored with the same color. |
+* Color Modes
+* Color Schemes
+* Supported Dashboard Items
 
-### Coloring Dimension Values
+Refer to the following topic for more information about common concepts: [Coloring Basics](../coloring.md).
 
-To specify the coloring mode for the required dimension, click the dimension's [menu button](../../ui-elements/data-items-pane.md) and use the **Color by** submenu. For instance, the image below shows the Chart dashboard item whose 'Country' dimension is colored by hue.
+## Color Mode: None 
 
-![Coloring_DimensionColorByItem](../../../../images/img25374.png)
+You can disable default color variation for dashboard item elements.  
 
-### Coloring Measures
+If you add a [TreeMap](../../dashboard-item-settings/treemap.md) to a dashboard, individual elements (titles) use different colors: 
 
-To specify the coloring mode for dashboard item measures, click the [menu button](../../ui-elements/data-items-pane.md) of any measure and use the **Color by** submenu. For instance, the image below shows the Pie dashboard item whose measures are colored by hue.
+![win-coloring-treemap-default](../../../../images/win-coloring-treemap-default.png)
 
-![Coloring_MeasuresColorByItem](../../../../images/img25376.png)
+_State_ values (Arguments) use different colors. To disable color variation, go to the Argument settings and select **Color by | None**.
 
-If you enabled coloring by hue for several dimensions/measures, all combinations of dimension values/measures will be automatically colored using different colors from the default palette. To learn how to customize these colors, see [Customizing a Color Scheme](customizing-a-color-scheme.md).
+![win-coloring-treemap-none](../../../../images/win-coloring-treemap-none.png)
+
+Add a [Chart](../../dashboard-item-settings/chart.md) with the same Argument and Value as in the TreeMap: 
+
+![win-coloring-treemap-chart-none](../../../../images/win-coloring-treemap-chart-none.png)
+
+Note that **Default** means **None** for chart arguments.  
+
+## Color Mode: Hue 
+
+You can enable colors in previously added Treemap and Chart items.
+
+Set the TreeMap's color mode to **Default** or **Hue**: 
+
+![win-coloring-chart-none-treemap-hue](../../../../images/win-coloring-chart-none-treemap-hue.png)
+
+
+In the Chart settings, move _State_ from Arguments to Series. **Default** now means **Hue** in this new context. The coloring indicator (![ColoringIndicator](../../../../images/coloringindicator25453.png)) on the data item shows that color variation by hue is enabled.
+
+![win-coloring-chart-treemap-hue](../../../../images/win-coloring-chart-treemap-hue.png)
+
+Add _Category_ as a chart argument and switch to 100% Stacked View:  
+
+![win-coloring-full-stacked-chart](../../../../images/win-coloring-full-stacked-chart.png)
+
+## Use Global Color Scheme 
+
+The same _State_ data items use identical colors. Dashboard constructs a **Global Color Scheme** for this purpose. 
+
+Add a [Range Filter](../../dashboard-item-settings/range-filter.md) with the following settings: 
+
+![win-coloring-range-filter](../../../../images/win-coloring-range-filter.png)
+
+Corresponding _State_ fields are painted with the same colors, so you can associate and compare data from all dashboard items. This happens because all items use **Global Colors** (the default setting). You can see the switch to **Global Colors** in the Ribbon. Click **Edit Colors** to modify the colors used in the palette:  
+
+![win-coloring-custom-color](../../../../images/win-coloring-custom-color.png)
+
+> [!NOTE]
+> The dashboard uses the default palette. This palette contains 20 unique colors to paint dimension values/measures. For more information on how to change default colors or create a new color table, refer to the following help topic: [Customizing a Color Scheme](customizing-a-color-scheme.md). 
+
+This is how the Dashboard appears after you change the color for *Georgia* in the palette:
+
+![win-dashboard-with-global-color-scheme](../../../../images/win-dashboard-with-global-color-scheme.png)
+
+## Use Local Color Scheme 
+
+If you want to use an independent set of colors in the selected dashboard item, switch to the **Local Color Scheme**. 
+
+You can see the Treemap's arguments that use colors from the **Local Color Scheme**:  
+
+![win-coloring-treemap-local-color-scheme](../../../../images/win-coloring-treemap-local-color-scheme.png)
+
+Colors modified in the local color scheme do not affect items that use the global color scheme. The following image shows a custom color for _Georgia_ in the Treemap:
+
+![win-coloring-treemap-local-color-scheme-custom-color](../../../../images/win-coloring-treemap-local-color-scheme-custom-color.png)
+
+## Dashboard Item Color Mode Specifics
+
+* [Chart - Coloring](../../dashboard-item-settings/chart/coloring.md)
+* [Scatter Chart - Coloring](../../dashboard-item-settings/scatter-chart/coloring.md)
+* [Pie - Coloring](../../dashboard-item-settings/pies/coloring.md)
+* [Pie Map - Coloring](../../dashboard-item-settings/geo-point-maps/pie-map/coloring.md)
+* [Range Filter - Coloring](../../dashboard-item-settings/range-filter/coloring.md)
+* [Treemap - Coloring](../../dashboard-item-settings/treemap/coloring.md)
+
+## How to Customize a Color Scheme
+
+Refer to the following topic for more information on how to customize a color scheme:
+* [Customizing a Color Scheme](customizing-a-color-scheme.md)

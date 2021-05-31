@@ -11,3 +11,4 @@ The section describes the **Map** control's features and consists of the followi
 * [Using the Search Panel](map/using-the-search-panel.md)
 * [Mini Map](map/mini-map.md)
 * [Map Editor](map/map-editor.md)
+* [Rulers](map/rulers.md)

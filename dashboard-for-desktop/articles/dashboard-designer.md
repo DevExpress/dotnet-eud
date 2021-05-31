@@ -10,21 +10,21 @@ The **Dashboard Designer** provides an intuitive UI that facilitates data bindin
 
 ## Creating Dashboards
 The following topics will guide you through the process of creating a dashboard.
-* [Creating a Dashboard](dashboard-designer/creating-a-dashboard.md)
-* [Providing Data](dashboard-designer/providing-data.md)
-* [Working with Data](dashboard-designer/working-with-data.md)
-* [Adding Dashboard Items](dashboard-designer/adding-dashboard-items.md)
-* [Binding Dashboard Items to Data](dashboard-designer/binding-dashboard-items-to-data.md)
-* [Designing Dashboard Items](dashboard-designer/designing-dashboard-items.md)
+* [Create a Dashboard](dashboard-designer/create-a-dashboard.md)
+* [Provide Data](dashboard-designer/provide-data.md)
+* [Work with Data](dashboard-designer/work-with-data.md)
+* [Add Dashboard Items](dashboard-designer/add-dashboard-items.md)
+* [Bind Dashboard Items to Data](dashboard-designer/bind-dashboard-items-to-data.md)
+* [Dashboard Item Settings](dashboard-designer/dashboard-item-settings.md)
 * [Data Shaping](dashboard-designer/data-shaping.md)
 * [Interactivity](dashboard-designer/interactivity.md)
 * [Appearance Customization](dashboard-designer/appearance-customization.md)
 * [Data Analysis](dashboard-designer/data-analysis.md)
-* [Converting Dashboard Items](dashboard-designer/converting-dashboard-items.md)
+* [Convert Dashboard Items](dashboard-designer/convert-dashboard-items.md)
 * [Dashboard Layout](dashboard-designer/dashboard-layout.md)
 * [Undo and Redo Operations](dashboard-designer/undo-and-redo-operations.md)
 * [Automatic and Manual Updates](dashboard-designer/automatic-and-manual-updates.md)
-* [Saving a Dashboard](dashboard-designer/saving-a-dashboard.md)
+* [Save a Dashboard](dashboard-designer/save-a-dashboard.md)
 
 ## Printing and Exporting
 The Dashboard Designer provides the capability to print or export the individual items of a dashboard, as well as the entire dashboard.

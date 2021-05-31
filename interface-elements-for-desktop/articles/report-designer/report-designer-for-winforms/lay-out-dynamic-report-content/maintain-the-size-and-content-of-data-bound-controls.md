@@ -17,7 +17,7 @@ Use the control's **Can Grow** and **Can Shrink** properties to make a data-boun
 | ![](../../../../images/eurd-win-can-shrink-false.png) | ![](../../../../images/eurd-win-can-shrink-true.png) |
 
 > [!NOTE]
-> This feature does not work with [anchoring](anchor-controls.md) enabled, as well as for labels that are used to display [summary function results](../shape-report-data/shape-data-expression-bindings/calculate-a-summary.md).
+> This feature does not work with [anchoring](anchor-controls.md) enabled, as well as for labels that are used to display [summary function results](../shape-report-data/calculate-summaries/calculate-a-summary.md).
 
 Use the **Auto Width** property to make a data-bound [Label](../use-report-elements/use-basic-report-controls/label.md) or [Character Comb](../use-report-elements/use-basic-report-controls/character-comb.md) automatically adjust its width to its content. This option behavior depends on the control's current horizontal alignment (**Text Alignment** property value).
 

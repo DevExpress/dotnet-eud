@@ -23,7 +23,7 @@ This tutorial illustrates how to bind a report to a database and specify a maste
 
     ![](../../../images/eurd-web-data-source-wizard-choose-a-data-connection.png)
 
-1. Choose which tables, views and/or stored procedures to add to a report and click **Next**. Select two or more tables to [create a master-detail report](../create-popular-reports/create-a-master-detail-report-use-detail-report-bands.md).
+1. Choose which tables, views and/or stored procedures to add to a report and click **Next**. Select two or more tables to [create a master-detail report](../create-reports/master-detail-reports-with-detail-report-bands.md).
 
     ![](../../../images/eurd-web-data-source-wizard-create-a-query-automatically.png)
     

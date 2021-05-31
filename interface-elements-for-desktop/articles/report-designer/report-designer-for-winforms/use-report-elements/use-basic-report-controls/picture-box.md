@@ -62,7 +62,7 @@ Use one of the following techniques to add the **Picture Box** control that obta
     ![](../../../../../images/eurd-win-picture-box-drop-right-click.png)
 
 
-See the [Bind Report Controls to Data](../../bind-to-data/bind-controls-to-data-expression-bindings.md) topic for more information about how to create data-aware controls.
+See the [Bind Report Controls to Data](../bind-controls-to-data.md) topic for more information about how to create data-aware controls.
 
 ## SVG Support Limitations
 
@@ -141,4 +141,4 @@ Click the picture box in a previewed document and an editor invokes.
 > [!Tip]
 > You can draw borders for the picture box to make the editor visible in Print Preview, if an image is not specified.
 
-Refer to the [Content Editing in Print Preview](../../provide-interactivity/edit-content-in-print-preview.md) topic for details and to the [Create-an-Interactive-E-Form](../../create-popular-reports/create-an-interactive-e-form.md) tutorial to see how the E-Form demo report uses this picture box mode.
+Refer to the [Content Editing in Print Preview](../../provide-interactivity/edit-content-in-print-preview.md) topic for details and to the [Interactive E-Forms](../../create-reports/interactive-e-forms.md) tutorial to see how the E-Form demo report uses this picture box mode.
