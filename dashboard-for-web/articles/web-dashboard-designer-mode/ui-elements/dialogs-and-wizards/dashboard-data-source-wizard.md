@@ -9,11 +9,11 @@ The **Dashboard Data Source Wizard** allows you to create a new data source or e
 
 To invoke this wizard, go to the **Data Sources** page of the [dashboard menu](../ui-elements/dashboard-menu.md) and click **Add** button.
 
-![](../../../images/dashboard-data-sources-add-button.png)
+![](../../../../images/dashboard-data-sources-add-button.png)
 
 In the invoked window choose the existing data sources or click **Create data source**....
 
-![](../../../images/dashboard-create-data-source.png) 
+![](../../../../images/dashboard-create-data-source.png) 
 
 On the start page, select the data source type. You can create a new dashboard data source based on a database, JSON data, or an OLAP cube.
 
@@ -29,5 +29,5 @@ On the start page, select the data source type. You can create a new dashboard d
 
   Connects to OLAP cubes.
 
-![](../../../images/dashboard-data-source-types.png)
+![](../../../../images/dashboard-data-source-types.png)
 

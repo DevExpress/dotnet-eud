@@ -347,7 +347,7 @@
     - name: Data Item Menu
       href: articles/web-dashboard-designer-mode/ui-elements/data-item-menu.md
     - name: Dashboard Data Source Wizard
-      href: articles/web-dashboard-designer-mode/ui-elementsdashboard-data-source-wizard.md
+      href: articles/web-dashboard-designer-mode/ui-elements/dashboard-data-source-wizard.md
       items:
        - name: Specify Data Source Settings (Database)
          href: articles/web-dashboard-designer-mode/ui-elements/dashboard-data-source-wizard/specify-data-source-settings-database.md
