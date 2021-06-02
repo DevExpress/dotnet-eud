@@ -10,19 +10,6 @@
       href: articles/web-dashboard-designer-mode/provide-data/create-a-new-data-source.md
     - name: Connect to an Existing Data Source
       href: articles/web-dashboard-designer-mode/provide-data/connect-to-an-existing-data-source.md
-    - name: Dashboard Data Source Wizard
-      href: articles/web-dashboard-designer-mode/provide-data/dashboard-data-source-wizard.md
-      items:
-       - name: Specify Data Source Settings (Database)
-         href: articles/web-dashboard-designer-mode/provide-data/dashboard-data-source-wizard/specify-data-source-settings-database.md
-       - name: Specify Data Source Settings (JSON)
-         href: articles/web-dashboard-designer-mode/provide-data/dashboard-data-source-wizard/specify-data-source-settings-json.md
-       - name: Specify Data Source Settings (OLAP)
-         href: articles/web-dashboard-designer-mode/provide-data/dashboard-data-source-wizard/specify-data-source-settings-olap.md
-    - name: Query Builder
-      href: articles/web-dashboard-designer-mode/provide-data/query-builder.md
-    - name: Preview Data
-      href: articles/web-dashboard-designer-mode/provide-data/preview-data.md
     - name: Manage Data Sources
       href: articles/web-dashboard-designer-mode/provide-data/manage-data-sources.md
     - name: Working with SQL Data Sources
@@ -359,6 +346,19 @@
       href: articles/web-dashboard-designer-mode/ui-elements/dashboard-item-menu.md
     - name: Data Item Menu
       href: articles/web-dashboard-designer-mode/ui-elements/data-item-menu.md
+    - name: Dashboard Data Source Wizard
+      href: articles/web-dashboard-designer-mode/ui-elementsdashboard-data-source-wizard.md
+      items:
+       - name: Specify Data Source Settings (Database)
+         href: articles/web-dashboard-designer-mode/ui-elements/dashboard-data-source-wizard/specify-data-source-settings-database.md
+       - name: Specify Data Source Settings (JSON)
+         href: articles/web-dashboard-designer-mode/ui-elements/dashboard-data-source-wizard/specify-data-source-settings-json.md
+       - name: Specify Data Source Settings (OLAP)
+         href: articles/web-dashboard-designer-mode/ui-elements/dashboard-data-source-wizard/specify-data-source-settings-olap.md
+    - name: Query Builder
+      href: articles/web-dashboard-designer-mode/ui-elements/query-builder.md
+    - name: Preview Data
+      href: articles/web-dashboard-designer-mode/ui-elements/preview-data.md
 - name: Web Dashboard - Viewer Mode
   href: articles/web-dashboard-viewer-mode.md
   items:

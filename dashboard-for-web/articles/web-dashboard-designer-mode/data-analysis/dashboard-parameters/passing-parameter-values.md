@@ -18,7 +18,7 @@ The Web Dashboard provides the capability to bind a dashboard parameter and the 
 
 ![wdd-configure-query-param-page2](../../../../images/img124955.png)
 
-To bind a dashboard parameter to an SQL query/stored procedure parameter in the [Dashboard Data Source Wizard](../../provide-data/dashboard-data-source-wizard.md), do the following:
+To bind a dashboard parameter to an SQL query/stored procedure parameter in the [Dashboard Data Source Wizard](../../ui-elements/dashboard-data-source-wizard.md), do the following:
 * Select the existing query/stored procedure parameter or create a new query parameter using the **Add** button.
 * Set the **Expression** as a parameter value and click the ellipsis button to invoke the Expression Editor for this parameter.
 * In the Expression Editor add the required dashboard parameter from the Parameters column.
