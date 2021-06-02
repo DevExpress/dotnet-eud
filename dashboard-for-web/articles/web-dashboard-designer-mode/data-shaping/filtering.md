@@ -66,9 +66,18 @@ The image below shows the difference between filters (the filter condition is th
 ![web-filter-visible-data-filter-grids](../../../images/web-filter-visible-data-filter-grids.png)
 
 ## OLAP Filtering Specifics
-In OLAP mode, you cannot filter data by building complex filter criteria. Instead, select the values you wish to include in or exclude from the dashboard to filter dimension attributes and hierarchies.
 
-| Dimension Attribute | Dimension Hierarchy |
-|---|---|
-| For dimension attributes, the Filter Editor contains a list of all values. | For hierarchies, a tree is displayed instead, allowing you to filter individual values at any hierarchy level. |
-| ![wdd-olap-filtering-attribute](../../../images/img124640.png) | ![wdd-olap-filtering-hierarchy](../../../images/img124639.png) |
+You cannot build complex filter criteria to filter data in OLAP mode. Filters for a measure are also not supported. Instead, you can filter dimension attributes and hierarchies: you can select the values you want (or do not want) to include in the dashboard.
+
+### Dimension Attribute
+
+For dimension attributes, the Filter Editor contains a list of all values. The search panel is available for non-hierarchical fields.
+
+![wdd-olap-filtering-attribute](../../../images/img124640.png)
+
+### Dimension Hierarchy
+
+The Filter Editor displays hierarchies as a tree and allows you to filter values at any hierarchy level.
+
+![wdd-olap-filtering-hierarchy](../../../images/img124639.png)
+
