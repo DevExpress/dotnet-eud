@@ -46,10 +46,10 @@ Double-click the expression in the invoked Expression Editor and click **OK**.
 
 ![](../../../../../images/web-dashboard-wizard-json-parameters-expression-editor.png)
 
-An expression can include [dashboard parameters](../../data-analysis/dashboard-parameters.md). 
+An expression can include [dashboard parameters](../../../data-analysis/dashboard-parameters.md). 
 
 > [!Tip]
-> Refer to the following help topic for details on how to create a dashboard parameter: [Creating Parameters](../../data-analysis/dashboard-parameters/creating-parameters.md). 
+> Refer to the following help topic for details on how to create a dashboard parameter: [Creating Parameters](../../../data-analysis/dashboard-parameters/creating-parameters.md). 
 
 Select the **Fields** section in the Expression Editor, double-click the predefined dashboard parameter, and click **OK**.
 

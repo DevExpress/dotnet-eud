@@ -1,12 +1,12 @@
 ---
 title: Query Builder
-author: Natalia Kazakova
+author: Margarita Zakhodyaeva
 legacyId: 117967
 ---
 # Query Builder
 In the **Query Builder** dialog, you can add data tables and views to the data source, and select which columns to include. The **Query Builder** automatically joins the related tables, so all you need to do is drag-and-drop.
 
-![wdd-query-builder](../../../images/img124934.png)
+![wdd-query-builder](../../../../images/img124934.png)
 
 This topic consists of the following sections.
 - [Add Tables](#add-tables)
@@ -69,7 +69,7 @@ The Query Builder allows you to filter a query. To do this, deselect tables and 
 
 ![wdd-filter-editor-filter-query](../../../../images/img124905.png)
 
-To learn more, see [Filter Queries](working-with-sql-data-sources/filter-queries.md).
+To learn more, see [Filter Queries](../../provide-data/working-with-sql-data-sources/filter-queries.md).
 
 ## Preview Data
 The Query Builder allows you to preview data for the created SQL query. To do this, click the **Preview Results...** button. This invokes the [Data Preview](preview-data.md) window containing data returned after executing the query.

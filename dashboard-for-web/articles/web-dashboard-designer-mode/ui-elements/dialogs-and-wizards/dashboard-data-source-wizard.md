@@ -1,13 +1,12 @@
 ---
 title: Dashboard Data Source Wizard
-author: Natalia Kazakova
-legacyId: 117966
+author: Margarita Zakhodyaeva
 ---
 # Dashboard Data Source Wizard
 
 The **Dashboard Data Source Wizard** allows you to create a new data source or edit the existing data sources.
 
-To invoke this wizard, go to the **Data Sources** page of the [dashboard menu](../ui-elements/dashboard-menu.md) and click **Add** button.
+To invoke this wizard, go to the **Data Sources** page of the [dashboard menu](../dashboard-menu.md) and click **Add** button.
 
 ![](../../../../images/dashboard-data-sources-add-button.png)
 

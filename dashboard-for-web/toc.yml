@@ -346,19 +346,22 @@
       href: articles/web-dashboard-designer-mode/ui-elements/dashboard-item-menu.md
     - name: Data Item Menu
       href: articles/web-dashboard-designer-mode/ui-elements/data-item-menu.md
-    - name: Dashboard Data Source Wizard
-      href: articles/web-dashboard-designer-mode/ui-elements/dashboard-data-source-wizard.md
-      items:
-       - name: Specify Data Source Settings (Database)
-         href: articles/web-dashboard-designer-mode/ui-elements/dashboard-data-source-wizard/specify-data-source-settings-database.md
-       - name: Specify Data Source Settings (JSON)
-         href: articles/web-dashboard-designer-mode/ui-elements/dashboard-data-source-wizard/specify-data-source-settings-json.md
-       - name: Specify Data Source Settings (OLAP)
-         href: articles/web-dashboard-designer-mode/ui-elements/dashboard-data-source-wizard/specify-data-source-settings-olap.md
-    - name: Query Builder
-      href: articles/web-dashboard-designer-mode/ui-elements/query-builder.md
-    - name: Preview Data
-      href: articles/web-dashboard-designer-mode/ui-elements/preview-data.md
+    - name: Dialogs and Wizards
+      href: articles/web-dashboard-designer-mode/ui-elements/dialogs-and-wizards.md 
+      items: 
+      - name: Dashboard Data Source Wizard
+        href: articles/web-dashboard-designer-mode/ui-elements/dialogs-and-wizards/dashboard-data-source-wizard.md
+        items:
+        - name: Specify Data Source Settings (Database)
+          href: articles/web-dashboard-designer-mode/ui-elements/dialogs-and-wizards/dashboard-data-source-wizard/specify-data-source-settings-database.md
+        - name: Specify Data Source Settings (JSON)
+          href: articles/web-dashboard-designer-mode/ui-elements/dialogs-and-wizards/dashboard-data-source-wizard/specify-data-source-settings-json.md
+        - name: Specify Data Source Settings (OLAP)
+          href: articles/web-dashboard-designer-mode/ui-elements/dialogs-and-wizards/dashboard-data-source-wizard/specify-data-source-settings-olap.md
+      - name: Query Builder
+        href: articles/web-dashboard-designer-mode/ui-elements/dialogs-and-wizards/query-builder.md
+      - name: Preview Data
+        href: articles/web-dashboard-designer-mode/ui-elements/dialogs-and-wizards/preview-data.md
 - name: Web Dashboard - Viewer Mode
   href: articles/web-dashboard-viewer-mode.md
   items:

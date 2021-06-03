@@ -21,7 +21,7 @@ The window allows you to do the following:
 | Action | Description |
 |----------|----------|
 | **Add an existing data source** | Select the data source and click the **Add** button.  |
-| **Create a new data source** | Click **Create data source...**. It invokes the [Dashboard Data Source Wizard](dashboard-data-source-wizard.md) where you can create a new data source based on the predefined data connection. Then click **Add** to add the newly created data source to the dashboard data sources.  |
+| **Create a new data source** | Click **Create data source...**. It invokes the [Dashboard Data Source Wizard](../ui-elements/dialogs-and-wizards/dashboard-data-source-wizard.md) where you can create a new data source based on the predefined data connection. Then click **Add** to add the newly created data source to the dashboard data sources.  |
 
 You can find the newly added data source in the **Used Data Sources** list.
 

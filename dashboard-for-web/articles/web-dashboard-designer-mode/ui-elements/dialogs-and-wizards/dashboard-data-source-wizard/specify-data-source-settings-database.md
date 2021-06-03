@@ -10,19 +10,19 @@ The following pages are available for the Database source type:
 
 The "Choose a data connection" page appears if you select Database on the start page. Select an existing connection from the list.
 
-![](../../../../../images/dashboard-data-source-wizard-сhoose-a-data-connection.png)
+![сhoose-a-data-connection](../../../../../images/dashboard-data-source-wizard-сhoose-a-data-connection.png)
 
 ## Choose Queries
 The next page allows you to create/edit a query or select a stored procedure. The image below displays a generated query displayed in the **SQL string** editor.
 
- ![](../../../../../images/dashboard-data-source-wizard-create-a-query.png)
+ ![create-a-query](../../../../../images/dashboard-data-source-wizard-create-a-query.png)
 
  Click **Run Query Builder**... to launch the [Query Builder](../query-builder.md) and choose the tables/columns visually.
 
  ## Configure Query Parameters
- If the SQL query contains [query parameters](../working-with-sql-data-sources/pass-query-parameters.md), click **Next** to configure them.
+ If the SQL query contains [query parameters](../../../provide-data/working-with-sql-data-sources/pass-query-parameters.md), click **Next** to configure them.
 
-![](../../../../../images/dashboard-data-source-wizard-configure-query-parameters.png)
+![configure-query-parameters](../../../../../images/dashboard-data-source-wizard-configure-query-parameters.png)
 
 You can use the following approaches to specify a parameter value:
 
