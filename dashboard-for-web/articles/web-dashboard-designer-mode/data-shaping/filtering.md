@@ -14,23 +14,23 @@ Filters that are applied to a dashboard item affect only this item. Open a dashb
 
 ![wdd-invoke-filter-editor](../../../images/wdd-invoke-filter-editor124630.png)
 
-This invokes the [Filter Editor](../../../../interface-elements-for-web/articles/report-designer/report-designer-tools/filter-editor.md) dialog where you can specify filter criteria:
+This invokes the [Filter Editor](../ui-elements/dialogs-and-wizards/filter-editor.md) dialog where you can specify filter criteria:
 
 ![Filtering_FilterEditor_Empty](../../../images/filtering_filtereditor_empty132417.png)
 
 > [!Tip]
-> **Documentation**: [Filter Editor](../../../../interface-elements-for-web/articles/report-designer/report-designer-tools/filter-editor.md) 
+> **Documentation**: [Filter Editor](../ui-elements/dialogs-and-wizards/filter-editor.md) 
 
 ## Measure Filter
 
 You can apply filters to individual [measures](../bind-dashboard-items-to-data/bind-dashboard-items-to-data-in-the-web-dashboard.md). If you create multiple measures that only differ in applied filters, you can compare values calculated over different date-time periods or against different categories.
 
-Open a dashboard item's [Binding](../ui-elements/dashboard-item-menu.md) menu and select a measure to filter. In the invoked [data item menu](../ui-elements/data-item-menu.md), open the **Filter** section and click **Edit**. This invokes the [Filter Editor](../../../../interface-elements-for-web/articles/report-designer/report-designer-tools/filter-editor.md) dialog where you can specify filter criteria. 
+Open a dashboard item's [Binding](../ui-elements/dashboard-item-menu.md) menu and select a measure to filter. In the invoked [data item menu](../ui-elements/data-item-menu.md), open the **Filter** section and click **Edit**. This invokes the [Filter Editor](../ui-elements/dialogs-and-wizards/filter-editor.md) dialog where you can specify filter criteria. 
 
 ![web-filter-to-measure-menu](../../../images/web-filter-to-measure-menu.png)
 
 > [!Tip]
-> **Documentation**: [Filter Editor](../../../../interface-elements-for-web/articles/report-designer/report-designer-tools/filter-editor.md)
+> **Documentation**: [Filter Editor](../ui-elements/dialogs-and-wizards/filter-editor.md)
 
 You can clear the applied filter in the [data item menu](../ui-elements/data-item-menu.md)'s **Filter** section.
 
