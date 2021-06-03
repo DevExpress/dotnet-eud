@@ -362,6 +362,8 @@
         href: articles/web-dashboard-designer-mode/ui-elements/dialogs-and-wizards/query-builder.md
       - name: Preview Data
         href: articles/web-dashboard-designer-mode/ui-elements/dialogs-and-wizards/preview-data.md
+      - name: Filter Editor
+        href: articles/web-dashboard-designer-mode/ui-elements/dialogs-and-wizards/filter-editor.md
 - name: Web Dashboard - Viewer Mode
   href: articles/web-dashboard-viewer-mode.md
   items:
