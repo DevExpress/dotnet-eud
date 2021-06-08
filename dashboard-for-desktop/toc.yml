@@ -1,378 +1,382 @@
 - name: Dashboard Designer
   href: articles/dashboard-designer.md
   items:
-  - name: Creating a Dashboard
-    href: articles/dashboard-designer/creating-a-dashboard.md
-  - name: Providing Data
-    href: articles/dashboard-designer/providing-data.md
+  - name: Create a Dashboard
+    href: articles/dashboard-designer/create-a-dashboard.md
+  - name: Provide Data
+    href: articles/dashboard-designer/provide-data.md
     items:
     - name: Supported Data Sources
-      href: articles/dashboard-designer/providing-data/supported-data-sources.md
+      href: articles/dashboard-designer/provide-data/supported-data-sources.md
     - name: Connecting to SQL Databases
-      href: articles/dashboard-designer/providing-data/connecting-to-sql-databases.md
+      href: articles/dashboard-designer/provide-data/connecting-to-sql-databases.md
     - name: Connecting to OLAP cubes
-      href: articles/dashboard-designer/providing-data/connecting-to-olap-cubes.md
+      href: articles/dashboard-designer/provide-data/connecting-to-olap-cubes.md
     - name: Binding to Microsoft Excel Workbooks
-      href: articles/dashboard-designer/providing-data/binding-to-microsoft-excel-workbooks.md
+      href: articles/dashboard-designer/provide-data/binding-to-microsoft-excel-workbooks.md
     - name: Binding to CSV Files
-      href: articles/dashboard-designer/providing-data/binding-to-csv-files.md
+      href: articles/dashboard-designer/provide-data/binding-to-csv-files.md
     - name: Binding to Extract Data Sources
-      href: articles/dashboard-designer/providing-data/binding-to-extract-data-sources.md
+      href: articles/dashboard-designer/provide-data/binding-to-extract-data-sources.md
     - name: Data Processing Modes
-      href: articles/dashboard-designer/providing-data/data-processing-modes.md
+      href: articles/dashboard-designer/provide-data/data-processing-modes.md
     - name: Connect to EF Data Sources
-      href: articles/dashboard-designer/providing-data/connect-to-ef-data-sources.md
+      href: articles/dashboard-designer/provide-data/connect-to-ef-data-sources.md
     - name: Binding to Federated Data Source
-      href: articles/dashboard-designer/providing-data/binding-to-federated-data-source.md
+      href: articles/dashboard-designer/provide-data/binding-to-federated-data-source.md
     - name: Binding to JSON Data Sources
-      href: articles/dashboard-designer/providing-data/binding-to-json-data-sources.md
+      href: articles/dashboard-designer/provide-data/binding-to-json-data-sources.md
     - name: Binding to Object Data Sources
-      href: articles/dashboard-designer/providing-data/binding-to-object-data-sources.md
+      href: articles/dashboard-designer/provide-data/binding-to-object-data-sources.md
     - name: Binding to XPO Data Sources
-      href: articles/dashboard-designer/providing-data/binding-to-xpo-data-sources.md
-  - name: Working with Data
-    href: articles/dashboard-designer/working-with-data.md
+      href: articles/dashboard-designer/provide-data/binding-to-XPO-data-sources.md
+  - name: Work with Data
+    href: articles/dashboard-designer/work-with-data.md
     items:
     - name: Edit Connection Parameters
-      href: articles/dashboard-designer/working-with-data/edit-connection-parameters.md
+      href: articles/dashboard-designer/work-with-data/edit-connection-parameters.md
     - name: Using the Query Builder
-      href: articles/dashboard-designer/working-with-data/using-the-query-builder.md
+      href: articles/dashboard-designer/work-with-data/using-the-query-builder.md
     - name: Using the Query Editor
-      href: articles/dashboard-designer/working-with-data/using-the-query-editor.md
+      href: articles/dashboard-designer/work-with-data/using-the-query-editor.md
     - name: Manage SQL Queries
-      href: articles/dashboard-designer/working-with-data/manage-sql-queries.md
+      href: articles/dashboard-designer/work-with-data/manage-sql-queries.md
     - name: Filter Queries
-      href: articles/dashboard-designer/working-with-data/filter-queries.md
+      href: articles/dashboard-designer/work-with-data/filter-queries.md
     - name: Pass Query Parameters
-      href: articles/dashboard-designer/working-with-data/pass-query-parameters.md
+      href: articles/dashboard-designer/work-with-data/pass-query-parameters.md
     - name: Stored Procedures
-      href: articles/dashboard-designer/working-with-data/stored-procedures.md
+      href: articles/dashboard-designer/work-with-data/stored-procedures.md
     - name: Preview Data
-      href: articles/dashboard-designer/working-with-data/preview-data.md
+      href: articles/dashboard-designer/work-with-data/preview-data.md
     - name: Creating Calculated Fields
-      href: articles/dashboard-designer/working-with-data/creating-calculated-fields.md
+      href: articles/dashboard-designer/work-with-data/creating-calculated-fields.md
     - name: Data Inspector
-      href: articles/dashboard-designer/working-with-data/data-inspector.md
-  - name: Adding Dashboard Items
-    href: articles/dashboard-designer/adding-dashboard-items.md
-  - name: Binding Dashboard Items to Data
-    href: articles/dashboard-designer/binding-dashboard-items-to-data.md
+      href: articles/dashboard-designer/work-with-data/data-inspector.md
+  - name: Add Dashboard Items
+    href: articles/dashboard-designer/add-dashboard-items.md
+  - name: Bind Dashboard Items to Data
+    href: articles/dashboard-designer/bind-dashboard-items-to-data.md
     items:
-    - name: Binding Dashboard Items to Data
-      href: articles/dashboard-designer/binding-dashboard-items-to-data/binding-dashboard-items-to-data.md
+    - name: Bind Dashboard Items to Data
+      href: articles/dashboard-designer/bind-dashboard-items-to-data/bind-dashboard-items-to-data.md
     - name: Hidden Data Items
-      href: articles/dashboard-designer/binding-dashboard-items-to-data/hidden-data-items.md
-    - name: Binding Dashboard Items to Data in OLAP mode
-      href: articles/dashboard-designer/binding-dashboard-items-to-data/binding-dashboard-items-to-data-in-olap-mode.md
-  - name: Designing Dashboard Items
-    href: articles/dashboard-designer/designing-dashboard-items.md
+      href: articles/dashboard-designer/bind-dashboard-items-to-data/hidden-data-items.md
+    - name: Bind Dashboard Items to Data in OLAP mode
+      href: articles/dashboard-designer/bind-dashboard-items-to-data/bind-dashboard-items-to-data-in-olap-mode.md
+  - name: Dashboard Item Settings
+    href: articles/dashboard-designer/dashboard-item-settings.md
     items:
     - name: Chart
-      href: articles/dashboard-designer/designing-dashboard-items/chart.md
+      href: articles/dashboard-designer/dashboard-item-settings/chart.md
       items:
       - name: Providing Data
-        href: articles/dashboard-designer/designing-dashboard-items/chart/providing-data.md
+        href: articles/dashboard-designer/dashboard-item-settings/chart/providing-data.md
       - name: Series
-        href: articles/dashboard-designer/designing-dashboard-items/chart/series.md
+        href: articles/dashboard-designer/dashboard-item-settings/chart/series.md
         items:
         - name: Series Overview
-          href: articles/dashboard-designer/designing-dashboard-items/chart/series/series-overview.md
+          href: articles/dashboard-designer/dashboard-item-settings/chart/series/series-overview.md
         - name: Bar Series
-          href: articles/dashboard-designer/designing-dashboard-items/chart/series/bar-series.md
+          href: articles/dashboard-designer/dashboard-item-settings/chart/series/bar-series.md
         - name: Point and Line Series
-          href: articles/dashboard-designer/designing-dashboard-items/chart/series/point-and-line-series.md
+          href: articles/dashboard-designer/dashboard-item-settings/chart/series/point-and-line-series.md
         - name: Area Series
-          href: articles/dashboard-designer/designing-dashboard-items/chart/series/area-series.md
+          href: articles/dashboard-designer/dashboard-item-settings/chart/series/area-series.md
         - name: Range Series
-          href: articles/dashboard-designer/designing-dashboard-items/chart/series/range-series.md
+          href: articles/dashboard-designer/dashboard-item-settings/chart/series/range-series.md
         - name: Weighted Series
-          href: articles/dashboard-designer/designing-dashboard-items/chart/series/weighted-series.md
+          href: articles/dashboard-designer/dashboard-item-settings/chart/series/weighted-series.md
         - name: Financial Series
-          href: articles/dashboard-designer/designing-dashboard-items/chart/series/financial-series.md
+          href: articles/dashboard-designer/dashboard-item-settings/chart/series/financial-series.md
       - name: Panes
-        href: articles/dashboard-designer/designing-dashboard-items/chart/panes.md
+        href: articles/dashboard-designer/dashboard-item-settings/chart/panes.md
       - name: Interactivity
-        href: articles/dashboard-designer/designing-dashboard-items/chart/interactivity.md
+        href: articles/dashboard-designer/dashboard-item-settings/chart/interactivity.md
         items:
         - name: Master Filtering
-          href: articles/dashboard-designer/designing-dashboard-items/chart/interactivity/master-filtering.md
+          href: articles/dashboard-designer/dashboard-item-settings/chart/interactivity/master-filtering.md
         - name: Drill-Down
-          href: articles/dashboard-designer/designing-dashboard-items/chart/interactivity/drill-down.md
+          href: articles/dashboard-designer/dashboard-item-settings/chart/interactivity/drill-down.md
       - name: Coloring
-        href: articles/dashboard-designer/designing-dashboard-items/chart/coloring.md
+        href: articles/dashboard-designer/dashboard-item-settings/chart/coloring.md
       - name: Legend
-        href: articles/dashboard-designer/designing-dashboard-items/chart/legend.md
+        href: articles/dashboard-designer/dashboard-item-settings/chart/legend.md
       - name: Axes
-        href: articles/dashboard-designer/designing-dashboard-items/chart/axes.md
+        href: articles/dashboard-designer/dashboard-item-settings/chart/axes.md
         items:
         - name: X-Axis
-          href: articles/dashboard-designer/designing-dashboard-items/chart/axes/x-axis.md
+          href: articles/dashboard-designer/dashboard-item-settings/chart/axes/x-axis.md
         - name: Y-Axis
-          href: articles/dashboard-designer/designing-dashboard-items/chart/axes/y-axis.md
+          href: articles/dashboard-designer/dashboard-item-settings/chart/axes/y-axis.md
       - name: Orientation
-        href: articles/dashboard-designer/designing-dashboard-items/chart/orientation.md
+        href: articles/dashboard-designer/dashboard-item-settings/chart/orientation.md
+      - name: Conditional Formatting
+        href: articles/dashboard-designer/dashboard-item-settings/chart/conditional-formatting.md
     - name: Scatter Chart
-      href: articles/dashboard-designer/designing-dashboard-items/scatter-chart.md
+      href: articles/dashboard-designer/dashboard-item-settings/scatter-chart.md
       items:
       - name: Providing Data
-        href: articles/dashboard-designer/designing-dashboard-items/scatter-chart/providing-data.md
+        href: articles/dashboard-designer/dashboard-item-settings/scatter-chart/providing-data.md
       - name: Interactivity
-        href: articles/dashboard-designer/designing-dashboard-items/scatter-chart/interactivity.md
+        href: articles/dashboard-designer/dashboard-item-settings/scatter-chart/interactivity.md
         items:
         - name: Master Filtering
-          href: articles/dashboard-designer/designing-dashboard-items/scatter-chart/interactivity/master-filtering.md
+          href: articles/dashboard-designer/dashboard-item-settings/scatter-chart/interactivity/master-filtering.md
         - name: Drill-Down
-          href: articles/dashboard-designer/designing-dashboard-items/scatter-chart/interactivity/drill-down.md
+          href: articles/dashboard-designer/dashboard-item-settings/scatter-chart/interactivity/drill-down.md
       - name: Coloring
-        href: articles/dashboard-designer/designing-dashboard-items/scatter-chart/coloring.md
+        href: articles/dashboard-designer/dashboard-item-settings/scatter-chart/coloring.md
       - name: Legend
-        href: articles/dashboard-designer/designing-dashboard-items/scatter-chart/legend.md
+        href: articles/dashboard-designer/dashboard-item-settings/scatter-chart/legend.md
       - name: Axes
-        href: articles/dashboard-designer/designing-dashboard-items/scatter-chart/axes.md
+        href: articles/dashboard-designer/dashboard-item-settings/scatter-chart/axes.md
       - name: Orientation
-        href: articles/dashboard-designer/designing-dashboard-items/scatter-chart/orientation.md
+        href: articles/dashboard-designer/dashboard-item-settings/scatter-chart/orientation.md
       - name: Labels
-        href: articles/dashboard-designer/designing-dashboard-items/scatter-chart/labels.md
+        href: articles/dashboard-designer/dashboard-item-settings/scatter-chart/labels.md
+      - name: Conditional Formatting
+        href: articles/dashboard-designer/dashboard-item-settings/scatter-chart/conditional-formatting.md
     - name: Grid
-      href: articles/dashboard-designer/designing-dashboard-items/grid.md
+      href: articles/dashboard-designer/dashboard-item-settings/grid.md
       items:
       - name: Providing Data
-        href: articles/dashboard-designer/designing-dashboard-items/grid/providing-data.md
+        href: articles/dashboard-designer/dashboard-item-settings/grid/providing-data.md
       - name: Columns
-        href: articles/dashboard-designer/designing-dashboard-items/grid/columns.md
+        href: articles/dashboard-designer/dashboard-item-settings/grid/columns.md
         items:
         - name: Column Type Overview
-          href: articles/dashboard-designer/designing-dashboard-items/grid/columns/column-type-overview.md
+          href: articles/dashboard-designer/dashboard-item-settings/grid/columns/column-type-overview.md
         - name: Dimension Column
-          href: articles/dashboard-designer/designing-dashboard-items/grid/columns/dimension-column.md
+          href: articles/dashboard-designer/dashboard-item-settings/grid/columns/dimension-column.md
         - name: Hyperlink Column
-          href: articles/dashboard-designer/designing-dashboard-items/grid/columns/hyperlink-column.md
+          href: articles/dashboard-designer/dashboard-item-settings/grid/columns/hyperlink-column.md
         - name: Measure Column
-          href: articles/dashboard-designer/designing-dashboard-items/grid/columns/measure-column.md
+          href: articles/dashboard-designer/dashboard-item-settings/grid/columns/measure-column.md
         - name: Delta Column
-          href: articles/dashboard-designer/designing-dashboard-items/grid/columns/delta-column.md
+          href: articles/dashboard-designer/dashboard-item-settings/grid/columns/delta-column.md
         - name: Sparkline Column
-          href: articles/dashboard-designer/designing-dashboard-items/grid/columns/sparkline-column.md
+          href: articles/dashboard-designer/dashboard-item-settings/grid/columns/sparkline-column.md
       - name: Interactivity
-        href: articles/dashboard-designer/designing-dashboard-items/grid/interactivity.md
+        href: articles/dashboard-designer/dashboard-item-settings/grid/interactivity.md
         items:
         - name: Master Filtering
-          href: articles/dashboard-designer/designing-dashboard-items/grid/interactivity/master-filtering.md
+          href: articles/dashboard-designer/dashboard-item-settings/grid/interactivity/master-filtering.md
         - name: Drill-Down
-          href: articles/dashboard-designer/designing-dashboard-items/grid/interactivity/drill-down.md
+          href: articles/dashboard-designer/dashboard-item-settings/grid/interactivity/drill-down.md
       - name: Conditional Formatting
-        href: articles/dashboard-designer/designing-dashboard-items/grid/conditional-formatting.md
+        href: articles/dashboard-designer/dashboard-item-settings/grid/conditional-formatting.md
       - name: Totals
-        href: articles/dashboard-designer/designing-dashboard-items/grid/totals.md
+        href: articles/dashboard-designer/dashboard-item-settings/grid/totals.md
       - name: Layout
-        href: articles/dashboard-designer/designing-dashboard-items/grid/layout.md
+        href: articles/dashboard-designer/dashboard-item-settings/grid/layout.md
       - name: Style
-        href: articles/dashboard-designer/designing-dashboard-items/grid/style.md
+        href: articles/dashboard-designer/dashboard-item-settings/grid/style.md
     - name: Pies
-      href: articles/dashboard-designer/designing-dashboard-items/pies.md
+      href: articles/dashboard-designer/dashboard-item-settings/pies.md
       items:
       - name: Providing Data
-        href: articles/dashboard-designer/designing-dashboard-items/pies/providing-data.md
+        href: articles/dashboard-designer/dashboard-item-settings/pies/providing-data.md
       - name: Interactivity
-        href: articles/dashboard-designer/designing-dashboard-items/pies/interactivity.md
+        href: articles/dashboard-designer/dashboard-item-settings/pies/interactivity.md
         items:
         - name: Master Filtering
-          href: articles/dashboard-designer/designing-dashboard-items/pies/interactivity/master-filtering.md
+          href: articles/dashboard-designer/dashboard-item-settings/pies/interactivity/master-filtering.md
         - name: Drill-Down
-          href: articles/dashboard-designer/designing-dashboard-items/pies/interactivity/drill-down.md
+          href: articles/dashboard-designer/dashboard-item-settings/pies/interactivity/drill-down.md
       - name: Coloring
-        href: articles/dashboard-designer/designing-dashboard-items/pies/coloring.md
+        href: articles/dashboard-designer/dashboard-item-settings/pies/coloring.md
       - name: Layout
-        href: articles/dashboard-designer/designing-dashboard-items/pies/layout.md
+        href: articles/dashboard-designer/dashboard-item-settings/pies/layout.md
       - name: Labels
-        href: articles/dashboard-designer/designing-dashboard-items/pies/labels.md
+        href: articles/dashboard-designer/dashboard-item-settings/pies/labels.md
       - name: Style
-        href: articles/dashboard-designer/designing-dashboard-items/pies/style.md
+        href: articles/dashboard-designer/dashboard-item-settings/pies/style.md
     - name: Cards
-      href: articles/dashboard-designer/designing-dashboard-items/cards.md
+      href: articles/dashboard-designer/dashboard-item-settings/cards.md
       items:
       - name: Providing Data
-        href: articles/dashboard-designer/designing-dashboard-items/cards/providing-data.md
+        href: articles/dashboard-designer/dashboard-item-settings/cards/providing-data.md
       - name: Layout
-        href: articles/dashboard-designer/designing-dashboard-items/cards/layout.md
+        href: articles/dashboard-designer/dashboard-item-settings/cards/layout.md
       - name: Delta
-        href: articles/dashboard-designer/designing-dashboard-items/cards/delta.md
+        href: articles/dashboard-designer/dashboard-item-settings/cards/delta.md
       - name: Sparkline
-        href: articles/dashboard-designer/designing-dashboard-items/cards/sparkline.md
+        href: articles/dashboard-designer/dashboard-item-settings/cards/sparkline.md
       - name: Formatting
-        href: articles/dashboard-designer/designing-dashboard-items/cards/formatting.md
+        href: articles/dashboard-designer/dashboard-item-settings/cards/formatting.md
       - name: Conditional Formatting
-        href: articles/dashboard-designer/designing-dashboard-items/cards/conditional-formatting.md
+        href: articles/dashboard-designer/dashboard-item-settings/cards/conditional-formatting.md
       - name: Interactivity
-        href: articles/dashboard-designer/designing-dashboard-items/cards/interactivity.md
+        href: articles/dashboard-designer/dashboard-item-settings/cards/interactivity.md
         items:
         - name: Master Filtering
-          href: articles/dashboard-designer/designing-dashboard-items/cards/interactivity/master-filtering.md
+          href: articles/dashboard-designer/dashboard-item-settings/cards/interactivity/master-filtering.md
         - name: Drill-Down
-          href: articles/dashboard-designer/designing-dashboard-items/cards/interactivity/drill-down.md
+          href: articles/dashboard-designer/dashboard-item-settings/cards/interactivity/drill-down.md
       - name: Cards Arrangement
-        href: articles/dashboard-designer/designing-dashboard-items/cards/cards-arrangement.md
+        href: articles/dashboard-designer/dashboard-item-settings/cards/cards-arrangement.md
     - name: Gauges
-      href: articles/dashboard-designer/designing-dashboard-items/gauges.md
+      href: articles/dashboard-designer/dashboard-item-settings/gauges.md
       items:
       - name: Providing Data
-        href: articles/dashboard-designer/designing-dashboard-items/gauges/providing-data.md
+        href: articles/dashboard-designer/dashboard-item-settings/gauges/providing-data.md
       - name: Delta
-        href: articles/dashboard-designer/designing-dashboard-items/gauges/delta.md
+        href: articles/dashboard-designer/dashboard-item-settings/gauges/delta.md
       - name: Gauge Scale
-        href: articles/dashboard-designer/designing-dashboard-items/gauges/gauge-scale.md
+        href: articles/dashboard-designer/dashboard-item-settings/gauges/gauge-scale.md
       - name: Interactivity
-        href: articles/dashboard-designer/designing-dashboard-items/gauges/interactivity.md
+        href: articles/dashboard-designer/dashboard-item-settings/gauges/interactivity.md
         items:
         - name: Master Filtering
-          href: articles/dashboard-designer/designing-dashboard-items/gauges/interactivity/master-filtering.md
+          href: articles/dashboard-designer/dashboard-item-settings/gauges/interactivity/master-filtering.md
         - name: Drill-Down
-          href: articles/dashboard-designer/designing-dashboard-items/gauges/interactivity/drill-down.md
+          href: articles/dashboard-designer/dashboard-item-settings/gauges/interactivity/drill-down.md
       - name: Layout
-        href: articles/dashboard-designer/designing-dashboard-items/gauges/layout.md
+        href: articles/dashboard-designer/dashboard-item-settings/gauges/layout.md
       - name: Style
-        href: articles/dashboard-designer/designing-dashboard-items/gauges/style.md
+        href: articles/dashboard-designer/dashboard-item-settings/gauges/style.md
     - name: Pivot
-      href: articles/dashboard-designer/designing-dashboard-items/pivot.md
+      href: articles/dashboard-designer/dashboard-item-settings/pivot.md
       items:
       - name: Providing Data
-        href: articles/dashboard-designer/designing-dashboard-items/pivot/providing-data.md
+        href: articles/dashboard-designer/dashboard-item-settings/pivot/providing-data.md
       - name: Interactivity
-        href: articles/dashboard-designer/designing-dashboard-items/pivot/interactivity.md
+        href: articles/dashboard-designer/dashboard-item-settings/pivot/interactivity.md
       - name: Conditional Formatting
-        href: articles/dashboard-designer/designing-dashboard-items/pivot/conditional-formatting.md
+        href: articles/dashboard-designer/dashboard-item-settings/pivot/conditional-formatting.md
       - name: Layout
-        href: articles/dashboard-designer/designing-dashboard-items/pivot/layout.md
+        href: articles/dashboard-designer/dashboard-item-settings/pivot/layout.md
       - name: Expanded State
-        href: articles/dashboard-designer/designing-dashboard-items/pivot/expanded-state.md
+        href: articles/dashboard-designer/dashboard-item-settings/pivot/expanded-state.md
     - name: Choropleth Map
-      href: articles/dashboard-designer/designing-dashboard-items/choropleth-map.md
+      href: articles/dashboard-designer/dashboard-item-settings/choropleth-map.md
       items:
       - name: Providing Maps
-        href: articles/dashboard-designer/designing-dashboard-items/choropleth-map/providing-maps.md
+        href: articles/dashboard-designer/dashboard-item-settings/choropleth-map/providing-maps.md
       - name: Providing Data
-        href: articles/dashboard-designer/designing-dashboard-items/choropleth-map/providing-data.md
+        href: articles/dashboard-designer/dashboard-item-settings/choropleth-map/providing-data.md
       - name: Map Coloring
-        href: articles/dashboard-designer/designing-dashboard-items/choropleth-map/map-coloring.md
+        href: articles/dashboard-designer/dashboard-item-settings/choropleth-map/map-coloring.md
         items:
         - name: Delta
-          href: articles/dashboard-designer/designing-dashboard-items/choropleth-map/map-coloring/delta.md
+          href: articles/dashboard-designer/dashboard-item-settings/choropleth-map/map-coloring/delta.md
       - name: Map Navigation
-        href: articles/dashboard-designer/designing-dashboard-items/choropleth-map/map-navigation.md
+        href: articles/dashboard-designer/dashboard-item-settings/choropleth-map/map-navigation.md
       - name: Interactivity
-        href: articles/dashboard-designer/designing-dashboard-items/choropleth-map/interactivity.md
+        href: articles/dashboard-designer/dashboard-item-settings/choropleth-map/interactivity.md
       - name: Labels
-        href: articles/dashboard-designer/designing-dashboard-items/choropleth-map/labels.md
+        href: articles/dashboard-designer/dashboard-item-settings/choropleth-map/labels.md
       - name: Legend
-        href: articles/dashboard-designer/designing-dashboard-items/choropleth-map/legend.md
+        href: articles/dashboard-designer/dashboard-item-settings/choropleth-map/legend.md
     - name: Geo Point Maps
-      href: articles/dashboard-designer/designing-dashboard-items/geo-point-maps.md
+      href: articles/dashboard-designer/dashboard-item-settings/geo-point-maps.md
       items:
       - name: Map Types Overview
-        href: articles/dashboard-designer/designing-dashboard-items/geo-point-maps/map-types-overview.md
+        href: articles/dashboard-designer/dashboard-item-settings/geo-point-maps/map-types-overview.md
       - name: Providing Maps
-        href: articles/dashboard-designer/designing-dashboard-items/geo-point-maps/providing-maps.md
+        href: articles/dashboard-designer/dashboard-item-settings/geo-point-maps/providing-maps.md
       - name: Geo Point Map
-        href: articles/dashboard-designer/designing-dashboard-items/geo-point-maps/geo-point-map.md
+        href: articles/dashboard-designer/dashboard-item-settings/geo-point-maps/geo-point-map.md
         items:
         - name: Providing Data
-          href: articles/dashboard-designer/designing-dashboard-items/geo-point-maps/geo-point-map/providing-data.md
+          href: articles/dashboard-designer/dashboard-item-settings/geo-point-maps/geo-point-map/providing-data.md
       - name: Bubble Map
-        href: articles/dashboard-designer/designing-dashboard-items/geo-point-maps/bubble-map.md
+        href: articles/dashboard-designer/dashboard-item-settings/geo-point-maps/bubble-map.md
         items:
         - name: Providing Data
-          href: articles/dashboard-designer/designing-dashboard-items/geo-point-maps/bubble-map/providing-data.md
+          href: articles/dashboard-designer/dashboard-item-settings/geo-point-maps/bubble-map/providing-data.md
         - name: Coloring
-          href: articles/dashboard-designer/designing-dashboard-items/geo-point-maps/bubble-map/coloring.md
+          href: articles/dashboard-designer/dashboard-item-settings/geo-point-maps/bubble-map/coloring.md
         - name: Legends
-          href: articles/dashboard-designer/designing-dashboard-items/geo-point-maps/bubble-map/legends.md
+          href: articles/dashboard-designer/dashboard-item-settings/geo-point-maps/bubble-map/legends.md
       - name: Pie Map
-        href: articles/dashboard-designer/designing-dashboard-items/geo-point-maps/pie-map.md
+        href: articles/dashboard-designer/dashboard-item-settings/geo-point-maps/pie-map.md
         items:
         - name: Providing Data
-          href: articles/dashboard-designer/designing-dashboard-items/geo-point-maps/pie-map/providing-data.md
+          href: articles/dashboard-designer/dashboard-item-settings/geo-point-maps/pie-map/providing-data.md
         - name: Pie Options
-          href: articles/dashboard-designer/designing-dashboard-items/geo-point-maps/pie-map/pie-options.md
+          href: articles/dashboard-designer/dashboard-item-settings/geo-point-maps/pie-map/pie-options.md
         - name: Coloring
-          href: articles/dashboard-designer/designing-dashboard-items/geo-point-maps/pie-map/coloring.md
+          href: articles/dashboard-designer/dashboard-item-settings/geo-point-maps/pie-map/coloring.md
         - name: Legends
-          href: articles/dashboard-designer/designing-dashboard-items/geo-point-maps/pie-map/legends.md
+          href: articles/dashboard-designer/dashboard-item-settings/geo-point-maps/pie-map/legends.md
       - name: Clustering
-        href: articles/dashboard-designer/designing-dashboard-items/geo-point-maps/clustering.md
+        href: articles/dashboard-designer/dashboard-item-settings/geo-point-maps/clustering.md
       - name: Interactivity
-        href: articles/dashboard-designer/designing-dashboard-items/geo-point-maps/interactivity.md
+        href: articles/dashboard-designer/dashboard-item-settings/geo-point-maps/interactivity.md
       - name: Labels
-        href: articles/dashboard-designer/designing-dashboard-items/geo-point-maps/labels.md
+        href: articles/dashboard-designer/dashboard-item-settings/geo-point-maps/labels.md
       - name: Map Navigation
-        href: articles/dashboard-designer/designing-dashboard-items/geo-point-maps/map-navigation.md
+        href: articles/dashboard-designer/dashboard-item-settings/geo-point-maps/map-navigation.md
     - name: Range Filter
-      href: articles/dashboard-designer/designing-dashboard-items/range-filter.md
+      href: articles/dashboard-designer/dashboard-item-settings/range-filter.md
       items:
       - name: Providing Data
-        href: articles/dashboard-designer/designing-dashboard-items/range-filter/providing-data.md
+        href: articles/dashboard-designer/dashboard-item-settings/range-filter/providing-data.md
       - name: Series
-        href: articles/dashboard-designer/designing-dashboard-items/range-filter/series.md
+        href: articles/dashboard-designer/dashboard-item-settings/range-filter/series.md
       - name: Interactivity
-        href: articles/dashboard-designer/designing-dashboard-items/range-filter/interactivity.md
+        href: articles/dashboard-designer/dashboard-item-settings/range-filter/interactivity.md
       - name: Predefined Ranges
-        href: articles/dashboard-designer/designing-dashboard-items/range-filter/predefined-ranges.md
+        href: articles/dashboard-designer/dashboard-item-settings/range-filter/predefined-ranges.md
       - name: Coloring
-        href: articles/dashboard-designer/designing-dashboard-items/range-filter/coloring.md
+        href: articles/dashboard-designer/dashboard-item-settings/range-filter/coloring.md
     - name: Date Filter
-      href: articles/dashboard-designer/designing-dashboard-items/date-filter.md
+      href: articles/dashboard-designer/dashboard-item-settings/date-filter.md
     - name: Images
-      href: articles/dashboard-designer/designing-dashboard-items/images.md
+      href: articles/dashboard-designer/dashboard-item-settings/images.md
       items:
       - name: Image Types Overview
-        href: articles/dashboard-designer/designing-dashboard-items/images/image-types-overview.md
+        href: articles/dashboard-designer/dashboard-item-settings/images/image-types-overview.md
       - name: Providing Images
-        href: articles/dashboard-designer/designing-dashboard-items/images/providing-images.md
+        href: articles/dashboard-designer/dashboard-item-settings/images/providing-images.md
       - name: Interactivity
-        href: articles/dashboard-designer/designing-dashboard-items/images/interactivity.md
+        href: articles/dashboard-designer/dashboard-item-settings/images/interactivity.md
       - name: Image Settings
-        href: articles/dashboard-designer/designing-dashboard-items/images/image-settings.md
+        href: articles/dashboard-designer/dashboard-item-settings/images/image-settings.md
     - name: Text Box
-      href: articles/dashboard-designer/designing-dashboard-items/text-box.md
+      href: articles/dashboard-designer/dashboard-item-settings/text-box.md
       items:
       - name: Editing Text
-        href: articles/dashboard-designer/designing-dashboard-items/text-box/editing-text.md
+        href: articles/dashboard-designer/dashboard-item-settings/text-box/editing-text.md
       - name: Providing Data
-        href: articles/dashboard-designer/designing-dashboard-items/text-box/providing-data.md
+        href: articles/dashboard-designer/dashboard-item-settings/text-box/providing-data.md
       - name: Interactivity
-        href: articles/dashboard-designer/designing-dashboard-items/text-box/interactivity.md
+        href: articles/dashboard-designer/dashboard-item-settings/text-box/interactivity.md
     - name: Treemap
-      href: articles/dashboard-designer/designing-dashboard-items/treemap.md
+      href: articles/dashboard-designer/dashboard-item-settings/treemap.md
       items:
       - name: Providing Data
-        href: articles/dashboard-designer/designing-dashboard-items/treemap/providing-data.md
+        href: articles/dashboard-designer/dashboard-item-settings/treemap/providing-data.md
       - name: Interactivity
-        href: articles/dashboard-designer/designing-dashboard-items/treemap/interactivity.md
+        href: articles/dashboard-designer/dashboard-item-settings/treemap/interactivity.md
         items:
         - name: Master Filtering
-          href: articles/dashboard-designer/designing-dashboard-items/treemap/interactivity/master-filtering.md
+          href: articles/dashboard-designer/dashboard-item-settings/treemap/interactivity/master-filtering.md
         - name: Drill-Down
-          href: articles/dashboard-designer/designing-dashboard-items/treemap/interactivity/drill-down.md
+          href: articles/dashboard-designer/dashboard-item-settings/treemap/interactivity/drill-down.md
       - name: Layout
-        href: articles/dashboard-designer/designing-dashboard-items/treemap/layout.md
+        href: articles/dashboard-designer/dashboard-item-settings/treemap/layout.md
       - name: Grouping
-        href: articles/dashboard-designer/designing-dashboard-items/treemap/grouping.md
+        href: articles/dashboard-designer/dashboard-item-settings/treemap/grouping.md
       - name: Coloring
-        href: articles/dashboard-designer/designing-dashboard-items/treemap/coloring.md
+        href: articles/dashboard-designer/dashboard-item-settings/treemap/coloring.md
       - name: Labels
-        href: articles/dashboard-designer/designing-dashboard-items/treemap/labels.md
+        href: articles/dashboard-designer/dashboard-item-settings/treemap/labels.md
     - name: Filter Elements
-      href: articles/dashboard-designer/designing-dashboard-items/filter-elements.md
+      href: articles/dashboard-designer/dashboard-item-settings/filter-elements.md
       items:
       - name: Filter Elements Overview
-        href: articles/dashboard-designer/designing-dashboard-items/filter-elements/filter-elements-overview.md
+        href: articles/dashboard-designer/dashboard-item-settings/filter-elements/filter-elements-overview.md
       - name: Providing Data
-        href: articles/dashboard-designer/designing-dashboard-items/filter-elements/providing-data.md
+        href: articles/dashboard-designer/dashboard-item-settings/filter-elements/providing-data.md
       - name: Interactivity
-        href: articles/dashboard-designer/designing-dashboard-items/filter-elements/interactivity.md
+        href: articles/dashboard-designer/dashboard-item-settings/filter-elements/interactivity.md
     - name: Dashboard Item Group
-      href: articles/dashboard-designer/designing-dashboard-items/dashboard-item-group.md
+      href: articles/dashboard-designer/dashboard-item-settings/dashboard-item-group.md
     - name: Tab Container
-      href: articles/dashboard-designer/designing-dashboard-items/tab-container.md
+      href: articles/dashboard-designer/dashboard-item-settings/tab-container.md
   - name: Data Shaping
     href: articles/dashboard-designer/data-shaping.md
     items:
@@ -468,8 +472,8 @@
         href: articles/dashboard-designer/data-analysis/using-dashboard-parameters/passing-parameter-values.md
       - name: Requesting Parameter Values
         href: articles/dashboard-designer/data-analysis/using-dashboard-parameters/requesting-parameter-values.md
-  - name: Converting Dashboard Items
-    href: articles/dashboard-designer/converting-dashboard-items.md
+  - name: Convert Dashboard Items
+    href: articles/dashboard-designer/convert-dashboard-items.md
   - name: Dashboard Layout
     href: articles/dashboard-designer/dashboard-layout.md
     items:
@@ -483,8 +487,8 @@
     href: articles/dashboard-designer/undo-and-redo-operations.md
   - name: Automatic and Manual Updates
     href: articles/dashboard-designer/automatic-and-manual-updates.md
-  - name: Saving a Dashboard
-    href: articles/dashboard-designer/saving-a-dashboard.md
+  - name: Save a Dashboard
+    href: articles/dashboard-designer/save-a-dashboard.md
   - name: Printing and Exporting
     href: articles/dashboard-designer/printing-and-exporting.md
   - name: UI Elements

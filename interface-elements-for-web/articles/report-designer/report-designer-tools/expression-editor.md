@@ -55,11 +55,11 @@ Take into account the following syntax conventions when using the Expression Edi
 
 ## Using the Expression Editor
 
-When [expression bindings](../bind-to-data/bind-controls-to-data-expression-bindings.md) are enabled in your reports, the Report Designer contains the [Expressions](ui-panels/expressions-panel.md) tab allowing you to assign values to various element properties. Clicking any property's ellipsis button invokes the Expression Editor, in which you can specify custom expressions with the available data fields.
+When [expression bindings](../use-report-elements/bind-controls-to-data.md) are enabled in your reports, the Report Designer contains the [Expressions](ui-panels/expressions-panel.md) tab allowing you to assign values to various element properties. Clicking any property's ellipsis button invokes the Expression Editor, in which you can specify custom expressions with the available data fields.
 
 ![](../../../images/eurd-web-expression-editor-expressions-tab.png)
 
-In the [data binding](../bind-to-data/bind-controls-to-data-data-bindings.md) mode, you can use the Expression Editor in the following cases:
+In the [data binding](../use-report-elements/bind-controls-to-data.md) mode, you can use the Expression Editor in the following cases:
 
 * **Edit a Calculated Field's Expression**
 
@@ -75,7 +75,7 @@ In the [data binding](../bind-to-data/bind-controls-to-data-data-bindings.md) mo
 
 * **Construct a Formatting Rule's Condition**
 
-    Access the [formatting rule](../shape-report-data/shape-data-data-bindings/conditionally-change-a-control-appearance.md)'s settings in the [Properties](ui-panels/properties-panel.md) panel and click the **Condition** property's ellipsis button.
+    Access the [formatting rule](../shape-report-data/specify-conditions-for-report-elements/conditionally-change-a-control-appearance.md)'s settings in the [Properties](ui-panels/properties-panel.md) panel and click the **Condition** property's ellipsis button.
 
     ![](../../../images/eurd-web-shaping-formattin-rule-appearance-condition.png)
 

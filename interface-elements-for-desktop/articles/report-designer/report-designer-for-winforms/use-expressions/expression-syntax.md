@@ -320,7 +320,7 @@ The table below contains constants, operators, and functions you can use in [exp
 
 ## Functions for Expression Bindings and Calculated Fields
 
-Below is a list of functions that are used to construct [expression bindings](..\bind-to-data\data-binding-modes.md) and [calculated fields](..\shape-report-data\use-calculated-fields.md):
+Below is a list of functions that are used to construct [expression bindings](data-binding-modes.md) and [calculated fields](..\shape-report-data\use-calculated-fields.md):
 
 <table><tr><th><p>Function</p>
 </th><th><p>Description</p>
@@ -332,7 +332,7 @@ Below is a list of functions that are used to construct [expression bindings](..
 <p><em>Beverages</em></p>
 <p><em>Soft drinks, coffees, teas, beers and ales.</em></p>
 </td></tr><tr><td><p>FormatString(Format, Value1, ... , ValueN)</p>
-</td><td><p>Returns the specified string with formatted field values. See <a class="xref" href="..\shape-report-data\shape-data-data-bindings\format-data.md">Format Data</a> for details.</p>
+</td><td><p>Returns the specified string with formatted field values. See <a class="xref" href="..\shape-report-data\format-data.md">Format Data</a> for details.</p>
 </td><td><p>FormatString(&#39;{0:$0.00}&#39;, [UnitPrice])</p>
 <p>Result: <em>$45.60</em></p>
 </td></tr><tr><td><p>Rgb(Red, Green, Blue)</p>
@@ -380,7 +380,7 @@ The following functions are specific for [binding reports to a stored procedure]
 
 ## <a name="summary-expression-editor">Functions for Summary Expression Editor</a>
 
-Use the following functions when [calculating summaries](..\shape-report-data\shape-data-expression-bindings\calculate-a-summary.md) across a report and its groups:
+Use the following functions when [calculating summaries](..\shape-report-data\calculate-summaries\calculate-a-summary.md) across a report and its groups:
 
 <table><tr><th><p>Function</p>
 </th><th><p>Description</p>
@@ -391,7 +391,7 @@ Use the following functions when [calculating summaries](..\shape-report-data\sh
 </td></tr><tr><td><p>sumCount(Expression)</p>
 </td><td><p>Counts the number of values within the specified summary region (group, page or report). In a simple scenario, you may not pass a parameter.</p>
 <p>  When using this function in a <a class="xref" href="..\create-reports\master-detail-reports-with-detail-report-bands.md">master-detail report</a>&#39;s master band and passing a detail&#39;s field as a parameter, it counts the number of records within the detail&#39;s band.</p>
-<p>  See also: <a class="xref" href="..\shape-report-data\shape-data-data-bindings\count-the-number-of-records-in-a-report-or-group.md">Counting the Number of Records in a Report or Group</a>, <a class="xref" href="..\shape-report-data\shape-data-data-bindings\count-the-number-of-groups-in-a-report.md">Counting the Number of Groups in a Report</a></p>
+<p>  See also: <a class="xref" href="..\shape-report-data\count-elements-and-values\count-the-number-of-records-in-a-report-or-group.md">Counting the Number of Records in a Report or Group</a>, <a class="xref" href="..\shape-report-data\count-elements-and-values\count-the-number-of-groups-in-a-report.md">Counting the Number of Groups in a Report</a></p>
 </td><td><p>sumCount([UnitPrice])</p>
 </td></tr><tr><td><p>sumDAvg(Expression)</p>
 </td><td><p>Calculates the average of all the <strong>distinct</strong> values within the specified summary region (group, page or report).</p>
@@ -430,7 +430,7 @@ Use the following functions when [calculating summaries](..\shape-report-data\sh
 </td></tr><tr><td><p>sumRecordNumber(Expression)</p>
 </td><td><p>Returns the current record number in the specified summary region (group, page or report). This means for instance, if the summary is calculated for a group, then the record number is calculated only within that group, and is reset every time a new group is started.</p>
 <p>  In a simple scenario, you may not pass a parameter.</p>
-<p>  See also: <a class="xref" href="..\shape-report-data\shape-data-data-bindings\display-row-numbers-in-a-report-group-or-page.md">Displaying Row Numbers in a Report, Group or Page</a></p>
+<p>  See also: <a class="xref" href="..\shape-report-data\count-elements-and-values\display-row-numbers-in-a-report-group-or-page.md">Displaying Row Numbers in a Report, Group or Page</a></p>
 </td><td><p>sumRecordNumber()</p>
 </td></tr><tr><td><p>sumRunningSum(Expression)</p>
 </td><td><p>Summarizes all the values, which were printed before the current data row, with the current data row&#39;s value.</p>

@@ -4,7 +4,7 @@ author: Natalia Kazakova
 legacyId: 16515
 ---
 # Dashboard Items Layout
-The **Dashboard Designer** provides the capability to arrange and resize dashboard items and [groups](../designing-dashboard-items/dashboard-item-group.md) in various ways, using simple drag-and-drop operations.
+The **Dashboard Designer** provides the capability to arrange and resize dashboard items and [groups](../dashboard-item-settings/dashboard-item-group.md) in various ways, using simple drag-and-drop operations.
 
 ![Layout_ItemsLayoutMain](../../../images/img20477.png)
 
@@ -14,9 +14,9 @@ The **Dashboard Designer** provides the capability to arrange and resize dashboa
 * [Item Positioning](#item-positioning)
 
 ## Layout Concepts
-The dashboard arranges dashboard items and [groups](../designing-dashboard-items/dashboard-item-group.md) using _layout items_ and _layout groups_. They are special containers that are used to present a dashboard layout as a hierarchical structure.
+The dashboard arranges dashboard items and [groups](../dashboard-item-settings/dashboard-item-group.md) using _layout items_ and _layout groups_. They are special containers that are used to present a dashboard layout as a hierarchical structure.
 * A layout item is used as a container that displays an individual dashboard item.
-* A layout group is used as a container that is used to arrange layout items (or other layout groups) either horizontally or vertically. At the same time, layout groups are used as containers that display [dashboard item groups](../designing-dashboard-items/dashboard-item-group.md).
+* A layout group is used as a container that is used to arrange layout items (or other layout groups) either horizontally or vertically. At the same time, layout groups are used as containers that display [dashboard item groups](../dashboard-item-settings/dashboard-item-group.md).
 
 Thus, a dashboard layout is hierarchically arranged from the root layout group to bottommost layout items, which display individual dashboard items.
 

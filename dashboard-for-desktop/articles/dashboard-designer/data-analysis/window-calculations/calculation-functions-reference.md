@@ -34,7 +34,7 @@ This topic contains the descriptions of window functions that can be used to spe
 | WindowVarp(SummaryExpression, StartOffset, EndOffset) | Returns the biased variance of the expression within the window. | WindowVarp(Sum([Sales]), First(), Last()) | - |
 | WindowStdDev(SummaryExpression, StartOffset, EndOffset) | Returns the sample standard deviation of the expression within the window. | WindowStdDev(Sum([Sales]), First(), Last()) | - |
 | WindowStdDevp(SummaryExpression, StartOffset, EndOffset) | Returns the biased standard deviation of the expression within the window. | WindowStdDevp(Sum([Sales]), First(), Last()) | - |
-| Total(SummaryExpression) | Returns the total for the specified expression in a calculation window. Note that the **Total** function calculates the total based on values from the [underlying data source](../../providing-data.md). | Total(Sum([Sales])) | ![CalculationFunction_Total](../../../../images/img123030.png) |
+| Total(SummaryExpression) | Returns the total for the specified expression in a calculation window. Note that the **Total** function calculates the total based on values from the [underlying data source](../../provide-data.md). | Total(Sum([Sales])) | ![CalculationFunction_Total](../../../../images/img123030.png) |
 
 > [!IMPORTANT]
 > Note that window functions cannot be used inside **[Aggr](../aggregations/intermediate-level-aggregations.md)**.

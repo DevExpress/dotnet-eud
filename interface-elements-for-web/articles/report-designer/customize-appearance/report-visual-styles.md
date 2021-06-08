@@ -61,5 +61,5 @@ Nested elements inherit their parent element's style if they do not have an appl
 You can specify a different value for a report element's appearance property to override the corresponding property value in the report element's style.
 
 > [!NOTE]
-> If you apply [conditional formatting](..\shape-report-data\shape-data-expression-bindings\conditionally-change-a-control-appearance.md), its appearance property values have a higher priority than both the individually specified properties and the style's properties.
+> If you apply [conditional formatting](..\shape-report-data\specify-conditions-for-report-elements\conditionally-change-a-control-appearance.md), its appearance property values have a higher priority than both the individually specified properties and the style's properties.
 

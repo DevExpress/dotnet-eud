@@ -33,7 +33,7 @@ If a panel includes only one control, you can use the **Fit Bounds to Container*
 
 ![](../../../../../images/eurd-win-panel-fit-bounds-to-container.png)
 
-You can also enable the panel's **Can Shrink** property to automatically adjusts the panel's size to fit all the inner controls. For instance, this allows preventing blank areas when you [conditionally hide specific controls](../../shape-report-data/shape-data-expression-bindings/conditionally-supress-controls.md).
+You can also enable the panel's **Can Shrink** property to automatically adjusts the panel's size to fit all the inner controls. For instance, this allows preventing blank areas when you [conditionally hide specific controls](../../shape-report-data/specify-conditions-for-report-elements/conditionally-supress-controls.md).
 
 ![](../../../../../images/eurd-win-panel-can-shrink-property.png)
 

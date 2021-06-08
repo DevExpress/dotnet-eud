@@ -24,9 +24,26 @@ Use the following commands on the **View** toolbar to control grid settings.
 
 ![Grid Settings](../../images/diagram-grid-settings.png)
 
+## Scroll a Page
+
+* Spin the mouse wheel to scroll a diagram page vertically.
+
+* Drag a side/bottom scroll bar to scroll a page vertically/horizontally.
+
+* Hold Space and drag a diagram page to pan it in any direction.
+
+  ![Scroll a Page](../../images/diagram-scroll-page.gif)
+
 ## Full Screen
 
 To switch to full screen mode, click the **Full Screen** command on the **View** toolbar or press F11 while the **Diagram** tool has focus.
 
 ![Full Screen](../../images/diagram-full-screen.png)
 
+## Zoom a Page
+
+Use one of the following ways to zoom into or out of a diagram page:
+
+* Press and hold the Ctrl key and spin the mouse wheel.
+
+* Change the current zoom level in the **View** toolbar.

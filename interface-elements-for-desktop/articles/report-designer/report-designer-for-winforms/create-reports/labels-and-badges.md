@@ -24,7 +24,7 @@ This tutorial describes the steps to create a label report that contains employe
 
     ![](../../../../images/eurd-win-label-report-layout.png)
 
-    If required, you can apply [mail merge](../bind-to-data/use-embedded-fields-mail-merge.md) to combine several fields within the same [Label](../use-report-elements/use-basic-report-controls/label.md) control.
+    If required, you can apply [mail merge](../use-report-elements/use-embedded-fields-mail-merge.md) to combine several fields within the same [Label](../use-report-elements/use-basic-report-controls/label.md) control.
 
     For the [Picture Box](../use-report-elements/use-basic-report-controls/picture-box.md) control, you can set its **Sizing** property to **Zoom Image**.
 
