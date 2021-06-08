@@ -13,4 +13,4 @@ The documents in this section describe the **Table** control and illustrate its 
 * [Hide Table Cells](use-tables/hide-table-cells.md)
 
 > [!Note]
-> Refer to [Create a Table Report](../create-popular-reports/create-a-table-report.md) for a step-by-step tutorial on creating a data-bound table report.
+> Refer to [Table Reports](../create-reports/table-reports.md) tutorial for instructions on how to create a data-bound table report.

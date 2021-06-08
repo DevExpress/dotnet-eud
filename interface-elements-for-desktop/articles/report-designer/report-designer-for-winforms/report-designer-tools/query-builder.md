@@ -64,7 +64,7 @@ You can manually join tables if they do not have a relationship at the database 
 After executing the query, it returns a "flat" table composed of data records selected based on the specified join options.
 
 > [!NOTE]
-> Although joining different tables within a single query may be required in some scenarios, creating [hierarchical data sources](data-source-wizard\connect-to-a-database\create-a-query-or-select-a-stored-procedure.md) generally results in better performance (in general, [master-detail reports](..\create-popular-reports\create-a-master-detail-report-use-detail-report-bands.md) are generated faster than similar-looking reports created by grouping "flat" data sources).
+> Although joining different tables within a single query may be required in some scenarios, creating [hierarchical data sources](data-source-wizard\connect-to-a-database\create-a-query-or-select-a-stored-procedure.md) generally results in better performance (in general, [master-detail reports](..\create-reports\master-detail-reports-with-detail-report-bands.md) are generated faster than similar-looking reports created by grouping "flat" data sources).
 
 ## <a name="editparameters"></a>Edit Parameters
 Click the **Edit Parameters** button to invoke the **Query Parameters** dialog, which allows you to add and remove [query parameters](../bind-to-data/specify-query-parameters.md) as well as specify parameter settings.

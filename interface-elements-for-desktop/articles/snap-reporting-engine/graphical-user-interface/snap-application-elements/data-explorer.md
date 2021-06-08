@@ -25,7 +25,7 @@ To display data in a chart, drop data fields from the Data Explorer onto the cor
 
 ![ReportWithChart-02](../../../../images/img18288.png)
 
-When a data field is added to your document, its data type determines what **element** is created (e.g., text, **chart**, or **bar code**).
+When a data field is added to your document, its data type determines what **element** is created (e.g., text, **chart**, or **barcode**).
 
 ## <a name="description"/>Data Type Reference
 In the Data Explorer, different icons are assigned to various data objects. These icons are explained in the following table.
@@ -41,8 +41,8 @@ For every table or view, the Data Explorer lists the available data fields. Depe
 | Regular Data Source | Mail Merge Data Source | Data Type | Displayed Contents |
 |---|---|---|---|
 | ![field-list-icon-boolean](../../../../images/img18791.png) | ![snap-data-explorer-field-icon-mail-merge-boolean](../../../../images/img21425.png) | Boolean | Check Box, plain text |
-| ![field-list-icon-byte](../../../../images/img18792.png) | ![snap-data-explorer-field-icon-mail-merge-byte](../../../../images/img21426.png) | Byte | Bar Code, Picture |
+| ![field-list-icon-byte](../../../../images/img18792.png) | ![snap-data-explorer-field-icon-mail-merge-byte](../../../../images/img21426.png) | Byte | Barcode, Picture |
 | ![field-list-icon-date-time](../../../../images/img18795.png) | ![snap-data-explorer-field-icon-mail-merge-date-time](../../../../images/img21428.png) | Date-time | Plain text |
-| ![field-list-icon-number](../../../../images/img18796.png) | ![snap-data-explorer-field-icon-mail-merge-numeric](../../../../images/img21424.png) | Numeric | Plain text, Bar Code |
-| ![field-list-icon-string](../../../../images/img18798.png) | ![snap-data-explorer-field-icon-mail-merge-string](../../../../images/img21423.png) | String | Plain text, Bar Code |
+| ![field-list-icon-number](../../../../images/img18796.png) | ![snap-data-explorer-field-icon-mail-merge-numeric](../../../../images/img21424.png) | Numeric | Plain text, Barcode |
+| ![field-list-icon-string](../../../../images/img18798.png) | ![snap-data-explorer-field-icon-mail-merge-string](../../../../images/img21423.png) | String | Plain text, Barcode |
 | ![field-list-icon-calculated-field](../../../../images/img18793.png) | ![field-list-icon-calculated-field](../../../../images/img18793.png) | **Calculated field** | Determined by the result of the calculation. |

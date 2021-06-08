@@ -5,7 +5,7 @@ title: 'Vertical Report'
 
 # Vertical Report
 
-The topics in this section describe how to create a [vertical report](../../create-popular-reports/create-a-vertical-report.md) - a table report where record fields are displayed vertically and data records are printed horizontally.
+The topics in this section describe how to create a [vertical report](../../create-reports/vertical-reports.md) - a table report where record fields are displayed vertically and data records are printed horizontally.
 
 [Run the Report Wizard](../report-wizard.md) and select **Vertical Report** to create a new vertical report and connect it to data.
 

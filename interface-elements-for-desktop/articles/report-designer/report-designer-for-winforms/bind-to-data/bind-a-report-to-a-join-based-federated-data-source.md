@@ -42,6 +42,14 @@ This topic describes how to create a federated data source that joins data from 
 
     ![](../../../../images/eurd-data-federation-query-builder-select-fields.png)
 
+    You can specify a different name for a field. Click the field's **Alias** cell and type the alias.
+
+    ![](../../../../images/eurd-data-federation-query-builder-specify-alias.png)
+
+    Use the grid's empty line to add an unbound field to a query. Click the field's ellipsis button to invoke the [Expression Editor](../use-expressions.md) and construct an expression that specifies the field's value.
+
+    ![](../../../../images/eurd-data-federation-query-builder-construct-expression.png)
+
 7. Click **OK** to close the Query Builder. Click **Finish** to complete the Data Source Wizard.
  
 The Wizard creates a new **FederationDataSource** that includes the single query. This data source becomes available in the [Report Explorer](../../../../articles/report-designer/report-designer-for-winforms/report-designer-tools/ui-panels/report-explorer.md)'s **Components** node. The [Field List](../../../../articles/report-designer/report-designer-for-winforms/report-designer-tools/ui-panels/field-list.md) reflects the data source structure.

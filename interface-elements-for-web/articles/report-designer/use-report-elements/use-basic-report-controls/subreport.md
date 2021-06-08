@@ -18,7 +18,7 @@ The Subreport control allows you to solve the following tasks:
 
 * **Create master-detail reports**
 	
-	Another reason for using subreports is to create master-detail reports (reports with hierarchically linked data). For more details on this, see [Create a Master-Detail Report (Use Subreports)](../../create-popular-reports/create-a-master-detail-report-use-subreports.md).
+	Another reason for using subreports is to create master-detail reports (reports with hierarchically linked data). For more details on this, see [Master-Detail Reports with Subreports)](../../create-reports/master-detail-reports-with-subreports.md).
 
 * [Merge Reports](../../merge-reports.md)
 

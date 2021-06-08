@@ -524,35 +524,37 @@
       href: articles/report-designer/bind-to-data/use-embedded-fields-mail-merge.md
     - name: Validate Report Data Bindings
       href: articles/report-designer/bind-to-data/validate-report-data-bindings.md
-  - name: Create Popular Reports
-    href: articles/report-designer/create-popular-reports.md
+  - name: Create Reports
+    href: articles/report-designer/create-reports.md
     items:
-    - name: Create a Letter
-      href: articles/report-designer/create-popular-reports/create-a-letter.md
-    - name: Create a Table Report
-      href: articles/report-designer/create-popular-reports/create-a-table-report.md
-    - name: Create an Invoice Manually
-      href: articles/report-designer/create-popular-reports/create-an-invoice-manually.md
-    - name: Create a Master-Detail Report (Use Detail Report Bands)
-      href: articles/report-designer/create-popular-reports/create-a-master-detail-report-use-detail-report-bands.md
-    - name: Create a Master-Detail Report (Use Subreports)
-      href: articles/report-designer/create-popular-reports/create-a-master-detail-report-use-subreports.md
-    - name: Create a Report with PDF Content
-      href: articles/report-designer/create-popular-reports/create-a-report-with-pdf-content.md
-    - name: Create a Hierarchical Report
-      href: articles/report-designer/create-popular-reports/create-a-hierarchical-report.md
-    - name: Create a Vertical Report
-      href: articles/report-designer/create-popular-reports/create-a-vertical-report.md
-    - name: Create Labels and Badges
-      href: articles/report-designer/create-popular-reports/create-labels-and-badges.md
-    - name: Create a Multi-Column Report
-      href: articles/report-designer/create-popular-reports/create-a-multi-column-report.md
-    - name: Create a Report with Cross-Band Content and Populated Empty Space
-      href: articles/report-designer/create-popular-reports/create-a-report-with-cross-band-content-and-populated-empty-space.md
-    - name: Create an Interactive E-Form
-      href: articles/report-designer/create-popular-reports/create-an-interactive-e-form.md
-    - name: Create a Cross-Tab Report
-      href: articles/report-designer/create-popular-reports/create-a-cross-tab-report.md
+    - name: Table Reports
+      href: articles/report-designer/create-reports/table-reports.md
+    - name: Vertical Reports
+      href: articles/report-designer/create-reports/vertical-reports.md
+    - name: Letters
+      href: articles/report-designer/create-reports/letters.md
+    - name: Master-Detail Report with Detail Report Bands
+      href: articles/report-designer/create-reports/master-detail-reports-with-detail-report-bands.md
+    - name: Master-Detail Report with Subreports
+      href: articles/report-designer/create-reports/master-detail-reports-with-subreports.md
+    - name: Hierarchical Report
+      href: articles/report-designer/create-reports/hierarchical-reports.md
+    - name: Invoices
+      href: articles/report-designer/create-reports/invoices.md
+    - name: Cross-Tab Reports
+      href: articles/report-designer/create-reports/cross-tab-reports.md
+    - name: Labels and Badges
+      href: articles/report-designer/create-reports/labels-and-badges.md
+    - name: Multi-Column Reports
+      href: articles/report-designer/create-reports/multi-column-reports.md
+    - name: Interactive E-Forms
+      href: articles/report-designer/create-reports/interactive-e-forms.md
+    - name: Reports with Cross-Band Content and Populated Empty Space
+      href: articles/report-designer/create-reports/reports-with-cross-band-content-and-populated-empty-space.md
+    - name: Reports with PDF Content
+      href: articles/report-designer/create-reports/reports-with-pdf-content.md
+    - name: Reports with Visual PDF Signature
+      href: articles/report-designer/create-reports/reports-with-visual-pdf-signature.md
   - name: Configure Design Settings
     href: articles/report-designer/configure-design-settings.md
     items:
@@ -620,12 +622,12 @@
         href: articles/report-designer/use-report-elements/use-tables/manipulate-table-elements.md
       - name: Hide Table Cells
         href: articles/report-designer/use-report-elements/use-tables/hide-table-cells.md
-    - name: Use Bar Codes
+    - name: Use Barcodes
       href: articles/report-designer/use-report-elements/use-bar-codes.md
       items:
-      - name: Add Bar Codes to a Report
+      - name: Add Barcodes to a Report
         href: articles/report-designer/use-report-elements/use-bar-codes/add-bar-codes-to-a-report.md
-      - name: Bar Code Recognition Specifics
+      - name: Barcode Recognition Specifics
         href: articles/report-designer/use-report-elements/use-bar-codes/bar-code-recognition-specifics.md
       - name: Codabar
         href: articles/report-designer/use-report-elements/use-bar-codes/codabar.md
@@ -667,6 +669,8 @@
         href: articles/report-designer/use-report-elements/use-bar-codes/msi-plessey.md
       - name: PDF417
         href: articles/report-designer/use-report-elements/use-bar-codes/pdf417.md
+      - name: Pharmacode
+        href: articles/report-designer/use-report-elements/use-bar-codes/pharmacode.md
       - name: PostNet
         href: articles/report-designer/use-report-elements/use-bar-codes/postnet.md
       - name: QR Code

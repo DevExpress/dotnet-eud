@@ -37,6 +37,6 @@ Each view type has properties that define the extreme values' visibility:
 
 Specific properties differ between view types, such as the **Highlight Negative Points** setting that is available only for the **Bar** sparkline.
 
-The following image illustrates a [table report](../../create-popular-reports/create-a-table-report.md) containing sparklines that provide maximum and minimum value indicators in their data range:
+The following image illustrates a [table report](../../create-reports/table-reports.md) containing sparklines that provide maximum and minimum value indicators in their data range:
 
 ![](../../../../images/eurd-web-report-with-sparklines.png)
