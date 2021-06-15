@@ -39,7 +39,7 @@ This tutorial describes how to bind a report to an object data source:
 
     Click **Finish** to complete the wizard.
 
-The newly created data source will be displayed in the **Components** node of the [Report Explorer](../report-designer-tools/ui-panels/report-explorer.md). Additionally, the hierarchy of the data source will be reflected by the [Field List](../report-designer-tools/ui-panels/field-list.md).
+The newly created data source will be displayed in the **Data Sources** node of the [Report Explorer](../report-designer-tools/ui-panels/report-explorer.md). Additionally, the hierarchy of the data source will be reflected by the [Field List](../report-designer-tools/ui-panels/field-list.md).
 
 ![](../../../../images/eurd-win-data-source-wizard-object-result.png)
 

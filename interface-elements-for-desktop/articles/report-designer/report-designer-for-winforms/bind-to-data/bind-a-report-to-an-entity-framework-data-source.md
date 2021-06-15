@@ -37,6 +37,6 @@ This document describes how to use an Entity Framework data source to bind a rep
 	
 	![](../../../../images/eurd-win-data-source-wizard-ef-stored-procedures.png)
 	
-The newly created data source will be displayed in the **Components** node of the [Report Explorer](../report-designer-tools/ui-panels/report-explorer.md). Additionally, the hierarchy of the data source will be reflected by the [Field List](../report-designer-tools/ui-panels/field-list.md).
+The newly created data source will be displayed in the **Data Sources** node of the [Report Explorer](../report-designer-tools/ui-panels/report-explorer.md). Additionally, the hierarchy of the data source will be reflected by the [Field List](../report-designer-tools/ui-panels/field-list.md).
 	
 ![](../../../../images/eurd-win-data-source-wizard-ef-result.png)
