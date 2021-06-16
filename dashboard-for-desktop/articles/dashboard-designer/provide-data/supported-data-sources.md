@@ -124,8 +124,7 @@ To create a Federated data source with the **Data Source Wizard**, see [Binding 
 
 The Dashboard Designer allows you to connect to a MongoDB instance and stores data in JSON-like documents.
 
-> [!NOTE]
-> The [MongoDB.Driver](https://www.nuget.org/packages/MongoDB.Driver) package should be installed in your project to supply MongoDB data at runtime.
+The [MongoDB.Driver](https://www.nuget.org/packages/MongoDB.Driver) package should be installed in your project to supply MongoDB data at runtime.
 
 You can use MongoDB as the original data source to create an Extract database. MongoDB can be used to create a federated data source.
 

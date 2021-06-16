@@ -22,7 +22,7 @@ You can create federated queries of the following types:
   
 ## Create a Federated Data Source with the Data Source Wizard
 
-To create a federated data source with the Data Source Wizard, perform the following steps:
+To create a federated data source with the Data Source Wizard, follow the steps below:
 ### Create a New Federated Data Source
 
 Click the **New Data Source** button in the **Data Source** ribbon tab.
