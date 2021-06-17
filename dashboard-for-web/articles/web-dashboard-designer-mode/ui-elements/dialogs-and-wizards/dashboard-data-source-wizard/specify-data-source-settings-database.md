@@ -13,7 +13,7 @@ The "Choose a data connection" page appears if you select Database on the start 
 ![сhoose-a-data-connection](../../../../../images/dashboard-data-source-wizard-сhoose-a-data-connection.png)
 
 ## Choose Queries
-The next page allows you to create/edit a query or select a stored procedure. The image below displays a generated query displayed in the **SQL string** editor.
+The next page allows you to create/edit a query or select a stored procedure. The image below shows a generated query displayed in the **SQL string** editor.
 
  ![create-a-query](../../../../../images/dashboard-data-source-wizard-create-a-query.png)
 
@@ -24,7 +24,7 @@ The next page allows you to create/edit a query or select a stored procedure. Th
 
 ![configure-query-parameters](../../../../../images/dashboard-data-source-wizard-configure-query-parameters.png)
 
-You can use the following approaches to specify a parameter value:
+You can use the following techniques to specify a parameter value:
 
 * **Assign a static value** 
 
@@ -35,5 +35,4 @@ You can use the following approaches to specify a parameter value:
   Set the **Type** option to **Expression** and specify the **Result Type**. Click the **Value** option's ellipsis button and construct an expression in the invoked Expression Editor.
 
 Click **Finish** to create a new data source.
-
 

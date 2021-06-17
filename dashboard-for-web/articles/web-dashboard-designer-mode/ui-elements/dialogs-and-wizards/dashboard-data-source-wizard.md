@@ -6,7 +6,7 @@ author: Margarita Zakhodyaeva
 
 The **Dashboard Data Source Wizard** allows you to create a new data source or edit the existing data sources.
 
-To invoke this wizard, go to the **Data Sources** page of the [dashboard menu](../dashboard-menu.md) and click **Add** button.
+To invoke this wizard, go to the **Data Sources** page of the [dashboard menu](../dashboard-menu.md) and click **Add**.
 
 ![](../../../../images/dashboard-data-sources-add-button.png)
 
@@ -18,7 +18,7 @@ On the start page, select the data source type. You can create a new dashboard d
 
 * [Database](dashboard-data-source-wizard/specify-data-source-settings-database.md)
 
-  Obtains data from all major data providers (Microsoft SQL Server, XML data, Microsoft Access, Oracle, etc.).
+  Obtains data from all major data providers (for example, Microsoft SQL Server, XML data, Microsoft Access, and Oracle).
 
 * [JSON](dashboard-data-source-wizard/specify-data-source-settings-json.md)
 
@@ -29,4 +29,3 @@ On the start page, select the data source type. You can create a new dashboard d
   Connects to OLAP cubes.
 
 ![](../../../../images/dashboard-data-source-types.png)
-

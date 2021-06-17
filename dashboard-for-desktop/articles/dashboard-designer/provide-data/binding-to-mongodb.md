@@ -9,7 +9,7 @@ The WinForms Designer allows you to connect to MongoDB in the Data Source Wizard
 > [!NOTE]
 > The [MongoDB.Driver](https://www.nuget.org/packages/MongoDB.Driver) package should be installed in your project to supply MongoDB data at runtime.
 
-Follow the steps below to establish a connection to a database:
+Follow the steps below to establish a database connection:
 
 1. Click the **New Data Source** button in the **Data Source** ribbon tab.
 	
@@ -18,7 +18,7 @@ Follow the steps below to establish a connection to a database:
 
 	![Data Source Wizard DataBase MongoDB](../../../images/win-data-source-wizard-database-mongodb.png)
     
-3. Specify connection parameters on the next page the following ways: 
+3. Specify connection parameters on the next page in the following ways: 
 
     - Pass an entire string. 
 

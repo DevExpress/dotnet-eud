@@ -4,7 +4,7 @@ author: Natalia Kazakova
 legacyId: 117706
 ---
 # Filtering
-Web Dashboard allows you to filter data in the [dashboard items](../dashboard-item-settings.md) or apply filters to a specific measure. [Dimensions](../bind-dashboard-items-to-data/bind-dashboard-items-to-data-in-the-web-dashboard.md) and [hidden dimensions](../bind-dashboard-items-to-data/hidden-data-items.md) are used to build filter criteria.
+Web Dashboard allows you to filter data in the [dashboard items](../dashboard-item-settings.md) or apply filters to a specific measure. You can use [dimensions](../bind-dashboard-items-to-data/bind-dashboard-items-to-data-in-the-web-dashboard.md) and [hidden dimensions](../bind-dashboard-items-to-data/hidden-data-items.md) to build filter criteria.
 
 ![Filtering_Main](../../../images/filtering_main132414.png)
 
@@ -80,4 +80,3 @@ For dimension attributes, the Filter Editor contains a list of all values. The s
 The Filter Editor displays hierarchies as a tree and allows you to filter values at any hierarchy level.
 
 ![wdd-olap-filtering-hierarchy](../../../images/img124639.png)
-

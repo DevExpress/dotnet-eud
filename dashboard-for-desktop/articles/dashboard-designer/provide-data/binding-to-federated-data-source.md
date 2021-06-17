@@ -22,7 +22,7 @@ You can create federated queries of the following types:
   
 ## Create a Federated Data Source with the Data Source Wizard
 
-To create a federated data source with the Data Source Wizard, follow the steps below:
+Follow the steps below to create a federated data source with the Data Source Wizard:
 ### Create a New Federated Data Source
 
 Click the **New Data Source** button in the **Data Source** ribbon tab.
@@ -40,7 +40,7 @@ The [Query Builder](../../dashboard-designer/work-with-data/using-the-query-buil
 
    **Join**
      
-   Drag-and-drop the data sources you want to join to the diagram pane, specify the related column to create the relationship between tables, and select the columns you want to include in the query. Use _* (All Columns)_ to get a complete list of the columns from a table. Columns included in the query are displayed in the bottom pane where you can configure their settings.
+   Drag the data sources you want to join to the diagram pane, specify the related column to create the relationship between tables, and select the columns you want to include in the query. Use _* (All Columns)_ to get a complete list of columns from a table. Columns included in the query are displayed in the bottom pane where you can configure their settings.
 
    ![Data-Federation-Query-Builder](../../../images/data-federation-querybuilder.png)
 
