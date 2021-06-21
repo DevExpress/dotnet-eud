@@ -1051,6 +1051,8 @@
           href: articles/report-designer/report-designer-for-winforms/report-designer-tools/ui-panels/property-grid-non-tabbed-view.md
         - name: Group and Sort Panel
           href: articles/report-designer/report-designer-for-winforms/report-designer-tools/ui-panels/group-and-sort-panel.md
+        - name: Report Design Analyzer
+          href: articles/report-designer/report-designer-for-winforms/report-designer-tools/ui-panels/report-design-analyzer.md
     - name: Localize Reports
       href: articles/report-designer/report-designer-for-winforms/localize-reports.md
   - name: Report Designer for WPF
