@@ -30,3 +30,38 @@ Before [exporting a document](export-a-document.md) to XLSX format, you can spec
 * **Text Export Mode**
 	
 	Specifies whether value formatting should be converted to the native XLSX format string (if it is possible), or embedded into cell values as plain text.
+* **Rasterize Images**
+	
+	Specifies whether to rasterize vector images, such as pictures, charts, or barcodes.
+* **Rasterization Resolution**
+	
+	Specifies the image resolution for raster images.
+* **Fit To Printed Page Width**
+	
+	Shrinks the width of the exported document's printout to one page.
+* **Fit To Printed Page Height**
+	
+	Shrinks the height of the exported document's printout to one page.
+* **Ignore Errors**
+	
+	Specifies the document errors to be ignored in a resulting XLS file.
+* **Right To Left Document**
+	
+	If you use right-to-left fonts in a report, enable the **Right-to-Left Document** option to use the right-to-left layout for sheets in the exported XLSX file.
+
+## Document Options
+The **Document Options** complex property contains options which specify the **Document Properties** of the created XLSX file. Click the complex property's header to access its nested options.
+
+![EUD_HTML5DV_XlsDocumentOptions](../../../images/img1218331.png)
+
+## Encryption Options
+This complex property allows you to adjust the encryption options of the resulting XLSX file.
+
+![EUD_HTML5DV_PdfSecurityOptions](../../../images/img1218332.png)
+* **Type**
+	Specifies one of the following encryption types:
+	* Strong (default) type uses the **Agile Encryption** mechanism.
+	* Compatible type uses the **Standard Encryption** that is compatible with Excel 2007.
+* **Password**
+	Sets a password for the exported XLSX file. Passwords for XLSX files are stored as plain text in report definitions. Ensure that only trusted parties have access to report definition files.
+
