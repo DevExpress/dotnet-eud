@@ -18,11 +18,11 @@ You can create federated queries of the following types:
   The **Union** query combines rows from two or more tables into one data set and removes duplicate rows in merged tables. The **UnionAll** query does the same, except it doesn't remove duplicated rows. You can create a union query for data sources if data types of their columns are [implicitly converted](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/types/casting-and-type-conversions#implicit-conversions). 
 - **Transformation**
 
-  If a data source contains a complex column (an object), you can transform its properties to display them as separate columns in a flattened view. 
+  If a data source contains a complex column (an object), you can transform its properties to display columns separately in a flattened view.
   
 ## Create a Federated Data Source with the Data Source Wizard
 
-To create a federated data source with the Data Source Wizard, follow the steps below:
+Follow the steps below to create a federated data source with the Data Source Wizard:
 ### Create a New Federated Data Source
 
 Click the **New Data Source** button in the **Data Source** ribbon tab.
@@ -40,7 +40,7 @@ The [Query Builder](../../dashboard-designer/work-with-data/using-the-query-buil
 
    **Join**
      
-   Drag-and-drop the data sources you want to join to the diagram pane, specify the related column to create the relationship between tables, and select the columns you want to include in the query. Use _* (All Columns)_ to get a complete list of the columns from a table. Columns included in the query are displayed in the bottom pane where you can configure their settings.
+   Drag the data sources you want to join to the diagram pane, specify the related column to create the relationship between tables, and select the columns you want to include in the query. Use _* (All Columns)_ to get a complete list of columns from a table. Columns included in the query are displayed in the bottom pane where you can configure their settings.
 
    ![Data-Federation-Query-Builder](../../../images/data-federation-querybuilder.png)
 
@@ -72,7 +72,7 @@ The Data Source Wizard invokes the following page if one of the selected data so
 
 ### See the Result
 
-The [Data Source Browser](../ui-elements/data-source-browser.md) displays the newly created Federation Data Source. 
+The [Data Source Browser](../ui-elements/data-source-browser.md) displays the newly created Federated Data Source. 
 
 The image below displays a new _Federation Data Source 1_ with a joined _SQlite_ Orders query.
 

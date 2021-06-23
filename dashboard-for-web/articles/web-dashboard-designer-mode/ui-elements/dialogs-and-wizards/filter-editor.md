@@ -43,7 +43,7 @@ The following operand types are available:
 Click the filter condition's **Remove** ![web-filter-editor-remove-button](../../../../images/web-rd-filter-editor-remove-button129484.png) button to delete the condition.
 
 ## Advanced Mode
-The **Advanced Mode** allows you to enter a custom filter string.
+**Advanced Mode** allows you to enter a custom filter string.
 
 ![Filtering_FilterEditor_TextMode](../../../../images/filtering_filtereditor_textmode132423.png)
 
@@ -54,11 +54,11 @@ Consider the following syntax conventions when you create text-based filter cond
 * Enclose date-time values with hashtags (for example, **#2019-06-01#**).
 * Reference [dashboard parameters](../../data-analysis/dashboard-parameters.md) by adding a question mark before their names (for example, **[Category] = ?categoryParam**)
 
-This editor supports intelligent code completion (suggesting functions, parameters, and available data columns as you type).
+This editor supports intelligent code completion (which suggests functions, parameters, and available data columns as you type).
 
 ![Filtering_FilterEditor_TextMode_Autocompletion](../../../../images/filtering_filtereditor_textmode_autocompletion132424.png)
 
-You can add a comment to your expression to explain it and make the expression more readable. Comments are multi-line and begin with `/*` and end with `*/`.
+You can add a comment to your expression to explain it and make the expression more readable. Comments can be multi-line, and begin with `/*` and end with `*/`.
 
 The **Warning** ![expression-editor-error-icon](../../../../images/expression-editor-error-icon118339.png) icon appears if a condition contains errors.
 

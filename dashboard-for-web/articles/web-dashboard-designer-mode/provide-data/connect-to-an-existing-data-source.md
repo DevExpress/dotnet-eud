@@ -4,10 +4,10 @@ author: Natalia Kazakova
 legacyId: 117960
 ---
 # Connect to an Existing Data Source
-The Web Dashboard allows you to connect a dashboard to one of the existing data sources or add these data sources to the dashboard's data sources collection.
+The Web Dashboard allows you to connect a dashboard to one of the existing data sources or add data sources to the dashboard's data sources collection.
 
 ## Connect a New Dashboard to an Existing Data Source
-When you [create](create-a-new-data-source.md) a new dashboard, the **New** page of the [dashboard menu](../ui-elements/dashboard-menu.md) is invoked. You can select the existing data source from the list or create a [new data source](../ui-elements/dialogs-and-wizards/dashboard-data-source-wizard.md).
+When you [create](create-a-new-data-source.md) a new dashboard, the **New** page of the [dashboard menu](../ui-elements/dashboard-menu.md) is invoked. You can select an existing data source from the list or create a [new data source](../ui-elements/dialogs-and-wizards/dashboard-data-source-wizard.md).
 
 ![WebDesignerGettingStarted_CreateDashboard_dx](../../../images/web-viz.png)
 

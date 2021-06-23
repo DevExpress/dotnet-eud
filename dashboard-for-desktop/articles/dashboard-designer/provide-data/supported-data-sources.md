@@ -43,10 +43,10 @@ To connect to various SQL databases, the Dashboard Designer requires correspondi
 | SQLite | 3.x | ADO.NET provider for SQLite | System.Data.SQLite.dll | [Download link](https://system.data.sqlite.org/index.html/doc/trunk/www/index.wiki) |
 | XML file | n/a | n/a | n/a | n/a |
 
-To create a connection to a SQL data source, see [Binding to SQL databases](connecting-to-sql-databases.md).
+See the following topic for information on how to create a connection to a SQL data source: [Binding to SQL databases](connecting-to-sql-databases.md).
 
 ## OLAP Data Source
-To use the OLAP data source, the Dashboard Designer requires Microsoft Analysis Services OLE DB and Microsoft ADOMD.NET providers to be installed on your machine. Refer to [Data providers used for Analysis Services connections](https://msdn.microsoft.com/en-us/library/dn141152.aspx#bkmk_OLE) for more information.
+To use the OLAP data source, the Dashboard Designer requires Microsoft Analysis Services OLE DB and Microsoft ADOMD.NET providers to be installed on your machine. Refer to the following topic for more information: [Data providers used for Analysis Services connections](https://msdn.microsoft.com/en-us/library/dn141152.aspx#bkmk_OLE).
 
 The following OLAP servers are supported:
 * Microsoft SQL Server 2000 Analysis Services
@@ -96,7 +96,7 @@ This data is saved to a local file and can be updated from the original data sou
 
 ## Object Data Source
 
-The Dashboard Designer allows you to connect to an object data source defined in a separate class within a current project.
+The Dashboard Designer allows you to connect to an object data source defined in a separate class within the current project.
 
 To create a connection to an Object data source, see [Binding to Object Data Sources](binding-to-object-data-sources.md).
 
@@ -118,7 +118,7 @@ To create a connection to an EF data source, see [Connect to EF Data Sources](co
 * [Object Data Source](#object-data-source)
 * [MongoDB](#mongodb)
 
-To create a Federated data source with the **Data Source Wizard**, see [Binding to Federated Data Source](binding-to-federated-data-source.md).
+See the following topic for information on how to create a federated data source with the **Data Source Wizard**: [Binding to Federated Data Source](binding-to-federated-data-source.md).
 
 ## MongoDB
 
@@ -131,7 +131,6 @@ You can use MongoDB as the original data source to create an Extract database. M
 You can filter the MongoDB data source and add calculated fields.
 
 Refer to the following article for more information on how to connect to MongoDB: [Binding to MongoDB](binding-to-mongodb.md).
-
 
 
 

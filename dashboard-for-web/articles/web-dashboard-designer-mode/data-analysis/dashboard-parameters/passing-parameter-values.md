@@ -18,10 +18,10 @@ The Web Dashboard provides the capability to bind a dashboard parameter and the 
 
 ![wdd-configure-query-param-page2](../../../../images/img124955.png)
 
-To bind a dashboard parameter to an SQL query/stored procedure parameter in the [Dashboard Data Source Wizard](../../ui-elements/dialogs-and-wizards/dashboard-data-source-wizard.md), do the following:
-* Select the existing query/stored procedure parameter or create a new query parameter using the **Add** button.
+Do the following to bind a dashboard parameter to an SQL query or stored procedure parameter in the [Dashboard Data Source Wizard](../../ui-elements/dialogs-and-wizards/dashboard-data-source-wizard.md):
+* Select the existing query or stored procedure parameter, or use the **Add** button to create a new query parameter.
 * Set the **Expression** as a parameter value and click the ellipsis button to invoke the Expression Editor for this parameter.
-* In the Expression Editor add the required dashboard parameter from the Parameters column.
+* In the Expression Editor, add the required dashboard parameter from the Parameters column.
 
 ## <a name="filtering"/>Filtering
 You can filter the specified [query](../../provide-data/working-with-sql-data-sources/filter-queries.md) of the SQL Data Source, the entire [Excel Data Source](../../provide-data/filter-data-sources.md)/[Object Data Source](../../provide-data/filter-data-sources.md) or [apply filtering](../../data-shaping/filtering.md) to a specific dashboard item according to the current parameter value(s) using the Filter Editor.
