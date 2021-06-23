@@ -10,7 +10,7 @@ To invoke this wizard, go to the **Data Sources** page of the [dashboard menu](.
 
 ![](../../../../images/dashboard-data-sources-add-button.png)
 
-In the invoked window choose the existing data sources or click **Create data source**....
+In the invoked window, choose the existing data source or click **Create data source**....
 
 ![](../../../../images/dashboard-create-data-source.png) 
 
