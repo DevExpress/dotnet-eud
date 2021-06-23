@@ -6,7 +6,7 @@ legacyId: 17239
 # Supported Data Sources
 The Dashboard Designer allows you to establish a connection to various data sources such as SQL databases, Microsoft Excel workbooks, XML/CSV data files or OLAP cubes.
 
-The following data source types are supported.
+The following data source types are supported:
 * [SQL Data Source](#sql-data-source)
 * [OLAP Data Source](#olap-data-source)
 * [Microsoft Excel Workbooks/CSV Files](#microsoft-excel-workbookscsv-files)
@@ -48,7 +48,7 @@ To create a connection to a SQL data source, see [Binding to SQL databases](conn
 ## OLAP Data Source
 To use the OLAP data source, the Dashboard Designer requires Microsoft Analysis Services OLE DB and Microsoft ADOMD.NET providers to be installed on your machine. Refer to [Data providers used for Analysis Services connections](https://msdn.microsoft.com/en-us/library/dn141152.aspx#bkmk_OLE) for more information.
 
-The following OLAP servers are supported.
+The following OLAP servers are supported:
 * Microsoft SQL Server 2000 Analysis Services
 * Microsoft SQL Server 2005 Analysis Services
 * Microsoft SQL Server 2008 Analysis Services
@@ -60,7 +60,7 @@ The following OLAP servers are supported.
 To create a connection to an OLAP cube data source, see [Binding to OLAP cubes](connecting-to-olap-cubes.md).
 
 ## Microsoft Excel Workbooks/CSV Files
-The following Microsoft Excel/text formats are supported.
+The following Microsoft Excel/text formats are supported:
 * XLS
 * XLSX
 * XLSM
