@@ -72,7 +72,7 @@ The Data Source Wizard invokes the following page if one of the selected data so
 
 ### See the Result
 
-The [Data Source Browser](../ui-elements/data-source-browser.md) displays the newly created Federation Data Source. 
+The [Data Source Browser](../ui-elements/data-source-browser.md) displays the newly created Federated Data Source. 
 
 The image below displays a new _Federation Data Source 1_ with a joined _SQlite_ Orders query.
 
