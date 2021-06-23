@@ -18,7 +18,7 @@ You can create federated queries of the following types:
   The **Union** query combines rows from two or more tables into one data set and removes duplicate rows in merged tables. The **UnionAll** query does the same, except it doesn't remove duplicated rows. You can create a union query for data sources if data types of their columns are [implicitly converted](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/types/casting-and-type-conversions#implicit-conversions). 
 - **Transformation**
 
-  If a data source contains a complex column (an object), you can transform its properties to display them as separate columns in a flattened view. 
+  If a data source contains a complex column (an object), you can transform its properties to display columns separately in a flattened view.
   
 ## Create a Federated Data Source with the Data Source Wizard
 
