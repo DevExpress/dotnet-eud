@@ -18,7 +18,7 @@ This document describes how to calculate various summaries across a report and i
 	
 	![](../../../../images/eurd-web-label-summary-running-group.png)
 
-5. Click the **Expression** property's ellipsis button.
+5. Click the **Text** property's marker to invoke a menu. Select **Text Expression**.
 	
 	![](../../../../images/eurd-web-label-summary-expression-property.png)
 
