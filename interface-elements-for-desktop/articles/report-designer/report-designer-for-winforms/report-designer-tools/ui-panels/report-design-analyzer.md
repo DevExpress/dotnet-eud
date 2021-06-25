@@ -3,7 +3,7 @@ title: 'Report Design Analyzer'
 ---
 # Report Design Analyzer
 
-The Report Design Analyzer shows errors, warnings, and information messages that help users create or enhance a report layout in the [](xref:10715).
+The Report Design Analyzer shows errors, warnings, and information messages that help users create or enhance a report layout in the [Report Designer](../../../report-designer-for-winforms.md).
 
 ![](../../../../../images/eurd-report-design-analyzer-win.png)
 
