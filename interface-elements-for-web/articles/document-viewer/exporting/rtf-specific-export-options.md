@@ -1,9 +1,9 @@
 ---
-title: RTF-Specific Export Options
+title: RTF Export Options
 author: Anna Gubareva
 legacyId: 115381
 ---
-# RTF-Specific Export Options
+# RTF Export Options
 Before [exporting a document](export-a-document.md) to RTF, you can specify RTF-specific options in the dedicated **Export Options** panel.
 
 ![EUD_HTML5DV_RtfExportOptions](../../../images/img121805.png)
@@ -15,6 +15,13 @@ Before [exporting a document](export-a-document.md) to RTF, you can specify RTF-
 * **Page Range**
 	
 	Specifies a range of pages which will be included in the resulting file. To separate page numbers, use commas. To set page ranges, use hyphens.
+* **Rasterization Resolution**
+	
+	Specifies the image resolution for raster images.
+* **Export Page Breaks**
+	
+	Specifies whether to include page breaks in the exported RTF file.
+
 * **Export Watermarks**
 	
 	Specifies whether watermarks (if they exist) should be included into the resulting file.
