@@ -35,7 +35,7 @@ If you enabled custom SQL queries, the plus button invokes a context menu. You c
 
 You can click the ![](../../../../images/eurd-web-report-wizard-edit-query-button.png) button to customize the query or the ![](../../../../images/eurd-web-report-wizard-remove-query-button.png) button to remove the query.
 
-Once you finished the wizard, the data source becomes available in the [Report Explorer](../ui-panels/report-explorer.md)'s **Components** node. The [Field List](../ui-panels/field-list.md) reflects the data source structure.
+Once you finished the wizard, the data source becomes available in the [Report Explorer](../ui-panels/report-explorer.md)'s **Data Sources** node. The [Field List](../ui-panels/field-list.md) reflects the data source structure.
 
 ![](../../../../images/eurd-web-report-wizard-queries-result.png)
 

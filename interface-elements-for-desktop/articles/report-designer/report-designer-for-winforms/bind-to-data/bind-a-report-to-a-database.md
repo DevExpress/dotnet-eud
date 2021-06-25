@@ -47,6 +47,6 @@ This tutorial demonstrates how to bind a report to a hierarchical data source an
         
 Click **Finish** to complete the **Data Source Wizard**. If the selected queries or stored procedures contain any [parameters](specify-query-parameters.md), you can go to the [next wizard page](../report-designer-tools/data-source-wizard/connect-to-a-database/configure-query-parameters.md) and define their values.
 
-The newly created SQL data source will be displayed in the **Components** node of the [Report Explorer](../report-designer-tools/ui-panels/report-explorer.md). Additionally, the hierarchy of the data source will be reflected by the [Field List](../report-designer-tools/ui-panels/field-list.md). In both panels, you can right-click the data source to access its settings.
+The newly created SQL data source will be displayed in the **Data Sources** node of the [Report Explorer](../report-designer-tools/ui-panels/report-explorer.md). Additionally, the hierarchy of the data source will be reflected by the [Field List](../report-designer-tools/ui-panels/field-list.md). In both panels, you can right-click the data source to access its settings.
 
 ![](../../../../images/eurd-win-data-source-wizard-database-result.png)
