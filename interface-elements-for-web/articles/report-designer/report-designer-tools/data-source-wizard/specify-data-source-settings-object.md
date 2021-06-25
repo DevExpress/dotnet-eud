@@ -36,6 +36,6 @@ To return to the value mode, click the ![](../../../../images/eurd-report-wizard
 
 Click **Finish** to close the Data Source Wizard.
 
-Once you finished the wizard, the data source becomes available in the [Report Explorer](../ui-panels/report-explorer.md)'s **Components** node. The [Field List](../ui-panels/field-list.md) reflects the data source structure.
+Once you finished the wizard, the data source becomes available in the [Report Explorer](../ui-panels/report-explorer.md)'s **Data Sources** node. The [Field List](../ui-panels/field-list.md) reflects the data source structure.
 
 ![](../../../../images/eurd-report-wizard-object-datasource-result.png)

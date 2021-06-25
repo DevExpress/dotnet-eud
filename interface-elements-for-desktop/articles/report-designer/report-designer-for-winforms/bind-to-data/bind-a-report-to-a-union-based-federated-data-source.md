@@ -55,7 +55,7 @@ You can create a federated data source for your report to display data combined 
 
 7. Click **OK** to close the Query Builder. Click **Finish** to complete the Data Source Wizard.
  
-The Wizard creates a new **FederationDataSource** that includes the single **Customers** query. This data source becomes available in the [Report Explorer](../../../../articles/report-designer/report-designer-for-winforms/report-designer-tools/ui-panels/report-explorer.md)'s **Components** node. The [Field List](../../../../articles/report-designer/report-designer-for-winforms/report-designer-tools/ui-panels/field-list.md) reflects the data source structure. 
+The Wizard creates a new **FederationDataSource** that includes the single **Customers** query. This data source becomes available in the [Report Explorer](../../../../articles/report-designer/report-designer-for-winforms/report-designer-tools/ui-panels/report-explorer.md)'s **Data Sources** node. The [Field List](../../../../articles/report-designer/report-designer-for-winforms/report-designer-tools/ui-panels/field-list.md) reflects the data source structure. 
 
 ![](../../../../images/DataFederationUnion-data-source-structure.png)
 

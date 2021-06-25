@@ -4,7 +4,7 @@ author: Anna Vekhina
 ---
 # Report Explorer
 
-The **Report Explorer** panel shows a report's structure and provides access to report elements, styles, and components.
+The **Report Explorer** panel shows a report's structure and provides access to report elements, styles, and data sources.
 
 ![](../../../../images/eurd-web-report-explorer.png)
 
@@ -57,9 +57,9 @@ You can use the following actions to customize report styles:
 | ![](../../../../images/eurd-web-fieldlist-data-source-edit-relationships.png) | Switches to the [Properties Panel](properties-panel.md) where you can adjust the selected style's settings. |
 | ![](../../../../images/eurd-web-fieldlist-data-source-delete.png) | Deletes the selected style. |
 
-## Manage Components
+## Manage Data Sources
 
-The Report Explorer shows available report data sources in the **Components** category. This list is synchronized with data sources from the [Field List](field-list.md) panel.
+The Report Explorer shows available report data sources in the **Data Sources** category. This list is synchronized with data sources from the [Field List](field-list.md) panel.
 
 ![web-report-explorer-components](../../../../images/eurd-web-report-explorer-components.png)
 

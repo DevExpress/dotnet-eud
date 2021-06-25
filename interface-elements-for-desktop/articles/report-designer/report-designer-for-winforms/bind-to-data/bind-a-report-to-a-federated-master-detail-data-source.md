@@ -38,7 +38,7 @@ This topic describes how to create a federated data source that retrieves data f
 
 5. Click **OK** to close the editor. Click **Finish** to complete the Data Source Wizard.
 
-The Data Source Wizard creates a new **FederationDataSource** that includes two queries with a master-detail relationship. This data source becomes available in the [Report Explorer](../../../../articles/report-designer/report-designer-for-winforms/report-designer-tools/ui-panels/report-explorer.md)'s **Components** node. The [Field List](../../../../articles/report-designer/report-designer-for-winforms/report-designer-tools/ui-panels/field-list.md) reflects the data source's structure.
+The Data Source Wizard creates a new **FederationDataSource** that includes two queries with a master-detail relationship. This data source becomes available in the [Report Explorer](../../../../articles/report-designer/report-designer-for-winforms/report-designer-tools/ui-panels/report-explorer.md)'s **Data Sources** node. The [Field List](../../../../articles/report-designer/report-designer-for-winforms/report-designer-tools/ui-panels/field-list.md) reflects the data source's structure.
 
 ![](../../../../images/eurd-data-federation-master-detail-data-source-structure.png)
 

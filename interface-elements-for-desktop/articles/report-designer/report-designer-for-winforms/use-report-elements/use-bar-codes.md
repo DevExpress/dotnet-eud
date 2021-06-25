@@ -19,6 +19,8 @@ See the following topics to learn about the supported one-dimensional barcodes:
 * [Code 93](use-bar-codes/code-93.md)
 * [Code 93 Extended](use-bar-codes/code-93-extended.md)
 * [EAN 8](use-bar-codes/ean-8.md)
+* [Deutsche Post Leitcode](use-bar-codes/deutsche-post-leitcode.md)
+* [Deutsche Post Identcode](use-bar-codes/deutsche-post-identcode.md)
 * [EAN 13](use-bar-codes/ean-13.md)
 * [GS1-128 - EAN-128 (UCC)](use-bar-codes/gs1-128-ean-128-ucc.md)
 * [GS1 - DataBar](use-bar-codes/gs1-databar.md)
