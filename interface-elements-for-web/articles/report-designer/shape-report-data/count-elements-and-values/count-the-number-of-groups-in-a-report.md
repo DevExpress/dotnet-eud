@@ -18,14 +18,25 @@ This document describes how to count the number of groups in a report.
 	
 	![](../../../../images/eurd-web-shaping-group-count-summary-running.png)
 
-4. Click the ellipsis button for the label's **Expression** property. In the invoked [Expression Editor](../../report-designer-tools/expression-editor.md), select the **sumDCount** summary function in the **Functions** | **Summary** section.
+4. Click the **Text** property marker to invoke the menu. Select **Text Expression** to invoke the [Expression Editor](../../report-designer-tools/expression-editor.md).
+
+	![](../../../../images/eurd-web-shaping-group-count-text-expression.png)
+
+
+
+ 
+
+
+5. In the Expression Editor select the **sumDCount** summary function in the **Functions** | **Summary** section:
+
+	`sumDCount([CategoryName])`
 	
 	![](../../../../images/eurd-web-shaping-group-count-expression.png)
 
-5. Use the **Text Format String** property to format the summary's value.
+6. Use the **Text Format String** property to format the summary's value.
 	
 	![](../../../../images/eurd-web-shaping-group-count-format-string.png)
 
-You can see the group count in the report footer when switching to [Print Preview](../../preview-print-and-export-reports.md).
+7. Switch to [Print Preview](../../preview-print-and-export-reports.md) and see the group count in the report footer:
 
-![](../../../../images/eurd-web-shaping-group-count-result.png)
+	![](../../../../images/eurd-web-shaping-group-count-result.png)
