@@ -47,9 +47,9 @@ You can select all report elements with a specific style.
 
 ![design-time-report-explorer-style-select-controls](../../../../../images/eurd-win-report-explorer-style-select-controls.png)
 
-## Report Components
+## Report Data Sources
 
-The Components node lists all [data sources](../../bind-to-data.md) configured for the report. Right-click a data source to customize its settings or add it to the [Report Gallery](report-gallery.md).
+The Data Sources node lists all [data sources](../../bind-to-data.md) configured for the report. Right-click a data source to customize its settings or add it to the [Report Gallery](report-gallery.md).
 
 ![design-time-report-explorer-data-source-add-to-gallery](../../../../../images/eurd-win-report-explorer-data-source-add-to-gallery.png)
 

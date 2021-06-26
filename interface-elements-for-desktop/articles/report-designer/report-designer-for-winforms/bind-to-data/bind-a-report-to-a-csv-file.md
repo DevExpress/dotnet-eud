@@ -46,6 +46,6 @@ This tutorial describes how to bind a report to data obtained from a CSV file:
 	
 	Click **Finish** to complete the wizard.
 
-The created data source becomes displayed in the [Report Explorer](../report-designer-tools/ui-panels/report-explorer.md)'s **Components** node. The [Field List](../report-designer-tools/ui-panels/field-list.md) reflects the data source's hierarchy.
+The created data source becomes displayed in the [Report Explorer](../report-designer-tools/ui-panels/report-explorer.md)'s **Data Sources** node. The [Field List](../report-designer-tools/ui-panels/field-list.md) reflects the data source's hierarchy.
 
 ![](../../../../images/eurd-win-data-source-wizard-select-excel-result.png)
