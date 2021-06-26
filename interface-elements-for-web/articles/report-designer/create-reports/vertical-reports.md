@@ -24,11 +24,16 @@ This tutorial describes how to use vertical bands to create a report where recor
 
     ![](../../../images/eurd-web-vertical-reports-wizard-2.png)
 
-1. Select queries and data fields to include in the report. Add group fields and summary fields.
+1. Select queries and data fields to include in the report. Add summary fields.
 
     ![](../../../images/eurd-web-vertical-reports-wizard-3.png)
 
-1. Specify page settings and set the report's title.
+    - Select data fields:
+        ![](../../../images/eurd-web-vertical-reports-wizard-3-data-fields.png)
+    - Add summary fields:
+        ![](../../../images/eurd-web-vertical-reports-wizard-3-summary-fields.png)
+
+1. Specify page settings (Landscape orientation) and set the title (Profit and Loss).
 
     ![](../../../images/eurd-web-vertical-reports-wizard-4.png)
 

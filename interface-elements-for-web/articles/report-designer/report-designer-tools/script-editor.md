@@ -5,8 +5,8 @@ author: Anna Vekhina
 
 # Script Editor
 
-> [!WARNING]
-> Both the execution of all report scripts and the capability to view and edit scripts in the Web Report Designer are disabled by default for security reasons. Make sure that your software vendor allows you to use scripts.
+> [!IMPORTANT]
+> Both the execution of all report scripts and the capability to view and edit scripts in the Web Report Designer are **disabled by default** for security reasons. Make sure that your software vendor allows you to use scripts.
 
 The **Script Editor** allows you to write code for specific event handlers in the [End-User Report Designer](../../report-designer.md) to adjust the behavior of report controls, bands, or a report itself. This topic describes the basic principles of using scripts, the Script Editor interface and shows how scripting can be used in a report.
 
