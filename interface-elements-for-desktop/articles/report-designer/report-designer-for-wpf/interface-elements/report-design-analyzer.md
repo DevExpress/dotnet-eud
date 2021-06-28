@@ -5,7 +5,7 @@ title: 'Report Design Analyzer'
 
 The Report Design Analyzer shows errors, warnings, and information messages that help users create or enhance a report layout in the [End-User Report Designer](../../report-designer-for-wpf.md).
 
-![](../../../../../images/eurd-report-design-analyzer-wpf.png)
+![](../../../../images/eurd-report-design-analyzer-wpf.png)
 
 ## Invoke the Report Design Analyzer
 
