@@ -1207,8 +1207,8 @@
         href: articles/report-designer/report-designer-for-wpf/interface-elements/properties-panel.md
       - name: Design Surface
         href: articles/report-designer/report-designer-for-wpf/interface-elements/design-surface.md
-      - name: Script Editor
-        href: articles/report-designer/report-designer-for-wpf/interface-elements/script-editor.md
+      - name: Report Design Analyzer
+        href: articles/report-designer/report-designer-for-wpf/interface-elements/report-design-analyzer.md
       - name: Localization Editor
         href: articles/report-designer/report-designer-for-wpf/interface-elements/localization-editor.md
       - name: Query Builder
