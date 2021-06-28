@@ -16,7 +16,7 @@ This topic consists of the following sections:
 - [Preview Data](#preview-data)
 
 ## Add Tables
-To add the required tables/views to a data source, drag-and-drop them from the **Tables** pane onto the **Diagram** pane.
+Drag the required tables/views from the **Tables** pane onto the **Diagram** pane to add them to a data source.
 
 ![wdd-query-builder-add-table](../../../../images/img125656.png)
 
