@@ -33,6 +33,6 @@ This tutorial demonstrates how to bind a report to data stored in an external XM
 	> [!NOTE]
 	> Some of the data shaping capabilities available to SQL data sources (such as sorting, grouping and filtering data, as well as using aggregate functions) are not supported for XML files.
 
-The newly created SQL data source will be displayed in the **Components** node of the [Report Explorer](../report-designer-tools/ui-panels/report-explorer.md). Additionally, the hierarchy of the data source will be reflected by the [Field List](../report-designer-tools/ui-panels/field-list.md).
+The newly created SQL data source will be displayed in the **Data Sources** node of the [Report Explorer](../report-designer-tools/ui-panels/report-explorer.md). Additionally, the hierarchy of the data source will be reflected by the [Field List](../report-designer-tools/ui-panels/field-list.md).
 
 ![](../../../../images/eurd-win-data-source-wizard-xml-file-result.png)

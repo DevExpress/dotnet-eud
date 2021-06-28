@@ -40,12 +40,18 @@ You can also use the **Text Format String** property to specify output values' [
 
 ![](../../../../images/eurd-web-label-format-string.png)
 
+The ellipsis button invokes the **FormatString** editor:
+
+![](../../../../images/eurd-web-label-formatstring-editor.png)
 ### Display Summaries
 
 Specify a data range in the **Running** property and select the summary function in the [Expression Editor](../../report-designer-tools/expression-editor.md) to display a [summary function's result](../../shape-report-data/calculate-summaries/calculate-a-summary.md) in a label.
 
 ![](../../../../images/eurd-web-label-summary-function.png)
 
+The ellipsis button invokes the Expression Editor:
+
+![](../../../../images/eurd-web-label-summary-function-editor.png)
 
 ## Adjust the Label Size and Content
 ### Static Content

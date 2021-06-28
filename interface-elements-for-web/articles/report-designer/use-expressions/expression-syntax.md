@@ -468,12 +468,6 @@ A report's elements are displayed in the Report Designer's Report Explorer. You 
 > [!Note]
 > You cannot use the ReportItems collection in a [Calculated Field](..\shape-report-data\use-calculated-fields.md)'s expression.
 
-## Specify Images for Picture Boxes
-
-When you specify an expression for the [Picture Box](../use-report-elements/use-basic-report-controls/picture-box.md)'s **ImageSource** property, you can use image **Id**s  from the report's **ImageResources** collection.
-
-*IIf([MarchSales]>20, [Images.ArrowUp],[Images.ArrowDown])*
-
 ## Variables
 
 <table><tr><th><p>Variable</p>

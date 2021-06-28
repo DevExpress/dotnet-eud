@@ -18,18 +18,19 @@ This document describes how to change a report control's appearance based on a s
 	
 	![](../../../../images/eurd-web-shaping-customize-style-settings.png)
 
-4. Select another style and customize its appearance settings in the same way.
-	
-	![](../../../../images/eurd-web-shaping-cloned-style-settings.png)
+4. Create another style 'xrControlStyle2' with default settings.
 
-5. Switch to the [Expressions](../../report-designer-tools/ui-panels/expressions-panel.md) panel, select a report element to which you wish to assign the created styles and click the ellipsis button for the control's **Style Name** property.
+5. Select a report element to which you wish to specify a style selection rule (a table row with a cell bound to the 'UnitPrice' field), switch to the [Expressions](../../report-designer-tools/ui-panels/expressions-panel.md) panel, and click the ellipsis button next to the **Style Name** property.
 	
 	![](../../../../images/eurd-web-shaping-style-name-expression-property.png)
 
-6. In the invoked [Expression Editor](../../report-designer-tools/expression-editor.md), specify the required condition for switching between the created styles.
+6. In the invoked [Expression Editor](../../report-designer-tools/expression-editor.md), specify the style switch condition:
+
+	`Iif( [UnitPrice] >= 30, 'xrControlStyle1','xrControlStyle2')`
+
 	
 	![](../../../../images/eurd-web-shaping-style-condition-expression.png)
 
-Switch to [Print Preview](../../preview-print-and-export-reports.md) to view the resulting report.
+7. Switch to [Print Preview](../../preview-print-and-export-reports.md) to view the results.
 
-![](../../../../images/eurd-web-shaping-change-appearance-result.png)
+	![](../../../../images/eurd-web-shaping-change-appearance-result.png)

@@ -18,7 +18,7 @@ The **Codabar** is a discrete, self-checking symbology that may encode **16** di
 
     ![](../../../../../images/codabar-in-designer.png)
 
-3. Specify [common](add-bar-codes-to-a-report.md) barcode properties and properties [specific](#specific-properties) to **Codebar**.
+3. Specify [common](add-bar-codes-to-a-report.md) barcode properties and properties [specific](#specific-properties) to **Codabar**.
 
 ## Specific Properties
 

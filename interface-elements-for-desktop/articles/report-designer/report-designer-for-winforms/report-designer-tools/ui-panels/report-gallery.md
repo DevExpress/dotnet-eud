@@ -105,15 +105,15 @@ Use the following ways to apply a style template:
 	
 	![report-gallery-style-apply-to-control](../../../../../images/eurd-report-gallery-style-apply-to-control.png)
 
-## Components
+## Data Sources
 
-Right-click a data source in the Report Explorer and select **Add To Gallery** to create a new template in the **Components** category.
+Right-click a data source in the Report Explorer and select **Add To Gallery** to create a new template in the **Data Source** category.
 
 ![report-gallery-add-component-template](../../../../../images/eurd-report-gallery-add-component-template.png)
 
 Do one of the following to apply a data source template:
 
-* Right-click the template in the Report Gallery and select **Add to Report Components** in the context menu.
+* Right-click the template in the Report Gallery and select **Add to Report Data Sources** in the context menu.
 
 	![report-gallery-apply-component-template](../../../../../images/eurd-report-gallery-apply-component-template.png)
 

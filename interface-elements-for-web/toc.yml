@@ -658,6 +658,10 @@
         href: articles/report-designer/use-report-elements/use-bar-codes/code-93.md
       - name: Code 93 Extended
         href: articles/report-designer/use-report-elements/use-bar-codes/code-93-extended.md
+      - name: Deutsche Post Leitcode
+        href: articles/report-designer/use-report-elements/use-bar-codes/deutsche-post-leitcode.md
+      - name: Deutsche Post Identcode
+        href: articles/report-designer/use-report-elements/use-bar-codes/deutsche-post-identcode.md
       - name: EAN 13
         href: articles/report-designer/use-report-elements/use-bar-codes/ean-13.md
       - name: EAN 8
