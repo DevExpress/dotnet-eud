@@ -1,0 +1,158 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Dashboard Data Source Wizard | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Dashboard Data Source Wizard | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.56.7.0">
+    
+    <link rel="shortcut icon" href="../../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../../index.html">
+                <img id="logo" class="svg" src="../../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="filter-editor">Filter Editor</h1>
+
+<p>The Filter Editor dialog allows you to specify filter criteria for <a href="../../provide-data/create-a-new-data-source.html">data sources</a>, <a href="../../provide-data/working-with-sql-data-sources/manage-sql-queries.html">SQL queries</a>, and <a href="../../dashboard-item-settings.html">dashboard items</a>.</p>
+<h2 id="use-filter-editor">Use Filter Editor</h2>
+<p>The Filter Editor displays filter criteria as a tree where individual nodes specify simple filter conditions. The root node is the logical operator that combines all the conditions. Click this node and select the desired type to change the logical operator.</p>
+<p><img src="../../../../images/filtering_filtereditor_logicaloperator132422.png" alt="Filtering_FilterEditor_LogicalOperator"></p>
+<p>Click the plus button next to the operator to add a new condition or group.</p>
+<p><img src="../../../../images/filtering_filtereditor_addconditionmenu132418.png" alt="Filtering_FilterEditor_AddConditionMenu"></p>
+<p>To set a new condition, specify the dimension (including <a href="../../bind-dashboard-items-to-data/hidden-data-items.html">hidden dimensions</a>):</p>
+<p><img src="../../../../images/filtering_filtereditor_selectfield132426.png" alt="Filtering_FilterEditor_SelectField"></p>
+<p>Then specify a comparison operator:</p>
+<p><img src="../../../../images/filtering_filtereditor_comparisonoperators132427.png" alt="Filtering_FilterEditor_ComparisonOperators"></p>
+<p>Set an operand value type in the dedicated value box:</p>
+<p><img src="../../../../images/filtering_filtereditor_selectoperand132419.png" alt="Filtering_FilterEditor_SelectOperand"></p>
+<p>The following operand types are available:</p>
+<ul>
+<li><p><strong>Value</strong> - Allows you to compare dimension and static values.</p>
+<p>  <img src="../../../../images/filtering_filtereditor_valuedropdown132420.png" alt="Filtering_FilterEditor_ValueDropdown"></p>
+</li>
+<li><p><strong>Property</strong> - Compares different dimension values.</p>
+<p>  <img src="../../../../images/filtering_filtereditor_fieldsdropdown132425.png" alt="Filtering_FilterEditor_FieldsDropdown"></p>
+</li>
+<li><p><strong>Parameter</strong> - Allows you to compare dimension and <a href="../../data-analysis/dashboard-parameters.html">dashboard parameter</a> values.</p>
+<p>  <img src="../../../../images/filtering_filtereditor_parameterdropdown132421.png" alt="Filtering_FilterEditor_ParameterDropdown"></p>
+</li>
+</ul>
+<p>Click the filter condition&#39;s <strong>Remove</strong> <img src="../../../../images/web-rd-filter-editor-remove-button129484.png" alt="web-filter-editor-remove-button"> button to delete the condition.</p>
+<h2 id="advanced-mode">Advanced Mode</h2>
+<p><strong>Advanced Mode</strong> allows you to enter a custom filter string.</p>
+<p><img src="../../../../images/filtering_filtereditor_textmode132423.png" alt="Filtering_FilterEditor_TextMode"></p>
+<p>Consider the following syntax conventions when you create text-based filter conditions:</p>
+<ul>
+<li>Insert a dimension by enclosing its name in square brackets (for example, <strong>[Category]</strong>).</li>
+<li>Denote string values with apostrophes (for example, <strong>&#39;Bikes&#39;</strong>).</li>
+<li>Enclose date-time values with hashtags (for example, <strong>#2019-06-01#</strong>).</li>
+<li>Reference <a href="../../data-analysis/dashboard-parameters.html">dashboard parameters</a> by adding a question mark before their names (for example, <strong>[Category] = ?categoryParam</strong>)</li>
+</ul>
+<p>This editor supports intelligent code completion (which suggests functions, parameters, and available data columns as you type).</p>
+<p><img src="../../../../images/filtering_filtereditor_textmode_autocompletion132424.png" alt="Filtering_FilterEditor_TextMode_Autocompletion"></p>
+<p>You can add a comment to your expression to explain it and make the expression more readable. Comments can be multi-line, and begin with <code>/*</code> and end with <code>*/</code>.</p>
+<p>The <strong>Warning</strong> <img src="../../../../images/expression-editor-error-icon118339.png" alt="expression-editor-error-icon"> icon appears if a condition contains errors.</p>
+<h2 id="olap-filtering-specifics">OLAP Filtering Specifics</h2>
+<p>You cannot build complex filter criteria to filter data in OLAP mode. Filters for a measure are also not supported. Instead, you can filter dimension attributes and hierarchies: you can select the values you want (or do not want) to include in the dashboard.</p>
+<h3 id="dimension-attribute">Dimension Attribute</h3>
+<p>For dimension attributes, the Filter Editor contains a list of all values. The search panel is available for non-hierarchical fields.</p>
+<p><img src="../../../../images/img124640.png" alt="wdd-olap-filtering-attribute"></p>
+<h3 id="dimension-hierarchy">Dimension Hierarchy</h3>
+<p>The Filter Editor displays hierarchies as a tree and allows you to filter values at any hierarchy level.</p>
+<p><img src="../../../../images/img124639.png" alt="wdd-olap-filtering-hierarchy"></p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/21.1/dashboard-for-web/articles/web-dashboard-designer-mode/ui-elements/dialogs-and-wizards/filter-editor.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2019 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../../styles/main.js"></script>
+  </body>
+</html>

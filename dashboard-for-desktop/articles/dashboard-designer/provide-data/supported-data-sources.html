@@ -70,7 +70,7 @@
 <h1 id="supported-data-sources">Supported Data Sources</h1>
 
 <p>The Dashboard Designer allows you to establish a connection to various data sources such as SQL databases, Microsoft Excel workbooks, XML/CSV data files or OLAP cubes.</p>
-<p>The following data source types are supported.</p>
+<p>The following data source types are supported:</p>
 <ul>
 <li><a href="#sql-data-source">SQL Data Source</a></li>
 <li><a href="#olap-data-source">OLAP Data Source</a></li>
@@ -81,6 +81,7 @@
 <li><a href="#object-data-source">Object Data Source</a></li>
 <li><a href="#entity-framework-data-source">Entity Framework Data Source</a></li>
 <li><a href="#federated-data-source">Federated Data Source</a> </li>
+<li><a href="#mongodb">MongoDB</a></li>
 </ul>
 <h2 id="sql-data-source">SQL Data Source</h2>
 <p>To connect to various SQL databases, the Dashboard Designer requires corresponding providers to be installed on your machine. The table below lists the supported data sources and the required data providers.</p>
@@ -202,7 +203,7 @@
 </tr>
 <tr>
 <td>VistaDB</td>
-<td>4, 5</td>
+<td>4, 5, 6</td>
 <td>VistaDB ADO.NET Provider</td>
 <td>VistaDB.5.NET40.dll</td>
 <td><a href="http://www.gibraltarsoftware.com/VistaDB">Download link</a></td>
@@ -223,10 +224,10 @@
 </tr>
 </tbody>
 </table>
-<p>To create a connection to a SQL data source, see <a href="connecting-to-sql-databases.html">Binding to SQL databases</a>.</p>
+<p>See the following topic for information on how to create a connection to a SQL data source: <a href="connecting-to-sql-databases.html">Binding to SQL databases</a>.</p>
 <h2 id="olap-data-source">OLAP Data Source</h2>
-<p>To use the OLAP data source, the Dashboard Designer requires Microsoft Analysis Services OLE DB and Microsoft ADOMD.NET providers to be installed on your machine. To learn more, see <a href="https://msdn.microsoft.com/en-us/library/dn141152.aspx#bkmk_OLE">Data providers used for Analysis Services connections</a>.</p>
-<p>The following OLAP servers are supported.</p>
+<p>To use the OLAP data source, the Dashboard Designer requires Microsoft Analysis Services OLE DB and Microsoft ADOMD.NET providers to be installed on your machine. Refer to the following topic for more information: <a href="https://msdn.microsoft.com/en-us/library/dn141152.aspx#bkmk_OLE">Data providers used for Analysis Services connections</a>.</p>
+<p>The following OLAP servers are supported:</p>
 <ul>
 <li>Microsoft SQL Server 2000 Analysis Services</li>
 <li>Microsoft SQL Server 2005 Analysis Services</li>
@@ -238,7 +239,7 @@
 </ul>
 <p>To create a connection to an OLAP cube data source, see <a href="connecting-to-olap-cubes.html">Binding to OLAP cubes</a>.</p>
 <h2 id="microsoft-excel-workbookscsv-files">Microsoft Excel Workbooks/CSV Files</h2>
-<p>The following Microsoft Excel/text formats are supported.</p>
+<p>The following Microsoft Excel/text formats are supported:</p>
 <ul>
 <li>XLS</li>
 <li>XLSX</li>
@@ -265,7 +266,7 @@ This data is saved to a local file and can be updated from the original data sou
  A special in-memory cache allows you to improve performance when accessing extract data. </p>
 <p> To create an Extract data source and specify connection parameters, see <a href="binding-to-extract-data-sources.html">Binding to Extract Data Sources</a>.</p>
 <h2 id="object-data-source">Object Data Source</h2>
-<p>The Dashboard Designer provides a connection to an object data source defined in a separate class within a current project.</p>
+<p>The Dashboard Designer allows you to connect to an object data source defined in a separate class within the current project.</p>
 <p>To create a connection to an Object data source, see <a href="binding-to-object-data-sources.html">Binding to Object Data Sources</a>.</p>
 <h2 id="entity-framework-data-source">Entity Framework Data Source</h2>
 <p>Use the available data context to connect to EF data source. </p>
@@ -277,8 +278,15 @@ This data is saved to a local file and can be updated from the original data sou
 <li><a href="#sql-data-source">SQL Data Source</a></li>
 <li><a href="#microsoft-excel-workbookscsv-files">Excel Data Source</a></li>
 <li><a href="#object-data-source">Object Data Source</a></li>
+<li><a href="#mongodb">MongoDB</a></li>
 </ul>
-<p>To create a Federated data source with the <strong>Data Source Wizard</strong>, see <a href="binding-to-federated-data-source.html">Binding to Federated Data Source</a>.</p>
+<p>See the following topic for information on how to create a federated data source with the <strong>Data Source Wizard</strong>: <a href="binding-to-federated-data-source.html">Binding to Federated Data Source</a>.</p>
+<h2 id="mongodb">MongoDB</h2>
+<p>The Dashboard Designer allows you to connect to a MongoDB instance and stores data in JSON-like documents.</p>
+<p>The <a href="https://www.nuget.org/packages/MongoDB.Driver">MongoDB.Driver</a> package should be installed in your project to supply MongoDB data at runtime.</p>
+<p>You can use MongoDB as the original data source to create an Extract database. MongoDB can be used to create a federated data source.</p>
+<p>You can filter the MongoDB data source and add calculated fields.</p>
+<p>Refer to the following article for more information on how to connect to MongoDB: <a href="binding-to-mongodb.html">Binding to MongoDB</a>.</p>
 </article>
           </div>
           
@@ -287,7 +295,7 @@ This data is saved to a local file and can be updated from the original data sou
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/20.2/dashboard-for-desktop/articles/dashboard-designer/provide-data/supported-data-sources.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/21.1/dashboard-for-desktop/articles/dashboard-designer/provide-data/supported-data-sources.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

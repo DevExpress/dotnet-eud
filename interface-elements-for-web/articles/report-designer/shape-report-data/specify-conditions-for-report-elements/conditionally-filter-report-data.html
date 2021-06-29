@@ -74,16 +74,21 @@
 <li><p>Switch to the <a href="../../report-designer-tools/ui-panels/field-list.html">Field List</a> panel, select the <strong>Parameters</strong> node and click <strong>Add parameter</strong>.</p>
 <p> <img src="../../../../images/eurd-web-shaping-filter-add-parameter.png" alt=""></p>
 </li>
-<li><p>Specify the parameter&#39;s description in Print Preview and set its type to <strong>Number (Integer)</strong>.</p>
+<li><p>Specify the parameter name and description, set its type to <strong>Number (decimal)</strong>.</p>
 <p> <img src="../../../../images/eurd-web-shaping-filter-parameter-settings.png" alt=""></p>
 </li>
-<li><p>Select the report&#39;s detail band, switch it to the <a href="../../report-designer-tools/ui-panels/expressions-panel.html">Expressions</a> panel and click the <strong>Visible</strong> property&#39;s ellipsis button. In the invoked <a href="../../report-designer-tools/expression-editor.html">Expression Editor</a>, specify the required visibility condition. For example:</p>
+<li><p>Select the report&#39;s detail band, switch to the <a href="../../report-designer-tools/ui-panels/expressions-panel.html">Expressions</a> panel and click the <strong>Visible</strong> property&#39;s ellipsis button. </p>
+<p> <img src="../../../../images/eurd-web-shaping-formatting-rule-visiblity-expression.png" alt=""></p>
+</li>
+<li><p>In the invoked <a href="../../report-designer-tools/expression-editor.html">Expression Editor</a>, specify the visibility condition:</p>
+<p> <code>Iif( [UnitPrice] &gt;= ?minUnitPrice, true, false)</code></p>
 <p> <img src="../../../../images/eurd-web-shaping-formatting-rule-filter-condition.png" alt=""></p>
-<p> The expression above makes the <strong>Visible</strong> property return <strong>True</strong> or <strong>False</strong> depending on whether the field value is below the specified parameter value.</p>
+<p> The expression above makes the <strong>Visible</strong> property return <strong>True</strong> or <strong>False</strong> depending on whether the field value is greater or equal to the specified parameter value.</p>
+</li>
+<li><p>Switch to <a href="../../preview-print-and-export-reports.html">Print Preview</a> to see the result. </p>
+<p> <img src="../../../../images/eurd-web-shaping-filter-result.png" alt=""></p>
 </li>
 </ol>
-<p>Switch to <a href="../../preview-print-and-export-reports.html">Print Preview</a> to see the result. </p>
-<p><img src="../../../../images/eurd-web-shaping-filter-result.png" alt=""></p>
 </article>
           </div>
           
@@ -92,7 +97,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/20.2/interface-elements-for-web/articles/report-designer/shape-report-data/specify-conditions-for-report-elements/conditionally-filter-report-data.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/21.1/interface-elements-for-web/articles/report-designer/shape-report-data/specify-conditions-for-report-elements/conditionally-filter-report-data.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

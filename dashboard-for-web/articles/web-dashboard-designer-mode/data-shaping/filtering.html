@@ -69,19 +69,20 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="filtering">Filtering</h1>
 
-<p>Web Dashboard allows you to filter data in the <a href="../dashboard-item-settings.html">dashboard items</a> or apply filters to a specific measure. <a href="../bind-dashboard-items-to-data/bind-dashboard-items-to-data-in-the-web-dashboard.html">Dimensions</a> and <a href="../bind-dashboard-items-to-data/hidden-data-items.html">hidden dimensions</a> are used to build filter criteria.</p>
+<p>Web Dashboard allows you to filter data in the <a href="../dashboard-item-settings.html">dashboard items</a> or apply filters to a specific measure. You can use <a href="../bind-dashboard-items-to-data/bind-dashboard-items-to-data-in-the-web-dashboard.html">dimensions</a> and <a href="../bind-dashboard-items-to-data/hidden-data-items.html">hidden dimensions</a> to build filter criteria.</p>
+<p><img src="../../../images/filtering_main132414.png" alt="Filtering_Main"></p>
 <h2 id="dashboard-item-filter">Dashboard Item Filter</h2>
 <p>Filters that are applied to a dashboard item affect only this item. Open a dashboard item&#39;s <a href="../ui-elements/dashboard-item-menu.html">Filters</a> menu, go to the <strong>Item Filter</strong> section and click <strong>Edit</strong> to add a filter:</p>
 <p><img src="../../../images/wdd-invoke-filter-editor124630.png" alt="wdd-invoke-filter-editor"></p>
-<p>This invokes the <a href="../../../../interface-elements-for-web/articles/report-designer/report-designer-tools/filter-editor.html">Filter Editor</a> dialog where you can specify filter criteria:</p>
+<p>This invokes the <a href="../ui-elements/dialogs-and-wizards/filter-editor.html">Filter Editor</a> dialog where you can specify filter criteria:</p>
 <p><img src="../../../images/filtering_filtereditor_empty132417.png" alt="Filtering_FilterEditor_Empty"></p>
-<div class="TIP"><h5>Tip</h5><p><strong>Documentation</strong>: <a href="../../../../interface-elements-for-web/articles/report-designer/report-designer-tools/filter-editor.html">Filter Editor</a> </p>
+<div class="TIP"><h5>Tip</h5><p><strong>Documentation</strong>: <a href="../ui-elements/dialogs-and-wizards/filter-editor.html">Filter Editor</a> </p>
 </div>
 <h2 id="measure-filter">Measure Filter</h2>
 <p>You can apply filters to individual <a href="../bind-dashboard-items-to-data/bind-dashboard-items-to-data-in-the-web-dashboard.html">measures</a>. If you create multiple measures that only differ in applied filters, you can compare values calculated over different date-time periods or against different categories.</p>
-<p>Open a dashboard item&#39;s <a href="../ui-elements/dashboard-item-menu.html">Binding</a> menu and select a measure to filter. In the invoked <a href="../ui-elements/data-item-menu.html">data item menu</a>, open the <strong>Filter</strong> section and click <strong>Edit</strong>. This invokes the <a href="../../../../interface-elements-for-web/articles/report-designer/report-designer-tools/filter-editor.html">Filter Editor</a> dialog where you can specify filter criteria. </p>
+<p>Open a dashboard item&#39;s <a href="../ui-elements/dashboard-item-menu.html">Binding</a> menu and select a measure to filter. In the invoked <a href="../ui-elements/data-item-menu.html">data item menu</a>, open the <strong>Filter</strong> section and click <strong>Edit</strong>. This invokes the <a href="../ui-elements/dialogs-and-wizards/filter-editor.html">Filter Editor</a> dialog where you can specify filter criteria. </p>
 <p><img src="../../../images/web-filter-to-measure-menu.png" alt="web-filter-to-measure-menu"></p>
-<div class="TIP"><h5>Tip</h5><p><strong>Documentation</strong>: <a href="../../../../interface-elements-for-web/articles/report-designer/report-designer-tools/filter-editor.html">Filter Editor</a></p>
+<div class="TIP"><h5>Tip</h5><p><strong>Documentation</strong>: <a href="../ui-elements/dialogs-and-wizards/filter-editor.html">Filter Editor</a></p>
 </div>
 <p>You can clear the applied filter in the <a href="../ui-elements/data-item-menu.html">data item menu</a>&#39;s <strong>Filter</strong> section.</p>
 <div class="NOTE"><h5>Note</h5><p>The measure filter is technically an expression that uses the <code>filter(summaryExpression, filterCriteria)</code> function, where <code>summaryExpression</code> is the measure to be filtered and <code>filterCriteria</code> is the filter. See the following topic for more information about functions you can use in dashboard expressions: <a href="../data-analysis/expression-constants-operators-and-functions.html">Expression Constants, Operators, and Functions</a>.</p>
@@ -106,25 +107,13 @@
 </ul>
 <p><img src="../../../images/web-filter-visible-data-filter-grids.png" alt="web-filter-visible-data-filter-grids"></p>
 <h2 id="olap-filtering-specifics">OLAP Filtering Specifics</h2>
-<p>In OLAP mode, you cannot filter data by building complex filter criteria. Instead, select the values you wish to include in or exclude from the dashboard to filter dimension attributes and hierarchies.</p>
-<table>
-<thead>
-<tr>
-<th>Dimension Attribute</th>
-<th>Dimension Hierarchy</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>For dimension attributes, the Filter Editor contains a list of all values.</td>
-<td>For hierarchies, a tree is displayed instead, allowing you to filter individual values at any hierarchy level.</td>
-</tr>
-<tr>
-<td><img src="../../../images/img124640.png" alt="wdd-olap-filtering-attribute"></td>
-<td><img src="../../../images/img124639.png" alt="wdd-olap-filtering-hierarchy"></td>
-</tr>
-</tbody>
-</table>
+<p>You cannot build complex filter criteria to filter data in OLAP mode. Filters for a measure are also not supported. Instead, you can filter dimension attributes and hierarchies: you can select the values you want (or do not want) to include in the dashboard.</p>
+<h3 id="dimension-attribute">Dimension Attribute</h3>
+<p>For dimension attributes, the Filter Editor contains a list of all values. The search panel is available for non-hierarchical fields.</p>
+<p><img src="../../../images/img124640.png" alt="wdd-olap-filtering-attribute"></p>
+<h3 id="dimension-hierarchy">Dimension Hierarchy</h3>
+<p>The Filter Editor displays hierarchies as a tree and allows you to filter values at any hierarchy level.</p>
+<p><img src="../../../images/img124639.png" alt="wdd-olap-filtering-hierarchy"></p>
 </article>
           </div>
           
@@ -133,7 +122,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/20.2/dashboard-for-web/articles/web-dashboard-designer-mode/data-shaping/filtering.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/21.1/dashboard-for-web/articles/web-dashboard-designer-mode/data-shaping/filtering.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

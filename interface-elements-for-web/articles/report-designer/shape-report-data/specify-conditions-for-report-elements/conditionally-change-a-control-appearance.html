@@ -80,18 +80,21 @@
 <li><p>In the <a href="../../report-designer-tools/ui-panels/properties-panel.html">Properties</a> panel, customize the created style&#39;s appearance settings.</p>
 <p> <img src="../../../../images/eurd-web-shaping-customize-style-settings.png" alt=""></p>
 </li>
-<li><p>Select another style and customize its appearance settings in the same way.</p>
-<p> <img src="../../../../images/eurd-web-shaping-cloned-style-settings.png" alt=""></p>
+<li><p>Create another style &#39;xrControlStyle2&#39; with default settings.</p>
 </li>
-<li><p>Switch to the <a href="../../report-designer-tools/ui-panels/expressions-panel.html">Expressions</a> panel, select a report element to which you wish to assign the created styles and click the ellipsis button for the control&#39;s <strong>Style Name</strong> property.</p>
+<li><p>Select a report element to which you wish to specify a style selection rule (a table row with a cell bound to the &#39;UnitPrice&#39; field), switch to the <a href="../../report-designer-tools/ui-panels/expressions-panel.html">Expressions</a> panel, and click the ellipsis button next to the <strong>Style Name</strong> property.</p>
 <p> <img src="../../../../images/eurd-web-shaping-style-name-expression-property.png" alt=""></p>
 </li>
-<li><p>In the invoked <a href="../../report-designer-tools/expression-editor.html">Expression Editor</a>, specify the required condition for switching between the created styles.</p>
-<p> <img src="../../../../images/eurd-web-shaping-style-condition-expression.png" alt=""></p>
+<li><p>In the invoked <a href="../../report-designer-tools/expression-editor.html">Expression Editor</a>, specify the style switch condition:</p>
+<p> <code>Iif( [UnitPrice] &gt;= 30, &#39;xrControlStyle1&#39;,&#39;xrControlStyle2&#39;)</code></p>
 </li>
 </ol>
-<p>Switch to <a href="../../preview-print-and-export-reports.html">Print Preview</a> to view the resulting report.</p>
-<p><img src="../../../../images/eurd-web-shaping-change-appearance-result.png" alt=""></p>
+<pre><code>![](../../../../images/eurd-web-shaping-style-condition-expression.png)
+</code></pre><ol>
+<li><p>Switch to <a href="../../preview-print-and-export-reports.html">Print Preview</a> to view the results.</p>
+<p> <img src="../../../../images/eurd-web-shaping-change-appearance-result.png" alt=""></p>
+</li>
+</ol>
 </article>
           </div>
           
@@ -100,7 +103,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/20.2/interface-elements-for-web/articles/report-designer/shape-report-data/specify-conditions-for-report-elements/conditionally-change-a-control-appearance.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/21.1/interface-elements-for-web/articles/report-designer/shape-report-data/specify-conditions-for-report-elements/conditionally-change-a-control-appearance.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

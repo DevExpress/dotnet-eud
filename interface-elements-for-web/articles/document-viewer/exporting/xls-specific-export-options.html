@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>XLS-Specific Export Options | DevExpress End-User Documentation </title>
+    <title>XLS Export Options | DevExpress End-User Documentation </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="XLS-Specific Export Options | DevExpress End-User Documentation ">
+    <meta name="title" content="XLS Export Options | DevExpress End-User Documentation ">
     <meta name="generator" content="docfx 2.56.7.0">
     
     <link rel="shortcut icon" href="../../../../favicon.ico">
@@ -67,13 +67,22 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="xls-specific-export-options">XLS-Specific Export Options</h1>
+<h1 id="xls-export-options">XLS Export Options</h1>
 
 <p>Before <a href="export-a-document.html">exporting a document</a> to XLS format, you can specify XLS-specific options in the dedicated <strong>Export Options</strong> panel.</p>
 <p><img src="../../../images/img121833.png" alt="EUD_HTML5DV_XlsExportOptions"></p>
 <ul>
 <li><p><strong>Export Mode</strong></p>
 <p>  Specifies how a document is exported to XLS.</p>
+</li>
+<li><p><strong>Suppress 256 Columns Warning</strong></p>
+<p>  Specifies whether to suppress the exception that raises when trying to export a document to an XLS file with more than 256 columns.</p>
+</li>
+<li><p><strong>Suppress 65536 Rows Warning</strong></p>
+<p>  Specifies whether to suppress the exception that raises when trying to export a document to an XLS file with more than 65536 rows.</p>
+</li>
+<li><p><strong>Workbook Color Palette Compliance</strong></p>
+<p>  Specifies the color palette compatibility mode with different workbook versions. The workbook palette can store no more than <strong>56</strong> colors. If you select the <strong>ReducePaletteExactColors</strong> value, original color values are kept, but only the first <strong>56</strong> colors are included in the palette. Choose <strong>AdjustColorsToDefaultPalette</strong> to degrade the color values to match the <strong>56</strong> standard colors of the default workbook palette.</p>
 </li>
 <li><p><strong>Export Hyperlinks</strong></p>
 <p>  Specifies whether hyperlinks should be exported to the XLS document.</p>
@@ -90,18 +99,43 @@
 <li><p><strong>Show Grid Lines</strong></p>
 <p>  Specifies whether grid lines should be visible in the resulting XLS file.</p>
 </li>
-<li><p><strong>Suppress 256 Columns Warning</strong></p>
-<p>  Specifies whether to suppress the warning that appears if the resulting XLS file has more than <strong>256</strong> columns.</p>
-</li>
-<li><p><strong>Suppress 65536 Rows Warning</strong></p>
-<p>  Specifies whether to suppress the warning that appears if the resulting XLS file has more than <strong>65,536</strong> rows.</p>
-</li>
 <li><p><strong>Text Export Mode</strong></p>
 <p>  Specifies whether value formatting should be converted to the native XLS format string (if it is possible), or embedded into cell values as plain text.</p>
 </li>
-<li><p><strong>Workbook Color Palette Compliance</strong></p>
-<p>  Specifies the color palette compatibility mode with different workbook versions. The workbook palette can store no more than <strong>56</strong> colors. If you select the <strong>ReducePaletteExactColors</strong> value, original color values are kept, but only the first <strong>56</strong> colors are included in the palette. Choose <strong>AdjustColorsToDefaultPalette</strong> to degrade the color values to match the <strong>56</strong> standard colors of the default workbook palette.</p>
+<li><p><strong>Rasterize Images</strong></p>
+<p>  Specifies whether to rasterize vector images, such as pictures, charts, or barcodes.</p>
 </li>
+<li><p><strong>Rasterization Resolution</strong></p>
+<p>  Specifies the image resolution for raster images.</p>
+</li>
+<li><p><strong>Fit To Printed Page Width</strong></p>
+<p>  Shrinks the width of the exported document&#39;s printout to one page.</p>
+</li>
+<li><p><strong>Fit To Printed Page Height</strong></p>
+<p>  Shrinks the height of the exported document&#39;s printout to one page.</p>
+</li>
+<li><p><strong>Ignore Errors</strong></p>
+<p>  Specifies the document errors to be ignored in a resulting XLS file.</p>
+</li>
+<li><p><strong>Right To Left Document</strong></p>
+<p>  If you use right-to-left fonts in a report, enable the <strong>Right-to-Left Document</strong> option to use the right-to-left layout for sheets in the exported XLS file.</p>
+</li>
+</ul>
+<h2 id="document-options">Document Options</h2>
+<p>The <strong>Document Options</strong> complex property contains options which specify the <strong>Document Properties</strong> of the created XLS file. Click the complex property&#39;s header to access its nested options.</p>
+<p><img src="../../../images/img1218331.png" alt="EUD_HTML5DV_XlsDocumentOptions"></p>
+<h2 id="encryption-options">Encryption Options</h2>
+<p>This complex property allows you to adjust the encryption options of the resulting XLS file.</p>
+<p><img src="../../../images/img1218332.png" alt="EUD_HTML5DV_PdfSecurityOptions"></p>
+<ul>
+<li><strong>Type</strong>
+  Specifies one of the following encryption types:<ul>
+<li>Strong (default) type uses the <strong>Agile Encryption</strong> mechanism.</li>
+<li>Compatible type uses the <strong>Standard Encryption</strong> that is compatible with Excel 2007.</li>
+</ul>
+</li>
+<li><strong>Password</strong>
+  Sets a password for the exported XLS file. XLS files support <strong>ARC4</strong> encryption (except for <strong>RC4CryptoAPI</strong>). Passwords for XLS files are stored as plain text in report definitions. Ensure that only trusted parties have access to report definition files.</li>
 </ul>
 </article>
           </div>
@@ -111,7 +145,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/20.2/interface-elements-for-web/articles/document-viewer/exporting/xls-specific-export-options.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/21.1/interface-elements-for-web/articles/document-viewer/exporting/xls-specific-export-options.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

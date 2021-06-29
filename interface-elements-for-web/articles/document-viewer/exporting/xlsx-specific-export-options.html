@@ -97,6 +97,40 @@
 <li><p><strong>Text Export Mode</strong></p>
 <p>  Specifies whether value formatting should be converted to the native XLSX format string (if it is possible), or embedded into cell values as plain text.</p>
 </li>
+<li><p><strong>Rasterize Images</strong></p>
+<p>  Specifies whether to rasterize vector images, such as pictures, charts, or barcodes.</p>
+</li>
+<li><p><strong>Rasterization Resolution</strong></p>
+<p>  Specifies the image resolution for raster images.</p>
+</li>
+<li><p><strong>Fit To Printed Page Width</strong></p>
+<p>  Shrinks the width of the exported document&#39;s printout to one page.</p>
+</li>
+<li><p><strong>Fit To Printed Page Height</strong></p>
+<p>  Shrinks the height of the exported document&#39;s printout to one page.</p>
+</li>
+<li><p><strong>Ignore Errors</strong></p>
+<p>  Specifies the document errors to be ignored in a resulting XLS file.</p>
+</li>
+<li><p><strong>Right To Left Document</strong></p>
+<p>  If you use right-to-left fonts in a report, enable the <strong>Right-to-Left Document</strong> option to use the right-to-left layout for sheets in the exported XLSX file.</p>
+</li>
+</ul>
+<h2 id="document-options">Document Options</h2>
+<p>The <strong>Document Options</strong> complex property contains options which specify the <strong>Document Properties</strong> of the created XLSX file. Click the complex property&#39;s header to access its nested options.</p>
+<p><img src="../../../images/img1218331.png" alt="EUD_HTML5DV_XlsDocumentOptions"></p>
+<h2 id="encryption-options">Encryption Options</h2>
+<p>This complex property allows you to adjust the encryption options of the resulting XLSX file.</p>
+<p><img src="../../../images/img1218332.png" alt="EUD_HTML5DV_PdfSecurityOptions"></p>
+<ul>
+<li><strong>Type</strong>
+  Specifies one of the following encryption types:<ul>
+<li>Strong (default) type uses the <strong>Agile Encryption</strong> mechanism.</li>
+<li>Compatible type uses the <strong>Standard Encryption</strong> that is compatible with Excel 2007.</li>
+</ul>
+</li>
+<li><strong>Password</strong>
+  Sets a password for the exported XLSX file. Passwords for XLSX files are stored as plain text in report definitions. Ensure that only trusted parties have access to report definition files.</li>
 </ul>
 </article>
           </div>
@@ -106,7 +140,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/20.2/interface-elements-for-web/articles/document-viewer/exporting/xlsx-specific-export-options.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/21.1/interface-elements-for-web/articles/document-viewer/exporting/xlsx-specific-export-options.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

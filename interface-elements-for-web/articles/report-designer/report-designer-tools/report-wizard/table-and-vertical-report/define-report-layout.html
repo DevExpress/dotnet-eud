@@ -73,8 +73,10 @@
 <p><img src="../../../../../images/eurd-web-report-wizard-define-report-layout.png" alt=""></p>
 <h2 id="select-queries">Select Queries</h2>
 <p>Select queries for the report and its detail reports. If you selected the <strong>Table Report</strong> and bound it to a database, the query list can also contain master-detail relationships.</p>
+<p>Table Report:</p>
 <p><img src="../../../../../images/eurd-web-report-wizard-table-select-queries.png" alt="**Table Report**"></p>
-<p><img src="../../../../../images/eurd-web-report-wizard-vertical-select-queries.png" alt="**Vertical Report**"></p>
+<p>Vertical Report:</p>
+<p><img src="../../../../../images/eurd-web-report-wizard-vertical-select-queries.png" alt="**Table Report**">    </p>
 <ul>
 <li>If you select one query, the wizard assigns it to the report&#39;s <strong>DataMember</strong> property.</li>
 <li>If you select two or more queries, the wizard creates the <a href="../../../introduction-to-banded-reports.html">Detail Report Band</a> for each query at the same hierarchical level and assigns the band&#39;s <strong>DataMember</strong> property to the corresponding query.</li>
@@ -82,28 +84,43 @@
 </ul>
 <h2 id="select-data-fields">Select Data Fields</h2>
 <p>Choose data fields from the selected queries to display them in the report.</p>
+<p>Table Report: </p>
 <p><img src="../../../../../images/eurd-web-report-wizard-select-report-fields.png" alt=""></p>
+<p>Vertical Report: </p>
+<p><img src="../../../../../images/eurd-web-report-wizard-select-report-fields-vertical.png" alt=""></p>
 <p>Click <strong>Finish</strong> if you do not need to group fields and/or display summaries. The created report looks similar to the image below.</p>
-<p><img src="../../../../../images/eurd-web-report-wizard-table-result.png" alt="**Table Report**"></p>
-<p><img src="../../../../../images/eurd-web-report-wizard-vertical-result.png" alt="**Vertical Report**"></p>
+<p>Table Report: </p>
+<p><img src="../../../../../images/eurd-web-report-wizard-table-result.png" alt="Table Report"></p>
+<p>Vertical Report:</p>
+<p><img src="../../../../../images/eurd-web-report-wizard-vertical-result.png" alt="Vertical Report"></p>
 <h2 id="add-group-fields">Add Group Fields</h2>
 <p>Click the <strong>Add Group</strong> button and select data fields in the drop-down list. </p>
+<p>Table Report:</p>
 <p><img src="../../../../../images/eurd-web-report-wizard-group.png" alt=""></p>
+<p>Vertical Report:</p>
+<p><img src="../../../../../images/eurd-web-report-vertical-wizard-group.png" alt=""></p>
 <p>Use arrow buttons to change the group order.</p>
 <p>The following image demonstrates group types:</p>
 <p><img src="../../../../../images/eurd-web-reports-groupingconcept9139.png" alt="Reports-GroupingConcept"></p>
 <p>You can stop the wizard at this step and get the report layout similar to the image below.</p>
+<p>Table Report:</p>
 <p><img src="../../../../../images/eurd-web-report-wizard-table-group-result.png" alt="**Table Report**"></p>
+<p>Vertical Report:</p>
 <p><img src="../../../../../images/eurd-web-report-wizard-vertical-group-result.png" alt="**Vertical Report**"></p>
 <h2 id="add-summary-fields">Add Summary Fields</h2>
 <p>To add a summary, select a data field (numeric, date-time or Boolean) and summary function(s).</p>
+<p>Table Report:</p>
+<p><img src="../../../../../images/eurd-web-report-wizard-add-summary.png" alt=""></p>
+<p>Vertical Report:</p>
 <p><img src="../../../../../images/eurd-web-report-wizard-add-summary.png" alt=""></p>
 <ul>
 <li>Table Reports display summaries in the Report Footer an Group Footers.</li>
 <li>Vertical Reports display summaries in the Vertical Total band.</li>
 </ul>
 <p>Select the <strong>Ignore null values</strong> checkbox to do not take data fields&#39; empty values into account. Otherwise, these values are treated as zeros for numeric and Boolean fields and the earliest system date is used for date-time fields.</p>
+<p>Table Report:</p>
 <p><img src="../../../../../images/eurd-web-report-wizard-table-summary-result.png" alt="**Table Report**"></p>
+<p>Vertical Report:</p>
 <p><img src="../../../../../images/eurd-web-report-wizard-vertical-summary-result.png" alt="**Vertical Report**"></p>
 </article>
           </div>
@@ -113,7 +130,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/20.2/interface-elements-for-web/articles/report-designer/report-designer-tools/report-wizard/table-and-vertical-report/define-report-layout.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/21.1/interface-elements-for-web/articles/report-designer/report-designer-tools/report-wizard/table-and-vertical-report/define-report-layout.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

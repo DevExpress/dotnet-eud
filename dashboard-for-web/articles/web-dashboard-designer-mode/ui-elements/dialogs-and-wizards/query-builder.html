@@ -1,0 +1,162 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Query Builder | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Query Builder | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.56.7.0">
+    
+    <link rel="shortcut icon" href="../../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../../index.html">
+                <img id="logo" class="svg" src="../../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="query-builder">Query Builder</h1>
+
+<p>In the <strong>Query Builder</strong> dialog, you can add data tables and views to the data source, and select which columns to include. The <strong>Query Builder</strong> automatically joins the related tables, so all you need to do is drag and drop.</p>
+<p><img src="../../../../images/img124934.png" alt="wdd-query-builder"></p>
+<p>This topic consists of the following sections:</p>
+<ul>
+<li><a href="#add-tables">Add Tables</a></li>
+<li><a href="#join-tables">Join Tables</a></li>
+<li><a href="#edit-column-settings">Edit Column Settings</a></li>
+<li><a href="#filter-data">Filter Data</a></li>
+<li><a href="#preview-data">Preview Data</a></li>
+</ul>
+<h2 id="add-tables">Add Tables</h2>
+<p>Drag the required tables/views from the <strong>Tables</strong> pane onto the <strong>Diagram</strong> pane to add them to a data source.</p>
+<p><img src="../../../../images/img125656.png" alt="wdd-query-builder-add-table"></p>
+<p>Then, select the required columns.</p>
+<p><img src="../../../../images/img125657.png" alt="wdd-query-builder-select-column"></p>
+<p>To delete an unnecessary table, select it and click the <strong>Delete</strong> button (the <img src="../../../../images/img125661.png" alt="wdd-query-builder-delete-icon"> icon).</p>
+<p>You can cancel or repeat the action using the <strong>Undo</strong>/<strong>Redo</strong> buttons (the <img src="../../../../images/img126299.png" alt="wdd-query-builder-undo"> and <img src="../../../../images/img126300.png" alt="wdd-query-builder-redo"> icons).</p>
+<h2 id="join-tables">Join Tables</h2>
+<p>When you drop a table that has a relationship at the database level with any of the recently added tables, the <strong>Query Builder</strong> joins these tables automatically.</p>
+<p><img src="../../../../images/img125658.png" alt="wdd-query-builder-join-tables"></p>
+<p>You can create a relationship between two tables manually. To do this, drag a column in one table to a related column in a different table. A relationship line will be drawn between the two tables.</p>
+<p><img src="../../../../images/img125659.png" alt="wdd-query-builder-join-tables-manually"></p>
+<p>The Query Builder allows you to change the join type (if necessary). For this, select the relationship line and use the <strong>Join type</strong> combo box in the Properties pane. <strong>Inner join</strong> and <strong>Left outer join</strong> are supported.</p>
+<p><img src="../../../../images/img125660.png" alt="wdd-query-builder-ralstionship-properties"></p>
+<p>To delete an unnecessary relationship, select the relationship line and click the <strong>Delete</strong> button (the <img src="../../../../images/img125661.png" alt="wdd-query-builder-delete-icon"> icon).</p>
+<h2 id="edit-column-settings">Edit Column Settings</h2>
+<p>To edit a column setting, select the required column in a table. Then, use the <strong>Properties</strong> pane to specify the column setting.</p>
+<p>The following settings are available for each column:</p>
+<p><img src="../../../../images/img124947.png" alt="wdd-queru-builder-properties-pane"></p>
+<ul>
+<li>The <strong>Name</strong> field displays the selected column name.</li>
+<li>The <strong>Type</strong> field displays the selected column type.</li>
+<li><p>The <strong>Alias</strong> field allows you to specify the column alias.</p>
+<div class="NOTE"><h5>Note</h5><p>Note that aggregated columns should always have an alias.</p>
+</div>
+</li>
+<li>The <strong>Output</strong> field allows you to choose whether to include the selected column to the query.</li>
+<li>Use <strong>Sort Type</strong> to specify the sort order of column values.</li>
+<li>The <strong>Sort Order</strong> field allows you to specify the order in which several columns are sorted.</li>
+<li>The <strong>Group By</strong> option allows you to group data by the values of the selected column.</li>
+<li><p>The <strong>Aggregate</strong> field allows you to specify the aggregate function used to aggregate column values.</p>
+<div class="NOTE"><h5>Note</h5><p>Note that you should apply aggregation/grouping either to all columns or to none of them.</p>
+</div>
+</li>
+</ul>
+<h2 id="filter-data">Filter Data</h2>
+<p>The Query Builder allows you to filter a query. To do this, deselect tables and click the ellipsis button in the invoked <strong>Filter</strong> field in the <strong>Properties</strong> pane. This invokes the <strong>Filter Editor</strong> dialog, which enables you to construct a filter string.</p>
+<p><img src="../../../../images/img124905.png" alt="wdd-filter-editor-filter-query"></p>
+<p>See the following topic to learn more: <a href="../../provide-data/working-with-sql-data-sources/filter-queries.html">Filter Queries</a>.</p>
+<h2 id="preview-data">Preview Data</h2>
+<p>The Query Builder allows you to preview data for the created SQL query. To do this, click the <strong>Preview Results...</strong> button. This invokes the <a href="preview-data.html">Data Preview</a> window containing data returned after executing the query.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/21.1/dashboard-for-web/articles/web-dashboard-designer-mode/ui-elements/dialogs-and-wizards/query-builder.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2019 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../../styles/main.js"></script>
+  </body>
+</html>
