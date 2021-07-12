@@ -60,7 +60,6 @@ Note that you can only edit the following map vector items:
 
 Create mode allows you to add new items to the map. Select one of the following symbols to create map items: ![Add Pushpin Button](../../images/map-editor-add-pushpin-button.png) ![Add Path Button](../../images/map-editor-add-path-button.png) ![Add Polyline Button](../../images/map-editor-add-polyline-button.png) ![Add Dot Button](../../images/map-editor-add-dot-button.png) ![Add Ellipse Button](../../images/map-editor-add-ellipse-button.png) ![Add Rectangle Button](../../images/map-editor-add-rectangle-button.png) ![Add Line Button](../../images/map-editor-add-line-button.png)
 
-You can add dots and pushpins by clicking on the required location. To create a complex map item, add points sequentially to form a map item. Use a mouse double click or press **Enter** to finish the sequence. The following animation shows how to create a map path:
+You can add dots and pushpins by clicking on the required location. To create a complex map item, add points sequentially to form a map item. Use a double-click or press **Enter** to finish the sequence. The following animation shows how to create a map path:
 
 ![Map Editor Create Mode](../../images/map-editor-creating-path.gif)
-
