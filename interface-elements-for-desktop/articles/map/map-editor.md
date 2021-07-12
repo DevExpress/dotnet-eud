@@ -31,7 +31,7 @@ The Map editor provides the following modes that define the available actions wh
 
 ### Default Mode
 
-You can only view the map in Default mode. You can use the ![Default Mode Button](../../images/map-editor-default-mode-button.png) button to turn on this mode. 
+You can view the map in Default mode. You can delete a shape, by [selecting](selection.md) it and pressing the **Del** key. You can use the ![Default Mode Button](../../images/map-editor-default-mode-button.png) button to turn on this mode. 
 
 ### Transform Mode
 
