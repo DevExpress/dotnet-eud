@@ -18,4 +18,4 @@ To select multiple map items within a rectangular area, do the following:
 To select multiple map items one by one, do the following:
 * Hover over a map item with the mouse pointer;
 * Hold the **Ctrl** key and click;
-* Repeat the steps for the other map items
+* Repeat the steps for the other map items.
