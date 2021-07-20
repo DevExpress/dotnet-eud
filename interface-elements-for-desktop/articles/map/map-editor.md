@@ -10,20 +10,21 @@ The Map Editor is a built-in tool that allows you to create and modify map items
 
 ## Map Editor's Panel
 
-The Map Editor's panel consists of the following elements:
+The Map Editor's panel includes the following buttons:
 
-- ![Undo Button](../../images/map-editor-undo-button.png) - Cancels the last action.
-- ![Redo Button](../../images/map-editor-redo-button.png) - Restores the last canceled action.
-- ![Default Mode Button](../../images/map-editor-default-mode-button.png) - Enables Default mode.
-- ![Transform Mode Button](../../images/map-editor-transform-mode-button.png) - Activates Transform mode.
-- ![Edit Mode Button](../../images/map-editor-edit-mode-button.png) - Turns on Edit mode.
-- ![Add Pushpin Button](../../images/map-editor-add-pushpin-button.png) - Enables "Create Pushpin" mode to create pushpins.
-- ![Add Path Button](../../images/map-editor-add-path-button.png) - Enables "Create Path" mode to create map paths.
-- ![Add Polyline Button](../../images/map-editor-add-polyline-button.png) - Activates "Create Polyline" mode to create map polylines.
-- ![Add Dot Button](../../images/map-editor-add-dot-button.png) - Enables "Create Dot" mode to create map dots.
-- ![Add Ellipse Button](../../images/map-editor-add-ellipse-button.png) - Enables "Create Ellipse" mode to create ellipses.
-- ![Add Rectangle Button](../../images/map-editor-add-rectangle-button.png) - Turns on "Create Rectangle" mode to create map rectangles.
-- ![Add Line Button](../../images/map-editor-add-line-button.png) - Enables "Create Line" mode to create map lines.
+- ![Undo](../../images/map-editor-undo-button.png) - Cancels the last action.
+- ![Redo](../../images/map-editor-redo-button.png) - Restores the last canceled action.
+- ![Default Mode](../../images/map-editor-default-mode-button.png) - Enables Default mode.
+- ![Transform Mode](../../images/map-editor-transform-mode-button.png) - Activates Transform mode.
+- ![Edit Mode](../../images/map-editor-edit-mode-button.png) - Turns on Edit mode.
+- ![Add Pushpin](../../images/map-editor-add-pushpin-button.png) - Enables "Create Pushpin" mode to create pushpins.
+- ![Add Path](../../images/map-editor-add-path-button.png) - Enables "Create Path" mode to create map paths.
+- ![Add Polyline](../../images/map-editor-add-polyline-button.png) - Activates "Create Polyline" mode to create map polylines.
+- ![Add Spline](../../images/map-editor-add-spline-button.png) - Activates "Create Spline" mode to create map splines.
+- ![Add Dot](../../images/map-editor-add-dot-button.png) - Enables "Create Dot" mode to create map dots.
+- ![Add Ellipse](../../images/map-editor-add-ellipse-button.png) - Enables "Create Ellipse" mode to create ellipses.
+- ![Add Rectangle](../../images/map-editor-add-rectangle-button.png) - Turns on "Create Rectangle" mode to create map rectangles.
+- ![Add Line](../../images/map-editor-add-line-button.png) - Enables "Create Line" mode to create map lines.
 
 ## Map Editor Modes
 
@@ -52,15 +53,19 @@ Use the ![Edit Mode Button](../../images/map-editor-edit-mode-button.png) button
 
 Note that you can only edit the following map vector items:
 - Map line
+- Map spline
 - Map path
 - Map polygon
 - Map polyline
 
 ### Create Mode
 
-Create mode allows you to add new items to the map. Select one of the following symbols to create map items: ![Add Pushpin Button](../../images/map-editor-add-pushpin-button.png) ![Add Path Button](../../images/map-editor-add-path-button.png) ![Add Polyline Button](../../images/map-editor-add-polyline-button.png) ![Add Dot Button](../../images/map-editor-add-dot-button.png) ![Add Ellipse Button](../../images/map-editor-add-ellipse-button.png) ![Add Rectangle Button](../../images/map-editor-add-rectangle-button.png) ![Add Line Button](../../images/map-editor-add-line-button.png)
+Create mode allows you to add new items to the map. Select one of the following symbols to create map items: ![Add Pushpin Button](../../images/map-editor-add-pushpin-button.png) ![Add Path Button](../../images/map-editor-add-path-button.png) ![Add Polyline Button](../../images/map-editor-add-polyline-button.png) ![Add Spline Button](../../images/map-editor-add-spline-button.png) ![Add Dot Button](../../images/map-editor-add-dot-button.png) ![Add Ellipse Button](../../images/map-editor-add-ellipse-button.png) ![Add Rectangle Button](../../images/map-editor-add-rectangle-button.png) ![Add Line Button](../../images/map-editor-add-line-button.png)
 
-You can add dots and pushpins by clicking on the required location. To create a complex map item, add points sequentially to form a map item. The following animation shows how to create a map path:
+You can add dots and pushpins by clicking on the required location. To create a complex map item, add points sequentially to form a map item. Press the **Enter** key or double-click the item to finish its creation. The following animation shows how to create a map path:
 
 ![Map Editor Create Mode](../../images/map-editor-creating-path.gif)
 
+## How to Delete a Map Item
+
+Select an item and press the **Delete** key to delete it.
