@@ -14,9 +14,9 @@ The Map Editor's panel includes the following buttons:
 
 - ![Undo](../../images/map-editor-undo-button.png) - Cancels the last action.
 - ![Redo](../../images/map-editor-redo-button.png) - Restores the last canceled action.
-- ![Default Mode](../../images/map-editor-default-mode-button.png) - Enables Default mode.
-- ![Transform Mode](../../images/map-editor-transform-mode-button.png) - Activates Transform mode.
-- ![Edit Mode](../../images/map-editor-edit-mode-button.png) - Turns on Edit mode.
+- ![Default Mode](../../images/map-editor-default-mode-button.png) - Enables "Default" mode.
+- ![Transform Mode](../../images/map-editor-transform-mode-button.png) - Activates "Transform" mode.
+- ![Edit Mode](../../images/map-editor-edit-mode-button.png) - Turns on "Edit" mode.
 - ![Add Pushpin](../../images/map-editor-add-pushpin-button.png) - Enables "Create Pushpin" mode to create pushpins.
 - ![Add Path](../../images/map-editor-add-path-button.png) - Enables "Create Path" mode to create map paths.
 - ![Add Polyline](../../images/map-editor-add-polyline-button.png) - Activates "Create Polyline" mode to create map polylines.
