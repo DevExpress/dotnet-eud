@@ -23911,7 +23911,7 @@
       "output": {
         ".html": {
           "relative_path": "interface-elements-for-desktop/articles/map/map-editor.html",
-          "hash": "+4LWnkP+Rr0xNTzy2J0daw=="
+          "hash": "vWk+ofaXLz9BMVAeutILdg=="
         }
       },
       "is_incremental": false,
@@ -23959,7 +23959,7 @@
       "output": {
         ".html": {
           "relative_path": "interface-elements-for-desktop/articles/map/selection.html",
-          "hash": "22LdegyE564xuwAFfMVFiQ=="
+          "hash": "INYJD2Z/tnaksnRS99F8bw=="
         }
       },
       "is_incremental": false,
@@ -74376,6 +74376,17 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "interface-elements-for-desktop/images/map-editor-add-spline-button.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-desktop/images/map-editor-add-spline-button.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "interface-elements-for-desktop/images/map-editor-adding-points.gif",
       "output": {
         "resource": {
@@ -110802,11 +110813,11 @@
     {
       "status": {
         "can_incremental": false,
-        "details": "Cannot build incrementally because last build info is missing.",
+        "details": "Cannot build incrementally because config changed.",
         "incrementalPhase": "build",
         "total_file_count": 0,
         "skipped_file_count": 0,
-        "full_build_reason_code": "NoAvailableBuildCache"
+        "full_build_reason_code": "ConfigChanged"
       },
       "processors": {
         "ConceptualDocumentProcessor": {
@@ -110833,8 +110844,8 @@
     },
     {
       "status": {
-        "can_incremental": false,
-        "details": "Cannot support incremental post processing, the reason is: last post processor info is null.",
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
         "incrementalPhase": "postProcessing",
         "total_file_count": 0,
         "skipped_file_count": 0
