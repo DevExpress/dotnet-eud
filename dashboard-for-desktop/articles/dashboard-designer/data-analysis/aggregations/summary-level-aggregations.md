@@ -37,5 +37,5 @@ The following image illustrates the custom _StringConcat_ function in the “Agg
 
 Names of custom aggregate functions are stored in the _Custom Aggregate Names_ categories and can be used as arguments when you create [window calculations](window-calculations\calculation-functions-reference.md) as _WindowAggregate_ and _RunningAggregate_.
 
-Refer to the following topic for detains: [Calculation Functions Reference](../window-calculations\calculation-functions-reference.md).
+Refer to the following topic for detains: [Calculation Functions Reference](../window-calculations/calculation-functions-reference.md).
 
