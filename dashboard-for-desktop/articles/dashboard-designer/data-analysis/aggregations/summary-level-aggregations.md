@@ -4,9 +4,9 @@ author: Natalia Kazakova
 legacyId: 116588
 ---
 # Summary Level Aggregations
-The Dashboard Designer allows you to perform aggregations when constructing a [calculated field expression](../../work-with-data/creating-calculated-fields.md). This allows you to evaluate calculated fields on a summary level.
+The Dashboard Designer aggregates data when you construct a [calculated field expression](../../work-with-data/creating-calculated-fields.md). This allows you to evaluate calculated fields on a summary level.
 
-In the Dashboard Designer, you can use the following set of predefined aggregate functions.
+In the Dashboard Designer, you can use the following set of predefined aggregate functions:
 
 ![BlogDashboard_SummaryCalculatedField_Functions](../../../../images/img118142.png)
 
@@ -26,3 +26,16 @@ In the Dashboard Designer, you can use the following set of predefined aggregate
 | StdDevp(Value) | Returns the standard deviation of a population where the population is the entire data to be summarized. |
 
 These functions can be used for all types of numeric fields. After creating such calculated fields, you can use them as measures contained in an OLAP cube.
+
+## Custom Aggregate Functions
+
+Along with the predefined aggregations (like Min, Max, Sum, Avg), the Dashboard supports custom aggregation functions. A Custom Aggregate function appears in the [Expression Editor](../../../../../interface-elements-for-desktop\articles\expression-editor.md)'s categories if the function was registered in your application.
+
+The following image illustrates the custom _StringConcat_ function in the “Aggregate” function’s category:
+
+![win-custom-aggr-function-in-expression-editor](../../../../images/win-custom-aggr-function-in-expression-editor.png)
+
+Names of custom aggregate functions are stored in the _Custom Aggregate Names_ categories and can be used as arguments when you create [window calculations](window-calculations\calculation-functions-reference.md) as _WindowAggregate_ and _RunningAggregate_.
+
+Refer to the following topic for detains: [Calculation Functions Reference](../window-calculations\calculation-functions-reference.md).
+
