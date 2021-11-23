@@ -45,10 +45,21 @@ In Viewer mode, you can programmatically adjust the size of the control to fit a
 ![web-dashboard-auto-size-viewer](../../images/web-dashboard-auto-size-viewer.png)
 
 ## Dashboard Title
-Refer to the following article for details: [Dashboard Title](dashboard-layout/dashboard-title.md)
+The Dashboard Title is located at the top of the dashboard surface and can contain static text, svg images, and command buttons. These elements are called toolbar items:
+
+![wdd-dashboard-title](../../images/img126004.png)
+
+Refer to the following article for details: [Dashboard Title](dashboard-layout/dashboard-title.md).
 ## Dashboard Items Layout
-See the following article for more information: [Dashboard Items Layout](dashboard-layout/dashboard-items-layout.md)
+The dashboard arranges dashboard items and groups using layout items and layout groups. They are containers that display a dashboard layout as a hierarchical structure.
+
+See the following article for more information: [Dashboard Items Layout](dashboard-layout/dashboard-items-layout.md).
 ## Dashboard Item Caption
-See the following article for more information: [Dashboard Item Caption](dashboard-layout/dashboard-item-caption.md)
+
+Each dashboard item has a caption that is displayed at the top of this item. The caption can contain static text, svg images, and command buttons. These elements are called toolbar items:
+
+![wdd-dashboard-item-caption](../../images/img126135.png)
+
+See the following article for more information: [Dashboard Item Caption](dashboard-layout/dashboard-item-caption.md).
 
 
