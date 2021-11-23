@@ -26,6 +26,12 @@ This invokes the **Dashboard Layout Options** dialog that allows you to specify 
 
     The height or width of a dashboard surface is set in pixels.
 
+## Dashboard Title
+The Dashboard Title is located at the top of the dashboard surface. It can contain text, images and command buttons.
+
+![DashboardTitleArea](../../images/img19734.png)
+
+See the following article for more information: [Dashboard Title](dashboard-layout/dashboard-title.md).
 ## Dashboard Items Layout
 
 The Dashboard Designer allows users to arrange and resize dashboard items and groups using drag-and-drop operations.
@@ -39,10 +45,5 @@ Dashboard Item Caption is located on the dashboard surface and contains relevant
 ![DashboardItem_Caption](../../images/img18278.png)
 
 Refer to the following article for details: [Dashboard Item Caption](dashboard-layout/dashboard-item-caption.md).
-## Dashboard Title
-The Dashboard Title is located at the top of the dashboard surface. It can contain text, images and command buttons.
 
-![DashboardTitleArea](../../images/img19734.png)
-
-See the following article for more information: [Dashboard Title](dashboard-layout/dashboard-title.md).
 
