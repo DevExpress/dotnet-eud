@@ -35,7 +35,7 @@ The following image illustrates the custom _StringConcat_ function in the “Agg
 
 ![win-custom-aggr-function-in-expression-editor](../../../../images/win-custom-aggr-function-in-expression-editor.png)
 
-Names of custom aggregate functions are stored in the _Custom Aggregate Names_ categories and can be used as arguments when you create [window calculations](window-calculations\calculation-functions-reference.md) as _WindowAggregate_ and _RunningAggregate_.
+Names of custom aggregate functions are stored in the _Custom Aggregate Names_ categories and can be used as arguments when you create [window calculations](../window-calculations/calculation-functions-reference.md) as _WindowAggregate_ and _RunningAggregate_.
 
 Refer to the following topic for detains: [Calculation Functions Reference](../window-calculations/calculation-functions-reference.md).
 
