@@ -12,7 +12,7 @@ In the Dashboard Designer, you can use the following set of predefined aggregate
 
 | Function | Description |
 |---|---|
-| Aggr(SummaryExpression, Dimensions) | Aggregates underlying data using the detail level specified by a predefined set of dimensions and a specified summary function. To learn more, see [Intermediate Level Aggregations](intermediate-level-aggregations.md). |
+| Aggr(SummaryExpression, Dimensions) | Aggregates underlying data using the detail level specified by a predefined set of dimensions and a specified summary function. For more information, see [Intermediate Level Aggregations](intermediate-level-aggregations.md). |
 | Avg(Value) | Returns the average of all the values in the expression. |
 | Count() | Returns the number of values. |
 | CountDistinct(Value) | Returns the number of distinct values. |

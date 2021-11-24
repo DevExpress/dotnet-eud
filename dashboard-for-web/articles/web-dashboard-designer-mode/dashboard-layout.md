@@ -45,7 +45,7 @@ In Viewer mode, you can programmatically adjust the size of the control to fit a
 ![web-dashboard-auto-size-viewer](../../images/web-dashboard-auto-size-viewer.png)
 
 ## Dashboard Title
-The Dashboard Title is located at the top of the dashboard surface and can contain static text, svg images, and command buttons. These elements are called toolbar items:
+The Dashboard Title is located at the top of the [dashboard surface](../ui-elements/dashboard-surface.md) and can contain static text, svg images, and command buttons. These elements are called toolbar items:
 
 ![wdd-dashboard-title](../../images/img126004.png)
 
