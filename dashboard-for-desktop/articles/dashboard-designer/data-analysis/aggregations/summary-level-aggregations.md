@@ -29,13 +29,13 @@ These functions can be used for all types of numeric fields. After creating such
 
 ## Custom Aggregate Functions
 
-Along with the predefined aggregations (like Min, Max, Sum, Avg), the Dashboard supports custom aggregation functions. A Custom Aggregate function appears in the [Expression Editor](../../../../../interface-elements-for-desktop\articles\expression-editor.md)'s categories if the function was registered in your application.
+Along with the predefined aggregations (like Min, Max, Sum, Avg), the Dashboard supports custom aggregation functions. A custom aggregate function appears in the [Expression Editor](../../../../../interface-elements-for-desktop\articles\expression-editor.md)'s categories if the function was registered in your application.
 
-The following image illustrates the custom _StringConcat_ function in the “Aggregate” function’s category:
+The following image illustrates the custom _StringConcat_ function in the **Aggregate** function’s category:
 
 ![win-custom-aggr-function-in-expression-editor](../../../../images/win-custom-aggr-function-in-expression-editor.png)
 
-Names of custom aggregate functions are stored in the _Custom Aggregate Names_ categories and can be used as arguments when you create [window calculations](../window-calculations/calculation-functions-reference.md) as _WindowAggregate_ and _RunningAggregate_.
+Names of custom aggregate functions are stored in the **Custom Aggregate Names** category and can be used as arguments when you create window calculations as _WindowAggregate_ and _RunningAggregate_.
 
 Refer to the following topic for detains: [Calculation Functions Reference](../window-calculations/calculation-functions-reference.md).
 
