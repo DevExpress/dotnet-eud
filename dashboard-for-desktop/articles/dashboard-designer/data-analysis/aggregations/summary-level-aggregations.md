@@ -25,7 +25,7 @@ In the Dashboard Designer, you can use the following set of predefined aggregate
 | StdDev(Value) | Returns an estimate of the standard deviation of a population where the sample is a subset of the entire population. |
 | StdDevp(Value) | Returns the standard deviation of a population where the population is the entire data to be summarized. |
 
-These functions can be used for all types of numeric fields. After creating such calculated fields, you can use them as measures contained in an OLAP cube.
+These functions can be used for all types of numeric fields. After creating such calculated fields, you can use them as measures in an OLAP cube.
 
 ## Custom Aggregate Functions
 
