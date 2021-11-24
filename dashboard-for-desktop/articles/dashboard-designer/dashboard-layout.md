@@ -27,7 +27,7 @@ This invokes the **Dashboard Layout Options** dialog that allows you to specify 
     The height or width of a dashboard surface is set in pixels.
 
 ## Dashboard Title
-The Dashboard Title is located at the top of the dashboard surface. It can contain text, images and command buttons.
+The Dashboard Title is at the top of the dashboard surface and can contain text, images, and command buttons.
 
 ![DashboardTitleArea](../../images/img19734.png)
 
