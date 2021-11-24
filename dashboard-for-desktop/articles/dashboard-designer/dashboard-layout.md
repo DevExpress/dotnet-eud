@@ -15,7 +15,7 @@ In the Ribbon menu, click the **Layout Options** button:
 
 ![|layout-options-button-in-ribbon](../../images/layout-options-button-ribbon.png)
 
-This invokes the **Dashboard Layout Options** dialog that allows you to specify the dashboard width and height:
+This invokes the **Dashboard Layout Options** dialog that allows you to specify the width and height of the dashboard:
 
 ![layout-options-dialog](../../images/layout-options-dialog.png)
 
