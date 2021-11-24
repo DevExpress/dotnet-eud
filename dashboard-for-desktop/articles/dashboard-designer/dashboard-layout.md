@@ -9,7 +9,7 @@ This topic describes the features related to the dashboard layout in the WinForm
 
 ## Dashboard Width and Height
 
-The control automatically stretches or shrinks content (dashboard items) in a dashboard to fit available screen space horizontally and vertically. You can adjust the layout options and specify exact content width and height.
+The control automatically stretches or shrinks content (dashboard items) in a dashboard to fit available screen space. You can adjust the layout options and specify the width and height of content.
 
 In the Ribbon menu, click the **Layout Options** button:
 
