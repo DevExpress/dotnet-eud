@@ -1,9 +1,9 @@
 ---
-title: HTML-Specific Export Options
+title: HTML Export Options
 author: Anna Gubareva
 legacyId: 115377
 ---
-# HTML-Specific Export Options
+# HTML Export Options
 Before [exporting a document](export-a-document.md) to HTML format, you can specify HTML-specific options in the dedicated **Export Options** panel.
 
 ![EUD_HTML5DV_HtmlExportOptions](../../../images/img121799.png)
@@ -21,6 +21,9 @@ Before [exporting a document](export-a-document.md) to HTML format, you can spec
 * **Page Range**
 	
 	Specifies a range of pages which will be included in the resulting file. To separate page numbers, use commas. To set page ranges, use hyphens.
+* **Rasterization Resolution**
+	
+	Specifies the image resolution for raster images.
 * **Title**
 	
 	Specifies the title of the created document.
