@@ -48,9 +48,9 @@ Use report parameters in the following cases:
 
     The following controls have internal collections of parameters. You can bind these internal parameters to report parameters.
 
-    * **[Chart](../use-report-elements/use-charts-and-pivot-grids/use-charts-in-reports.md)**
+    * **[Chart](../use-report-elements/use-charts.md)**
 
-	    [Filter chart data](../use-report-elements/use-charts-and-pivot-grids/use-charts-to-visualize-grouped-data.md) by parameters.
+	    [Filter chart data](../use-report-elements/use-charts/use-charts-to-visualize-grouped-data.md) by parameters.
 
     * **[Subreport](../use-report-elements/use-basic-report-controls/subreport.md)**
 

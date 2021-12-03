@@ -26,7 +26,8 @@ The following controls support this feature:
 * [Check Box](../use-report-elements/use-basic-report-controls/check-box.md)
 * [Page Info](../use-report-elements/use-basic-report-controls/page-info.md)
 * [Panel](../use-report-elements/use-basic-report-controls/panel.md)
-* [Pivot Grid](../use-report-elements/use-charts-and-pivot-grids.md)
+* [Cross Tab](../create-reports/cross-tab-reports.md)
+* Pivot Grid (deprecated)
 * [Table](../use-report-elements/use-tables.md)
 * [Table of Contents](../use-report-elements/use-basic-report-controls/table-of-contents.md)
 
