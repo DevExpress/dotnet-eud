@@ -38,10 +38,7 @@ This section contains tutorials that explain how to create different reports.
 
 ### [Cross-Tab Reports](create-reports/cross-tab-reports.md)
 
-![](../../images/cross-tab-report-preview.png)
-
-> [!Note]
-> See the [Use Charts and Pivot Grids](use-report-elements/use-charts-and-pivot-grids.md) documentation section for information on how to use Pivot Grids and Charts in your reports.
+![](../../images/eurd-web-cross-tab-report-result.png)
 
 ## Multi-Column Reports
 

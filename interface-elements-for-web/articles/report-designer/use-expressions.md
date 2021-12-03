@@ -38,7 +38,7 @@ The Expression Editor displays all the errors it finds in the specified expressi
 
 ## Filter Editor
 
-The Report Designer's [Filter Editor](report-designer-tools/filter-editor.md) allows you to specify filter criteria for a report or [Chart](use-report-elements/use-charts-and-pivot-grids.md)'s series.
+The Report Designer's [Filter Editor](report-designer-tools/filter-editor.md) allows you to specify filter criteria for a report.
 
  The Filter Editor provides a visual interface where you can use an unlimited number of conditions and combine them with logical operators to create filter criteria. You can also switch to the Advanced Mode and type a filter string.
 

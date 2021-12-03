@@ -7,7 +7,7 @@ author: Anna Vekhina
 
 ## Chart Designer Overview
 
-The **Chart Designer** allows you to quickly create and customize [charts](../use-report-elements/use-charts-and-pivot-grids.md) in the [End-User Report Designer](../../report-designer.md).
+The **Chart Designer** allows you to quickly create and customize [charts](../use-report-elements/use-charts.md) in the [End-User Report Designer](../../report-designer.md).
 
 ![](../../../images/eurd-web-chart-designer.png)
 
