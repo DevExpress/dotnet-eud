@@ -13,3 +13,4 @@ The Web Dashboard consists of the following visual elements:
 * [Dashboard Item Menu](ui-elements/dashboard-item-menu.md)
 * [Data Item Menu](ui-elements/data-item-menu.md)
 * [Dialogs and Wizards](ui-elements/dialogs-and-wizards.md)
+* [Designer Toolbar](ui-elements/designer-toolbar.md)

@@ -502,6 +502,8 @@
       href: articles/dashboard-designer/ui-elements/data-items-pane.md
     - name: Print Preview
       href: articles/dashboard-designer/ui-elements/print-preview.md
+    - name: Dashboard Surface
+      href: articles/dashboard-designer/ui-elements/dashboard-surface.md
 - name: Dashboard Viewer
   href: articles/dashboard-viewer.md
   items:
