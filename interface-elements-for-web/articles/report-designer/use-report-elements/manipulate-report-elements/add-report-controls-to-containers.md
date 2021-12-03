@@ -17,7 +17,7 @@ A [table cell](../use-tables.md) can also act as a container for other controls.
 ![](../../../../images/eurd-web-add-checkbox-to-tablecell.png)
 
 Both panel and table cell cannot contain the following report controls:
-* [Pivot Grid](../use-charts-and-pivot-grids.md)
+* [Cross Tab](../../create-reports/cross-tab-reports.md)
 * [Subreport](../use-basic-report-controls/subreport.md)
 * [Page Break](../use-basic-report-controls/page-break.md)
 * [Table of Contents](../use-basic-report-controls/table-of-contents.md)

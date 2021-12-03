@@ -23,7 +23,7 @@ The [Report Explorer](../../report-designer-tools/ui-panels/report-explorer.md) 
 ![](../../../../images/eurd-web-panel-structure-in-report-explorer.png)
 
 The panel cannot contain the following report controls:
-* [Pivot Grid](../use-charts-and-pivot-grids.md)
+* [Cross Tab](../../create-reports/cross-tab-reports.md)
 * [Subreport](../use-basic-report-controls/subreport.md)
 * [Page Break](../use-basic-report-controls/page-break.md)
 * [Table of Contents](../use-basic-report-controls/table-of-contents.md)

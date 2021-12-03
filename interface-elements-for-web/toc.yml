@@ -706,19 +706,17 @@
         href: articles/report-designer/use-report-elements/use-bar-codes/upc-e0.md
       - name: UPC-E1
         href: articles/report-designer/use-report-elements/use-bar-codes/upc-e1.md
-    - name: Use Charts and Pivot Grids
-      href: articles/report-designer/use-report-elements/use-charts-and-pivot-grids.md
+    - name: Use Charts
+      href: articles/report-designer/use-report-elements/use-charts.md
       items:
       - name: Use Charts in Reports
-        href: articles/report-designer/use-report-elements/use-charts-and-pivot-grids/use-charts-in-reports.md
+        href: articles/report-designer/use-report-elements/use-charts/use-charts-in-reports.md
       - name: Add a Chart (Set Up Series Manually)
-        href: articles/report-designer/use-report-elements/use-charts-and-pivot-grids/add-a-chart-set-up-series-manually.md
+        href: articles/report-designer/use-report-elements/use-charts/add-a-chart-set-up-series-manually.md
       - name: Add a Chart (Use a Series Template)
-        href: articles/report-designer/use-report-elements/use-charts-and-pivot-grids/add-a-chart-use-a-series-template.md
+        href: articles/report-designer/use-report-elements/use-charts/add-a-chart-use-a-series-template.md
       - name: Use Charts to Visualize Grouped Data
-        href: articles/report-designer/use-report-elements/use-charts-and-pivot-grids/use-charts-to-visualize-grouped-data.md
-      - name: Link a Chart and a Pivot Grid
-        href: articles/report-designer/use-report-elements/use-charts-and-pivot-grids/link-a-chart-and-a-pivot-grid.md
+        href: articles/report-designer/use-report-elements/use-charts/use-charts-to-visualize-grouped-data.md
     - name: Use Gauges and Sparklines
       href: articles/report-designer/use-report-elements/use-gauges-and-sparklines.md
       items:
