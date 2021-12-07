@@ -15,7 +15,7 @@ Specify export settings in the "Export Settings" window:
 | Specifies a format for an export document's pages.
 |-
 
-| Labndscape Orientation
+| Landscape Orientation
 | Specifies an export document's orientation.
 |-
 
