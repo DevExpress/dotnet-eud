@@ -17,6 +17,8 @@ The toolbar provides the following commands:
 | Delete Task | Deletes a task. |
 | Collapse Tasks  | Collapses all tasks. |
 | Expand Tasks | Expands all tasks. |
-| Zoom In | Zooms in on the chart. |
+| Zoom In | Zooms in the chart. |
 | Zoom Out | Zooms out the chart. |
-| Full Screen | Switches the Gantt to full screen. |
+| Full Screen | Switches the Gantt to full screen mode. |
+| Resource Manager | Invokes the **Resource Manager** dialog. |
+| Task Details | Invokes the **Task Details** dialog. |
