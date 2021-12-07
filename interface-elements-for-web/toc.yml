@@ -207,13 +207,17 @@
     href: articles/gantt/context-menu.md
   - name: Toolbar
     href: articles/gantt/toolbar.md
+  - name: Export to PDF
+    href: articles/gantt/export-to-pdf.md
+  - name: Work Time Rules
+    href: articles/gantt/work-time-rules.md
   - name: Data Editing
     items:
-    - name: Add, Edit and Delete Tasks
+    - name: Add, Edit, and Delete Tasks
       href: articles/gantt/data-editing/modify-tasks.md
     - name: Add and Delete Dependencies
       href: articles/gantt/data-editing/modify-dependencies.md
-    - name: Add, Edit and Delete Resources
+    - name: Add, Edit, and Delete Resources
       href: articles/gantt/data-editing/modify-resources.md
 - name: Grid
   href: articles/grid.md
