@@ -36,7 +36,7 @@ The sections below provide information about options these controls expose. You 
 * Changes made to a control's content in Print Preview does not effect the document's other parts (for example, summary results, grouping, sorting, bookmarks and other settings that were processed before the document was generated).
 * A control's **Can Grow** setting is ignored for editable fields. The edited area cannot exceed the control's original dimensions.
 * Multi-line values can only be entered when no mask is applied to an editable field.  
-* Values entered into editable fields are reset after the document is refreshed (for example, when you submit [report parameter](..\shape-report-data\use-report-parameters.md) values or expand/collapse data in a [drill-down report](create-drill-down-reports.md)).
+* Values entered into editable fields are reset after the document is refreshed (for example, when you submit [report parameter](..\use-report-parameters.md) values or expand/collapse data in a [drill-down report](create-drill-down-reports.md)).
 * It is not possible to edit content in bands if their **DrillDownControl** property is specified.
 * The entered values are not preserved in the Top Margin and Bottom Margin bands when the report is exported as a single file to the following formats:
 

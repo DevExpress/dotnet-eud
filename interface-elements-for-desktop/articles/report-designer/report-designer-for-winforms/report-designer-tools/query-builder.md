@@ -76,7 +76,7 @@ For each query parameter, the following properties are available.
 * **Name** - specifies the name used to refer a parameter.
 * **Type** - specifies the data type of the parameter's value.
 * **Expression** - determines whether the actual parameter value is static or generated dynamically.
-* **Value** - specifies the actual value of a query parameter. If the **Expression** option is enabled, the actual parameter value is produced dynamically by calculating an associated [expression](../use-expressions.md), which is particularly useful when you need to map the query parameter value to the value of a [report parameter](..\shape-report-data\use-report-parameters.md).
+* **Value** - specifies the actual value of a query parameter. If the **Expression** option is enabled, the actual parameter value is produced dynamically by calculating an associated [expression](../use-expressions.md), which is particularly useful when you need to map the query parameter value to the value of a [report parameter](..\use-report-parameters.md).
 
 The created parameters will be then available on the [Configure Query Parameters](data-source-wizard/connect-to-a-database/configure-query-parameters.md) wizard page.
 
@@ -89,7 +89,7 @@ To specify filter criteria, click the **Filter...** button in the Query Builder.
 
 * **Filter Tab**
 	
-	The editor contains the **Filter** tab allowing you to specify filter conditions for resulting data. Filter criteria can be assigned [query parameters](data-source-wizard/connect-to-a-database/configure-query-parameters.md) or bound to [report parameters](..\shape-report-data\use-report-parameters.md).
+	The editor contains the **Filter** tab allowing you to specify filter conditions for resulting data. Filter criteria can be assigned [query parameters](data-source-wizard/connect-to-a-database/configure-query-parameters.md) or bound to [report parameters](..\use-report-parameters.md).
 * **Group Filter Tab**
 	
 	The **Group Filter** tab allows you to specify filter conditions for grouped and aggregated data. If data is not grouped, the second tab is disabled.

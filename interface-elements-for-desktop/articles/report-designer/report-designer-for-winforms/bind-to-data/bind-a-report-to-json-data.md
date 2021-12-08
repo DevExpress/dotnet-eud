@@ -49,7 +49,7 @@ This topic describes how to bind a report to JSON data.
 
     ![JSON-specify-parameter-expression](../../../../images/eurd-win-JSON-path-parameter-specify-expression.png)
 
-    - Expressions can include [report parameters](../shape-report-data/use-report-parameters.md). Select **New Report Parameter** from the **Value** property's drop-down list, configure the report parameter in the invoked **Report Parameter** dialog, and click **OK**.
+    - Expressions can include [report parameters](../use-report-parameters.md). Select **New Report Parameter** from the **Value** property's drop-down list, configure the report parameter in the invoked **Report Parameter** dialog, and click **OK**.
 
     ![JSON-add-report-parameter](../../../../images/eurd-win-JSON-add-report-parameter.png)
 

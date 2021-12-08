@@ -16,7 +16,7 @@ To create a calculated field, switch to the [Field List](../../report-designer-t
 
 ![](../../../../../images/eurd-win-calculated-field-eidt-expression.png)
 
-In the invoked **Expression Editor**, construct the required expression. You can use data fields, [report parameters](../use-report-parameters.md), predefined constants as well as various date-time, logical, math and string functions. See the next document section for more information about expression syntax.
+In the invoked **Expression Editor**, construct the required expression. You can use data fields, [report parameters](../../use-report-parameters.md), predefined constants as well as various date-time, logical, math and string functions. See the next document section for more information about expression syntax.
 
 ![](../../../../../images/eurd-win-calculated-field-expression.png)
 
