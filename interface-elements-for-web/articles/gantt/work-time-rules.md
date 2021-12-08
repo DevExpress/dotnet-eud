@@ -9,7 +9,7 @@ The Gantt displays work time as white sections and non-work time as grey section
 
 ![Daily Rule](~/interface-elements-for-web/images/Gantt/DailyRule.png)
 
-A daily work time is from 08:00 to 11:55 and from 13:00 to 17:00.
+The daily work hours are from 08:00 to 11:55 and 13:00 to 17:00.
 
 ## Weekly
 
@@ -21,7 +21,7 @@ Weekly workdays are from Monday to Friday and non-work days are Saturday and Sun
 
 ![Monthly Rule](~/interface-elements-for-web/images/Gantt/MonthlyRule.png)
 
-A day off is the first Friday of every month.
+The first Friday of every month is a day off.
 
 ## Yearly
 
