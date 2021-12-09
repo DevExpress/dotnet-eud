@@ -193,10 +193,10 @@ The following image illustrates the main report's **Preview**:
 
     Make the label1's font bold. Set up label appearance as shown in the table below:
 
-    | Control Name | Font | Font Size | Text Property's Expression |
-    | --- | --- | --- | --- |
-    | label1 | Segoe UI | 21 | *ProductName* |
-    | label2 | Segoe UI | 12 | *ProductPrice* |
+    | Control Name | Font | Font Size | Text Property's Expression | Text Format String |
+    | --- | --- | --- | --- | --- |
+    | label1 | Segoe UI | 21 | *ProductName* | - |
+    | label2 | Segoe UI | 12 | *ProductPrice* | {0:$0} |
 
     ![Bind Labels to Data](../../../../images/create-report-with-pdf-content-make-pdf-content-bind-labels-to-data.png)
 
