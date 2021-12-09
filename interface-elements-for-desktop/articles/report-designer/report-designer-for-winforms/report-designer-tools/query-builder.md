@@ -130,7 +130,7 @@ Click **Edit Parameters** to invoke the **Query Parameters** dialog.
 
 ![Query Builder: Click Edit Parameters Button](../../../../images/winforms-query-builder-click-edit-parameters-button.png)
 
-This dialog allows you to add, edit, and remove [query parameters](../bind-to-data/specify-query-parameters.md). The created parameters are available on the [Configure Query Parameters](connect-to-a-database/configure-query-parameters.md) wizard page.
+This dialog allows you to add, edit, and remove [query parameters](../bind-to-data/specify-query-parameters.md). The created parameters are available on the [Configure Query Parameters](data-source-wizard/connect-to-a-database/configure-query-parameters.md) wizard page.
 
 ![Query Builder: Query Parameters Dialog](../../../../images/winforms-query-builder-query-parameters-dialog.png)
 
