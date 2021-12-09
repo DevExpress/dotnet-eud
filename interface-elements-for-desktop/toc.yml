@@ -554,8 +554,8 @@
         href: articles/report-designer/report-designer-for-winforms/create-reports/interactive-e-forms.md
       - name: Reports with Cross-Band Content and Populated Empty Space
         href: articles/report-designer/report-designer-for-winforms/create-reports/reports-with-cross-band-content-and-populated-empty-space.md
-      - name: Reports with PDF Content
-        href: articles/report-designer/report-designer-for-winforms/create-reports/reports-with-pdf-content.md
+      - name: Reports Merged with PDF
+        href: articles/report-designer/report-designer-for-winforms/create-reports/reports-merged-with-pdf.md
       - name: Reports with Embedded PDF Content
         href: articles/report-designer/report-designer-for-winforms/create-reports/reports-with-embedded-pdf-content.md
       - name: Reports with a Visual PDF Signature

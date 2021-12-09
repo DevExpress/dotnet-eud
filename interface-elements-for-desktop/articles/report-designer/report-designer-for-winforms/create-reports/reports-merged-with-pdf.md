@@ -1,8 +1,8 @@
 ---
-title: Reports with PDF Content
+title: Reports Merged with PDF
 author: Sergey Andreev
 ---
-# Reports with PDF Content
+# Reports Merged with PDF
 
 This tutorial describes how to add PDF content to a report.
 
