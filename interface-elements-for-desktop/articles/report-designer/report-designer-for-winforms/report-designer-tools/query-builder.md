@@ -85,7 +85,7 @@ This list allows you to add new table columns to the query or shape selected tab
 * **Sorting Type** - Specifies whether to keep the initial data record order (**Unsorted**) or sort the records by the column (**Ascending** or **Descending**).
 	
 	> [!NOTE]
-	> When you bind a report to an XML file, the **Query Builder** does not support sorting by aggregate functions, the *DISTINCT* and *SELECT ALL* statements, and manual SQL editing.
+	> When you bind a report to an XML file, the **Query Builder** does not support sorting by aggregate functions and the *DISTINCT* and *SELECT ALL* statements.
 
 * Sort Order - Defines the sort order when data is sorted by multiple columns. For example, if column **A** has the sort order set to **1** and column **B** has it set to **2**, data records are first sorted by column **A** and then by column **B**. This option is available if you enable the **Sorting Type** option.
 
