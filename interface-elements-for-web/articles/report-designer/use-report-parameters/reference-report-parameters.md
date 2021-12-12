@@ -11,7 +11,7 @@ After you [create a report parameter](create-a-report-parameter.md), you can ref
 
 You can reference a report parameter in the report's filter string. This allows you to conditionally filter the report's data loaded from a data source.
 
-![reference parameter in report filter string](../../../../images/reference-parameter-in-report-filter-string.png)
+![reference parameter in report filter string](../../../images/reference-parameter-in-report-filter-string.png)
 
 > [!TIP]
 > When you use a report's filter string to filter data, all the data is loaded from a data source before the filter is applied. If you use a large dataset, filter data at the data source level. Refer to the following topic for more information: [Filter Data at the Data Source Level](../shape-report-data/filter-data/filter-data-at-the-data-source-level.md). 
@@ -20,19 +20,15 @@ You can reference a report parameter in the report's filter string. This allows 
 
 You can reference a report parameter in [expressions](../use-expressions.md) of [controls](../use-report-elements/use-basic-report-controls.md) and [calculated fields](../shape-report-data/use-calculated-fields/calculated-fields-overview.md).
 
-![Reference report parameters in expressions](../../../../images/report-parameters-reference-in-expression.png)
+![Reference report parameters in expressions](../../../images/report-parameters-reference-in-expression.png)
 
 This allows you to conditionally change the data a control or calculated field displays.
 
 You can use the [Field List](../report-designer-tools/ui-panels/field-list.md) to create an [Label](../use-report-elements/use-basic-report-controls/label.md) control that displays only a parameter value. To do this, drag the parameter from the **Field List** and drop it onto the report's band.
  
-![Drag and drop a report parameter](../../../../images/reference-parameter-drag-and-drop.png)
+![Drag and drop a report parameter](../../../images/reference-parameter-drag-and-drop.png)
 
-You can also use parameters in expressions to specify the visibility of a report's bands or conditionally change a control's appearance.
-
-![Reference parameters in the Expression Editor](../../../../images/parameters-expression-editor.png)
-
-Refer to the following topics for more information:
+You can also use parameters in expressions to specify the visibility of a report's bands or conditionally change a control's appearance. Refer to the following topics for more information:
 
 * [Conditionally Change a Band's Visibility](../shape-report-data/specify-conditions-for-report-elements/conditionally-change-a-bands-visibility-expression-bindings.md)
 * [Conditionally Change a Control's Appearance](../shape-report-data/specify-conditions-for-report-elements/conditionally-change-a-control-appearance.md)
@@ -41,11 +37,11 @@ Refer to the following topics for more information:
 
 You can use a report parameter in a control's **Text** property.
 
-![Reference a parameter in a control's Text property (Designer)](../../../../images/report-parameters-reference-in-text-property.png)
+![Reference a parameter in a control's Text property (Designer)](../../../images/report-parameters-reference-in-text-property.png)
 
 This allows you to create a placeholder (embedded field) that is substituted by a parameter value. 
 
-![Reference a parameter in a control's Text property (Preview)](../../../../images/report-parameters-reference-in-text-preview.png)
+![Reference a parameter in a control's Text property (Preview)](../../../images/report-parameters-reference-in-text-preview.png)
 
 Refer to the following topic for information on embedded fields: [Use Embedded Fields (Mail Merge)](../use-report-elements/use-embedded-fields-mail-merge.md).
 

@@ -7,7 +7,7 @@ author: Sergey Andreev
 
 You can create cascading parameters to filter a list of predefined parameter values based on values in another parameter.
 
-![Cascading parameters example](../../../../images/cascadingparametersresult124540.png)
+![Cascading parameters example](../../../images/eurd-web-cascading-parameter-result.png)
 
 > [!TIP]
 > Refer to the following topics for information on how to create a list of predefined parameter values:
@@ -18,42 +18,19 @@ Follow the steps below to create cascading parameters in the [Report Designer](.
 
 1. [Create a report parameter](create-a-report-parameter.md) you want to use to filter values of another parameter.
 
-    ![Create category parameter](../../../../images/create-category-cascading-parameter.png)
+    ![Create category parameter](../../../images/create-category-cascading-parameter.png)
 
 2. Create a report parameter whose values you want to filter. Click the **Filter String** property's ellipsis button in the **Add New Parameter** dialog and specify a filter string that references the parameter you created in the first step.
 
-    ![Create products parameter](../../../../images/create-product-cascading-parameter.png)
+    ![Create products parameter](../../../images/eurd-web-cascading-parameter-filterstring.png)
 
     > [!NOTE]
     > In a filter string for a parameter's look-up values, you can reference only those parameters that you created before the parameter whose look-up values you want to filter. You can use the **Report Parameters Editor** to change the order in which you created the parameters. To invoke the editor, right-click the **Parameters** node in the [Field List](../report-designer-tools/ui-panels/field-list.md) and select **Edit Parameters**.
 
 3. In the report's smart tag, click the **Filter String** property's ellipsis button. In the invoked **FilterString Editor**, specify an expression that uses both parameters to filter report data:
 
-    ![Create a filter condition for a report](../../../../images/filteringreportbytwoparameters124539.png)
+    ![Create a filter condition for a report](../../../images/eurd-web-cascading-parameter-report-filterstring.png)
 
 The following image illustrates cascading parameters where the **Product** parameter values are filtered by the selected **Category**.
 
-![Cascading parameters example](../../../../images/cascadingparametersresult124540.png)
-
-# Cascading Report Parameters (Old)
-
-You can filter the list of predefined parameter values by another parameter's value to create **cascading parameters**.
-
-> [!TIP]
-> See the following topics for information on how to specify a predefined list of parameter values:
-> * [Report Parameters with Predefined Static Values](report-parameters-with-predefined-static-values.md) - to directly specify the list of values.
-> * [Report Parameters with Predefined Dynamic Values](report-parameters-with-predefined-dynamic-values.md) - to specify the storage that contains the list of values.
-
-Follow the steps below to filter the list of parameter values by another parameter's value.
-
-1. Click the **Filter String** property's ellipsis button in the **Add Parameter** dialog and specify a filter string that refers to another parameter.
-
-    ![Specify Filter String](../../../../images/eurd-web-cascading-parameter-filterstring.png)
-
-1. In the report's smart tag, click the **Filter String** property's ellipsis button. In the invoked **Filter Editor**, specify an expression that uses both parameters:
-
-    ![Specify Report Filter String](../../../../images/eurd-web-cascading-parameter-report-filterstring.png)
-
-The following image illustrates cascading parameters where the **Product** parameter values are filtered by the selected **Category**.
-
-![Report Result](../../../../images/eurd-web-cascading-parameter-result.png)
+![Cascading parameters example](../../../images/eurd-web-cascading-parameter-result.png)
