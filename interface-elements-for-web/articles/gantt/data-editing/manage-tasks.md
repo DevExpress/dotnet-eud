@@ -56,7 +56,7 @@ In the "Task Details" dialog, click OK to save changes.
 
 ## Remove a Task
 
-To remove a task, right-click a task and select the 'Delete Task' [context menu](~/interface-elements-for-web/articles/gantt/context-menu.md) item or select the task and click the appropriate [toolbar](~/interface-elements-for-web/articles/gantt/toolbar.md) item.
+To remove a task, right-click a task and select the 'Delete Task' [context menu](~/interface-elements-for-web/articles/gantt/context-menu.md) item or select a task and click the appropriate [toolbar](~/interface-elements-for-web/articles/gantt/toolbar.md) item.
 
 ![Remove a Task](~/interface-elements-for-web/images/Gantt/delete-task.png)
 
