@@ -45,7 +45,7 @@ This topic describes how to bind a report to JSON data.
 
     You can enable the new parameter's **Expression** property and [use expressions](../use-expressions.md) to set path parameter and query parameter values.
 
-    - Select **Expression Editor** from the Value property's drop-down list, specify the expression in the invoked [Expression Editor](../use-expressions.md#expression-editor), and click **OK**.
+    - Select **Expression Editor** from the Value property's drop-down list, specify the expression in the invoked [Expression Editor](../use-expressions/expressions-overview.md#expression-editor), and click **OK**.
 
     ![JSON-specify-parameter-expression](../../../../images/eurd-win-JSON-path-parameter-specify-expression.png)
 

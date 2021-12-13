@@ -8,4 +8,7 @@ The **Dashboard Surface** is a rectangular area that displays the dashboard that
 
 ![wdd-dashboard-surface](../../../images/img125804.png)
 
-You can customize a [dashboard items layout](../dashboard-layout/dashboard-items-layout.md) using drag-and-drop operations, and specify dashboard item settings using its [dashboard item menu](dashboard-item-menu.md).
+You can configure a dashboard layout in the UI:
+
+* [Dashboard Items Layout](../dashboard-layout/dashboard-items-layout.md) 
+* [Dashboard Layout](../dashboard-layout.md)

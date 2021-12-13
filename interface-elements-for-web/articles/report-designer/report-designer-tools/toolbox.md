@@ -28,9 +28,9 @@ The following controls are connected to data individually, without accessing a r
 
 
 
-| ![](../../../images/eurd-web-toolbox-chart.png) | ![](../../../images/eurd-web-toolbox-pivot-grid.png) | ![](../../../images/eurd-web-toolbox-sparkline.png) |
+| ![](../../../images/eurd-web-toolbox-chart.png) | ![](../../../images/eurd-web-toolbox-cross-tab.png) | ![](../../../images/eurd-web-toolbox-sparkline.png) |
 | ------------------------------------------------------------- | ------------------------------------------------------------------ | -------------------------------------------------------------------- |
-| [Chart](..\use-report-elements\use-charts-and-pivot-grids.md) | [Pivot Grid](..\use-report-elements\use-charts-and-pivot-grids.md) | [Sparkline](..\use-report-elements\use-gauges-and-sparklines\add-sparklines-to-a-report.md) |
+| [Chart](..\use-report-elements\use-charts.md) | [Cross Tab](..\create-reports\cross-tab-reports.md) | [Sparkline](..\use-report-elements\use-gauges-and-sparklines\add-sparklines-to-a-report.md) |
 
 
 

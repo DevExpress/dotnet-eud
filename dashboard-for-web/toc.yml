@@ -346,6 +346,8 @@
       href: articles/web-dashboard-designer-mode/ui-elements/dashboard-item-menu.md
     - name: Data Item Menu
       href: articles/web-dashboard-designer-mode/ui-elements/data-item-menu.md
+    - name: Designer Toolbar
+      href: articles/web-dashboard-designer-mode/ui-elements/designer-toolbar.md
     - name: Dialogs and Wizards
       href: articles/web-dashboard-designer-mode/ui-elements/dialogs-and-wizards.md 
       items: 

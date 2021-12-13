@@ -4,19 +4,19 @@ author: Anna Vekhina
 ---
 # Cross-Tab Reports
 
-A cross-tab report displays complex multi-dimensional data, such as summary statistics, surveys, and market research information. This report uses a Pivot Grid control that calculates automatic summaries and grand totals across grouped rows and columns.
+A cross-tab report displays complex multi-dimensional data, such as summary statistics, surveys, and market research information. This report uses a Cross Tab control that calculates automatic summaries and grand totals across grouped rows and columns.
 
 ![](../../../images/eurd-web-cross-tab-report-result.png)
 
-## Add a Pivot Grid and Bind It to Data
+## Add a Cross Tab Control and Bind to Data
 
 1. [Create a new report](../add-new-reports.md) or [open an existing one](../open-reports.md).
 
-2. Drop the **Pivot Grid** control from the [Toolbox](../report-designer-tools/toolbox.md) onto the [Detail band](../introduction-to-banded-reports.md).
+2. Drop the **Cross Tab** control from the [Toolbox](../report-designer-tools/toolbox.md) onto the [Detail band](../introduction-to-banded-reports.md).
 
-    ![](../../../images/eurd-web-add-pivot-grid-to-report.png)
+    ![](../../../images/eurd-web-add-cross-tab-to-report.png)
 
-    You cannot place a Pivot Grid in another report control (for example, [Table Cell](../use-report-elements/use-tables.md) or [Panel](../use-report-elements/use-basic-report-controls/panel.md)) because its width cannot be determined at design time.
+    You cannot place a Cross Tab in another report control ([Table Cell](../use-report-elements/use-tables.md) or [Panel](../use-report-elements/use-basic-report-controls/panel.md)).
 
 3. Invoke the designer [menu](../report-designer-tools/menu.md) and click **Add Data Source...**.
 
@@ -24,49 +24,102 @@ A cross-tab report displays complex multi-dimensional data, such as summary stat
    
    Navigate through the invoked [Data Source Wizard](../report-designer-tools/data-source-wizard.md)'s pages to set up the data source. See the [Bind to Data](../bind-to-data.md) section for more information. 
 
-3. After the data source is created, you can specify the Pivot Grid's **Data Source** and **Data Member** properties. Expand the **Actions** category and to bind the Pivot Grid to data.
+4. Select the entire Cross Tab control. For this, click the designer surface outside the control and drag the mouse to the control until the entire control is selected. 
 
-    ![](../../../images/eurd-web-cross-tab-pivot-grid-bind-to-data-source.png)
+    ![](../../../images/eurd-web-select-cross-tab-control.gif)
+
+5. Bind the Cross Tab control to the data source. In the [Properties Panel](../report-designer-tools/ui-panels/properties-panel.md) expand the **CROSS TAB TASKS** section and specify the **Data Source** and **Data Member** properties.
+
+    ![](../../../images/eurd-web-cross-tab-bind-to-data-source.png)
 
     > [!NOTE]
-    > Ensure that a report's **Data Source** property is not set if you place the Pivot Grid in the Detail band. Otherwise, the Pivot Grid data is printed as many times as there are rows in the report data source.
+    > Ensure that a report's **Data Source** property is not set if you place the Cross Tab in the Detail band. Otherwise, the Cross Tab data is printed as many times as there are rows in the report data source.
 
 
-## Define the Pivot Grid's Content
+## Define Cross Tab Fields
 
-1. To add a field to the particular grid area, expand the **Actions** category and click one of the following buttons.
+1. In the **Properties Panel**, expand the **DATA** section and click **plus** in the **ROW FIELDS** section to add a Row Field. Select the field name from the drop-down list:
 
-    | Icon | Description |
-    |---|---|
-    | ![](../../../images/eurd-web-cross-tab-add-filter-header.png) | Adds a field to the **Filter Header** area. This field is available for further customizations. |
-    | ![](../../../images/eurd-web-cross-tab-add-data-header.png) | Adds a field to the **Data Header** area. The summaries will be calculated for all the cells, each cell is identified by a specific column and row. |
-    | ![](../../../images/eurd-web-cross-tab-add-column-header.png) | Adds a field to the **Column Header** area. This field's values will represent column headers. |
-    | ![](../../../images/eurd-web-cross-tab-add-row-header.png) | Adds a field to the **Row Header** area. This field's values will represent row headers.|
+    ![](../../../images/eurd-web-cross-tab-specify-row.png)
 
-    Use these buttons to define the Pivot Grid's layout.
+    You can repeat these steps to add another row field.
 
-    ![](../../../images/eurd-web-cross-tab-pivot-grid-layout.png)
+2. In the **Properties Panel**, expand the **DATA** section and click **plus** in the **COLUMN FIELDS** section to add a Column Field. Select the field from the drop-down list:
 
-2. To adjust a Pivot Grid field, select the required grid field on the design surface, switch to the **Properties panel** and expand the **Actions** category. Specify the **Data Column Name** property to bind a grid field to a data source field.
+    ![](../../../images/eurd-web-cross-tab-specify-column.png)
 
-    ![](../../../images/eurd-web-cross-tab-pivot-grid-content.png)
-
-    You can also specify the field position, using the **Area** property or change the order of fields within their area, specifying the **Area Index** property. If required, it is possible to customize many other properties for the Pivot Grid and its fields.
-
-## Adjust the Pivot Grid's Layout
-
-Set the report's **Vertical Content Splitting** property to **Smart** to split the Pivot Grid along the column borders if it does not fit the report's page in Print Preview.
-
-![](../../../images/eurd-web-cross-tab-vertical-content-splitting.png)
+    You can repeat these steps to add another column field.
 
 
-## Specify the Pivot Grid's Print Options
-Use the **Options** category's **Print Options** section to specify print options and define which Pivot Grid elements are printed.
+3. In the **Properties Panel**, expand the **DATA** section and click **plus** in the **DATA FIELDS** section to add a Data Field. Select the field from the drop-down list:
 
-* Set the **Print Data Headers** property to **No** to prevent data fields' headers from being printed.
+    ![](../../../images/eurd-web-cross-tab-specify-data.png)
 
-* Enable the **Print Row Area On Every Page** property to repeat row headers on each document page when the Pivot Grid's layout is divided horizontally across several pages.
 
-![](../../../images/eurd-web-cross-tab-print-options.png)
+The resulting cross-tab control looks as follows:
 
-Switch to [Print Preview](../preview-print-and-export-reports.md) to see the resulting report.
+![](../../../images/eurd-web-cross-tab-fields-defined.png)
+
+
+## Specify Group Settings
+
+Select the Cross Tab cell bound to the `OrderDate` field and click its smart tag. Set the **GroupInterval** property to `DateQuarter` to group data by quarters.
+
+![](../../../images/eurd-web-cross-tab-group-quarter.png)
+
+Switch to the **Report Viewer** to preview the result:
+
+![](../../../images/eurd-web-cross-tab-preview-group-quarter.png)
+
+## Format Data
+
+1. Format the currency data. Hold down CTRL, and select the following cells:
+
+    - the cell bound to the `ExtendedPrice` field
+    - the cells that display column and row totals
+    - the cells that display column and row grand totals
+
+    ![](../../../images/eurd-web-cross-tab-select-currency-data-cells.png)
+
+    Switch to the Properties window and set the `TextFormatString` property to **{0:c}**.
+
+    ![](../../../images/eurd-web-cross-tab-format-currency-data-cells.png)
+
+2. Select the cell bound to the `OrderDate` field:
+
+   ![](../../../images/eurd-web-cross-tab-select-order-date-cell.png)
+
+   Set the **Text Format String** option to `Quarter {0}`.
+
+   ![](../../../images/eurd-web-cross-tab-format-order-date-cell.png)
+
+Switch to the Report Viewer to observe the result:
+
+![](../../../images/eurd-web-cross-tab-format-data-result.png)
+
+
+## Customize Appearance
+
+1. Select the entire Cross Tab control, switch to the Properties window, and expand the **STYLES** section. Expand the **GENERAL STYLE** section and set the Border Color to 160, 160, 160. This value applies to all Cross Tab cells.
+
+    ![](../../../images/eurd-web-cross-tab-styles.png)
+
+2. Expand sections for the **HEADER AREA**, **DATA AREA** and **TOTAL AREA** styles and adjust the appearance as your needs dictate.
+
+## Adjust the Content Size
+
+Select the column bound to the **FullName** field and set the `ColumnAutoWidthMode` property to **ShrinkAndGrow**. The column width varies depending on the content.
+
+![Set Column Auto Width Property](../../../images/eurd-web-cross-tab-report-column-auto-width-mode.png)
+
+## Adjust the Report Layout
+
+Specify the **Landscape** page orientation and set the **Vertical Content Splitting** option to `Smart` to prevent content from being split across pages.
+
+![Adjust the Layout](../../../images/eurd-web-cross-tab-report-adjust-layout.png)
+
+## Observe the Result
+
+Switch to the **Report Viewer**. The resulting report is shown below:
+
+![Resulting Report](../../../images/eurd-web-cross-tab-report-final-result.png)

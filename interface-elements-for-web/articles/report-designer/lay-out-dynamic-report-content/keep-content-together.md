@@ -17,6 +17,6 @@ Enabling this property for a single control makes the same band's controls behav
 Use the band's **Keep Together** property to enable this feature for all controls within a specific band.
 
 > [!NOTE]
-> This feature is not available for the [Chart](../use-report-elements/use-charts-and-pivot-grids/use-charts-in-reports.md), [Sparkline](../use-report-elements/use-gauges-and-sparklines/add-sparklines-to-a-report.md) and [Subreport](../use-report-elements/use-basic-report-controls/subreport.md) controls.
+> This feature is not available for the [Chart](../use-report-elements/use-charts.md), [Sparkline](../use-report-elements/use-gauges-and-sparklines/add-sparklines-to-a-report.md) and [Subreport](../use-report-elements/use-basic-report-controls/subreport.md) controls.
 
 In a master-detail report, you can print the detail band on the same page as the detail report band using the detail band's **Keep Together with Detail Reports** property.

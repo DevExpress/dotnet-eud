@@ -61,7 +61,7 @@ In the advanced mode, the Filter Editor allows you to type a filter string manua
 
 ![](../../../images/eurd-web-filter-editor-advanced-mode.png)
 
-Refer to the [Expression Constants, Operators, and Functions](../use-expressions/expression-syntax.md) topic for the list of available operators and functions and for details on their usage.
+Refer to the [Expression Language](../use-expressions/expression-language.md) topic for the list of available operators and functions and for details on their usage.
 
 This editor supports intelligent code completion (suggesting functions and available data columns as you type).
 

@@ -39,7 +39,7 @@ This topic describes how to bind a report to JSON data.
 
     You can click the parameter's ![](../../../images/eurd-web-f-button.png) button and use an expression to set the parameter value.
 
-    - Click the **Value** property's ellipsis button. Specify the expression in the invoked [Expression Editor](../use-expressions.md#expression-editor) and click **OK**.
+    - Click the **Value** property's ellipsis button. Specify the expression in the invoked [Expression Editor](../use-expressions/expressions-overview.md#expression-editor) and click **OK**.
 
         ![](../../../images/eurd-web-data-source-wizard-json-http-headers-path-parameter-expression.png)
 

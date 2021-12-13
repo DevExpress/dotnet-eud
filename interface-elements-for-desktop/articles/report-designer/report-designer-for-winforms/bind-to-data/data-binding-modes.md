@@ -24,12 +24,12 @@ The Report Designer works in one of the following data binding modes:
 
 	![property-grid-expression-advanced-tab](../../../../images/eurd-win-binding-modes-expressions-advanced.png)
 
-    The **Expression Editor** allows you to use event argument values in the constructed expressions. Event arguments are available in the [Variables](../use-expressions/expression-syntax.md) section.
+    The **Expression Editor** allows you to use event argument values in the constructed expressions. Event arguments are available in the [Variables](../use-expressions/expression-language.md) section.
 
     In the **BeforePrint** event, you can use data fields from all queries in the data source.
 
     ![Expression Editor for the BeforePrint event](../../../../images/eurd-win-binding-modes-data-fields.png)
 
-    In the **PrintOnPage** event, data source fields are not available because data was fetched when this event occurs. You can use the event arguments that are available in the [Variables](../use-expressions/expression-syntax.md) section.
+    In the **PrintOnPage** event, data source fields are not available because data was fetched when this event occurs. You can use the event arguments that are available in the [Variables](../use-expressions/expression-language.md) section.
 
     ![Expression Editor for the PrintOnPage event](../../../../images/eurd-win-binding-modes-event-arguments.png)

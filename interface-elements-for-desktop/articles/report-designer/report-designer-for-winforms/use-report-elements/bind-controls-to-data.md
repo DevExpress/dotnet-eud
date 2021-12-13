@@ -45,7 +45,7 @@ Click a control's smart tag, expand the **Expression** drop-down list and select
 
 ![](../../../../images/eurd-win-label-bind-to-data-field.png)
 
-You can also click the **Expression** option's ellipsis button to invoke the **Expression Editor**. This editor allows you to construct a complex binding expression with two or more data fields and various functions. See [Expression Syntax](../use-expressions/expression-syntax.md) for more information.
+You can also click the **Expression** option's ellipsis button to invoke the **Expression Editor**. This editor allows you to construct a complex binding expression with two or more data fields and various functions. See [Expression Language](../use-expressions/expression-language.md) for more information.
  
 ![](../../../../images/eurd-win-label-expression-binding.png)
 
