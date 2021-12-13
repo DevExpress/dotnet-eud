@@ -70,7 +70,7 @@ You can access the **Parameters** property in the Cross Tab's smart tag or in th
 
 ![](../../../../../images/eurd-win-cross-tab-parameters-property.png)
 
-Click this property's ellipsis button and add parameters in the invoked Collection Editor. You can bind a Cross Tab parameter to a [report parameter](../../shape-report-data/use-report-parameters.md) or to any data field available in a report.
+Click this property's ellipsis button and add parameters in the invoked Collection Editor. You can bind a Cross Tab parameter to a [report parameter](../../use-report-parameters.md) or to any data field available in a report.
 
 ![](../../../../../images/eurd-win-cross-tab-create-internal-parameter.png)
 

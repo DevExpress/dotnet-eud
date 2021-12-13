@@ -59,7 +59,7 @@ You can add interactive elements to your report to customize it in Print Preview
 > [!Note]
 > See the [Provide Interactivity](provide-interactivity.md) section for information on how to provide drill-down and drill-through functionality in your reports.
 > 
-> See [Use Report Parameters](shape-report-data/use-report-parameters.md) for instructions on how to submit parameter values in Print Preview to customize your reports.
+> See [Use Report Parameters](use-report-parameters.md) for instructions on how to submit parameter values in Print Preview to customize your reports.
 
 ## Layout Features
 

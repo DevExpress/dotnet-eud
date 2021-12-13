@@ -8,7 +8,7 @@ The Report Designer works in one of the following data binding modes:
 
 * **Expressions** is the default binding mode.
 
-    This mode enables you to specify complex [expressions](../use-expressions.md) that include two or more data fields, [report parameters](../shape-report-data/use-report-parameters.md), or [functions](../use-expressions/expression-syntax.md). You can also use expressions to [calculate summaries](../shape-report-data/calculate-summaries/calculate-a-summary.md) of any complexity or [conditionally shape your data](../shape-report-data/specify-conditions-for-report-elements.md).
+    This mode enables you to specify complex [expressions](../use-expressions.md) that include two or more data fields, [report parameters](../use-report-parameters.md), or [functions](../use-expressions/expression-syntax.md). You can also use expressions to [calculate summaries](../shape-report-data/calculate-summaries/calculate-a-summary.md) of any complexity or [conditionally shape your data](../shape-report-data/specify-conditions-for-report-elements.md).
 
     Click a property's marker to see whether the invoked context menu has the **PropertyName Expression** item that invokes the **Expression Editor**.
 

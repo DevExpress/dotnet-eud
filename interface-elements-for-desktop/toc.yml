@@ -752,6 +752,26 @@
           href: articles/report-designer/report-designer-for-winforms/use-report-elements/draw-lines-and-shapes/draw-shapes.md
         - name: Draw Cross-Band Lines and Boxes
           href: articles/report-designer/report-designer-for-winforms/use-report-elements/draw-lines-and-shapes/draw-cross-band-lines-and-boxes.md          
+    - name: Use Report Parameters
+      href: articles/report-designer/report-designer-for-winforms/use-report-parameters.md
+      items:
+      - name: Create a Report Parameter
+        href: articles/report-designer/report-designer-for-winforms/use-report-parameters/create-a-report-parameter.md
+        items:
+        - name: Report Parameters with Predefined Static Values
+          href: articles/report-designer/report-designer-for-winforms/use-report-parameters/report-parameters-with-predefined-static-values.md
+        - name: Report Parameters with Predefined Dynamic Values
+          href: articles/report-designer/report-designer-for-winforms/use-report-parameters/report-parameters-with-predefined-dynamic-values.md
+        - name: Multi-Value Report Parameters
+          href: articles/report-designer/report-designer-for-winforms/use-report-parameters/multi-value-report-parameters.md
+        - name: Cascading Report Parameters
+          href: articles/report-designer/report-designer-for-winforms/use-report-parameters/cascading-report-parameters.md
+        - name: Date Range Report Parameters
+          href: articles/report-designer/report-designer-for-winforms/use-report-parameters/date-range-report-parameters.md
+      - name: Reference Report Parameters
+        href: articles/report-designer/report-designer-for-winforms/use-report-parameters/reference-report-parameters.md
+      - name: The Parameters Panel
+        href: articles/report-designer/report-designer-for-winforms/use-report-parameters/parameters-panel.md
     - name: Shape Report Data
       href: articles/report-designer/report-designer-for-winforms/shape-report-data.md
       items:
@@ -819,21 +839,6 @@
           href: articles/report-designer/report-designer-for-winforms/shape-report-data/use-calculated-fields/calculated-fields-overview.md
         - name: Calculate an Aggregate Function
           href: articles/report-designer/report-designer-for-winforms/shape-report-data/use-calculated-fields/calculate-an-aggregate-function.md
-      - name: Use Report Parameters
-        href: articles/report-designer/report-designer-for-winforms/shape-report-data/use-report-parameters.md
-        items:
-        - name: Create a Report Parameter
-          href: articles/report-designer/report-designer-for-winforms/shape-report-data/use-report-parameters/create-a-report-parameter.md
-        - name: Report Parameters with Predefined Static Values
-          href: articles/report-designer/report-designer-for-winforms/shape-report-data/use-report-parameters/report-parameters-with-predefined-static-values.md
-        - name: Report Parameters with Predefined Dynamic Values
-          href: articles/report-designer/report-designer-for-winforms/shape-report-data/use-report-parameters/report-parameters-with-predefined-dynamic-values.md
-        - name: Multi-Value Report Parameters
-          href: articles/report-designer/report-designer-for-winforms/shape-report-data/use-report-parameters/multi-value-report-parameters.md
-        - name: Cascading Report Parameters
-          href: articles/report-designer/report-designer-for-winforms/shape-report-data/use-report-parameters/cascading-report-parameters.md
-        - name: Date Range Report Parameters
-          href: articles/report-designer/report-designer-for-winforms/shape-report-data/use-report-parameters/date-range-report-parameters.md
     - name: Lay out Dynamic Report Content
       href: articles/report-designer/report-designer-for-winforms/lay-out-dynamic-report-content.md
       items:

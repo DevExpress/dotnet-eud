@@ -4,7 +4,7 @@ author: Anna Vekhina
 ---
 # Hide Table Cells
 
-You can hide a specific table cell conditionally, for instance, based on a [report parameter](../../shape-report-data/use-report-parameters.md) value.
+You can hide a specific table cell conditionally, for instance, based on a [report parameter](../../use-report-parameters.md) value.
 
 Select the **Parameters** node in the [Field List](../../report-designer-tools/ui-panels/field-list.md) and click the **Add parameter** button.
 

@@ -12,7 +12,7 @@ A parameter value can be specified in one of the following ways.
 * Parameters can be assigned static values (according to the specified parameter type), which is illustrated in the following image.
 	
 	![eurd-win-data-source-wizard-multi-query-configure-parameters-static-values-date-time](../../../../../../images/eurd-win-data-source-wizard-multi-query-configure-parameters-static-values-date-time.png)
-* Alternatively, you can link a query or stored procedure parameter to a [report parameter](../../../shape-report-data/use-report-parameters.md), whose value can be requested each time before the report document is to be previewed or exported. To do this, enable the **Expression** check box and select an existing report parameter of the corresponding type or create a new one.
+* Alternatively, you can link a query or stored procedure parameter to a [report parameter](../../../use-report-parameters.md), whose value can be requested each time before the report document is to be previewed or exported. To do this, enable the **Expression** check box and select an existing report parameter of the corresponding type or create a new one.
 	
 	![eurd-win-report-wizard-page-multi-query-parameters](../../../../../../images/eurd-win-report-wizard-page-multi-query-parameters.png)
 * Another option is to calculate a parameter value based on an expression. To do this, enable the **Expression** check box and run the **Expression Editor**.

@@ -27,7 +27,7 @@ When enabling content editing in your report, consider the following.
 * A control's **Can Grow** setting is ignored for editing fields.
 	
 	Multi-line values can only be entered when no mask is applied to an editing field. The editing area of a field cannot exceed the original dimensions of a control.
-* Values entered into editing fields are reset back to their defaults after refreshing the document (e.g., when submitting [report parameter](..\shape-report-data\use-report-parameters.md) values and expanding or collapsing data in a [drill-down report](create-drill-down-reports.md)).
+* Values entered into editing fields are reset back to their defaults after refreshing the document (e.g., when submitting [report parameter](..\use-report-parameters.md) values and expanding or collapsing data in a [drill-down report](create-drill-down-reports.md)).
 * It is impossible to edit content of a control that has its **Drill-Down Control** property specified.
 * Field values entered in Print Preview for controls placed onto the Top Margin and Bottom Margin bands are not preserved when the report is exported to TXT or CSV, as well as the following formats as a single file.
 	

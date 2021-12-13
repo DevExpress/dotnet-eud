@@ -11,7 +11,7 @@ You can apply mail merge to the control's **Text** property only. Double-click t
 
 ![](../../../images/eurd-web-mail-merge-insert-data-fields.png)
 
-You can embed a [parameter](../shape-report-data/use-report-parameters.md)'s value into a control's content using the **?ParameterName** syntax.
+You can embed a [parameter](../use-report-parameters.md)'s value into a control's content using the **?ParameterName** syntax.
 
 ![](../../../images/eurd-web-mail-merge-insert-parameters.png)
 

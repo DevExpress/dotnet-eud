@@ -58,6 +58,6 @@ In addition, the Field List can help you solve the following tasks:
 * Add [calculated fields](../../shape-report-data/use-calculated-fields/calculated-fields-overview.md) to data columns for performing various calculations in a report.
 	
 	![design-time-field-list-add-calculated-field](../../../../../images/eurd-win-field-list-add-calculated-field.png)
-* Manage the collection of [report parameters](../../shape-report-data/use-report-parameters.md).
+* Manage the collection of [report parameters](../../use-report-parameters.md).
 	
 	![design-time-field-list-add-report-parameter](../../../../../images/eurd-winield-list-add-report-parameter.png)

@@ -51,7 +51,7 @@ The following properties are available for each query parameter:
 * **Name** - specifies the parameter's name.
 * **Type** - specifies the parameter value's data type.
 * **Expression** - determines whether the actual parameter value is static or generated dynamically.
-* **Value** - determines the query parameter's actual value. If the **Expression** option is enabled, the actual parameter value is produced dynamically by calculating an associated expression. This is useful when you map the query parameter value to the [report parameter](../shape-report-data/use-report-parameters.md) value. Refer to the next document section for more information.
+* **Value** - determines the query parameter's actual value. If the **Expression** option is enabled, the actual parameter value is produced dynamically by calculating an associated expression. This is useful when you map the query parameter value to the [report parameter](../use-report-parameters.md) value. Refer to the next document section for more information.
 
 ## <a name="providevalue"></a>Provide the Query Parameter Value
 Below, you can see how a value is specified for a query parameter within the Data Source Wizard's page. You can also specify query parameter values in the Report Wizard or the Query Parameters dialog in the same way.
@@ -89,12 +89,12 @@ Below, you can see how a value is specified for a query parameter within the Dat
 		![](../../../../images/eurd-win-query-parameters-existing-report-parameter.png)
 
 ## <a name="PassMultiValueParameterValueToQuery"></a>Pass a Multi-Value Parameter Value to a Query
-You can map [multi-value parameters](../shape-report-data/use-report-parameters/multi-value-report-parameters.md) to query parameters. For instance, the following query selects the orders whose IDs can be found within the values the _\@OrderID_ query parameter provides.
+You can map [multi-value parameters](../use-report-parameters/multi-value-report-parameters.md) to query parameters. For instance, the following query selects the orders whose IDs can be found within the values the _\@OrderID_ query parameter provides.
 
 ![](../../../../images/eurd-win-query-parameters-map-to-multi-value-parameter.png)
 
 ## <a name="multivalueparameterinstoredprocedure"></a>Pass a Multi-Value Report Parameter Value to a Stored Procedure
-You cannot pass a [multi-value parameter](../shape-report-data/use-report-parameters/multi-value-report-parameters.md) value to a stored procedure directly. Use one of the following expression functions:
+You cannot pass a [multi-value parameter](../use-report-parameters/multi-value-report-parameters.md) value to a stored procedure directly. Use one of the following expression functions:
 
 * Use the [Join() expression function](../use-expressions/expression-syntax.md) to convert the array of parameter values to a string if you use MS SQL Server, MySQL or Oracle database systems.
 

@@ -43,7 +43,7 @@ This topic describes how to bind a report to JSON data.
 
         ![](../../../images/eurd-web-data-source-wizard-json-http-headers-path-parameter-expression.png)
 
-    - Expressions can include [report parameters](../shape-report-data/use-report-parameters.md). In the **Expression Editor**, expand **Parameters**, select a report parameter to which you want to bind the path parameter, query parameter, or header parameter, and click **OK**.
+    - Expressions can include [report parameters](../use-report-parameters.md). In the **Expression Editor**, expand **Parameters**, select a report parameter to which you want to bind the path parameter, query parameter, or header parameter, and click **OK**.
 
         ![](../../../images/eurd-web-data-source-wizard-json-http-headers-path-parameter-report-parameter.png)
 
