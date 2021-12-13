@@ -43,7 +43,7 @@ Select the **PDF Content** control, navigate to the [Properties panel](../../rep
 
 When users save a report, the **Source** property value persists in the report file.
 
-You can also use [report parameters](../../shape-report-data/use-report-parameters.md) to conditionally specify the **Source** property value or bind the property to a data source field. Refer to the following section for details: [Use Expressions](#use-expressions).
+You can also use [report parameters](../../use-report-parameters.md) to conditionally specify the **Source** property value or bind the property to a data source field. Refer to the following section for details: [Use Expressions](#use-expressions).
 
 ### Specify a Reference to a PDF Document
 
@@ -51,7 +51,7 @@ Select the **PDF Content** control, navigate to the [Properties panel](../../rep
 
 ![Assign a path to a PDF file to the Source URL property](../../../../images/xrpdfcontent-sourceurl-ellipsis.png)
 
-You can also use [report parameters](../../shape-report-data/use-report-parameters.md) to conditionally specify the **Source Url** property value or bind the property to a data source field. Refer to the following section for details: [Use Expressions](#use-expressions).
+You can also use [report parameters](../../use-report-parameters.md) to conditionally specify the **Source Url** property value or bind the property to a data source field. Refer to the following section for details: [Use Expressions](#use-expressions).
 
 When users save a report, the URL or path specified in the **Source URL** property is included in the report file. The PDF document should be available at the specified location when a report is printed or rendered in Preview.
 

@@ -114,7 +114,7 @@ Click the **Filter** button to invoke the **Filter Editor**.
 
 The editor has the following tabs:
 
-* **Filter Tab** - Allows you to build criteria to filter data for the report. Filter criteria can reference [query parameters](../bind-to-data/specify-query-parameters.md), which you can also map to [report parameters](../shape-report-data/use-report-parameters.md).
+* **Filter Tab** - Allows you to build criteria to filter data for the report. Filter criteria can reference [query parameters](../bind-to-data/specify-query-parameters.md), which you can also map to [report parameters](../use-report-parameters.md).
 * **Group Filter Tab** - Allows you to specify filter conditions for grouped and aggregated data. This tab is disabled if the data is not grouped.
 
 You can also enable the **Select only** option to limit the number of resulting data records. If you enable the **Sorting Type** option for at least one column, you can specify how many data records should be skipped.
@@ -140,7 +140,7 @@ The following properties are available for each query parameter:
 
 * **Type** - The data type of the parameter's value.
 
-* **Expression** - Specifies whether the parameter's value is static or generated dynamically. You can enable this option when you need to map the parameter's value to a [report parameter](../shape-report-data/use-report-parameters.md)'s value.
+* **Expression** - Specifies whether the parameter's value is static or generated dynamically. You can enable this option when you need to map the parameter's value to a [report parameter](../use-report-parameters.md)'s value.
 
 * **Value** - The parameter's value. If the **Expression** option is enabled, this value is generated dynamically based on the parameter's [expression](../use-expressions.md).
 
