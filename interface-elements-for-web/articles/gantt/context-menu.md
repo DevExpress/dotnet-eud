@@ -3,11 +3,11 @@ title: Context Menu
 ---
 # Context Menu
 
-Right-click a task to invoke the context menu.
+Right-click a task or dependency to invoke the context menu.
 
 ![Gantt - context menu](~/interface-elements-for-web/images/Gantt/context-menu.png)
 
-The context menu provides the following commands:
+The context menu includes the following commands:
 
 | Command | Description |
 |---|---|

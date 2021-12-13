@@ -213,11 +213,11 @@
     href: articles/gantt/work-time-rules.md
   - name: Data Editing
     items:
-    - name: Add, Edit and Delete Tasks
+    - name: Manage Tasks
       href: articles/gantt/data-editing/modify-tasks.md
-    - name: Add and Delete Dependencies
+    - name: Manage Dependencies
       href: articles/gantt/data-editing/modify-dependencies.md
-    - name: Add, Edit and Delete Resources
+    - name: Manage Resources
       href: articles/gantt/data-editing/modify-resources.md
 - name: Grid
   href: articles/grid.md
