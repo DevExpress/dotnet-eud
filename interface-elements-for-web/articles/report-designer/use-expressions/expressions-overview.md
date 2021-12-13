@@ -14,7 +14,7 @@ Use expressions to accomplish the following tasks:
 
 ## How to Specify an Expression
 
-In the Report Designer, properties that support expressions have an `f` button in the [Properties](../report-designer-tools/ui-panels/property-grid-tabbed-view.md) panel. Click this button to specify an expression in the invoked Expression Editor.
+In the Report Designer, properties that support expressions have an `f` button in the [Properties](../report-designer-tools/ui-panels/properties-panel.md) panel. Click this button to specify an expression in the invoked Expression Editor.
 
 ![Properties Window - f Buttons](../../../images/eurd-web-f-button.png)
 
@@ -69,7 +69,7 @@ The Editor lists a tree with language elements and items that you can use in an 
 
 ## FilterString Editor
 
-You can use the Report Designer's **FilterString Editor** to specify the **FilterString** property of a report, [Cross Tab](../use-report-elements/use-cross-tabs.md), or [Chart Series](../use-report-elements/use-charts-and-pivot-grids/add-a-chart-set-up-series-manually.md).
+You can use the Report Designer's **FilterString Editor** to specify the **FilterString** property of a report, Cross Tab, or [Chart Series](../use-report-elements/use-charts-and-pivot-grids/add-a-chart-set-up-series-manually.md).
 
 The **FilterString Editor**'s visual interface allows you to use an unlimited number of conditions and combine them with logical operators to create filter criteria. You can also switch to Text mode and type a filter string.
 

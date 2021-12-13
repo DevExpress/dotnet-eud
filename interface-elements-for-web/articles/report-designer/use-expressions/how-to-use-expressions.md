@@ -58,7 +58,7 @@ When you specify an expression for the [Picture Box](../use-report-elements/use-
 
 ## Use Row/Column Indexes for Cross Tab Cells
 
-Use the following variables to change a [Cross Tab](../use-report-elements/use-cross-tabs.md) cell's appearance settings:
+Use the following variables to change a Cross Tab cell's appearance settings:
 
 * Arguments.GroupColumnIndex  
   Returns the index of a cell's column within a group.

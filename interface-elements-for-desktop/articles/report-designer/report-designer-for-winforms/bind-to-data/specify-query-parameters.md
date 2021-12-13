@@ -96,10 +96,10 @@ You can map [multi-value parameters](../shape-report-data/use-report-parameters/
 ## <a name="multivalueparameterinstoredprocedure"></a>Pass a Multi-Value Report Parameter Value to a Stored Procedure
 You cannot pass a [multi-value parameter](../shape-report-data/use-report-parameters/multi-value-report-parameters.md) value to a stored procedure directly. Use one of the following expression functions:
 
-* Use the [Join() expression function](../use-expressions/expression-syntax.md) to convert the array of parameter values to a string if you use MS SQL Server, MySQL or Oracle database systems.
+* Use the [Join() expression function](../use-expressions/functions-in-expressions.md) to convert the array of parameter values to a string if you use MS SQL Server, MySQL or Oracle database systems.
 
 	![](../../../../images/eurd-win-query-parameters-join-expression-function.png)
 
-* Use the [CreateTable() expression function](../use-expressions/expression-syntax.md) to prepare a table using values of several multi-value parameters.
+* Use the [CreateTable() expression function](../use-expressions/functions-in-expressions.md) to prepare a table using values of several multi-value parameters.
 
 	![](../../../../images/eurd-win-query-parameters-createtable-expression-function.png)
