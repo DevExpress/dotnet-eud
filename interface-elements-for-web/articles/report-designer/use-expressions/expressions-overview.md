@@ -69,7 +69,7 @@ The Editor lists a tree with language elements and items that you can use in an 
 
 ## FilterString Editor
 
-You can use the Report Designer's **FilterString Editor** to specify the **FilterString** property of a report, Cross Tab, or [Chart Series](../use-report-elements/use-charts-and-pivot-grids/add-a-chart-set-up-series-manually.md).
+You can use the Report Designer's **FilterString Editor** to specify the **FilterString** property of a report, Cross Tab, or Chart Series.
 
 The **FilterString Editor**'s visual interface allows you to use an unlimited number of conditions and combine them with logical operators to create filter criteria. You can also switch to Text mode and type a filter string.
 
