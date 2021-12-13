@@ -893,8 +893,16 @@
     - name: Use Expressions
       href: articles/report-designer/report-designer-for-winforms/use-expressions.md
       items:
-      - name: Expression Syntax
-        href: articles/report-designer/report-designer-for-winforms/use-expressions/expression-syntax.md
+      - name: Expressions Overview
+        href: articles/report-designer/report-designer-for-winforms/use-expressions/expressions-overview.md
+      - name: Expression Language
+        href: articles/report-designer/report-designer-for-winforms/use-expressions/expression-language.md
+      - name: Functions in Expressions
+        href: articles/report-designer/report-designer-for-winforms/use-expressions/functions-in-expressions.md
+      - name: "How to: Use Expressions"
+        href: articles/report-designer/report-designer-for-winforms/use-expressions/how-to-use-expressions.md
+      - name: Data Binding Modes
+        href: articles/report-designer/report-designer-for-winforms/use-expressions/data-binding-modes.md
     - name: Use Report Scripts
       href: articles/report-designer/report-designer-for-winforms/use-report-scripts.md
     - name: Print, Preview and Export Reports
@@ -1203,7 +1211,7 @@
         href: articles/report-designer/report-designer-for-wpf/interface-elements/report-explorer.md
       - name: Group and Sort Panel
         href: articles/report-designer/report-designer-for-wpf/interface-elements/group-and-sort-panel.md
-      - name: Properties Panel
+      - name: Properties Window
         href: articles/report-designer/report-designer-for-wpf/interface-elements/properties-panel.md
       - name: Design Surface
         href: articles/report-designer/report-designer-for-wpf/interface-elements/design-surface.md

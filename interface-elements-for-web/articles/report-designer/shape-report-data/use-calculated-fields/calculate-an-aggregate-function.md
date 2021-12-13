@@ -31,7 +31,7 @@ This tutorial describes the steps required to create a report with an _aggregate
 
     You can refer to the currently processed group using the Parent Relationship Traversal Operator ('^'). This allows you to calculate aggregates within groups using expressions like the following: _[][[^.CategoryID] == [CategoryID]].Sum([UnitPrice])_.
 
-    For more information, see [Expression Syntax](../../use-expressions/expression-syntax.md).
+    For more information, see [Expression Language](../../use-expressions/expression-language.md).
 
 5. Click **OK** to close the dialog and save the expression.
 

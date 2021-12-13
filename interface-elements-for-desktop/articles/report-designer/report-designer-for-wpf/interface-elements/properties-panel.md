@@ -1,48 +1,74 @@
 ---
-title: Properties Panel
+title: Properties Window
 author: Anna Gubareva
 legacyId: 116219
 ---
-# Properties Panel
-The **Properties** panel allows you to access and customize settings of a report and its [elements](../report-elements.md). 
+# Properties Window
 
-![WPFDesigner_PropertiesPanel](../../../../images/img121995.png)
+Use the Properties window to view, discover, and change the properties of selected report [elements](../report-elements.md).
 
-This document describes different aspects of using the Properties panel and consists of the following sections.
-* [Selecting a Report Element](#selectingelements)
-* [Display Modes](#displaymodes)
-* [Changing Property Values](#changingproperties)
-* [Searching for Properties](#searching)
+![Properties Window](../../../../images/eurd-wpf-properties-window.png)
 
-<a name="selectingelements"/>
+Switch to the **View** ribbon tab, expand the **Windows** group, and click **Properties** to show or hide the Properties window.
 
-## Selecting a Report Element
-To select an element and show its properties in the Properties panel, do one of the following.
-* Select a required element in the drop-down list at the top of the Properties panel.
-	
-	![WPFDesigner_PropertiesGridComboBox](../../../../images/img122814.png)
-* Click a required element in the [Report Design Surface](design-surface.md).
-* Select a required element in the [Report Explorer](report-explorer.md).
+![Invoke the Properties Window](../../../../images/eurd-wpf-invoke-properties-window.png)
 
-<a name="displaymodes"/>
+## Select a Report Element
 
-## Display Modes
-The Properties panel can display element properties in alphabetical flat order or combine them into categories depending on their purposes. To switch between these display modes, use the dedicated buttons. 
+Do one of the following to select a report element and show its properties in the Properties window:
 
-![WPFDesigner_PropertiesGridToolPanel](../../../../images/img122815.png)
+* Select a report element from the drop-down list at the top of the Properties window.
 
-<a name="changingproperties"/>
+	![Select a Report Element from the Drop-Down List](../../../../images/eurd-wpf-properties-window-select-report-element.png)
 
-## Changing Property Values
-In the Properties panel, each row consists of two cells: the header cell showing the property caption and the value cell. To set a property value, locate the property and specify its value using the corresponding cell editor. Specific properties contain nested properties, which can be accessed by clicking the expand button for the property captions.
+* Click a report element on the [design surface](design-surface.md).
 
-![WPFDesigner_PropertiesGridComplexProperty](../../../../images/img122816.png)
+	![Click a Report Element on the Design Surface](../../../../images/eurd-wpf-properties-window-select-report-element-on-surface.png)
 
-<a name="searching"/>
+* Select a report element in the [Report Explorer](report-explorer.md).
 
-## Searching for Properties
-The Properties panel includes the search box that allows you to search for a required property. When you type within the search box, the Properties panel automatically creates a search criteria based on the entered text and filters the list of available properties.
+	![Select a Report Element in the Report Explorer](../../../../images/eurd-wpf-properties-window-select-report-element-in-report-explorer.png)
 
-![WPFDesigner_PropertiesGridSearchBox](../../../../images/img122818.png)
+## Category Tabs
 
-If you type two substrings separated by the space character, these substrings are considered as individual conditions combined by the **OR** logical operator. To find properties that contain both substrings (i.e., to use the **AND** logical operator), type "+" before the second substring. Similarly, type "-" to exclude properties that contain a specific substring. To search for a property that contains a space character, enclose the entered string in quotation marks. You can also combine several logical operators and quotation marks.
+The Properties window splits properties into category tabs and sorts them alphabetically.
+
+![Category Tabs](../../../../images/eurd-wpf-properties-window-category-tabs.png)
+
+## Favorite Properties
+
+The Favorites tab contains the most used (or “favorite”) properties.
+
+![The Favorites Tab](../../../../images/eurd-wpf-properties-window-favorite-tab.png)
+
+Use the **Favorite Properties Editor** to add properties to the Favorites tab. Click the **Edit Favorite Properties...** menu item to open the **Favorite Properties Editor** that lists the report controls. Check/uncheck properties to modify these controls’ favorite property lists.
+
+![The Favorite Properties Editor](../../../../images/eurd-wpf-favorite-properties-editor.png)
+
+## Change Property Values
+
+A marker near each property indicates whether a property value differs from its default value.
+
+![Modified Properties](../../../../images/eurd-wpf-properties-window-modified-values.png)
+
+Right-click a property’s editor to reset the value.
+
+![Reset a Property Value](../../../../images/eurd-wpf-properties-window-value-reset.png)
+
+## Specify Expressions
+
+The Properties window allows you to set expressions that specify property values. Click the `f` button to specify an expression in the invoked Expression Editor.
+
+![The f Buttons](../../../../images/eurd-wpf-properties-window-value-expression.png)
+
+![The Expression Editor](../../../../images/eurd-wpf-expression-editor.png)
+
+## Search for Properties
+
+The integrated search box allows you to find properties. When you type within the search box, the Properties window filters the list and displays properties that match the entered text.
+
+![The Search Box](../../../../images/eurd-wpf-properties-window-property-search.png)
+
+If you type two substrings separated by a space character, these substrings are considered as individual search criteria. The Properties window shows the properties that match either of these substrings. To find properties that contain both substrings, enclose the typed string in quotation marks or type "+" before the second substring (for instance, **foreground +color**).
+
+Type "-" to exclude properties that contain a specific substring (for instance, **border -color**).

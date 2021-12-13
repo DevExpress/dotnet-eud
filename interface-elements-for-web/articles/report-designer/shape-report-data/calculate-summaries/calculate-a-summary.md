@@ -27,7 +27,7 @@ This document describes how to calculate various summaries across a report and i
 	![](../../../../images/eurd-web-label-summary-expression.png)
 	
 	> [!TIP]
-	> See the [Expression Constants, Operators, and Functions](../../use-expressions/expression-syntax.md) topic for a complete list of supported summary functions.
+	> See the [Functions in Expressions](../../use-expressions/functions-in-expressions.md) topic for a complete list of supported summary functions.
 
 7. You can use the **Text Format String** property to format the summary's value.
 	
