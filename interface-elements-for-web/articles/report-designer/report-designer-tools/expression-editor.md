@@ -35,7 +35,7 @@ An error icon appears if an expression contains errors. Hover the mouse pointer 
 
 ![](../../../images/eurd-web-expression-editor-error.png)
 
-See the [Expression Syntax](../use-expressions/expression-syntax.md) topic for the expression syntax description.
+See the [Expression Language](../use-expressions/expression-language.md) topic for the expression syntax description.
 
 ## Expression Syntax
 
