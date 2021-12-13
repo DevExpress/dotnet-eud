@@ -4,7 +4,7 @@ owner: Sergey Andreev
 ---
 # Functions in Expressions
 
-This topic lists the functions that you can use in an [expression](expression-overview.md).
+This topic lists the functions that you can use in an [expression](expressions-overview.md).
 
 ## Aggregate Functions
 

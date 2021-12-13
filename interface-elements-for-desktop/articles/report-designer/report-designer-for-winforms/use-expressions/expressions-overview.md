@@ -47,13 +47,13 @@ Use one of the following ways to invoke the Expression Editor:
 
     The `f` button changes its color to blue to indicate that an expression is set for a property.
 
-    ![The f Button Indicates that an Expression is Set](../../../../images/eurd-win-properties-window-f-button-blue.png)
+    ![The f Button Indicates that an Expression is Set](../../../images/eurd-win-properties-window-f-button-blue.png)
 
 The Editor lists all properties for which you can specify an expression.
 
-Click a property to specify an expression.
+![Properties List in the Expression Editor](../../../images/eurd-web-expression-editor-properties-list.png)
 
-![Properties List in the Expression Editor](../../../../images/eurd-win-expression-editor-properties-list.png)
+Click a property to specify an expression.
 
 An `f` icon appears next to a property where an expression is set. Additionally, an asterisk (`*`) appears if an expression is modified.
 
@@ -77,7 +77,7 @@ You can use the Report Designer's **FilterString Editor** to specify the **Filte
 
 The **FilterString Editor**'s visual interface allows you to use an unlimited number of conditions and combine them with logical operators to create filter criteria. You can also switch to Text mode and type a filter string.
 
-![FilterString Editor](../../../../images/eurd-win-filterstring-editor.png)
+![FilterString Editor](../../../images/eurd-win-filterstring-editor.png)
 
 The **FilterString Editor** highlights an expression's syntax and supports intelligent code completion (which suggests functions and available data elements as you type).
 

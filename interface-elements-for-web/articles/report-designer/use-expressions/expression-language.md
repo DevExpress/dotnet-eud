@@ -356,7 +356,7 @@ Do one of the following to assign an enumeration value to a property:
 
 - The **Expression Editor** can help you specify a string value for built-in enumerations:
 
-  ![Enumeration in Expression Editor](../../../../images/eurd-win-enumerations-in-expression-editor.png)
+  ![Enumeration in Expression Editor](../../../images/eurd-web-enumerations-in-expression-editor.png)
 
 ## Comments
 
