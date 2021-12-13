@@ -336,7 +336,7 @@ to bind the control to the UnitPrice data field from the Products data member
 
 ## Report Parameters
 
-Use the following syntax to insert [report parameters](../shape-report-data/use-report-parameters.md) in an expression:
+Use the following syntax to insert [report parameters](../use-report-parameters.md) in an expression:
 
 - Type a question mark before a parameter's name.  
 

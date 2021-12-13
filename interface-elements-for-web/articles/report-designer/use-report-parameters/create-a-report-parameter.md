@@ -87,7 +87,7 @@ You can specify an [expression](../use-expressions.md) for this option. For exam
 ![Specify an expression for a parameter's Default Value option](../../../images/specify-expression-for-parameter-default-value.png)
 
 > [!NOTE]
-> You can use only [constants](../use-expressions/expression-syntax.md#constants), [operators](../use-expressions/expression-syntax.md#operators), and date-time / logical / math / string [functions](../use-expressions/expression-syntax.md#functions-basic) in an expression for a parameter's default value.
+> You can use only [constants](../use-expressions/expression-language.md#constants), [operators](../use-expressions/expression-language.md#operators), and date-time / logical / math / string [functions](../use-expressions/expression-language.md#functions) in an expression for a parameter's default value.
 
 ### Allow Null Value
 

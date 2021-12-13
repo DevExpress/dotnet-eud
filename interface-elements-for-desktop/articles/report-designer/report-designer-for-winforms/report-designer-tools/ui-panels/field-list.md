@@ -69,6 +69,6 @@ The Field List can help you do the following:
 
 	![Field List - Add Calculated Field](../../../../../images/eurd-win-field-list-add-calculated-field.png)
 
-* Add [report parameters](../../shape-report-data/use-report-parameters.md) or change existing parameters.
+* Add [report parameters](../../use-report-parameters.md) or change existing parameters.
 
 	![Field List - Add Report Parameter](../../../../../images/eurd-winield-list-add-report-parameter.png)

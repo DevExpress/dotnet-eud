@@ -9,7 +9,7 @@ This topic demonstrates how to create a report parameter in the [Report Designer
 
 ## Create a Report Parameter in the Report Designer
 
-In the **Report Designer**, you can create a parameter from the [Field List](../report-designer-tools/ui-panels/field-list.md), [Properties window](../report-designer-tools/ui-panels/property-grid-tabbed-view.md), or [FilterString Editor](../use-expressions.md#filterstring-editor). The created parameter appears in the [Field List](../report-designer-tools/ui-panels/field-list.md)'s **Parameters** node.
+In the **Report Designer**, you can create a parameter from the [Field List](../report-designer-tools/ui-panels/field-list.md), [Properties window](../report-designer-tools/ui-panels/property-grid-tabbed-view.md), or [FilterString Editor](../use-expressions/expressions-overview.md#filterstring-editor). The created parameter appears in the [Field List](../report-designer-tools/ui-panels/field-list.md)'s **Parameters** node.
 
 ![A parameter in the Field List](../../../../images/field-list-parameters-section.png)
 
@@ -35,7 +35,7 @@ Click **Add** in the invoked **Report Parameters Editor** dialog to add a new pa
 
 ### Create From the FilterString Editor
 
-You can create a parameter when you construct a condition in the [FilterString Editor](../use-expressions.md#filterstring-editor). Choose the **Select a parameter** field, click the field, and select **Add Parameter** in the invoked context menu.
+You can create a parameter when you construct a condition in the [FilterString Editor](../use-expressions/expressions-overview.md#filterstring-editor). Choose the **Select a parameter** field, click the field, and select **Add Parameter** in the invoked context menu.
 
 ![Create a parameter from the Filter String editor](../../../../images/filter-string-editor-add-parameter.png)
 
@@ -103,7 +103,7 @@ You can specify an [expression](../use-expressions.md) for this option. For exam
 ![Specify an expression for a parameter's Default Value option](../../../../images/specify-expression-for-parameter-default-value.png)
 
 > [!NOTE]
-> You can use only [constants](../use-expressions/expression-syntax.md#constants), [operators](../use-expressions/expression-syntax.md#operators), and date-time / logical / math / string [functions](../use-expressions/expression-syntax.md#functions-basic) in an expression for a parameter's default value.
+> You can use only [constants](../use-expressions/expression-language.md#constants), [operators](../use-expressions/expression-language.md#operators), and date-time / logical / math / string [functions](../use-expressions/expression-language.md#functions) in an expression for a parameter's default value.
 
 ### Allow Null Value
 

@@ -47,7 +47,7 @@ Refer to the following topic for information on embedded fields: [Use Embedded F
 
 ## Bind Control Parameters to Report Parameters
 
-You can create parameters for the [CrossTab](../create-reports/cross-tab-reports.md) and [Chart](../use-report-elements/use-charts-and-pivot-grids/use-charts-in-reports.md) controls and bind these parameters to report parameters. This allows you to conditionally filter data at the control level. Refer to the following topic for details on how to filter data for the **Сhart** control: [Use Charts to Visualize Grouped Data](../use-report-elements/use-charts-and-pivot-grids/use-charts-to-visualize-grouped-data.md).
+You can create parameters for the [CrossTab](../create-reports/cross-tab-reports.md) and [Chart](../use-report-elements/use-charts/use-charts-in-reports.md) controls and bind these parameters to report parameters. This allows you to conditionally filter data at the control level. Refer to the following topic for details on how to filter data for the **Сhart** control: [Use Charts to Visualize Grouped Data](../use-report-elements/use-charts/use-charts-to-visualize-grouped-data.md).
 
 You can also specify a parameter for the [Subreport](../use-report-elements/use-basic-report-controls/subreport.md) control and bind this parameter to report parameters. This allows you to pass parameter values from the main report to the subreport and conditionally change the subreport's data and appearance.
  
