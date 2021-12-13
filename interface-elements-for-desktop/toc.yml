@@ -893,8 +893,14 @@
     - name: Use Expressions
       href: articles/report-designer/report-designer-for-winforms/use-expressions.md
       items:
-      - name: Expression Syntax
-        href: articles/report-designer/report-designer-for-winforms/use-expressions/expression-syntax.md
+      - name: Expressions Overview
+        href: articles/report-designer/report-designer-for-winforms/use-expressions/expressions-overview.md
+      - name: Expression Language
+        href: articles/report-designer/report-designer-for-winforms/use-expressions/expression-language.md
+      - name: Functions in Expressions
+        href: articles/report-designer/report-designer-for-winforms/use-expressions/functions-in-expressions.md
+      - name: How to: Use Expressions
+        href: articles/report-designer/report-designer-for-winforms/use-expressions/how-to-use-expressions.md
     - name: Use Report Scripts
       href: articles/report-designer/report-designer-for-winforms/use-report-scripts.md
     - name: Print, Preview and Export Reports

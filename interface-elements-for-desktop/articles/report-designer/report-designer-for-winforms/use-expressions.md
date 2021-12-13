@@ -6,8 +6,8 @@ owner: Mary Sammal
 
 Topics in this section describe how to use expressions in a report:
 
-* [](xref:403357)
-* [](xref:120104)
-* [](xref:403363)
-* [](xref:403372)
-* [](xref:119236)
+* [Expressions Overview](use-expressions/expressions-overview.md)
+* [Expression Language](use-expressions/expression-language.md)
+* [Functions in Expressions](use-expressions/functions-in-expressions.md)
+* [How to: Use Expressions](use-expressions/how-to-use-expressions.md)
+* [Data Binding Modes](use-expressions/data-binding-modes.md)
