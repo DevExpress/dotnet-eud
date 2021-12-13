@@ -4,8 +4,6 @@ owner: Anna Vekhina
 ---
 # Introduction to Banded Reports
 
-Banded reports provide a generalized report layout notion. When you preview a banded report, a report document is generated based on the report layout and data source.
-
 ## Report Bands
 
 A report layout consists of bands that contain report controls and define their location on document pages. A blank report contains the following bands:
@@ -91,7 +89,7 @@ You can create functional copies of a band, for example, to display different co
 > See [Laying out Dynamic Report Contents](shape-report-data\lay-out-dynamic-report-content.md) for details on how to specify the location of bands' content on document pages.
 
 ## <a name="managingreportbands"></a>Manage Report Bands
-### Hide Bands in the Report Designer
+### Collapse Bands in the Report Designer
 
 Select a band and click on the band's tab title to collapse or expand the band.
 
@@ -114,6 +112,3 @@ To add a band, select the report or any of its bands in the **Properties** panel
 
 ![](../../images/eurd-web-report-bands-add-bands.png)
 
-You can insert a detail report band if the report's data source has [master-detail relations](create-reports/master-detail-reports-with-detail-report-bands.md). Click **Insert Detail Report** in the **Actions** category.
-
-![](../../images/eurd-web-report-bands-add-detail-band.png)

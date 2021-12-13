@@ -1,13 +1,17 @@
 ---
-title: Passing Parameter Values
+title: Specify Parameter Values
 author: Anna Gubareva
 legacyId: 115385
 ---
-# Passing Parameter Values
-Some documents or reports allow you to control what data is to be displayed by specifying parameter values.
+# Specify Parameter Values
+A report may contain parameters that allows you to control the data displayed in the document.
 
-To switch to the **Preview Parameters** panel, click the **Parameters** ![EUD_HTML5DV_ParametersButton](../../images/img121795.png) button on the right side of the Document Viewer. This panel allows you to specify parameter values before document preview generation is started.
+ ![EUD_HTML5DV_ParametersButton](../../images/img121795.png) 
 
-Enter the required values using the corresponding parameter editors and click **Submit**. After changing the current values, you can revert back the previously selected values by clicking **Reset**.
+ **Parameters**
+
+To invoke the **Preview Parameters** panel, click the **Parameters** button on the Document Viewer side panel. This panel allows you to specify parameter values that apply when the document preview generation starts.
+
+Use parameter editor to specify a parameter value and click **Submit**. After changing the current values, you can return to the original values by clicking **Reset**.
 
 ![web-report-designer-preview-parameters-panel](../../images/img24668.png)

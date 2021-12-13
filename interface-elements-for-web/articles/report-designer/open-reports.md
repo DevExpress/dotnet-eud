@@ -8,7 +8,8 @@ Click **Open** in the [menu](report-designer-tools/menu.md) to invoke the **Open
 
 ![](../../images/eurd-web-open-report.png)
 
-This dialog displays [saved reports](save-reports.md). Select a report and click **Open**.
+The dialog displays reports from the report storage. You can enter text in the search field to filter the report list.  
+Select a report and click **Open**.
 
 ![](../../images/eurd-web-open-report-dialog.png)
 

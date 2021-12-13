@@ -5,7 +5,7 @@ legacyId: 17818
 ---
 # Report Designer
 
-The **Web Report Designer** allows you to create data-bound reports and provides a rich set of tools to construct report layouts that meet your requirements. 
+The **Web Report Designer** allows you to create data-bound reports and contains a rich set of tools to construct report layouts that meet your requirements. 
 
 ![](../images/eurd-web-report-designer-start-page.png)
 

@@ -5,39 +5,40 @@ legacyId: 117358
 ---
 
 # Document Viewer
-The documents in this section provide information on the capabilities of the **Web Document Viewer**, which is used to display an interactive document preview on web pages.
 
-This Viewer provides a toolbar that contains commands related to document viewing, navigating, exporting and printing. It also provides the **Document Map** for navigating throughout a document using bookmarks, the **Parameters** panel for editing report parameters, the **Export Options** panel for viewing and editing format-specific options, and the **Search** panel for locating required data.
+The Web Document Viewer displays an interactive preview of a document generated from a report that is designed in the DevExpress Reporting platform. The Document Viewer allows the user to view, print, and export the report document.
+
+The Viewer has a toolbar with commands that allows you to view, navigate, print and export the document. The Viewr's side panel has tabs that open the **Parameters** panel to specify report parameters, the **Export Options** panel to specify export settings for different formats, the **Search** panel for text search in the document, and the **Document Map** that allows you to  navigate the bookmarks in the document.
 
 ![web-document-viewer](../images/img126958.png)
 
 &nbsp;
 
-**Viewing and Navigating**
+**View and Navigate**
 * [Navigate Between Pages](document-viewer/viewing-and-navigating/navigate-between-pages.md)
 * [Navigate Using Bookmarks](document-viewer/viewing-and-navigating/navigate-using-bookmarks.md)
 * [Search for a Specific Text](document-viewer/viewing-and-navigating/search-for-a-specific-text.md)
-* [Switch Display Mode](document-viewer/viewing-and-navigating/switch-display-mode.md)
-* [Zooming](document-viewer/viewing-and-navigating/zooming.md)
+* [Switch Multipage Mode](document-viewer/viewing-and-navigating/switch-display-mode.md)
+* [Zoom](document-viewer/viewing-and-navigating/zooming.md)
 
 &nbsp;
 
 **Interactivity**
-* [Content Editing](document-viewer/content-editing.md)
+* [Edit Content](document-viewer/content-editing.md)
 
 &nbsp;
 
 **Parameters**
-* [Passing Parameter Values](document-viewer/passing-parameter-values.md)
+* [Specify Parameter Values](document-viewer/passing-parameter-values.md)
 
 &nbsp;
 
-**Printing**
-* [Printing](document-viewer/printing.md)
+**Print**
+* [Print the Document](document-viewer/printing.md)
 
 &nbsp;
 
-**Exporting**
+**Export**
 * [Export a  Document](document-viewer/exporting/export-a-document.md)
 * [CSV-Specific Export Options](document-viewer/exporting/csv-specific-export-options.md)
 * [HTML-Specific Export Options](document-viewer/exporting/html-specific-export-options.md)

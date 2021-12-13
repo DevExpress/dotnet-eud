@@ -10,3 +10,4 @@ The following panels are available in the Web Report Designer.
 - [Expressions Panel](ui-panels/expressions-panel.md)
 - [Field List](ui-panels/field-list.md)
 - [Report Explorer](ui-panels/report-explorer.md)
+- [Report Design Analyzer](ui-panels/report-design-analyzer.md)

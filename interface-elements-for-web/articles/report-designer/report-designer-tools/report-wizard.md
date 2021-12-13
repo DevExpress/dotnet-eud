@@ -23,12 +23,12 @@ The following image shows the wizard's navigation structure:
 
 ![](../../../images/eurd-web-report-wizard-page-structure.png)
 
-The wizard's navigation panel at the left-hand side:
+The Wizard has a navigation panel that does the following:
 
-* displays the entire page list;
-* highlights the current page;
-* grays out disabled pages;
-* allows you to switch between pages.
+* displays the entire page list
+* highlights the current page
+* grays out disabled pages
+* allows you to switch between pages
 
 ![](../../../images/eurd-web-report-wizard-navigation-panel.png)
 

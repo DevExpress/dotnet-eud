@@ -4,7 +4,7 @@ author: Anna Gubareva
 legacyId: 118919
 ---
 # DOCX Export Options
-Before [exporting a document](export-a-document.md) to DOCX format, you can specify DOCX-specific options in the dedicated **Export Options** panel.
+Before [exporting a document](export-a-document.md) to DOCX format, you can specify DOCX-specific options in the **Export Options** panel.
 
 ![web-report-designer](../../../images/img129100.png)
 * **Export Mode**

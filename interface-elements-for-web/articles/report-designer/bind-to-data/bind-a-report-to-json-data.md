@@ -11,7 +11,7 @@ This topic describes how to bind a report to JSON data.
 
 1. Invoke the designer [menu](../report-designer-tools/menu.md) and click **Add Data Source...**.
 	
-    ![](../../../images/eurd-web-choose-data-source.png)
+    ![](../../../images/eurd-web-data-source-menu.png)
 
     This invokes the Data Source Wizard.
 
@@ -23,15 +23,13 @@ This topic describes how to bind a report to JSON data.
 
     ![](../../../images/eurd-web-data-source-wizard-json-choose-yes.png)
 
-    ![](../../../images/eurd-web-data-source-wizard-json-choose-no.png)
-
-    If you prefer to create a new data connection, specify its settings. You can use a Web Service Endpoint, a filename, or a string with JSON data. In this example, the JSON data is obtained from a [JSON sample data location](https://northwind.now.sh/api/customers).
+      If you prefer to create a new data connection, specify its settings. You can use a Web Service Endpoint, a filename, or a string with JSON data. In this example, the JSON data is obtained from a [JSON sample data location](https://raw.githubusercontent.com/DevExpress-Examples/DataSources/master/JSON/customers.json).
 
     ![](../../../images/eurd-web-data-source-wizard-json-choose-web-service-endpoint-uri.png)
 
     Specify request parameters (username and password, path parameters, query parameters, or HTTP headers).
 
-    - A path parameter appends a path element to a JSON endpoint's URI.
+    - A path parameter appends a path element to a JSON endpoint URI.
     - A query parameter specifies a HTTP request parameter that is passed to a JSON endpoint.
     - A header parameter adds a custom HTTP header to JSON endpoint requests.
 

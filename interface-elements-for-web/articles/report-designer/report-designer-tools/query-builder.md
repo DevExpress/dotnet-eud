@@ -23,7 +23,7 @@ Enable check boxes for the table columns you want to include into the query resu
 
 ![](../../../images/eurd-web-designer-query-builder-select-fields.png)
 
-Use the dedicated search box to find a specific table or view. 
+Use the search box to find a table or view by name. 
 
 ![](../../../images/eurd-web-designer-query-builder-search-tables.png)
 

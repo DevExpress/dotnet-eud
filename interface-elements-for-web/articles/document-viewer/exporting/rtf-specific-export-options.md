@@ -4,7 +4,7 @@ author: Anna Gubareva
 legacyId: 115381
 ---
 # RTF Export Options
-Before [exporting a document](export-a-document.md) to RTF, you can specify RTF-specific options in the dedicated **Export Options** panel.
+Before [exporting a document](export-a-document.md) to RTF, you can specify RTF-specific options in the **Export Options** panel.
 
 ![EUD_HTML5DV_RtfExportOptions](../../../images/img121805.png)
 * **Export Mode**

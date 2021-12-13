@@ -16,8 +16,8 @@ Do one of the following to access an element's properties:
 	
 	![](../../../../images/eurd-web-properties-panel-element-search.png)
 
-* Click an element on the [Design Surface](../design-surface.md) and click the  ![](../../../../images/eurd-web-properties-panel-cogwheel.png) button to invoke the **Properties** panel.
-* Select an element in [Report Explorer](report-explorer.md) and click the ![](../../../../images/eurd-web-properties-panel-pen.png) button.
+* Select an element on the [Design Surface](../design-surface.md) and click the  ![](../../../../images/eurd-web-properties-panel-cogwheel.png) tab on the side panel to invoke the **Properties** panel.
+* Select an element in the [Report Explorer](report-explorer.md) panel and click the ![](../../../../images/eurd-web-properties-panel-pen.png) button.
 
 ## Switch Between Display Modes
 
@@ -33,7 +33,7 @@ Each record consists of a property's caption, a value editor, and an optional pr
 
 Certain properties contain nested properties which can be accessed when you click the header.
 
-![](../../../../images/eurd-web-properties-panel-nested-properties.gif)
+![](../../../../images/eurd-web-properties-panel-nested-properties.png)
 
 The property marker indicates if the property's value was changed:
 
@@ -60,11 +60,11 @@ Click the property marker to the right of the editor. Select **Reset** in the in
 
 ## Specify Expressions
 
-The **Properties** panel allows you to specify expressions that can include two or more data fields and various functions. Click a property marker to see whether the invoked context menu has the **PropertyName Expression** item.
+The **Properties** panel allows you to specify expressions that can calculate the value at runtime when a document is generated. Click the **f-marker** to invoke the [Expression Editor](expression-editor.md).
 
 ![](../../../../images/eurd-web-properties-panel-expressions.png)
 
-Click this item to specify an expression in the invoked Expression Editor.
+Specify an expression in the invoked Expression Editor.
 
 ![](../../../../images/eurd-web-properties-panel-expression-editor.png)
 

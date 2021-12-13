@@ -4,21 +4,23 @@ author: Anna Vekhina
 ---
 # Enable the Right-To-Left Layout
 
-The report and most of the report controls provide the **Right To Left** property. 
+The report and most of the report controls provide the **Right to Left** and **Right to Left Layout** property. 
 
 ![](../../../images/eurd-web-right-to-left-yes-property.png)
 
-This property specifies content layout within a control (for most controls, this property affects the direction of their text, and for the [Check Box](../use-report-elements/use-basic-report-controls/check-box.md), this property also affects the check box position within the control).
+## Right to Left
 
-* **Left-To-Right**
+The  property specifies content layout within a control (for most controls, this property affects the direction of their text, and for the [Check Box](../use-report-elements/use-basic-report-controls/check-box.md), this property also affects the check box position within the control).
+
+* **Disabled**
 
     ![](../../../images/eurd-web-right-to-left-no.png)
 
-* **Right-To-Left**
+* **Enabled**
 
     ![](../../../images/eurd-web-right-to-left-yes.png)
 
-By default, all report controls have this property set to **Inherit**, so enabling it for a report will apply this setting to all its controls.
+Initially all report controls have this property set to **Inherit**, and when you enable it for a report, the setting is enabled for all report controls.
 
 The following controls support this feature:
 
@@ -31,12 +33,14 @@ The following controls support this feature:
 * [Table](../use-report-elements/use-tables.md)
 * [Table of Contents](../use-report-elements/use-basic-report-controls/table-of-contents.md)
 
-For the **Panel** and **Table**, this option only affects the controls contained in them.
+For the **Panel** and **Table** controls, this option affects contained controls.
 
-When the **Right To Left** property of a report is set to **Yes**, you can also enable the **Right To Left Layout** property that specifies the position of controls within [report bands](../introduction-to-banded-reports.md). Enabling the right-to-left layout will also swap the page margins of a document (it will become impossible to place controls outside the right page margin).
+## Right to Left Layout
+
+When the **Right To Left** property of a report is set to **Yes**, you can also enable the **Right To Left Layout** property that specifies the position of controls within [report bands](../introduction-to-banded-reports.md). Enabling the right-to-left layout will also swap the page margins of a document (you are not allowed to place controls outside the right page margin).
 
 ![](../../../images/eurd-web-right-to-left-layout.png)
 
-The controls' coordinates will remain unchanged and only the point and direction of reference will change (the X coordinate will be calculated starting with the top right corner).
+The coordinates of report controls remain unchanged, only the point and direction of reference change (the X coordinate is calculated based on the top right corner).
 
-The right-to-left layout is preserved when exporting a report to any of the [supported formats](../preview-print-and-export-reports.md) (e.g., PDF, Excel, or RTF).        
+The right-to-left layout is preserved when exporting a report to any [supported format](../preview-print-and-export-reports.md).        

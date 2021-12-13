@@ -4,7 +4,7 @@ author: Anna Gubareva
 legacyId: 115384
 ---
 # XLSX-Specific Export Options
-Before [exporting a document](export-a-document.md) to XLSX format, you can specify XLSX-specific options in the dedicated **Export Options** panel.
+Before [exporting a document](export-a-document.md) to XLSX format, you can specify XLSX-specific options in the **Export Options** panel.
 
 ![EUD_HTML5DV_XlsxExportOptions](../../../images/img121837.png)
 * **Export Mode**
