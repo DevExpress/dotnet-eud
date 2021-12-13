@@ -10,7 +10,7 @@ This document describes how to create a multi-value parameter and use this param
 ![multi-value-parameters-preview](../../../images/eurd-web-multi-value-parameters-preview.png)
 
 > [!TIP]
-> Refer to this help article for information on how to use multi-value parameters in an SQL query: [Specify Query Parameters](../bind-to-data/specify-query-parameters.md#PassMultiValueParameterValueToQuery).
+> Refer to this help article for information on how to use multi-value parameters in an SQL query: [Specify Query Parameters](../bind-to-data/specify-query-parameters.md#pass-a-multi-value-parameter-value-to-a-query).
 
 ## Create a Multi-Value Parameter in the Report Designer
 
@@ -27,7 +27,7 @@ Follow the steps below to create a multi-value parameter in the [Report Designer
 
 ## Filter a Report's Data by a Multi-Value Parameter
 
-To filter a report's data by a multi-value parameter, use the **Is any of** operator for this parameter in the report's [filter string](../shape-report-data/filter-data/filter-data-at-the-report-level.html):
+To filter a report's data by a multi-value parameter, use the **Is any of** operator for this parameter in the report's [filter string](../shape-report-data/filter-data/filter-data-at-the-report-level.md):
 
 ![parameters-multi-value-filter-string](../../../images/eurd-web-parameters-multi-value-filter-string.png)
 

@@ -56,7 +56,7 @@ The **Source URL** property value takes precedence over the **Source** property 
 
 ## Use Expressions
 
-You can specify an expression that specifies the **Source** or **Source URL** property value. An expression can include [report parameters](../../shape-report-data/use-report-parameters.md) or [data source](../../bind-to-data.md) fields, or it can conditionally specify a property value.
+You can specify an expression that specifies the **Source** or **Source URL** property value. An expression can include [report parameters](../../use-report-parameters.md) or [data source](../../bind-to-data.md) fields, or it can conditionally specify a property value.
 
 Expand the **PDF Content**'s smart tag.
 

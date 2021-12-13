@@ -26,7 +26,7 @@ Specify constructor and/or data member parameters, if required.
 
 ![](../../../../images/eurd-report-wizard-object-datasource-configure-parameters.png)
 
-You can use expressions to provide data source parameter values. Click the ![](../../../../images/eurd-report-wizard-object-datasource-f-button.png) button to switch the parameter's editor to the expression mode. Specify an expression in the parameter's editor, or click the parameter's ellipsis button to launch the [Expression Editor](../expression-editor.md). You can use [report parameters](../../shape-report-data/use-report-parameters.md) in expressions to specify an input value for a data source parameter.
+You can use expressions to provide data source parameter values. Click the ![](../../../../images/eurd-report-wizard-object-datasource-f-button.png) button to switch the parameter's editor to the expression mode. Specify an expression in the parameter's editor, or click the parameter's ellipsis button to launch the [Expression Editor](../expression-editor.md). You can use [report parameters](../../use-report-parameters.md) in expressions to specify an input value for a data source parameter.
 
 ![](../../../../images/eurd-report-wizard-object-datasource-configure-parameters-expression.png)
 

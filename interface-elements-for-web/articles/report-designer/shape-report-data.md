@@ -13,4 +13,4 @@ The topics in this section describe the data shaping features reports support:
 * [Calculate Summaries](shape-report-data/calculate-summaries.md)
 * [Count Elements and Values](shape-report-data/count-elements-and-values.md)
 * [Use Calculated Fields](shape-report-data/use-calculated-fields.md)
-* [Use Report Parameters](shape-report-data/use-report-parameters.md)
+* [Use Report Parameters](use-report-parameters.md)
