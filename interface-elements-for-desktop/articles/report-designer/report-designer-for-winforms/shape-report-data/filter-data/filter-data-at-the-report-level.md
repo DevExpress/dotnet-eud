@@ -23,7 +23,7 @@ This tutorial illustrates how to filter data at the report level, as opposed to 
     Every filter condition consists of three parts:
     * A field of a data source to which a report is bound or the name of the [calculated field](../use-calculated-fields.md), which exists in this data source at the same level.
     * Criteria operator, such as **Equals**, **Is less than**, **Is between**, etc.
-    * A static operand value, another data field or a [report parameter](../use-report-parameters.md). To access parameters, click the icon on the right until it turns into a question mark.
+    * A static operand value, another data field or a [report parameter](../../use-report-parameters.md). To access parameters, click the icon on the right until it turns into a question mark.
 
     You can arrange specific conditions into groups with **And**, **Or**, **Not And**, and **Not Or** operators.
 

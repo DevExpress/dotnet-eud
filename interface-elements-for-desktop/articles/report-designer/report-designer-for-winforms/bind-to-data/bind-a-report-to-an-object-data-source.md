@@ -33,7 +33,7 @@ This tutorial describes how to bind a report to an object data source:
 
 8. The next wizard page allows you to specify the constructor parameters.
 	
-	Enabling the checkbox in the **Expression** column allows you to specify the parameter expression (using the **Expression Editor**), as well as pass an existing [report parameter](../shape-report-data/use-report-parameters.md) to the constructor (or create a new report parameter using the in-place editor).
+	Enabling the checkbox in the **Expression** column allows you to specify the parameter expression (using the **Expression Editor**), as well as pass an existing [report parameter](../use-report-parameters.md) to the constructor (or create a new report parameter using the in-place editor).
 	
 	![](../../../../images/eurd-win-data-source-wizard-object-constructor-parameters.png)
 

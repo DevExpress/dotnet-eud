@@ -17,6 +17,7 @@ The Report Designer allows you to create data-bound reports and provides a rich 
 * [Create Reports](report-designer-for-winforms/create-reports.md)
 * [Configure Design Settings](report-designer-for-winforms/configure-design-settings.md)
 * [Use Report Elements](report-designer-for-winforms/use-report-elements.md)
+* [Use Report Parameters](report-designer-for-winforms/use-report-parameters.md)
 * [Shape Report Data](report-designer-for-winforms/shape-report-data.md)
 * [Lay out Dynamic Report Content](report-designer-for-winforms/lay-out-dynamic-report-content.md)
 * [Customize Appearance](report-designer-for-winforms/customize-appearance.md)

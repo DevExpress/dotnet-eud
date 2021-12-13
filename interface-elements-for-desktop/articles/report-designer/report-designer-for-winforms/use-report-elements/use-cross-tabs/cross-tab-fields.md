@@ -47,7 +47,7 @@ When the data area contains only one field, the field header is not displayed.
 
 > [!NOTE]
 > * You cannot bind the top left corner, row/column totals, and row/column grand totals;
-> * You cannot bind Cross Tab cells to [report parameters](../../shape-report-data/use-report-parameters.md);
+> * You cannot bind Cross Tab cells to [report parameters](../../use-report-parameters.md);
 > * You can only bind Cross Tab cells to fields from a data source and data member assigned to the **Data Source** and **Data Member** properties.
 
 ## Format Field Values

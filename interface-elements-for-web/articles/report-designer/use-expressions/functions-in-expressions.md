@@ -257,7 +257,7 @@ Below is a list of functions that are used to construct [expression bindings](da
   ```
 
 * Join()  
-  Concatenates the [multi-value report parameter](../shape-report-data/use-report-parameters/multi-value-report-parameters.md)'s values into a string. This function is useful when you [bind a multi-value parameter to a label](../shape-report-data/use-report-parameters/create-a-report-parameter.md) to display the parameter's values in a report.
+  Concatenates the [multi-value report parameter](../use-report-parameters/multi-value-report-parameters.md)'s values into a string. This function is useful when you [bind a multi-value parameter to a label](../use-report-parameters/create-a-report-parameter.md) to display the parameter's values in a report.
 
   This function has two overloads:
 
@@ -280,7 +280,7 @@ Below is a list of functions that are used to construct [expression bindings](da
 The following functions are used to bind a report to a stored procedure:
 
 * Join()  
-  Concatenates the [multi-value report parameter](../shape-report-data/use-report-parameters/multi-value-report-parameters.md)'s values into a string. This function can be used when mapping multi-value report parameters to query parameters generated from a stored procedure's parameters. Refer to the following topic for more information: [Query Parameters](../bind-to-data/specify-query-parameters.md).
+  Concatenates the [multi-value report parameter](../use-report-parameters/multi-value-report-parameters.md)'s values into a string. This function can be used when mapping multi-value report parameters to query parameters generated from a stored procedure's parameters. Refer to the following topic for more information: [Query Parameters](../bind-to-data/specify-query-parameters.md).
 
   This function has two overloads:
 
