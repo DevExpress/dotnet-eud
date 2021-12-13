@@ -60,7 +60,7 @@ Click the property marker to the right of the editor. Select **Reset** in the in
 
 ## Specify Expressions
 
-The **Properties** panel allows you to specify expressions that can calculate the value at runtime when a document is generated. Click the **f-marker** to invoke the [Expression Editor](expression-editor.md).
+The **Properties** panel allows you to specify expressions that can calculate the value at runtime when a document is generated. Click the **f-marker** to invoke the [Expression Editor](../expression-editor.md).
 
 ![](../../../../images/eurd-web-properties-panel-expressions.png)
 
