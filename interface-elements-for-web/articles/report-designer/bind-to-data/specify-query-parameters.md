@@ -19,7 +19,7 @@ Query parameters are used in the following scenarios:
 	
 	![](../../../images/eurd-web-query-parameters-create-query.png)
 	
-	... or when adding queries to an existing SQL data source or editing existing queries.
+	You can add queries to an existing SQL data source or edit existing queries:
 	
 	![](../../../images/eurd-web-query-parameters-add-edit-queries.png)
 	

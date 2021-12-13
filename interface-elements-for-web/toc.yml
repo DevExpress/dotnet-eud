@@ -569,9 +569,9 @@
   - name: Configure Design Settings
     href: articles/report-designer/configure-design-settings.md
     items:
-    - name: Change a Report's Measurement Units
+    - name: Change Report Measurement Units
       href: articles/report-designer/configure-design-settings/change-a-report-measurement-units.md
-    - name: Change a Report's Page Settings
+    - name: Change Report Page Settings
       href: articles/report-designer/configure-design-settings/change-a-report-page-settings.md
     - name: Enable the Right-To-Left Layout
       href: articles/report-designer/configure-design-settings/enable-the-right-to-left-layout.md  
@@ -968,6 +968,8 @@
           href: articles/report-designer/report-designer-tools/ui-panels/field-list.md
         - name: Report Explorer
           href: articles/report-designer/report-designer-tools/ui-panels/report-explorer.md
+        - name: Report Design Analyzer
+          href: articles/report-designer/report-designer-tools/ui-panels/report-design-analyzer.md
 - name: Ribbon
   href: articles/ribbon.md
   items:

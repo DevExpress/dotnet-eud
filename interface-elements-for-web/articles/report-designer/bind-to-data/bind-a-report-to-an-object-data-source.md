@@ -11,7 +11,7 @@ This topic describes how to bind a report to object data at design time.
 
 1. Select **Add Data Source** from the [designer menu](../report-designer-tools/menu.md).
 	
-    ![](../../../images/eurd-web-choose-data-source.png)
+    ![](../../../images/eurd-web-data-source-menu.png)
 
     This invokes the [Data Source Wizard](../report-designer-tools/data-source-wizard.md).
 

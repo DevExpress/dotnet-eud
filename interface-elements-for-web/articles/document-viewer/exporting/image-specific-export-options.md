@@ -4,7 +4,7 @@ author: Anna Gubareva
 legacyId: 115378
 ---
 # Image Export Options
-Before [exporting a document](export-a-document.md) to an image, you can specify Image-specific options in the dedicated **Export Options** panel.
+Before [exporting a document](export-a-document.md) to an image, you can specify Image-specific options in the **Export Options** panel.
 
 ![EUD_HTML5DV_ImageExportOptions](../../../images/img121800.png)
 * **Export Mode**

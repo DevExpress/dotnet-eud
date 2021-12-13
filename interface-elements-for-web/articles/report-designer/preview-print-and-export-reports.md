@@ -5,7 +5,7 @@ author: Anna Vekhina
 # Preview, Print and Export Reports
 
 ## Preview a Report
-To switch a report to the print preview mode, click the **Preview** ![](../../images/eurd-web-designer-main-toolbar-preview.png) button on the [toolbar](report-designer-tools/toolbar.md). You will see your report populated with data and broken down into pages, as specified.
+To switch a report to the print preview mode, click the **Preview** button on the [toolbar](report-designer-tools/toolbar.md). You will see your report populated with data and broken down into pages.
 
 ![](../../images/eurd-web-preview.png)
 
@@ -15,7 +15,7 @@ To switch a report to the print preview mode, click the **Preview** ![](../../im
 
 ## Print a Report
 
-When in the Preview mode, you can print out your report using the appropriate toolbar commands.
+When in the Preview mode, you can use toolbar commands to print out your report.
 
 ![](../../images/eurd-web-print.png)
 
