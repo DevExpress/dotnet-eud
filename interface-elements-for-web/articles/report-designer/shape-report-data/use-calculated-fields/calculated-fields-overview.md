@@ -59,7 +59,7 @@ _[\<Collection>][\<Condition>].\<Aggregate>(\<Expression>)_
 
 You can refer to the currently processed group using the Parent Relationship Traversal Operator ('^'). This allows you to calculate aggregates within groups using expressions like the following: _[][[^.CategoryID] == [CategoryID]].Sum([UnitPrice])_.
 
-For more information, see [Expression Syntax](../../use-expressions/expression-syntax.md).
+For more information, see [Expression Language](../../use-expressions/expression-language.md).
 
 ## <a name="examples"></a>Examples
 The following tutorials demonstrate the use of calculated fields in various environments:

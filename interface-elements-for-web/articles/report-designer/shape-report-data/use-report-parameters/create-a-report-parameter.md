@@ -18,7 +18,7 @@ Specify the following basic options:
 | --- | --- |
 | **Name** | A parameter should have a unique name. You can use this name to refer to this parameter in expressions and filter strings. |
 | **Type** | Specifies which values a parameter can accept. |
-| **Value** or **[Expression](../../use-expressions.md#expression-syntax)** | Specifies a parameter's value. Expressions can include data source fields or other parameters. When evaluated, expressions are parsed and processed to obtain a value. |
+| **Value** or **[Expression](../../use-expressions/expression-language.md)** | Specifies a parameter's value. Expressions can include data source fields or other parameters. When evaluated, expressions are parsed and processed to obtain a value. |
 
 ## Use the Parameters Panel to Ask for User Input
 

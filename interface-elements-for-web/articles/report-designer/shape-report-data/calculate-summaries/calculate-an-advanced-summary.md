@@ -25,7 +25,7 @@ This document describes how to calculate an advanced summary for report groups u
     ![](../../../../images/eurd-web-label-advanced-summary-expression-editor.png)
 
 	> [!TIP]
-	> See the [Expression Constants, Operators, and Functions](../../use-expressions/expression-syntax.md) topic for a complete list of supported summary functions.
+	> See the [Functions in Expressions](../../use-expressions/functions-in-expressions.md) topic for a complete list of supported summary functions.
 
 6. You can use the **Text Format String** property to format the summary's value.
 	

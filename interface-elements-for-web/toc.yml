@@ -878,10 +878,16 @@
   - name: Use Expressions
     href: articles/report-designer/use-expressions.md
     items:
-    - name: Expression Syntax
-      href: articles/report-designer/use-expressions/expression-syntax.md
-    - name: Data Binding Modes
-      href: articles/report-designer/use-expressions/data-binding-modes.md
+      - name: Expressions Overview
+        href: articles/report-designer/use-expressions/expressions-overview.md
+      - name: Expression Language
+        href: articles/report-designer/use-expressions/expression-language.md
+      - name: Functions in Expressions
+        href: articles/report-designer/use-expressions/functions-in-expressions.md
+      - name: "How to: Use Expressions"
+        href: articles/report-designer/use-expressions/how-to-use-expressions.md
+      - name: Data Binding Modes
+        href: articles/report-designer/use-expressions/data-binding-modes.md
   - name: Localize Reports
     href: articles/report-designer/localize-reports.md
   - name: Preview, Print and Export Reports
