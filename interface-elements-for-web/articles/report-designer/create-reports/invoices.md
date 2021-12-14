@@ -18,7 +18,7 @@ This tutorial describes how to create a simple invoice report displaying informa
 
 3. Select **Database** on the first page of the invoked Data Source Wizard and click **Next**.
 
-	![](../../../images/eurd-web-fullscreen-ds-wizard-select-data-source-type.png)
+	![](../../../images/eurd-web-data-source-wizard-select-db.png)
 
 4. Select a data connection on the next page.
 

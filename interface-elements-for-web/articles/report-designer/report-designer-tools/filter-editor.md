@@ -21,7 +21,7 @@ A filter condition consists of three parts:
 
 You can arrange specific conditions into groups with **And**, **Or**, **No And** , and **Not Or** operators.
 
-## Invoking the Filter Editor
+## Invoke the Filter Editor
 You can invoke the Filter Editor in one of the following ways:
 
 * In the [Properties](ui-panels/properties-panel.md) panel, click the ellipsis button for the report's **Filter String** property to filter data at the report level.

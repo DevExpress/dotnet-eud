@@ -7,7 +7,7 @@ owner: Anna Gubareva
 
 This page appears if you selected **Database** on the start page. 
 
-![](../../../../images/eurd-web-report-wizard-database-settings.png)
+![](../../../../images/eurd-web-data-source-wizard-choose-a-data-connection.png)
 
 ## Choose a Data Connection
 
@@ -41,11 +41,17 @@ Once you finished the wizard, the data source becomes available in the [Report E
 
 ## Configure Master-Detail Relationships
 
-This step is available when you selected two or more queries. 
+This step is available when you selected several tables or queries. 
 
-To create a master-detail relationship, click the master table's plus button, select the detail table in the invoked list, and connect the key fields.
+To create a master-detail relationship, hover the master table name, click the plus button and choose the detail table. 
 
-![](../../../../images/eurd-web-report-wizard-master-detail-relationship.png)
+![](../../../../images/eurd-web-binding-data-source-wizard-master-detail-relations.png)
+
+Select the required key fields (columns) to connect tables. 
+
+![](../../../../images/eurd-web-binding-data-source-wizard-master-detail-key-fields.png)
+
+Click **Finish** to close the Data Source Wizard.
 
 After the wizard is completed, the Field List reflects the master-detail hierarchy.
 
