@@ -214,11 +214,11 @@
   - name: Data Editing
     items:
     - name: Manage Tasks
-      href: articles/gantt/data-editing/modify-tasks.md
+      href: articles/gantt/data-editing/manage-tasks.md
     - name: Manage Dependencies
-      href: articles/gantt/data-editing/modify-dependencies.md
+      href: articles/gantt/data-editing/manage-dependencies.md
     - name: Manage Resources
-      href: articles/gantt/data-editing/modify-resources.md
+      href: articles/gantt/data-editing/manage-resources.md
 - name: Grid
   href: articles/grid.md
   items:
