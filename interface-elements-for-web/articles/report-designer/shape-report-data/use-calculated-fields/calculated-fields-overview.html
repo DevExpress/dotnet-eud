@@ -8,7 +8,7 @@
     <title>Calculated Fields Overview | DevExpress End-User Documentation </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Calculated Fields Overview | DevExpress End-User Documentation ">
-    <meta name="generator" content="docfx 2.56.7.0">
+    <meta name="generator" content="docfx 2.58.9.0">
     
     <link rel="shortcut icon" href="../../../../../favicon.ico">
     <link rel="stylesheet" href="../../../../../styles/docfx.vendor.css">
@@ -75,7 +75,7 @@
 <p><img src="../../../../images/eurd-web-add-calculated-field.png" alt=""></p>
 <p> Click the <strong>Edit</strong> button for the calculated field to display calculated field properties. Click the <strong>Expression</strong> property&#39;s ellipsis button.</p>
 <p><img src="../../../../images/eurd-web-calculated-field-eidt-expression.png" alt=""></p>
-<p>In the invoked <a href="../../report-designer-tools/expression-editor.html">Expression Editor</a>, construct the required expression. You can use data fields, <a href="../use-report-parameters.html">report parameters</a>, predefined constants as well as various date-time, logical, math and string functions. See the next document section for more information about expression syntax.</p>
+<p>In the invoked <a href="../../report-designer-tools/expression-editor.html">Expression Editor</a>, construct the required expression. You can use data fields, <a href="../../use-report-parameters.html">report parameters</a>, predefined constants as well as various date-time, logical, math and string functions. See the next document section for more information about expression syntax.</p>
 <p><img src="../../../../images/eurd-web-calculated-field-expression.png" alt=""></p>
 <div class="NOTE"><h5>Note</h5><p>The Expression Editor displays only those data fields that are obtained from a data source specified by the calculated field&#39;s <strong>Data Source</strong> and <strong>Data Member</strong> property values.</p>
 </div>
@@ -101,7 +101,7 @@
 <li><em>&lt;Expression&gt;</em> - Specifies an expression evaluating values to be used to perform calculation. For example, <em>[][[CategoryID] &gt; 5].Sum([UnitPrice]*[Quantity])</em>. The <strong>Count</strong> function does not require field values to count the records, so leave the round brackets empty for this function.</li>
 </ul>
 <p>You can refer to the currently processed group using the Parent Relationship Traversal Operator (&#39;^&#39;). This allows you to calculate aggregates within groups using expressions like the following: <em>[][[^.CategoryID] == [CategoryID]].Sum([UnitPrice])</em>.</p>
-<p>For more information, see <a href="../../use-expressions/expression-syntax.html">Expression Syntax</a>.</p>
+<p>For more information, see <a href="../../use-expressions/expression-language.html">Expression Language</a>.</p>
 <h2 id="examples">Examples</h2>
 <p>The following tutorials demonstrate the use of calculated fields in various environments:</p>
 <ul>
@@ -118,7 +118,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/21.1/interface-elements-for-web/articles/report-designer/shape-report-data/use-calculated-fields/calculated-fields-overview.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/21.2/interface-elements-for-web/articles/report-designer/shape-report-data/use-calculated-fields/calculated-fields-overview.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>
@@ -138,7 +138,7 @@
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            Copyright (c) 1998-2019 Developer Express Inc. All rights reserved.
+            Copyright (c) 1998-2021 Developer Express Inc. All rights reserved.
             
           </div>
         </div>

@@ -8,7 +8,7 @@
     <title>Summary Level Aggregations | DevExpress End-User Documentation </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Summary Level Aggregations | DevExpress End-User Documentation ">
-    <meta name="generator" content="docfx 2.56.7.0">
+    <meta name="generator" content="docfx 2.58.9.0">
     
     <link rel="shortcut icon" href="../../../../../favicon.ico">
     <link rel="stylesheet" href="../../../../../styles/docfx.vendor.css">
@@ -69,8 +69,8 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="summary-level-aggregations">Summary Level Aggregations</h1>
 
-<p>The Dashboard Designer allows you to perform aggregations when constructing a <a href="../../work-with-data/creating-calculated-fields.html">calculated field expression</a>. This allows you to evaluate calculated fields on a summary level.</p>
-<p>In the Dashboard Designer, you can use the following set of predefined aggregate functions.</p>
+<p>The Dashboard Designer aggregates data when you construct a <a href="../../work-with-data/creating-calculated-fields.html">calculated field expression</a>. This allows you to evaluate calculated fields on a summary level.</p>
+<p>In the Dashboard Designer, you can use the following set of predefined aggregate functions:</p>
 <p><img src="../../../../images/img118142.png" alt="BlogDashboard_SummaryCalculatedField_Functions"></p>
 <table>
 <thead>
@@ -82,7 +82,7 @@
 <tbody>
 <tr>
 <td>Aggr(SummaryExpression, Dimensions)</td>
-<td>Aggregates underlying data using the detail level specified by a predefined set of dimensions and a specified summary function. To learn more, see <a href="intermediate-level-aggregations.html">Intermediate Level Aggregations</a>.</td>
+<td>Aggregates underlying data using the detail level specified by a predefined set of dimensions and a specified summary function. For more information, see <a href="intermediate-level-aggregations.html">Intermediate Level Aggregations</a>.</td>
 </tr>
 <tr>
 <td>Avg(Value)</td>
@@ -130,7 +130,13 @@
 </tr>
 </tbody>
 </table>
-<p>These functions can be used for all types of numeric fields. After creating such calculated fields, you can use them as measures contained in an OLAP cube.</p>
+<p>These functions can be used for all types of numeric fields. After creating such calculated fields, you can use them as measures in an OLAP cube.</p>
+<h2 id="custom-aggregate-functions">Custom Aggregate Functions</h2>
+<p>Along with the predefined aggregations (like Min, Max, Sum, Avg), the Dashboard supports custom aggregation functions. A custom aggregate function appears in the <a href="../../../../../interface-elements-for-desktop/articles/expression-editor.html">Expression Editor</a>&#39;s categories if the function was registered in your application.</p>
+<p>The following image illustrates the custom <em>StringConcat</em> function in the <strong>Aggregate</strong> function’s category:</p>
+<p><img src="../../../../images/win-custom-aggr-function-in-expression-editor.png" alt="win-custom-aggr-function-in-expression-editor"></p>
+<p>Names of custom aggregate functions are stored in the <strong>Custom Aggregate Names</strong> category and can be used as arguments when you create window calculations as <em>WindowAggregate</em> and <em>RunningAggregate</em>.</p>
+<p>Refer to the following topic for detains: <a href="../window-calculations/calculation-functions-reference.html">Calculation Functions Reference</a>.</p>
 </article>
           </div>
           
@@ -139,7 +145,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/21.1/dashboard-for-desktop/articles/dashboard-designer/data-analysis/aggregations/summary-level-aggregations.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/21.2/dashboard-for-desktop/articles/dashboard-designer/data-analysis/aggregations/summary-level-aggregations.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>
@@ -159,7 +165,7 @@
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            Copyright (c) 1998-2019 Developer Express Inc. All rights reserved.
+            Copyright (c) 1998-2021 Developer Express Inc. All rights reserved.
             
           </div>
         </div>

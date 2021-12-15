@@ -8,7 +8,7 @@
     <title>Query Builder | DevExpress End-User Documentation </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Query Builder | DevExpress End-User Documentation ">
-    <meta name="generator" content="docfx 2.56.7.0">
+    <meta name="generator" content="docfx 2.58.9.0">
     
     <link rel="shortcut icon" href="../../../../../favicon.ico">
     <link rel="stylesheet" href="../../../../../styles/docfx.vendor.css">
@@ -67,108 +67,64 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="query-builder">Query Builder</h1>
+<h1 id="sql-query-builder-winforms">SQL Query Builder (WinForms)</h1>
 
-<p>The <strong>Query Builder</strong> provides a visual interface for constructing SQL queries used to access database tables and views.</p>
-<p><img src="../../../../images/eurd-win-query-builder.png" alt="query-builder"></p>
-<div class="NOTE"><h5>Note</h5><p>The Query Builder is not available for <a href="data-source-wizard/connect-to-an-object-data-source.html">object</a>, <a href="data-source-wizard/connect-to-an-entity-framework-data-source.html">Entity Framework</a> and <a href="data-source-wizard/connect-to-an-excel-data-source.html">Excel</a> data sources.</p>
-</div>
-<h2 id="runquerybuilder">Run the Query Builder</h2>
-<p>You can invoke the <strong>Query Builder</strong> from the <a href="data-source-wizard/connect-to-a-database/create-a-query-or-select-a-stored-procedure.html">query customization</a> page of the <a href="report-wizard.html">Report Wizard</a>. On this page, click the <img src="../../../../images/eurd-win-report-wizard-multi-query-page-icon-add.png" alt="report-wizard-multi-query-page-icon-add"> button for the <strong>Queries</strong> category to create a new query using the Query Builder.</p>
-<p><img src="../../../../images/eurd-win-report-wizard-invoke-query-builder.png" alt="eurd-win-report-wizard-invoke-query-builder"></p>
-<p>You can use the Query Builder to add queries to an existing SQL data source, as well as to edit existing queries. To do this, right-click the data source in the <a href="ui-panels/report-explorer.html">Report Explorer</a> or <a href="ui-panels/field-list.html">Field List</a>, and select <strong>Manage Queries...</strong> in the context menu.</p>
-<p><img src="../../../../images/eurd-win-report-explorer-field-list-manage-queries.png" alt="report-explorer-field-list-manage-queries"></p>
-<p>In the invoked <strong>Manage Queries</strong> dialog, click <strong>Add</strong> to add a new query. To edit an existing query, click the ellipsis button for it.</p>
-<p><img src="../../../../images/eurd-win-query-designer-query-collection-editor.png" alt="query-designer-query-collection-editor"></p>
-<p>Finally, click the <strong>Run Query Builder...</strong> button in the invoked <strong>Query Editor</strong>.</p>
-<h2 id="selecttables">Select Tables</h2>
-<p>You can add a specific data table or view to a query by dragging the corresponding item from the list of available tables and dropping it onto the list of data tables to be used.</p>
-<p><img src="../../../../images/qeurd-win-uery-builder-diagram-drop-table.png" alt="query-builder-diagram-drop-table"></p>
-<p>Enable check boxes for the table fields that you want to include in the query result set.</p>
-<p><img src="../../../../images/eurd-win-query-builder-diagram-select-fields.png" alt="query-builder-diagram-select-fields"></p>
-<p>Each table provides the context menu, which allows you to rename the table or remove it from the query.</p>
-<p><img src="../../../../images/eurd-win-query-builder-diagram-table-context-menu.png" alt="query-builder-diagram-table-context-menu"></p>
-<p>Click the list of available tables on the left and press CTRL+F to search for a specific table or view.</p>
-<p><img src="../../../../images/eurd-win-query-builder-search-table.png" alt="query-builder-search-table"></p>
-<h2 id="jointables">Join Tables</h2>
-<p>You can join multiple tables within the same query. The Query Builder automatically highlights tables related to any of the previously added tables. Drag-and-drop a subordinate table in the same way you added a main table to include it in a query and automatically create an inner join relation based on a key column.</p>
-<p><img src="../../../../images/eurd-win-query-builder-diagram-join-tables.png" alt="query-builder-diagram-join-tables"></p>
-<p>Alternatively, you can join tables by clicking the plus button <img src="../../../../images/eurd-win-query-builder-plus-button.png" alt="QueryBuilderPlusButton"> in a row corresponding to a key column.</p>
-<p>You can customize the relationship by right-clicking it on the diagram and selecting <strong>Edit Relation</strong> in the invoked context menu. Use the <strong>Join Editor</strong> to select the join type (<strong>Left Outer</strong> or <strong>Inner</strong>), apply a logical operator (<strong>Equals to</strong>, <strong>Is less than</strong>, etc.) and column key fields.</p>
-<p><img src="../../../../images/eurd-win-query-builder-diagram-join-editor.png" alt="query-builder-diagram-join-editor"></p>
-<p>A left outer join returns an inner join’s values, along with all the values in the &quot;left&quot; table that do not match the &quot;right&quot; table, including rows with NULL (empty) values in the key field.</p>
-<p>When the left outer join is selected, the relationship line displays an arrow pointing to the &quot;right&quot; table.</p>
-<p><img src="../../../../images/eurd-win-query-builder-diagram-left-outer-join.png" alt="query-builder-diagram-left-outer-join"></p>
-<p>You can manually join tables if they do not have a relationship at the database level. In this case, when you drag-and-drop a table onto the list of tables, the <strong>Join Editor</strong> is automatically invoked allowing you to construct a custom <strong>join</strong> relationship.</p>
-<p>After executing the query, it returns a &quot;flat&quot; table composed of data records selected based on the specified join options.</p>
-<div class="NOTE"><h5>Note</h5><p>Although joining different tables within a single query may be required in some scenarios, creating <a href="data-source-wizard/connect-to-a-database/create-a-query-or-select-a-stored-procedure.html">hierarchical data sources</a> generally results in better performance (in general, <a href="../create-reports/master-detail-reports-with-detail-report-bands.html">master-detail reports</a> are generated faster than similar-looking reports created by grouping &quot;flat&quot; data sources).</p>
-</div>
-<h2 id="editparameters">Edit Parameters</h2>
-<p>Click the <strong>Edit Parameters</strong> button to invoke the <strong>Query Parameters</strong> dialog, which allows you to add and remove <a href="../bind-to-data/specify-query-parameters.html">query parameters</a> as well as specify parameter settings.</p>
-<p><img src="../../../../images/eurd-win-query-builder-diagram-query-parameters.png" alt="query-builder-diagram-query-parameters"></p>
-<p>For each query parameter, the following properties are available.</p>
+<p>The <strong>Query Builder</strong> allows you to construct SQL queries to retrieve data from an <a href="../bind-to-data/bind-a-report-to-a-database.html">SQL Database</a>.</p>
+<p><img src="../../../../images/winforms-sql-query-builder.png" alt="Query Builder"></p>
+<h2 id="run-the-query-builder">Run the Query Builder</h2>
+<p>Use the <a href="data-source-wizard.html">Data Source Wizard</a> or <a href="report-wizard.html">Report Wizard</a> to bind your report to an <a href="../bind-to-data/bind-a-report-to-a-database.html">SQL Database</a>. Switch to the <a href="data-source-wizard/connect-to-a-database/create-a-query-or-select-a-stored-procedure.html">query customization page</a> and click the <em>Add</em> button in the <strong>Queries</strong> row.</p>
+<p><img src="../../../../images/winforms-data-source-wizard-query-customization-page.png" alt="Data Source Wizard&#39;s Query Customization Page"></p>
+<h2 id="select-tables">Select Tables</h2>
+<p>Drag the table that you want to add to a query from the list of available tables and drop the table onto the <strong>Query Builder</strong> surface.</p>
+<p><img src="../../../../images/winforms-query-builder-drag-and-drop-table.png" alt="Query Builder: Drag and Drop a Table"></p>
+<p>To find a table by name, switch to the table list, press <em>CTRL+F</em>, and enter the table name in the editor.</p>
+<p><img src="../../../../images/winforms-query-builder-find-table-by-name.png" alt="Query Builder: Find a Table by Name"></p>
+<p>Enable checkboxes for the table columns that you want to include in the query.</p>
+<p><img src="../../../../images/winforms-query-builder-select-columns.png" alt="Query Builder: Select Columns"></p>
+<p>If you want to include all the columns available in the table, enable <strong>* (All Columns)</strong>.</p>
+<p>Right-click the table and select <em>Rename</em> or <em>Delete</em> to change the table&#39;s name or remove it.</p>
+<p><img src="../../../../images/winforms-query-builder-delete-or-rename-column.png" alt="Query Builder: Rename or Delete Column"></p>
+<h2 id="join-tables">Join Tables</h2>
+<p>You can join multiple tables within the same query. Do one of the following to add a table onto the <strong>Query Builder</strong> surface:</p>
 <ul>
-<li><strong>Name</strong> - specifies the name used to refer a parameter.</li>
-<li><strong>Type</strong> - specifies the data type of the parameter&#39;s value.</li>
-<li><strong>Expression</strong> - determines whether the actual parameter value is static or generated dynamically.</li>
-<li><strong>Value</strong> - specifies the actual value of a query parameter. If the <strong>Expression</strong> option is enabled, the actual parameter value is produced dynamically by calculating an associated <a href="../use-expressions.html">expression</a>, which is particularly useful when you need to map the query parameter value to the value of a <a href="../shape-report-data/use-report-parameters.html">report parameter</a>.</li>
+<li>Drag and drop a table from the table list onto the surface. </li>
+<li>Double-click a table in the table list.</li>
 </ul>
-<p>The created parameters will be then available on the <a href="data-source-wizard/connect-to-a-database/configure-query-parameters.html">Configure Query Parameters</a> wizard page.</p>
-<p>For general information on query parameters and ways of providing parameter values, see <a href="../bind-to-data/specify-query-parameters.html">Specify Query Parameters</a>.</p>
-<h2 id="filterdata">Filter Data</h2>
-<p>To specify filter criteria, click the <strong>Filter...</strong> button in the Query Builder. This invokes the <strong>Filter Editor</strong>, which provides the following capabilities.</p>
-<p><img src="../../../../images/eurd-win-query-designer-filter.png" alt="query-designer-filter"></p>
-<ul>
-<li><p><strong>Filter Tab</strong></p>
-<p>  The editor contains the <strong>Filter</strong> tab allowing you to specify filter conditions for resulting data. Filter criteria can be assigned <a href="data-source-wizard/connect-to-a-database/configure-query-parameters.html">query parameters</a> or bound to <a href="../shape-report-data/use-report-parameters.html">report parameters</a>.</p>
-</li>
-<li><p><strong>Group Filter Tab</strong></p>
-<p>  The <strong>Group Filter</strong> tab allows you to specify filter conditions for grouped and aggregated data. If data is not grouped, the second tab is disabled.</p>
-</li>
-<li><p><strong>Other Options</strong></p>
-<p>  Using this editor, you can limit the number of resulting data rows. If data is sorted, you can specify how many rows to skip before retrieving the specified number of rows.</p>
-<div class="NOTE"><h5>Note</h5><p>Depending on the selected data provider, it can be impossible to take into account the skip setting in the provider-specific SQL string.</p>
+<p>The table list on the left highlights all child and parent tables that are bound to the dropped table by a foreign key. </p>
+<p><img src="../../../../images/winforms-query-builder-table-added-to-a-query.png" alt="Query Builder: Table Added to a Query"></p>
+<p>Add required tables to the surface. The <em>Inner Join</em> relation with the previously added table is created automatically. Added tables display the green plus button for the columns that refer to other tables. You can click this icon to add a linked table to the query and create the <em>Inner Join</em> relation with this table.</p>
+<p><img src="../../../../images/winforms-query-builder-create-inner-join-relation-automatically.png" alt="Query Builder: Create the Inner Join Relation Automatically"></p>
+<p>Right-click a relation to edit, delete, or reverse.</p>
+<p><img src="../../../../images/winforms-query-builder-edit-relation.png" alt="Query Builder: Edit Relation"></p>
+<p>The <em>Edit Relation</em> command invokes the <strong>Join Editor</strong>. It allows you to specify the join type (<em>Inner</em>, <em>Left Outer</em>, <em>Right Outer</em>, or <em>Full Outer</em> ), columns by which the tables should be joined, and a logical operator (<em>Equal to</em>, <em>Is less than</em>, or others) used to compare table columns.</p>
+<p><img src="../../../../images/winforms-query-builder-join-editor.png" alt="Query Builder: Join Editor"></p>
+<p>You can manually join tables if they are not bound by a foreign key at the database level. In this case, when you drag-and-drop a table onto the <strong>Query Builder</strong> surface, the <strong>Join Editor</strong> is automatically invoked, and this editor allows you to construct a custom join relation.</p>
+<p><img src="../../../../images/winforms-query-builder-create-relation-manually-in-the-join-editor.png" alt="Query Builder: Create Relation Manually in the Join Editor"></p>
+<div class="NOTE"><h5>Note</h5><p>When you join multiple tables within a single SQL query, you create a flattened table composed of data records selected based on the specified join relations. You can also create <a href="data-source-wizard/connect-to-a-database/create-a-query-or-select-a-stored-procedure.html">hierarchical data sources</a>. In general, <a href="../create-reports/master-detail-reports-with-detail-report-bands.html">master-detail reports</a> are generated faster than similar-looking reports created based on flattened data sources. If possible, use hierarchical data sources instead of flattened ones.</p>
 </div>
-<p>  Another option enables you to include only distinct values into the resulting set.</p>
-</li>
-</ul>
-<h2 id="shapedata">Shape Data</h2>
-<p>The Query Builder displays the column list under the data source editor, which provides various shaping options:</p>
-<p><img src="../../../../images/eurd-win-query-builder-column-list-shaping-data.png" alt="query-builder-column-list-shaping-data"></p>
+<h2 id="shape-data">Shape Data</h2>
+<p>The <strong>Query Builder</strong> displays a list of the query&#39;s columns at the bottom-right corner.</p>
+<p><img src="../../../../images/winforms-query-builder-list-of-selected-columns.png" alt="Query Builder: List of Selected Table Columns"></p>
+<p>This list allows you to add new table columns to the query or shape selected table columns. The following options are available:</p>
 <ul>
-<li><p><strong>Column</strong></p>
-<p>  Specifies the selected column.</p>
-<p>  You can choose a column from the drop-down list or create a column expression by clicking the corresponding column&#39;s ellipsis button.</p>
-<p>  <img src="../../../../images/eurd-win-query-builder-column-expression.png" alt="query-builder-column-expression"></p>
+<li><p><strong>Column</strong> - Specifies the selected column. Click the down-arrow button to display a drop-down column list and replace the column with another column. Click the ellipsis button to replace the column with an <a href="../use-expressions.html">expression</a>.</p>
+<p>  <img src="../../../../images/winforms-query-builder-specify-expression-for-column.png" alt="Query Builder: Specify an Expression for a Column"></p>
 </li>
-<li><p><strong>Table</strong></p>
-<p>  Specifies the table containing the selected column.</p>
-<p>  This option indicates <strong>(All Tables)</strong> if you created an expression for the corresponding column.</p>
+<li><p><strong>Table</strong> - The table that contains the selected column. When you create an expression for a column, this option displays <strong>(All Tables)</strong>.</p>
 </li>
-<li><p><strong>Alias</strong></p>
-<p>  Specifies a custom column name (alias).</p>
-<p>  This option is available only for columns that you included in a query.</p>
+<li><p><strong>Alias</strong> - A custom column name.</p>
 </li>
-<li><p><strong>Output</strong></p>
-<p>  Specifies whether to include the column in the query&#39;s resulting set.</p>
+<li><p><strong>Output</strong> - Specifies whether to include the column in the query&#39;s resulting set.</p>
 </li>
-<li><p><strong>Sorting Type</strong></p>
-<p>  Specifies whether to preserve the original data record order within the column or sort them (ascending or descending).</p>
-<div class="NOTE"><h5>Note</h5><p>When binding to XML files, the Query Builder does not support sorting by aggregate functions, DISTINCT and SELECT ALL statements, and custom SQL.</p>
+<li><p><strong>Sorting Type</strong> - Specifies whether to keep the initial data record order (<strong>Unsorted</strong>) or sort the records by the column (<strong>Ascending</strong> or <strong>Descending</strong>).</p>
+<div class="NOTE"><h5>Note</h5><p>When you bind a report to an XML file, the <strong>Query Builder</strong> does not support sorting by aggregate functions and the <em>DISTINCT</em> and <em>SELECT ALL</em> statements.</p>
 </div>
 </li>
-<li><p><strong>Sort Order</strong></p>
-<p>  This option becomes available after applying sorting to the data column records.</p>
-<p>  It defines the priority in which sorting is applied to multiple columns (a lower number has a higher priority).</p>
-<p>  For example, if column <strong>A</strong> has the sort order set to <strong>1</strong> and column <strong>B</strong> has it set to <strong>2</strong>, the query is first sorted by column <strong>A</strong> and then by the column <strong>B</strong>.</p>
-<p>  Changing this setting for one column automatically updates other columns’ sorting order to avoid conflicting priorities.</p>
+<li><p>Sort Order - Defines the sort order when data is sorted by multiple columns. For example, if column <strong>A</strong> has the sort order set to <strong>1</strong> and column <strong>B</strong> has it set to <strong>2</strong>, data records are first sorted by column <strong>A</strong> and then by column <strong>B</strong>. This option is available if you enable the <strong>Sorting Type</strong> option.</p>
 </li>
-<li><p><strong>Group By</strong></p>
-<p>  Specifies whether to group the query&#39;s resulting set by this column.</p>
+<li><p><strong>Group By</strong> - Specifies whether to group the query&#39;s resulting set by this column.</p>
 </li>
-<li><p><strong>Aggregate</strong></p>
-<p>  Specifies whether to aggregate the column&#39;s data records.</p>
-<p>  The following aggregate functions are supported:</p>
+<li><p><strong>Aggregate</strong> - Specifies whether to apply an aggregate function to column values. The following aggregate functions are supported:</p>
 <ul>
 <li>Count</li>
 <li>Max</li>
@@ -177,18 +133,66 @@
 <li>Sum</li>
 <li>CountDistinct</li>
 <li>AvgDistinct</li>
-<li><p>SumDistinct</p>
-<p>Applying any of these functions to a column discards individual data records from the query result set, which only includes the aggregate function result.</p>
-</li>
+<li>SumDistinct</li>
 </ul>
 </li>
 </ul>
-<div class="NOTE"><h5>Note</h5><p>You should apply aggregation/grouping to either all columns or none of them.</p>
+<p>When you want to use the <strong>Group By</strong> or <strong>Aggregate</strong> operations, you should apply them either to all columns or none of them. When you use these operations, only the result of aggregation or grouping is included in the result set.</p>
+<h2 id="filter-data">Filter Data</h2>
+<p>Click the <strong>Filter</strong> button to invoke the <strong>Filter Editor</strong>.</p>
+<p><img src="../../../../images/winforms-query-builder-click-filter-button.png" alt="Query Builder: Click Filter Button"></p>
+<p><img src="../../../../images/winforms-query-builder-filter-editor.png" alt="Query Builder: Filter Editor"></p>
+<p>The editor has the following tabs:</p>
+<ul>
+<li><strong>Filter Tab</strong> - Allows you to build criteria to filter data for the report. Filter criteria can reference <a href="../bind-to-data/specify-query-parameters.html">query parameters</a>, which you can also map to <a href="../use-report-parameters.html">report parameters</a>.</li>
+<li><strong>Group Filter Tab</strong> - Allows you to specify filter conditions for grouped and aggregated data. This tab is disabled if the data is not grouped.</li>
+</ul>
+<p>You can also enable the <strong>Select only</strong> option to limit the number of resulting data records. If you enable the <strong>Sorting Type</strong> option for at least one column, you can specify how many data records should be skipped.</p>
+<div class="NOTE"><h5>Note</h5><p>Some data providers do not support the skip setting in the provider-specific SQL string. If you enable the <strong>Select only</strong> option for such data providers, data records are skipped but the <em>SKIP</em> statement is not included in the SQL query.</p>
 </div>
-<h2 id="previewresults">Preview Results</h2>
-<p>You can preview the query execution&#39;s result in a tabular form by clicking the <strong>Preview Results</strong> button.</p>
-<p>This opens the <strong>Data Preview</strong> window displaying the query result set (limited to the first 1000 data records).</p>
-<p><img src="../../../../images/eurd-win-query-designer-preview.png" alt="query-designer-preview"></p>
+<p>The <strong>Select only distinct values</strong> option allows you to include only unique values into the resulting set.</p>
+<h2 id="edit-query-parameters">Edit Query Parameters</h2>
+<p>Click <strong>Edit Parameters</strong> to invoke the <strong>Query Parameters</strong> dialog.</p>
+<p><img src="../../../../images/winforms-query-builder-click-edit-parameters-button.png" alt="Query Builder: Click Edit Parameters Button"></p>
+<p>This dialog allows you to add, edit, and remove <a href="../bind-to-data/specify-query-parameters.html">query parameters</a>. The created parameters are available on the <a href="data-source-wizard/connect-to-a-database/configure-query-parameters.html">Configure Query Parameters</a> wizard page.</p>
+<p><img src="../../../../images/winforms-query-builder-query-parameters-dialog.png" alt="Query Builder: Query Parameters Dialog"></p>
+<p>The following properties are available for each query parameter:</p>
+<ul>
+<li><p><strong>Name</strong> - The name by which you can reference the parameter.</p>
+</li>
+<li><p><strong>Type</strong> - The data type of the parameter&#39;s value.</p>
+</li>
+<li><p><strong>Expression</strong> - Specifies whether the parameter&#39;s value is static or generated dynamically. You can enable this option when you need to map the parameter&#39;s value to a <a href="../use-report-parameters.html">report parameter</a>&#39;s value.</p>
+</li>
+<li><p><strong>Value</strong> - The parameter&#39;s value. If the <strong>Expression</strong> option is enabled, this value is generated dynamically based on the parameter&#39;s <a href="../use-expressions.html">expression</a>.</p>
+</li>
+</ul>
+<p>Refer to the following topic for more information: <a href="../bind-to-data/specify-query-parameters.html">Specify Query Parameters</a>.</p>
+<h2 id="preview-results">Preview Results</h2>
+<p>Click the <strong>Preview Results</strong> button to open the <strong>Data Preview</strong> dialog.</p>
+<p><img src="../../../../images/winforms-query-builder-preview-results-button.png" alt="Query Builder: Preview Results Button"></p>
+<p>The dialog displays the first 1000 rows of the query result set.</p>
+<p><img src="../../../../images/winforms-query-builder-preview-results.png" alt="Query Builder: Preview Results"></p>
+<h2 id="manage-queries">Manage Queries</h2>
+<p>Right-click a data source in the <a href="ui-panels/report-explorer.html">Report Explorer</a> or <a href="ui-panels/field-list.html">Field List</a> and select <strong>Manage Queries</strong> in the context menu.</p>
+<p><img src="../../../../images/winforms-invoke-manage-queries-dialog.png" alt="Invoke the Manage Queries Dialog"></p>
+<p>This invokes the <strong>Manage Queries</strong> dialog that allows you to perform operations on queries and stored procedures.</p>
+<p><img src="../../../../images/winforms-manage-queries-dialog.png" alt="Manage Queries Dialog"></p>
+<h3 id="add-a-new-query">Add a New Query</h3>
+<p>Click <strong>Add</strong>, specify a name for the new query, and <a href="#select-tables">select tables</a> that you want to include in the query.</p>
+<p><img src="../../../../images/winforms-manage-queries-dialog-add-new-query.png" alt="Manage Queries Dialog: Add a New Query"></p>
+<h3 id="copy-and-remove-queries">Copy and Remove Queries</h3>
+<p>Select a query and click the <em>Copy</em> or <em>Remove</em> icon.</p>
+<p><img src="../../../../images/winforms-manage-queries-dialog-copy-or-remove-query.png" alt="Manage Queries Dialog: Copy or Remove a Query"></p>
+<h3 id="modify-stored-procedures">Modify Stored Procedures</h3>
+<p>Select an existing stored procedure and choose a new one that you want to include in a query.</p>
+<p><img src="../../../../images/winforms-manage-queries-dialog-modify-a-stored-procedure.png" alt="Manage Queries Dialog: Modify a Stored Procedure"></p>
+<h3 id="add-a-new-stored-procedure">Add a New Stored Procedure</h3>
+<p>Expand the <strong>Add</strong> menu and select <strong>Stored Procedure</strong>.</p>
+<p><img src="../../../../images/winforms-manage-queries-dialog-add-a-stored-procedure.png" alt="Manage Queries Dialog: Add a Stored Procedure"></p>
+<h3 id="rename-a-query-or-stored-procedure">Rename a Query or Stored Procedure</h3>
+<p>Double-click an item in the list of queries and stored procedures and use the editor to specify a new name for this item.</p>
+<p><img src="../../../../images/winforms-manage-queries-dialog-change-item-name.png" alt="Manage Queries Dialog: Change an Item&#39;s Name"></p>
 </article>
           </div>
           
@@ -197,7 +201,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/21.1/interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-tools/query-builder.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/21.2/interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-tools/query-builder.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>
@@ -217,7 +221,7 @@
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            Copyright (c) 1998-2019 Developer Express Inc. All rights reserved.
+            Copyright (c) 1998-2021 Developer Express Inc. All rights reserved.
             
           </div>
         </div>

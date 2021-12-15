@@ -8,7 +8,7 @@
     <title>Field List | DevExpress End-User Documentation </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Field List | DevExpress End-User Documentation ">
-    <meta name="generator" content="docfx 2.56.7.0">
+    <meta name="generator" content="docfx 2.58.9.0">
     
     <link rel="shortcut icon" href="../../../../../../favicon.ico">
     <link rel="stylesheet" href="../../../../../../styles/docfx.vendor.css">
@@ -69,39 +69,44 @@
             <article class="content wrap" id="_content" data-uid="4259">
 <h1 id="field-list">Field List</h1>
 
-<p>This panel displays the schema of a report&#39;s data sources. You can right-click a data source item to access its settings. For example, you can add a data source to the <a href="report-gallery.html">Report Gallery</a> to later re-use it in other reports.</p>
-<p><img src="../../../../../images/eurd-win-field-list-data-source-add-to-gallery.png" alt="design-time-field-list-data-source-add-to-gallery"></p>
-<p>The Field List enables you to perform the following actions.</p>
+<p>This panel displays the schemas of a report’s data sources.</p>
+<p><img src="../../../../../images/eurd-win-field-list.png" alt="Field List"></p>
+<p>Right-click a data source to access its settings. For instance, you can add the data source to the <a href="report-gallery.html">Report Gallery</a> to reuse it in other reports.</p>
+<p><img src="../../../../../images/eurd-win-field-list-data-source-add-to-gallery.png" alt="Field List - Add Data Source to Report Gallery"></p>
+<p>The Field List allows you to do the following:</p>
+<h2 id="search-fields">Search fields</h2>
+<p>Enter a search string in the search box. The Field List filters fields and tables to match the entered string.</p>
+<p><img src="../../../../../images/eurd-win-field-list-search.png" alt="Field List - Search"></p>
 <h2 id="bind-controls-to-data">Bind controls to data</h2>
-<p>Dropping a field onto a report&#39;s surface creates a new report control bound to a corresponding field.</p>
-<p><img src="../../../../../images/eurd-win-field-list-drop-fields.png" alt="eurd-win-field-list-drop-fields"></p>
-<p>Dropping a field onto an existing control binds this control to a corresponding field.</p>
-<p><img src="../../../../../images/eurd-win-field-list-drop-field-to-control.png" alt="eurd-win-field-list-drop-field-to-control"></p>
-<p>You can preserve data bindings of an existing control by holding down the CTRL key when dropping a data field on this control. This creates a new report control on top of the existing control.</p>
-<p><img src="../../../../../images/eurd-win-field-list-avoid-data-binding.png" alt="eurd-win-field-list-avoid-data-binding"></p>
-<h2 id="create-specific-controls">Create specific controls</h2>
-<p>To create a data-bound control of a specific type, do any of the following:</p>
+<p>Drop a field onto a report&#39;s surface to create a new report control bound to this field.</p>
+<p><img src="../../../../../images/eurd-win-field-list-drop-fields.png" alt="Field List - Drop Field Onto the Surface"></p>
+<p>Drop a field onto an existing report control to bind this control to the field.</p>
+<p><img src="../../../../../images/eurd-win-field-list-drop-field-to-control.png" alt="Field List - Drop Field Onto a Control"></p>
+<p>Hold the CTRL key when you drop a field on top of an existing control to keep the control&#39;s current data binding setting. In this case, a new report control is created.</p>
+<p><img src="../../../../../images/eurd-win-field-list-avoid-data-binding.png" alt="Field List - Drop Field Onto a Control and Keep Binding"></p>
+<p><strong>Select which control to create</strong></p>
+<p>Do any of the following:</p>
 <ul>
-<li>Hold down the SHIFT key and drop a data field onto a report&#39;s surface.</li>
-<li>Right-click a corresponding data field and drop it onto a report&#39;s surface.</li>
+<li>Hold the SHIFT key when you drop a data field onto the report surface.</li>
+<li>Right-click a data field and drop it onto the report surface.</li>
 </ul>
-<p>This invokes a context menu enabling you to select which control to create.</p>
-<p><img src="../../../../../images/eurd-win-fieldlist-create-specific-contols.png" alt="eurd-win-fieldlist-create-specific-contols"></p>
+<p>This invokes a context menu where you can select which control to create.</p>
+<p><img src="../../../../../images/eurd-win-fieldlist-create-specific-contols.png" alt="Field List - Select Which Control to Create"></p>
 <h2 id="create-tables">Create tables</h2>
-<p>Dropping an entire data table onto a report creates a table with its columns bound to fields contained in the data table.</p>
-<p><img src="../../../../../images/eurd-win-field-list-drop-table.png" alt="eurd-win-field-list-drop-table"></p>
-<p>To select multiple fields, click them with holding the CTRL or SHIFT key. Dropping these fields onto a report creates a new table with its cells bound to the corresponding fields.</p>
-<p><img src="../../../../../images/eurd-win-list-drop-multiple-fields.png" alt="design-time-field-list-drop-multiple-fields"></p>
-<p>To create column headers, right-click the required fields with holding the CTRL or SHIFT key and drop them onto a report surface. This creates a new table with its cells displaying the field names.</p>
-<p><img src="../../../../../images/eurd-win-field-list-multi-select-bound-table-cells.png" alt="eurd-win-field-list-multi-select-bound-table-cells"></p>
+<p>Drop an entire data table onto the report to create a report table with columns bound to the data table&#39;s fields.</p>
+<p><img src="../../../../../images/eurd-win-field-list-drop-table.png" alt="Field List - Drop Table"></p>
+<p>Hold the CTRL or SHIFT key to select multiple data fields in the Field List. Drop these fields onto the report to create a report table that only has the selected fields.</p>
+<p><img src="../../../../../images/eurd-win-list-drop-multiple-fields.png" alt="Field List - Select Specific Fields"></p>
+<p>Hold the SHIFT key when you drop the selected fields onto the report to only create column headers. This creates a new table whose cells display the selected field names. Alternatively, you can drag and drop fields with the right mouse button.</p>
+<p><img src="../../../../../images/eurd-win-field-list-multi-select-bound-table-cells.png" alt="Field List - Create Column Headers"></p>
 <h2 id="data-shaping-operations">Data shaping operations</h2>
-<p>In addition, the Field List can help you solve the following tasks:</p>
+<p>The Field List can help you do the following:</p>
 <ul>
-<li><p>Add <a href="../../shape-report-data/use-calculated-fields/calculated-fields-overview.html">calculated fields</a> to data columns for performing various calculations in a report.</p>
-<p>  <img src="../../../../../images/eurd-win-field-list-add-calculated-field.png" alt="design-time-field-list-add-calculated-field"></p>
+<li><p>Add <a href="../../shape-report-data/use-calculated-fields/calculated-fields-overview.html">calculated fields</a> to data tables.</p>
+<p>  <img src="../../../../../images/eurd-win-field-list-add-calculated-field.png" alt="Field List - Add Calculated Field"></p>
 </li>
-<li><p>Manage the collection of <a href="../../shape-report-data/use-report-parameters.html">report parameters</a>.</p>
-<p>  <img src="../../../../../images/eurd-winield-list-add-report-parameter.png" alt="design-time-field-list-add-report-parameter"></p>
+<li><p>Add <a href="../../use-report-parameters.html">report parameters</a> or change existing parameters.</p>
+<p>  <img src="../../../../../images/eurd-winield-list-add-report-parameter.png" alt="Field List - Add Report Parameter"></p>
 </li>
 </ul>
 </article>
@@ -112,7 +117,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/21.1/interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-tools/ui-panels/field-list.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/21.2/interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-tools/ui-panels/field-list.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>
@@ -132,7 +137,7 @@
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            Copyright (c) 1998-2019 Developer Express Inc. All rights reserved.
+            Copyright (c) 1998-2021 Developer Express Inc. All rights reserved.
             
           </div>
         </div>

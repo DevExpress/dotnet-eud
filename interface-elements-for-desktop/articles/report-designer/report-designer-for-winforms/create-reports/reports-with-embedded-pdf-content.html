@@ -1,0 +1,375 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Reports with Embedded PDF Content | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Reports with Embedded PDF Content | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.58.9.0">
+    
+    <link rel="shortcut icon" href="../../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../../index.html">
+                <img id="logo" class="svg" src="../../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="reports-with-embedded-pdf-content">Reports with Embedded PDF Content</h1>
+
+<p>This tutorial explains how to use the <a href="../use-report-elements/use-basic-report-controls/pdf-content.html">PDF Content</a> control to do the following:</p>
+<ul>
+<li>Append PDF file pages to a report and make their paper kind the same as in the inital report.</li>
+<li>Add sequential page numbers to the report and PDF file pages.</li>
+<li>Include additional information in the embedded PDF file pages.</li>
+</ul>
+<p>The image below shows an invoice report that contains information about order items.</p>
+<p><img src="../../../../images/create-report-with-pdf-content-final-report-page1.png" alt="Final Report Page 1"></p>
+<p>The following image illustrates the first PDF file page embedded to the invoice report. This page has the same paper kind as the initial report. <a href="../use-report-elements/use-basic-report-controls.html">Report controls</a> are used to add item title, item price, line, logo image, and sequential page numbers to this page.</p>
+<p><img src="../../../../images/create-report-with-pdf-content-final-report-page2.png" alt="Final Report Page 2"></p>
+<p>To create the above report with PDF content, follow the steps described in these sections:</p>
+<ul>
+<li><a href="#create-the-main-report">Create the Main Report</a></li>
+<li><a href="#create-a-report-with-pdf-content">Create a Report with PDF Content</a></li>
+<li><a href="#add-the-report-with-pdf-content-to-the-main-report">Add the Report with PDF content to the Main Report</a></li>
+</ul>
+<h2 id="create-the-main-report">Create the Main Report</h2>
+<ol>
+<li>Open the <a href="../../report-designer-for-winforms.html">Report Designer</a> and <a href="../add-new-reports.html">add a new blank report</a>.</li>
+<li><p>Design the report layout. In this tutorial, we create an invoice report that contains information about order items.</p>
+<p> <img src="../../../../images/pdfcontent-embedded-mode-main-report-layout.png" alt="Main Report Layout"></p>
+<p> To supply the report with data, use the following JSON string:</p>
+<pre><code>{
+    &quot;InvoiceNumber&quot;: 241756,
+    &quot;OrderDate&quot;: &quot;2018-04-23T18:25:43.511Z&quot;,
+    &quot;Customer&quot;: {
+        &quot;Name&quot;: &quot;Walters&quot;,
+        &quot;HomeOffice_Line&quot;: &quot;200 Wilmot Rd&quot;,
+        &quot;HomeOffice_City&quot;: &quot;Deerfield&quot;,
+        &quot;HomeOffice_StateName&quot;: &quot;IL&quot;,
+        &quot;HomeOffice_ZipCode&quot;: &quot;60015&quot;
+    },
+    &quot;Store&quot;: {
+        &quot;Address_City&quot;: &quot;Anaheim&quot;,
+        &quot;Address_Line&quot;: &quot;1720 W La Palma Ave&quot;,
+        &quot;Address_StateName&quot;: &quot;CA&quot;,
+        &quot;Address_ZipCode&quot;: &quot;83709&quot;
+    },
+    &quot;Employee&quot;: {
+        &quot;FullName&quot;: &quot;Harv Mudd&quot;
+    },
+    &quot;PONumber&quot;: &quot;122023&quot;,
+    &quot;ShipMethod&quot;: 0,
+    &quot;OrderTerms&quot;: &quot;15 Days&quot;,
+    &quot;OrderItems&quot;: [
+        {
+            &quot;ProductName&quot;: &quot;SuperLED 42&quot;,
+            &quot;ProductPrice&quot;: 1050,
+            &quot;ProductUnits&quot;: 2,
+            &quot;Discount&quot;: 50,
+            &quot;Total&quot;: 2050
+        },
+        {
+            &quot;ProductName&quot;: &quot;SuperLED 50&quot;,
+            &quot;ProductPrice&quot;: 1100,
+            &quot;ProductUnits&quot;: 5,
+            &quot;Discount&quot;: 500,
+            &quot;Total&quot;: 5000
+        },
+        {
+            &quot;ProductName&quot;: &quot;Projector PlusHD&quot;,
+            &quot;ProductPrice&quot;: 600,
+            &quot;ProductUnits&quot;: 5,
+            &quot;Discount&quot;: 250,
+            &quot;Total&quot;: 2750
+        },
+        {
+            &quot;ProductName&quot;: &quot;HD Video Player&quot;,
+            &quot;ProductPrice&quot;: 220,
+            &quot;ProductUnits&quot;: 10,
+            &quot;Discount&quot;: 200,
+            &quot;Total&quot;: 2000
+        }
+    ],
+    &quot;ShippingAmount&quot;: 375,
+    &quot;TotalAmount&quot;: 12175
+}
+</code></pre></li>
+</ol>
+<p>The following image illustrates the main report&#39;s <strong>Preview</strong>:</p>
+<p><img src="../../../../images/pdfcontent-embedded-mode-main-report-preview.png" alt="Main Report Preview"></p>
+<h2 id="create-a-report-with-pdf-content">Create a Report with PDF Content</h2>
+<ol>
+<li><p>Create a new blank report. Remove the report&#39;s margins.</p>
+<p> <img src="../../../../images/create-report-with-pdf-content-add-new-blank-report-and-remove-margins.png" alt="Add a New Blank Report and Remove Margins"></p>
+</li>
+<li><p>Drop the <a href="../use-report-elements/use-basic-report-controls/pdf-content.html">PDF Content</a> control from the <strong>Toolbox</strong> onto the <em>Detail</em> band.</p>
+<p> <img src="../../../../images/create-report-with-pdf-content-drop-xrpdfcontent-control-onto-detail-band.png" alt="Drop the PDF Content Control Onto the Detail Band"></p>
+</li>
+<li><p>Expand the control&#39;s smart tag, click the <strong>Source</strong> or <strong>Source URL</strong> property&#39;s ellipsis button, and select PDF file. In this demo, we use the following PDF specification: <a href="https://github.com/DevExpress-Examples/DataSources/blob/master/Specification.pdf">Specification.pdf</a>.</p>
+<p> <img src="../../../../images/create-report-with-pdf-content-specify-pdf-file-source.png" alt="Specify PDF File Source"></p>
+</li>
+<li><p>Disable the control&#39;s <strong>Generate Own Pages</strong> property. Adjust the control size to make PDF content fit the entire <em>Detail</em> band. For this, set the <em>Detail</em> band&#39;s <strong>Height</strong> to <em>1095</em> and the control&#39;s <strong>Width</strong> and <strong>Height</strong> to <em>850</em> and <em>1095</em>.</p>
+<p> <img src="../../../../images/create-report-with-pdf-content-make-pdf-content-fit-entire-detail-band.png" alt="Make PDF Content Fit the Entire Detail Band"></p>
+</li>
+<li><p>Disable the report&#39;s <strong>Designer Options -&gt; Show Export Warnings</strong> property. Bind the report to the following JSON data:</p>
+<pre><code>{
+    &quot;InvoiceNumber&quot;: 241756,
+    &quot;OrderDate&quot;: &quot;2018-04-23T18:25:43.511Z&quot;,
+    &quot;Customer&quot;: {
+        &quot;Name&quot;: &quot;Walters&quot;,
+        &quot;HomeOffice_Line&quot;: &quot;200 Wilmot Rd&quot;,
+        &quot;HomeOffice_City&quot;: &quot;Deerfield&quot;,
+        &quot;HomeOffice_StateName&quot;: &quot;IL&quot;,
+        &quot;HomeOffice_ZipCode&quot;: &quot;60015&quot;
+    },
+    &quot;Store&quot;: {
+        &quot;Address_City&quot;: &quot;Anaheim&quot;,
+        &quot;Address_Line&quot;: &quot;1720 W La Palma Ave&quot;,
+        &quot;Address_StateName&quot;: &quot;CA&quot;,
+        &quot;Address_ZipCode&quot;: &quot;83709&quot;
+    },
+    &quot;Employee&quot;: {
+        &quot;FullName&quot;: &quot;Harv Mudd&quot;
+    },
+    &quot;PONumber&quot;: &quot;122023&quot;,
+    &quot;ShipMethod&quot;: 0,
+    &quot;OrderTerms&quot;: &quot;15 Days&quot;,
+    &quot;OrderItems&quot;: [
+        {
+            &quot;ProductName&quot;: &quot;SuperLED 42&quot;,
+            &quot;ProductPrice&quot;: 1050,
+            &quot;ProductUnits&quot;: 2,
+            &quot;Discount&quot;: 50,
+            &quot;Total&quot;: 2050
+        },
+        {
+            &quot;ProductName&quot;: &quot;SuperLED 50&quot;,
+            &quot;ProductPrice&quot;: 1100,
+            &quot;ProductUnits&quot;: 5,
+            &quot;Discount&quot;: 500,
+            &quot;Total&quot;: 5000
+        },
+        {
+            &quot;ProductName&quot;: &quot;Projector PlusHD&quot;,
+            &quot;ProductPrice&quot;: 600,
+            &quot;ProductUnits&quot;: 5,
+            &quot;Discount&quot;: 250,
+            &quot;Total&quot;: 2750
+        },
+        {
+            &quot;ProductName&quot;: &quot;HD Video Player&quot;,
+            &quot;ProductPrice&quot;: 220,
+            &quot;ProductUnits&quot;: 10,
+            &quot;Discount&quot;: 200,
+            &quot;Total&quot;: 2000
+        }
+    ],
+    &quot;ShippingAmount&quot;: 375,
+    &quot;TotalAmount&quot;: 12175
+}
+</code></pre></li>
+<li><p>Place two <a href="../use-report-elements/use-basic-report-controls/label.html">labels</a>, a <a href="../use-report-elements/draw-lines-and-shapes/draw-lines.html">line</a>, and a <a href="../use-report-elements/use-basic-report-controls/picture-box.html">picture box</a> on the PDF page header as shown below:</p>
+<p> <img src="../../../../images/create-report-with-pdf-content-make-pdf-content-add-controls-to-page-header.png" alt="Add Controls to Page Header"></p>
+<p> Use the following locations and sizes:</p>
+<table>
+<thead>
+<tr>
+<th>Control Name</th>
+<th>Location</th>
+<th>Size</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>label1</td>
+<td>105, 94</td>
+<td>280, 44</td>
+</tr>
+<tr>
+<td>label2</td>
+<td>105, 138</td>
+<td>118, 30</td>
+</tr>
+<tr>
+<td>line1</td>
+<td>105, 69</td>
+<td>687, 20</td>
+</tr>
+<tr>
+<td>pictureBox1</td>
+<td>647, 24</td>
+<td>145, 45</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li><p>Set the line&#39;s <strong>Width</strong> and <strong>Fore Color</strong> to <em>2</em> and <em>Orange</em> respectively. Assign the following image to the picture box&#39;s <strong>Image Source</strong> property:</p>
+<p> <img src="../../../../images/devav.png" alt="DevAV Icon"></p>
+<p> Make the label1&#39;s font bold. Set up label appearance as shown in the table below:</p>
+<table>
+<thead>
+<tr>
+<th>Control Name</th>
+<th>Font</th>
+<th>Font Size</th>
+<th>Text Property&#39;s Expression</th>
+<th>Text Format String</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>label1</td>
+<td>Segoe UI</td>
+<td>21</td>
+<td><em>ProductName</em></td>
+<td>-</td>
+</tr>
+<tr>
+<td>label2</td>
+<td>Segoe UI</td>
+<td>12</td>
+<td><em>ProductPrice</em></td>
+<td>{0:$0}</td>
+</tr>
+</tbody>
+</table>
+<p> <img src="../../../../images/create-report-with-pdf-content-make-pdf-content-bind-labels-to-data.png" alt="Bind Labels to Data"></p>
+<p> To display a product name and price of each order item on a corresponding PDF file page, set the PDF Content <strong>Page Range</strong> property&#39;s <a href="../use-expressions.html">expression</a> to <em>[DataSource.CurrentRowIndex] + 1</em>.</p>
+<p> <img src="../../../../images/create-report-with-pdf-content-assign-expression-to-page-range.png" alt="Assign Expression to the Page Range Property"></p>
+</li>
+<li><p>Add the <a href="../use-report-elements/use-basic-report-controls/page-info.html">Page Info</a> control to the PDF page footer. Use the following settings for this control:</p>
+<table>
+<thead>
+<tr>
+<th>Location</th>
+<th>Size</th>
+<th>Font</th>
+<th>Font Size</th>
+<th>Text Alignment</th>
+<th>Text Format String</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0, 1045</td>
+<td>850, 50</td>
+<td>Segoe UI</td>
+<td>12</td>
+<td>Middle Center</td>
+<td>Page {0} of {1}</td>
+</tr>
+</tbody>
+</table>
+<p> <img src="../../../../images/create-report-with-pdf-content-add-page-numbers.png" alt="Add Page Numbers"></p>
+</li>
+</ol>
+<p>Open <strong>Preview</strong> to show the result. The image below shows the report&#39;s first page:</p>
+<p><img src="../../../../images/create-report-with-pdf-content-preview.png" alt="Final Report Preview"></p>
+<h2 id="add-the-report-with-pdf-content-to-the-main-report">Add the Report with PDF Content to the Main Report</h2>
+<ol>
+<li><p>Add a footer to the main report. Right-click the design surface, choose <strong>Insert Band</strong>, and select <strong>ReportFooter</strong>.</p>
+<p> <img src="../../../../images/create-report-with-pdf-content-add-report-footer.png" alt="Add Report Footer"></p>
+</li>
+<li><p>Add the <a href="../use-report-elements/use-basic-report-controls/subreport.html">Subreport</a> control to the footer. Assign the path the report with PDF content to the control&#39;s <strong>Report Source URL</strong> property. Enable the control&#39;s <strong>Generate Own Pages</strong> property.</p>
+<p> <img src="../../../../images/create-report-with-pdf-content-add-subreport.png" alt="Add the Subreport"></p>
+</li>
+<li><p>Add the <a href="../use-report-elements/use-basic-report-controls/page-info.html">Page Info</a> control to the report&#39;s <strong>Bottom Margin</strong> band. Set the control&#39;s <strong>Text Alignment</strong> propery to <em>Middle Center</em> and the <strong>Text Format String</strong> property to <em>Page {0} of {1}</em>.</p>
+<p> <img src="../../../../images/create-report-with-pdf-content-add-page-number-to-main-report.png" alt="Add Page Numbers to Main Report"></p>
+</li>
+</ol>
+<p>Open <strong>Preview</strong> to show the result.</p>
+<p><img src="../../../../images/create-report-with-pdf-content-final-report-page1.png" alt="Final Report Page 1"></p>
+<p><img src="../../../../images/create-report-with-pdf-content-final-report-page2.png" alt="Final Report Page 2"></p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/21.2/interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/create-reports/reports-with-embedded-pdf-content.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2021 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../../styles/main.js"></script>
+  </body>
+</html>
