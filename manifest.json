@@ -78752,7 +78752,7 @@
       "output": {
         ".html": {
           "relative_path": "interface-elements-for-web/articles/gantt/export-to-pdf.html",
-          "hash": "LAJAqcM4IH2UhbJ9zGnSAL3PPH+4UW/tS5wrv0Z/L1M="
+          "hash": "qQHeRXkdzWcnWJUW/gHrdEhCNMHCLU/lmX8EubVgGcM="
         }
       },
       "is_incremental": false,
@@ -113603,11 +113603,11 @@
     {
       "status": {
         "can_incremental": false,
-        "details": "Cannot build incrementally because config changed.",
+        "details": "Cannot build incrementally because last build info is missing.",
         "incrementalPhase": "build",
         "total_file_count": 0,
         "skipped_file_count": 0,
-        "full_build_reason_code": "ConfigChanged"
+        "full_build_reason_code": "NoAvailableBuildCache"
       },
       "processors": {
         "ConceptualDocumentProcessor": {
@@ -113634,8 +113634,8 @@
     },
     {
       "status": {
-        "can_incremental": true,
-        "details": "Can support incremental post processing.",
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: last post processor info is null.",
         "incrementalPhase": "postProcessing",
         "total_file_count": 0,
         "skipped_file_count": 0
