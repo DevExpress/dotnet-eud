@@ -19,9 +19,11 @@ The table below lists key combinations available in the **Diagram** tool.
 | Ctrl+I | Applies italic formatting to the text of the selected elements. |
 | Ctrl+U | Underlines the text of the selected elements. |
 | Ctrl+Enter | Finishes shape/connector text editing. |
-| An arrow key | Moves the selected elements in the specified direction. |
-| Shift + An arrow key | Moves the selected elements one grid cell in the specified direction. |
+| An arrow key | Moves the selected elements one grid cell in the specified direction. |
 | Ctrl + An arrow key | Moves the selected elements one pixel in the specified direction. |
+| Left Mouse Button Drag | Moves the selected elements. If you realize the mouse button above a container, places the elements inside this container. |
+| Ctrl + Left Mouse Button Drag | Moves the selected elements. If you realize the mouse button above a container, places the elements outside this container. |
+| Shift + Left Mouse Button Drag | Moves the selected elements horizontally or vertically. If you realize the mouse button above a container, places the elements outside this container. |
 | Alt + An arrow key | Clones the selected elements. |
 | Ctrl + Mouse Wheel | Zooms into or out of a diagram page. |
 | Space + Left Mouse Button | Pans a diagram page if the **Diagram** tool is focused. |
