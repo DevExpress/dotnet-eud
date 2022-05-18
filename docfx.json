@@ -7,7 +7,6 @@
           "dashboard-for-web/**/*.{md,yml}",
           "interface-elements-for-desktop/**/*.{md,yml}",
           "interface-elements-for-web/**/*.{md,yml}",
-          
           "toc.yml",
           "index.md"
         ],
@@ -18,13 +17,14 @@
       }
     ],
     "resource": [
-      {"files": ["favicon.ico", "logo.svg"]},
       {
         "files": [
+          "favicon.ico",
+          "logo.svg",
           "dashboard-for-desktop/images/**",
           "dashboard-for-web/images/**",
           "interface-elements-for-desktop/images/**",
-          "interface-elements-for-web/images/**",
+          "interface-elements-for-web/images/**"
         ],
         "exclude": [
           "obj/**",
@@ -38,7 +38,7 @@
         "_appTitle": "DevExpress End-User Documentation" ,
         "_appFaviconPath": "favicon.ico",
         "_appFooter": "Copyright (c) 1998-2022 Developer Express Inc. All rights reserved.",
-	"_appLogoPath": "logo.svg",
+        "_appLogoPath": "logo.svg"
     }
   },
   "pdf": {
@@ -48,7 +48,7 @@
           "dashboard-for-desktop/**/*.{md,yml}",
           "dashboard-for-web/**/*.{md,yml}",
           "interface-elements-for-desktop/**/*.{md,yml}",
-          "interface-elements-for-web/**/*.{md,yml}",
+          "interface-elements-for-web/**/*.{md,yml}"
         ],
         "exclude": [
           "_*/**",
@@ -62,7 +62,7 @@
           "dashboard-for-desktop/images/**",
           "dashboard-for-web/images/**",
           "interface-elements-for-desktop/images/**",
-          "interface-elements-for-web/images/**",
+          "interface-elements-for-web/images/**"
         ],
         "exclude": [
           "obj/**",
