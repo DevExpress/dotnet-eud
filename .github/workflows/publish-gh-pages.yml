@@ -1,4 +1,4 @@
-name: Build and Deploy pages
+name: Publish site
 
 on:
   workflow_dispatch:
