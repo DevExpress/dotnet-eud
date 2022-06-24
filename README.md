@@ -47,16 +47,22 @@ Follow the steps below to create a documentation website for your application.
 
 ## Build Printer-Friendly PDF Files
 If your end users require a printed version, you can create a PDF file:
-- Ensure that you can successfully build a website with DocFX (see the [previous section](#build-your-own-documentation-website)).
+
+- Ensure that you can successfully [build a website with DocFX](#build-your-own-documentation-website).
 - Download and install [wkhtmltopdf](https://wkhtmltopdf.org/downloads.html).
-- Open a console window and add the **wkhtmltopdf** executable path to the %PATH% environment variable:
+- In the folder with `docfx.exe`, open a console window and add the `wkhtmltopdf` executable path to the `%PATH%` environment variable:
+
     ```
     set PATH=%PATH%;C:\Program Files\wkhtmltopdf\bin
     ```
-- Change the current directory to the repository root folder and call the DocFX executable with the *pdf* and *docfx.json* parameters. This generates a *_pdf* subfоlder with a PDF file for each included table-of-contents file.
+
+- Build pdf:
+
     ```
-    docfx.exe pdf docfx.json
+    docfx.exe pdf ../dotnet-eud/docfx.json
     ```
+
+This generates a *_pdf* subfоlder with a PDF file for each included table-of-contents file.
 
 ## Troubleshooting
 Below are the common issues you can face when building this repository's documentation. 
