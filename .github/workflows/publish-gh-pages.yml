@@ -1,4 +1,5 @@
-name: Publish site
+name: publish site
+
 on:
   workflow_dispatch:
   
