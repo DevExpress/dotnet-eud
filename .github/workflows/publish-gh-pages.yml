@@ -1,4 +1,4 @@
-name: publish site
+name: update gh-pages branch
 
 on:
   workflow_dispatch:
