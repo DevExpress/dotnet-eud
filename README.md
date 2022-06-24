@@ -15,11 +15,7 @@ Do one of the following to view the End-User Documentation content:
 
 1. Browse this repository's content directly. Start with [index.md](index.md).
 2. View the sample pre-built website at [devexpress.github.io/dotnet-eud](https://devexpress.github.io/dotnet-eud/).
-3. Download these PDF files:
-   * [dotnet-eud_interface-elements-for-web.pdf](https://devexpress.github.io/dotnet-eud/pdf/dotnet-eud_interface-elements-for-web.pdf)
-   * [dotnet-eud_interface-elements-for-desktop.pdf](https://devexpress.github.io/dotnet-eud/pdf/dotnet-eud_interface-elements-for-desktop.pdf)
-   * [dotnet-eud_dashboard-for-web.pdf](https://devexpress.github.io/dotnet-eud/pdf/dotnet-eud_dashboard-for-web.pdf)
-   * [dotnet-eud_dashboard-for-desktop.pdf](https://devexpress.github.io/dotnet-eud/pdf/dotnet-eud_dashboard-for-desktop.pdf)
+3. [Build PDF files](#build-printer-friendly-pdf-files).
 
 ## Document Format and Supported Output Types
 Documents in this repository are written in markdown. You can manually copy the information to your own help file.
@@ -105,6 +101,3 @@ If you require End-User documentation for v17.1 or earlier, download **End-User 
 | v12.1   | [DevExpressEndUserDocs121.exe](https://go.devexpress.com/Documentation_EUD_12_1.aspx "35 Mb")  |
 
 You are free to download these files and distribute them to your end users. However, Developer Express Inc. has the right to change or remove these files without notice.
-
-
-
