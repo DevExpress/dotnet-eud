@@ -80,15 +80,16 @@
 </li>
 <li><p>Arrange controls on the report.</p>
 <ul>
-<li>Add the <a href="../introduction-to-banded-reports.html">Report Header</a> and <a href="../introduction-to-banded-reports.html">Page Header</a> bands (see the <strong>Manage Report Bands | Add Bands</strong> section in the <a href="../introduction-to-banded-reports.html">Introduction to Banded Reports</a> document for details)</li>
+<li><p>Add the <a href="../introduction-to-banded-reports.html">Report Header</a> and <a href="../introduction-to-banded-reports.html">Page Header</a> bands (see the <strong>Manage Report Bands | Add Bands</strong> section in the <a href="../introduction-to-banded-reports.html">Introduction to Banded Reports</a> document for details)</p>
+</li>
 <li><p>Add <a href="../use-report-elements/use-basic-report-controls/label.html">data-bound labels</a> to the <strong>Detail</strong> band.</p>
 <p><img src="../../../images/eurd-hierarchical-report-add-controls.png" alt="eurd-hierarchical-report-add-controls"></p>
-<p>Switch to <a href="../preview-print-and-export-reports.html">Preview</a> mode to see an intermediate result.</p>
+<p>Switch to <a href="../preview-print-and-export-reports.html">PREVIEW</a> to see an intermediate result.</p>
 <p><img src="../../../images/eurd-hierarchical-report-add-controls-result.png" alt="eurd-hierarchical-report-add-controls-result"></p>
 </li>
 </ul>
 </li>
-<li><p>Specify the Detail band&#39;s <strong>Hierarchy Print Options</strong> property.</p>
+<li><p>Switch back to <strong>DESIGN</strong>, select the <strong>Detail</strong> band, and type in &quot;hier&quot; in the <strong>Search field</strong> to navigate to the <strong>Hierarchy Print Options</strong> property pane.</p>
 <p> <img src="../../../images/eurd-hierarchical-report-hierarchyprintoptions.png" alt="eurd-hierarchical-report-hierarchyprintoptions"></p>
 <p> Set the following options:</p>
 <ul>
@@ -97,10 +98,12 @@
 <li><p><strong>Indent</strong><br>Specify the child level node offset.</p>
 </li>
 <li><p><strong>Keep Together with First Child</strong><br>Specify whether to print a parent node together with its first child node on the next page if these nodes do not fit at the end of a page.</p>
-<p><img src="../../../images/eurd-hierarchical-report-hierarchyprintoptions-result.png" alt="eurd-hierarchical-report-hierarchyprintoptions-result"></p>
-<p>As you can see in the image above, the <strong>Detail</strong> band that contains child rows is printed with the specified indent. However, the row (the sum of the label widths) does not fit the page now.</p>
 </li>
 </ul>
+</li>
+<li><p>Preview the result.</p>
+<p> <img src="../../../images/eurd-hierarchical-report-hierarchyprintoptions-result.png" alt="eurd-hierarchical-report-hierarchyprintoptions-result"></p>
+<p> As you can see in the image above, the <strong>Detail</strong> band that contains child rows is printed with the specified indent. However, the row (the sum of the label widths) does not fit the page now.</p>
 </li>
 <li><p>Align labels.</p>
 <ul>
@@ -109,41 +112,47 @@
 </li>
 <li><p>Anchor the rest of the data-bound labels to the right edge of the Detail band (their container). Set their <strong>Anchor Horizontal</strong> property to <strong>Right</strong>.</p>
 <p>  <img src="../../../images/eurd-hierarchical-report-anchor-2.png" alt="eurd-hierarchical-report-anchor-2"></p>
-<p><img src="../../../images/eurd-hierarchical-report-anchor-result.png" alt="eurd-hierarchical-report-anchor-result"></p>
 </li>
 </ul>
 </li>
-<li><p>Add a drill-down control to expand/collapse child rows.</p>
+<li><p>Preview the result.</p>
+<p> <img src="../../../images/eurd-hierarchical-report-anchor-result.png" alt="eurd-hierarchical-report-anchor-result"></p>
+</li>
+<li><p>Add a <strong>drill-down control</strong> to expand/collapse child rows.</p>
 <ul>
 <li><p>Add a <a href="../use-report-elements/use-basic-report-controls/check-box.html">Check Box</a> control to the <strong>Detail</strong> band at the left-most position.</p>
 <p><img src="../../../images/eurd-hierarchical-report-add-checkbox.png" alt="eurd-hierarchical-report-add-checkbox"></p>
 </li>
-<li><p>Set the <strong>Check Box</strong> control&#39;s glyph options. Use custom glyphs for the <em>checked</em> and <em>unchecked</em> checkbox states.</p>
+<li><p>Set the <strong>Check Box</strong> control&#39;s glyph options and remove the unnecessary text &quot;checkBox1&quot;. You can specify different images to indicate checkbox state. in the <strong>Custom Glyphs</strong> section specify the <img src="../../../images/moveup.png" alt="moveup"> image for the <strong>Checked</strong> state, and the <img src="../../../images/movedown.png" alt="movedown"> image for the Unchecked state.</p>
 <p>  <img src="../../../images/eurd-hierarchical-report-checkbox-properties.png" alt="HierarchicalReport-CheckBoxProperties"></p>
 </li>
 <li><p>Set the <strong>Detail</strong> band&#39;s <strong>Drill Down Control</strong> property to the added <strong>Check Box</strong> control.</p>
 <p>  <img src="../../../images/eurd-hierarchical-report-drilldown.png" alt="HierarchicalReport-SetDrillDownControl"></p>
 </li>
-<li><p>Set the <strong>Check Box</strong>&#39;s <strong>Check State</strong> property to the following expression: <em>[ReportItems].[Detail].[DrillDownExpanded]</em>.</p>
-<p>  <img src="../../../images/eurd-hierarchical-report-checkstateexpression.png" alt="HierarchicalReport-CheckStateExpression"></p>
-<p><img src="../../../images/eurd-hierarchical-report-checkbox-result.png" alt="HierarchicalReport-DrillDownControl"></p>
+<li><p>Click the <strong>f-button</strong> next to the <strong>Check Box</strong> control to invoke the <strong>Expression Editor</strong>, and assign the following expression to the <strong>Check State</strong> property:</p>
+<pre><code>Iif( [ReportItems.Detail1.DrillDownExpanded],  &#39;Checked&#39;, &#39;Unchecked&#39;)
+</code></pre><p>  <img src="../../../images/eurd-hierarchical-report-checkstateexpression.png" alt="HierarchicalReport-CheckStateExpression"></p>
+</li>
+<li><p>Preview the result:</p>
+<p>   <img src="../../../images/eurd-hierarchical-report-checkbox-result.png" alt="HierarchicalReport-DrillDownControl"></p>
 </li>
 </ul>
 </li>
 <li><p>Sort report data.</p>
-<p> Use the Detail band&#39;s <strong>Sort Fields</strong> property to sort data on each hierarchy level.</p>
+<p> Use the Detail band&#39;s <strong>Sort Fields</strong> property to sort data.</p>
 <p> <img src="../../../images/eurd-hierarchical-report-sort-fields.png" alt="HierarchicalReport-SortFieldsProperty"></p>
+<p> Preview the result:</p>
 <p> <img src="../../../images/eurd-hierarchical-report-sort-fields-result.png" alt="HierarchicalReport-SortedData"></p>
 </li>
 <li><p>Highlight root nodes.</p>
-<p> To format rows based on their nesting level, use the <strong>CurrentRowHierarchyLevel</strong> variable in expressions. For example, specify the <strong>Detail</strong> band&#39;s appearance properties as listed below:</p>
-<ul>
-<li>Set the <strong>Background Color</strong> property to <em>iif([DataSource.CurrentRowHierarchyLevel] == 0, Rgb(231,235,244), ?)</em></li>
-<li><p>Set the <strong>Font | Bold</strong> property to <em>[DataSource.CurrentRowHierarchyLevel] == 0</em></p>
-<p><img src="../../../images/eurd-hierarchical-report-expressions.png" alt="HierarchicalReport-ExpressionVariable"></p>
-<p><img src="../../../images/eurd-hierarchical-report-expressions-result.png" alt="HierarchicalReport-HighlightedRootNodes"></p>
-</li>
-</ul>
+<p> To format rows based on their nesting level, use the <code>CurrentRowHierarchyLevel</code> variable in expressions. Specify the following expressions for the <strong>Detail</strong> band&#39;s appearance properties:</p>
+<p> <strong>Background Color</strong>:</p>
+<pre><code>Iif([DataSource.CurrentRowHierarchyLevel] == 0, Rgb(231,235,244), ?)
+</code></pre><p> <strong>Font | Bold</strong>:</p>
+<pre><code>[DataSource.CurrentRowHierarchyLevel] == 0
+</code></pre><p> <img src="../../../images/eurd-hierarchical-report-expressions.png" alt="HierarchicalReport-ExpressionVariable"></p>
+<p> Preview the result:</p>
+<p> <img src="../../../images/eurd-hierarchical-report-expressions-result.png" alt="HierarchicalReport-HighlightedRootNodes"></p>
 </li>
 </ol>
 </article>
