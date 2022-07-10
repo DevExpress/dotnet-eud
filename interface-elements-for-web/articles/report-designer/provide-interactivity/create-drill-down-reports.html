@@ -80,10 +80,13 @@
 <p> <img src="../../../images/eurd-web-drilldown-set-drilldown-control.png" alt=""></p>
 <p> You can also specify the band&#39;s <strong>Drill-Down Expanded</strong> property to define whether or not the band is initially expanded. This property is enabled by default.</p>
 </li>
-<li><p>Select the label, expand the <strong>Actions</strong> category and click the <strong>Expression</strong> property&#39;s ellipsis button.</p>
+<li><p>Select the label and click the <strong>f-button</strong> to invoke the  <a href="../report-designer-tools/expression-editor.html">Expression Editor</a>.</p>
 <p> <img src="../../../images/eurd-web-drill-down-report-label-smart-tag.png" alt=""></p>
-<p> This invokes the <a href="../report-designer-tools/expression-editor.html">Expression Editor</a> where you can make the label display different text based on the detail report&#39;s <strong>DrillDownExpanded</strong> property value.</p>
-<p> <img src="../../../images/eurd-web-drill-down-report-expression.png" alt=""></p>
+<p> The Expression Editor allows yu to enter an expression that displays different text based on the detail report&#39;s <code>DrillDownExpanded</code> property value.</p>
+<pre><code>Iif( [ReportItems.Detail1.DrillDownExpanded],&#39;Hide Details&#39; ,&#39;Show Details&#39; )
+</code></pre><p> <img src="../../../images/eurd-web-drill-down-report-expression.png" alt=""></p>
+</li>
+<li><p>Preview the report.</p>
 </li>
 </ol>
 </article>
