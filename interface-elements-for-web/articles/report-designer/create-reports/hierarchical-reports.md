@@ -65,13 +65,11 @@ This tutorial describes how to use the [detail band](../../report-designer/intro
     ![eurd-hierarchical-report-anchor-result](../../../images/eurd-hierarchical-report-anchor-result.png)
 
 1. Add a **drill-down control** to expand/collapse child rows.
-
     - Add a [Check Box](../use-report-elements/use-basic-report-controls/check-box.md) control to the **Detail** band at the left-most position.
 
       ![eurd-hierarchical-report-add-checkbox](../../../images/eurd-hierarchical-report-add-checkbox.png)
 
     - Set the **Check Box** control's glyph options and remove the unnecessary text "checkBox1". You can specify different images to indicate checkbox state. in the **Custom Glyphs** section specify the ![moveup](../../../images/moveup.png) image for the **Checked** state, and the ![movedown](../../../images/movedown.png) image for the Unchecked state.
-
 
         ![HierarchicalReport-CheckBoxProperties](../../../images/eurd-hierarchical-report-checkbox-properties.png)
 
@@ -90,7 +88,7 @@ This tutorial describes how to use the [detail band](../../report-designer/intro
 
          ![HierarchicalReport-DrillDownControl](../../../images/eurd-hierarchical-report-checkbox-result.png)
 
-7. Sort report data.
+1. Sort report data.
 
     Use the Detail band's **Sort Fields** property to sort data.
 
@@ -100,7 +98,7 @@ This tutorial describes how to use the [detail band](../../report-designer/intro
 
     ![HierarchicalReport-SortedData](../../../images/eurd-hierarchical-report-sort-fields-result.png)
 
-8. Highlight root nodes.
+1. Highlight root nodes.
 
     To format rows based on their nesting level, use the `CurrentRowHierarchyLevel` variable in expressions. Specify the following expressions for the **Detail** band's appearance properties:
 
