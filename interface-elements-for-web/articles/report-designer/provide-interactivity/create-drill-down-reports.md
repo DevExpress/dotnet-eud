@@ -19,10 +19,16 @@ Do the following to create a drill-down report:
 	![](../../../images/eurd-web-drilldown-set-drilldown-control.png)
 	
 	You can also specify the band's **Drill-Down Expanded** property to define whether or not the band is initially expanded. This property is enabled by default.
-4. Select the label, expand the **Actions** category and click the **Expression** property's ellipsis button.
+4. Select the label and click the **f-button** to invoke the  [Expression Editor](../report-designer-tools/expression-editor.md).
 	
 	![](../../../images/eurd-web-drill-down-report-label-smart-tag.png)
 	
-	This invokes the [Expression Editor](../report-designer-tools/expression-editor.md) where you can make the label display different text based on the detail report's **DrillDownExpanded** property value.
+	The Expression Editor allows yu to enter an expression that displays different text based on the detail report's `DrillDownExpanded` property value.
+
+	```
+	Iif( [ReportItems.Detail1.DrillDownExpanded],'Hide Details' ,'Show Details' )
+	```
 	
 	![](../../../images/eurd-web-drill-down-report-expression.png)
+
+5. Preview the report.
