@@ -48,12 +48,3 @@ You can enable/disable messages of each available type ("Error", "Warning", or "
 
 ![](../../../../../images/filter-messages-by-type.png)
 
-## Correct the Issues
-
-Each message contains a recommendation on how to correct an issue. Click the Plus icon in front of the message to expand the recommendation.
-
-![](../../../../../images/eurd-report-design-analyzer-expand-message.png)
-
-The message's **Source** column contains a reference to the control or script that caused the issue. Click the reference to navigate to this control or script.
-
-![](../../../../../images/eurd-report-design-analyzer-navigate-to-control.png)
