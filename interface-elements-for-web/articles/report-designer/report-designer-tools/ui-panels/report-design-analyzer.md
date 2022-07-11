@@ -5,7 +5,7 @@ author: Boris Zaitsev
 
 The **Report Design Analyzer** shows errors, warnings, and information messages that help you to detect and fix issues in a report.
 
-image goes here...
+![](../../../../images/eurd-web-report-design-analyzer.png)
 
 ## Invoke the Report Design Analyzer
 
@@ -17,11 +17,11 @@ Click the **bell tab** in the bottom.
 
 Each message contains a recommendation on how to fix an issue. Click the Plus icon in front of the message to expand the recommendation.
 
-image goes here...
+![](../../../../images/eurd-web-report-design-analyzer-expand-message.png)
 
 The **Source** column contains a reference to the control or script that caused the issue. Click the reference to navigate to this control or script.
 
-image goes here...
+![](../../../../images/eurd-web-report-design-analyzer-navigate-to-control.png)
 
 ## Filter Messages by Source
 
@@ -34,13 +34,13 @@ Based on their source, report errors are divided into four groups:
 
 You can disable messages that belong to a particular source:
 
-image goes here...
+![](../../../../images/enable-disable-messages-belonging-to-error-source.png)
 
 ## Filter Messages by Type
 
 You can enable/disable messages of each available type ("Error", "Warning", or "Information") or any combination of them. Click the panel in the UI as shown in the image below to enable/disable messages of a corresponding type.
 
-image goes here...
+![](../../../../images/enable-disable-messages-of-some-error-type.png)
 
 # Report Design Analyzer (Old)
 
