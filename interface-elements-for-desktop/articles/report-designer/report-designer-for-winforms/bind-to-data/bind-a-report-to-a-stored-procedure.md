@@ -36,5 +36,15 @@ This tutorial demonstrates how to bind a report to a stored procedure provided b
 	The following image demonstrates the **Data Preview** displaying the resulting data sample. Click **Close** to exit the preview.
 	
 	![](../../../../images/eurd-win-data-source-wizard-stored-procedure-preview.png)
+
+	If a stored procedure returns multiple result tables, the Data Preview window displays a drop-down list with all these tables, so you can choose and preview any of them.
+
+	Image goes here...
+
+	If a stored procedure accepts query parameters, the procedure is executed with the following parameter values when you click Preview:
+
+	* If a query parameter value is static, this static value is used.
+	* If a query parameter value is an expression, the value of this expression is used.
+	* If a query parameter is mapped to a report parameter, the default value of this report parameter is used.
 	
 	Click **Finish** to exit the wizard.
