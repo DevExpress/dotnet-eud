@@ -34,3 +34,23 @@ Follow the steps below to create cascading parameters in the [Report Designer](.
 The following image illustrates cascading parameters where the **Product** parameter values are filtered by the selected **Category**.
 
 ![Cascading parameters example](../../../../images/cascadingparametersresult124540.png)
+
+# Cascading Parameters Filtering Specifics
+
+Cascading parameters can be filtered on the database level (server side) or on the application level (client side). For the following datasources, such parameters are filtered on the database level:
+
+* SQL Database
+* MongoDB Instance
+* Entity Framework
+
+In case of SQL databases, database level filter operations do not work for stored procedures and custom SQL queries. For such queries, filters are always applied on the application level.
+
+When your report is bound to one of the above datasources, and you change the value of the primary parameter (for example, the Category parameter in the image above), your application does the following:
+
+* Makes a request to a database.
+* Applies a filter on the database level (for example, filters the values of the Products parameter based on the Category parameter value).
+* Loads the filtered data to your report.
+
+You can also apply filter operations for the mentioned datasources on the application level. For this, disable the **Use Server Side Filtering** property (locataed in a parameter's **Value Source** category).
+
+For the rest of the datasources, filter operations for cascading parameters are always applied on the application level.
