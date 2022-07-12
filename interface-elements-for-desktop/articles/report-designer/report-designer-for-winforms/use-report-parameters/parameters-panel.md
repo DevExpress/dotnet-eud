@@ -43,11 +43,11 @@ You can unite report parameters into expandable groups, place parameters side-by
 
 Right-click the **Parameters** node in the **Field List** and select **Edit Parameters**.
 
-image goes here...
+![](../../../../images/invoke-report-parameters-editor-from-field-list.png)
 
 This action invokes the **Report Parameters Editor**.
 
-image goes here...
+![](../../../../images/report-parameters-editor-1.png)
 
 Use the menu on the left to create and customize parameters, groups, and separators.
 
@@ -55,9 +55,11 @@ Use the menu on the left to create and customize parameters, groups, and separat
 
 Specify the **Label orientation** property to choose the position of a parameter label relative to an editor.
 
-image1 goes here...
+![](../../../../images/report-parameters-editor-specify-label-orientation.png)
 
-image2 goes here...
+| Default panel | Customized panel |
+| ----------- | ----------- |
+| ![](../../../../images/with-label-orientation-horizontal.png) | ![](../../../../images/with-label-orientation-vertical.png) |
 
 #### Create and Customize a Group
 
