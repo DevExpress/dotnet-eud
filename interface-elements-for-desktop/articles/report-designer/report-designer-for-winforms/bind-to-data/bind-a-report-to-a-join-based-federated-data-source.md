@@ -58,7 +58,7 @@ The Wizard creates a new **FederationDataSource** that includes the single query
 
 The federated query’s default name equals to the main table’s name (the **Categories** table in this tutorial). You can rename this query in the **Manage Queries** dialog. To invoke it, right-click the data source in the **Field List** or **Report Explorer** and select **Manage Queries** in the context menu.
 
-![](../../../../images/eurd-data-federation-rename-query.png)
+![](../../../../images/data-federation-rename-query.png)
 
 The **Manage Queries** dialog appears.
 
