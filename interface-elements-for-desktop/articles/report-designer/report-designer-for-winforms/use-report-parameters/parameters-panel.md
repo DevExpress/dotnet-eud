@@ -35,7 +35,9 @@ When you hide the **Parameters** panel, the report's **Print Preview** is genera
 
 You can unite report parameters into expandable groups, place parameters side-by-side, add separators, and more.
 
-image goes here...
+| Default panel | Customized panel |
+| ----------- | ----------- |
+| ![](../../../../images/default-parameters-panel-1.png) | ![](../../../../images/customized-parameters-panel-1.png) |
 
 ### Use the Report Parameters Editor
 
@@ -43,7 +45,7 @@ Right-click the **Parameters** node in the **Field List** and select **Edit Para
 
 image goes here...
 
-This action invokes the **Report Parameters Editor***.
+This action invokes the **Report Parameters Editor**.
 
 image goes here...
 

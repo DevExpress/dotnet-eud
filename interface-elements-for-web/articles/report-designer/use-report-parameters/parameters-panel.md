@@ -71,7 +71,7 @@ Right-click the **Parameters** node in the **Field List** and select **Edit Para
 
 image goes here...
 
-This action invokes the **Report Parameters Editor***.
+This action invokes the **Report Parameters Editor**.
 
 image goes here...
 
