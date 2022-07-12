@@ -39,7 +39,7 @@ The following image illustrates cascading parameters where the **Product** param
 
 Cascading parameters can be filtered on the database level (server side) or on the application level (client side). For the following datasources, such parameters are filtered on the database level:
 
-* SQL Database
+* [SQL Database](../../bind-to-data/bind-a-report-to-a-database.md)
 * MongoDB Instance
 * Entity Framework
 
