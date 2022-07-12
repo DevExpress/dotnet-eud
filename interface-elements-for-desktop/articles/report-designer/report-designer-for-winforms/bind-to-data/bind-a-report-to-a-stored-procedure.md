@@ -39,7 +39,7 @@ This tutorial demonstrates how to bind a report to a stored procedure provided b
 
 	If a stored procedure returns multiple result tables, the Data Preview window displays a drop-down list with all these tables, so you can choose and preview any of them.
 
-	Image goes here...
+	![](../../../../images/stored-procedure-with-multiple-data-tables-preview.png)
 
 	If a stored procedure accepts query parameters, the procedure is executed with the following parameter values when you click Preview:
 
