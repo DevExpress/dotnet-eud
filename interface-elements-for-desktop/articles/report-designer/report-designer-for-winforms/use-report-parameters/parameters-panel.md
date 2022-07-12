@@ -69,52 +69,54 @@ Click the **Add group** button to create a new group.
 
 Use the **Up** and **Down** buttons to change the order of parameters and groups, and place parameters inside or outside a group.
 
-![](../../../../images/report-parameters-editor-setup-elements-order)
+![](../../../../images/report-parameters-editor-setup-elements-order.png)
 
 You can also drag-and-drop parameters and groups inside the menu to achieve the same result.
 
-![](../../../../images/report-parameters-editor-drag-and-drop-elements-in-menu)
+![](../../../../images/report-parameters-editor-drag-and-drop-elements-in-menu.png)
 
 To customize a group, select it and use its editors on the right to set up the group appearance. The following example unites the **customerName** and **companyName** parameters into a group called **Select a customer**.
 
-![](../../../../images/report-parameters-editor-drag-and-drop-elements-in-menu)
+![](../../../../images/report-parameters-editor-drag-and-drop-elements-in-menu.png)
 
-| Default panel | Customized panel |
+| Default panel | Panel with a group |
 | ----------- | ----------- |
-| ![](../../../../images/default-parameters-panel-2) | ![](../../../../images/customized-parameters-panel-2) |
+| ![](../../../../images/default-parameters-panel-2.png) | ![](../../../../images/customized-parameters-panel-2.png) |
 
 Besides a title, you can also specify the following properties to customize the group appearance:
 
-| Default panel | Customized panel |
+| Orientation = Vertical (Default) | Orientation = Horizontal |
 | ----------- | ----------- |
-| ![](../../../../images/parameters-panel-with-orientation-vertical) | ![](../../../../images/parameters-panel-with-orientation-horizontal) |
+| ![](../../../../images/parameters-panel-with-orientation-vertical.png) | ![](../../../../images/parameters-panel-with-orientation-horizontal.png) |
 
-| Default panel | Customized panel |
+| Show expand/collapse button = false (Default)	| Show expand/collapse button = true |
 | ----------- | ----------- |
-| ![](../../../../images/parameters-panel-with-show-expand-button-false) | ![](../../../../images/parameters-panel-with-show-expand-button-true) |
+| ![](../../../../images/parameters-panel-with-show-expand-button-false.png) | ![](../../../../images/parameters-panel-with-show-expand-button-true.png) |
 
-| Default panel | Customized panel |
+| Expanded = true (Default) | Expanded = false |
 | ----------- | ----------- |
-| ![](../../../../images/parameters-panel-with-expanded-true) | ![](../../../../images/parameters-panel-with-expanded-false) |
+| ![](../../../../images/parameters-panel-with-expanded-true.png) | ![](../../../../images/parameters-panel-with-expanded-false.png) |
 
-| Default panel | Customized panel |
+| Show title = true (Default) | Show title = false |
 | ----------- | ----------- |
-| ![](../../../../images/parameters-panel-with-title-visible-true) | ![](../../../../images/parameters-panel-with-title-visible-false) |
+| ![](../../../../images/parameters-panel-with-title-visible-true.png) | ![](../../../../images/parameters-panel-with-title-visible-false.png) |
 
-| Default panel | Customized panel |
+| Show borders = true (Default) | Show borders = false |
 | ----------- | ----------- |
-| ![](../../../../images/parameters-panel-customization-with-border-visible-true) | ![](../../../../images/parameters-panel-customization-with-border-visible-false) |
+| ![](../../../../images/parameters-panel-customization-with-border-visible-true.png) | ![](../../../../images/parameters-panel-customization-with-border-visible-false.png) |
 
 #### Add a Separator
 
 Click the **Add separator** button to create a separator.
 
-image goes here...
+![](../../../../images/report-parameters-editor-create-separator.png)
 
 Similar to parameters and groups, you can use the **Up** and **Down** buttons or drag-and-drop separators inside the menu to specify the location for these separators relative to other elements.
 
-image goes here...
+![](../../../../images/report-parameters-editor-specify-location-for-separator.png)
 
 The example below shows the **Parameters** panel with a separator between the **Company Name** and **Customer Name** parameters.
 
-images go here...
+| Show borders = true (Default) | Show borders = false |
+| ----------- | ----------- |
+| ![](../../../../images/default-parameters-panel-3.png) | ![](../../../../images/customized-parameters-panel-3.png) |
