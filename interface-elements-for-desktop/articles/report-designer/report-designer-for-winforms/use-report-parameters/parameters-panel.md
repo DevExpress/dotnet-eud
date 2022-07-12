@@ -65,24 +65,45 @@ Specify the **Label orientation** property to choose the position of a parameter
 
 Click the **Add group** button to create a new group.
 
-image goes here...
+![](../../../../images/report-parameters-editor-create-new-group.png)
 
 Use the **Up** and **Down** buttons to change the order of parameters and groups, and place parameters inside or outside a group.
 
-image goes here...
+![](../../../../images/report-parameters-editor-setup-elements-order)
 
 You can also drag-and-drop parameters and groups inside the menu to achieve the same result.
 
-image goes here...
+![](../../../../images/report-parameters-editor-drag-and-drop-elements-in-menu)
 
 To customize a group, select it and use its editors on the right to set up the group appearance. The following example unites the **customerName** and **companyName** parameters into a group called **Select a customer**.
 
-image1 goes here...
-image2 goes here...
+![](../../../../images/report-parameters-editor-drag-and-drop-elements-in-menu)
+
+| Default panel | Customized panel |
+| ----------- | ----------- |
+| ![](../../../../images/default-parameters-panel-2) | ![](../../../../images/customized-parameters-panel-2) |
 
 Besides a title, you can also specify the following properties to customize the group appearance:
 
-images go here...
+| Default panel | Customized panel |
+| ----------- | ----------- |
+| ![](../../../../images/parameters-panel-with-orientation-vertical) | ![](../../../../images/parameters-panel-with-orientation-horizontal) |
+
+| Default panel | Customized panel |
+| ----------- | ----------- |
+| ![](../../../../images/parameters-panel-with-show-expand-button-false) | ![](../../../../images/parameters-panel-with-show-expand-button-true) |
+
+| Default panel | Customized panel |
+| ----------- | ----------- |
+| ![](../../../../images/parameters-panel-with-expanded-true) | ![](../../../../images/parameters-panel-with-expanded-false) |
+
+| Default panel | Customized panel |
+| ----------- | ----------- |
+| ![](../../../../images/parameters-panel-with-title-visible-true) | ![](../../../../images/parameters-panel-with-title-visible-false) |
+
+| Default panel | Customized panel |
+| ----------- | ----------- |
+| ![](../../../../images/parameters-panel-customization-with-border-visible-true) | ![](../../../../images/parameters-panel-customization-with-border-visible-false) |
 
 #### Add a Separator
 
