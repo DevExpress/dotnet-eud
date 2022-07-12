@@ -78,29 +78,19 @@ This topic describes how to bind a report to JSON data.
 
 5. On the next page, the wizard shows the structure of your JSON data. You can choose whether to include all records (root) or a subset of them to the datasource’s final set of records.
 
-    image goes here...
+    ![](../../../../images/JSON-SelectRootElement.png)
 
     Uncheck data fields that you do not want to include to your report.
 
-    image goes here...
+    ![](../../../../images/JSON-EnableDisableFields.png)
 
     Assign a title to a field’s Field Display Name column if you want to use this title as a default field name.
 
-    image goes here...
+    ![](../../../../images/JSON-EditFieldNames.png)
 
     The JSON Data Source Wizard analyzes only the first 100 records to generate field types. If your JSON data contains more than 100 records, you can use all of them for type generation. For this, click the Analyze all records button.
 
-    image goes here...
-
-    OLD:
-
-    ![JSON-SelectRootElement](../../../../images/eurd-win-JSON-SelectRootElement.png)
-
-    Uncheck the data fields that your report does not require.
-
-    You can rename data fields if necessary.
-
-    ![JSON-EditFieldNames](../../../../images/eurd-win-JSON-EditFieldNames.png)
+    ![](../../../../images/json-wizard-analyze-all-records-button.png)
 
 After you finish the wizard, it creates the **JsonDataSource** component. This component retrieves the checked data fields that the selected JSON element includes. The [Field List](..\report-designer-tools\ui-panels\field-list.md) reflects the data source structure.
  
