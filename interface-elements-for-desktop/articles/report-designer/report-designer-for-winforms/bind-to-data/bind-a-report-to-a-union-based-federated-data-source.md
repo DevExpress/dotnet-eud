@@ -63,13 +63,13 @@ The federated query's default name equals to the first source's name (the **Cust
 
 ![](../../../../images/DataFederationUnion-rename-query.png)
 
-The Manage Queries dialog appears.
+The **Manage Queries** dialog appears.
 
 ![](../../../../images/data-federation-union-manage-queries-dialog.png)
 
 Double-click the table name in the left menu and use the editor to change this name.
 
-![](../../../../images/data-federation-union-manage-queries-dialog.png)
+![](../../../../images/data-federation-union-change-query-name.png)
 
 Besides renaming table names, you can also use the Manage Queries dialog to add, modify, or delete queries.
 
