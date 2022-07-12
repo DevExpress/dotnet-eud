@@ -35,17 +35,17 @@ The following image illustrates cascading parameters where the **Product** param
 
 ![Cascading parameters example](../../../../images/cascadingparametersresult124540.png)
 
-# Cascading Parameters Filtering Specifics
+## Cascading Parameters Filtering Specifics
 
 Cascading parameters can be filtered on the database level (server side) or on the application level (client side). For the following datasources, such parameters are filtered on the database level:
 
-* [SQL Database](../../bind-to-data/bind-a-report-to-a-database.md)
-* MongoDB Instance
-* Entity Framework
+* [SQL Database](../bind-to-data/bind-a-report-to-a-database.md)
+* [MongoDB Instance](../bind-to-data/bind-a-report-to-a-mongodb-instance.md)
+* [Entity Framework](../bind-to-data/bind-a-report-to-an-entity-framework-data-source.md)
 
 In case of SQL databases, database level filter operations do not work for stored procedures and custom SQL queries. For such queries, filters are always applied on the application level.
 
-When your report is bound to one of the above datasources, and you change the value of the primary parameter (for example, the Category parameter in the image above), your application does the following:
+When your report is bound to one of the above datasources, and you change the value of the primary parameter (for example, the **Category** parameter in the image above), your application does the following:
 
 * Makes a request to a database.
 * Applies a filter on the database level (for example, filters the values of the Products parameter based on the Category parameter value).
