@@ -59,7 +59,7 @@ The Wizard creates a new **FederationDataSource** that includes the single **Cus
 
 ![](../../../../images/DataFederationUnion-data-source-structure.png)
 
-The federated query's default name equals to the first source's name (the **Customers** table in this tutorial). You can rename this query in the **Manage Queries** dialog. To invoke it, right-click the data source in the Field List or Report Explorer and select **Manage Queries** in the context menu.
+The federated query's default name equals to the first source's name (the **Customers** table in this tutorial). You can rename this query in the **Manage Queries** dialog. To invoke it, right-click the data source in the **Field List** or **Report Explorer** and select **Manage Queries** in the context menu.
 
 ![](../../../../images/DataFederationUnion-rename-query.png)
 
