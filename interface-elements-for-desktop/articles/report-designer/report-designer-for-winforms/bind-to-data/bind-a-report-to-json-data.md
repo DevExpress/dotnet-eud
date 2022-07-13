@@ -76,15 +76,21 @@ This topic describes how to bind a report to JSON data.
     > [!Tip]
     > If the path parameters, query parameters, and header parameters you specified do not contain sensitive data, you can save them along with the connection parameters. Otherwise, the path parameters, query parameters, and header parameters are used once to retrieve JSON data to an object in memory. This object is accessible until you close the Report Designer.
 
-5. On the next page, the wizard shows the specified JSON data's structure. You can choose all nodes or a subset of nodes.
+5. On the next page, the wizard shows the structure of your JSON data. You can choose whether to include all records (root) or a subset of them to the datasource’s final set of records.
 
-    ![JSON-SelectRootElement](../../../../images/eurd-win-JSON-SelectRootElement.png)
+    ![](../../../../images/JSON-SelectRootElement.png)
 
-    Uncheck the data fields that your report does not require.
+    Uncheck data fields that you do not want to include to your report.
 
-    You can rename data fields if necessary.
+    ![](../../../../images/JSON-EnableDisableFields.png)
 
-    ![JSON-EditFieldNames](../../../../images/eurd-win-JSON-EditFieldNames.png)
+    Assign a title to a field’s Field Display Name column if you want to use this title as a default field name.
+
+    ![](../../../../images/JSON-EditFieldNames.png)
+
+    The JSON Data Source Wizard analyzes only the first 100 records to generate field types. If your JSON data contains more than 100 records, you can use all of them for type generation. For this, click the Analyze all records button.
+
+    ![](../../../../images/json-wizard-analyze-all-records-button.png)
 
 After you finish the wizard, it creates the **JsonDataSource** component. This component retrieves the checked data fields that the selected JSON element includes. The [Field List](..\report-designer-tools\ui-panels\field-list.md) reflects the data source structure.
  

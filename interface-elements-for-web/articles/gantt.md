@@ -10,11 +10,11 @@ This section describes the Gantt control's capabilities.
 
 **Data Editing**
 
-* [Add, Edit and Delete Tasks](gantt/data-editing/modify-tasks.md)
+* [Add, Edit and Delete Tasks](gantt/data-editing/manage-tasks.md)
 
-* [Add and Delete Dependencies](gantt/data-editing/modify-dependencies.md)
+* [Add and Delete Dependencies](gantt/data-editing/manage-dependencies.md)
 
-* [Add, Edit and Delete Resources](gantt/data-editing/modify-resources.md)
+* [Add, Edit and Delete Resources](gantt/data-editing/manage-resources.md)
 
 **UI Elements**
 

@@ -56,9 +56,31 @@ The Wizard creates a new **FederationDataSource** that includes the single query
 
 ![](../../../../images/eurd-data-federation-data-source-structure.png)
 
-The federated query's default name is the same as the main table's name. To rename this query, right-click the data source in the Field List or Report Explorer and select **Manage Queries** in the context menu.
+The federated query’s default name equals to the main table’s name (the **Categories** table in this tutorial). You can rename this query in the **Manage Queries** dialog. To invoke it, right-click the data source in the **Field List** or **Report Explorer** and select **Manage Queries** in the context menu.
 
-![](../../../../images/eurd-data-federation-rename-query.png)
+![](../../../../images/data-federation-rename-query.png)
+
+The **Manage Queries** dialog appears.
+
+![](../../../../images/data-federation-manage-queries-dialog.png)
+
+Double-click the table name in the left menu and use the editor to change this name.
+
+![](../../../../images/data-federation-change-query-name.png)
+
+Besides renaming table names, you can also use the **Manage Queries** dialog to add, modify, or delete queries.
+
+To add a new query, click the Add button in the left menu.
+
+![](../../../../images/data-federation-add-new-query.png)
+
+Double-click a table or drag-and-drop it onto the right surface to add the table to the query.
+
+![](../../../../images/data-federation-add-table-to-query.png)
+
+Specify the query type. Then, use the menus on the right to configure data fields for the selected or existing tables.
+
+![](../../../../images/data-federation-configure-data-fields.png)
 
 Once you rename the query, update the report's **Data Member** property.
 
