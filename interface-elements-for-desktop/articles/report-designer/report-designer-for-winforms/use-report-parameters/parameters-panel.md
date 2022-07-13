@@ -57,7 +57,7 @@ Specify the **Label orientation** property to choose the position of a parameter
 
 ![](../../../../images/report-parameters-editor-specify-label-orientation.png)
 
-| Default panel | Customized panel |
+| Label orientation = Horizontal (Default) | Label orientation = Vertical |
 | ----------- | ----------- |
 | ![](../../../../images/with-label-orientation-horizontal.png) | ![](../../../../images/with-label-orientation-vertical.png) |
 
@@ -77,7 +77,7 @@ You can also drag-and-drop parameters and groups inside the menu to achieve the 
 
 To customize a group, select it and use its editors on the right to set up the group appearance. The following example unites the **customerName** and **companyName** parameters into a group called **Select a customer**.
 
-![](../../../../images/report-parameters-editor-drag-and-drop-elements-in-menu.png)
+![](../../../../images/report-parameters-editor-group-customization-options.png)
 
 | Default panel | Panel with a group |
 | ----------- | ----------- |
@@ -117,6 +117,6 @@ Similar to parameters and groups, you can use the **Up** and **Down** buttons or
 
 The example below shows the **Parameters** panel with a separator between the **Company Name** and **Customer Name** parameters.
 
-| Show borders = true (Default) | Show borders = false |
+| Default panel | Panel with a separator |
 | ----------- | ----------- |
 | ![](../../../../images/default-parameters-panel-3.png) | ![](../../../../images/customized-parameters-panel-3.png) |
