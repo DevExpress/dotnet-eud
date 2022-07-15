@@ -27,6 +27,9 @@ This section consists of the following subsections.
 * [Layout](grid/layout.md)
 	
 	Describes the Grid's layout options.
+* [Column Filter](grid/column-filter.md)
+	
+	Describes how you can search data in the Grid item.
 * [Style](grid/style.md)
 	
 	Describes the Grid's style settings.

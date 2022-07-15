@@ -25,3 +25,6 @@ The topics in this section describe the features available in the **Grid** dashb
 * [Layout](grid/layout.md)
 	
 	Describes the Grid's layout options.
+* [Column Filter](grid/column-filter.md)
+	
+	Describes how you can search data in the Grid item.
