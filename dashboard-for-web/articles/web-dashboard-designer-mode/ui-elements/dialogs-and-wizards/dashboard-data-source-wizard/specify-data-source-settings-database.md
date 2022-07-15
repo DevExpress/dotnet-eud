@@ -1,5 +1,5 @@
 ---
-title: Dashboard Data Source Wizard
+title: Specify Data Source Settings (Database)
 author: Margarita Zakhodyaeva
 ---
 # Specify Data Source Settings (Database)
