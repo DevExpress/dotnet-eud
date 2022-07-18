@@ -30,7 +30,7 @@ This invokes the Query Builder for federated data sources. See the following sec
 
 ## Add a New Query to the Existing Federated Data Source
 
-You can add a new query to the existing federated data source. Open the [dashboard menu](xref:117444) and go to the **Data Sources** page. Select the federated data source and click **Manage Queries**:
+You can add a new query to the existing federated data source. Open the [dashboard menu](../../dashboard-menu.md) and go to the **Data Sources** page. Select the federated data source and click **Manage Queries**:
 
 ![Web Dashboard - Invoke the Manage queries dialog for Data Federation](../../../../../images/web-dashboard-federated-data-source-manage-queries-link.png)
 

@@ -4,9 +4,9 @@ author: Margarita Zakhodyaeva
 ---
 # Dashboard Data Source Wizard
 
-The **Dashboard Data Source Wizard** allows you to configure a data source, retrieve its data, and add the created data source to a [dashboard](xref:116503).
+The **Dashboard Data Source Wizard** allows you to configure a data source, retrieve its data, and add the created data source to a dashboard.
 
-To invoke this wizard, open to the **Data Sources** page in the [dashboard menu](xref:117444) and click **Add**:
+To invoke this wizard, open to the **Data Sources** page in the [dashboard menu](../dashboard-menu.md) and click **Add**:
 
 ![web Dashboard - Data sources page - "Add" button](../../../../images/web-data-sources-click-add-button.png)
 
