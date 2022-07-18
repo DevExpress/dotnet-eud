@@ -109,6 +109,7 @@ To edit a query, select the query name in the list and click the **Edit button**
 
 To delete a query, select the query name in the list and click the **Delete button** that appears in the selected item. The query is deleted without confirmation.
 
+> [!NOTE]
 > Once you rename the query, update the report's **Data Member** property.
 >
 >![](../../../images/eurd-web-data-federation-report-data-member-property.png)

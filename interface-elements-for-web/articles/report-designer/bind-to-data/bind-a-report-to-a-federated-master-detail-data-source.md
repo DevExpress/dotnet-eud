@@ -70,6 +70,7 @@ To edit a query, select the query name in the list and click the **Edit button**
 
 To delete a query, select the query name in the list and click the **Delete button** that appears in the selected item. The query is deleted without confirmation.
 
+> [!NOTE]
 > Once you rename the query, update the **Data Member** properties for the DetailReport band and the Report itself.
 >
 >![](../../../images/eurd-web-data-federation-detailreport-data-member-property.png)
