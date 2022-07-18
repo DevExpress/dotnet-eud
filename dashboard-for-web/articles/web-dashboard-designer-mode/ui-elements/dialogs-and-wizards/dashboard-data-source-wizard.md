@@ -4,17 +4,21 @@ author: Margarita Zakhodyaeva
 ---
 # Dashboard Data Source Wizard
 
-The **Dashboard Data Source Wizard** allows you to create a new data source or edit the existing data sources.
+The **Dashboard Data Source Wizard** allows you to configure a data source, retrieve its data, and add the created data source to a dashboard.
 
-To invoke this wizard, go to the **Data Sources** page of the [dashboard menu](../dashboard-menu.md) and click **Add**.
+To invoke this wizard, open to the **Data Sources** page in the [dashboard menu](../dashboard-menu.md) and click **Add**:
 
-![](../../../../images/dashboard-data-sources-add-button.png)
+![web Dashboard - Data sources page - "Add" button](../../../../images/web-data-sources-click-add-button.png)
 
-In the invoked window, choose the existing data source or click **Create data source**....
+In the invoked window, click **Create data source**:
 
-![](../../../../images/dashboard-create-data-source.png) 
+![web Dashboard - "Create data source" window](../../../../images/web-data-sources-create-data-source.png)
 
-On the start page, select the data source type. You can create a new dashboard data source based on a database, JSON data, or an OLAP cube.
+On the start page, select the data source type:
+
+![Web Dashboard - Data Source Wizard](../../../../images/web-dashboard-data-source-wizard.png)
+
+You can create a new data source based on a database, JSON data, an OLAP cube, or create a federated data source. Click **Next** to proceed to the next wizard page depending on the selected data source type:
 
 * [Database](dashboard-data-source-wizard/specify-data-source-settings-database.md)
 
@@ -28,4 +32,6 @@ On the start page, select the data source type. You can create a new dashboard d
 
   Connects to OLAP cubes.
 
-![](../../../../images/dashboard-data-source-types.png)
+* [Data Federation](dashboard-data-source-wizard/specify-data-source-settings-olap.md) 
+
+  Creates a federated data source from the existing data sources.

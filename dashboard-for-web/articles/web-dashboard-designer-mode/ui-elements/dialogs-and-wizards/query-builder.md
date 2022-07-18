@@ -1,75 +1,159 @@
 ---
 title: Query Builder
-author: Margarita Zakhodyaeva
+author: Natalia Kazakova
 legacyId: 117967
 ---
 # Query Builder
-In the **Query Builder** dialog, you can add data tables and views to the data source, and select which columns to include. The **Query Builder** automatically joins the related tables, so all you need to do is drag and drop.
 
-![wdd-query-builder](../../../../images/img124934.png)
+The **Query Builder** is a visual query editor. You can use it to add data tables and views to the SQL data sources, and select which columns to include. For federated data sources, you can create a federated query.
 
-This topic consists of the following sections:
-- [Add Tables](#add-tables)
-- [Join Tables](#join-tables)
-- [Edit Column Settings](#edit-column-settings)
-- [Filter Data](#filter-data)
-- [Preview Data](#preview-data)
+## Query Builder for SQL Data Sources
 
-## Add Tables
-Drag the required tables/views from the **Tables** pane onto the **Diagram** pane to add them to a data source.
+### Add Tables
 
-![wdd-query-builder-add-table](../../../../images/img125656.png)
+Drag a specific table or view to the Query Builder design surface pane to include it in a query:
 
-Then, select the required columns.
+![wdd-query-builder-add-table](../../../../images/wdd-query-builder-add-table125656.png)
 
-![wdd-query-builder-select-column](../../../../images/img125657.png)
+Then select the columns to include in the query:
 
-To delete an unnecessary table, select it and click the **Delete** button (the ![wdd-query-builder-delete-icon](../../../../images/img125661.png) icon).
+![wdd-query-builder-select-column](../../../../images/wdd-quey-builder-select-column125657.png)
 
-You can cancel or repeat the action using the **Undo**/**Redo** buttons (the ![wdd-query-builder-undo](../../../../images/img126299.png) and ![wdd-query-builder-redo](../../../../images/img126300.png) icons).
+The Query Builder provides a toolbar with the following commands:
 
-## Join Tables
-When you drop a table that has a relationship at the database level with any of the recently added tables, the **Query Builder** joins these tables automatically.
+Icon | Description 
+---------|----------
+![wdd-query-builder-delete-icon](../../../../images/wdd-query-builder-delete-icon125661.png) | Removes the selected table or view from the query.
+![wdd-query-builder-undo](../../../../images/wdd-query-builder-undo126299.png) | Reverses the most recent action. 
+![wdd-query-builder-redo](../../../../images/wdd-query-builder-redo126300.png) | Restores the previously undone action.
 
-![wdd-query-builder-join-tables](../../../../images/img125658.png)
+### Join Tables
+The Query Builder allows you to join tables and/or views. Use drag and drop to connect corresponding columns (key fields). A relationship line is drawn between two connected tables / views. Note the connected columns should have identical data types. The **Query Builder** automatically joins a table or view that has a relationship at database level with any recently added tables.
 
-You can create a relationship between two tables manually. To do this, drag a column in one table to a related column in a different table. A relationship line will be drawn between the two tables.
+![wdd-query-builder-join-tables](../../../../images/wdd-query-builder-join-tables125658.png)
 
-![wdd-query-builder-join-tables-manually](../../../../images/img125659.png)
+The Query Builder allows you to change the join type (if necessary). Click a relationship line to display the **Relation Properties** section. Properties in this section define the join type (**Inner** or **Left Outer**) and applied logical operator.
 
-The Query Builder allows you to change the join type (if necessary). For this, select the relationship line and use the **Join type** combo box in the Properties pane. **Inner join** and **Left outer join** are supported.
+![wdd-query-builder-relationship-properties](../../../../images/wdd-query-builder-ralstionship-properties125660.png)
 
-![wdd-query-builder-ralstionship-properties](../../../../images/img125660.png)
+A left outer join returns all values from an inner join along with all values in the "left" table that do not match the "right" table. The result also includes rows with NULL (empty) values in the key field. If you select the left outer join, the relationship line displays an arrow which points to the "right" table of the join clause. The executed query returns a "flat" table that joins different tables within a single query.
 
-To delete an unnecessary relationship, select the relationship line and click the **Delete** button (the ![wdd-query-builder-delete-icon](../../../../images/img125661.png) icon).
+Select the relationship line and click **Delete** (the ![wdd-query-builder-delete-icon](../../../../images/wdd-query-builder-delete-icon125661.png) icon) to delete an unnecessary relationship.
 
-## Edit Column Settings
-To edit a column setting, select the required column in a table. Then, use the **Properties** pane to specify the column setting.
 
-The following settings are available for each column:
+### Edit Column Settings
+Select a table or view, and click a data column to display the data column options.
 
-![wdd-queru-builder-properties-pane](../../../../images/img124947.png)
-* The **Name** field displays the selected column name.
-* The **Type** field displays the selected column type.
-* The **Alias** field allows you to specify the column alias.
-	
-	> [!NOTE]
-	> Note that aggregated columns should always have an alias.
-* The **Output** field allows you to choose whether to include the selected column to the query.
-* Use **Sort Type** to specify the sort order of column values.
-* The **Sort Order** field allows you to specify the order in which several columns are sorted.
-* The **Group By** option allows you to group data by the values of the selected column.
-* The **Aggregate** field allows you to specify the aggregate function used to aggregate column values.
-	
-	> [!NOTE]
-	> Note that you should apply aggregation/grouping either to all columns or to none of them.
+![wdd-query-builder-properties-pane](../../../../images/wdd-queru-builder-properties-pane124947.png)
 
-## Filter Data
-The Query Builder allows you to filter a query. To do this, deselect tables and click the ellipsis button in the invoked **Filter** field in the **Properties** pane. This invokes the **Filter Editor** dialog, which enables you to construct a filter string.
+The **Column Properties** section contains the following options:
 
-![wdd-filter-editor-filter-query](../../../../images/img124905.png)
+Option | Description
+---------|----------
+ **Name** | Indicates the column name that the Query Builder obtains from the database. 
+ **Type** | Indicates the column's data type. The Query Builder provides information about the maximum string length for string columns.
+ **Alias** | Specifies a custom column name (alias). Include a column into a query to enable this option. Aggregated columns should always have an alias.
+ **Output** | Specifies whether to include a column in a query result. 
+ **Sort Type** | Specifies whether to maintain the initial sort order for a column, or sort data records in ascending or descending order. 
+ **Sort Order** | Defines the sorting priority for multiple columns (the less this number is, the higher the priority).
+ **Group By** | Specifies whether to group a query result by this column.
+ **Aggregate** | Specifies whether to aggregate the column's data records. You can use the following aggregate functions: **Count**, **Max**, **Min**, **Avg**, **Sum**, **CountDistinct**, **AvgDistinct**, **SumDistinct**. <br />The Query Builder omits individual data records from the query result and only retains the aggregate function result when you apply any of these functions.
 
-See the following topic to learn more: [Filter Queries](../../provide-data/working-with-sql-data-sources/filter-queries.md).
+### Use Query Parameters
 
-## Preview Data
-The Query Builder allows you to preview data for the created SQL query. To do this, click the **Preview Results...** button. This invokes the [Data Preview](preview-data.md) window containing data returned after executing the query.
+Use the **Parameters** section to add, remove and edit [query parameters](../../provide-data/working-with-sql-data-sources/pass-query-parameters.md).
+
+![](../../../..//images/web-query-builder-parameter-dialog.png)
+
+Each query parameter allows you to configure the following properties:
+
+Option | Description
+---------|---------
+**Name** | Specifies the query parameter's name.
+**Type** | Specifies the parameter value's data type.<br/>Set this property to **Expression** to generate parameter values dynamically.
+**Result Type** | Specifies the data type of the expression's result value.<br/>This property is enabled if the query parameter type is Expression.
+**Value** | Determines the query parameter's actual value.<br/>You can specify a static value according to the selected value's data type.<br/>Alternatively, construct an expression to generate parameter values dynamically. Click this property's ellipsis button to invoke the **Expression Editor** and create an expression. This ellipsis button is enabled if you set the query parameter type to **Expression**.
+
+
+### Filter Data
+The Query Builder can be used to filter a query. To do this, deselect tables and click the ellipsis button in the invoked **Filter** field in the **Properties** pane. This invokes the **Filter Editor** dialog, which provides a visual interface for constructing a filter string.
+
+![wdd-filter-editor-filter-query](../../../../images/wdd-filter-editor-filter-query124905.png)
+
+See the following topic for details: [Filter Queries](../../provide-data/working-with-sql-data-sources/filter-queries.md).
+
+### Preview Data
+Click the **Preview Results** button to test a query on the actual data's limited subset.
+
+The invoked [Data Preview](preview-data.md) dialog displays the first 100 data records of the query:
+
+![wdd-preview-result](../../../../images/wdd-preview-result124959.png)
+
+
+## Query Builder for Federated Data Sources
+
+The Query Builder supports the following query types for the federated data source:
+
+- **Join** - Combines rows from two or more sources based on a clause.
+- **Union and Union All** - The **Union** query combines rows from two or more sources into one data set and removes duplicate rows in the merged source. The **Union All** query does the same, except it doesn't remove duplicated rows. You can create a union query for data sources if data types of their columns are [implicitly converted](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/types/casting-and-type-conversions#implicit-conversions).
+- **Transformation** - If a data source contains a complex column (an object), you can transform its properties to display them as separate columns in a flattened view. If one of the data columns is an array, you can unfold its values and display a new data row for every element of the array. When you unfold the column, you can flatten it and create a flattened view.
+
+### Create a Join-Based Federated Data Source
+
+In the invoked Query Builder, add the tables from the data sources (drag or double-click them). Use drag-and-drop to create a relationship based on the key field. Enable checkboxes for the data fields you want to include in the query result set.
+
+You can also specify a different name for a field: set the alias in the Alias column for the corresponding field (for example, _City_ for the _ShipCity_ field on the image below).
+
+In the image below columns from the two data sources are added to the query:
+
+![Query Builder for Data Federation - Join query](../../../../images/web-dashboard-federated-wizard-join-query.png)
+
+You can specify the expression for the field. For this, enable the **_f_** button and then click ellipsis button:
+
+![Query Builder for Data Federation - Set expression in the Join query](../../../../images/web-dashboard-federated-wizard-join-query-set-expression.png)
+
+This invokes the Expression Editor and you can specify a [calculated field](../../provide-data/calculated-fields.md).
+
+Click **OK** to close the Query Builder. Rename the created query if necessary. 
+
+![Query Builder for Data Federation - Rename the Join query](../../../../images/web-dashboard-federated-wizard-join-query-rename.png)
+
+Click **Finish** to create the federated data source with the Join query and close the Data Source Wizard. Add the newly created data source to the dashboard to see the result:
+
+![Query Builder for Data Federation - Join query result](../../../../images/web-dashboard-federated-wizard-join-query-result.png)
+
+
+### Create a Union-Based Federated Data Source
+
+Double-click the Customers table and the Excel data source. The query includes only fields that have identical names and types in the origin sources. Enable the **Union All** check box to create the **Union All** query and do not remove duplicated rows. 
+
+You can also specify a different name for a field: set the alias in the Alias column for the corresponding field.
+
+In the image below, two sources are added to the query:
+
+![Query Builder for Data Federation - Union query](../../../../images/web-dashboard-federated-wizard-union-query.png)
+
+Click **OK** to close the Query Builder. Rename the created query if necessary.
+
+![Query Builder for Data Federation - Rename the Union query](../../../../images/web-dashboard-federated-wizard-union-query-rename.png)
+
+Click **Finish** to create the federated data source with the Union/UnionAll query and close the Data Source Wizard. Add the newly created data source to the dashboard to see the result:
+
+![Query Builder for Data Federation - Union query result](../../../../images/web-dashboard-federated-wizard-union-query-result.png)
+
+### Create a Transformation-Based Data Source
+
+In the invoked Query Builder, select the data source or query that contains columns you want to transform. Select the Transform check box next to the column you need to unfold and flatten. You can specify the aliases for the generated columns.
+
+In the image below the Query Builder transforms the `Products` column from the JSON data source:
+
+![Query Builder for Data Federation - Transformation query](../../../../images/web-dashboard-federated-wizard-transformation-query.png)
+
+Click **OK** to close the Query Builder. Rename the created query if necessary.
+
+![Query Builder for Data Federation - Rename the Transformation query](../../../../images/web-dashboard-federated-wizard-transformation-query-rename.png)
+
+Click **Finish** to create the federated data source with the Transformation query and close the Data Source Wizard. Add the newly created data source to the dashboard to see the result:
+
+![web-dashboard-federated-wizard-transformation-query-result](../../../../images/web-dashboard-federated-wizard-transformation-query-result.png)
+
