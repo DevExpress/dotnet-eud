@@ -81,6 +81,5 @@ To delete a query, select the query name in the list and click the **Delete butt
 
 > [!NOTE]
 > Once you rename the query, update the report's **Data Member** property.
->
->![](../../../images/eurd-web-data-federation-union-report-data-member-property.png)
+
 
