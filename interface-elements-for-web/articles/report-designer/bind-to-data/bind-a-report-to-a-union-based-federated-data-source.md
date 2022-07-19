@@ -42,7 +42,7 @@ This topic describes how to create a union-based federated data source that comb
 
 1. The query includes only fields that have identical names and types in the original sources. You can specify a different name for a field. Click the field's **Alias** cell and enter the new field name, if necessary.
 
-    You can select the **Union All** checkbox in the bottom left to not remove duplicated entries from the query result.
+    You can select the **Union All** checkbox in the bottom left to prevent the removal of duplicate entries from the query result.
 
     Click **OK** to close the Query Builder window.
 
