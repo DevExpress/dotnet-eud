@@ -4,7 +4,7 @@ owner: Boris Zaitsev
 ---
 # Bind a Report to a Federated Master-Detail Data Source
 
-This topic describes how to create a federated data source that retrieves data from multiple data sources and sets master-detail relationship between the queries.
+This topic describes how to create a federated data source that retrieves data from multiple data sources and sets the master-detail relationship between the queries.
 
 ## Create a Report and Data Sources
 
