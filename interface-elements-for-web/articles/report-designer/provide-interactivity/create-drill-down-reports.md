@@ -23,7 +23,7 @@ Do the following to create a drill-down report:
 	
 	![](../../../images/eurd-web-drill-down-report-label-smart-tag.png)
 	
-	The Expression Editor allows yu to enter an expression that displays different text based on the detail report's `DrillDownExpanded` property value.
+	The Expression Editor allows you to enter an expression that displays different text based on the detail report's `DrillDownExpanded` property value.
 
 	```
 	Iif( [ReportItems.Detail1.DrillDownExpanded],'Hide Details' ,'Show Details' )

@@ -11,7 +11,7 @@ The following image illustrates the transformation applied to a complex JSON dat
 
 ![](../../../images/eurd-web-federated-data-source-transformation.png)
 
-This help topic describes how to use the **Transformation** query of the **Federation Data Source**  to flatten a JSON Data Source that contains nested data (collection property).
+This help topic describes how to use the **Transformation** query of the **Federation Data Source** to flatten a JSON Data Source that contains nested data (collection property).
 
 ## Create a Report and Data Sources
 

@@ -71,7 +71,7 @@ This topic describes how to create a federated data source that joins data from 
 
     Click **OK** to close the Expression Editor. 
 
-1. Specify _Amount_ as  the alias for newly created calculated field.
+1. Specify _Amount_ as the alias for the newly created calculated field.
 
     ![](../../../images/eurd-web-data-federation-query-builder-calculated-field.png)
 
@@ -105,7 +105,7 @@ The **Manage Queries** dialog allows you to add, modify, or delete queries.
 
 To add a new query, click the **Add query** drop-down in the bottom left corner and select the query type: Join, Union, or Transform. The Query Builder is invoked to help you construct a new query.
 
-To edit a query, select the query name in the list and click the **Edit button** that appears in the selected item. The Query Builder window is invoked to help you edit a query.
+To edit a query, select the query name in the list and click the **Edit button** that appears in the selected item. The Query Builder window is invoked to help you edit the query.
 
 To delete a query, select the query name in the list and click the **Delete button** that appears in the selected item. The query is deleted without confirmation.
 

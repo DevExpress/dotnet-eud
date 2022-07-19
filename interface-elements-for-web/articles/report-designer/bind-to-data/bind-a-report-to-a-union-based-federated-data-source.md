@@ -3,7 +3,7 @@ title: Bind a Report to a Union-Based Federated Data Source
 author: Boris Zaitsev
 ---
 
-# Bind a Report to Union-Based Federated Data Source
+# Bind a Report to a Union-Based Federated Data Source
 
 This topic describes how to create a union-based federated data source that combines two tables from different data sources by appending rows from one table to another.
 
@@ -40,7 +40,7 @@ This topic describes how to create a union-based federated data source that comb
 
     ![](../../../images/eurd-web-data-federation-union-query-builder-drop-json-table.png)
 
-1. The query includes only fields that have identical names and types in the original sources. You can specify a different name for a field. Click the field's **Alias** cell and enter the  new field name, if necessary. 
+1. The query includes only fields that have identical names and types in the original sources. You can specify a different name for a field. Click the field's **Alias** cell and enter the new field name, if necessary.
 
     You can select the **Union All** checkbox in the bottom left to not remove duplicated entries from the query result.
 

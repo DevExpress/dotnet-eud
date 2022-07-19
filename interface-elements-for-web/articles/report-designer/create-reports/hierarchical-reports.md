@@ -18,7 +18,7 @@ This tutorial describes how to use the [detail band](../../report-designer/intro
 
 1. Arrange controls on the report.
 
-    - Add the [Report Header](../introduction-to-banded-reports.md) and [Page Header](../introduction-to-banded-reports.md) bands (see the **Manage Report Bands | Add Bands** section in the [Introduction to Banded Reports](../introduction-to-banded-reports.md) document for details)
+    - Add the [Report Header](../introduction-to-banded-reports.md) and [Page Header](../introduction-to-banded-reports.md) bands (see the **Manage Report Bands | Add Bands** section in the [Introduction to Banded Reports](../introduction-to-banded-reports.md) document for details).
 
     - Add [data-bound labels](../use-report-elements/use-basic-report-controls/label.md) to the **Detail** band.
 
@@ -69,7 +69,7 @@ This tutorial describes how to use the [detail band](../../report-designer/intro
 
       ![eurd-hierarchical-report-add-checkbox](../../../images/eurd-hierarchical-report-add-checkbox.png)
 
-    - Set the **Check Box** control's glyph options and remove the unnecessary text "checkBox1". You can specify different images to indicate checkbox state. in the **Custom Glyphs** section specify the ![moveup](../../../images/moveup.png) image for the **Checked** state, and the ![movedown](../../../images/movedown.png) image for the Unchecked state.
+    - Set the **Check Box** control's glyph options and remove the unnecessary "checkBox1" text. You can specify different images to indicate the checkbox state. In the **Custom Glyphs** section, specify the ![moveup](../../../images/moveup.png) image for the **Checked** state, and the ![movedown](../../../images/movedown.png) image for the **Unchecked** state.
 
         ![HierarchicalReport-CheckBoxProperties](../../../images/eurd-hierarchical-report-checkbox-properties.png)
 

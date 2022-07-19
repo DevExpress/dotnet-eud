@@ -44,7 +44,7 @@ The Field List pane in the End-User Report Designer appears as follows:
     ![](../../../images/eurd-web-data-federation-master-detail-field-list.png)
 
 The Data Source Wizard specifies query names as follows:
-* If the initial data source contains data at the root level (as the JSON data source), the federated query's name equals to the data source name.
+* If the initial data source contains data at the root level (as the JSON data source), the federated query's name is equal to the data source name.
 * If the initial data source contains one or more queries (as the SQL data source), the federated query's name consists of the data source name and query name separated by an underscore.
 
 ## Manage the Federation Data Source
@@ -63,8 +63,8 @@ Click the query name in the list to invoke the text editor and change the name.
 
 The **Manage Queries** dialog allows you to add, modify, or delete queries.
 
-To add a new query, click the **Add query** drop-down in the bottom left corner and select thP
-e query type: Join, Union, or Transform. The Query Builder is invoked to help you construct a new query.
+To add a new query, click the **Add query** drop-down in the bottom left corner and select the
+query type: Join, Union, or Transform. The Query Builder is invoked to help you construct a new query.
 
 To edit a query, select the query name in the list and click the **Edit button** that appears in the selected item. The Query Builder window is invoked to help you edit a query.
 
