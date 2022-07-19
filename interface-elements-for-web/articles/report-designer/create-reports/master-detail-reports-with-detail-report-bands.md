@@ -4,13 +4,13 @@ author: Anna Vekhina
 ---
 # Master-Detail Report with Detail Report Bands
 
-This tutorial illustrates how to display hierarchical data in a master-detail report using nested [Detail Report bands](../introduction-to-banded-reports.md). This approach is effective if your data source contains master-detail relationship. Another way is described at [Master-Detail Reports with Subreports)](master-detail-reports-with-subreports.md).
+This tutorial illustrates how to display hierarchical data in a master-detail report using nested [Detail Report bands](../introduction-to-banded-reports.md). This technique is effective if your data source contains a master-detail relationship. Another way is described at [Master-Detail Reports with Subreports)](master-detail-reports-with-subreports.md).
 
 ![](../../../images/eurd-web-master-detail-result.png)
 
 1. [Create a new report](../add-new-reports.md) or [open an existing one](../open-reports.md).
 
-2. [Bind the report](../bind-to-data.md) to a required data source and provide it with a master-detail relationship as described in the [Bind a Report to a Database](../bind-to-data/bind-a-report-to-a-database.md) topic.
+2. [Bind the report](../bind-to-data.md) to the required data source and set up a master-detail relationship as described in the [Bind a Report to a Database](../bind-to-data/bind-a-report-to-a-database.md) topic.
 
 3. Drop the required data fields from the [Field List](../report-designer-tools/ui-panels/field-list.md) onto the [Detail](../introduction-to-banded-reports.md) band.
 
