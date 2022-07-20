@@ -93,6 +93,22 @@
 </ol>
 <p>The following image illustrates cascading parameters where the <strong>Product</strong> parameter values are filtered by the selected <strong>Category</strong>.</p>
 <p><img src="../../../../images/cascadingparametersresult124540.png" alt="Cascading parameters example"></p>
+<h2 id="cascading-parameters-filtering-specifics">Cascading Parameters Filtering Specifics</h2>
+<p>Cascading parameters can be filtered on the database level (server side) or on the application level (client side). For the following datasources, such parameters are filtered on the database level:</p>
+<ul>
+<li><a href="../bind-to-data/bind-a-report-to-a-database.html">SQL Database</a></li>
+<li><a href="../bind-to-data/bind-a-report-to-a-mongodb-instance.html">MongoDB Instance</a></li>
+<li><a href="../bind-to-data/bind-a-report-to-an-entity-framework-data-source.html">Entity Framework</a></li>
+</ul>
+<p>In case of SQL databases, database level filter operations do not work for stored procedures and custom SQL queries. For such queries, filters are always applied on the application level.</p>
+<p>When your report is bound to one of the above datasources, and you change the value of the primary parameter (for example, the <strong>Category</strong> parameter in the image above), your application does the following:</p>
+<ul>
+<li>Makes a request to a database.</li>
+<li>Applies a filter on the database level (for example, filters the values of the Products parameter based on the Category parameter value).</li>
+<li>Loads the filtered data to your report.</li>
+</ul>
+<p>You can also apply filter operations for the mentioned datasources on the application level. For this, disable the <strong>Use Server Side Filtering</strong> property (locataed in a parameter&#39;s <strong>Value Source</strong> category).</p>
+<p>For the rest of the datasources, filter operations for cascading parameters are always applied on the application level.</p>
 </article>
           </div>
           
@@ -101,7 +117,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/21.2/interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/use-report-parameters/cascading-report-parameters.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/22.1/interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/use-report-parameters/cascading-report-parameters.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

@@ -69,8 +69,8 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="report-design-analyzer">Report Design Analyzer</h1>
 
-<p>The Report Design Analyzer shows errors, warnings, and information messages that help users create or enhance a report layout in the <a href="../../../report-designer-for-winforms.html">Report Designer</a>.</p>
-<p><img src="../../../../../images/eurd-report-design-analyzer-win.png" alt=""></p>
+<p>The <strong>Report Design Analyzer</strong> shows errors, warnings, and information messages that help you to detect and fix issues in a report.</p>
+<p><img src="../../../../../images/report-design-analyzer-win.png" alt=""></p>
 <h2 id="invoke-the-report-design-analyzer">Invoke the Report Design Analyzer</h2>
 <p>Do one of the following to invoke the <strong>Report Design Analyzer</strong>:</p>
 <ul>
@@ -81,28 +81,24 @@
 <p>  <img src="../../../../../images/eurd-report-design-analyzer-invoke-with-bell.png" alt=""></p>
 </li>
 </ul>
-<h2 id="filter-messages">Filter Messages</h2>
-<p>You can filter messages by one of the following categories:</p>
-<p><img src="../../../../../images/eurd-report-design-analyzer-filter-messages.png" alt=""></p>
+<h2 id="fix-issues">Fix Issues</h2>
+<p>Each message contains a recommendation on how to fix an issue. Click the Plus icon in front of the message to expand the recommendation.</p>
+<p><img src="../../../../../images/report-design-analyzer-expand-message%402x.png" alt=""></p>
+<p>The <strong>Source</strong> column contains a reference to the control or script that caused the issue. Click the reference to navigate to this control or script.</p>
+<p><img src="../../../../../images/report-design-analyzer-navigate-to-control%402x.png" alt=""></p>
+<h2 id="filter-messages-by-source">Filter Messages by Source</h2>
+<p>Based on their source, report errors are divided into four groups:</p>
 <ul>
-<li><p><strong>Report Layout</strong></p>
-<p>  Layout-related messages (for instance, in cases when report controls overlap each other or extend beyond the report&#39;s printable area).</p>
-</li>
-<li><p><strong>Report Creation</strong></p>
-<p>  Messages about report creation (for instance, notifications about invalid property values or unreachable sources of content).</p>
-</li>
-<li><p><strong>Report Scripts</strong></p>
-<p>  Messages that highlight issues in report scripts (for instance, errors in script syntax).</p>
-</li>
-<li><p><strong>All</strong></p>
-<p>  All of the above-mentioned messages.</p>
-</li>
+<li>Report layout errors – occur, for example, when report controls overlap each other or extend beyond the report’s printable area.</li>
+<li>Report creation errors – occur while the report document is created. For instance, it might include notifications about invalid property values or unreachable sources of content.</li>
+<li>Report export errors – happen while the report document is exported to PDF, XLSX, and other formats.</li>
+<li>Report script errors (this group is not displayed if report scripts are disabled in your application) – for example, errors in script syntax.</li>
 </ul>
-<h2 id="correct-the-issues">Correct the Issues</h2>
-<p>Each message contains a recommendation on how to correct an issue. Click the Plus icon in front of the message to expand the recommendation.</p>
-<p><img src="../../../../../images/eurd-report-design-analyzer-expand-message.png" alt=""></p>
-<p>The message&#39;s <strong>Source</strong> column contains a reference to the control or script that caused the issue. Click the reference to navigate to this control or script.</p>
-<p><img src="../../../../../images/eurd-report-design-analyzer-navigate-to-control.png" alt=""></p>
+<p>You can disable messages that belong to a particular source:</p>
+<p><img src="../../../../../images/disable-messages-that-belong-to-error-source.png" alt=""></p>
+<h2 id="filter-messages-by-type">Filter Messages by Type</h2>
+<p>You can enable/disable messages of each available type (&quot;Error&quot;, &quot;Warning&quot;, or &quot;Information&quot;) or any combination of them. Click the panel in the UI as shown in the image below to enable/disable messages of a corresponding type.</p>
+<p><img src="../../../../../images/filter-messages-by-type.png" alt=""></p>
 </article>
           </div>
           
@@ -111,7 +107,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/21.2/interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-tools/ui-panels/report-design-analyzer.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/22.1/interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-tools/ui-panels/report-design-analyzer.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

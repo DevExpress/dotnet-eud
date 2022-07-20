@@ -1,0 +1,142 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Column Filter for a WinForms Grid Item | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Column Filter for a WinForms Grid Item | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="../../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../../index.html">
+                <img id="logo" class="svg" src="../../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="column-filter-for-a-winforms-grid-item">Column Filter for a WinForms Grid Item</h1>
+
+<p>Column filters (filter row and header filter) allow users to search data in the Grid item. These filters do not affect data outside the Grid.</p>
+<h2 id="filter-row">Filter Row</h2>
+<p>The <strong>filter row</strong> allows a user to filter data by individual column values. To display a filter row, go to the Grid&#39;s <strong>Design</strong> Ribbon tab in the Designer and enable the <strong>Filter Row</strong> button in the <strong>Column Filter</strong> group:</p>
+<p><img src="../../../../images/win-designer-display-filter-row.png" alt="WinForms Designer - Display a filter row"></p>
+<p>When the filter row appears, a user can enter the condition in the text box to filter column values:</p>
+<p><img src="../../../../images/win-designer-filter-row-text-box.png" alt="WinForms Designer - Filter row"></p>
+<p>The filter row&#39;s cells can be of different types--text boxes for string and numeric values, calendars for dates, and so on.</p>
+<h2 id="header-filter">Header Filter</h2>
+<p>The <strong>header filter</strong> allows users to filter values in an individual column. A user can include or exclude values from the applied filter to show the result.</p>
+<p><img src="../../../../images/win-designer-header-filter.png" alt="WinForms Designer - Header filter"></p>
+<p>The header filter is always enabled, so you cannot disable it in the UI. </p>
+<h2 id="update-totals">Update Totals</h2>
+<p>A user can configure a Grid item to reflect changes in column values and recalculate <a href="totals.html">totals</a> based on the applied column filters.</p>
+<p>To update totals, go to the Grid&#39;s <strong>Design</strong> Ribbon tab in the Designer and enable the <strong>Update Totals</strong> button in the <strong>Column Filter</strong> group:</p>
+<p><img src="../../../../images/win-designer-recalculate-totals.png" alt="WinForms Designer - Enable Totals Updates"></p>
+<p>As a result, the Grid item recalculates totals depending on the applied column filters:</p>
+<p><img src="../../../../images/win-designer-filter-row-update-totals.png" alt="WinForms Designer - Updated totals in a filter row"></p>
+<h2 id="limitations">Limitations</h2>
+<h3 id="filter-row-limitations">Filter Row Limitations</h3>
+<p>The following Grid <a href="columns.html">columns</a> do not support the filter row:</p>
+<ul>
+<li>Dimension (for Image display mode only)</li>
+<li>Measure (for Bar display mode only)</li>
+<li>Sparkline</li>
+<li>Delta</li>
+</ul>
+<p>A Grid item does not support a filter row for window calculations and calculated fields that use the w-function if the <strong>Update Totals</strong> option is enabled.</p>
+<h3 id="update-totals-limitations">Update Totals Limitations</h3>
+<p>You cannot enable totals recalculation in OLAP data sources.</p>
+<h3 id="other-limitations">Other Limitations</h3>
+<p>Although column filters within a Grid item are case-insensitive, totals are calculated on the server and their case-sensitivity setting depends on the database settings. If case-sensitivity settings are different, the total value can differ from the Grid&#39;s data. Make sure that the Grid item and the database use the same case-sensitivity settings.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/22.1/dashboard-for-desktop/articles/dashboard-designer/dashboard-item-settings/grid/column-filter.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2022 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../../styles/main.js"></script>
+  </body>
+</html>

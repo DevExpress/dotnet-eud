@@ -69,36 +69,27 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="bind-dashboard-items-to-data-in-the-web-dashboard">Bind Dashboard Items to Data in the Web Dashboard</h1>
 
-<p>This topic explains how to bind the newly created dashboard item to data source fields to visualize data.</p>
-<ul>
-<li><a href="#create">Create Binding</a></li>
-<li><a href="#modify">Modify Binding</a></li>
-<li><a href="#clear">Clear Binding</a></li>
-<li><a href="#specify">Specify a Data Source</a></li>
-</ul>
-<h2 id="a-namecreatecreate-binding"><a name="create"></a>Create Binding</h2>
-<p>To bind a dashboard item to data, invoke the dashboard item&#39;s <a href="../ui-elements/dashboard-item-menu.html">Bindings</a> menu to open binding settings. In this menu you can see a data source (data member)  to which the dashboard item is bound and empty placeholders for data items.</p>
-<p>The image below displays the <a href="../dashboard-item-settings/grid.html">Grid</a> dashboard item, that binded to <em>Sales Person</em> query of the <em>SQL Data Source</em>, and corresponding <a href="../dashboard-item-settings/grid/providing-data.html">data sections</a>.</p>
-<p><img src="../../../images/img124590.png" alt="wdd-bindings-menu"></p>
-<p>To populate a dashboard item with data, click a placeholder and choose the required field in the invoked list of data source&#39;s available fields.</p>
-<p><img src="../../../images/img125350.png" alt="wdd-add-data-tem"></p>
-<p>To rename the data item, go to the <strong>Options</strong> section and specify the data item&#39;s caption.</p>
-<p><img src="../../../images/img124591.png" alt="WDD-rename-data-item"></p>
-<div class="NOTE"><h5>Note</h5><p>To learn how to bind a specific dashboard item to data, see the <strong>Providing Data</strong> topic for the <a href="../dashboard-item-settings.html">required dashboard item</a>.</p>
+<p>This topic explains how to bind the <a href="../add-dashboard-items.html">newly created dashboard item</a> to data source fields to visualize data.</p>
+<h2 id="create-binding">Create Binding</h2>
+<p>Invoke the <a href="../ui-elements/dashboard-menu.html">Binding</a> menu. The image below displays a <a href="../dashboard-item-settings/grid.html">Grid</a> dashboard item that is bound to an <em>SQL Data Source</em> | <em>Sales Person</em> query:</p>
+<p><img src="../../../images/wdd-bindings-menu124590.png" alt="web dashboard - Bindings menu"></p>
+<p>Click a placeholder and select the data source field to bind a dashboard item to data:</p>
+<p><img src="../../../images/wdd-add-data-item125350.png" alt="web dashboard - Add a data item"></p>
+<p>To rename the data item&#39;s caption, go to the data item&#39;s <strong>Options</strong> section:</p>
+<p><img src="../../../images/wdd-rename-data-item124591.png" alt="web dashboard - Rename a data item"></p>
+<div class="TIP"><h5>Tip</h5><p>For information on how to bind a specific dashboard item to data, see the corresponding <strong>Providing Data</strong> help topic: <a href="../dashboard-item-settings.html">dashboard item settings</a>.</p>
 </div>
-<h2 id="a-namemodifymodify-binding"><a name="modify"></a>Modify Binding</h2>
-<p>You can modify data binding by dragging a data item within a data section. To do this, drag the data item to the required position.</p>
-<p><img src="../../../images/img124592.png" alt="wdd-replace-data-item"></p>
-<h2 id="a-nameclearclear-binding"><a name="clear"></a>Clear Binding</h2>
-<p>You can remove the data item by clicking the <strong>Remove</strong> (<img src="../../../images/img124585.png" alt="WDD-icon-delete-data-source">) icon in the data item container.</p>
-<p><img src="../../../images/img125482.png" alt="wdd-grid-delete-data-item"></p>
-<h2 id="a-namespecifyspecify-a-data-source"><a name="specify"></a>Specify a Data Source</h2>
-<p>A dashboard can contain several data sources. By default, a dashboard item is bound to the first <a href="../provide-data/manage-data-sources.html">available data source</a>.</p>
-<p>You can change the default  data source (or a data member / query, optionally) of dashboard items. For this, go to the dashboard item&#39;s <a href="../ui-elements/dashboard-item-menu.html">Bindings</a> menu and click the <strong>Data / Filtering</strong> button.</p>
-<p><img src="../../../images/img125086.png" alt="wdd-data-filtering-section"></p>
-<p>In the invoked section you can change the data source (data member) for the selected dashboard item. Click <strong>OK</strong> to save the changes.</p>
-<div class="NOTE"><h5>Note</h5><p>Note that this action removes all data items from the current dashboard item.</p>
-</div>
+<h2 id="modify-binding">Modify Binding</h2>
+<p>You can use drag-and-drop to change the data binding order:</p>
+<p><img src="../../../images/wdd-replace-data-item124592.png" alt="web dashboard - Replace a data item"></p>
+<h2 id="clear-binding">Clear Binding</h2>
+<p>To remove the data item, select it and click the <strong>Remove</strong> (<img src="../../../images/wdd-icon-delete-data-source124585.png" alt="WDD-icon-delete-data-source">) button next to this data item.</p>
+<p><img src="../../../images/wdd-grid-delete-data-item125482.png" alt="web dashboard - Delete a data item in a Grid"></p>
+<h2 id="specify-a-data-source">Specify a Data Source</h2>
+<p>A dashboard can have several <a href="../provide-data/manage-data-sources.html">data sources</a>. To change the default data source (or a query / data member ), go to the dashboard item&#39;s <a href="../ui-elements/dashboard-menu.html">Binding</a> menu and click the <strong>Data Source</strong> button.</p>
+<p><img src="../../../images/wdd-data-filtering-section125086.png" alt="web dashboard - Data filtering section"></p>
+<p>In the invoked section, change the data source (query / data member) and click <strong>OK</strong>.</p>
+<p>When you change the dashboard item&#39;s data source, data items try to display data from the same column of the new data source. If such a column does not exist, you get the red color indication for this data item. Select a new data source field for this data item.</p>
 </article>
           </div>
           
@@ -107,7 +98,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/21.2/dashboard-for-web/articles/web-dashboard-designer-mode/bind-dashboard-items-to-data/bind-dashboard-items-to-data-in-the-web-dashboard.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/22.1/dashboard-for-web/articles/web-dashboard-designer-mode/bind-dashboard-items-to-data/bind-dashboard-items-to-data-in-the-web-dashboard.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

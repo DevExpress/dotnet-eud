@@ -118,11 +118,14 @@
 </li>
 </ul>
 </li>
-<li><p>On the next page, the wizard shows the specified JSON data&#39;s structure. You can choose all nodes or a subset of nodes.</p>
-<p> <img src="../../../../images/eurd-win-JSON-SelectRootElement.png" alt="JSON-SelectRootElement"></p>
-<p> Uncheck the data fields that your report does not require.</p>
-<p> You can rename data fields if necessary.</p>
-<p> <img src="../../../../images/eurd-win-JSON-EditFieldNames.png" alt="JSON-EditFieldNames"></p>
+<li><p>On the next page, the wizard shows the structure of your JSON data. You can choose whether to include all records (root) or a subset of them to the datasource’s final set of records.</p>
+<p> <img src="../../../../images/JSON-SelectRootElement.png" alt=""></p>
+<p> Uncheck data fields that you do not want to include to your report.</p>
+<p> <img src="../../../../images/JSON-EnableDisableFields.png" alt=""></p>
+<p> Assign a title to a field’s Field Display Name column if you want to use this title as a default field name.</p>
+<p> <img src="../../../../images/JSON-EditFieldNames.png" alt=""></p>
+<p> The JSON Data Source Wizard analyzes only the first 100 records to generate field types. If your JSON data contains more than 100 records, you can use all of them for type generation. For this, click the Analyze all records button.</p>
+<p> <img src="../../../../images/json-wizard-analyze-all-records-button.png" alt=""></p>
 </li>
 </ol>
 <p>After you finish the wizard, it creates the <strong>JsonDataSource</strong> component. This component retrieves the checked data fields that the selected JSON element includes. The <a href="../report-designer-tools/ui-panels/field-list.html">Field List</a> reflects the data source structure.</p>
@@ -141,7 +144,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/21.2/interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/bind-to-data/bind-a-report-to-json-data.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/22.1/interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/bind-to-data/bind-a-report-to-json-data.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

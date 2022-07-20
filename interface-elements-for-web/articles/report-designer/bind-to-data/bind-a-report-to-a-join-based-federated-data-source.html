@@ -1,0 +1,182 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Bind a Report to a Join-Based Federated Data Source | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Bind a Report to a Join-Based Federated Data Source | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../index.html">
+                <img id="logo" class="svg" src="../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="bind-a-report-to-a-join-based-federated-data-source">Bind a Report to a Join-Based Federated Data Source</h1>
+
+<p>This topic describes how to create a federated data source that joins data from multiple data sources into a single query.</p>
+<h2 id="create-a-report-and-data-sources">Create a Report and Data Sources</h2>
+<ol>
+<li><p><a href="../report-designer-tools/report-wizard/empty-report.html">Create a new blank report</a>.</p>
+</li>
+<li><p><a href="bind-a-report-to-a-database.html">Add a SQL data source</a> that retrieves data from the <code>Invoices</code> view of the <strong>Northwind</strong> database.</p>
+</li>
+<li><p><a href="bind-a-report-to-json-data.html">Add a JSON data source</a> that retrieves customer data from the <a href="https://raw.githubusercontent.com/DevExpress-Examples/DataSources/master/JSON/customers.json">https://raw.githubusercontent.com/DevExpress-Examples/DataSources/master/JSON/customers.json</a> location.</p>
+<p> <img src="../../../images/eurd-web-federated-datasource-json-datasource.png" alt=""></p>
+</li>
+</ol>
+<h2 id="create-data-federation">Create Data Federation</h2>
+<ol>
+<li><p>Invoke the designer <a href="../report-designer-tools/menu.html">menu</a> and click <strong>Add Data Source</strong>.</p>
+<p><img src="../../../images/eurd-web-data-source-menu.png" alt=""> </p>
+</li>
+<li><p>Select <strong>Data Federation</strong> in the invoked <a href="../report-designer-tools/data-source-wizard.html">Data Source Wizard</a> and click <strong>Next</strong>.</p>
+<p> <img src="../../../images/eurd-web-data-source-wizard-select-data-federation.png" alt=""></p>
+</li>
+<li><p>On the next page, click the <strong>+ (plus) button</strong> and select <strong>Join</strong> to add a Join query.</p>
+<p> <img src="../../../images/eurd-web-data-federation-wizard-add-join-query.png" alt=""></p>
+</li>
+<li><p>In the invoked <a href="../report-designer-tools/query-builder.html">Query Builder</a>, drag and drop the table from the SQL data source onto the design surface.</p>
+<p> <img src="../../../images/eurd-web-data-federation-query-builder-drop-table.png" alt=""></p>
+</li>
+<li><p>Drag and drop the JSON data source onto the design surface.</p>
+<p> <img src="../../../images/eurd-web-data-federation-query-builder-drop-json-table.png" alt=""></p>
+</li>
+<li><p>Click a field in one table and drag it to the related field in another table to create a Join relationship. </p>
+<p> <img src="../../../images/eurd-web-data-federation-query-builder-create-join-relationship.png" alt=""></p>
+</li>
+<li><p>Select the line that indicates a relationship and click the Edit button in the upper right corner of the design surface to invoke the Relation Properties editor.</p>
+<p> <img src="../../../images/eurd-web-data-federation-query-builder-relation-properties-editor.png" alt=""></p>
+<p>The editor allows you to change the join type and operator.</p>
+</li>
+<li><p>Select the data fields that you want to include in the result set.</p>
+<p> <img src="../../../images/eurd-web-data-federation-query-builder-select-fields.png" alt=""></p>
+<p> You can specify a different name for a field. Click the field&#39;s <strong>Alias</strong> cell and enter the field name.</p>
+</li>
+<li><p>Click the <strong>+ (plus) button</strong> to add a field to the query. Click the field&#39;s <strong>f-button</strong> to switch to the Expression edit mode.</p>
+<p> <img src="../../../images/eurd-data-federation-query-builder-f-button.png" alt=""></p>
+</li>
+<li><p>Click the <strong>ellipsis (...)</strong> in the field to invoke the <a href="../use-expressions.html">Expression Editor</a> and construct an expression for the field value:</p>
+<pre><code>[Invoices.UnitPrice] * [Invoices.Quantity] 
+</code></pre><p> <img src="../../../images/eurd-web-data-federation-query-builder-construct-expression.png" alt=""></p>
+<p> Click <strong>OK</strong> to close the Expression Editor. </p>
+</li>
+<li><p>Specify <em>Amount</em> as the alias for the newly created calculated field.</p>
+<p> <img src="../../../images/eurd-web-data-federation-query-builder-calculated-field.png" alt=""></p>
+<p> Click <strong>OK</strong> to close the Query Builder. </p>
+</li>
+<li><p>Click <strong>Finish</strong> to complete the Data Source Wizard.</p>
+<p> <img src="../../../images/eurd-web-data-federation-data-source-wizard-finish.png" alt=""></p>
+<p> The Wizard creates a new <strong>FederationDataSource</strong> that includes a single query. </p>
+</li>
+</ol>
+<h2 id="manage-the-federation-data-source">Manage the Federation Data Source</h2>
+<p>The federation data source is shown in the Field List.</p>
+<p><img src="../../../images/eurd-web-data-federation-data-source-field-list.png" alt=""></p>
+<p>When you create a federated query, its name is set to the name of the first table added to the query. You can rename the query in the <strong>Manage Queries</strong> dialog. To invoke the dialog, click the <strong>Manage Queries</strong> button.</p>
+<p><img src="../../../images/eurd-web-data-federation-rename-query.png" alt=""></p>
+<p>The <strong>Manage Queries</strong> dialog appears.</p>
+<p><img src="../../../images/eurd-web-data-federation-manage-queries-dialog.png" alt=""></p>
+<p>Click the query name in the list to invoke the text editor and change the name.</p>
+<p><img src="../../../images/eurd-web-data-federation-manage-queries-dialog-change-name.png" alt=""></p>
+<p>The <strong>Manage Queries</strong> dialog allows you to add, modify, or delete queries.</p>
+<p>To add a new query, click the <strong>Add query</strong> drop-down in the bottom left corner and select the query type: Join, Union, or Transform. The Query Builder is invoked to help you construct a new query.</p>
+<p>To edit a query, select the query name in the list and click the <strong>Edit button</strong> that appears in the selected item. The Query Builder window is invoked to help you edit the query.</p>
+<p>To delete a query, select the query name in the list and click the <strong>Delete button</strong> that appears in the selected item. The query is deleted without confirmation.</p>
+<div class="NOTE"><h5>Note</h5><p>Once you rename the query, update the report&#39;s <strong>Data Member</strong> property.</p>
+</div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/22.1/interface-elements-for-web/articles/report-designer/bind-to-data/bind-a-report-to-a-join-based-federated-data-source.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2022 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../styles/main.js"></script>
+  </body>
+</html>

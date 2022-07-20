@@ -75,14 +75,14 @@
 <ol>
 <li><a href="../create-reports/master-detail-reports-with-detail-report-bands.html">Create a master-detail report using Detail Report bands</a>.</li>
 <li>Drop a label onto the report&#39;s detail band. Clicking this label should expand or collapse the hidden report details.</li>
-<li><p>Select the <a href="../introduction-to-banded-reports.html">detail report band</a>, open the <strong>Behavior</strong> category and expand drop-down menu for the band&#39;s <strong>Drill-Down Control</strong> property in the <a href="../report-designer-tools/ui-panels/properties-panel.html">Properties</a> panel.</p>
-<p> This menu displays all report controls available on the report band that is one level above the current band in the report bands&#39; hierarchy. Select the corresponding label in the menu to make the label expand or collapse the detail report&#39;s band when clicked in the Print Preview.</p>
+<li><p>Select the <a href="../introduction-to-banded-reports.html">detail report band</a>, open the <strong>Behavior</strong> category and expand the drop-down menu for the band&#39;s <strong>Drill-Down Control</strong> property in the <a href="../report-designer-tools/ui-panels/properties-panel.html">Properties</a> panel.</p>
+<p> This menu displays all report controls located in the report band that is one level above the current band. Select the label in the menu to make the label expand or collapse the detail report&#39;s band when clicked in the Print Preview.</p>
 <p> <img src="../../../images/eurd-web-drilldown-set-drilldown-control.png" alt=""></p>
 <p> You can also specify the band&#39;s <strong>Drill-Down Expanded</strong> property to define whether or not the band is initially expanded. This property is enabled by default.</p>
 </li>
 <li><p>Select the label and click the <strong>f-button</strong> to invoke the  <a href="../report-designer-tools/expression-editor.html">Expression Editor</a>.</p>
 <p> <img src="../../../images/eurd-web-drill-down-report-label-smart-tag.png" alt=""></p>
-<p> The Expression Editor allows yu to enter an expression that displays different text based on the detail report&#39;s <code>DrillDownExpanded</code> property value.</p>
+<p> The Expression Editor allows you to enter an expression that displays different text based on the detail report&#39;s <code>DrillDownExpanded</code> property value.</p>
 <pre><code>Iif( [ReportItems.Detail1.DrillDownExpanded],&#39;Hide Details&#39; ,&#39;Show Details&#39; )
 </code></pre><p> <img src="../../../images/eurd-web-drill-down-report-expression.png" alt=""></p>
 </li>
@@ -97,7 +97,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/21.2/interface-elements-for-web/articles/report-designer/provide-interactivity/create-drill-down-reports.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/22.1/interface-elements-for-web/articles/report-designer/provide-interactivity/create-drill-down-reports.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>
