@@ -1,11 +1,11 @@
 # DevExpress End-User Documentation
 
-This article explains how to clone DevExpress End-User documentation sources and how to create your own documentation websites and help files for projects based on DevExpress technologies. It also provides links to a sample pre-built website and PDF files.
+This article explains how to clone DevExpress End-User documentation sources and how to create your own documentation websites and help files for projects based on DevExpress technologies. You can also find a link to a sample pre-built website.
 
 > For **Developer Documentation with API Reference** see [https://docs.devexpress.com](https://docs.devexpress.com).
 
 ## The Scope
-DevExpress products for WinForms, WPF and ASP.NET WebForms/MVC. 
+DevExpress products for WinForms and ASP.NET WebForms/MVC. 
 
 ## Licensing
 By accessing this repository, you agree to the terms of the [DevExpress End-User Documentation License Agreement](LICENSE.md).

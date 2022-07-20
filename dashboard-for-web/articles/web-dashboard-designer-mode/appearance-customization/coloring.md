@@ -71,7 +71,7 @@ The following table describes how colors are applied based on the dashboard item
 
 | Item's Name | Coloring Specifics |
 | -- | -- |
-|  **Chart** | The Chart colors different measures and series dimensions by hue. |
+| **Chart** | The Chart colors different measures and series dimensions by hue. |
 | **Scatter Chart** |The Scatter Chart does not color its arguments. |
 | **Pies** |  If the Pie dashboard item contains measures (the _Values_ section) and series dimensions (the _Series_ section), only values that correspond to different measures are colored by hue. <br>  If the Pie dashboard item contains arguments (the _Arguments_ section), different argument values are colored by hue. |
 |**Choropleth Map** | The Choropleth Map automatically selects palette and scale settings to color map shapes. |
