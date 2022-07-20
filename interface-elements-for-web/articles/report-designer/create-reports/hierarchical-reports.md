@@ -18,16 +18,17 @@ This tutorial describes how to use the [detail band](../../report-designer/intro
 
 1. Arrange controls on the report.
 
-    - Add the [Report Header](../introduction-to-banded-reports.md) and [Page Header](../introduction-to-banded-reports.md) bands (see the **Manage Report Bands | Add Bands** section in the [Introduction to Banded Reports](../introduction-to-banded-reports.md) document for details)
+    - Add the [Report Header](../introduction-to-banded-reports.md) and [Page Header](../introduction-to-banded-reports.md) bands (see the **Manage Report Bands | Add Bands** section in the [Introduction to Banded Reports](../introduction-to-banded-reports.md) document for details).
+
     - Add [data-bound labels](../use-report-elements/use-basic-report-controls/label.md) to the **Detail** band.
 
     ![eurd-hierarchical-report-add-controls](../../../images/eurd-hierarchical-report-add-controls.png)
 
-    Switch to [Preview](../preview-print-and-export-reports.md) mode to see an intermediate result.
+    Switch to [PREVIEW](../preview-print-and-export-reports.md) to see an intermediate result.
 
     ![eurd-hierarchical-report-add-controls-result](../../../images/eurd-hierarchical-report-add-controls-result.png)
 
-1. Specify the Detail band's **Hierarchy Print Options** property.
+1. Switch back to **DESIGN**, select the **Detail** band, and type in "hier" in the **Search field** to navigate to the **Hierarchy Print Options** property pane.
 
     ![eurd-hierarchical-report-hierarchyprintoptions](../../../images/eurd-hierarchical-report-hierarchyprintoptions.png)
 
@@ -43,6 +44,8 @@ This tutorial describes how to use the [detail band](../../report-designer/intro
     - **Keep Together with First Child**  
     Specify whether to print a parent node together with its first child node on the next page if these nodes do not fit at the end of a page.
 
+1. Preview the result.
+
     ![eurd-hierarchical-report-hierarchyprintoptions-result](../../../images/eurd-hierarchical-report-hierarchyprintoptions-result.png)
 
     As you can see in the image above, the **Detail** band that contains child rows is printed with the specified indent. However, the row (the sum of the label widths) does not fit the page now.
@@ -57,15 +60,16 @@ This tutorial describes how to use the [detail band](../../report-designer/intro
 
         ![eurd-hierarchical-report-anchor-2](../../../images/eurd-hierarchical-report-anchor-2.png)
 
+1. Preview the result.
+
     ![eurd-hierarchical-report-anchor-result](../../../images/eurd-hierarchical-report-anchor-result.png)
 
-1. Add a drill-down control to expand/collapse child rows.
-
+1. Add a **drill-down control** to expand/collapse child rows.
     - Add a [Check Box](../use-report-elements/use-basic-report-controls/check-box.md) control to the **Detail** band at the left-most position.
 
       ![eurd-hierarchical-report-add-checkbox](../../../images/eurd-hierarchical-report-add-checkbox.png)
 
-    - Set the **Check Box** control's glyph options. Use custom glyphs for the *checked* and *unchecked* checkbox states.
+    - Set the **Check Box** control's glyph options and remove the unnecessary "checkBox1" text. You can specify different images to indicate the checkbox state. In the **Custom Glyphs** section, specify the ![moveup](../../../images/moveup.png) image for the **Checked** state, and the ![movedown](../../../images/movedown.png) image for the **Unchecked** state.
 
         ![HierarchicalReport-CheckBoxProperties](../../../images/eurd-hierarchical-report-checkbox-properties.png)
 
@@ -73,27 +77,42 @@ This tutorial describes how to use the [detail band](../../report-designer/intro
 
         ![HierarchicalReport-SetDrillDownControl](../../../images/eurd-hierarchical-report-drilldown.png)
 
-    - Set the **Check Box**'s **Check State** property to the following expression: *[ReportItems].[Detail].[DrillDownExpanded]*.
+    - Click the **f-button** next to the **Check Box** control to invoke the **Expression Editor**, and assign the following expression to the **Check State** property:
+        ```
+        Iif( [ReportItems.Detail1.DrillDownExpanded],  'Checked', 'Unchecked')
+        ```
 
         ![HierarchicalReport-CheckStateExpression](../../../images/eurd-hierarchical-report-checkstateexpression.png)
 
-    ![HierarchicalReport-DrillDownControl](../../../images/eurd-hierarchical-report-checkbox-result.png)
+    - Preview the result:
 
-7. Sort report data.
+         ![HierarchicalReport-DrillDownControl](../../../images/eurd-hierarchical-report-checkbox-result.png)
 
-    Use the Detail band's **Sort Fields** property to sort data on each hierarchy level.
+1. Sort report data.
+
+    Use the Detail band's **Sort Fields** property to sort data.
 
     ![HierarchicalReport-SortFieldsProperty](../../../images/eurd-hierarchical-report-sort-fields.png)
+    
+    Preview the result:
 
     ![HierarchicalReport-SortedData](../../../images/eurd-hierarchical-report-sort-fields-result.png)
 
-8. Highlight root nodes.
+1. Highlight root nodes.
 
-    To format rows based on their nesting level, use the **CurrentRowHierarchyLevel** variable in expressions. For example, specify the **Detail** band's appearance properties as listed below:
+    To format rows based on their nesting level, use the `CurrentRowHierarchyLevel` variable in expressions. Specify the following expressions for the **Detail** band's appearance properties:
 
-    - Set the **Background Color** property to *iif([DataSource.CurrentRowHierarchyLevel] == 0, Rgb(231,235,244), ?)*
-    - Set the **Font | Bold** property to *[DataSource.CurrentRowHierarchyLevel] == 0*
+    **Background Color**:
+    ```
+    Iif([DataSource.CurrentRowHierarchyLevel] == 0, Rgb(231,235,244), ?)
+    ```
+    **Font | Bold**:
+    ```
+    [DataSource.CurrentRowHierarchyLevel] == 0
+    ```
 
     ![HierarchicalReport-ExpressionVariable](../../../images/eurd-hierarchical-report-expressions.png)
+
+    Preview the result:
 
     ![HierarchicalReport-HighlightedRootNodes](../../../images/eurd-hierarchical-report-expressions-result.png)

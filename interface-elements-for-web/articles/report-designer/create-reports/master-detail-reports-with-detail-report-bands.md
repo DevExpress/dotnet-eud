@@ -4,19 +4,19 @@ author: Anna Vekhina
 ---
 # Master-Detail Report with Detail Report Bands
 
-This tutorial illustrates how to display hierarchical data in a master-detail report using nested [Detail Report bands](../introduction-to-banded-reports.md). This approach is effective if your data source contains master-detail relationship. Another way is described at [Master-Detail Reports with Subreports)](master-detail-reports-with-subreports.md).
+This tutorial illustrates how to display hierarchical data in a master-detail report using nested [Detail Report bands](../introduction-to-banded-reports.md). This technique is effective if your data source contains a master-detail relationship. Another technique is described in the following topic: [Master-Detail Reports with Subreports)](master-detail-reports-with-subreports.md).
 
 ![](../../../images/eurd-web-master-detail-result.png)
 
 1. [Create a new report](../add-new-reports.md) or [open an existing one](../open-reports.md).
 
-2. [Bind the report](../bind-to-data.md) to a required data source and provide it with a master-detail relationship as described in the [Bind a Report to a Database](../bind-to-data/bind-a-report-to-a-database.md) topic.
+2. [Bind the report](../bind-to-data.md) to the required data source and set up a master-detail relationship as described in the [Bind a Report to a Database](../bind-to-data/bind-a-report-to-a-database.md) topic.
 
 3. Drop the required data fields from the [Field List](../report-designer-tools/ui-panels/field-list.md) onto the [Detail](../introduction-to-banded-reports.md) band.
 
     ![](../../../images/eurd-web-master-detail-drop-fields-for-master-layout.png)
 
-4. Expand the **Actions** category and click **Insert Detail Report Band** to create a [Detail Report Band](../introduction-to-banded-reports.md).
+4. Click **Insert Detail Report Band** to create a [Detail Report Band](../introduction-to-banded-reports.md).
 
     ![](../../../images/eurd-web-master-detail-insert-detail-report-band.png)
 
@@ -31,8 +31,6 @@ This tutorial illustrates how to display hierarchical data in a master-detail re
     > [!NOTE]
     > You should drag-and-drop fields from the category corresponding to the master-detail relationship to correctly generate the detail report's data. Otherwise, the report will display only the first record of the detail table as many times as there are records in this table.
 
-6. If required, customize the report's [appearance](../customize-appearance.md) and [format values](../shape-report-data/format-data.md).
+6. Customize the report's [appearance](../customize-appearance.md) and [format values](../shape-report-data/format-data.md).
 
-Switch to [Print Preview](../preview-print-and-export-reports.md) to see the resulting report.
-
-![](../../../images/eurd-web-master-detail-result.png)
+Switch to [Preview](../preview-print-and-export-reports.md) to see the resulting report.
