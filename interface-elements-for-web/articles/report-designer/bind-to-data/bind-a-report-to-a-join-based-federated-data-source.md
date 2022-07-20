@@ -55,7 +55,6 @@ This topic describes how to create a federated data source that joins data from 
 
     You can specify a different name for a field. Click the field's **Alias** cell and enter the field name.
 
-    ![](../../../../images/eurd-data-federation-query-builder-specify-alias.png)
 
 1. Click the **+ (plus) button** to add a field to the query. Click the field's **f-button** to switch to the Expression edit mode.
 
