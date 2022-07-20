@@ -101,7 +101,7 @@ To switch between global and local color schemes in the Web Dashboard, open the 
 >[!TIP]
 > The **local** color scheme paints dashboard item elements more quickly because the control does not request all possible colors and requests only colors used in the current item.
 
-### Customize Color Palettes in the Dashboard Item Menu
+## Customize Color Palettes in the Dashboard Item Menu
 
 Use the **Color Scheme** section of the dashboard item [Option](../ui-elements/dashboard-menu.md) menu to customize colors of the specific palette. To edit the color scheme, click the **Edit** button ![wdd-icon-edit-collection-value-item](../../../images/wdd-icon-edit-collection-value-item126050.png) of the corresponding color.
 
@@ -115,13 +115,13 @@ A new color scheme is applied to the dashboard item(s).
 
 ![Coloring for Web Dashboard - Change local color scheme](../../../images/wdd-coloring-change-local-scheme126127.png)
 
-### Customize Color Palettes in the Color Scheme Page
+## Customize Color Palettes in the Color Scheme Page
 
 The **Color Scheme** page of the [dashboard menu](../ui-elements/dashboard-menu.md) allows you to edit and add colors to customize color tables.
 
 ![Coloring for Web Dashboard - Color scheme page](../../../images/wdd-coloring-scheme-page126124.png)
 
-#### Edit Colors
+### Edit Colors
 
 You can reassign a color in the selected color table. For this, select one of the available schemes in the **Color Schemes** pane and click the color in the **Colors** pane to invoke the **Color** combo box.
 	
@@ -133,7 +133,7 @@ Click **OK** to change the automatically assigned color for the selected value a
 
 ![Coloring for Web Dashboard - Changed color](../../../images/wdd-coloring-changed-color126122.png)
 
-#### Add Colors
+### Add Colors
 
 The Color Scheme page allows you to add a new value with the specified color to the selected color scheme. To do this, use the **Add color** button.
 
