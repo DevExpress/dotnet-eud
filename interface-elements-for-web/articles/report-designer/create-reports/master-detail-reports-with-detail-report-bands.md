@@ -4,7 +4,7 @@ author: Anna Vekhina
 ---
 # Master-Detail Report with Detail Report Bands
 
-This tutorial illustrates how to display hierarchical data in a master-detail report using nested [Detail Report bands](../introduction-to-banded-reports.md). This technique is effective if your data source contains a master-detail relationship. Another way is described at [Master-Detail Reports with Subreports)](master-detail-reports-with-subreports.md).
+This tutorial illustrates how to display hierarchical data in a master-detail report using nested [Detail Report bands](../introduction-to-banded-reports.md). This technique is effective if your data source contains a master-detail relationship. Another technique is described in the following topic: [Master-Detail Reports with Subreports)](master-detail-reports-with-subreports.md).
 
 ![](../../../images/eurd-web-master-detail-result.png)
 
