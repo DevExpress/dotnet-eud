@@ -170,6 +170,8 @@
         href: articles/dashboard-designer/dashboard-item-settings/grid/conditional-formatting.md
       - name: Totals
         href: articles/dashboard-designer/dashboard-item-settings/grid/totals.md
+      - name: Column Filter
+        href: articles/dashboard-designer/dashboard-item-settings/grid/column-filter.md
       - name: Layout
         href: articles/dashboard-designer/dashboard-item-settings/grid/layout.md
       - name: Style

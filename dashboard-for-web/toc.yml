@@ -92,6 +92,8 @@
         href: articles/web-dashboard-designer-mode/dashboard-item-settings/grid/conditional-formatting.md
       - name: Totals
         href: articles/web-dashboard-designer-mode/dashboard-item-settings/grid/totals.md
+      - name: Column Filter
+        href: articles/web-dashboard-designer-mode/dashboard-item-settings/grid/column-filter.md
       - name: Layout
         href: articles/web-dashboard-designer-mode/dashboard-item-settings/grid/layout.md
     - name: Pies
@@ -360,6 +362,8 @@
           href: articles/web-dashboard-designer-mode/ui-elements/dialogs-and-wizards/dashboard-data-source-wizard/specify-data-source-settings-json.md
         - name: Specify Data Source Settings (OLAP)
           href: articles/web-dashboard-designer-mode/ui-elements/dialogs-and-wizards/dashboard-data-source-wizard/specify-data-source-settings-olap.md
+        - name: Specify Data Source Settings (Data Fedaration)
+          href: articles/web-dashboard-designer-mode/ui-elements/dialogs-and-wizards/dashboard-data-source-wizard/specify-data-source-settings-data-federation.md
       - name: Query Builder
         href: articles/web-dashboard-designer-mode/ui-elements/dialogs-and-wizards/query-builder.md
       - name: Preview Data
