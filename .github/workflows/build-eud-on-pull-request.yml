@@ -1,0 +1,23 @@
+name: build eud on pull request
+
+on:
+  pull_request:
+  
+jobs:
+  build-site:    
+    runs-on: windows-latest
+    steps:
+    - name: Checkout branch
+      uses: actions/checkout@v3
+      
+    - name: Check status
+      run: git status
+    
+    - name: Download docfx
+      run: curl https://github.com/dotnet/docfx/releases/download/v2.59.2/docfx.zip -L -o ../docfx.zip
+      
+    - name: Expand docfx
+      run: Expand-Archive ../docfx.zip -DestinationPath ../docfx
+      
+    - name: Build site with docfx
+      run: ../docfx/docfx.exe build docfx.json --warningsAsErrors
