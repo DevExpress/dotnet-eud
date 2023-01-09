@@ -118,4 +118,5 @@ This section describes the **Rich Text Editor** capabilities.
 * [Insert a Page Break](rich-text-editor/miscellaneous/insert-a-page-break.md)
 * [Insert Page Numbers](rich-text-editor/miscellaneous/insert-page-numbers.md)
 * [Insert a Symbol](rich-text-editor/miscellaneous/insert-a-symbol.md)
+* [Insert a Watermark](rich-text-editor/miscellaneous/insert-a-watermark.md)
 * [Set Document Properties](rich-text-editor/miscellaneous/set-document-properties.md)

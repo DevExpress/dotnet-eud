@@ -1492,6 +1492,8 @@
       href: articles/rich-text-editor/miscellaneous/insert-page-numbers.md
     - name: Insert a Symbol
       href: articles/rich-text-editor/miscellaneous/insert-a-symbol.md
+    - name: Insert a Watermark
+      href: articles/rich-text-editor/miscellaneous/insert-a-watermark.md
     - name: Set Document Properties
       href: articles/rich-text-editor/miscellaneous/set-document-properties.md
 - name: Scheduler
