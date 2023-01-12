@@ -3,35 +3,6 @@
   items:
   - name: Chart Designer
     href: articles/charting/chart-designer.md
-  - name: Chart Wizard
-    href: articles/charting/chart-wizard.md
-    items:
-    - name: Chart Type Page
-      href: articles/charting/chart-wizard/chart-type-page.md
-    - name: Appearance Page
-      href: articles/charting/chart-wizard/appearance-page.md
-    - name: Series Page
-      href: articles/charting/chart-wizard/series-page.md
-    - name: Data Page
-      href: articles/charting/chart-wizard/data-page.md
-    - name: Chart Page
-      href: articles/charting/chart-wizard/chart-page.md
-    - name: Diagram Page
-      href: articles/charting/chart-wizard/diagram-page.md
-    - name: Panes Page
-      href: articles/charting/chart-wizard/panes-page.md
-    - name: Axes Page
-      href: articles/charting/chart-wizard/axes-page.md
-    - name: Series Views Page
-      href: articles/charting/chart-wizard/series-views-page.md
-    - name: Point Labels Page
-      href: articles/charting/chart-wizard/point-labels-page.md
-    - name: Chart Titles Page
-      href: articles/charting/chart-wizard/chart-titles-page.md
-    - name: Legend Page
-      href: articles/charting/chart-wizard/legend-page.md
-    - name: Annotations Page
-      href: articles/charting/chart-wizard/annotations-page.md
   - name: Highlighting and Selection Chart Elements
     href: articles/charting/highlighting-and-selection-chart-elements.md
   - name: Zoom a Chart
