@@ -59,6 +59,8 @@ The following topic contains constants, operators, and functions you can use in 
 |---|---|---|
 | Avg(Value) | Returns the average of the values. <br> ![func-average](../../../images/func_average4457.png) </br> | Avg([Quantity]) returns an average quantity of goods in an order, if the pivot table is built upon the data table where each row is an order. The Quantity values are summarized for all orders in the underlying data table, and the result is divided by the total number of orders.|                             
 | Count() | Returns the number of records in the underlying data table. | Count() |
+|IsTotal(Dimension1, Dimension2, …)|Determines whether a total summary value is being calculated.|Not IsTotal([fieldProductName]) And FirstValue([fieldCategoryName]) = ‘Beverages’
+|FirstValue()|Returns the first value from rows used to calculate an aggregate value.|FirstValue([ProductName]) returns the first product among all products in the underlying data table, if the pivot table is built upon the data table where each row is a product.
 | Exists() | Not supported in Pivot Grid expressions.| |   
 | Max(Value) | Returns the maximum value. | Max([Quantity]) returns the maximum quantity of goods in a single order among all orders in the underlying data table, if the pivot table is built upon the data table where each row is an order. |
 | Min(Value) | Returns the minimum value. | Min([Quantity]) returns the maximum quantity of goods in a single order among all orders in the underlying data table, if the pivot table is built upon the data table where each row is an order. |
