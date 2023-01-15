@@ -4,26 +4,72 @@ author: Margarita Zakhodyaeva
 ---
 # Connect to EF Data Sources
 
-To bind a dashboard to an Entity Framework data source from the current project, do the following.
+To bind a dashboard to an Entity Framework data source from the current project, do the following:
 
-1. Click the **New Data Source** button in the **Data Source** ribbon tab.
+## Create a Data Source in the Data Source Wizard
 
-   ![Choose_new_data_source](../../../images/choose-new-data-source.png)
+Click the **New Data Source** button in the **Data Source** ribbon tab.
 
-2. On the first page of the invoked **Data Source Wizard** dialog, select **Entity Framework** and click **Next**.
+![Choose_new_data_source](../../../images/choose-new-data-source.png)
 
-   ![ef_data_source_wizard](../../../images/ef-data-sourse-wizard.png)
+### Select a Data Source and Specify Data Context  
 
-3. On the next page, select the available data context and click **Next**.
+On the first page of the invoked **Data Source Wizard** dialog, select **Entity Framework** and click **Next**.
 
-   ![select_required_connection](../../../images/select-required-connection.png)
+![ef_data_source_wizard](../../../images/ef-data-sourse-wizard.png)
 
-4. On the final page, choose the connection string corresponding to the selected data context and click **Finish**.
+On the next page, select the required data context and click **Next**.
+	
+![select_required_connection](../../../images/select-required-connection.png)
 
-   ![choose_connection_string](../../../images/choose-connection-string.png)
+### Select Data from the Database
 
-   If the application configuration file does not contain the required connection string, or you need to specify the connection string manually, select **No, specify a custom connection string** and click **Next**.
+On the next page, specify a connection string used to establish a data connection. The following options are available:
 
-   ![specify_a_connection_string](../../../images/specify-a-connection-string.png)
+#### Default Connection String 
 
-   On this page, specify a custom connection string and click **Finish**. This creates the data source and displays its fields in the [Data Source Browser](../ui-elements\data-source-browser.md).
+Choose the default connection string if it is specified in the application’s configuration file.
+
+![choose_connection_string](../../../images/choose-connection-string.png)
+
+#### Custom Connection String 
+
+Specify a custom connection string in the connection string editor. 
+
+![specify_a_connection_string](../../../images/specify-a-connection-string.png)
+
+#### Predefined Connection String
+
+Select an existing connection string available in the current project. 
+
+![EF select available string](../../../images/ef-select-a-predefined-connection-string.png)
+
+### Add Stored Procedures (Optionally)
+
+The next wizard page is available only if the current entity data model contains stored procedures. This page allows you to add stored procedures to the data source and configure their parameters.
+
+![EF_AddStoredProcedurePage](../../../images/ef_addstoredprocedurepage119127.png)
+
+Click **Add** and select the required stored procedures to add to the data source.
+
+![EF_SelectStoredProcedures](../../../images/ef_selectstoredprocedures119128.png)
+
+Specify the **Value** passed as a stored procedure parameter. Click the **Preview** button to preview data returned by the stored procedure call.
+
+![EF_ConfigureProcedureParameters](../../../images/ef_configureprocedureparameters119129.png)
+
+As an alternative, enable the **Expression** check box to invoke the Expression Editor dialog. In the dialog, you can specify the expression or select an existing dashboard parameter to use it as a stored procedure parameter.
+
+### Apply filter Criteria
+	
+On the last page, you can apply filter criteria to the resulting query. Click **Finish** to create the data source.
+	
+![EF filter query](../../../images/ef_customconnectionstring118442.png)
+
+### Result
+		
+The data source fields are displayed in the Data Source Browser:
+
+![EF data source in the Data Source Browser](../../../images/ef-resulting-data-source.png)
+
+
