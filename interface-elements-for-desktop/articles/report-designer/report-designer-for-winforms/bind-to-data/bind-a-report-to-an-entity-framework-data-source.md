@@ -37,14 +37,13 @@ Choose the default connection string if it is specified in the application’s c
 
 Specify a custom connection string in the connection string editor and choose whether or not to store the string in the application’s configuration file.
 
-![eurd-winreport-wizard-ef-datasource](../../../../images/eurd-winreport-wizard-ef-datasource.png)
+![eurd-winreport-wizard-ef-datasource](../../../../images/eur-winreport-wizard-ef-datasource.png) 
 
 ### Predefined Connection String
 
 Select an existing connection string available in the current project. 
 
-![eurd-winreport-wizard-ef-datasource](../../../../images/eurd-winreport-wizard-ef-datasource.png) 
-
+![eurd-winreport-wizard-ef-datasource](../../../../images/eurd-winreport-wizard-ef-datasource.png)
 ## Add Stored Procedures (Optionally)
 
 The next wizard page is available only if the current entity data model contains stored procedures. This page allows you to add stored procedures to the data source and configure their parameters. Click **Finish** to exit the wizard.
