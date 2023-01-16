@@ -41,7 +41,7 @@ Follow the steps below to create a combined report:
 
     ![xtrareports-create-report](../../../images/eurd-merge-products-report-layout.png)
 
-1. Switch to the **Actions** tab and click **Insert Group Footer**.
+1. Switch to the **Actions** tab and click **Insert Group Footer Band**.
 
 	![eurd-merge-add-group-footer](../../../images/eurd-merge-add-group-footer.png)
 

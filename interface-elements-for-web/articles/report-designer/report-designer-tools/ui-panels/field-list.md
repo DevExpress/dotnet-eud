@@ -17,10 +17,13 @@ The following actions are available in the Field List for data source customizat
 
 | Button | Description |
 |---|---|
-| ![](../../../../images/eurd-web-fieldlist-add-data-source-button.png) | Invokes a list of default data sources that you can add to a report. |
-| ![](../../../../images/eurd-web-fieldlist-data-source-delete.png) | Removes the selected data source. |
+| ![](../../../../images/eurd-web-fieldlist-add-data-source-button.png) | Invokes the Data Source Wizard. |
+| ![](../../../../images/eurd-web-fieldlist-data-source-rename.png) | Renames the selected data source. |
+| ![](../../../../images/eurd-web-fieldlist-data-source-rebuild-result-schema.png) | Rebuilds the result schema for the selected data source. |
 | ![](../../../../images/eurd-web-fieldlist-data-source-edit-relationships.png) | Invokes the [Master-Detail Relation Editor](../master-detail-relation-editor.md). |
+| ![](../../../../images/eurd-web-fieldlist-data-source-add-calculated-field.png) | Adds a calculated field. |
 | ![](../../../../images/eurd-web-fieldlist-data-source-add-query.png) | Invokes the **Create a Query or Select a Stored Procedure** wizard page. |
+| ![](../../../../images/eurd-web-fieldlist-data-source-delete.png) | Removes the selected data source. |
 
 The following actions are available for query customization:
 
