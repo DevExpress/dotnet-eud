@@ -10,4 +10,4 @@ On this page, select a data context from the list of existing data contexts. You
 
 ![WpfReportWizard_EF_SelectAsembly](../../../../../../images/img122127.png)
 
-Click **Next** to proceed to the next wizard page: [Select the Connection String](select-the-connection-string.md).
+Click **Next** to proceed to the next wizard page: [Select the Connection String](select-a-connection-string.md).

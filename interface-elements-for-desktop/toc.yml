@@ -1224,7 +1224,7 @@
           - name: Select the Data Context
             href: articles/report-designer/report-designer-for-wpf/report-wizard/data-bound-report/connect-to-an-entity-framework-data-source/select-the-data-context.md
           - name: Select a Connection String
-            href: articles/report-designer/report-designer-for-wpf/report-wizard/data-bound-report/connect-to-an-entity-framework-data-source/select-the-connection-string.md
+            href: articles/report-designer/report-designer-for-wpf/report-wizard/data-bound-report/connect-to-an-entity-framework-data-source/select-a-connection-string.md
           - name: Bind to a Stored Procedure
             href: articles/report-designer/report-designer-for-wpf/report-wizard/data-bound-report/connect-to-an-entity-framework-data-source/bind-to-a-stored-procedure.md
           - name: Select a Data Member

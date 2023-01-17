@@ -24,7 +24,6 @@ To use a data context that exists in the current project assembly, select it in 
 	
 ![eurd-win-report-wizard-ef-datasource](../../../../images/eurd-win-report-wizard-ef-datasource.png)
 	
-Select the required data context and click **Next**.
 ## Select a Connection String
 
 On the next page, specify a connection string used to establish a data connection. The following options are available:
