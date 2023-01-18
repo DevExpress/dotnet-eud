@@ -20,4 +20,6 @@ This unique identifier is composed of an Extension Digit, a GS1 Company Prefix, 
 
     ![](../../../../../images/sscc-in-designer.png)
 
-3. Specify [common](add-bar-codes-to-a-report.md) barcode properties.
+3. Assign a numeric value composed of 17 digits to the **Text** property. If the numeric value contains less than 17 digits, it is padded with zeros at the beginning so that the string value of the **Text** property contains exactly 17 characters. A numeric value with 17 digits is left intact. If 18 digits are specified, the last digit is truncated. A value with more than 18 digits causes an error.
+
+4. Specify [common](add-bar-codes-to-a-report.md) barcode properties.
