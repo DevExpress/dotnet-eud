@@ -44,7 +44,7 @@ The control's **Word Wrap** property allows you to make a control display its co
 | ![](../../../images/eurd-web-auto-width-true-word-wrap-false.png) | ![](../../../images/eurd-web-auto-width-false-word-wrap-true.png) |
 
 
-You can also use the opposite **Text Fit Mode** property to adjust a label or table cell's font size to fit the control's bounds. Images below show how the **Word Wrap** property affects the label's font size.
+You can also use the opposite **Text Fit Mode** property to adjust a label or table cell's font size to fit the control's bounds. Images below show how the **Text Fit Mode** property affects the label's font size.
 
 ![](../../../images/eurd-web-label-text-fit-mode-property.png) 
 

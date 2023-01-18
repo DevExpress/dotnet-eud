@@ -51,7 +51,7 @@ Select the required key fields (columns) to connect tables.
 
 ![](../../../../images/eurd-web-binding-data-source-wizard-master-detail-key-fields.png)
 
-Click **Finish** to close the Data Source Wizard.
+Click **OK** to close the **Master-Detail Relation Editor**.
 
 After the wizard is completed, the Field List reflects the master-detail hierarchy.
 

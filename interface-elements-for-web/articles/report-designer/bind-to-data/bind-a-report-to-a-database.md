@@ -46,7 +46,7 @@ This tutorial illustrates how to bind a report to a database and specify a maste
 
 ## Use an Existing Data Source
 
-You can bind your report to a predefined data source. Open the [Field List](../report-designer-tools/ui-panels/field-list.md) panel, click the **Add New DataSource** button and select a data source from the drop-down list.
+You can bind your report to a predefined data source. Open the [Field List](../report-designer-tools/ui-panels/field-list.md) panel, click the **Add DataSource** button and select a data source from the drop-down list.
 
 ![](../../../images/eurd-web-binding-field-list-add-data-source.png)
 

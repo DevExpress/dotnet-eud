@@ -31,6 +31,7 @@ See the following topics to learn about the supported one-dimensional barcodes:
 * [MSI - Plessey](use-bar-codes/msi-plessey.md)
 * [Pharmacode](use-bar-codes/pharmacode.md)
 * [PostNet](use-bar-codes/postnet.md)
+* [SSCC (Serial Shipping Container Code)](use-bar-codes/sscc.md)
 * [UPC Shipping Container Symbol (ITF-14)](use-bar-codes/upc-shipping-container-symbol-itf-14.md)
 * [UPC Supplemental 2](use-bar-codes/upc-supplemental-2.md)
 * [UPC Supplemental 5](use-bar-codes/upc-supplemental-5.md)

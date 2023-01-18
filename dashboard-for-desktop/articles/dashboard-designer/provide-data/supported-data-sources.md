@@ -31,7 +31,7 @@ To connect to various SQL databases, the Dashboard Designer requires correspondi
 | Amazon Redshift | n/a | .NET data provider for PostgreSQL | Npgsql.dll | [Download link](http://www.npgsql.org/) |
 | Google BigQuery | n/a | DevExpress.DataAccess.BigQuery ADO.NET provider | DevExpress.DataAccess.BigQuery.dll | [Download link](https://www.nuget.org/packages/DevExpress.DataAccess.BigQuery) |
 | Teradata | 13.0 or higher | .NET Data Provider for Teradata | Teradata.Client.Provider.dll | [Download link](https://downloads.teradata.com/download/connectivity/net-data-provider-for-teradata) |
-|SAP HANA|2.0 or higher| SAP HANA Client 2.0 | Sap.Data.Hana.Core.v2.1.dll| [Download link](https://tools.hana.ondemand.com/#hanatools)
+| SAP HANA| 2.0 or higher| SAP HANA Client 2.0 | Sap.Data.Hana.Core.v2.1.dll| [Download link](https://tools.hana.ondemand.com/#hanatools)
 | SAP Sybase Advantage | Advantage Database Server 9.1 or higher | Advantage .NET Data Provider | Advantage.Data.Provider.dll | [Download link](http://devzone.advantagedatabase.com/dz/content.aspx?Key=20&amp;Release=19&amp;Product=4&amp;Platform=11) |
 | SAP Sybase ASE | Sybase Adaptive Server 12.0 or higher | SAP Sybase ASE Database Client | Sybase.Data.AseClient.dll | [Download link](http://scn.sap.com/community/developer-center/oltp-db) |
 | SAP SQL Anywhere | 11 or higher | SAP SQL Anywhere Database Client | iAnywhere.Data.SQLAnywhere.dll | [Download link](http://scn.sap.com/docs/DOC-35857?d96a349c52fc4f68eea46a47ccb3d360) |
