@@ -3,10 +3,24 @@ title: Select a Connection String
 ---
 # Select a Connection String
 
-On this page, you can specify a connection string using one of the following two options.
-* Using an existing connection string. To do this, select **Yes, let me choose from list**. Next, select the required connection string from the list of the available connection strings.
-* Specify a connection string manually. To do this, select **No, specify a custom connection string**.
+This page allows you to specify a connection string used to establish a data connection. The following options are available:
+
+## Default Connection String
+
+Choose the default connection string if it is specified in the application’s configuration file.
+
+![EF default connection string](../../../../../../images/ef-default-connection-string-win.png)
+## Custom Connection String
+
+Specify a custom connection string in the connection string editor and choose whether or not to store the string in the application’s configuration file.
+
+![eurd-winreport-wizard-ef-datasource](../../../../../../images/eur-winreport-wizard-ef-datasource.png) 
+
+## Predefined Connection String
+
+Select an existing connection string available in the current project. 
 
 ![eurd-winreport-wizard-ef-datasource](../../../../../../images/eurd-winreport-wizard-ef-datasource.png)
 
-Click **Next** to proceed to the next wizard page. If you select the first option, proceed to the [Specify a Connection String](specify-a-connection-string.md) page. If you choose one of the available connection strings, go to the [Bind to a Stored Procedure](bind-to-a-stored-procedure.md) or [Select a Data Member](select-a-data-member.md) page, depending on whether or not the current Entity Framework model provides stored procedures.
+Click **Next** to proceed to the next wizard page. If the current Entity Framework model contains stored procedures, go to the Bind to a [Stored Procedure](bind-to-a-stored-procedure.md) page; otherwise, proceed to the [Configure Filters](configure-filters.md) page.
+

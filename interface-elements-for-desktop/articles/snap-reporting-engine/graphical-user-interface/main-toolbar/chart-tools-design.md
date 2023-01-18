@@ -9,7 +9,6 @@ This toolbar is context sensitive, and becomes active after selecting a **chart*
 The commands available in the **Design** toolbar of the **Chart Tools** category are divided into the following sections.
 * [Chart Type](#charttype)
 * [Appearance](#appearance)
-* [Wizard](#wizard)
 
 ## <a name="charttype"/>Chart Type
 | Command | Large&nbsp;Icon | Small&nbsp;Icon | Description |
@@ -25,9 +24,4 @@ The commands available in the **Design** toolbar of the **Chart Tools** category
 | Command | Large&nbsp;Icon | Small&nbsp;Icon | Description |
 |---|---|---|---|
 | Palette | ![icon-toolbar-chart-tools-design-palette](../../../../images/img20704.png) | ![icon-small-toolbar-chart-tools-design-palete](../../../../images/img20713.png) | Specifies the **color palette** for the selected chart. |
-| Appearance | none | none | Applies a specified [appearance](../../../charting/chart-wizard/appearance-page.md) to the selected chart. The collection of style presets available for a chart depends on the chart's **palette**. |
-
-## <a name="wizard"/>Wizard
-| Command | Large&nbsp;Icon | Small&nbsp;Icon | Description |
-|---|---|---|---|
-| Run&nbsp;Chart&nbsp;Wizard... | ![icon-toolbar-chart-tools-design-run-chart-wizard](../../../../images/img20706.png) | ![icon-small-toolbar-chart-tools-design-run-chat-wizard](../../../../images/img20715.png) | Invokes the [Chart wizard](../../../charting/chart-wizard.md), which allows you to adjust the main chart settings in a single user interface. |
+| Appearance | none | none | Applies a specified appearance to the selected chart. The collection of style presets available for a chart depends on the chart's **palette**. |

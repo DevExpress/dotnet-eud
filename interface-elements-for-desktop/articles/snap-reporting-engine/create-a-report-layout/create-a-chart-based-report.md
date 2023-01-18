@@ -6,8 +6,6 @@ legacyId: 12452
 # Create a Chart-Based Report
 This tutorial describes the steps used to add a chart to your Snap report. Snap supports many chart types, as well as multiple visual appearance settings and chart palettes.
 
-Snap also provides the [Chart Wizard](../../charting/chart-wizard.md), which allows you to quickly create and customize complex charts. However, when advanced charting functionality is not required, Snap provides an even easier way to create and customize your charts.
-
 Do the following steps to create a chart-based report.
 1. Create a new Snap document and [bind it to the required table](../connect-to-data/connect-a-document-to-a-data-source.md).
 2. Click the **Chart** command in the [Insert](../graphical-user-interface/main-toolbar/general-tools-insert.md) tab of the main toolbar.
@@ -24,7 +22,6 @@ Do the following steps to create a chart-based report.
 	
 	![snap-chart-toolbar](../../../images/img18391.png)
 	
-	In the same tab, you can also run **Chart Wizard** and select the chart's palette and visual appearance.
 5. The Snap report with a chart is now ready. To view the result, switch to the [File](../graphical-user-interface/main-toolbar/general-tools-file.md) menu of the main toolbar and click the **Print Preview** button.
 	
 	![ReportWithChart-05](../../../images/img18349.png)

@@ -24,6 +24,7 @@ The following data source types are supported.
 * MySQL
 * Pervasive PSQL
 * PostgreSQL
+* SAP HANA
 * SAP Sybase Advantage
 * SAP Sybase ASE
 * SQLite
