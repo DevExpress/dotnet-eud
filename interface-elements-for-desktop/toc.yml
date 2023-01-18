@@ -959,8 +959,6 @@
             href: articles/report-designer/report-designer-for-winforms/report-designer-tools/data-source-wizard/connect-to-an-entity-framework-data-source/select-the-data-context.md
           - name: Select a Connection String
             href: articles/report-designer/report-designer-for-winforms/report-designer-tools/data-source-wizard/connect-to-an-entity-framework-data-source/select-a-connection-string.md
-          - name: Specify a Connection String
-            href: articles/report-designer/report-designer-for-winforms/report-designer-tools/data-source-wizard/connect-to-an-entity-framework-data-source/specify-a-connection-string.md
           - name: Bind to a Stored Procedure
             href: articles/report-designer/report-designer-for-winforms/report-designer-tools/data-source-wizard/connect-to-an-entity-framework-data-source/bind-to-a-stored-procedure.md
           - name: Select a Data Member
@@ -1225,14 +1223,14 @@
           items:
           - name: Select the Data Context
             href: articles/report-designer/report-designer-for-wpf/report-wizard/data-bound-report/connect-to-an-entity-framework-data-source/select-the-data-context.md
-          - name: Select the Connection String
-            href: articles/report-designer/report-designer-for-wpf/report-wizard/data-bound-report/connect-to-an-entity-framework-data-source/select-the-connection-string.md
-          - name: Specify a Connection String
-            href: articles/report-designer/report-designer-for-wpf/report-wizard/data-bound-report/connect-to-an-entity-framework-data-source/specify-a-connection-string.md
+          - name: Select a Connection String
+            href: articles/report-designer/report-designer-for-wpf/report-wizard/data-bound-report/connect-to-an-entity-framework-data-source/select-a-connection-string.md
           - name: Bind to a Stored Procedure
             href: articles/report-designer/report-designer-for-wpf/report-wizard/data-bound-report/connect-to-an-entity-framework-data-source/bind-to-a-stored-procedure.md
           - name: Select a Data Member
             href: articles/report-designer/report-designer-for-wpf/report-wizard/data-bound-report/connect-to-an-entity-framework-data-source/select-a-data-member.md
+          - name: Configure Filters
+            href: articles/report-designer/report-designer-for-wpf/report-wizard/data-bound-report/connect-to-an-entity-framework-data-source/configure-filters.md
         - name: Connect to an Object Data Source
           href: articles/report-designer/report-designer-for-wpf/report-wizard/data-bound-report/connect-to-an-object-data-source.md
           items:
