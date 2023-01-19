@@ -70,34 +70,34 @@
 <h1 id="bind-a-report-to-an-entity-framework-data-source">Bind a Report to an Entity Framework Data Source</h1>
 
 <p>This document describes how to use an Entity Framework data source to bind a report to data provided by an Entity Framework data context:</p>
-<ol>
-<li><p><a href="../add-new-reports.html">Create a new report</a>.</p>
-</li>
-<li><p>Click the report&#39;s smart tag. In the invoked actions list, expand the drop-down menu for the <strong>Data Source</strong> property and click <strong>Add New DataSource</strong>.</p>
-<p> <img src="../../../../images/eurd-win-report-smart-tag-add-new-data-source.png" alt=""></p>
-</li>
-<li><p>On the first page of the invoked <a href="../report-designer-tools/data-source-wizard.html">Data Source Wizard</a>, select the <strong>Entity Framework</strong> and click <strong>Next</strong>.</p>
-<p> <img src="../../../../images/eurd-win-data-source-wizard-select-ef.png" alt=""></p>
-</li>
-<li><p>On the next page, select the required data context. You can bind it to an Entity Framework data context that is contained in either the current project assembly or a separate assembly.</p>
-<p> To use a data context that exists in the current project assembly, select it in the <strong>Choose Context</strong> list and click <strong>Next</strong>.</p>
-<p> <img src="../../../../images/eurd-win-report-wizard-ef-datasource.png" alt="eurd-win-report-wizard-ef-datasource"></p>
-<p> Select the required data context and click <strong>Next</strong>.</p>
-</li>
-<li><p>On the next page, specify a connection string to be used to establish a data connection using one of the following two options.</p>
-<ul>
-<li><p>Use an existing connection string available in the current project. To do this, select <strong>Yes, let me choose from the list</strong>. Next, select the required connection string from the list of the available connection strings.</p>
-<p>  <img src="../../../../images/eurd-winreport-wizard-ef-datasource.png" alt="eurd-win-report-wizard-ef-datasource"></p>
-</li>
-<li><p>Specify a connection string manually. To do this, select <strong>No, specify a custom connection string</strong> and click <strong>Next</strong>. On the next page, specify a connection string. You can choose to use the default connection string  or specify a custom connection string.</p>
-<p>  <img src="../../../../images/eurd-win-report-wizard-ef-datasource-specify-connection-string.png" alt="eurd-win-report-wizard-ef-datasource-specify-connection-string"></p>
-</li>
-</ul>
-</li>
-<li><p>The next wizard page is available only if the current entity data model contains stored procedures. This page allows you to add stored procedures to the data source and configure their parameters. Click <strong>Finish</strong> to exit the wizard.</p>
-<p> <img src="../../../../images/eurd-win-data-source-wizard-ef-stored-procedures.png" alt=""></p>
-</li>
-</ol>
+<h2 id="create-a-report">Create a Report</h2>
+<p><a href="../add-new-reports.html">Create a new report</a>.</p>
+<h2 id="select-a-data-source-and-specify-data-context">Select a Data Source and Specify Data Context</h2>
+<p>Click the report&#39;s smart tag. In the invoked actions list, expand the drop-down menu for the <strong>Data Source</strong> property and click <strong>Add New DataSource</strong>.</p>
+<p><img src="../../../../images/eurd-win-report-smart-tag-add-new-data-source.png" alt=""></p>
+<p>On the first page of the invoked <a href="../report-designer-tools/data-source-wizard.html">Data Source Wizard</a>, select the <strong>Entity Framework</strong> and click <strong>Next</strong>.</p>
+<p><img src="../../../../images/eurd-win-data-source-wizard-select-ef.png" alt=""></p>
+<p>On the next page, select the required data context. You can bind it to an Entity Framework data context that is contained in either the current project assembly or a separate assembly.</p>
+<p>To use a data context that exists in the current project assembly, select it in the <strong>Choose Context</strong> list and click <strong>Next</strong>.</p>
+<p><img src="../../../../images/eurd-win-report-wizard-ef-datasource.png" alt="eurd-win-report-wizard-ef-datasource"></p>
+<h2 id="select-a-connection-string">Select a Connection String</h2>
+<p>On the next page, specify a connection string used to establish a data connection. The following options are available:</p>
+<h3 id="default-connection-string">Default Connection String</h3>
+<p>Choose the default connection string if it is specified in the application’s configuration file.</p>
+<p><img src="../../../../images/ef-default-connection-string-win.png" alt="EF default connection string"></p>
+<h3 id="custom-connection-string">Custom Connection String</h3>
+<p>Specify a custom connection string in the connection string editor and choose whether or not to store the string in the application’s configuration file.</p>
+<p><img src="../../../../images/eur-winreport-wizard-ef-datasource.png" alt="eurd-winreport-wizard-ef-datasource"> </p>
+<h3 id="predefined-connection-string">Predefined Connection String</h3>
+<p>Select an existing connection string available in the current project. </p>
+<p><img src="../../../../images/eurd-winreport-wizard-ef-datasource.png" alt="eurd-winreport-wizard-ef-datasource"></p>
+<h2 id="add-stored-procedures-optionally">Add Stored Procedures (Optionally)</h2>
+<p>The next wizard page is available only if the current entity data model contains stored procedures. This page allows you to add stored procedures to the data source and configure their parameters. Click <strong>Finish</strong> to exit the wizard.</p>
+<p><img src="../../../../images/eurd-win-data-source-wizard-ef-stored-procedures.png" alt=""></p>
+<h2 id="apply-filter-criteria">Apply Filter Criteria</h2>
+<p>On the last page, you can apply filter criteria to the resulting query. Click Finish to create the data source.</p>
+<p><img src="../../../../images/eurd-win-ef-datasource-configure-filters-finish.png" alt="eurd-win-ef-datasource-configure-filters-finish"></p>
+<h2 id="result">Result</h2>
 <p>The newly created data source will be displayed in the <strong>Data Sources</strong> node of the <a href="../report-designer-tools/ui-panels/report-explorer.html">Report Explorer</a>. Additionally, the hierarchy of the data source will be reflected by the <a href="../report-designer-tools/ui-panels/field-list.html">Field List</a>.</p>
 <p><img src="../../../../images/eurd-win-data-source-wizard-ef-result.png" alt=""></p>
 </article>
@@ -108,7 +108,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/22.1/interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/bind-to-data/bind-a-report-to-an-entity-framework-data-source.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/22.2/interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/bind-to-data/bind-a-report-to-an-entity-framework-data-source.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

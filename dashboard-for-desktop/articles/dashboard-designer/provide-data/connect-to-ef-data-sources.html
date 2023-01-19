@@ -69,24 +69,40 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="connect-to-ef-data-sources">Connect to EF Data Sources</h1>
 
-<p>To bind a dashboard to an Entity Framework data source from the current project, do the following.</p>
-<ol>
-<li><p>Click the <strong>New Data Source</strong> button in the <strong>Data Source</strong> ribbon tab.</p>
+<p>To bind a dashboard to an Entity Framework data source from the current project, do the following:</p>
+<h2 id="create-a-data-source-in-the-data-source-wizard">Create a Data Source in the Data Source Wizard</h2>
+<p>Click the <strong>New Data Source</strong> button in the <strong>Data Source</strong> ribbon tab.</p>
 <p><img src="../../../images/choose-new-data-source.png" alt="Choose_new_data_source"></p>
-</li>
-<li><p>On the first page of the invoked <strong>Data Source Wizard</strong> dialog, select <strong>Entity Framework</strong> and click <strong>Next</strong>.</p>
+<h3 id="select-a-data-source-and-specify-data-context">Select a Data Source and Specify Data Context</h3>
+<p>On the first page of the invoked <strong>Data Source Wizard</strong> dialog, select <strong>Entity Framework</strong> and click <strong>Next</strong>.</p>
 <p><img src="../../../images/ef-data-sourse-wizard.png" alt="ef_data_source_wizard"></p>
-</li>
-<li><p>On the next page, select the available data context and click <strong>Next</strong>.</p>
+<p>On the next page, select the required data context and click <strong>Next</strong>.</p>
 <p><img src="../../../images/select-required-connection.png" alt="select_required_connection"></p>
-</li>
-<li><p>On the final page, choose the connection string corresponding to the selected data context and click <strong>Finish</strong>.</p>
+<h3 id="select-data-from-the-database">Select Data from the Database</h3>
+<p>On the next page, specify a connection string used to establish a data connection. The following options are available:</p>
+<h4 id="default-connection-string">Default Connection String</h4>
+<p>Choose the default connection string if it is specified in the application’s configuration file.</p>
 <p><img src="../../../images/choose-connection-string.png" alt="choose_connection_string"></p>
-<p>If the application configuration file does not contain the required connection string, or you need to specify the connection string manually, select <strong>No, specify a custom connection string</strong> and click <strong>Next</strong>.</p>
+<h4 id="custom-connection-string">Custom Connection String</h4>
+<p>Specify a custom connection string in the connection string editor. </p>
 <p><img src="../../../images/specify-a-connection-string.png" alt="specify_a_connection_string"></p>
-<p>On this page, specify a custom connection string and click <strong>Finish</strong>. This creates the data source and displays its fields in the <a href="../ui-elements/data-source-browser.html">Data Source Browser</a>.</p>
-</li>
-</ol>
+<h4 id="predefined-connection-string">Predefined Connection String</h4>
+<p>Select an existing connection string available in the current project. </p>
+<p><img src="../../../images/ef-select-a-predefined-connection-string.png" alt="EF select available string"></p>
+<h3 id="add-stored-procedures-optionally">Add Stored Procedures (Optionally)</h3>
+<p>The next wizard page is available only if the current entity data model contains stored procedures. This page allows you to add stored procedures to the data source and configure their parameters.</p>
+<p><img src="../../../images/ef_addstoredprocedurepage119127.png" alt="EF_AddStoredProcedurePage"></p>
+<p>Click <strong>Add</strong> and select the required stored procedures to add to the data source.</p>
+<p><img src="../../../images/ef_selectstoredprocedures119128.png" alt="EF_SelectStoredProcedures"></p>
+<p>Specify the <strong>Value</strong> passed as a stored procedure parameter. Click the <strong>Preview</strong> button to preview data returned by the stored procedure call.</p>
+<p><img src="../../../images/ef_configureprocedureparameters119129.png" alt="EF_ConfigureProcedureParameters"></p>
+<p>As an alternative, enable the <strong>Expression</strong> check box to invoke the Expression Editor dialog. In the dialog, you can specify the expression or select an existing dashboard parameter to use it as a stored procedure parameter.</p>
+<h3 id="apply-filter-criteria">Apply filter Criteria</h3>
+<p>On the last page, you can apply filter criteria to the resulting query. Click <strong>Finish</strong> to create the data source.</p>
+<p><img src="../../../images/ef_customconnectionstring118442.png" alt="EF filter query"></p>
+<h3 id="result">Result</h3>
+<p>The data source fields are displayed in the Data Source Browser:</p>
+<p><img src="../../../images/ef-resulting-data-source.png" alt="EF data source in the Data Source Browser"></p>
 </article>
           </div>
           
@@ -95,7 +111,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/22.1/dashboard-for-desktop/articles/dashboard-designer/provide-data/connect-to-ef-data-sources.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/22.2/dashboard-for-desktop/articles/dashboard-designer/provide-data/connect-to-ef-data-sources.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

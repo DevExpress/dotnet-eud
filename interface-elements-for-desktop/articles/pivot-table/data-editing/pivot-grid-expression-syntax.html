@@ -277,6 +277,16 @@
 <td>Count()</td>
 </tr>
 <tr>
+<td>IsTotal(Dimension1, Dimension2, …)</td>
+<td>Determines whether a total summary value is being calculated.</td>
+<td>Not IsTotal([fieldProductName]) And FirstValue([fieldCategoryName]) = ‘Beverages’</td>
+</tr>
+<tr>
+<td>FirstValue()</td>
+<td>Returns the first value from rows used to calculate an aggregate value.</td>
+<td>FirstValue([ProductName]) returns the first product among all products in the underlying data table, if the pivot table is built upon the data table where each row is a product.</td>
+</tr>
+<tr>
 <td>Exists()</td>
 <td>Not supported in Pivot Grid expressions.</td>
 <td></td>
@@ -1047,7 +1057,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/22.1/interface-elements-for-desktop/articles/pivot-table/data-editing/pivot-grid-expression-syntax.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/22.2/interface-elements-for-desktop/articles/pivot-table/data-editing/pivot-grid-expression-syntax.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

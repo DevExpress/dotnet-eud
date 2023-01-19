@@ -69,13 +69,17 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="select-a-connection-string">Select a Connection String</h1>
 
-<p>On this page, you can specify a connection string using one of the following two options.</p>
-<ul>
-<li>Using an existing connection string. To do this, select <strong>Yes, let me choose from list</strong>. Next, select the required connection string from the list of the available connection strings.</li>
-<li>Specify a connection string manually. To do this, select <strong>No, specify a custom connection string</strong>.</li>
-</ul>
+<p>This page allows you to specify a connection string used to establish a data connection. The following options are available:</p>
+<h2 id="default-connection-string">Default Connection String</h2>
+<p>Choose the default connection string if it is specified in the application’s configuration file.</p>
+<p><img src="../../../../../../images/ef-default-connection-string-win.png" alt="EF default connection string"></p>
+<h2 id="custom-connection-string">Custom Connection String</h2>
+<p>Specify a custom connection string in the connection string editor and choose whether or not to store the string in the application’s configuration file.</p>
+<p><img src="../../../../../../images/eur-winreport-wizard-ef-datasource.png" alt="eurd-winreport-wizard-ef-datasource"> </p>
+<h2 id="predefined-connection-string">Predefined Connection String</h2>
+<p>Select an existing connection string available in the current project. </p>
 <p><img src="../../../../../../images/eurd-winreport-wizard-ef-datasource.png" alt="eurd-winreport-wizard-ef-datasource"></p>
-<p>Click <strong>Next</strong> to proceed to the next wizard page. If you select the first option, proceed to the <a href="specify-a-connection-string.html">Specify a Connection String</a> page. If you choose one of the available connection strings, go to the <a href="bind-to-a-stored-procedure.html">Bind to a Stored Procedure</a> or <a href="select-a-data-member.html">Select a Data Member</a> page, depending on whether or not the current Entity Framework model provides stored procedures.</p>
+<p>Click <strong>Next</strong> to proceed to the next wizard page. If the current Entity Framework model contains stored procedures, go to the Bind to a <a href="bind-to-a-stored-procedure.html">Stored Procedure</a> page; otherwise, proceed to the <a href="configure-filters.html">Configure Filters</a> page.</p>
 </article>
           </div>
           
@@ -84,7 +88,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/22.1/interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-tools/data-source-wizard/connect-to-an-entity-framework-data-source/select-a-connection-string.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/22.2/interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-tools/data-source-wizard/connect-to-an-entity-framework-data-source/select-a-connection-string.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>
