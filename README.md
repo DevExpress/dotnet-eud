@@ -42,7 +42,7 @@ Follow the steps below to create a documentation website for your application.
    - create a [custom DocFX template](https://dotnet.github.io/docfx/tutorial/howto_create_custom_template.html).
    
    > You should update the *toc.yml* ([table-of-content](https://dotnet.github.io/docfx/tutorial/intro_toc.html)) files if you added or removed topics.
-1. Open a console window, change the current directory to the repository root folder and call the DocFX executable with the *build* and *docfx.json* parameters. Specify a path to *docfx.json* in the _dotnet-eud_ downloaded reporisoty. DocFX will place the generated documentation content into the *\_site* folder. Add the `--serve` switch to preview the generated website at http://localhost:8080 once the build process is complete. 
+1. Open a console window, change the current directory to the repository root folder and call the DocFX executable with the following parameters: *build* and the path to *docfx.json* in the downloaded _dotnet-eud_ repository. DocFX will place the generated documentation content into the *\_site* folder. Add the `--serve` switch to preview the generated website at http://localhost:8080 once the build process is complete. 
     ```
     docfx.exe build ../dotnet-eud/docfx.json --serve
     ```
