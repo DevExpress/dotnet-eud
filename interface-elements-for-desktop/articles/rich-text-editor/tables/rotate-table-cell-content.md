@@ -4,7 +4,7 @@ author: Polina Fedorova
 ---
 # Rotate Table Cell Content
 
-The Rich Text Editor allows you to change the rotation type of the table cell content.
+The Rich Text Editor allows you to change the table cell content's rotation type.
 
 1. Place the cursor within the table cell which content you wish to rotate.
 2. Click the **Text direction** button in the **Table** group on the **Table Tools | Layout** [tab](../text-editor-ui/ribbon-interface.md).
