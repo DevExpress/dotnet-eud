@@ -27,5 +27,21 @@ This symbology has been widely implemented in many applications where a relative
 In the [property grid](../../report-designer-tools/ui-panels/property-grid-tabbed-view.md), expand the **Symbology** list and specify the following property specific to **Code 128**:
 
 * **Character Set**
-	
+  
 	Specifies the set of symbols which can be used when setting the barcode's text.
+
+* **FNC1 Functional Character**
+  
+    A substring/character that serves as the placeholder for the FNC1 functional character.
+
+* **FNC2 Functional Character**
+  
+    A substring/character that serves as the placeholder for the FNC2 functional character.
+
+* **FNC3 Functional Character**
+  
+    A substring/character that serves as the placeholder for the FNC3 functional character.
+
+* **FNC4 Functional Character**
+  
+    A substring/character that serves as the placeholder for the FNC4 functional character.
