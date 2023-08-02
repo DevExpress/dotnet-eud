@@ -10,9 +10,9 @@ This tutorial describes how to create a drill-down report. Clicking a link in su
 
 Do the following to create a drill-down report:
 
-1. [Create a master-detail report using Detail Report bands](..\create-reports\master-detail-reports-with-detail-report-bands.md).
+1. [Create a master-detail report using Detail Report bands](../create-reports/master-detail-reports-with-detail-report-bands.md).
 2. Drop a label onto the report's detail band. Clicking this label should expand or collapse the hidden report details.
-3. Select the [detail report band](..\introduction-to-banded-reports.md) by clicking its header and expand the drop-down menu for the band's **DrillDownControl** property in the [Property Grid](..\report-designer-tools\ui-panels\property-grid-tabbed-view.md).
+3. Select the [detail report band](../introduction-to-banded-reports.md) by clicking its header and expand the drop-down menu for the band's **DrillDownControl** property in the [Property Grid](../report-designer-tools/ui-panels/property-grid-tabbed-view.md).
 	
 	This menu displays all report controls available on the report band that is one level above the current band in the report bands' hierarchy. Select the corresponding label in the menu to make the label expand or collapse the detail report's band when clicked in the Print Preview.
 	

@@ -37,19 +37,19 @@ The Wizard has a navigation panel that does the following:
 
 On the start page, choose the report type you want to create.
 
-* [Empty Report](report-wizard\empty-report.md)
+* [Empty Report](report-wizard/empty-report.md)
 
     Creates a blank report that is not bound to a data source. Choose this option to design your report from scratch without the wizard.
 
-* [Table Report](report-wizard\table-and-vertical-report.md)
+* [Table Report](report-wizard/table-and-vertical-report.md)
 
     Creates a [table report](../create-reports/table-reports.md) and binds it to data.
 
-* [Vertical Report](report-wizard\table-and-vertical-report.md)
+* [Vertical Report](report-wizard/table-and-vertical-report.md)
 
     Creates a [vertical report](../create-reports/vertical-reports.md) and binds it to data.
 
-* [Label Report](report-wizard\label-report.md)
+* [Label Report](report-wizard/label-report.md)
 
     Creates badges, business cards, price tags and other label types.
 

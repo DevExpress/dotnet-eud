@@ -8,15 +8,15 @@ owner: Mary Sammal
 
 The _design surface_ displays a report's structure and contents. You can use the tools on the Report Designer's panels to design the report:
 
-- access the report's data source schema in the [Field List](report-designer-tools\ui-panels\field-list.md);
+- access the report's data source schema in the [Field List](report-designer-tools/ui-panels/field-list.md);
 
-- drop report controls from the [Toolbox](report-designer-tools\toolbox.md) to the design surface;
+- drop report controls from the [Toolbox](report-designer-tools/toolbox.md) to the design surface;
 
-- use the [Ribbon](report-designer-tools\toolbar.md) toolbar and [Property Grid](report-designer-tools\ui-panels\property-grid-tabbed-view.md) to set up the report controls;
+- use the [Ribbon](report-designer-tools/toolbar.md) toolbar and [Property Grid](report-designer-tools/ui-panels/property-grid-tabbed-view.md) to set up the report controls;
 
-- access the report's elements in the [Report Explorer](report-designer-tools\ui-panels\report-explorer.md);
+- access the report's elements in the [Report Explorer](report-designer-tools/ui-panels/report-explorer.md);
 
-- use the [Group and Sort](report-designer-tools\ui-panels\group-and-sort-panel.md) panel to manage the report's group and sort settings.
+- use the [Group and Sort](report-designer-tools/ui-panels/group-and-sort-panel.md) panel to manage the report's group and sort settings.
 
 A blank report's design surface displays page margins and an empty [detail band](introduction-to-banded-reports.md).
 

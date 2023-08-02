@@ -4,17 +4,17 @@ author: Anna Vekhina
 ---
 # Display the User Name in a Report
 
-This tutorial demonstrates how to insert the current user name in a report using the [PageInfo](..\use-report-elements\use-basic-report-controls\page-info.md) control.
+This tutorial demonstrates how to insert the current user name in a report using the [PageInfo](../use-report-elements/use-basic-report-controls/page-info.md) control.
 
 ![eurd-win-insert-username-result](../../../images/eurd-web-insert-username-result.png)
 
 Do the following to insert the user name into a report:
 
-1. Typically, the user name is displayed within the [Report Header](..\introduction-to-banded-reports.md) band. To add it to the report, click **Insert Report Header Band** in the **Actions** category.
+1. Typically, the user name is displayed within the [Report Header](../introduction-to-banded-reports.md) band. To add it to the report, click **Insert Report Header Band** in the **Actions** category.
 	
 	![](../../../images/eurd-web-insert-datetime-add-reportheader-band.png)
 
-2. Drop the [PageInfo](..\use-report-elements\use-basic-report-controls\page-info.md) control from the [Toolbox](..\report-designer-tools\toolbox.md) onto the **Report Header** band.
+2. Drop the [PageInfo](../use-report-elements/use-basic-report-controls/page-info.md) control from the [Toolbox](../report-designer-tools/toolbox.md) onto the **Report Header** band.
 	
 	![](../../../images/eurd-web-insert-date-time-add-pageinfo.png)
 

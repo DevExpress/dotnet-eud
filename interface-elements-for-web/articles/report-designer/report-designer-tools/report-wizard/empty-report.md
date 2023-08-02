@@ -4,7 +4,7 @@ owner: Anna Vekhina
 ---
 # Empty Report
 
-To create an empty report, [run the Report Wizard](..\report-wizard.md), select **Empty Report** and click **Finish**.
+To create an empty report, [run the Report Wizard](../report-wizard.md), select **Empty Report** and click **Finish**.
 
 ![eurd-win-report-wizard-empty-report](../../../../images/eurd-web-report-wizard-empty-report.png)
 

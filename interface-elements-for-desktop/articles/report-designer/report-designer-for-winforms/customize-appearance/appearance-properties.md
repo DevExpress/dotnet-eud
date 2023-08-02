@@ -8,7 +8,7 @@ This document describes the purpose and implementation of the appearance propert
 
 ## Properties Overview
 
-Every report element ([control](..\use-report-elements.md) or [band](..\introduction-to-banded-reports.md)), and a report itself, has a set of properties that specify its appearance. They are listed in the following table.
+Every report element ([control](../use-report-elements.md) or [band](../introduction-to-banded-reports.md)), and a report itself, has a set of properties that specify its appearance. They are listed in the following table.
 
 | Property Name | Description |
 |---|---|
@@ -24,11 +24,11 @@ Every report element ([control](..\use-report-elements.md) or [band](..\introduc
 
 ## Access Appearance Properties
 
-Use the Report Designer's [Toolbar](..\report-designer-tools\toolbar.md) to access the appearance properties.
+Use the Report Designer's [Toolbar](../report-designer-tools/toolbar.md) to access the appearance properties.
 
 ![eurd-win-appearance-properties-on-toolbar](../../../../images/eurd-win-appearance-properties-on-toolbar.png)
 
-More appearance properties are available in the [Property Grid](..\report-designer-tools\ui-panels\property-grid-tabbed-view.md)'s **Appearance** tab.
+More appearance properties are available in the [Property Grid](../report-designer-tools/ui-panels/property-grid-tabbed-view.md)'s **Appearance** tab.
 
 ![eurd-win-appearance-properties-in-property-grid](../../../../images/eurd-win-appearance-properties-in-property-grid.png)
 
@@ -47,4 +47,4 @@ To reset values of these properties, click the property marker in the Property G
 
 ![AppearanceProperties_1](../../../../images/eurd-win-appearance-properties-reset.png)
 
-If a report element has a [style](report-visual-styles.md) assigned to it, the priority of the properties defined by this style is determined by the **StylePriority** property. Note that when a [conditional formatting](..\shape-report-data\specify-conditions-for-report-elements\conditionally-change-a-control-appearance.md) is involved, the appearance it defines is of greater priority than the properties described above.
+If a report element has a [style](report-visual-styles.md) assigned to it, the priority of the properties defined by this style is determined by the **StylePriority** property. Note that when a [conditional formatting](../shape-report-data/specify-conditions-for-report-elements/conditionally-change-a-control-appearance.md) is involved, the appearance it defines is of greater priority than the properties described above.

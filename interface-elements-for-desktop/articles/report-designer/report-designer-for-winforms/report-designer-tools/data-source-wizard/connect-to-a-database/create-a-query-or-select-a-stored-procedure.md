@@ -39,7 +39,7 @@ This will invoke the **Edit Relation** editor that provides a different UI to ma
 
 ![eud-win-reports-edit-relation-editor](../../../../../../images/eurd-win-edit-relation-dialog.png)
 
-On finishing the wizard, the specified data relationships will appear in the [Field List](../../ui-panels\field-list.md).
+On finishing the wizard, the specified data relationships will appear in the [Field List](../../ui-panels/field-list.md).
 
 ![eurd-win-report-field-list2](../../../../../../images/eurd-win-report-field-list2.png)
 

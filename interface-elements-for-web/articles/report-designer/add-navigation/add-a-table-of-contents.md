@@ -6,7 +6,7 @@ author: Anna Vekhina
 This tutorial describes the steps to create a report with a table of contents. A table of contents is automatically created based on the [bookmarks](add-bookmarks-and-a-document-map.md) existing in a report.
 
 To create a table of contents in a report, do the following.
-1. From the [Toolbox](..\report-designer-tools\toolbox.md), drop the [Table of Contents](..\use-report-elements\use-basic-report-controls\table-of-contents.md) control onto the [Report Header band](..\introduction-to-banded-reports.md).
+1. From the [Toolbox](../report-designer-tools/toolbox.md), drop the [Table of Contents](../use-report-elements/use-basic-report-controls/table-of-contents.md) control onto the [Report Header band](../introduction-to-banded-reports.md).
 	
 	![](../../../images/eurd-web-drop-table-of-contents.png)
 2. Double-click the title of the table of contents and specify its text.

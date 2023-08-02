@@ -11,7 +11,7 @@ This section contains tutorials that explain how to create different reports.
 ### [Table Reports](create-reports/table-reports.md)
 ![](../../../images/table-report-preview.png)
 
-### [Vertical Reports](create-reports\vertical-reports.md)
+### [Vertical Reports](create-reports/vertical-reports.md)
 ![](../../../images/vertical-report-preview.png)
 
 ## Reports with Hierarchical Data

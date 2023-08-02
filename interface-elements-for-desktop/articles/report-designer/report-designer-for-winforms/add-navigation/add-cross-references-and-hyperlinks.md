@@ -10,7 +10,7 @@ You can improve report navigation using a cross-reference because the link's tar
 
 
 
-You can add a cross-reference for a [report control](..\use-report-elements.md) by setting the following properties:
+You can add a cross-reference for a [report control](../use-report-elements.md) by setting the following properties:
 
 1. Set the **Navigation Target** property to *&#0095;self* to specify that the link is in the same document.
 
@@ -20,14 +20,14 @@ You can add a cross-reference for a [report control](..\use-report-elements.md) 
 
     ![eurd-win-crossreferences_set-url](../../../../images/eurd-win-crossreferences_set-url.png)
 
-In this case, the control behaves like a link meaning that the cursor automatically changes to a hand in a report's preview when hovering the control. You can make a control resemble a link by specifying its  [appearance properties](..\customize-appearance\appearance-properties.md) (for example, change the text's color to blue and underline it).
+In this case, the control behaves like a link meaning that the cursor automatically changes to a hand in a report's preview when hovering the control. You can make a control resemble a link by specifying its  [appearance properties](../customize-appearance/appearance-properties.md) (for example, change the text's color to blue and underline it).
 
 ![eurd-win-crossreferences_result](../../../../images/eurd-win-crossreferences_result.png)
 
 The link uses the first occurrence if there are multiple instances of an object marked as a link's target.
 
 > [!TIP]
-> A report's cross-references are preserved when [exporting it to PDF](..\preview-print-and-export-reports.md).
+> A report's cross-references are preserved when [exporting it to PDF](../preview-print-and-export-reports.md).
 
 ## <a name="hyper"></a>Add Hyperlinks
 A hyperlink means that a link's target is outside the report.
@@ -39,7 +39,7 @@ You can use any control as a link by setting the **Navigation Url** property to 
 > [!NOTE]
 > Remember to use the "http://" or "https://" prefix when specifying the URL.
 
-You can make a control resemble a link by specifying its  [appearance properties](..\customize-appearance\appearance-properties.md) (for instance, set the underlined text and blue color).
+You can make a control resemble a link by specifying its  [appearance properties](../customize-appearance/appearance-properties.md) (for instance, set the underlined text and blue color).
 
 The cursor automatically changes to a hand when hovering the control in a report's preview.
 
@@ -48,4 +48,4 @@ The cursor automatically changes to a hand when hovering the control in a report
 Use the link's **Navigation Target** property to specify where to open the target document (in the same preview window, in a new blank window, etc.).
 
 > [!TIP]
-> A link's behavior is preserved when [exporting a report](..\preview-print-and-export-reports.md) to most of the available formats (in particular to PDF, HTML, MHT, RTF and Excel).
+> A link's behavior is preserved when [exporting a report](../preview-print-and-export-reports.md) to most of the available formats (in particular to PDF, HTML, MHT, RTF and Excel).

@@ -24,7 +24,7 @@ You can also add the following bands:
 
     The **Report Header** is the report's first band (margins are "out-of-page" zones). Use this band to display the report's name, company logo, [date of creation, username](add-extra-information.md), etc.
 
-    The **Report Footer** is placed before the Page Footer and Bottom Margin on the report's last page. You can use the Report Footer band for report [summaries](shape-report-data\calculate-summaries\calculate-a-summary.md) or conclusions.
+    The **Report Footer** is placed before the Page Footer and Bottom Margin on the report's last page. You can use the Report Footer band for report [summaries](shape-report-data/calculate-summaries/calculate-a-summary.md) or conclusions.
     
 - **Page Header** and **Page Footer**
 
@@ -32,12 +32,12 @@ You can also add the following bands:
 
 - **Group Header** and **Group Footer**
 
-    These bands are above and below each [group](shape-report-data\group-and-sort-data.md). The [Group and Sort Panel](report-designer-tools\ui-panels\group-and-sort-panel.md) create these bands automatically.
+    These bands are above and below each [group](shape-report-data/group-and-sort-data.md). The [Group and Sort Panel](report-designer-tools/ui-panels/group-and-sort-panel.md) create these bands automatically.
 
 > [!TIP]
 > Only the detail and group bands can be used to display dynamic data source contents. Other bands display titles, summaries, and [extra information](add-extra-information.md).
 
-The following image illustrates a sample report layout and the [Report Explorer](report-designer-tools\ui-panels\report-explorer.md) that reflects the report's structure:
+The following image illustrates a sample report layout and the [Report Explorer](report-designer-tools/ui-panels/report-explorer.md) that reflects the report's structure:
 
 ![eurd-win-report-bands-basic-layout](../../../images/eurd-win-report-bands-basic-layout.png)
 
@@ -49,7 +49,7 @@ Use the **Detail Report** band to create hierarchical [master-detail reports](cr
 
 The Detail Report band is a separate report (subreport) with its own data source and different bands. A report can have any number of detail reports that can also be nested.
 
-The following image illustrates a master-detail report and the [Report Explorer](report-designer-tools\ui-panels\report-explorer.md) that reflects the report's structure:
+The following image illustrates a master-detail report and the [Report Explorer](report-designer-tools/ui-panels/report-explorer.md) that reflects the report's structure:
 
 ![eurd-win-report-bands-basic-layout-subreports](../../../images/eurd-win-report-bands-basic-layout-subreports.png)
 
@@ -73,9 +73,9 @@ The following vertical bands are available:
 - **Vertical Details**   
     This band is printed for every record in a data source unless you filtered the data. The records are displayed one after another in a horizontal direction.
 - **Vertical Total**   
-    This band is placed at the rightmost position (leftmost when RTL is enabled). You can use the Vertical Total band for report [summaries](shape-report-data\calculate-summaries\calculate-a-summary.md) or conclusions.
+    This band is placed at the rightmost position (leftmost when RTL is enabled). You can use the Vertical Total band for report [summaries](shape-report-data/calculate-summaries/calculate-a-summary.md) or conclusions.
 
-You can use the [Report Wizard](report-designer-tools\report-wizard.md) to create a report with vertical bands. Refer to the [Vertical Reports](create-reports\vertical-reports.md) topic for instructions on how to create a report with vertical bands.
+You can use the [Report Wizard](report-designer-tools/report-wizard.md) to create a report with vertical bands. Refer to the [Vertical Reports](create-reports/vertical-reports.md) topic for instructions on how to create a report with vertical bands.
 
 
 ## Create Band Copies
@@ -104,7 +104,7 @@ Right-click a band and select **Collapse Other Bands** from the context menu to 
 
 ### Hide Bands in the Report Document
 
-You can avoid printing band content in a document. To do this, select the band and set the band's **Height** property to zero or disable its **Visible** property in the [Property Grid](report-designer-tools\ui-panels\property-grid-tabbed-view.md).
+You can avoid printing band content in a document. To do this, select the band and set the band's **Height** property to zero or disable its **Visible** property in the [Property Grid](report-designer-tools/ui-panels/property-grid-tabbed-view.md).
 
 ![eurd-win-band-properties-in-property-grid](../../../images/eurd-win-band-properties-in-property-grid.png)
 

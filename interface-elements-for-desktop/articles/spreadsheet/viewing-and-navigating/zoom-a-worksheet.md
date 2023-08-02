@@ -12,5 +12,5 @@ To zoom in or out of a worksheet, do one of the following:
     ![ZoomGroup.png](../../../images/img21166.png)
 * Use zoom slider and zoom level on the status bar. Click zoom level to invoke the **Zoom** dialog. The dialog allows you to select a percentage of magnification, or enter a custom percentage.
 
-    ![IMAGE](../../../images\spreadsheet-status-bar-zoom.png)
+    ![IMAGE](../../../images/spreadsheet-status-bar-zoom.png)
 * Hold the **CTRL** button and rotate your mouse wheel.

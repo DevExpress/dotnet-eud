@@ -28,7 +28,7 @@ This tutorial illustrates how to bind a report to a database and specify a maste
     ![](../../../images/eurd-web-data-source-wizard-create-a-query-automatically.png)
     
     > [!NOTE]
-    > You can also create [custom queries](../report-designer-tools/data-source-wizard\specify-data-source-settings-database.md) to shape data at the data source level. Select **Queries** and click the plus button to add a new query.
+    > You can also create [custom queries](../report-designer-tools/data-source-wizard/specify-data-source-settings-database.md) to shape data at the data source level. Select **Queries** and click the plus button to add a new query.
     > 
     > The invoked [Query Builder](../report-designer-tools/query-builder.md) allows you to join multiple tables, filter, sort, and group their data, and calculate various aggregate functions.
       

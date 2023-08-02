@@ -27,7 +27,7 @@ When enabling content editing in your report, consider the following.
 * A control's **Can Grow** setting is ignored for editing fields.
 	
 	Multi-line values can only be entered when no mask is applied to an editing field. The editing area of a field cannot exceed the original dimensions of a control.
-* Values entered into editing fields are reset back to their defaults after refreshing the document (e.g., when submitting [report parameter](..\use-report-parameters.md) values and expanding or collapsing data in a [drill-down report](create-drill-down-reports.md)).
+* Values entered into editing fields are reset back to their defaults after refreshing the document (e.g., when submitting [report parameter](../use-report-parameters.md) values and expanding or collapsing data in a [drill-down report](create-drill-down-reports.md)).
 * It is impossible to edit content of a control that has its **Drill-Down Control** property specified.
 * Field values entered in Print Preview for controls placed onto the Top Margin and Bottom Margin bands are not preserved when the report is exported to TXT or CSV, as well as the following formats as a single file.
 	
@@ -47,7 +47,7 @@ To learn about the specifics of editing different kinds of content, see the foll
 
 
 ## Text Editors
-The [Label](..\use-report-elements\use-basic-report-controls\label.md), [Table Cell](..\use-report-elements\use-tables.md) and [Character Comb](..\use-report-elements\use-basic-report-controls\character-comb.md) controls can be assigned editors to customize their content in Print Preview.
+The [Label](../use-report-elements/use-basic-report-controls/label.md), [Table Cell](../use-report-elements/use-tables.md) and [Character Comb](../use-report-elements/use-basic-report-controls/character-comb.md) controls can be assigned editors to customize their content in Print Preview.
 
 To enable content editing for these controls, expand the **Behavior** category, select the **Edit Options** section and set the **Enabled** property to **Yes**.
 
@@ -84,7 +84,7 @@ The **Character Comb** control displays text so that each character is printed i
 Specify the Character Comb's **Edit Options** | **Editor Name** property to use a text editor, as described in the [Text Editors](#text-editors) section above.
 
 ## Check Box Editor
-The [Check Box](..\use-report-elements\use-basic-report-controls\check-box.md) control's value can be edited in Print Preview.
+The [Check Box](../use-report-elements/use-basic-report-controls/check-box.md) control's value can be edited in Print Preview.
 
 To enable content editing for a check box, expand the **Behavior** category, select the **Edit Options** section and set the **Enabled** property to **Yes**.
 
@@ -100,7 +100,7 @@ In Print Preview, the control's behavior depends on the **Group ID** setting.
 
 ## Image Editors
 
-Image editors are used to customize the [Picture Box](..\use-report-elements\use-basic-report-controls\picture-box.md) report control's content in Print Preview.
+Image editors are used to customize the [Picture Box](../use-report-elements/use-basic-report-controls/picture-box.md) report control's content in Print Preview.
 
 To enable content editing for a picture box, expand the **Behavior** category, select the **Edit Options** section and set the **Enabled** property to **Yes**.
 
