@@ -75,7 +75,7 @@ Available settings in the **Common** section depend on the selected **Calculated
 
 	![Web Dashboard - Card Conditional Formatting - Card Option](../../../../images/web-conditional-formatting-card-delta-variation.png)
 
-	If a dashboard item contains multiple cards, apply a format rule to the active card to see changes. To switch between cards, click the **Values** button in the dashboard item caption. Note that the expression format condition applies to all cards regardless of the specified card.
+	If a dashboard item contains multiple cards, apply a format rule to the active card to see the changes. To switch between cards, click the **Values** button in the dashboard item caption. Note that the expression format condition applies to all cards regardless of the specified card.
 
 * **Data Item**
   
