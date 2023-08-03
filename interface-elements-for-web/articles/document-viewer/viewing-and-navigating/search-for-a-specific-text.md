@@ -12,6 +12,6 @@ To search for text in a document, click the **Search**  tab in the Document Viwe
 
 ![EUD_HTML5DV_SearchPanel](../../../images/img121841.png)
 
-The **Search** panel allows you to enter the string to find and specify whether to use case-sensitive search and whether it is required to match the whole word during the search. To start search, press ENTER or click the **Search** button. Click **Stop** to stop the search process. You can use the **up** and **down** buttons to navigate through the search results in the document.
+The **Search** panel allows you to enter a string to find and specify whether to use case-sensitive search and whether it is required to match the whole word during the search. To start the search, press ENTER or click the **Search** button. Click **Stop** to stop the search process. You can use the **up** and **down** buttons to navigate the document's search results.
 
 The **Search** panel displays a list of matching words in the document. You can click the item in the **Search Result** list to navigate to the location in the document and highlight the element that contains the match.
