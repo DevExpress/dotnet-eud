@@ -18,7 +18,7 @@ This tutorial describes how to use vertical bands to create a report where recor
 
     
 
-4. In the invoked [Report Wizard](..\report-designer-tools\report-wizard.md), select **Vertical Report** and click **Next**.
+4. In the invoked [Report Wizard](../report-designer-tools/report-wizard.md), select **Vertical Report** and click **Next**.
 
     ![VerticalBandDemoReport_SelectReportType](../../../../images/eurd-VerticalBandDemoReport_SelectReportType.png)
 
@@ -48,7 +48,7 @@ Click **Finish** and the generated report opens in the Report Designer.
 
 ![VerticalBandDemoReport_WizardResult](../../../../images/eurd-win-VerticalBandDemoReport_WizardResult.png)
 
-The wizard adds report controls to the following [bands](..\introduction-to-banded-reports.md):
+The wizard adds report controls to the following [bands](../introduction-to-banded-reports.md):
 
 - **Vertical Header band**  
     Contains a table with a single column that displays headers of the report's data fields.
@@ -62,11 +62,11 @@ Switch to the Preview tab to see the result.
 ![VerticalBandDemoReport_WizardResult](../../../../images/eurd-win-VerticalBandDemoReport_WizardResult_Preview.png)
 
 > [!Tip]
-> You can create a vertical report without using the Report Wizard. Right-click the report in the Report Designer and choose **Insert Vertical Band** in the invoked context menu. Refer to the [Introduction to Banded Reports](..\introduction-to-banded-reports.md#vertical-bands) topic for more information.
+> You can create a vertical report without using the Report Wizard. Right-click the report in the Report Designer and choose **Insert Vertical Band** in the invoked context menu. Refer to the [Introduction to Banded Reports](../introduction-to-banded-reports.md#vertical-bands) topic for more information.
 
 ## Set Vertical Table Options
 
-You can set the following options in the [Property Grid](..\report-designer-tools\ui-panels\property-grid-tabbed-view.md) to modify the vertical table:
+You can set the following options in the [Property Grid](../report-designer-tools/ui-panels/property-grid-tabbed-view.md) to modify the vertical table:
 
 - Disable the Vertical Header band's **Repeat Every Page** property to display field headers once - on the first report page.
 

@@ -14,10 +14,10 @@ To create a new report and connect it to data, [run the Report Wizard](../report
 
 The Report Wizard can include the following pages:
 
-* [Select the Data Source Type](table-report\select-the-data-source-type.md)
-* [Choose Fields to Display in a Report](table-report\choose-fields-to-display-in-a-report.md)
-* [Add Grouping Levels](table-report\add-grouping-levels.md)
-* [Specify Summary Options](table-report\specify-summary-options.md)
-* [Specify Report Page Settings](table-report\specify-report-page-settings.md)
-* [Specify a Report Color Scheme](table-report\choose-a-report-color-scheme.md)
-* [Set the Report Title](table-report\set-the-report-title.md)
+* [Select the Data Source Type](table-report/select-the-data-source-type.md)
+* [Choose Fields to Display in a Report](table-report/choose-fields-to-display-in-a-report.md)
+* [Add Grouping Levels](table-report/add-grouping-levels.md)
+* [Specify Summary Options](table-report/specify-summary-options.md)
+* [Specify Report Page Settings](table-report/specify-report-page-settings.md)
+* [Specify a Report Color Scheme](table-report/choose-a-report-color-scheme.md)
+* [Set the Report Title](table-report/set-the-report-title.md)

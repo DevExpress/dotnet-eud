@@ -4,11 +4,16 @@ author: Anna Gubareva
 legacyId: 115380
 ---
 # PDF Export Options
+
 Before [exporting a document](export-a-document.md) to PDF, you can specify PDF-specific options in the **Export Options** panel.
 
 ![EUD_HTML5DV_PdfExportOptions](../../../images/img121802.png)
 
 ## General Options
+
+* **Signatures**
+
+	Provides access to digital signatures. Select a signature to sign the document on export to PDF.
 * **Convert Images to Jpeg**
 	
 	Specifies whether all bitmaps contained in the document should be converted to JPEG format during export to PDF.

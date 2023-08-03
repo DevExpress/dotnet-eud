@@ -50,4 +50,4 @@ You can reject all changes at once. On the **Review** tab, in the **Changes** ri
 * **Reject All Changes and Stop Tracking** - to accept all changes and disable Track Changes;
 * **Reject All Changes Shown** - to accept all visible changes (available if changes from specific authors are displayed).
 
-![IMAGE](../../../images\rich-text-editor-track-changes-reject-all.png)
+![IMAGE](../../../images/rich-text-editor-track-changes-reject-all.png)

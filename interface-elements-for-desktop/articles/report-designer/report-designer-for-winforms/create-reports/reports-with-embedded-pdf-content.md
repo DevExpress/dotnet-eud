@@ -174,7 +174,7 @@ The following image illustrates the main report's **Preview**:
     }
     ```
     
-6. Place two [labels](../use-report-elements/use-basic-report-controls/label.md), a [line](../use-report-elements/draw-lines-and-shapes/draw-lines.md), and a [picture box](..\use-report-elements\use-basic-report-controls\picture-box.md) on the PDF page header as shown below:
+6. Place two [labels](../use-report-elements/use-basic-report-controls/label.md), a [line](../use-report-elements/draw-lines-and-shapes/draw-lines.md), and a [picture box](../use-report-elements/use-basic-report-controls/picture-box.md) on the PDF page header as shown below:
 
     ![Add Controls to Page Header](../../../../images/create-report-with-pdf-content-make-pdf-content-add-controls-to-page-header.png)
 
@@ -204,7 +204,7 @@ The following image illustrates the main report's **Preview**:
 
     ![Assign Expression to the Page Range Property](../../../../images/create-report-with-pdf-content-assign-expression-to-page-range.png)
 
-8. Add the [Page Info](..\use-report-elements\use-basic-report-controls\page-info.md) control to the PDF page footer. Use the following settings for this control:
+8. Add the [Page Info](../use-report-elements/use-basic-report-controls/page-info.md) control to the PDF page footer. Use the following settings for this control:
 
     | Location | Size | Font | Font Size | Text Alignment | Text Format String |
     | --- | --- | --- | --- | --- | --- |
@@ -222,11 +222,11 @@ Open **Preview** to show the result. The image below shows the report's first pa
 
     ![Add Report Footer](../../../../images/create-report-with-pdf-content-add-report-footer.png)
 
-2. Add the [Subreport](..\use-report-elements\use-basic-report-controls\subreport.md) control to the footer. Assign the path the report with PDF content to the control's **Report Source URL** property. Enable the control's **Generate Own Pages** property.
+2. Add the [Subreport](../use-report-elements/use-basic-report-controls/subreport.md) control to the footer. Assign the path the report with PDF content to the control's **Report Source URL** property. Enable the control's **Generate Own Pages** property.
 
     ![Add the Subreport](../../../../images/create-report-with-pdf-content-add-subreport.png)
 
-3. Add the [Page Info](..\use-report-elements\use-basic-report-controls\page-info.md) control to the report's **Bottom Margin** band. Set the control's **Text Alignment** propery to *Middle Center* and the **Text Format String** property to *Page {0} of {1}*.
+3. Add the [Page Info](../use-report-elements/use-basic-report-controls/page-info.md) control to the report's **Bottom Margin** band. Set the control's **Text Alignment** propery to *Middle Center* and the **Text Format String** property to *Page {0} of {1}*.
 
     ![Add Page Numbers to Main Report](../../../../images/create-report-with-pdf-content-add-page-number-to-main-report.png)
 

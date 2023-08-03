@@ -19,7 +19,7 @@ This tutorial demonstrates how to bind a report to a stored procedure provided b
 	
 	![](../../../../images/eurd-win-data-source-wizard-select-new-connection.png)
 
-5. On the next page, you can define a custom connection string or select from the list of [supported data providers](..\report-designer-tools\data-source-wizard\connect-to-a-database\specify-a-connection-string.md). Depending on the data provider selected, it may be necessary to specify additional connection options (such as authentication type and database name) on this page.
+5. On the next page, you can define a custom connection string or select from the list of [supported data providers](../report-designer-tools/data-source-wizard/connect-to-a-database/specify-a-connection-string.md). Depending on the data provider selected, it may be necessary to specify additional connection options (such as authentication type and database name) on this page.
 	
 	![](../../../../images/eurd-win-data-source-wizard-connection-settings.png)
 	

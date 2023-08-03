@@ -10,4 +10,4 @@ Choose **Data Federation** to combine multiple data sources and specify unions, 
 
 ![](../../../../../images/eurd-win-data-source-wizard-choose-data-federation.png)
 
-Click **Next** to go to the [Create a Federated Query](connect-to-a-federated-data-source\create-a-federated-query.md) page.
+Click **Next** to go to the [Create a Federated Query](connect-to-a-federated-data-source/create-a-federated-query.md) page.

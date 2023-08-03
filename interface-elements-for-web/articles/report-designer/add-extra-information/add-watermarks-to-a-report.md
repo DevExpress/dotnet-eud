@@ -11,7 +11,7 @@ This tutorial describes how to add watermarks to a report and use preprinted for
 ## <a name="addwatermark"></a>Add a Watermark to a Report
 To add a watermark to a report, do the following.
 
-1. Switch to the [Properties](..\report-designer-tools\ui-panels\properties-panel.md) panel and expand the **Watermark** node in the **Appearance** category.
+1. Switch to the [Properties](../report-designer-tools/ui-panels/properties-panel.md) panel and expand the **Watermark** node in the **Appearance** category.
 	
 	![](../../../images/eurd-web-add-watermarks-properties-panel.png)
 

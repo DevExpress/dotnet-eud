@@ -92,7 +92,7 @@ This topic describes how to bind a report to JSON data.
 
     ![](../../../../images/json-wizard-analyze-all-records-button.png)
 
-After you finish the wizard, it creates the **JsonDataSource** component. This component retrieves the checked data fields that the selected JSON element includes. The [Field List](..\report-designer-tools\ui-panels\field-list.md) reflects the data source structure.
+After you finish the wizard, it creates the **JsonDataSource** component. This component retrieves the checked data fields that the selected JSON element includes. The [Field List](../report-designer-tools/ui-panels/field-list.md) reflects the data source structure.
  
 ![JSON-FieldList](../../../../images/eurd-win-JSON-FieldList.png)
 

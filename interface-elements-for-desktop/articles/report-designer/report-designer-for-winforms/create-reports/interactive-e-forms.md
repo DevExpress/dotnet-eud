@@ -12,13 +12,13 @@ To get started with this tutorial, [create a new report](../add-new-reports.md) 
 
 ## Add Form Fields
 
-Add the [Label](..\use-report-elements\use-basic-report-controls\label.md) report controls to the report and arrange them according to the form's template. Set the labels' **Text** property to the form's field names.
+Add the [Label](../use-report-elements/use-basic-report-controls/label.md) report controls to the report and arrange them according to the form's template. Set the labels' **Text** property to the form's field names.
 
 ![EForm-Add-Form-Fields](../../../../images/eurd-win-EForm-Add-Form-Fields.png)
 
 ## Add Fillable Cells
 
-Use the [Character Comb](..\use-report-elements\use-basic-report-controls\character-comb.md) control for the form's text fields. This control displays letters in individual cells and allows you to fill these cells in Print Preview.
+Use the [Character Comb](../use-report-elements/use-basic-report-controls/character-comb.md) control for the form's text fields. This control displays letters in individual cells and allows you to fill these cells in Print Preview.
 
 1. Drop the Character Comb item from the Toolbox onto the report.
 	
@@ -48,7 +48,7 @@ Use the [Character Comb](..\use-report-elements\use-basic-report-controls\charac
 
 ## Add Check Box Editors
 
-Add [Check Box](..\use-report-elements\use-basic-report-controls\check-box.md) controls for the *Male/Female* fields.
+Add [Check Box](../use-report-elements/use-basic-report-controls/check-box.md) controls for the *Male/Female* fields.
 
 ![eForm-report-add-check-boxes](../../../../images/eurd-win-eform-report-add-check-boxes.png)
 
@@ -66,7 +66,7 @@ Use the following properties to set up these controls:
 
 ## Add the Signature Editor
 
-Add the [PictureBox](..\use-report-elements\use-basic-report-controls\picture-box.md) report control for the form's *Signature* field.
+Add the [PictureBox](../use-report-elements/use-basic-report-controls/picture-box.md) report control for the form's *Signature* field.
 
 ![EForm-add-signature-picture-box](../../../../images/eurd-win-EForm-add-signature-picture-box.png)
 
@@ -79,7 +79,7 @@ Do the following to enable drawing in Print Preview:
 	![EForm-Signature-content-editing](../../../../images/eurd-win-EForm-Signature-content-editing.png)
 
 ## Get the Result
-Switch to the [Preview tab](..\preview-print-and-export-reports.md) to see the result.
+Switch to the [Preview tab](../preview-print-and-export-reports.md) to see the result.
 
 ![eForm-report-result](../../../../images/eurd-win-EForm-Preview.png)
 

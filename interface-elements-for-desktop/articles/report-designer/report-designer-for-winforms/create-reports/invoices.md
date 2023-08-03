@@ -166,7 +166,7 @@ Do the following to customize the report and its elements' appearance:
 	
 	![](../../../../images/eurd-win-invoice-report-control-text-alignment.png)
 
-4. Create a global [visual style](../customize-appearance/report-visual-styles.md) to apply it afterwards to multiple controls. Click the caption button in the [Toolbar](..\report-designer-tools\toolbar.md)'s **Styles** section.
+4. Create a global [visual style](../customize-appearance/report-visual-styles.md) to apply it afterwards to multiple controls. Click the caption button in the [Toolbar](../report-designer-tools/toolbar.md)'s **Styles** section.
 
     ![](../../../../images/eurd-win-invoice-invoke-styles-editor.png)
 

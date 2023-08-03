@@ -32,7 +32,7 @@ You can also use the CTRL+N shortcut to create a new report.
 
 ## Create a New Report Using the Report Wizard
 
-The following commands run the [Report Wizard](report-designer-tools\report-wizard.md). Go through the wizard's pages to get a predesigned report.
+The following commands run the [Report Wizard](report-designer-tools/report-wizard.md). Go through the wizard's pages to get a predesigned report.
 
 ### Use the Ribbon's Home Tab
 
@@ -48,4 +48,4 @@ Click the application button and then choose **New Report** | **New Report via W
 
 ### Use a Shortcut
 
-You can also use the CTRL+W shortcut to run the [Report Wizard](report-designer-tools\report-wizard.md).
+You can also use the CTRL+W shortcut to run the [Report Wizard](report-designer-tools/report-wizard.md).

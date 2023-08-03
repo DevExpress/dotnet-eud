@@ -24,9 +24,9 @@ The following report controls support content editing in Print Preview:
 
 | Text | Boolean | Image |
 |--- | --- | --- |
-| [Label](..\use-report-elements\use-basic-report-controls\label.md) | [Check Box](..\use-report-elements\use-basic-report-controls\check-box.md) | [Picture Box](..\use-report-elements\use-basic-report-controls\picture-box.md) |
-| [Table Cell](..\use-report-elements\use-tables.md) | | |
-| [Character Comb](..\use-report-elements\use-basic-report-controls\character-comb.md) | | |
+| [Label](../use-report-elements/use-basic-report-controls/label.md) | [Check Box](../use-report-elements/use-basic-report-controls/check-box.md) | [Picture Box](../use-report-elements/use-basic-report-controls/picture-box.md) |
+| [Table Cell](../use-report-elements/use-tables.md) | | |
+| [Character Comb](../use-report-elements/use-basic-report-controls/character-comb.md) | | |
 
 The sections below provide information about options these controls expose. You can use these options to set up content editing.
 
@@ -51,7 +51,7 @@ The sections below provide information about options these controls expose. You 
 
 ## Text Editors
 
-Text editors are used to customize the [Label](..\use-report-elements\use-basic-report-controls\label.md), [Table Cell](..\use-report-elements\use-tables.md) and [Character Comb](..\use-report-elements\use-basic-report-controls\character-comb.md) report controls' content in Print Preview.
+Text editors are used to customize the [Label](../use-report-elements/use-basic-report-controls/label.md), [Table Cell](../use-report-elements/use-tables.md) and [Character Comb](../use-report-elements/use-basic-report-controls/character-comb.md) report controls' content in Print Preview.
 
 The default text editor is a memo edit. 
 	
@@ -86,17 +86,17 @@ The **Character Comb** control displays text so that each character is printed i
 Specify the Character Comb's **Edit Options** | **Editor Name** property to use a text editor, as described in the [Text Editors](#text-editors) section above.
 
 ## Check Box Editor
-The check box editor is used to customize the [Check Box](..\use-report-elements\use-basic-report-controls\check-box.md) report control's content in Print Preview.
+The check box editor is used to customize the [Check Box](../use-report-elements/use-basic-report-controls/check-box.md) report control's content in Print Preview.
 
 ![eurd-win-content-editing-checkboxe](../../../../images/eurd-win-content-editing-checkboxe.png)
 
-You can combine several check box editors into a radio group so that you can select only one option within a group at a time. For this, set the [Check Box](..\use-report-elements\use-basic-report-controls\check-box.md) report controls' **Group ID** property to the same value.
+You can combine several check box editors into a radio group so that you can select only one option within a group at a time. For this, set the [Check Box](../use-report-elements/use-basic-report-controls/check-box.md) report controls' **Group ID** property to the same value.
 
 ![content-editing-check-box-group](../../../../images/eurd-win-content-editing-check-box-group.png)
 
 ## Image Editors
 
-Image editors are used to customize the [XRPictureBox](..\use-report-elements\use-basic-report-controls\picture-box.md) report control's content in Print Preview.
+Image editors are used to customize the [XRPictureBox](../use-report-elements/use-basic-report-controls/picture-box.md) report control's content in Print Preview.
 
 Use the control's **Edit Options** | **Editor Name** property to assign one of the following image editors.
 

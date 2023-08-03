@@ -12,7 +12,7 @@ Use the following approaches to create a visual style in your report:
 
 - **Extract a Style**
 
-    Specify a report control's [appearance properties](appearance-properties.md) and press **Extract Style** in the report's [toolbar](..\report-designer-tools\toolbar.md).
+    Specify a report control's [appearance properties](appearance-properties.md) and press **Extract Style** in the report's [toolbar](../report-designer-tools/toolbar.md).
 
     ![eurd-win-specify-properties](../../../../images/eurd-win-specify-properties.png)
 
@@ -27,11 +27,11 @@ Use the following approaches to create a visual style in your report:
 
 The created style is added to the Style gallery. You can access this gallery in the following places:
 
-- the Styles group in the report's [toolbar](..\report-designer-tools\toolbar.md);
+- the Styles group in the report's [toolbar](../report-designer-tools/toolbar.md);
 
     ![eurd-win-styles-in-toolbar](../../../../images/eurd-win-styles-in-toolbar.png)
 
-- the Styles group in the [Report Explorer](..\report-designer-tools\ui-panels\report-explorer.md).
+- the Styles group in the [Report Explorer](../report-designer-tools/ui-panels/report-explorer.md).
 
     ![eurd-win-styles-in-report-explorer](../../../../images/eurd-win-styles-in-report-explorer.png)
 
@@ -72,13 +72,13 @@ Nested elements inherit their parent element's style if they do not have an appl
 You can specify a different value for a report element's appearance property to override the corresponding property value in the report element's style.
 
 > [!NOTE]
-> If you apply [conditional formatting](..\shape-report-data\specify-conditions-for-report-elements\conditionally-change-a-control-appearance.md), its appearance property values have a higher priority than both the individually specified properties and the style's properties.
+> If you apply [conditional formatting](../shape-report-data/specify-conditions-for-report-elements/conditionally-change-a-control-appearance.md), its appearance property values have a higher priority than both the individually specified properties and the style's properties.
 
 ## Reuse Styles
 
-You can add a style to the [Report Gallery](..\report-designer-tools\ui-panels\report-gallery.md) and use it across different reports.
+You can add a style to the [Report Gallery](../report-designer-tools/ui-panels/report-gallery.md) and use it across different reports.
 
-In the [Report Explorer](..\report-designer-tools\ui-panels\report-explorer.md), right-click a style and choose **Add to Gallery**.
+In the [Report Explorer](../report-designer-tools/ui-panels/report-explorer.md), right-click a style and choose **Add to Gallery**.
 
 ![eurd-win-add-style-to-gallery](../../../../images/eurd-win-add-style-to-gallery.png)
 

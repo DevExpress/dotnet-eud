@@ -4,7 +4,7 @@ author: Mary Sammal
 ---
 # Hierarchical Reports
 
-This tutorial describes how to use the [detail band](..\introduction-to-banded-reports.md)'s **Hierarchy Print Options** property to create a hierarchical report.
+This tutorial describes how to use the [detail band](../introduction-to-banded-reports.md)'s **Hierarchy Print Options** property to create a hierarchical report.
 
 ![HierarchicalReport-Result](../../../../images/eurd-HierarchicalReport-Result.png) 
 
@@ -12,7 +12,7 @@ This tutorial describes how to use the [detail band](..\introduction-to-banded-r
 
 2. [Bind the report](../bind-to-data.md) to a required data source.
 
-    The following image demonstrates an empty report bound to an [ObjectDataSource](..\bind-to-data\bind-a-report-to-an-object-data-source.md).
+    The following image demonstrates an empty report bound to an [ObjectDataSource](../bind-to-data/bind-a-report-to-an-object-data-source.md).
 
     ![HierarchicalReport-SelectFields](../../../../images/eurd-HieararchicalReport-CreateReport.png)
 
@@ -20,12 +20,12 @@ This tutorial describes how to use the [detail band](..\introduction-to-banded-r
 
 3. Arrange controls on the report.
 
-    - Add the [Report Header](..\introduction-to-banded-reports.md) and [Page Header](..\introduction-to-banded-reports.md) bands (see the **Manage Report Bands | Add Bands** section in the [Introduction to Banded Reports](..\introduction-to-banded-reports.md) document for details)
-    - Add [data-bound labels](..\use-report-elements\use-basic-report-controls\label.md) to the **Detail** band.
+    - Add the [Report Header](../introduction-to-banded-reports.md) and [Page Header](../introduction-to-banded-reports.md) bands (see the **Manage Report Bands | Add Bands** section in the [Introduction to Banded Reports](../introduction-to-banded-reports.md) document for details)
+    - Add [data-bound labels](../use-report-elements/use-basic-report-controls/label.md) to the **Detail** band.
 
     ![HierarchicalReport-ArrangeControls](../../../../images/eurd-win-HierarchicalReport-ArrangeControls.png)
 
-    Switch to the [Preview](..\preview-print-and-export-reports.md) tab to see an intermediate result.
+    Switch to the [Preview](../preview-print-and-export-reports.md) tab to see an intermediate result.
 
     ![HierarchicalReport-ArrangeControls-Result](../../../../images/eurd-win-HierarchicalReport-ArrangeControls-Result.png)
 
@@ -63,7 +63,7 @@ This tutorial describes how to use the [detail band](..\introduction-to-banded-r
 
 6. Add a drill-down control to expand/collapse child rows.
 
-    - Add the [Check Box](..\use-report-elements\use-basic-report-controls\check-box.md) control to the **Detail** band at the left-most position.
+    - Add the [Check Box](../use-report-elements/use-basic-report-controls/check-box.md) control to the **Detail** band at the left-most position.
 
         ![HiearachicalReport-AddCheckBox](../../../../images/eurd-win-HiearachicalReport-AddCheckBox.png)
 
@@ -75,7 +75,7 @@ This tutorial describes how to use the [detail band](..\introduction-to-banded-r
 
         ![HierarchicalReport-SetDrillDownControl](../../../../images/eurd-win-HierarchicalReport-SetDrillDownControl.png)
 
-    - Set the **Check Box**'s **Check State** property to the following expression: *[ReportItems].[Detail].[DrillDownExpanded]* (in the control's Smart Tag or the [Property Grid](..\report-designer-tools\ui-panels\property-grid-tabbed-view.md)'s Expressions tab).
+    - Set the **Check Box**'s **Check State** property to the following expression: *[ReportItems].[Detail].[DrillDownExpanded]* (in the control's Smart Tag or the [Property Grid](../report-designer-tools/ui-panels/property-grid-tabbed-view.md)'s Expressions tab).
 
         ![HierarchicalReport-CheckStateExpression](../../../../images/eurd-win-HierarchicalReport-CheckStateExpression.png)
 
