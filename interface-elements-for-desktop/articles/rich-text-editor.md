@@ -80,6 +80,7 @@ This section describes the **Rich Text Editor** capabilities.
 * [Align Text in Table Cells](rich-text-editor/tables/align-text-in-table-cells.md)
 * [Set Background Color of Cells](rich-text-editor/tables/set-background-color-of-cells.md)
 * [Wrap Text Around a Table](rich-text-editor/tables/wrap-text-around-a-table.md)
+* [Rotate Table Cell Content](rich-text-editor/tables/rotate-table-cell-content.md)
 
 ## Header and Footer
 

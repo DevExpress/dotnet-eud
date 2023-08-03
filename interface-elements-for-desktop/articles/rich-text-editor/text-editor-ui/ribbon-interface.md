@@ -60,6 +60,7 @@ The comprehensive functionality for the **Rich Text** control can be provided vi
 * [Create a Table of Contents](../table-of-contents/create-a-table-of-contents.md)
 * [Create Table of Contents for Special Cases](../table-of-contents/create-table-of-contents-for-special-cases.md)
 * [Update Table of Contents](../table-of-contents/update-table-of-contents.md)
+* [Insert and Edit a Footnote or an Endnote](../footnotes-and-endnotes/insert-and-edit-a-footnote-or-endnote.md)
 
 ## Mail Merge
 
@@ -110,6 +111,7 @@ The comprehensive functionality for the **Rich Text** control can be provided vi
 * [Add and Remove Table Borders](../tables/add-and-remove-table-borders.md)
 * [Customize a Style of Cell Borders](../tables/customize-a-style-of-cell-borders.md)
 * [Set Background Color of Cells](../tables/set-background-color-of-cells.md)
+* [Rotate Table Cell Content](../tables/rotate-table-cell-content.md)
 
 ## Picture Tools / Format
 
