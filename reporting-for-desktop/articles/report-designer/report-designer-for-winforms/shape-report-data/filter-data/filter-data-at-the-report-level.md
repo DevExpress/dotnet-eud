@@ -16,7 +16,7 @@ This tutorial illustrates how to filter data at the report level, as opposed to 
 
 4. Click the report's smart tag and click the **Filter String** property's ellipsis button.
 
-    In the invoked [FilterString Editor](../../../../filter-editor.md), construct an expression in which the data fields are compared with the required values.
+    In the invoked [FilterString Editor](/interface-elements-for-desktop/articles/filter-editor.md), construct an expression in which the data fields are compared with the required values.
 
     ![](../../../../../images/eurd-win-filter-data-report-level-filter-string.png)
 

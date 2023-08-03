@@ -24,5 +24,5 @@ These settings affect the layout of the report's design surface. After their mod
 
 ![](../../../../images/eurd-win-report-controls-printing-warning.png)
 
-You can also modify the page settings in [Print Preview](../preview-print-and-export-reports.md) using the [Page Setup](..//interface-elements-for-desktop/articles/print-preview/print-preview-for-winforms/printing-and-page-setup/change-printing-settings-via-the-page-setup-dialog.md) dialog. 
+You can also modify the page settings in [Print Preview](../preview-print-and-export-reports.md) using the [Page Setup](/interface-elements-for-desktop/articles/print-preview/print-preview-for-winforms/printing-and-page-setup/change-printing-settings-via-the-page-setup-dialog.md) dialog. 
 

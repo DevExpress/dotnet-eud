@@ -19,7 +19,6 @@ Click on the element you are interested in for more information.
 * [PDF Viewer](pdf-viewer.md)
 * [Pivot Table](pivot-table.md)
 * [Print Preview](print-preview.md)
-* [Report Designer](report-designer.md)
 * [Ribbon](ribbon.md)
 * [Rich Text Editor](rich-text-editor.md)
 * [Scheduler](scheduler.md)
