@@ -4,12 +4,14 @@ author: Eugeniy Burmistrov
 legacyId: 12427
 ---
 # Snap Reporting Engine
+This guide provides information on the basic principles of creating reports with Snap.
 
-> [!WARNING]
-> Snap for WinForms is in maintenance support mode. No new features or capabilities will be incorporated into this product. We recommend that you use DevExpress Reporting tool to generate, edit, print, and export business reports/documents.
->
-> If you’ve used the Snap for WinForms in the past and want to migrate to DevExpress Reports, please use the following free conversion tool/example to convert your SNX reports (Snap document files) to REPX files (DevExpress Reports files).
->
->[View Example: Snap – Convert Your SNX Reports to REPX Files](https://github.com/DevExpress-Examples/snap-convert-snx-to-repx)
->
-> Use the version selector to view Snap Documentation for v21.2 and earlier.
+Snap is a WYSIWYG reporting engine that provides a user interface that allows for a quick creation of standard reports with the capabilities of data shaping (grouping, sorting and filtering), hierarchical data representation (master-detail reports), mail merge and much more.
+
+![snap-eud-root](../images/img23911.png)
+
+The following sections are available in this guide.
+* [Graphical User Interface](snap-reporting-engine/graphical-user-interface.md)
+* [Connect to Data](snap-reporting-engine/connect-to-data.md)
+* [Create a Report Layout](snap-reporting-engine/create-a-report-layout.md)
+* [Manage Documents and Files](snap-reporting-engine/manage-documents-and-files.md)

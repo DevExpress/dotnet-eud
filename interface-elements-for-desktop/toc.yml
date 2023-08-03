@@ -670,7 +670,7 @@
         - name: QR Code
           href: articles/report-designer/report-designer-for-winforms/use-report-elements/use-bar-codes/qr-code.md
         - name: SSCC (Serial Shipping Container Code)
-          href: articles/report-designer/report-designer-for-winforms/use-report-elements/use-bar-codes/sscc.md
+          href: articles/report-designer/use-report-elements/use-report-elements/use-bar-codes/sscc.md
         - name: UPC Shipping Container Symbol (ITF-14)
           href: articles/report-designer/report-designer-for-winforms/use-report-elements/use-bar-codes/upc-shipping-container-symbol-itf-14.md
         - name: UPC Supplemental 2
@@ -1419,8 +1419,6 @@
       href: articles/rich-text-editor/tables/set-table-properties.md
     - name: Wrap Text Around a Table
       href: articles/rich-text-editor/tables/wrap-text-around-a-table.md
-    - name: Rotate table Cell Content
-      href: articles/rich-text-editor/tables/rotate-table-cell-content.md
   - name: Header and Footer
     href: articles/rich-text-editor/header-and-footer.md
   - name: Footnotes and Endnotes
@@ -1518,6 +1516,115 @@
     href: articles/scheduler/printing.md
 - name: Snap Reporting Engine
   href: articles/snap-reporting-engine.md
+  items:
+  - name: Graphical User Interface
+    href: articles/snap-reporting-engine/graphical-user-interface.md
+    items:
+    - name: Main Toolbar
+      href: articles/snap-reporting-engine/graphical-user-interface/main-toolbar.md
+      items:
+      - name: 'Data Tools: Field'
+        href: articles/snap-reporting-engine/graphical-user-interface/main-toolbar/data-tools-field.md
+      - name: 'Data Tools: Group'
+        href: articles/snap-reporting-engine/graphical-user-interface/main-toolbar/data-tools-group.md
+      - name: 'Data Tools: List'
+        href: articles/snap-reporting-engine/graphical-user-interface/main-toolbar/data-tools-list.md
+      - name: 'Data Tools: Mail Merge'
+        href: articles/snap-reporting-engine/graphical-user-interface/main-toolbar/data-tools-mail-merge.md
+      - name: 'Data Tools: Appearance'
+        href: articles/snap-reporting-engine/graphical-user-interface/main-toolbar/data-tools-appearance.md
+      - name: 'General Tools: File'
+        href: articles/snap-reporting-engine/graphical-user-interface/main-toolbar/general-tools-file.md
+      - name: 'General Tools: Insert'
+        href: articles/snap-reporting-engine/graphical-user-interface/main-toolbar/general-tools-insert.md
+      - name: 'General Tools: View'
+        href: articles/snap-reporting-engine/graphical-user-interface/main-toolbar/general-tools-view.md
+      - name: 'General Tools: References'
+        href: articles/snap-reporting-engine/graphical-user-interface/main-toolbar/general-tools-references.md
+      - name: 'Table Tools: Design'
+        href: articles/snap-reporting-engine/graphical-user-interface/main-toolbar/table-tools-design.md
+      - name: 'Table Tools: Layout'
+        href: articles/snap-reporting-engine/graphical-user-interface/main-toolbar/table-tools-layout.md
+      - name: 'General Tools: Home'
+        href: articles/snap-reporting-engine/graphical-user-interface/main-toolbar/general-tools-home.md
+      - name: 'General Tools: Page Layout'
+        href: articles/snap-reporting-engine/graphical-user-interface/main-toolbar/general-tools-page-layout.md
+      - name: 'General Tools: Review'
+        href: articles/snap-reporting-engine/graphical-user-interface/main-toolbar/general-tools-review.md
+      - name: 'Chart Tools: Design'
+        href: articles/snap-reporting-engine/graphical-user-interface/main-toolbar/chart-tools-design.md
+      - name: 'Header and Footer Tools: Design'
+        href: articles/snap-reporting-engine/graphical-user-interface/main-toolbar/header-and-footer-tools-design.md
+      - name: 'Picture Tools: Format'
+        href: articles/snap-reporting-engine/graphical-user-interface/main-toolbar/picture-tools-format.md
+    - name: Snap Application Elements
+      href: articles/snap-reporting-engine/graphical-user-interface/snap-application-elements.md
+      items:
+      - name: Snap User Interface Overview
+        href: articles/snap-reporting-engine/graphical-user-interface/snap-application-elements/snap-user-interface-overview.md
+      - name: Main Toolbar
+        href: articles/snap-reporting-engine/graphical-user-interface/snap-application-elements/main-toolbar.md
+      - name: Design Surface
+        href: articles/snap-reporting-engine/graphical-user-interface/snap-application-elements/design-surface.md
+      - name: Data Explorer
+        href: articles/snap-reporting-engine/graphical-user-interface/snap-application-elements/data-explorer.md
+      - name: Report Explorer
+        href: articles/snap-reporting-engine/graphical-user-interface/snap-application-elements/report-explorer.md
+      - name: Print Preview
+        href: articles/snap-reporting-engine/graphical-user-interface/snap-application-elements/print-preview.md
+  - name: Connect to Data
+    href: articles/snap-reporting-engine/connect-to-data.md
+    items:
+    - name: Connect a Document to a Data Source
+      href: articles/snap-reporting-engine/connect-to-data/connect-a-document-to-a-data-source.md
+    - name: Create a Master-Detail Data Source
+      href: articles/snap-reporting-engine/connect-to-data/create-a-master-detail-data-source.md
+    - name: Filter Data
+      href: articles/snap-reporting-engine/connect-to-data/filter-data.md
+    - name: Format Data
+      href: articles/snap-reporting-engine/connect-to-data/format-data.md
+    - name: Group Data
+      href: articles/snap-reporting-engine/connect-to-data/group-data.md
+    - name: Sort Data
+      href: articles/snap-reporting-engine/connect-to-data/sort-data.md
+    - name: Pass Parameter Values
+      href: articles/snap-reporting-engine/connect-to-data/pass-parameter-values.md
+    - name: Use Calculated Fields
+      href: articles/snap-reporting-engine/connect-to-data/use-calculated-fields.md
+    - name: Use the Query Builder
+      href: articles/snap-reporting-engine/connect-to-data/use-the-query-builder.md
+  - name: Create a Report Layout
+    href: articles/snap-reporting-engine/create-a-report-layout.md
+    items:
+    - name: Create a Mail-Merge Report
+      href: articles/snap-reporting-engine/create-a-report-layout/create-a-mail-merge-report.md
+    - name: Create a Master-Detail Report
+      href: articles/snap-reporting-engine/create-a-report-layout/create-a-master-detail-report.md
+    - name: Create a Table Report
+      href: articles/snap-reporting-engine/create-a-report-layout/create-a-table-report.md
+    - name: Create a Multi-Column Report
+      href: articles/snap-reporting-engine/create-a-report-layout/create-a-multi-column-report.md
+    - name: Create a Side-by-Side Report
+      href: articles/snap-reporting-engine/create-a-report-layout/create-a-side-by-side-report.md
+    - name: Create a Parameterized Report
+      href: articles/snap-reporting-engine/create-a-report-layout/create-a-parameterized-report.md
+    - name: Create a Chart-Based Report
+      href: articles/snap-reporting-engine/create-a-report-layout/create-a-chart-based-report.md
+    - name: Create a Combined Report Layout
+      href: articles/snap-reporting-engine/create-a-report-layout/create-a-combined-report-layout.md
+  - name: Manage Documents and Files
+    href: articles/snap-reporting-engine/manage-documents-and-files.md
+    items:
+    - name: Create a New Report
+      href: articles/snap-reporting-engine/manage-documents-and-files/create-a-new-report.md
+    - name: Storing Reports
+      href: articles/snap-reporting-engine/manage-documents-and-files/storing-reports.md
+    - name: Save a Report
+      href: articles/snap-reporting-engine/manage-documents-and-files/save-a-report.md
+    - name: Open an Existing Report
+      href: articles/snap-reporting-engine/manage-documents-and-files/open-an-existing-report.md
+    - name: Export a Report
+      href: articles/snap-reporting-engine/manage-documents-and-files/export-a-report.md
 - name: Spreadsheet
   href: articles/spreadsheet.md
   items:
