@@ -670,7 +670,7 @@
         - name: QR Code
           href: articles/report-designer/report-designer-for-winforms/use-report-elements/use-bar-codes/qr-code.md
         - name: SSCC (Serial Shipping Container Code)
-          href: articles/report-designer/report-designer-for-winforms/use-report-elements/use-report-elements/use-bar-codes/sscc.md
+          href: articles/report-designer/report-designer-for-winforms/use-report-elements/use-bar-codes/sscc.md
         - name: UPC Shipping Container Symbol (ITF-14)
           href: articles/report-designer/report-designer-for-winforms/use-report-elements/use-bar-codes/upc-shipping-container-symbol-itf-14.md
         - name: UPC Supplemental 2
