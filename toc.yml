@@ -10,4 +10,9 @@
 - name: Interface Elements for Web
   href: interface-elements-for-web/
   topicHref: interface-elements-for-web/articles/index.md
-  
+- name: Reporting for Desktop
+  href: reporting-for-desktop/
+  topicHref: reporting-for-desktop/articles/index.md
+- name: Reporting for Web
+  href: reporting-for-web/
+  topicHref: reporting-for-web/articles/index.md
