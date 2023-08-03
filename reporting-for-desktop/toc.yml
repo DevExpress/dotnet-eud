@@ -1,6 +1,6 @@
-- name: Report Designer
-  href: articles/report-designer.md
-  items:
+# - name: Report Designer
+#   href: articles/report-designer.md
+#   items:
   - name: Report Designer for WinForms
     href: articles/report-designer/report-designer-for-winforms.md 
     items:
