@@ -10,7 +10,6 @@ The **Rich Text** control can be accompanied by a set of toolbars that provide a
 ## Common
 
 ![RTEBarsCommon](../../../images/img121460.jpg)
-
 * [Create a New Document](../file-operations/create-a-new-document.md)
 * [Load a Document](../file-operations/load-a-document.md)
 * [Save a Document](../file-operations/save-a-document.md)
