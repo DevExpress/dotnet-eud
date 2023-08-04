@@ -1,10 +1,12 @@
 ---
-title: Reporting for Web
-author: Polina Tyureva
-legacyId: 15757
+title: Report Designer
+author: Anna Gubareva
 ---
-# Reporting for Web
+# Report Designer
+This documentation section contains information about the basic principles of creating reports with Report Designers.
 
-The **DevExpress Dashboard** is an interactive data visualization tool optimized for real-time data consumption and analysis. It includes the following components:
+The Report Designer user interface may vary depending on your application platform.
 
-* [Report Designer](report-designer.md) - provides a comprehensive UI for designing dashboards from scratch.
+The following topics are available in this section.
+* [Report Designer for WinForms](report-designer/report-designer-for-winforms.md)
+* [Report Designer for WPF](report-designer/report-designer-for-wpf.md)
