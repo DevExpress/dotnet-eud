@@ -139,27 +139,20 @@ Enable the **Allow Markup Text** property to format the label's text with markup
 
 **Label** supports the following tags:
 
-| Tag | End Tag | Description |
-| --- | ------- | ----------- |
-| **&lt;br&gt;** |   | Inserts a single line break. Enable the **WordWrap** property to use this tag. |
-| **&lt;nbsp&gt;** | - | Inserts a space. |
-| **&lt;color**=_value_**&gt;** | **&lt;/color&gt;** | Specifies the text color. |
-| **&lt;backcolor**=_value_**&gt;** | **&lt;/backcolor&gt;** | Specifies the background color. |
-| **&lt;size**=_value_**&gt;** | **&lt;/size&gt;** | Specifies the font size. |
-| **&lt;b&gt;** | **&lt;/b&gt;** | Defines bold text. |
-| **&lt;i&gt;** | **&lt;/i&gt;** | Defines italic text. |
-| **&lt;s&gt;** | **&lt;/s&gt;** | Defines strikethrough text. |
-| **&lt;u&gt;** | **&lt;/u&gt;** | Defines underlined text. |
-| **&lt;image=**_value_**&gt;**  | - | Inserts an image from the report's named image collection. Supports both raster images and SVG images. Use the report's **Image Resources** property to provide images and reference them by their **Id**. The **image** tag's **size** attribute sets the image display pixel size. If the specified width/height exceeds the label's width/height, it is reduced to display the entire image. Specify the **size** attribute after the tag's value followed by the ";" character. |
-| **&lt;href=**_value_**&gt;** | **&lt;/href&gt;** | Displays a hyperlink. The value string specifies the hyperlink source, and the string between the opening and closing tags is the text to display. |
-
-When a report is exported to XLS or XLSX, the following rich-text content is converted from labels into Excel-native rich-text content:
-
-| | |
-| --- | --- |
-| Text format | \<b>, \<i>, \<u>, \<s> |
-| Line break | \<br> |
-| Non-breaking space | \<nbsp> |
-| Font | \<font=**[font name]**> |
-| Font size | \<size=**[font size]**> |
-| Foreground color | \<color=**[color]**> |
+| Tag | End Tag |  Supported in XLS / XLSX Export| Supported in DOCX Export| Description |
+| --- | ------- | --- | --- | ----------- |
+| **&lt;br&gt;** | **&lt;/br&gt;**  | ![](../../../../../images/yes.png) | ![](../../../../../images/yes.png) |Inserts a single line break. Enable the **WordWrap** property to use this tag. |
+| **&lt;nbsp&gt;** | - | ![](../../../../../images/yes.png) |![](../../../../../images/yes.png) | Inserts a space. |
+| **&lt;color**=_value_**&gt;** | **&lt;/color&gt;** | ![](../../../../../images/yes.png) | ![](../../../../../images/yes.png) | Specifies the text color. |
+| **&lt;backcolor**=_value_**&gt;** | **&lt;/backcolor&gt;** | |![](../../../../../images/yes.png) | Specifies the background color. |
+| **&lt;size**=_value_**&gt;** | **&lt;/size&gt;** | ![](../../../../../images/yes.png) |![](../../../../../images/yes.png)| Specifies the font size. |
+| **&lt;b&gt;** | **&lt;/b&gt;** | ![](../../../../../images/yes.png) | ![](../../../../../images/yes.png) | Defines bold text. |
+| **&lt;i&gt;** | **&lt;/i&gt;** | ![](../../../../../images/yes.png) | ![](../../../../../images/yes.png) |Defines italic text. |
+| **&lt;s&gt;** | **&lt;/s&gt;** | ![](../../../../../images/yes.png) | ![](../../../../../images/yes.png) |Defines strikethrough text. |
+| **&lt;u&gt;** | **&lt;/u&gt;** | ![](../../../../../images/yes.png) | ![](../../../../../images/yes.png) | Defines underlined text. |
+|**&lt;r&gt;**|**&lt;/r&gt;**||![](../../../../../images/yes.png)| Defines regular text. This resets any bold, italic, underlined, or strikethrough formats specified with tags or applied in the control’s appearance settings.|
+|**&lt;sub&gt;**|**&lt;/sub&gt;**|| ![](../../../../../images/yes.png)| Specifies that the text is smaller and displayed lower than the previous character. Export to DOCX does not support nested sub elements. For example, double subscript: 2&lt;sub&gt;2&lt;sub&gt;2&lt;/sub&gt;&lt;/sub&gt;|
+|**&lt;sup&gt;**|**&lt;/sup&gt;**|| ![](../../../../../images/yes.png)|Defines that the text is smaller and displayed higher than the previous character. Export to DOCX does not support nested sup elements. For example, double superscript: 2&lt;sup&gt;2&lt;sup&gt;2&lt;/sup&gt;&lt;/sup&gt;|
+| **&lt;image=**_value_**&gt;**  | - |![](../../../../../images/yes.png) |![](../../../../../images/yes.png) | Inserts an image from the report's named image collection. Supports both raster images and SVG images. Use the report's **Image Resources** property to provide images and reference them by their **Id**. The **image** tag's **size** attribute sets the image display pixel size. If the specified width/height exceeds the label's width/height, it is reduced to display the entire image. Specify the **size** attribute after the tag's value followed by the ";" character. |
+| **&lt;href=**_value_**&gt;** | **&lt;/href&gt;** | |![](../../../../../images/yes.png) | Displays a hyperlink. The value string specifies the hyperlink source, and the string between the opening and closing tags is the text to display. |
+|**&lt;font&gt;**|**&lt;/font&gt;**|![](../../../../../images/yes.png)|![](../../../../../images/yes.png)|Specifies the font family. You can combine it with the color and size settings within a single tag.|

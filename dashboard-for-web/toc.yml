@@ -58,6 +58,8 @@
         href: articles/web-dashboard-designer-mode/dashboard-item-settings/chart/legend.md
       - name: Axes
         href: articles/web-dashboard-designer-mode/dashboard-item-settings/chart/axes.md
+      - name: Trend Indicators
+        href: articles/web-dashboard-designer-mode/dashboard-item-settings/chart/trend-indicators.md
       - name: Orientation
         href: articles/web-dashboard-designer-mode/dashboard-item-settings/chart/orientation.md
       - name: Conditional Formatting

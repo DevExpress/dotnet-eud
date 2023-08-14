@@ -128,6 +128,19 @@ This control supports the following image size modes:
 
 You can also use the **Image Alignment** property in the **Normal**, **Squeeze** and **Zoom Image** modes to specify the alignment in relation to the control's boundaries.
 
+## Image Orientation
+
+The **Use Image Metadata** option allows you to specify whether to take into account the Exif metadata orientation of the image displayed in the **Picture Box** control. 
+
+The Exif orientation property helps applications display the image in its intended orientation, regardless of how it was captured by the camera. This property contains a numerical value that specifies how much a saved image should be rotated to achieve a correct viewing angle.
+
+For example, if you capture a photo in portrait mode (holding the camera vertically), the camera may save the image in a landscape orientation. This can lead to the image appearing sideways or upside down when viewed on a computer or other devices.
+
+When you set **Use Image Metadata** to true, the **Picture Box** control reads the orientation property value and displays the image according to this value.
+
+The example below illustrates the use of the **Use Image Metadata** option. The **Picture Box** displays an image whose orientation in Exif metadata is 90 degrees clockwise. If you enable the **Use Image Metadata** option property, the image is rotated 90 degrees clockwise to orientate it correctly.
+
+![XRPictureBox image orientation](../../../../../images/picture-box-use-image-metadata-example.png)
 ## Interactivity
 
 You can add a possibility to load/change an image and/or draw a signature in a picture box when it is displayed in Print Preview. To do this, enable the **Edit Options** | **Enabled** property.
