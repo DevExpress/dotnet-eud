@@ -110,7 +110,9 @@
         - name: X-Axis
           href: articles/dashboard-designer/dashboard-item-settings/chart/axes/x-axis.md
         - name: Y-Axis
-          href: articles/dashboard-designer/dashboard-item-settings/chart/axes/y-axis.md
+          href: articles/dashboard-designer/dashboard-item-settings/chart/axes/y-axis.md  
+      - name: Trend Indicators
+        href: articles/dashboard-designer/dashboard-item-settings/chart/trend-indicators.md    
       - name: Orientation
         href: articles/dashboard-designer/dashboard-item-settings/chart/orientation.md
       - name: Conditional Formatting

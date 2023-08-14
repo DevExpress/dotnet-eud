@@ -27,6 +27,9 @@ This section is divided into the following subsections.
 * [Axes](chart/axes.md)
 	
 	Describes how to customize settings related to chart axes.
+* [Trend Indicators](chart/trend-indicators.md)
+
+	Describes how to create trend indicators and display them in Chart dashboard items.
 * [Orientation](chart/orientation.md)
 	
 	Describes how to toggle the chart's orientation.

@@ -25,8 +25,11 @@ This section is divided into the following subsections.
 	
 	Describes coloring capabilities of the Chart dashboard item.
 * [Axes](chart/axes.md)
-	
+
 	Describes how to customize settings related to chart axes.
+* [Trend Indicators](chart/trend-indicators.md)
+	
+	Describes how to create trend indicators and display them in Chart dashboard items.
 * [Legend](chart/legend.md)
 	
 	Describes the chart legend and its options.
