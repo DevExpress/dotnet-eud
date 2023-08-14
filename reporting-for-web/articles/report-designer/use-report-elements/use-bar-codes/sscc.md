@@ -13,7 +13,7 @@ This unique identifier is composed of an Extension Digit, a GS1 Company Prefix, 
 
 1. Drag the **Barcode** item from the report controls toolbox tab and drop it onto the report. 
 
-    ![](../../../../images/drag-and-drop-barcode.png)
+    ![](../../../../images/eurd-web-add-bar-code-to-report.png)
 
 2. Set the control’s **Symbology** property to **SSCC**. 
 

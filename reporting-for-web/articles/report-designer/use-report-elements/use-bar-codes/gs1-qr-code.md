@@ -6,7 +6,7 @@ author: Polina Tyureva
 
 **GS1 QR Code** is a variant of the [QR Code](https://en.wikipedia.org/wiki/QR_code) symbology that conforms to [GS1 General Specification](https://www.gs1.org/standards/barcodes-epcrfid-id-keys/gs1-general-specifications).
 
-![](../../../../../images/barcode-gs1-qr-code.png)
+![](../../../../images/barcode-gs1-qr-code.png)
 
 ## Add the Barcode to a Report
 
