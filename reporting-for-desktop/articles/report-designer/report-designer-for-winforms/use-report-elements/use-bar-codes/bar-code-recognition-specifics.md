@@ -11,15 +11,15 @@ Selecting an appropriate barcode type (symbology) depends on your specific busin
 
 In general, consider using [Barcode 2 of 5 Interleaved](interleaved-2-of-5.md) for encoding digits and [Barcode 39](code-39-usd-3.md) for encoding the full range of ASCII characters.
 
-## Insert the Function Code One Character (FNC1) or the Application Identifier into a Barcode
+## Insert the Function Code Characters (FNC) or the Application Identifier into a Barcode
+
 Some encodings enable you to insert a special **FNC1** character for separating application identifiers from the rest of the barcode.
 
 According to the **GS1** specification, the **FNC1** character is always inserted at the first position of the encoded data. Other identifiers can be inserted manually using the default "**#**" character.
 
 Although you can use any ASCII character as the **FNC1** placeholder, it will not be a part of the encoded data as it does not have any direct ASCII representation.
 
-> [!NOTE]
-> For the [Code 128](code-128.md) symbology, only **FNC1** characters are currently supported. At present, there is no way to define **FNC2** - **4** characters for this barcode.
+For the [Code 128](code-128.md) symbology, you can also define **FNC2-4** characters.
 
 For the list of the available application identifiers, refer to the official documentation at [www.gs1.org](http://www.gs1.org/).
 
