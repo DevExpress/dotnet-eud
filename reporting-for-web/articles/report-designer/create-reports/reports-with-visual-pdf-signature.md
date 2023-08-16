@@ -38,7 +38,7 @@ Open **Preview** to show the result.
 
 You can sign a report with a visual signature on export to PDF if an application contains an available signature. To sign the report on export, select a signature from the **Signature** drop-down list in [PDF Export Options](../../document-viewer/exporting/pdf-specific-export-options.md).
 
-You can also sign the exported document in a PDF editor. To so this, follow the steps below:
+You can also sign the exported document in a PDF editor. To do this, follow the steps below:
 
 1. In **Preview**, expand the list with export formats and select **PDF**.
 
