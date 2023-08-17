@@ -7,6 +7,11 @@ The **Report Explorer** shows a report structure in a tree-like form and provide
 
 ![RD_Elements_ReportExplorer](../../../../../images/eurd-win-report-explorer.png)
 
+## Search fields
+
+Enter a search string in the search box. The Report Explorer filters report elements, styles, and data sources to match the entered string.
+
+![Report Explorer - Search](../../../../../images/eurd-win-field-list-search.png)
 ## Report Bands and Controls
 
 Bands and controls are listed in a hierarchical tree-like structure.
