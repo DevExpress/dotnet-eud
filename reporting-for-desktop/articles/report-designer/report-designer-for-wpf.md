@@ -10,6 +10,10 @@ The Report Designer allows you to create new reports from scratch, bind them to 
 
 ![EndUserReportFDesignerForWPF](../../images/img120311.png)
 
+
+> [!NOTE]
+> The WPF End-User Report Designer does not support code completion.
+
 Different aspects of using the Report Designer are covered in the following documentation sections.
 * [Creating Reports](report-designer-for-wpf/creating-reports.md)
 	

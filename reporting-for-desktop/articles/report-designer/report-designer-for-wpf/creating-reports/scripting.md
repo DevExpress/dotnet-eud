@@ -7,9 +7,9 @@ legacyId: 116357
 This document describes the basic principles of _scripting_, which can be performed by handling the events of a report, and its [bands](../report-elements/report-bands.md) and [controls](../report-elements/report-controls.md).
 
 This documents consists of the following sections.
-* [Scripting Overview](#overview)
-* [Maintaining Scripts](#maintain)
-* [Example: Custom Summary](#example)
+- [Scripting](#scripting)
+  - [Scripting Overview](#scripting-overview)
+  - [Maintaining Scripts](#maintaining-scripts)
 
 <a name="overview"/>
 
@@ -40,77 +40,3 @@ After the event is specified, a code template is automatically generated in the 
 To check for errors in the report's script, click the **Validate** button. The validation result is displayed in the errors panel at the bottom of the Script Editor. Double-click the error item in the panel's list to go to the corresponding line of code. If all scripts are valid, the errors panel is empty.
 
 ![WPFDesigner_ScriptErrorPanel](../../../../images/img123171.png)
-
-<a name="example"/>
-
-## <a name="example"/>Example: Custom Summary
-This example demonstrates how to display the total number of product unit packs in a group.
-
-To perform this, execute steps similar to the ones described in [Calculating Summaries](shaping-data/calculating-summaries.md), except that for the summary field, you should set the **Function** property to **Custom**.
-
-![EUD_WpfReportDesigner_Scripting_1](../../../../images/img123899.png)
-
-Then, the additional events are added to the label's **Scripts** property.
-
-![EUD_WpfReportDesigner_Scripting_2](../../../../images/img123900.png)
-
-You can handle these events in the following way.
-
-**C#**
-
-```csharp
-
-// Declare a summary and a pack.
-double totalUnits = 0;
-double pack = 15;
-
-private void label1_SummaryReset(object sender, System.EventArgs e) {
-    // Reset the result each time a group is printed.
-    totalUnits = 0;
-}
-
-private void label1_SummaryRowChanged(object sender, System.EventArgs e) {
-    // Calculate a summary.
-    totalUnits += Convert.ToDouble(GetCurrentColumnValue("UnitsOnOrder"));
-}
-
-private void label1_SummaryGetResult(object sender, 
-DevExpress.XtraReports.UI.SummaryGetResultEventArgs e) {
-    // Round the result, so that a pack will be taken into account 
-    // even if it contains only one unit.
-    e.Result = Math.Ceiling(totalUnits / pack);
-    e.Handled = true;
-}
-
-```
-**VB.NET**
-
-```vb
-
-' Declare a summary and a pack.
-Private totalUnits As Double = 0
-Private pack As Double = 15
-
-Private Sub label1_SummaryReset(ByVal sender As Object, ByVal e As System.EventArgs)
-    ' Reset the result each time a group is printed.
-    totalUnits = 0
-End Sub
-
-Private Sub label1_SummaryRowChanged(ByVal sender As Object, ByVal e As System.EventArgs)
-    ' Calculate a summary.
-    totalUnits += Convert.ToDouble(GetCurrentColumnValue("UnitsOnOrder"))
-End Sub
-
-Private Sub label1_SummaryGetResult(ByVal sender As Object,  _ 
-ByVal e As DevExpress.XtraReports.UI.SummaryGetResultEventArgs)
-    ' Round the result, so that a pack will be taken into account 
-    ' even if it contains only one unit.
-    e.Result = Math.Ceiling(totalUnits / pack)
-    e.Handled = True
-End Sub
-
-```
-
-Finally, switch to the [Print Preview](../document-preview.md) tab and view the result.
-
-![EUD_WpfReportDesigner_Scripting_3](../../../../images/img123901.png)
