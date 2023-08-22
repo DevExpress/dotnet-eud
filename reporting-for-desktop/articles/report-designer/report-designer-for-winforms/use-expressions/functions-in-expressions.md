@@ -41,8 +41,7 @@ This topic lists the functions that you can use in an [expression](expressions-o
 | DateDiffTick(startDate, endDate) | Returns the number of tick boundaries between two non-nullable dates. | DateDiffTick([StartTime], Now()) |
 | DateDiffYear(startDate, endDate) | Returns the number of year boundaries between two non-nullable dates. | DateDiffYear([StartTime], Now())   |
 | DateTimeFromParts(Year, Month, Day, Hour, Minute, Second, Millisecond) |
-Returns a date value constructed from the specified Year, Month, Day, Hour, Minute, Second, and Millisecond.
-| DateTimeFromParts(2018, 5, 5, 20) |
+Returns a date value constructed from the specified Year, Month, Day, Hour, Minute, Second, and Millisecond. | DateTimeFromParts(2018, 5, 5, 20) |
 | GetDate(DateTime) | Extracts a date from the defined DateTime. | GetDate([OrderDateTime])   |
 | GetDay(DateTime) | Extracts a day from the defined DateTime. | GetDay([OrderDate])   |
 | GetDayOfWeek(DateTime) | Extracts a day of the week from the defined DateTime. | GetDayOfWeek([OrderDate])   |
