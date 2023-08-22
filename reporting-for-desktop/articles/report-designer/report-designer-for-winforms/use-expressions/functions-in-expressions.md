@@ -314,7 +314,7 @@ Use the following functions when you [calculate a summary](../shape-report-data/
   Calculates the carried forward and brought forward totals.
 
   ```
-  sumCarryoverSum([ShipVia])
+  sumCarryoverSum([Amount])
   ```
 
 
