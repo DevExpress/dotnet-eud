@@ -1,0 +1,166 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Reference Report Parameters | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Reference Report Parameters | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../index.html">
+                <img id="logo" class="svg" src="../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="reference-report-parameters">Reference Report Parameters</h1>
+
+<p>After you <a href="create-a-report-parameter.html">create a report parameter</a>, you can reference this parameter in the <a href="#reference-in-a-reports-filter-string">report&#39;s filter string</a>, <a href="#reference-in-expressions">in expressions</a>, and <a href="#reference-in-a-controls-text-property">in a control&#39;s Text property</a>. You can also bind control and data source parameters to report parameters. Refer to the sections below for more details.</p>
+<h2 id="reference-in-a-reports-filter-string">Reference in a Report&#39;s Filter String</h2>
+<p>You can reference a report parameter in the report&#39;s filter string. This allows you to conditionally filter the report&#39;s data loaded from a data source.</p>
+<p><img src="../../../images/reference-parameter-in-report-filter-string.png" alt="reference parameter in report filter string"></p>
+<div class="TIP"><h5>Tip</h5><p>When you use a report&#39;s filter string to filter data, all the data is loaded from a data source before the filter is applied. If you use a large dataset, filter data at the data source level. Refer to the following topic for more information: <a href="../shape-report-data/filter-data/filter-data-at-the-data-source-level.html">Filter Data at the Data Source Level</a>. </p>
+</div>
+<h2 id="reference-in-expressions">Reference in Expressions</h2>
+<p>You can reference a report parameter in <a href="../use-expressions.html">expressions</a> of <a href="../use-report-elements/use-basic-report-controls.html">controls</a> and <a href="../shape-report-data/use-calculated-fields/calculated-fields-overview.html">calculated fields</a>.</p>
+<p><img src="../../../images/report-parameters-reference-in-expression.png" alt="Reference report parameters in expressions"></p>
+<p>This allows you to conditionally change the data a control or calculated field displays.</p>
+<p>You can use the <a href="../report-designer-tools/ui-panels/field-list.html">Field List</a> to create an <a href="../use-report-elements/use-basic-report-controls/label.html">Label</a> control that displays only a parameter value. To do this, drag the parameter from the <strong>Field List</strong> and drop it onto the report&#39;s band.</p>
+<p><img src="../../../images/reference-parameter-drag-and-drop.png" alt="Drag and drop a report parameter"></p>
+<p>You can also use parameters in expressions to specify the visibility of a report&#39;s bands or conditionally change a control&#39;s appearance. Refer to the following topics for more information:</p>
+<ul>
+<li><a href="../shape-report-data/specify-conditions-for-report-elements/conditionally-change-a-bands-visibility-expression-bindings.html">Conditionally Change a Band&#39;s Visibility</a></li>
+<li><a href="../shape-report-data/specify-conditions-for-report-elements/conditionally-change-a-control-appearance.html">Conditionally Change a Control&#39;s Appearance</a></li>
+</ul>
+<h2 id="reference-in-a-controls-text-property">Reference in a Control&#39;s Text Property</h2>
+<p>You can use a report parameter in a control&#39;s <strong>Text</strong> property.</p>
+<p><img src="../../../images/report-parameters-reference-in-text-property.png" alt="Reference a parameter in a control&#39;s Text property (Designer)"></p>
+<p>This allows you to create a placeholder (embedded field) that is substituted by a parameter value. </p>
+<p><img src="../../../images/report-parameters-reference-in-text-preview.png" alt="Reference a parameter in a control&#39;s Text property (Preview)"></p>
+<p>Refer to the following topic for information on embedded fields: <a href="../use-report-elements/use-embedded-fields-mail-merge.html">Use Embedded Fields (Mail Merge)</a>.</p>
+<h2 id="bind-control-parameters-to-report-parameters">Bind Control Parameters to Report Parameters</h2>
+<p>You can create parameters for the <a href="../create-reports/cross-tab-reports.html">CrossTab</a> and <a href="../use-report-elements/use-charts/use-charts-in-reports.html">Chart</a> controls and bind these parameters to report parameters. This allows you to conditionally filter data at the control level. Refer to the following topic for details on how to filter data for the <strong>Сhart</strong> control: <a href="../use-report-elements/use-charts/use-charts-to-visualize-grouped-data.html">Use Charts to Visualize Grouped Data</a>.</p>
+<p>You can also specify a parameter for the <a href="../use-report-elements/use-basic-report-controls/subreport.html">Subreport</a> control and bind this parameter to report parameters. This allows you to pass parameter values from the main report to the subreport and conditionally change the subreport&#39;s data and appearance.</p>
+<h2 id="bind-data-source-parameters-to-report-parameters">Bind Data Source Parameters to Report Parameters</h2>
+<p>You can create parameters for data sources and bind them to report parameters. The table below contains information about which tasks this allows you to solve, a data source for which the task can be solved, and links to documentation sections you can reference for details.</p>
+<table>
+<thead>
+<tr>
+<th>Task</th>
+<th>Data Source</th>
+<th>Documentation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Filter data at the data source level</strong></td>
+<td>SQL Data Source</td>
+<td><a href="../bind-to-data/bind-a-report-to-a-database.html">Bind a Report to a Database</a></td>
+</tr>
+<tr>
+<td><strong>Pass report parameters to a stored procedure</strong></td>
+<td>SQL Data Source</td>
+<td><a href="../bind-to-data/specify-query-parameters.html">Specify Query Parameters</a></td>
+</tr>
+<tr>
+<td><strong>Pass report parameters to a method that loads data</strong></td>
+<td>Object Data Source</td>
+<td><a href="../bind-to-data/bind-a-report-to-an-object-data-source.html">Bind a Report to an Object Data Source</a></td>
+</tr>
+</tbody>
+</table>
+<p>When you bind a report to the JSON Data Source, you can specify a URI from which a JSON file should be loaded. You can bind path parameters, query parameters, and header parameters to report parameters to conditionally configure HTTP requests to the web service endpoint. Refer to the following topic for details: <a href="../bind-to-data/bind-a-report-to-json-data.html">Bind a Report to JSON Data</a>.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/23.1/reporting-for-web/articles/report-designer/use-report-parameters/reference-report-parameters.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2023 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../styles/main.js"></script>
+  </body>
+</html>

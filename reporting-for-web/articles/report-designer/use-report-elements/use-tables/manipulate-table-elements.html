@@ -1,0 +1,147 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Manipulate Table Elements | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Manipulate Table Elements | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="../../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../../index.html">
+                <img id="logo" class="svg" src="../../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="manipulate-table-elements">Manipulate Table Elements</h1>
+
+<h2 id="select-table-elements">Select Table Elements</h2>
+<p>You can click a table cell to select it and <a href="../manipulate-report-elements/select-report-elements-and-access-their-settings.html">access its settings</a>. To select multiple cells, hold the CTRL key and click cells.</p>
+<p><img src="../../../../images/eurd-web-table-control-multiple-selected-cells.png" alt=""></p>
+<p>Use the arrow that appears when a mouse cursor hovers over the table edges to select an entire row or column.</p>
+<p><img src="../../../../images/eurd-web-table-control-select-rows-and-columns.png" alt=""></p>
+<p>Draw a rectangle around the table to select the whole control.</p>
+<p>The <a href="../../report-designer-tools/ui-panels/properties-panel.html">Properties</a> panel enables you to select the table element or the entire table and access their properties.</p>
+<h2 id="resize-table-elements">Resize Table Elements</h2>
+<p>You can resize a table or its cell by dragging the rectangle drawn on its edge or corner. </p>
+<p>Resizing a column changes the next column&#39;s width without affecting the other columns (keeps the table dimensions intact).</p>
+<p><img src="../../../../images/eurd-web-table-control-column-resizing.png" alt=""></p>
+<p>Resizing a row changes the next row&#39;s width without affecting the other rows (keeps the table dimensions intact).</p>
+<p><img src="../../../../images/eurd-web-table-control-row-resizing.png" alt=""></p>
+<p>You can set the same size for multiple table columns or rows. Select the required rows or the whole table, right-click the selected area and choose <strong>Distribute Rows Evenly</strong>.</p>
+<p><img src="../../../../images/eurd-web-table-control-distribute-rows-evenly.png" alt=""></p>
+<p>If the cell&#39;s content is partially visible in the resulting row, this row automatically increases its height to fit its content and also adjusts the other rows accordingly.</p>
+<p>You can resize columns equally in a similar way by selecting the columns or the table itself and choosing <strong>Distribute Columns Evenly</strong> in the context menu.</p>
+<p><img src="../../../../images/eurd-web-table-control-distribute-columns-evenly.png" alt=""></p>
+<h2 id="reorder-table-rows-and-cells">Reorder Table Rows and Cells</h2>
+<p>You can change the order of table rows and cells. Switch to the <a href="../../report-designer-tools/ui-panels/report-explorer.html">Report Explorer</a>, select a row or cell and drag it to a new position.</p>
+<p><img src="../../../../images/eurd-web-reorder-table-rows.gif" alt=""></p>
+<p>The Report Explorer highlights the possible drop targets when you drag an element over them.</p>
+<div class="NOTE"><h5>Note</h5><p>You can move table rows and cells only within the same parent control.</p>
+</div>
+<h2 id="stretch-table-cells">Stretch Table Cells</h2>
+<p>You can stretch a cell to occupy several rows and columns.</p>
+<ul>
+<li><p>Stretch a cell across several columns<br>Press DELETE or select the <strong>Delete Cell</strong> command in the <strong>Action</strong> category to remove a neighboring cell.</p>
+<p><img src="../../../../images/eurd-web-table-control-cell-column-span.png" alt=""></p>
+</li>
+<li><p>Stretch a cell across several rows<br>Use a table cell&#39;s <strong>Row Span</strong> property to specify the number of rows the table cell spans.</p>
+<p><img src="../../../../images/eurd-web-table-control-cell-rows-span.png" alt=""></p>
+<div class="NOTE"><h5>Note</h5><p>For the <strong>RowSpan</strong> property to work properly, the spanned cells should have the same width.</p>
+</div>
+</li>
+</ul>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/23.1/reporting-for-web/articles/report-designer/use-report-elements/use-tables/manipulate-table-elements.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2023 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../../styles/main.js"></script>
+  </body>
+</html>

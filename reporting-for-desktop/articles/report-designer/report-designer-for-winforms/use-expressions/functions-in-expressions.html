@@ -1,0 +1,1011 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Functions in Expressions | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Functions in Expressions | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="../../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../../index.html">
+                <img id="logo" class="svg" src="../../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="functions-in-expressions">Functions in Expressions</h1>
+
+<p>This topic lists the functions that you can use in an <a href="expressions-overview.html">expression</a>.</p>
+<h2 id="aggregate-functions">Aggregate Functions</h2>
+<table>
+<thead>
+<tr>
+<th>Function</th>
+<th>Description</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Avg(Value)</td>
+<td>Evaluates the average of the values in the collection.</td>
+<td>[Products].Avg([UnitPrice])</td>
+</tr>
+<tr>
+<td>Count()</td>
+<td>Returns the number of objects in a collection.</td>
+<td>[Products].Count()</td>
+</tr>
+<tr>
+<td>Exists()</td>
+<td>Determines whether the object exists in the collection.</td>
+<td>[Categories][[CategoryID] == 7].Exists()</td>
+</tr>
+<tr>
+<td>Max(Value)</td>
+<td>Returns the maximum expression value in a collection.</td>
+<td>[Products].Max([UnitPrice])</td>
+</tr>
+<tr>
+<td>Min(Value)</td>
+<td>Returns the minimum expression value in a collection.</td>
+<td>[Products].Min([UnitPrice])</td>
+</tr>
+<tr>
+<td>Single()</td>
+<td>Returns an object if it is the only element in a collection.</td>
+<td>[Accounts].Single() is not null</td>
+</tr>
+<tr>
+<td>Single(Expression)</td>
+<td>You can pass an expression as a parameter: <em>[Collection][Condition].Single(Expression)</em>. This function returns the <em>Expression</em> if the <em>Collection</em> contains only one object that meets the specified <em>Condition</em> (optional).</td>
+<td>[Collection].Single([Property1]) - returns the found object&#39;s property value.</td>
+</tr>
+<tr>
+<td>Sum(Value)</td>
+<td>Returns the sum of all expression values in the collection.</td>
+<td>[Products].Sum([UnitsInStock])</td>
+</tr>
+</tbody>
+</table>
+<h2 id="date-and-time-functions">Date and Time Functions</h2>
+<table>
+<thead>
+<tr>
+<th>Function</th>
+<th>Description</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>AddDays(DateTime, DaysCount)</td>
+<td>Returns a date-time value that is the specified number of days from the specified DateTime.</td>
+<td>AddDays([OrderDate], 30)</td>
+</tr>
+<tr>
+<td>AddHours(DateTime, HoursCount)</td>
+<td>Returns a date-time value that is the specified number of hours from the specified DateTime.</td>
+<td>AddHours([StartTime], 2)</td>
+</tr>
+<tr>
+<td>AddMilliSeconds(DateTime, MilliSecondsCount)</td>
+<td>Returns a date-time value that is the specified number of milliseconds from the specified DateTime.</td>
+<td>AddMilliSeconds(([StartTime], 5000))</td>
+</tr>
+<tr>
+<td>AddMinutes(DateTime, MinutesCount)</td>
+<td>Returns a date-time value that is the specified number of minutes from the specified DateTime.</td>
+<td>AddMinutes([StartTime], 30)</td>
+</tr>
+<tr>
+<td>AddMonths(DateTime, MonthsCount)</td>
+<td>Returns a date-time value that is the specified number of months from the specified DateTime.</td>
+<td>AddMonths([OrderDate], 1)</td>
+</tr>
+<tr>
+<td>AddSeconds(DateTime, SecondsCount)</td>
+<td>Returns a date-time value that is the specified number of seconds from the specified DateTime.</td>
+<td>AddSeconds([StartTime], 60)</td>
+</tr>
+<tr>
+<td>AddTicks(DateTime, TicksCount)</td>
+<td>Returns a date-time value that is the specified number of ticks from the specified DateTime.</td>
+<td>AddTicks([StartTime], 5000)</td>
+</tr>
+<tr>
+<td>AddTimeSpan(DateTime, TimeSpan)</td>
+<td>Returns a date-time value that is from the specified DateTime for the given TimeSpan.</td>
+<td>AddTimeSpan([StartTime], [Duration])</td>
+</tr>
+<tr>
+<td>AddYears(DateTime, YearsCount)</td>
+<td>Returns a date-time value that is the specified number of years from the specified DateTime.</td>
+<td>AddYears([EndDate], -1)</td>
+</tr>
+<tr>
+<td>DateDiffDay(startDate, endDate)</td>
+<td>Returns the number of day boundaries between two non-nullable dates.</td>
+<td>DateDiffDay([StartTime], Now())</td>
+</tr>
+<tr>
+<td>DateDiffHour(startDate, endDate)</td>
+<td>Returns the number of hour boundaries between two non-nullable dates.</td>
+<td>DateDiffHour([StartTime], Now())</td>
+</tr>
+<tr>
+<td>DateDiffMilliSecond(startDate, endDate)</td>
+<td>Returns the number of millisecond boundaries between two non-nullable dates.</td>
+<td>DateDiffMilliSecond([StartTime], Now())</td>
+</tr>
+<tr>
+<td>DateDiffMinute(startDate, endDate)</td>
+<td>Returns the number of minute boundaries between two non-nullable dates.</td>
+<td>DateDiffMinute([StartTime], Now())</td>
+</tr>
+<tr>
+<td>DateDiffMonth(startDate, endDate)</td>
+<td>Returns the number of month boundaries between two non-nullable dates.</td>
+<td>DateDiffMonth([StartTime], Now())</td>
+</tr>
+<tr>
+<td>DateDiffSecond(startDate, endDate)</td>
+<td>Returns the number of second boundaries between two non-nullable dates.</td>
+<td>DateDiffSecond([StartTime], Now())</td>
+</tr>
+<tr>
+<td>DateDiffTick(startDate, endDate)</td>
+<td>Returns the number of tick boundaries between two non-nullable dates.</td>
+<td>DateDiffTick([StartTime], Now())</td>
+</tr>
+<tr>
+<td>DateDiffYear(startDate, endDate)</td>
+<td>Returns the number of year boundaries between two non-nullable dates.</td>
+<td>DateDiffYear([StartTime], Now())</td>
+</tr>
+<tr>
+<td>DateTimeFromParts(Year, Month, Day, Hour, Minute, Second, Millisecond)</td>
+<td>Returns a date value constructed from the specified Year, Month, Day, Hour, Minute, Second, and Millisecond.</td>
+<td>DateTimeFromParts(2018, 5, 5, 20)</td>
+</tr>
+<tr>
+<td>GetDate(DateTime)</td>
+<td>Extracts a date from the defined DateTime.</td>
+<td>GetDate([OrderDateTime])</td>
+</tr>
+<tr>
+<td>GetDay(DateTime)</td>
+<td>Extracts a day from the defined DateTime.</td>
+<td>GetDay([OrderDate])</td>
+</tr>
+<tr>
+<td>GetDayOfWeek(DateTime)</td>
+<td>Extracts a day of the week from the defined DateTime.</td>
+<td>GetDayOfWeek([OrderDate])</td>
+</tr>
+<tr>
+<td>GetDayOfYear(DateTime)</td>
+<td>Extracts a day of the year from the defined DateTime.</td>
+<td>GetDayOfYear([OrderDate])</td>
+</tr>
+<tr>
+<td>GetHour(DateTime)</td>
+<td>Extracts an hour from the defined DateTime.</td>
+<td>GetHour([StartTime])</td>
+</tr>
+<tr>
+<td>GetMilliSecond(DateTime)</td>
+<td>Extracts milliseconds from the defined DateTime.</td>
+<td>GetMilliSecond([StartTime])</td>
+</tr>
+<tr>
+<td>GetMinute(DateTime)</td>
+<td>Extracts minutes from the defined DateTime.</td>
+<td>GetMinute([StartTime])</td>
+</tr>
+<tr>
+<td>GetMonth(DateTime)</td>
+<td>Extracts a month from the defined DateTime.</td>
+<td>GetMonth([StartTime])</td>
+</tr>
+<tr>
+<td>GetSecond(DateTime)</td>
+<td>Extracts seconds from the defined DateTime.</td>
+<td>GetSecond([StartTime])</td>
+</tr>
+<tr>
+<td>GetTimeOfDay(DateTime)</td>
+<td>Extracts the time of day from the defined DateTime in ticks.</td>
+<td>GetTimeOfDay([StartTime])</td>
+</tr>
+<tr>
+<td>GetYear(DateTime)</td>
+<td>Extracts a year from the defined DateTime.</td>
+<td>GetYear([StartTime])</td>
+</tr>
+<tr>
+<td>IsApril(DateTime)</td>
+<td>Returns True if the specified date falls within April.</td>
+<td>IsApril([OrderDate])</td>
+</tr>
+<tr>
+<td>IsAugust(DateTime)</td>
+<td>Returns True if the specified date falls within August.</td>
+<td>IsAugust([OrderDate])</td>
+</tr>
+<tr>
+<td>IsDecember(DateTime)</td>
+<td>Returns True if the specified date falls within December.</td>
+<td>IsDecember([OrderDate])</td>
+</tr>
+<tr>
+<td>IsFebruary(DateTime)</td>
+<td>Returns True if the specified date falls within February.</td>
+<td>IsFebruary([OrderDate])</td>
+</tr>
+<tr>
+<td>IsJanuary(DateTime)</td>
+<td>Returns True if the specified date falls within January.</td>
+<td>IsJanuary([OrderDate])</td>
+</tr>
+<tr>
+<td>IsJuly(DateTime)</td>
+<td>Returns True if the specified date falls within July.</td>
+<td>IsJuly([OrderDate])</td>
+</tr>
+<tr>
+<td>IsJune(DateTime)</td>
+<td>Returns True if the specified date falls within June.</td>
+<td>IsJune([OrderDate])</td>
+</tr>
+<tr>
+<td>IsLastMonth(DateTime)</td>
+<td>Returns True if the specified date falls within the previous month.</td>
+<td>IsLastMonth([OrderDate])</td>
+</tr>
+<tr>
+<td>IsLastYear(DateTime)</td>
+<td>Returns True if the specified date falls within the previous year.</td>
+<td>IsLastYear([OrderDate])</td>
+</tr>
+<tr>
+<td>IsMarch(DateTime)</td>
+<td>Returns True if the specified date falls within March.</td>
+<td>IsMarch([OrderDate])</td>
+</tr>
+<tr>
+<td>IsMay(DateTime)</td>
+<td>Returns True if the specified date falls within May.</td>
+<td>IsMay([OrderDate])</td>
+</tr>
+<tr>
+<td>IsNextMonth(DateTime)</td>
+<td>Returns True if the specified date falls within the next month.</td>
+<td>IsNextMonth([OrderDate])</td>
+</tr>
+<tr>
+<td>IsNextYear(DateTime)</td>
+<td>Returns True if the specified date falls within the next year.</td>
+<td>IsNextYear([OrderDate])</td>
+</tr>
+<tr>
+<td>IsNovember(DateTime)</td>
+<td>Returns True if the specified date falls within November.</td>
+<td>IsNovember([OrderDate])</td>
+</tr>
+<tr>
+<td>IsOctober(DateTime)</td>
+<td>Returns True if the specified date falls within October.</td>
+<td>IsOctober([OrderDate])</td>
+</tr>
+<tr>
+<td>IsSameDay(DateTime)</td>
+<td>Returns True if the specified date/time values fall within the same day.</td>
+<td>IsSameDay([OrderDate])</td>
+</tr>
+<tr>
+<td>IsSeptember(DateTime)</td>
+<td>Returns True if the specified date falls within September.</td>
+<td>IsSeptember([OrderDate])</td>
+</tr>
+<tr>
+<td>IsThisMonth(DateTime)</td>
+<td>Returns True if the specified date falls within the current month.</td>
+<td>IsThisMonth([OrderDate])</td>
+</tr>
+<tr>
+<td>IsThisWeek(DateTime)</td>
+<td>Returns True if the specified date falls within the current week.</td>
+<td>IsThisWeek([OrderDate])</td>
+</tr>
+<tr>
+<td>IsYearToDate(DateTime)</td>
+<td>Returns True if the specified date falls within the year-to-date period. This period starts from the first day of the current year and continues to the current date (including the current date).</td>
+<td>IsYearToDate([OrderDate])</td>
+</tr>
+<tr>
+<td>IsThisYear(DateTime)</td>
+<td>Returns True if the specified date falls within the current year.</td>
+<td>IsThisYear([OrderDate])</td>
+</tr>
+<tr>
+<td>LocalDateTimeDayAfterTomorrow()</td>
+<td>Returns a date-time value corresponding to the day after Tomorrow.</td>
+<td>AddDays(LocalDateTimeDayAfterTomorrow(), 5)</td>
+</tr>
+<tr>
+<td>LocalDateTimeLastMonth()</td>
+<td>Returns a DateTime value corresponding to the first day of the previous month.</td>
+<td>AddMonths(LocalDateTimeLastMonth(), 5)</td>
+</tr>
+<tr>
+<td>LocalDateTimeLastWeek()</td>
+<td>Returns a date-time value corresponding to the first day of the previous week.</td>
+<td>AddDays(LocalDateTimeLastWeek(), 5)</td>
+</tr>
+<tr>
+<td>LocalDateTimeLastYear()</td>
+<td>Returns a DateTime value corresponding to the first day of the previous year.</td>
+<td>AddYears(LocalDateTimeLastYear(), 5)</td>
+</tr>
+<tr>
+<td>LocalDateTimeNextMonth()</td>
+<td>Returns a date-time value corresponding to the first day of the next month.</td>
+<td>AddMonths(LocalDateTimeNextMonth(), 5)</td>
+</tr>
+<tr>
+<td>LocalDateTimeNextWeek()</td>
+<td>Returns a date-time value corresponding to the first day of the following week.</td>
+<td>AddDays(LocalDateTimeNextWeek(), 5)</td>
+</tr>
+<tr>
+<td>LocalDateTimeNextYear()</td>
+<td>Returns a date-time value corresponding to the first day of the following year.</td>
+<td>AddYears(LocalDateTimeNextYear(), 5)</td>
+</tr>
+<tr>
+<td>LocalDateTimeNow()</td>
+<td>Returns a date-time value corresponding to the current moment in time.</td>
+<td>AddDays(LocalDateTimeNow(), 5)</td>
+</tr>
+<tr>
+<td>LocalDateTimeThisMonth()</td>
+<td>Returns a date-time value corresponding to the first day of the current month.</td>
+<td>AddMonths(LocalDateTimeThisMonth(), 5)</td>
+</tr>
+<tr>
+<td>LocalDateTimeThisWeek()</td>
+<td>Returns a date-time value corresponding to the first day of the current week.</td>
+<td>AddDays(LocalDateTimeThisWeek(), 5)</td>
+</tr>
+<tr>
+<td>LocalDateTimeThisYear()</td>
+<td>Returns a date-time value corresponding to the first day of the current year.</td>
+<td>AddYears(LocalDateTimeThisYear(), 5)</td>
+</tr>
+<tr>
+<td>LocalDateTimeToday()</td>
+<td>Returns a date-time value corresponding to Today.</td>
+<td>AddDays(LocalDateTimeToday(), 5)</td>
+</tr>
+<tr>
+<td>LocalDateTimeTomorrow()</td>
+<td>Returns a date-time value corresponding to Tomorrow.</td>
+<td>AddDays(LocalDateTimeTomorrow(), 5)</td>
+</tr>
+<tr>
+<td>LocalDateTimeTwoMonthsAway()</td>
+<td>Returns a DateTime value corresponding to the first day of the following month.</td>
+<td>AddMonths(LocalDateTimeTwoMonthAway(), 5)</td>
+</tr>
+<tr>
+<td>LocalDateTimeTwoWeeksAway()</td>
+<td>Returns a DateTime value corresponding to the first day of the following week.</td>
+<td>AddDays(LocalDateTimeTwoWeeksAway(), 5)</td>
+</tr>
+<tr>
+<td>LocalDateTimeTwoYearsAway()</td>
+<td>Returns a DateTime value corresponding to the first day of the following year.</td>
+<td>AddYears(LocalDateTimeTwoYearsAway(), 5)</td>
+</tr>
+<tr>
+<td>LocalDateTimeYearBeforeToday()</td>
+<td>Returns a DateTime value corresponding to the same date one year ago.</td>
+<td>AddYears(LocalDateTimeYearBeforeToday(), 5)</td>
+</tr>
+<tr>
+<td>LocalDateTimeYesterday()</td>
+<td>Returns a date-time value corresponding to Yesterday.</td>
+<td>AddDays(LocalDateTimeYesterday(), 5)</td>
+</tr>
+<tr>
+<td>Now()</td>
+<td>Returns the current system date and time.</td>
+<td>AddDays(Now(), 5)</td>
+</tr>
+<tr>
+<td>Today()</td>
+<td>Returns the current date. Regardless of the actual time, this function returns midnight of the current date.</td>
+<td>AddMonths(Today(), 1)</td>
+</tr>
+<tr>
+<td>UtcNow()</td>
+<td>Returns the current system date and time, expressed as Coordinated Universal Time (UTC).</td>
+<td>AddDays(UtcNow(), 7)</td>
+</tr>
+</tbody>
+</table>
+<h2 id="logical-functions">Logical Functions</h2>
+<ul>
+<li><p>Iif(Expression1, True_Value1, ..., ExpressionN, True_ValueN, False_Value)<br>Returns one of several specified values depending upon the values of logical expressions.</p>
+<p>The function can take <em>2N+1</em> arguments (<em>N</em> - the number of specified logical expressions):</p>
+<ul>
+<li><p>Each odd argument specifies a logical expression.</p>
+</li>
+<li><p>Each even argument specifies the value that is returned if the previous expression evaluates to <strong>True</strong>.</p>
+</li>
+<li><p><strong>...</strong></p>
+</li>
+<li><p>The last argument specifies the value that is returned if the previously evaluated logical expressions yielded <strong>False</strong>.</p>
+<pre><code>Iif(Name = &#39;Bob&#39;, 1, Name = &#39;Dan&#39;, 2, Name = &#39;Sam&#39;, 3, 4)&quot;)
+</code></pre></li>
+</ul>
+</li>
+<li><p>IsNull(Value)<br>Returns True if the specified Value is NULL.</p>
+<pre><code>IsNull([OrderDate])
+</code></pre></li>
+<li><p>IsNull(Value1, Value2)<br>Returns Value1 if it is not set to NULL; otherwise, Value2 is returned.</p>
+<pre><code>IsNull([ShipDate], [RequiredDate])
+</code></pre></li>
+<li><p>IsNullOrEmpty(String)<br>Returns True if the specified String object is NULL or an empty string; otherwise, False is returned.</p>
+<pre><code>IsNullOrEmpty([ProductName])
+</code></pre></li>
+</ul>
+<h2 id="math-functions">Math Functions</h2>
+<table>
+<thead>
+<tr>
+<th>Function</th>
+<th>Description</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Abs(Value)</td>
+<td>Returns the given numeric expression&#39;s absolute, positive value.</td>
+<td>Abs(1 - [Discount])</td>
+</tr>
+<tr>
+<td>Acos(Value)</td>
+<td>Returns a number&#39;s arccosine (the angle in radians, whose cosine is the given float expression).</td>
+<td>Acos([Value])</td>
+</tr>
+<tr>
+<td>Asin(Value)</td>
+<td>Returns a number&#39;s arcsine (the angle in radians, whose sine is the given float expression).</td>
+<td>Asin([Value])</td>
+</tr>
+<tr>
+<td>Atn(Value)</td>
+<td>Returns a number&#39;s arctangent (the angle in radians, whose tangent is the given float expression).</td>
+<td>Atn([Value])</td>
+</tr>
+<tr>
+<td>Atn2(Value1, Value2)</td>
+<td>Returns the angle whose tangent is the quotient of two specified numbers in radians.</td>
+<td>Atn2([Value1], [Value2])</td>
+</tr>
+<tr>
+<td>BigMul(Value1, Value2)</td>
+<td>Returns an Int64 containing the full product of two specified 32-bit numbers.</td>
+<td>BigMul([Amount], [Quantity])</td>
+</tr>
+<tr>
+<td>Ceiling(Value)</td>
+<td>Returns the smallest integer that is greater than or equal to the numeric expression.</td>
+<td>Ceiling([Value])</td>
+</tr>
+<tr>
+<td>Cos(Value)</td>
+<td>Returns the angle&#39;s cosine, in radians.</td>
+<td>Cos([Value])</td>
+</tr>
+<tr>
+<td>Cosh(Value)</td>
+<td>Returns the angle&#39;s hyperbolic cosine, in radians.</td>
+<td>Cosh([Value])</td>
+</tr>
+<tr>
+<td>Exp(Value)</td>
+<td>Returns the float expression&#39;s exponential value.</td>
+<td>Exp([Value])</td>
+</tr>
+<tr>
+<td>Floor(Value)</td>
+<td>Returns the largest integer less than or equal to the numeric expression.</td>
+<td>Floor([Value])</td>
+</tr>
+<tr>
+<td>Log(Value)</td>
+<td>Returns a specified number&#39;s natural logarithm.</td>
+<td>Log([Value])</td>
+</tr>
+<tr>
+<td>Log(Value, Base)</td>
+<td>Returns the logarithm of a specified number in a specified Base.</td>
+<td>Log([Value], 2)</td>
+</tr>
+<tr>
+<td>Log10(Value)</td>
+<td>Returns a specified number&#39;s base 10 logarithm.</td>
+<td>Log10([Value])</td>
+</tr>
+<tr>
+<td>Max(Value1, Value2)</td>
+<td>Returns the maximum value from the specified values.</td>
+<td>Max([Value1], [Value2])</td>
+</tr>
+<tr>
+<td>Min(Value1, Value2)</td>
+<td>Returns the minimum value from the specified values.</td>
+<td>Min([Value1], [Value2])</td>
+</tr>
+<tr>
+<td>Power(Value, Power)</td>
+<td>Returns a specified number raised to a specified power.</td>
+<td>Power([Value], 3)</td>
+</tr>
+<tr>
+<td>Rnd()</td>
+<td>Returns a random number that is less than 1, but greater than or equal to zero.</td>
+<td>Rnd()*100</td>
+</tr>
+<tr>
+<td>Round(Value)</td>
+<td>Rounds the given value to the nearest integer.</td>
+<td>Round([Value])</td>
+</tr>
+<tr>
+<td>Round(Value, Precision)</td>
+<td>Rounds the given value to the nearest integer, or to a specified number of decimal places.</td>
+<td>Round([Value], 2)</td>
+</tr>
+<tr>
+<td>Sign(Value)</td>
+<td>Returns the positive (+1), zero (0), or negative (-1) sign of the given expression.</td>
+<td>Sign([Value])</td>
+</tr>
+<tr>
+<td>Sin(Value)</td>
+<td>Returns the sine of the angle defined in radians.</td>
+<td>Sin([Value])</td>
+</tr>
+<tr>
+<td>Sinh(Value)</td>
+<td>Returns the hyperbolic sine of the angle defined in radians.</td>
+<td>Sinh([Value])</td>
+</tr>
+<tr>
+<td>Sqr(Value)</td>
+<td>Returns the square root of a given number.</td>
+<td>Sqr([Value])</td>
+</tr>
+<tr>
+<td>Tan(Value)</td>
+<td>Returns the tangent of the angle defined in radians.</td>
+<td>Tan([Value])</td>
+</tr>
+<tr>
+<td>Tanh(Value)</td>
+<td>Returns the hyperbolic tangent of the angle defined in radians.</td>
+<td>Tanh([Value])</td>
+</tr>
+<tr>
+<td>ToDecimal(Value)</td>
+<td>Converts Value to an equivalent decimal number.</td>
+<td>ToDecimal([Value])</td>
+</tr>
+<tr>
+<td>ToDouble(Value)</td>
+<td>Converts Value to an equivalent 64-bit double-precision floating-point number.</td>
+<td>ToDouble([Value])</td>
+</tr>
+<tr>
+<td>ToFloat(Value)</td>
+<td>Converts Value to an equivalent 32-bit single-precision floating-point number.</td>
+<td>ToFloat([Value])</td>
+</tr>
+<tr>
+<td>ToInt(Value)</td>
+<td>Converts Value to an equivalent 32-bit signed integer.</td>
+<td>ToInt([Value])</td>
+</tr>
+<tr>
+<td>ToLong(Value)</td>
+<td>Converts Value to an equivalent 64-bit signed integer.</td>
+<td>ToLong([Value])</td>
+</tr>
+</tbody>
+</table>
+<h2 id="reporting-functions">Reporting Functions</h2>
+<ul>
+<li><p>Argb(Alpha, Red, Green, Blue)<br>Returns a string defining a color using the Alpha, Red, Green, and Blue color channel values.</p>
+<pre><code>Argb(1,200, 30, 200)  
+/* Result: &#39;1,200,30,200&#39;*/
+</code></pre></li>
+<li><p>GetDisplayText(?parameterName)<br>Returns a Display Text for a parameter&#39;s lookup value.</p>
+<p>For <strong>non-lookup parameters</strong>, this function returns a value converted to string.</p>
+<pre><code>/* ?employeeParameter stores static or dynamic predefined values  
+where EmployeeID is a parameter value  
+and EmployeeName is a display text. */  
+GetDisplayText(?employeeParameter)
+</code></pre></li>
+<li><p>Rgb(Red, Green, Blue)<br>Returns a string defining a color using the Red, Green, and Blue color channel values.</p>
+<pre><code>Rgb(30,200,150)  
+/* Result: &#39;30,200,150&#39; */
+</code></pre></li>
+</ul>
+<h2 id="string-functions">String Functions</h2>
+<table>
+<thead>
+<tr>
+<th>Function</th>
+<th>Description</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ascii(String)</td>
+<td>Returns the ASCII code value of the leftmost character in a character expression.</td>
+<td>Ascii(&#39;a&#39;)</td>
+</tr>
+<tr>
+<td>Char(Number)</td>
+<td>Converts an integerASCIICode to a character.</td>
+<td>Char(65) + Char(51)</td>
+</tr>
+<tr>
+<td>CharIndex(String1, String2)</td>
+<td>Returns the starting position of String1 within String2, beginning from the zero character position to the end of a string.</td>
+<td>CharIndex(&#39;e&#39;, &#39;devexpress&#39;)</td>
+</tr>
+<tr>
+<td>CharIndex(String1, String2, StartLocation)</td>
+<td>Returns the starting position of String1 within String2, beginning from the StartLocation character position to the end of a string.</td>
+<td>CharIndex(&#39;e&#39;, &#39;devexpress&#39;, 2)</td>
+</tr>
+<tr>
+<td>Concat(String1, ... , StringN)</td>
+<td>Returns a string value containing the concatenation of the current string with any additional strings.</td>
+<td>Concat(&#39;A&#39;, &#39;)&#39;, [ProductName])</td>
+</tr>
+<tr>
+<td>Contains(String1, SubString1)</td>
+<td>Returns True if SubString1 occurs within String1; otherwise, False is returned.</td>
+<td>Contains([ProductName], &#39;dairy&#39;)</td>
+</tr>
+<tr>
+<td>EndsWith(String1, SubString1)</td>
+<td>Returns True if the end of String1 matches SubString1; otherwise, False is returned.</td>
+<td>EndsWith([Description], &#39;The end.&#39;)</td>
+</tr>
+<tr>
+<td>Insert(String1, StartPosition, String2)</td>
+<td>Inserts String2 into String1 at the position specified by StartPositon</td>
+<td>Insert([Name], 0, &#39;ABC-&#39;)</td>
+</tr>
+<tr>
+<td>Len(Value)</td>
+<td>Returns an integer containing either the number of characters in a string or the nominal number of bytes required to store a variable.</td>
+<td>Len([Description])</td>
+</tr>
+<tr>
+<td>Lower(String)</td>
+<td>Returns String in lowercase.</td>
+<td>Lower([ProductName])</td>
+</tr>
+<tr>
+<td>PadLeft(String, Length)</td>
+<td>Left-aligns the defined string&#39;s characters, padding its left side with white space characters up to a specified total length.</td>
+<td>PadLeft([Name], 30)</td>
+</tr>
+<tr>
+<td>PadLeft(String, Length, Char)</td>
+<td>Left-aligns the defined string&#39;s characters, padding its left side with the specified Char up to a specified total length.</td>
+<td>PadLeft([Name], 30, &#39;&lt;&#39;)</td>
+</tr>
+<tr>
+<td>PadRight(String, Length)</td>
+<td>Right-aligns the defined string�s characters, padding its left side with empty space characters up to a specified total length.</td>
+<td>PadRight([Name], 30)</td>
+</tr>
+<tr>
+<td>PadRight(String, Length, Char)</td>
+<td>Right-aligns the defined string�s characters, padding its left side with the specified Char up to a specified total length.</td>
+<td>PadRight([Name], 30, &#39;&gt;&#39;)</td>
+</tr>
+<tr>
+<td>Remove(String, StartPosition)</td>
+<td>Deletes all the characters from this instance, beginning at a specified position.</td>
+<td>Remove([Name], 3)</td>
+</tr>
+<tr>
+<td>Remove(String, StartPosition, Length)</td>
+<td>Deletes a specified number of characters from this instance, beginning at a specified position.</td>
+<td>Remove([Name], 0, 3)</td>
+</tr>
+<tr>
+<td>Replace(String1, SubString2, String3)</td>
+<td>Returns a copy of String1, in which SubString2 has been replaced with String3.</td>
+<td>Replace([Name], &#39;The &#39;, &#39;&#39;)</td>
+</tr>
+<tr>
+<td>Reverse(String)</td>
+<td>Reverses the order of elements within String.</td>
+<td>Reverse([Name])</td>
+</tr>
+<tr>
+<td>StartsWith(String1, SubString1)</td>
+<td>Returns True if the beginning of String1 matches SubString1; otherwise, False.</td>
+<td>StartsWith([Title], &#39;The best&#39;)</td>
+</tr>
+<tr>
+<td>Substring(String, StartPosition, Length)</td>
+<td>Retrieves a substring from String. The substring starts at StartPosition and has a specified Length.</td>
+<td>Substring([Description], 2, 3)</td>
+</tr>
+<tr>
+<td>Substring(String, StartPosition)</td>
+<td>Retrieves a substring from String. The substring starts at StartPosition.</td>
+<td>Substring([Description], 2)</td>
+</tr>
+<tr>
+<td>ToStr(Value)</td>
+<td>Returns a string representation of an object.</td>
+<td>ToStr([ID])</td>
+</tr>
+<tr>
+<td>Trim(String)</td>
+<td>Removes all leading and trailing SPACE characters from String.</td>
+<td>Trim([ProductName])</td>
+</tr>
+<tr>
+<td>Upper(String)</td>
+<td>Returns String in uppercase.</td>
+<td>Upper([ProductName])</td>
+</tr>
+</tbody>
+</table>
+<h2 id="functions-for-expression-bindings-and-calculated-fields">Functions for Expression Bindings and Calculated Fields</h2>
+<p>Below is a list of functions that are used to construct <a href="data-binding-modes.html">expression bindings</a> and <a href="../shape-report-data/use-calculated-fields/calculated-fields-overview.html">calculated fields</a>:</p>
+<ul>
+<li><p>NewLine()<br>Returns the newline string defined for the current environment.</p>
+<pre><code>[CategoryName]+NewLine()+[Description]
+/*
+Result:
+Beverages
+Soft drinks, coffees, teas, beers and ales.
+/*
+</code></pre></li>
+<li><p>FormatString(Format, Value1, ... , ValueN)<br>Returns the specified string with formatted field values.<br>See the following topic for details: <a href="../shape-report-data/format-data.html">Format Data</a>.</p>
+<pre><code>FormatString(&#39;{0:$0.00}&#39;, [UnitPrice])
+/*
+Result: $45.60
+*/
+</code></pre></li>
+<li><p>Rgb(Red, Green, Blue)<br>Returns a string defining a color using the Red, Green, and Blue color channel values.</p>
+<pre><code>Rgb(30,200,150)
+/*
+Result: &#39;30,200,150&#39;
+*/
+</code></pre></li>
+<li><p>Join()<br>Concatenates the <a href="../use-report-parameters/multi-value-report-parameters.html">multi-value report parameter</a>&#39;s values into a string. This function is useful when you <a href="../use-report-parameters/create-a-report-parameter.html">bind a multi-value parameter to a label</a> to display the parameter&#39;s values in a report.</p>
+<p>This function has two overloads:</p>
+<ul>
+<li>Join(parameter) - concatenates the specified parameter&#39;s values using a comma as a separator.</li>
+<li>Join(parameter, separator) - concatenates the specified parameter&#39;s values using the specified separator.
+```
+Join(?CategoriesParameter)
+/*
+Result: Beverages, Condiments
+<em>/
+Join(?CategoriesParameter, newline())
+/</em>
+Result:
+Beverages
+Condiments
+*/</li>
+</ul>
+</li>
+</ul>
+<h2 id="functions-for-stored-procedures">Functions for Stored Procedures</h2>
+<p>The following functions are used to <a href="../bind-to-data/bind-a-report-to-a-stored-procedure.html">bind a report to a stored procedure</a>:</p>
+<ul>
+<li><p>Join()<br>Concatenates the <a href="../use-report-parameters/multi-value-report-parameters.html">multi-value report parameter</a>&#39;s values into a string. This function can be used when mapping multi-value report parameters to query parameters generated from a stored procedure&#39;s parameters. Refer to the following topic for more information: <a href="../bind-to-data/specify-query-parameters.html">Query Parameters</a>.</p>
+<p>This function has two overloads:</p>
+<ul>
+<li>Join(parameter) - concatenates the specified parameter&#39;s values using a comma as a separator.</li>
+<li>Join(parameter, separator) - concatenates the specified parameter&#39;s values using the specified separator.
+<code>Join(?Parameter1)</code></li>
+</ul>
+</li>
+<li><p>CreateTable(Column1, ..., ColumnN)<br>Creates a table from several multi-value parameters&#39; values. This function can be used when mapping multi-value report parameters to the query parameter that is generated from a stored procedure&#39;s <a href="https://docs.microsoft.com/en-us/sql/relational-databases/tables/use-table-valued-parameters-database-engine">User Defined Table Type</a> parameter. Refer to the following topic for more information: <a href="../bind-to-data/specify-query-parameters.html">Query Parameters</a>.</p>
+<pre><code>CreateTable(?Parameter1, ..., ?ParameterN)
+</code></pre></li>
+</ul>
+<h2 id="functions-for-summary-expression-editor">Functions for Summary Expression Editor</h2>
+<p>Use the following functions when you <a href="../shape-report-data/calculate-summaries.html">calculate a summary</a> across a report and its groups:</p>
+<ul>
+<li><p>sumAvg(Expression)<br>Calculates the average of all values within the specified summary region (group, page, or report).</p>
+<pre><code>sumAvg([UnitPrice])
+</code></pre></li>
+<li><p>sumCarryoverSum(Expression)</p>
+<p>Calculates the carried forward and brought forward totals.</p>
+<pre><code>sumCarryoverSum([Amount])
+</code></pre></li>
+<li><p>sumCount(Expression)<br>Counts the number of values within the specified summary region (group, page, or report). In a simple scenario, you may not pass a parameter.</p>
+<p>When using this function in a <a href="../create-reports/master-detail-reports-with-detail-report-bands.html">master-detail report</a>&#39;s master band and passing a detail field as a parameter, the function counts the number of records within the detail band.</p>
+<p>See also:</p>
+<ul>
+<li><a href="../shape-report-data/count-elements-and-values/count-the-number-of-records-in-a-report-or-group.html">Count the Number of Records in a Report or Group</a></li>
+<li><a href="../shape-report-data/count-elements-and-values/count-the-number-of-groups-in-a-report.html">Count the Number of Groups in a Report</a>
+<code>sumCount([UnitPrice])</code></li>
+</ul>
+</li>
+<li><p>sumDAvg(Expression)<br>Calculates the average of all <strong>distinct</strong> values within the specified summary region (group, page, or report).</p>
+<pre><code>sumDAvg([UnitPrice])
+</code></pre></li>
+<li><p>sumDCount(Expression)<br>Counts the number of <strong>distinct</strong> values within the specified summary region (group, page, or report). In a simple scenario, you may not pass a parameter.</p>
+<pre><code>sumDCount([UnitPrice])
+</code></pre></li>
+<li><p>sumDStdDev(Expression)<br>Calculates the standard deviation of all <strong>distinct</strong> values within the specified summary region (group, page, or report).</p>
+<pre><code>sumDStdDev([UnitPrice])
+</code></pre></li>
+<li><p>sumDStdDevP(Expression)<br>Calculates the standard population deviation of all <strong>distinct</strong> values within the specified summary region (group, page, or report).</p>
+<pre><code>sumDStdDevP([UnitPrice])
+</code></pre></li>
+<li><p>sumDSum(Expression)<br>Calculates the total of all <strong>distinct</strong> values within the specified summary region (group, page, or report).</p>
+<pre><code>sumDSum([UnitPrice])
+</code></pre></li>
+<li><p>sumDVar(Expression)<br>Calculates the amount of variance for all <strong>distinct</strong> values within the specified summary region (group, page, or report).</p>
+<pre><code>sumDVar([UnitPrice])
+</code></pre></li>
+<li><p>sumDVarP(Expression)<br>Calculates the population variance of all <strong>distinct</strong> values within the specified summary region (group, page, or report).</p>
+<pre><code>sumDVarP([UnitPrice])
+</code></pre></li>
+<li><p>sumMax(Expression)<br>Calculates the maximum of all values within the specified summary region (group, page, or report).</p>
+<pre><code>sumMax([UnitPrice])
+</code></pre></li>
+<li><p>sumMedian(Expression)<br>Finds the middle number within a sequence.</p>
+<p>If the total number of elements is odd, this function returns the value of the middle number in a sequence. If the total number of elements is even, this function returns the arithmetical mean of the two middle numbers.</p>
+<pre><code>sumMedian([UnitPrice])
+</code></pre></li>
+<li><p>sumMin(Expression)<br>Calculates the minimum of all values within the specified summary region (group, page, or report).</p>
+<pre><code>sumMin([UnitPrice])
+</code></pre></li>
+<li><p>sumPercentage(Expression)<br>Calculates the percent ratio of the current data row&#39;s value to the total of all the values within the specified summary region (group, page, or report).</p>
+<pre><code>sumPercentage([UnitPrice])
+</code></pre></li>
+<li><p>sumRecordNumber(Expression)<br>Returns the current record number in the specified summary region (group, page, or report). This means, for instance, if the summary is calculated for a group, then the record number is calculated only within that group, and is reset every time a new group is started.</p>
+<p>In a simple scenario, you may not pass a parameter.</p>
+<p>See also: <a href="../shape-report-data/count-elements-and-values/display-row-numbers-in-a-report-group-or-page.html">Display Row Numbers on a Report, Group, or Page</a></p>
+<pre><code>sumRecordNumber()
+</code></pre></li>
+<li><p>sumRunningSum(Expression)<br>Calculates the sum of all previous values displayed before the current data row with the current data row value.</p>
+<pre><code>sumRunningSum([UnitPrice])
+</code></pre></li>
+<li><p>sumStdDev(Expression)<br>Calculates the standard deviation of all values within the specified summary region (group, page, or report).</p>
+<pre><code>sumStdDev([UnitPrice])
+</code></pre></li>
+<li><p>sumStdDevP(Expression)<br>Calculates the standard population deviation of all values within the specified summary region (group, page, or report).</p>
+<pre><code>sumStdDevP([UnitPrice])
+</code></pre></li>
+<li><p>sumSum(Expression)<br>Calculates the total of all values within the specified summary region (group, page, or report).</p>
+<pre><code>sumSum([UnitsInStock])
+</code></pre></li>
+<li><p>sumVar(Expression)<br>Calculates the amount of variance for all values within the specified summary region (group, page, or report).</p>
+<pre><code>sumVar([UnitPrice])
+</code></pre></li>
+<li><p>sumVarP(Expression)<br>Calculates the population variance of all values within the specified summary region (group, page, or report).</p>
+<pre><code>sumVarP([UnitPrice])
+</code></pre></li>
+<li><p>sumWAvg(Expression, Expression)<br>Calculates the weighted average of all values within the specified summary region (group, page, or report). This summary type returns the result of the following operation: Sum(Expression1 * Expression2) / Sum(Expression2).</p>
+<pre><code>sumWAvg([UnitPrice])
+</code></pre></li>
+</ul>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/23.1/reporting-for-desktop/articles/report-designer/report-designer-for-winforms/use-expressions/functions-in-expressions.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2023 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../../styles/main.js"></script>
+  </body>
+</html>

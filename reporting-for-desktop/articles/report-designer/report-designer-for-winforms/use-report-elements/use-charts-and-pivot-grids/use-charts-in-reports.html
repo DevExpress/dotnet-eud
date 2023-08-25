@@ -1,0 +1,174 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Use Charts in Reports | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Use Charts in Reports | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="../../../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../../../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../../../index.html">
+                <img id="logo" class="svg" src="../../../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="use-charts-in-reports">Use Charts in Reports</h1>
+
+<h2 id="overview">Overview</h2>
+<p>You can use the <strong>Chart</strong> control to add a chart to a report. This control provides 2D or 3D views to visualize data series (for instance, Bar, Point, Line, Pie and Doughnut, Area, etc.).</p>
+<table>
+<thead>
+<tr>
+<th>2D Series View</th>
+<th>3D Series View</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="../../../../../images/eurd-win-chart-2d-series-example.png" alt=""></td>
+<td><img src="../../../../../images/eurd-win-chart-3d-series-example.png" alt=""></td>
+</tr>
+</tbody>
+</table>
+<p>The <strong>Chart</strong> control can display multiple series.</p>
+<table>
+<thead>
+<tr>
+<th>Bar and Point Series</th>
+<th>Nested Doughnut Series</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="../../../../../images/eurd-win-chart-bar-and-point-series.png" alt=""></td>
+<td><img src="../../../../../images/eurd-win-chart-nested-doghnut-series.png" alt=""></td>
+</tr>
+</tbody>
+</table>
+<p>The <strong>Chart</strong> control contains various visual elements (diagrams, series, legends, primary and secondary axes, titles and labels, etc.). You can select these elements in the <strong>Report Designer</strong> and customize their settings in the <a href="../../report-designer-tools/ui-panels/property-grid-tabbed-view.html">Property Grid</a>.</p>
+<p>The Report Designer provides the Chart Designer that allows you to create and customize charts.</p>
+<p><img src="../../../../../images/eurd-win-chart-designer-ui.png" alt=""></p>
+<h2 id="bind-to-data">Bind to Data</h2>
+<p>To provide data to a chart, use the <strong>Data Source</strong> property.</p>
+<p>You can assign a <a href="../../create-reports/cross-tab-reports.html">Pivot Grid</a> to a chart&#39;s data source. This allows the <strong>Pivot Grid</strong> to supply data to the chart. Refer to the  <a href="link-a-chart-and-a-pivot-grid.html">Link a Chart and a Pivot Grid</a> topic for details.</p>
+<p>When the chart data source is not assigned, the chart obtains data from the report&#39;s data source </p>
+<p>A chart can display report data in the following ways:</p>
+<ul>
+<li><p>Place a chart on the report header/footer band to display a summary for the detail report data.</p>
+<p>  <img src="../../../../../images/eurd-win-chart-in-report-header.png" alt=""></p>
+</li>
+<li><p>Place a chart on a group header/footer to visualize data in each report group. Refer to the <a href="use-charts-to-visualize-grouped-data.html">Use Charts to Visualize Grouped Data</a> step-by-step tutorial for more information.</p>
+<p>  <img src="../../../../../images/eurd-win-chart-in-group-footer.png" alt=""></p>
+</li>
+<li><p>The chart in the Detail band is printed as many times as there are records in the report&#39;s data source. </p>
+</li>
+</ul>
+<p>Specify the following settings to provide data to a chart&#39;s series.</p>
+<ul>
+<li>The <strong>Argument Data Member</strong> property specifies the data field that provides point arguments.</li>
+<li>The <strong>Value Data Members</strong> property specifies the data fields that supply point values.</li>
+</ul>
+<p>You can specify these settings in the following ways:</p>
+<ul>
+<li><p><strong>Bind each series individually</strong></p>
+<p>  Add a new series to the chart and specify the argument and value data members. Refer to the <a href="add-a-chart-set-up-series-manually.html">Add a Chart (Set Up Series Manually)</a> step-by-step tutorial for details.</p>
+</li>
+<li><p><strong>Create series dynamically</strong></p>
+<p>  Assign the data field that contains series names to the chart&#39;s <strong>Series Data Member</strong> property and specify the argument and value data members using the series template. Refer to the <a href="add-a-chart-use-a-series-template.html">Add a Chart (Use a Series Template)</a> step-by-step tutorial for more information.</p>
+</li>
+</ul>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/23.1/reporting-for-desktop/articles/report-designer/report-designer-for-winforms/use-report-elements/use-charts-and-pivot-grids/use-charts-in-reports.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2023 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../../../styles/main.js"></script>
+  </body>
+</html>

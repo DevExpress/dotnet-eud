@@ -1,0 +1,155 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Chart with Static Series | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Chart with Static Series | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="../../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../../index.html">
+                <img id="logo" class="svg" src="../../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="chart-with-static-series">Chart with Static Series</h1>
+
+<p>This document describes how to create a report with a <a href="../report-elements/report-controls.html">Chart</a> control bound to data, so that a particular series has its own data source, and other settings. To simplify the example, both series obtain their data from the same data source. However, different data sources can be used for different series, if necessary.</p>
+<p>This example describes how to construct a chart of products and their prices for a chosen category.</p>
+<p>To adjust a Chart by manually creating its series, do the following.</p>
+<ol>
+<li><a href="../creating-reports/basic-operations/create-a-new-report.html">Create a new blank report</a>.</li>
+<li><p>Drop the <a href="../report-elements/report-controls.html">Chart</a> control from the <a href="../interface-elements/control-toolbox.html">Toolbox</a> onto the report&#39;s <a href="../report-elements/report-bands.html">Detail band</a>.</p>
+<p> <img src="../../../../images/img123911.png" alt="EUD_WpfReportDersigner_Chart_1"></p>
+<p> After you drop the Chart, the <strong>Chart Designer</strong> is automatically invoked. At this step, click <strong>Cancel</strong> to close the Designer, it will be used later.</p>
+</li>
+<li><p>To bind the Chart to a data source, right-click it and select <strong>Edit...</strong> in the context menu. Then, in the invoked dialog, expand the <strong>Data Source</strong> drop-down and click <strong>Add New</strong>.</p>
+<p> <img src="../../../../images/img123912.png" alt="EUD_WpfReportDersigner_Chart_2"></p>
+<p> The invoked <strong>Data Source Wizard</strong> will guide you through the process of assigning a data source to the Chart. For detailed instructions on the Wizard&#39;s steps, refer to <a href="../creating-reports/providing-data/binding-a-report-to-data.html">Binding a Report to Data</a>, as this process is similar.</p>
+<p> After the data source is created, it is assigned to the Chart&#39;s <strong>Data Source</strong> property. Its <strong>Data Member</strong> property defines from which table or view of your data source the Chart obtains its data.</p>
+<p> <img src="../../../../images/img123913.png" alt="EUD_WpfReportDersigner_Chart_3"></p>
+<div class="NOTE"><h5>Note</h5><p>Since you have placed the Chart in the Detail band, the report&#39;s <strong>Data Source</strong> property should not be set. Otherwise, the Chart will be repeated at the preview as many times as there are records in the data source.</p>
+<p><img src="../../../../images/img123582.png" alt="EUD_WpfReportDesigner_CrossTabReport_4"></p>
+</div>
+</li>
+<li><p>Once again, right-click the Chart and select <strong>Run Designer...</strong> in the context menu.</p>
+<p> <img src="../../../../images/img123914.png" alt="EUD_WpfReportDersigner_ChartStat_4"></p>
+</li>
+<li><p>The invoked <strong>Chart Designer</strong> already contains one series of the <strong>Bar</strong> view type. To populate the series with points, select it in the tree and switch to the <strong>Data</strong> tab at the right of the designer&#39;s window. Choose an existing data source in the dedicated drop-down list. Then, drag-and-drop the required data fields to the <strong>Argument</strong> and <strong>Value</strong> cells to define the coordinates for series points.</p>
+<p> <img src="../../../../images/img126208.png" alt="chart-designer-series-argument-value"></p>
+</li>
+<li><p>Go to the <strong>Properties</strong> tab to see that the <strong>Argument Data Member</strong> and <strong>Value Data Members</strong> settings are automatically assigned to the corresponding fields.</p>
+<p> In addition, you can filter the series data. To do this, click the ellipsis button for the <strong>Data Filters</strong> property, and in the invoked dialog, create and adjust the filtering criteria.</p>
+<p> <img src="../../../../images/img126209.png" alt="chart-designer-series-data-filter"></p>
+<p> To save the changes and quit the dialog, click <strong>Close.</strong></p>
+</li>
+<li><p>Create one more series with the same settings, but select the <strong>Point</strong> view type. To do this, locate the <strong>Series</strong> element in the chart elements tree and click the plus button. In the invoked list of series types, select the required type.</p>
+<p> <img src="../../../../images/img126210.png" alt="chart-designer-add-points-series"></p>
+</li>
+<li><p>Finally, to improve your Chart&#39;s appearance, you can make the following adjustments.</p>
+<ul>
+<li>Remove the Chart&#39;s legend as it shows the same data for both series. To do this, select the Legend in the chart elements tree, and in the <strong>Options</strong> tab, set the <strong>Visibility</strong> property to <strong>No</strong>.</li>
+<li>The point labels for <strong>Series 1</strong> are unnecessary, so select the <strong>Label</strong> node under this series and disable the <strong>Labels Visibility</strong> check box.</li>
+<li><p>Rotate the X-axis labels for better readability. To do this, select the <strong>Axis X</strong> item, and in the <strong>Properties</strong> tab, adjust settings for labels using the <strong>Label</strong> property. For instance, set the <strong>Angle</strong> property to <strong>20</strong> and the <strong>Antialiasing</strong> property to <strong>Yes</strong>.</p>
+<p>If required, it is possible to customize many other properties for the Chart, which are not described here.</p>
+</li>
+</ul>
+</li>
+</ol>
+<p>The chart is now ready. Switch to the <a href="../document-preview.html">Print Preview</a> and view the result.</p>
+<p><img src="../../../../images/img123917.png" alt="EUD_WpfReportDersigner_ChartStat_Result"></p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/23.1/reporting-for-desktop/articles/report-designer/report-designer-for-wpf/report-types/chart-with-static-series.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2023 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../../styles/main.js"></script>
+  </body>
+</html>

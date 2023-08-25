@@ -1,0 +1,193 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Field List | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Field List | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="../../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../../index.html">
+                <img id="logo" class="svg" src="../../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="field-list">Field List</h1>
+
+<p>The <strong>Field List</strong> displays the schema of a report&#39;s data sources. This panel enables you to manage report data sources and parameters, add calculated fields and create bound report controls.</p>
+<h2 id="manage-report-data-sources">Manage Report Data Sources</h2>
+<p>The Field List shows available report data sources and their structure.</p>
+<p><img src="../../../../images/eurd-web-fieldlist-manage-data-source.png" alt=""></p>
+<p>The following actions are available in the Field List for data source customization:</p>
+<table>
+<thead>
+<tr>
+<th>Button</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="../../../../images/eurd-web-fieldlist-add-data-source-button.png" alt=""></td>
+<td>Invokes the Data Source Wizard.</td>
+</tr>
+<tr>
+<td><img src="../../../../images/eurd-web-fieldlist-data-source-rename.png" alt=""></td>
+<td>Renames the selected data source.</td>
+</tr>
+<tr>
+<td><img src="../../../../images/eurd-web-fieldlist-data-source-rebuild-result-schema.png" alt=""></td>
+<td>Rebuilds the result schema for the selected data source.</td>
+</tr>
+<tr>
+<td><img src="../../../../images/eurd-web-fieldlist-data-source-edit-relationships.png" alt=""></td>
+<td>Invokes the <a href="../master-detail-relation-editor.html">Master-Detail Relation Editor</a>.</td>
+</tr>
+<tr>
+<td><img src="../../../../images/eurd-web-fieldlist-data-source-add-calculated-field.png" alt=""></td>
+<td>Adds a calculated field.</td>
+</tr>
+<tr>
+<td><img src="../../../../images/eurd-web-fieldlist-data-source-add-query.png" alt=""></td>
+<td>Invokes the <strong>Create a Query or Select a Stored Procedure</strong> wizard page.</td>
+</tr>
+<tr>
+<td><img src="../../../../images/eurd-web-fieldlist-data-source-delete.png" alt=""></td>
+<td>Removes the selected data source.</td>
+</tr>
+</tbody>
+</table>
+<p>The following actions are available for query customization:</p>
+<table>
+<thead>
+<tr>
+<th>Button</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="../../../../images/eurd-web-fieldlist-data-source-delete.png" alt=""></td>
+<td>Removes the selected query.</td>
+</tr>
+<tr>
+<td><img src="../../../../images/eurd-web-fieldlist-data-source-edit-relationships.png" alt=""></td>
+<td>Invokes the <strong>Create a Query or Select a Stored Procedure</strong> wizard page.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="bind-controls-to-data">Bind controls to data</h2>
+<p>Dropping a field onto a report&#39;s surface creates a new report control bound to a corresponding field.</p>
+<p><img src="../../../../images/eurd-web-field-list-drop-fields.png" alt=""></p>
+<p>Dropping a field onto an existing control binds this control to a corresponding field.</p>
+<p><img src="../../../../images/eurd-web-field-list-drop-field-to-control.png" alt=""></p>
+<h2 id="create-tables">Create tables</h2>
+<p>Dropping an entire data table onto a report creates a table with its columns bound to fields contained in the data table.</p>
+<p><img src="../../../../images/eurd-web-field-list-drop-table.png" alt=""></p>
+<p>To select multiple fields, click them with holding the CTRL or SHIFT key. Dropping these fields onto a report creates a new table with its cells bound to the corresponding fields.</p>
+<p><img src="../../../../images/eurd-web-list-drop-multiple-fields.png" alt=""></p>
+<h2 id="data-shaping-operations">Data shaping operations</h2>
+<p>In addition, the Field List can help you solve the following tasks:</p>
+<ul>
+<li><p>Add <a href="../../shape-report-data/use-calculated-fields/calculated-fields-overview.html">calculated fields</a> to data columns for performing various calculations in a report.</p>
+<p>  <img src="../../../../images/eurd-web-add-calculated-field.png" alt=""></p>
+</li>
+<li><p>Manage the collection of <a href="../../use-report-parameters.html">report parameters</a>.</p>
+<p>  <img src="../../../../images/eurd-web-parameters-add-parameter-via-field-list.png" alt=""></p>
+</li>
+</ul>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/23.1/reporting-for-web/articles/report-designer/report-designer-tools/ui-panels/field-list.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2023 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../../styles/main.js"></script>
+  </body>
+</html>

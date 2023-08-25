@@ -1,0 +1,140 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Add Bookmarks and a Document Map | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Add Bookmarks and a Document Map | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../index.html">
+                <img id="logo" class="svg" src="../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="add-bookmarks-and-a-document-map">Add Bookmarks and a Document Map</h1>
+
+<p>This document describes how to use bookmarks for mapping the report elements&#39; hierarchy to the Document Map that is displayed in a <a href="../preview-print-and-export-reports.html">Print Preview</a>, and speeds up the navigation through complex reports.</p>
+<p>The example below is based on the following report:</p>
+<p><img src="../../../images/eurd-web-add-bookmark-source-report.png" alt=""></p>
+<p>This report displays products that are <a href="../shape-report-data/group-and-sort-data/group-data.html">grouped</a> by the <strong>CategoryName</strong> field. </p>
+<p>The following image illustrates the resulting report with a hierarchical Document Map. Clicking any bookmark navigates the Print Preview to the document section containing the associated element.</p>
+<p><img src="../../../images/eurd-web-addbookmark_result.png" alt=""></p>
+<p>Use the following steps to generate a Documnet Map in your grouped report.</p>
+<ol>
+<li><p>Select the label placed in the <strong>Group Header</strong> band and switch to the <a href="../report-designer-tools/ui-panels/expressions-panel.html">Expressions</a> panel. Click the <strong>Bookmark</strong> property&#39;s ellipsis button, and in the invoked <a href="../report-designer-tools/expression-editor.html">Expression Editor</a>, select the <strong>CategoryName</strong> data field.</p>
+<p> <img src="../../../images/eurd-web-addbookmark-set-bookmark-for-group.png" alt=""></p>
+<p> In the legacy binding mode (if the Designer does not provide the <strong>Expressions</strong> panel), you can specify this property in the <a href="../report-designer-tools/ui-panels/properties-panel.html">Properties</a> panel&#39;s <strong>Data Bindings</strong> category.</p>
+<p> <img src="../../../images/eurd-web-addbookmark_legacy.png" alt=""></p>
+</li>
+<li><p>In the same way, select the label in the <strong>Detail</strong> band and bind its <strong>Bookmark</strong> property to the <strong>ProductName</strong> data field.</p>
+<p> <img src="../../../images/eurd-web-addbookmark-set-bookmarks-for-details.png" alt=""></p>
+<p> Most of the reporting controls (for example, <a href="../use-report-elements/use-tables.html">Table</a>, TableCell, <a href="../use-report-elements/use-basic-report-controls/check-box.html">CheckBox</a>, etc.) supports the <strong>Bookmark</strong> property.</p>
+</li>
+<li><p>Set the same label&#39;s <strong>Parent Bookmark</strong> property to the label in the group band. This arranges bookmarks into a parent-child structure reflecting the report elements&#39; hierarchy in the Document Map.</p>
+<p> <img src="../../../images/eurd-web-addbookmark-bookmark-parent.png" alt=""></p>
+<div class="NOTE"><h5>Note</h5><p>Avoid cyclic bookmarks that occur when you assign two bookmarks as parents to each other. In this scenario, an exception raises when you attempt to create the report document.</p>
+</div>
+</li>
+<li><p>Select the report itself and assign text to its <strong>Bookmark</strong> property to determine the root node&#39;s caption in the <strong>Document Map</strong>.</p>
+<p> <img src="../../../images/eurd-web-addbookmark-root-bookmark.png" alt=""></p>
+<p> The root bookmark displays the report name if you do not specify this property.</p>
+</li>
+</ol>
+<div class="NOTE"><h5>Note</h5><p>Duplicated bookmarks are suppressed to prevent adding multiple bookmarks with the same name to a final document. You can disable the  report&#39;s <strong>Bookmark Duplicate Suppress</strong> property to allow duplicated bookmarks.</p>
+</div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/23.1/reporting-for-web/articles/report-designer/add-navigation/add-bookmarks-and-a-document-map.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2023 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../styles/main.js"></script>
+  </body>
+</html>

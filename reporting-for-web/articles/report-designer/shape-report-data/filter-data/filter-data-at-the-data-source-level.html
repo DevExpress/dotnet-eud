@@ -1,0 +1,139 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Filter Data at the Data Source Level | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Filter Data at the Data Source Level | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="../../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../../index.html">
+                <img id="logo" class="svg" src="../../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="filter-data-at-the-data-source-level">Filter Data at the Data Source Level</h1>
+
+<p>This tutorial illustrates how to filter data at the report data source level, as opposed to the <a href="filter-data-at-the-report-level.html">report level</a>. This approach is recommended when dealing with comparatively large data sources when the retrieval process is slow.</p>
+<ol>
+<li><p><a href="../../add-new-reports.html">Create a new report</a> or open an existing one.</p>
+</li>
+<li><p>Bind you report to a required data source. See the <a href="../../bind-to-data.html">Bind to Data</a> section to learn more about providing data to reports.</p>
+</li>
+<li><p>Switch to the <a href="../../report-designer-tools/ui-panels/field-list.html">Field List</a> and drop the required fields onto the report&#39;s <a href="../../introduction-to-banded-reports.html">Detail</a> band.</p>
+<p> <img src="../../../../images/eurd-web-filter-data-drop-fields.png" alt=""></p>
+</li>
+<li><p>Select the data source and click <strong>Edit query</strong>.</p>
+<p> <img src="../../../../images/eurd-web-filter-data-edit-query.png" alt=""></p>
+<p> Click <strong>Run Query Builder</strong> in the invoked <a href="../../report-designer-tools/data-source-wizard.html">Data Source Wizard</a>. </p>
+<p> <img src="../../../../images/eurd-web-filter-data-source-wizard.png" alt=""></p>
+</li>
+<li><p>Expand the <strong>Query Properties</strong> section in the invoked <a href="../../report-designer-tools/query-builder.html">Query Builder</a>. Click the ellipsis button for the <strong>Filter</strong> property to construct a filtering expression in the invoked <a href="../../report-designer-tools/filter-editor.html">Filter Editor</a>.</p>
+<p> <img src="../../../../images/eurd-web-filter-data-source-filter-string.png" alt=""></p>
+<p> Every filter condition consists of three parts:</p>
+<ul>
+<li>A data field name.</li>
+<li>Criteria operator, such as <strong>Equals</strong>, <strong>Is less than</strong>, <strong>Is between</strong>, etc.</li>
+<li><p>A static operand value, another data field or a query parameter. See the <a href="../../bind-to-data/specify-query-parameters.html">Specify Query Parameters</a> topic to learn about embedding these parameters into filter conditions.</p>
+<p>You can arrange specific conditions into groups with <strong>And</strong>, <strong>Or</strong>, <strong>Not And</strong>, and <strong>Not Or</strong> operators.</p>
+</li>
+</ul>
+</li>
+</ol>
+<p>Switch to <a href="../../preview-print-and-export-reports.html">Print Preview</a> to see the result.</p>
+<p><img src="../../../../images/eurd-web-filter-data-source-result.png" alt=""></p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/23.1/reporting-for-web/articles/report-designer/shape-report-data/filter-data/filter-data-at-the-data-source-level.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2023 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../../styles/main.js"></script>
+  </body>
+</html>

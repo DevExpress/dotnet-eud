@@ -1,0 +1,164 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Vertical Reports | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Vertical Reports | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="../../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../../index.html">
+                <img id="logo" class="svg" src="../../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="vertical-reports">Vertical Reports</h1>
+
+<p>This tutorial describes how to use vertical bands to create a report where record fields are arranged vertically and data records are printed horizontally.</p>
+<p><img src="../../../../images/eurd-win-VerticalBandDemoReport_Result_Preview.png" alt=""></p>
+<ol>
+<li><p><a href="../add-new-reports.html">Create a new report</a> or <a href="../open-reports.html">open an existing one</a>.</p>
+</li>
+<li><p><a href="../bind-to-data.html">Bind the report</a> to a required data source.</p>
+</li>
+<li><p>Click the report&#39;s smart tag and choose <strong>Design in Report Wizard...</strong>.</p>
+<p> <img src="../../../../images/eurd-win-design-in-report-wizard.png" alt=""></p>
+</li>
+<li><p>In the invoked <a href="../report-designer-tools/report-wizard.html">Report Wizard</a>, select <strong>Vertical Report</strong> and click <strong>Next</strong>.</p>
+<p> <img src="../../../../images/eurd-VerticalBandDemoReport_SelectReportType.png" alt="VerticalBandDemoReport_SelectReportType"></p>
+</li>
+<li><p>Select the data fields that should be included in the report.</p>
+<p> <img src="../../../../images/eurd-win-VerticalBandDemoReport_SelectFields.png" alt="VerticalBandDemoReport_SelectFields"></p>
+</li>
+<li><p>Specify group data fields to create a report with grouped data (the report in this tutorial does not have group fields).</p>
+</li>
+<li><p>Add summary fields to the report.</p>
+<p> <img src="../../../../images/eurd-win-VerticalBandDemoReport_SummaryFunctions.png" alt="VerticalBandDemoReport_SummaryFunctions"></p>
+</li>
+<li><p>Change the report page layout to <em>landscape</em> so that the vertical table fit the report.</p>
+<p> <img src="../../../../images/eurd-win-VerticalBandDemoReport_PageSettings.png" alt="VerticalBandDemoReport_PageSettings"></p>
+</li>
+<li><p>You can set the report&#39;s color scheme.</p>
+<p> <img src="../../../../images/eurd-win-VerticalBandDemoReport_ColorScheme.png" alt="VerticalBandDemoReport_ColorScheme"></p>
+</li>
+<li><p>Specify the report&#39;s title.</p>
+<p><img src="../../../../images/eurd-win-VerticalBandDemoReport_Title.png" alt="VerticalBandDemoReport_Title"></p>
+</li>
+</ol>
+<p>Click <strong>Finish</strong> and the generated report opens in the Report Designer.</p>
+<p><img src="../../../../images/eurd-win-VerticalBandDemoReport_WizardResult.png" alt="VerticalBandDemoReport_WizardResult"></p>
+<p>The wizard adds report controls to the following <a href="../introduction-to-banded-reports.html">bands</a>:</p>
+<ul>
+<li><strong>Vertical Header band</strong><br>  Contains a table with a single column that displays headers of the report&#39;s data fields.</li>
+<li><strong>Vertical Details band</strong><br>  Contains a table with a single column that is printed so many times as there are records in the report&#39;s data source.</li>
+<li><strong>Vertical Total band</strong><br>  Contains a table with a single column that has so many labels in cells as there are summary functions you specified for each field in the Report Wizard (only the <strong>sum</strong> function for each field in this demo).</li>
+</ul>
+<p>Switch to the Preview tab to see the result.</p>
+<p><img src="../../../../images/eurd-win-VerticalBandDemoReport_WizardResult_Preview.png" alt="VerticalBandDemoReport_WizardResult"></p>
+<div class="TIP"><h5>Tip</h5><p>You can create a vertical report without using the Report Wizard. Right-click the report in the Report Designer and choose <strong>Insert Vertical Band</strong> in the invoked context menu. Refer to the <a href="../introduction-to-banded-reports.html#vertical-bands">Introduction to Banded Reports</a> topic for more information.</p>
+</div>
+<h2 id="set-vertical-table-options">Set Vertical Table Options</h2>
+<p>You can set the following options in the <a href="../report-designer-tools/ui-panels/property-grid-tabbed-view.html">Property Grid</a> to modify the vertical table:</p>
+<ul>
+<li><p>Disable the Vertical Header band&#39;s <strong>Repeat Every Page</strong> property to display field headers once - on the first report page.</p>
+</li>
+<li><p>Set the Vertical Detail band&#39;s <strong>Band Layout</strong> property to <em>Across Then Down</em> to print the data records that do not fit a page on the same page, otherwise, they are printed on the next page (as in this demo).</p>
+</li>
+<li><p>Specify the Vertical Detail band&#39;s <strong>Sort Fields</strong> property to sort the report&#39;s data.</p>
+</li>
+</ul>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/23.1/reporting-for-desktop/articles/report-designer/report-designer-for-winforms/create-reports/vertical-reports.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2023 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../../styles/main.js"></script>
+  </body>
+</html>

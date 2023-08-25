@@ -1,0 +1,133 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Add Sparklines to a Report | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Add Sparklines to a Report | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="../../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../../index.html">
+                <img id="logo" class="svg" src="../../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="add-sparklines-to-a-report">Add Sparklines to a Report</h1>
+
+<h2 id="sparkline-overview">Sparkline Overview</h2>
+<p>The <strong>Sparkline</strong> control displays a compact chart that is commonly used to illustrate the data flow for every row in a report.</p>
+<p>To add this control to the report, drag the <strong>Sparkline</strong> item from the <a href="../../report-designer-tools/toolbox.html">Toolbox</a> and drop it onto the report.</p>
+<p><img src="../../../../images/eurd-web-add-sparkline-control-to-report.png" alt=""></p>
+<h2 id="bind-the-sparkline-to-data">Bind the Sparkline to Data</h2>
+<p>You can connect the sparkline to individual data without accessing a report&#39;s data source. Click the <strong>Data Source</strong> property&#39;s drop-down list and select the required data source.</p>
+<p><img src="../../../../images/eurd-web-sparkline-select-data-source.png" alt=""></p>
+<p>The sparkline uses the report&#39;s data source if you do not specify the <strong>DataSource</strong> property.</p>
+<p>After that, specify the <strong>Data Member</strong> property and set the <strong>Value Member</strong> property to a data field that provides point values for the sparkline.</p>
+<p>To create a new data source for a sparkline, click <strong>Add Data Source...</strong> in the <a href="../../report-designer-tools/menu.html">Menu</a>. This invokes the <a href="../../report-designer-tools/data-source-wizard.html">Data Source Wizard</a> that allows you to set up a required data source.</p>
+<h2 id="adjust-the-sparkline-view">Adjust the Sparkline View</h2>
+<p>The sparkline supports the <strong>Line</strong>, <strong>Area</strong>, <strong>Bar</strong> and <strong>WinLoss</strong> view types.</p>
+<p>The <strong>View</strong> property provides access to options that change the sparkline&#39;s appearance.</p>
+<p><img src="../../../../images/eurd-web-sparkline-view-property.png" alt=""></p>
+<p>Each view type has properties that define the extreme values&#39; visibility:</p>
+<ul>
+<li><strong>Highlight Start Point</strong> and <strong>Highlight End Point</strong>;</li>
+<li><strong>Highlight Min Point</strong> and <strong>Highlight Max Point</strong>.</li>
+</ul>
+<p>Specific properties differ between view types, such as the <strong>Highlight Negative Points</strong> setting that is available only for the <strong>Bar</strong> sparkline.</p>
+<p>The following image illustrates a <a href="../../create-reports/table-reports.html">table report</a> containing sparklines that provide maximum and minimum value indicators in their data range:</p>
+<p><img src="../../../../images/eurd-web-report-with-sparklines.png" alt=""></p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/23.1/reporting-for-web/articles/report-designer/use-report-elements/use-gauges-and-sparklines/add-sparklines-to-a-report.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2023 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../../styles/main.js"></script>
+  </body>
+</html>

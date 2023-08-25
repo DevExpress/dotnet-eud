@@ -1,0 +1,150 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Filter Editor | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Filter Editor | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../index.html">
+                <img id="logo" class="svg" src="../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="filter-editor">Filter Editor</h1>
+
+<p>This document describes the Filter Editor available in the <a href="../../report-designer.html">End-User Report Designer</a>.</p>
+<h2 id="filter-editor-overview">Filter Editor Overview</h2>
+<p>The <strong>Filter Editor</strong> provides a visual interface for constructing filter criteria of varying complexity with an unlimited number of filter conditions combined by logical operators.</p>
+<p><img src="../../../images/eurd-web-filter-editor.png" alt=""></p>
+<p>A filter condition consists of three parts:</p>
+<ul>
+<li>A field of a data source to which a report is bound.</li>
+<li>Criteria operator, such as <strong>Equals</strong>, <strong>Is less than</strong>, <strong>Is between</strong>, etc.</li>
+<li>A static operand value, another data field or a report parameter.</li>
+</ul>
+<p>You can arrange specific conditions into groups with <strong>And</strong>, <strong>Or</strong>, <strong>No And</strong> , and <strong>Not Or</strong> operators.</p>
+<h2 id="invoke-the-filter-editor">Invoke the Filter Editor</h2>
+<p>You can invoke the Filter Editor in one of the following ways:</p>
+<ul>
+<li><p>In the <a href="ui-panels/properties-panel.html">Properties</a> panel, click the ellipsis button for the report&#39;s <strong>Filter String</strong> property to filter data at the report level.</p>
+<p>  <img src="../../../images/eurd-web-filter-string-property.png" alt=""></p>
+</li>
+<li><p>In the <a href="query-builder.html">Query Builder</a>, click the ellipsis button for the <strong>Filter</strong> or <strong>Group Filter</strong> property to filter data at the data source level.    </p>
+<p>  <img src="../../../images/eurd-web-filter-string-query-builder.png" alt=""></p>
+</li>
+</ul>
+<h2 id="tree-like-filtering">Tree-Like Filtering</h2>
+<p>The Filter Editor displays filter criteria as a tree where individual nodes specify simple filter conditions. The root node is the logical operator combining all the conditions.</p>
+<p>Click the plus button next to the operator to add a new condition or group.</p>
+<p><img src="../../../images/eurd-web-filter-editor-add-condition.png" alt=""></p>
+<p>You can select the required data field and comparison operator from the corresponding drop-down lists and enter an operand value in the dedicated value box.</p>
+<p><img src="../../../images/eurd-web-filter-editor-simple-condition.png" alt=""></p>
+<p>Expand the drop-down menu for a value placeholder and select <strong>Property</strong> or <strong>Parameter</strong> to compare a data field with another data field or a report parameter. Then, click the converted placeholder and select the required item.</p>
+<p><img src="../../../images/eurd-web-filter-editor-value-parameter.png" alt=""></p>
+<p>You can change the logical operator by clicking it and selecting the desired type.</p>
+<p><img src="../../../images/eurd-web-filter-editor-change-logical-operator.png" alt=""></p>
+<p>Click the filter condition&#39;s <img src="../../../images/eurd-web-filter-editor-remove-button.png" alt=""> button to delete it.</p>
+<h2 id="text-based-filtering">Text-Based Filtering</h2>
+<p>In the advanced mode, the Filter Editor allows you to type a filter string manually.</p>
+<p><img src="../../../images/eurd-web-filter-editor-advanced-mode.png" alt=""></p>
+<p>Refer to the <a href="../use-expressions/expression-language.html">Expression Language</a> topic for the list of available operators and functions and for details on their usage.</p>
+<p>This editor supports intelligent code completion (suggesting functions and available data columns as you type).</p>
+<p><img src="../../../images/eurd-web-filter-code-completion.png" alt=""></p>
+<p>The <img src="../../../images/eurd-web-expression-editor-error-icon.png" alt=""> icon appears if a condition contains any errors.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/23.1/reporting-for-web/articles/report-designer/report-designer-tools/filter-editor.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2023 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../styles/main.js"></script>
+  </body>
+</html>

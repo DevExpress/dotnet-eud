@@ -1,0 +1,226 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Bind a Report to an XPO Persistent Object | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Bind a Report to an XPO Persistent Object | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="../../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../../index.html">
+                <img id="logo" class="svg" src="../../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="400274">
+<h1 id="bind-a-report-to-an-xpo-persistent-object">Bind a Report to an XPO Persistent Object</h1>
+
+<p>This topic describes how to bind a report to XPO data at design time.</p>
+<h2 id="create-xpobjectsource">Create XPObjectSource</h2>
+<ol>
+<li><p><a href="../add-new-reports.html">Create a new report</a>.</p>
+</li>
+<li><p>Click the report&#39;s smart tag. In the invoked action list, expand the drop-down menu for the <strong>Data Source</strong> property and click <strong>Add New DataSource</strong>.</p>
+<p> <img src="../../../../images/eurd-win-report-smart-tag-add-new-data-source.png" alt=""></p>
+<p> This invokes the <a href="../report-designer-tools/data-source-wizard.html">Data Source Wizard</a>.</p>
+</li>
+<li><p>Choose the <strong>XPO</strong> option and click <strong>Next</strong>.</p>
+<p> <img src="../../../../images/eurd-win-report-wizard-select-xpo-data-source.png" alt=""></p>
+</li>
+<li><p>The following wizard page lists your application project&#39;s persistent object classes. Choose one entity type.</p>
+<p> <img src="../../../../images/eurd-win-XPO-choose-entity-type.png" alt="object-data-source-add-report"></p>
+</li>
+<li><p>On the next page, specify whether to use an existing data connection or create a new data connection.</p>
+<p> <img src="../../../../images/eurd-win-xpo-choose-data-connection.png" alt=""></p>
+</li>
+<li><p>To create a new data connection, select a data provider or define a custom connection string.</p>
+<p> Specify provider-specific connection options (for example, the authentication type and database name).</p>
+<p> <img src="../../../../images/eurd-win-xpo-specify-connection.png" alt=""></p>
+</li>
+</ol>
+<p>Finish the wizard. At this step, the wizard creates an <strong>XPObjectSource</strong> component. This component retrieves all the properties the chosen entity type includes. The <a href="../report-designer-tools/ui-panels/field-list.html">Field List</a> reflects the data source structure.</p>
+<p><img src="../../../../images/eurd-win-XPO-field-list.png" alt=""></p>
+<p>You can <a href="#change-the-property-set">customize the field list</a> and set up the component&#39;s settings after you finish the wizard.</p>
+<h2 id="customize-data-source-settings">Customize Data Source Settings</h2>
+<p>You can customize the created <strong>XPObjectSource</strong> component&#39;s settings. To do this, select this component in the <a href="../report-designer-tools/ui-panels/report-explorer.html">Report Explorer</a> and switch to the Property grid.</p>
+<p><img src="../../../../images/eurd-win-XPObjectSource-PropertyGrid.png" alt=""></p>
+<p>These settings allow you to specify which data to retrieve from the data source. </p>
+<div class="NOTE"><h5>Note</h5><p>Group/filter combinations and complex expressions support depends on the data source.</p>
+</div>
+<h3 id="change-the-connection-parameters">Change the Connection Parameters</h3>
+<p>Use the <strong>ConnectionStringName</strong> property to change the connection string name only or the <strong>ConnectionString</strong> property to reconfigure a connection string. These properties are available in the Property Grid.</p>
+<p><img src="../../../../images/eurd-win-XPObjectSource-Connection-properties.png" alt=""></p>
+<p>You can also right-click the <strong>XPObjectSource</strong> component in the Report Explorer and choose <strong>Configure Connection...</strong> to invoke the wizard and reconfigure the connection string.</p>
+<p><img src="../../../../images/eurd-win-XPObjectSource-configure-connection.png" alt=""></p>
+<h3 id="change-the-entity-type">Change the Entity Type</h3>
+<p>Use the <strong>EntityType</strong> property to specify another persistent object class.</p>
+<p><img src="../../../../images/eurd-win-XPObjectSource-EntityType-Property.png" alt=""></p>
+<p>This reloads the Field List. It displays the fields that correspond to the the newly specified type. You can bind report elements to these fields.</p>
+<h3 id="change-the-property-set">Change the Property Set</h3>
+<p>XPO loads all the persistent properties that the specified entity type exposes. You can use the <strong>XPObjectSource</strong> component&#39;s <strong>Properties</strong> property to customize the properties set.</p>
+<p><img src="../../../../images/eurd-win-XPO-Properties-property.png" alt=""></p>
+<p>Click the <strong>Properties</strong> property&#39;s ellipsis button. This invokes the <strong>Properties Collection Editor</strong>.</p>
+<p><img src="../../../../images/eurd-win-XPO-Properties-Collection-Editor.png" alt=""></p>
+<p>You can specify the following options for the newly added properties:</p>
+<ul>
+<li><p><strong>Name</strong><br>  The name that you use to access the property in the report.</p>
+</li>
+<li><p><strong>PropertyExpression</strong><br>  The entity&#39;s persistent property or an expression that you can construct using several properties. The expression is calculated on the server.</p>
+</li>
+<li><p><strong>Group</strong><br>  Indicates whether to use this property to group data that XPO retrieves from the server.</p>
+</li>
+<li><p><strong>Fetch</strong><br>  Indicates whether to retrieve data for this property from the server.    </p>
+</li>
+</ul>
+<div class="NOTE"><h5>Note</h5><p>At least one property in the <strong>Properties</strong> collection must have an enabled <strong>Fetch</strong> property.</p>
+</div>
+<p>Use the <strong>Clear Properties</strong> command to clear the <strong>Properties</strong> collection and the <strong>Populate Properties</strong> command to add all the properties the entity type exposes.</p>
+<p><img src="../../../../images/eurd-win-XPO-change-properties.png" alt="XPObjectSource-change-properties"></p>
+<p>The Field List contains the fields that correspond to the <strong>Properties</strong> collection&#39;s properties. If this collection is empty, the Field List reflects the data source structure.</p>
+<h3 id="retrieve-filtered-data">Retrieve Filtered Data</h3>
+<p>Use the <strong>XPObjectSource</strong>&#39;s <strong>Filter</strong> property to specify a filter expression for the data XPO retrieves from the data source.</p>
+<p><img src="../../../../images/eurd-win-XPO-Filter-property.png" alt="XPObjectSource-Filter-property"></p>
+<h3 id="retrieve-sorted-data">Retrieve Sorted Data</h3>
+<p>Use the <strong>XPObjectSource</strong>&#39;s <strong>Sorting</strong> property to specify sort settings for the retrieved data. </p>
+<p><img src="../../../../images/eurd-win-XPO-Sorting-property.png" alt="XPObjectSource-Sorting-property"></p>
+<p>The <strong>XPObjectSource</strong> supports multiple column sorting. You can also specify a sorting expression for the data XPO retrieves from the data source.</p>
+<h3 id="retrieve-filtered-groups">Retrieve Filtered Groups</h3>
+<p>Use the <strong>XPObjectSource</strong>&#39;s **GroupFilter property to filter data on the server against values of the <a href="#change-the-property-set">grouped properties</a>. </p>
+<p><img src="../../../../images/eurd-win-XPO-GroupFilter-property.png" alt="PObjectSource-GroupFilter-property"></p>
+<div class="NOTE"><h5>Note</h5><p>The <strong>Group Filter</strong> property is available when the <strong>Properties</strong> collection in not empty and has at least one property with an enabled <strong>Group</strong> flag.</p>
+</div>
+<h3 id="limit-the-retrieved-records-number">Limit the Retrieved Records&#39; Number</h3>
+<p>Use the following properties to limit the number of records XPO retrieves from the server:</p>
+<p><img src="../../../../images/eurd-win-XPO-Limit-the-Number.png" alt="XPObjectSource-Limit-the-Number"></p>
+<ul>
+<li><p><strong>Top Returned Records</strong><br>  Specifies the number of the top records in the data source XPO retrieves for the report.</p>
+</li>
+<li><p><strong>Skip Returned Records</strong><br>  Specifies the number of top records in the data source XPO skips when it retrieves data for the report.</p>
+</li>
+</ul>
+<div class="NOTE"><h5>Note</h5><p>The <strong>XPObjectSource</strong> does not process the zero value.</p>
+</div>
+<h3 id="specify-query-parameters">Specify Query Parameters</h3>
+<p>You can define parameters and use them in <strong>Properties</strong>, <strong>Filter</strong>, <strong>Sorting</strong> and <strong>GroupFilter</strong> expressions.</p>
+<p><img src="../../../../images/eurd-win-XPO-Parameters-property.png" alt="XPObjectSource-Parameters-property"></p>
+<p>The following properties are available for each query parameter:</p>
+<ul>
+<li><strong>Name</strong><br>  Specifies the parameter&#39;s name.</li>
+<li><strong>Type</strong><br>  Specifies the parameter value&#39;s data type.</li>
+<li><strong>Expression</strong><br>  Determines whether the actual parameter value is static or generated dynamically.</li>
+<li><strong>Value</strong><br>  Specifies the query parameter&#39;s actual value (a static or dynamically calculated). If the <strong>Expression</strong> option is enabled, you can assign a report parameter or an expression that can also include a report parameter.</li>
+</ul>
+<p>You can set a parameter to a static value or generate it dynamically based on an associated expression. </p>
+<ul>
+<li><p><em>Specify a static value</em>  </p>
+<p>  Choose a query parameter&#39;s value type and set a static value to the <strong>Value</strong> property according to the selected type.</p>
+<p>  <img src="../../../../images/eurd-win-XPObjectSource-Static-Parameter.png" alt=""></p>
+</li>
+<li><p><em>Provide a dynamic value</em>  </p>
+<p>  Activate the Expression checkbox for a parameter.</p>
+<p>  <img src="../../../../images/eurd-win-XPObjectSource-Dynamic-Parameter-Value.png" alt=""></p>
+<p>  The following three options are available to dynamically calculate the parameter&#39;s actual value:</p>
+<ul>
+<li><p>Select <strong>Expression Editor</strong> to construct an expression in the invoked Expression Editor.</p>
+</li>
+<li><p>Selecting <strong>New Report Parameter</strong> to create a new report parameter and map it to the query parameter. Ensure the report parameter&#39;s type corresponds to the query parameter&#39;s type.</p>
+</li>
+<li><p>Select an existing report parameter and map it to the query parameter.</p>
+</li>
+</ul>
+</li>
+</ul>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/23.1/reporting-for-desktop/articles/report-designer/report-designer-for-winforms/bind-to-data/bind-a-report-to-an-xpo-persistent-object.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2023 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../../styles/main.js"></script>
+  </body>
+</html>

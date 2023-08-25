@@ -1,0 +1,153 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Data Source Wizard | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Data Source Wizard | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="../../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../../index.html">
+                <img id="logo" class="svg" src="../../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="data-source-wizard">Data Source Wizard</h1>
+
+<p>The Data Source Wizard enables you to configure a data source and retrieve the required data. It supports the following data source types:</p>
+<ul>
+<li><p><a href="data-source-wizard/connect-to-a-database.html">Database</a></p>
+<p>  Obtains data from all major data providers (Microsoft SQL Server, XML data, Microsoft Access, Oracle, etc.).</p>
+</li>
+<li><p><a href="data-source-wizard/connect-to-an-entity-framework-data-source.html">Entity Framework</a></p>
+<p>  Supports binding to a Microsoft ADO.NET Entity Framework data source.</p>
+</li>
+<li><p><a href="data-source-wizard/connect-to-an-object-data-source.html">Object Binding</a></p>
+<p>  Connects to a data object.</p>
+</li>
+<li><p><a href="data-source-wizard/connect-to-an-excel-data-source.html">Excel File</a></p>
+<p>  Obtains data from Microsoft Excel workbooks (XLS, XLSX or XLSM files) or CSV files.</p>
+</li>
+<li><p><a href="data-source-wizard/connect-to-a-json-data-source.html">JSON</a></p>
+<p>  Connects to JSON-formatted data.</p>
+</li>
+<li><p><a href="data-source-wizard/connect-to-an-xpo-data-source.html">XPO</a></p>
+<p>  Allows you to bind to <strong>XPO</strong> data.</p>
+</li>
+<li><p><a href="data-source-wizard/no-data.html">No Data</a></p>
+<p>  Allows you design a report that is not bound to a data source.  </p>
+</li>
+</ul>
+<p><img src="../../../../images/eurd-ReportWizard-SelectDataSourceType.png" alt="ReportWizard-SelectDataSourceType"></p>
+<p>The Data Source Wizard allows you to do the following:</p>
+<ul>
+<li><p><a href="../add-new-reports.html">Add a new data-bound report</a> to your application using the <a href="report-wizard.html">Report Wizard</a>, which contains the Data Source Wizard pages.</p>
+<p>  <img src="../../../../images/eurd-wizard-databaound-report.png" alt="report-wizard-databaound-report-01"></p>
+</li>
+<li><p>Bind an existing report or its <a href="../introduction-to-banded-reports.html">Detail Report band</a> to data. To invoke this Wizard, click <strong>Add Data Source</strong> on the <a href="toolbar.html">Ribbon</a>&#39;s <strong>Home</strong> page.</p>
+<p>  <img src="../../../../images/eurd-win-add-new-report-data-source-ribbon.png" alt="eurd-win-add-report-data-source"></p>
+<p>  Alternatively, click the report&#39;s smart tag, expand the <strong>DataSource</strong> property&#39;s drop-down menu and click <strong>Add Report Data Source</strong>.</p>
+<p>  <img src="../../../../images/eurd-win-add-report-data-source.png" alt="eurd-win-add-report-data-source"></p>
+</li>
+<li><p>Connect the <a href="../use-report-elements/use-charts-and-pivot-grids.html">Chart</a>, <a href="../use-report-elements/use-cross-tabs.html">Cross Tab</a> and <a href="../use-report-elements/use-gauges-and-sparklines.html">Sparkline</a> report controls to individual data sources.</p>
+<p>  You can invoke the Data Source Wizard using the <strong>Add Data Source</strong> command on the <strong>Chart</strong> | <strong>Design</strong> contextual page.</p>
+<p>  <img src="../../../../images/eurd-win-add-chart-data-source-ribbon.png" alt="eurd-win-add-chart-data-source-ribbon"></p>
+<p>  You can invoke the Data Source Wizard using the <strong>DataSource</strong> property in the chart&#39;s smart tag.</p>
+<p>  <img src="../../../../images/eurd-win-addchartdatasource.png" alt="HowTo - AddChartDataSource"></p>
+</li>
+</ul>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/23.1/reporting-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-tools/data-source-wizard.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2023 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../../styles/main.js"></script>
+  </body>
+</html>

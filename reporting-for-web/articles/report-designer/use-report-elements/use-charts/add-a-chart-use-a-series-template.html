@@ -1,0 +1,143 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Add a Chart (Use a Series Template) | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Add a Chart (Use a Series Template) | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="../../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../../index.html">
+                <img id="logo" class="svg" src="../../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="add-a-chart-use-a-series-template">Add a Chart (Use a Series Template)</h1>
+
+<p>This document describes how to create a report with a <strong>Chart</strong> control bound to data and generate all series automatically based on a common template.</p>
+<p><img src="../../../../images/eurd-web-chart-auto-created-series-result.png" alt=""></p>
+<h2 id="add-a-chart-to-a-report">Add a Chart to a Report</h2>
+<ol>
+<li><p>Drop the <strong>Chart</strong> control from the <a href="../../report-designer-tools/toolbox.html">Toolbox</a> onto the <a href="../../introduction-to-banded-reports.html">Detail band</a>.</p>
+<p> <img src="../../../../images/eurd-web-chart-add-to-report.png" alt=""></p>
+</li>
+<li><p>Click <strong>Run Designer...</strong> to invoke the Chart Designer.</p>
+<p> <img src="../../../../images/eurd-web-chart-run-designer.png" alt=""></p>
+</li>
+<li><p>Specify the <strong>Data Source</strong> and <strong>Data Member</strong> properties to bind the chart to data. The chart&#39;s <strong>Series Data Member</strong> property specifies a data field that should provide data for series names. A new series should be created for each record in this data field.</p>
+<p> <img src="../../../../images/eurd-web-chart-bind-to-data.png" alt=""></p>
+</li>
+</ol>
+<div class="NOTE"><h5>Note</h5><p>The report&#39;s <strong>Data Source</strong> property should be set to <strong>None</strong> because the Chart is in the Detail band. When a report has its <strong>Data Source</strong> property specified, the Chart is repeated in preview as many times as there are records in the report data source.</p>
+</div>
+<h2 id="adjust-the-series-template">Adjust the Series Template</h2>
+<ol>
+<li><p>Use the <strong>Argument Data Member</strong> and <strong>Value Data Members</strong> properties to define where to get data for point arguments and values.</p>
+<p> <img src="../../../../images/eurd-web-chart-bind-to-data-series-template.png" alt=""></p>
+</li>
+</ol>
+<p>Make sure that the <strong>Argument Scale Type</strong> and <strong>Value</strong> properties are set to appropriate values.</p>
+<h2 id="customize-the-chart">Customize the Chart</h2>
+<p>Perform the following customization to improve the chart&#39;s appearance:</p>
+<ul>
+<li>Set the <strong>Labels Visibility</strong> property to <strong>False</strong> to avoid overlapping series labels. </li>
+<li>Specify the color settings used to draw the chart&#39;s series. For instance, select <strong>Nature Colors</strong> in the <strong>Palette</strong>&#39;s drop-down list.</li>
+</ul>
+<h2 id="view-the-result">View the Result</h2>
+<p>Switch to <a href="../../preview-print-and-export-reports.html">Print Preview</a> to see the resulting report.</p>
+<p><img src="../../../../images/eurd-web-chart-auto-created-series-result.png" alt=""></p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/23.1/reporting-for-web/articles/report-designer/use-report-elements/use-charts/add-a-chart-use-a-series-template.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2023 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../../styles/main.js"></script>
+  </body>
+</html>

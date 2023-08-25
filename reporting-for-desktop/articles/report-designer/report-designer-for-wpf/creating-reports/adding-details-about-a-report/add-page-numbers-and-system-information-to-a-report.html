@@ -1,0 +1,168 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Add Page Numbers and System Information to a Report | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Add Page Numbers and System Information to a Report | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="../../../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../../../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../../../index.html">
+                <img id="logo" class="svg" src="../../../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="add-page-numbers-and-system-information-to-a-report">Add Page Numbers and System Information to a Report</h1>
+
+<p>This document describes how to insert <em>page numbers</em> or other system information (e.g., <em>current date and time</em>, <em>user name</em>, etc.) into a report.</p>
+<p>Generally, this information is displayed within the Page Header and Footer or Page Margin <a href="../../report-elements/report-bands.html">bands</a>. To add page numbers or system information to a report, drop the <a href="../../report-elements/report-controls.html">Page Info</a> control from the <a href="../../interface-elements/control-toolbox.html">Control Toolbox</a> onto a band.</p>
+<p><img src="../../../../../images/img123722.png" alt="EUD_WpfReportDesigner_PageInfo_1"></p>
+<p>Then, follow the instructions below for your specific task.</p>
+<ul>
+<li><a href="#pagenumbers">Add Page Numbers</a></li>
+<li><a href="#datetime">Add System Date and Time</a></li>
+<li><a href="#username">Add the User Name</a></li>
+</ul>
+<p><a name="pagenumbers"></a></p>
+<h2 id="add-page-numbers">Add Page Numbers</h2>
+<p>To insert page numbers in a report, do the following.</p>
+<ol>
+<li><p>Right-click the <strong>Page Info</strong> control, and in the context menu, click the <strong>Edit...</strong> link. Then, in the invoked dialog, specify the <strong>Page Information</strong> property.</p>
+<p> <img src="../../../../../images/img123723.png" alt="EUD_WpfReportDesigner_PageInfo_2"></p>
+<p> You can choose one of the following formats for displaying page numbers.</p>
+<ul>
+<li><strong>Number</strong> - displays the current page number only.</li>
+<li><strong>Number of Total</strong> - displays the current page number with total pages.</li>
+<li><strong>Rom Low Number</strong> - the current page number is written in lowercase Roman letters.</li>
+<li><strong>Rom Hi Number</strong> - the current page number is written in uppercase Roman letters.</li>
+<li><strong>Total</strong> - displays the total number of pages.</li>
+</ul>
+</li>
+<li><p>To format the control&#39;s text, in the <strong>Edit</strong> dialog, specify the required format (e.g., <strong>Page {0} of {1}</strong>).</p>
+<p> <img src="../../../../../images/img123724.png" alt="EUD_WpfReportDesigner_PageInfo_3"></p>
+</li>
+<li>You can also specify the <strong>Start Page Number</strong> and <strong>Running Band</strong> properties. For instance, the latter is available when there are <a href="../shaping-data/grouping-data.html">groups</a> in a report, and you are required to apply independent page numbering for them.</li>
+</ol>
+<p>The result is shown below.</p>
+<p><img src="../../../../../images/img123725.png" alt="EUD_WpfReportDesigner_PageInfo_4"></p>
+<p><a name="datetime"></a></p>
+<h2 id="add-system-date-and-time">Add System Date and Time</h2>
+<p>To insert the current system date and time into a report, perform the steps below.</p>
+<ol>
+<li><p>Right-click the <strong>Page Info</strong> control and select <strong>Edit...</strong> in the context menu. In the invoked dialog, expand the <strong>Page Information</strong> drop-down and select <strong>Date Time</strong>.</p>
+<p> <img src="../../../../../images/img123726.png" alt="EUD_WpfReportDesigner_PageInfo_5"></p>
+</li>
+<li><p>To <a href="../shaping-data/formatting-data.html">format</a> the control&#39;s text, you can either type it in the <strong>Format</strong> property, or click its ellipsis button and use the <strong>Format String Editor</strong>.</p>
+<p> <img src="../../../../../images/img123727.png" alt="EUD_WpfReportDesigner_PageInfo_6"></p>
+</li>
+</ol>
+<p>The result is shown below.</p>
+<p><img src="../../../../../images/img123728.png" alt="EUD_WpfReportDesigner_PageInfo_7"></p>
+<p><a name="username"></a></p>
+<h2 id="add-the-user-name">Add the User Name</h2>
+<p>To display the current user name in a report, do the following.</p>
+<ol>
+<li><p>Right-click the <strong>Page Info</strong> control and select <strong>Edit...</strong> in the context menu. In the invoked dialog, expand the <strong>Page Information</strong> drop-down and select <strong>User Name</strong>.</p>
+<p> <img src="../../../../../images/img123729.png" alt="EUD_WpfReportDesigner_PageInfo_8"></p>
+</li>
+<li><p>To format the control&#39;s text, in the <strong>Edit</strong> dialog, specify the required format (e.g., <strong>Current User: {0}</strong>).</p>
+<p> <img src="../../../../../images/img123730.png" alt="EUD_WpfReportDesigner_PageInfo_9"></p>
+</li>
+</ol>
+<p>The following image demonstrates the result.</p>
+<p><img src="../../../../../images/img123731.png" alt="EUD_WpfReportDesigner_PageInfo_10"></p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/23.1/reporting-for-desktop/articles/report-designer/report-designer-for-wpf/creating-reports/adding-details-about-a-report/add-page-numbers-and-system-information-to-a-report.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2023 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../../../styles/main.js"></script>
+  </body>
+</html>

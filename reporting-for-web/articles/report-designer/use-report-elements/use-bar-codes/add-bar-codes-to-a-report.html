@@ -1,0 +1,148 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Add Barcodes to a Report | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Add Barcodes to a Report | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="../../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../../index.html">
+                <img id="logo" class="svg" src="../../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="add-barcodes-to-a-report">Add Barcodes to a Report</h1>
+
+<h2 id="overview">Overview</h2>
+<p>To insert a barcode into a report, drag the <strong>Barcode</strong> item from the <a href="../../report-designer-tools/toolbox.html">Toolbox</a> onto the report&#39;s area.</p>
+<p><img src="../../../../images/eurd-web-add-bar-code-to-report.png" alt=""></p>
+<p>After creating the barcode, expand the <strong>Actions</strong> category and select the barcode type (symbology) in the <strong>Symbology</strong> property&#39;s drop-down list.</p>
+<p><img src="../../../../images/eurd-web-bar-code-symbology.png" alt=""></p>
+<p>After specifying the symbology, you can customize the type-specific options of the barcode, which are listed under the <strong>Symbology</strong> property.</p>
+<p><img src="../../../../images/eurd-web-bar-code-symbology-property.png" alt=""></p>
+<h2 id="main-options">Main Options</h2>
+<p>To specify the bar width (a barcode&#39;s resolution), use the following options:</p>
+<ul>
+<li>Automatically calculate the bar width according to a barcode&#39;s dimensions by enabling the <strong>Auto Module</strong> option;</li>
+<li>Provide a fixed bar width value using the <strong>Module</strong> property.</li>
+</ul>
+<p>The following are some additional barcode options:</p>
+<ul>
+<li><p>Use the barcode&#39;s <strong>Text</strong> property to provide accompanying text. The <strong>Show Text</strong> property allows you to show or hide this text.</p>
+</li>
+<li><p>Use the <strong>Orientation</strong> property to rotate a barcode.</p>
+</li>
+<li><p>Use the <strong>Padding</strong> property to specify the indent between bars and the barcode&#39;s inner boundaries.</p>
+</li>
+</ul>
+<h2 id="bind-to-data">Bind to Data</h2>
+<p>You can <a href="../bind-controls-to-data.html">bind</a> the bar code&#39;s <strong>Text</strong> property to a data field obtained from a report&#39;s data source. Click the <strong>Text</strong> property&#39;s ellipsis button in the <a href="../../report-designer-tools/ui-panels/expressions-panel.html">Expressions</a> panel. The invoked <a href="../../report-designer-tools/expression-editor.html">Expression Editor</a> allows you to select a data field or construct a complex binding expression with two or more data fields.</p>
+<p><img src="../../../../images/eurd-web-bar-code-bind-to-data.png" alt=""></p>
+<h2 id="common-errors">Common Errors</h2>
+<p>The following section explains how to work around the most frequently encountered errors related to the incorrect use of barcodes.</p>
+<ul>
+<li><p>The following error message is shown in place of the barcode if the control&#39;s dimensions are too small to fit the barcode with its specified resolution.</p>
+<p>  <img src="../../../../images/eurd-web-bar-code-small-boundaries-error.png" alt=""></p>
+<p>  To get rid of this error, enable the <strong>Auto Module</strong> property and/or increase the barcode&#39;s dimensions.</p>
+</li>
+<li><p>The following error message appears when the data supplied to a barcode contains characters that are not supported by this barcode type.</p>
+<p>  <img src="../../../../images/eurd-web-bar-code-invalid-characters-error.png" alt=""></p>
+<p>  To avoid this error, supply data that applies to a particular barcode specification.</p>
+</li>
+</ul>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/23.1/reporting-for-web/articles/report-designer/use-report-elements/use-bar-codes/add-bar-codes-to-a-report.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2023 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../../styles/main.js"></script>
+  </body>
+</html>

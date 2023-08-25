@@ -69,7 +69,7 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="conditional-formatting">Conditional Formatting</h1>
 
-<p>For the Card dashboard item, you can apply conditional formatting to the card&#39;s visual elements (like Title, Subtitle, various values) and change the card&#39;s background.</p>
+<p>Use conditional formatting to change the background color of the card or to highlight individual card elements (such as title or value).</p>
 <p><img src="../../../../images/web-dashboard-card-conditional-formatting.png" alt=""></p>
 <div class="NOTE"><h5>Note</h5><p>Cards that use a <a href="https://docs.devexpress.com/Dashboard/118608/create-dashboards/create-dashboards-on-the-web/dashboard-item-settings/cards/layout#legacy-layout-v162-and-earlier">legacy layout</a> do not support conditional formatting.</p>
 </div>
@@ -111,20 +111,34 @@
 </li>
 </ul>
 <p>Refer to the following topic for information on how to create and edit format rules: <a href="../../appearance-customization/conditional-formatting.html">Conditional Formatting in Web Dashboard</a>.</p>
+<h2 id="appearance-settings">Appearance Settings</h2>
+<p>You can add an icon to the <a href="layout.html">card layout element</a> or configure the style for display text or background color. To do this, open the format rule&#39;s <strong>Condition</strong> section and specify the settings:</p>
+<ul>
+<li><p><strong>Appearance</strong></p>
+<p>  You can select a predefined style or create a <em>Custom Style</em> in the <strong>Appearance</strong> tab. You can specify background color, text color, and font settings.</p>
+<p>  The background color applies to the entire card. Text settings allow you to specify a target element.</p>
+<p>  <img src="../../../../images/web-conditional-formatting-card.png" alt="Web Dashboard - Conditional Formatting with Appearance"></p>
+</li>
+<li><p><strong>Icons</strong></p>
+<p>  You can select an predefined icon from the <strong>Icon</strong> tab.</p>
+<p>  The image below displays the result of the format rule that adds the green check icon to the <em>Category</em> dimension layout element:</p>
+<p>  <img src="../../../../images/web-card-conditional-formatting-custom-layout-element.png" alt="Web Dashboard - Conditional Formatting with Icons"></p>
+</li>
+</ul>
 <h2 id="card-specific-format-condition-settings">Card-Specific Format Condition Settings</h2>
-<p>For a Card dashboard item, you can apply conditional formatting to the card&#39;s visual elements (like Title, Subtitle, different values) and change the card&#39;s background.</p>
 <p>Available settings in the <strong>Common</strong> section depend on the selected <strong>Calculated by</strong> option:</p>
 <ul>
-<li><p>The <strong>Card</strong> option specifies a data item container. The format rule is calculated based on the card&#39;s values. The <strong>Value Type</strong> option specifies the card&#39;s measurement upon which a condition is calculated.</p>
-<p>  If the Card dashboard item contains multiple values in data item containers (cards), make sure you apply a format rule to the active card to see changes. Click <img src="../../../../images/webdashboard_dashboarditem_layersicon132016.png" alt="WebDashboard_DashboardItem_LayersIcon"> in the dashboard item caption to switch between cards. The expression format rule ignores the specified card and is applied to all cards regardless of the specified value.</p>
+<li><p><strong>Card</strong></p>
+<p>  The <strong>Card</strong> option specifies a data item container (a <a href="providing-data.html">card</a>) whose values are used to calculate the format rule. The <strong>Value Type</strong> field allows you to pre-process the card&#39;s value before it takes part in calculations. </p>
+<p>  <img src="../../../../images/web-conditional-formatting-card-delta-variation.png" alt="Web Dashboard - Card Conditional Formatting - Card Option"></p>
+<p>  If a dashboard item contains multiple cards, apply a format rule to the active card to see the changes. To switch between cards, click the <strong>Values</strong> button in the dashboard item caption. Note that the expression format condition applies to all cards regardless of the specified card.</p>
 </li>
-<li>For the <strong>Data Item</strong> option, you can choose a hidden measure or series dimension. The rule applies to all cards in a Card item.</li>
+<li><p><strong>Data Item</strong></p>
+<p>  For the <strong>Data Item</strong> option you can choose a hidden measure or series dimension. The rule applies to all cards in a Card item.</p>
+<p>  <img src="../../../../images/web-dashboard-card-data-item-option.png" alt="|Web Dashboard - Card Conditional Formatting - Data Item Option"></p>
+</li>
 </ul>
-<p><img src="../../../../images/web-conditional-formatting-card-delta-variation.png" alt="conditional-formatting-card-delta-variation"></p>
-<p>To apply the selected appearance to the Title, Subtitle, values, and other card layout elements, use the <strong>Apply to</strong> drop-down list. The <em>All elements</em> value applies the format rule to all card elements.</p>
-<p>If you select a background color, it applies to the entire card and the <strong>Apply to</strong> value is not in effect.</p>
-<p><img src="../../../../images/web-conditional-formatting-card.png" alt="conditional-formatting-card"></p>
-<p>Some predefined background styles contain a font color. This font color applies to all the card elements regardless of the drop-down list settings (all/particular element).</p>
+<p>To apply the appearance settings to the certain card layout element, use the drop-down <strong>Apply to</strong> list. The <em>All elements</em> value applies the format rule to all card elements.</p>
 </article>
           </div>
           
@@ -133,7 +147,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/22.2/dashboard-for-web/articles/web-dashboard-designer-mode/dashboard-item-settings/cards/conditional-formatting.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/23.1/dashboard-for-web/articles/web-dashboard-designer-mode/dashboard-item-settings/cards/conditional-formatting.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>
@@ -153,7 +167,7 @@
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            Copyright (c) 1998-2022 Developer Express Inc. All rights reserved.
+            Copyright (c) 1998-2023 Developer Express Inc. All rights reserved.
             
           </div>
         </div>

@@ -120,36 +120,40 @@
 </li>
 </ul>
 <h2 id="create-a-format-rule">Create a Format Rule</h2>
-<p>To create a format rule, open the <strong>Conditional Formatting</strong> section in the dashboard item&#39;s <a href="../ui-elements/dashboard-item-menu.html">Options</a> menu or in the <a href="../ui-elements/data-item-menu.html">data item menu</a>. Click &quot;+&quot; to add a new format rule:</p>
+<p>To create a format rule, open the <strong>Conditional Formatting</strong> section in the <a href="../ui-elements/data-item-menu.html">data item menu</a> or in the the dashboard item&#39;s <a href="../ui-elements/dashboard-item-menu.html">Options</a> menu. Click &quot;+&quot; to add a new format rule:</p>
 <p><img src="../../../images/wed-dashboard-cf-add-rule.png" alt="wed-dashboard-cf-add-rule"></p>
-<p>Specify the data item/card used to calculate a condition in the <strong>Common</strong> section. You can also create a format rule for one data item and apply different settings to the other data item. </p>
-<p>Select a format rule type from the list to open its settings.</p>
+<p>Specify the data item/card used to calculate a condition in the <strong>Calculated by</strong> field in the <strong>Common</strong> section. You can use values from one data item to apply the style settings to a different item. To do this, specify the data item in the <strong>Apply to</strong> section.</p>
+<p>Select a condition type from the list in the <strong>Common</strong> section. Available condition types depend on the data item’s type.</p>
 <p><img src="../../../images/img126024.png" alt="wdd-grid-cf-select-rule-type"></p>
-<p>Select a condition from the list and <a href="#appearance-settings">specify its settings</a> in the <strong>Condition</strong> section. Available settings depend on the selected format rule.</p>
-<p><img src="../../../images/img126023.png" alt="wdd-grid-cf-value-menu"></p>
-<p>Specify additional settings in the <strong>Miscellaneous</strong> section. For example, you can specify the intersection level for the Pivot or apply the current rule to a row in the Grid.</p>
+<p>In the Condition section, specify the condition settings and <a href="#appearance-settings">appearance settings</a>.</p>
+<p><img src="../../../images/img126023.png" alt="|wdd-grid-cf-value-menu"></p>
+<p>You can specify additional settings in the <strong>Miscellaneous</strong> section. For example, you can specify an intersection level for a Pivot or apply a rule to a row in a Grid.</p>
 <h2 id="edit-a-format-rule">Edit a Format Rule</h2>
-<p>To edit a format rule, select the rule and click <strong>Edit</strong> (the <img src="../../../images/img126050.png" alt="wdd-icon-edit-collection-value-item"> icon).</p>
-<p><img src="../../../images/wdd-grid-cf-edit-rule126025.png" alt="wdd-icon-delete-big"></p>
-<p>Click <strong>Delete</strong> (the <img src="../../../images/img126104.png" alt="wdd-icon-delete-big"> icon) to delete the selected format rule.</p>
-<p>When you edit a format rule, you can enable or disable the rule in the <strong>Miscellaneous</strong> section.</p>
+<p>To edit a format rule, select the rule and click the <strong>Edit</strong> button.</p>
+<p><img src="../../../images/wdd-grid-cf-edit-rule126025.png" alt="|wdd-icon-delete-big"></p>
+<p>Click the <strong>Delete</strong> button to delete the selected format rule.</p>
+<p>You can also disable the rule in the <strong>Miscellaneous</strong> section.</p>
 <p><img src="../../../images/web-conditional-formatting-edit-rule-miscellaneous-section.png" alt="miscellaneous-section"></p>
 <p>Other settings in the <strong>Miscellaneous</strong> section depend on the selected dashboard item.</p>
 <h2 id="appearance-settings">Appearance Settings</h2>
-<p>The format rule menu&#39;s <strong>Condition</strong> section contains appearance settings. </p>
-<p>For Grid, Pivot, and Card items, you can configure and customize the current format condition appearance settings:</p>
+<p>You can specify appearance settings in the format rule’s Condition section.</p>
+<h3 id="grid-pivot-and-cards">Grid, Pivot, and Cards</h3>
+<p>For Grid, Pivot, and Card items, you can specify the following settings:</p>
 <ul>
-<li><p>Choose a predefined background color or font in the <strong>Appearance</strong> tab.</p>
-<p>  <img src="../../../images/img126044.png" alt="wdd-cf-appearance-gallery"></p>
+<li><p><strong>Appearance</strong></p>
+<p>  In the <strong>Appearance</strong> tab, select a predefined style from the <strong>Predefined Appearance</strong> section or specify a <em>Custom Style</em> in the <strong>Custom Appearance</strong> section.</p>
+<p>  <img src="../../../images/wdd-cf-appearance-gallery126044.png" alt="Web Dashboard - Appearance Tab"></p>
+<p>  To create a <em>Custom Style</em>, click on an empty square in the <strong>Custom Appearance</strong> section. In the invoked <strong>Custom Style Settings</strong> editor, specify the background color, text color, and font settings:</p>
+<p>  <img src="../../../images/web-dashboard-cf-custom-style.png" alt="Web Dashboard -  Custom Style Editor"></p>
 </li>
-<li><p>Add a predefined icon in the <strong>Icons</strong> tab.</p>
-<p>  <img src="../../../images/img126045.png" alt="wdd-cf-icons-gallery"></p>
+<li><p><strong>Icons</strong></p>
+<p>  You can select an predefined icon from the <strong>Icon</strong> tab.</p>
+<p>  <img src="../../../images/wdd-cf-icons-gallery126045.png" alt="Web Dashboard - Icons Tab"></p>
 </li>
 </ul>
-<p>Chart and Scatter Chart items have a predefined palette and a custom palette. Click a color chip in the <strong>Custom Color</strong> palette to set a new custom color. You can pick any color using the RGB or HSB color model in the invoked color picker.</p>
+<h3 id="chart-scatter-chart">Chart, Scatter Chart</h3>
+<p>Chart and Scatter Chart items have a predefined palette and custom palette. Click a color chip in the <strong>Custom Color</strong> palette to set a new custom color. You can use the RGB or HSB color model in the invoked color picker to pick any color.</p>
 <p><img src="../../../images/wdd-cf-chart-styles.png" alt="wdd-cf-chart-styles"></p>
-<p>You can change generated colors for the Range format rules:</p>
-<p><img src="../../../images/wdd-cf-range-gallery126043.png" alt="wdd-cf-range-gallery"></p>
 <h2 id="dashboard-item-format-rule-specifics">Dashboard Item Format Rule Specifics</h2>
 <p>See the following sections for more information about specific format settings for dashboard items:</p>
 <ul>
@@ -167,7 +171,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/22.2/dashboard-for-web/articles/web-dashboard-designer-mode/appearance-customization/conditional-formatting.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/23.1/dashboard-for-web/articles/web-dashboard-designer-mode/appearance-customization/conditional-formatting.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>
@@ -187,7 +191,7 @@
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            Copyright (c) 1998-2022 Developer Express Inc. All rights reserved.
+            Copyright (c) 1998-2023 Developer Express Inc. All rights reserved.
             
           </div>
         </div>

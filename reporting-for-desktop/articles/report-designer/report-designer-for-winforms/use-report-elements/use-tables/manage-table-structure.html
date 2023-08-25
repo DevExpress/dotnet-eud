@@ -1,0 +1,167 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Manage Table Structure | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Manage Table Structure | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="../../../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../../../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../../../index.html">
+                <img id="logo" class="svg" src="../../../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="manage-table-structure">Manage Table Structure</h1>
+
+<h2 id="insert-table-rows-and-columns">Insert Table Rows and Columns</h2>
+<p>You can use the <strong>Insert</strong> group in the <a href="../../report-designer-tools/toolbar.html">toolbar</a>&#39;s <strong>Table Tools</strong> contextual tab or the <strong>Insert</strong> context menu items to add new rows and columns. The added cells inherit the source cells&#39; size and appearance settings.</p>
+<p><img src="../../../../../images/eurd-win-table-insert-commands.png" alt=""></p>
+<ul>
+<li><p><strong>Insert Row Above</strong></p>
+<p>  Inserts a row above the current cell and shifts the existing rows up if there is enough space above the table (otherwise, shifts the existing rows down).</p>
+<p>  <img src="../../../../../images/eurd-win-table-insert-row-above.png" alt=""></p>
+</li>
+<li><p><strong>Insert Row Below</strong></p>
+<p>  Inserts a row below the current cell and shifts the existing rows down. This command increases the band height to accommodate all the rows if there is not enough space under the table.</p>
+<p>  <img src="../../../../../images/eurd-win-table-insert-row-below.png" alt=""></p>
+</li>
+<li><p><strong>Insert Column to Left</strong></p>
+<p>  Inserts a new column to the left of the current cell and shifts the leftmost columns to the left (otherwise, shifts these columns to the right). </p>
+<p>  <img src="../../../../../images/eurd-win-table-insert-column-to-left.png" alt=""></p>
+</li>
+<li><p><strong>Insert Columns to Right</strong></p>
+<p>  Inserts a new column to the right of the current cell and shifts the rightmost columns to the right. This command decreases all columns&#39; width proportionally to accommodate all the columns if there is not enough space to the right of the table.</p>
+<p>  <img src="../../../../../images/eurd-win-table-insert-column-to-right.png" alt=""></p>
+</li>
+</ul>
+<h2 id="insert-split-and-merge-table-cells">Insert, Split and Merge Table Cells</h2>
+<ul>
+<li><p><strong>Insert Cell</strong> (context menu item)</p>
+<p>  Divides the current cell width in half and inserts a new cell to the right. The added cell copies the source cell&#39;s appearance settings.</p>
+<p>  <img src="../../../../../images/eurd-win-table-insert-cell.png" alt=""></p>
+</li>
+<li><p><strong>Merge Cells</strong></p>
+<p>  Merges the selected cells. This command is available if the selection has a rectangle form. </p>
+<p>  <img src="../../../../../images/eurd-win-table-merge-cells.png" alt=""></p>
+</li>
+<li><p><strong>Split Cells</strong></p>
+<p>  Invokes the <strong>Split Cells</strong> dialog where you can specify the number of columns and rows to split the selected cells. You can apply this change to each selected cell individually, or merge the cells and then split the resulting cell.</p>
+<p>  <img src="../../../../../images/eurd-win-table-split-cells.png" alt=""></p>
+</li>
+</ul>
+<h2 id="delete-table-elements">Delete Table Elements</h2>
+<p>Use the <strong>Delete</strong> group in the <a href="../../report-designer-tools/toolbar.html">toolbar</a>&#39;s <strong>Table Tools</strong> contextual tab or the <strong>Delete</strong> context menu items to remove table elements.</p>
+<p><img src="../../../../../images/eurd-win-table-delete-commands.png" alt=""></p>
+<ul>
+<li><p><strong>Delete Cell</strong></p>
+<p>  Deletes a table cell and stretches the previous cell to occupy the remaining space. If this cell is the first in the row, the next cell is stretched.</p>
+<p>  <img src="../../../../../images/eurd-win-table-delete-cell.png" alt=""></p>
+</li>
+<li><p><strong>Delete Row</strong></p>
+<p>  Deletes a row and shifts the existing rows up.</p>
+<p>  <img src="../../../../../images/eurd-win-table-delete-row.png" alt=""></p>
+</li>
+<li><p><strong>Delete Column</strong></p>
+<p>  Deletes a column and shifts the existing columns to the left.</p>
+<p>  <img src="../../../../../images/eurd-win-table-delete-column.png" alt=""></p>
+</li>
+<li><p><strong>Delete Table</strong></p>
+<p>  Deletes the entire table.</p>
+</li>
+</ul>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/23.1/reporting-for-desktop/articles/report-designer/report-designer-for-winforms/use-report-elements/use-tables/manage-table-structure.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2023 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../../../styles/main.js"></script>
+  </body>
+</html>

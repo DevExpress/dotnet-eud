@@ -1,0 +1,157 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Multi-Column Reports | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Multi-Column Reports | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../index.html">
+                <img id="logo" class="svg" src="../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="multi-column-reports">Multi-Column Reports</h1>
+
+<p>This document describes how to arrange report data in multiple columns, which can be used to create mailing labels, business cards or multi-column directories.</p>
+<p><img src="../../../images/eurd-web-multi-column-result.png" alt=""></p>
+<h2 id="settings">Settings</h2>
+<p>To access the multi-column settings of a report&#39;s Detail band, switch to the <a href="../report-designer-tools/ui-panels/properties-panel.html">Properties</a> panel and expand the <strong>Actions</strong> or the <strong>Behavior</strong> category.</p>
+<p><img src="../../../images/eurd-web-multi-column-options.png" alt=""></p>
+<p><strong>Mode</strong></p>
+<p>Enables you to select one of the following modes:</p>
+<ul>
+<li><p><strong>None</strong> </p>
+<p>  Disables the multi-column layout.</p>
+</li>
+<li><p><strong>Use Column Count</strong></p>
+<p>  Makes the report display a specific number of columns based on the <strong>Column Count</strong> value. When this property is set to <strong>1</strong>, the report looks as though its multi-column layout is disabled.</p>
+</li>
+<li><p><strong>Use Column Width</strong> </p>
+<p>  Makes the report columns have a specific width based on the <strong>Column Width</strong> value. With this setting, the report displays as many columns as it is possible according to the specified column width, column spacing and report page size.</p>
+</li>
+</ul>
+<p><strong>Column Spacing</strong></p>
+<p>Specifies the distance between adjacent columns. This value is measured in <a href="../configure-design-settings/change-a-report-measurement-units.html">report units</a>.</p>
+<p><strong>Layout</strong> </p>
+<p>Specifies the preferred direction for arranging report data within columns.</p>
+<ul>
+<li><p><strong>First Across, then Down</strong></p>
+<p>  The report data is arranged horizontally and is wrapped to the next row on reaching the right page margin.</p>
+<p>  <img src="../../../images/eurd-web-multi-column-across-then-down-ungrouped.png" alt=""></p>
+<p>  When the report data is grouped, the multi-column layout is applied to each group individually.</p>
+<p>  <img src="../../../images/eurd-web-multi-column-across-then-down-grouped.png" alt=""></p>
+</li>
+<li><p><strong>First Down, then Across</strong></p>
+<p>  The report data is arranged vertically and is wrapped to the next column on reaching the bottom page margin.</p>
+<p>  <img src="../../../images/eurd-web-multi-column-down-then-across-ungrouped.png" alt=""></p>
+<p>  When the report data is grouped, you can make each group start on a new column by setting the <strong>Page Break</strong> property of the Group Footer to <strong>After the Band</strong>.</p>
+<p>  <img src="../../../images/eurd-web-multi-column-down-then-across-grouped.png" alt=""></p>
+</li>
+</ul>
+<h2 id="how-it-works">How It Works</h2>
+<p>The following image illustrates a report designer with a multi-column layout applied to the report:</p>
+<p><img src="../../../images/eurd-web-multi-column-layout.png" alt=""></p>
+<p>In multi-column mode, the report&#39;s design surface is limited to the area defined by the column width. This is the only area intended to contain report controls.</p>
+<p>The rest of this surface defines the space on a page remaining for printing columns and column spacing area.</p>
+<p>In the above image, the report data in the Detail band is contained within a <a href="../use-report-elements/use-basic-report-controls/panel.html">Panel</a> that provides borders around the enclosed content.</p>
+<p><img src="../../../images/eurd-web-multi-column-panel-borders-property.png" alt=""></p>
+<p>You can also specify a custom background color for the Panel. To learn how to change this color dynamically (based on the report&#39;s underlying data), see <a href="../shape-report-data/specify-conditions-for-report-elements/conditionally-change-a-control-appearance.html">Conditionally Change a Control&#39;s Appearance</a>.</p>
+<p>When the report data is <a href="../shape-report-data/group-and-sort-data/group-data.html">grouped</a> (as in the above image), and the <strong>First Down, then Across</strong> multi-column layout is used, you can make each group start on a new column. To do this, set the <strong>Page Break</strong> property of the Group Footer to <strong>After the Band</strong> or <strong>After the Band, Except for the Last Entry</strong>. When there is no data to display in the Group Footer, set the band height to zero.</p>
+<p><img src="../../../images/eurd-web-multi-column-band-page-break.png" alt=""></p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/23.1/reporting-for-web/articles/report-designer/create-reports/multi-column-reports.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2023 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../styles/main.js"></script>
+  </body>
+</html>

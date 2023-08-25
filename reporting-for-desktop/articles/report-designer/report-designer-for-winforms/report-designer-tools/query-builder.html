@@ -1,0 +1,235 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Query Builder | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Query Builder | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="../../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../../index.html">
+                <img id="logo" class="svg" src="../../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="sql-query-builder-winforms">SQL Query Builder (WinForms)</h1>
+
+<p>The <strong>Query Builder</strong> allows you to construct SQL queries to retrieve data from an <a href="../bind-to-data/bind-a-report-to-a-database.html">SQL Database</a>.</p>
+<p><img src="../../../../images/winforms-sql-query-builder.png" alt="Query Builder"></p>
+<h2 id="run-the-query-builder">Run the Query Builder</h2>
+<p>Use the <a href="data-source-wizard.html">Data Source Wizard</a> or <a href="report-wizard.html">Report Wizard</a> to bind your report to an <a href="../bind-to-data/bind-a-report-to-a-database.html">SQL Database</a>. Switch to the <a href="data-source-wizard/connect-to-a-database/create-a-query-or-select-a-stored-procedure.html">query customization page</a> and click the <em>Add</em> button in the <strong>Queries</strong> row.</p>
+<p><img src="../../../../images/winforms-data-source-wizard-query-customization-page.png" alt="Data Source Wizard&#39;s Query Customization Page"></p>
+<h2 id="select-tables">Select Tables</h2>
+<p>Drag the table that you want to add to a query from the list of available tables and drop the table onto the <strong>Query Builder</strong> surface.</p>
+<p><img src="../../../../images/winforms-query-builder-drag-and-drop-table.png" alt="Query Builder: Drag and Drop a Table"></p>
+<p>To find a table by name, switch to the table list, press <em>CTRL+F</em>, and enter the table name in the editor.</p>
+<p><img src="../../../../images/winforms-query-builder-find-table-by-name.png" alt="Query Builder: Find a Table by Name"></p>
+<p>Enable checkboxes for the table columns that you want to include in the query.</p>
+<p><img src="../../../../images/winforms-query-builder-select-columns.png" alt="Query Builder: Select Columns"></p>
+<p>If you want to include all the columns available in the table, enable <strong>* (All Columns)</strong>.</p>
+<p>Right-click the table and select <em>Rename</em> or <em>Delete</em> to change the table&#39;s name or remove it.</p>
+<p><img src="../../../../images/winforms-query-builder-delete-or-rename-column.png" alt="Query Builder: Rename or Delete Column"></p>
+<h2 id="join-tables">Join Tables</h2>
+<p>You can join multiple tables within the same query. Do one of the following to add a table onto the <strong>Query Builder</strong> surface:</p>
+<ul>
+<li>Drag and drop a table from the table list onto the surface. </li>
+<li>Double-click a table in the table list.</li>
+</ul>
+<p>The table list on the left highlights all child and parent tables that are bound to the dropped table by a foreign key. </p>
+<p><img src="../../../../images/winforms-query-builder-table-added-to-a-query.png" alt="Query Builder: Table Added to a Query"></p>
+<p>Add required tables to the surface. The <em>Inner Join</em> relation with the previously added table is created automatically. Added tables display the green plus button for the columns that refer to other tables. You can click this icon to add a linked table to the query and create the <em>Inner Join</em> relation with this table.</p>
+<p><img src="../../../../images/winforms-query-builder-create-inner-join-relation-automatically.png" alt="Query Builder: Create the Inner Join Relation Automatically"></p>
+<p>Right-click a relation to edit, delete, or reverse.</p>
+<p><img src="../../../../images/winforms-query-builder-edit-relation.png" alt="Query Builder: Edit Relation"></p>
+<p>The <em>Edit Relation</em> command invokes the <strong>Join Editor</strong>. It allows you to specify the join type (<em>Inner</em>, <em>Left Outer</em>, <em>Right Outer</em>, or <em>Full Outer</em> ), columns by which the tables should be joined, and a logical operator (<em>Equal to</em>, <em>Is less than</em>, or others) used to compare table columns.</p>
+<p><img src="../../../../images/winforms-query-builder-join-editor.png" alt="Query Builder: Join Editor"></p>
+<p>You can manually join tables if they are not bound by a foreign key at the database level. In this case, when you drag-and-drop a table onto the <strong>Query Builder</strong> surface, the <strong>Join Editor</strong> is automatically invoked, and this editor allows you to construct a custom join relation.</p>
+<p><img src="../../../../images/winforms-query-builder-create-relation-manually-in-the-join-editor.png" alt="Query Builder: Create Relation Manually in the Join Editor"></p>
+<div class="NOTE"><h5>Note</h5><p>When you join multiple tables within a single SQL query, you create a flattened table composed of data records selected based on the specified join relations. You can also create <a href="data-source-wizard/connect-to-a-database/create-a-query-or-select-a-stored-procedure.html">hierarchical data sources</a>. In general, <a href="../create-reports/master-detail-reports-with-detail-report-bands.html">master-detail reports</a> are generated faster than similar-looking reports created based on flattened data sources. If possible, use hierarchical data sources instead of flattened ones.</p>
+</div>
+<h2 id="shape-data">Shape Data</h2>
+<p>The <strong>Query Builder</strong> displays a list of the query&#39;s columns at the bottom-right corner.</p>
+<p><img src="../../../../images/winforms-query-builder-list-of-selected-columns.png" alt="Query Builder: List of Selected Table Columns"></p>
+<p>This list allows you to add new table columns to the query or shape selected table columns. The following options are available:</p>
+<ul>
+<li><p><strong>Column</strong> - Specifies the selected column. Click the down-arrow button to display a drop-down column list and replace the column with another column. Click the ellipsis button to replace the column with an <a href="../use-expressions.html">expression</a>.</p>
+<p>  <img src="../../../../images/winforms-query-builder-specify-expression-for-column.png" alt="Query Builder: Specify an Expression for a Column"></p>
+</li>
+<li><p><strong>Table</strong> - The table that contains the selected column. When you create an expression for a column, this option displays <strong>(All Tables)</strong>.</p>
+</li>
+<li><p><strong>Alias</strong> - A custom column name.</p>
+</li>
+<li><p><strong>Output</strong> - Specifies whether to include the column in the query&#39;s resulting set.</p>
+</li>
+<li><p><strong>Sorting Type</strong> - Specifies whether to keep the initial data record order (<strong>Unsorted</strong>) or sort the records by the column (<strong>Ascending</strong> or <strong>Descending</strong>).</p>
+<div class="NOTE"><h5>Note</h5><p>When you bind a report to an XML file, the <strong>Query Builder</strong> does not support sorting by aggregate functions and the <em>DISTINCT</em> and <em>SELECT ALL</em> statements.</p>
+</div>
+</li>
+<li><p>Sort Order - Defines the sort order when data is sorted by multiple columns. For example, if column <strong>A</strong> has the sort order set to <strong>1</strong> and column <strong>B</strong> has it set to <strong>2</strong>, data records are first sorted by column <strong>A</strong> and then by column <strong>B</strong>. This option is available if you enable the <strong>Sorting Type</strong> option.</p>
+</li>
+<li><p><strong>Group By</strong> - Specifies whether to group the query&#39;s resulting set by this column.</p>
+</li>
+<li><p><strong>Aggregate</strong> - Specifies whether to apply an aggregate function to column values. The following aggregate functions are supported:</p>
+<ul>
+<li>Count</li>
+<li>Max</li>
+<li>Min</li>
+<li>Avg</li>
+<li>Sum</li>
+<li>CountDistinct</li>
+<li>AvgDistinct</li>
+<li>SumDistinct</li>
+</ul>
+</li>
+</ul>
+<p>When you want to use the <strong>Group By</strong> or <strong>Aggregate</strong> operations, you should apply them either to all columns or none of them. When you use these operations, only the result of aggregation or grouping is included in the result set.</p>
+<h2 id="filter-data">Filter Data</h2>
+<p>Click the <strong>Filter</strong> button to invoke the <strong>Filter Editor</strong>.</p>
+<p><img src="../../../../images/winforms-query-builder-click-filter-button.png" alt="Query Builder: Click Filter Button"></p>
+<p><img src="../../../../images/winforms-query-builder-filter-editor.png" alt="Query Builder: Filter Editor"></p>
+<p>The editor has the following tabs:</p>
+<ul>
+<li><strong>Filter Tab</strong> - Allows you to build criteria to filter data for the report. Filter criteria can reference <a href="../bind-to-data/specify-query-parameters.html">query parameters</a>, which you can also map to <a href="../use-report-parameters.html">report parameters</a>.</li>
+<li><strong>Group Filter Tab</strong> - Allows you to specify filter conditions for grouped and aggregated data. This tab is disabled if the data is not grouped.</li>
+</ul>
+<p>You can also enable the <strong>Select only</strong> option to limit the number of resulting data records. If you enable the <strong>Sorting Type</strong> option for at least one column, you can specify how many data records should be skipped.</p>
+<div class="NOTE"><h5>Note</h5><p>Some data providers do not support the skip setting in the provider-specific SQL string. If you enable the <strong>Select only</strong> option for such data providers, data records are skipped but the <em>SKIP</em> statement is not included in the SQL query.</p>
+</div>
+<p>The <strong>Select only distinct values</strong> option allows you to include only unique values into the resulting set.</p>
+<h2 id="edit-query-parameters">Edit Query Parameters</h2>
+<p>Click <strong>Edit Parameters</strong> to invoke the <strong>Query Parameters</strong> dialog.</p>
+<p><img src="../../../../images/winforms-query-builder-click-edit-parameters-button.png" alt="Query Builder: Click Edit Parameters Button"></p>
+<p>This dialog allows you to add, edit, and remove <a href="../bind-to-data/specify-query-parameters.html">query parameters</a>. The created parameters are available on the <a href="data-source-wizard/connect-to-a-database/configure-query-parameters.html">Configure Query Parameters</a> wizard page.</p>
+<p><img src="../../../../images/winforms-query-builder-query-parameters-dialog.png" alt="Query Builder: Query Parameters Dialog"></p>
+<p>The following properties are available for each query parameter:</p>
+<ul>
+<li><p><strong>Name</strong> - The name by which you can reference the parameter.</p>
+</li>
+<li><p><strong>Type</strong> - The data type of the parameter&#39;s value.</p>
+</li>
+<li><p><strong>Expression</strong> - Specifies whether the parameter&#39;s value is static or generated dynamically. You can enable this option when you need to map the parameter&#39;s value to a <a href="../use-report-parameters.html">report parameter</a>&#39;s value.</p>
+</li>
+<li><p><strong>Value</strong> - The parameter&#39;s value. If the <strong>Expression</strong> option is enabled, this value is generated dynamically based on the parameter&#39;s <a href="../use-expressions.html">expression</a>.</p>
+</li>
+</ul>
+<p>Refer to the following topic for more information: <a href="../bind-to-data/specify-query-parameters.html">Specify Query Parameters</a>.</p>
+<h2 id="preview-results">Preview Results</h2>
+<p>Click the <strong>Preview Results</strong> button to open the <strong>Data Preview</strong> dialog.</p>
+<p><img src="../../../../images/winforms-query-builder-preview-results-button.png" alt="Query Builder: Preview Results Button"></p>
+<p>The dialog displays the first 1000 rows of the query result set.</p>
+<p><img src="../../../../images/winforms-query-builder-preview-results.png" alt="Query Builder: Preview Results"></p>
+<h2 id="manage-queries">Manage Queries</h2>
+<p>Right-click a data source in the <a href="ui-panels/report-explorer.html">Report Explorer</a> or <a href="ui-panels/field-list.html">Field List</a> and select <strong>Manage Queries</strong> in the context menu.</p>
+<p><img src="../../../../images/winforms-invoke-manage-queries-dialog.png" alt="Invoke the Manage Queries Dialog"></p>
+<p>This invokes the <strong>Manage Queries</strong> dialog that allows you to perform operations on queries and stored procedures.</p>
+<p><img src="../../../../images/winforms-manage-queries-dialog.png" alt="Manage Queries Dialog"></p>
+<h3 id="add-a-new-query">Add a New Query</h3>
+<p>Click <strong>Add</strong>, specify a name for the new query, and <a href="#select-tables">select tables</a> that you want to include in the query.</p>
+<p><img src="../../../../images/winforms-manage-queries-dialog-add-new-query.png" alt="Manage Queries Dialog: Add a New Query"></p>
+<h3 id="copy-and-remove-queries">Copy and Remove Queries</h3>
+<p>Select a query and click the <em>Copy</em> or <em>Remove</em> icon.</p>
+<p><img src="../../../../images/winforms-manage-queries-dialog-copy-or-remove-query.png" alt="Manage Queries Dialog: Copy or Remove a Query"></p>
+<h3 id="modify-stored-procedures">Modify Stored Procedures</h3>
+<p>Select an existing stored procedure and choose a new one that you want to include in a query.</p>
+<p><img src="../../../../images/winforms-manage-queries-dialog-modify-a-stored-procedure.png" alt="Manage Queries Dialog: Modify a Stored Procedure"></p>
+<h3 id="add-a-new-stored-procedure">Add a New Stored Procedure</h3>
+<p>Expand the <strong>Add</strong> menu and select <strong>Stored Procedure</strong>.</p>
+<p><img src="../../../../images/winforms-manage-queries-dialog-add-a-stored-procedure.png" alt="Manage Queries Dialog: Add a Stored Procedure"></p>
+<h3 id="rename-a-query-or-stored-procedure">Rename a Query or Stored Procedure</h3>
+<p>Double-click an item in the list of queries and stored procedures and use the editor to specify a new name for this item.</p>
+<p><img src="../../../../images/winforms-manage-queries-dialog-change-item-name.png" alt="Manage Queries Dialog: Change an Item&#39;s Name"></p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/23.1/reporting-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-tools/query-builder.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2023 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../../styles/main.js"></script>
+  </body>
+</html>

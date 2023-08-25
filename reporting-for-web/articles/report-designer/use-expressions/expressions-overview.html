@@ -1,0 +1,163 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Expressions Overview | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Expressions Overview | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../index.html">
+                <img id="logo" class="svg" src="../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="expressions-overview">Expressions Overview</h1>
+
+<p>Use expressions to accomplish the following tasks:</p>
+<ul>
+<li><a href="../use-report-elements/bind-controls-to-data.html">Retrieve data</a></li>
+<li><a href="../shape-report-data/format-data.html">Format data values</a></li>
+<li><a href="../shape-report-data/use-calculated-fields/calculated-fields-overview.html">Create calculated fields</a></li>
+<li><a href="../shape-report-data/calculate-summaries.html">Calculate summaries</a></li>
+<li><a href="../shape-report-data/specify-conditions-for-report-elements.html">Specify conditions for report elements</a></li>
+<li><a href="../bind-to-data/specify-query-parameters.html">Specify conditions for data source queries</a></li>
+</ul>
+<h2 id="how-to-specify-an-expression">How to Specify an Expression</h2>
+<p>In the Report Designer, properties that support expressions have an <code>f</code> button in the <a href="../report-designer-tools/ui-panels/properties-panel.html">Properties</a> panel. Click this button to specify an expression in the invoked Expression Editor.</p>
+<p><img src="../../../images/eurd-web-f-button.png" alt="Properties Window - f Buttons"></p>
+<p>In <strong>Expressions Advanced</strong> mode, the Report Designer allows you to specify expressions that are evaluated within specific events:</p>
+<ul>
+<li>The <strong>BeforePrint</strong> event where you can use data fields from all queries in the data source.</li>
+<li>The <strong>PrintOnPage</strong> event fetches the number of pages in the report and the current page. You can use these variables to specify conditions for report items.</li>
+</ul>
+<p>See the following topic for more information: <a href="data-binding-modes.html">Data Binding Modes</a>.</p>
+<h2 id="expression-editor">Expression Editor</h2>
+<p>The Report Designer&#39;s Expression Editor has a graphical interface that allows you to create and edit expressions.</p>
+<p><img src="../../../images/eurd-web-expression-editor.png" alt="Expression Editor"></p>
+<p>Use one of the following ways to invoke the Expression Editor:</p>
+<ul>
+<li><p>Select a report, band, or control. The <code>f</code> button appears next to the selection. Click this button to invoke the Expression Editor.</p>
+<p>  <img src="../../../images/eurd-web-smarttag-f-button.png" alt="The f Button Near the Control"></p>
+</li>
+<li><p>In the <strong>Properties</strong> window, if an expression can be set for a property, the <code>f</code> button appears near the value editor. Click this button to invoke the Expression Editor.</p>
+<p>  <img src="../../../images/eurd-web-f-button.png" alt="Properties Window - f Buttons"></p>
+<p>  The <code>f</code> button changes its color to blue to indicate that an expression is set for a property.</p>
+<p>  <img src="../../../images/eurd-web-properties-window-f-button-blue.png" alt="The f Button Indicates that an Expression is Set"></p>
+</li>
+</ul>
+<p>The Editor lists all properties for which you can specify an expression.</p>
+<p>Click a property to specify an expression.</p>
+<p><img src="../../../images/eurd-web-expression-editor-properties-list.png" alt="Properties List in the Expression Editor"></p>
+<p>An <code>f</code> icon appears next to a property where an expression is set.</p>
+<p><img src="../../../images/eurd-web-expression-editor-properties-list-expression-set.png" alt="The Text Expression Is Set"></p>
+<p>The Editor highlights an expression&#39;s syntax and supports intelligent code completion (which suggests functions and available data elements as you type).</p>
+<p><img src="../../../images/eurd-web-expression-editor-intellisense.png" alt="Intellisense in the Expression Editor"></p>
+<p>The Expression Editor displays all the errors it finds in the specified expression.</p>
+<p><img src="../../../images/eurd-web-expression-editor-syntax-error.png" alt="Expressions_ExpressionEditor_ErrorValidation"></p>
+<p>The Editor lists a tree with language elements and items that you can use in an expression.</p>
+<p><img src="../../../images/eurd-web-expression-editor-expression-items.png" alt="Items to Use in Expressions"></p>
+<h2 id="filterstring-editor">FilterString Editor</h2>
+<p>You can use the Report Designer&#39;s <strong>FilterString Editor</strong> to specify the <strong>FilterString</strong> property of a report, Cross Tab, or Chart Series.</p>
+<p>The <strong>FilterString Editor</strong>&#39;s visual interface allows you to use an unlimited number of conditions and combine them with logical operators to create filter criteria. You can also switch to Text mode and type a filter string.</p>
+<p><img src="../../../images/eurd-web-filterstring-editor.png" alt="FilterString Editor"></p>
+<p>The <strong>FilterString Editor</strong> highlights an expression&#39;s syntax and supports intelligent code completion (which suggests functions and available data elements as you type).</p>
+<p><img src="../../../images/eurd-web-filterstring-editor-intellisense.png" alt="Syntax Highlight"></p>
+<h2 id="expression-syntax">Expression Syntax</h2>
+<p>An expression can include field names, constants, operators, functions, data fields, and parameters.</p>
+<p>See the following topic for more information: <a href="expression-language.html">Expression Language</a>.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/23.1/reporting-for-web/articles/report-designer/use-expressions/expressions-overview.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2023 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../styles/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,259 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Character Comb | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Character Comb | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="../../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../../index.html">
+                <img id="logo" class="svg" src="../../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="character-comb">Character Comb</h1>
+
+<h2 id="overview">Overview</h2>
+<p>The <strong>Character Comb</strong> control displays text so that each character is printed in an individual cell.</p>
+<p><img src="../../../../images/eurd-web-character-comb-example.png" alt=""></p>
+<p>To add a Character Comb to the report, drag the <strong>Character Comb</strong> item from the <a href="../../report-designer-tools/toolbox.html">Toolbox</a> onto the report&#39;s area.</p>
+<p><img src="../../../../images/eurd-web-add-character-comb-to-report.png" alt=""></p>
+<p>The number of cells displayed by the control in Print Preview depends on the <strong>Can Shrink</strong> and <strong>Auto Width</strong> settings.</p>
+<ul>
+<li>If both these properties are enabled, the number of cells corresponds to the number of characters in the control&#39;s text.</li>
+<li>Otherwise, the number of cells corresponds to the specified cell size and the control size.</li>
+</ul>
+<p>See the <a href="#content-layout-and-position">Content Layout and Position</a> section to learn more on using these properties.</p>
+<p>You can also adjust the character comb&#39;s size to match its characters using the <strong>Fit Bounds To Text</strong> command in the <strong>Actions</strong> category:</p>
+<ul>
+<li><p>If the <strong>Word Wrap</strong> option is enabled, the command keeps control content displayed in multiple lines. It decreases the control&#39;s height and adjusts the width to fit this content.</p>
+<p>  <img src="../../../../images/eurd-web-character-comb-fit-bounds-to-text-with-word-wrap.png" alt=""></p>
+</li>
+<li><p>If the <strong>Word Wrap</strong> option is disabled, the command adjusts the control&#39;s height and width to completely display the control&#39;s content in a single line. As a result, the number of cells corresponds to the number of characters.</p>
+<p>  <img src="../../../../images/eurd-web-character-comb-fit-bounds-to-text-without-word-wrap.png" alt=""></p>
+</li>
+</ul>
+<p>When exporting this control to third-party formats, consider the following</p>
+<ul>
+<li>When a report is exported to an <strong>XLS</strong> or <strong>XLSX</strong> file, the cells of the Character Comb correspond to the cells of a resulting Excel sheet.</li>
+<li>When a report is exported to a <strong>CSV</strong> (or <strong>TXT</strong>) file, the content of individual cells is separated (or spaced) by a specified <strong>Separator</strong> character.</li>
+</ul>
+<p>In most aspects, the Character Comb is similar to the <a href="label.html">Label</a> control from which it inherits most of its properties and its basic behavior. For general information about binding these controls to data and display summary function results, see the <a href="label.html">Label</a> topic. To learn about Character Comb specifics, see the following sections in this document.</p>
+<h2 id="main-options">Main Options</h2>
+<p>The following properties are specific to the Character Comb control:</p>
+<ul>
+<li><p><strong>Cell Vertical Spacing</strong> and <strong>Cell Horizontal Spacing</strong></p>
+<p>  Specify the spacing between adjacent cells (measured in <a href="../../configure-design-settings/change-a-report-measurement-units.html">report units</a>). These values do not depend on the specified border width of a control.</p>
+<p>  The following image illustrates a Character Comb with <strong>Cell Vertical Spacing</strong> set to <strong>15</strong> and <strong>Cell Horizontal Spacing</strong> set to <strong>5</strong>.</p>
+<p>  <img src="../../../../images/eurd-web-character-comb-vertical-and-horizontal-spacing.png" alt=""></p>
+</li>
+<li><p><strong>Border Width</strong></p>
+<p>  Specifies the width of cell borders in pixels, as a floating point value.</p>
+<p>  <img src="../../../../images/eurd-web-character-comb-specify-border-width.png" alt=""></p>
+<p>  When the cell spacing is set to zero, the borders of adjacent cells are merged (i.e., the actual border width is not doubled).</p>
+<p>  The following images illustrate how cell spacing affects the <strong>Border Width</strong> property behavior:</p>
+<table>
+<thead>
+<tr>
+<th>Cell Spacing = 0</th>
+<th>Cell Spacing = 1</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="../../../../images/eurd-web-character-comb-border-without-spacing.png" alt=""></td>
+<td><img src="../../../../images/eurd-web-character-comb-border-with-spacing.png" alt=""></td>
+</tr>
+</tbody>
+</table>
+<p>  When the control&#39;s content is to be printed on multiple pages, a page break horizontally splits the cell border based on the cell spacing setting, as shown below.</p>
+<table>
+<thead>
+<tr>
+<th>Cell Spacing = 0</th>
+<th>Cell Spacing &gt; 0</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="../../../../images/eurd-web-character-comb-on-multi-pages-without-spacing.png" alt=""></td>
+<td><img src="../../../../images/eurd-web-character-comb-on-multi-pages-with-spacing.png" alt=""></td>
+</tr>
+</tbody>
+</table>
+</li>
+<li><p><strong>Cell Size Mode</strong></p>
+<p>  Specifies whether or not the cell size should depend on the current font size of a control. The following cell size modes are supported:</p>
+<ul>
+<li><p><strong>Custom</strong></p>
+<p>  The cell size is determined by the <strong>Cell Height</strong> and <strong>Cell Width</strong> property values and does not depend on the assigned font size.</p>
+<p>  With this setting, the actual cell size is less than the specified <strong>Cell Height</strong> and <strong>CellWidth</strong> by the <strong>Border Width</strong> value.</p>
+</li>
+<li><p><strong>Auto Size</strong></p>
+<p>  The cell size depends on the current font size of a control (the <strong>Cell Height</strong> and <strong>Cell Width</strong> properties are ignored).</p>
+<p>  With this setting, the actual cell size does not depend on the specified border width of a control.</p>
+</li>
+<li><p><strong>Auto Height</strong></p>
+<p>  Only the cell height depends on the current font size of a control (the <strong>Cell Height</strong> property is ignored), and the <strong>Cell Width</strong> value is specified manually.</p>
+<p>  With this setting, the following behavior is expected:</p>
+<ul>
+<li>The actual cell height does not depend on the specified border width of a control.</li>
+<li>The actual cell width is the difference between the specified <strong>Cell Width</strong> and <strong>Border Width</strong> values.</li>
+</ul>
+</li>
+<li><p><strong>Auto Width</strong></p>
+<p>  Only the cell width depends on the current font size of a control (the <strong>Сell Width</strong> property is ignored), and <strong>Cell Height</strong> value is specified manually.</p>
+<p>  With this setting, the following behavior is expected:</p>
+<ul>
+<li>The actual cell width does not depend on the specified border width of a control.</li>
+<li>The actual cell height is the difference between the specified <strong>Cell Height</strong> and <strong>Border Width</strong> values.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="content-layout-and-position">Content Layout and Position</h2>
+<p>This section describes the <strong>Character Comb</strong> properties that affect the control&#39;s position on a page and content layout.</p>
+<p>The following image illustrates the behavior of the <strong>Auto Width</strong> property that specifies whether or not the width of a control depends on its text. Expand the <strong>Actions</strong> or <strong>Behavior</strong> category to specify this property.</p>
+<table>
+<thead>
+<tr>
+<th>AutoWidth = true</th>
+<th>AutoWidth = false</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="../../../../images/eurd-web-character-comb-auto-width-true.png" alt=""></td>
+<td><img src="../../../../images/eurd-web-character-comb-auto-width-false.png" alt=""></td>
+</tr>
+</tbody>
+</table>
+<p>The following image illustrates the behavior of the <strong>Can Shrink</strong> property that specifies whether or not the height of a control depends on its text. Expand the <strong>Actions</strong> or <strong>Behavior</strong> category to specify this property.</p>
+<table>
+<thead>
+<tr>
+<th>CanShrink = true</th>
+<th>CanShrink = false</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="../../../../images/eurd-web-character-comb-can-shrink-true.png" alt=""></td>
+<td><img src="../../../../images/eurd-web-character-comb-auto-width-false.png" alt=""></td>
+</tr>
+</tbody>
+</table>
+<p>The <strong>Text Alignment</strong> property specifies the alignment of text within a control. Expand the <strong>Appearance</strong> category to specify this property.</p>
+<table>
+<thead>
+<tr>
+<th>TextAlignment = Top Left</th>
+<th>TextAlignment = Middle Center</th>
+<th>TextAlignment = Bottom Right</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="../../../../images/eurd-web-character-comb-text-alignment-top-left.png" alt=""></td>
+<td><img src="../../../../images/eurd-web-character-comb-text-alignment-middle-center.png" alt=""></td>
+<td><img src="../../../../images/eurd-web-character-comb-text-alignment-bottom-right.png" alt=""></td>
+</tr>
+</tbody>
+</table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/23.1/reporting-for-web/articles/report-designer/use-report-elements/use-basic-report-controls/character-comb.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2023 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../../styles/main.js"></script>
+  </body>
+</html>

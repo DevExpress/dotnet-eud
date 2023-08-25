@@ -1,0 +1,270 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Bind a Report to a Transformation-Based Data Source | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Bind a Report to a Transformation-Based Data Source | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="../../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../../index.html">
+                <img id="logo" class="svg" src="../../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="bind-a-report-to-a-transformation-based-data-source">Bind a Report to a Transformation-Based Data Source</h1>
+
+<p>If you bind a report to a <a href="bind-a-report-to-json-data.html">JSON</a>, <a href="bind-a-report-to-an-object-data-source.html">Object</a>, <a href="bind-a-report-to-an-entity-framework-data-source.html">Entity Framework</a>, or <a href="bind-a-report-to-an-xpo-persistent-object.html">XPO</a> data source that contains a collection property, you can flatten the data source structure:</p>
+<p><img src="../../../../images/federated-data-source-transformation.png" alt=""></p>
+<p>This tutorial illustrates how to use the <strong>Federation Data Source</strong>&#39;s <strong>Transformation</strong> mode to flatten a JSON Data Source that contains a collection property.</p>
+<h2 id="create-a-report-and-bind-it-to-a-data-source">Create a Report and Bind it to a Data Source</h2>
+<ol>
+<li><p><a href="../add-new-reports.html">Create a new blank report</a></p>
+</li>
+<li><p><a href="bind-a-report-to-json-data.html">Add a JSON data source</a></p>
+<p> This tutorial uses the following JSON string:</p>
+<pre><code>[
+{
+    &quot;CategoryId&quot;: 1,
+    &quot;CategoryName&quot;: &quot;Beverages&quot;,
+    &quot;Description&quot;: &quot;Soft drinks, coffees, teas, beers, and ales&quot;,
+    &quot;Products&quot;: [
+    {
+        &quot;ProductId&quot;: 1,
+        &quot;ProductName&quot;: &quot;Chai&quot;,
+        &quot;SupplierId&quot;: 1,
+        &quot;CategoryId&quot;: 1,
+        &quot;QuantityPerUnit&quot;: &quot;10 boxes x 20 bags&quot;,
+        &quot;UnitPrice&quot;: 18.0000,
+        &quot;UnitsInStock&quot;: 39,
+        &quot;UnitsOnOrder&quot;: 0,
+        &quot;ReorderLevel&quot;: 10,
+        &quot;Discontinued&quot;: false,
+        &quot;Supplier&quot;: null
+    },
+    {
+        &quot;ProductId&quot;: 2,
+        &quot;ProductName&quot;: &quot;Chang&quot;,
+        &quot;SupplierId&quot;: 1,
+        &quot;CategoryId&quot;: 1,
+        &quot;QuantityPerUnit&quot;: &quot;24 - 12 oz bottles&quot;,
+        &quot;UnitPrice&quot;: 19.0000,
+        &quot;UnitsInStock&quot;: 17,
+        &quot;UnitsOnOrder&quot;: 40,
+        &quot;ReorderLevel&quot;: 25,
+        &quot;Discontinued&quot;: false,
+        &quot;Supplier&quot;: null
+    }
+    ]
+},
+{
+    &quot;CategoryId&quot;: 2,
+    &quot;CategoryName&quot;: &quot;Condiments&quot;,
+    &quot;Description&quot;: &quot;Sweet and savory sauces, relishes, spreads, and seasonings&quot;,
+    &quot;Products&quot;: [
+    {
+        &quot;ProductId&quot;: 3,
+        &quot;ProductName&quot;: &quot;Aniseed Syrup&quot;,
+        &quot;SupplierId&quot;: 1,
+        &quot;CategoryId&quot;: 2,
+        &quot;QuantityPerUnit&quot;: &quot;12 - 550 ml bottles&quot;,
+        &quot;UnitPrice&quot;: 10.0000,
+        &quot;UnitsInStock&quot;: 13,
+        &quot;UnitsOnOrder&quot;: 70,
+        &quot;ReorderLevel&quot;: 25,
+        &quot;Discontinued&quot;: false,
+        &quot;Supplier&quot;: null
+    },
+    {
+        &quot;ProductId&quot;: 4,
+        &quot;ProductName&quot;: &quot;Chef Anton&#39;s Cajun Seasoning&quot;,
+        &quot;SupplierId&quot;: 2,
+        &quot;CategoryId&quot;: 2,
+        &quot;QuantityPerUnit&quot;: &quot;48 - 6 oz jars&quot;,
+        &quot;UnitPrice&quot;: 22.0000,
+        &quot;UnitsInStock&quot;: 53,
+        &quot;UnitsOnOrder&quot;: 0,
+        &quot;ReorderLevel&quot;: 0,
+        &quot;Discontinued&quot;: false,
+        &quot;Supplier&quot;: null
+    }
+    ]
+}
+]
+</code></pre></li>
+</ol>
+<p>The <a href="../report-designer-tools/ui-panels/field-list.html">Field List</a> displays the created JSON data source.</p>
+<p><img src="../../../../images/federated-data-source-json-field-list.png" alt=""></p>
+<h2 id="create-data-federation-and-transform-the-data-source">Create Data Federation and Transform the Data Source</h2>
+<ol>
+<li><p>Click the report&#39;s smart tag, expand the <strong>DataSource</strong> property&#39;s drop-down menu, and click <strong>Add Report Data Source</strong>.</p>
+<p> <img src="../../../../images/federated-data-source-add-federated-data-source.png" alt=""></p>
+</li>
+<li><p>In the invoked <strong>Data Source Wizard</strong>, select <strong>Data Federation</strong> and click <strong>Next</strong>.</p>
+<p> <img src="../../../../images/data-federation-wizard-choose-data-federation.png" alt=""></p>
+</li>
+<li><p>On the next page, click <strong>Add Query</strong>.</p>
+<p> <img src="../../../../images/federated-data-source-add-query.png" alt=""></p>
+</li>
+<li><p>In the invoked <a href="../report-designer-tools/query-builder.html">Query Builder</a>, select the <strong>Transformation</strong> query type. Select the data source or query that contains columns you want to transform. Select the <strong>Transform</strong> check box next to the column you need to unfold and flatten. The bottom pane allows you to specify the aliases for the generated columns.</p>
+<p> <img src="../../../../images/federated-data-source-transformation-query.png" alt=""></p>
+<p> Click <strong>OK</strong> to create the query and click <strong>Finish</strong> to create the data source.</p>
+</li>
+</ol>
+<p>The <strong>Field List</strong> displays the created Federation Data Source.</p>
+<p><img src="../../../../images/federated-data-source-result.png" alt=""></p>
+<h2 id="prepare-the-report-layout">Prepare the Report Layout</h2>
+<ol>
+<li><p>Set the <strong>Landscape</strong> orientation for report pages. Select the report and switch to the <strong>Properties</strong> panel. Enable the <strong>Landscape</strong> property.</p>
+<p> <img src="../../../../images/federated-data-source-landscape-orientation.png" alt="Set Landscape Page Orientation"></p>
+</li>
+<li><p>Drop data fields from the <strong>Field List</strong> onto the report&#39;s <a href="../introduction-to-banded-reports.html">Detail</a> band. Hold CTRL or SHIFT and click the fields to select multiple fields.</p>
+<p> <img src="../../../../images/federated-data-source-drop-fields.png" alt="Drop Fields Onto the Report"></p>
+</li>
+<li><p>Add a <strong>ReportHeader</strong> band to the report. Right-click the report and select <strong>Insert Band</strong> / <strong>ReportHeader</strong>.</p>
+<p> <img src="../../../../images/federated-data-source-insert-reportheader.png" alt="Add Report Header"></p>
+</li>
+<li><p>Create headers for the report columns. Select data fields and drop them onto the added <strong>ReportHeader</strong> band with the right mouse button.</p>
+<p> <img src="../../../../images/federated-data-source-drop-headers.png" alt="Drop Table Headers"></p>
+</li>
+<li><p>Change header titles as necessary. Double-click a cell and type the new title.</p>
+<p> <img src="../../../../images/federated-data-source-change-header-titles.png" alt="Change Header Titles"></p>
+</li>
+<li><p>Resize report columns. Select cells and drag their edges.</p>
+<p> <img src="../../../../images/federated-data-source-resize-cells.png" alt="Resize Table Cells"></p>
+</li>
+<li><p>Change the header cells&#39; appearance. Select cells and specify the following properties:</p>
+<table>
+<thead>
+<tr>
+<th>Property</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Foreground Color</strong></td>
+<td>White</td>
+</tr>
+<tr>
+<td><strong>Background Color</strong></td>
+<td>DimGray</td>
+</tr>
+<tr>
+<td><strong>Padding</strong></td>
+<td>10, 10, 0, 0</td>
+</tr>
+<tr>
+<td><strong>Font</strong></td>
+<td>Arial, 9pt, style=Bold</td>
+</tr>
+</tbody>
+</table>
+<p> <img src="../../../../images/federated-data-source-change-cell-appearance.png" alt="Change Cell Appearance"></p>
+</li>
+<li><p>Change the band heights to match the table rows. Select the bands and drag their edges the same way as for the table cells.</p>
+</li>
+<li><p>Add a style for the table&#39;s even rows. Select <strong>TableRow2</strong> in the <strong>Properties</strong> window, expand the <strong>Styles</strong> property, and select <strong>New</strong> for the <strong>Even Style</strong> property. Then select <strong>Style1</strong> and set the <strong>Background Color</strong> property to <strong>216, 216, 216</strong>.</p>
+<p> <img src="../../../../images/federated-data-source-set-even-style.png" alt="Set Even Style"></p>
+</li>
+<li><p>Format the price values. Select the cell that displays the <strong>Products_UnitPrice</strong> value and set its [Format String] to <strong>{0:c2}</strong>.</p>
+<p><img src="../../../../images/federated-data-source-set-format-string.png" alt="Specify Cell Format"></p>
+</li>
+</ol>
+<p>The report is ready. Upper-level data source records are repeated as many times as there are flattened records:</p>
+<p><img src="../../../../images/federation-data-source-report-result.png" alt="Records Repeated"></p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/23.1/reporting-for-desktop/articles/report-designer/report-designer-for-winforms/bind-to-data/bind-a-report-to-a-transformation-based-data-source.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2023 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../../styles/main.js"></script>
+  </body>
+</html>

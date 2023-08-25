@@ -1,0 +1,277 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>The Parameters Panel | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="The Parameters Panel | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="../../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../../index.html">
+                <img id="logo" class="svg" src="../../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="the-parameters-panel">The Parameters Panel</h1>
+
+<p>The <strong>Parameters</strong> panel allows you to specify parameter values in a report&#39;s <strong>Print Preview</strong>.</p>
+<p><img src="../../../../images/parameters-panel-example.gif" alt="Use the Parameters panel to specify parameter values"></p>
+<h2 id="submit-parameter-values">Submit Parameter Values</h2>
+<p>When you open a report&#39;s <strong>Print Preview</strong>, the <strong>Parameters</strong> panel displays default parameter values and descriptions.</p>
+<p><img src="../../../../images/parameters-panel-waiting-for-parameter-values-message.png" alt="Parameters panel, &quot;Waiting for parameter values&quot; message"></p>
+<p>Specify parameter values and click <strong>Submit</strong> to generate the report&#39;s <strong>Print Preview</strong>. Set the report&#39;s <strong>RequestParameters</strong> property to <strong>false</strong> to display a report document for the default parameter values when you open the <strong>Print Preview</strong>.</p>
+<h2 id="reset-parameter-values-to-defaults">Reset Parameter Values to Defaults</h2>
+<p>Click the <strong>Reset</strong> button to reset parameter values to defaults. </p>
+<p><img src="../../../../images/parameters-panel-reset-values-to-defaults.gif" alt="Reset parameter values to defaults"></p>
+<h2 id="hide-the-parameters-panel">Hide the Parameters Panel</h2>
+<p>To remove the <strong>Parameters</strong> panel from a report&#39;s <strong>Print Preview</strong>, disable the <strong>Visible</strong> option for all report parameters in the <strong>Report Parameters Editor</strong>.</p>
+<p><img src="../../../../images/hide-parameter-from-parameters-panel.png" alt="Hide a parameter from the Parameters panel"></p>
+<p>When you hide the <strong>Parameters</strong> panel, the report&#39;s <strong>Print Preview</strong> is generated with the default parameter values.</p>
+<h2 id="customize-the-parameters-panel">Customize the Parameters Panel</h2>
+<p>You can unite report parameters into expandable groups, place parameters side-by-side, add separators, and more.</p>
+<table>
+<thead>
+<tr>
+<th>Default panel</th>
+<th>Customized panel</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="../../../../images/default-parameters-panel-1.png" alt=""></td>
+<td><img src="../../../../images/customized-parameters-panel-1.png" alt=""></td>
+</tr>
+</tbody>
+</table>
+<h3 id="use-the-report-parameters-editor">Use the Report Parameters Editor</h3>
+<p>Right-click the <strong>Parameters</strong> node in the <strong>Field List</strong> and select <strong>Edit Parameters</strong>.</p>
+<p><img src="../../../../images/invoke-report-parameters-editor-from-field-list.png" alt=""></p>
+<p>This action invokes the <strong>Report Parameters Editor</strong>.</p>
+<p><img src="../../../../images/report-parameters-editor-1.png" alt=""></p>
+<p>Use the menu on the left to create and customize parameters, groups, and separators.</p>
+<h4 id="customize-a-parameter">Customize a Parameter</h4>
+<p>Specify the <strong>Label orientation</strong> property to choose the position of a parameter label relative to an editor.</p>
+<p><img src="../../../../images/report-parameters-editor-specify-label-orientation.png" alt=""></p>
+<table>
+<thead>
+<tr>
+<th>Label orientation = Horizontal (Default)</th>
+<th>Label orientation = Vertical</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="../../../../images/with-label-orientation-horizontal.png" alt=""></td>
+<td><img src="../../../../images/with-label-orientation-vertical.png" alt=""></td>
+</tr>
+</tbody>
+</table>
+<h4 id="create-and-customize-a-group">Create and Customize a Group</h4>
+<p>Click the <strong>Add group</strong> button to create a new group.</p>
+<p><img src="../../../../images/report-parameters-editor-create-new-group.png" alt=""></p>
+<p>Use the <strong>Up</strong> and <strong>Down</strong> buttons to change the order of parameters and groups, and place parameters inside or outside a group.</p>
+<p><img src="../../../../images/report-parameters-editor-setup-elements-order.png" alt=""></p>
+<p>You can also drag-and-drop parameters and groups inside the menu to achieve the same result.</p>
+<p><img src="../../../../images/report-parameters-editor-drag-and-drop-elements-in-menu.png" alt=""></p>
+<p>To customize a group, select it and use its editors on the right to set up the group appearance. The following example unites the <strong>customerName</strong> and <strong>companyName</strong> parameters into a group called <strong>Select a customer</strong>.</p>
+<p><img src="../../../../images/report-parameters-editor-group-customization-options.png" alt=""></p>
+<table>
+<thead>
+<tr>
+<th>Default panel</th>
+<th>Panel with a group</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="../../../../images/default-parameters-panel-2.png" alt=""></td>
+<td><img src="../../../../images/customized-parameters-panel-2.png" alt=""></td>
+</tr>
+</tbody>
+</table>
+<p>Besides a title, you can also specify the following properties to customize the group appearance:</p>
+<table>
+<thead>
+<tr>
+<th>Orientation = Vertical (Default)</th>
+<th>Orientation = Horizontal</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="../../../../images/parameters-panel-with-orientation-vertical.png" alt=""></td>
+<td><img src="../../../../images/parameters-panel-with-orientation-horizontal.png" alt=""></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Show expand/collapse button = false (Default)</th>
+<th>Show expand/collapse button = true</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="../../../../images/parameters-panel-with-show-expand-button-false.png" alt=""></td>
+<td><img src="../../../../images/parameters-panel-with-show-expand-button-true.png" alt=""></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Expanded = true (Default)</th>
+<th>Expanded = false</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="../../../../images/parameters-panel-with-expanded-true.png" alt=""></td>
+<td><img src="../../../../images/parameters-panel-with-expanded-false.png" alt=""></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Show title = true (Default)</th>
+<th>Show title = false</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="../../../../images/parameters-panel-with-title-visible-true.png" alt=""></td>
+<td><img src="../../../../images/parameters-panel-with-title-visible-false.png" alt=""></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Show borders = true (Default)</th>
+<th>Show borders = false</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="../../../../images/parameters-panel-customization-with-border-visible-true.png" alt=""></td>
+<td><img src="../../../../images/parameters-panel-customization-with-border-visible-false.png" alt=""></td>
+</tr>
+</tbody>
+</table>
+<h4 id="add-a-separator">Add a Separator</h4>
+<p>Click the <strong>Add separator</strong> button to create a separator.</p>
+<p><img src="../../../../images/report-parameters-editor-create-separator.png" alt=""></p>
+<p>Similar to parameters and groups, you can use the <strong>Up</strong> and <strong>Down</strong> buttons or drag-and-drop separators inside the menu to specify the location for these separators relative to other elements.</p>
+<p><img src="../../../../images/report-parameters-editor-specify-location-for-separator.png" alt=""></p>
+<p>The example below shows the <strong>Parameters</strong> panel with a separator between the <strong>Company Name</strong> and <strong>Customer Name</strong> parameters.</p>
+<table>
+<thead>
+<tr>
+<th>Default panel</th>
+<th>Panel with a separator</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="../../../../images/default-parameters-panel-3.png" alt=""></td>
+<td><img src="../../../../images/customized-parameters-panel-3.png" alt=""></td>
+</tr>
+</tbody>
+</table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/23.1/reporting-for-desktop/articles/report-designer/report-designer-for-winforms/use-report-parameters/parameters-panel.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2023 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../../styles/main.js"></script>
+  </body>
+</html>

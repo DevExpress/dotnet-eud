@@ -1,0 +1,182 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Draw Shapes | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Draw Shapes | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="../../../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../../../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../../../index.html">
+                <img id="logo" class="svg" src="../../../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="draw-shapes">Draw Shapes</h1>
+
+<p>The <strong>Shape</strong> control allows you to draw various shapes in a report.</p>
+<p>To add a shape to a report, drag the <strong>Shape</strong> item from the <a href="../../report-designer-tools/toolbox.html">Toolbox</a> onto the report&#39;s area.</p>
+<p><img src="../../../../../images/eurd-win-add-shape-control-to-report.png" alt=""></p>
+<p>Click a control&#39;s smart tag and use the <strong>Shape</strong> property to select the shape type. You can also choose the shape type in the <a href="../../report-designer-tools/toolbar.html">Toolbar</a>&#39;s  <strong>Shape Tools</strong> contextual tab.</p>
+<p><img src="../../../../../images/eurd-win-shape-control-select-type.png" alt=""></p>
+<p>The smart tag provides the following main properties common to all shape types:</p>
+<ul>
+<li><strong>Fill Color</strong> - specifies the the shape&#39;s color.</li>
+<li><strong>Stretch</strong> - specifies whether to stretch a shape to fill its client rectangle area when it is rotated.</li>
+<li><strong>Line Width</strong> - specifies the width of the line used to draw the shape.</li>
+<li><strong>Angle</strong> - specifies the shape&#39;s rotation angle.</li>
+</ul>
+<p>Each shape type provides its own specific set of properties which are detailed below.</p>
+<h2 id="arrow">Arrow</h2>
+<p>The image below illustrates the <strong>Arrow</strong> type&#39;s shape.</p>
+<p><img src="../../../../../images/eurd-win-shape-control-arrow-type.png" alt=""></p>
+<p>This shape type has the following additional properties:  </p>
+<ul>
+<li><strong>Fillet</strong> - specifies how the shape&#39;s corners are rounded (as a percentage). This value should be between <strong>0</strong> and <strong>100</strong>.</li>
+<li><strong>Arrow Height</strong> - specifies the arrow&#39;s relative height (as a percentage). This value should be between <strong>0</strong> and <strong>100</strong>.</li>
+<li><strong>Arrow Width</strong> - specifies the arrow&#39;s relative width (as a percentage). This value should be between <strong>0</strong> and <strong>100</strong>.</li>
+</ul>
+<h2 id="brace">Brace</h2>
+<p>The image below illustrates the <strong>Brace</strong> type&#39;s shape.</p>
+<p><img src="../../../../../images/eurd-win-shape-control-brace-type.png" alt=""></p>
+<p>Use the following properties to set up a brace:</p>
+<ul>
+<li><strong>Tip&#39;s Length</strong> -  specify the length of a brace&#39;s tip.</li>
+<li><strong>Fillet</strong> - specifies how the shape&#39;s corners are rounded (as a percentage). This value should be between <strong>0</strong> and <strong>100</strong>.</li>
+<li><strong>Tail&#39;s Length</strong> specify the length of a brace&#39;s tail.</li>
+</ul>
+<h2 id="bracket">Bracket</h2>
+<p>The following image demonstrates the <strong>Bracket</strong> type&#39;s shape:</p>
+<p><img src="../../../../../images/eurd-win-shape-control-bracket-type.png" alt=""></p>
+<p>The <strong>Tip&#39;s Length</strong> property is specific to this shape type and defines the length of a bracket&#39;s tip.</p>
+<h2 id="cross">Cross</h2>
+<p>The image below shows the <strong>Cross</strong> type&#39;s shape.</p>
+<p><img src="../../../../../images/eurd-win-shape-control-cross-type.png" alt=""></p>
+<p>This shape type has the following properties:</p>
+<ul>
+<li><strong>Fillet</strong> - specifies how the shape&#39;s corners are rounded (as a percentage). This value should be between <strong>0</strong> and <strong>100</strong>.</li>
+<li><strong>Horizontal Line Height</strong> - specifies the relative width of a cross&#39;s horizontal line (as a percentage). This value should be between <strong>0</strong> and <strong>100</strong>.</li>
+<li><strong>Vertical Line Width</strong> - specifies the relative width of a cross&#39;s vertical line (as a percentage). This value should be between <strong>0</strong> and <strong>100</strong>.</li>
+</ul>
+<h2 id="ellipse">Ellipse</h2>
+<p>The image below shows <strong>Ellipse</strong> type shapes.</p>
+<p><img src="../../../../../images/eurd-win-shape-control-ellipse-type.png" alt=""></p>
+<h2 id="line">Line</h2>
+<p>The following image demonstrates <strong>Line</strong> type shapes:</p>
+<p><img src="../../../../../images/eurd-win-shape-control-line-type.png" alt=""></p>
+<h2 id="polygon">Polygon</h2>
+<p>The image below illustrates the <strong>Polygon</strong> type&#39;s shape:</p>
+<p><img src="../../../../../images/eurd-win-shape-control-polygon-type.png" alt=""></p>
+<p>This shape type has the following properties:</p>
+<ul>
+<li><strong>Fillet</strong> - specifies how the polygon&#39;s corners are rounded (as a percentage). This value should be between <strong>0</strong> and <strong>100</strong>.</li>
+<li><strong>Number Of Sides</strong> - specifies the number of polygon sides.</li>
+</ul>
+<h2 id="rectangle">Rectangle</h2>
+<p>The image below illustrates <strong>Rectangle</strong> type shapes.</p>
+<p><img src="../../../../../images/eurd-win-shape-control-rectangle-type.png" alt=""></p>
+<p>This shape type&#39;s <strong>Fillet</strong> property specifies the rectangle&#39;s relative roundness (as a percentage, between <strong>0</strong> and <strong>100</strong>). </p>
+<h2 id="star">Star</h2>
+<p>The following image shows a <strong>Star</strong> type shape:</p>
+<p><img src="../../../../../images/eurd-win-shape-control-star-type.png" alt=""></p>
+<p>This shape type has the following properties:</p>
+<ul>
+<li><strong>Fillet</strong> - specifies the relative roundness of the star&#39;s points (as a percentage). This value should be between <strong>0</strong> and <strong>100</strong>.</li>
+<li><strong>Count of Star Points</strong> - specifies the number of points that make up the star.</li>
+<li><strong>Concavity</strong> - specifies the concavity level (as a percentage) between two neighboring start points. This value should be between <strong>0</strong> and <strong>100</strong>.</li>
+</ul>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/23.1/reporting-for-desktop/articles/report-designer/report-designer-for-winforms/use-report-elements/draw-lines-and-shapes/draw-shapes.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2023 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../../../styles/main.js"></script>
+  </body>
+</html>
