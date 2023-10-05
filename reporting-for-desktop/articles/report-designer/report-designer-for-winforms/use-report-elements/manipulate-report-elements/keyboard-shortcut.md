@@ -55,7 +55,7 @@ Use arrow keys to slide XRControl to the end of the area with a minimum indent:
 
 ### Shift XRControl Pixel by Pixel
 
-Use `Ctrl` + arrows to shift XRControl pixel by pixel:
+Use Ctrl + arrows to shift XRControl pixel by pixel:
 
 | Key | Action |
 |----------|----------|
@@ -146,6 +146,6 @@ Use `Ctrl` + arrows to shift XRControl pixel by pixel:
 | Ctrl+O  | Open a `.repx` report.   |
 | Ctrl+N  | Create a new report.   |
 | Ctrl+W  | Create a new report with the Wizard.   |
-| Ctrl+ScrollDown`  | Zoom in the selected report.   |
-| Ctrl+ScrollDown  | Zoom out the selected report.   |
+| Ctrl+ScrollDown  | Zoom in the selected report.   |
+| Ctrl+ScrollUp  | Zoom out the selected report.   |
 | Ctrl+0  | Set zoom to 100%.  |
