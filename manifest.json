@@ -59588,6 +59588,18 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "reporting-for-desktop/articles/report-designer/report-designer-for-winforms/use-report-elements/manipulate-report-elements/keyboard-shortcut.md",
+      "output": {
+        ".html": {
+          "relative_path": "reporting-for-desktop/articles/report-designer/report-designer-for-winforms/use-report-elements/manipulate-report-elements/keyboard-shortcut.html",
+          "hash": "J9PIO4PgCyBI8zAWcXjRGh7miZOu4RD8RZvilficFyQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "reporting-for-desktop/articles/report-designer/report-designer-for-winforms/use-report-elements/manipulate-report-elements/move-and-resize-report-elements.md",
       "output": {
         ".html": {
@@ -81888,6 +81900,160 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "reporting-for-desktop/images/winforms-eurd-shortcuts/arrow.gif",
+      "output": {
+        "resource": {
+          "relative_path": "reporting-for-desktop/images/winforms-eurd-shortcuts/arrow.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reporting-for-desktop/images/winforms-eurd-shortcuts/ctrl_arrow.gif",
+      "output": {
+        "resource": {
+          "relative_path": "reporting-for-desktop/images/winforms-eurd-shortcuts/ctrl_arrow.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reporting-for-desktop/images/winforms-eurd-shortcuts/ctrl_c_or_v.gif",
+      "output": {
+        "resource": {
+          "relative_path": "reporting-for-desktop/images/winforms-eurd-shortcuts/ctrl_c_or_v.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reporting-for-desktop/images/winforms-eurd-shortcuts/ctrl_move.gif",
+      "output": {
+        "resource": {
+          "relative_path": "reporting-for-desktop/images/winforms-eurd-shortcuts/ctrl_move.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reporting-for-desktop/images/winforms-eurd-shortcuts/ctrl_move_shape.gif",
+      "output": {
+        "resource": {
+          "relative_path": "reporting-for-desktop/images/winforms-eurd-shortcuts/ctrl_move_shape.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reporting-for-desktop/images/winforms-eurd-shortcuts/ctrl_or_shift_click.gif",
+      "output": {
+        "resource": {
+          "relative_path": "reporting-for-desktop/images/winforms-eurd-shortcuts/ctrl_or_shift_click.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reporting-for-desktop/images/winforms-eurd-shortcuts/ctrl_shift_arrow.gif",
+      "output": {
+        "resource": {
+          "relative_path": "reporting-for-desktop/images/winforms-eurd-shortcuts/ctrl_shift_arrow.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reporting-for-desktop/images/winforms-eurd-shortcuts/ctrl_x.gif",
+      "output": {
+        "resource": {
+          "relative_path": "reporting-for-desktop/images/winforms-eurd-shortcuts/ctrl_x.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reporting-for-desktop/images/winforms-eurd-shortcuts/delete.gif",
+      "output": {
+        "resource": {
+          "relative_path": "reporting-for-desktop/images/winforms-eurd-shortcuts/delete.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reporting-for-desktop/images/winforms-eurd-shortcuts/drag_drop.gif",
+      "output": {
+        "resource": {
+          "relative_path": "reporting-for-desktop/images/winforms-eurd-shortcuts/drag_drop.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reporting-for-desktop/images/winforms-eurd-shortcuts/f4_or_f5.gif",
+      "output": {
+        "resource": {
+          "relative_path": "reporting-for-desktop/images/winforms-eurd-shortcuts/f4_or_f5.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reporting-for-desktop/images/winforms-eurd-shortcuts/shift_arrow.gif",
+      "output": {
+        "resource": {
+          "relative_path": "reporting-for-desktop/images/winforms-eurd-shortcuts/shift_arrow.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reporting-for-desktop/images/winforms-eurd-shortcuts/shift_drag_drop.gif",
+      "output": {
+        "resource": {
+          "relative_path": "reporting-for-desktop/images/winforms-eurd-shortcuts/shift_drag_drop.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reporting-for-desktop/images/winforms-eurd-shortcuts/undo.gif",
+      "output": {
+        "resource": {
+          "relative_path": "reporting-for-desktop/images/winforms-eurd-shortcuts/undo.gif"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "reporting-for-desktop/images/winforms-invoke-manage-queries-dialog.png",
       "output": {
         "resource": {
@@ -82321,7 +82487,7 @@
       "output": {
         ".html": {
           "relative_path": "reporting-for-desktop/toc.html",
-          "hash": "/Q6Au+LpxNg/qq3aNwmYwZ7NBds83xJhExSM/al9294="
+          "hash": "qJ7SV54x2LSDY5Tmk8w68noWXZbrx5MeCX4SKDdzIkc="
         }
       },
       "is_incremental": false,
@@ -98462,7 +98628,7 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 1923,
+          "total_file_count": 1924,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
