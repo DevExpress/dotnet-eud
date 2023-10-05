@@ -116,6 +116,8 @@
         href: articles/report-designer/report-designer-for-winforms/use-report-elements/manipulate-report-elements/add-report-controls-to-containers.md
       - name: Validate the Report Layout
         href: articles/report-designer/report-designer-for-winforms/use-report-elements/manipulate-report-elements/validate-the-report-layout.md
+      - name: Keyboard Shortcuts
+        href: articles/report-designer/report-designer-for-winforms/use-report-elements/manipulate-report-elements/keyboard-shortcut.md
     - name: Bind Report Controls to Data
       href: articles/report-designer/report-designer-for-winforms/use-report-elements/bind-controls-to-data.md
     - name: Use Embedded Fields (Mail Merge)
