@@ -4,6 +4,7 @@ author: Boris Zaitsev
 legacyId: 8550
 ---
 # Insert a Picture
+
 You can insert graphics in the document, and convert it to inline or floating. 
 
 The **Rich Text Editor** supports the following graphic types:
@@ -14,8 +15,10 @@ The **Rich Text Editor** supports the following graphic types:
 * Tagged Image Format (*.tif, *.tiff)
 * Microsoft Enhanced Metafile (*.emf)
 * Windows  Metafile (*.wmf)
+* Scalable Vector Graphics (*.svg)
 
-
+>[!NOTE]
+>SVG images are preserved as vector graphics when you export documents to Open XML formats (DOCX, DOTX, DOTM, DOCM). When exporting to non-Open XML formats, SVG images are rasterized.
 
 To insert a picture into your document, position the caret to the desired location and on the **Insert** [tab](../text-editor-ui/ribbon-interface.md), in the **Illustrations** group, click the **Picture** button.
 
