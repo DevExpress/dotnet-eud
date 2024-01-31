@@ -244,6 +244,8 @@
         href: articles/report-designer/use-report-elements/use-bar-codes/qr-code.md
       - name: GS1 QR Code
         href: articles/report-designer/use-report-elements/use-bar-codes/gs1-qr-code.md
+      - name: EPC QR Code
+        href: articles/report-designer/use-report-elements/use-bar-codes/epc-qr-code.md
       - name: SSCC (Serial Shipping Container Code)
         href: articles/report-designer/use-report-elements/use-bar-codes/sscc.md
       - name: UPC Shipping Container Symbol (ITF-14)
