@@ -80,7 +80,6 @@ Use the `ConvertDataToEPC` function from the Expression Editor to bind to the `T
 
 You can specify the data as shown below:
 
-plaintext
 ```
 ConvertDataToEPC('Red Cross of Belgium', 'BE72000000001616', 'BPOTBEB1','20.0', '', 'Urgency fund', 'CHAR', 'Sample EPC QR code')
 ```

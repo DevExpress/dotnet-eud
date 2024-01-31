@@ -46,3 +46,5 @@ See the following topics to learn about the supported two-dimensional barcodes:
 * [Intelligent Mail](use-bar-codes/intelligent-mail.md)
 * [PDF417](use-bar-codes/pdf417.md)
 * [QR Code](use-bar-codes/qr-code.md)
+* [GS1 QR Code](use-bar-codes/gs1-qr-code.md)
+* [EPC QR Code](use-bar-codes/epc-qr-code.md)
