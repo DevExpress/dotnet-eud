@@ -22,7 +22,7 @@ An EPC QR Code (European Payments Council Quick Response Code) is a two-dimensio
 
 ## Specific Properties
 
-- **AutoModule**
+- **Auto Module**
 
     Gets or sets whether the Module property value should be calculated automatically based on the barcode size.
 
@@ -30,7 +30,7 @@ An EPC QR Code (European Payments Council Quick Response Code) is a two-dimensio
 
     Gets or sets the bar code’s size.
 
-- **IncludeQuietZone**
+- **Include Quiet Zone**
 
     Gets or sets whether to add a blank space around the QR code.
 
@@ -38,7 +38,7 @@ An EPC QR Code (European Payments Council Quick Response Code) is a two-dimensio
 
     Specifies the image that overlays the QR code.
 
-- **FrameOptions**
+- **Frame Options**
 
     Gets or sets the frame for QR codes.
 
