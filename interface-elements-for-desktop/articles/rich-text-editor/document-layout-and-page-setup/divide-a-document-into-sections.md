@@ -49,4 +49,4 @@ In the UI, do the following to protect/unprotect sections:
 2. In the invoked dialog, set the document protection type to *Filling in Forms* (allows users to fill in forms and form fields).
 3. Select sections to be protected. When the section checkbox is selected, you can modify text only in form fields in this section.
 
-    ![Rich Text Editor - Document Protection](~/images/document-protection-dialog-sections.png)
+    ![Rich Text Editor - Document Protection](../../../images/document-protection-dialog-sections.png)

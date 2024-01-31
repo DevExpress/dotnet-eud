@@ -40,7 +40,7 @@ Before [adding protection](#protect-a-document) to a document, you can specify c
 6. After specifying all required parts, [enable protection](#protect-a-document).
 
 
-You can also restrict document modification with **Document Protection** and **Unprotect Document** dialogs. For more information, refer to the following topic: [Sections](../document-layout-and-page-setup/divide-a-document-into-sections.m).
+You can also restrict document modification with **Document Protection** and **Unprotect Document** dialogs. For more information, refer to the following topic: [Sections](../document-layout-and-page-setup/вdivide-a-document-into-sections.md).
 
 ## Remove Protection from a Document
 
