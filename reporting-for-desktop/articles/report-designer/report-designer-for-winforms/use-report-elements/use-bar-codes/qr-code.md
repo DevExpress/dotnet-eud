@@ -41,4 +41,8 @@ In the [property grid](../../report-designer-tools/ui-panels/property-grid-tabbe
 	
 * **Logo**
 
-    Specifies the image that overlays the QR code.    
+    Specifies the image that overlays the QR code.
+
+* **Frame Options**
+
+    Gets or sets the [frame for QR codes](add-bar-codes-to-a-report.md#frames-for-qr-codes).    

@@ -4,6 +4,7 @@ author: Natalya Senichkina
 legacyId: 15755
 ---
 # Insert a Picture
+
 The **Spreadsheet** allows you to insert pictures in a worksheet.
 
 You can insert graphics of the following type.
@@ -14,6 +15,10 @@ You can insert graphics of the following type.
 * Tagged Image Format (*.tif, *.tiff)
 * Microsoft Enhanced Metafile (*.emf)
 * Windows  Metafile (*.wmf)
+* Scalable Vector Graphics (*.svg)
+
+>[!NOTE]
+>SVG images are preserved as vector graphics when you export documents to Open XML formats (XLSX, XLSM, XLTX, and XLTM). When exporting to non-Open XML formats, SVG images are rasterized.
 
 To insert a picture, follow the instructions below.
 1. On the **Insert** tab, in the **Illustrations** group, click the **Picture** button.

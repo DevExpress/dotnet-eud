@@ -12,7 +12,7 @@ Follow the steps below to protect a document with a password.
 1. On the **Review** [tab](../text-editor-ui/ribbon-interface.md), in the **Protect** group, click the **Protect Document** button.
 
     ![RTEProtectDocumentRibbonMenu](../../../images/img121364.png)
-2. Specify a protection type in the invoked **Document Protection** dialog. Select **No changes (Read-only)** to restrict all actions, **Comments** - to allow leaving comments only, **Tracked Changes** - to prevent other users from creating untracked changes.
+2. Specify a protection type in the invoked **Document Protection** dialog. Select **No changes (Read-only)** to restrict all actions, **Comments** - to allow users leave comments only, **Tracked Changes** - to prevent other users from creating untracked changes, **Filling in Forms** -to allows users to fill in forms and form fields.
 
     ![DocumentProtectionTypes](../../../images/img121365_1.png)
 
@@ -38,6 +38,9 @@ Before [adding protection](#protect-a-document) to a document, you can specify c
     ![RTEProtectionHighlighted](../../../images/img121368.png)
 5. Continue to select the document regions and give users permission to edit them.
 6. After specifying all required parts, [enable protection](#protect-a-document).
+
+
+You can also restrict document modifications with **Document Protection** and **Unprotect Document** dialogs. For more information, refer to the following topic: [Sections](../document-layout-and-page-setup/divide-a-document-into-sections.md).
 
 ## Remove Protection from a Document
 

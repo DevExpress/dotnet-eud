@@ -37,3 +37,16 @@ You can change the type of the section break that has been inserted to start a s
 3. Change the **Section start** property on the **Layout** tab as required.
 	
 	![RTEChangeSectionStart](../../../images/img121271.png)
+
+
+## Section Protection
+
+You can protect/unprotect certain sections in your document. 
+
+In the UI, do the following to protect/unprotect sections:
+
+1. Click **Protect Document** on the **Review** ribbon tab to open the [Document Protection](../document-protection/protect-and-unprotect-a-document.md) dialog.
+2. In the invoked dialog, set the document protection type to *Filling in Forms* (allows users to fill in forms and form fields).
+3. Select sections to be protected. When the section checkbox is selected, you can modify text only in form fields in this section.
+
+    ![Rich Text Editor - Document Protection](../../../images/document-protection-dialog-sections.png)
