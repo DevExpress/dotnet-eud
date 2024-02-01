@@ -8,7 +8,7 @@ This document demonstrates how to specify value formatting for report elements (
 
 After you [bound your report to data](../bind-to-data.md) and specified a bound data field in a report control's **Expression** property, you can format data values in a report.
 
-1. Expand the **Actions** category and click the **Text Format String** property's ellipsis button.
+1. Expand the control's **Tasks** category and click the **Text Format String** property's ellipsis button.
 	
 	![](../../../images/eurd-web-label-format-string-property.png)
 

@@ -41,27 +41,27 @@ Follow the steps below to create a combined report:
 
     ![xtrareports-create-report](../../../images/eurd-merge-products-report-layout.png)
 
-1. Switch to the **Actions** tab and click **Insert Group Footer Band**.
+2. Invoke the context menu and and click **Insert Group Footer Band**.
 
 	![eurd-merge-add-group-footer](../../../images/eurd-merge-add-group-footer.png)
 
-1. Drag a [Subreport](../use-report-elements/use-basic-report-controls/subreport.md) item from the Toolbox onto the added group footer band.
+3. Drag a [Subreport](../use-report-elements/use-basic-report-controls/subreport.md) item from the Toolbox onto the added group footer band.
 
     ![xtrareports-add-subreport](../../../images/eurd-merge-add-subreport.png)
 
-1. Select the subreport control. In the **Actions** group, set the **Report Source Url** parameter to the chart report.
+4. Select the subreport control. In the **Subreport Tasks** group, set the **Report Source Url** parameter to the chart report.
 
     ![xtrareports-add-subreport](../../../images/eurd-merge-configure-subreport.png)
 
-1. Enable the **Generate Own Pages** option to print the embedded report on separate pages and use its own page settings.
+5. Enable the **Generate Own Pages** option to print the embedded report on separate pages and use its own page settings.
 
     ![xtrareports-subreport-enable-generateownpages](../../../images/eurd-merge-enable-generateownpages-2.png)
 
-1. Bind the subreport's parameter used as a filter criterion to the master report's data field that serves as a source of the parameter value. Expand the **Data** category, select the **Parameter Bindings** section and add a new parameter binding. In the binding properties list, specify the data field to bind a subreport parameter to, and the parameter you want to bind.
+6. Bind the subreport's parameter used as a filter criterion to the master report's data field that serves as a source of the parameter value. Expand the **Data** category, select the **Parameter Bindings** section and add a new parameter binding. In the binding properties list, specify the data field to bind a subreport parameter to, and the parameter you want to bind.
 
     ![xtrareports-add-subreport](../../../images/eurd-merge-subreport-add-parameter.png)
 
-1. Switch to Preview mode to see the combined report.
+7. Switch to Preview mode to see the combined report.
 
     ![xtrareports-merge-reports](../../../images/eurd-merge-reports.png)
 

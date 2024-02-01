@@ -6,7 +6,7 @@ author: Anna Vekhina
 
 This document describes how to display the number or records in a report or group.
 
-1. Select the corresponding command in the **Actions** category and insert a [Report Header](../../introduction-to-banded-reports.md) or Footer to display the record count for the entire report.
+1. Select the corresponding command from the  and insert a [Report Header](../../introduction-to-banded-reports.md) or Footer to display the record count for the entire report.
 	
 	![](../../../../images/eurd-web-shaping-insert-report-header.png)
 	
@@ -17,7 +17,7 @@ This document describes how to display the number or records in a report or grou
 	
 	![](../../../../images/eurd-web-shaping-drop-field-onto-report-header.png)
 
-3. Expand the **Summary** section in the **Actions** category and invoke the **Running** drop-down list. Select **Report** to count the records throughout the entire report, or select **Group** or **Page** to reset the record count for every group or page.
+3. Expand the **Summary** section in the **Tasks** category and invoke the **Running** drop-down list. Select **Report** to count the records throughout the entire report, or select **Group** or **Page** to reset the record count for every group or page.
 	
 	![](../../../../images/eurd-web-shaping-count-summary-running.png)
 
@@ -25,7 +25,7 @@ This document describes how to display the number or records in a report or grou
 	
 	![](../../../../images/eurd-web-shaping-count-expression.png)
 
-6. Use the **Text Format String** property to format the resulting value.
+5. Use the **Text Format String** property to format the resulting value.
 	
 	![](../../../../images/eurd-web-shaping-count-format-string.png)
 

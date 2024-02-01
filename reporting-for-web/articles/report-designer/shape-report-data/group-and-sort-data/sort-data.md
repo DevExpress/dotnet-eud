@@ -10,7 +10,7 @@ Do the followebg to sort data in your report:
 1. Create a new or open an existing data-bound report.
 	
 	You cannot apply sorting unless your report is bound to a data source.
-2. Switch to the [Properties](../../report-designer-tools/ui-panels/properties-panel.md) panel and select the [Detail](../../introduction-to-banded-reports.md) band. Select the **Sort Fields** section in the **Actions** category and add a new sort field to sort the report's data by the required data field.
+2. Switch to the [Properties](../../report-designer-tools/ui-panels/properties-panel.md) panel and select the [Detail](../../introduction-to-banded-reports.md) band. Select the **Sort Fields** section in the **Detail Tasks** category and add a new sort field to sort the report's data by the required data field.
 	
 	![](../../../../images/eurd-web-sort-data-select-field.png)
 	

@@ -32,6 +32,10 @@ The following actions are available for query customization:
 | ![](../../../../images/eurd-web-fieldlist-data-source-delete.png) | Removes the selected query. |
 | ![](../../../../images/eurd-web-fieldlist-data-source-edit-relationships.png) | Invokes the **Create a Query or Select a Stored Procedure** wizard page. |
 
+You can also right-click a data source to access these actions in a context menu:
+
+![](../../../../images/web-field-list-data-sources-context-menus.png)
+
 ## Bind controls to data
 
 Dropping a field onto a report's surface creates a new report control bound to a corresponding field.
@@ -62,3 +66,7 @@ In addition, the Field List can help you solve the following tasks:
 * Manage the collection of [report parameters](../../use-report-parameters.md).
 	
 	![](../../../../images/eurd-web-parameters-add-parameter-via-field-list.png)
+
+You can also right-click a parameter to access these actions in a context menu:
+
+![](../../../../images/web-field-list-parameters-context-menus.png)

@@ -10,7 +10,7 @@ Do the following to group data in your report:
 1. Create a new or open an existing data-bound report.
 	
 	You cannot apply grouping unless your report is bound to a data source.
-2. Insert the [Group Header](../../introduction-to-banded-reports.md) band,      select the **Group Fields** section in the **Actions** category and add a      new group field to group the report's data by the required data field.
+2. Insert the [Group Header](../../introduction-to-banded-reports.md) band, select the **Group Fields** section in the **Group Header Tasks** category and add a new group field to group the report's data by the required data field.
 	
 	![](../../../../images/eurd-web-shaping-count-group-data.png)
 	
@@ -18,13 +18,13 @@ Do the following to group data in your report:
 	> See the [Group Data by a Custom Field](group-data-by-a-custom-field.md) tutorial to learn how to group a report's data by a custom field.
 
 3. Click the ![](../../../../images/eurd-web-order-ascending.png) or 
-![](../../../../images/eurd-web-order-descending.png) buttons to define the      sort order within the group (ascending or descending). 
+![](../../../../images/eurd-web-order-descending.png) buttons to define the  sort order within the group (ascending or descending). 
     
     Use the ![](../../../../images/eurd-web-disable-sorting.png) button if your groups are already ordered in the data source, and you do not need to sort them in the report.
 
     ![](../../../../images/eurd-web-group-data-sort-order.png)    
 	
-2. Click the plus button for the **Group Fields** section to create a new group field and specify its **Field Name** property.    
+1. Click the plus button for the **Group Fields** section to create a new group field and specify its **Field Name** property.    
     
     Use the **Move Up** and **Move Down** buttons to specify the order in which these criteria are applied to the report's data.
 		
@@ -36,7 +36,7 @@ Do the following to group data in your report:
 	|---|---|
 	| ![](../../../../images/eurd-web-group-data-multiple-fields-example.png) | ![](../../../../images/eurd-web-group-data-nested-fields-example.png) |
 
-6. Drag the corresponding field from the [Field List](../../report-designer-tools/ui-panels/field-list.md) panel and drop it onto the group header to display the group field's value in the report.
+2. Drag the corresponding field from the [Field List](../../report-designer-tools/ui-panels/field-list.md) panel and drop it onto the group header to display the group field's value in the report.
 	
 	![](../../../../images/eurd-web-group-data-drop-group-field.png)
 

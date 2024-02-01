@@ -10,7 +10,7 @@ To add a line to a report, drag the **Line** item from the [Toolbox](../../repor
 
 ![](../../../../images/eurd-web-add-line-to-a-report.png)
 
-The **Actions** category of the [Properties](../../report-designer-tools/ui-panels/properties-panel.md) panel provides the main control properties:
+The **Line  Tasks** category of the [Properties](../../report-designer-tools/ui-panels/properties-panel.md) panel provides the main control properties:
 
 ![](../../../../images/eurd-web-report-control-line-actions.png)
 

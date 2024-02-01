@@ -29,7 +29,7 @@ The panel cannot contain the following report controls:
 * [Table of Contents](../use-basic-report-controls/table-of-contents.md)
 * [Cross-Band Line and Box](../draw-lines-and-shapes/draw-cross-band-lines-and-boxes.md)
 
-If a panel includes only one control, you can use the **Fit Bounds to Container** in the **Actions** category. This command resizes the control so that it occupies all the available container space (excluding borders).
+If a panel includes only one control, you can use the **Fit Bounds to Container** from the panel's context menu. This command resizes the control so that it occupies all the available container space (excluding borders).
 
 ![](../../../../images/eurd-web-panel-fit-bounds-to-container.png)
 

@@ -20,7 +20,7 @@ The number of cells displayed by the control in Print Preview depends on the **C
 
 See the [Content Layout and Position](#content-layout-and-position) section to learn more on using these properties.
 
-You can also adjust the character comb's size to match its characters using the **Fit Bounds To Text** command in the **Actions** category:
+You can also adjust the character comb's size to match its characters using the **Fit Bounds To Text** command from the control's context menu:
 
 * If the **Word Wrap** option is enabled, the command keeps control content displayed in multiple lines. It decreases the control's height and adjusts the width to fit this content.
 	
@@ -105,13 +105,13 @@ The following properties are specific to the Character Comb control:
 ## Content Layout and Position
 This section describes the **Character Comb** properties that affect the control's position on a page and content layout.
 
-The following image illustrates the behavior of the **Auto Width** property that specifies whether or not the width of a control depends on its text. Expand the **Actions** or **Behavior** category to specify this property.
+The following image illustrates the behavior of the **Auto Width** property that specifies whether or not the width of a control depends on its text. Expand the **Character Comb Tasks** or **Behavior** category to specify this property.
 
 | AutoWidth = true | AutoWidth = false |
 |---|---|
 | ![](../../../../images/eurd-web-character-comb-auto-width-true.png) | ![](../../../../images/eurd-web-character-comb-auto-width-false.png) |
 
-The following image illustrates the behavior of the **Can Shrink** property that specifies whether or not the height of a control depends on its text. Expand the **Actions** or **Behavior** category to specify this property.
+The following image illustrates the behavior of the **Can Shrink** property that specifies whether or not the height of a control depends on its text. Expand the **Character Comb Tasks** or **Behavior** category to specify this property.
 
 | CanShrink = true | CanShrink = false |
 |---|---|

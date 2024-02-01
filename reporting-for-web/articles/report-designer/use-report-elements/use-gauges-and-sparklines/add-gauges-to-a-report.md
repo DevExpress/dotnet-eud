@@ -12,9 +12,9 @@ To add this control to the report, drag the **Gauge** item from the [Toolbox](..
 
 ![](../../../../images/eurd-web-add-gauge-control-to-report.png)
 
-Specify properties in the **Actions** category to set up a gauge's appearance.
+Specify properties in the **Gauge Tasks** category to set up a gauge's appearance.
 
-![](../../../../images/eurd-web-gauge-actions-category.png)
+![](../../../../images/eurd-web-gauge-tasks-category.png)
 
 * **View**
 	

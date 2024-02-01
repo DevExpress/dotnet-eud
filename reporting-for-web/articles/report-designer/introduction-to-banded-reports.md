@@ -108,7 +108,6 @@ Select a band on the report design surface and press DELETE. This removes the ba
 
 ### Add Bands
 
-To add a band, select the report or any of its bands in the **Properties** panel and click an appropriate item in the **Actions** category.
+To add a band, select the report or any of its bands on Designer Surface, right-click to invoke the context menu and select a band. 
 
 ![](../../images/eurd-web-report-bands-add-bands.png)
-

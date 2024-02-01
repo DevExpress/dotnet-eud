@@ -19,7 +19,7 @@ This tutorial illustrates how to group a report against a custom criteria, in pa
 	![](../../../../images/eurd-web-group-data-calculated-field-expression.png)
 	
 	Click **OK** to close the editor and save the changes.
-4. Insert the [Group Header](../../introduction-to-banded-reports.md) band,      select the **Group Fields** section in the **Actions** category and add a      new group field to group the report's data by the calculated field. 
+4. Insert the [Group Header](../../introduction-to-banded-reports.md) band,  select the **Group Fields** section in the **Group Header Tasks** category and add a new group field to group the report's data by the calculated field. 
 		
 	![](../../../../images/eurd-web-group-by-calculated-field.png)
 	

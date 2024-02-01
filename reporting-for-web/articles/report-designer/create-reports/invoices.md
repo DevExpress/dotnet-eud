@@ -66,9 +66,8 @@ Create the master report layout to display basic information about customers and
 ## Prepare the Detail Report Layout
 Perform the following steps to create a detail report and construct its layout to show the order details in a tabular form:
 
-1. Expand the **Actions** category and click **Insert Detail Report Band** to create a [Detail Report Band](../introduction-to-banded-reports.md).
+1. From the the report's context menu, select the **Insert Detail Report Band** command to create a [Detail Report Band](../introduction-to-banded-reports.md).
 	
-	![](../../../images/eurd-web-invoice-insert-detail-report.png)
 
 2. Select the Detail Report band and select the master-detail relationship's name in the **Data Member** property's drop-down list.
 
@@ -80,15 +79,15 @@ Perform the following steps to create a detail report and construct its layout t
 	
 	![](../../../images/eurd-web-invoice-detail-layout-add-dynamic-table.png)
 
-3. Add the Group Header band to the detail report to display captions for table columns. Select the Detail Report band and click **Insert Group Header Band** in the **Actions** category.
+4. Add the Group Header band to the detail report to display captions for table columns. Select the Detail Report band and click **Insert Group Header Band** in the context menu.
 	
-	![](../../../images/eurd-web-invoice-insert-group-header-band.png)
+	![](../../../images/eurd-web-underlay-report-addgroupheader.png)
 
-4. To create column headers, drop the [Table](../use-report-elements/use-tables/table-overview.md) control from the **Toolbox** onto the Group Header band and enter the required text in the table's cells.
+5. To create column headers, drop the [Table](../use-report-elements/use-tables/table-overview.md) control from the **Toolbox** onto the Group Header band and enter the required text in the table's cells.
 	
 	![](../../../images/eurd-web-invoice-detail-layout-add-table-headers.png)
 
-5. Select the Detail Report band, expand the **Behavior** category and set the band's **Page Break** property to **After the Band** to print each order on a separate page.
+6. Select the Detail Report band, expand the **Behavior** category and set the band's **Page Break** property to **After the Band** to print each order on a separate page.
 	
 	![](../../../images/eurd-web-invoice-detail-report-page-break.png)
 
@@ -117,7 +116,7 @@ The next step is to specify report elements' [value formatting](../shape-report-
 	
 	![](../../../images/eurd-web-invoice-format-date-fields.png)
 
-2. Select the table cell bound to the **Discount** data field in the detail report's Detail band. Expand the **Actions** category, click the **Text Format String** property's ellipsis button, and in the invoked **Format String Editor**, apply the **Percent** format. In this case, field values are multiplied by 100 and displayed with a percent symbol.
+2. Select the table cell bound to the **Discount** data field in the detail report's Detail band. Expand the **Cell Tasks** category, click the **Text Format String** property's ellipsis button, and in the invoked **Format String Editor**, apply the **Percent** format. In this case, field values are multiplied by 100 and displayed with a percent symbol.
 	
 	![](../../../images/eurd-web-invoice-format-discount-field.png)
 
@@ -128,7 +127,7 @@ Do the following to calculate a total price for each order as a sum of **Extende
 
 1. Add the Group Footer band to the detail report in the same way as the Group Header.
 
-2. Drop the Label control onto the added band and expand the **Actions** category in the Properties panel. Select the **Summary** section and set the **Running** property to **Report** to calculate the summary for the entire detail report and click the **Expression** property's ellipsis button. In the invoked [Expression Editor](../report-designer-tools/expression-editor.md), specify the following expression to calculate the total price:
+2. Drop the Label control onto the added band and expand the **Label Tasks** category in the Properties panel. Select the **Summary** section and set the **Running** property to **Report** to calculate the summary for the entire detail report and click the **Expression** property's ellipsis button. In the invoked [Expression Editor](../report-designer-tools/expression-editor.md), specify the following expression to calculate the total price:
 	
 	![](../../../images/eurd-web-invoice-specify-summary-function.png)
 
@@ -139,7 +138,7 @@ Do the following to calculate a total price for each order as a sum of **Extende
 ## Sort Data
 Perform the following steps to sort data in the detail report:
 
-1. Select the **Detail** band in the detail report. Select the **Sort Fields** section in the **Actions** category and add a new sort field to sort the detail report's data by the required data field.
+1. Select the **Detail** band in the detail report. Select the **Sort Fields** section in the **Detail Tasks** category and add a new sort field to sort the detail report's data by the required data field.
 	
 	![](../../../images/eurd-web-invoice-sort-data.png)
 
@@ -192,7 +191,7 @@ Do the following to provide additional information to your invoices, such as the
 	
 	![](../../../images/eurd-web-invoice-add-page-info.png)
 
-4. Expand the **Actions** category and set the **Page Information** property to **Current Date and Time**. Click the **Text Format String** property's ellipsis button, and in the invoked **Format String Editor**, select a date format as in the **Format Data** section above.
+4. Expand the **Page Info Tasks** category and set the **Page Information** property to **Current Date and Time**. Click the **Text Format String** property's ellipsis button, and in the invoked **Format String Editor**, select a date format as in the **Format Data** section above.
 	
     ![](../../../images/eurd-web-invoice-page-info-text-format-string.png)
 

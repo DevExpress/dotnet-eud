@@ -55,9 +55,7 @@ Switch to the Preview mode to see the result.
 ![](../../../images/eurd-web-vertical-reports-result.png)
 
 > [!Tip]
-> You can create a vertical report without using the Report Wizard. Click **Insert Vertical Header Band** in the report's Actions group.
->
-> ![](../../../images/eurd-web-vertical-reports-insert.png)  
+> You can create a vertical report without using the Report Wizard. Click **Insert Vertical Header Band** from the report's context menu.
 >
 > Refer to the [Introduction to Banded Reports](../../report-designer/introduction-to-banded-reports.md#vertical-bands) topic for more information.
 

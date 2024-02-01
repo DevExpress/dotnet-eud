@@ -12,7 +12,7 @@ This tutorial describes how to create a data-bound report displaying information
 
 2. [Bind the report](../bind-to-data.md) to a required data source.
 
-3. Add the [Page Header](../introduction-to-banded-reports.md) band to the report to print the column headers at the top of every document page. To do this, expand the **Actions** category and click **Insert Page Header Band**.
+3. Add the [Page Header](../introduction-to-banded-reports.md) band to the report to print the column headers at the top of every document page. To do this, from the report's context menu, select the **Insert Page Header Band** command.
 
     ![](../../../images/eurd-web-table-report-insert-page-header.png)
 
@@ -34,11 +34,11 @@ This tutorial describes how to create a data-bound report displaying information
 
     ![](../../../images/eurd-web-table-report-set-up-appearance.png)
 
-9. Define a currency format for the **UnitPrice** cell. Select the cell and click the **Text Format String** property's ellipsis button. Select the appropriate format in the invoked **Format String Editor** editor and click **OK**.
+8. Define a currency format for the **UnitPrice** cell. Select the cell and click the **Text Format String** property's ellipsis button. Select the appropriate format in the invoked **Format String Editor** editor and click **OK**.
 
     ![](../../../images/eurd-web-table-report-format-string.png)
 
-10. To further improve the table readability, you can apply different visual styles to its odd and even rows. See [Report Visual Styles](../customize-appearance/report-visual-styles.md) to learn more. 
+9.  To further improve the table readability, you can apply different visual styles to its odd and even rows. See [Report Visual Styles](../customize-appearance/report-visual-styles.md) to learn more. 
 
     ![](../../../images/eurd-web-table-report-odd-even-styles.png)
 	

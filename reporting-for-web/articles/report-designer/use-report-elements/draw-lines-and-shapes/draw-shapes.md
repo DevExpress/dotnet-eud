@@ -10,11 +10,11 @@ To add a shape to a report, drag the **Shape** item from the [Toolbox](../../rep
 
 ![](../../../../images/eurd-web-add-shape-control-to-report.png)
 
-Expand the **Actions** category and use the **Shape** property to select the shape type.
+Expand the **Tasks** category and use the **Shape** property to select the shape type.
 
 ![](../../../../images/eurd-web-shape-control-select-type.png)
 
-The **Actions** category provides the following main properties common to all shape types:
+The **Tasks** category provides the following main properties common to all shape types:
 
 * **Fill Color** - specifies the the shape's color.
 * **Stretch** - specifies whether to stretch a shape to fill its client rectangle area when it is rotated.

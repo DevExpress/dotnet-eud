@@ -16,7 +16,7 @@ You can calculate a weighted average by specifying a control's expression using 
 
 1. [Open an existing report](../../open-reports.md) or [create a new one from scratch](../../add-new-reports.md).
 2. [Bind a report](../../bind-to-data.md) to a required data source. 
-3. Insert the [Group Header](../../introduction-to-banded-reports.md) band,      select the **Group Fields** section in the **Actions** category and add a      new group field to [group the report's data](../../shape-report-data/group-and-sort-data/group-data.md) by the required data field.
+3. Insert the [Group Header](../../introduction-to-banded-reports.md) band,      select the **Group Fields** section in the **Group Header Tasks** category and add a      new group field to [group the report's data](../../shape-report-data/group-and-sort-data/group-data.md) by the required data field.
 	
 	![](../../../../images/eurd-web-shaping-count-group-data.png)
 4. Construct a layout like the following:
@@ -25,15 +25,15 @@ You can calculate a weighted average by specifying a control's expression using 
 
 5. Add the [Group Footer](../../introduction-to-banded-reports.md) band to the report and drop a [Label](../../use-report-elements/use-basic-report-controls/label.md) control on this band to display the summary result.
 	
-	Expand the **Summary** section in the **Actions** category and set the **Running** property to **Group**.
+	Expand the **Summary** section in the **Label Tasks** category and set the **Running** property to **Group**.
 	
 	![](../../../../images/eurd-web-weighted-average-summary-running.png)
 
-5. Click the **Expression** property's ellipsis button. This invokes the [Expression Editor](../../report-designer-tools/expression-editor.md) where you can specify a custom expression with multiple built-in functions from the **Functions** | **Summary** section. Report summary functions start with the "sum" prefix to help differentiate them from aggregate functions.
+6. Click the **Expression** property's ellipsis button. This invokes the [Expression Editor](../../report-designer-tools/expression-editor.md) where you can specify a custom expression with multiple built-in functions from the **Functions** | **Summary** section. Report summary functions start with the "sum" prefix to help differentiate them from aggregate functions.
 	
 	![](../../../../images/eurd-web-weighted-average-summary-expression.png)
 
-6. You can also use the control's **Format String** property to format the summary's value. For instance, set this property to **Weighted Average Price: {0:c2}**.
+7. You can also use the control's **Format String** property to format the summary's value. For instance, set this property to **Weighted Average Price: {0:c2}**.
 
 ## <a name="aggregatefunctions"></a>Use Aggregate Functions
 You can create a [calculated field](calculated-fields-overview.md) and use a standard aggregate function in its expression to evaluate a weighted average.

@@ -18,7 +18,7 @@ This tutorial describes how to create a report with a visual PDF signature.
 
     ![](../../../images/pdf-signature-report-add-data-to-rich-text.png)
 
-3. Select the **Detail** band. In the property grid, expand the **Actions** section and choose **Insert Report Footer Band**. Enable the footer band's **Print at Bottom** property.
+3. Select the **Detail** band. From the context menu, select the **Insert Report Footer Band** command. Enable the footer band's **Print at Bottom** property.
 
     ![](../../../images/pdf-signature-report-add-report-footer.png)
 

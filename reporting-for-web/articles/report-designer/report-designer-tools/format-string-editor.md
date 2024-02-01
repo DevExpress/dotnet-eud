@@ -34,13 +34,13 @@ You can invoke the Format String Editor to format values of a control's bindable
 
 * **Basic Formatting**
 
-    It is common to format an [Label](../use-report-elements/use-basic-report-controls/label.md)'s **Text** property. To do this, expand the **Actions** or **Data** category and click the ellipsis button for the **Text Format String** property.
+    It is common to format an [Label](../use-report-elements/use-basic-report-controls/label.md)'s **Label Text** property. To do this, expand the **Tasks** or **Data** category and click the ellipsis button for the **Text Format String** property.
 
     ![](../../../images/eurd-web-label-format-string.png)
 
 * **Formatting Summaries**
 
-    When a summary function is applied to a control's dynamic content, value formatting is specified separately. To do this, expand the **Actions** or **Data** category. Then, in the **Summary** section, click the ellipsis button for the **Format String** property.
+    When a summary function is applied to a control's dynamic content, value formatting is specified separately. To do this, expand the **Label Tasks** or **Data** category. Then, in the **Summary** section, click the ellipsis button for the **Format String** property.
 
     ![](../../../images/eurd-web-format-string-editor-summary-format-string.png)
 

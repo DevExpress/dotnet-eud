@@ -14,7 +14,7 @@ This tutorial illustrates how to filter data at the report level, as opposed to 
 
     ![](../../../../images/eurd-web-filter-data-drop-fields.png)
 
-4. Expand the **Actions** category and click the **Filter String** property's ellipsis button.
+4. Expand the **Tasks** category and click the **Filter String** property's ellipsis button.
 
     In the invoked [Filter Editor](../../report-designer-tools/filter-editor.md), construct an expression in which the data fields are compared with the required values.
 

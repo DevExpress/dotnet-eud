@@ -14,7 +14,7 @@ To add this control to a report, drag the **Picture Box** item from the [Toolbox
 The Picture Box can display images with the following formats: BMP, JPG, JPEG, GIF, TIF, TIFF, PNG, ICO, DIB, RLE, JPE, JFIF, EMF, WMF, SVG.
 
 
-Use the **Image Source** or **Image URL** property to specify the image the Picture Box displays. You can access these properties in the **Actions** category.
+Use the **Image Source** or **Image URL** property to specify the image the Picture Box displays. You can access these properties in the **Picture Box Tasks** category.
 
 ![](../../../../images/eurd-web-picture-box-image-property.png)
 

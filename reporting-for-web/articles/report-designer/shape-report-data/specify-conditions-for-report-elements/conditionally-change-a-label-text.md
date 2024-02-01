@@ -8,7 +8,7 @@ This document describes how to display different values in a report control base
 
 After you [bound your report to data](../../bind-to-data.md) and specified a bound data field in a report control's **Expression** property, you can make this control display different values based on a specified logical condition:
 
-1. Expand the **Actions** category and click the **Expression** property's ellipsis button.
+1. Expand the **Label Tasks** category and click the **Expression** property's ellipsis button.
 	
 	![](../../../../images/eurd-web-shaping-label-expression-property-for-custom-text.png)
 

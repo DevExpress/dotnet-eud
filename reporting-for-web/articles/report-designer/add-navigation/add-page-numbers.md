@@ -9,13 +9,13 @@ The tutorial describes how to add page numbers to your reports.
 ## <a name="numbers"></a>Add Page Numbers
 Do the following to add page numbers to a report:
 
-- Create a [PageFooterBand](../introduction-to-banded-reports.md) in your report. To do this, click **Insert Page Footer Band** in the **Actions** category.
+- Create a [PageFooterBand](../introduction-to-banded-reports.md) in your report. To do this, select **Insert Page Footer Band** in the context menu.
 	
 	![](../../../images/eurd-web-add-page-footer.png)
 - Drop the [PageInfo](../use-report-elements/use-basic-report-controls/page-info.md) control from the [Toolbox](../report-designer-tools/toolbox.md) to the **Page Footer** band.
 	
 	![](../../../images/eurd-web-drop-page-info.png)
-- To change the control's display format, specify the **Text Format String** property (e.g., **Page {0} of {1}**, to display the current page number out of the total number of pages) in the **Actions** category.
+- To change the control's display format, specify the **Text Format String** property (e.g., **Page {0} of {1}**, to display the current page number out of the total number of pages) in the **Page Info Tasks** category.
 	
 	![](../../../images/eurd-web-pageinfo-formatstring.png)
 
@@ -26,9 +26,9 @@ The following image illustrates the resulting report:
 ## <a name="groups"></a>Add Page Numbers for Groups
 Do the following to make your report display page numbers for groups or detail reports:
 
-- Add the **Group Footer** band. To do this, click **Insert Group Footer Band** in the **Actions** category.
+- Add the **Group Footer** band. To do this, select **Insert Group Footer Band** in the context menu.
 	
-	![](../../../images/eurd-web-add-groupfooter.png)
+	![](../../../images/eurd-web-report-bands-add-bands.png)
 	
 	> [!NOTE]
 	> You can force the group header and/or the group footer to be repeated on each page, using the GroupBand's **Repeat Every Page** property.
