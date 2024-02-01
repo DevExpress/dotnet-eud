@@ -35,6 +35,86 @@ The following are some additional barcode options:
 
 * Use the **Padding** property to specify the indent between bars and the barcode's inner boundaries.
 
+## Frames for QR Codes
+
+For QR Codes ([QR Code](qr-code.md), [GS1 QR Code](gs1-qr-code.md), and [EPC QR Code](epc-qr-code.md)), you can use the **Frame Options** property to configure the frame around the barcode. The Corner and Rectangle frames are available for all types of QR Codes. 
+
+### Corner Frame
+
+The corner frame looks as follows:
+
+![](../../../../../images/qr-code-corner-frame.png)
+
+You can specify the following properties for corner frames:
+
+  * **Frame Color**	
+
+  	Specifies the frame color.
+
+  * **Frame Width**
+
+  	Specifies the frame width in pixels. 
+
+  * **Padding**
+
+  	Specifies the distance between the frame and QR code.
+
+  * **Text**	
+
+  	Specifies the text that displayed in the frame.
+
+  * **Text Alignment**
+
+  	Specifies how the text is aligned with the frame line.
+
+  * **Text Color**	
+
+  	Specifies the color of the text in the frame.
+
+  * **Text Position**	
+
+  	Specifies how the text is positioned against the QR code. 
+
+### Rectangular Frame
+
+The rectangular frame looks as follows:
+
+![](../../../../../images/qr-code-rectangle-frame.png)
+
+You can specify the following properties for corner frames:
+
+  * **Corner Radius**	
+  
+  	Specifies rounded corners for the rectangular frame in pixels.
+
+  * **Frame Color**	
+
+  	Specifies the frame color.
+
+  * **Frame Width**
+
+  	Specifies the frame width in pixels. 
+
+  * **Padding**
+
+  	Specifies the distance between the frame and QR code.
+
+  * **Text**	
+
+  	Specifies the text that displayed in the frame.
+
+  * **Text Alignment**
+
+  	Specifies how the text is aligned with the frame line.
+
+  * **Text Color**	
+
+  	Specifies the color of the text in the frame.
+
+  * **Text Position**	
+
+  	Specifies how the text is positioned against the QR code. 
+
 ## Bind to Data
 
 You can [bind](../bind-controls-to-data.md) the bar code's **Text** property to a data field obtained from a report's data source. Click the control's smart tag, expand the **Expression** drop-down list and select the data field.

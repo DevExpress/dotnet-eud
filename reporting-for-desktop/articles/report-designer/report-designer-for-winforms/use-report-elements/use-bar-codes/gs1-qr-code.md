@@ -43,3 +43,7 @@ In the [property grid](../../report-designer-tools/ui-panels/property-grid-tabbe
 * **Version**
 
     Specifies the barcode's size.
+
+* **Frame Options**
+
+    Gets or sets the [frame for QR codes](add-bar-codes-to-a-report.md#frames-for-qr-codes).

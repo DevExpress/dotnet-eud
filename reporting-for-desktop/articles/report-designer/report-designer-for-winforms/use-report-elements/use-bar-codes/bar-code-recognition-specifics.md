@@ -28,6 +28,12 @@ At present, only [export to PDF](/interface-elements-for-desktop/articles/print-
 
 For [XLSX](/interface-elements-for-desktop/articles/print-preview/print-preview-for-winforms/exporting/xlsx-specific-export-options.md) and [XLS](/interface-elements-for-desktop/articles/print-preview/print-preview-for-winforms/exporting/xls-specific-export-options.md) export, the output resolution can be set up manually using the **Rasterization Resolution** property.
 
+## Specify the DPI of the Device Used to Print the Bar Code
+
+The **Target Device Dpi** property allows you to specify the DPI of the device on which you wish to print your barcode. The `XRBarCode` control automatically adjusts bar density based on this property's value.
+
+Use the **Target Device Dpi** property to ensure that the bar code is scanned correctly on the target device. This is especially important if your printing device has a non-standard DPI setting.
+
 ## Common Issues
 This document section provides solutions to the most common issues that you may encounter when creating barcodes.
 

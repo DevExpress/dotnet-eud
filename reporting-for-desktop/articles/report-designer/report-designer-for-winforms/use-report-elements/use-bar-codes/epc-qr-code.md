@@ -40,7 +40,7 @@ An EPC QR Code (European Payments Council Quick Response Code) is a two-dimensio
 
 - **Frame Options**
 
-    Gets or sets the frame for QR codes.
+    Gets or sets the [frame for QR codes](add-bar-codes-to-a-report.md#frames-for-qr-codes).
 
 ## Specify the Data
 

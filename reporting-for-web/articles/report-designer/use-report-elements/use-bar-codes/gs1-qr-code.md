@@ -16,7 +16,7 @@ author: Polina Tyureva
 
 2. Set the control’s **Symbology** property to **QR Code GS1**. 
 
-    ![](../../../../images/barcode-gs1-qr-code.png)
+    ![](../../../../images/gs1-qr-code-web-report-designer.png)
 
 3. Specify [common](add-bar-codes-to-a-report.md) barcode properties and properties [specific](#specific-properties) to **GS1 QR Code**.
 
@@ -43,4 +43,8 @@ In the [property grid](../../report-designer-tools/ui-panels/properties-panel.md
 * **Version**
 
     Specifies the barcode's size.
+
+* **Frame Options**
+
+    Gets or sets the [frame for QR codes](add-bar-codes-to-a-report.md#frames-for-qr-codes).
 	
