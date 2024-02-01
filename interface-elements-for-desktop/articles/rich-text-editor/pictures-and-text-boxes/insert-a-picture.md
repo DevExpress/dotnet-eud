@@ -20,7 +20,7 @@ The **Rich Text Editor** supports the following graphic types:
 >[!NOTE]
 >SVG images are preserved as vector graphics when you export documents to Open XML formats (DOCX, DOTX, DOTM, DOCM). When exporting to non-Open XML formats, SVG images are rasterized.
 
-To insert a picture into your document, position the caret to the desired location and on the **Insert** [tab](../text-editor-ui/ribbon-interface.md), in the **Illustrations** group, click the **Picture** button.
+To insert a picture into your document, position the caret at the location, and click the **Picture** button in the **Illustrations** group of the **Insert** [tab](../text-editor-ui/ribbon-interface.md).
 
 ![RTEInsertInlinePict](../../../images/img121261.png)
 
