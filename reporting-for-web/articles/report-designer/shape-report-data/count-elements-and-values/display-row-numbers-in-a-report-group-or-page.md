@@ -8,7 +8,7 @@ This document describes how to show the current row number for each data source 
 
 A label can display row numbers after [binding your report to data](../../bind-to-data.md) and specifying a bound data field in the Label's **Expression** property.
 
-1. Expand the **Summary** section in the **Actions** category and invoke the **Running** drop-down list. Select **Report** to increment the row numbers throughout the entire report, or select **Group** or **Page** to reset the row numbers for every group or page.
+1. Expand the **Summary** section in the **Label Tasks** category and invoke the **Running** drop-down list. Select **Report** to increment the row numbers throughout the entire report, or select **Group** or **Page** to reset the row numbers for every group or page.
 	
 	![](../../../../images/eurd-web-shaping-row-numbers-summary-running.png)
 
@@ -16,7 +16,7 @@ A label can display row numbers after [binding your report to data](../../bind-t
 	
 	![](../../../../images/eurd-web-shaping-row-numbers-expression.png)
 
-4. Use the **Text Format String** property to format the resulting value.
+3. Use the **Text Format String** property to format the resulting value.
 	
 	![](../../../../images/eurd-web-shaping-row-numbers-format-string.png)
 

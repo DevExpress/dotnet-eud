@@ -18,7 +18,7 @@ Press CTRL+Enter to submit text changes and exit the label's in-place editing mo
 ## Bind to Data
 ### Display Field Values
 
-You can [bind](../bind-controls-to-data.md) the label's **Text** property to a data field obtained from a report's data source. Switch to the [Properties](../../report-designer-tools/ui-panels/properties-panel.md) panel, expand the **Actions** category and click the **Text** property's marker. Select **Text Expression** from the popup menu. Then select a data field or construct a binding [expression](../../use-expressions/expression-language.md) in the invoked [Expression Editor](../../report-designer-tools/expression-editor.md).
+You can [bind](../bind-controls-to-data.md) the label's **Text** property to a data field obtained from a report's data source. Switch to the [Properties](../../report-designer-tools/ui-panels/properties-panel.md) panel, expand the **Label Tasks** category and click the **Text** property's marker. Select **Text Expression** from the popup menu. Then select a data field or construct a binding [expression](../../use-expressions/expression-language.md) in the invoked [Expression Editor](../../report-designer-tools/expression-editor.md).
 
 ![](../../../../images/eurd-web-label-bind-to-data-field.png)
 
@@ -56,7 +56,7 @@ The ellipsis button invokes the Expression Editor:
 ## Adjust the Label Size and Content
 ### Static Content
 
-You can change a label's size to fit its static text using the **Fit Bounds To Text** command in the **Actions** category:
+You can change a label's size to fit its static text using the **Fit Bounds To Text** command from the label's context menu:
 
 * If the **Word Wrap** option is enabled, the command displays control content in multiple lines. It reduces control height and adjusts its width to fit its content.
 	

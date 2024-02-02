@@ -8,11 +8,11 @@ This document describes how to calculate an advanced summary for report groups u
 
 1. [Create a new report](../../add-new-reports.md) or open an existing one and [bind it to a data source](../../bind-to-data.md).
 
-2. Insert the [Group Header](../../introduction-to-banded-reports.md) band, select the **Group Fields** section in the **Actions** category and add a new group field to group the report's data by the required field. 
+2. Insert the [Group Header](../../introduction-to-banded-reports.md) band, select the **Group Fields** section in the **Group Header Tasks** category and add a new group field to group the report's data by the required field. 
 
     ![](../../../../images/eurd-web-label-advanced-summary-group-data.png)
 
-3. Insert the Group Footer band and drop a [Label](../../use-report-elements/use-basic-report-controls/label.md) onto it to display the summary result. Expand the **Summary** section in the **Actions** category and set the **Running** property to **Group**.
+3. Insert the Group Footer band and drop a [Label](../../use-report-elements/use-basic-report-controls/label.md) onto it to display the summary result. Expand the **Summary** section in the **Label Tasks** category and set the **Running** property to **Group**.
 
     ![](../../../../images/eurd-web-label-advanced-summary-running.png)
 

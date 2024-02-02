@@ -17,7 +17,16 @@ You can use the [Properties panel](../../report-designer-tools/ui-panels/propert
 
 ![](../../../../images/eurd-web-label-appearance.png)
 
-The **Actions** category contains the most commonly used element properties as well as alignment and positioning commands.
+Context menus provide quick access to actions for the selected report element. Right-click a report element to invoke the context menu:
 
 ![](../../../../images/eurd-web-actions-category.png)
 
+When you select a report element (report, band, or report control), a smart tag and expression button are displayed next to the element on the Design Surface:
+
+![](../../../../images/web-report-designer-smart-tags-expressions.png)
+
+The smart tag opens a panel with the element’s most commonly used properties:
+
+![](../../../../images/web-report-designer-smart-tag.png)
+
+The smart tag contains properties from the element’s **Task** group of the Properties Panel. Note that complex properties (for example, **Symbology** for a **Barcode** control) need to be configured in the Properties Panel.

@@ -18,7 +18,7 @@ You can double-click the cell to invoke its in-place editor and type the desired
 
 ![](../../../../images/eurd-web-table-cell-static-text.png)
 
-You can adjust the font size of a cell's static text to fit into the cell's boundaries. Use the **Fit Text to Bounds** command in the **Actions** category.
+You can adjust the font size of a cell's static text to fit into the cell's boundaries. Use the **Fit Text to Bounds** command from the cell's context menu.
 
 ![](../../../../images/eurd-web-table-cell-fit-text-to-bounds.png)
 

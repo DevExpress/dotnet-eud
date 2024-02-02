@@ -22,7 +22,7 @@ The Subreport control allows you to solve the following tasks:
 
 * [Merge Reports](../../merge-reports.md)
 
-You can use an already existing report in the report storage as a report source. Select the Subreport control, open the **Actions** category, expand the **Report Source URL** property's drop-down list and select the required report.
+You can use an already existing report in the report storage as a report source. Select the Subreport control, open the **Subreport Tasks** category, expand the **Report Source URL** property's drop-down list and select the required report.
 
 ![](../../../../images/eurd-web-subreport-report-source-url.png)
 

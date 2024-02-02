@@ -20,7 +20,7 @@ This tutorial illustrates how to sort a report against a custom criteria, in par
 	
 	Click **OK** to close the editor and save the changes.
 
-4. Switch to the [Properties](../../report-designer-tools/ui-panels/properties-panel.md) panel and select the [Detail](../../introduction-to-banded-reports.md) band. Select the **Sort Fields** section in the **Actions** category and add a new sort field to sort the report's data by the calculated field.
+4. Switch to the [Properties](../../report-designer-tools/ui-panels/properties-panel.md) panel and select the [Detail](../../introduction-to-banded-reports.md) band. Select the **Sort Fields** section in the **Detail Tasks** category and add a new sort field to sort the report's data by the calculated field.
 	
 	![](../../../../images/eurd-web-sort-data-by-calculated-field.png)
 	

@@ -30,6 +30,42 @@ You can expand or collapse a band's content at design time by clicking the tab o
 
 To access a band's properties, click the band's caption and switch to the [Properties Panel](ui-panels/properties-panel.md).
 
+## Context Menus
+
+Context menus provide quick access to actions for the selected report element. Right-click a report element to invoke the context menu:
+
+![Web Report Designer - Context Menu for Report Controls](../../../images/web-report-designer-context-menu-control.png)
+
+Context menus allow you to do the following:
+
+* Add new bands, if you selected a report.
+    
+    ![Web Report Designer - Context Menu for Bands](../../../images/web-report-designer-context-menu-bands.png)
+
+* Manage cells, rows, and columns in a table.
+    
+    ![Web Report Designer - Context Menu for Table Cells](../../../images/web-report-designer-context-menu-table-cells.png)
+
+* Change element layout (for example, align elements to each other, snap to grid, change content alignment).
+    
+    ![Web Report Designer - Align and Position Elements](../../../images/web-report-designer-context-menu-align.png)
+
+Context menus are also available in [Field List](ui-panels/field-list.md) and [Report Explorer](ui-panels/report-explorer.md) windows.
+
+## Smart Tags
+
+When you select a report element (report, band, or report control), a smart tag and expression button are displayed next to the element on the Design Surface:
+
+![Web Report Designer - Smart Tag and Expression Buttons](../../../images/web-report-designer-smart-tags-expressions.png).
+
+The expression button invokes the [Expression Editor](ui-panels/expressions-panel.md).
+
+The smart tag opens a panel with the element's most commonly used properties:
+
+![Web Report Designer - Smart Tag](../../../images/web-report-designer-smart-tag.png)
+
+The smart tag contains properties from the element's **Task** group of the Properties Panel. Note that complex properties (for example, `Symbology`  for a Barcode control) need to be configured in the **Properties Panel**. 
+
 ## Data Binding Indication
 
 The Report Designer displays a database barrel icon above [data-bound](../use-report-elements/bind-controls-to-data.md) report controls.

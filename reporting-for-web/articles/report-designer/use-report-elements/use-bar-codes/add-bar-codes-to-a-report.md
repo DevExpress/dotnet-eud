@@ -10,7 +10,7 @@ To insert a barcode into a report, drag the **Barcode** item from the [Toolbox](
 
 ![](../../../../images/eurd-web-add-bar-code-to-report.png)
 
-After creating the barcode, expand the **Actions** category and select the barcode type (symbology) in the **Symbology** property's drop-down list.
+After creating the barcode, expand the **Bar Code Tasks** category and select the barcode type (symbology) in the **Symbology** property's drop-down list.
 	
 ![](../../../../images/eurd-web-bar-code-symbology.png)
 	

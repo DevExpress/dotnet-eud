@@ -18,12 +18,21 @@ Do one of the following to access an element's properties:
 
 * Select an element on the [Design Surface](../design-surface.md) and click the  ![](../../../../images/eurd-web-properties-panel-cogwheel.png) tab on the side panel to invoke the **Properties** panel.
 * Select an element in the [Report Explorer](report-explorer.md) panel and click the ![](../../../../images/eurd-web-properties-panel-pen.png) button.
+* Click an element’s smart tag to invoke a panel with the element’s most commonly used properties.
 
 ## Switch Between Display Modes
 
 Element settings can appear in alphabetical order or in categories based on their purpose. Use the buttons next to the selected element to switch between these display modes.
 
 ![](../../../../images/eurd-web-properties-panel-display-modes.png)
+
+## Display Property Descriptions
+
+The Properties panel displays hints with property descriptions. To display the description, select the property and click the information symbol (**i**) to the left of the property editor:
+
+![hint-property-description](../../../../images/hint-property-description.png)
+
+If necessary, you can localize property descriptions. 
 
 ## Change Property Values
 

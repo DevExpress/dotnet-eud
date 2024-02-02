@@ -6,7 +6,7 @@ author: Anna Vekhina
 
 ## Insert Table Elements
 
-Use **Insert** commands in the **Actions** category to add new rows and columns. The added cells inherit the source cells' size and appearance settings.
+Use **Insert** commands from the table's context menu to add new rows and columns. The added cells inherit the source cells' size and appearance settings.
 
 ![](../../../../images/eurd-web-table-insert-commands.png)
 
@@ -42,7 +42,7 @@ Use **Insert** commands in the **Actions** category to add new rows and columns.
 
 ## Delete Table Elements
 
-Use **Delete** commands in the **Actions** category to remove table elements.
+Use **Delete** commands from the table's context menu to remove table elements.
 
 ![](../../../../images/eurd-web-table-delete-commands.png)
 

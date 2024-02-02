@@ -6,7 +6,7 @@ author: Anna Vekhina
 
 This document describes how to count the number of groups in a report.
 
-1. Insert the [Group Header](../../introduction-to-banded-reports.md) band,      select the **Group Fields** section in the **Actions** category and add a      new group field to group the report's data by the required field.
+1. Insert the [Group Header](../../introduction-to-banded-reports.md) band, select the **Group Fields** section in the **Group Header Tasks** category and add a new group field to group the report's data by the required field.
 	
 	![](../../../../images/eurd-web-shaping-count-group-data.png)
 
@@ -14,17 +14,13 @@ This document describes how to count the number of groups in a report.
 	
 	![](../../../../images/eurd-web-shaping-count-drop-filed-onto-group-header.png)
 
-3. Drop a label onto the Report Footer, expand the **Summary** section in the **Actions** category and set the **Running** property to **Report**.
+3. Drop a label onto the Report Footer, expand the **Summary** section in the **Label Tasks** category and set the **Running** property to **Report**.
 	
 	![](../../../../images/eurd-web-shaping-group-count-summary-running.png)
 
 4. Click the **Text** property marker to invoke the menu. Select **Text Expression** to invoke the [Expression Editor](../../report-designer-tools/expression-editor.md).
 
 	![](../../../../images/eurd-web-shaping-group-count-text-expression.png)
-
-
-
- 
 
 
 5. In the Expression Editor select the **sumDCount** summary function in the **Functions** | **Summary** section:
