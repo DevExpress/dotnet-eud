@@ -10,7 +10,7 @@ This tutorial demonstrates how to insert the current user name in a report using
 
 Do the following to insert the user name into a report:
 
-1. Typically, the user name is displayed within the [Report Header](../introduction-to-banded-reports.md) band. To add it to the report, click **Insert Report Header Band** in the context menu.
+1. The user name is usually displayed in the [Report Header](../introduction-to-banded-reports.md) band. To add it to the report, click **Insert Report Header Band** in the context menu.
 	
 	![](../../../images/eurd-web-shaping-insert-report-header.png)
 
