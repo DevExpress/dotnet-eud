@@ -82,6 +82,9 @@
 <h2 id="specify-the-barcode-resolution-on-export-to-third-party-formats">Specify the Barcode Resolution on Export to Third-Party Formats</h2>
 <p>At present, only <a href="../../../document-viewer/exporting/pdf-specific-export-options.html">export to PDF</a> preserves the original barcode in its vector form. Export to other formats will keep only the rasterized version of a barcode (with the default DPI set to <strong>96</strong>).</p>
 <p>For <a href="../../../document-viewer/exporting/xlsx-specific-export-options.html">XLSX</a> and <a href="../../../document-viewer/exporting/xls-specific-export-options.html">XLS</a> export, the output resolution can be set up manually using the <strong>Rasterization Resolution</strong> property.</p>
+<h2 id="specify-the-dpi-of-the-device-used-to-print-the-bar-code">Specify the DPI of the Device Used to Print the Bar Code</h2>
+<p>The <strong>Target Device Dpi</strong> property allows you to specify the DPI of the device on which you wish to print your barcode. The <code>XRBarCode</code> control automatically adjusts bar density based on this property&#39;s value.</p>
+<p>Use the <strong>Target Device Dpi</strong> property to ensure that the bar code is scanned correctly on the target device. This is especially important if your printing device has a non-standard DPI setting.</p>
 <h2 id="common-issues">Common Issues</h2>
 <p>This document section provides solutions to the most common issues that you may encounter when creating barcodes.</p>
 <ul>
@@ -112,7 +115,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/23.1/reporting-for-web/articles/report-designer/use-report-elements/use-bar-codes/bar-code-recognition-specifics.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/23.2/reporting-for-web/articles/report-designer/use-report-elements/use-bar-codes/bar-code-recognition-specifics.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>
@@ -132,7 +135,7 @@
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            Copyright (c) 1998-2023 Developer Express Inc. All rights reserved.
+            Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
             
           </div>
         </div>

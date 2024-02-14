@@ -96,6 +96,11 @@
 <td>[Categories][[CategoryID] == 7].Exists()</td>
 </tr>
 <tr>
+<td>Join()</td>
+<td>Concatenates all Expression values in the <em>Collection</em> based on the specified <em>Condition</em> (optional) into a single string separated by the specified <em>Separator</em> (optional). If you do not specify a <em>Separator</em>, the function uses a comma.<br>The function has the following overloads:<br><code>[Collection][Condition].Join(Expression)</code><br><code>[Collection][Condition].Join(Expression, Separator)</code></td>
+<td>The following expression concatenates <em>CompanyName</em> field values within a report grouped by the <em>CategoryID</em> field into a single string separated by a semicolon:<br><code>[][[CategoryID] == [^.CategoryID]].Join([CompanyName], &#39;;&#39;)</code></td>
+</tr>
+<tr>
 <td>Max(Value)</td>
 <td>Returns the maximum expression value in a collection.</td>
 <td>[Products].Max([UnitPrice])</td>
@@ -977,7 +982,7 @@ Condiments
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/23.1/reporting-for-desktop/articles/report-designer/report-designer-for-winforms/use-expressions/functions-in-expressions.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/23.2/reporting-for-desktop/articles/report-designer/report-designer-for-winforms/use-expressions/functions-in-expressions.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>
@@ -997,7 +1002,7 @@ Condiments
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            Copyright (c) 1998-2023 Developer Express Inc. All rights reserved.
+            Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
             
           </div>
         </div>

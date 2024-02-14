@@ -1,0 +1,218 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>EPC QR Code | DevExpress End-User Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="EPC QR Code | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="../../../../../../favicon.ico">
+    <link rel="stylesheet" href="../../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../../../../toc.html">
+    <meta property="docfx:tocrel" content="../../../../../toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../../../../index.html">
+                <img id="logo" class="svg" src="../../../../../../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="epc-qr-code">EPC QR Code</h1>
+
+<p>An EPC QR Code (European Payments Council Quick Response Code) is a two-dimensional barcode used to initiate a <a href="https://www.europeanpaymentscouncil.eu/what-we-do/sepa-credit-transfer">SEPA credit transfer (SCT)</a>. The following guideline contains general information about this type of barcode and defines the data format for EPC QR Codes: <a href="https://www.europeanpaymentscouncil.eu/sites/default/files/kb/file/2022-09/EPC069-12%20v3.0%20Quick%20Response%20Code%20-%20Guidelines%20to%20Enable%20the%20Data%20Capture%20for%20the%20Initiation%20of%20an%20SCT_0.pdf">Quick Response Code - Guidelines to Enable the Data Capture for the Initiation of a SEPA Credit Transfer</a>.</p>
+<p><img src="../../../../../images/barcode-epc-qr-code.png" alt="EPC QR Code Barcode"></p>
+<h2 id="add-a-bar-code-to-a-report">Add a Bar Code to a Report</h2>
+<ol>
+<li><p>Drag the <strong>Barcode</strong> item from the report controls toolbox tab and drop it onto the report. </p>
+<p> <img src="../../../../../images/drag-and-drop-barcode.png" alt=""></p>
+</li>
+<li><p>Set the control’s <strong>Symbology</strong> property to <strong>EPC QR Code</strong>. </p>
+<p> <img src="../../../../../images/epc-qr-code-in-designer.png" alt=""></p>
+</li>
+<li><p>Specify <a href="add-bar-codes-to-a-report.html">common</a> barcode properties and properties <a href="#specific-properties">specific</a> to <strong>EPC QR Code</strong>.</p>
+</li>
+</ol>
+<h2 id="specific-properties">Specific Properties</h2>
+<ul>
+<li><p><strong>Auto Module</strong></p>
+<p>  Gets or sets whether the Module property value should be calculated automatically based on the barcode size.</p>
+</li>
+<li><p><strong>Version</strong></p>
+<p>  Gets or sets the bar code’s size.</p>
+</li>
+<li><p><strong>Include Quiet Zone</strong></p>
+<p>  Gets or sets whether to add a blank space around the QR code.</p>
+</li>
+<li><p><strong>Logo</strong></p>
+<p>  Specifies the image that overlays the QR code.</p>
+</li>
+<li><p><strong>Frame Options</strong></p>
+<p>  Gets or sets the <a href="add-bar-codes-to-a-report.html#frames-for-qr-codes">frame for QR codes</a>.</p>
+</li>
+</ul>
+<h2 id="specify-the-data">Specify the Data</h2>
+<p>EPC QR Codes require data in a specific format. For more information, refer to the following European Payments Council guideline: <a href="https://www.europeanpaymentscouncil.eu/sites/default/files/kb/file/2022-09/EPC069-12%20v3.0%20Quick%20Response%20Code%20-%20Guidelines%20to%20Enable%20the%20Data%20Capture%20for%20the%20Initiation%20of%20an%20SCT_0.pdf">Quick Response Code - Guidelines to Enable the Data Capture for the Initiation of a SEPA Credit Transfer</a>.</p>
+<p>You can specify the barcode data in the following ways:</p>
+<h3 id="the-text-property">The Text property.</h3>
+<p>Pass the data string to Text property. Each data element should be on a new line. Double-click the control to specify the content (editors in the Property grid do not support multi-line text):</p>
+<p><img src="../../../../../images/epc-qr-code-data.png" alt=""></p>
+<p>In the image above, the following data elements are specified:</p>
+<table>
+<thead>
+<tr>
+<th>Data Element</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Service Tag:</td>
+<td>BCD</td>
+</tr>
+<tr>
+<td>Version:</td>
+<td>001</td>
+</tr>
+<tr>
+<td>Encoding:</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Identification:</td>
+<td>SCT</td>
+</tr>
+<tr>
+<td>BIC:</td>
+<td>BPOTBEB1</td>
+</tr>
+<tr>
+<td>Beneficiary Name:</td>
+<td>Red Cross of Belgium</td>
+</tr>
+<tr>
+<td>IBAN:</td>
+<td>BE72000000001616</td>
+</tr>
+<tr>
+<td>Transfer Amount:</td>
+<td>EUR1</td>
+</tr>
+<tr>
+<td>Transfer Reason:</td>
+<td>CHAR</td>
+</tr>
+<tr>
+<td>Creditor Reference:</td>
+<td>Empty line</td>
+</tr>
+<tr>
+<td>Remittance Information:</td>
+<td>Urgency fund</td>
+</tr>
+<tr>
+<td>Information:</td>
+<td>Empty line</td>
+</tr>
+</tbody>
+</table>
+<p>This field is bindable. For more information on data binding, review the following help topic: <a href="../bind-controls-to-data.html">Bind Report Controls to Data</a>.</p>
+<h3 id="the-convertdatatoepc-function">The ConvertDataToEPC function.</h3>
+<p>Use the <code>ConvertDataToEPC</code> function from the Expression Editor to bind to the <code>Text</code> property.</p>
+<p>You can specify the data as shown below:</p>
+<pre><code>ConvertDataToEPC(&#39;Red Cross of Belgium&#39;, &#39;BE72000000001616&#39;, &#39;BPOTBEB1&#39;,&#39;20.0&#39;, &#39;&#39;, &#39;Urgency fund&#39;, &#39;CHAR&#39;, &#39;Sample EPC QR code&#39;)
+</code></pre><p><img src="../../../../../images/convert-to-epc-function.png" alt=""></p>
+<p>You can not change the default values for Version and Encoding with this function. The default value for the Version data element is <code>002</code> and <code>UTF-8</code> for the Encoding.</p>
+<h2 id="display-a-zahlen-mit-code-frame">Display a “Zahlen mit Code” Frame</h2>
+<p>You can also apply a frame with the words “Zahlen mit Code” (to the right from the bottom to the top) to an EPC QR Code. The frame is used to highlight the function of the codes and to secure the identification. For more information, refer to the following Payment Services Austria (PSA) document: <a href="https://zv.psa.at/de/download/qr-code/339-qr-code-und-bcd-definition-3-en/file.html">Application of QR-Code for initiating of credit transfers</a>.</p>
+<p>This frame already contains predefined settings according to the standard. To set this frame, go to Barcode Tasks → Symbology → FrameOptions, and select <strong>Payment Services Austria Frame</strong>.</p>
+<p><img src="../../../../../images/qr-frame-austria-design-time-options.png" alt=""></p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/23.2/reporting-for-desktop/articles/report-designer/report-designer-for-winforms/use-report-elements/use-bar-codes/epc-qr-code.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../../../../styles/main.js"></script>
+  </body>
+</html>

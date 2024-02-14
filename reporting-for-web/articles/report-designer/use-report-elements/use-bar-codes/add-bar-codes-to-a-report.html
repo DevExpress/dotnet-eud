@@ -72,7 +72,7 @@
 <h2 id="overview">Overview</h2>
 <p>To insert a barcode into a report, drag the <strong>Barcode</strong> item from the <a href="../../report-designer-tools/toolbox.html">Toolbox</a> onto the report&#39;s area.</p>
 <p><img src="../../../../images/eurd-web-add-bar-code-to-report.png" alt=""></p>
-<p>After creating the barcode, expand the <strong>Actions</strong> category and select the barcode type (symbology) in the <strong>Symbology</strong> property&#39;s drop-down list.</p>
+<p>After creating the barcode, expand the <strong>Bar Code Tasks</strong> category and select the barcode type (symbology) in the <strong>Symbology</strong> property&#39;s drop-down list.</p>
 <p><img src="../../../../images/eurd-web-bar-code-symbology.png" alt=""></p>
 <p>After specifying the symbology, you can customize the type-specific options of the barcode, which are listed under the <strong>Symbology</strong> property.</p>
 <p><img src="../../../../images/eurd-web-bar-code-symbology-property.png" alt=""></p>
@@ -89,6 +89,65 @@
 <li><p>Use the <strong>Orientation</strong> property to rotate a barcode.</p>
 </li>
 <li><p>Use the <strong>Padding</strong> property to specify the indent between bars and the barcode&#39;s inner boundaries.</p>
+</li>
+</ul>
+<h2 id="frames-for-qr-codes">Frames for QR Codes</h2>
+<p>For QR Codes (<a href="qr-code.html">QR Code</a>, <a href="gs1-qr-code.html">GS1 QR Code</a>, and <a href="epc-qr-code.html">EPC QR Code</a>), you can use the <strong>Frame Options</strong> property to configure the frame around the barcode. The Corner and Rectangle frames are available for all types of QR Codes. </p>
+<h3 id="corner-frame">Corner Frame</h3>
+<p>The corner frame looks as follows:</p>
+<p><img src="../../../../images/qr-code-corner-frame.png" alt=""></p>
+<p>You can specify the following properties for corner frames:</p>
+<ul>
+<li><p><strong>Frame Color</strong> </p>
+<p>Specifies the frame color.</p>
+</li>
+<li><p><strong>Frame Width</strong></p>
+<p>Specifies the frame width in pixels. </p>
+</li>
+<li><p><strong>Padding</strong></p>
+<p>Specifies the distance between the frame and QR code.</p>
+</li>
+<li><p><strong>Text</strong>    </p>
+<p>Specifies the text that displayed in the frame.</p>
+</li>
+<li><p><strong>Text Alignment</strong></p>
+<p>Specifies how the text is aligned with the frame line.</p>
+</li>
+<li><p><strong>Text Color</strong>  </p>
+<p>Specifies the color of the text in the frame.</p>
+</li>
+<li><p><strong>Text Position</strong>   </p>
+<p>Specifies how the text is positioned against the QR code. </p>
+</li>
+</ul>
+<h3 id="rectangular-frame">Rectangular Frame</h3>
+<p>The rectangular frame looks as follows:</p>
+<p><img src="../../../../images/qr-code-rectangle-frame.png" alt=""></p>
+<p>You can specify the following properties for corner frames:</p>
+<ul>
+<li><p><strong>Corner Radius</strong>   </p>
+<p>Specifies rounded corners for the rectangular frame in pixels.</p>
+</li>
+<li><p><strong>Frame Color</strong> </p>
+<p>Specifies the frame color.</p>
+</li>
+<li><p><strong>Frame Width</strong></p>
+<p>Specifies the frame width in pixels. </p>
+</li>
+<li><p><strong>Padding</strong></p>
+<p>Specifies the distance between the frame and QR code.</p>
+</li>
+<li><p><strong>Text</strong>    </p>
+<p>Specifies the text that displayed in the frame.</p>
+</li>
+<li><p><strong>Text Alignment</strong></p>
+<p>Specifies how the text is aligned with the frame line.</p>
+</li>
+<li><p><strong>Text Color</strong>  </p>
+<p>Specifies the color of the text in the frame.</p>
+</li>
+<li><p><strong>Text Position</strong>   </p>
+<p>Specifies how the text is positioned against the QR code. </p>
 </li>
 </ul>
 <h2 id="bind-to-data">Bind to Data</h2>
@@ -114,7 +173,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/23.1/reporting-for-web/articles/report-designer/use-report-elements/use-bar-codes/add-bar-codes-to-a-report.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/23.2/reporting-for-web/articles/report-designer/use-report-elements/use-bar-codes/add-bar-codes-to-a-report.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>
@@ -134,7 +193,7 @@
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            Copyright (c) 1998-2023 Developer Express Inc. All rights reserved.
+            Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
             
           </div>
         </div>
