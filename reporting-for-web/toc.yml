@@ -408,6 +408,8 @@
     items:
     - name: Create Drill-Down Reports
       href: articles/report-designer/provide-interactivity/create-drill-down-reports.md
+    - name: Create Drill-Through Reports
+      href: articles/report-designer/provide-interactivity/create-drill-through-reports.md
     - name: Sort a Report in Print Preview
       href: articles/report-designer/provide-interactivity/sort-a-report-in-print-preview.md
     - name: Edit Content in Print Preview

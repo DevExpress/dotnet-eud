@@ -13,6 +13,7 @@ This topic lists the functions that you can use in an [expression](expressions-o
 | Avg(Value) | Evaluates the average of the values in the collection. | [Products].Avg([UnitPrice]) |
 | Count() | Returns the number of objects in a collection. | [Products].Count() |
 | Exists() | Determines whether the object exists in the collection. | [Categories][[CategoryID] == 7].Exists() |
+| Join() | Concatenates all Expression values in the _Collection_ based on the specified _Condition_ (optional) into a single string separated by the specified _Separator_ (optional). If you do not specify a _Separator_, the function uses a comma.<br>The function has the following overloads:<br>`[Collection][Condition].Join(Expression)`<br>`[Collection][Condition].Join(Expression, Separator)`| The following expression concatenates _CompanyName_ field values within a report grouped by the _CategoryID_ field into a single string separated by a semicolon:<br>`[][[CategoryID] == [^.CategoryID]].Join([CompanyName], ';')`|
 | Max(Value) | Returns the maximum expression value in a collection. | [Products].Max([UnitPrice]) |
 | Min(Value) | Returns the minimum expression value in a collection. | [Products].Min([UnitPrice]) |
 | Single() | Returns an object if it is the only element in a collection. | [Accounts].Single() is not null |
