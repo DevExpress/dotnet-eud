@@ -1,28 +1,152 @@
 ---
 title: Create or Modify Watermarks of a Report
-author: Anna Gubareva
 legacyId: 116390
 ---
 # Create or Modify Watermarks of a Report
-This document describes how to add a text _watermark_ in a report, or turn a picture into a report's _background_. Note that watermarks are visible only in the [Preview](../../document-preview.md) mode.
 
-To create a new watermark in a report (or to modify the existing one), do the following.
-1. Right-click the report, and in the invoked context menu, click the **Watermark...** link.
-	
-	![EUD_WpfReportDesigner_Watermark_1](../../../../../images/img123768.png)
-2. In the **Text Watermark** tab of the invoked **Watermark** dialog, enter the watermark's text and specify the required properties such as the **Direction**, **Transparency**, **Color**, etc.
-	
-	![EUD_WpfReportDesigner_Watermark_2](../../../../../images/img123769.png)
-3. Then, switch to the **Picture Watermark** tab to load the image to be used as a watermark. To do this, click the ellipsis button for the **Image** property. In the invoked dialog, select the file containing the image that you wish to load and click **Open**.
-	
-	![EUD_WpfReportDesigner_Watermark_3](../../../../../images/img123770.png)
-4. Next, define the picture's properties, such as the **Size mode**, **Alignment** , **Transparency**, etc.
-	
-	![EUD_WpfReportDesigner_Watermark_4](../../../../../images/img123771.png)
-5. In addition, you can select a watermark position behind or in front of the document, and specify the page range in which the watermark will be printed.
-	
-	As you can see, it is possible to use both textual and image watermarks simultaneously.
+DevExpress Reporting allows you to display text and picture watermarks on report pages. You can also specify an expression that assigns different watermarks to pages.
 
-The report with watermark is now ready. Switch to the [Print Preview](../../document-preview.md) tab and view the result.
+* How to add watermarks.
+
+* How to specify watermark settings.
+
+* How to use pre-printed forms.
+
+## Add a Watermark to a Report
+
+Right-click the report, and in the invoked context menu, click the **Watermark...** link. In the invoked **Watermarks** dialog, add a new watermark and click either the **Text Watermark** or **Picture Watermark** tab, depending on the type of watermark you wish to add.
+
+## Specify Text Watermark Settings
+
+Specify the following settings:
+
+![EUD_WpfReportDesigner_Watermark_2](../../../../../images/img123769.png)
+
+* Text
+
+	The watermark’s text.
+
+* Direction
+
+	The incline of the watermark’s text.
+
+* Font
+
+	The font of the watermark’s text.
+
+* Color
+
+	The foreground color of the watermark’s text.
+
+* Size
+
+	The size of the watermark’s text.
+
+* Bold
+
+	Formats the watermark’s text as bold.
+
+* Italic
+
+	Formats the watermark’s text as italic.
+
+* Position
+
+	Specifies whether a watermark should be printed behind or in front of page content.
+
+* Transparency
+
+	The transparency of the watermark’s text.
+
+* Id
+
+	The unique identifier of a watermark used to specify the watermark in the WatermarkId property (See the Manage Watermark Collection section for details).
+
+* Page Range
+
+	The range of pages which contain a watermark.
+
+Click **OK** to add a watermark to the watermark collection. The added watermark is automatically displayed in the report in Preview mode.
+
+> [!NOTE]
+> A report can display only one watermark on a report page.
+
+## Specify Picture Watermark Settings
+
+Specify an image. Click the **Load image** option’s **Image** button.
+
+In the invoked **Select Picture** dialog, select the file containing the image that you wish to use as a watermark and click **Open**.
+
+Specify the following picture options:
+
+![EUD_WpfReportDesigner_Watermark_3](../../../../../images/img123770.png)
+
+* Size Mode
+
+	The mode in which a picture watermark is displayed.
+
+* Tiling
+
+	Specifies whether a picture watermark should be tiled.
+
+* Horizontal Alignment
+
+	Specifies the horizontal alignment of the watermark.
+
+* Vertical Alignment
+
+	Specifies the vertical alignment of the watermark.
+
+* Position
+
+	Specifies whether a watermark should be printed behind or in front of page content.
+
+* Transparency
+
+	The transparency of the watermark’s image. The **Transparency** property is unavailable when you specify an SVG image.
+
+* Id
+
+	The unique identifier of a watermark used to specify the watermark in the WatermarkId property (See the Manage Watermark Collection section for details).
+
+* Page Range
+
+	The range of pages which contain a watermark.
+
+Click **OK** to add a watermark to the watermark collection. The added watermark is automatically displayed in the report in Preview mode.
+
+> [!NOTE]
+> A report can display only one watermark on a report page.
+
+## Combine Text and a Picture in One Watermark
+
+You can display both text and a picture in one watermark.
+
+For example, create a watermark and specify its text and picture settings. Set position of the text to In front and the position of the picture to Behind.
+ 
+As a result, in [Preview](../../document-preview.md) mode the image is displayed behind the table, while the text is in front of the content:
 
 ![EUD_WpfReportDesigner_Watermark_Result](../../../../../images/img123772.png)
+
+## Display a Specific Watermark in a Report
+
+The report's **Watermark Id** property allows you to specify a watermark from the collection to display in the report by the watermark's unique identifier (the Id option's value of the watermark). This property has a priority over the watermark’s **Page Range** property.
+
+## Display Watermarks According to the Specified Condition
+
+Bind **Watermark Id** to an expression to apply watermarks stored in the collection to specific report pages.
+
+Create the “First page watermark”, “Even page watermark”, and “Odd page watermark” watermarks with the following settings:
+
+![Create three watermarks](../../../../../images/wpf-bind-watermarks-to-expression--ui.png)
+
+Specify the expression in the report’s **Watermark Id** property:
+
+`Iif([Arguments.PageIndex]=0,'Watermark1',Iif([Arguments.PageIndex]%2=0,'Watermark2','Watermark3'))`
+
+![Specify the binding expression](../../../../../images/wpf-specify-watermark-expression-in-the-expression-editor.png)
+
+The image below shows the result.
+
+![Display different watermarks](../../../../../images/wpf-watermarks-expression-example.png)
+
