@@ -14,7 +14,7 @@ The end-user documentation is divided into four target platforms:
 * [Reporting for Web](reporting-for-web/articles/index.md)
 * [Dashboard for Web](dashboard-for-web/articles/index.md)
 * [Interface Elements for Web](interface-elements-for-web/articles/index.md)
-* 
+
 #### Desktop (WinForms & WPF):
 
 * [Reporting for Desktop](reporting-for-desktop/articles/index.md)
