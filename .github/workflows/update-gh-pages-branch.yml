@@ -20,7 +20,7 @@ jobs:
       run: Expand-Archive ../docfx.zip -DestinationPath ../docfx
       
     - name: Build site with docfx
-      run: ../docfx/docfx.exe build docfx.json --globalMetadata "{ '_matomoContainerId': 'kE7MWPi0' } --warningsAsErrors
+      run: "../docfx/docfx.exe build docfx.json --globalMetadata \"{ '_matomoContainerId': 'kE7MWPi0' }\" --warningsAsErrors"
       
     - name: Archive site
       run: Compress-Archive -Path _site/* -DestinationPath ${{ runner.temp }}/site.zip
