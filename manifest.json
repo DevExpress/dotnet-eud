@@ -25733,6 +25733,18 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-editing-basics/binding-report-elements-using-binding-expressions.md",
+      "output": {
+        ".html": {
+          "relative_path": "interface-elements-for-desktop/articles/report-designer/report-designer-for-winforms/report-editing-basics/binding-report-elements-using-binding-expressions.html",
+          "hash": "Py+XPF01cbfWIbkRkUizyYyX5kx3jCShbeh6HEcObmQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "interface-elements-for-desktop/articles/ribbon.md",
       "output": {
         ".html": {
@@ -58992,18 +59004,6 @@
         ".html": {
           "relative_path": "reporting-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-tools/ui-panels/report-gallery.html",
           "hash": "vb1od5D8BrwPr797kneravn+HiLHVspXQ/anye0is4Q="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "reporting-for-desktop/articles/report-designer/report-designer-for-winforms/report-editing-basics/binding-report-elements-using-binding-expressions.md",
-      "output": {
-        ".html": {
-          "relative_path": "reporting-for-desktop/articles/report-designer/report-designer-for-winforms/report-editing-basics/binding-report-elements-using-binding-expressions.html",
-          "hash": "qm3DczSrSEhsDRDDHusJK4IVdTpblNlzuBd4hagJ8Xo="
         }
       },
       "is_incremental": false,
