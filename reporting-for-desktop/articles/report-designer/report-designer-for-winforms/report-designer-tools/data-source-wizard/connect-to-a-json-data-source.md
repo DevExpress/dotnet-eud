@@ -13,4 +13,4 @@ This task includes the following steps:
 * [Select Data Fields](connect-to-a-json-data-source/select-data-fields.md)
 
 > [!Note]
-> The Report Designer's Data Source Wizard provides the JSON option if the application has a reference to the open-source **Newtonsoft.Json** library.
+> The Report Designer's Data Source Wizard provides the JSON option if the application has a reference to the open-source **Newtonsoft.Json** library for .NET Framework projects.

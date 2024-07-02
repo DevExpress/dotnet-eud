@@ -11,12 +11,13 @@ To bind a report to a database, do the following.
 2. Right-click the report and select **Edit...** in the context menu. In the invoked dialog, expand the **Data Source** drop-down and click the **Add New** button.
 	
 	![EUD_WpfReportDesigner_AddDataSource](../../../../../../images/img123562.png)
-3. The first page of the invoked **Data Source Wizard** allows you to specify the data source type. Select **Database** and click **Next** to proceed.
+3. The first page of the invoked **Data Source Wizard** allows you to specify the data source type. Select **Microsoft SQL Server** and click **Next** to proceed.
 	
-	![EUD_WpfReportDesigner_DataSourceWizard_Database](../../../../../../images/img123568.png)
+	![WPDDesigner_ReportWizard_SelectDataSourceType](../../../../../images/img122896.png)
+
 4. On the next page, specify the data connection to be used. If it is absent in the list containing existing connections, select **No, I'd like to specify the connection parameters myself** and click **Next**.
 	
-	![EUD_WpfReportDesigner_DataSourceWizard_Database_1](../../../../../../images/img123985.png)
+	![WPDDesigner_ReportWizard_SpecifyConnectionString](../../../../../../images/img122000.png)
 5. On the next wizard page, define a custom connection string, or select from the supported data source types. Depending on the data provider selected, it may be necessary to specify additional connection options (such as authentication type and database name) on this page.
 	
 	![EUD_WpfReportDesigner_DataSourceWizard_Database_2](../../../../../../images/img123986.png)

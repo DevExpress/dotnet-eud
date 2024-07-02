@@ -102,7 +102,7 @@ The [Field List](../report-designer-tools/ui-panels/field-list.md) displays the 
 
 2. In the invoked **Data Source Wizard**, select **Data Federation** and click **Next**.
 
-    ![](../../../../images/data-federation-wizard-choose-data-federation.png)
+    ![](../../../../images/eurd-data-federation-wizard.png)
 
 3. On the next page, click **Add Query**.
 

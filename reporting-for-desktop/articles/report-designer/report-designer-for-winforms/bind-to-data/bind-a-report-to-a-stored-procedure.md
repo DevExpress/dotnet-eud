@@ -11,7 +11,7 @@ This tutorial demonstrates how to bind a report to a stored procedure provided b
 	
 	![](../../../../images/eurd-win-report-smart-tag-add-new-data-source.png)
 	
-3. On the first page of the invoked [Data Source Wizard](../report-designer-tools/data-source-wizard.md), select **Database** and click **Next**.
+3. On the first page of the invoked [Data Source Wizard](../report-designer-tools/data-source-wizard.md), select **Microsoft SQL Server** and click **Next** to proceed.
 	
 	![](../../../../images/eurd-win-data-source-wizard.png)
 
@@ -19,7 +19,7 @@ This tutorial demonstrates how to bind a report to a stored procedure provided b
 	
 	![](../../../../images/eurd-win-data-source-wizard-select-new-connection.png)
 
-5. On the next page, you can define a custom connection string or select from the list of [supported data providers](../report-designer-tools/data-source-wizard/connect-to-a-database/specify-a-connection-string.md). Depending on the data provider selected, it may be necessary to specify additional connection options (such as authentication type and database name) on this page.
+5. On the next page, configure connection parameters. Depending on the data provider selected, it may be necessary to specify additional connection options (such as authentication type and database name) on this page.
 	
 	![](../../../../images/eurd-win-data-source-wizard-connection-settings.png)
 	

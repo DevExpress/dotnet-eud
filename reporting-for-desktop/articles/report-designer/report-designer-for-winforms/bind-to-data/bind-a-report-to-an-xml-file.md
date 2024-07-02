@@ -14,13 +14,13 @@ This tutorial demonstrates how to bind a report to data stored in an external XM
 
 3. On the first page of the invoked [Data Source Wizard](../report-designer-tools/data-source-wizard.md), select **Database** and click **Next**.
 	
-	![](../../../../images/eurd-win-data-source-wizard.png)
+	![](../../../../images/eurd-win-data-source-wizard-xml.png)
 
 4. The next page allows you to specify whether you want to use an existing data connection or create a new data connection. Select the first option and click **Next**.
 	
 	![](../../../../images/eurd-win-data-source-wizard-select-new-connection.png)
 
-5. On the next page, specify the data provider (**XML file**) and the path to the database file. 
+5. On the next page, specify the path to the database file. 
 	
 	![](../../../../images/eurd-win-data-source-wizard-select-xml-file.png)
 	
