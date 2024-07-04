@@ -13,7 +13,7 @@ This tutorial demonstrates how to bind a report to a hierarchical data source an
 
 3. On the first page of the invoked [Data Source Wizard](../report-designer-tools/data-source-wizard.md), specify whether you want to use an existing data connection or create a new data connection from scratch. Select the first option to create a new connection and click **Next**.
 
-![](../../../../images/eurd-win-data-source-wizard-select-new-connection.png)
+    ![](../../../../images/eurd-win-data-source-wizard-select-new-connection.png)
 
 4. On the next page, select **Microsoft SQL Server** and click **Next** to proceed.
 	
