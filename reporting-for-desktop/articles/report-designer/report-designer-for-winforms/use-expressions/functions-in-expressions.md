@@ -195,6 +195,30 @@ This topic lists the functions that you can use in an [expression](expressions-o
   /* Result: '30,200,150' */
   ```
 
+* CurrentRowIndexInGroup()
+
+   Returns the current row's index within the group.
+
+    The following expression adds row indexes in the group:
+
+    ```CurrentRowIndexInGroup(0) + 1```
+
+* GroupIndex(level)
+
+   Locates the parent group row at the specified nesting level and returns that row's index. 
+
+    The following expression displays indexes of root-level groups:
+
+    ```GroupIndex(1) + 1```  
+
+* NextRowColumnValue(columnName)
+
+    Obtains the next row and returns the value from the specified column.
+
+* PrevRowColumnValue(columnName)
+
+    Obtains the previous row and returns the value from the specified column.  
+
 ## String Functions
 
 | Function | Description | Example |

@@ -4,7 +4,7 @@ author: Anna Gubareva
 legacyId: 116231
 ---
 # Select the Data Source Type
-This wizard page allows you to select the required data source type.
+This wizard page allows you to select the required data source type. 
 
 ![WPDDesigner_ReportWizard_SelectDataSourceType](../../../../../images/img122896.png)
 

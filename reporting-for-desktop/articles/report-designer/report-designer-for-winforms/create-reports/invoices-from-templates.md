@@ -25,7 +25,7 @@ Do the following to select an invoice template and configure its settings:
 	
 	Click **Next** to proceed to the next wizard page.
 
-4. The following page allows you to select a data source's type that provides data to your report. Choose **Database** and click **Next**.
+4. The following page allows you to select a data source's type that provides data to your report. Select **Microsoft SQL Server** and click **Next**.
 	
 	![ReportWizard-SelectDataSourceType](../../../../images/eurd-ReportWizard-SelectDataSourceType.png)
 

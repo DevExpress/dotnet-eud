@@ -19,7 +19,7 @@ This tutorial describes how to create a simple invoice report displaying informa
 	
 	![](../../../../images/eurd-win-report-smart-tag-add-new-data-source.png)
 
-3. On the first page of the invoked **Data Source Wizard**, you can choose the required data source type. Select **Database** and click **Next** to proceed.
+3. On the first page of the invoked **Data Source Wizard**, you can choose the required data source type. Select **Microsoft SQL Server** and click **Next**.
 	
 	![ReportWizard-SelectDataSourceType](../../../../images/eurd-ReportWizard-SelectDataSourceType.png)
 

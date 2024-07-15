@@ -9,17 +9,17 @@ This tutorial demonstrates how to bind a report to a stored procedure provided b
 1. [Create a new report](../add-new-reports.md).
 2. Click the report's smart tag. In the invoked actions list, expand the drop-down menu for the **Data Source** property and click **Add New DataSource**.
 	
-	![](../../../../images/eurd-win-report-smart-tag-add-new-data-source.png)
-	
-3. On the first page of the invoked [Data Source Wizard](../report-designer-tools/data-source-wizard.md), select **Database** and click **Next**.
-	
-	![](../../../../images/eurd-win-data-source-wizard.png)
+	![](../../../../images/eurd-win-report-smart-tag-add-new-data-source.png)	
 
-4. The next page allows you to specify whether you want to use an existing data connection or create a new data connection with custom parameters. Select the first option to create a new connection and click **Next**.
+3. On the first page of the invoked [Data Source Wizard](../report-designer-tools/data-source-wizard.md), specify whether you want to use an existing data connection or create a new data connection from scratch. Select the first option to create a new connection and click **Next**.
 	
 	![](../../../../images/eurd-win-data-source-wizard-select-new-connection.png)
 
-5. On the next page, you can define a custom connection string or select from the list of [supported data providers](../report-designer-tools/data-source-wizard/connect-to-a-database/specify-a-connection-string.md). Depending on the data provider selected, it may be necessary to specify additional connection options (such as authentication type and database name) on this page.
+4. On the next page, select **Microsoft SQL Server** and click **Next** to proceed.
+	
+	![](../../../../images/eurd-win-data-source-wizard.png)	
+
+5. On the next page, configure connection parameters. Depending on the data provider selected, it may be necessary to specify additional connection options (such as authentication type and database name) on this page.
 	
 	![](../../../../images/eurd-win-data-source-wizard-connection-settings.png)
 	

@@ -16,7 +16,7 @@ The following image illustrates the resulting report with a hierarchical Documen
 
 ![](../../../images/eurd-web-addbookmark_result.png)
 
-Use the following steps to generate a Documnet Map in your grouped report.
+Use the following steps to generate a Document Map in your grouped report.
 
 1. Select the label placed in the **Group Header** band and switch to the [Expressions](../report-designer-tools/ui-panels/expressions-panel.md) panel. Click the **Bookmark** property's ellipsis button, and in the invoked [Expression Editor](../report-designer-tools/expression-editor.md), select the **CategoryName** data field.
 	

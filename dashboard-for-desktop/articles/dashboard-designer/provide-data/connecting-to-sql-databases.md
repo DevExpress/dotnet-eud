@@ -10,10 +10,10 @@ To connect to an SQL database in the Dashboard Designer, follow the steps below.
 1. Click the **New Data Source** button in the **Data Source** ribbon tab.
 	
 	![DataBinding_NewDataSource](../../../images/img18472.png)
-2. On the first page of the invoked **Data Source Wizard** dialog, select **Database** and click **Next**.
+2. On the first page of the invoked **Data Source Wizard** dialog, select the required data provider and click **Next**.
 	
 	![DataSourceWizard_Database](../../../images/img117932.png)
-3. On the next page, select the required data provider and specify the required connection parameters.
+3. On the next page, specify the required connection parameters.
 	
 	![DataSourceWizard_MSSQLServer](../../../images/img117934.png)
 	

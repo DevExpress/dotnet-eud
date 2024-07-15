@@ -11,15 +11,15 @@ This tutorial demonstrates how to bind a report to a hierarchical data source an
 	
 	![](../../../../images/eurd-win-report-smart-tag-add-new-data-source.png)
 
-3. On the first page of the invoked [Data Source Wizard](../report-designer-tools/data-source-wizard.md), select **Database** and click **Next** to proceed.
+3. On the first page of the invoked [Data Source Wizard](../report-designer-tools/data-source-wizard.md), specify whether you want to use an existing data connection or create a new data connection from scratch. Select the first option to create a new connection and click **Next**.
+
+    ![](../../../../images/eurd-win-data-source-wizard-select-new-connection.png)
+
+4. On the next page, select **Microsoft SQL Server** and click **Next** to proceed.
 	
 	![](../../../../images/eurd-win-data-source-wizard.png)
 
-4. The next page allows you to specify whether you want to use an existing data connection or create a new data connection from scratch. Select the first option to create a new connection and click **Next**.
-	
-	![](../../../../images/eurd-win-data-source-wizard-select-new-connection.png)
-
-5. On the next page, you can define a custom connection string, or select one of the supported data providers.
+5. This page allows you to specify connection string parameters specific to the selected data source provider.
 	
 	Depending on the data provider selected, it may be necessary to specify additional connection options (such as the authentication type and database name) on this page.
 		

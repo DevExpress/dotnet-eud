@@ -21,7 +21,7 @@ This topic describes how to bind a report to JSON data.
 	![JSON-SelectJSONDataSource](../../../../images/eurd-win-JSON-SelectJSONDataSource.png)
 
     > [!Note]
-    > The Report Designer's Report Wizard provides the JSON option if the application has a reference to the open-source Newtonsoft.Json library.
+    > The Report Designer's Report Wizard provides the JSON option if the application has a reference to the open-source Newtonsoft.Json library for .NET Framework projects.
 
 4. The next wizard page allows you to specify a Web Service Endpoint, a filename, or a string with JSON data. In this example, the JSON data is obtained from a [JSON sample data location](https://northwind.now.sh/api/customers).
 
