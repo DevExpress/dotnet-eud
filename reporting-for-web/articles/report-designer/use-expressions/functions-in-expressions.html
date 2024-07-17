@@ -712,6 +712,22 @@ GetDisplayText(?employeeParameter)
 <pre><code>Rgb(30,200,150)  
 /* Result: &#39;30,200,150&#39; */
 </code></pre></li>
+<li><p>CurrentRowIndexInGroup()</p>
+<p> Returns the current row&#39;s index within the group.</p>
+<p>  The following expression adds row indexes in the group:</p>
+<p>  <code>CurrentRowIndexInGroup(0) + 1</code></p>
+</li>
+<li><p>GroupIndex(level)</p>
+<p> Locates the parent group row at the specified nesting level and returns that row&#39;s index. </p>
+<p>  The following expression displays indexes of root-level groups:</p>
+<p>  <code>GroupIndex(1) + 1</code>  </p>
+</li>
+<li><p>NextRowColumnValue(columnName)</p>
+<p>  Obtains the next row and returns the value from the specified column.</p>
+</li>
+<li><p>PrevRowColumnValue(columnName)</p>
+<p>  Obtains the previous row and returns the value from the specified column.</p>
+</li>
 </ul>
 <h2 id="string-functions">String Functions</h2>
 <table>
@@ -990,7 +1006,7 @@ Condiments
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/23.2/reporting-for-web/articles/report-designer/use-expressions/functions-in-expressions.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/24.1/reporting-for-web/articles/report-designer/use-expressions/functions-in-expressions.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>
