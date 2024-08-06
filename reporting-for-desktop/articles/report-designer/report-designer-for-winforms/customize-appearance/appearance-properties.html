@@ -1,37 +1,29 @@
 ﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  
+
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Appearance Properties | DevExpress End-User Documentation </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Appearance Properties | DevExpress End-User Documentation ">
-    <meta name="generator" content="docfx 2.59.2.0">
-    
+    <meta name="generator" content="docfx ">
+  
     <link rel="shortcut icon" href="../../../../../favicon.ico">
-    <link rel="stylesheet" href="../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../styles/docfx.vendor.min.css">
     <link rel="stylesheet" href="../../../../../styles/docfx.css">
     <link rel="stylesheet" href="../../../../../styles/main.css">
     <meta property="docfx:navrel" content="../../../../../toc.html">
     <meta property="docfx:tocrel" content="../../../../toc.html">
-    
-    
-    
-    <!-- Matomo Tag Manager -->
-    <script>
-      var _mtm = window._mtm = window._mtm || [];
-      _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
-      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-      g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
-    </script>
-    <!-- End Matomo Tag Manager -->
+  
+  
+  
   </head>
   <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
-        
+
         <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
           <div class="container">
             <div class="navbar-header">
@@ -41,7 +33,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              
+
               <a class="navbar-brand" href="../../../../../index.html">
                 <img id="logo" class="svg" src="../../../../../logo.svg" alt="">
               </a>
@@ -55,7 +47,7 @@
             </div>
           </div>
         </nav>
-        
+
         <div class="subnav navbar navbar-default">
           <div class="container hide-when-search" id="breadcrumb">
             <ul class="breadcrumb">
@@ -65,7 +57,7 @@
         </div>
       </header>
       <div role="main" class="container body-content hide-when-search">
-        
+
         <div class="sidenav hide-when-search">
           <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
           <div class="sidetoggle collapse" id="sidetoggle">
@@ -127,39 +119,42 @@
 </tbody>
 </table>
 <h2 id="access-appearance-properties">Access Appearance Properties</h2>
-<p>Use the Report Designer&#39;s <a href="../report-designer-tools/toolbar.html">Toolbar</a> to access the appearance properties.</p>
+<p>Use the Report Designer's <a href="../report-designer-tools/toolbar.html">Toolbar</a> to access the appearance properties.</p>
 <p><img src="../../../../images/eurd-win-appearance-properties-on-toolbar.png" alt="eurd-win-appearance-properties-on-toolbar"></p>
-<p>More appearance properties are available in the <a href="../report-designer-tools/ui-panels/property-grid-tabbed-view.html">Property Grid</a>&#39;s <strong>Appearance</strong> tab.</p>
+<p>More appearance properties are available in the <a href="../report-designer-tools/ui-panels/property-grid-tabbed-view.html">Property Grid</a>'s <strong>Appearance</strong> tab.</p>
 <p><img src="../../../../images/eurd-win-appearance-properties-in-property-grid.png" alt="eurd-win-appearance-properties-in-property-grid"></p>
 <h2 id="property-value-inheritance">Property Value Inheritance</h2>
-<p>By default, appearance properties for every control or a band are set to empty values, which means that their real values are obtained from a control&#39;s parent, or a parent of its parent and so on.</p>
+<p>By default, appearance properties for every control or a band are set to empty values, which means that their real values are obtained from a control's parent, or a parent of its parent and so on.</p>
 <p><img src="../../../../images/eurd-win-appearance-properties.png" alt="AppearanceProperties_0"></p>
-<div class="NOTE"><h5>Note</h5><p>The appearance properties may not be used by all descendants of the current report element for which they are defined. For example, the <strong>Page Break</strong> element ignores the <strong>Back Color</strong> property.</p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>The appearance properties may not be used by all descendants of the current report element for which they are defined. For example, the <strong>Page Break</strong> element ignores the <strong>Back Color</strong> property.</p>
 </div>
-<p>To reset values of these properties, click the property marker in the Property Grid, and select <strong>Reset</strong> in the invoked menu. Then, the control&#39;s actual appearance will be determined by the appropriate properties settings of its parent.</p>
+<p>To reset values of these properties, click the property marker in the Property Grid, and select <strong>Reset</strong> in the invoked menu. Then, the control's actual appearance will be determined by the appropriate properties settings of its parent.</p>
 <p><img src="../../../../images/eurd-win-appearance-properties-reset.png" alt="AppearanceProperties_1"></p>
 <p>If a report element has a <a href="report-visual-styles.html">style</a> assigned to it, the priority of the properties defined by this style is determined by the <strong>StylePriority</strong> property. Note that when a <a href="../shape-report-data/specify-conditions-for-report-elements/conditionally-change-a-control-appearance.html">conditional formatting</a> is involved, the appearance it defines is of greater priority than the properties described above.</p>
+
 </article>
           </div>
-          
+
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/24.1/reporting-for-desktop/articles/report-designer/report-designer-for-winforms/customize-appearance/appearance-properties.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/fix-styles/reporting-for-desktop/articles/report-designer/report-designer-for-winforms/customize-appearance/appearance-properties.md/#L1" class="contribution-link">Edit this page</a>
                   </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-                <h5>In This Article</h5>
+                <h5>In this article</h5>
                 <div></div>
               </nav>
             </div>
           </div>
         </div>
       </div>
-      
+
       <footer>
         <div class="grad-bottom"></div>
         <div class="footer">
@@ -167,14 +162,14 @@
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
-            
+      Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
+      
           </div>
         </div>
       </footer>
     </div>
-    
-    <script type="text/javascript" src="../../../../../styles/docfx.vendor.js"></script>
+
+    <script type="text/javascript" src="../../../../../styles/docfx.vendor.min.js"></script>
     <script type="text/javascript" src="../../../../../styles/docfx.js"></script>
     <script type="text/javascript" src="../../../../../styles/main.js"></script>
   </body>

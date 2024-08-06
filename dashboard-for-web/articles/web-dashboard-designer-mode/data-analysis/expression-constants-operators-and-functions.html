@@ -1,37 +1,29 @@
 ﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  
+
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Expression Constants, Operators, and Functions | DevExpress End-User Documentation </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Expression Constants, Operators, and Functions | DevExpress End-User Documentation ">
-    <meta name="generator" content="docfx 2.59.2.0">
-    
+    <meta name="generator" content="docfx ">
+  
     <link rel="shortcut icon" href="../../../../favicon.ico">
-    <link rel="stylesheet" href="../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../styles/docfx.vendor.min.css">
     <link rel="stylesheet" href="../../../../styles/docfx.css">
     <link rel="stylesheet" href="../../../../styles/main.css">
     <meta property="docfx:navrel" content="../../../../toc.html">
     <meta property="docfx:tocrel" content="../../../toc.html">
-    
-    
-    
-    <!-- Matomo Tag Manager -->
-    <script>
-      var _mtm = window._mtm = window._mtm || [];
-      _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
-      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-      g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
-    </script>
-    <!-- End Matomo Tag Manager -->
+  
+  
+  
   </head>
   <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
-        
+
         <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
           <div class="container">
             <div class="navbar-header">
@@ -41,7 +33,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              
+
               <a class="navbar-brand" href="../../../../index.html">
                 <img id="logo" class="svg" src="../../../../logo.svg" alt="">
               </a>
@@ -55,7 +47,7 @@
             </div>
           </div>
         </nav>
-        
+
         <div class="subnav navbar navbar-default">
           <div class="container hide-when-search" id="breadcrumb">
             <ul class="breadcrumb">
@@ -65,7 +57,7 @@
         </div>
       </header>
       <div role="main" class="container body-content hide-when-search">
-        
+
         <div class="sidenav hide-when-search">
           <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
           <div class="sidetoggle collapse" id="sidetoggle">
@@ -77,7 +69,7 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="expression-constants-operators-and-functions">Expression Constants, Operators, and Functions</h1>
 
-<p>The DevExpress Dashboard uses criteria language that you can use in various DevExpress products for building expressions. An expression is a string that evaluates some value. The criteria language is based on the the cross-platform library with some additions and subtractions specific for dashboards. This topic details basic and dashboard-specific constants, operators, and functions. </p>
+<p>The DevExpress Dashboard uses criteria language that you can use in various DevExpress products for building expressions. An expression is a string that evaluates some value. The criteria language is based on the the cross-platform library with some additions and subtractions specific for dashboards. This topic details basic and dashboard-specific constants, operators, and functions.</p>
 <p>The tables below contain constants, operators, and functions you can use in dashboard expressions.</p>
 <h2 id="constants">Constants</h2>
 <table>
@@ -92,11 +84,11 @@
 <tr>
 <td>String constants</td>
 <td>Wrap string constants in apostrophes. If a string contains an apostrophe, double the apostrophe.</td>
-<td>[Country] == &#39;France&#39; or [Name] == &#39;O&#39;&#39;Neil&#39;</td>
+<td>[Country] == 'France' or [Name] == 'O''Neil'</td>
 </tr>
 <tr>
 <td>Date-time constants</td>
-<td>Wrap date-time constants in &#39;#&#39;.</td>
+<td>Wrap date-time constants in '#'.</td>
 <td>[OrderDate] &gt;= #2018-03-22 13:18:51.94944#</td>
 </tr>
 <tr>
@@ -145,143 +137,171 @@
 <th>Operator</th>
 <th>Description</th>
 <th>Example</th>
+<th></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>+</td>
 <td>Adds the value of one numeric expression to another or concatenates two strings.</td>
-<td>[UnitPrice] + 4 or [FirstName] + &#39; &#39; + [LastName]</td>
+<td>[UnitPrice] + 4 or [FirstName] + ' ' + [LastName]</td>
+<td></td>
 </tr>
 <tr>
 <td>-</td>
 <td>Finds the difference between two numbers.</td>
 <td>[Price1] - [Price2]</td>
+<td></td>
 </tr>
 <tr>
 <td>*</td>
 <td>Multiplies the value of two expressions.</td>
 <td>[Quantity] * [UnitPrice] * (1 - [BonusAmount])</td>
+<td></td>
 </tr>
 <tr>
 <td>/</td>
 <td>Divides the first operand by the second.</td>
 <td>[Quantity] / 2</td>
+<td></td>
 </tr>
 <tr>
 <td>%</td>
 <td>Returns the remainder (modulus) obtained by dividing one numeric expression by another.</td>
 <td>[Quantity] % 3</td>
+<td></td>
 </tr>
 <tr>
 <td>|</td>
 <td>Performs a bitwise inclusive OR on two numeric expressions. Compares each bit of its first operand to the corresponding bit of its second operand. If either  bit is 1, the corresponding resulting bit is set to 1. Otherwise, the corresponding resulting bit is set to 0.</td>
 <td>[Flag1]</td>
+<td>[Flag2]</td>
 </tr>
 <tr>
 <td>&amp;</td>
 <td>The bitwise AND operator. Compares each bit of its first operand to the corresponding bit of its second operand. If both bits are 1, the corresponding resulting bit is set to 1. Otherwise, the corresponding resulting bit is set to 0.</td>
 <td>[Flag] &amp; 10</td>
+<td></td>
 </tr>
 <tr>
 <td>^</td>
 <td>Performs a bitwise exclusive OR on two numeric expressions.</td>
 <td>[Flag1] ^ [Flag2]</td>
+<td></td>
 </tr>
 <tr>
 <td>==</td>
 <td>Returns true if both operands have the same value; otherwise, it returns false.</td>
 <td>[Quantity] == 10</td>
+<td></td>
 </tr>
 <tr>
 <td>=</td>
 <td>Returns true if both operands have the same value; otherwise, it returns false.</td>
 <td>[Quantity] = 10</td>
+<td></td>
 </tr>
 <tr>
 <td>!=</td>
 <td>Returns true if the operands do not have the same value; otherwise, it returns false.</td>
-<td>[Country] != &#39;France&#39;</td>
+<td>[Country] != 'France'</td>
+<td></td>
 </tr>
 <tr>
 <td>&lt;</td>
 <td>Less than operator. Used to compare expressions.</td>
 <td>[UnitPrice] &lt; 20</td>
+<td></td>
 </tr>
 <tr>
 <td>&lt;=</td>
 <td>Less than or equal to operator. Used to compare expressions.</td>
 <td>[UnitPrice] &lt;= 20</td>
+<td></td>
 </tr>
 <tr>
 <td>&gt;=</td>
 <td>Greater than or equal to operator. Used to compare expressions.</td>
 <td>[UnitPrice] &gt;= 30</td>
+<td></td>
 </tr>
 <tr>
 <td>&gt;</td>
 <td>Greater than operator. Used to compare expressions.</td>
 <td>[UnitPrice] &gt; 30</td>
+<td></td>
 </tr>
 <tr>
 <td>In (,,,)</td>
 <td>Tests for the existence of a property in an object.</td>
-<td>[Country] In (&#39;USA&#39;, &#39;UK&#39;, &#39;Italy&#39;)</td>
+<td>[Country] In ('USA', 'UK', 'Italy')</td>
+<td></td>
 </tr>
 <tr>
 <td>Between (,)</td>
 <td>Specifies a range to test. Returns true if a value is greater than or equal to the first operand and less than or equal to the second operand.</td>
 <td>[Quantity] Between (10, 20)</td>
+<td></td>
 </tr>
 <tr>
 <td>And</td>
 <td>Performs a logical conjunction on two Boolean expressions.</td>
 <td>[InStock] And ([ExtendedPrice]&gt; 100)</td>
+<td></td>
 </tr>
 <tr>
 <td>&amp;&amp;</td>
 <td>Performs a logical conjunction on two Boolean expressions.</td>
 <td>[InStock] &amp;&amp; ([ExtendedPrice]&gt; 100)</td>
+<td></td>
 </tr>
 <tr>
 <td>Or</td>
 <td>Performs a logical disjunction on two Boolean expressions.</td>
-<td>[Country]==&#39;USA&#39; Or [Country]==&#39;UK&#39;</td>
+<td>[Country]=='USA' Or [Country]=='UK'</td>
+<td></td>
 </tr>
 <tr>
 <td>|</td>
 <td>Performs a logical disjunction on two Boolean expressions.</td>
-<td>[Country]==&#39;USA&#39; | [Country]==&#39;UK&#39;</td>
+<td>[Country]=='USA' | [Country]=='UK'</td>
+<td></td>
 </tr>
 <tr>
 <td>~</td>
 <td>Performs a bitwise negation on a numeric expression.</td>
 <td>~[Roles] = 251</td>
+<td></td>
 </tr>
 <tr>
 <td>Not</td>
 <td>Performs a logical negation on a Boolean expression.</td>
 <td>Not [InStock]</td>
+<td></td>
 </tr>
 <tr>
 <td>!</td>
 <td>Performs a logical negation on a Boolean expression.</td>
 <td>![InStock]</td>
+<td></td>
 </tr>
 <tr>
 <td>+</td>
-<td>Returns a numeric expression&#39;s value (a unary operator).</td>
+<td>Returns a numeric expression's value (a unary operator).</td>
 <td>+[Value] = 10</td>
+<td></td>
 </tr>
 <tr>
 <td>-</td>
-<td>Returns the negative of a numeric expression&#39;s value (a unary operator).</td>
+<td>Returns the negative of a numeric expression's value (a unary operator).</td>
 <td>-[Value] = 20</td>
+<td></td>
 </tr>
 <tr>
 <td>Is Null</td>
 <td>Returns true if an expression is a null reference, the one that does not refer to any object.</td>
 <td>[Region] is null</td>
+<td></td>
 </tr>
 </tbody>
 </table>
@@ -304,7 +324,7 @@
 <tr>
 <td>w(WindowExpression, partitionByFunction, orderByFunction)</td>
 <td>Calculates aggregated values with the specified window function for the window defined by the specified partitioning and ordering.</td>
-<td>w(RankDense(Sum([ProductSales]), &#39;desc&#39;), partitionBy([CategoryName]), orderBy())</td>
+<td>w(RankDense(Sum([ProductSales]), 'desc'), partitionBy([CategoryName]), orderBy())</td>
 </tr>
 <tr>
 <td>partitionBy(column1, column2, ...)</td>
@@ -413,6 +433,7 @@
 <th>Description</th>
 <th>Example</th>
 <th>Image</th>
+<th></th>
 </tr>
 </thead>
 <tbody>
@@ -421,105 +442,123 @@
 <td>Returns the number of rows from the current row to the last row in the window.</td>
 <td>Last()</td>
 <td><img src="../../../images/calculationfunction_last123018.png" alt="CalculationFunction_Last"></td>
+<td></td>
 </tr>
 <tr>
 <td>First()</td>
 <td>Returns the number of rows from the current row to the first row in the window.</td>
 <td>First()</td>
 <td><img src="../../../images/calculationfunction_first123016.png" alt="CalculationFunction_First"></td>
+<td></td>
 </tr>
 <tr>
 <td>Index()</td>
 <td>Returns the index of the current row in the window.</td>
 <td>Index()</td>
 <td><img src="../../../images/calculationfunction_index123017.png" alt="CalculationFunction_Index"></td>
+<td></td>
 </tr>
 <tr>
 <td>Size()</td>
 <td>Returns the number of rows in the window.</td>
 <td>Size()</td>
 <td><img src="../../../images/calculationfunction_size123029.png" alt="CalculationFunction_Size"></td>
+<td></td>
 </tr>
 <tr>
 <td>Lookup(SummaryExpression, Position)</td>
 <td>Returns the value of the expression in a target position specified as a relative offset from the current position.</td>
 <td>Lookup(Sum([Sales]), 3)</td>
 <td><img src="../../../images/calculationfunction_lookup123019.png" alt="CalculationFunction_Lookup"></td>
+<td></td>
 </tr>
 <tr>
-<td>RankCompetition(SummaryExpression, [ &#39;asc&#39;</td>
-<td>&#39;desc&#39; ])</td>
+<td>RankCompetition(SummaryExpression, [ 'asc'</td>
+<td>'desc' ])</td>
 <td>Returns the standard competition rank for the current row in the window.</td>
-<td>RankCompetition(Sum([Sales]), &#39;asc&#39;)</td>
+<td>RankCompetition(Sum([Sales]), 'asc')</td>
+<td>-</td>
 </tr>
 <tr>
-<td>RankDense(SummaryExpression, [ &#39;asc&#39;</td>
-<td>&#39;desc&#39; ])</td>
+<td>RankDense(SummaryExpression, [ 'asc'</td>
+<td>'desc' ])</td>
 <td>Returns the dense rank for the current row in the window.</td>
-<td>RankDense(Sum([Sales]), &#39;asc&#39;)</td>
+<td>RankDense(Sum([Sales]), 'asc')</td>
+<td>-</td>
 </tr>
 <tr>
-<td>RankUnique(SummaryExpression, [ &#39;asc&#39;</td>
-<td>&#39;desc&#39; ])</td>
+<td>RankUnique(SummaryExpression, [ 'asc'</td>
+<td>'desc' ])</td>
 <td>Returns the unique rank for the current row in the window.</td>
-<td>RankUnique(Sum([Sales]), &#39;asc&#39;)</td>
+<td>RankUnique(Sum([Sales]), 'asc')</td>
+<td>-</td>
 </tr>
 <tr>
-<td>RankModified(SummaryExpression, [ &#39;asc&#39;</td>
-<td>&#39;desc&#39; ])</td>
+<td>RankModified(SummaryExpression, [ 'asc'</td>
+<td>'desc' ])</td>
 <td>Returns the modified competition rank for the current row in the window.</td>
-<td>RankModified(Sum([Sales]), &#39;asc&#39;)</td>
+<td>RankModified(Sum([Sales]), 'asc')</td>
+<td>-</td>
 </tr>
 <tr>
-<td>RankPercentile(SummaryExpression, [ &#39;asc&#39;</td>
-<td>&#39;desc&#39; ])</td>
+<td>RankPercentile(SummaryExpression, [ 'asc'</td>
+<td>'desc' ])</td>
 <td>Returns the percentile rank for the current row in the window.</td>
-<td>RankPercentile(Sum([Sales]), &#39;desc&#39;)</td>
+<td>RankPercentile(Sum([Sales]), 'desc')</td>
+<td>-</td>
 </tr>
 <tr>
 <td>RunningAvg(SummaryExpression)</td>
 <td>Returns the running average of the specified expression from the first row in the window to the current row.</td>
 <td>RunningAvg(Sum([Sales]))</td>
 <td><img src="../../../images/calculationfunction_runningavg123020.png" alt="CalculationFunction_RunningAvg"></td>
+<td></td>
 </tr>
 <tr>
 <td>RunningCount(SummaryExpression)</td>
 <td>Returns the running count of the specified expression from the first row in the window to the current row.</td>
 <td>RunningCount(Sum([Sales]))</td>
 <td>-</td>
+<td></td>
 </tr>
 <tr>
 <td>RunningMax(SummaryExpression)</td>
 <td>Returns the running maximum of the specified expression from the first row in the window to the current row.</td>
 <td></td>
 <td>RunningMax(Sum([Sales]))</td>
+<td><img src="../../../images/calculationfunction_runningmax123021.png" alt="CalculationFunction_RunningMax"></td>
 </tr>
 <tr>
 <td>RunningMin(SummaryExpression)</td>
 <td>Returns the running minimum of the specified expression from the first row in the window to the current row.</td>
 <td>RunningMin(Sum([Sales]))</td>
 <td><img src="../../../images/calculationfunction_runningmin123026.png" alt="CalculationFunction_RunningMin"></td>
+<td></td>
 </tr>
 <tr>
 <td>RunningSum(SummaryExpression)</td>
 <td>Returns the running sum of the specified expression from the first row in the window to the current row.</td>
 <td>RunningSum(Sum([Sales]))</td>
 <td><img src="../../../images/calculationfunction_runningsum123027.png" alt="CalculationFunction_RunningSum"></td>
+<td></td>
 </tr>
 <tr>
 <td>WindowAvg(SummaryExpression, StartOffset, EndOffset)</td>
 <td>Returns the average of the expression within the window, which is defined using offsets from the current row.</td>
 <td>WindowAvg(Sum([Sales]), First(), Last())</td>
 <td><img src="../../../images/calculationfunction_windowavg123031.png" alt="CalculationFunction_WindowAvg"></td>
+<td></td>
 </tr>
 <tr>
 <td>WindowCount(SummaryExpression, StartOffset, EndOffset)</td>
 <td>Returns the count of the expression within the window.</td>
 <td>WindowCount(Sum([Sales]), First()+2, Last())</td>
 <td></td>
+<td></td>
 </tr>
 <tr>
 <td><img src="../../../images/calculationfunction_windowcount_plus2123032.png" alt="CalculationFunction_WindowCount_plus2"></td>
+<td></td>
 <td></td>
 <td></td>
 <td></td>
@@ -529,70 +568,83 @@
 <td>Returns the distinct count of the expression within the window.</td>
 <td>WindowCountDistinct(Sum([Sales]), First(), Last())</td>
 <td>-</td>
+<td></td>
 </tr>
 <tr>
 <td>WindowMax(SummaryExpression, StartOffset, EndOffset)</td>
 <td>Returns the maximum of the expression within the window.</td>
 <td>WindowMax(Sum([Sales]), First(), Last())</td>
 <td><img src="../../../images/calculationfunction_windowmax123033.png" alt="CalculationFunction_WindowMax"></td>
+<td></td>
 </tr>
 <tr>
 <td>WindowMin(SummaryExpression, StartOffset, EndOffset)</td>
 <td>Returns the minimum of the expression within the window.</td>
 <td>WindowMin(Sum([Sales]), First(), Last())</td>
 <td><img src="../../../images/calculationfunction_windowmin123036.png" alt="CalculationFunction_WindowMin"></td>
+<td></td>
 </tr>
 <tr>
 <td>WindowMode(SummaryExpression, StartOffset, EndOffset)</td>
 <td>Returns the mode of the expression within the window.</td>
 <td>WindowMode(Sum([Sales]), First(), Last())</td>
 <td>-</td>
+<td></td>
 </tr>
 <tr>
 <td>WindowMedian(SummaryExpression, StartOffset, EndOffset)</td>
 <td>Returns the median of the expression within the window.</td>
 <td>WindowMedian(Sum([Sales]), First(), Last())</td>
 <td><img src="../../../images/calculationfunction_windowmedian123035.png" alt="CalculationFunction_WindowMedian"></td>
+<td></td>
 </tr>
 <tr>
 <td>WindowSum(SummaryExpression, StartOffset, EndOffset)</td>
 <td>Returns the sum of the expression within the window.</td>
 <td>WindowSum(Sum([Sales]), First()+2, Last())</td>
 <td><img src="../../../images/calculationfunction_windowsum-plus2123037.png" alt="CalculationFunction_WindowSum-plus2"></td>
+<td></td>
 </tr>
 <tr>
 <td>WindowVar(SummaryExpression, StartOffset, EndOffset)</td>
 <td>Returns the variance of the expression within the window.</td>
 <td>WindowVar(Sum([Sales]), First(), Last())</td>
 <td>-</td>
+<td></td>
 </tr>
 <tr>
 <td>WindowVarp(SummaryExpression, StartOffset, EndOffset)</td>
 <td>Returns the biased variance of the expression within the window.</td>
 <td>WindowVarp(Sum([Sales]), First(), Last())</td>
 <td>-</td>
+<td></td>
 </tr>
 <tr>
 <td>WindowStdDev(SummaryExpression, StartOffset, EndOffset)</td>
 <td>Returns the sample standard deviation of the expression within the window.</td>
 <td>WindowStdDev(Sum([Sales]), First(), Last())</td>
 <td>-</td>
+<td></td>
 </tr>
 <tr>
 <td>WindowStdDevp(SummaryExpression, StartOffset, EndOffset)</td>
 <td>Returns the biased standard deviation of the expression within the window.</td>
 <td>WindowStdDevp(Sum([Sales]), First(), Last())</td>
 <td>-</td>
+<td></td>
 </tr>
 <tr>
 <td>Total(SummaryExpression)</td>
 <td>Returns the total based on values from the underlying data source for the specified expression in a calculation window.</td>
 <td>Total(Sum([Sales]))</td>
 <td><img src="../../../images/calculationfunction_total123030.png" alt="CalculationFunction_Total"></td>
+<td></td>
 </tr>
 </tbody>
 </table>
-<div class="IMPORTANT"><h5>Important</h5><p>Note that window functions cannot be used inside <a href="aggregations.html">Aggr</a>.</p>
+<div class="IMPORTANT">
+<h5>Important</h5>
+<p>Note that window functions cannot be used inside <a href="aggregations.html">Aggr</a>.</p>
 </div>
 <p><strong>Date-time Functions</strong></p>
 <table>
@@ -1034,58 +1086,28 @@
 <ul>
 <li><p>Each odd argument specifies a logical expression;</p>
 </li>
-<li><p>Each even argument specifies the value that is returned if the previous expression evaluates to <strong>true</strong>; </p>
+<li><p>Each even argument specifies the value that is returned if the previous expression evaluates to <strong>true</strong>;</p>
 </li>
 <li><p><strong>...</strong></p>
 </li>
 <li><p>The last argument specifies the value that is returned if the previously evaluated logical expressions yielded <strong>false</strong>.
-| Iif(Name = &#39;Bob&#39;, 1, 0)&quot;) </p>
+| Iif(Name = 'Bob', 1, 0)&quot;)</p>
 </li>
 </ul>
-<p>Iif(Name = &#39;Bob&#39;, 1, Name = &#39;Dan&#39;, 2, Name = &#39;Sam&#39;, 3, 0)</p>
+<p>Iif(Name = 'Bob', 1, Name = 'Dan', 2, Name = 'Sam', 3, 0)</p>
 <p>|-</p>
 <p>| IsNull(Value)
-| Returns True if the specified Value is NULL.</p>
-<table>
-<thead>
-<tr>
-<th>IsNull([OrderDate])</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td></td>
-</tr>
-</tbody>
-</table>
+| Returns True if the specified Value is NULL.
+| IsNull([OrderDate])
+|-</p>
 <p>| IsNull(Value1, Value2)
-| Returns Value1 if it is not set to NULL; otherwise, Value2 is returned.</p>
-<table>
-<thead>
-<tr>
-<th>IsNull([ShipDate], [RequiredDate])</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td></td>
-</tr>
-</tbody>
-</table>
+| Returns Value1 if it is not set to NULL; otherwise, Value2 is returned.
+| IsNull([ShipDate], [RequiredDate])
+|-</p>
 <p>| IsNullOrEmpty(String)
-| Returns True if the specified String object is NULL or an empty string; otherwise, False is returned.</p>
-<table>
-<thead>
-<tr>
-<th>IsNullOrEmpty([ProductName])</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td></td>
-</tr>
-</tbody>
-</table>
+| Returns True if the specified String object is NULL or an empty string; otherwise, False is returned.
+| IsNullOrEmpty([ProductName])
+|-</p>
 <p>| ToBoolean(Value)
 | Converts Value to an equivalent Boolean value.
 | ToBoolean([Value])
@@ -1102,22 +1124,22 @@
 <tbody>
 <tr>
 <td>Abs(Value)</td>
-<td>Returns the given numeric expression&#39;s absolute, positive value.</td>
+<td>Returns the given numeric expression's absolute, positive value.</td>
 <td>Abs(1 - [Discount])</td>
 </tr>
 <tr>
 <td>Acos(Value)</td>
-<td>Returns a number&#39;s arccosine (the angle in radians, whose cosine is the given float expression).</td>
+<td>Returns a number's arccosine (the angle in radians, whose cosine is the given float expression).</td>
 <td>Acos([Value])</td>
 </tr>
 <tr>
 <td>Asin(Value)</td>
-<td>Returns a number&#39;s arcsine (the angle in radians, whose sine is the given float expression).</td>
+<td>Returns a number's arcsine (the angle in radians, whose sine is the given float expression).</td>
 <td>Asin([Value])</td>
 </tr>
 <tr>
 <td>Atn(Value)</td>
-<td>Returns a number&#39;s arctangent (the angle in radians, whose tangent is the given float expression).</td>
+<td>Returns a number's arctangent (the angle in radians, whose tangent is the given float expression).</td>
 <td>Atn([Value])</td>
 </tr>
 <tr>
@@ -1137,17 +1159,17 @@
 </tr>
 <tr>
 <td>Cos(Value)</td>
-<td>Returns the angle&#39;s cosine, in radians.</td>
+<td>Returns the angle's cosine, in radians.</td>
 <td>Cos([Value])</td>
 </tr>
 <tr>
 <td>Cosh(Value)</td>
-<td>Returns the angle&#39;s hyperbolic cosine, in radians.</td>
+<td>Returns the angle's hyperbolic cosine, in radians.</td>
 <td>Cosh([Value])</td>
 </tr>
 <tr>
 <td>Exp(Value)</td>
-<td>Returns the float expression&#39;s exponential value.</td>
+<td>Returns the float expression's exponential value.</td>
 <td>Exp([Value])</td>
 </tr>
 <tr>
@@ -1157,7 +1179,7 @@
 </tr>
 <tr>
 <td>Log(Value)</td>
-<td>Returns a specified number&#39;s natural logarithm.</td>
+<td>Returns a specified number's natural logarithm.</td>
 <td>Log([Value])</td>
 </tr>
 <tr>
@@ -1167,7 +1189,7 @@
 </tr>
 <tr>
 <td>Log10(Value)</td>
-<td>Returns a specified number&#39;s base 10 logarithm.</td>
+<td>Returns a specified number's base 10 logarithm.</td>
 <td>Log10([Value])</td>
 </tr>
 <tr>
@@ -1270,7 +1292,7 @@
 <tr>
 <td>Ascii(String)</td>
 <td>Returns the ASCII code value of the leftmost character in a character expression.</td>
-<td>Ascii(&#39;a&#39;)</td>
+<td>Ascii('a')</td>
 </tr>
 <tr>
 <td>Char(Number)</td>
@@ -1280,27 +1302,27 @@
 <tr>
 <td>CharIndex(String1, String2)</td>
 <td>Returns the starting position of String1 within String2, beginning from the zero character position to the end of a string.</td>
-<td>CharIndex(&#39;e&#39;, &#39;devexpress&#39;)</td>
+<td>CharIndex('e', 'devexpress')</td>
 </tr>
 <tr>
 <td>CharIndex(String1, String2, StartLocation)</td>
 <td>Returns the starting position of String1 within String2, beginning from the StartLocation character position to the end of a string.</td>
-<td>CharIndex(&#39;e&#39;, &#39;devexpress&#39;, 2)</td>
+<td>CharIndex('e', 'devexpress', 2)</td>
 </tr>
 <tr>
 <td>Concat(String1, ... , StringN)</td>
 <td>Returns a string value containing the concatenation of the current string with any additional strings.</td>
-<td>Concat(&#39;A&#39;, &#39;)&#39;, [ProductName])</td>
+<td>Concat('A', ')', [ProductName])</td>
 </tr>
 <tr>
 <td>EndsWith(String1, SubString1)</td>
 <td>Returns True if the end of String1 matches SubString1; otherwise, False is returned.</td>
-<td>EndsWith([Description], &#39;The end.&#39;)</td>
+<td>EndsWith([Description], 'The end.')</td>
 </tr>
 <tr>
 <td>Insert(String1, StartPosition, String2)</td>
 <td>Inserts String2 into String1 at the position specified by StartPositon</td>
-<td>Insert([Name], 0, &#39;ABC-&#39;)</td>
+<td>Insert([Name], 0, 'ABC-')</td>
 </tr>
 <tr>
 <td>Len(Value)</td>
@@ -1314,13 +1336,13 @@
 </tr>
 <tr>
 <td>PadLeft(String, Length)</td>
-<td>Left-aligns the defined string&#39;s characters, padding its left side with white space characters up to a specified total length.</td>
+<td>Left-aligns the defined string's characters, padding its left side with white space characters up to a specified total length.</td>
 <td>PadLeft([Name], 30)</td>
 </tr>
 <tr>
 <td>PadLeft(String, Length, Char)</td>
-<td>Left-aligns the defined string&#39;s characters, padding its left side with the specified Char up to a specified total length.</td>
-<td>PadLeft([Name], 30, &#39;&lt;&#39;)</td>
+<td>Left-aligns the defined string's characters, padding its left side with the specified Char up to a specified total length.</td>
+<td>PadLeft([Name], 30, '&lt;')</td>
 </tr>
 <tr>
 <td>PadRight(String, Length)</td>
@@ -1330,7 +1352,7 @@
 <tr>
 <td>PadRight(String, Length, Char)</td>
 <td>Right-aligns the defined string’s characters, padding its left side with the specified Char up to a specified total length.</td>
-<td>PadRight([Name], 30, &#39;&gt;&#39;)</td>
+<td>PadRight([Name], 30, '&gt;')</td>
 </tr>
 <tr>
 <td>Remove(String, StartPosition)</td>
@@ -1345,7 +1367,7 @@
 <tr>
 <td>Replace(String, SubString2, String3)</td>
 <td>Returns a copy of String1, in which SubString2 has been replaced with String3.</td>
-<td>Replace([Name], &#39;The &#39;, &#39;&#39;)</td>
+<td>Replace([Name], 'The ', '')</td>
 </tr>
 <tr>
 <td>Reverse(String)</td>
@@ -1355,7 +1377,7 @@
 <tr>
 <td>StartsWith(String1, SubString1)</td>
 <td>Returns True if the beginning of String1 matches SubString1; otherwise, False.</td>
-<td>StartsWith([Title], &#39;The best&#39;)</td>
+<td>StartsWith([Title], 'The best')</td>
 </tr>
 <tr>
 <td>Substring(String, StartPosition, Length)</td>
@@ -1401,48 +1423,51 @@
 <li>In</li>
 <li>Iif</li>
 <li>Trim(), Len(), Substring(), IsNull()</li>
-<li>&#39;[]&#39; (for set-restriction)</li>
-<li>&#39;()&#39;</li>
+<li>'[]' (for set-restriction)</li>
+<li>'()'</li>
 </ul>
 <p>The default precedence can be changed by grouping elements with parentheses. For instance, the operators are performed in a default order in the first of the following two code samples. In the second code sample, the addition operation is performed first, because its associated elements are grouped with parentheses, and the multiplication operation is performed last.</p>
 <p><em>Amount == 2 + 48 * 2</em></p>
 <p><em>Amount == (2 + 48) * 2</em></p>
 <h2 id="case-sensitivity">Case Sensitivity</h2>
 <p>Operators are case insensitive. Although field values’ case sensitivity depends on the data source.</p>
-<div class="NOTE"><h5>Note</h5><p>A data source affects certain operators&#39; behavior. For instance, by default, the SQL Server Express 2005 is configured as case insensitive. In this case, the following expression always evaluates to <strong>true</strong>:</p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>A data source affects certain operators' behavior. For instance, by default, the SQL Server Express 2005 is configured as case insensitive. In this case, the following expression always evaluates to <strong>true</strong>:</p>
 <p><em>Lower(Name) == Upper(Name)</em></p>
 </div>
 <h2 id="escape-keywords">Escape Keywords</h2>
-<p>You can mark a keyword&#0045;like field name with an escape character (@ sign). In the expression below, the <strong>CriteriaOperator.Parse</strong> method interprets @Or as the field named &quot;Or&quot;, not the logical operator OR.</p>
-<p><em>@Or = &#39;value&#39;</em></p>
+<p>You can mark a keyword-like field name with an escape character (@ sign). In the expression below, the <strong>CriteriaOperator.Parse</strong> method interprets @Or as the field named &quot;Or&quot;, not the logical operator OR.</p>
+<p><em>@Or = 'value'</em></p>
 <h2 id="escape-characters">Escape Characters</h2>
 <p>Use a backslash () as an escape character for characters in expressions. Examples:</p>
 <ul>
 <li>\[</li>
 <li>\\</li>
-<li>\&#39;</li>
+<li>\'</li>
 </ul>
+
 </article>
           </div>
-          
+
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/24.1/dashboard-for-web/articles/web-dashboard-designer-mode/data-analysis/expression-constants-operators-and-functions.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/fix-styles/dashboard-for-web/articles/web-dashboard-designer-mode/data-analysis/expression-constants-operators-and-functions.md/#L1" class="contribution-link">Edit this page</a>
                   </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-                <h5>In This Article</h5>
+                <h5>In this article</h5>
                 <div></div>
               </nav>
             </div>
           </div>
         </div>
       </div>
-      
+
       <footer>
         <div class="grad-bottom"></div>
         <div class="footer">
@@ -1450,14 +1475,14 @@
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
-            
+      Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
+      
           </div>
         </div>
       </footer>
     </div>
-    
-    <script type="text/javascript" src="../../../../styles/docfx.vendor.js"></script>
+
+    <script type="text/javascript" src="../../../../styles/docfx.vendor.min.js"></script>
     <script type="text/javascript" src="../../../../styles/docfx.js"></script>
     <script type="text/javascript" src="../../../../styles/main.js"></script>
   </body>

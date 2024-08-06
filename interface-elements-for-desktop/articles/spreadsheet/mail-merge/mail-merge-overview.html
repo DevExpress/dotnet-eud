@@ -1,37 +1,29 @@
 ﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  
+
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Mail Merge Overview | DevExpress End-User Documentation </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Mail Merge Overview | DevExpress End-User Documentation ">
-    <meta name="generator" content="docfx 2.59.2.0">
-    
+    <meta name="generator" content="docfx ">
+  
     <link rel="shortcut icon" href="../../../../favicon.ico">
-    <link rel="stylesheet" href="../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../styles/docfx.vendor.min.css">
     <link rel="stylesheet" href="../../../../styles/docfx.css">
     <link rel="stylesheet" href="../../../../styles/main.css">
     <meta property="docfx:navrel" content="../../../../toc.html">
     <meta property="docfx:tocrel" content="../../../toc.html">
-    
-    
-    
-    <!-- Matomo Tag Manager -->
-    <script>
-      var _mtm = window._mtm = window._mtm || [];
-      _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
-      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-      g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
-    </script>
-    <!-- End Matomo Tag Manager -->
+  
+  
+  
   </head>
   <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
-        
+
         <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
           <div class="container">
             <div class="navbar-header">
@@ -41,7 +33,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              
+
               <a class="navbar-brand" href="../../../../index.html">
                 <img id="logo" class="svg" src="../../../../logo.svg" alt="">
               </a>
@@ -55,7 +47,7 @@
             </div>
           </div>
         </nav>
-        
+
         <div class="subnav navbar navbar-default">
           <div class="container hide-when-search" id="breadcrumb">
             <ul class="breadcrumb">
@@ -65,7 +57,7 @@
         </div>
       </header>
       <div role="main" class="container body-content hide-when-search">
-        
+
         <div class="sidenav hide-when-search">
           <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
           <div class="sidetoggle collapse" id="sidetoggle">
@@ -83,7 +75,7 @@
 <li><a href="#createtemplate">Create a Template</a></li>
 <li><a href="#generatedocument">Generate a Merged Document</a></li>
 </ul>
-<h2 id="a-namedatasourceadd-a-data-source"><a name="datasource"></a>Add a Data Source</h2>
+<h2 id="add-a-data-source"><a name="datasource"></a>Add a Data Source</h2>
 <p>To perform a mail merge, you need a template and a data source from which the data is retrieved. You can specify a data source at runtime using the <strong>Data Source Wizard</strong>. Once created, the data source configuration will be stored in the XLS/XLSX spreadsheet file, so there is no need to re-configure the data source again.</p>
 <p>To invoke the wizard, click <strong>Add Data Source</strong> in the <strong>External Data Sources</strong> group of the <strong>Mail Merge</strong> tab.</p>
 <p><img src="../../../images/img25339.png" alt="SpreadsheetControl_MailMerge_Add-New-Data-Source"></p>
@@ -95,17 +87,17 @@
 <li><a href="query-builder.html">Query Builder</a></li>
 <li><a href="parameters-panel.html">Parameters Panel</a></li>
 </ul>
-<h2 id="a-namecreatetemplatecreate-a-template"><a name="createtemplate"></a>Create a Template</h2>
+<h2 id="create-a-template"><a name="createtemplate"></a>Create a Template</h2>
 <p>A template is a workbook with one worksheet containing <strong>mail merge fields</strong> that will be filled with unique data values from a bound data source.</p>
 <p>As a rule, a template includes detail, header and footer ranges that reflect the structure of a merged document. To highlight template ranges, on the <strong>Mail Merge</strong> tab, in the <strong>Design</strong> group, click the <strong>Mail Merge Design View</strong> button.</p>
 <p><img src="../../../images/img22689.png" alt="Spreadsheet_DesignView"></p>
 <p>A <strong>detail range</strong> contains information from a data source. To create a detail range, select the range of the required size and do one of the following:</p>
 <ul>
 <li><p>On the <strong>Mail Merge</strong> tab, in the <strong>Template Ranges</strong> group, click the <strong>Detail</strong> button.</p>
-<p>  <img src="../../../images/img22683.png" alt="Spreadsheet_CreateDetailRange"></p>
+<p><img src="../../../images/img22683.png" alt="Spreadsheet_CreateDetailRange"></p>
 </li>
 <li><p>Assign the &quot;DETAILRANGE&quot; defined name to the selected range.</p>
-<p>  <img src="../../../images/img22684.png" alt="Spreadhseet_DetailRangeDefinedName"></p>
+<p><img src="../../../images/img22684.png" alt="Spreadhseet_DetailRangeDefinedName"></p>
 </li>
 </ul>
 <p>A detail range includes mail merge fields. Real data values retrieved from a data source will be displayed in a merged document instead of these fields. To create a mail merge field, use the <strong>FIELD</strong> function.</p>
@@ -132,10 +124,10 @@
 <p><strong>Header</strong> and <strong>footer ranges</strong> are displayed above and below all detail ranges in the resulting worksheet if all data records are merged into a single worksheet. In other <a href="#mergemodes">mail merge modes</a>, the header and footer are repeated for each detail range. To create a header or footer range, select the range you wish to use as a header or footer, and do one of the following:</p>
 <ul>
 <li><p>On the <strong>Mail Merge</strong> tab, in the <strong>Template Ranges</strong> group, click the <strong>Header</strong> or <strong>Footer</strong> button.</p>
-<p>  <img src="../../../images/img22681.png" alt="Spreadsheet_CreateHeaderRange"></p>
+<p><img src="../../../images/img22681.png" alt="Spreadsheet_CreateHeaderRange"></p>
 </li>
 <li><p>Assign the &quot;HEADERRANGE&quot; or &quot;FOOTERRANGE&quot; defined name to the selected range.</p>
-<p>  <img src="../../../images/img22685.png" alt="Spreadsheet_HeaderRangeDefinedName"></p>
+<p><img src="../../../images/img22685.png" alt="Spreadsheet_HeaderRangeDefinedName"></p>
 </li>
 </ul>
 <p>Note that you can create a header or footer range only if the template already contains a detail range. If you do not set a detail range, the entire template will be copied for each record of the data source.</p>
@@ -158,8 +150,8 @@
 </table>
 <p>If you no longer wish to use the specified range as a detail range, header or footer, you can reset it by clicking the <strong>Reset</strong> button.</p>
 <p><img src="../../../images/img22696.png" alt="Spreadsheet_ResetButton"></p>
-<h2 id="a-namegeneratedocumentgenerate-a-merged-document"><a name="generatedocument"></a>Generate a Merged Document</h2>
-<p><a name="mergemodes"></a></p>
+<h2 id="generate-a-merged-document"><a name="generatedocument"></a>Generate a Merged Document</h2>
+<a name="mergemodes"></a>
 <p>A mail merge supports three modes for generating a resulting document, as listed in the table below:</p>
 <table>
 <thead>
@@ -189,27 +181,28 @@
 </table>
 <p>To select the desired mode, on the <strong>Mail Merge</strong> tab, in the <strong>Mode</strong> group, click <strong>Multiple Documents</strong>, <strong>Multiple Sheets</strong> or <strong>Single Sheet</strong>. <strong>Document Orientation</strong> option can be useful for the <strong>Single Sheet</strong> mode only.</p>
 <p><img src="../../../images/img22677.png" alt="Spreadsheet_ModeGroup"></p>
+
 </article>
           </div>
-          
+
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/24.1/interface-elements-for-desktop/articles/spreadsheet/mail-merge/mail-merge-overview.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/fix-styles/interface-elements-for-desktop/articles/spreadsheet/mail-merge/mail-merge-overview.md/#L1" class="contribution-link">Edit this page</a>
                   </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-                <h5>In This Article</h5>
+                <h5>In this article</h5>
                 <div></div>
               </nav>
             </div>
           </div>
         </div>
       </div>
-      
+
       <footer>
         <div class="grad-bottom"></div>
         <div class="footer">
@@ -217,14 +210,14 @@
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
-            
+      Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
+      
           </div>
         </div>
       </footer>
     </div>
-    
-    <script type="text/javascript" src="../../../../styles/docfx.vendor.js"></script>
+
+    <script type="text/javascript" src="../../../../styles/docfx.vendor.min.js"></script>
     <script type="text/javascript" src="../../../../styles/docfx.js"></script>
     <script type="text/javascript" src="../../../../styles/main.js"></script>
   </body>

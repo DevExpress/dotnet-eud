@@ -1,37 +1,29 @@
 ﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  
+
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Using Functions in Formulas | DevExpress End-User Documentation </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Using Functions in Formulas | DevExpress End-User Documentation ">
-    <meta name="generator" content="docfx 2.59.2.0">
-    
+    <meta name="generator" content="docfx ">
+  
     <link rel="shortcut icon" href="../../../../favicon.ico">
-    <link rel="stylesheet" href="../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../styles/docfx.vendor.min.css">
     <link rel="stylesheet" href="../../../../styles/docfx.css">
     <link rel="stylesheet" href="../../../../styles/main.css">
     <meta property="docfx:navrel" content="../../../../toc.html">
     <meta property="docfx:tocrel" content="../../../toc.html">
-    
-    
-    
-    <!-- Matomo Tag Manager -->
-    <script>
-      var _mtm = window._mtm = window._mtm || [];
-      _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
-      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-      g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
-    </script>
-    <!-- End Matomo Tag Manager -->
+  
+  
+  
   </head>
   <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
-        
+
         <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
           <div class="container">
             <div class="navbar-header">
@@ -41,7 +33,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              
+
               <a class="navbar-brand" href="../../../../index.html">
                 <img id="logo" class="svg" src="../../../../logo.svg" alt="">
               </a>
@@ -55,7 +47,7 @@
             </div>
           </div>
         </nav>
-        
+
         <div class="subnav navbar navbar-default">
           <div class="container hide-when-search" id="breadcrumb">
             <ul class="breadcrumb">
@@ -65,7 +57,7 @@
         </div>
       </header>
       <div role="main" class="container body-content hide-when-search">
-        
+
         <div class="sidenav hide-when-search">
           <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
           <div class="sidetoggle collapse" id="sidetoggle">
@@ -82,20 +74,24 @@
 <ol>
 <li>Click the cell in which you want to insert the formula.</li>
 <li>Type the equal sign &quot;=&quot;. This is required to interpret the cell content as a formula. Skip this action if you insert the function in a cell which already contains a formula.</li>
-<li>Type the function&#39;s name, or <a href="#insertfunction">insert the required function</a> from the <strong>Function Library</strong>.</li>
-<li>Enter the arguments between the function&#39;s parentheses.</li>
+<li>Type the function's name, or <a href="#insertfunction">insert the required function</a> from the <strong>Function Library</strong>.</li>
+<li>Enter the arguments between the function's parentheses.</li>
 <li>Press <strong>ENTER</strong>. The result appears in the cell in which you inserted the formula.</li>
 </ol>
-<h2 id="a-nameinsertfunctioninsert-a-function"><a name="insertfunction"></a>Insert a Function</h2>
+<h2 id="insert-a-function"><a name="insertfunction"></a>Insert a Function</h2>
 <p>If you do not remember the name of the function you want to use, you can insert the desired function quickly using the <strong>Function Library</strong> group within the <strong>Formulas</strong> tab.</p>
-<p>On the <strong>Formulas</strong> tab, in the <strong>Function Library</strong> group, click the button corresponding to the category to which your function belongs, and select this function from the button&#39;s drop-down list.</p>
-<div class="TIP"><h5>Tip</h5><p>Frequently used functions such as <strong>Sum</strong>, <strong>Average</strong>, <strong>Count Numbers</strong>, <strong>Max</strong> and <strong>Min</strong> are also listed under the <strong>AutoSum</strong> button on the <strong>Home</strong> tab in the <strong>Editing</strong> group.</p>
+<p>On the <strong>Formulas</strong> tab, in the <strong>Function Library</strong> group, click the button corresponding to the category to which your function belongs, and select this function from the button's drop-down list.</p>
+<div class="TIP">
+<h5>Tip</h5>
+<p>Frequently used functions such as <strong>Sum</strong>, <strong>Average</strong>, <strong>Count Numbers</strong>, <strong>Max</strong> and <strong>Min</strong> are also listed under the <strong>AutoSum</strong> button on the <strong>Home</strong> tab in the <strong>Editing</strong> group.</p>
 </div>
-<p>For example, if you wish to add all numbers in the range <strong>E4:E8</strong>, in the <strong>Function Library</strong> group, select the <strong>SUM</strong> function from the <strong>AutoSum</strong> (or <strong>Math &amp; Trig</strong>) button&#39;s drop-down list. Type &quot;E4:E8&quot; in the function&#39;s parentheses or select the cell range directly in the worksheet, and press <strong>ENTER</strong>.</p>
+<p>For example, if you wish to add all numbers in the range <strong>E4:E8</strong>, in the <strong>Function Library</strong> group, select the <strong>SUM</strong> function from the <strong>AutoSum</strong> (or <strong>Math &amp; Trig</strong>) button's drop-down list. Type &quot;E4:E8&quot; in the function's parentheses or select the cell range directly in the worksheet, and press <strong>ENTER</strong>.</p>
 <p><img src="../../../images/img26285.png" alt="EUD_ASPxSpreadsheet_Formulas_InsertFunction"></p>
-<div class="NOTE"><h5>Note</h5><p>If you start the formula with a function, the <strong>Spreadsheet</strong> automatically adds the equal sign to your formula.</p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>If you start the formula with a function, the <strong>Spreadsheet</strong> automatically adds the equal sign to your formula.</p>
 </div>
-<h2 id="a-namenestedfunctionnested-functions"><a name="nestedfunction"></a>Nested functions</h2>
+<h2 id="nested-functions"><a name="nestedfunction"></a>Nested functions</h2>
 <p>You can create a formula with a function that uses another function as one of the arguments. A function that is used as an argument is called a <strong>nested function</strong>. A formula can contain up to 64 levels of nesting.</p>
 <p>Examples of formulas with nested functions are detailed in the table below.</p>
 <table>
@@ -115,32 +111,33 @@
 <td>Returns the square root of the average value of the numbers in the cell range <strong>A1:A5</strong>.</td>
 </tr>
 <tr>
-<td><strong>=IF(A5&LT;1000, POWER(A5,2))</strong></td>
+<td><strong>=IF(A5&lt;1000, POWER(A5,2))</strong></td>
 <td>Square the value in cell <strong>A5</strong> if it is less than 1000.</td>
 </tr>
 </tbody>
 </table>
+
 </article>
           </div>
-          
+
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/24.1/interface-elements-for-web/articles/spreadsheet/formulas/using-functions-in-formulas.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/fix-styles/interface-elements-for-web/articles/spreadsheet/formulas/using-functions-in-formulas.md/#L1" class="contribution-link">Edit this page</a>
                   </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-                <h5>In This Article</h5>
+                <h5>In this article</h5>
                 <div></div>
               </nav>
             </div>
           </div>
         </div>
       </div>
-      
+
       <footer>
         <div class="grad-bottom"></div>
         <div class="footer">
@@ -148,14 +145,14 @@
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
-            
+      Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
+      
           </div>
         </div>
       </footer>
     </div>
-    
-    <script type="text/javascript" src="../../../../styles/docfx.vendor.js"></script>
+
+    <script type="text/javascript" src="../../../../styles/docfx.vendor.min.js"></script>
     <script type="text/javascript" src="../../../../styles/docfx.js"></script>
     <script type="text/javascript" src="../../../../styles/main.js"></script>
   </body>

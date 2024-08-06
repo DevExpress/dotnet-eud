@@ -1,37 +1,29 @@
 ﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  
+
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Filter Data at the Data Source Level | DevExpress End-User Documentation </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Filter Data at the Data Source Level | DevExpress End-User Documentation ">
-    <meta name="generator" content="docfx 2.59.2.0">
-    
+    <meta name="generator" content="docfx ">
+  
     <link rel="shortcut icon" href="../../../../../../favicon.ico">
-    <link rel="stylesheet" href="../../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../../styles/docfx.vendor.min.css">
     <link rel="stylesheet" href="../../../../../../styles/docfx.css">
     <link rel="stylesheet" href="../../../../../../styles/main.css">
     <meta property="docfx:navrel" content="../../../../../../toc.html">
     <meta property="docfx:tocrel" content="../../../../../toc.html">
-    
-    
-    
-    <!-- Matomo Tag Manager -->
-    <script>
-      var _mtm = window._mtm = window._mtm || [];
-      _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
-      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-      g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
-    </script>
-    <!-- End Matomo Tag Manager -->
+  
+  
+  
   </head>
   <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
-        
+
         <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
           <div class="container">
             <div class="navbar-header">
@@ -41,7 +33,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              
+
               <a class="navbar-brand" href="../../../../../../index.html">
                 <img id="logo" class="svg" src="../../../../../../logo.svg" alt="">
               </a>
@@ -55,7 +47,7 @@
             </div>
           </div>
         </nav>
-        
+
         <div class="subnav navbar navbar-default">
           <div class="container hide-when-search" id="breadcrumb">
             <ul class="breadcrumb">
@@ -65,7 +57,7 @@
         </div>
       </header>
       <div role="main" class="container body-content hide-when-search">
-        
+
         <div class="sidenav hide-when-search">
           <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
           <div class="sidetoggle collapse" id="sidetoggle">
@@ -83,48 +75,48 @@
 </li>
 <li><p>Bind you report to a required data source. See the <a href="../../bind-to-data.html">Bind to Data</a> section to learn more about providing data to reports.</p>
 </li>
-<li><p>Switch to the <a href="../../report-designer-tools/ui-panels/field-list.html">Field List</a> and drop the required fields onto the report&#39;s <a href="../../introduction-to-banded-reports.html">Detail</a> band.</p>
-<p> <img src="../../../../../images/eurd-win-filter-data-drop-fields.png" alt=""></p>
+<li><p>Switch to the <a href="../../report-designer-tools/ui-panels/field-list.html">Field List</a> and drop the required fields onto the report's <a href="../../introduction-to-banded-reports.html">Detail</a> band.</p>
+<p><img src="../../../../../images/eurd-win-filter-data-drop-fields.png" alt=""></p>
 </li>
 <li><p>Select the data source in the <a href="../../report-designer-tools/ui-panels/report-explorer.html">Report Explorer</a>, expand its <strong>Queries</strong> collection property in the <a href="../../report-designer-tools/ui-panels/property-grid-tabbed-view.html">Property Grid</a> and click the ellipsis for the <strong>Filter String</strong> property of the required query.</p>
-<p> <img src="../../../../../images/eurd-win-filer-data-source-filter-string-property.png" alt=""></p>
+<p><img src="../../../../../images/eurd-win-filer-data-source-filter-string-property.png" alt=""></p>
 </li>
 <li><p>In the invoked <a href="/interface-elements-for-desktop/articles//filter-editor.md">Filter Editor</a>, construct an expression where the data fields are compared with the required values as shown below.</p>
-<p> <img src="../../../../../images/eurd-win-filer-data-source-filter-string.png" alt=""></p>
-<p> Every filter condition consists of three parts:</p>
+<p><img src="../../../../../images/eurd-win-filer-data-source-filter-string.png" alt=""></p>
+<p>Every filter condition consists of three parts:</p>
 <ul>
 <li>A data field name.</li>
 <li>Criteria operator, such as <strong>Equals</strong>, <strong>Is less than</strong>, <strong>Is between</strong>, etc.</li>
-<li><p>A static operand value, another data field or a query parameter. See the <a href="../../bind-to-data/specify-query-parameters.html">Specify Query Parameters</a> topic to learn about embedding these parameters into filter conditions.</p>
+<li>A static operand value, another data field or a query parameter. See the <a href="../../bind-to-data/specify-query-parameters.html">Specify Query Parameters</a> topic to learn about embedding these parameters into filter conditions.</li>
+</ul>
 <p>You can arrange specific conditions into groups with <strong>And</strong>, <strong>Or</strong>, <strong>Not And</strong>, and <strong>Not Or</strong> operators.</p>
 <p>Alternatively, you can specify a filter expression when creating a query using the <a href="../../report-designer-tools/query-builder.html">Query Builder</a>. To invoke the <strong>Filter Editor</strong> at this stage, click the <strong>Filter...</strong> button.</p>
-</li>
-</ul>
 </li>
 </ol>
 <p>Switch to <a href="../../preview-print-and-export-reports.html">Print Preview</a> to see the result.</p>
 <p><img src="../../../../../images/eurd-win-filer-data-source-result.png" alt=""></p>
+
 </article>
           </div>
-          
+
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/24.1/reporting-for-desktop/articles/report-designer/report-designer-for-winforms/shape-report-data/filter-data/filter-data-at-the-data-source-level.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/fix-styles/reporting-for-desktop/articles/report-designer/report-designer-for-winforms/shape-report-data/filter-data/filter-data-at-the-data-source-level.md/#L1" class="contribution-link">Edit this page</a>
                   </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-                <h5>In This Article</h5>
+                <h5>In this article</h5>
                 <div></div>
               </nav>
             </div>
           </div>
         </div>
       </div>
-      
+
       <footer>
         <div class="grad-bottom"></div>
         <div class="footer">
@@ -132,14 +124,14 @@
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
-            
+      Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
+      
           </div>
         </div>
       </footer>
     </div>
-    
-    <script type="text/javascript" src="../../../../../../styles/docfx.vendor.js"></script>
+
+    <script type="text/javascript" src="../../../../../../styles/docfx.vendor.min.js"></script>
     <script type="text/javascript" src="../../../../../../styles/docfx.js"></script>
     <script type="text/javascript" src="../../../../../../styles/main.js"></script>
   </body>

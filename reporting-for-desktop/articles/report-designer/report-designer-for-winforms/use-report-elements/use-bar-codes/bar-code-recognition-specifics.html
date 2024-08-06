@@ -1,37 +1,29 @@
 ﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  
+
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Barcode Recognition Specifics | DevExpress End-User Documentation </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Barcode Recognition Specifics | DevExpress End-User Documentation ">
-    <meta name="generator" content="docfx 2.59.2.0">
-    
+    <meta name="generator" content="docfx ">
+  
     <link rel="shortcut icon" href="../../../../../../favicon.ico">
-    <link rel="stylesheet" href="../../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../../styles/docfx.vendor.min.css">
     <link rel="stylesheet" href="../../../../../../styles/docfx.css">
     <link rel="stylesheet" href="../../../../../../styles/main.css">
     <meta property="docfx:navrel" content="../../../../../../toc.html">
     <meta property="docfx:tocrel" content="../../../../../toc.html">
-    
-    
-    
-    <!-- Matomo Tag Manager -->
-    <script>
-      var _mtm = window._mtm = window._mtm || [];
-      _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
-      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-      g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
-    </script>
-    <!-- End Matomo Tag Manager -->
+  
+  
+  
   </head>
   <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
-        
+
         <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
           <div class="container">
             <div class="navbar-header">
@@ -41,7 +33,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              
+
               <a class="navbar-brand" href="../../../../../../index.html">
                 <img id="logo" class="svg" src="../../../../../../logo.svg" alt="">
               </a>
@@ -55,7 +47,7 @@
             </div>
           </div>
         </nav>
-        
+
         <div class="subnav navbar navbar-default">
           <div class="container hide-when-search" id="breadcrumb">
             <ul class="breadcrumb">
@@ -65,7 +57,7 @@
         </div>
       </header>
       <div role="main" class="container body-content hide-when-search">
-        
+
         <div class="sidenav hide-when-search">
           <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
           <div class="sidetoggle collapse" id="sidetoggle">
@@ -91,51 +83,54 @@
 <p>At present, only <a href="/interface-elements-for-desktop/articles/print-preview/print-preview-for-winforms/exporting/pdf-specific-export-options.md">export to PDF</a> preserves the original barcode in its vector form. Export to other formats will keep only the rasterized version of a barcode (with the default DPI set to <strong>96</strong>).</p>
 <p>For <a href="/interface-elements-for-desktop/articles/print-preview/print-preview-for-winforms/exporting/xlsx-specific-export-options.md">XLSX</a> and <a href="/interface-elements-for-desktop/articles/print-preview/print-preview-for-winforms/exporting/xls-specific-export-options.md">XLS</a> export, the output resolution can be set up manually using the <strong>Rasterization Resolution</strong> property.</p>
 <h2 id="specify-the-dpi-of-the-device-used-to-print-the-bar-code">Specify the DPI of the Device Used to Print the Bar Code</h2>
-<p>The <strong>Target Device Dpi</strong> property allows you to specify the DPI of the device on which you wish to print your barcode. The <code>XRBarCode</code> control automatically adjusts bar density based on this property&#39;s value.</p>
+<p>The <strong>Target Device Dpi</strong> property allows you to specify the DPI of the device on which you wish to print your barcode. The <code>XRBarCode</code> control automatically adjusts bar density based on this property's value.</p>
 <p>Use the <strong>Target Device Dpi</strong> property to ensure that the bar code is scanned correctly on the target device. This is especially important if your printing device has a non-standard DPI setting.</p>
 <h2 id="common-issues">Common Issues</h2>
 <p>This document section provides solutions to the most common issues that you may encounter when creating barcodes.</p>
 <ul>
 <li><p><strong>The barcode is too &quot;dense&quot;</strong></p>
-<p>  The more information you wish to encode, the more bars should be drawn and the larger the barcode should become.</p>
-<p>  The barcode&#39;s <strong>Module</strong> property specifies the width of the narrowest bar in a barcode. Although you can set this property to a very small value, the actual value is determined by the maximum resolution of your barcode printer device. Alternatively, consider using the <strong>Auto Module</strong> option to automatically calculate the optimal bar size based on the current barcode dimensions.</p>
-<div class="NOTE"><h5>Note</h5><p>When barcodes are &quot;dense&quot; and you are manually specifying the Module value, make sure that multiplying this value by the barcode printer resolution results in an integer number. Otherwise, rounding errors may occur on calculating the resulting bar width.</p>
+<p>The more information you wish to encode, the more bars should be drawn and the larger the barcode should become.</p>
+<p>The barcode's <strong>Module</strong> property specifies the width of the narrowest bar in a barcode. Although you can set this property to a very small value, the actual value is determined by the maximum resolution of your barcode printer device. Alternatively, consider using the <strong>Auto Module</strong> option to automatically calculate the optimal bar size based on the current barcode dimensions.</p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>When barcodes are &quot;dense&quot; and you are manually specifying the Module value, make sure that multiplying this value by the barcode printer resolution results in an integer number. Otherwise, rounding errors may occur on calculating the resulting bar width.</p>
 <p>For example, when the Module is set to <strong>0.015</strong> inches and the printer resolution is <strong>300</strong> DPI, their product equals <strong>4.5</strong>, which may be rounded to <strong>4</strong> or <strong>5</strong> pixels for different bars and result in barcode recognition errors. In this case, the Module property should be set to <strong>0.01333</strong> (to make the bar width equal to <strong>4</strong> pixels) or to <strong>0.01667</strong> (to make the bar width equal to <strong>5</strong> pixels).</p>
 </div>
 </li>
 <li><p><strong>The barcode is correctly displayed on the preview but it is not scanned</strong></p>
-<p>  Make sure that your scanner has been correctly set up to be able to recognize a specific kind of a barcode. If you are not certain about how to operate the scanner properly, please refer to its product manual.</p>
-<p>  Avoid scanning barcodes from the monitor screen (e.g., using an application installed on your smartphone), because the screen DPI may not be sufficient to effectively recognize each particular bar.</p>
+<p>Make sure that your scanner has been correctly set up to be able to recognize a specific kind of a barcode. If you are not certain about how to operate the scanner properly, please refer to its product manual.</p>
+<p>Avoid scanning barcodes from the monitor screen (e.g., using an application installed on your smartphone), because the screen DPI may not be sufficient to effectively recognize each particular bar.</p>
 </li>
 <li><p><strong>The barcode is correctly displayed on the preview but it is scanned incorrectly</strong></p>
-<p>  The cause for this problem may be an encoding issue specific to the &quot;binary&quot; input mode.</p>
-<p>  By default, the <strong>UTF-16</strong> encoding is used. However, your scanner device may use a different encoding model or even a codepage (i.e., a specific table that maps abstract values to real human-understandable characters). For additional information on this subject, please refer to the specification of your scanner device.</p>
+<p>The cause for this problem may be an encoding issue specific to the &quot;binary&quot; input mode.</p>
+<p>By default, the <strong>UTF-16</strong> encoding is used. However, your scanner device may use a different encoding model or even a codepage (i.e., a specific table that maps abstract values to real human-understandable characters). For additional information on this subject, please refer to the specification of your scanner device.</p>
 </li>
 <li><p><strong>The &quot;There are invalid characters in the text&quot; error occurs</strong></p>
-<p>  Different barcode symbologies define different ranges of allowed characters under different character sets. To avoid this error, please check the barcode specification.</p>
+<p>Different barcode symbologies define different ranges of allowed characters under different character sets. To avoid this error, please check the barcode specification.</p>
 </li>
 </ul>
+
 </article>
           </div>
-          
+
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/24.1/reporting-for-desktop/articles/report-designer/report-designer-for-winforms/use-report-elements/use-bar-codes/bar-code-recognition-specifics.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/fix-styles/reporting-for-desktop/articles/report-designer/report-designer-for-winforms/use-report-elements/use-bar-codes/bar-code-recognition-specifics.md/#L1" class="contribution-link">Edit this page</a>
                   </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-                <h5>In This Article</h5>
+                <h5>In this article</h5>
                 <div></div>
               </nav>
             </div>
           </div>
         </div>
       </div>
-      
+
       <footer>
         <div class="grad-bottom"></div>
         <div class="footer">
@@ -143,14 +138,14 @@
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
-            
+      Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
+      
           </div>
         </div>
       </footer>
     </div>
-    
-    <script type="text/javascript" src="../../../../../../styles/docfx.vendor.js"></script>
+
+    <script type="text/javascript" src="../../../../../../styles/docfx.vendor.min.js"></script>
     <script type="text/javascript" src="../../../../../../styles/docfx.js"></script>
     <script type="text/javascript" src="../../../../../../styles/main.js"></script>
   </body>

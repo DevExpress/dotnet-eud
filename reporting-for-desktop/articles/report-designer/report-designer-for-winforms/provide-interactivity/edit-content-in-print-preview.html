@@ -1,37 +1,29 @@
 ﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  
+
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Edit Content in Print Preview | DevExpress End-User Documentation </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Edit Content in Print Preview | DevExpress End-User Documentation ">
-    <meta name="generator" content="docfx 2.59.2.0">
-    
+    <meta name="generator" content="docfx ">
+  
     <link rel="shortcut icon" href="../../../../../favicon.ico">
-    <link rel="stylesheet" href="../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../styles/docfx.vendor.min.css">
     <link rel="stylesheet" href="../../../../../styles/docfx.css">
     <link rel="stylesheet" href="../../../../../styles/main.css">
     <meta property="docfx:navrel" content="../../../../../toc.html">
     <meta property="docfx:tocrel" content="../../../../toc.html">
-    
-    
-    
-    <!-- Matomo Tag Manager -->
-    <script>
-      var _mtm = window._mtm = window._mtm || [];
-      _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
-      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-      g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
-    </script>
-    <!-- End Matomo Tag Manager -->
+  
+  
+  
   </head>
   <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
-        
+
         <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
           <div class="container">
             <div class="navbar-header">
@@ -41,7 +33,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              
+
               <a class="navbar-brand" href="../../../../../index.html">
                 <img id="logo" class="svg" src="../../../../../logo.svg" alt="">
               </a>
@@ -55,7 +47,7 @@
             </div>
           </div>
         </nav>
-        
+
         <div class="subnav navbar navbar-default">
           <div class="container hide-when-search" id="breadcrumb">
             <ul class="breadcrumb">
@@ -65,7 +57,7 @@
         </div>
       </header>
       <div role="main" class="container body-content hide-when-search">
-        
+
         <div class="sidenav hide-when-search">
           <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
           <div class="sidetoggle collapse" id="sidetoggle">
@@ -79,7 +71,7 @@
 
 <p>This document describes how to customize field values in a previewed document.</p>
 <h2 id="enableediting">Content Editing Overview</h2>
-<p>Enable a report control&#39;s <strong>Edit Options</strong> | <strong>Enabled</strong> property and leave the <strong>Edit Options</strong> | <strong>Read Only</strong> property disabled to make the control&#39;s content editable in Print Preview.</p>
+<p>Enable a report control's <strong>Edit Options</strong> | <strong>Enabled</strong> property and leave the <strong>Edit Options</strong> | <strong>Read Only</strong> property disabled to make the control's content editable in Print Preview.</p>
 <p><img src="../../../../images/eurd-win-editing-fields-label-edit-options-new.png" alt="editing-fields-label-edit-options-new"></p>
 <p>Print Preview provides the <strong>Editing Fields</strong> toolbar button if content editing is enabled for at least one control in the displayed report. Click this button to highlight all editable fields available in the document.</p>
 <p><img src="../../../../images/eurd-win-editing-fields-highlight-ribbon-toolbar-sample-report.png" alt="editing-fields-highlight-ribbon-toolbar-sample-report"></p>
@@ -116,11 +108,16 @@
 <p>The sections below provide information about options these controls expose. You can use these options to set up content editing.</p>
 <h2 id="content-editing-limitations">Content Editing Limitations</h2>
 <ul>
-<li>Changes made to a control&#39;s content in Print Preview does not effect the document&#39;s other parts (for example, summary results, grouping, sorting, bookmarks and other settings that were processed before the document was generated).</li>
-<li>A control&#39;s <strong>Can Grow</strong> setting is ignored for editable fields. The edited area cannot exceed the control&#39;s original dimensions.</li>
-<li>Multi-line values can only be entered when no mask is applied to an editable field.  </li>
-<li>Values entered into editable fields are reset after the document is refreshed (for example, when you submit <a href="../use-report-parameters.html">report parameter</a> values or expand/collapse data in a <a href="create-drill-down-reports.html">drill-down report</a>).</li>
-<li>It is not possible to edit content in bands if their <strong>DrillDownControl</strong> property is specified.</li>
+<li><p>Changes made to a control's content in Print Preview does not effect the document's other parts (for example, summary results, grouping, sorting, bookmarks and other settings that were processed before the document was generated).</p>
+</li>
+<li><p>A control's <strong>Can Grow</strong> setting is ignored for editable fields. The edited area cannot exceed the control's original dimensions.</p>
+</li>
+<li><p>Multi-line values can only be entered when no mask is applied to an editable field.</p>
+</li>
+<li><p>Values entered into editable fields are reset after the document is refreshed (for example, when you submit <a href="../use-report-parameters.html">report parameter</a> values or expand/collapse data in a <a href="create-drill-down-reports.html">drill-down report</a>).</p>
+</li>
+<li><p>It is not possible to edit content in bands if their <strong>DrillDownControl</strong> property is specified.</p>
+</li>
 <li><p>The entered values are not preserved in the Top Margin and Bottom Margin bands when the report is exported as a single file to the following formats:</p>
 <ul>
 <li>TXT</li>
@@ -135,8 +132,8 @@
 </li>
 </ul>
 <h2 id="text-editors">Text Editors</h2>
-<p>Text editors are used to customize the <a href="../use-report-elements/use-basic-report-controls/label.html">Label</a>, <a href="../use-report-elements/use-tables.html">Table Cell</a> and <a href="../use-report-elements/use-basic-report-controls/character-comb.html">Character Comb</a> report controls&#39; content in Print Preview.</p>
-<p>The default text editor is a memo edit. </p>
+<p>Text editors are used to customize the <a href="../use-report-elements/use-basic-report-controls/label.html">Label</a>, <a href="../use-report-elements/use-tables.html">Table Cell</a> and <a href="../use-report-elements/use-basic-report-controls/character-comb.html">Character Comb</a> report controls' content in Print Preview.</p>
+<p>The default text editor is a memo edit.</p>
 <p><img src="../../../../images/eurd-win-editoptions_standardmemoeditor.png" alt="EditOptions_StandardMemoEditor"></p>
 <p>Specify the <strong>Edit Options</strong> | <strong>Editor Name</strong> property to use one of the following text editors:</p>
 <p><img src="../../../../images/eurd-win-editoptions_editorname.png" alt="EditOptions_EditorName"></p>
@@ -172,58 +169,64 @@
 </tbody>
 </table>
 <p>Each editor has a specific mask.</p>
-<div class="NOTE"><h5>Note</h5><p>If a table cell contains other controls, you cannot edit this cell (they can edit the cell&#39;s controls). The following image illustrates this:</p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>If a table cell contains other controls, you cannot edit this cell (they can edit the cell's controls). The following image illustrates this:</p>
 <p><img src="../../../../images/eurd-win-content-editing-table-cell-container.png" alt="eurd-win-content-editing-table-cell-container"></p>
 </div>
 <h2 id="character-comb-editors">Character Comb Editors</h2>
 <p>The <strong>Character Comb</strong> control displays text so that each character is printed in an individual cell.</p>
 <p><img src="../../../../images/eurd-win-character-comb-report-control.png" alt="Character Comb"></p>
-<p>Specify the Character Comb&#39;s <strong>Edit Options</strong> | <strong>Editor Name</strong> property to use a text editor, as described in the <a href="#text-editors">Text Editors</a> section above.</p>
+<p>Specify the Character Comb's <strong>Edit Options</strong> | <strong>Editor Name</strong> property to use a text editor, as described in the <a href="#text-editors">Text Editors</a> section above.</p>
 <h2 id="check-box-editor">Check Box Editor</h2>
-<p>The check box editor is used to customize the <a href="../use-report-elements/use-basic-report-controls/check-box.html">Check Box</a> report control&#39;s content in Print Preview.</p>
+<p>The check box editor is used to customize the <a href="../use-report-elements/use-basic-report-controls/check-box.html">Check Box</a> report control's content in Print Preview.</p>
 <p><img src="../../../../images/eurd-win-content-editing-checkboxe.png" alt="eurd-win-content-editing-checkboxe"></p>
-<p>You can combine several check box editors into a radio group so that you can select only one option within a group at a time. For this, set the <a href="../use-report-elements/use-basic-report-controls/check-box.html">Check Box</a> report controls&#39; <strong>Group ID</strong> property to the same value.</p>
+<p>You can combine several check box editors into a radio group so that you can select only one option within a group at a time. For this, set the <a href="../use-report-elements/use-basic-report-controls/check-box.html">Check Box</a> report controls' <strong>Group ID</strong> property to the same value.</p>
 <p><img src="../../../../images/eurd-win-content-editing-check-box-group.png" alt="content-editing-check-box-group"></p>
 <h2 id="image-editors">Image Editors</h2>
-<p>Image editors are used to customize the <a href="../use-report-elements/use-basic-report-controls/picture-box.html">XRPictureBox</a> report control&#39;s content in Print Preview.</p>
-<p>Use the control&#39;s <strong>Edit Options</strong> | <strong>Editor Name</strong> property to assign one of the following image editors.</p>
+<p>Image editors are used to customize the <a href="../use-report-elements/use-basic-report-controls/picture-box.html">XRPictureBox</a> report control's content in Print Preview.</p>
+<p>Use the control's <strong>Edit Options</strong> | <strong>Editor Name</strong> property to assign one of the following image editors.</p>
 <ul>
-<li><p><strong>Image Editor</strong><br>  Allows you to load an image and specify the image&#39;s size options.</p>
-<p>  <img src="../../../../images/eurd-win-content-editing-image.png" alt="content-editing-image"></p>
+<li><p><strong>Image Editor</strong><br>
+Allows you to load an image and specify the image's size options.</p>
+<p><img src="../../../../images/eurd-win-content-editing-image.png" alt="content-editing-image"></p>
 </li>
-<li><p><strong>Signature Editor</strong><br>  Allows you to specify brush options and draw a signature.</p>
-<p>  <img src="../../../../images/eurd-win-content-editing-signature.png" alt="content-editing-signature"></p>
+<li><p><strong>Signature Editor</strong><br>
+Allows you to specify brush options and draw a signature.</p>
+<p><img src="../../../../images/eurd-win-content-editing-signature.png" alt="content-editing-signature"></p>
 </li>
-<li><p><strong>Image and Signature Editor</strong> (default)<br>  Allows you to load an image and draw a signature. The image&#39;s size options and brush options are available.</p>
-<p>  <img src="../../../../images/eurd-win-content-editing-image-and-signature.png" alt="content-editing-image-and-signature"></p>
+<li><p><strong>Image and Signature Editor</strong> (default)<br>
+Allows you to load an image and draw a signature. The image's size options and brush options are available.</p>
+<p><img src="../../../../images/eurd-win-content-editing-image-and-signature.png" alt="content-editing-image-and-signature"></p>
 </li>
 </ul>
-<p>All these image editors include the <img src="../../../../images/eurd-win-clear-changes.png" alt="clear-changes"> button. This button allows you to clear the editor&#39;s content.</p>
+<p>All these image editors include the <img src="../../../../images/eurd-win-clear-changes.png" alt="clear-changes"> button. This button allows you to clear the editor's content.</p>
 <h2 id="export-editable-fields-to-pdf-acroforms">Export Editable Fields to PDF AcroForms</h2>
-<p>Enable the report&#39;s <strong>Export Options | PDF Export Options | Export Editing Fields to AcroForms</strong> property to export <a href="#text-editors">text fields</a>, <a href="#check-box-editor">check boxes</a>, <a href="#character-comb-editors">character combs</a>, and <a href="#image-editors">image editors</a> to PDF as editable form fields (<strong>AcroForms</strong>).</p>
+<p>Enable the report's <strong>Export Options | PDF Export Options | Export Editing Fields to AcroForms</strong> property to export <a href="#text-editors">text fields</a>, <a href="#check-box-editor">check boxes</a>, <a href="#character-comb-editors">character combs</a>, and <a href="#image-editors">image editors</a> to PDF as editable form fields (<strong>AcroForms</strong>).</p>
 <p><img src="../../../../images/eurd-win-exporteditingfieldstoacroforms.png" alt="Export Editing Fields to AcroForms"></p>
 <p><img src="../../../../images/eurd-win-editing-fields-preview.png" alt="Report Preview"></p>
+
 </article>
           </div>
-          
+
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/24.1/reporting-for-desktop/articles/report-designer/report-designer-for-winforms/provide-interactivity/edit-content-in-print-preview.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/fix-styles/reporting-for-desktop/articles/report-designer/report-designer-for-winforms/provide-interactivity/edit-content-in-print-preview.md/#L1" class="contribution-link">Edit this page</a>
                   </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-                <h5>In This Article</h5>
+                <h5>In this article</h5>
                 <div></div>
               </nav>
             </div>
           </div>
         </div>
       </div>
-      
+
       <footer>
         <div class="grad-bottom"></div>
         <div class="footer">
@@ -231,14 +234,14 @@
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
-            
+      Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
+      
           </div>
         </div>
       </footer>
     </div>
-    
-    <script type="text/javascript" src="../../../../../styles/docfx.vendor.js"></script>
+
+    <script type="text/javascript" src="../../../../../styles/docfx.vendor.min.js"></script>
     <script type="text/javascript" src="../../../../../styles/docfx.js"></script>
     <script type="text/javascript" src="../../../../../styles/main.js"></script>
   </body>

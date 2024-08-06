@@ -1,37 +1,29 @@
 ﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  
+
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Hidden Data Items | DevExpress End-User Documentation </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Hidden Data Items | DevExpress End-User Documentation ">
-    <meta name="generator" content="docfx 2.59.2.0">
-    
+    <meta name="generator" content="docfx ">
+  
     <link rel="shortcut icon" href="../../../../favicon.ico">
-    <link rel="stylesheet" href="../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../styles/docfx.vendor.min.css">
     <link rel="stylesheet" href="../../../../styles/docfx.css">
     <link rel="stylesheet" href="../../../../styles/main.css">
     <meta property="docfx:navrel" content="../../../../toc.html">
     <meta property="docfx:tocrel" content="../../../toc.html">
-    
-    
-    
-    <!-- Matomo Tag Manager -->
-    <script>
-      var _mtm = window._mtm = window._mtm || [];
-      _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
-      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-      g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
-    </script>
-    <!-- End Matomo Tag Manager -->
+  
+  
+  
   </head>
   <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
-        
+
         <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
           <div class="container">
             <div class="navbar-header">
@@ -41,7 +33,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              
+
               <a class="navbar-brand" href="../../../../index.html">
                 <img id="logo" class="svg" src="../../../../logo.svg" alt="">
               </a>
@@ -55,7 +47,7 @@
             </div>
           </div>
         </nav>
-        
+
         <div class="subnav navbar navbar-default">
           <div class="container hide-when-search" id="breadcrumb">
             <ul class="breadcrumb">
@@ -65,7 +57,7 @@
         </div>
       </header>
       <div role="main" class="container body-content hide-when-search">
-        
+
         <div class="sidenav hide-when-search">
           <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
           <div class="sidetoggle collapse" id="sidetoggle">
@@ -86,43 +78,44 @@
 <li><a href="#top-n">Top N</a></li>
 <li><a href="#conditional-formatting">Conditional Formatting</a></li>
 </ul>
-<h2 id="a-namefilteringfiltering"><a name="filtering"></a>Filtering</h2>
+<h2 id="filtering"><a name="filtering"></a>Filtering</h2>
 <p>You can use <strong>hidden dimensions</strong> to <a href="../data-shaping/filtering.html">apply filtering</a> to the dashboard item. To do this, select the required hidden dimension in the Filter Editor dialog and specify the required condition.</p>
 <p><img src="../../../images/img118917.png" alt="HiddenDimension_Filtering"></p>
 <p>For instance, the <a href="../dashboard-item-settings/grid.html">Grid</a> on the image above is filtered by the first quarter of the <em>OrderDate (Quarter)</em> dimension.</p>
-<h2 id="a-namesortingsorting"><a name="sorting"></a>Sorting</h2>
-<p>You can <a href="../data-shaping/sorting.html">sort</a> values of the specified dimension by the <strong>hidden measure</strong>. To do this, select the required measure from the dimension&#39;s <strong>Sort By</strong> sub-menu.</p>
+<h2 id="sorting"><a name="sorting"></a>Sorting</h2>
+<p>You can <a href="../data-shaping/sorting.html">sort</a> values of the specified dimension by the <strong>hidden measure</strong>. To do this, select the required measure from the dimension's <strong>Sort By</strong> sub-menu.</p>
 <p><img src="../../../images/img118918.png" alt="HiddenMeasure_Sorting"></p>
 <p>For instance, categories displayed in the <a href="../dashboard-item-settings/grid.html">Grid</a> on the image above are sorted by values of the hidden <em>Quantity (Sum)</em> measure.</p>
-<h2 id="a-nametop-ntop-n"><a name="top-n"></a>Top N</h2>
+<h2 id="top-n"><a name="top-n"></a>Top N</h2>
 <p>You can use <strong>hidden measures</strong> in <a href="../data-shaping/top-n.html">Top N</a> conditions. To do this, select the required measure from the <strong>Measure</strong> combo box in the <strong>Top N Values</strong> dialog.</p>
 <p><img src="../../../images/img118919.png" alt="HiddenMeasure_TopN"></p>
 <p>For instance, the <a href="../dashboard-item-settings/grid.html">Grid</a> on the image above displays top 5 categories for the <em>Quantity (Sum)</em> hidden measure.</p>
-<h2 id="a-nameconditional-formattingconditional-formatting"><a name="conditional-formatting"></a>Conditional Formatting</h2>
+<h2 id="conditional-formatting"><a name="conditional-formatting"></a>Conditional Formatting</h2>
 <p>You can create format rules based on <strong>hidden measures</strong> to apply <a href="../appearance-customization/conditional-formatting.html">conditional formatting</a> to elements corresponding to visible values. To do this, use the <strong>Add Format Rule</strong> menu of the hidden measure.</p>
 <p><img src="../../../images/img118920.png" alt="HiddenMeasure_CondtionalFormatting"></p>
 <p>For the <a href="../appearance-customization/conditional-formatting/expression.html">Expression</a> format condition, you can use the required hidden measure in the same manner as in the <a href="#filtering">Filter Editor</a> dialog.</p>
+
 </article>
           </div>
-          
+
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/24.1/dashboard-for-desktop/articles/dashboard-designer/bind-dashboard-items-to-data/hidden-data-items.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/fix-styles/dashboard-for-desktop/articles/dashboard-designer/bind-dashboard-items-to-data/hidden-data-items.md/#L1" class="contribution-link">Edit this page</a>
                   </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-                <h5>In This Article</h5>
+                <h5>In this article</h5>
                 <div></div>
               </nav>
             </div>
           </div>
         </div>
       </div>
-      
+
       <footer>
         <div class="grad-bottom"></div>
         <div class="footer">
@@ -130,14 +123,14 @@
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
-            
+      Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
+      
           </div>
         </div>
       </footer>
     </div>
-    
-    <script type="text/javascript" src="../../../../styles/docfx.vendor.js"></script>
+
+    <script type="text/javascript" src="../../../../styles/docfx.vendor.min.js"></script>
     <script type="text/javascript" src="../../../../styles/docfx.js"></script>
     <script type="text/javascript" src="../../../../styles/main.js"></script>
   </body>

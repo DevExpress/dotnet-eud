@@ -1,37 +1,29 @@
 ﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  
+
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Filtering | DevExpress End-User Documentation </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Filtering | DevExpress End-User Documentation ">
-    <meta name="generator" content="docfx 2.59.2.0">
-    
+    <meta name="generator" content="docfx ">
+  
     <link rel="shortcut icon" href="../../../../favicon.ico">
-    <link rel="stylesheet" href="../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../styles/docfx.vendor.min.css">
     <link rel="stylesheet" href="../../../../styles/docfx.css">
     <link rel="stylesheet" href="../../../../styles/main.css">
     <meta property="docfx:navrel" content="../../../../toc.html">
     <meta property="docfx:tocrel" content="../../../toc.html">
-    
-    
-    
-    <!-- Matomo Tag Manager -->
-    <script>
-      var _mtm = window._mtm = window._mtm || [];
-      _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
-      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-      g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
-    </script>
-    <!-- End Matomo Tag Manager -->
+  
+  
+  
   </head>
   <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
-        
+
         <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
           <div class="container">
             <div class="navbar-header">
@@ -41,7 +33,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              
+
               <a class="navbar-brand" href="../../../../index.html">
                 <img id="logo" class="svg" src="../../../../logo.svg" alt="">
               </a>
@@ -55,7 +47,7 @@
             </div>
           </div>
         </nav>
-        
+
         <div class="subnav navbar navbar-default">
           <div class="container hide-when-search" id="breadcrumb">
             <ul class="breadcrumb">
@@ -65,7 +57,7 @@
         </div>
       </header>
       <div role="main" class="container body-content hide-when-search">
-        
+
         <div class="sidenav hide-when-search">
           <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
           <div class="sidetoggle collapse" id="sidetoggle">
@@ -81,18 +73,20 @@
 <h2 id="dashboard-item-filter">Dashboard Item Filter</h2>
 <p>Filters that apply to a <a href="../dashboard-item-settings.html">dashboard item</a> affect only this item. To add filters, select the target dashboard item and do one of the following:</p>
 <ul>
-<li><p>Click the <strong>Edit Filter</strong> button in the Ribbon menu&#39;s <strong>Data</strong> tab. </p>
-<p>  <img src="../../../images/datashaping_filtering_editfilterbutton19368.png" alt="DataShaping_Filtering_EditFilterButton"></p>
+<li><p>Click the <strong>Edit Filter</strong> button in the Ribbon menu's <strong>Data</strong> tab.</p>
+<p><img src="../../../images/datashaping_filtering_editfilterbutton19368.png" alt="DataShaping_Filtering_EditFilterButton"></p>
 </li>
 <li><p>Right-click a dashboard item and select <strong>Edit Filter</strong> from its context menu.</p>
-<p>  <img src="../../../images/datashaping_filtering_editfiltermenuitem19369.png" alt="DataShaping_Filtering_EditFilterMenuItem"></p>
+<p><img src="../../../images/datashaping_filtering_editfiltermenuitem19369.png" alt="DataShaping_Filtering_EditFilterMenuItem"></p>
 </li>
 </ul>
 <p>This invokes the <a href="../../../../interface-elements-for-desktop/articles/filter-editor/filter-data-via-the-filter-editor.html">Filter Editor</a> dialog that allows you to build complex filter criteria:</p>
 <p><img src="../../../images/datashaping_filtering_filtereditor19370.png" alt="DataShaping_Filtering_FilterEditor"></p>
-<div class="TIP"><h5>Tip</h5><p><strong>Documentation</strong>: <a href="../../../../interface-elements-for-desktop/articles/filter-editor/filter-data-via-the-filter-editor.html">Filter Editor</a> </p>
+<div class="TIP">
+<h5>Tip</h5>
+<p><strong>Documentation</strong>: <a href="../../../../interface-elements-for-desktop/articles/filter-editor/filter-data-via-the-filter-editor.html">Filter Editor</a></p>
 </div>
-<p>To clear the applied filter, select <strong>Clear</strong> from the dashboard item&#39;s context menu or click the <strong>Clear</strong> button in the <strong>Data</strong> Ribbon tab.</p>
+<p>To clear the applied filter, select <strong>Clear</strong> from the dashboard item's context menu or click the <strong>Clear</strong> button in the <strong>Data</strong> Ribbon tab.</p>
 <h2 id="measure-filter">Measure Filter</h2>
 <p>You can apply filters to individual <a href="../bind-dashboard-items-to-data/bind-dashboard-items-to-data.html">measures</a>. If you create multiple measures that only differ in applied filters, you can compare values calculated over different date-time periods or against different categories.</p>
 <p>Select a dashboard item and right-click a measure to be filtered. Select <strong>Edit Filter</strong> from its context menu.</p>
@@ -101,10 +95,12 @@
 <p><img src="../../../images/win-filter-editor-for-measure.png" alt="win-filter-editor-for-measure"></p>
 <p>The filtered measure has the <em>Filter</em> icon:</p>
 <p><img src="../../../images/win-filtered-measure-icon.png" alt="win-filtered-measure-icon"></p>
-<p>To clear the applied filter, select <strong>Clear</strong> from the measure&#39;s context menu.</p>
-<div class="NOTE"><h5>Note</h5><p>The measure filter is technically an expression that uses the <code>filter(summaryExpression, filterCriteria)</code> function, where <code>summaryExpression</code> is the measure to be filtered and <code>filterCriteria</code> is the filter. See the following topic for more information about functions you can use in dashboard expressions: <a href="../data-analysis/expression-constants-operators-and-functions.html">Expression Constants, Operators, and Functions</a>.</p>
+<p>To clear the applied filter, select <strong>Clear</strong> from the measure's context menu.</p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>The measure filter is technically an expression that uses the <code>filter(summaryExpression, filterCriteria)</code> function, where <code>summaryExpression</code> is the measure to be filtered and <code>filterCriteria</code> is the filter. See the following topic for more information about functions you can use in dashboard expressions: <a href="../data-analysis/expression-constants-operators-and-functions.html">Expression Constants, Operators, and Functions</a>.</p>
 </div>
-<p>The image below shows a Chart with three measures:  </p>
+<p>The image below shows a Chart with three measures:</p>
 <ul>
 <li><em>2019 - Opened</em> is filtered by year 2019.</li>
 <li><em>2020 - Opened</em> is filtered by year 2020.</li>
@@ -113,11 +109,11 @@
 <p><img src="../../../images/win-filter-to-measure-year.png" alt="win-filter-to-measure-year"></p>
 <h2 id="visible-data-filter">Visible Data Filter</h2>
 <p>You can specify a Visible Data Filter to limit displayed data. This filter type does not filter underlying data used in calculations or intermediate level aggregations.</p>
-<p>Click the <strong>Set Visible Data Filter</strong> button in the Ribbon menu&#39;s <strong>Data</strong> tab to invoke the Visible Data Filter Editor, where you can set a filter condition:</p>
+<p>Click the <strong>Set Visible Data Filter</strong> button in the Ribbon menu's <strong>Data</strong> tab to invoke the Visible Data Filter Editor, where you can set a filter condition:</p>
 <p><img src="../../../images/win-filter-visible-data-filter-ribbon-button.png" alt="win-filter-visible-data-filter-ribbon-button"></p>
 <p>For example, a Grid dashboard item has 35 rows and displays sales percentages.</p>
 <p><img src="../../../images/win-filter-visible-data-filter-original-grid.png" alt="win-filter-visible-data-filter-original-grid"></p>
-<p>The image below shows the difference between filters (the filter condition is the same): </p>
+<p>The image below shows the difference between filters (the filter condition is the same):</p>
 <ul>
 <li><strong>Dashboard Item Filter</strong>: sales percentages are recalculated based on the visible data.</li>
 <li><strong>Visible Data Filter</strong>: sales percentages remain the same because this filter type does not affect calculations.</li>
@@ -130,28 +126,29 @@
 <p>For dimension attributes, the Filter Editor contains a list of all values. You can select the values that you wish to display.</p>
 <p><img src="../../../images/img19755.png" alt="ProvidingData_OLAP_Filter_Standard"></p>
 <p>For hierarchies, a tree is displayed instead, allowing you to filter individual values at any hierarchy level.</p>
-<p><img src="../../../images/img19754.png" alt="ProvidingData_OLAP_Filter_Hierarchical"> </p>
+<p><img src="../../../images/img19754.png" alt="ProvidingData_OLAP_Filter_Hierarchical"></p>
+
 </article>
           </div>
-          
+
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/24.1/dashboard-for-desktop/articles/dashboard-designer/data-shaping/filtering.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/fix-styles/dashboard-for-desktop/articles/dashboard-designer/data-shaping/filtering.md/#L1" class="contribution-link">Edit this page</a>
                   </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-                <h5>In This Article</h5>
+                <h5>In this article</h5>
                 <div></div>
               </nav>
             </div>
           </div>
         </div>
       </div>
-      
+
       <footer>
         <div class="grad-bottom"></div>
         <div class="footer">
@@ -159,14 +156,14 @@
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
-            
+      Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
+      
           </div>
         </div>
       </footer>
     </div>
-    
-    <script type="text/javascript" src="../../../../styles/docfx.vendor.js"></script>
+
+    <script type="text/javascript" src="../../../../styles/docfx.vendor.min.js"></script>
     <script type="text/javascript" src="../../../../styles/docfx.js"></script>
     <script type="text/javascript" src="../../../../styles/main.js"></script>
   </body>

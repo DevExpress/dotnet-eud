@@ -1,37 +1,29 @@
 ﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  
+
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Conditional Formatting | DevExpress End-User Documentation </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Conditional Formatting | DevExpress End-User Documentation ">
-    <meta name="generator" content="docfx 2.59.2.0">
-    
+    <meta name="generator" content="docfx ">
+  
     <link rel="shortcut icon" href="../../../../../favicon.ico">
-    <link rel="stylesheet" href="../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../styles/docfx.vendor.min.css">
     <link rel="stylesheet" href="../../../../../styles/docfx.css">
     <link rel="stylesheet" href="../../../../../styles/main.css">
     <meta property="docfx:navrel" content="../../../../../toc.html">
     <meta property="docfx:tocrel" content="../../../../toc.html">
-    
-    
-    
-    <!-- Matomo Tag Manager -->
-    <script>
-      var _mtm = window._mtm = window._mtm || [];
-      _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
-      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-      g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
-    </script>
-    <!-- End Matomo Tag Manager -->
+  
+  
+  
   </head>
   <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
-        
+
         <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
           <div class="container">
             <div class="navbar-header">
@@ -41,7 +33,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              
+
               <a class="navbar-brand" href="../../../../../index.html">
                 <img id="logo" class="svg" src="../../../../../logo.svg" alt="">
               </a>
@@ -55,7 +47,7 @@
             </div>
           </div>
         </nav>
-        
+
         <div class="subnav navbar navbar-default">
           <div class="container hide-when-search" id="breadcrumb">
             <ul class="breadcrumb">
@@ -65,7 +57,7 @@
         </div>
       </header>
       <div role="main" class="container body-content hide-when-search">
-        
+
         <div class="sidenav hide-when-search">
           <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
           <div class="sidetoggle collapse" id="sidetoggle">
@@ -86,18 +78,20 @@
 <li><a href="series/weighted-series.html">Bubble</a></li>
 <li><a href="series/range-series.html">Range Bar</a></li>
 </ul>
-<blockquote><p><img src="../../../../images/chart-bar-series-type-with-conditional-formatting-applied.png" alt="Bar Series Type Chart"></p>
-<h2 id="supported-format-rules">Supported Format Rules</h2>
+<blockquote>
+<p><img src="../../../../images/chart-bar-series-type-with-conditional-formatting-applied.png" alt="Bar Series Type Chart"></p>
 </blockquote>
+<h2 id="supported-format-rules">Supported Format Rules</h2>
 <p>You can use the following data in rule calculations:</p>
 <ul>
-<li><a href="../../bind-dashboard-items-to-data/bind-dashboard-items-to-data.html">measures</a> from the <strong>Values</strong> section </li>
-<li><a href="../../bind-dashboard-items-to-data/bind-dashboard-items-to-data.html">dimensions</a> from the <strong>Arguments</strong>/<strong>Series</strong> section </li>
-<li>hidden measures </li>
+<li><a href="../../bind-dashboard-items-to-data/bind-dashboard-items-to-data.html">measures</a> from the <strong>Values</strong> section</li>
+<li><a href="../../bind-dashboard-items-to-data/bind-dashboard-items-to-data.html">dimensions</a> from the <strong>Arguments</strong>/<strong>Series</strong> section</li>
+<li>hidden measures</li>
 </ul>
 <p>The following list contains available format rules and corresponding data types:</p>
 <ul>
-<li>numeric<ul>
+<li>numeric
+<ul>
 <li><a href="../../appearance-customization/conditional-formatting/value.html">Value</a></li>
 <li><a href="../../appearance-customization/conditional-formatting/top-bottom.html">Top-Bottom</a></li>
 <li><a href="../../appearance-customization/conditional-formatting/average.html">Average</a></li>
@@ -106,12 +100,14 @@
 <li><a href="../../appearance-customization/conditional-formatting/gradient-ranges.html">Gradient Ranges</a></li>
 </ul>
 </li>
-<li>string <ul>
+<li>string
+<ul>
 <li><a href="../../appearance-customization/conditional-formatting/value.html">Value</a> (with a condition type set to <em>Equal To</em>, <em>Not Equal To</em> or <em>Text that Contains</em>)</li>
 <li><a href="../../appearance-customization/conditional-formatting/expression.html">Expression</a></li>
 </ul>
 </li>
-<li>date-time<ul>
+<li>date-time
+<ul>
 <li><a href="../../appearance-customization/conditional-formatting/value.html">Value</a></li>
 <li><a href="../../appearance-customization/conditional-formatting/value.html">A Date Occurring</a> (for dimensions with a continuous date-time group interval)</li>
 <li><a href="../../appearance-customization/conditional-formatting/expression.html">Expression</a></li>
@@ -123,55 +119,58 @@
 <h2 id="create-and-edit-a-format-rule">Create and Edit a Format Rule</h2>
 <p>You can create and edit format rules in the following ways:</p>
 <ul>
-<li><p>Click the <strong>Edit Rules</strong> button on the <strong>Home</strong> ribbon tab. </p>
+<li><p>Click the <strong>Edit Rules</strong> button on the <strong>Home</strong> ribbon tab.</p>
 </li>
-<li><p>Click the measure/dimension menu button in the Data Item&#39;s pane and select <strong>Add Format Rule</strong>/<strong>Edit Rules</strong>. </p>
+<li><p>Click the measure/dimension menu button in the Data Item's pane and select <strong>Add Format Rule</strong>/<strong>Edit Rules</strong>.</p>
 </li>
 </ul>
 <p>Refer to the following topic for information on how to create and edit format rules: <a href="../../appearance-customization/conditional-formatting.html">Conditional Formatting Common</a>.</p>
 <h2 id="chart-specific-format-condition-settings">Chart-Specific Format Condition Settings</h2>
-<p>Specify appearance settings and set the condition&#39;s value to create a format rule. Available settings depend on the selected format condition type.</p>
+<p>Specify appearance settings and set the condition's value to create a format rule. Available settings depend on the selected format condition type.</p>
 <p>The image below displays the <strong>Greater Than</strong> dialog (a <a href="../../appearance-customization/conditional-formatting/value.html">Value</a> format condition applied to a chart). The condition colors points/bars if their values exceed 3000.</p>
 <p><img src="../../../../images/chart-greater-than-dialog-example.png" alt="chart-greater-than-dialog-example"></p>
-<p>Enable <strong>Display in Legend</strong> to add information about the applied rule to the chart. Set the <strong>Caption</strong> field to specify the legend&#39;s text. For Range format rules, the legend&#39;s text is generated automatically and depends on the range intervals.</p>
+<p>Enable <strong>Display in Legend</strong> to add information about the applied rule to the chart. Set the <strong>Caption</strong> field to specify the legend's text. For Range format rules, the legend's text is generated automatically and depends on the range intervals.</p>
 <p>Use the <strong>Apply to chart elements</strong> drop-down list to apply a rule to points or lines.</p>
 <ul>
 <li><strong>Point</strong>: A rule applies to the data points such as bars, points and bubbles.</li>
 <li><strong>Line/Area</strong>: A rule applies to lines and areas.</li>
 </ul>
-<p>The image below displays the Chart item with the applied <strong>Greater Than</strong> format rule. The <strong>Apply to chart elements</strong> option is set to <strong>Point</strong> and the rule is applied to points of the line series. </p>
+<p>The image below displays the Chart item with the applied <strong>Greater Than</strong> format rule. The <strong>Apply to chart elements</strong> option is set to <strong>Point</strong> and the rule is applied to points of the line series.</p>
 <p><img src="../../../../images/chart-with-applied-value-format-rule.png" alt="chart-with-applied-value-format-rule"></p>
-<p>If you select <strong>Line/Area</strong>, the format rule applies to the line when at least one line point meets the rule&#39;s condition: </p>
+<p>If you select <strong>Line/Area</strong>, the format rule applies to the line when at least one line point meets the rule's condition:</p>
 <p><img src="../../../../images/line-chart-with-applied-value-format-rule.png" alt="line-chart-with-applied-value-format-rule"></p>
 <h2 id="coloring">Coloring</h2>
 <p>A Chart item paints elements in pale gray if they do not meet the applied format condition. Note that this does not apply to elements that use the <a href="coloring.html">Hue</a> color mode.</p>
 <p><img src="../../../../images/chart-coloring-by-default-cf.png" alt=""></p>
-<p>Select the <strong>Color by Hue</strong> option in a Data item&#39;s pane to restore the color scheme.</p>
+<p>Select the <strong>Color by Hue</strong> option in a Data item's pane to restore the color scheme.</p>
 <p><img src="../../../../images/chart-coloring-by-hue-with-applied-format-rule.png" alt=""></p>
-<div class="TIP"><h5>Tip</h5><p><strong>Documentation:</strong>
+<div class="TIP">
+<h5>Tip</h5>
+<p><strong>Documentation:</strong>
 <a href="coloring.html">Chart - Coloring</a></p>
 </div>
+
 </article>
           </div>
-          
+
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/24.1/dashboard-for-desktop/articles/dashboard-designer/dashboard-item-settings/chart/conditional-formatting.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/fix-styles/dashboard-for-desktop/articles/dashboard-designer/dashboard-item-settings/chart/conditional-formatting.md/#L1" class="contribution-link">Edit this page</a>
                   </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-                <h5>In This Article</h5>
+                <h5>In this article</h5>
                 <div></div>
               </nav>
             </div>
           </div>
         </div>
       </div>
-      
+
       <footer>
         <div class="grad-bottom"></div>
         <div class="footer">
@@ -179,14 +178,14 @@
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
-            
+      Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
+      
           </div>
         </div>
       </footer>
     </div>
-    
-    <script type="text/javascript" src="../../../../../styles/docfx.vendor.js"></script>
+
+    <script type="text/javascript" src="../../../../../styles/docfx.vendor.min.js"></script>
     <script type="text/javascript" src="../../../../../styles/docfx.js"></script>
     <script type="text/javascript" src="../../../../../styles/main.js"></script>
   </body>

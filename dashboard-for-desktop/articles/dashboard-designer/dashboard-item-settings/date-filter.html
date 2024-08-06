@@ -1,37 +1,29 @@
 ﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  
+
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Date Filter | DevExpress End-User Documentation </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Date Filter | DevExpress End-User Documentation ">
-    <meta name="generator" content="docfx 2.59.2.0">
-    
+    <meta name="generator" content="docfx ">
+  
     <link rel="shortcut icon" href="../../../../favicon.ico">
-    <link rel="stylesheet" href="../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../styles/docfx.vendor.min.css">
     <link rel="stylesheet" href="../../../../styles/docfx.css">
     <link rel="stylesheet" href="../../../../styles/main.css">
     <meta property="docfx:navrel" content="../../../../toc.html">
     <meta property="docfx:tocrel" content="../../../toc.html">
-    
-    
-    
-    <!-- Matomo Tag Manager -->
-    <script>
-      var _mtm = window._mtm = window._mtm || [];
-      _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
-      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-      g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
-    </script>
-    <!-- End Matomo Tag Manager -->
+  
+  
+  
   </head>
   <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
-        
+
         <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
           <div class="container">
             <div class="navbar-header">
@@ -41,7 +33,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              
+
               <a class="navbar-brand" href="../../../../index.html">
                 <img id="logo" class="svg" src="../../../../logo.svg" alt="">
               </a>
@@ -55,7 +47,7 @@
             </div>
           </div>
         </nav>
-        
+
         <div class="subnav navbar navbar-default">
           <div class="container hide-when-search" id="breadcrumb">
             <ul class="breadcrumb">
@@ -65,7 +57,7 @@
         </div>
       </header>
       <div role="main" class="container body-content hide-when-search">
-        
+
         <div class="sidenav hide-when-search">
           <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
           <div class="sidetoggle collapse" id="sidetoggle">
@@ -77,8 +69,8 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="date-filter">Date Filter</h1>
 
-<p>The <strong>Date Filter</strong> dashboard item allows you to filter dashboard data based on the selected data range. The range can be relative (Last 3 Months), use fixed dates (01-01-2018), or presets (Month-to-date). You can also filter dates before or after a specified date. </p>
-<p>The DateFilter item displays a set of intervals that can be used as quick filters. </p>
+<p>The <strong>Date Filter</strong> dashboard item allows you to filter dashboard data based on the selected data range. The range can be relative (Last 3 Months), use fixed dates (01-01-2018), or presets (Month-to-date). You can also filter dates before or after a specified date.</p>
+<p>The DateFilter item displays a set of intervals that can be used as quick filters.</p>
 <p><img src="../../../images/datefilter-autoheight.png" alt="Date Filter"></p>
 <p>End-users can click the button to invoke the Date Picker:</p>
 <p><img src="../../../images/datefilter-dropdown-daycalendar.png" alt="Date Filter - Date Picker Drop-Down"></p>
@@ -101,27 +93,29 @@
 <li>clicks the <img src="../../../images/editdatefilter.png" alt="edit-date-filter-icon"> icon on the button with the specified datetime range.</li>
 </ul>
 <p>A drop-down calendar may contain a single calendar control (the Filter Type is Exact, Before or After) or two calendar controls (the Filter Type is Between).</p>
-<p>When the user selects the date, the Date Picker caption displays information about that date (date range) and the <img src="../../../images/editdatefilter.png" alt="edit-date-filter-icon"> icon. The caption text is constructed from a custom string with date placeholders. If the user clicks the caption, The Date Picker button acts as a checked button to apply the date range (checked) or reset the date filter (unchecked) to its default value. When the user clicks the icon, the drop-down calendar appears and enables the user to select another date range. </p>
+<p>When the user selects the date, the Date Picker caption displays information about that date (date range) and the <img src="../../../images/editdatefilter.png" alt="edit-date-filter-icon"> icon. The caption text is constructed from a custom string with date placeholders. If the user clicks the caption, The Date Picker button acts as a checked button to apply the date range (checked) or reset the date filter (unchecked) to its default value. When the user clicks the icon, the drop-down calendar appears and enables the user to select another date range.</p>
 <p>To show or hide the Date Picker component, click the <strong>Show Date Picker</strong> check button in the ribbon (Date Filter Tools contextual tab-&gt; Design page -&gt; Layout group):</p>
 <p><img src="../../../images/datefilter-showdatepicker-ribbon.png" alt=""></p>
 <h2 id="display-format">Display Format</h2>
 <p>To specify the date-time value format, use the <strong>Format</strong> submenu in the data item menu, as described in the <a href="../data-shaping/formatting-data.html">Formatting Data</a> topic.</p>
 <p>To specify a custom string displayed in the Date Picker component, use the <strong>Edit Names</strong> dialog. To invoke the dialog, right-click the DateFilter item and click the Edit Names... menu item or click the <strong>Edit Names</strong> button in the <strong>Design</strong> Ribbon tab.</p>
 <p><img src="../../../images/datefilter-displaytextpattern-editnames-dialog.png" alt="datefilter-displaytextpattern-editnames-dialog"></p>
-<p>You can include placeholders in a custom string. The {0} placeholder is the interval&#39;s start, the {1} placeholder is the interval&#39;s end.</p>
+<p>You can include placeholders in a custom string. The {0} placeholder is the interval's start, the {1} placeholder is the interval's end.</p>
 <h2 id="create-quick-filters">Create Quick Filters</h2>
 <p>Quick Filters are buttons displayed within the DateFilter item. Each button has a DateTime range assigned to it. You can click the button to apply that range as a Date filter. The button is checked until the end-user clicks the same button once more to reset the filter to its default value. The buttom becomes unchecked if the end user clicks another button.</p>
 <p><img src="../../../images/datefilter-quick-filters.png" alt="Quick Filters"></p>
-<p>The item&#39;s context menu contains commands with the same captions that act as quick filters.</p>
+<p>The item's context menu contains commands with the same captions that act as quick filters.</p>
 <p>A newly created DateFilter dashboard item has no quick filters. To add a quick filter:</p>
 <ul>
-<li>in the dashboard designer, click the <em><a href="../ui-elements/data-items-pane.html">Options</a></em> button (the <img src="../../../images/img123296.png" alt="BoundImageAttributeOptionsButton"> icon) next to the <em>Argument</em> placeholder</li>
-<li>or select the <em>Edit Periods</em> command in the context menu</li>
+<li><p>in the dashboard designer, click the <em><a href="../ui-elements/data-items-pane.html">Options</a></em> button (the <img src="../../../images/img123296.png" alt="BoundImageAttributeOptionsButton"> icon) next to the <em>Argument</em> placeholder</p>
+</li>
+<li><p>or select the <em>Edit Periods</em> command in the context menu</p>
+</li>
 <li><p>or click the <strong>Edit Periods</strong> in the ribbon (Date Filter Tools contextual tab-&gt; Design page -&gt; Interactivity group):</p>
-<p>  <img src="../../../images/datefilter-editperiods-ribbon.png" alt="datefilter-editperiods-ribbon"></p>
+<p><img src="../../../images/datefilter-editperiods-ribbon.png" alt="datefilter-editperiods-ribbon"></p>
 </li>
 </ul>
-<p>This invokes the <strong>Edit Periods</strong> dialog. You can select a <a href="range-filter/predefined-ranges.html">predefined range</a> or add a custom period, specify the quick filter&#39;s range and caption.</p>
+<p>This invokes the <strong>Edit Periods</strong> dialog. You can select a <a href="range-filter/predefined-ranges.html">predefined range</a> or add a custom period, specify the quick filter's range and caption.</p>
 <p><img src="../../../images/datefilter-edit-periods-dialog.png" alt="datefilter-edit-periods-dialog"></p>
 <h2 id="arrange-quick-filters">Arrange Quick Filters</h2>
 <p>Quick filters in the DateFilter item can be arranged horizontally or vertically. The default mode is <em>auto height</em>, in which quick filters are displayed horizontally and the dashboard item shrinks automatically to fit the items and save space.</p>
@@ -133,27 +127,28 @@
 <p><img src="../../../images/datefilter-vertical.png" alt="Vertical Arrangement Mode"></p>
 <p>Horizontal Arrangement Mode:</p>
 <p><img src="../../../images/datefilter-horizontal.png" alt="Horizontal Arrangement Mode"></p>
+
 </article>
           </div>
-          
+
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/24.1/dashboard-for-desktop/articles/dashboard-designer/dashboard-item-settings/date-filter.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/fix-styles/dashboard-for-desktop/articles/dashboard-designer/dashboard-item-settings/date-filter.md/#L1" class="contribution-link">Edit this page</a>
                   </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-                <h5>In This Article</h5>
+                <h5>In this article</h5>
                 <div></div>
               </nav>
             </div>
           </div>
         </div>
       </div>
-      
+
       <footer>
         <div class="grad-bottom"></div>
         <div class="footer">
@@ -161,14 +156,14 @@
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
-            
+      Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
+      
           </div>
         </div>
       </footer>
     </div>
-    
-    <script type="text/javascript" src="../../../../styles/docfx.vendor.js"></script>
+
+    <script type="text/javascript" src="../../../../styles/docfx.vendor.min.js"></script>
     <script type="text/javascript" src="../../../../styles/docfx.js"></script>
     <script type="text/javascript" src="../../../../styles/main.js"></script>
   </body>

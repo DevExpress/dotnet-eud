@@ -1,37 +1,29 @@
 ﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  
+
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Layout | DevExpress End-User Documentation </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Layout | DevExpress End-User Documentation ">
-    <meta name="generator" content="docfx 2.59.2.0">
-    
+    <meta name="generator" content="docfx ">
+  
     <link rel="shortcut icon" href="../../../../../favicon.ico">
-    <link rel="stylesheet" href="../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../styles/docfx.vendor.min.css">
     <link rel="stylesheet" href="../../../../../styles/docfx.css">
     <link rel="stylesheet" href="../../../../../styles/main.css">
     <meta property="docfx:navrel" content="../../../../../toc.html">
     <meta property="docfx:tocrel" content="../../../../toc.html">
-    
-    
-    
-    <!-- Matomo Tag Manager -->
-    <script>
-      var _mtm = window._mtm = window._mtm || [];
-      _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
-      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-      g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
-    </script>
-    <!-- End Matomo Tag Manager -->
+  
+  
+  
   </head>
   <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
-        
+
         <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
           <div class="container">
             <div class="navbar-header">
@@ -41,7 +33,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              
+
               <a class="navbar-brand" href="../../../../../index.html">
                 <img id="logo" class="svg" src="../../../../../logo.svg" alt="">
               </a>
@@ -55,7 +47,7 @@
             </div>
           </div>
         </nav>
-        
+
         <div class="subnav navbar navbar-default">
           <div class="container hide-when-search" id="breadcrumb">
             <ul class="breadcrumb">
@@ -65,7 +57,7 @@
         </div>
       </header>
       <div role="main" class="container body-content hide-when-search">
-        
+
         <div class="sidenav hide-when-search">
           <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
           <div class="sidetoggle collapse" id="sidetoggle">
@@ -86,7 +78,7 @@
 <li><a href="#cell-merging">Cell Merging</a></li>
 <li><a href="#word-wrapping">Word Wrapping</a></li>
 </ul>
-<h2 id="a-namecolumn-width-modescolumn-width-modes"><a name="column-width-modes"></a>Column Width Modes</h2>
+<h2 id="column-width-modes"><a name="column-width-modes"></a>Column Width Modes</h2>
 <p>The Grid dashboard item allows you to manage column widths using different modes. Use buttons in the <strong>Column Width Mode</strong> group to manage the column width modes.</p>
 <p><img src="../../../../images/img24746.png" alt="Grid_ColumnAutoWidth_Ribbon"></p>
 <p>The following modes are available.</p>
@@ -99,50 +91,56 @@
 <p>In this mode, you can adjust the width of individual columns in the following ways.</p>
 <ul>
 <li><p>Specify the width of  the required column by dragging the right edge of the column header.</p>
-<p>  <img src="../../../../images/img24747.png" alt="Grid_ManualColumnWidth"></p>
-<p>  In this case, all columns preserve their relative size when the grid width is changed.</p>
+<p><img src="../../../../images/img24747.png" alt="Grid_ManualColumnWidth"></p>
+<p>In this case, all columns preserve their relative size when the grid width is changed.</p>
 </li>
 <li><p>Specify the column width and fix it by right-clicking the required column header and selecting <strong>Fix Width</strong>.</p>
-<p>  <img src="../../../../images/img24937.png" alt="Grid_FixColumnWidth"></p>
-<p>  You can also specify the fixed column width by selecting <strong>Column Width...</strong> This invokes the <strong>Column Width</strong> window that allows you to specify the width of the column in characters.</p>
-<p>  <img src="../../../../images/img26123.png" alt="Grid_ColumnWidthDialog"></p>
+<p><img src="../../../../images/img24937.png" alt="Grid_FixColumnWidth"></p>
+<p>You can also specify the fixed column width by selecting <strong>Column Width...</strong> This invokes the <strong>Column Width</strong> window that allows you to specify the width of the column in characters.</p>
+<p><img src="../../../../images/img26123.png" alt="Grid_ColumnWidthDialog"></p>
 </li>
-<li>Fit the column width to its content and fix it by right-clicking the required column header and selecting <strong>Fit to Content</strong>.</li>
+<li><p>Fit the column width to its content and fix it by right-clicking the required column header and selecting <strong>Fit to Content</strong>.</p>
+</li>
 </ul>
-<h2 id="a-namecolumn-headercolumn-header"><a name="column-header"></a>Column Header</h2>
+<h2 id="column-header"><a name="column-header"></a>Column Header</h2>
 <p>Use the <strong>Column Headers</strong> button to toggle column header visibility.</p>
 <p><img src="../../../../images/img19700.png" alt="Grid_Layout_NoLinesAndHeaders"></p>
-<h2 id="a-namecell-mergingcell-merging"><a name="cell-merging"></a>Cell Merging</h2>
+<h2 id="cell-merging"><a name="cell-merging"></a>Cell Merging</h2>
 <p>The Grid allows you to merge neighboring cells with identical values . To do this, use the <strong>Merge Cells</strong> button.</p>
 <p><img src="../../../../images/img19698.png" alt="Grid_Layout_MergeCells"></p>
-<div class="NOTE"><h5>Note</h5><p>Note that <a href="style.html">banded rows</a> are not available when cell merging is enabled.</p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>Note that <a href="style.html">banded rows</a> are not available when cell merging is enabled.</p>
 </div>
-<h2 id="a-nameword-wrappingword-wrapping"><a name="word-wrapping"></a>Word Wrapping</h2>
+<h2 id="word-wrapping"><a name="word-wrapping"></a>Word Wrapping</h2>
 <p>The word wrapping feature enables the capability to display cell content on multiple lines if the size of a dashboard item is insufficient to completely display the cell content on a single line.</p>
 <p><img src="../../../../images/img24749.png" alt="Grid_WordWrapping"></p>
-<div class="NOTE"><h5>Note</h5><p>The word wrapping feature is not in effect when the <strong>AutoFit to Contents</strong> <a href="#column-width-modes">column width mode</a> is enabled.</p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>The word wrapping feature is not in effect when the <strong>AutoFit to Contents</strong> <a href="#column-width-modes">column width mode</a> is enabled.</p>
 </div>
+
 </article>
           </div>
-          
+
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/24.1/dashboard-for-desktop/articles/dashboard-designer/dashboard-item-settings/grid/layout.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/fix-styles/dashboard-for-desktop/articles/dashboard-designer/dashboard-item-settings/grid/layout.md/#L1" class="contribution-link">Edit this page</a>
                   </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-                <h5>In This Article</h5>
+                <h5>In this article</h5>
                 <div></div>
               </nav>
             </div>
           </div>
         </div>
       </div>
-      
+
       <footer>
         <div class="grad-bottom"></div>
         <div class="footer">
@@ -150,14 +148,14 @@
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
-            
+      Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
+      
           </div>
         </div>
       </footer>
     </div>
-    
-    <script type="text/javascript" src="../../../../../styles/docfx.vendor.js"></script>
+
+    <script type="text/javascript" src="../../../../../styles/docfx.vendor.min.js"></script>
     <script type="text/javascript" src="../../../../../styles/docfx.js"></script>
     <script type="text/javascript" src="../../../../../styles/main.js"></script>
   </body>

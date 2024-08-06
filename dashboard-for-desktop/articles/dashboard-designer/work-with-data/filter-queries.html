@@ -1,37 +1,29 @@
 ﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  
+
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Filter Queries | DevExpress End-User Documentation </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Filter Queries | DevExpress End-User Documentation ">
-    <meta name="generator" content="docfx 2.59.2.0">
-    
+    <meta name="generator" content="docfx ">
+  
     <link rel="shortcut icon" href="../../../../favicon.ico">
-    <link rel="stylesheet" href="../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../styles/docfx.vendor.min.css">
     <link rel="stylesheet" href="../../../../styles/docfx.css">
     <link rel="stylesheet" href="../../../../styles/main.css">
     <meta property="docfx:navrel" content="../../../../toc.html">
     <meta property="docfx:tocrel" content="../../../toc.html">
-    
-    
-    
-    <!-- Matomo Tag Manager -->
-    <script>
-      var _mtm = window._mtm = window._mtm || [];
-      _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
-      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-      g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
-    </script>
-    <!-- End Matomo Tag Manager -->
+  
+  
+  
   </head>
   <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
-        
+
         <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
           <div class="container">
             <div class="navbar-header">
@@ -41,7 +33,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              
+
               <a class="navbar-brand" href="../../../../index.html">
                 <img id="logo" class="svg" src="../../../../logo.svg" alt="">
               </a>
@@ -55,7 +47,7 @@
             </div>
           </div>
         </nav>
-        
+
         <div class="subnav navbar navbar-default">
           <div class="container hide-when-search" id="breadcrumb">
             <ul class="breadcrumb">
@@ -65,7 +57,7 @@
         </div>
       </header>
       <div role="main" class="container body-content hide-when-search">
-        
+
         <div class="sidenav hide-when-search">
           <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
           <div class="sidetoggle collapse" id="sidetoggle">
@@ -83,62 +75,65 @@
 <li><a href="#filter-data">Filter Data</a></li>
 <li><a href="#add-limits">Add Limits</a></li>
 </ul>
-<h2 id="a-nameinvoke-the-filter-editorinvoke-the-filter-editor"><a name="invoke-the-filter-editor"></a>Invoke the Filter Editor</h2>
+<h2 id="invoke-the-filter-editor"><a name="invoke-the-filter-editor"></a>Invoke the Filter Editor</h2>
 <p>To filter data in the Query Builder, click the <strong>Filter...</strong> button... in the <strong>Data Source</strong> ribbon tab...</p>
 <p><img src="../../../images/img118162.png" alt="EditQueriesButton_Ribbon"></p>
 <p>... or use a corresponding button within the <a href="using-the-query-builder.html">Query Builder</a>. This will invoke the <a href="../../../../interface-elements-for-desktop/articles/filter-editor/filter-data-via-the-filter-editor.html">Filter Editor</a> dialog, which allows you to build filter criteria.</p>
 <p><img src="../../../images/img121069.png" alt="FilterEditorDialog_SqlDataSource"></p>
 <p>The <strong>Filter</strong> tab allows you to filter underlying data while the <strong>Group Filter</strong> tab provides the capability to filter data aggregated on the server side.</p>
-<h2 id="a-namefilter-datafilter-data"><a name="filter-data"></a>Filter Data</h2>
+<h2 id="filter-data"><a name="filter-data"></a>Filter Data</h2>
 <p>In the Filter Editor, you can compare a field value with the following objects.</p>
 <ul>
 <li><em>A static value</em> (represented by the <img src="../../../images/img21820.png" alt="Parameters_FilterEditor_CompareButton"> icon). Click this button to switch to the next item mode (&quot;another field value&quot;) to compare the field value with another field value.</li>
 <li><em>Another field value</em> (represented by the <img src="../../../images/img21824.png" alt="Parameters_FilterEditor_CompareButton2"> icon). Click this button to switch to the next item mode (“parameter value”) to compare the field value with a parameter value.</li>
 <li><em>A parameter value</em> (represented by the <img src="../../../images/img21825.png" alt="Parameters_FilterEditor_CompareButton3"> icon). Click this button to switch back to the initial mode (&quot;static value&quot;) to compare the field value with a static value.</li>
 </ul>
-<p>Thus, you can pass the <a href="pass-query-parameters.html">query parameter</a> to the filter string. To do this, click the <img src="../../../images/img21820.png" alt="Parameters_FilterEditor_CompareButton"> button, then click the <img src="../../../images/img21824.png" alt="Parameters_FilterEditor_CompareButton2"> button and finally click <em>&#60;select a parameter&#62;</em>.</p>
+<p>Thus, you can pass the <a href="pass-query-parameters.html">query parameter</a> to the filter string. To do this, click the <img src="../../../images/img21820.png" alt="Parameters_FilterEditor_CompareButton"> button, then click the <img src="../../../images/img21824.png" alt="Parameters_FilterEditor_CompareButton2"> button and finally click <em>&lt;select a parameter&gt;</em>.</p>
 <p><img src="../../../images/img121070.png" alt="FilterEditorDialog_AddParameterMenu"></p>
 <p>In the invoked popup menu, you can choose from the following options.</p>
 <ul>
 <li><p><strong>Add Query Parameter</strong> - allows you to create a new <a href="pass-query-parameters.html">query parameter</a>. The following dialog will be invoked.</p>
-<p>  <img src="../../../images/img121074.png" alt="CreateQueryParameterDialog"></p>
-<p>  In this dialog, you can specify a parameter&#39;s name (<strong>Name</strong>), type (<strong>Type</strong>) and value (<strong>Value</strong>).</p>
-<p>  If the current query already contains query parameters, they will be displayed within the popup menu.</p>
+<p><img src="../../../images/img121074.png" alt="CreateQueryParameterDialog"></p>
+<p>In this dialog, you can specify a parameter's name (<strong>Name</strong>), type (<strong>Type</strong>) and value (<strong>Value</strong>).</p>
+<p>If the current query already contains query parameters, they will be displayed within the popup menu.</p>
 </li>
 <li><p><strong>Bind to</strong> - allows you to pass a <a href="../data-analysis/using-dashboard-parameters/creating-parameters.html">dashboard parameter</a> to a filter string. You can choose from the list of predefined dashboard parameters or create a new dashboard parameter by selecting <strong>Add Dashboard Parameter</strong>. If you selected <strong>Add Dashboard Parameter</strong>, the following dialog will be invoked.</p>
-<p>  <img src="../../../images/img121075.png" alt="CreateDashboardParameterDialog"></p>
-<p>  In this dialog, you can specify settings of the dashboard parameter to be created. To learn more, see <a href="../data-analysis/using-dashboard-parameters/creating-parameters.html">Creating Parameters</a>.</p>
-<p>  After you specified the required settings, click <strong>OK</strong>. A new dashboard parameter along with a new query parameter will be created. Note that created dashboard and query parameters will be bound automatically.</p>
+<p><img src="../../../images/img121075.png" alt="CreateDashboardParameterDialog"></p>
+<p>In this dialog, you can specify settings of the dashboard parameter to be created. To learn more, see <a href="../data-analysis/using-dashboard-parameters/creating-parameters.html">Creating Parameters</a>.</p>
+<p>After you specified the required settings, click <strong>OK</strong>. A new dashboard parameter along with a new query parameter will be created. Note that created dashboard and query parameters will be bound automatically.</p>
 </li>
 </ul>
 <p>The <strong>Group Filter</strong> tab of the Filter Editor allows you to apply filtering to grouped/aggregated data fields by including HAVING clauses to the query. Grouping and aggregation are managed by the <strong>Group By</strong> and <strong>Aggregate</strong> options in the Query Builder. To learn more, see the <strong>Edit Column Settings</strong> paragraph in the <a href="using-the-query-builder.html">Query Builder</a> topic.</p>
-<h2 id="a-nameadd-limitsadd-limits"><a name="add-limits"></a>Add Limits</h2>
+<h2 id="add-limits"><a name="add-limits"></a>Add Limits</h2>
 <p>The Filter Editor also allows you to limit the number of returned records. To do this, enable the <strong>Select only</strong> checkbox and specify the number of records to be returned.</p>
 <p><img src="../../../images/img121073.png" alt="FilterEditorDialog_TopSkip"></p>
 <p>You can also skip the required number of records in the returned dataset by specifying the <strong>records starting with index</strong> value.</p>
-<div class="NOTE"><h5>Note</h5><p>Note that the <strong>Sorting type</strong> should be specified in the Query Builder to enable the capability to skip the specified number of records. To learn how to apply sorting, see the <strong>Edit Column Settings</strong> paragraph in the <a href="using-the-query-builder.html">Query Builder</a> topic.</p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>Note that the <strong>Sorting type</strong> should be specified in the Query Builder to enable the capability to skip the specified number of records. To learn how to apply sorting, see the <strong>Edit Column Settings</strong> paragraph in the <a href="using-the-query-builder.html">Query Builder</a> topic.</p>
 </div>
+
 </article>
           </div>
-          
+
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/24.1/dashboard-for-desktop/articles/dashboard-designer/work-with-data/filter-queries.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/fix-styles/dashboard-for-desktop/articles/dashboard-designer/work-with-data/filter-queries.md/#L1" class="contribution-link">Edit this page</a>
                   </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-                <h5>In This Article</h5>
+                <h5>In this article</h5>
                 <div></div>
               </nav>
             </div>
           </div>
         </div>
       </div>
-      
+
       <footer>
         <div class="grad-bottom"></div>
         <div class="footer">
@@ -146,14 +141,14 @@
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
-            
+      Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
+      
           </div>
         </div>
       </footer>
     </div>
-    
-    <script type="text/javascript" src="../../../../styles/docfx.vendor.js"></script>
+
+    <script type="text/javascript" src="../../../../styles/docfx.vendor.min.js"></script>
     <script type="text/javascript" src="../../../../styles/docfx.js"></script>
     <script type="text/javascript" src="../../../../styles/main.js"></script>
   </body>

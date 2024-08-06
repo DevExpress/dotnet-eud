@@ -1,37 +1,29 @@
 ﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  
+
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Localization Editor | DevExpress End-User Documentation </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Localization Editor | DevExpress End-User Documentation ">
-    <meta name="generator" content="docfx 2.59.2.0">
-    
+    <meta name="generator" content="docfx ">
+  
     <link rel="shortcut icon" href="../../../../../favicon.ico">
-    <link rel="stylesheet" href="../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../styles/docfx.vendor.min.css">
     <link rel="stylesheet" href="../../../../../styles/docfx.css">
     <link rel="stylesheet" href="../../../../../styles/main.css">
     <meta property="docfx:navrel" content="../../../../../toc.html">
     <meta property="docfx:tocrel" content="../../../../toc.html">
-    
-    
-    
-    <!-- Matomo Tag Manager -->
-    <script>
-      var _mtm = window._mtm = window._mtm || [];
-      _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
-      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-      g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
-    </script>
-    <!-- End Matomo Tag Manager -->
+  
+  
+  
   </head>
   <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
-        
+
         <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
           <div class="container">
             <div class="navbar-header">
@@ -41,7 +33,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              
+
               <a class="navbar-brand" href="../../../../../index.html">
                 <img id="logo" class="svg" src="../../../../../logo.svg" alt="">
               </a>
@@ -55,7 +47,7 @@
             </div>
           </div>
         </nav>
-        
+
         <div class="subnav navbar navbar-default">
           <div class="container hide-when-search" id="breadcrumb">
             <ul class="breadcrumb">
@@ -65,7 +57,7 @@
         </div>
       </header>
       <div role="main" class="container body-content hide-when-search">
-        
+
         <div class="sidenav hide-when-search">
           <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
           <div class="sidetoggle collapse" id="sidetoggle">
@@ -79,54 +71,57 @@
 
 <p>The Localization Editor allows you to change the text of the localizable textual properties for all the controls in a report.</p>
 <p><img src="../../../../images/eurd-localize-report-language-editor-win.png" alt=""></p>
-<p>The left panel allows you to change the report&#39;s language or add a new language to start localization.
+<p>The left panel allows you to change the report's language or add a new language to start localization.
 The right panel contains a grid that displays the property name, the text specified for that property in the default language, and the text for the selected language. Text strings of the selected language are editable.</p>
 <h2 id="invoke-the-localization-editor">Invoke the Localization Editor</h2>
 <p>Use one of the following actions:</p>
 <ul>
-<li><p>Click the report&#39;s smart tag in the Report Designer and select <strong>Edit Localization</strong> in the action list:</p>
-<p>  <img src="../../../../images/eurd-localize-report-smart-tag.png" alt=""></p>
+<li><p>Click the report's smart tag in the Report Designer and select <strong>Edit Localization</strong> in the action list:</p>
+<p><img src="../../../../images/eurd-localize-report-smart-tag.png" alt=""></p>
 </li>
-<li><p>Click the <strong>Localization</strong> property&#39;s ellipsis button in the <a href="ui-panels/property-grid-tabbed-view.html">Property Grid</a>:</p>
-<p>  <img src="../../../../images/eurd-localize-report-property-grid-action.png" alt=""></p>
+<li><p>Click the <strong>Localization</strong> property's ellipsis button in the <a href="ui-panels/property-grid-tabbed-view.html">Property Grid</a>:</p>
+<p><img src="../../../../images/eurd-localize-report-property-grid-action.png" alt=""></p>
 </li>
-<li><p>Click the <strong>dialog box launcher</strong> in the <a href="toolbar.html#view-tab">Toolbar</a>&#39;s Localization group:</p>
-<p>  <img src="../../../../images/eurd-localize-report-dialog-box-launcher.png" alt=""></p>
+<li><p>Click the <strong>dialog box launcher</strong> in the <a href="toolbar.html#view-tab">Toolbar</a>'s Localization group:</p>
+<p><img src="../../../../images/eurd-localize-report-dialog-box-launcher.png" alt=""></p>
 </li>
 </ul>
 <h2 id="use-the-localization-editor">Use the Localization Editor</h2>
 <ul>
-<li><p><strong>To add a new language</strong>, click the <em>plus</em> button at the right panel. All values for the new language are copied from the default language&#39;s values.</p>
+<li><p><strong>To add a new language</strong>, click the <em>plus</em> button at the right panel. All values for the new language are copied from the default language's values.</p>
 </li>
 <li><p>Change the text and click <strong>Apply</strong> to apply your changes and preview the text in the report designer.</p>
 </li>
 <li><p>Click <strong>OK</strong> to apply changes and close the editor.</p>
 </li>
 </ul>
-<div class="TIP"><h5>Tip</h5><p>When the <strong>Localization Editor</strong> is invoked, the grid in the right panel displays values for the report controls&#39; <strong>Text</strong> properties. You can click the <strong>Property</strong> column header to modify a filter and select other properties or clear the filter to show all textual properties.
+<div class="TIP">
+<h5>Tip</h5>
+<p>When the <strong>Localization Editor</strong> is invoked, the grid in the right panel displays values for the report controls' <strong>Text</strong> properties. You can click the <strong>Property</strong> column header to modify a filter and select other properties or clear the filter to show all textual properties.
 Grid rows are arranged in the same order as report controls in the <a href="ui-panels/report-explorer.html">Report Explorer</a> tree - from top to bottom and from left to right.</p>
 </div>
+
 </article>
           </div>
-          
+
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/24.1/reporting-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-tools/localization-editor.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/fix-styles/reporting-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-tools/localization-editor.md/#L1" class="contribution-link">Edit this page</a>
                   </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-                <h5>In This Article</h5>
+                <h5>In this article</h5>
                 <div></div>
               </nav>
             </div>
           </div>
         </div>
       </div>
-      
+
       <footer>
         <div class="grad-bottom"></div>
         <div class="footer">
@@ -134,14 +129,14 @@ Grid rows are arranged in the same order as report controls in the <a href="ui-p
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
-            
+      Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
+      
           </div>
         </div>
       </footer>
     </div>
-    
-    <script type="text/javascript" src="../../../../../styles/docfx.vendor.js"></script>
+
+    <script type="text/javascript" src="../../../../../styles/docfx.vendor.min.js"></script>
     <script type="text/javascript" src="../../../../../styles/docfx.js"></script>
     <script type="text/javascript" src="../../../../../styles/main.js"></script>
   </body>

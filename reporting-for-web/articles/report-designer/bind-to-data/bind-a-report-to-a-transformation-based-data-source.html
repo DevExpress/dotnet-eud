@@ -1,37 +1,29 @@
 ﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  
+
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Bind a Report to a Transformation-Based Data Source | DevExpress End-User Documentation </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Bind a Report to a Transformation-Based Data Source | DevExpress End-User Documentation ">
-    <meta name="generator" content="docfx 2.59.2.0">
-    
+    <meta name="generator" content="docfx ">
+  
     <link rel="shortcut icon" href="../../../../favicon.ico">
-    <link rel="stylesheet" href="../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../styles/docfx.vendor.min.css">
     <link rel="stylesheet" href="../../../../styles/docfx.css">
     <link rel="stylesheet" href="../../../../styles/main.css">
     <meta property="docfx:navrel" content="../../../../toc.html">
     <meta property="docfx:tocrel" content="../../../toc.html">
-    
-    
-    
-    <!-- Matomo Tag Manager -->
-    <script>
-      var _mtm = window._mtm = window._mtm || [];
-      _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
-      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-      g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
-    </script>
-    <!-- End Matomo Tag Manager -->
+  
+  
+  
   </head>
   <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
-        
+
         <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
           <div class="container">
             <div class="navbar-header">
@@ -41,7 +33,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              
+
               <a class="navbar-brand" href="../../../../index.html">
                 <img id="logo" class="svg" src="../../../../logo.svg" alt="">
               </a>
@@ -55,7 +47,7 @@
             </div>
           </div>
         </nav>
-        
+
         <div class="subnav navbar navbar-default">
           <div class="container hide-when-search" id="breadcrumb">
             <ul class="breadcrumb">
@@ -65,7 +57,7 @@
         </div>
       </header>
       <div role="main" class="container body-content hide-when-search">
-        
+
         <div class="sidenav hide-when-search">
           <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
           <div class="sidetoggle collapse" id="sidetoggle">
@@ -78,7 +70,7 @@
 <h1 id="bind-a-report-to-a-transformation-based-data-source">Bind a Report to a Transformation-Based Data Source</h1>
 
 <p>If the data source contains hierarchical data, it can be transformed to flatten nested fields and display them as separate fields. If the data column is an array, you can unfold its values and display a new row of data for each element of the array.</p>
-<p>The following image illustrates the transformation applied to a complex JSON data source.  </p>
+<p>The following image illustrates the transformation applied to a complex JSON data source.</p>
 <p><img src="../../../images/eurd-web-federated-data-source-transformation.png" alt=""></p>
 <p>This help topic describes how to use the <strong>Transformation</strong> query of the <strong>Federation Data Source</strong> to flatten a JSON Data Source that contains nested data (collection property).</p>
 <h2 id="create-a-report-and-data-sources">Create a Report and Data Sources</h2>
@@ -140,7 +132,7 @@
     },
     {
         &quot;ProductId&quot;: 4,
-        &quot;ProductName&quot;: &quot;Chef Anton&#39;s Cajun Seasoning&quot;,
+        &quot;ProductName&quot;: &quot;Chef Anton's Cajun Seasoning&quot;,
         &quot;SupplierId&quot;: 2,
         &quot;CategoryId&quot;: 2,
         &quot;QuantityPerUnit&quot;: &quot;48 - 6 oz jars&quot;,
@@ -154,55 +146,57 @@
     ]
 }
 ]
-</code></pre><p>The created JSON data source is displayed in the Field List pane:</p>
+</code></pre>
 </li>
 </ol>
+<p>The created JSON data source is displayed in the Field List pane:</p>
 <p><img src="../../../images/eurd-web-federated-datasource-transformation-json-datasource.png" alt=""></p>
 <h2 id="create-data-federation">Create Data Federation</h2>
 <ol>
 <li><p>Invoke the designer <a href="../report-designer-tools/menu.html">menu</a> and click <strong>Add Data Source</strong>.</p>
-<p><img src="../../../images/eurd-web-data-source-menu.png" alt=""> </p>
+<p><img src="../../../images/eurd-web-data-source-menu.png" alt=""></p>
 </li>
 <li><p>Select <strong>Data Federation</strong> in the invoked <a href="../report-designer-tools/data-source-wizard.html">Data Source Wizard</a> and click <strong>Next</strong>.</p>
-<p> <img src="../../../images/eurd-web-data-source-wizard-select-data-federation.png" alt=""></p>
+<p><img src="../../../images/eurd-web-data-source-wizard-select-data-federation.png" alt=""></p>
 </li>
 <li><p>On the next page, click the <strong>+ (plus) button</strong> and select <strong>Transform</strong> to add a Transformation query.</p>
-<p> <img src="../../../images/eurd-web-data-federation-wizard-add-transformation-query.png" alt=""></p>
+<p><img src="../../../images/eurd-web-data-federation-wizard-add-transformation-query.png" alt=""></p>
 </li>
 <li><p>The invoked <a href="../report-designer-tools/query-builder.html">Query Builder</a> displays the columns that you can transform.</p>
-<p> <img src="../../../images/eurd-web-data-federation-transformation-query-builder.png" alt=""></p>
+<p><img src="../../../images/eurd-web-data-federation-transformation-query-builder.png" alt=""></p>
 </li>
 <li><p>Select the <strong>Transform</strong> check box next to the column you need to unfold and flatten. You can specify the aliases for the generated columns.</p>
-<p> <img src="../../../images/eurd-web-data-federation-transformation-query.png" alt=""></p>
-<p> Click <strong>OK</strong> to close the Query Builder window.</p>
+<p><img src="../../../images/eurd-web-data-federation-transformation-query.png" alt=""></p>
+<p>Click <strong>OK</strong> to close the Query Builder window.</p>
 </li>
 <li><p>Click <strong>Finish</strong> to create the data source.</p>
-<p> <img src="../../../images/eurd-web-data-federation-finish-data-source.png" alt=""></p>
+<p><img src="../../../images/eurd-web-data-federation-finish-data-source.png" alt=""></p>
 </li>
 </ol>
 <p>The <strong>Field List</strong> displays the created Federation Data Source.</p>
 <p><img src="../../../images/eurd-web-data-federation-result.png" alt=""></p>
+
 </article>
           </div>
-          
+
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/24.1/reporting-for-web/articles/report-designer/bind-to-data/bind-a-report-to-a-transformation-based-data-source.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/fix-styles/reporting-for-web/articles/report-designer/bind-to-data/bind-a-report-to-a-transformation-based-data-source.md/#L1" class="contribution-link">Edit this page</a>
                   </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-                <h5>In This Article</h5>
+                <h5>In this article</h5>
                 <div></div>
               </nav>
             </div>
           </div>
         </div>
       </div>
-      
+
       <footer>
         <div class="grad-bottom"></div>
         <div class="footer">
@@ -210,14 +204,14 @@
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
-            
+      Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
+      
           </div>
         </div>
       </footer>
     </div>
-    
-    <script type="text/javascript" src="../../../../styles/docfx.vendor.js"></script>
+
+    <script type="text/javascript" src="../../../../styles/docfx.vendor.min.js"></script>
     <script type="text/javascript" src="../../../../styles/docfx.js"></script>
     <script type="text/javascript" src="../../../../styles/main.js"></script>
   </body>

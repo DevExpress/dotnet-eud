@@ -1,37 +1,29 @@
 ﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  
+
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Switch Scheduler Views | DevExpress End-User Documentation </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Switch Scheduler Views | DevExpress End-User Documentation ">
-    <meta name="generator" content="docfx 2.59.2.0">
-    
+    <meta name="generator" content="docfx ">
+  
     <link rel="shortcut icon" href="../../../../favicon.ico">
-    <link rel="stylesheet" href="../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../styles/docfx.vendor.min.css">
     <link rel="stylesheet" href="../../../../styles/docfx.css">
     <link rel="stylesheet" href="../../../../styles/main.css">
     <meta property="docfx:navrel" content="../../../../toc.html">
     <meta property="docfx:tocrel" content="../../../toc.html">
-    
-    
-    
-    <!-- Matomo Tag Manager -->
-    <script>
-      var _mtm = window._mtm = window._mtm || [];
-      _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
-      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-      g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
-    </script>
-    <!-- End Matomo Tag Manager -->
+  
+  
+  
   </head>
   <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
-        
+
         <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
           <div class="container">
             <div class="navbar-header">
@@ -41,7 +33,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              
+
               <a class="navbar-brand" href="../../../../index.html">
                 <img id="logo" class="svg" src="../../../../logo.svg" alt="">
               </a>
@@ -55,7 +47,7 @@
             </div>
           </div>
         </nav>
-        
+
         <div class="subnav navbar navbar-default">
           <div class="container hide-when-search" id="breadcrumb">
             <ul class="breadcrumb">
@@ -65,7 +57,7 @@
         </div>
       </header>
       <div role="main" class="container body-content hide-when-search">
-        
+
         <div class="sidenav hide-when-search">
           <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
           <div class="sidetoggle collapse" id="sidetoggle">
@@ -81,63 +73,65 @@
 <p>The following views are currently available:</p>
 <ul>
 <li><p><strong>Day view</strong></p>
-<p>  This view gives the most detailed view of appointments for a certain day(s).</p>
+<p>This view gives the most detailed view of appointments for a certain day(s).</p>
 </li>
 <li><p><strong>Work-Week view</strong></p>
-<p>  This view displays appointments for the working days in a particular week.</p>
+<p>This view displays appointments for the working days in a particular week.</p>
 </li>
 <li><p><strong>Full Week view</strong></p>
-<p>   This view displays appointments for the entire week.</p>
+<p>This view displays appointments for the entire week.</p>
 </li>
 <li><p><strong>Month (also called Multi-Week) view</strong></p>
-<p>   The month view is the least detailed of the views, and is designed for browsing and long-term plan analysis. This view positions the days one after another horizontally, so that they form weeks, while weeks are placed one under another.</p>
+<p>The month view is the least detailed of the views, and is designed for browsing and long-term plan analysis. This view positions the days one after another horizontally, so that they form weeks, while weeks are placed one under another.</p>
 </li>
 <li><p><strong>Timeline view</strong></p>
-<p>   This view plots appointments as horizontal bars along the timescales, and provides a clearer overview for scheduling purposes.</p>
+<p>This view plots appointments as horizontal bars along the timescales, and provides a clearer overview for scheduling purposes.</p>
 </li>
 <li><p><strong>Agenda view</strong></p>
-<p>   This view displays a chronological list of appointments grouped by day.</p>
+<p>This view displays a chronological list of appointments grouped by day.</p>
 </li>
 </ul>
 <p>To switch views, you may use either a special <strong>View Selector</strong> element, or the context menu.</p>
 <ul>
 <li><p>The <strong>View Selector</strong> element may look like this:</p>
-<p>  <img src="../../../images/img6731.png" alt="VisualElements_ViewSelector"></p>
-<p>  When a particular view is disabled, the corresponding item is not shown.</p>
+<p><img src="../../../images/img6731.png" alt="VisualElements_ViewSelector"></p>
+<p>When a particular view is disabled, the corresponding item is not shown.</p>
 </li>
 <li><p>The context menu is invoked when you right-click any region of the <strong>Scheduler</strong> control not occupied with an appointment. You can also click on a free area, wait until the smart tag appears, and then click it.</p>
-<p>  The invoked menu contains items for switching views, as illustrated in the following picture (the menu in the picture is specific for the <strong>Day View</strong>):</p>
-<p>  <img src="../../../images/img8289.png" alt="ViewChangingMenu"></p>
-<p>  The context menu also includes such date navigation commands as <strong>Go to Today</strong> and <strong>Go to This Day</strong>. The latter is available only in the <strong>Week View</strong> and <strong>Month View</strong> views. These commands switch the Scheduler to the <strong>Day View</strong>.</p>
-<p>  <img src="../../../images/img9156.png" alt="ASPxGotoThisDay"></p>
+<p>The invoked menu contains items for switching views, as illustrated in the following picture (the menu in the picture is specific for the <strong>Day View</strong>):</p>
+<p><img src="../../../images/img8289.png" alt="ViewChangingMenu"></p>
+<p>The context menu also includes such date navigation commands as <strong>Go to Today</strong> and <strong>Go to This Day</strong>. The latter is available only in the <strong>Week View</strong> and <strong>Month View</strong> views. These commands switch the Scheduler to the <strong>Day View</strong>.</p>
+<p><img src="../../../images/img9156.png" alt="ASPxGotoThisDay"></p>
 </li>
 <li><p>While navigating dates via the <strong>Go to Date</strong> dialog, you can specify a view type to display a new time interval. The following picture illustrates selecting the View type:</p>
-<p>  <img src="../../../images/img9154.png" alt="ASPxScheduler-GotoDate"></p>
+<p><img src="../../../images/img9154.png" alt="ASPxScheduler-GotoDate"></p>
 </li>
-<li>The Scheduler selects a view mode <strong>automatically</strong> based on the date range selected in the <strong>Calendar</strong>.
-  To learn more about this capability, refer to the <a href="../selection-and-navigation/navigate-time-cells-and-dates-in-the-scheduler.html">Navigate Time Cells and Dates in the Scheduler</a> topic.</li>
+<li><p>The Scheduler selects a view mode <strong>automatically</strong> based on the date range selected in the <strong>Calendar</strong>.
+To learn more about this capability, refer to the <a href="../selection-and-navigation/navigate-time-cells-and-dates-in-the-scheduler.html">Navigate Time Cells and Dates in the Scheduler</a> topic.</p>
+</li>
 </ul>
+
 </article>
           </div>
-          
+
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/24.1/interface-elements-for-web/articles/scheduler/layout-customization/switch-scheduler-views.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/fix-styles/interface-elements-for-web/articles/scheduler/layout-customization/switch-scheduler-views.md/#L1" class="contribution-link">Edit this page</a>
                   </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-                <h5>In This Article</h5>
+                <h5>In this article</h5>
                 <div></div>
               </nav>
             </div>
           </div>
         </div>
       </div>
-      
+
       <footer>
         <div class="grad-bottom"></div>
         <div class="footer">
@@ -145,14 +139,14 @@
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
-            
+      Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
+      
           </div>
         </div>
       </footer>
     </div>
-    
-    <script type="text/javascript" src="../../../../styles/docfx.vendor.js"></script>
+
+    <script type="text/javascript" src="../../../../styles/docfx.vendor.min.js"></script>
     <script type="text/javascript" src="../../../../styles/docfx.js"></script>
     <script type="text/javascript" src="../../../../styles/main.js"></script>
   </body>

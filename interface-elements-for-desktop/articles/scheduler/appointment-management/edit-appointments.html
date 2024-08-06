@@ -1,37 +1,29 @@
 ﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  
+
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Edit Appointments | DevExpress End-User Documentation </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Edit Appointments | DevExpress End-User Documentation ">
-    <meta name="generator" content="docfx 2.59.2.0">
-    
+    <meta name="generator" content="docfx ">
+  
     <link rel="shortcut icon" href="../../../../favicon.ico">
-    <link rel="stylesheet" href="../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../styles/docfx.vendor.min.css">
     <link rel="stylesheet" href="../../../../styles/docfx.css">
     <link rel="stylesheet" href="../../../../styles/main.css">
     <meta property="docfx:navrel" content="../../../../toc.html">
     <meta property="docfx:tocrel" content="../../../toc.html">
-    
-    
-    
-    <!-- Matomo Tag Manager -->
-    <script>
-      var _mtm = window._mtm = window._mtm || [];
-      _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
-      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-      g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
-    </script>
-    <!-- End Matomo Tag Manager -->
+  
+  
+  
   </head>
   <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
-        
+
         <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
           <div class="container">
             <div class="navbar-header">
@@ -41,7 +33,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              
+
               <a class="navbar-brand" href="../../../../index.html">
                 <img id="logo" class="svg" src="../../../../logo.svg" alt="">
               </a>
@@ -55,7 +47,7 @@
             </div>
           </div>
         </nav>
-        
+
         <div class="subnav navbar navbar-default">
           <div class="container hide-when-search" id="breadcrumb">
             <ul class="breadcrumb">
@@ -65,7 +57,7 @@
         </div>
       </header>
       <div role="main" class="container body-content hide-when-search">
-        
+
         <div class="sidenav hide-when-search">
           <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
           <div class="sidetoggle collapse" id="sidetoggle">
@@ -85,9 +77,11 @@
 <li><a href="#barribbonui">via the Bar or Ribbon interface</a></li>
 <li><a href="#keyboardshortcutsmouseoperations">via keyboard shortcuts and mouse operations</a></li>
 </ul>
-<div class="NOTE"><h5>Note</h5><p>Access to some operations may be <a href="restrictions-for-operations-with-appointments.html">restricted</a>.</p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>Access to some operations may be <a href="restrictions-for-operations-with-appointments.html">restricted</a>.</p>
 </div>
-<h2 id="a-namecontextmenucontext-menu"><a name="contextmenu"></a>Context Menu</h2>
+<h2 id="context-menu"><a name="contextmenu"></a>Context Menu</h2>
 <p>After an appointment has been right-clicked, the appointment context menu is invoked. The <strong>Show Time As</strong> and <strong>Label As</strong> items are used to alter an appointment. They allow for the changing of basic visual characteristics of an appointment - status and label.</p>
 <table>
 <thead>
@@ -103,10 +97,10 @@
 </tr>
 </tbody>
 </table>
-<h2 id="a-namedialogsedit-appointment-and-appointment-recurrence-dialogs"><a name="dialogs"></a>Edit Appointment and Appointment Recurrence Dialogs</h2>
+<h2 id="edit-appointment-and-appointment-recurrence-dialogs"><a name="dialogs"></a>Edit Appointment and Appointment Recurrence Dialogs</h2>
 <ul>
 <li><p><strong>Edit a Simple Appointment</strong></p>
-<p>  You can edit properties of a simple (non-recurring) appointment via the <strong>Edit Appointment</strong> dialog that can be invoked via the appointment context menu, <a href="../scheduler-ui/toolbars.html">Bar</a> or <a href="../scheduler-ui/ribbon-interface.html">Ribbon</a> interface, keyboard shortcuts and mouse operations.</p>
+<p>You can edit properties of a simple (non-recurring) appointment via the <strong>Edit Appointment</strong> dialog that can be invoked via the appointment context menu, <a href="../scheduler-ui/toolbars.html">Bar</a> or <a href="../scheduler-ui/ribbon-interface.html">Ribbon</a> interface, keyboard shortcuts and mouse operations.</p>
 <table>
 <thead>
 <tr>
@@ -129,7 +123,7 @@
 </table>
 </li>
 <li><p><strong>Edit a Particular Occurrence in a Series</strong></p>
-<p>  The same dialog is used to edit a particular occurrence in the series of recurring appointments (recurring appointments are marked with a <img src="../../../images/img4572.png" alt="AppointmentImageType.Recurrence"> sign). If you select a recurring appointment, and click <strong>Open</strong> in the appointment context menu or the <strong>Open Occurrence</strong> button on the <strong>Action</strong> <a href="../scheduler-ui/toolbars.html">toolbar</a> or <a href="../scheduler-ui/ribbon-interface.html">Ribbon page group</a>, the <strong>Edit Appointment</strong> dialog is invoked to allow for the editing of the current appointment only, but not its entire series.</p>
+<p>The same dialog is used to edit a particular occurrence in the series of recurring appointments (recurring appointments are marked with a <img src="../../../images/img4572.png" alt="AppointmentImageType.Recurrence"> sign). If you select a recurring appointment, and click <strong>Open</strong> in the appointment context menu or the <strong>Open Occurrence</strong> button on the <strong>Action</strong> <a href="../scheduler-ui/toolbars.html">toolbar</a> or <a href="../scheduler-ui/ribbon-interface.html">Ribbon page group</a>, the <strong>Edit Appointment</strong> dialog is invoked to allow for the editing of the current appointment only, but not its entire series.</p>
 <table>
 <thead>
 <tr>
@@ -150,10 +144,10 @@
 </tr>
 </tbody>
 </table>
-<p>  The appointment with changed properties still belongs to the series, but is marked with an &quot;exception&quot;. The visual indicator of an exception is the crossed recurrence sign <img src="../../../images/img4573.png" alt="AppointmentImageType.RecurrenceException">. To replace an exceptional appointment with the regular occurrence in the chain of recurring appointments, click the <strong>Restore Default State</strong> item in the appointment&#39;s context menu.</p>
+<p>The appointment with changed properties still belongs to the series, but is marked with an &quot;exception&quot;. The visual indicator of an exception is the crossed recurrence sign <img src="../../../images/img4573.png" alt="AppointmentImageType.RecurrenceException">. To replace an exceptional appointment with the regular occurrence in the chain of recurring appointments, click the <strong>Restore Default State</strong> item in the appointment's context menu.</p>
 </li>
 <li><p><strong>Edit a Series of Recurring Appointments</strong></p>
-<p>  To edit an entire series of recurring appointments (a pattern appointment), it is necessary to select a recurring appointment, and click <strong>Edit Series</strong> in the appointment context menu or select the <strong>Open Series</strong> item from the <strong>Open</strong> drop-down list on the <strong>Actions</strong> <a href="../scheduler-ui/toolbars.html">toolbar</a> or <a href="../scheduler-ui/ribbon-interface.html">Ribbon page group</a>. In this instance, the <strong>Edit Appointment</strong> dialog is shown with a different window icon. Time fields are inaccessible.</p>
+<p>To edit an entire series of recurring appointments (a pattern appointment), it is necessary to select a recurring appointment, and click <strong>Edit Series</strong> in the appointment context menu or select the <strong>Open Series</strong> item from the <strong>Open</strong> drop-down list on the <strong>Actions</strong> <a href="../scheduler-ui/toolbars.html">toolbar</a> or <a href="../scheduler-ui/ribbon-interface.html">Ribbon page group</a>. In this instance, the <strong>Edit Appointment</strong> dialog is shown with a different window icon. Time fields are inaccessible.</p>
 <table>
 <thead>
 <tr>
@@ -172,7 +166,7 @@
 </tr>
 </tbody>
 </table>
-<p>  The recurrence pattern can be edited via the <strong>Appointment Recurrence</strong> dialog. You can invoke it by clicking the <strong>Recurrence</strong> button of the <strong>Edit Appointment</strong> dialog, or using the <strong>Recurrence</strong> button on the <strong>Options</strong> <a href="../scheduler-ui/toolbars.html">toolbar</a> or <a href="../scheduler-ui/ribbon-interface.html">Ribbon page group</a>.</p>
+<p>The recurrence pattern can be edited via the <strong>Appointment Recurrence</strong> dialog. You can invoke it by clicking the <strong>Recurrence</strong> button of the <strong>Edit Appointment</strong> dialog, or using the <strong>Recurrence</strong> button on the <strong>Options</strong> <a href="../scheduler-ui/toolbars.html">toolbar</a> or <a href="../scheduler-ui/ribbon-interface.html">Ribbon page group</a>.</p>
 <table>
 <thead>
 <tr>
@@ -193,11 +187,11 @@
 </table>
 </li>
 </ul>
-<h2 id="a-nameinplaceeditingin-place-editing"><a name="inplaceediting"></a>In-place Editing</h2>
-<p>A single mouse click within an appointment, or pressing <strong>F2</strong>, invokes the in-place editor, which you can use to edit the selected appointment&#39;s <strong>Subject</strong>. It is illustrated in the following picture.</p>
+<h2 id="in-place-editing"><a name="inplaceediting"></a>In-place Editing</h2>
+<p>A single mouse click within an appointment, or pressing <strong>F2</strong>, invokes the in-place editor, which you can use to edit the selected appointment's <strong>Subject</strong>. It is illustrated in the following picture.</p>
 <p><img src="../../../images/img9133.png" alt="In-Place Editor"></p>
 <p>By default, you can close the editor by pressing <strong>Enter</strong> (to save modifications) or <strong>Escape</strong> (to cancel modifications).</p>
-<h2 id="a-namebarribbonuibar-or-ribbon-interface"><a name="barribbonui"></a>Bar or Ribbon Interface</h2>
+<h2 id="bar-or-ribbon-interface"><a name="barribbonui"></a>Bar or Ribbon Interface</h2>
 <p>If a scheduler is provided with the <a href="../scheduler-ui/toolbars.html">Bar</a> or <a href="../scheduler-ui/ribbon-interface.html">Ribbon</a> interface, you can modify appointment properties (status, label, recurrence and reminder)  using the <strong>Options</strong> toolbar or Ribbon page group, which is active when an appointment is selected.</p>
 <table>
 <thead>
@@ -213,7 +207,7 @@
 </tr>
 </tbody>
 </table>
-<h2 id="a-namekeyboardshortcutsmouseoperationskeyboard-shortcuts-and-mouse-operations"><a name="keyboardshortcutsmouseoperations"></a>Keyboard Shortcuts and Mouse Operations</h2>
+<h2 id="keyboard-shortcuts-and-mouse-operations"><a name="keyboardshortcutsmouseoperations"></a>Keyboard Shortcuts and Mouse Operations</h2>
 <table>
 <thead>
 <tr>
@@ -264,27 +258,28 @@
 </tr>
 </tbody>
 </table>
+
 </article>
           </div>
-          
+
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/24.1/interface-elements-for-desktop/articles/scheduler/appointment-management/edit-appointments.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/fix-styles/interface-elements-for-desktop/articles/scheduler/appointment-management/edit-appointments.md/#L1" class="contribution-link">Edit this page</a>
                   </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-                <h5>In This Article</h5>
+                <h5>In this article</h5>
                 <div></div>
               </nav>
             </div>
           </div>
         </div>
       </div>
-      
+
       <footer>
         <div class="grad-bottom"></div>
         <div class="footer">
@@ -292,14 +287,14 @@
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
-            
+      Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
+      
           </div>
         </div>
       </footer>
     </div>
-    
-    <script type="text/javascript" src="../../../../styles/docfx.vendor.js"></script>
+
+    <script type="text/javascript" src="../../../../styles/docfx.vendor.min.js"></script>
     <script type="text/javascript" src="../../../../styles/docfx.js"></script>
     <script type="text/javascript" src="../../../../styles/main.js"></script>
   </body>

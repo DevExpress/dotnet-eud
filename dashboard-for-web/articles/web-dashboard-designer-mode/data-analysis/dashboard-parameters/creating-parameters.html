@@ -1,37 +1,29 @@
 ﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  
+
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Creating Parameters | DevExpress End-User Documentation </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Creating Parameters | DevExpress End-User Documentation ">
-    <meta name="generator" content="docfx 2.59.2.0">
-    
+    <meta name="generator" content="docfx ">
+  
     <link rel="shortcut icon" href="../../../../../favicon.ico">
-    <link rel="stylesheet" href="../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../styles/docfx.vendor.min.css">
     <link rel="stylesheet" href="../../../../../styles/docfx.css">
     <link rel="stylesheet" href="../../../../../styles/main.css">
     <meta property="docfx:navrel" content="../../../../../toc.html">
     <meta property="docfx:tocrel" content="../../../../toc.html">
-    
-    
-    
-    <!-- Matomo Tag Manager -->
-    <script>
-      var _mtm = window._mtm = window._mtm || [];
-      _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
-      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-      g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
-    </script>
-    <!-- End Matomo Tag Manager -->
+  
+  
+  
   </head>
   <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
-        
+
         <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
           <div class="container">
             <div class="navbar-header">
@@ -41,7 +33,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              
+
               <a class="navbar-brand" href="../../../../../index.html">
                 <img id="logo" class="svg" src="../../../../../logo.svg" alt="">
               </a>
@@ -55,7 +47,7 @@
             </div>
           </div>
         </nav>
-        
+
         <div class="subnav navbar navbar-default">
           <div class="container hide-when-search" id="breadcrumb">
             <ul class="breadcrumb">
@@ -65,7 +57,7 @@
         </div>
       </header>
       <div role="main" class="container body-content hide-when-search">
-        
+
         <div class="sidenav hide-when-search">
           <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
           <div class="sidetoggle collapse" id="sidetoggle">
@@ -79,61 +71,73 @@
 
 <p>To create a dashboard parameter in the Web Dashboard, perform the following steps.</p>
 <ol>
-<li>Invoke the <a href="../../ui-elements/dashboard-menu.html">Dashboard Menu</a> and select <strong>Parameters</strong>.</li>
+<li><p>Invoke the <a href="../../ui-elements/dashboard-menu.html">Dashboard Menu</a> and select <strong>Parameters</strong>.</p>
+</li>
 <li><p>In the <strong>Parameter List</strong>, click the <strong>Add New Parameter</strong> button. The following settings will be displayed for the created parameter.</p>
-<p> <img src="../../../../images/img126106.png" alt="WebDashboard_Parameters_NewParameter"></p>
+<p><img src="../../../../images/img126106.png" alt="WebDashboard_Parameters_NewParameter"></p>
 </li>
-<li><p>Specify the following parameter&#39;s settings.</p>
+<li><p>Specify the following parameter's settings.</p>
 <ul>
-<li><strong>Name</strong> - Specifies the parameter name.</li>
-<li><p><strong>Description</strong> - Specifies the parameter&#39;s description. </p>
-<p>  The parameter&#39;s description is the value displayed in the <strong>Parameter Name</strong> column of the <a href="requesting-parameter-values.html">Dashboard Parameters</a> dialog.</p>
+<li><p><strong>Name</strong> - Specifies the parameter name.</p>
 </li>
-<li><strong>Visible</strong> - Specifies whether or not the parameter is visible in the <a href="requesting-parameter-values.html">Dashboard Parameters</a> dialog.</li>
-<li><strong>Allow Null</strong> - Specifies whether or a not null value can be passed as a parameter value.</li>
-<li><strong>Allow Multiselect</strong> - Specifies whether or not multi-selection is enabled for the current parameter.</li>
-<li><strong>Select All Values</strong> - Specifies whether or not all parameter values should be selected in the initial state. Note that this option is in effect when <strong>Allow Multiselect</strong> is set to <strong>true</strong>.</li>
-<li><strong>Type</strong> - Specifies the parameter type.</li>
-<li><strong>Default Value</strong> - Specifies the default parameter’s value.</li>
-<li><strong>Look-Up Settings</strong> - Specifies the parameter&#39;s look-up editor settings. To learn more, see the next step.</li>
+<li><p><strong>Description</strong> - Specifies the parameter's description.</p>
+<p>The parameter's description is the value displayed in the <strong>Parameter Name</strong> column of the <a href="requesting-parameter-values.html">Dashboard Parameters</a> dialog.</p>
+</li>
+<li><p><strong>Visible</strong> - Specifies whether or not the parameter is visible in the <a href="requesting-parameter-values.html">Dashboard Parameters</a> dialog.</p>
+</li>
+<li><p><strong>Allow Null</strong> - Specifies whether or a not null value can be passed as a parameter value.</p>
+</li>
+<li><p><strong>Allow Multiselect</strong> - Specifies whether or not multi-selection is enabled for the current parameter.</p>
+</li>
+<li><p><strong>Select All Values</strong> - Specifies whether or not all parameter values should be selected in the initial state. Note that this option is in effect when <strong>Allow Multiselect</strong> is set to <strong>true</strong>.</p>
+</li>
+<li><p><strong>Type</strong> - Specifies the parameter type.</p>
+</li>
+<li><p><strong>Default Value</strong> - Specifies the default parameter’s value.</p>
+</li>
+<li><p><strong>Look-Up Settings</strong> - Specifies the parameter's look-up editor settings. To learn more, see the next step.</p>
+</li>
 </ul>
 </li>
-<li>Depending on the selected <strong>Look-up Settings</strong> option, you need to specify the following settings.<ul>
-<li><strong>No Look-Up</strong> - 
-  Allows you to specify the required parameter value manually in the <a href="requesting-parameter-values.html">Dashboard Parameters</a> dialog.</li>
-<li><strong>Static List</strong> - 
-  Allows you to select a parameter value defined in a static list. To add predefined parameter values, use the <strong>+</strong> button.</li>
-<li><strong>Dynamic List</strong> - 
-  Allows you to select a parameter value defined in a data source. To provide access to data source values, specify the following options.<ol>
+<li><p>Depending on the selected <strong>Look-up Settings</strong> option, you need to specify the following settings.</p>
+<ul>
+<li><strong>No Look-Up</strong> -
+Allows you to specify the required parameter value manually in the <a href="requesting-parameter-values.html">Dashboard Parameters</a> dialog.</li>
+<li><strong>Static List</strong> -
+Allows you to select a parameter value defined in a static list. To add predefined parameter values, use the <strong>+</strong> button.</li>
+<li><strong>Dynamic List</strong> -
+Allows you to select a parameter value defined in a data source. To provide access to data source values, specify the following options.
+<ol>
 <li>First, select the required <strong>Data Source</strong> from the list of available data sources. For the SQL data source, select the required <strong>Data Member</strong> that specifies the query/data member from the selected <strong>Data Source</strong>.</li>
-<li>Then, specify data members for the dashboard parameter&#39;s value and display name using <strong>Value Member</strong> and <strong>Display Member</strong>, respectively.</li>
+<li>Then, specify data members for the dashboard parameter's value and display name using <strong>Value Member</strong> and <strong>Display Member</strong>, respectively.</li>
 <li>If necessary, specify the data member used to sort parameter values using the <strong>Sort By</strong> option. The <strong>Sort Order</strong> specifies the required sort order.</li>
 </ol>
 </li>
 </ul>
 </li>
 </ol>
+
 </article>
           </div>
-          
+
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/24.1/dashboard-for-web/articles/web-dashboard-designer-mode/data-analysis/dashboard-parameters/creating-parameters.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/fix-styles/dashboard-for-web/articles/web-dashboard-designer-mode/data-analysis/dashboard-parameters/creating-parameters.md/#L1" class="contribution-link">Edit this page</a>
                   </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-                <h5>In This Article</h5>
+                <h5>In this article</h5>
                 <div></div>
               </nav>
             </div>
           </div>
         </div>
       </div>
-      
+
       <footer>
         <div class="grad-bottom"></div>
         <div class="footer">
@@ -141,14 +145,14 @@
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
-            
+      Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
+      
           </div>
         </div>
       </footer>
     </div>
-    
-    <script type="text/javascript" src="../../../../../styles/docfx.vendor.js"></script>
+
+    <script type="text/javascript" src="../../../../../styles/docfx.vendor.min.js"></script>
     <script type="text/javascript" src="../../../../../styles/docfx.js"></script>
     <script type="text/javascript" src="../../../../../styles/main.js"></script>
   </body>

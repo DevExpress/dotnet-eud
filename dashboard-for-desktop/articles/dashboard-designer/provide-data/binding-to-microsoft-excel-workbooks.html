@@ -1,37 +1,29 @@
 ﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  
+
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Binding to Microsoft Excel Workbooks | DevExpress End-User Documentation </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Binding to Microsoft Excel Workbooks | DevExpress End-User Documentation ">
-    <meta name="generator" content="docfx 2.59.2.0">
-    
+    <meta name="generator" content="docfx ">
+  
     <link rel="shortcut icon" href="../../../../favicon.ico">
-    <link rel="stylesheet" href="../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../styles/docfx.vendor.min.css">
     <link rel="stylesheet" href="../../../../styles/docfx.css">
     <link rel="stylesheet" href="../../../../styles/main.css">
     <meta property="docfx:navrel" content="../../../../toc.html">
     <meta property="docfx:tocrel" content="../../../toc.html">
-    
-    
-    
-    <!-- Matomo Tag Manager -->
-    <script>
-      var _mtm = window._mtm = window._mtm || [];
-      _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
-      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-      g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
-    </script>
-    <!-- End Matomo Tag Manager -->
+  
+  
+  
   </head>
   <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
-        
+
         <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
           <div class="container">
             <div class="navbar-header">
@@ -41,7 +33,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              
+
               <a class="navbar-brand" href="../../../../index.html">
                 <img id="logo" class="svg" src="../../../../logo.svg" alt="">
               </a>
@@ -55,7 +47,7 @@
             </div>
           </div>
         </nav>
-        
+
         <div class="subnav navbar navbar-default">
           <div class="container hide-when-search" id="breadcrumb">
             <ul class="breadcrumb">
@@ -65,7 +57,7 @@
         </div>
       </header>
       <div role="main" class="container body-content hide-when-search">
-        
+
         <div class="sidenav hide-when-search">
           <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
           <div class="sidetoggle collapse" id="sidetoggle">
@@ -81,61 +73,63 @@
 <p>To bind a dashboard to a Microsoft Excel workbook, do the following.</p>
 <ol>
 <li><p>Click the <strong>New Data Source</strong> button in the <strong>Data Source</strong> ribbon tab.</p>
-<p> <img src="../../../images/img18472.png" alt="DataBinding_NewDataSource"></p>
+<p><img src="../../../images/img18472.png" alt="DataBinding_NewDataSource"></p>
 </li>
 <li><p>On the first page of the invoked <strong>Data Source Wizard</strong> dialog, select <strong>Microsoft Excel workbook / CSV file</strong> and click <strong>Next</strong>.</p>
-<p> <img src="../../../images/img120681.png" alt="DataSourceWizard_DataSourceType_Excel"></p>
+<p><img src="../../../images/img120681.png" alt="DataSourceWizard_DataSourceType_Excel"></p>
 </li>
 <li><p>On the next page, locate the required workbook by clicking an ellipsis button and selecting the file.</p>
-<p> <img src="../../../images/img120058.png" alt="DataSourceWizard_SelectExcelFile"></p>
-<p> Click <strong>Next</strong>.</p>
-<div class="NOTE"><h5>Note</h5><p>If the workbook is protected by a password, the following window will be invoked.</p>
+<p><img src="../../../images/img120058.png" alt="DataSourceWizard_SelectExcelFile"></p>
+<p>Click <strong>Next</strong>.</p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>If the workbook is protected by a password, the following window will be invoked.</p>
 <p><img src="../../../images/img121200.png" alt="DataSourceWizard_ProtectedExcelWorkbook"></p>
 <p>Specify a password in the <strong>Password</strong> field and click <strong>OK</strong>. Note that if you enable the <strong>Save password</strong> flag, the password will be saved to a <a href="../save-a-dashboard.html">dashboard definition</a> as plain text.</p>
 </div>
 </li>
 <li><p>Then, specify import settings used to extract data from the workbook.</p>
-<p> <img src="../../../images/img120059.png" alt="DataSourceWizard_SpecifyImportSettings"></p>
-<p> The following options can be specified.</p>
+<p><img src="../../../images/img120059.png" alt="DataSourceWizard_SpecifyImportSettings"></p>
+<p>The following options can be specified.</p>
 <ul>
 <li><strong>Use values of the first row as field names</strong> - Specifies whether to use the values of the first row as field names. If you disable this option, field names will be generated automatically.</li>
 <li><strong>Skip empty rows</strong> - Specifies whether or not to include the empty rows into the resulting data source.</li>
 <li><strong>Skip hidden rows</strong> - Specifies whether to ignore hidden rows when importing data to a data source.</li>
-<li><p><strong>Skip hidden columns</strong> - Specifies whether to ignore hidden columns when importing data to a data source.</p>
+<li><strong>Skip hidden columns</strong> - Specifies whether to ignore hidden columns when importing data to a data source.</li>
+</ul>
 <p>Click <strong>Next</strong>.</p>
 </li>
-</ul>
-</li>
 <li><p>On the next page, you can select the worksheet containing the required data, the table or the defined name referring to the specified cell range.</p>
-<p> <img src="../../../images/img120060.png" alt="DataSourceWizard_SelectDefinedName"></p>
-<p> Click <strong>Next</strong>.</p>
+<p><img src="../../../images/img120060.png" alt="DataSourceWizard_SelectDefinedName"></p>
+<p>Click <strong>Next</strong>.</p>
 </li>
 <li><p>On the final page, you can select columns to be included to a data source and specify their settings. The <strong>Name</strong> column allows you to specify the column name while <strong>Type</strong> allows you to specify its type.</p>
-<p> <img src="../../../images/img120061.png" alt="DataSourceWizard_SpecifyColumnSettings"></p>
-<p> Click <strong>Finish</strong> to create a data source. This creates the data source and displays its fields in the <a href="../ui-elements/data-source-browser.html">Data Source Browser</a>.</p>
+<p><img src="../../../images/img120061.png" alt="DataSourceWizard_SpecifyColumnSettings"></p>
+<p>Click <strong>Finish</strong> to create a data source. This creates the data source and displays its fields in the <a href="../ui-elements/data-source-browser.html">Data Source Browser</a>.</p>
 </li>
 </ol>
+
 </article>
           </div>
-          
+
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/24.1/dashboard-for-desktop/articles/dashboard-designer/provide-data/binding-to-microsoft-excel-workbooks.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/fix-styles/dashboard-for-desktop/articles/dashboard-designer/provide-data/binding-to-microsoft-excel-workbooks.md/#L1" class="contribution-link">Edit this page</a>
                   </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-                <h5>In This Article</h5>
+                <h5>In this article</h5>
                 <div></div>
               </nav>
             </div>
           </div>
         </div>
       </div>
-      
+
       <footer>
         <div class="grad-bottom"></div>
         <div class="footer">
@@ -143,14 +137,14 @@
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
-            
+      Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
+      
           </div>
         </div>
       </footer>
     </div>
-    
-    <script type="text/javascript" src="../../../../styles/docfx.vendor.js"></script>
+
+    <script type="text/javascript" src="../../../../styles/docfx.vendor.min.js"></script>
     <script type="text/javascript" src="../../../../styles/docfx.js"></script>
     <script type="text/javascript" src="../../../../styles/main.js"></script>
   </body>

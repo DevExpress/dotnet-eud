@@ -1,37 +1,29 @@
 ﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  
+
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Reports Merged with PDF | DevExpress End-User Documentation </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Reports Merged with PDF | DevExpress End-User Documentation ">
-    <meta name="generator" content="docfx 2.59.2.0">
-    
+    <meta name="generator" content="docfx ">
+  
     <link rel="shortcut icon" href="../../../../../favicon.ico">
-    <link rel="stylesheet" href="../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../styles/docfx.vendor.min.css">
     <link rel="stylesheet" href="../../../../../styles/docfx.css">
     <link rel="stylesheet" href="../../../../../styles/main.css">
     <meta property="docfx:navrel" content="../../../../../toc.html">
     <meta property="docfx:tocrel" content="../../../../toc.html">
-    
-    
-    
-    <!-- Matomo Tag Manager -->
-    <script>
-      var _mtm = window._mtm = window._mtm || [];
-      _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
-      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-      g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
-    </script>
-    <!-- End Matomo Tag Manager -->
+  
+  
+  
   </head>
   <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
-        
+
         <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
           <div class="container">
             <div class="navbar-header">
@@ -41,7 +33,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              
+
               <a class="navbar-brand" href="../../../../../index.html">
                 <img id="logo" class="svg" src="../../../../../logo.svg" alt="">
               </a>
@@ -55,7 +47,7 @@
             </div>
           </div>
         </nav>
-        
+
         <div class="subnav navbar navbar-default">
           <div class="container hide-when-search" id="breadcrumb">
             <ul class="breadcrumb">
@@ -65,7 +57,7 @@
         </div>
       </header>
       <div role="main" class="container body-content hide-when-search">
-        
+
         <div class="sidenav hide-when-search">
           <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
           <div class="sidetoggle collapse" id="sidetoggle">
@@ -79,7 +71,9 @@
 
 <p>This tutorial describes how to add PDF content to a report.</p>
 <p><img src="../../../../images/eurd-pdfcontentdemo-result.png" alt="pdfcontentdemo-result"></p>
-<div class="TIP"><h5>Tip</h5><p>The <a href="master-detail-reports-with-detail-report-bands.html">Create a Master-Detail Report (Use Subreports)</a> topic describes another way to create a report that merges different documents.</p>
+<div class="TIP">
+<h5>Tip</h5>
+<p>The <a href="master-detail-reports-with-detail-report-bands.html">Create a Master-Detail Report (Use Subreports)</a> topic describes another way to create a report that merges different documents.</p>
 </div>
 <h2 id="create-a-report-layout">Create a Report Layout</h2>
 <p>Create a report that should include PDF content.</p>
@@ -90,44 +84,49 @@
 <p>Add a PDF document for each product listed in an order.</p>
 <ol>
 <li><p>Add a <strong>Detail Report</strong> band at the location where you want to place PDF content. As PDF content is rendered on separate pages, the report from this tutorial includes this band at the bottom. Bind the new band to the same data member as in the <a href="#create-a-report-layout">Create a Report Layout</a> section above.</p>
-<p> <img src="../../../../images/eurd-pdfcontentdemo-add-detail-report-for-pdf.png" alt="add-detail-report-for-pdf"></p>
+<p><img src="../../../../images/eurd-pdfcontentdemo-add-detail-report-for-pdf.png" alt="add-detail-report-for-pdf"></p>
 </li>
 <li><p>Drop the <strong>PDF Content</strong> item from the <strong>Toolbox</strong> onto the added band.</p>
-<p> <img src="../../../../images/eurd-pdfcontentdemo-drop-xrpdfcontent.png" alt="drop-xrpdfcontent"></p>
+<p><img src="../../../../images/eurd-pdfcontentdemo-drop-xrpdfcontent.png" alt="drop-xrpdfcontent"></p>
 </li>
-<li><p>Bind the dropped control to the source of PDF data. Expand the control&#39;s smart tag and click the <strong>Expression</strong> property&#39;s ellipsis button below the <strong>Source</strong> property. In the invoked <strong>Expression Editor</strong>, select the data source field that stores PDF documents and click <strong>OK</strong>.</p>
-<p> <img src="../../../../images/eurd-pdfcontentdemo-bind-to-pdf-source.png" alt="bind-to-pdf-source"></p>
-<div class="TIP"><h5>Tip</h5><p>Other options are available to bind the <strong>PDF Content</strong> control to PDF data:  </p>
+<li><p>Bind the dropped control to the source of PDF data. Expand the control's smart tag and click the <strong>Expression</strong> property's ellipsis button below the <strong>Source</strong> property. In the invoked <strong>Expression Editor</strong>, select the data source field that stores PDF documents and click <strong>OK</strong>.</p>
+<p><img src="../../../../images/eurd-pdfcontentdemo-bind-to-pdf-source.png" alt="bind-to-pdf-source"></p>
+<div class="TIP">
+<h5>Tip</h5>
+<p>Other options are available to bind the <strong>PDF Content</strong> control to PDF data:</p>
 <ul>
-<li><strong>Bind to a PDF file</strong><br>Specify the file&#39;s path or URL in the control&#39;s <strong>Source URL</strong> property. The specified file should be available when a report is generated.</li>
-<li><strong>Save the PDF content in the report</strong><br>Click the <strong>Source</strong> property&#39;s ellipsis button and select the file from which to load content.</li>
+<li><strong>Bind to a PDF file</strong><br>
+Specify the file's path or URL in the control's <strong>Source URL</strong> property. The specified file should be available when a report is generated.</li>
+<li><strong>Save the PDF content in the report</strong><br>
+Click the <strong>Source</strong> property's ellipsis button and select the file from which to load content.</li>
 </ul>
 </div>
 </li>
 </ol>
 <p>The report is ready and can be viewed in the <strong>Preview</strong> tab. Each PDF document is printed on a separate page and uses its own page settings.</p>
 <p><img src="../../../../images/eurd-pdfcontentdemo-result2.png" alt="pdfcontentdemo-result"></p>
+
 </article>
           </div>
-          
+
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/24.1/reporting-for-desktop/articles/report-designer/report-designer-for-winforms/create-reports/reports-merged-with-pdf.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/fix-styles/reporting-for-desktop/articles/report-designer/report-designer-for-winforms/create-reports/reports-merged-with-pdf.md/#L1" class="contribution-link">Edit this page</a>
                   </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-                <h5>In This Article</h5>
+                <h5>In this article</h5>
                 <div></div>
               </nav>
             </div>
           </div>
         </div>
       </div>
-      
+
       <footer>
         <div class="grad-bottom"></div>
         <div class="footer">
@@ -135,14 +134,14 @@
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
-            
+      Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
+      
           </div>
         </div>
       </footer>
     </div>
-    
-    <script type="text/javascript" src="../../../../../styles/docfx.vendor.js"></script>
+
+    <script type="text/javascript" src="../../../../../styles/docfx.vendor.min.js"></script>
     <script type="text/javascript" src="../../../../../styles/docfx.js"></script>
     <script type="text/javascript" src="../../../../../styles/main.js"></script>
   </body>

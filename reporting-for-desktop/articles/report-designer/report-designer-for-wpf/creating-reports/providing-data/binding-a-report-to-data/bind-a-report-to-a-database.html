@@ -1,37 +1,29 @@
 ﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  
+
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Bind a Report to a Database | DevExpress End-User Documentation </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Bind a Report to a Database | DevExpress End-User Documentation ">
-    <meta name="generator" content="docfx 2.59.2.0">
-    
+    <meta name="generator" content="docfx ">
+  
     <link rel="shortcut icon" href="../../../../../../../favicon.ico">
-    <link rel="stylesheet" href="../../../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../../../styles/docfx.vendor.min.css">
     <link rel="stylesheet" href="../../../../../../../styles/docfx.css">
     <link rel="stylesheet" href="../../../../../../../styles/main.css">
     <meta property="docfx:navrel" content="../../../../../../../toc.html">
     <meta property="docfx:tocrel" content="../../../../../../toc.html">
-    
-    
-    
-    <!-- Matomo Tag Manager -->
-    <script>
-      var _mtm = window._mtm = window._mtm || [];
-      _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
-      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-      g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
-    </script>
-    <!-- End Matomo Tag Manager -->
+  
+  
+  
   </head>
   <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
-        
+
         <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
           <div class="container">
             <div class="navbar-header">
@@ -41,7 +33,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              
+
               <a class="navbar-brand" href="../../../../../../../index.html">
                 <img id="logo" class="svg" src="../../../../../../../logo.svg" alt="">
               </a>
@@ -55,7 +47,7 @@
             </div>
           </div>
         </nav>
-        
+
         <div class="subnav navbar navbar-default">
           <div class="container hide-when-search" id="breadcrumb">
             <ul class="breadcrumb">
@@ -65,7 +57,7 @@
         </div>
       </header>
       <div role="main" class="container body-content hide-when-search">
-        
+
         <div class="sidenav hide-when-search">
           <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
           <div class="sidetoggle collapse" id="sidetoggle">
@@ -80,59 +72,61 @@
 <p>This document describes the steps required to connect a report to a database.</p>
 <p>To bind a report to a database, do the following.</p>
 <ol>
-<li><a href="../../basic-operations/create-a-new-report.html">Create a new report</a>.</li>
-<li><p>Right-click the report and select <strong>Edit...</strong> in the context menu. In the invoked dialog, expand the <strong>Data Source</strong> drop-down and click the <strong>Add New</strong> button.</p>
-<p> <img src="../../../../../../images/img123562.png" alt="EUD_WpfReportDesigner_AddDataSource"></p>
+<li><p><a href="../../basic-operations/create-a-new-report.html">Create a new report</a>.</p>
 </li>
-<li><p>On the first page of the invoked <strong>Data Source Wizard</strong>, specify the data connection to be used. If it is absent in the list containing existing connections, select <strong>No, I&#39;d like to specify the connection parameters myself</strong> and click <strong>Next</strong>.</p>
-<p> <img src="../../../../../../images/img123986.png" alt="EUD_WpfReportDesigner_DataSourceWizard_Database_2"></p>
+<li><p>Right-click the report and select <strong>Edit...</strong> in the context menu. In the invoked dialog, expand the <strong>Data Source</strong> drop-down and click the <strong>Add New</strong> button.</p>
+<p><img src="../../../../../../images/img123562.png" alt="EUD_WpfReportDesigner_AddDataSource"></p>
+</li>
+<li><p>On the first page of the invoked <strong>Data Source Wizard</strong>, specify the data connection to be used. If it is absent in the list containing existing connections, select <strong>No, I'd like to specify the connection parameters myself</strong> and click <strong>Next</strong>.</p>
+<p><img src="../../../../../../images/img123986.png" alt="EUD_WpfReportDesigner_DataSourceWizard_Database_2"></p>
 </li>
 <li><p>On the next page, specify the data source type. Select <strong>Microsoft SQL Server</strong> and click <strong>Next</strong> to proceed.</p>
-<p> <img src="../../../../../../images/img122896.png" alt="WPDDesigner_ReportWizard_SelectDataSourceType"></p>
+<p><img src="../../../../../../images/img122896.png" alt="WPDDesigner_ReportWizard_SelectDataSourceType"></p>
 </li>
 <li><p>This page allows you to specify connection string parameters specific to the selected data source provider. Depending on the data provider selected, it may be necessary to specify additional connection options (such as authentication type and database name) on this page.</p>
-<p> <img src="../../../../../../images/img122000.png" alt="WPDDesigner_ReportWizard_SpecifyConnectionString"></p>
-<p> Click <strong>Next</strong> to proceed.</p>
+<p><img src="../../../../../../images/img122000.png" alt="WPDDesigner_ReportWizard_SpecifyConnectionString"></p>
+<p>Click <strong>Next</strong> to proceed.</p>
 </li>
 <li><p>If server authentication is required for the selected database type, the next page will prompt you to specify whether or not you want to save the user credentials along with the connection string.</p>
-<p> Select the required option and click <strong>Next</strong>.</p>
-<p> <img src="../../../../../../images/img123987.png" alt="EUD_WpfReportDesigner_DataSourceWizard_Database_3"></p>
+<p>Select the required option and click <strong>Next</strong>.</p>
+<p><img src="../../../../../../images/img123987.png" alt="EUD_WpfReportDesigner_DataSourceWizard_Database_3"></p>
 </li>
 <li><p>On the next page, you can construct an SQL query to obtain data from the database, or select a stored procedure.</p>
-<p> To construct an SQL query, click <strong>Run Query Builder...</strong></p>
-<p> <img src="../../../../../../images/img123988.png" alt="EUD_WpfReportDesigner_DataSourceWizard_Database_4"></p>
+<p>To construct an SQL query, click <strong>Run Query Builder...</strong></p>
+<p><img src="../../../../../../images/img123988.png" alt="EUD_WpfReportDesigner_DataSourceWizard_Database_4"></p>
 </li>
 <li><p>In the invoked <a href="../../../interface-elements/query-builder.html">Query Builder</a> window, select an item from the list of available tables on the left and drop it onto the list of data tables to be used.</p>
-<p> <img src="../../../../../../images/img122798.png" alt="WPDDesigner_QueryBuilder_AddingTable"></p>
+<p><img src="../../../../../../images/img122798.png" alt="WPDDesigner_QueryBuilder_AddingTable"></p>
 </li>
 <li><p>Enable the check box near the added table to include all of its fields in the data view.</p>
-<p> <img src="../../../../../../images/img122117.png" alt="WPDDesigner_QueryBuilder_AddTable"></p>
-<p> Click <strong>OK</strong> to exit the <strong>Query Builder</strong>. Click <strong>Finish</strong> to exit the <strong>Data Source Wizard</strong>.</p>
-<p> The newly created SQL data source will be displayed in the <strong>Components</strong> node of the <a href="../../../interface-elements/report-explorer.html">Report Explorer</a>. Additionally, the hierarchy of the data source will be reflected by the <a href="../../../interface-elements/field-list.html">Field List</a>.</p>
-<p> <img src="../../../../../../images/img123563.png" alt="EUD_WpfReportDesigner_SqlDataSource"></p>
+<p><img src="../../../../../../images/img122117.png" alt="WPDDesigner_QueryBuilder_AddTable"></p>
+<p>Click <strong>OK</strong> to exit the <strong>Query Builder</strong>. Click <strong>Finish</strong> to exit the <strong>Data Source Wizard</strong>.</p>
+<p>The newly created SQL data source will be displayed in the <strong>Components</strong> node of the <a href="../../../interface-elements/report-explorer.html">Report Explorer</a>. Additionally, the hierarchy of the data source will be reflected by the <a href="../../../interface-elements/field-list.html">Field List</a>.</p>
+<p><img src="../../../../../../images/img123563.png" alt="EUD_WpfReportDesigner_SqlDataSource"></p>
 </li>
 </ol>
+
 </article>
           </div>
-          
+
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/24.1/reporting-for-desktop/articles/report-designer/report-designer-for-wpf/creating-reports/providing-data/binding-a-report-to-data/bind-a-report-to-a-database.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/fix-styles/reporting-for-desktop/articles/report-designer/report-designer-for-wpf/creating-reports/providing-data/binding-a-report-to-data/bind-a-report-to-a-database.md/#L1" class="contribution-link">Edit this page</a>
                   </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-                <h5>In This Article</h5>
+                <h5>In this article</h5>
                 <div></div>
               </nav>
             </div>
           </div>
         </div>
       </div>
-      
+
       <footer>
         <div class="grad-bottom"></div>
         <div class="footer">
@@ -140,14 +134,14 @@
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
-            
+      Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
+      
           </div>
         </div>
       </footer>
     </div>
-    
-    <script type="text/javascript" src="../../../../../../../styles/docfx.vendor.js"></script>
+
+    <script type="text/javascript" src="../../../../../../../styles/docfx.vendor.min.js"></script>
     <script type="text/javascript" src="../../../../../../../styles/docfx.js"></script>
     <script type="text/javascript" src="../../../../../../../styles/main.js"></script>
   </body>

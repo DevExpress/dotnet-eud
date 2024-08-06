@@ -1,37 +1,29 @@
 ﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  
+
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Query Builder | DevExpress End-User Documentation </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Query Builder | DevExpress End-User Documentation ">
-    <meta name="generator" content="docfx 2.59.2.0">
-    
+    <meta name="generator" content="docfx ">
+  
     <link rel="shortcut icon" href="../../../../../favicon.ico">
-    <link rel="stylesheet" href="../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../styles/docfx.vendor.min.css">
     <link rel="stylesheet" href="../../../../../styles/docfx.css">
     <link rel="stylesheet" href="../../../../../styles/main.css">
     <meta property="docfx:navrel" content="../../../../../toc.html">
     <meta property="docfx:tocrel" content="../../../../toc.html">
-    
-    
-    
-    <!-- Matomo Tag Manager -->
-    <script>
-      var _mtm = window._mtm = window._mtm || [];
-      _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
-      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-      g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
-    </script>
-    <!-- End Matomo Tag Manager -->
+  
+  
+  
   </head>
   <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
-        
+
         <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
           <div class="container">
             <div class="navbar-header">
@@ -41,7 +33,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              
+
               <a class="navbar-brand" href="../../../../../index.html">
                 <img id="logo" class="svg" src="../../../../../logo.svg" alt="">
               </a>
@@ -55,7 +47,7 @@
             </div>
           </div>
         </nav>
-        
+
         <div class="subnav navbar navbar-default">
           <div class="container hide-when-search" id="breadcrumb">
             <ul class="breadcrumb">
@@ -65,7 +57,7 @@
         </div>
       </header>
       <div role="main" class="container body-content hide-when-search">
-        
+
         <div class="sidenav hide-when-search">
           <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
           <div class="sidetoggle collapse" id="sidetoggle">
@@ -127,36 +119,36 @@
 </thead>
 <tbody>
 <tr>
-<td> <strong>Name</strong></td>
+<td><strong>Name</strong></td>
 <td>Indicates the column name that the Query Builder obtains from the database.</td>
 </tr>
 <tr>
-<td> <strong>Type</strong></td>
-<td>Indicates the column&#39;s data type. The Query Builder provides information about the maximum string length for string columns.</td>
+<td><strong>Type</strong></td>
+<td>Indicates the column's data type. The Query Builder provides information about the maximum string length for string columns.</td>
 </tr>
 <tr>
-<td> <strong>Alias</strong></td>
+<td><strong>Alias</strong></td>
 <td>Specifies a custom column name (alias). Include a column into a query to enable this option. Aggregated columns should always have an alias.</td>
 </tr>
 <tr>
-<td> <strong>Output</strong></td>
+<td><strong>Output</strong></td>
 <td>Specifies whether to include a column in a query result.</td>
 </tr>
 <tr>
-<td> <strong>Sort Type</strong></td>
+<td><strong>Sort Type</strong></td>
 <td>Specifies whether to maintain the initial sort order for a column, or sort data records in ascending or descending order.</td>
 </tr>
 <tr>
-<td> <strong>Sort Order</strong></td>
+<td><strong>Sort Order</strong></td>
 <td>Defines the sorting priority for multiple columns (the less this number is, the higher the priority).</td>
 </tr>
 <tr>
-<td> <strong>Group By</strong></td>
+<td><strong>Group By</strong></td>
 <td>Specifies whether to group a query result by this column.</td>
 </tr>
 <tr>
-<td> <strong>Aggregate</strong></td>
-<td>Specifies whether to aggregate the column&#39;s data records. You can use the following aggregate functions: <strong>Count</strong>, <strong>Max</strong>, <strong>Min</strong>, <strong>Avg</strong>, <strong>Sum</strong>, <strong>CountDistinct</strong>, <strong>AvgDistinct</strong>, <strong>SumDistinct</strong>. <br>The Query Builder omits individual data records from the query result and only retains the aggregate function result when you apply any of these functions.</td>
+<td><strong>Aggregate</strong></td>
+<td>Specifies whether to aggregate the column's data records. You can use the following aggregate functions: <strong>Count</strong>, <strong>Max</strong>, <strong>Min</strong>, <strong>Avg</strong>, <strong>Sum</strong>, <strong>CountDistinct</strong>, <strong>AvgDistinct</strong>, <strong>SumDistinct</strong>. <br>The Query Builder omits individual data records from the query result and only retains the aggregate function result when you apply any of these functions.</td>
 </tr>
 </tbody>
 </table>
@@ -174,19 +166,19 @@
 <tbody>
 <tr>
 <td><strong>Name</strong></td>
-<td>Specifies the query parameter&#39;s name.</td>
+<td>Specifies the query parameter's name.</td>
 </tr>
 <tr>
 <td><strong>Type</strong></td>
-<td>Specifies the parameter value&#39;s data type.<br>Set this property to <strong>Expression</strong> to generate parameter values dynamically.</td>
+<td>Specifies the parameter value's data type.<br>Set this property to <strong>Expression</strong> to generate parameter values dynamically.</td>
 </tr>
 <tr>
 <td><strong>Result Type</strong></td>
-<td>Specifies the data type of the expression&#39;s result value.<br>This property is enabled if the query parameter type is Expression.</td>
+<td>Specifies the data type of the expression's result value.<br>This property is enabled if the query parameter type is Expression.</td>
 </tr>
 <tr>
 <td><strong>Value</strong></td>
-<td>Determines the query parameter&#39;s actual value.<br>You can specify a static value according to the selected value&#39;s data type.<br>Alternatively, construct an expression to generate parameter values dynamically. Click this property&#39;s ellipsis button to invoke the <strong>Expression Editor</strong> and create an expression. This ellipsis button is enabled if you set the query parameter type to <strong>Expression</strong>.</td>
+<td>Determines the query parameter's actual value.<br>You can specify a static value according to the selected value's data type.<br>Alternatively, construct an expression to generate parameter values dynamically. Click this property's ellipsis button to invoke the <strong>Expression Editor</strong> and create an expression. This ellipsis button is enabled if you set the query parameter type to <strong>Expression</strong>.</td>
 </tr>
 </tbody>
 </table>
@@ -195,14 +187,14 @@
 <p><img src="../../../../images/wdd-filter-editor-filter-query124905.png" alt="wdd-filter-editor-filter-query"></p>
 <p>See the following topic for details: <a href="../../provide-data/working-with-sql-data-sources/filter-queries.html">Filter Queries</a>.</p>
 <h3 id="preview-data">Preview Data</h3>
-<p>Click the <strong>Preview Results</strong> button to test a query on the actual data&#39;s limited subset.</p>
+<p>Click the <strong>Preview Results</strong> button to test a query on the actual data's limited subset.</p>
 <p>The invoked <a href="preview-data.html">Data Preview</a> dialog displays the first 100 data records of the query:</p>
 <p><img src="../../../../images/wdd-preview-result124959.png" alt="wdd-preview-result"></p>
 <h2 id="query-builder-for-federated-data-sources">Query Builder for Federated Data Sources</h2>
 <p>The Query Builder supports the following query types for the federated data source:</p>
 <ul>
 <li><strong>Join</strong> - Combines rows from two or more sources based on a clause.</li>
-<li><strong>Union and Union All</strong> - The <strong>Union</strong> query combines rows from two or more sources into one data set and removes duplicate rows in the merged source. The <strong>Union All</strong> query does the same, except it doesn&#39;t remove duplicated rows. You can create a union query for data sources if data types of their columns are <a href="https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/types/casting-and-type-conversions#implicit-conversions">implicitly converted</a>.</li>
+<li><strong>Union and Union All</strong> - The <strong>Union</strong> query combines rows from two or more sources into one data set and removes duplicate rows in the merged source. The <strong>Union All</strong> query does the same, except it doesn't remove duplicated rows. You can create a union query for data sources if data types of their columns are <a href="https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/types/casting-and-type-conversions#implicit-conversions">implicitly converted</a>.</li>
 <li><strong>Transformation</strong> - If a data source contains a complex column (an object), you can transform its properties to display them as separate columns in a flattened view. If one of the data columns is an array, you can unfold its values and display a new data row for every element of the array. When you unfold the column, you can flatten it and create a flattened view.</li>
 </ul>
 <h3 id="create-a-join-based-federated-data-source">Create a Join-Based Federated Data Source</h3>
@@ -213,12 +205,12 @@
 <p>You can specify the expression for the field. For this, enable the <strong><em>f</em></strong> button and then click ellipsis button:</p>
 <p><img src="../../../../images/web-dashboard-federated-wizard-join-query-set-expression.png" alt="Query Builder for Data Federation - Set expression in the Join query"></p>
 <p>This invokes the Expression Editor and you can specify a <a href="../../provide-data/calculated-fields.html">calculated field</a>.</p>
-<p>Click <strong>OK</strong> to close the Query Builder. Rename the created query if necessary. </p>
+<p>Click <strong>OK</strong> to close the Query Builder. Rename the created query if necessary.</p>
 <p><img src="../../../../images/web-dashboard-federated-wizard-join-query-rename.png" alt="Query Builder for Data Federation - Rename the Join query"></p>
 <p>Click <strong>Finish</strong> to create the federated data source with the Join query and close the Data Source Wizard. Add the newly created data source to the dashboard to see the result:</p>
 <p><img src="../../../../images/web-dashboard-federated-wizard-join-query-result.png" alt="Query Builder for Data Federation - Join query result"></p>
 <h3 id="create-a-union-based-federated-data-source">Create a Union-Based Federated Data Source</h3>
-<p>Double-click the Customers table and the Excel data source. The query includes only fields that have identical names and types in the origin sources. Enable the <strong>Union All</strong> check box to create the <strong>Union All</strong> query and do not remove duplicated rows. </p>
+<p>Double-click the Customers table and the Excel data source. The query includes only fields that have identical names and types in the origin sources. Enable the <strong>Union All</strong> check box to create the <strong>Union All</strong> query and do not remove duplicated rows.</p>
 <p>You can also specify a different name for a field: set the alias in the Alias column for the corresponding field.</p>
 <p>In the image below, two sources are added to the query:</p>
 <p><img src="../../../../images/web-dashboard-federated-wizard-union-query.png" alt="Query Builder for Data Federation - Union query"></p>
@@ -234,27 +226,28 @@
 <p><img src="../../../../images/web-dashboard-federated-wizard-transformation-query-rename.png" alt="Query Builder for Data Federation - Rename the Transformation query"></p>
 <p>Click <strong>Finish</strong> to create the federated data source with the Transformation query and close the Data Source Wizard. Add the newly created data source to the dashboard to see the result:</p>
 <p><img src="../../../../images/web-dashboard-federated-wizard-transformation-query-result.png" alt="web-dashboard-federated-wizard-transformation-query-result"></p>
+
 </article>
           </div>
-          
+
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/24.1/dashboard-for-web/articles/web-dashboard-designer-mode/ui-elements/dialogs-and-wizards/query-builder.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/fix-styles/dashboard-for-web/articles/web-dashboard-designer-mode/ui-elements/dialogs-and-wizards/query-builder.md/#L1" class="contribution-link">Edit this page</a>
                   </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-                <h5>In This Article</h5>
+                <h5>In this article</h5>
                 <div></div>
               </nav>
             </div>
           </div>
         </div>
       </div>
-      
+
       <footer>
         <div class="grad-bottom"></div>
         <div class="footer">
@@ -262,14 +255,14 @@
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
-            
+      Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
+      
           </div>
         </div>
       </footer>
     </div>
-    
-    <script type="text/javascript" src="../../../../../styles/docfx.vendor.js"></script>
+
+    <script type="text/javascript" src="../../../../../styles/docfx.vendor.min.js"></script>
     <script type="text/javascript" src="../../../../../styles/docfx.js"></script>
     <script type="text/javascript" src="../../../../../styles/main.js"></script>
   </body>

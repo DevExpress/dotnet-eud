@@ -1,37 +1,29 @@
 ﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  
+
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Conditional Formatting | DevExpress End-User Documentation </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Conditional Formatting | DevExpress End-User Documentation ">
-    <meta name="generator" content="docfx 2.59.2.0">
-    
+    <meta name="generator" content="docfx ">
+  
     <link rel="shortcut icon" href="../../../../../favicon.ico">
-    <link rel="stylesheet" href="../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../styles/docfx.vendor.min.css">
     <link rel="stylesheet" href="../../../../../styles/docfx.css">
     <link rel="stylesheet" href="../../../../../styles/main.css">
     <meta property="docfx:navrel" content="../../../../../toc.html">
     <meta property="docfx:tocrel" content="../../../../toc.html">
-    
-    
-    
-    <!-- Matomo Tag Manager -->
-    <script>
-      var _mtm = window._mtm = window._mtm || [];
-      _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
-      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-      g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
-    </script>
-    <!-- End Matomo Tag Manager -->
+  
+  
+  
   </head>
   <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
-        
+
         <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
           <div class="container">
             <div class="navbar-header">
@@ -41,7 +33,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              
+
               <a class="navbar-brand" href="../../../../../index.html">
                 <img id="logo" class="svg" src="../../../../../logo.svg" alt="">
               </a>
@@ -55,7 +47,7 @@
             </div>
           </div>
         </nav>
-        
+
         <div class="subnav navbar navbar-default">
           <div class="container hide-when-search" id="breadcrumb">
             <ul class="breadcrumb">
@@ -65,7 +57,7 @@
         </div>
       </header>
       <div role="main" class="container body-content hide-when-search">
-        
+
         <div class="sidenav hide-when-search">
           <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
           <div class="sidetoggle collapse" id="sidetoggle">
@@ -79,27 +71,32 @@
 
 <p>Use conditional formatting to change the background color of the card or to highlight individual card elements (such as title or value).</p>
 <p><img src="../../../../images/web-dashboard-card-conditional-formatting.png" alt=""></p>
-<div class="NOTE"><h5>Note</h5><p>Cards that use a <a href="https://docs.devexpress.com/Dashboard/118608/create-dashboards/create-dashboards-on-the-web/dashboard-item-settings/cards/layout#legacy-layout-v162-and-earlier">legacy layout</a> do not support conditional formatting.</p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>Cards that use a <a href="https://docs.devexpress.com/Dashboard/118608/create-dashboards/create-dashboards-on-the-web/dashboard-item-settings/cards/layout#legacy-layout-v162-and-earlier">legacy layout</a> do not support conditional formatting.</p>
 </div>
 <h2 id="supported-format-rules">Supported Format Rules</h2>
 <p>Format rules that can be applied to different data item types are as follows:</p>
 <ul>
-<li>numeric <ul>
+<li>numeric
+<ul>
 <li><strong>Value</strong></li>
 <li><strong>Top-Bottom</strong></li>
 <li><strong>Average</strong></li>
-<li><strong>Expression</strong> </li>
+<li><strong>Expression</strong></li>
 <li><strong>Icon Ranges</strong></li>
 <li><strong>Color Ranges</strong></li>
 <li><strong>Gradient Ranges</strong></li>
 </ul>
 </li>
-<li>string <ul>
+<li>string
+<ul>
 <li><strong>Value</strong> (with the condition type set to <em>Equal To</em>, <em>Not Equal To</em> or <em>Text that Contains</em>)</li>
 <li><strong>Expression</strong></li>
 </ul>
 </li>
-<li>date-time <ul>
+<li>date-time
+<ul>
 <li><strong>Value</strong></li>
 <li><strong>A Date Occurring</strong> (for dimensions with a continuous date-time group interval)</li>
 <li><strong>Expression</strong></li>
@@ -113,61 +110,62 @@
 <h2 id="create-and-edit-a-format-rule">Create and Edit a Format Rule</h2>
 <p>You can create and edit format rules in the <strong>Conditional Formatting</strong> section that is located in the following places:</p>
 <ul>
-<li><p>The dashboard item&#39;s <a href="../../ui-elements/dashboard-item-menu.html">Options</a> menu</p>
+<li><p>The dashboard item's <a href="../../ui-elements/dashboard-item-menu.html">Options</a> menu</p>
 </li>
 <li><p>The <a href="../../ui-elements/data-item-menu.html">data item menu</a></p>
 </li>
 </ul>
 <p>Refer to the following topic for information on how to create and edit format rules: <a href="../../appearance-customization/conditional-formatting.html">Conditional Formatting in Web Dashboard</a>.</p>
 <h2 id="appearance-settings">Appearance Settings</h2>
-<p>You can add an icon to the <a href="layout.html">card layout element</a> or configure the style for display text or background color. To do this, open the format rule&#39;s <strong>Condition</strong> section and specify the settings:</p>
+<p>You can add an icon to the <a href="layout.html">card layout element</a> or configure the style for display text or background color. To do this, open the format rule's <strong>Condition</strong> section and specify the settings:</p>
 <ul>
 <li><p><strong>Appearance</strong></p>
-<p>  You can select a predefined style or create a <em>Custom Style</em> in the <strong>Appearance</strong> tab. You can specify background color, text color, and font settings.</p>
-<p>  The background color applies to the entire card. Text settings allow you to specify a target element.</p>
-<p>  <img src="../../../../images/web-conditional-formatting-card.png" alt="Web Dashboard - Conditional Formatting with Appearance"></p>
+<p>You can select a predefined style or create a <em>Custom Style</em> in the <strong>Appearance</strong> tab. You can specify background color, text color, and font settings.</p>
+<p>The background color applies to the entire card. Text settings allow you to specify a target element.</p>
+<p><img src="../../../../images/web-conditional-formatting-card.png" alt="Web Dashboard - Conditional Formatting with Appearance"></p>
 </li>
 <li><p><strong>Icons</strong></p>
-<p>  You can select an predefined icon from the <strong>Icon</strong> tab.</p>
-<p>  The image below displays the result of the format rule that adds the green check icon to the <em>Category</em> dimension layout element:</p>
-<p>  <img src="../../../../images/web-card-conditional-formatting-custom-layout-element.png" alt="Web Dashboard - Conditional Formatting with Icons"></p>
+<p>You can select an predefined icon from the <strong>Icon</strong> tab.</p>
+<p>The image below displays the result of the format rule that adds the green check icon to the <em>Category</em> dimension layout element:</p>
+<p><img src="../../../../images/web-card-conditional-formatting-custom-layout-element.png" alt="Web Dashboard - Conditional Formatting with Icons"></p>
 </li>
 </ul>
 <h2 id="card-specific-format-condition-settings">Card-Specific Format Condition Settings</h2>
 <p>Available settings in the <strong>Common</strong> section depend on the selected <strong>Calculated by</strong> option:</p>
 <ul>
 <li><p><strong>Card</strong></p>
-<p>  The <strong>Card</strong> option specifies a data item container (a <a href="providing-data.html">card</a>) whose values are used to calculate the format rule. The <strong>Value Type</strong> field allows you to pre-process the card&#39;s value before it takes part in calculations. </p>
-<p>  <img src="../../../../images/web-conditional-formatting-card-delta-variation.png" alt="Web Dashboard - Card Conditional Formatting - Card Option"></p>
-<p>  If a dashboard item contains multiple cards, apply a format rule to the active card to see the changes. To switch between cards, click the <strong>Values</strong> button in the dashboard item caption. Note that the expression format condition applies to all cards regardless of the specified card.</p>
+<p>The <strong>Card</strong> option specifies a data item container (a <a href="providing-data.html">card</a>) whose values are used to calculate the format rule. The <strong>Value Type</strong> field allows you to pre-process the card's value before it takes part in calculations.</p>
+<p><img src="../../../../images/web-conditional-formatting-card-delta-variation.png" alt="Web Dashboard - Card Conditional Formatting - Card Option"></p>
+<p>If a dashboard item contains multiple cards, apply a format rule to the active card to see the changes. To switch between cards, click the <strong>Values</strong> button in the dashboard item caption. Note that the expression format condition applies to all cards regardless of the specified card.</p>
 </li>
 <li><p><strong>Data Item</strong></p>
-<p>  For the <strong>Data Item</strong> option you can choose a hidden measure or series dimension. The rule applies to all cards in a Card item.</p>
-<p>  <img src="../../../../images/web-dashboard-card-data-item-option.png" alt="|Web Dashboard - Card Conditional Formatting - Data Item Option"></p>
+<p>For the <strong>Data Item</strong> option you can choose a hidden measure or series dimension. The rule applies to all cards in a Card item.</p>
+<p><img src="../../../../images/web-dashboard-card-data-item-option.png" alt="|Web Dashboard - Card Conditional Formatting - Data Item Option"></p>
 </li>
 </ul>
 <p>To apply the appearance settings to the certain card layout element, use the drop-down <strong>Apply to</strong> list. The <em>All elements</em> value applies the format rule to all card elements.</p>
+
 </article>
           </div>
-          
+
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/24.1/dashboard-for-web/articles/web-dashboard-designer-mode/dashboard-item-settings/cards/conditional-formatting.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/fix-styles/dashboard-for-web/articles/web-dashboard-designer-mode/dashboard-item-settings/cards/conditional-formatting.md/#L1" class="contribution-link">Edit this page</a>
                   </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-                <h5>In This Article</h5>
+                <h5>In this article</h5>
                 <div></div>
               </nav>
             </div>
           </div>
         </div>
       </div>
-      
+
       <footer>
         <div class="grad-bottom"></div>
         <div class="footer">
@@ -175,14 +173,14 @@
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
-            
+      Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
+      
           </div>
         </div>
       </footer>
     </div>
-    
-    <script type="text/javascript" src="../../../../../styles/docfx.vendor.js"></script>
+
+    <script type="text/javascript" src="../../../../../styles/docfx.vendor.min.js"></script>
     <script type="text/javascript" src="../../../../../styles/docfx.js"></script>
     <script type="text/javascript" src="../../../../../styles/main.js"></script>
   </body>

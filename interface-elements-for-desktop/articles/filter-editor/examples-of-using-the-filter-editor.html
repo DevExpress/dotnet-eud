@@ -1,37 +1,29 @@
 ﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  
+
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Examples of Using the Filter Editor | DevExpress End-User Documentation </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Examples of Using the Filter Editor | DevExpress End-User Documentation ">
-    <meta name="generator" content="docfx 2.59.2.0">
-    
+    <meta name="generator" content="docfx ">
+  
     <link rel="shortcut icon" href="../../../favicon.ico">
-    <link rel="stylesheet" href="../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../styles/docfx.vendor.min.css">
     <link rel="stylesheet" href="../../../styles/docfx.css">
     <link rel="stylesheet" href="../../../styles/main.css">
     <meta property="docfx:navrel" content="../../../toc.html">
     <meta property="docfx:tocrel" content="../../toc.html">
-    
-    
-    
-    <!-- Matomo Tag Manager -->
-    <script>
-      var _mtm = window._mtm = window._mtm || [];
-      _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
-      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-      g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
-    </script>
-    <!-- End Matomo Tag Manager -->
+  
+  
+  
   </head>
   <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
-        
+
         <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
           <div class="container">
             <div class="navbar-header">
@@ -41,7 +33,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              
+
               <a class="navbar-brand" href="../../../index.html">
                 <img id="logo" class="svg" src="../../../logo.svg" alt="">
               </a>
@@ -55,7 +47,7 @@
             </div>
           </div>
         </nav>
-        
+
         <div class="subnav navbar navbar-default">
           <div class="container hide-when-search" id="breadcrumb">
             <ul class="breadcrumb">
@@ -65,7 +57,7 @@
         </div>
       </header>
       <div role="main" class="container body-content hide-when-search">
-        
+
         <div class="sidenav hide-when-search">
           <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
           <div class="sidetoggle collapse" id="sidetoggle">
@@ -80,51 +72,52 @@
 <p>The <a href="filter-data-via-the-filter-editor.html">Filter Editor</a> allows you to filter data (display those records that meet specific requirements), by visually constructing filter criteria in a straightforward graphical form.</p>
 <p>The following sections demonstrate how to construct filter criteria using the Filter Editor.</p>
 <h2 id="how-to-construct-a-simple-filter-condition">How to Construct a Simple Filter Condition</h2>
-<p>Basically, filter conditions specify what data to select from a data source and display in a data-bound control. A typical simple filter condition consists of three parts: the column/field name, operator and a value(s). For instance, &#39;[Discount] &gt;= 0.05&#39; is a simple filter condition, where &#39;[Discount]&#39; is a field name, &#39;&gt;=&#39; is an operator and &#39;0.05&#39; is a value. This condition when applied to a data-aware control will display records that have values in the Discount column greater than or equal to 0.05. Here is how to create this condition via the Filter Editor (it&#39;s assumed that the underlying data source contains the Discount column, otherwise, this column will not be accessible in the Filter Editor&#39;s column list):</p>
+<p>Basically, filter conditions specify what data to select from a data source and display in a data-bound control. A typical simple filter condition consists of three parts: the column/field name, operator and a value(s). For instance, '[Discount] &gt;= 0.05' is a simple filter condition, where '[Discount]' is a field name, '&gt;=' is an operator and '0.05' is a value. This condition when applied to a data-aware control will display records that have values in the Discount column greater than or equal to 0.05. Here is how to create this condition via the Filter Editor (it's assumed that the underlying data source contains the Discount column, otherwise, this column will not be accessible in the Filter Editor's column list):</p>
 <ol>
 <li><p><strong>Invoke the Filter Editor.</strong></p>
-<p> To invoke the Filter Editor in a grid control, right-click any grid column&#39;s header and select the Filter Editor option.</p>
-<p> <img src="../../images/img7312.png" alt="FilterEditor_SimpleCondt_Invoke"></p>
-<p> To learn how to invoke the Filter Editor for other controls, see corresponding sections in this documentation.</p>
+<p>To invoke the Filter Editor in a grid control, right-click any grid column's header and select the Filter Editor option.</p>
+<p><img src="../../images/img7312.png" alt="FilterEditor_SimpleCondt_Invoke"></p>
+<p>To learn how to invoke the Filter Editor for other controls, see corresponding sections in this documentation.</p>
 </li>
 <li><p><strong>Select a column</strong>.</p>
-<p> To filter against the Discount column, click the column name field. This will display the list of available columns. Select the Discount column in this list:</p>
-<p> <img src="../../images/img7314.png" alt="FilterEditor_SimpleCondt_NewConditionForProductName"></p>
+<p>To filter against the Discount column, click the column name field. This will display the list of available columns. Select the Discount column in this list:</p>
+<p><img src="../../images/img7314.png" alt="FilterEditor_SimpleCondt_NewConditionForProductName"></p>
 </li>
 <li><p><strong>Select a comparison operator</strong>.</p>
-<p> Click the operator field to choose the required operator.</p>
-<p> <img src="../../images/img7316.png" alt="FilterEditor_SimpleCondt_SwitchOperators"></p>
-<p> The comparison operator list displays only those operators that are supported by the current column&#39;s data type. For instance, the Discount column is of the numeric type, and the operator list doesn&#39;t display the &#39;Begins with&#39; operator and other operators that are related to strings.</p>
+<p>Click the operator field to choose the required operator.</p>
+<p><img src="../../images/img7316.png" alt="FilterEditor_SimpleCondt_SwitchOperators"></p>
+<p>The comparison operator list displays only those operators that are supported by the current column's data type. For instance, the Discount column is of the numeric type, and the operator list doesn't display the 'Begins with' operator and other operators that are related to strings.</p>
 </li>
 <li><p><strong>Enter a value</strong>.</p>
-<p> Now, click the value box and enter a comparison value (&#39;0.05&#39;):</p>
-<p> <img src="../../images/img7317.png" alt="FilterEditor_SimpleCondt_EnterValue005"></p>
+<p>Now, click the value box and enter a comparison value ('0.05'):</p>
+<p><img src="../../images/img7317.png" alt="FilterEditor_SimpleCondt_EnterValue005"></p>
 </li>
 <li><p><strong>Save changes</strong>.</p>
-<p> Click OK or Apply, to filter data using the created filter condition. The grid will show the filter panel displaying the current filter criteria:</p>
-<p> <img src="../../images/img7318.png" alt="FilterEditor_SimpleCondt_Final"></p>
-<p> The filter panel will contain the &#39;Edit Filter&#39; button, which also allows you to invoke the Filter Editor.</p>
+<p>Click OK or Apply, to filter data using the created filter condition. The grid will show the filter panel displaying the current filter criteria:</p>
+<p><img src="../../images/img7318.png" alt="FilterEditor_SimpleCondt_Final"></p>
+<p>The filter panel will contain the 'Edit Filter' button, which also allows you to invoke the Filter Editor.</p>
 </li>
 </ol>
 <h2 id="how-to-construct-filter-criteria-with-multiple-conditions-joined-by-one-logical-operator">How to Construct Filter Criteria with Multiple Conditions Joined by One Logical Operator</h2>
-<p>Filter criteria typically consist of two or more simple filter conditions combined by logical operators (AND, OR, NOT AND, NOT OR). The following example shows how to construct filter criteria in the Filter Editor that consist of multiple conditions combined by one logical operator. The &quot;[ProductName] = &#39;Tofu&#39; AND [Discount] &gt;= 0.1 AND [Quantity] &gt; 99&quot; filter expression contains three simple filter conditions combined by the AND operator. To construct it, do the following:</p>
+<p>Filter criteria typically consist of two or more simple filter conditions combined by logical operators (AND, OR, NOT AND, NOT OR). The following example shows how to construct filter criteria in the Filter Editor that consist of multiple conditions combined by one logical operator. The &quot;[ProductName] = 'Tofu' AND [Discount] &gt;= 0.1 AND [Quantity] &gt; 99&quot; filter expression contains three simple filter conditions combined by the AND operator. To construct it, do the following:</p>
 <ol>
 <li><p>Invoke the Filter Editor. When the Filter Editor is invoked for a grid control, the Filter Editor may display an unfinished new filter condition:</p>
-<p> <img src="../../images/img7328.png" alt="FilterEditor_3Cond_Invoke"></p>
+<p><img src="../../images/img7328.png" alt="FilterEditor_3Cond_Invoke"></p>
 </li>
-<li><p>Set the condition&#39;s operator to Equals and operand value to &#39;Tofu&#39; (as described in the previous section):</p>
-<p> <img src="../../images/img7329.png" alt="FilterEditor_3Cond_FirstCondt"></p>
+<li><p>Set the condition's operator to Equals and operand value to 'Tofu' (as described in the previous section):</p>
+<p><img src="../../images/img7329.png" alt="FilterEditor_3Cond_FirstCondt"></p>
 </li>
-<li><p>To add one more condition, press the <img src="../../images/img7350.png" alt="FilterEditor_EU_AddButton"> button next to the group&#39;s AND operator. This will create a new condition under the current one:</p>
-<p> <img src="../../images/img7330.png" alt="FilterEditor_3Cond_AddSecondCondt"></p>
+<li><p>To add one more condition, press the <img src="../../images/img7350.png" alt="FilterEditor_EU_AddButton"> button next to the group's AND operator. This will create a new condition under the current one:</p>
+<p><img src="../../images/img7330.png" alt="FilterEditor_3Cond_AddSecondCondt"></p>
 </li>
-<li><p>For the second condition, set the column to &#39;Unit Price&#39;, operator to &#39;&gt;=&#39; and operand value to &#39;100&#39;:</p>
-<p> <img src="../../images/img7332.png" alt="FilterEditor_3Cond_SecondCondt"></p>
+<li><p>For the second condition, set the column to 'Unit Price', operator to '&gt;=' and operand value to '100':</p>
+<p><img src="../../images/img7332.png" alt="FilterEditor_3Cond_SecondCondt"></p>
 </li>
-<li><p>To add a third condition to the same group, click the <img src="../../images/img7350.png" alt="FilterEditor_EU_AddButton"> button again. Set the condition&#39;s column to &#39;Units in Stock&#39;, operator to &#39;&gt;&#39; and operand value to &#39;50&#39;. Below is the result:</p>
-<p> <img src="../../images/img7327.png" alt="FilterEditor_3Cond_Final"></p>
+<li><p>To add a third condition to the same group, click the <img src="../../images/img7350.png" alt="FilterEditor_EU_AddButton"> button again. Set the condition's column to 'Units in Stock', operator to '&gt;' and operand value to '50'. Below is the result:</p>
+<p><img src="../../images/img7327.png" alt="FilterEditor_3Cond_Final"></p>
 </li>
-<li>Click OK or Apply, to apply the created filter criteria.</li>
+<li><p>Click OK or Apply, to apply the created filter criteria.</p>
+</li>
 </ol>
 <h2 id="how-to-construct-filter-criteria-involving-different-logical-operators">How to Construct Filter Criteria Involving Different Logical Operators</h2>
 <p>Some filter criteria contain multiple logical (Boolean) operators combining simple filter conditions. For instance, you want to see items whose price is under 10, and at the same time, the available quantity is also less than 10. At the same time, you may also want to see those items whose price is over 10, while the available quantity is also greater than 10.</p>
@@ -132,57 +125,60 @@
 <p><code>(Price is less than 10 AND Quantity is less than 10) OR (Price is greater than 10 AND Quantity is greater than 10)</code></p>
 <p>This is how you can do this:</p>
 <ol>
-<li>Invoke the Filter Editor.</li>
+<li><p>Invoke the Filter Editor.</p>
+</li>
 <li><p>Clear existing filter conditions (if any) by clicking the <img src="../../images/img7351.png" alt="FilterEditor_EU_DeleteButton">  button:</p>
-<p> <img src="../../images/img7394.png" alt="FilterEditor_4Cond_Clear"></p>
+<p><img src="../../images/img7394.png" alt="FilterEditor_4Cond_Clear"></p>
 </li>
 <li><p>Change the root logical operator to OR. To do this, click the current AND operator and select OR:</p>
-<p> <img src="../../images/img7396.png" alt="FilterEditor_4Cond_SelectOR"></p>
+<p><img src="../../images/img7396.png" alt="FilterEditor_4Cond_SelectOR"></p>
 </li>
 <li><p>Add a new filter condition group by clicking the OR operator and selecting Add Group.</p>
-<p> <img src="../../images/img7398.png" alt="FilterEditor_4Cond_Add1CondtGroup"></p>
+<p><img src="../../images/img7398.png" alt="FilterEditor_4Cond_Add1CondtGroup"></p>
 </li>
-<li><p>For the created condition, set the column to &#39;UnitPrice&#39;, operator to &#39;&lt;&#39; and operand value to &#39;10&#39;:</p>
-<p> <img src="../../images/img7399.png" alt="FilterEditor_4Cond_1CondtGroup_1Condt"></p>
+<li><p>For the created condition, set the column to 'UnitPrice', operator to '&lt;' and operand value to '10':</p>
+<p><img src="../../images/img7399.png" alt="FilterEditor_4Cond_1CondtGroup_1Condt"></p>
 </li>
 <li><p>Click the <img src="../../images/img7350.png" alt="FilterEditor_EU_AddButton"> button to add a new condition to the current group:</p>
-<p> <img src="../../images/img7403.png" alt="FilterEditor_4Cond_1CondtGroup_AddNewCondt"></p>
+<p><img src="../../images/img7403.png" alt="FilterEditor_4Cond_1CondtGroup_AddNewCondt"></p>
 </li>
-<li><p>For the new condition, set the column to &#39;Quantity&#39;, operator to &#39;&lt;&#39; and operand value to &#39;10&#39;:</p>
-<p> <img src="../../images/img7405.png" alt="FilterEditor_4Cond_1CondtGroup_2Condt"></p>
+<li><p>For the new condition, set the column to 'Quantity', operator to '&lt;' and operand value to '10':</p>
+<p><img src="../../images/img7405.png" alt="FilterEditor_4Cond_1CondtGroup_2Condt"></p>
 </li>
 <li><p>Add a new filter condition group. To do this, click the root OR operator and select Add Group.</p>
-<p> <img src="../../images/img7406.png" alt="FilterEditor_4Cond_Add2CondtGroup"></p>
+<p><img src="../../images/img7406.png" alt="FilterEditor_4Cond_Add2CondtGroup"></p>
 </li>
-<li><p>For the condition within the created group, set the column to &#39;UnitPrice&#39;, operator to &#39;&gt;&#39; and operand value to &#39;10&#39;:</p>
-<p> <img src="../../images/img7407.png" alt="FilterEditor_4Cond_2CondtGroup_1Condt"></p>
+<li><p>For the condition within the created group, set the column to 'UnitPrice', operator to '&gt;' and operand value to '10':</p>
+<p><img src="../../images/img7407.png" alt="FilterEditor_4Cond_2CondtGroup_1Condt"></p>
 </li>
-<li><p>Click the <img src="../../images/img7350.png" alt="FilterEditor_EU_AddButton"> button to add a new condition to the new group. For the new condition, set the column to &#39;Quantity&#39;, operator to &#39;&gt;&#39; and operand value to &#39;10&#39;:</p>
+<li><p>Click the <img src="../../images/img7350.png" alt="FilterEditor_EU_AddButton"> button to add a new condition to the new group. For the new condition, set the column to 'Quantity', operator to '&gt;' and operand value to '10':</p>
 <p><img src="../../images/img7410.png" alt="FilterEditor_4Cond_2CondtGroup_2Condt"></p>
 </li>
-<li>Click OK or Apply, to apply the created filter criteria.</li>
+<li><p>Click OK or Apply, to apply the created filter criteria.</p>
+</li>
 </ol>
+
 </article>
           </div>
-          
+
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/24.1/interface-elements-for-desktop/articles/filter-editor/examples-of-using-the-filter-editor.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/fix-styles/interface-elements-for-desktop/articles/filter-editor/examples-of-using-the-filter-editor.md/#L1" class="contribution-link">Edit this page</a>
                   </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-                <h5>In This Article</h5>
+                <h5>In this article</h5>
                 <div></div>
               </nav>
             </div>
           </div>
         </div>
       </div>
-      
+
       <footer>
         <div class="grad-bottom"></div>
         <div class="footer">
@@ -190,14 +186,14 @@
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
-            
+      Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
+      
           </div>
         </div>
       </footer>
     </div>
-    
-    <script type="text/javascript" src="../../../styles/docfx.vendor.js"></script>
+
+    <script type="text/javascript" src="../../../styles/docfx.vendor.min.js"></script>
     <script type="text/javascript" src="../../../styles/docfx.js"></script>
     <script type="text/javascript" src="../../../styles/main.js"></script>
   </body>

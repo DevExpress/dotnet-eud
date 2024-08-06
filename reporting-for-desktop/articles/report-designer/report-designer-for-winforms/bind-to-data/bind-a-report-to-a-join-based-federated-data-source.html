@@ -1,37 +1,29 @@
 ﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  
+
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Bind a Report to a Join-Based Federated Data Source | DevExpress End-User Documentation </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Bind a Report to a Join-Based Federated Data Source | DevExpress End-User Documentation ">
-    <meta name="generator" content="docfx 2.59.2.0">
-    
+    <meta name="generator" content="docfx ">
+  
     <link rel="shortcut icon" href="../../../../../favicon.ico">
-    <link rel="stylesheet" href="../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../styles/docfx.vendor.min.css">
     <link rel="stylesheet" href="../../../../../styles/docfx.css">
     <link rel="stylesheet" href="../../../../../styles/main.css">
     <meta property="docfx:navrel" content="../../../../../toc.html">
     <meta property="docfx:tocrel" content="../../../../toc.html">
-    
-    
-    
-    <!-- Matomo Tag Manager -->
-    <script>
-      var _mtm = window._mtm = window._mtm || [];
-      _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
-      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-      g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
-    </script>
-    <!-- End Matomo Tag Manager -->
+  
+  
+  
   </head>
   <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
-        
+
         <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
           <div class="container">
             <div class="navbar-header">
@@ -41,7 +33,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              
+
               <a class="navbar-brand" href="../../../../../index.html">
                 <img id="logo" class="svg" src="../../../../../logo.svg" alt="">
               </a>
@@ -55,7 +47,7 @@
             </div>
           </div>
         </nav>
-        
+
         <div class="subnav navbar navbar-default">
           <div class="container hide-when-search" id="breadcrumb">
             <ul class="breadcrumb">
@@ -65,7 +57,7 @@
         </div>
       </header>
       <div role="main" class="container body-content hide-when-search">
-        
+
         <div class="sidenav hide-when-search">
           <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
           <div class="sidetoggle collapse" id="sidetoggle">
@@ -85,37 +77,37 @@
 <li><p><a href="bind-a-report-to-a-database.html">Add a SQL data source</a> that provides one data table.</p>
 </li>
 <li><p><a href="bind-a-report-to-an-excel-workbook.html">Add an Excel data source</a> that provides the other data table.</p>
-<p> <img src="../../../../images/eurd-federated-datasource-excel-datasource.png" alt=""></p>
+<p><img src="../../../../images/eurd-federated-datasource-excel-datasource.png" alt=""></p>
 </li>
 </ol>
 <h2 id="create-data-federation-and-bind-the-report-to-it">Create Data Federation and Bind the Report to It</h2>
 <ol>
-<li><p>Click the report&#39;s smart tag, expand the <strong>Data Source</strong> property&#39;s drop-down menu, and click <strong>Add New DataSource</strong>.</p>
-<p> <img src="../../../../images/eurd-add-federated-datasource.png" alt=""></p>
+<li><p>Click the report's smart tag, expand the <strong>Data Source</strong> property's drop-down menu, and click <strong>Add New DataSource</strong>.</p>
+<p><img src="../../../../images/eurd-add-federated-datasource.png" alt=""></p>
 </li>
 <li><p>In the invoked <a href="../report-designer-tools/data-source-wizard.html">Data Source Wizard</a>, select <strong>Data Federation</strong> and click <strong>Next</strong>.</p>
-<p> <img src="../../../../images/eurd-data-federation-wizard.png" alt=""></p>
+<p><img src="../../../../images/eurd-data-federation-wizard.png" alt=""></p>
 </li>
 <li><p>On the next page, click <strong>Add Query</strong>.</p>
-<p> <img src="../../../../images/eurd-data-federation-wizard-add-query.png" alt=""></p>
+<p><img src="../../../../images/eurd-data-federation-wizard-add-query.png" alt=""></p>
 </li>
 <li><p>In the invoked <a href="../report-designer-tools/query-builder.html">Query Builder</a>, drag and drop the table from the SQL data source onto the design surface.</p>
-<p> <img src="../../../../images/eurd-data-federation-query-builder-drop-table.png" alt=""></p>
+<p><img src="../../../../images/eurd-data-federation-query-builder-drop-table.png" alt=""></p>
 </li>
 <li><p>Drag and drop the Excel data source onto the design surface. In the invoked <strong>Join Editor</strong>, select the <strong>Inner join</strong> type and create a relationship based on the key field.</p>
-<p> <img src="../../../../images/eurd-data-federation-query-builder-join-tables.png" alt=""></p>
+<p><img src="../../../../images/eurd-data-federation-query-builder-join-tables.png" alt=""></p>
 </li>
 <li><p>Enable checkboxes for the data fields you want to include in the query result set.</p>
-<p> <img src="../../../../images/eurd-data-federation-query-builder-select-fields.png" alt=""></p>
-<p> You can specify a different name for a field. Click the field&#39;s <strong>Alias</strong> cell and type the alias.</p>
-<p> <img src="../../../../images/eurd-data-federation-query-builder-specify-alias.png" alt=""></p>
-<p> Use the grid&#39;s empty line to add an unbound field to a query. Click the field&#39;s ellipsis button to invoke the <a href="../use-expressions.html">Expression Editor</a> and construct an expression that specifies the field&#39;s value.</p>
-<p> <img src="../../../../images/eurd-data-federation-query-builder-construct-expression.png" alt=""></p>
+<p><img src="../../../../images/eurd-data-federation-query-builder-select-fields.png" alt=""></p>
+<p>You can specify a different name for a field. Click the field's <strong>Alias</strong> cell and type the alias.</p>
+<p><img src="../../../../images/eurd-data-federation-query-builder-specify-alias.png" alt=""></p>
+<p>Use the grid's empty line to add an unbound field to a query. Click the field's ellipsis button to invoke the <a href="../use-expressions.html">Expression Editor</a> and construct an expression that specifies the field's value.</p>
+<p><img src="../../../../images/eurd-data-federation-query-builder-construct-expression.png" alt=""></p>
 </li>
 <li><p>Click <strong>OK</strong> to close the Query Builder. Click <strong>Finish</strong> to complete the Data Source Wizard.</p>
 </li>
 </ol>
-<p>The Wizard creates a new <strong>FederationDataSource</strong> that includes the single query. This data source becomes available in the <a href="../report-designer-tools/ui-panels/report-explorer.html">Report Explorer</a>&#39;s <strong>Data Sources</strong> node. The <a href="../report-designer-tools/ui-panels/field-list.html">Field List</a> reflects the data source structure.</p>
+<p>The Wizard creates a new <strong>FederationDataSource</strong> that includes the single query. This data source becomes available in the <a href="../report-designer-tools/ui-panels/report-explorer.html">Report Explorer</a>'s <strong>Data Sources</strong> node. The <a href="../report-designer-tools/ui-panels/field-list.html">Field List</a> reflects the data source structure.</p>
 <p><img src="../../../../images/eurd-data-federation-data-source-structure.png" alt=""></p>
 <p>The federated query’s default name equals to the main table’s name (the <strong>Categories</strong> table in this tutorial). You can rename this query in the <strong>Manage Queries</strong> dialog. To invoke it, right-click the data source in the <strong>Field List</strong> or <strong>Report Explorer</strong> and select <strong>Manage Queries</strong> in the context menu.</p>
 <p><img src="../../../../images/data-federation-rename-query.png" alt=""></p>
@@ -130,45 +122,46 @@
 <p><img src="../../../../images/data-federation-add-table-to-query.png" alt=""></p>
 <p>Specify the query type. Then, use the menus on the right to configure data fields for the selected or existing tables.</p>
 <p><img src="../../../../images/data-federation-configure-data-fields.png" alt=""></p>
-<p>Once you rename the query, update the report&#39;s <strong>Data Member</strong> property.</p>
+<p>Once you rename the query, update the report's <strong>Data Member</strong> property.</p>
 <p><img src="../../../../images/eurd-data-federation-report-data-source-property.png" alt=""></p>
 <h2 id="design-the-report-layout">Design the Report Layout</h2>
 <ol>
-<li><p>Click the report&#39;s smart tag and select <strong>Design in Report Wizard</strong>.</p>
-<p> <img src="../../../../images/eurd-data-federation-design-in-report-wizard.png" alt=""></p>
+<li><p>Click the report's smart tag and select <strong>Design in Report Wizard</strong>.</p>
+<p><img src="../../../../images/eurd-data-federation-design-in-report-wizard.png" alt=""></p>
 </li>
 <li><p>In the invoked <a href="../report-designer-tools/report-wizard.html">Report Wizard</a>, select <strong>Table Report</strong> and click <strong>Next</strong>.</p>
-<p> <img src="../../../../images/eurd-data-federation-report-wizard-table-report.png" alt=""></p>
+<p><img src="../../../../images/eurd-data-federation-report-wizard-table-report.png" alt=""></p>
 </li>
 <li><p>Select data fields to display in the report and click <strong>Finish</strong>. You can also go to the <a href="../report-designer-tools/report-wizard/table-report/add-grouping-levels.html">next page</a> to create the layout.</p>
-<p> <img src="../../../../images/eurd-data-federation-report-wizard-select-fields.png" alt=""></p>
+<p><img src="../../../../images/eurd-data-federation-report-wizard-select-fields.png" alt=""></p>
 </li>
 </ol>
 <p>The resulting layout looks similar to the following image:</p>
 <p><img src="../../../../images/eurd-data-federation-report-layout-result.png" alt=""></p>
 <p>Switch to the Preview mode to see the report document.</p>
 <p><img src="../../../../images/eurd-data-federation-report-document-result.png" alt=""></p>
+
 </article>
           </div>
-          
+
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/24.1/reporting-for-desktop/articles/report-designer/report-designer-for-winforms/bind-to-data/bind-a-report-to-a-join-based-federated-data-source.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/fix-styles/reporting-for-desktop/articles/report-designer/report-designer-for-winforms/bind-to-data/bind-a-report-to-a-join-based-federated-data-source.md/#L1" class="contribution-link">Edit this page</a>
                   </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-                <h5>In This Article</h5>
+                <h5>In this article</h5>
                 <div></div>
               </nav>
             </div>
           </div>
         </div>
       </div>
-      
+
       <footer>
         <div class="grad-bottom"></div>
         <div class="footer">
@@ -176,14 +169,14 @@
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
-            
+      Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
+      
           </div>
         </div>
       </footer>
     </div>
-    
-    <script type="text/javascript" src="../../../../../styles/docfx.vendor.js"></script>
+
+    <script type="text/javascript" src="../../../../../styles/docfx.vendor.min.js"></script>
     <script type="text/javascript" src="../../../../../styles/docfx.js"></script>
     <script type="text/javascript" src="../../../../../styles/main.js"></script>
   </body>

@@ -1,37 +1,29 @@
 ﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  
+
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Formatting Data | DevExpress End-User Documentation </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Formatting Data | DevExpress End-User Documentation ">
-    <meta name="generator" content="docfx 2.59.2.0">
-    
+    <meta name="generator" content="docfx ">
+  
     <link rel="shortcut icon" href="../../../../favicon.ico">
-    <link rel="stylesheet" href="../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../styles/docfx.vendor.min.css">
     <link rel="stylesheet" href="../../../../styles/docfx.css">
     <link rel="stylesheet" href="../../../../styles/main.css">
     <meta property="docfx:navrel" content="../../../../toc.html">
     <meta property="docfx:tocrel" content="../../../toc.html">
-    
-    
-    
-    <!-- Matomo Tag Manager -->
-    <script>
-      var _mtm = window._mtm = window._mtm || [];
-      _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
-      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-      g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
-    </script>
-    <!-- End Matomo Tag Manager -->
+  
+  
+  
   </head>
   <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
-        
+
         <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
           <div class="container">
             <div class="navbar-header">
@@ -41,7 +33,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              
+
               <a class="navbar-brand" href="../../../../index.html">
                 <img id="logo" class="svg" src="../../../../logo.svg" alt="">
               </a>
@@ -55,7 +47,7 @@
             </div>
           </div>
         </nav>
-        
+
         <div class="subnav navbar navbar-default">
           <div class="container hide-when-search" id="breadcrumb">
             <ul class="breadcrumb">
@@ -65,7 +57,7 @@
         </div>
       </header>
       <div role="main" class="container body-content hide-when-search">
-        
+
         <div class="sidenav hide-when-search">
           <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
           <div class="sidetoggle collapse" id="sidetoggle">
@@ -83,7 +75,7 @@
 <li><a href="#formatting-date-time-values">Formatting Date-Time Values</a></li>
 <li><a href="#currency-formatting-specifics">Currency Formatting Specifics</a></li>
 </ul>
-<h2 id="a-nameformatting-numeric-valuesformatting-numeric-values"><a name="formatting-numeric-values"></a>Formatting Numeric Values</h2>
+<h2 id="formatting-numeric-values"><a name="formatting-numeric-values"></a>Formatting Numeric Values</h2>
 <p>To specify a format for numeric values, select <strong>Format</strong> from the data item menu.</p>
 <p><img src="../../../images/img19376.png" alt="Formatting_Numeric_MenuItem"></p>
 <p>This invokes the <strong>Numeric Format</strong> window.</p>
@@ -160,152 +152,175 @@
 </tr>
 </tbody>
 </table>
-<h2 id="a-nameformatting-date-time-valuesformatting-date-time-values"><a name="formatting-date-time-values"></a>Formatting Date-Time Values</h2>
+<h2 id="formatting-date-time-values"><a name="formatting-date-time-values"></a>Formatting Date-Time Values</h2>
 <p>To specify a format for date-time values, use the <strong>Format</strong> submenu in the data item menu.</p>
 <p><img src="../../../images/img19382.png" alt="Formatting_DateTime_ContextMenu"></p>
 <p>This submenu lists the available format types that depend on the selected group interval (for details on group intervals, see <a href="grouping.html">Grouping</a>).</p>
-<div class="NOTE"><h5>Note</h5><p>Specific group intervals do not have format options. This means that corresponding values can only be presented in a single manner. The <strong>Format</strong> submenu is not displayed for such group intervals.</p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>Specific group intervals do not have format options. This means that corresponding values can only be presented in a single manner. The <strong>Format</strong> submenu is not displayed for such group intervals.</p>
 </div>
 <p>The following list shows format types by group interval.</p>
 <ul>
-<li>Year<ul>
-<li><em>Full</em> - The full year pattern (Example - 6&#47;15&#47;2017 1:45:30 PM -&gt; 2017 (en-US)).</li>
-<li><em>Abbreviated</em> - The year from 00 to 99 (Example - 6&#47;15&#47;2017 1:45:30 PM -&gt; 17 (en-US)).</li>
+<li>Year
+<ul>
+<li><em>Full</em> - The full year pattern (Example - 6/15/2017 1:45:30 PM -&gt; 2017 (en-US)).</li>
+<li><em>Abbreviated</em> - The year from 00 to 99 (Example - 6/15/2017 1:45:30 PM -&gt; 17 (en-US)).</li>
 </ul>
 </li>
-<li>Quarter<ul>
-<li><em>Full</em> - The full quarter pattern (Example: 6&#47;15&#47;2017 1:45:30 PM -&gt; Q2 (en-US)).</li>
-<li><em>Numeric</em> - The quarter from 1 through 4 (Example: 6&#47;15&#47;2017 1:45:30 PM -&gt; 2 (en-US)).</li>
+<li>Quarter
+<ul>
+<li><em>Full</em> - The full quarter pattern (Example: 6/15/2017 1:45:30 PM -&gt; Q2 (en-US)).</li>
+<li><em>Numeric</em> - The quarter from 1 through 4 (Example: 6/15/2017 1:45:30 PM -&gt; 2 (en-US)).</li>
 </ul>
 </li>
-<li>Month<ul>
-<li><em>Full</em> - The full name of the month (Example: 6&#47;15&#47;2017 1:45:30 PM -&gt; June (en-US)).</li>
-<li><em>Abbreviated</em> - The abbreviated name of the month (Example: 6&#47;15&#47;2017 1:45:30 PM -&gt; Jun (en-US)).</li>
-<li><em>Numeric</em> - The month from 1 through 12 (Example: 6&#47;15&#47;2017 1:45:30 PM -&gt; 6 (en-US)).</li>
+<li>Month
+<ul>
+<li><em>Full</em> - The full name of the month (Example: 6/15/2017 1:45:30 PM -&gt; June (en-US)).</li>
+<li><em>Abbreviated</em> - The abbreviated name of the month (Example: 6/15/2017 1:45:30 PM -&gt; Jun (en-US)).</li>
+<li><em>Numeric</em> - The month from 1 through 12 (Example: 6/15/2017 1:45:30 PM -&gt; 6 (en-US)).</li>
 </ul>
 </li>
-<li>Hour<ul>
-<li><em>Long</em> - Long hour pattern, 12-hour format (Example: 6&#47;15&#47;2017 1:45:30 PM -&gt; 1:00 PM).</li>
-<li><em>Short</em> - Short hour pattern, 24-hour format (Example: 6&#47;15&#47;2017 1:45:30 PM -&gt; 13).</li>
+<li>Hour
+<ul>
+<li><em>Long</em> - Long hour pattern, 12-hour format (Example: 6/15/2017 1:45:30 PM -&gt; 1:00 PM).</li>
+<li><em>Short</em> - Short hour pattern, 24-hour format (Example: 6/15/2017 1:45:30 PM -&gt; 13).</li>
 </ul>
 </li>
-<li>Day of Week<ul>
-<li><em>Full</em> - The full name of the day of the week (Example: 6&#47;15&#47;2017 1:45:30 PM -&gt; Monday (en-US)).</li>
-<li><em>Abbreviated</em> - The abbreviated name of the day of the week (Example: 6&#47;15&#47;2017 1:45:30 PM -&gt; Mon (en-US)).</li>
-<li><em>Numeric</em> - The day of the week from 1 through 7 (Example: 6&#47;15&#47;2017 1:45:30 PM -&gt; 2 (en-US)).</li>
+<li>Day of Week
+<ul>
+<li><em>Full</em> - The full name of the day of the week (Example: 6/15/2017 1:45:30 PM -&gt; Monday (en-US)).</li>
+<li><em>Abbreviated</em> - The abbreviated name of the day of the week (Example: 6/15/2017 1:45:30 PM -&gt; Mon (en-US)).</li>
+<li><em>Numeric</em> - The day of the week from 1 through 7 (Example: 6/15/2017 1:45:30 PM -&gt; 2 (en-US)).</li>
 </ul>
 </li>
-<li>Day-Month-Year<ul>
-<li><em>Long</em> - Long date pattern (Example: 6&#47;15&#47;2017 1:45:30 PM -&gt; Monday, June 15, 2017 (en-US)).</li>
-<li><em>Short</em> - Short date pattern (Example: 6&#47;15&#47;2017 1:45:30 PM -&gt; 6&#47;15&#47;2017 (en-US)).</li>
+<li>Day-Month-Year
+<ul>
+<li><em>Long</em> - Long date pattern (Example: 6/15/2017 1:45:30 PM -&gt; Monday, June 15, 2017 (en-US)).</li>
+<li><em>Short</em> - Short date pattern (Example: 6/15/2017 1:45:30 PM -&gt; 6/15/2017 (en-US)).</li>
 </ul>
 </li>
-<li>Date-Hour<ul>
-<li><em>Long</em> - Long date pattern, long hour pattern (Example: 6&#47;15&#47;2017 1:45:30 PM -&gt; Monday, June 15, 2017 1:00 PM (en-US)).</li>
-<li><em>Short</em> - Short date pattern, long hour pattern (Example: 6&#47;15&#47;2017 1:45:30 PM -&gt; 6&#47;15&#47;2017 1:00 PM (en-US)).</li>
-<li><em>Time only</em> - Long hour pattern (Example: 6&#47;15&#47;2017 1:45:30 PM -&gt; 1:00 PM (en-US)).</li>
+<li>Date-Hour
+<ul>
+<li><em>Long</em> - Long date pattern, long hour pattern (Example: 6/15/2017 1:45:30 PM -&gt; Monday, June 15, 2017 1:00 PM (en-US)).</li>
+<li><em>Short</em> - Short date pattern, long hour pattern (Example: 6/15/2017 1:45:30 PM -&gt; 6/15/2017 1:00 PM (en-US)).</li>
+<li><em>Time only</em> - Long hour pattern (Example: 6/15/2017 1:45:30 PM -&gt; 1:00 PM (en-US)).</li>
 </ul>
 </li>
-<li>Date-Hour-Minute<ul>
-<li><em>Long</em> - Long date pattern, long time pattern (Example: 6&#47;15&#47;2017 1:45:30 PM -&gt; Monday, June 15, 2017 1:45 PM (en-US)).</li>
-<li><em>Short</em> - Short date pattern, long time pattern (Example: 6&#47;15&#47;2017 1:45:30 PM -&gt; 6&#47;15&#47;2017 1:45 PM (en-US)).</li>
-<li><em>Time only</em> - Long time pattern (Example: 6&#47;15&#47;2017 1:45:30 PM -&gt; 1:45 PM (en-US)).</li>
+<li>Date-Hour-Minute
+<ul>
+<li><em>Long</em> - Long date pattern, long time pattern (Example: 6/15/2017 1:45:30 PM -&gt; Monday, June 15, 2017 1:45 PM (en-US)).</li>
+<li><em>Short</em> - Short date pattern, long time pattern (Example: 6/15/2017 1:45:30 PM -&gt; 6/15/2017 1:45 PM (en-US)).</li>
+<li><em>Time only</em> - Long time pattern (Example: 6/15/2017 1:45:30 PM -&gt; 1:45 PM (en-US)).</li>
 </ul>
 </li>
-<li>Date-Hour-Minute-Second<ul>
-<li><em>Long</em> - Long date pattern, long time pattern (Example: 6&#47;15&#47;2017 1:45:30 PM -&gt; Monday, June 15, 2017 1:45:30 PM (en-US)).</li>
-<li><em>Short</em> - Short date pattern, long time pattern (Example: 6&#47;15&#47;2017 1:45:30 PM -&gt; 6&#47;15&#47;2017 1:45:30 PM (en-US)).</li>
-<li><em>Time only</em> - Long time pattern (Example: 6&#47;15&#47;2017 1:45:30 PM -&gt; 1:45:30 PM (en-US)).</li>
+<li>Date-Hour-Minute-Second
+<ul>
+<li><em>Long</em> - Long date pattern, long time pattern (Example: 6/15/2017 1:45:30 PM -&gt; Monday, June 15, 2017 1:45:30 PM (en-US)).</li>
+<li><em>Short</em> - Short date pattern, long time pattern (Example: 6/15/2017 1:45:30 PM -&gt; 6/15/2017 1:45:30 PM (en-US)).</li>
+<li><em>Time only</em> - Long time pattern (Example: 6/15/2017 1:45:30 PM -&gt; 1:45:30 PM (en-US)).</li>
 </ul>
 </li>
 </ul>
 <p>The list below illustrates format types related to the <strong>Exact Date</strong> group interval.</p>
 <ul>
-<li>Year<ul>
+<li>Year
+<ul>
 <li><em>Full</em> - The full year pattern (Example: 6/15/2017 1:45:30 PM -&gt; 2017 (en-US)).</li>
 <li><em>Abbreviated</em> - The year from 00 to 99 (Example: 6/15/2017 1:45:30 PM -&gt; 17 (en-US)).</li>
 </ul>
 </li>
-<li>Quarter<ul>
+<li>Quarter
+<ul>
 <li><em>n/a</em> - The default year and full quarter pattern (Example: 6/15/2017 1:45:30 PM -&gt; Q2 2017 (en-US)).</li>
 </ul>
 </li>
-<li>Month<ul>
+<li>Month
+<ul>
 <li><em>n/a</em> - The default year pattern and the full name of the month (Example: 6/15/2017 1:45:30 PM -&gt; June, 2017 (en-US)).</li>
 </ul>
 </li>
-<li>Day<ul>
+<li>Day
+<ul>
 <li><em>Long</em> - Long date pattern (Example: 6/15/2017 1:45:30 PM -&gt; Monday, June 15, 2017 (en-US)).</li>
 <li><em>Short</em> - Short date pattern (Example: 6/15/2017 1:45:30 PM -&gt; 6/15/2017 (en-US)).</li>
 </ul>
 </li>
-<li>Hour<ul>
+<li>Hour
+<ul>
 <li><em>Long</em> - Long date pattern, long time pattern (Example: 6/15/2017 1:45:30 PM -&gt; Monday, June 15, 2017 1:00 PM (en-US)).</li>
 <li><em>Short</em> - Short date pattern, long time pattern (Example: 6/15/2017 1:45:30 PM -&gt; 6/15/2017 1:00 PM (en-US)).</li>
 <li><em>Time only</em> - Long time pattern (Example: 6/15/2017 1:45:30 PM -&gt; 1:00 PM (en-US)).</li>
 </ul>
 </li>
-<li>Minute<ul>
-<li><em>Long</em> - Long date pattern, long time pattern (Example: 6&#47;15&#47;2017 1:45:30 PM -&gt; Monday, June 15, 2017 1:45 PM (en-US)).</li>
-<li><em>Short</em> - Short date pattern, long time pattern (Example: 6&#47;15&#47;2017 1:45:30 PM -&gt; 6&#47;15&#47;2017 1:45 PM (en-US)).</li>
-<li><em>Time only</em> - Long time pattern (Example: 6&#47;15&#47;2017 1:45:30 PM -&gt; 1:45 PM (en-US)).</li>
+<li>Minute
+<ul>
+<li><em>Long</em> - Long date pattern, long time pattern (Example: 6/15/2017 1:45:30 PM -&gt; Monday, June 15, 2017 1:45 PM (en-US)).</li>
+<li><em>Short</em> - Short date pattern, long time pattern (Example: 6/15/2017 1:45:30 PM -&gt; 6/15/2017 1:45 PM (en-US)).</li>
+<li><em>Time only</em> - Long time pattern (Example: 6/15/2017 1:45:30 PM -&gt; 1:45 PM (en-US)).</li>
 </ul>
 </li>
-<li>Second<ul>
-<li><em>Long</em> - Long date pattern, long time pattern (Example: 6&#47;15&#47;2017 1:45:30 PM -&gt; Monday, June 15, 2017 1:45:30 PM (en-US)).</li>
-<li><em>Short</em> - Short date pattern, long time pattern (Example: 6&#47;15&#47;2017 1:45:30 PM -&gt; 6&#47;15&#47;2017 1:45:30 PM (en-US)).</li>
-<li><em>Time only</em> - Long time pattern (Example: 6&#47;15&#47;2017 1:45:30 PM -&gt; 1:45:30 PM (en-US)).</li>
+<li>Second
+<ul>
+<li><em>Long</em> - Long date pattern, long time pattern (Example: 6/15/2017 1:45:30 PM -&gt; Monday, June 15, 2017 1:45:30 PM (en-US)).</li>
+<li><em>Short</em> - Short date pattern, long time pattern (Example: 6/15/2017 1:45:30 PM -&gt; 6/15/2017 1:45:30 PM (en-US)).</li>
+<li><em>Time only</em> - Long time pattern (Example: 6/15/2017 1:45:30 PM -&gt; 1:45:30 PM (en-US)).</li>
 </ul>
 </li>
 </ul>
-<h2 id="a-namecurrency-formatting-specificscurrency-formatting-specifics"><a name="currency-formatting-specifics"></a>Currency Formatting Specifics</h2>
+<h2 id="currency-formatting-specifics"><a name="currency-formatting-specifics"></a>Currency Formatting Specifics</h2>
 <p>The Dashboard allows you to specify a currency format at two levels: for the entire dashboard and for individual data items.</p>
 <ol>
 <li><p><strong>Data Item Currency</strong></p>
-<p> To specify which currency to use for a particular data item, select <strong>Format</strong> from the data item menu.</p>
-<p> <img src="../../../images/img19376.png" alt="Formatting_Numeric_MenuItem"></p>
-<p> In the <strong>Numeric Format</strong> dialog, select <em>Currency</em> in the <strong>Format type</strong> field and use the <strong>Currency</strong> combo box to select the required currency.</p>
-<p> <img src="../../../images/img19380.png" alt="Formatting_Numeric_Dialog_Currency"></p>
-<div class="NOTE"><h5>Note</h5><p>This option only affects the way values are displayed. The Dashboard <strong>does not</strong> convert monetary amounts from one currency to another.</p>
+<p>To specify which currency to use for a particular data item, select <strong>Format</strong> from the data item menu.</p>
+<p><img src="../../../images/img19376.png" alt="Formatting_Numeric_MenuItem"></p>
+<p>In the <strong>Numeric Format</strong> dialog, select <em>Currency</em> in the <strong>Format type</strong> field and use the <strong>Currency</strong> combo box to select the required currency.</p>
+<p><img src="../../../images/img19380.png" alt="Formatting_Numeric_Dialog_Currency"></p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>This option only affects the way values are displayed. The Dashboard <strong>does not</strong> convert monetary amounts from one currency to another.</p>
 </div>
-<p> For regions with several cultures, you can also select the culture that will be used to format currency values.</p>
-<p> <img src="../../../images/img19381.png" alt="Formatting_Numeric_Dialog_CurrencyCulture"></p>
-<p> You can also apply the default dashboard currency by selecting <em>Use dashboard settings</em> in the <strong>Currency</strong> field.</p>
+<p>For regions with several cultures, you can also select the culture that will be used to format currency values.</p>
+<p><img src="../../../images/img19381.png" alt="Formatting_Numeric_Dialog_CurrencyCulture"></p>
+<p>You can also apply the default dashboard currency by selecting <em>Use dashboard settings</em> in the <strong>Currency</strong> field.</p>
 </li>
 <li><p><strong>Dashboard Currency</strong></p>
-<p> You can also specify the default currency for the dashboard. This setting will be applied to dashboard items that have no currency defined.</p>
-<p> To set the dashboard currency, click the <strong>Currency</strong> button in the Ribbon.</p>
-<p> <img src="../../../images/img19379.png" alt="Formatting_Numeric_Currency_RibbonButton"></p>
-<p> This invokes the <strong>Dashboard Currency</strong> window. In this window, select the required currency using the <strong>Currency</strong> combo box.</p>
-<p> <img src="../../../images/img19378.png" alt="Formatting_Numeric_Currency_DashboardCurrencyDialog_Currency"></p>
-<div class="NOTE"><h5>Note</h5><p>This option only affects the way values are displayed. The Dashboard <strong>does not</strong> convert monetary amounts from one currency to another.</p>
+<p>You can also specify the default currency for the dashboard. This setting will be applied to dashboard items that have no currency defined.</p>
+<p>To set the dashboard currency, click the <strong>Currency</strong> button in the Ribbon.</p>
+<p><img src="../../../images/img19379.png" alt="Formatting_Numeric_Currency_RibbonButton"></p>
+<p>This invokes the <strong>Dashboard Currency</strong> window. In this window, select the required currency using the <strong>Currency</strong> combo box.</p>
+<p><img src="../../../images/img19378.png" alt="Formatting_Numeric_Currency_DashboardCurrencyDialog_Currency"></p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>This option only affects the way values are displayed. The Dashboard <strong>does not</strong> convert monetary amounts from one currency to another.</p>
 </div>
-<p> For regions with several cultures, you can also select the culture that will be used to format currency values.</p>
-<p> <img src="../../../images/img19381.png" alt="Formatting_Numeric_Dialog_CurrencyCulture"></p>
-<p> Additionally, you can specify the client culture that should be used for the dashboard by selecting the <em>Use client system settings</em> item. In this instance, the current system culture will be used in WinForms applications, and the client culture will be used in Web applications.</p>
+<p>For regions with several cultures, you can also select the culture that will be used to format currency values.</p>
+<p><img src="../../../images/img19381.png" alt="Formatting_Numeric_Dialog_CurrencyCulture"></p>
+<p>Additionally, you can specify the client culture that should be used for the dashboard by selecting the <em>Use client system settings</em> item. In this instance, the current system culture will be used in WinForms applications, and the client culture will be used in Web applications.</p>
 </li>
 </ol>
+
 </article>
           </div>
-          
+
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/24.1/dashboard-for-desktop/articles/dashboard-designer/data-shaping/formatting-data.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/fix-styles/dashboard-for-desktop/articles/dashboard-designer/data-shaping/formatting-data.md/#L1" class="contribution-link">Edit this page</a>
                   </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-                <h5>In This Article</h5>
+                <h5>In this article</h5>
                 <div></div>
               </nav>
             </div>
           </div>
         </div>
       </div>
-      
+
       <footer>
         <div class="grad-bottom"></div>
         <div class="footer">
@@ -313,14 +328,14 @@
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
-            
+      Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
+      
           </div>
         </div>
       </footer>
     </div>
-    
-    <script type="text/javascript" src="../../../../styles/docfx.vendor.js"></script>
+
+    <script type="text/javascript" src="../../../../styles/docfx.vendor.min.js"></script>
     <script type="text/javascript" src="../../../../styles/docfx.js"></script>
     <script type="text/javascript" src="../../../../styles/main.js"></script>
   </body>

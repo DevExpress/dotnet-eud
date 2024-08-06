@@ -1,37 +1,29 @@
 ﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  
+
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Report Parameters | DevExpress End-User Documentation </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Report Parameters | DevExpress End-User Documentation ">
-    <meta name="generator" content="docfx 2.59.2.0">
-    
+    <meta name="generator" content="docfx ">
+  
     <link rel="shortcut icon" href="../../../../../../favicon.ico">
-    <link rel="stylesheet" href="../../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../../styles/docfx.vendor.min.css">
     <link rel="stylesheet" href="../../../../../../styles/docfx.css">
     <link rel="stylesheet" href="../../../../../../styles/main.css">
     <meta property="docfx:navrel" content="../../../../../../toc.html">
     <meta property="docfx:tocrel" content="../../../../../toc.html">
-    
-    
-    
-    <!-- Matomo Tag Manager -->
-    <script>
-      var _mtm = window._mtm = window._mtm || [];
-      _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
-      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-      g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
-    </script>
-    <!-- End Matomo Tag Manager -->
+  
+  
+  
   </head>
   <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
-        
+
         <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
           <div class="container">
             <div class="navbar-header">
@@ -41,7 +33,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              
+
               <a class="navbar-brand" href="../../../../../../index.html">
                 <img id="logo" class="svg" src="../../../../../../logo.svg" alt="">
               </a>
@@ -55,7 +47,7 @@
             </div>
           </div>
         </nav>
-        
+
         <div class="subnav navbar navbar-default">
           <div class="container hide-when-search" id="breadcrumb">
             <ul class="breadcrumb">
@@ -65,7 +57,7 @@
         </div>
       </header>
       <div role="main" class="container body-content hide-when-search">
-        
+
         <div class="sidenav hide-when-search">
           <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
           <div class="sidetoggle collapse" id="sidetoggle">
@@ -84,82 +76,85 @@
 <li><a href="#create">Creating Parameters</a></li>
 <li><a href="#result">Passing Parameter Values</a></li>
 </ul>
-<p><a name="using"></a></p>
+<a name="using"></a>
 <h2 id="using-parameters">Using Parameters</h2>
 <p>Report parameters provide the capability to pass data of a certain type to a report and can be used in different ways listed below.</p>
 <ul>
 <li><p><strong>Filtering</strong></p>
-<p>  You can use a report parameter to filter report data according to the current parameter value by specifying the report&#39;s <strong>Filter String</strong>. For more information, see the <a href="../shaping-data/filtering-data.html">Filtering Data</a> topic.</p>
-<p>  <img src="../../../../../images/img123693.png" alt="EUD_WpfReportDersigner_Filtering_3"></p>
+<p>You can use a report parameter to filter report data according to the current parameter value by specifying the report's <strong>Filter String</strong>. For more information, see the <a href="../shaping-data/filtering-data.html">Filtering Data</a> topic.</p>
+<p><img src="../../../../../images/img123693.png" alt="EUD_WpfReportDersigner_Filtering_3"></p>
 </li>
 <li><p><strong>Data Binding</strong></p>
-<p>  To show a parameter&#39;s value in a report, drag the parameter from the <a href="../../interface-elements/field-list.html">Field List</a> panel and drop it onto the required band. This creates a <strong>Label</strong> bound to the parameter, as with an ordinary data field.</p>
-<p>  <img src="../../../../../images/img123830.png" alt="EUD_WpfReportDesigner_Parameters_1"></p>
-<p>  For more information, see the <a href="binding-report-controls-to-data.html">Binding Report Controls to Data</a> topic.</p>
+<p>To show a parameter's value in a report, drag the parameter from the <a href="../../interface-elements/field-list.html">Field List</a> panel and drop it onto the required band. This creates a <strong>Label</strong> bound to the parameter, as with an ordinary data field.</p>
+<p><img src="../../../../../images/img123830.png" alt="EUD_WpfReportDesigner_Parameters_1"></p>
+<p>For more information, see the <a href="binding-report-controls-to-data.html">Binding Report Controls to Data</a> topic.</p>
 </li>
 <li><p><strong>Calculated Fields and Conditional Formatting</strong></p>
-<p>  Parameters can participate in constructing expressions for <a href="calculated-fields.html">calculated fields</a> and <a href="../appearance-customization/conditionally-change-a-controls-appearance.html">formatting rules</a>, as well as standard data fields. The only difference is that a parameter is inserted into the expression&#39;s text using the &quot;<strong>Parameters.</strong>&quot; prefix before its name.</p>
-<p>  <img src="../../../../../images/img123831.png" alt="EUD_WpfReportDesigner_Parameters_2"></p>
+<p>Parameters can participate in constructing expressions for <a href="calculated-fields.html">calculated fields</a> and <a href="../appearance-customization/conditionally-change-a-controls-appearance.html">formatting rules</a>, as well as standard data fields. The only difference is that a parameter is inserted into the expression's text using the &quot;<strong>Parameters.</strong>&quot; prefix before its name.</p>
+<p><img src="../../../../../images/img123831.png" alt="EUD_WpfReportDesigner_Parameters_2"></p>
 </li>
 <li><p><strong>Cascading Parameters</strong></p>
-<p>  You can filter parameter values by specifying the filtering expression that can also include other parameter values. To construct this filtering expression, set the parameter&#39;s  <strong>Look-Up Settings Type</strong> property to <strong>StaticList</strong> or <strong>DynamicList</strong> and then specify its <strong>Filter String</strong> property.</p>
-<p>  <img src="../../../../../images/img123832.png" alt="EUD_WpfReportDesigner_Parameters_3"></p>
+<p>You can filter parameter values by specifying the filtering expression that can also include other parameter values. To construct this filtering expression, set the parameter's  <strong>Look-Up Settings Type</strong> property to <strong>StaticList</strong> or <strong>DynamicList</strong> and then specify its <strong>Filter String</strong> property.</p>
+<p><img src="../../../../../images/img123832.png" alt="EUD_WpfReportDesigner_Parameters_3"></p>
 </li>
 <li><p><strong>Multi-Value Parameters</strong></p>
-<p>  If a parameter is bound to a collection of standard values, it is possible to store more than one value in it. To do this, enable the parameter&#39;s <strong>MultiValue</strong> property.</p>
-<p>  <img src="../../../../../images/img123833.png" alt="EUD_WpfReportDesigner_Parameters_4"></p>
-<p>  Multi-value parameters are useful when you need to filter report data against a list of values. The image below demonstrates a correct filtering expression that incorporates a multi-value parameter.</p>
-<p>  <img src="../../../../../images/img123834.png" alt="EUD_WpfReportDesigner_Parameters_5"></p>
-<p>  The following image demonstrates an editor for a multi-value parameter in a <a href="../../document-preview.html">Print Preview</a>.</p>
-<p>  <img src="../../../../../images/img123835.png" alt="EUD_WpfReportDesigner_Parameters_6"></p>
+<p>If a parameter is bound to a collection of standard values, it is possible to store more than one value in it. To do this, enable the parameter's <strong>MultiValue</strong> property.</p>
+<p><img src="../../../../../images/img123833.png" alt="EUD_WpfReportDesigner_Parameters_4"></p>
+<p>Multi-value parameters are useful when you need to filter report data against a list of values. The image below demonstrates a correct filtering expression that incorporates a multi-value parameter.</p>
+<p><img src="../../../../../images/img123834.png" alt="EUD_WpfReportDesigner_Parameters_5"></p>
+<p>The following image demonstrates an editor for a multi-value parameter in a <a href="../../document-preview.html">Print Preview</a>.</p>
+<p><img src="../../../../../images/img123835.png" alt="EUD_WpfReportDesigner_Parameters_6"></p>
 </li>
 </ul>
-<p><a name="create"></a></p>
+<a name="create"></a>
 <h2 id="creating-parameters">Creating Parameters</h2>
 <p>To create report parameters, follow the steps below.</p>
 <ol>
-<li><a href="../basic-operations/create-a-new-report.html">Create a new report</a> and bind it to a data source.</li>
-<li><p>In the <a href="../../interface-elements/field-list.html">Field List</a> panel, right-click the <strong>Parameters</strong> section and in the invoked menu, click <strong>Add Parameter</strong>.</p>
-<p> <img src="../../../../../images/img123797.png" alt="EUD_WpfReportDesigner_Parametrized_1"></p>
+<li><p><a href="../basic-operations/create-a-new-report.html">Create a new report</a> and bind it to a data source.</p>
 </li>
-<li><p>In the invoked <strong>Add New Parameter</strong> dialog, set the created parameter&#39;s <strong>Name</strong> and <strong>Description</strong> properties and make sure to set its <strong>Type</strong> to an appropriate value. To display this parameter in the <a href="../../document-preview.html">Print Preview</a>, enable the <strong>Show in the parameters panel</strong> option.</p>
-<p> <img src="../../../../../images/img123798.png" alt="EUD_WpfReportDesigner_Parametrized_2"></p>
+<li><p>In the <a href="../../interface-elements/field-list.html">Field List</a> panel, right-click the <strong>Parameters</strong> section and in the invoked menu, click <strong>Add Parameter</strong>.</p>
+<p><img src="../../../../../images/img123797.png" alt="EUD_WpfReportDesigner_Parametrized_1"></p>
+</li>
+<li><p>In the invoked <strong>Add New Parameter</strong> dialog, set the created parameter's <strong>Name</strong> and <strong>Description</strong> properties and make sure to set its <strong>Type</strong> to an appropriate value. To display this parameter in the <a href="../../document-preview.html">Print Preview</a>, enable the <strong>Show in the parameters panel</strong> option.</p>
+<p><img src="../../../../../images/img123798.png" alt="EUD_WpfReportDesigner_Parametrized_2"></p>
 </li>
 <li><p>To assign a list of values to this report parameter, enable the <strong>Supports the collection of standard values</strong> option.</p>
-<p> In the <strong>Dynamic values</strong> tab, you can specify a parameter&#39;s data source, data member, value member and display member. The value member defines a data field that provides values to the parameter. The display member defines a data field that provides display names for parameter values, i.e., how these values appear in the user interface available in a <a href="../../document-preview.html">Print Preview</a>.</p>
-<p> In the <strong>Static values</strong> tab, you can manually fill the list of parameter values. Each parameter value has an individual description specifying how this value appears in the <a href="../../document-preview/parameters-panel.html">Parameters Panel</a>.</p>
-<p> <img src="../../../../../images/img123800.png" alt="EUD_WpfReportDesigner_Parametrized_3"></p>
+<p>In the <strong>Dynamic values</strong> tab, you can specify a parameter's data source, data member, value member and display member. The value member defines a data field that provides values to the parameter. The display member defines a data field that provides display names for parameter values, i.e., how these values appear in the user interface available in a <a href="../../document-preview.html">Print Preview</a>.</p>
+<p>In the <strong>Static values</strong> tab, you can manually fill the list of parameter values. Each parameter value has an individual description specifying how this value appears in the <a href="../../document-preview/parameters-panel.html">Parameters Panel</a>.</p>
+<p><img src="../../../../../images/img123800.png" alt="EUD_WpfReportDesigner_Parametrized_3"></p>
 </li>
-<li>Then, repeat the previous steps to create the second parameter, so that every time your report is previewed, you will be asked to specify two dates.</li>
-<li><p>Next, use parameters to filter your report&#39;s data. Select report, and in the <a href="../../interface-elements/properties-panel.html">Properties Panel</a>, click the ellipsis button for the <strong>Filter String</strong> property. Then, in the invoked <strong>Filter String Editor</strong>, construct an expression where a data field is compared with the created parameters. To access parameters, click the icon on the right until it turns into a question mark.</p>
-<p> <img src="../../../../../images/img123801.png" alt="EUD_WpfReportDesigner_Parametrized_4"></p>
+<li><p>Then, repeat the previous steps to create the second parameter, so that every time your report is previewed, you will be asked to specify two dates.</p>
+</li>
+<li><p>Next, use parameters to filter your report's data. Select report, and in the <a href="../../interface-elements/properties-panel.html">Properties Panel</a>, click the ellipsis button for the <strong>Filter String</strong> property. Then, in the invoked <strong>Filter String Editor</strong>, construct an expression where a data field is compared with the created parameters. To access parameters, click the icon on the right until it turns into a question mark.</p>
+<p><img src="../../../../../images/img123801.png" alt="EUD_WpfReportDesigner_Parametrized_4"></p>
 </li>
 </ol>
-<p><a name="result"></a></p>
+<a name="result"></a>
 <h2 id="passing-parameter-values">Passing Parameter Values</h2>
 <p>To view the resulting report in the Report Designer, switch to the <a href="../../document-preview.html">Print Preview</a> tab. For a report containing at least one visible parameter, the dedicated <a href="../../document-preview/parameters-panel.html">Parameters Panel</a> is automatically created in the Preview. This panel provides appropriate editors based on parameter types. To pass parameter values to the report, specify the required values and click <strong>Submit</strong>.</p>
 <p><img src="../../../../../images/img123802.png" alt="EUD_WpfReportDesigner_Parametrized_Result"></p>
+
 </article>
           </div>
-          
+
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/24.1/reporting-for-desktop/articles/report-designer/report-designer-for-wpf/creating-reports/providing-data/report-parameters.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/fix-styles/reporting-for-desktop/articles/report-designer/report-designer-for-wpf/creating-reports/providing-data/report-parameters.md/#L1" class="contribution-link">Edit this page</a>
                   </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-                <h5>In This Article</h5>
+                <h5>In this article</h5>
                 <div></div>
               </nav>
             </div>
           </div>
         </div>
       </div>
-      
+
       <footer>
         <div class="grad-bottom"></div>
         <div class="footer">
@@ -167,14 +162,14 @@
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
-            
+      Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
+      
           </div>
         </div>
       </footer>
     </div>
-    
-    <script type="text/javascript" src="../../../../../../styles/docfx.vendor.js"></script>
+
+    <script type="text/javascript" src="../../../../../../styles/docfx.vendor.min.js"></script>
     <script type="text/javascript" src="../../../../../../styles/docfx.js"></script>
     <script type="text/javascript" src="../../../../../../styles/main.js"></script>
   </body>

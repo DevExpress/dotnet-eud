@@ -1,37 +1,29 @@
 ﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  
+
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Conditional Formatting | DevExpress End-User Documentation </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Conditional Formatting | DevExpress End-User Documentation ">
-    <meta name="generator" content="docfx 2.59.2.0">
-    
+    <meta name="generator" content="docfx ">
+  
     <link rel="shortcut icon" href="../../../../favicon.ico">
-    <link rel="stylesheet" href="../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../styles/docfx.vendor.min.css">
     <link rel="stylesheet" href="../../../../styles/docfx.css">
     <link rel="stylesheet" href="../../../../styles/main.css">
     <meta property="docfx:navrel" content="../../../../toc.html">
     <meta property="docfx:tocrel" content="../../../toc.html">
-    
-    
-    
-    <!-- Matomo Tag Manager -->
-    <script>
-      var _mtm = window._mtm = window._mtm || [];
-      _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
-      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-      g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
-    </script>
-    <!-- End Matomo Tag Manager -->
+  
+  
+  
   </head>
   <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
-        
+
         <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
           <div class="container">
             <div class="navbar-header">
@@ -41,7 +33,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              
+
               <a class="navbar-brand" href="../../../../index.html">
                 <img id="logo" class="svg" src="../../../../logo.svg" alt="">
               </a>
@@ -55,7 +47,7 @@
             </div>
           </div>
         </nav>
-        
+
         <div class="subnav navbar navbar-default">
           <div class="container hide-when-search" id="breadcrumb">
             <ul class="breadcrumb">
@@ -65,7 +57,7 @@
         </div>
       </header>
       <div role="main" class="container body-content hide-when-search">
-        
+
         <div class="sidenav hide-when-search">
           <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
           <div class="sidetoggle collapse" id="sidetoggle">
@@ -96,39 +88,42 @@
 </ul>
 <p>Format conditions that can be applied to different data item types are as follows:</p>
 <ul>
-<li>numeric <ul>
+<li>numeric
+<ul>
 <li><strong>Value</strong></li>
 <li><strong>Top-Bottom</strong></li>
 <li><strong>Average</strong></li>
-<li><strong>Expression</strong> </li>
+<li><strong>Expression</strong></li>
 <li><strong>Icon Ranges</strong></li>
 <li><strong>Color Ranges</strong></li>
 <li><strong>Gradient Ranges</strong></li>
-<li><strong>Bar</strong> </li>
-<li><strong>Bar Color Ranges</strong> </li>
-<li><strong>Bar Gradient Ranges</strong> </li>
+<li><strong>Bar</strong></li>
+<li><strong>Bar Color Ranges</strong></li>
+<li><strong>Bar Gradient Ranges</strong></li>
 </ul>
 </li>
-<li>string <ul>
+<li>string
+<ul>
 <li><strong>Value</strong> (with the condition type set to <em>Equal To</em>, <em>Not Equal To</em> or <em>Text that Contains</em>)</li>
 <li><strong>Expression</strong></li>
 </ul>
 </li>
-<li>date-time <ul>
+<li>date-time
+<ul>
 <li><strong>Value</strong></li>
 <li>A <strong>Date Occurring</strong> (for dimensions with a continuous date-time group interval)</li>
 <li><strong>Expression</strong></li>
 <li><strong>Icon and Color Ranges</strong></li>
 <li><strong>Color Ranges</strong></li>
 <li><strong>Gradient Ranges</strong></li>
-<li><strong>Bar</strong> </li>
-<li><strong>Bar Color Ranges</strong> </li>
-<li><strong>Bar Gradient Ranges</strong> </li>
+<li><strong>Bar</strong></li>
+<li><strong>Bar Color Ranges</strong></li>
+<li><strong>Bar Gradient Ranges</strong></li>
 </ul>
 </li>
 </ul>
 <h2 id="create-a-format-rule">Create a Format Rule</h2>
-<p>To create a format rule, open the <strong>Conditional Formatting</strong> section in the <a href="../ui-elements/data-item-menu.html">data item menu</a> or in the the dashboard item&#39;s <a href="../ui-elements/dashboard-item-menu.html">Options</a> menu. Click &quot;+&quot; to add a new format rule:</p>
+<p>To create a format rule, open the <strong>Conditional Formatting</strong> section in the <a href="../ui-elements/data-item-menu.html">data item menu</a> or in the the dashboard item's <a href="../ui-elements/dashboard-item-menu.html">Options</a> menu. Click &quot;+&quot; to add a new format rule:</p>
 <p><img src="../../../images/wed-dashboard-cf-add-rule.png" alt="wed-dashboard-cf-add-rule"></p>
 <p>Specify the data item/card used to calculate a condition in the <strong>Calculated by</strong> field in the <strong>Common</strong> section. You can use values from one data item to apply the style settings to a different item. To do this, specify the data item in the <strong>Apply to</strong> section.</p>
 <p>Select a condition type from the list in the <strong>Common</strong> section. Available condition types depend on the data item’s type.</p>
@@ -149,14 +144,14 @@
 <p>For Grid, Pivot, and Card items, you can specify the following settings:</p>
 <ul>
 <li><p><strong>Appearance</strong></p>
-<p>  In the <strong>Appearance</strong> tab, select a predefined style from the <strong>Predefined Appearance</strong> section or specify a <em>Custom Style</em> in the <strong>Custom Appearance</strong> section.</p>
-<p>  <img src="../../../images/wdd-cf-appearance-gallery126044.png" alt="Web Dashboard - Appearance Tab"></p>
-<p>  To create a <em>Custom Style</em>, click on an empty square in the <strong>Custom Appearance</strong> section. In the invoked <strong>Custom Style Settings</strong> editor, specify the background color, text color, and font settings:</p>
-<p>  <img src="../../../images/web-dashboard-cf-custom-style.png" alt="Web Dashboard -  Custom Style Editor"></p>
+<p>In the <strong>Appearance</strong> tab, select a predefined style from the <strong>Predefined Appearance</strong> section or specify a <em>Custom Style</em> in the <strong>Custom Appearance</strong> section.</p>
+<p><img src="../../../images/wdd-cf-appearance-gallery126044.png" alt="Web Dashboard - Appearance Tab"></p>
+<p>To create a <em>Custom Style</em>, click on an empty square in the <strong>Custom Appearance</strong> section. In the invoked <strong>Custom Style Settings</strong> editor, specify the background color, text color, and font settings:</p>
+<p><img src="../../../images/web-dashboard-cf-custom-style.png" alt="Web Dashboard -  Custom Style Editor"></p>
 </li>
 <li><p><strong>Icons</strong></p>
-<p>  You can select an predefined icon from the <strong>Icon</strong> tab.</p>
-<p>  <img src="../../../images/wdd-cf-icons-gallery126045.png" alt="Web Dashboard - Icons Tab"></p>
+<p>You can select an predefined icon from the <strong>Icon</strong> tab.</p>
+<p><img src="../../../images/wdd-cf-icons-gallery126045.png" alt="Web Dashboard - Icons Tab"></p>
 </li>
 </ul>
 <h3 id="chart-scatter-chart">Chart, Scatter Chart</h3>
@@ -169,29 +164,30 @@
 <li><a href="../dashboard-item-settings/pivot/conditional-formatting.html">Conditional Formatting - Pivot</a></li>
 <li><a href="../dashboard-item-settings/cards/conditional-formatting.html">Conditional Formatting - Card</a></li>
 <li><a href="../dashboard-item-settings/chart/conditional-formatting.html">Conditional Formatting - Chart</a></li>
-<li><a href="../dashboard-item-settings/scatter-chart/conditional-formatting.html">Conditional Formatting - Scatter Chart</a> </li>
+<li><a href="../dashboard-item-settings/scatter-chart/conditional-formatting.html">Conditional Formatting - Scatter Chart</a></li>
 </ul>
+
 </article>
           </div>
-          
+
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/24.1/dashboard-for-web/articles/web-dashboard-designer-mode/appearance-customization/conditional-formatting.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/fix-styles/dashboard-for-web/articles/web-dashboard-designer-mode/appearance-customization/conditional-formatting.md/#L1" class="contribution-link">Edit this page</a>
                   </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-                <h5>In This Article</h5>
+                <h5>In this article</h5>
                 <div></div>
               </nav>
             </div>
           </div>
         </div>
       </div>
-      
+
       <footer>
         <div class="grad-bottom"></div>
         <div class="footer">
@@ -199,14 +195,14 @@
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
-            
+      Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
+      
           </div>
         </div>
       </footer>
     </div>
-    
-    <script type="text/javascript" src="../../../../styles/docfx.vendor.js"></script>
+
+    <script type="text/javascript" src="../../../../styles/docfx.vendor.min.js"></script>
     <script type="text/javascript" src="../../../../styles/docfx.js"></script>
     <script type="text/javascript" src="../../../../styles/main.js"></script>
   </body>

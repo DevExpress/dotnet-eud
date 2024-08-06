@@ -1,37 +1,29 @@
 ﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  
+
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Use Charts in Reports | DevExpress End-User Documentation </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Use Charts in Reports | DevExpress End-User Documentation ">
-    <meta name="generator" content="docfx 2.59.2.0">
-    
+    <meta name="generator" content="docfx ">
+  
     <link rel="shortcut icon" href="../../../../../favicon.ico">
-    <link rel="stylesheet" href="../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../styles/docfx.vendor.min.css">
     <link rel="stylesheet" href="../../../../../styles/docfx.css">
     <link rel="stylesheet" href="../../../../../styles/main.css">
     <meta property="docfx:navrel" content="../../../../../toc.html">
     <meta property="docfx:tocrel" content="../../../../toc.html">
-    
-    
-    
-    <!-- Matomo Tag Manager -->
-    <script>
-      var _mtm = window._mtm = window._mtm || [];
-      _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
-      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-      g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
-    </script>
-    <!-- End Matomo Tag Manager -->
+  
+  
+  
   </head>
   <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
-        
+
         <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
           <div class="container">
             <div class="navbar-header">
@@ -41,7 +33,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              
+
               <a class="navbar-brand" href="../../../../../index.html">
                 <img id="logo" class="svg" src="../../../../../logo.svg" alt="">
               </a>
@@ -55,7 +47,7 @@
             </div>
           </div>
         </nav>
-        
+
         <div class="subnav navbar navbar-default">
           <div class="container hide-when-search" id="breadcrumb">
             <ul class="breadcrumb">
@@ -65,7 +57,7 @@
         </div>
       </header>
       <div role="main" class="container body-content hide-when-search">
-        
+
         <div class="sidenav hide-when-search">
           <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
           <div class="sidetoggle collapse" id="sidetoggle">
@@ -112,19 +104,19 @@
 <p><img src="../../../../images/eurd-web-chart-designer-bind-series-to-data.png" alt=""></p>
 <h2 id="bind-to-data">Bind to Data</h2>
 <p>To provide data to a chart, use the <strong>Data Source</strong> property.</p>
-<p>When the chart data source is not assigned, the chart obtains data from the report&#39;s data source </p>
+<p>When the chart data source is not assigned, the chart obtains data from the report's data source</p>
 <p>A chart can display report data in the following ways:</p>
 <ul>
 <li><p>Place a chart on the report header/footer band to display a summary for the detail report data.</p>
-<p>  <img src="../../../../images/eurd-web-chart-in-report-header.png" alt=""></p>
+<p><img src="../../../../images/eurd-web-chart-in-report-header.png" alt=""></p>
 </li>
 <li><p>Place a chart on a group header/footer to visualize data in each report group. Refer to the <a href="use-charts-to-visualize-grouped-data.html">Use Charts to Visualize Grouped Data</a> step-by-step tutorial for more information.</p>
-<p>  <img src="../../../../images/eurd-web-chart-in-group-footer.png" alt=""></p>
+<p><img src="../../../../images/eurd-web-chart-in-group-footer.png" alt=""></p>
 </li>
-<li><p>The chart in the Detail band is printed as many times as there are records in the report&#39;s data source. </p>
+<li><p>The chart in the Detail band is printed as many times as there are records in the report's data source.</p>
 </li>
 </ul>
-<p>Specify the following settings to provide data to a chart&#39;s series.</p>
+<p>Specify the following settings to provide data to a chart's series.</p>
 <ul>
 <li>The <strong>Argument Data Member</strong> property specifies the data field that provides point arguments.</li>
 <li>The <strong>Value Data Members</strong> property specifies the data fields that supply point values.</li>
@@ -132,33 +124,34 @@
 <p>You can specify these settings in the following ways:</p>
 <ul>
 <li><p><strong>Bind each series individually</strong></p>
-<p>  Add a new series to the chart and specify the argument and value data members. Refer to the <a href="add-a-chart-set-up-series-manually.html">Add a Chart (Set Up Series Manually)</a> step-by-step tutorial for details.</p>
+<p>Add a new series to the chart and specify the argument and value data members. Refer to the <a href="add-a-chart-set-up-series-manually.html">Add a Chart (Set Up Series Manually)</a> step-by-step tutorial for details.</p>
 </li>
 <li><p><strong>Create series dynamically</strong></p>
-<p>  Assign the data field that contains series names to the chart&#39;s <strong>Series Data Member</strong> property and specify the argument and value data members using the series template. Refer to the <a href="add-a-chart-use-a-series-template.html">Add a Chart (Use a Series Template)</a> step-by-step tutorial for more information.</p>
+<p>Assign the data field that contains series names to the chart's <strong>Series Data Member</strong> property and specify the argument and value data members using the series template. Refer to the <a href="add-a-chart-use-a-series-template.html">Add a Chart (Use a Series Template)</a> step-by-step tutorial for more information.</p>
 </li>
 </ul>
+
 </article>
           </div>
-          
+
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/24.1/reporting-for-web/articles/report-designer/use-report-elements/use-charts/use-charts-in-reports.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/fix-styles/reporting-for-web/articles/report-designer/use-report-elements/use-charts/use-charts-in-reports.md/#L1" class="contribution-link">Edit this page</a>
                   </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-                <h5>In This Article</h5>
+                <h5>In this article</h5>
                 <div></div>
               </nav>
             </div>
           </div>
         </div>
       </div>
-      
+
       <footer>
         <div class="grad-bottom"></div>
         <div class="footer">
@@ -166,14 +159,14 @@
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
-            
+      Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
+      
           </div>
         </div>
       </footer>
     </div>
-    
-    <script type="text/javascript" src="../../../../../styles/docfx.vendor.js"></script>
+
+    <script type="text/javascript" src="../../../../../styles/docfx.vendor.min.js"></script>
     <script type="text/javascript" src="../../../../../styles/docfx.js"></script>
     <script type="text/javascript" src="../../../../../styles/main.js"></script>
   </body>

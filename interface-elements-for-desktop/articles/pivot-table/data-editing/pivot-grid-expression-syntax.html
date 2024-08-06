@@ -1,37 +1,29 @@
 ﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  
+
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Pivot Grid Expression Syntax | DevExpress End-User Documentation </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Pivot Grid Expression Syntax | DevExpress End-User Documentation ">
-    <meta name="generator" content="docfx 2.59.2.0">
-    
+    <meta name="generator" content="docfx ">
+  
     <link rel="shortcut icon" href="../../../../favicon.ico">
-    <link rel="stylesheet" href="../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../styles/docfx.vendor.min.css">
     <link rel="stylesheet" href="../../../../styles/docfx.css">
     <link rel="stylesheet" href="../../../../styles/main.css">
     <meta property="docfx:navrel" content="../../../../toc.html">
     <meta property="docfx:tocrel" content="../../../toc.html">
-    
-    
-    
-    <!-- Matomo Tag Manager -->
-    <script>
-      var _mtm = window._mtm = window._mtm || [];
-      _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
-      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-      g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
-    </script>
-    <!-- End Matomo Tag Manager -->
+  
+  
+  
   </head>
   <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
-        
+
         <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
           <div class="container">
             <div class="navbar-header">
@@ -41,7 +33,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              
+
               <a class="navbar-brand" href="../../../../index.html">
                 <img id="logo" class="svg" src="../../../../logo.svg" alt="">
               </a>
@@ -55,7 +47,7 @@
             </div>
           </div>
         </nav>
-        
+
         <div class="subnav navbar navbar-default">
           <div class="container hide-when-search" id="breadcrumb">
             <ul class="breadcrumb">
@@ -65,7 +57,7 @@
         </div>
       </header>
       <div role="main" class="container body-content hide-when-search">
-        
+
         <div class="sidenav hide-when-search">
           <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
           <div class="sidetoggle collapse" id="sidetoggle">
@@ -78,7 +70,9 @@
 <h1 id="pivot-grid-expression-syntax">Pivot Grid Expression Syntax</h1>
 
 <p>The following topic contains constants, operators, and functions you can use in Pivot Grid <a href="edit-unbound-expression.html">expressions</a>.</p>
-<div class="NOTE"><h5>Note</h5><p>Refer to <a href="../../expression-editor/expression-operators-functions-and-constants.html">Criteria Language Syntax</a> for a list of basic constants, operators, and functions DevExpress products support.</p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>Refer to <a href="../../expression-editor/expression-operators-functions-and-constants.html">Criteria Language Syntax</a> for a list of basic constants, operators, and functions DevExpress products support.</p>
 </div>
 <h2 id="constants">Constants</h2>
 <table>
@@ -87,53 +81,63 @@
 <th>Constant</th>
 <th>Description</th>
 <th>Example</th>
+<th></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>String</td>
 <td>Wrap string constants in apostrophes.</td>
-<td>[Country] = &#39;France&#39;</td>
+<td>[Country] = 'France'</td>
+<td></td>
 </tr>
 <tr>
 <td>constants</td>
 <td>If a string contains an apostrophe, use double apostrophes.</td>
-<td>[Name] = &#39;O&#39;&#39;Neil&#39;</td>
+<td>[Name] = 'O''Neil'</td>
+<td></td>
 </tr>
 <tr>
 <td>Date-time constants</td>
-<td>Wrap date-time constants in hash symbol &#39;#&#39;.</td>
+<td>Wrap date-time constants in hash symbol '#'.</td>
 <td>[OrderDate] &gt;= #2018-03-22 13:18:51.94944#</td>
+<td></td>
 </tr>
 <tr>
-<td>Represents the &#39;True&#39; Boolean value.</td>
+<td>Represents the 'True' Boolean value.</td>
 <td>[InStock] = True</td>
 <td>[InStock] = True</td>
+<td></td>
 </tr>
 <tr>
 <td>False</td>
-<td>Represents the &#39;False&#39; Boolean value.</td>
+<td>Represents the 'False' Boolean value.</td>
 <td>[InStock] = False</td>
+<td></td>
 </tr>
 <tr>
 <td>Enumeration</td>
-<td>To specify an enumeration value,  use its underlying integer value. Do not use an enumeration&#39;s qualified name in an expression.</td>
+<td>To specify an enumeration value,  use its underlying integer value. Do not use an enumeration's qualified name in an expression.</td>
 <td><em>Correct</em>: [Status] = 1 <br> <em>Incorrect</em>: [Status] = Status.InProgress</td>
+<td><br></td>
 </tr>
 <tr>
 <td>GUID</td>
 <td>Wrap a GUID constant in curly braces. Use GUID constants only with equality and inequality operators.</td>
 <td>[OrderID] = {513724e5-17b7-4ec6-abc4-0eae12c72c1f}</td>
+<td></td>
 </tr>
 <tr>
 <td>Numeric</td>
-<td>Add suffixes to literals to specify a numeric type: <br> * Int32 (int) </br> * Int16 (short) <br> * Byte (byte)  </br>  * Double (double)  <br>  * Single (float) </br> * Decimal (decimal) <br></td>
-<td><br> * [ID] = 25 </br> * [Qty] = 25s  <br>  * [ByteField] = 201b </br> * [Price] = 25.0  <br>  * [Price] = 25.0f </br> * [Price] = 25.0m <br></td>
+<td>Add suffixes to literals to specify a numeric type: <br> * Int32 (int) <br> * Int16 (short) <br> * Byte (byte)  <br>  * Double (double)  <br>  * Single (float) <br> * Decimal (decimal) <br></td>
+<td><br> * [ID] = 25 <br> * [Qty] = 25s  <br>  * [ByteField] = 201b <br> * [Price] = 25.0  <br>  * [Price] = 25.0f <br> * [Price] = 25.0m <br></td>
+<td></td>
 </tr>
 <tr>
 <td>?</td>
 <td>A missing, invalid or unknown value. We recommend using the <strong>IsNull</strong> unary operator (&quot;[Region] Is Null&quot;) or the <strong>IsNull</strong> logical function (&quot;IsNull([Region])&quot;) instead.</td>
 <td>[Region] != ?</td>
+<td></td>
 </tr>
 </tbody>
 </table>
@@ -144,123 +148,147 @@
 <th>Operator</th>
 <th>Description</th>
 <th>Example</th>
+<th></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>+</td>
 <td>Calculates the sum of two numeric  operands. Concatenates the string representations of operands, if one of them is a string.</td>
-<td>[UnitPrice] + 4 <br> [FirstName] + &#39; &#39; + [LastName] </br></td>
+<td>[UnitPrice] + 4 <br> [FirstName] + ' ' + [LastName] <br></td>
+<td></td>
 </tr>
 <tr>
 <td>-</td>
 <td>Subtracts the second operand from the first operand.</td>
 <td>[Price1] - [Price2]</td>
+<td></td>
 </tr>
 <tr>
 <td>*</td>
 <td>Multiplies operands.</td>
 <td>[Quantity] * [UnitPrice]</td>
+<td></td>
 </tr>
 <tr>
 <td>/</td>
 <td>Divides the first operand by the second operand.</td>
 <td>[Quantity] / 2</td>
+<td></td>
 </tr>
 <tr>
 <td>%</td>
 <td>Returns the remainder after division of  the first operand by the second operand.</td>
 <td>[Quantity] % 3</td>
+<td></td>
 </tr>
 <tr>
 <td>|</td>
 <td>Performs a bitwise inclusive OR on two numeric expressions. Compares each bit of its first operand to the corresponding bit of its second operand. If either bit is 1, the corresponding resulting bit is set to 1. Otherwise, the corresponding resulting bit is set to 0.</td>
 <td>[Number] | [Number]</td>
+<td></td>
 </tr>
 <tr>
 <td>&amp;</td>
 <td>The bitwise AND operator. Compares each bit of its first operand to the corresponding bit of its second operand. If both bits are 1, the corresponding resulting bit is set to 1. Otherwise, the corresponding resulting bit is set to 0.</td>
 <td>[Number] &amp; 10</td>
+<td></td>
 </tr>
 <tr>
 <td>^</td>
 <td>Performs a bitwise exclusive OR on two numeric expressions.</td>
 <td>[Number] ^ [Number]</td>
+<td></td>
 </tr>
 <tr>
-<td>= <br>  == </br></td>
+<td>= <br>  == <br></td>
 <td>Returns true if operands are equal; otherwise, it returns false.</td>
 <td>[Quantity] = 10</td>
+<td></td>
 </tr>
 <tr>
 <td>!=</td>
 <td>Returns true if operands are not equal; otherwise, it returns false.</td>
-<td>[Country] != &#39;France&#39;</td>
+<td>[Country] != 'France'</td>
+<td></td>
 </tr>
 <tr>
 <td>&lt;</td>
-<td>Relational &#39;less than&#39; operator.</td>
+<td>Relational 'less than' operator.</td>
 <td>[UnitPrice] &lt; 20</td>
+<td></td>
 </tr>
 <tr>
 <td>&lt;=</td>
-<td>Relational &#39;less than or equal&#39; operator.</td>
+<td>Relational 'less than or equal' operator.</td>
 <td>[UnitPrice] &lt;= 20</td>
+<td></td>
 </tr>
 <tr>
 <td>&gt;=</td>
-<td>Relational &#39;greater than or equal&#39; operator.</td>
+<td>Relational 'greater than or equal' operator.</td>
 <td>[UnitPrice] &gt;= 30</td>
+<td></td>
 </tr>
 <tr>
 <td>&gt;</td>
-<td>Relational &#39;greater than&#39; operator.</td>
+<td>Relational 'greater than' operator.</td>
 <td>[UnitPrice] &gt; 30</td>
+<td></td>
 </tr>
 <tr>
-<td>And <br>  &amp;&amp;  </br></td>
+<td>And <br>  &amp;&amp;  <br></td>
 <td>Performs a logical conjunction on two Boolean expressions.</td>
-<td>[InStock] And ([ExtendedPrice]&gt; 100) <br> [InStock] &amp;&amp; ([ExtendedPrice]&gt; 100) </br></td>
+<td>[InStock] And ([ExtendedPrice]&gt; 100) <br> [InStock] &amp;&amp; ([ExtendedPrice]&gt; 100) <br></td>
+<td></td>
 </tr>
 <tr>
-<td>Or <br> || </br></td>
+<td>Or <br> || <br></td>
 <td>Performs a logical disjunction on two Boolean expressions.</td>
-<td>[Country]==&#39;USA&#39; Or [Country]==&#39;UK&#39; <br> [Country]==&#39;USA&#39; || [Country]==&#39;UK&#39; </br></td>
+<td>[Country]=='USA' Or [Country]=='UK' <br> [Country]=='USA' || [Country]=='UK' <br></td>
+<td></td>
 </tr>
 <tr>
 <td>~</td>
 <td>Performs a bitwise negation on a numeric expression.</td>
 <td>~[Roles] = 251</td>
+<td></td>
 </tr>
 <tr>
-<td>Not <br> !  </br></td>
+<td>Not <br> !  <br></td>
 <td>Performs a logical negation on a Boolean expression.</td>
-<td>Not [InStock] <br> ![InStock]  </br></td>
+<td>Not [InStock] <br> ![InStock]  <br></td>
+<td></td>
 </tr>
 <tr>
 <td>+</td>
-<td>Returns a numeric expression&#39;s value (a unary operator).</td>
+<td>Returns a numeric expression's value (a unary operator).</td>
 <td>+[Value] = 10</td>
+<td></td>
 </tr>
 <tr>
 <td>-</td>
-<td>Returns the negative of a numeric expression&#39;s value (a unary operator).</td>
+<td>Returns the negative of a numeric expression's value (a unary operator).</td>
 <td>-[Value] = 20</td>
+<td></td>
 </tr>
 <tr>
 <td>Is Null</td>
 <td>Returns true if an expression is a null reference, the one that does not refer to any object.</td>
 <td>[Region] is null</td>
+<td></td>
 </tr>
 <tr>
 <td>In (value1,value2,...)</td>
 <td>Specifies a list of values to test. Returns <strong>true</strong> if an operand is equal to a value contained in a list.</td>
-<td>[Country] In (&#39;USA&#39;, &#39;UK&#39;, &#39;Italy&#39;)</td>
+<td>[Country] In ('USA', 'UK', 'Italy')</td>
+<td></td>
 </tr>
 <tr>
 <td>Between (value1,value2)</td>
 <td>Specifies a range to test. Returns <strong>true</strong> if an operand is greater than or equal to the value1 and less than or equal to the value2.</td>
-<td>[Quantity] Between(10, 20) <br>  [Product Name] Between(&#39;Ikura&#39;,&#39;Pavlova&#39;) </br></td>
+<td>[Quantity] Between(10, 20) <br>  [Product Name] Between('Ikura','Pavlova') <br></td>
+<td></td>
 </tr>
 </tbody>
 </table>
@@ -276,7 +304,7 @@
 <tbody>
 <tr>
 <td>Avg(Value)</td>
-<td>Returns the average of the values. <br> <img src="../../../images/func_average4457.png" alt="func-average"> </br></td>
+<td>Returns the average of the values. <br> <img src="../../../images/func_average4457.png" alt="func-average"> <br></td>
 <td>Avg([Quantity]) returns an average quantity of goods in an order, if the pivot table is built upon the data table where each row is an order. The Quantity values are summarized for all orders in the underlying data table, and the result is divided by the total number of orders.</td>
 </tr>
 <tr>
@@ -643,7 +671,7 @@
 </tr>
 <tr>
 <td>LocalDateTimeTomorrow()</td>
-<td>Returns the tomorrow&#39;s date.</td>
+<td>Returns the tomorrow's date.</td>
 <td>AddDays(LocalDateTimeTomorrow(), 5)</td>
 </tr>
 <tr>
@@ -668,7 +696,7 @@
 </tr>
 <tr>
 <td>LocalDateTimeYesterday()</td>
-<td>Returns the yesterday&#39;s date.</td>
+<td>Returns the yesterday's date.</td>
 <td>AddDays(LocalDateTimeYesterday(), 5)</td>
 </tr>
 <tr>
@@ -678,7 +706,7 @@
 </tr>
 <tr>
 <td>Today()</td>
-<td>Returns a DateTime value that is the today&#39;s date with the time component set to 00:00:00 (midnight).</td>
+<td>Returns a DateTime value that is the today's date with the time component set to 00:00:00 (midnight).</td>
 <td>AddMonths(Today(), 1)</td>
 </tr>
 <tr>
@@ -700,8 +728,8 @@
 <tbody>
 <tr>
 <td>Iif(Expression1, True_Value1, ..., ExpressionN, True_ValueN, False_Value)</td>
-<td>Returns one of several specified values depending upon the values of logical expressions. The function can take 2N+1 arguments (N - the number of specified logical expressions): <br> * Each odd argument specifies a logical expression; </br>  * Each even argument specifies the value that is returned if the previous expression evaluates to <strong>true</strong> <br></td>
-<td>Iif(Name = &#39;Bob&#39;, 1, 0) <br> Iif(Name = &#39;Bob&#39;, 1, Name = &#39;Dan&#39;, 2, Name = &#39;Sam&#39;, 3, 0) </br></td>
+<td>Returns one of several specified values depending upon the values of logical expressions. The function can take 2N+1 arguments (N - the number of specified logical expressions): <br> * Each odd argument specifies a logical expression; <br>  * Each even argument specifies the value that is returned if the previous expression evaluates to <strong>true</strong> <br></td>
+<td>Iif(Name = 'Bob', 1, 0) <br> Iif(Name = 'Bob', 1, Name = 'Dan', 2, Name = 'Sam', 3, 0) <br></td>
 </tr>
 <tr>
 <td>IsNull(Value)</td>
@@ -732,22 +760,22 @@
 <tbody>
 <tr>
 <td>Abs(Value)</td>
-<td>Returns the given numeric expression&#39;s absolute, positive value.</td>
+<td>Returns the given numeric expression's absolute, positive value.</td>
 <td>Abs(1 - [Discount])</td>
 </tr>
 <tr>
 <td>Acos(Value)</td>
-<td>Returns a number&#39;s arccosine (the angle in radians, whose cosine is the given float expression).</td>
+<td>Returns a number's arccosine (the angle in radians, whose cosine is the given float expression).</td>
 <td>Acos([Value])</td>
 </tr>
 <tr>
 <td>Asin(Value)</td>
-<td>Returns a number&#39;s arcsine (the angle in radians, whose sine is the given float expression).</td>
+<td>Returns a number's arcsine (the angle in radians, whose sine is the given float expression).</td>
 <td>Asin([Value])</td>
 </tr>
 <tr>
 <td>Atn(Value)</td>
-<td>Returns a number&#39;s arctangent (the angle in radians, whose tangent is the given float expression).</td>
+<td>Returns a number's arctangent (the angle in radians, whose tangent is the given float expression).</td>
 <td>Atn([Value])</td>
 </tr>
 <tr>
@@ -767,17 +795,17 @@
 </tr>
 <tr>
 <td>Cos(Value)</td>
-<td>Returns the angle&#39;s cosine, in radians.</td>
+<td>Returns the angle's cosine, in radians.</td>
 <td>Cos([Value])</td>
 </tr>
 <tr>
 <td>Cosh(Value)</td>
-<td>Returns the angle&#39;s hyperbolic cosine, in radians.</td>
+<td>Returns the angle's hyperbolic cosine, in radians.</td>
 <td>Cosh([Value])</td>
 </tr>
 <tr>
 <td>Exp(Value)</td>
-<td>Returns the float expression&#39;s exponential value.</td>
+<td>Returns the float expression's exponential value.</td>
 <td>Exp([Value])</td>
 </tr>
 <tr>
@@ -787,7 +815,7 @@
 </tr>
 <tr>
 <td>Log(Value)</td>
-<td>Returns a specified number&#39;s natural logarithm.</td>
+<td>Returns a specified number's natural logarithm.</td>
 <td>Log([Value])</td>
 </tr>
 <tr>
@@ -797,7 +825,7 @@
 </tr>
 <tr>
 <td>Log10(Value)</td>
-<td>Returns a specified number&#39;s base 10 logarithm.</td>
+<td>Returns a specified number's base 10 logarithm.</td>
 <td>Log10([Value])</td>
 </tr>
 <tr>
@@ -900,7 +928,7 @@
 <tr>
 <td>Ascii(String)</td>
 <td>Returns the ASCII code value of the leftmost character in a character expression.</td>
-<td>Ascii(&#39;a&#39;)</td>
+<td>Ascii('a')</td>
 </tr>
 <tr>
 <td>Char(Number)</td>
@@ -910,32 +938,32 @@
 <tr>
 <td>CharIndex(String1, String2)</td>
 <td>Returns the starting position of String1 within String2, beginning from the zero character position to the end of a string.</td>
-<td>CharIndex(&#39;e&#39;, &#39;devexpress&#39;)</td>
+<td>CharIndex('e', 'devexpress')</td>
 </tr>
 <tr>
 <td>CharIndex(String1, String2, StartLocation)</td>
 <td>Returns the starting position of String1 within String2, beginning from the StartLocation character position to the end of a string.</td>
-<td>CharIndex(&#39;e&#39;, &#39;devexpress&#39;, 2)</td>
+<td>CharIndex('e', 'devexpress', 2)</td>
 </tr>
 <tr>
 <td>Concat(String1, ... , StringN)</td>
 <td>Returns a string value containing the concatenation of the current string with any additional strings.</td>
-<td>Concat(&#39;A&#39;, &#39;)&#39;, [ProductName])</td>
+<td>Concat('A', ')', [ProductName])</td>
 </tr>
 <tr>
 <td>Contains(String1, SubString1)</td>
 <td>Returns True if SubString1 occurs within String1; otherwise, False is returned.</td>
-<td>Contains([ProductName], &#39;dairy&#39;)</td>
+<td>Contains([ProductName], 'dairy')</td>
 </tr>
 <tr>
 <td>EndsWith(String1, SubString1)</td>
 <td>Returns True if the end of String1 matches SubString1; otherwise, False is returned.</td>
-<td>EndsWith([Description], &#39;The end.&#39;)</td>
+<td>EndsWith([Description], 'The end.')</td>
 </tr>
 <tr>
 <td>Insert(String1, StartPosition, String2)</td>
 <td>Inserts String2 into String1 at the position specified by StartPositon</td>
-<td>Insert([Name], 0, &#39;ABC-&#39;)</td>
+<td>Insert([Name], 0, 'ABC-')</td>
 </tr>
 <tr>
 <td>Len(Value)</td>
@@ -949,13 +977,13 @@
 </tr>
 <tr>
 <td>PadLeft(String, Length)</td>
-<td>Left-aligns the defined string&#39;s characters, padding its left side with white space characters up to a specified total length.</td>
+<td>Left-aligns the defined string's characters, padding its left side with white space characters up to a specified total length.</td>
 <td>PadLeft([Name], 30)</td>
 </tr>
 <tr>
 <td>PadLeft(String, Length, Char)</td>
-<td>Left-aligns the defined string&#39;s characters, padding its left side with the specified Char up to a specified total length.</td>
-<td>PadLeft([Name], 30, &#39;&lt;&#39;)</td>
+<td>Left-aligns the defined string's characters, padding its left side with the specified Char up to a specified total length.</td>
+<td>PadLeft([Name], 30, '&lt;')</td>
 </tr>
 <tr>
 <td>PadRight(String, Length)</td>
@@ -965,7 +993,7 @@
 <tr>
 <td>PadRight(String, Length, Char)</td>
 <td>Right-aligns the defined string’s characters, padding its left side with the specified Char up to a specified total length.</td>
-<td>PadRight([Name], 30, &#39;&gt;&#39;)</td>
+<td>PadRight([Name], 30, '&gt;')</td>
 </tr>
 <tr>
 <td>Remove(String, StartPosition)</td>
@@ -980,7 +1008,7 @@
 <tr>
 <td>Replace(String, SubString2, String3)</td>
 <td>Returns a copy of String1, in which SubString2 has been replaced with String3.</td>
-<td>Replace([Name], &#39;The &#39;, &#39;&#39;)</td>
+<td>Replace([Name], 'The ', '')</td>
 </tr>
 <tr>
 <td>Reverse(String)</td>
@@ -990,7 +1018,7 @@
 <tr>
 <td>StartsWith(String1, SubString1)</td>
 <td>Returns True if the beginning of String1 matches SubString1; otherwise, False.</td>
-<td>StartsWith([Title], &#39;The best&#39;)</td>
+<td>StartsWith([Title], 'The best')</td>
 </tr>
 <tr>
 <td>Substring(String, StartPosition, Length)</td>
@@ -1027,7 +1055,7 @@
 <li>Identifiers</li>
 <li>OR (left-associative)</li>
 <li>AND (left-associative)</li>
-<li>&#39;.&#39; relationship qualifier (left-associative)</li>
+<li>'.' relationship qualifier (left-associative)</li>
 <li>==, !=</li>
 <li>&lt;, &gt;, &lt;=, &gt;=</li>
 <li>-, + (left-associative)</li>
@@ -1037,15 +1065,17 @@
 <li>In</li>
 <li>Iif</li>
 <li>Trim(), Len(), Substring(), IsNull()</li>
-<li>&#39;[]&#39; (for set-restriction)</li>
-<li>&#39;()&#39;</li>
+<li>'[]' (for set-restriction)</li>
+<li>'()'</li>
 </ul>
 <p>You can group elements with parentheses to change the default precedence. For instance, the operators are performed in the default order in the first code sample below. In the second code sample, the addition operation is performed first because its associated elements are grouped with parentheses, and the multiplication operation is performed last.</p>
 <p><em>Accounts[Amount == 2 + 48 * 2]</em></p>
 <p><em>Accounts[Amount == (2 + 48) * 2]</em></p>
 <h2 id="case-sensitivity">Case Sensitivity</h2>
 <p>Operators are case insensitive.</p>
-<div class="NOTE"><h5>Note</h5><p>A data source affects certain operators&#39; behavior. For instance, SQL Server Express 2005 is configured as case insensitive. In this case, the following expression always evaluates to <strong>true</strong>:</p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>A data source affects certain operators' behavior. For instance, SQL Server Express 2005 is configured as case insensitive. In this case, the following expression always evaluates to <strong>true</strong>:</p>
 <p><em>Lower(Name) == Upper(Name)</em></p>
 </div>
 <h2 id="escape-characters">Escape Characters</h2>
@@ -1053,31 +1083,32 @@
 <ul>
 <li>\[</li>
 <li>\\</li>
-<li>\&#39;</li>
+<li>\'</li>
 </ul>
 <h2 id="export-to-xls-and-xlsx">Export to XLS and XLSX</h2>
 <p>The Pivot Grid does not <a href="../exporting-and-printing/exporting-and-printing.html">export</a> expressions to XLS and XLSX format.</p>
+
 </article>
           </div>
-          
+
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/24.1/interface-elements-for-desktop/articles/pivot-table/data-editing/pivot-grid-expression-syntax.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/fix-styles/interface-elements-for-desktop/articles/pivot-table/data-editing/pivot-grid-expression-syntax.md/#L1" class="contribution-link">Edit this page</a>
                   </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-                <h5>In This Article</h5>
+                <h5>In this article</h5>
                 <div></div>
               </nav>
             </div>
           </div>
         </div>
       </div>
-      
+
       <footer>
         <div class="grad-bottom"></div>
         <div class="footer">
@@ -1085,14 +1116,14 @@
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
-            
+      Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
+      
           </div>
         </div>
       </footer>
     </div>
-    
-    <script type="text/javascript" src="../../../../styles/docfx.vendor.js"></script>
+
+    <script type="text/javascript" src="../../../../styles/docfx.vendor.min.js"></script>
     <script type="text/javascript" src="../../../../styles/docfx.js"></script>
     <script type="text/javascript" src="../../../../styles/main.js"></script>
   </body>

@@ -1,37 +1,29 @@
 ﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  
+
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Validate Data in Cells | DevExpress End-User Documentation </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Validate Data in Cells | DevExpress End-User Documentation ">
-    <meta name="generator" content="docfx 2.59.2.0">
-    
+    <meta name="generator" content="docfx ">
+  
     <link rel="shortcut icon" href="../../../../favicon.ico">
-    <link rel="stylesheet" href="../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../styles/docfx.vendor.min.css">
     <link rel="stylesheet" href="../../../../styles/docfx.css">
     <link rel="stylesheet" href="../../../../styles/main.css">
     <meta property="docfx:navrel" content="../../../../toc.html">
     <meta property="docfx:tocrel" content="../../../toc.html">
-    
-    
-    
-    <!-- Matomo Tag Manager -->
-    <script>
-      var _mtm = window._mtm = window._mtm || [];
-      _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
-      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-      g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
-    </script>
-    <!-- End Matomo Tag Manager -->
+  
+  
+  
   </head>
   <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
-        
+
         <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
           <div class="container">
             <div class="navbar-header">
@@ -41,7 +33,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              
+
               <a class="navbar-brand" href="../../../../index.html">
                 <img id="logo" class="svg" src="../../../../logo.svg" alt="">
               </a>
@@ -55,7 +47,7 @@
             </div>
           </div>
         </nav>
-        
+
         <div class="subnav navbar navbar-default">
           <div class="container hide-when-search" id="breadcrumb">
             <ul class="breadcrumb">
@@ -65,7 +57,7 @@
         </div>
       </header>
       <div role="main" class="container body-content hide-when-search">
-        
+
         <div class="sidenav hide-when-search">
           <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
           <div class="sidetoggle collapse" id="sidetoggle">
@@ -94,79 +86,108 @@
 <li><a href="#circledata">Circle invalid data</a></li>
 <li><a href="#removevalidation">Remove data validation</a></li>
 </ul>
-<h2 id="a-namelistrestrict-data-entry-to-predefined-items-from-a-drop-down-list"><a name="list"></a>Restrict Data Entry to Predefined Items from a Drop-Down List</h2>
+<h2 id="restrict-data-entry-to-predefined-items-from-a-drop-down-list"><a name="list"></a>Restrict Data Entry to Predefined Items from a Drop-Down List</h2>
 <ol>
-<li><a href="../editing-cells/select-cells-or-cell-content.html">Select </a> the cell or cell range you wish to validate.</li>
-<li>Invoke the <a href="#dialog">Data Validation</a> dialog.</li>
-<li>On the <strong>Settings</strong> tab, in the <strong>Allow</strong> list, select the <strong>List</strong> item.</li>
+<li><p><a href="../editing-cells/select-cells-or-cell-content.html">Select </a> the cell or cell range you wish to validate.</p>
+</li>
+<li><p>Invoke the <a href="#dialog">Data Validation</a> dialog.</p>
+</li>
+<li><p>On the <strong>Settings</strong> tab, in the <strong>Allow</strong> list, select the <strong>List</strong> item.</p>
+</li>
 <li><p>Enter a reference to the list of valid entries in the <strong>Source</strong> box. You can use a list of comma-separated values, <a href="../formulas/defined-names.html">define a name</a> for the cell range of valid entries, or <a href="../editing-cells/select-cells-or-cell-content.html">select</a> this cell range directly in the worksheet by using the <strong>Collapse Dialog</strong> button <img src="../../../images/img23805.png" alt="SpreadsheetControl_NameManager_CollapseDialogButton">.</p>
-<p> If you use a defined name or cell reference, precede it with an equal sign (&#61;).</p>
-<p> <img src="../../../images/img121574.png" alt="Spreadsheet_DataValidation_List"></p>
+<p>If you use a defined name or cell reference, precede it with an equal sign (=).</p>
+<p><img src="../../../images/img121574.png" alt="Spreadsheet_DataValidation_List"></p>
 </li>
-<li>Verify that the <strong>In-cell dropdown</strong> check box is selected to display the drop-down menu in validated cells.</li>
-<li>Select or clear the <strong>Ignore blank</strong> check box to specify whether or not to validate cells with empty values.</li>
-<li>Click <strong>OK</strong> to close the dialog and apply the specified validation criterion.</li>
+<li><p>Verify that the <strong>In-cell dropdown</strong> check box is selected to display the drop-down menu in validated cells.</p>
+</li>
+<li><p>Select or clear the <strong>Ignore blank</strong> check box to specify whether or not to validate cells with empty values.</p>
+</li>
+<li><p>Click <strong>OK</strong> to close the dialog and apply the specified validation criterion.</p>
+</li>
 </ol>
-<p>As a result, the drop-down arrow appears to the right of a validated cell. Click the arrow to display the cell&#39;s drop-down list and select the required value.</p>
+<p>As a result, the drop-down arrow appears to the right of a validated cell. Click the arrow to display the cell's drop-down list and select the required value.</p>
 <p><img src="../../../images/img121579.png" alt="Spreadsheet_DataValidation_ListValidation"></p>
-<h2 id="a-namewholenumberrestrict-data-entry-to-a-whole-or-decimal-number-within-a-specified-range"><a name="wholenumber"></a>Restrict Data Entry to a Whole or Decimal Number within a Specified Range</h2>
+<h2 id="restrict-data-entry-to-a-whole-or-decimal-number-within-a-specified-range"><a name="wholenumber"></a>Restrict Data Entry to a Whole or Decimal Number within a Specified Range</h2>
 <ol>
-<li><a href="../editing-cells/select-cells-or-cell-content.html">Select </a> the cell or cell range you wish to validate.</li>
-<li>Invoke the <a href="#dialog">Data Validation</a> dialog.</li>
-<li>On the <strong>Settings</strong> tab, in the <strong>Allow</strong> list, select the <strong>Whole number</strong> or <strong>Decimal</strong> item.</li>
-<li>Select the desired comparison operator in the <strong>Data</strong> list.</li>
+<li><p><a href="../editing-cells/select-cells-or-cell-content.html">Select </a> the cell or cell range you wish to validate.</p>
+</li>
+<li><p>Invoke the <a href="#dialog">Data Validation</a> dialog.</p>
+</li>
+<li><p>On the <strong>Settings</strong> tab, in the <strong>Allow</strong> list, select the <strong>Whole number</strong> or <strong>Decimal</strong> item.</p>
+</li>
+<li><p>Select the desired comparison operator in the <strong>Data</strong> list.</p>
+</li>
 <li><p>Depending on the selected operator, enter the required threshold values in the <strong>Minimum</strong>, <strong>Maximum</strong> or <strong>Value</strong> boxes. Note that you can also use a formula that returns a numeric value to calculate the threshold value. If you enter a formula, start it with an equal sign (=).</p>
-<p> <img src="../../../images/img121627.png" alt="Spreadsheet_DataValidation_WholeNumberCriteria"></p>
+<p><img src="../../../images/img121627.png" alt="Spreadsheet_DataValidation_WholeNumberCriteria"></p>
 </li>
-<li>Click <strong>OK</strong> to close the dialog and apply the specified validation criterion.</li>
+<li><p>Click <strong>OK</strong> to close the dialog and apply the specified validation criterion.</p>
+</li>
 </ol>
-<h2 id="a-namedatesrestrict-dates-and-times-to-values-within-a-certain-time-interval"><a name="dates"></a>Restrict Dates and Times to Values within a Certain Time Interval</h2>
+<h2 id="restrict-dates-and-times-to-values-within-a-certain-time-interval"><a name="dates"></a>Restrict Dates and Times to Values within a Certain Time Interval</h2>
 <ol>
-<li><a href="../editing-cells/select-cells-or-cell-content.html">Select </a> the cell or cell range you wish to validate.</li>
-<li>Invoke the <a href="#dialog">Data Validation</a> dialog.</li>
-<li>On the <strong>Settings</strong> tab, in the <strong>Allow</strong> list, select the <strong>Date</strong> or <strong>Time</strong> item.</li>
-<li>Select the desired comparison operator in the <strong>Data</strong> list.</li>
+<li><p><a href="../editing-cells/select-cells-or-cell-content.html">Select </a> the cell or cell range you wish to validate.</p>
+</li>
+<li><p>Invoke the <a href="#dialog">Data Validation</a> dialog.</p>
+</li>
+<li><p>On the <strong>Settings</strong> tab, in the <strong>Allow</strong> list, select the <strong>Date</strong> or <strong>Time</strong> item.</p>
+</li>
+<li><p>Select the desired comparison operator in the <strong>Data</strong> list.</p>
+</li>
 <li><p>Depending on the selected operator, provide the required values for the <strong>Start date</strong>, <strong>End date</strong> or <strong>Date</strong> boxes, if the <strong>Date</strong> option is selected (or for the <strong>Start time</strong>, <strong>End time</strong> or <strong>Time</strong> boxes in case of the <strong>Time</strong> option). Note that you can also use a formula that returns a date or time value to calculate the threshold value. If you enter a formula, start it with an equal sign (=).</p>
-<p> <img src="../../../images/img121631.png" alt="Spreadsheet_DataValidation_DateCriteria"></p>
+<p><img src="../../../images/img121631.png" alt="Spreadsheet_DataValidation_DateCriteria"></p>
 </li>
-<li>Click <strong>OK</strong> to close the dialog and apply the specified validation criterion.</li>
+<li><p>Click <strong>OK</strong> to close the dialog and apply the specified validation criterion.</p>
+</li>
 </ol>
-<h2 id="a-nametextlengthlimit-the-number-of-text-characters"><a name="textlength"></a>Limit the Number of Text Characters</h2>
+<h2 id="limit-the-number-of-text-characters"><a name="textlength"></a>Limit the Number of Text Characters</h2>
 <ol>
-<li><a href="../editing-cells/select-cells-or-cell-content.html">Select </a> the cell or cell range you wish to validate.</li>
-<li>Invoke the <a href="#dialog">Data Validation</a> dialog.</li>
-<li>On the <strong>Settings</strong> tab, in the <strong>Allow</strong> list, select the <strong>Text length</strong> item.</li>
-<li>Select the desired comparison operator in the <strong>Data</strong> list.</li>
+<li><p><a href="../editing-cells/select-cells-or-cell-content.html">Select </a> the cell or cell range you wish to validate.</p>
+</li>
+<li><p>Invoke the <a href="#dialog">Data Validation</a> dialog.</p>
+</li>
+<li><p>On the <strong>Settings</strong> tab, in the <strong>Allow</strong> list, select the <strong>Text length</strong> item.</p>
+</li>
+<li><p>Select the desired comparison operator in the <strong>Data</strong> list.</p>
+</li>
 <li><p>Depending on the selected operator, enter the minimum, maximum, or particular text length in the <strong>Minimum</strong>, <strong>Maximum</strong> or <strong>Length</strong> boxes, respectively. Note that you can also use a formula that returns a numeric value to specify the allowable text length. If you enter a formula, start it with an equal sign (=).</p>
-<p> <img src="../../../images/img121632.png" alt="Spreadsheet_DataValidation_TextLengthCriteria"></p>
+<p><img src="../../../images/img121632.png" alt="Spreadsheet_DataValidation_TextLengthCriteria"></p>
 </li>
-<li>Click <strong>OK</strong> to close the dialog and apply the specified validation criterion.</li>
+<li><p>Click <strong>OK</strong> to close the dialog and apply the specified validation criterion.</p>
+</li>
 </ol>
-<h2 id="a-nameformulavalidate-data-based-on-formulas-or-values-in-other-cells"><a name="formula"></a>Validate Data Based on Formulas or Values in Other Cells</h2>
+<h2 id="validate-data-based-on-formulas-or-values-in-other-cells"><a name="formula"></a>Validate Data Based on Formulas or Values in Other Cells</h2>
 <ol>
-<li><a href="../editing-cells/select-cells-or-cell-content.html">Select </a> the cell or cell range you wish to validate.</li>
-<li>Invoke the <a href="#dialog">Data Validation</a> dialog.</li>
-<li>On the <strong>Settings</strong> tab, in the <strong>Allow</strong> list, select the <strong>Custom</strong> item.</li>
-<li><p>In the <strong>Formula</strong> box, enter a <a href="../formulas/create-a-simple-formula.html">formula</a> you wish to use as a validation criterion. Note that this formula should return a logical value: TRUE for valid values and FALSE for incorrect values. Your formula may also contain <a href="../formulas/cell-references.html">cell references</a>, so that you can calculate the allowable values based on the content of other cells.</p>
-<p> For example, to restrict data entry for an Employee ID to a five-digit number, use the following formula: <strong>=AND(ISNUMBER(B3),LEN(B3)=5)</strong>.</p>
-<p> <img src="../../../images/img121633.png" alt="Spreadsheet_DataValidation_FormulaCriteria"></p>
+<li><p><a href="../editing-cells/select-cells-or-cell-content.html">Select </a> the cell or cell range you wish to validate.</p>
 </li>
-<li>Click <strong>OK</strong> to close the dialog and apply the specified validation criterion.</li>
+<li><p>Invoke the <a href="#dialog">Data Validation</a> dialog.</p>
+</li>
+<li><p>On the <strong>Settings</strong> tab, in the <strong>Allow</strong> list, select the <strong>Custom</strong> item.</p>
+</li>
+<li><p>In the <strong>Formula</strong> box, enter a <a href="../formulas/create-a-simple-formula.html">formula</a> you wish to use as a validation criterion. Note that this formula should return a logical value: TRUE for valid values and FALSE for incorrect values. Your formula may also contain <a href="../formulas/cell-references.html">cell references</a>, so that you can calculate the allowable values based on the content of other cells.</p>
+<p>For example, to restrict data entry for an Employee ID to a five-digit number, use the following formula: <strong>=AND(ISNUMBER(B3),LEN(B3)=5)</strong>.</p>
+<p><img src="../../../images/img121633.png" alt="Spreadsheet_DataValidation_FormulaCriteria"></p>
+</li>
+<li><p>Click <strong>OK</strong> to close the dialog and apply the specified validation criterion.</p>
+</li>
 </ol>
-<h2 id="a-nameinputmessagecreate-an-input-message"><a name="inputmessage"></a>Create an Input Message</h2>
+<h2 id="create-an-input-message"><a name="inputmessage"></a>Create an Input Message</h2>
 <p>Once you apply data validation to cells, you can create an <em>input message</em>, which represents a descriptive message explaining what values can be entered into validated cells. Each time a validated cell is selected, a yellow text box appears near the cell displaying the input message.</p>
 <p><img src="../../../images/img121611.png" alt="Spreadsheet_DataValidation_InputMessage"></p>
 <p>To create an input message, do the following.</p>
 <ol>
-<li>Invoke the <a href="#dialog">Data Validation</a> dialog.</li>
-<li>Switch to the <strong>Input Message</strong> tab.</li>
-<li>Verify that the <strong>Show input message when cell is selected</strong> check box is selected.</li>
-<li><p>Specify the message title in the <strong>Title</strong> box, and enter the detailed message text in the <strong>Input Message</strong> box.</p>
-<p> <img src="../../../images/img121612.png" alt="Spreadsheet_DataValidation_InputMessageTab"></p>
+<li><p>Invoke the <a href="#dialog">Data Validation</a> dialog.</p>
 </li>
-<li>Click <strong>OK</strong> to close the dialog and add the specified input message to validated cells.</li>
+<li><p>Switch to the <strong>Input Message</strong> tab.</p>
+</li>
+<li><p>Verify that the <strong>Show input message when cell is selected</strong> check box is selected.</p>
+</li>
+<li><p>Specify the message title in the <strong>Title</strong> box, and enter the detailed message text in the <strong>Input Message</strong> box.</p>
+<p><img src="../../../images/img121612.png" alt="Spreadsheet_DataValidation_InputMessageTab"></p>
+</li>
+<li><p>Click <strong>OK</strong> to close the dialog and add the specified input message to validated cells.</p>
+</li>
 </ol>
-<h2 id="a-nameerrormessagecreate-an-error-message"><a name="errormessage"></a>Create an Error Message</h2>
+<h2 id="create-an-error-message"><a name="errormessage"></a>Create an Error Message</h2>
 <p>In addition to an <a href="#inputmessage">input message</a>, you can also specify an error message that will be displayed when a user enters an incorrect value into a validated cell.</p>
 <p><img src="../../../images/img121616.png" alt="Spreadsheet_DataValidation_ErrorAlertWindow"></p>
 <p>There are three types of error messages.</p>
@@ -177,17 +198,22 @@
 </ul>
 <p>Unless you specify the error message, the <strong>Spreadsheet</strong> will use the <strong>Stop</strong> error alert with the default text. To customize the error text and provide other users with a more informative message, do the following.</p>
 <ol>
-<li>Invoke the <a href="#dialog">Data Validation</a> dialog.</li>
-<li>Switch to the <strong>Error Alert</strong> tab.</li>
-<li>Verify that the <strong>Show error alert after invalid data is entered</strong> check box is selected.</li>
-<li>Select the type of the error message in the <strong>Style</strong> list.</li>
-<li><p>Specify the caption for the error alert window in the <strong>Title</strong> box, and enter the error description in the <strong>Error Message</strong> box.</p>
-<p> <img src="../../../images/img121610.png" alt="Spreadsheet_DataValidation_ErrorAlertTab"></p>
+<li><p>Invoke the <a href="#dialog">Data Validation</a> dialog.</p>
 </li>
-<li>Click <strong>OK</strong> to close the dialog.</li>
+<li><p>Switch to the <strong>Error Alert</strong> tab.</p>
+</li>
+<li><p>Verify that the <strong>Show error alert after invalid data is entered</strong> check box is selected.</p>
+</li>
+<li><p>Select the type of the error message in the <strong>Style</strong> list.</p>
+</li>
+<li><p>Specify the caption for the error alert window in the <strong>Title</strong> box, and enter the error description in the <strong>Error Message</strong> box.</p>
+<p><img src="../../../images/img121610.png" alt="Spreadsheet_DataValidation_ErrorAlertTab"></p>
+</li>
+<li><p>Click <strong>OK</strong> to close the dialog.</p>
+</li>
 </ol>
 <p>Note that if you use error messages that do not prevent the entry of incorrect values (<strong>Warning</strong> or <strong>Information</strong>), you can identify invalid data in your document by displaying <a href="#circledata">validation circles</a>.</p>
-<h2 id="a-namecircledatacircle-invalid-data"><a name="circledata"></a>Circle Invalid Data</h2>
+<h2 id="circle-invalid-data"><a name="circledata"></a>Circle Invalid Data</h2>
 <p>The <strong>Spreadsheet</strong> allows you to highlight invalid values entered into validated cells. To do this, on the <strong>Data</strong> tab, in the <strong>Data Tools</strong> group, click <strong>Data Validation</strong> | <strong>Circle Invalid Data</strong>.</p>
 <p><img src="../../../images/img121551.png" alt="Spreadsheet_DataValidation_CircleInvalidData"></p>
 <p>As a result, red circles will appear around cells containing incorrect values.</p>
@@ -197,46 +223,50 @@
 <li>Enter a value that meets the validation criterion in the cell. In this case, the validation circle will disappear automatically.</li>
 <li>On the <strong>Data</strong> tab, in the <strong>Data Tools</strong> group, click <strong>Data Validation</strong> | <strong>Clear Validation Circles</strong>.</li>
 </ul>
-<h2 id="a-nameremovevalidationremove-data-validation"><a name="removevalidation"></a>Remove Data Validation</h2>
+<h2 id="remove-data-validation"><a name="removevalidation"></a>Remove Data Validation</h2>
 <p>To remove data validation criteria, perform the steps below.</p>
 <ol>
 <li><p><a href="../editing-cells/select-cells-or-cell-content.html">Select </a> the cells which you wish to stop validating.</p>
-<div class="TIP"><h5>Tip</h5><p>To quickly select all cells to which data validation is applied, on the <strong>Home</strong> tab, in the <strong>Editing</strong> group, click <strong>Find &#38; Select</strong> | <strong>Data Validation</strong>.</p>
+<div class="TIP">
+<h5>Tip</h5>
+<p>To quickly select all cells to which data validation is applied, on the <strong>Home</strong> tab, in the <strong>Editing</strong> group, click <strong>Find &amp; Select</strong> | <strong>Data Validation</strong>.</p>
 </div>
 </li>
-<li>Invoke the <a href="#dialog">Data Validation</a> dialog.</li>
+<li><p>Invoke the <a href="#dialog">Data Validation</a> dialog.</p>
+</li>
 <li><p>Do one of the following.</p>
 <ul>
 <li><p>If you are prompted to erase current validation settings and continue, click <strong>OK</strong>, and then click <strong>OK</strong> in the invoked <strong>Data Validation</strong> dialog.</p>
-<p>  <img src="../../../images/img121586.png" alt="Spreadsheet_DataValidation_EraseCurrentSettings"></p>
+<p><img src="../../../images/img121586.png" alt="Spreadsheet_DataValidation_EraseCurrentSettings"></p>
 </li>
 <li><p>In the invoked <strong>Data Validation</strong> dialog, on the <strong>Settings</strong> tab, click the <strong>Clear All</strong> button.</p>
-<p>  <img src="../../../images/img121584.png" alt="Spreadsheet_DataValidation_ClearAll"></p>
+<p><img src="../../../images/img121584.png" alt="Spreadsheet_DataValidation_ClearAll"></p>
 </li>
 </ul>
 </li>
 </ol>
+
 </article>
           </div>
-          
+
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/24.1/interface-elements-for-desktop/articles/spreadsheet/data-validation/validate-data-in-cells.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/fix-styles/interface-elements-for-desktop/articles/spreadsheet/data-validation/validate-data-in-cells.md/#L1" class="contribution-link">Edit this page</a>
                   </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-                <h5>In This Article</h5>
+                <h5>In this article</h5>
                 <div></div>
               </nav>
             </div>
           </div>
         </div>
       </div>
-      
+
       <footer>
         <div class="grad-bottom"></div>
         <div class="footer">
@@ -244,14 +274,14 @@
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
-            
+      Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
+      
           </div>
         </div>
       </footer>
     </div>
-    
-    <script type="text/javascript" src="../../../../styles/docfx.vendor.js"></script>
+
+    <script type="text/javascript" src="../../../../styles/docfx.vendor.min.js"></script>
     <script type="text/javascript" src="../../../../styles/docfx.js"></script>
     <script type="text/javascript" src="../../../../styles/main.js"></script>
   </body>

@@ -1,37 +1,29 @@
 ﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  
+
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Coloring Concepts | DevExpress End-User Documentation </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Coloring Concepts | DevExpress End-User Documentation ">
-    <meta name="generator" content="docfx 2.59.2.0">
-    
+    <meta name="generator" content="docfx ">
+  
     <link rel="shortcut icon" href="../../../../../favicon.ico">
-    <link rel="stylesheet" href="../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../styles/docfx.vendor.min.css">
     <link rel="stylesheet" href="../../../../../styles/docfx.css">
     <link rel="stylesheet" href="../../../../../styles/main.css">
     <meta property="docfx:navrel" content="../../../../../toc.html">
     <meta property="docfx:tocrel" content="../../../../toc.html">
-    
-    
-    
-    <!-- Matomo Tag Manager -->
-    <script>
-      var _mtm = window._mtm = window._mtm || [];
-      _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
-      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-      g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
-    </script>
-    <!-- End Matomo Tag Manager -->
+  
+  
+  
   </head>
   <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
-        
+
         <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
           <div class="container">
             <div class="navbar-header">
@@ -41,7 +33,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              
+
               <a class="navbar-brand" href="../../../../../index.html">
                 <img id="logo" class="svg" src="../../../../../logo.svg" alt="">
               </a>
@@ -55,7 +47,7 @@
             </div>
           </div>
         </nav>
-        
+
         <div class="subnav navbar navbar-default">
           <div class="container hide-when-search" id="breadcrumb">
             <ul class="breadcrumb">
@@ -65,7 +57,7 @@
         </div>
       </header>
       <div role="main" class="container body-content hide-when-search">
-        
+
         <div class="sidenav hide-when-search">
           <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
           <div class="sidetoggle collapse" id="sidetoggle">
@@ -87,35 +79,37 @@
 </ul>
 <p>Refer to the following topic for more information about common concepts: <a href="../coloring.html">Coloring Basics</a>.</p>
 <h2 id="color-mode-none">Color Mode: None</h2>
-<p>You can disable default color variation for dashboard item elements.  </p>
-<p>If you add a <a href="../../dashboard-item-settings/treemap.html">TreeMap</a> to a dashboard, individual elements (titles) use different colors: </p>
+<p>You can disable default color variation for dashboard item elements.</p>
+<p>If you add a <a href="../../dashboard-item-settings/treemap.html">TreeMap</a> to a dashboard, individual elements (titles) use different colors:</p>
 <p><img src="../../../../images/win-coloring-treemap-default.png" alt="win-coloring-treemap-default"></p>
 <p><em>State</em> values (Arguments) use different colors. To disable color variation, go to the Argument settings and select <strong>Color by | None</strong>.</p>
 <p><img src="../../../../images/win-coloring-treemap-none.png" alt="win-coloring-treemap-none"></p>
-<p>Add a <a href="../../dashboard-item-settings/chart.html">Chart</a> with the same Argument and Value as in the TreeMap: </p>
+<p>Add a <a href="../../dashboard-item-settings/chart.html">Chart</a> with the same Argument and Value as in the TreeMap:</p>
 <p><img src="../../../../images/win-coloring-treemap-chart-none.png" alt="win-coloring-treemap-chart-none"></p>
-<p>Note that <strong>Default</strong> means <strong>None</strong> for chart arguments.  </p>
+<p>Note that <strong>Default</strong> means <strong>None</strong> for chart arguments.</p>
 <h2 id="color-mode-hue">Color Mode: Hue</h2>
 <p>You can enable colors in previously added Treemap and Chart items.</p>
-<p>Set the TreeMap&#39;s color mode to <strong>Default</strong> or <strong>Hue</strong>: </p>
+<p>Set the TreeMap's color mode to <strong>Default</strong> or <strong>Hue</strong>:</p>
 <p><img src="../../../../images/win-coloring-chart-none-treemap-hue.png" alt="win-coloring-chart-none-treemap-hue"></p>
 <p>In the Chart settings, move <em>State</em> from Arguments to Series. <strong>Default</strong> now means <strong>Hue</strong> in this new context. The coloring indicator (<img src="../../../../images/coloringindicator25453.png" alt="ColoringIndicator">) on the data item shows that color variation by hue is enabled.</p>
 <p><img src="../../../../images/win-coloring-chart-treemap-hue.png" alt="win-coloring-chart-treemap-hue"></p>
-<p>Add <em>Category</em> as a chart argument and switch to 100% Stacked View:  </p>
+<p>Add <em>Category</em> as a chart argument and switch to 100% Stacked View:</p>
 <p><img src="../../../../images/win-coloring-full-stacked-chart.png" alt="win-coloring-full-stacked-chart"></p>
 <h2 id="use-global-color-scheme">Use Global Color Scheme</h2>
-<p>The same <em>State</em> data items use identical colors. Dashboard constructs a <strong>Global Color Scheme</strong> for this purpose. </p>
-<p>Add a <a href="../../dashboard-item-settings/range-filter.html">Range Filter</a> with the following settings: </p>
+<p>The same <em>State</em> data items use identical colors. Dashboard constructs a <strong>Global Color Scheme</strong> for this purpose.</p>
+<p>Add a <a href="../../dashboard-item-settings/range-filter.html">Range Filter</a> with the following settings:</p>
 <p><img src="../../../../images/win-coloring-range-filter.png" alt="win-coloring-range-filter"></p>
-<p>Corresponding <em>State</em> fields are painted with the same colors, so you can associate and compare data from all dashboard items. This happens because all items use <strong>Global Colors</strong> (the default setting). You can see the switch to <strong>Global Colors</strong> in the Ribbon. Click <strong>Edit Colors</strong> to modify the colors used in the palette:  </p>
+<p>Corresponding <em>State</em> fields are painted with the same colors, so you can associate and compare data from all dashboard items. This happens because all items use <strong>Global Colors</strong> (the default setting). You can see the switch to <strong>Global Colors</strong> in the Ribbon. Click <strong>Edit Colors</strong> to modify the colors used in the palette:</p>
 <p><img src="../../../../images/win-coloring-custom-color.png" alt="win-coloring-custom-color"></p>
-<div class="NOTE"><h5>Note</h5><p>The dashboard uses the default palette. This palette contains 20 unique colors to paint dimension values/measures. For more information on how to change default colors or create a new color table, refer to the following help topic: <a href="customizing-a-color-scheme.html">Customizing a Color Scheme</a>. </p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>The dashboard uses the default palette. This palette contains 20 unique colors to paint dimension values/measures. For more information on how to change default colors or create a new color table, refer to the following help topic: <a href="customizing-a-color-scheme.html">Customizing a Color Scheme</a>.</p>
 </div>
 <p>This is how the Dashboard appears after you change the color for <em>Georgia</em> in the palette:</p>
 <p><img src="../../../../images/win-dashboard-with-global-color-scheme.png" alt="win-dashboard-with-global-color-scheme"></p>
 <h2 id="use-local-color-scheme">Use Local Color Scheme</h2>
-<p>If you want to use an independent set of colors in the selected dashboard item, switch to the <strong>Local Color Scheme</strong>. </p>
-<p>You can see the Treemap&#39;s arguments that use colors from the <strong>Local Color Scheme</strong>:  </p>
+<p>If you want to use an independent set of colors in the selected dashboard item, switch to the <strong>Local Color Scheme</strong>.</p>
+<p>You can see the Treemap's arguments that use colors from the <strong>Local Color Scheme</strong>:</p>
 <p><img src="../../../../images/win-coloring-treemap-local-color-scheme.png" alt="win-coloring-treemap-local-color-scheme"></p>
 <p>Colors modified in the local color scheme do not affect items that use the global color scheme. The following image shows a custom color for <em>Georgia</em> in the Treemap:</p>
 <p><img src="../../../../images/win-coloring-treemap-local-color-scheme-custom-color.png" alt="win-coloring-treemap-local-color-scheme-custom-color"></p>
@@ -133,27 +127,28 @@
 <ul>
 <li><a href="customizing-a-color-scheme.html">Customizing a Color Scheme</a></li>
 </ul>
+
 </article>
           </div>
-          
+
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/24.1/dashboard-for-desktop/articles/dashboard-designer/appearance-customization/coloring/coloring-concepts.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/fix-styles/dashboard-for-desktop/articles/dashboard-designer/appearance-customization/coloring/coloring-concepts.md/#L1" class="contribution-link">Edit this page</a>
                   </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-                <h5>In This Article</h5>
+                <h5>In this article</h5>
                 <div></div>
               </nav>
             </div>
           </div>
         </div>
       </div>
-      
+
       <footer>
         <div class="grad-bottom"></div>
         <div class="footer">
@@ -161,14 +156,14 @@
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
-            
+      Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
+      
           </div>
         </div>
       </footer>
     </div>
-    
-    <script type="text/javascript" src="../../../../../styles/docfx.vendor.js"></script>
+
+    <script type="text/javascript" src="../../../../../styles/docfx.vendor.min.js"></script>
     <script type="text/javascript" src="../../../../../styles/docfx.js"></script>
     <script type="text/javascript" src="../../../../../styles/main.js"></script>
   </body>

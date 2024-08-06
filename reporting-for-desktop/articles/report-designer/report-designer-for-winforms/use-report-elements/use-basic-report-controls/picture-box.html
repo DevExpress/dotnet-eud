@@ -1,37 +1,29 @@
 ﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  
+
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Picture Box | DevExpress End-User Documentation </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Picture Box | DevExpress End-User Documentation ">
-    <meta name="generator" content="docfx 2.59.2.0">
-    
+    <meta name="generator" content="docfx ">
+  
     <link rel="shortcut icon" href="../../../../../../favicon.ico">
-    <link rel="stylesheet" href="../../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../../styles/docfx.vendor.min.css">
     <link rel="stylesheet" href="../../../../../../styles/docfx.css">
     <link rel="stylesheet" href="../../../../../../styles/main.css">
     <meta property="docfx:navrel" content="../../../../../../toc.html">
     <meta property="docfx:tocrel" content="../../../../../toc.html">
-    
-    
-    
-    <!-- Matomo Tag Manager -->
-    <script>
-      var _mtm = window._mtm = window._mtm || [];
-      _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
-      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-      g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
-    </script>
-    <!-- End Matomo Tag Manager -->
+  
+  
+  
   </head>
   <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
-        
+
         <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
           <div class="container">
             <div class="navbar-header">
@@ -41,7 +33,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              
+
               <a class="navbar-brand" href="../../../../../../index.html">
                 <img id="logo" class="svg" src="../../../../../../logo.svg" alt="">
               </a>
@@ -55,7 +47,7 @@
             </div>
           </div>
         </nav>
-        
+
         <div class="subnav navbar navbar-default">
           <div class="container hide-when-search" id="breadcrumb">
             <ul class="breadcrumb">
@@ -65,7 +57,7 @@
         </div>
       </header>
       <div role="main" class="container body-content hide-when-search">
-        
+
         <div class="sidenav hide-when-search">
           <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
           <div class="sidetoggle collapse" id="sidetoggle">
@@ -79,36 +71,38 @@
 
 <h2 id="overview">Overview</h2>
 <p>Use the <strong>Picture Box</strong> control to add images to a report. The images can have one of the following formats: BMP, JPG, JPEG, GIF, TIF, TIFF, PNG, ICO, DIB, RLE, JPE, JFIF, EMF, WMF, SVG.</p>
-<p>To add the <strong>Picture Box</strong> control to a report, drag the <strong>Picture Box</strong> item from the <a href="../../report-designer-tools/toolbox.html">Toolbox</a> onto the report&#39;s area.</p>
+<p>To add the <strong>Picture Box</strong> control to a report, drag the <strong>Picture Box</strong> item from the <a href="../../report-designer-tools/toolbox.html">Toolbox</a> onto the report's area.</p>
 <p><img src="../../../../../images/eurd-win-add-picture-box-to-report.png" alt=""></p>
 <p>Specify one of the following properties to set an image:</p>
 <ul>
-<li><strong>Image Source</strong><br>  Save the image to the report definition.</li>
-<li><strong>Image Url</strong><br>  Only save a path to the image.</li>
+<li><strong>Image Source</strong><br>
+Save the image to the report definition.</li>
+<li><strong>Image Url</strong><br>
+Only save a path to the image.</li>
 </ul>
 <p><img src="../../../../../images/eurd-win-picture-box-image-property.png" alt=""></p>
 <h2 id="assign-an-external-image">Assign an External Image</h2>
-<p>Click the <strong>Image Source</strong> / <strong>Image URL</strong> property&#39;s ellipsis button to invoke the <strong>Open File</strong> dialog.</p>
+<p>Click the <strong>Image Source</strong> / <strong>Image URL</strong> property's ellipsis button to invoke the <strong>Open File</strong> dialog.</p>
 <p><img src="../../../../../images/eurd-win-ImageSource-OpenFileDialog.png" alt=""></p>
 <p>The selected image or its URL is saved to the report definition <strong>.repx</strong> file.</p>
-<h2 id="assign-an-image-from-the-reports-image-collection">Assign an Image from the Report&#39;s Image Collection</h2>
-<p>Set the report&#39;s <strong>Image Resources</strong> property.</p>
+<h2 id="assign-an-image-from-the-reports-image-collection">Assign an Image from the Report's Image Collection</h2>
+<p>Set the report's <strong>Image Resources</strong> property.</p>
 <p><img src="../../../../../images/eurd-win-ImageResources-Editor.png" alt=""></p>
-<p>Click the <strong>Picture Box</strong>&#39;s smart tag. In the invoked menu, click the <strong>Expression</strong> option&#39;s ellipsis button to open the <strong>Expression Editor</strong>. Choose an image from the <strong>Images</strong> collection:</p>
+<p>Click the <strong>Picture Box</strong>'s smart tag. In the invoked menu, click the <strong>Expression</strong> option's ellipsis button to open the <strong>Expression Editor</strong>. Choose an image from the <strong>Images</strong> collection:</p>
 <p><img src="../../../../../images/eurd-win-ImageSource-ExpressionEditor-ImagesCollection.png" alt="ImageSource-OpenFileDialog"></p>
 <h2 id="bind-a-picture-box-to-data">Bind a Picture Box to Data</h2>
 <p>Use one of the following techniques to add the <strong>Picture Box</strong> control that obtains an image from a data source.</p>
 <ul>
-<li><p>Click the control&#39;s smart tag. In the invoked menu, expand the <strong>Expression</strong> drop-down list for the <strong>Image Source</strong> property and select a data field.</p>
-<p>  <img src="../../../../../images/eurd-win-picturebox-set-field.png" alt=""></p>
-<p>  You can bind the <strong>Image Url</strong> property to data in a similar way. In this instance, the URL that specifies the image location is obtained from the data source.  </p>
-<p>  Click the <strong>Expression</strong> option&#39;s ellipsis button to invoke the <strong>Expression Editor</strong>. Use this editor to construct a <a href="../../use-expressions.html">binding expression</a> that can include two or more data fields.</p>
+<li><p>Click the control's smart tag. In the invoked menu, expand the <strong>Expression</strong> drop-down list for the <strong>Image Source</strong> property and select a data field.</p>
+<p><img src="../../../../../images/eurd-win-picturebox-set-field.png" alt=""></p>
+<p>You can bind the <strong>Image Url</strong> property to data in a similar way. In this instance, the URL that specifies the image location is obtained from the data source.</p>
+<p>Click the <strong>Expression</strong> option's ellipsis button to invoke the <strong>Expression Editor</strong>. Use this editor to construct a <a href="../../use-expressions.html">binding expression</a> that can include two or more data fields.</p>
 </li>
-<li><p>Drag an image data field from the report&#39;s <a href="../../report-designer-tools/ui-panels/field-list.html">Field List</a> and drop it onto a report band.</p>
-<p>  <img src="../../../../../images/eurd-win-picture-box-drop-from-field-list.png" alt=""></p>
+<li><p>Drag an image data field from the report's <a href="../../report-designer-tools/ui-panels/field-list.html">Field List</a> and drop it onto a report band.</p>
+<p><img src="../../../../../images/eurd-win-picture-box-drop-from-field-list.png" alt=""></p>
 </li>
 <li><p>Right-click a data field in the <a href="../../report-designer-tools/ui-panels/field-list.html">Field List</a> and drop it onto a report band. Select the <strong>Picture Box</strong> item in the invoked context menu.</p>
-<p>  <img src="../../../../../images/eurd-win-picture-box-drop-right-click.png" alt=""></p>
+<p><img src="../../../../../images/eurd-win-picture-box-drop-right-click.png" alt=""></p>
 </li>
 </ul>
 <p>See the <a href="../bind-controls-to-data.html">Bind Report Controls to Data</a> topic for more information about how to create data-aware controls.</p>
@@ -129,38 +123,38 @@
 </ul>
 <p>The <strong>Medium Trust</strong> permission level does not support SVG.</p>
 <h2 id="image-size-modes">Image Size Modes</h2>
-<p>Use the <strong>Sizing</strong> property to specify an image&#39;s position in the Picture Box. </p>
+<p>Use the <strong>Sizing</strong> property to specify an image's position in the Picture Box.</p>
 <p><img src="../../../../../images/eurd-win-picture-box-sizing-property.png" alt=""></p>
 <p>This control supports the following image size modes:</p>
 <ul>
 <li><p><strong>Normal</strong></p>
-<p>  The image is displayed at the top left corner with its original dimensions. The image is clipped if it does not fit the control&#39;s boundaries. </p>
-<p>  <img src="../../../../../images/eurd-win-picture-box-image-size-mode-normal.png" alt=""></p>
+<p>The image is displayed at the top left corner with its original dimensions. The image is clipped if it does not fit the control's boundaries.</p>
+<p><img src="../../../../../images/eurd-win-picture-box-image-size-mode-normal.png" alt=""></p>
 </li>
 <li><p><strong>Stretch Image</strong></p>
-<p>  The image is stretched or shrunk to fill the control&#39;s width and height.</p>
-<p>  <img src="../../../../../images/eurd-win-picture-box-image-size-mode-stretch-image.png" alt=""></p>
+<p>The image is stretched or shrunk to fill the control's width and height.</p>
+<p><img src="../../../../../images/eurd-win-picture-box-image-size-mode-stretch-image.png" alt=""></p>
 </li>
 <li><p><strong>Auto Size</strong></p>
-<p>  The control&#39;s dimensions are adjusted to the image&#39;s size.</p>
-<p>  <img src="../../../../../images/eurd-win-picture-box-image-size-mode-auto-size.png" alt=""></p>
+<p>The control's dimensions are adjusted to the image's size.</p>
+<p><img src="../../../../../images/eurd-win-picture-box-image-size-mode-auto-size.png" alt=""></p>
 </li>
 <li><p><strong>Zoom Image</strong></p>
-<p>  The image is resized proportionally without clipping it to fit the control dimensions.</p>
-<p>  <img src="../../../../../images/eurd-win-picture-box-image-size-mode-zoom-image.png" alt=""></p>
+<p>The image is resized proportionally without clipping it to fit the control dimensions.</p>
+<p><img src="../../../../../images/eurd-win-picture-box-image-size-mode-zoom-image.png" alt=""></p>
 </li>
 <li><p><strong>Squeeze</strong></p>
-<p>  The image is centered and shown full-size if the control dimensions exceed the image size. Otherwise, the image is resized to fit the control&#39;s boundaries.</p>
-<p>  <img src="../../../../../images/eurd-win-picture-box-image-size-mode-squeeze.png" alt=""></p>
+<p>The image is centered and shown full-size if the control dimensions exceed the image size. Otherwise, the image is resized to fit the control's boundaries.</p>
+<p><img src="../../../../../images/eurd-win-picture-box-image-size-mode-squeeze.png" alt=""></p>
 </li>
 <li><p><strong>Tile</strong></p>
-<p>  The original image is replicated within the control starting from the top left corner. The replicated image is clipped if it does not fit the control&#39;s boundaries.</p>
-<p>  <img src="../../../../../images/eurd-win-picture-box-image-size-mode-tile.png" alt=""></p>
+<p>The original image is replicated within the control starting from the top left corner. The replicated image is clipped if it does not fit the control's boundaries.</p>
+<p><img src="../../../../../images/eurd-win-picture-box-image-size-mode-tile.png" alt=""></p>
 </li>
 </ul>
-<p>You can also use the <strong>Image Alignment</strong> property in the <strong>Normal</strong>, <strong>Squeeze</strong> and <strong>Zoom Image</strong> modes to specify the alignment in relation to the control&#39;s boundaries.</p>
+<p>You can also use the <strong>Image Alignment</strong> property in the <strong>Normal</strong>, <strong>Squeeze</strong> and <strong>Zoom Image</strong> modes to specify the alignment in relation to the control's boundaries.</p>
 <h2 id="image-orientation">Image Orientation</h2>
-<p>The <strong>Use Image Metadata</strong> option allows you to specify whether to take into account the Exif metadata orientation of the image displayed in the <strong>Picture Box</strong> control. </p>
+<p>The <strong>Use Image Metadata</strong> option allows you to specify whether to take into account the Exif metadata orientation of the image displayed in the <strong>Picture Box</strong> control.</p>
 <p>The Exif orientation property helps applications display the image in its intended orientation, regardless of how it was captured by the camera. This property contains a numerical value that specifies how much a saved image should be rotated to achieve a correct viewing angle.</p>
 <p>For example, if you capture a photo in portrait mode (holding the camera vertically), the camera may save the image in a landscape orientation. This can lead to the image appearing sideways or upside down when viewed on a computer or other devices.</p>
 <p>When you set <strong>Use Image Metadata</strong> to true, the <strong>Picture Box</strong> control reads the orientation property value and displays the image according to this value.</p>
@@ -171,30 +165,33 @@
 <p><img src="../../../../../images/eurd-win-picture-box-enable-content-editing.png" alt="picture-box-enable-content-editing"></p>
 <p>Click the picture box in a previewed document and an editor invokes.</p>
 <p><img src="../../../../../images/eurd-win-picture-box-content-editing.png" alt="picture-box-content-editing"></p>
-<div class="TIP"><h5>Tip</h5><p>You can draw borders for the picture box to make the editor visible in Print Preview, if an image is not specified.</p>
+<div class="TIP">
+<h5>Tip</h5>
+<p>You can draw borders for the picture box to make the editor visible in Print Preview, if an image is not specified.</p>
 </div>
 <p>Refer to the <a href="../../provide-interactivity/edit-content-in-print-preview.html">Content Editing in Print Preview</a> topic for details and to the <a href="../../create-reports/interactive-e-forms.html">Interactive E-Forms</a> tutorial to see how the E-Form demo report uses this picture box mode.</p>
+
 </article>
           </div>
-          
+
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/24.1/reporting-for-desktop/articles/report-designer/report-designer-for-winforms/use-report-elements/use-basic-report-controls/picture-box.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/fix-styles/reporting-for-desktop/articles/report-designer/report-designer-for-winforms/use-report-elements/use-basic-report-controls/picture-box.md/#L1" class="contribution-link">Edit this page</a>
                   </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-                <h5>In This Article</h5>
+                <h5>In this article</h5>
                 <div></div>
               </nav>
             </div>
           </div>
         </div>
       </div>
-      
+
       <footer>
         <div class="grad-bottom"></div>
         <div class="footer">
@@ -202,14 +199,14 @@
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
-            
+      Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
+      
           </div>
         </div>
       </footer>
     </div>
-    
-    <script type="text/javascript" src="../../../../../../styles/docfx.vendor.js"></script>
+
+    <script type="text/javascript" src="../../../../../../styles/docfx.vendor.min.js"></script>
     <script type="text/javascript" src="../../../../../../styles/docfx.js"></script>
     <script type="text/javascript" src="../../../../../../styles/main.js"></script>
   </body>

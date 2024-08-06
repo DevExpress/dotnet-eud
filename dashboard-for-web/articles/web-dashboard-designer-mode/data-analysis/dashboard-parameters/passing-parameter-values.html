@@ -1,37 +1,29 @@
 ﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  
+
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Passing Parameter Values | DevExpress End-User Documentation </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Passing Parameter Values | DevExpress End-User Documentation ">
-    <meta name="generator" content="docfx 2.59.2.0">
-    
+    <meta name="generator" content="docfx ">
+  
     <link rel="shortcut icon" href="../../../../../favicon.ico">
-    <link rel="stylesheet" href="../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../styles/docfx.vendor.min.css">
     <link rel="stylesheet" href="../../../../../styles/docfx.css">
     <link rel="stylesheet" href="../../../../../styles/main.css">
     <meta property="docfx:navrel" content="../../../../../toc.html">
     <meta property="docfx:tocrel" content="../../../../toc.html">
-    
-    
-    
-    <!-- Matomo Tag Manager -->
-    <script>
-      var _mtm = window._mtm = window._mtm || [];
-      _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
-      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-      g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
-    </script>
-    <!-- End Matomo Tag Manager -->
+  
+  
+  
   </head>
   <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
-        
+
         <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
           <div class="container">
             <div class="navbar-header">
@@ -41,7 +33,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              
+
               <a class="navbar-brand" href="../../../../../index.html">
                 <img id="logo" class="svg" src="../../../../../logo.svg" alt="">
               </a>
@@ -55,7 +47,7 @@
             </div>
           </div>
         </nav>
-        
+
         <div class="subnav navbar navbar-default">
           <div class="container hide-when-search" id="breadcrumb">
             <ul class="breadcrumb">
@@ -65,7 +57,7 @@
         </div>
       </header>
       <div role="main" class="container body-content hide-when-search">
-        
+
         <div class="sidenav hide-when-search">
           <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
           <div class="sidetoggle collapse" id="sidetoggle">
@@ -86,7 +78,7 @@
 <li><a href="#calculatedfields">Calculated Fields</a></li>
 <li><a href="#windowscalculations">Window Calculations</a></li>
 </ul>
-<h2 id="a-namequerysql-queries"><a name="query"></a>SQL Queries</h2>
+<h2 id="sql-queries"><a name="query"></a>SQL Queries</h2>
 <p>The Web Dashboard provides the capability to bind a dashboard parameter and the existing <a href="../../provide-data/working-with-sql-data-sources/pass-query-parameters.html">SQL query</a>/<a href="../../provide-data/working-with-sql-data-sources/stored-procedures.html">stored procedure</a> parameter. This can be useful when you need to <a href="../../provide-data/working-with-sql-data-sources/filter-queries.html">filter the SQL query</a> dynamically by including the parameter value in the <em>WHERE</em> clause.</p>
 <p><img src="../../../../images/img124955.png" alt="wdd-configure-query-param-page2"></p>
 <p>Do the following to bind a dashboard parameter to an SQL query or stored procedure parameter in the <a href="../../ui-elements/dialogs-and-wizards/dashboard-data-source-wizard.html">Dashboard Data Source Wizard</a>:</p>
@@ -95,45 +87,46 @@
 <li>Set the <strong>Expression</strong> as a parameter value and click the ellipsis button to invoke the Expression Editor for this parameter.</li>
 <li>In the Expression Editor, add the required dashboard parameter from the Parameters column.</li>
 </ul>
-<h2 id="a-namefilteringfiltering"><a name="filtering"></a>Filtering</h2>
+<h2 id="filtering"><a name="filtering"></a>Filtering</h2>
 <p>You can filter the specified <a href="../../provide-data/working-with-sql-data-sources/filter-queries.html">query</a> of the SQL Data Source, the entire <a href="../../provide-data/filter-data-sources.html">Excel Data Source</a>/<a href="../../provide-data/filter-data-sources.html">Object Data Source</a> or <a href="../../data-shaping/filtering.html">apply filtering</a> to a specific dashboard item according to the current parameter value(s) using the Filter Editor.</p>
 <p>In the Filter Editor, you can compare a field value with different objects such as static values, values of another field or parameter values. To switch between values, click a down arrow glyph in the operand value placeholder to expand the list of available objects. Select the <strong>Parameter</strong> object to compare a field value with a parameter value.</p>
 <p><img src="../../../../images/img126182.png" alt="wdd-filter-editor-change-object"></p>
 <p>Then, click the operand value to invoke the list of available parameters and select the existing parameter or create a new one.</p>
 <p><img src="../../../../images/img126539.png" alt="wdd-parameters-filtering"></p>
-<h2 id="a-nameformatrulesconditional-formatting"><a name="formatrules"></a>Conditional Formatting</h2>
+<h2 id="conditional-formatting"><a name="formatrules"></a>Conditional Formatting</h2>
 <p>You can apply conditional formatting to a specific dashboard item according to the current parameter value when creating the <strong>Expression</strong> <a href="../../appearance-customization/conditional-formatting.html">format condition</a>. Use this capability to format dashboard item elements dynamically, depending on the current parameter value.</p>
 <p><img src="../../../../images/img128229.png" alt="wdd-parameters-conditional-formatting"></p>
 <p>To switch between values, click the down arrow glyph in the operand value placeholder to expand the list of available objects and select the <strong>Parameter</strong> object to create a format rule with a parameter.</p>
-<h2 id="a-namecalculatedfieldscalculated-fields"><a name="calculatedfields"></a>Calculated Fields</h2>
+<h2 id="calculated-fields"><a name="calculatedfields"></a>Calculated Fields</h2>
 <p>You can use parameters when constructing <a href="../../provide-data/calculated-fields.html">expressions</a> for <a href="../../provide-data/calculated-fields.html">calculated fields</a>. This allows you to evaluate values of the calculated field dynamically depending on the current parameter value.</p>
 <p><img src="../../../../images/img126509.png" alt="wdd-parameters-calculated-field"></p>
 <p>To include a parameter in the expression, double-click the required parameter in the Fields pane.</p>
-<h2 id="a-namewindowscalculationswindow-calculations"><a name="windowscalculations"></a>Window Calculations</h2>
+<h2 id="window-calculations"><a name="windowscalculations"></a>Window Calculations</h2>
 <p>You can use parameters when customizing expressions for <a href="../calculations.html">window calculations</a>. This allows you to apply a calculation dynamically, depending on the current parameter value.</p>
 <p><img src="../../../../images/img126562.png" alt="wdd-parameters-window-calculations"></p>
 <p>To create the calculation with a parameter, select the <strong>Custom</strong> calculation and click <strong>Edit</strong>. In the invoked Expression Editor double-click the required parameter.</p>
+
 </article>
           </div>
-          
+
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/24.1/dashboard-for-web/articles/web-dashboard-designer-mode/data-analysis/dashboard-parameters/passing-parameter-values.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/fix-styles/dashboard-for-web/articles/web-dashboard-designer-mode/data-analysis/dashboard-parameters/passing-parameter-values.md/#L1" class="contribution-link">Edit this page</a>
                   </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-                <h5>In This Article</h5>
+                <h5>In this article</h5>
                 <div></div>
               </nav>
             </div>
           </div>
         </div>
       </div>
-      
+
       <footer>
         <div class="grad-bottom"></div>
         <div class="footer">
@@ -141,14 +134,14 @@
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
-            
+      Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
+      
           </div>
         </div>
       </footer>
     </div>
-    
-    <script type="text/javascript" src="../../../../../styles/docfx.vendor.js"></script>
+
+    <script type="text/javascript" src="../../../../../styles/docfx.vendor.min.js"></script>
     <script type="text/javascript" src="../../../../../styles/docfx.js"></script>
     <script type="text/javascript" src="../../../../../styles/main.js"></script>
   </body>

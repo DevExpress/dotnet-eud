@@ -1,37 +1,29 @@
 ﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  
+
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Delta Column | DevExpress End-User Documentation </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Delta Column | DevExpress End-User Documentation ">
-    <meta name="generator" content="docfx 2.59.2.0">
-    
+    <meta name="generator" content="docfx ">
+  
     <link rel="shortcut icon" href="../../../../../../favicon.ico">
-    <link rel="stylesheet" href="../../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../../styles/docfx.vendor.min.css">
     <link rel="stylesheet" href="../../../../../../styles/docfx.css">
     <link rel="stylesheet" href="../../../../../../styles/main.css">
     <meta property="docfx:navrel" content="../../../../../../toc.html">
     <meta property="docfx:tocrel" content="../../../../../toc.html">
-    
-    
-    
-    <!-- Matomo Tag Manager -->
-    <script>
-      var _mtm = window._mtm = window._mtm || [];
-      _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
-      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-      g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
-    </script>
-    <!-- End Matomo Tag Manager -->
+  
+  
+  
   </head>
   <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
-        
+
         <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
           <div class="container">
             <div class="navbar-header">
@@ -41,7 +33,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              
+
               <a class="navbar-brand" href="../../../../../../index.html">
                 <img id="logo" class="svg" src="../../../../../../logo.svg" alt="">
               </a>
@@ -55,7 +47,7 @@
             </div>
           </div>
         </nav>
-        
+
         <div class="subnav navbar navbar-default">
           <div class="container hide-when-search" id="breadcrumb">
             <ul class="breadcrumb">
@@ -65,7 +57,7 @@
         </div>
       </header>
       <div role="main" class="container body-content hide-when-search">
-        
+
         <div class="sidenav hide-when-search">
           <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
           <div class="sidetoggle collapse" id="sidetoggle">
@@ -88,7 +80,7 @@
 <p><img src="../../../../../images/img19229.png" alt="Grid_DeltaColumn_Bars"></p>
 <p>To select between these modes, invoke the <strong>Column Options</strong> window (see the <a href="column-type-overview.html">Column Type Overview</a> topic to learn how to do this) and select <strong>Value</strong> or <strong>Bar</strong>.</p>
 <p><img src="../../../../../images/img19678.png" alt="Grid_ColumnTypes_DeltaColumn_Options_Bar"></p>
-<p>If bars are displayed, use the <strong>Always show zero level</strong> check box to specify whether the bar&#39;s minimum value is zero (checked) or an automatically selected value that ensures that the difference between bars is clearly displayed (unchecked).</p>
+<p>If bars are displayed, use the <strong>Always show zero level</strong> check box to specify whether the bar's minimum value is zero (checked) or an automatically selected value that ensures that the difference between bars is clearly displayed (unchecked).</p>
 <p><img src="../../../../../images/img20131.png" alt="Grid_ColumnTypes_AlwaysShowZeroLevel"></p>
 <h2 id="delta-values-and-indication">Delta Values and Indication</h2>
 <p>If the display type is set to <strong>Value</strong>, the <strong>Column Options</strong> window displays options that allow you to configure delta values and indication.</p>
@@ -133,42 +125,43 @@
 </tr>
 </tbody>
 </table>
-<p>The <strong>Format</strong> tab allows you to specify the numeric display format for different value types, as described in the <a href="../../../data-shaping/formatting-data.html">Formatting Data</a> document. </p>
+<p>The <strong>Format</strong> tab allows you to specify the numeric display format for different value types, as described in the <a href="../../../data-shaping/formatting-data.html">Formatting Data</a> document.</p>
 <p><img src="../../../../../images/grid_columntypes_deltacolumn_options_numericformat.png" alt=""></p>
 <p>The tab contains the following settings.</p>
 <ul>
-<li><strong>Format type</strong> - Specifies format types for numeric values. </li>
+<li><strong>Format type</strong> - Specifies format types for numeric values.</li>
 <li><strong>Unit</strong> - Specifies the unit to convert the numeric values.</li>
 <li><strong>Precision</strong> - Specifies the number of fractional digits to display.</li>
 <li><strong>Currency</strong> - Specifies the currency symbol and format provided by the current culture settings.</li>
 <li><strong>Culture</strong> - Specifies the name of a culture that defines the currency symbol and format.</li>
 <li><strong>Include group separator</strong> - Specifies whether separators should be inserted between digit groups.</li>
 </ul>
-<h2 id="a-namecomparisontolerancecomparison-tolerance"><a name="comparisontolerance"></a>Comparison Tolerance</h2>
+<h2 id="comparison-tolerance"><a name="comparisontolerance"></a>Comparison Tolerance</h2>
 <p>The comparison tolerance allows you to specify more advanced conditions for displaying delta indication. For instance, you can set a specific indication to be displayed when the actual value exceeds the target value <em>by 10%</em> or <em>by $2K</em>.</p>
 <p>Use the <strong>Threshold type</strong> combo box to select whether you wish to specify the comparison tolerance in percentage values or in absolute values. Then use the <strong>Threshold value</strong> box to specify the comparison tolerance.</p>
 <p><img src="../../../../../images/img19679.png" alt="Grid_ColumnTypes_DeltaColumn_Options_Value"></p>
+
 </article>
           </div>
-          
+
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/24.1/dashboard-for-desktop/articles/dashboard-designer/dashboard-item-settings/grid/columns/delta-column.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/fix-styles/dashboard-for-desktop/articles/dashboard-designer/dashboard-item-settings/grid/columns/delta-column.md/#L1" class="contribution-link">Edit this page</a>
                   </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-                <h5>In This Article</h5>
+                <h5>In this article</h5>
                 <div></div>
               </nav>
             </div>
           </div>
         </div>
       </div>
-      
+
       <footer>
         <div class="grad-bottom"></div>
         <div class="footer">
@@ -176,14 +169,14 @@
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
-            
+      Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
+      
           </div>
         </div>
       </footer>
     </div>
-    
-    <script type="text/javascript" src="../../../../../../styles/docfx.vendor.js"></script>
+
+    <script type="text/javascript" src="../../../../../../styles/docfx.vendor.min.js"></script>
     <script type="text/javascript" src="../../../../../../styles/docfx.js"></script>
     <script type="text/javascript" src="../../../../../../styles/main.js"></script>
   </body>

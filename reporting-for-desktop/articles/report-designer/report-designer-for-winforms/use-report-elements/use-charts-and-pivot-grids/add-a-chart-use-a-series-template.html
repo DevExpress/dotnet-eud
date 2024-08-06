@@ -1,37 +1,29 @@
 ﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  
+
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Add a Chart (Use a Series Template) | DevExpress End-User Documentation </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Add a Chart (Use a Series Template) | DevExpress End-User Documentation ">
-    <meta name="generator" content="docfx 2.59.2.0">
-    
+    <meta name="generator" content="docfx ">
+  
     <link rel="shortcut icon" href="../../../../../../favicon.ico">
-    <link rel="stylesheet" href="../../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../../styles/docfx.vendor.min.css">
     <link rel="stylesheet" href="../../../../../../styles/docfx.css">
     <link rel="stylesheet" href="../../../../../../styles/main.css">
     <meta property="docfx:navrel" content="../../../../../../toc.html">
     <meta property="docfx:tocrel" content="../../../../../toc.html">
-    
-    
-    
-    <!-- Matomo Tag Manager -->
-    <script>
-      var _mtm = window._mtm = window._mtm || [];
-      _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
-      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-      g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
-    </script>
-    <!-- End Matomo Tag Manager -->
+  
+  
+  
   </head>
   <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
-        
+
         <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
           <div class="container">
             <div class="navbar-header">
@@ -41,7 +33,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              
+
               <a class="navbar-brand" href="../../../../../../index.html">
                 <img id="logo" class="svg" src="../../../../../../logo.svg" alt="">
               </a>
@@ -55,7 +47,7 @@
             </div>
           </div>
         </nav>
-        
+
         <div class="subnav navbar navbar-default">
           <div class="container hide-when-search" id="breadcrumb">
             <ul class="breadcrumb">
@@ -65,7 +57,7 @@
         </div>
       </header>
       <div role="main" class="container body-content hide-when-search">
-        
+
         <div class="sidenav hide-when-search">
           <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
           <div class="sidetoggle collapse" id="sidetoggle">
@@ -82,64 +74,67 @@
 <h2 id="add-a-chart-to-a-report">Add a Chart to a Report</h2>
 <ol>
 <li><p>Drop the <strong>Chart</strong> control from the <a href="../../report-designer-tools/toolbox.html">Toolbox</a> onto the <a href="../../introduction-to-banded-reports.html">Detail band</a>.</p>
-<p> <img src="../../../../../images/eurd-win-chart-add-to-report.png" alt=""></p>
-<p> After you drop the chart, the <strong>Chart Designer</strong> is automatically invoked if its <strong>Display the designer every time a new chart is added</strong> option is enabled. Close the designer at this step.</p>
+<p><img src="../../../../../images/eurd-win-chart-add-to-report.png" alt=""></p>
+<p>After you drop the chart, the <strong>Chart Designer</strong> is automatically invoked if its <strong>Display the designer every time a new chart is added</strong> option is enabled. Close the designer at this step.</p>
 </li>
-<li><p>Open the <a href="../../report-designer-tools/toolbar.html">Toolbar</a>&#39;s <strong>Chart Tools</strong> contextual tab and click <strong>Add Data Source</strong> to bind the chart to data. </p>
-<p> <img src="../../../../../images/eurd-win-chart-add-data-source-button.png" alt=""></p>
+<li><p>Open the <a href="../../report-designer-tools/toolbar.html">Toolbar</a>'s <strong>Chart Tools</strong> contextual tab and click <strong>Add Data Source</strong> to bind the chart to data.</p>
+<p><img src="../../../../../images/eurd-win-chart-add-data-source-button.png" alt=""></p>
 </li>
 <li><p>The invoked <a href="../../report-designer-tools/data-source-wizard.html">Data Source Wizard</a> enables you to assign a data source to the chart. Bind the chart to a data source as described in the <a href="../../bind-to-data.html">Bind to Data</a> section.</p>
 </li>
-<li><p>Click the chart&#39;s smart tag and make sure that the <strong>Data Source</strong> and <strong>Data Member</strong> properties were specified correctly.</p>
-<p> <img src="../../../../../images/eurd-win-chart-auto-created-series-data-source.png" alt=""></p>
+<li><p>Click the chart's smart tag and make sure that the <strong>Data Source</strong> and <strong>Data Member</strong> properties were specified correctly.</p>
+<p><img src="../../../../../images/eurd-win-chart-auto-created-series-data-source.png" alt=""></p>
 </li>
 </ol>
-<div class="NOTE"><h5>Note</h5><p>The report&#39;s <strong>Data Source</strong> property should be set to <strong>None</strong> because the Chart is in the Detail band. When a report has its <strong>Data Source</strong> property specified, the Chart is repeated in preview as many times as there are records in the report data source.</p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>The report's <strong>Data Source</strong> property should be set to <strong>None</strong> because the Chart is in the Detail band. When a report has its <strong>Data Source</strong> property specified, the Chart is repeated in preview as many times as there are records in the report data source.</p>
 </div>
 <h2 id="adjust-the-series-template">Adjust the Series Template</h2>
 <ol>
 <li><p>Switch to the <strong>Chart Tools</strong> toolbar tab and click <strong>Run Designer</strong>.</p>
-<p> <img src="../../../../../images/eurd-win-chart-run-designer-button.png" alt=""></p>
+<p><img src="../../../../../images/eurd-win-chart-run-designer-button.png" alt=""></p>
 </li>
-<li><p>In the invoked <strong>Chart Designer</strong>, go to the <strong>Data</strong> tab to the right of the designer&#39;s window. Select a data source in the corresponding drop-down list and drag-and-drop the data fields onto the corresponding cells.</p>
-<p> The <strong>Series</strong> cell specifies a data field that should provide data for series names. A new series should be created for each record in this data field. Use the <strong>Argument</strong> and <strong>Value</strong> cells to define where to get data for point arguments and values.</p>
-<p> <img src="../../../../../images/eurd-win-chart-auto-created-series-data-settings.png" alt=""></p>
+<li><p>In the invoked <strong>Chart Designer</strong>, go to the <strong>Data</strong> tab to the right of the designer's window. Select a data source in the corresponding drop-down list and drag-and-drop the data fields onto the corresponding cells.</p>
+<p>The <strong>Series</strong> cell specifies a data field that should provide data for series names. A new series should be created for each record in this data field. Use the <strong>Argument</strong> and <strong>Value</strong> cells to define where to get data for point arguments and values.</p>
+<p><img src="../../../../../images/eurd-win-chart-auto-created-series-data-settings.png" alt=""></p>
 </li>
 <li><p>Switch to the <strong>Properties</strong> tab and expand the <strong>Series Template</strong> option. The <strong>Argument Data Member</strong> and <strong>Value Data Members</strong> properties are automatically assigned to the corresponding data fields. Make sure that the <strong>Argument Scale Type</strong> and <strong>Value Scale Type</strong> properties are set to appropriate values.</p>
-<p> <img src="../../../../../images/eurd-win-chart-auto-created-series-properties.png" alt=""></p>
+<p><img src="../../../../../images/eurd-win-chart-auto-created-series-properties.png" alt=""></p>
 </li>
 </ol>
 <h2 id="customize-the-chart">Customize the Chart</h2>
-<p>Perform the following customization to improve the chart&#39;s appearance:</p>
+<p>Perform the following customization to improve the chart's appearance:</p>
 <ul>
-<li>Use the chart&#39;s <strong>Series Name Template</strong> property to add text to the beginning or end of each series name. For example, set the <strong>Begin Text</strong> inner property to &quot;GSP in &quot;.</li>
-<li>Set the <strong>Labels Visibility</strong> property to <strong>False</strong> to avoid overlapping series labels. </li>
-<li>Specify the color settings used to draw the chart&#39;s series. For instance, select <strong>Nature Colors</strong> in the <strong>Palette</strong>&#39;s drop-down list.</li>
+<li>Use the chart's <strong>Series Name Template</strong> property to add text to the beginning or end of each series name. For example, set the <strong>Begin Text</strong> inner property to &quot;GSP in &quot;.</li>
+<li>Set the <strong>Labels Visibility</strong> property to <strong>False</strong> to avoid overlapping series labels.</li>
+<li>Specify the color settings used to draw the chart's series. For instance, select <strong>Nature Colors</strong> in the <strong>Palette</strong>'s drop-down list.</li>
 </ul>
 <h2 id="view-the-result">View the Result</h2>
 <p>Switch to <a href="../../preview-print-and-export-reports.html">Print Preview</a> to see the resulting report.</p>
 <p><img src="../../../../../images/eurd-win-chart-auto-created-series-result.png" alt=""></p>
+
 </article>
           </div>
-          
+
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/24.1/reporting-for-desktop/articles/report-designer/report-designer-for-winforms/use-report-elements/use-charts-and-pivot-grids/add-a-chart-use-a-series-template.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/fix-styles/reporting-for-desktop/articles/report-designer/report-designer-for-winforms/use-report-elements/use-charts-and-pivot-grids/add-a-chart-use-a-series-template.md/#L1" class="contribution-link">Edit this page</a>
                   </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-                <h5>In This Article</h5>
+                <h5>In this article</h5>
                 <div></div>
               </nav>
             </div>
           </div>
         </div>
       </div>
-      
+
       <footer>
         <div class="grad-bottom"></div>
         <div class="footer">
@@ -147,14 +142,14 @@
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
-            
+      Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
+      
           </div>
         </div>
       </footer>
     </div>
-    
-    <script type="text/javascript" src="../../../../../../styles/docfx.vendor.js"></script>
+
+    <script type="text/javascript" src="../../../../../../styles/docfx.vendor.min.js"></script>
     <script type="text/javascript" src="../../../../../../styles/docfx.js"></script>
     <script type="text/javascript" src="../../../../../../styles/main.js"></script>
   </body>

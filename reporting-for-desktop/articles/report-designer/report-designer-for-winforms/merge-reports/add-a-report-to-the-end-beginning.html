@@ -1,37 +1,29 @@
 ﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  
+
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Add a Report to the End/Beginning | DevExpress End-User Documentation </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Add a Report to the End/Beginning | DevExpress End-User Documentation ">
-    <meta name="generator" content="docfx 2.59.2.0">
-    
+    <meta name="generator" content="docfx ">
+  
     <link rel="shortcut icon" href="../../../../../favicon.ico">
-    <link rel="stylesheet" href="../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../styles/docfx.vendor.min.css">
     <link rel="stylesheet" href="../../../../../styles/docfx.css">
     <link rel="stylesheet" href="../../../../../styles/main.css">
     <meta property="docfx:navrel" content="../../../../../toc.html">
     <meta property="docfx:tocrel" content="../../../../toc.html">
-    
-    
-    
-    <!-- Matomo Tag Manager -->
-    <script>
-      var _mtm = window._mtm = window._mtm || [];
-      _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
-      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-      g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
-    </script>
-    <!-- End Matomo Tag Manager -->
+  
+  
+  
   </head>
   <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
-        
+
         <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
           <div class="container">
             <div class="navbar-header">
@@ -41,7 +33,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              
+
               <a class="navbar-brand" href="../../../../../index.html">
                 <img id="logo" class="svg" src="../../../../../logo.svg" alt="">
               </a>
@@ -55,7 +47,7 @@
             </div>
           </div>
         </nav>
-        
+
         <div class="subnav navbar navbar-default">
           <div class="container hide-when-search" id="breadcrumb">
             <ul class="breadcrumb">
@@ -65,7 +57,7 @@
         </div>
       </header>
       <div role="main" class="container body-content hide-when-search">
-        
+
         <div class="sidenav hide-when-search">
           <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
           <div class="sidetoggle collapse" id="sidetoggle">
@@ -77,53 +69,55 @@
             <article class="content wrap" id="_content" data-uid="">
 <h1 id="add-a-report-to-the-endbeginning">Add a Report to the End/Beginning</h1>
 
-<p>Follow the steps below to add a separate report to the end of another report and print it as a single job.</p>
+<p>Follow the steps below to add a separate report to the end of another report and print it as a single job.</p>
 <p><img src="../../../../images/eurd-merge-endreport-layouts.png" alt="xtrareports-merge-endreport-layouts"></p>
 <ol>
 <li><p>Right-click the base report and select the <strong>Insert Band</strong> / <strong>Report Footer</strong> item in the context menu.</p>
-<p> <img src="../../../../images/eurd-merge-add-report-footer.png" alt="toolbox-drop-report-control-label"></p>
+<p><img src="../../../../images/eurd-merge-add-report-footer.png" alt="toolbox-drop-report-control-label"></p>
 </li>
 <li><p>Drag a <a href="../use-report-elements/use-basic-report-controls/subreport.html">Subreport</a> item from the Toolbox onto the created Report Footer band.</p>
-<p> <img src="../../../../images/eurd-merge-add-subreport-2.png" alt="toolbox-drop-report-control-label"></p>
-<div class="TIP"><h5>Tip</h5><p>To add a report to the beginning of another report (for instance, to add a title page), use the <strong>Report Header</strong> band instead.</p>
+<p><img src="../../../../images/eurd-merge-add-subreport-2.png" alt="toolbox-drop-report-control-label"></p>
+<div class="TIP">
+<h5>Tip</h5>
+<p>To add a report to the beginning of another report (for instance, to add a title page), use the <strong>Report Header</strong> band instead.</p>
 </div>
 </li>
-<li><p>Click the subreport&#39;s smart tag and specify a report in the <strong>Sub-Report Tasks</strong> window:</p>
+<li><p>Click the subreport's smart tag and specify a report in the <strong>Sub-Report Tasks</strong> window:</p>
 <ul>
 <li>Use the <strong>Report Source</strong> property to assign a predefined report from the Designer.</li>
-<li><p>Use the <strong>Report Source Url</strong> property to assign a custom report.</p>
+<li>Use the <strong>Report Source Url</strong> property to assign a custom report.</li>
+</ul>
 <p><img src="../../../../images/eurd-merge-configure-subreport-2.png" alt="xtrareports-add-subreport"></p>
 </li>
-</ul>
-</li>
 <li><p>Enable the <strong>Generate Own Pages</strong> option to print the embedded report on separate pages and use its own page settings.</p>
-<p> <img src="../../../../images/eurd-merge-enable-generateownpages-2.png" alt="xtrareports-subreport-enable-generateownpages"></p>
+<p><img src="../../../../images/eurd-merge-enable-generateownpages-2.png" alt="xtrareports-subreport-enable-generateownpages"></p>
 </li>
 <li><p>Switch to Preview mode to see the combined report.</p>
-<p> <img src="../../../../images/eurd-merge-endreport-result.png" alt="title-report-page-result"></p>
+<p><img src="../../../../images/eurd-merge-endreport-result.png" alt="title-report-page-result"></p>
 </li>
 </ol>
+
 </article>
           </div>
-          
+
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/24.1/reporting-for-desktop/articles/report-designer/report-designer-for-winforms/merge-reports/add-a-report-to-the-end-beginning.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/fix-styles/reporting-for-desktop/articles/report-designer/report-designer-for-winforms/merge-reports/add-a-report-to-the-end-beginning.md/#L1" class="contribution-link">Edit this page</a>
                   </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-                <h5>In This Article</h5>
+                <h5>In this article</h5>
                 <div></div>
               </nav>
             </div>
           </div>
         </div>
       </div>
-      
+
       <footer>
         <div class="grad-bottom"></div>
         <div class="footer">
@@ -131,14 +125,14 @@
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
-            
+      Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
+      
           </div>
         </div>
       </footer>
     </div>
-    
-    <script type="text/javascript" src="../../../../../styles/docfx.vendor.js"></script>
+
+    <script type="text/javascript" src="../../../../../styles/docfx.vendor.min.js"></script>
     <script type="text/javascript" src="../../../../../styles/docfx.js"></script>
     <script type="text/javascript" src="../../../../../styles/main.js"></script>
   </body>

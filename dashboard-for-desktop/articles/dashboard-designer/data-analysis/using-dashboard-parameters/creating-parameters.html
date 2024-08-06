@@ -1,37 +1,29 @@
 ﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  
+
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Creating Parameters | DevExpress End-User Documentation </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Creating Parameters | DevExpress End-User Documentation ">
-    <meta name="generator" content="docfx 2.59.2.0">
-    
+    <meta name="generator" content="docfx ">
+  
     <link rel="shortcut icon" href="../../../../../favicon.ico">
-    <link rel="stylesheet" href="../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../styles/docfx.vendor.min.css">
     <link rel="stylesheet" href="../../../../../styles/docfx.css">
     <link rel="stylesheet" href="../../../../../styles/main.css">
     <meta property="docfx:navrel" content="../../../../../toc.html">
     <meta property="docfx:tocrel" content="../../../../toc.html">
-    
-    
-    
-    <!-- Matomo Tag Manager -->
-    <script>
-      var _mtm = window._mtm = window._mtm || [];
-      _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
-      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-      g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
-    </script>
-    <!-- End Matomo Tag Manager -->
+  
+  
+  
   </head>
   <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
-        
+
         <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
           <div class="container">
             <div class="navbar-header">
@@ -41,7 +33,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              
+
               <a class="navbar-brand" href="../../../../../index.html">
                 <img id="logo" class="svg" src="../../../../../logo.svg" alt="">
               </a>
@@ -55,7 +47,7 @@
             </div>
           </div>
         </nav>
-        
+
         <div class="subnav navbar navbar-default">
           <div class="container hide-when-search" id="breadcrumb">
             <ul class="breadcrumb">
@@ -65,7 +57,7 @@
         </div>
       </header>
       <div role="main" class="container body-content hide-when-search">
-        
+
         <div class="sidenav hide-when-search">
           <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
           <div class="sidetoggle collapse" id="sidetoggle">
@@ -82,26 +74,30 @@
 <li><a href="#creating-parameters-in-the-dashboard-designer">Creating Parameters in the Dashboard Designer</a></li>
 <li><a href="#look-up-editor-settings">Look-Up Editor Settings</a></li>
 </ul>
-<h2 id="a-namecreating-parameters-in-the-dashboard-designercreating-parameters-in-the-dashboard-designer"><a name="creating-parameters-in-the-dashboard-designer"></a>Creating Parameters in the Dashboard Designer</h2>
+<h2 id="creating-parameters-in-the-dashboard-designer"><a name="creating-parameters-in-the-dashboard-designer"></a>Creating Parameters in the Dashboard Designer</h2>
 <p>To create dashboard parameters in the Dashboard Designer, do the following:</p>
 <ol>
-<li><p>Click the <strong>Parameters</strong> button on the Ribbon&#39;s <strong>Data Source</strong> tab.</p>
-<p> <img src="../../../../images/img21711.png" alt="Parameters_AddParameterButton_Ribbon"></p>
+<li><p>Click the <strong>Parameters</strong> button on the Ribbon's <strong>Data Source</strong> tab.</p>
+<p><img src="../../../../images/img21711.png" alt="Parameters_AddParameterButton_Ribbon"></p>
 </li>
 <li><p>In the invoked dialog, click the <strong>Add</strong> button to add a new parameter.</p>
-<p> <img src="../../../../images/img21716.png" alt="Parameters_ParametersDialog"></p>
+<p><img src="../../../../images/img21716.png" alt="Parameters_ParametersDialog"></p>
 </li>
 <li><p>Specify the following settings.</p>
 <ul>
-<li><strong>Visible</strong> - Specifies whether or not the parameter editor is visible in the <a href="requesting-parameter-values.html">Dashboard Parameters</a> dialog.</li>
-<li><strong>Allow Null</strong> - Specifies whether or a not null value can be passed as a parameter value.</li>
-<li><strong>Allow Multiselect</strong> - Specifies whether or not multi-selection is enabled for the current parameter. The following limitations are applied to parameters with multi-selection enabled.<ul>
+<li><p><strong>Visible</strong> - Specifies whether or not the parameter editor is visible in the <a href="requesting-parameter-values.html">Dashboard Parameters</a> dialog.</p>
+</li>
+<li><p><strong>Allow Null</strong> - Specifies whether or a not null value can be passed as a parameter value.</p>
+</li>
+<li><p><strong>Allow Multiselect</strong> - Specifies whether or not multi-selection is enabled for the current parameter. The following limitations are applied to parameters with multi-selection enabled.</p>
+<ul>
 <li>Use the <strong>is any of</strong> or <strong>is none of</strong> operators to pass a multi-select parameter to a <a href="../../data-shaping/filtering.html">filter</a> criteria or to the <a href="../../appearance-customization/conditional-formatting/expression.html">Expression</a> format condition.</li>
 <li>Use the <strong>In</strong> or <strong>Not In</strong> operators to pass a multi-select parameter to a <a href="../../work-with-data/creating-calculated-fields.html">calculated field</a> expression.</li>
 <li>Stored procedures used in the <a href="../../work-with-data/stored-procedures.html">SQL</a> data source do not support multi-select parameters.</li>
 </ul>
 </li>
-<li><strong>Name</strong> - Specifies the parameter name. When creating and modifying parameter names, follow the rules below.<ul>
+<li><p><strong>Name</strong> - Specifies the parameter name. When creating and modifying parameter names, follow the rules below.</p>
+<ul>
 <li>A name can contain letters, numbers and underscores.</li>
 <li>A name cannot contain spaces.</li>
 <li>A name cannot be an empty string.</li>
@@ -109,63 +105,68 @@
 <li>Names are case-sensitive. For example, you can create the names <em>Parameter</em> and <em>PARAMETER</em> .</li>
 </ul>
 </li>
-<li><strong>Description</strong> - Specifies the parameter&#39;s description. The parameter&#39;s description is the value displayed in the <strong>Parameter Name</strong> column of the <a href="requesting-parameter-values.html">Dashboard Parameters</a> dialog.</li>
-<li><strong>Look-Up Settings</strong>  -  Specifies the parameter&#39;s <a href="#look-up-editor-settings">look-up editor settings</a>.</li>
-<li><p><strong>Select All Values</strong> - Specifies whether or not all parameter values should be selected in the initial state of the Dashboard Viewer.</p>
-<p>  Note that this option is in effect when <strong>Allow Multiselect</strong> is set to <strong>true</strong>.</p>
+<li><p><strong>Description</strong> - Specifies the parameter's description. The parameter's description is the value displayed in the <strong>Parameter Name</strong> column of the <a href="requesting-parameter-values.html">Dashboard Parameters</a> dialog.</p>
 </li>
-<li><strong>Type</strong> - Specifies the parameter type.</li>
+<li><p><strong>Look-Up Settings</strong>  -  Specifies the parameter's <a href="#look-up-editor-settings">look-up editor settings</a>.</p>
+</li>
+<li><p><strong>Select All Values</strong> - Specifies whether or not all parameter values should be selected in the initial state of the Dashboard Viewer.</p>
+<p>Note that this option is in effect when <strong>Allow Multiselect</strong> is set to <strong>true</strong>.</p>
+</li>
+<li><p><strong>Type</strong> - Specifies the parameter type.</p>
+</li>
 <li><p><strong>Value</strong> - Specifies the default parameter’s value. Note that when <strong>Allow Multiselect</strong> is set to <strong>true</strong>, the <strong>Value</strong> option allows you to select multiple parameter values.</p>
-<p>Then, click <strong>OK</strong> to add the created parameters to the dashboard.</p>
 </li>
 </ul>
+<p>Then, click <strong>OK</strong> to add the created parameters to the dashboard.</p>
 </li>
 </ol>
-<h2 id="a-namelook-up-editor-settingslook-up-editor-settings"><a name="look-up-editor-settings"></a>Look-Up Editor Settings</h2>
+<h2 id="look-up-editor-settings"><a name="look-up-editor-settings"></a>Look-Up Editor Settings</h2>
 <p>There are three types of look-up editor settings that can be specified for a parameter. Select the required type from the <strong>LookUpSettings</strong> drop-down list.</p>
 <p><img src="../../../../images/img21718.png" alt="Parameters_ParametersDialog_LookUpSettings"></p>
 <ul>
 <li><p><strong>No Look-Up</strong> - set the <strong>Value</strong> to use a static value as a parameter.</p>
-<p>  <img src="../../../../images/img21722.png" alt="Parameters_LookUpSettings_NoLookUp"></p>
+<p><img src="../../../../images/img21722.png" alt="Parameters_LookUpSettings_NoLookUp"></p>
 </li>
 <li><p><strong>Static List</strong> - click the ellipsis button to add static values for the current dashboard parameter.</p>
-<p>  <img src="../../../../images/img21723.png" alt="Parameters_LookUpSettings_Static"></p>
-<p>  In this case, the <strong>Value</strong> specifies the default parameter&#39;s value.</p>
+<p><img src="../../../../images/img21723.png" alt="Parameters_LookUpSettings_Static"></p>
+<p>In this case, the <strong>Value</strong> specifies the default parameter's value.</p>
 </li>
-<li><p><strong>Dynamic List</strong> - allows you to use a list of values from the existing data source as a parameter. You need to select the required <strong>Data Source</strong> from the list of available data sources and data members for the dashboard parameter&#39;s display name and value, respectively.</p>
-<p>  <img src="../../../../images/img21842.png" alt="Parameters_LookUpSettings_Dynamic"></p>
+<li><p><strong>Dynamic List</strong> - allows you to use a list of values from the existing data source as a parameter. You need to select the required <strong>Data Source</strong> from the list of available data sources and data members for the dashboard parameter's display name and value, respectively.</p>
+<p><img src="../../../../images/img21842.png" alt="Parameters_LookUpSettings_Dynamic"></p>
 <ol>
 <li>First, select the required <strong>Data Source</strong> from the list of available data sources. For the <a href="../../provide-data/connecting-to-sql-databases.html">SQL</a> data source, select the required <strong>Data Member</strong> that specifies the query from the selected <strong>Data Source</strong>.</li>
-<li>Then, specify data members for the dashboard parameter&#39;s value and display name using <strong>Value Member</strong> and <strong>Display Member</strong>, respectively.</li>
-<li><p>If necessary, specify the data member used to sort parameter values using the <strong>Sort By</strong> option. <strong>Sort Order</strong> specifies the required sort order.</p>
-<div class="NOTE"><h5>Note</h5><p>To learn how to create a data source for a dashboard parameter, see <a href="../../provide-data.html">Provide Data</a>.</p>
+<li>Then, specify data members for the dashboard parameter's value and display name using <strong>Value Member</strong> and <strong>Display Member</strong>, respectively.</li>
+<li>If necessary, specify the data member used to sort parameter values using the <strong>Sort By</strong> option. <strong>Sort Order</strong> specifies the required sort order.</li>
+</ol>
+<div class="NOTE">
+<h5>Note</h5>
+<p>To learn how to create a data source for a dashboard parameter, see <a href="../../provide-data.html">Provide Data</a>.</p>
 <p>Note that you cannot specify an <a href="../../provide-data/connecting-to-olap-cubes.html">OLAP</a> data source as the data source for the dashboard parameter in the Dashboard Designer.</p>
 </div>
 </li>
-</ol>
-</li>
 </ul>
+
 </article>
           </div>
-          
+
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/24.1/dashboard-for-desktop/articles/dashboard-designer/data-analysis/using-dashboard-parameters/creating-parameters.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/fix-styles/dashboard-for-desktop/articles/dashboard-designer/data-analysis/using-dashboard-parameters/creating-parameters.md/#L1" class="contribution-link">Edit this page</a>
                   </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-                <h5>In This Article</h5>
+                <h5>In this article</h5>
                 <div></div>
               </nav>
             </div>
           </div>
         </div>
       </div>
-      
+
       <footer>
         <div class="grad-bottom"></div>
         <div class="footer">
@@ -173,14 +174,14 @@
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
-            
+      Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
+      
           </div>
         </div>
       </footer>
     </div>
-    
-    <script type="text/javascript" src="../../../../../styles/docfx.vendor.js"></script>
+
+    <script type="text/javascript" src="../../../../../styles/docfx.vendor.min.js"></script>
     <script type="text/javascript" src="../../../../../styles/docfx.js"></script>
     <script type="text/javascript" src="../../../../../styles/main.js"></script>
   </body>

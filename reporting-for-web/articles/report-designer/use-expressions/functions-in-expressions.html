@@ -1,37 +1,29 @@
 ﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  
+
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Functions in Expressions | DevExpress End-User Documentation </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Functions in Expressions | DevExpress End-User Documentation ">
-    <meta name="generator" content="docfx 2.59.2.0">
-    
+    <meta name="generator" content="docfx ">
+  
     <link rel="shortcut icon" href="../../../../favicon.ico">
-    <link rel="stylesheet" href="../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../styles/docfx.vendor.min.css">
     <link rel="stylesheet" href="../../../../styles/docfx.css">
     <link rel="stylesheet" href="../../../../styles/main.css">
     <meta property="docfx:navrel" content="../../../../toc.html">
     <meta property="docfx:tocrel" content="../../../toc.html">
-    
-    
-    
-    <!-- Matomo Tag Manager -->
-    <script>
-      var _mtm = window._mtm = window._mtm || [];
-      _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
-      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-      g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
-    </script>
-    <!-- End Matomo Tag Manager -->
+  
+  
+  
   </head>
   <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
-        
+
         <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
           <div class="container">
             <div class="navbar-header">
@@ -41,7 +33,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              
+
               <a class="navbar-brand" href="../../../../index.html">
                 <img id="logo" class="svg" src="../../../../logo.svg" alt="">
               </a>
@@ -55,7 +47,7 @@
             </div>
           </div>
         </nav>
-        
+
         <div class="subnav navbar navbar-default">
           <div class="container hide-when-search" id="breadcrumb">
             <ul class="breadcrumb">
@@ -65,7 +57,7 @@
         </div>
       </header>
       <div role="main" class="container body-content hide-when-search">
-        
+
         <div class="sidenav hide-when-search">
           <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
           <div class="sidetoggle collapse" id="sidetoggle">
@@ -106,7 +98,7 @@
 <tr>
 <td>Join()</td>
 <td>Concatenates all Expression values in the <em>Collection</em> based on the specified <em>Condition</em> (optional) into a single string separated by the specified <em>Separator</em> (optional). If you do not specify a <em>Separator</em>, the function uses a comma. <br>The function has the following overloads: <br><code>[Collection][Condition].Join(Expression)</code><br><code>[Collection][Condition].Join(Expression, Separator)</code></td>
-<td>The following expression concatenates <em>CompanyName</em> field values within a report grouped by the <em>CategoryID</em> field into a single string separated by a semicolon: <code>[][[CategoryID] == [^.CategoryID]].Join([CompanyName], &#39;;&#39;)</code></td>
+<td>The following expression concatenates <em>CompanyName</em> field values within a report grouped by the <em>CategoryID</em> field into a single string separated by a semicolon: <code>[][[CategoryID] == [^.CategoryID]].Join([CompanyName], ';')</code></td>
 </tr>
 <tr>
 <td>Max(Value)</td>
@@ -126,7 +118,7 @@
 <tr>
 <td>Single(Expression)</td>
 <td>You can pass an expression as a parameter: <em>[Collection][Condition].Single(Expression)</em>. This function returns the <em>Expression</em> if the <em>Collection</em> contains only one object that meets the specified <em>Condition</em> (optional).</td>
-<td>[Collection].Single([Property1]) - returns the found object&#39;s property value.</td>
+<td>[Collection].Single([Property1]) - returns the found object's property value.</td>
 </tr>
 <tr>
 <td>Sum(Value)</td>
@@ -504,7 +496,8 @@
 </table>
 <h2 id="logical-functions">Logical Functions</h2>
 <ul>
-<li><p>Iif(Expression1, True_Value1, ..., ExpressionN, True_ValueN, False_Value)<br>Returns one of several specified values depending upon the values of logical expressions.</p>
+<li><p>Iif(Expression1, True_Value1, ..., ExpressionN, True_ValueN, False_Value)<br>
+Returns one of several specified values depending upon the values of logical expressions.</p>
 <p>The function can take <em>2N+1</em> arguments (<em>N</em> - the number of specified logical expressions):</p>
 <ul>
 <li><p>Each odd argument specifies a logical expression.</p>
@@ -514,19 +507,26 @@
 <li><p><strong>...</strong></p>
 </li>
 <li><p>The last argument specifies the value that is returned if the previously evaluated logical expressions yielded <strong>False</strong>.</p>
-<pre><code>Iif(Name = &#39;Bob&#39;, 1, Name = &#39;Dan&#39;, 2, Name = &#39;Sam&#39;, 3, 4)&quot;)
-</code></pre></li>
-</ul>
 </li>
-<li><p>IsNull(Value)<br>Returns True if the specified Value is NULL.</p>
+</ul>
+<pre><code>Iif(Name = 'Bob', 1, Name = 'Dan', 2, Name = 'Sam', 3, 4)&quot;)
+</code></pre>
+</li>
+<li><p>IsNull(Value)<br>
+Returns True if the specified Value is NULL.</p>
 <pre><code>IsNull([OrderDate])
-</code></pre></li>
-<li><p>IsNull(Value1, Value2)<br>Returns Value1 if it is not set to NULL; otherwise, Value2 is returned.</p>
+</code></pre>
+</li>
+<li><p>IsNull(Value1, Value2)<br>
+Returns Value1 if it is not set to NULL; otherwise, Value2 is returned.</p>
 <pre><code>IsNull([ShipDate], [RequiredDate])
-</code></pre></li>
-<li><p>IsNullOrEmpty(String)<br>Returns True if the specified String object is NULL or an empty string; otherwise, False is returned.</p>
+</code></pre>
+</li>
+<li><p>IsNullOrEmpty(String)<br>
+Returns True if the specified String object is NULL or an empty string; otherwise, False is returned.</p>
 <pre><code>IsNullOrEmpty([ProductName])
-</code></pre></li>
+</code></pre>
+</li>
 </ul>
 <h2 id="math-functions">Math Functions</h2>
 <table>
@@ -540,22 +540,22 @@
 <tbody>
 <tr>
 <td>Abs(Value)</td>
-<td>Returns the given numeric expression&#39;s absolute, positive value.</td>
+<td>Returns the given numeric expression's absolute, positive value.</td>
 <td>Abs(1 - [Discount])</td>
 </tr>
 <tr>
 <td>Acos(Value)</td>
-<td>Returns a number&#39;s arccosine (the angle in radians, whose cosine is the given float expression).</td>
+<td>Returns a number's arccosine (the angle in radians, whose cosine is the given float expression).</td>
 <td>Acos([Value])</td>
 </tr>
 <tr>
 <td>Asin(Value)</td>
-<td>Returns a number&#39;s arcsine (the angle in radians, whose sine is the given float expression).</td>
+<td>Returns a number's arcsine (the angle in radians, whose sine is the given float expression).</td>
 <td>Asin([Value])</td>
 </tr>
 <tr>
 <td>Atn(Value)</td>
-<td>Returns a number&#39;s arctangent (the angle in radians, whose tangent is the given float expression).</td>
+<td>Returns a number's arctangent (the angle in radians, whose tangent is the given float expression).</td>
 <td>Atn([Value])</td>
 </tr>
 <tr>
@@ -575,17 +575,17 @@
 </tr>
 <tr>
 <td>Cos(Value)</td>
-<td>Returns the angle&#39;s cosine, in radians.</td>
+<td>Returns the angle's cosine, in radians.</td>
 <td>Cos([Value])</td>
 </tr>
 <tr>
 <td>Cosh(Value)</td>
-<td>Returns the angle&#39;s hyperbolic cosine, in radians.</td>
+<td>Returns the angle's hyperbolic cosine, in radians.</td>
 <td>Cosh([Value])</td>
 </tr>
 <tr>
 <td>Exp(Value)</td>
-<td>Returns the float expression&#39;s exponential value.</td>
+<td>Returns the float expression's exponential value.</td>
 <td>Exp([Value])</td>
 </tr>
 <tr>
@@ -595,7 +595,7 @@
 </tr>
 <tr>
 <td>Log(Value)</td>
-<td>Returns a specified number&#39;s natural logarithm.</td>
+<td>Returns a specified number's natural logarithm.</td>
 <td>Log([Value])</td>
 </tr>
 <tr>
@@ -605,7 +605,7 @@
 </tr>
 <tr>
 <td>Log10(Value)</td>
-<td>Returns a specified number&#39;s base 10 logarithm.</td>
+<td>Returns a specified number's base 10 logarithm.</td>
 <td>Log10([Value])</td>
 </tr>
 <tr>
@@ -697,36 +697,42 @@
 </table>
 <h2 id="reporting-functions">Reporting Functions</h2>
 <ul>
-<li><p>Argb(Alpha, Red, Green, Blue)<br>Returns a string defining a color using the Alpha, Red, Green, and Blue color channel values.</p>
+<li><p>Argb(Alpha, Red, Green, Blue)<br>
+Returns a string defining a color using the Alpha, Red, Green, and Blue color channel values.</p>
 <pre><code>Argb(1,200, 30, 200)  
-/* Result: &#39;1,200,30,200&#39;*/
-</code></pre></li>
-<li><p>GetDisplayText(?parameterName)<br>Returns a Display Text for a parameter&#39;s lookup value.</p>
+/* Result: '1,200,30,200'*/
+</code></pre>
+</li>
+<li><p>GetDisplayText(?parameterName)<br>
+Returns a Display Text for a parameter's lookup value.</p>
 <p>For <strong>non-lookup parameters</strong>, this function returns a value converted to string.</p>
 <pre><code>/* ?employeeParameter stores static or dynamic predefined values  
 where EmployeeID is a parameter value  
 and EmployeeName is a display text. */  
 GetDisplayText(?employeeParameter)
-</code></pre></li>
-<li><p>Rgb(Red, Green, Blue)<br>Returns a string defining a color using the Red, Green, and Blue color channel values.</p>
+</code></pre>
+</li>
+<li><p>Rgb(Red, Green, Blue)<br>
+Returns a string defining a color using the Red, Green, and Blue color channel values.</p>
 <pre><code>Rgb(30,200,150)  
-/* Result: &#39;30,200,150&#39; */
-</code></pre></li>
+/* Result: '30,200,150' */
+</code></pre>
+</li>
 <li><p>CurrentRowIndexInGroup()</p>
-<p> Returns the current row&#39;s index within the group.</p>
-<p>  The following expression adds row indexes in the group:</p>
-<p>  <code>CurrentRowIndexInGroup(0) + 1</code></p>
+<p>Returns the current row's index within the group.</p>
+<p>The following expression adds row indexes in the group:</p>
+<p><code>CurrentRowIndexInGroup(0) + 1</code></p>
 </li>
 <li><p>GroupIndex(level)</p>
-<p> Locates the parent group row at the specified nesting level and returns that row&#39;s index. </p>
-<p>  The following expression displays indexes of root-level groups:</p>
-<p>  <code>GroupIndex(1) + 1</code>  </p>
+<p>Locates the parent group row at the specified nesting level and returns that row's index.</p>
+<p>The following expression displays indexes of root-level groups:</p>
+<p><code>GroupIndex(1) + 1</code></p>
 </li>
 <li><p>NextRowColumnValue(columnName)</p>
-<p>  Obtains the next row and returns the value from the specified column.</p>
+<p>Obtains the next row and returns the value from the specified column.</p>
 </li>
 <li><p>PrevRowColumnValue(columnName)</p>
-<p>  Obtains the previous row and returns the value from the specified column.</p>
+<p>Obtains the previous row and returns the value from the specified column.</p>
 </li>
 </ul>
 <h2 id="string-functions">String Functions</h2>
@@ -742,7 +748,7 @@ GetDisplayText(?employeeParameter)
 <tr>
 <td>Ascii(String)</td>
 <td>Returns the ASCII code value of the leftmost character in a character expression.</td>
-<td>Ascii(&#39;a&#39;)</td>
+<td>Ascii('a')</td>
 </tr>
 <tr>
 <td>Char(Number)</td>
@@ -752,32 +758,32 @@ GetDisplayText(?employeeParameter)
 <tr>
 <td>CharIndex(String1, String2)</td>
 <td>Returns the starting position of String1 within String2, beginning from the zero character position to the end of a string.</td>
-<td>CharIndex(&#39;e&#39;, &#39;devexpress&#39;)</td>
+<td>CharIndex('e', 'devexpress')</td>
 </tr>
 <tr>
 <td>CharIndex(String1, String2, StartLocation)</td>
 <td>Returns the starting position of String1 within String2, beginning from the StartLocation character position to the end of a string.</td>
-<td>CharIndex(&#39;e&#39;, &#39;devexpress&#39;, 2)</td>
+<td>CharIndex('e', 'devexpress', 2)</td>
 </tr>
 <tr>
 <td>Concat(String1, ... , StringN)</td>
 <td>Returns a string value containing the concatenation of the current string with any additional strings.</td>
-<td>Concat(&#39;A&#39;, &#39;)&#39;, [ProductName])</td>
+<td>Concat('A', ')', [ProductName])</td>
 </tr>
 <tr>
 <td>Contains(String1, SubString1)</td>
 <td>Returns True if SubString1 occurs within String1; otherwise, False is returned.</td>
-<td>Contains([ProductName], &#39;dairy&#39;)</td>
+<td>Contains([ProductName], 'dairy')</td>
 </tr>
 <tr>
 <td>EndsWith(String1, SubString1)</td>
 <td>Returns True if the end of String1 matches SubString1; otherwise, False is returned.</td>
-<td>EndsWith([Description], &#39;The end.&#39;)</td>
+<td>EndsWith([Description], 'The end.')</td>
 </tr>
 <tr>
 <td>Insert(String1, StartPosition, String2)</td>
 <td>Inserts String2 into String1 at the position specified by StartPositon</td>
-<td>Insert([Name], 0, &#39;ABC-&#39;)</td>
+<td>Insert([Name], 0, 'ABC-')</td>
 </tr>
 <tr>
 <td>Len(Value)</td>
@@ -791,13 +797,13 @@ GetDisplayText(?employeeParameter)
 </tr>
 <tr>
 <td>PadLeft(String, Length)</td>
-<td>Left-aligns the defined string&#39;s characters, padding its left side with white space characters up to a specified total length.</td>
+<td>Left-aligns the defined string's characters, padding its left side with white space characters up to a specified total length.</td>
 <td>PadLeft([Name], 30)</td>
 </tr>
 <tr>
 <td>PadLeft(String, Length, Char)</td>
-<td>Left-aligns the defined string&#39;s characters, padding its left side with the specified Char up to a specified total length.</td>
-<td>PadLeft([Name], 30, &#39;&lt;&#39;)</td>
+<td>Left-aligns the defined string's characters, padding its left side with the specified Char up to a specified total length.</td>
+<td>PadLeft([Name], 30, '&lt;')</td>
 </tr>
 <tr>
 <td>PadRight(String, Length)</td>
@@ -807,7 +813,7 @@ GetDisplayText(?employeeParameter)
 <tr>
 <td>PadRight(String, Length, Char)</td>
 <td>Right-aligns the defined string�s characters, padding its left side with the specified Char up to a specified total length.</td>
-<td>PadRight([Name], 30, &#39;&gt;&#39;)</td>
+<td>PadRight([Name], 30, '&gt;')</td>
 </tr>
 <tr>
 <td>Remove(String, StartPosition)</td>
@@ -822,7 +828,7 @@ GetDisplayText(?employeeParameter)
 <tr>
 <td>Replace(String1, SubString2, String3)</td>
 <td>Returns a copy of String1, in which SubString2 has been replaced with String3.</td>
-<td>Replace([Name], &#39;The &#39;, &#39;&#39;)</td>
+<td>Replace([Name], 'The ', '')</td>
 </tr>
 <tr>
 <td>Reverse(String)</td>
@@ -832,7 +838,7 @@ GetDisplayText(?employeeParameter)
 <tr>
 <td>StartsWith(String1, SubString1)</td>
 <td>Returns True if the beginning of String1 matches SubString1; otherwise, False.</td>
-<td>StartsWith([Title], &#39;The best&#39;)</td>
+<td>StartsWith([Title], 'The best')</td>
 </tr>
 <tr>
 <td>Substring(String, StartPosition, Length)</td>
@@ -864,161 +870,218 @@ GetDisplayText(?employeeParameter)
 <h2 id="functions-for-expression-bindings-and-calculated-fields">Functions for Expression Bindings and Calculated Fields</h2>
 <p>Below is a list of functions that are used to construct <a href="data-binding-modes.html">expression bindings</a> and <a href="../shape-report-data/use-calculated-fields/calculated-fields-overview.html">calculated fields</a>:</p>
 <ul>
-<li><p>NewLine()<br>Returns the newline string defined for the current environment.</p>
+<li><p>NewLine()<br>
+Returns the newline string defined for the current environment.</p>
 <pre><code>[CategoryName]+NewLine()+[Description]
 /*
 Result:
 Beverages
 Soft drinks, coffees, teas, beers and ales.
 /*
-</code></pre></li>
-<li><p>FormatString(Format, Value1, ... , ValueN)<br>Returns the specified string with formatted field values.<br>See the following topic for details: <a href="../shape-report-data/format-data.html">Format Data</a>.</p>
-<pre><code>FormatString(&#39;{0:$0.00}&#39;, [UnitPrice])
+</code></pre>
+</li>
+<li><p>FormatString(Format, Value1, ... , ValueN)<br>
+Returns the specified string with formatted field values.<br>
+See the following topic for details: <a href="../shape-report-data/format-data.html">Format Data</a>.</p>
+<pre><code>FormatString('{0:$0.00}', [UnitPrice])
 /*
 Result: $45.60
 */
-</code></pre></li>
-<li><p>Rgb(Red, Green, Blue)<br>Returns a string defining a color using the Red, Green, and Blue color channel values.</p>
+</code></pre>
+</li>
+<li><p>Rgb(Red, Green, Blue)<br>
+Returns a string defining a color using the Red, Green, and Blue color channel values.</p>
 <pre><code>Rgb(30,200,150)
 /*
-Result: &#39;30,200,150&#39;
+Result: '30,200,150'
 */
-</code></pre></li>
-<li><p>Join()<br>Concatenates the <a href="../use-report-parameters/multi-value-report-parameters.html">multi-value report parameter</a>&#39;s values into a string. This function is useful when you <a href="../use-report-parameters/create-a-report-parameter.html">bind a multi-value parameter to a label</a> to display the parameter&#39;s values in a report.</p>
+</code></pre>
+</li>
+<li><p>Join()<br>
+Concatenates the <a href="../use-report-parameters/multi-value-report-parameters.html">multi-value report parameter</a>'s values into a string. This function is useful when you <a href="../use-report-parameters/create-a-report-parameter.html">bind a multi-value parameter to a label</a> to display the parameter's values in a report.</p>
 <p>This function has two overloads:</p>
 <ul>
-<li>Join(parameter) - concatenates the specified parameter&#39;s values using a comma as a separator.</li>
-<li>Join(parameter, separator) - concatenates the specified parameter&#39;s values using the specified separator.
-```
-Join(?CategoriesParameter)
+<li>Join(parameter) - concatenates the specified parameter's values using a comma as a separator.</li>
+<li>Join(parameter, separator) - concatenates the specified parameter's values using the specified separator.</li>
+</ul>
+<pre><code>Join(?CategoriesParameter)
 /*
 Result: Beverages, Condiments
-<em>/
+*/
 Join(?CategoriesParameter, newline())
-/</em>
+/*
 Result:
 Beverages
 Condiments
-*/</li>
-</ul>
+*/
+
+</code></pre>
 </li>
 </ul>
 <h2 id="functions-for-stored-procedures">Functions for Stored Procedures</h2>
 <p>The following functions are used to bind a report to a stored procedure:</p>
 <ul>
-<li><p>Join()<br>Concatenates the <a href="../use-report-parameters/multi-value-report-parameters.html">multi-value report parameter</a>&#39;s values into a string. This function can be used when mapping multi-value report parameters to query parameters generated from a stored procedure&#39;s parameters. Refer to the following topic for more information: <a href="../bind-to-data/specify-query-parameters.html">Query Parameters</a>.</p>
+<li><p>Join()<br>
+Concatenates the <a href="../use-report-parameters/multi-value-report-parameters.html">multi-value report parameter</a>'s values into a string. This function can be used when mapping multi-value report parameters to query parameters generated from a stored procedure's parameters. Refer to the following topic for more information: <a href="../bind-to-data/specify-query-parameters.html">Query Parameters</a>.</p>
 <p>This function has two overloads:</p>
 <ul>
-<li>Join(parameter) - concatenates the specified parameter&#39;s values using a comma as a separator.</li>
-<li>Join(parameter, separator) - concatenates the specified parameter&#39;s values using the specified separator.
-<code>Join(?Parameter1)</code></li>
+<li>Join(parameter) - concatenates the specified parameter's values using a comma as a separator.</li>
+<li>Join(parameter, separator) - concatenates the specified parameter's values using the specified separator.</li>
 </ul>
+<pre><code>Join(?Parameter1)
+</code></pre>
 </li>
-<li><p>CreateTable(Column1, ..., ColumnN)<br>Creates a table from several multi-value parameters&#39; values. This function can be used when mapping multi-value report parameters to the query parameter that is generated from a stored procedure&#39;s <a href="https://docs.microsoft.com/en-us/sql/relational-databases/tables/use-table-valued-parameters-database-engine">User Defined Table Type</a> parameter. Refer to the following topic for more information: <a href="../bind-to-data/specify-query-parameters.html">Query Parameters</a>.</p>
+<li><p>CreateTable(Column1, ..., ColumnN)<br>
+Creates a table from several multi-value parameters' values. This function can be used when mapping multi-value report parameters to the query parameter that is generated from a stored procedure's <a href="https://docs.microsoft.com/en-us/sql/relational-databases/tables/use-table-valued-parameters-database-engine">User Defined Table Type</a> parameter. Refer to the following topic for more information: <a href="../bind-to-data/specify-query-parameters.html">Query Parameters</a>.</p>
 <pre><code>CreateTable(?Parameter1, ..., ?ParameterN)
-</code></pre></li>
+</code></pre>
+</li>
 </ul>
 <h2 id="functions-for-summary-expression-editor">Functions for Summary Expression Editor</h2>
 <p>Use the following functions when you <a href="../shape-report-data/calculate-summaries.html">calculate a summary</a> across a report and its groups:</p>
 <ul>
-<li><p>sumAvg(Expression)<br>Calculates the average of all values within the specified summary region (group, page, or report).</p>
+<li><p>sumAvg(Expression)<br>
+Calculates the average of all values within the specified summary region (group, page, or report).</p>
 <pre><code>sumAvg([UnitPrice])
-</code></pre></li>
+</code></pre>
+</li>
 <li><p>sumCarryoverSum(Expression)</p>
 <p>Calculates the carried forward and brought forward totals.</p>
 <pre><code>sumCarryoverSum([Amount])
-</code></pre></li>
-<li><p>sumCount(Expression)<br>Counts the number of values within the specified summary region (group, page, or report). In a simple scenario, you may not pass a parameter.</p>
-<p>When using this function in a <a href="../create-reports/master-detail-reports-with-detail-report-bands.html">master-detail report</a>&#39;s master band and passing a detail field as a parameter, the function counts the number of records within the detail band.</p>
+</code></pre>
+</li>
+<li><p>sumCount(Expression)<br>
+Counts the number of values within the specified summary region (group, page, or report). In a simple scenario, you may not pass a parameter.</p>
+<p>When using this function in a <a href="../create-reports/master-detail-reports-with-detail-report-bands.html">master-detail report</a>'s master band and passing a detail field as a parameter, the function counts the number of records within the detail band.</p>
 <p>See also:</p>
 <ul>
 <li><a href="../shape-report-data/count-elements-and-values/count-the-number-of-records-in-a-report-or-group.html">Count the Number of Records in a Report or Group</a></li>
-<li><a href="../shape-report-data/count-elements-and-values/count-the-number-of-groups-in-a-report.html">Count the Number of Groups in a Report</a>
-<code>sumCount([UnitPrice])</code></li>
+<li><a href="../shape-report-data/count-elements-and-values/count-the-number-of-groups-in-a-report.html">Count the Number of Groups in a Report</a></li>
 </ul>
+<pre><code>sumCount([UnitPrice])
+</code></pre>
 </li>
-<li><p>sumDAvg(Expression)<br>Calculates the average of all <strong>distinct</strong> values within the specified summary region (group, page, or report).</p>
+<li><p>sumDAvg(Expression)<br>
+Calculates the average of all <strong>distinct</strong> values within the specified summary region (group, page, or report).</p>
 <pre><code>sumDAvg([UnitPrice])
-</code></pre></li>
-<li><p>sumDCount(Expression)<br>Counts the number of <strong>distinct</strong> values within the specified summary region (group, page, or report). In a simple scenario, you may not pass a parameter.</p>
+</code></pre>
+</li>
+<li><p>sumDCount(Expression)<br>
+Counts the number of <strong>distinct</strong> values within the specified summary region (group, page, or report). In a simple scenario, you may not pass a parameter.</p>
 <pre><code>sumDCount([UnitPrice])
-</code></pre></li>
-<li><p>sumDStdDev(Expression)<br>Calculates the standard deviation of all <strong>distinct</strong> values within the specified summary region (group, page, or report).</p>
+</code></pre>
+</li>
+<li><p>sumDStdDev(Expression)<br>
+Calculates the standard deviation of all <strong>distinct</strong> values within the specified summary region (group, page, or report).</p>
 <pre><code>sumDStdDev([UnitPrice])
-</code></pre></li>
-<li><p>sumDStdDevP(Expression)<br>Calculates the standard population deviation of all <strong>distinct</strong> values within the specified summary region (group, page, or report).</p>
+</code></pre>
+</li>
+<li><p>sumDStdDevP(Expression)<br>
+Calculates the standard population deviation of all <strong>distinct</strong> values within the specified summary region (group, page, or report).</p>
 <pre><code>sumDStdDevP([UnitPrice])
-</code></pre></li>
-<li><p>sumDSum(Expression)<br>Calculates the total of all <strong>distinct</strong> values within the specified summary region (group, page, or report).</p>
+</code></pre>
+</li>
+<li><p>sumDSum(Expression)<br>
+Calculates the total of all <strong>distinct</strong> values within the specified summary region (group, page, or report).</p>
 <pre><code>sumDSum([UnitPrice])
-</code></pre></li>
-<li><p>sumDVar(Expression)<br>Calculates the amount of variance for all <strong>distinct</strong> values within the specified summary region (group, page, or report).</p>
+</code></pre>
+</li>
+<li><p>sumDVar(Expression)<br>
+Calculates the amount of variance for all <strong>distinct</strong> values within the specified summary region (group, page, or report).</p>
 <pre><code>sumDVar([UnitPrice])
-</code></pre></li>
-<li><p>sumDVarP(Expression)<br>Calculates the population variance of all <strong>distinct</strong> values within the specified summary region (group, page, or report).</p>
+</code></pre>
+</li>
+<li><p>sumDVarP(Expression)<br>
+Calculates the population variance of all <strong>distinct</strong> values within the specified summary region (group, page, or report).</p>
 <pre><code>sumDVarP([UnitPrice])
-</code></pre></li>
-<li><p>sumMax(Expression)<br>Calculates the maximum of all values within the specified summary region (group, page, or report).</p>
+</code></pre>
+</li>
+<li><p>sumMax(Expression)<br>
+Calculates the maximum of all values within the specified summary region (group, page, or report).</p>
 <pre><code>sumMax([UnitPrice])
-</code></pre></li>
-<li><p>sumMedian(Expression)<br>Finds the middle number within a sequence.</p>
+</code></pre>
+</li>
+<li><p>sumMedian(Expression)<br>
+Finds the middle number within a sequence.</p>
 <p>If the total number of elements is odd, this function returns the value of the middle number in a sequence. If the total number of elements is even, this function returns the arithmetical mean of the two middle numbers.</p>
 <pre><code>sumMedian([UnitPrice])
-</code></pre></li>
-<li><p>sumMin(Expression)<br>Calculates the minimum of all values within the specified summary region (group, page, or report).</p>
+</code></pre>
+</li>
+<li><p>sumMin(Expression)<br>
+Calculates the minimum of all values within the specified summary region (group, page, or report).</p>
 <pre><code>sumMin([UnitPrice])
-</code></pre></li>
-<li><p>sumPercentage(Expression)<br>Calculates the percent ratio of the current data row&#39;s value to the total of all the values within the specified summary region (group, page, or report).</p>
+</code></pre>
+</li>
+<li><p>sumPercentage(Expression)<br>
+Calculates the percent ratio of the current data row's value to the total of all the values within the specified summary region (group, page, or report).</p>
 <pre><code>sumPercentage([UnitPrice])
-</code></pre></li>
-<li><p>sumRecordNumber(Expression)<br>Returns the current record number in the specified summary region (group, page, or report). This means, for instance, if the summary is calculated for a group, then the record number is calculated only within that group, and is reset every time a new group is started.</p>
+</code></pre>
+</li>
+<li><p>sumRecordNumber(Expression)<br>
+Returns the current record number in the specified summary region (group, page, or report). This means, for instance, if the summary is calculated for a group, then the record number is calculated only within that group, and is reset every time a new group is started.</p>
 <p>In a simple scenario, you may not pass a parameter.</p>
 <p>See also: <a href="../shape-report-data/count-elements-and-values/display-row-numbers-in-a-report-group-or-page.html">Display Row Numbers on a Report, Group, or Page</a></p>
 <pre><code>sumRecordNumber()
-</code></pre></li>
-<li><p>sumRunningSum(Expression)<br>Calculates the sum of all previous values displayed before the current data row with the current data row value.</p>
+</code></pre>
+</li>
+<li><p>sumRunningSum(Expression)<br>
+Calculates the sum of all previous values displayed before the current data row with the current data row value.</p>
 <pre><code>sumRunningSum([UnitPrice])
-</code></pre></li>
-<li><p>sumStdDev(Expression)<br>Calculates the standard deviation of all values within the specified summary region (group, page, or report).</p>
+</code></pre>
+</li>
+<li><p>sumStdDev(Expression)<br>
+Calculates the standard deviation of all values within the specified summary region (group, page, or report).</p>
 <pre><code>sumStdDev([UnitPrice])
-</code></pre></li>
-<li><p>sumStdDevP(Expression)<br>Calculates the standard population deviation of all values within the specified summary region (group, page, or report).</p>
+</code></pre>
+</li>
+<li><p>sumStdDevP(Expression)<br>
+Calculates the standard population deviation of all values within the specified summary region (group, page, or report).</p>
 <pre><code>sumStdDevP([UnitPrice])
-</code></pre></li>
-<li><p>sumSum(Expression)<br>Calculates the total of all values within the specified summary region (group, page, or report).</p>
+</code></pre>
+</li>
+<li><p>sumSum(Expression)<br>
+Calculates the total of all values within the specified summary region (group, page, or report).</p>
 <pre><code>sumSum([UnitsInStock])
-</code></pre></li>
-<li><p>sumVar(Expression)<br>Calculates the amount of variance for all values within the specified summary region (group, page, or report).</p>
+</code></pre>
+</li>
+<li><p>sumVar(Expression)<br>
+Calculates the amount of variance for all values within the specified summary region (group, page, or report).</p>
 <pre><code>sumVar([UnitPrice])
-</code></pre></li>
-<li><p>sumVarP(Expression)<br>Calculates the population variance of all values within the specified summary region (group, page, or report).</p>
+</code></pre>
+</li>
+<li><p>sumVarP(Expression)<br>
+Calculates the population variance of all values within the specified summary region (group, page, or report).</p>
 <pre><code>sumVarP([UnitPrice])
-</code></pre></li>
-<li><p>sumWAvg(Expression, Expression)<br>Calculates the weighted average of all values within the specified summary region (group, page, or report). This summary type returns the result of the following operation: Sum(Expression1 * Expression2) / Sum(Expression2).</p>
+</code></pre>
+</li>
+<li><p>sumWAvg(Expression, Expression)<br>
+Calculates the weighted average of all values within the specified summary region (group, page, or report). This summary type returns the result of the following operation: Sum(Expression1 * Expression2) / Sum(Expression2).</p>
 <pre><code>sumWAvg([UnitPrice])
-</code></pre></li>
+</code></pre>
+</li>
 </ul>
+
 </article>
           </div>
-          
+
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/24.1/reporting-for-web/articles/report-designer/use-expressions/functions-in-expressions.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/fix-styles/reporting-for-web/articles/report-designer/use-expressions/functions-in-expressions.md/#L1" class="contribution-link">Edit this page</a>
                   </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-                <h5>In This Article</h5>
+                <h5>In this article</h5>
                 <div></div>
               </nav>
             </div>
           </div>
         </div>
       </div>
-      
+
       <footer>
         <div class="grad-bottom"></div>
         <div class="footer">
@@ -1026,14 +1089,14 @@ Condiments
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
-            
+      Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
+      
           </div>
         </div>
       </footer>
     </div>
-    
-    <script type="text/javascript" src="../../../../styles/docfx.vendor.js"></script>
+
+    <script type="text/javascript" src="../../../../styles/docfx.vendor.min.js"></script>
     <script type="text/javascript" src="../../../../styles/docfx.js"></script>
     <script type="text/javascript" src="../../../../styles/main.js"></script>
   </body>

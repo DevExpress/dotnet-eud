@@ -1,37 +1,29 @@
 ﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  
+
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Make a Series of Recurring Appointments | DevExpress End-User Documentation </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Make a Series of Recurring Appointments | DevExpress End-User Documentation ">
-    <meta name="generator" content="docfx 2.59.2.0">
-    
+    <meta name="generator" content="docfx ">
+  
     <link rel="shortcut icon" href="../../../../favicon.ico">
-    <link rel="stylesheet" href="../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../styles/docfx.vendor.min.css">
     <link rel="stylesheet" href="../../../../styles/docfx.css">
     <link rel="stylesheet" href="../../../../styles/main.css">
     <meta property="docfx:navrel" content="../../../../toc.html">
     <meta property="docfx:tocrel" content="../../../toc.html">
-    
-    
-    
-    <!-- Matomo Tag Manager -->
-    <script>
-      var _mtm = window._mtm = window._mtm || [];
-      _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
-      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-      g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
-    </script>
-    <!-- End Matomo Tag Manager -->
+  
+  
+  
   </head>
   <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
-        
+
         <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
           <div class="container">
             <div class="navbar-header">
@@ -41,7 +33,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              
+
               <a class="navbar-brand" href="../../../../index.html">
                 <img id="logo" class="svg" src="../../../../logo.svg" alt="">
               </a>
@@ -55,7 +47,7 @@
             </div>
           </div>
         </nav>
-        
+
         <div class="subnav navbar navbar-default">
           <div class="container hide-when-search" id="breadcrumb">
             <ul class="breadcrumb">
@@ -65,7 +57,7 @@
         </div>
       </header>
       <div role="main" class="container body-content hide-when-search">
-        
+
         <div class="sidenav hide-when-search">
           <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
           <div class="sidetoggle collapse" id="sidetoggle">
@@ -81,43 +73,44 @@
 <p>The <strong>Scheduler</strong> control supports simple (non-recurring) or recurring appointments. Non-recurring appointments occur only once at a specified time interval. Recurring appointments occur many times at the same time interval on different dates.</p>
 <p>Recurring appointments are created as a series of appointments using the <a href="#recurrencepattern">recurrence pattern</a> and identified by the <img src="../../../images/img4572.png" alt="AppointmentImageType.Recurrence"> recurrence sign.</p>
 <p><img src="../../../images/img12067.png" alt="RecurringAppointments"></p>
-<h2 id="a-namerecurrencepatternrecurrence-pattern"><a name="recurrencepattern"></a>Recurrence Pattern</h2>
-<p>The recurrence pattern contains information on appointment recurrence (the recurrence series&#39;s start date and time and a rule according to which a series is repeated).</p>
-<p>You can create and edit an appointment&#39;s recurrence pattern in the standard <a href="edit-an-appointment.html">Edit Appointment</a> dialog by selecting the <strong>Recurrence</strong> check box. The image below illustrates the usual appearance of the <strong>Edit Appointment</strong> dialog&#39;s recurrence section.</p>
+<h2 id="recurrence-pattern"><a name="recurrencepattern"></a>Recurrence Pattern</h2>
+<p>The recurrence pattern contains information on appointment recurrence (the recurrence series's start date and time and a rule according to which a series is repeated).</p>
+<p>You can create and edit an appointment's recurrence pattern in the standard <a href="edit-an-appointment.html">Edit Appointment</a> dialog by selecting the <strong>Recurrence</strong> check box. The image below illustrates the usual appearance of the <strong>Edit Appointment</strong> dialog's recurrence section.</p>
 <p><img src="../../../images/app-reminders.png" alt="EditAppRecurrence"></p>
-<p>In this dialog, you can specify different elements&#39; values to define the recurrence behavior. Frequency is the recurrence pattern&#39;s base element. It specifies how often the corresponding appointments occur: <strong>Daily</strong>, <strong>Weekly</strong>, <strong>Monthly</strong> or <strong>Yearly</strong>.</p>
-<p>You can define periodicity for each frequency type - the time interval in which the recurrence&#39;s frequency is applied. For instance, if you have specified that appointments occur <strong>Daily</strong>, you can also specify whether appointments repeat every couple of days or every weekday. For the <strong>Monthly</strong> appointment frequency, you can specify for how many weeks and on which weekdays an appointment recurs.</p>
-<p>You can also specify when an appointment&#39;s recurrence must end.</p>
+<p>In this dialog, you can specify different elements' values to define the recurrence behavior. Frequency is the recurrence pattern's base element. It specifies how often the corresponding appointments occur: <strong>Daily</strong>, <strong>Weekly</strong>, <strong>Monthly</strong> or <strong>Yearly</strong>.</p>
+<p>You can define periodicity for each frequency type - the time interval in which the recurrence's frequency is applied. For instance, if you have specified that appointments occur <strong>Daily</strong>, you can also specify whether appointments repeat every couple of days or every weekday. For the <strong>Monthly</strong> appointment frequency, you can specify for how many weeks and on which weekdays an appointment recurs.</p>
+<p>You can also specify when an appointment's recurrence must end.</p>
 <p>If an appointment is recurring, its context menu contains the <strong>Edit Series</strong> item. Clicking this item invokes the <strong>Edit Appointment</strong> dialog for editing the recurrence pattern.</p>
 <p><img src="../../../images/img12068.png" alt="RecurringAppContextMenu"></p>
-<p>If you use the context menu&#39;s <strong>Open</strong> item to invoke the <strong>Edit Appointment</strong> dialog, you can edit only the current appointment to avoid raising <a href="#exceptions">exceptions</a>.</p>
-<h2 id="a-nameexceptionsexceptions"><a name="exceptions"></a>Exceptions</h2>
-<p>When you modify an occurrence&#39;s (an appointment that belongs to a recurring appointment series) properties, it is called an <strong>Exception</strong>. Such appointments are marked with the <img src="../../../images/img4573.png" alt="AppointmentImageType.RecurrenceException"> crossed recurrence sign.</p>
+<p>If you use the context menu's <strong>Open</strong> item to invoke the <strong>Edit Appointment</strong> dialog, you can edit only the current appointment to avoid raising <a href="#exceptions">exceptions</a>.</p>
+<h2 id="exceptions"><a name="exceptions"></a>Exceptions</h2>
+<p>When you modify an occurrence's (an appointment that belongs to a recurring appointment series) properties, it is called an <strong>Exception</strong>. Such appointments are marked with the <img src="../../../images/img4573.png" alt="AppointmentImageType.RecurrenceException"> crossed recurrence sign.</p>
 <p>You can delete one or several  occurrences in the recurrence chain. A deleted occurrence is a type of recurrence pattern Exception, and the SchedulerControl does not visualize it.</p>
 <p>To replace an exception with a regular occurrence and discard all modifications, right-click the exception and click on the <strong>Restore Default State</strong> item in the invoked context menu.</p>
 <p><img src="../../../images/img12071.png" alt="RecurringAppRestore"></p>
-<p>Editing an appointment series&#39;s recurrence pattern (<strong>Edit Series</strong> context menu item) resets the recurrence chain, and restores all the exceptions to their default state. A warning is displayed before this happens.</p>
+<p>Editing an appointment series's recurrence pattern (<strong>Edit Series</strong> context menu item) resets the recurrence chain, and restores all the exceptions to their default state. A warning is displayed before this happens.</p>
+
 </article>
           </div>
-          
+
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/24.1/interface-elements-for-web/articles/scheduler/appointment-management/make-a-series-of-recurring-appointments.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/fix-styles/interface-elements-for-web/articles/scheduler/appointment-management/make-a-series-of-recurring-appointments.md/#L1" class="contribution-link">Edit this page</a>
                   </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-                <h5>In This Article</h5>
+                <h5>In this article</h5>
                 <div></div>
               </nav>
             </div>
           </div>
         </div>
       </div>
-      
+
       <footer>
         <div class="grad-bottom"></div>
         <div class="footer">
@@ -125,14 +118,14 @@
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
-            
+      Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
+      
           </div>
         </div>
       </footer>
     </div>
-    
-    <script type="text/javascript" src="../../../../styles/docfx.vendor.js"></script>
+
+    <script type="text/javascript" src="../../../../styles/docfx.vendor.min.js"></script>
     <script type="text/javascript" src="../../../../styles/docfx.js"></script>
     <script type="text/javascript" src="../../../../styles/main.js"></script>
   </body>

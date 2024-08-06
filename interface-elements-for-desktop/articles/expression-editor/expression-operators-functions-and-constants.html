@@ -1,37 +1,29 @@
 ﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  
+
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Expression Operators, Functions and Constants | DevExpress End-User Documentation </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Expression Operators, Functions and Constants | DevExpress End-User Documentation ">
-    <meta name="generator" content="docfx 2.59.2.0">
-    
+    <meta name="generator" content="docfx ">
+  
     <link rel="shortcut icon" href="../../../favicon.ico">
-    <link rel="stylesheet" href="../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../styles/docfx.vendor.min.css">
     <link rel="stylesheet" href="../../../styles/docfx.css">
     <link rel="stylesheet" href="../../../styles/main.css">
     <meta property="docfx:navrel" content="../../../toc.html">
     <meta property="docfx:tocrel" content="../../toc.html">
-    
-    
-    
-    <!-- Matomo Tag Manager -->
-    <script>
-      var _mtm = window._mtm = window._mtm || [];
-      _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
-      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-      g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
-    </script>
-    <!-- End Matomo Tag Manager -->
+  
+  
+  
   </head>
   <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
-        
+
         <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
           <div class="container">
             <div class="navbar-header">
@@ -41,7 +33,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              
+
               <a class="navbar-brand" href="../../../index.html">
                 <img id="logo" class="svg" src="../../../logo.svg" alt="">
               </a>
@@ -55,7 +47,7 @@
             </div>
           </div>
         </nav>
-        
+
         <div class="subnav navbar navbar-default">
           <div class="container hide-when-search" id="breadcrumb">
             <ul class="breadcrumb">
@@ -65,7 +57,7 @@
         </div>
       </header>
       <div role="main" class="container body-content hide-when-search">
-        
+
         <div class="sidenav hide-when-search">
           <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
           <div class="sidetoggle collapse" id="sidetoggle">
@@ -111,7 +103,7 @@
 <tr>
 <td>+</td>
 <td>Adds the value of one numeric expression to another, or concatenates two strings.</td>
-<td>[FirstName] + &#39; &#39; + [LastName];  [UnitPrice] + 4</td>
+<td>[FirstName] + ' ' + [LastName];  [UnitPrice] + 4</td>
 <td>Yes</td>
 </tr>
 <tr>
@@ -165,7 +157,7 @@
 <tr>
 <td>!=</td>
 <td>Returns true if the operands do not have the same value; otherwise, it returns false.</td>
-<td>[Country] != &#39;France&#39;</td>
+<td>[Country] != 'France'</td>
 <td>Yes</td>
 </tr>
 <tr>
@@ -195,13 +187,13 @@
 <tr>
 <td>In (,,,)</td>
 <td>Tests for the existence of a property in an object.</td>
-<td>[Country] In (&#39;USA&#39;, &#39;UK&#39;, &#39;Italy&#39;)</td>
+<td>[Country] In ('USA', 'UK', 'Italy')</td>
 <td>Yes</td>
 </tr>
 <tr>
 <td>Like</td>
 <td>Compares a string against a pattern. If the value of the string matches the pattern, result is true. If the string does not match the pattern, result is false. If both string and pattern are empty strings, the result is true.</td>
-<td>[Name] Like &#39;An%&#39;</td>
+<td>[Name] Like 'An%'</td>
 <td>Yes</td>
 </tr>
 <tr>
@@ -219,7 +211,7 @@
 <tr>
 <td>Or</td>
 <td>Performs a logical disjunction on two Boolean expressions.</td>
-<td>[Country]==&#39;USA&#39; Or [Country]==&#39;UK&#39;</td>
+<td>[Country]=='USA' Or [Country]=='UK'</td>
 <td>Yes</td>
 </tr>
 <tr>
@@ -230,13 +222,13 @@
 </tr>
 <tr>
 <td>+</td>
-<td>Returns a numeric expression&#39;s value (a unary operator).</td>
+<td>Returns a numeric expression's value (a unary operator).</td>
 <td>+[Value] = 10</td>
 <td>Yes</td>
 </tr>
 <tr>
 <td>-</td>
-<td>Returns the negative of a numeric expression&#39;s value (a unary operator).</td>
+<td>Returns the negative of a numeric expression's value (a unary operator).</td>
 <td>-[Value] = 20</td>
 <td>Yes</td>
 </tr>
@@ -298,8 +290,8 @@
 </tr>
 <tr>
 <td>Single()</td>
-<td>Returns a single object from a collection that contains no more than one object. If the collection contains more objects, use the Condition property to specify a condition. The collection must contain only one object that satisfies the condition; otherwise, the function&#39;s behavior  is undefined (the function may return an unexpected value or throw an exception). You can pass an expression as a parameter: <em>[Collection][Condition].Single(Expression)</em>. The function returns the Expression value evaluated on an object that meets the specified <em>Condition (optional)</em>.</td>
-<td>[Accounts].Single() is not null [Collection].Single([Property1]) - returns the found object&#39;s property value.</td>
+<td>Returns a single object from a collection that contains no more than one object. If the collection contains more objects, use the Condition property to specify a condition. The collection must contain only one object that satisfies the condition; otherwise, the function's behavior  is undefined (the function may return an unexpected value or throw an exception). You can pass an expression as a parameter: <em>[Collection][Condition].Single(Expression)</em>. The function returns the Expression value evaluated on an object that meets the specified <em>Condition (optional)</em>.</td>
+<td>[Accounts].Single() is not null [Collection].Single([Property1]) - returns the found object's property value.</td>
 <td>-</td>
 </tr>
 <tr>
@@ -763,7 +755,7 @@
 <tr>
 <td>Iif(Expression1, True_Value1, ..., ExpressionN, True_ValueN, False_Value)</td>
 <td>Returns one of several specified values depending upon the values of logical expressions. The function can take 2N+1 arguments (N - the number of specified logical expressions): each odd argument specifies a logical expression; each even argument specifies the value that is returned if the previous expression evaluates to true.</td>
-<td>Iif(Name = &#39;Bob&#39;, 1, 0) Iif(Name = &#39;Bob&#39;, 1, Name = &#39;Dan&#39;, 2, Name = &#39;Sam&#39;, 3, 0)</td>
+<td>Iif(Name = 'Bob', 1, 0) Iif(Name = 'Bob', 1, Name = 'Dan', 2, Name = 'Sam', 3, 0)</td>
 <td>Yes</td>
 </tr>
 <tr>
@@ -993,7 +985,7 @@
 <tr>
 <td>Ascii(String)</td>
 <td>Returns the ASCII code value of the leftmost character in a character expression.</td>
-<td>Ascii(&#39;a&#39;)</td>
+<td>Ascii('a')</td>
 <td>-</td>
 </tr>
 <tr>
@@ -1005,37 +997,37 @@
 <tr>
 <td>CharIndex(String1, String2)</td>
 <td>Returns the starting position of String1 within String2, beginning from the zero character position to the end of a string.</td>
-<td>CharIndex(&#39;e&#39;, &#39;devexpress&#39;)</td>
+<td>CharIndex('e', 'devexpress')</td>
 <td>-</td>
 </tr>
 <tr>
 <td>CharIndex(String1, String2, StartLocation)</td>
 <td>Returns the starting position of String1 within String2, beginning from the StartLocation character position to the end of a string.</td>
-<td>CharIndex(&#39;e&#39;, &#39;devexpress&#39;, 2)</td>
+<td>CharIndex('e', 'devexpress', 2)</td>
 <td>-</td>
 </tr>
 <tr>
 <td>Concat(String1, ... , StringN)</td>
 <td>Returns the result of concatenating two or more string values.</td>
-<td>Concat(&#39;A&#39;, &#39;)&#39;, [ProductName])</td>
+<td>Concat('A', ')', [ProductName])</td>
 <td>Yes</td>
 </tr>
 <tr>
 <td>Contains(String1, SubString1)</td>
 <td>Returns True if SubString1 occurs within String1; otherwise, False is returned.</td>
-<td>Contains([ProductName], &#39;dairy&#39;)</td>
+<td>Contains([ProductName], 'dairy')</td>
 <td>Yes</td>
 </tr>
 <tr>
 <td>EndsWith(String1, SubString1)</td>
 <td>Returns True if the end of String1 matches SubString1; otherwise, False is returned.</td>
-<td>EndsWith([Description], &#39;The end.&#39;)</td>
+<td>EndsWith([Description], 'The end.')</td>
 <td>Yes</td>
 </tr>
 <tr>
 <td>Insert(String1, StartPosition, String2)</td>
 <td>Inserts String2 into String1 at the position specified by StartPositon</td>
-<td>Insert([Name], 0, &#39;ABC-&#39;)</td>
+<td>Insert([Name], 0, 'ABC-')</td>
 <td>-</td>
 </tr>
 <tr>
@@ -1059,7 +1051,7 @@
 <tr>
 <td>PadLeft(String, Length, Char)</td>
 <td>Left-aligns characters in the defined string, padding its left side with the specified Char up to a specified total length.</td>
-<td>PadLeft([Name], 30, &#39;&lt;&#39;)</td>
+<td>PadLeft([Name], 30, '&lt;')</td>
 <td>-</td>
 </tr>
 <tr>
@@ -1071,7 +1063,7 @@
 <tr>
 <td>PadRight(String, Length, Char)</td>
 <td>Right-aligns characters in the defined string, padding its left side with the specified Char up to a specified total length.</td>
-<td>PadRight([Name], 30, &#39;&gt;&#39;)</td>
+<td>PadRight([Name], 30, '&gt;')</td>
 <td>-</td>
 </tr>
 <tr>
@@ -1083,7 +1075,7 @@
 <tr>
 <td>Replace(String, SubString2, String3)</td>
 <td>Returns a copy of String1, in which SubString2 has been replaced with String3.</td>
-<td>Replace([Name], &#39;The &#39;, &#39;&#39;)</td>
+<td>Replace([Name], 'The ', '')</td>
 <td>-</td>
 </tr>
 <tr>
@@ -1095,7 +1087,7 @@
 <tr>
 <td>StartsWith(String1, SubString1)</td>
 <td>Returns True if the beginning of String1 matches SubString1; otherwise, False.</td>
-<td>StartsWith([Title], &#39;The best&#39;)</td>
+<td>StartsWith([Title], 'The best')</td>
 <td>Yes</td>
 </tr>
 <tr>
@@ -1144,18 +1136,18 @@
 <tr>
 <td>String constants</td>
 <td>String constants must be wrapped in apostrophes.</td>
-<td>[Country] == &#39;France&#39;</td>
+<td>[Country] == 'France'</td>
 <td>Yes</td>
 </tr>
 <tr>
 <td>String constants (with apostrophe)</td>
 <td>If a string contains an apostrophe, the apostrophe must be doubled.</td>
-<td>[Name] == &#39;O&#39;&#39;Neil&#39;</td>
+<td>[Name] == 'O''Neil'</td>
 <td>Yes</td>
 </tr>
 <tr>
 <td>Date-time constants</td>
-<td>Date-time constants must be wrapped in &#39;#&#39;.</td>
+<td>Date-time constants must be wrapped in '#'.</td>
 <td>[OrderDate] &gt;= #1/1/2009#</td>
 <td>Yes</td>
 </tr>
@@ -1191,7 +1183,7 @@
 </tr>
 <tr>
 <td>Numeric</td>
-<td>Specify different numeric constant types in a string form using suffixes: <br> * Int32 (int)  - <em>1</em> </br> * Int16 (short) - <em>1s</em> <br> * Byte (byte) - <em>1b</em>  </br>  * Double (double) - <em>1.0</em> <br> * Single (float) - <em>1.0f</em> </br>  * Decimal (decimal) - <em>1.0m</em> <br></td>
+<td>Specify different numeric constant types in a string form using suffixes: <br> * Int32 (int)  - <em>1</em> <br> * Int16 (short) - <em>1s</em> <br> * Byte (byte) - <em>1b</em>  <br>  * Double (double) - <em>1.0</em> <br> * Single (float) - <em>1.0f</em> <br>  * Decimal (decimal) - <em>1.0m</em> <br></td>
 <td>[Price] == 25.0m</td>
 <td>Yes</td>
 </tr>
@@ -1210,7 +1202,7 @@
 <p>The following expression returns false if the Accounts collection is empty:</p>
 <p><em>[Accounts][]</em></p>
 <h2 id="parent-relating-operator">Parent Relating Operator</h2>
-<p>Use the parent relating operator (&#39;^&#39; character) to refer to a parent in expressions written in the context of a child. You can apply this operator successively to navigate multiple parent relationships. In the expression below, the &quot;RegistrationDate&quot; field refers to a Customer (Orders&#39; parent) and the &quot;Date&quot; field refers to Orders. This expression returns true if there is at least one Order that is made on the day the parent Customer is registered:</p>
+<p>Use the parent relating operator ('^' character) to refer to a parent in expressions written in the context of a child. You can apply this operator successively to navigate multiple parent relationships. In the expression below, the &quot;RegistrationDate&quot; field refers to a Customer (Orders' parent) and the &quot;Date&quot; field refers to Orders. This expression returns true if there is at least one Order that is made on the day the parent Customer is registered:</p>
 <p><em>&quot;[Orders][[^.RegistrationDate] == Date]&quot;</em></p>
 <h2 id="grouping-clauses-with-brackets">Grouping Clauses with Brackets</h2>
 <p>It is important to use brackets to ensure that your expression returns the intended results.
@@ -1226,7 +1218,7 @@ For instance, the following expression for objects of the Customer type returns 
 <li>Identifiers</li>
 <li>OR (left-associative)</li>
 <li>AND (left-associative)</li>
-<li>&#39;.&#39; relationship qualifier (left-associative)</li>
+<li>'.' relationship qualifier (left-associative)</li>
 <li>==, !=</li>
 <li>&lt;, &gt;, &lt;=, &gt;=</li>
 <li>-, + (left-associative)</li>
@@ -1236,26 +1228,28 @@ For instance, the following expression for objects of the Customer type returns 
 <li>In</li>
 <li>Iif</li>
 <li>Trim(), Len(), Substring(), IsNull()</li>
-<li>&#39;[]&#39; (for set-restriction)</li>
-<li>&#39;()&#39;</li>
+<li>'[]' (for set-restriction)</li>
+<li>'()'</li>
 </ul>
 <p>The default precedence can be changed by grouping elements with parentheses. For instance, the operators are performed in a default order in the first of the following two code samples. In the second code sample, the addition operation is performed first, because its associated elements are grouped with parentheses, and the multiplication operation is performed last.</p>
 <p><em>Accounts[Amount == 2 + 48 * 2]</em></p>
 <p><em>Accounts[Amount == (2 + 48) * 2]</em></p>
 <h2 id="case-sensitivity">Case Sensitivity</h2>
 <p>Operators are case insensitive. Although field values’ case sensitivity depends on the data source.</p>
-<div class="NOTE"><h5>Note</h5><p>A data source affects certain operators&#39; behavior. For instance, a data source can be configured as case insensitive. In this case, the following expression always evaluates to true:
+<div class="NOTE">
+<h5>Note</h5>
+<p>A data source affects certain operators' behavior. For instance, a data source can be configured as case insensitive. In this case, the following expression always evaluates to true:
 <em>Lower(Name) == Upper(Name)</em></p>
 </div>
 <h2 id="escaping-keywords">Escaping Keywords</h2>
-<p>You can mark a keyword&#0045;like field name with an escape character (@ sign). In the expression below, the <strong>CriteriaOperator.Parse</strong> method interprets @Or as the field named &quot;Or&quot;, not the logical operator OR.</p>
-<p><em>@Or = &#39;value&#39;</em></p>
+<p>You can mark a keyword-like field name with an escape character (@ sign). In the expression below, the <strong>CriteriaOperator.Parse</strong> method interprets @Or as the field named &quot;Or&quot;, not the logical operator OR.</p>
+<p><em>@Or = 'value'</em></p>
 <h2 id="escape-characters">Escape Characters</h2>
-<p>Use a backslash (&#92;) as an escape character for characters in expressions. Examples:</p>
+<p>Use a backslash (\) as an escape character for characters in expressions. Examples:</p>
 <ul>
 <li>\[</li>
 <li>\\</li>
-<li>\&#39;</li>
+<li>\'</li>
 </ul>
 <h2 id="retrieving-reference-properties">Retrieving Reference Properties</h2>
 <p>Note that while a criteria expression can return an object reference, this is not supported in all scenarios. Returning an object reference by directly referencing a property, as in the following code snippet, is fully supported.</p>
@@ -1265,27 +1259,28 @@ For instance, the following expression for objects of the Customer type returns 
 <h2 id="note---restrictions">Note - Restrictions</h2>
 <p>Note the following restriction when exporting DevExpress Data Grid and Tree List controls (WinForms and WPF) to the XLS(X) format in <strong>Data-Aware Export Mode</strong>:</p>
 <p>Only expressions that contain export-friendly functions are exported to XLS(X) format. Refer to the <strong>XLS(x) Format Export-Friendly</strong> column in the tables above to find out if a function can be exported to XLS(x) format.</p>
+
 </article>
           </div>
-          
+
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/24.1/interface-elements-for-desktop/articles/expression-editor/expression-operators-functions-and-constants.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/fix-styles/interface-elements-for-desktop/articles/expression-editor/expression-operators-functions-and-constants.md/#L1" class="contribution-link">Edit this page</a>
                   </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-                <h5>In This Article</h5>
+                <h5>In this article</h5>
                 <div></div>
               </nav>
             </div>
           </div>
         </div>
       </div>
-      
+
       <footer>
         <div class="grad-bottom"></div>
         <div class="footer">
@@ -1293,14 +1288,14 @@ For instance, the following expression for objects of the Customer type returns 
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
-            
+      Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
+      
           </div>
         </div>
       </footer>
     </div>
-    
-    <script type="text/javascript" src="../../../styles/docfx.vendor.js"></script>
+
+    <script type="text/javascript" src="../../../styles/docfx.vendor.min.js"></script>
     <script type="text/javascript" src="../../../styles/docfx.js"></script>
     <script type="text/javascript" src="../../../styles/main.js"></script>
   </body>

@@ -1,37 +1,29 @@
 ﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  
+
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Filter a Pivot Table | DevExpress End-User Documentation </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Filter a Pivot Table | DevExpress End-User Documentation ">
-    <meta name="generator" content="docfx 2.59.2.0">
-    
+    <meta name="generator" content="docfx ">
+  
     <link rel="shortcut icon" href="../../../../favicon.ico">
-    <link rel="stylesheet" href="../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../styles/docfx.vendor.min.css">
     <link rel="stylesheet" href="../../../../styles/docfx.css">
     <link rel="stylesheet" href="../../../../styles/main.css">
     <meta property="docfx:navrel" content="../../../../toc.html">
     <meta property="docfx:tocrel" content="../../../toc.html">
-    
-    
-    
-    <!-- Matomo Tag Manager -->
-    <script>
-      var _mtm = window._mtm = window._mtm || [];
-      _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
-      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-      g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
-    </script>
-    <!-- End Matomo Tag Manager -->
+  
+  
+  
   </head>
   <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
-        
+
         <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
           <div class="container">
             <div class="navbar-header">
@@ -41,7 +33,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              
+
               <a class="navbar-brand" href="../../../../index.html">
                 <img id="logo" class="svg" src="../../../../logo.svg" alt="">
               </a>
@@ -55,7 +47,7 @@
             </div>
           </div>
         </nav>
-        
+
         <div class="subnav navbar navbar-default">
           <div class="container hide-when-search" id="breadcrumb">
             <ul class="breadcrumb">
@@ -65,7 +57,7 @@
         </div>
       </header>
       <div role="main" class="container body-content hide-when-search">
-        
+
         <div class="sidenav hide-when-search">
           <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
           <div class="sidetoggle collapse" id="sidetoggle">
@@ -87,120 +79,125 @@
 <li><a href="#multiple">Use Multiple Filters per Field</a></li>
 <li><a href="#remove">Remove a Filter</a></li>
 </ul>
-<p><a name="page"></a></p>
+<a name="page"></a>
 <h2 id="use-a-report-filter">Use a Report Filter</h2>
 <p>A report filter allows you to filter the entire PivotTable report to show data for specific items. To use a report filter, follow the steps below.</p>
 <ol>
 <li><p>Click the arrow <img src="../../../images/img25500.png" alt="Spreadsheet_FilterAndSortArrow"> in the report filter field.</p>
-<p> <img src="../../../images/img126632.png" alt="Spreadsheet_PivotTable_Filter_PageFilter_Arrow"></p>
+<p><img src="../../../images/img126632.png" alt="Spreadsheet_PivotTable_Filter_PageFilter_Arrow"></p>
 </li>
 <li><p>In the invoked dialog, click the <strong>Uncheck All</strong> button to deselect the values. Then, select the check box for the item you wish to display. To select multiple items, select the <strong>Select Multiple Items</strong> check box at the pane bottom. Click <strong>OK</strong> to apply changes.</p>
-<p> <img src="../../../images/img126633.png" alt="Spreadsheet_PivotTable_Filtering_PageFilter_Dialog"></p>
+<p><img src="../../../images/img126633.png" alt="Spreadsheet_PivotTable_Filtering_PageFilter_Dialog"></p>
 </li>
-<li><p>The resulting report is shown in the image below. The <strong>Filter</strong> button <img src="../../../images/img25636.png" alt="Spreadsheet_AppliedFilterIcon"> appears in the report filter field to indicate that the filter is applied. </p>
-<p> <img src="../../../images/img126634.png" alt="Spreadsheet_PivotTable_Filtering_PageFilter_Resultq"></p>
+<li><p>The resulting report is shown in the image below. The <strong>Filter</strong> button <img src="../../../images/img25636.png" alt="Spreadsheet_AppliedFilterIcon"> appears in the report filter field to indicate that the filter is applied.</p>
+<p><img src="../../../images/img126634.png" alt="Spreadsheet_PivotTable_Filtering_PageFilter_Resultq"></p>
 </li>
 </ol>
-<p><a name="item"></a></p>
+<a name="item"></a>
 <h2 id="filter-row-or-column-items">Filter Row or Column Items</h2>
 <ol>
-<li>Click the arrow <img src="../../../images/img25500.png" alt="Spreadsheet_FilterAndSortArrow"> in the <strong>Row Labels</strong> or <strong>Column Labels</strong> cell. If there are multiple fields in the area, select the row or column field you wish to filter.</li>
+<li><p>Click the arrow <img src="../../../images/img25500.png" alt="Spreadsheet_FilterAndSortArrow"> in the <strong>Row Labels</strong> or <strong>Column Labels</strong> cell. If there are multiple fields in the area, select the row or column field you wish to filter.</p>
+</li>
 <li><p>In the drop-down menu, select <strong>Item Filter...</strong></p>
-<p> <img src="../../../images/img126635.png" alt="Spreadsheet_PivotTable_Filter_ItemFilter_ContextMenu"></p>
+<p><img src="../../../images/img126635.png" alt="Spreadsheet_PivotTable_Filter_ItemFilter_ContextMenu"></p>
 </li>
-<li><p>In the invoked dialog, click the <strong>Uncheck All</strong> button to deselect the values. Then, select the item(s) you wish to display and click <strong>OK</strong>. </p>
-<p> <img src="../../../images/img126636.png" alt="Spreadsheet_PivotTable_Filter_ItemFilter_Dialog"></p>
+<li><p>In the invoked dialog, click the <strong>Uncheck All</strong> button to deselect the values. Then, select the item(s) you wish to display and click <strong>OK</strong>.</p>
+<p><img src="../../../images/img126636.png" alt="Spreadsheet_PivotTable_Filter_ItemFilter_Dialog"></p>
 </li>
-<li><p>The resulting report is shown in the image below. The <strong>Filter</strong> button <img src="../../../images/img25636.png" alt="Spreadsheet_AppliedFilterIcon"> appears in the row or column label to indicate that the filter is applied. </p>
-<p> <img src="../../../images/img126637.png" alt="Spreadsheet_PivotTable_Filter_ItemFilter_Result"></p>
+<li><p>The resulting report is shown in the image below. The <strong>Filter</strong> button <img src="../../../images/img25636.png" alt="Spreadsheet_AppliedFilterIcon"> appears in the row or column label to indicate that the filter is applied.</p>
+<p><img src="../../../images/img126637.png" alt="Spreadsheet_PivotTable_Filter_ItemFilter_Result"></p>
 </li>
 </ol>
-<p><a name="labels"></a></p>
+<a name="labels"></a>
 <h2 id="use-a-label-filter">Use a Label Filter</h2>
 <ol>
-<li>Click the arrow <img src="../../../images/img25500.png" alt="Spreadsheet_FilterAndSortArrow"> in the <strong>Row Labels</strong> or <strong>Column Labels</strong> cell. If there are multiple fields in the area, select the row or column field you wish to filter.</li>
-<li><p>Point to the <strong>Label Filters</strong> item and select one of the built-in comparison operators. </p>
-<p> <img src="../../../images/img126446.png" alt="Spreadsheet_PivotTable_Filtering"></p>
+<li><p>Click the arrow <img src="../../../images/img25500.png" alt="Spreadsheet_FilterAndSortArrow"> in the <strong>Row Labels</strong> or <strong>Column Labels</strong> cell. If there are multiple fields in the area, select the row or column field you wish to filter.</p>
 </li>
-<li><p>In the invoked dialog, specify the filter criteria and click <strong>OK</strong>. </p>
-<p> <img src="../../../images/img126447.png" alt="Spreadsheet_PivotTable_LabelFilteringDialog"></p>
+<li><p>Point to the <strong>Label Filters</strong> item and select one of the built-in comparison operators.</p>
+<p><img src="../../../images/img126446.png" alt="Spreadsheet_PivotTable_Filtering"></p>
+</li>
+<li><p>In the invoked dialog, specify the filter criteria and click <strong>OK</strong>.</p>
+<p><img src="../../../images/img126447.png" alt="Spreadsheet_PivotTable_LabelFilteringDialog"></p>
 </li>
 <li><p>The resulting report is shown in the image below. The <strong>Filter</strong> button <img src="../../../images/img25636.png" alt="Spreadsheet_AppliedFilterIcon"> appears in the row or column label to indicate that the filter is applied.</p>
-<p> <img src="../../../images/img126469.png" alt="Spreadsheet_PivotTable_Filtering_Labels_Result"></p>
+<p><img src="../../../images/img126469.png" alt="Spreadsheet_PivotTable_Filtering_Labels_Result"></p>
 </li>
 </ol>
-<p><a name="date"></a></p>
+<a name="date"></a>
 <h2 id="use-a-date-filter">Use a Date Filter</h2>
 <ol>
-<li>Click the arrow <img src="../../../images/img25500.png" alt="Spreadsheet_FilterAndSortArrow"> in the header of the row or column field containing dates.</li>
-<li><p>Point to the <strong>Date Filters</strong> item and select one of the built-in dynamic filter types to display dates that fall within a specified time period (next, this or last week, month, year, etc.) or select the <strong>Before</strong>, <strong>After</strong>, <strong>Equals</strong> or <strong>Between</strong> item to find dates that are before, after or equal to the specified date, or between two dates. </p>
-<p> <img src="../../../images/img126638.png" alt="Spreadsheet_PivotTable_Filter_Dates_ContextMenu"></p>
+<li><p>Click the arrow <img src="../../../images/img25500.png" alt="Spreadsheet_FilterAndSortArrow"> in the header of the row or column field containing dates.</p>
+</li>
+<li><p>Point to the <strong>Date Filters</strong> item and select one of the built-in dynamic filter types to display dates that fall within a specified time period (next, this or last week, month, year, etc.) or select the <strong>Before</strong>, <strong>After</strong>, <strong>Equals</strong> or <strong>Between</strong> item to find dates that are before, after or equal to the specified date, or between two dates.</p>
+<p><img src="../../../images/img126638.png" alt="Spreadsheet_PivotTable_Filter_Dates_ContextMenu"></p>
 </li>
 <li><p>In the invoked <strong>Date Filter</strong> dialog, specify the date(s) to filter by and click <strong>OK</strong>.</p>
-<p> <img src="../../../images/img126639.png" alt="Spreadsheet_PivotTable_Filter_Dates_Dialog"></p>
+<p><img src="../../../images/img126639.png" alt="Spreadsheet_PivotTable_Filter_Dates_Dialog"></p>
 </li>
 <li><p>The resulting report is shown in the image below. The <strong>Filter</strong> button <img src="../../../images/img25636.png" alt="Spreadsheet_AppliedFilterIcon"> appears in the row or column label to indicate that the filter is applied.</p>
-<p> <img src="../../../images/img126640.png" alt="Spreadsheet_PivotTable_Filter_Dates_Result"></p>
+<p><img src="../../../images/img126640.png" alt="Spreadsheet_PivotTable_Filter_Dates_Result"></p>
 </li>
 </ol>
-<p><a name="values"></a></p>
+<a name="values"></a>
 <h2 id="use-a-value-filter">Use a Value Filter</h2>
 <p>A value filter allows you to filter items in a row or column field based on summary values. To use a value filter, follow the steps below.</p>
 <ol>
-<li>Click the arrow <img src="../../../images/img25500.png" alt="Spreadsheet_FilterAndSortArrow"> in the <strong>Row Labels</strong> or <strong>Column Labels</strong> cell. If there are multiple fields in the area, select the row or column field to which a filter should be applied.</li>
-<li><p>Point to the <strong>Value Filters</strong> item and select one of the built-in comparison operators. </p>
-<p> <img src="../../../images/img126467.png" alt="Spreadsheet_PivotTable_Filtering_Values_ContextMenu"></p>
+<li><p>Click the arrow <img src="../../../images/img25500.png" alt="Spreadsheet_FilterAndSortArrow"> in the <strong>Row Labels</strong> or <strong>Column Labels</strong> cell. If there are multiple fields in the area, select the row or column field to which a filter should be applied.</p>
 </li>
-<li><p>In the invoked dialog, specify the filter criteria and click <strong>OK</strong>. Note that the filtering will be applied to the filtered field&#39;s <strong>Grand Total</strong> values. </p>
-<p> <img src="../../../images/img126468.png" alt="Spreadsheet_PivotTable_Filtering_Values_Dialog"></p>
+<li><p>Point to the <strong>Value Filters</strong> item and select one of the built-in comparison operators.</p>
+<p><img src="../../../images/img126467.png" alt="Spreadsheet_PivotTable_Filtering_Values_ContextMenu"></p>
 </li>
-<li><p>The resulting report is shown in the image below. The <strong>Filter</strong> button <img src="../../../images/img25636.png" alt="Spreadsheet_AppliedFilterIcon"> appears in the row or column label to indicate that the filter is applied. </p>
-<p> <img src="../../../images/img126470.png" alt="Spreadsheet_PivotTable_Filtering_Values_Result"></p>
+<li><p>In the invoked dialog, specify the filter criteria and click <strong>OK</strong>. Note that the filtering will be applied to the filtered field's <strong>Grand Total</strong> values.</p>
+<p><img src="../../../images/img126468.png" alt="Spreadsheet_PivotTable_Filtering_Values_Dialog"></p>
+</li>
+<li><p>The resulting report is shown in the image below. The <strong>Filter</strong> button <img src="../../../images/img25636.png" alt="Spreadsheet_AppliedFilterIcon"> appears in the row or column label to indicate that the filter is applied.</p>
+<p><img src="../../../images/img126470.png" alt="Spreadsheet_PivotTable_Filtering_Values_Result"></p>
 </li>
 </ol>
-<p><a name="multiple"></a></p>
+<a name="multiple"></a>
 <h2 id="use-multiple-filters-per-field">Use Multiple Filters per Field</h2>
 <p>To enable the capability to apply multiple filters to a single row or column field, do the following.</p>
 <ul>
 <li><p>On the <strong>PivotTable Tools</strong> | <strong>Analyze</strong> tab, in the <strong>PivotTable</strong> group, click the <strong>PivotTable Options</strong> button.</p>
-<p>  <img src="../../../images/img126775.png" alt="Spreadsheet_PivotTable_Filtering_PivotTableOptions"></p>
+<p><img src="../../../images/img126775.png" alt="Spreadsheet_PivotTable_Filtering_PivotTableOptions"></p>
 </li>
-<li><p>In the invoked <strong>PivotTable Options</strong> dialog, switch to the <strong>Totals &#38; Filters</strong> tab and check the <strong>Allow multiple filters per field</strong> box.</p>
-<p>  <img src="../../../images/img126774.png" alt="Spreadsheet_PivotTable_Filtering_MultipleFilters"></p>
+<li><p>In the invoked <strong>PivotTable Options</strong> dialog, switch to the <strong>Totals &amp; Filters</strong> tab and check the <strong>Allow multiple filters per field</strong> box.</p>
+<p><img src="../../../images/img126774.png" alt="Spreadsheet_PivotTable_Filtering_MultipleFilters"></p>
 </li>
 </ul>
-<p><a name="remove"></a></p>
+<a name="remove"></a>
 <h2 id="remove-a-filter">Remove a Filter</h2>
 <p>To remove a filter, do the following.</p>
 <ul>
-<li><p>To remove a filter from a specific field, click the <strong>Filter</strong> button <img src="../../../images/img25636.png" alt="Spreadsheet_AppliedFilterIcon"> and select the <strong>Clear Filter From &#39;Field Name&#39;</strong>  item in the drop-down menu. </p>
-<p>  <img src="../../../images/img126448.png" alt="Spreadsheet_PivotTable_Filtering_Remove"></p>
+<li><p>To remove a filter from a specific field, click the <strong>Filter</strong> button <img src="../../../images/img25636.png" alt="Spreadsheet_AppliedFilterIcon"> and select the <strong>Clear Filter From 'Field Name'</strong>  item in the drop-down menu.</p>
+<p><img src="../../../images/img126448.png" alt="Spreadsheet_PivotTable_Filtering_Remove"></p>
 </li>
-<li><p>To clear all filters applied to the PivotTable fields at once, on the <strong>PivotTable Tools</strong> | <strong>Analyze</strong> tab, in the <strong>Actions</strong> group, click <strong>Clear PivotTable</strong> | <strong>Clear Filters</strong>. </p>
-<p>  <img src="../../../images/img126772.png" alt="Spreadsheet_PivotTable_Filtering_RemoveAllFilters"></p>
+<li><p>To clear all filters applied to the PivotTable fields at once, on the <strong>PivotTable Tools</strong> | <strong>Analyze</strong> tab, in the <strong>Actions</strong> group, click <strong>Clear PivotTable</strong> | <strong>Clear Filters</strong>.</p>
+<p><img src="../../../images/img126772.png" alt="Spreadsheet_PivotTable_Filtering_RemoveAllFilters"></p>
 </li>
 </ul>
+
 </article>
           </div>
-          
+
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/24.1/interface-elements-for-desktop/articles/spreadsheet/pivot-tables/filter-a-pivot-table.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/fix-styles/interface-elements-for-desktop/articles/spreadsheet/pivot-tables/filter-a-pivot-table.md/#L1" class="contribution-link">Edit this page</a>
                   </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-                <h5>In This Article</h5>
+                <h5>In this article</h5>
                 <div></div>
               </nav>
             </div>
           </div>
         </div>
       </div>
-      
+
       <footer>
         <div class="grad-bottom"></div>
         <div class="footer">
@@ -208,14 +205,14 @@
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
-            
+      Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
+      
           </div>
         </div>
       </footer>
     </div>
-    
-    <script type="text/javascript" src="../../../../styles/docfx.vendor.js"></script>
+
+    <script type="text/javascript" src="../../../../styles/docfx.vendor.min.js"></script>
     <script type="text/javascript" src="../../../../styles/docfx.js"></script>
     <script type="text/javascript" src="../../../../styles/main.js"></script>
   </body>

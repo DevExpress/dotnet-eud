@@ -1,37 +1,29 @@
 ﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  
+
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Hide Table Cells | DevExpress End-User Documentation </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Hide Table Cells | DevExpress End-User Documentation ">
-    <meta name="generator" content="docfx 2.59.2.0">
-    
+    <meta name="generator" content="docfx ">
+  
     <link rel="shortcut icon" href="../../../../../../favicon.ico">
-    <link rel="stylesheet" href="../../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../../styles/docfx.vendor.min.css">
     <link rel="stylesheet" href="../../../../../../styles/docfx.css">
     <link rel="stylesheet" href="../../../../../../styles/main.css">
     <meta property="docfx:navrel" content="../../../../../../toc.html">
     <meta property="docfx:tocrel" content="../../../../../toc.html">
-    
-    
-    
-    <!-- Matomo Tag Manager -->
-    <script>
-      var _mtm = window._mtm = window._mtm || [];
-      _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
-      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-      g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
-    </script>
-    <!-- End Matomo Tag Manager -->
+  
+  
+  
   </head>
   <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
-        
+
         <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
           <div class="container">
             <div class="navbar-header">
@@ -41,7 +33,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              
+
               <a class="navbar-brand" href="../../../../../../index.html">
                 <img id="logo" class="svg" src="../../../../../../logo.svg" alt="">
               </a>
@@ -55,7 +47,7 @@
             </div>
           </div>
         </nav>
-        
+
         <div class="subnav navbar navbar-default">
           <div class="container hide-when-search" id="breadcrumb">
             <ul class="breadcrumb">
@@ -65,7 +57,7 @@
         </div>
       </header>
       <div role="main" class="container body-content hide-when-search">
-        
+
         <div class="sidenav hide-when-search">
           <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
           <div class="sidetoggle collapse" id="sidetoggle">
@@ -80,57 +72,58 @@
 <p>You can hide a specific table cell conditionally, for instance, based on a <a href="../../use-report-parameters.html">report parameter</a> value.</p>
 <p>Right-click the <strong>Parameters</strong> section in the <a href="../../report-designer-tools/ui-panels/field-list.html">Field List</a> and select <strong>Add Parameter</strong>.</p>
 <p><img src="../../../../../images/eurd-win-create-parameter-to-hide-table-cells.png" alt=""></p>
-<p>In the invoked <strong>Add New Parameter</strong> dialog, specify the parameter&#39;s name and description for Print Preview, and set the type to <strong>Boolean</strong>.</p>
+<p>In the invoked <strong>Add New Parameter</strong> dialog, specify the parameter's name and description for Print Preview, and set the type to <strong>Boolean</strong>.</p>
 <p><img src="../../../../../images/eurd-win-parameter-settings-to-hide-table-cells.png" alt=""></p>
-<p>Specify an <a href="../../shape-report-data/specify-conditions-for-report-elements/conditionally-supress-controls.html">expression</a> for the cell&#39;s <strong>Visible</strong> property to define a logical condition for displaying or hiding this cell.</p>
+<p>Specify an <a href="../../shape-report-data/specify-conditions-for-report-elements/conditionally-supress-controls.html">expression</a> for the cell's <strong>Visible</strong> property to define a logical condition for displaying or hiding this cell.</p>
 <p>The image below demonstrates how to provide the visibility expression for the cell bound to the <strong>CategoryID</strong> field. For a report to display correctly, you should specify the same expression for the cell that displays the field caption in the Page Header.</p>
 <p><img src="../../../../../images/eurd-win-hide-table-cell-using-expression.png" alt=""></p>
-<p>The <strong>Process Hidden Cell Mode</strong> property allows you to define how to distribute the remaining space between the table&#39;s visible cells.</p>
+<p>The <strong>Process Hidden Cell Mode</strong> property allows you to define how to distribute the remaining space between the table's visible cells.</p>
 <p><img src="../../../../../images/eurd-win-table-process-hidden-cell-mode.png" alt=""></p>
 <p>The image below illustrates how the original table looks like:</p>
 <p><img src="../../../../../images/eurd-win-table-hidden-cell-mode-initial-layout.png" alt=""></p>
 <p>The following modes are available to process hidden cells:</p>
 <ul>
 <li><p><strong>StretchPreviousCell</strong> - A cell to the left of the hidden cell is stretched to occupy the available space. If the hidden cell is the first in the row, the next cell is stretched.</p>
-<p>  <img src="../../../../../images/eurd-win-table-hidden-cell-mode-stretch-previous-cell.png" alt=""></p>
+<p><img src="../../../../../images/eurd-win-table-hidden-cell-mode-stretch-previous-cell.png" alt=""></p>
 </li>
 <li><p><strong>StretchNextCell</strong> - A cell to the right of the hidden cell is stretched to occupy the available space. If the hidden cell is the last in the row, the previous cell is stretched.</p>
-<p>  <img src="../../../../../images/eurd-win-table-hidden-cell-mode-stretch-next-cell.png" alt=""></p>
+<p><img src="../../../../../images/eurd-win-table-hidden-cell-mode-stretch-next-cell.png" alt=""></p>
 </li>
 <li><p><strong>ResizeCellsEqually</strong> - All visible cells are resized to divide the space that a hidden cell reserved equally.</p>
-<p>  <img src="../../../../../images/eurd-win-table-hidden-cell-mode-resize-cells-equally.png" alt=""></p>
+<p><img src="../../../../../images/eurd-win-table-hidden-cell-mode-resize-cells-equally.png" alt=""></p>
 </li>
 <li><p><strong>ResizeCellsProportionally</strong> - All visible cells are resized to proportionally divide the space that a hidden cell reserved based on their weights in the whole table width.</p>
-<p>  <img src="../../../../../images/eurd-win-table-hidden-cell-mode-resize-cells-proportionally.png" alt=""></p>
+<p><img src="../../../../../images/eurd-win-table-hidden-cell-mode-resize-cells-proportionally.png" alt=""></p>
 </li>
-<li><p><strong>DecreaseTableWidth</strong> - The table width is decreased, and visible cells are shifted to a hidden cell&#39;s location without changing their size.</p>
-<p>  <img src="../../../../../images/eurd-win-table-hidden-cell-mode-descrease-table-width.png" alt=""></p>
+<li><p><strong>DecreaseTableWidth</strong> - The table width is decreased, and visible cells are shifted to a hidden cell's location without changing their size.</p>
+<p><img src="../../../../../images/eurd-win-table-hidden-cell-mode-descrease-table-width.png" alt=""></p>
 </li>
-<li><p><strong>LeaveEmptySpace</strong> (the default mode) - A space remains at a hidden cell&#39;s location, and other cells are not affected.</p>
-<p>  <img src="../../../../../images/eurd-win-table-hidden-cell-mode-leave-empty-space.png" alt=""></p>
+<li><p><strong>LeaveEmptySpace</strong> (the default mode) - A space remains at a hidden cell's location, and other cells are not affected.</p>
+<p><img src="../../../../../images/eurd-win-table-hidden-cell-mode-leave-empty-space.png" alt=""></p>
 </li>
 </ul>
+
 </article>
           </div>
-          
+
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/24.1/reporting-for-desktop/articles/report-designer/report-designer-for-winforms/use-report-elements/use-tables/hide-table-cells.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/fix-styles/reporting-for-desktop/articles/report-designer/report-designer-for-winforms/use-report-elements/use-tables/hide-table-cells.md/#L1" class="contribution-link">Edit this page</a>
                   </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-                <h5>In This Article</h5>
+                <h5>In this article</h5>
                 <div></div>
               </nav>
             </div>
           </div>
         </div>
       </div>
-      
+
       <footer>
         <div class="grad-bottom"></div>
         <div class="footer">
@@ -138,14 +131,14 @@
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
-            
+      Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
+      
           </div>
         </div>
       </footer>
     </div>
-    
-    <script type="text/javascript" src="../../../../../../styles/docfx.vendor.js"></script>
+
+    <script type="text/javascript" src="../../../../../../styles/docfx.vendor.min.js"></script>
     <script type="text/javascript" src="../../../../../../styles/docfx.js"></script>
     <script type="text/javascript" src="../../../../../../styles/main.js"></script>
   </body>

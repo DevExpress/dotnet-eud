@@ -1,37 +1,29 @@
 ﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  
+
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Add Page Numbers and System Information to a Report | DevExpress End-User Documentation </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Add Page Numbers and System Information to a Report | DevExpress End-User Documentation ">
-    <meta name="generator" content="docfx 2.59.2.0">
-    
+    <meta name="generator" content="docfx ">
+  
     <link rel="shortcut icon" href="../../../../../../favicon.ico">
-    <link rel="stylesheet" href="../../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../../styles/docfx.vendor.min.css">
     <link rel="stylesheet" href="../../../../../../styles/docfx.css">
     <link rel="stylesheet" href="../../../../../../styles/main.css">
     <meta property="docfx:navrel" content="../../../../../../toc.html">
     <meta property="docfx:tocrel" content="../../../../../toc.html">
-    
-    
-    
-    <!-- Matomo Tag Manager -->
-    <script>
-      var _mtm = window._mtm = window._mtm || [];
-      _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
-      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-      g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
-    </script>
-    <!-- End Matomo Tag Manager -->
+  
+  
+  
   </head>
   <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
-        
+
         <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
           <div class="container">
             <div class="navbar-header">
@@ -41,7 +33,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              
+
               <a class="navbar-brand" href="../../../../../../index.html">
                 <img id="logo" class="svg" src="../../../../../../logo.svg" alt="">
               </a>
@@ -55,7 +47,7 @@
             </div>
           </div>
         </nav>
-        
+
         <div class="subnav navbar navbar-default">
           <div class="container hide-when-search" id="breadcrumb">
             <ul class="breadcrumb">
@@ -65,7 +57,7 @@
         </div>
       </header>
       <div role="main" class="container body-content hide-when-search">
-        
+
         <div class="sidenav hide-when-search">
           <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
           <div class="sidetoggle collapse" id="sidetoggle">
@@ -86,13 +78,13 @@
 <li><a href="#datetime">Add System Date and Time</a></li>
 <li><a href="#username">Add the User Name</a></li>
 </ul>
-<p><a name="pagenumbers"></a></p>
+<a name="pagenumbers"></a>
 <h2 id="add-page-numbers">Add Page Numbers</h2>
 <p>To insert page numbers in a report, do the following.</p>
 <ol>
 <li><p>Right-click the <strong>Page Info</strong> control, and in the context menu, click the <strong>Edit...</strong> link. Then, in the invoked dialog, specify the <strong>Page Information</strong> property.</p>
-<p> <img src="../../../../../images/img123723.png" alt="EUD_WpfReportDesigner_PageInfo_2"></p>
-<p> You can choose one of the following formats for displaying page numbers.</p>
+<p><img src="../../../../../images/img123723.png" alt="EUD_WpfReportDesigner_PageInfo_2"></p>
+<p>You can choose one of the following formats for displaying page numbers.</p>
 <ul>
 <li><strong>Number</strong> - displays the current page number only.</li>
 <li><strong>Number of Total</strong> - displays the current page number with total pages.</li>
@@ -101,60 +93,62 @@
 <li><strong>Total</strong> - displays the total number of pages.</li>
 </ul>
 </li>
-<li><p>To format the control&#39;s text, in the <strong>Edit</strong> dialog, specify the required format (e.g., <strong>Page {0} of {1}</strong>).</p>
-<p> <img src="../../../../../images/img123724.png" alt="EUD_WpfReportDesigner_PageInfo_3"></p>
+<li><p>To format the control's text, in the <strong>Edit</strong> dialog, specify the required format (e.g., <strong>Page {0} of {1}</strong>).</p>
+<p><img src="../../../../../images/img123724.png" alt="EUD_WpfReportDesigner_PageInfo_3"></p>
 </li>
-<li>You can also specify the <strong>Start Page Number</strong> and <strong>Running Band</strong> properties. For instance, the latter is available when there are <a href="../shaping-data/grouping-data.html">groups</a> in a report, and you are required to apply independent page numbering for them.</li>
+<li><p>You can also specify the <strong>Start Page Number</strong> and <strong>Running Band</strong> properties. For instance, the latter is available when there are <a href="../shaping-data/grouping-data.html">groups</a> in a report, and you are required to apply independent page numbering for them.</p>
+</li>
 </ol>
 <p>The result is shown below.</p>
 <p><img src="../../../../../images/img123725.png" alt="EUD_WpfReportDesigner_PageInfo_4"></p>
-<p><a name="datetime"></a></p>
+<a name="datetime"></a>
 <h2 id="add-system-date-and-time">Add System Date and Time</h2>
 <p>To insert the current system date and time into a report, perform the steps below.</p>
 <ol>
 <li><p>Right-click the <strong>Page Info</strong> control and select <strong>Edit...</strong> in the context menu. In the invoked dialog, expand the <strong>Page Information</strong> drop-down and select <strong>Date Time</strong>.</p>
-<p> <img src="../../../../../images/img123726.png" alt="EUD_WpfReportDesigner_PageInfo_5"></p>
+<p><img src="../../../../../images/img123726.png" alt="EUD_WpfReportDesigner_PageInfo_5"></p>
 </li>
-<li><p>To <a href="../shaping-data/formatting-data.html">format</a> the control&#39;s text, you can either type it in the <strong>Format</strong> property, or click its ellipsis button and use the <strong>Format String Editor</strong>.</p>
-<p> <img src="../../../../../images/img123727.png" alt="EUD_WpfReportDesigner_PageInfo_6"></p>
+<li><p>To <a href="../shaping-data/formatting-data.html">format</a> the control's text, you can either type it in the <strong>Format</strong> property, or click its ellipsis button and use the <strong>Format String Editor</strong>.</p>
+<p><img src="../../../../../images/img123727.png" alt="EUD_WpfReportDesigner_PageInfo_6"></p>
 </li>
 </ol>
 <p>The result is shown below.</p>
 <p><img src="../../../../../images/img123728.png" alt="EUD_WpfReportDesigner_PageInfo_7"></p>
-<p><a name="username"></a></p>
+<a name="username"></a>
 <h2 id="add-the-user-name">Add the User Name</h2>
 <p>To display the current user name in a report, do the following.</p>
 <ol>
 <li><p>Right-click the <strong>Page Info</strong> control and select <strong>Edit...</strong> in the context menu. In the invoked dialog, expand the <strong>Page Information</strong> drop-down and select <strong>User Name</strong>.</p>
-<p> <img src="../../../../../images/img123729.png" alt="EUD_WpfReportDesigner_PageInfo_8"></p>
+<p><img src="../../../../../images/img123729.png" alt="EUD_WpfReportDesigner_PageInfo_8"></p>
 </li>
-<li><p>To format the control&#39;s text, in the <strong>Edit</strong> dialog, specify the required format (e.g., <strong>Current User: {0}</strong>).</p>
-<p> <img src="../../../../../images/img123730.png" alt="EUD_WpfReportDesigner_PageInfo_9"></p>
+<li><p>To format the control's text, in the <strong>Edit</strong> dialog, specify the required format (e.g., <strong>Current User: {0}</strong>).</p>
+<p><img src="../../../../../images/img123730.png" alt="EUD_WpfReportDesigner_PageInfo_9"></p>
 </li>
 </ol>
 <p>The following image demonstrates the result.</p>
 <p><img src="../../../../../images/img123731.png" alt="EUD_WpfReportDesigner_PageInfo_10"></p>
+
 </article>
           </div>
-          
+
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/24.1/reporting-for-desktop/articles/report-designer/report-designer-for-wpf/creating-reports/adding-details-about-a-report/add-page-numbers-and-system-information-to-a-report.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/fix-styles/reporting-for-desktop/articles/report-designer/report-designer-for-wpf/creating-reports/adding-details-about-a-report/add-page-numbers-and-system-information-to-a-report.md/#L1" class="contribution-link">Edit this page</a>
                   </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-                <h5>In This Article</h5>
+                <h5>In this article</h5>
                 <div></div>
               </nav>
             </div>
           </div>
         </div>
       </div>
-      
+
       <footer>
         <div class="grad-bottom"></div>
         <div class="footer">
@@ -162,14 +156,14 @@
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
-            
+      Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
+      
           </div>
         </div>
       </footer>
     </div>
-    
-    <script type="text/javascript" src="../../../../../../styles/docfx.vendor.js"></script>
+
+    <script type="text/javascript" src="../../../../../../styles/docfx.vendor.min.js"></script>
     <script type="text/javascript" src="../../../../../../styles/docfx.js"></script>
     <script type="text/javascript" src="../../../../../../styles/main.js"></script>
   </body>

@@ -1,37 +1,29 @@
 ﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  
+
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Hyperlink Column | DevExpress End-User Documentation </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Hyperlink Column | DevExpress End-User Documentation ">
-    <meta name="generator" content="docfx 2.59.2.0">
-    
+    <meta name="generator" content="docfx ">
+  
     <link rel="shortcut icon" href="../../../../../../favicon.ico">
-    <link rel="stylesheet" href="../../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../../styles/docfx.vendor.min.css">
     <link rel="stylesheet" href="../../../../../../styles/docfx.css">
     <link rel="stylesheet" href="../../../../../../styles/main.css">
     <meta property="docfx:navrel" content="../../../../../../toc.html">
     <meta property="docfx:tocrel" content="../../../../../toc.html">
-    
-    
-    
-    <!-- Matomo Tag Manager -->
-    <script>
-      var _mtm = window._mtm = window._mtm || [];
-      _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
-      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-      g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
-    </script>
-    <!-- End Matomo Tag Manager -->
+  
+  
+  
   </head>
   <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
-        
+
         <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
           <div class="container">
             <div class="navbar-header">
@@ -41,7 +33,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              
+
               <a class="navbar-brand" href="../../../../../../index.html">
                 <img id="logo" class="svg" src="../../../../../../logo.svg" alt="">
               </a>
@@ -55,7 +47,7 @@
             </div>
           </div>
         </nav>
-        
+
         <div class="subnav navbar navbar-default">
           <div class="container hide-when-search" id="breadcrumb">
             <ul class="breadcrumb">
@@ -65,7 +57,7 @@
         </div>
       </header>
       <div role="main" class="container body-content hide-when-search">
-        
+
         <div class="sidenav hide-when-search">
           <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
           <div class="sidetoggle collapse" id="sidetoggle">
@@ -80,7 +72,7 @@
 <p>A <em>hyperlink</em> column allows you to display hyperlinks in the Grid dashboard item.</p>
 <p><img src="../../../../../images/GridHyperLinkColumn_Example_Win.png" alt="GridHyperLinkColumn_Example_Win"></p>
 <p>You can provide hyperlinks as a separate data column. or they can be automatically created at run-time from any column using the specified <strong>URI pattern</strong>.</p>
-<p>In this document, the sample data source contains four fields: country name, official country name, Wikipedia country page&#39;s URI and the GDP value.</p>
+<p>In this document, the sample data source contains four fields: country name, official country name, Wikipedia country page's URI and the GDP value.</p>
 <p><img src="../../../../../images/GridHyperLinkColumn_UnderlyingDataSource.png" alt="GridHyperLinkColumn_UnderlyingDataSource"></p>
 <p>The following sections describe how to create hyperlink columns in more detail:</p>
 <ul>
@@ -88,13 +80,13 @@
 <li><a href="#uri-pattern">Uri Pattern</a></li>
 </ul>
 <h2 id="data-field-containing-uri-values">Data Field Containing Uri Values</h2>
-<p>Drag the <em>Name</em> data field from the Data Source tree view to the column&#39;s <a href="../../../bind-dashboard-items-to-data/bind-dashboard-items-to-data.html">data item container</a>. The data field is automatically processed as <a href="dimension-column.html">dimension</a>. Drag and drop the GDP data field to another column&#39;s data item container. The data field is recognized as <a href="measure-column.html">measure</a> and summarized.</p>
+<p>Drag the <em>Name</em> data field from the Data Source tree view to the column's <a href="../../../bind-dashboard-items-to-data/bind-dashboard-items-to-data.html">data item container</a>. The data field is automatically processed as <a href="dimension-column.html">dimension</a>. Drag and drop the GDP data field to another column's data item container. The data field is recognized as <a href="measure-column.html">measure</a> and summarized.</p>
 <p><img src="../../../../../images/GridHyperLinkColumn_InitialGrid.png" alt="GridHyperLinkColumn_InitialGrid"></p>
 <p><a href="../../../bind-dashboard-items-to-data/bind-dashboard-items-to-data.html">Drop</a> the <em>Link</em> field between the <em>Name</em> and the <em>GDP (Sum)</em> data items. The Grid recognizes this field as <strong>dimension</strong> and displays links as plain text.</p>
 <p><img src="../../../../../images/GridHyperLinkColumn_HyperlinkAsText.png" alt="GridHyperLinkColumn_HyperlinkAsText"></p>
 <p>Click the <a href="column-type-overview.html">Column Type Indicator</a> button next to the <em>Name</em> data item and change its type to <strong>Hyperlink</strong>.</p>
 <p><img src="../../../../../images/gridhyperlinkcolumn_column_options.png" alt="GridHyperlinkColumn_column_options"></p>
-<p>The Grid displays column values as clickable hyperlinks allowing you to navigate to the Wiki&#39;s pages.</p>
+<p>The Grid displays column values as clickable hyperlinks allowing you to navigate to the Wiki's pages.</p>
 <p><img src="../../../../../images/GridHyperLinkColumn_HyperlinkAsLink.png" alt="GridHyperLinkColumn_HyperlinkAsLink"></p>
 <p>You can bind the Display value and URI value to different data fields. Click the <em>New Column</em> data item placeholder and change its type to <strong>Hyperlink</strong>.</p>
 <p><img src="../../../../../images/gridhyperlinkcolumn_hyperlinkandurifromdata.png" alt="GridHyperlinkColumn_hyperlinkandurifromdata"></p>
@@ -103,34 +95,35 @@
 <p><img src="../../../../../images/GridHyperLinkColumn_HyperlinkWithDisplayText.png" alt="GridHyperLinkColumn_HyperlinkWithDisplayText"></p>
 <h2 id="uri-pattern">Uri Pattern</h2>
 <p>In this case, a specified URI pattern is used to generate links.</p>
-<p>Drag the <em>Name</em> data field from the Data Source tree view to the column&#39;s <a href="../../../bind-dashboard-items-to-data/bind-dashboard-items-to-data.html">data item container</a>. The data field is automatically processed as <a href="dimension-column.html">dimension</a>. Drag and drop the GDP data field to another column&#39;s data item container. The data field is recognized as <a href="measure-column.html">measure</a> and summarized.</p>
+<p>Drag the <em>Name</em> data field from the Data Source tree view to the column's <a href="../../../bind-dashboard-items-to-data/bind-dashboard-items-to-data.html">data item container</a>. The data field is automatically processed as <a href="dimension-column.html">dimension</a>. Drag and drop the GDP data field to another column's data item container. The data field is recognized as <a href="measure-column.html">measure</a> and summarized.</p>
 <p><img src="../../../../../images/GridHyperLinkColumn_InitialGrid.png" alt="GridHyperLinkColumn_InitialGrid"></p>
 <p>Click the <a href="column-type-overview.html">Column Type Indicator</a> button next to the Name data item and change its type to <strong>Hyperlink</strong>. Specify the <strong>URI Pattern</strong> option as follows:</p>
 <p><code>https://en.wikipedia.org/wiki/{0}</code></p>
 <p><img src="../../../../../images/GridHyperLinkColumn_ColumnOptionsDialog.png" alt="GridHyperLinkColumn_ColumnOptionsDialog"></p>
 <p>The <code>{0}</code> placeholder is replaced with the <em>Name</em> data item value. The links are generated for country names and displayed in the grid as illustrated in the following picture.</p>
 <p><img src="../../../../../images/GridHyperLinkColumn_UriPatternLink.png" alt="GridHyperLinkColumn_UriPatternLink"></p>
+
 </article>
           </div>
-          
+
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/24.1/dashboard-for-desktop/articles/dashboard-designer/dashboard-item-settings/grid/columns/hyperlink-column.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/fix-styles/dashboard-for-desktop/articles/dashboard-designer/dashboard-item-settings/grid/columns/hyperlink-column.md/#L1" class="contribution-link">Edit this page</a>
                   </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-                <h5>In This Article</h5>
+                <h5>In this article</h5>
                 <div></div>
               </nav>
             </div>
           </div>
         </div>
       </div>
-      
+
       <footer>
         <div class="grad-bottom"></div>
         <div class="footer">
@@ -138,14 +131,14 @@
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
-            
+      Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
+      
           </div>
         </div>
       </footer>
     </div>
-    
-    <script type="text/javascript" src="../../../../../../styles/docfx.vendor.js"></script>
+
+    <script type="text/javascript" src="../../../../../../styles/docfx.vendor.min.js"></script>
     <script type="text/javascript" src="../../../../../../styles/docfx.js"></script>
     <script type="text/javascript" src="../../../../../../styles/main.js"></script>
   </body>

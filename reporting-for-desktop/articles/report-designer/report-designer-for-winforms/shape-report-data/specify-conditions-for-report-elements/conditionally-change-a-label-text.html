@@ -1,37 +1,29 @@
 ﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  
+
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Conditionally Change a Label's Text | DevExpress End-User Documentation </title>
+    <title>Conditionally Change a Label&#39;s Text | DevExpress End-User Documentation </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Conditionally Change a Label's Text | DevExpress End-User Documentation ">
-    <meta name="generator" content="docfx 2.59.2.0">
-    
+    <meta name="title" content="Conditionally Change a Label&#39;s Text | DevExpress End-User Documentation ">
+    <meta name="generator" content="docfx ">
+  
     <link rel="shortcut icon" href="../../../../../../favicon.ico">
-    <link rel="stylesheet" href="../../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../../styles/docfx.vendor.min.css">
     <link rel="stylesheet" href="../../../../../../styles/docfx.css">
     <link rel="stylesheet" href="../../../../../../styles/main.css">
     <meta property="docfx:navrel" content="../../../../../../toc.html">
     <meta property="docfx:tocrel" content="../../../../../toc.html">
-    
-    
-    
-    <!-- Matomo Tag Manager -->
-    <script>
-      var _mtm = window._mtm = window._mtm || [];
-      _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
-      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-      g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
-    </script>
-    <!-- End Matomo Tag Manager -->
+  
+  
+  
   </head>
   <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
-        
+
         <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
           <div class="container">
             <div class="navbar-header">
@@ -41,7 +33,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              
+
               <a class="navbar-brand" href="../../../../../../index.html">
                 <img id="logo" class="svg" src="../../../../../../logo.svg" alt="">
               </a>
@@ -55,7 +47,7 @@
             </div>
           </div>
         </nav>
-        
+
         <div class="subnav navbar navbar-default">
           <div class="container hide-when-search" id="breadcrumb">
             <ul class="breadcrumb">
@@ -65,7 +57,7 @@
         </div>
       </header>
       <div role="main" class="container body-content hide-when-search">
-        
+
         <div class="sidenav hide-when-search">
           <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
           <div class="sidetoggle collapse" id="sidetoggle">
@@ -75,44 +67,45 @@
         <div class="article row grid-right">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="conditionally-change-a-labels-text">Conditionally Change a Label&#39;s Text</h1>
+<h1 id="conditionally-change-a-labels-text">Conditionally Change a Label's Text</h1>
 
 <p>This document describes how to display different values in a report control based on a specified logical condition.</p>
-<p>After you <a href="../../bind-to-data.html">bound your report to data</a> and specified a bound data field in a report control&#39;s <strong>Expression</strong> property, you can make this control display different values based on a specified logical condition:</p>
+<p>After you <a href="../../bind-to-data.html">bound your report to data</a> and specified a bound data field in a report control's <strong>Expression</strong> property, you can make this control display different values based on a specified logical condition:</p>
 <ol>
-<li><p>Invoke the control&#39;s smart tag and click its <strong>Expression</strong> property&#39;s ellipsis button.</p>
-<p> <img src="../../../../../images/eurd-win-shaping-label-expression-property-for-custom-text.png" alt=""></p>
+<li><p>Invoke the control's smart tag and click its <strong>Expression</strong> property's ellipsis button.</p>
+<p><img src="../../../../../images/eurd-win-shaping-label-expression-property-for-custom-text.png" alt=""></p>
 </li>
 <li><p>In the invoked <strong>Expression Editor</strong>, specify the required <a href="../../use-expressions.html">expression</a>.</p>
-<p> <img src="../../../../../images/eurd-win-shaping-label-expression-for-custom-text.png" alt=""></p>
-<p> Use the <strong>Iif</strong> function to define the condition. For example:</p>
-<p> <strong>Iif([UnitsOnOrder] == 0, &#39;None&#39;, [UnitsOnOrder])</strong></p>
-<p> This expression means that if the data field&#39;s value is zero, the control&#39;s text is set to &#39;<strong>None</strong>&#39;; otherwise, it displays the actual field value.</p>
+<p><img src="../../../../../images/eurd-win-shaping-label-expression-for-custom-text.png" alt=""></p>
+<p>Use the <strong>Iif</strong> function to define the condition. For example:</p>
+<p><strong>Iif([UnitsOnOrder] == 0, 'None', [UnitsOnOrder])</strong></p>
+<p>This expression means that if the data field's value is zero, the control's text is set to '<strong>None</strong>'; otherwise, it displays the actual field value.</p>
 </li>
 </ol>
 <p>When switching to <a href="../../preview-print-and-export-reports.html">Print Preview</a>, you can see the report control displaying the assigned values.</p>
 <p><img src="../../../../../images/eurd-win-shaping-label-custom-text-result.png" alt=""></p>
+
 </article>
           </div>
-          
+
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/24.1/reporting-for-desktop/articles/report-designer/report-designer-for-winforms/shape-report-data/specify-conditions-for-report-elements/conditionally-change-a-label-text.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/fix-styles/reporting-for-desktop/articles/report-designer/report-designer-for-winforms/shape-report-data/specify-conditions-for-report-elements/conditionally-change-a-label-text.md/#L1" class="contribution-link">Edit this page</a>
                   </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-                <h5>In This Article</h5>
+                <h5>In this article</h5>
                 <div></div>
               </nav>
             </div>
           </div>
         </div>
       </div>
-      
+
       <footer>
         <div class="grad-bottom"></div>
         <div class="footer">
@@ -120,14 +113,14 @@
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
-            
+      Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
+      
           </div>
         </div>
       </footer>
     </div>
-    
-    <script type="text/javascript" src="../../../../../../styles/docfx.vendor.js"></script>
+
+    <script type="text/javascript" src="../../../../../../styles/docfx.vendor.min.js"></script>
     <script type="text/javascript" src="../../../../../../styles/docfx.js"></script>
     <script type="text/javascript" src="../../../../../../styles/main.js"></script>
   </body>

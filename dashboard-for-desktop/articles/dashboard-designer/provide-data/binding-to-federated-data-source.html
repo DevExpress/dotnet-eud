@@ -1,37 +1,29 @@
 ﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  
+
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Binding to Federated Data Source | DevExpress End-User Documentation </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Binding to Federated Data Source | DevExpress End-User Documentation ">
-    <meta name="generator" content="docfx 2.59.2.0">
-    
+    <meta name="generator" content="docfx ">
+  
     <link rel="shortcut icon" href="../../../../favicon.ico">
-    <link rel="stylesheet" href="../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../styles/docfx.vendor.min.css">
     <link rel="stylesheet" href="../../../../styles/docfx.css">
     <link rel="stylesheet" href="../../../../styles/main.css">
     <meta property="docfx:navrel" content="../../../../toc.html">
     <meta property="docfx:tocrel" content="../../../toc.html">
-    
-    
-    
-    <!-- Matomo Tag Manager -->
-    <script>
-      var _mtm = window._mtm = window._mtm || [];
-      _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
-      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-      g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
-    </script>
-    <!-- End Matomo Tag Manager -->
+  
+  
+  
   </head>
   <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
-        
+
         <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
           <div class="container">
             <div class="navbar-header">
@@ -41,7 +33,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              
+
               <a class="navbar-brand" href="../../../../index.html">
                 <img id="logo" class="svg" src="../../../../logo.svg" alt="">
               </a>
@@ -55,7 +47,7 @@
             </div>
           </div>
         </nav>
-        
+
         <div class="subnav navbar navbar-default">
           <div class="container hide-when-search" id="breadcrumb">
             <ul class="breadcrumb">
@@ -65,7 +57,7 @@
         </div>
       </header>
       <div role="main" class="container body-content hide-when-search">
-        
+
         <div class="sidenav hide-when-search">
           <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
           <div class="sidetoggle collapse" id="sidetoggle">
@@ -81,10 +73,10 @@
 <p>You can create federated queries of the following types:</p>
 <ul>
 <li><p><strong>Join</strong></p>
-<p>Combines rows from two or more tables based on a clause. </p>
+<p>Combines rows from two or more tables based on a clause.</p>
 </li>
 <li><p><strong>Union and Union All</strong></p>
-<p>The <strong>Union</strong> query combines rows from two or more tables into one data set and removes duplicate rows in merged tables. The <strong>UnionAll</strong> query does the same, except it doesn&#39;t remove duplicated rows. You can create a union query for data sources if data types of their columns are <a href="https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/types/casting-and-type-conversions#implicit-conversions">implicitly converted</a>. </p>
+<p>The <strong>Union</strong> query combines rows from two or more tables into one data set and removes duplicate rows in merged tables. The <strong>UnionAll</strong> query does the same, except it doesn't remove duplicated rows. You can create a union query for data sources if data types of their columns are <a href="https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/types/casting-and-type-conversions#implicit-conversions">implicitly converted</a>.</p>
 </li>
 <li><p><strong>Transformation</strong></p>
 <p>If a data source contains a complex column (an object), you can transform its properties to display columns separately in a flattened view.</p>
@@ -99,49 +91,50 @@
 <p><img src="../../../images/choose-federated-data-source.png" alt="Choose_federated_data_source"></p>
 <h3 id="select-the-query-type">Select the Query Type</h3>
 <p>The <a href="../work-with-data/using-the-query-builder.html">Query Builder</a> displays the available data sources you can use to create queries.</p>
-<p>   <img src="../../../images/query-builder-available-sources.png" alt="Query_Builder_available_sources"></p>
-<p>   <strong>Join</strong></p>
-<p>   Drag the data sources you want to join to the diagram pane, specify the related column to create the relationship between tables, and select the columns you want to include in the query. Use <em>* (All Columns)</em> to get a complete list of columns from a table. Columns included in the query are displayed in the bottom pane where you can configure their settings.</p>
-<p>   <img src="../../../images/data-federation-querybuilder.png" alt="Data-Federation-Query-Builder"></p>
-<p>   <strong>Union</strong></p>
-<p>   Double-click the data sources you want to combine. Unlike Join queries, you cannot select individual columns. Columns included in the query are displayed in the bottom pane where you can specify their aliases.</p>
-<p>   <img src="../../../images/data-federation-querybuilder-union.png" alt="Query-builder-union"></p>
-<p>   <strong>Union All</strong> </p>
-<p>   Double-click the data sources you want to combine. A <strong>UnionAll</strong> query duplicates rows from different tables even if they contain the same data. Columns included in the query are displayed in the bottom pane where you can specify their aliases.</p>
-<p>   <img src="../../../images/data-federation-querybuilder-union-all.png" alt="Query-builder-union-all"></p>
-<p>   <strong>Transformation</strong></p>
-<p>   Select a data source/query that contains columns you want to transform. Select the <strong>Transform</strong> checkbox next to the column you want to unfold and flatten. The bottom pane allows you to specify the aliases for the generated columns.</p>
-<p>   <img src="../../../images/data-federation-querybuilder-transformation.png" alt="Query-builder-transformation"></p>
+<p><img src="../../../images/query-builder-available-sources.png" alt="Query_Builder_available_sources"></p>
+<p><strong>Join</strong></p>
+<p>Drag the data sources you want to join to the diagram pane, specify the related column to create the relationship between tables, and select the columns you want to include in the query. Use <em>* (All Columns)</em> to get a complete list of columns from a table. Columns included in the query are displayed in the bottom pane where you can configure their settings.</p>
+<p><img src="../../../images/data-federation-querybuilder.png" alt="Data-Federation-Query-Builder"></p>
+<p><strong>Union</strong></p>
+<p>Double-click the data sources you want to combine. Unlike Join queries, you cannot select individual columns. Columns included in the query are displayed in the bottom pane where you can specify their aliases.</p>
+<p><img src="../../../images/data-federation-querybuilder-union.png" alt="Query-builder-union"></p>
+<p><strong>Union All</strong></p>
+<p>Double-click the data sources you want to combine. A <strong>UnionAll</strong> query duplicates rows from different tables even if they contain the same data. Columns included in the query are displayed in the bottom pane where you can specify their aliases.</p>
+<p><img src="../../../images/data-federation-querybuilder-union-all.png" alt="Query-builder-union-all"></p>
+<p><strong>Transformation</strong></p>
+<p>Select a data source/query that contains columns you want to transform. Select the <strong>Transform</strong> checkbox next to the column you want to unfold and flatten. The bottom pane allows you to specify the aliases for the generated columns.</p>
+<p><img src="../../../images/data-federation-querybuilder-transformation.png" alt="Query-builder-transformation"></p>
 <p>Click <strong>OK</strong> to create a query.</p>
 <h3 id="copy-calculated-fields">Copy Calculated Fields</h3>
-<p>The Data Source Wizard invokes the following page if one of the selected data sources contains calculated fields. Drag or double-click the calculated field you want to copy to the resulting federated data source. You can specify the name of the copied calculated field in the left Grid. </p>
+<p>The Data Source Wizard invokes the following page if one of the selected data sources contains calculated fields. Drag or double-click the calculated field you want to copy to the resulting federated data source. You can specify the name of the copied calculated field in the left Grid.</p>
 <p><img src="../../../images/data-federation-data-source-browser-copy-calculated-fields.png" alt="Copy-calculated-fields"></p>
 <h3 id="see-the-result">See the Result</h3>
-<p>The <a href="../ui-elements/data-source-browser.html">Data Source Browser</a> displays the newly created Federated Data Source. </p>
+<p>The <a href="../ui-elements/data-source-browser.html">Data Source Browser</a> displays the newly created Federated Data Source.</p>
 <p>The image below displays a new <em>Federation Data Source 1</em> with a joined <em>SQlite</em> Orders query.</p>
 <p><img src="../../../images/data-source-browser-federated-data-source.png" alt="Federated_data_source_configuration"></p>
-<p>The query name is the same as the root table&#39;s name in the query builder. Click the <strong>Rename</strong> button in the <strong>Query</strong> group on the <strong>Data Source</strong> ribbon tab to change the query name.</p>
+<p>The query name is the same as the root table's name in the query builder. Click the <strong>Rename</strong> button in the <strong>Query</strong> group on the <strong>Data Source</strong> ribbon tab to change the query name.</p>
+
 </article>
           </div>
-          
+
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/24.1/dashboard-for-desktop/articles/dashboard-designer/provide-data/binding-to-federated-data-source.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/fix-styles/dashboard-for-desktop/articles/dashboard-designer/provide-data/binding-to-federated-data-source.md/#L1" class="contribution-link">Edit this page</a>
                   </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-                <h5>In This Article</h5>
+                <h5>In this article</h5>
                 <div></div>
               </nav>
             </div>
           </div>
         </div>
       </div>
-      
+
       <footer>
         <div class="grad-bottom"></div>
         <div class="footer">
@@ -149,14 +142,14 @@
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
-            
+      Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
+      
           </div>
         </div>
       </footer>
     </div>
-    
-    <script type="text/javascript" src="../../../../styles/docfx.vendor.js"></script>
+
+    <script type="text/javascript" src="../../../../styles/docfx.vendor.min.js"></script>
     <script type="text/javascript" src="../../../../styles/docfx.js"></script>
     <script type="text/javascript" src="../../../../styles/main.js"></script>
   </body>

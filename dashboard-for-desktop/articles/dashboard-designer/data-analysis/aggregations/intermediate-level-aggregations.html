@@ -1,37 +1,29 @@
 ﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  
+
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Intermediate Level Aggregations | DevExpress End-User Documentation </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Intermediate Level Aggregations | DevExpress End-User Documentation ">
-    <meta name="generator" content="docfx 2.59.2.0">
-    
+    <meta name="generator" content="docfx ">
+  
     <link rel="shortcut icon" href="../../../../../favicon.ico">
-    <link rel="stylesheet" href="../../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../../styles/docfx.vendor.min.css">
     <link rel="stylesheet" href="../../../../../styles/docfx.css">
     <link rel="stylesheet" href="../../../../../styles/main.css">
     <meta property="docfx:navrel" content="../../../../../toc.html">
     <meta property="docfx:tocrel" content="../../../../toc.html">
-    
-    
-    
-    <!-- Matomo Tag Manager -->
-    <script>
-      var _mtm = window._mtm = window._mtm || [];
-      _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
-      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-      g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
-    </script>
-    <!-- End Matomo Tag Manager -->
+  
+  
+  
   </head>
   <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
-        
+
         <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
           <div class="container">
             <div class="navbar-header">
@@ -41,7 +33,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              
+
               <a class="navbar-brand" href="../../../../../index.html">
                 <img id="logo" class="svg" src="../../../../../logo.svg" alt="">
               </a>
@@ -55,7 +47,7 @@
             </div>
           </div>
         </nav>
-        
+
         <div class="subnav navbar navbar-default">
           <div class="container hide-when-search" id="breadcrumb">
             <ul class="breadcrumb">
@@ -65,7 +57,7 @@
         </div>
       </header>
       <div role="main" class="container body-content hide-when-search">
-        
+
         <div class="sidenav hide-when-search">
           <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
           <div class="sidetoggle collapse" id="sidetoggle">
@@ -87,31 +79,39 @@
 <p>The <strong>Aggr</strong> function aggregates and summarizes underlying data using the detail level specified by a predefined set of dimensions and a specified summary function. This function can be used during the creation of a new <a href="../../work-with-data/creating-calculated-fields.html">calculated field</a> in the Expression Editor.</p>
 <p>The <strong>Aggr</strong> function has the following syntax.</p>
 <pre><code>Aggr(summaryExpression, dimension1, dimension2, ...)
-</code></pre><p>The first argument is a <a href="summary-level-aggregations.html">summary expression</a> calculated against a specific data source field. The next arguments are the set of dimensions whose values are aggregated and used to calculate summaries specified using the first argument.
+
+</code></pre>
+<p>The first argument is a <a href="summary-level-aggregations.html">summary expression</a> calculated against a specific data source field. The next arguments are the set of dimensions whose values are aggregated and used to calculate summaries specified using the first argument.
 For instance, the following function calculates sums of sales for each product within the specified category.</p>
 <pre><code>Aggr(Sum([Sales]), [Category], [Product])
-</code></pre><p>If you created the calculated field that includes the <strong>Aggr</strong> function and dropped the created field into an existing <a href="../../dashboard-item-settings.html">dashboard item</a>, the Dashboard joins the resulting aggregation with the already displayed data. This means that you can add data with the increased or decreased granularity to the dashboard item. There are two main scenarios.</p>
+
+</code></pre>
+<p>If you created the calculated field that includes the <strong>Aggr</strong> function and dropped the created field into an existing <a href="../../dashboard-item-settings.html">dashboard item</a>, the Dashboard joins the resulting aggregation with the already displayed data. This means that you can add data with the increased or decreased granularity to the dashboard item. There are two main scenarios.</p>
 <ul>
 <li><p>In the first scenario, an aggregation has a <strong>less detailed granularity</strong> than visualized data.</p>
-<p>  In this scenario, an underlying data source contains the list of orders for two categories and corresponding products.</p>
-<p>  <img src="../../../../images/img122834.png" alt="Aggr_UnderlyingData"></p>
-<p>  To aggregate this data by individual categories, create a calculated field with the following expression.</p>
-<pre><code>Aggr(Sum([Sales]), [Category])
-</code></pre><p>  The following internal table will be generated for this calculated field.</p>
-<p>  <img src="../../../../images/img122839.png" alt="Aggr_Overview_UnderlyingAndInternalLow"></p>
-<p>  The sample <a href="../../dashboard-item-settings/grid.html">Grid</a> dashboard item contains more detailed data and includes the following columns: <em>Category</em>, <em>Product</em> and the sum of <em>Sales</em>.</p>
-<p>  <img src="../../../../images/img122838.png" alt="Aggr_Overview_CategoryProductGrid"></p>
-<p>  If you drop the created calculated field to the Grid, the sum of sales for each category will be repeated for each Grid row.</p>
-<p>  <img src="../../../../images/img122840.png" alt="Aggr_Overview_GridAndInternalLow"></p>
-<p>  For instance, you can use these values later to calculate a contribution of each product to a category’s sales.</p>
+<p>In this scenario, an underlying data source contains the list of orders for two categories and corresponding products.</p>
+<p><img src="../../../../images/img122834.png" alt="Aggr_UnderlyingData"></p>
+<p>To aggregate this data by individual categories, create a calculated field with the following expression.</p>
+<pre><code>  Aggr(Sum([Sales]), [Category])
+
+</code></pre>
+<p>The following internal table will be generated for this calculated field.</p>
+<p><img src="../../../../images/img122839.png" alt="Aggr_Overview_UnderlyingAndInternalLow"></p>
+<p>The sample <a href="../../dashboard-item-settings/grid.html">Grid</a> dashboard item contains more detailed data and includes the following columns: <em>Category</em>, <em>Product</em> and the sum of <em>Sales</em>.</p>
+<p><img src="../../../../images/img122838.png" alt="Aggr_Overview_CategoryProductGrid"></p>
+<p>If you drop the created calculated field to the Grid, the sum of sales for each category will be repeated for each Grid row.</p>
+<p><img src="../../../../images/img122840.png" alt="Aggr_Overview_GridAndInternalLow"></p>
+<p>For instance, you can use these values later to calculate a contribution of each product to a category’s sales.</p>
 </li>
 <li><p>An aggregation has a <strong>more detailed granularity</strong> than visualized data.</p>
-<p>  To aggregate this data by categories and products, create a calculated field with the following expression.</p>
-<pre><code>Aggr(Sum([Sales]), [Category], [Product])
-</code></pre><p>  The following internal table will be generated for this calculated field.</p>
-<p>  <img src="../../../../images/img122841.png" alt="Aggr_Overview_GridAndInternalHigh"></p>
-<p>  Drop the created calculated field to the Grid and set its summary type to <strong>Min</strong>. The Grid will display minimum product sales within each category.</p>
-<p>  <img src="../../../../images/img122842.png" alt="Aggr_Overview_GridAndInternalHigh"></p>
+<p>To aggregate this data by categories and products, create a calculated field with the following expression.</p>
+<pre><code>  Aggr(Sum([Sales]), [Category], [Product])
+
+</code></pre>
+<p>The following internal table will be generated for this calculated field.</p>
+<p><img src="../../../../images/img122841.png" alt="Aggr_Overview_GridAndInternalHigh"></p>
+<p>Drop the created calculated field to the Grid and set its summary type to <strong>Min</strong>. The Grid will display minimum product sales within each category.</p>
+<p><img src="../../../../images/img122842.png" alt="Aggr_Overview_GridAndInternalHigh"></p>
 </li>
 </ul>
 <h2 id="example-1---bestworst-sales-by-year">Example 1 - Best/Worst Sales by Year</h2>
@@ -120,7 +120,9 @@ For instance, the following function calculates sums of sales for each product w
 <p><img src="../../../../images/img122812.png" alt="Aggr_Example1_SalesByYear"></p>
 <p>To display sales by the best/worst months for each year, create a new <a href="../../work-with-data/creating-calculated-fields.html">calculated field</a> with the following expression.</p>
 <pre><code>Aggr(Sum([Sales]), GetYear([OrderDate]), GetMonth([OrderDate]))
-</code></pre><p>Drop this field (<em>Sales by Year/Month</em> in the image below) to the Values section and set its <a href="../../data-shaping/summarization.html">summary type</a> to <strong>Max</strong>. Then, drop this field to Values again and set its summary type to <strong>Min</strong>. The Chart will visualize sales by the best/worst months in a year.</p>
+
+</code></pre>
+<p>Drop this field (<em>Sales by Year/Month</em> in the image below) to the Values section and set its <a href="../../data-shaping/summarization.html">summary type</a> to <strong>Max</strong>. Then, drop this field to Values again and set its summary type to <strong>Min</strong>. The Chart will visualize sales by the best/worst months in a year.</p>
 <p><img src="../../../../images/img122813.png" alt="Aggr_Example1_SalesByMonths"></p>
 <h2 id="example-2---percent-of-total">Example 2 - Percent of Total</h2>
 <p>This example will demonstrate how to calculate a contribution of individual quarter sales to year sales.</p>
@@ -129,12 +131,16 @@ For instance, the following function calculates sums of sales for each product w
 <p>To calculate a contribution of each quarter to a year sales, do the following.</p>
 <ul>
 <li><p>Calculate totals for each year using the <strong>Aggr</strong> function by creating the following calculated field.</p>
-<pre><code>Aggr(Sum([Sales]), GetYear([OrderDate]))
-</code></pre><p>  Set the name of the created field to <em>Sales by Year</em>.</p>
+<pre><code>  Aggr(Sum([Sales]), GetYear([OrderDate]))
+
+</code></pre>
+<p>Set the name of the created field to <em>Sales by Year</em>.</p>
 </li>
 <li><p>Calculate a contribution of each quarter to year sales by creating the following calculated field.</p>
-<pre><code>Sum([Sales]) / Max([Sales by Year])
-</code></pre><p>  Name this field <em>Percent of Total</em> and drop it to <strong>Values</strong> to see the result.</p>
+<pre><code>  Sum([Sales]) / Max([Sales by Year])
+
+</code></pre>
+<p>Name this field <em>Percent of Total</em> and drop it to <strong>Values</strong> to see the result.</p>
 </li>
 </ul>
 <p><img src="../../../../images/img122822.png" alt="Aggr_Example2_SalesByQuarterYear_PercentOfTotal"></p>
@@ -144,7 +150,9 @@ For instance, the following function calculates sums of sales for each product w
 <p><img src="../../../../images/img122827.png" alt="Aggr_Example3_CohortAnalysis"></p>
 <p>The following expression determines the minimum order date (the first purchase date) per customer.</p>
 <pre><code>Aggr(Min(GetDateQuarterYear([OrderDate])), [CustomerID])
-</code></pre><p>Set the name of the created field to <em>Customer First Order</em> and drop this field to the <strong>Series</strong> section to see the result.</p>
+
+</code></pre>
+<p>Set the name of the created field to <em>Customer First Order</em> and drop this field to the <strong>Series</strong> section to see the result.</p>
 <p><img src="../../../../images/img122828.png" alt="Aggr_Example3_CohortAnalysis_Result"></p>
 <h2 id="example-4---customer-order-count">Example 4 - Customer Order Count</h2>
 <p>In this example, you will learn how to divide customers count by the number of orders they made.</p>
@@ -152,7 +160,9 @@ For instance, the following function calculates sums of sales for each product w
 <p><img src="../../../../images/img122830.png" alt="Aggr_Example4_CustomerOrderCount"></p>
 <p>The calculated field below evaluates the number of unique orders made by each customer.</p>
 <pre><code>Aggr(CountDistinct([OrderID]), [CustomerID])
-</code></pre><p>Set the name of this field to <em>Customer Order Count</em> and drop this field to arguments. Then, drop the <em>CustomerID</em> field to <strong>Values</strong> and change its <a href="../../data-shaping/summarization.html">summary type</a> to <strong>Count Distinct</strong>.</p>
+
+</code></pre>
+<p>Set the name of this field to <em>Customer Order Count</em> and drop this field to arguments. Then, drop the <em>CustomerID</em> field to <strong>Values</strong> and change its <a href="../../data-shaping/summarization.html">summary type</a> to <strong>Count Distinct</strong>.</p>
 <p><img src="../../../../images/img122829.png" alt="Aggr_Example4_CustomerOrderCount_Result"></p>
 <p>The Chart will show the number of customers that made a specific number of orders.</p>
 <h2 id="example-5---best-product-sales-by-year">Example 5 - Best Product Sales by Year</h2>
@@ -162,40 +172,47 @@ For instance, the following function calculates sums of sales for each product w
 <p>To implement this scenario, perform the following steps.</p>
 <ul>
 <li><p>Create the calculated field that will return product sales for individual years.</p>
-<pre><code>Aggr(Sum([Sales]), GetYear([OrderDate]), [ProductName])
-</code></pre><p>  Set its name to <em>Product Sales by Year</em>.</p>
+<pre><code>  Aggr(Sum([Sales]), GetYear([OrderDate]), [ProductName])
+
+</code></pre>
+<p>Set its name to <em>Product Sales by Year</em>.</p>
 </li>
 <li><p>Create the calculated field that will return maximum sales values.</p>
-<pre><code>Aggr(Max([Product Sales by Year]), GetYear([OrderDate]))
-</code></pre><p>  Set its name to <em>Max Product Sales by Year</em>.</p>
+<pre><code>  Aggr(Max([Product Sales by Year]), GetYear([OrderDate]))
+
+</code></pre>
+<p>Set its name to <em>Max Product Sales by Year</em>.</p>
 </li>
 <li><p>Finally, create a calculated field returning the name of the product with the best sales and a corresponding sales value.</p>
-<pre><code>Iif([Max Product Sales by Year] = [Product Sales by Year], [ProductName] + &#39; ($ &#39; + [Product Sales by Year] + &#39;)&#39;, null)
-</code></pre><p>  Specify the name as <em>Best Sales Product</em>. Then, drop this field to the <strong>Columns</strong> section to see the result.</p>
+<pre><code>  Iif([Max Product Sales by Year] = [Product Sales by Year], [ProductName] + ' ($ ' + [Product Sales by Year] + ')', null)
+
+</code></pre>
+<p>Specify the name as <em>Best Sales Product</em>. Then, drop this field to the <strong>Columns</strong> section to see the result.</p>
 </li>
 </ul>
 <p><img src="../../../../images/img122867.png" alt="Aggr_Example5_BestProductByYear_Result"></p>
+
 </article>
           </div>
-          
+
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/24.1/dashboard-for-desktop/articles/dashboard-designer/data-analysis/aggregations/intermediate-level-aggregations.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/fix-styles/dashboard-for-desktop/articles/dashboard-designer/data-analysis/aggregations/intermediate-level-aggregations.md/#L1" class="contribution-link">Edit this page</a>
                   </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-                <h5>In This Article</h5>
+                <h5>In this article</h5>
                 <div></div>
               </nav>
             </div>
           </div>
         </div>
       </div>
-      
+
       <footer>
         <div class="grad-bottom"></div>
         <div class="footer">
@@ -203,14 +220,14 @@ For instance, the following function calculates sums of sales for each product w
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
-            
+      Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
+      
           </div>
         </div>
       </footer>
     </div>
-    
-    <script type="text/javascript" src="../../../../../styles/docfx.vendor.js"></script>
+
+    <script type="text/javascript" src="../../../../../styles/docfx.vendor.min.js"></script>
     <script type="text/javascript" src="../../../../../styles/docfx.js"></script>
     <script type="text/javascript" src="../../../../../styles/main.js"></script>
   </body>

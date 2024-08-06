@@ -1,37 +1,29 @@
 ﻿<!DOCTYPE html>
 <!--[if IE]><![endif]-->
 <html>
-  
+
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Use Report Parameters | DevExpress End-User Documentation </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Use Report Parameters | DevExpress End-User Documentation ">
-    <meta name="generator" content="docfx 2.59.2.0">
-    
+    <meta name="generator" content="docfx ">
+  
     <link rel="shortcut icon" href="../../../../favicon.ico">
-    <link rel="stylesheet" href="../../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../../styles/docfx.vendor.min.css">
     <link rel="stylesheet" href="../../../../styles/docfx.css">
     <link rel="stylesheet" href="../../../../styles/main.css">
     <meta property="docfx:navrel" content="../../../../toc.html">
     <meta property="docfx:tocrel" content="../../../toc.html">
-    
-    
-    
-    <!-- Matomo Tag Manager -->
-    <script>
-      var _mtm = window._mtm = window._mtm || [];
-      _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
-      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-      g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
-    </script>
-    <!-- End Matomo Tag Manager -->
+  
+  
+  
   </head>
   <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
       <header>
-        
+
         <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
           <div class="container">
             <div class="navbar-header">
@@ -41,7 +33,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              
+
               <a class="navbar-brand" href="../../../../index.html">
                 <img id="logo" class="svg" src="../../../../logo.svg" alt="">
               </a>
@@ -55,7 +47,7 @@
             </div>
           </div>
         </nav>
-        
+
         <div class="subnav navbar navbar-default">
           <div class="container hide-when-search" id="breadcrumb">
             <ul class="breadcrumb">
@@ -65,7 +57,7 @@
         </div>
       </header>
       <div role="main" class="container body-content hide-when-search">
-        
+
         <div class="sidenav hide-when-search">
           <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
           <div class="sidetoggle collapse" id="sidetoggle">
@@ -82,22 +74,22 @@
 <h2 id="supported-featurescapabilities">Supported Features/Capabilities</h2>
 <ul>
 <li><p>Built-in parameter types (String, Date, Number, Boolean, and GUID)</p>
-<p>  <img src="../../../images/built-in-parameter-types.png" alt="Built-in parameter types"></p>
+<p><img src="../../../images/built-in-parameter-types.png" alt="Built-in parameter types"></p>
 </li>
 <li><p><a href="use-report-parameters/multi-value-report-parameters.html">Multi-value parameters</a> (filter report data against multiple criteria)</p>
-<p>  <img src="../../../images/parameter-editor-multiple-values.png" alt="Multi-value report parameters"></p>
+<p><img src="../../../images/parameter-editor-multiple-values.png" alt="Multi-value report parameters"></p>
 </li>
 <li><p><a href="use-report-parameters/cascading-report-parameters.html">Cascading parameters</a> (filter a parameter’s value list against selections made in a different parameter)</p>
-<p>  <img src="../../../images/cascadingparametersresult124540.png" alt="Cascading report parameters"></p>
+<p><img src="../../../images/cascadingparametersresult124540.png" alt="Cascading report parameters"></p>
 </li>
 <li><p><a href="use-report-parameters/date-range-report-parameters.html">Date-range parameters</a> (filter report data against a specified time period)</p>
-<p>  <img src="../../../images/date-range-report-parameters.png" alt="Date-range report parameters"></p>
+<p><img src="../../../images/date-range-report-parameters.png" alt="Date-range report parameters"></p>
 </li>
 <li><p><a href="use-report-parameters/report-parameters-with-predefined-static-values.html">Static parameter values</a> (create pre-defined (static) parameter value lists)</p>
-<p>  <img src="../../../images/static-parameter-values.png" alt="Static parameter values"></p>
+<p><img src="../../../images/static-parameter-values.png" alt="Static parameter values"></p>
 </li>
 <li><p><a href="use-report-parameters/report-parameters-with-predefined-dynamic-values.html">Dynamic parameter values</a> (load parameter values from a data source dynamically)</p>
-<p>  <img src="../../../images/dynamic-parameter-values.png" alt="Dynamic parameter values"></p>
+<p><img src="../../../images/dynamic-parameter-values.png" alt="Dynamic parameter values"></p>
 </li>
 </ul>
 <p>Refer to the following documentation section for more details: <a href="use-report-parameters/create-a-report-parameter.html">Create a Report Parameter</a>.</p>
@@ -105,33 +97,34 @@
 <p>Once you <a href="use-report-parameters/create-a-report-parameter.html">create</a> a parameter, you can reference it in your report’s <a href="shape-report-data/filter-data/filter-data-at-the-report-level.html">filter string</a> to filter underlying report data.</p>
 <p><img src="../../../images/reference-parameter-in-report-filter-string.png" alt="Reference parameter in report filter string"></p>
 <p>You can also reference the parameter in a report control’s <a href="use-expressions.html">expression</a> or its <strong>Text</strong> property.</p>
-<p><img src="../../../images/report-parameters-reference-in-expression.png" alt="Reference report parameter in a control&#39;s expression"></p>
+<p><img src="../../../images/report-parameters-reference-in-expression.png" alt="Reference report parameter in a control's expression"></p>
 <p>When used in this manner, you can filter data displayed within an individual report control (such as <a href="use-report-elements/use-basic-report-controls/label.html">Label</a>) conditionally.</p>
 <p>You can also bind data source parameters to report parameters and filter data at the data source level. Refer to the following help topic for more information: <a href="use-report-parameters/reference-report-parameters.html">Reference Report Parameters</a>.</p>
 <h2 id="specify-parameter-values">Specify Parameter Values</h2>
 <p>Available report parameters appear within a report’s <strong>Print Preview</strong> window (inside the <a href="use-report-parameters/parameters-panel.html">Parameters panel</a>). Use this panel to specify desired parameter values:</p>
 <p><img src="../../../images/parameters-panel.png" alt="Specify parameter values in the Parameters Panel"></p>
+
 </article>
           </div>
-          
+
           <div class="hidden-sm col-md-2" role="complementary">
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/DevExpress/dotnet-eud/blob/24.1/reporting-for-desktop/articles/report-designer/report-designer-for-winforms/use-report-parameters.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/DevExpress/dotnet-eud/blob/fix-styles/reporting-for-desktop/articles/report-designer/report-designer-for-winforms/use-report-parameters.md/#L1" class="contribution-link">Edit this page</a>
                   </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
-                <h5>In This Article</h5>
+                <h5>In this article</h5>
                 <div></div>
               </nav>
             </div>
           </div>
         </div>
       </div>
-      
+
       <footer>
         <div class="grad-bottom"></div>
         <div class="footer">
@@ -139,14 +132,14 @@
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
-            
+      Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
+      
           </div>
         </div>
       </footer>
     </div>
-    
-    <script type="text/javascript" src="../../../../styles/docfx.vendor.js"></script>
+
+    <script type="text/javascript" src="../../../../styles/docfx.vendor.min.js"></script>
     <script type="text/javascript" src="../../../../styles/docfx.js"></script>
     <script type="text/javascript" src="../../../../styles/main.js"></script>
   </body>
