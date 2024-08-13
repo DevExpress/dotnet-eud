@@ -38640,6 +38640,46 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "interface-elements-for-desktop/images/spreadsheet_applycolorfilter.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-desktop/images/spreadsheet_applycolorfilter.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "interface-elements-for-desktop/images/spreadsheetcontrol_filter-color-dialog.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-desktop/images/spreadsheetcontrol_filter-color-dialog.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "interface-elements-for-desktop/images/spreadsheetcontrol_sort-color-dialog.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-desktop/images/spreadsheetcontrol_sort-color-dialog.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "interface-elements-for-desktop/images/spreadsheetcontrol_sort-filter-menu.png",
+      "output": {
+        "resource": {
+          "relative_path": "interface-elements-for-desktop/images/spreadsheetcontrol_sort-filter-menu.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "interface-elements-for-desktop/images/win-pivot-fixed-columns-pin-column.png",
       "output": {
         "resource": {

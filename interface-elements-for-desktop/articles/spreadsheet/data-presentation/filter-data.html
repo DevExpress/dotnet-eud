@@ -78,14 +78,14 @@
 <p>You can filter your data by multiple columns. Filters are <strong>additive</strong>: each new filter is applied in addition to the existing filters and further reduces your data.</p>
 </div>
 <ul>
-<li><a href="#filtervalues">Filter by Values</a></li>
-<li><a href="#textfilter">Text Filter</a></li>
-<li><a href="#numberfilter">Number Filter</a></li>
-<li><a href="#datefilter">Date and Time Filter</a></li>
-<li><a href="#reapplyfilter">Reapply a Filter</a></li>
-<li><a href="#clearfilter">Clear a Filter</a></li>
+<li><a href="#filter-by-values">Filter by Values</a></li>
+<li><a href="#text-filter">Text Filter</a></li>
+<li><a href="#number-filter">Number Filter</a></li>
+<li><a href="#date-and-time-filter">Date and Time Filter</a></li>
+<li><a href="#reapply-a-filter">Reapply a Filter</a></li>
+<li><a href="#clear-a-filter">Clear a Filter</a></li>
 </ul>
-<h2 id="filter-by-values"><a name="filtervalues"></a>Filter by Values</h2>
+<h2 id="filter-by-values">Filter by Values</h2>
 <p>To filter your data by a list of values, do the following.</p>
 <ol>
 <li><p>Click the arrow <img src="../../../images/img25500.png" alt="Spreadsheet_FilterAndSortArrow"> in the header of the column containing the values you wish to filter.</p>
@@ -97,7 +97,7 @@
 <p><img src="../../../images/img25626.png" alt="Spreadsheet_AutoFilterDialog"></p>
 </li>
 </ol>
-<h2 id="text-filter"><a name="textfilter"></a>Text Filter</h2>
+<h2 id="text-filter">Text Filter</h2>
 <p>To apply the text filter, do the following.</p>
 <ol>
 <li><p>Click the arrow <img src="../../../images/img25500.png" alt="Spreadsheet_FilterAndSortArrow"> in the header of the column containing text values you wish to filter.</p>
@@ -108,14 +108,14 @@
 <li><p>In the invoked <strong>Custom AutoFilter</strong> dialog specify the filter criterion.</p>
 <p><img src="../../../images/img25592.png" alt="Spreadsheet_CustomTextFilter"></p>
 <p>You can also specify the additional filter criterion using the <strong>AND</strong> or <strong>OR</strong> logical operator to combine the conditions.</p>
-<p>To make your filter criterion more flexible, use the <strong>wildcard characters</strong>. The asterisk <strong>*</strong> matches any number of characters, while the question mark <strong>?</strong> represents a single character. For example, to display all the values that start with the letter &quot;<strong>C</strong>&quot;, you can either use the <strong>Begins With</strong> operator as shown in the image above, or select the <strong>Equals</strong> operator and type &quot;<strong>C*</strong>&quot; in the box on the right.</p>
+<p>To make your filter criterion more flexible, use the <strong>wildcard characters</strong>. The asterisk <strong>*</strong> matches any number of characters, while the question mark <strong>?</strong> stands for a single character. For example, to display all the values that start with the letter &quot;<strong>C</strong>&quot;, you can either use the <strong>Begins With</strong> operator as shown in the image above, or select the <strong>Equals</strong> operator and type &quot;<strong>C*</strong>&quot; in the box on the right.</p>
 <div class="TIP">
 <h5>Tip</h5>
 <p>To filter values containing a specific character, such as the asterisk, question mark or tilde, put the tilde (~) before it.</p>
 </div>
 </li>
 </ol>
-<h2 id="number-filter"><a name="numberfilter"></a>Number Filter</h2>
+<h2 id="number-filter">Number Filter</h2>
 <p>To apply the number filter, do the following.</p>
 <ol>
 <li><p>Click the arrow <img src="../../../images/img25500.png" alt="Spreadsheet_FilterAndSortArrow"> in the header of the column containing numeric values you wish to filter.</p>
@@ -128,31 +128,41 @@
 <p>You can also specify the additional filter criterion using the <strong>AND</strong> or <strong>OR</strong> logical operator to combine the conditions.</p>
 </li>
 </ol>
-<h2 id="date-and-time-filter"><a name="datefilter"></a>Date and Time Filter</h2>
+<h2 id="date-and-time-filter">Date and Time Filter</h2>
 <p>To apply the date filter, do the following.</p>
 <ol>
 <li><p>Click the arrow <img src="../../../images/img25500.png" alt="Spreadsheet_FilterAndSortArrow"> in the header of the column containing dates you wish to filter.</p>
 </li>
-<li><p>Point to <strong>Date Filters</strong> and select one of the built-in dynamic filter types to display dates that fall within a specified time period (next, this or last week, month, year, etc.)...</p>
+<li><p>Point to <strong>Date Filters</strong> and select one of the built-in dynamic filter types to display dates that fall within a specified time period (next, this or last week, month, year, etc.).</p>
 <p><img src="../../../images/img25646.png" alt="Spreadsheet_DynamicDateFilter"></p>
-<p>... or select the <strong>Before</strong>, <strong>After</strong>, <strong>Equals</strong> or <strong>Between</strong> item to invoke the <strong>Custom AutoFilter</strong> dialog and find dates that are before, after or equal to the specified date, or between two dates.</p>
+</li>
+<li><p>Alternatively, select the <strong>Before</strong>, <strong>After</strong>, <strong>Equals</strong> or <strong>Between</strong> item to invoke the <strong>Custom AutoFilter</strong> dialog. Find dates that are before, after or equal to the specified date, or between two dates.</p>
 <p><img src="../../../images/img25635.png" alt="Spreadsheet_CustomDateFilter"></p>
 </li>
 </ol>
-<h2 id="reapply-a-filter"><a name="reapplyfilter"></a>Reapply a Filter</h2>
-<p>To reapply a filter after you change your data, click a cell in the range or table to which the filter is applied, and then on the <strong>Data</strong> tab, in the <strong>Sort &amp; Filter</strong> group, click the <strong>Reapply</strong> button.</p>
+<h2 id="color-filter">Color Filter</h2>
+<p>If cells in the selected column use different styles, the <strong>Filter by Color</strong> option is available.</p>
+<ol>
+<li>Click the arrow <img src="../../../images/img25500.png" alt="Spreadsheet_FilterAndSortArrow"> in the header of the column containing dates you wish to filter.</li>
+<li>Choose <strong>Cell colors…</strong> to apply a background color or pattern filter, and <strong>Font colors…</strong> to apply a font filter.
+<img src="../../../images/spreadsheet_applycolorfilter.png" alt="Spreadsheet winforms apply color filter"></li>
+<li>When you select the required option, a dialog with available colors appears. Select the target color and click <strong>OK</strong>.
+<img src="../../../images/spreadsheetcontrol_filter-color-dialog.png" alt="spreadsheet winforms color filter dialog"></li>
+</ol>
+<h2 id="reapply-a-filter">Reapply a Filter</h2>
+<p>To reapply a filter after you change your data, do the following:</p>
+<ol>
+<li>Click a cell in the range or table to which the filter is applied.</li>
+<li>On the <strong>Data</strong> tab, in the <strong>Sort &amp; Filter</strong> group, click the <strong>Reapply</strong> button.</li>
+</ol>
 <p><img src="../../../images/img25637.png" alt="Spreadsheet_ReapplyFilter"></p>
-<h2 id="clear-a-filter"><a name="clearfilter"></a>Clear a Filter</h2>
-<p>To remove a filter, do the following.</p>
-<ul>
-<li><p>To remove a filter from a specific column, click the <strong>Filter</strong> button <img src="../../../images/img25636.png" alt="Spreadsheet_AppliedFilterIcon"> in the column header, and then select the <strong>Clear Filter From 'Column Name'</strong> item in the drop-down menu.</p>
+<h2 id="clear-a-filter">Clear a Filter</h2>
+<p>You can remove a filter from a column or remove all filters.</p>
+<p>To remove a filter from a specific column, click the <strong>Filter</strong> button <img src="../../../images/img25636.png" alt="Spreadsheet_AppliedFilterIcon"> in the column header, and then select the <strong>Clear Filter From 'Column Name'</strong> item in the drop-down menu.</p>
 <p><img src="../../../images/img25633.png" alt="Spreadsheet_ClearFilterForColumn"></p>
-</li>
-<li><p>To clear all the specified filters and display the hidden rows, on the <strong>Data</strong> tab, in the <strong>Sort &amp; Filter</strong> group, click the <strong>Clear</strong> button.</p>
+<p>To clear all the specified filters and display the hidden rows, on the <strong>Data</strong> tab, in the <strong>Sort &amp; Filter</strong> group, click the <strong>Clear</strong> button.</p>
 <p><img src="../../../images/img25634.png" alt="Spreadsheet_ClearFilterButton"></p>
-</li>
-</ul>
-<p>To disable the filtering functionality, click a cell in the range or table, and then on the <strong>Data</strong> tab, in the <strong>Sort &amp; Filter</strong> group, click the <strong>Filter</strong> button. The drop-down arrows will disappear from the column headers and all the specified filters will be removed.</p>
+<p>To disable the filtering functionality, click a cell in the range or table, and then on the <strong>Data</strong> tab, in the <strong>Sort &amp; Filter</strong> group, click the <strong>Filter</strong> button. The drop-down arrows disappear from the column headers and all the specified filters are removed.</p>
 
 </article>
           </div>
