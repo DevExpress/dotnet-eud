@@ -12,17 +12,15 @@ If you search for **Developer Documentation with API Reference**, refer to [docs
 ## Document Format and Supported Output Types
 Documents in this repository are written in markdown. You can manually copy the information to your own help file according to our [license](LICENSE.md).
 
-The repository also uses [DocFX](https://dotnet.github.io/docfx/) to convert this file from a set of topics to an HTML website or a PDF file.
+The repository uses [DocFX](https://dotnet.github.io/docfx/) to convert these files from a set of markdown topics to an HTML website or a PDF file.
 
 You can make the following changes to the documentation, or skip this step if you want to reuse the end-user documentation as is:
    
-- remove unnecessary files;
-- add new documents to your application;
-- change screenshots to match your app's UI;
-- specify logo and site titles: [Template Metadata](https://dotnet.github.io/docfx/docs/template.html?q=breadcrumbs&tabs=modern#template-metadata);
-- create a [custom DocFX template](https://dotnet.github.io/docfx/tutorial/howto_create_custom_template.html).
-
-> You should update the *toc.yml* ([table-of-content](https://dotnet.github.io/docfx/tutorial/intro_toc.html)) files if you added or removed topics.
+- Remove unnecessary files.
+- Add new documents to your application. You should update the *toc.yml* ([table-of-content](https://dotnet.github.io/docfx/docs/table-of-contents.html)) files if you added or removed topics.
+- Change screenshots to match your app's UI.
+- Specify logo and site titles: [Template Metadata](https://dotnet.github.io/docfx/docs/template.html#template-metadata).
+- Create a [custom DocFX template](https://dotnet.github.io/docfx/tutorial/howto_create_custom_template.html).
 
 ## View Content
 Do one of the following to view the End-User Documentation content:
