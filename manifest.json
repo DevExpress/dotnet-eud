@@ -1,7 +1,18 @@
 {
+  "sitemap": {
+    "baseUrl": "https://devexpress.github.io/"
+  },
   "source_base_path": "D:/a/dotnet-eud/dotnet-eud",
   "xrefmap": "xrefmap.yml",
   "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
     {
       "type": "Conceptual",
       "source_relative_path": "dashboard-for-desktop/articles/dashboard-designer.md",
