@@ -1,86 +1,137 @@
 # DevExpress End-User Documentation
 
-This article explains how to clone DevExpress End-User documentation sources and how to create your own documentation websites and help files for projects based on DevExpress technologies. You can also find a link to a sample pre-built website.
+> By accessing this repository, you agree to the terms of the [DevExpress End-User Documentation License Agreement](LICENSE.md).
 
-> For **Developer Documentation with API Reference** see [https://docs.devexpress.com](https://docs.devexpress.com).
+Learn how to clone DevExpress End-User documentation and use sources as a white-labeled documentation. Create your own documentation websites and PDF files for projects based on DevExpress technologies. You can also review a sample pre-built website.
 
-## The Scope
-DevExpress products for WinForms and ASP.NET WebForms/MVC. 
+End-User Documentation contains information about [WinForms](https://www.devexpress.com/products/net/controls/winforms/) and ASP.NET [WebForms](https://www.devexpress.com/products/net/controls/asp/)/[MVC](https://www.devexpress.com/products/net/controls/asp/mvc/) products, as well as [Reporting](https://www.devexpress.com/subscriptions/reporting/) and [Business Intelligence Dashboard](https://www.devexpress.com/products/net/dashboard/).
 
-## Licensing
-By accessing this repository, you agree to the terms of the [DevExpress End-User Documentation License Agreement](LICENSE.md).
+If you search for **Developer Documentation with API Reference**, refer to [docs.devexpress.com](https://docs.devexpress.com).
 
-## How to View Content
-Do one of the following to view the End-User Documentation content:
-
-1. Browse this repository's content directly. Start with [index.md](index.md).
-2. View the sample pre-built website at [devexpress.github.io/dotnet-eud](https://devexpress.github.io/dotnet-eud/).
-3. [Build PDF files](#build-printer-friendly-pdf-files).
 
 ## Document Format and Supported Output Types
-Documents in this repository are written in markdown. You can manually copy the information to your own help file.
+Documents in this repository are written in markdown. You can manually copy the information to your own help file according to our [license](LICENSE.md).
 
-The repository also includes a [docfx.json](docfx.json) file. You can use [DocFX](https://dotnet.github.io/docfx/) and [wkhtmltopdf](https://github.com/wkhtmltopdf/wkhtmltopdf) to convert this file from a set of topics to an HTML website or a PDF file.   
+The repository also uses [DocFX](https://dotnet.github.io/docfx/) to convert this file from a set of topics to an HTML website or a PDF file.
 
-## Build an HTML Website
-Follow the steps below to create a documentation website for your application.
+You can make the following changes to the documentation, or skip this step if you want to reuse the end-user documentation as is:
+   
+- remove unnecessary files;
+- add new documents to your application;
+- change screenshots to match your app's UI;
+- specify logo and site titles: [Template Metadata](https://dotnet.github.io/docfx/docs/template.html?q=breadcrumbs&tabs=modern#template-metadata);
+- create a [custom DocFX template](https://dotnet.github.io/docfx/tutorial/howto_create_custom_template.html).
 
-1. Download and install the [latest version of DocFX](https://github.com/dotnet/docfx/releases). 
-1. Copy the repository to your computer and checkout the branch corresponding to the version of DevExpress controls your application uses. Do not use the **master** branch because it represents the version currently under development.
-    ```
-    git clone https://github.com/DevExpress/dotnet-eud.git
-    git switch 20.1
-    ```
-    If you do not have [Git](https://git-scm.com/) installed, use the GitHub web interface to select the branch and then download and extract the ZIP archive.
+> You should update the *toc.yml* ([table-of-content](https://dotnet.github.io/docfx/tutorial/intro_toc.html)) files if you added or removed topics.
+
+## View Content
+Do one of the following to view the End-User Documentation content:
+
+1. Browse this repository's content directly: [index.md](index.md)
+1. View the sample pre-built website: [devexpress.github.io/dotnet-eud](https://devexpress.github.io/dotnet-eud/)
+1. [Build an HTML Website](#build-an-html-website)
+1. [Build PDF files](#build-pdf-files)
+
+### Build an HTML Website
+
+> Prerequisites
+> - Familiarity with the command line
+> - Install [.NET SDK](https://dotnet.microsoft.com/en-us/download) 6.0 or higher
+> - [Git](https://git-scm.com/)
+
+Make sure you have [.NET SDK](https://dotnet.microsoft.com/en-us/download) installed, then open a terminal and enter the following command to install the latest DocFX:
+
+```bash
+dotnet tool update -g docfx
+```
+
+> You can also download the latest version of DocFX directly: [releases](https://github.com/dotnet/docfx/releases).
+
+Copy the repository to your computer and checkout the branch corresponding to the version of DevExpress controls your application uses. 
+
+Do not use the `master` branch because it is the version currently under development:
+
+```
+git clone https://github.com/DevExpress/dotnet-eud
+git switch 20.1
+```
+
+Once you switched to a version-based branch, you can make changes to the documentation.
+
+To preview changes, open a console window and call the `docfx build` command with the path to *docfx.json* in the downloaded _dotnet-eud_ repository. DocFX will place the generated documentation content into the *\_site* folder. Add `--serve` to preview the generated website at http://localhost:8080 once the build process is complete. 
+
+```bash
+docfx build D:/dotnet-eud/docfx.json --serve
+```
+Docfx produces static HTML files under the _site folder ready for publishing to any static site hosting servers. Deploy the created documentation to a web server or browse the documentation directly from local file system. To begin, you can refer to the DocFX documentation: [Publish to GitHub Pages](https://dotnet.github.io/docfx/index.html#publish-to-github-pages).
+
+### Build PDF Files
+If your end users require a printed version, you can build a PDF file.
+
+You can configure PDF file generation in several ways.
+
+The resulted PDF file will be located near *toc.yml* in the *_site* folder.
+
+#### Build locally
+
+Open the console and call  `docfx pdf D:\test-eud\docfx.json`. You need a succeeded build before you proceed.
+
+#### docfx.json
+
+Include the `pdf` command to _docfx.json_. 
+
+```json
+{
+  "build": {
+    "fileMetadata":{
+      "pdf": true
+    }
+  }
+}
+```
+
+You can generate PDF only for a specific _toc.yml_:
   
-    ![Download ZIP](https://user-images.githubusercontent.com/20167812/29712204-4ffaee9e-89a1-11e7-8a0e-3ff0464adda4.png)
-1. You can make the following changes to the documentation, or skip this step if you want to reuse the end-user documentation as is:
-   
-   - remove unnecessary files;
-   - add new documents to your application;
-   - change screenshots to match your app's UI;
-   - create a [custom DocFX template](https://dotnet.github.io/docfx/tutorial/howto_create_custom_template.html).
-   
-   > You should update the *toc.yml* ([table-of-content](https://dotnet.github.io/docfx/tutorial/intro_toc.html)) files if you added or removed topics.
-1. Open a console window, change the current directory to the repository root folder and call the DocFX executable with the following parameters: *build* and the path to *docfx.json* in the downloaded _dotnet-eud_ repository. DocFX will place the generated documentation content into the *\_site* folder. Add the `--serve` switch to preview the generated website at http://localhost:8080 once the build process is complete. 
-    ```
-    docfx.exe build ../dotnet-eud/docfx.json --serve
-    ```
-1. Deploy the created documentation to a web server or browse the documentation directly from local file system. Since DocFX creates static HTML files only, no additional deployment or configuration steps are required.
+```json
+{
+  "build": {
+    "fileMetadata":{
+      "pdf": {
+        "dashboard-for-web/**/toc.yml": true
+      }
+    }
+  }
+}
+```
 
-## Build Printer-Friendly PDF Files
-If your end users require a printed version, you can build a PDF file like this:
+#### toc.yml
 
-1. Ensure that you can successfully [build a website with DocFX](#build-your-own-documentation-website).
-1. Download and install [wkhtmltopdf](https://wkhtmltopdf.org/downloads.html).
-1. In the folder with `docfx.exe`, open a console window and add the `wkhtmltopdf` executable path to the `%PATH%` environment variable:
+Include the `pdf` command to _toc.yml_ to generate PDF according to this table of content: 
 
-    ```
-    set PATH=%PATH%;C:\Program Files\wkhtmltopdf\bin
-    ```
+```yaml
+pdf: true
+items:
+- name: Reporting for Web
+  href: reporting-for-web/
+  topicHref: reporting-for-web/articles/index.md
+```
 
-1. Build pdf:
+Refer to the following article for detailed instructions: [Create PDF Files](https://dotnet.github.io/docfx/docs/pdf.html).
 
-    ```
-    docfx.exe pdf ../dotnet-eud/docfx.json
-    ```
-
-This generates a *_pdf* subfоlder with a PDF file for each included table-of-contents file. Note that this is a time-consuming process.
 
 ## Troubleshooting
 
 Below are the common issues you can face when building this repository's documentation. 
+
+* #### The build failed with errors/warnings
+
+  Refer to build output to find the cause of the problem.
 
 * #### The build process fails with the *System.IO.PathTooLongException* exception
   Reduce your working directory's full path (move the repository closer to a drive root).
 
   *See also:* https://github.com/dotnet/docfx/issues/156
   
-* #### The *wkhtmltopdf is a prerequisite when generating a PDF* error occurs when creating a PDF
-  Ensure that [wkhtmltopdf](https://wkhtmltopdf.org/downloads.html) is installed and its executable path is correctly added to the *%PATH%* environment variable.
-
-  *See also:* [Generate PDF Documentation](http://dotnet.github.io/docfx/tutorial/walkthrough/walkthrough_generate_pdf.html)
- 
 * #### The table of contents is not displayed when browsing the generated documentation from the file system
   Your browser security configuration may restrict executing the JavaScript code that accesses your local files (the table of contents is in a separate *toc.html* file when using the [default](https://github.com/dotnet/docfx/tree/dev/src/docfx.website.themes/default) DocFX template). In this case, you can use the [statictoc](https://github.com/dotnet/docfx/tree/dev/src/docfx.website.themes/statictoc) template instead. To switch to this template, add `--template statictoc` to the docfx.exe parameters:
     ```
@@ -90,7 +141,7 @@ Below are the common issues you can face when building this repository's documen
   
   > We recommend you to use the `--serve` DocFX switch to preview documentation, and then share it with end users via a web server instead of browsing the file system.
 
-If your issue is not listed, you can [submit a new issue to this repository](https://github.com/DevExpress/dotnet-eud/issues/new) or contact us via the [DevExpress Support Center](https://www.devexpress.com/Support/Center/). You can search the [DocFX issues list](https://github.com/dotnet/docfx/issues), or try building the [docfx\-seed](https://github.com/docascode/docfx-seed) sample documentation project to check if your issue is specific to this repository.
+If your issue is not listed, you can [submit a new issue to this repository](https://github.com/DevExpress/dotnet-eud/issues/new) or contact us via the [DevExpress Support Center](https://supportcenter.devexpress.com/ticket/create). You can search the [DocFX issues list](https://github.com/dotnet/docfx/issues), or try building the [docfx-seed](https://github.com/docascode/docfx-seed) sample documentation project to check if your issue is specific to this repository.
 
 ## Versions 17.1 and Earlier
 
