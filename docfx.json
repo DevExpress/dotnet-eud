@@ -3,87 +3,53 @@
     "content": [
       {
         "files": [
-          "dashboard-for-desktop/**/*.{md,yml}",
-          "dashboard-for-web/**/*.{md,yml}",
-          "interface-elements-for-desktop/**/*.{md,yml}",
-          "interface-elements-for-web/**/*.{md,yml}",
-          "reporting-for-desktop/**/*.{md,yml}",
-          "reporting-for-web/**/*.{md,yml}",
-          "toc.yml",
-          "index.md"
-        ],
+            "dashboard-for-desktop/**/*.{md,yml}",
+            "dashboard-for-web/**/*.{md,yml}",
+            "interface-elements-for-desktop/**/*.{md,yml}",
+            "interface-elements-for-web/**/*.{md,yml}",
+            "reporting-for-desktop/**/*.{md,yml}",
+            "reporting-for-web/**/*.{md,yml}",
+            "toc.yml",
+            "index.md"
+          ],
         "exclude": [
           "_*/**",
-          "obj/**"
         ]
       }
     ],
     "resource": [
       {
         "files": [
-          "favicon.ico",
-          "logo.svg",
-          "dashboard-for-desktop/images/**",
-          "dashboard-for-web/images/**",
-          "interface-elements-for-desktop/images/**",
-          "interface-elements-for-web/images/**",
-          "reporting-for-desktop/images/**",
-          "reporting-for-web/images/**"
-        ],
-        "exclude": [
-          "obj/**",
-          "_*/**"
-        ]
+            "favicon.ico",
+            "logo.svg",
+            "dashboard-for-desktop/images/**",
+            "dashboard-for-web/images/**",
+            "interface-elements-for-desktop/images/**",
+            "interface-elements-for-web/images/**",
+            "reporting-for-desktop/images/**",
+            "reporting-for-web/images/**"
+          ],
+          "exclude": [
+            "_*/**"
+          ]
       }
     ],
-    "dest": "_site",
+    "output": "_site",
     "template": [
-		"default",
-		"./.template"
-	],
+      "default",
+      "modern",
+      "./.template"
+    ],
+    "sitemap": {
+      "baseUrl": "https://devexpress.github.io/"
+    },
     "globalMetadata": {
-        "_appTitle": "DevExpress End-User Documentation" ,
-        "_appFaviconPath": "favicon.ico",
-        "_appFooter": "Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.",
-        "_appLogoPath": "logo.svg"
-    }
-  },
-  "pdf": {
-    "content": [
-      {
-        "files": [
-          "dashboard-for-desktop/**/*.{md,yml}",
-          "dashboard-for-web/**/*.{md,yml}",
-          "interface-elements-for-desktop/**/*.{md,yml}",
-          "interface-elements-for-web/**/*.{md,yml}",
-          "reporting-for-desktop/**/*.{md,yml}",
-          "reporting-for-web/**/*.{md,yml}"
-        ],
-        "exclude": [
-          "_*/**",
-          "obj/**"
-        ]
-      }
-    ],
-    "resource": [
-      {
-        "files": [
-          "dashboard-for-desktop/images/**",
-          "dashboard-for-web/images/**",
-          "interface-elements-for-desktop/images/**",
-          "interface-elements-for-web/images/**",
-          "reporting-for-desktop/images/**",
-          "reporting-for-web/images/**"
-        ],
-        "exclude": [
-          "obj/**",
-          "_*/**"
-        ]
-      }
-    ],
-    "dest": "_pdf",
-    "wkhtmltopdf": {
-      "additionalArguments": "--enable-local-file-access"
+      "_appName": "DevExpress EUD",
+      "_appTitle": "DevExpress End-User Documentation",
+      "_appFaviconPath": "favicon.ico",
+      "_appFooter": "Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.",
+      "_appLogoPath": "logo.svg",
+      "_enableSearch": true
     }
   }
 }
