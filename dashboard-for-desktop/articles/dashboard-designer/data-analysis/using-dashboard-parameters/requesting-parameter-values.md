@@ -12,6 +12,6 @@ To invoke the **Dashboard Parameters** dialog, click the **Parameters** button i
 
 The following image shows how to invoke the **Dashboard Parameters** dialog and change the parameter value:
 
-![Dashboard Parameters Dialog in WinForms](~/images/dashboard-parameters-dialog-win.gif)
+![Dashboard Parameters Dialog in WinForms](../../../../images/dashboard-parameters-dialog-win.gif)
 
 To reset changes to the default values, click the **Reset** button.

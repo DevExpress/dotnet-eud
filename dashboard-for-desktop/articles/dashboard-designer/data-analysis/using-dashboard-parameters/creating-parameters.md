@@ -13,11 +13,11 @@ To create dashboard parameters in the Dashboard Designer, follow the steps below
 
 1. Click the **Parameters** button from the **Dashboard** page group on the Ribbon's **Home** page.
 	
-	![Ribbon - Parameters Button](~/images/parameters_addparameterbutton_ribbon21711.png)
+	![Ribbon - Parameters Button](../../../../images/parameters_addparameterbutton_ribbon21711.png)
 
 2. In the invoked dialog, click the **Add** button to create a dashboard parameter.
 	
-	![Dashboard Parameters Dialog - Add Parameters](~/images/parameters_parametersdialog21716.png)
+	![Dashboard Parameters Dialog - Add Parameters](../../../../images/parameters_parametersdialog21716.png)
 
 3. Specify the parameter's settings and click **OK** to save the created parameter.
 
@@ -27,13 +27,19 @@ To create dashboard parameters in the Dashboard Designer, follow the steps below
 
 Specifies the parameter name.
 
-[!include[dashboard-parameters-name-rules](~/templates/dashboard-parameters-name-rules.md)]
+When you create and modify parameter names, follow the rules below:
+
+* A name can contain letters, numbers, and underscores.
+* A name cannot contain spaces.
+* A name cannot be an empty string.
+* The dashboard cannot contain parameters with the same name.
+* Names are case-sensitive. For example, you can create the names _Parameter_ and _PARAMETER_ .
 
 ### Description
 
 Specifies the parameter description displayed in the **Parameter** column of the [Dashboard Parameters](requesting-parameter-values.md) dialog.
 
-![Dashboard Parameters Dialog - Parameter Description](~/images/dashboard-parameter-description-win.png)
+![Dashboard Parameters Dialog - Parameter Description](../../../../images/dashboard-parameter-description-win.png)
 	
 ### Visible
 
@@ -47,7 +53,10 @@ Specifies whether a null value can be passed as a parameter value.
 
 Specifies whether multi-selection is enabled for the current parameter.
 
-[!include[allow-multi-select-limitation-parameters-win](~/templates/allow-multi-select-limitation-parameters-win.md)]
+The following limitations apply to parameters with multi-selection enabled:
+
+* Use the **Is any of** or **Is none of** operators to pass a multi-select parameter to a filter criteria or to the Expression format condition.
+* Use the **In** or **Not In** operators to pass a multi-select parameter to a calculated field expression.
 
 ### Select All Values
 
@@ -84,7 +93,7 @@ Specifies the parameter's look-up settings.
 	
 Select the option from the **Look-Up Settings** drop-down list.
 
-![Parameters Dialog - Look-Up Settings](~/images/parameters_parametersdialog_lookupsettings21718.png)
+![Parameters Dialog - Look-Up Settings](../../../../images/parameters_parametersdialog_lookupsettings21718.png)
 
 The following **Look-Up Settings** are available in the WinForms Dashboard:
 
@@ -94,7 +103,7 @@ An end user can specify the parameter value in the [Dashboard Parameters](reques
 
 You can set the default value for the parameter in the parameter setting:
 
-![Dashboard Parameter Look-Up Settings - No Look-Up](~/images/parameters_lookupsettings_nolookup21722.png)
+![Dashboard Parameter Look-Up Settings - No Look-Up](../../../../images/parameters_lookupsettings_nolookup21722.png)
 
 #### Static List
 
@@ -102,14 +111,14 @@ An end user selects a parameter value from a static list.
 
 To add predefined parameter values, click the ellipsis button in the parameter settings:
 	
-![Dashboard Parameters Look-Up Settings - Static List](~/images/parameters_lookupsettings_static21723.png)
+![Dashboard Parameters Look-Up Settings - Static List](../../../../images/parameters_lookupsettings_static21723.png)
 
 
 #### Dynamic List 
 
 An end user selects a parameter value defined in a data source.
 	
-![Dashboard Parameters Look-Up Settings - Dynamic List](~/images/parameters_lookupsettings_dynamic21842.png)
+![Dashboard Parameters Look-Up Settings - Dynamic List](../../../../images/parameters_lookupsettings_dynamic21842.png)
 
 >[!TIP]
 >You can also create cascading parameters in the Dashboard Designer. For more information, refer to the following topic: [Cascading Parameters](create-cascading-parameters.md).

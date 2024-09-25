@@ -8,19 +8,18 @@ legacyId: 16523
 This topic describes how to reference a [dashboard parameter](creating-parameters.md) in [condition format expressions](#conditional-formatting), [calculated fields](#calculated-fields), and [window calculations](#window-calculations). You can also bind a dashboard parameter to a query parameter to filter the SQL data source dynamically.
 
 ## SQL Queries and Stored Procedures
-You can filter the SQL data sources dynamically if you bind a [query parameter](work-with-data/pass-query-parameters.md) to a dashboard parameter.
+You can filter the SQL data sources dynamically if you bind a [query parameter](../../work-with-data/pass-query-parameters.md) to a dashboard parameter.
 
-You can access the query parameter settings in the second page of the [Query Editor](work-with-data/using-the-query-editor.md) or in the [Query Builder](work-with-data/using-the-query-builder.md) by clicking the **Edit Parameters** button. 
+You can access the query parameter settings in the second page of the [Query Editor](../../work-with-data/using-the-query-editor.md) or in the [Query Builder](../../work-with-data/using-the-query-builder.md) by clicking the **Edit Parameters** button. 
 
 Select the *Expression* checkbox and in the **Value** column, select the dashboard parameter, or specify an expression with a dashboard parameter in **Expression Editor**.
 	
 ![Query Editor - Configure Query Parameters](../../../../images/queryeditor_passdashboardparameter121219.png)
 
-Refer to the following article for more information about query parameters: [Use Query Parameters](work-with-data/pass-query-parameters.md).
+Refer to the following article for more information about query parameters: [Use Query Parameters](../../work-with-data/pass-query-parameters.md).
 
 >[!TIP]
 >You can also create cascading parameters in the WinForms Dashboard Designer. For more information, refer to the following topic: [Cascading Parameters](create-cascading-parameters.md).
-
 
 ## Data Source Filtering
 
@@ -30,7 +29,7 @@ To apply filtering to a data source, click the **Filter** button in the **Data S
 
 ![Data Source Filter Button](../../../../images/datasourcefiltering_filterbutton_ribbon22300.png)
 
-In the invoked [Filter Editor](interface-elements-for-desktop/articles/filter-editor/filter-data-via-the-filter-editor.md), specify the filter criteria. To compare a field value with a parameter value, click the ![Parameters_FilterEditor_CompareButton](../../../../images/parameters_filtereditor_comparebutton21820.png) button and then the ![Parameters_FilterEditor_CompareButton2](../../../../images/parameters_filtereditor_comparebutton221824.png) button. Then, click the second operand's placeholder to invoke the list of available parameters and select the required parameter:
+In the invoked [Filter Editor](../../../../../interface-elements-for-desktop/articles/filter-editor/filter-data-via-the-filter-editor.md), specify the filter criteria. To compare a field value with a parameter value, click the ![Parameters_FilterEditor_CompareButton](../../../../images/parameters_filtereditor_comparebutton21820.png) button and then the ![Parameters_FilterEditor_CompareButton2](../../../../images/parameters_filtereditor_comparebutton221824.png) button. Then, click the second operand's placeholder to invoke the list of available parameters and select the required parameter:
 
 ![Data Source Filtering - Filter Criteria with a Parameter](../../../../images/filter-ds-parameterpselection-win.png)
 
@@ -40,9 +39,9 @@ Click **OK** to save the created filter criteria. Now, when you change the dashb
 
 ## Conditional Formatting
 
-You can apply [conditional formatting](appearance-customization/conditional-formatting.md) to a dashboard item according to the current parameter value. It allows you to format dashboard item elements dynamically.  
+You can apply [conditional formatting](../../appearance-customization/conditional-formatting.md) to a dashboard item according to the current parameter value. It allows you to format dashboard item elements dynamically.  
 
-To reference a dashboard parameter in a [format rule](appearance-customization/conditional-formatting.md#create-a-format-rule), click the menu button of the required data item and select **Add Format Rule | Expression**:
+To reference a dashboard parameter in a [format rule](../../appearance-customization/conditional-formatting.md#create-and-edit-a-format-rule), click the menu button of the required data item and select **Add Format Rule | Expression**:
 
 ![Format Rule - Expression Type](../../../../images/win-conditional-formatting-expression.png)
 
@@ -55,12 +54,12 @@ The ![Parameters_FilterEditor_CompareButton3](../../../../images/parameters_filt
 Click **OK** to save the created format rule. Now, when you change the dashboard parameter value, the dashboard item is formatted according to the parameter value.
 
 >[!TIP]
->For more information on conditional formatting, refer to the following article: [Conditional Formatting](appearance-customization/conditional-formatting.md).
+>For more information on conditional formatting, refer to the following article: [Conditional Formatting](../../appearance-customization/conditional-formatting.md).
 
 
 ## Calculated Fields
 
-You can use parameters when you construct [expressions](ata-analysis/expression-constants-operators-and-functions.md) for [calculated fields](work-with-data/creating-calculated-fields.md). This allows you to dynamically evaluate values of the calculated field depending on the current parameter value. 
+You can use parameters when you construct [expressions](../../data-analysis/expression-constants-operators-and-functions.md) for [calculated fields](../../work-with-data/creating-calculated-fields.md). This allows you to dynamically evaluate values of the calculated field depending on the current parameter value. 
 
 To reference a dashboard parameter in the calculated field expression, add or edit a calculated field. In the invoked **Expression Editor**, select the dashboard parameter from the **Parameters** section.
 
@@ -69,11 +68,11 @@ To reference a dashboard parameter in the calculated field expression, add or ed
 Click **OK** to save the expression. Now, when you change the dashboard parameter value, the calculated field values are changed according to the specified expression.
 
 >[!TIP]
->For more information on calculated fields in WinForms Dashboard, refer to the following article: [Calculated Fields](work-with-data/creating-calculated-fields.md).
+>For more information on calculated fields in WinForms Dashboard, refer to the following article: [Calculated Fields](../../work-with-data/creating-calculated-fields.md).
 
 ## Window Calculations
 
-You can use dashboard parameters in [window calculations](window-calculations/window-calculations-overview.md). This allows you to apply specific computations to measure values depending on the current parameter value.
+You can use dashboard parameters in [window calculations](../../data-analysis/window-calculations/window-calculations-overview.md). This allows you to apply specific computations to measure values depending on the current parameter value.
 
 To reference the dashboard parameter value in a window calculation, create a window calculation of the **Custom** type:
 
@@ -90,4 +89,4 @@ In the invoked **Expression Editor** window, construct an expression. To referen
 Click **OK** to apply the specified settings. Now, when you change the dashboard parameter value, the calculation values are changed according to the specified expression.
 
 >[!TIP]
->For more information on window calculations in WinForms Dashboard, refer to the following article: [Window Calculations](../window-calculations.md).
+>For more information on window calculations in WinForms Dashboard, refer to the following article: [Window Calculations](../../data-analysis/window-calculations.md).
