@@ -1815,6 +1815,16 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "dashboard-for-desktop/articles/dashboard-designer/data-analysis/using-dashboard-parameters/create-cascading-parameters.md",
+      "output": {
+        ".html": {
+          "relative_path": "dashboard-for-desktop/articles/dashboard-designer/data-analysis/using-dashboard-parameters/create-cascading-parameters.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "dashboard-for-desktop/articles/dashboard-designer/data-analysis/using-dashboard-parameters/creating-parameters.md",
       "output": {
         ".html": {
@@ -3205,6 +3215,36 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "dashboard-for-desktop/images/cascading-parameters-winforms.gif",
+      "output": {
+        "resource": {
+          "relative_path": "dashboard-for-desktop/images/cascading-parameters-winforms.gif"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "dashboard-for-desktop/images/category-parameter-cascading.png",
+      "output": {
+        "resource": {
+          "relative_path": "dashboard-for-desktop/images/category-parameter-cascading.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "dashboard-for-desktop/images/category-parameter-filter-cascading.png",
+      "output": {
+        "resource": {
+          "relative_path": "dashboard-for-desktop/images/category-parameter-filter-cascading.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "dashboard-for-desktop/images/chart-bar-series-type-with-conditional-formatting-applied.png",
       "output": {
         "resource": {
@@ -3385,6 +3425,36 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "dashboard-for-desktop/images/customize-calculation-edit-button.png",
+      "output": {
+        "resource": {
+          "relative_path": "dashboard-for-desktop/images/customize-calculation-edit-button.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "dashboard-for-desktop/images/dashboard-parameter-description-win.png",
+      "output": {
+        "resource": {
+          "relative_path": "dashboard-for-desktop/images/dashboard-parameter-description-win.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "dashboard-for-desktop/images/dashboard-parameters-dialog-win.gif",
+      "output": {
+        "resource": {
+          "relative_path": "dashboard-for-desktop/images/dashboard-parameters-dialog-win.gif"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "dashboard-for-desktop/images/data-federation-data-source-browser-copy-calculated-fields.png",
       "output": {
         "resource": {
@@ -3489,6 +3559,16 @@
       "output": {
         "resource": {
           "relative_path": "dashboard-for-desktop/images/datashaping_filtering_filtereditor19370.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "dashboard-for-desktop/images/datasourcefiltering_filterbutton_ribbon22300.png",
+      "output": {
+        "resource": {
+          "relative_path": "dashboard-for-desktop/images/datasourcefiltering_filterbutton_ribbon22300.png"
         }
       },
       "version": ""
@@ -3765,10 +3845,40 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "dashboard-for-desktop/images/expressiondialog_passparameter121501.png",
+      "output": {
+        "resource": {
+          "relative_path": "dashboard-for-desktop/images/expressiondialog_passparameter121501.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "dashboard-for-desktop/images/extract-data-source.png",
       "output": {
         "resource": {
           "relative_path": "dashboard-for-desktop/images/extract-data-source.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "dashboard-for-desktop/images/filter-ds-parameterpselection-win (1).png",
+      "output": {
+        "resource": {
+          "relative_path": "dashboard-for-desktop/images/filter-ds-parameterpselection-win (1).png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "dashboard-for-desktop/images/filter-ds-parameterpselection-win.png",
+      "output": {
+        "resource": {
+          "relative_path": "dashboard-for-desktop/images/filter-ds-parameterpselection-win.png"
         }
       },
       "version": ""
@@ -11435,6 +11545,116 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "dashboard-for-desktop/images/parameters_addparameterbutton_ribbon21711.png",
+      "output": {
+        "resource": {
+          "relative_path": "dashboard-for-desktop/images/parameters_addparameterbutton_ribbon21711.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "dashboard-for-desktop/images/parameters_calculatedfields21730.png",
+      "output": {
+        "resource": {
+          "relative_path": "dashboard-for-desktop/images/parameters_calculatedfields21730.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "dashboard-for-desktop/images/parameters_filtereditor_comparebutton21820.png",
+      "output": {
+        "resource": {
+          "relative_path": "dashboard-for-desktop/images/parameters_filtereditor_comparebutton21820.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "dashboard-for-desktop/images/parameters_filtereditor_comparebutton221824.png",
+      "output": {
+        "resource": {
+          "relative_path": "dashboard-for-desktop/images/parameters_filtereditor_comparebutton221824.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "dashboard-for-desktop/images/parameters_filtereditor_comparebutton321825.png",
+      "output": {
+        "resource": {
+          "relative_path": "dashboard-for-desktop/images/parameters_filtereditor_comparebutton321825.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "dashboard-for-desktop/images/parameters_lookupsettings_dynamic21842.png",
+      "output": {
+        "resource": {
+          "relative_path": "dashboard-for-desktop/images/parameters_lookupsettings_dynamic21842.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "dashboard-for-desktop/images/parameters_lookupsettings_nolookup21722.png",
+      "output": {
+        "resource": {
+          "relative_path": "dashboard-for-desktop/images/parameters_lookupsettings_nolookup21722.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "dashboard-for-desktop/images/parameters_lookupsettings_static21723.png",
+      "output": {
+        "resource": {
+          "relative_path": "dashboard-for-desktop/images/parameters_lookupsettings_static21723.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "dashboard-for-desktop/images/parameters_parametersdialog21716.png",
+      "output": {
+        "resource": {
+          "relative_path": "dashboard-for-desktop/images/parameters_parametersdialog21716.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "dashboard-for-desktop/images/parameters_parametersdialog_lookupsettings21718.png",
+      "output": {
+        "resource": {
+          "relative_path": "dashboard-for-desktop/images/parameters_parametersdialog_lookupsettings21718.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "dashboard-for-desktop/images/passingparameters_windowcalculation124377.png",
+      "output": {
+        "resource": {
+          "relative_path": "dashboard-for-desktop/images/passingparameters_windowcalculation124377.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "dashboard-for-desktop/images/pivot-with-applied-format-rules.png",
       "output": {
         "resource": {
@@ -11445,10 +11665,40 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "dashboard-for-desktop/images/products-parameter-cascading.png",
+      "output": {
+        "resource": {
+          "relative_path": "dashboard-for-desktop/images/products-parameter-cascading.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "dashboard-for-desktop/images/products-parameter-filter-cascading.png",
+      "output": {
+        "resource": {
+          "relative_path": "dashboard-for-desktop/images/products-parameter-filter-cascading.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "dashboard-for-desktop/images/query-builder-available-sources.png",
       "output": {
         "resource": {
           "relative_path": "dashboard-for-desktop/images/query-builder-available-sources.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "dashboard-for-desktop/images/queryeditor_passdashboardparameter121219.png",
+      "output": {
+        "resource": {
+          "relative_path": "dashboard-for-desktop/images/queryeditor_passdashboardparameter121219.png"
         }
       },
       "version": ""
@@ -11785,10 +12035,30 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "dashboard-for-desktop/images/win-conditional-formatting-expression.png",
+      "output": {
+        "resource": {
+          "relative_path": "dashboard-for-desktop/images/win-conditional-formatting-expression.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "dashboard-for-desktop/images/win-custom-aggr-function-in-expression-editor.png",
       "output": {
         "resource": {
           "relative_path": "dashboard-for-desktop/images/win-custom-aggr-function-in-expression-editor.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "dashboard-for-desktop/images/win-custom-window-calculation.png",
+      "output": {
+        "resource": {
+          "relative_path": "dashboard-for-desktop/images/win-custom-window-calculation.png"
         }
       },
       "version": ""
@@ -13498,6 +13768,16 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "dashboard-for-web/articles/web-dashboard-designer-mode/data-analysis/dashboard-parameters/create-cascading-parameters.md",
+      "output": {
+        ".html": {
+          "relative_path": "dashboard-for-web/articles/web-dashboard-designer-mode/data-analysis/dashboard-parameters/create-cascading-parameters.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "dashboard-for-web/articles/web-dashboard-designer-mode/data-analysis/dashboard-parameters/creating-parameters.md",
       "output": {
         ".html": {
@@ -14708,10 +14988,30 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "dashboard-for-web/images/cascading-parameters-web.gif",
+      "output": {
+        "resource": {
+          "relative_path": "dashboard-for-web/images/cascading-parameters-web.gif"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "dashboard-for-web/images/common-coloring-local-scheme.png",
       "output": {
         "resource": {
           "relative_path": "dashboard-for-web/images/common-coloring-local-scheme.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "dashboard-for-web/images/conditional-formatting-create-expression-rule.png",
+      "output": {
+        "resource": {
+          "relative_path": "dashboard-for-web/images/conditional-formatting-create-expression-rule.png"
         }
       },
       "version": ""
@@ -14828,6 +15128,26 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "dashboard-for-web/images/dashboard-parameter-description.png",
+      "output": {
+        "resource": {
+          "relative_path": "dashboard-for-web/images/dashboard-parameter-description.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "dashboard-for-web/images/dashboard-parameters-web.gif",
+      "output": {
+        "resource": {
+          "relative_path": "dashboard-for-web/images/dashboard-parameters-web.gif"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "dashboard-for-web/images/data-inspector-aggr.png",
       "output": {
         "resource": {
@@ -14932,6 +15252,56 @@
       "output": {
         "resource": {
           "relative_path": "dashboard-for-web/images/expression-editor-error-icon118339.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "dashboard-for-web/images/expression-type-conditional-formatting.png",
+      "output": {
+        "resource": {
+          "relative_path": "dashboard-for-web/images/expression-type-conditional-formatting.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "dashboard-for-web/images/filter-data-source-with-parameter.png",
+      "output": {
+        "resource": {
+          "relative_path": "dashboard-for-web/images/filter-data-source-with-parameter.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "dashboard-for-web/images/filter-editor-dashboard-parameter-selection.png",
+      "output": {
+        "resource": {
+          "relative_path": "dashboard-for-web/images/filter-editor-dashboard-parameter-selection.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "dashboard-for-web/images/filter-editor-dashboard-parameter.png",
+      "output": {
+        "resource": {
+          "relative_path": "dashboard-for-web/images/filter-editor-dashboard-parameter.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "dashboard-for-web/images/filter-sql-query.png",
+      "output": {
+        "resource": {
+          "relative_path": "dashboard-for-web/images/filter-sql-query.png"
         }
       },
       "version": ""
@@ -19878,6 +20248,26 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "dashboard-for-web/images/wdd-parameters-calculated-field126509.png",
+      "output": {
+        "resource": {
+          "relative_path": "dashboard-for-web/images/wdd-parameters-calculated-field126509.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "dashboard-for-web/images/wdd-parameters-window-calculations126562.png",
+      "output": {
+        "resource": {
+          "relative_path": "dashboard-for-web/images/wdd-parameters-window-calculations126562.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "dashboard-for-web/images/wdd-preview-result124959.png",
       "output": {
         "resource": {
@@ -19952,6 +20342,26 @@
       "output": {
         "resource": {
           "relative_path": "dashboard-for-web/images/wdd-query-builder-undo126299.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "dashboard-for-web/images/wdd-query-parameters-complex-expression.png",
+      "output": {
+        "resource": {
+          "relative_path": "dashboard-for-web/images/wdd-query-parameters-complex-expression.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "dashboard-for-web/images/wdd-query-parameters-parameter-expression.png",
+      "output": {
+        "resource": {
+          "relative_path": "dashboard-for-web/images/wdd-query-parameters-parameter-expression.png"
         }
       },
       "version": ""
@@ -20062,6 +20472,36 @@
       "output": {
         "resource": {
           "relative_path": "dashboard-for-web/images/web-card-conditional-formatting-custom-layout-element.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "dashboard-for-web/images/web-category-parameter-cascading.png",
+      "output": {
+        "resource": {
+          "relative_path": "dashboard-for-web/images/web-category-parameter-cascading.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "dashboard-for-web/images/web-category-parameter-filter-cascading.png",
+      "output": {
+        "resource": {
+          "relative_path": "dashboard-for-web/images/web-category-parameter-filter-cascading.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "dashboard-for-web/images/web-category-query-parameter-setting.png",
+      "output": {
+        "resource": {
+          "relative_path": "dashboard-for-web/images/web-category-query-parameter-setting.png"
         }
       },
       "version": ""
@@ -20528,6 +20968,16 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "dashboard-for-web/images/web-filter-properties.png",
+      "output": {
+        "resource": {
+          "relative_path": "dashboard-for-web/images/web-filter-properties.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "dashboard-for-web/images/web-filter-to-measure-menu.png",
       "output": {
         "resource": {
@@ -20732,6 +21182,36 @@
       "output": {
         "resource": {
           "relative_path": "dashboard-for-web/images/web-neutral-filter-mode-deselected.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "dashboard-for-web/images/web-products-parameter-cascading.png",
+      "output": {
+        "resource": {
+          "relative_path": "dashboard-for-web/images/web-products-parameter-cascading.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "dashboard-for-web/images/web-products-parameter-filter-cascading.png",
+      "output": {
+        "resource": {
+          "relative_path": "dashboard-for-web/images/web-products-parameter-filter-cascading.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "dashboard-for-web/images/web-products-query-parameter-setting.png",
+      "output": {
+        "resource": {
+          "relative_path": "dashboard-for-web/images/web-products-query-parameter-setting.png"
         }
       },
       "version": ""

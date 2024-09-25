@@ -93,55 +93,116 @@
         </div>
 
         <article data-uid="">
-<h1 id="creating-parameters">Creating Parameters</h1>
+<h1 id="create-dashboard-parameters-in-the-web-dashboard">Create Dashboard Parameters in the Web Dashboard</h1>
 
-<p>To create a dashboard parameter in the Web Dashboard, perform the following steps.</p>
+<p>This topic shows how to add a dashboard parameter and specify its settings in the UI.</p>
+<h2 id="create-a-parameter">Create a Parameter</h2>
+<p>To create a dashboard parameter, follow the steps below.</p>
 <ol>
-<li><p>Invoke the <a href="../../ui-elements/dashboard-menu.html">Dashboard Menu</a> and select <strong>Parameters</strong>.</p>
+<li><p>Invoke the <a href="../../ui-elements/dashboard-menu.html">dashboard menu</a> and select <strong>Parameters</strong>.</p>
 </li>
-<li><p>In the <strong>Parameter List</strong>, click the <strong>Add New Parameter</strong> button. The following settings will be displayed for the created parameter.</p>
-<p><img src="../../../../images/img126106.png" alt="WebDashboard_Parameters_NewParameter"></p>
+<li><p>In the <strong>Parameter List</strong>, click the <strong>Add</strong> button. The parameter's settings form appears as follows:</p>
+<p><img src="../../../../images/img126106.png" alt="Web Dashboard - Add a New Dashboard Parameter"></p>
 </li>
-<li><p>Specify the following parameter's settings.</p>
-<ul>
-<li><p><strong>Name</strong> - Specifies the parameter name.</p>
-</li>
-<li><p><strong>Description</strong> - Specifies the parameter's description.</p>
-<p>The parameter's description is the value displayed in the <strong>Parameter Name</strong> column of the <a href="requesting-parameter-values.html">Dashboard Parameters</a> dialog.</p>
-</li>
-<li><p><strong>Visible</strong> - Specifies whether or not the parameter is visible in the <a href="requesting-parameter-values.html">Dashboard Parameters</a> dialog.</p>
-</li>
-<li><p><strong>Allow Null</strong> - Specifies whether or a not null value can be passed as a parameter value.</p>
-</li>
-<li><p><strong>Allow Multiselect</strong> - Specifies whether or not multi-selection is enabled for the current parameter.</p>
-</li>
-<li><p><strong>Select All Values</strong> - Specifies whether or not all parameter values should be selected in the initial state. Note that this option is in effect when <strong>Allow Multiselect</strong> is set to <strong>true</strong>.</p>
-</li>
-<li><p><strong>Type</strong> - Specifies the parameter type.</p>
-</li>
-<li><p><strong>Default Value</strong> - Specifies the default parameter’s value.</p>
-</li>
-<li><p><strong>Look-Up Settings</strong> - Specifies the parameter's look-up editor settings. To learn more, see the next step.</p>
-</li>
-</ul>
-</li>
-<li><p>Depending on the selected <strong>Look-up Settings</strong> option, you need to specify the following settings.</p>
-<ul>
-<li><strong>No Look-Up</strong> -
-Allows you to specify the required parameter value manually in the <a href="requesting-parameter-values.html">Dashboard Parameters</a> dialog.</li>
-<li><strong>Static List</strong> -
-Allows you to select a parameter value defined in a static list. To add predefined parameter values, use the <strong>+</strong> button.</li>
-<li><strong>Dynamic List</strong> -
-Allows you to select a parameter value defined in a data source. To provide access to data source values, specify the following options.
-<ol>
-<li>First, select the required <strong>Data Source</strong> from the list of available data sources. For the SQL data source, select the required <strong>Data Member</strong> that specifies the query/data member from the selected <strong>Data Source</strong>.</li>
-<li>Then, specify data members for the dashboard parameter's value and display name using <strong>Value Member</strong> and <strong>Display Member</strong>, respectively.</li>
-<li>If necessary, specify the data member used to sort parameter values using the <strong>Sort By</strong> option. The <strong>Sort Order</strong> specifies the required sort order.</li>
-</ol>
-</li>
-</ul>
+<li><p>Specify the parameter's settings.</p>
 </li>
 </ol>
+<h2 id="parameter-settings">Parameter Settings</h2>
+<h3 id="name">Name</h3>
+<p>Specifies the parameter name.</p>
+<p>When you create and modify parameter names, follow the rules below:</p>
+<ul>
+<li>A name can contain letters, numbers, and underscores.</li>
+<li>A name cannot contain spaces.</li>
+<li>A name cannot be an empty string.</li>
+<li>The dashboard cannot contain parameters with the same name.</li>
+<li>Names are case-sensitive. For example, you can create the names <em>Parameter</em> and <em>PARAMETER</em>.</li>
+</ul>
+<h3 id="description">Description</h3>
+<p>Specifies the parameter description displayed in the <strong>Parameter</strong> column of the <a href="requesting-parameter-values.html">Dashboard Parameters</a> dialog:</p>
+<p><img src="../../../../images/dashboard-parameter-description.png" alt="Dashboard Parameter with Description"></p>
+<h3 id="visible">Visible</h3>
+<p>Specifies whether the parameter is visible in the <a href="requesting-parameter-values.html">Dashboard Parameters</a> dialog.</p>
+<h3 id="allow-null">Allow Null</h3>
+<p>Specifies whether a null value can be passed as a parameter value.</p>
+<h3 id="allow-multiselect">Allow Multiselect</h3>
+<p>Specifies whether multi-selection is enabled for the current parameter.</p>
+<ul>
+<li>Use the <strong>Is any of</strong> or <strong>Is none of</strong> operators to pass a multi-select parameter to a filter criteria or to the Expression format condition.</li>
+<li>Use the <strong>In</strong> or <strong>Not In</strong> operators to pass a multi-select parameter to a calculated field expression.</li>
+</ul>
+<h3 id="select-all-values">Select All Values</h3>
+<p>Specifies whether all parameter values should be selected in the initial state of the dashboard.</p>
+<p>Note that this option is in effect when the <strong>Allow Multiselect</strong> setting is enabled.</p>
+<h3 id="type">Type</h3>
+<p>Specifies the parameter type. Select the parameter type from the drop-down list in the <strong>Type</strong> field.</p>
+<p>The following types are available:</p>
+<ul>
+<li>String</li>
+<li>Date</li>
+<li>Number (16-bit integer)</li>
+<li>Number (32-bit integer)</li>
+<li>Number (64-bit integer)</li>
+<li>Number (floating point)</li>
+<li>Number (double-precision floating point)</li>
+<li>Number (decimal)</li>
+<li>Boolean</li>
+<li>GUID (Globally Unique Identifier)</li>
+</ul>
+<h3 id="default-value">Default Value</h3>
+<p>Specifies the default parameter value.</p>
+<h3 id="look-up-settings">Look-Up Settings</h3>
+<p>Specifies the parameter's look-up editor settings.</p>
+<p>The following <strong>Look-up Settings</strong> are available in the Web Dashboard:</p>
+<h4 id="no-look-up">No Look-Up</h4>
+<p>An end user specifies the parameter value in the <strong>Dashboard Parameters</strong> dialog.</p>
+<h4 id="static-list">Static List</h4>
+<p>An end user selects a parameter value from a static list. To add predefined parameter values, use the plus button.</p>
+<h4 id="dynamic-list">Dynamic List</h4>
+<p>An end user selects a parameter value defined in a data source.</p>
+<div class="TIP">
+<h5>Tip</h5>
+<p>You can also create cascading parameters in the Web Dashboard. For more information, refer to the following topic: <a href="create-cascading-parameters.html">Cascading Parameters</a>.</p>
+</div>
+<p>You can specify a data source as a source for dashboard parameter values. To provide access to data source values, specify the following options:</p>
+<table>
+<thead>
+<tr>
+<th>UI Settings</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Data Source</strong></td>
+<td>Specifies the data source for the dashboard parameter.</td>
+</tr>
+<tr>
+<td><strong>Data Member</strong></td>
+<td>Specifies the name of the data member with the parameter values for SQL and Entity Framework data sources.</td>
+</tr>
+<tr>
+<td><strong>Value Member</strong></td>
+<td>Specifies the name of the data field for the parameter values.</td>
+</tr>
+<tr>
+<td><strong>Display Member</strong> (optional)</td>
+<td>Specifies the name of the data field displayed in the <strong>Dashboard Parameters</strong> dialog as a value description.</td>
+</tr>
+<tr>
+<td><strong>Sort By</strong> (optional)</td>
+<td>Specifies the data member used to sort parameter values.</td>
+</tr>
+<tr>
+<td><strong>Sort Order</strong> (optional)</td>
+<td>Specifies the sort order.</td>
+</tr>
+</tbody>
+</table>
+<div class="NOTE">
+<h5>Note</h5>
+<p>You cannot use an OLAP data source as the data source for a dashboard parameter.</p>
+</div>
 
 </article>
 

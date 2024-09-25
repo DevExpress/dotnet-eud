@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Specify Dashboard Parameter Values | DevExpress End-User Documentation </title>
+      <title>Cascading Parameters | DevExpress End-User Documentation </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Specify Dashboard Parameter Values | DevExpress End-User Documentation ">
+      <meta name="title" content="Cascading Parameters | DevExpress End-User Documentation ">
       
       
       <link rel="icon" href="../../../../../favicon.ico">
@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../../../../../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/DevExpress/dotnet-eud/blob/24.1/dashboard-for-desktop/articles/dashboard-designer/data-analysis/using-dashboard-parameters/requesting-parameter-values.md/#L1">
+      <meta name="docfx:docurl" content="https://github.com/DevExpress/dotnet-eud/blob/24.1/dashboard-for-desktop/articles/dashboard-designer/data-analysis/using-dashboard-parameters/create-cascading-parameters.md/#L1">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -93,18 +93,54 @@
         </div>
 
         <article data-uid="">
-<h1 id="specify-dashboard-parameter-values">Specify Dashboard Parameter Values</h1>
+<h1 id="cascading-parameters">Cascading Parameters</h1>
 
-<p>The Dashboard Designer includes a built-in <strong>Dashboard Parameters</strong> dialog, which allows users to change dashboard parameter values. This dialog is created automatically depending on the <a href="creating-parameters.html#parameter-settings">parameter settings</a>. Set the <a href="creating-parameters.html#visible">Visible</a> property to <code>true</code> to display the parameter in the <strong>Dashboard Parameters</strong> dialog.</p>
-<p>To invoke the <strong>Dashboard Parameters</strong> dialog, click the <strong>Parameters</strong> button in the dashboard title. Change the parameter values in the <strong>Dashboard Parameters</strong> dialog and click the <strong>Submit</strong> button to apply the changes.</p>
-<p>The following image shows how to invoke the <strong>Dashboard Parameters</strong> dialog and change the parameter value:</p>
-<p><img src="../../../../images/dashboard-parameters-dialog-win.gif" alt="Dashboard Parameters Dialog in WinForms"></p>
-<p>To reset changes to the default values, click the <strong>Reset</strong> button.</p>
+<p>Create cascading parameters to filter a list of predefined parameter values based on another parameter's values. The following image illustrates cascading parameters where the <strong>pProducts</strong> parameter values are filtered by the selected category:</p>
+<p><img src="../../../../images/cascading-parameters-winforms.gif" alt="Dashboard for WinForms - Cascading Parameters"></p>
+<p>In case of two parameters, the first parameter is used to filter the data source for the second parameter with <a href="creating-parameters.html#dynamic-list">dynamic list</a> settings.</p>
+<h2 id="create-cascading-parameters">Create Cascading Parameters</h2>
+<p>The dashboard in this example is connected to a Northwind database (an SQL Database) and contains three <a href="../../work-with-data/manage-sql-queries.html">queries</a>: <em>Categories</em>, <em>Products</em>, and <em>OrderReports</em>. The Grid item visualizes data from the <em>OrderReports</em> query.</p>
+<p>In this tutorial, you will create two dashboard parameters:</p>
+<ul>
+<li>The <strong>pCategory</strong> parameter filters the <em>Products</em> query. The <em>Products</em> query is a data source for the <strong>pProducts</strong> parameter.</li>
+<li>The <strong>pProducts</strong> parameter filters the <em>OrderReports</em> query.</li>
+</ul>
+<p>The steps below create cascading parameters in the WinForms Dashboard Designer:</p>
+<ol>
+<li><p>Create a dashboard parameter called <strong>pCategory</strong> with dynamic list settings. Use the <em>Categories</em> query as a data member and the <em>CategoryID</em> as a value member.</p>
+<p>The parameter settings may look as follows:</p>
+<p><img src="../../../../images/category-parameter-cascading.png" alt="Dashboard for WinForms - Create Dashboard Parameter"></p>
+</li>
+<li><p>Use the created <strong>pCategory</strong> parameter to <a href="../../work-with-data/filter-queries.html">filter</a> the <em>Products</em> query.</p>
+<p>To do this, invoke the <a href="../../work-with-data/using-the-query-builder.html">Query Builder</a> and click the <strong>Filter...</strong> button to specify the filter criteria in the <strong>Filter Editor</strong>. Choose the <strong>Bind To</strong> option to automatically bind a <a href="../../work-with-data/pass-query-parameters.html">query parameter</a> to the created dashboard parameter:</p>
+<p><img src="../../../../images/category-parameter-filter-cascading.png" alt="Dashboard for WinForms - Filter Query"></p>
+<p>The resulting query looks as follows:</p>
+<pre><code>[Products.CategoryID]=?pCategory
+</code></pre>
+</li>
+<li><p>Create a dashboard parameter called <strong>pProducts</strong> with dynamic list settings. Use the <em>Products</em> query as a data member and the <em>ProductID</em> as a value member.</p>
+<p>The parameter settings may look as follows:</p>
+<p><img src="../../../../images/products-parameter-cascading.png" alt="Dashboard for WinForms - Create Dashboard Parameter"></p>
+</li>
+<li><p>Use the <strong>pProducts</strong> dashboard parameter to filter the <em>OrderReports</em> query.</p>
+<p>To do this, invoke the <a href="../../work-with-data/using-the-query-builder.html">Query Builder</a> and click the <strong>Filter...</strong> button to specify the filter criteria in the <strong>Filter Editor</strong>. Choose the <strong>Bind To</strong> option to automatically bind a <a href="../../work-with-data/pass-query-parameters.html">query parameter</a> to the created dashboard parameter:</p>
+<p><img src="../../../../images/products-parameter-filter-cascading.png" alt="Dashboard for WinForms - Filter Queries"></p>
+<p>The resulting query looks as follows:</p>
+<pre><code>[OrderReports.ProductID] In ?pProducts
+</code></pre>
+</li>
+<li><p>Create a Grid item to visualize data from the filtered <em>OrderReports</em> query.</p>
+</li>
+</ol>
+<div class="TIP">
+<h5>Tip</h5>
+<p>When using a <a href="creating-parameters.html#allow-multiselect">multi-value</a> parameter to filter a query, create the condition with the <code>Is any of</code> or <code>Is none of</code> operator.</p>
+</div>
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/DevExpress/dotnet-eud/blob/24.1/dashboard-for-desktop/articles/dashboard-designer/data-analysis/using-dashboard-parameters/requesting-parameter-values.md/#L1" class="edit-link">Edit this page</a>
+          <a href="https://github.com/DevExpress/dotnet-eud/blob/24.1/dashboard-for-desktop/articles/dashboard-designer/data-analysis/using-dashboard-parameters/create-cascading-parameters.md/#L1" class="edit-link">Edit this page</a>
         </div>
 
         <div class="next-article d-print-none border-top" id="nextArticle"></div>

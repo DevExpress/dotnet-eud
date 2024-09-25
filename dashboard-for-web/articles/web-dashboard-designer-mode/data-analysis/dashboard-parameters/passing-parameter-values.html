@@ -2,9 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Passing Parameter Values | DevExpress End-User Documentation </title>
+      <title>Reference Dashboard Parameters | DevExpress End-User Documentation </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Passing Parameter Values | DevExpress End-User Documentation ">
+      <meta name="title" content="Reference Dashboard Parameters | DevExpress End-User Documentation ">
       
       
       <link rel="icon" href="../../../../../favicon.ico">
@@ -93,44 +93,86 @@
         </div>
 
         <article data-uid="">
-<h1 id="passing-parameter-values">Passing Parameter Values</h1>
+<h1 id="reference-dashboard-parameters">Reference Dashboard Parameters</h1>
 
-<p>In this topic, it describes how to pass the created dashboard parameter to the dashboard. For instance, you can include a dashboard parameter to a <em>WHERE</em> clause of the SQL query or you can filter a dashboard dynamically according to the required parameter value(s).</p>
-<p>The created dashboard parameter can be used in the following scenarios:</p>
-<ul>
-<li><a href="#query">SQL Queries</a></li>
-<li><a href="#filtering">Filtering</a></li>
-<li><a href="#formatrules">Conditional Formatting</a></li>
-<li><a href="#calculatedfields">Calculated Fields</a></li>
-<li><a href="#windowscalculations">Window Calculations</a></li>
-</ul>
-<h2 id="sql-queries"><a name="query"></a>SQL Queries</h2>
-<p>The Web Dashboard provides the capability to bind a dashboard parameter and the existing <a href="../../provide-data/working-with-sql-data-sources/pass-query-parameters.html">SQL query</a>/<a href="../../provide-data/working-with-sql-data-sources/stored-procedures.html">stored procedure</a> parameter. This can be useful when you need to <a href="../../provide-data/working-with-sql-data-sources/filter-queries.html">filter the SQL query</a> dynamically by including the parameter value in the <em>WHERE</em> clause.</p>
-<p><img src="../../../../images/img124955.png" alt="wdd-configure-query-param-page2"></p>
-<p>Do the following to bind a dashboard parameter to an SQL query or stored procedure parameter in the <a href="../../ui-elements/dialogs-and-wizards/dashboard-data-source-wizard.html">Dashboard Data Source Wizard</a>:</p>
-<ul>
-<li>Select the existing query or stored procedure parameter, or use the <strong>Add</strong> button to create a new query parameter.</li>
-<li>Set the <strong>Expression</strong> as a parameter value and click the ellipsis button to invoke the Expression Editor for this parameter.</li>
-<li>In the Expression Editor, add the required dashboard parameter from the Parameters column.</li>
-</ul>
-<h2 id="filtering"><a name="filtering"></a>Filtering</h2>
-<p>You can filter the specified <a href="../../provide-data/working-with-sql-data-sources/filter-queries.html">query</a> of the SQL Data Source, the entire <a href="../../provide-data/filter-data-sources.html">Excel Data Source</a>/<a href="../../provide-data/filter-data-sources.html">Object Data Source</a> or <a href="../../data-shaping/filtering.html">apply filtering</a> to a specific dashboard item according to the current parameter value(s) using the Filter Editor.</p>
-<p>In the Filter Editor, you can compare a field value with different objects such as static values, values of another field or parameter values. To switch between values, click a down arrow glyph in the operand value placeholder to expand the list of available objects. Select the <strong>Parameter</strong> object to compare a field value with a parameter value.</p>
-<p><img src="../../../../images/img126182.png" alt="wdd-filter-editor-change-object"></p>
-<p>Then, click the operand value to invoke the list of available parameters and select the existing parameter or create a new one.</p>
-<p><img src="../../../../images/img126539.png" alt="wdd-parameters-filtering"></p>
-<h2 id="conditional-formatting"><a name="formatrules"></a>Conditional Formatting</h2>
-<p>You can apply conditional formatting to a specific dashboard item according to the current parameter value when creating the <strong>Expression</strong> <a href="../../appearance-customization/conditional-formatting.html">format condition</a>. Use this capability to format dashboard item elements dynamically, depending on the current parameter value.</p>
-<p><img src="../../../../images/img128229.png" alt="wdd-parameters-conditional-formatting"></p>
-<p>To switch between values, click the down arrow glyph in the operand value placeholder to expand the list of available objects and select the <strong>Parameter</strong> object to create a format rule with a parameter.</p>
-<h2 id="calculated-fields"><a name="calculatedfields"></a>Calculated Fields</h2>
-<p>You can use parameters when constructing <a href="../../provide-data/calculated-fields.html">expressions</a> for <a href="../../provide-data/calculated-fields.html">calculated fields</a>. This allows you to evaluate values of the calculated field dynamically depending on the current parameter value.</p>
-<p><img src="../../../../images/img126509.png" alt="wdd-parameters-calculated-field"></p>
-<p>To include a parameter in the expression, double-click the required parameter in the Fields pane.</p>
-<h2 id="window-calculations"><a name="windowscalculations"></a>Window Calculations</h2>
-<p>You can use parameters when customizing expressions for <a href="../calculations.html">window calculations</a>. This allows you to apply a calculation dynamically, depending on the current parameter value.</p>
-<p><img src="../../../../images/img126562.png" alt="wdd-parameters-window-calculations"></p>
-<p>To create the calculation with a parameter, select the <strong>Custom</strong> calculation and click <strong>Edit</strong>. In the invoked Expression Editor double-click the required parameter.</p>
+<p>This topic describes how to reference a dashboard parameter in <a href="#dashboard-item-filters">filter strings</a>, <a href="#calculated-fields">calculated fields</a>, and <a href="#window-calculations">window calculations</a>. You can also bind a dashboard parameter to a query parameter to filter the SQL data source dynamically.</p>
+<div class="TIP">
+<h5>Tip</h5>
+<p>You can also create cascading parameters in the Web Dashboard. For more information, refer to the following topic: <a href="create-cascading-parameters.html">Cascading Parameters</a>.</p>
+</div>
+<h2 id="sql-queries-and-stored-procedures">SQL Queries and Stored Procedures</h2>
+<p>You can filter the SQL data sources dynamically if you bind a <a href="../../provide-data/working-with-sql-data-sources/pass-query-parameters.html">query parameter</a> to a dashboard parameter.</p>
+<p>Invoke the <strong>Data Source Wizard</strong> window or use the <strong>Properties</strong> section of the <a href="../../ui-elements/dialogs-and-wizards/query-builder.html">Query Builder</a> to access the query parameter settings. Change the query parameter type to <em>Expression</em> and specify the expression with a dashboard parameter in the <strong>Value</strong> field:</p>
+<p><img src="../../../../images/wdd-query-parameters-complex-expression.png" alt="Query Parameter - Expression Type"></p>
+<p>The resulting query parameter settings may appear as follows:</p>
+<p><img src="../../../../images/wdd-query-parameters-parameter-expression.png" alt="Query Parameter - Expression Type with Parameter"></p>
+<p>Refer to the following article for more information about query parameters: <a href="../../provide-data/working-with-sql-data-sources/pass-query-parameters.html">Use Query Parameters</a>.</p>
+<div class="TIP">
+<h5>Tip</h5>
+<p>For information on how to filter Excel, Object, XPO, and JSON data sources, refer to the following article: <a href="../../provide-data/filter-data-sources.html">Filter Data Sources</a>.</p>
+</div>
+<h2 id="data-source-filtering">Data Source Filtering</h2>
+<p>The Web Dashboard allows you to filter Excel, Object, XPO, and JSON data sources dynamically if you use a dashboard parameter in the filter criteria.</p>
+<p>To add filters to a data source, open the dashboard menu, invoke the <strong>Data Sources</strong> page, select a data source and click <strong>Filter</strong>.</p>
+<p><img src="../../../../images/filter-data-source-with-parameter.png" alt="Data Sources - Filter Data Source"></p>
+<p>In the invoked <a href="../../ui-elements/dialogs-and-wizards/filter-editor.html">Filter Editor</a>, build a filter expression. Click the down arrow glyph in the operand value placeholder to expand the list of available objects. Select the <strong>Parameter</strong> option to compare a field value with a parameter value.</p>
+<p><img src="../../../../images/filter-editor-dashboard-parameter.png" alt="Filter Editor - Dashboard Parameters"></p>
+<p>To select a dashboard parameter from the list of available parameters, click the parameter operand:</p>
+<p><img src="../../../../images/filter-editor-dashboard-parameter-selection.png" alt="Filter Editor - Select a Dashboard Parameter"></p>
+<p>Click <strong>OK</strong> to save the created filter criteria. Now, when you change the dashboard parameter value, the data source is filtered according to the parameter value.</p>
+<h2 id="dashboard-item-filters">Dashboard Item Filters</h2>
+<p>Web Dashboard allows you to use the following data filters in dashboard items:</p>
+<p><a href="../../data-shaping/filtering.html#dashboard-item-filter">Dashboard Item Filter</a>
+:    Filters individual dashboard items independently.</p>
+<p><a href="../../data-shaping/filtering.html#measure-filter">Measure Filter</a>
+:    Filters only the specified measure in the dashboard item.</p>
+<p><a href="../../data-shaping/filtering.html#visible-data-filter">Visible Data Filter</a>
+:     Hides a part of the calculated data from the view. This filter type does not filter underlying data used in calculations or intermediate level aggregations.</p>
+<p>To apply filtering based on a dynamic value, you need to use a dashboard parameter in a filter criteria. The following example describes how to filter a dashboard item according to a dashboard parameter value.</p>
+<p>To add a dashboard item filter, open the dashboard item’s <strong>Filters</strong> menu, go to the <strong>Item Filter</strong> section and click the <strong>Edit</strong> button:</p>
+<p><img src="../../../../images/wdd-invoke-filter-editor124630.png" alt="Dashboard Item Menu - Filters Section"></p>
+<p>In the invoked <a href="../../ui-elements/dialogs-and-wizards/filter-editor.html">Filter Editor</a>, build a filter expression. Click the down arrow glyph in the operand value placeholder to expand the list of available objects. Select the <strong>Parameter</strong> option to compare a field value with a parameter value.</p>
+<p><img src="../../../../images/filter-editor-dashboard-parameter.png" alt="Filter Editor - Dashboard Parameters"></p>
+<p>To select a dashboard parameter from the list of available parameters, click the parameter operand:</p>
+<p><img src="../../../../images/filter-editor-dashboard-parameter-selection.png" alt="Filter Editor - Select a Dashboard Parameter"></p>
+<p>Click <strong>OK</strong> to save the created filter criteria. Now, when you change the dashboard parameter value, the dashboard item is filtered according to the parameter value.</p>
+<div class="TIP">
+<h5>Tip</h5>
+<p>For more information on filtering in Web Dashboard, refer to the following article: <a href="../../data-shaping/filtering.html">Filtering</a>.</p>
+</div>
+<h2 id="conditional-formatting">Conditional Formatting</h2>
+<p>You can apply <a href="../../appearance-customization/conditional-formatting.html">conditional formatting</a> to a dashboard item according to the current parameter value. It allows you to format dashboard item elements dynamically.</p>
+<p>To reference a dashboard parameter in a <a href="../../appearance-customization/conditional-formatting.html#create-a-format-rule">format rule</a>, set the condition type to <strong>Expression</strong>:</p>
+<p><img src="../../../../images/expression-type-conditional-formatting.png" alt="Format Rule - Expression Type"></p>
+<p>In the invoked dialog, click the <strong>Edit</strong> button to create a condition:</p>
+<p><img src="../../../../images/conditional-formatting-create-expression-rule.png" alt="Format Rule - Create a Condition"></p>
+<p>In the invoked <a href="../../ui-elements/dialogs-and-wizards/filter-editor.html">Filter Editor</a>, build a filter expression. Click the down arrow glyph in the operand value placeholder to expand the list of available objects. Select the <strong>Parameter</strong> option to compare a field value with a parameter value.</p>
+<p><img src="../../../../images/filter-editor-dashboard-parameter.png" alt="Filter Editor - Dashboard Parameters"></p>
+<p>To select a dashboard parameter from the list of available parameters, click the parameter operand:</p>
+<p><img src="../../../../images/filter-editor-dashboard-parameter-selection.png" alt="Filter Editor - Select a Dashboard Parameter">
+Click <strong>OK</strong> to save the created format rule. Now, when you change the dashboard parameter value, the dashboard item is formatted according to the parameter value.</p>
+<div class="TIP">
+<h5>Tip</h5>
+<p>For more information on conditional formatting in Web Dashboard, refer to the following article: <a href="../../appearance-customization/conditional-formatting.html">Conditional Formatting</a>.</p>
+</div>
+<h2 id="calculated-fields">Calculated Fields</h2>
+<p>You can use parameters when you construct expressions for <a href="../../provide-data/calculated-fields.html">calculated fields</a>. This allows you to evaluate values of the calculated field dynamically depending on the current parameter value.</p>
+<p>To reference the dashboard parameter value in an expression, add or edit a calculated field. In the invoked <strong>Edit Calculated Field</strong> window, double-click the required parameter in the <strong>Fields</strong> section.</p>
+<p><img src="../../../../images/wdd-parameters-calculated-field126509.png" alt="Edit Calculated Field - Reference a Dashboard Parameter"></p>
+<p>Click <strong>Save</strong> to save the created calculated fields. Now, when you change the dashboard parameter value, the calculated field values are changed according to the specified expression.</p>
+<div class="TIP">
+<h5>Tip</h5>
+<p>For more information on calculated fields in Web Dashboard, refer to the following article: <a href="../../provide-data/calculated-fields.html">Calculated Fields</a>.</p>
+</div>
+<h2 id="window-calculations">Window Calculations</h2>
+<p>You can use dashboard parameters in <a href="../calculations.html">window calculations</a>. This allows you to apply specific computations to measure values depending on the current parameter value.</p>
+<p>To reference the dashboard parameter value in an expression, create or edit a window calculation. In the invoked <strong>Expression Editor</strong> window, double-click the required parameter from the <strong>Fields</strong> section.</p>
+<p><img src="../../../../images/wdd-parameters-window-calculations126562.png" alt="Expression Editor - Window Calculation with Parameters"></p>
+<p>Click <strong>OK</strong> to save the created window calculation. Now, when you change the dashboard parameter value, the calculation values are changed according to the specified expression.</p>
+<div class="TIP">
+<h5>Tip</h5>
+<p>For more information on window calculations in Web Dashboard, refer to the following article: <a href="../calculations.html">Window Calculations</a>.</p>
+</div>
 
 </article>
 
