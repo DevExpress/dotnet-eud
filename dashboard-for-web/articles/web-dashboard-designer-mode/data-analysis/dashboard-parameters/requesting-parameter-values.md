@@ -1,13 +1,17 @@
 ---
-title: Requesting Parameter Values
+title: Specify Dashboard Parameter Values
 author: Natalia Kazakova
 legacyId: 117554
 ---
-# Requesting Parameter Values
-The Web Dashboard provides a built-in **Dashboard Parameters** dialog, which provides the capability to change dashboard parameter values. This dialog is created automatically, depending on the parameter type and visibility settings.
+# Specify Dashboard Parameter Values
 
-![Parameters_DashboardParametersDialog_Web](../../../../images/img21818.png)
+The Web Dashboard control includes a built-in **Dashboard Parameters** dialog, which allows users to change dashboard parameter values. This dialog is created automatically depending on the parameter settings. Select the **Visible** check box in the [parameter settings](xref:117547) to display the parameter in the **Dashboard Parameters** dialog.
 
-To invoke the Dashboard Parameters dialog in the Web Dashboard, click the **Parameters** button (the ![Parameters_ParametersButtonWin_Title](../../../../images/img21814.png) icon) in the [dashboard title](../../dashboard-layout/dashboard-title.md).
 
-Select the required parameter values in the Dashboard Parameters dialog and click the **Submit** button to apply the changes. To restore the default values, click the **Reset** button.
+To invoke the **Dashboard Parameters** dialog in the Web Dashboard, click the **Parameters** button in the [dashboard title](xref:117383). Change the parameter values in the **Dashboard Parameters** dialog and click the **Submit** button to apply the changes.
+
+The following image shows how to invoke the **Dashboard Parameters** dialog and change the parameter value:
+
+![|Parameters Dialog](~/images/dashboard-parameters-web.gif)
+
+To reset changes to the default values, click the **Reset** button.
