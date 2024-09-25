@@ -470,14 +470,16 @@ items:
         href: articles/dashboard-designer/data-analysis/window-calculations/calculation-functions-reference.md
       - name: Window Calculation Limitations
         href: articles/dashboard-designer/data-analysis/window-calculations/window-calculation-limitations.md
-    - name: Using Dashboard Parameters
+    - name: Use Dashboard Parameters
       href: articles/dashboard-designer/data-analysis/using-dashboard-parameters.md
       items:
-      - name: Creating Parameters
+      - name: Create Dashboard Parameters
         href: articles/dashboard-designer/data-analysis/using-dashboard-parameters/creating-parameters.md
-      - name: Passing Parameter Values
+      - name: Create Cascading Parameters
+        href: articles/dashboard-designer/data-analysis/using-dashboard-parameters/create-cascading-parameters.md
+      - name: Reference Dashboard Parameters
         href: articles/dashboard-designer/data-analysis/using-dashboard-parameters/passing-parameter-values.md
-      - name: Requesting Parameter Values
+      - name: Specify Parameter Values
         href: articles/dashboard-designer/data-analysis/using-dashboard-parameters/requesting-parameter-values.md
   - name: Convert Dashboard Items
     href: articles/dashboard-designer/convert-dashboard-items.md

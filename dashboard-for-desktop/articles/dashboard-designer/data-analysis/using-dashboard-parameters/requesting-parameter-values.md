@@ -1,15 +1,17 @@
 ---
-title: Requesting Parameter Values
+title: Specify Dashboard Parameter Values
+
 author: Natalia Kazakova
 legacyId: 16524
 ---
-# Requesting Parameter Values
-The dashboard provides a built-in **Dashboard Parameters** dialog, which provides the capability to change dashboard parameter values. This dialog is created automatically, depending on the parameter type and visibility settings.
+# Specify Dashboard Parameter Values
 
-To invoke the **Dashboard Parameters** dialog in the Dashboard Designer, click the **Parameters**  (![Parameters_ParametersButtonWin_Title](../../../../images/img21814.png)) button in the [dashboard title](../../dashboard-layout/dashboard-title.md). Depending on the visibility state of the [created](creating-parameters.md) dashboard parameters, this invokes the following dialog.
+The Dashboard Designer includes a built-in **Dashboard Parameters** dialog, which allows users to change dashboard parameter values. This dialog is created automatically depending on the [parameter settings](creating-parameters.md#parameter-settings). Set the [Visible](creating-parameters.md#visible) property to `true` to display the parameter in the **Dashboard Parameters** dialog.
 
-![Parameters_DashboardParametersDialog_Win](../../../../images/img21815.png)
+To invoke the **Dashboard Parameters** dialog, click the **Parameters** button in the dashboard title. Change the parameter values in the **Dashboard Parameters** dialog and click the **Submit** button to apply the changes.
 
-Select the required parameter values in the **Dashboard Parameters** dialog and click the **Submit** button to apply the changes.
+The following image shows how to invoke the **Dashboard Parameters** dialog and change the parameter value:
 
-To reset the changes to the default values, click the **Reset** button.
+![Dashboard Parameters Dialog in WinForms](../../../../images/dashboard-parameters-dialog-win.gif)
+
+To reset changes to the default values, click the **Reset** button.
