@@ -45,9 +45,10 @@ dotnet tool update -g docfx
 
 > You can also download the latest version of DocFX directly: [releases](https://github.com/dotnet/docfx/releases).
 
-Copy the repository to your computer and checkout the branch corresponding to the version of DevExpress controls your application uses. 
+> [!Warning]
+> Do not use the `master` branch because it is the version currently under development.
 
-Do not use the `master` branch because it is the version currently under development:
+Copy the repository to your computer and checkout the branch corresponding to the version of DevExpress controls your application uses. 
 
 ```
 git clone https://github.com/DevExpress/dotnet-eud
