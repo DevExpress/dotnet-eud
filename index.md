@@ -14,7 +14,7 @@ legacyId: 5917
 
 This documentation contains information on individual user interface elements (such as grids, navigation panes, data editors, charts, etc.), and provides instructions for end users about how to solve the most-common tasks with these interface elements.
 
-The end user documentation is divided into four target platforms:
+The end user documentation is divided into the following platforms and products:
 
 #### Web (ASP.NET):
 
