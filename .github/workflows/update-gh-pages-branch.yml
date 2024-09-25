@@ -20,7 +20,7 @@ jobs:
       run: Expand-Archive ../docfx-win-x64-v2.77.0.zip -DestinationPath ../docfx
       
     - name: Build site with docfx
-      run: "../docfx/docfx.exe build docfx.json --metadata \"{ '_matomoContainerUrl': 'https://matomo.devexpress.com/js/container_kE7MWPi0.js' }\" --warningsAsErrors"
+      run: "../docfx/docfx.exe build docfx.json -m _matomoContainerUrl=\"https://matomo.devexpress.com/js/container_kE7MWPi0.js\" --warningsAsErrors"
       
     - name: Archive site
       run: Compress-Archive -Path _site/* -DestinationPath ${{ runner.temp }}/site.zip
