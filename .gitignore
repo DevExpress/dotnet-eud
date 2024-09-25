@@ -1,3 +1,2 @@
-_*
-obj
-.vscode
+_site
+*.pdf

@@ -4,6 +4,12 @@ author: Alexey Akimov
 legacyId: 5646
 ---
 # Interface Elements for Web
+
+> [!Warning]
+> This is a pre-built example of documentation. You can download the source code and use it as a white-label documentation according to our [DevExpress End-User Documentation License Agreement](https://github.com/DevExpress/dotnet-eud/blob/master/LICENSE.md). 
+>
+> View source code: [github.com/DevExpress/dotnet-eud](https://github.com/DevExpress/dotnet-eud).
+
 This documentation provides information on individual User Interface Elements such as grids, navigation panes, data editors, etc. Each element can provide context menus, allow numerous mouse operations and support a number of keyboard shortcuts.
 
 To obtain information about these features, browse through the table of contents to locate the element you are interested in.
