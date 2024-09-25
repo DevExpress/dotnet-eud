@@ -12,7 +12,7 @@ If you search for **Developer Documentation with API Reference**, refer to [docs
 ## Document Format and Supported Output Types
 Documents in this repository are written in markdown. You can manually copy the information to your own help file according to our [license](LICENSE.md).
 
-The repository uses [DocFX](https://dotnet.github.io/docfx/) to convert these files from a set of markdown topics to an HTML website or a PDF file.
+The repository uses [DocFX](https://dotnet.github.io/docfx/) to convert markdown files to an HTML website or a PDF file.
 
 You can make the following changes to the documentation, or skip this step if you want to reuse the end-user documentation as is:
    
@@ -26,7 +26,7 @@ You can make the following changes to the documentation, or skip this step if yo
 Do one of the following to view the End-User Documentation content:
 
 1. Browse this repository's content directly: [index.md](index.md)
-1. View the sample pre-built website: [devexpress.github.io/dotnet-eud](https://devexpress.github.io/dotnet-eud/)
+1. View the pre-built sample website: [devexpress.github.io/dotnet-eud](https://devexpress.github.io/dotnet-eud/)
 1. [Build an HTML Website](#build-an-html-website)
 1. [Build PDF files](#build-pdf-files)
 
@@ -34,7 +34,7 @@ Do one of the following to view the End-User Documentation content:
 
 > Prerequisites
 > - Familiarity with the command line
-> - Install [.NET SDK](https://dotnet.microsoft.com/en-us/download) 6.0 or higher
+> - [.NET SDK](https://dotnet.microsoft.com/en-us/download) 6.0 or higher
 > - [Git](https://git-scm.com/)
 
 Make sure you have [.NET SDK](https://dotnet.microsoft.com/en-us/download) installed, then open a terminal and enter the following command to install the latest DocFX:
@@ -61,20 +61,20 @@ To preview changes, open a console window and call the `docfx build` command wit
 ```bash
 docfx build D:/dotnet-eud/docfx.json --serve
 ```
-Docfx produces static HTML files under the _site folder ready for publishing to any static site hosting servers. Deploy the created documentation to a web server or browse the documentation directly from local file system. To begin, you can refer to the DocFX documentation: [Publish to GitHub Pages](https://dotnet.github.io/docfx/index.html#publish-to-github-pages).
+DocFX produces static HTML files under the *_site* folder ready to publish to any static site hosting server. Deploy the created documentation to a web server or browse the documentation directly from the local file system. For more information, refer to the DocFX documentation: [Publish to GitHub Pages](https://dotnet.github.io/docfx/index.html#publish-to-github-pages).
 
 ### Build PDF Files
 If your end users require a printed version, you can build a PDF file.
 
 You can configure PDF file generation in several ways.
 
-The resulted PDF file will be located near *toc.yml* in the *_site* folder.
+The resulted PDF file will be located next to the *toc.yml* file in the *_site* folder.
 
-#### Build locally
+#### Build Locally
 
 Open the console and call  `docfx pdf D:\test-eud\docfx.json`. You need a succeeded build before you proceed.
 
-#### docfx.json
+#### Use docfx.json
 
 Include the `pdf` command to _docfx.json_. 
 
@@ -102,7 +102,7 @@ You can generate PDF only for a specific _toc.yml_:
 }
 ```
 
-#### toc.yml
+#### Use toc.yml
 
 Include the `pdf` command to _toc.yml_ to generate PDF according to this table of content: 
 
