@@ -11,10 +11,10 @@ This topic shows how to add a dashboard parameter and specify its settings in th
 
 To create a dashboard parameter, follow the steps below.
 
-1. Invoke the [dashboard menu](ui-elements/dashboard-menu.md) and select **Parameters**.
+1. Invoke the [dashboard menu](../../ui-elements/dashboard-menu.md) and select **Parameters**.
 2. In the **Parameter List**, click the **Add** button. The parameter's settings form appears as follows:
 
-	![Web Dashboard - Add a New Dashboard Parameter](~/images/img126106.png)
+	![Web Dashboard - Add a New Dashboard Parameter](../../../../images/img126106.png)
 
 3. Specify the parameter's settings. 
 
@@ -36,7 +36,7 @@ When you create and modify parameter names, follow the rules below:
 
 Specifies the parameter description displayed in the **Parameter** column of the [Dashboard Parameters](requesting-parameter-values.md) dialog:
 
-![Dashboard Parameter with Description](~/images/dashboard-parameter-description.png)
+![Dashboard Parameter with Description](../../../../images/dashboard-parameter-description.png)
 	
 ### Visible
 	
@@ -50,8 +50,9 @@ Specifies whether a null value can be passed as a parameter value.
 	
 Specifies whether multi-selection is enabled for the current parameter.
 
-[!include[allow-multi-select-limitation-parameters](~/templates/allow-multi-select-limitation-parameters.md)]
-		
+* Use the **Is any of** or **Is none of** operators to pass a multi-select parameter to a filter criteria or to the Expression format condition.
+* Use the **In** or **Not In** operators to pass a multi-select parameter to a calculated field expression.
+
 ### Select All Values
 	 
 Specifies whether all parameter values should be selected in the initial state of the dashboard. 
@@ -86,30 +87,32 @@ Specifies the parameter's look-up editor settings.
 
 The following **Look-up Settings** are available in the Web Dashboard:
 	
-No Look-Up
-:	An end user specifies the parameter value in the **Dashboard Parameters** dialog.
+#### No Look-Up
 
-Static List
-:	An end user selects a parameter value from a static list. To add predefined parameter values, use the plus button.
+An end user specifies the parameter value in the **Dashboard Parameters** dialog.
+
+#### Static List
+
+An end user selects a parameter value from a static list. To add predefined parameter values, use the plus button.
 		
-Dynamic List
+#### Dynamic List
 	 
-:	An end user selects a parameter value defined in a data source. 
-	
-	>[!TIP]
-	>You can also create cascading parameters in the Web Dashboard. For more information, refer to the following topic: [Cascading Parameters](create-cascading-parameters.md).
-  
-	You can specify a data source as a source for dashboard parameter values. To provide access to data source values, specify the following options:
+An end user selects a parameter value defined in a data source. 
 
-	|UI Settings|Description|
-	|--------|-----------|
-	|**Data Source**| Specifies the data source for the dashboard parameter.|
-	|**Data Member**| Specifies the name of the data member with the parameter values for SQL and Entity Framework data sources.|
-	|**Value Member**|Specifies the name of the data field for the parameter values.|
-	|**Display Member** (optional)| Specifies the name of the data field displayed in the **Dashboard Parameters** dialog as a value description.|
-	|**Sort By** (optional)|Specifies the data member used to sort parameter values.|
-	|**Sort Order** (optional)|Specifies the sort order.|
+>[!TIP]
+>You can also create cascading parameters in the Web Dashboard. For more information, refer to the following topic: [Cascading Parameters](create-cascading-parameters.md).
 
-	>[!NOTE]
-	>You cannot use an OLAP data source as the data source for a dashboard parameter.
+You can specify a data source as a source for dashboard parameter values. To provide access to data source values, specify the following options:
+
+|UI Settings|Description|
+|--------|-----------|
+|**Data Source**| Specifies the data source for the dashboard parameter.|
+|**Data Member**| Specifies the name of the data member with the parameter values for SQL and Entity Framework data sources.|
+|**Value Member**|Specifies the name of the data field for the parameter values.|
+|**Display Member** (optional)| Specifies the name of the data field displayed in the **Dashboard Parameters** dialog as a value description.|
+|**Sort By** (optional)|Specifies the data member used to sort parameter values.|
+|**Sort Order** (optional)|Specifies the sort order.|
+
+>[!NOTE]
+>You cannot use an OLAP data source as the data source for a dashboard parameter.
 

@@ -310,11 +310,13 @@
     - name: Dashboard Parameters
       href: articles/web-dashboard-designer-mode/data-analysis/dashboard-parameters.md
       items:
-      - name: Creating Parameters
-        href: articles/web-dashboard-designer-mode/data-analysis/dashboard-parameters/creating-parameters.md
-      - name: Passing Parameter Values
+      - name: Create Dashboard Parameters
+        href: articles/web-dashboard-designer-mode/data-analysis/dashboard-parameters/creating-parameters.md      
+      - name: Create Cascading Parameters
+        href: articles/web-dashboard-designer-mode/data-analysis/dashboard-parameters/create-cascading-parameters.md
+      - name: Reference Dashboard Parameters
         href: articles/web-dashboard-designer-mode/data-analysis/dashboard-parameters/passing-parameter-values.md
-      - name: Requesting Parameter Values
+      - name: Specify Parameter Values
         href: articles/web-dashboard-designer-mode/data-analysis/dashboard-parameters/requesting-parameter-values.md
     - name: Expression Constants, Operators, and Functions
       href: articles/web-dashboard-designer-mode/data-analysis/expression-constants-operators-and-functions.md

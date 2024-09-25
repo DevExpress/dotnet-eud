@@ -475,7 +475,7 @@
       - name: Create Dashboard Parameters
         href: articles/dashboard-designer/data-analysis/using-dashboard-parameters/creating-parameters.md
       - name: Create Cascading Parameters
-        href: articles/dashboard-designer/data-analysis/using-dashboard-parameters/creating-parameters.md
+        href: articles/dashboard-designer/data-analysis/using-dashboard-parameters/create-cascading-parameters.md
       - name: Reference Dashboard Parameters
         href: articles/dashboard-designer/data-analysis/using-dashboard-parameters/passing-parameter-values.md
       - name: Specify Parameter Values
