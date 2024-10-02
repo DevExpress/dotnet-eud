@@ -39,7 +39,7 @@ The steps below create cascading parameters in the Web Dashboard:
     ![Dashboard for Web - Filter Query](../../../../images/web-filter-properties.png)
 
    
-   In the [Filter Editor](../../ui-elements/dialogs-and-wizards/filter-editor.md), specify the filter criteria. From the drop-down list select *Parameter* and create a new [query parameter](../../provide-data/working-with-sql-data-sources//pass-query-parameters.md) called **categoryQueryParam**:
+   In the [Filter Editor](../../ui-elements/dialogs-and-wizards/filter-editor.md), specify the filter criteria. From the drop-down list select *Parameter* and create a new [query parameter](../../provide-data/working-with-sql-data-sources/pass-query-parameters.md) called **categoryQueryParam**:
 
     ![Dashboard for Web - Filter Query](../../../../images/web-category-parameter-filter-cascading.png)
 

@@ -9,7 +9,7 @@ This document describes the **Print Preview** window, which displays the dashboa
 ![PrintPreviewRibbon](../../../images/img22919.png)
 
 ## Specific Options
-In the Print Preview, you can change the orientation and size of the printed page, specify the margins, scale the document, etc. To learn more, see [Print Preview for WinForms](../../../../interface-elements-for-desktop/articles/print-preview/print-preview-for-winforms.md).
+In the Print Preview, you can change the orientation and size of the printed page, specify the margins, scale the document, etc. To learn more, see [Print Preview for WinForms](~/interface-elements-for-desktop/articles/print-preview/print-preview-for-winforms.md).
 
 You can also customize printing options specific to a dashboard/dashboard item. To do this, click the **Options** button in the **Print** group. 
 When previewing the dashboard, the following **Options** dialog will be invoked.

@@ -12,7 +12,7 @@ This topic describes how to reference a dashboard parameter in [filter strings](
 
 ## SQL Queries and Stored Procedures
  
-You can filter the SQL data sources dynamically if you bind a [query parameter](../../provide-data/working-with-sql-data-sources//pass-query-parameters.md) to a dashboard parameter.
+You can filter the SQL data sources dynamically if you bind a [query parameter](../../provide-data/working-with-sql-data-sources/pass-query-parameters.md) to a dashboard parameter.
 
 Invoke the **Data Source Wizard** window or use the **Properties** section of the [Query Builder](../../ui-elements/dialogs-and-wizards/query-builder.md) to access the query parameter settings. Change the query parameter type to *Expression* and specify the expression with a dashboard parameter in the **Value** field:
 
@@ -22,7 +22,7 @@ The resulting query parameter settings may appear as follows:
 
 ![Query Parameter - Expression Type with Parameter](../../../../images/wdd-query-parameters-parameter-expression.png)
 
-Refer to the following article for more information about query parameters: [Use Query Parameters](../../provide-data/working-with-sql-data-sources//pass-query-parameters.md).
+Refer to the following article for more information about query parameters: [Use Query Parameters](../../provide-data/working-with-sql-data-sources/pass-query-parameters.md).
 
 >[!TIP]
 >For information on how to filter Excel, Object, XPO, and JSON data sources, refer to the following article: [Filter Data Sources](../../provide-data/filter-data-sources.md).
