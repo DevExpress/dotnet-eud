@@ -4,7 +4,7 @@ author: Anna Gubareva
 legacyId: 116448
 ---
 # Export Document Dialog
-The Print Preview allows you to view and edit various format-specific options, and then export a report to one of the supported third-party formats. There are two options for [exporting](/interface-elements-for-desktop/articles/print-preview/print-preview-for-wpf/exporting/exporting.md) a document. The first way is to export a document to a file on disk using the **Export Document** dialog.
+The Print Preview allows you to view and edit various format-specific options, and then export a report to one of the supported third-party formats. There are two options for [exporting](~/interface-elements-for-desktop/articles//print-preview/print-preview-for-wpf/exporting/exporting.md) a document. The first way is to export a document to a file on disk using the **Export Document** dialog.
 
 ![WPFDesigner_ExportDocumentDialog](../../../../images/img120186.png)
 

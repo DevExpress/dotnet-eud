@@ -29,7 +29,7 @@ These functions can be used for all types of numeric fields. After creating such
 
 ## Custom Aggregate Functions
 
-Along with the predefined aggregations (like Min, Max, Sum, Avg), the Dashboard supports custom aggregation functions. A custom aggregate function appears in the [Expression Editor](../../../../../interface-elements-for-desktop/articles/expression-editor.md)'s categories if the function was registered in your application.
+Along with the predefined aggregations (like Min, Max, Sum, Avg), the Dashboard supports custom aggregation functions. A custom aggregate function appears in the [Expression Editor](~/interface-elements-for-desktop/articles/expression-editor.md)'s categories if the function was registered in your application.
 
 The following image illustrates the custom _StringConcat_ function in the **Aggregate** function’s category:
 
