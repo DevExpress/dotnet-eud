@@ -10,7 +10,7 @@ The following DevExpress products extend and/or override this syntax. The table 
 
 |Product | Article |
 |---|---|
-|Reporting	| [Expression Constants, Operators, and Functions](~/reporting-for-desktop/report-designer/report-designer-for-winforms/use-expressions/expression-language.md)
+|Reporting	| [Expression Constants, Operators, and Functions](~/reporting-for-desktop/articles/report-designer/report-designer-for-winforms/use-expressions/expression-language.md)
 |Pivot Grid	| [Pivot Grid Expression Syntax](../pivot-table/data-editing/pivot-grid-expression-syntax.md)
 
 ## Operators
