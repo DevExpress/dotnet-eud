@@ -20,7 +20,7 @@ This tutorial illustrates how to filter data at the report data source level, as
 
     ![](../../../../../images/eurd-win-filer-data-source-filter-string-property.png)
 
-5. In the invoked [Filter Editor](~/interface-elements-for-desktop/articles//filter-editor.md), construct an expression where the data fields are compared with the required values as shown below.
+5. In the invoked [Filter Editor](~/interface-elements-for-desktop/articles/filter-editor.md), construct an expression where the data fields are compared with the required values as shown below.
 
     ![](../../../../../images/eurd-win-filer-data-source-filter-string.png)
 

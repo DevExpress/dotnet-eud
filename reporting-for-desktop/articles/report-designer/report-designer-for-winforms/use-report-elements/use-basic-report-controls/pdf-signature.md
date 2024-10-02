@@ -6,7 +6,7 @@ author: Sergey Andreev
 
 **PDF Signature** is a control that adds a visual signature to a report exported to PDF.
 
-You can sign a report document when you [export it to PDF](~/interface-elements-for-desktop/articles//print-preview/print-preview-for-winforms/exporting/exporting-from-print-preview.md). The signature information you specify is saved to the document's **PDF Signature Options**. The **PDF Signature** control visualizes the document signature information:
+You can sign a report document when you [export it to PDF](~/interface-elements-for-desktop/articles/print-preview/print-preview-for-winforms/exporting/exporting-from-print-preview.md). The signature information you specify is saved to the document's **PDF Signature Options**. The **PDF Signature** control visualizes the document signature information:
 
 * Certificate name
 * Distinguished name
