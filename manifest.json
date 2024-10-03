@@ -52957,6 +52957,16 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "reporting-for-desktop/articles/report-designer/report-designer-for-winforms/shape-report-data/calculate-summaries/calculate-carriedforward-broughtforward.md",
+      "output": {
+        ".html": {
+          "relative_path": "reporting-for-desktop/articles/report-designer/report-designer-for-winforms/shape-report-data/calculate-summaries/calculate-carriedforward-broughtforward.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "reporting-for-desktop/articles/report-designer/report-designer-for-winforms/shape-report-data/count-elements-and-values.md",
       "output": {
         ".html": {
@@ -53161,6 +53171,16 @@
       "output": {
         ".html": {
           "relative_path": "reporting-for-desktop/articles/report-designer/report-designer-for-winforms/shape-report-data/specify-conditions-for-report-elements/conditionally-supress-controls.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "reporting-for-desktop/articles/report-designer/report-designer-for-winforms/shape-report-data/specify-conditions-for-report-elements/display-average-values-in-charts.md",
+      "output": {
+        ".html": {
+          "relative_path": "reporting-for-desktop/articles/report-designer/report-designer-for-winforms/shape-report-data/specify-conditions-for-report-elements/display-average-values-in-charts.html"
         }
       },
       "version": ""
@@ -55617,6 +55637,36 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "reporting-for-desktop/images/accessible-exported-document-with-label.png",
+      "output": {
+        "resource": {
+          "relative_path": "reporting-for-desktop/images/accessible-exported-document-with-label.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reporting-for-desktop/images/accessible-exported-document-with-table.png",
+      "output": {
+        "resource": {
+          "relative_path": "reporting-for-desktop/images/accessible-exported-document-with-table.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reporting-for-desktop/images/accessible-exported-document-with-tablerow.png",
+      "output": {
+        "resource": {
+          "relative_path": "reporting-for-desktop/images/accessible-exported-document-with-tablerow.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "reporting-for-desktop/images/add-new-parameter-dialog.png",
       "output": {
         "resource": {
@@ -55631,6 +55681,16 @@
       "output": {
         "resource": {
           "relative_path": "reporting-for-desktop/images/add-watermarks-in-the-collection-editor.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reporting-for-desktop/images/average-price-example.png",
+      "output": {
+        "resource": {
+          "relative_path": "reporting-for-desktop/images/average-price-example.png"
         }
       },
       "version": ""
@@ -55701,6 +55761,16 @@
       "output": {
         "resource": {
           "relative_path": "reporting-for-desktop/images/built-in-parameter-types.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reporting-for-desktop/images/carryover-scheme.png",
+      "output": {
+        "resource": {
+          "relative_path": "reporting-for-desktop/images/carryover-scheme.png"
         }
       },
       "version": ""
@@ -56361,6 +56431,16 @@
       "output": {
         "resource": {
           "relative_path": "reporting-for-desktop/images/display-specific-watermark-example.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reporting-for-desktop/images/display-transactions-for-a-user-account.png",
+      "output": {
+        "resource": {
+          "relative_path": "reporting-for-desktop/images/display-transactions-for-a-user-account.png"
         }
       },
       "version": ""
@@ -72567,6 +72647,16 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "reporting-for-desktop/images/label-assesible-role.png",
+      "output": {
+        "resource": {
+          "relative_path": "reporting-for-desktop/images/label-assesible-role.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "reporting-for-desktop/images/labels-and-badges-report-preview.png",
       "output": {
         "resource": {
@@ -73527,6 +73617,16 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "reporting-for-desktop/images/specify-expression-in-the-expression-editor.png",
+      "output": {
+        "resource": {
+          "relative_path": "reporting-for-desktop/images/specify-expression-in-the-expression-editor.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "reporting-for-desktop/images/specify-navigate-to-report-action.png",
       "output": {
         "resource": {
@@ -73577,10 +73677,40 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "reporting-for-desktop/images/table-assesible-role.png",
+      "output": {
+        "resource": {
+          "relative_path": "reporting-for-desktop/images/table-assesible-role.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "reporting-for-desktop/images/table-report-preview.png",
       "output": {
         "resource": {
           "relative_path": "reporting-for-desktop/images/table-report-preview.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reporting-for-desktop/images/table-row-assesible-role.png",
+      "output": {
+        "resource": {
+          "relative_path": "reporting-for-desktop/images/table-row-assesible-role.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reporting-for-desktop/images/tablecell-assesible-role.png",
+      "output": {
+        "resource": {
+          "relative_path": "reporting-for-desktop/images/tablecell-assesible-role.png"
         }
       },
       "version": ""
@@ -74161,6 +74291,26 @@
       "output": {
         "resource": {
           "relative_path": "reporting-for-desktop/images/wpf-watermarks-expression-example.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reporting-for-desktop/images/xrcontrol-invoke-the-expression-editor.png",
+      "output": {
+        "resource": {
+          "relative_path": "reporting-for-desktop/images/xrcontrol-invoke-the-expression-editor.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reporting-for-desktop/images/xrlabel-in-repetitive-bands.png",
+      "output": {
+        "resource": {
+          "relative_path": "reporting-for-desktop/images/xrlabel-in-repetitive-bands.png"
         }
       },
       "version": ""

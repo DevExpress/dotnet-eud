@@ -2,21 +2,21 @@
 <html>
   <head>
     <meta charset="utf-8">
-      <title>Calculate Summaries | DevExpress End-User Documentation </title>
+      <title>Display Average Values in Charts | DevExpress End-User Documentation </title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta name="title" content="Calculate Summaries | DevExpress End-User Documentation ">
+      <meta name="title" content="Display Average Values in Charts | DevExpress End-User Documentation ">
       
       
-      <link rel="icon" href="../../../../../favicon.ico">
-      <link rel="stylesheet" href="../../../../../public/docfx.min.css">
-      <link rel="stylesheet" href="../../../../../public/main.css">
-      <meta name="docfx:navrel" content="../../../../../toc.html">
-      <meta name="docfx:tocrel" content="../../../../toc.html">
+      <link rel="icon" href="../../../../../../favicon.ico">
+      <link rel="stylesheet" href="../../../../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../../../../toc.html">
+      <meta name="docfx:tocrel" content="../../../../../toc.html">
       
-      <meta name="docfx:rel" content="../../../../../">
+      <meta name="docfx:rel" content="../../../../../../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/DevExpress/dotnet-eud/blob/24.1/reporting-for-desktop/articles/report-designer/report-designer-for-winforms/shape-report-data/calculate-summaries.md/#L1">
+      <meta name="docfx:docurl" content="https://github.com/DevExpress/dotnet-eud/blob/24.1/reporting-for-desktop/articles/report-designer/report-designer-for-winforms/shape-report-data/specify-conditions-for-report-elements/display-average-values-in-charts.md/#L1">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -30,7 +30,7 @@
       <meta name="loc:copy" content="Copy">
       <meta name="loc:downloadPdf" content="Download PDF">
 
-      <script type="module" src="./../../../../../public/docfx.min.js"></script>
+      <script type="module" src="./../../../../../../public/docfx.min.js"></script>
 
       <script>
         const theme = localStorage.getItem('theme') || 'auto'
@@ -51,8 +51,8 @@
     <header class="bg-body border-bottom">
       <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
         <div class="container-xxl flex-nowrap">
-          <a class="navbar-brand" href="../../../../../index.html">
-            <img id="logo" class="svg" src="../../../../../logo.svg" alt="DevExpress EUD">
+          <a class="navbar-brand" href="../../../../../../index.html">
+            <img id="logo" class="svg" src="../../../../../../logo.svg" alt="DevExpress EUD">
             DevExpress EUD
           </a>
           <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
@@ -93,20 +93,23 @@
         </div>
 
         <article data-uid="">
-<h1 id="calculate-summaries">Calculate Summaries</h1>
+<h1 id="display-average-values-in-charts">Display Average Values in Charts</h1>
 
-<p>Topics in this section describe how to calculate summaries in a report.</p>
-<ul>
-<li><a href="calculate-summaries/calculate-a-summary.html">Calculate a Summary</a></li>
-<li><a href="calculate-summaries/calculate-a-weighted-average.html">Calculate a Weighted Average</a></li>
-<li><a href="calculate-summaries/calculate-an-advanced-summary.html">Calculate an Advanced Summary</a></li>
-<li><a href="calculate-summaries/calculate-carriedforward-broughtforward.html">Calculate Carried Forward/Brought Forward</a></li>
-</ul>
+<p>The following tutorial explains how to bind a chart’s constant line to an expression that calculates the average of all displayed values.</p>
+<h2 id="bind-a-constant-line-to-an-expression">Bind a Constant Line to an Expression</h2>
+<p>Select the <strong>Chart</strong> control. The “f” button appears next to the selection. Click this button to invoke the Expression Editor:</p>
+<p><img src="../../../../../images/xrcontrol-invoke-the-expression-editor.png" alt="Invoke the Expression Editor"></p>
+<p>In the invoked editor, specify the following expression for the <strong>Axis Value</strong> property and click OK.</p>
+<p><code>[CategoriesProducts].Avg([UnitPrice])</code></p>
+<p><img src="../../../../../images/specify-expression-in-the-expression-editor.png" alt="Bind a constant line to an expression"></p>
+<h2 id="see-the-result">See the Result</h2>
+<p>Run the application. Constant lines show average product prices in each category.</p>
+<p><img src="../../../../../images/average-price-example.png" alt="Result"></p>
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/DevExpress/dotnet-eud/blob/24.1/reporting-for-desktop/articles/report-designer/report-designer-for-winforms/shape-report-data/calculate-summaries.md/#L1" class="edit-link">Edit this page</a>
+          <a href="https://github.com/DevExpress/dotnet-eud/blob/24.1/reporting-for-desktop/articles/report-designer/report-designer-for-winforms/shape-report-data/specify-conditions-for-report-elements/display-average-values-in-charts.md/#L1" class="edit-link">Edit this page</a>
         </div>
 
         <div class="next-article d-print-none border-top" id="nextArticle"></div>
