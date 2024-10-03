@@ -344,6 +344,8 @@ items:
         href: articles/report-designer/report-designer-for-winforms/shape-report-data/specify-conditions-for-report-elements/conditionally-supress-controls.md
       - name: Limit the Number of Records per Page
         href: articles/report-designer/report-designer-for-winforms/shape-report-data/specify-conditions-for-report-elements/limit-the-number-of-records-per-page.md
+      - name: Display Average Values in Charts
+        href: articles/report-designer/report-designer-for-winforms/shape-report-data/specify-conditions-for-report-elements/display-average-values-in-charts.md
     - name: Calculate Summaries
       href: articles/report-designer/report-designer-for-winforms/shape-report-data/calculate-summaries.md
       items:
@@ -353,6 +355,8 @@ items:
         href: articles/report-designer/report-designer-for-winforms/shape-report-data/calculate-summaries/calculate-a-weighted-average.md
       - name: Calculate an Advanced Summary
         href: articles/report-designer/report-designer-for-winforms/shape-report-data/calculate-summaries/calculate-an-advanced-summary.md
+      - name: Calculate Carried Forward/Brought Forward
+        href: articles/report-designer/report-designer-for-winforms/shape-report-data/calculate-summaries/calculate-carriedforward-broughtforward.md
     - name: Count Elements and Values
       href: articles/report-designer/report-designer-for-winforms/shape-report-data/count-elements-and-values.md
       items:
