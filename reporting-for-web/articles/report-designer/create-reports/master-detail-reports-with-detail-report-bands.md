@@ -1,6 +1,6 @@
 ---
 title: Master-Detail Report with Detail Report Bands
-author: Anna Vekhina
+author: Natalia Kazakova
 ---
 # Master-Detail Report with Detail Report Bands
 
@@ -12,11 +12,11 @@ This tutorial illustrates how to display hierarchical data in a master-detail re
 
 2. [Bind the report](../bind-to-data.md) to the required data source and set up a master-detail relationship as described in the [Bind a Report to a Database](../bind-to-data/bind-a-report-to-a-database.md) topic.
 
-3. Drop the required data fields from the [Field List](../report-designer-tools/ui-panels/field-list.md) onto the [Detail](../introduction-to-banded-reports.md) band.
+3. Drop data fields of the main table from the [Field List](../report-designer-tools/ui-panels/field-list.md) onto the [Detail](../introduction-to-banded-reports.md) band.
 
     ![](../../../images/eurd-web-master-detail-drop-fields-for-master-layout.png)
 
-4. Click **Insert Detail Report Band** to create a [Detail Report Band](../introduction-to-banded-reports.md).
+4. Right-click the report and select  **Insert Band**→**DetailBand** to create a [Detail Report Band](../introduction-to-banded-reports.md).
 
     ![](../../../images/eurd-web-master-detail-insert-detail-report-band.png)
 
