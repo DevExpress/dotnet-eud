@@ -13,7 +13,7 @@ This topic describes how to create a date range parameter and filter a report's 
 
 Follow the steps below to add a date range parameter to a report in the [Report Designer](../first-look-at-the-report-designer.md):
 
-1. [Create a report parameter](create-a-report-parameter.md) and set the **Value Source** option to **Range Parameters**. The **Start Parameter** and **End Parameter** sections appear, and you can configure options in these sections to create a date range.
+1. [Create a report parameter](create-a-report-parameter.md) with the **Date & Time** type and set its **Value Source** option to **Range Parameters**. The **Start Parameter** and **End Parameter** sections appear, and you can configure options in these sections to create a date range.
 
     ![add-parameter-dialog](../../../images/use-date-ranges-design-add-param-dialog.png)
 
