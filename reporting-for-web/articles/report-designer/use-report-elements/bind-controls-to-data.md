@@ -29,6 +29,10 @@ To select multiple fields in the Field List, hold CTRL or SHIFT and click the fi
 
 ![](../../../images/eurd-web-list-drop-multiple-fields.png)
 
+Select multiple data fields, a query, or a table in the Field List. Hold `Shift` when you drag the fields and drop them onto the report design area. This creates a data table with data field names.
+
+![eurd-web-list-drop-table-with-field-headers](~/reporting-for-web/images/eurd-web-list-drop-table-with-field-headers.png)
+
 ## Use the Properties Panel
 
 Select a report control and switch to the [Properties](../report-designer-tools/ui-panels/properties-panel.md) panel. Click the **Text** property's marker and select **Text Expression** from the popup menu. Select a data field or construct a binding [expression](../use-expressions/expression-language.md) in the invoked [Expression Editor](../report-designer-tools/expression-editor.md).

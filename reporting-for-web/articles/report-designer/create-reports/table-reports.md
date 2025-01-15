@@ -16,11 +16,11 @@ This tutorial describes how to create a data-bound report displaying information
 
     ![](../../../images/eurd-web-table-report-insert-page-header.png)
 
-4. Drop the [Table](../use-report-elements/use-tables.md) control from the [Toolbox](../report-designer-tools/toolbox.md) onto the Page Header band and specify columns' text to create column headers.
+4. To provide dynamic content to the report, switch to the [Field List](../report-designer-tools/ui-panels/field-list.md),select data fields, hold `Shift` when you drag the fields and drop them onto the report design area. This creates a data table with data field names.
 
     ![](../../../images/eurd-web-table-report-add-static-captions.png)
 
-5. To provide dynamic content to the report, switch to the [Field List](../report-designer-tools/ui-panels/field-list.md), select data fields and drop them onto the Detail band.
+5. In the Field list, select data fields and drop them onto the Detail band.
 
     ![](../../../images/eurd-web-table-report-add-dynamic-content.png)
 

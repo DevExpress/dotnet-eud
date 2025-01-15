@@ -52,9 +52,13 @@ Dropping an entire data table onto a report creates a table with its columns bou
 
 ![](../../../../images/eurd-web-field-list-drop-table.png)
 
-To select multiple fields, click them with holding the CTRL or SHIFT key. Dropping these fields onto a report creates a new table with its cells bound to the corresponding fields.
+To select multiple fields, click them with holding the `Ctrl` or `Shift` key. Dropping these fields onto a report creates a new table with its cells bound to the corresponding fields.
 
 ![](../../../../images/eurd-web-list-drop-multiple-fields.png)
+
+Select multiple data fields, a query, or a table in the Field List. Hold `Shift` when you drag the fields and drop them onto the report design area. This creates a data table with data field names.
+
+![eurd-web-list-drop-table-with-field-headers](~/reporting-for-web/images/eurd-web-list-drop-table-with-field-headers.png)
 
 ## Data shaping operations
 
