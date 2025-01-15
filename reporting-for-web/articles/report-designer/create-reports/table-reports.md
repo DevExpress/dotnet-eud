@@ -30,6 +30,8 @@ This tutorial describes how to create a data-bound report displaying information
 
     ![](../../../images/eurd-web-table-report-select-both-tables.png)
 
+    Alternatively, you can select one cell and press `Esc` to go to one level up and select the entire row.
+
 7. Expand the **Appearance** category and specify the **Font**, **Text Alignment** and **Borders** properties to customize the tables' appearance.
 
     ![](../../../images/eurd-web-table-report-set-up-appearance.png)
