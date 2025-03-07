@@ -18,7 +18,7 @@ Refer to the following article for more information: [Micro QR Code](https://www
 
     ![|add barcode to report designer](~/reporting-for-desktop/images/drag-and-drop-barcode.png)
 
-2. Set the control’s **Symbology** property to **MicroQRCode**. 
+2. Set the control’s **Symbology** property to **Micro QR Code**. 
 
     ![|Micro QR Code Properties](~/reporting-for-desktop/images/micro-qrcode-in-designer-win.png)
 
@@ -28,14 +28,18 @@ Refer to the following article for more information: [Micro QR Code](https://www
 
 In the [property grid](../../report-designer-tools/ui-panels/property-grid-tabbed-view.md), expand the **Symbology** list and specify the following properties specific to **Micro QR Code**:
 
-Compaction Mode
-:    Specifies whether the barcode contains a number, an alphanumeric string, or a byte array.
+- **Compaction Mode**
+  
+  Specifies whether the barcode contains a number, an alphanumeric string, or a byte array.
 
-Error Correction Level
-:   Specifies the amount of redundancy built into the Micro QR code to compensate for calculation errors.
+- **Error Correction Level**
+  
+  Specifies the amount of redundancy built into the Micro QR code to compensate for calculation errors.
 
-Include Quiet Zone
-:   Specifies whether to add a blank space around the Micro QR code to help separate the Micro QR code from neighboring elements.
+- **Include Quiet Zone**
 
-Version
-:   Gets or sets the barcode’s version.
+  Specifies whether to add a blank space around the Micro QR code to help separate the Micro QR code from neighboring elements.
+
+- **Version**
+  
+  Gets or sets the barcode’s version.
