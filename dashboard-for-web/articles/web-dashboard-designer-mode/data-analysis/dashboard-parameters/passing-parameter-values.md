@@ -49,14 +49,17 @@ Click **OK** to save the created filter criteria. Now, when you change the dashb
 
 Web Dashboard allows you to use the following data filters in dashboard items:
 
-[Dashboard Item Filter](../../data-shaping/filtering.md#dashboard-item-filter)
-:    Filters individual dashboard items independently.
+- [Dashboard Item Filter](../../data-shaping/filtering.md#dashboard-item-filter)
 
-[Measure Filter](../../data-shaping/filtering.md#measure-filter)
-:    Filters only the specified measure in the dashboard item.
+  Filters individual dashboard items independently.
 
-[Visible Data Filter](../../data-shaping/filtering.md#visible-data-filter)
-:     Hides a part of the calculated data from the view. This filter type does not filter underlying data used in calculations or intermediate level aggregations.
+- [Measure Filter](../../data-shaping/filtering.md#measure-filter)
+
+  Filters only the specified measure in the dashboard item.
+
+- [Visible Data Filter](../../data-shaping/filtering.md#visible-data-filter)
+
+  Hides a part of the calculated data from the view. This filter type does not filter underlying data used in calculations or intermediate level aggregations.
 
 To apply filtering based on a dynamic value, you need to use a dashboard parameter in a filter criteria. The following example describes how to filter a dashboard item according to a dashboard parameter value. 
 
