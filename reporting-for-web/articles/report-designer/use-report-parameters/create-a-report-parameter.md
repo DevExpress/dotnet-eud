@@ -68,7 +68,9 @@ You can also assign an [expression](../use-expressions.md) to this option. The e
 The type of parameter values. The following types are available:
 
 * String;
+* Date and Time;
 * Date;
+* Time;
 * Number (16-bit integer);
 * Number (32-bit integer);
 * Number (64-bit integer);
