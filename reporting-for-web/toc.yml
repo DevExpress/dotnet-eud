@@ -243,6 +243,8 @@ items:
         href: articles/report-designer/use-report-elements/use-bar-codes/postnet.md
       - name: QR Code
         href: articles/report-designer/use-report-elements/use-bar-codes/qr-code.md
+      - name: Micro QR Code
+        href: articles/report-designer/use-report-elements/use-bar-codes/micro-qr-code.md
       - name: GS1 QR Code
         href: articles/report-designer/use-report-elements/use-bar-codes/gs1-qr-code.md
       - name: EPC QR Code
