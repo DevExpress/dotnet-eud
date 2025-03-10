@@ -16,11 +16,11 @@ This tutorial describes how to create a data-bound report displaying information
 
     ![](../../../images/eurd-web-table-report-insert-page-header.png)
 
-4. Switch to the [Field List](../report-designer-tools/ui-panels/field-list.md), select data fields, hold `Shift` when you drag the fields and drop them onto the report design area. This creates a data table with data field names.
+4. Switch to the [Field List](../report-designer-tools/ui-panels/field-list.md), select data fields, hold `Shift` when you drag fields and drop them onto the report design area. This creates a data table with data field names.
 
     ![](../../../images/eurd-web-table-report-add-static-captions.png)
 
-5. To provide dynamic content to the report, in the Field list, select data fields and drop them onto the Detail band.
+5. To provide dynamic content to the report, select data fields and drop them onto the Detail band in the Field list.
 
     ![](../../../images/eurd-web-table-report-add-dynamic-content.png)
 
@@ -30,9 +30,9 @@ This tutorial describes how to create a data-bound report displaying information
 
     ![](../../../images/eurd-web-table-report-select-both-tables.png)
 
-    Alternatively, you can select one cell and press `Esc` to go to one level up and select the entire row.
+    Alternatively, you can select one cell and press `Esc` to move one level up and select an entire row.
 
-7. Expand the **Appearance** category and specify the **Font**, **Text Alignment** and **Borders** properties to customize the tables' appearance.
+7. Expand the **Appearance** category and specify the **Font**, **Text Alignment**, and **Borders** properties to customize table appearance.
 
     ![](../../../images/eurd-web-table-report-set-up-appearance.png)
 
