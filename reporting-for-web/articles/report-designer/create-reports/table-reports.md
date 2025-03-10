@@ -4,7 +4,7 @@ author: Anna Vekhina
 ---
 # Table Reports
 
-This tutorial describes how to create a data-bound report displaying information in a tabular format. Table reports should not be confused with hierarchical [master-detail reports](master-detail-reports-with-detail-report-bands.md), nor with [cross-tab reports](cross-tab-reports.md).
+This tutorial describes how to create a data-bound report that displays information in a tabular format. Table reports should not be confused with hierarchical [master-detail reports](master-detail-reports-with-detail-report-bands.md), nor with [cross-tab reports](cross-tab-reports.md).
 
 ![](../../../images/eurd-web-table-report-result.png)
 
@@ -12,7 +12,7 @@ This tutorial describes how to create a data-bound report displaying information
 
 2. [Bind the report](../bind-to-data.md) to a required data source.
 
-3. Add the [Page Header](../introduction-to-banded-reports.md) band to the report to print the column headers at the top of every document page. To do this, from the report's context menu, select the **Insert Page Header Band** command.
+3. Add the [Page Header](../introduction-to-banded-reports.md) band to the report to print the column headers at the top of every document page. To do this, select the **Insert Page Header** Band command from the report's context menu.
 
     ![](../../../images/eurd-web-table-report-insert-page-header.png)
 
@@ -40,12 +40,13 @@ This tutorial describes how to create a data-bound report displaying information
 
     ![](../../../images/eurd-web-table-report-format-string.png)
 
-9.  To further improve the table readability, you can apply different visual styles to its odd and even rows. See [Report Visual Styles](../customize-appearance/report-visual-styles.md) to learn more. 
+9.  To further improve table readability, you can apply different visual styles to odd and even rows. See [Report Visual Styles](../customize-appearance/report-visual-styles.md) to learn more.
 
     ![](../../../images/eurd-web-table-report-odd-even-styles.png)
-	
-	See the [Use Tables](../use-report-elements/use-tables.md) section to learn how to add or remove the table's rows and cells, as well as convert the table's cells to separate label controls.
 
-Switch to [Print Preview](../preview-print-and-export-reports.md) to see the resulting report.
+    See the [Use Tables](../use-report-elements/use-tables.md) section to learn how to add or remove table rows and cells, and how to convert table cells to separate label controls.
+
+
+Switch to [Print Preview](../preview-print-and-export-reports.md) to see the generated report.
 
 ![](../../../images/eurd-web-table-report-result.png)

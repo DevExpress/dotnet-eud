@@ -4,14 +4,14 @@ author: Anna Vekhina
 ---
 # Bind Report Controls to Data
 
-You can use the following approaches to include a data source's information in your report:
+You can use the following approaches to include data source information in your report:
 
 * [Use the Field List](#use-the-field-list)
 * [Use the Properties Panel](#use-the-properties-panel)
 
 ## Use the Field List
 
-After you [bind your report to data](../bind-to-data.md), the [Field List](../report-designer-tools/ui-panels/field-list.md) panel displays the data source's hierarchy and provides access to the available data fields. 
+After you [bind your report to data](../bind-to-data.md), the [Field List](../report-designer-tools/ui-panels/field-list.md) panel displays the data source hierarchy and provides access to available data fields.
 
 Drop a data field from this panel onto a report's surface to create a new report control bound to the corresponding field.
 
@@ -21,7 +21,7 @@ Drop a data field onto an existing control to bind this control to the correspon
 
 ![](../../../images/eurd-web-field-list-drop-field-to-control.png)
 
-You can also drop an entire data table onto a report to create a [Table](../use-report-elements/use-tables.md) control with its cells bound to the corresponding data table fields. 
+You can also drop an entire data table onto a report to create a [Table](../use-report-elements/use-tables.md) control with its cells bound to corresponding data table fields. 
 
 ![](../../../images/eurd-web-field-list-drop-table.png)
 
