@@ -14,7 +14,7 @@ A **QR Code** (**QR** is the abbreviation for **Quick Response**) is a two-dimen
 
     ![](../../../../../images/drag-and-drop-barcode.png)
 
-2. Set the control’s **Symbology** property to **QRCode**. 
+2. Set the control's **Symbology** property to **QR Code**. 
 
     ![](../../../../../images/qrcode-in-designer.png)
 

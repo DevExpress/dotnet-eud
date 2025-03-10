@@ -4,10 +4,20 @@ author: Anna Gubareva
 ---
 # Use Barcodes
 
-The following topics provide basic information about using barcodes:
+This help topic contains information on **35 barcodes** in DevExpress Reports:
+
+- How to add a barcode to a report
+- Barcode recognition specifics
+- Supported one-dimensional and two-dimensional barcodes, including types like GS 1, Code 39, EAN-13, QR Code, and others
+
+## Basic Information on Usage
+
+The following topics contain basic information on how to use barcodes:
 
 * [Add Barcodes to Reports](use-bar-codes/add-bar-codes-to-a-report.md)
 * [Barcode Recognition Specifics](use-bar-codes/bar-code-recognition-specifics.md)
+
+## One-Dimensional Barcodes
 
 See the following topics to learn about the supported one-dimensional barcodes:
 
@@ -39,12 +49,16 @@ See the following topics to learn about the supported one-dimensional barcodes:
 * [UPC-E0](use-bar-codes/upc-e0.md)
 * [UPC-E1](use-bar-codes/upc-e1.md)
 
+## Two-Dimensional Barcodes
+
 See the following topics to learn about the supported two-dimensional barcodes:
 
+* [Aztec Code](use-bar-codes/aztec-code.md)
 * [ECC200 - Data Matrix](use-bar-codes/ecc200-data-matrix.md)
 * [GS1- Data Matrix](use-bar-codes/gs1-data-matrix.md)
 * [Intelligent Mail](use-bar-codes/intelligent-mail.md)
 * [PDF417](use-bar-codes/pdf417.md)
 * [QR Code](use-bar-codes/qr-code.md)
+* [Micro QR Code](use-bar-codes/micro-qr-code.md)
 * [GS1 QR Code](use-bar-codes/gs1-qr-code.md)
 * [EPC QR Code](use-bar-codes/epc-qr-code.md)
