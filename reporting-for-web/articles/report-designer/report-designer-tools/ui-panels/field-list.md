@@ -19,7 +19,7 @@ The following actions are available in the Field List for data source customizat
 |---|---|
 | ![](../../../../images/eurd-web-fieldlist-add-data-source-button.png) | Invokes the Data Source Wizard. |
 | ![](../../../../images/eurd-web-fieldlist-data-source-rename.png) | Renames the selected data source. |
-| ![](../../../../images/eurd-web-fieldlist-data-source-rebuild-result-schema.png) | Rebuilds the result schema for the selected data source. |
+| ![](../../../../images/eurd-web-fieldlist-data-source-rebuild-result-schema.png) | Rebuilds the generated  schema for the selected data source. |
 | ![](../../../../images/eurd-web-fieldlist-data-source-edit-relationships.png) | Invokes the [Master-Detail Relation Editor](../master-detail-relation-editor.md). |
 | ![](../../../../images/eurd-web-fieldlist-data-source-add-calculated-field.png) | Adds a calculated field. |
 | ![](../../../../images/eurd-web-fieldlist-data-source-add-query.png) | Invokes the **Create a Query or Select a Stored Procedure** wizard page. |
@@ -52,9 +52,13 @@ Dropping an entire data table onto a report creates a table with its columns bou
 
 ![](../../../../images/eurd-web-field-list-drop-table.png)
 
-To select multiple fields, click them with holding the CTRL or SHIFT key. Dropping these fields onto a report creates a new table with its cells bound to the corresponding fields.
+To select multiple fields, click them while pressing the `Ctrl` or `Shift` key. Dropping these fields onto a report creates a new table with its cells bound to corresponding fields.
 
 ![](../../../../images/eurd-web-list-drop-multiple-fields.png)
+
+Select multiple data fields, a query, or a table in the Field List. Hold `Shift` when you drag the fields and drop them onto the report design area. This creates a data table with data field names.
+
+![eurd-web-list-drop-table-with-field-headers](~/reporting-for-web/images/eurd-web-list-drop-table-with-field-headers.png)
 
 ## Data shaping operations
 

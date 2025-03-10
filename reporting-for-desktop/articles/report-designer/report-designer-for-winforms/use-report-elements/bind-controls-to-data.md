@@ -4,7 +4,7 @@ author: Anna Gubareva
 ---
 # Bind Report Controls to Data (Expression Bindings)
 
-You can use the following approaches to include a data source's information in your report:
+You can use the following approaches to include data source information in your report:
 
 * [Use the Field List](#use-the-field-list)
 * [Use the Smart Tag](#use-the-smart-tag)
@@ -12,7 +12,7 @@ You can use the following approaches to include a data source's information in y
 
 ## Use the Field List
 
-After you [bind your report to data](../bind-to-data.md), the [Field List](../report-designer-tools/ui-panels/field-list.md) panel displays the data source's hierarchy and provides access to the available data fields. 
+After you [bind your report to data](../bind-to-data.md), the [Field List](../report-designer-tools/ui-panels/field-list.md) panel displays the data source hierarchy and provides access to available data fields.
 
 Drop a data field from this panel onto a report's surface to create a new report control bound to the corresponding field.
 
