@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../../../../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/DevExpress/dotnet-eud/blob/24.1/reporting-for-web/articles/report-designer/create-reports/table-reports.md/#L1">
+      <meta name="docfx:docurl" content="https://github.com/DevExpress/dotnet-eud/blob/24.2/reporting-for-web/articles/report-designer/create-reports/table-reports.md/#L1">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -95,44 +95,45 @@
         <article data-uid="">
 <h1 id="table-reports">Table Reports</h1>
 
-<p>This tutorial describes how to create a data-bound report displaying information in a tabular format. Table reports should not be confused with hierarchical <a href="master-detail-reports-with-detail-report-bands.html">master-detail reports</a>, nor with <a href="cross-tab-reports.html">cross-tab reports</a>.</p>
+<p>This tutorial describes how to create a data-bound report that displays information in a tabular format. Table reports should not be confused with hierarchical <a href="master-detail-reports-with-detail-report-bands.html">master-detail reports</a>, nor with <a href="cross-tab-reports.html">cross-tab reports</a>.</p>
 <p><img src="../../../images/eurd-web-table-report-result.png" alt=""></p>
 <ol>
 <li><p><a href="../add-new-reports.html">Create a new report</a> or <a href="../open-reports.html">open an existing one</a>.</p>
 </li>
 <li><p><a href="../bind-to-data.html">Bind the report</a> to a required data source.</p>
 </li>
-<li><p>Add the <a href="../introduction-to-banded-reports.html">Page Header</a> band to the report to print the column headers at the top of every document page. To do this, from the report's context menu, select the <strong>Insert Page Header Band</strong> command.</p>
+<li><p>Add the <a href="../introduction-to-banded-reports.html">Page Header</a> band to the report to print the column headers at the top of every document page. To do this, select the <strong>Insert Page Header</strong> Band command from the report's context menu.</p>
 <p><img src="../../../images/eurd-web-table-report-insert-page-header.png" alt=""></p>
 </li>
-<li><p>Drop the <a href="../use-report-elements/use-tables.html">Table</a> control from the <a href="../report-designer-tools/toolbox.html">Toolbox</a> onto the Page Header band and specify columns' text to create column headers.</p>
+<li><p>Switch to the <a href="../report-designer-tools/ui-panels/field-list.html">Field List</a>, select data fields, hold <code>Shift</code> when you drag fields and drop them onto the report design area. This creates a data table with data field names.</p>
 <p><img src="../../../images/eurd-web-table-report-add-static-captions.png" alt=""></p>
 </li>
-<li><p>To provide dynamic content to the report, switch to the <a href="../report-designer-tools/ui-panels/field-list.html">Field List</a>, select data fields and drop them onto the Detail band.</p>
+<li><p>To provide dynamic content to the report, select data fields and drop them onto the Detail band in the Field list.</p>
 <p><img src="../../../images/eurd-web-table-report-add-dynamic-content.png" alt=""></p>
 <p>This creates a table with the same number of cells as the number of fields selected with each cell bound to the appropriate data field.</p>
 </li>
 <li><p>Click an empty place on the report's surface and draw a rectangle around the table to select it.</p>
 <p><img src="../../../images/eurd-web-table-report-select-both-tables.png" alt=""></p>
+<p>Alternatively, you can select one cell and press <code>Esc</code> to move one level up and select an entire row.</p>
 </li>
-<li><p>Expand the <strong>Appearance</strong> category and specify the <strong>Font</strong>, <strong>Text Alignment</strong> and <strong>Borders</strong> properties to customize the tables' appearance.</p>
+<li><p>Expand the <strong>Appearance</strong> category and specify the <strong>Font</strong>, <strong>Text Alignment</strong>, and <strong>Borders</strong> properties to customize table appearance.</p>
 <p><img src="../../../images/eurd-web-table-report-set-up-appearance.png" alt=""></p>
 </li>
 <li><p>Define a currency format for the <strong>UnitPrice</strong> cell. Select the cell and click the <strong>Text Format String</strong> property's ellipsis button. Select the appropriate format in the invoked <strong>Format String Editor</strong> editor and click <strong>OK</strong>.</p>
 <p><img src="../../../images/eurd-web-table-report-format-string.png" alt=""></p>
 </li>
-<li><p>To further improve the table readability, you can apply different visual styles to its odd and even rows. See <a href="../customize-appearance/report-visual-styles.html">Report Visual Styles</a> to learn more.</p>
+<li><p>To further improve table readability, you can apply different visual styles to odd and even rows. See <a href="../customize-appearance/report-visual-styles.html">Report Visual Styles</a> to learn more.</p>
 <p><img src="../../../images/eurd-web-table-report-odd-even-styles.png" alt=""></p>
-<p>See the <a href="../use-report-elements/use-tables.html">Use Tables</a> section to learn how to add or remove the table's rows and cells, as well as convert the table's cells to separate label controls.</p>
+<p>See the <a href="../use-report-elements/use-tables.html">Use Tables</a> section to learn how to add or remove table rows and cells, and how to convert table cells to separate label controls.</p>
 </li>
 </ol>
-<p>Switch to <a href="../preview-print-and-export-reports.html">Print Preview</a> to see the resulting report.</p>
+<p>Switch to <a href="../preview-print-and-export-reports.html">Print Preview</a> to see the generated report.</p>
 <p><img src="../../../images/eurd-web-table-report-result.png" alt=""></p>
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/DevExpress/dotnet-eud/blob/24.1/reporting-for-web/articles/report-designer/create-reports/table-reports.md/#L1" class="edit-link">Edit this page</a>
+          <a href="https://github.com/DevExpress/dotnet-eud/blob/24.2/reporting-for-web/articles/report-designer/create-reports/table-reports.md/#L1" class="edit-link">Edit this page</a>
         </div>
 
         <div class="next-article d-print-none border-top" id="nextArticle"></div>

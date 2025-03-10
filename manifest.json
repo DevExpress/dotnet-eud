@@ -53497,6 +53497,16 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "reporting-for-desktop/articles/report-designer/report-designer-for-winforms/use-report-elements/use-bar-codes/aztec-code.md",
+      "output": {
+        ".html": {
+          "relative_path": "reporting-for-desktop/articles/report-designer/report-designer-for-winforms/use-report-elements/use-bar-codes/aztec-code.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "reporting-for-desktop/articles/report-designer/report-designer-for-winforms/use-report-elements/use-bar-codes/bar-code-recognition-specifics.md",
       "output": {
         ".html": {
@@ -53721,6 +53731,16 @@
       "output": {
         ".html": {
           "relative_path": "reporting-for-desktop/articles/report-designer/report-designer-for-winforms/use-report-elements/use-bar-codes/matrix-2-of-5.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "reporting-for-desktop/articles/report-designer/report-designer-for-winforms/use-report-elements/use-bar-codes/micro-qr-code.md",
+      "output": {
+        ".html": {
+          "relative_path": "reporting-for-desktop/articles/report-designer/report-designer-for-winforms/use-report-elements/use-bar-codes/micro-qr-code.html"
         }
       },
       "version": ""
@@ -55697,10 +55717,30 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "reporting-for-desktop/images/aztec-code-in-designer-win.png",
+      "output": {
+        "resource": {
+          "relative_path": "reporting-for-desktop/images/aztec-code-in-designer-win.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "reporting-for-desktop/images/balance-sheet-report-preview.png",
       "output": {
         "resource": {
           "relative_path": "reporting-for-desktop/images/balance-sheet-report-preview.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reporting-for-desktop/images/bar-code-aztec-code.png",
+      "output": {
+        "resource": {
+          "relative_path": "reporting-for-desktop/images/bar-code-aztec-code.png"
         }
       },
       "version": ""
@@ -72727,6 +72767,26 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "reporting-for-desktop/images/micro-qr-code.png",
+      "output": {
+        "resource": {
+          "relative_path": "reporting-for-desktop/images/micro-qr-code.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reporting-for-desktop/images/micro-qrcode-in-designer-win.png",
+      "output": {
+        "resource": {
+          "relative_path": "reporting-for-desktop/images/micro-qrcode-in-designer-win.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "reporting-for-desktop/images/multi-column-report-preview.png",
       "output": {
         "resource": {
@@ -73821,6 +73881,46 @@
       "output": {
         "resource": {
           "relative_path": "reporting-for-desktop/images/vertical-report-preview.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reporting-for-desktop/images/vs-dimension-notation-imperial-unit.png",
+      "output": {
+        "resource": {
+          "relative_path": "reporting-for-desktop/images/vs-dimension-notation-imperial-unit.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reporting-for-desktop/images/vs-dimension-notation-metric-unit.png",
+      "output": {
+        "resource": {
+          "relative_path": "reporting-for-desktop/images/vs-dimension-notation-metric-unit.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reporting-for-desktop/images/vs-dimension-notation-pixels-unit.png",
+      "output": {
+        "resource": {
+          "relative_path": "reporting-for-desktop/images/vs-dimension-notation-pixels-unit.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reporting-for-desktop/images/vs-dimension-notation-ui.png",
+      "output": {
+        "resource": {
+          "relative_path": "reporting-for-desktop/images/vs-dimension-notation-ui.png"
         }
       },
       "version": ""
@@ -76160,6 +76260,16 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "reporting-for-web/articles/report-designer/use-report-elements/use-bar-codes/aztec-code.md",
+      "output": {
+        ".html": {
+          "relative_path": "reporting-for-web/articles/report-designer/use-report-elements/use-bar-codes/aztec-code.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "reporting-for-web/articles/report-designer/use-report-elements/use-bar-codes/bar-code-recognition-specifics.md",
       "output": {
         ".html": {
@@ -76384,6 +76494,16 @@
       "output": {
         ".html": {
           "relative_path": "reporting-for-web/articles/report-designer/use-report-elements/use-bar-codes/matrix-2-of-5.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "reporting-for-web/articles/report-designer/use-report-elements/use-bar-codes/micro-qr-code.md",
+      "output": {
+        ".html": {
+          "relative_path": "reporting-for-web/articles/report-designer/use-report-elements/use-bar-codes/micro-qr-code.html"
         }
       },
       "version": ""
@@ -76924,6 +77044,26 @@
       "output": {
         "resource": {
           "relative_path": "reporting-for-web/images/add-new-parameter-dialog.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reporting-for-web/images/aztec-code-in-designer-web.png",
+      "output": {
+        "resource": {
+          "relative_path": "reporting-for-web/images/aztec-code-in-designer-web.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reporting-for-web/images/bar-code-aztec-code.png",
+      "output": {
+        "resource": {
+          "relative_path": "reporting-for-web/images/bar-code-aztec-code.png"
         }
       },
       "version": ""
@@ -83220,6 +83360,16 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "reporting-for-web/images/eurd-web-list-drop-table-with-field-headers.png",
+      "output": {
+        "resource": {
+          "relative_path": "reporting-for-web/images/eurd-web-list-drop-table-with-field-headers.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "reporting-for-web/images/eurd-web-localization-editor-german.png",
       "output": {
         "resource": {
@@ -88174,6 +88324,26 @@
       "output": {
         "resource": {
           "relative_path": "reporting-for-web/images/matrix2of5-in-designer.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reporting-for-web/images/micro-qr-code.png",
+      "output": {
+        "resource": {
+          "relative_path": "reporting-for-web/images/micro-qr-code.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reporting-for-web/images/micro-qrcode-in-designer-web.png",
+      "output": {
+        "resource": {
+          "relative_path": "reporting-for-web/images/micro-qrcode-in-designer-web.png"
         }
       },
       "version": ""
