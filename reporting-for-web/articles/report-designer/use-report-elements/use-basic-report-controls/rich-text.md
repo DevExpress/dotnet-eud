@@ -14,6 +14,8 @@ To add this control to a report, drag the **Rich Text** item from the [Toolbox](
 
 ![](../../../../images/eurd-web-add-rich-text-to-report.png)
 
+You can also drop an RTF, DOCX, or HTML file to a band to insert a Rich Text control with associated file content.
+
 ## Load Content from a File
 
 You can load RTF or HTML content from an external file. Expand the **Data** category and click the **Load file** property's ellipsis button.

@@ -13,6 +13,8 @@ Double-click the label to invoke its in-place editor and enter the desired stati
 
 ![](../../../../images/eurd-web-label-static-text.png)
 
+You can also drop a TXT file to a band to create a label with associated file content.
+
 Press CTRL+Enter to submit text changes and exit the label's in-place editing mode.
 
 ## Bind to Data

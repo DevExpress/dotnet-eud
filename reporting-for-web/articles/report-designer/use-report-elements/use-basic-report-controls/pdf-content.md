@@ -23,6 +23,8 @@ Drop the **PDF Content** item from the Toolbox onto a [band](../../introduction-
 
 ![Drop the PDF Content control from Toolbox](../../../../images/xrpdfcontent-drop-from-toolbox.png)
 
+You can also drop a PDF file to a band to insert a PDF Content item.
+
 ## Specify PDF Content
 
 Use one of the following methods:
