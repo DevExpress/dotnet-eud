@@ -9,6 +9,9 @@ This topic describes how to create a date range parameter and filter a report's 
 
 ![A date range parameter's editor in Preview](../../../images/eurd-web-date-ranges-parameters-panel.png)
 
+> [!Note]
+> Web Report controls do not support `Date` and `Time` range parameters. You can only create a range parameter of `Date and Time` type.
+
 ## Create a Date Range Parameter in the Report Designer
 
 Follow the steps below to add a date range parameter to a report in the [Report Designer](../first-look-at-the-report-designer.md):
