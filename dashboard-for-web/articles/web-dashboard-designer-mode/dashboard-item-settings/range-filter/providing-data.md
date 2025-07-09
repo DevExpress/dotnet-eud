@@ -20,5 +20,5 @@ The table below lists and describes the Range Filter's data sections.
 | Section | Processed as | Description |
 |---|---|---|
 | **Values** | Measure | Contains data items against which the Y-coordinates of data points are calculated. |
-| **Arguments** | Dimension | Contains data items that provide values displayed along the horizontal axis of the Range Filter. Data filtering is performed based on these values. Note that the **Custom Periods** section in the **Options** menu allows you to create [predefined ranges](predefined-periods.md) used to select the required date-time interval. |
+| **Arguments** | Dimension | Contains a data item that provides values displayed along the horizontal axis of the Range Filter. These values are used for [filtering](interactivity.md). You can use only continuous **Date**, **Date-Time** and **Numeric** values as arguments. Discrete types like **String** or **Time** are not supported. Note that the **Custom Periods** section in the **Options** menu allows you to create [predefined ranges](predefined-periods.md) used to select the required date-time interval. |
 | **Series** | Dimension | Contains data items whose values are used to create chart series. |

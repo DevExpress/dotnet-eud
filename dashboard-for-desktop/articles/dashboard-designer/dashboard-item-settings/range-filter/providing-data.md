@@ -17,5 +17,7 @@ To bind the Range Filter dashboard item to data, drag and drop a data source fie
 | Section | Description |
 |---|---|
 | **Values** | Contains data items against which the Y-coordinates of data points are calculated. |
-| **Argument** | Contains a data item that provides values displayed along the horizontal axis of the Range Filter. [Filtering](interactivity.md) is performed based on these values. Note that the _[Options](../../ui-elements/data-items-pane.md)_ button (the ![BoundImageAttributeOptionsButton](../../../../images/img123296.png) icon) allows you to create _[predefined ranges](predefined-ranges.md)_ used to select the required date-time interval. |
+| **Argument** | Contains a data item that provides values displayed along the horizontal axis of the Range Filter. These values are used for [filtering](interactivity.md). You can use only continuous **Date**, **Date-Time** and **Numeric** values as arguments. Discrete types like **String** or **Time** are not supported. Note that the _[Options](../../ui-elements/data-items-pane.md)_ button (the ![BoundImageAttributeOptionsButton](../../../../images/img123296.png) icon) allows you to create _[predefined ranges](predefined-ranges.md)_ used to select the required date-time interval. |
 | **Series** | Contains data items whose values are used to create chart series. |
+
+
