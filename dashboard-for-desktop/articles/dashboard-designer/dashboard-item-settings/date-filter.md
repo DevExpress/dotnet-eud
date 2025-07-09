@@ -22,6 +22,8 @@ To create a Date Filter item, click the **Filter Elements** drop-down button in 
 
 ## Bind to Data
 
+You can use `DateTime`/`DateOnly` fields for a date filter.
+
 Use the **Data Items Pane** to perform data binding. Drag the dimension field from the [Data Source Browser](../ui-elements/data-source-browser.md) to the data item, and click the _Options_ button to select [group intervals](../data-shaping/formatting-data.md).
 
 ![DATA ITEMS Pane](../../../images/datefilter-data-items-pane.png)

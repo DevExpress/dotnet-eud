@@ -14,7 +14,7 @@ To create a dashboard parameter, follow the steps below.
 1. Invoke the [dashboard menu](../../ui-elements/dashboard-menu.md) and select **Parameters**.
 2. In the **Parameter List**, click the **Add** button. The parameter's settings form appears as follows:
 
-	![Web Dashboard - Add a New Dashboard Parameter](../../../../images/img126106.png)
+	![Web Dashboard - Add a New Dashboard Parameter](~/dashboard-for-web/images/img126106.png)
 
 3. Specify the parameter's settings. 
 
@@ -36,7 +36,7 @@ When you create and modify parameter names, follow the rules below:
 
 Specifies the parameter description displayed in the **Parameter** column of the [Dashboard Parameters](requesting-parameter-values.md) dialog:
 
-![Dashboard Parameter with Description](../../../../images/dashboard-parameter-description.png)
+![Dashboard Parameter with Description](~/dashboard-for-web/images/dashboard-parameter-description.png)
 	
 ### Visible
 	
@@ -67,6 +67,8 @@ The following types are available:
 
 * String
 * Date
+* Time
+* Date and Time
 * Number (16-bit integer)
 * Number (32-bit integer)
 * Number (64-bit integer)
@@ -116,3 +118,14 @@ You can specify a data source as a source for dashboard parameter values. To pro
 >[!NOTE]
 >You cannot use an OLAP data source as the data source for a dashboard parameter.
 
+## Request Parameter Values before Data Loading
+
+You can display a Dashboard Parameters window at startup and prompt a user to input parameter values before a dashboard loads and aggregates data. Dashboard items display the following message to guide users: "Waiting for Parameter Values…".
+
+![dashboard-parameter-request-before-loading](~/dashboard-for-web/images/dashboard-parameter-request-before-loading.png)
+
+The Web Dashboard control loads data only after the user submits all visible parameters. This operation mode prevents unnecessary data requests and ensures the dashboard fetches only data the user actually needs.
+
+To activate this mode, open the [dashboard menu](../../ui-elements/dashboard-menu.md), switch to the **Parameters** page, and select the following checkbox: **Request Parameter Values before Data Loading**. The setting value is saved in the dashboard XML definition.
+
+If a user changes this option at runtime, they need to initiate a data reload. The dashboard displays a Dashboard Parameters pop-up before it fetches data.

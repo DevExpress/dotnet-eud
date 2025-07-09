@@ -20,6 +20,8 @@ To create a Date Filter item, click the **Date Filter** item (the  ![](../../../
 
 ## Bind to Data
 
+You can use `DateTime`/`DateOnly` fields for a date filter.
+
 Click the **Dimension** placeholder in the data section and select the required data source field in the **Binding** section of the invoked [data item menu](../ui-elements/data-item-menu.md) to bind the Date Filter to data.
 
 ![](../../../images/datefilter-web-data-binding.png)

@@ -8,7 +8,7 @@ jobs:
     runs-on: windows-latest
     steps:
     - name: Checkout branch
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
       
     - name: Check status
       run: git status
@@ -26,7 +26,7 @@ jobs:
       run: Compress-Archive -Path _site/* -DestinationPath ${{ runner.temp }}/site.zip
     
     - name: Upload artifact
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: github-pages
         path: ${{ runner.temp }}/site.zip
@@ -36,11 +36,11 @@ jobs:
     runs-on: windows-latest
     steps:
     - name: Checkout branch
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
       with:
         ref: gh-pages
     - name: Download artifacts
-      uses: actions/download-artifact@v3
+      uses: actions/download-artifact@v4
       with:
         name: github-pages
         path: ../

@@ -69,8 +69,11 @@ Note that this option is in effect when **Allow Multiselect** is enabled.
 Specifies the parameter type.
 
 The following types are available:
+
 * String
 * Date
+* Time
+* Date and Time
 * Number (16-bit integer)
 * Number (32-bit integer)
 * Number (64-bit integer)
