@@ -10,7 +10,7 @@ legacyId: 5917
 >
 > View source code: [github.com/DevExpress/dotnet-eud](https://github.com/DevExpress/dotnet-eud).
 
-# DevExpress End-User Documentation
+# DevExpress End-User Documentation v25.1
 
 This documentation contains information on individual user interface elements (such as grids, navigation panes, data editors, charts, etc.), and provides instructions for end users about how to solve the most-common tasks with these interface elements.
 
