@@ -88,6 +88,14 @@ Use Ctrl + arrows to shift XRControl pixel by pixel:
 
 ![ctrl_shift_arrow](../../../../../images/winforms-eurd-shortcuts/ctrl_shift_arrow.gif)
 
+### Resize XRControl Proportionally
+
+| Key | Action |
+|----------|----------|
+| <kbd>Shift</kbd> + <kbd>Drag</kbd> | Resize an XRControl and preserve its aspect ratio. Initiate the operation in a corner anchor. |
+
+![shift_drag](~/images/winforms-eurd-shortcuts/Proportional-resize.gif)
+
 ### Clone XRControl
 
 | Key | Action |

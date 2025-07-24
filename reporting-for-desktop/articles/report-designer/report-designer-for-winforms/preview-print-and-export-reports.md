@@ -19,6 +19,7 @@ When in the Print Preview mode, you can print out your report using the appropri
 ![eurd-win-print](../../../images/eurd-win-print.png)
 
 ## Export a Report
+
 When in the Print Preview mode, you can export your report to files in different formats. The resulting files can either be saved to the hard drive or sent by e-mail.
 
 ![eurd-win-export](../../../images/eurd-win-export.png)
@@ -36,13 +37,24 @@ The following documents describe the basics of report exporting and format-speci
 * [TXT-Specific Export Options](~/interface-elements-for-desktop/articles/print-preview/print-preview-for-winforms/exporting/txt-specific-export-options.md)
 * [Image-Specific Export Options](~/interface-elements-for-desktop/articles/print-preview/print-preview-for-winforms/exporting/image-specific-export-options.md)
 
-### Export a Report to PDF with Accessible Tags (PDF/UA Compatibility)
+
+## Hide Report Controls in Documents Exported to Specific Formats
+
+You can specify the **Can Publish Options** setting to exclude report controls from certain export formats in the Properties grid.
+
+![CanPublishOptions](../../../images/can-publish-options-property-grid.png)
+
+The following image illustrates the resulting XLXS document with and without page information:
+
+![Resulting XLXS document](../../../images/can-publish-options-example-image.png)
+
+## Export a Report to PDF with Accessible Tags (PDF/UA Compatibility)
 
 You can specify how Label, Table, Table Row, and Table Cell should be treated by screen readers in the exported PDF document.
 
 When you export a report to PDF, the report elements have no role. Assistive software commonly treats such elements as HTML <div> tags. Change the element’s role to one of the values listed below to help the screen reader correctly identify the element’s purpose in the exported PDF document.
 
-#### Define Label Accessible Role
+### Define Label Accessible Role
 
 Set the control’s **Accessible Role** property to **Heading 1 - Heading 6** before you export a report.
 
@@ -54,7 +66,7 @@ The image below shows the result. **Accessible Role** is set to **Heading 2**, a
 
 ![Exported report in the screen reader](~/reporting-for-desktop/images/accessible-exported-document-with-label.png)
 
-#### Define Table Accessible Role
+### Define Table Accessible Role
 
 You can specify how Table should be treated by screen readers in the exported PDF document. For this, set the control's **Accessible Role** property to **Table** before you export a report.
 
@@ -66,7 +78,7 @@ The image below shows the result. **Accessible Role** is set to **Table**, and t
 
 ![Exported report in the screen reader](~/reporting-for-desktop/images/accessible-exported-document-with-table.png)
 
-#### Define Table Row Accessible Role
+### Define Table Row Accessible Role
 
 You can specify how Table Row should be treated by screen readers in the exported PDF document. 
 
@@ -80,7 +92,7 @@ The image below shows the result. **Table Row**'s **Accessible Role** is set to 
 
 ![Exported report in the screen reader](~/reporting-for-desktop/images/accessible-exported-document-with-tablerow.png) 
 
-#### Define Table Cell Accessible Role
+### Define Table Cell Accessible Role
 
 Before you export a report, set the **Table**'s **Accessible Role** property to **Table** to define a control as a table. Then, specify the **Table Cell**'s **Accessible Role** property:
 
