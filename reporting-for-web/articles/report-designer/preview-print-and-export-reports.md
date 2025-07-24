@@ -40,7 +40,7 @@ The following documents describe the basics of report exporting and format-speci
 
 ## Hide Report Controls in Documents Exported to Specific Formats
 
-You can specify the **Can Publish Options** setting to exclude report controls from certain export formats in the Properties grid.
+You can specify the **Can Publish Options** setting in the Properties grid to exclude report controls from certain export formats.
 
 ![CanPublishOptions](../../images/web-can-publish-options-property-grid.png)
 
