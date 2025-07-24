@@ -38,5 +38,15 @@ The following documents describe the basics of report exporting and format-speci
 * [XLSX-Specific Export Options](../document-viewer/exporting/xlsx-specific-export-options.md)
 * [DOCX-Specific Export Options](../document-viewer/exporting/docx-specific-export-options.md)
 
+## Hide Report Controls in Documents Exported to Specific Formats
+
+You can specify the **Can Publish Options** setting in the Properties grid to exclude report controls from certain export formats.
+
+![CanPublishOptions](../../images/web-can-publish-options-property-grid.png)
+
+The following image illustrates the resulting XLXS document with and without page information:
+
+![Resulting XLXS document](../../images/web-can-publish-options-example-image.png)
+
 
 

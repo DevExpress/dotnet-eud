@@ -19,10 +19,10 @@ You can also use the [Report Explorer](../../report-designer-tools/ui-panels/rep
 > [!NOTE]
 > You can drag the TableOfContents control only to the **ReportHeader** and **ReportFooter** bands.
 
-To resize a control, select it and then drag a rectangle drawn on its edge or corner.
+To resize a control, select it and then drag a rectangle drawn on its edge or corner. Press `Shift` and drag a corner anchor to resize a report control and preserve its aspect ratio.
 
 ![](../../../../../images/eurd-win-resize-report-control.png)
-
+s
 Drag a band's header strip to resize the band.
 
 ![](../../../../../images/eurd-win-resize-report-band.png)

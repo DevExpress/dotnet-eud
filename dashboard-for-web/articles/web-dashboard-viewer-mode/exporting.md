@@ -39,7 +39,7 @@ Invokes a corresponding dialog that allows you to export a dashboard to an image
 * **File Name** - Specifies the name of the exported PDF file.
 * **Show Title** - Specifies whether or not to apply the dashboard title to the exported document title.
 * **Title** - Specifies the title of the exported document.
-* **Image Format** - Specifies the image format in which the dashboard is exported. The following formats are available: _PNG_, _JPEG_ and _GIF_.
+* **Image Format** - Specifies the image format in which the dashboard is exported. The following formats are available: _PNG_, _JPEG_, _SVG_, and _GIF_.
 * **Resolution (dpi)** - Specifies the resolution (in dpi) used to export a dashboard.
 * **Include | Filters** - Allows you to include master filter values to the exported document.
 * **Include | Parameters** - Allows you to include parameter values to the exported document.

@@ -6,11 +6,11 @@ author: Anna Vekhina
 
 Most metrics of report elements (element locations, dimensions, and margins) can be expressed in units that correspond to one of the following systems of measurement.
 
-* **Imperial system** (hundredths of an inch)
+* **Imperial system**: hundredths of an inch, inches.
 	
-	This is the default system for a new report.
-* **Metric system** (tenths of a millimeter)
-* **Screen coordinates** (pixels)
+	This is the default system that is assigned to each new report.
+* **Metric system**: tenths of a millimeter, millimeters.
+* **Screen coordinates**: pixels.
 
 To assign a system of measurements to a report, use its **Measure Units** property. You can specify this property in the [Properties](../report-designer-tools/ui-panels/properties-panel.md) panel.
 

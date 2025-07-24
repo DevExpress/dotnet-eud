@@ -47,7 +47,7 @@ Invokes a corresponding dialog that allows you to export a dashboard to a PDF fi
 Invokes a corresponding dialog that allows you to export a dashboard to an image in the specified format. The following options are available.
 
 ![ExportToImageDialog_Win](../../images/img22910.png)
-* **Image Format** - Specifies the image format in which the dashboard is exported. The following formats are available: _PNG_, _JPEG_, and _GIF_.
+* **Image Format** - Specifies the image format in which the dashboard is exported. The following formats are available: _PNG_, _JPEG_, _SVG_, and _GIF_.
 * **Show Title** - Specifies whether or not to apply the dashboard title to the exported document title.
 * **Title** - Specifies the title of the exported document.
 * **Resolution (dpi)** - Specifies the resolution (in dpi) used to export a dashboard.

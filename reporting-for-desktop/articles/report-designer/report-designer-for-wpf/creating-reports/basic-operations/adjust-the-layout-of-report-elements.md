@@ -34,7 +34,7 @@ The report controls can be precisely aligned to each other using the **Snap Gird
 <a name="resizing"/>
 
 ## Resizing Report Elements
-To resize a control using the mouse, select it and then drag a rectangle drawn on its edge or corner.
+To resize a control using the mouse, select it and then drag a rectangle drawn on its edge or corner. Press `Shift` and drag a corner anchor to resize a report control and preserve its aspect ratio.
 
 ![EUD_WpfReportDesigner_Layout_3](../../../../../images/img123813.png)
 
