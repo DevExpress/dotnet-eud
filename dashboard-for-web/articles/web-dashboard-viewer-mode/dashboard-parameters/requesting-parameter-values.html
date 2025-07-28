@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../../../../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/DevExpress/dotnet-eud/blob/24.2/dashboard-for-web/articles/web-dashboard-viewer-mode/dashboard-parameters/requesting-parameter-values.md/#L1">
+      <meta name="docfx:docurl" content="https://github.com/DevExpress/dotnet-eud/blob/25.1/dashboard-for-web/articles/web-dashboard-viewer-mode/dashboard-parameters/requesting-parameter-values.md/#L1">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -99,11 +99,16 @@
 <p>To invoke the <strong>Dashboard Parameters</strong> dialog, click the <strong>Parameters</strong> button (the <img src="../../../images/img21814.png" alt="Parameters_ParametersButtonWin_Title"> icon) in the <a href="../data-presentation/dashboard-layout.html">dashboard title</a>.</p>
 <p><img src="../../../images/img21818.png" alt="Parameters_DashboardParametersDialog_Web"></p>
 <p>Select the required parameter values and click the <strong>Submit</strong> button to apply the changes. To reset changes to the default values, click the <strong>Reset</strong> button.</p>
+<h2 id="request-parameter-values-before-data-loading">Request Parameter Values before Data Loading</h2>
+<p>If you see a Dashboard Parameters window at startup, you need to input parameter values before a dashboard loads and aggregates data. Dashboard items display the following message: &quot;Waiting for Parameter Values…&quot;.</p>
+<p><img src="../../../images/dashboard-parameter-request-before-loading.png" alt="dashboard-parameter-request-before-loading"></p>
+<p>The Web Dashboard control loads data only after you submit all visible parameters. The dashboard displays a Dashboard Parameters pop-up before it fetches data. This operation mode prevents unnecessary data requests and ensures the dashboard fetches only data you actually need.</p>
+<p>To change this mode, open the <a href="../../web-dashboard-designer-mode/ui-elements/dashboard-menu.html">dashboard menu</a> in Designer Mode, switch to the <strong>Parameters</strong> page, and use the following checkbox: <strong>Request Parameter Values before Data Loading</strong>. The setting value is saved in the dashboard XML definition.</p>
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/DevExpress/dotnet-eud/blob/24.2/dashboard-for-web/articles/web-dashboard-viewer-mode/dashboard-parameters/requesting-parameter-values.md/#L1" class="edit-link">Edit this page</a>
+          <a href="https://github.com/DevExpress/dotnet-eud/blob/25.1/dashboard-for-web/articles/web-dashboard-viewer-mode/dashboard-parameters/requesting-parameter-values.md/#L1" class="edit-link">Edit this page</a>
         </div>
 
         <div class="next-article d-print-none border-top" id="nextArticle"></div>
@@ -120,7 +125,7 @@
     <footer class="border-top text-secondary">
       <div class="container-xxl">
         <div class="flex-fill">
-          Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
+          Copyright (c) 1998-2025 Developer Express Inc. All rights reserved.
         </div>
       </div>
     </footer>

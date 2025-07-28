@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../../../../../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/DevExpress/dotnet-eud/blob/24.2/dashboard-for-web/articles/web-dashboard-designer-mode/data-analysis/dashboard-parameters/creating-parameters.md/#L1">
+      <meta name="docfx:docurl" content="https://github.com/DevExpress/dotnet-eud/blob/25.1/dashboard-for-web/articles/web-dashboard-designer-mode/data-analysis/dashboard-parameters/creating-parameters.md/#L1">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -140,6 +140,8 @@
 <ul>
 <li>String</li>
 <li>Date</li>
+<li>Time</li>
+<li>Date and Time</li>
 <li>Number (16-bit integer)</li>
 <li>Number (32-bit integer)</li>
 <li>Number (64-bit integer)</li>
@@ -203,11 +205,17 @@
 <h5>Note</h5>
 <p>You cannot use an OLAP data source as the data source for a dashboard parameter.</p>
 </div>
+<h2 id="request-parameter-values-before-data-loading">Request Parameter Values before Data Loading</h2>
+<p>You can display a Dashboard Parameters window at startup and prompt a user to input parameter values before a dashboard loads and aggregates data. Dashboard items display the following message to guide users: &quot;Waiting for Parameter Values…&quot;.</p>
+<p><img src="../../../../images/dashboard-parameter-request-before-loading.png" alt="dashboard-parameter-request-before-loading"></p>
+<p>The Web Dashboard control loads data only after the user submits all visible parameters. This operation mode prevents unnecessary data requests and ensures the dashboard fetches only data the user actually needs.</p>
+<p>To activate this mode, open the <a href="../../ui-elements/dashboard-menu.html">dashboard menu</a>, switch to the <strong>Parameters</strong> page, and select the following checkbox: <strong>Request Parameter Values before Data Loading</strong>. The setting value is saved in the dashboard XML definition.</p>
+<p>If a user changes this option at runtime, they need to initiate a data reload. The dashboard displays a Dashboard Parameters pop-up before it fetches data.</p>
 
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/DevExpress/dotnet-eud/blob/24.2/dashboard-for-web/articles/web-dashboard-designer-mode/data-analysis/dashboard-parameters/creating-parameters.md/#L1" class="edit-link">Edit this page</a>
+          <a href="https://github.com/DevExpress/dotnet-eud/blob/25.1/dashboard-for-web/articles/web-dashboard-designer-mode/data-analysis/dashboard-parameters/creating-parameters.md/#L1" class="edit-link">Edit this page</a>
         </div>
 
         <div class="next-article d-print-none border-top" id="nextArticle"></div>
@@ -224,7 +232,7 @@
     <footer class="border-top text-secondary">
       <div class="container-xxl">
         <div class="flex-fill">
-          Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
+          Copyright (c) 1998-2025 Developer Express Inc. All rights reserved.
         </div>
       </div>
     </footer>

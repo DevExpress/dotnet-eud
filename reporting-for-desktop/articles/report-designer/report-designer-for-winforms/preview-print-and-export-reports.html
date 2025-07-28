@@ -16,7 +16,7 @@
       <meta name="docfx:rel" content="../../../../">
       
       
-      <meta name="docfx:docurl" content="https://github.com/DevExpress/dotnet-eud/blob/24.2/reporting-for-desktop/articles/report-designer/report-designer-for-winforms/preview-print-and-export-reports.md/#L1">
+      <meta name="docfx:docurl" content="https://github.com/DevExpress/dotnet-eud/blob/25.1/reporting-for-desktop/articles/report-designer/report-designer-for-winforms/preview-print-and-export-reports.md/#L1">
       <meta name="loc:inThisArticle" content="In this article">
       <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
       <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
@@ -121,29 +121,34 @@
 <li><a href="../../../../interface-elements-for-desktop/articles/print-preview/print-preview-for-winforms/exporting/txt-specific-export-options.html">TXT-Specific Export Options</a></li>
 <li><a href="../../../../interface-elements-for-desktop/articles/print-preview/print-preview-for-winforms/exporting/image-specific-export-options.html">Image-Specific Export Options</a></li>
 </ul>
-<h3 id="export-a-report-to-pdf-with-accessible-tags-pdfua-compatibility">Export a Report to PDF with Accessible Tags (PDF/UA Compatibility)</h3>
+<h2 id="hide-report-controls-in-documents-exported-to-specific-formats">Hide Report Controls in Documents Exported to Specific Formats</h2>
+<p>You can specify the <strong>Can Publish Options</strong> setting in the Properties grid to exclude report controls from certain export formats.</p>
+<p><img src="../../../images/can-publish-options-property-grid.png" alt="CanPublishOptions"></p>
+<p>The following image illustrates the resulting XLXS document with and without page information:</p>
+<p><img src="../../../images/can-publish-options-example-image.png" alt="Resulting XLXS document"></p>
+<h2 id="export-a-report-to-pdf-with-accessible-tags-pdfua-compatibility">Export a Report to PDF with Accessible Tags (PDF/UA Compatibility)</h2>
 <p>You can specify how Label, Table, Table Row, and Table Cell should be treated by screen readers in the exported PDF document.</p>
 <p>When you export a report to PDF, the report elements have no role. Assistive software commonly treats such elements as HTML <div> tags. Change the element’s role to one of the values listed below to help the screen reader correctly identify the element’s purpose in the exported PDF document.
-<h4 id="define-label-accessible-role">Define Label Accessible Role</h4>
+<h3 id="define-label-accessible-role">Define Label Accessible Role</h3>
 <p>Set the control’s <strong>Accessible Role</strong> property to <strong>Heading 1 - Heading 6</strong> before you export a report.</p>
 <p><img src="../../../images/label-assesible-role.png" alt="Set AccessibleRole in Property Grid"></p>
 <p>In the PDF Export Options dialog, set the <strong>PDF/UA Compatibility</strong> property to <strong>PDF/UA1</strong> to conform the exported PDF document to PDF/UA specification. Then, export the report to PDF format.</p>
 <p>The image below shows the result. <strong>Accessible Role</strong> is set to <strong>Heading 2</strong>, and the screen reader treats <strong>Label</strong> as a “level two” heading in the exported document:</p>
 <p><img src="../../../images/accessible-exported-document-with-label.png" alt="Exported report in the screen reader"></p>
-<h4 id="define-table-accessible-role">Define Table Accessible Role</h4>
+<h3 id="define-table-accessible-role">Define Table Accessible Role</h3>
 <p>You can specify how Table should be treated by screen readers in the exported PDF document. For this, set the control's <strong>Accessible Role</strong> property to <strong>Table</strong> before you export a report.</p>
 <p><img src="../../../images/table-assesible-role.png" alt="Set AccessibleRole in Property Grid"></p>
 <p>In the PDF Export Options dialog, set the <strong>PDF/UA Compatibility</strong> property to <strong>PDF/UA1</strong> to conform the exported PDF document to PDF/UA specification. Then, export the report to PDF format.</p>
 <p>The image below shows the result. <strong>Accessible Role</strong> is set to <strong>Table</strong>, and the screen reader treats Table as a table in the exported document:</p>
 <p><img src="../../../images/accessible-exported-document-with-table.png" alt="Exported report in the screen reader"></p>
-<h4 id="define-table-row-accessible-role">Define Table Row Accessible Role</h4>
+<h3 id="define-table-row-accessible-role">Define Table Row Accessible Role</h3>
 <p>You can specify how Table Row should be treated by screen readers in the exported PDF document.</p>
 <p>Before you export a report, set the <strong>Table</strong>'s <strong>Accessible Role</strong> property to <strong>Table</strong> to define a control as a table. Then, specify <strong>Table Row</strong>'s <strong>Accessible Role</strong>:</p>
 <p><img src="../../../images/table-row-assesible-role.png" alt="Set AccessibleRole in Property Grid"></p>
 <p>In the PDF Export Options dialog, set the <strong>PDF/UA Compatibility</strong> property to <strong>PDF/UA1</strong> to conform the exported PDF document to PDF/UA specification. Then, export the report to PDF format.</p>
 <p>The image below shows the result. <strong>Table Row</strong>'s <strong>Accessible Role</strong> is set to <strong>Table Header Row</strong>, and the screen reader treats <strong>Table Row</strong> as a header row of the table in the exported document:</p>
 <p><img src="../../../images/accessible-exported-document-with-tablerow.png" alt="Exported report in the screen reader"></p>
-<h4 id="define-table-cell-accessible-role">Define Table Cell Accessible Role</h4>
+<h3 id="define-table-cell-accessible-role">Define Table Cell Accessible Role</h3>
 <p>Before you export a report, set the <strong>Table</strong>'s <strong>Accessible Role</strong> property to <strong>Table</strong> to define a control as a table. Then, specify the <strong>Table Cell</strong>'s <strong>Accessible Role</strong> property:</p>
 <p><img src="../../../images/tablecell-assesible-role.png" alt="Set AccessibleRole in Property Grid"></p>
 <div class="NOTE">
@@ -157,7 +162,7 @@
 </article>
 
         <div class="contribution d-print-none">
-          <a href="https://github.com/DevExpress/dotnet-eud/blob/24.2/reporting-for-desktop/articles/report-designer/report-designer-for-winforms/preview-print-and-export-reports.md/#L1" class="edit-link">Edit this page</a>
+          <a href="https://github.com/DevExpress/dotnet-eud/blob/25.1/reporting-for-desktop/articles/report-designer/report-designer-for-winforms/preview-print-and-export-reports.md/#L1" class="edit-link">Edit this page</a>
         </div>
 
         <div class="next-article d-print-none border-top" id="nextArticle"></div>
@@ -174,7 +179,7 @@
     <footer class="border-top text-secondary">
       <div class="container-xxl">
         <div class="flex-fill">
-          Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
+          Copyright (c) 1998-2025 Developer Express Inc. All rights reserved.
         </div>
       </div>
     </footer>

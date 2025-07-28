@@ -15138,6 +15138,16 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "dashboard-for-web/images/dashboard-parameter-request-before-loading.png",
+      "output": {
+        "resource": {
+          "relative_path": "dashboard-for-web/images/dashboard-parameter-request-before-loading.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "dashboard-for-web/images/dashboard-parameters-web.gif",
       "output": {
         "resource": {
@@ -55807,6 +55817,26 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "reporting-for-desktop/images/can-publish-options-example-image.png",
+      "output": {
+        "resource": {
+          "relative_path": "reporting-for-desktop/images/can-publish-options-example-image.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reporting-for-desktop/images/can-publish-options-property-grid.png",
+      "output": {
+        "resource": {
+          "relative_path": "reporting-for-desktop/images/can-publish-options-property-grid.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "reporting-for-desktop/images/carryover-scheme.png",
       "output": {
         "resource": {
@@ -62147,26 +62177,6 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "reporting-for-desktop/images/eurd-win-date-ranges-filterstring-getdate.png",
-      "output": {
-        "resource": {
-          "relative_path": "reporting-for-desktop/images/eurd-win-date-ranges-filterstring-getdate.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "reporting-for-desktop/images/eurd-win-date-ranges-parameters-panel.png",
-      "output": {
-        "resource": {
-          "relative_path": "reporting-for-desktop/images/eurd-win-date-ranges-parameters-panel.png"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Resource",
       "source_relative_path": "reporting-for-desktop/images/eurd-win-design-in-report-wizard.png",
       "output": {
         "resource": {
@@ -64131,6 +64141,16 @@
       "output": {
         "resource": {
           "relative_path": "reporting-for-desktop/images/eurd-win-label-labels-overlap.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reporting-for-desktop/images/eurd-win-label-line-spacing.png",
+      "output": {
+        "resource": {
+          "relative_path": "reporting-for-desktop/images/eurd-win-label-line-spacing.png"
         }
       },
       "version": ""
@@ -67181,6 +67201,16 @@
       "output": {
         "resource": {
           "relative_path": "reporting-for-desktop/images/eurd-win-table-cell-fit-text-to-bounds.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reporting-for-desktop/images/eurd-win-table-cell-line-spacing.png",
+      "output": {
+        "resource": {
+          "relative_path": "reporting-for-desktop/images/eurd-win-table-cell-line-spacing.png"
         }
       },
       "version": ""
@@ -73877,6 +73907,36 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "reporting-for-desktop/images/use-date-ranges-parameters-filtered.png",
+      "output": {
+        "resource": {
+          "relative_path": "reporting-for-desktop/images/use-date-ranges-parameters-filtered.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reporting-for-desktop/images/use-date-ranges-parameters-panel.png",
+      "output": {
+        "resource": {
+          "relative_path": "reporting-for-desktop/images/use-date-ranges-parameters-panel.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reporting-for-desktop/images/use-time-ranges-parameters-panel.png",
+      "output": {
+        "resource": {
+          "relative_path": "reporting-for-desktop/images/use-time-ranges-parameters-panel.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "reporting-for-desktop/images/vertical-report-preview.png",
       "output": {
         "resource": {
@@ -73951,6 +74011,16 @@
       "output": {
         "resource": {
           "relative_path": "reporting-for-desktop/images/winforms-data-source-wizard-query-customization-page.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reporting-for-desktop/images/winforms-eurd-shortcuts/Proportional-resize.gif",
+      "output": {
+        "resource": {
+          "relative_path": "reporting-for-desktop/images/winforms-eurd-shortcuts/Proportional-resize.gif"
         }
       },
       "version": ""
@@ -88990,6 +89060,26 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "reporting-for-web/images/web-can-publish-options-example-image.png",
+      "output": {
+        "resource": {
+          "relative_path": "reporting-for-web/images/web-can-publish-options-example-image.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reporting-for-web/images/web-can-publish-options-property-grid.png",
+      "output": {
+        "resource": {
+          "relative_path": "reporting-for-web/images/web-can-publish-options-property-grid.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "reporting-for-web/images/web-detail-report-navigation.png",
       "output": {
         "resource": {
@@ -89094,6 +89184,16 @@
       "output": {
         "resource": {
           "relative_path": "reporting-for-web/images/web-report-designer-smart-tags-expressions.png"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "reporting-for-web/images/web-report-designer-snapping-mode.png",
+      "output": {
+        "resource": {
+          "relative_path": "reporting-for-web/images/web-report-designer-snapping-mode.png"
         }
       },
       "version": ""
