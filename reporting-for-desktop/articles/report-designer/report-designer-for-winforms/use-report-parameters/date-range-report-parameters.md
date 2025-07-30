@@ -3,13 +3,13 @@ title: Date Range Report Parameters
 author: Sergey Andreev
 ---
 
-# Date Range Report Parameters
+# Range Report Parameters
 
 This topic describes how to create **date range** and **time range** parameters and filter a report’s data by the specified date or time values.
 
 ![A date range parameter's editor in Preview](~/reporting-for-desktop/images/use-date-ranges-parameters-panel.png)
 
-## Create a Date Range Parameter in the Report Designer
+## Create a Range Parameter in the Report Designer
 
 Follow the steps below to add a range parameter to a report in the [Report Designer](../../report-designer-for-winforms.md):
 
