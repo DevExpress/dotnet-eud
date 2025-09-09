@@ -11,31 +11,3 @@ The topics in this section describe the steps required to connect a report to a 
 
 > [!Note]
 >  The **MongoDB.Driver** package should be installed in your project to supply MongoDB data at runtime.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
