@@ -7,7 +7,7 @@ author: Anna Gubareva
 ## Overview
 The **Rich Text** control displays formatted text (static, dynamic or mixed) in your report.
 
-To add this control to a report, drag the **Rich Text** item from the [Toolbox](../../report-designer-tools/toolbox.md) onto the report's area.
+To add this control to a report, drag the **Rich Text** item from the [Toolbox](../../report-designer-tools/ui-panels/toolbox.md) onto the report's area.
 
 ![](../../../../../images/eurd-win-add-rich-text-to-report.png)
 
@@ -17,7 +17,7 @@ You can load RTF or HTML content from an external file. Click the control's smar
 
 In the invoked **Open** dialog, use the drop-down list to define the file's extension (**.rtf**, **.docx**, **.txt**, **.htm** or **.html**), select the file and click **Open**.
 
-You can double-click the Rich Text to invoke its in-place editor and enter static text. Use the [Toolbar](../../report-designer-tools/toolbar.md)'s **Font** group to format the text. 
+You can double-click the Rich Text to invoke its in-place editor and enter static text. Use the [Toolbar](../../report-designer-tools/ui-panels/toolbar.md)'s **Font** group to format the text. 
 
 ![](../../../../../images/eurd-win-rich-text-in-place-editor.png)
 

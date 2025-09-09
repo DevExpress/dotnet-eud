@@ -8,11 +8,11 @@ This tutorial demonstrates how to use the Chart control to visualize the Pivot G
 
 ## Create a Pivot Grid
 
-1. Drop the **Pivot Grid** control from the [Toolbox](../../report-designer-tools/toolbox.md) onto the [Detail band](../../introduction-to-banded-reports.md).
+1. Drop the **Pivot Grid** control from the [Toolbox](../../report-designer-tools/ui-panels/toolbox.md) onto the [Detail band](../../introduction-to-banded-reports.md).
 
     ![](../../../../../images/eurd-win-add-pivot-grid-to-report.png)
 
-2. Open the [Toolbar](../../report-designer-tools/toolbar.md)'s **Pivot Grid Tools** contextual tab and click **Add Data Source** to bind the pivot grid to data.
+2. Open the [Toolbar](../../report-designer-tools/ui-panels/toolbar.md)'s **Pivot Grid Tools** contextual tab and click **Add Data Source** to bind the pivot grid to data.
 
     ![](../../../../../images/eurd-win-pivot-grid-toolbar-add-data-source.png)
 
@@ -32,7 +32,7 @@ This tutorial demonstrates how to use the Chart control to visualize the Pivot G
 
 ## Link a Chart with the Pivot grid
 
-1.  Drop the **Chart** control from the [Toolbox](../../report-designer-tools/toolbox.md) onto the Detail band below the Pivot Grid.
+1.  Drop the **Chart** control from the [Toolbox](../../report-designer-tools/ui-panels/toolbox.md) onto the Detail band below the Pivot Grid.
 
     ![](../../../../../images/eurd-win-add-chart-to-link-with-pivot-grid.png)
 

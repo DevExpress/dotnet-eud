@@ -9,7 +9,7 @@ The **Character Comb** control displays text so that each character is printed i
 
 ![](../../../../../images/eurd-character-comb-example.png)
 
-To add a Character Comb to the report, drag the **Character Comb** item from the [Toolbox](../../report-designer-tools/toolbox.md) onto the report's area.
+To add a Character Comb to the report, drag the **Character Comb** item from the [Toolbox](../../report-designer-tools/ui-panels/toolbox.md) onto the report's area.
 
 ![](../../../../../images/eurd-add-character-comb-to-report.png)
 
@@ -20,7 +20,7 @@ The number of cells displayed by the control in Print Preview depends on the **C
 
 See the [Content Layout and Position](#behavior) section to learn more on using these properties.
 
-You can also adjust the character comb's size to match its characters using the **Fit Bounds To Text** [toolbar](../../report-designer-tools/toolbar.md) button or context menu command:
+You can also adjust the character comb's size to match its characters using the **Fit Bounds To Text** [toolbar](../../report-designer-tools/ui-panels/toolbar.md) button or context menu command:
 
 * If the **Word Wrap** option is enabled, the command keeps control content displayed in multiple lines. It decreases the control's height and adjusts the width to fit this content.
 	

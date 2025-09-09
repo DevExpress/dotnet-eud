@@ -9,6 +9,6 @@ The topics in this section describe the main tools and features available in the
 - [Data Source Wizard](report-designer-tools/data-source-wizard.md)
 - [Query Builder](report-designer-tools/query-builder.md)
 - [Localization Editor](report-designer-tools/localization-editor.md)
-- [Toolbox](report-designer-tools/toolbox.md)
-- [Toolbar](report-designer-tools/toolbar.md)
+- [Toolbox](report-designer-tools/ui-panels/toolbox.md)
+- [Toolbar](report-designer-tools/ui-panels/toolbar.md)
 - [UI Panels](report-designer-tools/ui-panels.md)

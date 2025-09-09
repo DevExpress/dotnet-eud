@@ -50,7 +50,7 @@ Create the master report layout to display basic information about customers and
 	
 	![](../../../../images/eurd-win-invoice-master-layout-dynamic-fields.png)
 
-2. Drop [Label](../use-report-elements/use-basic-report-controls/label.md) controls from the [Toolbox](../report-designer-tools/toolbox.md) onto the band to display static captions for specific data fields.
+2. Drop [Label](../use-report-elements/use-basic-report-controls/label.md) controls from the [Toolbox](../report-designer-tools/ui-panels/toolbox.md) onto the band to display static captions for specific data fields.
 	
 	![](../../../../images/eurd-win-invoice-master-layout-static-labels.png)
 
@@ -166,7 +166,7 @@ Do the following to customize the report and its elements' appearance:
 	
 	![](../../../../images/eurd-win-invoice-report-control-text-alignment.png)
 
-4. Create a global [visual style](../customize-appearance/report-visual-styles.md) to apply it afterwards to multiple controls. Click the caption button in the [Toolbar](../report-designer-tools/toolbar.md)'s **Styles** section.
+4. Create a global [visual style](../customize-appearance/report-visual-styles.md) to apply it afterwards to multiple controls. Click the caption button in the [Toolbar](../report-designer-tools/ui-panels/toolbar.md)'s **Styles** section.
 
     ![](../../../../images/eurd-win-invoice-invoke-styles-editor.png)
 

@@ -10,7 +10,7 @@ This document demonstrates how to add a chart to a report, provide data for char
 
 ## Add a Chart to a Report
 
-1. Drop the **Chart** control from the [Toolbox](../../report-designer-tools/toolbox.md) onto the [Detail band](../../introduction-to-banded-reports.md).
+1. Drop the **Chart** control from the [Toolbox](../../report-designer-tools/ui-panels/toolbox.md) onto the [Detail band](../../introduction-to-banded-reports.md).
 
     ![](../../../../../images/eurd-win-chart-add-to-report.png)
 

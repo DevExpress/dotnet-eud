@@ -82,6 +82,8 @@ items:
       href: articles/report-designer/report-designer-for-winforms/create-reports/reports-with-embedded-pdf-content.md
     - name: Reports with a Visual PDF Signature
       href: articles/report-designer/report-designer-for-winforms/create-reports/reports-with-visual-pdf-signature.md
+    - name: Letters
+      href: articles/report-designer/report-designer-for-winforms/create-reports/letters.md
   - name: Configure Design Settings
     href: articles/report-designer/report-designer-for-winforms/configure-design-settings.md
     items:
@@ -117,6 +119,8 @@ items:
         href: articles/report-designer/report-designer-for-winforms/use-report-elements/manipulate-report-elements/add-report-controls-to-containers.md
       - name: Validate the Report Layout
         href: articles/report-designer/report-designer-for-winforms/use-report-elements/manipulate-report-elements/validate-the-report-layout.md
+      - name: Hide Report Controls in Exported Documents and Printouts
+        href: articles/report-designer/report-designer-for-winforms/use-report-elements/manipulate-report-elements/hide-report-controls-in-exported-documents-and-printouts.md
       - name: Keyboard Shortcuts
         href: articles/report-designer/report-designer-for-winforms/use-report-elements/manipulate-report-elements/keyboard-shortcut.md
     - name: Bind Report Controls to Data
@@ -359,6 +363,8 @@ items:
         href: articles/report-designer/report-designer-for-winforms/shape-report-data/calculate-summaries/calculate-a-weighted-average.md
       - name: Calculate an Advanced Summary
         href: articles/report-designer/report-designer-for-winforms/shape-report-data/calculate-summaries/calculate-an-advanced-summary.md
+      - name: Calculate a Running Summary
+        href: articles/report-designer/report-designer-for-winforms/shape-report-data/calculate-summaries/calculate-a-running-summary.md
       - name: Calculate Carried Forward/Brought Forward
         href: articles/report-designer/report-designer-for-winforms/shape-report-data/calculate-summaries/calculate-carriedforward-broughtforward.md
     - name: Count Elements and Values
@@ -582,6 +588,15 @@ items:
           href: articles/report-designer/report-designer-for-winforms/report-designer-tools/data-source-wizard/connect-to-an-xpo-data-source/specify-a-connection-string.md
         - name: Save the Connection String
           href: articles/report-designer/report-designer-for-winforms/report-designer-tools/data-source-wizard/connect-to-an-xpo-data-source/save-the-connection-string.md
+      - name: Connect to a MongoDB Data Source
+        href: articles/report-designer/report-designer-for-winforms/report-designer-tools/data-source-wizard/connect-to-a-mongo-db.md
+        items:    
+        - name: Specify Connection Properties
+          href: articles/report-designer/report-designer-for-winforms/report-designer-tools/data-source-wizard/connect-to-a-mongo-db/specify-connection-properties.md
+        - name: Configure Queries
+          href: articles/report-designer/report-designer-for-winforms/report-designer-tools/data-source-wizard/connect-to-a-mongo-db/configure-queries.md
+        - name: Select Data Fields
+          href: articles/report-designer/report-designer-for-winforms/report-designer-tools/data-source-wizard/connect-to-a-mongo-db/select-data-fields.md
       - name: Connect to a Federated Data Source
         href: articles/report-designer/report-designer-for-winforms/report-designer-tools/data-source-wizard/connect-to-a-federated-data-source.md
         items:
@@ -591,10 +606,6 @@ items:
         href: articles/report-designer/report-designer-for-winforms/report-designer-tools/data-source-wizard/no-data.md
     - name: Query Builder
       href: articles/report-designer/report-designer-for-winforms/report-designer-tools/query-builder.md        
-    - name: Toolbox
-      href: articles/report-designer/report-designer-for-winforms/report-designer-tools/toolbox.md
-    - name: Toolbar
-      href: articles/report-designer/report-designer-for-winforms/report-designer-tools/toolbar.md
     - name: UI Panels
       href: articles/report-designer/report-designer-for-winforms/report-designer-tools/ui-panels.md
       items:
@@ -612,6 +623,10 @@ items:
         href: articles/report-designer/report-designer-for-winforms/report-designer-tools/ui-panels/group-and-sort-panel.md
       - name: Report Design Analyzer
         href: articles/report-designer/report-designer-for-winforms/report-designer-tools/ui-panels/report-design-analyzer.md
+      - name: Toolbox
+        href: articles/report-designer/report-designer-for-winforms/report-designer-tools/ui-panels/toolbox.md
+      - name: Toolbar
+        href: articles/report-designer/report-designer-for-winforms/report-designer-tools/ui-panels/toolbar.md
   - name: Localize Reports
     href: articles/report-designer/report-designer-for-winforms/localize-reports.md
 - name: Report Designer for WPF

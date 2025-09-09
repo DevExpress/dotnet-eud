@@ -6,11 +6,11 @@ author: Anna Gubareva
 
 The **Shape** control allows you to draw various shapes in a report.
 
-To add a shape to a report, drag the **Shape** item from the [Toolbox](../../report-designer-tools/toolbox.md) onto the report's area.
+To add a shape to a report, drag the **Shape** item from the [Toolbox](../../report-designer-tools/ui-panels/toolbox.md) onto the report's area.
 
 ![](../../../../../images/eurd-win-add-shape-control-to-report.png)
 
-Click a control's smart tag and use the **Shape** property to select the shape type. You can also choose the shape type in the [Toolbar](../../report-designer-tools/toolbar.md)'s  **Shape Tools** contextual tab.
+Click a control's smart tag and use the **Shape** property to select the shape type. You can also choose the shape type in the [Toolbar](../../report-designer-tools/ui-panels/toolbar.md)'s  **Shape Tools** contextual tab.
 
 ![](../../../../../images/eurd-win-shape-control-select-type.png)
 

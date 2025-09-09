@@ -17,7 +17,7 @@ You can embed a [parameter](../use-report-parameters.md)'s value into a control'
 
 A database barrel icon is displayed above the control if embedded fields are valid in the current data context (specified by the report's **Data Source** and **Data Member** properties).
 
-For the [Rich Text](../use-report-elements/use-basic-report-controls/rich-text.md) control, you can select any text part and adjust its color and font options using the [Toolbar](../report-designer-tools/toolbar.md)'s **Font** group.
+For the [Rich Text](../use-report-elements/use-basic-report-controls/rich-text.md) control, you can select any text part and adjust its color and font options using the [Toolbar](../report-designer-tools/ui-panels/toolbar.md)'s **Font** group.
 
 ![](../../../../images/eurd-win-mail-merge-format-text.png)
 

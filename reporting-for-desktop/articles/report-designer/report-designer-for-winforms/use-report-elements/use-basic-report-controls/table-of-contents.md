@@ -7,7 +7,7 @@ author: Anna Gubareva
 ## Overview
 Once [bookmarks](../../add-navigation/add-bookmarks-and-a-document-map.md) have been assigned to specific report elements, you can generate a table of contents that displays page numbers containing the elements included into the document map.
 
-To implement a table of contents, drop the **Table Of Contents** control from the [Toolbox](../../report-designer-tools/toolbox.md) onto the report's area. If the report does not contain a [Report Header](../../introduction-to-banded-reports.md) at the moment, it is created automatically so that the table of contents can be added to it.
+To implement a table of contents, drop the **Table Of Contents** control from the [Toolbox](../../report-designer-tools/ui-panels/toolbox.md) onto the report's area. If the report does not contain a [Report Header](../../introduction-to-banded-reports.md) at the moment, it is created automatically so that the table of contents can be added to it.
 
 ![](../../../../../images/eurd-win-add-table-of-contents-to-report.png)
 

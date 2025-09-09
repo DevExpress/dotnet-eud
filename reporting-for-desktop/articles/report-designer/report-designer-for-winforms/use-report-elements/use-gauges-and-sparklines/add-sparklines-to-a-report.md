@@ -7,7 +7,7 @@ author: Anna Gubareva
 ## Sparkline Overview
 The **Sparkline** control displays a compact chart that is commonly used to illustrate the data flow for every row in a report.
 
-To add this control to the report, drag the **Sparkline** item from the [Toolbox](../../report-designer-tools/toolbox.md) and drop it onto the report.
+To add this control to the report, drag the **Sparkline** item from the [Toolbox](../../report-designer-tools/ui-panels/toolbox.md) and drop it onto the report.
 
 ![](../../../../../images/eurd-win-add-sparkline-control-to-report.png)
 
@@ -20,7 +20,7 @@ The sparkline uses the report's data source if you do not specify the **DataSour
 
 After that, specify the **Data Member** property and set the **Value Member** property to a data field that provides point values for the sparkline.
 
-To create a new data source for a sparkline, open the [Toolbar](../../report-designer-tools/toolbar.md)'s **Sparkline Tools** contextual tab and click the **Add Data Source** button. This invokes the [Data Source Wizard](../../report-designer-tools/data-source-wizard.md) that allows you to set up a required data source.
+To create a new data source for a sparkline, open the [Toolbar](../../report-designer-tools/ui-panels/toolbar.md)'s **Sparkline Tools** contextual tab and click the **Add Data Source** button. This invokes the [Data Source Wizard](../../report-designer-tools/data-source-wizard.md) that allows you to set up a required data source.
 
 ## Adjust the Sparkline View
 You can select the sparlkline's view type in the **Sparkline Tools** toolbar tab's **View** gallery.

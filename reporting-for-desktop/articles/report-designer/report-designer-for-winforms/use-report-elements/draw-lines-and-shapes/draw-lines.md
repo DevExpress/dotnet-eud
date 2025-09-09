@@ -6,7 +6,7 @@ author: Anna Gubareva
 
 The **Line** control draws a line in a specified direction, style, width, and color. You can use it to decorate and visually separate a report's sections.
 
-To add a line to a report, drag the **Line** item from the [Toolbox](../../report-designer-tools/toolbox.md) onto the report's area.
+To add a line to a report, drag the **Line** item from the [Toolbox](../../report-designer-tools/ui-panels/toolbox.md) onto the report's area.
 
 ![](../../../../../images/eurd-win-add-line-to-a-report.png)
 

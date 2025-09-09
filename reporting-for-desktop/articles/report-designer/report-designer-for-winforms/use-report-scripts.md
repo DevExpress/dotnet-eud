@@ -2,8 +2,11 @@
 title: Use Report Scripts
 ---
 # Use Report Scripts
-This document describes the basic principles of _scripting_, which can be performed by handling the events of a report, and its [bands](introduction-to-banded-reports.md) and [controls](use-report-elements.md).
 
+> [!IMPORTANT]
+>Report scripts are not secure and are disabled by default. We recommend that you use [expression bindings](bind-to-data/data-binding-modes.md) instead.
+
+This document describes the basic principles of _scripting_, which can be performed by handling the events of a report, and its [bands](introduction-to-banded-reports.md) and [controls](use-report-elements.md).
 
 _Scripts_ are program commands, placed within the _event handlers_ of the required report elements. And, when the corresponding event occurs (e.g. a mouse click), the script code runs.
 

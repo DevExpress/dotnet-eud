@@ -16,7 +16,7 @@ Use the arrow that appears when a mouse cursor hovers over the table edges to se
 
 Click the ![](../../../../../images/eurd-win-table-control-select-table-button.png) button at the table's left bottom corner to select the whole table. You can also use this button to move the table.
 
-The **Select** group in the [toolbar](../../report-designer-tools/toolbar.md)'s **Table Tools** contextual tab also enables you to select the current row, the current column or the entire table.
+The **Select** group in the [toolbar](../../report-designer-tools/ui-panels/toolbar.md)'s **Table Tools** contextual tab also enables you to select the current row, the current column or the entire table.
 
 ![](../../../../../images/eurd-win-table-select-toolbar-group.png)
 

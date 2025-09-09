@@ -6,7 +6,7 @@ author: Anna Gubareva
 
 The **Table** control displays information in a tabular format and allows you to create  [table reports](../../create-reports/table-reports.md).
 
-You can add a table control by dragging the **Table** item from the [Toolbox](../../report-designer-tools/toolbox.md) onto the report's area.
+You can add a table control by dragging the **Table** item from the [Toolbox](../../report-designer-tools/ui-panels/toolbox.md) onto the report's area.
 
 ![](~/reporting-for-desktop/images/eurd-win-drop-table-from-toolbox.png)
 
@@ -22,7 +22,7 @@ You can double-click the cell to invoke its in-place editor and type the desired
 
 ![](~/reporting-for-desktop/images/eurd-win-table-cell-static-text.png)
 
-You can adjust the font size of a cell's static text to fit into the cell's boundaries. Use the **Fit Text to Bounds** button in the [toolbar](../../report-designer-tools/toolbar.md)'s **Text** contextual tab, or right-click this cell and select **Fit Text to Bounds** in the context menu.
+You can adjust the font size of a cell's static text to fit into the cell's boundaries. Use the **Fit Text to Bounds** button in the [toolbar](../../report-designer-tools/ui-panels/toolbar.md)'s **Text** contextual tab, or right-click this cell and select **Fit Text to Bounds** in the context menu.
 
 ![](~/reporting-for-desktop/images/eurd-win-table-cell-fit-text-to-bounds.png)
 

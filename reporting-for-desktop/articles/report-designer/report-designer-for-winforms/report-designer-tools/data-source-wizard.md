@@ -3,7 +3,11 @@ title: Data Source Wizard
 ---
 # Data Source Wizard
 
-The Data Source Wizard enables you to configure a data source and retrieve the required data. It supports the following data source types:
+The Data Source Wizard enables you to configure a data source and retrieve the required data. 
+
+![ReportWizard-SelectDataSourceType](../../../../images/eurd-ReportWizard-SelectDataSourceType.png)
+
+The wizard supports the following data source types:
 
 * [Database](data-source-wizard/connect-to-a-database.md)
 	
@@ -21,6 +25,10 @@ The Data Source Wizard enables you to configure a data source and retrieve the r
 
 	Connects to JSON-formatted data.
 
+* [MongoDB](data-source-wizard/connect-to-a-mongo-db.md)
+
+	Connects to a MongoDB instance.
+
 * [XPO](data-source-wizard/connect-to-an-xpo-data-source.md)
 
 	Allows you to bind to **XPO** data.
@@ -29,15 +37,13 @@ The Data Source Wizard enables you to configure a data source and retrieve the r
 
 	Allows you design a report that is not bound to a data source.	
 
-![ReportWizard-SelectDataSourceType](../../../../images/eurd-ReportWizard-SelectDataSourceType.png)
-
 The Data Source Wizard allows you to do the following:
 
 * [Add a new data-bound report](../add-new-reports.md) to your application using the [Report Wizard](report-wizard.md), which contains the Data Source Wizard pages.
 	
 	![report-wizard-databaound-report-01](../../../../images/eurd-wizard-databaound-report.png)
 
-* Bind an existing report or its [Detail Report band](../introduction-to-banded-reports.md) to data. To invoke this Wizard, click **Add Data Source** on the [Ribbon](toolbar.md)'s **Home** page.
+* Bind an existing report or its [Detail Report band](../introduction-to-banded-reports.md) to data. To invoke this Wizard, click **Add Data Source** on the [Ribbon](ui-panels/toolbar.md)'s **Home** page.
 
     ![eurd-win-add-report-data-source](../../../../images/eurd-win-add-new-report-data-source-ribbon.png)
 	

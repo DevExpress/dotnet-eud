@@ -14,7 +14,7 @@ In this tutorial, the report data is grouped against a data field (the report's 
 
 Follow the steps below to make each chart instance display data for its group.
 
-1. Select the chart. Open the [Toolbar](../../report-designer-tools/toolbar.md)'s **Chart Tools** contextual tab and click **Run Designer**.
+1. Select the chart. Open the [Toolbar](../../report-designer-tools/ui-panels/toolbar.md)'s **Chart Tools** contextual tab and click **Run Designer**.
 
 	![](../../../../../images/eurd-win-chart-run-designer-button.png)
 

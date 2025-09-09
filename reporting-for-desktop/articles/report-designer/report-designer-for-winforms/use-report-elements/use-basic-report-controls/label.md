@@ -6,7 +6,7 @@ author: Anna Gubareva
 
 ## Label Overview
 
-The **Label** control displays plain text in a report. Drag the **Label** item from the [Toolbox](../../report-designer-tools/toolbox.md) onto the report's area to add a Label control to it.
+The **Label** control displays plain text in a report. Drag the **Label** item from the [Toolbox](../../report-designer-tools/ui-panels/toolbox.md) onto the report's area to add a Label control to it.
 
 ![](~/reporting-for-desktop/images/eurd-win-drop-report-control-from-toolbox.png)
 

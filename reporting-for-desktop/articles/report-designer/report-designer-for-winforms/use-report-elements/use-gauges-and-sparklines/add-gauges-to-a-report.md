@@ -8,11 +8,11 @@ author: Anna Gubareva
 
 The **Gauge** control provides you with the capability to embed graphical gauges into your report.
 
-To add this control to the report, drag the **Gauge** item from the [Toolbox](../../report-designer-tools/toolbox.md) and drop it onto the report.
+To add this control to the report, drag the **Gauge** item from the [Toolbox](../../report-designer-tools/ui-panels/toolbox.md) and drop it onto the report.
 
 ![](../../../../../images/eurd-win-add-gauge-control-to-report.png)
 
-Use the [Toolbar](../../report-designer-tools/toolbar.md)'s **Gauge Tools** contextual tab to select a gauge's appearance.
+Use the [Toolbar](../../report-designer-tools/ui-panels/toolbar.md)'s **Gauge Tools** contextual tab to select a gauge's appearance.
 
 ![](../../../../../images/eurd-win-gauge-tools-toolbar-contextual-tab.png)
 

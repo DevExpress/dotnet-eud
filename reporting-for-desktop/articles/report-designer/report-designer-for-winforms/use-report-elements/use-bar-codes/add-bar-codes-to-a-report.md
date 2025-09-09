@@ -6,11 +6,11 @@ author: Anna Gubareva
 
 ## Overview
 
-To insert a barcode into a report, drag the **Barcode** item from the [Toolbox](../../report-designer-tools/toolbox.md) onto the report's area.
+To insert a barcode into a report, drag the **Barcode** item from the [Toolbox](../../report-designer-tools/ui-panels/toolbox.md) onto the report's area.
 
 ![](../../../../../images/eurd-win-add-bar-code-to-report.png)
 
-After creating the barcode, select the barcode type (symbology) in the **Barcode Tools** [toolbar](../../report-designer-tools/toolbar.md) tab's **Symbology** gallery.
+After creating the barcode, select the barcode type (symbology) in the **Barcode Tools** [toolbar](../../report-designer-tools/ui-panels/toolbar.md) tab's **Symbology** gallery.
 	
 ![](../../../../../images/eurd-win-bar-code-symbology.png)
 	

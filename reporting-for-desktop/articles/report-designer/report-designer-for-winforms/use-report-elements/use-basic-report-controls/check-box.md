@@ -22,7 +22,7 @@ Drag a Boolean field from the [Field List](../../../../../articles/report-design
 
 ![report-control-check-box-add-from-toolbox](../../../../../images/eurd-checkbox-drag-from-fieldlist.png)
 
-If you add a checkbox from the [Toolbox](../../../../../articles/report-designer/report-designer-for-winforms/report-designer-tools/toolbox.md), click the control's [smart tag](../../../../../articles/report-designer/report-designer-for-winforms/use-report-elements/manipulate-report-elements/select-report-elements-and-access-their-settings.md), expand the **CheckState** property's **Expression** drop-down list and select a data field. This [binds](../bind-controls-to-data.md) your control's **CheckState** property to a data source field.
+If you add a checkbox from the [Toolbox](../../../../../articles/report-designer/report-designer-for-winforms/report-designer-tools/ui-panels/toolbox.md), click the control's [smart tag](../../../../../articles/report-designer/report-designer-for-winforms/use-report-elements/manipulate-report-elements/select-report-elements-and-access-their-settings.md), expand the **CheckState** property's **Expression** drop-down list and select a data field. This [binds](../bind-controls-to-data.md) your control's **CheckState** property to a data source field.
 
 ![report-control-check-box-bind-to-data](../../../../../images/eurd-chekbox-bind-to-data.png)
 

@@ -15,7 +15,7 @@ DevExpress Reporting allows you to display text and picture watermarks on report
 
 ## <a name="addwatermark"></a>Add a Watermark to a Report
 
-Switch to the [toolbar](../report-designer-tools/toolbar.md)'s **Page** page and press **Watermark**.
+Switch to the [toolbar](../report-designer-tools/ui-panels/toolbar.md)'s **Page** page and press **Watermark**.
 
 ![eurd-win-add-watermarks-use-toolbox](../../../../images/eurd-win-add-watermarks-use-toolbox.png)
 
@@ -131,7 +131,7 @@ Click **OK** to add a watermark to the watermark collection. The added watermark
 
 You can use a picture watermark as a template, to display an image of the preprinted form on the report's body at design time.
 
-To display a watermark at design time, switch to the [toolbar](../report-designer-tools/toolbar.md)'s **View** page and activate  **Watermark**.
+To display a watermark at design time, switch to the [toolbar](../report-designer-tools/ui-panels/toolbar.md)'s **View** page and activate  **Watermark**.
 
 ![eurd-win-add-preprinted-watermark](../../../../images/eurd-win-add-preprinted-watermark.png)
 
