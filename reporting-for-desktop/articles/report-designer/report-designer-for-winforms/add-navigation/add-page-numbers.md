@@ -11,7 +11,7 @@ Do the following to add page numbers to a report:
 - Create a [PageFooterBand](../introduction-to-banded-reports.md) in your report. To do this, right-click anywhere in the report designer, and in the context menu point to **Insert Band**, and then click **PageFooter**.
 	
 	![eurd-win-add-page-footer](../../../../images/eurd-win-add-page-footer.png)
-- Drop the [Page Info](../use-report-elements/use-basic-report-controls/page-info.md) control from the [Toolbox](../report-designer-tools/toolbox.md) to the **PageFooter** band.
+- Drop the [Page Info](../use-report-elements/use-basic-report-controls/page-info.md) control from the [Toolbox](../report-designer-tools/ui-panels/toolbox.md) to the **PageFooter** band.
 	
 	![eurd-win-drop-page-info](../../../../images/eurd-win-drop-page-info.png)
 - To change the control's display format, click its smart tag, and in the invoked actions list, specify the **Text Format String** property (e.g., **Page {0} of {1}**, to display the current page number out of the total number of pages).
@@ -36,7 +36,7 @@ Do the following to make your report display page numbers for groups or detail r
 	To do this, select the Group Footer, and set its **Page Break** property to *After the Band*.
 	
 	![eurd-win-pageinfo-pagebreak](../../../../images/eurd-win-pageinfo-pagebreak.png)
-- Drop the [Page Info](../use-report-elements/use-basic-report-controls/page-info.md) control from the [Toolbox](../report-designer-tools/toolbox.md) onto the **GroupFooter** (or **GroupHeader**) band.
+- Drop the [Page Info](../use-report-elements/use-basic-report-controls/page-info.md) control from the [Toolbox](../report-designer-tools/ui-panels/toolbox.md) onto the **GroupFooter** (or **GroupHeader**) band.
 	
 	![eurd-win-droppageinfo-to-grou-footer.png](../../../../images/eurd-win-droppageinfo-to-grou-footer.png)
 - Select the created control, and set its **Running Band** property to *GroupHeader1*.

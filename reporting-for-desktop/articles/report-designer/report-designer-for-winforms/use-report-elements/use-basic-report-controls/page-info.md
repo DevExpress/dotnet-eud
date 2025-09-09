@@ -6,7 +6,7 @@ author: Anna Gubareva
 
 The **Page Info** control is used to display auxiliary information on report pages, such as date, time, page numbers or user name.
 
-To add a new Page Info control to a report, drag the **Page Info** item from the [Toolbox](../../report-designer-tools/toolbox.md) and drop it onto the required report band.
+To add a new Page Info control to a report, drag the **Page Info** item from the [Toolbox](../../report-designer-tools/ui-panels/toolbox.md) and drop it onto the required report band.
 
 ![](../../../../../images/eurd-win-add-page-info-to-report.png)
 

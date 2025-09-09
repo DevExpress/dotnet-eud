@@ -30,7 +30,7 @@ This tutorial describes how to create a data-bound report displaying information
 
     ![](../../../../images/eurd-win-table-report-select-both-tables.png)
 
-7. Use the [Toolbar](../report-designer-tools/toolbar.md)'s **Font**, **Alignment** and  **Borders** sections to customize the tables' appearance.
+7. Use the [Toolbar](../report-designer-tools/ui-panels/toolbar.md)'s **Font**, **Alignment** and  **Borders** sections to customize the tables' appearance.
 
     ![](../../../../images/eurd-win-table-report-appearance-via-toolbar.png)
 

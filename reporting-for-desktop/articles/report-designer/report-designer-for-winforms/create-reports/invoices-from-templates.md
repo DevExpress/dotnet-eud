@@ -11,7 +11,7 @@ This document describes how to create an invoice report based on a predefined te
 
 Do the following to select an invoice template and configure its settings:
 
-1. Click [New Report via Wizard](../add-new-reports.md) in the [Toolbar](../report-designer-tools/toolbar.md)'s **Home** tab.
+1. Click [New Report via Wizard](../add-new-reports.md) in the [Toolbar](../report-designer-tools/ui-panels/toolbar.md)'s **Home** tab.
 
     ![](../../../../images/eurd-win-press-new-report-via-wizard.png)
 

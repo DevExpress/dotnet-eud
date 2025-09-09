@@ -12,7 +12,7 @@ Use the following approaches to create a visual style in your report:
 
 - **Extract a Style**
 
-    Specify a report control's [appearance properties](appearance-properties.md) and press **Extract Style** in the report's [toolbar](../report-designer-tools/toolbar.md).
+    Specify a report control's [appearance properties](appearance-properties.md) and press **Extract Style** in the report's [toolbar](../report-designer-tools/ui-panels/toolbar.md).
 
     ![eurd-win-specify-properties](../../../../images/eurd-win-specify-properties.png)
 
@@ -27,7 +27,7 @@ Use the following approaches to create a visual style in your report:
 
 The created style is added to the Style gallery. You can access this gallery in the following places:
 
-- the Styles group in the report's [toolbar](../report-designer-tools/toolbar.md);
+- the Styles group in the report's [toolbar](../report-designer-tools/ui-panels/toolbar.md);
 
     ![eurd-win-styles-in-toolbar](../../../../images/eurd-win-styles-in-toolbar.png)
 

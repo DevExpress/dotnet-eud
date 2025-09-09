@@ -23,7 +23,7 @@ Use one of the following actions:
 
     ![](../../../../images/eurd-localize-report-property-grid-action.png)
 
-* Click the **dialog box launcher** in the [Toolbar](toolbar.md#view-tab)'s Localization group:
+* Click the **dialog box launcher** in the [Toolbar](ui-panels/toolbar.md)'s Localization group:
 
     ![](../../../../images/eurd-localize-report-dialog-box-launcher.png)
 

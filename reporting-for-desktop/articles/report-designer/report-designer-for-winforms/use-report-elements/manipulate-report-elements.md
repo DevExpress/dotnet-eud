@@ -16,3 +16,4 @@ The following topics describe how to add various controls to a report, manipulat
 * [Convert Labels to Table](manipulate-report-elements/convert-labels-to-table.md)
 * [Add Report Controls to Containers](manipulate-report-elements/add-report-controls-to-containers.md)
 * [Validate the Report Layout](manipulate-report-elements/validate-the-report-layout.md)
+* [Hide Report Controls in Exported Documents and Printouts](manipulate-report-elements/hide-report-controls-in-exported-documents-and-printouts.md)

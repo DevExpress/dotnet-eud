@@ -11,7 +11,7 @@ The Report Designer provides the following two cross-band controls:
 * The **Cross-Band Line** control draws vertical lines that can span multiple report bands. You can use this control to emphasize a report area that consists of different bands.   
 * The  **Cross-Band Box** control draws rectangles through several report bands. You can use this control to encompass a report section that includes multiple band areas.
 
-To add a cross-band control to a report, select the corresponding item in the [Toolbox](../../report-designer-tools/toolbox.md) and draw a rectangle across required bands.
+To add a cross-band control to a report, select the corresponding item in the [Toolbox](../../report-designer-tools/ui-panels/toolbox.md) and draw a rectangle across required bands.
 
 ![](../../../../../images/eurd-win-add-cross-band-control-to-report.png)
 

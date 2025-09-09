@@ -6,7 +6,7 @@ author: Anna Gubareva
 
 ## Insert Table Rows and Columns
 
-You can use the **Insert** group in the [toolbar](../../report-designer-tools/toolbar.md)'s **Table Tools** contextual tab or the **Insert** context menu items to add new rows and columns. The added cells inherit the source cells' size and appearance settings.
+You can use the **Insert** group in the [toolbar](../../report-designer-tools/ui-panels/toolbar.md)'s **Table Tools** contextual tab or the **Insert** context menu items to add new rows and columns. The added cells inherit the source cells' size and appearance settings.
 
 ![](../../../../../images/eurd-win-table-insert-commands.png)
 
@@ -57,7 +57,7 @@ You can use the **Insert** group in the [toolbar](../../report-designer-tools/to
 
 ## Delete Table Elements
 
-Use the **Delete** group in the [toolbar](../../report-designer-tools/toolbar.md)'s **Table Tools** contextual tab or the **Delete** context menu items to remove table elements.
+Use the **Delete** group in the [toolbar](../../report-designer-tools/ui-panels/toolbar.md)'s **Table Tools** contextual tab or the **Delete** context menu items to remove table elements.
 
 ![](../../../../../images/eurd-win-table-delete-commands.png)
 

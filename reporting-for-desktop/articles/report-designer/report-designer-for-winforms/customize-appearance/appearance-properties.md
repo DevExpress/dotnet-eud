@@ -24,7 +24,7 @@ Every report element ([control](../use-report-elements.md) or [band](../introduc
 
 ## Access Appearance Properties
 
-Use the Report Designer's [Toolbar](../report-designer-tools/toolbar.md) to access the appearance properties.
+Use the Report Designer's [Toolbar](../report-designer-tools/ui-panels/toolbar.md) to access the appearance properties.
 
 ![eurd-win-appearance-properties-on-toolbar](../../../../images/eurd-win-appearance-properties-on-toolbar.png)
 

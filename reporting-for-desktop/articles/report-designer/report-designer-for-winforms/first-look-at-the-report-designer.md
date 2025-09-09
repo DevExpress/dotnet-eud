@@ -10,9 +10,9 @@ The _design surface_ displays a report's structure and contents. You can use the
 
 - access the report's data source schema in the [Field List](report-designer-tools/ui-panels/field-list.md);
 
-- drop report controls from the [Toolbox](report-designer-tools/toolbox.md) to the design surface;
+- drop report controls from the [Toolbox](report-designer-tools/ui-panels/toolbox.md) to the design surface;
 
-- use the [Ribbon](report-designer-tools/toolbar.md) toolbar and [Property Grid](report-designer-tools/ui-panels/property-grid-tabbed-view.md) to set up the report controls;
+- use the [Ribbon](report-designer-tools/ui-panels/toolbar.md) toolbar and [Property Grid](report-designer-tools/ui-panels/property-grid-tabbed-view.md) to set up the report controls;
 
 - access the report's elements in the [Report Explorer](report-designer-tools/ui-panels/report-explorer.md);
 

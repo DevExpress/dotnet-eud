@@ -11,13 +11,13 @@ This document describes how to create a report with a **Chart** control bound to
 
 ## Add a Chart to a Report
 
-1. Drop the **Chart** control from the [Toolbox](../../report-designer-tools/toolbox.md) onto the [Detail band](../../introduction-to-banded-reports.md).
+1. Drop the **Chart** control from the [Toolbox](../../report-designer-tools/ui-panels/toolbox.md) onto the [Detail band](../../introduction-to-banded-reports.md).
 
     ![](../../../../../images/eurd-win-chart-add-to-report.png)
 
     After you drop the chart, the **Chart Designer** is automatically invoked if its **Display the designer every time a new chart is added** option is enabled. Close the designer at this step.
 
-2. Open the [Toolbar](../../report-designer-tools/toolbar.md)'s **Chart Tools** contextual tab and click **Add Data Source** to bind the chart to data. 
+2. Open the [Toolbar](../../report-designer-tools/ui-panels/toolbar.md)'s **Chart Tools** contextual tab and click **Add Data Source** to bind the chart to data. 
 
     ![](../../../../../images/eurd-win-chart-add-data-source-button.png)
 

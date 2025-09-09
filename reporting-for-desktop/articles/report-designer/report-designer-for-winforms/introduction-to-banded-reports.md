@@ -94,7 +94,7 @@ Click the arrow button on a band's title to collapse or expand that band.
 
 ![eurd-win-report-bands-collapsing](../../../images/eurd-win-report-bands-collapsing.png)
 
-Click **Collapse All** on the [Toolbar](report-designer-tools/toolbar.md)'s [View Tab](report-designer-tools/toolbar.md#view-tab) to collapse all bands in a report. Click **Expand All** to expand all report bands.
+Click **Collapse All** on the [Toolbar](report-designer-tools/ui-panels/toolbar.md)'s View Tab to collapse all bands in a report. Click **Expand All** to expand all report bands.
 
 ![eurd-win-collapse-all-bands](../../../images/eurd-win-collapse-all-bands.png)
 

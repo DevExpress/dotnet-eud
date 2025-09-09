@@ -21,7 +21,7 @@ Smart tags can also contain context links that enable you to perform various act
 
 ![](../../../../../images/eurd-win-report-smart-tag.png)
 
-The [Toolbar](../../report-designer-tools/toolbar.md) provides a corresponding contextual tab when you select a report control. This tab allows you to specify settings and perform actions applicable to the selected element's type.
+The [Toolbar](../../report-designer-tools/ui-panels/toolbar.md) provides a corresponding contextual tab when you select a report control. This tab allows you to specify settings and perform actions applicable to the selected element's type.
 
 ![](../../../../../images/eurd-win-report-control-contextual-tab.png)
 

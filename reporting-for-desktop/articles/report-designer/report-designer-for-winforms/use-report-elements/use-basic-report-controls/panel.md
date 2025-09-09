@@ -6,7 +6,7 @@ author: Anna Gubareva
 
 The **Panel** control is a container that frames separate report controls and allows you to move, copy and paste them. The panel also visually unites report controls in Print Preview (for instance, with borders or a uniform color background).
 
-To add a panel to a report, drag the **Panel** item from the [Toolbox](../../report-designer-tools/toolbox.md) and drop it onto the required report band.
+To add a panel to a report, drag the **Panel** item from the [Toolbox](../../report-designer-tools/ui-panels/toolbox.md) and drop it onto the required report band.
 
 ![](../../../../../images/eurd-win-add-panel-control-to-report.png)
 

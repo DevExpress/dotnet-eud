@@ -17,4 +17,4 @@ You can change the order in which multiple grouping and sorting criteria are to 
 To remove a grouping or sorting criterion, select it, and click **Delete**.
 
 > [!NOTE]
-> If the Group and Sort Panel is hidden, you can enable it To do this, select  in the **Windows** | **Group and Sort** on the [Toolbar](../toolbar.md)'s **View** page.
+> If the Group and Sort Panel is hidden, you can enable it To do this, select  in the **Windows** | **Group and Sort** on the [Toolbar](toolbar.md)'s **View** page.

@@ -7,7 +7,7 @@ author: Anna Gubareva
 
 The **Page Break** control's sole purpose is to insert a page delimiter at any point within a report.
 
-You can add this control by dragging the **Page Break** item from the [Toolbox](../../report-designer-tools/toolbox.md) onto the report's area.
+You can add this control by dragging the **Page Break** item from the [Toolbox](../../report-designer-tools/ui-panels/toolbox.md) onto the report's area.
 
 ![](../../../../../images/eurd-win-add-page-break-to-report.png)
 

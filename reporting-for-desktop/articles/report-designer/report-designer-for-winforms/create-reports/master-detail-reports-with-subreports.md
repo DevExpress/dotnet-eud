@@ -45,7 +45,7 @@ This tutorial demonstrates how to create a master-detail report using the [Subre
 	![](../../../../images/eurd-win-detail-report-save-dialog.png)
 
 ## <a name="subreport"></a>Embed the Subreport
-1. Switch back to the master report and drop the [Subreport](../use-report-elements/use-basic-report-controls/subreport.md) control from the [Toolbox](../report-designer-tools/toolbox.md) onto the **Detail** band.
+1. Switch back to the master report and drop the [Subreport](../use-report-elements/use-basic-report-controls/subreport.md) control from the [Toolbox](../report-designer-tools/ui-panels/toolbox.md) onto the **Detail** band.
 	
 	![](../../../../images/eurd-win-master-report-add-subreport.png)
 
