@@ -25,7 +25,7 @@ This topic lists the functions that you can use in an [expression](expressions-o
 | Function | Description | Example |
 |---|---|---| 
 | IsThisWeek(Date) | Returns `True` if the specified date falls within the current week.| _Example_: `IsThisWeek([OrderDate])` |
-|IsThisMonth(Date) | Returns `True` if the specified date falls within the current month. <br>To create the **IsThisMonth** operator using the [CriteriaOperator.Parse](/CoreLibraries/DevExpress.Data.Filtering.CriteriaOperator.Parse.overloads?v=25.1) method, use the following syntax: **CriteriaOperator.Parse(“IsThisMonth(StartDate)”)**. | _Example_: `IsThisMonth([OrderDate])` |
+|IsThisMonth(Date) | Returns `True` if the specified date falls within the current month. <br>To create the **IsThisMonth** operator using the `Parse` method, use the following syntax: **CriteriaOperator.Parse(“IsThisMonth(StartDate)”)**. | _Example_: `IsThisMonth([OrderDate])` |
 |IsThisYear(Date) | Returns `True` if the specified date falls within the current year. | _Example_: `IsThisYear([OrderDate])` |
 |LocalDateTimeLastMonth() | Returns the [DateTime](https://learn.microsoft.com/dotnet/api/system.datetime) value that has the date part that is one month before the current date, and the time part of 00:00:00. | _Example_: `AddMonths(LocalDateTimeLastMonth(), 5)` |
 |LocalDateTimeLastYear() | Returns the [DateTime](https://learn.microsoft.com/dotnet/api/system.datetime) value that has the date part that is the first day of the previous year, and the time part of 00:00:00. | _Example_: `AddYears(LocalDateTimeLastYear(), 5)` |
