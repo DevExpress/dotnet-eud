@@ -33,9 +33,7 @@ Before [exporting a document](export-a-document.md) to MHT format, you can speci
 * **Use HRef Hyperlinks**
 	
 	Specifies whether to enable the use of standard HTML link references in document navigation.
-* **Allow URLs with JS Content**
-	
-	Specifies whether the JavaScript code can be placed in URLs in the resulting HTML document.
+
 * **Remove Secondary Symbols**
 	
 	Specifies whether to remove all secondary symbols (for instance, **Space**, **Carriage Return**, etc.) in the resulting document to reduce its size.
