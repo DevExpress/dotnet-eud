@@ -33,7 +33,7 @@ A cross-tab report displays complex multi-dimensional data, such as summary stat
     ![](../../../images/eurd-web-cross-tab-bind-to-data-source.png)
 
     > [!NOTE]
-    > The Detail Band is repeated as many times as there are records in the query. A Cross-Tab placed in the Detail Band will also be printed once for each record. To print a Cross-Tab only once, place it in the Group Header or Group Footer. To print a single Cross-Tab along all Detail Bands, place the Cross Tab in the Group Header band and enable its **Print Across Bands** option.
+    > The Detail Band is repeated for each record in the query. A Cross-Tab placed in this band is also printed once per record. To print a Cross-Tab only once, place it in the Group Header or Group Footer. To print a single Cross-Tab across all Detail Bands, place it in the Group Header and enable the **Print Across Bands** option.
  
 ## Define Cross Tab Fields
 
