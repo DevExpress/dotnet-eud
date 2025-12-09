@@ -1,2 +1,0 @@
-<meta http-equiv="refresh" content="0; URL=https://devexpress.github.io/dotnet-eud/reporting-for-desktop/articles/report-designer/report-designer-for-winforms/use-expressions/data-binding-modes.html">
-[redirect](https://devexpress.github.io/dotnet-eud/reporting-for-desktop/articles/report-designer/report-designer-for-winforms/use-expressions/data-binding-modes.html)

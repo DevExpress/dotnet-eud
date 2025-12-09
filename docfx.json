@@ -3,17 +3,13 @@
     "content": [
       {
         "files": [
-            "dashboard-for-desktop/**/*.{md,yml}",
-            "dashboard-for-web/**/*.{md,yml}",
-            "interface-elements-for-desktop/**/*.{md,yml}",
-            "interface-elements-for-web/**/*.{md,yml}",
-            "reporting-for-desktop/**/*.{md,yml}",
-            "reporting-for-web/**/*.{md,yml}",
+            "eud-for-bi-dashboards/**/*.{md,yml}",
+            "eud-for-devexpress-reports/**/*.{md,yml}",
             "toc.yml",
             "index.md"
           ],
         "exclude": [
-          "_*/**",
+          "_*/**"
         ]
       }
     ],
@@ -22,12 +18,8 @@
         "files": [
             "favicon.ico",
             "logo.svg",
-            "dashboard-for-desktop/images/**",
-            "dashboard-for-web/images/**",
-            "interface-elements-for-desktop/images/**",
-            "interface-elements-for-web/images/**",
-            "reporting-for-desktop/images/**",
-            "reporting-for-web/images/**"
+            "eud-for-bi-dashboards/images/**",
+            "eud-for-devexpress-reports/images/**"
           ],
           "exclude": [
             "_*/**"
