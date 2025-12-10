@@ -6,7 +6,7 @@ author: Natalia Kazakova
 
 **Aztec Code** is a matrix code that has the potential to use less space than other matrix barcodes because it does not require a surrounding blank "quiet zone". Aztec codes are widely used for transport ticketing.
 
-![Aztec Code](~/reporting-for-web/images/bar-code-aztec-code.png)
+![Aztec Code](~/eud-for-devexpress-reports/reporting-for-web/images/bar-code-aztec-code.png)
 
 Refer to the following article for more details: [Aztec Code](https://en.wikipedia.org/wiki/Aztec_Code).
 
@@ -14,11 +14,11 @@ Refer to the following article for more details: [Aztec Code](https://en.wikiped
 
 1. Drag the **Barcode** item from the report controls toolbox tab and drop it onto the report.
 
-    ![add barcode to report designer](~/reporting-for-web/images/eurd-web-add-bar-code-to-report.png)
+    ![add barcode to report designer](~/eud-for-devexpress-reports/reporting-for-web/images/eurd-web-add-bar-code-to-report.png)
 
 2. Set the control's **Symbology** property to **Aztec Code**. 
 
-    ![Aztec Code Properties](~/reporting-for-web/images/aztec-code-in-designer-web.png)
+    ![Aztec Code Properties](~/eud-for-devexpress-reports/reporting-for-web/images/aztec-code-in-designer-web.png)
 
 3. Specify [common](add-bar-codes-to-a-report.md) barcode properties and properties [specific](#specific-properties) to **Aztec Code**.
 

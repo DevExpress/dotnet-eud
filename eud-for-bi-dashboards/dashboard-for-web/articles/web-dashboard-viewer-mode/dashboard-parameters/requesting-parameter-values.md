@@ -16,7 +16,7 @@ Select the required parameter values and click the **Submit** button to apply th
 
 If you see a Dashboard Parameters window at startup, you need to input parameter values before a dashboard loads and aggregates data. Dashboard items display the following message: "Waiting for Parameter Values…".
 
-![dashboard-parameter-request-before-loading](~/dashboard-for-web/images/dashboard-parameter-request-before-loading.png)
+![dashboard-parameter-request-before-loading](~/eud-for-bi-dashboards/dashboard-for-web/images/dashboard-parameter-request-before-loading.png)
 
 The Web Dashboard control loads data only after you submit all visible parameters. The dashboard displays a Dashboard Parameters pop-up before it fetches data. This operation mode prevents unnecessary data requests and ensures the dashboard fetches only data you actually need. 
 

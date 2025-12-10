@@ -31,7 +31,7 @@ To select multiple fields in the Field List, hold CTRL or SHIFT and click the fi
 
 Select multiple data fields, a query, or a table in the Field List. Hold `Shift` when you drag the fields and drop them onto the report design area. This creates a data table with data field names.
 
-![eurd-web-list-drop-table-with-field-headers](~/reporting-for-web/images/eurd-web-list-drop-table-with-field-headers.png)
+![eurd-web-list-drop-table-with-field-headers](~/eud-for-devexpress-reports/reporting-for-web/images/eurd-web-list-drop-table-with-field-headers.png)
 
 ## Use the Properties Panel
 

@@ -51,7 +51,7 @@ This menu contains the following items.
 
 | Item | Description |
 |---|---|
-| **Edit Expression...** | Invokes the [Expression Editor](~/interface-elements-for-desktop/articles/expression-editor.md) dialog, which allows you to change an expression for an existing calculated field. |
+| **Edit Expression...** | Invokes the Expression Editor dialog, which allows you to change an expression for an existing calculated field. |
 | **Field Type** | Specifies the type of the calculated field. |
 | **Rename** | Changes the calculated field name. |
 | **Delete** | Removes the existing calculated field from the data source. |

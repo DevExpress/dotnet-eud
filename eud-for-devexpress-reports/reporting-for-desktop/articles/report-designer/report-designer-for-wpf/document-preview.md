@@ -17,5 +17,3 @@ Different elements of the Report Designer's preview are covered in the following
 * [Search Panel](document-preview/search-panel.md)
 * [Document Map Panel](document-preview/document-map-panel.md)
 
-> [!NOTE]
-> To learn more about the options available in the preview mode, refer to the [Print Preview for WPF](~/interface-elements-for-desktop/articles/print-preview/print-preview-for-wpf.md) section of this documentation.

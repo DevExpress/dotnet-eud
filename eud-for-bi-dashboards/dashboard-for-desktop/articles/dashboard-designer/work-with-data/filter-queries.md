@@ -14,7 +14,7 @@ To filter data in the Query Builder, click the **Filter...** button... in the **
 
 ![EditQueriesButton_Ribbon](../../../images/img118162.png)
 
-... or use a corresponding button within the [Query Builder](using-the-query-builder.md). This will invoke the [Filter Editor](~/interface-elements-for-desktop/articles/filter-editor/filter-data-via-the-filter-editor.md) dialog, which allows you to build filter criteria.
+... or use a corresponding button within the [Query Builder](using-the-query-builder.md). This will invoke the Filter Editor dialog, which allows you to build filter criteria.
 
 ![FilterEditorDialog_SqlDataSource](../../../images/img121069.png)
 

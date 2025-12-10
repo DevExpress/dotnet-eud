@@ -14,7 +14,7 @@ To create a dashboard parameter, follow the steps below.
 1. Invoke the [dashboard menu](../../ui-elements/dashboard-menu.md) and select **Parameters**.
 2. In the **Parameter List**, click the **Add** button. The parameter's settings form appears as follows:
 
-	![Web Dashboard - Add a New Dashboard Parameter](~/dashboard-for-web/images/img126106.png)
+	![Web Dashboard - Add a New Dashboard Parameter](~/eud-for-bi-dashboards/dashboard-for-web/images/img126106.png)
 
 3. Specify the parameter's settings. 
 
@@ -36,7 +36,7 @@ When you create and modify parameter names, follow the rules below:
 
 Specifies the parameter description displayed in the **Parameter** column of the [Dashboard Parameters](requesting-parameter-values.md) dialog:
 
-![Dashboard Parameter with Description](~/dashboard-for-web/images/dashboard-parameter-description.png)
+![Dashboard Parameter with Description](~/eud-for-bi-dashboards/dashboard-for-web/images/dashboard-parameter-description.png)
 	
 ### Visible
 	
@@ -122,7 +122,7 @@ You can specify a data source as a source for dashboard parameter values. To pro
 
 You can display a Dashboard Parameters window at startup and prompt a user to input parameter values before a dashboard loads and aggregates data. Dashboard items display the following message to guide users: "Waiting for Parameter Values…".
 
-![dashboard-parameter-request-before-loading](~/dashboard-for-web/images/dashboard-parameter-request-before-loading.png)
+![dashboard-parameter-request-before-loading](~/eud-for-bi-dashboards/dashboard-for-web/images/dashboard-parameter-request-before-loading.png)
 
 The Web Dashboard control loads data only after the user submits all visible parameters. This operation mode prevents unnecessary data requests and ensures the dashboard fetches only data the user actually needs.
 

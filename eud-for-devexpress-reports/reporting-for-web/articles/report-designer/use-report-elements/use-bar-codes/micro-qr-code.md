@@ -8,7 +8,7 @@ A **Micro QR Code** is a two-dimensional code. It is a more compact version of a
 
 Micro QR Codes are often used in industries such as electronics, medical devices, and retail, where space-efficient labeling is essential.
 
-![micro-qr-code](~/reporting-for-web/images/micro-qr-code.png)
+![micro-qr-code](~/eud-for-devexpress-reports/reporting-for-web/images/micro-qr-code.png)
 
 Refer to the following article for more information: [Micro QR Code](https://www.qrcode.com/en/codes/microqr.html).
 
@@ -16,11 +16,11 @@ Refer to the following article for more information: [Micro QR Code](https://www
 
 1. Drag the **Barcode** item from the report controls toolbox tab and drop it onto the report. 
 
-    ![add barcode to report designer](~/reporting-for-web/images/eurd-web-add-bar-code-to-report.png)
+    ![add barcode to report designer](~/eud-for-devexpress-reports/reporting-for-web/images/eurd-web-add-bar-code-to-report.png)
 
 2. Set the control’s **Symbology** property to **Micro QR Code**. 
 
-    ![Micro QR Code Properties](~/reporting-for-web/images/micro-qrcode-in-designer-web.png)
+    ![Micro QR Code Properties](~/eud-for-devexpress-reports/reporting-for-web/images/micro-qrcode-in-designer-web.png)
 
 3. Specify [common](add-bar-codes-to-a-report.md) barcode properties and properties [specific](#specific-properties) to **Micro QR Code**.
 

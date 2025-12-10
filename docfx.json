@@ -18,8 +18,10 @@
         "files": [
             "favicon.ico",
             "logo.svg",
-            "eud-for-bi-dashboards/images/**",
-            "eud-for-devexpress-reports/images/**"
+            "eud-for-bi-dashboards/dashboard-for-web/images/**",
+            "eud-for-devexpress-reports/reporting-for-web/images/**",
+            "eud-for-bi-dashboards/dashboard-for-desktop/images/**",
+            "eud-for-devexpress-reports/reporting-for-desktop/images/**"
           ],
           "exclude": [
             "_*/**"

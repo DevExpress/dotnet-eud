@@ -25,12 +25,12 @@ Alternatively, you can enable this property in the [Property Grid](../report-des
 
 You can control whether to display exact element size while resizing. For this, toggle the **Dimension Notation** option in the View tab:
 
-![Report Designer - Control Dimension Notations Visibility in UI](~/reporting-for-desktop/images/vs-dimension-notation-ui.png)
+![Report Designer - Control Dimension Notations Visibility in UI](~/eud-for-devexpress-reports/reporting-for-desktop/images/vs-dimension-notation-ui.png)
 
 The notation are based on a selected report unit:
 
 | System of Measurement | Displayed Unit | Image |
 | --- | --- | --- |
-| Imperial system     | inches | ![Report Designer - Dimension Notations in inches](~/reporting-for-desktop/images/vs-dimension-notation-imperial-unit.png)     |
-| Metric system     | millimeters | ![Report Designer - Dimension Notations in millimeters](~/reporting-for-desktop/images/vs-dimension-notation-metric-unit.png)     |
-| Screen coordinates | pixels |![Report Designer - Dimension Notations in pixels](~/reporting-for-desktop/images/vs-dimension-notation-pixels-unit.png) |
+| Imperial system     | inches | ![Report Designer - Dimension Notations in inches](~/eud-for-devexpress-reports/reporting-for-desktop/images/vs-dimension-notation-imperial-unit.png)     |
+| Metric system     | millimeters | ![Report Designer - Dimension Notations in millimeters](~/eud-for-devexpress-reports/reporting-for-desktop/images/vs-dimension-notation-metric-unit.png)     |
+| Screen coordinates | pixels |![Report Designer - Dimension Notations in pixels](~/eud-for-devexpress-reports/reporting-for-desktop/images/vs-dimension-notation-pixels-unit.png) |

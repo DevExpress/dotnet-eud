@@ -7,7 +7,7 @@ author: Sergey Andreev
 
 This topic describes how to create **date range** and **time range** parameters and filter a report’s data by the specified date or time values.
 
-![A date range parameter's editor in Preview](~/reporting-for-desktop/images/use-date-ranges-parameters-panel.png)
+![A date range parameter's editor in Preview](~/eud-for-devexpress-reports/reporting-for-desktop/images/use-date-ranges-parameters-panel.png)
 
 ## Create a Range Parameter in the Report Designer
 
@@ -21,11 +21,11 @@ Follow the steps below to add a range parameter to a report in the [Report Desig
    
     The **Start Parameter** and **End Parameter** sections that appear allow you to configure options to create a date or time range:
 
-    ![The "Add new parameter" dialog for a range parameter](~/reporting-for-desktop/images/use-date-ranges-design-add-param-dialog.png)
+    ![The "Add new parameter" dialog for a range parameter](~/eud-for-devexpress-reports/reporting-for-desktop/images/use-date-ranges-design-add-param-dialog.png)
 
 3. You can change the *Name* and initial static *Value* for the **Start Parameter** and **End Parameter**. To specify an [expression](../use-expressions.md) instead of a static value, the **Value** option's ellipsis button and use the **Expression Editor** dialog:
 
-    ![The "Add new parameter" dialog for a range parameter - Expression](~/reporting-for-desktop/images/use-date-ranges-design-value-expression.png)
+    ![The "Add new parameter" dialog for a range parameter - Expression](~/eud-for-devexpress-reports/reporting-for-desktop/images/use-date-ranges-design-value-expression.png)
 
 4. [Reference the created range parameter](reference-report-parameters.md). You can reference this parameter in the report’s filter string, in expressions, and in a control's **Text** property. You can also bind control and data source parameters to report parameters.
 
@@ -39,19 +39,19 @@ Follow the steps below to add a range parameter to a report in the [Report Desig
 
     `InDateRange([ShippedDate], ?paramDateRange_Start, ?paramDateRange_End) `
 
-    ![Reference the created range parameter in the filter string](~/reporting-for-desktop/images/use-date-ranges-filterstring.png)
+    ![Reference the created range parameter in the filter string](~/eud-for-devexpress-reports/reporting-for-desktop/images/use-date-ranges-filterstring.png)
 
 
 When you switch to the report's **Print Preview** tab, the [Parameters panel](parameters-panel.md) displays the newly created range parameter. Click the editor to set a range. The editor type depends on the parameter type:
 
 **An editor for "Date" and "Date and Time" range parameters:**
 
-![A date range parameter's editor on Print Preview.](~/reporting-for-desktop/images/use-date-ranges-parameters-panel.png)
+![A date range parameter's editor on Print Preview.](~/eud-for-devexpress-reports/reporting-for-desktop/images/use-date-ranges-parameters-panel.png)
 
 **An editor for "Time" range parameters:**
 
-![A time range parameter's editor on Print Preview.](~/reporting-for-desktop/images/use-time-ranges-parameters-panel.png)
+![A time range parameter's editor on Print Preview.](~/eud-for-devexpress-reports/reporting-for-desktop/images/use-time-ranges-parameters-panel.png)
 
 After you submit start and end values, the report document shows filtered data. The report below shows the **ShippedDate** field filtered by the date range parameter:
 
-![The report data is filtered by the date range](~/reporting-for-desktop/images/use-date-ranges-parameters-filtered.png)
+![The report data is filtered by the date range](~/eud-for-devexpress-reports/reporting-for-desktop/images/use-date-ranges-parameters-filtered.png)
