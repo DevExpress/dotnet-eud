@@ -12,13 +12,13 @@ The Report Designer UI varies depending on the target platform.
 
 The following topics are available in this section:
 
-* [Reporting for Web](eud-for-devexpress-reports/reporting-for-web/articles/index.md)
-* [Reporting for Desktop](eud-for-devexpress-reports/reporting-for-desktop/articles/index.md)
+* [Reporting for Web](reporting-for-web/articles/index.md)
+* [Reporting for Desktop](reporting-for-desktop/articles/index.md)
 
 If you search for DevExpress developer documentation with API reference, refer to [.NET Reporting Tools for Web, Mobile, and Desktop](https://docs.devexpress.com/XtraReports/2162/reporting).
 
 ## White-label End-User Documentation
 
-This documentation source is available in the GitHub repository: [](github.com/DevExpress/dotnet-eud).
+This documentation source is available in the GitHub repository: [github.com/DevExpress/dotnet-eud](https://github.com/DevExpress/dotnet-eud).
 
 You can clone documentation sources and create your own documentation websites and help files for projects based on reporting controls. Refer to the repository’s README file for more information: [README.md](https://github.com/DevExpress/dotnet-eud/blob/master/README.md).

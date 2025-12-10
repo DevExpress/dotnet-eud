@@ -21,8 +21,8 @@ This invokes the Filter Editor dialog that allows you to build complex filter cr
 
 ![DataShaping_Filtering_FilterEditor](../../../images/datashaping_filtering_filtereditor19370.png)
 
-<!--> [!Tip]
-> **Documentation**: [Filter Editor](~/interface-elements-for-desktop/articles/filter-editor/filter-data-via-the-filter-editor.md) - Link disabled: interface-elements not included --> 
+<!-- [!Tip]
+**Documentation**: [Filter Editor](~/interface-elements-for-desktop/articles/filter-editor/filter-data-via-the-filter-editor.md) - Link disabled: interface-elements not included -->
 
 To clear the applied filter, select **Clear** from the dashboard item's context menu or click the **Clear** button in the **Data** Ribbon tab.
 

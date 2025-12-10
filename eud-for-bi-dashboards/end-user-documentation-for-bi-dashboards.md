@@ -12,14 +12,14 @@ The Dashboard Designer UI varies depending on the target platform.
 
 The following topics are available in this section:
 
-* [Dashboards for Web](end-user-documentation-for-bi-dashboards/dashboard-for-web/articles/index.md)
+* [Dashboards for Web](dashboard-for-web/articles/index.md)
 
-* [Dashboards for Desktop](end-user-documentation-for-bi-dashboards/dashboard-for-desktop/articles/index.md)
+* [Dashboards for Desktop](dashboard-for-desktop/articles/index.md)
 
 If you are looking for developer-oriented documentation with API reference, refer to [Business Intelligence Dashboard](https://docs.devexpress.com/Dashboard/12049/dashboard).
 
 ## White-label End-User Documentation
 
-The documentation source is available in the GitHub repository: [](github.com/DevExpress/dotnet-eud).
+The documentation source is available in the GitHub repository: [github.com/DevExpress/dotnet-eud](https://github.com/DevExpress/dotnet-eud).
 
 You can clone the repository and build your own documentation website or help files for projects based on DevExpress Dashboard controls. For more information, review the repository’s README file: [README.md](https://github.com/DevExpress/dotnet-eud/blob/master/README.md).
