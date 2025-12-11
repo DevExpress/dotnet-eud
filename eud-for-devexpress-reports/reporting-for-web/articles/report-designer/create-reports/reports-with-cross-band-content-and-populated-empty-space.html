@@ -1,0 +1,197 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Reports with Cross-Band Content and Populated Empty Space | DevExpress End-User Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Reports with Cross-Band Content and Populated Empty Space | DevExpress End-User Documentation ">
+      
+      
+      <link rel="icon" href="../../../../../favicon.ico">
+      <link rel="stylesheet" href="../../../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../../../toc.html">
+      <meta name="docfx:tocrel" content="../../../toc.html">
+      
+      <meta name="docfx:rel" content="../../../../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/DevExpress/dotnet-eud/blob/2025.1/eud-for-devexpress-reports/reporting-for-web/articles/report-designer/create-reports/reports-with-cross-band-content-and-populated-empty-space.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../../../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+      <!-- Matomo Tag Manager -->
+      <script>
+        var _mtm = window._mtm = window._mtm || [];
+        _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
+      </script>
+      <!-- End Matomo Tag Manager -->
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../../../../index.html">
+            <img id="logo" class="svg" src="../../../../../logo.svg" alt="DevExpress EUD">
+            DevExpress EUD
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="reports-with-cross-band-content-and-populated-empty-space">Reports with Cross-Band Content and Populated Empty Space</h1>
+
+<p>This document describes how to create a report with the following layout options:</p>
+<ul>
+<li>Print part of the content across bands (the blue panel);</li>
+<li>Populate the empty space between the detail and footer information with blank rows.</li>
+</ul>
+<p><img src="../../../images/eurd-web-underlay-report-preview-6.png" alt=""></p>
+<h2 id="initial-report">Initial Report</h2>
+<p>In this tutorial, the report <a href="../shape-report-data/group-and-sort-data.html">groups data</a> by a data source field (the report's group field).</p>
+<p><img src="../../../images/eurd-web-underlay-report-preview.png" alt=""></p>
+<p>The <em>GroupFooter</em> band is displayed at the bottom of the page (the <strong>Print At Bottom</strong> property is enabled). There is an empty space between the <strong>Detail</strong> band's data and the footer.</p>
+<p><img src="../../../images/eurd-web-underlay-report-preview-0.png" alt=""></p>
+<h2 id="add-line-numbers">Add Line Numbers</h2>
+<ol>
+<li><p>Select the first cell in the <a href="../introduction-to-banded-reports.html">Detail band</a>'s table and click <strong>Insert Column to the Left</strong> from the cell's context menu.</p>
+<p><img src="../../../images/eurd-web-underlay-report-add-cell.png" alt=""></p>
+</li>
+<li><p>Select the new cell and set <strong>Summary</strong>/<strong>Running</strong> to <em>Group</em>.</p>
+<p><img src="../../../images/eurd-web-underlay-report-add-line-numbers.png" alt=""></p>
+</li>
+<li><p>Switch to the <strong>Expressions</strong> tab and click the <strong>Text</strong> property's ellipsis button. Specify the <em>sumRecordNumber()</em> expression in the invoked Expression Editor.</p>
+<p><img src="../../../images/eurd-web-underlay-report-add-line-numbers-2.png" alt=""></p>
+<p>Each row now includes a number.</p>
+</li>
+</ol>
+<p><img src="../../../images/eurd-web-underlay-report-preview-3.png" alt=""></p>
+<h2 id="populate-the-empty-space">Populate the Empty Space</h2>
+<p>Populate the empty space between the <em>Detail</em> band's data and the footer.</p>
+<p>Select the <em>Detail</em> band and enable the <strong>Fill Empty Space</strong> property.</p>
+<p><img src="../../../images/eurd-web-underlay-report-fillemptyspace.png" alt=""></p>
+<p>The empty space is now populated with numbered lines.</p>
+<p><img src="../../../images/eurd-web-underlay-report-preview-4.png" alt=""></p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>Set the <strong>Text</strong> properties of the <em>Detail</em> band's controls to display static text within the added lines.</p>
+</div>
+<h2 id="add-cross-band-data">Add Cross-Band Data</h2>
+<p>Add a panel with recipient details across the entire group. Place the panel on a separate <em>Group Header</em> band that is printed on the background of other bands.</p>
+<ol>
+<li><p>Select the report and select <strong>Insert Group Header</strong> from the report's context menu</p>
+<p><img src="../../../images/eurd-web-underlay-report-addgroupheader.png" alt=""></p>
+<div class="TIP">
+<h5>Tip</h5>
+<p>Choose a <em>Page Header</em> band instead of the <em>Group Header</em> to display the cross-band content on an entire page.</p>
+</div>
+</li>
+<li><p>Select the added band and enable the <strong>Print Across Bands</strong> property. This displays the band content on the background of the <em>GroupHeader1</em>, <em>Detail</em>, and <em>GroupFooter1</em> bands.</p>
+<p><img src="../../../images/eurd-web-underlay-report-printundernextband.png" alt=""></p>
+</li>
+<li><p>The report's group field is in the <em>GroupHeader1</em> band's <strong>Group Fields</strong> collection. The new band is above <strong>GroupHeader1</strong> and does not participate in the report's group. Move the group field to the new band.</p>
+<ul>
+<li>Select <em>GroupHeader1</em> and remove the group field from <strong>Group Fields</strong>.</li>
+</ul>
+<p><img src="../../../images/eurd-web-underlay-report-removegroupfields.png" alt=""></p>
+<ul>
+<li>Select the new band and add the group field to <strong>Group Fields</strong>.</li>
+</ul>
+<p><img src="../../../images/eurd-web-underlay-report-movegroupfields.png" alt=""></p>
+</li>
+<li><p>Add a <a href="../use-report-elements/use-basic-report-controls/panel.html">Panel</a> control to the <em>Group Header</em>. Specify the panel's <strong>Background Color</strong> and drop fields onto the panel.</p>
+<p><img src="../../../images/eurd-web-underlay-report-add-recipient.png" alt=""></p>
+</li>
+<li><p>Adjust the panel's width and height. The height should match the page height, as the footer is printed at the bottom of the page (the <em>Group Footer</em>'s <strong>Print At Bottom</strong> property is enabled).</p>
+<p><img src="../../../images/eurd-web-underlay-report-adjust-crossband-height.png" alt=""></p>
+</li>
+<li><p>Switch to Print Preview. The panel is printed on the background of the group content.</p>
+<p><img src="../../../images/eurd-web-underlay-report-preview-5.png" alt=""></p>
+</li>
+<li><p>Resize the content in other bands to print it side-by-side with the panel.</p>
+<p><img src="../../../images/eurd-web-underlay-report-adjust-width.png" alt=""></p>
+</li>
+</ol>
+<p>See the final report in Print Preview.</p>
+<p><img src="../../../images/eurd-web-underlay-report-preview-6.png" alt=""></p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/DevExpress/dotnet-eud/blob/2025.1/eud-for-devexpress-reports/reporting-for-web/articles/report-designer/create-reports/reports-with-cross-band-content-and-populated-empty-space.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Copyright (c) 1998-2025 Developer Express Inc. All rights reserved.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

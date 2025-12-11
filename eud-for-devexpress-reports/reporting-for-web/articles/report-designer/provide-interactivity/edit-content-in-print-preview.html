@@ -1,0 +1,226 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Edit Content in Print Preview | DevExpress End-User Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Edit Content in Print Preview | DevExpress End-User Documentation ">
+      
+      
+      <link rel="icon" href="../../../../../favicon.ico">
+      <link rel="stylesheet" href="../../../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../../../toc.html">
+      <meta name="docfx:tocrel" content="../../../toc.html">
+      
+      <meta name="docfx:rel" content="../../../../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/DevExpress/dotnet-eud/blob/2025.1/eud-for-devexpress-reports/reporting-for-web/articles/report-designer/provide-interactivity/edit-content-in-print-preview.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../../../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+      <!-- Matomo Tag Manager -->
+      <script>
+        var _mtm = window._mtm = window._mtm || [];
+        _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
+      </script>
+      <!-- End Matomo Tag Manager -->
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../../../../index.html">
+            <img id="logo" class="svg" src="../../../../../logo.svg" alt="DevExpress EUD">
+            DevExpress EUD
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="edit-content-in-print-preview">Edit Content in Print Preview</h1>
+
+<p>This document provides information about interactive document editing in Print Preview that enables you to customize field values directly in a previewed document before printing or exporting it.</p>
+<h2 id="content-editing-overview">Content Editing Overview</h2>
+<p>When content editing is enabled for a report control (either unbound or data-aware), it is possible to customize the corresponding field values in Print Preview.</p>
+<p>To enable content editing for a report control, expand the <strong>Behavior</strong> category, select the <strong>Edit Options</strong> section and set the <strong>Enabled</strong> property to <strong>Yes</strong>.</p>
+<p><img src="../../../images/eurd-web-content-editing-enable.png" alt=""></p>
+<p>When the <strong>Enabled</strong> property is set to <strong>Yes</strong> and the <strong>ReadOnly</strong> property is set to <strong>No</strong>, the control's content can be edited in Print Preview (clicking a field will invoke the appropriate editor).</p>
+<p>To highlight all editing fields available in a document, click the <strong>Editing Fields</strong> <img src="../../../images/eurd-web-eform-editing-fields-button.png" alt=""> button on the Print Preview toolbar. This button is disabled when there are no such fields in a document.</p>
+<p><img src="../../../images/eurd-web-content-editing-fields-highlight-ribbon.png" alt=""></p>
+<h3 id="content-editing-specifics">Content Editing Specifics</h3>
+<p>When enabling content editing in your report, consider the following.</p>
+<ul>
+<li><p>The changes made to a control's content in Print Preview have no effect on other parts of the document (e.g., the related summary results, grouping, sorting, bookmarks and other settings that have already been processed before generating the document).</p>
+</li>
+<li><p>A control's <strong>Can Grow</strong> setting is ignored for editing fields.</p>
+<p>Multi-line values can only be entered when no mask is applied to an editing field. The editing area of a field cannot exceed the original dimensions of a control.</p>
+</li>
+<li><p>Values entered into editing fields are reset back to their defaults after refreshing the document (e.g., when submitting <a href="../use-report-parameters.html">report parameter</a> values and expanding or collapsing data in a <a href="create-drill-down-reports.html">drill-down report</a>).</p>
+</li>
+<li><p>It is impossible to edit content of a control that has its <strong>Drill-Down Control</strong> property specified.</p>
+</li>
+<li><p>Field values entered in Print Preview for controls placed onto the Top Margin and Bottom Margin bands are not preserved when the report is exported to TXT or CSV, as well as the following formats as a single file.</p>
+<ul>
+<li>HTML</li>
+<li>MHT</li>
+<li>RTF</li>
+<li>XLS</li>
+<li>XLSX</li>
+<li>image</li>
+</ul>
+</li>
+</ul>
+<p>To learn about the specifics of editing different kinds of content, see the following sections in this document.</p>
+<ul>
+<li><a href="#text-editors">Text Editors</a></li>
+<li><a href="#character-comb-editors">Character Comb Editors</a></li>
+<li><a href="#check-box-editor">Check Box Editor</a></li>
+<li><a href="#image-editors">Image Editors</a></li>
+</ul>
+<h2 id="text-editors">Text Editors</h2>
+<p>The <a href="../use-report-elements/use-basic-report-controls/label.html">Label</a>, <a href="../use-report-elements/use-tables.html">Table Cell</a> and <a href="../use-report-elements/use-basic-report-controls/character-comb.html">Character Comb</a> controls can be assigned editors to customize their content in Print Preview.</p>
+<p>To enable content editing for these controls, expand the <strong>Behavior</strong> category, select the <strong>Edit Options</strong> section and set the <strong>Enabled</strong> property to <strong>Yes</strong>.</p>
+<p><img src="../../../images/eurd-web-content-editing-enable.png" alt=""></p>
+<p>The following editors can be used to customize a field's content in Print Preview.</p>
+<ul>
+<li><p><strong>Default Editor</strong></p>
+<p>By default, the <strong>Editor Name</strong> property is not specified, and a memo edit is used as a standard editor.</p>
+<p><img src="../../../images/eurd-web-content-editing-memoedit.png" alt=""></p>
+</li>
+<li><p><strong>Specific Value Editors</strong></p>
+<p>You can assign a specific editor to a control using its <strong>Editor Name</strong> property.</p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>This option is disabled for the <strong>Character Comb</strong> control.</p>
+</div>
+<p><img src="../../../images/eurd-web-content-editing-specific-editor.png" alt=""></p>
+</li>
+</ul>
+<div class="NOTE">
+<h5>Note</h5>
+<p>If a table cell contains other controls, its editing is disabled (but not the editing of the controls contained in this cell), which is illustrated in the following image.</p>
+<p><img src="../../../images/eurd-web-content-editing-table-cell-container.png" alt=""></p>
+</div>
+<h2 id="character-comb-editors">Character Comb Editors</h2>
+<p>The <strong>Character Comb</strong> control displays text so that each character is printed in an individual cell.</p>
+<p><img src="../../../images/eurd-web-character-comb-report-control.png" alt="Character Comb"></p>
+<p>Specify the Character Comb's <strong>Edit Options</strong> | <strong>Editor Name</strong> property to use a text editor, as described in the <a href="#text-editors">Text Editors</a> section above.</p>
+<h2 id="check-box-editor">Check Box Editor</h2>
+<p>The <a href="../use-report-elements/use-basic-report-controls/check-box.html">Check Box</a> control's value can be edited in Print Preview.</p>
+<p>To enable content editing for a check box, expand the <strong>Behavior</strong> category, select the <strong>Edit Options</strong> section and set the <strong>Enabled</strong> property to <strong>Yes</strong>.</p>
+<p><img src="../../../images/eurd-web-content-editing-enable-checkbox.png" alt=""></p>
+<p>In Print Preview, the control's behavior depends on the <strong>Group ID</strong> setting.</p>
+<ul>
+<li><p>When this property is set to <strong>null</strong> or an empty string value, a check box can be switched either to the &quot;checked&quot; or &quot;unchecked&quot; state (the &quot;intermediate&quot; state is not supported) independently on other available check boxes.</p>
+<p><img src="../../../images/eurd-web-content-editing-checkboxe.png" alt=""></p>
+</li>
+<li><p>Otherwise, the field editor behaves like a radio button, and editors with the same <strong>Group ID</strong> value belong to a single logical group (i.e., only one option can be selected within a group at a time).</p>
+</li>
+</ul>
+<h2 id="image-editors">Image Editors</h2>
+<p>Image editors are used to customize the <a href="../use-report-elements/use-basic-report-controls/picture-box.html">Picture Box</a> report control's content in Print Preview.</p>
+<p>To enable content editing for a picture box, expand the <strong>Behavior</strong> category, select the <strong>Edit Options</strong> section and set the <strong>Enabled</strong> property to <strong>Yes</strong>.</p>
+<p><img src="../../../images/eurd-web-content-editing-picturebox.png" alt=""></p>
+<p>Use the control's <strong>Editor Name</strong> property to assign one of the following image editors.</p>
+<ul>
+<li><p><strong>Image Editor</strong></p>
+<p>Allows you to load an image and specify the image's size options.</p>
+<p><img src="../../../images/eurd-web-content-editing-image.png" alt=""></p>
+</li>
+<li><p><strong>Signature Editor</strong></p>
+<p>Allows you to specify brush options and draw a signature.</p>
+<p><img src="../../../images/eurd-web-content-editing-signature.png" alt=""></p>
+</li>
+<li><p><strong>Image and Signature Editor</strong> (default)</p>
+<p>Allows you to load an image and draw a signature. The image's size options and brush options are available.</p>
+<p><img src="../../../images/eurd-web-content-editing-image-and-signature.png" alt=""></p>
+</li>
+</ul>
+<p>All the image editors listed above can include the <img src="../../../images/eurd-web-ContentEditing-Image-Reset-Menu-Item.png" alt=""> menu item. This item is available only when the Picture Box control has an original image.</p>
+<h2 id="export-editable-fields-to-pdf-acroforms">Export Editable Fields to PDF AcroForms</h2>
+<p>Enable the report's <strong>Export Options | PDF Export Options | Export Editing Fields to AcroForms</strong> property to export <a href="#text-editors">text fields</a>, <a href="#check-box-editor">check boxes</a>, <a href="#character-comb-editors">character combs</a>, and <a href="#image-editors">image editors</a> to PDF as editable form fields (<strong>AcroForms</strong>).</p>
+<p><img src="../../../images/eurd-web-exporteditingfieldstoacroforms.png" alt="Export Editing Fields to AcroForms"></p>
+<p><img src="../../../images/eurd-web-editing-fields-preview.png" alt="Report Preview"></p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/DevExpress/dotnet-eud/blob/2025.1/eud-for-devexpress-reports/reporting-for-web/articles/report-designer/provide-interactivity/edit-content-in-print-preview.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Copyright (c) 1998-2025 Developer Express Inc. All rights reserved.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

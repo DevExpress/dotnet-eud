@@ -1,0 +1,243 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Introduction to Banded Reports | DevExpress End-User Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Introduction to Banded Reports | DevExpress End-User Documentation ">
+      
+      
+      <link rel="icon" href="../../../../../favicon.ico">
+      <link rel="stylesheet" href="../../../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../../../toc.html">
+      <meta name="docfx:tocrel" content="../../../toc.html">
+      
+      <meta name="docfx:rel" content="../../../../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/DevExpress/dotnet-eud/blob/2025.1/eud-for-devexpress-reports/reporting-for-desktop/articles/report-designer/report-designer-for-winforms/introduction-to-banded-reports.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../../../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+      <!-- Matomo Tag Manager -->
+      <script>
+        var _mtm = window._mtm = window._mtm || [];
+        _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
+      </script>
+      <!-- End Matomo Tag Manager -->
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../../../../index.html">
+            <img id="logo" class="svg" src="../../../../../logo.svg" alt="DevExpress EUD">
+            DevExpress EUD
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="introduction-to-banded-reports">Introduction to Banded Reports</h1>
+
+<p>Banded reports provide a generalized report layout notion. When you preview a banded report, a report document is generated based on the report layout and data source.</p>
+<h2 id="report-bands">Report Bands</h2>
+<p>A report layout consists of bands that contain report controls and define their location on document pages. A blank report contains the following bands:</p>
+<ul>
+<li><p>The <strong>Detail Band</strong> is printed for every record in a data source unless you filtered the data.</p>
+<p>Every report should have a detail band, and you cannot delete it.</p>
+</li>
+<li><p>The <strong>Top Margin</strong> and <strong>Bottom Margin</strong> bands. These bands are repeated once on every document page.</p>
+</li>
+</ul>
+<p><img src="../../../images/eurd-win-report-bands-design-time-default-layout.png" alt="eurd-win-report-bands-design-time-default-layout"></p>
+<p>You can also add the following bands:</p>
+<ul>
+<li><p><strong>Report Header</strong> and <strong>Report Footer</strong></p>
+<p>The <strong>Report Header</strong> is the report's first band (margins are &quot;out-of-page&quot; zones). Use this band to display the report's name, company logo, <a href="add-extra-information.html">date of creation, username</a>, etc.</p>
+<p>The <strong>Report Footer</strong> is placed before the Page Footer and Bottom Margin on the report's last page. You can use the Report Footer band for report <a href="shape-report-data/calculate-summaries/calculate-a-summary.html">summaries</a> or conclusions.</p>
+</li>
+<li><p><strong>Page Header</strong> and <strong>Page Footer</strong></p>
+<p>These bands are at the top and bottom of every page in a report. They display information that should be printed on every page.</p>
+</li>
+<li><p><strong>Group Header</strong> and <strong>Group Footer</strong></p>
+<p>These bands are above and below each <a href="shape-report-data/group-and-sort-data.html">group</a>. The <a href="report-designer-tools/ui-panels/group-and-sort-panel.html">Group and Sort Panel</a> create these bands automatically.</p>
+</li>
+</ul>
+<div class="TIP">
+<h5>Tip</h5>
+<p>Only the detail and group bands can be used to display dynamic data source contents. Other bands display titles, summaries, and <a href="add-extra-information.html">extra information</a>.</p>
+</div>
+<p>The following image illustrates a sample report layout and the <a href="report-designer-tools/ui-panels/report-explorer.html">Report Explorer</a> that reflects the report's structure:</p>
+<p><img src="../../../images/eurd-win-report-bands-basic-layout.png" alt="eurd-win-report-bands-basic-layout"></p>
+<h2 id="add-a-detail-band-to-a-master-detail-band">Add a Detail Band to a Master-Detail Band</h2>
+<p>Use the <strong>Detail Report</strong> band to create hierarchical <a href="create-reports/master-detail-reports-with-detail-report-bands.html">master-detail reports</a>. Detail report bands provide detailed information about each record in the master report's detail band (for example, orders shipped to each customer). You can create such reports when master-detail relationships are defined between data source tables:</p>
+<p><img src="../../../images/eurd-win-master-detail-relation-editor-report-designer.png" alt="eurd-win-master-detail-relation-editor-report-designer"></p>
+<p>The Detail Report band is a separate report (subreport) with its own data source and different bands. A report can have any number of detail reports that can also be nested.</p>
+<p>The following image illustrates a master-detail report and the <a href="report-designer-tools/ui-panels/report-explorer.html">Report Explorer</a> that reflects the report's structure:</p>
+<p><img src="../../../images/eurd-win-report-bands-basic-layout-subreports.png" alt="eurd-win-report-bands-basic-layout-subreports"></p>
+<h2 id="vertical-bands">Vertical Bands</h2>
+<p>You can replace the Detail band with the Vertical Header, Vertical Detail and Vertical Total bands to display record fields vertically and print data records horizontally - from left to right (and vise versa if the report's RTL mode is enabled).</p>
+<p><img src="../../../images/eurd-VerticalBands-Demo.png" alt="VerticalBands_Demo"></p>
+<p>To add vertical bands to your report, right-click the report in the Report Designer and choose <strong>Insert Vertical Band</strong> in the invoked context menu.</p>
+<p><img src="../../../images/eurd-VerticalBands-UseContextMenu.png" alt="VerticalBands_UseContextMenu"></p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>If your report's <strong>Detail</strong> band contains report controls, this band and all these controls are lost when you add a vertical band (the same behavior takes place in the opposite situation).</p>
+</div>
+<p>The following vertical bands are available:</p>
+<ul>
+<li><strong>Vertical Header</strong><br>
+Contains headers of the report's data fields. These headers are arranged vertically.</li>
+<li><strong>Vertical Details</strong><br>
+This band is printed for every record in a data source unless you filtered the data. The records are displayed one after another in a horizontal direction.</li>
+<li><strong>Vertical Total</strong><br>
+This band is placed at the rightmost position (leftmost when RTL is enabled). You can use the Vertical Total band for report <a href="shape-report-data/calculate-summaries/calculate-a-summary.html">summaries</a> or conclusions.</li>
+</ul>
+<p>You can use the <a href="report-designer-tools/report-wizard.html">Report Wizard</a> to create a report with vertical bands. Refer to the <a href="create-reports/vertical-reports.html">Vertical Reports</a> topic for instructions on how to create a report with vertical bands.</p>
+<h2 id="create-band-copies">Create Band Copies</h2>
+<p>You can create functional copies of a band, for example, to display different contents based on a specific condition. To do this, add <strong>sub-bands</strong> to bands.</p>
+<p><img src="../../../images/eurd-win-report-bands-basic-layout-sub-bands.png" alt="eurd-win-report-bands-basic-layout-sub-bands"></p>
+<div class="TIP">
+<h5>Tip</h5>
+<p>See <a href="lay-out-dynamic-report-content.html">Lay out Dynamic Report Content</a> for details on how to specify the location of bands' content on document pages.</p>
+</div>
+<h2 id="managingreportbands">Manage Report Bands</h2>
+<h3 id="expand-or-collapse-bands-in-the-report-designer">Expand or Collapse Bands in the Report Designer</h3>
+<p>Click the arrow button on a band's title to collapse or expand that band.</p>
+<p><img src="../../../images/eurd-win-report-bands-collapsing.png" alt="eurd-win-report-bands-collapsing"></p>
+<p>Click <strong>Collapse All</strong> on the <a href="report-designer-tools/toolbar.html">Toolbar</a>'s <a href="report-designer-tools/toolbar.html#view-tab">View Tab</a> to collapse all bands in a report. Click <strong>Expand All</strong> to expand all report bands.</p>
+<p><img src="../../../images/eurd-win-collapse-all-bands.png" alt="eurd-win-collapse-all-bands"></p>
+<p>Right-click a band and select <strong>Collapse Other Bands</strong> from the context menu to collapse all bands except the clicked band.</p>
+<p><img src="../../../images/eurd-win-collapse-other-bands.png" alt="eurd-win-collapse-other-bands"></p>
+<h3 id="hide-bands-in-the-report-document">Hide Bands in the Report Document</h3>
+<p>You can avoid printing band content in a document. To do this, select the band and set the band's <strong>Height</strong> property to zero or disable its <strong>Visible</strong> property in the <a href="report-designer-tools/ui-panels/property-grid-tabbed-view.html">Property Grid</a>.</p>
+<p><img src="../../../images/eurd-win-band-properties-in-property-grid.png" alt="eurd-win-band-properties-in-property-grid"></p>
+<h3 id="remove-bands">Remove Bands</h3>
+<p>Select a band on the report design surface and press DELETE. This removes the band and all its content.</p>
+<h3 id="add-bands">Add Bands</h3>
+<p>To add a band, right-click a report's design surface, and in the invoked context menu, choose <strong>Insert Band</strong>.</p>
+<p><img src="../../../images/eurd-win-report-bands-context-menu.png" alt="eurd-win-report-bands-context-menu"></p>
+<p>You can insert a detail report band if the report's data source has <a href="create-reports/master-detail-reports-with-detail-report-bands.html">master-detail relations</a>.</p>
+<p><img src="../../../images/eurd-win-add-band-relationship.png" alt="eurd-win-add-band-relationship"></p>
+<h3 id="access-the-bands-collection">Access the Bands Collection</h3>
+<p>Click the <strong>Edit and Reorder Bands</strong> context link in a report's smart tag to access the report's bands collection.</p>
+<p><img src="../../../images/eurd-win-report-bands-collection-report-smart-tag.png" alt="eurd-win-report-bands-collection-report-smart-tag"></p>
+<p>This command is also available in a band's context and smart tag menus.</p>
+<p><img src="../../../images/eurd-win-report-bands-collection-band-smart-tag.png" alt="eurd-win-report-bands-collection-band-smart-tag"></p>
+<p>The invoked editor allows you to reorder bands and change their properties.</p>
+<p><img src="../../../images/eurd-win-report-bands-collection-band-editor.png" alt="report-bands-collection-band-smart-tag"></p>
+<p>Alternatively, use the <a href="report-designer-tools/ui-panels/report-explorer.html">Report Explorer</a> to edit and reorder bands. Select a band and edit its properties in the <strong>Property Grid</strong>.</p>
+<p><img src="../../../images/eurd-win-report-explorer-edit-band.gif" alt="report-explorer-edit-band"></p>
+<p>Drag a band to change its order or move inside/outside of another band. The drop targets are highlighted when you drag a band over them.</p>
+<p><img src="../../../images/eurd-win-report-explorer-drag-band.gif" alt="report-explorer-drag-band"></p>
+<p>You can drag bands to the following targets:</p>
+<table>
+<thead>
+<tr>
+<th>Dragged Band</th>
+<th>Drop Targets</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>SubBand</strong></td>
+<td>All bands except <strong>TopMargin</strong> and <strong>BottomMargin</strong></td>
+</tr>
+<tr>
+<td><strong>GroupHeader</strong>, <strong>GroupFooter</strong></td>
+<td><strong>XtraReport</strong> (root node), <strong>DetailReport</strong></td>
+</tr>
+<tr>
+<td><strong>DetailReport</strong></td>
+<td><strong>XtraReport</strong> (root node), <strong>DetailReport</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="apply-styles-to-bands">Apply Styles to Bands</h2>
+<p>Select a band and switch to the <strong>Property Grid</strong>. Expand the <strong>Styles</strong> group and set the <strong>Style</strong> property to the style name.</p>
+<p><img src="../../../images/eurd-win-select-style-band.png" alt="design-time-select-style"></p>
+<p>As an alternative, you can drag a style from the <a href="report-designer-tools/ui-panels/report-explorer.html">Report Explorer</a> onto a band. This is applicable to all bands except <strong>DetailReport</strong>.</p>
+<p><img src="../../../images/eurd-win-drag-style-band.gif" alt="design-time-drag-style"></p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/DevExpress/dotnet-eud/blob/2025.1/eud-for-devexpress-reports/reporting-for-desktop/articles/report-designer/report-designer-for-winforms/introduction-to-banded-reports.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Copyright (c) 1998-2025 Developer Express Inc. All rights reserved.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

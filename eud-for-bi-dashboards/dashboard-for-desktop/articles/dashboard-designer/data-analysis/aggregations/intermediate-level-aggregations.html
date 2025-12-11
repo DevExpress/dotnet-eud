@@ -1,0 +1,246 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Intermediate Level Aggregations | DevExpress End-User Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Intermediate Level Aggregations | DevExpress End-User Documentation ">
+      
+      
+      <link rel="icon" href="../../../../../../favicon.ico">
+      <link rel="stylesheet" href="../../../../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../../../../toc.html">
+      <meta name="docfx:tocrel" content="../../../../toc.html">
+      
+      <meta name="docfx:rel" content="../../../../../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/DevExpress/dotnet-eud/blob/2025.1/eud-for-bi-dashboards/dashboard-for-desktop/articles/dashboard-designer/data-analysis/aggregations/intermediate-level-aggregations.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../../../../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+      <!-- Matomo Tag Manager -->
+      <script>
+        var _mtm = window._mtm = window._mtm || [];
+        _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
+      </script>
+      <!-- End Matomo Tag Manager -->
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../../../../../index.html">
+            <img id="logo" class="svg" src="../../../../../../logo.svg" alt="DevExpress EUD">
+            DevExpress EUD
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="intermediate-level-aggregations">Intermediate Level Aggregations</h1>
+
+<p>The Dashboard can aggregate and summarize data on different levels.</p>
+<ul>
+<li>The <a href="../../work-with-data/using-the-query-builder.html">Query Builder</a> allows you to prepare an underlying data source before analyzing data. You can apply grouping, sorting, summarization and other data shaping operations during data selection.</li>
+<li><a href="../../dashboard-item-settings.html">Dashboard items</a> aggregate and summarize data at a visualization level using dimensions and measures, respectively. To learn more, see <a href="../../bind-dashboard-items-to-data/bind-dashboard-items-to-data.html">Bind Dashboard Items to Data</a>.</li>
+<li>The <strong>Aggr</strong> function allows you to introduce an intermediate detail level that is not related to the visualization level. This allows you to create custom aggregations at different levels and combine these aggregations with existing visualizations.</li>
+</ul>
+<h2 id="overview">Overview</h2>
+<p>The <strong>Aggr</strong> function aggregates and summarizes underlying data using the detail level specified by a predefined set of dimensions and a specified summary function. This function can be used during the creation of a new <a href="../../work-with-data/creating-calculated-fields.html">calculated field</a> in the Expression Editor.</p>
+<p>The <strong>Aggr</strong> function has the following syntax.</p>
+<pre><code>Aggr(summaryExpression, dimension1, dimension2, ...)
+
+</code></pre>
+<p>The first argument is a <a href="summary-level-aggregations.html">summary expression</a> calculated against a specific data source field. The next arguments are the set of dimensions whose values are aggregated and used to calculate summaries specified using the first argument.
+For instance, the following function calculates sums of sales for each product within the specified category.</p>
+<pre><code>Aggr(Sum([Sales]), [Category], [Product])
+
+</code></pre>
+<p>If you created the calculated field that includes the <strong>Aggr</strong> function and dropped the created field into an existing <a href="../../dashboard-item-settings.html">dashboard item</a>, the Dashboard joins the resulting aggregation with the already displayed data. This means that you can add data with the increased or decreased granularity to the dashboard item. There are two main scenarios.</p>
+<ul>
+<li><p>In the first scenario, an aggregation has a <strong>less detailed granularity</strong> than visualized data.</p>
+<p>In this scenario, an underlying data source contains the list of orders for two categories and corresponding products.</p>
+<p><img src="../../../../images/img122834.png" alt="Aggr_UnderlyingData"></p>
+<p>To aggregate this data by individual categories, create a calculated field with the following expression.</p>
+<pre><code>  Aggr(Sum([Sales]), [Category])
+
+</code></pre>
+<p>The following internal table will be generated for this calculated field.</p>
+<p><img src="../../../../images/img122839.png" alt="Aggr_Overview_UnderlyingAndInternalLow"></p>
+<p>The sample <a href="../../dashboard-item-settings/grid.html">Grid</a> dashboard item contains more detailed data and includes the following columns: <em>Category</em>, <em>Product</em> and the sum of <em>Sales</em>.</p>
+<p><img src="../../../../images/img122838.png" alt="Aggr_Overview_CategoryProductGrid"></p>
+<p>If you drop the created calculated field to the Grid, the sum of sales for each category will be repeated for each Grid row.</p>
+<p><img src="../../../../images/img122840.png" alt="Aggr_Overview_GridAndInternalLow"></p>
+<p>For instance, you can use these values later to calculate a contribution of each product to a category’s sales.</p>
+</li>
+<li><p>An aggregation has a <strong>more detailed granularity</strong> than visualized data.</p>
+<p>To aggregate this data by categories and products, create a calculated field with the following expression.</p>
+<pre><code>  Aggr(Sum([Sales]), [Category], [Product])
+
+</code></pre>
+<p>The following internal table will be generated for this calculated field.</p>
+<p><img src="../../../../images/img122841.png" alt="Aggr_Overview_GridAndInternalHigh"></p>
+<p>Drop the created calculated field to the Grid and set its summary type to <strong>Min</strong>. The Grid will display minimum product sales within each category.</p>
+<p><img src="../../../../images/img122842.png" alt="Aggr_Overview_GridAndInternalHigh"></p>
+</li>
+</ul>
+<h2 id="example-1---bestworst-sales-by-year">Example 1 - Best/Worst Sales by Year</h2>
+<p>The following example shows how to display best and worst monthly sales for each year.</p>
+<p>In this example, the <a href="../../dashboard-item-settings/chart.html">Chart</a> dashboard item shows the sum of sales by different years. The <em>Sales</em> field is placed in the <a href="../../dashboard-item-settings/chart/providing-data.html">Values</a> section and the <em>OrderDate</em> (with the <strong>Year</strong> <a href="../../data-shaping/grouping.html">group interval</a>) is placed in the <a href="../../dashboard-item-settings/chart/providing-data.html">Arguments</a> section.</p>
+<p><img src="../../../../images/img122812.png" alt="Aggr_Example1_SalesByYear"></p>
+<p>To display sales by the best/worst months for each year, create a new <a href="../../work-with-data/creating-calculated-fields.html">calculated field</a> with the following expression.</p>
+<pre><code>Aggr(Sum([Sales]), GetYear([OrderDate]), GetMonth([OrderDate]))
+
+</code></pre>
+<p>Drop this field (<em>Sales by Year/Month</em> in the image below) to the Values section and set its <a href="../../data-shaping/summarization.html">summary type</a> to <strong>Max</strong>. Then, drop this field to Values again and set its summary type to <strong>Min</strong>. The Chart will visualize sales by the best/worst months in a year.</p>
+<p><img src="../../../../images/img122813.png" alt="Aggr_Example1_SalesByMonths"></p>
+<h2 id="example-2---percent-of-total">Example 2 - Percent of Total</h2>
+<p>This example will demonstrate how to calculate a contribution of individual quarter sales to year sales.</p>
+<p>In this example, the <a href="../../dashboard-item-settings/pivot.html">Pivot</a> dashboard item displays the sum of sales by year/quarter. The <em>Sales</em> field is placed in the <a href="../../dashboard-item-settings/pivot/providing-data.html">Values</a> section and the hierarchy of <em>OrderDate</em> fields (with the <strong>Year</strong> and <strong>Quarter</strong> <a href="../../data-shaping/grouping.html">group intervals</a>) is placed in <a href="../../dashboard-item-settings/pivot/providing-data.html">Rows</a>.</p>
+<p><img src="../../../../images/img122821.png" alt="Aggr_Example2_SalesByQuarterYear"></p>
+<p>To calculate a contribution of each quarter to a year sales, do the following.</p>
+<ul>
+<li><p>Calculate totals for each year using the <strong>Aggr</strong> function by creating the following calculated field.</p>
+<pre><code>  Aggr(Sum([Sales]), GetYear([OrderDate]))
+
+</code></pre>
+<p>Set the name of the created field to <em>Sales by Year</em>.</p>
+</li>
+<li><p>Calculate a contribution of each quarter to year sales by creating the following calculated field.</p>
+<pre><code>  Sum([Sales]) / Max([Sales by Year])
+
+</code></pre>
+<p>Name this field <em>Percent of Total</em> and drop it to <strong>Values</strong> to see the result.</p>
+</li>
+</ul>
+<p><img src="../../../../images/img122822.png" alt="Aggr_Example2_SalesByQuarterYear_PercentOfTotal"></p>
+<h2 id="example-3---customer-acquisition">Example 3 - Customer Acquisition</h2>
+<p>In this example, a customer acquisition will be evaluated by grouping customers by the quarter/year of their first purchase to compare sales contributions.</p>
+<p>The <a href="../../dashboard-item-settings/chart.html">Chart</a> dashboard item below visualizes sales by quarter/year.</p>
+<p><img src="../../../../images/img122827.png" alt="Aggr_Example3_CohortAnalysis"></p>
+<p>The following expression determines the minimum order date (the first purchase date) per customer.</p>
+<pre><code>Aggr(Min(GetDateQuarterYear([OrderDate])), [CustomerID])
+
+</code></pre>
+<p>Set the name of the created field to <em>Customer First Order</em> and drop this field to the <strong>Series</strong> section to see the result.</p>
+<p><img src="../../../../images/img122828.png" alt="Aggr_Example3_CohortAnalysis_Result"></p>
+<h2 id="example-4---customer-order-count">Example 4 - Customer Order Count</h2>
+<p>In this example, you will learn how to divide customers count by the number of orders they made.</p>
+<p>The Chart below shows the number of orders that is made by each customer.</p>
+<p><img src="../../../../images/img122830.png" alt="Aggr_Example4_CustomerOrderCount"></p>
+<p>The calculated field below evaluates the number of unique orders made by each customer.</p>
+<pre><code>Aggr(CountDistinct([OrderID]), [CustomerID])
+
+</code></pre>
+<p>Set the name of this field to <em>Customer Order Count</em> and drop this field to arguments. Then, drop the <em>CustomerID</em> field to <strong>Values</strong> and change its <a href="../../data-shaping/summarization.html">summary type</a> to <strong>Count Distinct</strong>.</p>
+<p><img src="../../../../images/img122829.png" alt="Aggr_Example4_CustomerOrderCount_Result"></p>
+<p>The Chart will show the number of customers that made a specific number of orders.</p>
+<h2 id="example-5---best-product-sales-by-year">Example 5 - Best Product Sales by Year</h2>
+<p>This scenario requires the use of nested aggregations. In this example, the dashboard will show products with the best sales in a year along with sales values.</p>
+<p>The initial <a href="../../dashboard-item-settings/grid.html">Grid</a> dashboard item shows sales of all products by year (the <em>OrderDate</em> column with the <strong>Year</strong> <a href="../../data-shaping/grouping.html">group interval</a> and the <em>Sales</em> column). The data source also contains the <em>ProductName</em> field.</p>
+<p><img src="../../../../images/img122866.png" alt="Aggr_Example5_SalesByYear"></p>
+<p>To implement this scenario, perform the following steps.</p>
+<ul>
+<li><p>Create the calculated field that will return product sales for individual years.</p>
+<pre><code>  Aggr(Sum([Sales]), GetYear([OrderDate]), [ProductName])
+
+</code></pre>
+<p>Set its name to <em>Product Sales by Year</em>.</p>
+</li>
+<li><p>Create the calculated field that will return maximum sales values.</p>
+<pre><code>  Aggr(Max([Product Sales by Year]), GetYear([OrderDate]))
+
+</code></pre>
+<p>Set its name to <em>Max Product Sales by Year</em>.</p>
+</li>
+<li><p>Finally, create a calculated field returning the name of the product with the best sales and a corresponding sales value.</p>
+<pre><code>  Iif([Max Product Sales by Year] = [Product Sales by Year], [ProductName] + ' ($ ' + [Product Sales by Year] + ')', null)
+
+</code></pre>
+<p>Specify the name as <em>Best Sales Product</em>. Then, drop this field to the <strong>Columns</strong> section to see the result.</p>
+</li>
+</ul>
+<p><img src="../../../../images/img122867.png" alt="Aggr_Example5_BestProductByYear_Result"></p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/DevExpress/dotnet-eud/blob/2025.1/eud-for-bi-dashboards/dashboard-for-desktop/articles/dashboard-designer/data-analysis/aggregations/intermediate-level-aggregations.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Copyright (c) 1998-2025 Developer Express Inc. All rights reserved.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

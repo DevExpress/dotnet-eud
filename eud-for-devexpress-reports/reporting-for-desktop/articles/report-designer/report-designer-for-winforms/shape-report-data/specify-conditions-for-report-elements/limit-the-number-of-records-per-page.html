@@ -1,0 +1,144 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Limit the Number of Records per Page | DevExpress End-User Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Limit the Number of Records per Page | DevExpress End-User Documentation ">
+      
+      
+      <link rel="icon" href="../../../../../../../favicon.ico">
+      <link rel="stylesheet" href="../../../../../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../../../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../../../../../toc.html">
+      <meta name="docfx:tocrel" content="../../../../../toc.html">
+      
+      <meta name="docfx:rel" content="../../../../../../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/DevExpress/dotnet-eud/blob/2025.1/eud-for-devexpress-reports/reporting-for-desktop/articles/report-designer/report-designer-for-winforms/shape-report-data/specify-conditions-for-report-elements/limit-the-number-of-records-per-page.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../../../../../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+      <!-- Matomo Tag Manager -->
+      <script>
+        var _mtm = window._mtm = window._mtm || [];
+        _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
+      </script>
+      <!-- End Matomo Tag Manager -->
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../../../../../../index.html">
+            <img id="logo" class="svg" src="../../../../../../../logo.svg" alt="DevExpress EUD">
+            DevExpress EUD
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="limit-the-number-of-records-per-page">Limit the Number of Records per Page</h1>
+
+<p>This document describes how to specify the number of data source records displayed on report pages.</p>
+<p>After you <a href="../../bind-to-data.html">bound your report to data</a> and provided content to the report's <a href="../../introduction-to-banded-reports.html">Detail band</a>, you can limit the number of records each report page displays. This example demonstrates how to pass the required record count as a parameter value.</p>
+<ol>
+<li><p>Switch to the <a href="../../report-designer-tools/ui-panels/field-list.html">Field List</a>, right-click the <strong>Parameters</strong> section and add a new report parameter.</p>
+<p><img src="../../../../../images/eurd-win-shaping-filter-add-parameter.png" alt=""></p>
+</li>
+<li><p>Specify the parameter's description displayed in Print Preview and set its type to <strong>Number (Integer)</strong>.</p>
+<p><img src="../../../../../images/eurd-win-shaping-limit-parameter-settings.png" alt=""></p>
+</li>
+<li><p>Drop a <a href="../../use-report-elements/use-basic-report-controls/page-break.html">Page Break</a> control onto the report's detail band and switch to the <a href="../../report-designer-tools/ui-panels/property-grid-tabbed-view.html">Property Grid</a>. Open the <strong>Behavior</strong> tab, click the <strong>Visible</strong> property's marker and select <strong>Visible Expression</strong> in the context menu.</p>
+<p><img src="../../../../../images/eurd-win-shaping-page-break-visible-property.png" alt=""></p>
+</li>
+<li><p>In the invoked <strong>Expression Editor</strong>, specify the required <a href="../../use-expressions.html">expression</a>.</p>
+<p><img src="../../../../../images/eurd-win-shaping-page-break-visible-expression.png" alt=""></p>
+<p>For example:</p>
+<p><strong>([DataSource.CurrentRowIndex] % ?parameter1 == 0) And ([DataSource.CurrentRowIndex] !=0)</strong></p>
+</li>
+</ol>
+<p>When switching to <a href="../../preview-print-and-export-reports.html">Print Preview</a>, you can specify how many rows each report page should display by entering the corresponding parameter value:</p>
+<p><img src="../../../../../images/eurd-win-shaping-limit-rows-result.png" alt=""></p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/DevExpress/dotnet-eud/blob/2025.1/eud-for-devexpress-reports/reporting-for-desktop/articles/report-designer/report-designer-for-winforms/shape-report-data/specify-conditions-for-report-elements/limit-the-number-of-records-per-page.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Copyright (c) 1998-2025 Developer Express Inc. All rights reserved.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

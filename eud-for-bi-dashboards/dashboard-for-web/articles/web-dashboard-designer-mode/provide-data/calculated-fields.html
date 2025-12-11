@@ -1,0 +1,184 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Calculated Fields | DevExpress End-User Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Calculated Fields | DevExpress End-User Documentation ">
+      
+      
+      <link rel="icon" href="../../../../../favicon.ico">
+      <link rel="stylesheet" href="../../../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../../../toc.html">
+      <meta name="docfx:tocrel" content="../../../toc.html">
+      
+      <meta name="docfx:rel" content="../../../../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/DevExpress/dotnet-eud/blob/2025.1/eud-for-bi-dashboards/dashboard-for-web/articles/web-dashboard-designer-mode/provide-data/calculated-fields.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../../../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+      <!-- Matomo Tag Manager -->
+      <script>
+        var _mtm = window._mtm = window._mtm || [];
+        _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
+      </script>
+      <!-- End Matomo Tag Manager -->
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../../../../index.html">
+            <img id="logo" class="svg" src="../../../../../logo.svg" alt="DevExpress EUD">
+            DevExpress EUD
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="calculated-fields">Calculated Fields</h1>
+
+<p>The Web Dashboard control provides the capability to create calculated fields that allow you to apply complex expressions to data fields obtained from the dashboard's data source. As a result, you can use these fields in data visualizations as regular data source fields.</p>
+<p>Note that calculated fields are not supported for the <a href="../bind-dashboard-items-to-data/bind-dashboard-items-to-data-in-olap-mode.html">OLAP</a> data source.</p>
+<p>You can add a new calculated field based on the existing data source fields after you have created a data source.</p>
+<ul>
+<li><a href="#create">Creating a Calculated Field</a></li>
+<li><a href="#edit">Editing a Calculated Field</a></li>
+</ul>
+<h2 id="creating-a-calculated-field"><a name="create"></a>Creating a Calculated Field</h2>
+<p>You can creates calculated fields both in the <strong>Data Sources</strong> page and from the <strong>Binding</strong> panel.</p>
+<ul>
+<li><p>Go to the <a href="../ui-elements/dashboard-menu.html">dashboard menu</a> and open the <strong>Data Sources</strong> page. Select a required data source (and the required <a href="working-with-sql-data-sources/manage-sql-queries.html">query</a>/data member, if applicable) and click the <strong>Add Calculated Field</strong> button to create a calculated field.</p>
+<p><img src="../../../images/img124912.png" alt="wdd-calculated-field-create"></p>
+</li>
+<li><p>Open the <a href="../ui-elements/dashboard-item-menu.html">Binding</a> panel, go to the <strong>Binding</strong> section and click the <strong>Add calculated field</strong> button (the <img src="../../../images/wdd-calculated-field-add-icon.png" alt="wdd-calculated-field-add-icon"> icon).</p>
+<p><img src="../../../images/wdd-calculated-field-create-from-binding-panel.png" alt=""></p>
+</li>
+</ul>
+<p>This invokes the <strong>Edit Calculated Field</strong> dialog, which allows you to construct the required expression.</p>
+<ul>
+<li>Use the <strong>Name</strong> option to change the default field name.</li>
+<li>Use the <strong>Field Type</strong> option to specify the required calculated field type.</li>
+</ul>
+<p><img src="../../../images/img124913.png" alt="wdd-calculated-field-editor"></p>
+<p>The following elements are available for creating expressions:</p>
+<table>
+<thead>
+<tr>
+<th>Element</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Fields</td>
+<td>Contains available fields and <a href="../data-analysis/dashboard-parameters.html">dashboard parameters</a>.</td>
+</tr>
+<tr>
+<td>Constants</td>
+<td>Contains boolean variables.</td>
+</tr>
+<tr>
+<td>Functions</td>
+<td>Contains different types of functions including <a href="../data-analysis/aggregations.html">aggregate</a>.</td>
+</tr>
+<tr>
+<td>Operators</td>
+<td>Allows you to select operators from the list.</td>
+</tr>
+</tbody>
+</table>
+<p>After creating the expression, click <strong>Save</strong> to creates a new calculated field and display it in the <a href="working-with-sql-data-sources/manage-sql-queries.html">Field List</a>. This type of a field is indicated with the <strong><em>f</em></strong> glyph.</p>
+<p><img src="../../../images/img124911.png" alt="wdd-calculated-field"></p>
+<h2 id="editing-a-calculated-field"><a name="edit"></a>Editing a Calculated Field</h2>
+<p>You can configure calculated fields both in the <strong>Data Sources</strong> page and from the <strong>Binding</strong> panel:</p>
+<ul>
+<li>To edit the created field using the <strong>Data Sources</strong> page, click the calculated field's <strong>Edit</strong> button (the <img src="../../../images/img125497.png" alt="wdd-icon-edit-query"> icon).</li>
+<li>In the <strong>Binding</strong> section, select the calculated field you want to edit and click the <strong>Edit</strong> button (the <img src="../../../images/wdd-icon-editCalcField.png" alt="wdd-icon-editCalculatedField"> icon).</li>
+</ul>
+<p>This invokes the <strong>Edit Calculated Field</strong> dialog. You can change the calculated field's name, type or edit the current expression.</p>
+<p>To delete the calculated field, use the calculated field's <strong>Delete</strong> button (the <img src="../../../images/img125498.png" alt="wdd-icon-delete-query"> / <img src="../../../images/wdd-icon-deleteCalField.png" alt=""> icons).</p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/DevExpress/dotnet-eud/blob/2025.1/eud-for-bi-dashboards/dashboard-for-web/articles/web-dashboard-designer-mode/provide-data/calculated-fields.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Copyright (c) 1998-2025 Developer Express Inc. All rights reserved.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

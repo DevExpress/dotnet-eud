@@ -1,0 +1,207 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Reference Dashboard Parameters | DevExpress End-User Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Reference Dashboard Parameters | DevExpress End-User Documentation ">
+      
+      
+      <link rel="icon" href="../../../../../../favicon.ico">
+      <link rel="stylesheet" href="../../../../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../../../../toc.html">
+      <meta name="docfx:tocrel" content="../../../../toc.html">
+      
+      <meta name="docfx:rel" content="../../../../../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/DevExpress/dotnet-eud/blob/2025.1/eud-for-bi-dashboards/dashboard-for-web/articles/web-dashboard-designer-mode/data-analysis/dashboard-parameters/passing-parameter-values.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../../../../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+      <!-- Matomo Tag Manager -->
+      <script>
+        var _mtm = window._mtm = window._mtm || [];
+        _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
+      </script>
+      <!-- End Matomo Tag Manager -->
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../../../../../index.html">
+            <img id="logo" class="svg" src="../../../../../../logo.svg" alt="DevExpress EUD">
+            DevExpress EUD
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="reference-dashboard-parameters">Reference Dashboard Parameters</h1>
+
+<p>This topic describes how to reference a dashboard parameter in <a href="#dashboard-item-filters">filter strings</a>, <a href="#calculated-fields">calculated fields</a>, and <a href="#window-calculations">window calculations</a>. You can also bind a dashboard parameter to a query parameter to filter the SQL data source dynamically.</p>
+<div class="TIP">
+<h5>Tip</h5>
+<p>You can also create cascading parameters in the Web Dashboard. For more information, refer to the following topic: <a href="create-cascading-parameters.html">Cascading Parameters</a>.</p>
+</div>
+<h2 id="sql-queries-and-stored-procedures">SQL Queries and Stored Procedures</h2>
+<p>You can filter the SQL data sources dynamically if you bind a <a href="../../provide-data/working-with-sql-data-sources/pass-query-parameters.html">query parameter</a> to a dashboard parameter.</p>
+<p>Invoke the <strong>Data Source Wizard</strong> window or use the <strong>Properties</strong> section of the <a href="../../ui-elements/dialogs-and-wizards/query-builder.html">Query Builder</a> to access the query parameter settings. Change the query parameter type to <em>Expression</em> and specify the expression with a dashboard parameter in the <strong>Value</strong> field:</p>
+<p><img src="../../../../images/wdd-query-parameters-complex-expression.png" alt="Query Parameter - Expression Type"></p>
+<p>The resulting query parameter settings may appear as follows:</p>
+<p><img src="../../../../images/wdd-query-parameters-parameter-expression.png" alt="Query Parameter - Expression Type with Parameter"></p>
+<p>Refer to the following article for more information about query parameters: <a href="../../provide-data/working-with-sql-data-sources/pass-query-parameters.html">Use Query Parameters</a>.</p>
+<div class="TIP">
+<h5>Tip</h5>
+<p>For information on how to filter Excel, Object, XPO, and JSON data sources, refer to the following article: <a href="../../provide-data/filter-data-sources.html">Filter Data Sources</a>.</p>
+</div>
+<h2 id="data-source-filtering">Data Source Filtering</h2>
+<p>The Web Dashboard allows you to filter Excel, Object, XPO, and JSON data sources dynamically if you use a dashboard parameter in the filter criteria.</p>
+<p>To add filters to a data source, open the dashboard menu, invoke the <strong>Data Sources</strong> page, select a data source and click <strong>Filter</strong>.</p>
+<p><img src="../../../../images/filter-data-source-with-parameter.png" alt="Data Sources - Filter Data Source"></p>
+<p>In the invoked <a href="../../ui-elements/dialogs-and-wizards/filter-editor.html">Filter Editor</a>, build a filter expression. Click the down arrow glyph in the operand value placeholder to expand the list of available objects. Select the <strong>Parameter</strong> option to compare a field value with a parameter value.</p>
+<p><img src="../../../../images/filter-editor-dashboard-parameter.png" alt="Filter Editor - Dashboard Parameters"></p>
+<p>To select a dashboard parameter from the list of available parameters, click the parameter operand:</p>
+<p><img src="../../../../images/filter-editor-dashboard-parameter-selection.png" alt="Filter Editor - Select a Dashboard Parameter"></p>
+<p>Click <strong>OK</strong> to save the created filter criteria. Now, when you change the dashboard parameter value, the data source is filtered according to the parameter value.</p>
+<h2 id="dashboard-item-filters">Dashboard Item Filters</h2>
+<p>Web Dashboard allows you to use the following data filters in dashboard items:</p>
+<ul>
+<li><p><a href="../../data-shaping/filtering.html#dashboard-item-filter">Dashboard Item Filter</a></p>
+<p>Filters individual dashboard items independently.</p>
+</li>
+<li><p><a href="../../data-shaping/filtering.html#measure-filter">Measure Filter</a></p>
+<p>Filters only the specified measure in the dashboard item.</p>
+</li>
+<li><p><a href="../../data-shaping/filtering.html#visible-data-filter">Visible Data Filter</a></p>
+<p>Hides a part of the calculated data from the view. This filter type does not filter underlying data used in calculations or intermediate level aggregations.</p>
+</li>
+</ul>
+<p>To apply filtering based on a dynamic value, you need to use a dashboard parameter in a filter criteria. The following example describes how to filter a dashboard item according to a dashboard parameter value.</p>
+<p>To add a dashboard item filter, open the dashboard item’s <strong>Filters</strong> menu, go to the <strong>Item Filter</strong> section and click the <strong>Edit</strong> button:</p>
+<p><img src="../../../../images/wdd-invoke-filter-editor124630.png" alt="Dashboard Item Menu - Filters Section"></p>
+<p>In the invoked <a href="../../ui-elements/dialogs-and-wizards/filter-editor.html">Filter Editor</a>, build a filter expression. Click the down arrow glyph in the operand value placeholder to expand the list of available objects. Select the <strong>Parameter</strong> option to compare a field value with a parameter value.</p>
+<p><img src="../../../../images/filter-editor-dashboard-parameter.png" alt="Filter Editor - Dashboard Parameters"></p>
+<p>To select a dashboard parameter from the list of available parameters, click the parameter operand:</p>
+<p><img src="../../../../images/filter-editor-dashboard-parameter-selection.png" alt="Filter Editor - Select a Dashboard Parameter"></p>
+<p>Click <strong>OK</strong> to save the created filter criteria. Now, when you change the dashboard parameter value, the dashboard item is filtered according to the parameter value.</p>
+<div class="TIP">
+<h5>Tip</h5>
+<p>For more information on filtering in Web Dashboard, refer to the following article: <a href="../../data-shaping/filtering.html">Filtering</a>.</p>
+</div>
+<h2 id="conditional-formatting">Conditional Formatting</h2>
+<p>You can apply <a href="../../appearance-customization/conditional-formatting.html">conditional formatting</a> to a dashboard item according to the current parameter value. It allows you to format dashboard item elements dynamically.</p>
+<p>To reference a dashboard parameter in a <a href="../../appearance-customization/conditional-formatting.html#create-a-format-rule">format rule</a>, set the condition type to <strong>Expression</strong>:</p>
+<p><img src="../../../../images/expression-type-conditional-formatting.png" alt="Format Rule - Expression Type"></p>
+<p>In the invoked dialog, click the <strong>Edit</strong> button to create a condition:</p>
+<p><img src="../../../../images/conditional-formatting-create-expression-rule.png" alt="Format Rule - Create a Condition"></p>
+<p>In the invoked <a href="../../ui-elements/dialogs-and-wizards/filter-editor.html">Filter Editor</a>, build a filter expression. Click the down arrow glyph in the operand value placeholder to expand the list of available objects. Select the <strong>Parameter</strong> option to compare a field value with a parameter value.</p>
+<p><img src="../../../../images/filter-editor-dashboard-parameter.png" alt="Filter Editor - Dashboard Parameters"></p>
+<p>To select a dashboard parameter from the list of available parameters, click the parameter operand:</p>
+<p><img src="../../../../images/filter-editor-dashboard-parameter-selection.png" alt="Filter Editor - Select a Dashboard Parameter">
+Click <strong>OK</strong> to save the created format rule. Now, when you change the dashboard parameter value, the dashboard item is formatted according to the parameter value.</p>
+<div class="TIP">
+<h5>Tip</h5>
+<p>For more information on conditional formatting in Web Dashboard, refer to the following article: <a href="../../appearance-customization/conditional-formatting.html">Conditional Formatting</a>.</p>
+</div>
+<h2 id="calculated-fields">Calculated Fields</h2>
+<p>You can use parameters when you construct expressions for <a href="../../provide-data/calculated-fields.html">calculated fields</a>. This allows you to evaluate values of the calculated field dynamically depending on the current parameter value.</p>
+<p>To reference the dashboard parameter value in an expression, add or edit a calculated field. In the invoked <strong>Edit Calculated Field</strong> window, double-click the required parameter in the <strong>Fields</strong> section.</p>
+<p><img src="../../../../images/wdd-parameters-calculated-field126509.png" alt="Edit Calculated Field - Reference a Dashboard Parameter"></p>
+<p>Click <strong>Save</strong> to save the created calculated fields. Now, when you change the dashboard parameter value, the calculated field values are changed according to the specified expression.</p>
+<div class="TIP">
+<h5>Tip</h5>
+<p>For more information on calculated fields in Web Dashboard, refer to the following article: <a href="../../provide-data/calculated-fields.html">Calculated Fields</a>.</p>
+</div>
+<h2 id="window-calculations">Window Calculations</h2>
+<p>You can use dashboard parameters in <a href="../calculations.html">window calculations</a>. This allows you to apply specific computations to measure values depending on the current parameter value.</p>
+<p>To reference the dashboard parameter value in an expression, create or edit a window calculation. In the invoked <strong>Expression Editor</strong> window, double-click the required parameter from the <strong>Fields</strong> section.</p>
+<p><img src="../../../../images/wdd-parameters-window-calculations126562.png" alt="Expression Editor - Window Calculation with Parameters"></p>
+<p>Click <strong>OK</strong> to save the created window calculation. Now, when you change the dashboard parameter value, the calculation values are changed according to the specified expression.</p>
+<div class="TIP">
+<h5>Tip</h5>
+<p>For more information on window calculations in Web Dashboard, refer to the following article: <a href="../calculations.html">Window Calculations</a>.</p>
+</div>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/DevExpress/dotnet-eud/blob/2025.1/eud-for-bi-dashboards/dashboard-for-web/articles/web-dashboard-designer-mode/data-analysis/dashboard-parameters/passing-parameter-values.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Copyright (c) 1998-2025 Developer Express Inc. All rights reserved.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

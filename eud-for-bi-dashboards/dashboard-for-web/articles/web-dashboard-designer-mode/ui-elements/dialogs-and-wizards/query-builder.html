@@ -1,0 +1,281 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Query Builder | DevExpress End-User Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Query Builder | DevExpress End-User Documentation ">
+      
+      
+      <link rel="icon" href="../../../../../../favicon.ico">
+      <link rel="stylesheet" href="../../../../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../../../../toc.html">
+      <meta name="docfx:tocrel" content="../../../../toc.html">
+      
+      <meta name="docfx:rel" content="../../../../../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/DevExpress/dotnet-eud/blob/2025.1/eud-for-bi-dashboards/dashboard-for-web/articles/web-dashboard-designer-mode/ui-elements/dialogs-and-wizards/query-builder.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../../../../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+      <!-- Matomo Tag Manager -->
+      <script>
+        var _mtm = window._mtm = window._mtm || [];
+        _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
+      </script>
+      <!-- End Matomo Tag Manager -->
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../../../../../index.html">
+            <img id="logo" class="svg" src="../../../../../../logo.svg" alt="DevExpress EUD">
+            DevExpress EUD
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="query-builder">Query Builder</h1>
+
+<p>The <strong>Query Builder</strong> is a visual query editor. You can use it to add data tables and views to the SQL data sources, and select which columns to include. For federated data sources, you can create a federated query.</p>
+<h2 id="query-builder-for-sql-data-sources">Query Builder for SQL Data Sources</h2>
+<h3 id="add-tables">Add Tables</h3>
+<p>Drag a specific table or view to the Query Builder design surface pane to include it in a query:</p>
+<p><img src="../../../../images/wdd-query-builder-add-table125656.png" alt="wdd-query-builder-add-table"></p>
+<p>Then select the columns to include in the query:</p>
+<p><img src="../../../../images/wdd-quey-builder-select-column125657.png" alt="wdd-query-builder-select-column"></p>
+<p>The Query Builder provides a toolbar with the following commands:</p>
+<table>
+<thead>
+<tr>
+<th>Icon</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="../../../../images/wdd-query-builder-delete-icon125661.png" alt="wdd-query-builder-delete-icon"></td>
+<td>Removes the selected table or view from the query.</td>
+</tr>
+<tr>
+<td><img src="../../../../images/wdd-query-builder-undo126299.png" alt="wdd-query-builder-undo"></td>
+<td>Reverses the most recent action.</td>
+</tr>
+<tr>
+<td><img src="../../../../images/wdd-query-builder-redo126300.png" alt="wdd-query-builder-redo"></td>
+<td>Restores the previously undone action.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="join-tables">Join Tables</h3>
+<p>The Query Builder allows you to join tables and/or views. Use drag and drop to connect corresponding columns (key fields). A relationship line is drawn between two connected tables / views. Note the connected columns should have identical data types. The <strong>Query Builder</strong> automatically joins a table or view that has a relationship at database level with any recently added tables.</p>
+<p><img src="../../../../images/wdd-query-builder-join-tables125658.png" alt="wdd-query-builder-join-tables"></p>
+<p>The Query Builder allows you to change the join type (if necessary). Click a relationship line to display the <strong>Relation Properties</strong> section. Properties in this section define the join type (<strong>Inner</strong> or <strong>Left Outer</strong>) and applied logical operator.</p>
+<p><img src="../../../../images/wdd-query-builder-ralstionship-properties125660.png" alt="wdd-query-builder-relationship-properties"></p>
+<p>A left outer join returns all values from an inner join along with all values in the &quot;left&quot; table that do not match the &quot;right&quot; table. The result also includes rows with NULL (empty) values in the key field. If you select the left outer join, the relationship line displays an arrow which points to the &quot;right&quot; table of the join clause. The executed query returns a &quot;flat&quot; table that joins different tables within a single query.</p>
+<p>Select the relationship line and click <strong>Delete</strong> (the <img src="../../../../images/wdd-query-builder-delete-icon125661.png" alt="wdd-query-builder-delete-icon"> icon) to delete an unnecessary relationship.</p>
+<h3 id="edit-column-settings">Edit Column Settings</h3>
+<p>Select a table or view, and click a data column to display the data column options.</p>
+<p><img src="../../../../images/wdd-queru-builder-properties-pane124947.png" alt="wdd-query-builder-properties-pane"></p>
+<p>The <strong>Column Properties</strong> section contains the following options:</p>
+<table>
+<thead>
+<tr>
+<th>Option</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Name</strong></td>
+<td>Indicates the column name that the Query Builder obtains from the database.</td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Indicates the column's data type. The Query Builder provides information about the maximum string length for string columns.</td>
+</tr>
+<tr>
+<td><strong>Alias</strong></td>
+<td>Specifies a custom column name (alias). Include a column into a query to enable this option. Aggregated columns should always have an alias.</td>
+</tr>
+<tr>
+<td><strong>Output</strong></td>
+<td>Specifies whether to include a column in a query result.</td>
+</tr>
+<tr>
+<td><strong>Sort Type</strong></td>
+<td>Specifies whether to maintain the initial sort order for a column, or sort data records in ascending or descending order.</td>
+</tr>
+<tr>
+<td><strong>Sort Order</strong></td>
+<td>Defines the sorting priority for multiple columns (the less this number is, the higher the priority).</td>
+</tr>
+<tr>
+<td><strong>Group By</strong></td>
+<td>Specifies whether to group a query result by this column.</td>
+</tr>
+<tr>
+<td><strong>Aggregate</strong></td>
+<td>Specifies whether to aggregate the column's data records. You can use the following aggregate functions: <strong>Count</strong>, <strong>Max</strong>, <strong>Min</strong>, <strong>Avg</strong>, <strong>Sum</strong>, <strong>CountDistinct</strong>, <strong>AvgDistinct</strong>, <strong>SumDistinct</strong>. <br>The Query Builder omits individual data records from the query result and only retains the aggregate function result when you apply any of these functions.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="use-query-parameters">Use Query Parameters</h3>
+<p>Use the <strong>Parameters</strong> section to add, remove and edit <a href="../../provide-data/working-with-sql-data-sources/pass-query-parameters.html">query parameters</a>.</p>
+<p><img src="../../../../images/web-query-builder-parameter-dialog.png" alt=""></p>
+<p>Each query parameter allows you to configure the following properties:</p>
+<table>
+<thead>
+<tr>
+<th>Option</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Name</strong></td>
+<td>Specifies the query parameter's name.</td>
+</tr>
+<tr>
+<td><strong>Type</strong></td>
+<td>Specifies the parameter value's data type.<br>Set this property to <strong>Expression</strong> to generate parameter values dynamically.</td>
+</tr>
+<tr>
+<td><strong>Result Type</strong></td>
+<td>Specifies the data type of the expression's result value.<br>This property is enabled if the query parameter type is Expression.</td>
+</tr>
+<tr>
+<td><strong>Value</strong></td>
+<td>Determines the query parameter's actual value.<br>You can specify a static value according to the selected value's data type.<br>Alternatively, construct an expression to generate parameter values dynamically. Click this property's ellipsis button to invoke the <strong>Expression Editor</strong> and create an expression. This ellipsis button is enabled if you set the query parameter type to <strong>Expression</strong>.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="filter-data">Filter Data</h3>
+<p>The Query Builder can be used to filter a query. To do this, deselect tables and click the ellipsis button in the invoked <strong>Filter</strong> field in the <strong>Properties</strong> pane. This invokes the <strong>Filter Editor</strong> dialog, which provides a visual interface for constructing a filter string.</p>
+<p><img src="../../../../images/wdd-filter-editor-filter-query124905.png" alt="wdd-filter-editor-filter-query"></p>
+<p>See the following topic for details: <a href="../../provide-data/working-with-sql-data-sources/filter-queries.html">Filter Queries</a>.</p>
+<h3 id="preview-data">Preview Data</h3>
+<p>Click the <strong>Preview Results</strong> button to test a query on the actual data's limited subset.</p>
+<p>The invoked <a href="preview-data.html">Data Preview</a> dialog displays the first 100 data records of the query:</p>
+<p><img src="../../../../images/wdd-preview-result124959.png" alt="wdd-preview-result"></p>
+<h2 id="query-builder-for-federated-data-sources">Query Builder for Federated Data Sources</h2>
+<p>The Query Builder supports the following query types for the federated data source:</p>
+<ul>
+<li><strong>Join</strong> - Combines rows from two or more sources based on a clause.</li>
+<li><strong>Union and Union All</strong> - The <strong>Union</strong> query combines rows from two or more sources into one data set and removes duplicate rows in the merged source. The <strong>Union All</strong> query does the same, except it doesn't remove duplicated rows. You can create a union query for data sources if data types of their columns are <a href="https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/types/casting-and-type-conversions#implicit-conversions">implicitly converted</a>.</li>
+<li><strong>Transformation</strong> - If a data source contains a complex column (an object), you can transform its properties to display them as separate columns in a flattened view. If one of the data columns is an array, you can unfold its values and display a new data row for every element of the array. When you unfold the column, you can flatten it and create a flattened view.</li>
+</ul>
+<h3 id="create-a-join-based-federated-data-source">Create a Join-Based Federated Data Source</h3>
+<p>In the invoked Query Builder, add the tables from the data sources (drag or double-click them). Use drag-and-drop to create a relationship based on the key field. Enable checkboxes for the data fields you want to include in the query result set.</p>
+<p>You can also specify a different name for a field: set the alias in the Alias column for the corresponding field (for example, <em>City</em> for the <em>ShipCity</em> field on the image below).</p>
+<p>In the image below columns from the two data sources are added to the query:</p>
+<p><img src="../../../../images/web-dashboard-federated-wizard-join-query.png" alt="Query Builder for Data Federation - Join query"></p>
+<p>You can specify the expression for the field. For this, enable the <strong><em>f</em></strong> button and then click ellipsis button:</p>
+<p><img src="../../../../images/web-dashboard-federated-wizard-join-query-set-expression.png" alt="Query Builder for Data Federation - Set expression in the Join query"></p>
+<p>This invokes the Expression Editor and you can specify a <a href="../../provide-data/calculated-fields.html">calculated field</a>.</p>
+<p>Click <strong>OK</strong> to close the Query Builder. Rename the created query if necessary.</p>
+<p><img src="../../../../images/web-dashboard-federated-wizard-join-query-rename.png" alt="Query Builder for Data Federation - Rename the Join query"></p>
+<p>Click <strong>Finish</strong> to create the federated data source with the Join query and close the Data Source Wizard. Add the newly created data source to the dashboard to see the result:</p>
+<p><img src="../../../../images/web-dashboard-federated-wizard-join-query-result.png" alt="Query Builder for Data Federation - Join query result"></p>
+<h3 id="create-a-union-based-federated-data-source">Create a Union-Based Federated Data Source</h3>
+<p>Double-click the Customers table and the Excel data source. The query includes only fields that have identical names and types in the origin sources. Enable the <strong>Union All</strong> check box to create the <strong>Union All</strong> query and do not remove duplicated rows.</p>
+<p>You can also specify a different name for a field: set the alias in the Alias column for the corresponding field.</p>
+<p>In the image below, two sources are added to the query:</p>
+<p><img src="../../../../images/web-dashboard-federated-wizard-union-query.png" alt="Query Builder for Data Federation - Union query"></p>
+<p>Click <strong>OK</strong> to close the Query Builder. Rename the created query if necessary.</p>
+<p><img src="../../../../images/web-dashboard-federated-wizard-union-query-rename.png" alt="Query Builder for Data Federation - Rename the Union query"></p>
+<p>Click <strong>Finish</strong> to create the federated data source with the Union/UnionAll query and close the Data Source Wizard. Add the newly created data source to the dashboard to see the result:</p>
+<p><img src="../../../../images/web-dashboard-federated-wizard-union-query-result.png" alt="Query Builder for Data Federation - Union query result"></p>
+<h3 id="create-a-transformation-based-data-source">Create a Transformation-Based Data Source</h3>
+<p>In the invoked Query Builder, select the data source or query that contains columns you want to transform. Select the Transform check box next to the column you need to unfold and flatten. You can specify the aliases for the generated columns.</p>
+<p>In the image below the Query Builder transforms the <code>Products</code> column from the JSON data source:</p>
+<p><img src="../../../../images/web-dashboard-federated-wizard-transformation-query.png" alt="Query Builder for Data Federation - Transformation query"></p>
+<p>Click <strong>OK</strong> to close the Query Builder. Rename the created query if necessary.</p>
+<p><img src="../../../../images/web-dashboard-federated-wizard-transformation-query-rename.png" alt="Query Builder for Data Federation - Rename the Transformation query"></p>
+<p>Click <strong>Finish</strong> to create the federated data source with the Transformation query and close the Data Source Wizard. Add the newly created data source to the dashboard to see the result:</p>
+<p><img src="../../../../images/web-dashboard-federated-wizard-transformation-query-result.png" alt="web-dashboard-federated-wizard-transformation-query-result"></p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/DevExpress/dotnet-eud/blob/2025.1/eud-for-bi-dashboards/dashboard-for-web/articles/web-dashboard-designer-mode/ui-elements/dialogs-and-wizards/query-builder.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Copyright (c) 1998-2025 Developer Express Inc. All rights reserved.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

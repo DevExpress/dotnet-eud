@@ -1,0 +1,182 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Add Page Numbers and System Information to a Report | DevExpress End-User Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Add Page Numbers and System Information to a Report | DevExpress End-User Documentation ">
+      
+      
+      <link rel="icon" href="../../../../../../../favicon.ico">
+      <link rel="stylesheet" href="../../../../../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../../../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../../../../../toc.html">
+      <meta name="docfx:tocrel" content="../../../../../toc.html">
+      
+      <meta name="docfx:rel" content="../../../../../../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/DevExpress/dotnet-eud/blob/2025.1/eud-for-devexpress-reports/reporting-for-desktop/articles/report-designer/report-designer-for-wpf/creating-reports/adding-details-about-a-report/add-page-numbers-and-system-information-to-a-report.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../../../../../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+      <!-- Matomo Tag Manager -->
+      <script>
+        var _mtm = window._mtm = window._mtm || [];
+        _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
+      </script>
+      <!-- End Matomo Tag Manager -->
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../../../../../../index.html">
+            <img id="logo" class="svg" src="../../../../../../../logo.svg" alt="DevExpress EUD">
+            DevExpress EUD
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="add-page-numbers-and-system-information-to-a-report">Add Page Numbers and System Information to a Report</h1>
+
+<p>This document describes how to insert <em>page numbers</em> or other system information (e.g., <em>current date and time</em>, <em>user name</em>, etc.) into a report.</p>
+<p>Generally, this information is displayed within the Page Header and Footer or Page Margin <a href="../../report-elements/report-bands.html">bands</a>. To add page numbers or system information to a report, drop the <a href="../../report-elements/report-controls.html">Page Info</a> control from the <a href="../../interface-elements/control-toolbox.html">Control Toolbox</a> onto a band.</p>
+<p><img src="../../../../../images/img123722.png" alt="EUD_WpfReportDesigner_PageInfo_1"></p>
+<p>Then, follow the instructions below for your specific task.</p>
+<ul>
+<li><a href="#pagenumbers">Add Page Numbers</a></li>
+<li><a href="#datetime">Add System Date and Time</a></li>
+<li><a href="#username">Add the User Name</a></li>
+</ul>
+<a name="pagenumbers"></a>
+<h2 id="add-page-numbers">Add Page Numbers</h2>
+<p>To insert page numbers in a report, do the following.</p>
+<ol>
+<li><p>Right-click the <strong>Page Info</strong> control, and in the context menu, click the <strong>Edit...</strong> link. Then, in the invoked dialog, specify the <strong>Page Information</strong> property.</p>
+<p><img src="../../../../../images/img123723.png" alt="EUD_WpfReportDesigner_PageInfo_2"></p>
+<p>You can choose one of the following formats for displaying page numbers.</p>
+<ul>
+<li><strong>Number</strong> - displays the current page number only.</li>
+<li><strong>Number of Total</strong> - displays the current page number with total pages.</li>
+<li><strong>Rom Low Number</strong> - the current page number is written in lowercase Roman letters.</li>
+<li><strong>Rom Hi Number</strong> - the current page number is written in uppercase Roman letters.</li>
+<li><strong>Total</strong> - displays the total number of pages.</li>
+</ul>
+</li>
+<li><p>To format the control's text, in the <strong>Edit</strong> dialog, specify the required format (e.g., <strong>Page {0} of {1}</strong>).</p>
+<p><img src="../../../../../images/img123724.png" alt="EUD_WpfReportDesigner_PageInfo_3"></p>
+</li>
+<li><p>You can also specify the <strong>Start Page Number</strong> and <strong>Running Band</strong> properties. For instance, the latter is available when there are <a href="../shaping-data/grouping-data.html">groups</a> in a report, and you are required to apply independent page numbering for them.</p>
+</li>
+</ol>
+<p>The result is shown below.</p>
+<p><img src="../../../../../images/img123725.png" alt="EUD_WpfReportDesigner_PageInfo_4"></p>
+<a name="datetime"></a>
+<h2 id="add-system-date-and-time">Add System Date and Time</h2>
+<p>To insert the current system date and time into a report, perform the steps below.</p>
+<ol>
+<li><p>Right-click the <strong>Page Info</strong> control and select <strong>Edit...</strong> in the context menu. In the invoked dialog, expand the <strong>Page Information</strong> drop-down and select <strong>Date Time</strong>.</p>
+<p><img src="../../../../../images/img123726.png" alt="EUD_WpfReportDesigner_PageInfo_5"></p>
+</li>
+<li><p>To <a href="../shaping-data/formatting-data.html">format</a> the control's text, you can either type it in the <strong>Format</strong> property, or click its ellipsis button and use the <strong>Format String Editor</strong>.</p>
+<p><img src="../../../../../images/img123727.png" alt="EUD_WpfReportDesigner_PageInfo_6"></p>
+</li>
+</ol>
+<p>The result is shown below.</p>
+<p><img src="../../../../../images/img123728.png" alt="EUD_WpfReportDesigner_PageInfo_7"></p>
+<a name="username"></a>
+<h2 id="add-the-user-name">Add the User Name</h2>
+<p>To display the current user name in a report, do the following.</p>
+<ol>
+<li><p>Right-click the <strong>Page Info</strong> control and select <strong>Edit...</strong> in the context menu. In the invoked dialog, expand the <strong>Page Information</strong> drop-down and select <strong>User Name</strong>.</p>
+<p><img src="../../../../../images/img123729.png" alt="EUD_WpfReportDesigner_PageInfo_8"></p>
+</li>
+<li><p>To format the control's text, in the <strong>Edit</strong> dialog, specify the required format (e.g., <strong>Current User: {0}</strong>).</p>
+<p><img src="../../../../../images/img123730.png" alt="EUD_WpfReportDesigner_PageInfo_9"></p>
+</li>
+</ol>
+<p>The following image demonstrates the result.</p>
+<p><img src="../../../../../images/img123731.png" alt="EUD_WpfReportDesigner_PageInfo_10"></p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/DevExpress/dotnet-eud/blob/2025.1/eud-for-devexpress-reports/reporting-for-desktop/articles/report-designer/report-designer-for-wpf/creating-reports/adding-details-about-a-report/add-page-numbers-and-system-information-to-a-report.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Copyright (c) 1998-2025 Developer Express Inc. All rights reserved.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

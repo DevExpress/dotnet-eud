@@ -1,0 +1,204 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Predefined Ranges | DevExpress End-User Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Predefined Ranges | DevExpress End-User Documentation ">
+      
+      
+      <link rel="icon" href="../../../../../../favicon.ico">
+      <link rel="stylesheet" href="../../../../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../../../../toc.html">
+      <meta name="docfx:tocrel" content="../../../../toc.html">
+      
+      <meta name="docfx:rel" content="../../../../../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/DevExpress/dotnet-eud/blob/2025.1/eud-for-bi-dashboards/dashboard-for-desktop/articles/dashboard-designer/dashboard-item-settings/range-filter/predefined-ranges.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../../../../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+      <!-- Matomo Tag Manager -->
+      <script>
+        var _mtm = window._mtm = window._mtm || [];
+        _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
+      </script>
+      <!-- End Matomo Tag Manager -->
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../../../../../index.html">
+            <img id="logo" class="svg" src="../../../../../../logo.svg" alt="DevExpress EUD">
+            DevExpress EUD
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="predefined-ranges">Predefined Ranges</h1>
+
+<p>The Range Filter dashboard item allows you to add a number of predefined date-time periods that can be used to perform a selection (for instance, <em>year-to-date</em> or <em>quarter-to-date</em>).</p>
+<p><img src="../../../../images/img125408.png" alt="RangeFilter_PredefinedRanges_Viewer"></p>
+<p>To add a period, click the <em><a href="../../ui-elements/data-items-pane.html">Options</a></em> button (the <img src="../../../../images/img123296.png" alt="BoundImageAttributeOptionsButton"> icon) next to the <a href="providing-data.html">Argument</a> placeholder or use the <strong>Edit Periods</strong> button in the ribbon's <strong>Design</strong> tab. This invokes the <strong>Edit Periods</strong> dialog.</p>
+<p><img src="../../../../images/img123455.png" alt="RangeFilter_EditPeriodsDialog"></p>
+<p>To add the selected period, use the <img src="../../../../images/img125409.png" alt="RangeFilter_AddPeriodIcon"> button or double-click this period.</p>
+<p><img src="../../../../images/img123456.png" alt="RangeFilter_EditPeriodsDialog_AddPeriod"></p>
+<p>This period will be added to the right pane of the Edit Periods dialog. The following settings are available for the added period.</p>
+<ul>
+<li><strong>Caption</strong> - Specifies the caption corresponding to the period.</li>
+<li><strong>Period</strong> - Displays the date-time interval corresponding to the period.</li>
+<li><strong>Default</strong> - Allows you to use the selected period as the default selection in the Range Filter dashboard item.</li>
+</ul>
+<p>If necessary, you can customize the selected period by clicking the <strong>Edit</strong> button in the Edit Periods dialog. This invokes the <strong>Period</strong> dialog.</p>
+<p><img src="../../../../images/img123459.png" alt="RangeFilter_PeriodDialog"></p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>Note that the <strong>Edit</strong> dialog above contains the displayed periods (<strong>Year</strong>, <strong>Quarter</strong>, <strong>Month</strong>, <strong>Day</strong>) if the <a href="../../data-shaping/grouping.html">group interval</a> of the Range Filter argument is set to <strong>Day-Month-Year</strong>.</p>
+</div>
+<p>This dialog allows you to add the following periods.</p>
+<ul>
+<li><strong>Year</strong> - A period duration is measured in years.
+<ul>
+<li><strong>Previous Year</strong> - Identifies the entire previous year.</li>
+<li><strong>This Year</strong> - Identifies the entire current year.</li>
+<li><strong>Next Year</strong> - Identifies the entire next year.</li>
+<li><strong>Last Years</strong> - Identifies a specific number of previous years. Use the <strong>Include current</strong> option to specify whether or not the period is ended with the current year.</li>
+<li><strong>Next Years</strong> - Identifies a specific number of next years. Use the <strong>Include current</strong> option to specify whether or not the period is started from the current year.</li>
+<li><strong>Year-to-date</strong> - A period from the beginning of the current year and up to the current day.</li>
+</ul>
+</li>
+<li><strong>Quarter</strong> - Period duration is measured in quarters.
+<ul>
+<li><strong>Previous Quarter</strong> - Identifies the entire previous quarter.</li>
+<li><strong>This Quarter</strong> - Identifies the entire current quarter.</li>
+<li><strong>Next Quarter</strong> - Identifies the entire next quarter.</li>
+<li><strong>Last Quarter</strong> - Identifies a specific number of previous quarters. Use the <strong>Include current</strong> option to specify whether or not the period ends with the current quarter.</li>
+<li><strong>Next Quarter</strong> - Identifies a specific number of following quarters. Use the <strong>Include current</strong> option to specify whether or not the period starts from the current quarter.</li>
+<li><strong>Quarter-to-date</strong> - A period from the beginning of the current quarter and up to the current day.</li>
+</ul>
+</li>
+<li><strong>Month</strong> - Period duration is measured in months.
+<ul>
+<li><strong>Previous Month</strong> - Identifies the entire previous month.</li>
+<li><strong>This Month</strong> - Identifies the entire current month.</li>
+<li><strong>Next Month</strong> - Identifies the entire next month.</li>
+<li><strong>Last Month</strong> - Identifies a specific number of previous months. Use the <strong>Include current</strong> option to specify whether or not the period ends with the current month.</li>
+<li><strong>Next Month</strong> - Identifies a specific number of the following months. Use the <strong>Include current</strong> option to specify whether or not the period starts with the current month.</li>
+<li><strong>Month-to-date</strong> - A period from the beginning of the current month and up to the current day.</li>
+</ul>
+</li>
+<li><strong>Day</strong> - Period duration is measured in days.
+<ul>
+<li><strong>Previous Day</strong> - Identifies the entire previous day.</li>
+<li><strong>This Day</strong> - Identifies the entire current day.</li>
+<li><strong>Next Day</strong> - Identifies the entire next day.</li>
+<li><strong>Last Day</strong> - Identifies a specific number of previous days. Use the <strong>Include current</strong> option to specify whether or not the period ends with the current day.</li>
+<li><strong>Next Day</strong> - Identifies a specific number of the following days. Use the <strong>Include current</strong> option to specify whether or not the period starts with the current day.</li>
+</ul>
+</li>
+<li><strong>Custom</strong> - A custom period.
+<ul>
+<li><p>Allows you to specify a period with the custom boundaries (<strong>Start point</strong> and <strong>End point</strong>).</p>
+<p><img src="../../../../images/img123464.png" alt="RangeFilter_PeriodDialog_Custom"></p>
+<p>You can specify the following settings for the start/end boundaries.</p>
+<ul>
+<li><p><strong>None</strong> - The selection will begin from the start/end of the visible range.</p>
+</li>
+<li><p><strong>Fixed</strong> - Allows you to select a specific date value using the calendar.</p>
+</li>
+<li><p><strong>Flow</strong> - Allows you to select a relative date value. The <strong>Interval</strong> option specifies the interval between the current date and the required date. The <strong>Offset</strong> option allows you to set the number of such intervals.</p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>Note that the <strong>Offset</strong> option can accept negative and positive values. Negative values correspond to dates before the current date, while positive values correspond to future dates.</p>
+</div>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/DevExpress/dotnet-eud/blob/2025.1/eud-for-bi-dashboards/dashboard-for-desktop/articles/dashboard-designer/dashboard-item-settings/range-filter/predefined-ranges.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Copyright (c) 1998-2025 Developer Express Inc. All rights reserved.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

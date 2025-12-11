@@ -1,0 +1,158 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Axes | DevExpress End-User Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Axes | DevExpress End-User Documentation ">
+      
+      
+      <link rel="icon" href="../../../../../../favicon.ico">
+      <link rel="stylesheet" href="../../../../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../../../../toc.html">
+      <meta name="docfx:tocrel" content="../../../../toc.html">
+      
+      <meta name="docfx:rel" content="../../../../../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/DevExpress/dotnet-eud/blob/2025.1/eud-for-bi-dashboards/dashboard-for-web/articles/web-dashboard-designer-mode/dashboard-item-settings/chart/axes.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../../../../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+      <!-- Matomo Tag Manager -->
+      <script>
+        var _mtm = window._mtm = window._mtm || [];
+        _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
+      </script>
+      <!-- End Matomo Tag Manager -->
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../../../../../index.html">
+            <img id="logo" class="svg" src="../../../../../../logo.svg" alt="DevExpress EUD">
+            DevExpress EUD
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="axes">Axes</h1>
+
+<p>The Chart dashboard item displays two axes by default: the X-axis and the Y-axis. The X-axis is the axis of arguments and the Y-axis is the numerical axis of values.</p>
+<p><img src="../../../../images/img125609.png" alt="wdd-chart-axis"></p>
+<h2 id="axis-x">Axis X</h2>
+<p>To access X-axis settings, go to the Chart's <a href="../../ui-elements/dashboard-item-menu.html">Options</a> menu and open the <strong>Axis X</strong> section.</p>
+<p>You can configure the following settings.</p>
+<p><img src="../../../../images/img125610.png" alt="wdd-chart-axis-x-options"></p>
+<ul>
+<li>The <strong>Reverse</strong> option allows you to reverse an X axis. If the X axis is reversed, its values are ordered from right to left.</li>
+<li>The <strong>Visible</strong> option specifies whether the axis is visible.</li>
+<li>The <strong>Title</strong> option specifies the X axis's title. Use the <strong>Title Text</strong> field to set the title.</li>
+<li>The <strong>Enable Zooming</strong> option allows you to enable zooming for the X axis.</li>
+<li>The <strong>Limit Visible Points</strong> option allows you to limit the number of visible points. The <strong>Visible Points Count</strong> field allows you to specify the maximum number of visible points.</li>
+</ul>
+<h3 id="continuous-and-discrete-x-axes">Continuous and Discrete X-Axes</h3>
+<p>If the dimension in the Arguments section contains numeric data, the Chart can create either a continuous X-axis or a discrete X-axis.</p>
+<p>If a continuous axis is used, the distance between argument values is proportional to their values. On a discrete axis, all argument values are an equal distance from each other.</p>
+<p><img src="../../../../images/img125612.png" alt="wdd-chart-discrete-axis"></p>
+<p>To specify the X-axis type in the Web Dashboard, go to the data item <a href="../../ui-elements/data-item-menu.html">Data Shaping</a> menu for the argument dimension and select the axis type. The image below illustrates how to change this setting for the <em>Product Base Margin</em> data item.</p>
+<p><img src="../../../../images/img125613.png" alt="wdd-chart-discrete-axis-option"></p>
+<h2 id="axis-y">Axis Y</h2>
+<p>To access Y-axis settings, go to the Chart's <a href="../../ui-elements/dashboard-item-menu.html">Options</a> menu and open the <strong>Axis Y</strong> section for a corresponding pane.</p>
+<p><img src="../../../../images/img125611.png" alt="wdd-chart-axis-y-options"></p>
+<ul>
+<li>The <strong>Always Show Zero Level</strong> option allows you to indicate whether or not an axis zero value should be displayed.</li>
+<li>The <strong>Reverse</strong> option allows you to reverse an Y-axis. If the Y-axis is reversed, its values are ordered from right to left.</li>
+<li>The <strong>Grid Lines</strong> options allows you to control the visibility of the reference lines used to improve the readability of a chart's visual data.</li>
+<li>The <strong>Visible</strong> option specifies whether the axis is visible.</li>
+<li>The <strong>Title</strong> option specifies the Y-axis's title. Use the <strong>Title Text</strong> field to set the title.</li>
+<li>The <strong>Logarithmic Scale</strong> option allows you to use a log scale to display Y-axis. Use the <strong>Logarithmic Scale Base</strong> field to set a log scale base.</li>
+</ul>
+<h3 id="secondary-axis">Secondary Axis</h3>
+<p>The secondary Y-axis is useful when it is necessary to visually combine several charts into one. Secondary axes provide the ability to plot series with different ranges on the same chart.</p>
+<p><img src="../../../../images/img125608.png" alt="wdd-chart-secondary-y-axis"></p>
+<p>To plot the required series using the secondary axis, go to the data item <a href="../../ui-elements/data-item-menu.html">Options</a> menu for the value measure and turn the <strong>Plot on Secondary Axis</strong> option on.</p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/DevExpress/dotnet-eud/blob/2025.1/eud-for-bi-dashboards/dashboard-for-web/articles/web-dashboard-designer-mode/dashboard-item-settings/chart/axes.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Copyright (c) 1998-2025 Developer Express Inc. All rights reserved.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

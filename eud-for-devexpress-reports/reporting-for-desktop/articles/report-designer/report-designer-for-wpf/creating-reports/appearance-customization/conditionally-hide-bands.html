@@ -1,0 +1,149 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Conditionally Hide Bands | DevExpress End-User Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Conditionally Hide Bands | DevExpress End-User Documentation ">
+      
+      
+      <link rel="icon" href="../../../../../../../favicon.ico">
+      <link rel="stylesheet" href="../../../../../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../../../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../../../../../toc.html">
+      <meta name="docfx:tocrel" content="../../../../../toc.html">
+      
+      <meta name="docfx:rel" content="../../../../../../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/DevExpress/dotnet-eud/blob/2025.1/eud-for-devexpress-reports/reporting-for-desktop/articles/report-designer/report-designer-for-wpf/creating-reports/appearance-customization/conditionally-hide-bands.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../../../../../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+      <!-- Matomo Tag Manager -->
+      <script>
+        var _mtm = window._mtm = window._mtm || [];
+        _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
+      </script>
+      <!-- End Matomo Tag Manager -->
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../../../../../../index.html">
+            <img id="logo" class="svg" src="../../../../../../../logo.svg" alt="DevExpress EUD">
+            DevExpress EUD
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="conditionally-hide-bands">Conditionally Hide Bands</h1>
+
+<p>This tutorial describes how to hide bands if a certain logical condition is met. Note that no <a href="../scripting.html">scripts</a> are required to accomplish this task.</p>
+<p>To demonstrate this feature, use a report with grouping similar to the one created in the following tutorial: <a href="../shaping-data/grouping-data.html">Grouping Data</a>.</p>
+<p>To conditionally hide bands in a report, do the following.</p>
+<ol>
+<li><p>Right-click the <a href="../../report-elements/report-bands.html">Group Header</a> and select <strong>Edit Formatting Rules...</strong> in its context menu.</p>
+<p><img src="../../../../../images/img123661.png" alt="EUD_WpfReportDesigner_HideBands_1"></p>
+</li>
+<li><p>In the invoked <strong>Formatting Rules Editor</strong>, click the <strong>Edit Rule Sheet...</strong> button.</p>
+<p><img src="../../../../../images/img123662.png" alt="EUD_WpfReportDesigner_HideBands_2"></p>
+</li>
+<li><p>Then, in the invoked <strong>Formatting Rule Sheet Editor</strong>, click the plus button to create a new rule. Set its <strong>Visible</strong> property to <strong>No</strong>, and click the ellipsis button for the <strong>Condition</strong> property.</p>
+<p><img src="../../../../../images/img123663.png" alt="EUD_WpfReportDesigner_HideBands_3"></p>
+</li>
+<li><p>Construct the required logical expression (e.g., <strong>[CategoryID] &lt; 2</strong>), and click <strong>OK</strong>.</p>
+<p><img src="../../../../../images/img123664.png" alt="EUD_WpfReportDesigner_HideBands_4"></p>
+<p>To quit the <strong>Formatting Rule Sheet Editor</strong> and save changes, click <strong>OK</strong>.</p>
+</li>
+<li><p>Return to the <strong>Formatting Rules Editor</strong> and move the created rule to the dialog's right section using the right arrow button to make it active.</p>
+<p><img src="../../../../../images/img123665.png" alt="EUD_WpfReportDesigner_HideBands_5"></p>
+</li>
+<li><p>Apply the same formatting rule to the report's Detail band.</p>
+</li>
+</ol>
+<p>Switch to the <a href="../../document-preview.html">Print Preview</a> and view the result. In this example, you can see that the first category is not shown. So, the conditional formatting was applied properly.</p>
+<p><img src="../../../../../images/img123666.png" alt="EUD_WpfReportDesigner_HideBands_Result"></p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/DevExpress/dotnet-eud/blob/2025.1/eud-for-devexpress-reports/reporting-for-desktop/articles/report-designer/report-designer-for-wpf/creating-reports/appearance-customization/conditionally-hide-bands.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Copyright (c) 1998-2025 Developer Express Inc. All rights reserved.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

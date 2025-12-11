@@ -1,0 +1,274 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Create a Balance Sheet | DevExpress End-User Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Create a Balance Sheet | DevExpress End-User Documentation ">
+      
+      
+      <link rel="icon" href="../../../../../../favicon.ico">
+      <link rel="stylesheet" href="../../../../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../../../../toc.html">
+      <meta name="docfx:tocrel" content="../../../../toc.html">
+      
+      <meta name="docfx:rel" content="../../../../../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/DevExpress/dotnet-eud/blob/2025.1/eud-for-devexpress-reports/reporting-for-desktop/articles/report-designer/report-designer-for-winforms/create-reports/balance-sheets.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../../../../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+      <!-- Matomo Tag Manager -->
+      <script>
+        var _mtm = window._mtm = window._mtm || [];
+        _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
+      </script>
+      <!-- End Matomo Tag Manager -->
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../../../../../index.html">
+            <img id="logo" class="svg" src="../../../../../../logo.svg" alt="DevExpress EUD">
+            DevExpress EUD
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="balance-sheets">Balance Sheets</h1>
+
+<p>This tutorial describes how to use the Cross Tab control to create a <strong>Balance Sheet</strong> report.</p>
+<p><img src="../../../../images/eurd-win-balance-sheet-report.png" alt=""></p>
+<div class="TIP">
+<h5>Tip</h5>
+<p>This tutorial shows how to configure a Cross Tab using the <a href="../report-designer-tools/report-wizard.html">Report Wizard</a>. See the <a href="cross-tab-reports.html">Cross-Tab Reports</a> tutorial for information on how to use the Cross-Tab Report Wizard.</p>
+</div>
+<h2 id="add-a-cross-tab-and-bind-it-to-data">Add a Cross Tab and Bind It to Data</h2>
+<ol>
+<li><p>Invoke the Report Wizard and <a href="../add-new-reports.html">add a blank report</a> to your application.</p>
+</li>
+<li><p>Drop the Cross Tab control from the Toolbox onto the report's <a href="../introduction-to-banded-reports.html">Detail band</a>.</p>
+<p><img src="../../../../images/eurd-win-balance-sheet-drop-cross-tab-from-toolbox.png" alt=""></p>
+</li>
+<li><p>Click the Cross Tab's smart tag, expand the <strong>Data Source</strong> property's drop-down menu and click <strong>Add New Data Source</strong>.</p>
+<p><img src="../../../../images/eurd-win-balance-sheet-cross-tab-add-data-source.png" alt=""></p>
+</li>
+<li><p>Use the invoked <a href="../report-designer-tools/data-source-wizard.html">Data Source Wizard</a> to bind the Cross Tab to a data source.</p>
+</li>
+</ol>
+<p>Click <strong>Finish</strong> to complete the Data Source Wizard and assign the created data source to the Cross Tab.</p>
+<p><img src="../../../../images/eurd-win-balance-sheet-cross-tab-data-source.png" alt=""></p>
+<p>The data source structure becomes available in the <a href="../report-designer-tools/ui-panels/field-list.html">Field List</a>.</p>
+<p><img src="../../../../images/eurd-win-balance-sheet-field-list.png" alt=""></p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>Ensure that the report's <strong>Data Source</strong> property is not set if you place a Cross Tab into the <a href="../introduction-to-banded-reports.html">Detail band</a>. Otherwise, the Cross Tab data is printed as many times as there are rows in the report data source.</p>
+</div>
+<h2 id="define-the-cross-tab-layout">Define the Cross Tab Layout</h2>
+<ol>
+<li><p>Drop data fields from the Field List onto the Cross Tab's areas to define the Cross Tab's rows, columns, and data.</p>
+<p>A row is added to the bottom of the Cross Tab to display grand total values calculated against the added row or column header.</p>
+<p><img src="../../../../images/eurd-win-balance-sheet-drop-type.gif" alt=""></p>
+<p>Drop nested row headers next to the parent header cells to create a hierarchy.</p>
+<p><img src="../../../../images/eurd-win-balance-sheet-drop-subtype.gif" alt=""></p>
+</li>
+</ol>
+<p>Switch to Print Preview to see the Cross Tab populated with data.</p>
+<p><img src="../../../../images/eurd-win-balance-sheet-layout-preview.png" alt=""></p>
+<h2 id="specify-group-settings">Specify Group Settings</h2>
+<p>As you can see in the image above, the Cross Tab displays data for individual days.</p>
+<p>Select the column header cell and click its smart tag. Set the <strong>Group Interval</strong> property to group data.</p>
+<p><img src="../../../../images/eurd-win-balance-sheet-date-group-interval.png" alt=""></p>
+<p><img src="../../../../images/eurd-win-balance-sheet-date-group-interval-preview.png" alt=""></p>
+<h2 id="specify-layout-options">Specify Layout Options</h2>
+<ol>
+<li><p>The Cross Tab control stacks row headers horizontally. You can change the view so that parent values span the entire row header panel width.</p>
+<p>Select the Cross Tab and switch to the <a href="../report-designer-tools/ui-panels/property-grid-tabbed-view.html">Property Grid</a>. Expand the <strong>Layout Options</strong> group and enable the <strong>Hierarchical Row Layout</strong> property.</p>
+<p><img src="../../../../images/eurd-win-balance-sheet-hierarchical-row-layout.png" alt=""></p>
+</li>
+<li><p>Set the <strong>Corner Header Display Mode</strong> property to <strong>None</strong> to merge cells in the top-left corner into a single empty cell.</p>
+<p><img src="../../../../images/eurd-win-balance-sheet-corner-header-display-mode.png" alt=""></p>
+</li>
+</ol>
+<p>Switch to Print Preview to see the result.</p>
+<p><img src="../../../../images/eurd-win-balance-sheet-layout-options-preview.png" alt=""></p>
+<h2 id="hide-grand-totals">Hide Grand Totals</h2>
+<ol>
+<li><p>Select the bottom right cell and click its smart tag. Disable the <strong>Row Visible</strong> and <strong>Column Visible</strong> properties to hide the row and column that display grand total values. Invisible cells are filled with a hatch brush.</p>
+<p><img src="../../../../images/eurd-win-balance-sheet-row-column-visible.png" alt=""></p>
+</li>
+<li><p>Resize the Cross Tab. You can also resize individual rows and columns.</p>
+<p><img src="../../../../images/eurd-win-balance-sheet-adjust-control-size.png" alt=""></p>
+</li>
+</ol>
+<p>The Cross Tab control no longer displays grand total values.</p>
+<p><img src="../../../../images/eurd-win-balance-sheet-hidden-grand-totals-preview.png" alt=""></p>
+<h2 id="sort-and-format-data">Sort and Format Data</h2>
+<ol>
+<li><p>Select the row sub-header cell and change its sort order. The Cross Tab sorts row and column field values in ascending order. Set the <strong>Sort Order</strong> property to <strong>None</strong> to restore the original data source order.</p>
+<p><img src="../../../../images/eurd-win-balance-sheet-sort-order.png" alt=""></p>
+</li>
+<li><p>Format the data. Hold down SHIFT or CTRL and select cells. Specify the cells' <strong>Text Format String</strong> property.</p>
+<p><img src="../../../../images/eurd-win-balance-sheet-text-format-string.png" alt=""></p>
+</li>
+</ol>
+<p><img src="../../../../images/eurd-win-balance-sheet-sort-format-options-preview.png" alt=""></p>
+<h2 id="customize-appearance">Customize Appearance</h2>
+<ol>
+<li><p>Select the Cross Tab, switch to the <strong>Properties</strong> window and expand the <strong>Styles</strong> property. Use the <strong>General Style</strong> property to specify common appearance settings that apply to all Cross Tab cells. Set the following properties:</p>
+<ul>
+<li><strong>Background Color</strong> to <strong>White</strong></li>
+<li><strong>Border Color</strong> to <strong>SlateGray</strong></li>
+<li><strong>Font</strong> to <strong>Tahoma 8.25</strong></li>
+<li><strong>Foreground Color</strong> to <strong>SlateGray</strong></li>
+</ul>
+<p><img src="../../../../images/eurd-win-balance-sheet-general-style.png" alt=""></p>
+</li>
+<li><p>Expand the <strong>Header Area Style</strong> property and do the following:</p>
+<ul>
+<li>reset the <strong>Background Color</strong> property value to inherit the color from the general style;</li>
+<li>set the <strong>Foreground Color</strong> property to <strong>MidnightBlue</strong> to override the general foreground color;</li>
+<li>set the <strong>Font</strong> property to <strong>Tahoma 8.25</strong> to override the general font.</li>
+</ul>
+<p><img src="../../../../images/eurd-win-balance-sheet-header-area-style.png" alt=""></p>
+</li>
+<li><p>Expand the <strong>Total Area Style</strong> property and set the following properties to override general settings:</p>
+<ul>
+<li><strong>Font</strong> to <strong>Tahoma 8.25 Bold</strong></li>
+<li><strong>Foreground Color</strong>  to <strong>MidnightBlue</strong></li>
+</ul>
+<p><img src="../../../../images/eurd-win-balance-sheet-total-area-style.png" alt=""></p>
+</li>
+<li><p>Select the row sub-header cell and set the following appearance properties:</p>
+<ul>
+<li><strong>Foreground Color</strong>  to <strong>SlateGray</strong></li>
+<li><strong>Font</strong> to <strong>Tahoma 8.25</strong></li>
+</ul>
+<p>These values apply to the selected cell only and override values specified for the entire header area.</p>
+<p><img src="../../../../images/eurd-win-balance-sheet-cell-appearance-settings.png" alt=""></p>
+</li>
+<li><p>Select the cells in the top row and in the rows with total values. Set the <strong>Borders</strong> property to <strong>Bottom</strong> and <strong>Border Width</strong> property to <strong>2</strong>.</p>
+<p><img src="../../../../images/eurd-win-balance-sheet-add-borders.png" alt=""></p>
+</li>
+<li><p>Select the cells you did not customize in the previous step and set the <strong>Borders</strong> property to <strong>None</strong>.</p>
+<p><img src="../../../../images/eurd-win-balance-sheet-remove-borders.png" alt=""></p>
+</li>
+<li><p>Select the cells in the top row and set the <strong>Background Color</strong> property to <strong>LightSteelBlue</strong>.</p>
+<p><img src="../../../../images/eurd-win-balance-sheet-back-color-for-top-row.png" alt=""></p>
+</li>
+<li><p>Select the row sub-header cell and the next cell in the data area. Set their <strong>Background Color</strong> property to <strong>AliceBlue</strong>.</p>
+<p><img src="../../../../images/eurd-win-balance-sheet-back-color-for-rows.png" alt=""></p>
+</li>
+</ol>
+<p><img src="../../../../images/eurd-win-balance-sheet-appearance-preview.png" alt=""></p>
+<h2 id="apply-odd-and-even-row-styles">Apply Odd and Even Row Styles</h2>
+<p>Use the <strong>GroupRowIndex</strong> variable in <a href="../use-expressions.html">expressions</a> to identify odd and even rows.</p>
+<p>Select the row sub-header cell and the next cell in the data area. Go to the <strong>Properties</strong> window and open the <strong>Expressions</strong> tab. Click the <strong>Background Color</strong> property's marker, select <strong>Background Color Expression</strong> and specify the following expression:</p>
+<p><em>iif([Arguments.GroupRowIndex] % 2 == 1, Rgb(235, 241, 252), ?)</em></p>
+<p><img src="../../../../images/eurd-win-balance-sheet-odd-even-expression.png" alt=""></p>
+<p><img src="../../../../images/eurd-win-balance-sheet-odd-even-preview.png" alt=""></p>
+<p>As you can see, the row backgrounds do not start from the page's left border, but have indents. These indents correspond to auxiliary cells in a tree.</p>
+<p>Select these auxiliary cells and disable the <strong>Column Visible</strong> property.</p>
+<p><img src="../../../../images/eurd-win-balance-sheet-hide-tree-view-cells.png" alt=""></p>
+<p>To add indents to row field values and imitate a tree-like view, set the <strong>Padding</strong> property for the Cross Tab's cells.</p>
+<p><img src="../../../../images/eurd-win-balance-sheet-tree-paddings.png" alt=""></p>
+<p><img src="../../../../images/eurd-win-balance-sheet-final-appearance-preview.png" alt=""></p>
+<h2 id="add-a-report-title">Add a Report Title</h2>
+<ol>
+<li><p>Right-click the report and select <strong>Insert Band / ReportHeader</strong> from the context menu.</p>
+<p><img src="../../../../images/eurd-win-balance-sheet-add-report-header.png" alt=""></p>
+</li>
+<li><p>Drop a <a href="../use-report-elements/use-basic-report-controls/label.html">Label</a> from the Toolbox onto the created Report Header.</p>
+<p><img src="../../../../images/eurd-win-balance-sheet-drop-label-onto-report-header.png" alt=""></p>
+</li>
+<li><p>Double-click the label and type the report title. Specify appearance settings.</p>
+<p><img src="../../../../images/eurd-win-balance-sheet-title.png" alt=""></p>
+</li>
+</ol>
+<p>Switch to Print Preview to see the final result.</p>
+<p><img src="../../../../images/eurd-win-balance-sheet-report.png" alt=""></p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/DevExpress/dotnet-eud/blob/2025.1/eud-for-devexpress-reports/reporting-for-desktop/articles/report-designer/report-designer-for-winforms/create-reports/balance-sheets.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Copyright (c) 1998-2025 Developer Express Inc. All rights reserved.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

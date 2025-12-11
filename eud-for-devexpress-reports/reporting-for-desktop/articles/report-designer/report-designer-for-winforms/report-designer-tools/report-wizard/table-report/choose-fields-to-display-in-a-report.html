@@ -1,0 +1,137 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Choose Fields to Display in a Report | DevExpress End-User Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Choose Fields to Display in a Report | DevExpress End-User Documentation ">
+      
+      
+      <link rel="icon" href="../../../../../../../../favicon.ico">
+      <link rel="stylesheet" href="../../../../../../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../../../../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../../../../../../toc.html">
+      <meta name="docfx:tocrel" content="../../../../../../toc.html">
+      
+      <meta name="docfx:rel" content="../../../../../../../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/DevExpress/dotnet-eud/blob/2025.1/eud-for-devexpress-reports/reporting-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-tools/report-wizard/table-report/choose-fields-to-display-in-a-report.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../../../../../../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+      <!-- Matomo Tag Manager -->
+      <script>
+        var _mtm = window._mtm = window._mtm || [];
+        _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
+      </script>
+      <!-- End Matomo Tag Manager -->
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../../../../../../../index.html">
+            <img id="logo" class="svg" src="../../../../../../../../logo.svg" alt="DevExpress EUD">
+            DevExpress EUD
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="choose-fields-to-display-in-a-report">Choose Fields to Display in a Report</h1>
+
+<p>This wizard page allows you to select data members for a report and its detail reports as well as choose data fields to display in these reports.</p>
+<p><img src="../../../../../../images/report-wizard-master-detail-select-fields128032.png" alt="report-wizard-master-detail-select-fields"></p>
+<p>The list on the left-hand side displays queries and <a href="../../../create-reports/master-detail-reports-with-detail-report-bands.html">master-detail relationships</a> specified on the previous wizard page. Select required check boxes to create relevant reports and assign their <strong>DataMember</strong> property.</p>
+<p>In the list on the right-hand side, choose data fields from the selected data members to include into corresponding reports.</p>
+<p>After completing the wizard, the report is constructed according to the following:</p>
+<ul>
+<li>If you select one query, it assigns to the report's <strong>DataMember</strong> property. The selected fields with corresponding captions are automatically added to the report's <a href="../../../introduction-to-banded-reports.html">Detail Band</a>.</li>
+<li>If you select two or more queries, this creates the <a href="../../../introduction-to-banded-reports.html">Detail Report Band</a> for each query at the same hierarchical level. The <strong>DataMember</strong> properties of these detail reports are assigned to the corresponding queries.</li>
+<li>For each selected master-detail relationship, the <a href="../../../introduction-to-banded-reports.html">Detail Report Band</a> with the <strong>DataMember</strong> property set to this relationship is created under the corresponding master report.</li>
+</ul>
+<p>You can stop the wizard at this step by clicking <strong>Finish</strong>. The created report looks similar to the image below.</p>
+<p><img src="../../../../../../images/eurd-win-report-wizard-master-detail-select-fields-result.png" alt="report-wizard-master-detail-select-fields-result"></p>
+<p>If you want to customize the report further, click <strong>Next</strong> to go to the <a href="add-grouping-levels.html">Add Grouping Levels</a> page.</p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/DevExpress/dotnet-eud/blob/2025.1/eud-for-devexpress-reports/reporting-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-tools/report-wizard/table-report/choose-fields-to-display-in-a-report.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Copyright (c) 1998-2025 Developer Express Inc. All rights reserved.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

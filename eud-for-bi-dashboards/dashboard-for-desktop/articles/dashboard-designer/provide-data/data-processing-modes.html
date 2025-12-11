@@ -1,0 +1,174 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Data Processing Modes | DevExpress End-User Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Data Processing Modes | DevExpress End-User Documentation ">
+      
+      
+      <link rel="icon" href="../../../../../favicon.ico">
+      <link rel="stylesheet" href="../../../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../../../toc.html">
+      <meta name="docfx:tocrel" content="../../../toc.html">
+      
+      <meta name="docfx:rel" content="../../../../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/DevExpress/dotnet-eud/blob/2025.1/eud-for-bi-dashboards/dashboard-for-desktop/articles/dashboard-designer/provide-data/data-processing-modes.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../../../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+      <!-- Matomo Tag Manager -->
+      <script>
+        var _mtm = window._mtm = window._mtm || [];
+        _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
+      </script>
+      <!-- End Matomo Tag Manager -->
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../../../../index.html">
+            <img id="logo" class="svg" src="../../../../../logo.svg" alt="DevExpress EUD">
+            DevExpress EUD
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="data-processing-modes">Data Processing Modes</h1>
+
+<p>DevExpress Dashboard supports two data processing modes that are used to perform data-related operations (such as grouping, filtering, etc.).</p>
+<ul>
+<li>In <strong>server mode</strong>, data-related operations are performed on the database server side. For instance, when you apply <a href="../data-shaping/filtering.html">filtering</a> to a dashboard item, the Dashboard Designer requests the required data automatically by sending a query containing a corresponding SELECT statement with the specified WHERE clause.</li>
+<li>In <strong>client mode</strong>, data-related operations are performed on the workstation side. In this mode, a compressed snapshot of aggregated data is loaded into a workstation memory. This reduces memory consumption and improves the speed of client-side data shaping operations using several techniques: data compression, various data grouping and multi-threading algorithms, etc.</li>
+</ul>
+<div class="TIP">
+<h5>Tip</h5>
+<p>Note that performance in <strong>server</strong>/<strong>client</strong> modes depends on multiple factors such as database structure, server workload, etc. To decide which mode to use, test both.</p>
+</div>
+<div class="NOTE">
+<h5>Note</h5>
+<p>In <a href="connecting-to-olap-cubes.html">OLAP</a> mode, data processing is performed using the <em>server mode</em> specified for the Analysis Services instance. To learn more, see <a href="https://msdn.microsoft.com/en-us/library/gg471594.aspx">Determine the Server Mode of an Analysis Services Instance</a>.</p>
+</div>
+<h2 id="change-data-processing-mode">Change Data Processing Mode</h2>
+<p>Different data source types allow you to manage the current data processing mode in different ways.</p>
+<ul>
+<li><p>For <a href="connecting-to-sql-databases.html">SQL data sources</a>, you can switch between data processing modes manually. To enable or disable <strong>server mode</strong> for the <a href="../ui-elements/data-source-browser.html">selected</a> data source, use the <strong>Server Mode</strong> button located on the <strong>Data Source</strong> ribbon tab.</p>
+<p><img src="../../../images/img23212.png" alt="ServerModeButton_Ribbon"></p>
+<p><strong>Server mode</strong> is supported for the SQL data sources created using the Data Source wizard and supplied with data using the <a href="../work-with-data/using-the-query-builder.html">Query Builder</a>.</p>
+</li>
+<li><p><a href="binding-to-microsoft-excel-workbooks.html">Excel Data Source</a> supports <strong>client mode</strong> only.</p>
+</li>
+<li><p><a href="binding-to-extract-data-sources.html">Extract Data Source</a> works in <strong>client mode</strong>.</p>
+</li>
+</ul>
+<h2 id="server-mode-limitations">Server Mode Limitations</h2>
+<p>In <strong>server mode</strong>, the Dashboard does not have simultaneous access to bound data in its entirety. This imposes some limitations.</p>
+<ul>
+<li><a href="../work-with-data/stored-procedures.html">Stored procedures</a> are not supported in server mode.</li>
+<li>Stored procedures executed using custom SQL are not supported in server mode.</li>
+<li>Some <a href="../work-with-data/creating-calculated-fields.html">calculated fields</a> cannot be evaluated in server mode.</li>
+<li>The <a href="../data-shaping/summarization.html">Count Distinct</a> summary function is not supported for the following database engines:
+<ul>
+<li>Microsoft Access</li>
+<li>Microsoft SQL Server CE</li>
+</ul>
+</li>
+<li>The <a href="../data-shaping/summarization.html">Median</a> summary function is supported for the Oracle data provider only.</li>
+<li>The <a href="../dashboard-item-settings/images/image-types-overview.html">Bound Image</a> and <a href="../dashboard-item-settings/grid.html">Grid</a> dashboard items cannot display images from the following types of databases:
+<ul>
+<li>Microsoft SQL Server</li>
+<li>MySQL</li>
+<li>PostgreSQL</li>
+</ul>
+</li>
+</ul>
+<h2 id="data-processing-errors">Data Processing Errors</h2>
+<p>The Dashboard Designer provides the capability to display errors that occurred during data processing operations (such as changing measure <a href="../data-shaping/summarization.html">summary types</a>, <a href="../data-analysis/window-calculations.html">calculation</a> errors, etc.). For instance, the <a href="../dashboard-item-settings/grid.html">Grid</a> below shows an error when the summary type of the <em>Extended Price</em> measure is set to <a href="../data-shaping/summarization.html">Median</a> in server mode.</p>
+<p><img src="../../../images/img123959.png" alt="ErrorInCaption_ServerMode"></p>
+<p>To see the error message, hover the mouse pointer over the <img src="../../../images/img123960.png" alt="CaptionErrorIcon"> icon.</p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/DevExpress/dotnet-eud/blob/2025.1/eud-for-bi-dashboards/dashboard-for-desktop/articles/dashboard-designer/provide-data/data-processing-modes.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Copyright (c) 1998-2025 Developer Express Inc. All rights reserved.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

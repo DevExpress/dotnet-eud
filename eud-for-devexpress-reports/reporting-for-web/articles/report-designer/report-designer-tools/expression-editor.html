@@ -1,0 +1,174 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Expression Editor | DevExpress End-User Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Expression Editor | DevExpress End-User Documentation ">
+      
+      
+      <link rel="icon" href="../../../../../favicon.ico">
+      <link rel="stylesheet" href="../../../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../../../toc.html">
+      <meta name="docfx:tocrel" content="../../../toc.html">
+      
+      <meta name="docfx:rel" content="../../../../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/DevExpress/dotnet-eud/blob/2025.1/eud-for-devexpress-reports/reporting-for-web/articles/report-designer/report-designer-tools/expression-editor.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../../../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+      <!-- Matomo Tag Manager -->
+      <script>
+        var _mtm = window._mtm = window._mtm || [];
+        _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
+      </script>
+      <!-- End Matomo Tag Manager -->
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../../../../index.html">
+            <img id="logo" class="svg" src="../../../../../logo.svg" alt="DevExpress EUD">
+            DevExpress EUD
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="expression-editor">Expression Editor</h1>
+
+<p>This document describes how to use the <strong>Expression Editor</strong> to specify expressions in the <a href="../../report-designer.html">Report Designer</a>.</p>
+<p>Invoke the <strong>Expression Editor</strong> from a property's popup menu in the <a href="ui-panels/properties-panel.html">Properties Panel</a>. Click the property's marker and select the <strong><em>PropertyName</em> Expression</strong>.</p>
+<p><img src="../../../images/eurd-web-report-designer-property-popup-menu.png" alt=""></p>
+<p>If a property's editor displays an ellipsis button, you can click this button to invoke the <strong>Expression Editor</strong> and specify an expression that evaluates to the property's value.</p>
+<p><img src="../../../images/eurd-web-report-designer-expressions-tab.png" alt=""></p>
+<p>The <strong>Expression Editor</strong> offers a choice of functions, operators, data source fields, report elements, constants, and variables to create an expression.</p>
+<p><img src="../../../images/eurd-web-expression-editor-construct-expression.png" alt=""></p>
+<p>An expression can span multiple lines.</p>
+<p><img src="../../../images/eurd-web-report-designer-expression-multiple-lines.png" alt=""></p>
+<p>You can add single-line or multi-line comments in the following format: <code>/* comment text */</code>.</p>
+<p><img src="../../../images/eurd-web-expression-editor-comments.png" alt=""></p>
+<p>The <strong>Expression Editor</strong> highlights an expression's syntax and supports intelligent code completion (it suggests functions and available data elements as you type).</p>
+<p><img src="../../../images/eurd-web-report-designer-expression-editor-code-completion.png" alt=""></p>
+<p>An error icon appears if an expression contains errors. Hover the mouse pointer over this icon to invoke a pop-up notification that shows the location of the error.</p>
+<p><img src="../../../images/eurd-web-expression-editor-error.png" alt=""></p>
+<p>See the <a href="../use-expressions/expression-language.html">Expression Language</a> topic for the expression syntax description.</p>
+<h2 id="expression-syntax">Expression Syntax</h2>
+<p>Take into account the following syntax conventions when using the Expression Editor:</p>
+<ul>
+<li><p>Reference a data field in the expression by enclosing its name in the square brackets (for example, <strong>[ProductName]</strong>).</p>
+</li>
+<li><p>Insert <a href="../use-report-parameters.html">report parameters</a> and <a href="../bind-to-data/specify-query-parameters.html">query parameters</a> by typing a question mark before their names (for instance, <strong>?parameter1</strong>).</p>
+</li>
+<li><p>Denote string values with apostrophes. Type a double apostrophe to embed an apostrophe into an expression's text (for example, <strong>'It''s sample text'</strong>).</p>
+</li>
+<li><p>Enclose date-time constants with hashtags (<strong>[OrderDate] &gt;= #1/1/2016#</strong>).</p>
+</li>
+<li><p>Use a question mark to specify a null reference (one that does not refer to any object) (<strong>[Region] != ?</strong>).</p>
+</li>
+<li><p>If an expression involves the use of different types, you can convert them to the same type using dedicated functions (for instance, <strong>Max(ToDecimal([Quantity]),[UnitPrice])</strong>).</p>
+</li>
+</ul>
+<h2 id="using-the-expression-editor">Using the Expression Editor</h2>
+<p>When <a href="../use-report-elements/bind-controls-to-data.html">expression bindings</a> are enabled in your reports, the Report Designer contains the <a href="ui-panels/expressions-panel.html">Expressions</a> tab allowing you to assign values to various element properties. Clicking any property's ellipsis button invokes the Expression Editor, in which you can specify custom expressions with the available data fields.</p>
+<p><img src="../../../images/eurd-web-expression-editor-expressions-tab.png" alt=""></p>
+<p>In the <a href="../use-report-elements/bind-controls-to-data.html">data binding</a> mode, you can use the Expression Editor in the following cases:</p>
+<ul>
+<li><p><strong>Edit a Calculated Field's Expression</strong></p>
+<p>Access a <a href="../shape-report-data/use-calculated-fields/calculated-fields-overview.html">calculated field</a>'s settings in the Field List and click <strong>Expression</strong> property's ellipsis button.</p>
+<p><img src="../../../images/eurd-web-expression-editor-calculated-field.png" alt=""></p>
+</li>
+<li><p><strong>Specify a Query Parameter's Value</strong></p>
+<p>In the <a href="data-source-wizard/specify-data-source-settings-database.html">Configure Query Parameters</a> wizard page, set the parameter type to <strong>Expression</strong> and click the <strong>Value</strong> property's the ellipsis button.</p>
+<p><img src="../../../images/eurd-web-sql-ds-wizard-configure-query-parameters-expression-editor.png" alt=""></p>
+</li>
+<li><p><strong>Construct a Formatting Rule's Condition</strong></p>
+<p>Access the <a href="../shape-report-data/specify-conditions-for-report-elements/conditionally-change-a-control-appearance.html">formatting rule</a>'s settings in the <a href="ui-panels/properties-panel.html">Properties</a> panel and click the <strong>Condition</strong> property's ellipsis button.</p>
+<p><img src="../../../images/eurd-web-shaping-formattin-rule-appearance-condition.png" alt=""></p>
+</li>
+</ul>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/DevExpress/dotnet-eud/blob/2025.1/eud-for-devexpress-reports/reporting-for-web/articles/report-designer/report-designer-tools/expression-editor.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Copyright (c) 1998-2025 Developer Express Inc. All rights reserved.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

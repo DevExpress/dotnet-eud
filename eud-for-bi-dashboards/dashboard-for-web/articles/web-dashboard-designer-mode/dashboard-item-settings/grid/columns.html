@@ -1,0 +1,156 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Columns | DevExpress End-User Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Columns | DevExpress End-User Documentation ">
+      
+      
+      <link rel="icon" href="../../../../../../favicon.ico">
+      <link rel="stylesheet" href="../../../../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../../../../toc.html">
+      <meta name="docfx:tocrel" content="../../../../toc.html">
+      
+      <meta name="docfx:rel" content="../../../../../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/DevExpress/dotnet-eud/blob/2025.1/eud-for-bi-dashboards/dashboard-for-web/articles/web-dashboard-designer-mode/dashboard-item-settings/grid/columns.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../../../../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+      <!-- Matomo Tag Manager -->
+      <script>
+        var _mtm = window._mtm = window._mtm || [];
+        _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
+      </script>
+      <!-- End Matomo Tag Manager -->
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../../../../../index.html">
+            <img id="logo" class="svg" src="../../../../../../logo.svg" alt="DevExpress EUD">
+            DevExpress EUD
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="columns">Columns</h1>
+
+<p>The Grid dashboard item supports four types of columns.</p>
+<p><img src="../../../../images/img125253.png" alt="wdd-grid-columns-overview"></p>
+<ul>
+<li><p><strong>Dimension</strong></p>
+<p>A dimension column displays values from the bound data item &quot;as is&quot;.  If the dimension column is bound to a data source containing images, it can display images.</p>
+</li>
+<li><p><strong>Hyperlink</strong></p>
+<p>A dimension column allows you to display hyperlinks in the Grid dashboard item. You can provide hyperlinks as a separate data column, or they can be automatically created at run-time from any column using the specified <strong>URI pattern</strong>.</p>
+<p><img src="../../../../images/grid_hyperlink_column.png" alt="grid_hyperlink_column"></p>
+</li>
+<li><p><strong>Measure</strong></p>
+<p>A measure column displays summaries calculated against data in the bound data item.</p>
+<p>Values in the measure column can be displayed as text or represented by bars.</p>
+<p><img src="../../../../images/img125786.png" alt="wdd-grid-measure-options"></p>
+<p>To select between these modes, open the column menu and go to the <strong>Options</strong> section.</p>
+</li>
+<li><p><strong>Delta</strong></p>
+<p>A delta column calculates summaries against two measures: the <strong>Actual</strong> value and the <strong>Target</strong> value. When you switch the column type to <strong>Delta</strong>, a new <strong>Target</strong> data item container appears.</p>
+<p><img src="../../../../images/img125787.png" alt="wdd-grid-delta-target-data-section"></p>
+<p>The difference between these values is displayed within the column.</p>
+<p>You can configure delta options in the <strong>Delta Options</strong> section of the <a href="../../ui-elements/data-item-menu.html">column menu</a>.</p>
+</li>
+<li><p><strong>Sparkline</strong></p>
+<p>A sparkline column visualizes the variation of summary values over time.</p>
+<p>The sparkline column is bound to the measure providing sparkline values and to the dimension providing a date-time interval. Add the required date-time dimension to the <strong>Sparkline</strong> placeholder to show values depending on time.</p>
+<p><img src="../../../../images/img125788.png" alt="wdd-grid-sparkline-add-date"></p>
+<p>You can configure sparkline options in the data item's <strong>Sparkline Options</strong> section.</p>
+</li>
+</ul>
+<p>When you drop a data item into the Columns section, the type for the new column is determined automatically based on the data type.</p>
+<p>To change the column type, open the <a href="../../ui-elements/data-item-menu.html">column menu</a> and click the corresponding type button.</p>
+<p><img src="../../../../images/img125212.png" alt="wdd-grid-column-type"></p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/DevExpress/dotnet-eud/blob/2025.1/eud-for-bi-dashboards/dashboard-for-web/articles/web-dashboard-designer-mode/dashboard-item-settings/grid/columns.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Copyright (c) 1998-2025 Developer Express Inc. All rights reserved.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

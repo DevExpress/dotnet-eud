@@ -1,0 +1,162 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Mobile Layout | DevExpress End-User Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Mobile Layout | DevExpress End-User Documentation ">
+      
+      
+      <link rel="icon" href="../../../../favicon.ico">
+      <link rel="stylesheet" href="../../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../../toc.html">
+      <meta name="docfx:tocrel" content="../../toc.html">
+      
+      <meta name="docfx:rel" content="../../../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/DevExpress/dotnet-eud/blob/2025.1/eud-for-bi-dashboards/dashboard-for-web/articles/web-dashboard-viewer-mode/mobile-layout.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+      <!-- Matomo Tag Manager -->
+      <script>
+        var _mtm = window._mtm = window._mtm || [];
+        _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
+      </script>
+      <!-- End Matomo Tag Manager -->
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../../../index.html">
+            <img id="logo" class="svg" src="../../../../logo.svg" alt="DevExpress EUD">
+            DevExpress EUD
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="mobile-layout">Mobile Layout</h1>
+
+<p>This topic describes the Web Dashboard's mobile layout that enables you to display dashboards on mobile phones.</p>
+<p><img src="../../images/webdashboard_mobilelayout_main131711.png" alt="WebDashboard_MobileLayout_Main"></p>
+<ul>
+<li><a href="#mobile-layouts-views">Mobile Layout's Views</a></li>
+<li><a href="#dashboard-items-behavior">Dashboard Items Behavior</a></li>
+</ul>
+<div class="NOTE">
+<h5>Note</h5>
+<p>You can <a href="exporting.html">export</a> only dashboard items when the Web Dashboard displays dashboards on mobile phones.</p>
+</div>
+<h2 id="mobile-layouts-views">Mobile Layout's Views</h2>
+<p>Web Dashboard in the mobile layout consists of the following views:</p>
+<h3 id="list-view">List View</h3>
+<p>The <strong>List view</strong> displays all dashboard items used in the current dashboard. The item's interactivity is disabled. Filter elements are not displayed in the List view (see <a href="#dashboard-items-behavior">Dashboard Items Behavior</a>).</p>
+<p><img src="../../images/wdd-mobileLayout-listView.png" alt="List View"></p>
+<h3 id="item-view">Item View</h3>
+<p>The <strong>Item view</strong> displays the selected item. Interactivity is supported. Filter elements are not displayed in the Item view (see <a href="#dashboard-items-behavior">Dashboard Items Behavior</a>).</p>
+<p><img src="../../images/wdd-mobileLayout-itemView.png" alt="Item View"></p>
+<h3 id="filter-panel">Filter Panel</h3>
+<p>The <strong>Filter panel</strong> displays filters that are applied to the entire dashboard / dashboard items. Click the <strong>Filter</strong> button (the <img src="../../images/web-dashboard-item-caption-filters-icon.png" alt=""> icon) in the List view / Item view to see the filters applied to the entire dashboard / dashboard item, respectively. Click the required filter in the Filter panel to open the corresponding filter element and filter data.</p>
+<p><img src="../../images/wdd-mobileLayout-filterPanel.png" alt="Filter Panel"> <img src="../../images/wdd-mobileLayout-filterElement.png" alt="Filter Element"></p>
+<h2 id="dashboard-items-behavior">Dashboard Items Behavior</h2>
+<p>The items listed below are displayed with the following specifics when used in the mobile layout:</p>
+<h3 id="grid"><a href="dashboard-items/grid.html">Grid</a></h3>
+<ul>
+<li>The Grid always adjusts columns automatically to the minimum width required to completely display its content.</li>
+<li>Grid hides columns to adapt the content to the screen or container size. Click the ellipsis button in the Grid's row to display hidden data inside the adaptive detail row.</li>
+<li>The default column fit of the sparkline and bars is two times tighter then in a desktop version.</li>
+<li>Column resizing is disabled.</li>
+</ul>
+<h3 id="cards"><a href="dashboard-items/cards.html">Cards</a></h3>
+<ul>
+<li>Cards in the mobile layout are always arranged automatically.</li>
+</ul>
+<h3 id="filter-elements"><a href="dashboard-items/filter-elements.html">Filter Elements</a></h3>
+<ul>
+<li>Filter elements are displayed only in the Filter panel and are hidden in the List and Item views.</li>
+</ul>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/DevExpress/dotnet-eud/blob/2025.1/eud-for-bi-dashboards/dashboard-for-web/articles/web-dashboard-viewer-mode/mobile-layout.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Copyright (c) 1998-2025 Developer Express Inc. All rights reserved.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

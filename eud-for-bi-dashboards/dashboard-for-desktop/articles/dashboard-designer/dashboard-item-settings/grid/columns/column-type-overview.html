@@ -1,0 +1,181 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Column Type Overview | DevExpress End-User Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Column Type Overview | DevExpress End-User Documentation ">
+      
+      
+      <link rel="icon" href="../../../../../../../favicon.ico">
+      <link rel="stylesheet" href="../../../../../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../../../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../../../../../toc.html">
+      <meta name="docfx:tocrel" content="../../../../../toc.html">
+      
+      <meta name="docfx:rel" content="../../../../../../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/DevExpress/dotnet-eud/blob/2025.1/eud-for-bi-dashboards/dashboard-for-desktop/articles/dashboard-designer/dashboard-item-settings/grid/columns/column-type-overview.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../../../../../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+      <!-- Matomo Tag Manager -->
+      <script>
+        var _mtm = window._mtm = window._mtm || [];
+        _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
+      </script>
+      <!-- End Matomo Tag Manager -->
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../../../../../../index.html">
+            <img id="logo" class="svg" src="../../../../../../../logo.svg" alt="DevExpress EUD">
+            DevExpress EUD
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="column-type-overview">Column Type Overview</h1>
+
+<p>The <strong>Grid</strong> dashboard item supports four types of columns.</p>
+<ul>
+<li><p><a href="dimension-column.html">Dimension Column</a></p>
+<p>Displays values in the bound data item &quot;as is&quot;.</p>
+</li>
+<li><p><a href="hyperlink-column.html">Hyperlink Column</a></p>
+<p>Allows you to display hyperlinks in the Grid dashboard item.</p>
+</li>
+<li><p><a href="measure-column.html">Measure Column</a></p>
+<p>Displays summaries calculated against data in the bound data item.</p>
+</li>
+<li><p><a href="delta-column.html">Delta Column</a></p>
+<p>Bound to two measures, it calculates summaries for both measures, and displays the difference between these summaries.</p>
+</li>
+<li><p><a href="sparkline-column.html">Sparkline Column</a></p>
+<p>Displays values in the bound data item using sparklines.</p>
+</li>
+</ul>
+<p><img src="../../../../../images/img19187.png" alt="Grid_ColumnTypes"></p>
+<p>When you drop a data item into the <strong>Columns</strong> section, the type for the new column is determined automatically, based on the data type.</p>
+<h2 id="column-type-indication">Column Type Indication</h2>
+<p>The type of the column is indicated within the corresponding data item container in the DATA ITEMS area.</p>
+<p><img src="../../../../../images/img19668.png" alt="Grid_Columns_ColumnTypeIndicators"></p>
+<p>Column type indicators are defined as follows:</p>
+<table>
+<thead>
+<tr>
+<th>Icon</th>
+<th>Column Type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="../../../../../images/img19670.png" alt="Grid_ColumnTypeIndicators_DimensionColumn"></td>
+<td><a href="dimension-column.html">Dimension Column</a></td>
+</tr>
+<tr>
+<td><img src="../../../../../images/img21673-hyperlink.png" alt="Grid_ColumnTypeIndicators_SparklineColumn"></td>
+<td><a href="hyperlink-column.html">Hyperlink Column</a></td>
+</tr>
+<tr>
+<td><img src="../../../../../images/img19671.png" alt="Grid_ColumnTypeIndicators_MeasureColumn"></td>
+<td><a href="measure-column.html">Measure Column</a></td>
+</tr>
+<tr>
+<td><img src="../../../../../images/img19669.png" alt="Grid_ColumnTypeIndicators_DeltaColumn"></td>
+<td><a href="delta-column.html">Delta Column</a></td>
+</tr>
+<tr>
+<td><img src="../../../../../images/img21673.png" alt="Grid_ColumnTypeIndicators_SparklineColumn"></td>
+<td><a href="sparkline-column.html">Sparkline Column</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="changing-column-type">Changing Column Type</h2>
+<p>To change the column type, click the column type indicator. In the invoked <strong>Column Options</strong> window, select the required column type in the <strong>Column type</strong> section.</p>
+<p><img src="../../../../../images/img19667.png" alt="Grid_Columns_ChangeColumnType"></p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/DevExpress/dotnet-eud/blob/2025.1/eud-for-bi-dashboards/dashboard-for-desktop/articles/dashboard-designer/dashboard-item-settings/grid/columns/column-type-overview.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Copyright (c) 1998-2025 Developer Express Inc. All rights reserved.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

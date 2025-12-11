@@ -1,0 +1,197 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Specify Query Parameters | DevExpress End-User Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Specify Query Parameters | DevExpress End-User Documentation ">
+      
+      
+      <link rel="icon" href="../../../../../../favicon.ico">
+      <link rel="stylesheet" href="../../../../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../../../../toc.html">
+      <meta name="docfx:tocrel" content="../../../../toc.html">
+      
+      <meta name="docfx:rel" content="../../../../../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/DevExpress/dotnet-eud/blob/2025.1/eud-for-devexpress-reports/reporting-for-desktop/articles/report-designer/report-designer-for-winforms/bind-to-data/specify-query-parameters.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../../../../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+      <!-- Matomo Tag Manager -->
+      <script>
+        var _mtm = window._mtm = window._mtm || [];
+        _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
+      </script>
+      <!-- End Matomo Tag Manager -->
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../../../../../index.html">
+            <img id="logo" class="svg" src="../../../../../../logo.svg" alt="DevExpress EUD">
+            DevExpress EUD
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="specify-query-parameters">Specify Query Parameters</h1>
+
+<p>This document provides general information on query parameters and describes common ways of utilizing parametrized SQL queries to filter data at the data source level.</p>
+<h2 id="overview">Query Parameters Overview</h2>
+<p>A query parameter holds an external value that is inserted into an SQL statement before query execution. This value can be either static or dynamically generated by an associated expression.</p>
+<p>The query parameter value is inserted into the resulting SQL query string in the &quot;@QueryParameterName&quot; placeholder's position.</p>
+<p>Query parameters are used in the following scenarios:</p>
+<ul>
+<li><p>When filtering report data at the data source level using the <a href="../report-designer-tools/query-builder.html">Query Builder</a>.</p>
+<p>The Query Builder helps you construct SQL queries when creating a new data-bound report or <a href="bind-a-report-to-a-database.html">binding an existing report to an SQL data source</a>,</p>
+<p><img src="../../../../images/eurd-win-query-parameters-create-query.png" alt=""></p>
+<p>... or when adding queries to an existing SQL data source or editing existing queries.</p>
+<p><img src="../../../../images/eurd-win-query-parameters-manage-queries-menu-item.png" alt=""></p>
+<p>You can filter the constructed queries using query parameters. Press the <strong>Edit Parameters...</strong> button to invoke the <strong>Query Parameters</strong> dialog.</p>
+<p><img src="../../../../images/eurd-win-query-parameters-add-in-query-builder.png" alt=""></p>
+<p>Press the <strong>Filter...</strong> button to invoke the Filter Editor and filter data using the created query parameters.</p>
+<p><img src="../../../../images/eurd-win-query-parameters-in-filter-editor.png" alt=""></p>
+<p>The criteria based on the specified query parameters are added as an SQL statement's WHERE part.</p>
+</li>
+<li><p>When <a href="bind-a-report-to-a-stored-procedure.html">binding a report to a stored procedure</a> provided by an SQL data source.</p>
+<p>The Report Wizard, as well as the Data Source Wizard, include the <strong>Create a query or select a stored procedure</strong> page. If you select a stored procedure, the wizard creates a query parameter for each procedure parameter and allows you to configure the query parameters in the next <strong>Configure query parameters and preview the result</strong> page.</p>
+<p><img src="../../../../images/eurd-win-query-parameters-for-stored-procedure.png" alt=""></p>
+</li>
+</ul>
+<p>You can access query parameters using the <strong>Parameters</strong> property of the query the report's <strong>SqlDataSource</strong> component exposes. These parameters include the ones you created within the Query Builder or that were generated for the data source's stored procedure. You can also access the query’s filter string using the <strong>Filter String</strong> property. This filter string includes the filter that you specified in the Query Builder.</p>
+<p><img src="../../../../images/eurd-win-query-parameters-query-properties.png" alt=""></p>
+<p>You can add new query parameters in the Query Parameters dialog and modify the filter within the Filter Editor.</p>
+<h2 id="configurequeryparameters">Configure Query Parameters</h2>
+<p>The following properties are available for each query parameter:</p>
+<ul>
+<li><strong>Name</strong> - specifies the parameter's name.</li>
+<li><strong>Type</strong> - specifies the parameter value's data type.</li>
+<li><strong>Expression</strong> - determines whether the actual parameter value is static or generated dynamically.</li>
+<li><strong>Value</strong> - determines the query parameter's actual value. If the <strong>Expression</strong> option is enabled, the actual parameter value is produced dynamically by calculating an associated expression. This is useful when you map the query parameter value to the <a href="../use-report-parameters.html">report parameter</a> value. Refer to the next document section for more information.</li>
+</ul>
+<h2 id="providevalue">Provide the Query Parameter Value</h2>
+<p>Below, you can see how a value is specified for a query parameter within the Data Source Wizard's page. You can also specify query parameter values in the Report Wizard or the Query Parameters dialog in the same way.</p>
+<ul>
+<li><p><strong>Specifying a static value</strong></p>
+<p>Choose a query parameter's value type and set a static value to the <strong>Value</strong> property according to the selected type.</p>
+<p><img src="../../../../images/eurd-win-query-parameters-static-value.png" alt=""></p>
+</li>
+<li><p><strong>Providing a dynamic value</strong></p>
+<p>Activate the <strong>Expression</strong> checkbox for a parameter.</p>
+<p>The following three options are used to dynamically calculate the parameter's actual value:</p>
+<ul>
+<li><p>Create a complex expression by expanding the <strong>Value</strong> property's drop-down list and selecting <strong>Expression Editor</strong>.</p>
+<p><img src="../../../../images/eurd-win-query-parameters-dynamic-expression.png" alt=""></p>
+<p>Construct an expression in the invoked <strong>Expression Editor</strong>.</p>
+<p><img src="../../../../images/eurd-win-query-parameters-expression-editor.png" alt=""></p>
+</li>
+<li><p>Map a new report parameter to a query parameter by expanding the <strong>Value</strong> property's drop-down list and selecting <strong>New Report Parameter</strong>.</p>
+<p><img src="../../../../images/eurd-win-query-parameters-new-report-parameter.png" alt=""></p>
+<p>Specify report parameter settings in the invoked <strong>Report Parameter</strong> dialog. Remember to specify the report parameter type according to the type of the corresponding query parameter. Click <strong>OK</strong> to exit the dialog.</p>
+<p><img src="../../../../images/eurd-win-query-parameters-report-parameter-settings.png" alt=""></p>
+</li>
+<li><p>Map a report parameter that already exists in a report to a query parameter by expanding the <strong>Value</strong> property's drop-down list and selecting the parameter you want to use. An appropriate expression string is generated automatically.</p>
+<p><img src="../../../../images/eurd-win-query-parameters-existing-report-parameter.png" alt=""></p>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="PassMultiValueParameterValueToQuery">Pass a Multi-Value Parameter Value to a Query</h2>
+<p>You can map <a href="../use-report-parameters/multi-value-report-parameters.html">multi-value parameters</a> to query parameters. For instance, the following query selects the orders whose IDs can be found within the values the <em>@OrderID</em> query parameter provides.</p>
+<p><img src="../../../../images/eurd-win-query-parameters-map-to-multi-value-parameter.png" alt=""></p>
+<h2 id="multivalueparameterinstoredprocedure">Pass a Multi-Value Report Parameter Value to a Stored Procedure</h2>
+<p>You cannot pass a <a href="../use-report-parameters/multi-value-report-parameters.html">multi-value parameter</a> value to a stored procedure directly. Use one of the following expression functions:</p>
+<ul>
+<li><p>Use the <a href="../use-expressions/functions-in-expressions.html">Join() expression function</a> to convert the array of parameter values to a string if you use MS SQL Server, MySQL or Oracle database systems.</p>
+<p><img src="../../../../images/eurd-win-query-parameters-join-expression-function.png" alt=""></p>
+</li>
+<li><p>Use the <a href="../use-expressions/functions-in-expressions.html">CreateTable() expression function</a> to prepare a table using values of several multi-value parameters.</p>
+<p><img src="../../../../images/eurd-win-query-parameters-createtable-expression-function.png" alt=""></p>
+</li>
+</ul>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/DevExpress/dotnet-eud/blob/2025.1/eud-for-devexpress-reports/reporting-for-desktop/articles/report-designer/report-designer-for-winforms/bind-to-data/specify-query-parameters.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Copyright (c) 1998-2025 Developer Express Inc. All rights reserved.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
