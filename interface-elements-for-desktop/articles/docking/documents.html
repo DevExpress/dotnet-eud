@@ -1,0 +1,152 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Documents | DevExpress End-User Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Documents | DevExpress End-User Documentation ">
+      
+      
+      <link rel="icon" href="../../../favicon.ico">
+      <link rel="stylesheet" href="../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../toc.html">
+      <meta name="docfx:tocrel" content="../../toc.html">
+      
+      <meta name="docfx:rel" content="../../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/DevExpress/dotnet-eud/blob/2024.2/interface-elements-for-desktop/articles/docking/documents.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+      <!-- Matomo Tag Manager -->
+      <script>
+        var _mtm = window._mtm = window._mtm || [];
+        _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
+      </script>
+      <!-- End Matomo Tag Manager -->
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../../index.html">
+            <img id="logo" class="svg" src="../../../logo.svg" alt="DevExpress EUD">
+            DevExpress EUD
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="documents">Documents</h1>
+
+<p>Document objects resemble dock panels and serve the very same goal - to host content within floating or tabbed MDI windows. You can click a document’s caption, and drag this document to dock or undock it in the same manner as dock panels. However, there are certain differences between documents and dock panels.</p>
+<h2 id="view">View</h2>
+<p>While dock panels can be docked to any form’s edge, documents can only be docked in a special area called a tabbed View. When you drag a document, docking hints will tell you where this area is. The image below illustrates a tabbed View within a tabbed MDI application.</p>
+<p><img src="../../images/img22601.png" alt="Docking EndUser - TabbedView Area"></p>
+<p>Dock panels can also be docked into this area, but documents cannot be docked to auto-hide containers and form edges.</p>
+<h2 id="floating-document-container">Floating Document Container</h2>
+<p>As you can see from the image above, documents can be nested into a floating document container. If this feature is enabled, it allows you to organize all of your floating documents in a single floating container (and avoid a cluttered UI with multiple floating windows). If you want to dock your floating documents once again, simply drag this container in the same manner in which you drag documents. Docking a floating container into a tabbed View will dock all of the container's documents into this View. You can also rearrange within or drag individual documents out of this container.</p>
+<h2 id="tabbed-groups">Tabbed Groups</h2>
+<p>Documents within a tabbed View can be docked to vertical or horizontal document groups. To do so, use the side docking hint when dragging a document, or right-click the document header and select the <strong>New Tab Group</strong> item in the invoked context menu (see the figure below).</p>
+<p><img src="../../images/img22602.png" alt="Docking EndUser - New Group"></p>
+<p>Document groups are divided by splitters. You can drag the splitter to resize the groups, as shown in the figure below.</p>
+<p><img src="../../images/img16697.png" alt="DocumentManager - Document Groups"></p>
+<p>Document groups can display <strong>Next</strong> and <strong>Previous</strong> buttons, which allow you to scroll through tab headers when there is not enough free space within the group to display all of the headers.</p>
+<p><img src="../../images/img22603.png" alt="Docking EndUser - NextPrev Buttons"></p>
+<p>Document groups within a View can either be arranged horizontally (side-by-side), or vertically (one above another), but not in both directions simultaneously. If only one tabbed group exists, the View does not yet have an orientation setting. After you start a new horizontal tab group, for example, the View becomes vertically oriented, which means that all subsequent tab groups can only be arranged vertically. You can reverse the current View orientation by right-clicking any tab group header and selecting the <strong>Arrange Tab Groups Vertically (Horizontally)</strong> context menu item.</p>
+<h2 id="navigation">Navigation</h2>
+<p>To navigate through documents (and dock panels, if any exist), you can use the Document Selector, invoked via the <strong>CTRL</strong>+<strong>Tab</strong> keyboard hotkey. This tool displays a small preview of each focused document (dock panel) and its short description. You can see the Document Selector in the next image.</p>
+<p><img src="../../images/img22604.png" alt="Docking EndUser - Document Selector"></p>
+<p>To quickly navigate through documents, you can also use the button in the group's top right corner.</p>
+<p><img src="../../images/img22613.png" alt="Docking EndUser - Documents List"></p>
+<p>Finally, you can right-click a document group's header and select the <strong>Windows...</strong> item to display the Windows dialog, which lists all currently opened documents and their paths (see the image below).</p>
+<p><img src="../../images/img22614.png" alt="Docking EndUser - Windows"></p>
+<h2 id="mouse-operations-and-keyboard-shortcuts">Mouse Operations and Keyboard Shortcuts</h2>
+<ul>
+<li><strong>Double-click</strong> a docked document's caption - undock the document and make it floating.</li>
+<li><strong>Ctrl</strong>+<strong>Double-click</strong> a floating document's caption - docks the floating document to its previous docking position.</li>
+<li><strong>Ctrl</strong>+<strong>Tab</strong> or <strong>Ctrl</strong>+<strong>Shift</strong>+<strong>Tab</strong> - shows the Document Selector.</li>
+</ul>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/DevExpress/dotnet-eud/blob/2024.2/interface-elements-for-desktop/articles/docking/documents.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

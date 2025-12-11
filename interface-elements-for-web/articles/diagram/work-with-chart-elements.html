@@ -1,0 +1,212 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Work with Chart Elements | DevExpress End-User Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Work with Chart Elements | DevExpress End-User Documentation ">
+      
+      
+      <link rel="icon" href="../../../favicon.ico">
+      <link rel="stylesheet" href="../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../toc.html">
+      <meta name="docfx:tocrel" content="../../toc.html">
+      
+      <meta name="docfx:rel" content="../../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/DevExpress/dotnet-eud/blob/2024.2/interface-elements-for-web/articles/diagram/work-with-chart-elements.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+      <!-- Matomo Tag Manager -->
+      <script>
+        var _mtm = window._mtm = window._mtm || [];
+        _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
+      </script>
+      <!-- End Matomo Tag Manager -->
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../../index.html">
+            <img id="logo" class="svg" src="../../../logo.svg" alt="DevExpress EUD">
+            DevExpress EUD
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="work-with-chart-elements">Work with Chart Elements</h1>
+
+<h2 id="move-an-element">Move an Element</h2>
+<p>You can use the mouse or keyboard commands to move an element or a group of <a href="select-elements.html">selected elements</a>.</p>
+<ul>
+<li><strong>Mouse</strong>: drag and drop an element.</li>
+<li><strong>Keyboard</strong>: select an element and press arrow keys to move the element.</li>
+</ul>
+<p>Press and hold Shift to move the element horizontally or vertically.</p>
+<p><img src="../../images/diagram-move-element-shift.gif" alt="Mobile Element"></p>
+<p>If the <a href="page-and-view-settings.html#grid-settings">Snap to Grid</a> option is enabled, an element is moved snapping to the grid. Press and hold Ctrl to move the element smoothly.</p>
+<p><img src="../../images/diagram-move-element.gif" alt="Mobile Element"></p>
+<p>You can combine the Ctrl and Shift buttons.</p>
+<h2 id="resize-a-shape">Resize a Shape</h2>
+<ol>
+<li><p><a href="select-elements.html">Select a shape</a> to display resizing squares along the selection.</p>
+</li>
+<li><p>Drag a square to resize the shape.</p>
+</li>
+</ol>
+<p>Press and hold Shift to maintain the shape's width-to-height ratio.</p>
+<p>If the <a href="page-and-view-settings.html#grid-settings">Snap to Grid</a> option is enabled, a shape is resized snapping to the grid. Press and hold Ctrl to resize the element smoothly.</p>
+<p><img src="../../images/diagram-resize-shape.gif" alt="Resize a Shape"></p>
+<p>You can combine the Ctrl and Shift buttons.</p>
+<h2 id="transform-a-shape">Transform a Shape</h2>
+<p>Certain shapes display a transformation handle when selected. Use this handle to transform the shape.</p>
+<p><img src="../../images/diagram-transform-shape.gif" alt="Resize a Shape"></p>
+<h2 id="edit-an-elements-text">Edit an Element's Text</h2>
+<ol>
+<li><p>Double click an element to start text editing.</p>
+</li>
+<li><p>Edit the text. Press Enter to start a new line.</p>
+</li>
+<li><p>Press Ctrl+Enter or click outside the element to finish editing.</p>
+</li>
+</ol>
+<p>A connector can have several texts. A text box appears at the double-clicked position. After editing, you can use the mouse to move the text along the connector.</p>
+<p><img src="../../images/diagram-edit-text.gif" alt="Edit Text"></p>
+<h2 id="clone-an-element">Clone an Element</h2>
+<p>Press Alt and drag an element to clone it.</p>
+<p><img src="../../images/diagram-clone-element.gif" alt="Clone a Shape"></p>
+<p>You can combine the Alt, Ctrl, and Shift buttons.</p>
+<h2 id="link-a-connector-to-a-shape">Link a Connector to a Shape</h2>
+<ol>
+<li><p>Hover the mouse pointer over a shape to display its connection points.</p>
+</li>
+<li><p>Drag a point to create a connector.</p>
+</li>
+<li><p>Release a connector at one of the following positions:</p>
+</li>
+</ol>
+<ul>
+<li>at another shape's connection point to connect these points. In this case, the connector remains linked to the specified points if a shape is moved.</li>
+</ul>
+<p><img src="../../images/diagram-link-to-point.gif" alt="Link to Point"></p>
+<ul>
+<li>at another shape to connect shapes without specifying particular points. In this case, the connector links to the nearest points if a shape is moved.</li>
+</ul>
+<p><img src="../../images/diagram-link-to-shape.gif" alt="Link to Shape"></p>
+<p>Drag a shape close to a connector's end to link the shape to the connector.</p>
+<p><img src="../../images/diagram-link-shape-to-connector.gif" alt="Link a Shape to Connector"></p>
+<h2 id="create-a-shape-via-the-context-toolbox">Create a Shape via the Context Toolbox</h2>
+<p>The <strong>Context Toolbox</strong> appears when you drag a connector from a shape and drop it without connecting it to another shape.</p>
+<p>Select a shape to insert it at the end of the connector.</p>
+<p><img src="../../images/diagram-context-toolbox.gif" alt="Context Toolbox"></p>
+<p>The <strong>Context Toolbox</strong> allows you to create a shape inside a container.</p>
+<ol>
+<li>Drag a connector from a shape while pressing Ctrl and release the connector inside a container.</li>
+<li>Select the shape you want to add. The shape is placed in the container's nested shape collection.</li>
+</ol>
+<p><img src="../../images/diagram-context-toolbox-with-container.gif" alt="Context Toolbox"></p>
+<h2 id="modify-a-connector">Modify a Connector</h2>
+<p>The <strong>Diagram</strong> tool can draw orthogonal and straight connectors.</p>
+<p><img src="../../images/diagram-connector-line-type.png" alt="Line Type"></p>
+<p>Specify a connector's line type in the <strong>Style</strong> tab on the <strong>Properties</strong> toolbar.</p>
+<p><img src="../../images/diagram-properties-line-type.png" alt="Line Type"></p>
+<h3 id="orthogonal-connectors">Orthogonal Connectors</h3>
+<p>You can move a connector's line segments.</p>
+<ol>
+<li>Select a connector to display its key points.</li>
+<li>Drag a point to move a line segment.</li>
+</ol>
+<h3 id="straight-connectors">Straight Connectors</h3>
+<p>You can add line segments to connectors.</p>
+<ol>
+<li>Select a connector to display its key points.</li>
+<li>Drag a middle point to add a line segment.</li>
+</ol>
+<p>To remove a key point, move it between neighboring points.</p>
+<p><img src="../../images/diagram-modify-connector.gif" alt="Connectors"></p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/DevExpress/dotnet-eud/blob/2024.2/interface-elements-for-web/articles/diagram/work-with-chart-elements.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

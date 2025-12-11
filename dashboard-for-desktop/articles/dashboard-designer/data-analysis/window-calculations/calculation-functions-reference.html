@@ -1,0 +1,345 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Calculation Functions Reference | DevExpress End-User Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Calculation Functions Reference | DevExpress End-User Documentation ">
+      
+      
+      <link rel="icon" href="../../../../../favicon.ico">
+      <link rel="stylesheet" href="../../../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../../../toc.html">
+      <meta name="docfx:tocrel" content="../../../../toc.html">
+      
+      <meta name="docfx:rel" content="../../../../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/DevExpress/dotnet-eud/blob/2024.2/dashboard-for-desktop/articles/dashboard-designer/data-analysis/window-calculations/calculation-functions-reference.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../../../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+      <!-- Matomo Tag Manager -->
+      <script>
+        var _mtm = window._mtm = window._mtm || [];
+        _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
+      </script>
+      <!-- End Matomo Tag Manager -->
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../../../../index.html">
+            <img id="logo" class="svg" src="../../../../../logo.svg" alt="DevExpress EUD">
+            DevExpress EUD
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="calculation-functions-reference">Calculation Functions Reference</h1>
+
+<p>This topic contains the descriptions of window functions that can be used to specify measure expressions.</p>
+<table>
+<thead>
+<tr>
+<th>Function</th>
+<th>Description</th>
+<th>Example</th>
+<th>Image</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Last()</td>
+<td>Returns the number of rows from the current row to the last row in the window.</td>
+<td>Last()</td>
+<td><img src="../../../../images/img123018.png" alt="CalculationFunction_Last"></td>
+<td></td>
+</tr>
+<tr>
+<td>First()</td>
+<td>Returns the number of rows from the current row to the first row in the window.</td>
+<td>First()</td>
+<td><img src="../../../../images/img123016.png" alt="CalculationFunction_First"></td>
+<td></td>
+</tr>
+<tr>
+<td>Index()</td>
+<td>Returns the index of the current row in the window.</td>
+<td>Index()</td>
+<td><img src="../../../../images/img123017.png" alt="CalculationFunction_Index"></td>
+<td></td>
+</tr>
+<tr>
+<td>Size()</td>
+<td>Returns the number of rows in the window.</td>
+<td>Size()</td>
+<td><img src="../../../../images/img123029.png" alt="CalculationFunction_Size"></td>
+<td></td>
+</tr>
+<tr>
+<td>Lookup(SummaryExpression, Position)</td>
+<td>Returns the value of the expression in a target position specified as a relative offset from the current position.</td>
+<td>Lookup(Sum([Sales]), 3)</td>
+<td><img src="../../../../images/img123019.png" alt="CalculationFunction_Lookup"></td>
+<td>-</td>
+</tr>
+<tr>
+<td>RankCompetition(SummaryExpression, [ 'asc'</td>
+<td>'desc' ])</td>
+<td>Returns the standard competition rank for the current row in the window.</td>
+<td>RankCompetition(Sum([Sales]), 'asc')</td>
+<td>-</td>
+</tr>
+<tr>
+<td>RankDense(SummaryExpression, [ 'asc'</td>
+<td>'desc' ])</td>
+<td>Returns the dense rank for the current row in the window.</td>
+<td>RankDense(Sum([Sales]), 'asc')</td>
+<td>-</td>
+</tr>
+<tr>
+<td>RankUnique(SummaryExpression, [ 'asc'</td>
+<td>'desc' ])</td>
+<td>Returns the unique rank for the current row in the window.</td>
+<td>RankUnique(Sum([Sales]), 'asc')</td>
+<td>-</td>
+</tr>
+<tr>
+<td>RankModified(SummaryExpression, [ 'asc'</td>
+<td>'desc' ])</td>
+<td>Returns the modified competition rank for the current row in the window.</td>
+<td>RankModified(Sum([Sales]), 'asc')</td>
+<td>-</td>
+</tr>
+<tr>
+<td>RankPercentile(SummaryExpression, [ 'asc'</td>
+<td>'desc' ])</td>
+<td>Returns the percentile rank for the current row in the window.</td>
+<td>RankPercentile(Sum([Sales]), 'desc')</td>
+<td>-</td>
+</tr>
+<tr>
+<td>RunningAvg(SummaryExpression)</td>
+<td>Returns the running average of the specified expression from the first row in the window to the current row.</td>
+<td>RunningAvg(Sum([Sales]))</td>
+<td><img src="../../../../images/img123020.png" alt="CalculationFunction_RunningAvg"></td>
+<td></td>
+</tr>
+<tr>
+<td>RunningAggregate(SummaryExpression, CustomAggregateName)</td>
+<td>Returns the cumulative result of the custom function applied to specified expression from the first row in the window to the current row.</td>
+<td>RunningAggregate(Min([City]), 'StringConcat')</td>
+<td><img src="../../../../images/RunningAggregateFunction.png" alt="RunningAggregateFunction"></td>
+<td></td>
+</tr>
+<tr>
+<td>RunningCount(SummaryExpression)</td>
+<td>Returns the running count of the specified expression from the first row in the window to the current row.</td>
+<td>RunningCount(Sum([Sales]))</td>
+<td>-</td>
+<td></td>
+</tr>
+<tr>
+<td>RunningMax(SummaryExpression)</td>
+<td>Returns the running maximum of the specified expression from the first row in the window to the current row.</td>
+<td>RunningMax(Sum([Sales]))</td>
+<td><img src="../../../../images/img123021.png" alt="CalculationFunction_RunningMax"></td>
+<td></td>
+</tr>
+<tr>
+<td>RunningMin(SummaryExpression)</td>
+<td>Returns the running minimum of the specified expression from the first row in the window to the current row.</td>
+<td>RunningMin(Sum([Sales]))</td>
+<td><img src="../../../../images/img123026.png" alt="CalculationFunction_RunningMin"></td>
+<td></td>
+</tr>
+<tr>
+<td>RunningSum(SummaryExpression)</td>
+<td>Returns the running sum of the specified expression from the first row in the window to the current row.</td>
+<td>RunningSum(Sum([Sales]))</td>
+<td><img src="../../../../images/img123027.png" alt="CalculationFunction_RunningSum"></td>
+<td></td>
+</tr>
+<tr>
+<td>WindowAggregate(SummaryExpression, StartOffset, EndOffset, CustomAggregateName)</td>
+<td>Returns the result of the custom function applied to the specified expression in the window.</td>
+<td>WindowAggregate(Min([CompanyName]), -1, 1, 'StringConcat')</td>
+<td><img src="../../../../images/windowAggregateFunction.png" alt="windowAggregateFunction"></td>
+<td></td>
+</tr>
+<tr>
+<td>WindowAvg(SummaryExpression, StartOffset, EndOffset)</td>
+<td>Returns the average of the expression within the window, which is defined using offsets from the current row.</td>
+<td>WindowAvg(Sum([Sales]), First(), Last())</td>
+<td><img src="../../../../images/img123031.png" alt="CalculationFunction_WindowAvg"></td>
+<td></td>
+</tr>
+<tr>
+<td>WindowCount(SummaryExpression, StartOffset, EndOffset)</td>
+<td>Returns the count of the expression within the window.</td>
+<td>WindowCount(Sum([Sales]), First()+2, Last())</td>
+<td><img src="../../../../images/img123032.png" alt="CalculationFunction_WindowCount_plus2"></td>
+<td></td>
+</tr>
+<tr>
+<td>WindowCountDistinct(SummaryExpression, StartOffset, EndOffset)</td>
+<td>Returns the distinct count of the expression within the window.</td>
+<td>WindowCountDistinct(Sum([Sales]), First(), Last())</td>
+<td>-</td>
+<td></td>
+</tr>
+<tr>
+<td>WindowMax(SummaryExpression, StartOffset, EndOffset)</td>
+<td>Returns the maximum of the expression within the window.</td>
+<td>WindowMax(Sum([Sales]), First(), Last())</td>
+<td><img src="../../../../images/img123033.png" alt="CalculationFunction_WindowMax"></td>
+<td></td>
+</tr>
+<tr>
+<td>WindowMin(SummaryExpression, StartOffset, EndOffset)</td>
+<td>Returns the minimum of the expression within the window.</td>
+<td>WindowMin(Sum([Sales]), First(), Last())</td>
+<td><img src="../../../../images/img123036.png" alt="CalculationFunction_WindowMin"></td>
+<td></td>
+</tr>
+<tr>
+<td>WindowMedian(SummaryExpression, StartOffset, EndOffset)</td>
+<td>Returns the median of the expression within the window.</td>
+<td>WindowMedian(Sum([Sales]), First(), Last())</td>
+<td><img src="../../../../images/img123035.png" alt="CalculationFunction_WindowMedian"></td>
+<td></td>
+</tr>
+<tr>
+<td>WindowSum(SummaryExpression, StartOffset, EndOffset)</td>
+<td>Returns the sum of the expression within the window.</td>
+<td>WindowSum(Sum([Sales]), First()+2, Last())</td>
+<td><img src="../../../../images/img123037.png" alt="CalculationFunction_WindowSum-plus2"></td>
+<td></td>
+</tr>
+<tr>
+<td>WindowVar(SummaryExpression, StartOffset, EndOffset)</td>
+<td>Returns the variance of the expression within the window.</td>
+<td>WindowVar(Sum([Sales]), First(), Last())</td>
+<td>-</td>
+<td></td>
+</tr>
+<tr>
+<td>WindowVarp(SummaryExpression, StartOffset, EndOffset)</td>
+<td>Returns the biased variance of the expression within the window.</td>
+<td>WindowVarp(Sum([Sales]), First(), Last())</td>
+<td>-</td>
+<td></td>
+</tr>
+<tr>
+<td>WindowStdDev(SummaryExpression, StartOffset, EndOffset)</td>
+<td>Returns the sample standard deviation of the expression within the window.</td>
+<td>WindowStdDev(Sum([Sales]), First(), Last())</td>
+<td>-</td>
+<td></td>
+</tr>
+<tr>
+<td>WindowStdDevp(SummaryExpression, StartOffset, EndOffset)</td>
+<td>Returns the biased standard deviation of the expression within the window.</td>
+<td>WindowStdDevp(Sum([Sales]), First(), Last())</td>
+<td>-</td>
+<td></td>
+</tr>
+<tr>
+<td>Total(SummaryExpression)</td>
+<td>Returns the total for the specified expression in a calculation window. Note that the <strong>Total</strong> function calculates the total based on values from the <a href="../../provide-data.html">underlying data source</a>.</td>
+<td>Total(Sum([Sales]))</td>
+<td><img src="../../../../images/img123030.png" alt="CalculationFunction_Total"></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<div class="IMPORTANT">
+<h5>Important</h5>
+<p>Note that window functions cannot be used inside <strong><a href="../aggregations/intermediate-level-aggregations.html">Aggr</a></strong>.</p>
+</div>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/DevExpress/dotnet-eud/blob/2024.2/dashboard-for-desktop/articles/dashboard-designer/data-analysis/window-calculations/calculation-functions-reference.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

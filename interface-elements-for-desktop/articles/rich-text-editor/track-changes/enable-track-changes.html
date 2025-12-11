@@ -1,0 +1,162 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Enable Track Changes | DevExpress End-User Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Enable Track Changes | DevExpress End-User Documentation ">
+      
+      
+      <link rel="icon" href="../../../../favicon.ico">
+      <link rel="stylesheet" href="../../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../../toc.html">
+      <meta name="docfx:tocrel" content="../../../toc.html">
+      
+      <meta name="docfx:rel" content="../../../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/DevExpress/dotnet-eud/blob/2024.2/interface-elements-for-desktop/articles/rich-text-editor/track-changes/enable-track-changes.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+      <!-- Matomo Tag Manager -->
+      <script>
+        var _mtm = window._mtm = window._mtm || [];
+        _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
+      </script>
+      <!-- End Matomo Tag Manager -->
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../../../index.html">
+            <img id="logo" class="svg" src="../../../../logo.svg" alt="DevExpress EUD">
+            DevExpress EUD
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="enable-track-changes">Enable Track Changes</h1>
+
+<p>The <strong>Track Changes</strong> feature allows you to keep track of the changes.</p>
+<h2 id="turn-on-track-changes">Turn On Track Changes</h2>
+<p>On the <strong>Review</strong> <a href="../text-editor-ui/ribbon-interface.html">tab</a>, in the <strong>Tracking</strong> group, click the <strong>Track Changes</strong> button.</p>
+<p><img src="../../../images/rich-text-editor-track-changes-enable.png" alt="track-changes-enable"></p>
+<p>When Track Changes is turned on, red lines in the margin indicate the changes.</p>
+<p><img src="../../../images/rich-text-editor-track-changes-simple-markup.png" alt="IMAGE"></p>
+<p>When you turn of Track Changes, the Rich Text Editor does not mark changes but displays the lines in the document.</p>
+<h2 id="view-changes">View Changes</h2>
+<p>Use the <strong>Display for Review</strong> drop-down list to specify how to display changes in the document. On the <strong>Review</strong> <a href="../text-editor-ui/ribbon-interface.html">tab</a>, in the <strong>Tracking</strong> group, open the <strong>Display for Review</strong> list.</p>
+<p><img src="../../../images/rich-text-editor-track-changes-display-for-review.png" alt="IMAGE"></p>
+<p>Select one of the following modes:</p>
+<ul>
+<li><p><strong>All Markup</strong> - displays revisions in details.
+<img src="../../../images/rich-text-editor-track-changes-all-markup.png" alt="IMAGE"></p>
+</li>
+<li><p><strong>Simple Markup</strong> - displays revisions indicated by a red line in the margin.
+<img src="../../../images/rich-text-editor-track-changes-simple-markup.png" alt="IMAGE"></p>
+</li>
+<li><p><strong>No Markup</strong> - displays the document without any visible revisions (as if all revisions are accepted).
+<img src="../../../images/rich-text-editor-track-changes-no-markup.png" alt="IMAGE"></p>
+</li>
+</ul>
+<p>You can also double-click red lines in the margin to toggle between <strong>Simple Markup</strong> and <strong>All Markup</strong> modes.</p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>Rich Text Editor does not display changes in the Reviewing Pane or in balloons.</p>
+</div>
+<p>Use <strong>Next</strong> and <strong>Previous</strong> buttons on the <strong>Changes</strong> ribbon group to switch between changes.</p>
+<p><img src="../../../images/rich-text-editor-track-changes-previous-next.png" alt="IMAGE"></p>
+<h3 id="view-changes-from-specific-authors">View Changes from Specific Authors</h3>
+<p>On the <strong>Review</strong> <a href="../text-editor-ui/ribbon-interface.html">tab</a>, in the <strong>Tracking</strong> group, open the <strong>Show Markup</strong> list. Select users whose changes you wish to display in the <strong>Reviewers</strong> list.</p>
+<p><img src="../../../images/rich-text-editor-track-changes-reviewers.png" alt="IMAGE"></p>
+<h2 id="lock-tracking">Lock Tracking</h2>
+<p>You can set a password that prevents users from disabling Track Changes. In the <strong>Tracking</strong> group on the <strong>Review</strong> <a href="../text-editor-ui/ribbon-interface.html">tab</a>, click <strong>Lock Tracking</strong> in the <strong>Track Changes</strong> drop-down list.</p>
+<p><img src="../../../images/rich-text-editor-track-changes-lock-track.png" alt="IMAGE"></p>
+<p>Specify a password in the invoked <strong>Document Protection</strong> dialog and click <strong>OK</strong>.</p>
+<p><img src="../../../images/rich-text-editor-track-changes-lock-tracking-protection-dialog.png" alt="IMAGE"></p>
+<p>When protection is enabled, you cannot accept or reject changes, or turn off Track Changes.</p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/DevExpress/dotnet-eud/blob/2024.2/interface-elements-for-desktop/articles/rich-text-editor/track-changes/enable-track-changes.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,240 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Add Watermarks to a Report | DevExpress End-User Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Add Watermarks to a Report | DevExpress End-User Documentation ">
+      
+      
+      <link rel="icon" href="../../../../favicon.ico">
+      <link rel="stylesheet" href="../../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../../toc.html">
+      <meta name="docfx:tocrel" content="../../../toc.html">
+      
+      <meta name="docfx:rel" content="../../../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/DevExpress/dotnet-eud/blob/2024.2/reporting-for-web/articles/report-designer/add-extra-information/add-watermarks-to-a-report.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+      <!-- Matomo Tag Manager -->
+      <script>
+        var _mtm = window._mtm = window._mtm || [];
+        _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
+      </script>
+      <!-- End Matomo Tag Manager -->
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../../../index.html">
+            <img id="logo" class="svg" src="../../../../logo.svg" alt="DevExpress EUD">
+            DevExpress EUD
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="add-watermarks-to-a-report">Add Watermarks to a Report</h1>
+
+<p>DevExpress Reporting allows you to display text and picture watermarks on report pages. You can also specify an expression that assigns different watermarks to pages.</p>
+<p>This tutorial includes information about the following tasks:</p>
+<ul>
+<li><p>How to add watermarks.</p>
+</li>
+<li><p>How to specify watermark settings.</p>
+</li>
+<li><p>How to use pre-printed forms.</p>
+</li>
+</ul>
+<p><img src="../../../images/eurd-web-add-watermarks-result.png" alt=""></p>
+<h2 id="addwatermark">Add a Watermark to a Report</h2>
+<p>Switch to the <a href="../report-designer-tools/ui-panels/properties-panel.html">Properties</a> panel and expand the <strong>Watermark</strong> node in the <strong>Appearance</strong> category. Click the Add button to create a watermark.</p>
+<p><img src="../../../images/eurd-web-add-watermarks-properties-panel.png" alt=""></p>
+<p>Specify watermark options, depending on the type of watermark you wish to add.</p>
+<h3 id="specify-text-watermark-settings">Specify Text Watermark Settings</h3>
+<ul>
+<li><p>Watermark Id</p>
+<p>The unique identifier of a watermark used to specify the watermark in the WatermarkId property (See the Manage Watermark Collection section for details).</p>
+</li>
+<li><p>Font Name</p>
+<p>The font of the watermark’s text.</p>
+</li>
+<li><p>Size</p>
+<p>The size of the watermark’s text.</p>
+</li>
+<li><p>Unit</p>
+<p>Specifies text measurement system.</p>
+</li>
+<li><p>Bold</p>
+<p>Formats the watermark’s text as bold.</p>
+</li>
+<li><p>Italic</p>
+<p>Formats the watermark’s text as italic.</p>
+</li>
+<li><p>Foreground Color</p>
+<p>The foreground color of the watermark’s text.</p>
+</li>
+<li><p>Text</p>
+<p>The watermark’s text.</p>
+</li>
+<li><p>Text Transparency</p>
+<p>The transparency of the watermark’s text.</p>
+</li>
+<li><p>Text Direction</p>
+<p>The incline of the watermark’s text.</p>
+</li>
+<li><p>Text Position</p>
+<p>Specifies whether a watermark should be printed behind or in front of page content.</p>
+</li>
+<li><p>Page Range</p>
+<p>The range of pages which contain a watermark.</p>
+</li>
+</ul>
+<p>The added watermark is automatically displayed in the report in Preview mode.</p>
+<h3 id="specify-picture-watermark-settings">Specify Picture Watermark Settings</h3>
+<ul>
+<li><p>Watermark Id</p>
+<p>The unique identifier of a watermark used to specify the watermark in the WatermarkId property (See the Manage Watermark Collection section for details).</p>
+</li>
+<li><p>Image Source</p>
+<p>Specifies the image that you wish to use as a watermark.</p>
+</li>
+<li><p>Image Position</p>
+<p>Specifies whether a watermark should be printed behind or in front of page content.</p>
+</li>
+<li><p>Image Transparency</p>
+<p>The transparency of the watermark’s image. The <strong>Transparency</strong> property is unavailable when you specify an SVG image.</p>
+</li>
+<li><p>Image View Mode</p>
+<p>The mode in which a picture watermark is displayed.</p>
+</li>
+<li><p>Image Tiling</p>
+<p>Specifies whether a picture watermark should be tiled.</p>
+</li>
+<li><p>Image Alignment</p>
+<p>Specifies the horizontal or vertical alignment of the watermark.</p>
+</li>
+<li><p>Page Range</p>
+<p>The range of pages which contain a watermark.</p>
+</li>
+</ul>
+<p>The added watermark is automatically displayed in the report in Preview mode.</p>
+<h2 id="preprintedform">Supply a Preprinted Form</h2>
+<p>You can use a picture watermark as a template, to display an image of the preprinted form on the report's body at design time.</p>
+<p>To display a watermark at design time, expand the <strong>Design</strong> category and enable the <strong>Draw the Watermark</strong> property.</p>
+<p><img src="../../../images/eurd-web-add-preprinted-watermark.png" alt=""></p>
+<p>The following image illustrates a report with a watermark shown at design time that contains a template of a preprinted form.</p>
+<p><img src="../../../images/eurd-web-add-a-template-watermark.png" alt=""></p>
+<p>Place report controls on the report's body according to the layout of the preprinted form.</p>
+<p><img src="../../../images/eurd-web-add-a-template-watermark-result.png" alt=""></p>
+<h2 id="supported-image-formats">Supported Image Formats</h2>
+<p>A picture watermark supports the following formats:</p>
+<ul>
+<li>BMP</li>
+<li>JPG / JPEG / JPE / JFIF</li>
+<li>GIF</li>
+<li>TIF / TIFF</li>
+<li>PNG</li>
+<li>ICO</li>
+<li>DIB</li>
+<li>RLE</li>
+<li>EMF / WMF</li>
+<li>SVG</li>
+</ul>
+<h2 id="combine-text-and-a-picture-in-one-watermark">Combine Text and a Picture in One Watermark</h2>
+<p>You can display both text and a picture in one Watermark. Use the <strong>Text Position</strong> and <strong>Image Position</strong> options of the watermark to specify whether the text and picture should be displayed behind or in front of page content.</p>
+<p>For example, create a watermark and specify its text and picture settings. Set position of the text to <strong>InFront</strong> and position of the picture to <strong>Behind</strong>:</p>
+<p>As a result, the image is displayed behind the table, while the text is in front of the content:</p>
+<p><img src="../../../images/eurd-web-watermark-text.png" alt=""></p>
+<h2 id="display-watermarks-according-to-the-specified-condition">Display Watermarks According to the Specified Condition</h2>
+<p>Bind the report's <strong>Watermark Id</strong> options to an expression to apply watermarks stored in the collection to specific report pages. This option allows you to apply a specific watermark to a page based on the <strong>Watermark Id</strong> or expression binding.</p>
+<p><img src="../../../images/web-eud-watermark-id-option.png" alt=""></p>
+<p>For example, the following expression adds the created “First page watermark”, “Even page watermark”, and “Odd page watermark”  watermarks to the first, odd, and even pages of a report:</p>
+<p><code>Iif([Arguments.PageIndex]=0,'watermark1',Iif([Arguments.PageIndex]%2=0,'watermark2','watermark3'))</code></p>
+<p><img src="../../../images/eurd-web-watermark-image.png" alt=""></p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/DevExpress/dotnet-eud/blob/2024.2/reporting-for-web/articles/report-designer/add-extra-information/add-watermarks-to-a-report.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

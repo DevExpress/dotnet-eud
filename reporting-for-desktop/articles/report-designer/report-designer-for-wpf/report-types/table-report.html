@@ -1,0 +1,146 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Table Report | DevExpress End-User Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Table Report | DevExpress End-User Documentation ">
+      
+      
+      <link rel="icon" href="../../../../../favicon.ico">
+      <link rel="stylesheet" href="../../../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../../../toc.html">
+      <meta name="docfx:tocrel" content="../../../../toc.html">
+      
+      <meta name="docfx:rel" content="../../../../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/DevExpress/dotnet-eud/blob/2024.2/reporting-for-desktop/articles/report-designer/report-designer-for-wpf/report-types/table-report.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../../../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+      <!-- Matomo Tag Manager -->
+      <script>
+        var _mtm = window._mtm = window._mtm || [];
+        _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
+      </script>
+      <!-- End Matomo Tag Manager -->
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../../../../index.html">
+            <img id="logo" class="svg" src="../../../../../logo.svg" alt="DevExpress EUD">
+            DevExpress EUD
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="table-report">Table Report</h1>
+
+<p>This tutorial describes how to create a <em>table report</em>, which means that the report's data is arranged into a table-like layout. This feature should not be confused with the <a href="master-detail-report.html">master-detail report</a> or <a href="cross-tab-report.html">cross-tab report</a>.</p>
+<p>To create a table report, follow the steps below.</p>
+<ol>
+<li><p><a href="../creating-reports/basic-operations/create-a-new-report.html">Create a new report</a> and <a href="../creating-reports/providing-data/binding-a-report-to-data.html">bind it to a data source</a>.</p>
+</li>
+<li><p>To add a <a href="../report-elements/report-bands.html">Page Header</a> to the report, right-click on the report's surface, and in the invoked context menu, select <strong>Insert Band</strong> and then <strong>Page Header</strong>.</p>
+<p><img src="../../../../images/img123471.png" alt="EUD_WpfReportDersigner_TableReport_1"></p>
+</li>
+<li><p>Next, add two <a href="../report-elements/report-controls.html">Table</a> controls to the report's Page Header and Detail band.</p>
+<p>To do this, drag the Table control from the <a href="../interface-elements/control-toolbox.html">Toolbox</a> and drop it onto the Page Header Band. Then, add a table to the Detail band in the same way.</p>
+<p><img src="../../../../images/img123472.png" alt="EUD_WpfReportDersigner_TableReport_2"></p>
+<p>One table will be used as a header, and the other one - for the report's detail information.</p>
+</li>
+<li><p>Type the headers into the upper table's cells. Then, bind the corresponding cells in the detail section to the appropriate data fields by expanding the <strong>Data Bindings</strong> option and setting the <strong>Text</strong> property.</p>
+<p><img src="../../../../images/img123473.png" alt="EUD_WpfReportDersigner_TableReport_3"></p>
+</li>
+<li><p>Finally, you can customize various properties of the tables to improve their appearance. For example, in the <a href="../interface-elements/properties-panel.html">Properties Panel</a>, you can define the <strong>Borders</strong> property, as well as the <strong>Background Color</strong> property. To customize cell text options, specify the <strong>Font</strong> property.</p>
+<p>A noteworthy feature is the capability to specify <a href="../creating-reports/appearance-customization/use-odd-and-even-styles.html">odd and even styles</a> for the detail table.</p>
+</li>
+</ol>
+<p>The table report is now ready. Switch to the <a href="../document-preview.html">Print Preview</a> tab, and view the result.</p>
+<p><img src="../../../../images/img123474.png" alt="EUD_WpfReportDersigner_TableReport_Result"></p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/DevExpress/dotnet-eud/blob/2024.2/reporting-for-desktop/articles/report-designer/report-designer-for-wpf/report-types/table-report.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

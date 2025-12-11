@@ -1,0 +1,234 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Data Presentation Basics | DevExpress End-User Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Data Presentation Basics | DevExpress End-User Documentation ">
+      
+      
+      <link rel="icon" href="../../../../favicon.ico">
+      <link rel="stylesheet" href="../../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../../toc.html">
+      <meta name="docfx:tocrel" content="../../../toc.html">
+      
+      <meta name="docfx:rel" content="../../../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/DevExpress/dotnet-eud/blob/2024.2/dashboard-for-desktop/articles/dashboard-viewer/data-presentation/data-presentation-basics.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+      <!-- Matomo Tag Manager -->
+      <script>
+        var _mtm = window._mtm = window._mtm || [];
+        _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
+      </script>
+      <!-- End Matomo Tag Manager -->
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../../../index.html">
+            <img id="logo" class="svg" src="../../../../logo.svg" alt="DevExpress EUD">
+            DevExpress EUD
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="data-presentation-basics">Data Presentation Basics</h1>
+
+<p>The <strong>Dashboard Viewer</strong> is used to present dashboards in Windows Forms applications.
+A wide range of dashboard items are used to display visual or textual information.</p>
+<table>
+<thead>
+<tr>
+<th>Dashboard Item</th>
+<th>Image</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../dashboard-items/chart.html">Chart</a></td>
+<td><img src="../../../images/img22446.png" alt="WinViewer_Chart"></td>
+<td>Displays data graphically using bars, lines, points, etc.</td>
+</tr>
+<tr>
+<td><a href="../dashboard-items/scatter-chart.html">Scatter Chart</a></td>
+<td><img src="../../../images/img121120.png" alt="AddingItems_ScatterChart"></td>
+<td>Visualizes relationships between numeric variables.</td>
+</tr>
+<tr>
+<td><a href="../dashboard-items/grid.html">Grid</a></td>
+<td><img src="../../../images/img22448.png" alt="WinViewer_Grid"></td>
+<td>Presents data in tabular form.</td>
+</tr>
+<tr>
+<td><a href="../dashboard-items/pies.html">Pies</a></td>
+<td><img src="../../../images/img22438.png" alt="Fundamentals_DashboardItems_Pies"></td>
+<td>Displays a series of pies or donuts that represent the contribution of each value to the total.</td>
+</tr>
+<tr>
+<td><a href="../dashboard-items/cards.html">Cards</a></td>
+<td><img src="../../../images/img22445.png" alt="WinViewer_Cards"></td>
+<td>Displays a series of cards, each illustrating the difference between two values.</td>
+</tr>
+<tr>
+<td><a href="../dashboard-items/gauges.html">Gauges</a></td>
+<td><img src="../../../images/img22447.png" alt="WinViewer_Gauges"></td>
+<td>Visualizes data within a series of gauges.</td>
+</tr>
+<tr>
+<td><a href="../dashboard-items/pivot.html">Pivot</a></td>
+<td><img src="../../../images/img22450.png" alt="WinViewer_Pivot"></td>
+<td>Displays cross-tabular reports and allows you to analyze multi-dimensional data.</td>
+</tr>
+<tr>
+<td><a href="../dashboard-items/choropleth-map.html">Choropleth Map</a></td>
+<td><img src="../../../images/img22437.png" alt="Fundamentals_DashboardItems_ChoroplethMap"></td>
+<td>Colorizes areas in proportion to the provided values.</td>
+</tr>
+<tr>
+<td><a href="../dashboard-items/geo-point-maps/data-presentation-basics.html">Geo Point Map</a></td>
+<td><img src="../../../images/img121121.png" alt="AddingItems_GeoPointMap"></td>
+<td>Displays callouts on the map using geographical coordinates.</td>
+</tr>
+<tr>
+<td><a href="../dashboard-items/geo-point-maps/data-presentation-basics.html">Bubble Map</a></td>
+<td><img src="../../../images/img22440.png" alt="Fundamentals_DashboardItems_geopoingmaps"></td>
+<td>Displays bubbles on the map using geographical coordinates.</td>
+</tr>
+<tr>
+<td><a href="../dashboard-items/geo-point-maps/data-presentation-basics.html">Pie Map</a></td>
+<td><img src="../../../images/img121123.png" alt="AddingItems_PieMap"></td>
+<td>Places pies on the map using geographical coordinates.</td>
+</tr>
+<tr>
+<td><a href="../dashboard-items/range-filter.html">Range Filter</a></td>
+<td><img src="../../../images/img22451.png" alt="WinViewer_RangeFilter"></td>
+<td>Allows you to apply filtering by dragging selection thumbs along the argument axis.</td>
+</tr>
+<tr>
+<td><a href="../dashboard-items/image.html">Images</a></td>
+<td><img src="../../../images/img124553.png" alt="ImageOverview"></td>
+<td>Displays images.</td>
+</tr>
+<tr>
+<td><a href="../dashboard-items/text-box.html">Text Box</a></td>
+<td><img src="../../../images/img124554.png" alt="TextboxOverview"></td>
+<td>Displays rich text within a dashboard.</td>
+</tr>
+<tr>
+<td><a href="../dashboard-items/treemap.html">Treemap</a></td>
+<td><img src="../../../images/img125084.png" alt="Treemap_Thumbnail"></td>
+<td>Visualizes data in nested rectangles.</td>
+</tr>
+<tr>
+<td><a href="../dashboard-items/filter-elements.html">Combo Box</a></td>
+<td><img src="../../../images/img24779.png" alt="Fundamentals_DashboardItems_ComboBox"></td>
+<td>Allows you to select a value(s) from the drop-down list.</td>
+</tr>
+<tr>
+<td><a href="../dashboard-items/filter-elements.html">List Box</a></td>
+<td><img src="../../../images/img24784.png" alt="Fundamentals_DashboardItems_ListBox"></td>
+<td>Allows you to select a value(s) from the list.</td>
+</tr>
+<tr>
+<td><a href="../dashboard-items/filter-elements.html">Tree View</a></td>
+<td><img src="../../../images/img24786.png" alt="Fundamentals_DashboardItems_TreeView"></td>
+<td>Displays values in a hierarchical way and allows you to filter other dashboard items by selecting parent/child values.</td>
+</tr>
+</tbody>
+</table>
+<p>The Dashboard Viewer enables interaction between various dashboard items. These features include <strong>Master Filtering</strong> and <strong>Drill-Down</strong>.</p>
+<ul>
+<li><a href="master-filtering.html">Master Filtering</a></li>
+<li><a href="drill-down.html">Drill-Down</a></li>
+</ul>
+<p>You can inspect raw or aggregated data. See the <a href="data-inspector.html">Data Inspector</a> topic for details.</p>
+<p>To learn more about the dashboard layout, see the <a href="dashboard-layout.html">Dashboard Layout</a> topic.</p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/DevExpress/dotnet-eud/blob/2024.2/dashboard-for-desktop/articles/dashboard-viewer/data-presentation/data-presentation-basics.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

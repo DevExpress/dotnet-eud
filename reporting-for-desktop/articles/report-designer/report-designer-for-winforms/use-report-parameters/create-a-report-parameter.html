@@ -1,0 +1,204 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Create a Report Parameter | DevExpress End-User Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Create a Report Parameter | DevExpress End-User Documentation ">
+      
+      
+      <link rel="icon" href="../../../../../favicon.ico">
+      <link rel="stylesheet" href="../../../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../../../toc.html">
+      <meta name="docfx:tocrel" content="../../../../toc.html">
+      
+      <meta name="docfx:rel" content="../../../../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/DevExpress/dotnet-eud/blob/2024.2/reporting-for-desktop/articles/report-designer/report-designer-for-winforms/use-report-parameters/create-a-report-parameter.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../../../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+      <!-- Matomo Tag Manager -->
+      <script>
+        var _mtm = window._mtm = window._mtm || [];
+        _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
+      </script>
+      <!-- End Matomo Tag Manager -->
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../../../../index.html">
+            <img id="logo" class="svg" src="../../../../../logo.svg" alt="DevExpress EUD">
+            DevExpress EUD
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="create-a-report-parameter">Create a Report Parameter</h1>
+
+<p>This topic demonstrates how to create a report parameter in the <a href="../../report-designer-for-winforms.html">Report Designer</a>. The topic also describes the <a href="#parameter-options">options</a> you can specify for a report parameter.</p>
+<h2 id="create-a-report-parameter-in-the-report-designer">Create a Report Parameter in the Report Designer</h2>
+<p>In the <strong>Report Designer</strong>, you can create a parameter from the <a href="../report-designer-tools/ui-panels/field-list.html">Field List</a>, <a href="../report-designer-tools/ui-panels/property-grid-tabbed-view.html">Properties window</a>, or <a href="../use-expressions/expressions-overview.html#filterstring-editor">FilterString Editor</a>. The created parameter appears in the <a href="../report-designer-tools/ui-panels/field-list.html">Field List</a>'s <strong>Parameters</strong> node.</p>
+<p><img src="../../../../images/field-list-parameters-section.png" alt="A parameter in the Field List"></p>
+<h3 id="create-from-the-field-list">Create From the Field List</h3>
+<p>Right-click the <strong>Parameters</strong> node in the <a href="../report-designer-tools/ui-panels/field-list.html">Field List</a> and select <strong>Add Parameter</strong>.</p>
+<p><img src="../../../../images/field-list-add-parameter.png" alt="Create a parameter from the Field List"></p>
+<p>Specify <a href="#parameter-options">parameter options</a> in the invoked <strong>Add New Parameter</strong> dialog and click <em>OK</em>.</p>
+<p><img src="../../../../images/add-new-parameter-dialog.png" alt="Add New Parameter dialog"></p>
+<h3 id="create-from-the-properties-window">Create From the Properties Window</h3>
+<p>Select a report and click the <strong>Parameters</strong> property's ellipsis button in the <a href="../report-designer-tools/ui-panels/property-grid-tabbed-view.html">Properties window</a>.</p>
+<p><img src="../../../../images/property-grid-add-parameter.png" alt="Create a parameter from the Properties window"></p>
+<p>Click <strong>Add</strong> in the invoked <strong>Report Parameters Editor</strong> dialog to add a new parameter. Specify <a href="#parameter-options">parameter options</a> and click <em>OK</em>.</p>
+<p><img src="../../../../images/report-parameters-editor.png" alt="Report Parameters Editor"></p>
+<h3 id="create-from-the-filterstring-editor">Create From the FilterString Editor</h3>
+<p>You can create a parameter when you construct a condition in the <a href="../use-expressions/expressions-overview.html#filterstring-editor">FilterString Editor</a>. Choose the <strong>Select a parameter</strong> field, click the field, and select <strong>Add Parameter</strong> in the invoked context menu.</p>
+<p><img src="../../../../images/filter-string-editor-add-parameter.png" alt="Create a parameter from the Filter String editor"></p>
+<p>Specify <a href="#parameter-options">parameter options</a> in the invoked <strong>Add New Parameter</strong> dialog and click <em>OK</em>.</p>
+<p><img src="../../../../images/add-new-parameter-dialog.png" alt="Add New Parameter dialog"></p>
+<h2 id="parameter-options">Parameter Options</h2>
+<h3 id="name">Name</h3>
+<p>The name by which you can <a href="reference-report-parameters.html">reference a parameter in a report</a>. Note that report parameters should have unique names.</p>
+<h3 id="description">Description</h3>
+<p>A parameter description that appears on a report's <strong>Print Preview</strong> in the <a href="parameters-panel.html">Parameters panel</a>.</p>
+<p><img src="../../../../images/parameter-description.png" alt="Parameter description"></p>
+<h3 id="visible">Visible</h3>
+<p>Specifies whether a parameter is visible in the <a href="parameters-panel.html">Parameters panel</a>.</p>
+<p><img src="../../../../images/parameter-editor.png" alt="Parameter editor"></p>
+<p>You can assign an <a href="../use-expressions.html">expression</a> to this option. The example below specifies an expression that shows/hides a parameter based on a value of another parameter.</p>
+<p><img src="../../../../images/specify-expression-for-visible-option.png" alt="Specify an expression for the Visible option"></p>
+<p><img src="../../../../images/show-hide-parameter-editor.gif" alt="Show/hide a parameter's editor based on a value of another parameter"></p>
+<h3 id="enabled">Enabled</h3>
+<p>Specifies whether a parameter editor is enabled or disabled in the <a href="parameters-panel.html">Parameters panel</a>. You can set this option to <strong>No</strong> to make a parameter's <a href="#default-value">default value</a> read-only.</p>
+<p><img src="../../../../images/disabled-parameter-editor.png" alt="Disabled parameter editor"></p>
+<p>You can also assign an <a href="../use-expressions.html">expression</a> to this option. The example below specifies an expression that enables/disables a parameter's editor based on a value of another parameter.</p>
+<p><img src="../../../../images/specify-expression-for-enabled-option.png" alt="Specify an expression for the Enabled option"></p>
+<p><img src="../../../../images/enable-disable-parameter-editor.gif" alt="Enable/disable a parameter's editor based on a value of another parameter"></p>
+<h3 id="type">Type</h3>
+<p>The type of parameter values. The following types are available:</p>
+<ul>
+<li>String;</li>
+<li>Date and Time;</li>
+<li>Date;</li>
+<li>Time;</li>
+<li>Number (16-bit integer);</li>
+<li>Number (32-bit integer);</li>
+<li>Number (64-bit integer);</li>
+<li>Number (floating point);</li>
+<li>Number (double-precision floating point);</li>
+<li>Number (decimal);</li>
+<li>Boolean;</li>
+<li>GUID (Globally Unique Identifier).</li>
+</ul>
+<h3 id="default-value">Default Value</h3>
+<p>A parameter's default value. This value is displayed in the <a href="parameters-panel.html">Parameters panel</a> when you open a report's <strong>Print Preview</strong>.</p>
+<p>You can specify an <a href="../use-expressions.html">expression</a> for this option. For example, set this option to <strong>Now()</strong> to use the current date as a date parameter's default value.</p>
+<p><img src="../../../../images/specify-expression-for-parameter-default-value.png" alt="Specify an expression for a parameter's Default Value option"></p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>You can use only <a href="../use-expressions/expression-language.html#constants">constants</a>, <a href="../use-expressions/expression-language.html#operators">operators</a>, and date-time / logical / math / string <a href="../use-expressions/expression-language.html#functions">functions</a> in an expression for a parameter's default value.</p>
+</div>
+<h3 id="allow-null-value">Allow Null Value</h3>
+<p>When the <strong>Allow Null Value</strong> option is enabled, you can leave the parameter's value unspecified.</p>
+<p><img src="../../../../images/parameter-editor-null-value.png" alt="Allow Null Value option"></p>
+<h3 id="allow-multiple-values">Allow Multiple Values</h3>
+<p>When the <strong>Allow Multiple Values</strong> option is enabled, you can specify multiple values for a report parameter.</p>
+<p><img src="../../../../images/parameter-editor-multiple-values.png" alt="Allow Multiple Values option"></p>
+<h3 id="select-all-values">Select All Values</h3>
+<p>Enable the <strong>Select All Values</strong> option to use all elements from a <a href="#value-source">custom set of values</a> as a parameter's <a href="#default-value">default value</a>.</p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>You can specify the <strong>Select All Values</strong> option only when the <strong>Allow Multiple Values</strong> option is enabled.</p>
+</div>
+<h3 id="value-source">Value Source</h3>
+<p>Use the <strong>Value Source</strong> option to specify a custom set of values a parameter can accept. You can create a static list of values, load values from a data source, or specify a date range. Refer to the following topics for more details:</p>
+<ul>
+<li><a href="report-parameters-with-predefined-static-values.html">Report Parameters with Predefined Static Values</a></li>
+<li><a href="report-parameters-with-predefined-dynamic-values.html">Report Parameters with Predefined Dynamic Values</a></li>
+<li><a href="date-range-report-parameters.html">Date Range Report Parameters</a></li>
+</ul>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/DevExpress/dotnet-eud/blob/2024.2/reporting-for-desktop/articles/report-designer/report-designer-for-winforms/use-report-parameters/create-a-report-parameter.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

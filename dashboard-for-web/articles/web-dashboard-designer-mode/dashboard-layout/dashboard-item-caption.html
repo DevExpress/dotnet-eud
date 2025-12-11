@@ -1,0 +1,236 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Dashboard Item Caption | DevExpress End-User Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Dashboard Item Caption | DevExpress End-User Documentation ">
+      
+      
+      <link rel="icon" href="../../../../favicon.ico">
+      <link rel="stylesheet" href="../../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../../toc.html">
+      <meta name="docfx:tocrel" content="../../../toc.html">
+      
+      <meta name="docfx:rel" content="../../../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/DevExpress/dotnet-eud/blob/2024.2/dashboard-for-web/articles/web-dashboard-designer-mode/dashboard-layout/dashboard-item-caption.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+      <!-- Matomo Tag Manager -->
+      <script>
+        var _mtm = window._mtm = window._mtm || [];
+        _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
+      </script>
+      <!-- End Matomo Tag Manager -->
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../../../index.html">
+            <img id="logo" class="svg" src="../../../../logo.svg" alt="DevExpress EUD">
+            DevExpress EUD
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="dashboard-item-caption">Dashboard Item Caption</h1>
+
+<p>Each dashboard item has a caption that is displayed at the top of this item. The caption contains static text and other information, as well as command buttons.</p>
+<p><img src="../../../images/img126135.png" alt="wdd-dashboard-item-caption"></p>
+<p>You can control the dashboard item caption's visibility.</p>
+<ul>
+<li>When the caption is <strong>on</strong>, it is always displayed at the top of the dashboard item. Some command buttons are displayed when you hover the mouse pointer over them.</li>
+<li>When the caption is <strong>off</strong>, it is not visible by default. Some command buttons are displayed in a floating panel when you hover the mouse pointer over them. On touch-based devices, you need to do extra click to show the caption elements when the caption is hidden.</li>
+</ul>
+<p>To show or hide the caption of a dashboard item, go to the dashboard item <strong>Options</strong> menu and use the <strong>Show Caption</strong> option.</p>
+<p><img src="../../../images/img126136.png" alt="wdd-di-caption-options"></p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>The <a href="../dashboard-item-settings/range-filter.html">Range Filter</a> dashboard item's caption is not visible by default.</p>
+</div>
+<p>The dashboard item caption consists of the following elements:</p>
+<ul>
+<li>A <strong>static item</strong> is visible only if the caption is enabled (for example, the item caption, the data reducing icon).</li>
+<li>An <strong>action item</strong> is displayed only when the mouse pointer hovers over the dashboard item caption (for instance, the <em>Export To</em> and <em>Values</em> buttons).</li>
+<li>A <strong>state item</strong> is displayed only in specific dashboards states (for example, the <em>Drill Up</em> and <em>Clear Master Filter</em> buttons).</li>
+<li>A <strong>navigation item</strong> allows you to navigate through different dashboard screens (for example, <em>Dashboards</em> and <em>Back</em> buttons in <a href="../../web-dashboard-viewer-mode/mobile-layout.html">mobile layout</a>).</li>
+</ul>
+<p>The table below lists the information and buttons that can be displayed in the dashboard item caption.</p>
+<table>
+<thead>
+<tr>
+<th>Icon / Text</th>
+<th>Item</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="../../../images/web-item-caption-data-reducing.png" alt=""></td>
+<td><strong>Data Reducing</strong> icon</td>
+<td><strong>Static</strong>. Shows that visible data is limited.</td>
+</tr>
+<tr>
+<td>Text</td>
+<td><strong>Drill-Down Text</strong></td>
+<td><strong>Static</strong>.Shows a value or values from the current drill-down hierarchy. See <a href="../interactivity/drill-down.html">Drill-Down</a> for more details.</td>
+</tr>
+<tr>
+<td>Text</td>
+<td><strong>Caption Text</strong></td>
+<td><strong>Static</strong>. Shows a static text in the caption.</td>
+</tr>
+<tr>
+<td><img src="../../../images/web-item-caption-maximize.png" alt=""></td>
+<td><strong>Maximize</strong> button</td>
+<td><strong>Action</strong>. Expands any dashboard item into the whole dashboard size to examine data in greater detail. Refer to <a href="dashboard-items-layout.html">Dashboard Items Layout</a> for more information.</td>
+</tr>
+<tr>
+<td><img src="../../../images/web-item-caption-restore.png" alt=""></td>
+<td><strong>Restore</strong> button</td>
+<td><strong>Action</strong>. Restores the expanded item to its initial state.</td>
+</tr>
+<tr>
+<td><img src="../../../images/web-item-caption-export.png" alt=""></td>
+<td><strong>Export to</strong> button</td>
+<td><strong>Action</strong>. Invokes the export menu for a dashboard item. To learn how to export individual dashboard items, see <a href="../exporting.html">Exporting</a>.</td>
+</tr>
+<tr>
+<td><img src="../../../images/web-item-caption-values.png" alt=""></td>
+<td><strong>Values</strong> button</td>
+<td><strong>Action</strong>. Invokes a drop-down menu that allows you to switch between provided values (in the pie, card, gauge and maps dashboard items). To learn more, see the <strong>Providing Data</strong> topic for the corresponding <a href="../dashboard-item-settings.html">dashboard item</a>.</td>
+</tr>
+<tr>
+<td><img src="../../../images/web-item-caption-multi-select.png" alt=""></td>
+<td><strong>Multi-Select</strong> button</td>
+<td><strong>Action</strong>. Allows you to filter data by selecting multiple elements in dashboard items.</td>
+</tr>
+<tr>
+<td><img src="../../../images/web-item-caption-select-date-time-period.png" alt=""></td>
+<td><strong>Select Date Time Period</strong> menu / button</td>
+<td><strong>Action</strong>. Allows you to select date-time periods for the Range Filter.</td>
+</tr>
+<tr>
+<td><img src="../../../images/web-item-caption-filters.png" alt=""></td>
+<td><strong>Filters</strong> button</td>
+<td><strong>Action</strong>. Displays filters affecting the current dashboard item or entire dashboard. This button is only available in <a href="../../web-dashboard-viewer-mode/mobile-layout.html">mobile layout</a>.</td>
+</tr>
+<tr>
+<td><img src="../../../images/web-item-caption-clear-master-filter.png" alt=""></td>
+<td><strong>Clear Master Filter</strong> button</td>
+<td><strong>State</strong>. Allows you to reset filtering when a dashboard item acts as the Master Filter. To learn more, see Master Filtering.</td>
+</tr>
+<tr>
+<td><img src="../../../images/web-item-caption-drill-up.png" alt=""></td>
+<td><strong>Drill Up</strong> button</td>
+<td><strong>State</strong>. Allows you to return to the previous detail level when the <a href="../interactivity/drill-down.html">drill-down</a> capability is enabled for this item.</td>
+</tr>
+<tr>
+<td><img src="../../../images/web-item-caption-clear-selection.png" alt=""></td>
+<td><strong>Clear Selection</strong> button</td>
+<td><strong>State</strong>. Allows you to clear the selection inside an item.</td>
+</tr>
+<tr>
+<td><img src="../../../images/web-item-caption-initial-extent.png" alt=""></td>
+<td><strong>Initial Extent</strong> button</td>
+<td><strong>State</strong>. Restores the default size and position of the Map dashboard items.</td>
+</tr>
+<tr>
+<td>Dashboards</td>
+<td><strong>Dashboards</strong> button</td>
+<td><strong>Navigation</strong>. Displays a list of available dashboards.</td>
+</tr>
+<tr>
+<td><img src="../../../images/web-item-caption-back-button.png" alt=""></td>
+<td><strong>Back</strong> button</td>
+<td><strong>Navigation</strong>. Returns to the dashboard items list.</td>
+</tr>
+</tbody>
+</table>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/DevExpress/dotnet-eud/blob/2024.2/dashboard-for-web/articles/web-dashboard-designer-mode/dashboard-layout/dashboard-item-caption.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

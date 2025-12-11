@@ -1,0 +1,187 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Apply Conditional Formatting | DevExpress End-User Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Apply Conditional Formatting | DevExpress End-User Documentation ">
+      
+      
+      <link rel="icon" href="../../../../favicon.ico">
+      <link rel="stylesheet" href="../../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../../toc.html">
+      <meta name="docfx:tocrel" content="../../../toc.html">
+      
+      <meta name="docfx:rel" content="../../../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/DevExpress/dotnet-eud/blob/2024.2/interface-elements-for-desktop/articles/pivot-table/data-presentation/apply-conditional-formatting.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+      <!-- Matomo Tag Manager -->
+      <script>
+        var _mtm = window._mtm = window._mtm || [];
+        _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
+      </script>
+      <!-- End Matomo Tag Manager -->
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../../../index.html">
+            <img id="logo" class="svg" src="../../../../logo.svg" alt="DevExpress EUD">
+            DevExpress EUD
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="apply-conditional-formatting">Apply Conditional Formatting</h1>
+
+<p>You can change the appearance of individual cells based on specific conditions using <strong>Format Rules</strong> context menu. This feature helps to highlight important information, identify trends and exceptions, and compare data.</p>
+<p>To invoke the menu, do the following.</p>
+<ul>
+<li>Right-click the data cell corresponding to the intersection of the required data, row and column field.</li>
+<li>Select the required rule from the list.</li>
+</ul>
+<p><img src="../../../images/img25785.png" alt="WinForms Pivot Format Rules Popup Menu"></p>
+<p>Available format rules are displayed when expanding the <strong>Format Rules</strong> menu.</p>
+<h2 id="highlighting-cells-that-meet-a-specific-condition">Highlighting Cells that Meet a Specific Condition</h2>
+<p>This rule formats cells if values matches one of the predefined conditions, custom condition or contain the specified text.</p>
+<p>To apply this format, do the following:</p>
+<ul>
+<li><p>Choose the <strong>Highlight Cell Rules</strong> menu item and select the rule type.</p>
+<p><img src="../../../images/img26292.png" alt="EU_FormatRulesHighlightingCells"></p>
+</li>
+<li><p>According to the selected rule type, an appropriate dialog window is invoked.</p>
+<p><img src="../../../images/img26317.png" alt="EU-HighlightingCellsDialogBox"></p>
+<p>Specify the rule value(s), choose a format style in the dropdown list, and click the OK button. To apply formatting to all data cells instead of an intersection, clear the <strong>Apply only to specific level</strong> check box.</p>
+</li>
+</ul>
+<h2 id="highlighting-top-or-bottom-cell-values">Highlighting Top or Bottom Cell Values</h2>
+<p>This rule formats cells that contain the highest or lowest values, and values that are above or below the average of the field intersection data cells value.</p>
+<p>To apply this format, do the following:</p>
+<ul>
+<li><p>Choose the <strong>Top/Bottom Rules</strong> menu item and select the rule type.</p>
+<p><img src="../../../images/img26293.png" alt="EU_FormatRulesTopBottom"></p>
+</li>
+<li><p>According to the selected rule type, an appropriate dialog window is invoked.</p>
+<p><img src="../../../images/img26318.png" alt="EU-TopBottomDialogBox"></p>
+<p>Specify the rule value if it is necessary, choose a format style in the dropdown list, and click the OK button.</p>
+</li>
+</ul>
+<h2 id="highlighting-cells-using-data-bars">Highlighting Cells Using Data Bars</h2>
+<p>A data bar fills a cell according to the ratio of the cell's value to the highest and smallest field intersection data cells values. A longer bar corresponds to a higher value, and a shorter bar, to a lower value.</p>
+<p>To apply this format, choose the <strong>Data Bars</strong> menu item and select the bar style format.</p>
+<p><img src="../../../images/img26291.png" alt="EU_FormatRulesDataBars"></p>
+<p>Solid bars and bars with gradient fills are available in various colors.</p>
+<h2 id="applying-color-scales">Applying Color Scales</h2>
+<p>This format shows data distribution and variation using color scales. A cell is filled with a background color that is calculated according to the ratio of the cell's value to the highest and smallest field intersection data cells values.</p>
+<p>To apply this format, choose the <strong>Color Scales</strong> menu item and select one of the predefined two or three-color scales.</p>
+<p><img src="../../../images/img26290.png" alt="EU_FormatRulesColorScales"></p>
+<h2 id="highlighting-cells-using-predefined-icons">Highlighting Cells Using Predefined Icons</h2>
+<p>Icon sets allow you to classify data cells values into three, four or five ranges separated by threshold values, and display a specific icon in a cell according to the range to which this cell value belongs. In the Positive/Negative group, the available icon sets divide column values into three ranges: positive values, negative values and values equal to zero.</p>
+<p>To apply this format, choose the <strong>Icon Sets</strong> menu item and select one of the predefined icon sets.</p>
+<p><img src="../../../images/img26294.png" alt="EU_FormatRulesIconSets"></p>
+<h2 id="conditional-formatting-rules-manager"><a name="manager"></a>Conditional Formatting Rules Manager</h2>
+<p>You can create, sort and modify the created rules using the <strong>Conditional Formatting Rules Manager</strong>. To invoke this manager, select the <strong>Manage Rules...</strong> item from the Format Rules context menu.</p>
+<p><img src="../../../images/img118790.png" alt="WinForms PivotFormat Rules Manager"></p>
+<ul>
+<li>To <strong>create</strong> a new rule, click the <strong>New Rule...</strong> button, select a rule type and specify its parameters. Depending on rule type, you can set maximum and minimum values, specify format, colors or icon style, etc.</li>
+<li>To <strong>edit</strong> the existing rule, click the <strong>Edit Rule...</strong> button and change the rule parameters. Besides that, you can see the rule's format preview and specify row, measure and column in the list of rules in the main window.</li>
+<li>To <strong>delete</strong> the rule, select the rule and click the <strong>Delete Rule</strong> button.</li>
+<li>To <strong>reorder</strong> rules, select the rule and click <strong>Up</strong> or <strong>Down</strong> button.</li>
+</ul>
+<h2 id="deleting-rules">Deleting Rules</h2>
+<p>If you have already applied one or more rules to data cells, the additional <strong>Clear Rules</strong> item is displayed in the <strong>Conditional Formatting</strong> menu.</p>
+<p><img src="../../../images/img26289.png" alt="EU_FormatRulesClearRules"></p>
+<p>You can select one of the following items.</p>
+<ul>
+<li>Click the <strong>Clear Rules from This Intersection</strong> menu item to delete conditional formatting rules from the target fields intersection.</li>
+<li>Click the <strong>Clear Rules from This Measure</strong> menu item to delete conditional formatting rules from the target data field.</li>
+<li>Click the <strong>Clear Rules from All Measures</strong> menu item to delete formatting rules from all data cells.</li>
+</ul>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/DevExpress/dotnet-eud/blob/2024.2/interface-elements-for-desktop/articles/pivot-table/data-presentation/apply-conditional-formatting.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

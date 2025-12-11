@@ -1,0 +1,152 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Wrap Text and Merge Cells | DevExpress End-User Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Wrap Text and Merge Cells | DevExpress End-User Documentation ">
+      
+      
+      <link rel="icon" href="../../../../favicon.ico">
+      <link rel="stylesheet" href="../../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../../toc.html">
+      <meta name="docfx:tocrel" content="../../../toc.html">
+      
+      <meta name="docfx:rel" content="../../../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/DevExpress/dotnet-eud/blob/2024.2/interface-elements-for-desktop/articles/spreadsheet/cell-formatting/wrap-text-and-merge-cells.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+      <!-- Matomo Tag Manager -->
+      <script>
+        var _mtm = window._mtm = window._mtm || [];
+        _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
+      </script>
+      <!-- End Matomo Tag Manager -->
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../../../index.html">
+            <img id="logo" class="svg" src="../../../../logo.svg" alt="DevExpress EUD">
+            DevExpress EUD
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="wrap-text-and-merge-cells">Wrap Text and Merge Cells</h1>
+
+<p>If text is too long to be displayed in a single cell, the <strong>Spreadsheet</strong> allows you to wrap the text to make it display on multiple lines in the cell, or merge cells to combine two or more adjacent cells into a single larger/longer cell.</p>
+<h2 id="merging-cells">Merging Cells</h2>
+<p>To merge cells, follow the instructions below.</p>
+<ol>
+<li><p><a href="../editing-cells/select-cells-or-cell-content.html">Select</a> the cells that you wish to merge.</p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>Make sure that the data you wish to display in the merged cell is contained in the upper-left cell of the selected range, because only the contents of this cell will remain in the merged cell. The data in the other cells will be deleted.</p>
+</div>
+</li>
+<li><p>In the <strong>Alignment</strong> group within the <strong>Home</strong> tab, click the <strong>Merge Cells</strong> button's drop-down arrow and select one of the following items.</p>
+<ul>
+<li><strong>Merge &amp; Center</strong> - merge the selected cells and center the text in a merged cell.</li>
+<li><strong>Merge Across</strong> - merge each row of the selected cell range into larger cells.</li>
+<li><strong>Merge Cells</strong> - merge the selected cells into a single cell.</li>
+</ul>
+<p><img src="../../../images/img21156.png" alt="MergeCells.png"></p>
+</li>
+<li><p>If you change your mind and wish to split a merged cell, select this cell and click the <strong>Unmerge Cells</strong> item in the <strong>Merge Cells</strong> button's drop-down menu. The data of the merged cell appears in the upper-left cell of the range of split cells.</p>
+</li>
+</ol>
+<h2 id="wrapping-text-in-a-cell">Wrapping Text in a Cell</h2>
+<p>To wrap text in a cell, do the following.</p>
+<ol>
+<li><a href="../editing-cells/select-cells-or-cell-content.html">Select</a> a cell or a range of cells containing the text you wish to wrap.</li>
+<li>In the <strong>Alignment</strong> group within the <strong>Home</strong> tab, click the <strong>Wrap Text</strong> button. The text is displayed on multiple lines within the cell.</li>
+<li>To unwrap the text, click the <strong>Wrap Text</strong> button again. The text is displayed in the same way as it was before the wrap option was applied.</li>
+</ol>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/DevExpress/dotnet-eud/blob/2024.2/interface-elements-for-desktop/articles/spreadsheet/cell-formatting/wrap-text-and-merge-cells.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

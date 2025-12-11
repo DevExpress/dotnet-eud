@@ -1,0 +1,242 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Create a Dashboard Parameter | DevExpress End-User Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Create a Dashboard Parameter | DevExpress End-User Documentation ">
+      
+      
+      <link rel="icon" href="../../../../../favicon.ico">
+      <link rel="stylesheet" href="../../../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../../../toc.html">
+      <meta name="docfx:tocrel" content="../../../../toc.html">
+      
+      <meta name="docfx:rel" content="../../../../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/DevExpress/dotnet-eud/blob/2024.2/dashboard-for-desktop/articles/dashboard-designer/data-analysis/using-dashboard-parameters/creating-parameters.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../../../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+      <!-- Matomo Tag Manager -->
+      <script>
+        var _mtm = window._mtm = window._mtm || [];
+        _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
+      </script>
+      <!-- End Matomo Tag Manager -->
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../../../../index.html">
+            <img id="logo" class="svg" src="../../../../../logo.svg" alt="DevExpress EUD">
+            DevExpress EUD
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="create-a-dashboard-parameter-in-the-winforms-designer">Create a Dashboard Parameter in the WinForms Designer</h1>
+
+<p>This topic shows how to add a new dashboard parameter and specify its settings in the Dashboard Designer.</p>
+<h2 id="create-a-parameter-in-the-ui">Create a Parameter in the UI</h2>
+<p>To create dashboard parameters in the Dashboard Designer, follow the steps below.</p>
+<ol>
+<li><p>Click the <strong>Parameters</strong> button from the <strong>Dashboard</strong> page group on the Ribbon's <strong>Home</strong> page.</p>
+<p><img src="../../../../images/parameters_addparameterbutton_ribbon21711.png" alt="Ribbon - Parameters Button"></p>
+</li>
+<li><p>In the invoked dialog, click the <strong>Add</strong> button to create a dashboard parameter.</p>
+<p><img src="../../../../images/parameters_parametersdialog21716.png" alt="Dashboard Parameters Dialog - Add Parameters"></p>
+</li>
+<li><p>Specify the parameter's settings and click <strong>OK</strong> to save the created parameter.</p>
+</li>
+</ol>
+<h2 id="parameter-settings">Parameter Settings</h2>
+<h3 id="name">Name</h3>
+<p>Specifies the parameter name.</p>
+<p>When you create and modify parameter names, follow the rules below:</p>
+<ul>
+<li>A name can contain letters, numbers, and underscores.</li>
+<li>A name cannot contain spaces.</li>
+<li>A name cannot be an empty string.</li>
+<li>The dashboard cannot contain parameters with the same name.</li>
+<li>Names are case-sensitive. For example, you can create the names <em>Parameter</em> and <em>PARAMETER</em> .</li>
+</ul>
+<h3 id="description">Description</h3>
+<p>Specifies the parameter description displayed in the <strong>Parameter</strong> column of the <a href="requesting-parameter-values.html">Dashboard Parameters</a> dialog.</p>
+<p><img src="../../../../images/dashboard-parameter-description-win.png" alt="Dashboard Parameters Dialog - Parameter Description"></p>
+<h3 id="visible">Visible</h3>
+<p>Specifies whether the parameter is visible in the <a href="requesting-parameter-values.html">Dashboard Parameters</a> dialog.</p>
+<h3 id="allow-null">Allow Null</h3>
+<p>Specifies whether a null value can be passed as a parameter value.</p>
+<h3 id="allow-multiselect">Allow Multiselect</h3>
+<p>Specifies whether multi-selection is enabled for the current parameter.</p>
+<p>The following limitations apply to parameters with multi-selection enabled:</p>
+<ul>
+<li>Use the <strong>Is any of</strong> or <strong>Is none of</strong> operators to pass a multi-select parameter to a filter criteria or to the Expression format condition.</li>
+<li>Use the <strong>In</strong> or <strong>Not In</strong> operators to pass a multi-select parameter to a calculated field expression.</li>
+</ul>
+<h3 id="select-all-values">Select All Values</h3>
+<p>Specifies whether all parameter values should be selected in the initial state of the dashboard.</p>
+<p>Note that this option is in effect when <strong>Allow Multiselect</strong> is enabled.</p>
+<h3 id="type">Type</h3>
+<p>Specifies the parameter type.</p>
+<p>The following types are available:</p>
+<ul>
+<li>String</li>
+<li>Date</li>
+<li>Number (16-bit integer)</li>
+<li>Number (32-bit integer)</li>
+<li>Number (64-bit integer)</li>
+<li>Number (floating point)</li>
+<li>Number (double-precision floating point)</li>
+<li>Number (decimal)</li>
+<li>Boolean</li>
+<li>GUID (Globally Unique Identifier)</li>
+</ul>
+<h3 id="value">Value</h3>
+<p>Specifies the default parameter value.</p>
+<p>Note that when the <strong>Allow Multiselect</strong> option is enabled, the <strong>Value</strong> option allows you to select multiple parameter values.</p>
+<h3 id="look-up-settings">Look-Up Settings</h3>
+<p>Specifies the parameter's look-up settings.</p>
+<p>Select the option from the <strong>Look-Up Settings</strong> drop-down list.</p>
+<p><img src="../../../../images/parameters_parametersdialog_lookupsettings21718.png" alt="Parameters Dialog - Look-Up Settings"></p>
+<p>The following <strong>Look-Up Settings</strong> are available in the WinForms Dashboard:</p>
+<h4 id="no-look-up">No Look-Up</h4>
+<p>An end user can specify the parameter value in the <a href="requesting-parameter-values.html">Dashboard Parameters</a> dialog.</p>
+<p>You can set the default value for the parameter in the parameter setting:</p>
+<p><img src="../../../../images/parameters_lookupsettings_nolookup21722.png" alt="Dashboard Parameter Look-Up Settings - No Look-Up"></p>
+<h4 id="static-list">Static List</h4>
+<p>An end user selects a parameter value from a static list.</p>
+<p>To add predefined parameter values, click the ellipsis button in the parameter settings:</p>
+<p><img src="../../../../images/parameters_lookupsettings_static21723.png" alt="Dashboard Parameters Look-Up Settings - Static List"></p>
+<h4 id="dynamic-list">Dynamic List</h4>
+<p>An end user selects a parameter value defined in a data source.</p>
+<p><img src="../../../../images/parameters_lookupsettings_dynamic21842.png" alt="Dashboard Parameters Look-Up Settings - Dynamic List"></p>
+<div class="TIP">
+<h5>Tip</h5>
+<p>You can also create cascading parameters in the Dashboard Designer. For more information, refer to the following topic: <a href="create-cascading-parameters.html">Cascading Parameters</a>.</p>
+</div>
+<p>To provide access to data source values, specify the following options:</p>
+<table>
+<thead>
+<tr>
+<th>UI Settings</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Data Source</strong></td>
+<td>Specifies the data source for the dashboard parameter.</td>
+</tr>
+<tr>
+<td><strong>Data Member</strong></td>
+<td>Specifies the name of the data member with the parameter values for SQL and Entity Framework data sources.</td>
+</tr>
+<tr>
+<td><strong>Value Member</strong></td>
+<td>Specifies the name of the data field for the parameter values.</td>
+</tr>
+<tr>
+<td><strong>Display Member</strong> (optional)</td>
+<td>Specifies the name of the data field displayed in the <strong>Dashboard Parameters</strong> dialog as a value description.</td>
+</tr>
+<tr>
+<td><strong>Sort By</strong> (optional)</td>
+<td>Specifies the data member used to sort parameter values.</td>
+</tr>
+<tr>
+<td><strong>Sort Order</strong> (optional)</td>
+<td>Specifies the sort order.</td>
+</tr>
+</tbody>
+</table>
+<div class="NOTE">
+<h5>Note</h5>
+<p>You cannot use an OLAP data source as the data source for a dashboard parameter.</p>
+</div>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/DevExpress/dotnet-eud/blob/2024.2/dashboard-for-desktop/articles/dashboard-designer/data-analysis/using-dashboard-parameters/creating-parameters.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

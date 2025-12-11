@@ -1,0 +1,188 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Master Filtering | DevExpress End-User Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Master Filtering | DevExpress End-User Documentation ">
+      
+      
+      <link rel="icon" href="../../../../favicon.ico">
+      <link rel="stylesheet" href="../../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../../toc.html">
+      <meta name="docfx:tocrel" content="../../../toc.html">
+      
+      <meta name="docfx:rel" content="../../../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/DevExpress/dotnet-eud/blob/2024.2/dashboard-for-desktop/articles/dashboard-designer/interactivity/master-filtering.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+      <!-- Matomo Tag Manager -->
+      <script>
+        var _mtm = window._mtm = window._mtm || [];
+        _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
+      </script>
+      <!-- End Matomo Tag Manager -->
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../../../index.html">
+            <img id="logo" class="svg" src="../../../../logo.svg" alt="DevExpress EUD">
+            DevExpress EUD
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="master-filtering">Master Filtering</h1>
+
+<p>The <strong>Dashboard</strong> allows you to use any data aware dashboard item as a filter for other dashboard items (<strong>Master Filter</strong>). You can select elements in a <strong>Master Filter</strong> item (grid records, chart bars, pie segments, etc.) to filter data in other dashboard items by the selected values.</p>
+<p><img src="../../../images/img25347.gif" alt="MainFeatures_MasterFiltering_Win"></p>
+<ul>
+<li><a href="#master-filtering-overview">Master Filtering Overview</a></li>
+<li><a href="#master-filter-settings">Master Filter Settings</a></li>
+<li><a href="#apply-filtering">Apply Filtering</a></li>
+</ul>
+<h2 id="master-filtering-overview">Master Filtering Overview</h2>
+<p>Dashboard items can be divided into four groups by their master filtering capabilities.</p>
+<ol>
+<li><p><strong>Data visualization dashboard items</strong> allow you to enable master filtering by specifying the selection mode. The following dashboard items allow you to manage their master filtering mode.</p>
+<ul>
+<li><a href="../dashboard-item-settings/chart.html">Chart</a></li>
+<li><a href="../dashboard-item-settings/scatter-chart.html">Scatter Chart</a></li>
+<li><a href="../dashboard-item-settings/grid.html">Grid</a></li>
+<li><a href="../dashboard-item-settings/pies.html">Pies</a></li>
+<li><a href="../dashboard-item-settings/cards.html">Cards</a></li>
+<li><a href="../dashboard-item-settings/gauges.html">Gauges</a></li>
+<li><a href="../dashboard-item-settings/choropleth-map.html">Choropleth Map</a></li>
+<li><a href="../dashboard-item-settings/geo-point-maps.html">Geo Point Maps</a></li>
+<li><a href="../dashboard-item-settings/treemap.html">Treemap</a></li>
+</ul>
+<p>To learn how to manage master filtering for these items, see <a href="#master-filter-settings">Master Filter Settings</a>.</p>
+</li>
+<li><p><strong>Filter elements</strong> represent a special type of dashboard item whose main purpose is to apply filtering to other dashboard items. This capability is always enabled for these dashboard items.</p>
+<p>The following filter elements are available.</p>
+<ul>
+<li>Combo Box</li>
+<li>List Box</li>
+<li>Tree View</li>
+</ul>
+<p>Instead of switching between standard master filtering modes, some filter elements allow you to switch their type. This allows you to select a single value or multiple values.</p>
+<p>To learn more, see the <a href="../dashboard-item-settings/filter-elements.html">Filter Elements</a> section.</p>
+</li>
+<li><p><strong>Range Filter</strong> is a special type of dashboard item that displays a chart with selection thumbs and allows you to filter out values displayed along the argument axis.</p>
+<p>To learn more, see the <a href="../dashboard-item-settings/range-filter.html">Range Filter</a> section.</p>
+</li>
+<li><p><strong>Dashboard item group</strong> allows you to manage interaction between dashboard items in and out of the group.</p>
+<p>To learn more about the interactivity capabilities of the dashboard item group, see the <strong>Interactivity</strong> paragraph in the <a href="../dashboard-item-settings/dashboard-item-group.html">Dashboard Item Group</a> topic.</p>
+</li>
+</ol>
+<h2 id="master-filter-settings">Master Filter Settings</h2>
+<h3 id="master-filtering-modes">Master Filtering Modes</h3>
+<p>The Master Filter item supports two selection modes.</p>
+<ul>
+<li><em>Multiple</em> - Allows you to select multiple elements in the Master Filter item.</li>
+<li><em>Single</em> - Allows you to select only one element in the Master Filter item. When this mode is enabled, the default selection will be set to a Master Filter element. You can change this selection, but cannot clear it.</li>
+</ul>
+<p>To enable/disable master filtering, use the <strong>Multiple Master Filter</strong> or <strong>Single Master Filter</strong> buttons in the <strong>Data</strong> Ribbon tab.</p>
+<p><img src="../../../images/img21845.png" alt="DataShaping_Interactivity_MultipleMasterFilter_Ribbon"></p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>If the selected dashboard item contains several types of elements that can be used for filtering, the Ribbon or Toolbar will provide the appropriate buttons to switch between these types (e.g., the <strong>Arguments</strong> and <strong>Series</strong> buttons in the Chart). For details, refer to the documentation for individual dashboard items in the <a href="../dashboard-item-settings.html">Dashboard Item Settings</a> section.</p>
+</div>
+<h3 id="filtering-across-data-sources">Filtering Across Data Sources</h3>
+<p>When different items in a dashboard are bound to different data sources, you can specify that a particular Master Filter should be applied across data sources. This means that it will apply filtering to fields with matching names in all data sources.</p>
+<p>Fields are matched by their full names. For fields in other data sources to be affected by Master Filtering, their names must match the name of the field in the current data source, and they must belong to the same hierarchy level so that their full names also match. For instance, <em>Customer.City</em> and <em>Customer.Address.City</em> will not be treated as matching fields.</p>
+<p>To enable filtering across data sources, use the <strong>Cross-Data-Source Filtering</strong> button in the <strong>Data</strong> Ribbon tab.</p>
+<p><img src="../../../images/img19416.png" alt="DataShaping_Interactivity_MasterFilter_CrossDataSource_Ribbon"></p>
+<h3 id="preventing-items-from-being-filtered">Preventing Items from Being Filtered</h3>
+<p>You can prevent specific dashboard items from being affected by Master Filters. To do this, use the <strong>Ignore Master Filters</strong> button in the <strong>Data</strong> Ribbon tab.</p>
+<p><img src="../../../images/img19417.png" alt="DataShaping_Interactivity_MasterFilter_Ignore_Ribbon"></p>
+<h2 id="apply-filtering"><a name="apply-filtering"></a>Apply Filtering</h2>
+<p>To learn how to apply filtering in a specific <a href="../dashboard-item-settings.html">dashboard item</a>, refer to the <strong>Master Filtering</strong> topic in the <strong>Interactivity</strong> section for this item.</p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/DevExpress/dotnet-eud/blob/2024.2/dashboard-for-desktop/articles/dashboard-designer/interactivity/master-filtering.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

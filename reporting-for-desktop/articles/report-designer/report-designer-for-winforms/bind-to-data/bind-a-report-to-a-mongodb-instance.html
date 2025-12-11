@@ -1,0 +1,149 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Bind a Report to a MongoDB Instance | DevExpress End-User Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Bind a Report to a MongoDB Instance | DevExpress End-User Documentation ">
+      
+      
+      <link rel="icon" href="../../../../../favicon.ico">
+      <link rel="stylesheet" href="../../../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../../../toc.html">
+      <meta name="docfx:tocrel" content="../../../../toc.html">
+      
+      <meta name="docfx:rel" content="../../../../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/DevExpress/dotnet-eud/blob/2024.2/reporting-for-desktop/articles/report-designer/report-designer-for-winforms/bind-to-data/bind-a-report-to-a-mongodb-instance.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../../../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+      <!-- Matomo Tag Manager -->
+      <script>
+        var _mtm = window._mtm = window._mtm || [];
+        _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
+      </script>
+      <!-- End Matomo Tag Manager -->
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../../../../index.html">
+            <img id="logo" class="svg" src="../../../../../logo.svg" alt="DevExpress EUD">
+            DevExpress EUD
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="bind-a-report-to-a-mongodb-instance">Bind a Report to a MongoDB Instance</h1>
+
+<p><a href="../add-new-reports.html">Create a new project</a> and add a blank report to this project. Follow the steps below to bind the report to a MongoDB instance.</p>
+<h2 id="invoke-the-data-source-wizard">Invoke the Data Source Wizard</h2>
+<p>Click the report's smart tag, expand the drop-down menu for the <strong>Data Source</strong> property in the &quot;Report Tasks&quot; list, and click <strong>Add Report Data Source</strong>.</p>
+<p><img src="../../../../images/eurd-win-report-smart-tag-add-new-data-source.png" alt="Invoke the Data Source Wizard"></p>
+<h2 id="select-the-mongodb-data-source">Select the MongoDB Data Source</h2>
+<p>Select <strong>MongoDB</strong> in the invoked <strong>Data Source Wizard</strong> and click <em>Next</em>.</p>
+<p><img src="../../../../images/data-source-wizard-select-mongodb.png" alt="Select the MongoDB Data Source"></p>
+<h2 id="specify-connection-properties">Specify Connection Properties</h2>
+<p>Paste the entire string or enter connection fields individually. Refer to the following topic for information on connection string format and options: <a href="https://docs.mongodb.com/manual/reference/connection-string/">Connection String URI Format</a>.</p>
+<p><img src="../../../../images/data-source-wizard-specify-connection-properties.png" alt="Specify connection properties"></p>
+<h2 id="specify-data-queries">Specify Data Queries</h2>
+<p>On the next page, choose database collections that you want to load from the MongoDB instance. Specify the name of the database and database collection in the <strong>Database</strong> and <strong>Collection</strong> columns. You can use the <strong>Filter</strong> column to specify filter conditions for items of the database collections.</p>
+<p>The names of queries to database collections should be unique. A string stored in a query's <strong>Collection</strong> column is the default name for this query. To create several queries to the same database collection, use the <strong>Alias</strong> column to specify different names for these queries.</p>
+<p><img src="../../../../images/data-source-wizard-configure-queries.png" alt="Configure queries to a MongoDB instance"></p>
+<h2 id="use-the-created-mongodb-data-source">Use the Created MongoDB Data Source</h2>
+<p>The created data source appears in the <a href="../report-designer-tools/ui-panels/field-list.html">Field List</a> and <a href="../report-designer-tools/ui-panels/report-explorer.html">Report Explorer</a>.</p>
+<p><img src="../../../../images/field-list-report-explorer-mongodb-data-source.png" alt="MongoDB data source in the Field List and Report Explorer"></p>
+<p>You can bind report controls to the fields from this data source. Refer to the following topic for more information: <a href="../use-report-elements/bind-controls-to-data.html">Bind Report Controls to Data</a></p>
+<h2 id="modify-the-created-mongodb-data-source">Modify the Created MongoDB Data Source</h2>
+<p>You can change connection parameters and modify queries for the created data source. Right-click the data source node in the <strong>Field List</strong> or <strong>Report Explorer</strong> and select <strong>Configure Connections</strong> or <strong>Manage Queries</strong>.</p>
+<p><img src="../../../../images/field-list-manage-mongodb-data-source.png" alt="Modify MongoDB Data Source"></p>
+<p>Reconfigure the connection parameters or queries in the invoked <strong>Connection Editor</strong> and click <em>Finish</em>.</p>
+<p><img src="../../../../images/field-list-reconfigure-mongodb-data-source.png" alt="Reconfigure MongoDB Data Source"></p>
+<p>Right-click the data source node and select <strong>Rebuild Result Schema</strong> to apply the changes.</p>
+<p><img src="../../../../images/field-list-rebuild-result-schema-mongodb-data-source.png" alt="Rebuild Result Schema"></p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/DevExpress/dotnet-eud/blob/2024.2/reporting-for-desktop/articles/report-designer/report-designer-for-winforms/bind-to-data/bind-a-report-to-a-mongodb-instance.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

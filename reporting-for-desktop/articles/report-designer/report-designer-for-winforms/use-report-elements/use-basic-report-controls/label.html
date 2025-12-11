@@ -1,0 +1,357 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Label | DevExpress End-User Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Label | DevExpress End-User Documentation ">
+      
+      
+      <link rel="icon" href="../../../../../../favicon.ico">
+      <link rel="stylesheet" href="../../../../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../../../../toc.html">
+      <meta name="docfx:tocrel" content="../../../../../toc.html">
+      
+      <meta name="docfx:rel" content="../../../../../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/DevExpress/dotnet-eud/blob/2024.2/reporting-for-desktop/articles/report-designer/report-designer-for-winforms/use-report-elements/use-basic-report-controls/label.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../../../../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+      <!-- Matomo Tag Manager -->
+      <script>
+        var _mtm = window._mtm = window._mtm || [];
+        _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
+      </script>
+      <!-- End Matomo Tag Manager -->
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../../../../../index.html">
+            <img id="logo" class="svg" src="../../../../../../logo.svg" alt="DevExpress EUD">
+            DevExpress EUD
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="label">Label</h1>
+
+<h2 id="label-overview">Label Overview</h2>
+<p>The <strong>Label</strong> control displays plain text in a report. Drag the <strong>Label</strong> item from the <a href="../../report-designer-tools/toolbox.html">Toolbox</a> onto the report's area to add a Label control to it.</p>
+<p><img src="../../../../../images/eurd-win-drop-report-control-from-toolbox.png" alt=""></p>
+<p>Double-click the label to invoke its in-place editor and enter the static text.</p>
+<p><img src="../../../../../images/eurd-win-label-static-text.png" alt=""></p>
+<p>Press CTRL+Enter to submit text changes and exit the label's in-place edit mode.</p>
+<h2 id="bind-to-data">Bind to Data</h2>
+<h3 id="display-field-values">Display Field Values</h3>
+<p>You can <a href="../bind-controls-to-data.html">bind</a> the label's <strong>Text</strong> property to a data field obtained from a report's data source. Click the control's smart tag, expand the <strong>Expression</strong> drop-down list and select the data field.</p>
+<p><img src="../../../../../images/eurd-win-label-bind-to-data-field.png" alt=""></p>
+<p>Click the <strong>Expression</strong> option's ellipsis button to invoke the <strong>Expression Editor</strong>. You can use this editor to construct a complex binding expression from two or more data fields.</p>
+<p><img src="../../../../../images/eurd-win-label-expression-binding.png" alt=""></p>
+<p>You can also drag and drop a numeric or text field from the <a href="../../report-designer-tools/ui-panels/field-list.html">Field List</a> to create a new label bound to this field.</p>
+<p><img src="../../../../../images/eurd-win-label-drag-field-from-field-list.png" alt=""></p>
+<p>See the <a href="../bind-controls-to-data.html">Bind Controls to Data</a> topic for more information.</p>
+<p>The <strong>Process Duplicates Mode</strong>, <strong>Process Duplicates Target</strong> and <strong>Process Null Values</strong> options enable you to hide a control when a duplicated or null value appears in an assigned data source.</p>
+<p><img src="../../../../../images/eurd-win-label-process-duplicates-mode.png" alt=""></p>
+<p>You can also use the <strong>Format String</strong> property to specify output values' <a href="../../shape-report-data/format-data.html">format</a>.</p>
+<p><img src="../../../../../images/eurd-win-label-format-string.png" alt=""></p>
+<h3 id="display-summaries">Display Summaries</h3>
+<p>Specify a data range in the <strong>Summary Running</strong> property and select the summary function in the <strong>Summary Expression Editor</strong> to make the label display a <a href="../../shape-report-data/calculate-summaries/calculate-a-summary.html">summary function's result</a>.</p>
+<p><img src="../../../../../images/eurd-win-label-summary-function.png" alt=""></p>
+<h2 id="adjust-the-label-size-and-content">Adjust the Label Size and Content</h2>
+<h3 id="static-content">Static Content</h3>
+<p>You can change label size at design time to fit its static text. Right-click the label and select the <strong>Fit Bounds To Text</strong> toolbar button:</p>
+<ul>
+<li><p>If the <strong>Word Wrap</strong> option is enabled, the command displays control content on multiple lines. It reduces control height and adjusts its width to fit its content.</p>
+<p><img src="../../../../../images/eurd-win-label-fit-bounds-to-text-word-wrap-enabled.png" alt=""></p>
+</li>
+<li><p>If the <strong>Word Wrap</strong> option is disabled and the control's content is partially visible, the command adjusts the control size to display this content.</p>
+<p><img src="../../../../../images/eurd-win-label-fit-bounds-to-text-word-wrap-disabled.png" alt=""></p>
+</li>
+</ul>
+<p>The command's result also depends on the control's <strong>Text Alignment</strong> and <strong>Right To Left</strong> settings.</p>
+<p>Use the <strong>Fit Text To Bounds</strong> button to adjust the control's font size to fit its area. The <strong>Word Wrap</strong> option defines whether the text can occupy multiple lines or should be in a single line.</p>
+<p><img src="../../../../../images/eurd-win-label-fit-text-to-bounds.png" alt=""></p>
+<p>These commands are not available in the following cases:</p>
+<ul>
+<li>A label's text is an empty string;</li>
+<li>A label's text is bound to data;</li>
+<li>A label's <strong>Angle</strong> property is specified.</li>
+</ul>
+<h3 id="data-bound-labels">Data-Bound Labels</h3>
+<p>The <strong>Can Grow</strong> and <strong>Can Shrink</strong> properties allow you to increase or decrease the control's height according to its content in Print Preview mode.</p>
+<table>
+<thead>
+<tr>
+<th>Can Grow is enabled</th>
+<th>Can Grow is disabled</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="../../../../../images/eurd-win-label-can-grow-true.png" alt=""></td>
+<td><img src="../../../../../images/eurd-win-label-can-grow-false.png" alt=""></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Can Shrink is enabled</th>
+<th>CanShrink is disabled</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="../../../../../images/eurd-win-label-can-shrink-true.png" alt=""></td>
+<td><img src="../../../../../images/eurd-win-label-can-shrink-false.png" alt=""></td>
+</tr>
+</tbody>
+</table>
+<p>The <strong>Auto Width</strong> property specifies whether to adjust a data-bound label's width to its content.</p>
+<p>You can also use the opposite <strong>Text Fit Mode</strong> property to adjust a control's font size to fit its boundaries in Print Preview. This property is not available if the <strong>Can Grow</strong>, <strong>Can Shrink</strong> or <strong>Auto Width</strong> option is enabled.</p>
+<table>
+<thead>
+<tr>
+<th>Text Fit Mode = None</th>
+<th>Text Fit Mode = Grow Only</th>
+<th>Text Fit Mode = Shrink Only</th>
+<th>Text Fit Mode = Shrink And Grow</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="../../../../../images/eurd-win-label-text-fit-mode-none.png" alt=""></td>
+<td><img src="../../../../../images/eurd-win-label-text-fit-mode-grow-only.png" alt=""></td>
+<td><img src="../../../../../images/eurd-win-label-text-fit-mode-shrink-only.png" alt=""></td>
+<td><img src="../../../../../images/eurd-win-label-text-fit-mode-shrink-and-grow.png" alt=""></td>
+</tr>
+</tbody>
+</table>
+<p>See the <a href="../../lay-out-dynamic-report-content.html">Arrange Dynamic Report Content</a> topic for more information.</p>
+<h3 id="convert-labels-to-table">Convert Labels to Table</h3>
+<p>You can convert multiple labels to a <a href="../use-tables.html">table</a> to simplify control alignment.</p>
+<p>Hold CTRL or SHIFT and click labels to select them. Right-click any of the selected labels and select <strong>Convert To Table</strong> from the context menu. A table with one row is added to the report instead of the selected labels.</p>
+<p><img src="../../../../../images/eurd-win-label-convert-to-table.png" alt=""></p>
+<p>The <strong>Convert To Table</strong> option is not available if any of the selected labels overlap horizontally.</p>
+<p><img src="../../../../../images/eurd-win-label-labels-overlap.png" alt=""></p>
+<p>The created table occupies horizontal space from the leftmost label's left edge to the rightmost label's right edge, and vertical space from the topmost label's top edge to the lowest label's bottom edge.</p>
+<p>The horizontal gap between labels is included in the left cell.</p>
+<p><img src="../../../../../images/eurd-win-table-space-between-labels.png" alt=""></p>
+<p>The table cells copy all property values from the labels.</p>
+<h2 id="interactivity">Interactivity</h2>
+<p>Check the <strong>Enabled</strong> option in the <strong>Edit Options</strong> category to allow users to <a href="../../provide-interactivity/edit-content-in-print-preview.html">edit a label's content</a> in Print Preview mode.</p>
+<p><img src="../../../../../images/eurd-win-label-edit-options-enabled.png" alt=""></p>
+<p>Click this label in a previewed document to invoke the editor.</p>
+<p><img src="../../../../../images/eurd-win-label-content-editing-in-print-preview.png" alt=""></p>
+<p>Use the label's <strong>Interactive Sorting</strong> option to allow users to click this label in Print Preview to sort report data. Set the <strong>Target Band</strong> property to the Group Header or Detail band, and specify the data field in the <strong>Field Name</strong> property.</p>
+<p><img src="../../../../../images/eurd-win-label-interactive-sorting-options.png" alt=""></p>
+<p>Refer to <a href="../../provide-interactivity/sort-a-report-in-print-preview.html">Sort a Report in Print Preview</a> for a step-by-step tutorial.</p>
+<h2 id="markup-text">Markup Text</h2>
+<p>Enable the <strong>Allow Markup Text</strong> property to format the label's text with markup tags.</p>
+<p><img src="../../../../../images/eurd-label-markup.png" alt=""></p>
+<p><strong>Label</strong> supports the following tags:</p>
+<table>
+<thead>
+<tr>
+<th>Tag</th>
+<th>End Tag</th>
+<th>Supported in XLS / XLSX Export</th>
+<th>Supported in DOCX Export</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>&lt;br&gt;</strong></td>
+<td><strong>&lt;/br&gt;</strong></td>
+<td><img src="../../../../../images/yes.png" alt=""></td>
+<td><img src="../../../../../images/yes.png" alt=""></td>
+<td>Inserts a single line break. Enable the <strong>WordWrap</strong> property to use this tag.</td>
+</tr>
+<tr>
+<td><strong>&lt;nbsp&gt;</strong></td>
+<td>-</td>
+<td><img src="../../../../../images/yes.png" alt=""></td>
+<td><img src="../../../../../images/yes.png" alt=""></td>
+<td>Inserts a space.</td>
+</tr>
+<tr>
+<td><strong>&lt;color</strong>=<em>value</em><strong>&gt;</strong></td>
+<td><strong>&lt;/color&gt;</strong></td>
+<td><img src="../../../../../images/yes.png" alt=""></td>
+<td><img src="../../../../../images/yes.png" alt=""></td>
+<td>Specifies the text color.</td>
+</tr>
+<tr>
+<td><strong>&lt;backcolor</strong>=<em>value</em><strong>&gt;</strong></td>
+<td><strong>&lt;/backcolor&gt;</strong></td>
+<td></td>
+<td><img src="../../../../../images/yes.png" alt=""></td>
+<td>Specifies the background color.</td>
+</tr>
+<tr>
+<td><strong>&lt;size</strong>=<em>value</em><strong>&gt;</strong></td>
+<td><strong>&lt;/size&gt;</strong></td>
+<td><img src="../../../../../images/yes.png" alt=""></td>
+<td><img src="../../../../../images/yes.png" alt=""></td>
+<td>Specifies the font size.</td>
+</tr>
+<tr>
+<td><strong>&lt;b&gt;</strong></td>
+<td><strong>&lt;/b&gt;</strong></td>
+<td><img src="../../../../../images/yes.png" alt=""></td>
+<td><img src="../../../../../images/yes.png" alt=""></td>
+<td>Defines bold text.</td>
+</tr>
+<tr>
+<td><strong>&lt;i&gt;</strong></td>
+<td><strong>&lt;/i&gt;</strong></td>
+<td><img src="../../../../../images/yes.png" alt=""></td>
+<td><img src="../../../../../images/yes.png" alt=""></td>
+<td>Defines italic text.</td>
+</tr>
+<tr>
+<td><strong>&lt;s&gt;</strong></td>
+<td><strong>&lt;/s&gt;</strong></td>
+<td><img src="../../../../../images/yes.png" alt=""></td>
+<td><img src="../../../../../images/yes.png" alt=""></td>
+<td>Defines strikethrough text.</td>
+</tr>
+<tr>
+<td><strong>&lt;u&gt;</strong></td>
+<td><strong>&lt;/u&gt;</strong></td>
+<td><img src="../../../../../images/yes.png" alt=""></td>
+<td><img src="../../../../../images/yes.png" alt=""></td>
+<td>Defines underlined text.</td>
+</tr>
+<tr>
+<td><strong>&lt;r&gt;</strong></td>
+<td><strong>&lt;/r&gt;</strong></td>
+<td></td>
+<td><img src="../../../../../images/yes.png" alt=""></td>
+<td>Defines regular text. This resets any bold, italic, underlined, or strikethrough formats specified with tags or applied in the control’s appearance settings.</td>
+</tr>
+<tr>
+<td><strong>&lt;sub&gt;</strong></td>
+<td><strong>&lt;/sub&gt;</strong></td>
+<td></td>
+<td><img src="../../../../../images/yes.png" alt=""></td>
+<td>Specifies that the text is smaller and displayed lower than the previous character. Export to DOCX does not support nested sub elements. For example, double subscript: 2&lt;sub&gt;2&lt;sub&gt;2&lt;/sub&gt;&lt;/sub&gt;</td>
+</tr>
+<tr>
+<td><strong>&lt;sup&gt;</strong></td>
+<td><strong>&lt;/sup&gt;</strong></td>
+<td></td>
+<td><img src="../../../../../images/yes.png" alt=""></td>
+<td>Defines that the text is smaller and displayed higher than the previous character. Export to DOCX does not support nested sup elements. For example, double superscript: 2&lt;sup&gt;2&lt;sup&gt;2&lt;/sup&gt;&lt;/sup&gt;</td>
+</tr>
+<tr>
+<td><strong>&lt;image=</strong><em>value</em><strong>&gt;</strong></td>
+<td>-</td>
+<td><img src="../../../../../images/yes.png" alt=""></td>
+<td><img src="../../../../../images/yes.png" alt=""></td>
+<td>Inserts an image from the report's named image collection. Supports both raster images and SVG images. Use the report's <strong>Image Resources</strong> property to provide images and reference them by their <strong>Id</strong>. The <strong>image</strong> tag's <strong>size</strong> attribute sets the image display pixel size. If the specified width/height exceeds the label's width/height, it is reduced to display the entire image. Specify the <strong>size</strong> attribute after the tag's value followed by the &quot;;&quot; character.</td>
+</tr>
+<tr>
+<td><strong>&lt;href=</strong><em>value</em><strong>&gt;</strong></td>
+<td><strong>&lt;/href&gt;</strong></td>
+<td></td>
+<td><img src="../../../../../images/yes.png" alt=""></td>
+<td>Displays a hyperlink. The value string specifies the hyperlink source, and the string between the opening and closing tags is the text to display.</td>
+</tr>
+<tr>
+<td><strong>&lt;font&gt;</strong></td>
+<td><strong>&lt;/font&gt;</strong></td>
+<td><img src="../../../../../images/yes.png" alt=""></td>
+<td><img src="../../../../../images/yes.png" alt=""></td>
+<td>Specifies the font family. You can combine it with the color and size settings within a single tag.</td>
+</tr>
+</tbody>
+</table>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/DevExpress/dotnet-eud/blob/2024.2/reporting-for-desktop/articles/report-designer/report-designer-for-winforms/use-report-elements/use-basic-report-controls/label.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

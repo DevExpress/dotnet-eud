@@ -1,0 +1,204 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Select Cells or Cell Content | DevExpress End-User Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Select Cells or Cell Content | DevExpress End-User Documentation ">
+      
+      
+      <link rel="icon" href="../../../../favicon.ico">
+      <link rel="stylesheet" href="../../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../../toc.html">
+      <meta name="docfx:tocrel" content="../../../toc.html">
+      
+      <meta name="docfx:rel" content="../../../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/DevExpress/dotnet-eud/blob/2024.2/interface-elements-for-desktop/articles/spreadsheet/editing-cells/select-cells-or-cell-content.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+      <!-- Matomo Tag Manager -->
+      <script>
+        var _mtm = window._mtm = window._mtm || [];
+        _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
+      </script>
+      <!-- End Matomo Tag Manager -->
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../../../index.html">
+            <img id="logo" class="svg" src="../../../../logo.svg" alt="DevExpress EUD">
+            DevExpress EUD
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="select-cells-or-cell-content">Select Cells or Cell Content</h1>
+
+<h2 id="selecting-cells">Selecting Cells</h2>
+<p>To select cells in the <strong>Spreadsheet</strong>, use the following mouse actions and keyboard shortcuts.</p>
+<ol>
+<li><p>To select a <strong>single cell</strong>, click the cell or press the arrow keys to move to the required cell.</p>
+</li>
+<li><p>To select a <strong>range of cells</strong>, do one of the following.</p>
+<ul>
+<li>Click the first cell in the range and drag it to the last cell.</li>
+<li>Hold down the <strong>SHIFT</strong> key, and then press the arrow keys to extend the selection.</li>
+<li>Click the first cell in the range, hold down the <strong>SHIFT</strong> key, and then click the last cell in the range.</li>
+</ul>
+</li>
+<li><p>To select the <strong>entire worksheet</strong>, click the <strong>Select All</strong> button at the intersection of the column and row headings, or press <strong>CTRL+A</strong>.</p>
+<p><img src="../../../images/img21224.png" alt="SelectAllButton.png"></p>
+</li>
+<li><p>To select <strong>nonadjacent cells</strong>, hold down the <strong>CTRL</strong> key, and then select other cells.</p>
+</li>
+<li><p>To select an <strong>entire row or column</strong>, click the row or column heading.</p>
+<p><img src="../../../images/img21294.png" alt="SelectColumn.png"></p>
+</li>
+<li><p>To select <strong>multiple columns or rows</strong>, drag across the row or column headings.</p>
+<p><img src="../../../images/img21295.png" alt="SelectSeveralColums.png"></p>
+</li>
+<li><p>To select <strong>several nonadjacent rows or columns</strong>, click the heading of the first row or column in the selection, hold down <strong>CTRL</strong>, and then click the headings of other rows or columns you wish to select.</p>
+</li>
+</ol>
+<p>The following table lists the default keyboard shortcuts used for selecting cells in the <strong>Spreadsheet</strong>.</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CTRL+RIGHT ARROW</td>
+<td>Selects the last cell in a row.</td>
+</tr>
+<tr>
+<td>CTRL+LEFT ARROW</td>
+<td>Selects the first cell in a row.</td>
+</tr>
+<tr>
+<td>CTRL+DOWN ARROW</td>
+<td>Selects the last cell in a column.</td>
+</tr>
+<tr>
+<td>CTRL+UP ARROW</td>
+<td>Selects the first cell in a column.</td>
+</tr>
+<tr>
+<td>CTRL+HOME</td>
+<td>Selects the first cell on a worksheet.</td>
+</tr>
+<tr>
+<td>CTRL+END</td>
+<td>Selects the last cell that contains data or formatting on a worksheet.</td>
+</tr>
+<tr>
+<td>CTRL+A</td>
+<td>Selects the entire worksheet.</td>
+</tr>
+<tr>
+<td>CTRL+SHIFT+END</td>
+<td>Extends the selection to the last used cell on a worksheet.</td>
+</tr>
+<tr>
+<td>CTRL+SHIFT+HOME</td>
+<td>Extends the selection to the beginning of the document.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="selecting-cell-content">Selecting Cell Content</h2>
+<p>To select the cell content, do one of the following:</p>
+<ul>
+<li>Double-click the cell, and then drag across the cell content you wish to select.</li>
+<li>Press <strong>F2</strong>, and then drag across the contents of the cell you wish to select, or press <strong>SHIFT+LEFT ARROW</strong> to select the cell content.</li>
+<li>Click the cell, and then drag across the cell content you wish to select in the <strong>Formula Bar</strong>.</li>
+</ul>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/DevExpress/dotnet-eud/blob/2024.2/interface-elements-for-desktop/articles/spreadsheet/editing-cells/select-cells-or-cell-content.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
