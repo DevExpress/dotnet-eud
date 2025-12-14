@@ -12,8 +12,8 @@ The Report Designer UI varies depending on the target platform.
 
 The following topics are available in this section:
 
-* [Reporting for Web](reporting-for-web/articles/index.md)
-* [Reporting for Desktop](reporting-for-desktop/articles/index.md)
+* [Reporting for Web](reporting-for-web/index.md)
+* [Reporting for Desktop](reporting-for-desktop/index.md)
 
 If you search for DevExpress developer documentation with API reference, refer to [.NET Reporting Tools for Web, Mobile, and Desktop](https://docs.devexpress.com/XtraReports/2162/reporting).
 
