@@ -23,7 +23,11 @@ To create a new data extract from the existing data source, perform the followin
 	* To establish a connection to an existing data extract, select **Load an existing data extract from a file** and locate the required _*.dat_ file. Click **Finish**.
 4. **(Conditional)** The next page only appears if you are creating the data extract based on the Entity Framework or Object data sources, and allows you to select the required fields.
 	
+<<<<<<<< HEAD:eud-for-bi-dashboards/dashboard-for-desktop/dashboard-designer/provide-data/binding-to-extract-data-sources.md
 	![DataSourceWizard_Extract_SelectFields](../../images/img123955.png)
+========
+	![DataSourceWizard_Extract_SelectFields](../../../images/img123955.png)
+>>>>>>>> 05df5c28763b4aa9fb5c78d15422603198f71820:eud-for-bi-dashboards/dashboard-for-desktop/articles/dashboard-designer/provide-data/binding-to-extract-data-sources.md
 5. On the next page, you can specify the filter used to extract data. 
 	
 	![DataSourceWizard_Extract_FilterData](../../images/img123131.png)
