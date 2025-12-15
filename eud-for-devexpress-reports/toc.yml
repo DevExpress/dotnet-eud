@@ -1,7 +1,7 @@
 items:
 - name: Reporting for Desktop
   href: reporting-for-desktop/
-  topicHref: reporting-for-desktop/articles/index.md
+  topicHref: reporting-for-desktop/index.md
 - name: Reporting for Web
   href: reporting-for-web/
-  topicHref: reporting-for-web/articles/index.md
+  topicHref: reporting-for-web/index.md

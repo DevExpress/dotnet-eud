@@ -12,9 +12,9 @@ The Dashboard Designer UI varies depending on the target platform.
 
 The following topics are available in this section:
 
-* [Dashboards for Web](dashboard-for-web/articles/index.md)
+* [Dashboards for Web](dashboard-for-web/index.md)
 
-* [Dashboards for Desktop](dashboard-for-desktop/articles/index.md)
+* [Dashboards for Desktop](dashboard-for-desktop/index.md)
 
 If you are looking for developer-oriented documentation with API reference, refer to [Business Intelligence Dashboard](https://docs.devexpress.com/Dashboard/12049/dashboard).
 
