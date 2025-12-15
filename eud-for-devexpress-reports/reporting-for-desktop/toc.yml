@@ -341,7 +341,7 @@
       - name: Conditionally Change a Label's Text
         href: report-designer/report-designer-for-winforms/shape-report-data/specify-conditions-for-report-elements/conditionally-change-a-label-text.md
       - name: Conditionally Change a Band's Visibility
-        href: report-designer/report-designer-for-winforms/shape-report-data/specify-conditions-for-report-elements/conditionally-change-a-bands-visibility-expression-bindings.md
+        href: report-designer/report-designer-for-winforms/shape-report-data/specify-conditions-for-report-elements/conditionally-change-a-bands-visibility.md
       - name: Conditionally Filter Report Data
         href: report-designer/report-designer-for-winforms/shape-report-data/specify-conditions-for-report-elements/conditionally-filter-report-data.md
       - name: Conditionally Suppress Controls

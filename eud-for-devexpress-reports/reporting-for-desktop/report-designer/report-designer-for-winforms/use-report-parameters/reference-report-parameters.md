@@ -34,7 +34,7 @@ You can also use parameters in expressions to specify the visibility of a report
 
 Refer to the following topics for more information:
 
-* [Conditionally Change a Band's Visibility](../shape-report-data/specify-conditions-for-report-elements/conditionally-change-a-bands-visibility-expression-bindings.md)
+* [Conditionally Change a Band's Visibility](../shape-report-data/specify-conditions-for-report-elements/conditionally-change-a-bands-visibility.md)
 * [Conditionally Change a Control's Appearance](../shape-report-data/specify-conditions-for-report-elements/conditionally-change-a-control-appearance.md)
 
 ## Reference in a Control's Text Property
