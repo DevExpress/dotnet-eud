@@ -511,6 +511,18 @@
       href: dashboard-designer/ui-elements/print-preview.md
     - name: Dashboard Surface
       href: dashboard-designer/ui-elements/dashboard-surface.md
+    - name: Expression Editor
+      href: dashboard-designer/ui-elements/expression-editor.md
+      items:
+      - name: Expression Operators, Functions and Constants
+        href: dashboard-designer/ui-elements/expression-editor/expression-operators-functions-and-constants.md
+    - name: Filter Editor
+      href: dashboard-designer/ui-elements/filter-editor.md
+      items:
+      - name: Filter Data via the Filter Editor
+        href: dashboard-designer/ui-elements/filter-editor/filter-data-via-the-filter-editor.md
+      - name: Examples of Using the Filter Editor
+        href: dashboard-designer/ui-elements/filter-editor/examples-of-using-the-filter-editor.md  
 - name: Dashboard Viewer
   href: dashboard-viewer.md
   items:
