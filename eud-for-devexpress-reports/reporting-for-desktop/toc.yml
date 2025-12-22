@@ -883,24 +883,10 @@
         href: print-preview/print-preview-for-winforms/printing-and-page-setup/specify-page-margins-in-print-preview.md
       - name: Print Selection
         href: print-preview/print-preview-for-winforms/printing-and-page-setup/print-selection.md
-    - name: Headers and Footers
-      items:
-      - name: Insert Page Header and Page Footer into Printed Documents
-        href: print-preview/print-preview-for-winforms/headers-and-footers/insert-page-header-and-page-footer-into-printed-documents.md
-      - name: Insert Page Numbers into Printed Documents
-        href: print-preview/print-preview-for-winforms/headers-and-footers/insert-page-numbers-into-printed-documents.md
-      - name: Insert Date and Time into Printed Documents
-        href: print-preview/print-preview-for-winforms/headers-and-footers/insert-date-and-time-into-printed-documents.md
-      - name: Insert the User Name into Printed Documents
-        href: print-preview/print-preview-for-winforms/headers-and-footers/insert-the-user-name-into-printed-documents.md
-      - name: Insert a Logo into Printed Documents
-        href: print-preview/print-preview-for-winforms/headers-and-footers/insert-a-logo-into-printed-documents.md
     - name: Scaling
       items:
       - name: Scale Print Preview by Entering a Zoom Factor
         href: print-preview/print-preview-for-winforms/scaling/scale-print-preview-by-entering-a-zoom-factor.md
-      - name: Scale Print Preview by Specifying Width in Pages
-        href: print-preview/print-preview-for-winforms/scaling/scale-print-preview-by-specifying-width-in-pages.md
     - name: Zooming
       items:
       - name: Zoom Print Preview In or Out
@@ -923,8 +909,6 @@
         href: print-preview/print-preview-for-winforms/viewing-and-navigating/navigate-in-print-preview-using-thumbnails.md
       - name: Search for a Specific Text in Print Preview
         href: print-preview/print-preview-for-winforms/viewing-and-navigating/search-for-a-specific-text-in-print-preview.md
-      - name: Switch Print Preview Display Mode
-        href: print-preview/print-preview-for-winforms/viewing-and-navigating/switch-print-preview-display-mode.md
     - name: Interactivity
       items:
       - name: Content Editing in Print Preview
@@ -963,16 +947,6 @@
         href: print-preview/print-preview-for-winforms/exporting/image-specific-export-options.md
     - name: Passing Parameters in Print Preview
       href: print-preview/print-preview-for-winforms/passing-parameters-in-print-preview.md
-    - name: Miscellaneous
-      items:
-      - name: Customize Printing Settings of Charts
-        href: print-preview/print-preview-for-winforms/miscellaneous/customize-printing-settings-of-charts.md
-      - name: Customize Printing Settings of Grids
-        href: print-preview/print-preview-for-winforms/miscellaneous/customize-printing-settings-of-grids.md
-      - name: Customize Printing Settings of Pivot Tables
-        href: print-preview/print-preview-for-winforms/miscellaneous/customize-printing-settings-of-pivot-tables.md
-      - name: Customize Printing Settings of Tree Views
-        href: print-preview/print-preview-for-winforms/miscellaneous/customize-printing-settings-of-tree-views.md
     - name: Warnings and Error Messages in Print Preview
       href: print-preview/print-preview-for-winforms/warnings-and-error-messages-in-print-preview.md
 - name: Print Preview for WPF
