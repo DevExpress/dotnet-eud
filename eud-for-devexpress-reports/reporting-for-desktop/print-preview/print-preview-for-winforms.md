@@ -6,7 +6,7 @@ legacyId: 4847
 # Print Preview for WinForms
 This section describes the capabilities provided by the Print Preview form. 
 
-Print Preview with a ribbn toolbar:
+Print Preview with a ribbon toolbar:
 
 ![Print Preview with ribbon toolbar](../images/print-preview-with-ribbon.png)
 
