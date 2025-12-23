@@ -5,7 +5,8 @@ legacyId: 4316
 ---
 # Zoom Print Preview by Entering a Zoom Factor
 
-To zoom to a specific zoom factor, сlick the **Zoom** dropdown list button. The following list is invoked:
+To zoom to a specific zoom factor, click the **Zoom** dropdown list button. The following list is invoked:
+
 
 ![Zoom dropdown menu](../../../images/img7284.png)
 		

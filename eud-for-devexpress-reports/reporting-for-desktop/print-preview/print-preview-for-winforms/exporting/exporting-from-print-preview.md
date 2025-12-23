@@ -17,7 +17,7 @@ To export a document and save the resulting file on your hard drive, click the *
 
 Choose the required format from the invoked list.
 
-![Export format menu](../../../images/img7323.png).
+![Export format menu](../../../images/img7323.png)
 
 Then, you may be prompted to define format-specific options. See corresponding help topics in this documentation for details, e.g. PDF-Specific Export Options.
 
