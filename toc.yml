@@ -1,19 +1,7 @@
 items:
-- name: Reporting for Web
-  href: reporting-for-web/
-  topicHref: reporting-for-web/articles/index.md
-- name: Dashboard for Web
-  href: dashboard-for-web/
-  topicHref: dashboard-for-web/articles/index.md
-- name: Interface Elements for Web
-  href: interface-elements-for-web/
-  topicHref: interface-elements-for-web/articles/index.md
-- name: Reporting for Desktop
-  href: reporting-for-desktop/
-  topicHref: reporting-for-desktop/articles/index.md
-- name: Dashboard for Desktop
-  href: dashboard-for-desktop/
-  topicHref: dashboard-for-desktop/articles/index.md
-- name: Interface Elements for Desktop
-  href: interface-elements-for-desktop/
-  topicHref: interface-elements-for-desktop/articles/index.md
+- name: End-User Documentation for DevExpress Reports
+  href: eud-for-devexpress-reports/
+  topicHref: eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports.md
+- name: End-User Documentation for BI Dashboards
+  href: eud-for-bi-dashboards/
+  topicHref: eud-for-bi-dashboards/end-user-documentation-for-bi-dashboards.md
