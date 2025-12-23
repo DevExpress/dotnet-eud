@@ -6,7 +6,13 @@ legacyId: 4847
 # Print Preview for WinForms
 This section describes the capabilities provided by the Print Preview form. 
 
-![Preview_Main](../images/img9129.png)
+Print Preview with a ribbon toolbar:
+
+![Print Preview with ribbon toolbar](../images/print-preview-with-ribbon.png)
+
+Print Preview with a standard toolbar:
+
+![Print Preview with standard toolbar](../images/img9129.png)
 
 &nbsp;
 
@@ -24,18 +30,8 @@ This section describes the capabilities provided by the Print Preview form.
 
 &nbsp;
 
-**Headers and Footers**
-* [Insert Page Header and Page Footer into Printed Documents](print-preview-for-winforms/headers-and-footers/insert-page-header-and-page-footer-into-printed-documents.md)
-* [Insert Page Numbers into Printed Documents](print-preview-for-winforms/headers-and-footers/insert-page-numbers-into-printed-documents.md)
-* [Insert Date and Time into Printed Documents](print-preview-for-winforms/headers-and-footers/insert-date-and-time-into-printed-documents.md)
-* [Insert the User Name into Printed Documents](print-preview-for-winforms/headers-and-footers/insert-the-user-name-into-printed-documents.md)
-* [Insert a Logo into Printed Documents](print-preview-for-winforms/headers-and-footers/insert-a-logo-into-printed-documents.md)
-
-&nbsp;
-
 **Scaling**
 * [Scale Print Preview by Entering a Zoom Factor](print-preview-for-winforms/scaling/scale-print-preview-by-entering-a-zoom-factor.md)
-* [Scale Print Preview by Specifying Width in Pages](print-preview-for-winforms/scaling/scale-print-preview-by-specifying-width-in-pages.md)
 
 &nbsp;
 
@@ -53,7 +49,6 @@ This section describes the capabilities provided by the Print Preview form.
 * [Navigate in Print Preview Using Bookmarks](print-preview-for-winforms/viewing-and-navigating/navigate-in-print-preview-using-bookmarks.md)
 * [Navigate in Print Preview Using Thumbnails](print-preview-for-winforms/viewing-and-navigating/navigate-in-print-preview-using-thumbnails.md)
 * [Search for a Specific Text in Print Preview](print-preview-for-winforms/viewing-and-navigating/search-for-a-specific-text-in-print-preview.md)
-* [Switch Print Preview Display Mode](print-preview-for-winforms/viewing-and-navigating/switch-print-preview-display-mode.md)
 
 &nbsp;
 
@@ -64,7 +59,6 @@ This section describes the capabilities provided by the Print Preview form.
 
 **Watermark and Background**
 * [Change Watermark and Background Settings in Print Preview](print-preview-for-winforms/watermark-and-background/change-watermark-and-background-settings-in-print-preview.md)
-* [Remove a Watermark in Print Preview](print-preview-for-winforms/watermark-and-background/remove-a-watermark-in-print-preview.md)
 
 &nbsp;
 
@@ -85,14 +79,6 @@ This section describes the capabilities provided by the Print Preview form.
 
 **Passing Parameters**
 * [Passing Parameters in Print Preview](print-preview-for-winforms/passing-parameters-in-print-preview.md)
-
-&nbsp;
-
-**Miscellaneous**
-* [Customize Printing Settings of Charts](print-preview-for-winforms/miscellaneous/customize-printing-settings-of-charts.md)
-* [Customize Printing Settings of Grids](print-preview-for-winforms/miscellaneous/customize-printing-settings-of-grids.md)
-* [Customize Printing Settings of Pivot Tables](print-preview-for-winforms/miscellaneous/customize-printing-settings-of-pivot-tables.md)
-* [Customize Printing Settings of Tree Views](print-preview-for-winforms/miscellaneous/customize-printing-settings-of-tree-views.md)
 
 &nbsp;
 

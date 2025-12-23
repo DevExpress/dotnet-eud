@@ -7,20 +7,20 @@ legacyId: 4659
 ## Filter Editor
 The **Filter Editor** is used to edit filter criteria. To create and customize filter criteria, use the ![FilterEditor_EU_AddButton](../../../images/img7350.png) and ![FilterEditor_EU_DeleteButton](../../../images/img7351.png) buttons embedded into the control and context menus supported by the editor's elements:
 
-![FilterEditor_Illustration](../../../images/img5357.png)
+![Filter Editor Interface](../../../images/img5357.png)
 
 **Remarks**
 
 A filter condition **group** is a set of conditions combined by the same logical operator. The following filter expression contains two groups combined by the logical OR operator: "([Product] = 'Chang' And [Quantity] &gt; 20) Or ([Product] In ('Tofu', 'Konbu') And [Quantity] &lt; 100)". In the Filter Editor it's represented as follows:
 
-![CD_FilterEditor_2Groups](../../../images/img7326.png)
+![Filter Editor with Two Condition Groups](../../../images/img7326.png)
 
 For step-by-step examples of creating filter criteria, see [Examples of Using the Filter Editor](examples-of-using-the-filter-editor.md).
 
 ## Add Conditions
 To add a condition to a logical group, do one of the following:
 * Focus any condition within the group or the group's logical operator and then press INSERT or ADD on the keyboard.
-* Click the ![FilterEditor_EU_AddButton](../../../images/img7350.png) button for the group.
+* Click the ![Add Button](../../../images/img7350.png) button for the group.
 * Click the group's logical operator and select **Add Condition**.
 
 To add a condition or a group of conditions that have been copied to the clipboard, press CTRL+V or SHIFT+INSERT. The new condition will be added to the focused group.
@@ -28,7 +28,7 @@ To add a condition or a group of conditions that have been copied to the clipboa
 ## Delete Conditions
 To delete a condition, do one of the following:
 * Focus the condition and press DELETE or SUBTRACT.
-* Click the ![FilterEditor_EU_DeleteButton](../../../images/img7351.png) button.
+* Click the ![Delete Button](../../../images/img7351.png) button.
 
 To delete a group of conditions, do one of the following:
 * Focus the group's logical operator and press DELETE or SUBTRACT

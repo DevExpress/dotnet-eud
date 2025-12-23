@@ -4,10 +4,13 @@ author: Eugeniy Burmistrov
 legacyId: 4317
 ---
 # Zoom Print Preview to Show Whole Pages or Fit Content
-## Zoom Documents to Fit Page Content
-To zoom to the page or text width, click the **Zooming** box. The following list will be invoked.
 
-![previewZoom](../../../images/img7284.png)
+## Zoom Documents to Fit Page Content
+
+To zoom to the page or text width, click the **Zoom** dropdown list button. The following list is invoked.
+
+![Zoom dropdown menu](../../../images/img7284.png)
+
 * To zoom to the page width, click **Page Width**.
 * To zoom to the text width, click **Text Width**.
 
@@ -15,8 +18,11 @@ To zoom to the page or text width, click the **Zooming** box. The following list
 > If the preview window will be resized later, the current zoom factor will also be changed, to fit the current page or text width.
 
 ## Zoom Documents to Display Whole Pages
-First, invoke the zooming dropdown (see above).
+
+![Zoom dropdown menu](../../../images/img7284.png)
+
 * To display one whole page at a time, click **Whole Page**.
+
 * To fit two pages into the current view, click **Two Pages**.
 
 > [!NOTE]
