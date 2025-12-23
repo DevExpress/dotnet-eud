@@ -917,8 +917,6 @@
       items:
       - name: Change Watermark and Background Settings in Print Preview
         href: print-preview/print-preview-for-winforms/watermark-and-background/change-watermark-and-background-settings-in-print-preview.md
-      - name: Remove a Watermark in Print Preview
-        href: print-preview/print-preview-for-winforms/watermark-and-background/remove-a-watermark-in-print-preview.md
     - name: Exporting
       items:
       - name: Exporting from Print Preview

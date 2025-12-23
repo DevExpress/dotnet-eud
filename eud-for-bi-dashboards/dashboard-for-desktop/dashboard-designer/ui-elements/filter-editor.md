@@ -6,7 +6,7 @@ legacyId: 4842
 # Filter Editor
 This section describes the capabilities provided by the Filter Editor, which allows users to visually build filters:
 
-![EndUser_Win_FilterEditor](../../images/img9054.png)
+![Filter Editor with Multiple Condition Groups](../../images/img7326.png)
 
 &nbsp;
 

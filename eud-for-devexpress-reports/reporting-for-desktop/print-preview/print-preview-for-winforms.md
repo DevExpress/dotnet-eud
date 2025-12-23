@@ -59,7 +59,6 @@ Print Preview with a standard toolbar:
 
 **Watermark and Background**
 * [Change Watermark and Background Settings in Print Preview](print-preview-for-winforms/watermark-and-background/change-watermark-and-background-settings-in-print-preview.md)
-* [Remove a Watermark in Print Preview](print-preview-for-winforms/watermark-and-background/remove-a-watermark-in-print-preview.md)
 
 &nbsp;
 
