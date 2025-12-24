@@ -1,4 +1,4 @@
----
+﻿---
 title: UPC-E1
 author: Anna Gubareva
 ---
@@ -10,7 +10,7 @@ The **UPC-E1** is a variation of **UPC-E** code with the number system set to "*
 
 In the example below, the original **UPC-A** code is "**14210000526**". We should remove the leading "**1**" when assigning the string to the control's property, since the code format itself implies its presence. The checksum digit (**1**) is calculated automatically, and the symbology algorithm transforms the rest of the numeral string. The result is **425261**, and it is encoded along with the number system prefix and the check digit into the scanner-readable form.
 
-![](..\/..\/..\/..\/images/eurd-win-bar-code-upc-e1.png)
+![](../../../../images/eurd-win-bar-code-upc-e1.png)
 
 Not every **UPC-A** code can be transformed into the **UPC-E1** (it must meet special requirements).
 
@@ -18,10 +18,10 @@ Not every **UPC-A** code can be transformed into the **UPC-E1** (it must meet sp
 
 1. Drag the **Barcode** item from the report controls toolbox tab and drop it onto the report. 
 
-    ![](..\/..\/..\/..\/images/drag-and-drop-barcode.png)
+    ![](../../../../images/drag-and-drop-barcode.png)
 
 2. Set the control’s **Symbology** property to **UPCE1**. 
 
-    ![](..\/..\/..\/..\/images/upce1-in-designer.png)
+    ![](../../../../images/upce1-in-designer.png)
 
-3. Specify [common param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  barcode properties.
+3. Specify [common](add-bar-codes-to-a-report.md) barcode properties.

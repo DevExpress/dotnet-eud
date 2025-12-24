@@ -1,4 +1,4 @@
----
+﻿---
 title: GS1 QR Code
 author: Polina Tyureva
 ---
@@ -6,23 +6,23 @@ author: Polina Tyureva
 
 **GS1 QR Code** is a variant of the [QR Code](https://en.wikipedia.org/wiki/QR_code) symbology that conforms to [GS1 General Specification](https://www.gs1.org/standards/barcodes-epcrfid-id-keys/gs1-general-specifications).
 
-![](..\/..\/..\/..\/images/barcode-gs1-qr-code.png)
+![](../../../../images/barcode-gs1-qr-code.png)
 
 ## Add the Barcode to a Report
 
 1. Drag the **Barcode** item from the report controls toolbox tab and drop it onto the report. 
 
-    ![](..\/..\/..\/..\/images/drag-and-drop-barcode.png)
+    ![](../../../../images/drag-and-drop-barcode.png)
 
 2. Set the control’s **Symbology** property to **QRCodeGS1**. 
 
-    ![](..\/..\/..\/..\/images/gs1-qrcode-in-designer.png)
+    ![](../../../../images/gs1-qrcode-in-designer.png)
 
-3. Specify [common param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  barcode properties and properties [specific](#specific-properties) to **GS1 QR Code**.
+3. Specify [common](add-bar-codes-to-a-report.md) barcode properties and properties [specific](#specific-properties) to **GS1 QR Code**.
 
 ## Specific Properties
 
-In the [property grid param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } , expand the **Symbology** list and specify the following properties specific to **GS1 QR Code**:
+In the [property grid](../../report-designer-tools/ui-panels/property-grid-tabbed-view.md), expand the **Symbology** list and specify the following properties specific to **GS1 QR Code**:
 
 * **Compaction Mode**
 

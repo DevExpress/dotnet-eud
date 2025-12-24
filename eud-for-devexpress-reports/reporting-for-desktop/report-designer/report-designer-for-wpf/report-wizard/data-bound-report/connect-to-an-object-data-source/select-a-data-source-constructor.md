@@ -1,4 +1,4 @@
----
+﻿---
 title: Select a Data Source Constructor
 author: Anna Gubareva
 legacyId: 116244
@@ -10,4 +10,4 @@ On this wizard page, select a data source constructor to be used to create an in
 
 Enable the **Show only highlighted constructors** check box to exclude irrelevant constructors from the list. Otherwise, all available constructors will be shown.
 
-Click **Next** to proceed to the next wizard page: [Specify the Constructor Parameters param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } .
+Click **Next** to proceed to the next wizard page: [Specify the Constructor Parameters](specify-the-constructor-parameters.md).

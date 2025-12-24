@@ -1,4 +1,4 @@
----
+﻿---
 title: Select the Data Context
 ---
 # Select the Data Context
@@ -9,4 +9,4 @@ On this page, select the required data context from the list of available data c
 
 If the **Browse** button is available on this page, you can also select a data context from a custom assembly.
 
-Click **Next** to proceed to the next wizard page: [Select a Connection String param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } .
+Click **Next** to proceed to the next wizard page: [Select a Connection String](select-a-connection-string.md).

@@ -1,4 +1,4 @@
----
+﻿---
 title: Create Reports
 author: Anna Gubareva
 ---
@@ -8,66 +8,66 @@ This section contains tutorials that explain how to create different reports.
 
 ## Basic Reports
 
-### [Table Reports param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
-![](..\/..\/images/table-report-preview.png)
+### [Table Reports](create-reports/table-reports.md)
+![](../../images/table-report-preview.png)
 
-### [Vertical Reports param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
-![](..\/..\/images/vertical-report-preview.png)
+### [Vertical Reports](create-reports/vertical-reports.md)
+![](../../images/vertical-report-preview.png)
 
 ## Reports with Hierarchical Data
 
-### [Master-Detail Reports with Detail Report Bands param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
-![](..\/..\/images/master-detail-with-detail-report-bands-preview.png)
+### [Master-Detail Reports with Detail Report Bands](create-reports/master-detail-reports-with-detail-report-bands.md)
+![](../../images/master-detail-with-detail-report-bands-preview.png)
 
-### [Master-Detail Reports with Subreports param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
-![](..\/..\/images/master-detail-with-subreport-preview.png)
+### [Master-Detail Reports with Subreports](create-reports/master-detail-reports-with-subreports.md)
+![](../../images/master-detail-with-subreport-preview.png)
 
-### [Hierarchical Reports param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
-![](..\/..\/images/hierarchical-report-preview.png)
+### [Hierarchical Reports](create-reports/hierarchical-reports.md)
+![](../../images/hierarchical-report-preview.png)
 
 ## Invoice Reports
 
-### [Invoices param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
-![](..\/..\/images/manual-invoice-preview.png)
+### [Invoices](create-reports/invoices.md)
+![](../../images/manual-invoice-preview.png)
 
-### [Invoices from Templates param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
-![](..\/..\/images/template-invoice-preview.png)
+### [Invoices from Templates](create-reports/invoices-from-templates.md)
+![](../../images/template-invoice-preview.png)
 
 ## Cross-Tab Reports
 
-### [Cross-Tab Reports param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
-![](..\/..\/images/cross-tab-report-preview.png)
+### [Cross-Tab Reports](create-reports/cross-tab-reports.md)
+![](../../images/cross-tab-report-preview.png)
 
-### [Balance Sheets param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
-![](..\/..\/images/balance-sheet-report-preview.png)
+### [Balance Sheets](create-reports/balance-sheets.md)
+![](../../images/balance-sheet-report-preview.png)
 
 ## Multi-Column Reports
 
-### [Labels and Badges param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
-![](..\/..\/images/labels-and-badges-report-preview.png)
+### [Labels and Badges](create-reports/labels-and-badges.md)
+![](../../images/labels-and-badges-report-preview.png)
 
-### [Multi-Column Reports param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
-![](..\/..\/images/multi-column-report-preview.png)
+### [Multi-Column Reports](create-reports/multi-column-reports.md)
+![](../../images/multi-column-report-preview.png)
 
 ## Interactive Reports
 
 You can add interactive elements to your report to customize it in Print Preview:
 
-### [Interactive E-Forms param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
-![](..\/..\/images/interactive-eform-preview.png)
+### [Interactive E-Forms](create-reports/interactive-e-forms.md)
+![](../../images/interactive-eform-preview.png)
 
 > [!Note]
-> See the [Provide Interactivity param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  section for information on how to provide drill-down and drill-through functionality in your reports.
+> See the [Provide Interactivity](provide-interactivity.md) section for information on how to provide drill-down and drill-through functionality in your reports.
 > 
-> See [Use Report Parameters param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  for instructions on how to submit parameter values in Print Preview to customize your reports.
+> See [Use Report Parameters](use-report-parameters.md) for instructions on how to submit parameter values in Print Preview to customize your reports.
 
 ## Layout Features
 
-### [Reports with Cross-Band Content and Populated Empty Space param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
-![](..\/..\/images/cross-band-and-populated-empty-space-report-preview.png)
+### [Reports with Cross-Band Content and Populated Empty Space](create-reports/reports-with-cross-band-content-and-populated-empty-space.md)
+![](../../images/cross-band-and-populated-empty-space-report-preview.png)
 
-### [Reports with PDF content param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
-![](..\/..\/images/report-with-pdf-content-preview.png)
+### [Reports with PDF content](create-reports/reports-merged-with-pdf.md)
+![](../../images/report-with-pdf-content-preview.png)
 
-### [Reports with a Visual PDF Signature param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
-![](..\/..\/images/report-with-a-visual-pdf-signature.png)
+### [Reports with a Visual PDF Signature](create-reports/reports-with-visual-pdf-signature.md)
+![](../../images/report-with-a-visual-pdf-signature.png)

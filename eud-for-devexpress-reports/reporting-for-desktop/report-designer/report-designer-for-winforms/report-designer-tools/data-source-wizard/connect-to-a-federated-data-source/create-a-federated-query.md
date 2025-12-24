@@ -1,11 +1,11 @@
----
+﻿---
 title: Create a Federated Query
 ---
 # Create a Federated Query
 
 On this wizard page, you can create federated queries based on data from other data sources.
 
-Note that initial data sources can contain data at the root level (e.g., an [Excel data source param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } ) or have one or more queries (e.g., a [SQL data source param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } ).
+Note that initial data sources can contain data at the root level (e.g., an [Excel data source](../../../bind-to-data/bind-a-report-to-an-excel-workbook.md)) or have one or more queries (e.g., a [SQL data source](../../../bind-to-data/bind-a-report-to-a-database.md)).
 
 ## Include Data into Separate Queries
 
@@ -32,14 +32,14 @@ To combine data from multiple data sources into a single query, click **Add Quer
 
 ![](../../../../../images/eurd-win-data-source-wizard-data-federation-add-query.png)
 
-This invokes the [Query Builder param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  designed to federated data sources.
+This invokes the [Query Builder](../../query-builder.md) designed to federated data sources.
 
 ![](../../../../../images/DataFederationUnion-Specify-Query-Type.png)
 
 You can use the **Join**, **Union**, **Union All**, and **Transform** query types to combine data. Refer to the following articles for more information on these query types.
 
-* [Bind a Report to a Join-Based Federated Data Source param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
-* [Bind a Report to a Union-Based Federated Data Source param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
+* [Bind a Report to a Join-Based Federated Data Source](../../../bind-to-data/bind-a-report-to-a-join-based-federated-data-source.md)
+* [Bind a Report to a Union-Based Federated Data Source](../../../bind-to-data/bind-a-report-to-a-union-based-federated-data-source.md)
 * Bind a Report to a Transformation-Based Data Source
 
 ## Specify Master-Detail Relationships
@@ -56,4 +56,4 @@ Once the wizard is complete, you can see the master-detail hierarchy in the Fiel
 
 ![](../../../../../images/data-federation-master-detail-hierarchy-field-list.png)
 
-For more information, refer to the following guide: [Bind a Report to a Federated Master-Detail Data Source param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } .
+For more information, refer to the following guide: [Bind a Report to a Federated Master-Detail Data Source](../../../bind-to-data/bind-a-report-to-a-federated-master-detail-data-source.md).

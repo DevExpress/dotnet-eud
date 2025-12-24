@@ -1,4 +1,4 @@
----
+﻿---
 title: Add Barcodes to a Report
 author: Anna Vekhina
 ---
@@ -6,17 +6,17 @@ author: Anna Vekhina
 
 ## Overview
 
-To insert a barcode into a report, drag the **Barcode** item from the [Toolbox param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  onto the report's area.
+To insert a barcode into a report, drag the **Barcode** item from the [Toolbox](../../report-designer-tools/toolbox.md) onto the report's area.
 
-![](..\/..\/..\/images/eurd-web-add-bar-code-to-report.png)
+![](../../../images/eurd-web-add-bar-code-to-report.png)
 
 After creating the barcode, expand the **Bar Code Tasks** category and select the barcode type (symbology) in the **Symbology** property's drop-down list.
 	
-![](..\/..\/..\/images/eurd-web-bar-code-symbology.png)
+![](../../../images/eurd-web-bar-code-symbology.png)
 	
 After specifying the symbology, you can customize the type-specific options of the barcode, which are listed under the **Symbology** property.
 	
-![](..\/..\/..\/images/eurd-web-bar-code-symbology-property.png)
+![](../../../images/eurd-web-bar-code-symbology-property.png)
 
 ## Main Options
 
@@ -35,13 +35,13 @@ The following are some additional barcode options:
 
 ## Frames for QR Codes
 
-For QR Codes ([QR Code param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } , [GS1 QR Code param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } , and [EPC QR Code param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } ), you can use the **Frame Options** property to configure the frame around the barcode. The Corner and Rectangle frames are available for all types of QR Codes. 
+For QR Codes ([QR Code](qr-code.md), [GS1 QR Code](gs1-qr-code.md), and [EPC QR Code](epc-qr-code.md)), you can use the **Frame Options** property to configure the frame around the barcode. The Corner and Rectangle frames are available for all types of QR Codes. 
 
 ### Corner Frame
 
 The corner frame looks as follows:
 
-![](..\/..\/..\/images/qr-code-corner-frame.png)
+![](../../../images/qr-code-corner-frame.png)
 
 You can specify the following properties for corner frames:
 
@@ -77,7 +77,7 @@ You can specify the following properties for corner frames:
 
 The rectangular frame looks as follows:
 
-![](..\/..\/..\/images/qr-code-rectangle-frame.png)
+![](../../../images/qr-code-rectangle-frame.png)
 
 You can specify the following properties for corner frames:
 
@@ -115,9 +115,9 @@ You can specify the following properties for corner frames:
 
 ## Bind to Data
 
-You can [bind param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  the bar code's **Text** property to a data field obtained from a report's data source. Click the **Text** property's ellipsis button in the [Expressions param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  panel. The invoked [Expression Editor param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  allows you to select a data field or construct a complex binding expression with two or more data fields.
+You can [bind](../bind-controls-to-data.md) the bar code's **Text** property to a data field obtained from a report's data source. Click the **Text** property's ellipsis button in the [Expressions](../../report-designer-tools/ui-panels/expressions-panel.md) panel. The invoked [Expression Editor](../../report-designer-tools/expression-editor.md) allows you to select a data field or construct a complex binding expression with two or more data fields.
 
-![](..\/..\/..\/images/eurd-web-bar-code-bind-to-data.png)
+![](../../../images/eurd-web-bar-code-bind-to-data.png)
 
 
 ## Common Errors
@@ -125,12 +125,12 @@ The following section explains how to work around the most frequently encountere
 
 * The following error message is shown in place of the barcode if the control's dimensions are too small to fit the barcode with its specified resolution.
 	
-	![](..\/..\/..\/images/eurd-web-bar-code-small-boundaries-error.png)
+	![](../../../images/eurd-web-bar-code-small-boundaries-error.png)
 	
 	To get rid of this error, enable the **Auto Module** property and/or increase the barcode's dimensions.
 
 * The following error message appears when the data supplied to a barcode contains characters that are not supported by this barcode type.
 	
-	![](..\/..\/..\/images/eurd-web-bar-code-invalid-characters-error.png)
+	![](../../../images/eurd-web-bar-code-invalid-characters-error.png)
 	
 	To avoid this error, supply data that applies to a particular barcode specification.

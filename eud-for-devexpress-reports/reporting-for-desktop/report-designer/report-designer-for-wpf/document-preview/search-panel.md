@@ -1,4 +1,4 @@
----
+﻿---
 title: Search Panel
 author: Anna Gubareva
 legacyId: 116450
@@ -6,12 +6,12 @@ legacyId: 116450
 # Search Panel
 The **Search** panel allows you to find specific text throughout a report document.
 
-![WPFDesigner_SearchPanel](..\/..\/..\/images/img120301.png)
+![WPFDesigner_SearchPanel](../../../images/img120301.png)
 
-To invoke the **Search** panel, click the **Search** button ![WPFDesigner_PreviewToolbar_Search](..\/..\/..\/images/img120179.png) in the [Toolbar param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  or press CTRL+F.
+To invoke the **Search** panel, click the **Search** button ![WPFDesigner_PreviewToolbar_Search](../../../images/img120179.png) in the [Toolbar](preview-toolbar.md) or press CTRL+F.
 
 In the search box on the left, input the text to find. Click the **Settings** button to invoke the dedicated submenu allowing you to specify whether or not to use case-sensitive search, and whether you are required to match the whole word during the search.
 
-![WPFDesigner_SearchPanelSettings](..\/..\/..\/images/img120302.png)
+![WPFDesigner_SearchPanelSettings](../../../images/img120302.png)
 
 To start searching, or search down again, click **Next**, or press ENTER or CTRL+G. To search backward, click **Previous** or press CTRL+SHIFT+G.

@@ -1,4 +1,4 @@
----
+﻿---
 title: Map Report Template Fields
 ---
 # Map Report Template Fields
@@ -21,4 +21,4 @@ You can also manually enter a static field value in the **Template Field Value**
 
 If you do not provide values to specific template fields, the corresponding elements are added to the resulting report anyway.
 
-You can stop the wizard at this step by clicking **Finish** or click **Next** to proceed to the following wizard page: [Specify Report Template Options param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } .
+You can stop the wizard at this step by clicking **Finish** or click **Next** to proceed to the following wizard page: [Specify Report Template Options](specify-report-template-options.md).

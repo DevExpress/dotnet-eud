@@ -1,28 +1,28 @@
----
+﻿---
 title: Add Report Controls to Containers
 author: Anna Vekhina
 ---
 # Add Report Controls to Containers
 
-The [Panel param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  control allows you to place various report controls on it to combine them into a group. 
+The [Panel](../use-basic-report-controls/panel.md) control allows you to place various report controls on it to combine them into a group. 
 
-![](..\/..\/..\/images/eurd-web-add-label-to-panel.png)
+![](../../../images/eurd-web-add-label-to-panel.png)
 
 You can use this panel to move, copy, change appearance settings, etc. instead of adjusting individual controls.
 
-![](..\/..\/..\/images/eurd-web-move-panel.png)
+![](../../../images/eurd-web-move-panel.png)
 
-A [table cell param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  can also act as a container for other controls.
+A [table cell](../use-tables.md) can also act as a container for other controls.
 
-![](..\/..\/..\/images/eurd-web-add-checkbox-to-tablecell.png)
+![](../../../images/eurd-web-add-checkbox-to-tablecell.png)
 
 Both panel and table cell cannot contain the following report controls:
-* [Cross Tab param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
-* [Subreport param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
-* [Page Break param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
-* [Table of Contents param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
-* [Cross-Band Line and Box param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
+* [Cross Tab](../../create-reports/cross-tab-reports.md)
+* [Subreport](../use-basic-report-controls/subreport.md)
+* [Page Break](../use-basic-report-controls/page-break.md)
+* [Table of Contents](../use-basic-report-controls/table-of-contents.md)
+* [Cross-Band Line and Box](../draw-lines-and-shapes/draw-cross-band-lines-and-boxes.md)
 
 If a panel or table cell includes only one control, you can position it within the container using the **Fit Bounds to Container** command. This command resizes the control so that it occupies all the available space (excluding borders).
 
-![](..\/..\/..\/images/eurd-web-fit-bounds-to-container.png)
+![](../../../images/eurd-web-fit-bounds-to-container.png)

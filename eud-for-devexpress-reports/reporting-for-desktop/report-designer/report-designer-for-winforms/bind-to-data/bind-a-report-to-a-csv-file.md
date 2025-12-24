@@ -1,4 +1,4 @@
----
+﻿---
 title: Bind a Report to a CSV File
 author: Anna Gubareva
 ---
@@ -6,18 +6,18 @@ author: Anna Gubareva
 
 This tutorial describes how to bind a report to data obtained from a CSV file:
 
-1. [Create a new report param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } .
+1. [Create a new report](../add-new-reports.md).
 2. Click the report's smart tag. In the invoked actions list, expand the drop-down menu for the **Data Source** property and click **Add New DataSource**.
 	
-	![](..\/..\/..\/images/eurd-win-report-smart-tag-add-new-data-source.png)
+	![](../../../images/eurd-win-report-smart-tag-add-new-data-source.png)
 
-3. On the first page of the invoked [Data Source Wizard param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } , select **Excel File** and click **Next**.
+3. On the first page of the invoked [Data Source Wizard](../report-designer-tools/data-source-wizard.md), select **Excel File** and click **Next**.
 	
-	![](..\/..\/..\/images/eurd-win-data-source-wizard-select-excel-data-source.png)
+	![](../../../images/eurd-win-data-source-wizard-select-excel-data-source.png)
 
 4. On the next wizard page, click the ellipsis button and locate the required CSV file or enter the full path to the file.
 	
-	![](..\/..\/..\/images/eurd-win-data-source-wizard-select-csv-file.png)
+	![](../../../images/eurd-win-data-source-wizard-select-csv-file.png)
 	
 	Click **Next** to proceed to the next wizard page.
 
@@ -31,21 +31,21 @@ This tutorial describes how to bind a report to data obtained from a CSV file:
 	
 	Enable the **Trim Blanks** check box to delete all leading and trailing empty spaces from each value in the CSV file.
 	
-	![](..\/..\/..\/images/eurd-win-data-source-wizard-select-csv-settings.png)
+	![](../../../images/eurd-win-data-source-wizard-select-csv-settings.png)
 	
 	Specify required settings and click **Next**.
 5. The next page allows you to select required columns and specify their settings.
 	
 	To include a column to the result data source, enable the corresponding **Selected** check box. Use **Name** to specify the custom column name and **Type** to choose the column type.
 	
-	![eurd-win-exceldatasource_selectingcolumns](..\/..\/..\/images/eurd-win-exceldatasource_selectingcolumns.png)
+	![eurd-win-exceldatasource_selectingcolumns](../../../images/eurd-win-exceldatasource_selectingcolumns.png)
 	
 	On this page, you can also preview the result data by clicking the **Preview** button.
 	
-	![eurd-win-exceldatasource_datapreview](..\/..\/..\/images/eurd-win-exceldatasource_datapreview.png)
+	![eurd-win-exceldatasource_datapreview](../../../images/eurd-win-exceldatasource_datapreview.png)
 	
 	Click **Finish** to complete the wizard.
 
-The created data source becomes displayed in the [Report Explorer param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 's **Data Sources** node. The [Field List param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  reflects the data source's hierarchy.
+The created data source becomes displayed in the [Report Explorer](../report-designer-tools/ui-panels/report-explorer.md)'s **Data Sources** node. The [Field List](../report-designer-tools/ui-panels/field-list.md) reflects the data source's hierarchy.
 
-![](..\/..\/..\/images/eurd-win-data-source-wizard-select-excel-result.png)
+![](../../../images/eurd-win-data-source-wizard-select-excel-result.png)

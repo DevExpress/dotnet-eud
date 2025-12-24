@@ -1,4 +1,4 @@
----
+﻿---
 title: Select a Connection String
 author: Anna Gubareva
 legacyId: 116261
@@ -25,4 +25,4 @@ Select an existing connection string available in the current project.
 
 ![WpfReportWizard_EF_SelectConnectionString](../../../../../images/img122128.png)
 
-Click **Next** to proceed to the next wizard page. If the current Entity Framework model provides stored procedures, go to the [Bind to a Stored Procedure param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  page; otherwise, proceed to the [Configure Filters param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  page.
+Click **Next** to proceed to the next wizard page. If the current Entity Framework model provides stored procedures, go to the [Bind to a Stored Procedure](bind-to-a-stored-procedure.md) page; otherwise, proceed to the [Configure Filters](configure-filters.md) page.

@@ -1,4 +1,4 @@
----
+﻿---
 title: Expression Language
 owner: Mary Sammal
 ---
@@ -281,11 +281,11 @@ The expression language includes a set of functions that extend an expression's 
 
 You can also implement custom functions.
 
-See the following topic for a complete list of functions that are available in expressions: [Functions in Expressions param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } .
+See the following topic for a complete list of functions that are available in expressions: [Functions in Expressions](functions-in-expressions.md).
 
 ## Case Sensitivity
 
-Operators are case-insensitive. Case sensitivity of values can depend on the data source. For instance, SQL Server Express 2005 is configured as case-insensitive. In this case, the following [filter expression param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  always evaluates to **True**:
+Operators are case-insensitive. Case sensitivity of values can depend on the data source. For instance, SQL Server Express 2005 is configured as case-insensitive. In this case, the following [filter expression](../shape-report-data/filter-data/filter-data-at-the-report-level.md) always evaluates to **True**:
 
 `Lower(Name) == Upper(Name)`
 
@@ -336,7 +336,7 @@ to bind the control to the UnitPrice data field from the Products data member
 
 ## Report Parameters
 
-Use the following syntax to insert [report parameters param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  in an expression:
+Use the following syntax to insert [report parameters](../use-report-parameters.md) in an expression:
 
 - Type a question mark before a parameter's name.  
 
@@ -356,7 +356,7 @@ Do one of the following to assign an enumeration value to a property:
 
 - The **Expression Editor** can help you specify a string value for built-in enumerations:
 
-  ![Enumeration in Expression Editor](..\/..\/images/eurd-web-enumerations-in-expression-editor.png)
+  ![Enumeration in Expression Editor](../../images/eurd-web-enumerations-in-expression-editor.png)
 
 ## Comments
 

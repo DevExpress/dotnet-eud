@@ -1,4 +1,4 @@
----
+﻿---
 title: Use Charts
 author: Anna Vekhina
 ---
@@ -6,9 +6,9 @@ author: Anna Vekhina
 
 Refer to the following topics for instructions on how to add charts to reports:
 
-* [Use Charts in Reports param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
-* [Add a Chart (Set Up Series Manually) param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
-* [Add a Chart (Use a Series Template) param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
-* [Use Charts to Visualize Grouped Data param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
+* [Use Charts in Reports](use-charts/use-charts-in-reports.md)
+* [Add a Chart (Set Up Series Manually)](use-charts/add-a-chart-set-up-series-manually.md)
+* [Add a Chart (Use a Series Template)](use-charts/add-a-chart-use-a-series-template.md)
+* [Use Charts to Visualize Grouped Data](use-charts/use-charts-to-visualize-grouped-data.md)
 
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: Bind to Data
 author: Anna Gubareva
 ---
@@ -6,17 +6,17 @@ author: Anna Gubareva
 
 The following tutorials illustrate how to bind a report to various data sources:
 
-* [Bind a Report to a Database param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
-* [Bind a Report to a Stored Procedure param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
-* [Specify Query Parameters param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
-* [Bind a Report to an XML File param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
-* [Bind a Report to an Entity Framework Data Source param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
-* [Bind a Report to an Object Data Source param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
-* [Bind a Report to an Excel Workbook param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
-* [Bind a Report to a CSV File param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
-* [Bind a Report to JSON Data param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
-* [Bind a Report to a MongoDB Instance param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
-* [Bind a Report to XPO Persistent Object param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
-* [Bind a Report to a Join-Based Federated Data Source param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
-* [Bind a Report to a Union-Based Federated Data Source param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
-* [Bind a Report to a Federated Master-Detail Data Source param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
+* [Bind a Report to a Database](bind-to-data/bind-a-report-to-a-database.md)
+* [Bind a Report to a Stored Procedure](bind-to-data/bind-a-report-to-a-stored-procedure.md)
+* [Specify Query Parameters](bind-to-data/specify-query-parameters.md)
+* [Bind a Report to an XML File](bind-to-data/bind-a-report-to-an-xml-file.md)
+* [Bind a Report to an Entity Framework Data Source](bind-to-data/bind-a-report-to-an-entity-framework-data-source.md)
+* [Bind a Report to an Object Data Source](bind-to-data/bind-a-report-to-an-object-data-source.md)
+* [Bind a Report to an Excel Workbook](bind-to-data/bind-a-report-to-an-excel-workbook.md)
+* [Bind a Report to a CSV File](bind-to-data/bind-a-report-to-a-csv-file.md)
+* [Bind a Report to JSON Data](bind-to-data/bind-a-report-to-json-data.md)
+* [Bind a Report to a MongoDB Instance](bind-to-data/bind-a-report-to-a-mongodb-instance.md)
+* [Bind a Report to XPO Persistent Object](bind-to-data/bind-a-report-to-an-xpo-persistent-object.md)
+* [Bind a Report to a Join-Based Federated Data Source](bind-to-data/bind-a-report-to-a-join-based-federated-data-source.md)
+* [Bind a Report to a Union-Based Federated Data Source](bind-to-data/bind-a-report-to-a-union-based-federated-data-source.md)
+* [Bind a Report to a Federated Master-Detail Data Source](bind-to-data/bind-a-report-to-a-federated-master-detail-data-source.md)

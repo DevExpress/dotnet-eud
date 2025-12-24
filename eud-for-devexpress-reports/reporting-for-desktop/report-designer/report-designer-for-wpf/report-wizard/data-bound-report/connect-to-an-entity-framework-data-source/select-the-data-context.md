@@ -1,4 +1,4 @@
----
+﻿---
 title: Select the Data Context
 author: Anna Gubareva
 legacyId: 116260
@@ -10,4 +10,4 @@ On this page, select a data context from the list of existing data contexts. You
 
 ![WpfReportWizard_EF_SelectAsembly](../../../../../images/img122127.png)
 
-Click **Next** to proceed to the next wizard page: [Select the Connection String param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } .
+Click **Next** to proceed to the next wizard page: [Select the Connection String](select-a-connection-string.md).

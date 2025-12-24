@@ -1,4 +1,4 @@
----
+﻿---
 title: Use Report Elements
 author: Anna Vekhina
 ---
@@ -6,14 +6,14 @@ author: Anna Vekhina
 
 The documents in this section describe how to use various controls in a report, manipulate report elements and customize the report layout:
 
-* [Manipulate Report Elements param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
-* [Bind Controls to Data param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
-* [Use Embedded Fields (Mail Merge) param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
-* [Validate Report Data Bindings param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
-* [Use Basic Report Controls param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
-* [Use Tables param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
-* [Use Barcodes param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
-* [Use Charts param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
-* [Use Cross Tab param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
-* [Use Gauges and Sparklines param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
-* [Draw Lines and Shapes param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
+* [Manipulate Report Elements](use-report-elements/manipulate-report-elements.md)
+* [Bind Controls to Data](use-report-elements/bind-controls-to-data.md)
+* [Use Embedded Fields (Mail Merge)](use-report-elements/use-embedded-fields-mail-merge.md)
+* [Validate Report Data Bindings](use-report-elements/validate-report-data-bindings.md)
+* [Use Basic Report Controls](use-report-elements/use-basic-report-controls.md)
+* [Use Tables](use-report-elements/use-tables.md)
+* [Use Barcodes](use-report-elements/use-bar-codes.md)
+* [Use Charts](use-report-elements/use-charts.md)
+* [Use Cross Tab](create-reports/cross-tab-reports.md)
+* [Use Gauges and Sparklines](use-report-elements/use-gauges-and-sparklines.md)
+* [Draw Lines and Shapes](use-report-elements/draw-lines-and-shapes.md)

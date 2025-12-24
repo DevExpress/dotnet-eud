@@ -1,4 +1,4 @@
----
+﻿---
 title: Select an Excel Workbook or CSV file
 author: Anna Gubareva
 legacyId: 116247
@@ -8,4 +8,4 @@ On this wizard page, select a required Microsoft Excel workbook (the XLS, XLSX a
 
 ![WpfReportWizard_Excel_SelectFile](../../../../../images/img122198.png)
 
-Click **Next** to proceed to the next wizard page: [Specify Import Settings param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } .
+Click **Next** to proceed to the next wizard page: [Specify Import Settings](specify-import-settings.md).

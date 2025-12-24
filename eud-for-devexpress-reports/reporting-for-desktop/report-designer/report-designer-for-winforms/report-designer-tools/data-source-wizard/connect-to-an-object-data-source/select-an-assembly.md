@@ -1,4 +1,4 @@
----
+﻿---
 title: Select an Assembly
 ---
 # Select an Assembly
@@ -7,4 +7,4 @@ On this page, select an assembly that contains the class type definition of the 
 
 ![eurd-win-data-access-object-binding-highlighted-assembly-attribute-report-wizard](../../../../../images/eurd-win-data-access-object-binding-highlighted-assembly-attribute-report-wizard.png)
 
-Click **Next** to proceed to the next wizard page: [Select a Data Source Type param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } .
+Click **Next** to proceed to the next wizard page: [Select a Data Source Type](select-a-data-source-type.md).

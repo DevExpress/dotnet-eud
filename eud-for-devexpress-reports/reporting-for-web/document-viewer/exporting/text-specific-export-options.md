@@ -1,12 +1,12 @@
----
+﻿---
 title: Text Export Options
 author: Anna Gubareva
 legacyId: 115382
 ---
 # Text Export Options
-Before [exporting a document param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  to TXT format, you can specify TXT-specific options in the **Export Options** panel.
+Before [exporting a document](export-a-document.md) to TXT format, you can specify TXT-specific options in the **Export Options** panel.
 
-![EUD_HTML5DV_TextExportOptions](..\/..\/images/img121806.png)
+![EUD_HTML5DV_TextExportOptions](../../images/img121806.png)
 * **Encoding**
 	
 	Specifies the encoding used in the exported document.

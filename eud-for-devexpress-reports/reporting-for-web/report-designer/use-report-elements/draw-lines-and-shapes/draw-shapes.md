@@ -1,4 +1,4 @@
----
+﻿---
 title: Draw Shapes
 author: Anna Vekhina
 ---
@@ -6,13 +6,13 @@ author: Anna Vekhina
 
 The **Shape** control allows you to draw various shapes in a report.
 
-To add a shape to a report, drag the **Shape** item from the [Toolbox param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  onto the report's area.
+To add a shape to a report, drag the **Shape** item from the [Toolbox](../../report-designer-tools/toolbox.md) onto the report's area.
 
-![](..\/..\/..\/images/eurd-web-add-shape-control-to-report.png)
+![](../../../images/eurd-web-add-shape-control-to-report.png)
 
 Expand the **Tasks** category and use the **Shape** property to select the shape type.
 
-![](..\/..\/..\/images/eurd-web-shape-control-select-type.png)
+![](../../../images/eurd-web-shape-control-select-type.png)
 
 The **Tasks** category provides the following main properties common to all shape types:
 
@@ -27,7 +27,7 @@ Each shape type provides its own specific set of properties which are detailed b
 ## Arrow
 The image below illustrates the **Arrow** type's shape.
 
-![](..\/..\/..\/images/eurd-web-shape-control-arrow-type.png)
+![](../../../images/eurd-web-shape-control-arrow-type.png)
 
 This shape type has the following additional properties:  
 
@@ -39,7 +39,7 @@ This shape type has the following additional properties:
 ## Brace
 The image below illustrates the **Brace** type's shape.
 
-![](..\/..\/..\/images/eurd-web-shape-control-brace-type.png)
+![](../../../images/eurd-web-shape-control-brace-type.png)
 
 Use the following properties to set up a brace:
 
@@ -52,7 +52,7 @@ Use the following properties to set up a brace:
 
 The following image demonstrates the **Bracket** type's shape:
 
-![](..\/..\/..\/images/eurd-web-shape-control-bracket-type.png)
+![](../../../images/eurd-web-shape-control-bracket-type.png)
 
 The **Tip's Length** property is specific to this shape type and defines the length of a bracket's tip.
 
@@ -60,7 +60,7 @@ The **Tip's Length** property is specific to this shape type and defines the len
 
 The image below shows the **Cross** type's shape.
 
-![](..\/..\/..\/images/eurd-web-shape-control-cross-type.png)
+![](../../../images/eurd-web-shape-control-cross-type.png)
 
 This shape type has the following properties:
 
@@ -72,21 +72,21 @@ This shape type has the following properties:
 
 The image below shows **Ellipse** type shapes.
 
-![](..\/..\/..\/images/eurd-web-shape-control-ellipse-type.png)
+![](../../../images/eurd-web-shape-control-ellipse-type.png)
 
 
 ## Line
 
 The following image demonstrates **Line** type shapes:
 
-![](..\/..\/..\/images/eurd-web-shape-control-line-type.png)
+![](../../../images/eurd-web-shape-control-line-type.png)
 
 
 ## Polygon
 
 The image below illustrates the **Polygon** type's shape:
 
-![](..\/..\/..\/images/eurd-web-shape-control-polygon-type.png)
+![](../../../images/eurd-web-shape-control-polygon-type.png)
 
 This shape type has the following properties:
 
@@ -98,7 +98,7 @@ This shape type has the following properties:
 
 The image below illustrates **Rectangle** type shapes.
 
-![](..\/..\/..\/images/eurd-web-shape-control-rectangle-type.png)
+![](../../../images/eurd-web-shape-control-rectangle-type.png)
 
 This shape type's **Fillet** property specifies the rectangle's relative roundness (as a percentage, between **0** and **100**). 
 
@@ -106,7 +106,7 @@ This shape type's **Fillet** property specifies the rectangle's relative roundne
 
 The following image shows a **Star** type shape:
 
-![](..\/..\/..\/images/eurd-web-shape-control-star-type.png)
+![](../../../images/eurd-web-shape-control-star-type.png)
 
 This shape type has the following properties:
 

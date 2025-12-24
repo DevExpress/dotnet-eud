@@ -1,4 +1,4 @@
----
+﻿---
 title: EPC QR Code
 author: Polina Tyureva
 ---
@@ -6,19 +6,19 @@ author: Polina Tyureva
 
 An EPC QR Code (European Payments Council Quick Response Code) is a two-dimensional barcode used to initiate a [SEPA credit transfer (SCT)](https://www.europeanpaymentscouncil.eu/what-we-do/sepa-credit-transfer). The following guideline contains general information about this type of barcode and defines the data format for EPC QR Codes: [Quick Response Code - Guidelines to Enable the Data Capture for the Initiation of a SEPA Credit Transfer](https://www.europeanpaymentscouncil.eu/sites/default/files/kb/file/2022-09/EPC069-12%20v3.0%20Quick%20Response%20Code%20-%20Guidelines%20to%20Enable%20the%20Data%20Capture%20for%20the%20Initiation%20of%20an%20SCT_0.pdf).
 
-![EPC QR Code Barcode](..\/..\/..\/images/barcode-epc-qr-code.png)
+![EPC QR Code Barcode](../../../images/barcode-epc-qr-code.png)
 
 ## Add a Bar Code to a Report
 
 1. Drag the **Barcode** item from the report controls toolbox tab and drop it onto the report. 
 
-    ![](..\/..\/..\/images/eurd-web-add-bar-code-to-report.png)
+    ![](../../../images/eurd-web-add-bar-code-to-report.png)
 
 2. Set the control’s **Symbology** property to **EPC QR Code**. 
 
-    ![](..\/..\/..\/images/epc-qr-code-in-designer.png)
+    ![](../../../images/epc-qr-code-in-designer.png)
 
-3. Specify [common param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  barcode properties and properties [specific](#specific-properties) to **EPC QR Code**.
+3. Specify [common](add-bar-codes-to-a-report.md) barcode properties and properties [specific](#specific-properties) to **EPC QR Code**.
 
 ## Specific Properties
 
@@ -52,7 +52,7 @@ You can specify the barcode data in the following ways:
 
 Pass the data string to Text property. Each data element should be on a new line. Double-click the control to specify the content (editors in the Property grid do not support multi-line text):
 
-![](..\/..\/..\/images/epc-qr-code-data.png)
+![](../../../images/epc-qr-code-data.png)
 
 In the image above, the following data elements are specified:
 
@@ -72,7 +72,7 @@ In the image above, the following data elements are specified:
 | Information: | Empty line |
 
 
-This field is bindable. For more information on data binding, review the following help topic: [Bind Report Controls to Data param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } .
+This field is bindable. For more information on data binding, review the following help topic: [Bind Report Controls to Data](../bind-controls-to-data.md).
 
 ### The ConvertDataToEPC function.
 
@@ -84,7 +84,7 @@ You can specify the data as shown below:
 ConvertDataToEPC('Red Cross of Belgium', 'BE72000000001616', 'BPOTBEB1','20.0', '', 'Urgency fund', 'CHAR', 'Sample EPC QR code')
 ```
 
-![](..\/..\/..\/images/convert-to-epc-function.png)
+![](../../../images/convert-to-epc-function.png)
 
 You can not change the default values for Version and Encoding with this function. The default value for the Version data element is `002` and `UTF-8` for the Encoding.
 
@@ -94,4 +94,4 @@ You can also apply a frame with the words “Zahlen mit Code” (to the right fr
 
 This frame already contains predefined settings according to the standard. To set this frame, go to Behavior → Symbology → FrameOptions, and select **Payment Services Austria Frame**.
 
-![](..\/..\/..\/images/qr-frame-austria-design-time-options.png)
+![](../../../images/qr-frame-austria-design-time-options.png)

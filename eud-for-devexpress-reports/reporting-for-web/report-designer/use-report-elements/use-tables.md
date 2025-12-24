@@ -1,4 +1,4 @@
----
+﻿---
 title: Use Tables
 author: Anna Vekhina
 ---
@@ -6,11 +6,11 @@ author: Anna Vekhina
 
 The documents in this section describe the **Table** control and illustrate its main features:
 
-* [Table Overview param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
-* [Bind Table Cells to Data param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
-* [Manage Table Structure param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
-* [Manipulate Table Elements param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
-* [Hide Table Cells param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
+* [Table Overview](use-tables/table-overview.md)
+* [Bind Table Cells to Data](use-tables/bind-table-cells-to-data.md)
+* [Manage Table Structure](use-tables/manage-table-structure.md)
+* [Manipulate Table Elements](use-tables/manage-table-structure.md)
+* [Hide Table Cells](use-tables/hide-table-cells.md)
 
 > [!Note]
-> Refer to [Table Reports param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  tutorial for instructions on how to create a data-bound table report.
+> Refer to [Table Reports](../create-reports/table-reports.md) tutorial for instructions on how to create a data-bound table report.

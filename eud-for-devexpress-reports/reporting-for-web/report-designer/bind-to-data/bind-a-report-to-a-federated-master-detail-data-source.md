@@ -1,4 +1,4 @@
----
+﻿---
 title: Bind a Report to a Federated Master-Detail Data Source
 owner: Boris Zaitsev
 ---
@@ -8,40 +8,40 @@ This topic describes how to create a federated data source that retrieves data f
 
 ## Create a Report and Data Sources
 
-1. [Create a new blank report param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } .
+1. [Create a new blank report](../../report-designer/report-designer-tools/report-wizard/empty-report.md).
 
-2. [Add a SQL data source param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  that retrieves data from the `Customers` table of the **Northwind** database.
+2. [Add a SQL data source](../../report-designer/bind-to-data/bind-a-report-to-a-database.md) that retrieves data from the `Customers` table of the **Northwind** database.
 
-3. [Add a JSON data source param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  that retrieves product data from the **nwind.json** file. The **nwind.json** file is included in the sample web project if you create it from the Visual Studio template.
+3. [Add a JSON data source](../../report-designer/bind-to-data/bind-a-report-to-json-data.md) that retrieves product data from the **nwind.json** file. The **nwind.json** file is included in the sample web project if you create it from the Visual Studio template.
 
 The Field List pane in the End-User Report Designer appears as follows:
 
-![](..\/..\/images/eurd-web-federated-datasource-master-detail-field-list-before.png)
+![](../../images/eurd-web-federated-datasource-master-detail-field-list-before.png)
 
 ## Create Data Federation
 
-1. Invoke the designer [menu param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  and click **Add Data Source**.
+1. Invoke the designer [menu](../report-designer-tools/menu.md) and click **Add Data Source**.
 
-   ![](..\/..\/images/eurd-web-data-source-menu.png) 
+   ![](../../images/eurd-web-data-source-menu.png) 
 
 
-1. Select **Data Federation** in the invoked [Data Source Wizard param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  and click **Next**.
+1. Select **Data Federation** in the invoked [Data Source Wizard](../report-designer-tools/data-source-wizard.md) and click **Next**.
 
-    ![](..\/..\/images/eurd-web-data-source-wizard-select-data-federation.png)
+    ![](../../images/eurd-web-data-source-wizard-select-data-federation.png)
 
 1.  On the next page, enable check boxes for the SQL data source's table and the JSON data source. The selected items are included in data federation as separate queries.
 
-    ![](..\/..\/images/eurd-web-data-federation-wizard-select-source-queries.png)
+    ![](../../images/eurd-web-data-federation-wizard-select-source-queries.png)
 
 1. Click the **+ (plus) element** command element in the **Configure master-detail relationships** pane, and specify the master-detail relationship as shown below:
 
-    ![](..\/..\/images/eurd-web-data-federation-master-detail-relationship.png)
+    ![](../../images/eurd-web-data-federation-master-detail-relationship.png)
     
     Click **Finish** to complete the Data Source Wizard.
 
-1. The Data Source Wizard creates a new **FederationDataSource** that includes two queries with a master-detail relationship. The [Field List param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  reflects the data source's structure.
+1. The Data Source Wizard creates a new **FederationDataSource** that includes two queries with a master-detail relationship. The [Field List](../../report-designer/report-designer-tools/ui-panels/field-list.md) reflects the data source's structure.
 
-    ![](..\/..\/images/eurd-web-data-federation-master-detail-field-list.png)
+    ![](../../images/eurd-web-data-federation-master-detail-field-list.png)
 
 The Data Source Wizard specifies query names as follows:
 * If the initial data source contains data at the root level (as the JSON data source), the federated query's name is equal to the data source name.
@@ -51,15 +51,15 @@ The Data Source Wizard specifies query names as follows:
 
 You can rename the query in the **Manage Queries** dialog. To invoke the dialog, click the **Manage Queries** button.
 
-![](..\/..\/images/eurd-web-data-federation-master-detail-rename-query.png)
+![](../../images/eurd-web-data-federation-master-detail-rename-query.png)
 
 The **Manage Queries** dialog appears.
 
-![](..\/..\/images/eurd-web-data-federation-master-detail-manage-queries-dialog.png)
+![](../../images/eurd-web-data-federation-master-detail-manage-queries-dialog.png)
 
 Click the query name in the list to invoke the text editor and change the name.
 
-![](..\/..\/images/eurd-web-data-federation-master-detail-manage-queries-dialog-change-name.png)
+![](../../images/eurd-web-data-federation-master-detail-manage-queries-dialog-change-name.png)
 
 The **Manage Queries** dialog allows you to add, modify, or delete queries.
 

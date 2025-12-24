@@ -1,4 +1,4 @@
----
+﻿---
 title: Select a Data Source Member
 author: Anna Gubareva
 legacyId: 116241
@@ -10,4 +10,4 @@ This wizard page allows you to select whether you want bind to the entire object
 
 Select the **Show only highlighted members** check box to exclude irrelevant members from the list. Otherwise, all available members will be shown.
 
-Click **Next** to proceed to the next wizard page. If you select binding to the entire object, proceed to the [Select the Data Binding Mode param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  page. If you choose one of the available public members, go to the [Specify the Member Parameters param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  page.
+Click **Next** to proceed to the next wizard page. If you select binding to the entire object, proceed to the [Select the Data Binding Mode](select-the-data-binding-mode.md) page. If you choose one of the available public members, go to the [Specify the Member Parameters](specify-the-member-parameters.md) page.

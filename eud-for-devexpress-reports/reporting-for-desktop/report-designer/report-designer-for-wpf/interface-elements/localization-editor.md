@@ -1,4 +1,4 @@
----
+﻿---
 title: 'Localization Editor'
 author: Sergey Andreev
 ---
@@ -6,7 +6,7 @@ author: Sergey Andreev
 
 The Localization Editor allows you to change the text of the localizable textual properties for all the controls in a report.
 
-![](..\/..\/..\/images/eurd-wpf-localization-editor-german.png)
+![](../../../images/eurd-wpf-localization-editor-german.png)
 
 The left panel allows you to change the report's language or add a new language to start localization.
 The right panel contains a grid that displays the property name, the text specified for that property in the default language, and the text for the selected language. Text strings of the selected language are editable.
@@ -17,11 +17,11 @@ Use one of the following actions:
 
 * Switch to the **View** Toolbar tab. Click the **dialog box launcher** in the **Localization** group.
 
-    ![](..\/..\/..\/images/eurd-wpf-localization-editor-dialog-box-launcher.png)
+    ![](../../../images/eurd-wpf-localization-editor-dialog-box-launcher.png)
 
-* Click the **Localization** property's ellipsis button in the [Properties Panel param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } .
+* Click the **Localization** property's ellipsis button in the [Properties Panel](properties-panel.md).
 
-    ![](..\/..\/..\/images/eurd-wpf-localization-editor-property-grid-ellipsis.png)
+    ![](../../../images/eurd-wpf-localization-editor-property-grid-ellipsis.png)
 
 ## Use the Localization Editor
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: Specify the Member Parameters
 ---
 # Specify the Member Parameters
@@ -9,4 +9,4 @@ To specify the member parameter's value, use the **Value** column. Enable the ch
 
 ![eurd-win-data-access-object-binding-specify-member-parameters](../../../../../images/eurd-win-data-access-object-binding-specify-member-parameters.png)
 
-Click **Next** to proceed to the next wizard page: [Select the Data Binding Mode param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } .
+Click **Next** to proceed to the next wizard page: [Select the Data Binding Mode](select-the-data-binding-mode.md).

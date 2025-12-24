@@ -1,39 +1,39 @@
----
+﻿---
 title: Calculated Fields Overview
 author: Anna Gubareva
 ---
 # Calculated Fields Overview
 
-Calculated fields allow you to pre-process a report's input data, based on a certain expression. So, using calculated fields allows you to apply complex expressions to one or more data fields that are obtained from your report's underlying data source. Moreover, you can both [group param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  and [sort param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  your report data based on a calculated field's value.
+Calculated fields allow you to pre-process a report's input data, based on a certain expression. So, using calculated fields allows you to apply complex expressions to one or more data fields that are obtained from your report's underlying data source. Moreover, you can both [group](../../shape-report-data/group-and-sort-data/group-data.md) and [sort](../../shape-report-data/group-and-sort-data/sort-data.md) your report data based on a calculated field's value.
 
 ## <a name="overview"></a>Calculated Fields Overview
 
-To create a calculated field, switch to the [Field List param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } , right-click any item inside the data source and select **Add Calculated Field**.
+To create a calculated field, switch to the [Field List](../../report-designer-tools/ui-panels/field-list.md), right-click any item inside the data source and select **Add Calculated Field**.
 
-![](..\/..\/..\/..\/images/eurd-win-add-calculated-field.png)
+![](../../../../images/eurd-win-add-calculated-field.png)
 
- Right-click the calculated field in the **Field List** and select **Edit Expression**. Alternatively, you can select the calculated field, and in the [Property Grid param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } , click the **Expression** property's ellipsis button.
+ Right-click the calculated field in the **Field List** and select **Edit Expression**. Alternatively, you can select the calculated field, and in the [Property Grid](../../report-designer-tools/ui-panels/property-grid-tabbed-view.md), click the **Expression** property's ellipsis button.
 
-![](..\/..\/..\/..\/images/eurd-win-calculated-field-eidt-expression.png)
+![](../../../../images/eurd-win-calculated-field-eidt-expression.png)
 
-In the invoked **Expression Editor**, construct the required expression. You can use data fields, [report parameters param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } , predefined constants as well as various date-time, logical, math and string functions. See the next document section for more information about expression syntax.
+In the invoked **Expression Editor**, construct the required expression. You can use data fields, [report parameters](../../use-report-parameters.md), predefined constants as well as various date-time, logical, math and string functions. See the next document section for more information about expression syntax.
 
-![](..\/..\/..\/..\/images/eurd-win-calculated-field-expression.png)
+![](../../../../images/eurd-win-calculated-field-expression.png)
 
 > [!NOTE]
 > The Expression Editor displays only those data fields that are obtained from a data source specified by the calculated field's **Data Source** and **Data Member** property values.
 
 The report's **Calculated Fields** property provides access to the calculated field collection.
 
-![](..\/..\/..\/..\/images/eurd-win-calculated-field-collection-editor.png)
+![](../../../../images/eurd-win-calculated-field-collection-editor.png)
 
-You can click the **Add Calculated Field** button in the [Toolbar param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 's **Home** tab to invoke the **Calculated Field Collection Editor**.
+You can click the **Add Calculated Field** button in the [Toolbar](../../report-designer-tools/toolbar.md)'s **Home** tab to invoke the **Calculated Field Collection Editor**.
 
-![](..\/..\/..\/..\/images/eurd-win-calculated-field-add-via-toolbar.png)
+![](../../../../images/eurd-win-calculated-field-add-via-toolbar.png)
 
 You can drag the calculated field from the **Field List** onto the required band like an ordinary data field. 
 
-![](..\/..\/..\/..\/images/eurd-win-calculated-field-drop-onto-band.png)
+![](../../../../images/eurd-win-calculated-field-drop-onto-band.png)
 
 You can also group and sort your report data based on the calculated field values.
 
@@ -50,7 +50,7 @@ The type of a value returned by a calculated field is defined by its **Field Typ
 
 If a calculated field expression involves the use of different types, it is necessary to convert them to the same type (e.g., **Max(ToDecimal([Quantity]),[UnitPrice])**)
 
-Although a value that is returned by a calculated field is usually converted to a string (to be displayed in a text-aware report control), it can return a value of any kind. For example, if a database field contains an image, you can set a calculated field's expression to "=...", after which this calculated field can be bound to the [Picture Box param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  control.
+Although a value that is returned by a calculated field is usually converted to a string (to be displayed in a text-aware report control), it can return a value of any kind. For example, if a database field contains an image, you can set a calculated field's expression to "=...", after which this calculated field can be bound to the [Picture Box](../../use-report-elements/use-basic-report-controls/picture-box.md) control.
 
 To construct a valid aggregate expression, use the following format, which consists of four parts.
 
@@ -63,12 +63,12 @@ _[\<Collection>][\<Condition>].\<Aggregate>(\<Expression>)_
 
 You can refer to the currently processed group using the Parent Relationship Traversal Operator ('^'). This allows you to calculate aggregates within groups using expressions like the following: _[][[^.CategoryID] == [CategoryID]].Sum([UnitPrice])_.
 
-For more information, see [Expression Language param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } .
+For more information, see [Expression Language](../../use-expressions/expression-language.md).
 
 ## <a name="examples"></a>Examples
 The following tutorials demonstrate the use of calculated fields in various environments:
 
-* [Calculate an Aggregate Function param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
-* [Calculate a Weighted Average Function param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
-* [Sort Data by a Custom Field param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
-* [Group Data by a Custom Field param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
+* [Calculate an Aggregate Function](calculate-an-aggregate-function.md)
+* [Calculate a Weighted Average Function](../calculate-summaries/calculate-a-weighted-average.md)
+* [Sort Data by a Custom Field](../../shape-report-data/group-and-sort-data/sort-data-by-a-custom-field.md)
+* [Group Data by a Custom Field](../../shape-report-data/group-and-sort-data/group-data-by-a-custom-field.md)

@@ -1,4 +1,4 @@
----
+﻿---
 title: Document Viewer
 author: Anna Gubareva
 legacyId: 117358
@@ -15,37 +15,37 @@ The Viewer has a toolbar with commands that allows you to view, navigate, print 
 &nbsp;
 
 **View and Navigate**
-* [Navigate Between Pages param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
-* [Navigate Using Bookmarks param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
-* [Search for a Specific Text param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
-* [Switch Multipage Mode param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
-* [Zoom param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
+* [Navigate Between Pages](document-viewer/viewing-and-navigating/navigate-between-pages.md)
+* [Navigate Using Bookmarks](document-viewer/viewing-and-navigating/navigate-using-bookmarks.md)
+* [Search for a Specific Text](document-viewer/viewing-and-navigating/search-for-a-specific-text.md)
+* [Switch Multipage Mode](document-viewer/viewing-and-navigating/switch-display-mode.md)
+* [Zoom](document-viewer/viewing-and-navigating/zooming.md)
 
 &nbsp;
 
 **Interactivity**
-* [Edit Content param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
+* [Edit Content](document-viewer/content-editing.md)
 
 &nbsp;
 
 **Parameters**
-* [Specify Parameter Values param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
+* [Specify Parameter Values](document-viewer/passing-parameter-values.md)
 
 &nbsp;
 
 **Print**
-* [Print the Document param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
+* [Print the Document](document-viewer/printing.md)
 
 &nbsp;
 
 **Export**
-* [Export a  Document param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
-* [CSV-Specific Export Options param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
-* [HTML-Specific Export Options param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
-* [Image-Specific Export Options param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
-* [MHT-Specific Export Options param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
-* [PDF-Specific Export Options param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
-* [RTF-Specific Export Options param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
-* [Text-Specific Export Options param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
-* [XLS-Specific Export Options param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
-* [XLSX-Specific Export Options param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
+* [Export a  Document](document-viewer/exporting/export-a-document.md)
+* [CSV-Specific Export Options](document-viewer/exporting/csv-specific-export-options.md)
+* [HTML-Specific Export Options](document-viewer/exporting/html-specific-export-options.md)
+* [Image-Specific Export Options](document-viewer/exporting/image-specific-export-options.md)
+* [MHT-Specific Export Options](document-viewer/exporting/mht-specific-export-options.md)
+* [PDF-Specific Export Options](document-viewer/exporting/pdf-specific-export-options.md)
+* [RTF-Specific Export Options](document-viewer/exporting/rtf-specific-export-options.md)
+* [Text-Specific Export Options](document-viewer/exporting/text-specific-export-options.md)
+* [XLS-Specific Export Options](document-viewer/exporting/xls-specific-export-options.md)
+* [XLSX-Specific Export Options](document-viewer/exporting/xlsx-specific-export-options.md)

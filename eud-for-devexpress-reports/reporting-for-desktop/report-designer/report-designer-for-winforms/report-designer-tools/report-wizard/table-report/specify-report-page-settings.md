@@ -1,4 +1,4 @@
----
+﻿---
 title: 'Specify Report Page Settings'
 ---
 
@@ -22,4 +22,4 @@ This wizard page allows you to specify the following report properties:
 
 You can change these settings after you finish the wizard in the Report Designer's Property Grid.
 
-If you want to customize the report further, click **Next** to proceed to the next wizard page: [Choose a Report Color Scheme param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } . Otherwise, click **Finish** to complete report customization.
+If you want to customize the report further, click **Next** to proceed to the next wizard page: [Choose a Report Color Scheme](choose-a-report-color-scheme.md). Otherwise, click **Finish** to complete report customization.

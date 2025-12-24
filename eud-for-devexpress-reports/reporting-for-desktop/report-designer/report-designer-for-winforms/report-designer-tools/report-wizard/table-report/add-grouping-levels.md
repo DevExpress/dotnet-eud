@@ -1,4 +1,4 @@
----
+﻿---
 title: Add Grouping Levels
 ---
 # Add Grouping Levels
@@ -20,4 +20,4 @@ You can stop the wizard on this step by clicking **Finish**. In this case, your 
 
 ![eurd-win-report-wizard-master-detail-group-data-result](../../../../../images/eurd-win-report-wizard-master-detail-group-data-result.png)
 
-If you want to customize your report further, click **Next**. If data grouping has been applied on this page, you will proceed to the [Specify Summary Options param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  page. If you have not grouped your data, you will skip the summaries step and go to the [Specify Report Page Settings param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  page.
+If you want to customize your report further, click **Next**. If data grouping has been applied on this page, you will proceed to the [Specify Summary Options](specify-summary-options.md) page. If you have not grouped your data, you will skip the summaries step and go to the [Specify Report Page Settings](specify-report-page-settings.md) page.

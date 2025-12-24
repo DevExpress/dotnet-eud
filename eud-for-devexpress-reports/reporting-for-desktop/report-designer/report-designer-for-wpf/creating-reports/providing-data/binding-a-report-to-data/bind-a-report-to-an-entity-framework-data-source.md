@@ -1,4 +1,4 @@
----
+﻿---
 title: Bind a Report to an Entity Framework Data Source
 author: Anna Gubareva
 legacyId: 116271
@@ -10,7 +10,7 @@ To bind a report to an Entity Framework data source, do the following:
 
 # Create a Report
 
-[Create a new report param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } .
+[Create a new report](../../basic-operations/create-a-new-report.md).
 ## Select a Data Source and Specify Data Context
 
 Right-click the report and select **Edit...** in the context menu. In the invoked dialog, expand the **Data Source** drop-down and click the **Add New** button.
@@ -57,6 +57,6 @@ Configure the parameters to be passed to the selected stored procedure. Be sure 
 
 ## Result	
 
-The newly created Entity Framework data source will be displayed in the **Components** node of the [Report Explorer param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } . Additionally, the hierarchy of the data source will be reflected by the [Field List param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } .
+The newly created Entity Framework data source will be displayed in the **Components** node of the [Report Explorer](../../../interface-elements/report-explorer.md). Additionally, the hierarchy of the data source will be reflected by the [Field List](../../../interface-elements/field-list.md).
 
 ![EUD_WpfReportDesigner_EFDataSource](../../../../../images/img123567.png)

@@ -1,4 +1,4 @@
----
+﻿---
 title: Choose a Report Layout
 author: Anna Gubareva
 legacyId: 116235
@@ -10,10 +10,10 @@ Additionally, this page allows you to specify the page orientation for your repo
 
 The following options are available if data grouping has been applied.
 
-![WPDDesigner_ReportWizard_ReportLayout](..\/..\/..\/..\/images/img122891.png)
+![WPDDesigner_ReportWizard_ReportLayout](../../../../images/img122891.png)
 
 If data hasn't been grouped, you will see the following report layout options.
 
-![WPDDesigner_ReportWizard_ReportLayout2](..\/..\/..\/..\/images/img122892.png)
+![WPDDesigner_ReportWizard_ReportLayout2](../../../../images/img122892.png)
 
-You can stop the wizard at this step by clicking **Finish**. If you want to customize your report further, click **Next** to proceed to the next wizard page: [Choose a Report Style param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } .
+You can stop the wizard at this step by clicking **Finish**. If you want to customize your report further, click **Next** to proceed to the next wizard page: [Choose a Report Style](choose-a-report-style.md).

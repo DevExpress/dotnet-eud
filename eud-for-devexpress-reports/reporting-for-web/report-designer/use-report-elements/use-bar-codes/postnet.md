@@ -1,4 +1,4 @@
----
+﻿---
 title: PostNet
 author: Anna Vekhina
 ---
@@ -8,16 +8,16 @@ author: Anna Vekhina
 
 Unlike most other barcodes, in which data is encoded in the width of the bars and spaces, **PostNet** actually encodes data in the height of the bars. That's why all the bars are of the same width, but not the same height.
 
-![](..\/..\/..\/images/eurd-web-bar-code-postnet.png)
+![](../../../images/eurd-web-bar-code-postnet.png)
 
 ## Add the Barcode to a Report
 
 1. Drag the **Barcode** item from the report controls toolbox tab and drop it onto the report. 
 
-    ![](..\/..\/..\/images/eurd-web-add-bar-code-to-report.png)
+    ![](../../../images/eurd-web-add-bar-code-to-report.png)
 
 2. Set the control’s **Symbology** property to **PostNet**. 
 
-    ![](..\/..\/..\/images/postnet-in-designer.png)
+    ![](../../../images/postnet-in-designer.png)
 
-3. Specify [common param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  barcode properties.
+3. Specify [common](add-bar-codes-to-a-report.md) barcode properties.

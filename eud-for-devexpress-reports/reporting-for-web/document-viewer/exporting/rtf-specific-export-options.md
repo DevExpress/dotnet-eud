@@ -1,12 +1,12 @@
----
+﻿---
 title: RTF Export Options
 author: Anna Gubareva
 legacyId: 115381
 ---
 # RTF Export Options
-Before [exporting a document param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  to RTF, you can specify RTF-specific options in the **Export Options** panel.
+Before [exporting a document](export-a-document.md) to RTF, you can specify RTF-specific options in the **Export Options** panel.
 
-![EUD_HTML5DV_RtfExportOptions](..\/..\/images/img121805.png)
+![EUD_HTML5DV_RtfExportOptions](../../images/img121805.png)
 * **Export Mode**
 	
 	Specifies how a document is exported to RTF. The following modes are available.

@@ -1,12 +1,12 @@
----
+﻿---
 title: HTML Export Options
 author: Anna Gubareva
 legacyId: 115377
 ---
 # HTML Export Options
-Before [exporting a document param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  to HTML format, you can specify HTML-specific options in the **Export Options** panel.
+Before [exporting a document](export-a-document.md) to HTML format, you can specify HTML-specific options in the **Export Options** panel.
 
-![EUD_HTML5DV_HtmlExportOptions](..\/..\/images/img121799.png)
+![EUD_HTML5DV_HtmlExportOptions](../../images/img121799.png)
 * **Export Mode**
 	
 	Specifies how a document is exported to HTML. The following modes are available.
@@ -33,9 +33,7 @@ Before [exporting a document param($match) $path = $match.Groups[1].Value; if ($
 * **Use HRef Hyperlinks**
 	
 	Specifies whether to enable the use of standard HTML link references in document navigation.
-* **Allow URLs with JS Content**
 	
-	Specifies whether the JavaScript code can be placed in URLs in the resulting HTML document.
 * **Remove Secondary Symbols**
 	
 	Specifies whether to remove all secondary symbols (for instance, **Space**, **Carriage Return**, etc.) in the resulting document to reduce its size.

@@ -1,4 +1,4 @@
----
+﻿---
 title: Bind a Report to a Join-Based Federated Data Source
 owner: Boris Zaitsev
 ---
@@ -8,77 +8,77 @@ This topic describes how to create a federated data source that joins data from 
 
 ## Create a Report and Data Sources
 
-1. [Create a new blank report param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } .
+1. [Create a new blank report](../../report-designer/report-designer-tools/report-wizard/empty-report.md).
 
-2. [Add a SQL data source param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  that retrieves data from the `Invoices` view of the **Northwind** database.
+2. [Add a SQL data source](../../report-designer/bind-to-data/bind-a-report-to-a-database.md) that retrieves data from the `Invoices` view of the **Northwind** database.
 
-3. [Add a JSON data source param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  that retrieves customer data from the [https://raw.githubusercontent.com/DevExpress-Examples/DataSources/master/JSON/customers.json](https://raw.githubusercontent.com/DevExpress-Examples/DataSources/master/JSON/customers.json) location.
+3. [Add a JSON data source](../../report-designer/bind-to-data/bind-a-report-to-json-data.md) that retrieves customer data from the [https://raw.githubusercontent.com/DevExpress-Examples/DataSources/master/JSON/customers.json](https://raw.githubusercontent.com/DevExpress-Examples/DataSources/master/JSON/customers.json) location.
 
-    ![](..\/..\/images/eurd-web-federated-datasource-json-datasource.png)
+    ![](../../images/eurd-web-federated-datasource-json-datasource.png)
 
 ## Create Data Federation
 
-1. Invoke the designer [menu param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  and click **Add Data Source**.
+1. Invoke the designer [menu](../report-designer-tools/menu.md) and click **Add Data Source**.
 
-   ![](..\/..\/images/eurd-web-data-source-menu.png) 
+   ![](../../images/eurd-web-data-source-menu.png) 
 
 
-1. Select **Data Federation** in the invoked [Data Source Wizard param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  and click **Next**.
+1. Select **Data Federation** in the invoked [Data Source Wizard](../report-designer-tools/data-source-wizard.md) and click **Next**.
 
-    ![](..\/..\/images/eurd-web-data-source-wizard-select-data-federation.png)
+    ![](../../images/eurd-web-data-source-wizard-select-data-federation.png)
 
 1. On the next page, click the **+ (plus) button** and select **Join** to add a Join query.
 
-    ![](..\/..\/images/eurd-web-data-federation-wizard-add-join-query.png)
+    ![](../../images/eurd-web-data-federation-wizard-add-join-query.png)
 
-1. In the invoked [Query Builder param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } , drag and drop the table from the SQL data source onto the design surface.
+1. In the invoked [Query Builder](../../report-designer/report-designer-tools/query-builder.md), drag and drop the table from the SQL data source onto the design surface.
 
-    ![](..\/..\/images/eurd-web-data-federation-query-builder-drop-table.png)
+    ![](../../images/eurd-web-data-federation-query-builder-drop-table.png)
 
 1. Drag and drop the JSON data source onto the design surface.
 
-    ![](..\/..\/images/eurd-web-data-federation-query-builder-drop-json-table.png)
+    ![](../../images/eurd-web-data-federation-query-builder-drop-json-table.png)
 
 1. Click a field in one table and drag it to the related field in another table to create a Join relationship. 
 
-    ![](..\/..\/images/eurd-web-data-federation-query-builder-create-join-relationship.png)
+    ![](../../images/eurd-web-data-federation-query-builder-create-join-relationship.png)
 
 1. Select the line that indicates a relationship and click the Edit button in the upper right corner of the design surface to invoke the Relation Properties editor.
 
-    ![](..\/..\/images/eurd-web-data-federation-query-builder-relation-properties-editor.png)
+    ![](../../images/eurd-web-data-federation-query-builder-relation-properties-editor.png)
 
    The editor allows you to change the join type and operator.
 
 1. Select the data fields that you want to include in the result set.
 
-    ![](..\/..\/images/eurd-web-data-federation-query-builder-select-fields.png)
+    ![](../../images/eurd-web-data-federation-query-builder-select-fields.png)
 
     You can specify a different name for a field. Click the field's **Alias** cell and enter the field name.
 
 
 1. Click the **+ (plus) button** to add a field to the query. Click the field's **f-button** to switch to the Expression edit mode.
 
-    ![](..\/..\/images/eurd-data-federation-query-builder-f-button.png)
+    ![](../../images/eurd-data-federation-query-builder-f-button.png)
 
-1. Click the **ellipsis (...)** in the field to invoke the [Expression Editor param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  and construct an expression for the field value:
+1. Click the **ellipsis (...)** in the field to invoke the [Expression Editor](../use-expressions.md) and construct an expression for the field value:
 
     ```
     [Invoices.UnitPrice] * [Invoices.Quantity] 
     ```
 
-    ![](..\/..\/images/eurd-web-data-federation-query-builder-construct-expression.png)
+    ![](../../images/eurd-web-data-federation-query-builder-construct-expression.png)
 
     Click **OK** to close the Expression Editor. 
 
 1. Specify _Amount_ as the alias for the newly created calculated field.
 
-    ![](..\/..\/images/eurd-web-data-federation-query-builder-calculated-field.png)
+    ![](../../images/eurd-web-data-federation-query-builder-calculated-field.png)
 
     Click **OK** to close the Query Builder. 
     
 1. Click **Finish** to complete the Data Source Wizard.
 
-    ![](..\/..\/images/eurd-web-data-federation-data-source-wizard-finish.png)
+    ![](../../images/eurd-web-data-federation-data-source-wizard-finish.png)
  
     The Wizard creates a new **FederationDataSource** that includes a single query. 
     
@@ -86,19 +86,19 @@ This topic describes how to create a federated data source that joins data from 
 
 The federation data source is shown in the Field List.
 
-![](..\/..\/images/eurd-web-data-federation-data-source-field-list.png)
+![](../../images/eurd-web-data-federation-data-source-field-list.png)
 
 When you create a federated query, its name is set to the name of the first table added to the query. You can rename the query in the **Manage Queries** dialog. To invoke the dialog, click the **Manage Queries** button.
 
-![](..\/..\/images/eurd-web-data-federation-rename-query.png)
+![](../../images/eurd-web-data-federation-rename-query.png)
 
 The **Manage Queries** dialog appears.
 
-![](..\/..\/images/eurd-web-data-federation-manage-queries-dialog.png)
+![](../../images/eurd-web-data-federation-manage-queries-dialog.png)
 
 Click the query name in the list to invoke the text editor and change the name.
 
-![](..\/..\/images/eurd-web-data-federation-manage-queries-dialog-change-name.png)
+![](../../images/eurd-web-data-federation-manage-queries-dialog-change-name.png)
 
 The **Manage Queries** dialog allows you to add, modify, or delete queries.
 

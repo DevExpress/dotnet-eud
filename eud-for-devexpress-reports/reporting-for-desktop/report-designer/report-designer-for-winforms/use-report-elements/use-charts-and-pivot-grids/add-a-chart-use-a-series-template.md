@@ -1,4 +1,4 @@
----
+﻿---
 title: Add a Chart (Use a Series Template)
 author: Anna Gubareva
 ---
@@ -7,26 +7,26 @@ author: Anna Gubareva
 
 This document describes how to create a report with a **Chart** control bound to data and generate all series automatically based on a common template.
 
-![](..\/..\/..\/..\/images/eurd-win-chart-auto-created-series-example.png)
+![](../../../../images/eurd-win-chart-auto-created-series-example.png)
 
 ## Add a Chart to a Report
 
-1. Drop the **Chart** control from the [Toolbox param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  onto the [Detail band param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } .
+1. Drop the **Chart** control from the [Toolbox](../../report-designer-tools/toolbox.md) onto the [Detail band](../../introduction-to-banded-reports.md).
 
-    ![](..\/..\/..\/..\/images/eurd-win-chart-add-to-report.png)
+    ![](../../../../images/eurd-win-chart-add-to-report.png)
 
     After you drop the chart, the **Chart Designer** is automatically invoked if its **Display the designer every time a new chart is added** option is enabled. Close the designer at this step.
 
-2. Open the [Toolbar param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 's **Chart Tools** contextual tab and click **Add Data Source** to bind the chart to data. 
+2. Open the [Toolbar](../../report-designer-tools/toolbar.md)'s **Chart Tools** contextual tab and click **Add Data Source** to bind the chart to data. 
 
-    ![](..\/..\/..\/..\/images/eurd-win-chart-add-data-source-button.png)
+    ![](../../../../images/eurd-win-chart-add-data-source-button.png)
 
 
-3. The invoked [Data Source Wizard param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  enables you to assign a data source to the chart. Bind the chart to a data source as described in the [Bind to Data param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  section.
+3. The invoked [Data Source Wizard](../../report-designer-tools/data-source-wizard.md) enables you to assign a data source to the chart. Bind the chart to a data source as described in the [Bind to Data](../../bind-to-data.md) section.
 
 4. Click the chart's smart tag and make sure that the **Data Source** and **Data Member** properties were specified correctly.
 	
-	![](..\/..\/..\/..\/images/eurd-win-chart-auto-created-series-data-source.png)
+	![](../../../../images/eurd-win-chart-auto-created-series-data-source.png)
 
 
 > [!NOTE]
@@ -37,17 +37,17 @@ This document describes how to create a report with a **Chart** control bound to
 
 1. Switch to the **Chart Tools** toolbar tab and click **Run Designer**.
 
-    ![](..\/..\/..\/..\/images/eurd-win-chart-run-designer-button.png)
+    ![](../../../../images/eurd-win-chart-run-designer-button.png)
 
 2. In the invoked **Chart Designer**, go to the **Data** tab to the right of the designer's window. Select a data source in the corresponding drop-down list and drag-and-drop the data fields onto the corresponding cells.
 	
 	The **Series** cell specifies a data field that should provide data for series names. A new series should be created for each record in this data field. Use the **Argument** and **Value** cells to define where to get data for point arguments and values.
 
-    ![](..\/..\/..\/..\/images/eurd-win-chart-auto-created-series-data-settings.png)
+    ![](../../../../images/eurd-win-chart-auto-created-series-data-settings.png)
 
 3. Switch to the **Properties** tab and expand the **Series Template** option. The **Argument Data Member** and **Value Data Members** properties are automatically assigned to the corresponding data fields. Make sure that the **Argument Scale Type** and **Value Scale Type** properties are set to appropriate values.
 
-    ![](..\/..\/..\/..\/images/eurd-win-chart-auto-created-series-properties.png)
+    ![](../../../../images/eurd-win-chart-auto-created-series-properties.png)
 
 ## Customize the Chart
 Perform the following customization to improve the chart's appearance:
@@ -57,6 +57,6 @@ Perform the following customization to improve the chart's appearance:
 * Specify the color settings used to draw the chart's series. For instance, select **Nature Colors** in the **Palette**'s drop-down list.
 
 ## View the Result
-Switch to [Print Preview param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  to see the resulting report.
+Switch to [Print Preview](../../preview-print-and-export-reports.md) to see the resulting report.
 
-![](..\/..\/..\/..\/images/eurd-win-chart-auto-created-series-result.png)
+![](../../../../images/eurd-win-chart-auto-created-series-result.png)

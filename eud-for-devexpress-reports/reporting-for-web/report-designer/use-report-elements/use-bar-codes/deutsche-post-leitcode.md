@@ -1,4 +1,4 @@
----
+﻿---
 title: Deutsche Post Leitcode
 author: Eugene Polevikov
 ---
@@ -8,7 +8,7 @@ author: Eugene Polevikov
 The *Deutsche Post Leitcode* symbology, or German Postal 2 of 5 LeitCode, LeitCode, or CodeLeitcode, is used by Deutsche Post AG (Deutsche Frachtpost).
 This barcode identifies the destination.
 
-![Identcode barcode](..\/..\/..\/images/leitcode-barcode.png)
+![Identcode barcode](../../../images/leitcode-barcode.png)
 
 A value that the barcode encodes should consist of 13 or 14 digits:
 
@@ -24,10 +24,10 @@ When you specify 13 digits, the barcode generates a checksum digit automatically
 
 1. Drag the **Barcode** item from the report controls toolbox tab and drop it onto the report. 
 
-    ![](..\/..\/..\/images/eurd-web-add-bar-code-to-report.png)
+    ![](../../../images/eurd-web-add-bar-code-to-report.png)
 
 2. Set the control’s **Symbology** property to **DeutschePostLeitcode**. 
 
-    ![](..\/..\/..\/images/leitcode-in-designer.png)
+    ![](../../../images/leitcode-in-designer.png)
 
-3. Specify [common param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  barcode properties.
+3. Specify [common](add-bar-codes-to-a-report.md) barcode properties.

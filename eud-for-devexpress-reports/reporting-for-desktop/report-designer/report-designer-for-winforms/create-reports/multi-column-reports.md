@@ -1,4 +1,4 @@
----
+﻿---
 title: Multi-Column Reports
 author: Anna Gubareva
 ---
@@ -7,9 +7,9 @@ author: Anna Gubareva
 This document describes how to arrange report data in multiple columns, which can be used to create mailing labels, business cards or multi-column directories.
 
 ## <a name="settings"></a>Settings
-To access the multi-column settings of a report's Detail band, use its smart tag or the [Property Grid param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } .
+To access the multi-column settings of a report's Detail band, use its smart tag or the [Property Grid](../report-designer-tools/ui-panels/property-grid-tabbed-view.md).
 
-![](..\/..\/..\/images/eurd-win-multi-column-options.png)
+![](../../../images/eurd-win-multi-column-options.png)
 
 **Multi-Column Mode**
 
@@ -29,7 +29,7 @@ Enables you to select one of the following modes:
 
 **Column Spacing**
 
-Specifies the distance between adjacent columns. This value is measured in [report units param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } .
+Specifies the distance between adjacent columns. This value is measured in [report units](../configure-design-settings/change-a-report-measurement-units.md).
 
 **Multi-Column Layout** 
 
@@ -39,37 +39,37 @@ Specifies the preferred direction for arranging report data within columns.
 
     The report data is arranged horizontally and is wrapped to the next row on reaching the right page margin.
 
-    ![](..\/..\/..\/images/eurd-win-multi-column-across-then-down-ungrouped.png)
+    ![](../../../images/eurd-win-multi-column-across-then-down-ungrouped.png)
 
     When the report data is grouped, the multi-column layout is applied to each group individually.
 
-    ![](..\/..\/..\/images/eurd-win-multi-column-across-then-down-grouped.png)
+    ![](../../../images/eurd-win-multi-column-across-then-down-grouped.png)
 
 * **First Down, then Across**
 
     The report data is arranged vertically and is wrapped to the next column on reaching the bottom page margin.
 
-    ![](..\/..\/..\/images/eurd-win-multi-column-down-then-across-ungrouped.png)
+    ![](../../../images/eurd-win-multi-column-down-then-across-ungrouped.png)
 
     When the report data is grouped, you can make each group start on a new column by setting the **Page Break** property of the Group Footer to **After the Band**.
 
-    ![](..\/..\/..\/images/eurd-win-multi-column-down-then-across-grouped.png)
+    ![](../../../images/eurd-win-multi-column-down-then-across-grouped.png)
 
 ## <a name="howworks"></a>How It Works
 The following image illustrates a report designer with a multi-column layout applied to the report:
 
-![](..\/..\/..\/images/eurd-win-multi-column-layout.png)
+![](../../../images/eurd-win-multi-column-layout.png)
 
 In multi-column mode, the report's design surface is limited to the area defined by the column width. This is the only area intended to contain report controls.
 
 The rest of this surface defines the space on a page remaining for printing columns and column spacing area.
 
-In the above image, the report data in the Detail band is contained within a [Panel param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  that provides borders around the enclosed content.
+In the above image, the report data in the Detail band is contained within a [Panel](../use-report-elements/use-basic-report-controls/panel.md) that provides borders around the enclosed content.
 
-![](..\/..\/..\/images/eurd-win-multi-column-panel-borders-property.png)
+![](../../../images/eurd-win-multi-column-panel-borders-property.png)
 
-You can also specify a custom background color for the Panel. To learn how to change this color dynamically (based on the report's underlying data), see [Conditionally Change a Control's Appearance param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } .
+You can also specify a custom background color for the Panel. To learn how to change this color dynamically (based on the report's underlying data), see [Conditionally Change a Control's Appearance](../shape-report-data/specify-conditions-for-report-elements/conditionally-change-a-control-appearance.md).
 
-When the report data is [grouped param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  (as in the above image), and the **First Down, then Across** multi-column layout is used, you can make each group start on a new column. To do this, set the **Page Break** property of the Group Footer to **After the Band** or **After the Band, Except for the Last Entry**. When there is no data to display in the Group Footer, set the band height to zero.
+When the report data is [grouped](../shape-report-data/group-and-sort-data/group-data.md) (as in the above image), and the **First Down, then Across** multi-column layout is used, you can make each group start on a new column. To do this, set the **Page Break** property of the Group Footer to **After the Band** or **After the Band, Except for the Last Entry**. When there is no data to display in the Group Footer, set the band height to zero.
 
-![](..\/..\/..\/images/eurd-win-multi-column-band-page-break.png)
+![](../../../images/eurd-win-multi-column-band-page-break.png)

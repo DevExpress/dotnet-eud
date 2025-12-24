@@ -1,4 +1,4 @@
----
+﻿---
 title: Report Navigation and Interactivity
 author: Anna Gubareva
 legacyId: 116341
@@ -7,8 +7,8 @@ legacyId: 116341
 The topics in this section explain how to establish navigation through a report in different ways and enable editing reports in Print Preview.
 
 This section consists of the following topics.
-* [Add Bookmarks param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
-* [Create a Table of Contents param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
-* [Create Hyperlinks param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
-* [Add a Cross-Reference param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
-* [Enable Content Editing in Print Preview param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
+* [Add Bookmarks](report-navigation-and-interactivity/add-bookmarks.md)
+* [Create a Table of Contents](report-navigation-and-interactivity/create-a-table-of-contents.md)
+* [Create Hyperlinks](report-navigation-and-interactivity/create-hyperlinks.md)
+* [Add a Cross-Reference](report-navigation-and-interactivity/add-a-cross-reference.md)
+* [Enable Content Editing in Print Preview](report-navigation-and-interactivity/enable-content-editing-in-print-preview.md)

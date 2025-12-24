@@ -1,4 +1,4 @@
----
+﻿---
 uid: "4252"
 title: Select the Label Type
 owner: Anna Gubareva
@@ -12,4 +12,4 @@ On this page you can choose the proper setting from the **Label Products** and t
 
 ![report-wizard-label-report](../../../../../images/eurd-wizard-label-report.png)
 
-Then, click **Next** to proceed to the [Customize the Label Options param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  page.
+Then, click **Next** to proceed to the [Customize the Label Options](customize-the-label-options.md) page.

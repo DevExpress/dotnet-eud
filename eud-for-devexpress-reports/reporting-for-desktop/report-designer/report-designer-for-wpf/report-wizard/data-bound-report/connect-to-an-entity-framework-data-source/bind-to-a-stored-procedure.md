@@ -1,4 +1,4 @@
----
+﻿---
 title: Bind to a Stored Procedure
 author: Anna Gubareva
 legacyId: 116263
@@ -14,4 +14,4 @@ Next, specify stored procedure parameter values, which can be either static or g
 
 ![WpfReportWizard_EF_StoredProcParameters](../../../../../images/img123217.png)
 
-Click **Next** to proceed to the next wizard page. If you have added more than one stored procedures on this page or if the current Entity Framework model additionally provides data tables, go to the [Select a Data Member param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  page. Otherwise, proceed to the [Choose Columns to Display in a Report param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  page.
+Click **Next** to proceed to the next wizard page. If you have added more than one stored procedures on this page or if the current Entity Framework model additionally provides data tables, go to the [Select a Data Member](select-a-data-member.md) page. Otherwise, proceed to the [Choose Columns to Display in a Report](../choose-columns-to-display-in-a-report.md) page.

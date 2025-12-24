@@ -1,4 +1,4 @@
----
+﻿---
 title: Character Comb
 author: Anna Vekhina
 ---
@@ -7,11 +7,11 @@ author: Anna Vekhina
 ## Overview
 The **Character Comb** control displays text so that each character is printed in an individual cell.
 
-![](..\/..\/..\/images/eurd-web-character-comb-example.png)
+![](../../../images/eurd-web-character-comb-example.png)
 
-To add a Character Comb to the report, drag the **Character Comb** item from the [Toolbox param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  onto the report's area.
+To add a Character Comb to the report, drag the **Character Comb** item from the [Toolbox](../../report-designer-tools/toolbox.md) onto the report's area.
 
-![](..\/..\/..\/images/eurd-web-add-character-comb-to-report.png)
+![](../../../images/eurd-web-add-character-comb-to-report.png)
 
 The number of cells displayed by the control in Print Preview depends on the **Can Shrink** and **Auto Width** settings.
 
@@ -24,35 +24,35 @@ You can also adjust the character comb's size to match its characters using the 
 
 * If the **Word Wrap** option is enabled, the command keeps control content displayed in multiple lines. It decreases the control's height and adjusts the width to fit this content.
 	
-	![](..\/..\/..\/images/eurd-web-character-comb-fit-bounds-to-text-with-word-wrap.png)
+	![](../../../images/eurd-web-character-comb-fit-bounds-to-text-with-word-wrap.png)
 
 * If the **Word Wrap** option is disabled, the command adjusts the control's height and width to completely display the control's content in a single line. As a result, the number of cells corresponds to the number of characters.
 	
-	![](..\/..\/..\/images/eurd-web-character-comb-fit-bounds-to-text-without-word-wrap.png)
+	![](../../../images/eurd-web-character-comb-fit-bounds-to-text-without-word-wrap.png)
 
 When exporting this control to third-party formats, consider the following
 * When a report is exported to an **XLS** or **XLSX** file, the cells of the Character Comb correspond to the cells of a resulting Excel sheet.
 * When a report is exported to a **CSV** (or **TXT**) file, the content of individual cells is separated (or spaced) by a specified **Separator** character.
 
-In most aspects, the Character Comb is similar to the [Label param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  control from which it inherits most of its properties and its basic behavior. For general information about binding these controls to data and display summary function results, see the [Label param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  topic. To learn about Character Comb specifics, see the following sections in this document.
+In most aspects, the Character Comb is similar to the [Label](Label.md) control from which it inherits most of its properties and its basic behavior. For general information about binding these controls to data and display summary function results, see the [Label](Label.md) topic. To learn about Character Comb specifics, see the following sections in this document.
 
 ## Main Options
 The following properties are specific to the Character Comb control:
 
 * **Cell Vertical Spacing** and **Cell Horizontal Spacing**
 	
-	Specify the spacing between adjacent cells (measured in [report units param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } ). These values do not depend on the specified border width of a control.
+	Specify the spacing between adjacent cells (measured in [report units](../../configure-design-settings/change-a-report-measurement-units.md)). These values do not depend on the specified border width of a control.
 	
 	The following image illustrates a Character Comb with **Cell Vertical Spacing** set to **15** and **Cell Horizontal Spacing** set to **5**.
 	
-	![](..\/..\/..\/images/eurd-web-character-comb-vertical-and-horizontal-spacing.png)
+	![](../../../images/eurd-web-character-comb-vertical-and-horizontal-spacing.png)
 	
 
 * **Border Width**
 	
 	Specifies the width of cell borders in pixels, as a floating point value.
 
-	![](..\/..\/..\/images/eurd-web-character-comb-specify-border-width.png)
+	![](../../../images/eurd-web-character-comb-specify-border-width.png)
 	
 	When the cell spacing is set to zero, the borders of adjacent cells are merged (i.e., the actual border width is not doubled).
 	
@@ -60,13 +60,13 @@ The following properties are specific to the Character Comb control:
 	
 	| Cell Spacing = 0 | Cell Spacing = 1 |
 	|---|---|
-	| ![](..\/..\/..\/images/eurd-web-character-comb-border-without-spacing.png) | ![](..\/..\/..\/images/eurd-web-character-comb-border-with-spacing.png) |
+	| ![](../../../images/eurd-web-character-comb-border-without-spacing.png) | ![](../../../images/eurd-web-character-comb-border-with-spacing.png) |
 	
 	When the control's content is to be printed on multiple pages, a page break horizontally splits the cell border based on the cell spacing setting, as shown below.
 	
 	| Cell Spacing = 0 | Cell Spacing > 0 |
 	|---|---|
-	|![](..\/..\/..\/images/eurd-web-character-comb-on-multi-pages-without-spacing.png)| ![](..\/..\/..\/images/eurd-web-character-comb-on-multi-pages-with-spacing.png) |
+	|![](../../../images/eurd-web-character-comb-on-multi-pages-without-spacing.png)| ![](../../../images/eurd-web-character-comb-on-multi-pages-with-spacing.png) |
 
 * **Cell Size Mode**
 	
@@ -109,16 +109,16 @@ The following image illustrates the behavior of the **Auto Width** property that
 
 | AutoWidth = true | AutoWidth = false |
 |---|---|
-| ![](..\/..\/..\/images/eurd-web-character-comb-auto-width-true.png) | ![](..\/..\/..\/images/eurd-web-character-comb-auto-width-false.png) |
+| ![](../../../images/eurd-web-character-comb-auto-width-true.png) | ![](../../../images/eurd-web-character-comb-auto-width-false.png) |
 
 The following image illustrates the behavior of the **Can Shrink** property that specifies whether or not the height of a control depends on its text. Expand the **Character Comb Tasks** or **Behavior** category to specify this property.
 
 | CanShrink = true | CanShrink = false |
 |---|---|
-| ![](..\/..\/..\/images/eurd-web-character-comb-can-shrink-true.png) |![](..\/..\/..\/images/eurd-web-character-comb-auto-width-false.png) |
+| ![](../../../images/eurd-web-character-comb-can-shrink-true.png) |![](../../../images/eurd-web-character-comb-auto-width-false.png) |
 
 The **Text Alignment** property specifies the alignment of text within a control. Expand the **Appearance** category to specify this property.
 
 | TextAlignment = Top Left | TextAlignment = Middle Center | TextAlignment = Bottom Right |
 |---|---|---|
-| ![](..\/..\/..\/images/eurd-web-character-comb-text-alignment-top-left.png) |![](..\/..\/..\/images/eurd-web-character-comb-text-alignment-middle-center.png) | ![](..\/..\/..\/images/eurd-web-character-comb-text-alignment-bottom-right.png) |
+| ![](../../../images/eurd-web-character-comb-text-alignment-top-left.png) |![](../../../images/eurd-web-character-comb-text-alignment-middle-center.png) | ![](../../../images/eurd-web-character-comb-text-alignment-bottom-right.png) |

@@ -1,4 +1,4 @@
----
+﻿---
 title: Bind a Report to a Union-Based Federated Data Source
 author: Boris Zaitsev
 ---
@@ -9,36 +9,36 @@ This topic describes how to create a union-based federated data source that comb
 
 ## Create a Report and Data Sources
 
-1. [Create a new blank report param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } .
+1. [Create a new blank report](../../report-designer/report-designer-tools/report-wizard/empty-report.md).
 
-2. [Add a SQL data source param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  that retrieves data from the `Customers` table of the **Northwind** database.
+2. [Add a SQL data source](../../report-designer/bind-to-data/bind-a-report-to-a-database.md) that retrieves data from the `Customers` table of the **Northwind** database.
 
-3. [Add a JSON data source param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  that retrieves supplier data from the [https://services.odata.org/v4/northwind/northwind.svc/Suppliers](https://services.odata.org/v4/northwind/northwind.svc/Suppliers) location.
+3. [Add a JSON data source](../../report-designer/bind-to-data/bind-a-report-to-json-data.md) that retrieves supplier data from the [https://services.odata.org/v4/northwind/northwind.svc/Suppliers](https://services.odata.org/v4/northwind/northwind.svc/Suppliers) location.
 
-    ![](..\/..\/images/eurd-web-federated-datasource-union-json-datasource.png)
+    ![](../../images/eurd-web-federated-datasource-union-json-datasource.png)
 
 ## Create Data Federation
 
-1. Invoke the designer [menu param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  and click **Add Data Source**.
+1. Invoke the designer [menu](../report-designer-tools/menu.md) and click **Add Data Source**.
 
-   ![](..\/..\/images/eurd-web-data-source-menu.png) 
+   ![](../../images/eurd-web-data-source-menu.png) 
 
 
-1. Select **Data Federation** in the invoked [Data Source Wizard param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  and click **Next**.
+1. Select **Data Federation** in the invoked [Data Source Wizard](../report-designer-tools/data-source-wizard.md) and click **Next**.
 
-    ![](..\/..\/images/eurd-web-data-source-wizard-select-data-federation.png)
+    ![](../../images/eurd-web-data-source-wizard-select-data-federation.png)
 
 1. On the next page, click the **+ (plus) button** and select **Union** to add a Union query.
 
-    ![](..\/..\/images/eurd-web-data-federation-wizard-add-union-query.png)
+    ![](../../images/eurd-web-data-federation-wizard-add-union-query.png)
 
-1. In the invoked [Query Builder param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } , drag and drop the table from the SQL data source onto the design surface.
+1. In the invoked [Query Builder](../../report-designer/report-designer-tools/query-builder.md), drag and drop the table from the SQL data source onto the design surface.
 
-    ![](..\/..\/images/eurd-web-data-federation-union-query-builder-drop-table.png)
+    ![](../../images/eurd-web-data-federation-union-query-builder-drop-table.png)
 
 1. Drag and drop the JSON data source onto the design surface.
 
-    ![](..\/..\/images/eurd-web-data-federation-union-query-builder-drop-json-table.png)
+    ![](../../images/eurd-web-data-federation-union-query-builder-drop-json-table.png)
 
 1. The query includes only fields that have identical names and types in the original sources. You can specify a different name for a field. Click the field's **Alias** cell and enter the new field name, if necessary.
 
@@ -48,11 +48,11 @@ This topic describes how to create a union-based federated data source that comb
 
 1. Click **Finish** to complete the Data Source Wizard.
 
-    ![](..\/..\/images/eurd-web-data-federation-union-data-source-wizard-finish.png)
+    ![](../../images/eurd-web-data-federation-union-data-source-wizard-finish.png)
  
     The Wizard creates a new **FederationDataSource** that includes similar data from both data sources.
 
-    ![](..\/..\/images/eurd-web-data-federation-union-field-list.png)
+    ![](../../images/eurd-web-data-federation-union-field-list.png)
 
     
 
@@ -61,15 +61,15 @@ This topic describes how to create a union-based federated data source that comb
 
 When you create a federated query, its name is set to the name of the first table added to the query. You can rename the query in the **Manage Queries** dialog. To invoke the dialog, click the **Manage Queries** button.
 
-![](..\/..\/images/eurd-web-data-federation-union-rename-query.png)
+![](../../images/eurd-web-data-federation-union-rename-query.png)
 
 The **Manage Queries** dialog appears.
 
-![](..\/..\/images/eurd-web-data-federation-union-manage-queries-dialog.png)
+![](../../images/eurd-web-data-federation-union-manage-queries-dialog.png)
 
 Click the query name in the list to invoke the text editor and change the name.
 
-![](..\/..\/images/eurd-web-data-federation-union-manage-queries-dialog-change-name.png)
+![](../../images/eurd-web-data-federation-union-manage-queries-dialog-change-name.png)
 
 The **Manage Queries** dialog allows you to add, modify, or delete queries.
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: EAN 13
 author: Anna Vekhina
 ---
@@ -10,7 +10,7 @@ The **EAN-13** barcode contains **13** digits, no letters or other characters. T
 
 The recommended dimensions are shown in the following image. The standard allows magnification up to **200**%, and reduction of up to **80**% of the recommended size.
 
-![](..\/..\/..\/images/eurd-web-bar-code-ean13.png)
+![](../../../images/eurd-web-bar-code-ean13.png)
 
 There should be two quiet zones before and after the barcode. They provide reliable operation of the barcode scanner. The quiet zone recommended length is **3.63** mm for the left zone and **2.31** mm for the right zone.
 
@@ -18,10 +18,10 @@ There should be two quiet zones before and after the barcode. They provide relia
 
 1. Drag the **Barcode** item from the report controls toolbox tab and drop it onto the report. 
 
-    ![](..\/..\/..\/images/eurd-web-add-bar-code-to-report.png)
+    ![](../../../images/eurd-web-add-bar-code-to-report.png)
 
 2. Set the control’s **Symbology** property to **EAN13**. 
 
-    ![](..\/..\/..\/images/ean-13-in-designer.png)
+    ![](../../../images/ean-13-in-designer.png)
 
-3. Specify [common param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  barcode properties.
+3. Specify [common](add-bar-codes-to-a-report.md) barcode properties.

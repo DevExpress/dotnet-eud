@@ -1,4 +1,4 @@
----
+﻿---
 title: UPC Shipping Container Symbol (ITF-14)
 author: Anna Vekhina
 ---
@@ -10,23 +10,23 @@ This barcode provides a **GS1** implementation of an **Interleaved 2 of 5** barc
 
 The thick black border around the symbol (the **Bearer Bar**) is intended to improve barcode reading reliability.
 
-![](..\/..\/..\/images/eurd-web-bar-code-itf-14.png)
+![](../../../images/eurd-web-bar-code-itf-14.png)
 
 ## Add the Barcode to a Report
 
 1. Drag the **Barcode** item from the report controls toolbox tab and drop it onto the report. 
 
-    ![](..\/..\/..\/images/eurd-web-add-bar-code-to-report.png)
+    ![](../../../images/eurd-web-add-bar-code-to-report.png)
 
 2. Set the control’s **Symbology** property to **ITF14**. 
 
-    ![](..\/..\/..\/images/itf14-in-designer.png)
+    ![](../../../images/itf14-in-designer.png)
 
-3. Specify [common param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  barcode properties and properties [specific](#specific-properties) to **ITF14**.
+3. Specify [common](add-bar-codes-to-a-report.md) barcode properties and properties [specific](#specific-properties) to **ITF14**.
 
 ## Specific Properties
 
-In the [property grid param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } , expand the **Symbology** list and specify the following properties specific to **ITF14**:
+In the [property grid](../../report-designer-tools/ui-panels/properties-panel.md), expand the **Symbology** list and specify the following properties specific to **ITF14**:
 
 * **Calculate a Checksum**
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: GS1-128 - EAN-128 (UCC)
 author: Anna Vekhina
 ---
@@ -8,23 +8,23 @@ author: Anna Vekhina
 
 While other barcodes simply encode data with no respect for what the data represents, **GS1-128** encodes data and encodes what that data represents.
 
-![](..\/..\/..\/images/eurd-web-bar-code-gs1-128-ean-128.png)
+![](../../../images/eurd-web-bar-code-gs1-128-ean-128.png)
 
 ## Add the Barcode to a Report
 
 1. Drag the **Barcode** item from the report controls toolbox tab and drop it onto the report. 
 
-    ![](..\/..\/..\/images/eurd-web-add-bar-code-to-report.png)
+    ![](../../../images/eurd-web-add-bar-code-to-report.png)
 
 2. Set the control’s **Symbology** property to **EAN128**. 
 
-    ![](..\/..\/..\/images/ean-128-in-designer.png)
+    ![](../../../images/ean-128-in-designer.png)
 
-3. Specify [common param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  barcode properties and properties [specific](#specific-properties) to **EAN 128**.
+3. Specify [common](add-bar-codes-to-a-report.md) barcode properties and properties [specific](#specific-properties) to **EAN 128**.
 
 ## Specific Properties
 
-In the [property grid param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } , expand the **Symbology** list and specify the following properties specific to **EAN 128**:
+In the [property grid](../../report-designer-tools/ui-panels/properties-panel.md), expand the **Symbology** list and specify the following properties specific to **EAN 128**:
 
 * **Character Set**
 	

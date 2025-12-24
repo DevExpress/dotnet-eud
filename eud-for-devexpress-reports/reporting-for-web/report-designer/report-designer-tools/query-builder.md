@@ -1,56 +1,56 @@
----
+﻿---
 title: Query Builder
 owner: Anna Vekhina
 ---
 # Query Builder
 
-The **Query Builder** is a visual queries editor. You can invoke it from the [Data Source Wizard param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } .
+The **Query Builder** is a visual queries editor. You can invoke it from the [Data Source Wizard](data-source-wizard.md).
 
 ## <a id="select"></a>Select Tables
 Drag and drop a specific table or view onto the Query Builder design surface to include it into a query result set. 
 
-![](..\/..\/images/eurd-web-designer-query-builder-select-table-drag-and-drop.png)
+![](../../images/eurd-web-designer-query-builder-select-table-drag-and-drop.png)
 
 The Query Builder provides a toolbar with the following commands:
 
 | Icon | Description |
 |---|---|
-| ![web-designer-query-builder-button-delete](..\/..\/images/eurd-web-designer-query-builder-button-delete.png) | Removes the selected table or view from the query. |
-| ![web-designer-query-builder-button-undo](..\/..\/images/eurd-web-designer-query-builder-button-undo.png) | Reverses the most recent action. |
-| ![web-designer-query-builder-button-redo](..\/..\/images/eurd-web-designer-query-builder-button-redo.png) | Performs the previously undone action. |
+| ![web-designer-query-builder-button-delete](../../images/eurd-web-designer-query-builder-button-delete.png) | Removes the selected table or view from the query. |
+| ![web-designer-query-builder-button-undo](../../images/eurd-web-designer-query-builder-button-undo.png) | Reverses the most recent action. |
+| ![web-designer-query-builder-button-redo](../../images/eurd-web-designer-query-builder-button-redo.png) | Performs the previously undone action. |
 
 Enable check boxes for the table columns you want to include into the query result set.
 
-![](..\/..\/images/eurd-web-designer-query-builder-select-fields.png)
+![](../../images/eurd-web-designer-query-builder-select-fields.png)
 
 Use the search box to find a table or view by name. 
 
-![](..\/..\/images/eurd-web-designer-query-builder-search-tables.png)
+![](../../images/eurd-web-designer-query-builder-search-tables.png)
 
 ## <a id="join"></a>Join Tables
 The Query Builder allows you to join tables and/or views. Use drag and drop to connect corresponding columns (key fields). The connected columns should have identical data types.
 
-![](..\/..\/images/eurd-web-designer-query-builder-join-tables.png)
+![](../../images/eurd-web-designer-query-builder-join-tables.png)
 
 Click the data relation to display the **Relation Properties** section. Properties in this section define the join type (**Inner** or **Left Outer**) and applied logical operator.
 
-![](..\/..\/images/eurd-web-designer-query-builder-join-tables-selection-properties.png)
+![](../../images/eurd-web-designer-query-builder-join-tables-selection-properties.png)
 
 A left outer join returns all the values from an inner join along with all values in the "left" table that do not match to the "right" table and includes rows with NULL (empty) values in the key field.
 
 If you select the left outer join, the relationship line displays an arrow which points at the "right" table of the join clause.
 
-![](..\/..\/images/eurd-web-designer-query-builder-join-tables-left-outer.png)
+![](../../images/eurd-web-designer-query-builder-join-tables-left-outer.png)
 
 The executed query returns a "flat" table which joins different tables within a single query. The specified join options define which data records compose the query result set.
 
 > [!NOTE]
-> We recommend you to use [hierarchical data sources param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  because the reporting engine generates master-detail reports faster than similar-looking reports which obtains data from "flat" data sources.
+> We recommend you to use [hierarchical data sources](master-detail-relation-editor.md) because the reporting engine generates master-detail reports faster than similar-looking reports which obtains data from "flat" data sources.
 
 ## <a id="filter"></a>Filter Data
 Expand the **Query Properties** section to display the query options.
 
-![](..\/..\/images/eurd-web-designer-query-builder-selection-properties.png)
+![](../../images/eurd-web-designer-query-builder-selection-properties.png)
 
 The query provides the following options:
 
@@ -59,7 +59,7 @@ The query provides the following options:
 	Specifies a custom query name (alias).
 * **Filter**
 	
-	Runs the [Filter Editor param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  where you can specify filter conditions for the resulting data. Filter criteria may contain [query parameters param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } .
+	Runs the [Filter Editor](filter-editor.md) where you can specify filter conditions for the resulting data. Filter criteria may contain [query parameters](../bind-to-data/specify-query-parameters.md).
 * **Group Filter**
 	
 	Runs the Filter Editor where you can specify filter conditions for grouped and aggregated data. This option is enabled only for grouped data.
@@ -86,7 +86,7 @@ The query provides the following options:
 ## <a id="shape"></a>Shape Data
 Select a table or view and click a data column to display the data column options.
 
-![](..\/..\/images/eurd-web-designer-query-builder-shape-data.png)
+![](../../images/eurd-web-designer-query-builder-shape-data.png)
 
 The **Column Properties** section contains the following options:
 
@@ -139,9 +139,9 @@ The **Column Properties** section contains the following options:
 
 ## <a id="parameters"></a>Use Query Parameters
 
-Use the **Parameters** section to add, remove and edit [query parameters param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } . 
+Use the **Parameters** section to add, remove and edit [query parameters](../bind-to-data/specify-query-parameters.md). 
 
-![](..\/..\/images/eurd-web-designer-query-builder-parameters.png)
+![](../../images/eurd-web-designer-query-builder-parameters.png)
 
 Each query parameter provides the following properties:
 
@@ -167,7 +167,7 @@ Each query parameter provides the following properties:
 	
 	You can specify a static actual value according to the selected value's data type.
 	
-	Alternatively, construct an expression to generate actual parameter values dynamically. Click this property's ellipsis button to invoke the [Expression Editor param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  and create an expression. This ellipsis button is enabled if you set the query parameter's type to **Expression**.  
+	Alternatively, construct an expression to generate actual parameter values dynamically. Click this property's ellipsis button to invoke the [Expression Editor](../report-designer-tools/expression-editor.md) and create an expression. This ellipsis button is enabled if you set the query parameter's type to **Expression**.  
 
 
 ## <a id="preview"></a>Preview Results
@@ -175,4 +175,4 @@ Click the **Preview Results** button to test a query on the actual data's limite
 
 The opened **Data Preview** screen displays the first **100** data records of the query result set.
 
-![web-designer-query-builder-data-preview](..\/..\/images/eurd-web-designer-query-builder-data-preview.png)
+![web-designer-query-builder-data-preview](../../images/eurd-web-designer-query-builder-data-preview.png)

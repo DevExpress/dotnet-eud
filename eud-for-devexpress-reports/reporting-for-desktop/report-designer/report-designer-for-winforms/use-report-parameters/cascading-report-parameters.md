@@ -1,4 +1,4 @@
----
+﻿---
 title: Cascading Report Parameters
 author: Sergey Andreev
 ---
@@ -7,41 +7,41 @@ author: Sergey Andreev
 
 You can create cascading parameters to filter a list of predefined parameter values based on values in another parameter.
 
-![Cascading parameters example](..\/..\/..\/images/cascadingparametersresult124540.png)
+![Cascading parameters example](../../../images/cascadingparametersresult124540.png)
 
 > [!TIP]
 > Refer to the following topics for information on how to create a list of predefined parameter values:
-> * [Report Parameters with Predefined Static Values param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
-> * [Report Parameters with Predefined Dynamic Values param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
+> * [Report Parameters with Predefined Static Values](report-parameters-with-predefined-static-values.md)
+> * [Report Parameters with Predefined Dynamic Values](report-parameters-with-predefined-dynamic-values.md)
 
-Follow the steps below to create cascading parameters in the [Report Designer param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } :
+Follow the steps below to create cascading parameters in the [Report Designer](../../report-designer-for-winforms.md):
 
-1. [Create a report parameter param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  you want to use to filter values of another parameter.
+1. [Create a report parameter](create-a-report-parameter.md) you want to use to filter values of another parameter.
 
-    ![Create category parameter](..\/..\/..\/images/create-category-cascading-parameter.png)
+    ![Create category parameter](../../../images/create-category-cascading-parameter.png)
 
 2. Create a report parameter whose values you want to filter. Click the **Filter String** property's ellipsis button in the **Add New Parameter** dialog and specify a filter string that references the parameter you created in the first step.
 
-    ![Create products parameter](..\/..\/..\/images/create-product-cascading-parameter.png)
+    ![Create products parameter](../../../images/create-product-cascading-parameter.png)
 
     > [!NOTE]
-    > In a filter string for a parameter's look-up values, you can reference only those parameters that you created before the parameter whose look-up values you want to filter. You can use the **Report Parameters Editor** to change the order in which you created the parameters. To invoke the editor, right-click the **Parameters** node in the [Field List param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  and select **Edit Parameters**.
+    > In a filter string for a parameter's look-up values, you can reference only those parameters that you created before the parameter whose look-up values you want to filter. You can use the **Report Parameters Editor** to change the order in which you created the parameters. To invoke the editor, right-click the **Parameters** node in the [Field List](../report-designer-tools/ui-panels/field-list.md) and select **Edit Parameters**.
 
 3. In the report's smart tag, click the **Filter String** property's ellipsis button. In the invoked **FilterString Editor**, specify an expression that uses both parameters to filter report data:
 
-    ![Create a filter condition for a report](..\/..\/..\/images/filteringreportbytwoparameters124539.png)
+    ![Create a filter condition for a report](../../../images/filteringreportbytwoparameters124539.png)
 
 The following image illustrates cascading parameters where the **Product** parameter values are filtered by the selected **Category**.
 
-![Cascading parameters example](..\/..\/..\/images/cascadingparametersresult124540.png)
+![Cascading parameters example](../../../images/cascadingparametersresult124540.png)
 
 ## Cascading Parameters Filtering Specifics
 
 Cascading parameters can be filtered on the database level (server side) or on the application level (client side). For the following datasources, such parameters are filtered on the database level:
 
-* [SQL Database param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
-* [MongoDB Instance param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
-* [Entity Framework param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
+* [SQL Database](../bind-to-data/bind-a-report-to-a-database.md)
+* [MongoDB Instance](../bind-to-data/bind-a-report-to-a-mongodb-instance.md)
+* [Entity Framework](../bind-to-data/bind-a-report-to-an-entity-framework-data-source.md)
 
 In case of SQL databases, database level filter operations do not work for stored procedures and custom SQL queries. For such queries, filters are always applied on the application level.
 

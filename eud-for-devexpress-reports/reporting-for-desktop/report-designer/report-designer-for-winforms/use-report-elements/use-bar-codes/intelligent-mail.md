@@ -1,4 +1,4 @@
----
+﻿---
 title: Intelligent Mail
 author: Anna Gubareva
 ---
@@ -8,16 +8,16 @@ The **Intelligent Mail** (**IM**) code is a **65**-barcode for use on mail in th
 
 The **Intelligent Mail** barcode has also been referred to as **One Code Solution** and **4-State Customer** barcode abbreviated **4CB**, **4-CB** or **USPS4CB**.
 
-![](..\/..\/..\/..\/images/eurd-win-bar-code-intelligent-mail.png)
+![](../../../../images/eurd-win-bar-code-intelligent-mail.png)
 
 ## Add the Barcode to a Report
 
 1. Drag the **Barcode** item from the report controls toolbox tab and drop it onto the report. 
 
-    ![](..\/..\/..\/..\/images/drag-and-drop-barcode.png)
+    ![](../../../../images/drag-and-drop-barcode.png)
 
 2. Set the control’s **Symbology** property to **IntelligentMail**. 
 
-    ![](..\/..\/..\/..\/images/intelligent-mail-in-designer.png)
+    ![](../../../../images/intelligent-mail-in-designer.png)
 
-3. Specify [common param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  barcode properties.
+3. Specify [common](add-bar-codes-to-a-report.md) barcode properties.

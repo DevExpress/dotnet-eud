@@ -1,4 +1,4 @@
----
+﻿---
 title: Connect to an Entity Framework Data Source
 author: Anna Gubareva
 legacyId: 116259
@@ -7,8 +7,8 @@ legacyId: 116259
 The topics in this section describe the wizard steps required to connect a report to data provided by an Entity Framework data context. 
 
 This task includes the following steps.
-* [Select the Data Context param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
-* [Select a Connection String param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
-* [Bind to a Stored Procedure param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
-* [Select a Data Member param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
-* [Configure Filters param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
+* [Select the Data Context](connect-to-an-entity-framework-data-source/select-the-data-context.md)
+* [Select a Connection String](connect-to-an-entity-framework-data-source/select-a-connection-string.md)
+* [Bind to a Stored Procedure](connect-to-an-entity-framework-data-source/bind-to-a-stored-procedure.md)
+* [Select a Data Member](connect-to-an-entity-framework-data-source/select-a-data-member.md)
+* [Configure Filters](connect-to-an-entity-framework-data-source/configure-filters.md)

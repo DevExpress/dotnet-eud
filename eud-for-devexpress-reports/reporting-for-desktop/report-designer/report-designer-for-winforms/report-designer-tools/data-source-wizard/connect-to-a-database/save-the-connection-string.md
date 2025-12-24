@@ -1,4 +1,4 @@
----
+﻿---
 title: Save the Connection String
 author: Mary Sammal
 ---
@@ -8,4 +8,4 @@ On this page, you can specify whether or not to save the user credentials along 
 
 ![eurd-win-report-wizard-save-connection-string](../../../../../images/eurd-win-report-wizard-save-connection-string.png)
 
-Click **Next** to proceed to the next wizard page: [Create a Query or Select a Stored Procedure param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } .
+Click **Next** to proceed to the next wizard page: [Create a Query or Select a Stored Procedure](create-a-query-or-select-a-stored-procedure.md).

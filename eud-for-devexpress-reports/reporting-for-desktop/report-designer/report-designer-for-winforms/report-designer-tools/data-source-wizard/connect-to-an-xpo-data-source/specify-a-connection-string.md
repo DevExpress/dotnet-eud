@@ -1,4 +1,4 @@
----
+﻿---
 uid: '400403'
 title: 'Specify a Connection String'
 ---
@@ -44,4 +44,4 @@ Select **Custom connection string** and specify the connection string.
 
 Use the <b>XpoProvider</b> parameter to identify a data source provider. For example, *XpoProvider=**MSSqlServer**;Data Source=(local);User ID=username;Password=password;Initial Catalog=database;Persist Security Info=true*
 
-Click **Next** to proceed to the next wizard page: [Save the Connection String param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } .
+Click **Next** to proceed to the next wizard page: [Save the Connection String](save-the-connection-string.md).

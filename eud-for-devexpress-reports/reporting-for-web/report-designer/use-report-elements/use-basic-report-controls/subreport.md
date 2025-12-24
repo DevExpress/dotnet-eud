@@ -1,4 +1,4 @@
----
+﻿---
 title: Subreport
 author: Anna Vekhina
 ---
@@ -6,9 +6,9 @@ author: Anna Vekhina
 
 The **Subreport** control is used to embed other reports into the current report.
 
-To add this control to the report, drag the **Subreport** item from the [Toolbox param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  onto the report's area.
+To add this control to the report, drag the **Subreport** item from the [Toolbox](../../report-designer-tools/toolbox.md) onto the report's area.
 
-![](..\/..\/..\/images/eurd-web-add-subreport-to-report.png)
+![](../../../images/eurd-web-add-subreport-to-report.png)
 
 The Subreport control allows you to solve the following tasks:
 
@@ -18,12 +18,12 @@ The Subreport control allows you to solve the following tasks:
 
 * **Create master-detail reports**
 	
-	Another reason for using subreports is to create master-detail reports (reports with hierarchically linked data). For more details on this, see [Master-Detail Reports with Subreports) param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } .
+	Another reason for using subreports is to create master-detail reports (reports with hierarchically linked data). For more details on this, see [Master-Detail Reports with Subreports)](../../create-reports/master-detail-reports-with-subreports.md).
 
-* [Merge Reports param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
+* [Merge Reports](../../merge-reports.md)
 
 You can use an already existing report in the report storage as a report source. Select the Subreport control, open the **Subreport Tasks** category, expand the **Report Source URL** property's drop-down list and select the required report.
 
-![](..\/..\/..\/images/eurd-web-subreport-report-source-url.png)
+![](../../../images/eurd-web-subreport-report-source-url.png)
 
 Double-clicking a subreport opens its associated report in a new Report Designer tab.

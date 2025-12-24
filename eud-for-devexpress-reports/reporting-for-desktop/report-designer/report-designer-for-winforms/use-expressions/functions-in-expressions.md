@@ -1,10 +1,10 @@
----
+﻿---
 title: 'Functions in Expressions'
 owner: Sergey Andreev
 ---
 # Functions in Expressions
 
-This topic lists the functions that you can use in an [expression param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } .
+This topic lists the functions that you can use in an [expression](expressions-overview.md).
 
 ## Aggregate Functions
 
@@ -22,79 +22,103 @@ This topic lists the functions that you can use in an [expression param($match) 
 
 ## Date and Time Functions
 
+## Date and Time Functions
+
 | Function | Description | Example |
-|---|---|---|
-| AddDays(DateTime, DaysCount) | Returns a date-time value that is the specified number of days from the specified DateTime. | AddDays([OrderDate], 30)   |
-| AddHours(DateTime, HoursCount) | Returns a date-time value that is the specified number of hours from the specified DateTime. | AddHours([StartTime], 2)   |
-| AddMilliSeconds(DateTime, MilliSecondsCount) | Returns a date-time value that is the specified number of milliseconds from the specified DateTime. | AddMilliSeconds(([StartTime], 5000)) |
-| AddMinutes(DateTime, MinutesCount) | Returns a date-time value that is the specified number of minutes from the specified DateTime. | AddMinutes([StartTime], 30)   |
-| AddMonths(DateTime, MonthsCount) | Returns a date-time value that is the specified number of months from the specified DateTime. | AddMonths([OrderDate], 1)   |
-| AddSeconds(DateTime, SecondsCount) | Returns a date-time value that is the specified number of seconds from the specified DateTime. | AddSeconds([StartTime], 60)   |
-| AddTicks(DateTime, TicksCount) | Returns a date-time value that is the specified number of ticks from the specified DateTime. | AddTicks([StartTime], 5000) |
-| AddTimeSpan(DateTime, TimeSpan) | Returns a date-time value that is from the specified DateTime for the given TimeSpan. | AddTimeSpan([StartTime], [Duration]) |
-| AddYears(DateTime, YearsCount) | Returns a date-time value that is the specified number of years from the specified DateTime. | AddYears([EndDate], -1)   |
-| DateDiffDay(startDate, endDate) | Returns the number of day boundaries between two non-nullable dates. | DateDiffDay([StartTime], Now())   |
-| DateDiffHour(startDate, endDate) | Returns the number of hour boundaries between two non-nullable dates. | DateDiffHour([StartTime], Now())   |
-| DateDiffMilliSecond(startDate, endDate) | Returns the number of millisecond boundaries between two non-nullable dates. | DateDiffMilliSecond([StartTime], Now()) |
-| DateDiffMinute(startDate, endDate) | Returns the number of minute boundaries between two non-nullable dates. | DateDiffMinute([StartTime], Now())   |
-| DateDiffMonth(startDate, endDate) | Returns the number of month boundaries between two non-nullable dates. | DateDiffMonth([StartTime], Now())   |
-| DateDiffSecond(startDate, endDate) | Returns the number of second boundaries between two non-nullable dates. | DateDiffSecond([StartTime], Now())   |
-| DateDiffTick(startDate, endDate) | Returns the number of tick boundaries between two non-nullable dates. | DateDiffTick([StartTime], Now()) |
-| DateDiffYear(startDate, endDate) | Returns the number of year boundaries between two non-nullable dates. | DateDiffYear([StartTime], Now())   |
-| DateTimeFromParts(Year, Month, Day, Hour, Minute, Second, Millisecond) | Returns a date value constructed from the specified Year, Month, Day, Hour, Minute, Second, and Millisecond. | DateTimeFromParts(2018, 5, 5, 20) |
-| GetDate(DateTime) | Extracts a date from the defined DateTime. | GetDate([OrderDateTime])   |
-| GetDay(DateTime) | Extracts a day from the defined DateTime. | GetDay([OrderDate])   |
-| GetDayOfWeek(DateTime) | Extracts a day of the week from the defined DateTime. | GetDayOfWeek([OrderDate])   |
-| GetDayOfYear(DateTime) | Extracts a day of the year from the defined DateTime. | GetDayOfYear([OrderDate])   |
-| GetHour(DateTime) | Extracts an hour from the defined DateTime. | GetHour([StartTime])   |
-| GetMilliSecond(DateTime) | Extracts milliseconds from the defined DateTime. | GetMilliSecond([StartTime]) |
-| GetMinute(DateTime) | Extracts minutes from the defined DateTime. | GetMinute([StartTime])   |
-| GetMonth(DateTime) | Extracts a month from the defined DateTime. | GetMonth([StartTime])   |
-| GetSecond(DateTime) | Extracts seconds from the defined DateTime. | GetSecond([StartTime])   |
-| GetTimeOfDay(DateTime) | Extracts the time of day from the defined DateTime in ticks. | GetTimeOfDay([StartTime]) |
-| GetYear(DateTime) | Extracts a year from the defined DateTime. | GetYear([StartTime])   |
-| IsApril(DateTime) | Returns True if the specified date falls within April. | IsApril([OrderDate])   |
-| IsAugust(DateTime) | Returns True if the specified date falls within August. | IsAugust([OrderDate])   |
-| IsDecember(DateTime) | Returns True if the specified date falls within December. | IsDecember([OrderDate])   |
-| IsFebruary(DateTime) | Returns True if the specified date falls within February. | IsFebruary([OrderDate])   |
-| IsJanuary(DateTime) | Returns True if the specified date falls within January. | IsJanuary([OrderDate])   |
-| IsJuly(DateTime) | Returns True if the specified date falls within July. | IsJuly([OrderDate])   |
-| IsJune(DateTime) | Returns True if the specified date falls within June. | IsJune([OrderDate])   |
-| IsLastMonth(DateTime) | Returns True if the specified date falls within the previous month. | IsLastMonth([OrderDate])   |
-| IsLastYear(DateTime) | Returns True if the specified date falls within the previous year. | IsLastYear([OrderDate])   |
-| IsMarch(DateTime) | Returns True if the specified date falls within March. | IsMarch([OrderDate])   |
-| IsMay(DateTime) | Returns True if the specified date falls within May. | IsMay([OrderDate])   |
-| IsNextMonth(DateTime) | Returns True if the specified date falls within the next month. | IsNextMonth([OrderDate])   |
-| IsNextYear(DateTime) | Returns True if the specified date falls within the next year. | IsNextYear([OrderDate])   |
-| IsNovember(DateTime) | Returns True if the specified date falls within November. | IsNovember([OrderDate])   |
-| IsOctober(DateTime) | Returns True if the specified date falls within October. | IsOctober([OrderDate])   |
-| IsSameDay(DateTime) | Returns True if the specified date/time values fall within the same day. | IsSameDay([OrderDate])   |
-| IsSeptember(DateTime) | Returns True if the specified date falls within September. | IsSeptember([OrderDate])   |
-| IsThisMonth(DateTime) | Returns True if the specified date falls within the current month. | IsThisMonth([OrderDate])   |
-| IsThisWeek(DateTime) | Returns True if the specified date falls within the current week. | IsThisWeek([OrderDate])   |
-| IsYearToDate(DateTime) | Returns True if the specified date falls within the year-to-date period. This period starts from the first day of the current year and continues to the current date (including the current date). | IsYearToDate([OrderDate])   |
-| IsThisYear(DateTime) | Returns True if the specified date falls within the current year. | IsThisYear([OrderDate])   |
-| LocalDateTimeDayAfterTomorrow() | Returns a date-time value corresponding to the day after Tomorrow. | AddDays(LocalDateTimeDayAfterTomorrow(), 5)   |
-| LocalDateTimeLastMonth() | Returns a DateTime value corresponding to the first day of the previous month. | AddMonths(LocalDateTimeLastMonth(), 5)   |
-| LocalDateTimeLastWeek() | Returns a date-time value corresponding to the first day of the previous week. | AddDays(LocalDateTimeLastWeek(), 5)   |
-| LocalDateTimeLastYear() | Returns a DateTime value corresponding to the first day of the previous year. | AddYears(LocalDateTimeLastYear(), 5)   |
-| LocalDateTimeNextMonth() | Returns a date-time value corresponding to the first day of the next month. | AddMonths(LocalDateTimeNextMonth(), 5)   |
-| LocalDateTimeNextWeek() | Returns a date-time value corresponding to the first day of the following week. | AddDays(LocalDateTimeNextWeek(), 5)   |
-| LocalDateTimeNextYear() | Returns a date-time value corresponding to the first day of the following year. | AddYears(LocalDateTimeNextYear(), 5)   |
-| LocalDateTimeNow() | Returns a date-time value corresponding to the current moment in time. | AddDays(LocalDateTimeNow(), 5)   |
-| LocalDateTimeThisMonth() | Returns a date-time value corresponding to the first day of the current month. | AddMonths(LocalDateTimeThisMonth(), 5)   |
-| LocalDateTimeThisWeek() | Returns a date-time value corresponding to the first day of the current week. | AddDays(LocalDateTimeThisWeek(), 5)   |
-| LocalDateTimeThisYear() | Returns a date-time value corresponding to the first day of the current year. | AddYears(LocalDateTimeThisYear(), 5)   |
-| LocalDateTimeToday() | Returns a date-time value corresponding to Today. | AddDays(LocalDateTimeToday(), 5)   |
-| LocalDateTimeTomorrow() | Returns a date-time value corresponding to Tomorrow. | AddDays(LocalDateTimeTomorrow(), 5)   |
-| LocalDateTimeTwoMonthsAway() | Returns a DateTime value corresponding to the first day of the following month. | AddMonths(LocalDateTimeTwoMonthAway(), 5)   |
-| LocalDateTimeTwoWeeksAway() | Returns a DateTime value corresponding to the first day of the following week. | AddDays(LocalDateTimeTwoWeeksAway(), 5)   |
-| LocalDateTimeTwoYearsAway() | Returns a DateTime value corresponding to the first day of the following year. | AddYears(LocalDateTimeTwoYearsAway(), 5)   |
-| LocalDateTimeYearBeforeToday() | Returns a DateTime value corresponding to the same date one year ago. | AddYears(LocalDateTimeYearBeforeToday(), 5)   |
-| LocalDateTimeYesterday() | Returns a date-time value corresponding to Yesterday. | AddDays(LocalDateTimeYesterday(), 5)   |
-| Now() | Returns the current system date and time. | AddDays(Now(), 5)   |
-| Today() | Returns the current date. Regardless of the actual time, this function returns midnight of the current date. | AddMonths(Today(), 1)   |
-| UtcNow() | Returns the current system date and time, expressed as Coordinated Universal Time (UTC). | AddDays(UtcNow(), 7) |
+|---|---|---| 
+| IsThisWeek(Date) | Returns `True` if the specified date falls within the current week.| _Example_: `IsThisWeek([OrderDate])` |
+|IsThisMonth(Date) | Returns `True` if the specified date falls within the current month. <br>To create the **IsThisMonth** operator using the `Parse` method, use the following syntax: **CriteriaOperator.Parse(“IsThisMonth(StartDate)”)**. | _Example_: `IsThisMonth([OrderDate])` |
+|IsThisYear(Date) | Returns `True` if the specified date falls within the current year. | _Example_: `IsThisYear([OrderDate])` |
+|LocalDateTimeLastMonth() | Returns the [DateTime](https://learn.microsoft.com/dotnet/api/system.datetime) value that has the date part that is one month before the current date, and the time part of 00:00:00. | _Example_: `AddMonths(LocalDateTimeLastMonth(), 5)` |
+|LocalDateTimeLastYear() | Returns the [DateTime](https://learn.microsoft.com/dotnet/api/system.datetime) value that has the date part that is the first day of the previous year, and the time part of 00:00:00. | _Example_: `AddYears(LocalDateTimeLastYear(), 5)` |
+|LocalDateTimeTwoMonthsAway() | Returns the [DateTime](https://learn.microsoft.com/dotnet/api/system.datetime) value with the date part that is the first day of the month after the next month, and the time part of 00:00:00. | _Example_: `AddMonths(LocalDateTimeTwoMonthAway(), 5)` |
+|LocalDateTimeTwoYearsAway() | Returns the [DateTime](https://learn.microsoft.com/dotnet/api/system.datetime) value with the date part that is the first day of the year after the next year, and the time part of 00:00:00. | _Example_: `AddYears(LocalDateTimeTwoYearsAway(), 5)` |
+|LocalDateTimeYearBeforeToday() | Returns the [DateTime](https://learn.microsoft.com/dotnet/api/system.datetime) value with the date part that is the date one year ago, and the time part of 00:00:00. | _Example_: `AddYears(LocalDateTimeYearBeforeToday(), 5)` |
+|InDateRange(Date, FromDate, ToDate) | Returns `True` if the date part of the first operand is greater than or equal to the date part of the second operand and less than or equal to the date part of the third operand. Otherwise, returns `False`. If operands cannot be compared, returns `null`. | _Example_: `InDateRange([OrderDate], #2022-01-01 00:00:00#, #2022-12-31 23:59:59#)` |
+|IsJanuary(Date) | Returns True if the specified date falls within January. | _Example_: `IsJanuary([OrderDate])` |
+|IsFebruary(Date) | Returns True if the specified date falls within February. | _Example_: `IsFebruary([OrderDate])` |
+|IsMarch(Date) | Returns True if the specified date falls within March. | _Example_: `IsMarch([OrderDate])` |
+|IsApril(Date) | Returns True if the specified date falls within April. | _Example_: `IsApril([OrderDate])` |
+|IsMay(Date) | Returns True if the specified date falls within May. | _Example_: `IsMay([OrderDate])` |
+|IsJune(Date) | Returns True if the specified date falls within June. | _Example_: `IsJune([OrderDate])` |
+|IsJuly(Date) | Returns True if the specified date falls within July. | _Example_: `IsJuly([OrderDate])` |
+|IsAugust(Date) | Returns True if the specified date falls within August. | _Example_: `IsAugust([OrderDate])` |
+|IsSeptember(Date) | Returns True if the specified date falls within September. | _Example_: `IsSeptember([OrderDate])` |
+|IsOctober(Date) | Returns True if the specified date falls within October. | _Example_: `IsOctober([OrderDate])` |
+|IsNovember(Date) | Returns True if the specified date falls within November. | _Example_: `IsNovember([OrderDate])` |
+|IsDecember(Date) | Returns True if the specified date falls within December. | _Example_: `IsDecember([OrderDate])` |
+|IsLastMonth(Date) | Returns True if the specified date falls within the previous month. | _Example_: `IsLastMonth([OrderDate])` |
+|IsLastYear(Date) | Returns True if the specified date falls within the previous year. | _Example_: `IsLastYear([OrderDate])` |
+|IsNextMonth(Date) | Returns True if the specified date falls within the next month. | _Example_: `IsNextMonth([OrderDate])` |
+|IsNextYear(Date) | Returns True if the specified date falls within the next year. | _Example_: `IsNextYear([OrderDate])` |
+|IsYearToDate(Date) | Returns `True` if the specified date falls within the period that starts from the first day of the current year and continues until the current date (including the current date). | _Example_: `IsYearToDate([OrderDate])` |
+|IsSameDay(\[Date1\], \[Date2\]) | Returns `True` if the specified date/time value falls within the same day. | _Example_: `IsSameDay([OrderDate], [ShippedDate])` |
+|LocalDateTimeDayAfterTomorrow() | Returns the [DateTime](https://learn.microsoft.com/dotnet/api/system.datetime) value that has the date part that is two days after the current date, and the time part of 00:00:00. | _Example_: `AddDays(LocalDateTimeDayAfterTomorrow(), 5)` |
+|LocalDateTimeLastWeek() | Returns the [DateTime](https://learn.microsoft.com/dotnet/api/system.datetime) value that has the date part that is 7 days before the start of the current week, and the time part of 00:00:00. | _Example_: `AddDays(LocalDateTimeLastWeek(), 5)` |
+|LocalDateTimeNextMonth() | Returns the [DateTime](https://learn.microsoft.com/dotnet/api/system.datetime) value that has the date part that is the first day of the next month, and the time part of 00:00:00. | _Example_: `AddMonths(LocalDateTimeNextMonth(), 5)` |
+|LocalDateTimeNextWeek() | Returns the [DateTime](https://learn.microsoft.com/dotnet/api/system.datetime) value that has the date part that is 7 days after the start of the current week, and the time part of 00:00:00. | _Example_: `AddDays(LocalDateTimeNextWeek(), 5)` |
+|LocalDateTimeNextYear() | Returns the [DateTime](https://learn.microsoft.com/dotnet/api/system.datetime) value with the date part that corresponds to the first day of the next year, and the time part of 00:00:00. | _Example_: `AddYears(LocalDateTimeNextYear(), 5)` |
+|LocalDateTimeNow() | Returns the [DateTime](https://learn.microsoft.com/dotnet/api/system.datetime) value that is the current moment in time. | _Example_: `AddDays(LocalDateTimeNow(), 5)` |
+|LocalDateTimeThisMonth() | Returns the [DateTime](https://learn.microsoft.com/dotnet/api/system.datetime) value with the date part that is the first day of the current month, and the time part of 00:00:00. | _Example_: `AddMonths(LocalDateTimeThisMonth(), 5)` |
+|LocalDateTimeThisWeek() | Returns the [DateTime](https://learn.microsoft.com/dotnet/api/system.datetime) value with the date part that is the first day of the current week, and the time part of 00:00:00. | _Example_: `AddDays(LocalDateTimeThisWeek(), 5)` |
+|LocalDateTimeThisYear() | Returns the [DateTime](https://learn.microsoft.com/dotnet/api/system.datetime) value with the date part that is the first day of the current year, and the time part of 00:00:00. | _Example_: `AddYears(LocalDateTimeThisYear(), 5)` |
+|LocalDateTimeToday() | Returns the [DateTime](https://learn.microsoft.com/dotnet/api/system.datetime) value with the date part that is the start of the current day, and the time part of 00:00:00. | _Example_: `AddDays(LocalDateTimeToday(), 5)` |
+|LocalDateTimeTomorrow() | Returns the [DateTime](https://learn.microsoft.com/dotnet/api/system.datetime) value with the date part that is the next day, and the time part of 00:00:00. | _Example_: `AddDays(LocalDateTimeTomorrow(), 5)` |
+|LocalDateTimeTwoWeeksAway() | Returns the [DateTime](https://learn.microsoft.com/dotnet/api/system.datetime) value with the date part that is the first day of the week after the next week, and the time part of 00:00:00. | _Example_: `AddDays(LocalDateTimeTwoWeeksAway(), 5)` |
+|LocalDateTimeYesterday() | Returns the [DateTime](https://learn.microsoft.com/dotnet/api/system.datetime) value with the date part that is the previous day, and the time part of 00:00:00. | _Example_: `AddDays(LocalDateTimeYesterday(), 5)` |
+|AddTicks(DateTime, AddTicks) | Returns a [DateTime](https://learn.microsoft.com/dotnet/api/system.datetime) value that is the specified number of ticks before or after a specified start date. | _Example_: `AddTicks([OrderDate], 500000)` |
+|AddMilliSeconds(Time, MilliSecondsCount) | Returns a [DateTime](https://learn.microsoft.com/dotnet/api/system.datetime)/[TimeOnly](https://learn.microsoft.com/dotnet/api/system.timeonly) value that is the specified number of milliseconds before or after a specified start date/time.| _Example_: `AddMilliSeconds([StartTime], 200)` |
+|AddSeconds(Time, SecondsCount) | Returns a [DateTime](https://learn.microsoft.com/dotnet/api/system.datetime)/[TimeOnly](https://learn.microsoft.com/dotnet/api/system.timeonly) value that is the specified number of seconds before or after a specified start date/time. | _Example_: `AddSeconds([StartTime], 120)` |
+|AddMinutes(Time, MinutesCount) | Returns a [DateTime](https://learn.microsoft.com/dotnet/api/system.datetime)/[TimeOnly](https://learn.microsoft.com/dotnet/api/system.timeonly) value that is the specified number of minutes before or after a specified start date/time. | _Example_: `AddMinutes([StartTime], 30)` |
+|AddHours(Time, HoursCount) | Returns a [DateTime](https://learn.microsoft.com/dotnet/api/system.datetime)/[TimeOnly](https://learn.microsoft.com/dotnet/api/system.timeonly) value that is the specified number of hours before or after a specified start date/time. | _Example_: `AddHours([StartTime], 5)` |
+|AddDays(Date, DaysCount) | Returns a [DateTime](https://learn.microsoft.com/dotnet/api/system.datetime)/[DateOnly](https://learn.microsoft.com/dotnet/api/system.dateonly) value that is the specified number of days before or after a specified start date. | _Example_: `AddDays([OrderDate], 10)` |
+|AddMonths(Date, MonthsCount) | Returns a [DateTime](https://learn.microsoft.com/dotnet/api/system.datetime)/[DateOnly](https://learn.microsoft.com/dotnet/api/system.dateonly) value that is the specified number of months before or after a specified start date.| _Example_: `AddMonths([OrderDate], 3)` |
+|AddYears(Date, YearsCount) | Returns a [DateTime](https://learn.microsoft.com/dotnet/api/system.datetime)/[DateOnly](https://learn.microsoft.com/dotnet/api/system.dateonly) value that is the specified number of years before or after a specified start date. | _Example_: `AddYears([OrderDate], 2)` |
+|AddTimeSpan(DateTime, TimeSpan) | Returns a [DateTime](https://learn.microsoft.com/dotnet/api/system.datetime) value that differs by a specified amount of time from a specified date. | _Example_: `AddTimeSpan([OrderDate], [Duration])` |
+|DateDiffDay(StartDate, EndDate) | Returns the number of day boundaries between the specified dates. | _Example_: `DateDiffDay([OrderDate], Now())` |
+|DateDiffMonth(StartDate, EndDate) | Returns the number of month boundaries between the specified dates. | _Example_: `DateDiffMonth([OrderDate], Now())` |
+|DateDiffYear(StartDate, EndDate) | Returns the number of year boundaries between the specified dates. | _Example_: `DateDiffYear([OrderDate], Now())` |
+|DateDiffMilliSecond(StartTime, EndTime) | Returns the number of millisecond boundaries between the specified dates/times. | _Example_: `DateDiffMilliSecond([StartTime], Now())` |
+|DateDiffMinute(StartTime, EndTime) | Returns the number of minute boundaries between the specified dates/times.| _Example_: `DateDiffMinute([StartTime], Now())` |
+|DateDiffSecond(StartTime, EndTime) | Returns the number of second boundaries between the specified dates/times.| _Example_: `DateDiffSecond([StartTime], Now())` |
+|DateDiffHour(StartTime, EndTime) | Returns the number of hour boundaries between the specified dates/times. | _Example_: `DateDiffHour([StartTime], Now())` |
+|DateDiffTick(StartDate, EndDate) | Returns the number of tick boundaries between the specified dates. | _Example_: `DateDiffTick([OrderDate], Now())` |
+|GetDate(Date) | Returns the date part of the specified date.| _Example_: `GetDate([OrderDate])` |
+|GetYear(Date) | Gets the year in the specified date. | _Example_: `GetYear([OrderDate])` |
+|GetMonth(Date) | Gets the month in the specified date. | _Example_: `GetMonth([OrderDate])` |
+|GetDay(Date) | Gets the day of the month in the specified date. | _Example_: `GetDay([OrderDate])` |
+|GetDayOfYear(Date) | Gets the day of the year in the specified date. | _Example_: `GetDayOfYear([OrderDate])` |
+|GetDayOfWeek(Date) | Gets the day of the week in the specified date. | _Example_: `GetDayOfWeek([OrderDate])` |
+|GetHour(Time) | Returns the hours value in the specified date/time. | _Example_: `GetHour([StartTime])` |
+|GetMinute(Time) | Returns the minutes value in the specified date/time. | _Example_: `GetMinute([StartTime])` |
+|GetSecond(Time) | Returns the seconds value in the specified date/time.| _Example_: `GetSecond([StartTime])` |
+|GetMilliSecond(Time) | Returns the milliseconds value in the specified date/time. | _Example_: `GetMilliSecond([StartTime])` |
+|GetTimeOfDay(DateTime) | Gets the time part of the specified date. | _Example_: `GetTimeOfDay([OrderDate])` |
+|Now() | Returns the [DateTime](https://learn.microsoft.com/dotnet/api/system.datetime) value that is the current date and time. | _Example_: `AddDays(Now(), 7)` |
+|Today() | Returns a [DateTime](https://learn.microsoft.com/dotnet/api/system.datetime) value that is the current date. The time part is set to 00:00:00. | _Example_: `AddDays(Today(), 3)` |
+|UtcNow() | Returns a [DateTime](https://learn.microsoft.com/dotnet/api/system.datetime) object that is the current date and time in Universal Coordinated Time (UTC). | _Example_: `AddDays(UtcNow(), 7)` |
+|DateTimeFromParts(Year, Month, Day) | Returns a date value constructed from the specified Year, Month, Day, Hour, Minute, Second, and Millisecond. | _Example_: `DateTimeFromParts([Year], [Month], [Day])` |
+|DateTimeFromParts(Year, Month, Day, Hour) | Returns a date value constructed from the specified Year, Month, Day, Hour, Minute, Second, and Millisecond. | _Example_: `DateTimeFromParts([Year], [Month], [Day], [Hour])` |
+|DateTimeFromParts(Year, Month, Day, Hour, Minute) | Returns a date value constructed from the specified Year, Month, Day, Hour, Minute, Second, and Millisecond. | _Example_: `DateTimeFromParts([Year], [Month], [Day], [Hour], [Minute])` |
+|DateTimeFromParts(Year, Month, Day, Hour, Minute, Second) | Returns a date value constructed from the specified Year, Month, Day, Hour, Minute, Second, and Millisecond. | _Example_: `DateTimeFromParts([Year], [Month], [Day], [Hour], [Minute], [Second])` |
+|DateOnlyFromParts(Year, Month, Day) | Returns a [DateOnly](https://learn.microsoft.com/dotnet/api/system.dateonly) value constructed from the specified Year, Month, and Day.| _Example_: `DateOnlyFromParts([Year], [Month], [Day])` |
+|TimeOnlyFromParts(Hour, Minute) | Returns a TimeOnly value constructed from the specified hour, minute, seconds (optional), and milliseconds (optional). | _Example_: `TimeOnlyFromParts([Hour], [Minute])` |
+|TimeOnlyFromParts(Hour, Minute, Second) | Returns a TimeOnly value constructed from the specified hour, minute, seconds (optional), and milliseconds (optional). | _Example_: `TimeOnlyFromParts([Hour], [Minute], [Second])` |
+|TimeOnlyFromParts(Hour, Minute, Second, Millisecond) | Returns a TimeOnly value constructed from the specified hour, minute, seconds (optional), and milliseconds (optional). | _Example_: `TimeOnlyFromParts([Hour], [Minute], [Second], [Millisecond])` |
+|AfterMidday(Time) | Returns `True` if the specified time is after 12:00 PM. | _Example_: `AfterMidday([StartTime])` |
+|BeforeMidday(Time) | Returns `True` if the specified time is before 12:00 PM. | _Example_: `BeforeMidday([StartTime])` |
+|IsAfternoon(Time) | Returns `True` if the specified time falls between 12:00 PM and 6:00 PM. | _Example_: `IsAfternoon([StartTime])` |
+|IsEvening(Time) | Returns `True` if the specified time falls between 6:00 PM and 9:00 PM. | _Example_: `IsEvening([StartTime])` |
+|IsFreeTime(Time) | Returns `True` if the specified time falls within free time. | _Example_: `IsFreeTime([StartTime])` |
+|IsLastHour(Time) | Returns `True` if the specified time falls within the last hour. | _Example_: `IsLastHour([StartTime])` |
+|IsLunchTime(Time) | Returns `True` if the specified time falls within the lunch time. | _Example_: `IsLunchTime([StartTime])` |
+|IsMorning(Time) | Returns `True` if the specified time falls within between 6:00 AM and 12:00 PM. | _Example_: `IsMorning([StartTime])` |
+|IsNextHour(Time) | Returns `True` if the specified time falls within the next hour. | _Example_: `IsNextHour([StartTime])` |
+|IsNight(Time) | Returns `True` if the specified time falls between 9:00 PM and 9:00 AM. | _Example_: `IsNight([StartTime])` |
+|IsSameHour(Time) | Returns `True` if the specified time falls within the same hour. | _Example_: `IsSameHour([StartTime])` |
+|IsSameTime(Time) | Returns `True` if the specified time falls within the same time of day (hour and minute). | _Example_: `IsSameTime([StartTime])` |
+|IsThisHour(Time) | Returns `True` if the specified time falls within the hour. | _Example_: `IsThisHour([StartTime])` |
+|IsWorkTime(Time) | Returns `True` if the specified time falls within work time. | _Example_: `IsWorkTime([StartTime])` |
 
 ## Logical Functions
 
@@ -250,7 +274,7 @@ This topic lists the functions that you can use in an [expression param($match) 
 
 ## Functions for Expression Bindings and Calculated Fields
 
-Below is a list of functions that are used to construct [expression bindings param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  and [calculated fields param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } :
+Below is a list of functions that are used to construct [expression bindings](data-binding-modes.md) and [calculated fields](../shape-report-data/use-calculated-fields/calculated-fields-overview.md):
 
 * NewLine()  
   Returns the newline string defined for the current environment.
@@ -265,7 +289,7 @@ Below is a list of functions that are used to construct [expression bindings par
 
 * FormatString(Format, Value1, ... , ValueN)  
   Returns the specified string with formatted field values.  
-  See the following topic for details: [Format Data param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } .
+  See the following topic for details: [Format Data](../shape-report-data/format-data.md).
   ```
   FormatString('{0:$0.00}', [UnitPrice])
   /*
@@ -283,7 +307,7 @@ Below is a list of functions that are used to construct [expression bindings par
   ```
 
 * Join()  
-  Concatenates the [multi-value report parameter param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 's values into a string. This function is useful when you [bind a multi-value parameter to a label param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  to display the parameter's values in a report.
+  Concatenates the [multi-value report parameter](../use-report-parameters/multi-value-report-parameters.md)'s values into a string. This function is useful when you [bind a multi-value parameter to a label](../use-report-parameters/create-a-report-parameter.md) to display the parameter's values in a report.
 
   This function has two overloads:
 
@@ -303,10 +327,10 @@ Below is a list of functions that are used to construct [expression bindings par
 
 ## Functions for Stored Procedures
 
-The following functions are used to [bind a report to a stored procedure param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } :
+The following functions are used to [bind a report to a stored procedure](../bind-to-data/bind-a-report-to-a-stored-procedure.md):
 
 * Join()  
-  Concatenates the [multi-value report parameter param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 's values into a string. This function can be used when mapping multi-value report parameters to query parameters generated from a stored procedure's parameters. Refer to the following topic for more information: [Query Parameters param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } .
+  Concatenates the [multi-value report parameter](../use-report-parameters/multi-value-report-parameters.md)'s values into a string. This function can be used when mapping multi-value report parameters to query parameters generated from a stored procedure's parameters. Refer to the following topic for more information: [Query Parameters](../bind-to-data/specify-query-parameters.md).
 
   This function has two overloads:
 
@@ -317,14 +341,14 @@ The following functions are used to [bind a report to a stored procedure param($
   ```
 
 * CreateTable(Column1, ..., ColumnN)  
-  Creates a table from several multi-value parameters' values. This function can be used when mapping multi-value report parameters to the query parameter that is generated from a stored procedure's [User Defined Table Type](https://docs.microsoft.com/en-us/sql/relational-databases/tables/use-table-valued-parameters-database-engine) parameter. Refer to the following topic for more information: [Query Parameters param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } .
+  Creates a table from several multi-value parameters' values. This function can be used when mapping multi-value report parameters to the query parameter that is generated from a stored procedure's [User Defined Table Type](https://docs.microsoft.com/en-us/sql/relational-databases/tables/use-table-valued-parameters-database-engine) parameter. Refer to the following topic for more information: [Query Parameters](../bind-to-data/specify-query-parameters.md).
   ```
   CreateTable(?Parameter1, ..., ?ParameterN)
   ```
 
 ## Functions for Summary Expression Editor
 
-Use the following functions when you [calculate a summary param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  across a report and its groups:
+Use the following functions when you [calculate a summary](../shape-report-data/calculate-summaries.md) across a report and its groups:
 
 * sumAvg(Expression)  
   Calculates the average of all values within the specified summary region (group, page, or report).
@@ -344,11 +368,11 @@ Use the following functions when you [calculate a summary param($match) $path = 
 * sumCount(Expression)  
   Counts the number of values within the specified summary region (group, page, or report). In a simple scenario, you may not pass a parameter.
 
-  When using this function in a [master-detail report param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 's master band and passing a detail field as a parameter, the function counts the number of records within the detail band.
+  When using this function in a [master-detail report](../create-reports/master-detail-reports-with-detail-report-bands.md)'s master band and passing a detail field as a parameter, the function counts the number of records within the detail band.
 
   See also:
-  * [Count the Number of Records in a Report or Group param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
-  * [Count the Number of Groups in a Report param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
+  * [Count the Number of Records in a Report or Group](../shape-report-data/count-elements-and-values/count-the-number-of-records-in-a-report-or-group.md)
+  * [Count the Number of Groups in a Report](../shape-report-data/count-elements-and-values/count-the-number-of-groups-in-a-report.md)
   ```
   sumCount([UnitPrice])
   ```
@@ -426,7 +450,7 @@ Use the following functions when you [calculate a summary param($match) $path = 
 
   In a simple scenario, you may not pass a parameter.
 
-  See also: [Display Row Numbers on a Report, Group, or Page param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
+  See also: [Display Row Numbers on a Report, Group, or Page](../shape-report-data/count-elements-and-values/display-row-numbers-in-a-report-group-or-page.md)
   ```
   sumRecordNumber()
   ```

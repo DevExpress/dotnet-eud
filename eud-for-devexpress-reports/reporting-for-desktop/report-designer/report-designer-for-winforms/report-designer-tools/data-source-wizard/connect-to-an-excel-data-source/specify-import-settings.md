@@ -1,4 +1,4 @@
----
+﻿---
 title: Specify Import Settings
 ---
 # Specify Import Settings
@@ -16,7 +16,7 @@ The following settings are available if an Excel workbook has been selected.
 * **Skip hidden rows** - Specifies whether or not to include hidden rows to the resulting data source.
 * **Skip hidden columns** - Specifies whether or not to include hidden columns to the resulting data source.
 
-Click **Next** to proceed to the next wizard page: [Select a Worksheet, Table or Named Region param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } .
+Click **Next** to proceed to the next wizard page: [Select a Worksheet, Table or Named Region](select-a-worksheet,-table-or-named-range.md).
 
 <a name="csv"></a>
 
@@ -33,4 +33,4 @@ The following settings are available if a CSV file has been selected.
 * **Culture** - Specifies culture information used to import data from the source CSV file.
 * **Text Qualifier** - Specifies the character that encloses values in the source CSV file.
 
-Click **Next** to proceed to the next wizard page: [Choose Columns param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } .
+Click **Next** to proceed to the next wizard page: [Choose Columns](choose-columns.md).

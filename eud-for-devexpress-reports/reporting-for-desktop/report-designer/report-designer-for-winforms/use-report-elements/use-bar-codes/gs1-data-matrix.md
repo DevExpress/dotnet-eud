@@ -1,4 +1,4 @@
----
+﻿---
 title: GS1- Data Matrix
 author: Anna Gubareva
 ---
@@ -6,23 +6,23 @@ author: Anna Gubareva
 
 The **GS1 Data Matrix** uses a special start combination to differentiate the **GS1 DataMatrix** symbol from other **Data Matrix ECC 200** symbols. This is achieved by using the **Function 1 Symbol Character** (**FNC1**) in the first position of the encoded data. It enables scanners to process the information according to the **GS1 System Rules**.
 
-![](..\/..\/..\/..\/images/eurd-win-bar-code-gs1-datamatrix.png)
+![](../../../../images/eurd-win-bar-code-gs1-datamatrix.png)
 
 ## Add the Barcode to a Report
 
 1. Drag the **Barcode** item from the report controls toolbox tab and drop it onto the report. 
 
-    ![](..\/..\/..\/..\/images/drag-and-drop-barcode.png)
+    ![](../../../../images/drag-and-drop-barcode.png)
 
 2. Set the control’s **Symbology** property to **DataMatrixGS1**. 
 
-    ![](..\/..\/..\/..\/images/data-matrix-gs1-in-designer.png)
+    ![](../../../../images/data-matrix-gs1-in-designer.png)
 
-3. Specify [common param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  barcode properties and properties [specific](#specific-properties) to **GS1 Data Matrix**.
+3. Specify [common](add-bar-codes-to-a-report.md) barcode properties and properties [specific](#specific-properties) to **GS1 Data Matrix**.
 
 ## Specific Properties
 
-In the [property grid param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } , expand the **Symbology** list and specify the following properties specific to **GS1 Data Matrix**:
+In the [property grid](../../report-designer-tools/ui-panels/property-grid-tabbed-view.md), expand the **Symbology** list and specify the following properties specific to **GS1 Data Matrix**:
 
 * **FNC1 Functional Character**
 	

@@ -1,4 +1,4 @@
----
+﻿---
 title: Select a Worksheet, Table or Named Region
 author: Anna Gubareva
 legacyId: 116249
@@ -11,4 +11,4 @@ This wizard page allows you to select one of the available worksheets, tables or
 
 ![WpfReportWizard_Excel_SelectWorksheet](../../../../../images/img122201.png)
 
-Click **Next** to proceed to the next wizard page: [Choose columns param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } .
+Click **Next** to proceed to the next wizard page: [Choose columns](choose-columns.md).

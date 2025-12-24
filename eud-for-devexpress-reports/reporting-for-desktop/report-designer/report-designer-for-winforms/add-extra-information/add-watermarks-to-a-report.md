@@ -1,4 +1,4 @@
----
+﻿---
 title: Add Watermarks to a Report
 ---
 # Add Watermarks to a Report
@@ -11,13 +11,13 @@ DevExpress Reporting allows you to display text and picture watermarks on report
 
 * How to use pre-printed forms.
 
-![eurd-win-add-watermarks-result](..\/..\/..\/images/eurd-win-add-watermarks-result.png)
+![eurd-win-add-watermarks-result](../../../images/eurd-win-add-watermarks-result.png)
 
 ## <a name="addwatermark"></a>Add a Watermark to a Report
 
-Switch to the [toolbar param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 's **Page** page and press **Watermark**.
+Switch to the [toolbar](../report-designer-tools/toolbar.md)'s **Page** page and press **Watermark**.
 
-![eurd-win-add-watermarks-use-toolbox](..\/..\/..\/images/eurd-win-add-watermarks-use-toolbox.png)
+![eurd-win-add-watermarks-use-toolbox](../../../images/eurd-win-add-watermarks-use-toolbox.png)
 
 In the invoked **Watermark** dialog, select either the **Text Watermark** or **Picture Watermark** tab, depending on the type of watermark you wish to add.
 
@@ -25,7 +25,7 @@ In the invoked **Watermark** dialog, select either the **Text Watermark** or **P
 
 Specify the following settings:
 	
-![eurd-win-watermark-editor](..\/..\/..\/images/eurd-win-watermark-editor.png)
+![eurd-win-watermark-editor](../../../images/eurd-win-watermark-editor.png)
 	
 * Text
 
@@ -80,15 +80,15 @@ Click **OK** to add a watermark to the watermark collection. The added watermark
 
 Specify an image. Click the **Load image** option’s **Browse** button.
 
-![eurd-win-watermark-editor-picture](..\/..\/..\/images/eurd-win-watermark-editor-picture.png)
+![eurd-win-watermark-editor-picture](../../../images/eurd-win-watermark-editor-picture.png)
 	
 In the invoked **Select Picture** dialog, select the file containing the image that you wish to use as a watermark and click **Open**.
 	
-![eud-select-picture-dialog](..\/..\/..\/images/eud-select-picture-dialog.png)
+![eud-select-picture-dialog](../../../images/eud-select-picture-dialog.png)
 
 Specify the following picture options:
 
-![eud-specify-picture-watermark-settings](..\/..\/..\/images/eud-specify-picture-watermark-settings.png)
+![eud-specify-picture-watermark-settings](../../../images/eud-specify-picture-watermark-settings.png)
 
 * Size Mode
 
@@ -131,17 +131,17 @@ Click **OK** to add a watermark to the watermark collection. The added watermark
 
 You can use a picture watermark as a template, to display an image of the preprinted form on the report's body at design time.
 
-To display a watermark at design time, switch to the [toolbar param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 's **View** page and activate  **Watermark**.
+To display a watermark at design time, switch to the [toolbar](../report-designer-tools/toolbar.md)'s **View** page and activate  **Watermark**.
 
-![eurd-win-add-preprinted-watermark](..\/..\/..\/images/eurd-win-add-preprinted-watermark.png)
+![eurd-win-add-preprinted-watermark](../../../images/eurd-win-add-preprinted-watermark.png)
 
 The following image illustrates a report with a watermark shown at design-time that contains a template of a preprinted form.
 
-![eurd-win-add-a-template-watermark](..\/..\/..\/images/eurd-win-add-a-template-watermark.png)
+![eurd-win-add-a-template-watermark](../../../images/eurd-win-add-a-template-watermark.png)
 
 Place report controls on the report's body according to the layout of the preprinted form.
 
-![eurd-win-add-a-template-watermark-result](..\/..\/..\/images/eurd-win-add-a-template-watermark-result.png)
+![eurd-win-add-a-template-watermark-result](../../../images/eurd-win-add-a-template-watermark-result.png)
 
 ### Supported Image Formats
 
@@ -166,15 +166,15 @@ For example, create a watermark and specify its text and picture settings.
 
 Set position of the text to In front:
 
-![Position In front](..\/..\/..\/images/infront-text-position.png)
+![Position In front](../../../images/infront-text-position.png)
 
 Set position of the picture to Behind:
 
-![Position Behind](..\/..\/..\/images/behind-image-position.png)
+![Position Behind](../../../images/behind-image-position.png)
  
 As a result, the image is displayed behind the table, while the text is in front of the content:
 
-![Display text and image watermarks in one page](..\/..\/..\/images/watermark-text-infront-image-behind.png)
+![Display text and image watermarks in one page](../../../images/watermark-text-infront-image-behind.png)
 
 ## Display a Specific Watermark in a Report
 
@@ -182,15 +182,15 @@ As a result, the image is displayed behind the table, while the text is in front
 
 Create two watermarks in the Watermarks collection editor.
 
-![Create two watermarks](..\/..\/..\/images/add-watermarks-in-the-collection-editor.png)
+![Create two watermarks](../../../images/add-watermarks-in-the-collection-editor.png)
 
 Set Watermark Id to Watermark2 (the Id option's value)
 
-![Display the second watermark in the collection](..\/..\/..\/images/propery-grid-watermark-id.png)
+![Display the second watermark in the collection](../../../images/propery-grid-watermark-id.png)
 
 The image below shows the result.
 
-![Display specific watermark](..\/..\/..\/images/display-specific-watermark-example.png)
+![Display specific watermark](../../../images/display-specific-watermark-example.png)
 
 ## Display Watermarks According to the Specified Condition
 
@@ -198,14 +198,14 @@ Bind **Watermark Id** to an expression to apply watermarks stored in the collect
 
 Create the “First page watermark”, “Even page watermark”, and “Odd page watermark” watermarks with the following settings:
 
-![Create three watermarks](..\/..\/..\/images/bind-watermarks-to-expression--ui.png)
+![Create three watermarks](../../../images/bind-watermarks-to-expression--ui.png)
 
 Specify the expression in the report’s WatermarkId property:
 
 `Iif([Arguments.PageIndex]=0,'Watermark_0',Iif([Arguments.PageIndex]%2=0,'Watermark_1','Watermark_2'))`
 
-![Specify the binding expression](..\/..\/..\/images/specify-watermark-expression-in-the-expression-editor.png)
+![Specify the binding expression](../../../images/specify-watermark-expression-in-the-expression-editor.png)
 
 The image below shows the result.
 
-![Display different watermarks](..\/..\/..\/images/watermarks-expression-example.png)
+![Display different watermarks](../../../images/watermarks-expression-example.png)

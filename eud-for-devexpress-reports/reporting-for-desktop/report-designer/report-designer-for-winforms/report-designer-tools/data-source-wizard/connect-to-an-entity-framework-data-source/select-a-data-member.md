@@ -1,4 +1,4 @@
----
+﻿---
 title: Select a Data Member
 ---
 # Select a Data Member
@@ -7,4 +7,4 @@ On this page, select the required data member from the list of available data me
 
 ![eurd-win-report-wizard_ef_selectdatamember](../../../../../images/eurd-win-report-wizard_ef_selectdatamember.png)
 
-Click **Next** to proceed to the next wizard page: [Configure Filters param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } .
+Click **Next** to proceed to the next wizard page: [Configure Filters](configure-filters.md).

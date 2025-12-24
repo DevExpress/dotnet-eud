@@ -1,14 +1,14 @@
----
+﻿---
 title: Binding Report Controls to Data
 author: Anna Gubareva
 legacyId: 116275
 ---
 # Binding Report Controls to Data
-[Report controls param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  can either display static information or dynamic data obtained from the [bound data source param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } .
+[Report controls](../../report-elements/report-controls.md) can either display static information or dynamic data obtained from the [bound data source](binding-a-report-to-data.md).
 
-Data-bound controls are indicated by a yellow database icon, both on the [Design Surface param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  and in the [Report Explorer param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } .
+Data-bound controls are indicated by a yellow database icon, both on the [Design Surface](../../interface-elements/design-surface.md) and in the [Report Explorer](../../interface-elements/report-explorer.md).
 
-![EUD_WpfReportDesigner_BindControls_1](..\/..\/..\/..\/images/img123704.png)
+![EUD_WpfReportDesigner_BindControls_1](../../../../images/img123704.png)
 
 To embed dynamic information to a report, if this information is contained in the report data source, you can use one of the following approaches.
 * [Using the Field List](#fieldlist)
@@ -20,41 +20,41 @@ After a control is bound to data, you can employ additional features that are li
 <a name="fieldlist"/>
 
 ## Using the Field List
-The Report Designer allows you to create a data-aware element using the [Field List param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } . To do this, switch to the Field List panel, click the desired field item and drop it onto the report band. This automatically creates a control bound to the selected data field.
+The Report Designer allows you to create a data-aware element using the [Field List](../../interface-elements/field-list.md). To do this, switch to the Field List panel, click the desired field item and drop it onto the report band. This automatically creates a control bound to the selected data field.
 
-![EUD_WpfReportDesigner_BindControls_2](..\/..\/..\/..\/images/img123705.png)
+![EUD_WpfReportDesigner_BindControls_2](../../../../images/img123705.png)
 
 <a name="contextmenu"/>
 
 ## Using the Context Menu
 Right click an existing report control, and in the invoked context menu, click the **Edit...** link.
 
-![EUD_WpfReportDesigner_BindControls_3](..\/..\/..\/..\/images/img123706.png)
+![EUD_WpfReportDesigner_BindControls_3](../../../../images/img123706.png)
 
 In the invoked **Edit** dialog, expand the **Data Binding** drop-down and select the required data field.
 
-![EUD_WpfReportDesigner_BindControls_4](..\/..\/..\/..\/images/img123707.png)
+![EUD_WpfReportDesigner_BindControls_4](../../../../images/img123707.png)
 
 To unbind a control's property, expand the **Data Binding** drop-down and click the **Clear** button.
 
 <a name="propertygrid"/>
 
 ## Using the Properties Panel
-Select a control (e.g., on the [Design Surface param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } ) and switch to the [Properties Panel param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } . Expand the **Data Bindings** option and specify a data field for the required property (e.g., **Text**).
+Select a control (e.g., on the [Design Surface](../../interface-elements/design-surface.md)) and switch to the [Properties Panel](../../interface-elements/properties-panel.md). Expand the **Data Bindings** option and specify a data field for the required property (e.g., **Text**).
 
-![EUD_WpfReportDesigner_BindControls_5](..\/..\/..\/..\/images/img123709.png)
+![EUD_WpfReportDesigner_BindControls_5](../../../../images/img123709.png)
 
 To unbind a control's property, expand the corresponding drop-down and click the **Clear** button.
 
 <a name="special"/>
 
 ## Special Capabilities
-After a control is bound, you can apply formatting to its dynamic content (e.g., for it to be treated as currency, or date-time content). For details on this, refer to [Formatting Data param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } .
+After a control is bound, you can apply formatting to its dynamic content (e.g., for it to be treated as currency, or date-time content). For details on this, refer to [Formatting Data](../shaping-data/formatting-data.md).
 
-It is possible to force a control to display a result of a summary function calculated across the data field to which it is bound. For more information, see [Calculating Summaries param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } .
+It is possible to force a control to display a result of a summary function calculated across the data field to which it is bound. For more information, see [Calculating Summaries](../shaping-data/calculating-summaries.md).
 
-Another noteworthy option is to combine both static and dynamic content within the same control (e.g., to append some text prefix or postfix to a value obtained from a database), or even bind a control to multiple data fields at one time. This is detailed in [Using Mail Merge param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } .
+Another noteworthy option is to combine both static and dynamic content within the same control (e.g., to append some text prefix or postfix to a value obtained from a database), or even bind a control to multiple data fields at one time. This is detailed in [Using Mail Merge](using-mail-merge.md).
 
-If you are required to perform pre-calculations over the data field to which a control is bound, you can do so by creating a _calculated field_, and binding the control to it. This is detailed at [Calculated Fields param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } .
+If you are required to perform pre-calculations over the data field to which a control is bound, you can do so by creating a _calculated field_, and binding the control to it. This is detailed at [Calculated Fields](calculated-fields.md).
 
-In turn, a calculated field may contain both dynamic and static _parameters_, which can be requested each time a report is being previewed. For more information, refer to [Report Parameters param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } .
+In turn, a calculated field may contain both dynamic and static _parameters_, which can be requested each time a report is being previewed. For more information, refer to [Report Parameters](report-parameters.md).

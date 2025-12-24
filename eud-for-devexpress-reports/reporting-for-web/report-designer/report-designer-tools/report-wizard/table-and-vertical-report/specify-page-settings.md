@@ -1,4 +1,4 @@
----
+﻿---
 uid: '400960'
 title: Specify Page Settings
 owner: Anna Gubareva
@@ -9,7 +9,7 @@ This wizard page allows you to setup the report's page.
 
 ## Specify Page Settings
 
-![](..\/..\/..\/..\/images/eurd-web-report-wizard-specify-page-settings.png)
+![](../../../../images/eurd-web-report-wizard-specify-page-settings.png)
 
 You can specify the following report properties:
 
@@ -31,21 +31,21 @@ After you complete the wizard, you can change these settings in the Report Desig
 
 ## Specify a Report Color Scheme
 
-Choose the report's color scheme. The wizard creates [report styles param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  based on the selected color for the first-level report controls and applies styles with more transparent colors to controls at deeper levels.
+Choose the report's color scheme. The wizard creates [report styles](../../../customize-appearance.md) based on the selected color for the first-level report controls and applies styles with more transparent colors to controls at deeper levels.
 
-![](..\/..\/..\/..\/images/eurd-web-report-wizard-choose-color-scheme.png)
+![](../../../../images/eurd-web-report-wizard-choose-color-scheme.png)
 
 ## Specify the Report Title
 
 Click the placeholder and enter the report title.
 
-![](..\/..\/..\/..\/images/eurd-web-report-wizard-specify-report-title.png)
+![](../../../../images/eurd-web-report-wizard-specify-report-title.png)
 
 ## Result
 
 The following images show the resulting report layout:
 
 
-![**Table Report**](..\/..\/..\/..\/images/eurd-web-report-wizard-resulting-table-report.png)
+![**Table Report**](../../../../images/eurd-web-report-wizard-resulting-table-report.png)
 
-![**Vertical Report**](..\/..\/..\/..\/images/eurd-web-report-wizard-resulting-vertical-report.png)
+![**Vertical Report**](../../../../images/eurd-web-report-wizard-resulting-vertical-report.png)

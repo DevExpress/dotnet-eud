@@ -1,26 +1,26 @@
----
+﻿---
 title: Add Controls to a Report
 author: Anna Gubareva
 ---
 # Add Controls to a Report
 
-This document describes how to add [controls param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  to a report.
+This document describes how to add [controls](../../use-report-elements.md) to a report.
 
 ## <a id="addcontrolsfromthetoolbox"></a>Add Controls from the Standard Controls Bar
 
-Use the End-User Designer's [Toolbox param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  to add controls to your report.
+Use the End-User Designer's [Toolbox](../../report-designer-tools/toolbox.md) to add controls to your report.
 
-![eurd-add-controls](..\/..\/..\/..\/images/eurd-add-controls.png)
+![eurd-add-controls](../../../../images/eurd-add-controls.png)
 
 ## <a id="addfieldsfromthefieldlist"></a>Add Data-Bound Controls from the Field List
 
-You can drag fields from the [Field List param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  onto your report to add data-bound controls, after you [bound param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  your report to a data source.
+You can drag fields from the [Field List](../../report-designer-tools/ui-panels/field-list.md) onto your report to add data-bound controls, after you [bound](../../bind-to-data.md) your report to a data source.
 
 ### Add a Control
 
-Drag a field from the [Field List param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  and drop it onto the report's surface.
+Drag a field from the [Field List](../../report-designer-tools/ui-panels/field-list.md) and drop it onto the report's surface.
 
-![eurd-add-controls-from-field-list](..\/..\/..\/..\/images/eurd-add-controls-from-field-list.png)
+![eurd-add-controls-from-field-list](../../../../images/eurd-add-controls-from-field-list.png)
 
 To add a control of specific type, do either of the following:
 
@@ -29,24 +29,24 @@ To add a control of specific type, do either of the following:
 
 This invokes a context menu where you can select which control to add.
 
-![eurd-add-controls-from-field-list-picturebox](..\/..\/..\/..\/images/eurd-add-controls-from-field-list-picturebox.png)
+![eurd-add-controls-from-field-list-picturebox](../../../../images/eurd-add-controls-from-field-list-picturebox.png)
 
 ### Add a Table
 
 Hold the CTRL or SHIFT key and click several fields. Drop them onto the report's surface to add a table with its cells bound to these fields.
 
-![eurd-add-controls-add-table](..\/..\/..\/..\/images/eurd-add-controls-add-table.png)
+![eurd-add-controls-add-table](../../../../images/eurd-add-controls-add-table.png)
 
-Drop an entire data table from the [Field List param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  to add a report table with columns bound to the data table's fields.
+Drop an entire data table from the [Field List](../../report-designer-tools/ui-panels/field-list.md) to add a report table with columns bound to the data table's fields.
 
-![eurd-add-controls-add-entire-table](..\/..\/..\/..\/images/eurd-add-controls-add-entire-table.png)
+![eurd-add-controls-add-entire-table](../../../../images/eurd-add-controls-add-entire-table.png)
 
 To add column headers, do either of the following:
 
 * Select the fields and hold the CTRL or SHIFT key when you drop them onto a report surface.
 * Drag and drop fields with the right mouse button.
 
-![eurd-add-controls-add-column-headers](..\/..\/..\/..\/images/eurd-add-controls-add-column-headers.png)
+![eurd-add-controls-add-column-headers](../../../../images/eurd-add-controls-add-column-headers.png)
 
  This adds a new table whose cells display the field names.
 
@@ -56,16 +56,16 @@ You can add text and graphics from external applications to your reports:
 
 * Drag a file, text or image from an external application onto your report.
 
-	![eurd-add-controls-drag-rich-text](..\/..\/..\/..\/images/eurd-add-controls-drag-rich-text.png)
+	![eurd-add-controls-drag-rich-text](../../../../images/eurd-add-controls-drag-rich-text.png)
 
 * Copy a file, text or image from an external application, and paste it into your report.
 
-	![eurd-add-controls-copy-text](..\/..\/..\/..\/images/eurd-add-controls-copy-text.png)
+	![eurd-add-controls-copy-text](../../../../images/eurd-add-controls-copy-text.png)
 
 The following table shows which file types transform into report controls:
 
 | File Type | Control |
 | --- | --- |
-| .TXT | A [Label param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  control that contains file contents. |
-| .DOC, .DOCX, .RTF, .HTM, .HTML | A [Rich Text param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  control that contains file content. |
-| .JPG, .PNG, .BMP, .GIF, .TIF, .SVG | A [Picture Box param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  control that contains the image. |
+| .TXT | A [Label](../../use-report-elements/use-basic-report-controls/label.md) control that contains file contents. |
+| .DOC, .DOCX, .RTF, .HTM, .HTML | A [Rich Text](../../use-report-elements/use-basic-report-controls/rich-text.md) control that contains file content. |
+| .JPG, .PNG, .BMP, .GIF, .TIF, .SVG | A [Picture Box](../../use-report-elements/use-basic-report-controls/picture-box.md) control that contains the image. |

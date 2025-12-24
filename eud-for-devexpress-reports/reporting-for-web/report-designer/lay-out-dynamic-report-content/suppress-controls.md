@@ -1,4 +1,4 @@
----
+﻿---
 title: Suppress Controls
 author: Anna Vekhina
 ---
@@ -20,24 +20,24 @@ When identical or null values appear in a report's data source, you can suppress
 	
 	Specifies whether to process duplicate the control's **Text** or **Tag** property values.
 
-![](..\/..\/images/eurd-web-proccess-duplicates-properties.png)
+![](../../images/eurd-web-proccess-duplicates-properties.png)
 
 These properties are available for the following controls:
 
-* [Barcode param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
-* [Label param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
-* [Character Comb param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
-* [Rich Text param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
-* [Table Cell param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
-* [Picture Box param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
+* [Barcode](../use-report-elements/use-bar-codes.md)
+* [Label](../use-report-elements/use-basic-report-controls/label.md)
+* [Character Comb](../use-report-elements/use-basic-report-controls/character-comb.md)
+* [Rich Text](../use-report-elements/use-basic-report-controls/rich-text.md)
+* [Table Cell](../use-report-elements/use-tables.md)
+* [Picture Box](../use-report-elements/use-basic-report-controls/picture-box.md)
 
 ## Conditionally Suppress a Control
 
-You can suppress a control when a specified logical condition is met by specifying the required **Visible** property expressions as described in the [Conditionally Suppress Controls param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  topic.
+You can suppress a control when a specified logical condition is met by specifying the required **Visible** property expressions as described in the [Conditionally Suppress Controls](../shape-report-data/specify-conditions-for-report-elements/conditionally-supress-controls.md) topic.
 
-In this case, a space remains in the band at the control's location. You can avoid this by placing these controls onto an [Panel param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  and setting its **Can Shrink** property to **true**.
+In this case, a space remains in the band at the control's location. You can avoid this by placing these controls onto an [Panel](../use-report-elements/use-basic-report-controls/panel.md) and setting its **Can Shrink** property to **true**.
 
-![](..\/..\/images/eurd-web-panel-can-shrink-property.png)
+![](../../images/eurd-web-panel-can-shrink-property.png)
 
 For this feature to work correctly, consider the following:
 

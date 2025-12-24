@@ -1,4 +1,4 @@
----
+﻿---
 title: Provide Interactivity
 author: Anna Vekhina
 ---
@@ -6,7 +6,7 @@ author: Anna Vekhina
 
 The documents in this section provide information on the interactive features that enable report customization in Print Preview.
 
-* [Create Drill-Down Reports param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
-* [Create Drill-Through Reports param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
-* [Sort a Report in Print Preview param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
-* [Edit Content in Print Preview param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
+* [Create Drill-Down Reports](provide-interactivity/create-drill-down-reports.md)
+* [Create Drill-Through Reports](provide-interactivity/create-drill-through-reports.md)
+* [Sort a Report in Print Preview](provide-interactivity/sort-a-report-in-print-preview.md)
+* [Edit Content in Print Preview](provide-interactivity/edit-content-in-print-preview.md)

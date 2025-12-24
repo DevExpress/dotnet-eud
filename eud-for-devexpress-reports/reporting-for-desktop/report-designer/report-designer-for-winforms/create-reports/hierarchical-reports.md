@@ -1,37 +1,37 @@
----
+﻿---
 title: Hierarchical Reports
 author: Mary Sammal
 ---
 # Hierarchical Reports
 
-This tutorial describes how to use the [detail band param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 's **Hierarchy Print Options** property to create a hierarchical report.
+This tutorial describes how to use the [detail band](../introduction-to-banded-reports.md)'s **Hierarchy Print Options** property to create a hierarchical report.
 
-![HierarchicalReport-Result](..\/..\/..\/images/eurd-HierarchicalReport-Result.png) 
+![HierarchicalReport-Result](../../../images/eurd-HierarchicalReport-Result.png) 
 
-1. [Create a new report param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  or [open an existing one param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } .
+1. [Create a new report](../add-new-reports.md) or [open an existing one](../open-reports.md).
 
-2. [Bind the report param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  to a required data source.
+2. [Bind the report](../bind-to-data.md) to a required data source.
 
-    The following image demonstrates an empty report bound to an [ObjectDataSource param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } .
+    The following image demonstrates an empty report bound to an [ObjectDataSource](../bind-to-data/bind-a-report-to-an-object-data-source.md).
 
-    ![HierarchicalReport-SelectFields](..\/..\/..\/images/eurd-HieararchicalReport-CreateReport.png)
+    ![HierarchicalReport-SelectFields](../../../images/eurd-HieararchicalReport-CreateReport.png)
 
     Each record in this data source includes the "parent ID" field that defines the parent-child relationship and thus builds the hierarchy.
 
 3. Arrange controls on the report.
 
-    - Add the [Report Header param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  and [Page Header param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  bands (see the **Manage Report Bands | Add Bands** section in the [Introduction to Banded Reports param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  document for details)
-    - Add [data-bound labels param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  to the **Detail** band.
+    - Add the [Report Header](../introduction-to-banded-reports.md) and [Page Header](../introduction-to-banded-reports.md) bands (see the **Manage Report Bands | Add Bands** section in the [Introduction to Banded Reports](../introduction-to-banded-reports.md) document for details)
+    - Add [data-bound labels](../use-report-elements/use-basic-report-controls/label.md) to the **Detail** band.
 
-    ![HierarchicalReport-ArrangeControls](..\/..\/..\/images/eurd-win-HierarchicalReport-ArrangeControls.png)
+    ![HierarchicalReport-ArrangeControls](../../../images/eurd-win-HierarchicalReport-ArrangeControls.png)
 
-    Switch to the [Preview param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  tab to see an intermediate result.
+    Switch to the [Preview](../preview-print-and-export-reports.md) tab to see an intermediate result.
 
-    ![HierarchicalReport-ArrangeControls-Result](..\/..\/..\/images/eurd-win-HierarchicalReport-ArrangeControls-Result.png)
+    ![HierarchicalReport-ArrangeControls-Result](../../../images/eurd-win-HierarchicalReport-ArrangeControls-Result.png)
 
 4. Specify the Detail band's **Hierarchy Print Options** property.
 
-    ![HierarchicalReport-Set-HierarchyPrintOptions](..\/..\/..\/images/eurd-win-HierarchicalReport-Set-HierarchyPrintOptions.png)
+    ![HierarchicalReport-Set-HierarchyPrintOptions](../../../images/eurd-win-HierarchicalReport-Set-HierarchyPrintOptions.png)
 
     Set the following options:
 
@@ -45,7 +45,7 @@ This tutorial describes how to use the [detail band param($match) $path = $match
     - **Keep Together with First Child**  
     Specify whether to print a parent node together with its first child node on the next page if these nodes do not fit at the end of a page.
 
-    ![HierarchicalReport-HierarchyPrintOptions-Result](..\/..\/..\/images/eurd-win-HierarchicalReport-HierarchyPrintOptions-Result.png)
+    ![HierarchicalReport-HierarchyPrintOptions-Result](../../../images/eurd-win-HierarchicalReport-HierarchyPrintOptions-Result.png)
 
     As you can see in the image above, the **Detail** band that contains child rows is printed with the specified indent. However, the row (the sum of the label widths) does not fit the page now.
 
@@ -53,42 +53,42 @@ This tutorial describes how to use the [detail band param($match) $path = $match
 
     - Anchor the first data-bound label to the Detail band's left and right edges. Set the label's **Anchor Horizontally** property to **Both**.
 
-        ![HierarchicalReport-AnchorHorizontally-both](..\/..\/..\/images/eurd-win-hierarchicalreports-anchorhorizontally-both.png)
+        ![HierarchicalReport-AnchorHorizontally-both](../../../images/eurd-win-hierarchicalreports-anchorhorizontally-both.png)
 
     - Anchor the rest of the data-bound labels to the right edge of the Detail band (their container). Set their **Anchor Horizontal** property to **Rignt**.    
 
-        ![HierarchicalReport-AnchorHorizontally-right](..\/..\/..\/images/eurd-win-hierarchicalreports-anchorhorizontally-right.png)
+        ![HierarchicalReport-AnchorHorizontally-right](../../../images/eurd-win-hierarchicalreports-anchorhorizontally-right.png)
 
-    ![HierarchicalReport-HierarchyPrintOptions-Result](..\/..\/..\/images/eurs-win-HierarchicalReport-AnchoringResult.png)
+    ![HierarchicalReport-HierarchyPrintOptions-Result](../../../images/eurs-win-HierarchicalReport-AnchoringResult.png)
 
 6. Add a drill-down control to expand/collapse child rows.
 
-    - Add the [Check Box param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  control to the **Detail** band at the left-most position.
+    - Add the [Check Box](../use-report-elements/use-basic-report-controls/check-box.md) control to the **Detail** band at the left-most position.
 
-        ![HiearachicalReport-AddCheckBox](..\/..\/..\/images/eurd-win-HiearachicalReport-AddCheckBox.png)
+        ![HiearachicalReport-AddCheckBox](../../../images/eurd-win-HiearachicalReport-AddCheckBox.png)
 
     - Set the **Check Box** control's glyph options. Use custom glyphs for the *checked* and *unchecked* checkbox states.
 
-        ![HierarchicalReport-CheckBoxProperties](..\/..\/..\/images/eurd-win-HierarchicalReport-CheckBoxProperties.png)
+        ![HierarchicalReport-CheckBoxProperties](../../../images/eurd-win-HierarchicalReport-CheckBoxProperties.png)
 
     - Set the **Detail** band's **Drill Down Control** property to the added **Check Box** control.
 
-        ![HierarchicalReport-SetDrillDownControl](..\/..\/..\/images/eurd-win-HierarchicalReport-SetDrillDownControl.png)
+        ![HierarchicalReport-SetDrillDownControl](../../../images/eurd-win-HierarchicalReport-SetDrillDownControl.png)
 
-    - Set the **Check Box**'s **Check State** property to the following expression: *[ReportItems].[Detail].[DrillDownExpanded]* (in the control's Smart Tag or the [Property Grid param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 's Expressions tab).
+    - Set the **Check Box**'s **Check State** property to the following expression: *[ReportItems].[Detail].[DrillDownExpanded]* (in the control's Smart Tag or the [Property Grid](../report-designer-tools/ui-panels/property-grid-tabbed-view.md)'s Expressions tab).
 
-        ![HierarchicalReport-CheckStateExpression](..\/..\/..\/images/eurd-win-HierarchicalReport-CheckStateExpression.png)
+        ![HierarchicalReport-CheckStateExpression](../../../images/eurd-win-HierarchicalReport-CheckStateExpression.png)
 
-    ![HierarchicalReport-DrillDownControl](..\/..\/..\/images/eurd-win-HierarchicalReport-DrillDownControl.png)
+    ![HierarchicalReport-DrillDownControl](../../../images/eurd-win-HierarchicalReport-DrillDownControl.png)
 
 
 7. Sort report data.
 
     Use the Detail band's **Sort Fields** property to sort data on each hierarchy level.
 
-    ![HierarchicalReport-SortFieldsProperty](..\/..\/..\/images/eurd-win-HierarchicalReport-SortFieldsProperty.png)
+    ![HierarchicalReport-SortFieldsProperty](../../../images/eurd-win-HierarchicalReport-SortFieldsProperty.png)
 
-    ![HierarchicalReport-SortedData](..\/..\/..\/images/eurd-win-HierarchicalReport-SortedData.png)
+    ![HierarchicalReport-SortedData](../../../images/eurd-win-HierarchicalReport-SortedData.png)
 
 8. Highlight root nodes.
 
@@ -97,7 +97,7 @@ This tutorial describes how to use the [detail band param($match) $path = $match
     - Set the **Back Color** property to *iif([DataSource.CurrentRowHierarchyLevel] == 0, Rgb(231,235,244), ?)*
     - Set the **Font | Bold** property to *[DataSource.CurrentRowHierarchyLevel] == 0*
 
-    ![HierarchicalReport-ExpressionVariable](..\/..\/..\/images/eurd-win-HierarchicalReport-ExpressionVariable.png)
+    ![HierarchicalReport-ExpressionVariable](../../../images/eurd-win-HierarchicalReport-ExpressionVariable.png)
 
-    ![HierarchicalReport-HighlightedRootNodes](..\/..\/..\/images/eurd-win-HierarchicalReport-HighlightedRootNodes.png)
+    ![HierarchicalReport-HighlightedRootNodes](../../../images/eurd-win-HierarchicalReport-HighlightedRootNodes.png)
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: Bind a Report to a Transformation-Based Data Source
 author: Boris Zaitsev
 ---
@@ -9,15 +9,15 @@ If the data source contains hierarchical data, it can be transformed to flatten 
 
 The following image illustrates the transformation applied to a complex JSON data source.  
 
-![](..\/..\/images/eurd-web-federated-data-source-transformation.png)
+![](../../images/eurd-web-federated-data-source-transformation.png)
 
 This help topic describes how to use the **Transformation** query of the **Federation Data Source** to flatten a JSON Data Source that contains nested data (collection property).
 
 ## Create a Report and Data Sources
 
-1. [Create a new blank report param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } .
+1. [Create a new blank report](../../report-designer/report-designer-tools/report-wizard/empty-report.md).
 
-1. [Add a JSON data source param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  that uses the following JSON string:
+1. [Add a JSON data source](../../report-designer/bind-to-data/bind-a-report-to-json-data.md) that uses the following JSON string:
 
     ```
     [
@@ -91,38 +91,38 @@ This help topic describes how to use the **Transformation** query of the **Feder
     ```
 The created JSON data source is displayed in the Field List pane:
 
-![](..\/..\/images/eurd-web-federated-datasource-transformation-json-datasource.png)
+![](../../images/eurd-web-federated-datasource-transformation-json-datasource.png)
 
 ## Create Data Federation
 
-1. Invoke the designer [menu param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  and click **Add Data Source**.
+1. Invoke the designer [menu](../report-designer-tools/menu.md) and click **Add Data Source**.
 
-   ![](..\/..\/images/eurd-web-data-source-menu.png) 
+   ![](../../images/eurd-web-data-source-menu.png) 
 
 
-1. Select **Data Federation** in the invoked [Data Source Wizard param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  and click **Next**.
+1. Select **Data Federation** in the invoked [Data Source Wizard](../report-designer-tools/data-source-wizard.md) and click **Next**.
 
-    ![](..\/..\/images/eurd-web-data-source-wizard-select-data-federation.png)
+    ![](../../images/eurd-web-data-source-wizard-select-data-federation.png)
 
 1. On the next page, click the **+ (plus) button** and select **Transform** to add a Transformation query.
 
-    ![](..\/..\/images/eurd-web-data-federation-wizard-add-transformation-query.png)
+    ![](../../images/eurd-web-data-federation-wizard-add-transformation-query.png)
 
-1. The invoked [Query Builder param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  displays the columns that you can transform.
+1. The invoked [Query Builder](../../report-designer/report-designer-tools/query-builder.md) displays the columns that you can transform.
 
-    ![](..\/..\/images/eurd-web-data-federation-transformation-query-builder.png)
+    ![](../../images/eurd-web-data-federation-transformation-query-builder.png)
 
 1. Select the **Transform** check box next to the column you need to unfold and flatten. You can specify the aliases for the generated columns.
 
-    ![](..\/..\/images/eurd-web-data-federation-transformation-query.png)
+    ![](../../images/eurd-web-data-federation-transformation-query.png)
 
     Click **OK** to close the Query Builder window.
     
 1. Click **Finish** to create the data source.
 
-    ![](..\/..\/images/eurd-web-data-federation-finish-data-source.png)
+    ![](../../images/eurd-web-data-federation-finish-data-source.png)
 
 The **Field List** displays the created Federation Data Source.
 
-![](..\/..\/images/eurd-web-data-federation-result.png)
+![](../../images/eurd-web-data-federation-result.png)
 

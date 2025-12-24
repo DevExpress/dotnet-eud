@@ -1,4 +1,4 @@
----
+﻿---
 title: Barcode Recognition Specifics
 author: Anna Vekhina
 ---
@@ -9,7 +9,7 @@ This document describes the main specifics of barcode recognition and how to res
 ## Choose an Appropriate Barcode Type
 Selecting an appropriate barcode type (symbology) depends on your specific business requirements and the applied industrial standards.
 
-In general, consider using [Barcode 2 of 5 Interleaved param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  for encoding digits and [Barcode 39 param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  for encoding the full range of ASCII characters.
+In general, consider using [Barcode 2 of 5 Interleaved](interleaved-2-of-5.md) for encoding digits and [Barcode 39](code-39-usd-3.md) for encoding the full range of ASCII characters.
 
 ## Insert the Function Code Characters (FNC) or the Application Identifier into a Barcode
 
@@ -19,14 +19,14 @@ According to the **GS1** specification, the **FNC1** character is always inserte
 
 Although you can use any ASCII character as the **FNC1** placeholder, it will not be a part of the encoded data as it does not have any direct ASCII representation.
 
-For the [Code 128 param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  symbology, you can also define **FNC2-4** characters.
+For the [Code 128](code-128.md) symbology, you can also define **FNC2-4** characters.
 
 For the list of the available application identifiers, refer to the official documentation at [www.gs1.org](http://www.gs1.org/).
 
 ## Specify the Barcode Resolution on Export to Third-Party Formats
-At present, only [export to PDF param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  preserves the original barcode in its vector form. Export to other formats will keep only the rasterized version of a barcode (with the default DPI set to **96**).
+At present, only [export to PDF](../../../document-viewer/exporting/pdf-specific-export-options.md) preserves the original barcode in its vector form. Export to other formats will keep only the rasterized version of a barcode (with the default DPI set to **96**).
 
-For [XLSX param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  and [XLS param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  export, the output resolution can be set up manually using the **Rasterization Resolution** property.
+For [XLSX](../../../document-viewer/exporting/xlsx-specific-export-options.md) and [XLS](../../../document-viewer/exporting/xls-specific-export-options.md) export, the output resolution can be set up manually using the **Rasterization Resolution** property.
 
 ## Specify the DPI of the Device Used to Print the Bar Code
 

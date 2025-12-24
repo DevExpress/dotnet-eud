@@ -1,4 +1,4 @@
----
+﻿---
 title: Create a Query or Select a Stored Procedure
 author: Mary Sammal
 ---
@@ -10,7 +10,7 @@ On this wizard page, you can choose which tables, views and/or stored procedures
 ![eurd-win-report-wizard-multi-query-select](../../../../../images/eurd-win-report-wizard-multi-query-select.png)
 
 ## Manage Custom Queries
-When you are required to shape the query data at the level of a data source, you can create custom queries by expanding the **Queries** category and clicking the ![report-wizard-multi-query-page-icon-add](../../../../../images/eurd-win-img125532.png) button. This will invoke the [Query Builder param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  where you can create complex queries by joining multiple tables, filtering, sorting and grouping their data, as well as calculating various aggregate functions.
+When you are required to shape the query data at the level of a data source, you can create custom queries by expanding the **Queries** category and clicking the ![report-wizard-multi-query-page-icon-add](../../../../../images/eurd-win-img125532.png) button. This will invoke the [Query Builder](../../query-builder.md) where you can create complex queries by joining multiple tables, filtering, sorting and grouping their data, as well as calculating various aggregate functions.
 
 ![eurd-win-query-builder-diagram-overview](../../../../../images/eurd-win-query-builder-diagram-overview.png)
 
@@ -25,7 +25,7 @@ On finishing the wizard, each of the selected data items will be included into a
 ![eurd-win-report-field-list](../../../../../images/eurd-win-report-field-list.png)
 
 ## Specify Master-Detail Relationships
-To define [master-detail relationships param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  between two or more queries, click **Manage Relations**.
+To define [master-detail relationships](../../../create-reports/master-detail-reports-with-detail-report-bands.md) between two or more queries, click **Manage Relations**.
 
 ![eurd-master-detail-relation-editor-categories-products-order-details](../../../../../images/eurd-master-detail-relation-editor-categories-products-order-details.png)
 
@@ -39,8 +39,8 @@ This will invoke the **Edit Relation** editor that provides a different UI to ma
 
 ![eud-win-reports-edit-relation-editor](../../../../../images/eurd-win-edit-relation-dialog.png)
 
-On finishing the wizard, the specified data relationships will appear in the [Field List param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } .
+On finishing the wizard, the specified data relationships will appear in the [Field List](../../ui-panels/field-list.md).
 
 ![eurd-win-report-field-list2](../../../../../images/eurd-win-report-field-list2.png)
 
-If selected queries or stored procedures contain any [parameters param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } , you will be required to define their values on the next wizard page: [Configure Query Parameters param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } .
+If selected queries or stored procedures contain any [parameters](../../../bind-to-data/specify-query-parameters.md), you will be required to define their values on the next wizard page: [Configure Query Parameters](configure-query-parameters.md).

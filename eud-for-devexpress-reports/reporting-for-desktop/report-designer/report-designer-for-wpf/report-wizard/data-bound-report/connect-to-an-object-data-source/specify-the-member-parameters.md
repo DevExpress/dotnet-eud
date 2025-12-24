@@ -1,4 +1,4 @@
----
+﻿---
 title: Specify the Member Parameters
 author: Anna Gubareva
 legacyId: 116242
@@ -10,4 +10,4 @@ To specify the member parameter's value, use the **Value** column. Enable the ch
 
 ![WpfReportWizard_Object_SpecifyMemberParameters](../../../../../images/img122900.png)
 
-Click **Next** to proceed to the next wizard page: [Select the Data Binding Mode param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } .
+Click **Next** to proceed to the next wizard page: [Select the Data Binding Mode](select-the-data-binding-mode.md).

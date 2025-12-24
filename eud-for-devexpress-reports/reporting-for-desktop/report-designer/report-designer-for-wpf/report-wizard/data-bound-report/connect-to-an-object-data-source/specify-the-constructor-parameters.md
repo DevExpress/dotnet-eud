@@ -1,4 +1,4 @@
----
+﻿---
 title: Specify the Constructor Parameters
 author: Anna Gubareva
 legacyId: 116245
@@ -10,4 +10,4 @@ To specify the constructor parameter's value, use the **Value** column. Enable t
 
 ![WpfReportWizard_Object_SpecifyConstructorParameters](../../../../../images/img122881.png)
 
-Click **Next** to proceed to the next wizard page: [Choose Columns to Display in a Report param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } .
+Click **Next** to proceed to the next wizard page: [Choose Columns to Display in a Report](../choose-columns-to-display-in-a-report.md).

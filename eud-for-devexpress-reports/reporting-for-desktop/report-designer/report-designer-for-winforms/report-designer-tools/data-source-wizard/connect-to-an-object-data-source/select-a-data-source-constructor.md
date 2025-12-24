@@ -1,4 +1,4 @@
----
+﻿---
 title: Select a Data Source Constructor
 ---
 # Select a Data Source Constructor
@@ -7,4 +7,4 @@ On this page, select one of the available data source constructors. To exclude i
 
 ![RD_ReportWizard_ObjDataSourceConsturctor](../../../../../images/eurd-win-data-access-object-binding-select-constructor.png)
 
-Click **Next** to proceed to the next wizard page: [Specify the Constructor Parameters param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } .
+Click **Next** to proceed to the next wizard page: [Specify the Constructor Parameters](specify-the-constructor-parameters.md).

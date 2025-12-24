@@ -1,4 +1,4 @@
----
+﻿---
 title: Calculate an Aggregate Function
 author: Anna Gubareva
 ---
@@ -6,19 +6,19 @@ author: Anna Gubareva
 This tutorial describes the steps required to create a report with an _aggregate function_. In this example, products that are not discontinued and have a total unit value greater than _$500_ will be displayed.
 1. Create a new or open an existing data-bound report. This tutorial starts with the following report layout: 
 	
-	![](..\/..\/..\/..\/images/eurd-win-aggreagate-function-initial-layout.png)
+	![](../../../../images/eurd-win-aggreagate-function-initial-layout.png)
 
-2. Create a new [calculated field param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  and set the field name to "AggregateField".
+2. Create a new [calculated field](calculated-fields-overview.md) and set the field name to "AggregateField".
 
-3. Select the calculated field, switch to the [Property Grid param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  and click the **Expression** property's ellipsis button.
+3. Select the calculated field, switch to the [Property Grid](../../report-designer-tools/ui-panels/property-grid-tabbed-view.md) and click the **Expression** property's ellipsis button.
 
-    ![](..\/..\/..\/..\/images/eurd-win-aggreagate-field-expression-property.png)
+    ![](../../../../images/eurd-win-aggreagate-field-expression-property.png)
 
 4. In the invoked **Expression Editor**, double click the **[CategoriesProducts]** field and choose **Functions** | **Aggregate**. Then, double click the **Count()** function and insert the following text into the empty square brackets:
 	
 	_"Not[Discontinued]And[UnitTotal] >= 500"._
 	
-	![](..\/..\/..\/..\/images/eurd-win-aggreagate-field-expression.png)
+	![](../../../../images/eurd-win-aggreagate-field-expression.png)
 	
 	To construct a valid aggregate expression, use the following format, which consists of four parts.
 
@@ -31,14 +31,14 @@ This tutorial describes the steps required to create a report with an _aggregate
 
     You can refer to the currently processed group using the Parent Relationship Traversal Operator ('^'). This allows you to calculate aggregates within groups using expressions like the following: _[][[^.CategoryID] == [CategoryID]].Sum([UnitPrice])_.
 
-    For more information, see [Expression Language param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } .
+    For more information, see [Expression Language](../../use-expressions/expression-language.md).
 
 5. Click **OK** to close the dialog and save the expression.
 
-6. Add three [Labels param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  to the [Detail Band param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  and customize their content as shown in the following image:
+6. Add three [Labels](../../use-report-elements/use-basic-report-controls/label.md) to the [Detail Band](../../introduction-to-banded-reports.md) and customize their content as shown in the following image:
 	
-	![](..\/..\/..\/..\/images/eurd-win-aggreagate-function-complete-layout.png)
+	![](../../../../images/eurd-win-aggreagate-function-complete-layout.png)
 
-The report is now ready. Switch to [Print Preview param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  to see the result.
+The report is now ready. Switch to [Print Preview](../../preview-print-and-export-reports.md) to see the result.
 
-![](..\/..\/..\/..\/images/eurd-win-aggreagate-function-result.png)
+![](../../../../images/eurd-win-aggreagate-function-result.png)

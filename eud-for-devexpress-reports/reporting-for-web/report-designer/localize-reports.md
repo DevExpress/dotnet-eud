@@ -1,4 +1,4 @@
----
+﻿---
 title: Localize Reports
 author: Sergey Andreev
 ---
@@ -19,7 +19,7 @@ Perform the following actions to localize a report:
 
 2. Change the controls' property values. You can move and resize a control.
 
-    ![](..\/images/eurd-localize-report-web-forms-change-content.png)
+    ![](../images/eurd-localize-report-web-forms-change-content.png)
 
 3. Save the report.
 
@@ -27,6 +27,6 @@ When you load a localized report, use the **Language** drop-down list to switch 
 
 ## Use Localization Editor
 
-The [Localization Editor param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  allows you to change text strings in the report and expedite the translation process.
+The [Localization Editor](report-designer-tools/localization-editor.md) allows you to change text strings in the report and expedite the translation process.
 
-![](..\/images/eurd-localize-report-web-forms-language-editor.png)
+![](../images/eurd-localize-report-web-forms-language-editor.png)

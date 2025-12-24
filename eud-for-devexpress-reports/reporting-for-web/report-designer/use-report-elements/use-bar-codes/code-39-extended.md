@@ -1,4 +1,4 @@
----
+﻿---
 title: Code 39 Extended
 author: Anna Vekhina
 ---
@@ -6,23 +6,23 @@ author: Anna Vekhina
 
 Using **Code 39**'s "Full ASCII Mode", it is possible to encode all **128** ASCII characters. This is accomplished by using the (**$**), (**/**), (**%**), and (**&#0043;**) symbols as "shift" characters. These characters combined with the single character that follows indicate which Full ASCII character is to be used.
 
-![](..\/..\/..\/images/eurd-web-bar-code-code-39-extended.png)
+![](../../../images/eurd-web-bar-code-code-39-extended.png)
 
 ## Add the Barcode to a Report
 
 1. Drag the **Barcode** item from the report controls toolbox tab and drop it onto the report. 
 
-    ![](..\/..\/..\/images/eurd-web-add-bar-code-to-report.png)
+    ![](../../../images/eurd-web-add-bar-code-to-report.png)
 
 2. Set the control’s **Symbology** property to **Code39Extended**. 
 
-    ![](..\/..\/..\/images/code-39-extended-in-designer.png)
+    ![](../../../images/code-39-extended-in-designer.png)
 
-3. Specify [common param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  barcode properties and properties [specific](#specific-properties) to **Code 39 Extended**.
+3. Specify [common](add-bar-codes-to-a-report.md) barcode properties and properties [specific](#specific-properties) to **Code 39 Extended**.
 
 ## Specific Properties
 
-In the [property grid param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } , expand the **Symbology** list and specify the following properties specific to **Code 39 Extended**:
+In the [property grid](../../report-designer-tools/ui-panels/properties-panel.md), expand the **Symbology** list and specify the following properties specific to **Code 39 Extended**:
 
 * **Calculate a Checksum**
 
@@ -32,7 +32,7 @@ In the [property grid param($match) $path = $match.Groups[1].Value; if ($path -n
 
     Specifies the density of a barcode's bars.
 
-The **Code 39 Extended** barcode, as opposed to [Code 39 param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } , automatically replaces all necessary characters with special symbols, when required. This means that you do not need to do this manually, otherwise, the result will be incorrect.
+The **Code 39 Extended** barcode, as opposed to [Code 39](code-39-usd-3.md), automatically replaces all necessary characters with special symbols, when required. This means that you do not need to do this manually, otherwise, the result will be incorrect.
 
 For example, if you want to insert a "TAB" character into a barcode's text, use "\t", which will be replaced by "$I" for coding, and then into "TAB" after scanning:
 

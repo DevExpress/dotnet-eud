@@ -1,10 +1,10 @@
----
+﻿---
 title: 'How to: Use Expressions'
 owner: Sergey Andreev
 ---
 # How to: Use Expressions
 
-This topic lists solutions to common [expression param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } -related tasks.
+This topic lists solutions to common [expression](expressions-overview.md)-related tasks.
 
 ## Group Clauses with Brackets
 
@@ -48,11 +48,11 @@ A report's elements are displayed in the Report Designer's Report Explorer. You 
 
 > [!Note]
 > * **[ReportItems]** is a plain list that provides access to all report items at one level.
-> * You cannot use the ReportItems collection in a [Calculated Field param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 's expression.
+> * You cannot use the ReportItems collection in a [Calculated Field](../shape-report-data/use-calculated-fields.md)'s expression.
 
 ## Specify Images for Picture Boxes
 
-When you specify an expression for the [Picture Box param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 's **Image Source** property, you can use image **Id**s  from the report's **ImageResources** collection.
+When you specify an expression for the [Picture Box](../use-report-elements/use-basic-report-controls/picture-box.md)'s **Image Source** property, you can use image **Id**s  from the report's **ImageResources** collection.
 
 *IIf([MarchSales]>20, [Images.ArrowUp],[Images.ArrowDown])*
 
@@ -99,7 +99,7 @@ Use the following variables to change a Cross Tab cell's appearance settings:
   ```
 
 * DataSource.CurrentRowHierarchyLevel  
-  Returns a zero-based level of the current row in a [hierarchical report param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } .
+  Returns a zero-based level of the current row in a [hierarchical report](../create-reports/hierarchical-reports.md).
   ```
   Iif([DataSource.CurrentRowHierarchyLevel] == 0, Rgb(231,235,244), ?)
   /*
@@ -108,7 +108,7 @@ Use the following variables to change a Cross Tab cell's appearance settings:
   ```
 
 > [!Note]
-> These variables are not valid when the report includes a [table of contents param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } .
+> These variables are not valid when the report includes a [table of contents](../use-report-elements/use-basic-report-controls/table-of-contents.md).
 
 ## Specify Parent Relations
 
@@ -128,4 +128,4 @@ The following expression returns _false_ if the Accounts collection is empty:
 
 `[Accounts][]`
 
-Refer to the following topic for an example on how to use this syntax: [Calculate an Aggregate Function param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } .
+Refer to the following topic for an example on how to use this syntax: [Calculate an Aggregate Function](../shape-report-data/use-calculated-fields/calculate-an-aggregate-function.md).

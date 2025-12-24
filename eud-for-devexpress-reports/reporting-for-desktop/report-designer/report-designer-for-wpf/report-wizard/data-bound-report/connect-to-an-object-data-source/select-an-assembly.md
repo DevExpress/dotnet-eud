@@ -1,4 +1,4 @@
----
+﻿---
 title: Select an Assembly
 author: Anna Gubareva
 legacyId: 116239
@@ -10,4 +10,4 @@ On this wizard page, select an assembly that contains the class type definition 
 
 To exclude irrelevant assemblies from the list, select the **Show only highlighted assemblies** check box.  If you disable the check box, all available data source types will be shown.
 
-Click **Next** to proceed to the next wizard page: [Select a Data Source Type param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } .
+Click **Next** to proceed to the next wizard page: [Select a Data Source Type](select-a-data-source-type.md).

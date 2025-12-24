@@ -1,4 +1,4 @@
----
+﻿---
 title: Choose a Report Template
 ---
 
@@ -10,6 +10,6 @@ Once the wizard finishes, the selected template defines the arrangement of the a
 
 Click **Next** to provide data to your report and continue report customization.
 
-The [next page param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  guides you through the data source setup.
+The [next page](select-the-data-source-type.md) guides you through the data source setup.
 
-After you configured a data source, proceed to the following wizard page: [Map Report Template Fields param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } .
+After you configured a data source, proceed to the following wizard page: [Map Report Template Fields](map-report-template-fields.md).

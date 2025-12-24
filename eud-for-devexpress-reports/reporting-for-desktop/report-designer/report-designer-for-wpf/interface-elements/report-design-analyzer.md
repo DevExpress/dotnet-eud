@@ -1,11 +1,11 @@
----
+﻿---
 title: 'Report Design Analyzer'
 ---
 # Report Design Analyzer
 
-The Report Design Analyzer shows errors, warnings, and information messages that help users create or enhance a report layout in the [End-User Report Designer param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } .
+The Report Design Analyzer shows errors, warnings, and information messages that help users create or enhance a report layout in the [End-User Report Designer](../../report-designer-for-wpf.md).
 
-![](..\/..\/..\/images/eurd-report-design-analyzer-wpf.png)
+![](../../../images/eurd-report-design-analyzer-wpf.png)
 
 ## Invoke the Report Design Analyzer
 
@@ -13,17 +13,17 @@ Do one of the following to invoke the **Report Design Analyzer**:
 
 * Select **Report Design Analyzer** from the **Windows** drop-down menu in the **View** toolbar tab.
 
-    ![](..\/..\/..\/images/eurd-report-design-analyzer-wpf-invoke-from-toolbar.png)
+    ![](../../../images/eurd-report-design-analyzer-wpf-invoke-from-toolbar.png)
 
 * Click the bell icon in the status bar.
 
-    ![](..\/..\/..\/images/eurd-report-design-analyzer-wpf-invoke-with-bell.png)
+    ![](../../../images/eurd-report-design-analyzer-wpf-invoke-with-bell.png)
 
 ## Filter Messages
 
 You can filter messages by one of the following categories:
 
-![](..\/..\/..\/images/eurd-report-design-analyzer-wpf-filter-messages.png)
+![](../../../images/eurd-report-design-analyzer-wpf-filter-messages.png)
 
 * **Report Layout**
 
@@ -45,8 +45,8 @@ You can filter messages by one of the following categories:
 
 Each message contains a recommendation on how to correct an issue. Click the Plus icon in front of the message to expand the recommendation.
 
-![](..\/..\/..\/images/eurd-report-design-analyzer-wpf-expand-message.png)
+![](../../../images/eurd-report-design-analyzer-wpf-expand-message.png)
 
 The message's **Source** column contains a reference to the control or script that caused the issue. Click the reference to navigate to this control or script.
 
-![](..\/..\/..\/images/eurd-report-design-analyzer-wpf-navigate-to-control.png)
+![](../../../images/eurd-report-design-analyzer-wpf-navigate-to-control.png)

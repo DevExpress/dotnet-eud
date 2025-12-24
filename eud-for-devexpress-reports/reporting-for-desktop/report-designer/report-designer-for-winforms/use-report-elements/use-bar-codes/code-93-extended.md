@@ -1,4 +1,4 @@
----
+﻿---
 title: Code 93 Extended
 author: Anna Gubareva
 ---
@@ -6,23 +6,23 @@ author: Anna Gubareva
 
 Using **Code 93**'s "Full ASCII Mode", it is possible to encode all **128** ASCII characters. This is accomplished by using the (**$**), (**/**), (**%**), and (**&#0043;**) symbols as "shift" characters. These characters combined with the single character that follows indicate which Full ASCII character is to be used.
 
-![](..\/..\/..\/..\/images/eurd-win-bar-code-code-93-extended.png)
+![](../../../../images/eurd-win-bar-code-code-93-extended.png)
 
 ## Add the Barcode to a Report
 
 1. Drag the **Barcode** item from the report controls toolbox tab and drop it onto the report. 
 
-    ![](..\/..\/..\/..\/images/drag-and-drop-barcode.png)
+    ![](../../../../images/drag-and-drop-barcode.png)
 
 2. Set the control’s **Symbology** property to **Code93Extended**. 
 
-    ![](..\/..\/..\/..\/images/code-93-extended-in-designer.png)
+    ![](../../../../images/code-93-extended-in-designer.png)
 
-3. Specify [common param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  barcode properties and properties [specific](#specific-properties) to **Code 93 Extended**.
+3. Specify [common](add-bar-codes-to-a-report.md) barcode properties and properties [specific](#specific-properties) to **Code 93 Extended**.
 
 ## Specific Properties
 
-In the [property grid param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } , expand the **Symbology** list and specify the following property specific to **Code 93 Extended**:
+In the [property grid](../../report-designer-tools/ui-panels/property-grid-tabbed-view.md), expand the **Symbology** list and specify the following property specific to **Code 93 Extended**:
 
 * **Calculate a Checksum**
 

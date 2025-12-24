@@ -1,4 +1,4 @@
----
+﻿---
 title: Calculate Summaries
 author: Sergey Andreev
 ---
@@ -6,6 +6,6 @@ author: Sergey Andreev
 
 Topics in this section describe how to calculate summaries in a report.
 
-* [Calculate a Summary param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
-* [Calculate a Weighted Average param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
-* [Calculate an Advanced Summary param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
+* [Calculate a Summary](calculate-summaries/calculate-a-summary.md)
+* [Calculate a Weighted Average](calculate-summaries/calculate-a-weighted-average.md)
+* [Calculate an Advanced Summary](calculate-summaries/calculate-an-advanced-summary.md)

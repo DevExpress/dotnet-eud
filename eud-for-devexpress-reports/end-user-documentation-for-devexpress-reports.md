@@ -1,4 +1,4 @@
----
+﻿---
 title: End-User Documentation for DevExpress Reports
 author: Margarita Zakhodiaeva
 ---
@@ -12,8 +12,8 @@ The Report Designer UI varies depending on the target platform.
 
 The following topics are available in this section:
 
-* [Reporting for Web param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
-* [Reporting for Desktop param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
+* [Reporting for Web](reporting-for-web/index.md)
+* [Reporting for Desktop](reporting-for-desktop/index.md)
 
 If you search for DevExpress developer documentation with API reference, refer to [.NET Reporting Tools for Web, Mobile, and Desktop](https://docs.devexpress.com/XtraReports/2162/reporting).
 
@@ -21,4 +21,4 @@ If you search for DevExpress developer documentation with API reference, refer t
 
 This documentation source is available in the GitHub repository: [github.com/DevExpress/dotnet-eud](https://github.com/DevExpress/dotnet-eud).
 
-You can clone the repository and create your own documentation websites and help files for projects based on reporting controls. Refer to the repository’s README file for more information: [README.md param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } .
+You can clone the repository and create your own documentation websites and help files for projects based on reporting controls. Refer to the repository’s README file for more information: [README.md](https://github.com/DevExpress/dotnet-eud/blob/master/README.md).

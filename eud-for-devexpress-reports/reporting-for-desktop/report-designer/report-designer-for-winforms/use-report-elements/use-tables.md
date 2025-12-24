@@ -1,4 +1,4 @@
----
+﻿---
 title: Use Tables
 author: Anna Gubareva
 ---
@@ -6,12 +6,12 @@ author: Anna Gubareva
 
 The documents in this section describe the **Table** control and illustrate its main features:
 
-* [Table Overview param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
-* [Bind Table Cells to Data param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
-* [Manage Table Structure param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
-* [Manipulate Table Elements param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
-* [Convert Labels to Table param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
-* [Hide Table Cells param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } 
+* [Table Overview](use-tables/table-overview.md)
+* [Bind Table Cells to Data](use-tables/bind-table-cells-to-data.md)
+* [Manage Table Structure](use-tables/manage-table-structure.md)
+* [Manipulate Table Elements](use-tables/manage-table-structure.md)
+* [Convert Labels to Table](manipulate-report-elements/convert-labels-to-table.md)
+* [Hide Table Cells](use-tables/hide-table-cells.md)
 
 > [!Note]
-> Refer to the [Table Reports param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  tutorial for information on how to create a data-bound table report.
+> Refer to the [Table Reports](../create-reports/table-reports.md) tutorial for information on how to create a data-bound table report.

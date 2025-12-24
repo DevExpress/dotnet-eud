@@ -1,4 +1,4 @@
----
+﻿---
 title: PDF Content
 author: Sergey Andreev
 ---
@@ -9,19 +9,21 @@ The **PDF Content** control allows you to render PDF file content in two ways:
 
 * *Default*. Render each PDF file page as a separate report page.
     
-    ![Render PDF content on separate pages](..\/..\/..\/images/eurd-web-pdf-content-diagram.png)
+    ![Render PDF content on separate pages](../../../images/eurd-web-pdf-content-diagram.png)
 
 * Embed PDF content into a report.
 
-    ![Embed PDF content to a report](..\/..\/..\/images/xrpdfcontent-generate-own-pages-on.png)
+    ![Embed PDF content to a report](../../../images/xrpdfcontent-generate-own-pages-on.png)
 
     Refer to the following documentation section for more details: [Embed PDF File Content into a Report](#embed-pdf-file-content-into-a-report).
 
 ## Add the PDF Content Control to a Report
 
-Drop the **PDF Content** item from the Toolbox onto a [band param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  on the design surface.
+Drop the **PDF Content** item from the Toolbox onto a [band](../../introduction-to-banded-reports.md) on the design surface.
 
-![Drop the PDF Content control from Toolbox](..\/..\/..\/images/xrpdfcontent-drop-from-toolbox.png)
+![Drop the PDF Content control from Toolbox](../../../images/xrpdfcontent-drop-from-toolbox.png)
+
+You can also drop a PDF file to a band to insert a PDF Content item.
 
 ## Specify PDF Content
 
@@ -37,21 +39,21 @@ Use one of the following methods:
 
 ### Specify PDF Data
 
-Select the **PDF Content** control, navigate to the [Properties panel param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } , click the **Source** property's ellipsis button, and select a PDF file.
+Select the **PDF Content** control, navigate to the [Properties panel](../../report-designer-tools/ui-panels/properties-panel.md), click the **Source** property's ellipsis button, and select a PDF file.
 
-![Click the Source property's ellipsis button and select PDF file](..\/..\/..\/images/xrpdfcontent-source-ellipsis.png)
+![Click the Source property's ellipsis button and select PDF file](../../../images/xrpdfcontent-source-ellipsis.png)
 
 When users save a report, the **Source** property value persists in the report file.
 
-You can also use [report parameters param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  to conditionally specify the **Source** property value or bind the property to a data source field. Refer to the following section for details: [Use Expressions](#use-expressions).
+You can also use [report parameters](../../use-report-parameters.md) to conditionally specify the **Source** property value or bind the property to a data source field. Refer to the following section for details: [Use Expressions](#use-expressions).
 
 ### Specify a Reference to a PDF Document
 
-Select the **PDF Content** control, navigate to the [Properties panel param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } , and assign a path to a PDF file to this property.
+Select the **PDF Content** control, navigate to the [Properties panel](../../report-designer-tools/ui-panels/properties-panel.md), and assign a path to a PDF file to this property.
 
-![Assign a path to a PDF file to the Source URL property](..\/..\/..\/images/xrpdfcontent-sourceurl-ellipsis.png)
+![Assign a path to a PDF file to the Source URL property](../../../images/xrpdfcontent-sourceurl-ellipsis.png)
 
-You can also use [report parameters param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  to conditionally specify the **Source Url** property value or bind the property to a data source field. Refer to the following section for details: [Use Expressions](#use-expressions).
+You can also use [report parameters](../../use-report-parameters.md) to conditionally specify the **Source Url** property value or bind the property to a data source field. Refer to the following section for details: [Use Expressions](#use-expressions).
 
 When users save a report, the URL or path specified in the **Source URL** property is included in the report file. The PDF document should be available at the specified location when a report is printed or rendered in Preview.
 
@@ -59,9 +61,9 @@ The **Source Url** property value takes precedence over the **Source** property 
 
 ### Use Expressions
 
-Select the **PDF Content** control and navigate to the [Properties panel param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value } . Click the **f** symbol right to the **Source** or **Source URL** property.
+Select the **PDF Content** control and navigate to the [Properties panel](../../report-designer-tools/ui-panels/properties-panel.md). Click the **f** symbol right to the **Source** or **Source URL** property.
 
-![Assign an expression to the Source URL property](..\/..\/..\/images/xrpdfcontent-sourceurl-expression.png)
+![Assign an expression to the Source URL property](../../../images/xrpdfcontent-sourceurl-expression.png)
 
 Use the invoked **Expression Editor** to create an expression that identifies the source of a PDF file.
 
@@ -69,7 +71,7 @@ Use the invoked **Expression Editor** to create an expression that identifies th
 
 [Add](#add-the-pdf-content-control-to-a-report) the **PDF Content** control to a report, [specify](#specify-pdf-content) a PDF file location, and disable the control's **Generate Own Pages** property.
 
-![Disable the Generate Own Pages property](..\/..\/..\/images/disable-generate-own-pages-property.png)
+![Disable the Generate Own Pages property](../../../images/disable-generate-own-pages-property.png)
 
 ### Use Cases
 
@@ -79,7 +81,7 @@ Use the invoked **Expression Editor** to create an expression that identifies th
 
 * Create a report document with paper kind that differs from PDF pages paper kind. Refer to the following section for instructions: [Fit PDF File's Page Size to Report's Page Size](#fit-pdf-files-page-size-to-reports-page-size).
 
-* Append PDF file content to report content and add sequential numbering to all report pages. For this, add PDF file content as a subreport to your report as described in the following section: [Fit PDF File's Page Size to Report's Page Size](#fit-pdf-files-page-size-to-reports-page-size). Then, [add page numbers param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  to both the subreport and main report. 
+* Append PDF file content to report content and add sequential numbering to all report pages. For this, add PDF file content as a subreport to your report as described in the following section: [Fit PDF File's Page Size to Report's Page Size](#fit-pdf-files-page-size-to-reports-page-size). Then, [add page numbers](../../add-navigation/add-page-numbers.md) to both the subreport and main report. 
 
 * Design a pre-printed form and use PDF file as a watermark.
 
@@ -105,11 +107,11 @@ This section explains how to set the same paper kind for a report and its embedd
 
 3. Remove the report's margins and adjust the **PDF Content** control size to make PDF content fit the entire *Detail* band.
 
-    ![Adjust the Pdf Content control's size](..\/..\/..\/images/xrpdfcontent-adjust-size.png)
+    ![Adjust the Pdf Content control's size](../../../images/xrpdfcontent-adjust-size.png)
 
-4. Add the report as a subreport to your main report. Use the [Subreport param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  control with the **Generate Own Pages** property enabled.
+4. Add the report as a subreport to your main report. Use the [Subreport](subreport.md) control with the **Generate Own Pages** property enabled.
 
-    ![Add the Pdf Content control as a subreport to the main report](..\/..\/..\/images/xrpdfcontent-add-as-subreport.png)
+    ![Add the Pdf Content control as a subreport to the main report](../../../images/xrpdfcontent-add-as-subreport.png)
 
     Open the main report's Preview to show the result.
 

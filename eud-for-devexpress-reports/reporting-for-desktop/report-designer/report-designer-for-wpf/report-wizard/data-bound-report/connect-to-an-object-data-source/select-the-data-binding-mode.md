@@ -1,4 +1,4 @@
----
+﻿---
 title: Select the Data Binding Mode
 author: Anna Gubareva
 legacyId: 116243
@@ -11,5 +11,5 @@ On this wizard page, you can choose one of the following data binding modes.
 ![WpfReportWizard_Object_SelectDataBindingMode](../../../../../images/img122879.png)
 
 Click **Next** to proceed to the next wizard once you select the data binding mode.
-* [Choose Columns to Display in a Report param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  - if you select the first option, go to choosing columns to display in a report.
-* [Select a Data Source Constructor param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  - this page allows you to choose a required constructor to create an instance of the data source.
+* [Choose Columns to Display in a Report](../choose-columns-to-display-in-a-report.md) - if you select the first option, go to choosing columns to display in a report.
+* [Select a Data Source Constructor](select-a-data-source-constructor.md) - this page allows you to choose a required constructor to create an instance of the data source.

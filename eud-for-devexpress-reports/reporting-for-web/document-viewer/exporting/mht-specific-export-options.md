@@ -1,12 +1,12 @@
----
+﻿---
 title: MHT Export Options
 author: Anna Gubareva
 legacyId: 115379
 ---
 # MHT Export Options
-Before [exporting a document param($match) $path = $match.Groups[1].Value; if ($path -notmatch '^https?://' -and $path -notmatch '^~/' -and $path -notmatch '^\.\./\.\./') { '](' + '../' + $path + '.md)' } else { $match.Value }  to MHT format, you can specify MHT-specific options in the **Export Options** panel.
+Before [exporting a document](export-a-document.md) to MHT format, you can specify MHT-specific options in the **Export Options** panel.
 
-![EUD_HTML5DV_MhtExportOptions](..\/..\/images/img121801.png)
+![EUD_HTML5DV_MhtExportOptions](../../images/img121801.png)
 * **Export Mode**
 	
 	Specifies how a document is exported to MHT. The following modes are available.
@@ -33,9 +33,7 @@ Before [exporting a document param($match) $path = $match.Groups[1].Value; if ($
 * **Use HRef Hyperlinks**
 	
 	Specifies whether to enable the use of standard HTML link references in document navigation.
-* **Allow URLs with JS Content**
-	
-	Specifies whether the JavaScript code can be placed in URLs in the resulting HTML document.
+
 * **Remove Secondary Symbols**
 	
 	Specifies whether to remove all secondary symbols (for instance, **Space**, **Carriage Return**, etc.) in the resulting document to reduce its size.
