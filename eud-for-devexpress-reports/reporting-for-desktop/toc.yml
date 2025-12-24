@@ -854,9 +854,12 @@ items:
       href: report-designer/report-designer-for-wpf/document-preview/search-panel.md
     - name: Document Map Panel
       href: report-designer/report-designer-for-wpf/document-preview/document-map-panel.md
-- name: Print Preview for WinForms
-  href: print-preview/print-preview-for-winforms.md
+- name: Print Preview
+  href: print-preview.md
   items:
+  - name: Print Preview for WinForms
+    href: print-preview/print-preview-for-winforms.md
+    items:
   - name: File Management
     items:
     - name: Save a Print Preview to a File
