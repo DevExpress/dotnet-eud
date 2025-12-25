@@ -1,0 +1,243 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Calculations | DevExpress End-User Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Calculations | DevExpress End-User Documentation ">
+      
+      
+      <link rel="icon" href="../../../../favicon.ico">
+      <link rel="stylesheet" href="../../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../../toc.html">
+      <meta name="docfx:tocrel" content="../../toc.html">
+      
+      <meta name="docfx:rel" content="../../../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/DevExpress/dotnet-eud/blob/2025.1/eud-for-bi-dashboards/dashboard-for-web/web-dashboard-designer-mode/data-analysis/calculations.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+      <!-- Matomo Tag Manager -->
+      <script>
+        var _mtm = window._mtm = window._mtm || [];
+        _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
+      </script>
+      <!-- End Matomo Tag Manager -->
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../../../index.html">
+            <img id="logo" class="svg" src="../../../../logo.svg" alt="DevExpress EUD">
+            DevExpress EUD
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="calculations">Calculations</h1>
+
+<p><strong>Window calculations</strong> provide the capability to apply specific computations to measure values and allow you to perform different analytical tasks such as computing running totals, percentages of totals, differences, etc.</p>
+<p>To create a window calculation, invoke the <a href="../ui-elements/dashboard-item-menu.html">Bindings</a> menu and click the required measure. In the invoked <a href="../ui-elements/data-item-menu.html">Data Item Menu</a>, go to <strong>Calculations</strong> and select one of the available calculations.</p>
+<p><img src="../../images/img126064.png" alt="WebDashboard_CalculationsMenu"></p>
+<ul>
+<li><a href="#percent-of-total">Percent of Total</a></li>
+<li><a href="#running-summary">Running Summary</a></li>
+<li><a href="#difference">Difference</a></li>
+<li><a href="#percentage-difference">Percentage Difference</a></li>
+<li><a href="#moving">Moving</a></li>
+<li><a href="#rank">Rank</a></li>
+<li><a href="#custom">Custom</a></li>
+</ul>
+<p>After you have selected the required calculation, you can change its default settings by clicking the <strong>Edit</strong> button (the <img src="../../images/img126050.png" alt="wdd-icon-edit-collection-value-item"> icon).
+This invokes the special window containing common and specific calculation settings:</p>
+<h2 id="percent-of-total">Percent of Total</h2>
+<p>A calculation is used to compute a percentage of the total for the specified measure across a window.</p>
+<p><img src="../../images/img126069.png" alt="WebDashboard_Calculations_PercentOfTotalSettings"></p>
+<ul>
+<li><strong>Window Definition</strong> specifies a window that limits measure values participating in a calculation. You can choose between the <em>Predefined</em> and <em>Specific</em> window definitions.
+<ul>
+<li>For the <em>Predefined</em> window definition, you can specify the <strong>Definition mode</strong> that depends on the dashboard item type.</li>
+<li>For the <em>Specific</em> window definition, you can manually specify the set of dimensions that fall into the window.</li>
+</ul>
+</li>
+<li><strong>Expression</strong> displays an expression generated for the current calculation. To change the expression, click <strong>Edit</strong>.</li>
+</ul>
+<p>In the Grid below, <strong>Percent of Total</strong> is applied to a fourth column to show a contribution of individual quarterly sales to total sales.</p>
+<p><img src="../../images/img126094.png" alt="WebDashboard_Calculations_PercentOfTotalExample"></p>
+<h2 id="running-summary">Running Summary</h2>
+<p>Can be used to compute a cumulative total for the specified measure across a window.</p>
+<p><img src="../../images/img126070.png" alt="WebDashboard_Calculations_RunningSummarySettings"></p>
+<ul>
+<li><strong>Window Definition</strong> specifies a window that limits measure values participating in a calculation. You can choose between the <em>Predefined</em> and <em>Specific</em> window definitions.
+<ul>
+<li>For the <em>Predefined</em> window definition, you can specify the <strong>Definition mode</strong> that depends on the dashboard item type.</li>
+<li>For the <em>Specific</em> window definition, you can manually specify the set of dimensions that fall into the window.</li>
+</ul>
+</li>
+<li><strong>Summary Type</strong> - Specifies a summary function used to apply a calculation.</li>
+<li>The <strong>Expression</strong> displays an expression generated for the current calculation. To change the expression, click <strong>Edit</strong>.</li>
+</ul>
+<p>In the Grid below, the <strong>Running Total</strong> is applied to a fourth column to display cumulative sales across all quarters.</p>
+<p><img src="../../images/img126095.png" alt="WebDashboard_Calculations_RunningTotalExample"></p>
+<h2 id="difference">Difference</h2>
+<p>Can be used to compute the difference between measure values across a window.</p>
+<p><img src="../../images/img126071.png" alt="WebDashboard_Calculations_DifferenceSettings"></p>
+<ul>
+<li><strong>Window Definition</strong> specifies a window that limits measure values participating in a calculation. You can choose between the <em>Predefined</em> and <em>Specific</em> window definitions.
+<ul>
+<li>For the <em>Predefined</em> window definition, you can specify the <strong>Definition mode</strong> that depends on the dashboard item type.</li>
+<li>For the <em>Specific</em> window definition, you can manually specify the set of dimensions that fall into the window.</li>
+</ul>
+</li>
+<li><strong>Target</strong> - Specifies the value used to calculate the difference. The following values are available: <em>Previous</em>, <em>Next</em>, <em>First</em> and <em>Last</em>.</li>
+<li><strong>Difference Type</strong> - Specifies whether the absolute or percentage difference is calculated.</li>
+<li><strong>Expression</strong> displays an expression generated for the current calculation. To change the expression, click <strong>Edit</strong>.</li>
+</ul>
+<p>In the Grid below, the <strong>Difference</strong> is applied to a fourth column to show absolute differences between quarterly sales.</p>
+<p><img src="../../images/img126096.png" alt="WebDashboard_Calculations_DifferenceExample"></p>
+<h2 id="percentage-difference">Percentage Difference</h2>
+<p>A calculation is used to compute the difference in percentages between measure values across a window.</p>
+<p><img src="../../images/img126072.png" alt="WebDashboard_Calculations_PercentageDifferenceSettings"></p>
+<ul>
+<li><strong>Window Definition</strong> specifies a window that limits measure values participating in a calculation. You can choose between the <em>Predefined</em> and <em>Specific</em> window definitions.
+<ul>
+<li>For the <em>Predefined</em> window definition, you can specify the <strong>Definition mode</strong> that depends on the dashboard item type.</li>
+<li>For the <em>Specific</em> window definition, you can manually specify the set of dimensions that fall into the window.</li>
+</ul>
+</li>
+<li><strong>Target</strong> - Specifies the value used to calculate the difference. The following values are available: <em>Previous</em>, <em>Next</em>, <em>First</em> and <em>Last</em>.</li>
+<li><strong>Difference Type</strong> - Specifies whether the absolute or percentage difference is calculated.</li>
+<li><strong>Expression</strong> displays an expression generated for the current calculation. To change the expression, click <strong>Edit</strong>.</li>
+</ul>
+<p>In the Grid below, <strong>Percentage Difference</strong> is applied to a fourth column to show percentage differences between quarterly sales.</p>
+<p><img src="../../images/img126097.png" alt="WebDashboard_Calculations_PercentDifferenceExample"></p>
+<h2 id="moving">Moving</h2>
+<p>The Moving calculation uses neighboring values to calculate a total.</p>
+<p><img src="../../images/img126073.png" alt="WebDashboard_Calculations_MovingSettings"></p>
+<ul>
+<li><strong>Window Definition</strong> specifies a window that limits measure values participating in a calculation. You can choose between the <em>Predefined</em> and <em>Specific</em> window definitions.
+<ul>
+<li>For the <em>Predefined</em> window definition, you can specify the <strong>Definition mode</strong> that depends on the dashboard item type.</li>
+<li>For the <em>Specific</em> window definition, you can manually specify the set of dimensions that fall into the window.</li>
+</ul>
+</li>
+<li><strong>Summary Type</strong> - Specifies a summary function used to apply a calculation.</li>
+<li><strong>Start Offset</strong>/<strong>End Offset</strong> - Specify start/end offsets from the currently processed value. For instance, if you specified offsets as 1/1, the previous and next values will be used along with the current value to apply the Moving calculation.</li>
+<li>The <strong>Expression</strong> displays an expression generated for the current calculation. To change the expression, click <strong>Edit</strong>.</li>
+</ul>
+<p>In the Grid below, a <strong>Moving</strong> calculation is applied to a fourth column to show a moving average across all quarters.</p>
+<p><img src="../../images/img126098.png" alt="WebDashboard_Calculations_MovingAverageExample"></p>
+<h2 id="rank">Rank</h2>
+<p>Use the Rank calculation to compute rankings for the specified measure across a window.</p>
+<p><img src="../../images/img126074.png" alt="WebDashboard_Calculations_RankSettings"></p>
+<ul>
+<li><strong>Window Definition</strong> specifies a window that limits measure values participating in a calculation. You can choose between the <em>Predefined</em> and <em>Specific</em> window definitions.
+<ul>
+<li>For the <em>Predefined</em> window definition, you can specify the <strong>Definition mode</strong> that depends on the dashboard item type.</li>
+<li>For the <em>Specific</em> window definition, you can manually specify the set of dimensions that fall into the window.</li>
+</ul>
+</li>
+<li><strong>Rank Type</strong> - Specifies the type of ranking. The following ranking types are available: <em>Unique</em>, <em>Competition</em>, <em>Dense</em>, <em>Modified</em> and <em>Percentile</em>.</li>
+<li><strong>Rank Order</strong> - Specifies the order of ranking. You can select <em>Ascending</em> or <em>Descending</em>.</li>
+<li>The <strong>Expression</strong> displays an expression generated for the current calculation. To change the expression, click <strong>Edit</strong>.</li>
+</ul>
+<p>In the Grid below, a <strong>Rank</strong> calculation is applied to a fourth column to show a ranking of sales for individual quarters.</p>
+<p><img src="../../images/img126099.png" alt="WebDashboard_Calculations_RankExample"></p>
+<h2 id="custom">Custom</h2>
+<p>Use Custom to specify a custom calculation by adding the required calculation functions inside the measure expression.</p>
+<p><img src="../../images/img126075.png" alt="WebDashboard_Calculations_CustomSettings"></p>
+<ul>
+<li><strong>Window Definition</strong> specifies a window that limits measure values participating in a calculation. You can choose between the <em>Predefined</em> and <em>Specific</em> window definitions.
+<ul>
+<li>For the <em>Predefined</em> window definition, you can specify the <strong>Definition mode</strong> that depends on the dashboard item type.</li>
+<li>For the <em>Specific</em> window definition, you can manually specify the set of dimensions that fall into the window.</li>
+</ul>
+</li>
+<li>The <strong>Expression</strong> allows you to change the expression for the current measure. To change the expression, click <strong>Edit</strong>.</li>
+</ul>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/DevExpress/dotnet-eud/blob/2025.1/eud-for-bi-dashboards/dashboard-for-web/web-dashboard-designer-mode/data-analysis/calculations.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Copyright (c) 1998-2025 Developer Express Inc. All rights reserved.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

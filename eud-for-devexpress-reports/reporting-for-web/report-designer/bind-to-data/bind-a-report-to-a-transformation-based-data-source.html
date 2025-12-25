@@ -1,0 +1,230 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Bind a Report to a Transformation-Based Data Source | DevExpress End-User Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Bind a Report to a Transformation-Based Data Source | DevExpress End-User Documentation ">
+      
+      
+      <link rel="icon" href="../../../../favicon.ico">
+      <link rel="stylesheet" href="../../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../../toc.html">
+      <meta name="docfx:tocrel" content="../../toc.html">
+      
+      <meta name="docfx:rel" content="../../../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/DevExpress/dotnet-eud/blob/2025.1/eud-for-devexpress-reports/reporting-for-web/report-designer/bind-to-data/bind-a-report-to-a-transformation-based-data-source.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+      <!-- Matomo Tag Manager -->
+      <script>
+        var _mtm = window._mtm = window._mtm || [];
+        _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
+      </script>
+      <!-- End Matomo Tag Manager -->
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../../../index.html">
+            <img id="logo" class="svg" src="../../../../logo.svg" alt="DevExpress EUD">
+            DevExpress EUD
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="bind-a-report-to-a-transformation-based-data-source">Bind a Report to a Transformation-Based Data Source</h1>
+
+<p>If the data source contains hierarchical data, it can be transformed to flatten nested fields and display them as separate fields. If the data column is an array, you can unfold its values and display a new row of data for each element of the array.</p>
+<p>The following image illustrates the transformation applied to a complex JSON data source.</p>
+<p><img src="../../images/eurd-web-federated-data-source-transformation.png" alt=""></p>
+<p>This help topic describes how to use the <strong>Transformation</strong> query of the <strong>Federation Data Source</strong> to flatten a JSON Data Source that contains nested data (collection property).</p>
+<h2 id="create-a-report-and-data-sources">Create a Report and Data Sources</h2>
+<ol>
+<li><p><a href="../report-designer-tools/report-wizard/empty-report.html">Create a new blank report</a>.</p>
+</li>
+<li><p><a href="bind-a-report-to-json-data.html">Add a JSON data source</a> that uses the following JSON string:</p>
+<pre><code>[
+{
+    &quot;CategoryId&quot;: 1,
+    &quot;CategoryName&quot;: &quot;Beverages&quot;,
+    &quot;Description&quot;: &quot;Soft drinks, coffees, teas, beers, and ales&quot;,
+    &quot;Products&quot;: [
+    {
+        &quot;ProductId&quot;: 1,
+        &quot;ProductName&quot;: &quot;Chai&quot;,
+        &quot;SupplierId&quot;: 1,
+        &quot;CategoryId&quot;: 1,
+        &quot;QuantityPerUnit&quot;: &quot;10 boxes x 20 bags&quot;,
+        &quot;UnitPrice&quot;: 18.0000,
+        &quot;UnitsInStock&quot;: 39,
+        &quot;UnitsOnOrder&quot;: 0,
+        &quot;ReorderLevel&quot;: 10,
+        &quot;Discontinued&quot;: false,
+        &quot;Supplier&quot;: null
+    },
+    {
+        &quot;ProductId&quot;: 2,
+        &quot;ProductName&quot;: &quot;Chang&quot;,
+        &quot;SupplierId&quot;: 1,
+        &quot;CategoryId&quot;: 1,
+        &quot;QuantityPerUnit&quot;: &quot;24 - 12 oz bottles&quot;,
+        &quot;UnitPrice&quot;: 19.0000,
+        &quot;UnitsInStock&quot;: 17,
+        &quot;UnitsOnOrder&quot;: 40,
+        &quot;ReorderLevel&quot;: 25,
+        &quot;Discontinued&quot;: false,
+        &quot;Supplier&quot;: null
+    }
+    ]
+},
+{
+    &quot;CategoryId&quot;: 2,
+    &quot;CategoryName&quot;: &quot;Condiments&quot;,
+    &quot;Description&quot;: &quot;Sweet and savory sauces, relishes, spreads, and seasonings&quot;,
+    &quot;Products&quot;: [
+    {
+        &quot;ProductId&quot;: 3,
+        &quot;ProductName&quot;: &quot;Aniseed Syrup&quot;,
+        &quot;SupplierId&quot;: 1,
+        &quot;CategoryId&quot;: 2,
+        &quot;QuantityPerUnit&quot;: &quot;12 - 550 ml bottles&quot;,
+        &quot;UnitPrice&quot;: 10.0000,
+        &quot;UnitsInStock&quot;: 13,
+        &quot;UnitsOnOrder&quot;: 70,
+        &quot;ReorderLevel&quot;: 25,
+        &quot;Discontinued&quot;: false,
+        &quot;Supplier&quot;: null
+    },
+    {
+        &quot;ProductId&quot;: 4,
+        &quot;ProductName&quot;: &quot;Chef Anton's Cajun Seasoning&quot;,
+        &quot;SupplierId&quot;: 2,
+        &quot;CategoryId&quot;: 2,
+        &quot;QuantityPerUnit&quot;: &quot;48 - 6 oz jars&quot;,
+        &quot;UnitPrice&quot;: 22.0000,
+        &quot;UnitsInStock&quot;: 53,
+        &quot;UnitsOnOrder&quot;: 0,
+        &quot;ReorderLevel&quot;: 0,
+        &quot;Discontinued&quot;: false,
+        &quot;Supplier&quot;: null
+    }
+    ]
+}
+]
+</code></pre>
+</li>
+</ol>
+<p>The created JSON data source is displayed in the Field List pane:</p>
+<p><img src="../../images/eurd-web-federated-datasource-transformation-json-datasource.png" alt=""></p>
+<h2 id="create-data-federation">Create Data Federation</h2>
+<ol>
+<li><p>Invoke the designer <a href="../report-designer-tools/menu.html">menu</a> and click <strong>Add Data Source</strong>.</p>
+<p><img src="../../images/eurd-web-data-source-menu.png" alt=""></p>
+</li>
+<li><p>Select <strong>Data Federation</strong> in the invoked <a href="../report-designer-tools/data-source-wizard.html">Data Source Wizard</a> and click <strong>Next</strong>.</p>
+<p><img src="../../images/eurd-web-data-source-wizard-select-data-federation.png" alt=""></p>
+</li>
+<li><p>On the next page, click the <strong>+ (plus) button</strong> and select <strong>Transform</strong> to add a Transformation query.</p>
+<p><img src="../../images/eurd-web-data-federation-wizard-add-transformation-query.png" alt=""></p>
+</li>
+<li><p>The invoked <a href="../report-designer-tools/query-builder.html">Query Builder</a> displays the columns that you can transform.</p>
+<p><img src="../../images/eurd-web-data-federation-transformation-query-builder.png" alt=""></p>
+</li>
+<li><p>Select the <strong>Transform</strong> check box next to the column you need to unfold and flatten. You can specify the aliases for the generated columns.</p>
+<p><img src="../../images/eurd-web-data-federation-transformation-query.png" alt=""></p>
+<p>Click <strong>OK</strong> to close the Query Builder window.</p>
+</li>
+<li><p>Click <strong>Finish</strong> to create the data source.</p>
+<p><img src="../../images/eurd-web-data-federation-finish-data-source.png" alt=""></p>
+</li>
+</ol>
+<p>The <strong>Field List</strong> displays the created Federation Data Source.</p>
+<p><img src="../../images/eurd-web-data-federation-result.png" alt=""></p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/DevExpress/dotnet-eud/blob/2025.1/eud-for-devexpress-reports/reporting-for-web/report-designer/bind-to-data/bind-a-report-to-a-transformation-based-data-source.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Copyright (c) 1998-2025 Developer Express Inc. All rights reserved.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

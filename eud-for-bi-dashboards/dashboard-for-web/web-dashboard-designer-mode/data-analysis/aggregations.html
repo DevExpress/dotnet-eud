@@ -1,0 +1,216 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Aggregations | DevExpress End-User Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Aggregations | DevExpress End-User Documentation ">
+      
+      
+      <link rel="icon" href="../../../../favicon.ico">
+      <link rel="stylesheet" href="../../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../../toc.html">
+      <meta name="docfx:tocrel" content="../../toc.html">
+      
+      <meta name="docfx:rel" content="../../../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/DevExpress/dotnet-eud/blob/2025.1/eud-for-bi-dashboards/dashboard-for-web/web-dashboard-designer-mode/data-analysis/aggregations.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+      <!-- Matomo Tag Manager -->
+      <script>
+        var _mtm = window._mtm = window._mtm || [];
+        _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
+      </script>
+      <!-- End Matomo Tag Manager -->
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../../../index.html">
+            <img id="logo" class="svg" src="../../../../logo.svg" alt="DevExpress EUD">
+            DevExpress EUD
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="aggregations">Aggregations</h1>
+
+<p>The Web Dashboard allows you to prepare underlying data using additional aggregation levels when creating <a href="../provide-data/calculated-fields.html">calculated fields</a>. This topic shows how to evaluate calculated fields on a visualization (summary) and intermediate levels.</p>
+<h2 id="summary-level-aggregations">Summary Level Aggregations</h2>
+<p>To compute values of the calculated field on a visualization (or summary) level, you can use a set of predefined aggregate functions. In the <a href="../provide-data/calculated-fields.html">Expression Editor</a>, these functions are available within the <strong>Functions</strong> | <strong>Aggregate</strong>.</p>
+<table>
+<thead>
+<tr>
+<th>Function</th>
+<th>Description</th>
+<th>Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Aggr(SummaryExpression, Dimensions)</td>
+<td>Aggregates underlying data using the detail level specified by a predefined set of dimensions and a specified summary function.</td>
+<td>Aggr(Sum([Sales]), [Category], [Product])</td>
+</tr>
+<tr>
+<td>Avg(Value)</td>
+<td>Returns the average of all the values in the expression.</td>
+<td>Avg([Profit])</td>
+</tr>
+<tr>
+<td>Count()</td>
+<td>Returns the number of values.</td>
+<td>Count()</td>
+</tr>
+<tr>
+<td>CountNotNull(Value)</td>
+<td>Returns a number of non-null objects in a collection.</td>
+<td>CountNotNull([Orders])</td>
+</tr>
+<tr>
+<td>CountDistinct(Value)</td>
+<td>Returns the number of distinct values.</td>
+<td>CountDistinct([Orders])</td>
+</tr>
+<tr>
+<td>Max(Value)</td>
+<td>Returns the maximum value across all records.</td>
+<td>Max([Profit])</td>
+</tr>
+<tr>
+<td>Min(Value)</td>
+<td>Returns the minimum value across all records.</td>
+<td>Min([Profit])</td>
+</tr>
+<tr>
+<td>Mode(Value)</td>
+<td>Returns the mode of the values.</td>
+<td>Mode([Profit])</td>
+</tr>
+<tr>
+<td>Median(Value)</td>
+<td>Returns the median of the values.</td>
+<td>Median([Profit])</td>
+</tr>
+<tr>
+<td>Sum(Value)</td>
+<td>Returns the sum of all values.</td>
+<td>Sum([Profit])</td>
+</tr>
+<tr>
+<td>Var(Value)</td>
+<td>Returns an estimate of the variance of a population, where the sample is a subset of the entire population.</td>
+<td>Var([Orders])</td>
+</tr>
+<tr>
+<td>Varp(Value)</td>
+<td>Returns the variance of a population, where the population is the entire data to be summarized.</td>
+<td>Varp([Orders])</td>
+</tr>
+<tr>
+<td>StdDev(Value)</td>
+<td>Returns an estimate of the standard deviation of a population, where the sample is a subset of the entire population.</td>
+<td>StdDev([Orders])</td>
+</tr>
+<tr>
+<td>StdDevp(Value)</td>
+<td>Returns the standard deviation of a population, where the population is the entire data to be summarized.</td>
+<td>StdDevp([Orders])</td>
+</tr>
+</tbody>
+</table>
+<p>These functions can be used for all types of numeric fields. After creating such calculated fields, you can use them as measures contained in an OLAP cube.</p>
+<h2 id="intermediate-level-aggregations">Intermediate Level Aggregations</h2>
+<p>The Web Dashboard can aggregate and summarize data on different levels.</p>
+<ul>
+<li>The <a href="../ui-elements/dialogs-and-wizards/query-builder.html">Query Builder</a> allows you to prepare an underlying data source before data analysis. You can group, sort, summarize, and apply other data shaping operations during data selection.</li>
+<li><a href="../dashboard-item-settings.html">Dashboard items</a> aggregate and summarize data at the visualization level using dimensions and measures, respectively. See the following topic to learn more: <a href="../bind-dashboard-items-to-data.html">Bind Dashboard Items to Data</a>.</li>
+<li>The <strong>Aggr</strong> function introduces an intermediate detail level that is not related to the visualization level. This allows you to create custom aggregations at different levels and combine these aggregations with existing visualizations.</li>
+</ul>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/DevExpress/dotnet-eud/blob/2025.1/eud-for-bi-dashboards/dashboard-for-web/web-dashboard-designer-mode/data-analysis/aggregations.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Copyright (c) 1998-2025 Developer Express Inc. All rights reserved.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,156 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Calculate an Aggregate Function | DevExpress End-User Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Calculate an Aggregate Function | DevExpress End-User Documentation ">
+      
+      
+      <link rel="icon" href="../../../../../../favicon.ico">
+      <link rel="stylesheet" href="../../../../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../../../../toc.html">
+      <meta name="docfx:tocrel" content="../../../../toc.html">
+      
+      <meta name="docfx:rel" content="../../../../../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/DevExpress/dotnet-eud/blob/2025.1/eud-for-devexpress-reports/reporting-for-desktop/report-designer/report-designer-for-winforms/shape-report-data/use-calculated-fields/calculate-an-aggregate-function.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../../../../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+      <!-- Matomo Tag Manager -->
+      <script>
+        var _mtm = window._mtm = window._mtm || [];
+        _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
+      </script>
+      <!-- End Matomo Tag Manager -->
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../../../../../index.html">
+            <img id="logo" class="svg" src="../../../../../../logo.svg" alt="DevExpress EUD">
+            DevExpress EUD
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="calculate-an-aggregate-function">Calculate an Aggregate Function</h1>
+
+<p>This tutorial describes the steps required to create a report with an <em>aggregate function</em>. In this example, products that are not discontinued and have a total unit value greater than <em>$500</em> will be displayed.</p>
+<ol>
+<li><p>Create a new or open an existing data-bound report. This tutorial starts with the following report layout:</p>
+<p><img src="../../../../images/eurd-win-aggreagate-function-initial-layout.png" alt=""></p>
+</li>
+<li><p>Create a new <a href="calculated-fields-overview.html">calculated field</a> and set the field name to &quot;AggregateField&quot;.</p>
+</li>
+<li><p>Select the calculated field, switch to the <a href="../../report-designer-tools/ui-panels/property-grid-tabbed-view.html">Property Grid</a> and click the <strong>Expression</strong> property's ellipsis button.</p>
+<p><img src="../../../../images/eurd-win-aggreagate-field-expression-property.png" alt=""></p>
+</li>
+<li><p>In the invoked <strong>Expression Editor</strong>, double click the <strong>[CategoriesProducts]</strong> field and choose <strong>Functions</strong> | <strong>Aggregate</strong>. Then, double click the <strong>Count()</strong> function and insert the following text into the empty square brackets:</p>
+<p><em>&quot;Not[Discontinued]And[UnitTotal] &gt;= 500&quot;.</em></p>
+<p><img src="../../../../images/eurd-win-aggreagate-field-expression.png" alt=""></p>
+<p>To construct a valid aggregate expression, use the following format, which consists of four parts.</p>
+<p><em>[&lt;Collection&gt;][&lt;Condition&gt;].&lt;Aggregate&gt;(&lt;Expression&gt;)</em></p>
+<ul>
+<li><em>&lt;Collection&gt;</em> - Specifies a collection against which an aggregated value should be calculated. It can be the relationship name in a case of a master-detail relationship, or the name of a collection property exposed by the target class. For example, <em>[CategoriesProducts][[CategoryId]&gt;5].Count()</em>. Empty brackets [] indicate the root collection.</li>
+<li><em>&lt;Condition&gt;</em> - Specifies a condition defining which records should participate in calculating an aggregate function. To obtain an aggregated value against all records, delete this logical clause along with square brackets (for example, <em>[].Count()</em>).</li>
+<li><em>&lt;Aggregate&gt;</em> - Specifies one of the available aggregate functions.</li>
+<li><em>&lt;Expression&gt;</em> - Specifies an expression evaluating values to be used to perform calculation. For example, <em>[][[CategoryID] &gt; 5].Sum([UnitPrice]*[Quantity])</em>. The <strong>Count</strong> function does not require field values to count the records, so leave the round brackets empty for this function.</li>
+</ul>
+<p>You can refer to the currently processed group using the Parent Relationship Traversal Operator ('^'). This allows you to calculate aggregates within groups using expressions like the following: <em>[][[^.CategoryID] == [CategoryID]].Sum([UnitPrice])</em>.</p>
+<p>For more information, see <a href="../../use-expressions/expression-language.html">Expression Language</a>.</p>
+</li>
+<li><p>Click <strong>OK</strong> to close the dialog and save the expression.</p>
+</li>
+<li><p>Add three <a href="../../use-report-elements/use-basic-report-controls/label.html">Labels</a> to the <a href="../../introduction-to-banded-reports.html">Detail Band</a> and customize their content as shown in the following image:</p>
+<p><img src="../../../../images/eurd-win-aggreagate-function-complete-layout.png" alt=""></p>
+</li>
+</ol>
+<p>The report is now ready. Switch to <a href="../../preview-print-and-export-reports.html">Print Preview</a> to see the result.</p>
+<p><img src="../../../../images/eurd-win-aggreagate-function-result.png" alt=""></p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/DevExpress/dotnet-eud/blob/2025.1/eud-for-devexpress-reports/reporting-for-desktop/report-designer/report-designer-for-winforms/shape-report-data/use-calculated-fields/calculate-an-aggregate-function.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Copyright (c) 1998-2025 Developer Express Inc. All rights reserved.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

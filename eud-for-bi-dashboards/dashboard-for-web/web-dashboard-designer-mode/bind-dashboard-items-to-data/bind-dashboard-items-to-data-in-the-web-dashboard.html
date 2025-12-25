@@ -1,0 +1,147 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Bind Dashboard Items to Data in the Web Dashboard | DevExpress End-User Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Bind Dashboard Items to Data in the Web Dashboard | DevExpress End-User Documentation ">
+      
+      
+      <link rel="icon" href="../../../../favicon.ico">
+      <link rel="stylesheet" href="../../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../../toc.html">
+      <meta name="docfx:tocrel" content="../../toc.html">
+      
+      <meta name="docfx:rel" content="../../../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/DevExpress/dotnet-eud/blob/2025.1/eud-for-bi-dashboards/dashboard-for-web/web-dashboard-designer-mode/bind-dashboard-items-to-data/bind-dashboard-items-to-data-in-the-web-dashboard.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+      <!-- Matomo Tag Manager -->
+      <script>
+        var _mtm = window._mtm = window._mtm || [];
+        _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
+      </script>
+      <!-- End Matomo Tag Manager -->
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../../../index.html">
+            <img id="logo" class="svg" src="../../../../logo.svg" alt="DevExpress EUD">
+            DevExpress EUD
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="bind-dashboard-items-to-data-in-the-web-dashboard">Bind Dashboard Items to Data in the Web Dashboard</h1>
+
+<p>This topic explains how to bind the <a href="../add-dashboard-items.html">newly created dashboard item</a> to data source fields to visualize data.</p>
+<h2 id="create-binding">Create Binding</h2>
+<p>Invoke the <a href="../ui-elements/dashboard-menu.html">Binding</a> menu. The image below displays a <a href="../dashboard-item-settings/grid.html">Grid</a> dashboard item that is bound to an <em>SQL Data Source</em> | <em>Sales Person</em> query:</p>
+<p><img src="../../images/wdd-bindings-menu124590.png" alt="web dashboard - Bindings menu"></p>
+<p>Click a placeholder and select the data source field to bind a dashboard item to data:</p>
+<p><img src="../../images/wdd-add-data-item125350.png" alt="web dashboard - Add a data item"></p>
+<p>To rename the data item's caption, go to the data item's <strong>Options</strong> section:</p>
+<p><img src="../../images/wdd-rename-data-item124591.png" alt="web dashboard - Rename a data item"></p>
+<div class="TIP">
+<h5>Tip</h5>
+<p>For information on how to bind a specific dashboard item to data, see the corresponding <strong>Providing Data</strong> help topic: <a href="../dashboard-item-settings.html">dashboard item settings</a>.</p>
+</div>
+<h2 id="modify-binding">Modify Binding</h2>
+<p>You can use drag-and-drop to change the data binding order:</p>
+<p><img src="../../images/wdd-replace-data-item124592.png" alt="web dashboard - Replace a data item"></p>
+<h2 id="clear-binding">Clear Binding</h2>
+<p>To remove the data item, select it and click the <strong>Remove</strong> (<img src="../../images/wdd-icon-delete-data-source124585.png" alt="WDD-icon-delete-data-source">) button next to this data item.</p>
+<p><img src="../../images/wdd-grid-delete-data-item125482.png" alt="web dashboard - Delete a data item in a Grid"></p>
+<h2 id="specify-a-data-source">Specify a Data Source</h2>
+<p>A dashboard can have several <a href="../provide-data/manage-data-sources.html">data sources</a>. To change the default data source (or a query / data member ), go to the dashboard item's <a href="../ui-elements/dashboard-menu.html">Binding</a> menu and click the <strong>Data Source</strong> button.</p>
+<p><img src="../../images/wdd-data-filtering-section125086.png" alt="web dashboard - Data filtering section"></p>
+<p>In the invoked section, change the data source (query / data member) and click <strong>OK</strong>.</p>
+<p>When you change the dashboard item's data source, data items try to display data from the same column of the new data source. If such a column does not exist, you get the red color indication for this data item. Select a new data source field for this data item.</p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/DevExpress/dotnet-eud/blob/2025.1/eud-for-bi-dashboards/dashboard-for-web/web-dashboard-designer-mode/bind-dashboard-items-to-data/bind-dashboard-items-to-data-in-the-web-dashboard.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Copyright (c) 1998-2025 Developer Express Inc. All rights reserved.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

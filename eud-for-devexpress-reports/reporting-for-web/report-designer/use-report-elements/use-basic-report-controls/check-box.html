@@ -1,0 +1,199 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Check Box | DevExpress End-User Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Check Box | DevExpress End-User Documentation ">
+      
+      
+      <link rel="icon" href="../../../../../favicon.ico">
+      <link rel="stylesheet" href="../../../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../../../toc.html">
+      <meta name="docfx:tocrel" content="../../../toc.html">
+      
+      <meta name="docfx:rel" content="../../../../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/DevExpress/dotnet-eud/blob/2025.1/eud-for-devexpress-reports/reporting-for-web/report-designer/use-report-elements/use-basic-report-controls/check-box.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../../../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+      <!-- Matomo Tag Manager -->
+      <script>
+        var _mtm = window._mtm = window._mtm || [];
+        _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
+      </script>
+      <!-- End Matomo Tag Manager -->
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../../../../index.html">
+            <img id="logo" class="svg" src="../../../../../logo.svg" alt="DevExpress EUD">
+            DevExpress EUD
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="check-box">Check Box</h1>
+
+<p>The <strong>Check Box</strong> control displays the checkbox's state.</p>
+<p>You can add this control by dragging the <strong>Check Box</strong> item from the <a href="../../report-designer-tools/toolbox.html">Toolbox</a> onto the report's area.</p>
+<p><img src="../../../images/eurd-web-add-check-box-control-to-report.png" alt=""></p>
+<p>Use one of the following properties to set the checkbox's state:</p>
+<ul>
+<li><p><strong>Checked</strong> - indicates whether the checkbox is selected (displays a check mark) or not (is empty).</p>
+</li>
+<li><p><strong>Check State</strong> - specifies one of the following checkbox states:</p>
+<table>
+<thead>
+<tr>
+<th>Icon</th>
+<th>Check State</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="../../../images/eurd-web-check-box-unchecked-state.png" alt=""></td>
+<td>Unchecked</td>
+</tr>
+<tr>
+<td><img src="../../../images/eurd-web-check-box-checked-state.png" alt=""></td>
+<td>Checked</td>
+</tr>
+<tr>
+<td><img src="../../../images/eurd-web-check-box-indeterminate-state.png" alt=""></td>
+<td>Indeterminate</td>
+</tr>
+</tbody>
+</table>
+</li>
+</ul>
+<p>The <strong>Text</strong> property specifies the checkbox's caption. You can double-click the checkbox to invoke its in-place editor and type the desired text.</p>
+<p><img src="../../../images/eurd-web-check-box-in-place-editor.png" alt=""></p>
+<h2 id="bind-to-data">Bind to Data</h2>
+<p>You can <a href="../bind-controls-to-data.html">bind</a> the <strong>Check State</strong> property to a data field obtained from a report's data source. Switch to the <a href="../../report-designer-tools/ui-panels/properties-panel.html">Properties</a> panel, expand the <strong>Check Box Tasks</strong> category and click the <strong>Check State</strong> property's marker. Select <strong>Check State Expression</strong> from the popup menu. Then select a data field in the invoked <a href="../../report-designer-tools/expression-editor.html">Expression Editor</a>.</p>
+<p><img src="../../../images/eurd-web-check-box-bind-to-data.png" alt=""></p>
+<p>The data field value determines the checkbox state in the following manner:</p>
+<ul>
+<li><strong>True</strong> or <strong>1</strong> activates the <strong>Checked</strong> state;</li>
+<li><strong>False</strong> or <strong>0</strong> activates the <strong>Unchecked</strong> state;</li>
+<li>Any other value activates the <strong>Indeterminate</strong> state.</li>
+</ul>
+<p>In the same way, click the <strong>Text</strong> property's marker, select <strong>Text Expression</strong>, then select a data field or construct a complex binding expression that involves two or more data fields.</p>
+<p><img src="../../../images/eurd-web-check-box-text-expression.png" alt=""></p>
+<p>You can also drag and drop a Boolean type data field from the <a href="../../report-designer-tools/ui-panels/field-list.html">Field List</a> to create a new checkbox bound to this field.</p>
+<p><img src="../../../images/eurd-web-check-box-drop-field-from-field-list.png" alt=""></p>
+<p>See the <a href="../bind-controls-to-data.html">Bind Report Controls to Data</a> topic to learn more about creating data-aware controls.</p>
+<h2 id="interactivity">Interactivity</h2>
+<p>Set the <strong>Edit Options</strong> | <strong>Enabled</strong> option to <strong>Yes</strong> to enable <a href="../../provide-interactivity/edit-content-in-print-preview.html">changing the checkbox state</a> in Print Preview.</p>
+<p><img src="../../../images/eurd-web-check-box-edit-options-enabled.png" alt=""></p>
+<p>The <strong>Group ID</strong> setting defines the checkbox's behavior in Print Preview:</p>
+<ul>
+<li><p>When you set this property to an empty string value, a checkbox can be switched to either the &quot;checked&quot; and &quot;unchecked&quot; state independently on other available check boxes.</p>
+<p><img src="../../../images/eurd-web-check-box-editing-in-print-preview.png" alt=""></p>
+</li>
+<li><p>Otherwise, the field editor behaves like a radio button, and editors that have the same ID belong to a single logical group (that is, only one option can be selected in a group at a time).</p>
+</li>
+</ul>
+<h2 id="glyph-customization">Glyph Customization</h2>
+<p>The <strong>Glyph Options</strong> property provides access to glyph settings.</p>
+<p><img src="../../../images/eurd-web-check-box-glyph-options.png" alt=""></p>
+<ul>
+<li><p><strong>Alignment</strong> - specifies the glyph's alignment within the control.</p>
+<p><img src="../../../images/eurd-web-check-box-glyph-options-alignment.png" alt=""></p>
+</li>
+<li><p><strong>Size</strong> - specifies the glyph size.</p>
+</li>
+<li><p><strong>Glyph Style</strong> - specifies a predefined glyph style.</p>
+<p><img src="../../../images/eurd-web-check-box-glyph-options-glyph-style.png" alt=""></p>
+</li>
+<li><p><strong>Custom Glyphs</strong> - specifies a custom glyph image for each checkbox state (Checked/Unchecked/Indeterminate).</p>
+<p><img src="../../../images/eurd-web-check-box-glyph-options-custom-glyphs.png" alt=""></p>
+</li>
+</ul>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/DevExpress/dotnet-eud/blob/2025.1/eud-for-devexpress-reports/reporting-for-web/report-designer/use-report-elements/use-basic-report-controls/check-box.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Copyright (c) 1998-2025 Developer Express Inc. All rights reserved.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

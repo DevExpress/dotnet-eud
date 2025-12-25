@@ -1,0 +1,149 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Hidden Data Items | DevExpress End-User Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Hidden Data Items | DevExpress End-User Documentation ">
+      
+      
+      <link rel="icon" href="../../../../favicon.ico">
+      <link rel="stylesheet" href="../../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../../toc.html">
+      <meta name="docfx:tocrel" content="../../toc.html">
+      
+      <meta name="docfx:rel" content="../../../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/DevExpress/dotnet-eud/blob/2025.1/eud-for-bi-dashboards/dashboard-for-web/web-dashboard-designer-mode/bind-dashboard-items-to-data/hidden-data-items.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+      <!-- Matomo Tag Manager -->
+      <script>
+        var _mtm = window._mtm = window._mtm || [];
+        _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
+      </script>
+      <!-- End Matomo Tag Manager -->
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../../../index.html">
+            <img id="logo" class="svg" src="../../../../logo.svg" alt="DevExpress EUD">
+            DevExpress EUD
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="hidden-data-items">Hidden Data Items</h1>
+
+<p>The <strong>hidden data items</strong> can be used to perform various data shaping and analysis operations by measures or dimensions that do not directly take part in the visual representation of data.</p>
+<p>To create hidden data items, click the <em>Add Measure</em> / <em>Add dimension</em> placeholders in the <strong>Hidden Measures</strong> / <strong>Hidden Dimensions</strong> data section and select an appropriate data field.</p>
+<p>You can perform the following operations using hidden data items.</p>
+<ul>
+<li><a href="#filtering">Filtering</a></li>
+<li><a href="#sorting">Sorting</a></li>
+<li><a href="#topn">Top N</a></li>
+<li><a href="#cf">Conditional Formatting</a></li>
+</ul>
+<h2 id="filtering"><a name="filtering"></a>Filtering</h2>
+<p>You can use <strong>hidden dimensions</strong> to apply <a href="../data-shaping/filtering.html">filtering</a> to the dashboard item.</p>
+<p><img src="../../images/img124648.png" alt="wdd-hidden-data-item-filtering"></p>
+<p>For example, the Grid on the image above is filtered by the <em>OrderDate (Quarter)</em> hidden dimension.</p>
+<h2 id="sorting"><a name="sorting"></a>Sorting</h2>
+<p>You can <a href="../data-shaping/sorting.html">sort</a> values of the specified dimension by the <strong>hidden measure</strong>.</p>
+<p><img src="../../images/img124647.png" alt="wdd-hidden-data-item-sorting"></p>
+<p>For instance, a data item menu on the image above displays sorting by values of the hidden <em>UnitPrice (Sum)</em> measure.</p>
+<h2 id="top-n"><a name="topn"></a>Top N</h2>
+<p>You can use <strong>hidden measures</strong> in <a href="../data-shaping/top-n.html">Top N</a> conditions.</p>
+<p><img src="../../images/img124649.png" alt="wdd-hidden-data-item-top-n"></p>
+<p>For example, a data item menu on the image above displays the top 5 categories for the <em>UnitPrice (Sum)</em> hidden measure.</p>
+<h2 id="conditional-formatting"><a name="cf"></a>Conditional Formatting</h2>
+<p>You can create format rules based on <strong>hidden measures</strong> to apply <a href="../appearance-customization/conditional-formatting.html">conditional formatting</a> to elements corresponding to visible values.</p>
+<p><img src="../../images/img125668.png" alt="wdd-hidden-measure-conditional-formating"></p>
+<p>For example, the Range Set format rule on the image above is calculated by the <em>Quantity (Sum)</em> hidden measure.</p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/DevExpress/dotnet-eud/blob/2025.1/eud-for-bi-dashboards/dashboard-for-web/web-dashboard-designer-mode/bind-dashboard-items-to-data/hidden-data-items.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Copyright (c) 1998-2025 Developer Express Inc. All rights reserved.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

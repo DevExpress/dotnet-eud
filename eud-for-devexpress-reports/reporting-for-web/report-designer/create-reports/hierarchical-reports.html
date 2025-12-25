@@ -1,0 +1,217 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Hierarchical Reports | DevExpress End-User Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Hierarchical Reports | DevExpress End-User Documentation ">
+      
+      
+      <link rel="icon" href="../../../../favicon.ico">
+      <link rel="stylesheet" href="../../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../../toc.html">
+      <meta name="docfx:tocrel" content="../../toc.html">
+      
+      <meta name="docfx:rel" content="../../../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/DevExpress/dotnet-eud/blob/2025.1/eud-for-devexpress-reports/reporting-for-web/report-designer/create-reports/hierarchical-reports.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+      <!-- Matomo Tag Manager -->
+      <script>
+        var _mtm = window._mtm = window._mtm || [];
+        _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
+      </script>
+      <!-- End Matomo Tag Manager -->
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../../../index.html">
+            <img id="logo" class="svg" src="../../../../logo.svg" alt="DevExpress EUD">
+            DevExpress EUD
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="hierarchical-reports">Hierarchical Reports</h1>
+
+<p>This tutorial describes how to use the <a href="../introduction-to-banded-reports.html">detail band</a>'s <strong>Hierarchy Print Options</strong> property to create a hierarchical report.</p>
+<p><img src="../../images/eurd-hierarchical-report-expressions-result.png" alt="eurd-hierarchical-report-result"></p>
+<ol>
+<li><p><a href="../add-new-reports.html">Create a new report</a> or <a href="../open-reports.html">open an existing one</a>.</p>
+</li>
+<li><p><a href="../bind-to-data.html">Bind the report</a> to a data source.</p>
+<p><img src="../../images/eurd-hierarchical-report-bind-to-data.png" alt="eurd-hierarchical-report-bind-to-data"></p>
+<p>Each record in the data source should include a field that defines the parent-child relationship and thus builds the hierarchy.</p>
+</li>
+<li><p>Arrange controls on the report.</p>
+<ul>
+<li><p>Add the <a href="../introduction-to-banded-reports.html">Report Header</a> and <a href="../introduction-to-banded-reports.html">Page Header</a> bands (see the <strong>Manage Report Bands | Add Bands</strong> section in the <a href="../introduction-to-banded-reports.html">Introduction to Banded Reports</a> document for details).</p>
+</li>
+<li><p>Add <a href="../use-report-elements/use-basic-report-controls/label.html">data-bound labels</a> to the <strong>Detail</strong> band.</p>
+</li>
+</ul>
+<p><img src="../../images/eurd-hierarchical-report-add-controls.png" alt="eurd-hierarchical-report-add-controls"></p>
+<p>Switch to <a href="../preview-print-and-export-reports.html">PREVIEW</a> to see an intermediate result.</p>
+<p><img src="../../images/eurd-hierarchical-report-add-controls-result.png" alt="eurd-hierarchical-report-add-controls-result"></p>
+</li>
+<li><p>Switch back to <strong>DESIGN</strong>, select the <strong>Detail</strong> band, and type in &quot;hier&quot; in the <strong>Search field</strong> to navigate to the <strong>Hierarchy Print Options</strong> property pane.</p>
+<p><img src="../../images/eurd-hierarchical-report-hierarchyprintoptions.png" alt="eurd-hierarchical-report-hierarchyprintoptions"></p>
+<p>Set the following options:</p>
+<ul>
+<li><p><strong>Key Field Name</strong> and <strong>Parent Field Name</strong>, or <strong>Child List Field Name</strong><br>
+Set the <strong>Key Field Name</strong> and <strong>Parent Field Name</strong> properties if your report's data has the Id-ParentID related fields.<br>
+Set the <strong>Child List Field Name</strong> property if your report's data is recursive. Assign the collection of child objects (records) if they have the same type as the parent objects (records).</p>
+</li>
+<li><p><strong>Indent</strong><br>
+Specify the child level node offset.</p>
+</li>
+<li><p><strong>Keep Together with First Child</strong><br>
+Specify whether to print a parent node together with its first child node on the next page if these nodes do not fit at the end of a page.</p>
+</li>
+</ul>
+</li>
+<li><p>Preview the result.</p>
+<p><img src="../../images/eurd-hierarchical-report-hierarchyprintoptions-result.png" alt="eurd-hierarchical-report-hierarchyprintoptions-result"></p>
+<p>As you can see in the image above, the <strong>Detail</strong> band that contains child rows is printed with the specified indent. However, the row (the sum of the label widths) does not fit the page now.</p>
+</li>
+<li><p>Align labels.</p>
+<ul>
+<li><p>Anchor the first data-bound label to the Detail band's left and right edges. Set the label's <strong>Anchor Horizontally</strong> property to <strong>Both</strong>.</p>
+<p><img src="../../images/eurd-hierarchical-report-anchor.png" alt="eurd-hierarchical-report-anchor"></p>
+</li>
+<li><p>Anchor the rest of the data-bound labels to the right edge of the Detail band (their container). Set their <strong>Anchor Horizontal</strong> property to <strong>Right</strong>.</p>
+<p><img src="../../images/eurd-hierarchical-report-anchor-2.png" alt="eurd-hierarchical-report-anchor-2"></p>
+</li>
+</ul>
+</li>
+<li><p>Preview the result.</p>
+<p><img src="../../images/eurd-hierarchical-report-anchor-result.png" alt="eurd-hierarchical-report-anchor-result"></p>
+</li>
+<li><p>Add a <strong>drill-down control</strong> to expand/collapse child rows.</p>
+<ul>
+<li><p>Add a <a href="../use-report-elements/use-basic-report-controls/check-box.html">Check Box</a> control to the <strong>Detail</strong> band at the left-most position.</p>
+<p><img src="../../images/eurd-hierarchical-report-add-checkbox.png" alt="eurd-hierarchical-report-add-checkbox"></p>
+</li>
+<li><p>Set the <strong>Check Box</strong> control's glyph options and remove the unnecessary &quot;checkBox1&quot; text. You can specify different images to indicate the checkbox state. In the <strong>Custom Glyphs</strong> section, specify the <img src="../../images/moveup.png" alt="moveup"> image for the <strong>Checked</strong> state, and the <img src="../../images/movedown.png" alt="movedown"> image for the <strong>Unchecked</strong> state.</p>
+<p><img src="../../images/eurd-hierarchical-report-checkbox-properties.png" alt="HierarchicalReport-CheckBoxProperties"></p>
+</li>
+<li><p>Set the <strong>Detail</strong> band's <strong>Drill Down Control</strong> property to the added <strong>Check Box</strong> control.</p>
+<p><img src="../../images/eurd-hierarchical-report-drilldown.png" alt="HierarchicalReport-SetDrillDownControl"></p>
+</li>
+<li><p>Click the <strong>f-button</strong> next to the <strong>Check Box</strong> control to invoke the <strong>Expression Editor</strong>, and assign the following expression to the <strong>Check State</strong> property:</p>
+<pre><code>Iif( [ReportItems.Detail1.DrillDownExpanded],  'Checked', 'Unchecked')
+</code></pre>
+<p><img src="../../images/eurd-hierarchical-report-checkstateexpression.png" alt="HierarchicalReport-CheckStateExpression"></p>
+</li>
+<li><p>Preview the result:</p>
+<p><img src="../../images/eurd-hierarchical-report-checkbox-result.png" alt="HierarchicalReport-DrillDownControl"></p>
+</li>
+</ul>
+</li>
+<li><p>Sort report data.</p>
+<p>Use the Detail band's <strong>Sort Fields</strong> property to sort data.</p>
+<p><img src="../../images/eurd-hierarchical-report-sort-fields.png" alt="HierarchicalReport-SortFieldsProperty"></p>
+<p>Preview the result:</p>
+<p><img src="../../images/eurd-hierarchical-report-sort-fields-result.png" alt="HierarchicalReport-SortedData"></p>
+</li>
+<li><p>Highlight root nodes.</p>
+<p>To format rows based on their nesting level, use the <code>CurrentRowHierarchyLevel</code> variable in expressions. Specify the following expressions for the <strong>Detail</strong> band's appearance properties:</p>
+<p><strong>Background Color</strong>:</p>
+<pre><code>Iif([DataSource.CurrentRowHierarchyLevel] == 0, Rgb(231,235,244), ?)
+</code></pre>
+<p><strong>Font | Bold</strong>:</p>
+<pre><code>[DataSource.CurrentRowHierarchyLevel] == 0
+</code></pre>
+<p><img src="../../images/eurd-hierarchical-report-expressions.png" alt="HierarchicalReport-ExpressionVariable"></p>
+<p>Preview the result:</p>
+<p><img src="../../images/eurd-hierarchical-report-expressions-result.png" alt="HierarchicalReport-HighlightedRootNodes"></p>
+</li>
+</ol>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/DevExpress/dotnet-eud/blob/2025.1/eud-for-devexpress-reports/reporting-for-web/report-designer/create-reports/hierarchical-reports.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Copyright (c) 1998-2025 Developer Express Inc. All rights reserved.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

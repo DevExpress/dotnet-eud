@@ -1,0 +1,164 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Barcode Recognition Specifics | DevExpress End-User Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Barcode Recognition Specifics | DevExpress End-User Documentation ">
+      
+      
+      <link rel="icon" href="../../../../../../favicon.ico">
+      <link rel="stylesheet" href="../../../../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../../../../toc.html">
+      <meta name="docfx:tocrel" content="../../../../toc.html">
+      
+      <meta name="docfx:rel" content="../../../../../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/DevExpress/dotnet-eud/blob/2025.1/eud-for-devexpress-reports/reporting-for-desktop/report-designer/report-designer-for-winforms/use-report-elements/use-bar-codes/bar-code-recognition-specifics.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../../../../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+      <!-- Matomo Tag Manager -->
+      <script>
+        var _mtm = window._mtm = window._mtm || [];
+        _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
+      </script>
+      <!-- End Matomo Tag Manager -->
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../../../../../index.html">
+            <img id="logo" class="svg" src="../../../../../../logo.svg" alt="DevExpress EUD">
+            DevExpress EUD
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="barcode-recognition-specifics">Barcode Recognition Specifics</h1>
+
+<p>This document describes the main specifics of barcode recognition and how to resolve the most frequently encountered issues when working with barcodes.</p>
+<h2 id="choose-an-appropriate-barcode-type">Choose an Appropriate Barcode Type</h2>
+<p>Selecting an appropriate barcode type (symbology) depends on your specific business requirements and the applied industrial standards.</p>
+<p>In general, consider using <a href="interleaved-2-of-5.html">Barcode 2 of 5 Interleaved</a> for encoding digits and <a href="code-39-usd-3.html">Barcode 39</a> for encoding the full range of ASCII characters.</p>
+<h2 id="insert-the-function-code-characters-fnc-or-the-application-identifier-into-a-barcode">Insert the Function Code Characters (FNC) or the Application Identifier into a Barcode</h2>
+<p>Some encodings enable you to insert a special <strong>FNC1</strong> character for separating application identifiers from the rest of the barcode.</p>
+<p>According to the <strong>GS1</strong> specification, the <strong>FNC1</strong> character is always inserted at the first position of the encoded data. Other identifiers can be inserted manually using the default &quot;<strong>#</strong>&quot; character.</p>
+<p>Although you can use any ASCII character as the <strong>FNC1</strong> placeholder, it will not be a part of the encoded data as it does not have any direct ASCII representation.</p>
+<p>For the <a href="code-128.html">Code 128</a> symbology, you can also define <strong>FNC2-4</strong> characters.</p>
+<p>For the list of the available application identifiers, refer to the official documentation at <a href="http://www.gs1.org/">www.gs1.org</a>.</p>
+<h2 id="specify-the-barcode-resolution-on-export-to-third-party-formats">Specify the Barcode Resolution on Export to Third-Party Formats</h2>
+<p>At present, only export to PDF preserves the original barcode in its vector form. Export to other formats will keep only the rasterized version of a barcode (with the default DPI set to <strong>96</strong>).</p>
+<p>For XLSX and XLS export, the output resolution can be set up manually using the <strong>Rasterization Resolution</strong> property.</p>
+<h2 id="specify-the-dpi-of-the-device-used-to-print-the-bar-code">Specify the DPI of the Device Used to Print the Bar Code</h2>
+<p>The <strong>Target Device Dpi</strong> property allows you to specify the DPI of the device on which you wish to print your barcode. The <code>XRBarCode</code> control automatically adjusts bar density based on this property's value.</p>
+<p>Use the <strong>Target Device Dpi</strong> property to ensure that the bar code is scanned correctly on the target device. This is especially important if your printing device has a non-standard DPI setting.</p>
+<h2 id="common-issues">Common Issues</h2>
+<p>This document section provides solutions to the most common issues that you may encounter when creating barcodes.</p>
+<ul>
+<li><p><strong>The barcode is too &quot;dense&quot;</strong></p>
+<p>The more information you wish to encode, the more bars should be drawn and the larger the barcode should become.</p>
+<p>The barcode's <strong>Module</strong> property specifies the width of the narrowest bar in a barcode. Although you can set this property to a very small value, the actual value is determined by the maximum resolution of your barcode printer device. Alternatively, consider using the <strong>Auto Module</strong> option to automatically calculate the optimal bar size based on the current barcode dimensions.</p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>When barcodes are &quot;dense&quot; and you are manually specifying the Module value, make sure that multiplying this value by the barcode printer resolution results in an integer number. Otherwise, rounding errors may occur on calculating the resulting bar width.</p>
+<p>For example, when the Module is set to <strong>0.015</strong> inches and the printer resolution is <strong>300</strong> DPI, their product equals <strong>4.5</strong>, which may be rounded to <strong>4</strong> or <strong>5</strong> pixels for different bars and result in barcode recognition errors. In this case, the Module property should be set to <strong>0.01333</strong> (to make the bar width equal to <strong>4</strong> pixels) or to <strong>0.01667</strong> (to make the bar width equal to <strong>5</strong> pixels).</p>
+</div>
+</li>
+<li><p><strong>The barcode is correctly displayed on the preview but it is not scanned</strong></p>
+<p>Make sure that your scanner has been correctly set up to be able to recognize a specific kind of a barcode. If you are not certain about how to operate the scanner properly, please refer to its product manual.</p>
+<p>Avoid scanning barcodes from the monitor screen (e.g., using an application installed on your smartphone), because the screen DPI may not be sufficient to effectively recognize each particular bar.</p>
+</li>
+<li><p><strong>The barcode is correctly displayed on the preview but it is scanned incorrectly</strong></p>
+<p>The cause for this problem may be an encoding issue specific to the &quot;binary&quot; input mode.</p>
+<p>By default, the <strong>UTF-16</strong> encoding is used. However, your scanner device may use a different encoding model or even a codepage (i.e., a specific table that maps abstract values to real human-understandable characters). For additional information on this subject, please refer to the specification of your scanner device.</p>
+</li>
+<li><p><strong>The &quot;There are invalid characters in the text&quot; error occurs</strong></p>
+<p>Different barcode symbologies define different ranges of allowed characters under different character sets. To avoid this error, please check the barcode specification.</p>
+</li>
+</ul>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/DevExpress/dotnet-eud/blob/2025.1/eud-for-devexpress-reports/reporting-for-desktop/report-designer/report-designer-for-winforms/use-report-elements/use-bar-codes/bar-code-recognition-specifics.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Copyright (c) 1998-2025 Developer Express Inc. All rights reserved.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

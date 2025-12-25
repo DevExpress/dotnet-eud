@@ -1,0 +1,149 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Exporting | DevExpress End-User Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Exporting | DevExpress End-User Documentation ">
+      
+      
+      <link rel="icon" href="../../../../../favicon.ico">
+      <link rel="stylesheet" href="../../../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../../../toc.html">
+      <meta name="docfx:tocrel" content="../../../toc.html">
+      
+      <meta name="docfx:rel" content="../../../../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/DevExpress/dotnet-eud/blob/2025.1/eud-for-devexpress-reports/reporting-for-desktop/print-preview/print-preview-for-wpf/exporting/exporting.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../../../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+      <!-- Matomo Tag Manager -->
+      <script>
+        var _mtm = window._mtm = window._mtm || [];
+        _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
+      </script>
+      <!-- End Matomo Tag Manager -->
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../../../../index.html">
+            <img id="logo" class="svg" src="../../../../../logo.svg" alt="DevExpress EUD">
+            DevExpress EUD
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="exporting">Exporting</h1>
+
+<p>There are two options available for exporting a document to one of the supported third-party formats.</p>
+<ul>
+<li><a href="#export">Export Document to a File on Disk</a></li>
+<li><a href="#send">Send Exported File Using E-Mail</a></li>
+</ul>
+<a name="export"></a>
+<h2 id="export-document-to-a-file-on-disk">Export Document to a File on Disk</h2>
+<p>To export a document and save the resulting file on your hard drive, click the arrow for the <strong>Export...</strong> button and select the required format from the list.</p>
+<p><img src="../../../images/img124135.png" alt="EUD_WpfPrintPreview_ExportButton"></p>
+<p>This invokes the <strong>Export Document...</strong> dialog with options for the selected format.</p>
+<p><img src="../../../images/img120186.png" alt="WPFDesigner_ExportDocumentDialog"></p>
+<p>If you simply click the <strong>Export...</strong> button, the dialog will provide settings for the PDF format. Then, you can always change the export format directly in the dialog using the dedicated <strong>Export format</strong> drop-down list.</p>
+<p>In the <strong>Export Document...</strong> dialog, you should specify the path where the resulting file should be saved and choose whether or not to open the file after exporting.</p>
+<p>To access and customize advanced export options for the selected format, click the <strong>More Options</strong> link.</p>
+<p><img src="../../../images/img120187.png" alt="WPFDesigner_AdvExportDocumentDialog"></p>
+<p>Specify the required format-specific options and click <strong>OK</strong> to initiate export of a report and save the resulting file.</p>
+<a name="send"></a>
+<h2 id="send-exported-file-using-e-mail">Send Exported File Using E-Mail</h2>
+<p>To export a document and send the resulting file using e-mail, click the arrow for the <strong>Send...</strong> button and select one of the supported formats.</p>
+<p><img src="../../../images/img124136.png" alt="EUD_WpfPrintPreview_SendButton"></p>
+<p>This invokes the <strong>Send via E-Mail...</strong> dialog with options for the selected format.</p>
+<p><img src="../../../images/img124137.png" alt="WPFDesigner_SendDialog"></p>
+<p>If you simply click the <strong>Send...</strong> button, the dialog will provide settings for the PDF format. Then, you can always change the export format directly in the dialog using the dedicated <strong>Export Format</strong> drop-down list.</p>
+<p>In the <strong>Send via E-Mail...</strong> dialog, you should specify the path where the resulting file should be saved. The dialog also allows you to specify advanced export options for the selected format. To access and customize these format-specific options, click the <strong>More Options</strong> link.</p>
+<p>Specify the required options and click <strong>OK</strong> to initiate export of a report and save the resulting file. The saved file will be then attached to a new empty message in the default mail program.</p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/DevExpress/dotnet-eud/blob/2025.1/eud-for-devexpress-reports/reporting-for-desktop/print-preview/print-preview-for-wpf/exporting/exporting.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Copyright (c) 1998-2025 Developer Express Inc. All rights reserved.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

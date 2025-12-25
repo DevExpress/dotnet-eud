@@ -1,0 +1,268 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Query Builder | DevExpress End-User Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Query Builder | DevExpress End-User Documentation ">
+      
+      
+      <link rel="icon" href="../../../../favicon.ico">
+      <link rel="stylesheet" href="../../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../../toc.html">
+      <meta name="docfx:tocrel" content="../../toc.html">
+      
+      <meta name="docfx:rel" content="../../../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/DevExpress/dotnet-eud/blob/2025.1/eud-for-devexpress-reports/reporting-for-web/report-designer/report-designer-tools/query-builder.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+      <!-- Matomo Tag Manager -->
+      <script>
+        var _mtm = window._mtm = window._mtm || [];
+        _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
+      </script>
+      <!-- End Matomo Tag Manager -->
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../../../index.html">
+            <img id="logo" class="svg" src="../../../../logo.svg" alt="DevExpress EUD">
+            DevExpress EUD
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="query-builder">Query Builder</h1>
+
+<p>The <strong>Query Builder</strong> is a visual queries editor. You can invoke it from the <a href="data-source-wizard.html">Data Source Wizard</a>.</p>
+<h2 id="select">Select Tables</h2>
+<p>Drag and drop a specific table or view onto the Query Builder design surface to include it into a query result set.</p>
+<p><img src="../../images/eurd-web-designer-query-builder-select-table-drag-and-drop.png" alt=""></p>
+<p>The Query Builder provides a toolbar with the following commands:</p>
+<table>
+<thead>
+<tr>
+<th>Icon</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="../../images/eurd-web-designer-query-builder-button-delete.png" alt="web-designer-query-builder-button-delete"></td>
+<td>Removes the selected table or view from the query.</td>
+</tr>
+<tr>
+<td><img src="../../images/eurd-web-designer-query-builder-button-undo.png" alt="web-designer-query-builder-button-undo"></td>
+<td>Reverses the most recent action.</td>
+</tr>
+<tr>
+<td><img src="../../images/eurd-web-designer-query-builder-button-redo.png" alt="web-designer-query-builder-button-redo"></td>
+<td>Performs the previously undone action.</td>
+</tr>
+</tbody>
+</table>
+<p>Enable check boxes for the table columns you want to include into the query result set.</p>
+<p><img src="../../images/eurd-web-designer-query-builder-select-fields.png" alt=""></p>
+<p>Use the search box to find a table or view by name.</p>
+<p><img src="../../images/eurd-web-designer-query-builder-search-tables.png" alt=""></p>
+<h2 id="join">Join Tables</h2>
+<p>The Query Builder allows you to join tables and/or views. Use drag and drop to connect corresponding columns (key fields). The connected columns should have identical data types.</p>
+<p><img src="../../images/eurd-web-designer-query-builder-join-tables.png" alt=""></p>
+<p>Click the data relation to display the <strong>Relation Properties</strong> section. Properties in this section define the join type (<strong>Inner</strong> or <strong>Left Outer</strong>) and applied logical operator.</p>
+<p><img src="../../images/eurd-web-designer-query-builder-join-tables-selection-properties.png" alt=""></p>
+<p>A left outer join returns all the values from an inner join along with all values in the &quot;left&quot; table that do not match to the &quot;right&quot; table and includes rows with NULL (empty) values in the key field.</p>
+<p>If you select the left outer join, the relationship line displays an arrow which points at the &quot;right&quot; table of the join clause.</p>
+<p><img src="../../images/eurd-web-designer-query-builder-join-tables-left-outer.png" alt=""></p>
+<p>The executed query returns a &quot;flat&quot; table which joins different tables within a single query. The specified join options define which data records compose the query result set.</p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>We recommend you to use <a href="master-detail-relation-editor.html">hierarchical data sources</a> because the reporting engine generates master-detail reports faster than similar-looking reports which obtains data from &quot;flat&quot; data sources.</p>
+</div>
+<h2 id="filter">Filter Data</h2>
+<p>Expand the <strong>Query Properties</strong> section to display the query options.</p>
+<p><img src="../../images/eurd-web-designer-query-builder-selection-properties.png" alt=""></p>
+<p>The query provides the following options:</p>
+<ul>
+<li><p><strong>Name</strong></p>
+<p>Specifies a custom query name (alias).</p>
+</li>
+<li><p><strong>Filter</strong></p>
+<p>Runs the <a href="filter-editor.html">Filter Editor</a> where you can specify filter conditions for the resulting data. Filter criteria may contain <a href="../bind-to-data/specify-query-parameters.html">query parameters</a>.</p>
+</li>
+<li><p><strong>Group Filter</strong></p>
+<p>Runs the Filter Editor where you can specify filter conditions for grouped and aggregated data. This option is enabled only for grouped data.</p>
+</li>
+<li><p><strong>Select All (*)</strong></p>
+<p>Specifies whether to include all columns from the selected tables and/or views to the query result set, regardless of their individual settings.</p>
+<p>The default value is <strong>No</strong>.</p>
+</li>
+<li><p><strong>Select Top</strong></p>
+<p>Specifies the number of first records to include to the query result set. The default value is <strong>0</strong> and indicates that the query result set contains all records that meet all other filter conditions.</p>
+</li>
+<li><p><strong>Offset</strong></p>
+<p>Specifies the number of records to skip before the report engine retrieves data. This option is available only for sorted data.</p>
+</li>
+<li><p><strong>Select distinct</strong></p>
+<p>Specifies whether to include only distinct values to the result set.</p>
+<p>The default value is <strong>No</strong>.</p>
+</li>
+</ul>
+<h2 id="shape">Shape Data</h2>
+<p>Select a table or view and click a data column to display the data column options.</p>
+<p><img src="../../images/eurd-web-designer-query-builder-shape-data.png" alt=""></p>
+<p>The <strong>Column Properties</strong> section contains the following options:</p>
+<ul>
+<li><p><strong>Name</strong></p>
+<p>Indicates the column name which the Query Builder obtains from the database.</p>
+</li>
+<li><p><strong>Type</strong></p>
+<p>Indicates the column's data type.</p>
+<p>The Query Builder provides information about the maximum string length for string columns.</p>
+</li>
+<li><p><strong>Alias</strong></p>
+<p>Specifies a custom column name (alias).</p>
+<p>Include a column into a query to enable this option.</p>
+</li>
+<li><p><strong>Output</strong></p>
+<p>Specifies whether to include the column into the query result set.</p>
+</li>
+<li><p><strong>Sort Type</strong></p>
+<p>Specifies whether to preserve the original data records' order within the column, or sort them (in an ascending or descending order).</p>
+</li>
+<li><p><strong>Sort Order</strong></p>
+<p>Apply sorting to the data column's records to enable this option.</p>
+<p>It defines the sorting priority for multiple columns (the less this number is, the higher the priority).</p>
+<p>For example, set the sort order to <strong>1</strong> for the column <strong>A</strong> and set it to <strong>2</strong> for the column <strong>B</strong>. The Query Builder first sorts the query by column <strong>A</strong> and then by the column <strong>B</strong>.</p>
+<p>All columns' sort order automatically updates when you change this setting for one column. It allows you to avoid conflict of priorities.</p>
+</li>
+<li><p><strong>Group By</strong></p>
+<p>Specifies whether to group the query result set by this column.</p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>You should apply grouping and/or aggregation to each selected column.</p>
+</div>
+</li>
+<li><p><strong>Aggregate</strong></p>
+<p>Specifies whether to aggregate the column's data records.</p>
+<p>You can use the following aggregate functions: <strong>Count</strong>, <strong>Max</strong>, <strong>Min</strong>, <strong>Avg</strong>, <strong>Sum</strong>, <strong>CountDistinct</strong>, <strong>AvgDistinct</strong>, <strong>SumDistinct</strong>.</p>
+<p>The Query Builder discards individual data records from the query result set and keep only the aggregate function result when you apply any of these functions.</p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>Use aggregation/grouping either for all selected columns or for none of them. The Query Builder applies grouping to all selected columns automatically if you apply the aggregation to one column. The Query Builder resets grouping against other columns when you remove all aggregation functions.</p>
+</div>
+</li>
+</ul>
+<h2 id="parameters">Use Query Parameters</h2>
+<p>Use the <strong>Parameters</strong> section to add, remove and edit <a href="../bind-to-data/specify-query-parameters.html">query parameters</a>.</p>
+<p><img src="../../images/eurd-web-designer-query-builder-parameters.png" alt=""></p>
+<p>Each query parameter provides the following properties:</p>
+<ul>
+<li><p><strong>Name</strong></p>
+<p>Specifies the query parameter's name.</p>
+</li>
+<li><p><strong>Type</strong></p>
+<p>Specifies the parameter value's data type.</p>
+<p>Set this property to <strong>Expression</strong> to generate parameter values dynamically.</p>
+</li>
+<li><p><strong>Result Type</strong></p>
+<p>Specifies the data type of the expression's result value.</p>
+<p>This property is enabled if the query parameter's type is <strong>Expression</strong>.</p>
+</li>
+<li><p><strong>Value</strong></p>
+<p>Determines the query parameter's actual value.</p>
+<p>You can specify a static actual value according to the selected value's data type.</p>
+<p>Alternatively, construct an expression to generate actual parameter values dynamically. Click this property's ellipsis button to invoke the <a href="expression-editor.html">Expression Editor</a> and create an expression. This ellipsis button is enabled if you set the query parameter's type to <strong>Expression</strong>.</p>
+</li>
+</ul>
+<h2 id="preview">Preview Results</h2>
+<p>Click the <strong>Preview Results</strong> button to test a query on the actual data's limited subset at any time.</p>
+<p>The opened <strong>Data Preview</strong> screen displays the first <strong>100</strong> data records of the query result set.</p>
+<p><img src="../../images/eurd-web-designer-query-builder-data-preview.png" alt="web-designer-query-builder-data-preview"></p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/DevExpress/dotnet-eud/blob/2025.1/eud-for-devexpress-reports/reporting-for-web/report-designer/report-designer-tools/query-builder.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Copyright (c) 1998-2025 Developer Express Inc. All rights reserved.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

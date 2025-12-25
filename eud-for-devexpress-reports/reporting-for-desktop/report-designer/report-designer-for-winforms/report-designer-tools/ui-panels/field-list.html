@@ -1,0 +1,164 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Field List | DevExpress End-User Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Field List | DevExpress End-User Documentation ">
+      
+      
+      <link rel="icon" href="../../../../../../favicon.ico">
+      <link rel="stylesheet" href="../../../../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../../../../toc.html">
+      <meta name="docfx:tocrel" content="../../../../toc.html">
+      
+      <meta name="docfx:rel" content="../../../../../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/DevExpress/dotnet-eud/blob/2025.1/eud-for-devexpress-reports/reporting-for-desktop/report-designer/report-designer-for-winforms/report-designer-tools/ui-panels/field-list.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../../../../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+      <!-- Matomo Tag Manager -->
+      <script>
+        var _mtm = window._mtm = window._mtm || [];
+        _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
+      </script>
+      <!-- End Matomo Tag Manager -->
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../../../../../index.html">
+            <img id="logo" class="svg" src="../../../../../../logo.svg" alt="DevExpress EUD">
+            DevExpress EUD
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="4259">
+<h1 id="field-list">Field List</h1>
+
+<p>This panel displays the schemas of a report’s data sources.</p>
+<p><img src="../../../../images/eurd-win-field-list.png" alt="Field List"></p>
+<p>Right-click a data source to access its settings. For instance, you can add the data source to the <a href="report-gallery.html">Report Gallery</a> to reuse it in other reports.</p>
+<p><img src="../../../../images/eurd-win-field-list-data-source-add-to-gallery.png" alt="Field List - Add Data Source to Report Gallery"></p>
+<p>The Field List allows you to do the following:</p>
+<h2 id="search-fields">Search fields</h2>
+<p>Enter a search string in the search box. The Field List filters fields and tables to match the entered string.</p>
+<p><img src="../../../../images/eurd-win-field-list-search.png" alt="Field List - Search"></p>
+<h2 id="bind-controls-to-data">Bind controls to data</h2>
+<p>Drop a field onto a report's surface to create a new report control bound to this field.</p>
+<p><img src="../../../../images/eurd-win-field-list-drop-fields.png" alt="Field List - Drop Field Onto the Surface"></p>
+<p>Drop a field onto an existing report control to bind this control to the field.</p>
+<p><img src="../../../../images/eurd-win-field-list-drop-field-to-control.png" alt="Field List - Drop Field Onto a Control"></p>
+<p>Hold the CTRL key when you drop a field on top of an existing control to keep the control's current data binding setting. In this case, a new report control is created.</p>
+<p><img src="../../../../images/eurd-win-field-list-avoid-data-binding.png" alt="Field List - Drop Field Onto a Control and Keep Binding"></p>
+<p><strong>Select which control to create</strong></p>
+<p>Do any of the following:</p>
+<ul>
+<li>Hold the SHIFT key when you drop a data field onto the report surface.</li>
+<li>Right-click a data field and drop it onto the report surface.</li>
+</ul>
+<p>This invokes a context menu where you can select which control to create.</p>
+<p><img src="../../../../images/eurd-win-fieldlist-create-specific-contols.png" alt="Field List - Select Which Control to Create"></p>
+<h2 id="create-tables">Create tables</h2>
+<p>Drop an entire data table onto the report to create a report table with columns bound to the data table's fields.</p>
+<p><img src="../../../../images/eurd-win-field-list-drop-table.png" alt="Field List - Drop Table"></p>
+<p>Hold the CTRL or SHIFT key to select multiple data fields in the Field List. Drop these fields onto the report to create a report table that only has the selected fields.</p>
+<p><img src="../../../../images/eurd-win-list-drop-multiple-fields.png" alt="Field List - Select Specific Fields"></p>
+<p>Hold the SHIFT key when you drop the selected fields onto the report to only create column headers. This creates a new table whose cells display the selected field names. Alternatively, you can drag and drop fields with the right mouse button.</p>
+<p><img src="../../../../images/eurd-win-field-list-multi-select-bound-table-cells.png" alt="Field List - Create Column Headers"></p>
+<h2 id="data-shaping-operations">Data shaping operations</h2>
+<p>The Field List can help you do the following:</p>
+<ul>
+<li><p>Add <a href="../../shape-report-data/use-calculated-fields/calculated-fields-overview.html">calculated fields</a> to data tables.</p>
+<p><img src="../../../../images/eurd-win-field-list-add-calculated-field.png" alt="Field List - Add Calculated Field"></p>
+</li>
+<li><p>Add <a href="../../use-report-parameters.html">report parameters</a> or change existing parameters.</p>
+<p><img src="../../../../images/eurd-winield-list-add-report-parameter.png" alt="Field List - Add Report Parameter"></p>
+</li>
+</ul>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/DevExpress/dotnet-eud/blob/2025.1/eud-for-devexpress-reports/reporting-for-desktop/report-designer/report-designer-for-winforms/report-designer-tools/ui-panels/field-list.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Copyright (c) 1998-2025 Developer Express Inc. All rights reserved.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

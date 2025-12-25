@@ -1,0 +1,178 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Bind Dashboard Items to Data | DevExpress End-User Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Bind Dashboard Items to Data | DevExpress End-User Documentation ">
+      
+      
+      <link rel="icon" href="../../../../favicon.ico">
+      <link rel="stylesheet" href="../../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../../toc.html">
+      <meta name="docfx:tocrel" content="../../toc.html">
+      
+      <meta name="docfx:rel" content="../../../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/DevExpress/dotnet-eud/blob/2025.1/eud-for-bi-dashboards/dashboard-for-desktop/dashboard-designer/bind-dashboard-items-to-data/bind-dashboard-items-to-data.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+      <!-- Matomo Tag Manager -->
+      <script>
+        var _mtm = window._mtm = window._mtm || [];
+        _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
+      </script>
+      <!-- End Matomo Tag Manager -->
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../../../index.html">
+            <img id="logo" class="svg" src="../../../../logo.svg" alt="DevExpress EUD">
+            DevExpress EUD
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="bind-dashboard-items-to-data">Bind Dashboard Items to Data</h1>
+
+<p>This topic explains how to bind the newly <a href="../add-dashboard-items.html">created</a> dashboard item to <a href="../provide-data.html">data source</a> fields, to display data.</p>
+<ul>
+<li><a href="#binding-concepts">Binding Concepts</a></li>
+<li><a href="#create-binding">Create Binding</a></li>
+<li><a href="#modify-binding">Modify Binding</a></li>
+<li><a href="#clear-binding">Clear Binding</a></li>
+</ul>
+<h2 id="binding-concepts"><a name="binding-concepts"></a>Binding Concepts</h2>
+<p>To bind dashboard items to data in the Dashboard Designer, the <a href="../ui-elements/data-items-pane.html">DATA ITEMS</a> pane is used.</p>
+<p><img src="../../images/img18516.png" alt="DataItemPane"></p>
+<p>Each dashboard item type has a specific set of <strong>data sections</strong>, such as <em>Values</em>, <em>Arguments</em> and <em>Series</em> in the chart, <em>Columns</em> and <em>Sparklines</em> in the grid, and <em>Values</em>, <em>Columns</em> and <em>Rows</em> in the pivot grid.
+Each data section corresponds to a particular dashboard item area or element, and should be mapped to data to be displayed within this area/element.</p>
+<p>Mapping is performed using <strong>data items</strong> - objects that are used to bind a dashboard item to data source fields. Data items are used to link the dashboard item to the required data source fields and, thus, visualize data within the dashboard item.</p>
+<p>Another key concept in data binding is the <strong>data item container</strong>, which represents a set of data items. It can contain either a single data item or multiple data items, and allows you to specify various options related to how a <a href="../dashboard-item-settings.html">specific dashboard item</a> visualizes data.</p>
+<p><img src="../../images/img22871.png" alt="DataItemsPane_VisualElements_Binding"></p>
+<p>The data item can process data in two ways - as <strong>dimensions</strong> or <strong>measures</strong>. This depends on the data section to which the data item is assigned, and the type of the data item container.</p>
+<ul>
+<li><p><strong>dimension</strong> - a data item whose values are not intended to be summarized.</p>
+<p>These values can be of any type - string, date-time or numeric. In any case, the dashboard does not summarize the dimension values, but groups identical values.
+You can perform <a href="../data-shaping/grouping.html">grouping</a>, <a href="../data-shaping/sorting.html">sorting</a>, or display the <a href="../data-shaping/top-n.html">top</a> values for the dimension values.</p>
+<p>You can also customize <a href="../data-shaping/formatting-data.html">data format</a> settings for numeric and date-time values. To access the data shaping settings, use the data item's <em>menu button</em>.</p>
+<p><img src="../../images/img22876.png" alt="DataItem_MenuButton_Dimension"></p>
+<p>For instance, dimensions are used to provide data for the chart argument axis, pivot grid column and row headers.</p>
+</li>
+<li><p><strong>measure</strong> - a data item whose values are summarized before they are used in the dashboard.</p>
+<p>These values can be of any type - numeric, date-time or string. In any case, the dashboard will calculate an appropriate <a href="../data-shaping/summarization.html">summary</a> function against measure values. You can also customize the <a href="../data-shaping/formatting-data.html">data format</a> settings that affect how summary values are displayed. To access these settings, use the data item's <em>menu button</em>.</p>
+<p><img src="../../images/img22875.png" alt="DataItem_MenuButton"></p>
+<p>For example, measures are used to provide data for the chart's Y-axis, and to calculate pivot cell values.</p>
+</li>
+</ul>
+<p>Specific data sections display <em>Options buttons</em> for each data item container.
+Use these buttons to invoke a dialog that allows you to specify the settings of this data item container. These settings affect how a particular dashboard item's area/element displays the provided data.</p>
+<p><img src="../../images/img22877.png" alt="DataItemContainer_OptionsButtons"></p>
+<h2 id="create-binding"><a name="create-binding"></a>Create Binding</h2>
+<p>The DATA ITEMS pane displays data sections of the selected dashboard item. It can be used to add, rearrange or remove data items.</p>
+<p>To bind a dashboard item to data, select the dashboard item. Then choose the required data field from the <a href="../ui-elements/data-source-browser.html">Data Source Browser</a> and drop it onto the appropriate section in the DATA ITEMS pane.</p>
+<p><img src="../../images/img22865.png" alt="DataItemsPane_DragField"></p>
+<p>You can remove the data item by dragging it outside the DATA ITEMS pane.</p>
+<p>To learn how to bind a specific dashboard item to data, see the <strong>Providing Data</strong> topic for the required <a href="../dashboard-item-settings.html">dashboard item</a>.</p>
+<p>To rename the data item, click its menu button and select <strong>Rename</strong>, to invoke the <strong>Rename Data Item</strong> dialog.</p>
+<p><img src="../../images/img22878.png" alt="DataItems_RenameDataItem"></p>
+<h2 id="modify-binding"><a name="modify-binding"></a>Modify Binding</h2>
+<p>You can modify data binding by dragging data item containers within a data section. To do this, drag the data item container to the required position.</p>
+<p><img src="../../images/img22873.png" alt="DataItemsPane_ModifyDataBinding"></p>
+<p>You can also modify data binding by dragging data items within the DATA ITEMS pane. This action has the following specifics.</p>
+<ul>
+<li>If you drag the data item to a new position, the settings specified for the corresponding data item container will be restored to the default values.</li>
+<li>If you drag the data item to an existing data item placeholder, the settings of the corresponding data item container will be applied.</li>
+</ul>
+<h2 id="clear-binding"><a name="clear-binding"></a>Clear Binding</h2>
+<p>To remove all data items for a selected dashboard item, use the <strong>Remove Data Items</strong> button in the <strong>Home</strong> ribbon tab.</p>
+<p><img src="../../images/img23146.png" alt="DataItemsPane_RemoveDataItems"></p>
+<p>You can also do this via the dashboard item's context menu.</p>
+<p><img src="../../images/img23148.png" alt="DashboardItemMenu_RemoveDataItems"></p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/DevExpress/dotnet-eud/blob/2025.1/eud-for-bi-dashboards/dashboard-for-desktop/dashboard-designer/bind-dashboard-items-to-data/bind-dashboard-items-to-data.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Copyright (c) 1998-2025 Developer Express Inc. All rights reserved.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
