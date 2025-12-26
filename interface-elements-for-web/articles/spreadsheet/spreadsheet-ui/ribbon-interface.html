@@ -1,0 +1,181 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Ribbon Interface | DevExpress End-User Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Ribbon Interface | DevExpress End-User Documentation ">
+      
+      
+      <link rel="icon" href="../../../../favicon.ico">
+      <link rel="stylesheet" href="../../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../../toc.html">
+      <meta name="docfx:tocrel" content="../../../toc.html">
+      
+      <meta name="docfx:rel" content="../../../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/DevExpress/dotnet-eud/blob/2024.2/interface-elements-for-web/articles/spreadsheet/spreadsheet-ui/ribbon-interface.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+      <!-- Matomo Tag Manager -->
+      <script>
+        var _mtm = window._mtm = window._mtm || [];
+        _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
+      </script>
+      <!-- End Matomo Tag Manager -->
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../../../index.html">
+            <img id="logo" class="svg" src="../../../../logo.svg" alt="DevExpress EUD">
+            DevExpress EUD
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="ribbon-interface">Ribbon Interface</h1>
+
+<p>The comprehensive functionality of the <strong>Spreadsheet</strong> is provided by a set of <strong>Ribbon</strong> pages. Ribbon pages are divided into logical groups that include commands with common features. Use the <strong>Ribbon</strong> interface to perform basic operations in the <strong>Spreadsheet</strong> (to <a href="../file-operations/create-a-workbook.html">create</a> a workbook, <a href="../file-operations/create-a-worksheet.html">create</a> or <a href="../file-operations/delete-a-worksheet.html">delete</a> worksheets, <a href="../editing-cells/select-cells-or-cell-content.html">select</a> data in a worksheet, navigate through a worksheet, etc.).</p>
+<h2 id="file">File</h2>
+<p><img src="../../../images/img25920.png" alt="EUD_ASPxSpreadsheetFileTab"></p>
+<p><a href="../file-operations/create-a-workbook.html">Create a Workbook</a></p>
+<p><a href="../file-operations/load-a-workbook.html">Load a Workbook</a></p>
+<p><a href="../file-operations/save-a-workbook.html">Save a Workbook</a></p>
+<p><a href="../file-operations/print-a-workbook.html">Print a Workbook</a></p>
+<h2 id="home">Home</h2>
+<p><img src="../../../images/img26003.png" alt="EUD_ASPxSpreadSheet_HomeTab"></p>
+<p><a href="../file-operations/undo-and-redo-last-actions.html">Undo and Redo Last Actions</a></p>
+<p><a href="../editing-cells/copy-and-paste-cell-content.html">Copy and Paste Cell Content</a></p>
+<p><a href="../cell-formatting/format-cells.html">Format Cells</a></p>
+<p><a href="../cell-formatting/format-cell-content.html">Format Cell Content</a></p>
+<p><a href="../cell-formatting/wrap-text-and-merge-cells.html">Wrap Text and Merge Cells</a></p>
+<p><a href="../cell-formatting/number-formatting.html">Number Formatting</a></p>
+<p><a href="../cell-formatting/clear-cell-formatting.html">Clear Cell Formatting</a></p>
+<p><a href="../columns-and-rows/insert-and-delete-rows-and-columns.html">Insert and Delete Columns and Rows</a></p>
+<p><a href="../columns-and-rows/show-and-hide-columns-and-rows.html">Show and Hide Columns and Rows</a></p>
+<p><a href="../columns-and-rows/specify-column-width-and-row-height.html">Specify Column Width and Row Height</a></p>
+<p><a href="../editing-cells/fill-data-automatically.html">Fill Data Automatically</a></p>
+<p><a href="../editing-cells/find-and-replace.html">Find and Replace</a></p>
+<p><a href="../cell-formatting/format-as-table.html">Format As Table</a></p>
+<h2 id="insert">Insert</h2>
+<p><img src="../../../images/img26104.png" alt="EUD_ASPxSpreadsheet_InsertTab"></p>
+<p><a href="../pictures-and-hyperlinks/insert-a-picture.html">Insert a Picture</a></p>
+<p><a href="../pictures-and-hyperlinks/move-and-resize-a-picture.html">Move and Resize a Picture</a></p>
+<p><a href="../charting/charting-overview.html">Charting Overview</a></p>
+<p><a href="../charting/creating-a-chart.html">Creating a Chart</a></p>
+<p><a href="../charting/changing-a-chart-type.html">Changing a Chart Type</a></p>
+<p><a href="../charting/applying-a-predefined-chart-layout-and-style.html">Applying a Predefined Chart Layout and Style</a></p>
+<p><a href="../charting/modifying-a-chart-manually.html">Modifying a Chart Manually</a></p>
+<p><a href="../pictures-and-hyperlinks/insert-and-delete-hyperlinks.html">Insert and Delete Hyperlinks</a></p>
+<h2 id="page-layout">Page Layout</h2>
+<p><img src="../../../images/img26237.png" alt="EUD_ASPxSpreadsheet_PageLayoutMenu"></p>
+<p><a href="../file-operations/adjust-page-settings.html">Adjust Page Settings</a></p>
+<h2 id="formulas">Formulas</h2>
+<p><img src="../../../images/img26252.png" alt="EUD_ASPxSpreadsheet_FormulasMenu"></p>
+<p><a href="../formulas/create-a-simple-formula.html">Create a Simple Formula</a></p>
+<p><a href="../formulas/cell-references.html">Cell References</a></p>
+<p><a href="../formulas/using-functions-in-formulas.html">Using Functions in Formulas </a></p>
+<p><a href="../formulas/supported-functions.html">Supported Functions</a></p>
+<p><a href="../formulas/error-types-in-formulas.html">Error Types in Formulas</a></p>
+<h2 id="data">Data</h2>
+<p><img src="../../../images/img26346.png" alt="EUD_ASPxSpreadsheet_DataMenu"></p>
+<p><a href="../data-presentation/sort-data.html">Sort Data</a></p>
+<p><a href="../data-presentation/filtering.html">Filtering</a></p>
+<p><a href="../editing-cells/data-validation.html">Data Validation</a></p>
+<h2 id="review">Review</h2>
+<p><img src="../../../images/spreadsheet-tab-review.png" alt="EUD_ASPxSpreadsheet_ReviewMenu"></p>
+<p><a href="../editing-cells/insert-a-comment.html">Comments</a></p>
+<h2 id="view">View</h2>
+<p><img src="../../../images/img117633.png" alt="EUD_ASPxSpreadsheet_ViewMenu"></p>
+<p><a href="../viewing/document-views.html">Document Views</a></p>
+<p><a href="../viewing/hide-gridlines.html">Hide and Display Gridlines</a></p>
+<p><a href="../viewing/hide-and-display-headings.html">Hide and Display Headings</a></p>
+<p><a href="../viewing/full-screen-mode.html">Full Screen Mode</a></p>
+<p><a href="../data-presentation/freeze-panes.html">Freeze Panes</a></p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/DevExpress/dotnet-eud/blob/2024.2/interface-elements-for-web/articles/spreadsheet/spreadsheet-ui/ribbon-interface.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

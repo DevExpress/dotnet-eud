@@ -1,0 +1,184 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Layout | DevExpress End-User Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Layout | DevExpress End-User Documentation ">
+      
+      
+      <link rel="icon" href="../../../../../favicon.ico">
+      <link rel="stylesheet" href="../../../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../../../toc.html">
+      <meta name="docfx:tocrel" content="../../../../toc.html">
+      
+      <meta name="docfx:rel" content="../../../../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/DevExpress/dotnet-eud/blob/2024.2/dashboard-for-desktop/articles/dashboard-designer/dashboard-item-settings/pivot/layout.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../../../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+      <!-- Matomo Tag Manager -->
+      <script>
+        var _mtm = window._mtm = window._mtm || [];
+        _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
+      </script>
+      <!-- End Matomo Tag Manager -->
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../../../../index.html">
+            <img id="logo" class="svg" src="../../../../../logo.svg" alt="DevExpress EUD">
+            DevExpress EUD
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="layout">Layout</h1>
+
+<p>This topic describes how to control the Pivot dashboard item layout, the visibility of totals and grand totals, etc.</p>
+<ul>
+<li><a href="#layouttype">Layout Type</a></li>
+<li><a href="#totalsvisibility">Totals Visibility</a></li>
+<li><a href="#totalsposition">Totals Position</a></li>
+<li><a href="#valuesvisibility">Values Visibility</a></li>
+<li><a href="#valuesposition">Values Position</a></li>
+<li><a href="#resetlayout">Reset Layout Options</a></li>
+</ul>
+<h2 id="layout-type"><a name="layouttype"></a>Layout Type</h2>
+<p>If the Pivot dashboard item contains a hierarchy of dimensions in the <a href="providing-data.html">Rows</a> section, you can specify the layout used to arrange values corresponding to individual groups.</p>
+<table>
+<thead>
+<tr>
+<th>Layout type</th>
+<th>Example</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Compact</strong></td>
+<td><img src="../../../../images/img127490.png" alt="Pivot_CompactLayout"></td>
+<td>Displays values from different Row dimensions in a single column. Note that in this case totals are shown at the top of a group, and you cannot change <a href="#totalsposition">totals position</a>.</td>
+</tr>
+<tr>
+<td><strong>Tabular</strong></td>
+<td><img src="../../../../images/img127491.png" alt="Pivot_TabularLayout"></td>
+<td>Displays values from different Row dimensions in separate columns.</td>
+</tr>
+</tbody>
+</table>
+<p>Use the <strong>Layout</strong> button in the <strong>Design</strong> ribbon tab to change the Pivot layout.</p>
+<p><img src="../../../../images/img128425.png" alt="Pivot_LayoutButtonRibbon"></p>
+<h2 id="totals-visibility"><a name="totalsvisibility"></a>Totals Visibility</h2>
+<p>You can control the visibility of totals and grand totals for the entire Pivot dashboard item. For instance, the image below displays the Pivot dashboard item with the disabled row totals.</p>
+<p><img src="../../../../images/img127500.png" alt="Pivot_DisableRowTotals_Example"></p>
+<p>To manage the visibility of totals and grand totals, use the <strong>Totals</strong> and <strong>Grand Totals</strong> buttons in the <strong>Design</strong> ribbon tab, respectively.</p>
+<p><img src="../../../../images/img128426.png" alt="Pivot_TotalsVisibilityRibbon"></p>
+<p>These buttons invoke a popup menu that allows you to manage the visibility of column and row totals/grand totals separately.</p>
+<p>Moreover, you can control the visibility of totals for individual dimensions/measures by using the data item's context menu (<strong>Show Totals</strong> and <strong>Show Grand Totals</strong> options).</p>
+<p><img src="../../../../images/img127503.png" alt="Pivot_ShowTotals_DataItemMenu"></p>
+<h2 id="totals-position"><a name="totalsposition"></a>Totals Position</h2>
+<p>If necessary, you can change the Pivot dashboard item’s totals/grand totals position. For instance, in the image below the row totals are moved from the bottom to the top.</p>
+<p><img src="../../../../images/img127504.png" alt="Pivot_RowTotals_Bottom_Top"></p>
+<p>To manage totals position, use the <strong>Row Totals Position</strong> and <strong>Column Totals Position</strong> buttons in the <strong>Design</strong> ribbon tab.</p>
+<p><img src="../../../../images/img128427.png" alt="Pivot_TotalsPositionRibbon"></p>
+<h2 id="values-visibility"><a name="valuesvisibility"></a>Values Visibility</h2>
+<p>The Pivot dashboard item can contain several measures in the <a href="providing-data.html">Values</a> section to hide summary values corresponding to specific measures. For instance, the image below shows the Pivot with hidden <em>Quantity</em> values.</p>
+<p><img src="../../../../images/img127507.png" alt="Pivot_ValuesVisibility"></p>
+<p>To do this, use the <strong>Show Values</strong> command in the measure menu.</p>
+<p><img src="../../../../images/img127508.png" alt="Pivot_ValuesVisibility_Menu"></p>
+<h2 id="values-position"><a name="valuesposition"></a>Values Position</h2>
+<p>The Pivot dashboard item allows you to control the position of headers used to arrange summary values corresponding to different measures. For instance, you can display values in columns or rows.</p>
+<p><img src="../../../../images/img127505.png" alt="Pivot_ValuesPosition"></p>
+<p>To manage this position, use the <strong>Values Position</strong> button in the <strong>Design</strong> ribbon tab.</p>
+<p><img src="../../../../images/img128428.png" alt="Pivot_ValuesPositionRibbon"></p>
+<h2 id="reset-layout-options"><a name="resetlayout"></a>Reset Layout Options</h2>
+<p>To reset layout options, click the <strong>Reset Layout Options</strong> button in the <strong>Design</strong> ribbon tab.</p>
+<p><img src="../../../../images/img128429.png" alt="Pivot_ResetLayoutOptionsRibbon"></p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/DevExpress/dotnet-eud/blob/2024.2/dashboard-for-desktop/articles/dashboard-designer/dashboard-item-settings/pivot/layout.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

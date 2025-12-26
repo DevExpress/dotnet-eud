@@ -1,0 +1,151 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Script Editor | DevExpress End-User Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Script Editor | DevExpress End-User Documentation ">
+      
+      
+      <link rel="icon" href="../../../../../favicon.ico">
+      <link rel="stylesheet" href="../../../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../../../toc.html">
+      <meta name="docfx:tocrel" content="../../../../toc.html">
+      
+      <meta name="docfx:rel" content="../../../../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/DevExpress/dotnet-eud/blob/2024.2/reporting-for-desktop/articles/report-designer/report-designer-for-wpf/interface-elements/script-editor.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../../../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+      <!-- Matomo Tag Manager -->
+      <script>
+        var _mtm = window._mtm = window._mtm || [];
+        _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
+      </script>
+      <!-- End Matomo Tag Manager -->
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../../../../index.html">
+            <img id="logo" class="svg" src="../../../../../logo.svg" alt="DevExpress EUD">
+            DevExpress EUD
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="script-editor">Script Editor</h1>
+
+<p>The <strong>Script Editor</strong> allows you to write code for specific event handlers in the <a href="../../report-designer-for-wpf.html">Report Designer</a> to adjust the behavior of <a href="../report-elements/report-controls.html">report controls</a>, <a href="../report-elements/report-bands.html">bands</a> or the report itself.</p>
+<p><img src="../../../../images/img123181.png" alt="WPFDesigner_ScriptEditor"></p>
+<p>This topic describes the basics of using scripts, the Script Editor interface and shows how to use scripting in a report. The document consists of the following sections.</p>
+<ul>
+<li><a href="#overview">Scripting Overview</a></li>
+<li><a href="#maintaining">Maintaining Scripts</a></li>
+</ul>
+<a name="overview"></a>
+<h2 id="scripting-overview">Scripting Overview</h2>
+<p>The Script Editor provides you with the capability to write and execute scripts at runtime when a report is generated. Scripting is made available to extend the standard functionality as far as may be required.</p>
+<p>The Script Editor supports <strong>C#</strong> and <strong>Visual Basic .NET</strong> scripting languages. This means that the scripting language is independent from the language used to create the report. You can specify the language using the <strong>Script Language</strong> property. The selected scripting language should be the same for all scripts used in a report.</p>
+<p><img src="../../../../images/img123135.png" alt="WPFDesigner_ScriptLanguageProperty"></p>
+<a name="maintaining"></a>
+<h2 id="maintaining-scripts">Maintaining Scripts</h2>
+<p>Each report element has its own set of events, which are individual for each element type. To handle an event of a report element, do one of the following.</p>
+<ul>
+<li><p>Select the required report element (e.g., on the <a href="design-surface.html">Design Surface</a>). In the <a href="properties-panel.html">Properties Panel</a>, expand the <strong>Scripts</strong> property and click the plus button for the event.</p>
+<p><img src="../../../../images/img123167.png" alt="WPFDesigner_AddingScriptViaPropertiesPanel"></p>
+</li>
+<li><p>Click the <strong>Scripts</strong> button (<img src="../../../../images/img120434.png" alt="WPFDesigner_Toolbar_ScriptEditor">) in the <a href="toolbar.html">Toolbar</a> to display the Script Editor. Choose the required report element in the dedicated drop-down list at the left top of the Script Editor. Then, select one of the available events in another list at the right top.</p>
+<p><img src="../../../../images/img123168.png" alt="WPFDesigner_AddingScriptViaScriptEditor"></p>
+</li>
+</ul>
+<p>After the event is specified, a code template is automatically generated in the current scripting language and added in the Script Editor.</p>
+<p><img src="../../../../images/img123170.png" alt="WPFDesigner_ScriptTemplate"></p>
+<p>To check for errors in the report's script, click the <strong>Validate</strong> button. The validation result is displayed in the errors panel at the bottom of the Script Editor. Double-click the error item in the panel's list to go to the corresponding line of code. If all scripts are valid, the errors panel is empty.</p>
+<p><img src="../../../../images/img123171.png" alt="WPFDesigner_ScriptErrorPanel"></p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/DevExpress/dotnet-eud/blob/2024.2/reporting-for-desktop/articles/report-designer/report-designer-for-wpf/interface-elements/script-editor.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

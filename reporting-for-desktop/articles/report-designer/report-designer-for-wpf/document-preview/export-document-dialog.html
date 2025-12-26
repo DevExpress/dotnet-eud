@@ -1,0 +1,145 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Export Document Dialog | DevExpress End-User Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Export Document Dialog | DevExpress End-User Documentation ">
+      
+      
+      <link rel="icon" href="../../../../../favicon.ico">
+      <link rel="stylesheet" href="../../../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../../../toc.html">
+      <meta name="docfx:tocrel" content="../../../../toc.html">
+      
+      <meta name="docfx:rel" content="../../../../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/DevExpress/dotnet-eud/blob/2024.2/reporting-for-desktop/articles/report-designer/report-designer-for-wpf/document-preview/export-document-dialog.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../../../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+      <!-- Matomo Tag Manager -->
+      <script>
+        var _mtm = window._mtm = window._mtm || [];
+        _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
+      </script>
+      <!-- End Matomo Tag Manager -->
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../../../../index.html">
+            <img id="logo" class="svg" src="../../../../../logo.svg" alt="DevExpress EUD">
+            DevExpress EUD
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="export-document-dialog">Export Document Dialog</h1>
+
+<p>The Print Preview allows you to view and edit various format-specific options, and then export a report to one of the supported third-party formats. There are two options for <a href="../../../../../interface-elements-for-desktop/articles/print-preview/print-preview-for-wpf/exporting/exporting.html">exporting</a> a document. The first way is to export a document to a file on disk using the <strong>Export Document</strong> dialog.</p>
+<p><img src="../../../../images/img120186.png" alt="WPFDesigner_ExportDocumentDialog"></p>
+<p>Another approach is to utilize the <strong>Send via E-Mail</strong> dialog to export a document and send the resulting file via e-mail.</p>
+<p><img src="../../../../images/img124137.png" alt="WPFDesigner_SendDialog"></p>
+<p>To invoke these dialogs, click the arrow for the <strong>Export...</strong> <img src="../../../../images/img120169.png" alt="WPFDesigner_PreviewToolbar_Export"> or <strong>Send...</strong> <img src="../../../../images/img120170.png" alt="WPFDesigner_PreviewToolbar_Send"> button, respectively, and choose the required format from the drop-down list. If you simply click one of these buttons, the dialogs will provide settings for the PDF format. Then, you can always change the export format directly in the dialogs using the dedicated <strong>Export Format</strong> drop-down lists.</p>
+<p>The following third-party export formats are supported.</p>
+<ul>
+<li>PDF (Portable Document Format)</li>
+<li>HTML (HyperText Markup Language)</li>
+<li>MHT (Web archive, single file)</li>
+<li>RTF (Rich Text Format)</li>
+<li>XLS (Microsoft® Word® 97 - 2003 document)</li>
+<li>XLSX (Office® Open XML document)</li>
+<li>CSV (Comma-Separated Values file format)</li>
+<li>TXT (Plain text)</li>
+<li>Image (BMP, GIF, JPEG, PNG, TIFF, EMF or WMF format)</li>
+</ul>
+<p>In the dialogs, you need to specify the path where the resulting file should be saved. The <strong>Export Document</strong> dialog additionally prompts you to choose whether or not to open the file after exporting.</p>
+<p>The dialogs also allow you to specify advanced export options for the selected format. To access and customize these format-specific options, click the <strong>More Options</strong> link.</p>
+<p><img src="../../../../images/img120187.png" alt="WPFDesigner_AdvExportDocumentDialog"></p>
+<p>Specify the required options and click <strong>OK</strong> to initiate the export of a report and save the resulting file. After closing the <strong>Send via E-Mail</strong> dialog, the saved file will be attached to a new empty message in the default mail program.</p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/DevExpress/dotnet-eud/blob/2024.2/reporting-for-desktop/articles/report-designer/report-designer-for-wpf/document-preview/export-document-dialog.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

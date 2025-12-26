@@ -1,0 +1,151 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Create Drill-Through Reports | DevExpress End-User Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Create Drill-Through Reports | DevExpress End-User Documentation ">
+      
+      
+      <link rel="icon" href="../../../../favicon.ico">
+      <link rel="stylesheet" href="../../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../../toc.html">
+      <meta name="docfx:tocrel" content="../../../toc.html">
+      
+      <meta name="docfx:rel" content="../../../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/DevExpress/dotnet-eud/blob/2024.2/reporting-for-web/articles/report-designer/provide-interactivity/create-drill-through-reports.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+      <!-- Matomo Tag Manager -->
+      <script>
+        var _mtm = window._mtm = window._mtm || [];
+        _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
+      </script>
+      <!-- End Matomo Tag Manager -->
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../../../index.html">
+            <img id="logo" class="svg" src="../../../../logo.svg" alt="DevExpress EUD">
+            DevExpress EUD
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="create-drill-through-reports">Create Drill-Through Reports</h1>
+
+<p>Follow this tutorial to create a <em>drill-through report</em> (a user can click a Category entry to invoke a detail report with Products). This report type keeps the original report compact while still allowing access to more detailed information.</p>
+<p>The tutorial involves two main steps:</p>
+<ul>
+<li>Add a master-detail relationship between &quot;Categories&quot; and &quot;Products&quot; reports within one project.</li>
+<li>Use detail report parameters to filter records based on the selected category.</li>
+</ul>
+<h2 id="add-a-master-detail-relationship-between-reports">Add a Master-Detail Relationship between Reports</h2>
+<p>Define a master-detail relationship between <em>Category</em> and <em>Product</em> reports within a single project:</p>
+<ul>
+<li>Select the XRControl's element (<strong>Table Cell</strong> in this example) in the main report.</li>
+<li>Set its <strong>Action</strong> property to <strong>Navigate to Report</strong>.</li>
+<li>Assign the <strong>Report Source URL</strong> property to a detail report instance.</li>
+</ul>
+<p><img src="../../../images/web-specify-navigate-to-report-action.png" alt="Specify the Navigate to Report action"></p>
+<p>If you switch to <strong>Preview</strong>, you can click on a <em>Category</em> value in the table. The <strong>Preview</strong> window navigates to the detail report that contains all <em>Product</em> entries. The next step explains how to filter this list.</p>
+<p><img src="../../../images/web-detail-report-navigation.png" alt="Drill-Through report preview"></p>
+<p>You can click &quot;Categories Report&quot; below the Document Viewer toolbar and navigate back to the original report.</p>
+<p><img src="../../../images/web-breadcrumb-control-navigation.png" alt="Breadcrumb navigation"></p>
+<h2 id="specify-parameter-binding-to-display-required-data">Specify Parameter Binding to Display Required Data</h2>
+<p>You can specify parameters during detail report navigation. Use the <strong>Parameter Bindings</strong> property to limit displayed records (such as products) to a selected category.</p>
+<p>Click the <strong>Parameter Bindings</strong> property and select the detail report parameter. Set <strong>Binding</strong> to the data field or parameter of the original report. In this example, <strong>Binding</strong> is set to the <em>CategoryID</em> field.</p>
+<p><img src="../../../images/web-specify-binding.png" alt="Specify Parameter Binding"></p>
+<p>Set the following filter string in the detail report to display product records for the selected category.</p>
+<p><img src="../../../images/web-set-filter-string.png" alt="Set filter string"></p>
+<h2 id="result">Result</h2>
+<p>Switch to <strong>Preview</strong> and click on a category entry in the master report. The <strong>Preview</strong> navigates to the detail report that displays only products related to the selected category.</p>
+<p><img src="../../../images/web-drill-through-result.png" alt="Drill-Through report"></p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/DevExpress/dotnet-eud/blob/2024.2/reporting-for-web/articles/report-designer/provide-interactivity/create-drill-through-reports.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

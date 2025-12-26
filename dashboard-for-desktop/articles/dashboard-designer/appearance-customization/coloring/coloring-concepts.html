@@ -1,0 +1,182 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Coloring Concepts | DevExpress End-User Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Coloring Concepts | DevExpress End-User Documentation ">
+      
+      
+      <link rel="icon" href="../../../../../favicon.ico">
+      <link rel="stylesheet" href="../../../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../../../toc.html">
+      <meta name="docfx:tocrel" content="../../../../toc.html">
+      
+      <meta name="docfx:rel" content="../../../../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/DevExpress/dotnet-eud/blob/2024.2/dashboard-for-desktop/articles/dashboard-designer/appearance-customization/coloring/coloring-concepts.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../../../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+      <!-- Matomo Tag Manager -->
+      <script>
+        var _mtm = window._mtm = window._mtm || [];
+        _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
+      </script>
+      <!-- End Matomo Tag Manager -->
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../../../../index.html">
+            <img id="logo" class="svg" src="../../../../../logo.svg" alt="DevExpress EUD">
+            DevExpress EUD
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="coloring">Coloring</h1>
+
+<p>The Dashboard Designer associates dimension values/measures and specified colors to paint dashboard item elements. This topic describes how to configure color settings in the WinForms Designer.</p>
+<h2 id="coloring-basics">Coloring Basics</h2>
+<p>The following concepts are common to both Desktop and Web Dashboard controls:</p>
+<ul>
+<li>Color Modes</li>
+<li>Color Schemes</li>
+<li>Supported Dashboard Items</li>
+</ul>
+<p>Refer to the following topic for more information about common concepts: <a href="../coloring.html">Coloring Basics</a>.</p>
+<h2 id="color-mode-none">Color Mode: None</h2>
+<p>You can disable default color variation for dashboard item elements.</p>
+<p>If you add a <a href="../../dashboard-item-settings/treemap.html">TreeMap</a> to a dashboard, individual elements (titles) use different colors:</p>
+<p><img src="../../../../images/win-coloring-treemap-default.png" alt="win-coloring-treemap-default"></p>
+<p><em>State</em> values (Arguments) use different colors. To disable color variation, go to the Argument settings and select <strong>Color by | None</strong>.</p>
+<p><img src="../../../../images/win-coloring-treemap-none.png" alt="win-coloring-treemap-none"></p>
+<p>Add a <a href="../../dashboard-item-settings/chart.html">Chart</a> with the same Argument and Value as in the TreeMap:</p>
+<p><img src="../../../../images/win-coloring-treemap-chart-none.png" alt="win-coloring-treemap-chart-none"></p>
+<p>Note that <strong>Default</strong> means <strong>None</strong> for chart arguments.</p>
+<h2 id="color-mode-hue">Color Mode: Hue</h2>
+<p>You can enable colors in previously added Treemap and Chart items.</p>
+<p>Set the TreeMap's color mode to <strong>Default</strong> or <strong>Hue</strong>:</p>
+<p><img src="../../../../images/win-coloring-chart-none-treemap-hue.png" alt="win-coloring-chart-none-treemap-hue"></p>
+<p>In the Chart settings, move <em>State</em> from Arguments to Series. <strong>Default</strong> now means <strong>Hue</strong> in this new context. The coloring indicator (<img src="../../../../images/coloringindicator25453.png" alt="ColoringIndicator">) on the data item shows that color variation by hue is enabled.</p>
+<p><img src="../../../../images/win-coloring-chart-treemap-hue.png" alt="win-coloring-chart-treemap-hue"></p>
+<p>Add <em>Category</em> as a chart argument and switch to 100% Stacked View:</p>
+<p><img src="../../../../images/win-coloring-full-stacked-chart.png" alt="win-coloring-full-stacked-chart"></p>
+<h2 id="use-global-color-scheme">Use Global Color Scheme</h2>
+<p>The same <em>State</em> data items use identical colors. Dashboard constructs a <strong>Global Color Scheme</strong> for this purpose.</p>
+<p>Add a <a href="../../dashboard-item-settings/range-filter.html">Range Filter</a> with the following settings:</p>
+<p><img src="../../../../images/win-coloring-range-filter.png" alt="win-coloring-range-filter"></p>
+<p>Corresponding <em>State</em> fields are painted with the same colors, so you can associate and compare data from all dashboard items. This happens because all items use <strong>Global Colors</strong> (the default setting). You can see the switch to <strong>Global Colors</strong> in the Ribbon. Click <strong>Edit Colors</strong> to modify the colors used in the palette:</p>
+<p><img src="../../../../images/win-coloring-custom-color.png" alt="win-coloring-custom-color"></p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>The dashboard uses the default palette. This palette contains 20 unique colors to paint dimension values/measures. For more information on how to change default colors or create a new color table, refer to the following help topic: <a href="customizing-a-color-scheme.html">Customizing a Color Scheme</a>.</p>
+</div>
+<p>This is how the Dashboard appears after you change the color for <em>Georgia</em> in the palette:</p>
+<p><img src="../../../../images/win-dashboard-with-global-color-scheme.png" alt="win-dashboard-with-global-color-scheme"></p>
+<h2 id="use-local-color-scheme">Use Local Color Scheme</h2>
+<p>If you want to use an independent set of colors in the selected dashboard item, switch to the <strong>Local Color Scheme</strong>.</p>
+<p>You can see the Treemap's arguments that use colors from the <strong>Local Color Scheme</strong>:</p>
+<p><img src="../../../../images/win-coloring-treemap-local-color-scheme.png" alt="win-coloring-treemap-local-color-scheme"></p>
+<p>Colors modified in the local color scheme do not affect items that use the global color scheme. The following image shows a custom color for <em>Georgia</em> in the Treemap:</p>
+<p><img src="../../../../images/win-coloring-treemap-local-color-scheme-custom-color.png" alt="win-coloring-treemap-local-color-scheme-custom-color"></p>
+<h2 id="dashboard-item-color-mode-specifics">Dashboard Item Color Mode Specifics</h2>
+<ul>
+<li><a href="../../dashboard-item-settings/chart/coloring.html">Chart - Coloring</a></li>
+<li><a href="../../dashboard-item-settings/scatter-chart/coloring.html">Scatter Chart - Coloring</a></li>
+<li><a href="../../dashboard-item-settings/pies/coloring.html">Pie - Coloring</a></li>
+<li><a href="../../dashboard-item-settings/geo-point-maps/pie-map/coloring.html">Pie Map - Coloring</a></li>
+<li><a href="../../dashboard-item-settings/range-filter/coloring.html">Range Filter - Coloring</a></li>
+<li><a href="../../dashboard-item-settings/treemap/coloring.html">Treemap - Coloring</a></li>
+</ul>
+<h2 id="how-to-customize-a-color-scheme">How to Customize a Color Scheme</h2>
+<p>Refer to the following topic for more information on how to customize a color scheme:</p>
+<ul>
+<li><a href="customizing-a-color-scheme.html">Customizing a Color Scheme</a></li>
+</ul>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/DevExpress/dotnet-eud/blob/2024.2/dashboard-for-desktop/articles/dashboard-designer/appearance-customization/coloring/coloring-concepts.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

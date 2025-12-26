@@ -1,0 +1,1314 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Expression Operators, Functions and Constants | DevExpress End-User Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Expression Operators, Functions and Constants | DevExpress End-User Documentation ">
+      
+      
+      <link rel="icon" href="../../../favicon.ico">
+      <link rel="stylesheet" href="../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../toc.html">
+      <meta name="docfx:tocrel" content="../../toc.html">
+      
+      <meta name="docfx:rel" content="../../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/DevExpress/dotnet-eud/blob/2024.2/interface-elements-for-desktop/articles/expression-editor/expression-operators-functions-and-constants.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+      <!-- Matomo Tag Manager -->
+      <script>
+        var _mtm = window._mtm = window._mtm || [];
+        _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
+      </script>
+      <!-- End Matomo Tag Manager -->
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../../index.html">
+            <img id="logo" class="svg" src="../../../logo.svg" alt="DevExpress EUD">
+            DevExpress EUD
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="expression-operators-functions-and-constants">Expression Operators, Functions and Constants</h1>
+
+<p>This topic lists operators and functions supported by the <a href="../expression-editor.html">Expression Editor</a>. It also provides information on how constants can be specified in expressions.</p>
+<p>The following DevExpress products extend and/or override this syntax. The table below lists the articles that explain how to use expressions in these products.</p>
+<table>
+<thead>
+<tr>
+<th>Product</th>
+<th>Article</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Reporting</td>
+<td><a href="../../../reporting-for-desktop/articles/report-designer/report-designer-for-winforms/use-expressions/expression-language.html">Expression Constants, Operators, and Functions</a></td>
+</tr>
+<tr>
+<td>Pivot Grid</td>
+<td><a href="../pivot-table/data-editing/pivot-grid-expression-syntax.html">Pivot Grid Expression Syntax</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="operators">Operators</h2>
+<table>
+<thead>
+<tr>
+<th>Operator</th>
+<th>Description</th>
+<th>Example</th>
+<th>XLS(x) Format Export-Friendly <a href="#note---restrictions">*See Note</a></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>+</td>
+<td>Adds the value of one numeric expression to another, or concatenates two strings.</td>
+<td>[FirstName] + ' ' + [LastName];  [UnitPrice] + 4</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>-</td>
+<td>Finds the difference between two numbers.</td>
+<td>[Price1] - [Price2]</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>*</td>
+<td>Multiplies the value of two expressions.</td>
+<td>[Quantity] * [UnitPrice] * (1 - [BonusAmount])</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>/</td>
+<td>Divides the first operand by the second.</td>
+<td>[Quantity] / 2</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>%</td>
+<td>Returns the remainder (modulus) obtained by dividing one numeric expression into another.</td>
+<td>[Quantity] % 3</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>|</td>
+<td>Compares each bit of its first operand to the corresponding bit of its second operand. If either bit is 1, the corresponding result bit is set to 1. Otherwise, the corresponding result bit is set to 0.</td>
+<td>[Number] | [Number]</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>&amp;</td>
+<td>Performs a bitwise logical AND operation between two integer values.</td>
+<td>[Number] &amp; 10</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>^</td>
+<td>Performs a logical exclusion on two Boolean expressions, or a bitwise exclusion on two numeric expressions.</td>
+<td>[Number1] ^ [Number2]</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>== (as well as =)</td>
+<td>Returns true if both operands have the same value; otherwise, it returns false.</td>
+<td>[Quantity] == 10 (as well as [ID] = 11)</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>!=</td>
+<td>Returns true if the operands do not have the same value; otherwise, it returns false.</td>
+<td>[Country] != 'France'</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>&lt;</td>
+<td>Less than operator. Used to compare expressions.</td>
+<td>[UnitPrice] &lt; 20</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>&lt;=</td>
+<td>Less than or equal to operator. Used to compare expressions.</td>
+<td>[UnitPrice] &lt;= 20</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>&gt;=</td>
+<td>Greater than or equal to operator. Used to compare expressions.</td>
+<td>[UnitPrice] &gt; 30</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>&gt;</td>
+<td>Greater than operator. Used to compare expressions.</td>
+<td>[UnitPrice] &gt;= 30</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>In (,,,)</td>
+<td>Tests for the existence of a property in an object.</td>
+<td>[Country] In ('USA', 'UK', 'Italy')</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Like</td>
+<td>Compares a string against a pattern. If the value of the string matches the pattern, result is true. If the string does not match the pattern, result is false. If both string and pattern are empty strings, the result is true.</td>
+<td>[Name] Like 'An%'</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Between (,)</td>
+<td>Specifies a range to test. Returns true if a value is greater than or equal to the first operand and less than or equal to the second operand.</td>
+<td>[Quantity] Between (10, 20)</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>And</td>
+<td>Performs a logical conjunction on two expressions.</td>
+<td>[InStock] And ([ExtendedPrice]&gt; 100)</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Or</td>
+<td>Performs a logical disjunction on two Boolean expressions.</td>
+<td>[Country]=='USA' Or [Country]=='UK'</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Not</td>
+<td>Performs logical negation on an expression.</td>
+<td>Not [InStock]</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>+</td>
+<td>Returns a numeric expression's value (a unary operator).</td>
+<td>+[Value] = 10</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>-</td>
+<td>Returns the negative of a numeric expression's value (a unary operator).</td>
+<td>-[Value] = 20</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>~</td>
+<td>Performs a bitwise negation on a numeric expression.</td>
+<td>~[Roles] = 251</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Is null</td>
+<td>Returns true if an expression is a null reference, the one that does not refer to any object.</td>
+<td>[Region] is null</td>
+<td>yes</td>
+</tr>
+</tbody>
+</table>
+<h2 id="functions">Functions</h2>
+<p><strong>Aggregate Functions</strong></p>
+<table>
+<thead>
+<tr>
+<th>Function</th>
+<th>Description</th>
+<th>Example</th>
+<th>XLS(x) Format Export-Friendly <a href="#note---restrictions">*See Note</a></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Avg(Value)</td>
+<td>Evaluates the average of the values in the collection.</td>
+<td>[Products].Avg([UnitPrice])</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Count()</td>
+<td>Returns the number of objects in a collection.</td>
+<td>[Products].Count()</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Exists()</td>
+<td>Determines whether the object exists in the collection.</td>
+<td>[Categories][[CategoryID] == 7].Exists()</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Max(Value)</td>
+<td>Returns the maximum expression value in a collection.</td>
+<td>[Products].Max([UnitPrice])</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Min(Value)</td>
+<td>Returns the minimum expression value in a collection.</td>
+<td>[Products].Min([UnitPrice])</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Single()</td>
+<td>Returns a single object from a collection that contains no more than one object. If the collection contains more objects, use the Condition property to specify a condition. The collection must contain only one object that satisfies the condition; otherwise, the function's behavior  is undefined (the function may return an unexpected value or throw an exception). You can pass an expression as a parameter: <em>[Collection][Condition].Single(Expression)</em>. The function returns the Expression value evaluated on an object that meets the specified <em>Condition (optional)</em>.</td>
+<td>[Accounts].Single() is not null [Collection].Single([Property1]) - returns the found object's property value.</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Sum(Value)</td>
+<td>Returns the sum of all the expression values in the collection.</td>
+<td>[Products].Sum([UnitsInStock])</td>
+<td>-</td>
+</tr>
+<tr>
+<td>A custom aggregate function</td>
+<td>Returns a custom expression value for a collection, according to a custom aggregate function. You can call the function directly or pass it as a parameter.</td>
+<td>Call a Custom Aggregate Function</td>
+<td>-</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Date-time Functions</strong></p>
+<table>
+<thead>
+<tr>
+<th>Function</th>
+<th>Description</th>
+<th>Example</th>
+<th>XLS(x) Format Export-Friendly <a href="#note---restrictions">*See Note</a></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>AddDays(DateTime, DaysCount)</td>
+<td>Returns a date-time value that is the specified number of days away from the specified DateTime.</td>
+<td>AddDays([OrderDate], 30)</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>AddHours(DateTime, HoursCount)</td>
+<td>Returns a date-time value that is the specified number of hours away from the specified DateTime.</td>
+<td>AddHours([StartTime], 2)</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>AddMilliSeconds(DateTime, MilliSecondsCount)</td>
+<td>Returns a date-time value that is the specified number of milliseconds away from the specified DateTime.</td>
+<td>AddMilliSeconds(([StartTime], 5000))</td>
+<td>-</td>
+</tr>
+<tr>
+<td>AddMinutes(DateTime, MinutesCount)</td>
+<td>Returns a date-time value that is the specified number of minutes away from the specified DateTime.</td>
+<td>AddMinutes([StartTime], 30)</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>AddMonths(DateTime, MonthsCount)</td>
+<td>Returns a date-time value that is the specified number of months away from the specified DateTime.</td>
+<td>AddMonths([OrderDate], 1)</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>AddSeconds(DateTime, SecondsCount)</td>
+<td>Returns a date-time value that is the specified number of seconds away from the specified DateTime.</td>
+<td>AddSeconds([StartTime], 60)</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>AddTicks(DateTime, TicksCount)</td>
+<td>Returns a date-time value that is the specified number of ticks away from the specified DateTime.</td>
+<td>AddTicks([StartTime], 5000)</td>
+<td>-</td>
+</tr>
+<tr>
+<td>AddTimeSpan(DateTime, TimeSpan)</td>
+<td>Returns a date-time value that is away from the specified DateTime for the given TimeSpan.</td>
+<td>AddTimeSpan([StartTime], [Duration])</td>
+<td>-</td>
+</tr>
+<tr>
+<td>AddYears(DateTime, YearsCount)</td>
+<td>Returns a date-time value that is the specified number of years away from the specieid DateTime.</td>
+<td>AddYears([EndDate], -1)</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>DateDiffDay(startDate, endDate)</td>
+<td>Returns the number of day boundaries between two non-nullable dates.</td>
+<td>DateDiffDay([StartTime], Now())</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>DateDiffHour(startDate, endDate)</td>
+<td>Returns the number of hour boundaries between two non-nullable dates.</td>
+<td>DateDiffHour([StartTime], Now())</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>DateDiffMilliSecond(startDate, endDate)</td>
+<td>Returns the number of millisecond boundaries between two non-nullable dates.</td>
+<td>DateDiffMilliSecond([StartTime], Now())</td>
+<td>-</td>
+</tr>
+<tr>
+<td>DateDiffMinute(startDate, endDate)</td>
+<td>Returns the number of minute boundaries between two non-nullable dates.</td>
+<td>DateDiffMinute([StartTime], Now())</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>DateDiffMonth(startDate, endDate)</td>
+<td>Returns the number of month boundaries between two non-nullable dates.</td>
+<td>DateDiffMonth([StartTime], Now())</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>DateDiffSecond(startDate, endDate)</td>
+<td>Returns the number of second boundaries between two non-nullable dates.</td>
+<td>DateDiffSecond([StartTime], Now())</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>DateDiffTick(startDate, endDate)</td>
+<td>Returns the number of tick boundaries between two non-nullable dates.</td>
+<td>DateDiffTick([StartTime], Now())</td>
+<td>-</td>
+</tr>
+<tr>
+<td>DateDiffYear(startDate, endDate)</td>
+<td>Returns the number of year boundaries between two non-nullable dates.</td>
+<td>DateDiffYear([StartTime], Now())</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>GetDate(DateTime)</td>
+<td>Extracts a date from the defined DateTime.</td>
+<td>GetDate([OrderDateTime])</td>
+<td></td>
+</tr>
+<tr>
+<td>GetDay(DateTime)</td>
+<td>Extracts a day from the defined DateTime.</td>
+<td>GetDay([OrderDate])</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>GetDayOfWeek(DateTime)</td>
+<td>Extracts a day of the week from the defined DateTime.</td>
+<td>GetDayOfWeek([OrderDate])</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>GetDayOfYear(DateTime)</td>
+<td>Extracts a day of the year from the defined DateTime.</td>
+<td>GetDayOfYear([OrderDate])</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>GetHour(DateTime)</td>
+<td>Extracts an hour from the defined DateTime.</td>
+<td>GetHour([StartTime])</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>GetMilliSecond(DateTime)</td>
+<td>Extracts milliseconds from the defined DateTime.</td>
+<td>GetMilliSecond([StartTime])</td>
+<td>-</td>
+</tr>
+<tr>
+<td>GetMinute(DateTime)</td>
+<td>Extracts minutes from the defined DateTime.</td>
+<td>GetMinute([StartTime])</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>GetMonth(DateTime)</td>
+<td>Extracts a month from the defined DateTime.</td>
+<td>GetMonth([StartTime])</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>GetSecond(DateTime)</td>
+<td>Extracts seconds from the defined DateTime.</td>
+<td>GetSecond([StartTime])</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>GetTimeOfDay(DateTime)</td>
+<td>Extracts the time of the day from the defined DateTime, in ticks.</td>
+<td>GetTimeOfDay([StartTime])</td>
+<td>-</td>
+</tr>
+<tr>
+<td>GetYear(DateTime)</td>
+<td>Extracts a year from the defined DateTime.</td>
+<td>GetYear([StartTime])</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>IsApril(DateTime)</td>
+<td>Returns True if the specified date falls within April.</td>
+<td>IsApril([OrderDate])</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>IsAugust(DateTime)</td>
+<td>Returns True if the specified date falls within August.</td>
+<td>IsAugust([OrderDate])</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>IsDecember(DateTime)</td>
+<td>Returns True if the specified date falls within December.</td>
+<td>IsDecember([OrderDate])</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>IsFebruary(DateTime)</td>
+<td>Returns True if the specified date falls within February.</td>
+<td>IsFebruary([OrderDate])</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>IsJanuary(DateTime)</td>
+<td>Returns True if the specified date falls within January.</td>
+<td>IsJanuary([OrderDate])</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>IsJuly(DateTime)</td>
+<td>Returns True if the specified date falls within July.</td>
+<td>IsJuly([OrderDate])</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>IsJune(DateTime)</td>
+<td>Returns True if the specified date falls within June.</td>
+<td>IsJune([OrderDate])</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>IsLastMonth(DateTime)</td>
+<td>Returns True if the specified date falls within the previous month.</td>
+<td>IsLastMonth([OrderDate])</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>IsLastYear(DateTime)</td>
+<td>Returns True if the specified date falls within the previous year.</td>
+<td>IsLastYear([OrderDate])</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>IsMarch(DateTime)</td>
+<td>Returns True if the specified date falls within March.</td>
+<td>IsMarch([OrderDate])</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>IsMay(DateTime)</td>
+<td>Returns True if the specified date falls within May.</td>
+<td>IsMay([OrderDate])</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>IsNextMonth(DateTime)</td>
+<td>Returns True if the specified date falls within the next month.</td>
+<td>IsNextMonth([OrderDate])</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>IsNextYear(DateTime)</td>
+<td>Returns True if the specified date falls within the next year.</td>
+<td>IsNextYear([OrderDate])</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>IsNovember(DateTime)</td>
+<td>Returns True if the specified date falls within November.</td>
+<td>IsNovember([OrderDate])</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>IsOctober(DateTime)</td>
+<td>Returns True if the specified date falls within October.</td>
+<td>IsOctober([OrderDate])</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>IsSameDay(DateTime)</td>
+<td>Returns True if the specified date/time values fall within the same day.</td>
+<td>IsSameDay([OrderDate])</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>IsSeptember(DateTime)</td>
+<td>Returns True if the specified date falls within September.</td>
+<td>IsSeptember([OrderDate])</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>IsThisMonth(DateTime)</td>
+<td>Returns True if the specified date falls within the current month.</td>
+<td>IsThisMonth([OrderDate])</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>IsThisWeek(DateTime)</td>
+<td>Returns True if the specified date falls within the current week.</td>
+<td>IsThisWeek([OrderDate])</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>IsYearToDate(DateTime)</td>
+<td>Returns True if the specified date falls within the year-to-date period. This period starts from the first day of the current year and continues to the current date (including the current date).</td>
+<td>IsYearToDate([OrderDate])</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>IsThisYear(DateTime)</td>
+<td>Returns True if the specified date falls within the current year.</td>
+<td>IsThisYear([OrderDate])</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>LocalDateTimeDayAfterTomorrow()</td>
+<td>Returns a date-time value corresponding to the day after Tomorrow.</td>
+<td>AddDays(LocalDateTimeDayAfterTomorrow(), 5)</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>LocalDateTimeLastMonth()</td>
+<td>Returns the DateTime value corresponding to the first day of the previous month.</td>
+<td>AddMonths(LocalDateTimeLastMonth(), 5)</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>LocalDateTimeLastWeek()</td>
+<td>Returns a date-time value corresponding to the first day of the previous week.</td>
+<td>AddDays(LocalDateTimeLastWeek(), 5)</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>LocalDateTimeLastYear()</td>
+<td>Returns the DateTime value corresponding to the first day of the previous year.</td>
+<td>AddYears(LocalDateTimeLastYear(), 5)</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>LocalDateTimeNextMonth()</td>
+<td>Returns a date-time value corresponding to the first day of the next month.</td>
+<td>AddMonths(LocalDateTimeNextMonth(), 5)</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>LocalDateTimeNextWeek()</td>
+<td>Returns a date-time value corresponding to the first day of the following week.</td>
+<td>AddDays(LocalDateTimeNextWeek(), 5)</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>LocalDateTimeNextYear()</td>
+<td>Returns a date-time value corresponding to the first day of the following year.</td>
+<td>AddYears(LocalDateTimeNextYear(), 5)</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>LocalDateTimeNow()</td>
+<td>Returns a date-time value corresponding to the current moment in time.</td>
+<td>AddDays(LocalDateTimeNow(), 5)</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>LocalDateTimeThisMonth()</td>
+<td>Returns a date-time value corresponding to the first day of the current month.</td>
+<td>AddMonths(LocalDateTimeThisMonth(), 5)</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>LocalDateTimeThisWeek()</td>
+<td>Returns a date-time value corresponding to the first day of the current week.</td>
+<td>AddDays(LocalDateTimeThisWeek(), 5)</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>LocalDateTimeThisYear()</td>
+<td>Returns a date-time value corresponding to the first day of the current year.</td>
+<td>AddYears(LocalDateTimeThisYear(), 5)</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>LocalDateTimeToday()</td>
+<td>Returns a date-time value corresponding to Today.</td>
+<td>AddDays(LocalDateTimeToday(), 5)</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>LocalDateTimeTomorrow()</td>
+<td>Returns a date-time value corresponding to Tomorrow.</td>
+<td>AddDays(LocalDateTimeTomorrow(), 5)</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>LocalDateTimeTwoMonthsAway()</td>
+<td>Returns the DateTime value corresponding to the first day of the following month.</td>
+<td>AddMonths(LocalDateTimeTwoMonthAway(), 5)</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>LocalDateTimeTwoWeeksAway()</td>
+<td>Returns the DateTime value corresponding to the first day of the following week.</td>
+<td>AddDays(LocalDateTimeTwoWeeksAway(), 5)</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>LocalDateTimeTwoYearsAway()</td>
+<td>Returns the DateTime value corresponding to the first day of the following year.</td>
+<td>AddYears(LocalDateTimeTwoYearsAway(), 5)</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>LocalDateTimeYearBeforeToday()</td>
+<td>Returns the DateTime value corresponding to the day one year ago.</td>
+<td>AddYears(LocalDateTimeYearBeforeToday(), 5)</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>LocalDateTimeYesterday()</td>
+<td>Returns a date-time value corresponding to Yesterday.</td>
+<td>AddDays(LocalDateTimeYesterday(), 5)</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Now()</td>
+<td>Returns the current system date and time.</td>
+<td>AddDays(Now(), 5)</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Today()</td>
+<td>Returns the current date. Regardless of the actual time, this function returns midnight of the current date.</td>
+<td>AddMonths(Today(), 1)</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>UtcNow()</td>
+<td>Returns the current system date and time, expressed as Coordinated Universal Time (UTC).</td>
+<td>AddDays(UtcNow(), 7)</td>
+<td>-</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Logical Functions</strong></p>
+<table>
+<thead>
+<tr>
+<th>Function</th>
+<th>Description</th>
+<th>Example</th>
+<th>XLS(x) Format Export-Friendly <a href="#note---restrictions">*See Note</a></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Iif(Expression1, True_Value1, ..., ExpressionN, True_ValueN, False_Value)</td>
+<td>Returns one of several specified values depending upon the values of logical expressions. The function can take 2N+1 arguments (N - the number of specified logical expressions): each odd argument specifies a logical expression; each even argument specifies the value that is returned if the previous expression evaluates to true.</td>
+<td>Iif(Name = 'Bob', 1, 0) Iif(Name = 'Bob', 1, Name = 'Dan', 2, Name = 'Sam', 3, 0)</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>IsNull(Value)</td>
+<td>Returns True if the specified Value is NULL.</td>
+<td>IsNull([OrderDate])</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>IsNull(Value1, Value2)</td>
+<td>Returns Value1 if it is not set to NULL; otherwise, Value2 is returned.</td>
+<td>IsNull([ShipDate], [RequiredDate])</td>
+<td>-</td>
+</tr>
+<tr>
+<td>IsNullOrEmpty(String)</td>
+<td>Returns True if the specified String object is NULL or an empty string; otherwise, False is returned.</td>
+<td>IsNullOrEmpty([ProductName])</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Math Functions</strong></p>
+<table>
+<thead>
+<tr>
+<th>Function</th>
+<th>Description</th>
+<th>Example</th>
+<th>XLS(x) Format Export-Friendly <a href="#note---restrictions">*See Note</a></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Abs(Value)</td>
+<td>Returns the absolute, positive value of the given numeric expression.</td>
+<td>Abs(1 - [Discount])</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Acos(Value)</td>
+<td>Returns the arccosine of a number (the angle, in radians, whose cosine is the given float expression).</td>
+<td>Acos([Value])</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Asin(Value)</td>
+<td>Returns the arcsine of a number (the angle, in radians, whose sine is the given float expression).</td>
+<td>Asin([Value])</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Atn(Value)</td>
+<td>Returns the arctangent of a number (the angle, in radians, whose tangent is the given float expression).</td>
+<td>Atn([Value])</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Atn2(Value1, Value2)</td>
+<td>Returns the angle whose tangent is the quotient of two specified numbers, in radians.</td>
+<td>Atn2([Value1], [Value2])</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>BigMul(Value1, Value2)</td>
+<td>Returns an Int64 containing the full product of two specified 32-bit numbers.</td>
+<td>BigMul([Amount], [Quantity])</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Ceiling(Value)</td>
+<td>Returns the smallest integer that is greater than or equal to the given numeric expression.</td>
+<td>Ceiling([Value])</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Cos(Value)</td>
+<td>Returns the cosine of the angle defined in radians.</td>
+<td>Cos([Value])</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Cosh(Value)</td>
+<td>Returns the hyperbolic cosine of the angle defined in radians.</td>
+<td>Cosh([Value])</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Exp(Value)</td>
+<td>Returns the exponential value of the given float expression.</td>
+<td>Exp([Value])</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Floor(Value)</td>
+<td>Returns the largest integer less than or equal to the given numeric expression.</td>
+<td>Floor([Value])</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Log(Value)</td>
+<td>Returns the natural logarithm of a specified number.</td>
+<td>Log([Value])</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Log(Value, Base)</td>
+<td>Returns the logarithm of a specified number in a specified Base.</td>
+<td>Log([Value], 2)</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Log10(Value)</td>
+<td>Returns the base 10 logarithm of a specified number.</td>
+<td>Log10([Value])</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Max(Value1, Value2)</td>
+<td>Returns the maximum value from the specified values.</td>
+<td>Max([Value1], [Value2])</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Min(Value1, Value2)</td>
+<td>Returns the minimum value from the specified values.</td>
+<td>Min([Value1], [Value2])</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Power(Value, Power)</td>
+<td>Returns a specified number raised to a specified power.</td>
+<td>Power([Value], 3)</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Rnd()</td>
+<td>Returns a random number that is less than 1, but greater than or equal to zero.</td>
+<td>Rnd()*100</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Round(Value)</td>
+<td>Rounds the given value to the nearest integer.</td>
+<td>Round([Value])</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Sign(Value)</td>
+<td>Returns the positive (+1), zero (0), or negative (-1) sign of the given expression.</td>
+<td>Sign([Value])</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Sin(Value)</td>
+<td>Returns the sine of the angle, defined in radians.</td>
+<td>Sin([Value])</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Sinh(Value)</td>
+<td>Returns the hyperbolic sine of the angle defined in radians.</td>
+<td>Sinh([Value])</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Sqr(Value)</td>
+<td>Returns the square root of a given number.</td>
+<td>Sqr([Value])</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Tan(Value)</td>
+<td>Returns the tangent of the angle defined in radians.</td>
+<td>Tan([Value])</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Tanh(Value)</td>
+<td>Returns the hyperbolic tangent of the angle defined in radians.</td>
+<td>Tanh([Value])</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>ToDecimal(Value)</td>
+<td>Converts Value to an equivalent decimal number.</td>
+<td>ToDecimal([Value])</td>
+<td>-</td>
+</tr>
+<tr>
+<td>ToDouble(Value)</td>
+<td>Converts Value to an equivalent 64-bit double-precision floating-point number.</td>
+<td>ToDouble([Value])</td>
+<td>-</td>
+</tr>
+<tr>
+<td>ToFloat(Value)</td>
+<td>Converts Value to an equivalent 32-bit single-precision floating-point number.</td>
+<td>ToFloat([Value])</td>
+<td>-</td>
+</tr>
+<tr>
+<td>ToInt(Value)</td>
+<td>Converts Value to an equivalent 32-bit signed integer.</td>
+<td>ToInt([Value])</td>
+<td>-</td>
+</tr>
+<tr>
+<td>ToLong(Value)</td>
+<td>Converts Value to an equivalent 64-bit signed integer.</td>
+<td>ToLong([Value])</td>
+<td>-</td>
+</tr>
+</tbody>
+</table>
+<p><strong>String Functions</strong></p>
+<table>
+<thead>
+<tr>
+<th>Function</th>
+<th>Description</th>
+<th>Example</th>
+<th>XLS(x) Format Export-Friendly <a href="#note---restrictions">*See Note</a></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ascii(String)</td>
+<td>Returns the ASCII code value of the leftmost character in a character expression.</td>
+<td>Ascii('a')</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Char(Number)</td>
+<td>Converts an integerASCIICode to a character.</td>
+<td>Char(65) + Char(51)</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>CharIndex(String1, String2)</td>
+<td>Returns the starting position of String1 within String2, beginning from the zero character position to the end of a string.</td>
+<td>CharIndex('e', 'devexpress')</td>
+<td>-</td>
+</tr>
+<tr>
+<td>CharIndex(String1, String2, StartLocation)</td>
+<td>Returns the starting position of String1 within String2, beginning from the StartLocation character position to the end of a string.</td>
+<td>CharIndex('e', 'devexpress', 2)</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Concat(String1, ... , StringN)</td>
+<td>Returns the result of concatenating two or more string values.</td>
+<td>Concat('A', ')', [ProductName])</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Contains(String1, SubString1)</td>
+<td>Returns True if SubString1 occurs within String1; otherwise, False is returned.</td>
+<td>Contains([ProductName], 'dairy')</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>EndsWith(String1, SubString1)</td>
+<td>Returns True if the end of String1 matches SubString1; otherwise, False is returned.</td>
+<td>EndsWith([Description], 'The end.')</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Insert(String1, StartPosition, String2)</td>
+<td>Inserts String2 into String1 at the position specified by StartPositon</td>
+<td>Insert([Name], 0, 'ABC-')</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Len(Value)</td>
+<td>Returns an integer containing either the number of characters in a string or the nominal number of bytes required to store a variable.</td>
+<td>Len([Description])</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Lower(String)</td>
+<td>Returns String in lowercase.</td>
+<td>Lower([ProductName])</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>PadLeft(String, Length)</td>
+<td>Left-aligns characters in the defined string, padding its left side with white space characters up to a specified total length.</td>
+<td></td>
+<td>-</td>
+</tr>
+<tr>
+<td>PadLeft(String, Length, Char)</td>
+<td>Left-aligns characters in the defined string, padding its left side with the specified Char up to a specified total length.</td>
+<td>PadLeft([Name], 30, '&lt;')</td>
+<td>-</td>
+</tr>
+<tr>
+<td>PadRight(String, Length)</td>
+<td>Right-aligns characters in the defined string, padding its left side with white space characters up to a specified total length.</td>
+<td>PadRight([Name], 30)</td>
+<td>-</td>
+</tr>
+<tr>
+<td>PadRight(String, Length, Char)</td>
+<td>Right-aligns characters in the defined string, padding its left side with the specified Char up to a specified total length.</td>
+<td>PadRight([Name], 30, '&gt;')</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Remove(String, StartPosition, Length)</td>
+<td>Deletes a specified number of characters from this instance, beginning at a specified position.</td>
+<td>Remove([Name], 0, 3)</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Replace(String, SubString2, String3)</td>
+<td>Returns a copy of String1, in which SubString2 has been replaced with String3.</td>
+<td>Replace([Name], 'The ', '')</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Reverse(String)</td>
+<td>Reverses the order of elements within String.</td>
+<td>Reverse([Name])</td>
+<td>-</td>
+</tr>
+<tr>
+<td>StartsWith(String1, SubString1)</td>
+<td>Returns True if the beginning of String1 matches SubString1; otherwise, False.</td>
+<td>StartsWith([Title], 'The best')</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Substring(String, StartPosition, Length)</td>
+<td>Retrieves a substring from String. The substring starts at StartPosition and has the specified Length..</td>
+<td>Substring([Description], 2, 3)</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Substring(String, StartPosition)</td>
+<td>Retrieves a substring from String. The substring starts at StartPosition.</td>
+<td>Substring([Description], 2)</td>
+<td>-</td>
+</tr>
+<tr>
+<td>ToStr(Value)</td>
+<td>Returns a string representation of an object.</td>
+<td>ToStr([ID])</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Trim(String)</td>
+<td>Removes all leading and trailing SPACE characters from String.</td>
+<td>Trim([ProductName])</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Upper(String)</td>
+<td>Returns String in uppercase.</td>
+<td>Upper([ProductName])</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+<h2 id="constants">Constants</h2>
+<table>
+<thead>
+<tr>
+<th>Constant</th>
+<th>Description</th>
+<th>Example</th>
+<th>XLS(x) Format Export-Friendly <a href="#note---restrictions">*See Note</a></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>String constants</td>
+<td>String constants must be wrapped in apostrophes.</td>
+<td>[Country] == 'France'</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>String constants (with apostrophe)</td>
+<td>If a string contains an apostrophe, the apostrophe must be doubled.</td>
+<td>[Name] == 'O''Neil'</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Date-time constants</td>
+<td>Date-time constants must be wrapped in '#'.</td>
+<td>[OrderDate] &gt;= #1/1/2009#</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>True</td>
+<td>Represents the Boolean True value.</td>
+<td>[InStock] == True</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>False</td>
+<td>Represents the Boolean False value.</td>
+<td>[InStock] == False</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>?</td>
+<td>Represents a null reference that does not refer to any object. We recommend using the IsNull unary operator (for example, &quot;[Region] is null&quot;) or the IsNull logical function (for example, &quot;IsNull([Region])&quot;) instead.</td>
+<td>[Region] != ?</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Enumeration</td>
+<td>Specify an enumeration value using its underlying integer value.</td>
+<td>[Status] == 1</td>
+<td></td>
+</tr>
+<tr>
+<td>Guid</td>
+<td>Wrap a Guid constant in curly braces. Use Guid constants in a relational operation with equality or inequality operators only.</td>
+<td>[OrderID] == {513724e5-17b7-4ec6-abc4-0eae12c72c1f}</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Numeric</td>
+<td>Specify different numeric constant types in a string form using suffixes: <br> * Int32 (int)  - <em>1</em> <br> * Int16 (short) - <em>1s</em> <br> * Byte (byte) - <em>1b</em>  <br>  * Double (double) - <em>1.0</em> <br> * Single (float) - <em>1.0f</em> <br>  * Decimal (decimal) - <em>1.0m</em> <br></td>
+<td>[Price] == 25.0m</td>
+<td>Yes</td>
+</tr>
+</tbody>
+</table>
+<p>You can build parameterized criteria using any number of positional parameters. To do this, add parameter placeholders (question mark characters) to a criteria expression to identify parameter positions and provide a list of parameter values. When building criteria, parameter placeholders are substituted with parameter values in values in the order they are listed.</p>
+<p><em>CriteriaOperator.Parse(&quot;[Name] == ? and [Age] == ?&quot;, &quot;John&quot;, 33)</em></p>
+<p>The following two examples are identical, but the second one allows you to avoid formatting errors.</p>
+<p><em>CriteriaOperator.Parse(&quot;[OrderDate] &gt;= #1/1/2009#&quot;)</em></p>
+<p><em>CriteriaOperator.Parse(&quot;[OrderDate] &gt;= ?&quot;, new DateTime(2009, 1, 1))</em></p>
+<p>When parameters are not specified, a parameter placeholder is substituted with null.</p>
+<p><em>CriteriaOperator.Parse(&quot;[Region] != ?&quot;)</em></p>
+<h2 id="collection-elements-verification">Collection Elements Verification</h2>
+<p>Use brackets &quot;[]&quot; to check if a collection contains an element that satisfies a condition. The following expression returns true if the Accounts collection contains at least one element that satisfies the <em>[Amount] == 100</em> condition:</p>
+<p><em>[Accounts][[Amount] == 100]</em></p>
+<p>The following expression returns false if the Accounts collection is empty:</p>
+<p><em>[Accounts][]</em></p>
+<h2 id="parent-relating-operator">Parent Relating Operator</h2>
+<p>Use the parent relating operator ('^' character) to refer to a parent in expressions written in the context of a child. You can apply this operator successively to navigate multiple parent relationships. In the expression below, the &quot;RegistrationDate&quot; field refers to a Customer (Orders' parent) and the &quot;Date&quot; field refers to Orders. This expression returns true if there is at least one Order that is made on the day the parent Customer is registered:</p>
+<p><em>&quot;[Orders][[^.RegistrationDate] == Date]&quot;</em></p>
+<h2 id="grouping-clauses-with-brackets">Grouping Clauses with Brackets</h2>
+<p>It is important to use brackets to ensure that your expression returns the intended results.
+For instance, the following expression for objects of the Customer type returns all of the Customers where an Account exists with a Date of 8/25/2006 and where an account exists with an Amount of 100:</p>
+<p><em>[Accounts][[Date] == #8/25/2006#] &amp;&amp; [Accounts][[Amount] == 100]</em></p>
+<p>Construct the expression as in the following example to search for all Customers that have an Account with both a Date of 8/25/2006 and an Amount of 100:</p>
+<p><em>[Accounts][[Date] == #8/25/2006# &amp;&amp; [Amount] == 100]</em></p>
+<h2 id="operator-precedence">Operator Precedence</h2>
+<p>When an expression contains multiple operators, their precedence controls the order in which expression elements are evaluated.</p>
+<ul>
+<li>Literal values</li>
+<li>Parameters</li>
+<li>Identifiers</li>
+<li>OR (left-associative)</li>
+<li>AND (left-associative)</li>
+<li>'.' relationship qualifier (left-associative)</li>
+<li>==, !=</li>
+<li>&lt;, &gt;, &lt;=, &gt;=</li>
+<li>-, + (left-associative)</li>
+<li>*, /, % (left-associative)</li>
+<li>NOT</li>
+<li>unary -</li>
+<li>In</li>
+<li>Iif</li>
+<li>Trim(), Len(), Substring(), IsNull()</li>
+<li>'[]' (for set-restriction)</li>
+<li>'()'</li>
+</ul>
+<p>The default precedence can be changed by grouping elements with parentheses. For instance, the operators are performed in a default order in the first of the following two code samples. In the second code sample, the addition operation is performed first, because its associated elements are grouped with parentheses, and the multiplication operation is performed last.</p>
+<p><em>Accounts[Amount == 2 + 48 * 2]</em></p>
+<p><em>Accounts[Amount == (2 + 48) * 2]</em></p>
+<h2 id="case-sensitivity">Case Sensitivity</h2>
+<p>Operators are case insensitive. Although field values’ case sensitivity depends on the data source.</p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>A data source affects certain operators' behavior. For instance, a data source can be configured as case insensitive. In this case, the following expression always evaluates to true:
+<em>Lower(Name) == Upper(Name)</em></p>
+</div>
+<h2 id="escaping-keywords">Escaping Keywords</h2>
+<p>You can mark a keyword-like field name with an escape character (@ sign). In the expression below, the <strong>CriteriaOperator.Parse</strong> method interprets @Or as the field named &quot;Or&quot;, not the logical operator OR.</p>
+<p><em>@Or = 'value'</em></p>
+<h2 id="escape-characters">Escape Characters</h2>
+<p>Use a backslash (\) as an escape character for characters in expressions. Examples:</p>
+<ul>
+<li>\[</li>
+<li>\\</li>
+<li>\'</li>
+</ul>
+<h2 id="retrieving-reference-properties">Retrieving Reference Properties</h2>
+<p>Note that while a criteria expression can return an object reference, this is not supported in all scenarios. Returning an object reference by directly referencing a property, as in the following code snippet, is fully supported.</p>
+<p><em>&quot;Iif(Part is null, MyCustOrderLine.Part, Part)&quot;</em></p>
+<p>In this code snippet, the Part object, which the Part or MyCustOrderLine.Part property references, is returned correctly. However, retrieving reference properties from functions is not supported. So, the following expression does not work.</p>
+<p><em>&quot;Iif(Part is null, MyCustOrderLine, MyCustOrderLine2).Part&quot;</em></p>
+<h2 id="note---restrictions">Note - Restrictions</h2>
+<p>Note the following restriction when exporting DevExpress Data Grid and Tree List controls (WinForms and WPF) to the XLS(X) format in <strong>Data-Aware Export Mode</strong>:</p>
+<p>Only expressions that contain export-friendly functions are exported to XLS(X) format. Refer to the <strong>XLS(x) Format Export-Friendly</strong> column in the tables above to find out if a function can be exported to XLS(x) format.</p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/DevExpress/dotnet-eud/blob/2024.2/interface-elements-for-desktop/articles/expression-editor/expression-operators-functions-and-constants.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

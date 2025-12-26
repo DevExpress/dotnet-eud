@@ -1,0 +1,157 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Annotations | DevExpress End-User Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Annotations | DevExpress End-User Documentation ">
+      
+      
+      <link rel="icon" href="../../../favicon.ico">
+      <link rel="stylesheet" href="../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../toc.html">
+      <meta name="docfx:tocrel" content="../../toc.html">
+      
+      <meta name="docfx:rel" content="../../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/DevExpress/dotnet-eud/blob/2024.2/interface-elements-for-desktop/articles/pdf-viewer/annotations.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+      <!-- Matomo Tag Manager -->
+      <script>
+        var _mtm = window._mtm = window._mtm || [];
+        _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
+      </script>
+      <!-- End Matomo Tag Manager -->
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../../index.html">
+            <img id="logo" class="svg" src="../../../logo.svg" alt="DevExpress EUD">
+            DevExpress EUD
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="annotations">Annotations</h1>
+
+<p>You can use annotations to highlight important text the author should change, for example, when you review a document.</p>
+<p>The PDF Viewer allows you to create text annotations (sticky notes) and text markup annotations (text highlights). All document annotations are displayed in the <strong>Comments</strong> panel.</p>
+<p><img src="../../images/pdf-viewer-comments-pane.png" alt="image"></p>
+<h2 id="create-annotations">Create Annotations</h2>
+<p>Use commands on the <strong>Comment</strong> ribbon page to create text markup annotations and sticky notes. Enable the selection tool in the <strong>Text</strong> group and select the text that should have an annotation. Click <strong>Sticky Note</strong> to place the sticky note in a document.</p>
+<p><img src="../../images/comment-toolbar.png" alt="image"></p>
+<p>You can also add text markup annotations from the context menu.</p>
+<p><img src="../../images/markup-context-menu.png" alt="image"></p>
+<p>You can change the default settings for annotation tools. Click the drop-down arrow in the corresponding annotation tool in the <strong>Text</strong> ribbon group and specify the color and opacity.</p>
+<p><img src="../../images/markup-tool-color-picker.png" alt="image"></p>
+<h2 id="edit-annotations">Edit Annotations</h2>
+<p>Double-click the annotation in the <strong>Comments</strong> panel to edit its contents.</p>
+<p><img src="../../images/pdf-viewer-navigation-pane-comments-edit.png" alt="image"></p>
+<p>Right-click the annotation in the document or <strong>Comments</strong> navigation page and select <strong>Properties...</strong> to invoke the <strong>Annotation Properties</strong> dialog.</p>
+<p><img src="../../images/pdf-viewer-pop-up-comment.png" alt="image"></p>
+<p><img src="../../images/annotation-properties-dialog.png" alt="image"></p>
+<p>This dialog allows you to change the annotation parameters. Click <strong>Set as Default</strong> to use the new settings as the default settings for all annotations.</p>
+<h2 id="add-replies-and-reviews-to-the-annotation">Add Replies and Reviews to the Annotation</h2>
+<p>You can use the <strong>Comments</strong> navigation pane to add replies and set review statuses for the annotations.</p>
+<p>Select an annotation on the pane, enter text in the invoked editor, and click <strong>Reply</strong> to add the reply to the annotation.</p>
+<p><img src="../../images/pdf-viewer-comments-pane-reply.png" alt="image"></p>
+<p>To specify the review status, right-click an annotation, select Set Status, and set the status. Select None to remove the review status.</p>
+<p><img src="../../images/pdf-viewer-pop-up-comment-review.png" alt="image"></p>
+<h2 id="sort-and-filter-annotations">Sort and Filter Annotations</h2>
+<p>You can sort and filter comments by page, author, date, type, check and review status.</p>
+<p>Click the <strong>Sort</strong> button on the <strong>Comments</strong> navigation page to sort annotations and comments.</p>
+<p><img src="../../images/pdf-viewer-pop-up-comment-sort.png" alt="image"></p>
+<p>Click the <strong>Filter</strong> button to apply the filter. This filter is applied to the annotations in the pane and in the document.</p>
+<p><img src="../../images/pdf-viewer-pop-up-comment-filter.png" alt="image"></p>
+<p>Use the <strong>Search comments..</strong> field to show annotations that contain the search text.</p>
+<h2 id="remove-annotations">Remove Annotations</h2>
+<p>Right-click an annotation in the document or <strong>Comments</strong> navigation pane and select <strong>Delete</strong> in the context menu to remove the annotation. You can also select an annotation and press the <strong>Delete</strong> key.</p>
+<p><img src="../../images/pdf-viewer-delete-markup-annotation.png" alt="image"></p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/DevExpress/dotnet-eud/blob/2024.2/interface-elements-for-desktop/articles/pdf-viewer/annotations.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

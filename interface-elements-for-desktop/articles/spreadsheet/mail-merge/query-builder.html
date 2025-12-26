@@ -1,0 +1,144 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Query Builder | DevExpress End-User Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Query Builder | DevExpress End-User Documentation ">
+      
+      
+      <link rel="icon" href="../../../../favicon.ico">
+      <link rel="stylesheet" href="../../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../../toc.html">
+      <meta name="docfx:tocrel" content="../../../toc.html">
+      
+      <meta name="docfx:rel" content="../../../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/DevExpress/dotnet-eud/blob/2024.2/interface-elements-for-desktop/articles/spreadsheet/mail-merge/query-builder.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+      <!-- Matomo Tag Manager -->
+      <script>
+        var _mtm = window._mtm = window._mtm || [];
+        _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
+      </script>
+      <!-- End Matomo Tag Manager -->
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../../../index.html">
+            <img id="logo" class="svg" src="../../../../logo.svg" alt="DevExpress EUD">
+            DevExpress EUD
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="query-builder">Query Builder</h1>
+
+<p>When the data source is configured, you can use the built-in <strong>Query Builder</strong> dialog to select required data.</p>
+<p>To invoke the <strong>Query Builder</strong> window, select the <strong>Manage Queries</strong> item from the <strong>Manage Relations</strong> drop-down menu.</p>
+<p><img src="../../../images/img25605.png" alt="SpreadsheetControl_MailMerge_ ManageQueries"></p>
+<p>In the <strong>Manage Queries</strong> dialog, click the ellipsis button in the query list to edit the selected query.</p>
+<p><img src="../../../images/img25606.png" alt="SpreadsheetControl_MailMerge_ ManageQueriesWindow-OrderDetails"></p>
+<p>The <strong>Query Editor</strong> window appears.</p>
+<p><img src="../../../images/img25263.png" alt="SpreadsheetControl_MailMerge_ParametersQueryEditor01"></p>
+<p>To modify the query, invoke the <strong>Query Builder</strong> window by clicking the <strong>Run Query Builder...</strong> button.</p>
+<p><img src="../../../images/img25610.png" alt="SpreadsheetControl_MailMerge_QueryDesignerWindow-OrderDetails"></p>
+<p>To add a data table to the query, drag the required table from the list of available tables on the left and drop it onto the list of data tables to be used. Select the check box near the field to include this field in the query. A <em>green plus</em> symbol near the field indicates that you can join tables using this field.</p>
+<p>Click <strong>Preview Results...</strong> to invoke a dialog displaying the first 1000 records of the resulting table.</p>
+<p><img src="../../../images/img25619.png" alt="SpreadsheetControl_MailMerge_DataPreview-OrderDetails"></p>
+<p>Click the <strong>Filter...</strong> button in the <strong>Query Builder</strong> to invoke the <strong>Filter Editor</strong> window that allows you to specify a filtering criterion or create a parametrized query.</p>
+<p><img src="../../../images/img25623.png" alt="SpreadsheetControl_MailMerge_FilterEditor-Condition"></p>
+<p>For more information on parameters, review the <a href="parameters-panel.html">Parameters Panel</a> document.</p>
+<p>When all the necessary changes are made, click <strong>OK</strong> to close the window and save the query in the document.</p>
+<div class="TIP">
+<h5>Tip</h5>
+<p>All queries are stored in an .xls or .xlsx file. You can save the workbook after creating the data source. Subsequently, you can start performing a mail merge immediately after the XLSX/XLS file is loaded into the Spreadsheet control.</p>
+</div>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/DevExpress/dotnet-eud/blob/2024.2/interface-elements-for-desktop/articles/spreadsheet/mail-merge/query-builder.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

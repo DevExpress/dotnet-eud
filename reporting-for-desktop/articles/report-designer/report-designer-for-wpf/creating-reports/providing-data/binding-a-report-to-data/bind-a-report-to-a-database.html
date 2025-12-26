@@ -1,0 +1,160 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Bind a Report to a Database | DevExpress End-User Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Bind a Report to a Database | DevExpress End-User Documentation ">
+      
+      
+      <link rel="icon" href="../../../../../../../favicon.ico">
+      <link rel="stylesheet" href="../../../../../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../../../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../../../../../toc.html">
+      <meta name="docfx:tocrel" content="../../../../../../toc.html">
+      
+      <meta name="docfx:rel" content="../../../../../../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/DevExpress/dotnet-eud/blob/2024.2/reporting-for-desktop/articles/report-designer/report-designer-for-wpf/creating-reports/providing-data/binding-a-report-to-data/bind-a-report-to-a-database.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../../../../../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+      <!-- Matomo Tag Manager -->
+      <script>
+        var _mtm = window._mtm = window._mtm || [];
+        _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
+      </script>
+      <!-- End Matomo Tag Manager -->
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../../../../../../index.html">
+            <img id="logo" class="svg" src="../../../../../../../logo.svg" alt="DevExpress EUD">
+            DevExpress EUD
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="bind-a-report-to-a-database">Bind a Report to a Database</h1>
+
+<p>This document describes the steps required to connect a report to a database.</p>
+<p>To bind a report to a database, do the following.</p>
+<ol>
+<li><p><a href="../../basic-operations/create-a-new-report.html">Create a new report</a>.</p>
+</li>
+<li><p>Right-click the report and select <strong>Edit...</strong> in the context menu. In the invoked dialog, expand the <strong>Data Source</strong> drop-down and click the <strong>Add New</strong> button.</p>
+<p><img src="../../../../../../images/img123562.png" alt="EUD_WpfReportDesigner_AddDataSource"></p>
+</li>
+<li><p>On the first page of the invoked <strong>Data Source Wizard</strong>, specify the data connection to be used. If it is absent in the list containing existing connections, select <strong>No, I'd like to specify the connection parameters myself</strong> and click <strong>Next</strong>.</p>
+<p><img src="../../../../../../images/img123986.png" alt="EUD_WpfReportDesigner_DataSourceWizard_Database_2"></p>
+</li>
+<li><p>On the next page, specify the data source type. Select <strong>Microsoft SQL Server</strong> and click <strong>Next</strong> to proceed.</p>
+<p><img src="../../../../../../images/img122896.png" alt="WPDDesigner_ReportWizard_SelectDataSourceType"></p>
+</li>
+<li><p>This page allows you to specify connection string parameters specific to the selected data source provider. Depending on the data provider selected, it may be necessary to specify additional connection options (such as authentication type and database name) on this page.</p>
+<p><img src="../../../../../../images/img122000.png" alt="WPDDesigner_ReportWizard_SpecifyConnectionString"></p>
+<p>Click <strong>Next</strong> to proceed.</p>
+</li>
+<li><p>If server authentication is required for the selected database type, the next page will prompt you to specify whether or not you want to save the user credentials along with the connection string.</p>
+<p>Select the required option and click <strong>Next</strong>.</p>
+<p><img src="../../../../../../images/img123987.png" alt="EUD_WpfReportDesigner_DataSourceWizard_Database_3"></p>
+</li>
+<li><p>On the next page, you can construct an SQL query to obtain data from the database, or select a stored procedure.</p>
+<p>To construct an SQL query, click <strong>Run Query Builder...</strong></p>
+<p><img src="../../../../../../images/img123988.png" alt="EUD_WpfReportDesigner_DataSourceWizard_Database_4"></p>
+</li>
+<li><p>In the invoked <a href="../../../interface-elements/query-builder.html">Query Builder</a> window, select an item from the list of available tables on the left and drop it onto the list of data tables to be used.</p>
+<p><img src="../../../../../../images/img122798.png" alt="WPDDesigner_QueryBuilder_AddingTable"></p>
+</li>
+<li><p>Enable the check box near the added table to include all of its fields in the data view.</p>
+<p><img src="../../../../../../images/img122117.png" alt="WPDDesigner_QueryBuilder_AddTable"></p>
+<p>Click <strong>OK</strong> to exit the <strong>Query Builder</strong>. Click <strong>Finish</strong> to exit the <strong>Data Source Wizard</strong>.</p>
+<p>The newly created SQL data source will be displayed in the <strong>Components</strong> node of the <a href="../../../interface-elements/report-explorer.html">Report Explorer</a>. Additionally, the hierarchy of the data source will be reflected by the <a href="../../../interface-elements/field-list.html">Field List</a>.</p>
+<p><img src="../../../../../../images/img123563.png" alt="EUD_WpfReportDesigner_SqlDataSource"></p>
+</li>
+</ol>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/DevExpress/dotnet-eud/blob/2024.2/reporting-for-desktop/articles/report-designer/report-designer-for-wpf/creating-reports/providing-data/binding-a-report-to-data/bind-a-report-to-a-database.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

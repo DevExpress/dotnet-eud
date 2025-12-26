@@ -1,0 +1,167 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Connecting to SQL Databases | DevExpress End-User Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Connecting to SQL Databases | DevExpress End-User Documentation ">
+      
+      
+      <link rel="icon" href="../../../../favicon.ico">
+      <link rel="stylesheet" href="../../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../../toc.html">
+      <meta name="docfx:tocrel" content="../../../toc.html">
+      
+      <meta name="docfx:rel" content="../../../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/DevExpress/dotnet-eud/blob/2024.2/dashboard-for-desktop/articles/dashboard-designer/provide-data/connecting-to-sql-databases.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+      <!-- Matomo Tag Manager -->
+      <script>
+        var _mtm = window._mtm = window._mtm || [];
+        _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
+      </script>
+      <!-- End Matomo Tag Manager -->
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../../../index.html">
+            <img id="logo" class="svg" src="../../../../logo.svg" alt="DevExpress EUD">
+            DevExpress EUD
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="connecting-to-sql-databases">Connecting to SQL Databases</h1>
+
+<p>The Dashboard Designer provides the capability to connect to multiple types of SQL databases using the <strong>Data Source</strong> wizard. This tutorial describes how to establish a connection to any supported database and select the required data.</p>
+<p>To connect to an SQL database in the Dashboard Designer, follow the steps below.</p>
+<ol>
+<li><p>Click the <strong>New Data Source</strong> button in the <strong>Data Source</strong> ribbon tab.</p>
+<p><img src="../../../images/img18472.png" alt="DataBinding_NewDataSource"></p>
+</li>
+<li><p>On the first page of the invoked <strong>Data Source Wizard</strong> dialog, select the required data provider and click <strong>Next</strong>.</p>
+<p><img src="../../../images/img117932.png" alt="DataSourceWizard_Database"></p>
+</li>
+<li><p>On the next page, specify the required connection parameters.</p>
+<p><img src="../../../images/img117934.png" alt="DataSourceWizard_MSSQLServer"></p>
+<p>For instance, if you selected the <strong>Microsoft SQL Server</strong> data provider, the following options should be specified.</p>
+<ul>
+<li><p><strong>Server name</strong></p>
+<p>Specify the name of the MS SQL server to which the connection should be established.</p>
+</li>
+<li><p><strong>Authentication type</strong></p>
+<p>Specify the authentication mode of the MS SQL Server. You can choose whether to use <em>Windows authentication</em> or <em>Server authentication</em>.</p>
+</li>
+<li><p><strong>User name</strong></p>
+<p>Specify the user name used to authenticate to the MS SQL server.</p>
+</li>
+<li><p><strong>Password</strong></p>
+<p>Specify the password used to authenticate to the MS SQL server.</p>
+</li>
+<li><p><strong>Database</strong></p>
+<p>Select the database that contains required data.</p>
+</li>
+</ul>
+</li>
+<li><p>After you have specified the required connection parameters, click <strong>Next</strong> and specify how to select data from the database.</p>
+<p><img src="../../../images/img117952.png" alt="DataSourceWizard_Query"></p>
+<ul>
+<li>Select the <strong>Query</strong> option and run the <a href="../work-with-data/using-the-query-builder.html">Query Builder</a> by clicking the <strong>Run Query Builder...</strong> button. The Query Builder allows you to choose the required tables/columns visually and passes the resulting SQL query to the <strong>SQL String</strong> editor. Click <strong>Finish</strong> to create the data source.</li>
+<li>Select the <strong>Stored Procedure</strong> option to select one of the <a href="../work-with-data/stored-procedures.html">stored procedure</a>s from the database.</li>
+</ul>
+<p>Click <strong>Next</strong>.</p>
+</li>
+<li><p>On the final page, you can optionally add <a href="../work-with-data/pass-query-parameters.html">query parameters</a> and <a href="../work-with-data/preview-data.html">preview</a> data.</p>
+<p><img src="../../../images/img118003.png" alt="DataSourceWizard_AddQueryParameters"></p>
+<p>Click <strong>Finish</strong> to create the data source.</p>
+</li>
+</ol>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/DevExpress/dotnet-eud/blob/2024.2/dashboard-for-desktop/articles/dashboard-designer/provide-data/connecting-to-sql-databases.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

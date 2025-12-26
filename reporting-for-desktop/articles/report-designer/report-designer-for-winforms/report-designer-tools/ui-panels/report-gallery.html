@@ -1,0 +1,229 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Report Gallery | DevExpress End-User Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Report Gallery | DevExpress End-User Documentation ">
+      
+      
+      <link rel="icon" href="../../../../../../favicon.ico">
+      <link rel="stylesheet" href="../../../../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../../../../toc.html">
+      <meta name="docfx:tocrel" content="../../../../../toc.html">
+      
+      <meta name="docfx:rel" content="../../../../../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/DevExpress/dotnet-eud/blob/2024.2/reporting-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-tools/ui-panels/report-gallery.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../../../../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+      <!-- Matomo Tag Manager -->
+      <script>
+        var _mtm = window._mtm = window._mtm || [];
+        _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
+      </script>
+      <!-- End Matomo Tag Manager -->
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../../../../../index.html">
+            <img id="logo" class="svg" src="../../../../../../logo.svg" alt="DevExpress EUD">
+            DevExpress EUD
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="report-gallery">Report Gallery</h1>
+
+<p>The <strong>Report Gallery</strong> allows you to store and reuse reports and their elements.</p>
+<p><img src="../../../../../images/eurd-win-report-gallery.png" alt="report-gallery"></p>
+<p>Do not confuse the Report Gallery with the <a href="report-explorer.html">Report Explorer</a> that has a similar user interface. The Report Gallery stores shared templates. The Report Explorer displays the current report structure.</p>
+<h2 id="reports">Reports</h2>
+<p>The Report Gallery displays report layout templates in the <strong>Reports</strong> category.</p>
+<p>To create a new template, right-click an empty area around the design surface and select <strong>Add To Gallery</strong> in the context menu. The report's <strong>Name</strong> property value defines the template name.</p>
+<p><img src="../../../../../images/eurd-report-gallery-add-report-template.png" alt="report-gallery-add-report-template"></p>
+<p>Do one of the following to apply a template to the current report:</p>
+<ul>
+<li><p>Right-click the template in the Report Gallery and select <strong>Apply Layout to Report</strong>.</p>
+<p><img src="../../../../../images/eurd-report-gallery-apply-report-layout128490.png" alt="report-gallery-apply-report-layout"></p>
+</li>
+<li><p>Drag and drop the template from the Report Gallery onto the report.</p>
+<p><img src="../../../../../images/eurd-report-gallery-apply-report-template-drag-and-drop.png" alt="report-gallery-apply-report-template-drag-and-drop"></p>
+</li>
+</ul>
+<p>The following dialog warns you that the template overrides the current layout:</p>
+<p><img src="../../../../../images/eurd-report-gallery-apply-report-message.png" alt="report-gallery-apply-report-message"></p>
+<p>When you apply the report template, all the associated styles and components are added to the current report as well.</p>
+<h2 id="bands">Bands</h2>
+<p>The Report Gallery's <strong>Bands</strong> category contains <a href="../../introduction-to-banded-reports.html">band</a> templates.</p>
+<p>To create a new template, right-click a report band and choose <strong>Add To Gallery</strong> in the context menu. The band's <strong>Name</strong> property value defines the template name.</p>
+<p><img src="../../../../../images/eurd-report-gallery-add-band-template.png" alt="report-gallery-add-band-template"></p>
+<p>Use the following ways to apply a band template:</p>
+<ul>
+<li><p><strong>Drag and Drop</strong></p>
+<p>Drag and drop the template from the Report Gallery onto the band of the same type to replace the band's content.</p>
+<p><img src="../../../../../images/eurd-report-gallery-apply-band-template-drag-and-drop.png" alt=""></p>
+<p>To create a new band, move the mouse cursor to the delimiter between bands and drop the template.</p>
+<p><img src="../../../../../images/eurd-report-gallery-create-new-band-drag-and-drop.png" alt=""></p>
+<p>You can always create new Detail Report bands and Group Headers/Footers. You can add the Report Header/Footer or Page Header/Footer only if the report does not contain this band.</p>
+</li>
+<li><p><strong>Gallery Context Menu</strong></p>
+<p>Right-click a template in the Report Gallery and choose <strong>Apply Layout to Band</strong> in the context menu.</p>
+<p><img src="../../../../../images/eurd-report-gallery-apply-band-template-context-menu.png" alt=""></p>
+<p>This action's behavior depends on the template's band type and the selected report band.</p>
+<table>
+<thead>
+<tr>
+<th>Template's Band Type</th>
+<th>Action Result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Detail Band</strong>, <strong>Vertical Detail Band</strong>, <strong>Top Margin</strong>, <strong>Bottom Margin</strong></td>
+<td>Replaces the corresponding band's content independently from the selected band type.</td>
+</tr>
+<tr>
+<td><strong>Group Header</strong>, <strong>Group Footer</strong>, <strong>Detail Report Band</strong></td>
+<td>If the same band is selected in the report, replaces the band's content. Otherwise, adds a new band to the deepest hierarchy level.</td>
+</tr>
+<tr>
+<td><strong>Report Header</strong>, <strong>Report Footer</strong>, <strong>Page Header</strong>, <strong>Page Footer</strong>, <strong>Vertical Header</strong>, <strong>Vertical Footer</strong></td>
+<td>If the same band exists in the report, replaces the band's content. Otherwise, adds a new band.</td>
+</tr>
+</tbody>
+</table>
+</li>
+</ul>
+<p>Note that the template stores settings related to the band and its controls (<a href="../../use-report-elements/bind-controls-to-data.html">binding information</a>, <a href="../../customize-appearance/appearance-properties.html">appearance options</a>, etc). All these settings are restored when you apply the template.</p>
+<h2 id="controls">Controls</h2>
+<p>You can combine <a href="../../use-report-elements.html">report controls</a> from the same band into a template. Hold down SHIFT or CTRL and select controls. Then, right-click the selection and choose <strong>Add To Gallery</strong> in the context menu.</p>
+<p><img src="../../../../../images/eurd-report-gallery-add-controls.png" alt="report-gallery-add-controls"></p>
+<p>This adds a new template to the <strong>Controls</strong> section. The template name consists of control names separated by commas.</p>
+<p><img src="../../../../../images/eurd-report-gallery-multiple-controls-template.png" alt=""></p>
+<p>To apply a control template, drag and drop it from the Report Gallery onto a band.</p>
+<p><img src="../../../../../images/eurd-report-gallery-apply-controls-template.png" alt="report-gallery-apply-controls-template"></p>
+<p>All the control settings are restored when you apply the template.</p>
+<h2 id="styles">Styles</h2>
+<p>Right-click a style in the Report Explorer and select <strong>Add To Gallery</strong> to create a new template in the <strong>Styles</strong> category.</p>
+<p><img src="../../../../../images/eurd-report-gallery-add-style-template.png" alt="report-gallery-add-style-template"></p>
+<p>Use the following ways to apply a style template:</p>
+<ul>
+<li><p>To add the style to the report's <a href="../../customize-appearance/report-style-sheets.html">style sheet</a>, right-click the style in the Report Gallery and select <strong>Add to Report Style Sheet</strong>.</p>
+<p><img src="../../../../../images/eurd-report-gallery-style-add-to-report-style-sheet.png" alt="report-gallery-style-add-to-report-style-sheet"></p>
+<p>You can also use the same action in the <strong>Styles</strong> node's context menu to add all the styles available in the Report Gallery.</p>
+</li>
+<li><p>To apply the style to a specific report control, drag and drop this style from the Report Gallery onto this control. This also adds the selected style to the report style sheet if it does not already contain this style.</p>
+<p><img src="../../../../../images/eurd-report-gallery-style-apply-to-control.png" alt="report-gallery-style-apply-to-control"></p>
+</li>
+</ul>
+<h2 id="data-sources">Data Sources</h2>
+<p>Right-click a data source in the Report Explorer and select <strong>Add To Gallery</strong> to create a new template in the <strong>Data Source</strong> category.</p>
+<p><img src="../../../../../images/eurd-report-gallery-add-component-template.png" alt="report-gallery-add-component-template"></p>
+<p>Do one of the following to apply a data source template:</p>
+<ul>
+<li><p>Right-click the template in the Report Gallery and select <strong>Add to Report Data Sources</strong> in the context menu.</p>
+<p><img src="../../../../../images/eurd-report-gallery-apply-component-template.png" alt="report-gallery-apply-component-template"></p>
+</li>
+<li><p>Drag and drop the template from the Report Gallery onto the report.</p>
+</li>
+</ul>
+<h2 id="rename-templates">Rename Templates</h2>
+<p>To change the template name, select <strong>Rename</strong> in the template's context menu and type a new name.</p>
+<p><img src="../../../../../images/eurd-report-gallery-controls-template-rename.png" alt="report-gallery-controls-template-rename"></p>
+<h2 id="group-templates">Group Templates</h2>
+<p>Right-click a root Gallery node and select <strong>Add New Folder</strong> in the context menu.</p>
+<p><img src="../../../../../images/eurd-report-gallery-add-new-folder.png" alt=""></p>
+<p>Specify the folder name. Move templates to this folder to combine them into a group.</p>
+<p><img src="../../../../../images/eurd-report-gallery-move-template-to-folder.png" alt=""></p>
+<h2 id="import-and-export-templates">Import and Export Templates</h2>
+<p>You can import gallery items from an XML file. Right-click the <strong>Import</strong> toolbar button, locate a file in the invoked <strong>Open</strong> dialog and click <strong>OK</strong>.</p>
+<p><img src="../../../../../images/eurd-report-gallery-load-save-gallery.png" alt="report-gallery-load-save-gallery"></p>
+<p>To save gallery templates to an XML file, click the <strong>Export</strong> toolbar button and select a target file in the <strong>Save</strong> dialog.</p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/DevExpress/dotnet-eud/blob/2024.2/reporting-for-desktop/articles/report-designer/report-designer-for-winforms/report-designer-tools/ui-panels/report-gallery.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

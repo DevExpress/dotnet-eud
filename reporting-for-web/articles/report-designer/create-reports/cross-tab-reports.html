@@ -1,0 +1,207 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Cross-Tab Reports | DevExpress End-User Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Cross-Tab Reports | DevExpress End-User Documentation ">
+      
+      
+      <link rel="icon" href="../../../../favicon.ico">
+      <link rel="stylesheet" href="../../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../../toc.html">
+      <meta name="docfx:tocrel" content="../../../toc.html">
+      
+      <meta name="docfx:rel" content="../../../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/DevExpress/dotnet-eud/blob/2024.2/reporting-for-web/articles/report-designer/create-reports/cross-tab-reports.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+      <!-- Matomo Tag Manager -->
+      <script>
+        var _mtm = window._mtm = window._mtm || [];
+        _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
+      </script>
+      <!-- End Matomo Tag Manager -->
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../../../index.html">
+            <img id="logo" class="svg" src="../../../../logo.svg" alt="DevExpress EUD">
+            DevExpress EUD
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="cross-tab-reports">Cross-Tab Reports</h1>
+
+<p>A cross-tab report displays complex multi-dimensional data, such as summary statistics, surveys, and market research information. This report uses a Cross Tab control that calculates automatic summaries and grand totals across grouped rows and columns.</p>
+<p><img src="../../../images/eurd-web-cross-tab-report-result.png" alt=""></p>
+<h2 id="add-a-cross-tab-control-and-bind-to-data">Add a Cross Tab Control and Bind to Data</h2>
+<ol>
+<li><p><a href="../add-new-reports.html">Create a new report</a> or <a href="../open-reports.html">open an existing one</a>.</p>
+</li>
+<li><p>Drop the <strong>Cross Tab</strong> control from the <a href="../report-designer-tools/toolbox.html">Toolbox</a> onto the <a href="../introduction-to-banded-reports.html">Detail band</a>.</p>
+<p><img src="../../../images/eurd-web-add-cross-tab-to-report.png" alt=""></p>
+<p>You cannot place a Cross Tab in another report control (<a href="../use-report-elements/use-tables.html">Table Cell</a> or <a href="../use-report-elements/use-basic-report-controls/panel.html">Panel</a>).</p>
+</li>
+<li><p>Invoke the designer <a href="../report-designer-tools/menu.html">menu</a> and click <strong>Add Data Source...</strong>.</p>
+<p><img src="../../../images/eurd-web-add-data-source-menu.png" alt=""></p>
+<p>Navigate through the invoked <a href="../report-designer-tools/data-source-wizard.html">Data Source Wizard</a>'s pages to set up the data source. See the <a href="../bind-to-data.html">Bind to Data</a> section for more information.</p>
+</li>
+<li><p>Select the entire Cross Tab control. For this, click the designer surface outside the control and drag the mouse to the control until the entire control is selected.</p>
+<p><img src="../../../images/eurd-web-select-cross-tab-control.gif" alt=""></p>
+</li>
+<li><p>Bind the Cross Tab control to the data source. In the <a href="../report-designer-tools/ui-panels/properties-panel.html">Properties Panel</a> expand the <strong>CROSS TAB TASKS</strong> section and specify the <strong>Data Source</strong> and <strong>Data Member</strong> properties.</p>
+<p><img src="../../../images/eurd-web-cross-tab-bind-to-data-source.png" alt=""></p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>Ensure that a report's <strong>Data Source</strong> property is not set if you place the Cross Tab in the Detail band. Otherwise, the Cross Tab data is printed as many times as there are rows in the report data source.</p>
+</div>
+</li>
+</ol>
+<h2 id="define-cross-tab-fields">Define Cross Tab Fields</h2>
+<ol>
+<li><p>In the <strong>Properties Panel</strong>, expand the <strong>DATA</strong> section and click <strong>plus</strong> in the <strong>ROW FIELDS</strong> section to add a Row Field. Select the field name from the drop-down list:</p>
+<p><img src="../../../images/eurd-web-cross-tab-specify-row.png" alt=""></p>
+<p>You can repeat these steps to add another row field.</p>
+</li>
+<li><p>In the <strong>Properties Panel</strong>, expand the <strong>DATA</strong> section and click <strong>plus</strong> in the <strong>COLUMN FIELDS</strong> section to add a Column Field. Select the field from the drop-down list:</p>
+<p><img src="../../../images/eurd-web-cross-tab-specify-column.png" alt=""></p>
+<p>You can repeat these steps to add another column field.</p>
+</li>
+<li><p>In the <strong>Properties Panel</strong>, expand the <strong>DATA</strong> section and click <strong>plus</strong> in the <strong>DATA FIELDS</strong> section to add a Data Field. Select the field from the drop-down list:</p>
+<p><img src="../../../images/eurd-web-cross-tab-specify-data.png" alt=""></p>
+</li>
+</ol>
+<p>The resulting cross-tab control looks as follows:</p>
+<p><img src="../../../images/eurd-web-cross-tab-fields-defined.png" alt=""></p>
+<h2 id="specify-group-settings">Specify Group Settings</h2>
+<p>Select the Cross Tab cell bound to the <code>OrderDate</code> field and click its smart tag. Set the <strong>GroupInterval</strong> property to <code>DateQuarter</code> to group data by quarters.</p>
+<p><img src="../../../images/eurd-web-cross-tab-group-quarter.png" alt=""></p>
+<p>Switch to the <strong>Report Viewer</strong> to preview the result:</p>
+<p><img src="../../../images/eurd-web-cross-tab-preview-group-quarter.png" alt=""></p>
+<h2 id="format-data">Format Data</h2>
+<ol>
+<li><p>Format the currency data. Hold down CTRL, and select the following cells:</p>
+<ul>
+<li>the cell bound to the <code>ExtendedPrice</code> field</li>
+<li>the cells that display column and row totals</li>
+<li>the cells that display column and row grand totals</li>
+</ul>
+<p><img src="../../../images/eurd-web-cross-tab-select-currency-data-cells.png" alt=""></p>
+<p>Switch to the Properties window and set the <code>TextFormatString</code> property to <strong>{0:c}</strong>.</p>
+<p><img src="../../../images/eurd-web-cross-tab-format-currency-data-cells.png" alt=""></p>
+</li>
+<li><p>Select the cell bound to the <code>OrderDate</code> field:</p>
+<p><img src="../../../images/eurd-web-cross-tab-select-order-date-cell.png" alt=""></p>
+<p>Set the <strong>Text Format String</strong> option to <code>Quarter {0}</code>.</p>
+<p><img src="../../../images/eurd-web-cross-tab-format-order-date-cell.png" alt=""></p>
+</li>
+</ol>
+<p>Switch to the Report Viewer to observe the result:</p>
+<p><img src="../../../images/eurd-web-cross-tab-format-data-result.png" alt=""></p>
+<h2 id="customize-appearance">Customize Appearance</h2>
+<ol>
+<li><p>Select the entire Cross Tab control, switch to the Properties window, and expand the <strong>STYLES</strong> section. Expand the <strong>GENERAL STYLE</strong> section and set the Border Color to 160, 160, 160. This value applies to all Cross Tab cells.</p>
+<p><img src="../../../images/eurd-web-cross-tab-styles.png" alt=""></p>
+</li>
+<li><p>Expand sections for the <strong>HEADER AREA</strong>, <strong>DATA AREA</strong> and <strong>TOTAL AREA</strong> styles and adjust the appearance as your needs dictate.</p>
+</li>
+</ol>
+<h2 id="adjust-the-content-size">Adjust the Content Size</h2>
+<p>Select the column bound to the <strong>FullName</strong> field and set the <code>ColumnAutoWidthMode</code> property to <strong>ShrinkAndGrow</strong>. The column width varies depending on the content.</p>
+<p><img src="../../../images/eurd-web-cross-tab-report-column-auto-width-mode.png" alt="Set Column Auto Width Property"></p>
+<h2 id="adjust-the-report-layout">Adjust the Report Layout</h2>
+<p>Specify the <strong>Landscape</strong> page orientation and set the <strong>Vertical Content Splitting</strong> option to <code>Smart</code> to prevent content from being split across pages.</p>
+<p><img src="../../../images/eurd-web-cross-tab-report-adjust-layout.png" alt="Adjust the Layout"></p>
+<h2 id="observe-the-result">Observe the Result</h2>
+<p>Switch to the <strong>Report Viewer</strong>. The resulting report is shown below:</p>
+<p><img src="../../../images/eurd-web-cross-tab-report-final-result.png" alt="Resulting Report"></p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/DevExpress/dotnet-eud/blob/2024.2/reporting-for-web/articles/report-designer/create-reports/cross-tab-reports.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

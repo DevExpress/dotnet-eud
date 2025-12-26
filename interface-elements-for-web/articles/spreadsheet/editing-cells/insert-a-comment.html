@@ -1,0 +1,190 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Comments | DevExpress End-User Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Comments | DevExpress End-User Documentation ">
+      
+      
+      <link rel="icon" href="../../../../favicon.ico">
+      <link rel="stylesheet" href="../../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../../toc.html">
+      <meta name="docfx:tocrel" content="../../../toc.html">
+      
+      <meta name="docfx:rel" content="../../../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/DevExpress/dotnet-eud/blob/2024.2/interface-elements-for-web/articles/spreadsheet/editing-cells/insert-a-comment.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+      <!-- Matomo Tag Manager -->
+      <script>
+        var _mtm = window._mtm = window._mtm || [];
+        _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
+      </script>
+      <!-- End Matomo Tag Manager -->
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../../../index.html">
+            <img id="logo" class="svg" src="../../../../logo.svg" alt="DevExpress EUD">
+            DevExpress EUD
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="comments">Comments</h1>
+
+<p>The <strong>Spreadsheet</strong> allows you to attach notes to individual cells by using <strong>comments</strong>. Comments are extremely useful when you need to provide additional information, such as reminders, notifications, or feedback in a document without modifying cell content.</p>
+<p>Comments are stored separately from a cell and displayed in a floating text box. A cell containing a comment has a red triangular indicator in the corner.</p>
+<p><img src="../../../images/img128153.png" alt="spreadsheet-overview.png"></p>
+<p>You can <a href="#add">add</a> new comments, <a href="#edit">edit</a> existing comments, <a href="#move">move and resize</a> the comment box, <a href="#hide">hide</a> or <a href="#delete">delete</a> comments if they are no longer needed.</p>
+<h2 id="add-a-comment"><a name="add"></a>Add a Comment</h2>
+<p>To insert a new comment, select the cell where you wish to place the comment, and do one of the following.</p>
+<ul>
+<li><p>On the <strong>Review</strong> tab, in the <strong>Comments</strong> group, click the <strong>New Comment</strong> button.</p>
+<p><img src="../../../images/img128906.png" alt="EUD_Spreadsheet_AddComment_Ribbon"></p>
+</li>
+<li><p>Right-click the cell and select the <strong>New Comment</strong> item in the context menu.</p>
+<p><img src="../../../images/img128907.png" alt="EUD_Spreadsheet_AddComment_ContextMenu"></p>
+</li>
+</ul>
+<h2 id="edit-a-comment"><a name="edit"></a>Edit a Comment</h2>
+<p>To edit an existing comment, select the cell where you wish to modify the comment, and do one of the following.</p>
+<ul>
+<li><p>On the <strong>Review</strong> tab, in the <strong>Comments</strong> group, click the <strong>Edit Comment</strong> button.</p>
+<p><img src="../../../images/img128940.png" alt="EUD_Spreadsheet_EditComment_Ribbon"></p>
+</li>
+<li><p>Right-click the cell and select the <strong>Edit Comment</strong> item in the context menu.</p>
+<p><img src="../../../images/img128151.png" alt="comments-contextmenu.png"></p>
+</li>
+</ul>
+<h2 id="move-and-resize-a-comment"><a name="move"></a>Move and Resize a Comment</h2>
+<p>You can move and resize comment text boxes performing the following instructions.</p>
+<ol>
+<li><p>Select the cell that contains the comment you wish to move or resize.</p>
+<div class="TIP">
+<h5>Tip</h5>
+<p>If the comment is hidden, click the <strong>Show/Hide Comment</strong> button to display the comment.</p>
+</div>
+</li>
+<li><p>Click the comment box border to display the <strong>sizing handles</strong> (small rectangles at the corners and sides of the comment box).</p>
+</li>
+<li><p>Do one of the following.</p>
+<ul>
+<li><p>To move a comment, hover the mouse over the comment border so that the four-way resize arrow appears, and drag the comment to a new location.</p>
+<p><img src="../../../images/img25467.png" alt="Spreadsheet_MoveComment"></p>
+</li>
+<li><p>To resize a comment, click one of the sizing handles and drag the edge of the comment box.</p>
+<p><img src="../../../images/img24961.png" alt="Spreadsheet_ResizeComment"></p>
+</li>
+</ul>
+</li>
+</ol>
+<h2 id="display-or-hide-a-comment"><a name="hide"></a>Display or Hide a Comment</h2>
+<p>To show/hide a comment text box, select the cell that contains the comment you wish to display or hide and do one of the following.</p>
+<ul>
+<li>On the <strong>Review</strong> tab, in the <strong>Comments</strong> group, click the <strong>Show/Hide Comment</strong> button.</li>
+</ul>
+<p><img src="../../../images/img128908.png" alt="EUD_Spreadsheet_ShowComment_Ribbon"></p>
+<ul>
+<li>Right-click the cell and select the <strong>Show/Hide Comment</strong> item in the context menu.</li>
+</ul>
+<p><img src="../../../images/img128909.png" alt="EUD_Spreadsheet_ShowComment_ContextMenu"></p>
+<h2 id="remove-a-comment"><a name="delete"></a>Remove a Comment</h2>
+<p>To delete an existing comment, select the cell that contains the comment you wish to delete and do one of the following.</p>
+<ul>
+<li>On the <strong>Review</strong> tab, in the <strong>Comments</strong> group, click the <strong>Delete</strong> button.</li>
+</ul>
+<p><img src="../../../images/img128919.png" alt="EUD_Spreadsheet_DeleteComment_Ribbon"></p>
+<ul>
+<li>Right-click the cell and select the <strong>Delete Comment</strong> item in the context menu.</li>
+</ul>
+<p><img src="../../../images/img128920.png" alt="EUD_Spreadsheet_DeleteComment_Context"></p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/DevExpress/dotnet-eud/blob/2024.2/interface-elements-for-web/articles/spreadsheet/editing-cells/insert-a-comment.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

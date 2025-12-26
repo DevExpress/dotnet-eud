@@ -1,0 +1,175 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Data Shaping | DevExpress End-User Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Data Shaping | DevExpress End-User Documentation ">
+      
+      
+      <link rel="icon" href="../../../../../../favicon.ico">
+      <link rel="stylesheet" href="../../../../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../../../../toc.html">
+      <meta name="docfx:tocrel" content="../../../../../toc.html">
+      
+      <meta name="docfx:rel" content="../../../../../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/DevExpress/dotnet-eud/blob/2024.2/reporting-for-desktop/articles/report-designer/report-designer-for-winforms/use-report-elements/use-cross-tabs/data-shaping.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../../../../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+      <!-- Matomo Tag Manager -->
+      <script>
+        var _mtm = window._mtm = window._mtm || [];
+        _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
+      </script>
+      <!-- End Matomo Tag Manager -->
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../../../../../index.html">
+            <img id="logo" class="svg" src="../../../../../../logo.svg" alt="DevExpress EUD">
+            DevExpress EUD
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="data-shaping">Data Shaping</h1>
+
+<h2 id="calculate-totals">Calculate Totals</h2>
+<p>The Cross Tab calculates the following automatic totals:</p>
+<ul>
+<li><strong>Row Totals</strong> - against outer row fields;</li>
+<li><strong>Row Grand Totals</strong> - against all the rows;</li>
+<li><strong>Column Totals</strong> - against outer column fields;</li>
+<li><strong>Column Grand Totals</strong> - against all the columns.</li>
+</ul>
+<p><img src="../../../../../images/eurd-win-cross-tab-totals-types.png" alt=""></p>
+<p>You can use the <a href="layout-and-print-options.html">layout options</a> to move rows and columns that display total values.</p>
+<p>If you want to <a href="layout-and-print-options.html#hide-specific-rows-and-columns">hide specific totals</a>, select any cell in the row/column and disable the <strong>Row Visible</strong>/<strong>Column Visible</strong> property.</p>
+<p><img src="../../../../../images/eurd-win-cross-tab-column-visible.png" alt=""></p>
+<h2 id="change-the-summary-type">Change the Summary Type</h2>
+<p>The Cross Tab summarizes values of <a href="cross-tab-fields.html#data-fields">data fields</a> and displays the results &quot;as is&quot; at the intersection of the corresponding rows and columns.</p>
+<p>Use the <strong>Summary Type</strong> property to specify the summary function calculated against a data field.</p>
+<p><img src="../../../../../images/eurd-win-cross-tab-data-field-summary-type-property.png" alt=""></p>
+<p>Use the <strong>Summary Display Type</strong> property to display results' contribution to other cell values, for example, as a percentage of grand total values.</p>
+<p><img src="../../../../../images/eurd-win-cross-tab-data-field-summary-display-type.png" alt=""></p>
+<h2 id="sort-data">Sort Data</h2>
+<p>The Cross Tab displays row and column field values in the ascending order. Use the <strong>Sort Order</strong> property to change the current sort order. Set this property to <strong>None</strong> to keep the same order as records in the Cross Tab's data source.</p>
+<p><img src="../../../../../images/eurd-win-cross-tab-sort-order-property-none.png" alt=""></p>
+<p>You can also use the <strong>Sort By Summary Info</strong> property to arrange row/column field values based on grand totals values.</p>
+<ol>
+<li><p>Select a cell you want to sort and expand the <strong>Sort By Summary Info</strong> property in the <a href="../../report-designer-tools/ui-panels/property-grid-tabbed-view.html">Property Grid</a>.</p>
+</li>
+<li><p>Set the <strong>Field Name</strong> property to the name of an assigned data source's field. You can also define a field that is not currently displayed in the Cross Tab.</p>
+</li>
+<li><p>Use the <strong>Summary Type</strong> property to specify which summary function to calculate. The summary type can differ from the summary type currently used in the Cross Tab.</p>
+</li>
+<li><p>Use the <strong>Sort Order</strong> property to define the sort order.</p>
+<p><img src="../../../../../images/eurd-win-cross-tab-sort-by-summary-info.png" alt=""></p>
+</li>
+</ol>
+<h2 id="group-data">Group Data</h2>
+<p>The Cross Tab displays unique values of column and row fields and does not group their values.</p>
+<p><img src="../../../../../images/eurd-win-cross-tab-group-interval-default.png" alt=""></p>
+<p>Use the <strong>Group Interval</strong> property to combine original field values into categories (groups). For instance, you can group date-time values by year, month, quarter, day, hour.</p>
+<p><img src="../../../../../images/eurd-win-cross-tab-group-interval-date-year.png" alt=""></p>
+<p>To group numeric values, set the <strong>Group Interval</strong> property to <strong>Numeric</strong> and use the <strong>Group Interval Numeric Range</strong> property to specify the interval length. For instance, set the range to <strong>100</strong> to group records by 100 orders.</p>
+<p><img src="../../../../../images/eurd-win-cross-tab-numeric-values-grouped.png" alt=""></p>
+<h2 id="use-parameters">Use Parameters</h2>
+<p>The Cross Tab uses and displays values of data fields from an assigned data source. To provide values outside the data source, use internal Cross Tab parameters. Each parameter is stored in the <strong>Parameters</strong> collection.</p>
+<p>You can access the <strong>Parameters</strong> property in the Cross Tab's smart tag or in the Properties window.</p>
+<p><img src="../../../../../images/eurd-win-cross-tab-parameters-property.png" alt=""></p>
+<p>Click this property's ellipsis button and add parameters in the invoked Collection Editor. You can bind a Cross Tab parameter to a <a href="../../use-report-parameters.html">report parameter</a> or to any data field available in a report.</p>
+<p><img src="../../../../../images/eurd-win-cross-tab-create-internal-parameter.png" alt=""></p>
+<p>You can then use the created parameters to <a href="#filter-data">filter the Cross Tab</a>.</p>
+<h2 id="filter-data">Filter Data</h2>
+<p>Use the Cross Tab's <strong>Filter String</strong> property to invoke the <strong>FilterString Editor</strong> and specify the filter criteria.</p>
+<p><img src="../../../../../images/eurd-win-cross-tab-filter-data.png" alt=""></p>
+<p>You can use the <a href="#use-parameters">Cross Tab's parameters</a> in filter criteria.</p>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/DevExpress/dotnet-eud/blob/2024.2/reporting-for-desktop/articles/report-designer/report-designer-for-winforms/use-report-elements/use-cross-tabs/data-shaping.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

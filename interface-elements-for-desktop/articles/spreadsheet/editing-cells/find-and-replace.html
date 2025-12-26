@@ -1,0 +1,137 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Find and Replace | DevExpress End-User Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Find and Replace | DevExpress End-User Documentation ">
+      
+      
+      <link rel="icon" href="../../../../favicon.ico">
+      <link rel="stylesheet" href="../../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../../toc.html">
+      <meta name="docfx:tocrel" content="../../../toc.html">
+      
+      <meta name="docfx:rel" content="../../../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/DevExpress/dotnet-eud/blob/2024.2/interface-elements-for-desktop/articles/spreadsheet/editing-cells/find-and-replace.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+      <!-- Matomo Tag Manager -->
+      <script>
+        var _mtm = window._mtm = window._mtm || [];
+        _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
+      </script>
+      <!-- End Matomo Tag Manager -->
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../../../index.html">
+            <img id="logo" class="svg" src="../../../../logo.svg" alt="DevExpress EUD">
+            DevExpress EUD
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="find-and-replace">Find and Replace</h1>
+
+<p>The <strong>Spreadsheet</strong> allows you to search for specific data in the current worksheet. To perform a search, on the <strong>Home</strong> tab, in the <strong>Editing</strong> group, click the <strong>Find &amp; Select</strong> button. The button's drop-down menu will be displayed.</p>
+<p><img src="../../../images/img23391.png" alt="FindAndSelectButton"></p>
+<p>Next, do one of the following.</p>
+<ul>
+<li><p>Click <strong>Find</strong> in the <strong>Find &amp; Select</strong> drop-down menu (or press <strong>CTRL</strong>+<strong>F</strong>) to perform a search in the active worksheet. The <strong>Find and Replace</strong> dialog (with the <strong>Find</strong> tab activated) will be invoked.</p>
+<p><img src="../../../images/img23390.png" alt="SpreadsheetControl_FindDialog"></p>
+<p>In the <strong>Find what</strong> field, enter the text or number you wish to find, and click the <strong>Find Next</strong> button to start the search. To define the direction of the search, in the <strong>Search</strong> field, select the <strong>By Rows</strong> or <strong>By Columns</strong> drop-down item. In the <strong>Look in</strong> field, select <strong>Values</strong> (to search cell values only) or <strong>Formulas</strong> (to search cell values and formula expressions, excluding the calculated results). To perform a case-sensitive search, select the <strong>Match Case</strong> check box. To restrict the search to the entire cell content, select the <strong>Match entire cell contents</strong> check box.</p>
+</li>
+<li><p>Click <strong>Replace</strong> in the <strong>Find &amp; Select</strong> drop-down menu (or press <strong>CTRL</strong>+<strong>H</strong>) to search for a text string and optionally replace it with another value. The <strong>Find and Replace</strong> dialog (with the <strong>Replace</strong> tab activated) will be invoked.</p>
+<p><img src="../../../images/img23392.png" alt="SpreadsheetControl_ReplaceDialog"></p>
+<p>To replace a value, enter the search term in the <strong>Find what</strong> field and the replacement text for this search term in the <strong>Replace with</strong> field, and then click the <strong>Find Next</strong> button to find the first occurrence of the search term. Next, click the <strong>Replace</strong> button to replace only the value of the selected matching cell, or <strong>Replace All</strong> to replace all occurrences of the search term. Note that the <strong>Replace</strong> tab provides the same search options as the <strong>Find</strong> tab, with one exception: you can only select the <strong>Formulas</strong> drop-down item in the <strong>Look in</strong> box, so only the underlying formulas (not the calculated results) will be examined when searching for matches to your search term.</p>
+</li>
+</ul>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/DevExpress/dotnet-eud/blob/2024.2/interface-elements-for-desktop/articles/spreadsheet/editing-cells/find-and-replace.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

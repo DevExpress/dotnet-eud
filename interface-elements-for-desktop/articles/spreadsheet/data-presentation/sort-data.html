@@ -1,0 +1,163 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Sort Data | DevExpress End-User Documentation </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Sort Data | DevExpress End-User Documentation ">
+      
+      
+      <link rel="icon" href="../../../../favicon.ico">
+      <link rel="stylesheet" href="../../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../../toc.html">
+      <meta name="docfx:tocrel" content="../../../toc.html">
+      
+      <meta name="docfx:rel" content="../../../../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/DevExpress/dotnet-eud/blob/2024.2/interface-elements-for-desktop/articles/spreadsheet/data-presentation/sort-data.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../../../../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+      <!-- Matomo Tag Manager -->
+      <script>
+        var _mtm = window._mtm = window._mtm || [];
+        _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.async=true; g.src='https://matomo.devexpress.com/js/container_kE7MWPi0.js'; s.parentNode.insertBefore(g,s);
+      </script>
+      <!-- End Matomo Tag Manager -->
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../../../index.html">
+            <img id="logo" class="svg" src="../../../../logo.svg" alt="DevExpress EUD">
+            DevExpress EUD
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled="" placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="sort-data">Sort Data</h1>
+
+<p>The <strong>Spreadsheet</strong> allows you to sort data by text (<strong>A to Z</strong> or <strong>Z to A</strong>), numbers (<strong>smallest to largest</strong> or <strong>largest to smallest</strong>), dates and times (<strong>oldest to newest</strong> or <strong>newest to oldest</strong>), and color in one column.</p>
+<p>To sort data, do the following.</p>
+<ol>
+<li><p>Select a range in the column you wish to sort.</p>
+</li>
+<li><p>On the <strong>Data</strong> tab, in the <strong>Sort &amp; Filter</strong> group, click <strong>Sort A to Z</strong> to select ascending order, or click <strong>Sort Z to A</strong> for descending order.</p>
+<p><img src="../../../images/img25488.png" alt="Spreadsheet_SortA to Z"></p>
+</li>
+</ol>
+<div class="NOTE">
+<h5>Note</h5>
+<p>If multiple columns are selected, the range is sorted by the <strong>first</strong> column.</p>
+</div>
+<h2 id="sort-a-table">Sort a Table</h2>
+<p>To sort data in a table, follow the steps below.</p>
+<ol>
+<li><p>Click the arrow <img src="../../../images/img25500.png" alt="Spreadsheet_FilterAndSortArrow"> in the header of the column by which data will be sorted.</p>
+</li>
+<li><p>In the drop-down menu, select the <strong>Sort A to Z</strong> item to select ascending order, or select the <strong>Sort Z to A</strong> item to select descending order.</p>
+<p><img src="../../../images/img25505.png" alt="Spreadsheet_SortTable"></p>
+</li>
+</ol>
+<p>All the records in the table are reordered accordingly. The tiny arrow <img src="../../../images/img25503.png" alt="Spreadsheet_SortedArrow"> appears in the column header to indicate that data in the table are sorted by this column.</p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>You cannot sort a table by more than one column at a time. When you apply a new sort order, it replaces the previous one.</p>
+</div>
+<h2 id="sort-data-by-color">Sort Data by Color</h2>
+<p>The <strong>AutoFilter</strong> menu allows a user to sort cells by color. Do the following to sort data by color.</p>
+<ol>
+<li><p>Click the arrow <img src="../../../images/img25500.png" alt="Spreadsheet_FilterAndSortArrow"> in the header of the column by which to sort data.</p>
+</li>
+<li><p>Select <strong>Sort by Color</strong>. You can sort data by cell background or font color.
+<img src="../../../images/spreadsheetcontrol_sort-filter-menu.png" alt="spreadsheet winforms sort by color"></p>
+</li>
+<li><p>When you select the required sorting option, a dialog with available colors appears. Select the target color and click <strong>OK</strong>.
+<img src="../../../images/spreadsheetcontrol_sort-color-dialog.png" alt="spreadsheet winforms sort by color dialog"></p>
+</li>
+</ol>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/DevExpress/dotnet-eud/blob/2024.2/interface-elements-for-desktop/articles/spreadsheet/data-presentation/sort-data.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Copyright (c) 1998-2024 Developer Express Inc. All rights reserved.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
