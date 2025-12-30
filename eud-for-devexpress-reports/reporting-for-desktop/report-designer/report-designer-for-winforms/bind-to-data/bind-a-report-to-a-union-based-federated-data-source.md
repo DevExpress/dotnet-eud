@@ -45,12 +45,10 @@ You can create a federated data source for your report to display data combined 
 
     The query includes only fields that have identical names and types in the origin sources.
 
-    <!--image-->
     ![](../../../images/DataFederationUnion-Common-Fields.png)
 
 6. Rename fields.
 
-    <!--image-->
     ![](../../../images/DataFederation-FieldAliases.png)
 
 7. Click **OK** to close the Query Builder. Click **Finish** to complete the Data Source Wizard.
