@@ -6,7 +6,7 @@ legacyId: 116241
 # Select a Data Source Member
 This wizard page allows you to select whether you want bind to the entire object or to its public member (method or property).
 
-![WpfReportWizard_Object_SelectDataSourceMember](../../../images/img122878.png)
+![WpfReportWizard_Object_SelectDataSourceMember](../../../../../images/img122878.png)
 
 Select the **Show only highlighted members** check box to exclude irrelevant members from the list. Otherwise, all available members will be shown.
 

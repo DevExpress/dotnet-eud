@@ -12,13 +12,14 @@ This tutorial illustrates how to filter data at the report level, as opposed to 
 
 3. Switch to the [Field List](../../report-designer-tools/ui-panels/field-list.md) and drop the required fields onto the report's [Detail](../../introduction-to-banded-reports.md) band.
 
-    ![](../../../images/eurd-win-filter-data-drop-fields.png)
+    ![](../../../../images/eurd-win-filter-data-drop-fields.png)
 
 4. Click the report's smart tag and click the **Filter String** property's ellipsis button.
 
-    In the invoked [FilterString Editor](../../../../../../interface-elements-for-desktop/articles/filter-editor.md), construct an expression in which the data fields are compared with the required values.
+    In the invoked FilterString Editor, construct an expression in which the data fields are compared with the required values.
 
-    ![](../../../images/eurd-win-filter-data-report-level-filter-string.png)
+
+    ![](../../../../images/eurd-win-filter-data-report-level-filter-string.png)
 
     Every filter condition consists of three parts:
     * A field of a data source to which a report is bound or the name of the [calculated field](../use-calculated-fields.md), which exists in this data source at the same level.
@@ -29,4 +30,4 @@ This tutorial illustrates how to filter data at the report level, as opposed to 
 
 Your report is now ready to be generated. Switch to [Print Preview](../../preview-print-and-export-reports.md) to see the result.
 
-![](../../../images/eurd-win-filter-data-report-level-result.png)
+![](../../../../images/eurd-win-filter-data-report-level-result.png)

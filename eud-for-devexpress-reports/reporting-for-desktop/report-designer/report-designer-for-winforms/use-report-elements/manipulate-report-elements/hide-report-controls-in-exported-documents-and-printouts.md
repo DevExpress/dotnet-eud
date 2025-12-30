@@ -22,9 +22,9 @@ The following formats are available:
 * All - specifies whether the control is visible on printouts and in all exported documents.
 * None - hides a report control on printouts and in all exported documents.
 
-![CanPublishOptions](../../../images/can-publish-options-property-grid.png)
+![CanPublishOptions](../../../../images/can-publish-options-property-grid.png)
 
 The following image illustrates the resulting XLXS document with and without page information:
 
-![Resulting XLXS document](../../../images/can-publish-options-example-image.png)
+![Resulting XLXS document](../../../../images/can-publish-options-example-image.png)
 

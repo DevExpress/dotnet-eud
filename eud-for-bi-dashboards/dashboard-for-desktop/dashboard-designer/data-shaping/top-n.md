@@ -8,11 +8,11 @@ The **Top N** feature allows you to display only a limited number of values that
 
 To display the top values in a dimension, select **Top N** from the data item menu.
 
-![DataShaping_TopN_MenuItem](../images/img19373.png)
+![DataShaping_TopN_MenuItem](../../images/img19373.png)
 
 This invokes the **Top N Values** dialog.
 
-![DataShaping_TopN_Dialog](../images/img19374.png)
+![DataShaping_TopN_Dialog](../../images/img19374.png)
 
 In this dialog, check the **Enabled** check box and specify the following settings.
 

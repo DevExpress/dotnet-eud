@@ -6,7 +6,7 @@ legacyId: 16585
 # Cards
 The **Card** dashboard item displays a series of cards. Each card illustrates the difference between two values. This difference can be expressed as an absolute value, an absolute variation or a percentage variation.
 
-![MainFeatures_Cards](../images/img18174.png)
+![MainFeatures_Cards](../../images/img18174.png)
 
 This section consists of the following subsections:
 * [Providing Data](cards/providing-data.md)

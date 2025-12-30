@@ -6,7 +6,7 @@ legacyId: 117948
 # Choropleth Map
 The topics in this section describe the features available in the Choropleth Map dashboard item, that allows you to colorize the required areas in proportion to the provided values.
 
-![wdd-dashboard-items-choropleth-map](images/img125119.png)
+![wdd-dashboard-items-choropleth-map](../../images/img125119.png)
 
 This section consists of the following subsections.
 * [Choropleth Map](choropleth-map.md)

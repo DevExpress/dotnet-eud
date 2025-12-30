@@ -12,18 +12,18 @@ Perform the following actions to localize a report:
 
 1. In the Report Designer Toolbar, switch to the **View** tab and select the language in the drop-down list in the **Localization** group.
 
-    ![](../../../images/eurd-localize-report-winforms-eud-ribbon.png)
+    ![](../../images/eurd-localize-report-winforms-eud-ribbon.png)
 
 2. Enable the **Show Localizable Properties** option to display only localizable properties in the [Property Grid](report-designer-tools/ui-panels/property-grid-tabbed-view.md).
 
-    ![](../../../images/eurd-localize-report-winforms-eud-ribbon-checkbox.png)
+    ![](../../images/eurd-localize-report-winforms-eud-ribbon-checkbox.png)
 
 3. Edit the report layout and change the controls' property values. You can move and resize a control.
 
-    ![](../../../images/eurd-localize-report-winforms-eud-resize.png)
+    ![](../../images/eurd-localize-report-winforms-eud-resize.png)
 
 4. Click the **dialog box launcher** to invoke the [Localization Editor](report-designer-tools/localization-editor.md). It allows you to change text strings in the report and expedite the translation process.
 
-    ![](../../../images/eurd-localize-report-winforms-eud-language-editor.png)
+    ![](../../images/eurd-localize-report-winforms-eud-language-editor.png)
 
 5. Save the report. Localized values are stored in the report file.

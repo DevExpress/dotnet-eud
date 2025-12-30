@@ -9,16 +9,16 @@ This topic describes how to change value formatting of [report elements](../../r
 To apply value formatting for a [data-bound control](../providing-data/binding-report-controls-to-data.md)'s content, do the following.
 1. Right-click the control, and select **Edit...** in the context menu. In the invoked dialog, click the ellipsis button for the **Format String** property.
 	
-	![EUD_WpfReportDersigner_Formatting_1](../../../images/img123603.png)
+	![EUD_WpfReportDersigner_Formatting_1](../../../../images/img123603.png)
 2. In the invoked **Format String Editor**, select one of the predefined standard formats or specify a custom one.
 	
-	![EUD_WpfReportDersigner_Formatting_2](../../../images/img123604.png)
+	![EUD_WpfReportDersigner_Formatting_2](../../../../images/img123604.png)
 	
 	To quit the dialog and apply the changes, click **OK**.
 
 In a similar way, you can apply formatting to a control's **Bookmark**, **Navigation URL** and **Tag** properties using the [Properties Panel](../../interface-elements/properties-panel.md). Note that the set of bindable properties depends on the control type.
 
-![EUD_WpfReportDersigner_Formatting_3](../../../images/img123607.png)
+![EUD_WpfReportDersigner_Formatting_3](../../../../images/img123607.png)
 
 When a summary function is applied to a control's dynamic content, value formatting is specified separately as described in the [Calculating Summaries](calculating-summaries.md) document.
 

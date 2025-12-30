@@ -7,7 +7,7 @@ author: Eugene Polevikov
 
 The *Deutsche Post Identcode* symbology, also referred to as Deutsche Post AG IdentCode, German Postal 2 of 5 IdentCode, Deutsche Frachtpost IdentCode, or Deutsche Post AG (DHL), is used by German Post (Deutsche Post AG).
 
-![Identcode barcode](../../../images/identcode-barcode.png)
+![Identcode barcode](../../../../images/identcode-barcode.png)
 
 The barcode contains a tracking number that identifies a customer (sender) and a mail item. A value that the barcode encodes should consist of 11 or 12 digits:
 
@@ -22,10 +22,10 @@ When you specify 11 digits, the barcode generates a checksum digit automatically
 
 1. Drag the **Barcode** item from the report controls toolbox tab and drop it onto the report. 
 
-    ![](../../../images/drag-and-drop-barcode.png)
+    ![](../../../../images/drag-and-drop-barcode.png)
 
 2. Set the control’s **Symbology** property to **DeutschePostIdentcode**. 
 
-    ![](../../../images/identcode-in-designer.png)
+    ![](../../../../images/identcode-in-designer.png)
 
 3. Specify [common](add-bar-codes-to-a-report.md) barcode properties.

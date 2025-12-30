@@ -6,7 +6,7 @@ legacyId: 16536
 # Master Filtering
 The **Dashboard** allows you to use any data aware dashboard item as a filter for other dashboard items (**Master Filter**). You can select elements in a **Master Filter** item (grid records, chart bars, pie segments, etc.) to filter data in other dashboard items by the selected values.
 
-![MainFeatures_MasterFiltering_Win](../images/img25347.gif)
+![MainFeatures_MasterFiltering_Win](../../images/img25347.gif)
 * [Master Filtering Overview](#master-filtering-overview)
 * [Master Filter Settings](#master-filter-settings)
 * [Apply Filtering](#apply-filtering)
@@ -51,7 +51,7 @@ The Master Filter item supports two selection modes.
 
 To enable/disable master filtering, use the **Multiple Master Filter** or **Single Master Filter** buttons in the **Data** Ribbon tab.
 
-![DataShaping_Interactivity_MultipleMasterFilter_Ribbon](../images/img21845.png)
+![DataShaping_Interactivity_MultipleMasterFilter_Ribbon](../../images/img21845.png)
 
 > [!NOTE]
 > If the selected dashboard item contains several types of elements that can be used for filtering, the Ribbon or Toolbar will provide the appropriate buttons to switch between these types (e.g., the **Arguments** and **Series** buttons in the Chart). For details, refer to the documentation for individual dashboard items in the [Dashboard Item Settings](../dashboard-item-settings.md) section.
@@ -64,13 +64,13 @@ Fields are matched by their full names. For fields in other data sources to be a
 
 To enable filtering across data sources, use the **Cross-Data-Source Filtering** button in the **Data** Ribbon tab.
 
-![DataShaping_Interactivity_MasterFilter_CrossDataSource_Ribbon](../images/img19416.png)
+![DataShaping_Interactivity_MasterFilter_CrossDataSource_Ribbon](../../images/img19416.png)
 
 ### Preventing Items from Being Filtered
 
 You can prevent specific dashboard items from being affected by Master Filters. To do this, use the **Ignore Master Filters** button in the **Data** Ribbon tab.
 
-![DataShaping_Interactivity_MasterFilter_Ignore_Ribbon](../images/img19417.png)
+![DataShaping_Interactivity_MasterFilter_Ignore_Ribbon](../../images/img19417.png)
 
 ## <a name="apply-filtering"/>Apply Filtering
 To learn how to apply filtering in a specific [dashboard item](../dashboard-item-settings.md), refer to the **Master Filtering** topic in the **Interactivity** section for this item.

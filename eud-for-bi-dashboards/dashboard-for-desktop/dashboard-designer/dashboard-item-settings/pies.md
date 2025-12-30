@@ -6,7 +6,7 @@ legacyId: 16581
 # Pies
 The **Pie** dashboard item displays a series of pies or donuts that represent the contribution of each value to a total.
 
-![MainFeatures_Pies](../images/img18178.png)
+![MainFeatures_Pies](../../images/img18178.png)
 
 This section consists of the following subsections:
 * [Providing Data](pies/providing-data.md)

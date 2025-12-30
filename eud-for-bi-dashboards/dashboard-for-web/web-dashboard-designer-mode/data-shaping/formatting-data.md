@@ -12,7 +12,7 @@ The Web Dashboard allows you to customize various format settings for numeric an
 ## <a name="numeric"/>Formatting Numeric Values
 To specify a format for numeric values, open the dashboard item [Bindings](../ui-elements/dashboard-item-menu.md) menu, select a required data item and go to the **Format** section.
 
-![wdd-format-rype](images/img125536.png)
+![wdd-format-rype](../../images/img125536.png)
 
 In the **Format type** field, select the required format type.
 
@@ -37,7 +37,7 @@ Other format settings are in effect for only specific format types.
 ## <a name="datetime"/>Formatting Date-Time Values
 To specify a format for date-time values, use the **Format Type** option in the data item's **Format** section.
 
-![wdd-format-type-date-time](images/img124765.png)
+![wdd-format-type-date-time](../../images/img124765.png)
 
 > [!NOTE]
 > Specific group intervals do not have format options. This means that corresponding values can only be presented in a single manner. The **Format** section is not displayed for such group intervals.
@@ -104,11 +104,11 @@ The list below illustrates format types related to the **Exact Date** group inte
 The Web Dashboard allows you to specify currency formats for the current data item or for entire dashboard.
 * To set a data item currency format, open the dashboard item [Bindings](../ui-elements/dashboard-item-menu.md) menu, select a required data item and go to the **Format** section. Select **Currency** as a format type and specify the required culture using the **Currency** combo box.
 	
-	![wdd-format-type-currency](images/img126159.png)
+	![wdd-format-type-currency](../../images/img126159.png)
 	
 	You can also specify the data item to use the client culture. For this, select the _Use client system settings_ in the combo box.
 * To set the dashboard currency, open the [dashboard menu](../ui-elements/dashboard-menu.md) and go to the **Currency** page. Here you can select the required currency from the list.
 	
-	![wdd-format-type-currency-entire-dashboard](images/img124766.png)
+	![wdd-format-type-currency-entire-dashboard](../../images/img124766.png)
 	
 	You can also specify the dashboard to use the client culture. For this, select the _Use client system settings_ item.

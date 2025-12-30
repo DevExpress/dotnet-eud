@@ -20,7 +20,7 @@ When identical or null values appear in a report's data source, you can suppress
 	
 	Specifies whether to process duplicate the control's **Text** or **Tag** property values.
 
-![](../../../images/eurd-web-proccess-duplicates-properties.png)
+![](../../images/eurd-web-proccess-duplicates-properties.png)
 
 These properties are available for the following controls:
 
@@ -37,7 +37,7 @@ You can suppress a control when a specified logical condition is met by specifyi
 
 In this case, a space remains in the band at the control's location. You can avoid this by placing these controls onto an [Panel](../use-report-elements/use-basic-report-controls/panel.md) and setting its **Can Shrink** property to **true**.
 
-![](../../../images/eurd-web-panel-can-shrink-property.png)
+![](../../images/eurd-web-panel-can-shrink-property.png)
 
 For this feature to work correctly, consider the following:
 

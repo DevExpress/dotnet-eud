@@ -4,7 +4,7 @@ owner: Mary Sammal
 ---
 # First Look at the Report Designer
 
-![](../../../images/eurd-win-report-designer.png)
+![](../../images/eurd-win-report-designer.png)
 
 The _design surface_ displays a report's structure and contents. You can use the tools on the Report Designer's panels to design the report:
 
@@ -21,15 +21,15 @@ The _design surface_ displays a report's structure and contents. You can use the
 A blank report's design surface displays page margins and an empty [detail band](introduction-to-banded-reports.md).
 
 
-![report-bands-design-time-default-layout](../../../images/eurd-win-report-bands-design-time-default-layout.png)
+![report-bands-design-time-default-layout](../../images/eurd-win-report-bands-design-time-default-layout.png)
 
 
 Use the zoom panel to change the Report Designer's default zoom factor.
 
-![report-designer-zoom-panel](../../../images/eurd-win-report-designer-zoom-panel.png)
+![report-designer-zoom-panel](../../images/eurd-win-report-designer-zoom-panel.png)
 
 Switch to the **Preview** tab. This opens a [Print Preview](preview-print-and-export-reports.md) and displays the generated report document with the data source's data.
 
-![eurd-win-preview](../../../images/eurd-win-preview.png)
+![eurd-win-preview](../../images/eurd-win-preview.png)
 
 Switch to the **Scripts** tab to manage and customize [report scripts](use-report-scripts.md).

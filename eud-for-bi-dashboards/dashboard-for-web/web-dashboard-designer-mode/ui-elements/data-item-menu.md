@@ -8,4 +8,4 @@ The data item menu allows you to add measures and dimensions and configure setti
 
 To invoke this menu, click a data item placeholder or the required data item in the dashboard item's [Bindings](dashboard-item-menu.md) menu.
 
-![wdd-data-item-menu](images/img125907.png)
+![wdd-data-item-menu](../../images/img125907.png)

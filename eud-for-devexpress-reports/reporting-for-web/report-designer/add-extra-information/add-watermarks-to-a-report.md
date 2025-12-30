@@ -13,13 +13,13 @@ This tutorial includes information about the following tasks:
 
 * How to use pre-printed forms.
 
-![](../../../images/eurd-web-add-watermarks-result.png)
+![](../../images/eurd-web-add-watermarks-result.png)
 
 ## <a name="addwatermark"></a>Add a Watermark to a Report
 
 Switch to the [Properties](../report-designer-tools/ui-panels/properties-panel.md) panel and expand the **Watermark** node in the **Appearance** category. Click the Add button to create a watermark.
 
-![](../../../images/eurd-web-add-watermarks-properties-panel.png)
+![](../../images/eurd-web-add-watermarks-properties-panel.png)
 
 Specify watermark options, depending on the type of watermark you wish to add.
 
@@ -117,15 +117,15 @@ You can use a picture watermark as a template, to display an image of the prepri
 
 To display a watermark at design time, expand the **Design** category and enable the **Draw the Watermark** property.
 
-![](../../../images/eurd-web-add-preprinted-watermark.png)
+![](../../images/eurd-web-add-preprinted-watermark.png)
 
 The following image illustrates a report with a watermark shown at design time that contains a template of a preprinted form.
 
-![](../../../images/eurd-web-add-a-template-watermark.png)
+![](../../images/eurd-web-add-a-template-watermark.png)
 
 Place report controls on the report's body according to the layout of the preprinted form.
 
-![](../../../images/eurd-web-add-a-template-watermark-result.png)	
+![](../../images/eurd-web-add-a-template-watermark-result.png)	
 
 ## Supported Image Formats
 
@@ -150,19 +150,19 @@ For example, create a watermark and specify its text and picture settings. Set p
 
 As a result, the image is displayed behind the table, while the text is in front of the content:
 
-![](../../../images/eurd-web-watermark-text.png)
+![](../../images/eurd-web-watermark-text.png)
 
 ## Display Watermarks According to the Specified Condition
 
 Bind the report's **Watermark Id** options to an expression to apply watermarks stored in the collection to specific report pages. This option allows you to apply a specific watermark to a page based on the **Watermark Id** or expression binding. 
 
-![](../../../images/web-eud-watermark-id-option.png)
+![](../../images/web-eud-watermark-id-option.png)
 
 For example, the following expression adds the created “First page watermark”, “Even page watermark”, and “Odd page watermark”  watermarks to the first, odd, and even pages of a report:
 
 `Iif([Arguments.PageIndex]=0,'watermark1',Iif([Arguments.PageIndex]%2=0,'watermark2','watermark3'))`
 
-![](../../../images/eurd-web-watermark-image.png)
+![](../../images/eurd-web-watermark-image.png)
 
 
 

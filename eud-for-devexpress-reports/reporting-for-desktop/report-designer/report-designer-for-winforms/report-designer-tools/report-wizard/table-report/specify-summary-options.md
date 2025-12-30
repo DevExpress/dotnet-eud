@@ -8,7 +8,7 @@ title: Specify Summary Options
 
 On this wizard page, you can specify summaries to calculate in the selected reports.
 
-![report-wizard-master-detail-specify-summaries](../../../images/eurd-win-report-wizard-master-detail-specify-summaries.png)
+![report-wizard-master-detail-specify-summaries](../../../../../images/eurd-win-report-wizard-master-detail-specify-summaries.png)
 
 Use the drop-down list at the top of the wizard page to choose a required report.
 
@@ -20,6 +20,6 @@ If data fields can contain empty values and you do not want to take these values
 
 You can stop the wizard at this step by clicking **Finish**. The created report looks similar to the image below.
 
-![report-wizard-master-detail-specify-summaries-result](../../../images/eurd-win-report-wizard-master-detail-specify-summaries-result.png)
+![report-wizard-master-detail-specify-summaries-result](../../../../../images/eurd-win-report-wizard-master-detail-specify-summaries-result.png)
 
 If you want to customize the report further, click **Next** to proceed to the next wizard page: [Set the Report Title](set-the-report-title.md).

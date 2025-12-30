@@ -10,11 +10,11 @@ You can add a new data source to the current dashboard or remove existing data s
 
 To add a new data source, click **Add** next to the **Used Data Sources** list.
 
-![WDD-add-data-source-to-the-collection](images/img124583.png)
+![WDD-add-data-source-to-the-collection](../../images/img124583.png)
 
 The **Add Data Source** window appears.
 
-![WDD-include-selected-data-source-to-the-dashboard](images/wdd-include-selected-data-source-to-the-dashboard124584.png)
+![WDD-include-selected-data-source-to-the-dashboard](../../images/wdd-include-selected-data-source-to-the-dashboard124584.png)
 
 The window allows you to do the following:
 
@@ -29,10 +29,10 @@ You can find the newly added data source in the **Used Data Sources** list.
 
 Select a data source to manage it:
 
-![wdd-manage-data-source](images/wdd-manage-data-source.png)
+![wdd-manage-data-source](../../images/wdd-manage-data-source.png)
 
-Click the **Rename** button (![](images/wdd-icon-rename-data-source.png)) to rename the selected data source. The **Rename Data Source** dialog appears and you can enter a new name:
+Click the **Rename** button (![](../../images/wdd-icon-rename-data-source.png)) to rename the selected data source. The **Rename Data Source** dialog appears and you can enter a new name:
 
-![web-rename-data-source-dialog](images/web-rename-data-source-dialog.png)
+![web-rename-data-source-dialog](../../images/web-rename-data-source-dialog.png)
 
-To remove an existing data source, select it and click **Remove** (![WDD-icon-delete-data-source](images/img124585.png)).
+To remove an existing data source, select it and click **Remove** (![WDD-icon-delete-data-source](../../images/img124585.png)).

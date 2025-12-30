@@ -6,7 +6,7 @@ legacyId: 117947
 # Pivot
 The **Pivot** dashboard item displays a cross-tabular report that presents multi-dimensional data in an easy-to-read format.
 
-![wdd-dashboard-items-pivot](images/img125126.png)
+![wdd-dashboard-items-pivot](../../images/img125126.png)
 
 This section consists of the following topics.
 * [Providing Data](pivot/providing-data.md)

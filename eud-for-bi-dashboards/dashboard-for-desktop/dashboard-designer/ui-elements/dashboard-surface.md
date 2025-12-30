@@ -7,7 +7,7 @@ author: Margarita Zakhodyaeva
 
 The **Dashboard Surface** is the rectangular area that displays the dashboard that you are designing. This area includes [dashboard items](../dashboard-item-settings.md) and the [dashboard title](../dashboard-layout/dashboard-title.md).
 
-![EUDesigner_DashboardSurface](../images/eudesigner_dashboardsurface26155.png)
+![EUDesigner_DashboardSurface](../../images/eudesigner_dashboardsurface26155.png)
 
 You can configure a dashboard layout in the UI:
 

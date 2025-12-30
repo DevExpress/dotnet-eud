@@ -8,7 +8,7 @@ The **Top N** feature allows you to display only a limited number of values that
 
 To enable the Top N feature, open the dashboard item [Bindings](../ui-elements/dashboard-item-menu.md) menu, select a required data item and go to the _Top N_ section.
 
-![wdd-top-n](images/img124644.png)
+![wdd-top-n](../../images/img124644.png)
 
 Click **ON** and specify the following settings.
 

@@ -6,7 +6,7 @@ author: Anna Gubareva
 
 The Report Designer allows you to create data-bound reports and provides a rich set of tools to construct report layouts that meet your requirements. 
 
-![](../../../images/eurd-win-report-designer-start-page.png)
+![](../images/eurd-win-report-designer-start-page.png)
 
 * [First Look at the Report Designer](report-designer-for-winforms/first-look-at-the-report-designer.md)
 * [Add New Reports](report-designer-for-winforms/add-new-reports.md)

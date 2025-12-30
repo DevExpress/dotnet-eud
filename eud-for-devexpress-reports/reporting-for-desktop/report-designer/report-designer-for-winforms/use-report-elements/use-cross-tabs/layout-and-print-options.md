@@ -6,7 +6,7 @@ author: Sergey Andreev
 
 Use the **Layout Options** property to change the cells' order and location.
 
-![](../../../images/eurd-win-cross-tab-layout-options-properties-window.png)
+![](../../../../images/eurd-win-cross-tab-layout-options-properties-window.png)
 
 * **Column Total Header Position**, **Row Total Header Position**  
     Specifies where to display column/row total headers:
@@ -38,13 +38,13 @@ Use the **Layout Options** property to change the cells' order and location.
 
 Use a cell's **Row Visible** and **Column Visible** properties to specify row and column visibility. For instance, select the bottom right cell and disable these options to hide grand totals. At design time, invisible cells are filled with a hatch brush.
 
-![](../../../images/eurd-win-cross-tab-with-hidden-grand-totals.png)
+![](../../../../images/eurd-win-cross-tab-with-hidden-grand-totals.png)
 
 ## Print Options
 
 Use the **Print Options** property to specify print options and define which Cross Tab elements to print.
 
-![](../../../images/eurd-win-cross-tab-print-options-properties-window.png)
+![](../../../../images/eurd-win-cross-tab-print-options-properties-window.png)
 
 * **Print Layout**  
     Specifies how to print the Cross Tab content that does not fit the page's width:
@@ -69,15 +69,15 @@ Use the **Print Options** property to specify print options and define which Cro
 
 Drag the Cross Tab's handlers to change its size. You can also resize individual rows and columns.
 
-![](../../../images/eurd-win-cross-tab-change-size.png)
+![](../../../../images/eurd-win-cross-tab-change-size.png)
 
 Use a cell's **Column Auto Width Mode** property to specify a cell width calculation method.
 
-![](../../../images/eurd-win-cross-tab-cell-column-auto-width-mode.png)
+![](../../../../images/eurd-win-cross-tab-cell-column-auto-width-mode.png)
 
 Use a cell's **Row Auto Height Mode** property to specify whether and how a cell's height changes to fit its content.
 
-![](../../../images/cross-tab-row-auto-height-mode-property.png)
+![](../../../../images/cross-tab-row-auto-height-mode-property.png)
 
 Column widths are changed before row heights.
 
@@ -85,8 +85,8 @@ Column widths are changed before row heights.
 
 You can double-click any cell that displays the header and use the in-place editor to enter text.
 
-![](../../../images/eurd-win-cross-tab-cell-in-place-editor.png)
+![](../../../../images/eurd-win-cross-tab-cell-in-place-editor.png)
 
 Each Cross Tab cell provides the **Angle** property that allows you to rotate the cell's text.
 
-![](../../../images/eurd-win-cross-tab-cell-angle-property.png)
+![](../../../../images/eurd-win-cross-tab-cell-angle-property.png)

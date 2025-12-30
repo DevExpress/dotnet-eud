@@ -877,3 +877,155 @@ items:
       href: report-designer/report-designer-for-wpf/document-preview/search-panel.md
     - name: Document Map Panel
       href: report-designer/report-designer-for-wpf/document-preview/document-map-panel.md
+- name: Print Preview for WinForms
+  href: print-preview/print-preview-for-winforms.md
+  items:
+  - name: File Management
+    items:
+    - name: Save a Print Preview to a File
+      href: print-preview/print-preview-for-winforms/file-management/save-a-print-preview-to-a-file.md
+    - name: Load a Print Preview from a File
+      href: print-preview/print-preview-for-winforms/file-management/load-a-print-preview-from-a-file.md
+    - name: Printing and Page Setup
+      items:
+      - name: Print a Document via the Print Dialog
+        href: print-preview/print-preview-for-winforms/printing-and-page-setup/print-a-document-via-the-print-dialog.md
+      - name: Print a Document Using Default Settings
+        href: print-preview/print-preview-for-winforms/printing-and-page-setup/print-a-document-using-default-settings.md
+      - name: Change Printing Settings via the Page Setup Dialog
+        href: print-preview/print-preview-for-winforms/printing-and-page-setup/change-printing-settings-via-the-page-setup-dialog.md
+      - name: Specify Page Margins in Print Preview
+        href: print-preview/print-preview-for-winforms/printing-and-page-setup/specify-page-margins-in-print-preview.md
+      - name: Print Selection
+        href: print-preview/print-preview-for-winforms/printing-and-page-setup/print-selection.md
+    - name: Scaling
+      items:
+      - name: Scale Print Preview by Entering a Zoom Factor
+        href: print-preview/print-preview-for-winforms/scaling/scale-print-preview-by-entering-a-zoom-factor.md
+    - name: Zooming
+      items:
+      - name: Zoom Print Preview In or Out
+        href: print-preview/print-preview-for-winforms/zooming/zoom-print-preview-in-or-out.md
+      - name: Zoom Print Preview by Entering a Zoom Factor
+        href: print-preview/print-preview-for-winforms/zooming/zoom-print-preview-by-entering-a-zoom-factor.md
+      - name: Zoom Print Preview to Show Whole Pages or Fit Content
+        href: print-preview/print-preview-for-winforms/zooming/zoom-print-preview-to-show-whole-pages-or-fit-content.md
+      - name: Show Two or More Pages in Print Preview
+        href: print-preview/print-preview-for-winforms/zooming/show-two-or-more-pages-in-print-preview.md
+    - name: Viewing and Navigating
+      items:
+      - name: Navigate Between Pages in Print Preview
+        href: print-preview/print-preview-for-winforms/viewing-and-navigating/navigate-between-pages-in-print-preview.md
+      - name: Use the Hand Tool in Print Preview
+        href: print-preview/print-preview-for-winforms/viewing-and-navigating/use-the-hand-tool-in-print-preview.md
+      - name: Navigate in Print Preview Using Bookmarks
+        href: print-preview/print-preview-for-winforms/viewing-and-navigating/navigate-in-print-preview-using-bookmarks.md
+      - name: Navigate in Print Preview Using Thumbnails
+        href: print-preview/print-preview-for-winforms/viewing-and-navigating/navigate-in-print-preview-using-thumbnails.md
+      - name: Search for a Specific Text in Print Preview
+        href: print-preview/print-preview-for-winforms/viewing-and-navigating/search-for-a-specific-text-in-print-preview.md
+    - name: Interactivity
+      items:
+      - name: Content Editing in Print Preview
+        href: print-preview/print-preview-for-winforms/interactivity/content-editing-in-print-preview.md
+    - name: Watermark and Background
+      items:
+      - name: Change Watermark and Background Settings in Print Preview
+        href: print-preview/print-preview-for-winforms/watermark-and-background/change-watermark-and-background-settings-in-print-preview.md
+    - name: Exporting
+      items:
+      - name: Exporting from Print Preview
+        href: print-preview/print-preview-for-winforms/exporting/exporting-from-print-preview.md
+      - name: Copy to the Clipboard
+        href: print-preview/print-preview-for-winforms/exporting/copy-to-the-clipboard.md
+      - name: PDF-Specific Export Options
+        href: print-preview/print-preview-for-winforms/exporting/pdf-specific-export-options.md
+      - name: HTML-Specific Export Options
+        href: print-preview/print-preview-for-winforms/exporting/html-specific-export-options.md
+      - name: MHT-Specific Export Options
+        href: print-preview/print-preview-for-winforms/exporting/mht-specific-export-options.md
+      - name: RTF-Specific Export Options
+        href: print-preview/print-preview-for-winforms/exporting/rtf-specific-export-options.md
+      - name: DOCX-Specific Export Options
+        href: print-preview/print-preview-for-winforms/exporting/docx-specific-export-options.md
+      - name: XLS-Specific Export Options
+        href: print-preview/print-preview-for-winforms/exporting/xls-specific-export-options.md
+      - name: XLSX-Specific Export Options
+        href: print-preview/print-preview-for-winforms/exporting/xlsx-specific-export-options.md
+      - name: CSV-Specific Export Options
+        href: print-preview/print-preview-for-winforms/exporting/csv-specific-export-options.md
+      - name: TXT-Specific Export Options
+        href: print-preview/print-preview-for-winforms/exporting/txt-specific-export-options.md
+      - name: Image-Specific Export Options
+        href: print-preview/print-preview-for-winforms/exporting/image-specific-export-options.md
+    - name: Passing Parameters in Print Preview
+      href: print-preview/print-preview-for-winforms/passing-parameters-in-print-preview.md
+    - name: Warnings and Error Messages in Print Preview
+      href: print-preview/print-preview-for-winforms/warnings-and-error-messages-in-print-preview.md
+- name: Print Preview for WPF
+  href: print-preview/print-preview-for-wpf.md
+  items:
+  - name: File Management
+    items:
+    - name: Save a Print Preview to a File
+      href: print-preview/print-preview-for-wpf/file-management/save-a-print-preview-to-a-file.md
+    - name: Load a Print Preview from a File
+      href: print-preview/print-preview-for-wpf/file-management/load-a-print-preview-from-a-file.md
+  - name: Printing and Page Setup
+    items:
+    - name: Print a Document Using the Print Dialog
+      href: print-preview/print-preview-for-wpf/printing-and-page-setup/print-a-document-using-the-print-dialog.md
+    - name: Print a Document Using Default Settings
+      href: print-preview/print-preview-for-wpf/printing-and-page-setup/print-a-document-using-default-settings.md
+    - name: Change Print Settings Using the Page Setup Dialog
+      href: print-preview/print-preview-for-wpf/printing-and-page-setup/change-print-settings-using-the-page-setup-dialog.md
+    - name: Scaling
+      href: print-preview/print-preview-for-wpf/printing-and-page-setup/scaling.md
+  - name: Navigating
+    items:
+    - name: Navigate Between Pages
+      href: print-preview/print-preview-for-wpf/navigating/navigate-between-pages.md
+    - name: Navigate Using Bookmarks
+      href: print-preview/print-preview-for-wpf/navigating/navigate-using-bookmarks.md
+    - name: Navigate Using Thumbnails
+      href: print-preview/print-preview-for-wpf/navigating/navigate-using-thumbnails.md
+    - name: Navigate Using the Hand Tool
+      href: print-preview/print-preview-for-wpf/navigating/navigate-using-the-hand-tool.md
+    - name: Search for a Specific Text
+      href: print-preview/print-preview-for-wpf/navigating/search-for-a-specific-text.md
+  - name: Interactivity
+    items:
+    - name: Content Editing in Print Preview
+      href: print-preview/print-preview-for-wpf/interactivity/content-editing-in-print-preview.md
+  - name: Zooming
+    href: print-preview/print-preview-for-wpf/zooming.md
+  - name: Passing Parameter Values
+    href: print-preview/print-preview-for-wpf/passing-parameter-values.md
+  - name: Changing a Watermark
+    href: print-preview/print-preview-for-wpf/changing-a-watermark.md
+  - name: Exporting
+    items:
+    - name: Exporting
+      href: print-preview/print-preview-for-wpf/exporting/exporting.md
+    - name: Copying to the Clipboard
+      href: print-preview/print-preview-for-wpf/exporting/copying-to-the-clipboard.md
+    - name: PDF-Specific Export Options
+      href: print-preview/print-preview-for-wpf/exporting/pdf-specific-export-options.md
+    - name: HTML-Specific Export Options
+      href: print-preview/print-preview-for-wpf/exporting/html-specific-export-options.md
+    - name: MHT-Specific Export Options
+      href: print-preview/print-preview-for-wpf/exporting/mht-specific-export-options.md
+    - name: RTF-Specific Export Options
+      href: print-preview/print-preview-for-wpf/exporting/rtf-specific-export-options.md
+    - name: DOCX-Specific Export Options
+      href: print-preview/print-preview-for-wpf/exporting/docx-specific-export-options.md
+    - name: XLS-Specific Export Options
+      href: print-preview/print-preview-for-wpf/exporting/xls-specific-export-options.md
+    - name: XLSX-Specific Export Options
+      href: print-preview/print-preview-for-wpf/exporting/xlsx-specific-export-options.md
+    - name: CSV-Specific Export Options
+      href: print-preview/print-preview-for-wpf/exporting/csv-specific-export-options.md
+    - name: Text-Specific Export Options
+      href: print-preview/print-preview-for-wpf/exporting/text-specific-export-options.md
+    - name: Image-Specific Export Options
+      href: print-preview/print-preview-for-wpf/exporting/image-specific-export-options.md      

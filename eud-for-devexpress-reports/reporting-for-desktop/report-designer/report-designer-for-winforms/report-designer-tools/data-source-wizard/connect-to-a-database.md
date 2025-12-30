@@ -5,7 +5,7 @@ title: Connect to a Database
 
 The topics in this section describe the steps required to connect a report to a database.
 
-![](../../../images/eurd-win-data-source-wizard.png)
+![](../../../../images/eurd-win-data-source-wizard.png)
 
 The following data source types are supported.
 

@@ -9,38 +9,38 @@ The **Query Builder** is a visual queries editor. You can invoke it from the [Da
 ## <a id="select"></a>Select Tables
 Drag and drop a specific table or view onto the Query Builder design surface to include it into a query result set. 
 
-![](../../../images/eurd-web-designer-query-builder-select-table-drag-and-drop.png)
+![](../../images/eurd-web-designer-query-builder-select-table-drag-and-drop.png)
 
 The Query Builder provides a toolbar with the following commands:
 
 | Icon | Description |
 |---|---|
-| ![web-designer-query-builder-button-delete](../../../images/eurd-web-designer-query-builder-button-delete.png) | Removes the selected table or view from the query. |
-| ![web-designer-query-builder-button-undo](../../../images/eurd-web-designer-query-builder-button-undo.png) | Reverses the most recent action. |
-| ![web-designer-query-builder-button-redo](../../../images/eurd-web-designer-query-builder-button-redo.png) | Performs the previously undone action. |
+| ![web-designer-query-builder-button-delete](../../images/eurd-web-designer-query-builder-button-delete.png) | Removes the selected table or view from the query. |
+| ![web-designer-query-builder-button-undo](../../images/eurd-web-designer-query-builder-button-undo.png) | Reverses the most recent action. |
+| ![web-designer-query-builder-button-redo](../../images/eurd-web-designer-query-builder-button-redo.png) | Performs the previously undone action. |
 
 Enable check boxes for the table columns you want to include into the query result set.
 
-![](../../../images/eurd-web-designer-query-builder-select-fields.png)
+![](../../images/eurd-web-designer-query-builder-select-fields.png)
 
 Use the search box to find a table or view by name. 
 
-![](../../../images/eurd-web-designer-query-builder-search-tables.png)
+![](../../images/eurd-web-designer-query-builder-search-tables.png)
 
 ## <a id="join"></a>Join Tables
 The Query Builder allows you to join tables and/or views. Use drag and drop to connect corresponding columns (key fields). The connected columns should have identical data types.
 
-![](../../../images/eurd-web-designer-query-builder-join-tables.png)
+![](../../images/eurd-web-designer-query-builder-join-tables.png)
 
 Click the data relation to display the **Relation Properties** section. Properties in this section define the join type (**Inner** or **Left Outer**) and applied logical operator.
 
-![](../../../images/eurd-web-designer-query-builder-join-tables-selection-properties.png)
+![](../../images/eurd-web-designer-query-builder-join-tables-selection-properties.png)
 
 A left outer join returns all the values from an inner join along with all values in the "left" table that do not match to the "right" table and includes rows with NULL (empty) values in the key field.
 
 If you select the left outer join, the relationship line displays an arrow which points at the "right" table of the join clause.
 
-![](../../../images/eurd-web-designer-query-builder-join-tables-left-outer.png)
+![](../../images/eurd-web-designer-query-builder-join-tables-left-outer.png)
 
 The executed query returns a "flat" table which joins different tables within a single query. The specified join options define which data records compose the query result set.
 
@@ -50,7 +50,7 @@ The executed query returns a "flat" table which joins different tables within a 
 ## <a id="filter"></a>Filter Data
 Expand the **Query Properties** section to display the query options.
 
-![](../../../images/eurd-web-designer-query-builder-selection-properties.png)
+![](../../images/eurd-web-designer-query-builder-selection-properties.png)
 
 The query provides the following options:
 
@@ -86,7 +86,7 @@ The query provides the following options:
 ## <a id="shape"></a>Shape Data
 Select a table or view and click a data column to display the data column options.
 
-![](../../../images/eurd-web-designer-query-builder-shape-data.png)
+![](../../images/eurd-web-designer-query-builder-shape-data.png)
 
 The **Column Properties** section contains the following options:
 
@@ -141,7 +141,7 @@ The **Column Properties** section contains the following options:
 
 Use the **Parameters** section to add, remove and edit [query parameters](../bind-to-data/specify-query-parameters.md). 
 
-![](../../../images/eurd-web-designer-query-builder-parameters.png)
+![](../../images/eurd-web-designer-query-builder-parameters.png)
 
 Each query parameter provides the following properties:
 
@@ -175,4 +175,4 @@ Click the **Preview Results** button to test a query on the actual data's limite
 
 The opened **Data Preview** screen displays the first **100** data records of the query result set.
 
-![web-designer-query-builder-data-preview](../../../images/eurd-web-designer-query-builder-data-preview.png)
+![web-designer-query-builder-data-preview](../../images/eurd-web-designer-query-builder-data-preview.png)

@@ -51,4 +51,4 @@ Date-time values support the following group intervals.
 ## <a name="changegroupinterval"/>Changing Group Interval
 To specify the group interval in the Designer, invoke the data item menu and select the desired group interval. Less common group intervals are organized in the **More** submenus.
 
-![DataShaping_GroupInterval_DateTime_Menu](../images/img19330.png)
+![DataShaping_GroupInterval_DateTime_Menu](../../images/img19330.png)

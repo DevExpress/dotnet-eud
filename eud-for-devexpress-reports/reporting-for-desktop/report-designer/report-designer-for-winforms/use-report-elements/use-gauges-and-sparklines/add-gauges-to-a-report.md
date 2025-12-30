@@ -10,11 +10,11 @@ The **Gauge** control provides you with the capability to embed graphical gauges
 
 To add this control to the report, drag the **Gauge** item from the [Toolbox](../../report-designer-tools/ui-panels/toolbox.md) and drop it onto the report.
 
-![](../../../images/eurd-win-add-gauge-control-to-report.png)
+![](../../../../images/eurd-win-add-gauge-control-to-report.png)
 
 Use the [Toolbar](../../report-designer-tools/ui-panels/toolbar.md)'s **Gauge Tools** contextual tab to select a gauge's appearance.
 
-![](../../../images/eurd-win-gauge-tools-toolbar-contextual-tab.png)
+![](../../../../images/eurd-win-gauge-tools-toolbar-contextual-tab.png)
 
 * **View**
 	
@@ -22,13 +22,13 @@ Use the [Toolbar](../../report-designer-tools/ui-panels/toolbar.md)'s **Gauge To
 
     * **Linear**
 		
-		![](../../../images/eurd-win-gauge-control-linear-type.png)
+		![](../../../../images/eurd-win-gauge-control-linear-type.png)
 		
 		Supported view styles: **Horizontal** and **Vertical**.
 	
 	* **Circular**
 		
-		![](../../../images/eurd-win-gauge-control-circular-type.png)
+		![](../../../../images/eurd-win-gauge-control-circular-type.png)
 		
 		Supported view styles: **Full**, **Half**, **Quarter Left**, **Quarter Right** and **Three Fourth**.
 
@@ -36,7 +36,7 @@ Use the [Toolbar](../../report-designer-tools/ui-panels/toolbar.md)'s **Gauge To
 	
 	Specifies the gauge's color theme. The **Flat Light** and **Flat Dark** view themes are supported.
 	
-	![](../../../images/eurd-win-gauge-control-view-theme.png)
+	![](../../../../images/eurd-win-gauge-control-view-theme.png)
 
 The following properties allow you to customize the gauge scale and specify its displayed values.
 
@@ -45,14 +45,14 @@ The following properties allow you to customize the gauge scale and specify its 
 * **Maximum** - specifies the gauge's maximum value.
 * **Minimum** - specifies the gauge's minimum value.
 
-![](../../../images/eurd-win-gauge-control-smart-tag-properties.png)
+![](../../../../images/eurd-win-gauge-control-smart-tag-properties.png)
 
 
 ## Bind a Gauge to Data
 
 To [bind](../bind-controls-to-data.md) the gauge's displayed value to data, click the control's smart tag and in the invoked actions list, expand the **Expression** drop-down list for the **Actual Value** property and select the required data field.
 
-![](../../../images/eurd-win-gauge-control-bind-to-data.png)
+![](../../../../images/eurd-win-gauge-control-bind-to-data.png)
 
 In the same way, you can bind the **Target Value**, **Minimum** and **Maximum** properties to data. To do this, expand the **Expression** drop-down list for the corresponding property and select the required data field.
 

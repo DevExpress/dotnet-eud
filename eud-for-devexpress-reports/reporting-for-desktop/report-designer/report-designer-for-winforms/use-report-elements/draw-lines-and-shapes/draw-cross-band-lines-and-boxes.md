@@ -13,7 +13,7 @@ The Report Designer provides the following two cross-band controls:
 
 To add a cross-band control to a report, select the corresponding item in the [Toolbox](../../report-designer-tools/ui-panels/toolbox.md) and draw a rectangle across required bands.
 
-![](../../../images/eurd-win-add-cross-band-control-to-report.png)
+![](../../../../images/eurd-win-add-cross-band-control-to-report.png)
 
 The following properties define a cross-band control's location in a report:
 
@@ -22,9 +22,9 @@ The following properties define a cross-band control's location in a report:
 * **End Band** -  determines the band where the cross-band control stops to draw;
 * **End Point** - specifies the exact coordinates (measured in [report units](../../configure-design-settings/change-a-report-measurement-units.md)) within the end band where the control finishes to draw.
 
-![](../../../images/eurd-win-cross-band-control-properties.png)
+![](../../../../images/eurd-win-cross-band-control-properties.png)
 
 The following image illustrates how the [Report Explorer](../../report-designer-tools/ui-panels/report-explorer.md) reflects cross-band controls:
 
-![](../../../images/eurd-win-cross-band-controls-in-report-explorer.png)
+![](../../../../images/eurd-win-cross-band-controls-in-report-explorer.png)
 

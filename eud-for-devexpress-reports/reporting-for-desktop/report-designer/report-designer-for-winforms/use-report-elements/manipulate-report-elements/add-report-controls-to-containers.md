@@ -6,15 +6,15 @@ author: Anna Gubareva
 
 The [Panel](../use-basic-report-controls/panel.md) control allows you to place various report controls on it to combine them into a group.
 
-![](../../../images/eurd-win-add-report-controls-to-panel.png)
+![](../../../../images/eurd-win-add-report-controls-to-panel.png)
 
 You can use this panel to move, copy, change appearance settings, etc. instead of adjusting individual controls.
 
-![](../../../images/eurd-win-panel-control-moving.png)
+![](../../../../images/eurd-win-panel-control-moving.png)
 
 A [table cell](../use-tables.md) can also act as a container for other controls.
 
-![](../../../images/eurd-win-add-control-to-table-cell.png)
+![](../../../../images/eurd-win-add-control-to-table-cell.png)
 
 Both panel and table cells cannot contain the following report controls:
 * [Pivot Grid](../use-charts-and-pivot-grids.md)
@@ -25,4 +25,4 @@ Both panel and table cells cannot contain the following report controls:
 
 If a panel or table cell includes only one control, you can use the **Fit Bounds to Container** command in the context menu to position the control within the container. This command resizes the control so that it occupies all the available space (except borders).
 
-![](../../../images/eurd-win-fit-bounds-to-container.png)
+![](../../../../images/eurd-win-fit-bounds-to-container.png)

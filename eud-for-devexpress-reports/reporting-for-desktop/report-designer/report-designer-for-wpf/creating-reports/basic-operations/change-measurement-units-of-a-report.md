@@ -9,10 +9,10 @@ For your report, you can choose its global **Measure Units**, which can be **Hun
 To specify the **Measure Unit** property, do one of the following:
 * Click the report’s smart tag and set this property to the required value.
 	
-	![EUD_WpfReportDesigner_MeasureUnit_1](../../../images/img123773.png)
+	![EUD_WpfReportDesigner_MeasureUnit_1](../../../../images/img123773.png)
 * Select the report and switch to the [Properties Panel](../../interface-elements/properties-panel.md). Expand the **Measure Units** drop-down and select the required value.
 	
-	![EUD_WpfReportDesigner_MeasureUnit_2](../../../images/img123774.png)
+	![EUD_WpfReportDesigner_MeasureUnit_2](../../../../images/img123774.png)
 
 This defines the basic measurement unit for all the unit-related options of a report and its [bands](../../report-elements/report-bands.md) and [controls](../../report-elements/report-controls.md) (such as location, size, border width, etc.) as well as the measurement unit of the report's [Snap Grid](control-positioning.md).
 

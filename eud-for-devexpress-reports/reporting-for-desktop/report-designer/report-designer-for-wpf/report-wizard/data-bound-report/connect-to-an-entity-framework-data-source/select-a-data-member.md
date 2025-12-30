@@ -6,6 +6,6 @@ legacyId: 116920
 # Select a Data Member
 This wizard page allows you to select one of the available data members that will provide data to your report.
 
-![WpfReportWizard_EF_SelectDataMember](../../../images/img124455.png)
+![WpfReportWizard_EF_SelectDataMember](../../../../../images/img124455.png)
 
 Click **Next** to proceed to the next wizard page: [Configure Filters](configure-filters.md).

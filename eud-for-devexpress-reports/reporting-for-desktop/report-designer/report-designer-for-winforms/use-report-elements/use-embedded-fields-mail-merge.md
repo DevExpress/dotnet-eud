@@ -29,7 +29,7 @@ Consider the following specifics and limitations when using embedded fields:
 
 * Field names should not use spaces to be interpreted correctly.
 * Mail Merge is not available for a table's nested fields in a master-detail hierarchy.
-* Embedded fields cannot be exported to [XLS](../../../../../interface-elements-for-desktop/articles/print-preview/print-preview-for-winforms/exporting/xls-specific-export-options.md) and [XLSX](../../../../../interface-elements-for-desktop/articles/print-preview/print-preview-for-winforms/exporting/xlsx-specific-export-options.md) as values; they are always exported as plain text. We recommend using [text formats](../shape-report-data/format-data.md) instead if you need to accompany dynamic data with static text.
+* Embedded fields cannot be exported to XLS and XLSX as values; they are always exported as plain text. We recommend using [text formats](../shape-report-data/format-data.md) instead if you need to accompany dynamic data with static text.
 
 ## <a name="formatfields"></a>Format Embedded Fields
 The mail merge feature enables you to apply formats to embedded field values. Select a required data field and click the control's smart tag. Click the **Format String** property's ellipsis button, and in the invoked **Format String Editor**, choose a built-in format pattern.

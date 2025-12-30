@@ -6,7 +6,7 @@ legacyId: 115381
 # RTF Export Options
 Before [exporting a document](export-a-document.md) to RTF, you can specify RTF-specific options in the **Export Options** panel.
 
-![EUD_HTML5DV_RtfExportOptions](../../../images/img121805.png)
+![EUD_HTML5DV_RtfExportOptions](../../images/img121805.png)
 * **Export Mode**
 	
 	Specifies how a document is exported to RTF. The following modes are available.

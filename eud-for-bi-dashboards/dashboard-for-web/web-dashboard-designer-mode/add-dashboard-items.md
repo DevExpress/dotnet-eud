@@ -8,11 +8,11 @@ After [creating a dashboard](create-a-dashboard.md) and [provide data](provide-d
 
 To create a dashboard item, click the corresponding button in the [Toolbox](ui-elements/toolbox.md) or drag an item from the Toolbox into the dashboard surface.
 
-![wdd-add-dashboard-item](images/img124596.png)
+![wdd-add-dashboard-item](../images/img124596.png)
 
 This creates an empty dashboard item, which you can now configure.
 
-![wdd-empty-dashboard-item](images/img124597.png)
+![wdd-empty-dashboard-item](../images/img124597.png)
 
 To completely design a dashboard item, perform the following steps.
 * [Bind](bind-dashboard-items-to-data.md) the dashboard item to data.
@@ -23,4 +23,4 @@ To completely design a dashboard item, perform the following steps.
 
 To remove the dashboard item from the dashboard surface, use the **Delete** button in the [dashboard item menu](ui-elements/dashboard-item-menu.md).
 
-![wdd-delete-dashboard-item](images/img125500.png)
+![wdd-delete-dashboard-item](../images/img125500.png)

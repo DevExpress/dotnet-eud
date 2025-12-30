@@ -11,10 +11,10 @@ The **Grid** dashboard item supports filtering by rows.
 
 When Master Filtering is enabled, you can click a grid row (or multiple rows by holding down the **CTRL** key) to make other dashboard items only display data related to the selected record(s).
 
-![MainFeatures_MasterFiltering_Win](../../../images/img25347.gif)
+![MainFeatures_MasterFiltering_Win](../../../../images/img25347.gif)
 
 To learn how to enable Master Filtering in the Designer, see the [Master Filtering](../../../interactivity/master-filtering.md) topic.
 
-To reset filtering, use the **Clear Master Filter** button (the ![DataShaping_Interactivity_ClearSelection](../../../images/img19686.png) icon) in the grid's [caption](../../../dashboard-layout/dashboard-item-caption.md) area, or the **Clear Master Filter** command in the grid's context menu.
+To reset filtering, use the **Clear Master Filter** button (the ![DataShaping_Interactivity_ClearSelection](../../../../images/img19686.png) icon) in the grid's [caption](../../../dashboard-layout/dashboard-item-caption.md) area, or the **Clear Master Filter** command in the grid's context menu.
 
-![ContextMenu_ClearMasterFilter](../../../images/img22716.png)
+![ContextMenu_ClearMasterFilter](../../../../images/img22716.png)

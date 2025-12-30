@@ -17,14 +17,14 @@ A range series is a space between two simple series displayed as a filled area (
 
 When you select the **Range Bar** or **Range Area** series type in the Designer, the [DATA ITEMS](../../../ui-elements/data-items-pane.md) area displays two data item placeholders. Drag and drop the required measures to corresponding placeholders.
 
-![RangeSeries_DataBinding](../../../images/img117779.png)
+![RangeSeries_DataBinding](../../../../images/img117779.png)
 
 ## <a name="range-bar"/>Range Bar
 Range Bar series are similar to [Bar series](bar-series.md) except that they are drawn between a range of values.
 
-![RangeBar](../../../images/img117776.png)
+![RangeBar](../../../../images/img117776.png)
 
 ## <a name="range-area"/>Range Area
 Range Area series are similar to [Area series](area-series.md) except that their areas are filled between a range of values.
 
-![RangeArea](../../../images/img117777.png)
+![RangeArea](../../../../images/img117777.png)

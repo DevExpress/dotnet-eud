@@ -14,13 +14,13 @@ Use the following approaches to create a visual style in your report:
 
     Expand the [Properties](../report-designer-tools/ui-panels/properties-panel.md) panel's **Styles** category, click the drop-down list for the **Style** property and select **Create a New Style**. 
     
-    ![](../../../images/eurd-web-styles-properties-panel.png)
+    ![](../../images/eurd-web-styles-properties-panel.png)
 
 - **Use the Report Explorer**
     
-    Switch to the [Report Explorer](../report-designer-tools/ui-panels/report-explorer.md) panel, select the **Styles** node and click the plus button ![](../../../images/eurd-web-styles-create.png) to add a new report visual style.
+    Switch to the [Report Explorer](../report-designer-tools/ui-panels/report-explorer.md) panel, select the **Styles** node and click the plus button ![](../../images/eurd-web-styles-create.png) to add a new report visual style.
 
-    ![](../../../images/eurd-web-styles-in-report-explorer-add.png)
+    ![](../../images/eurd-web-styles-in-report-explorer-add.png)
 
     To access the collection of added report visual styles, expand the **Styles** category in the [Report Explorer](../report-designer-tools/ui-panels/report-explorer.md).
 
@@ -29,26 +29,26 @@ Use the following approaches to create a visual style in your report:
 
 Drag a report style from the Report Explorer onto a report control. This assigns the style to the report element's **Style** property.
 
-![](../../../images/eurd-web-assign-style.png)
+![](../../images/eurd-web-assign-style.png)
 
 
 ## Assign Odd and Even Styles
 
 You can use the **Odd Style** and **Even Style** properties to apply different styles to alternating rows in a report.
 
-![](../../../images/eurd-web-styleproperty-oddeven.png)
+![](../../images/eurd-web-styleproperty-oddeven.png)
 
-![](../../../images/eurd-web-use-oddevenstyles.png)
+![](../../images/eurd-web-use-oddevenstyles.png)
 
 ## Customize a Style
 
-Select a style and click the **Properties** ![](../../../images/eurd-web-styles-edit.png) button in the Report Explorer. 
+Select a style and click the **Properties** ![](../../images/eurd-web-styles-edit.png) button in the Report Explorer. 
 
-![](../../../images/eurd-web-edit-style.png)
+![](../../images/eurd-web-edit-style.png)
 
 This opens the Properties panel where you can adjust the settings of the selected style. All the report elements apply the updated style immediately.
 
-![](../../../images/eurd-web-customize-style.png)
+![](../../images/eurd-web-customize-style.png)
 
 
 

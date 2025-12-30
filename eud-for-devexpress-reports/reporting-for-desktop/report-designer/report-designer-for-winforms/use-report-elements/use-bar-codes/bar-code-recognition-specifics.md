@@ -24,9 +24,9 @@ For the [Code 128](code-128.md) symbology, you can also define **FNC2-4** charac
 For the list of the available application identifiers, refer to the official documentation at [www.gs1.org](http://www.gs1.org/).
 
 ## Specify the Barcode Resolution on Export to Third-Party Formats
-At present, only [export to PDF](../../../../../../interface-elements-for-desktop/articles/print-preview/print-preview-for-winforms/exporting/pdf-specific-export-options.md) preserves the original barcode in its vector form. Export to other formats will keep only the rasterized version of a barcode (with the default DPI set to **96**).
+At present, only export to PDF preserves the original barcode in its vector form. Export to other formats will keep only the rasterized version of a barcode (with the default DPI set to **96**).
 
-For [XLSX](../../../../../../interface-elements-for-desktop/articles/print-preview/print-preview-for-winforms/exporting/xlsx-specific-export-options.md) and [XLS](../../../../../../interface-elements-for-desktop/articles/print-preview/print-preview-for-winforms/exporting/xls-specific-export-options.md) export, the output resolution can be set up manually using the **Rasterization Resolution** property.
+For XLSX and XLS export, the output resolution can be set up manually using the **Rasterization Resolution** property.
 
 ## Specify the DPI of the Device Used to Print the Bar Code
 

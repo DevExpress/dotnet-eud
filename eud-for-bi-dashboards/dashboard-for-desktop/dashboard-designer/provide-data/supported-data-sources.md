@@ -87,7 +87,7 @@ To create an XPO data source and specify connection parameters, see [Binding to 
 **Extract Data Source** is a compressed snapshot of data from a regular data source.
 This data is saved to a local file and can be updated from the original data source at any time.
 
- ![Extract data source](../images/extract-data-source.png)
+ ![Extract data source](../../images/extract-data-source.png)
 
  The extract data file is optimized for data grouping. It reduces the initial dashboard load time.
  A special in-memory cache allows you to improve performance when accessing extract data. 

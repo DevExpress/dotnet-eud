@@ -6,7 +6,7 @@ legacyId: 117946
 # Gauges
 The **Gauge** dashboard item displays a series of gauges. Each gauge can communicate two values - one with a needle and the other with a marker on the scale.
 
-![wdd-dashboard-items-gauges](images/img125120.png)
+![wdd-dashboard-items-gauges](../../images/img125120.png)
 
 The following sections are available.
 * [Providing Data](gauges/providing-data.md)

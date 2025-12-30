@@ -8,4 +8,4 @@ The Web Dashboard keeps track of all user actions, and allows you to undo or rep
 
 To undo/redo the last action, use the following buttons located in the [Toolbox](ui-elements/toolbox.md).
 
-![wdd-undo-redo](images/img125582.png)
+![wdd-undo-redo](../images/img125582.png)

@@ -6,7 +6,7 @@ legacyId: 117943
 # Grid
 The topics in this section describe the features available in the **Grid** dashboard item, and provide information on how to create and customize grids
 
-![wdd-dashboard-items-grid](images/img125122.png)
+![wdd-dashboard-items-grid](../../images/img125122.png)
 * [Providing Data](grid/providing-data.md)
 	
 	Provides information about how to supply the Grid dashboard item with data.

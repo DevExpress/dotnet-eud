@@ -10,7 +10,7 @@ The Dashboard Designer allows you to bind various dashboard items to data in a v
 
 The image below shows a sample Bubble Map dashboard item that is bound to data.
 
-![BubbleMap_DataItems](../../../images/img23580.png)
+![BubbleMap_DataItems](../../../../images/img23580.png)
 
 Note that the Bubble Map provides two data item groups for data binding: DATA ITEMS and TOOLTIP DATA ITEMS.
 Tables below list the available data sections.

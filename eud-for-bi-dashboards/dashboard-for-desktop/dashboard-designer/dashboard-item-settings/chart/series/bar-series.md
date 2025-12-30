@@ -14,14 +14,14 @@ The following types of Bar series are available.
 ## <a name="bar"/>Bar
 Bar series can be used to compare values across categories.
 
-![BarSeries_Bar](../../../images/img117740.png)
+![BarSeries_Bar](../../../../images/img117740.png)
 
 ## <a name="stacked-bar"/>Stacked Bar
 Stacked Bar series show the contribution of individual categories to the whole.
 
-![BarSeries_StackedBar](../../../images/img117741.png)
+![BarSeries_StackedBar](../../../../images/img117741.png)
 
 ## <a name="full-stacked-bar"/>Full-Stacked Bar
 Full-Stacked Bar series allow you to compare the percentage that each value contributes to a total across categories.
 
-![BarSeries_FullStackedBar](../../../images/img117742.png)
+![BarSeries_FullStackedBar](../../../../images/img117742.png)

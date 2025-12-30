@@ -7,33 +7,33 @@ author: Sergey Andreev
 
 Report parameters allow you to filter report data dynamically.
 
-![Report parameters example](../../../images/report-parameters-example.gif)
+![Report parameters example](../../images/report-parameters-example.gif)
 
 ## Supported Features/Capabilities
 
 * Built-in parameter types (String, Date, Number, Boolean, and GUID)
 
-    ![Built-in parameter types](../../../images/built-in-parameter-types.png)
+    ![Built-in parameter types](../../images/built-in-parameter-types.png)
 
 * [Multi-value parameters](use-report-parameters/multi-value-report-parameters.md) (filter report data against multiple criteria)
 
-    ![Multi-value report parameters](../../../images/parameter-editor-multiple-values.png)
+    ![Multi-value report parameters](../../images/parameter-editor-multiple-values.png)
 
 * [Cascading parameters](use-report-parameters/cascading-report-parameters.md) (filter a parameter’s value list against selections made in a different parameter)
 
-    ![Cascading report parameters](../../../images/cascadingparametersresult124540.png)
+    ![Cascading report parameters](../../images/cascadingparametersresult124540.png)
 
 * [Date-range parameters](use-report-parameters/date-range-report-parameters.md) (filter report data against a specified time period)
 
-    ![Date-range report parameters](../../../images/date-range-report-parameters.png)
+    ![Date-range report parameters](../../images/date-range-report-parameters.png)
 
 * [Static parameter values](use-report-parameters/report-parameters-with-predefined-static-values.md) (create pre-defined (static) parameter value lists)
 
-    ![Static parameter values](../../../images/static-parameter-values.png)
+    ![Static parameter values](../../images/static-parameter-values.png)
 
 * [Dynamic parameter values](use-report-parameters/report-parameters-with-predefined-dynamic-values.md) (load parameter values from a data source dynamically)
 
-    ![Dynamic parameter values](../../../images/dynamic-parameter-values.png)
+    ![Dynamic parameter values](../../images/dynamic-parameter-values.png)
 
 Refer to the following documentation section for more details: [Create a Report Parameter](use-report-parameters/create-a-report-parameter.md).
 
@@ -41,11 +41,11 @@ Refer to the following documentation section for more details: [Create a Report 
 
 Once you [create](use-report-parameters/create-a-report-parameter.md) a parameter, you can reference it in your report’s [filter string](shape-report-data/filter-data/filter-data-at-the-report-level.md) to filter underlying report data.
 
-![Reference parameter in report filter string](../../../images/reference-parameter-in-report-filter-string.png)
+![Reference parameter in report filter string](../../images/reference-parameter-in-report-filter-string.png)
 
 You can also reference the parameter in a report control’s [expression](use-expressions.md) or its **Text** property.
 
-![Reference report parameter in a control's expression](../../../images/report-parameters-reference-in-expression.png)
+![Reference report parameter in a control's expression](../../images/report-parameters-reference-in-expression.png)
 
 When used in this manner, you can filter data displayed within an individual report control (such as [Label](use-report-elements/use-basic-report-controls/label.md)) conditionally.
 
@@ -55,4 +55,4 @@ You can also bind data source parameters to report parameters and filter data at
 
 Available report parameters appear within a report’s **Print Preview** window (inside the [Parameters panel](use-report-parameters/parameters-panel.md)). Use this panel to specify desired parameter values:
 
-![Specify parameter values in the Parameters Panel](../../../images/parameters-panel.png)
+![Specify parameter values in the Parameters Panel](../../images/parameters-panel.png)

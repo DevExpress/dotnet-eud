@@ -29,7 +29,7 @@ To apply filtering to a data source, click the **Filter** button in the **Data S
 
 ![Data Source Filter Button](../../../images/datasourcefiltering_filterbutton_ribbon22300.png)
 
-In the invoked [Filter Editor](../../../../../interface-elements-for-desktop/articles/filter-editor/filter-data-via-the-filter-editor.md), specify the filter criteria. To compare a field value with a parameter value, click the ![Parameters_FilterEditor_CompareButton](../../../images/parameters_filtereditor_comparebutton21820.png) button and then the ![Parameters_FilterEditor_CompareButton2](../../../images/parameters_filtereditor_comparebutton221824.png) button. Then, click the second operand's placeholder to invoke the list of available parameters and select the required parameter:
+In the invoked [Filter Editor](../../ui-elements/filter-editor/filter-data-via-the-filter-editor.md), specify the filter criteria. To compare a field value with a parameter value, click the ![Parameters_FilterEditor_CompareButton](../../../images/parameters_filtereditor_comparebutton21820.png) button and then the ![Parameters_FilterEditor_CompareButton2](../../../images/parameters_filtereditor_comparebutton221824.png) button. Then, click the second operand's placeholder to invoke the list of available parameters and select the required parameter:
 
 ![Data Source Filtering - Filter Criteria with a Parameter](../../../images/filter-ds-parameterpselection-win.png)
 

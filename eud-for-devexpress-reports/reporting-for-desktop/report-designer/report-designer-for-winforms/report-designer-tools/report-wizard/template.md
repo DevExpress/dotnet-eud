@@ -11,7 +11,7 @@ The topics in this section describe how to create a report based on available pr
 
 [Run the Report Wizard](../report-wizard.md) and select the **Template** option on its first page.
 
-![ReportWizard-ChooseReportType-Template](../../../images/eurd-ReportWizard-ChooseReportType-Template.png)
+![ReportWizard-ChooseReportType-Template](../../../../images/eurd-ReportWizard-ChooseReportType-Template.png)
 
 Template report creation includes the following steps.
 

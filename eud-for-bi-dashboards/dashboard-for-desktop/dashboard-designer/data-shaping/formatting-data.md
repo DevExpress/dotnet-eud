@@ -12,11 +12,11 @@ Dashboard allows you to customize various data format settings for numeric and d
 ## <a name="formatting-numeric-values"/>Formatting Numeric Values
 To specify a format for numeric values, select **Format** from the data item menu.
 
-![Formatting_Numeric_MenuItem](../images/img19376.png)
+![Formatting_Numeric_MenuItem](../../images/img19376.png)
 
 This invokes the **Numeric Format** window.
 
-![Formatting_Numeric_Dialog](../images/img19375.png)
+![Formatting_Numeric_Dialog](../../images/img19375.png)
 
 In the **Format type** field, select the required format type.
 
@@ -42,7 +42,7 @@ Other format settings are in effect for only specific format types.
 ## <a name="formatting-date-time-values"/>Formatting Date-Time Values
 To specify a format for date-time values, use the **Format** submenu in the data item menu.
 
-![Formatting_DateTime_ContextMenu](../images/img19382.png)
+![Formatting_DateTime_ContextMenu](../../images/img19382.png)
 
 This submenu lists the available format types that depend on the selected group interval (for details on group intervals, see [Grouping](grouping.md)).
 
@@ -113,18 +113,18 @@ The Dashboard allows you to specify a currency format at two levels: for the ent
 	
 	To specify which currency to use for a particular data item, select **Format** from the data item menu.
 	
-	![Formatting_Numeric_MenuItem](../images/img19376.png)
+	![Formatting_Numeric_MenuItem](../../images/img19376.png)
 	
 	In the **Numeric Format** dialog, select _Currency_ in the **Format type** field and use the **Currency** combo box to select the required currency.
 	
-	![Formatting_Numeric_Dialog_Currency](../images/img19380.png)
+	![Formatting_Numeric_Dialog_Currency](../../images/img19380.png)
 	
 	> [!NOTE]
 	> This option only affects the way values are displayed. The Dashboard **does not** convert monetary amounts from one currency to another.
 	
 	For regions with several cultures, you can also select the culture that will be used to format currency values.
 	
-	![Formatting_Numeric_Dialog_CurrencyCulture](../images/img19381.png)
+	![Formatting_Numeric_Dialog_CurrencyCulture](../../images/img19381.png)
 	
 	You can also apply the default dashboard currency by selecting _Use dashboard settings_ in the **Currency** field.
 2. **Dashboard Currency**
@@ -133,17 +133,17 @@ The Dashboard allows you to specify a currency format at two levels: for the ent
 	
 	To set the dashboard currency, click the **Currency** button in the Ribbon.
 	
-	![Formatting_Numeric_Currency_RibbonButton](../images/img19379.png)
+	![Formatting_Numeric_Currency_RibbonButton](../../images/img19379.png)
 	
 	This invokes the **Dashboard Currency** window. In this window, select the required currency using the **Currency** combo box.
 	
-	![Formatting_Numeric_Currency_DashboardCurrencyDialog_Currency](../images/img19378.png)
+	![Formatting_Numeric_Currency_DashboardCurrencyDialog_Currency](../../images/img19378.png)
 	
 	> [!NOTE]
 	> This option only affects the way values are displayed. The Dashboard **does not** convert monetary amounts from one currency to another.
 	
 	For regions with several cultures, you can also select the culture that will be used to format currency values.
 	
-	![Formatting_Numeric_Dialog_CurrencyCulture](../images/img19381.png)
+	![Formatting_Numeric_Dialog_CurrencyCulture](../../images/img19381.png)
 	
 	Additionally, you can specify the client culture that should be used for the dashboard by selecting the _Use client system settings_ item. In this instance, the current system culture will be used in WinForms applications, and the client culture will be used in Web applications.

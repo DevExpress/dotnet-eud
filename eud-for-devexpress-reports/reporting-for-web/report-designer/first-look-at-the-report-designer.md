@@ -4,7 +4,7 @@ owner: Anna Vekhina
 ---
 # First Look at the Report Designer
 
-![](../../../images/eurd-web-report-bands-default-design-time.png)
+![](../images/eurd-web-report-bands-default-design-time.png)
 
 The [Design Surface](report-designer-tools/design-surface.md) displays a report's structure and contents. You can use the tools on the Report Designer's panels to design the report:
 

@@ -6,7 +6,7 @@ legacyId: 16561
 # Grid
 The topics in this section describe the features available in the **Grid** dashboard item, and provide extensive information on how to create and customize grids in the **Dashboard Designer**.
 
-![MainFeatures_Grid](../images/img18177.png)
+![MainFeatures_Grid](../../images/img18177.png)
 
 This section consists of the following subsections.
 * [Providing Data](grid/providing-data.md)

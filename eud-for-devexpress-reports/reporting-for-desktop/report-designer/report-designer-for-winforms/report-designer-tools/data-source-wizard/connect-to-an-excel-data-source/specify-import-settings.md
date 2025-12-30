@@ -10,7 +10,7 @@ On this wizard page, you can specify required import settings. This page provide
 ## Import Settings for an Excel Workbook
 The following settings are available if an Excel workbook has been selected.
 
-![eurd-win-exceldatasource_specifyingimportoptions](../../../images/eurd-win-exceldatasource_specifyingimportoptions.png)
+![eurd-win-exceldatasource_specifyingimportoptions](../../../../../images/eurd-win-exceldatasource_specifyingimportoptions.png)
 * **Use values of the first rows as field names** - Specifies whether values of the first row should be imported as field names. If this option is disabled, values of the first row will be imported as data and field names will be generated automatically.
 * **Skip empty rows** - Specifies whether or not to include empty rows to the resulting data source.
 * **Skip hidden rows** - Specifies whether or not to include hidden rows to the resulting data source.
@@ -23,7 +23,7 @@ Click **Next** to proceed to the next wizard page: [Select a Worksheet, Table or
 ## Import Settings for a CSV file
 The following settings are available if a CSV file has been selected.
 
-![eurd-win-exceldatasource_csvimportsettings](../../../images/eurd-win-exceldatasource_csvimportsettings.png)
+![eurd-win-exceldatasource_csvimportsettings](../../../../../images/eurd-win-exceldatasource_csvimportsettings.png)
 * **Use values of the first rows as field names** - Specifies whether or not values of the first row should be imported as field names. If this option is disabled, values of the first row will be imported as data and field names will be generated automatically.
 * **Skip empty rows** - Specifies whether or not to include empty rows to the resulting data source.
 * **Trim Blanks** - Specifies whether or not to delete all leading and trailing empty spaces from each value in the source CSV file.

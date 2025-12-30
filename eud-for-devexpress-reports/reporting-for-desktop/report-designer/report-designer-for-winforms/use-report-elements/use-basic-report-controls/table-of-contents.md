@@ -9,11 +9,11 @@ Once [bookmarks](../../add-navigation/add-bookmarks-and-a-document-map.md) have 
 
 To implement a table of contents, drop the **Table Of Contents** control from the [Toolbox](../../report-designer-tools/ui-panels/toolbox.md) onto the report's area. If the report does not contain a [Report Header](../../introduction-to-banded-reports.md) at the moment, it is created automatically so that the table of contents can be added to it.
 
-![](../../../images/eurd-win-add-table-of-contents-to-report.png)
+![](../../../../images/eurd-win-add-table-of-contents-to-report.png)
 
 The following image illustrates the difference in displaying information by a table of contents within a report and in a published document.
 
-![](../../../images/eurd-win-table-of-contents-example.png)
+![](../../../../images/eurd-win-table-of-contents-example.png)
 
 
 ## Table of Contents Structure

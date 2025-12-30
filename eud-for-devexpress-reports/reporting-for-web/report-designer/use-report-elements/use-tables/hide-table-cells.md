@@ -14,7 +14,7 @@ Click the **Edit** button to expand the property list and specify the parameter'
 
 ![](../../../images/eurd-web-parameter-settings-to-hide-table-cells.png)
 
-Open the [Expressions](../../../report-designer/report-designer-tools/ui-panels/expressions-panel.md) panel and specify an [expression](../../shape-report-data/specify-conditions-for-report-elements/conditionally-supress-controls.md) for the cell's **Visible** property to define a logical condition for displaying or hiding this cell.
+Open the [Expressions](../../report-designer-tools/ui-panels/expressions-panel.md) panel and specify an [expression](../../shape-report-data/specify-conditions-for-report-elements/conditionally-supress-controls.md) for the cell's **Visible** property to define a logical condition for displaying or hiding this cell.
 
 The image below demonstrates how to provide the visibility expression for the cell bound to the **CategoryID** field. For a report to display correctly, you should specify the same expression for the cell that displays the field caption in the Page Header.
 

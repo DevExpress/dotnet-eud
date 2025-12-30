@@ -7,7 +7,7 @@ author: Anna Vekhina
 ## Preview a Report
 To switch a report to the print preview mode, click the **Preview** button on the [toolbar](report-designer-tools/toolbar.md). You will see your report populated with data and broken down into pages.
 
-![](../../../images/eurd-web-preview.png)
+![](../images/eurd-web-preview.png)
 
 > [!NOTE]
 > To learn more about the options available in the print preview mode, refer to the [Document Viewer](../document-viewer.md) section of this documentation.
@@ -17,12 +17,12 @@ To switch a report to the print preview mode, click the **Preview** button on th
 
 When in the Preview mode, you can use toolbar commands to print out your report.
 
-![](../../../images/eurd-web-print.png)
+![](../images/eurd-web-print.png)
 
 ## Export a Report
 When in the Preview mode, you can export your report to files in different formats.
 
-![](../../../images/eurd-web-export.png)
+![](../images/eurd-web-export.png)
 
 
 The following documents describe the basics of report exporting and format-specific export options.
@@ -42,11 +42,11 @@ The following documents describe the basics of report exporting and format-speci
 
 You can specify the **Can Publish Options** setting in the Properties grid to exclude report controls from certain export formats.
 
-![CanPublishOptions](../../../images/web-can-publish-options-property-grid.png)
+![CanPublishOptions](../images/web-can-publish-options-property-grid.png)
 
 The following image illustrates the resulting XLXS document with and without page information:
 
-![Resulting XLXS document](../../../images/web-can-publish-options-example-image.png)
+![Resulting XLXS document](../images/web-can-publish-options-example-image.png)
 
 
 

@@ -6,7 +6,7 @@ title: 'Specify Report Page Settings'
 
 At this step, set up the report's page.
 
-![ReportWizard-SpecifyReportPageSettings](../../../images/eurd-ReportWizard-SpecifyReportPageSettings.png)
+![ReportWizard-SpecifyReportPageSettings](../../../../../images/eurd-ReportWizard-SpecifyReportPageSettings.png)
 
 This wizard page allows you to specify the following report properties:
 

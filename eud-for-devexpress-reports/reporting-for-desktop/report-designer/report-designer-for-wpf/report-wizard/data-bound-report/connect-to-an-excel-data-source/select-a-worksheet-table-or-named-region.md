@@ -9,6 +9,6 @@ legacyId: 116249
 
 This wizard page allows you to select one of the available worksheets, tables or named regions that will provide data for a report.
 
-![WpfReportWizard_Excel_SelectWorksheet](../../../images/img122201.png)
+![WpfReportWizard_Excel_SelectWorksheet](../../../../../images/img122201.png)
 
 Click **Next** to proceed to the next wizard page: [Choose columns](choose-columns.md).

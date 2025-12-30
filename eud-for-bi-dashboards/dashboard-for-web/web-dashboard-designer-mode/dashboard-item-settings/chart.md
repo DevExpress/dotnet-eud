@@ -6,7 +6,7 @@ legacyId: 117941
 # Chart
 The topics in this section describe the features available in the **Chart** dashboard item, and provide information on how to create and customize charts in the Web Dashboard.
 
-![wdd-dashboard-items-chart](images/img125118.png)
+![wdd-dashboard-items-chart](../../images/img125118.png)
 
 This section is divided into the following subsections.
 * [Providing Data](chart/providing-data.md)

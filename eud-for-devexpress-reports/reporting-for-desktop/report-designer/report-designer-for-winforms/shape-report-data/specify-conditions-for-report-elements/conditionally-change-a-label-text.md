@@ -10,11 +10,11 @@ After you [bound your report to data](../../bind-to-data.md) and specified a bou
 
 1. Invoke the control's smart tag and click its **Expression** property's ellipsis button.
 	
-	![](../../../images/eurd-win-shaping-label-expression-property-for-custom-text.png)
+	![](../../../../images/eurd-win-shaping-label-expression-property-for-custom-text.png)
 
 2. In the invoked **Expression Editor**, specify the required [expression](../../use-expressions.md).
 	
-	![](../../../images/eurd-win-shaping-label-expression-for-custom-text.png)
+	![](../../../../images/eurd-win-shaping-label-expression-for-custom-text.png)
 	
 	Use the **Iif** function to define the condition. For example:
 	
@@ -24,4 +24,4 @@ After you [bound your report to data](../../bind-to-data.md) and specified a bou
 
 When switching to [Print Preview](../../preview-print-and-export-reports.md), you can see the report control displaying the assigned values.
 
-![](../../../images/eurd-win-shaping-label-custom-text-result.png)
+![](../../../../images/eurd-win-shaping-label-custom-text-result.png)

@@ -10,30 +10,30 @@ Calculated fields allow you to pre-process a report's input data, based on a cer
 
 To create a calculated field, switch to the [Field List](../../report-designer-tools/ui-panels/field-list.md), right-click any item inside the data source and select **Add Calculated Field**.
 
-![](../../../images/eurd-win-add-calculated-field.png)
+![](../../../../images/eurd-win-add-calculated-field.png)
 
  Right-click the calculated field in the **Field List** and select **Edit Expression**. Alternatively, you can select the calculated field, and in the [Property Grid](../../report-designer-tools/ui-panels/property-grid-tabbed-view.md), click the **Expression** property's ellipsis button.
 
-![](../../../images/eurd-win-calculated-field-eidt-expression.png)
+![](../../../../images/eurd-win-calculated-field-eidt-expression.png)
 
 In the invoked **Expression Editor**, construct the required expression. You can use data fields, [report parameters](../../use-report-parameters.md), predefined constants as well as various date-time, logical, math and string functions. See the next document section for more information about expression syntax.
 
-![](../../../images/eurd-win-calculated-field-expression.png)
+![](../../../../images/eurd-win-calculated-field-expression.png)
 
 > [!NOTE]
 > The Expression Editor displays only those data fields that are obtained from a data source specified by the calculated field's **Data Source** and **Data Member** property values.
 
 The report's **Calculated Fields** property provides access to the calculated field collection.
 
-![](../../../images/eurd-win-calculated-field-collection-editor.png)
+![](../../../../images/eurd-win-calculated-field-collection-editor.png)
 
 You can click the **Add Calculated Field** button in the [Toolbar](../../report-designer-tools/ui-panels/toolbar.md)'s **Home** tab to invoke the **Calculated Field Collection Editor**.
 
-![](../../../images/eurd-win-calculated-field-add-via-toolbar.png)
+![](../../../../images/eurd-win-calculated-field-add-via-toolbar.png)
 
 You can drag the calculated field from the **Field List** onto the required band like an ordinary data field. 
 
-![](../../../images/eurd-win-calculated-field-drop-onto-band.png)
+![](../../../../images/eurd-win-calculated-field-drop-onto-band.png)
 
 You can also group and sort your report data based on the calculated field values.
 

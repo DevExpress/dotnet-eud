@@ -17,13 +17,13 @@ You can use one of the following commands to create a new report. The created re
 
 Click **New Report**.
 
-![eurd-win-home-tab-create-new-report](../../../images/eurd-win-home-tab-create-new-report.png)
+![eurd-win-home-tab-create-new-report](../../images/eurd-win-home-tab-create-new-report.png)
 
 ### Use the Ribbon Application Menu
 
 Click the application button and then **New Report**.
 
-![eurd-win-application-menu-new-report](../../../images/eurd-win-application-menu-new-report.png)
+![eurd-win-application-menu-new-report](../../images/eurd-win-application-menu-new-report.png)
 
 ### Use a Shortcut
 
@@ -38,13 +38,13 @@ The following commands run the [Report Wizard](report-designer-tools/report-wiza
 
 Click **New Report** and then **New Report via Wizard...**.
 
-![eurd-win-press-new-report-via-wizard](../../../images/eurd-win-press-new-report-via-wizard.png)
+![eurd-win-press-new-report-via-wizard](../../images/eurd-win-press-new-report-via-wizard.png)
 
 ### Use the Ribbon Application Menu
 
 Click the application button and then choose **New Report** | **New Report via Wizard...**.
 
-![eurd-win-application-button-new-report-using-repor-wizard](../../../images/eurd-win-application-button-new-report-using-repor-wizard.png)
+![eurd-win-application-button-new-report-using-repor-wizard](../../images/eurd-win-application-button-new-report-using-repor-wizard.png)
 
 ### Use a Shortcut
 

@@ -10,7 +10,7 @@ The Dashboard Designer allows you to bind various dashboard items to data in a v
 
 The image below shows a sample Geo Point Map dashboard item that is bound to data.
 
-![GeoPointMap_DataItems](../../../images/img23579.png)
+![GeoPointMap_DataItems](../../../../images/img23579.png)
 
 Note that the Geo Point Map provides two data item groups for data binding: DATA ITEMS and TOOLTIP DATA ITEMS.
 Tables below list the available data sections.

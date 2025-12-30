@@ -8,7 +8,7 @@ After you [connect](../provide-data/connecting-to-sql-databases.md) to the data 
 
 To manage queries for the current data source, use buttons from the **Query** group in the **Data Source** ribbon tab.
 
-![EditQueriesButton_Ribbon](../images/img118162.png)
+![EditQueriesButton_Ribbon](../../images/img118162.png)
 
 You can perform the following actions.
 * **Add Query** - Adds a new query to the data source. Clicking this button invokes the [Query Editor](using-the-query-editor.md) dialog that allows you to create a new query by invoking the [Query Builder](using-the-query-builder.md) or to select the existing [stored procedure](stored-procedures.md).

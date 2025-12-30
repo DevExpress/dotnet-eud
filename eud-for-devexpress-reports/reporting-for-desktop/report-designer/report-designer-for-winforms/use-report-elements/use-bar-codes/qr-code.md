@@ -6,17 +6,17 @@ author: Anna Gubareva
 
 A **QR Code** (**QR** is the abbreviation for **Quick Response**) is a two-dimensional code, readable by **QR** scanners, mobile phones with a camera, and smartphones. **QR Code** can encode textual, numeric and binary data.
 
-![](../../../images/eurd-win-bar-code-qr-code.png)
+![](../../../../images/eurd-win-bar-code-qr-code.png)
 
 ## Add the Barcode to a Report
 
 1. Drag the **Barcode** item from the report controls toolbox tab and drop it onto the report. 
 
-    ![](../../../images/drag-and-drop-barcode.png)
+    ![](../../../../images/drag-and-drop-barcode.png)
 
 2. Set the control's **Symbology** property to **QR Code**. 
 
-    ![](../../../images/qrcode-in-designer.png)
+    ![](../../../../images/qrcode-in-designer.png)
 
 3. Specify [common](add-bar-codes-to-a-report.md) barcode properties and properties [specific](#specific-properties) to **QR Code**.
 

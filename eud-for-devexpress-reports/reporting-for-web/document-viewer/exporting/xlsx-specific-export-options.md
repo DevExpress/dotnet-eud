@@ -6,7 +6,7 @@ legacyId: 115384
 # XLSX-Specific Export Options
 Before [exporting a document](export-a-document.md) to XLSX format, you can specify XLSX-specific options in the **Export Options** panel.
 
-![EUD_HTML5DV_XlsxExportOptions](../../../images/img121837.png)
+![EUD_HTML5DV_XlsxExportOptions](../../images/img121837.png)
 * **Export Mode**
 	
 	Specifies how a document is exported to XLSX. The following modes are available.
@@ -52,12 +52,12 @@ Before [exporting a document](export-a-document.md) to XLSX format, you can spec
 ## Document Options
 The **Document Options** complex property contains options which specify the **Document Properties** of the created XLSX file. Click the complex property's header to access its nested options.
 
-![EUD_HTML5DV_XlsDocumentOptions](../../../images/img1218331.png)
+![EUD_HTML5DV_XlsDocumentOptions](../../images/img1218331.png)
 
 ## Encryption Options
 This complex property allows you to adjust the encryption options of the resulting XLSX file.
 
-![EUD_HTML5DV_PdfSecurityOptions](../../../images/img1218332.png)
+![EUD_HTML5DV_PdfSecurityOptions](../../images/img1218332.png)
 * **Type**
 	Specifies one of the following encryption types:
 	* Strong (default) type uses the **Agile Encryption** mechanism.

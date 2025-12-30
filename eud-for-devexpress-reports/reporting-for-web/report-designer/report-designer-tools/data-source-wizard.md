@@ -8,13 +8,13 @@ seealso: []
 
 The Data Source Wizard enables you to add data sources to a report.
 
-![](../../../images/eurd-web-data-source-wizard-select-db.png)
+![](../../images/eurd-web-data-source-wizard-select-db.png)
 
 This wizard is available in the Report Designer if corresponding data connections are registered.
 
 Click the **Add Data Source...** command in the Designer's menu to run the Data Source Wizard.
 
-![](../../../images/eurd-web-data-source-menu.png)
+![](../../images/eurd-web-data-source-menu.png)
 
 On the start page, choose the data source type and click **Next** to proceed:
 

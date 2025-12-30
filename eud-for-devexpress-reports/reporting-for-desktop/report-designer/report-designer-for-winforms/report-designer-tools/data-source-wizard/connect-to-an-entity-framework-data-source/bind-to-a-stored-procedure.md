@@ -5,7 +5,7 @@ title: Bind to a Stored Procedure
 
 This wizard page allows you to add stored procedures to the data source, configure their parameters and preview the results of a stored procedure’s execution.
 
-![eurd-win-reportwizard-ef-stored-procedure-preview-data](../../../images/eurd-win-reportwizard-ef-stored-procedure-preview-data.png)
+![eurd-win-reportwizard-ef-stored-procedure-preview-data](../../../../../images/eurd-win-reportwizard-ef-stored-procedure-preview-data.png)
 
 To bind to a stored procedure, do the following.
 1. Click **Add**. Then, in the invoked window, select a required stored procedure and click **OK**.

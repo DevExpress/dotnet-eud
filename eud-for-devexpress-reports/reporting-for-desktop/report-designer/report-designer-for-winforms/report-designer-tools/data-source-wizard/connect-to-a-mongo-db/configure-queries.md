@@ -5,7 +5,7 @@ title: Configure Queries
 
 Use this wizard page to configure queries to database collections of a MongoDB instance.
 
-![Configure queries to a MongoDB instance](../../../images/data-source-wizard-configure-queries.png)
+![Configure queries to a MongoDB instance](../../../../../images/data-source-wizard-configure-queries.png)
 
 Specify the name of the database and database collection in the **Database** and **Collection** columns. You can use the **Filter** column to specify filter conditions for items of the database collections.
 

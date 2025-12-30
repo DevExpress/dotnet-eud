@@ -6,7 +6,7 @@ author: Mary Sammal
 
 This page allows you to specify connection string parameters specific to the selected data source provider. Depending on the data provider selected, it may be necessary to specify additional connection options (such as authentication type and database name) on this page.
 
-![eurd-win-report-wizard-specify-connection-string](../../../images/eurd-win-report-wizard-specify-connection-string.png)
+![eurd-win-report-wizard-specify-connection-string](../../../../../images/eurd-win-report-wizard-specify-connection-string.png)
 
 Click **Next** to proceed to the next wizard page, depending on whether or not the created connection uses server authentication.
 * [Save the Connection String](save-the-connection-string.md) - if server authentication is required, this page allows you to specify whether or not you want to save the user credentials along with the connection string.

@@ -16,7 +16,7 @@ A report layout consists of bands that contain report controls and define their 
 
 - The **Top Margin** and **Bottom Margin** bands. These bands are repeated once on every document page.
 
-![eurd-win-report-bands-design-time-default-layout](../../../images/eurd-win-report-bands-design-time-default-layout.png)
+![eurd-win-report-bands-design-time-default-layout](../../images/eurd-win-report-bands-design-time-default-layout.png)
 
 You can also add the following bands:
 
@@ -39,29 +39,29 @@ You can also add the following bands:
 
 The following image illustrates a sample report layout and the [Report Explorer](report-designer-tools/ui-panels/report-explorer.md) that reflects the report's structure:
 
-![eurd-win-report-bands-basic-layout](../../../images/eurd-win-report-bands-basic-layout.png)
+![eurd-win-report-bands-basic-layout](../../images/eurd-win-report-bands-basic-layout.png)
 
 ## Add a Detail Band to a Master-Detail Band
 
 Use the **Detail Report** band to create hierarchical [master-detail reports](create-reports/master-detail-reports-with-detail-report-bands.md). Detail report bands provide detailed information about each record in the master report's detail band (for example, orders shipped to each customer). You can create such reports when master-detail relationships are defined between data source tables:
 
-![eurd-win-master-detail-relation-editor-report-designer](../../../images/eurd-win-master-detail-relation-editor-report-designer.png)
+![eurd-win-master-detail-relation-editor-report-designer](../../images/eurd-win-master-detail-relation-editor-report-designer.png)
 
 The Detail Report band is a separate report (subreport) with its own data source and different bands. A report can have any number of detail reports that can also be nested.
 
 The following image illustrates a master-detail report and the [Report Explorer](report-designer-tools/ui-panels/report-explorer.md) that reflects the report's structure:
 
-![eurd-win-report-bands-basic-layout-subreports](../../../images/eurd-win-report-bands-basic-layout-subreports.png)
+![eurd-win-report-bands-basic-layout-subreports](../../images/eurd-win-report-bands-basic-layout-subreports.png)
 
 ## Vertical Bands
 
 You can replace the Detail band with the Vertical Header, Vertical Detail and Vertical Total bands to display record fields vertically and print data records horizontally - from left to right (and vise versa if the report's RTL mode is enabled).
 
-![VerticalBands_Demo](../../../images/eurd-VerticalBands-Demo.png)
+![VerticalBands_Demo](../../images/eurd-VerticalBands-Demo.png)
 
 To add vertical bands to your report, right-click the report in the Report Designer and choose **Insert Vertical Band** in the invoked context menu.
 
-![VerticalBands_UseContextMenu](../../../images/eurd-VerticalBands-UseContextMenu.png)
+![VerticalBands_UseContextMenu](../../images/eurd-VerticalBands-UseContextMenu.png)
 
 > [!Note]
 > If your report's **Detail** band contains report controls, this band and all these controls are lost when you add a vertical band (the same behavior takes place in the opposite situation).
@@ -82,7 +82,7 @@ You can use the [Report Wizard](report-designer-tools/report-wizard.md) to creat
 
 You can create functional copies of a band, for example, to display different contents based on a specific condition. To do this, add **sub-bands** to bands.
 
-![eurd-win-report-bands-basic-layout-sub-bands](../../../images/eurd-win-report-bands-basic-layout-sub-bands.png)
+![eurd-win-report-bands-basic-layout-sub-bands](../../images/eurd-win-report-bands-basic-layout-sub-bands.png)
 
 > [!TIP]
 > See [Lay out Dynamic Report Content](lay-out-dynamic-report-content.md) for details on how to specify the location of bands' content on document pages.
@@ -92,21 +92,21 @@ You can create functional copies of a band, for example, to display different co
 
 Click the arrow button on a band's title to collapse or expand that band.
 
-![eurd-win-report-bands-collapsing](../../../images/eurd-win-report-bands-collapsing.png)
+![eurd-win-report-bands-collapsing](../../images/eurd-win-report-bands-collapsing.png)
 
 Click **Collapse All** on the [Toolbar](report-designer-tools/ui-panels/toolbar.md)'s View Tab to collapse all bands in a report. Click **Expand All** to expand all report bands.
 
-![eurd-win-collapse-all-bands](../../../images/eurd-win-collapse-all-bands.png)
+![eurd-win-collapse-all-bands](../../images/eurd-win-collapse-all-bands.png)
 
 Right-click a band and select **Collapse Other Bands** from the context menu to collapse all bands except the clicked band.
 
-![eurd-win-collapse-other-bands](../../../images/eurd-win-collapse-other-bands.png)
+![eurd-win-collapse-other-bands](../../images/eurd-win-collapse-other-bands.png)
 
 ### Hide Bands in the Report Document
 
 You can avoid printing band content in a document. To do this, select the band and set the band's **Height** property to zero or disable its **Visible** property in the [Property Grid](report-designer-tools/ui-panels/property-grid-tabbed-view.md).
 
-![eurd-win-band-properties-in-property-grid](../../../images/eurd-win-band-properties-in-property-grid.png)
+![eurd-win-band-properties-in-property-grid](../../images/eurd-win-band-properties-in-property-grid.png)
 
 ### Remove Bands
 
@@ -116,33 +116,33 @@ Select a band on the report design surface and press DELETE. This removes the ba
 
 To add a band, right-click a report's design surface, and in the invoked context menu, choose **Insert Band**.
 
-![eurd-win-report-bands-context-menu](../../../images/eurd-win-report-bands-context-menu.png)
+![eurd-win-report-bands-context-menu](../../images/eurd-win-report-bands-context-menu.png)
 
 You can insert a detail report band if the report's data source has [master-detail relations](create-reports/master-detail-reports-with-detail-report-bands.md).
 
-![eurd-win-add-band-relationship](../../../images/eurd-win-add-band-relationship.png)
+![eurd-win-add-band-relationship](../../images/eurd-win-add-band-relationship.png)
 
 ### Access the Bands Collection
 
 Click the **Edit and Reorder Bands** context link in a report's smart tag to access the report's bands collection.
 
-![eurd-win-report-bands-collection-report-smart-tag](../../../images/eurd-win-report-bands-collection-report-smart-tag.png)
+![eurd-win-report-bands-collection-report-smart-tag](../../images/eurd-win-report-bands-collection-report-smart-tag.png)
 
 This command is also available in a band's context and smart tag menus.
 
-![eurd-win-report-bands-collection-band-smart-tag](../../../images/eurd-win-report-bands-collection-band-smart-tag.png)
+![eurd-win-report-bands-collection-band-smart-tag](../../images/eurd-win-report-bands-collection-band-smart-tag.png)
 
 The invoked editor allows you to reorder bands and change their properties.
 
-![report-bands-collection-band-smart-tag](../../../images/eurd-win-report-bands-collection-band-editor.png)
+![report-bands-collection-band-smart-tag](../../images/eurd-win-report-bands-collection-band-editor.png)
 
 Alternatively, use the [Report Explorer](report-designer-tools/ui-panels/report-explorer.md) to edit and reorder bands. Select a band and edit its properties in the **Property Grid**.
 
-![report-explorer-edit-band](../../../images/eurd-win-report-explorer-edit-band.gif)
+![report-explorer-edit-band](../../images/eurd-win-report-explorer-edit-band.gif)
 
 Drag a band to change its order or move inside/outside of another band. The drop targets are highlighted when you drag a band over them.
 
-![report-explorer-drag-band](../../../images/eurd-win-report-explorer-drag-band.gif)
+![report-explorer-drag-band](../../images/eurd-win-report-explorer-drag-band.gif)
 
 You can drag bands to the following targets:
 
@@ -156,8 +156,8 @@ You can drag bands to the following targets:
 
 Select a band and switch to the **Property Grid**. Expand the **Styles** group and set the **Style** property to the style name.
 
-![design-time-select-style](../../../images/eurd-win-select-style-band.png)
+![design-time-select-style](../../images/eurd-win-select-style-band.png)
 
 As an alternative, you can drag a style from the [Report Explorer](report-designer-tools/ui-panels/report-explorer.md) onto a band. This is applicable to all bands except **DetailReport**.
 
-![design-time-drag-style](../../../images/eurd-win-drag-style-band.gif)
+![design-time-drag-style](../../images/eurd-win-drag-style-band.gif)

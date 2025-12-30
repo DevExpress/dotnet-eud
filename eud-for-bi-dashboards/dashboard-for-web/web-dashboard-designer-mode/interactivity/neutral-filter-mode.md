@@ -12,10 +12,10 @@ An extra click is required to begin any actual filtering operation, because the 
 
 To solve these issues, the **Neutral Filter Mode** is implemented. It is neutral in the sense that it does not apply any criteria to the data source in its default state, resulting in improved performance.
 
-![](images/web-neutral-filter-mode-deselected.png)
+![](../../images/web-neutral-filter-mode-deselected.png)
 
 All items are shown deselected. This means that an extra click is no longer required in the most common scenarios, and this behavior is familiar to end users from websites world-wide.
 
 The **Neutral Filter Mode** helps in a situation when there is a potential “dead lock”, due to the fact that multiple filter elements influence each other. The **Clear Master Filter** button resets the filters.
 
-![](images/web-neutral-filter-mode-clear-master-filter.png)
+![](../../images/web-neutral-filter-mode-clear-master-filter.png)

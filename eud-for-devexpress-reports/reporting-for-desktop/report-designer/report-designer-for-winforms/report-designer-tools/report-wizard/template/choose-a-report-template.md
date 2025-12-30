@@ -4,7 +4,7 @@ title: Choose a Report Template
 
 This wizard page allows you to choose one of the predefined report layouts.
 
-![eurd-win-report-template-wizard-select-template](../../../images/eurd-win-report-template-wizard-select-template.png)
+![eurd-win-report-template-wizard-select-template](../../../../../images/eurd-win-report-template-wizard-select-template.png)
 
 Once the wizard finishes, the selected template defines the arrangement of the appropriate elements in a report and their appearance settings. You can stop the wizard on this page by clicking **Finish**.
 

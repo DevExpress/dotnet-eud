@@ -8,17 +8,17 @@ author: Anna Gubareva
 
 Every **Data Matrix** is composed of two solid adjacent borders in an "L" shape (called the "finder pattern"), and two other borders consisting of alternating dark and light cells or modules (called the "timing pattern"). Within these borders are rows and columns of cells that encode information. The finder pattern is used to locate and orient the symbol, while the timing pattern provides a count of the number of rows and columns in the symbol.
 
-![](../../../images/eurd-win-bar-code-ECC200.png)
+![](../../../../images/eurd-win-bar-code-ECC200.png)
 
 ## Add the Barcode to a Report
 
 1. Drag the **Barcode** item from the report controls toolbox tab and drop it onto the report. 
 
-    ![](../../../images/drag-and-drop-barcode.png)
+    ![](../../../../images/drag-and-drop-barcode.png)
 
 2. Set the control’s **Symbology** property to **DataMatrix**. 
 
-    ![](../../../images/data-matrix-in-designer.png)
+    ![](../../../../images/data-matrix-in-designer.png)
 
 3. Specify [common](add-bar-codes-to-a-report.md) barcode properties and properties [specific](#specific-properties) to **Data Matrix**.
 

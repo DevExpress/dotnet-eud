@@ -8,17 +8,17 @@ author: Anna Gubareva
 
 While other barcodes simply encode data with no respect for what the data represents, **GS1-128** encodes data and encodes what that data represents.
 
-![](../../../images/eurd-win-bar-code-gs1-128-ean-128.png)
+![](../../../../images/eurd-win-bar-code-gs1-128-ean-128.png)
 
 ## Add the Barcode to a Report
 
 1. Drag the **Barcode** item from the report controls toolbox tab and drop it onto the report. 
 
-    ![](../../../images/drag-and-drop-barcode.png)
+    ![](../../../../images/drag-and-drop-barcode.png)
 
 2. Set the control’s **Symbology** property to **EAN128**. 
 
-    ![](../../../images/ean128-in-designer.png)
+    ![](../../../../images/ean128-in-designer.png)
 
 3. Specify [common](add-bar-codes-to-a-report.md) barcode properties and properties [specific](#specific-properties) to **EAN 128**.
 

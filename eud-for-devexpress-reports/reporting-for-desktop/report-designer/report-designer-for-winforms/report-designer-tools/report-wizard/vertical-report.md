@@ -9,7 +9,7 @@ The topics in this section describe how to create a [vertical report](../../crea
 
 [Run the Report Wizard](../report-wizard.md) and select **Vertical Report** to create a new vertical report and connect it to data.
 
-![VerticalBandDemoReport_SelectReportType](../../../images/eurd-VerticalBandDemoReport_SelectReportType.png)
+![VerticalBandDemoReport_SelectReportType](../../../../images/eurd-VerticalBandDemoReport_SelectReportType.png)
 
 The Report Wizard can include the following pages (similar to the Table Report type):
 
@@ -23,5 +23,5 @@ The Report Wizard can include the following pages (similar to the Table Report t
 
 After you finish the wizard, it creates a report with [vertical bands](../../introduction-to-banded-reports.md#vertical-bands): **Vertical Header**, **Vertical Detail** and **Vertical Total**.
 
-![VerticalBandDemoReport_WizardResult](../../../images/eurd-VerticalBandDemoReport-WizardResult.png)
+![VerticalBandDemoReport_WizardResult](../../../../images/eurd-VerticalBandDemoReport-WizardResult.png)
 

@@ -18,15 +18,15 @@ Define a master-detail relationship between _Category_ and _Product_ reports wit
 - Set its **Action** property to **Navigate to Report**.
 - Assign the **Report Source URL** property to a detail report instance.
 
-![Specify the Navigate to Report action](../../../images/web-specify-navigate-to-report-action.png)
+![Specify the Navigate to Report action](../../images/web-specify-navigate-to-report-action.png)
 
 If you switch to **Preview**, you can click on a _Category_ value in the table. The **Preview** window navigates to the detail report that contains all _Product_ entries. The next step explains how to filter this list. 
 
-![Drill-Through report preview](../../../images/web-detail-report-navigation.png)
+![Drill-Through report preview](../../images/web-detail-report-navigation.png)
 
 You can click "Categories Report" below the Document Viewer toolbar and navigate back to the original report.
 
-![Breadcrumb navigation](../../../images/web-breadcrumb-control-navigation.png)
+![Breadcrumb navigation](../../images/web-breadcrumb-control-navigation.png)
 
 ## Specify Parameter Binding to Display Required Data
 
@@ -34,17 +34,17 @@ You can specify parameters during detail report navigation. Use the **Parameter 
 
 Click the **Parameter Bindings** property and select the detail report parameter. Set **Binding** to the data field or parameter of the original report. In this example, **Binding** is set to the _CategoryID_ field.
 
-![Specify Parameter Binding](../../../images/web-specify-binding.png)
+![Specify Parameter Binding](../../images/web-specify-binding.png)
 
 Set the following filter string in the detail report to display product records for the selected category.
 
-![Set filter string](../../../images/web-set-filter-string.png)
+![Set filter string](../../images/web-set-filter-string.png)
 
 ## Result
 
 Switch to **Preview** and click on a category entry in the master report. The **Preview** navigates to the detail report that displays only products related to the selected category.
 
-![Drill-Through report](../../../images/web-drill-through-result.png)
+![Drill-Through report](../../images/web-drill-through-result.png)
 
 
 

@@ -7,7 +7,7 @@ title: 'Specify a Connection String'
 
 This page allows you to specify connection string parameters or define a custom connection string.
 
-![eurd-win-report-wizard-specify-connection-string](../../../images/eurd-win-report-wizard-specify-connection-string.png)
+![eurd-win-report-wizard-specify-connection-string](../../../../../images/eurd-win-report-wizard-specify-connection-string.png)
 
 The following data source types are supported.
 
@@ -40,7 +40,7 @@ Click **Next** to proceed to the next wizard page.
 
 Select **Custom connection string** and specify the connection string.
 
-![DSW-custom-connection-string](../../../images/eurd-win-DSW-custom-connection-string.png)
+![DSW-custom-connection-string](../../../../../images/eurd-win-DSW-custom-connection-string.png)
 
 Use the <b>XpoProvider</b> parameter to identify a data source provider. For example, *XpoProvider=**MSSqlServer**;Data Source=(local);User ID=username;Password=password;Initial Catalog=database;Persist Security Info=true*
 

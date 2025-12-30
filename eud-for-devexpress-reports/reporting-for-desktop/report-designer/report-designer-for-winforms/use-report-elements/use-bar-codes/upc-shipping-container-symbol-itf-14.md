@@ -10,17 +10,17 @@ This barcode provides a **GS1** implementation of an **Interleaved 2 of 5** barc
 
 The thick black border around the symbol (the **Bearer Bar**) is intended to improve barcode reading reliability.
 
-![](../../../images/eurd-win-bar-code-itf-14.png)
+![](../../../../images/eurd-win-bar-code-itf-14.png)
 
 ## Add the Barcode to a Report
 
 1. Drag the **Barcode** item from the report controls toolbox tab and drop it onto the report. 
 
-    ![](../../../images/drag-and-drop-barcode.png)
+    ![](../../../../images/drag-and-drop-barcode.png)
 
 2. Set the control’s **Symbology** property to **ITF14**. 
 
-    ![](../../../images/itf14-in-designer.png)
+    ![](../../../../images/itf14-in-designer.png)
 
 3. Specify [common](add-bar-codes-to-a-report.md) barcode properties and properties [specific](#specific-properties) to **ITF-14**.
 

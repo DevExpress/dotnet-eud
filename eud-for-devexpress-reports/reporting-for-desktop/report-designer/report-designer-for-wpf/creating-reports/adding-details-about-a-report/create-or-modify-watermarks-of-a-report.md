@@ -20,7 +20,7 @@ Right-click the report, and in the invoked context menu, click the **Watermark..
 
 Specify the following settings:
 
-![EUD_WpfReportDesigner_Watermark_2](../../../images/img123769.png)
+![EUD_WpfReportDesigner_Watermark_2](../../../../images/img123769.png)
 
 * Text
 
@@ -79,7 +79,7 @@ In the invoked **Select Picture** dialog, select the file containing the image t
 
 Specify the following picture options:
 
-![EUD_WpfReportDesigner_Watermark_3](../../../images/img123770.png)
+![EUD_WpfReportDesigner_Watermark_3](../../../../images/img123770.png)
 
 * Size Mode
 
@@ -126,7 +126,7 @@ For example, create a watermark and specify its text and picture settings. Set p
  
 As a result, in [Preview](../../document-preview.md) mode the image is displayed behind the table, while the text is in front of the content:
 
-![EUD_WpfReportDesigner_Watermark_Result](../../../images/img123772.png)
+![EUD_WpfReportDesigner_Watermark_Result](../../../../images/img123772.png)
 
 ## Display a Specific Watermark in a Report
 
@@ -138,15 +138,15 @@ Bind **Watermark Id** to an expression to apply watermarks stored in the collect
 
 Create the “First page watermark”, “Even page watermark”, and “Odd page watermark” watermarks with the following settings:
 
-![Create three watermarks](../../../images/wpf-bind-watermarks-to-expression--ui.png)
+![Create three watermarks](../../../../images/wpf-bind-watermarks-to-expression--ui.png)
 
 Specify the expression in the report’s **Watermark Id** property:
 
 `Iif([Arguments.PageIndex]=0,'Watermark1',Iif([Arguments.PageIndex]%2=0,'Watermark2','Watermark3'))`
 
-![Specify the binding expression](../../../images/wpf-specify-watermark-expression-in-the-expression-editor.png)
+![Specify the binding expression](../../../../images/wpf-specify-watermark-expression-in-the-expression-editor.png)
 
 The image below shows the result.
 
-![Display different watermarks](../../../images/wpf-watermarks-expression-example.png)
+![Display different watermarks](../../../../images/wpf-watermarks-expression-example.png)
 

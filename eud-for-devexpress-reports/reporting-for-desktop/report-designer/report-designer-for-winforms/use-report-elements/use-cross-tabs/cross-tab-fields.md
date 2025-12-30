@@ -21,11 +21,11 @@ You can drop two or more data fields onto the same area to create a hierarchy. T
 
 * **Specify Row Fields**
 
-  ![](../../../images/eurd-win-cross-tab-specify-row-fields.gif)
+  ![](../../../../images/eurd-win-cross-tab-specify-row-fields.gif)
 
 * **Specify Column Fields**
 
-  ![](../../../images/eurd-win-cross-tab-specify-column-fields.gif)
+  ![](../../../../images/eurd-win-cross-tab-specify-column-fields.gif)
 
 Cross Tab cells marked with a database icon become bound to the dropped fields. The corresponding rows/columns are printed in the document as many times as there are field values in the data source. The top left corner displays headers for row data fields. 
 
@@ -37,11 +37,11 @@ You can add two or more data fields and arrange them in two ways:
 
 * in a column, one under the other (field headers are displayed as row headers);
 
-  ![](../../../images/eurd-win-cross-tab-specify-data-fields-in-column.gif)
+  ![](../../../../images/eurd-win-cross-tab-specify-data-fields-in-column.gif)
 
 * in a row, one after the other (field headers are displayed as column headers);
 
-   ![](../../../images/eurd-win-cross-tab-specify-data-fields-in-row.gif)
+   ![](../../../../images/eurd-win-cross-tab-specify-data-fields-in-row.gif)
 
 When the data area contains only one field, the field header is not displayed.
 
@@ -54,6 +54,6 @@ When the data area contains only one field, the field header is not displayed.
 
 Use a cell's **Text Format String** property to format output data.
 
-![](../../../images/eurd-win-cross-tab-cell-format-string-property.png)
+![](../../../../images/eurd-win-cross-tab-cell-format-string-property.png)
 
 You can also use the **Null Value Text** property to specify the text shown when a data field's value is null or empty.

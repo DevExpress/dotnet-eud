@@ -15,11 +15,11 @@ You can add a cross-reference for a [report control](../use-report-elements.md) 
 
 2. Set the **Navigation Url** property to the target control's **Name** property value.
 
-    ![](../../../images/eurd-web-crossreferences_set-target-url.png)
+    ![](../../images/eurd-web-crossreferences_set-target-url.png)
 
 In this case, the control behaves like a link meaning that the cursor automatically changes to a hand in a report's preview when hovering the control. You can make a control resemble a link by specifying its  [appearance properties](../customize-appearance/appearance-properties.md) (for example, change the text's color to blue and underline it).
 
-![](../../../images/eurd-web-crossreferences_result.png)
+![](../../images/eurd-web-crossreferences_result.png)
 
 The link uses the first occurrence if there are multiple instances of an object marked as a link's target.
 
@@ -31,7 +31,7 @@ A hyperlink means that a link's target is outside the report.
 
 You can use any control as a link by setting the **Navigation Url** property to the required target document's URL.
 
-![](../../../images/eurd-web-hyperlinks-set-url.png)
+![](../../images/eurd-web-hyperlinks-set-url.png)
 
 > [!NOTE]
 > Remember to use the "http://" or "https://" prefix when specifying the URL.
@@ -40,7 +40,7 @@ You can make a control resemble a link by specifying its  [appearance properties
 
 The cursor automatically changes to a hand when hovering the control in a report's preview.
 
-![](../../../images/eurd-web-hyperlinks-result.png)
+![](../../images/eurd-web-hyperlinks-result.png)
 
 Use the link's **Navigation Target** property to specify where to open the target document (in the same preview window, in a new blank window, etc.).
 

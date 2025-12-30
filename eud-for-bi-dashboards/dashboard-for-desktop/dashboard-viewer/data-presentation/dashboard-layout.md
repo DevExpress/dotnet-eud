@@ -12,20 +12,20 @@ This topic describes the features related to the dashboard layout.
 ## <a name="dashboard-title"/>Dashboard Title
 The **Dashboard Title** is located at the top of the **Dashboard**. The dashboard title can contain text or image content, elements selected in the master filter item and command buttons.
 
-![DashboardTitleArea](../images/img19734.png)
+![DashboardTitleArea](../../images/img19734.png)
 
-When you hover over the filter icon (![DashboardTitle_MasterFilterIcon](../images/img23138.png)), all master filters applied to the dashboard are displayed in the invoked popup.
+When you hover over the filter icon (![DashboardTitle_MasterFilterIcon](../../images/img23138.png)), all master filters applied to the dashboard are displayed in the invoked popup.
 
-![DashboardTitle_MasterFilterPopup](../images/img23137.png)
+![DashboardTitle_MasterFilterPopup](../../images/img23137.png)
 
 The dashboard title can contain the following command buttons.
-* **Export To** button (the ![ExportToButton_TitleWin](../images/img23209.png) icon) - allows you to print/export the dashboard. To learn more about printing and exporting, see the [Printing and Exporting](../printing-and-exporting.md) topic.
-* **Parameters** button (the ![Parameters_ParametersButtonWin_Title](../images/img21814.png) icon) - allows you to modify dashboard parameter values. To learn how to modify dashboard parameter values, see the [Requesting Parameter Values](../dashboard-parameters/requesting-parameter-values.md) topic.
+* **Export To** button (the ![ExportToButton_TitleWin](../../images/img23209.png) icon) - allows you to print/export the dashboard. To learn more about printing and exporting, see the [Printing and Exporting](../printing-and-exporting.md) topic.
+* **Parameters** button (the ![Parameters_ParametersButtonWin_Title](../../images/img21814.png) icon) - allows you to modify dashboard parameter values. To learn how to modify dashboard parameter values, see the [Requesting Parameter Values](../dashboard-parameters/requesting-parameter-values.md) topic.
 
 ## <a name="dashboard-item-caption"/>Dashboard Item Caption
 Each [dashboard item](../dashboard-items.md) has a caption that is displayed at the top of this item. The caption contains static text along with other information, as well as command buttons.
 
-![DashboardItem_Caption](../images/img18278.png)
+![DashboardItem_Caption](../../images/img18278.png)
 
 The caption of the Dashboard item contains the following information and buttons, depending on the dashboard item type:
 * **Dashboard Item Name** - represents the static text within a dashboard item's caption.
@@ -39,6 +39,6 @@ The caption of the Dashboard item contains the following information and buttons
 ## <a name="resizing-dashboard-items"/>Resizing Dashboard Items
 The Dashboard Viewer provides the capability to resize dashboard items.
 
-![Layout_ResizingItem](../images/img20595.png)
+![Layout_ResizingItem](../../images/img20595.png)
 
 You can resize individual items (or a group of items) by dragging their edges.

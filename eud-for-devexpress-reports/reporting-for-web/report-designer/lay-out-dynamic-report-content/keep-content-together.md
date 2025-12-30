@@ -6,11 +6,11 @@ author: Anna Vekhina
 
 You can choose whether a control's content can be split across several pages using its **Keep Together** property.
 
-![](../../../images/eurd-web-keep-together-property.png)
+![](../../images/eurd-web-keep-together-property.png)
 
 | **Keep Together = No** | **Keep Together = Yes** |
 |---|---|
-| ![](../../../images/eurd-web-keep-together-false.png) | ![](../../../images/eurd-web-keep-together-true.png) |
+| ![](../../images/eurd-web-keep-together-false.png) | ![](../../images/eurd-web-keep-together-true.png) |
 
 Enabling this property for a single control makes the same band's controls behave like this option is enabled.
 

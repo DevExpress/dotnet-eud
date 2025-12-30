@@ -6,7 +6,7 @@ legacyId: 16602
 # Pivot
 The **Pivot** dashboard item displays a cross-tabular report that presents multi-dimensional data in an easy-to-read format.
 
-![MainFeatures_PivotGrid](../images/img18212.png)
+![MainFeatures_PivotGrid](../../images/img18212.png)
 
 This section consists of the following subsections:
 * [Providing Data](pivot/providing-data.md)

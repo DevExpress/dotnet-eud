@@ -18,7 +18,7 @@ DevExpress Dashboard supports two data processing modes that are used to perform
 Different data source types allow you to manage the current data processing mode in different ways.
 * For [SQL data sources](connecting-to-sql-databases.md), you can switch between data processing modes manually. To enable or disable **server mode** for the [selected](../ui-elements/data-source-browser.md) data source, use the **Server Mode** button located on the **Data Source** ribbon tab.
 	
-	![ServerModeButton_Ribbon](../images/img23212.png)
+	![ServerModeButton_Ribbon](../../images/img23212.png)
 	
 	**Server mode** is supported for the SQL data sources created using the Data Source wizard and supplied with data using the [Query Builder](../work-with-data/using-the-query-builder.md).
 * [Excel Data Source](binding-to-microsoft-excel-workbooks.md) supports **client mode** only.
@@ -41,6 +41,6 @@ In **server mode**, the Dashboard does not have simultaneous access to bound dat
 ## Data Processing Errors
 The Dashboard Designer provides the capability to display errors that occurred during data processing operations (such as changing measure [summary types](../data-shaping/summarization.md), [calculation](../data-analysis/window-calculations.md) errors, etc.). For instance, the [Grid](../dashboard-item-settings/grid.md) below shows an error when the summary type of the _Extended Price_ measure is set to [Median](../data-shaping/summarization.md) in server mode.
 
-![ErrorInCaption_ServerMode](../images/img123959.png)
+![ErrorInCaption_ServerMode](../../images/img123959.png)
 
-To see the error message, hover the mouse pointer over the ![CaptionErrorIcon](../images/img123960.png) icon.
+To see the error message, hover the mouse pointer over the ![CaptionErrorIcon](../../images/img123960.png) icon.

@@ -5,7 +5,7 @@ title: Specify Report Template Options
 
 The following wizard page allows you to specify currency formatting options and the discount/tax options.
 
-![report-template-wizard-specify-report-options](../../../images/eurd-win-report-wizard-specify-report-template-options.png)
+![report-template-wizard-specify-report-options](../../../../../images/eurd-win-report-wizard-specify-report-template-options.png)
 
 In the **Currency** section, select the currency symbol and format for displaying price values.
 

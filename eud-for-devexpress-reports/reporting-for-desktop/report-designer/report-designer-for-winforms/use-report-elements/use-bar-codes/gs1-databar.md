@@ -10,17 +10,17 @@ These barcodes can encode up to **14** digits, which makes them suitable for **G
 
 **GS1 DataBar Expanded** and **GS1 DataBar Expanded Stacked** can encode up to **74** numeric or **41** alphanumeric characters, and provide the capability to utilize all **GS1 Application Identifiers** (e.g., expiration date, batch and serial number). These barcodes are often used in manufacturer coupons.
 
-![](../../../images/eurd-win-bar-code-gs1-databar.png)
+![](../../../../images/eurd-win-bar-code-gs1-databar.png)
 
 ## Add the Barcode to a Report
 
 1. Drag the **Barcode** item from the report controls toolbox tab and drop it onto the report. 
 
-    ![](../../../images/drag-and-drop-barcode.png)
+    ![](../../../../images/drag-and-drop-barcode.png)
 
 2. Set the control’s **Symbology** property to **DataBar**. 
 
-    ![](../../../images/data-bar-in-designer.png)
+    ![](../../../../images/data-bar-in-designer.png)
 
 3. Specify [common](add-bar-codes-to-a-report.md) barcode properties and properties [specific](#specific-properties) to **Data Bar**.
 

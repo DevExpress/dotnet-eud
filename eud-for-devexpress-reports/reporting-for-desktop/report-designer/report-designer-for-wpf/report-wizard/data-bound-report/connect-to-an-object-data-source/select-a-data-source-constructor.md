@@ -6,7 +6,7 @@ legacyId: 116244
 # Select a Data Source Constructor
 On this wizard page, select a data source constructor to be used to create an instance of the data source.
 
-![WpfReportWizard_Object_SelectDataSourceConstructor](../../../images/img122880.png)
+![WpfReportWizard_Object_SelectDataSourceConstructor](../../../../../images/img122880.png)
 
 Enable the **Show only highlighted constructors** check box to exclude irrelevant constructors from the list. Otherwise, all available constructors will be shown.
 

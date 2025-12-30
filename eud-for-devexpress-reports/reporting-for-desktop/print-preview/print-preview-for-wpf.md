@@ -8,7 +8,7 @@ The documents in this section provide information on the capabilities of the **P
 
 The Print Preview provides a toolbar and menu that contain commands related to document viewing, navigating, exporting and printing. It also provides the **Document Map** for navigating throughout a document using bookmarks, the **Parameters** panel for editing report parameters, the **Search** panel for locating required data, etc.
 
-![EUD_WpfPrintPreview](../../../images/img124017.png)
+![EUD_WpfPrintPreview](../images/img124017.png)
 
 &nbsp;
 

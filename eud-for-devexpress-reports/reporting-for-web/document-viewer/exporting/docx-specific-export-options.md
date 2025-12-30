@@ -6,7 +6,7 @@ legacyId: 118919
 # DOCX Export Options
 Before [exporting a document](export-a-document.md) to DOCX format, you can specify DOCX-specific options in the **Export Options** panel.
 
-![web-report-designer](../../../images/img129100.png)
+![web-report-designer](../../images/img129100.png)
 * **Export Mode**
 	
 	Specifies how a document is exported to DOCX. The following modes are available.
@@ -44,4 +44,4 @@ Before [exporting a document](export-a-document.md) to DOCX format, you can spec
 ## Document Options
 The **Document Options** complex property contains options which specify the **Document Properties** of the created DOCX file. Click the complex property's header to access its nested options.
 
-![EUD_HTML5DV_DocxDocumentOptions](../../../images/img1218031.png)
+![EUD_HTML5DV_DocxDocumentOptions](../../images/img1218031.png)

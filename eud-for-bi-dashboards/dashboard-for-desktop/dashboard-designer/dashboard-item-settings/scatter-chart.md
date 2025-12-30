@@ -6,7 +6,7 @@ legacyId: 115246
 # Scatter Chart
 The topics in this section describe the features available in the **Scatter Chart** dashboard item, and provide information on how to create and customize scatter charts in the **DevExpress Dashboard Suite**.
 
-![ScatterChart_Main](../images/img120189.png)
+![ScatterChart_Main](../../images/img120189.png)
 
 This section is divided into the following subsections.
 * [Providing Data](scatter-chart/providing-data.md)

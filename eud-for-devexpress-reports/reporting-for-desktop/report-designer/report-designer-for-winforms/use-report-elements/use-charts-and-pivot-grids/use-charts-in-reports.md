@@ -10,19 +10,19 @@ You can use the **Chart** control to add a chart to a report. This control provi
 
 | 2D Series View | 3D Series View |
 |---|---|
-| ![](../../../images/eurd-win-chart-2d-series-example.png) | ![](../../../images/eurd-win-chart-3d-series-example.png) |
+| ![](../../../../images/eurd-win-chart-2d-series-example.png) | ![](../../../../images/eurd-win-chart-3d-series-example.png) |
 
 The **Chart** control can display multiple series.
 
 | Bar and Point Series | Nested Doughnut Series |
 |---|---|
-| ![](../../../images/eurd-win-chart-bar-and-point-series.png) | ![](../../../images/eurd-win-chart-nested-doghnut-series.png)|
+| ![](../../../../images/eurd-win-chart-bar-and-point-series.png) | ![](../../../../images/eurd-win-chart-nested-doghnut-series.png)|
 
 The **Chart** control contains various visual elements (diagrams, series, legends, primary and secondary axes, titles and labels, etc.). You can select these elements in the **Report Designer** and customize their settings in the [Property Grid](../../report-designer-tools/ui-panels/property-grid-tabbed-view.md).
 
 The Report Designer provides the Chart Designer that allows you to create and customize charts.
 
-![](../../../images/eurd-win-chart-designer-ui.png)
+![](../../../../images/eurd-win-chart-designer-ui.png)
 
 ## Bind to Data
 
@@ -36,11 +36,11 @@ A chart can display report data in the following ways:
 
 * Place a chart on the report header/footer band to display a summary for the detail report data.
 
-    ![](../../../images/eurd-win-chart-in-report-header.png)
+    ![](../../../../images/eurd-win-chart-in-report-header.png)
 
 * Place a chart on a group header/footer to visualize data in each report group. Refer to the [Use Charts to Visualize Grouped Data](use-charts-to-visualize-grouped-data.md) step-by-step tutorial for more information.
 
-    ![](../../../images/eurd-win-chart-in-group-footer.png)
+    ![](../../../../images/eurd-win-chart-in-group-footer.png)
 
 * The chart in the Detail band is printed as many times as there are records in the report's data source. 
 

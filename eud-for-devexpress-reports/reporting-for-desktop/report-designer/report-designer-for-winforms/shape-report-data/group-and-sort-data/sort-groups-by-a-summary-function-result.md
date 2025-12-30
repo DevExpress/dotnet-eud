@@ -11,13 +11,13 @@ This tutorial explains how to sort groups by a summary function result, in parti
 	You cannot apply grouping unless your report is bound to a data source.
 2. [Group the report](group-data.md) by the required data field, [calculate the record count](../calculate-summaries/calculate-a-summary.md) in each group and construct the required report layout.
 
-    ![](../../../images/eurd-win-group-by-summary-layout.png)
+    ![](../../../../images/eurd-win-group-by-summary-layout.png)
 
 3. Click the Group Header band's smart tag, and click the **Sorting Summary** property's ellipsis button.
 	
 	In the invoked **Group Sorting Summary Editor**, turn on the **Enabled** option, set the **Field** option to the data field from the Detail band, and set the **Summary function** to **Count**.
 	
-	![](../../../images/eurd-win-group-by-summary-settings.png)
+	![](../../../../images/eurd-win-group-by-summary-settings.png)
 	
 	In this editor, you can also define the sorting direction for the group, as well as specify whether or not the **Null** values should be ignored.
 	
@@ -25,4 +25,4 @@ This tutorial explains how to sort groups by a summary function result, in parti
 
 Switch to [Print Preview](../../preview-print-and-export-reports.md) to see the result.
 
-![](../../../images/eurd-win-group-by-summary-result.png)
+![](../../../../images/eurd-win-group-by-summary-result.png)

@@ -6,7 +6,7 @@ author: Sergey Andreev
 
 The Localization Editor allows you to change the text of the localizable textual properties for all the controls in a report.
 
-![](../../../images/eurd-web-localization-editor-german.png)
+![](../../images/eurd-web-localization-editor-german.png)
 
 The top panel allows you to change the report's language, add a new language to start localization or delete a language.
 
@@ -18,7 +18,7 @@ The text strings for the selected language are editable. When a user finishes ed
 
 Click **Localization** in the Report Designer menu:
 
-![](../../../images/eurd-web-localization-editor-in-menu.png)
+![](../../images/eurd-web-localization-editor-in-menu.png)
 
 ## Use the Editor
 
@@ -27,4 +27,4 @@ Click **Localization** in the Report Designer menu:
 3. Enter the new text. The text is applied to the report control and reflected in the report layout.
 4. Save the report.
 
-![](../../../images/eurd-web-localization-editor-with-report.png)
+![](../../images/eurd-web-localization-editor-with-report.png)

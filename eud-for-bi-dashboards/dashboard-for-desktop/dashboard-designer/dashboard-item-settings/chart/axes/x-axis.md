@@ -6,7 +6,7 @@ legacyId: 16557
 # X-Axis
 The **X-axis** is the axis of arguments.
 
-![Chart_XAxis](../../../images/img19404.png)
+![Chart_XAxis](../../../../images/img19404.png)
 
 This topic consists of the following sections.
 * [Common X-Axis Settings](#generalsettings)
@@ -17,11 +17,11 @@ This topic consists of the following sections.
 ## <a name="generalsettings"/>Common X-Axis Settings
 To access X-axis settings, use the **X-Axis Settings** button in the **Diagram** section of the **Design** Ribbon tab.
 
-![Chart_XAxisOptions_Button](../../../images/img19467.png)
+![Chart_XAxisOptions_Button](../../../../images/img19467.png)
 
 This will invoke the **X-Axis Settings** dialog.
 
-![Chart_XAxisOptions_Form](../../../images/img19403.png)
+![Chart_XAxisOptions_Form](../../../../images/img19403.png)
 
 This dialog contains the following settings.
 
@@ -36,7 +36,7 @@ This dialog contains the following settings.
 ## <a id="numericformatsettings"></a>Numeric Format X-Axis Settings
 If arguments are numeric, the **X-Axis Settings** dialog contains a **Numeric Format** tab. It allows you to specify the numeric display formats for X-Axis data, as described in the [Formatting Data](../../../data-shaping/formatting-data.md) document. 
 
-![Chart_XAxisOptions_NumericFormat](../../../images/chart_xaxisoptions_form_numeric_formats.png)
+![Chart_XAxisOptions_NumericFormat](../../../../images/chart_xaxisoptions_form_numeric_formats.png)
 
 The tab contains the following settings.
 
@@ -52,7 +52,7 @@ For date and time arguments, the **X-Axis Settings** dialog displays a **Numeric
 
 Using the dialog, you can override default formats applied according to the data grouping type, as described in the [Grouping](../../../data-shaping/grouping.md) document. The following image shows the Date Time Format tab in the dialog when the grouping type is set to **Exact Date**. Click the **Reset to Default** button to return all format settings back to their default values.
 
-![Chart_XAxisOptions_NumericFormat](../../../images/chart_xaxisoptions_form_datetime_formats.png)
+![Chart_XAxisOptions_NumericFormat](../../../../images/chart_xaxisoptions_form_datetime_formats.png)
 
 The tab contains settings described in detail in the [Formatting Data](../../../data-shaping/formatting-data.md) document. 
 
@@ -63,11 +63,11 @@ If the dimension in the Arguments section contains numeric data, the Chart can c
 | Continuous X-axis | Discrete X-axis |
 |---|---|
 | If a continuous axis is used, the distance between argument values is proportional to their values. | On a discrete axis, all argument values are an equal distance from each other. |
-| ![Chart_NumericAxis_Continuous](../../../images/img18302.png) | ![Chart_NumericAxis_Discrete](../../../images/img18303.png) |
+| ![Chart_NumericAxis_Continuous](../../../../images/img18302.png) | ![Chart_NumericAxis_Discrete](../../../../images/img18303.png) |
 
 To specify the X-axis type in the Designer, invoke the data item menu for the argument dimension and select the axis type.
 
-![Chart_Layout_XAxis_ContinuousDiscrete](../../../images/img19550.png)
+![Chart_Layout_XAxis_ContinuousDiscrete](../../../../images/img19550.png)
 
 > [!NOTE]
 > Note that the continuous X-axis is not supported in [OLAP](../../../bind-dashboard-items-to-data/bind-dashboard-items-to-data-in-olap-mode.md) mode.

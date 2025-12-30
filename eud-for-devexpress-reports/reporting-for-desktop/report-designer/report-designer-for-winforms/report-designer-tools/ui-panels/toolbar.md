@@ -7,7 +7,7 @@ The Report Designer **Toolbar** includes the **Home**, **Layout**, **Page**, and
 
 ## Home Tab
 
-![eurd-win-toolbar-home-page](../../../images/eurd-win-toolbar-home-page.png)
+![eurd-win-toolbar-home-page](../../../../images/eurd-win-toolbar-home-page.png)
 
 Use commands in this tab to
 
@@ -19,7 +19,7 @@ Use commands in this tab to
 
 ## Layout Tab
 
-![Layout Tab](../../../images/eurd-win-toolbar-layout-page.png)
+![Layout Tab](../../../../images/eurd-win-toolbar-layout-page.png)
 
 This tab provides commands that
 
@@ -30,7 +30,7 @@ This tab provides commands that
 
 ## Page Tab
 
-![Page Tab](../../../images/eurd-win-toolbar-page-page.png)
+![Page Tab](../../../../images/eurd-win-toolbar-page-page.png)
 
 These commands allow you to
 
@@ -40,7 +40,7 @@ These commands allow you to
 
 ## View Tab
 
-![View Tab](../../../images/eurd-win-toolbar-view-page.png)
+![View Tab](../../../../images/eurd-win-toolbar-view-page.png)
 
 This tab enables you to
 
@@ -59,4 +59,4 @@ Contextual tabs are visible whenever you select a specific report element and pr
 
 The following image demonstrates the table cell's available tabs:
 
-![Contextual Tabs](../../../images/eurd-win-toolbar-contextual-tabs.png)
+![Contextual Tabs](../../../../images/eurd-win-toolbar-contextual-tabs.png)

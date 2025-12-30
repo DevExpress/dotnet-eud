@@ -8,11 +8,11 @@ This topic describes how to create a federated data source that joins data from 
 
 ## Create a Report and Data Sources
 
-1. [Create a new blank report](../../../../articles/report-designer/report-designer-for-winforms/report-designer-tools/report-wizard/blank-report.md).
+1. [Create a new blank report](../report-designer-tools/report-wizard/blank-report.md).
 
-2. [Add a SQL data source](../../../../articles/report-designer/report-designer-for-winforms/bind-to-data/bind-a-report-to-a-database.md) that provides one data table.
+2. [Add a SQL data source](../bind-to-data/bind-a-report-to-a-database.md) that provides one data table.
 
-3. [Add an Excel data source](../../../../articles/report-designer/report-designer-for-winforms/bind-to-data/bind-a-report-to-an-excel-workbook.md) that provides the other data table.
+3. [Add an Excel data source](../bind-to-data/bind-a-report-to-an-excel-workbook.md) that provides the other data table.
 
     ![](../../../images/eurd-federated-datasource-excel-datasource.png)
 
@@ -22,7 +22,7 @@ This topic describes how to create a federated data source that joins data from 
 
     ![](../../../images/eurd-add-federated-datasource.png)
 
-2. In the invoked [Data Source Wizard](../../../../articles/report-designer/report-designer-for-winforms/report-designer-tools/data-source-wizard.md), select **Data Federation** and click **Next**.
+2. In the invoked [Data Source Wizard](../report-designer-tools/data-source-wizard.md), select **Data Federation** and click **Next**.
 
     ![](../../../images/eurd-data-federation-wizard.png)
 
@@ -30,7 +30,7 @@ This topic describes how to create a federated data source that joins data from 
 
     ![](../../../images/eurd-data-federation-wizard-add-query.png)
 
-4. In the invoked [Query Builder](../../../../articles/report-designer/report-designer-for-winforms/report-designer-tools/query-builder.md), drag and drop the table from the SQL data source onto the design surface.
+4. In the invoked [Query Builder](../report-designer-tools/query-builder.md), drag and drop the table from the SQL data source onto the design surface.
 
     ![](../../../images/eurd-data-federation-query-builder-drop-table.png)
 
@@ -52,7 +52,7 @@ This topic describes how to create a federated data source that joins data from 
 
 7. Click **OK** to close the Query Builder. Click **Finish** to complete the Data Source Wizard.
  
-The Wizard creates a new **FederationDataSource** that includes the single query. This data source becomes available in the [Report Explorer](../../../../articles/report-designer/report-designer-for-winforms/report-designer-tools/ui-panels/report-explorer.md)'s **Data Sources** node. The [Field List](../../../../articles/report-designer/report-designer-for-winforms/report-designer-tools/ui-panels/field-list.md) reflects the data source structure.
+The Wizard creates a new **FederationDataSource** that includes the single query. This data source becomes available in the [Report Explorer](../report-designer-tools/ui-panels/report-explorer.md)'s **Data Sources** node. The [Field List](../report-designer-tools/ui-panels/field-list.md) reflects the data source structure.
 
 ![](../../../images/eurd-data-federation-data-source-structure.png)
 
@@ -92,11 +92,11 @@ Once you rename the query, update the report's **Data Member** property.
 
     ![](../../../images/eurd-data-federation-design-in-report-wizard.png)
 
-2. In the invoked [Report Wizard](../../../../articles/report-designer/report-designer-for-winforms/report-designer-tools/report-wizard.md), select **Table Report** and click **Next**.
+2. In the invoked [Report Wizard](../report-designer-tools/report-wizard.md), select **Table Report** and click **Next**.
 
     ![](../../../images/eurd-data-federation-report-wizard-table-report.png)
 
-3. Select data fields to display in the report and click **Finish**. You can also go to the [next page](../../../../articles/report-designer/report-designer-for-winforms/report-designer-tools/report-wizard/table-report/add-grouping-levels.md) to create the layout.
+3. Select data fields to display in the report and click **Finish**. You can also go to the [next page](../report-designer-tools/report-wizard/table-report/add-grouping-levels.md) to create the layout.
 
     ![](../../../images/eurd-data-federation-report-wizard-select-fields.png)
 

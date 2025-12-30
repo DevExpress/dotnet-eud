@@ -6,17 +6,17 @@ author: Natalia Kazakova
 
 The **Date Filter** dashboard item allows you to filter dashboard data based on the selected data range. The range can be relative (Last 3 Months), use fixed dates (01-01-2018), or presets (Month-to-date). You can also filter dates before or after a specified date. 
 
-![](images/datefilter-web-overview.png)
+![](../../images/datefilter-web-overview.png)
 
 The Date Filter item displays a set of intervals that can be used as quick filters:
 
-![](images/datefilter-web-autoheight.png)
+![](../../images/datefilter-web-autoheight.png)
 
 ## Add a New Date Filter to the Dashboard
 
-To create a Date Filter item, click the **Date Filter** item (the  ![](images/wdd-datefilter-icon.png)  icon) in the [Toolbox](../ui-elements/toolbox.md) **Filter** section:
+To create a Date Filter item, click the **Date Filter** item (the  ![](../../images/wdd-datefilter-icon.png)  icon) in the [Toolbox](../ui-elements/toolbox.md) **Filter** section:
 
-![](images/wdd-toolbox-filter-elements125330.png)
+![](../../images/wdd-toolbox-filter-elements125330.png)
 
 ## Bind to Data
 
@@ -24,7 +24,7 @@ You can use `DateTime`/`DateOnly` fields for a date filter.
 
 Click the **Dimension** placeholder in the data section and select the required data source field in the **Binding** section of the invoked [data item menu](../ui-elements/data-item-menu.md) to bind the Date Filter to data.
 
-![](images/datefilter-web-data-binding.png)
+![](../../images/datefilter-web-data-binding.png)
 
 For details, see the [Bind Dashboard Items to Data](../bind-dashboard-items-to-data.md) topic.
 
@@ -32,7 +32,7 @@ For details, see the [Bind Dashboard Items to Data](../bind-dashboard-items-to-d
 
 The Date Filter item displays a **Date Picker** that is a button with a drop-down calendar. A drop-down calendar allows the end-user to select a single date or a date range:
 
-![](images/datefilter-web-datepicker.png)
+![](../../images/datefilter-web-datepicker.png)
 
 You can configure whether to display the Date Picker in the Date Filter item. For this, go to the Date Filter's [Options](../ui-elements/dashboard-item-menu.md) menu, open to the **Layout** section and specify the **Show Date Picker** setting.
 
@@ -42,7 +42,7 @@ To specify the date-time value format, use the **Format Type** option in the **F
 
 To specify a custom string displayed in the Date Picker component, go to the dashboard item [Options](../ui-elements/dashboard-item-menu.md) menu, open the **Layout** section and fill in the **Display Text Pattern** text field:
 
-![](images/datefilter-web-options.png)
+![](../../images/datefilter-web-options.png)
 
 You can include placeholders in a custom string. The `{0}` placeholder is the interval's start, the `{1}` placeholder is the interval's end.
 
@@ -50,17 +50,17 @@ You can include placeholders in a custom string. The `{0}` placeholder is the in
 
 **Quick Filters** are buttons displayed within the Date Filter item. Each button is bound to a predefined date-time period that can be used to perform a selection. You can click the button to apply a custom period to a Date filter:
 
-![](images/datefilter-web-quick-filters.png)
+![](../../images/datefilter-web-quick-filters.png)
 
 The **Select Date Time Period** button displayed in the Date Filter caption invokes the drop-down list with quick filters.
 
 To add quick filters, open the Date Filter's [Options](../ui-elements/dashboard-item-menu.md) menu and go to the **Custom Periods** section. Click "+" to add a new period:
 
-![](images/datefilter-web-custom-periods.png)
+![](../../images/datefilter-web-custom-periods.png)
 
 Click the _edit_ icon to invoke the editor's panel and configure a custom period. The following image illustrates how to modify the **Month-to-Date** custom period:
 
-![](images/datefilter-web-custom-period-month-to-date.png)
+![](../../images/datefilter-web-custom-period-month-to-date.png)
 
 You can specify the following settings for the start/end boundaries:
 
@@ -83,4 +83,4 @@ Quick filters in the Date Filter item can be arranged horizontally or vertically
 
 To specify the arrangement mode, go to the dashboard item [Options](../ui-elements/dashboard-item-menu.md) menu, open the **Layout** section and specify the **Arrangement Mode** setting:
 
-![](images/datefilter-web-options.png)
+![](../../images/datefilter-web-options.png)

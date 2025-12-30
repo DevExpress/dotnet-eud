@@ -24,5 +24,4 @@ When switching to [Print Preview](../preview-print-and-export-reports.md), you c
 
 ![](../../../images/eurd-win-format-data-result.png)
 
-
-You can use the control's **Xlsx Format String** property to assign a native Excel format that is used for exporting reports to [XLSX](../../../../../interface-elements-for-desktop/articles/print-preview/print-preview-for-winforms/exporting/xlsx-specific-export-options.md).
+You can use the control's **Xlsx Format String** property to assign a native Excel format that is used for exporting reports to [XLSX](../../../print-preview/print-preview-for-winforms/exporting/xlsx-specific-export-options.md). 

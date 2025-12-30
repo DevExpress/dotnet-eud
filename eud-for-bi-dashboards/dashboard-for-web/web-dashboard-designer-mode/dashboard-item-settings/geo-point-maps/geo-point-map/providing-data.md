@@ -11,7 +11,7 @@ The only difference is in the data sections that the required dashboard item has
 ## Binding to Data in the Web Dashboard
 The image below shows a sample Geo Point Map dashboard item that is bound to data.
 
-![wdd-geo-point-bindings](../../../images/img126163.png)
+![wdd-geo-point-bindings](../../../../images/img126163.png)
 
 To bind the Geo Point Map dashboard item to data, click the placeholder contained in one of the available data sections and select the required data source field in the **Binding** section of the invoked [data item menu](../../../ui-elements/data-item-menu.md).
 

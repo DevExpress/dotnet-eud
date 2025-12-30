@@ -9,11 +9,11 @@ The **PDF Content** control allows you to render PDF file content in two ways:
 
 * *Default*. Render each PDF file page as a separate report page.
     
-    ![Render PDF content on separate pages](../../../images/eurd-win-pdf-content-diagram.png)
+    ![Render PDF content on separate pages](../../../../images/eurd-win-pdf-content-diagram.png)
 
 * Embed PDF content into a report.
 
-    ![Embed PDF content to a report](../../../images/xrpdfcontent-generate-own-pages-on.png)
+    ![Embed PDF content to a report](../../../../images/xrpdfcontent-generate-own-pages-on.png)
 
     Refer to the following documentation section for more details: [Embed PDF File Content into a Report](#embed-pdf-file-content-into-a-report).
 
@@ -21,11 +21,11 @@ The **PDF Content** control allows you to render PDF file content in two ways:
 
 Drop the **PDF Content** item from the Toolbox onto a [band](../../introduction-to-banded-reports.md) on the design surface.
 
-![Drop the PDF Content control from Toolbox](../../../images/xrpdfcontent-drop-from-toolbox.png)
+![Drop the PDF Content control from Toolbox](../../../../images/xrpdfcontent-drop-from-toolbox.png)
 
 You can also copy a PDF document from an external application and paste it in your report, or drag a document and drop it onto the design surface.
 
-![Drag a PDF file from an external resource to a report band](../../../images/xrpdfcontent-drag-file.png)
+![Drag a PDF file from an external resource to a report band](../../../../images/xrpdfcontent-drag-file.png)
 
 The dragged file's content is assigned to the control's **Source** property as [binary data](#specify-pdf-data).
 
@@ -45,7 +45,7 @@ Use one of the following methods:
 
 Expand the **PDF Content** control's smart tag, click the **Source** property's ellipsis button, and select a PDF file.
 
-![Click the Source property's ellipsis button and select PDF file](../../../images/xrpdfcontent-source-ellipsis.png)
+![Click the Source property's ellipsis button and select PDF file](../../../../images/xrpdfcontent-source-ellipsis.png)
 
 When users save a report, the **Source** property value persists in the report file.
 
@@ -55,11 +55,11 @@ You can also use [report parameters](../../use-report-parameters.md) to conditio
 
 Expand the **PDF Content** control's smart tag, click the **Source URL** property's ellipsis button, and select a PDF file.
 
-![Click the Source URL property's ellipsis button and select PDF file](../../../images/xrpdfcontent-sourceurl-ellipsis.png)
+![Click the Source URL property's ellipsis button and select PDF file](../../../../images/xrpdfcontent-sourceurl-ellipsis.png)
 
 To specify a PDF document location on the Web, assign a document URL to the **Source URL** property.
 
-![Assign a Web URL to the Source URL property](../../../images/xrpdfcontent-sourceurl.png)
+![Assign a Web URL to the Source URL property](../../../../images/xrpdfcontent-sourceurl.png)
 
 You can also use [report parameters](../../use-report-parameters.md) to conditionally specify the **Source Url** property value or bind the property to a data source field. Refer to the following section for details: [Use Expressions](#use-expressions).
 
@@ -71,7 +71,7 @@ The **Source Url** property value takes precedence over the **Source** property 
 
 Expand the **PDF Content** control's smart tag and click the **Expression** property's ellipsis button below the **Source** or **Source URL** property.
 
-![Assign an expression to the Source URL property](../../../images/xrpdfcontent-sourceurl-expression.png)
+![Assign an expression to the Source URL property](../../../../images/xrpdfcontent-sourceurl-expression.png)
 
 Use the invoked **Expression Editor** to create an expression that identifies the source of a PDF file.
 
@@ -79,7 +79,7 @@ Use the invoked **Expression Editor** to create an expression that identifies th
 
 [Add](#add-the-pdf-content-control-to-a-report) the **PDF Content** control to a report, [specify](#specify-pdf-content) a PDF file location, and disable the control's **Generate Own Pages** property.
 
-![Disable the Generate Own Pages property](../../../images/disable-generate-own-pages-property.png)
+![Disable the Generate Own Pages property](../../../../images/disable-generate-own-pages-property.png)
 
 ### Use Cases
 
@@ -112,19 +112,19 @@ This section explains how to set the same paper kind for a report and its embedd
 
 2. Drop the **PDF Content** control from the **Toolbox** onto the created report's _Detail_ band, specify a PDF file source, and disable the control's **Generate Own Pages** property.
 
-    ![Add Pdf Content control to a report](../../../images/xrpdfcontent-add-to-a-report.png)
+    ![Add Pdf Content control to a report](../../../../images/xrpdfcontent-add-to-a-report.png)
 
 3. Remove the report's margins and adjust the **PDF Content** control size to make PDF content fit the entire *Detail* band.
 
-    ![Adjust the Pdf Content control's size](../../../images/xrpdfcontent-adjust-size.png)
+    ![Adjust the Pdf Content control's size](../../../../images/xrpdfcontent-adjust-size.png)
 
 4. Add the report as a subreport to your main report. Use the [Subreport](subreport.md) control with the **Generate Own Pages** property enabled.
 
-    ![Add the Pdf Content control as a subreport to the main report](../../../images/xrpdfcontent-add-as-subreport.png)
+    ![Add the Pdf Content control as a subreport to the main report](../../../../images/xrpdfcontent-add-as-subreport.png)
 
     The following image demonstrates the main report's Preview:
 
-    ![The main report's Preview](../../../images/xrpdfcontent-main-report-preview.png)
+    ![The main report's Preview](../../../../images/xrpdfcontent-main-report-preview.png)
 
 ## Limitations
 

@@ -4,7 +4,7 @@ title: Group and Sort Panel
 # Group and Sort Panel
 The **Group and Sort Panel** allows you to quickly apply [grouping](../../shape-report-data/group-and-sort-data/group-data.md) and [sorting](../../shape-report-data/group-and-sort-data/sort-data.md) to your report data.
 
-![eurd-win-group-and-sort-panel](../../../images/eurd-win-group-and-sort-panel.png)
+![eurd-win-group-and-sort-panel](../../../../images/eurd-win-group-and-sort-panel.png)
 
 To create a new grouping or sorting criterion, simply click **Add a Group** or **Add a Sort**.
 

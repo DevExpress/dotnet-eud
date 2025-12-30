@@ -8,7 +8,7 @@ legacyId: 116275
 
 Data-bound controls are indicated by a yellow database icon, both on the [Design Surface](../../interface-elements/design-surface.md) and in the [Report Explorer](../../interface-elements/report-explorer.md).
 
-![EUD_WpfReportDesigner_BindControls_1](../../../images/img123704.png)
+![EUD_WpfReportDesigner_BindControls_1](../../../../images/img123704.png)
 
 To embed dynamic information to a report, if this information is contained in the report data source, you can use one of the following approaches.
 * [Using the Field List](#fieldlist)
@@ -22,18 +22,18 @@ After a control is bound to data, you can employ additional features that are li
 ## Using the Field List
 The Report Designer allows you to create a data-aware element using the [Field List](../../interface-elements/field-list.md). To do this, switch to the Field List panel, click the desired field item and drop it onto the report band. This automatically creates a control bound to the selected data field.
 
-![EUD_WpfReportDesigner_BindControls_2](../../../images/img123705.png)
+![EUD_WpfReportDesigner_BindControls_2](../../../../images/img123705.png)
 
 <a name="contextmenu"/>
 
 ## Using the Context Menu
 Right click an existing report control, and in the invoked context menu, click the **Edit...** link.
 
-![EUD_WpfReportDesigner_BindControls_3](../../../images/img123706.png)
+![EUD_WpfReportDesigner_BindControls_3](../../../../images/img123706.png)
 
 In the invoked **Edit** dialog, expand the **Data Binding** drop-down and select the required data field.
 
-![EUD_WpfReportDesigner_BindControls_4](../../../images/img123707.png)
+![EUD_WpfReportDesigner_BindControls_4](../../../../images/img123707.png)
 
 To unbind a control's property, expand the **Data Binding** drop-down and click the **Clear** button.
 
@@ -42,7 +42,7 @@ To unbind a control's property, expand the **Data Binding** drop-down and click 
 ## Using the Properties Panel
 Select a control (e.g., on the [Design Surface](../../interface-elements/design-surface.md)) and switch to the [Properties Panel](../../interface-elements/properties-panel.md). Expand the **Data Bindings** option and specify a data field for the required property (e.g., **Text**).
 
-![EUD_WpfReportDesigner_BindControls_5](../../../images/img123709.png)
+![EUD_WpfReportDesigner_BindControls_5](../../../../images/img123709.png)
 
 To unbind a control's property, expand the corresponding drop-down and click the **Clear** button.
 

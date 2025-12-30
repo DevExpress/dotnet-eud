@@ -8,17 +8,17 @@ author: Anna Gubareva
 
 This symbology has been widely implemented in many applications where a relatively large amount of data must be encoded in a relatively small amount of space. Its specific structure also allows numerical data to be effectively encoded at double-density.
 
-![](../../../images/eurd-win-bar-code-code-128.png)
+![](../../../../images/eurd-win-bar-code-code-128.png)
 
 ## Add the Barcode to a Report
 
 1. Drag the **Barcode** item from the report controls toolbox tab and drop it onto the report. 
 
-    ![](../../../images/drag-and-drop-barcode.png)
+    ![](../../../../images/drag-and-drop-barcode.png)
 
 2. Set the control’s **Symbology** property to **Code128**. 
 
-    ![](../../../images/code-128-in-designer.png)
+    ![](../../../../images/code-128-in-designer.png)
 
 3. Specify [common](add-bar-codes-to-a-report.md) barcode properties and properties [specific](#specific-properties) to **Code 128**.
 

@@ -5,7 +5,7 @@ title: Labels
 
 This topic describes the steps required to create a report with labels by using the [Report Wizard](../report-wizard.md).
 
-![ReportWizard-ChooseReportType-Labels](../../../images/eurd-ReportWizard-ChooseReportType-Labels.png)
+![ReportWizard-ChooseReportType-Labels](../../../../images/eurd-ReportWizard-ChooseReportType-Labels.png)
 
 Label report creation consists of the following two steps.
 

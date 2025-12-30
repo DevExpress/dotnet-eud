@@ -8,7 +8,7 @@ The topics in this section describe the features available in the **Choropleth M
 
 The Choropleth Map dashboard item allows you to colorize the required areas in proportion to the provided values.
 
-![MainFeatures_Maps](../images/img21964.png)
+![MainFeatures_Maps](../../images/img21964.png)
 
 This section consists of the following subsections:
 * [Providing Maps](choropleth-map/providing-maps.md)

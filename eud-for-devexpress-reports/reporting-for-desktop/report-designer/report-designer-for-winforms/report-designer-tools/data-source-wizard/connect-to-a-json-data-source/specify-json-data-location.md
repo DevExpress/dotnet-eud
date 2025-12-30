@@ -8,12 +8,12 @@ This wizard page allows you to specify a Web Service Endpoint URI, a filename, o
 
 - Web Service Endpoint
 
-    ![](../../../images/eurd-win-JSON-URISource.png)
+    ![](../../../../../images/eurd-win-JSON-URISource.png)
 
 - File Name
 
-    ![](../../../images/eurd-win-JSON-File.png)
+    ![](../../../../../images/eurd-win-JSON-File.png)
 
 - String with JSON Content
 
-    ![](../../../images/eurd-win-JSON-String.png) 
+    ![](../../../../../images/eurd-win-JSON-String.png) 

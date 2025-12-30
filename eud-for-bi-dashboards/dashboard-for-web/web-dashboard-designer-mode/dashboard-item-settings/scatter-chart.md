@@ -6,7 +6,7 @@ legacyId: 117942
 # Scatter Chart
 The topics in this section describe the features available in the **Scatter Chart** dashboard item, and explain how to create and customize scatter charts in the Web Dashboard.
 
-![wdd-dashboard-items-scatter-chart](images/img125128.png)
+![wdd-dashboard-items-scatter-chart](../../images/img125128.png)
 
 This section is divided into the following subsections.
 * [Providing Data](scatter-chart/providing-data.md)

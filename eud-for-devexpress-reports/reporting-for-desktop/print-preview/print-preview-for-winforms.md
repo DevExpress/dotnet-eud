@@ -8,11 +8,11 @@ This section describes the capabilities provided by the Print Preview form.
 
 Print Preview with a ribbn toolbar:
 
-![Print Preview with ribbon toolbar](../../../images/print-preview-with-ribbon.png)
+![Print Preview with ribbon toolbar](../images/print-preview-with-ribbon.png)
 
 Print Preview with a standard toolbar:
 
-![Print Preview with standard toolbar](../../../images/img9129.png)
+![Print Preview with standard toolbar](../images/img9129.png)
 
 &nbsp;
 

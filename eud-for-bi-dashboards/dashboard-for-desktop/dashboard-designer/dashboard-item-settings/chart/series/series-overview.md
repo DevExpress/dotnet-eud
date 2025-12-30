@@ -20,20 +20,20 @@ This topic describes how to change the series type and specify various series op
 ## <a name="series-types"/>Series Types
 To switch between series types in the Dashboard Designer, click the **Options** button next to the required [data item](../../../ui-elements/data-items-pane.md) (or placeholder) in the **Values** section.
 
-![ChartValues_OptionsButton](../../../images/img23036.png)
+![ChartValues_OptionsButton](../../../../images/img23036.png)
 
 In the invoked **Series Options** dialog, select the required series type and click **OK**.
 
-![Charts_SeriesOptionsDialog](../../../images/img23037.png)
+![Charts_SeriesOptionsDialog](../../../../images/img23037.png)
 
 You can also do this using the **Series Type** gallery in the **Design** Ribbon tab.
 
-![Charts_SeriesTypes_Ribbon](../../../images/img19302.png)
+![Charts_SeriesTypes_Ribbon](../../../../images/img19302.png)
 
 ## <a name="series-options"/>Series Options
 To manage common series options, use the **Common Options** tab of the **Series Options** dialog.
 
-![Charts_SeriesOptions_CommonOptions](../../../images/img23040.png)
+![Charts_SeriesOptions_CommonOptions](../../../../images/img23040.png)
 * **Plot on secondary axis** - Specifies whether or not the secondary axis is used to plot the current series.
 * **Ignore empty points** - Specifies whether or not empty points are ignored when plotting the current series.
 	
@@ -48,7 +48,7 @@ To manage common series options, use the **Common Options** tab of the **Series 
 ## <a name="series-point-labels"/>Series Point Labels
 The **Point Label Options** tab of the **Series Options** dialog allows you to enable series point labels and manage their settings.
 
-![Charts_SeriesOptions_PointLabelOptions](../../../images/img23041.png)
+![Charts_SeriesOptions_PointLabelOptions](../../../../images/img23041.png)
 * **Show point labels** - Specifies whether or not to show point labels for the current series.
 * **Content** - Specifies the type of content displayed within point labels.
 * **Overlapping mode** - Specifies the label overlap mode.

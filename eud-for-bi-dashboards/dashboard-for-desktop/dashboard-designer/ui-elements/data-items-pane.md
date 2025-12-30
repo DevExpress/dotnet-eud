@@ -8,7 +8,7 @@ The **DATA ITEMS** pane is placed side-by-side with the [Data Source Browser](da
 
 To learn how to bind dashboard items to data source fields, see the [Bind Dashboard Items to Data](../bind-dashboard-items-to-data/bind-dashboard-items-to-data.md) topic.
 
-![UIElements_DataItemsArea_Area](../images/img20852.png)
+![UIElements_DataItemsArea_Area](../../images/img20852.png)
 
 The DATA ITEMS pane can contain the following elements.
 * **Data Item placeholder** - used to create a data binding using drag-and-drop operations.

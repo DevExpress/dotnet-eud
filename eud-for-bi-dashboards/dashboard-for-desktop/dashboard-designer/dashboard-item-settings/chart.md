@@ -6,7 +6,7 @@ legacyId: 16560
 # Chart
 The topics in this section describe the features available in the **Chart** dashboard item, and provide extensive information on how to create and customize charts in the Dashboard Designer.
 
-![MainFeatures_Chart](../images/img18175.png)
+![MainFeatures_Chart](../../images/img18175.png)
 
 This section is divided into the following subsections.
 * [Providing Data](chart/providing-data.md)

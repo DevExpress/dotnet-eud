@@ -8,11 +8,11 @@ The **Page Info** control is used to display auxiliary information on report pag
 
 To add a new Page Info control to a report, drag the **Page Info** item from the [Toolbox](../../report-designer-tools/ui-panels/toolbox.md) and drop it onto the required report band.
 
-![](../../../images/eurd-win-add-page-info-to-report.png)
+![](../../../../images/eurd-win-add-page-info-to-report.png)
 
 Use the **Page Information** property to define the kind of information the control displays: page numbers, system date-time, or user name.
 
-![](../../../images/eurd-win-page-info-information-kind.png)
+![](../../../../images/eurd-win-page-info-information-kind.png)
 
 For examples of different uses of this control, see the corresponding tutorials:
 
@@ -25,6 +25,6 @@ For examples of different uses of this control, see the corresponding tutorials:
 
 In addition, a format string can be applied to a control's contents. For example, you can change the control's format to **Page {0} of {1}** using the **Text Format String** property.
 
-![](../../../images/eurd-win-page-info-text-format-string.png)
+![](../../../../images/eurd-win-page-info-text-format-string.png)
 
 When a report contains at least one [group](../../shape-report-data/group-and-sort-data/group-data.md), you can specify individual page numbers for report groups by setting the **Running Band** property to the name of the required group.

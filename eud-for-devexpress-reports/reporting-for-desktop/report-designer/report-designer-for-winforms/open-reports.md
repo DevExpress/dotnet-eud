@@ -10,14 +10,14 @@ You can use different commands to open a report. The **Open** dialog displays [s
 
 Click **Open...**.
 
-![eurd-win-ribbon-open-reports](../../../images/eurd-win-ribbon-open-reports.png)
+![eurd-win-ribbon-open-reports](../../images/eurd-win-ribbon-open-reports.png)
 
 
 ### Use the Ribbon Application Menu
 
 Click the application button and then **Open...** in the invoked application menu.
 
-![eurd-win-ribbon-open-reports](../../../images/eurd-win-application-menu-open-reports.png)
+![eurd-win-ribbon-open-reports](../../images/eurd-win-application-menu-open-reports.png)
 
 ### Use a Shortcut
 

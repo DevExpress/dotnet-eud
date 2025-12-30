@@ -7,21 +7,21 @@ owner: Anna Vekhina
 
 The Report Wizard enables you to create reports or modify existing reports based on predefined templates.
 
-![](../../../images/eurd-web-report-wizard-table-report.png)
+![](../../images/eurd-web-report-wizard-table-report.png)
 
 The Designer's Menu has the following commands:
 
 * **New via Wizard** - runs the Report Wizard and creates a new report.
 * **Design in Report Wizard** - runs the Report Wizard and modifies the current report. 
 
-![](../../../images/eurd-web-report-wizard-run-in-menu.png)
+![](../../images/eurd-web-report-wizard-run-in-menu.png)
 
 
 ## Report Wizard Pages
 
 The following image shows the wizard's navigation structure:
 
-![](../../../images/eurd-web-report-wizard-page-structure.png)
+![](../../images/eurd-web-report-wizard-page-structure.png)
 
 The Wizard has a navigation panel that does the following:
 
@@ -30,7 +30,7 @@ The Wizard has a navigation panel that does the following:
 * grays out disabled pages
 * allows you to switch between pages
 
-![](../../../images/eurd-web-report-wizard-navigation-panel.png)
+![](../../images/eurd-web-report-wizard-navigation-panel.png)
 
 
 ## Select the Report Type

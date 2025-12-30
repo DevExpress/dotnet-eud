@@ -8,7 +8,7 @@ The **Toolbox** provides access to the dashboard menu, and allows you to add das
 
 The main parts of the Toolbox are listed below.
 
-![wdd-toolbox](images/img125795.png)
+![wdd-toolbox](../../images/img125795.png)
 
 * **Dashboard Menu** - contains the dashboard menu elements. They allow you to save or load dashboards and configure general dashboard settings. To invoke this menu, click on the [Dashboard Menu](dashboard-menu.md) button.
 * **Toolbox** - contains buttons that allow you to add dashboard items like [Grid](../dashboard-item-settings/grid.md), [Maps](../dashboard-item-settings/geo-point-maps.md), [Treemap](../dashboard-item-settings/treemap.md), [Filter Elements Overview](../dashboard-item-settings/filter-elements/filter-elements-overview.md) or custom items.

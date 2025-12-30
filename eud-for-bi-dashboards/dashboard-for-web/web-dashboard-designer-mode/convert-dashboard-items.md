@@ -8,7 +8,7 @@ The Web Dashboard provides the capability to convert data-bound dashboard items 
 
 To convert the selected dashboard item to another type, use the dashboard item's [Convert To](ui-elements/dashboard-item-menu.md) menu.
 
-![wdd-convert-to-dialog](images/img125857.png)
+![wdd-convert-to-dialog](../images/img125857.png)
 
 > [!NOTE]
 > You can also created a copy of the selected dashboard item using the **Duplicate current item** command.

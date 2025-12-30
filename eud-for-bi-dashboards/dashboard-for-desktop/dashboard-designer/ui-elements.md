@@ -11,3 +11,5 @@ This section consists of the following topics:
 * [Data Items Pane](ui-elements/data-items-pane.md)
 * [Print Preview](ui-elements/print-preview.md)
 * [Dashboard Surface](ui-elements/dashboard-surface.md)
+* [Filter Editor](ui-elements/filter-editor.md)
+* [Expression Editor](ui-elements/expression-editor.md)

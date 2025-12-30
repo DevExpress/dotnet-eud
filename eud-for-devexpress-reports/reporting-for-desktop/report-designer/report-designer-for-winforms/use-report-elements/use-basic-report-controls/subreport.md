@@ -8,7 +8,7 @@ The **Subreport** control is used to embed other reports into the current report
 
 To add this control to a report, drag the **Subreport** item from the [Toolbox](../../report-designer-tools/ui-panels/toolbox.md) onto the report's area.
 
-![](../../../images/eurd-win-add-subreport-to-report.png)
+![](../../../../images/eurd-win-add-subreport-to-report.png)
 
 The Subreport control allows you to solve the following tasks:
 

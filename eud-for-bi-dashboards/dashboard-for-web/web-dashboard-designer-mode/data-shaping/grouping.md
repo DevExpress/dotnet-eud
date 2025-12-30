@@ -36,7 +36,7 @@ Date-time values support the following group intervals.
 
 To specify a date-time group interval in the Web Dashboard, invoke the dashboard item **Bindings** menu and select the required data item. In the _Bindings_ section, select the desired interval from the drop-down **Group Interval** list.
 
-![wdd-change-grouping-interval](images/img124606.png)
+![wdd-change-grouping-interval](../../images/img124606.png)
 
 ## Changing a Text Group Interval
 String values support the following grouping intervals.
@@ -45,4 +45,4 @@ String values support the following grouping intervals.
 
 For string values, go to the _Data Shaping_ section of the data item menu. Here, you can change the group interval to alphabetical.
 
-![wdd-change-grouping-interval-text](images/img124612.png)
+![wdd-change-grouping-interval-text](../../images/img124612.png)

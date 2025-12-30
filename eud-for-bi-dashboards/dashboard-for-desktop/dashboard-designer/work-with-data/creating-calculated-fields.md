@@ -16,15 +16,15 @@ After you have created a data source, you can add a new calculated field based o
 
 To create a calculated field, select the required data source (and the required [query](manage-sql-queries.md)/data member, if applicable) in the [Data Source Browser](../ui-elements/data-source-browser.md) and click the **Add Calculated Field** button in the Ribbon's Data Source tab...
 
-![CalculatedFileds_AddCalculatedFieldButton_Ribbon](../images/img21578.png)
+![CalculatedFileds_AddCalculatedFieldButton_Ribbon](../../images/img21578.png)
 
 ...or right-click the Field List and select **Add Calculated Field** in the context menu.
 
-![CalculatedFileds_AddCalculatedField_ContextMenu](../images/img21581.png)
+![CalculatedFileds_AddCalculatedField_ContextMenu](../../images/img21581.png)
 
 This invokes the **Expression Editor** dialog, which allows you to specify an [expression](../data-analysis/expression-constants-operators-and-functions.md) that will be used to obtain calculated field values. Here, you can construct the required expression.
 
-![CalculatedFileds_ExpressionEditor](../images/img21580.png)
+![CalculatedFileds_ExpressionEditor](../../images/img21580.png)
 
 You can use the following elements in expressions.
 * Functions
@@ -38,20 +38,20 @@ You can use the following elements in expressions.
 
 After the expression has been specified, click **OK**. This displays a new calculated field in the data source structure.
 
-![CalculatedFileds_DataSourceStructure](../images/img21582.png)
+![CalculatedFileds_DataSourceStructure](../../images/img21582.png)
 
 Now you can specify the required calculated field type, change its default name, etc.
 
 ## <a name="editing-a-calculated-field"/>Editing a Calculated Field
 To edit a calculated field, use its context menu.
 
-![CalculatedFileds_FieldContextMenu](../images/img21583.png)
+![CalculatedFileds_FieldContextMenu](../../images/img21583.png)
 
 This menu contains the following items.
 
 | Item | Description |
 |---|---|
-| **Edit Expression...** | Invokes the [Expression Editor](../../../../interface-elements-for-desktop/articles/expression-editor.md) dialog, which allows you to change an expression for an existing calculated field. |
+| **Edit Expression...** | Invokes the [Expression Editor](../ui-elements/expression-editor.md) dialog, which allows you to change an expression for an existing calculated field. |
 | **Field Type** | Specifies the type of the calculated field. |
 | **Rename** | Changes the calculated field name. |
 | **Delete** | Removes the existing calculated field from the data source. |

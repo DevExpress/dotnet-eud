@@ -12,11 +12,11 @@ This topic describes the features related to the dashboard layout.
 ## <a name="dashboard-title"/>Dashboard Title
 The **Dashboard Title** is located at the top of the dashboard. The dashboard title can contain text or image content, elements selected in the master filter item, and command buttons.
 
-![wdd-dashboard-title](images/img126004.png)
+![wdd-dashboard-title](../../images/img126004.png)
 
-When you hover over the filter icon (![DashboardTitle_MasterFilterIcon_Web](images/img23672.png)), all master filters applied to the dashboard are displayed in the invoked popup.
+When you hover over the filter icon (![DashboardTitle_MasterFilterIcon_Web](../../images/img23672.png)), all master filters applied to the dashboard are displayed in the invoked popup.
 
-![DashboardTitle_MasterFilterPopup_Web](images/img23673.png)
+![DashboardTitle_MasterFilterPopup_Web](../../images/img23673.png)
 
 The dashboard title can contain the following command buttons.
 * **Export To** button - allows you to export the dashboard. To learn more about exporting, see the [Exporting](../exporting.md) topic.
@@ -25,7 +25,7 @@ The dashboard title can contain the following command buttons.
 ## <a name="dashboard-item-caption"/>Dashboard Item Caption
 Each [dashboard item](../dashboard-items.md) can include a caption that is displayed at the top of this item. The caption contains static text along with other information, as well as command buttons.
 
-![WebViewer_DashboardItemCaption](images/img22466.png)
+![WebViewer_DashboardItemCaption](../../images/img22466.png)
 
 > [!NOTE]
 > If the dashboard item caption is not visible, command buttons are displayed at the top right corner of the item.
@@ -46,4 +46,4 @@ The caption of the dashboard item contains the following information and buttons
 ## <a name="resizing-dashboard-items"/>Resizing Dashboard Items
 You can resize individual items (or a group of items) by dragging their edges.
 
-![Layout_ResizingItem_Web](images/img22857.png)
+![Layout_ResizingItem_Web](../../images/img22857.png)

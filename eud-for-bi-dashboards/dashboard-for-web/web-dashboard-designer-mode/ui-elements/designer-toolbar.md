@@ -8,4 +8,4 @@ The **Designer Toolbar** allows you to access frequently used commands with a si
 
 The default Designer Toolbar displays layout options and undo/redo buttons.
 
-![web-dashboard-designer-toolbar](images/web-dashboard-designer-toolbar.png)
+![web-dashboard-designer-toolbar](../../images/web-dashboard-designer-toolbar.png)

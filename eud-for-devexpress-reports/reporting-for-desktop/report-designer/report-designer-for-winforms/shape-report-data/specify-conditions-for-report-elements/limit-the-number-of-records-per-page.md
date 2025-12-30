@@ -10,19 +10,19 @@ After you [bound your report to data](../../bind-to-data.md) and provided conten
 
 1. Switch to the [Field List](../../report-designer-tools/ui-panels/field-list.md), right-click the **Parameters** section and add a new report parameter.
 	
-	![](../../../images/eurd-win-shaping-filter-add-parameter.png)
+	![](../../../../images/eurd-win-shaping-filter-add-parameter.png)
 
 2. Specify the parameter's description displayed in Print Preview and set its type to **Number (Integer)**.
 	
-	![](../../../images/eurd-win-shaping-limit-parameter-settings.png)
+	![](../../../../images/eurd-win-shaping-limit-parameter-settings.png)
 
 3. Drop a [Page Break](../../use-report-elements/use-basic-report-controls/page-break.md) control onto the report's detail band and switch to the [Property Grid](../../report-designer-tools/ui-panels/property-grid-tabbed-view.md). Open the **Behavior** tab, click the **Visible** property's marker and select **Visible Expression** in the context menu.
 	
-	![](../../../images/eurd-win-shaping-page-break-visible-property.png)
+	![](../../../../images/eurd-win-shaping-page-break-visible-property.png)
 
 4. In the invoked **Expression Editor**, specify the required [expression](../../use-expressions.md).
 	
-	![](../../../images/eurd-win-shaping-page-break-visible-expression.png)
+	![](../../../../images/eurd-win-shaping-page-break-visible-expression.png)
 	
 	For example:
 	
@@ -30,4 +30,4 @@ After you [bound your report to data](../../bind-to-data.md) and provided conten
 
 When switching to [Print Preview](../../preview-print-and-export-reports.md), you can specify how many rows each report page should display by entering the corresponding parameter value:
 
-![](../../../images/eurd-win-shaping-limit-rows-result.png)
+![](../../../../images/eurd-win-shaping-limit-rows-result.png)

@@ -6,11 +6,11 @@ legacyId: 15763
 # Pass Query Parameters
 The [Query Builder](using-the-query-builder.md) allows you to add query parameters when creating a filter criteria. To specify settings of an added query parameter, click **Next** in the [Query Editor](using-the-query-editor.md) dialog.
 
-![QueryEditorDialog_CustomSqlWithParameter](../images/img118169.png)
+![QueryEditorDialog_CustomSqlWithParameter](../../images/img118169.png)
 
 On the next page, add a new parameter (using the **Add** button) and specify its settings.
 
-![QueryEditorDialog_Page2](../images/img121065.png)
+![QueryEditorDialog_Page2](../../images/img121065.png)
 * **Name** - Specifies a parameter's name.
 * **Type** - Specifies the parameter's type.
 * **Expression** - Specifies whether an expression is used to specify a parameter's value.

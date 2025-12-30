@@ -7,7 +7,7 @@ title: 'Select the Data Source Type'
 
 This wizard page allows you to select the required data source type.
 
-![ReportWizard-SelectDataSourceType](../../../images/eurd-ReportWizard-SelectDataSourceType.png)
+![ReportWizard-SelectDataSourceType](../../../../../images/eurd-ReportWizard-SelectDataSourceType.png)
 
 Click **Next** to proceed to the next wizard page, depending on the selected data source type.
 

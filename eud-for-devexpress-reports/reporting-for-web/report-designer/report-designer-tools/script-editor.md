@@ -20,11 +20,11 @@ The Script Editor provides you the capability to write and execute scripts. Use 
 
 The Script Editor supports **C#**, **Visual Basic .NET** and **JScript .NET** scripting languages. This means that the scripting language is independent from the language used to create the report. The language is specified by the **Script Language** property. The selected scripting language must be the same for all scripts used in a report.
 
-![](../../../images/eurd-web-script-editor-script-language.png)
+![](../../images/eurd-web-script-editor-script-language.png)
 
 The Script Editor supports intelligent code completion that makes it easier and faster to write scripts. Context-aware hints are displayed on pressing CTRL+spacebar. This feature is only supported for the **C#** and **Visual Basic .NET** script languages.
 
-![](../../../images/eurd-script-editor-scripts-intellisense.png)
+![](../../images/eurd-script-editor-scripts-intellisense.png)
 
 Intelligent code completion is available only for .NET Framework and DevExpress libraries deployed with the application and cannot be provided for custom assemblies.
 
@@ -32,15 +32,15 @@ Intelligent code completion is available only for .NET Framework and DevExpress 
 
 Each report element has its own set of events that can be handled by the Script Editor. To handle an event of a report element, do the following.
 
-1. Click the **Scripts** button ![](../../../images/eurd-script-editor-script-editor-button.png) located on the End-User Report Designer's [Main Toolbar](toolbar.md).
+1. Click the **Scripts** button ![](../../images/eurd-script-editor-script-editor-button.png) located on the End-User Report Designer's [Main Toolbar](toolbar.md).
 2. In the displayed Script Editor, specify the report control and its event by the toolbar. The toolbar contains all scripts written for all report elements, and allows you to quickly navigate through them by choosing the required report element in the corresponding drop-down list and specifying one of its available events in another menu.
 
-    ![](../../../images/eurd-script-editor-script.png)
+    ![](../../images/eurd-script-editor-script.png)
 
     After the event is specified, a code template is generated in the current scripting language.
 
-3. To check for errors in the report's script, click the **Validate** ![](../../../images/eurd-script-editor-script-editor-validate-button.png) button.
+3. To check for errors in the report's script, click the **Validate** ![](../../images/eurd-script-editor-script-editor-validate-button.png) button.
 
-    If an error is found, the string containing this error is marked with an ![](../../../images/eurd-web-script-editor-error.png) icon. When a mouse pointer hovers over this icon, the text of the error is displayed.
+    If an error is found, the string containing this error is marked with an ![](../../images/eurd-web-script-editor-error.png) icon. When a mouse pointer hovers over this icon, the text of the error is displayed.
 
-    ![](../../../images/eurd-web-script-editor-error-msg.png)
+    ![](../../images/eurd-web-script-editor-error-msg.png)

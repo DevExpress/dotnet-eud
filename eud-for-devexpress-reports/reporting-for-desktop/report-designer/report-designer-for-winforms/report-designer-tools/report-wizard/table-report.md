@@ -10,7 +10,7 @@ The topics in this section describe how to create a table report and connect it 
 
 To create a new report and connect it to data, [run the Report Wizard](../report-wizard.md) and select **Table Report**.
 
-![ReportWizard-ChooseReportType-TableReport](../../../images/eurd-ReportWizard-ChooseReportType-TableReport.png)
+![ReportWizard-ChooseReportType-TableReport](../../../../images/eurd-ReportWizard-ChooseReportType-TableReport.png)
 
 The Report Wizard can include the following pages:
 

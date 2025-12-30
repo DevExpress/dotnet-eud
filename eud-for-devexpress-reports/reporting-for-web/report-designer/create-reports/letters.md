@@ -12,11 +12,11 @@ This tutorial describes the steps to create a mail merge report, in which data f
 
 3. Drop the [Label](../use-report-elements/use-basic-report-controls/label.md) control from the [Toolbox](../report-designer-tools/toolbox.md) onto the [Detail](../introduction-to-banded-reports.md) band.
 
-    ![](../../../images/eurd-web-letter-drop-label.png)
+    ![](../../images/eurd-web-letter-drop-label.png)
 
 4. Add the required text to the control and embed data fields' names into it, surrounded by **[** square brackets **]**, as shown in the following image:
 
-    ![](../../../images/eurd-web-letter-label-result.png)
+    ![](../../images/eurd-web-letter-label-result.png)
 
 For more information about mail merge, refer to [Use Embedded Fields (Mail Merge)](../use-report-elements/use-embedded-fields-mail-merge.md).
 

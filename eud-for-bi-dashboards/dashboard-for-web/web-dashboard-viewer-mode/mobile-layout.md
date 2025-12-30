@@ -7,7 +7,7 @@ title: Mobile Layout
 
 This topic describes the Web Dashboard's mobile layout that enables you to display dashboards on mobile phones.
 
-![WebDashboard_MobileLayout_Main](images/webdashboard_mobilelayout_main131711.png)
+![WebDashboard_MobileLayout_Main](../images/webdashboard_mobilelayout_main131711.png)
 
 - [Mobile Layout's Views](#mobile-layouts-views)
 - [Dashboard Items Behavior](#dashboard-items-behavior)
@@ -23,16 +23,16 @@ Web Dashboard in the mobile layout consists of the following views:
 
 The **List view** displays all dashboard items used in the current dashboard. The item's interactivity is disabled. Filter elements are not displayed in the List view (see [Dashboard Items Behavior](#dashboard-items-behavior)).
 
-![List View](images/wdd-mobileLayout-listView.png) 
+![List View](../images/wdd-mobileLayout-listView.png) 
 
 ### Item View
 The **Item view** displays the selected item. Interactivity is supported. Filter elements are not displayed in the Item view (see [Dashboard Items Behavior](#dashboard-items-behavior)).
 
-![Item View](images/wdd-mobileLayout-itemView.png)
+![Item View](../images/wdd-mobileLayout-itemView.png)
 ### Filter Panel
-The **Filter panel** displays filters that are applied to the entire dashboard / dashboard items. Click the **Filter** button (the ![](images/web-dashboard-item-caption-filters-icon.png) icon) in the List view / Item view to see the filters applied to the entire dashboard / dashboard item, respectively. Click the required filter in the Filter panel to open the corresponding filter element and filter data.
+The **Filter panel** displays filters that are applied to the entire dashboard / dashboard items. Click the **Filter** button (the ![](../images/web-dashboard-item-caption-filters-icon.png) icon) in the List view / Item view to see the filters applied to the entire dashboard / dashboard item, respectively. Click the required filter in the Filter panel to open the corresponding filter element and filter data.
 
-![Filter Panel](images/wdd-mobileLayout-filterPanel.png) ![Filter Element](images/wdd-mobileLayout-filterElement.png)
+![Filter Panel](../images/wdd-mobileLayout-filterPanel.png) ![Filter Element](../images/wdd-mobileLayout-filterElement.png)
 
 ## Dashboard Items Behavior
 

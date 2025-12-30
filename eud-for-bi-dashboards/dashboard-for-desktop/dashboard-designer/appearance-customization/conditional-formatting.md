@@ -6,7 +6,7 @@ legacyId: 114184
 # Conditional Formatting
 The Dashboard Designer control supports conditional formatting. You can apply a custom style to data elements that satisfy a certain condition for [Grid](../dashboard-item-settings/grid.md), [Pivot](../dashboard-item-settings/pivot.md), [Chart](../dashboard-item-settings/chart.md), [Scatter Chart](../dashboard-item-settings/scatter-chart.md) and [Card](../dashboard-item-settings/cards.md) items.
 
-![BlogDashboard_ConditionalFormatting](../images/img118090.png)
+![BlogDashboard_ConditionalFormatting](../../images/img118090.png)
 
 ## Format Rules
 Comparison rules used in conditional formatting can be categorized as follows:
@@ -54,13 +54,13 @@ You can create format rules in the following ways:
 
 * Click the **Edit Rules** button on the **Home** ribbon tab. 
 
-  ![EditRules_Ribbon](../images/editrules_ribbon118564.png)
+  ![EditRules_Ribbon](../../images/editrules_ribbon118564.png)
 
 	This action invokes the [Edit Rules](#the-edit-rules-dialog) dialog where you can create a new format rule or manage rules applied to the dashboard item.
 
 * Click the measure/dimension menu button in the Data Item's pane and select **Add Format Rule**/**Edit Rules**.
 
-	![](../images/editrulesmenuitem118590.png) 
+	![](../../images/editrulesmenuitem118590.png) 
 
     The **Add Format Rule** option invokes the pop-up menu where you can select the format rule and format condition's type for a new rule. 
 	
@@ -72,7 +72,7 @@ You can create format rules in the following ways:
 
 The **Edit Rules** dialog contains format rules applied to the dashboard item:
 
-![edit_rules_dialog](../images/editrulesdialog118565.png)
+![edit_rules_dialog](../../images/editrulesdialog118565.png)
 
 You can manage format rules in the dialog in the following ways:
 
@@ -80,18 +80,18 @@ You can manage format rules in the dialog in the following ways:
 |----|-----|
 |Edit the selected rule|Use the **Edit** button or double-click the rule. |
 |Delete the selected rule|Use the **Delete** button. |
-|Reorder format rules|Use the **Up** and **Down** buttons (![EditRules_UpButton](../images/img118698.png) and ![EditRules_DownButton](../images/img118699.png) icons). You can reorder rules to specify their priority. Rules are applied from top to bottom. The bottom rule has the highest priority. |
+|Reorder format rules|Use the **Up** and **Down** buttons (![EditRules_UpButton](../../images/img118698.png) and ![EditRules_DownButton](../../images/img118699.png) icons). You can reorder rules to specify their priority. Rules are applied from top to bottom. The bottom rule has the highest priority. |
 |Enable/disable a rule|Use the corresponding check box in the left column. |
 |Create a new rule|Click the **Add** button and select the format condition. The **calculated by** combo box allows you to select the measure/dimension that is used to calculate the format rule. For Card, when you create a rule for delta, specify the delta type whose values are used to calculate a condition in the **using** combo box. |
 |Filter format rules by the specified data item| Use the **Filter by** combo box. |
 
 The **Add** button invokes a pop-up menu where you can specify appearance settings and set the condition's value for the format rule. Available settings depend on the selected format rule.
 
-![rule_manager](../images/win-conditional-formatting-card-rule-manager.png)
+![rule_manager](../../images/win-conditional-formatting-card-rule-manager.png)
 
 The image below displays the **Greater Than** dialog, which corresponds to the [Value](conditional-formatting/value.md) format condition for a [Grid](../dashboard-item-settings/grid.md) dashboard item. The format condition applies to the _ExtendedPrice_ data item in the **Apply to** drop-down list.
 
- ![GreaterThanDialog](../images/img118555.png)
+ ![GreaterThanDialog](../../images/img118555.png)
 ## Dashboard Items Specific
 
 Refer to the following topics for more information about specific format rule settings:

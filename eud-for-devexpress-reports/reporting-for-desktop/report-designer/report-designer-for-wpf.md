@@ -8,7 +8,7 @@ This guide contains information about the basic principles of creating reports w
 
 The Report Designer allows you to create new reports from scratch, bind them to data and fully customize them. In addition to report editing capabilities, it allows you to display a report's Print Preview, send its outputs to a printer or export it to various formats.
 
-![EndUserReportFDesignerForWPF](../../../images/img120311.png)
+![EndUserReportFDesignerForWPF](../images/img120311.png)
 
 
 > [!NOTE]

@@ -6,7 +6,7 @@ legacyId: 116226
 # Connect to a Database
 The topics in this section describe the steps required to connect a report to a database using the [Report Wizard](../../report-wizard.md).
 
-![WPDDesigner_ReportWizard_SelectDataSourceType](../../../images/img122896.png)
+![WPDDesigner_ReportWizard_SelectDataSourceType](../../../../images/img122896.png)
 
 The following data source types are supported:
 

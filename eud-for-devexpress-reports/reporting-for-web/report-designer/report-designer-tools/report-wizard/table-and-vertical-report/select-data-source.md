@@ -11,7 +11,7 @@ On this wizard page, you can select an existing data source or create a new data
 
 Select the first option and choose a data source from the list.
 
-![](../../../images/eurd-web-report-wizard-define-report-layout.png)
+![](../../../../images/eurd-web-report-wizard-define-report-layout.png)
 
 
 * If you create a new report, the list displays the Report Designer's predefined data sources.
@@ -25,7 +25,7 @@ Click **Next** to go to the [Define Report Layout](define-report-layout.md) page
 
 Choose _'No, I'd like to create a new data source'_ and select the data source type.
 
-![](../../../images/eurd-web-report-wizard-select-data-source-type.png)
+![](../../../../images/eurd-web-report-wizard-select-data-source-type.png)
 
 > [!Note]
 > You can create new data sources only if corresponding data connections are registered in the Report Designer.

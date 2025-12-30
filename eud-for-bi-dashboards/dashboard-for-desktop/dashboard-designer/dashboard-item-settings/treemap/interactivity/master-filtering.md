@@ -10,7 +10,7 @@ The Treemap dashboard item supports filtering by tiles/[groups](../grouping.md).
 
 When Master Filtering is enabled, you can click a tile or group caption (or multiple tiles/groups by holding down the **CTRL** key) to make other dashboard items only display data related to the selected tile/group(s).
 
-![Treemap_MasterFiltering2](../../../images/img125442.png)
+![Treemap_MasterFiltering2](../../../../images/img125442.png)
 
 > [!NOTE]
 > If the Single Master Filter is used, you can select only tiles corresponding to the bottommost level.

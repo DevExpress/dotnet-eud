@@ -5,11 +5,11 @@ title: Property Grid (Non-Tabbed View)
 
 The **Property Grid** allows you to access and customize report/report element settings.
 
-![WinFormsPropertyGrid-Tabs](../../../images/eurd-win-property-grid-nontabbed-view.png)
+![WinFormsPropertyGrid-Tabs](../../../../images/eurd-win-property-grid-nontabbed-view.png)
 
 See the [Property Grid (Tabbed View)](property-grid-tabbed-view.md) topic if your Property Grid arranges properties in tabs.
 
-![WinFormsPropertyGrid-Tabs](../../../images/eurd-win-PropertyGrid-Tabs_nontabbed.png)
+![WinFormsPropertyGrid-Tabs](../../../../images/eurd-win-PropertyGrid-Tabs_nontabbed.png)
 
 ## Select a Report Element
 
@@ -17,7 +17,7 @@ Perform one of the following actions to select an element and show its propertie
 
 * Select an element in the drop-down list at the top of the Property Grid.
 
-	![WinFormsPropertyGrid-SelectControl](../../../images/eurd-win-PropertyEditor-SelectControl.png)
+	![WinFormsPropertyGrid-SelectControl](../../../../images/eurd-win-PropertyEditor-SelectControl.png)
 
 * Click an element in the [design surface](../../first-look-at-the-report-designer.md).
 * Select an element in the [Report Explorer](report-explorer.md).
@@ -26,48 +26,48 @@ Perform one of the following actions to select an element and show its propertie
 
 You can switch between categorized and alphabetical modes.
 
-  ![Categorized-Alphabetical-Mode-Switchers](../../../images/eurd-win-propertygrid-nontabbed-modeswitchers.png)
+  ![Categorized-Alphabetical-Mode-Switchers](../../../../images/eurd-win-propertygrid-nontabbed-modeswitchers.png)
 
   - In the categorized mode, properties are listed in a tree-like form.
 
-    ![Categorized-Mode](../../../images/eurd-win-propertygrid-nontabbed-categorized.png)
+    ![Categorized-Mode](../../../../images/eurd-win-propertygrid-nontabbed-categorized.png)
 
   - In the alphabetical mode, all properties are displayed in a single list and are sorted alphabetically by name.
 
-    ![Alphabetical-Mode](../../../images/eurd-win-propertygrid-nontabbed-alphabetical.png)
+    ![Alphabetical-Mode](../../../../images/eurd-win-propertygrid-nontabbed-alphabetical.png)
 
 ## Favorite Properties
 
 The **Favorites** tab displays favorite or most frequently used properties.
 
-![WinFormsPropertyGrid-Tabs](../../../images/eurd-win-PropertyGrid-Favorites-nontabbed.png)
+![WinFormsPropertyGrid-Tabs](../../../../images/eurd-win-PropertyGrid-Favorites-nontabbed.png)
 
 Click the **Edit Favorite Property List** context menu item to set up the favorite properties. Enable check boxes for the controls' properties in the invoked **Favorite Properties Editor** to include these properties into the favorite list.
 
-![](../../../images/eurd-win-favorite-properties-editor-nontabbed.png)
+![](../../../../images/eurd-win-favorite-properties-editor-nontabbed.png)
 
 ## Change Property Values
 
 The Property Grid adds a green property marker to properties if their default value changes.
 
-![WinFormsPropertyGrid-GreenMarks](../../../images/eurd-win-PropertyGrid-GreenMarks-nontabbed.png)
+![WinFormsPropertyGrid-GreenMarks](../../../../images/eurd-win-PropertyGrid-GreenMarks-nontabbed.png)
 
 Right-click a property's editor to reset the value.
 
-![WinFormsPropertyGrid-ResetValue](../../../images/eurd-win-FormsPropertyGrid-ResetValue-nontabbed.png)
+![WinFormsPropertyGrid-ResetValue](../../../../images/eurd-win-FormsPropertyGrid-ResetValue-nontabbed.png)
 
 ## Set Color Properties
 
 You can use the Magnifier to set color properties.
 
-![](../../../images/eurd-win-magnifier-button-nontabbed.png)
+![](../../../../images/eurd-win-magnifier-button-nontabbed.png)
 
 Do the following to use the Magnifier:
 
 - Click the Magnifier button.
 - Move the invoked Magnifier on the screen to find the color you want to set.
 
-	![](../../../images/eurd-win-magnifier-get-color.png)
+	![](../../../../images/eurd-win-magnifier-get-color.png)
 
 	You can use the Magnifier to zoom out. Use one of the following options to do this:
 
@@ -76,7 +76,7 @@ Do the following to use the Magnifier:
 
 - Click to set the color property to the selected color.
 
-	![](../../../images/eurd-win-magnifier-set-color.png)
+	![](../../../../images/eurd-win-magnifier-set-color.png)
 
 Right click or press Esc to cancel the Magnifier mode.
 
@@ -84,19 +84,19 @@ Right click or press Esc to cancel the Magnifier mode.
 
 If [expression bindings](../../use-expressions/data-binding-modes.md) are enabled, the Property Grid allows you to specify expressions that can include two or more data fields and various functions. Click a property's marker to see whether the invoked context menu has the **PropertyName Expression** item.
 
-![WinFormsPropertyGrid-Expression](../../../images/eurd-win-PropertyGrid-Expression-nontabbed.png)
+![WinFormsPropertyGrid-Expression](../../../../images/eurd-win-PropertyGrid-Expression-nontabbed.png)
 
 Click this item to specify an expression in the invoked Expression Editor.
 
-![WinFormsPropertyGrid-ExpressionEditor](../../../images/eurd-win-PropertyGrid-ExpressionEditor.png)
+![WinFormsPropertyGrid-ExpressionEditor](../../../../images/eurd-win-PropertyGrid-ExpressionEditor.png)
 
 The Property Grid highlights properties that have an assigned expression.
 
-![WinFormsPropertyGrid-ExpressionMark](../../../images/eurd-win-PropertyGrid-ExpressionMark-nontabbed.png)
+![WinFormsPropertyGrid-ExpressionMark](../../../../images/eurd-win-PropertyGrid-ExpressionMark-nontabbed.png)
 
 Click a property's marker and choose **Reset** to reset the property value.
 
-![WinFormsPropertyGrid-ResetExpression](../../../images/eurd-win-PropertyGrid-ResetExpression-nontabbed.png)
+![WinFormsPropertyGrid-ResetExpression](../../../../images/eurd-win-PropertyGrid-ResetExpression-nontabbed.png)
 
 > [!Note]
 > The **Reset** command resets both the expression and the value you specified using the property editor.
@@ -105,4 +105,4 @@ Click a property's marker and choose **Reset** to reset the property value.
 
 The Property Grid's search box allows you to search for a property. When you type within the search box, the Property Grid automatically creates a search criteria based on the entered text and filters the list of available properties.
 
-![WinFormsPropertyGrid-Search](../../../images/eurd-win-PropertyGrid-Search-nontabbed.png)
+![WinFormsPropertyGrid-Search](../../../../images/eurd-win-PropertyGrid-Search-nontabbed.png)
