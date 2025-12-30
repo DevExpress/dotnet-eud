@@ -1,0 +1,7 @@
+items:
+- name: Dashboard for Desktop
+  href: dashboard-for-desktop/
+  topicHref: dashboard-for-desktop/index.md
+- name: Dashboard for Web
+  href: dashboard-for-web/
+  topicHref: dashboard-for-web/index.md
