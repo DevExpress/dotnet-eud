@@ -1,8 +1,8 @@
 ---
-title: End-User Documentation for BI Dashboard
+title: End-User Documentation for DevExpress BI Dashboard
 author: Margarita Zakhodiaeva
 ---
-# End-User Documentation for BI Dashboard
+# End-User Documentation for DevExpress BI Dashboard
 
 DevExpress Dashboards ships end-user documentation that explains how to use dashboard UI elements across supported platforms. It helps users understand the interface, configure visualizations, and solve the most common tasks when working with dashboards.
 
@@ -13,7 +13,6 @@ The Dashboard Designer UI varies depending on the target platform.
 The following topics are available in this section:
 
 * [Dashboards for Web](dashboard-for-web/index.md)
-
 * [Dashboards for Desktop](dashboard-for-desktop/index.md)
 
 If you are looking for developer-oriented documentation with API reference, refer to [Business Intelligence Dashboard](https://docs.devexpress.com/Dashboard/12049/dashboard).

@@ -36,15 +36,15 @@
     - name: Bind a Report to a MongoDB Instance
       href: report-designer/report-designer-for-winforms/bind-to-data/bind-a-report-to-a-mongodb-instance.md
     - name: Bind a Report to an XPO Persistent Object
-      href: report-designer\report-designer-for-winforms\bind-to-data\bind-a-report-to-an-xpo-persistent-object.md        
+      href: report-designer/report-designer-for-winforms/bind-to-data/bind-a-report-to-an-xpo-persistent-object.md        
     - name: Bind a Report to a Join-Based Federated Data Source
-      href: report-designer\report-designer-for-winforms\bind-to-data\bind-a-report-to-a-join-based-federated-data-source.md       
+      href: report-designer/report-designer-for-winforms/bind-to-data/bind-a-report-to-a-join-based-federated-data-source.md       
     - name: Bind a Report to a Union-Based Federated Data Source
-      href: report-designer\report-designer-for-winforms\bind-to-data\bind-a-report-to-a-union-based-federated-data-source.md
+      href: report-designer/report-designer-for-winforms/bind-to-data/bind-a-report-to-a-union-based-federated-data-source.md
     - name: Bind a Report to a Transformation-Based Data Source
-      href: report-designer\report-designer-for-winforms\bind-to-data\bind-a-report-to-a-transformation-based-data-source.md          
+      href: report-designer/report-designer-for-winforms/bind-to-data/bind-a-report-to-a-transformation-based-data-source.md          
     - name: Bind a Report to a Federated Master-Detail Data Source
-      href: report-designer\report-designer-for-winforms\bind-to-data\bind-a-report-to-a-federated-master-detail-data-source.md
+      href: report-designer/report-designer-for-winforms/bind-to-data/bind-a-report-to-a-federated-master-detail-data-source.md
     - name: Data Binding Modes
       href: report-designer/report-designer-for-winforms/use-expressions/data-binding-modes.md
   - name: Create Reports
@@ -53,13 +53,13 @@
     - name: Table Reports
       href: report-designer/report-designer-for-winforms/create-reports/table-reports.md
     - name: Vertical Reports
-      href: report-designer\report-designer-for-winforms\create-reports\vertical-reports.md
+      href: report-designer/report-designer-for-winforms/create-reports/vertical-reports.md
     - name: Master-Detail Reports with Detail Report Bands
       href: report-designer/report-designer-for-winforms/create-reports/master-detail-reports-with-detail-report-bands.md   
     - name: Master-Detail Reports with Subreports
       href: report-designer/report-designer-for-winforms/create-reports/master-detail-reports-with-subreports.md
     - name: Hierarchical Reports
-      href: report-designer\report-designer-for-winforms\create-reports\hierarchical-reports.md
+      href: report-designer/report-designer-for-winforms/create-reports/hierarchical-reports.md
     - name: Invoices
       href: report-designer/report-designer-for-winforms/create-reports/invoices.md
     - name: Invoices from Templates
@@ -559,7 +559,7 @@
         - name: Specify Import Settings
           href: report-designer/report-designer-for-winforms/report-designer-tools/data-source-wizard/connect-to-an-excel-data-source/specify-import-settings.md
         - name: Select a Worksheet, Table or Named Range
-          href: report-designer\report-designer-for-winforms\report-designer-tools\data-source-wizard\connect-to-an-excel-data-source\select-a-worksheet,-table-or-named-range.md
+          href: report-designer/report-designer-for-winforms/report-designer-tools/data-source-wizard/connect-to-an-excel-data-source/select-a-worksheet,-table-or-named-range.md
         - name: Choose Columns
           href: report-designer/report-designer-for-winforms/report-designer-tools/data-source-wizard/connect-to-an-excel-data-source/choose-columns.md                      
       - name: Connect to a JSON Data Source
@@ -586,7 +586,7 @@
         href: report-designer/report-designer-for-winforms/report-designer-tools/data-source-wizard/connect-to-a-federated-data-source.md
         items:
         - name: Create a Federated Query
-          href: report-designer\report-designer-for-winforms\report-designer-tools\data-source-wizard\connect-to-a-federated-data-source\create-a-federated-query.md
+          href: report-designer/report-designer-for-winforms/report-designer-tools/data-source-wizard/connect-to-a-federated-data-source/create-a-federated-query.md
       - name: No Data
         href: report-designer/report-designer-for-winforms/report-designer-tools/data-source-wizard/no-data.md
     - name: Query Builder
@@ -865,8 +865,8 @@
 - name: Print Preview for WinForms
   href: print-preview/print-preview-for-winforms.md
   items:
-  - name: File Management
-    items:
+    - name: File Management
+      items:
     - name: Save a Print Preview to a File
       href: print-preview/print-preview-for-winforms/file-management/save-a-print-preview-to-a-file.md
     - name: Load a Print Preview from a File
