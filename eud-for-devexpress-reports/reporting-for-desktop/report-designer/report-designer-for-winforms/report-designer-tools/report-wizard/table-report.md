@@ -1,7 +1,6 @@
 ﻿---
 title: Table Report
 owner: Anna Gubareva
-seealso: []
 ---
 # Table Report
 

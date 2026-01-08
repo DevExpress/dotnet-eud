@@ -1,8 +1,6 @@
 ﻿---
 title: Template
 owner: Anna Gubareva
-seealso:
-- linkId: "119811"
 ---
 # Template
 
