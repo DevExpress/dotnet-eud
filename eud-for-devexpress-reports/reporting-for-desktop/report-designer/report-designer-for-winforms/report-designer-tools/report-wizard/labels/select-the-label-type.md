@@ -1,5 +1,4 @@
 ﻿---
-uid: "4252"
 title: Select the Label Type
 owner: Anna Gubareva
 seealso: []

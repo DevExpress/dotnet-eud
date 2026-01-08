@@ -1,5 +1,4 @@
 ﻿---
-uid: "119389"
 title: Template
 owner: Anna Gubareva
 seealso:
