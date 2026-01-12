@@ -2,35 +2,49 @@ name: update gh-pages branch
 
 on:
   workflow_dispatch:
-  
+
 jobs:
-  build-site:    
+  build-site:
     runs-on: windows-latest
     steps:
     - name: Checkout branch
       uses: actions/checkout@v4
-      
+
     - name: Check status
       run: git status
-    
+
     - name: Download docfx
       run: curl https://github.com/dotnet/docfx/releases/download/v2.77.0/docfx-win-x64-v2.77.0.zip -L -o ../docfx-win-x64-v2.77.0.zip
-      
+
     - name: Expand docfx
       run: Expand-Archive ../docfx-win-x64-v2.77.0.zip -DestinationPath ../docfx
-      
+
+    - name: Create redirect files from redirects.json
+      run: |
+        $json = Get-Content redirects.json -Raw | ConvertFrom-Json
+        foreach ($item in $json) {
+          $file = $item.file
+          $targethref = $item.targethref
+          $dirPath = Split-Path -Path $file -Parent
+          if ($dirPath -and -not (Test-Path $dirPath)) {
+            New-Item -ItemType Directory -Path $dirPath -Force | Out-Null
+          }
+          $content = "---`nredirect_url: $targethref`n---`n"
+          Set-Content -Path $file -Value $content -Force
+        }
+
     - name: Build site with docfx
       run: "../docfx/docfx.exe build docfx.json -m _matomoContainerUrl=\"https://matomo.devexpress.com/js/container_kE7MWPi0.js\" --warningsAsErrors"
-      
+
     - name: Archive site
       run: Compress-Archive -Path _site/* -DestinationPath ${{ runner.temp }}/site.zip
-    
+
     - name: Upload artifact
       uses: actions/upload-artifact@v4
       with:
         name: github-pages
         path: ${{ runner.temp }}/site.zip
-  
+
   publish-pages:
     needs: build-site
     runs-on: windows-latest
