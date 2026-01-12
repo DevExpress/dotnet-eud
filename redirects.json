@@ -4590,5 +4590,1765 @@
   {
     "file": "reporting-for-web/articles/report-designer/use-report-parameters/report-parameters-with-predefined-static-values.md",
     "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/reporting-for-web/report-designer/use-report-parameters/report-parameters-with-predefined-static-values"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/print-preview/print-preview-for-winforms.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/reporting-for-desktop/print-preview/print-preview-for-winforms"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/print-preview/print-preview-for-winforms/passing-parameters-in-print-preview.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/reporting-for-desktop/print-preview/print-preview-for-winforms"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/print-preview/print-preview-for-winforms/warnings-and-error-messages-in-print-preview.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/reporting-for-desktop/print-preview/print-preview-for-winforms"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/print-preview/print-preview-for-winforms/exporting/copy-to-the-clipboard.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/reporting-for-desktop/print-preview/print-preview-for-winforms"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/print-preview/print-preview-for-winforms/exporting/csv-specific-export-options.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/reporting-for-desktop/print-preview/print-preview-for-winforms"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/print-preview/print-preview-for-winforms/exporting/docx-specific-export-options.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/reporting-for-desktop/print-preview/print-preview-for-winforms"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/print-preview/print-preview-for-winforms/exporting/exporting-from-print-preview.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/reporting-for-desktop/print-preview/print-preview-for-winforms"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/print-preview/print-preview-for-winforms/exporting/html-specific-export-options.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/reporting-for-desktop/print-preview/print-preview-for-winforms"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/print-preview/print-preview-for-winforms/exporting/image-specific-export-options.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/reporting-for-desktop/print-preview/print-preview-for-winforms"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/print-preview/print-preview-for-winforms/exporting/mht-specific-export-options.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/reporting-for-desktop/print-preview/print-preview-for-winforms"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/print-preview/print-preview-for-winforms/exporting/pdf-specific-export-options.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/reporting-for-desktop/print-preview/print-preview-for-winforms"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/print-preview/print-preview-for-winforms/exporting/rtf-specific-export-options.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/reporting-for-desktop/print-preview/print-preview-for-winforms"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/print-preview/print-preview-for-winforms/exporting/txt-specific-export-options.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/reporting-for-desktop/print-preview/print-preview-for-winforms"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/print-preview/print-preview-for-winforms/exporting/xls-specific-export-options.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/reporting-for-desktop/print-preview/print-preview-for-winforms"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/print-preview/print-preview-for-winforms/exporting/xlsx-specific-export-options.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/reporting-for-desktop/print-preview/print-preview-for-winforms"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/print-preview/print-preview-for-winforms/file-management/load-a-print-preview-from-a-file.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/reporting-for-desktop/print-preview/print-preview-for-winforms"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/print-preview/print-preview-for-winforms/file-management/save-a-print-preview-to-a-file.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/reporting-for-desktop/print-preview/print-preview-for-winforms"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/print-preview/print-preview-for-winforms/headers-and-footers/insert-a-logo-into-printed-documents.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/reporting-for-desktop/print-preview/print-preview-for-winforms"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/print-preview/print-preview-for-winforms/headers-and-footers/insert-date-and-time-into-printed-documents.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/reporting-for-desktop/print-preview/print-preview-for-winforms"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/print-preview/print-preview-for-winforms/headers-and-footers/insert-page-header-and-page-footer-into-printed-documents.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/reporting-for-desktop/print-preview/print-preview-for-winforms"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/print-preview/print-preview-for-winforms/headers-and-footers/insert-page-numbers-into-printed-documents.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/reporting-for-desktop/print-preview/print-preview-for-winforms"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/print-preview/print-preview-for-winforms/headers-and-footers/insert-the-user-name-into-printed-documents.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/reporting-for-desktop/print-preview/print-preview-for-winforms"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/print-preview/print-preview-for-winforms/interactivity/content-editing-in-print-preview.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/reporting-for-desktop/print-preview/print-preview-for-winforms"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/print-preview/print-preview-for-winforms/miscellaneous/customize-printing-settings-of-charts.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/reporting-for-desktop/print-preview/print-preview-for-winforms"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/print-preview/print-preview-for-winforms/miscellaneous/customize-printing-settings-of-grids.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/reporting-for-desktop/print-preview/print-preview-for-winforms"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/print-preview/print-preview-for-winforms/miscellaneous/customize-printing-settings-of-pivot-tables.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/reporting-for-desktop/print-preview/print-preview-for-winforms"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/print-preview/print-preview-for-winforms/miscellaneous/customize-printing-settings-of-tree-views.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/reporting-for-desktop/print-preview/print-preview-for-winforms"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/print-preview/print-preview-for-winforms/printing-and-page-setup/change-printing-settings-via-the-page-setup-dialog.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/reporting-for-desktop/print-preview/print-preview-for-winforms"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/print-preview/print-preview-for-winforms/printing-and-page-setup/print-a-document-using-default-settings.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/reporting-for-desktop/print-preview/print-preview-for-winforms"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/print-preview/print-preview-for-winforms/printing-and-page-setup/print-a-document-via-the-print-dialog.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/reporting-for-desktop/print-preview/print-preview-for-winforms"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/print-preview/print-preview-for-winforms/printing-and-page-setup/print-selection.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/reporting-for-desktop/print-preview/print-preview-for-winforms"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/print-preview/print-preview-for-winforms/printing-and-page-setup/specify-page-margins-in-print-preview.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/reporting-for-desktop/print-preview/print-preview-for-winforms"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/print-preview/print-preview-for-winforms/scaling/scale-print-preview-by-entering-a-zoom-factor.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/reporting-for-desktop/print-preview/print-preview-for-winforms"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/print-preview/print-preview-for-winforms/scaling/scale-print-preview-by-specifying-width-in-pages.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/reporting-for-desktop/print-preview/print-preview-for-winforms"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/print-preview/print-preview-for-winforms/viewing-and-navigating/navigate-between-pages-in-print-preview.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/reporting-for-desktop/print-preview/print-preview-for-winforms"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/print-preview/print-preview-for-winforms/viewing-and-navigating/navigate-in-print-preview-using-bookmarks.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/reporting-for-desktop/print-preview/print-preview-for-winforms"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/print-preview/print-preview-for-winforms/viewing-and-navigating/navigate-in-print-preview-using-thumbnails.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/reporting-for-desktop/print-preview/print-preview-for-winforms"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/print-preview/print-preview-for-winforms/viewing-and-navigating/search-for-a-specific-text-in-print-preview.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/reporting-for-desktop/print-preview/print-preview-for-winforms"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/print-preview/print-preview-for-winforms/viewing-and-navigating/switch-print-preview-display-mode.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/reporting-for-desktop/print-preview/print-preview-for-winforms"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/print-preview/print-preview-for-winforms/viewing-and-navigating/use-the-hand-tool-in-print-preview.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/reporting-for-desktop/print-preview/print-preview-for-winforms"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/print-preview/print-preview-for-winforms/watermark-and-background/change-watermark-and-background-settings-in-print-preview.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/reporting-for-desktop/print-preview/print-preview-for-winforms"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/print-preview/print-preview-for-winforms/watermark-and-background/remove-a-watermark-in-print-preview.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/reporting-for-desktop/print-preview/print-preview-for-winforms"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/print-preview/print-preview-for-wpf.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/reporting-for-desktop/print-preview/print-preview-for-wpf"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/print-preview/print-preview-for-wpf/changing-a-watermark.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/reporting-for-desktop/print-preview/print-preview-for-wpf"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/print-preview/print-preview-for-wpf/passing-parameter-values.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/reporting-for-desktop/print-preview/print-preview-for-wpf"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/print-preview/print-preview-for-wpf/zooming.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/reporting-for-desktop/print-preview/print-preview-for-wpf"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/print-preview/print-preview-for-wpf/exporting/copying-to-the-clipboard.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/reporting-for-desktop/print-preview/print-preview-for-wpf"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/print-preview/print-preview-for-wpf/exporting/csv-specific-export-options.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/reporting-for-desktop/print-preview/print-preview-for-wpf"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/print-preview/print-preview-for-wpf/exporting/docx-specific-export-options.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/reporting-for-desktop/print-preview/print-preview-for-wpf"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/print-preview/print-preview-for-wpf/exporting/exporting.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/reporting-for-desktop/print-preview/print-preview-for-wpf"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/print-preview/print-preview-for-wpf/exporting/html-specific-export-options.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/reporting-for-desktop/print-preview/print-preview-for-wpf"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/print-preview/print-preview-for-wpf/exporting/image-specific-export-options.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/reporting-for-desktop/print-preview/print-preview-for-wpf"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/print-preview/print-preview-for-wpf/exporting/mht-specific-export-options.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/reporting-for-desktop/print-preview/print-preview-for-wpf"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/print-preview/print-preview-for-wpf/exporting/pdf-specific-export-options.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/reporting-for-desktop/print-preview/print-preview-for-wpf"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/print-preview/print-preview-for-wpf/exporting/rtf-specific-export-options.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/reporting-for-desktop/print-preview/print-preview-for-wpf"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/print-preview/print-preview-for-wpf/exporting/text-specific-export-options.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/reporting-for-desktop/print-preview/print-preview-for-wpf"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/print-preview/print-preview-for-wpf/exporting/xls-specific-export-options.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/reporting-for-desktop/print-preview/print-preview-for-wpf"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/print-preview/print-preview-for-wpf/exporting/xlsx-specific-export-options.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/reporting-for-desktop/print-preview/print-preview-for-wpf"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/print-preview/print-preview-for-wpf/file-management/load-a-print-preview-from-a-file.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/reporting-for-desktop/print-preview/print-preview-for-wpf"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/print-preview/print-preview-for-wpf/file-management/save-a-print-preview-to-a-file.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/reporting-for-desktop/print-preview/print-preview-for-wpf"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/print-preview/print-preview-for-wpf/interactivity/content-editing-in-print-preview.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/reporting-for-desktop/print-preview/print-preview-for-wpf"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/print-preview/print-preview-for-wpf/navigating/navigate-between-pages.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/reporting-for-desktop/print-preview/print-preview-for-wpf"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/print-preview/print-preview-for-wpf/navigating/navigate-using-bookmarks.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/reporting-for-desktop/print-preview/print-preview-for-wpf"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/print-preview/print-preview-for-wpf/navigating/navigate-using-the-hand-tool.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/reporting-for-desktop/print-preview/print-preview-for-wpf"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/print-preview/print-preview-for-wpf/navigating/navigate-using-thumbnails.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/reporting-for-desktop/print-preview/print-preview-for-wpf"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/print-preview/print-preview-for-wpf/navigating/search-for-a-specific-text.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/reporting-for-desktop/print-preview/print-preview-for-wpf"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/print-preview/print-preview-for-wpf/printing-and-page-setup/change-print-settings-using-the-page-setup-dialog.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/reporting-for-desktop/print-preview/print-preview-for-wpf"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/print-preview/print-preview-for-wpf/printing-and-page-setup/print-a-document-using-default-settings.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/reporting-for-desktop/print-preview/print-preview-for-wpf"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/print-preview/print-preview-for-wpf/printing-and-page-setup/print-a-document-using-the-print-dialog.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/reporting-for-desktop/print-preview/print-preview-for-wpf"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/print-preview/print-preview-for-wpf/printing-and-page-setup/scaling.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/reporting-for-desktop/print-preview/print-preview-for-wpf"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/charting.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/docking.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/editors.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/expression-editor.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/filter-editor.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/grid.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/index.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/layout-manager.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/map.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/navigation-bars.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/pdf-viewer.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/pivot-table.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/print-preview.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/ribbon.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/scheduler.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/snap-reporting-engine.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/spreadsheet.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/toolbars-and-menus.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/tree-list.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/vertical-grid.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/charting/chart-designer.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/charting/highlighting-and-selection-chart-elements.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/charting/rotate-a-chart.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/charting/scroll-a-chart.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/charting/zoom-a-chart.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/docking/dock-panels.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/docking/documents.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/editors/editing-values-selecting-text-and-using-the-clipboard.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/editors/editor-context-menu.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/editors/image-editor.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/editors/manipulating-tokens.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/editors/working-with-dropdown-editors.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/expression-editor/expression-operators-functions-and-constants.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/filter-editor/examples-of-using-the-filter-editor.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/filter-editor/filter-data-via-the-filter-editor.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/grid/data-analysis/apply-cell-conditional-formatting.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/grid/data-analysis/filter-grid-data-via-find-panel.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/grid/data-analysis/filter-grid-data.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/grid/data-analysis/show-summaries-(totals)-in-grids.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/grid/data-editing/add-and-delete-grid-records.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/grid/data-editing/edit-grid-cells.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/grid/data-presentation/fix-grid-rows.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/grid/data-presentation/group-grid-rows.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/grid/data-presentation/sort-grid-rows.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/grid/layout-customization/expand-and-collapse-rows-and-cards-in-grids.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/grid/layout-customization/hide-and-display-grid-columns-bands-and-card-fields.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/grid/layout-customization/rearrange-grid-columns-bands-and-card-fields.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/grid/layout-customization/resize-cards-in-grids.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/grid/layout-customization/resize-grid-columns-bands-and-card-fields.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/grid/selection-and-navigation/locate-grid-records.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/grid/selection-and-navigation/navigate-through-grid-records.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/grid/selection-and-navigation/select-grid-rows-and-cards.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/layout-manager/layout-customization/add-empty-regions-separators-splitters-and-labels.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/layout-manager/layout-customization/change-element-layout.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/layout-manager/layout-customization/change-text-label-options.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/layout-manager/layout-customization/create-and-delete-tabbed-groups.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/layout-manager/layout-customization/finish-layout-customization.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/layout-manager/layout-customization/hide-and-display-elements-using-a-layout-manager.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/layout-manager/layout-customization/resize-interface-elements.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/layout-manager/layout-customization/start-layout-customization.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/layout-manager/layout-customization/work-with-interface-element-groups.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/layout-manager/save-and-restore-layout/save-and-restore-interface-layout.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/map/map-editor.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/map/mini-map.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/map/rulers.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/map/scrolling.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/map/selection.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/map/using-the-search-panel.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/map/zooming.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/navigation-bars/navigation-bar.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/navigation-bars/navigation-pane.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/pdf-viewer/adjust-the-document-view.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/pdf-viewer/annotations.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/pdf-viewer/bookmarks.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/pdf-viewer/export-and-import-the-acroform-data.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/pdf-viewer/file-attachment.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/pdf-viewer/manage-documents-and-files.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/pdf-viewer/navigate-and-view-a-document.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/pdf-viewer/print-documents.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/pdf-viewer/select-and-copy-the-document-content.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/pdf-viewer/thumbnails.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/pdf-viewer/view-document-properties.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/pivot-table/data-presentation.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/pivot-table/field-list-overview.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/pivot-table/layout-customization.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/pivot-table/select-cells-in-pivot-tables.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/pivot-table/data-editing/edit-data-in-pivot-tables.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/pivot-table/data-editing/edit-unbound-expression.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/pivot-table/data-editing/pivot-grid-expression-syntax.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/pivot-table/data-presentation/apply-conditional-formatting.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/pivot-table/data-presentation/change-summary-type-in-pivot-tables.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/pivot-table/data-presentation/filter-data-in-pivot-tables.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/pivot-table/data-presentation/pinned-(fixed)-columns.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/pivot-table/data-presentation/sort-data-in-pivot-tables.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/pivot-table/data-presentation/filter-data/build-complex-filter-criteria.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/pivot-table/data-presentation/filter-data/filter-data-by-cell-values.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/pivot-table/data-presentation/filter-data/filter-data-by-field-values.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/pivot-table/data-presentation/filter-data/filter-data-by-cell-values/invoke-a-summary-filter-window.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/pivot-table/data-presentation/filter-data/filter-data-by-cell-values/move-the-selected-range.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/pivot-table/data-presentation/filter-data/filter-data-by-cell-values/remove-filtering.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/pivot-table/data-presentation/filter-data/filter-data-by-cell-values/select-a-range-of-values.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/pivot-table/data-presentation/filter-data/filter-data-by-cell-values/specify-target-cells.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/pivot-table/data-presentation/filter-data/filter-data-by-cell-values/zoom-and-move-the-viewport.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/pivot-table/data-presentation/filter-data/filter-data-by-field-values/filtering-options.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/pivot-table/data-presentation/filter-data/filter-data-by-field-values/invoke-a-filter-popup-window.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/pivot-table/data-presentation/filter-data/filter-data-by-field-values/using-filter-popup-windows.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/pivot-table/data-presentation/sort-data/simple-sorting.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/pivot-table/data-presentation/sort-data/sort-data-by-summaries.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/pivot-table/data-presentation/sort-data/sort-data-using-a-field-list.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/pivot-table/data-presentation/sort-data/sort-data-using-the-context-menu.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/pivot-table/exporting-and-printing/exporting-and-printing.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/pivot-table/field-list/change-field-list-layout.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/pivot-table/field-list/defer-pivot-table-updates.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/pivot-table/field-list/invoke-a-field-list.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/pivot-table/layout-customization/display-hidden-pivot-table-fields.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/pivot-table/layout-customization/expand-and-collapse-groups-in-pivot-tables.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/pivot-table/layout-customization/hide-pivot-table-fields.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/pivot-table/layout-customization/reorder-pivot-table-fields.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/pivot-table/layout-customization/resizing-columns.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/pivot-table/layout-customization/hide-fields/hide-fields-using-a-field-list.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/pivot-table/layout-customization/hide-fields/hide-fields-using-the-context-menu.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/pivot-table/layout-customization/reorder-fields/reorder-fields-using-a-field-list.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/pivot-table/layout-customization/reorder-fields/simple-fields-reordering.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/ribbon/frequently-used-ribbon-commands.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/ribbon/invoke-ribbon-commands.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/ribbon/minimize-ribbon.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/header-and-footer.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/mail-merge.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/document-layout-and-page-setup/add-line-numbers.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/document-layout-and-page-setup/adjust-page-settings.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/document-layout-and-page-setup/change-page-background-color.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/document-layout-and-page-setup/divide-a-document-into-sections.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/document-layout-and-page-setup/lay-out-text-in-columns.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/document-protection/edit-a-protected-document.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/document-protection/protect-and-unprotect-a-document.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/file-operations/create-a-new-document.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/file-operations/load-a-document.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/file-operations/print-a-document.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/file-operations/save-a-document.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/footnotes-and-endnotes/change-note-appearance.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/footnotes-and-endnotes/insert-and-edit-a-footnote-or-endnote.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/formatting/apply-and-modify-styles.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/formatting/format-paragraphs.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/formatting/format-text.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/lists/bulleted-lists.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/lists/multilevel-lists.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/lists/numbered-lists.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/miscellaneous/insert-a-bookmark.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/miscellaneous/insert-a-comment.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/miscellaneous/insert-a-hyperlink.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/miscellaneous/insert-a-page-break.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/miscellaneous/insert-a-symbol.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/miscellaneous/insert-a-watermark.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/miscellaneous/insert-page-numbers.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/miscellaneous/set-document-properties.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/pictures-and-text-boxes/add-change-or-delete-a-border-for-a-picture-or-text-box.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/pictures-and-text-boxes/add-change-or-delete-a-text-box-fill.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/pictures-and-text-boxes/insert-a-picture.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/pictures-and-text-boxes/insert-select-copy-or-delete-a-text-box.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/pictures-and-text-boxes/move-a-picture-or-text-box.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/pictures-and-text-boxes/resize-a-picture-or-text-box.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/pictures-and-text-boxes/rotate-a-picture-or-text-box.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/pictures-and-text-boxes/wrap-text-around-a-picture-or-text-box.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/table-of-contents/create-a-table-of-contents.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/table-of-contents/create-table-of-contents-for-special-cases.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/table-of-contents/update-table-of-contents.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/tables/add-and-remove-table-borders.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/tables/adjust-column-width.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/tables/align-text-in-table-cells.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/tables/customize-a-style-of-cell-borders.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/tables/delete-a-cell-row-or-column.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/tables/insert-a-cell-row-or-column.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/tables/insert-a-table.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/tables/merge-or-split-cells.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/tables/rotate-table-cell-content.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/tables/select-a-cell-row-or-column.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/tables/set-background-color-of-cells.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/tables/set-table-properties.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/tables/wrap-text-around-a-table.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/text-editing/check-text-spelling.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/text-editing/delete-text.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/text-editing/find-and-replace-text.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/text-editing/select-text.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/text-editing/undo-and-redo-last-operations.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/charting.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/docking.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/editors.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/expression-editor.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/filter-editor.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/grid.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/index.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/layout-manager.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/map.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/navigation-bars.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/pdf-viewer.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/pivot-table.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/print-preview.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/ribbon.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/scheduler.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/snap-reporting-engine.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/spreadsheet.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/toolbars-and-menus.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/tree-list.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/vertical-grid.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/charting/chart-designer.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/charting/highlighting-and-selection-chart-elements.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/charting/rotate-a-chart.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/charting/scroll-a-chart.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/charting/zoom-a-chart.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/docking/dock-panels.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/docking/documents.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/editors/editing-values-selecting-text-and-using-the-clipboard.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/editors/editor-context-menu.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/editors/image-editor.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/editors/manipulating-tokens.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/editors/working-with-dropdown-editors.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/expression-editor/expression-operators-functions-and-constants.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/filter-editor/examples-of-using-the-filter-editor.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/filter-editor/filter-data-via-the-filter-editor.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/grid/data-analysis/apply-cell-conditional-formatting.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/grid/data-analysis/filter-grid-data-via-find-panel.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/grid/data-analysis/filter-grid-data.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/grid/data-analysis/show-summaries-(totals)-in-grids.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/grid/data-editing/add-and-delete-grid-records.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/grid/data-editing/edit-grid-cells.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/grid/data-presentation/fix-grid-rows.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/grid/data-presentation/group-grid-rows.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/grid/data-presentation/sort-grid-rows.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/grid/layout-customization/expand-and-collapse-rows-and-cards-in-grids.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/grid/layout-customization/hide-and-display-grid-columns-bands-and-card-fields.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/grid/layout-customization/rearrange-grid-columns-bands-and-card-fields.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/grid/layout-customization/resize-cards-in-grids.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/grid/layout-customization/resize-grid-columns-bands-and-card-fields.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/grid/selection-and-navigation/locate-grid-records.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/grid/selection-and-navigation/navigate-through-grid-records.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/grid/selection-and-navigation/select-grid-rows-and-cards.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/layout-manager/layout-customization/add-empty-regions-separators-splitters-and-labels.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/layout-manager/layout-customization/change-element-layout.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/layout-manager/layout-customization/change-text-label-options.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/layout-manager/layout-customization/create-and-delete-tabbed-groups.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/layout-manager/layout-customization/finish-layout-customization.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/layout-manager/layout-customization/hide-and-display-elements-using-a-layout-manager.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/layout-manager/layout-customization/resize-interface-elements.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/layout-manager/layout-customization/start-layout-customization.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/layout-manager/layout-customization/work-with-interface-element-groups.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/layout-manager/save-and-restore-layout/save-and-restore-interface-layout.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/map/map-editor.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/map/mini-map.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/map/rulers.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/map/scrolling.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/map/selection.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/map/using-the-search-panel.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/map/zooming.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/navigation-bars/navigation-bar.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/navigation-bars/navigation-pane.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/pdf-viewer/adjust-the-document-view.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/pdf-viewer/annotations.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/pdf-viewer/bookmarks.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/pdf-viewer/export-and-import-the-acroform-data.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/pdf-viewer/file-attachment.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/pdf-viewer/manage-documents-and-files.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/pdf-viewer/navigate-and-view-a-document.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/pdf-viewer/print-documents.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/pdf-viewer/select-and-copy-the-document-content.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/pdf-viewer/thumbnails.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/pdf-viewer/view-document-properties.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/pivot-table/data-presentation.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/pivot-table/field-list-overview.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/pivot-table/layout-customization.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/pivot-table/select-cells-in-pivot-tables.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/pivot-table/data-editing/edit-data-in-pivot-tables.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/pivot-table/data-editing/edit-unbound-expression.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/pivot-table/data-editing/pivot-grid-expression-syntax.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/pivot-table/data-presentation/apply-conditional-formatting.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/pivot-table/data-presentation/change-summary-type-in-pivot-tables.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/pivot-table/data-presentation/filter-data-in-pivot-tables.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/pivot-table/data-presentation/pinned-(fixed)-columns.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/pivot-table/data-presentation/sort-data-in-pivot-tables.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/pivot-table/data-presentation/filter-data/build-complex-filter-criteria.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/pivot-table/data-presentation/filter-data/filter-data-by-cell-values.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/pivot-table/data-presentation/filter-data/filter-data-by-field-values.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/pivot-table/data-presentation/filter-data/filter-data-by-cell-values/invoke-a-summary-filter-window.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/pivot-table/data-presentation/filter-data/filter-data-by-cell-values/move-the-selected-range.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/pivot-table/data-presentation/filter-data/filter-data-by-cell-values/remove-filtering.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/pivot-table/data-presentation/filter-data/filter-data-by-cell-values/select-a-range-of-values.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/pivot-table/data-presentation/filter-data/filter-data-by-cell-values/specify-target-cells.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/pivot-table/data-presentation/filter-data/filter-data-by-cell-values/zoom-and-move-the-viewport.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/pivot-table/data-presentation/filter-data/filter-data-by-field-values/filtering-options.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/pivot-table/data-presentation/filter-data/filter-data-by-field-values/invoke-a-filter-popup-window.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/pivot-table/data-presentation/filter-data/filter-data-by-field-values/using-filter-popup-windows.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/pivot-table/data-presentation/sort-data/simple-sorting.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/pivot-table/data-presentation/sort-data/sort-data-by-summaries.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/pivot-table/data-presentation/sort-data/sort-data-using-a-field-list.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/pivot-table/data-presentation/sort-data/sort-data-using-the-context-menu.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/pivot-table/exporting-and-printing/exporting-and-printing.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/pivot-table/field-list/change-field-list-layout.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/pivot-table/field-list/defer-pivot-table-updates.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/pivot-table/field-list/invoke-a-field-list.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/pivot-table/layout-customization/display-hidden-pivot-table-fields.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/pivot-table/layout-customization/expand-and-collapse-groups-in-pivot-tables.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/pivot-table/layout-customization/hide-pivot-table-fields.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/pivot-table/layout-customization/reorder-pivot-table-fields.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/pivot-table/layout-customization/resizing-columns.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/pivot-table/layout-customization/hide-fields/hide-fields-using-a-field-list.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/pivot-table/layout-customization/hide-fields/hide-fields-using-the-context-menu.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/pivot-table/layout-customization/reorder-fields/reorder-fields-using-a-field-list.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/pivot-table/layout-customization/reorder-fields/simple-fields-reordering.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/ribbon/frequently-used-ribbon-commands.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/ribbon/invoke-ribbon-commands.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/ribbon/minimize-ribbon.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/header-and-footer.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/mail-merge.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/document-layout-and-page-setup/add-line-numbers.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/document-layout-and-page-setup/adjust-page-settings.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/document-layout-and-page-setup/change-page-background-color.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/document-layout-and-page-setup/divide-a-document-into-sections.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/document-layout-and-page-setup/lay-out-text-in-columns.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/document-protection/edit-a-protected-document.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/document-protection/protect-and-unprotect-a-document.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/file-operations/create-a-new-document.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/file-operations/load-a-document.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/file-operations/print-a-document.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/file-operations/save-a-document.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/footnotes-and-endnotes/change-note-appearance.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/footnotes-and-endnotes/insert-and-edit-a-footnote-or-endnote.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/formatting/apply-and-modify-styles.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/formatting/format-paragraphs.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/formatting/format-text.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/lists/bulleted-lists.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/lists/multilevel-lists.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/lists/numbered-lists.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/miscellaneous/insert-a-bookmark.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/miscellaneous/insert-a-comment.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/miscellaneous/insert-a-hyperlink.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/miscellaneous/insert-a-page-break.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/miscellaneous/insert-a-symbol.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/miscellaneous/insert-a-watermark.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/miscellaneous/insert-page-numbers.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/miscellaneous/set-document-properties.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/pictures-and-text-boxes/add-change-or-delete-a-border-for-a-picture-or-text-box.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/pictures-and-text-boxes/add-change-or-delete-a-text-box-fill.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/pictures-and-text-boxes/insert-a-picture.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/pictures-and-text-boxes/insert-select-copy-or-delete-a-text-box.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/pictures-and-text-boxes/move-a-picture-or-text-box.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/pictures-and-text-boxes/resize-a-picture-or-text-box.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/pictures-and-text-boxes/rotate-a-picture-or-text-box.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/pictures-and-text-boxes/wrap-text-around-a-picture-or-text-box.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/table-of-contents/create-a-table-of-contents.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/table-of-contents/create-table-of-contents-for-special-cases.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/table-of-contents/update-table-of-contents.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/tables/add-and-remove-table-borders.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/tables/adjust-column-width.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/tables/align-text-in-table-cells.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/tables/customize-a-style-of-cell-borders.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/tables/delete-a-cell-row-or-column.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/tables/insert-a-cell-row-or-column.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/tables/insert-a-table.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/tables/merge-or-split-cells.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/tables/rotate-table-cell-content.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/tables/select-a-cell-row-or-column.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/tables/set-background-color-of-cells.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/tables/set-table-properties.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/tables/wrap-text-around-a-table.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/text-editing/check-text-spelling.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/text-editing/delete-text.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/text-editing/find-and-replace-text.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/text-editing/select-text.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
+  },
+  {
+    "file": "interface-elements-for-desktop/articles/rich-text-editor/text-editing/undo-and-redo-last-operations.md",
+    "targethref": "https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports"
   }
 ]
