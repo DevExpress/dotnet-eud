@@ -1,5 +1,4 @@
 ---
-uid: '400956'
 title: Table and Vertical Report
 owner: Anna Gubareva
 ---

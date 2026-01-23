@@ -1,5 +1,4 @@
 ---
-uid: '400406'
 title: 'Select the Data Source Type'
 ---
 

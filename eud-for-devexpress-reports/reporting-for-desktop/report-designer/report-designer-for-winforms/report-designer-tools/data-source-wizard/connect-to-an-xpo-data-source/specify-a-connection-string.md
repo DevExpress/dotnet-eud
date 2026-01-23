@@ -1,5 +1,4 @@
 ---
-uid: '400403'
 title: 'Specify a Connection String'
 ---
 
