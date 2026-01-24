@@ -473,6 +473,10 @@ items:
             href: report-designer/report-designer-tools/report-wizard/table-and-vertical-report/specify-data-source-settings-json.md
           - name: Specify Data Source Settings (Object)  
             href: report-designer/report-designer-tools/report-wizard/table-and-vertical-report/specify-data-source-settings-object.md
+          - name: Specify Data Source Settings (MongoDB)  
+            href: report-designer/report-designer-tools/report-wizard/table-and-vertical-report/specify-data-source-settings-mongodb.md
+          - name: Specify Data Source Settings (Data Federation)  
+            href: report-designer/report-designer-tools/report-wizard/table-and-vertical-report/specify-data-source-settings-data-federation.md
           - name: Define Report Layout
             href: report-designer/report-designer-tools/report-wizard/table-and-vertical-report/define-report-layout.md
           - name: Specify Page Settings
@@ -488,6 +492,10 @@ items:
           href: report-designer/report-designer-tools/data-source-wizard/specify-data-source-settings-json.md
         - name: Specify Data Source Settings (Object)
           href: report-designer/report-designer-tools/data-source-wizard/specify-data-source-settings-object.md
+        - name: Specify Data Source Settings (MongoDB)
+          href: report-designer/report-designer-tools/data-source-wizard/specify-data-source-settings-mongodb.md
+        - name: Specify Data Source Settings (Data Federation)
+          href: report-designer/report-designer-tools/data-source-wizard/specify-data-source-settings-data-federation.md
     - name: Design Surface
       href: report-designer/report-designer-tools/design-surface.md
     - name: Main Menu
