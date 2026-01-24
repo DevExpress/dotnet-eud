@@ -80,6 +80,9 @@ These commands are not available in the following cases:
 * A label's text is bound to data;
 * A label's **Angle** property is specified.
 
+Use the **Line Spacing** property to define the spacing between lines of text in a label. The image shows the difference between spacing:
+
+![eurd-label-line-spacing](../../../images/eurd-label-line-spacing.png)
 
 ### Data-Bound Labels
 
