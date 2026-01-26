@@ -16,6 +16,6 @@ The wizard includes the following steps:
     * [Specify Data Source Settings (JSON)](table-and-vertical-report/specify-data-source-settings-json.md) 
     * [Specify Data Source Settings (Object)](table-and-vertical-report/specify-data-source-settings-object.md)
     * [Specify Data Source Settings (MongoDB)](table-and-vertical-report/specify-data-source-settings-mongodb.md)
-    * [Specify Data Source Settings (Data Federation)](table-and-vertical-report/specify-data-source-settings-data-federation.md)
+    * [Specify Data Source Settings (Data Federation)](table-and-vertical-report/specify-data-source-settings-federation.md)
 * [Define Report Layout](table-and-vertical-report/define-report-layout.md)
 * [Specify Page Settings](table-and-vertical-report/specify-page-settings.md)

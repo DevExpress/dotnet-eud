@@ -17,7 +17,7 @@ In the next section, configure master-detail relationships between selected item
 
 For a detailed tutorial on how to create a federated data source that retrieves data from multiple data sources and sets the master-detail relationship between the queries, refer to the following topics: 
 
-- [Bind a Report to a Federated Master-Detail Data Source](../../../bind-to-data/bind-a-report-to-a-federated-master-detail-data-source.html)
+- [Bind a Report to a Federated Master-Detail Data Source](../../../bind-to-data/bind-a-report-to-a-federated-master-detail-data-source.md)
 
 ### Combine Data into a Single Query
 
@@ -38,6 +38,6 @@ Transformation
 
 For instructions on how to bind a report to a Federated Data Source depending on the query type, refer to the following topics: 
 
-- [Bind a Report to a Join-Based Federated Data Source](../../../bind-to-data/bind-a-report-to-a-join-based-federated-data-source.html)
-- [Bind a Report to a Union-Based Federated Data Source](../../../bind-to-data/bind-a-report-to-a-union-based-federated-data-source.html)
-- [Bind a Report to a Transformation-Based Data Source](../../../bind-to-data/bind-a-report-to-a-transformation-based-data-source.html)
+- [Bind a Report to a Join-Based Federated Data Source](../../../bind-to-data/bind-a-report-to-a-join-based-federated-data-source.md)
+- [Bind a Report to a Union-Based Federated Data Source](../../../bind-to-data/bind-a-report-to-a-union-based-federated-data-source.md)
+- [Bind a Report to a Transformation-Based Data Source](../../../bind-to-data/bind-a-report-to-a-transformation-based-data-source.md)

@@ -149,7 +149,6 @@ Enable the **Allow Markup Text** property to format the label's text with markup
 
 When a report is exported to XLS or XLSX, the following rich-text content is converted from labels into Excel-native rich-text content:
 
-| | |
 | --- | --- |
 | Text format | \<b>, \<i>, \<u>, \<s> |
 | Line break | \<br> |

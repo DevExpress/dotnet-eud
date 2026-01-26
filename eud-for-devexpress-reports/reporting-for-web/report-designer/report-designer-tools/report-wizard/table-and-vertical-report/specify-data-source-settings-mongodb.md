@@ -5,8 +5,6 @@ title: Specify Data Source Settings (MongoDB)
 
 This page appears when you select **MongoDB** on the start page.
 
-![Web Report Wizard - Specify Data Source Settings for MongoDB](../../../../images/web-fullscreen-report-wizard-mongodb-datasource.png)
-
 ## Choose a Data Connection
 
 Select a connection from the list: 

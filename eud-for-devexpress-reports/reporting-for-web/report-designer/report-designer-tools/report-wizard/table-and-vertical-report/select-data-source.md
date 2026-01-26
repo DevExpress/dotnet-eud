@@ -35,6 +35,4 @@ Click **Next** to proceed:
 * [Specify Data Source Setting (JSON)](specify-data-source-settings-json.md) if you selected **JSON**.
 * [Specify Data Source Setting (Object)](specify-data-source-settings-object.md) if you selected **Object**.
 * [Specify Data Source Setting (MongoDB)](specify-data-source-settings-mongodb.md) if you selected **MongoDB**.
-* [Specify Data Source Setting (Data Federation)](specify-data-source-settings-data-federation.md) if you selected **Data Federation**.
-
-
+* [Specify Data Source Setting (Data Federation)](specify-data-source-settings-federation.md) if you selected **Data Federation**.

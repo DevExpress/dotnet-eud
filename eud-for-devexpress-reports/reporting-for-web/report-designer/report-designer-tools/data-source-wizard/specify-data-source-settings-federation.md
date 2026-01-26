@@ -17,7 +17,7 @@ In the next section, configure master-detail relationships between selected item
 
 For a detailed tutorial on how to create a federated data source that retrieves data from multiple data sources and sets the master-detail relationship between the queries, refer to the following topics: 
 
-- [Bind a Report to a Federated Master-Detail Data Source](../../bind-to-data/bind-a-report-to-a-federated-master-detail-data-source.html)
+- [Bind a Report to a Federated Master-Detail Data Source](../../bind-to-data/bind-a-report-to-a-federated-master-detail-data-source.md)
 
 ### Combine Data into a Single Query
 
@@ -36,8 +36,8 @@ Union and Union All
 Transformation
 :   If a data source contains a complex column (an object), you can transform its properties to display them as separate columns in a flattened view. If one of the data columns is an array, you can unfold its values and display a new data row for every element of the array. When you unfold the column, you can flatten it and create a flattened view.
 
-For instructions on how to bind a report to a Federated Data Source depending on the query type, refer to the following topics: 
+For instructions on how to bind a report to a Federated Data Source depending on the query type, refer to the following topics:
 
-- [Bind a Report to a Join-Based Federated Data Source](../../bind-to-data/bind-a-report-to-a-join-based-federated-data-source.html)
-- [Bind a Report to a Union-Based Federated Data Source](../../bind-to-data/bind-a-report-to-a-union-based-federated-data-source.html)
-- [Bind a Report to a Transformation-Based Data Source](../../bind-to-data/bind-a-report-to-a-transformation-based-data-source.html)
+- [Bind a Report to a Join-Based Federated Data Source](../../bind-to-data/bind-a-report-to-a-join-based-federated-data-source.md)
+- [Bind a Report to a Union-Based Federated Data Source](../../bind-to-data/bind-a-report-to-a-union-based-federated-data-source.md)
+- [Bind a Report to a Transformation-Based Data Source](../../bind-to-data/bind-a-report-to-a-transformation-based-data-source.md)
