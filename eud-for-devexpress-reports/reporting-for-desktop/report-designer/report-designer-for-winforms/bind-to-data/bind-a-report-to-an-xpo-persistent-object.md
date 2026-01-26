@@ -1,5 +1,4 @@
 ---
-uid: '400274'
 title: 'Bind a Report to an XPO Persistent Object'
 ---
 

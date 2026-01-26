@@ -26,6 +26,10 @@ Refer to [Bind Table Cells to Data](bind-table-cells-to-data.md) to learn about 
 
 A table cell is like an [Label](../use-basic-report-controls/label.md) control - it provides the same options for text formatting, alignment, appearance, interactivity, etc. 
 
+You can change the line spacing in a table cell. For this, set the **Line Spacing** property to the desired value. The image shows the difference between spacing:
+
+![eurd-label-line-spacing](../../../images/eurd-label-line-spacing.png)
+
 You can also make a table cell act as a container for other report controls by dropping the required control from the toolbox on this cell.
 
 ![](../../../images/eurd-web-drop-check-box-onto-table-cell.png)

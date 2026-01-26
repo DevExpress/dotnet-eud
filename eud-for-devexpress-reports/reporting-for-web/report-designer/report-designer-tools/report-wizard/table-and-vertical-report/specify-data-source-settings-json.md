@@ -1,5 +1,4 @@
 ---
-uid: '400965'
 title: Specify Data Source Settings (JSON)
 owner: Anna Gubareva
 ---

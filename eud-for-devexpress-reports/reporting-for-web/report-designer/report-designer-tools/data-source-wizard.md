@@ -1,8 +1,6 @@
 ---
-uid: '400947'
 title: Data Source Wizard 
 owner: Anna Gubareva
-seealso: []
 ---
 # Data Source Wizard 
 
@@ -21,3 +19,5 @@ On the start page, choose the data source type and click **Next** to proceed:
 * [Specify Data Source Setting (Database)](data-source-wizard/specify-data-source-settings-database.md) if you selected **Database**;
 * [Specify Data Source Setting (JSON)](data-source-wizard/specify-data-source-settings-json.md) if you selected **JSON**.
 * [Specify Data Source Setting (Object)](data-source-wizard/specify-data-source-settings-object.md) if you selected **Object**.
+* [Specify Data Source Setting (MongoDB)](data-source-wizard/specify-data-source-settings-mongodb.md) if you selected **MongoDB**.
+* [Specify Data Source Setting (Data Federation)](data-source-wizard/specify-data-source-settings-federation.md) if you selected **Data Federation**.

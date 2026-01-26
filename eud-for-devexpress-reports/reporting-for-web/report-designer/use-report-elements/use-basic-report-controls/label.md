@@ -80,6 +80,9 @@ These commands are not available in the following cases:
 * A label's text is bound to data;
 * A label's **Angle** property is specified.
 
+Use the **Line Spacing** property to define the spacing between lines of text in a label. The image shows the difference between spacing:
+
+![eurd-label-line-spacing](../../../images/eurd-label-line-spacing.png)
 
 ### Data-Bound Labels
 
@@ -146,7 +149,6 @@ Enable the **Allow Markup Text** property to format the label's text with markup
 
 When a report is exported to XLS or XLSX, the following rich-text content is converted from labels into Excel-native rich-text content:
 
-| | |
 | --- | --- |
 | Text format | \<b>, \<i>, \<u>, \<s> |
 | Line break | \<br> |

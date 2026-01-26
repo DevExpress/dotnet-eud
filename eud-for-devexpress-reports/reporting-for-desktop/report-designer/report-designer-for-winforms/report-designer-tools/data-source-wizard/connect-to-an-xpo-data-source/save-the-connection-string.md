@@ -1,5 +1,4 @@
 ---
-uid: '400404'
 title: 'Save the Connection String'
 ---
 

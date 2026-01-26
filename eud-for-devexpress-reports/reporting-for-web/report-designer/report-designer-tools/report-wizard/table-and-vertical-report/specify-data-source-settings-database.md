@@ -1,5 +1,4 @@
 ---
-uid: '400958'
 title: Specify Data Source Settings (Database)
 owner: Anna Gubareva
 ---

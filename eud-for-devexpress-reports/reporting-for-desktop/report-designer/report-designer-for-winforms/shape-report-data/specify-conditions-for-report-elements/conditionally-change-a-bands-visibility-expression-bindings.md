@@ -1,7 +1,6 @@
 ---
 title: Conditionally Change a Band's Visibility
 owner: Vera Gorbyliova
-seealso: []
 ---
 # Conditionally Change a Band's Visibility
 

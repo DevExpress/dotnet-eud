@@ -1,22 +1,18 @@
 ---
-title: Date Range Report Parameters
+title: Range Report Parameters
 author: Sergey Andreev
 ---
+# Range Report Parameters
 
-# Date Range Report Parameters
-
-This topic describes how to create a date range parameter and filter a report's data by the specified dates.
+This topic describes how to create date and time range parameters and filter a report's data by the specified dates.
 
 ![A date range parameter's editor in Preview](../../images/eurd-web-date-ranges-parameters-panel.png)
 
-> [!Note]
-> Web Report controls do not support `Date` and `Time` range parameters. You can only create a range parameter of `Date and Time` type.
+## Create a Range Parameter in the Report Designer
 
-## Create a Date Range Parameter in the Report Designer
+Follow the steps below to add a range parameter to a report in the [Report Designer](../first-look-at-the-report-designer.md):
 
-Follow the steps below to add a date range parameter to a report in the [Report Designer](../first-look-at-the-report-designer.md):
-
-1. [Create a report parameter](create-a-report-parameter.md) with the **Date & Time** type and set its **Value Source** option to **Range Parameters**. The **Start Parameter** and **End Parameter** sections appear, and you can configure options in these sections to create a date range.
+1. [Create a report parameter](create-a-report-parameter.md) of the **Date & Time**, **Date** or **Time** type and set its **Value Source** option to **Range Parameters**. The **Start Parameter** and **End Parameter** sections appear, and you can configure options in these sections to create a date or time range.
 
     ![add-parameter-dialog](../../images/use-date-ranges-design-add-param-dialog.png)
 
@@ -24,7 +20,7 @@ Follow the steps below to add a date range parameter to a report in the [Report 
 
     ![value-expression](../../images/use-date-ranges-design-value-expression.png)
 
-After you create a date range parameter, you can reference the names of the **Start Parameter** and **End Parameter** in the report's filter string to [filter the report's data](../shape-report-data/filter-data/filter-data-at-the-report-level.md) by the created date range. Select the report, click the **FilterString**'s ellipsis button in the **Properties window**, and construct a filter condition in the invoked **FilterString Editor**.
+After you create a range parameter, you can reference the names of the **Start Parameter** and **End Parameter** in the report's filter string to [filter the report's data](../shape-report-data/filter-data/filter-data-at-the-report-level.md) by the created date or time range. Select the report, click the **FilterString**'s ellipsis button in the **Properties window**, and construct a filter condition in the invoked **FilterString Editor**.
 
 ![filterstring](../../images/eurd-web-date-ranges-filterstring.png)
 

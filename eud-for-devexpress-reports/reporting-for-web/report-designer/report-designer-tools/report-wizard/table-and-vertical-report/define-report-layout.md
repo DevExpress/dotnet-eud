@@ -1,5 +1,4 @@
 ---
-uid: '400959'
 title: Define Report Layout
 owner: Anna Gubareva
 ---

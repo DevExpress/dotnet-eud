@@ -1,8 +1,6 @@
 ---
-uid: "4253"
 title: Customize the Label Options
 owner: Anna Gubareva
-seealso: []
 ---
 # Customize the Label Options
 

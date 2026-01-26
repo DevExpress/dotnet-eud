@@ -1,5 +1,4 @@
 ---
-uid: '400957'
 title: Select Data Source
 owner: Anna Gubareva
 ---
@@ -32,8 +31,8 @@ Choose _'No, I'd like to create a new data source'_ and select the data source t
 
 Click **Next** to proceed:
 
-* [Spesify Data Source Setting (Database)](specify-data-source-settings-database.md) if you selected **Database**;
-* [Spesify Data Sourse Setting (JSON)](specify-data-source-settings-json.md) if you selected **JSON**.
-
-
-
+* [Specify Data Source Setting (Database)](specify-data-source-settings-database.md) if you selected **Database**;
+* [Specify Data Source Setting (JSON)](specify-data-source-settings-json.md) if you selected **JSON**.
+* [Specify Data Source Setting (Object)](specify-data-source-settings-object.md) if you selected **Object**.
+* [Specify Data Source Setting (MongoDB)](specify-data-source-settings-mongodb.md) if you selected **MongoDB**.
+* [Specify Data Source Setting (Data Federation)](specify-data-source-settings-federation.md) if you selected **Data Federation**.
