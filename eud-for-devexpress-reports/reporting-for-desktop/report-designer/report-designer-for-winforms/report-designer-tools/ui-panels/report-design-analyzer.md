@@ -5,7 +5,7 @@ title: 'Report Design Analyzer'
 
 The **Report Design Analyzer** shows errors, warnings, and information messages that help you to detect and fix issues in a report.
 
-![](../../../../images/report-design-analyzer-win.png)
+![Report Design Analyzer panel](../../../../images/report-design-analyzer-win.png)
 
 ## Invoke the Report Design Analyzer
 
@@ -13,21 +13,21 @@ Do one of the following to invoke the **Report Design Analyzer**:
 
 * Select **Report Design Analyzer** from the **Windows** drop-down menu in the **View** toolbar tab.
 
-    ![](../../../../images/eurd-report-design-analyzer-invoke-from-toolbar.png)
+    ![View toolbar Windows menu](../../../../images/eurd-report-design-analyzer-invoke-from-toolbar.png)
 
 * Click the bell icon in the status bar.
 
-    ![](../../../../images/eurd-report-design-analyzer-invoke-with-bell.png)
+    ![Bell icon in status bar](../../../../images/eurd-report-design-analyzer-invoke-with-bell.png)
 
 ## Fix Issues
 
 Each message contains a recommendation on how to fix an issue. Click the Plus icon in front of the message to expand the recommendation.
 
-![](../../../../images/report-design-analyzer-expand-message@2x.png)
+![Expand message with recommendation](../../../../images/report-design-analyzer-expand-message@2x.png)
 
 The **Source** column contains a reference to the control or script that caused the issue. Click the reference to navigate to this control or script.
 
-![](../../../../images/report-design-analyzer-navigate-to-control@2x.png)
+![Navigate to control or script](../../../../images/report-design-analyzer-navigate-to-control@2x.png)
 
 ## Filter Messages by Source
 
@@ -40,11 +40,21 @@ Based on their source, report errors are divided into four groups:
 
 You can disable messages that belong to a particular source:
 
-![](../../../../images/disable-messages-that-belong-to-error-source.png)
+![Disable messages by error source](../../../../images/disable-messages-that-belong-to-error-source.png)
 
 ## Filter Messages by Type
 
 You can enable/disable messages of each available type ("Error", "Warning", or "Information") or any combination of them. Click the panel in the UI as shown in the image below to enable/disable messages of a corresponding type.
 
-![](../../../../images/filter-messages-by-type.png)
+![Filter messages by type](../../../../images/filter-messages-by-type.png)
 
+## Enable Accessibility Validation
+
+Click the **Accessibility** bar item in the UI panel to display accessibility-related issues in the Report Design Analyzer.
+
+![Accessibility validation button](../../../../images/win-report-analyzer-accessibility-validation.png)
+
+Use filters by type and source to navigate long issue lists:
+
+* Like other report design issues, accessibility issues are divided into errors, warnings, and messages. If you deselect the Warnings button, all accessibility warnings will be hidden.
+* The source filter allows you to select report controls where issues originate.

@@ -64,6 +64,14 @@ Specify the following settings:
 
 	The range of pages which contain a watermark.
 
+* Role
+
+	Specifies the role of a text watermark in the exported PDF document. This value is used by assistive technologies.
+
+* Description
+
+	Specifies the description of a text watermark used by assistive technologies.	
+
 ## Add an Image Watermark
 
 Specify an image. Click the **Load image** option’s **Browse** button.
@@ -109,6 +117,14 @@ Specify the following picture options:
 * Page Range
 
 	The range of pages which contain a watermark.
+
+* Role
+
+	Specifies the role of an image watermark in the exported PDF document. This value is used by assistive technologies.
+
+* Description
+
+	Specifies the description of an image watermark used by assistive technologies.			
 
 > [!NOTE]
 > A report can display only one watermark on a report page.	

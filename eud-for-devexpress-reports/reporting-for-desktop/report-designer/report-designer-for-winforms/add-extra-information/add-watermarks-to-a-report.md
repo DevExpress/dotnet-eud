@@ -5,11 +5,13 @@ title: Add Watermarks to a Report
 
 DevExpress Reporting allows you to display text and picture watermarks on report pages. You can also specify an expression that assigns different watermarks to pages.
 
-* How to add watermarks.
+* How to add watermarks. 
 
 * How to specify watermark settings.
 
 * How to use pre-printed forms.
+
+* How to define watermark accessibility settings.
 
 ![eurd-win-add-watermarks-result](../../../images/eurd-win-add-watermarks-result.png)
 
@@ -71,6 +73,14 @@ Specify the following settings:
 
 	The range of pages which contain a watermark.
 
+* Role
+
+	Specifies the role of a text watermark in the exported PDF document. This value is used by assistive technologies.
+
+* Description
+
+	Specifies the description of a text watermark used by assistive technologies.	
+
 Click **OK** to add a watermark to the watermark collection. The added watermark is automatically displayed in the report in Preview mode.
 
 > [!NOTE]
@@ -121,6 +131,14 @@ Specify the following picture options:
 * Page Range
 
 	The range of pages which contain a watermark.
+
+* Role
+
+	Specifies the role of an image watermark in the exported PDF document. This value is used by assistive technologies.
+
+* Description
+
+	Specifies the description of an image watermark used by assistive technologies.				
 
 > [!NOTE]
 > A report can display only one watermark on a report page.	
@@ -209,3 +227,13 @@ Specify the expression in the report’s WatermarkId property:
 The image below shows the result.
 
 ![Display different watermarks](../../../images/watermarks-expression-example.png)
+
+## Watermark Accessibility Settings
+
+Use the following options to specify whether to include report watermarks in the logical structure of exported PDF documents:
+
+* For image watermarks that convey meaningful information, set the **Role** property to **Figure** and use the **Description** property to specify alternative text.
+
+* For text watermarks, set the **Role** property to **Paragraph** and use the **Description** property to specify alternative text.
+
+For purely decorative watermarks, retain the default value to treat the watermark as an artifact.

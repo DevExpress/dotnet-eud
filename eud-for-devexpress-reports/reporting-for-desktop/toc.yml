@@ -1,4 +1,4 @@
-items:
+﻿items:
 - name: Report Designer for WinForms
   href: report-designer/report-designer-for-winforms.md 
   items:
@@ -517,8 +517,6 @@ items:
       - name: Connect to a Database
         href: report-designer/report-designer-for-winforms/report-designer-tools/data-source-wizard/connect-to-a-database.md
         items:
-        - name: Select a Data Connection
-          href: report-designer/report-designer-for-winforms/report-designer-tools/data-source-wizard/connect-to-a-database/select-a-data-connection.md
         - name: Specify a Connection String
           href: report-designer/report-designer-for-winforms/report-designer-tools/data-source-wizard/connect-to-a-database/specify-a-connection-string.md
         - name: Save the Connection String
@@ -582,8 +580,6 @@ items:
         items:
         - name: Choose an Entity Type
           href: report-designer/report-designer-for-winforms/report-designer-tools/data-source-wizard/connect-to-an-xpo-data-source/choose-an-entity-type.md
-        - name: Select a Data Connection
-          href: report-designer/report-designer-for-winforms/report-designer-tools/data-source-wizard/connect-to-an-xpo-data-source/select-a-data-connection.md
         - name: Specify a Connection String
           href: report-designer/report-designer-for-winforms/report-designer-tools/data-source-wizard/connect-to-an-xpo-data-source/specify-a-connection-string.md
         - name: Save the Connection String
@@ -623,6 +619,8 @@ items:
         href: report-designer/report-designer-for-winforms/report-designer-tools/ui-panels/group-and-sort-panel.md
       - name: Report Design Analyzer
         href: report-designer/report-designer-for-winforms/report-designer-tools/ui-panels/report-design-analyzer.md
+      - name: Designer Settings Dialog
+        href: report-designer/report-designer-for-winforms/report-designer-tools/ui-panels/designer-settings-dialog.md
       - name: Toolbox
         href: report-designer/report-designer-for-winforms/report-designer-tools/ui-panels/toolbox.md
       - name: Toolbar
@@ -792,8 +790,6 @@ items:
       - name: Connect to a Database
         href: report-designer/report-designer-for-wpf/report-wizard/data-bound-report/connect-to-a-database.md
         items:
-        - name: Select a Data Connection
-          href: report-designer/report-designer-for-wpf/report-wizard/data-bound-report/connect-to-a-database/select-a-data-connection.md
         - name: Specify a Connection String
           href: report-designer/report-designer-for-wpf/report-wizard/data-bound-report/connect-to-a-database/specify-a-connection-string.md
         - name: Save the Connection String

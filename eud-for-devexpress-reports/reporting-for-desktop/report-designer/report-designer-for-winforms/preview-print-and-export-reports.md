@@ -1,4 +1,4 @@
----
+﻿---
 title: Preview, Print and Export Reports
 ---
 # Preview, Print and Export Reports
@@ -49,9 +49,29 @@ The following image illustrates the resulting XLXS document with and without pag
 
 ## Export a Report to PDF with Accessible Tags (PDF/UA Compatibility)
 
-You can specify how Label, Table, Table Row, and Table Cell should be treated by screen readers in the exported PDF document.
+You can specify how report elements should be treated by screen readers in the exported PDF document.
 
-When you export a report to PDF, the report elements have no role. Assistive software commonly treats such elements as HTML <div> tags. Change the element’s role to one of the values listed below to help the screen reader correctly identify the element’s purpose in the exported PDF document.
+Use this table to map report controls to accessibility structure roles in exported PDF files. 
+
+The table describes the following:
+
+- How each control behaves when the **Accessible Role** property is set to **Default**.
+- Roles you can assign to ensure that screen readers correctly identify the element's purpose in the exported PDF document.
+
+> [!Tip]
+> **Decorative** role means an element is treated as an artifact (outside the tag tree). Use this role only for non-informative visual elements. 
+
+| Element(s) | Default behavior when **Accessible Role** = **Default** | Role you can specify | 
+|---|---|---|
+| `Label` | No semantic role; treated as a `Div`. | Heading | 
+| `Table` | No semantic role; treated as a `Div`. | Table | 
+| `Table Row` | No semantic role; treated as a `Div`. | Table Header Row | 
+| `Table Cell` | Treated as a paragraph (`P`). | Header Cell | 
+| `Watermark` (an image watermark) | Treated as an artifact; excluded from the PDF logical structure. | Figure | 
+| `Watermark` (a text watermark) | Treated as an artifact; excluded from the PDF logical structure. | Paragraph |
+| `Picture Box`, `Shape`, `Bar Code`, `Zip Code` | Treated as a `Figure`. | Decorative (Artifact) | 
+
+The **Accessible Description** property is not in effect for artifacts.
 
 ### Define Label Accessible Role
 
@@ -105,3 +125,51 @@ In the PDF Export Options dialog, set the **PDF/UA Compatibility** property to *
 The image below shows the result. **Table Cell**'s b is set to **Table Header Cell**, and the screen reader treats Table Cell with "Bill to:" text as a header cell in the exported document:
 
 ![Exported report in the screen reader](../../images/accessible-exported-document-with-table.png)
+
+### Define Watermark Accessible Role
+
+#### Image Watermark
+
+Use the **Role** property to specify how screen readers interpret image watermarks in exported PDF documents. You can change the value to **Figure** or keep the default value of **Artifact**. An artifact does not appear in the tag tree and is considered external to the content. The **Description** property is not in effect for artifacts.
+
+If an image watermark conveys meaning and you want to include it to PDF document logical structure, set **Role** to **Figure** when you create or edit the watermark:
+
+![Image Accessible Role Property Set to Figure](../../images/image-watermark-accessible-role.png)
+
+Before you export your report, set the **PDF/UA Compatibility** property to **PDF/UA1** to make the document PDF/UA compatible.
+
+The image below shows the result. **Role** is set to **Figure**, and the screen reader treats watermark as a figure in the exported document:
+
+![PDF Tag Structure with Watermark as Figure](../../images/watermark-figure-result.png)
+
+Use the **Description** property to specify the description of the resulting element:
+
+![Image Accessible Description Property](../../images/image-watermark-accessible-description.png)
+
+#### Text Watermark
+
+Use the **Role** property to specify how screen readers interpret text watermarks in exported PDF documents. You can change the value to **Paragraph** or keep the default value of **Artifact**. An artifact does not appear in the tag tree and is considered external to the content. The **Description** property is not in effect for artifacts.
+
+If a text watermark conveys meaning and you want to include it to PDF document logical structure, set **Role** to **Paragraph** when you create or edit the watermark:
+
+![Text Accessible Role Property Set to Paragraph](../../images/text-watermark-accessible-role.png)
+
+Before you export your report, set the **PDF/UA Compatibility** property to **PDF/UA1** to make the document PDF/UA compatible.
+
+The image below shows the result. **Role** is set to **Paragraph**, and the screen reader treats watermark as a paragraph in the exported document:
+
+![PDF Tag Structure with Watermark as Paragraph](../../images/watermark-paragraph-result.png)
+
+Use the **Description** property to specify the description of the resulting element:
+
+![Text Accessible Description Property](../../images/text-watermark-accessible-description.png)
+
+### Hide Elements from the Logical Tree 
+
+Use the **Accessible Role** property to specify how screen readers treat the **Picture Box**, **Shape**, **Bar Code**, and **Zip Code** controls in exported PDF documents. You can change the value to **Decorative** or keep the default value of **Figure**.
+
+A decorative element is called an artifact and is not part of PDF document logical structure. An artifact does not appear in the tag tree and is considered external to the content.
+
+> [!NOTE]
+> Do not exclude elements that carry meaning, use this tag only for decorative elements.
+

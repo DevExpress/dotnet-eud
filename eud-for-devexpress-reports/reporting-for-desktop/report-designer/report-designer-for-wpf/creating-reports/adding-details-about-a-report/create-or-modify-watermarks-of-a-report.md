@@ -12,6 +12,8 @@ DevExpress Reporting allows you to display text and picture watermarks on report
 
 * How to use pre-printed forms.
 
+* How to define watermark accessibility settings.
+
 ## Add a Watermark to a Report
 
 Right-click the report, and in the invoked context menu, click the **Watermark...** link. In the invoked **Watermarks** dialog, add a new watermark and click either the **Text Watermark** or **Picture Watermark** tab, depending on the type of watermark you wish to add.
@@ -20,7 +22,7 @@ Right-click the report, and in the invoked context menu, click the **Watermark..
 
 Specify the following settings:
 
-![EUD_WpfReportDesigner_Watermark_2](../../../../images/img123769.png)
+![Text watermark settings dialog](../../../../images/img123769.png)
 
 * Text
 
@@ -66,6 +68,14 @@ Specify the following settings:
 
 	The range of pages which contain a watermark.
 
+* Role
+
+	Specifies the role of a text watermark in the exported PDF document. This value is used by assistive technologies.
+
+* Description
+
+	Specifies the description of a text watermark used by assistive technologies.		
+
 Click **OK** to add a watermark to the watermark collection. The added watermark is automatically displayed in the report in Preview mode.
 
 > [!NOTE]
@@ -79,7 +89,7 @@ In the invoked **Select Picture** dialog, select the file containing the image t
 
 Specify the following picture options:
 
-![EUD_WpfReportDesigner_Watermark_3](../../../../images/img123770.png)
+![Picture watermark settings dialog](../../../../images/img123770.png)
 
 * Size Mode
 
@@ -113,6 +123,14 @@ Specify the following picture options:
 
 	The range of pages which contain a watermark.
 
+* Role
+
+	Specifies the role of an image watermark in the exported PDF document. This value is used by assistive technologies.
+
+* Description
+
+	Specifies the description of an image watermark used by assistive technologies.		
+
 Click **OK** to add a watermark to the watermark collection. The added watermark is automatically displayed in the report in Preview mode.
 
 > [!NOTE]
@@ -126,7 +144,7 @@ For example, create a watermark and specify its text and picture settings. Set p
  
 As a result, in [Preview](../../document-preview.md) mode the image is displayed behind the table, while the text is in front of the content:
 
-![EUD_WpfReportDesigner_Watermark_Result](../../../../images/img123772.png)
+![Combined text and image watermark](../../../../images/img123772.png)
 
 ## Display a Specific Watermark in a Report
 
@@ -150,3 +168,12 @@ The image below shows the result.
 
 ![Display different watermarks](../../../../images/wpf-watermarks-expression-example.png)
 
+## Watermark Accessibility Settings
+
+Use the following options to specify whether to include report watermarks in the logical structure of exported PDF documents:
+
+* For image watermarks that convey meaningful information, set the **Role** property to **Figure** and use the **Description** property to specify alternative text.
+
+* For text watermarks, set the **Role** property to **Paragraph** and use the **Description** property to specify alternative text.
+
+For purely decorative watermarks, retain the default value to treat the watermark as an artifact.

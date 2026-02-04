@@ -41,8 +41,6 @@ Finish the wizard. At this step, the wizard creates an **XPObjectSource** compon
 
 You can [customize the field list](#change-the-property-set) and set up the component's settings after you finish the wizard.
 
-
-
 ## Customize Data Source Settings
 
 You can customize the created **XPObjectSource** component's settings. To do this, select this component in the [Report Explorer](../report-designer-tools/ui-panels/Report-Explorer.md) and switch to the Property grid.
