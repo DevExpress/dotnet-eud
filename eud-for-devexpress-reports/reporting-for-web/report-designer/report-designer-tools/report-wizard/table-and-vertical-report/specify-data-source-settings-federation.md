@@ -29,8 +29,8 @@ The following query types are available:
 
 Join 
 :   Combines rows from two or more sources based on a clause.
-Union and Union All
 
+Union and Union All
 :   The Union query combines rows from two or more sources into one data set and removes duplicate rows in the merged source. The Union All query does the same, except it does not remove duplicated rows. You can create a union query for data sources if data types of their columns are implicitly converted.
 
 Transformation
