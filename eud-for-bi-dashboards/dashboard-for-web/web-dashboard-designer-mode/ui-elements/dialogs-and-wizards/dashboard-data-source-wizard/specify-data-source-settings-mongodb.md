@@ -4,7 +4,7 @@ title: Specify Data Source Settings (MongoDB)
 # Specify Data Source Settings (MongoDB)
 
 
-The following page is available for the OLAP data source type:
+The following page is available for the MongoDB data source type:
 
 ## Select a Data Connection
 
