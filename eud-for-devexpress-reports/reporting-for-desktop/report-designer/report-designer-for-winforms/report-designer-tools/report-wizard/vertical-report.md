@@ -1,4 +1,5 @@
-﻿---
+
+---
 title: 'Vertical Report'
 ---
 

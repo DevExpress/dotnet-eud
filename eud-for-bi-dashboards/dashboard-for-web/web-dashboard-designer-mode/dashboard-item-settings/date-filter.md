@@ -52,8 +52,6 @@ You can include placeholders in a custom string. The `{0}` placeholder is the in
 
 ![](../../images/datefilter-web-quick-filters.png)
 
-The **Select Date Time Period** button displayed in the Date Filter caption invokes the drop-down list with quick filters.
-
 To add quick filters, open the Date Filter's [Options](../ui-elements/dashboard-item-menu.md) menu and go to the **Custom Periods** section. Click "+" to add a new period:
 
 ![](../../images/datefilter-web-custom-periods.png)

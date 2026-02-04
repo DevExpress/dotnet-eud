@@ -1,7 +1,6 @@
 ---
 title: 'Select a Data Connection'
 ---
-
 # Select a Data Connection
 
 On this page, specify whether you want to use an existing data connection or create a new data connection.

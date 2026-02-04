@@ -28,10 +28,14 @@ You can create a new data source based on a database, JSON data, an OLAP cube, o
 
   Connects to JSON-formatted data.
 
+* [MongoDB](dashboard-data-source-wizard/specify-data-source-settings-mongodb.md)
+
+  Connects to a MongoDB database.
+
 * [OLAP Data Source](dashboard-data-source-wizard/specify-data-source-settings-olap.md) 
 
   Connects to OLAP cubes.
 
-* [Data Federation](dashboard-data-source-wizard/specify-data-source-settings-olap.md) 
+* [Data Federation](dashboard-data-source-wizard/specify-data-source-settings-data-federation.md) 
 
   Creates a federated data source from the existing data sources.

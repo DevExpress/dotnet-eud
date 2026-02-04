@@ -2,8 +2,7 @@
 title: Date Range Report Parameters
 author: Sergey Andreev
 ---
-
-# Range Report Parameters
+  # Range Report Parameters
 
 This topic describes how to create **date range** and **time range** parameters and filter a report’s data by the specified date or time values.
 

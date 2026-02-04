@@ -304,7 +304,7 @@
         href: report-designer/report-designer-for-winforms/use-report-parameters/multi-value-report-parameters.md
       - name: Cascading Report Parameters
         href: report-designer/report-designer-for-winforms/use-report-parameters/cascading-report-parameters.md
-      - name: Date Range Report Parameters
+      - name: Range Report Parameters
         href: report-designer/report-designer-for-winforms/use-report-parameters/date-range-report-parameters.md
     - name: Reference Report Parameters
       href: report-designer/report-designer-for-winforms/use-report-parameters/reference-report-parameters.md

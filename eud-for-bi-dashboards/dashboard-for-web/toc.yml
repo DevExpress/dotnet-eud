@@ -365,6 +365,8 @@ items:
           href: web-dashboard-designer-mode/ui-elements/dialogs-and-wizards/dashboard-data-source-wizard/specify-data-source-settings-database.md
         - name: Specify Data Source Settings (JSON)
           href: web-dashboard-designer-mode/ui-elements/dialogs-and-wizards/dashboard-data-source-wizard/specify-data-source-settings-json.md
+        - name: Specify Data Source Settings (MongoDB)
+          href: web-dashboard-designer-mode/ui-elements/dialogs-and-wizards/dashboard-data-source-wizard/specify-data-source-settings-mongodb.md
         - name: Specify Data Source Settings (OLAP)
           href: web-dashboard-designer-mode/ui-elements/dialogs-and-wizards/dashboard-data-source-wizard/specify-data-source-settings-olap.md
         - name: Specify Data Source Settings (Data Fedaration)
