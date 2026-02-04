@@ -1,5 +1,4 @@
 ---
-uid: '400402'
 title: 'Select a Data Connection'
 ---
 

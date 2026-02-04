@@ -1,5 +1,4 @@
 ---
-uid: '400391'
 title: 'Choose an Entity Type'
 ---
 # Choose an Entity Type

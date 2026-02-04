@@ -1,5 +1,4 @@
 ---
-uid: '400957'
 title: Select Data Source
 owner: Anna Gubareva
 ---

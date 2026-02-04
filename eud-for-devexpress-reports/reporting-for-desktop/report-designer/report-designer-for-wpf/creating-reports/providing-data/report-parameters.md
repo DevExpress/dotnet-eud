@@ -4,6 +4,7 @@ author: Anna Gubareva
 legacyId: 116276
 ---
 # Report Parameters
+
 This document describes the main concepts of using parameters in the Report Designer and provides information on how to create parameters and pass their values.
 
 The document consists of the following sections.

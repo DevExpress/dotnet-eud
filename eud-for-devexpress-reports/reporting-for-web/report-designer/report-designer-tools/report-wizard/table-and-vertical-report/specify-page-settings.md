@@ -1,5 +1,4 @@
 ---
-uid: '400960'
 title: Specify Page Settings
 owner: Anna Gubareva
 ---

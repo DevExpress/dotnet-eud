@@ -1,5 +1,4 @@
 ---
-uid: '400274'
 title: 'Bind a Report to an XPO Persistent Object'
 ---
 
@@ -41,8 +40,6 @@ Finish the wizard. At this step, the wizard creates an **XPObjectSource** compon
 
 
 You can [customize the field list](#change-the-property-set) and set up the component's settings after you finish the wizard.
-
-
 
 ## Customize Data Source Settings
 

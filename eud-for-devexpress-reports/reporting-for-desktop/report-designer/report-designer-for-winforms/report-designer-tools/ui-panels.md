@@ -19,9 +19,12 @@ The Report Designer includes the following panels:
 * [Report Gallery](ui-panels/report-gallery.md)
 
     Allows you to store and reuse report controls, styles, data sources, and entire report layouts.
-* [Property Grid](ui-panels/property-grid-tabbed-view.md)
+* [Property Grid (Tabbed View)](ui-panels/property-grid-tabbed-view.md)
 
     Allows you to view and modify report settings and report element properties.
+* [Property Grid (Non-Tabbed View)](ui-panels/property-grid-non-tabbed-view.md)
+
+    Allows you to access and customize report/report element settings in a non-tabbed view.
 * [Group and Sort Panel](ui-panels/group-and-sort-panel.md)
 
     Allows you to group and sort data in a report.
@@ -34,4 +37,7 @@ The Report Designer includes the following panels:
 
 * [Toolbox](ui-panels/toolbox.md)
 
-    Lists all available report controls. You can drag a control from the toolbox and drop it onto a report design surface.    
+    Lists all available report controls. You can drag a control from the toolbox and drop it onto a report design surface.
+* [Designer Settings Dialog](ui-panels/designer-settings-dialog.md)
+
+    Allows you to configure report design and document generation settings globally at the application level.    

@@ -1,8 +1,6 @@
 ---
-uid: '400947'
 title: Data Source Wizard 
 owner: Anna Gubareva
-seealso: []
 ---
 # Data Source Wizard 
 

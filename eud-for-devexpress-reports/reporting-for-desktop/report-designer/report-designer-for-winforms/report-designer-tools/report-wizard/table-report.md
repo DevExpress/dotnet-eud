@@ -1,8 +1,6 @@
----
-uid: "4271"
+﻿---
 title: Table Report
 owner: Anna Gubareva
-seealso: []
 ---
 # Table Report
 

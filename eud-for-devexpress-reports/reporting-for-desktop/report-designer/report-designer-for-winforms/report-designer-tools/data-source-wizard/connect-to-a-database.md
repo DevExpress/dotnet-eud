@@ -34,7 +34,6 @@ The following data source types are supported.
 
 This task includes the following steps.
 
-* [Select a Data Connection](connect-to-a-database/select-a-data-connection.md)
 * [Specify a Connection String](connect-to-a-database/specify-a-connection-string.md)
 * [Save the Connection String](connect-to-a-database/save-the-connection-string.md)
 * [Create a Query or Select a Stored Procedure](connect-to-a-database/create-a-query-or-select-a-stored-procedure.md)
