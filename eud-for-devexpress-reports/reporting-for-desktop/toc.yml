@@ -699,7 +699,7 @@
         href: report-designer/report-designer-for-wpf/creating-reports/providing-data/report-parameters.md
       - name: Query Parameters
         href: report-designer/report-designer-for-wpf/creating-reports/providing-data/query-parameters.md
-      - name: Query Parameters
+      - name: Range Report Parameters
         href: report-designer/report-designer-for-wpf/creating-reports/providing-data/date-range-report-parameters.md
       - name: Calculated Fields
         href: report-designer/report-designer-for-wpf/creating-reports/providing-data/calculated-fields.md
