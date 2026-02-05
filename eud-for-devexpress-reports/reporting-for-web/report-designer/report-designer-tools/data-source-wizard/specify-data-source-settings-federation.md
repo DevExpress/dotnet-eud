@@ -27,14 +27,17 @@ To combine data from multiple data sources into a single query, hover over the F
 
 The following query types are available: 
 
-Join 
-:   Combines rows from two or more sources based on a clause.
+* Join 
 
-Union and Union All
-:   The Union query combines rows from two or more sources into one data set and removes duplicate rows in the merged source. The Union All query does the same, except it does not remove duplicated rows. You can create a union query for data sources if data types of their columns are implicitly converted.
+   Combines rows from two or more sources based on a clause.
 
-Transformation
-:   If a data source contains a complex column (an object), you can transform its properties to display them as separate columns in a flattened view. If one of the data columns is an array, you can unfold its values and display a new data row for every element of the array. When you unfold the column, you can flatten it and create a flattened view.
+* Union and Union All
+
+   The Union query combines rows from two or more sources into one data set and removes duplicate rows in the merged source. The Union All query does the same, except it does not remove duplicated rows. You can create a union query for data sources if data types of their columns are implicitly converted.
+
+* Transformation
+
+   If a data source contains a complex column (an object), you can transform its properties to display them as separate columns in a flattened view. If one of the data columns is an array, you can unfold its values and display a new data row for every element of the array. When you unfold the column, you can flatten it and create a flattened view.
 
 For instructions on how to bind a report to a Federated Data Source depending on the query type, refer to the following topics:
 
