@@ -121,11 +121,11 @@ The added watermark is automatically displayed in the report in Preview mode.
 
 * Role
 
-    Specifies the role of a text watermark in the exported PDF document. This value is used by assistive technologies.
+    Specifies the role of an image watermark in the exported PDF document. This value is used by assistive technologies.
 
 * Description
 
-    Specifies the description of a text watermark used by assistive technologies.	
+    Specifies the description of an image watermark used by assistive technologies.	
 
 The added watermark is automatically displayed in the report in Preview mode.	
 

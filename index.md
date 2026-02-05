@@ -19,11 +19,11 @@ The end user documentation is divided into the following platforms and products:
 #### Web (ASP.NET):
 
 * [Reporting for Web](eud-for-devexpress-reports/reporting-for-web/index.md)
-* [Dashboard for Web](eud-for-bi-dashboards/dashboard-for-web/index.md)
+* [Dashboard for Web](eud-for-bi-dashboard/dashboard-for-web/index.md)
 
 #### Desktop (WinForms & WPF):
 
 * [Reporting for Desktop](eud-for-devexpress-reports/reporting-for-desktop/index.md)
-* [Dashboard for Desktop](eud-for-bi-dashboards/dashboard-for-desktop/index.md)
+* [Dashboard for Desktop](eud-for-bi-dashboard/dashboard-for-desktop/index.md)
 
 If you search for DevExpress developer documentation with API reference, refer to [docs.devexpress.com](https://docs.devexpress.com).
