@@ -49,7 +49,7 @@ The following image illustrates the resulting XLXS document with and without pag
 
 ## Export a Report to PDF with Accessible Tags (PDF/UA Compatibility)
 
-You can specify how report elements should be treated by screen readers in the exported PDF document.
+Use the **Accessible Role** option to specify how report elements should be treated by screen readers in the exported PDF document. Set the **PDF/UA Compatibility** property to **PDF/UA-1** to conform the exported PDF document to PDF/UA specification. Then, export the report to PDF format.
 
 Use this table to map report controls to accessibility structure roles in exported PDF files. 
 

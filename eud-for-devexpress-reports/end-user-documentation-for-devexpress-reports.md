@@ -17,7 +17,7 @@ The following topics are available in this section:
 
 If you search for DevExpress developer documentation with API reference, refer to [.NET Reporting Tools for Web, Mobile, and Desktop](https://docs.devexpress.com/XtraReports/2162/reporting).
 
-## White-label End-User Documentation
+## Custom-Branded End-User Documentation
 
 This documentation source is available in the GitHub repository: [github.com/DevExpress/dotnet-eud](https://github.com/DevExpress/dotnet-eud).
 
