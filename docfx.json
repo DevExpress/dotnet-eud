@@ -3,9 +3,6 @@
     "content": [
       {
         "files": [
-            "eud-for-bi-dashboard/**/*.{md,yml}",
-            "eud-for-devexpress-reports/**/*.{md,yml}",
-            "toc.yml",
             "index.md"
           ],
         "exclude": [
@@ -17,11 +14,7 @@
       {
         "files": [
             "favicon.ico",
-            "logo.svg",
-            "eud-for-bi-dashboard/dashboard-for-web/images/**",
-            "eud-for-devexpress-reports/reporting-for-web/images/**",
-            "eud-for-bi-dashboard/dashboard-for-desktop/images/**",
-            "eud-for-devexpress-reports/reporting-for-desktop/images/**"
+            "logo.svg"
           ],
           "exclude": [
             "_*/**"
