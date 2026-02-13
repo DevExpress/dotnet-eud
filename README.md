@@ -56,7 +56,7 @@ Copy the repository to your computer and checkout the branch corresponding to th
 
 ```
 git clone https://github.com/DevExpress/dotnet-eud
-git switch 2025
+git switch 2025.1
 ```
 
 Once you switched to a version-based branch, you can make changes to the documentation.
