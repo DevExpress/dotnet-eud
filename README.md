@@ -6,8 +6,12 @@ Learn how to clone DevExpress End-User documentation and use sources as a white-
 
 End-User Documentation contains information about [WinForms](https://www.devexpress.com/products/net/controls/winforms/) and ASP.NET [WebForms](https://www.devexpress.com/products/net/controls/asp/)/[MVC](https://www.devexpress.com/products/net/controls/asp/mvc/) products, as well as [Reporting](https://www.devexpress.com/subscriptions/reporting/) and [Business Intelligence Dashboard](https://www.devexpress.com/products/net/dashboard/).
 
-If you search for **Developer Documentation with API Reference**, refer to [docs.devexpress.com](https://docs.devexpress.com).
+Online end-user documentation is available at the following links:
 
+- [End-User Documentation for DevExpress Reports](https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports)
+- [End-User Documentation for DevExpress BI Dashboard](https://docs.devexpress.com/eud/eud-for-bi-dashboard/end-user-documentation-for-bi-dashboard)
+
+If you search for **Developer Documentation with API Reference**, refer to [docs.devexpress.com](https://docs.devexpress.com).
 
 ## Document Format and Supported Output Types
 Documents in this repository are written in markdown. You can manually copy the information to your own help file according to our [license](LICENSE.md).
@@ -26,7 +30,7 @@ You can make the following changes to the documentation, or skip this step if yo
 Do one of the following to view the End-User Documentation content:
 
 1. Browse this repository's content directly: [index.md](index.md)
-1. View the pre-built sample website: [devexpress.github.io/dotnet-eud](https://devexpress.github.io/dotnet-eud/)
+1. View online end-user documentation: [End-User Documentation](https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports)
 1. [Build an HTML Website](#build-an-html-website)
 1. [Build PDF files](#build-pdf-files)
 
@@ -52,7 +56,7 @@ Copy the repository to your computer and checkout the branch corresponding to th
 
 ```
 git clone https://github.com/DevExpress/dotnet-eud
-git switch 20.1
+git switch 2025
 ```
 
 Once you switched to a version-based branch, you can make changes to the documentation.
