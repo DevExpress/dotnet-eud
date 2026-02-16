@@ -10,7 +10,7 @@ legacyId: 5917
 >  
 > [End-User Documentation for DevExpress Reports](https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports)
 >
-> [End-User Documentation for DevExpress BI Dashboard](https://docs.devexpress.com/eud/eud-for-bi-dashboard/end-user-documentation-for-bi-dashboard)
+> [End-User Documentation for DevExpress BI Dashboard](https://docs.devexpress.com/eud/eud-for-bi-dashboard/end-user-documentation-for-bi-dashboard).
 
 If you are looking for DevExpress developer documentation with API reference, refer to [docs.devexpress.com](https://docs.devexpress.com).
 
