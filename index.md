@@ -6,24 +6,13 @@ legacyId: 5917
 ---
 
 > [!Warning]
-> This is a pre-built example of documentation. You can download the source code and use it as a white-label documentation according to our [DevExpress End-User Documentation License Agreement](https://github.com/DevExpress/dotnet-eud/blob/master/LICENSE.md). 
->
-> View source code: [github.com/DevExpress/dotnet-eud](https://github.com/DevExpress/dotnet-eud).
+> If you are looking for DevExpress developer documentation with API reference, refer to [docs.devexpress.com](https://docs.devexpress.com).
 
-# DevExpress End-User Documentation v25.1
+Use the following links to review DevExpress **end-user** documentation published online:
 
-This documentation contains information on individual user interface elements (such as grids, navigation panes, data editors, charts, etc.), and provides instructions for end users about how to solve the most-common tasks with these interface elements.
+- [End-User Documentation for DevExpress Reports](https://docs.devexpress.com/eud/eud-for-devexpress-reports/end-user-documentation-for-devexpress-reports)
+- [End-User Documentation for DevExpress BI Dashboard](https://docs.devexpress.com/eud/eud-for-bi-dashboard/end-user-documentation-for-bi-dashboard)
 
-The end user documentation is divided into the following platforms and products:
-
-#### Web (ASP.NET):
-
-* [Reporting for Web](eud-for-devexpress-reports/reporting-for-web/index.md)
-* [Dashboard for Web](eud-for-bi-dashboard/dashboard-for-web/index.md)
-
-#### Desktop (WinForms & WPF):
-
-* [Reporting for Desktop](eud-for-devexpress-reports/reporting-for-desktop/index.md)
-* [Dashboard for Desktop](eud-for-bi-dashboard/dashboard-for-desktop/index.md)
-
-If you search for DevExpress developer documentation with API reference, refer to [docs.devexpress.com](https://docs.devexpress.com).
+The source code for these documentation resources is available for download at [github.com/DevExpress/dotnet-eud](https://github.com/DevExpress/dotnet-eud).
+ 
+You can use the source code to build white-label documentation for your projects. For terms and restrictions, see [DevExpress End-User Documentation License Agreement](https://github.com/DevExpress/dotnet-eud/blob/master/LICENSE.md).
