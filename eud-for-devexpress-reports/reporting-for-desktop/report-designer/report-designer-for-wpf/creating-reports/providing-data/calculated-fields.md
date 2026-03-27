@@ -31,3 +31,6 @@ To add a calculated field to your report, follow the instructions below.
 The report with a calculated field is now ready. Switch to the [Print Preview](../../document-preview.md) tab and view the result.
 
 ![EUD_WpfReportDesigner_CalcField_Result](../../../../images/img123719.png)
+
+> [!Tip]
+> Calculated fields are defined and persisted at the report level, independent of the underlying data source. They remain part of the report even if you recreate or replace the data source. If a calculated field references a data member that no longer exists in the updated schema, you must update its expression to align with the new structure.

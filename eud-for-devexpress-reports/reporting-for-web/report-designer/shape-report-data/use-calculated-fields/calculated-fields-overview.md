@@ -33,6 +33,9 @@ You can drag the calculated field from the **Field List** onto the required band
 
 You can also group and sort your report data based on the calculated field values.
 
+> [!Tip]
+> Calculated fields are defined and persisted at the report level, independent of the underlying data source. They remain part of the report even if you recreate or replace the data source. If a calculated field references a data member that no longer exists in the updated schema, you must update its expression to align with the new structure.
+
 ## <a name="syntax"></a>Expression Syntax
 A data field is inserted into the expression's text using its name in **[**square brackets**]**, and parameters are inserted using the "**?**" prefix before their names.
 
