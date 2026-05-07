@@ -28,7 +28,7 @@ This tutorial illustrates how to display hierarchical data in a master-detail re
 
     ![](../../images/eurd-web-master-detail-drop-fields-for-detail-layout.png)
 
-    Drag fields from the data category that matches the current detail level (the table specified in the most inner report’s DataMember). This ensures that each detail record is displayed correctly.
+    Drag fields from the data category that matches the current detail level, that is, the table specified in the innermost report’s DataMember. This ensures that each detail record is displayed correctly.
 
     You can display parent values in a detail row using expressions (for example, [Categories.CategoryName]). If a field is not found at the current level, the expression engine automatically resolves it from the parent level.
 
