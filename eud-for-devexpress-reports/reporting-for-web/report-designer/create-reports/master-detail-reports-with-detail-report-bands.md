@@ -35,7 +35,7 @@ This tutorial illustrates how to display hierarchical data in a master-detail re
     However:
 
     - If multiple levels contain the same field path, the result may be ambiguous and a value from an unexpected level can be used.
-    - If you use a field from another table within the same data source, the first record from that table will be shown for all rows.
+    - If you use a field from another table within the same data source, the first record from that table is shown for all rows.
     - If you use a field from a different data source, no data is displayed.
 
 6. Customize the report's [appearance](../customize-appearance.md) and [format values](../shape-report-data/format-data.md).
