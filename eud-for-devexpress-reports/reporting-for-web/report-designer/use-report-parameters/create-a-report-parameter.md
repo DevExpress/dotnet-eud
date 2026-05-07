@@ -2,7 +2,6 @@
 title: Create a Report Parameter
 author: Sergey Andreev
 ---
-
 # Create a Report Parameter
 
 This topic demonstrates how to create a report parameter in the [Report Designer](../first-look-at-the-report-designer.md). The topic also describes the [options](#parameter-options) you can specify for a report parameter.
@@ -25,13 +24,13 @@ Specify [parameter options](#parameter-options) in the invoked **Add New Paramet
 
 ### Create From the Properties Panel
 
-Select a report, navigate to the [Properties panel](../report-designer-tools/ui-panels/properties-panel.md) *Data* section, and click the plus button right to the *Parameters* node.
+Select a report, go to the *Data* section of the [Properties panel](../report-designer-tools/ui-panels/properties-panel.md), and click the ellipsis button in the *Parameters* editor.
 
 ![Create a parameter from the Properties panel](../../images/property-grid-add-parameter.png)
 
-Specify [parameter options](#parameter-options) in the invoked **Add New Parameter** dialog and click *OK*.
+In the **Edit Parameters** dialog, you can create parameters, configure [parameter options](#parameter-options), add separators and groups, reorder parameters, and delete them.
 
-![Add New Parameter dialog](../../images/add-new-parameter-dialog.png)
+![Edit Parameters dialog](../../images/edit-parameters-window.png)
 
 ## Parameter Options
 
