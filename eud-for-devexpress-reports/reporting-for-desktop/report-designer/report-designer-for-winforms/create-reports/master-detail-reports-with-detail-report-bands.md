@@ -14,7 +14,7 @@ This tutorial shows how to display hierarchical data in a master-detail report w
 
     ![](../../../images/eurd-win-master-detail-drop-fields-for-master-layout.png)
 
-4. Create a [Detail Report Band](../introduction-to-banded-reports.md) by right-clicking the report's surface. In the invoked context menu, select **Insert Detail Report**, and then, select the master-detail relationship's name.
+4. Create a [Detail Report Band](../introduction-to-banded-reports.md) by right-clicking the report's surface. In the context menu, select **Insert Detail Report**, and then select the name of the master-detail relationship.
 
     ![](../../../images/eurd-win-master-detail-insert-detail-report-band.png)
 
