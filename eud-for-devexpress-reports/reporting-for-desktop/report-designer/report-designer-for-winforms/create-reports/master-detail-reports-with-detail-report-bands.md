@@ -18,7 +18,7 @@ This tutorial shows how to display hierarchical data in a master-detail report w
 
     ![](../../../images/eurd-win-master-detail-insert-detail-report-band.png)
 
-    This sets the detail report's **Data Source** and **Data Member** properties automatically.
+    This sets the detail report’s **DataSource** and **DataMember** properties to the selected master-detail relationship automatically.
 
     ![](../../../images/eurd-win-master-detail-data-member-property.png)
 
