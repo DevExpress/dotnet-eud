@@ -30,7 +30,7 @@ This tutorial illustrates how to display hierarchical data in a master-detail re
 
     Drag fields from the data category that matches the current detail level, that is, the table specified in the innermost report’s DataMember. This ensures that each detail record is displayed correctly.
 
-    You can display parent values in a detail row using expressions (for example, [Categories.CategoryName]). If a field is not found at the current level, the expression engine automatically resolves it from the parent level.
+    You can display parent values in a detail row using expressions, for example, [Categories.CategoryName]. If a field is not found at the current level, the expression engine automatically resolves it from the parent level.
 
     However:
 
