@@ -4,7 +4,7 @@ author: Anna Gubareva
 ---
 # Master-Detail Reports with Detail Report Bands
 
-This tutorial illustrates how to display hierarchical data in a master-detail report using nested [Detail Report bands](../introduction-to-banded-reports.md). This approach is effective if your data source contains master-detail relationship. Another way is described at [Master-Detail Reports with Subreports](master-detail-reports-with-subreports.md).
+This tutorial shows how to display hierarchical data in a master-detail report with nested [Detail Report bands](../introduction-to-banded-reports.md). Use this approach when the data source contains a master-detail relationship. Another approach is described in [Master-Detail Reports with Subreports](master-detail-reports-with-subreports.md).
 
 1. [Create a new report](../add-new-reports.md) or [open an existing one](../open-reports.md).
 
