@@ -22,7 +22,7 @@ This tutorial shows how to display hierarchical data in a master-detail report w
 
     ![](../../../images/eurd-win-master-detail-data-member-property.png)
 
-5. Switch to the **Field List**, select the data fields while holding down CTRL or SHIFT and drag-and-drop them onto the Detail band.
+5. Switch to the **Field List**, select the data fields while holding CTRL or SHIFT, and drag them to the Detail band.
 
     ![](../../../images/eurd-win-master-detail-drop-fields-for-detail-layout.png)
 
