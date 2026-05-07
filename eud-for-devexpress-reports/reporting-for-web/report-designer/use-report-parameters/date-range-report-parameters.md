@@ -19,7 +19,7 @@ Follow the steps below to add a range parameter to a report in the [Report Desig
     - **Parameter type**: _Date and Time_,  _Date_, or _Time_
     - **Value Source**: _Range Parameters_
     
-    The **Start Parameter** and **End Parameter** sections that appear allow you to configure options to create a date or time range:
+    The **Start Parameter** and **End Parameter** sections allow you to configure options for a date or time range:
 
 
     ![Web Report Designer - Add Parameter Dialog](../../images/use-date-ranges-design-add-param-dialog.png)

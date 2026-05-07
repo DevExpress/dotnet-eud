@@ -24,11 +24,11 @@ Specify [parameter options](#parameter-options) in the invoked **Add New Paramet
 
 ### Create From the Properties Panel
 
-Select a report, navigate to the [Properties panel](../report-designer-tools/ui-panels/properties-panel.md) *Data* section, and click the ellipsis button in the *Parameters* editor.
+Select a report, go to the *Data* section of the [Properties panel](../report-designer-tools/ui-panels/properties-panel.md), and click the ellipsis button in the *Parameters* editor.
 
 ![Create a parameter from the Properties panel](../../images/property-grid-add-parameter.png)
 
-In the invoked **Edit Parameters** dialog, you can create a parameter, specify [parameter options](#parameter-options), add separators and groups, reorder, and delete parameters.
+In the **Edit Parameters** dialog, you can create parameters, configure [parameter options](#parameter-options), add separators and groups, reorder parameters, and delete them.
 
 ![Edit Parameters dialog](../../images/edit-parameters-window.png)
 
