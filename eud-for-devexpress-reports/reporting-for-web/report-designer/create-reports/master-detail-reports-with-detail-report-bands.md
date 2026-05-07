@@ -28,8 +28,15 @@ This tutorial illustrates how to display hierarchical data in a master-detail re
 
     ![](../../images/eurd-web-master-detail-drop-fields-for-detail-layout.png)
 
-    > [!NOTE]
-    > You should drag-and-drop fields from the category corresponding to the master-detail relationship to correctly generate the detail report's data. Otherwise, the report will display only the first record of the detail table as many times as there are records in this table.
+    Drag fields from the data category that matches the current detail level, that is, the table specified in the innermost report’s DataMember. This ensures that each detail record is displayed correctly.
+
+    You can display parent values in a detail row using expressions, for example, [Categories.CategoryName]. If a field is not found at the current level, the expression engine automatically resolves it from the parent level.
+
+    However:
+
+    - If multiple levels contain the same field path, the result may be ambiguous, and a value from an unintended level may be used.
+    - If you use a field from another table within the same data source, the first record from that table is shown for all rows.
+    - If you use a field from a different data source, no data is displayed.
 
 6. Customize the report's [appearance](../customize-appearance.md) and [format values](../shape-report-data/format-data.md).
 

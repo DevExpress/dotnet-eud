@@ -4,7 +4,7 @@ author: Anna Gubareva
 ---
 # Master-Detail Reports with Detail Report Bands
 
-This tutorial illustrates how to display hierarchical data in a master-detail report using nested [Detail Report bands](../introduction-to-banded-reports.md). This approach is effective if your data source contains master-detail relationship. Another way is described at [Master-Detail Reports with Subreports](master-detail-reports-with-subreports.md).
+This tutorial shows how to display hierarchical data in a master-detail report with nested [Detail Report bands](../introduction-to-banded-reports.md). Use this approach when the data source contains a master-detail relationship. Another approach is described in [Master-Detail Reports with Subreports](master-detail-reports-with-subreports.md).
 
 1. [Create a new report](../add-new-reports.md) or [open an existing one](../open-reports.md).
 
@@ -14,20 +14,27 @@ This tutorial illustrates how to display hierarchical data in a master-detail re
 
     ![](../../../images/eurd-win-master-detail-drop-fields-for-master-layout.png)
 
-4. Create a [Detail Report Band](../introduction-to-banded-reports.md) by right-clicking the report's surface. In the invoked context menu, select **Insert Detail Report**, and then, select the master-detail relationship's name.
+4. Create a [Detail Report Band](../introduction-to-banded-reports.md) by right-clicking the report's surface. In the context menu, select **Insert Detail Report**, and then select the name of the master-detail relationship.
 
     ![](../../../images/eurd-win-master-detail-insert-detail-report-band.png)
 
-    This sets the detail report's **Data Source** and **Data Member** properties automatically.
+    This sets the detail report’s **DataSource** and **DataMember** properties to the selected master-detail relationship automatically.
 
     ![](../../../images/eurd-win-master-detail-data-member-property.png)
 
-5. Switch to the **Field List**, select the data fields while holding down CTRL or SHIFT and drag-and-drop them onto the Detail band.
+5. Switch to the **Field List**, select the data fields while holding CTRL or SHIFT, and drag them to the Detail band.
 
     ![](../../../images/eurd-win-master-detail-drop-fields-for-detail-layout.png)
 
-    > [!NOTE]
-    > You should drag-and-drop fields from the category corresponding to the master-detail relationship to correctly generate the detail report's data. Otherwise, the report will display only the first record of the detail table as many times as there are records in this table.
+    Drag fields from the data category that matches the current detail level, that is, the table specified in the innermost report’s DataMember. This ensures that each detail record is displayed correctly.
+
+    You can display parent values in a detail row using expressions, for example, [Categories.CategoryName]. If a field is not found at the current level, the expression engine automatically resolves it from the parent level.
+
+    However:
+
+    - If multiple levels contain the same field path, the result may be ambiguous and a value from an unexpected level can be used.
+    - If you use a field from another table within the same data source, the first record from that table will be shown for all rows.
+    - If you use a field from a different data source, no data will be displayed.
 
 6. If required, customize the report's [appearance](../customize-appearance.md) and [format values](../shape-report-data/format-data.md).
 
