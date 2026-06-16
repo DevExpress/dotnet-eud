@@ -4,6 +4,7 @@ author: Natalia Kazakova
 legacyId: 117565
 ---
 # Coloring
+
 The Web Dashboard provides the capability to manage the coloring of dashboard item elements, such as chart series points or pie segments.
 
 ## Supported Dashboard Items
@@ -18,15 +19,15 @@ You can manage coloring for the following dashboard items.
 ## Color Schemes Overview
 The dashboard supports two ways to color dashboard item elements:
 
-* **Global color scheme**. This scheme uses consistent colors for identical values across the dashboard. The image below shows a dashboard that contains Pie and Chart dashboard items. Pie segments and chart series points that correspond to Wisconsin, Oregon and Idaho dimension values use identical colors from the default palette.
+* **Global color scheme**. This scheme uses consistent colors and styles for identical values across the dashboard. The image below shows a dashboard that contains Pie and Chart dashboard items. Pie segments and chart series points that correspond to Wisconsin, Oregon and Idaho dimension values use identical colors from the default palette.
 
-    ![wdd-coloring-global-scheme](../../images/wdd-coloring-global-scheme126076.png)
+    ![Web Dashboard - Global color scheme example](../../images/wdd-coloring-global-scheme126076.png)
 
     For a global color scheme, the dashboard reserves automatically generated colors for specific values regardless of the filter state.
 
-* **Local color scheme**. This scheme uses an independent set of colors for each dashboard item. The image below shows Pie segments that use colors from a local color scheme. These colors do not affect the Chart item that uses a global scheme.
+* **Local color scheme**. This scheme uses an independent set of colors and styles for each dashboard item. The image below shows Pie segments that use colors from a local color scheme. These colors do not affect the Chart item that uses a global scheme.
 
-    ![wdd-coloring-global-scheme](../../images/common-coloring-local-scheme.png)
+    ![Web Dashboard - Local color scheme example](../../images/common-coloring-local-scheme.png)
 
     For a Local color scheme, the dashboard reassigns palette colors when the filter state is changed.
 
@@ -50,20 +51,7 @@ And the following Pie dashboard item colors **measures** by different hues:
 ![wdd-coloring-by-measure](../../images/wdd-coloring-by-measure126108.png)
 
 > [!NOTE]
-> If you enable color variation by different hues for several dimensions/measures, all combinations of dimension values/measures are colored with different colors from the default palette.
-
-## Customizing Color Palettes Using the Dashboard Item Menu
-The Web Dashboard allows you to customize colors of the specific palette using the **Color Scheme** section of the dashboard item [Options](../ui-elements/dashboard-item-menu.md) menu. To edit the color scheme, click the **Edit** button (the ![wdd-icon-edit-collection-value-item](../../images/img126050.png) icon) of the corresponding color.
-
-![wdd-coloring-change-dashboard-item-color-scheme](../../images/img126112.png)
-
-Then, pick any color using the RGB color model in the invoked color picker and click **Confirm** to change the color.
-
-![wdd-coloring-color-picker](../../images/img126125.png)
-
-A new color scheme will be applied to the dashboard item(s).
-
-![wdd-coloring-change-local-scheme](../../images/img126127.png)
+> If you color multiple dimensions or measures by hue, each combination of values gets a different color from the palette.
 
 ## Dashboard Item Color Mode Specifics
 
@@ -82,6 +70,42 @@ The following table describes how colors are applied based on the dashboard item
 
 To change the default coloring behavior, you can [configure color modes](#color-measures-and-dimensions).
 
+## Predefined Dashboard Palettes
+
+The Web Dashboard includes the following palettes:
+
+| Palette | Description |
+| --- | --- |
+| **Default** | The default palette used to color dashboard item elements. |
+| **Bright** | Bright color accents. Optimized for users with deuteranopia and protanopia. |
+| **High Contrast** | High visual contrast. Suitable for grayscale rendering, monochrome vision, and users with deuteranopia, protanopia, and tritanopia. |
+| **Warm Gradient** | A Yellow-Orange-Brown palette. Optimized for grayscale rendering and users with deuteranopia, protanopia, and tritanopia. |
+| **Sunset** | Warm sunset tones intended for values between two extremes. Optimized for users with deuteranopia and protanopia. |
+| **Vibrant** | Vivid color contrast. Optimized for users with deuteranopia and protanopia. |
+
+You can change a dashboard palette in the Color Scheme dialog in the Web Dashboard Designer:
+
+![Change dashboard palette in Web Dashboard Designer](../../images/change-dashboard-palette-web.png)
+
+The selected palette applies to the entire dashboard and uses consistent colors and styles for identical values across dashboard items.
+
+### Hatch and Line Styles
+
+For each color, you can also specify hatch patterns and line styles to distinguish data series without relying on color:
+
+Line Styles
+:   Use line styles for Chart and Range Filter dashboard items with line series.
+
+    ![Web Dashboard - Line styles applied to series](../../images/web-dashboard-line-styles.png)
+
+Fill Styles
+:   Use a solid or hatch fill style for Chart dashboard items with bar and bubble series, Range Filter dashboard items with bar series, Pie, Scatter Chart, and Pie Map dashboard items.
+
+    ![Web Dashboard - Fill styles applied to series](../../images/web-dashboard-hatch-styles.png)
+
+> [!NOTE]
+> Hatch and line styles apply only to the dashboard items and series types listed above.
+
 ## Conditional Formatting
 
 The DevExpress Dashboard allows you to format [dashboard item](../../web-dashboard-viewer-mode/dashboard-items.md) elements whose values meet a specified condition. This feature highlights specific elements with a predefined set of rules. 
@@ -91,10 +115,10 @@ Refer to the following article for more information about conditional formatting
 ## Switch between Global and Local Color Schemes
 
 The dashboard supports two ways to color dashboard item elements:
-- A **Global Color Scheme** uses consistent colors for identical values across the dashboard.
-- A **Local Color Scheme** uses an independent set of colors for each dashboard item.
+- A **Global Color Scheme** uses consistent colors and styles for identical values across the dashboard.
+- A **Local Color Scheme** uses an independent set of colors and styles for each dashboard item.
 
-To switch between global and local color schemes in the Web Dashboard, open the dashboard item's [Option](../ui-elements/dashboard-menu.md) menu, go to the *Color Scheme* section, and select the Color Scheme type.
+To switch between global and local color schemes in the Web Dashboard, open the dashboard item's [**Options**](../ui-elements/dashboard-item-menu.md) menu, go to the **Color Scheme** section, and select the Color Scheme type.
 
 ![Switch between Global and Local Color Schemes](../../images/switching-color-scheme.png)
 
@@ -103,13 +127,13 @@ To switch between global and local color schemes in the Web Dashboard, open the 
 
 ## Customize Color Palettes in the Dashboard Item Menu
 
-Use the **Color Scheme** section of the dashboard item [Option](../ui-elements/dashboard-menu.md) menu to customize colors of the specific palette. To edit the color scheme, click the **Edit** button ![wdd-icon-edit-collection-value-item](../../images/wdd-icon-edit-collection-value-item126050.png) of the corresponding color.
+Use the **Color Scheme** section of the dashboard item [Options](../ui-elements/dashboard-item-menu.md) menu to customize colors of the specific palette. To edit the color scheme, click the **Edit** button ![Web Dashboard - Edit Color Scheme](../../images/wdd-icon-edit-collection-value-item126050.png) of the corresponding color.
 
 ![Coloring for Web Dashboard - Change a dashboard item's color scheme](../../images/wdd-coloring-change-dashboard-item-color-scheme126112.png)
 
-Then, pick any color in the RGB color model of the invoked color picker and click **Confirm** to change the color.
+Then pick a color in the color picker and select a fill style and line style from the corresponding drop-down lists:
 
-![Coloring for Web Dashboard - Color picker](../../images/wdd-coloring-color-picker126125.png)
+![Coloring for Web Dashboard - Palette Item Settings](../../images/web-dashboard-item-menu-palette-item-settings.png)
 
 A new color scheme is applied to the dashboard item(s).
 
@@ -117,32 +141,36 @@ A new color scheme is applied to the dashboard item(s).
 
 ## Customize Color Palettes in the Color Scheme Page
 
-The **Color Scheme** page of the [dashboard menu](../ui-elements/dashboard-menu.md) allows you to edit and add colors to customize color tables.
+The **Color Scheme** page of the [dashboard menu](../ui-elements/dashboard-menu.md) allows you to edit and add colors, hatch styles, and line styles to customize color tables.
 
 ![Coloring for Web Dashboard - Color scheme page](../../images/wdd-coloring-scheme-page126124.png)
 
-### Edit Colors
+### Edit Color Scheme Entries
 
-You can reassign a color in the selected color table. For this, select one of the available schemes in the **Color Schemes** pane and click the color in the **Colors** pane to invoke the **Color** combo box.
+You can reassign a color and style in the selected color table. For this, select one of the available schemes in the **Color Schemes** pane and click the item in the **Color Scheme Entries** pane.
 	
-If you click the **Color** dropdown button, it invokes a color picker where you can specify a new color. 
+If you click the **Color** dropdown button, it invokes a color picker where you can select a new color. 
 
 ![Coloring for Web Dashboard - Invoke color picker](../../images/wdd-coloring-invoke-color-picker126133.png)
 
 Click **OK** to change the automatically assigned color for the selected value and update the current color scheme.
 
-![Coloring for Web Dashboard - Changed color](../../images/wdd-coloring-changed-color126122.png)
+You can also select the fill style (solid or a hatch pattern) for the selected color. To do this, use the **Fill Style** drop-down list:
 
-### Add Colors
+![Coloring for Web Dashboard - Fill Styles](../../images/web-dashboard-color-scheme-page-fill-style.png)
 
-The Color Scheme page allows you to add a new value with the specified color to the selected color scheme. To do this, use the **Add color** button.
+You can also select the line style for the selected color. To do this, use the **Line Style** drop-down list:
+
+![Coloring for Web Dashboard - Line Styles](../../images/web-dashboard-color-scheme-page-line-style.png)
+
+### Add Color Scheme Entries
+
+The **Color Scheme** page allows you to add a new value with the specified color and styles to the selected color scheme. To do this, use the **Add New Value** button.
 
 ![Coloring for Web Dashboard - Adding color](../../images/wdd-coloring-adding-color126969.png)
 
-Specify the dimension value of the added color or select the measures. This creates a new value whose color can be specified as described in the **Edit colors** section.
+Specify the dimension value for the added color, or select the measures. This creates a new value whose color and styles you can specify as described in the **Edit Color Scheme Entries** section.
 
 ![Coloring for Web Dashboard - Newly added color](../../images/wdd-coloring-added-color126964.png)
 
-Hover over the custom color and click **Remove** (the ![wdd-icon-delete-big](../../images/wdd-icon-delete-big126104.png) icon) to remove the color.
-
-![Coloring for Web Dashboard - Delete color](../../images/wdd-coloring-delete-color.png)
+Click **Remove** to remove the color.

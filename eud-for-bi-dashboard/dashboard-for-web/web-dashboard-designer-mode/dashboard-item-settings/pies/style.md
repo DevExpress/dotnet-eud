@@ -11,3 +11,9 @@ The Pie dashboard item allows you to select whether diagrams should be painted a
 To select the diagram style, go to the **Style** section of the Pie's [Options](../../ui-elements/dashboard-item-menu.md) menu and use the **Pie** or **Donut** buttons.
 
 ![wdd-pie-style-settings](../../../images/img125200.png)
+
+## Segment Spacing
+
+You can add space between pie or donut segments. Go to the **Style** section of the Pie's [Options](../../ui-elements/dashboard-item-menu.md) menu and enable **Segment Spacing**:
+
+![Web Dashboard - Pie Segment Spacing option](../../../images/web-dashboard-pie-segment-spacing.png)

@@ -8,11 +8,14 @@ In **Default** color mode, the Treemap dashboard item colors its tiles in the fo
 
 * If the Treemap dashboard item contains only measures (the **Values** section), values corresponding to different measures are colored by [hue](../../appearance-customization/coloring/coloring-concepts.md).
 
-    ![win-treemap-colored-by-default-measures](../../../images/win-treemap-colored-by-default-measures.png)
+    ![WinForms Dashboard - Treemap Colored by Default Measures](../../../images/win-treemap-colored-by-default-measures.png)
 * If the Treemap dashboard item contains arguments (the **Arguments** section), values corresponding to the first argument are colored by hue.
 
-    ![win-treemap-colored-by-default-arguments](../../../images/win-treemap-colored-by-default-arguments.png)
+    ![WinForms Dashboard - Treemap Colored by Default Arguments](../../../images/win-treemap-colored-by-default-arguments.png)
+
+> [!NOTE]
+> This dashboard item supports coloring only. Hatch styles and line styles are not supported.
 
 >[!Tip]
 >**Documentation:**<br>
->* [Coloring Basics](../../appearance-customization/coloring.md)      
+>* [Coloring Basics](../../appearance-customization/coloring.md)
