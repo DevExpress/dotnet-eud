@@ -54,7 +54,11 @@ Use the **Accessible Role** option to specify how report elements should be trea
 
 ![Accessible Role property grid](../images/web-acc-role-property-grid.png)
 
-Set the **PDF/UA Compatibility** property to **PDF/UA-1** to conform the exported PDF document to PDF/UA specification. Then, export the report to PDF format.
+Set the **PDF/UA Compatibility** property to **PDF/UA-1** or **PDF/UA-2** to conform the exported PDF document to the PDF/UA specification. Then, export the report to PDF format.
+
+The following image illustrates [PDF Accessibility Checker (PAC)](https://pac.pdf-accessibility.org/en) output after it processes a PDF/UA-compatible exported document:
+
+![PDF Accessibility Checker output for a PDF/UA-compatible document](../images/report-exported-pdf-ua1-compatibility.png)
 
 Use this table to map report controls to accessibility structure roles in exported PDF files. 
 
@@ -75,12 +79,39 @@ The table describes the following:
 | `Watermark` (an image watermark) | Treated as an artifact; excluded from the PDF logical structure. | Figure | 
 | `Watermark` (a text watermark) | Treated as an artifact; excluded from the PDF logical structure. | Paragraph |
 | `Picture Box`, `Shape`, `Bar Code`, `Zip Code` | Treated as a `Figure`. | Decorative (Artifact) | 
+| `Page Info` | Treated as an artifact; excluded from the PDF logical structure. | Paragraph (use for meaningful content such as dates or page numbers) |
+| `Panel` | Included in the document structure. | Decorative (Artifact) (use for layout-only or purely visual panels) |
 
 The **Accessible Description** property is not in effect for artifacts.
+
+> [!NOTE]
+> **Rich Text** content is automatically converted to semantic tags when exported to a tagged PDF: headings become `H1`–`H3`, paragraphs become `P`, lists become `L`/`LI`, images become `Figure`, and tables become `Table`/`TR`/`TH`/`TD`. No role configuration is needed.
 
 The following image illustrates the difference between default and specified roles:
 
 ![Default vs specified accessibility roles](../images/acc-role-comparison.png)
 
+### Digital Signature Accessible Description
 
+You can specify an accessible description for the **PDF Signature** control to help screen readers identify its content.
 
+Document Signature
+:   If the control displays a document signature, use the **Accessible Description** option in the control's **PDF Signature Options** in the **Export Options** tab:
+
+    ![Document signature Accessible Description property](../../images/web-document-digital-signature-description.png)
+
+Signature Placeholder
+:   If the control is a signature placeholder (the document signature is disabled), use the control's **Accessible Description** property:
+
+    ![Signature placeholder Accessible Description property](../../images/web-xpdfsignature-accessible-description.png)
+
+The following image shows both signatures in the PDF tag tree:
+
+![Digital signatures in the PDF tag tree](../images/digital-signature-in-a-tag-tree.png)
+
+### Limitations
+
+* The **Never Embedded Fonts** export option is not supported for PDF/UA-compatible documents.
+* If a report contains an **XRPdfContent** control, you cannot export the report to PDF with the PDF/UA option enabled.
+* If a report contains editing fields, the exported document does not comply with PDF/UA requirements.
+* Hyperlinks are exported without the semantic tags required by **PDF/UA-2**.

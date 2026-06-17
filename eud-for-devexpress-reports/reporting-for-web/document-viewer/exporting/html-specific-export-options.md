@@ -30,9 +30,6 @@ Before [exporting a document](export-a-document.md) to HTML format, you can spec
 * **Table Layout**
 	
 	Specifies whether to use table or non-table layout in the resulting document.
-* **Use HRef Hyperlinks**
-	
-	Specifies whether to enable the use of standard HTML link references in document navigation.
 	
 * **Remove Secondary Symbols**
 	
