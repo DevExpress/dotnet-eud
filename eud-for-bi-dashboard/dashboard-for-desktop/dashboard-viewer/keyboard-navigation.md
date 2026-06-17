@@ -9,9 +9,9 @@ The WinForms Dashboard Viewer supports keyboard navigation between dashboard ite
 
 | Action | Keys |
 | --- | --- |
-| Move focus between dashboard items. | F5 / F6 |
-| Apply a card as a Master Filter. | Enter / Space |
-| Toggle a predefined interval in a Date Filter item. | Enter |
+| Move focus between dashboard items. | <kbd>F5</kbd> / <kbd>F6</kbd> |
+| Apply a card as a Master Filter. | <kbd>Enter</kbd> / <kbd>Space</kbd> |
+| Toggle a predefined interval in a Date Filter item. | <kbd>Enter</kbd> |
 | Navigate between cards in a Card item. | Arrow keys |
 
 ## Ribbon and Toolbar Navigation
