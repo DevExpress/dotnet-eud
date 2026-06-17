@@ -19,17 +19,17 @@ When in the preview mode, you can print out your report using the toolbar comman
 When in the preview mode, you can export your report to files in different formats.
 
 The following documents describe the basics of report exporting and format-specific export options.
-* [Exporting](../../../print-preview/print-preview-for-wpf/exporting/exporting.md)
-* [PDF-Specific Export Options](../../../print-preview/print-preview-for-wpf/exporting/pdf-specific-export-options.md)
-* [HTML-Specific Export Options](../../../print-preview/print-preview-for-wpf/exporting/html-specific-export-options.md)
-* [MHT-Specific Export Options](../../../print-preview/print-preview-for-wpf/exporting/mht-specific-export-options.md)
-* [RTF-Specific Export Options](../../../print-preview/print-preview-for-wpf/exporting/rtf-specific-export-options.md)
-* [DOCX-Specific Export Options](../../../print-preview/print-preview-for-wpf/exporting/docx-specific-export-options.md)
-* [XLS-Specific Export Options](../../../print-preview/print-preview-for-wpf/exporting/xls-specific-export-options.md)
-* [XLSX-Specific Export Options](../../../print-preview/print-preview-for-wpf/exporting/xlsx-specific-export-options.md)
-* [CSV-Specific Export Options](../../../print-preview/print-preview-for-wpf/exporting/csv-specific-export-options.md)
-* [Text-Specific Export Options](../../../print-preview/print-preview-for-wpf/exporting/text-specific-export-options.md)
-* [Image-Specific Export Options](../../../print-preview/print-preview-for-wpf/exporting/image-specific-export-options.md)
+* [Exporting](../../print-preview/print-preview-for-wpf/exporting/exporting.md)
+* [PDF-Specific Export Options](../../print-preview/print-preview-for-wpf/exporting/pdf-specific-export-options.md)
+* [HTML-Specific Export Options](../../print-preview/print-preview-for-wpf/exporting/html-specific-export-options.md)
+* [MHT-Specific Export Options](../../print-preview/print-preview-for-wpf/exporting/mht-specific-export-options.md)
+* [RTF-Specific Export Options](../../print-preview/print-preview-for-wpf/exporting/rtf-specific-export-options.md)
+* [DOCX-Specific Export Options](../../print-preview/print-preview-for-wpf/exporting/docx-specific-export-options.md)
+* [XLS-Specific Export Options](../../print-preview/print-preview-for-wpf/exporting/xls-specific-export-options.md)
+* [XLSX-Specific Export Options](../../print-preview/print-preview-for-wpf/exporting/xlsx-specific-export-options.md)
+* [CSV-Specific Export Options](../../print-preview/print-preview-for-wpf/exporting/csv-specific-export-options.md)
+* [Text-Specific Export Options](../../print-preview/print-preview-for-wpf/exporting/text-specific-export-options.md)
+* [Image-Specific Export Options](../../print-preview/print-preview-for-wpf/exporting/image-specific-export-options.md)
 
 ## Hide Report Controls in Documents Exported to Specific Formats
 
@@ -43,7 +43,7 @@ The following image illustrates the resulting XLSX document with and without pag
 
 ## Export a Report to PDF with Accessible Tags (PDF/UA Compatibility)
 
-Use the **Accessible Role** option to specify how report elements should be treated by screen readers in the exported PDF document. Set the **PDF/UA Compatibility** property to **PDF/UA-1** or **PDF/UA-2** in the [PDF-Specific Export Options](../../../print-preview/print-preview-for-wpf/exporting/pdf-specific-export-options.md) to conform the exported PDF document to the PDF/UA specification. Then, export the report to PDF format.
+Use the **Accessible Role** option to specify how report elements should be treated by screen readers in the exported PDF document. Set the **PDF/UA Compatibility** property to **PDF/UA-1** or **PDF/UA-2** in the [PDF-Specific Export Options](../../print-preview/print-preview-for-wpf/exporting/pdf-specific-export-options.md) to conform the exported PDF document to the PDF/UA specification. Then, export the report to PDF format.
 
 The following image illustrates [PDF Accessibility Checker (PAC)](https://pac.pdf-accessibility.org/en) output after it processes a PDF/UA-compatible exported document:
 
