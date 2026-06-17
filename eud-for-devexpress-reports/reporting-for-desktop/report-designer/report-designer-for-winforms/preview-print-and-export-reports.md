@@ -186,13 +186,14 @@ A decorative element is called an artifact and is not part of PDF document logic
 
 You can specify an accessible description for the **PDF Signature** control to help screen readers identify its content.
 
-Document Signature
-:   If the control displays a document signature, use the **Accessible Description** option in the control's **PDF Signature Options**:
+- **Document Signature**
+   If the control displays a document signature, use the **Accessible Description** option in the control's **PDF Signature Options**:
 
     ![Document signature Accessible Description property](../../images/document-digital-signature-description.png)
 
-Signature Placeholder
-:   If the control is a signature placeholder (the document signature is disabled), use the control's **Accessible Description** property:
+- **Signature Placeholder**
+   If the control is a signature placeholder (the document signature is disabled), use the control's **Accessible Description** property:
+
 
     ![Signature placeholder Accessible Description property](../../images/xrpdfsignature-description.png)
 

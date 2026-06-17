@@ -95,15 +95,17 @@ The following image illustrates the difference between default and specified rol
 
 You can specify an accessible description for the **PDF Signature** control to help screen readers identify its content.
 
-Document Signature
-:   If the control displays a document signature, use the **Accessible Description** option in the control's **PDF Signature Options** in the **Export Options** tab:
+- **Document Signature**
 
-    ![Document signature Accessible Description property](../../images/web-document-digital-signature-description.png)
+    If the control displays a document signature, use the **Accessible Description** option in the control's **PDF Signature Options** in the **Export Options** tab:
 
-Signature Placeholder
-:   If the control is a signature placeholder (the document signature is disabled), use the control's **Accessible Description** property:
+    ![Document signature Accessible Description property](../images/web-document-digital-signature-description.png)
 
-    ![Signature placeholder Accessible Description property](../../images/web-xpdfsignature-accessible-description.png)
+- **Signature Placeholder**
+
+    If the control is a signature placeholder (the document signature is disabled), use the control's **Accessible Description** property:
+
+    ![Signature placeholder Accessible Description property](../images/web-xpdfsignature-accessible-description.png)
 
 The following image shows both signatures in the PDF tag tree:
 
