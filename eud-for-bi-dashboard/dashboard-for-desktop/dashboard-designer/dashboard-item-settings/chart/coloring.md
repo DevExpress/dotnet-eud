@@ -11,13 +11,13 @@ The Chart dashboard item paints different measures and series dimensions by [hue
 
 For each color, you can also specify fill and line styles to distinguish data series without relying on color:
 
-Line Styles
-:   Use line styles for Chart dashboard items with line series.
+* **Line Styles** 
+    Use line styles for Chart dashboard items with line series.
 
     ![WinForms Dashboard - Line styles](../../../images/win-dashboard-line-styles.png)
 
-Fill Styles
-:   Use a solid or hatch fill style for Chart dashboard items with bar and bubble series.
+* **Fill Styles** 
+Use a solid or hatch fill style for Chart dashboard items with bar and bubble series.
 
     ![WinForms Dashboard - Fill styles applied to series](../../../images/win-dashboard-hatch-styles.png)
 

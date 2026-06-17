@@ -41,13 +41,15 @@ The selected palette applies to the entire dashboard and uses consistent colors 
 
 For each color, you can also specify hatch and line styles to distinguish data series without relying on color:
 
-Line Styles
-:   Use line styles for Chart and Range Filter dashboard items with line series.
+* **Line Styles** 
+    
+    Use line styles for Chart and Range Filter dashboard items with line series.
 
     ![WinForms Dashboard - Line styles applied to series](../../../images/win-dashboard-line-styles.png)
 
-Fill Styles
-:   Use a solid or hatch fill style for Chart dashboard items with bar and bubble series, Range Filter dashboard items with bar series, Pie, Scatter Chart, and Pie Map dashboard items.
+* **Fill Styles** 
+    
+    Use a solid or hatch fill style for Chart dashboard items with bar and bubble series, Range Filter dashboard items with bar series, Pie, Scatter Chart, and Pie Map dashboard items.
 
     ![WinForms Dashboard - Fill styles applied to series](../../../images/win-dashboard-hatch-styles.png)
 
