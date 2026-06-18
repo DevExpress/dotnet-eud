@@ -4,27 +4,28 @@ author: Anna Gubareva
 legacyId: 115383
 ---
 # XLS Export Options
-Before [exporting a document](export-a-document.md) to XLS format, you can specify XLS-specific options in the **Export Options** panel.
+Before you [export a document](export-a-document.md) to XLS format, you can specify XLS-specific options in the **Export Options** panel.
 
-![EUD_HTML5DV_XlsExportOptions](../../images/img121833.png)
+![Web Document Viewer - XLS Export Options panel](../../images/img121833.png)
+
 * **Export Mode**
 	
 	Specifies how a document is exported to XLS.
 * **Suppress 256 Columns Warning**
 	
-	Specifies whether to suppress the exception that raises when trying to export a document to an XLS file with more than 256 columns.
+	Specifies whether to suppress the exception thrown when exporting a document with more than 256 columns to an XLS file.
 * **Suppress 65536 Rows Warning**
 	
-	Specifies whether to suppress the exception that raises when trying to export a document to an XLS file with more than 65536 rows.
+	Specifies whether to suppress the exception thrown when exporting a document with more than 65536 rows to an XLS file.
 * **Workbook Color Palette Compliance**
 	
 	Specifies the color palette compatibility mode with different workbook versions. The workbook palette can store no more than **56** colors. If you select the **ReducePaletteExactColors** value, original color values are kept, but only the first **56** colors are included in the palette. Choose **AdjustColorsToDefaultPalette** to degrade the color values to match the **56** standard colors of the default workbook palette.
 * **Export Hyperlinks**
 	
-	Specifies whether hyperlinks should be exported to the XLS document.
+	Specifies whether to export hyperlinks to the XLS document.
 * **Page Range**
 	
-	Specifies a range of pages which will be included in the resulting file. To separate page numbers, use commas. To set page ranges, use hyphens.
+	Specifies a range of pages to include in the resulting file. To separate page numbers, use commas. To set page ranges, use hyphens.
 * **Raw Data Mode**
 	
 	Specifies whether to enable the raw data export mode. In this mode, only a document's actual data is exported to XLS, ignoring non-relevant elements, such as images, graphic content, font and appearance settings.
@@ -33,7 +34,7 @@ Before [exporting a document](export-a-document.md) to XLS format, you can speci
 	Specifies the name of the sheet in the created XLS file.
 * **Show Grid Lines**
 	
-	Specifies whether grid lines should be visible in the resulting XLS file.
+	Specifies whether to show grid lines in the resulting XLS file.
 * **Text Export Mode**
 	
 	Specifies whether value formatting should be converted to the native XLS format string (if it is possible), or embedded into cell values as plain text.
@@ -51,20 +52,20 @@ Before [exporting a document](export-a-document.md) to XLS format, you can speci
 	Shrinks the height of the exported document's printout to one page.
 * **Ignore Errors**
 	
-	Specifies the document errors to be ignored in a resulting XLS file.
+	Specifies which document errors to ignore in the resulting XLS file.
 * **Right To Left Document**
 	
 	If you use right-to-left fonts in a report, enable the **Right-to-Left Document** option to use the right-to-left layout for sheets in the exported XLS file.
 
 ## Document Options
-The **Document Options** complex property contains options which specify the **Document Properties** of the created XLS file. Click the complex property's header to access its nested options.
+The **Document Options** complex property contains options that specify the **Document Properties** of the created XLS file. Click the complex property's header to access its nested options.
 
-![EUD_HTML5DV_XlsDocumentOptions](../../images/img1218331.png)
+![XLS Document Options panel](../../images/img1218331.png)
 
 ## Encryption Options
 This complex property allows you to adjust the encryption options of the resulting XLS file.
 
-![EUD_HTML5DV_PdfSecurityOptions](../../images/img1218332.png)
+![XLS Encryption Options panel](../../images/img1218332.png)
 * **Type**
 	Specifies one of the following encryption types:
 	* Strong (default) type uses the **Agile Encryption** mechanism.
