@@ -48,4 +48,4 @@ When you switch to the report's **Print Preview** tab, the [Parameters panel](pa
 
 The start and end parameter values store the selected day's midnight time. For instance, if you choose _10/15/2019_, the *DateTime* value is _10/15/2019 12:00:00 AM_. If your date fields include non-midnight times, records for the end date _10/15/2019_ are excluded from the report. To include data for the 10/15/2019 date, use the **GetDate()** function in the **FilterString Editor**.  
 
-![Filter String - GetDate](../../images/eurd-web-date-ranges-filterstring-getdate.png)d
+![Filter String - GetDate](../../images/eurd-web-date-ranges-filterstring-getdate.png)

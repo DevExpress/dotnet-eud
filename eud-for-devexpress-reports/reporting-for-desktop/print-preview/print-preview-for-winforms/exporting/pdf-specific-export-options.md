@@ -28,6 +28,7 @@ When [exporting a document](exporting-from-print-preview.md), you can configure 
 	Specifies whether to conform the exported PDF document to the PDF/UA (Universal Accessibility) standard. The following values are available:
 	* **PDF/UA-1** — based on **ISO 14289-1** and PDF 1.7.
 	* **PDF/UA-2** — based on **ISO 14289-2** and PDF 2.0.
+	
 * **Rasterize Images**
 
 	Specifies whether to rasterize vector images during export.
