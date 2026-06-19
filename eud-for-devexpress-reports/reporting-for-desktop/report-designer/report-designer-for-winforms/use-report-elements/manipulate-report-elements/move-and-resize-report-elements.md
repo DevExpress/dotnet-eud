@@ -18,8 +18,9 @@ You can also use the [Report Explorer](../../report-designer-tools/ui-panels/rep
 
 ![WinForms Report Designer - Move Controls in Report Explorer](../../../../images/eurd-win-move-controls.gif)
 
-You can also use the Report Explorer to move table cells inside of a table.
+You can also use the Report Explorer to move table cells inside a table.
 
+> [!NOTE]
 > You can drag the **Table Of Contents** only to the **Report Header Band** and **Report Footer Band**.
 
 ## Resize Report Elements
@@ -28,7 +29,7 @@ Select a control and then drag a rectangle drawn on its edge or corner to resize
 
 ![WinForms Report Designer - Resize a Report Control](../../../../images/eurd-win-resize-report-control.png)
 
-Dimensions notations appear when you resize a control. They indicate the control's width and height in report units: 
+Dimension notations appear when you resize a control. They indicate the control's width and height in report units:
 
 ![WinForms Report Designer - Dimension Notations](../../../../images/eurd-win-dimension-notations.png)
 

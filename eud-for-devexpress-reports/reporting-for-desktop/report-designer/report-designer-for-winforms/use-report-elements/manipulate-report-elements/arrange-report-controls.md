@@ -50,7 +50,7 @@ The following tools allow you to control report element size, location, alignmen
 				
 		When you use the <kbd>Arrow</kbd> keys to move a report control or press <kbd>Shift</kbd>+<kbd>Arrow</kbd> to resize the control, it is aligned to the nearest report element in that direction based on snap lines.
 		
-		A report control's **Snap Line Margin** property and a band's or panel's **Snap Line Padding** property allows you to maintain a uniform distance between elements in a report.
+		A report control's **Snap Line Margin** property and a band's or panel's **Snap Line Padding** property allow you to maintain a uniform distance between elements in a report.
 
 		![WinForms Report Designer - Snap Line Margin and Padding properties](../../../../images/eurd-win-snap-line-margin-and-padding.png)
 

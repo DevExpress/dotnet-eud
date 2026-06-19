@@ -31,7 +31,7 @@ Before you [export a document](export-a-document.md) to XLSX format, you can spe
 	Specifies whether to show grid lines in the resulting XLSX file.
 * **Text Export Mode**
 	
-	Specifies whether value formatting should be converted to the native XLSX format string (if it is possible), or embedded into cell values as plain text.
+	Specifies whether to convert value formatting to the native XLSX format string (if possible) or embed it into cell values as plain text.
 * **Rasterize Images**
 	
 	Specifies whether to rasterize vector images, such as pictures, charts, or barcodes.

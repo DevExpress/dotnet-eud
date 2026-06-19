@@ -37,7 +37,7 @@ Before you [export a document](export-a-document.md) to HTML format, you can spe
 	
 * **Remove Secondary Symbols**
 	
-	Specifies whether to remove all secondary symbols (for instance, **Space**, **Carriage Return**, etc.) in the resulting document to reduce its size.
+	Specifies whether to remove all secondary symbols (such as **Space** and **Carriage Return**) in the resulting document to reduce its size.
 * **Export Watermarks**
 	
 	Specifies whether to include watermarks in the exported document.

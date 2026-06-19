@@ -14,15 +14,15 @@ You can also [select multiple controls](select-report-elements-and-access-their-
 
 ![Web Report Designer - Move Multiple Report Controls](../../../images/eurd-web-move-multiple-report-controls.png)
 
-You can also use the [Report Explorer](../../report-designer-tools/ui-panels/report-explorer.md) to move a control to other bands (except **Detail Report Band**), or into a **Panel** or **Table Cell** controls. Select a control and drag it within the Report Explorer. The drop targets are highlighted when you drag the control over them.
+You can also use the [Report Explorer](../../report-designer-tools/ui-panels/report-explorer.md) to move a control to other bands (except **Detail Report Band**), or into a **Panel** or **Table Cell** control. Select a control and drag it within the Report Explorer. The drop targets are highlighted when you drag the control over them.
 
 ![Web Report Designer - Move Label Using Report Explorer](../../../images/eurd-web-report-explorer-reorder-controls.gif)
 
 
-You can also use the Report Explorer to move table cells inside of a table:
+You can also use the Report Explorer to move table cells inside a table:
 
 
-![Web Report Designer - Move Table Cell Using Report Explorer](../../../images/web-repoer-designer-move-table-cells-in-report-explorer.gif)
+![Web Report Designer - Move Table Cell Using Report Explorer](../../../images/web-report-designer-move-table-cells-in-report-explorer.gif)
 
 
 > [!NOTE]
@@ -34,7 +34,7 @@ Select a control and then drag a rectangle drawn on its edge or corner to resize
 
 ![Web Report Designer - Resize Report Controls](../../../images/img119279.png)
 
-Dimensions notations appear when you resize a control. They indicate the control's width and height in report units: 
+Dimension notations appear when you resize a control. They indicate the control's width and height in report units:
 
 ![Web Report Designer - Dimension Notations](../../../images/web-surface-dimension-notations.png)
 

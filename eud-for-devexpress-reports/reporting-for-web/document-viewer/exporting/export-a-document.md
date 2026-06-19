@@ -13,7 +13,7 @@ The exported document starts downloading. The browser may prompt you to save the
 
 ## Export Options
 
-To configure export options before exporting, open the **Export Options Panel** from the **Tab Panel** on the right.
+To configure export options before you export, open the **Export Options Panel** from the **Tab Panel** on the right.
 
 ![Web Document Viewer - Export Options Panel](../../images/img121797.png)
 

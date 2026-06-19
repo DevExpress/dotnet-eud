@@ -11,6 +11,6 @@ The built-in PDF viewer in browsers allows you to select the destination and spe
 
 ![Web Page - Print Dialog](../images/img121023.png)
 
-Document Viewer printing relies on the browser's built-in PDF viewer. Printing does not work if the PDF viewer is unavailable or the option that allows the browser to open PDF files automatically is disabled. In this case, the Document Viewer downloads the report as a PDF file. The file contains a script that opens the **Print** dialog when you open the PDF in a standalone viewer.
+The Document Viewer uses the browser's built-in PDF viewer for printing. Printing does not work if the PDF viewer is unavailable or the browser is configured not to open PDF files automatically. In this case, the Document Viewer downloads the report as a PDF file. The file contains a script that opens the **Print** dialog when you open the PDF in a PDF reader.
 
 ![Download PDF Instead of Print Dialog](../images/imgbvz001.png)
