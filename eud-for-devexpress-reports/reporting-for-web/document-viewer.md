@@ -31,19 +31,19 @@ Refer to the following topics for details on how to use the Web Document Viewer:
 * [Specify Parameter Values](document-viewer/passing-parameter-values.md)
 
 
-## Print a Report
+## Print a Document
 
-* [Print a Report](document-viewer/printing.md)
+* [Print a Document](document-viewer/printing.md)
 
-## Export
+## Export a Document
 
 * [Export a Document](document-viewer/exporting/export-a-document.md)
-* [CSV-Specific Export Options](document-viewer/exporting/csv-specific-export-options.md)
-* [HTML-Specific Export Options](document-viewer/exporting/html-specific-export-options.md)
-* [Image-Specific Export Options](document-viewer/exporting/image-specific-export-options.md)
-* [MHT-Specific Export Options](document-viewer/exporting/mht-specific-export-options.md)
-* [PDF-Specific Export Options](document-viewer/exporting/pdf-specific-export-options.md)
-* [RTF-Specific Export Options](document-viewer/exporting/rtf-specific-export-options.md)
-* [Text-Specific Export Options](document-viewer/exporting/text-specific-export-options.md)
-* [XLS-Specific Export Options](document-viewer/exporting/xls-specific-export-options.md)
-* [XLSX-Specific Export Options](document-viewer/exporting/xlsx-specific-export-options.md)
+* [CSV Export Options](document-viewer/exporting/csv-specific-export-options.md)
+* [HTML Export Options](document-viewer/exporting/html-specific-export-options.md)
+* [Image Export Options](document-viewer/exporting/image-specific-export-options.md)
+* [MHT Export Options](document-viewer/exporting/mht-specific-export-options.md)
+* [PDF Export Options](document-viewer/exporting/pdf-specific-export-options.md)
+* [RTF Export Options](document-viewer/exporting/rtf-specific-export-options.md)
+* [Text Export Options](document-viewer/exporting/text-specific-export-options.md)
+* [XLS Export Options](document-viewer/exporting/xls-specific-export-options.md)
+* [XLSX Export Options](document-viewer/exporting/xlsx-specific-export-options.md)

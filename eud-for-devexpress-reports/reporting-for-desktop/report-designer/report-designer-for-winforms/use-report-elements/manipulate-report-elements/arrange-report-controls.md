@@ -10,13 +10,13 @@ The following tools allow you to control report element size, location, alignmen
 	
 	The Report Designer provides horizontal and vertical rulers to help you determine report elements' size and location.
 
-	![](../../../../images/eurd-win-designer-rulers.png)
+	![WinForms Report Designer - Horizontal and Vertical Rulers](../../../../images/eurd-win-designer-rulers.png)
 	
 * **Layout Toolbar**
 	
 	Use the **Layout Toolbar** commands to align report controls.
 
-	![](../../../../images/eurd-win-toolbar-layout-tab.png)
+	![WinForms Report Designer - Layout Toolbar](../../../../images/eurd-win-toolbar-layout-tab.png)
 
 * **Snapping**
 	
@@ -26,35 +26,35 @@ The following tools allow you to control report element size, location, alignmen
 		
 		The design surface displays a visual grid that allows you to determine elements' size and location in a report. Use the **Snap Grid Size** and **Snap Grid Step Count** properties to customize the grid's settings.
 
-		![](../../../../images/eurd-win-snap-grid-size.png)
+		![WinForms Report Designer - Snap Grid Size property](../../../../images/eurd-win-snap-grid-size.png)
 		
 		To hide the grid, disable the **Grid Lines** option in the toolbar's **View** tab or disable a report's **Draw the Grid** property.
 
-		![](../../../../images/eurd-win-toolbar-show-grid-lines.png)
+		![WinForms Report Designer - Show Grid Lines option in the View toolbar tab](../../../../images/eurd-win-toolbar-show-grid-lines.png)
 								
-		A report control is aligned to the nearest grid cell when moved with the mouse or ARROW keys.
+		A report control is aligned to the nearest grid cell when moved with the mouse or <kbd>Arrow</kbd> keys.
 
 		You can use the **Align to Grid** toolbar button or context menu item to align the selected controls to the grid cells.
 
-		![](../../../../images/eurd-win-align-to-grid-context-menu-item.png)
+		![WinForms Report Designer - Align to Grid context menu item](../../../../images/eurd-win-align-to-grid-context-menu-item.png)
 		
 		You can temporarily ignore snapping when you move and resize controls:
-		* hold down ALT if you move or resize controls using the mouse;
-		* hold down CTRL if you move or resize controls using the keyboard.
+		* hold down <kbd>Alt</kbd> if you move or resize controls using the mouse;
+		* hold down <kbd>Ctrl</kbd> if you move or resize controls using the keyboard.
 
 	* **Snap Lines**
 		
 		The Report Designer displays snap lines when you move or resize report controls. These lines appear around the report controls and indicate the distance to other report elements (controls and bands).
 
-		![](../../../../images/eurd-win-move-control-with-snap-lines.png)
+		![WinForms Report Designer - Snap lines displayed while moving a report control](../../../../images/eurd-win-move-control-with-snap-lines.png)
 				
-		When you use the ARROW keys to move a report control or press SHIFT+ARROW to resize the control, it is aligned to the nearest report element in that direction based on snap lines.
+		When you use the <kbd>Arrow</kbd> keys to move a report control or press <kbd>Shift</kbd>+<kbd>Arrow</kbd> to resize the control, it is aligned to the nearest report element in that direction based on snap lines.
 		
 		A report control's **Snap Line Margin** property and a band's or panel's **Snap Line Padding** property allows you to maintain a uniform distance between elements in a report.
 
-		![](../../../../images/eurd-win-snap-line-margin-and-padding.png)
+		![WinForms Report Designer - Snap Line Margin and Padding properties](../../../../images/eurd-win-snap-line-margin-and-padding.png)
 
-		To avoid snapping controls, do the following: 
-		* hold down ALT if you move or resize controls using the mouse;
-		* hold down CTRL if you move or resize controls using the keyboard.
+		To avoid snapping controls, do the following:
+		* hold down <kbd>Alt</kbd> if you move or resize controls using the mouse;
+		* hold down <kbd>Ctrl</kbd> if you move or resize controls using the keyboard.
 		

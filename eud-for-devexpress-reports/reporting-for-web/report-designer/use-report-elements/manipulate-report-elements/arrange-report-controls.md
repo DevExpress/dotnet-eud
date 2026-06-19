@@ -6,23 +6,23 @@ author: Anna Vekhina
 
 You can align report controls to each other, change the report element's size, change the stacked elements' order, and so on. Select a command from the control's context menu:
 
-![](../../../images/eurd-web-actions-category.png)
+![Report control context menu with alignment and sizing actions](../../../images/eurd-web-actions-category.png)
 
 
 The design surface displays a visual grid that allows you to determine elements' size and location in a report. Use the **Snap Grid Size** property to customize the grid's size.
 
-![](../../../images/eurd-web-snap-grid-size.png)
+![Web Report Designer - Snap Grid Size in the Properties panel](../../../images/eurd-web-snap-grid-size.png)
 										
 You can use the **Align to Grid** action to align the selected controls to the grid's cells.
 
 The Report Designer displays snap lines when you move or resize report controls. These lines appear around the report controls and indicate the distance to other report elements (controls and bands).
 
 
-![](../../../images/eurd-web-snap-lines.png)
+![Web Report Designer - Snap lines displayed while moving a report control](../../../images/eurd-web-snap-lines.png)
 
 Use the report's **Snapping Mode** property to enable automatic report control snapping to a grid or snap lines:
 
-![](../../../images/web-report-designer-snapping-mode.png)
+![Web Report Designer - Snapping Mode property options in the Properties panel](../../../images/web-report-designer-snapping-mode.png)
 
 
 The following values are available:
