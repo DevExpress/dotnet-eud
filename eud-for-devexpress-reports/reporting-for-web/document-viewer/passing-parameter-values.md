@@ -4,14 +4,11 @@ author: Anna Gubareva
 legacyId: 115385
 ---
 # Specify Parameter Values
-A report may contain parameters that allows you to control the data displayed in the document.
 
- ![EUD_HTML5DV_ParametersButton](../images/img121795.png) 
+A report may contain parameters that allow you to control the data displayed in the document.
 
- **Parameters**
+To open the **Parameters Panel**, click the **Parameters** tab in the **Tab Panel** on the right. This panel allows you to specify parameter values that apply when the document preview is generated.
 
-To invoke the **Preview Parameters** panel, click the **Parameters** button on the Document Viewer side panel. This panel allows you to specify parameter values that apply when the document preview generation starts.
+![Web Document Viewer - Parameters Panel](../images/img24668.png)
 
-Use parameter editor to specify a parameter value and click **Submit**. After changing the current values, you can return to the original values by clicking **Reset**.
-
-![web-report-designer-preview-parameters-panel](../images/img24668.png)
+Use the parameter editor to specify a value and click **Submit**. To restore the original values, click **Reset**.

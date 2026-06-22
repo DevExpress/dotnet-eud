@@ -5,9 +5,9 @@ legacyId: 115380
 ---
 # PDF Export Options
 
-Before [exporting a document](export-a-document.md) as a PDF, you can specify PDF-specific options in the **Export Options** panel.
+Before you [export a document](export-a-document.md) to PDF, you can specify PDF-specific options in the **Export Options** panel.
 
-![Web Document Viewer - PDF Export Options](../../images/img121802.png)
+![Web Document Viewer - PDF Export Options panel](../../images/img121802.png)
 
 ## General Options
 
@@ -26,8 +26,8 @@ Before [exporting a document](export-a-document.md) as a PDF, you can specify PD
 	Specifies whether to convert all bitmaps to JPEG during export.
 * **Show Print Dialog on Open**
 	
-	Specifies whether the **Print** dialog should be displayed when the resulting PDF file is opened in an appropriate application.
-* **Never Embedded Fonts**
+	Specifies whether to display the **Print** dialog when the user opens the resulting PDF file in a PDF viewer.
+* **Never Embed Fonts**
 	
 	Specifies font names that should not be embedded into the resulting file. To separate fonts, use semicolons.
 * **Export Editing Fields to AcroForms**
