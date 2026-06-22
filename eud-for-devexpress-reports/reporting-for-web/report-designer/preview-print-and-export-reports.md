@@ -5,22 +5,22 @@ author: Anna Vekhina
 # Preview, Print and Export Reports
 
 ## Preview a Report
-To switch a report to the print preview mode, click the **Preview** button on the [toolbar](report-designer-tools/toolbar.md). You will see your report populated with data and broken down into pages.
+To switch a report to print preview mode, click the **Preview** button on the [toolbar](report-designer-tools/toolbar.md). You will see your report populated with data and broken down into pages.
 
 ![Report in preview mode](../images/eurd-web-preview.png)
 
 > [!NOTE]
-> To learn more about the options available in the print preview mode, refer to the [Document Viewer](../document-viewer.md) section of this documentation.
+> To learn more about  options available in print preview mode, refer to the [Document Viewer](../document-viewer.md) section of this documentation.
 
 
 ## Print a Report
 
-When in the Preview mode, you can use toolbar commands to print out your report.
+When in Preview mode, you can use toolbar commands to print out your report.
 
 ![Print toolbar commands](../images/eurd-web-print.png)
 
 ## Export a Report
-When in the Preview mode, you can export your report to files in different formats.
+When in Preview mode, you can export your report to files in different formats.
 
 ![Export toolbar commands](../images/eurd-web-export.png)
 
@@ -40,7 +40,7 @@ The following documents describe the basics of report exporting and format-speci
 
 ## Hide Report Controls in Documents Exported to Specific Formats
 
-You can specify the **Can Publish Options** setting in the Properties grid to exclude report controls from certain export formats.
+You can specify the **Can Publish Options** setting in the Properties grid to exclude report controls from export formats of your choosing.
 
 ![CanPublishOptions](../images/web-can-publish-options-property-grid.png)
 
@@ -116,4 +116,4 @@ The following image shows both signatures in the PDF tag tree:
 * The **Never Embedded Fonts** export option is not supported for PDF/UA-compatible documents.
 * If a report contains an **XRPdfContent** control, you cannot export the report to PDF with the PDF/UA option enabled.
 * If a report contains editing fields, the exported document does not comply with PDF/UA requirements.
-* Hyperlinks are exported without the semantic tags required by **PDF/UA-2**.
+* Hyperlinks are exported without semantic tags required by **PDF/UA-2**.

@@ -18,9 +18,9 @@ The following table lists default keyboard shortcuts and corresponding actions i
 
 | Action | Key (Windows) | Key (macOS) |
 |---|---|---|
-| Cut the selected content to the Clipboard | <kbd>Ctrl</kbd> + <kbd>X</kbd> | <kbd>⌘</kbd> + <kbd>X</kbd> |
-| Copy the selected content to the Clipboard | <kbd>Ctrl</kbd> + <kbd>C</kbd> | <kbd>⌘</kbd> + <kbd>C</kbd> |
-| Paste the content from the Clipboard | <kbd>Ctrl</kbd> + <kbd>V</kbd> | <kbd>⌘</kbd> + <kbd>V</kbd> |
+| Cut selected content to the Clipboard | <kbd>Ctrl</kbd> + <kbd>X</kbd> | <kbd>⌘</kbd> + <kbd>X</kbd> |
+| Copy selected content to the Clipboard | <kbd>Ctrl</kbd> + <kbd>C</kbd> | <kbd>⌘</kbd> + <kbd>C</kbd> |
+| Paste content from the Clipboard | <kbd>Ctrl</kbd> + <kbd>V</kbd> | <kbd>⌘</kbd> + <kbd>V</kbd> |
 
 ## Zoom in and out the Report
 
@@ -53,4 +53,4 @@ The following table lists default keyboard shortcuts and corresponding actions i
 
 ## Preview Operations
 
-For keyboard shortcuts available in the preview mode, refer to [Document Viewer — Keyboard Shortcuts](../document-viewer/viewing-and-navigating/keyboard-shortcuts.md).
+For keyboard shortcuts available in preview mode, refer to [Document Viewer — Keyboard Shortcuts](../document-viewer/viewing-and-navigating/keyboard-shortcuts.md).
