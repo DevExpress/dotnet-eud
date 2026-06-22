@@ -28,7 +28,7 @@ The dashboard supports two ways to color dashboard item elements:
 	![WinForms Dashboard - Coloring - Global Color Scheme](../../images/wdd-coloring-global-scheme126076.png)
 	
 	 For a global color scheme, the dashboard reserves automatically generated colors for specific values regardless of the filter state.
-* A **Local Color Scheme** uses an independent set of colors and styles for each dashboard item. The image below shows Pie segments that use colors from a local color scheme. These colors do not affect the Chart items that use a global scheme.
+* A **Local Color Scheme** uses an independent set of colors and styles for each dashboard item. The image below shows Pie segments that use colors from a local color scheme. These colors do not affect Chart items that use a global scheme.
 
 	![WinForms Dashboard - Coloring - Local Color Scheme](../../images/common-coloring-local-scheme.png)
 	

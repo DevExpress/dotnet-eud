@@ -8,15 +8,15 @@ title: Print and Export Reports
 To display a document preview, switch to the **Print Preview** tab in the Report Designer. You will see your report populated with data and broken down into pages.
 
 > [!NOTE]
-> To learn more about the options available in the preview mode, refer to the [Document Preview](document-preview.md) section of this documentation.
+> To learn more about the options available in preview mode, refer to the [Document Preview](document-preview.md) section of this documentation.
 
 ## Print a Report
 
-When in the preview mode, you can print out your report using the toolbar commands.
+When in preview mode, you can print out your report using the toolbar commands.
 
 ## Export a Report
 
-When in the preview mode, you can export your report to files in different formats.
+When in preview mode, you can export your report to files in different formats.
 
 The following documents describe the basics of report exporting and format-specific export options.
 * [Exporting](../../print-preview/print-preview-for-wpf/exporting/exporting.md)
@@ -90,7 +90,7 @@ The image below shows the result. **Accessible Role** is set to **Heading 2**, a
 
 ### Define Table Accessible Role
 
-You can specify how Table should be treated by screen readers in the exported PDF document. For this, set the control's **Accessible Role** property to **Table** before you export a report.
+You can specify how a Table should be treated by screen readers in the exported PDF document. To do this, set the control's **Accessible Role** property to **Table** before you export a report.
 
 ![Set AccessibleRole in Property Grid](../../images/wpf-table-assesible-role.png)
 
@@ -102,7 +102,7 @@ The image below shows the result. **Accessible Role** is set to **Table**, and t
 
 ### Define Table Row Accessible Role
 
-You can specify how Table Row should be treated by screen readers in the exported PDF document.
+You can specify how a Table Row should be treated by screen readers in the exported PDF document.
 
 Before you export a report, set the **Table**'s **Accessible Role** property to **Table** to define a control as a table. Then, specify **Table Row**'s **Accessible Role**:
 
@@ -125,7 +125,7 @@ Before you export a report, set the **Table**'s **Accessible Role** property to 
 
 In the PDF-Specific Export Options dialog, set the **PDF/UA Compatibility** property to **PDF/UA-1** or **PDF/UA-2** to conform the exported PDF document to the PDF/UA specification. Then, export the report to PDF format.
 
-The image below shows the result. **Table Cell**'s **Accessible Role** is set to **Table Header Cell**, and the screen reader treats Table Cell with "Bill to:" text as a header cell in the exported document:
+The image below shows the result. The **Table Cell**'s **Accessible Role** is set to **Table Header Cell**, and the screen reader treats the Table Cell with "Bill to:" text as a header cell in the exported document:
 
 ![Exported report in the screen reader](../../images/accessible-exported-document-with-table.png)
 
@@ -133,7 +133,7 @@ The image below shows the result. **Table Cell**'s **Accessible Role** is set to
 
 #### Image Watermark
 
-Use the **Role** property to specify how screen readers interpret image watermarks in exported PDF documents. You can change the value to **Figure** or keep the default value of **Artifact**. An artifact does not appear in the tag tree and is considered external to the content. The **Description** property is not in effect for artifacts.
+Use the **Role** property to specify how screen readers interpret image watermarks in exported PDF documents. You can change the value to **Figure** or keep the default value of **Artifact**. An artifact does not appear in the tag tree and is considered external to  content. The **Description** property is not in effect for artifacts.
 
 If an image watermark conveys meaning and you want to include it in the PDF document logical structure, set **Role** to **Figure** when you create or edit the watermark:
 
@@ -151,7 +151,7 @@ Use the **Description** property to specify the description of the resulting ele
 
 #### Text Watermark
 
-Use the **Role** property to specify how screen readers interpret text watermarks in exported PDF documents. You can change the value to **Paragraph** or keep the default value of **Artifact**. An artifact does not appear in the tag tree and is considered external to the content. The **Description** property is not in effect for artifacts.
+Use the **Role** property to specify how screen readers interpret text watermarks in exported PDF documents. You can change the value to **Paragraph** or keep the default value of **Artifact**. An artifact does not appear in the tag tree and is considered external to content. The **Description** property is not in effect for artifacts.
 
 If a text watermark conveys meaning and you want to include it in the PDF document logical structure, set **Role** to **Paragraph** when you create or edit the watermark:
 
@@ -169,7 +169,7 @@ Use the **Description** property to specify the description of the resulting ele
 
 ### Hide Elements from the Logical Tree
 
-Use the **Accessible Role** property to specify how screen readers treat the **Picture Box**, **Shape**, **Bar Code**, and **Zip Code** controls in exported PDF documents. You can change the value to **Decorative** or keep the default value of **Figure**.
+Use the **Accessible Role** property to specify how screen readers treat **Picture Box**, **Shape**, **Bar Code**, and **Zip Code** controls in exported PDF documents. You can change the value to **Decorative** or keep the default value of **Figure**.
 
 A decorative element is called an artifact and is not part of the PDF document logical structure. An artifact does not appear in the tag tree and is considered external to the content.
 

@@ -36,7 +36,7 @@ Use the following keys for dashboard items:
 | Exit Interaction mode. | <kbd>Esc</kbd> |
 
 > [!NOTE]
-> Keyboard navigation inside the item content is not available for the following dashboard items: Chart, Scatter Chart, Pie, Gauge, Treemap, Range Filter, and Map items (Choropleth Map, Geo Point Maps).
+> Keyboard navigation inside item content is not available for the following dashboard items: Chart, Scatter Chart, Pie, Gauge, Treemap, Range Filter, and Map items (Choropleth Map, Geo Point Maps).
 
 ## Dialogs
 

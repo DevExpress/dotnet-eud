@@ -68,7 +68,7 @@ The following table describes how colors are applied based on the dashboard item
 | **Range Filter** |  The Range Filter colors different measures and series dimensions by hue. |
 | **Treemap** |  If the Treemap contains only measures (the _Values_ section), values that correspond to different measures are colored by different hues. <br> If the Treemap contains arguments (the _Arguments_ section), values that correspond to the first argument are colored by different hues. |
 
-To change the default coloring behavior, you can [configure color modes](#color-measures-and-dimensions).
+To change default coloring behavior, [configure color modes](#color-measures-and-dimensions).
 
 ## Predefined Dashboard Palettes
 
@@ -149,7 +149,7 @@ The **Color Scheme** page of the [dashboard menu](../ui-elements/dashboard-menu.
 
 ### Edit Color Scheme Entries
 
-You can reassign a color and style in the selected color table. For this, select one of the available schemes in the **Color Schemes** pane and click the item in the **Color Scheme Entries** pane.
+You can reassign color and style in the selected color table. For this, select one of the available schemes in the **Color Schemes** pane and click the item in the **Color Scheme Entries** pane.
 	
 If you click the **Color** dropdown button, it invokes a color picker where you can select a new color. 
 

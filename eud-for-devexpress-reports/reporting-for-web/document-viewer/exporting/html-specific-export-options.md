@@ -11,25 +11,25 @@ Before [exporting a document](export-a-document.md) to HTML format, you can spec
 	
 	Specifies how a document is exported to HTML. The following modes are available.
 	* The **Single File** mode allows exporting a document to a single file, without preserving the page-by-page breakdown.
-	* The **Single File PageByPage** mode allows exporting a document to a single file, while preserving the page-by-page breakdown. In this mode, the **Page Border Color**, **Page Border Width** and **Page Range** options are available.
+	* The **Single File PageByPage** mode allows you to export a document to a single file, while preserving the page-by-page breakdown. In this mode, the **Page Border Color**, **Page Border Width**, and **Page Range** options are available.
 * **Page Border Color**
 	
-	Specifies the color of page borders.
+	Specifies page border color.
 * **Page Border Width**
 	
-	Specifies the width (in pixels) of page borders.
+	Specifies page border width (in pixels).
 * **Page Range**
 	
-	Specifies a range of pages which will be included in the resulting file. To separate page numbers, use commas. To set page ranges, use hyphens.
+	Specifies a range of pages that will be included in the resulting file. To separate page numbers, use commas. To set page ranges, use hyphens.
 * **Rasterization Resolution**
 	
-	Specifies the image resolution for raster images.
+	Specifies raster image resolution.
 * **Title**
 	
 	Specifies the title of the created document.
 * **Table Layout**
 	
-	Specifies whether to use table or non-table layout in the resulting document.
+	Specifies whether to use a table or non-table layout in the resulting document.
 	
 * **Remove Secondary Symbols**
 	

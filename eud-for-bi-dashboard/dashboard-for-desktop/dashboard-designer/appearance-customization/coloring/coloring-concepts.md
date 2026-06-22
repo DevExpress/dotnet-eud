@@ -111,7 +111,7 @@ This is how the Dashboard appears after you change the color or style for *Georg
 
 If you want to use an independent set of colors and styles in the selected dashboard item, switch to the **Local Color Scheme**. 
 
-You can see the Treemap's arguments that use colors from the **Local Color Scheme**:  
+You can see Treemap arguments that use colors from the **Local Color Scheme**:  
 
 ![WinForms Dashboard - Treemap Local Color Scheme](../../../images/win-coloring-treemap-local-color-scheme.png)
 

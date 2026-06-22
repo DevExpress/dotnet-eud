@@ -19,7 +19,7 @@ When [exporting a document](exporting-from-print-preview.md), you can configure 
 	Specifies font names that should not be embedded into the resulting file to reduce the file size. To separate fonts, use semicolons.
 * **Export editing fields to AcroForms**
 
-	Specifies whether to convert a report's editing fields to interactive form fields (AcroForms) in the exported PDF.
+	Specifies whether to convert report editing fields to interactive form fields (AcroForms) in the exported PDF.
 * **PDF/A compatibility**
 	
 	Specifies document compatibility with the PDF/A specification (PDF/A-1a, PDF/A-1b, PDF/A-2a, PDF/A-2b, PDF/A-3a, PDF/A-3b).

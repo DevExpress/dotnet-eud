@@ -4,22 +4,22 @@ title: Preview, Print and Export Reports
 # Preview, Print and Export Reports
 
 ## Preview a Report
-To switch a report to the print preview mode, click the **Preview** tab. You will see your report populated with data and broken down into pages, as specified.
+To switch a report to print preview mode, click the **Preview** tab. You will see your report populated with data and broken down into pages, as specified.
 
 ![eurd-win-preview](../../images/eurd-win-preview.png)
 
 > [!NOTE]
-> To learn more about the options available in the print preview mode, refer to the [Print Preview for WinForms](../../print-preview/print-preview-for-winforms.md) section of this documentation.
+> To learn more about the options available in print preview mode, refer to [Print Preview for WinForms](../../print-preview/print-preview-for-winforms.md) section of this documentation.
 
 ## Print a Report
 
-When in the Print Preview mode, you can print out your report using the appropriate menu and toolbar commands.
+When in Print Preview mode, you can print out your report using appropriate menu and toolbar commands.
 
 ![eurd-win-print](../../images/eurd-win-print.png)
 
 ## Export a Report
 
-When in the Print Preview mode, you can export your report to files in different formats. The resulting files can either be saved to the hard drive or sent by e-mail.
+When in Print Preview mode, you can export your report to files in different formats. The resulting files can either be saved to the hard drive or sent by e-mail.
 
 ![eurd-win-export](../../images/eurd-win-export.png)
 
@@ -49,7 +49,7 @@ The following image illustrates the resulting XLXS document with and without pag
 
 ## Export a Report to PDF with Accessible Tags (PDF/UA Compatibility)
 
-Use the **Accessible Role** option to specify how report elements should be treated by screen readers in the exported PDF document. Set the **PDF/UA Compatibility** property to **PDF/UA-1** or **PDF/UA-2** to conform the exported PDF document to the PDF/UA specification. Then, export the report to PDF format.
+Use the **Accessible Role** option to specify how report elements should be treated by screen readers in the exported PDF document. Set the **PDF/UA Compatibility** property to **PDF/UA-1** or **PDF/UA-2** to conform the exported PDF document to the PDF/UA specification. Then, export the report as a PDF.
 
 The following image illustrates [PDF Accessibility Checker (PAC)](https://pac.pdf-accessibility.org/en) output after it processes a PDF/UA-compatible exported document:
 
@@ -88,7 +88,7 @@ Set the control’s **Accessible Role** property to **Heading 1 - Heading 6** be
 
 ![Set AccessibleRole in Property Grid](../../images/label-assesible-role.png)
 
-In the PDF Export Options dialog, set the **PDF/UA Compatibility** property to **PDF/UA-1** or **PDF/UA-2** to conform the exported PDF document to the PDF/UA specification. Then, export the report to PDF format.
+In the PDF Export Options dialog, set the **PDF/UA Compatibility** property to **PDF/UA-1** or **PDF/UA-2** to conform the exported PDF document to the PDF/UA specification. Then, export the report as a PDF.
 
 The image below shows the result. **Accessible Role** is set to **Heading 2**, and the screen reader treats **Label** as a “level two” heading in the exported document:
 
@@ -96,13 +96,13 @@ The image below shows the result. **Accessible Role** is set to **Heading 2**, a
 
 ### Define Table Accessible Role
 
-You can specify how Table should be treated by screen readers in the exported PDF document. For this, set the control's **Accessible Role** property to **Table** before you export a report.
+You can specify how a Table should be treated by screen readers in the exported PDF document. To do this, set the control's **Accessible Role** property to **Table** before you export a report.
 
 ![Set AccessibleRole in Property Grid](../../images/table-assesible-role.png)
 
-In the PDF Export Options dialog, set the **PDF/UA Compatibility** property to **PDF/UA-1** or **PDF/UA-2** to conform the exported PDF document to the PDF/UA specification. Then, export the report to PDF format.
+In the PDF Export Options dialog, set the **PDF/UA Compatibility** property to **PDF/UA-1** or **PDF/UA-2** to conform the exported PDF document to the PDF/UA specification. Then, export the report as a PDF.
 
-The image below shows the result. **Accessible Role** is set to **Table**, and the screen reader treats Table as a table in the exported document:
+The image below shows the result. **Accessible Role** is set to **Table**, and the screen reader treats that Table as a table in the exported document:
 
 ![Exported report in the screen reader](../../images/accessible-exported-document-with-table.png)
 
@@ -141,13 +141,13 @@ The image below shows the result. **Table Cell**'s b is set to **Table Header Ce
 
 Use the **Role** property to specify how screen readers interpret image watermarks in exported PDF documents. You can change the value to **Figure** or keep the default value of **Artifact**. An artifact does not appear in the tag tree and is considered external to the content. The **Description** property is not in effect for artifacts.
 
-If an image watermark conveys meaning and you want to include it to PDF document logical structure, set **Role** to **Figure** when you create or edit the watermark:
+If an image watermark conveys meaning and you want to include it in the PDF document logical structure, set **Role** to **Figure** when you create or edit the watermark:
 
 ![Image Accessible Role Property Set to Figure](../../images/image-watermark-accessible-role.png)
 
 Before you export your report, set the **PDF/UA Compatibility** property to **PDF/UA-1** or **PDF/UA-2** to make the document PDF/UA compatible.
 
-The image below shows the result. **Role** is set to **Figure**, and the screen reader treats watermark as a figure in the exported document:
+The image below shows the result. **Role** is set to **Figure**, and the screen reader treats the watermark as a figure in the exported document:
 
 ![PDF Tag Structure with Watermark as Figure](../../images/watermark-figure-result.png)
 
@@ -165,7 +165,7 @@ If a text watermark conveys meaning and you want to include it to PDF document l
 
 Before you export your report, set the **PDF/UA Compatibility** property to **PDF/UA-1** or **PDF/UA-2** to make the document PDF/UA compatible.
 
-The image below shows the result. **Role** is set to **Paragraph**, and the screen reader treats watermark as a paragraph in the exported document:
+The image below shows the result. **Role** is set to **Paragraph**, and the screen reader treats the watermark as a paragraph in the exported document:
 
 ![PDF Tag Structure with Watermark as Paragraph](../../images/watermark-paragraph-result.png)
 
@@ -180,7 +180,7 @@ Use the **Accessible Role** property to specify how screen readers treat the **P
 A decorative element is called an artifact and is not part of PDF document logical structure. An artifact does not appear in the tag tree and is considered external to the content.
 
 > [!NOTE]
-> Do not exclude elements that carry meaning, use this tag only for decorative elements.
+> Do not exclude elements that carry meaning; use this tag only for decorative elements.
 
 ### Digital Signature Accessible Description
 

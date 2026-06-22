@@ -18,7 +18,7 @@ When [exporting a document](exporting.md), you can configure PDF-specific export
 	Specifies font names that should not be embedded into the resulting file to reduce the file size. To separate fonts, use semicolons.
 * **Export editing fields to AcroForms**
 
-	Specifies whether to convert a report's editing fields to interactive form fields (AcroForms) in the exported PDF.
+	Specifies whether to convert report editing fields to interactive form fields (AcroForms) in the exported PDF.
 * **PDF/A compatibility**
 
 	Specifies document compatibility with the PDF/A specification (PDF/A-1a, PDF/A-1b, PDF/A-2a, PDF/A-2b, PDF/A-3a, PDF/A-3b).
@@ -46,8 +46,8 @@ Click the **...** button next to **Password security** to open the **Password Se
 
 ## Digital Signature
 
-Click the **...** button next to **Digital signature** to open the **Signature Options** dialog. Select a **Certificate** to sign the document, optionally load a signature **Image**, and fill in the **Reason**, **Location**, **Accessible Description**, and **Contact Information** fields.
+Click the **...** button next to **Digital signature** to open the **Signature Options** dialog. Select a **Certificate** to sign the document, optionally load a signature **Image**, and fill in **Reason**, **Location**, **Accessible Description**, and **Contact Information** fields.
 
 ## Additional Options
 
-You can also fill the **Application**, **Author**, **Keywords**, **Subject**, and **Title** fields. These options specify the **Document Properties** of the created PDF file.
+You can also fill **Application**, **Author**, **Keywords**, **Subject**, and **Title** fields. These options specify the **Document Properties** of the created PDF file.

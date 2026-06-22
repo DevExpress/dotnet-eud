@@ -5,7 +5,7 @@ legacyId: 115380
 ---
 # PDF Export Options
 
-Before [exporting a document](export-a-document.md) to PDF, you can specify PDF-specific options in the **Export Options** panel.
+Before [exporting a document](export-a-document.md) as a PDF, you can specify PDF-specific options in the **Export Options** panel.
 
 ![Web Document Viewer - PDF Export Options](../../images/img121802.png)
 
@@ -23,7 +23,7 @@ Before [exporting a document](export-a-document.md) to PDF, you can specify PDF-
 	* **Accessible Description** — a description used by screen readers to identify the signature.
 * **Convert Images to JPEG**
 	
-	Specifies whether to convert all bitmaps to JPEG format during export.
+	Specifies whether to convert all bitmaps to JPEG during export.
 * **Show Print Dialog on Open**
 	
 	Specifies whether the **Print** dialog should be displayed when the resulting PDF file is opened in an appropriate application.
@@ -32,7 +32,7 @@ Before [exporting a document](export-a-document.md) to PDF, you can specify PDF-
 	Specifies font names that should not be embedded into the resulting file. To separate fonts, use semicolons.
 * **Export Editing Fields to AcroForms**
 	
-	Specifies whether to convert a report's editing fields to interactive forms.
+	Specifies whether to convert report editing fields to interactive forms.
 * **Image Quality**
 	
 	Specifies the image quality level. The higher the quality, the bigger the file, and vice versa.
@@ -72,4 +72,4 @@ This complex property allows you to adjust the security options of the resulting
 	Specifies the PDF permissions password for the document.
 * **PDF Permissions Options**
 	
-	Provides access to the options that specify the permissions for printing, changing, copying, and accessing the exported document.
+	Provides access to the options that specify permissions for printing, changing, copying, and accessing the exported document.
