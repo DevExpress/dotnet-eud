@@ -21,7 +21,7 @@ When [exporting a document](exporting.md), you can configure PDF-specific export
 	Specifies whether to convert report editing fields to interactive form fields (AcroForms) in the exported PDF.
 * **PDF/A compatibility**
 
-	Specifies document compatibility with the PDF/A specification (PDF/A-1a, PDF/A-1b, PDF/A-2a, PDF/A-2b, PDF/A-3a, PDF/A-3b).
+	Specifies document compatibility with PDF/A specification (PDF/A-1a, PDF/A-1b, PDF/A-2a, PDF/A-2b, PDF/A-3a, PDF/A-3b).
 * **PDF/UA compatibility**
 
 	Specifies whether to conform the exported PDF document to the PDF/UA (Universal Accessibility) standard. The following values are available:

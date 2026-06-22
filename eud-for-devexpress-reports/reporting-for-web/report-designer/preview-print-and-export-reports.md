@@ -54,7 +54,7 @@ Use the **Accessible Role** option to specify how report elements should be trea
 
 ![Accessible Role property grid](../images/web-acc-role-property-grid.png)
 
-Set the **PDF/UA Compatibility** property to **PDF/UA-1** or **PDF/UA-2** to conform the exported PDF document to the PDF/UA specification. Then, export the report to PDF format.
+Set the **PDF/UA Compatibility** property to **PDF/UA-1** or **PDF/UA-2** to conform the exported PDF document to PDF/UA specification. Then, export the report as a PDF.
 
 The following image illustrates [PDF Accessibility Checker (PAC)](https://pac.pdf-accessibility.org/en) output after it processes a PDF/UA-compatible exported document:
 

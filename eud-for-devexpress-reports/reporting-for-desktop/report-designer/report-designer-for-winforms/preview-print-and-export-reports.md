@@ -114,7 +114,7 @@ Before you export a report, set the **Table**'s **Accessible Role** property to 
 
 ![Set AccessibleRole in Property Grid](../../images/table-row-assesible-role.png)
 
-In the PDF Export Options dialog, set the **PDF/UA Compatibility** property to **PDF/UA-1** or **PDF/UA-2** to conform the exported PDF document to the PDF/UA specification. Then, export the report to PDF format.
+In the PDF Export Options dialog, set the **PDF/UA Compatibility** property to **PDF/UA-1** or **PDF/UA-2** to conform the exported PDF document to PDF/UA specification. Then, export the report as a PDF.
 
 The image below shows the result. **Table Row**'s **Accessible Role** is set to **Table Header Row**, and the screen reader treats **Table Row** as a header row of the table in the exported document:
 
@@ -129,7 +129,7 @@ Before you export a report, set the **Table**'s **Accessible Role** property to 
 > [!NOTE]
 > **Accessible Role** is not in effect for cells merged with the Cell's **Row Span** property. 
 
-In the PDF Export Options dialog, set the **PDF/UA Compatibility** property to **PDF/UA-1** or **PDF/UA-2** to conform the exported PDF document to the PDF/UA specification. Then, export the report to PDF format.
+In the PDF Export Options dialog, set the **PDF/UA Compatibility** property to **PDF/UA-1** or **PDF/UA-2** to conform the exported PDF document to PDF/UA specification. Then, export the report as a PDF.
 
 The image below shows the result. **Table Cell**'s b is set to **Table Header Cell**, and the screen reader treats Table Cell with "Bill to:" text as a header cell in the exported document:
 

@@ -43,7 +43,7 @@ The following image illustrates the resulting XLSX document with and without pag
 
 ## Export a Report to PDF with Accessible Tags (PDF/UA Compatibility)
 
-Use the **Accessible Role** option to specify how report elements should be treated by screen readers in the exported PDF document. Set the **PDF/UA Compatibility** property to **PDF/UA-1** or **PDF/UA-2** in the [PDF-Specific Export Options](../../print-preview/print-preview-for-wpf/exporting/pdf-specific-export-options.md) to conform the exported PDF document to the PDF/UA specification. Then, export the report to PDF format.
+Use the **Accessible Role** option to specify how report elements should be treated by screen readers in the exported PDF document. Set the **PDF/UA Compatibility** property to **PDF/UA-1** or **PDF/UA-2** in the [PDF-Specific Export Options](../../print-preview/print-preview-for-wpf/exporting/pdf-specific-export-options.md) to conform the exported PDF document to PDF/UA specifications. Then, export the report as a PDF.
 
 The following image illustrates [PDF Accessibility Checker (PAC)](https://pac.pdf-accessibility.org/en) output after it processes a PDF/UA-compatible exported document:
 
@@ -82,7 +82,7 @@ Set the control's **Accessible Role** property to **Heading 1 - Heading 6** befo
 
 ![Set AccessibleRole in Property Grid](../../images/wpf-label-assesible-role.png)
 
-In the PDF-Specific Export Options dialog, set the **PDF/UA Compatibility** property to **PDF/UA-1** or **PDF/UA-2** to conform the exported PDF document to the PDF/UA specification. Then, export the report to PDF format.
+In the PDF-Specific Export Options dialog, set the **PDF/UA Compatibility** property to **PDF/UA-1** or **PDF/UA-2** to conform the exported PDF document to PDF/UA specifications. Then, export the report as a PDF.
 
 The image below shows the result. **Accessible Role** is set to **Heading 2**, and the screen reader treats **Label** as a "level two" heading in the exported document:
 
@@ -94,7 +94,7 @@ You can specify how a Table should be treated by screen readers in the exported 
 
 ![Set AccessibleRole in Property Grid](../../images/wpf-table-assesible-role.png)
 
-In the PDF-Specific Export Options dialog, set the **PDF/UA Compatibility** property to **PDF/UA-1** or **PDF/UA-2** to conform the exported PDF document to the PDF/UA specification. Then, export the report to PDF format.
+In the PDF-Specific Export Options dialog, set the **PDF/UA Compatibility** property to **PDF/UA-1** or **PDF/UA-2** to conform the exported PDF document to PDF/UA specifications. Then, export the report as a PDF.
 
 The image below shows the result. **Accessible Role** is set to **Table**, and the screen reader treats Table as a table in the exported document:
 
@@ -108,7 +108,7 @@ Before you export a report, set the **Table**'s **Accessible Role** property to 
 
 ![Set AccessibleRole in Property Grid](../../images/wpf-table-row-assesible-role.png)
 
-In the PDF-Specific Export Options dialog, set the **PDF/UA Compatibility** property to **PDF/UA-1** or **PDF/UA-2** to conform the exported PDF document to the PDF/UA specification. Then, export the report to PDF format.
+In the PDF-Specific Export Options dialog, set the **PDF/UA Compatibility** property to **PDF/UA-1** or **PDF/UA-2** to conform the exported PDF document to  PDF/UA specification. Then, export the report as a PDF.
 
 The image below shows the result. **Table Row**'s **Accessible Role** is set to **Table Header Row**, and the screen reader treats **Table Row** as a header row of the table in the exported document:
 
@@ -123,7 +123,7 @@ Before you export a report, set the **Table**'s **Accessible Role** property to 
 > [!NOTE]
 > **Accessible Role** is not in effect for cells merged with the Cell's **Row Span** property.
 
-In the PDF-Specific Export Options dialog, set the **PDF/UA Compatibility** property to **PDF/UA-1** or **PDF/UA-2** to conform the exported PDF document to the PDF/UA specification. Then, export the report to PDF format.
+In the PDF-Specific Export Options dialog, set the **PDF/UA Compatibility** property to **PDF/UA-1** or **PDF/UA-2** to conform the exported PDF document to PDF/UA specifications. Then, export the report as a PDF.
 
 The image below shows the result. The **Table Cell**'s **Accessible Role** is set to **Table Header Cell**, and the screen reader treats the Table Cell with "Bill to:" text as a header cell in the exported document:
 

@@ -38,7 +38,7 @@ Before [exporting a document](export-a-document.md) as a PDF, you can specify PD
 	Specifies the image quality level. The higher the quality, the bigger the file, and vice versa.
 * **PDF/A Compatibility**
 	
-	Specifies document compatibility with the PDF/A specification (PDF/A-1a, PDF/A-1b, PDF/A-2a, PDF/A-2b, PDF/A-3a, PDF/A-3b).
+	Specifies document compatibility with PDF/A specification (PDF/A-1a, PDF/A-1b, PDF/A-2a, PDF/A-2b, PDF/A-3a, PDF/A-3b).
 * **PDF/UA Compatibility**
 
 	Specifies whether to conform the exported PDF document to the PDF/UA (Universal Accessibility) standard. The following values are available:
