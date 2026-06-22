@@ -9,7 +9,7 @@ To export a document, click the **Export To** button on the Document Viewer tool
 
 ![Web Document Viewer - Export To button in toolbar](../../images/img121796.png)
 
-The exported document starts downloading. The browser may prompt you to save the file or open it in an associated application.
+Once you select the export format, the document export begins. The browser may prompt you to save the file or open it in an associated application.
 
 ## Export Options
 

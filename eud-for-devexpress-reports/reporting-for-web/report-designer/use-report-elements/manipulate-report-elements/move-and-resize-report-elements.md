@@ -30,7 +30,7 @@ You can also use the Report Explorer to move table cells inside a table:
 
 ## Resize Report Elements
 
-Select a control and then drag a rectangle drawn on its edge or corner to resize it.
+Select a control and then drag a rectangle that appears on its edge or corner to resize the control.
 
 ![Web Report Designer - Resize Report Controls](../../../images/img119279.png)
 

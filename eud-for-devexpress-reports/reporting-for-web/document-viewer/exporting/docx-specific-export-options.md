@@ -25,7 +25,7 @@ Before you [export a document](export-a-document.md) to DOCX format, you can spe
 
 * **Keep Row Height**
 	
-	This option is enabled if you enable the **Table Layout** option. If you edit content inside the table after the export, the table cells grow to fit the new content size. As a result, the resulting document can differ from the initial document in **Print Preview**. To avoid this effect, enable the **Keep Row Height** option. If the option is set to **false** (the default value), row heights are not fixed. If you add a new line of text to a cell, the line increases the cell's row height.
+	This option is available if you enable the **Table Layout** option. If you edit content inside the table after the export, the table cells grow to fit the new content size. Thus, the resulting document can differ from the initial document in **Print Preview**. To prevent this discrepancy, enable the **Keep Row Height** option. If the option is set to **false** (the default value), row heights are not fixed. If you add a new line of text to a cell, the line increases the cell's row height.
 
 * **Rasterize Images**
 	
