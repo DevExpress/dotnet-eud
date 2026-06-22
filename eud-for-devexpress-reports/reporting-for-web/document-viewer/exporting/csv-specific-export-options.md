@@ -20,7 +20,7 @@ Before you [export a document](export-a-document.md) to CSV format, you can spec
 	Specifies whether to place strings with separators in quotation marks in the exported document.
 * **Separator**
 	
-	Specifies a symbol used to separate text elements (comma by default).
+	Specifies a symbol used to separate text elements (the default symbol is a comma).
 * **Skip Empty Rows**
 	
 	Specifies whether to include empty rows in the resulting file.

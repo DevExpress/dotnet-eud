@@ -30,7 +30,7 @@ Before you [export a document](export-a-document.md) to MHT format, you can spec
 	Specifies the encoding name used in the exported document.
 * **Table Layout**
 	
-	Specifies whether to use table or non-table layout in the resulting document.
+	Specifies whether to use a table or non-table layout in the resulting document.
 * **Use HRef Hyperlinks**
 	
 	Specifies whether to use standard HTML link references in document navigation.

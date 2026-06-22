@@ -39,8 +39,8 @@ The following tools allow you to control report element size, location, alignmen
 		![WinForms Report Designer - Align to Grid context menu item](../../../../images/eurd-win-align-to-grid-context-menu-item.png)
 		
 		You can temporarily ignore snapping when you move and resize controls:
-		* hold down <kbd>Alt</kbd> if you move or resize controls using the mouse;
-		* hold down <kbd>Ctrl</kbd> if you move or resize controls using the keyboard.
+		* Hold down <kbd>Alt</kbd> if you move or resize controls using the mouse;
+		* Hold down <kbd>Ctrl</kbd> if you move or resize controls using the keyboard.
 
 	* **Snap Lines**
 		
@@ -55,6 +55,6 @@ The following tools allow you to control report element size, location, alignmen
 		![WinForms Report Designer - Snap Line Margin and Padding properties](../../../../images/eurd-win-snap-line-margin-and-padding.png)
 
 		To avoid snapping controls, do the following:
-		* hold down <kbd>Alt</kbd> if you move or resize controls using the mouse;
-		* hold down <kbd>Ctrl</kbd> if you move or resize controls using the keyboard.
+		* Hold down <kbd>Alt</kbd> if you move or resize controls using the mouse;
+		* Hold down <kbd>Ctrl</kbd> if you move or resize controls using the keyboard.
 		

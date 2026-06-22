@@ -30,7 +30,7 @@ Before you [export a document](export-a-document.md) to HTML format, you can spe
 	Specifies the title of the created document.
 * **Table Layout**
 	
-	Specifies whether to use table or non-table layout in the resulting document.
+	Specifies whether to use a table or non-table layout in the resulting document.
 * **Use HRef Hyperlinks**
 	
 	Specifies whether to use standard HTML link references in document navigation.

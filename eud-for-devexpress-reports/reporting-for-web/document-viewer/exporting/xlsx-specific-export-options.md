@@ -11,7 +11,7 @@ Before you [export a document](export-a-document.md) to XLSX format, you can spe
 
 * **Export Mode**
 	
-	Specifies how a document is exported to XLSX. The following modes are available.
+	Specifies how a document is exported to XLSX. The following modes are available:
 	* The **Single File** mode allows you to export a document to a single file without dividing it into pages.
 	* The **Single File PageByPage** mode allows you to export a document to a single file while preserving the page-by-page breakdown. In this mode, the **Page Range** option is available.
 * **Export Hyperlinks**
