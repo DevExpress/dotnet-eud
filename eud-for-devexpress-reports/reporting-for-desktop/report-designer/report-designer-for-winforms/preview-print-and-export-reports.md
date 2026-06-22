@@ -175,7 +175,7 @@ Use the **Description** property to specify the description of the resulting ele
 
 ### Hide Elements from the Logical Tree 
 
-Use the **Accessible Role** property to specify how screen readers treat the **Picture Box**, **Shape**, **Bar Code**, and **Zip Code** controls in exported PDF documents. You can change the value to **Decorative** or keep the default value of **Figure**.
+Use the **Accessible Role** property to specify how screen readers treat **Picture Box**, **Shape**, **Bar Code**, and **Zip Code** controls in exported PDF documents. You can change the value to **Decorative** or keep the default value of **Figure**.
 
 A decorative element is called an artifact and is not part of PDF document logical structure. An artifact does not appear in the tag tree and is considered external to the content.
 

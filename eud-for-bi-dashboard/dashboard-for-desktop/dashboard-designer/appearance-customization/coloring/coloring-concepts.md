@@ -99,7 +99,7 @@ Add a [Range Filter](../../dashboard-item-settings/range-filter.md) with the fol
 
 ![WinForms Dashboard - Range Filter Coloring](../../../images/win-coloring-range-filter.png)
 
-Identical colors and styles correspond to the same _State_ values, so you can associate and compare data across all dashboard items. All items use **Global Colors** by default (you can toggle this in the Ribbon). Click **Edit Colors** to modify the colors and styles used in the palette:
+Identical colors and styles correspond to the same _State_ values, so you can associate and compare data across all dashboard items. All items use **Global Colors** by default (you can toggle this in the Ribbon). Click **Edit Colors** to modify colors and styles used in the palette:
 
 ![WinForms Dashboard - Custom Color](../../../images/win-coloring-custom-color.png)
 

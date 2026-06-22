@@ -65,7 +65,7 @@ Use this table to map report controls to accessibility structure roles in export
 The table describes the following: 
 
 - How each control behaves when the **Accessible Role** property is set to **Default**.
-- Roles you can assign to ensure that screen readers correctly identify the element's purpose in the exported PDF document.
+- Roles you can assign to ensure that screen readers correctly identify element purpose in the exported PDF document.
 
 > [!Tip]
 > **Decorative** role means an element is treated as an artifact (outside the tag tree). Use this role only for non-informative visual elements. 

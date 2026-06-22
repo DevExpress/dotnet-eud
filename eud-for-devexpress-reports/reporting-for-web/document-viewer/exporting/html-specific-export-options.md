@@ -10,7 +10,7 @@ Before [exporting a document](export-a-document.md) to HTML format, you can spec
 * **Export Mode**
 	
 	Specifies how a document is exported to HTML. The following modes are available.
-	* The **Single File** mode allows exporting a document to a single file, without preserving the page-by-page breakdown.
+	* The **Single File** mode allows you to export a document to a single file, without preserving the page-by-page breakdown.
 	* The **Single File PageByPage** mode allows you to export a document to a single file, while preserving the page-by-page breakdown. In this mode, the **Page Border Color**, **Page Border Width**, and **Page Range** options are available.
 * **Page Border Color**
 	

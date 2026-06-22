@@ -35,7 +35,7 @@ The dashboard supports two ways to color dashboard item elements:
 
 You can configure color modes as follows:
 
-- A specific data item - To specify the color mode for a specific measure/dimension, open the [data item menu](../ui-elements/data-item-menu.md) and go to the **Data Shaping** section. Use the **Coloring** option to specify the color mode of this data item.
+- A specific data item - To specify color mode for a specific measure/dimension, open the [data item menu](../ui-elements/data-item-menu.md) and go to the **Data Shaping** section. Use the **Coloring** option to specify the color mode of this data item.
 	
 	![Coloring for Web Dashboard - Data item coloring options](../../images/wdd-coloring-data-item-options126109.png)
 - All data items - To see a list of all measures/dimensions for which you can specify color mode in a dashboard item, open the dashboard item's [Options](../ui-elements/dashboard-item-menu.md) menu and go to the **Coloring** section. 

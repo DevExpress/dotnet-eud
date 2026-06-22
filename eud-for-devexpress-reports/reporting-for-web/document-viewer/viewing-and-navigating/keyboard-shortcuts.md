@@ -107,4 +107,4 @@ title: Keyboard Shortcuts
 | Exit the Document Map Tab and move to the Tab Panel | <kbd>Shift</kbd> + <kbd>Tab</kbd> |
 
 > [!NOTE]
-> When navigating bookmarks, the Document Map Tab remains focused.
+> When you navigate bookmarks, the Document Map Tab remains focused.
