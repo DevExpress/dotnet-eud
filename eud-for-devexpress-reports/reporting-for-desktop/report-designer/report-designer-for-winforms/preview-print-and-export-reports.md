@@ -57,7 +57,7 @@ The following image illustrates [PDF Accessibility Checker (PAC)](https://pac.pd
 
 Use this table to map report controls to accessibility structure roles in exported PDF files. 
 
-The table describes the following:
+The table below describes the following:
 
 - How each control behaves when the **Accessible Role** property is set to **Default**.
 - Roles you can assign to ensure that screen readers correctly identify the element's purpose in the exported PDF document.

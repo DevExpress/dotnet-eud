@@ -9,7 +9,7 @@ The Bubble Map dashboard item automatically selects palette and scale settings u
 
 ![WinForms Dashboard - Bubble Map](../../../../images/img23580.png)
 
-To customize these settings, click the **Options** button next to the **Color** placeholder. This invokes the **Color Scale Options** dialog, which allows you to specify the palette and scale options.
+To customize these settings, click the **Options** button next to the **Color** placeholder. This invokes the **Color Scale Options** dialog that allows you to specify the palette and scale options.
 
 ![WinForms Dashboard - Color Scale Options Dialog](../../../../images/img126626.png)
 
