@@ -25,7 +25,7 @@ Consider a Chart dashboard item where dimensions and measures are colored by hue
 
 ![WinForms Dashboard - Chart Colored by Hue with Local Colors](../../../images/img25392.png)
 
-For this dashboard item, the **Color Scheme** dialog will contain combinations of all dimension values and a specific measure.
+For this dashboard item, the **Color Scheme** dialog will contain combinations of all dimension values and measures.
 
 ![WinForms Dashboard - Local Color Scheme Dialog](../../../images/img25394.png)
 
