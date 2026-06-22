@@ -15,10 +15,10 @@ Before you [export a document](export-a-document.md) to an image, you can specif
 	* The **Single File PageByPage** mode allows you to export a document to a single file while preserving the page-by-page breakdown. In this mode, the **Page Border Color**, **Page Border Width**, and **Page Range** options are available.
 * **Page Border Color**
 	
-	Specifies the color of page borders.
+	Specifies page border color.
 * **Page Border Width**
 	
-	Specifies the width (in pixels) of page borders.
+	Specifies page border width (in pixels).
 * **Page Range**
 	
 	Specifies a range of pages to include in the resulting file. To separate page numbers, use commas. To set page ranges, use hyphens.

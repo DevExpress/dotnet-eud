@@ -92,7 +92,7 @@ The following properties are specific to the Character Comb control:
 
 	* **Auto Width**
 		
-		Only the cell width depends on the current font size of a control (the **Сell Width** property is ignored), and **Cell Height** value is specified manually.
+		Only the cell width depends on the current font size of a control (the **Cell Width** property is ignored), and **Cell Height** value is specified manually.
 		
 		With this setting, the following behavior is expected:
 		

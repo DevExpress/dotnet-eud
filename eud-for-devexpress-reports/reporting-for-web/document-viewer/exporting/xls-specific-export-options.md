@@ -4,7 +4,7 @@ author: Anna Gubareva
 legacyId: 115383
 ---
 # XLS Export Options
-Before you [export a document](export-a-document.md) to XLS format, you can specify XLS-specific options in the **Export Options** panel.
+Before you [export a document](export-a-document.md) to XLS, you can specify XLS-specific options in the **Export Options** panel.
 
 ![Web Document Viewer - XLS Export Options panel](../../images/img121833.png)
 
@@ -43,7 +43,7 @@ Before you [export a document](export-a-document.md) to XLS format, you can spec
 	Specifies whether to rasterize vector images, such as pictures, charts, or barcodes.
 * **Rasterization Resolution**
 	
-	Specifies the image resolution for raster images.
+	Specifies raster image resolution.
 * **Fit To Printed Page Width**
 	
 	Shrinks the width of the exported document's printout to one page.

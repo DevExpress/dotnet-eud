@@ -174,7 +174,7 @@ Use the **Accessible Role** property to specify how screen readers treat **Pictu
 A decorative element is called an artifact and is not part of the PDF document logical structure. An artifact does not appear in the tag tree and is considered external to the content.
 
 > [!NOTE]
-> Do not exclude elements that carry meaning, use this role only for decorative elements.
+> Do not exclude elements that carry meaning; use this role only for decorative elements.
 
 ### Digital Signature Accessible Description
 

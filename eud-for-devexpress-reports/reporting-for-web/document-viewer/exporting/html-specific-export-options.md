@@ -4,7 +4,7 @@ author: Anna Gubareva
 legacyId: 115377
 ---
 # HTML Export Options
-Before you [export a document](export-a-document.md) to HTML format, you can specify HTML-specific options in the **Export Options** panel.
+Before you [export a document](export-a-document.md) to HTML, you can specify HTML-specific options in the **Export Options** panel.
 
 ![Web Document Viewer - HTML Export Options panel](../../images/img121799.png)
 * **Export Mode**

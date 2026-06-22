@@ -5,7 +5,7 @@ legacyId: 115376
 ---
 # CSV Export Options
 
-Before you [export a document](export-a-document.md) to CSV format, you can specify CSV-specific options in the **Export Options** panel.
+Before you [export a document](export-a-document.md) to CSV, you can specify CSV-specific options in the **Export Options** panel.
 
 ![Web Document Viewer - CSV Export Options panel](../../images/img121798.png)
 

@@ -4,7 +4,7 @@ author: Anna Gubareva
 legacyId: 115379
 ---
 # MHT Export Options
-Before you [export a document](export-a-document.md) to MHT format, you can specify MHT-specific options in the **Export Options** panel.
+Before you [export a document](export-a-document.md) to MHT, you can specify MHT-specific options in the **Export Options** panel.
 
 ![Web Document Viewer - MHT Export Options panel](../../images/img121801.png)
 

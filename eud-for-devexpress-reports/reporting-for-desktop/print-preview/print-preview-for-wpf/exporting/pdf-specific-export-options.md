@@ -42,7 +42,7 @@ When [exporting a document](exporting.md), you can configure PDF-specific export
 
 ## Password Security
 
-Click the **...** button next to **Password security** to open the **Password Security** dialog. You can require a password to open the document and restrict editing, printing, and copying. Use the **Encryption Level** option to specify the encryption algorithm (128-bit AES, 256-bit AES, or 128-bit ARC4).
+Click the **...** button next to **Password security** to open the **Password Security** dialog. You can require a password to open the document and restrict permissions to edit, print, and copy. Use the **Encryption Level** option to specify the encryption algorithm (128-bit AES, 256-bit AES, or 128-bit ARC4).
 
 ## Digital Signature
 

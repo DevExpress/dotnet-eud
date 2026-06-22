@@ -5,7 +5,7 @@ legacyId: 115382
 ---
 # Text Export Options
 
-Before you [export a document](export-a-document.md) to TXT format, you can specify TXT-specific options in the **Export Options** panel.
+Before you [export a document](export-a-document.md) to TXT, you can specify TXT-specific options in the **Export Options** panel.
 
 ![Web Document Viewer - Text Export Options panel](../../images/img121806.png)
 * **Encoding**

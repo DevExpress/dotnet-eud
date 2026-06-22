@@ -5,7 +5,7 @@ legacyId: 118919
 ---
 # DOCX Export Options
 
-Before you [export a document](export-a-document.md) to DOCX format, you can specify DOCX-specific options in the **Export Options** panel.
+Before you [export a document](export-a-document.md) to DOCX, you can specify DOCX-specific options in the **Export Options** panel.
 
 ![Web Document Viewer - DOCX Export Options panel](../../images/img129100.png)
 
@@ -33,7 +33,7 @@ Before you [export a document](export-a-document.md) to DOCX format, you can spe
 
 * **Rasterization Resolution**
 	
-	Specifies the image resolution for raster images.
+	Specifies raster image resolution.
 
 
 * **Export Page Breaks**

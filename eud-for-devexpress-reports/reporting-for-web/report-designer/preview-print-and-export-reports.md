@@ -114,6 +114,6 @@ The following image shows both signatures in the PDF tag tree:
 ### Limitations
 
 * The **Never Embedded Fonts** export option is not supported for PDF/UA-compatible documents.
-* If a report contains an **XRPdfContent** control, you cannot export the report to PDF with the PDF/UA option enabled.
+* If a report contains a **PDF Content** control, you cannot export the report to PDF with the PDF/UA option enabled.
 * If a report contains editing fields, the exported document does not comply with PDF/UA requirements.
 * Hyperlinks are exported without semantic tags required by **PDF/UA-2**.

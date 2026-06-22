@@ -131,7 +131,7 @@ Before you export a report, set the **Table**'s **Accessible Role** property to 
 
 In the PDF Export Options dialog, set the **PDF/UA Compatibility** property to **PDF/UA-1** or **PDF/UA-2** to conform the exported PDF document to PDF/UA specification. Then, export the report as a PDF.
 
-The image below shows the result. **Table Cell**'s b is set to **Table Header Cell**, and the screen reader treats Table Cell with "Bill to:" text as a header cell in the exported document:
+The image below shows the result. **Table Cell**'s **Accessible Role** is set to **Table Header Cell**, and the screen reader treats Table Cell with "Bill to:" text as a header cell in the exported document:
 
 ![Exported report in the screen reader](../../images/accessible-exported-document-with-table.png)
 
@@ -204,7 +204,7 @@ The following image shows both signatures in the PDF tag tree:
 ### Limitations
 
 * The **Never Embedded Fonts** export option is not supported for PDF/UA-compatible documents.
-* If a report contains an **XRPdfContent** control, you cannot export the report to PDF with the PDF/UA option enabled.
+* If a report contains a **PDF Content** control, you cannot export the report to PDF with the PDF/UA option enabled.
 * If a report contains editing fields, the exported document does not comply with PDF/UA requirements.
 * Hyperlinks are exported without the semantic tags required by **PDF/UA-2**.
 
