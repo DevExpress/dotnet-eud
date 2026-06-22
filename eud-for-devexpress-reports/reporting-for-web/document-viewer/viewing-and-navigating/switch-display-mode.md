@@ -1,20 +1,18 @@
 ---
-title: Switch Multipage Mode
+title: Switch Between Single Page and Multipage View
 author: Anna Gubareva
 legacyId: 115386
 ---
-# Switch Multipage Mode
-You can switch between the Single Page and MultiPage modes with the **Toggle Multipage Mode** button located in the Document Viewer toolbar.
+# Switch Between Single Page and Multipage View
 
-![web-designer-main-toolbar-multipage](../../images/img24556.png)
+You can switch between the Single Page and Multipage modes with the **Toggle Multipage Mode** button located in the Document Viewer toolbar.
 
-**Toggle Multipage Mode**
+![Web Document Viewer - Toggle Multipage Button in Toolbar](../../images/img24556.png)
 
+In the default Single Page mode, the Document Viewer displays only one page. You can navigate between document pages with the navigation buttons and drop-down list (see [Navigate Between Pages](navigate-between-pages.md)).
 
-In the default single page mode, the Document Viewer displays only one page. You can navigate between document pages with the navigation buttons and dropdown list (see [Navigate Between Pages](navigate-between-pages.md)).
+![Web Document Viewer - Single Page Mode](../../images/img121843.png)
 
-![EUD_HTML5DV_DefaultMode](../../images/img121843.png)
+In the Multipage mode, the Document Viewer displays several document pages. In addition to the standard navigation features, a vertical scroll bar lets you scroll through pages.
 
-In the multipage mode, the Document Viewer displays several document pages, the pages can be partially visible. In addition to the standard navigation features, there is a vertical scroll bar that allows you to scroll through pages.
-
-![EUD_HTML5DV_MultipageMode](../../images/img121844.png)
+![Web Document Viewer - Multipage Mode](../../images/img121844.png)

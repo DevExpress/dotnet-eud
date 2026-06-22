@@ -4,14 +4,11 @@ author: Anna Gubareva
 legacyId: 115373
 ---
 # Search for Text
-To search for text in a document, click the **Search**  tab in the Document Viwer side panel or the **Search** button in the toolbar. 
 
-![EUD_HTML5DV_SearchButton](../../images/img121840.png)
+To search for text in a document, click the **Search** tab in the **Tab Panel** or the **Search** button in the toolbar.
 
-**Search**
+In the **Search Panel**, enter a search string and select options for case-sensitive search or whole-word matching. Press <kbd>Enter</kbd> or click **Search** to start. Click **Stop** to cancel. Use the **Up** and **Down** buttons to move between results.
 
-![EUD_HTML5DV_SearchPanel](../../images/img121841.png)
+![Web Document Viewer - Search Panel](../../images/img121841.png)
 
-The **Search** panel allows you to enter a string to find and specify whether to use case-sensitive search and whether it is required to match the whole word during the search. To start the search, press ENTER or click the **Search** button. Click **Stop** to stop the search process. You can use the **up** and **down** buttons to navigate the document's search results.
-
-The **Search** panel displays a list of matching words in the document. You can click the item in the **Search Result** list to navigate to the location in the document and highlight the element that contains the match.
+The **Search Panel** lists all matches in the document. Click an item in the **Search Result** list to navigate to that location; the Document Viewer highlights the matching element.

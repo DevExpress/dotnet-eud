@@ -1,25 +1,16 @@
 ---
-title: Print
+title: Print a Document
 author: Anna Gubareva
 legacyId: 115404
 ---
-# Print
-The Web Document Viewer supports pixel perfect document rendering, that is, it displays a report document exactly how it appears on paper. The Web Document Viewer renders the report in PDF and invokes the **Print** dialog of the browser PDF plug-in.
+# Print a Document
 
-![web-designer-main-toolbar-print](../images/img121022.png)
+To print the document, click the **Print** button on the Viewer toolbar. Click **Print Page** to print only the currently displayed page.
 
-**Print**
+The built-in PDF viewer in browsers allows you to select the destination and specify print settings. Click the **Print** toolbar item to open the **Print** dialog:
 
-![web-designer-main-toolbar-print-page](../images/img121023.png)
+![Web Page - Print Dialog](../images/img121023.png)
 
-**Print Page**
-
-To print the entire document, click the **Print** button on the Viewer toolbar. Click the **Print Page** button to print the currently displayed document page.
-
-When you click any of these buttons, the Document Viewer attempts to detect the browser PDF plug-in and use it for printing. 
-
-If the PDF plug-in is installed and enabled, its **Print** dialog is invoked. To print the document, specify the settings in this dialog and click **Print**.
-
-The Document Viewer also displays a dialog that allows you to download the PDF file in case the PDF plug-in is disabled or not installed, or print action fails. The resulting PDF file contains a script that starts printing the document immediately after it is opened in a compatible viewer.
+The Document Viewer uses the browser's built-in PDF viewer for printing. Printing does not work if the PDF viewer is unavailable or the browser is configured to not open PDF files automatically. In this case, the Document Viewer downloads the report as a PDF file. The file contains a script that opens the **Print** dialog when you open the PDF in a PDF reader.
 
 ![Download PDF Instead of Print Dialog](../images/imgbvz001.png)

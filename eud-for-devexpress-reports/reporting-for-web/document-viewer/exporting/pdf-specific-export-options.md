@@ -5,24 +5,24 @@ legacyId: 115380
 ---
 # PDF Export Options
 
-Before [exporting a document](export-a-document.md) to PDF, you can specify PDF-specific options in the **Export Options** panel.
+Before you [export a document](export-a-document.md) to PDF, you can specify PDF-specific options in the **Export Options** panel.
 
-![EUD_HTML5DV_PdfExportOptions](../../images/img121802.png)
+![Web Document Viewer - PDF Export Options panel](../../images/img121802.png)
 
 ## General Options
 
 * **Signatures**
 
 	Provides access to digital signatures. Select a signature to sign the document on export to PDF.
-* **Convert Images to Jpeg**
+* **Convert Images to JPEG**
 	
-	Specifies whether all bitmaps contained in the document should be converted to JPEG format during export to PDF.
+	Specifies whether to convert all bitmaps in the document to JPEG format on export to PDF.
 * **Show Print Dialog on Open**
 	
-	Specifies whether the **Print** dialog should be displayed when the resulting PDF file is opened in an appropriate application.
-* **Never Embedded Fonts**
+	Specifies whether to display the **Print** dialog when the user opens the resulting PDF file in a PDF viewer.
+* **Never Embed Fonts**
 	
-	Specifies font names which should not be embedded into the resulting file. To separate fonts, use semicolons.
+	Specifies font names to exclude from embedding in the resulting file. To separate fonts, use semicolons.
 * **Export Editing Fields To AcroForms**
 	
 	Specifies whether to convert a report's editing fields to interactive forms.
@@ -35,20 +35,20 @@ Before [exporting a document](export-a-document.md) to PDF, you can specify PDF-
 	Specifies document compatibility with the **PDF/A** specification.
 * **Page Range**
 	
-	Specifies a range of pages which will be included in the resulting file. To separate page numbers, use commas. To set page ranges, use hyphens.
+	Specifies a range of pages to include in the resulting file. To separate page numbers, use commas. To set page ranges, use hyphens.
 * **Rasterization Resolution**
 	
 	Specifies the image resolution for raster images.
 
 ## Document Options
-The **Document Options** complex property contains options which specify the **Document Properties** of the created PDF file. Click the complex property's header to access its nested options.
+The **Document Options** complex property contains options that specify the **Document Properties** of the created PDF file. Click the complex property's header to access its nested options.
 
-![EUD_HTML5DV_PdfDocumentOptions](../../images/img121803.png)
+![Web Document Viewer - PDF Document Options panel](../../images/img121803.png)
 
 ## PDF Password Security Options
 This complex property allows you to adjust the security options of the resulting PDF file.
 
-![EUD_HTML5DV_PdfSecurityOptions](../../images/img121804.png)
+![Web Document Viewer - PDF Password Security Options panel](../../images/img121804.png)
 * **Open Password**
 	
 	Specifies the password for opening the exported PDF document.
@@ -60,4 +60,4 @@ This complex property allows you to adjust the security options of the resulting
 	Specifies the PDF permissions password for the document.
 * **PDF Permissions Options**
 	
-	Provides access to the options which specify the permissions for printing, changing, copying, and accessing the exported document.
+	Provides access to the options that specify the permissions for printing, changing, copying, and accessing the exported document.
