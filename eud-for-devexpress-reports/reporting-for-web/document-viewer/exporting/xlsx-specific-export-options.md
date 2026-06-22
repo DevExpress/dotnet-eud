@@ -5,7 +5,7 @@ legacyId: 115384
 ---
 # XLSX Export Options
 
-Before you [export a document](export-a-document.md) to XLSX format, you can specify XLSX-specific options in the **Export Options** panel.
+Before you [export a document](export-a-document.md) to XLSX, you can specify XLSX-specific options in the **Export Options** panel.
 
 ![Web Document Viewer - XLSX Export Options panel](../../images/img121837.png)
 
@@ -37,7 +37,7 @@ Before you [export a document](export-a-document.md) to XLSX format, you can spe
 	Specifies whether to rasterize vector images, such as pictures, charts, or barcodes.
 * **Rasterization Resolution**
 	
-	Specifies the image resolution for raster images.
+	Specifies raster image resolution.
 * **Fit To Printed Page Width**
 	
 	Shrinks the width of the exported document's printout to one page.

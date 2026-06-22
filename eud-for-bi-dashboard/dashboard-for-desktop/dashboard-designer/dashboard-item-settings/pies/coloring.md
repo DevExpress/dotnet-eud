@@ -14,6 +14,8 @@ In **Default** color mode, the Pie dashboard item colors its segments in the fol
 
     ![](../../../images/win-coloring-pie-arguments-colored-by-default.png)
 
+For each color, you can also specify a fill style to distinguish pie segments without relying on color.
+
 >[!Tip]
 >**Documentation:**<br>
 >* [Coloring Basics](../../appearance-customization/coloring.md)    

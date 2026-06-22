@@ -398,6 +398,8 @@ items:
       href: web-dashboard-viewer-mode/dashboard-parameters/requesting-parameter-values.md
   - name: Exporting
     href: web-dashboard-viewer-mode/exporting.md
+  - name: Keyboard Navigation
+    href: web-dashboard-viewer-mode/keyboard-navigation.md
   - name: Dashboard Items
     href: web-dashboard-viewer-mode/dashboard-items.md
     items:

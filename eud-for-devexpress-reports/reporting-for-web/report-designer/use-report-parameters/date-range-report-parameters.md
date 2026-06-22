@@ -4,7 +4,7 @@ author: Sergey Andreev
 ---
 # Range Report Parameters
 
-This topic describes how to create date and time range parameters and filter a report's data by the specified dates.
+This topic describes how to create date and time range parameters and filter report data by specified dates.
 
 |Date Range Parameter Editor| Time Range Parameter Editor|
 |--|--|
@@ -29,7 +29,7 @@ Follow the steps below to add a range parameter to a report in the [Report Desig
     ![value-expression](../../images/use-date-ranges-design-value-expression.png)
 
 
-3. [Reference the created range parameter](reference-report-parameters.md).  You can reference this parameter in the report's filter string to [filter the report's data](../shape-report-data/filter-data/filter-data-at-the-report-level.md) by the created date or time range. Select the report, click the **FilterString**'s ellipsis button in the **Properties window**, and construct a filter condition in the invoked **FilterString Editor**.
+3. [Reference the created range parameter](reference-report-parameters.md).  You can reference this parameter in the report's filter string to [filter report data](../shape-report-data/filter-data/filter-data-at-the-report-level.md) by the created date or time range. Select the report, click the **FilterString**'s ellipsis button in the **Properties window**, and construct a filter condition in the invoked **FilterString Editor**.
 
     We recommend that you use the following functions with range parameters in expressions and filter strings:
 
@@ -37,15 +37,15 @@ Follow the steps below to add a range parameter to a report in the [Report Desig
     - `InTimeRange(Time, FromTime, ToTime)` - equivalent to the `FromTime <= Time && Time < ToTime` expression (including cases where the range spans midnight, such as 23:00-01:00).
     - `OutOfTimeRange(Time, FromTime, ToTime)` - equivalent to the `FromTime > Time || Time => ToTime` expression (including cases where the range spans midnight, such as 23:00-01:00).
 
-    The example below filters the report's data by the following filter string:
+    The example below filters report data by the following filter string:
 
     `InDateRange([ShippedDate], ?paramDateRange_Start, ?paramDateRange_End) `
 
 
-When you switch to the report's **Print Preview** tab, the [Parameters panel](parameters-panel.md) displays the range parameter. After you submit a start and end values, the report document shows filtered data.
+When you switch to the report's **Print Preview** tab, the [Parameters panel](parameters-panel.md) displays the range parameter. After you submit start and end values, the report document shows filtered data.
 
 ![A date range parameter's editor in Preview](../../images/eurd-web-date-ranges-parameters-panel.png)
 
-The start and end parameter values store the selected day's midnight time. For instance, if you choose _10/15/2019_, the *DateTime* value is _10/15/2019 12:00:00 AM_. If your date fields include non-midnight times, records for the end date _10/15/2019_ are excluded from the report. To include data for the 10/15/2019 date, use the **GetDate()** function in the **FilterString Editor**.  
+Start and end parameter values store the selected day's midnight time. For instance, if you choose _10/15/2019_, the *DateTime* value is _10/15/2019 12:00:00 AM_. If your date fields include non-midnight times, records for the end date _10/15/2019_ are excluded from the report. To include data for the 10/15/2019 date, use the **GetDate()** function in the **FilterString Editor**.  
 
-![Filter String - GetDate](../../images/eurd-web-date-ranges-filterstring-getdate.png)d
+![Filter String - GetDate](../../images/eurd-web-date-ranges-filterstring-getdate.png)

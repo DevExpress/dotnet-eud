@@ -13,6 +13,8 @@ The image below illustrates the Pie Map dashboard item whose argument values are
 
 ![PieMap_DataItems](../../../../images/img23581.png)
 
+For each color, you can also specify a fill style to distinguish pie segments without relying on color.
+
 >[!Tip]
 >**Documentation:**<br>
 >* [Coloring Basics](../../../appearance-customization/coloring.md)

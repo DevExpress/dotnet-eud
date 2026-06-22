@@ -12,7 +12,7 @@ This section contains the following topics.
 	Describes how to format dashboard item elements whose values meet a specified condition.
 * [Coloring](appearance-customization/coloring.md)
 	
-	Describes how to manage coloring of dashboard item elements.
+	Describes how to change colors and styles (including hatch styles and line styles) used to paint specific dashboard item elements, such as chart series points or pie segments.
 
 *  [Themes](appearance-customization/themes.md)
 

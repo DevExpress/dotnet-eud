@@ -14,6 +14,8 @@ items:
       href: document-viewer/viewing-and-navigating/switch-display-mode.md
     - name: Zoom
       href: document-viewer/viewing-and-navigating/zooming.md
+    - name: Keyboard Shortcuts
+      href: document-viewer/viewing-and-navigating/keyboard-shortcuts.md
   - name: Edit Content
     href: document-viewer/content-editing.md
   - name: Specify Parameter Values
@@ -454,6 +456,8 @@ items:
     href: report-designer/localize-reports.md
   - name: Preview, Print and Export Reports
     href: report-designer/preview-print-and-export-reports.md
+  - name: Keyboard Shortcuts
+    href: report-designer/keyboard-shortcuts.md
   - name: Report Designer Tools
     href: report-designer/report-designer-tools.md
     items:

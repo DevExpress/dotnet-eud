@@ -16,7 +16,7 @@ The tutorial involves two main steps:
 
 Define a master-detail relationship between _Category_ and _Product_ reports within a single project:
 
-- Select the XRControl's element (**Table Cell** in this example) in the main report.
+- Select the control's element (**Table Cell** in this example) in the main report.
 - Set its **Action** property to **NavigateToReportAction**.
 - Assign the **ReportSource** property to a detail report instance.
 

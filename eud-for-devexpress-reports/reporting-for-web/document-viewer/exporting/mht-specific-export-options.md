@@ -4,24 +4,24 @@ author: Anna Gubareva
 legacyId: 115379
 ---
 # MHT Export Options
-Before you [export a document](export-a-document.md) to MHT format, you can specify MHT-specific options in the **Export Options** panel.
+Before you [export a document](export-a-document.md) to MHT, you can specify MHT-specific options in the **Export Options** panel.
 
 ![Web Document Viewer - MHT Export Options panel](../../images/img121801.png)
 
 * **Export Mode**
 	
 	Specifies how a document is exported to MHT. The following modes are available.
-	* The **Single File** mode allows you to export a document to a single file without preserving the page-by-page breakdown.
-	* The **Single File PageByPage** mode allows you to export a document to a single file while preserving the page-by-page breakdown. In this mode, the **Page Border Color**, **Page Border Width**, and **Page Range** options are available.
+	* The **Single File** mode allows you to export a document to a single file, without preserving the page-by-page breakdown.
+	* The **Single File PageByPage** mode allows you to export a document to a single file, while preserving the page-by-page breakdown. In this mode, the **Page Border Color**, **Page Border Width**, and **Page Range** options are available.
 * **Page Border Color**
 	
-	Specifies the color of page borders.
+	Specifies page border color.
 * **Page Border Width**
 	
-	Specifies the width (in pixels) of page borders.
+	Specifies page border width (in pixels).
 * **Page Range**
 	
-	Specifies a range of pages to include in the resulting file. To separate page numbers, use commas. To set page ranges, use hyphens.
+	Specifies a range of pages that will be included in the resulting file. To separate page numbers, use commas. To set page ranges, use hyphens.
 * **Title**
 	
 	Specifies the title of the created MHT file.
@@ -31,9 +31,6 @@ Before you [export a document](export-a-document.md) to MHT format, you can spec
 * **Table Layout**
 	
 	Specifies whether to use a table or non-table layout in the resulting document.
-* **Use HRef Hyperlinks**
-	
-	Specifies whether to use standard HTML link references in document navigation.
 
 * **Remove Secondary Symbols**
 	

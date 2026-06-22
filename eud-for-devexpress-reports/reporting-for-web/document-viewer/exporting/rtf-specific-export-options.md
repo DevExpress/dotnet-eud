@@ -18,7 +18,7 @@ Before you [export a document](export-a-document.md) to RTF, you can specify RTF
 	Specifies a range of pages to include in the resulting file. To separate page numbers, use commas. To set page ranges, use hyphens.
 * **Rasterization Resolution**
 	
-	Specifies the image resolution for raster images.
+	Specifies raster image resolution.
 * **Export Page Breaks**
 	
 	Specifies whether to include page breaks in the exported RTF file.

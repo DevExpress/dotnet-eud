@@ -544,6 +544,8 @@ items:
       href: dashboard-viewer/dashboard-parameters/requesting-parameter-values.md
   - name: Printing and Exporting
     href: dashboard-viewer/printing-and-exporting.md
+  - name: Keyboard Navigation
+    href: dashboard-viewer/keyboard-navigation.md
   - name: Dashboard Items
     href: dashboard-viewer/dashboard-items.md
     items:

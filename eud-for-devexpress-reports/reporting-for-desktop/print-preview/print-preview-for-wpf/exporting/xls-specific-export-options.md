@@ -10,9 +10,9 @@ When [exporting a document](exporting.md), you can define the following XLS-spec
 * **Export mode**
 	
 	Specifies how a document is exported to XLS. The following modes are available.
-	* The **Single file** mode allows export of a document to a single file, without dividing it into pages.
-	* The **Single file page-by-page** mode allows export of a document to a single file, divided into pages. In this mode, the **Page range** option is available.
-	* The **Different files** mode allows export of a document to multiple files, one for each document page. In this mode, the **Page range** option is available.
+	* The **Single file** mode allows you to export a document to a single file, without dividing it into pages.
+	* The **Single file page-by-page** mode allows you to export a document to a single file, divided into pages. In this mode, the **Page range** option is available.
+	* The **Different files** mode allows you to export a document to multiple files, one for each document page. In this mode, the **Page range** option is available.
 * **Page range**
 	
 	Specifies a range of pages which will be included in the resulting file. To separate page numbers, use commas. To set page ranges, use hyphens.
