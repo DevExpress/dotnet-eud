@@ -27,6 +27,36 @@ In the Dashboard Designer, you can use the following set of predefined aggregate
 
 These functions can be used for all types of numeric fields. After creating such calculated fields, you can use them as measures in an OLAP cube.
 
+## Aggregate Function Support in Server Mode
+
+Support for certain aggregate functions in server mode depends on the database provider.
+
+| Database Provider | Var | Varp | StdDev | StdDevp | CountDistinct | Median | Mode |
+| --- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| Microsoft SQL Server | ![Supported](../../../images/icon-yes18710.png) | ![Supported](../../../images/icon-yes18710.png) | ![Supported](../../../images/icon-yes18710.png) | ![Supported](../../../images/icon-yes18710.png) | ![Supported](../../../images/icon-yes18710.png) | ![Supported](../../../images/icon-yes18710.png)[^1] | ![Not supported](../../../images/icon-not.png) |
+| Microsoft SQL Server CE | ![Not supported](../../../images/icon-not.png) | ![Not supported](../../../images/icon-not.png) | ![Not supported](../../../images/icon-not.png) | ![Not supported](../../../images/icon-not.png) | ![Not supported](../../../images/icon-not.png) | ![Not supported](../../../images/icon-not.png) | ![Not supported](../../../images/icon-not.png) |
+| PostgreSQL | ![Supported](../../../images/icon-yes18710.png)[^2] | ![Supported](../../../images/icon-yes18710.png)[^2]| ![Supported](../../../images/icon-yes18710.png)[^2] | ![Supported](../../../images/icon-yes18710.png)[^2] | ![Supported](../../../images/icon-yes18710.png) | ![Supported](../../../images/icon-yes18710.png) | ![Supported](../../../images/icon-yes18710.png) |
+| MySQL | ![Supported](../../../images/icon-yes18710.png) | ![Supported](../../../images/icon-yes18710.png) | ![Supported](../../../images/icon-yes18710.png) | ![Supported](../../../images/icon-yes18710.png) | ![Supported](../../../images/icon-yes18710.png) | ![Not supported](../../../images/icon-not.png) | ![Not supported](../../../images/icon-not.png) |
+| Oracle | ![Supported](../../../images/icon-yes18710.png) | ![Supported](../../../images/icon-yes18710.png) | ![Supported](../../../images/icon-yes18710.png) | ![Supported](../../../images/icon-yes18710.png) | ![Supported](../../../images/icon-yes18710.png) | ![Supported](../../../images/icon-yes18710.png) | ![Supported](../../../images/icon-yes18710.png) |
+| SAP HANA | ![Supported](../../../images/icon-yes18710.png) | ![Not supported](../../../images/icon-not.png) | ![Not supported](../../../images/icon-not.png) | ![Not supported](../../../images/icon-not.png) | ![Supported](../../../images/icon-yes18710.png) | ![Supported](../../../images/icon-yes18710.png) | ![Not supported](../../../images/icon-not.png) |
+| IBM DB2 | ![Not supported](../../../images/icon-not.png) | ![Not supported](../../../images/icon-not.png) | ![Not supported](../../../images/icon-not.png) | ![Not supported](../../../images/icon-not.png) | ![Supported](../../../images/icon-yes18710.png) | ![Not supported](../../../images/icon-not.png) | ![Not supported](../../../images/icon-not.png) |
+| SAP SQL Anywhere | ![Supported](../../../images/icon-yes18710.png) | ![Supported](../../../images/icon-yes18710.png) | ![Supported](../../../images/icon-yes18710.png) | ![Supported](../../../images/icon-yes18710.png) | ![Supported](../../../images/icon-yes18710.png) | ![Not supported](../../../images/icon-not.png) | ![Not supported](../../../images/icon-not.png) |
+| SAP Sybase ASE | ![Not supported](../../../images/icon-not.png) | ![Not supported](../../../images/icon-not.png) | ![Not supported](../../../images/icon-not.png) | ![Not supported](../../../images/icon-not.png) | ![Supported](../../../images/icon-yes18710.png) | ![Not supported](../../../images/icon-not.png) | ![Not supported](../../../images/icon-not.png) |
+| Firebird | ![Not supported](../../../images/icon-not.png) | ![Not supported](../../../images/icon-not.png) | ![Not supported](../../../images/icon-not.png) | ![Not supported](../../../images/icon-not.png) | ![Supported](../../../images/icon-yes18710.png) | ![Not supported](../../../images/icon-not.png) | ![Not supported](../../../images/icon-not.png) |
+| Microsoft Access | ![Supported](../../../images/icon-yes18710.png) | ![Supported](../../../images/icon-yes18710.png) | ![Supported](../../../images/icon-yes18710.png) | ![Supported](../../../images/icon-yes18710.png) | ![Not supported](../../../images/icon-not.png) | ![Not supported](../../../images/icon-not.png) | ![Not supported](../../../images/icon-not.png) |
+| SAP Sybase Advantage | ![Not supported](../../../images/icon-not.png) | ![Not supported](../../../images/icon-not.png) | ![Not supported](../../../images/icon-not.png) | ![Not supported](../../../images/icon-not.png) | ![Supported](../../../images/icon-yes18710.png) | ![Not supported](../../../images/icon-not.png) | ![Not supported](../../../images/icon-not.png) |
+| Pervasive PSQL | ![Not supported](../../../images/icon-not.png) | ![Not supported](../../../images/icon-not.png) | ![Not supported](../../../images/icon-not.png) | ![Not supported](../../../images/icon-not.png) | ![Supported](../../../images/icon-yes18710.png) | ![Not supported](../../../images/icon-not.png) | ![Not supported](../../../images/icon-not.png) |
+| Teradata | ![Not supported](../../../images/icon-not.png) | ![Not supported](../../../images/icon-not.png) | ![Not supported](../../../images/icon-not.png) | ![Not supported](../../../images/icon-not.png) | ![Supported](../../../images/icon-yes18710.png) | ![Not supported](../../../images/icon-not.png) | ![Not supported](../../../images/icon-not.png) |
+| SQLite | ![Not supported](../../../images/icon-not.png) | ![Not supported](../../../images/icon-not.png) | ![Not supported](../../../images/icon-not.png) | ![Not supported](../../../images/icon-not.png) | ![Supported](../../../images/icon-yes18710.png) | ![Not supported](../../../images/icon-not.png) | ![Not supported](../../../images/icon-not.png) |
+| VistaDB | ![Not supported](../../../images/icon-not.png) | ![Not supported](../../../images/icon-not.png) | ![Not supported](../../../images/icon-not.png) | ![Not supported](../../../images/icon-not.png) | ![Supported](../../../images/icon-yes18710.png) | ![Not supported](../../../images/icon-not.png) | ![Not supported](../../../images/icon-not.png) |
+| Google BigQuery | ![Supported](../../../images/icon-yes18710.png) | ![Supported](../../../images/icon-yes18710.png) | ![Supported](../../../images/icon-yes18710.png) | ![Supported](../../../images/icon-yes18710.png) | ![Supported](../../../images/icon-yes18710.png) | ![Not supported](../../../images/icon-not.png) | ![Not supported](../../../images/icon-not.png) |
+
+![Supported](../../../images/icon-yes18710.png)  - supported.  
+![Not supported](../../../images/icon-not.png) - not supported.
+
+[^1]: `Median` requires SQL Server 2022 (16.x) or later or Azure SQL.
+[^2]: `Var`, `Varp`, `StdDev`, and `StdDevp` are supported in PostgreSQL 8.2 and later.
+
 ## Custom Aggregate Functions
 
 Along with the predefined aggregations (like Min, Max, Sum, Avg), the Dashboard supports custom aggregation functions. A custom aggregate function appears in the [Expression Editor](../../ui-elements/expression-editor.md)'s categories if the function was registered in your application.
